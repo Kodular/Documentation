@@ -17,12 +17,12 @@ extra:
   social:
     - type: globe
       link: https://www.makeroid.io
-    - type: github
-      link: https://github.com/Makeroid
     - type: twitter
       link: https://twitter.com/Makeroid
     - type: facebook
       link: https://facebook.com/Makeroid
+    - type: github
+      link: https://github.com/Makeroid
 
 # Material theme for MkDocs : https://github.com/squidfunk/mkdocs-material/
 theme:
