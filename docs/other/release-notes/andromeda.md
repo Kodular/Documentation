@@ -354,8 +354,6 @@
 
 ## 1.0.4 Andromeda   \|   _28 July 2018_
 
----
-
 ### UI Changes
 
 - Fixed "_Loading Project_" dialog shown even when project loaded
@@ -380,7 +378,6 @@
 
 
 ## 1.0.5 Andromeda   \|   _14 August 2018_
-
 
 ### UI Changes
 
