@@ -69,7 +69,7 @@ markdown_extensions:
   #- pymdownx.smartsymbols
   #- pymdownx.superfences
   #- pymdownx.tasklist:
-  #  custom_checkbox: true
+  #   custom_checkbox: true
   #- pymdownx.tilde
 
 
