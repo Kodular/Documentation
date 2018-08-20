@@ -76,31 +76,31 @@ markdown_extensions:
 # Site navigation in the side bar
 nav:
   - Getting Started:
-		- Overview: index.md
-		- Testing: live-development.md
-		- Other:
-			- Extensions: other/extensions/index.md
-				- Create Extensions: other/extensions/create-extensions.md
-			- Release Notes: other/release-notes/index.md
-			- Backpack: other/backpack.md
+    - Overview: index.md
+    - Testing: live-development.md
+    - Other:
+      - Extensions: other/extensions/index.md
+        - Create Extensions: other/extensions/create-extensions.md
+      - Release Notes: other/release-notes/index.md
+      - Backpack: other/backpack.md
   - Components:
-		- Overview: components/index.md
-		- Screen: components/screen.md
-		- User Interface:
-			- Button: components/user-interface/button.md
-			- Checkbox: components/user-interface/checkbox.md
-			- Linear Progressbar: components/user-interface/linear-progressbar.md
-			- Circular Progress: components/user-interface/circular-progress.md
+    - Overview: components/index.md
+    - Screen: components/screen.md
+    - User Interface:
+      - Button: components/user-interface/button.md
+      - Checkbox: components/user-interface/checkbox.md
+      - Linear Progressbar: components/user-interface/linear-progressbar.md
+      - Circular Progress: components/user-interface/circular-progress.md
   - Blocks:
-		- Control: blocks/control.md
-		- Logic: blocks/logic.md
-		- Math: blocks/math.md
-		- Text: blocks/text.md
-		- Lists: blocks/lists.md
-		- Colors: blocks/colors.md
-		- Variables: blocks/variables.md
-		- Procedures: blocks/procedures.md
-		- Any Component: blocks/any-componet.md
+    - Control: blocks/control.md
+    - Logic: blocks/logic.md
+    - Math: blocks/math.md
+    - Text: blocks/text.md
+    - Lists: blocks/lists.md
+    - Colors: blocks/colors.md
+    - Variables: blocks/variables.md
+    - Procedures: blocks/procedures.md
+    - Any Component: blocks/any-componet.md
 
 
 
