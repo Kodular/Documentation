@@ -7,8 +7,8 @@ script:
   - git clean -f -d -x
   - mkdocs build
 after_success:
-  - git config user.name "Deployment Bot"
-  - git config user.email "deploy@travis-ci.org"
+  - git config user.name "Makeroid Bot"
+  - git config user.email "github@makeroid.io"
   - git remote add gh-token "https://${GH_TOKEN}@github.com/Makeroid/Documentation.git";
   - git fetch gh-token && git fetch gh-token gh-pages:gh-pages;
   - pip install mkdocs -U;
