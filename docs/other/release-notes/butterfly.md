@@ -6,7 +6,7 @@
 
 - Improved **Dialog** of _Fingerprint Component_
 - Now _About Screen_ (_and all dialogs_) can have **clickable links**
-_The "major changes" of this update are the bunch of new components :yum:_
+_The "major changes" of this update are the bunch of new components_
 
 ### Companion
 
@@ -118,7 +118,7 @@ _The "major changes" of this update are the bunch of new components :yum:_
     ![image](https://community.makeroid.io/uploads/default/original/2X/e/e71d1e1cce403606203a03f6a53430b816024679.png) ![image](https://community.makeroid.io/uploads/default/original/2X/c/ceae21594938d8de465bd38b8ece8acf262013c8.png)
 - **Sound Recorder** component
     - `Pause`: pauses the _started recording_  
-    _Requires Minimum SDK 24_  
+    :warning: _Requires Minimum SDK 24_  
     ![image](https://community.makeroid.io/uploads/default/original/2X/1/1f395d0e3994db93d19902484c8641526ee7f005.png) 
 - **Audio** component
     - `Sound Effects Enabled`: enables or disables the _sound_ on a component  
