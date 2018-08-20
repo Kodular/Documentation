@@ -62,14 +62,14 @@ markdown_extensions:
   #- pymdownx.critic
   #- pymdownx.details
   - pymdownx.emoji:
-      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+    emoji_generator: !!python/name:pymdownx.emoji.to_svg
   #- pymdownx.inlinehilite
   #- pymdownx.keys
   #- pymdownx.mark
   #- pymdownx.smartsymbols
   #- pymdownx.superfences
   #- pymdownx.tasklist:
-  #    custom_checkbox: true
+  #  custom_checkbox: true
   #- pymdownx.tilde
 
 
@@ -79,7 +79,7 @@ nav:
     - Overview: index.md
     - Testing: live-development.md
     - Other:
-      - Extensions: other/extensions/index.md
+      - Extensions:
         - Create Extensions: other/extensions/create-extensions.md
       - Release Notes: other/release-notes/index.md
       - Backpack: other/backpack.md
