@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+     <loc>https://xn--nxa.docs.makeroid.io/</loc>
+     <lastmod>2018-08-20</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://xn--nxa.docs.makeroid.io/components/</loc>
+     <lastmod>2018-08-20</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://xn--nxa.docs.makeroid.io/components/user-interface/button/</loc>
+     <lastmod>2018-08-20</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://xn--nxa.docs.makeroid.io/components/user-interface/checkbox/</loc>
+     <lastmod>2018-08-20</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://xn--nxa.docs.makeroid.io/components/user-interface/linear-progressbar/</loc>
+     <lastmod>2018-08-20</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://xn--nxa.docs.makeroid.io/components/user-interface/circular-progress/</loc>
+     <lastmod>2018-08-20</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+</urlset>
