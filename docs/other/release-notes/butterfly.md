@@ -20,7 +20,7 @@ _The "major changes" of this update are the bunch of new components :yum:_
 - Added **Download Link** when _Exporting APK using QR Code_
 
 
-### Bugs Fixed:
+### Bugs Fixed
 
 - **User Interface**
     - Textbox: _Background color was not working properly_
@@ -29,7 +29,7 @@ _The "major changes" of this update are the bunch of new components :yum:_
 - **Layout**
     - Surface View: _Little bug which was freezing the screen_
 - **Media**
-    - Audi Picker: _Not working on some devices_
+    - Audio Picker: _Not working on some devices_
     - Image Picker: _Minor Try/Catch Bug_
     - OCR: _API Error (component was not working since some changes on the server)_
 - **Drawing and Animation**
@@ -71,7 +71,7 @@ _The "major changes" of this update are the bunch of new components :yum:_
 ![image](https://community.makeroid.io/uploads/default/original/2X/b/b94c53de71062b2e610387bcf5505a87b5ba001a.png) 
 - Added new **Spreadsheet** component to _Storage_ category  
 ![image](https://community.makeroid.io/uploads/default/original/2X/e/efb69cb04ef50d0b93f80f86bfc6676a88ad260d.png) 
-    - Powered by [Airtable](https://www.airtable.com)
+    - Powered by [Airtable](https://www.airtable.com)  
     _Thanks to [@Jerin_Jacob](https://community.makeroid.io/u/Jerin_Jacob)_
 - Added new **Arduino** component to _Connectivity_ category  
 ![image](https://community.makeroid.io/uploads/default/original/2X/8/849776630fde2532293cb953f15a5af6cd2e1bc5.png) 
