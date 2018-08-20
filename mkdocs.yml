@@ -34,6 +34,7 @@ theme:
     primary: white
     accent: pink
   logo: 'assets/logo.png'
+  favicon: 'assets/favicon.ico'
   font:
     text: Roboto
     code: Roboto Mono
