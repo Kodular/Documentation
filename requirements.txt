@@ -1,0 +1,6 @@
+mkdocs
+mkdocs-material
+markdown-include
+markdown-macros
+pymdown-extensions
+-e git://github.com/SivagiriVisakan/mkdocs-replace-plugin.git#egg=replace
