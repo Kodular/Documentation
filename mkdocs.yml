@@ -27,7 +27,6 @@ extra:
 # Material theme for MkDocs : https://github.com/squidfunk/mkdocs-material/
 theme:
   name: 'material'
-  custom_dir: makeroid_theme/
   feature:
     tabs: true
   palette:
