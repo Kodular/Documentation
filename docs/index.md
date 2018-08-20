@@ -38,13 +38,13 @@ For further help, please visit the [Makeroid Community](https://community.makero
 
 #### Testing
 
-* [Live Development](https://github.com/makeroid/docs/tree/6b89ce9eb8c93762fd238491325318be0e89c35f/live-development.md)
+* [Live Development](live-development.md)
 
 #### Other
 
-* [Extensions](other/extensions/)
+* [Extensions](other/extensions/index.md)
 	* [Create Extensions](other/extensions/create-extensions.md)
-* [Release Notes](other/release-notes/)
+* [Release Notes](other/release-notes/index.md)
 * [Backpack](other/backpack.md)
 * [Donate](https://paypal.me/Makeroid)
 
