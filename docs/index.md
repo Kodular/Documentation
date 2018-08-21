@@ -42,10 +42,13 @@ For further help, please visit the [Makeroid Community](https://community.makero
 	* [Via WiFi](live-development/wifi.md)
 	* [Via USB](live-development/usb.md)
 
+#### Extension
+
+* [Overview](extensions/index.md)
+* [Create Extensions](extensions/create-extensions.md)
+
 #### Other
 
-* [Extensions](other/extensions/index.md)
-	* [Create Extensions](other/extensions/create-extensions.md)
 * [Resources](other/resources/index.md)
 	* [Create Extensions](other/resources/concept-cards.md)
 * [Release Notes](other/release-notes/index.md)

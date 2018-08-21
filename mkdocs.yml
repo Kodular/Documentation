@@ -81,10 +81,10 @@ nav:
       - Overview: live-development/index.md
       - Via WiFi: live-development/wifi.md
       - Via USB: live-development/usb.md
+    - Extensions:
+      - Overview: extensions/index.md
+      - Create Extensions: extensions/create-extensions.md
     - Other:
-      - Extensions:
-        - Overview: other/extensions/index.md
-        - Create Extensions: other/extensions/create-extensions.md
       - Resources:
         - Overview: other/resources/index.md
         - Concept Cards: other/resources/concept-cards.md
