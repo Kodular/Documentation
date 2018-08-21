@@ -46,6 +46,8 @@ For further help, please visit the [Makeroid Community](https://community.makero
 
 * [Extensions](other/extensions/index.md)
 	* [Create Extensions](other/extensions/create-extensions.md)
+* [Resources](other/resources/index.md)
+	* [Create Extensions](other/resources/concept-cards.md)
 * [Release Notes](other/release-notes/index.md)
 * [Backpack](other/backpack.md)
 * [Donate](https://paypal.me/Makeroid)
