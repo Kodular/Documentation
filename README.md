@@ -1,8 +1,8 @@
 # Makeroid Docs
 
-The documentation source for [Makeroid](www.makeroid.io) lives is here.
+The documentation source for [Makeroid](https://www.makeroid.io) lives is here.
 
-The documentation rendered using [MkDocs](www.mkdocs.org).
+The documentation rendered using [MkDocs](https://www.mkdocs.org).
 This uses the [Material theme](https://squidfunk.github.io/mkdocs-material) for MkDocs.
 
 ## Setting up
