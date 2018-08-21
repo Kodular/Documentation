@@ -1,6 +1,3 @@
-component: Circular Progress
----------
-
 # Circular Progress
 
 ## Overview

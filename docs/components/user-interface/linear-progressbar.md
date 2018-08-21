@@ -1,6 +1,3 @@
-component: Linear Progressbar
---------
-
 # Linear Progressbar
 
 ## Overview
