@@ -926,8 +926,8 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc></loc>
-     
+     <loc>https://docs.makeroid.io/blocks/any-component/</loc>
+     <lastmod>2018-08-21</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>
