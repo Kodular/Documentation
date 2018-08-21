@@ -4,16 +4,16 @@ It can be quite a hassle building and installing your project's APK file on your
 
 Visit the below pages to learn how to connect the companion via different ways:
 
-{% page-ref page="via-wifi.md" %}
+- [Via WiFi](wifi.md)
 
-{% page-ref page="via-usb.md" %}
+- [Via USB](usb.md)
 
 ## Installing the Makeroid Companion on Android Phone / Emulator
 
-**Step 1:** Download the Makeroid Companion from the Google Play Store.
+**Step 1:** Download the [Makeroid Companion from the Google Play Store](https://play.google.com/store/apps/details?id=io.makeroid.companion).
 
-![Makeroid Companion Play Store Listing page](../../.gitbook/assets/googleplaycompanion.png)
+![](/assets/images/live-development/index-1.png)
 
 **Step 2:** Open the app
 
-![The Makeroid Companion App](../../.gitbook/assets/screenshot_20180114-155517.png)
+![](/assets/images/live-development/index-2.png)

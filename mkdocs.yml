@@ -78,10 +78,12 @@ nav:
   - Getting Started:
     - Overview: index.md
     - Live Development:
+      - Overview: live-development/index.md
       - Via WiFi: live-development/wifi.md
       - Via USB: live-development/usb.md
     - Other:
       - Extensions:
+        - Overview: other/extensions/index.md
         - Create Extensions: other/extensions/create-extensions.md
       - Release Notes: other/release-notes/index.md
       - Backpack: other/backpack.md
