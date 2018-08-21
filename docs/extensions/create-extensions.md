@@ -27,8 +27,8 @@
     For example: `C:\Program Files\Java\jdk1.8.0_131`  
     * Edit `PATH` and add those:
 
-    `%JAVA_HOME%/bin`, `%JAVA_HOME%/jre/bin`, `C:\ProgramData\Oracle\Java\javapath`  
-* **Check Java installation:** Execute `java -version`
+    `%JAVA_HOME%/bin`, `%JAVA_HOME%/jre/bin`, `C:\ProgramData\Oracle\Java\javapath`    
+* **Check Java installation:** Execute `java -version`  
     ```bash
         $ java -version
         java version "1.8.0_131"
@@ -47,7 +47,7 @@
     * **Set** `ANT_HOME` to where you have the Ant folder placed. For example: `C:\Ant\apache-ant-1.10.1`
     * **Edit** `Path` and add `%ANT_HOME%\bin`
     * **Edit** `ClassPath` and add `%ANT_HOME%\bin`
-* **Check Ant installation**:
+* **Check Ant installation**:  
     ```bash
         $ ant -version
         Apache Ant(TM) version 1.10.1 compiled on February 2 2017
@@ -56,8 +56,7 @@
 ## Step 3: Setting up Git
 
 * Set it up as written in this [tutorial](https://www.atlassian.com/git/tutorials/install-git#windows)
-* **Check Git installation**:
-
+* **Check Git installation**:  
   ```bash
     $ git version
     git version 2.11.0.windows.3
