@@ -30,11 +30,11 @@
     `%JAVA_HOME%/bin`, `%JAVA_HOME%/jre/bin`, `C:\ProgramData\Oracle\Java\javapath`    
 * **Check Java installation:**
 
-    ```bash
-        $ java -version
-        java version "1.8.0_131"
-        Java(TM) SE Runtime Environment (build 1.8.0_131-b11)
-        Java HotSpot(TM) 64-Bit Server VM (build 25.131-b11, mixed mode)
+    ```
+    $ java -version
+    java version "1.8.0_131"
+    Java(TM) SE Runtime Environment (build 1.8.0_131-b11)
+    Java HotSpot(TM) 64-Bit Server VM (build 25.131-b11, mixed mode)
     ```
 
 ## Step 2: Setting up Apache Ant
@@ -50,9 +50,9 @@
     * **Edit** `ClassPath` and add `%ANT_HOME%\bin`
 * **Check Ant installation**:
 
-    ```bash
-        $ ant -version
-        Apache Ant(TM) version 1.10.1 compiled on February 2 2017
+    ```
+    $ ant -version
+    Apache Ant(TM) version 1.10.1 compiled on February 2 2017
     ```
 
 ## Step 3: Setting up Git
@@ -60,10 +60,10 @@
 * Set it up as written in this [tutorial](https://www.atlassian.com/git/tutorials/install-git#windows)
 * **Check Git installation**:
 
-  ```bash
+    ```
     $ git version
     git version 2.11.0.windows.3
-  ```
+    ```
 
 ## Step 4: App Inventor Sources
 
