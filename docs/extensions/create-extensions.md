@@ -30,11 +30,11 @@
     `%JAVA_HOME%/bin`, `%JAVA_HOME%/jre/bin`, `C:\ProgramData\Oracle\Java\javapath`    
 * **Check Java installation:**
 
-    ```
-    $ java -version
-    java version "1.8.0_131"
-    Java(TM) SE Runtime Environment (build 1.8.0_131-b11)
-    Java HotSpot(TM) 64-Bit Server VM (build 25.131-b11, mixed mode)
+    ```bash  
+    $ java -version  
+    java version "1.8.0_131"  
+    Java(TM) SE Runtime Environment (build 1.8.0_131-b11)  
+    Java HotSpot(TM) 64-Bit Server VM (build 25.131-b11, mixed mode)  
     ```
 
 ## Step 2: Setting up Apache Ant
@@ -50,8 +50,8 @@
     * **Edit** `ClassPath` and add `%ANT_HOME%\bin`
 * **Check Ant installation**:
 
-    ```
-    $ ant -version
+    ```bash  
+    $ ant -version  
     Apache Ant(TM) version 1.10.1 compiled on February 2 2017
     ```
 
@@ -60,8 +60,8 @@
 * Set it up as written in this [tutorial](https://www.atlassian.com/git/tutorials/install-git#windows)
 * **Check Git installation**:
 
-    ```
-    $ git version
+    ```bash  
+    $ git version  
     git version 2.11.0.windows.3
     ```
 
