@@ -69,11 +69,11 @@ You can just double click on the file to open the starter.
 
 **Step 1:** From the App Bar, choose "Test".
 
-![](/assets/images/live-development/usb-1.png)
+![](/assets/live-development/usb-1.png)
 
 **Step 2:** Click on "USB" and wait a few seconds.
 
-![](/assets/images/live-development/usb-2.png)
+![](/assets/live-development/usb-2.png)
 
 **Step 3:** Save the QR Code _\(or the code appears next to do QR Code incase you want to enter the code manually\)_ you got from the Makeroid Builder for next steps, now to the next phase.
 
