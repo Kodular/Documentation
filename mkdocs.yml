@@ -2,7 +2,7 @@
 site_name: 'Makeroid Docs'
 site_description: 'Makeroid Documentation'
 site_author: 'Makeroid'
-site_url: 'https://docs.makeroid.io'
+site_url: 'https://docs.makeroid.io/'
   
 # Repository
 repo_name: Makeroid Docs
