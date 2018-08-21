@@ -14,6 +14,6 @@
 
 **Step 3:** Click on Scan "QR Code" or "Connect with code" on the companion app and scan the QR Code or type in the code that you see on the Makeroid Builder.
 
-**Step 4:** You've successfully linked your Android phone / emulator to the Makeroid Builder. 
+**Step 4:** You've successfully linked your Android Phone / emulator to the Makeroid Builder. 
 
 > Remember that this connecting process is not a one time process and you need to do this every time you close Makeroid Builder or the Makeroid Companion.

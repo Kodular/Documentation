@@ -75,7 +75,7 @@ You can just double click on the file to open the starter.
 
 ![](/assets/live-development/usb-2.png)
 
-**Step 3:** Save the QR Code _\(or the code appears next to do QR Code incase you want to enter the code manually\)_ you got from the Makeroid Builder for next steps, now to the next phase.
+**Step 3:** You've successfully linked your Android Phone to the Makeroid Builder.  
 
 !!! tip
     If you are having connection problems, check the [Makeroid Starter Checker](https://starter.makeroid.io).
