@@ -6,19 +6,20 @@ customised with components.
 ## Component categories
 For easier access of components, they are grouped into various categories.
 
-* [User Interface](user-interface/)
-* [Layout](layout/)
-* [Media](media/)
-* [Drawing and Animation](drawing-and-animation/)
-* [Sensors](sensors/)
-* [Social](social/)
-* [Storage](storage/)
-* [Connectivity](connectivity/)
-* [Google](google/)
-* [LEGO Mindstorms](lego-mindstorms/)
-* [Monetization](monetization/)
-* [Device](device/)
-* [Experimental](experimental/)
+* [Screen](screen.md)
+* [User Interface](user-interface/index.md)
+* [Layout](layout/index.md)
+* [Media](media/index.md)
+* [Drawing and Animation](drawing-and-animation/index.md)
+* [Sensors](sensors/index.md)
+* [Social](social/index.md)
+* [Storage](storage/index.md)
+* [Device](device/index.md)
+* [Connectivity](connectivity/index.md)
+* [Google](google/index.md)
+* [Monetization](monetization/index.md)
+* [LEGO Mindstorms](lego-mindstorms/index.md)
+* [Experimental](experimental/index.md)
 
 ## Data Types
 

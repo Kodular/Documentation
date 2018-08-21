@@ -1,12 +1,12 @@
-# Overview <small> of components </small>
+# Overview <small> of blocks </small>
 
-* [Control](blocks/control.md)
-* [Logic](blocks/logic.md)
-* [Math](blocks/math.md)
-* [Text](blocks/text.md)
-* [Lists](blocks/lists.md)
-* [Colors](blocks/colors.md)
-* [Variables](blocks/variables.md)
-* [Procedures](blocks/procedures.md)
-* [Screen](blocks/screen.md)
-* [Any Component](blocks/any-component.md)
+* [Control](control.md)
+* [Logic](logic.md)
+* [Math](math.md)
+* [Text](text.md)
+* [Lists](lists.md)
+* [Colors](colors.md)
+* [Variables](variables.md)
+* [Procedures](procedures.md)
+* [Screen](screen.md)
+* [Any Component](any-component.md)
