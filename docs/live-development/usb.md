@@ -37,11 +37,10 @@ pip 10.0.1 from c:\python3\lib\site-packages\pip (python 3.6)
 
 2. Save the folder to anywhere. You can also add it to Desktop as shortcut. 
 
-{% hint style="warning" %}
-The path should not contain spaces.
-{% endhint %}
+!!! warning
+    The path should not contain spaces.
 
-3. Run this command on the same directory where the Makeroid
+3. Run this command on the same directory where the Makeroid Starter is
 
 ```
 pip install -r requirements.txt
@@ -49,21 +48,11 @@ pip install -r requirements.txt
 
 ## Run Makeroid Starter
 
-To run Makeroid Starter, select your OS from the tabs and follow the directions.
+To run Makeroid Starter, execute the following command in the same folder as Makeroid Starter:
 
-{% tabs %}
-{% tab title="Windows" %}
-You can just double click on the file to open the starter.
-{% endtab %}
-
-{% tab title="Linux" %}
-
-{% endtab %}
-
-{% tab title="MacOS" %}
-
-{% endtab %}
-{% endtabs %}
+```
+python MakeroidStarter.py
+```
 
 ## Connect to Companion
 
