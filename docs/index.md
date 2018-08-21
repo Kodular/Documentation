@@ -38,7 +38,9 @@ For further help, please visit the [Makeroid Community](https://community.makero
 
 #### Testing
 
-* [Live Development](live-development.md)
+* [Live Development](live-development/index.md)
+	* [Via WiFi](live-development/wifi.md)
+	* [Via USB](live-development/usb.md)
 
 #### Other
 
