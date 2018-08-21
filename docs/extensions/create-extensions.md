@@ -21,22 +21,20 @@
 !!! warning
     _Be sure not to install it in a directory whose path contains spaces_
 
-* Set the Environmental Variables:
-  * Set ****`JAVA_HOME` to where you installed Java JDK.
+* Set the Environmental Variables:  
+    * Set `JAVA_HOME` to where you installed Java JDK.
 
-    For example: `C:\Program Files\Java\jdk1.8.0_131`
+    For example: `C:\Program Files\Java\jdk1.8.0_131`  
+    * Edit `PATH` and add those:
 
-  * Edit ****`PATH` and add those:
-
-    `%JAVA_HOME%/bin`, `%JAVA_HOME%/jre/bin`, `C:\ProgramData\Oracle\Java\javapath`
+    `%JAVA_HOME%/bin`, `%JAVA_HOME%/jre/bin`, `C:\ProgramData\Oracle\Java\javapath`  
 * **Check Java installation:** Execute `java -version`
-
-  ```bash
-    $ java -version
-    java version "1.8.0_131"
-    Java(TM) SE Runtime Environment (build 1.8.0_131-b11)
-    Java HotSpot(TM) 64-Bit Server VM (build 25.131-b11, mixed mode)
-  ```
+    ```bash
+        $ java -version
+        java version "1.8.0_131"
+        Java(TM) SE Runtime Environment (build 1.8.0_131-b11)
+        Java HotSpot(TM) 64-Bit Server VM (build 25.131-b11, mixed mode)
+    ```
 
 ## Step 2: Setting up Apache Ant
 
@@ -46,15 +44,14 @@
     _Be sure not to install it in a directory whose path contains spaces_
 
 * Set the Environmental Variables:
-  * **Set** `ANT_HOME` to where you have the Ant folder placed. For example: `C:\Ant\apache-ant-1.10.1`
-  * **Edit** `Path` and add `%ANT_HOME%\bin`
-  * **Edit** `ClassPath` and add `%ANT_HOME%\bin`
+    * **Set** `ANT_HOME` to where you have the Ant folder placed. For example: `C:\Ant\apache-ant-1.10.1`
+    * **Edit** `Path` and add `%ANT_HOME%\bin`
+    * **Edit** `ClassPath` and add `%ANT_HOME%\bin`
 * **Check Ant installation**:
-
-  ```bash
-    $ ant -version
-    Apache Ant(TM) version 1.10.1 compiled on February 2 2017
-  ```
+    ```bash
+        $ ant -version
+        Apache Ant(TM) version 1.10.1 compiled on February 2 2017
+    ```
 
 ## Step 3: Setting up Git
 
@@ -98,10 +95,10 @@ Your extension file \(.aix file\) should appear in the directory:
 
 Now, you can easily share the aix files with anyone and can import it into Makeroid seemlessly.
 
-#### For more information about extensions, read [here](http://ai2.appinventor.mit.edu/reference/other/extensions.html)
+* For more information about extensions, read [here](http://ai2.appinventor.mit.edu/reference/other/extensions.html)
 
-#### Keep making more and more and more extensions and help our community to build the best app.
+* Keep making more and more and more extensions and help our community to build the best app.
 
-### [Share your extensions](https://community.makeroid.io/c/extensions) with our community and become an "[Extension Developer](https://community.makeroid.io/badges/102/extension-developer)".
+* [Share your extensions](https://community.makeroid.io/c/extensions) with our community and become an "[Extension Developer](https://community.makeroid.io/badges/102/extension-developer)".
 
 If you want more help, feel free to ask us on [Makeroid Community](https://community.makeroid.io).
