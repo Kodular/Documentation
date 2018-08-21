@@ -2,11 +2,11 @@
 **\(** Getter + Setter **\)**  
 `Type: Text`
 
-The text displayed for the **{{ meta.component }}**.
+The text displayed for the **{{ page.title }}**.
 
 ### Text Color
 **\(** Getter + Setter **\)**  
 `Type: Color`
 
-The color of the _[Text](#text)_ displayed for the **{{ meta.component }}**.
+The color of the _[Text](#text)_ displayed for the **{{ page.title }}**.
 

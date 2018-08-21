@@ -2,7 +2,7 @@
 _**\(** Getter + Setter **\)**  
 `Type: Boolean`_
 
-Determines whether the text of **{{ meta.component }}** is displayed in _Italics._
+Determines whether the text of **{{ page.title }}** is displayed in _Italics._
 
 Options              | []()
 -------------------- | ------------
