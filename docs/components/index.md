@@ -6,6 +6,20 @@ customised with components.
 ## Component categories
 For easier access of components, they are grouped into various categories.
 
+* [User Interface](user-interface/)
+* [Layout](layout/)
+* [Media](media/)
+* [Drawing and Animation](drawing-and-animation/)
+* [Sensors](sensors/)
+* [Social](social/)
+* [Storage](storage/)
+* [Connectivity](connectivity/)
+* [Google](google/)
+* [LEGO Mindstorms](lego-mindstorms/)
+* [Monetization](monetization/)
+* [Device](device/)
+* [Experimental](experimental/)
+
 ## Data Types
 
 The properties of a component and parameters of a method or event may be of one of the following types:
