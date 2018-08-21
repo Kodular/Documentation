@@ -1,16 +1,11 @@
 # Linear Progressbar
 
 ## Overview
-A Progressbar is used to visually indicate the user the progress of some task, such as a download,
-data transfer etc.
+A Progressbar is used to visually indicate the user the progress of some task, such as a download, data transfer etc.
 
-A **determinate progress bar** is used to indicate the progress of an task whose exact value of 
-progress is known for eg. the percentage of a file download, number of files transferred.
+A **determinate progress bar** is used to indicate the progress of an task whose exact value of  progress is known for eg. the percentage of a file download, number of files transferred.
 
-A **indeterminate progress bar** is used in situations where the extent of the task is unknown 
-or the progress of the task cannot be determined in a way that could be expressed as a percentage,
-for example, when a request to a server is being processed where we don't know the exact value of
-progress, but there is a need to indicate to the user that the task is in progress.
+A **indeterminate progress bar** is used in situations where the extent of the task is unknown  or the progress of the task cannot be determined in a way that could be expressed as a percentage, for example, when a request to a server is being processed where we don't know the exact value of progress, but there is a need to indicate to the user that the task is in progress.
 
 <br><br>
 ![Linear Progressbar](/assets/images/components/user-interface/linear-progressbar/preview.gif){: class="preview-img" }
@@ -50,8 +45,7 @@ Options              | []()
 _**\(** Getter + Setter **\)**  
 `Type: Color`_
 
-The color in which the indeterminate progress bar is displayed, if the [_Indeterminate_](#indeterminate)
-property is set to _true_. Has no effect on the apperance of the **determinate** progress bar.
+The color in which the indeterminate progress bar is displayed, if the [_Indeterminate_](#indeterminate) property is set to _true_. Has no effect on the apperance of the **determinate** progress bar.
 
 
 ### Maximum
@@ -61,8 +55,7 @@ property is set to _true_. Has no effect on the apperance of the **determinate**
 _**\(** Getter + Setter **\)**  
 `Type: Number`_
 
-The upper range of the progress bar in **determinate** mode(i.e when the **Indeterminate** property
-is set to _false_.)  
+The upper range of the progress bar in **determinate** mode (i.e when the **Indeterminate** property is set to _false_.)  
 
 The default value is _100_
 
@@ -74,8 +67,7 @@ The default value is _100_
 _**\(** Getter + Setter **\)**  
 `Type: Number`_
 
-The lower range of the progress bar in **determinate** mode(i.e when the **Indeterminate** property
-is set to _false_.)  
+The lower range of the progress bar in **determinate** mode (i.e when the **Indeterminate** property is set to _false_.)  
 
 The default value is _0_  
 
@@ -88,12 +80,10 @@ The default value is _0_
 
 ![](/assets/images/components/user-interface/linear-progressbar/p_progress.png)
 
-_**\(** Getter + Setter **\)**  
+_**\(** Getter + Setter | Blocks**\)**  
 `Type: Number`_
 
-The current progress value of the progress bar in **determinate** mode(i.e when the 
-[_Indeterminate_](#indeterminate) property is set to _false_.)  
-When using _Getter_, returns 0 if **Indeterminate** is set to _true_
+The current progress value of the progress bar in **determinate** mode (i.e when the  [_Indeterminate_](#indeterminate) property is set to _false_). When using _Getter_, returns 0 if **Indeterminate** is set to _true_
 
 {!includes/visible-property.md!}
 
@@ -104,6 +94,8 @@ When using _Getter_, returns 0 if **Indeterminate** is set to _true_
 
 
 ### Increment Progress By
+
+![](/assets/images/components/user-interface/linear-progressbar/m_increment-progress-by.png)
 
 _**\(** Number value **\)**_
 
@@ -118,6 +110,8 @@ Params               |  []()
 ## Events
 
 ### Progress Changed
+
+![](/assets/images/components/user-interface/linear-progressbar/e_progress-changed.png)
 
 _**\(** Number progress **\)**_
 
