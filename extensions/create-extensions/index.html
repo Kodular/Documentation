@@ -1027,19 +1027,21 @@
 <ul>
 <li>Set <code>JAVA_HOME</code> to where you installed Java JDK.</li>
 </ul>
-<p>For example: <code>C:\Program Files\Java\jdk1.8.0_131</code><br />
-* Edit <code>PATH</code> and add those:</p>
-<p><code>%JAVA_HOME%/bin</code>, <code>%JAVA_HOME%/jre/bin</code>, <code>C:\ProgramData\Oracle\Java\javapath</code>  <br />
-* <strong>Check Java installation:</strong></p>
+<p>For example: <code>C:\Program Files\Java\jdk1.8.0_131</code></p>
+<ul>
+<li>Edit <code>PATH</code> and add those:</li>
+</ul>
+<p><code>%JAVA_HOME%/bin</code>, <code>%JAVA_HOME%/jre/bin</code>, <code>C:\ProgramData\Oracle\Java\javapath</code></p>
+</li>
+<li>
+<p><strong>Check Java installation:</strong></p>
+<p><code>bash  
+$ java -version  
+java version "1.8.0_131"  
+Java(TM) SE Runtime Environment (build 1.8.0_131-b11)  
+Java HotSpot(TM) 64-Bit Server VM (build 25.131-b11, mixed mode)</code></p>
 </li>
 </ul>
-<div class="codehilite"><pre><span></span>$ java -version  
-java version <span class="s2">&quot;1.8.0_131&quot;</span>  
-Java<span class="o">(</span>TM<span class="o">)</span> SE Runtime Environment <span class="o">(</span>build <span class="m">1</span>.8.0_131-b11<span class="o">)</span>  
-Java HotSpot<span class="o">(</span>TM<span class="o">)</span> <span class="m">64</span>-Bit Server VM <span class="o">(</span>build <span class="m">25</span>.131-b11, mixed mode<span class="o">)</span>  
-</pre></div>
-
-
 <h2 id="step-2-setting-up-apache-ant">Step 2: Setting up Apache Ant<a class="headerlink" href="#step-2-setting-up-apache-ant" title="Permanent link">&para;</a></h2>
 <ul>
 <li>Unzip the folder and move it to a place where it is safe. For example: <code>C:\apache-ant-1.10.1</code></li>
@@ -1055,23 +1057,23 @@ Java HotSpot<span class="o">(</span>TM<span class="o">)</span> <span class="m">6
 <li><strong>Edit</strong> <code>ClassPath</code> and add <code>%ANT_HOME%\bin</code></li>
 </ul>
 </li>
-<li><strong>Check Ant installation</strong>:</li>
+<li>
+<p><strong>Check Ant installation</strong>:</p>
+<p><code>bash  
+$ ant -version  
+Apache Ant(TM) version 1.10.1 compiled on February 2 2017</code></p>
+</li>
 </ul>
-<div class="codehilite"><pre><span></span>$ ant -version  
-Apache Ant<span class="o">(</span>TM<span class="o">)</span> version <span class="m">1</span>.10.1 compiled on February <span class="m">2</span> <span class="m">2017</span>
-</pre></div>
-
-
 <h2 id="step-3-setting-up-git">Step 3: Setting up Git<a class="headerlink" href="#step-3-setting-up-git" title="Permanent link">&para;</a></h2>
 <ul>
 <li>Set it up as written in this <a href="https://www.atlassian.com/git/tutorials/install-git#windows">tutorial</a></li>
-<li><strong>Check Git installation</strong>:</li>
+<li>
+<p><strong>Check Git installation</strong>:</p>
+<p><code>bash  
+$ git version  
+git version 2.11.0.windows.3</code></p>
+</li>
 </ul>
-<div class="codehilite"><pre><span></span>$ git version  
-git version <span class="m">2</span>.11.0.windows.3
-</pre></div>
-
-
 <h2 id="step-4-app-inventor-sources">Step 4: App Inventor Sources<a class="headerlink" href="#step-4-app-inventor-sources" title="Permanent link">&para;</a></h2>
 <ul>
 <li>Unzip the folder and move it to a place where it is safe</li>
