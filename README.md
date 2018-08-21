@@ -1,7 +1,8 @@
-# Makeroid Docs
-
-
 [![Website](https://img.shields.io/website-up-down-green-red/http/shields.io.svg?label=docs.makeroid.io&style=for-the-badge)](https://docs.makeroid.io) [![Travis (.com)](https://img.shields.io/travis/com/Makeroid/Documentation.svg?style=for-the-badge)](https://travis-ci.com/Makeroid/Documentation) [![Requires.io](https://img.shields.io/requires/github/Makeroid/Documentation.svg?style=for-the-badge)](https://github.com/Makeroid/Documentation/blob/master/requirements.txt)
+
+---
+
+# Makeroid Docs
 
 
 The documentation source for [Makeroid](https://www.makeroid.io) lives is here.
