@@ -1006,12 +1006,12 @@
 <p class="admonition-title">Warning</p>
 <p>This guide assumes you to be a <strong>Windows</strong> user.</p>
 </div>
-<ul>
-<li>[x] <a href="https://github.com/mit-cml/appinventor-sources">App Inventor Sources </a></li>
-<li>[x] <a href="http://www.oracle.com/technetwork/java/javase/downloads/index.html">Java JDK</a></li>
-<li>[x] <a href="http://ant.apache.org/bindownload.cgi">Apache Ant</a></li>
-<li>[x] <a href="https://git-scm.com/downloads">Git</a> (or <a href="https://desktop.github.com/">GitHub Desktop</a>)</li>
-<li>[x] Java IDE/Text Editor (<a href="https://code.visualstudio.com">VS Code</a>, <a href="https://www.jetbrains.com/idea/download/">IntelliJ IDEA</a>, <a href="https://notepad-plus-plus.org">Notepad++</a>, <a href="https://atom.io/">Atom</a> are recommended)</li>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> <a href="https://github.com/mit-cml/appinventor-sources">App Inventor Sources </a></li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> <a href="http://www.oracle.com/technetwork/java/javase/downloads/index.html">Java JDK</a></li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> <a href="http://ant.apache.org/bindownload.cgi">Apache Ant</a></li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> <a href="https://git-scm.com/downloads">Git</a> (or <a href="https://desktop.github.com/">GitHub Desktop</a>)</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Java IDE/Text Editor (<a href="https://code.visualstudio.com">VS Code</a>, <a href="https://www.jetbrains.com/idea/download/">IntelliJ IDEA</a>, <a href="https://notepad-plus-plus.org">Notepad++</a>, <a href="https://atom.io/">Atom</a> are recommended)</li>
 </ul>
 <h2 id="step-1-setting-up-java-jdk">Step 1: Setting up Java JDK<a class="headerlink" href="#step-1-setting-up-java-jdk" title="Permanent link">&para;</a></h2>
 <ul>
@@ -1030,8 +1030,8 @@
 <p>For example: <code>C:\Program Files\Java\jdk1.8.0_131</code><br />
 * Edit <code>PATH</code> and add those:</p>
 <p><code>%JAVA_HOME%/bin</code>, <code>%JAVA_HOME%/jre/bin</code>, <code>C:\ProgramData\Oracle\Java\javapath</code>  <br />
-* <strong>Check Java installation:</strong> Execute <code>java -version</code><br />
-<code>bash
+* <strong>Check Java installation:</strong></p>
+<p><code>bash
     $ java -version
     java version "1.8.0_131"
     Java(TM) SE Runtime Environment (build 1.8.0_131-b11)
@@ -1053,19 +1053,21 @@
 <li><strong>Edit</strong> <code>ClassPath</code> and add <code>%ANT_HOME%\bin</code></li>
 </ul>
 </li>
-<li><strong>Check Ant installation</strong>:<br />
-<code>bash
-        $ ant -version
-        Apache Ant(TM) version 1.10.1 compiled on February 2 2017</code></li>
+<li>
+<p><strong>Check Ant installation</strong>:</p>
+<p><code>bash
+    $ ant -version
+    Apache Ant(TM) version 1.10.1 compiled on February 2 2017</code></p>
+</li>
 </ul>
 <h2 id="step-3-setting-up-git">Step 3: Setting up Git<a class="headerlink" href="#step-3-setting-up-git" title="Permanent link">&para;</a></h2>
 <ul>
 <li>Set it up as written in this <a href="https://www.atlassian.com/git/tutorials/install-git#windows">tutorial</a></li>
-<li><strong>Check Git installation</strong>:<br />
-<code>bash
-    $ git version
-    git version 2.11.0.windows.3</code></li>
+<li><strong>Check Git installation</strong>:</li>
 </ul>
+<p><code>bash
+    $ git version
+    git version 2.11.0.windows.3</code></p>
 <h2 id="step-4-app-inventor-sources">Step 4: App Inventor Sources<a class="headerlink" href="#step-4-app-inventor-sources" title="Permanent link">&para;</a></h2>
 <ul>
 <li>Unzip the folder and move it to a place where it is safe</li>
