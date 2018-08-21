@@ -3362,14 +3362,9 @@
                 
                 <h1 id="linear-progressbar">Linear Progressbar<a class="headerlink" href="#linear-progressbar" title="Permanent link">&para;</a></h1>
 <h2 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">&para;</a></h2>
-<p>A Progressbar is used to visually indicate the user the progress of some task, such as a download,
-data transfer etc.</p>
-<p>A <strong>determinate progress bar</strong> is used to indicate the progress of an task whose exact value of 
-progress is known for eg. the percentage of a file download, number of files transferred.</p>
-<p>A <strong>indeterminate progress bar</strong> is used in situations where the extent of the task is unknown 
-or the progress of the task cannot be determined in a way that could be expressed as a percentage,
-for example, when a request to a server is being processed where we don't know the exact value of
-progress, but there is a need to indicate to the user that the task is in progress.</p>
+<p>A Progressbar is used to visually indicate the user the progress of some task, such as a download, data transfer etc.</p>
+<p>A <strong>determinate progress bar</strong> is used to indicate the progress of an task whose exact value of  progress is known for eg. the percentage of a file download, number of files transferred.</p>
+<p>A <strong>indeterminate progress bar</strong> is used in situations where the extent of the task is unknown  or the progress of the task cannot be determined in a way that could be expressed as a percentage, for example, when a request to a server is being processed where we don't know the exact value of progress, but there is a need to indicate to the user that the task is in progress.</p>
 <p><br><br>
 <img alt="Linear Progressbar" class="preview-img" src="../../../assets/images/components/user-interface/linear-progressbar/preview.gif" /></p>
 <p class="img-caption">A determinate progressbar fills from 0% to 100%.<br />
@@ -3407,21 +3402,18 @@ An indeterminate progress bar moves in a fixed path, growing and shrinking in si
 <p><img alt="" src="../../../assets/images/components/user-interface/linear-progressbar/d_indeterminate-color.png" /> <img alt="" src="../../../assets/images/components/user-interface/linear-progressbar/p_indeterminate-color.png" /></p>
 <p><em><strong>(</strong> Getter + Setter <strong>)</strong><br />
 <code>Type: Color</code></em></p>
-<p>The color in which the indeterminate progress bar is displayed, if the <a href="#indeterminate"><em>Indeterminate</em></a>
-property is set to <em>true</em>. Has no effect on the apperance of the <strong>determinate</strong> progress bar.</p>
+<p>The color in which the indeterminate progress bar is displayed, if the <a href="#indeterminate"><em>Indeterminate</em></a> property is set to <em>true</em>. Has no effect on the apperance of the <strong>determinate</strong> progress bar.</p>
 <h3 id="maximum">Maximum<a class="headerlink" href="#maximum" title="Permanent link">&para;</a></h3>
 <p><img alt="" src="../../../assets/images/components/user-interface/linear-progressbar/d_maximum.png" /> <img alt="" src="../../../assets/images/components/user-interface/linear-progressbar/p_maximum.png" /></p>
 <p><em><strong>(</strong> Getter + Setter <strong>)</strong><br />
 <code>Type: Number</code></em></p>
-<p>The upper range of the progress bar in <strong>determinate</strong> mode(i.e when the <strong>Indeterminate</strong> property
-is set to <em>false</em>.)  </p>
+<p>The upper range of the progress bar in <strong>determinate</strong> mode (i.e when the <strong>Indeterminate</strong> property is set to <em>false</em>.)  </p>
 <p>The default value is <em>100</em></p>
 <h3 id="minimum">Minimum<a class="headerlink" href="#minimum" title="Permanent link">&para;</a></h3>
 <p><img alt="" src="../../../assets/images/components/user-interface/linear-progressbar/d_minimum.png" /> <img alt="" src="../../../assets/images/components/user-interface/linear-progressbar/p_minimum.png" /></p>
 <p><em><strong>(</strong> Getter + Setter <strong>)</strong><br />
 <code>Type: Number</code></em></p>
-<p>The lower range of the progress bar in <strong>determinate</strong> mode(i.e when the <strong>Indeterminate</strong> property
-is set to <em>false</em>.)  </p>
+<p>The lower range of the progress bar in <strong>determinate</strong> mode (i.e when the <strong>Indeterminate</strong> property is set to <em>false</em>.)  </p>
 <p>The default value is <em>0</em>  </p>
 <div class="admonition caution">
 <p class="admonition-title">Note</p>
@@ -3430,11 +3422,9 @@ Setting this method has no effect on devices using older versions of Android.</p
 </div>
 <h3 id="progress">Progress<a class="headerlink" href="#progress" title="Permanent link">&para;</a></h3>
 <p><img alt="" src="../../../assets/images/components/user-interface/linear-progressbar/p_progress.png" /></p>
-<p><em><strong>(</strong> Getter + Setter <strong>)</strong><br />
+<p><em><strong>(</strong> Getter + Setter | Blocks<strong>)</strong><br />
 <code>Type: Number</code></em></p>
-<p>The current progress value of the progress bar in <strong>determinate</strong> mode(i.e when the 
-<a href="#indeterminate"><em>Indeterminate</em></a> property is set to <em>false</em>.)<br />
-When using <em>Getter</em>, returns 0 if <strong>Indeterminate</strong> is set to <em>true</em></p>
+<p>The current progress value of the progress bar in <strong>determinate</strong> mode (i.e when the  <a href="#indeterminate"><em>Indeterminate</em></a> property is set to <em>false</em>). When using <em>Getter</em>, returns 0 if <strong>Indeterminate</strong> is set to <em>true</em></p>
 <h3 id="visible">Visible<a class="headerlink" href="#visible" title="Permanent link">&para;</a></h3>
 <p><img alt="" src="../../../assets/images/includes/d_visible.png" /> <img alt="" src="../../../assets/images/includes/p_visible.png" /></p>
 <p><strong>(</strong> Getter + Setter <strong>)</strong><br />
@@ -3470,6 +3460,7 @@ When using <em>Getter</em>, returns 0 if <strong>Indeterminate</strong> is set t
 <p>The width with which the <strong>{{ page.title }}</strong> is displayed in terms of precentage of the whole screen width.</p>
 <h2 id="methods">Methods<a class="headerlink" href="#methods" title="Permanent link">&para;</a></h2>
 <h3 id="increment-progress-by">Increment Progress By<a class="headerlink" href="#increment-progress-by" title="Permanent link">&para;</a></h3>
+<p><img alt="" src="../../../assets/images/components/user-interface/linear-progressbar/m_increment-progress-by.png" /></p>
 <p><em><strong>(</strong> Number value <strong>)</strong></em></p>
 <p>Increases the value progress by the given value.</p>
 <table>
@@ -3488,6 +3479,7 @@ When using <em>Getter</em>, returns 0 if <strong>Indeterminate</strong> is set t
 </table>
 <h2 id="events">Events<a class="headerlink" href="#events" title="Permanent link">&para;</a></h2>
 <h3 id="progress-changed">Progress Changed<a class="headerlink" href="#progress-changed" title="Permanent link">&para;</a></h3>
+<p><img alt="" src="../../../assets/images/components/user-interface/linear-progressbar/e_progress-changed.png" /></p>
 <p><em><strong>(</strong> Number progress <strong>)</strong></em></p>
 <p>Indicates that the value of the progress bar has changed.</p>
 <table>
