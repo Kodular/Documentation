@@ -3,4 +3,5 @@ mkdocs-material
 markdown-include
 markdown-macros
 pymdown-extensions
+pygments
 -e git://github.com/SivagiriVisakan/mkdocs-replace-plugin.git#egg=replace
