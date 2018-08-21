@@ -13,7 +13,7 @@ for example, when a request to a server is being processed where we don't know t
 progress, but there is a need to indicate to the user that the task is in progress.
 
 <br><br>
-![Linear Progressbar](../../assets/images/component-previews/linear-progress-animated.gif){: class="preview-img" }
+![Linear Progressbar](/assets/images/components/user-interface/linear-progressbar/preview.gif){: class="preview-img" }
 
 
 A determinate progressbar fills from 0% to 100%.  
@@ -27,6 +27,8 @@ An indeterminate progress bar moves in a fixed path, growing and shrinking in si
 ## Properties
 
 ### Indeterminate
+
+![](/assets/images/components/user-interface/linear-progressbar/d_indeterminate.png) ![](/assets/images/components/user-interface/linear-progressbar/p_indeterminate.png)
 
 _**\(** Getter + Setter **\)**  
 `Type: Boolean`_
@@ -43,6 +45,8 @@ Options              | []()
 
 ### Indeterminate Color
 
+![](/assets/images/components/user-interface/linear-progressbar/d_indeterminate-color.png) ![](/assets/images/components/user-interface/linear-progressbar/p_indeterminate-color.png)
+
 _**\(** Getter + Setter **\)**  
 `Type: Color`_
 
@@ -51,6 +55,8 @@ property is set to _true_. Has no effect on the apperance of the **determinate**
 
 
 ### Maximum
+
+![](/assets/images/components/user-interface/linear-progressbar/d_maximum.png) ![](/assets/images/components/user-interface/linear-progressbar/p_maximum.png)
 
 _**\(** Getter + Setter **\)**  
 `Type: Number`_
@@ -62,6 +68,8 @@ The default value is _100_
 
 
 ### Minimum
+
+![](/assets/images/components/user-interface/linear-progressbar/d_minimum.png) ![](/assets/images/components/user-interface/linear-progressbar/p_minimum.png)
 
 _**\(** Getter + Setter **\)**  
 `Type: Number`_
@@ -78,6 +86,8 @@ The default value is _0_
 
 ### Progress
 
+![](/assets/images/components/user-interface/linear-progressbar/p_progress.png)
+
 _**\(** Getter + Setter **\)**  
 `Type: Number`_
 
@@ -85,11 +95,9 @@ The current progress value of the progress bar in **determinate** mode(i.e when 
 [_Indeterminate_](#indeterminate) property is set to _false_.)  
 When using _Getter_, returns 0 if **Indeterminate** is set to _true_
 
+{!includes/visible-property.md!}
 
 {!includes/width-property.md!}
-
-
-{!includes/visible-property.md!}
 
 
 ## Methods
