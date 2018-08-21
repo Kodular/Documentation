@@ -8,5 +8,4 @@
 * [Colors](colors.md)
 * [Variables](variables.md)
 * [Procedures](procedures.md)
-* [Screen](screen.md)
 * [Any Component](any-component.md)
