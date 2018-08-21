@@ -42,7 +42,7 @@
     
     
       
-        <title>Makeroid Docs</title>
+        <title>Overview - Makeroid Docs</title>
       
     
     
@@ -132,7 +132,7 @@
                 Makeroid Docs
               </span>
               <span class="md-header-nav__topic">
-                Live Development
+                Overview
               </span>
             
           
@@ -204,7 +204,9 @@
       
         
 
-<nav class="md-tabs" data-md-component="tabs">
+  
+
+<nav class="md-tabs md-tabs--active" data-md-component="tabs">
   <div class="md-tabs__inner md-grid">
     <ul class="md-tabs__list">
       
@@ -213,7 +215,7 @@
   
     <li class="md-tabs__item">
       
-        <a href=".." title="Getting Started" class="md-tabs__link">
+        <a href=".." title="Getting Started" class="md-tabs__link md-tabs__link--active">
           Getting Started
         </a>
       
@@ -296,10 +298,12 @@
       
       
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-1" type="checkbox" id="nav-1">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-1" type="checkbox" id="nav-1" checked>
     
     <label class="md-nav__link" for="nav-1">
       Getting Started
@@ -327,10 +331,12 @@
           
           
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-1-2" type="checkbox" id="nav-1-2">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-1-2" type="checkbox" id="nav-1-2" checked>
     
     <label class="md-nav__link" for="nav-1-2">
       Live Development
@@ -341,6 +347,56 @@
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
         
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Overview
+      </label>
+    
+    <a href="./" title="Overview" class="md-nav__link md-nav__link--active">
+      Overview
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#installing-the-makeroid-companion-on-android-phone-emulator" title="Installing the Makeroid Companion on Android Phone / Emulator" class="md-nav__link">
+    Installing the Makeroid Companion on Android Phone / Emulator
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
         
           
           
@@ -408,6 +464,18 @@
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
         
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../other/extensions/index.md" title="Overview" class="md-nav__link">
+      Overview
+    </a>
+  </li>
+
         
           
           
@@ -761,13 +829,19 @@
                 <h1 id="live-development">Live Development<a class="headerlink" href="#live-development" title="Permanent link">&para;</a></h1>
 <p>It can be quite a hassle building and installing your project's APK file on your device whenever you make a change. Makeroid has one feature that makes the process of designing your apps much easier - the Makeroid companion. The companion can be installed on your device just like any normal Android app. Once you've connected the companion to the builder, either by WiFi or USB, the changes you make in the designer, will be instantly displayed on your device.</p>
 <p>Visit the below pages to learn how to connect the companion via different ways:</p>
-<p>{% page-ref page="via-wifi.md" %}</p>
-<p>{% page-ref page="via-usb.md" %}</p>
+<ul>
+<li>
+<p><a href="wifi/">Via WiFi</a></p>
+</li>
+<li>
+<p><a href="usb/">Via USB</a></p>
+</li>
+</ul>
 <h2 id="installing-the-makeroid-companion-on-android-phone-emulator">Installing the Makeroid Companion on Android Phone / Emulator<a class="headerlink" href="#installing-the-makeroid-companion-on-android-phone-emulator" title="Permanent link">&para;</a></h2>
-<p><strong>Step 1:</strong> Download the Makeroid Companion from the Google Play Store.</p>
-<p><img alt="Makeroid Companion Play Store Listing page" src="../../.gitbook/assets/googleplaycompanion.png" /></p>
+<p><strong>Step 1:</strong> Download the <a href="https://play.google.com/store/apps/details?id=io.makeroid.companion">Makeroid Companion from the Google Play Store</a>.</p>
+<p><img alt="" src="/assets/images/live-development/index-1.png" /></p>
 <p><strong>Step 2:</strong> Open the app</p>
-<p><img alt="The Makeroid Companion App" src="../../.gitbook/assets/screenshot_20180114-155517.png" /></p>
+<p><img alt="" src="/assets/images/live-development/index-2.png" /></p>
                 
                   
                 
@@ -784,6 +858,41 @@
       
         
 <footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href=".." title="Overview" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Overview
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="wifi/" title="Via WiFi" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Via WiFi
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
