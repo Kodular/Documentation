@@ -105,7 +105,7 @@ nav:
       - Floating Action Button: components/user-interface/floating-action-button.md
       - Image: components/user-interface/image.md
       - Label: components/user-interface/label.md
-      - Linear Progress: components/user-interface/linear-progress.md
+      - Linear Progressbar: components/user-interface/linear-progressbar.md
       - List Picker: components/user-interface/list-picker.md
       - List View: components/user-interface/list-view.md
       - List View Image and Text: components/user-interface/list-view-image-and-text.md
