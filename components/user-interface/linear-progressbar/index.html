@@ -42,7 +42,7 @@
     
     
       
-        <title>Linear progressbar - Makeroid Docs</title>
+        <title>Linear Progressbar - Makeroid Docs</title>
       
     
     
@@ -132,7 +132,7 @@
                 Makeroid Docs
               </span>
               <span class="md-header-nav__topic">
-                Linear progressbar
+                Linear Progressbar
               </span>
             
           
@@ -204,7 +204,9 @@
       
         
 
-<nav class="md-tabs" data-md-component="tabs">
+  
+
+<nav class="md-tabs md-tabs--active" data-md-component="tabs">
   <div class="md-tabs__inner md-grid">
     <ul class="md-tabs__list">
       
@@ -226,7 +228,7 @@
   
     <li class="md-tabs__item">
       
-        <a href="../../" title="Components" class="md-tabs__link">
+        <a href="../../" title="Components" class="md-tabs__link md-tabs__link--active">
           Components
         </a>
       
@@ -548,10 +550,12 @@
       
       
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
     
     <label class="md-nav__link" for="nav-2">
       Components
@@ -591,10 +595,12 @@
           
           
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-3" type="checkbox" id="nav-2-3">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-3" type="checkbox" id="nav-2-3" checked>
     
     <label class="md-nav__link" for="nav-2-3">
       User Interface
@@ -718,11 +724,158 @@
           
           
 
+  
 
-  <li class="md-nav__item">
-    <a href="../linear-progress.md" title="Linear Progress" class="md-nav__link">
-      Linear Progress
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Linear Progressbar
+      </label>
+    
+    <a href="./" title="Linear Progressbar" class="md-nav__link md-nav__link--active">
+      Linear Progressbar
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" title="Overview" class="md-nav__link">
+    Overview
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#properties" title="Properties" class="md-nav__link">
+    Properties
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#indeterminate" title="Indeterminate" class="md-nav__link">
+    Indeterminate
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#indeterminate-color" title="Indeterminate Color" class="md-nav__link">
+    Indeterminate Color
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#maximum" title="Maximum" class="md-nav__link">
+    Maximum
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#minimum" title="Minimum" class="md-nav__link">
+    Minimum
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#progress" title="Progress" class="md-nav__link">
+    Progress
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#width" title="Width" class="md-nav__link">
+    Width
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#widthpercent" title="WidthPercent" class="md-nav__link">
+    WidthPercent
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#visible" title="Visible" class="md-nav__link">
+    Visible
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#methods" title="Methods" class="md-nav__link">
+    Methods
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#increment-progress-by" title="Increment Progress By" class="md-nav__link">
+    Increment Progress By
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#events" title="Events" class="md-nav__link">
+    Events
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#progress-changed" title="Progress Changed" class="md-nav__link">
+    Progress Changed
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
   </li>
 
         
@@ -3360,6 +3513,41 @@ When using <em>Getter</em>, returns 0 if <strong>Indeterminate</strong> is set t
       
         
 <footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../circular-progress/" title="Circular Progress" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Circular Progress
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../../../blocks/" title="Overview" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Overview
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
