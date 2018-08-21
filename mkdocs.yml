@@ -39,10 +39,12 @@ theme:
     code: Roboto Mono
 
 extra_css:
+  - js/lightbox.min.css
   - css/extra.css
 
 extra_javascript:
   - 'https://code.jquery.com/jquery-3.3.1.min.js'
+  - js/lightbox.min.js
   - js/extra.js
 
 plugins:
