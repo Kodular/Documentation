@@ -16,7 +16,7 @@ for example, when a request to a server is being processed where we don't know t
 progress, but there is a need to indicate to the user that the task is in progress.
 
 <br><br>
-![Linear Progressbar](../../assets/component-previews/linear-progress-animated.gif){: class="preview-img" }
+![Linear Progressbar](../../assets/images/component-previews/linear-progress-animated.gif){: class="preview-img" }
 
 
 A determinate progressbar fills from 0% to 100%.  

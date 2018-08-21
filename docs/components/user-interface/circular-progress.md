@@ -9,7 +9,7 @@ component: Circular Progress
 The **Circular Progress** grows and shrinks in size while moving along the invisible track.
 
 <br><br>
-![Circular Progress](../../assets/component-previews/circular-progress-animated.gif){: class="preview-img" }
+![Circular Progress](../../assets/images/component-previews/circular-progress-animated.gif){: class="preview-img" }
 
 An example of a **Circular Progress**.
 {: .img-caption }

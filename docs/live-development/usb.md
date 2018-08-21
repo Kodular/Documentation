@@ -69,11 +69,11 @@ You can just double click on the file to open the starter.
 
 **Step 1:** From the App Bar, choose "Test".
 
-![](/assets/live-development/usb-1.png)
+![](/assets/images/live-development/usb-1.png)
 
 **Step 2:** Click on "USB" and wait a few seconds.
 
-![](/assets/live-development/usb-2.png)
+![](/assets/images/live-development/usb-2.png)
 
 **Step 3:** You've successfully linked your Android Phone to the Makeroid Builder.  
 

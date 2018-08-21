@@ -2,7 +2,7 @@
 
 ## Backpack
 
-![](/assets/other/backpack-1.png) ![](/assets/other/backpack-2.png)
+![](/assets/images/other/backpack-1.png) ![](/assets/images/other/backpack-2.png)
 
 Backpack: Copy and Paste Blocks to DifferentScreens and Projects
 
@@ -14,7 +14,7 @@ Click [here](https://www.youtube.com/watch?v=diQ8wJCYb6o) for a video demo.
 
 The Backpack is a copy-and-paste feature that works between projects and screens. The Backpack icon is located at the upper-right corner of theworkspace.
 
-![](/assets/other/backpack-3.png)
+![](/assets/images/other/backpack-3.png)
 
 Copying Blocks. Blocks from the workspace can be dragged and dropped into Backpack. This is the copy operation -- the blocks are copied \(duplicated\) in the backpack. When blocks are dropped into the Backpack, an animation and sound will occur to confirm for the user that the operation was successful. The blocks are not removed from the workspace.
 
@@ -30,12 +30,12 @@ In addition to the drag-and-drop functionality, you can select Backpack function
 
 `right click on a block`
 
-![](/assets/other/backpack-4.png)
+![](/assets/images/other/backpack-4.png)
 
 `right click on the workspace`
 
-![](/assets/other/backpack-5.png)
+![](/assets/images/other/backpack-5.png)
 
 `right click on a block in backpack`
 
-![](/assets/other/backpack-6.png)
+![](/assets/images/other/backpack-6.png)

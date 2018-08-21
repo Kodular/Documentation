@@ -10,7 +10,7 @@ clicking on it to perform an action.
 
 
 <br><br>
-![Preview of button](../../assets/component-previews/button.png){: class="preview-img" }
+![Preview of button](../../assets/images/component-previews/button.png){: class="preview-img" }
 
 A typical button
 {: .img-caption }
