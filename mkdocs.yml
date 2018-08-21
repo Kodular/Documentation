@@ -90,6 +90,7 @@ nav:
         - Concept Cards: other/resources/concept-cards.md
       - Release Notes: other/release-notes/index.md
       - Backpack: other/backpack.md
+      - Terms of Service: other/terms-of-service.md
   - Components:
     - Overview: components/index.md
     - Screen: components/screen.md

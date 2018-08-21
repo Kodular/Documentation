@@ -53,6 +53,7 @@ For further help, please visit the [Makeroid Community](https://community.makero
 	* [Create Extensions](other/resources/concept-cards.md)
 * [Release Notes](other/release-notes/index.md)
 * [Backpack](other/backpack.md)
+* [Terms of Service](other/terms-of-service.md)
 * [Donate](https://paypal.me/Makeroid)
 
 ## Makeroid
