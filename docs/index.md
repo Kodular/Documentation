@@ -13,13 +13,13 @@ Makeroid allows you to create Android apps easily with a blocks-type editor. No 
 
 ## Useful Links
 
-### [Builder](http://builder.makeroid.io)
-
-This is the page you're going to use to build apps. This is main app that allows you to create anything you want with a Material Design UI.
-
 ### [Community](https://community.makeroid.io)
 
 Using the community, you can get help related to your questions about Makeroid. Even submit your ideas to help improve Makeroid or even report bugs you've experienced during your app development session. Community has so many users that help you, this means you will get a proper answer to any question of yours in minutes.
+
+### [Builder](http://builder.makeroid.io)
+
+This is the page you're going to use to build apps. This is main app that allows you to create anything you want with a Material Design UI.
 
 ### [IDE](http://ide.makeroid.io)
 
