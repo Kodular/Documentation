@@ -5,7 +5,7 @@ Whether you need some help using the components, or just looking around, this se
 For further and personalized help, consider checking out [our community](https://community.makeroid.io).
 
 ## Get Started
-Start by searching what you need using the search bar at the top. You can also consider checking out [Components](https://docs.makeroid.io/components/) or [Blocks](https://docs.makeroid.io/blocks/).
+Start by searching what you need using the search bar at the top. You can also consider checking out [Components](/components/) or [Blocks](/blocks/).
 
 ## What is Makeroid?
 
