@@ -1,4 +1,4 @@
-# Overview <small> of blocks </small>
+# Overview <small> of Blocks</small>
 
 * [Control](control.md)
 * [Logic](logic.md)
