@@ -1,4 +1,7 @@
-### Enabled  
+### Enabled
+
+![](/assets/images/includes/d_enabled.png) ![](/assets/images/includes/p_enabled.png)
+
 _**\(** Getter + Setter **\)**  
 `Type: Boolean`_ 
 

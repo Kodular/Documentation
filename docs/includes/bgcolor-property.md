@@ -1,4 +1,7 @@
-### Background Color  
+### Background Color
+
+![](/assets/images/includes/d_background-color.png) ![](/assets/images/includes/p_background-color.png)
+
 _**\(** Getter + Setter **\)**  
 `Type: Color`_
 

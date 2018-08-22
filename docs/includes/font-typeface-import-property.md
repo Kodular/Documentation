@@ -1,4 +1,7 @@
-### Font Typeface Import  
+### Font Typeface Import
+
+![](/assets/images/includes/d_font-typeface-import.png) ![](/assets/images/includes/p_font-typeface-import.png)
+
 _**\(** Setter only **\)**  
 `Type: Asset`_
 
