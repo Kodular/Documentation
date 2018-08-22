@@ -13,7 +13,7 @@ The text displayed for the **{{ page.title }}**.
 ![](/assets/images/includes/d_text-alignment.png)
 
 _**\(** Setter only | Designer**\)**  
-`Type: Dropdown`_
+`Type: Number`_
 
 The alignment of the _[Text](#text)_ displayed for the **{{ page.title }}**.
 

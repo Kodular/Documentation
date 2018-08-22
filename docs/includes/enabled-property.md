@@ -5,8 +5,7 @@
 _**\(** Getter + Setter **\)**  
 `Type: Boolean`_ 
 
-Determines whether the **{{ page.title }}** is enabled or not. A disabled component does not execute
-any of the [Events](#events). It does not respond to any interactions with it by the user.
+Determines whether the **{{ page.title }}** is enabled or not. A disabled component does not execute any of the [Events](#events). It does not respond to any interactions with it by the user.
 
 Options              | []()
 -------------------- | ------------

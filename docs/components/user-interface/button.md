@@ -22,6 +22,16 @@ A typical button
     If the _[Image](#image)_ property is set, then this is overriden.
 
 
+### Border Shadow
+
+![](/assets/images/components/user-interface/button/d_border-shadow.png)
+
+_**\(** Advanced | Setter only | Designer**\)**  
+`Type: Color`_
+
+The color of ripple effect when touching the button.
+
+
 {!includes/enabled-property.md!}
 
 
@@ -46,6 +56,8 @@ The image that is displayed on the button as a background.
 
 ### Rotation Angle
 
+![](/assets/images/components/user-interface/button/d_rotation-angle.png) ![](/assets/images/components/user-interface/button/p_rotation-angle.png)
+
 _**\(** Getter + Setter **\)**  
 `Type: Number`_ 
 
@@ -54,7 +66,9 @@ The degrees that the **Button** is rotated around the pivot point. Increasing va
 
 ### Shape
 
-_**\(** Setter only **\)(** Designer Only **)**  
+![](/assets/images/components/user-interface/button/d_shape.png)
+
+_**\(** Setter only | Designer**\)**  
 `Type: Text`_ 
 
 The shape of the **Button**.
@@ -65,6 +79,26 @@ Options              | []()
 `Rectangular`        | The button is in rectangular shape , similar to `Default` shape.
 `Rounded`            | The corners of the button are rounded giving it a shape like rounded rectangle.
 `Oval   `            | The **Button** is in the shape of an oval.
+
+
+### Show Feedback
+
+![](/assets/images/components/user-interface/button/d_show-feedback.png) ![](/assets/images/components/user-interface/button/p_show-feedback.png)
+
+_**\(** Advanced | Getter + Setter **\)**  
+`Type: Number`_ 
+
+Determines whether the **Button** shows a visual feedback for a button that has an image as background.
+
+
+### Touch Color
+
+![](/assets/images/components/user-interface/button/d_touch-color.png) ![](/assets/images/components/user-interface/button/p_touch-color.png)
+
+_**\(** Advanced | Setter only **\)**  
+`Type: Color`_
+
+The color of ripple effect when touching the button.
 
 
 {!includes/text-property.md!}
