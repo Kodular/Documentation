@@ -6,7 +6,7 @@ A label is used to show a character.
 
 
 <br><br>
-![Preview of button](../../assets/images/component-previews/label.png){: class="preview-img" }
+![Preview of label](/assets/images/component-previews/label.png" }
 
 
 ## Properties
