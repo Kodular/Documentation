@@ -37,7 +37,6 @@ Options              | []()
 `false `             | The progressbar is in **determinate** mode.
 
 
-
 ### Indeterminate Color
 
 ![](/assets/images/components/user-interface/linear-progressbar/d_indeterminate-color.png) ![](/assets/images/components/user-interface/linear-progressbar/p_indeterminate-color.png)
@@ -85,9 +84,12 @@ _**\(** Getter + Setter | Blocks**\)**
 
 The current progress value of the progress bar in **determinate** mode (i.e when the  [_Indeterminate_](#indeterminate) property is set to _false_). When using _Getter_, returns 0 if **Indeterminate** is set to _true_
 
+
 {!includes/visible-property.md!}
 
+
 {!includes/width-property.md!}
+
 
 
 ## Methods

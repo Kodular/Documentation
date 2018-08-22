@@ -8,10 +8,10 @@ clicking on it to perform an action.
 
 
 <br><br>
-![Preview of button](../../assets/images/component-previews/button.png){: class="preview-img" }
+![Preview of button](/assets/images/components/user-interface/button/preview.png){: class="preview-img"}
 
 A typical button
-{: .img-caption }
+{: .img-caption}
 
 
 ## Properties
@@ -30,7 +30,11 @@ A typical button
 
 {!includes/height-property.md!}
 
-### Image  
+
+### Image
+
+![](/assets/images/components/user-interface/button/d_image.png) ![](/assets/images/components/user-interface/button/p_image.png)
+
 _**\(** Getter + Setter **\)**  
 `Type: Asset`_ 
 
@@ -40,14 +44,16 @@ The image that is displayed on the button as a background.
     This property overrides the [Background Color](#background-color) property.
 
 
-### Rotation Angle  
+### Rotation Angle
+
 _**\(** Getter + Setter **\)**  
 `Type: Number`_ 
 
 The degrees that the **Button** is rotated around the pivot point. Increasing values result in clockwise rotation.
 
 
-### Shape  
+### Shape
+
 _**\(** Setter only **\)(** Designer Only **)**  
 `Type: Text`_ 
 
@@ -70,13 +76,14 @@ Options              | []()
 {!includes/visible-property.md!}
 
 
-## Methods
 
+## Methods
 
 ### Button Click
 _**\(** None **\)**_ 
 
 Perform a Button click. The Click event is also fired when this method is executed.
+
 
 
 ## Events
@@ -87,12 +94,10 @@ _**\(** None **\)**_
 Indicates that the user has clicked the button \(i.e pressed and released\)
 
 
-
 ### Got Focus
 _**\(** None **\)**_
 
 Indicates the has been cursor moved over the button so it is now possible to click it.
-
 
 
 ### Long Click
@@ -100,7 +105,6 @@ _**\(** None **\)**_
 
 Indicates that the user has clicked and held down the button. _Click_ event is not 
 fired when the Button is long clicked.
-
 
 
 ### Lost Focus
