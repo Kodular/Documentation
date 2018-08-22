@@ -49,6 +49,7 @@ extra_javascript:
 
 plugins:
   - search
+  - replace
   
 #Markdown extensions: https://python-markdown.github.io/extensions/
 markdown_extensions:
