@@ -1,5 +1,3 @@
-component: Checkbox
-
 # Checkbox
 
 A **checkbox** is a GUI widget that allows the user to make a binary choice, i.e. a choice between one of two possible mutually exclusive options. For example, the user may have to answer 'yes' \(checked\) or 'no' \(not checked\) on a simple yes/no question.

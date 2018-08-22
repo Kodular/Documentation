@@ -1,5 +1,3 @@
-component: Button
-
 # Button
 
 
