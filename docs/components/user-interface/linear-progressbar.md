@@ -8,7 +8,7 @@ A **determinate progress bar** is used to indicate the progress of an task whose
 A **indeterminate progress bar** is used in situations where the extent of the task is unknown  or the progress of the task cannot be determined in a way that could be expressed as a percentage, for example, when a request to a server is being processed where we don't know the exact value of progress, but there is a need to indicate to the user that the task is in progress.
 
 <br><br>
-![Linear Progressbar](/assets/images/components/user-interface/linear-progressbar/preview.gif){: class="preview-img" }
+![Linear Progressbar](/assets/images/components/user-interface/linear-progressbar/preview.gif){: class="preview-img"}
 
 
 A determinate progressbar fills from 0% to 100%.  
