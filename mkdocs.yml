@@ -88,6 +88,7 @@ nav:
       - Overview: extensions/index.md
       - Create Extensions: extensions/create-extensions.md
     - Other:
+      - Overview: index.md
       - Resources:
         - Overview: other/resources/index.md
         - Concept Cards: other/resources/concept-cards.md
