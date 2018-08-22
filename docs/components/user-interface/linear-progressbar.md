@@ -99,10 +99,9 @@ The current progress value of the progress bar in **determinate** mode (i.e when
 
 ![](/assets/images/components/user-interface/linear-progressbar/m_increment-progress-by.png)
 
-_**\(** Number value **\)**_
+_**\(** Number `value` **\)**_
 
 Increases the value progress by the given value.
-
 
 Params               |  []()       
 -------------------- | ------- 
@@ -115,7 +114,7 @@ Params               |  []()
 
 ![](/assets/images/components/user-interface/linear-progressbar/e_progress-changed.png)
 
-_**\(** Number progress **\)**_
+_**\(** Number `progress` **\)**_
 
 Indicates that the value of the progress bar has changed.
 
