@@ -92,7 +92,7 @@ nav:
       - Resources:
         - Overview: other/resources/index.md
         - Concept Cards: other/resources/concept-cards.md
-      - Release Notes
+      - Release Notes:
         - Overview: other/release-notes/index.md
         - Andromeda: other/release-notes/andromeda.md
         - Butterfly: other/release-notes/butterfly.md
