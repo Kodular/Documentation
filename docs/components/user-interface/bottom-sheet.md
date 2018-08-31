@@ -2,16 +2,15 @@
 
 ## Overview
 The **Bottom Sheet** component is used to display a modal-like dialog with the contents that can be 
-populated from a [Layout](/component/layout) or can be set to show just a single Component.
+populated from a [Layout](/components/layout) or can be set to show just a single Component.
 
 These modal-like **Bottom Sheet**s  are usually used as an alternative to menu or as a simple dialog.
 
 <br><br>
-![Linear Progressbar](/assets/images/components/user-interface/linear-progressbar/preview.gif){: class="preview-img"}
+![Bottom Sheet](/assets/images/component-previews/bottomsheet.png){: class="preview-img"}
 
 
-A determinate progressbar fills from 0% to 100%.
-An indeterminate progress bar moves in a fixed path, growing and shrinking in size.
+A demo of the Bottom Sheet being used as a menu.
 {: .img-caption }
 
 
@@ -47,7 +46,7 @@ Hide the **Bottom Sheet** that is currently visible on the Screen.
 _**\(** Component `component` **\)**_
 
 Set the component that will be shown in the **Bottom Sheet**.
-It can be any User Visible components like a Button or a Label.
+It can be any Visible component for example, a Button or a Label.
 
 Params               | []()
 -------------------- | ---------- 
@@ -91,3 +90,20 @@ Indicates that the **Bottom Sheet** has been dismissed and closed.
 _**\(** None **\)**_
 
 Indicates that the **Bottom Sheet** is opened and now visible on the Screen.
+
+
+## Note
+
+ * The Component or Layout used in [Register Component As Dialog](#register-component-as-dialog) or [Register Layout As Dialog](#register-layout-as-dialog) should be visible on the screen(i.e the Visible property of the Component or the Layout used should be `true`) at the time when either of those methods are used. It will be hidden from the Screen automatically after the BottomSheet is set to show that Component or Layout. 
+
+* The Component or Layout used should have its __Height__ property set to `Automatic`.
+  It may not work as expected for other options.
+
+
+## Example
+
+The below blocks can be used for the showing a _Vertical Arrangement_ in **Bottom Sheet**.
+Please note that any of the arrangements,not only the _Vertical Arrangement_ can be used in a  
+**Bottom Sheet** .
+
+![Bottom Sheet Example](/assets/images/components/user-interface/bottomsheet/example_blocks.png)
