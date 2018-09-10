@@ -148,3 +148,43 @@ _The "major changes" of this update are the bunch of new components_
 - **Textbox** component
     - `Cursor Visible`  
     ![image](https://community.makeroid.io/uploads/default/original/2X/7/7482940888ab2ab79ac65ecc3b336e27a741c304.png)
+
+## 1.1.1 Butterfly   \|   _23 August 2018_
+
+### **UI Changes**
+
+- Fixed **_Ads Position_** after _Build Error_
+- Switched "**_Show Navigation Bar_**" to _Experimental Properties_
+
+### **Improvements**
+
+- _Performance_ on **_App Loading_**
+- When receiving a **_PushNotification_** when _app is open_, a **_Dialog_** with the notification appears
+
+### **New Features**
+
+- Added "**_Background Color_**" property for _Side Menu Layout_ component
+- Added "**_Show Tabs_**" property for _View Pager_ component
+- Added "**_Get Icon_**" properties for _Floating Action Button_ component
+
+### **Bugs Fixed**
+
+- **_Push Notifications_** on _Android 8 Oreo_ (`were not working`)
+- **_Open Side Menu_** from _Hamburguer Icon_ (`was not opening`)
+- **_Screen Title Visible_** if Screen is _Scrollable_ (`was not working properly`)
+- **_Spreadsheet_** if request had _more than 100 rows_ (`was returning error`)
+- **_Security Issue_** on _Login Page_ (`critical bug could cause system failure`)
+- **_Internal Error_** when using an _AdBlocker_ (`Ode did not process properly`)
+- **_Dim Amount_** on _Notifier_ (`was missing a defualt value`)
+- **_Date Picker_** not _properly upgraded_ (`projects could be broken`)
+- **_Time Picker_** not _properly upgraded_ (`projects could be broken`)
+- **_Consent Dialog_**  not _properly executed_ (`sometimes was not showing`)
+- **_View Pager_** visibility _Shadow Bug_ (`was not rendering properly`)
+- **_Orientation Change_** Bug on _Tab Layout_ (`was broking screen`)
+- **_Orientation Change_** Bug on _View Pager_ (`was broking screen`)
+- **_Fixed Mode_** in Screen was _broken_ (`app design was broken`)
+- **_Some Links_** to Documentation in Blocks (`were pointing to wrong path`)
+- **_Other Minor Bugs_**
+- [Update AcitivityStarter for file permissions · mit-cml/appinventor-sources@f6f05ca · GitHub](https://github.com/mit-cml/appinventor-sources/commit/f6f05ca0f8a2a14a708557314c9d290b1cda8c56)
+- [Sound.java line 277 · Issue #462 · Makeroid/BugsTracker · GitHub](https://github.com/Makeroid/BugsTracker/issues/462)
+- [ViewGroup.java line 4404 · Issue #511 · Makeroid/BugsTracker · GitHub](https://github.com/Makeroid/BugsTracker/issues/511)
