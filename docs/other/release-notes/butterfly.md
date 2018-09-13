@@ -188,3 +188,5 @@ _The "major changes" of this update are the bunch of new components_
 - [Update AcitivityStarter for file permissions · mit-cml/appinventor-sources@f6f05ca · GitHub](https://github.com/mit-cml/appinventor-sources/commit/f6f05ca0f8a2a14a708557314c9d290b1cda8c56)
 - [Sound.java line 277 · Issue #462 · Makeroid/BugsTracker · GitHub](https://github.com/Makeroid/BugsTracker/issues/462)
 - [ViewGroup.java line 4404 · Issue #511 · Makeroid/BugsTracker · GitHub](https://github.com/Makeroid/BugsTracker/issues/511)
+
+## 1.1.2 Butterfly   \|   _15 September 2018_
