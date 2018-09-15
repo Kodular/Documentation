@@ -708,6 +708,40 @@
     1.1.2 Butterfly   |   15 September 2018
   </a>
   
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ui-changes_2" title="UI Changes" class="md-nav__link">
+    UI Changes
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#improvements_1" title="Improvements" class="md-nav__link">
+    Improvements
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#new-features_1" title="New Features" class="md-nav__link">
+    New Features
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bugs-fixed_2" title="Bugs Fixed" class="md-nav__link">
+    Bugs Fixed
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
       
@@ -3403,6 +3437,40 @@
     1.1.2 Butterfly   |   15 September 2018
   </a>
   
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ui-changes_2" title="UI Changes" class="md-nav__link">
+    UI Changes
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#improvements_1" title="Improvements" class="md-nav__link">
+    Improvements
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#new-features_1" title="New Features" class="md-nav__link">
+    New Features
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bugs-fixed_2" title="Bugs Fixed" class="md-nav__link">
+    Bugs Fixed
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
       
@@ -3656,6 +3724,77 @@
 <li><a href="https://github.com/Makeroid/BugsTracker/issues/511">ViewGroup.java line 4404 · Issue #511 · Makeroid/BugsTracker · GitHub</a></li>
 </ul>
 <h2 id="112-butterfly-124-15-september-2018">1.1.2 Butterfly   |   <em>15 September 2018</em><a class="headerlink" href="#112-butterfly-124-15-september-2018" title="Permanent link">&para;</a></h2>
+<h3 id="ui-changes_2">UI Changes<a class="headerlink" href="#ui-changes_2" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Fixed <strong><em>Taiwan Flag</em></strong> on <em>Language Picker</em></li>
+<li>Fixed link to <strong><em>Release Notes</em></strong> in Splash Screen</li>
+<li>Re-Added <strong><em>Import / Export Screen</em></strong> (.ais) files</li>
+<li>Added context menu items to <strong><em>Enable / Disable All Blocks</em></strong></li>
+</ul>
+<h3 id="improvements_1">Improvements<a class="headerlink" href="#improvements_1" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Removed <a href="https://community.makeroid.io/t/removing-blocks/9382?u=barreeeiroo"><strong><em>TitleBar Tabs Blocks</em></strong></a></li>
+<li>Fixed <strong><em>handling <kbd>Enter</kbd></em></strong> key on <em>Dialogs</em></li>
+<li><strong><em>Side Menu Layout</em></strong> and <strong><em>Side Menu block</em></strong> are now <strong><em>compatible with Companion</em></strong>
+<em>It will no longer crash</em></li>
+<li>Changed <strong><em>Text of Button</em></strong> from CANCEL to <strong><em>OK</em></strong> in <em>About this application</em> Dialog</li>
+</ul>
+<h3 id="new-features_1">New Features<a class="headerlink" href="#new-features_1" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Re-Added <strong><em>High Quality Images</em></strong> property for <em>Screen1</em></li>
+<li>Added missing <strong><em>Is Companion</em></strong> return property for <em>Screen</em></li>
+<li>Added missing <strong><em>Is Side Menu Added</em></strong> return property for <em>Screen</em></li>
+<li>Added missing <strong><em>Visible</em></strong> property for <em>Tab Layout</em> component</li>
+<li>Added missing <strong><em>Visible</em></strong> property for <em>View Pager</em> component</li>
+<li>Added missing <strong><em>Align</em></strong> properties for <em>Card View</em> component</li>
+<li>Added missing <strong><em>Align</em></strong> properties for <em>Surface View</em> component
+&nbsp;</li>
+<li>Added missing <strong><em>Open System Write Settings</em></strong> function for <em>Screen</em></li>
+<li>Added missing <strong><em>Are System Write Settings Granted</em></strong> function for <em>Screen</em>
+&nbsp;</li>
+<li>Added missing <strong><em>Selection</em></strong> variable in event <em>After Picking</em> for all Pickers</li>
+</ul>
+<h3 id="bugs-fixed_2">Bugs Fixed<a class="headerlink" href="#bugs-fixed_2" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong><em>Several Errors</em></strong> on <em>Companion</em> (<code>some properties were not properly rendered</code>)</li>
+<li><strong><em>TitleBar Back Button</em></strong> was not working (<code>it didn't handle user actions</code>)</li>
+<li><strong><em>Leadbolt</em></strong> component was broken (<code>it was not showing ads</code>)</li>
+<li><strong><em>Are Permissions Granted</em></strong> block was not working properly (<code>sometimes it was returning false even when granted</code>)</li>
+<li><strong><em>Screen Title</em></strong> was visible after rotation (<code>Screen was generated again after changing orientation</code>)</li>
+<li><strong><em>Screenshot</em></strong> component was crashing in some devices (<code>wrong procedures were called</code>)</li>
+<li><strong><em>Notifier</em></strong> component was throwing some NullPointerExceptions (<code>missing try/catch code</code>)</li>
+<li><strong><em>ListView</em></strong> scrolling speed (<code>it was too slow</code>)</li>
+<li><strong><em>Notification</em></strong> component was not working (<code>it was broken</code>)
+<em>Make sure you remove all OLD components. We have developed a new one, so you will need to add it again to your projects, as the one you are using is deprecated</em></li>
+<li><strong><em>AirTable</em></strong> component with OffSet (<code>+100 values were not returned</code>)</li>
+<li><strong><em>None Color</em></strong> with <em>Is Card</em> property in Arrangement (<code>Is Card was not active with that</code>)</li>
+<li><strong><em>Got Text</em></strong> Event of <em>Web Component</em> (<code>Out of Memory Exception was raised</code>)</li>
+<li><strong><em>Tab Layout</em></strong> issue on selection (<code>Null Pointer Exception throwed sometimes</code>)</li>
+<li><strong><em>Is Card</em></strong> property in Arrangements (<code>Fill Parent was not working</code>)<br />
+<em><a href="https://community.makeroid.io/t/is-card-property-sizing-bug/9460">Is card" property sizing BUG</a></em></li>
+<li><strong><em>SwipeRefreshLayout</em></strong> with Scrollable Arrangements (<code>it was conflicting</code>)<br />
+<em><a href="https://community.makeroid.io/t/cant-scroll-vertical-scroll-arrangement-up-in-swipe-refresh-layout/9765">Can't Scroll Vertical Scroll Arrangement Up in Swipe Refresh Layout</a></em></li>
+<li><strong><em>TitleBar Icon Selected</em></strong> return values (<code>was returning image name</code>)<br />
+<em><a href="https://community.makeroid.io/t/error-in-title-bar-back-button-title-bar-icon-selected/10093">Error in Title Bar Back Button &amp; Title Bar Icon Selected</a></em></li>
+<li><strong><em>Firebase</em></strong> with wrong URL (<code>it was crashing apps</code>)<br />
+<em><a href="https://github.com/Makeroid/BugsTracker/issues/282">Utilities.java line 39 · Issue #282 · Makeroid/BugsTracker · GitHub</a></em></li>
+<li><strong><em>ExoPlayer</em></strong> sending <em>Null Error Message</em><br />
+<em><a href="https://github.com/Makeroid/BugsTracker/issues/594">Log.java · Issue #594 · Makeroid/BugsTracker · GitHub</a></em></li>
+<li><strong><em>Notifier</em></strong> component (<code>was throwing some errors</code>)<br />
+<em><a href="https://github.com/Makeroid/BugsTracker/issues/717">TextView.java line 672 · Issue #717 · Makeroid/BugsTracker · GitHub</a></em></li>
+<li><strong><em>Wallpaper</em></strong> component (<code>it was missing a permission</code>)<br />
+<em><a href="https://github.com/Makeroid/BugsTracker/issues/723">Missing wallpaper permission · Issue #723 · Makeroid/BugsTracker · GitHub</a></em></li>
+<li><strong><em>Notifier</em></strong> component (<code>Set Dialog Helper was not being triggered</code>)<br />
+<em><a href="https://github.com/Makeroid/BugsTracker/issues/966">Notifier.java line 1179 · Issue #966 · Makeroid/BugsTracker · GitHub</a></em></li>
+<li><strong><em>FillParent</em></strong> property with Scrollable parameter (<code>it was not working</code>)<br />
+<em><a href="https://github.com/mit-cml/appinventor-sources/issues/1344">Fill Parent does not work in Scrollable on Android 7+ with target SDK 26 · Issue #1344 · mit-cml/appinventor-sources · GitHub</a></em></li>
+<li><strong><em>Got Value</em></strong> event of Firebase (<code>it was not working as it should</code>)<br />
+<em><a href="https://github.com/Makeroid/BugsTracker/issues/1174">register.yail line 10098 · Issue #1174 · Makeroid/BugsTracker · GitHub</a></em></li>
+<li><strong><em>Internal Error Reporting</em></strong> was crashing sometimes in apps (<code>NullPointerException</code>)<br />
+<em><a href="https://github.com/Makeroid/BugsTracker/issues/28">Formatter.java line 2522 · Issue #28 · Makeroid/BugsTracker · GitHub</a></em></li>
+<li><strong><em>500 Internal Error</em></strong> on URLs (<code>accessing to /b</code>)<br />
+<em><a href="https://github.com/mit-cml/appinventor-sources/commit/49c25e75987380cd47eed11bdab55b908860b052">Fix a 500 Error · mit-cml/appinventor-sources@49c25e7 · GitHub</a></em></li>
+</ul>
                 
                   
                 
