@@ -106,6 +106,10 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
+      <a href="../../#colors" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
     
       <header class="md-header" data-md-component="header">
   <nav class="md-header-nav md-grid">
@@ -3070,10 +3074,55 @@
     
     <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
     
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Colors
+      </label>
     
     <a href="./" title="Colors" class="md-nav__link md-nav__link--active">
       Colors
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#basic" title="basic color blocks" class="md-nav__link">
+    basic color blocks
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#make" title="make color" class="md-nav__link">
+    make color
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#split" title="split color" class="md-nav__link">
+    split color
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
     
   </li>
 
@@ -3126,6 +3175,51 @@
               </div>
             
             
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#basic" title="basic color blocks" class="md-nav__link">
+    basic color blocks
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#make" title="make color" class="md-nav__link">
+    make color
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#split" title="split color" class="md-nav__link">
+    split color
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content">
             <article class="md-content__inner md-typeset">
@@ -3134,9 +3228,31 @@
                   <a href="https://github.com/Makeroid/Documentation/blob/master/docs/blocks/colors.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
                 
                 
-                  <h1>Colors</h1>
-                
-                
+                <h1 id="colors">Colors<a class="headerlink" href="#colors" title="Permanent link">&para;</a></h1>
+<p>There are three main types of color blocks:</p>
+<ul>
+<li><a href="./#basic">a color box</a></li>
+<li><a href="./#make">make color</a></li>
+<li><a href="./#split">split color</a></li>
+</ul>
+<h2 id="basic">basic color blocks<a class="headerlink" href="#basic" title="Permanent link">&para;</a></h2>
+<p><img alt="" src="/assets/images/blocks/colors/basiccolorblock.png" /></p>
+<p>This is a basic color block. It has a small square shape and has a color in the middle that represents the color stored internally in this block.</p>
+<p>If you click on the color in the middle, a pop-up appears on the screen with a table of 70 colors that you can choose from. Clicking on a new color will change the current color of your basic color block.</p>
+<p><img alt="" src="/assets/images/blocks/colors/colorblock.gif" /></p>
+<p>Each basic color block that you drag from the Colors drawer to the Blocks Editor screen will display a table with the same colors when clicked.</p>
+<h2 id="make">make color<a class="headerlink" href="#make" title="Permanent link">&para;</a></h2>
+<p><img alt="" src="/assets/images/blocks/colors/makecolor.png" /></p>
+<p><code>make color</code></p>
+<p>takes in a list of 3 or 4 numbers. These numbers in this list represent values in an RGB code. RGB codes are used to make colors on the Internet. An RGB color chart is available</p>
+<p><a href="http://www.tayloredmktg.com/rgb/">here</a></p>
+<p>. This first number in this list represents the R value of the code. The second represents the G. The third represents the B. The fourth value is optional and represents the alpha value or how saturated the color is. The default alpha value is 100. Experiment with different values and see how the colors change using this block.</p>
+<h2 id="split">split color<a class="headerlink" href="#split" title="Permanent link">&para;</a></h2>
+<p><img alt="" src="/assets/images/blocks/colors/splitcolor.png" /></p>
+<p><code>split color</code></p>
+<p>does the opposite of</p>
+<p><code>make color</code></p>
+<p>. It takes in a color: a color block, variable holding a color, or property from one of the components representing a color and returns a list of the RGB values in that color's RGB code.</p>
                 
                   
                 
