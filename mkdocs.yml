@@ -23,6 +23,7 @@ extra:
       link: https://facebook.com/Makeroid
     - type: github
       link: https://github.com/Makeroid
+  adsense: "ca-pub-9439286719204795"
 
 # Material theme for MkDocs : https://github.com/squidfunk/mkdocs-material/
 theme:
@@ -37,8 +38,7 @@ theme:
   font:
     text: Roboto
     code: Roboto Mono
-  static_templates:
-    - 404.html
+  custom_dir: makeroid_theme/
 
 extra_css:
   - assets/css/extra.css
