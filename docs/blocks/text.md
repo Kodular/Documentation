@@ -90,7 +90,7 @@ Divides the given text into two pieces using the location of the first occurrenc
 
 ## split at first of any {#splitatfirstofany}
 
-![](/assets/images/blocks/text/splitatfirstofany.png)
+![](/assets/images/blocks/text/splitAtFirstOfAny.png)
 
 Divides the given text into a two-item list, using the first location of any item in the list at as the dividing point.
 
@@ -104,7 +104,7 @@ Divides text into pieces using at as the dividing points and produces a list of 
 
 ## split at any {#splitatany}
 
-![](/assets/images/blocks/text/splitatany.png)
+![](/assets/images/blocks/text/splitAtAny.png)
 
 Divides the given text into a list, using any of the items in at as the dividing point, and returns a list of the results.
 
