@@ -262,4 +262,4 @@ _[Formatter.java line 2522 · Issue #28 · Makeroid/BugsTracker · GitHub](https
 - **_500 Internal Error_** on URLs (`accessing to /b`)  
 _[Fix a 500 Error · mit-cml/appinventor-sources@49c25e7 · GitHub](https://github.com/mit-cml/appinventor-sources/commit/49c25e75987380cd47eed11bdab55b908860b052)_
 
-## 1.1.3 Butterfly   \|   _03 October 2018_
+## 1.1.3 Butterfly   \|   _04 October 2018_
