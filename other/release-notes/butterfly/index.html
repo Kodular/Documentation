@@ -760,6 +760,40 @@
     1.1.3 Butterfly   |   04 October 2018
   </a>
   
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#improvements_2" title="Improvements" class="md-nav__link">
+    Improvements
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#companion_1" title="Companion" class="md-nav__link">
+    Companion
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#new-features_2" title="New Features" class="md-nav__link">
+    New Features
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bugs-fixed_3" title="Bugs Fixed" class="md-nav__link">
+    Bugs Fixed
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
       
@@ -3496,6 +3530,40 @@
     1.1.3 Butterfly   |   04 October 2018
   </a>
   
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#improvements_2" title="Improvements" class="md-nav__link">
+    Improvements
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#companion_1" title="Companion" class="md-nav__link">
+    Companion
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#new-features_2" title="New Features" class="md-nav__link">
+    New Features
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bugs-fixed_3" title="Bugs Fixed" class="md-nav__link">
+    Bugs Fixed
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
       
@@ -3821,6 +3889,54 @@
 <em><a href="https://github.com/mit-cml/appinventor-sources/commit/49c25e75987380cd47eed11bdab55b908860b052">Fix a 500 Error · mit-cml/appinventor-sources@49c25e7 · GitHub</a></em></li>
 </ul>
 <h2 id="113-butterfly-124-04-october-2018">1.1.3 Butterfly   |   <em>04 October 2018</em><a class="headerlink" href="#113-butterfly-124-04-october-2018" title="Permanent link">&para;</a></h2>
+<h3 id="improvements_2">Improvements<a class="headerlink" href="#improvements_2" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Added <strong><em>Subscribe to Notifications</em></strong> button in <em>Builder</em></li>
+</ul>
+<h3 id="companion_1">Companion<a class="headerlink" href="#companion_1" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Fixed <strong><em>PushNotifications</em></strong> on <em>Companion</em></li>
+<li><strong><em>SideMenu</em></strong> and <strong><em>SideMenuLayout</em></strong> are now <em>fully compatible</em> in Companion</li>
+</ul>
+<h3 id="new-features_2">New Features<a class="headerlink" href="#new-features_2" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Added missing <strong><em>HTML Format</em></strong> property for <em>List View</em> component<br />
+<a href="https://community.makeroid.io/t/disable-html-in-listview/10377"><em>Disable Html in Listview</em></a></li>
+<li>Added missing <strong><em>Statusbar Visible</em></strong> property for <em>List Picker</em> component</li>
+<li>Added missing <strong><em>CreateDirectory</em></strong> function for <em>File</em> component</li>
+<li>Added missing <strong><em>DirectoryCreated</em></strong> event for <em>File</em> component</li>
+</ul>
+<h3 id="bugs-fixed_3">Bugs Fixed<a class="headerlink" href="#bugs-fixed_3" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong><em>Notifier</em></strong> component returning a strange error (<code>Fatal Exception: android.view.WindowManager$BadTokenException: Unable to add window -- token android.os.BinderProxy@20a73ee is not valid; is your activity running?</code>)</li>
+<li><strong><em>GetPackageIcon</em></strong> uses now PackageName as File Name (<code>before it was appIconMAK.png</code>)</li>
+<li><strong><em>Spotlight</em></strong> component was not working with FAB (<code>it was incompatible</code>)</li>
+<li><strong><em>ChromeCustomTabs</em></strong> were throwing NullPointerExceptions (<code>missing try/catch block</code>)</li>
+<li><strong><em>ImageTintColor</em></strong> was missing a description (<code>it had a copy-pasted one</code>)</li>
+<li><strong><em>ImageTintColor</em></strong> was crashing sometimes (<code>NPE were raised due to missing try/catch code</code>)</li>
+<li><strong><em>AirTable</em></strong> component had a security issue (<code>it was exposing API key in logs</code>)</li>
+<li><strong><em>Button</em></strong> crashing when editing multiple at once (<code>Concurrent Modification Exception</code>)</li>
+<li><strong><em>CloudDB</em></strong> was not working properly (<code>StringIndexOutOfBoundsException</code>)</li>
+<li><strong><em>PushNotifications</em></strong> were missing some permissions (<code>manifest was incomplete</code>)</li>
+<li><strong><em>Typo</em></strong> on Sprite component (<code>missign T</code>)</li>
+<li><strong><em>Typo</em></strong> on YouTube component (<code>stage has to be state</code>)</li>
+<li><strong><em>ActivityStarter</em></strong> was not opening PDFs (<code>missing permission</code>)<br />
+<a href="https://community.makeroid.io/t/getting-error-while-accessing-pdf-from-directory-kindly-help/10116"><em>Getting error while accessing pdf from directory. Kindly help</em></a></li>
+<li><strong><em>Transparency Bug</em></strong> on <em>Button</em> (<code>it was returning an opaque button</code>)<br />
+<a href="https://community.makeroid.io/t/transparency-not-working-with-default-shape-button/10275">Transparency not working with default shape button</a></li>
+<li><strong><em>Download</em></strong> component was not working sometimes (<code>it was crashing</code>)<br />
+<a href="https://github.com/Makeroid/BugsTracker/issues/1522">Download.java line 299 · Issue #1522 · Makeroid/BugsTracker · GitHub</a></li>
+<li><strong><em>Clock</em></strong> component throwing NPE (<code>app was unresponsive</code>)<br />
+<a href="https://github.com/Makeroid/BugsTracker/issues/1525">HashMap.java line 471 · Issue #1525 · Makeroid/BugsTracker · GitHub</a></li>
+<li><strong><em>FTP</em></strong> component crashing (<code>returning NPE</code>)<br />
+<a href="https://github.com/Makeroid/BugsTracker/issues/992">MakeroidFtp.java line 233 · Issue #992 · Makeroid/BugsTracker · GitHub</a></li>
+<li><strong><em>YouTube</em></strong> component causing NPE (<code>wrong variable reporting error</code>)<br />
+<a href="https://github.com/Makeroid/BugsTracker/issues/1737">ActivityThread.java line 3133 · Issue #1737 · Makeroid/BugsTracker · GitHub</a></li>
+<li><strong><em>VideoPlayer</em></strong> component causing NPE (<code>missing if check</code>)<br />
+<a href="https://github.com/Makeroid/BugsTracker/issues/1736">VideoView.java line 260 · Issue #1736 · Makeroid/BugsTracker · GitHub</a></li>
+<li><strong><em>FusionTables</em></strong> component causing the same issue as Notifier (<code>is your activity running?</code>)<br />
+<a href="https://github.com/Makeroid/BugsTracker/issues/1694">WindowManagerGlobal.java line 552 · Issue #1694 · Makeroid/BugsTracker · GitHub</a></li>
+</ul>
                 
                   
                 
