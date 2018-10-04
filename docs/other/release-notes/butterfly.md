@@ -263,3 +263,51 @@ _[Formatter.java line 2522 · Issue #28 · Makeroid/BugsTracker · GitHub](https
 _[Fix a 500 Error · mit-cml/appinventor-sources@49c25e7 · GitHub](https://github.com/mit-cml/appinventor-sources/commit/49c25e75987380cd47eed11bdab55b908860b052)_
 
 ## 1.1.3 Butterfly   \|   _04 October 2018_
+
+### Improvements
+
+- Added **_Subscribe to Notifications_** button in _Builder_
+
+### Companion
+
+- Fixed **_PushNotifications_** on _Companion_
+- **_SideMenu_** and **_SideMenuLayout_** are now _fully compatible_ in Companion
+
+### New Features
+
+- Added missing **_HTML Format_** property for _List View_ component  
+[_Disable Html in Listview_](https://community.makeroid.io/t/disable-html-in-listview/10377)
+- Added missing **_Statusbar Visible_** property for _List Picker_ component
+- Added missing **_CreateDirectory_** function for _File_ component
+- Added missing **_DirectoryCreated_** event for _File_ component
+
+### Bugs Fixed
+
+- **_Notifier_** component returning a strange error (`Fatal Exception: android.view.WindowManager$BadTokenException: Unable to add window -- token android.os.BinderProxy@20a73ee is not valid; is your activity running?`)
+- **_GetPackageIcon_** uses now PackageName as File Name (`before it was appIconMAK.png`)
+- **_Spotlight_** component was not working with FAB (`it was incompatible`)
+- **_ChromeCustomTabs_** were throwing NullPointerExceptions (`missing try/catch block`)
+- **_ImageTintColor_** was missing a description (`it had a copy-pasted one`)
+- **_ImageTintColor_** was crashing sometimes (`NPE were raised due to missing try/catch code`)
+- **_AirTable_** component had a security issue (`it was exposing API key in logs`)
+- **_Button_** crashing when editing multiple at once (`Concurrent Modification Exception`)
+- **_CloudDB_** was not working properly (`StringIndexOutOfBoundsException`)
+- **_PushNotifications_** were missing some permissions (`manifest was incomplete`)
+- **_Typo_** on Sprite component (`missign T`)
+- **_Typo_** on YouTube component (`stage has to be state`)
+- **_ActivityStarter_** was not opening PDFs (`missing permission`)  
+[_Getting error while accessing pdf from directory. Kindly help_](https://community.makeroid.io/t/getting-error-while-accessing-pdf-from-directory-kindly-help/10116)
+- **_Transparency Bug_** on _Button_ (`it was returning an opaque button`)  
+[Transparency not working with default shape button](https://community.makeroid.io/t/transparency-not-working-with-default-shape-button/10275)
+- **_Download_** component was not working sometimes (`it was crashing`)  
+[Download.java line 299 · Issue #1522 · Makeroid/BugsTracker · GitHub](https://github.com/Makeroid/BugsTracker/issues/1522)
+- **_Clock_** component throwing NPE (`app was unresponsive`)  
+[HashMap.java line 471 · Issue #1525 · Makeroid/BugsTracker · GitHub](https://github.com/Makeroid/BugsTracker/issues/1525)
+- **_FTP_** component crashing (`returning NPE`)  
+[MakeroidFtp.java line 233 · Issue #992 · Makeroid/BugsTracker · GitHub](https://github.com/Makeroid/BugsTracker/issues/992)
+- **_YouTube_** component causing NPE (`wrong variable reporting error`)  
+[ActivityThread.java line 3133 · Issue #1737 · Makeroid/BugsTracker · GitHub](https://github.com/Makeroid/BugsTracker/issues/1737)
+- **_VideoPlayer_** component causing NPE (`missing if check`)  
+[VideoView.java line 260 · Issue #1736 · Makeroid/BugsTracker · GitHub](https://github.com/Makeroid/BugsTracker/issues/1736)
+- **_FusionTables_** component causing the same issue as Notifier (`is your activity running?`)  
+[WindowManagerGlobal.java line 552 · Issue #1694 · Makeroid/BugsTracker · GitHub](https://github.com/Makeroid/BugsTracker/issues/1694)
