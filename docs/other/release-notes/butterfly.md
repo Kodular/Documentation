@@ -311,3 +311,9 @@ _[Fix a 500 Error · mit-cml/appinventor-sources@49c25e7 · GitHub](https://gith
 [VideoView.java line 260 · Issue #1736 · Makeroid/BugsTracker · GitHub](https://github.com/Makeroid/BugsTracker/issues/1736)
 - **_FusionTables_** component causing the same issue as Notifier (`is your activity running?`)  
 [WindowManagerGlobal.java line 552 · Issue #1694 · Makeroid/BugsTracker · GitHub](https://github.com/Makeroid/BugsTracker/issues/1694)
+
+## 1.1.4 Butterfly   \|   _05 October 2018_
+
+### Bugs Fixed
+
+- **_ListView_** component causing a critical error (`Null Pointer Exception`)
