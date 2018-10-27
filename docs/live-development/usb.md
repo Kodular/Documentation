@@ -1,6 +1,6 @@
 # Via USB
 
-## Installing Makeroid Starter
+## Installing Kodular Starter
 
 ### Install ADB
 
@@ -33,25 +33,25 @@ pip 10.0.1 from c:\python3\lib\site-packages\pip (python 3.6)
 
 ### Download Script File
 
-1. Download the files from [https://github.com/Makeroid/Starter/releases/latest](https://github.com/Makeroid/Starter/releases/latest)
+1. Download the files from [https://github.com/Kodular/Starter/releases/latest](https://github.com/Kodular/Starter/releases/latest)
 
 2. Save the folder to anywhere. You can also add it to Desktop as shortcut. 
 
 !!! warning
     The path should not contain spaces.
 
-3. Run this command on the same directory where the Makeroid Starter is
+3. Run this command on the same directory where the Kodular Starter is
 
 ```
 pip install -r requirements.txt
 ```
 
-## Run Makeroid Starter
+## Run Kodular Starter
 
-To run Makeroid Starter, execute the following command in the same folder as Makeroid Starter:
+To run Kodular Starter, execute the following command in the same folder as Kodular Starter:
 
 ```
-python MakeroidStarter.py
+python KodularStarter.py
 ```
 
 ## Connect to Companion
@@ -64,9 +64,9 @@ python MakeroidStarter.py
 
 ![](/assets/images/live-development/usb-2.png)
 
-**Step 3:** You've successfully linked your Android Phone to the Makeroid Builder.  
+**Step 3:** You've successfully linked your Android Phone to the Kodular Creator.  
 
 !!! tip
-    If you are having connection problems, check the [Makeroid Starter Checker](https://starter.makeroid.io).
+    If you are having connection problems, check the [Kodular Starter Checker](https://starter.kodular.io).
 
-> Remember that this connecting process is not a one time process and you need to do this every time you close Makeroid Builder or the Makeroid Companion.
+> Remember that this connecting process is not a one time process and you need to do this every time you close Kodular Creator or the Kodular Companion.

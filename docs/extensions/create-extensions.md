@@ -1,7 +1,7 @@
 # Creating Extensions
 
 !!! info
-    **Now you can just skip this tutorial and paste your code in** [**Makeroid IDE**](https://ide.makeroid.io)**!**
+    **Now you can just skip this tutorial and paste your code in** [**Kodular IDE**](https://ide.kodular.io)**!**
 
 ## Tools you will need
 
@@ -78,7 +78,7 @@
 
 <script src="https://gist.github.com/pavi2410/c58954d86e8510e7300b1253c5ecca4a.js"></script>
 
-* Save the above code to `appinventor-sources/appinventor/components/src/com/makeroid/`as `SimpleMaths.java`
+* Save the above code to `appinventor-sources/appinventor/components/src/io/kodular/`as `SimpleMaths.java`
 * Go back to the `appinventor` folder.
 * Open Command Prompt on that directory.
 * Type `ant extensions` and click on enter.
@@ -97,12 +97,12 @@ Your extension file \(.aix file\) should appear in the directory:
 
 `appinventor-sources/appinventor/components/build/extensions`
 
-Now, you can easily share the aix files with anyone and can import it into Makeroid seemlessly.
+Now, you can easily share the aix files with anyone and can import it into Kodular seemlessly.
 
 * For more information about extensions, read [here](http://ai2.appinventor.mit.edu/reference/other/extensions.html)
 
 * Keep making more and more and more extensions and help our community to build the best app.
 
-* [Share your extensions](https://community.makeroid.io/c/extensions) with our community and become an "[Extension Developer](https://community.makeroid.io/badges/102/extension-developer)".
+* [Share your extensions](https://community.kodular.io/c/extensions) with our community and become an "[Extension Developer](https://community.kodular.io/badges/102/extension-developer)".
 
-If you want more help, feel free to ask us on [Makeroid Community](https://community.makeroid.io).
+If you want more help, feel free to ask us on [Kodular Community](https://community.kodular.io).

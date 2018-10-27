@@ -1,3 +1,3 @@
-# Makeroid Resources
+# Kodular Resources
 
 ### [Concept Cards](concept-cards)

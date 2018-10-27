@@ -24,7 +24,7 @@
 
 Contains a text string.
 
-This string can contain any characters \(letters, numbers, or other special characters\). On Makeroid, it will be considered a Text object.
+This string can contain any characters \(letters, numbers, or other special characters\). On Kodular, it will be considered a Text object.
 
 ## join {#join}
 

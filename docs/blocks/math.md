@@ -39,7 +39,7 @@
 * [atan2](math.md#atan2)
 * [convert radians to degrees](math.md#convertrad)
 * [convert degrees to radians](math.md#convertdeg)
-* [format as a decimal](https://github.com/makeroid/docs/tree/6b89ce9eb8c93762fd238491325318be0e89c35f/format%20as%20a%20decimal/README.md)
+* [format as a decimal](https://github.com/Kodular/docs/tree/6b89ce9eb8c93762fd238491325318be0e89c35f/format%20as%20a%20decimal/README.md)
 * [is a number](math.md#isnumber)
 * [convert number](math.md#convertnumber)
 

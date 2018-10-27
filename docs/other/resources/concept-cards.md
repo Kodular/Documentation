@@ -1,7 +1,7 @@
 # Concept Cards
 
 !!! quote
-    Big thanks to [@Peter](https://community.makeroid.io/u/Peter) who made these amazing cards!
+    Big thanks to [@Peter](https://community.kodular.io/u/Peter) who made these amazing cards!
 
 ![Concept Card 1](/assets/images/other/resources/makeroidconceptcard01.png)
 
