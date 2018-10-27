@@ -1,28 +1,28 @@
 # Site Config
-site_name: Makeroid Docs
-site_description: Makeroid Documentation
-site_author: Makeroid
-site_url: https://docs.makeroid.io/
+site_name: Kodular Docs
+site_description: Kodular Documentation
+site_author: Kodular
+site_url: https://docs.kodular.io/
 
 # Repository
-repo_name: Makeroid Docs
-repo_url: https://github.com/Makeroid/Documentation
+repo_name: Kodular Docs
+repo_url: https://github.com/Kodular/Documentation
 edit_uri: blob/master/docs/
 
 #Copyright text in the footer
-copyright: Copyright &copy; 2018 Makeroid
+copyright: Copyright &copy; 2018 Kodular
 
 # Customization
 extra:
   social:
     - type: globe
-      link: https://www.makeroid.io
+      link: https://www.kodular.io
     - type: twitter
-      link: https://twitter.com/Makeroid
+      link: https://twitter.com/KodularIO
     - type: facebook
-      link: https://facebook.com/Makeroid
+      link: https://facebook.com/Kodular
     - type: github
-      link: https://github.com/Makeroid
+      link: https://github.com/Kodular
   adsense: "ca-pub-9439286719204795"
 
 # Material theme for MkDocs : https://github.com/squidfunk/mkdocs-material/
