@@ -16,4 +16,4 @@ Visit the below pages to learn how to connect the companion via different ways:
 
 **Step 2:** Open the app
 
-![](/assets/images/live-development/index-2.png)
+![](/assets/images/live-development/index-2.jpg)
