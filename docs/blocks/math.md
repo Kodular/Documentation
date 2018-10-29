@@ -13,7 +13,7 @@
 * [-](math.md#subtract)
 * [x](math.md#multiply)
 * [/](math.md#divide)
-* \(\#exponent\)
+* [^](math.md#exponent)
 * [random integer](math.md#randomint)
 * [random fraction](math.md#randomfrac)
 * [random set seed to](math.md#randomseed)

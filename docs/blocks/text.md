@@ -4,6 +4,7 @@
 * [join](text.md#join)
 * [length](text.md#length)
 * [is empty?](text.md#isempty)
+* [is string?](text.md#isstring)
 * [compare texts](text.md#compare)
 * [trim](text.md#trim)
 * [upcase](text.md#upcase)
@@ -17,6 +18,7 @@
 * [split at spaces](text.md#splitatspaces)
 * [segment](text.md#segment)
 * [replace all](text.md#replaceall)
+* [obfuscated text](text.md#obfuscated)
 
 ## " " {#string}
 
@@ -43,6 +45,12 @@ Returns the number of characters including spaces in the string. This is the len
 ![](/assets/images/blocks/text/isempty.png)
 
 Returns whether or not the string contains any characters \(including spaces\). When the string length is 0, returns true otherwise it returns false.
+
+## is string? {#isstring}
+
+![](/assets/images/blocks/text/isstring.png)
+
+Returns true if input is a string.
 
 ## compare texts &lt;&gt; = {#compare}
 
@@ -129,3 +137,8 @@ Extracts part of the text starting at start position and continuing for length c
 Returns a new text string obtained by replacing all occurrences of the substring with the replacement.
 
 Replace all with _She loves eating. She loves writing. She loves coding as the text, She as the segment, and Hannah as the replacement would result in Hannah loves eating. Hannah loves writing. Hannah loves coding_.
+
+## obfuscated text {#obfuscated}
+![](/assets/images/blocks/text/obfuscated.png)
+
+Produces text, like a text block.  The difference is that the text is not easily discoverable by examining the app's APK.  Use this when creating apps to distribute that include confidential information, for example, API keys. Warning: This provides only very low security against expert adversaries.
