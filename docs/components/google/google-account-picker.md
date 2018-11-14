@@ -29,7 +29,7 @@ Picks a Google (Gmail) account registered in the device.
 
 ![](/assets/images/components/google/google-account-picker/e_picked.png)
 
-_**\(** Text account Name **\)**_
+_**\(** Text `account Name`**\)**_
 
 Indicates that an account has been picked.
 
