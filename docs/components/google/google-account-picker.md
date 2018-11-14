@@ -7,7 +7,7 @@ A Google Account Picker is a non-visible component which can be used to pick a G
 
 
 ## Properties
-This component do not have any designer property.
+This component doesn't have any designer property.
 
 
 
@@ -16,7 +16,7 @@ This component do not have any designer property.
 
 ### Pick
 
-![](/assets/images/components//google/google-account-picker/m_pick.png)
+![](/assets/images/components/google/google-account-picker/m_pick.png)
 
 _**\(**None**\)**_
 
@@ -27,7 +27,7 @@ Picks a Google (Gmail) account registered in the device.
 
 ### Picked
 
-![](/assets/images/components//google/google-account-picker/e_picked.png)
+![](/assets/images/components/google/google-account-picker/e_picked.png)
 
 _**\(** Text account Name **\)**_
 
