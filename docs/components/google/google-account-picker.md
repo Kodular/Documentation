@@ -3,7 +3,7 @@
 ## Overview
 Google Account Picker is a non-visible component which can be used to pick a Google (Gmail) account registered in the user's device. This component can be used to create a login/register like system in the app.
 <br><br>
-![Google Account Picker](Documentation/docs/assets/images/google/preview.gif){: class="preview-gif" }
+![Google Account Picker](/docs/assets/images/google/preview.gif){: class="preview-gif" }
 
 
 ## Properties
@@ -16,7 +16,7 @@ This component doesn't have any designer property.
 
 ### Pick
 
-![Picked](/Documentations/docs/assets/images/google/m_pick.png)
+![Picked](/docs/assets/images/google/m_pick.jpg)
 
 _**\(**None**\)**_
 
@@ -27,7 +27,7 @@ Picks a Google (Gmail) account registered in the device.
 
 ### Picked
 
-![Pick](Documetations/docs/assets/images/google/e_picked.png)
+![Pick](/docs/assets/images/google/e_picked.jpg)
 
 _**\(** Text `account Name`**\)**_
 
