@@ -1,7 +1,5 @@
 # Pricing
 
-## Main
-
 !!! success "How much does it cost?"
     Kodular is **FREE**!
 
@@ -11,7 +9,7 @@ We wanted it like that so anyone could convert their desired ideas into apps in 
 
 This also extends to Kodular Store and Kodular Extensions IDE.
 
-### Commissions
+## Commissions
 
 However, to keep our services for free, we take a small comission from your earnings in ads. We do not force nobody to place ads in apps, but if you want to earn money, we take a percentage of your earnings.
 
@@ -21,7 +19,7 @@ The percentage of your earnings we take varies from a basic 5% up to a 20%, depe
 
 You do not have to worry about paying us the correct percentage. We already take it automatically from your AdMob & AdSense earnings, reducing your work.
 
-### Premium Plan
+## Premium Plan
 
 Since time ago, we have said that [Kodular Creator will not have a Premium Plan](https://community.kodular.io/t/premium-plan-nope/709). This also extends to Kodular Store.
 
