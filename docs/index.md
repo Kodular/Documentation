@@ -13,7 +13,7 @@ Kodular allows you to create Android apps easily with a blocks-type editor. No c
 
 ## Useful Links
 
-### [Builder](http://creator.kodular.io)
+### [Creator](http://creator.kodular.io)
 
 This is the page you're going to use to build apps. This is main app that allows you to create anything you want with a Material Design UI.
 
