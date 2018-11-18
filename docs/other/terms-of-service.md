@@ -123,10 +123,14 @@ You agree to defend, hold harmless and indemnify Kodular, and its subsidiaries, 
 
 **Entire Agreement.** This Agreement constitutes the entire agreement between you and Kodular with respect to your use of the Site, superseding any prior agreements between you and Kodular regarding your use of the Site.
 
-**Waiver and Severability of TOS.** The failure of Kodular to exercise or enforce any right or provision of the TOS of Site shall not constitute a waiver of such right or provision. If any provision of the TOS is found by a court of competent jurisdiction to be invalid, the parties nevertheless agree that the court should endeavor to give effect to the parties' intentions as reflected in the provision, and the other provisions of the TOS remain in full force and effect.
+**Waiver and Severability of ToS.** The failure of Kodular to exercise or enforce any right or provision of the ToS of Site shall not constitute a waiver of such right or provision. If any provision of the ToS is found by a court of competent jurisdiction to be invalid, the parties nevertheless agree that the court should endeavor to give effect to the parties' intentions as reflected in the provision, and the other provisions of the ToS remain in full force and effect.
 
-**Choice of Law/Forum Selection.** You agree that any dispute arising out of or relating to these Terms or any content posted to a Site will be governed by the laws of the Commonwealth of Massachusetts, excluding its conflicts of law provisions. You further consent to the personal jurisdiction of and exclusive venue in the federal and state courts located in and serving Boston, Massachusetts as the legal forum for any such dispute.
+**Choice of Law/Forum Selection.** You agree that any dispute arising out of or relating to these Terms or any content posted to a Site will be governed by the laws of the Goverment of Netherlands, excluding its conflicts of law provisions. You further consent to the personal jurisdiction of and exclusive venue in the federal and state courts located in and serving Geldrop, Netherlands as the legal forum for any such dispute.
 
 
 !!! info
     **Effective Date:** June 21, 2018.
+
+
+!!! info
+    **Last Revision:** November 18, 2018.
