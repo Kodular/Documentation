@@ -127,10 +127,11 @@ You agree to defend, hold harmless and indemnify Kodular, and its subsidiaries, 
 
 **Choice of Law/Forum Selection.** You agree that any dispute arising out of or relating to these Terms or any content posted to a Site will be governed by the laws of the Goverment of Netherlands, excluding its conflicts of law provisions. You further consent to the personal jurisdiction of and exclusive venue in the federal and state courts located in and serving Geldrop, Netherlands as the legal forum for any such dispute.
 
+---
 
-!!! info
-    **Effective Date:** June 21, 2018.
+!!! info "Effective Date"
+    June 21, 2018.
 
 
-!!! info
-    **Last Revision:** November 18, 2018.
+!!! note "Last Revision"
+    November 18, 2018.
