@@ -85,28 +85,62 @@ _Share the ones you find using the #halloween18 tag_
   - `Desktop Mode`: loads the page in Desktop Mode  
 ![image|279x61](https://community.kodular.io/uploads/default/original/2X/5/54cb6cbe50692accbce40d9e6c7e1463657285c1.png)
 &nbsp;
-  - `Enable JavaScript`: allows the page to execute JavaScript
+  - `Enable JavaScript`: allows the page to execute JavaScript  
 ![image|293x71](https://community.kodular.io/uploads/default/original/2X/5/54cb6cbe50692accbce40d9e6c7e1463657285c1.png)  
 &nbsp;
-  - `User Agent`: changes the requested User Agent
+  - `User Agent`: changes the requested User Agent  
 ![image|282x71](https://community.kodular.io/uploads/default/original/2X/8/8dd5f9c7d7a6b83ccb0b14eabbc810dc04a9e94c.png)  
 
 - **Notifier** component
-  - `Text Font Typeface`: changes the font type in the message
+  - `Text Font Typeface`: changes the font type in the message  
 ![image|272x65](https://community.kodular.io/uploads/default/original/2X/8/8dd5f9c7d7a6b83ccb0b14eabbc810dc04a9e94c.png)  
 &nbsp;
-  - `Text Font Typeface Import`: loads an external font type in the message
+  - `Text Font Typeface Import`: loads an external font type in the message  
 ![image|275x72](https://community.kodular.io/uploads/default/original/2X/8/8dd5f9c7d7a6b83ccb0b14eabbc810dc04a9e94c.png)  
 &nbsp;
-  - `Title Color`: changes the color of the title
+  - `Title Color`: changes the color of the title  
 ![image|269x60](https://community.kodular.io/uploads/default/original/2X/8/8dd5f9c7d7a6b83ccb0b14eabbc810dc04a9e94c.png)  
 &nbsp;
-  - `Title Font Typeface`: changes the font type in the title
+  - `Title Font Typeface`: changes the font type in the title  
 ![image|277x62](https://community.kodular.io/uploads/default/original/2X/8/8dd5f9c7d7a6b83ccb0b14eabbc810dc04a9e94c.png)  
 &nbsp;
-  - `Title Font Typeface Import`: loads an external font type in the title
+  - `Title Font Typeface Import`: loads an external font type in the title  
 ![image|241x71](https://community.kodular.io/uploads/default/original/2X/8/8dd5f9c7d7a6b83ccb0b14eabbc810dc04a9e94c.png)  
 
 - **Bottom Sheet** component
   - `Show Statusbar`: shows or hides the statusbar
 ![image|277x68](https://community.kodular.io/uploads/default/original/2X/8/8dd5f9c7d7a6b83ccb0b14eabbc810dc04a9e94c.png)  
+
+
+## 1.2.1 Butterfly   \|   _23 November 2018_
+
+### Improvements
+
+- Removed **_Subscribe to Notifications_** button in _Creator_  
+_It was added on [our main website](https://www.kodular.io)_
+- Changed **_Donations Link_** in _Creator_  
+_Now points to [Donate Kodular](https://www.kodular.io/donate)_
+- Stop propagation of mouse events on warning toggle button  
+_[Stop propagation of mouse events on warning toggle button · mit-cml/appinventor-sources@c1e9dc7 · GitHub](https://github.com/mit-cml/appinventor-sources/commit/c1e9dc7e38600eb702373cf3d78c896508a9eb98)_
+
+### UI Changes
+
+- _Reverted_ **_Pumpkin Backpack_**
+- _Reverted_ **_Halloween Dark Theme_**
+- _Changed_ a few more **_references_** to <del>Makeroid</del><ins>Kodular</ins>
+
+### Bugs Fixed
+
+- **_Signup email_** with wrong content (`activation link was not visible`)
+- **_Cryptography_** component using Base64 on low APIs (`it was crashing`)
+- **_Lottie_** component using Fill Parent properties (`it was not working`)
+- GeoJSON Source processing in **_MockFeatureCollection_**  
+_[Fix GeoJSON Source processing in MockFeatureCollection (#1248) · mit-cml/appinventor-sources@9d95098 · GitHub](https://github.com/mit-cml/appinventor-sources/commit/9d95098654ff5d6e02dfb462a7dd125163d0e277)_
+- Clearing of **_MockFeatureCollection_** when Source is None  
+_[Fix clearing of MockFeatureCollection when Source is None · mit-cml/appinventor-sources@0206b00 · GitHub](https://github.com/mit-cml/appinventor-sources/commit/0206b0064affe0fe692cb5b2c7183f5befc2ef0b)_
+- Removed **_BOM_** from GeoJSON files  
+_[Remove BOM from GeoJSON files · mit-cml/appinventor-sources@560b372 · GitHub](https://github.com/mit-cml/appinventor-sources/commit/560b3724a6c86bd2a5f678dfc270d9a185b0ed2f)_
+- Little bug on **_AARLibrary_**  
+_[Bugfix to AARLibrary · mit-cml/appinventor-sources@eebd635 · GitHub](https://github.com/mit-cml/appinventor-sources/commit/eebd635fd6c331955ac86c4ea2e7f9f1080726ae)_
+- Force **_MockCircle_** default position to (0, 0)  
+_[Force MockCircle default position to (0, 0) · mit-cml/appinventor-sources@118fe43 · GitHub](https://github.com/mit-cml/appinventor-sources/commit/118fe43072288ed62dffda1339f58f758694b199)_
