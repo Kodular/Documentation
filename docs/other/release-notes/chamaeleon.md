@@ -112,7 +112,7 @@ _Share the ones you find using the #halloween18 tag_
 ![image|277x68](https://community.kodular.io/uploads/default/original/2X/8/8dd5f9c7d7a6b83ccb0b14eabbc810dc04a9e94c.png)  
 
 
-## 1.2.1 Butterfly   \|   _23 November 2018_
+## 1.2.1 Chamaeleon   \|   _23 November 2018_
 
 ### Improvements
 
