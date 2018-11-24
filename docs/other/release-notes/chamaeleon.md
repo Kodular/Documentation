@@ -24,7 +24,7 @@
 _Share the ones you find using the #halloween18 tag_  
 
 
-### Bugs Fixed:
+### Bugs Fixed
 
 - **_Critical Issue_** with libraries was causing apps to not open
 
