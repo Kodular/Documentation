@@ -5,27 +5,25 @@
 ### Major Changes
 
 - Improved **Dialog** of _Fingerprint Component_
-- Now _About Screen_ (_and all dialogs_) can have **clickable links**
-_The "major changes" of this update are the bunch of new components_
+- Now _About Screen_ (_and all dialogs_) can have **clickable links**  
+    _The "major changes" of this update are the bunch of new components_
 
 ### Companion
 
 - Added a **Welcome Guide** using the new _Spotlight Component_
 - Little **bugs fixed** on _Companion behaviour_
 
-
 ### UI Changes
 
 - _Dialogs_ can now be **Accepted** pressing the <kbd>Enter</kbd> key
 - Added **Download Link** when _Exporting APK using QR Code_
 
-
 ### Bugs Fixed
 
 - **User Interface**
-    - Textbox: _Background color was not working properly_
-    - ListView: _[TextView.java line 8448 · Issue #89 · Kodular/BugsTracker · GitHub](https://github.com/Kodular/BugsTracker/issues/89)_
-    - Notifier: _[Notifier - bug · Issue #37 · Kodular/BugsTracker · GitHub](https://github.com/Kodular/BugsTracker/issues/37)_
+	- Textbox: _Background color was not working properly_
+	- ListView: _[TextView.java line 8448 · Issue #89 · Kodular/BugsTracker · GitHub](https://github.com/Kodular/BugsTracker/issues/89)_
+	- Notifier: _[Notifier - bug · Issue #37 · Kodular/BugsTracker · GitHub](https://github.com/Kodular/BugsTracker/issues/37)_
 - **Layout**
     - Surface View: _Little bug which was freezing the screen_
 - **Media**
@@ -41,8 +39,6 @@ _The "major changes" of this update are the bunch of new components_
 - **Connectivity**
     - Download: _[Download.java line 317 · Issue #40 · Kodular/BugsTracker · GitHub](https://github.com/Kodular/BugsTracker/issues/40)_
     - Network: _[Network component · Issue #114 · Kodular/BugsTracker · GitHub](https://github.com/Kodular/BugsTracker/issues/114)_
-
-
 
 ### New Components
 
