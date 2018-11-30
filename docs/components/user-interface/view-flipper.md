@@ -25,7 +25,7 @@ Example: `image1.png,image2.png`
 ### Background Color
 
 _**\(** Getter + Setter **\)**    
-`Type: Number`_
+`Type: Color`_
 
 The background color with which the **View Flipper** is shown.
 
