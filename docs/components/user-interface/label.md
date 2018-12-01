@@ -15,33 +15,37 @@ Labels are components used to show text. A label displays text which is specifie
 
 Color for label background.
 
-![background coloir](https://user-images.githubusercontent.com/45140298/48671215-d5b02c00-eb4a-11e8-883a-6e8196b1d389.jpeg)
+![screenshot-creator kodular io-2018 12 01-16-41-54](https://user-images.githubusercontent.com/45140298/49327719-b671bf80-f58a-11e8-8c5c-9ffe9cb2b5cf.png)
 
 ### FontBold
 
 If set, label text is displayed in bold.
 
+![screenshot-creator kodular io-2018 12 01-16-51-17](https://user-images.githubusercontent.com/45140298/49327768-73fcb280-f58b-11e8-823c-1f132e57e3e1.png)
+
 ### FontItalic
 
 If set, label text is displayed in italics.
+
+![screenshot-creator kodular io-2018 12 01-16-51-34](https://user-images.githubusercontent.com/45140298/49327769-73fcb280-f58b-11e8-8585-9f980eb7c0a5.png)
 
 ### FontSize
 
 Point size for button text
 
-![fontsize](https://user-images.githubusercontent.com/45140298/48671216-d648c280-eb4a-11e8-9076-55170a614f89.jpeg)
+![screenshot-creator kodular io-2018 12 01-16-43-02](https://user-images.githubusercontent.com/45140298/49327720-b671bf80-f58a-11e8-9fea-e14d09c454de.png)
 
 ### FontTypeface
 
 Font family for label text.
 
-![fontsizew](https://user-images.githubusercontent.com/45140298/48671217-d648c280-eb4a-11e8-9b6a-7e1751a78045.jpeg)
+![screenshot-creator kodular io-2018 12 01-16-44-22](https://user-images.githubusercontent.com/45140298/49327721-b70a5600-f58a-11e8-8211-7feb2ce52282.png)
 
 ### HasMargins
 
 Reports whether or not the label appears with margins. All four margins (left, right, top, bottom) are the same. This property has no effect in the designer, where labels are always shown with margins.
 
-![hasmarign](https://user-images.githubusercontent.com/45140298/48671218-d648c280-eb4a-11e8-980d-880e77241fa9.jpeg)
+![screenshot-creator kodular io-2018 12 01-16-44-49](https://user-images.githubusercontent.com/45140298/49327722-b70a5600-f58a-11e8-953e-4b72d0911ecc.png)
 
 ### HTMLFormat
 If true, sets text of label to html format else it is plain text format. Note: Not all HTML is supported.
@@ -50,26 +54,26 @@ If true, sets text of label to html format else it is plain text format. Note: N
 
 Height in pixels, percent, 'Automatic' or 'Fill'
 
-![hight](https://user-images.githubusercontent.com/45140298/48671219-d648c280-eb4a-11e8-8271-50f0f12c1185.jpeg)
+![screenshot-creator kodular io-2018 12 01-16-45-30](https://user-images.githubusercontent.com/45140298/49327723-b70a5600-f58a-11e8-8092-5afef9875c24.png)
 
 ### Width
 
 Width in pixels, percent, 'Automatic' or 'Fill'
 
-![width](https://user-images.githubusercontent.com/45140298/48671223-d8ab1c80-eb4a-11e8-82e1-ab55191abeab.jpeg)
+![screenshot-creator kodular io-2018 12 01-16-46-13](https://user-images.githubusercontent.com/45140298/49327724-b7a2ec80-f58a-11e8-83a2-fe83331c98ce.png)
 
 ### Text
 Text to display on label.
 
-![labletext](https://user-images.githubusercontent.com/45140298/48671220-d8128600-eb4a-11e8-8d7a-16e792b2a550.jpeg)
+![screenshot-creator kodular io-2018 12 01-16-46-51](https://user-images.githubusercontent.com/45140298/49327725-b7a2ec80-f58a-11e8-9f75-837b311d8438.png)
 
 ### TextColor
 
 Color for label text.
 
-![text colour](https://user-images.githubusercontent.com/45140298/48671221-d8128600-eb4a-11e8-983b-8c824d1390f1.jpeg)
+![screenshot-creator kodular io-2018 12 01-16-47-19](https://user-images.githubusercontent.com/45140298/49327726-b7a2ec80-f58a-11e8-9d2f-4122c1c2e7b6.png)
 
 ### Visible
 If set, label is visible.
 
-![visable](https://user-images.githubusercontent.com/45140298/48671222-d8ab1c80-eb4a-11e8-9862-ae9bbb7ef5c4.jpeg)
+![screenshot-creator kodular io-2018 12 01-16-47-46](https://user-images.githubusercontent.com/45140298/49327727-b7a2ec80-f58a-11e8-9d93-952679fc6f25.png)
