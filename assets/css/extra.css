@@ -29,3 +29,9 @@ tr td:nth-child(1) {
 .md-typeset .md-typeset__table {
     display: block;
 }
+
+.keyword {
+    border-style: dashed;
+    border-width: 1.5px;
+    border-color: #f500579b;
+}
