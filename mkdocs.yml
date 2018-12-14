@@ -80,6 +80,7 @@ markdown_extensions:
 nav:
   - Getting Started:
     - Overview: index.md
+    - Understanding Kodular: kodular-concepts.md
     - Live Development:
       - Overview: live-development/index.md
       - Via WiFi: live-development/wifi.md
