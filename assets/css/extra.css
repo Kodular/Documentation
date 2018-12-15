@@ -32,6 +32,9 @@ tr td:nth-child(1) {
 
 .keyword {
     border-style: dashed;
+    border-radius: 10px;
     border-width: 1.5px;
     border-color: #f500579b;
+    padding: 3px;
+    font-style: italic;
 }
