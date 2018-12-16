@@ -392,6 +392,47 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#types-of-components" title="Types of Components" class="md-nav__link">
+    Types of Components
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#types-of-blocks-of-components" title="Types of Blocks  of components" class="md-nav__link">
+    Types of Blocks  of components
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#property-blocks" title="Property Blocks" class="md-nav__link">
+    Property Blocks
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#method-blocks" title="Method Blocks" class="md-nav__link">
+    Method Blocks
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#event-blocks" title="Event Blocks" class="md-nav__link">
+    Event Blocks
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
       
       
       
@@ -3245,6 +3286,47 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#types-of-components" title="Types of Components" class="md-nav__link">
+    Types of Components
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#types-of-blocks-of-components" title="Types of Blocks  of components" class="md-nav__link">
+    Types of Blocks  of components
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#property-blocks" title="Property Blocks" class="md-nav__link">
+    Property Blocks
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#method-blocks" title="Method Blocks" class="md-nav__link">
+    Method Blocks
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#event-blocks" title="Event Blocks" class="md-nav__link">
+    Event Blocks
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
       
       
       
@@ -3300,6 +3382,74 @@ Like how a car has various parts, an app is constructed using various <em>Compon
 it, while some of the <em>components</em> don't interact directly with the user.
 The <em>behaviour</em> or the purpose of these <em>components</em> are configured using the <em>Blocks</em>.
 The "how to perform the function of a component" part is configured by using the <strong><em>Blocks</em> </strong>.</p>
+<h2 id="types-of-components">Types of Components<a class="headerlink" href="#types-of-components" title="Permanent link">&para;</a></h2>
+<ul>
+<li>
+<p><strong><span class="keyword">Visible Components</span>:</strong> The components that can be viewed in the <em>Viewer</em> panel  of the <em>Designer</em> page are known as Visible Component. They are visible to the user in the app and the user
+  can interact with it directly and help in building the User Interface of the app.
+<br></p>
+</li>
+<li>
+<p><strong><span class="keyword">Non-Visible Components</span>:</strong> The components that are not viewed in the <em>Viewer</em>
+   panel of the <em>Designer</em> page are known as Non-Visible Component. They are the components that usually do other things like saving a <em>file</em> to the device's storage, getting data from various sensors of the device
+   etc. But, sometimes, these components may also be used to create visible elements in the app. For example,
+   the <strong><em>Notifier</em></strong> component, which is a <em>Non-visible Component</em> can be used to create a dialog which is visible on the device's screen.</p>
+</li>
+</ul>
+<h2 id="types-of-blocks-of-components">Types of Blocks <small> of components</small><a class="headerlink" href="#types-of-blocks-of-components" title="Permanent link">&para;</a></h2>
+<p>Each <em>Component</em> has its own set of blocks, divided into three types:</p>
+<ul>
+<li><a href="#property-blocks">Property blocks</a></li>
+<li><a href="#method-blocks">Method blocks</a></li>
+<li><a href="#event-blocks">Event blocks</a></li>
+</ul>
+<h3 id="property-blocks">Property Blocks<a class="headerlink" href="#property-blocks" title="Permanent link">&para;</a></h3>
+<p>Each <em>component</em> comes with its own set of <span class="keyword">Properties</span>, which describe its characteristics. For example, the <em>Button</em> component has properties like <em>Background Color, Text Color, Text Font Size</em> etc. which are characteristics that describe the features of that particular button.</p>
+<p>Some these <em>Properties</em> can either be set from <strong><em>Designer</em></strong> page, or through <strong><em>Blocks</em></strong>, while some can be 
+set only through <strong><em>Blocks</em></strong> and some only from the <strong><em>Designer</em></strong>.</p>
+<p><br><br>
+<img alt="property-blocks" class="preview-img" src="/assets/images/other/property-block-example.jpg" /></p>
+<p class="img-caption">The <em>Setter and Getter</em> block for the Background Color property of a button.</p>
+<p>At any time in the app, the given property of a <em>component</em> can be read through a <span class="keyword">Getter Block</span>.
+It gives the current value of that property of that particular <em>component</em>.</p>
+<p>Similarly, the given <em>property</em> of a <em>component</em> can be modified during the runtime of the app thorugh 
+<span class="keyword">Setter Blocks</span>.</p>
+<p>The <em>Property</em> blocks are <span style="color: green;">Green </span> in color.</p>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>Not all the <em>properties</em> of the component have both <em>Getter and Setter</em> Blocks.
+Some of them may have only <em>Getter</em> or sometimes only <em>Setter</em> blocks.</p>
+</div>
+<h3 id="method-blocks">Method Blocks<a class="headerlink" href="#method-blocks" title="Permanent link">&para;</a></h3>
+<p><span class="keyword">Methods</span> are certain functions that a <em>component</em> can do. For example, the <em>Sound</em> 
+component should be able to play the music when required. This is done by using a <em>Method</em> called <strong>Play</strong>,
+which instructs the components to carry out the task of playing the music.</p>
+<p>So, <em>Methods</em> are nothing but an instruction to carry out a particular task, like playing the music.</p>
+<p>Some <em>methods</em> require some additional data, which will also be used in carrying out that task.
+For example, <em>Firebase DB</em> component stores the data using a method called <em>Store Value</em>. But how 
+will the component know what data to store and under what name ?
+This is where <span class=keyword> Parameters</span> or simply <strong>Params</strong> are used.</p>
+<p>The <em>Store Value</em> methods has takes two <em>parameters</em>(i.e it makes use of two different data that need to be 
+specified) namely <em>tag</em> and <em>value To Store</em>. So this method can be <span class=keywords> called</span>(i.e used
+in the blocks) along with the two data that it needs like shown below.</p>
+<p><br><br>
+<img alt="method-block" class="preview-img" src="/assets/images/other/method-block-example.png" /></p>
+<p class="img-caption">The <em>Method</em> to store data in the Firebase DB.</p>
+<h3 id="event-blocks">Event Blocks<a class="headerlink" href="#event-blocks" title="Permanent link">&para;</a></h3>
+<p>Kodular apps are "koded" in an event-driven approach. That is, the <em>blocks</em> or <em>behaviour</em> of the app is  executed based on the various events that occur. There is a wide range of <em>events</em> that occur thorughout the
+time for which the app is running, and the response of the app to these <em>events</em> can be configured.</p>
+<p>For example, the user <em>clicking a Button</em>, <em>the app starting</em> are all events.
+The response of the app to such events are configured by grouping the desired behaviour under the <span class="keyword">Event</span> block.
+The <em>methods</em> and <em>property</em> blocks grouped under each event are executed whenever that particular event occurs.</p>
+<p>Let us take an example.<br />
+If you want to change the <em>Button</em> text when the user clicks it, you have to
+group the logic to change the text under the <strong><em>Button.Clicked</em></strong> event. This is shown below.</p>
+<p><br><br>
+<img alt="event-block" class="preview-img" src="/assets/images/other/event-block-example.png" /></p>
+<p class="img-caption">The <em>Event</em> block for changing button text when clicked.</p>
+<div class="admonition tip">
+<p>If you have any queries or doubts, feel free to ask about it on the <a href="https://community.kodular.io">community</a></p>
+</div>
                 
                   
                 
