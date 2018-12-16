@@ -6,11 +6,6 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.kodular.io/kodular-concepts/</loc>
-     <lastmod>2018-12-16</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
      <loc>https://docs.kodular.io/live-development/</loc>
      <lastmod>2018-12-16</lastmod>
      <changefreq>daily</changefreq>
@@ -952,6 +947,16 @@
     </url>
     <url>
      <loc>https://docs.kodular.io/blocks/any-component/</loc>
+     <lastmod>2018-12-16</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://docs.kodular.io/guides/hello-world/</loc>
+     <lastmod>2018-12-16</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://docs.kodular.io/guides/kodular-concepts/</loc>
      <lastmod>2018-12-16</lastmod>
      <changefreq>daily</changefreq>
     </url>
