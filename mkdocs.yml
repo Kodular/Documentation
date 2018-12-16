@@ -292,7 +292,8 @@ nav:
     - Variables: blocks/variables.md
     - Procedures: blocks/procedures.md
     - Any Component: blocks/any-component.md
-
+  - Guides:
+    - Hello World !: guides/hello-world.md
 
 
 # Google Analyitcs

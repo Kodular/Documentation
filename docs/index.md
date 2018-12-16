@@ -5,6 +5,9 @@ Whether you need some help using the components, or just looking around, this se
 For further and personalized help, consider checking out [our community](https://community.kodular.io).
 
 ## Get Started
+
+If you are new to Kodular, we strongly recommend checking out the [Hello World tutorial](/guides/hello-world).
+
 Start by searching what you need using the search bar at the top. You can also consider checking out [Components](/components/) or [Blocks](/blocks/).
 
 ## What is Kodular?
