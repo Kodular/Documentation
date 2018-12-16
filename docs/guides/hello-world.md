@@ -22,7 +22,7 @@ The _project_ will be created and you will be taken to the <span class="keyword"
 5. For testing your app while developing,  please see [Live Development](/live-development).
 
 !!! tip
-    At this point, we recommend going through the [Understanding Kodular](/kodular-concepts/) page to get an overview of
+    At this point, we recommend going through the [Understanding Kodular](/guides/kodular-concepts/) page to get an overview of
     developing apps in Kodular.
 
 ## The User Interface of Kodular Creator
