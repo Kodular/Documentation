@@ -1,6 +1,6 @@
 # Building your first app <small>with Kodular</small>
 
-Welcome to Kodular !  
+Welcome to Kodular!  
 In this tutorial, you will learn to create your first app with Kodular.
 
 !!! tip ""
@@ -22,7 +22,7 @@ The _project_ will be created and you will be taken to the <span class="keyword"
 5. For testing your app while developing,  please see [Live Development](/live-development).
 
 !!! tip
-    At this point, we recommend going through the [Understanding Kodular](/guides/kodular-concepts/) page to get an overview of
+    At this point, we recommend going through the [Understanding Kodular](/guides/) page to get an overview of
     developing apps in Kodular.
 
 ## The User Interface of Kodular Creator
@@ -61,7 +61,7 @@ the project.
 **Step 2**  Now click on the _Button1_ displayed on the _Components Hierarchy_. By default, this is how the components are named, you can rename them if needed.  
 The _Properties Panel_ for the Button should be visible now.
 
-**Step 3**  Now, find the _**Text**_ property in that panel and change that to `Hello World !`.  
+**Step 3**  Now, find the _**Text**_ property in that panel and change that to `Hello World!`.  
 If you have connected your companion and testing using it, then now the change should be reflected on the device.
 
 **Step 4**  Now, you can select `Export` menu from the top menubar to build your project into an APK, which can be installed in an Android device.
@@ -70,5 +70,5 @@ If you have connected your companion and testing using it, then now the change s
 You can transfer the APK onto the Android device and you can install your own app on the device!
 
 
-!!! success "Yay !"
-    That's it !! You have successfully built your first app with _Kodular_.
+!!! success "Yay!"
+    That's it! You have successfully built your first app with _Kodular_.
