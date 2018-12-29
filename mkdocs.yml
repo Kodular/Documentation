@@ -100,6 +100,9 @@ nav:
         - Chamaeleon: other/release-notes/chamaeleon.md
       - Backpack: other/backpack.md
       - Terms of Service: other/terms-of-service.md
+  - Guides:
+    - Understanding Kodular: guides/index.md
+    - Hello World!: guides/hello-world.md
   - Components:
     - Overview: components/index.md
     - Screen: components/screen.md
@@ -291,9 +294,6 @@ nav:
     - Variables: blocks/variables.md
     - Procedures: blocks/procedures.md
     - Any Component: blocks/any-component.md
-  - Guides:
-    - Hello World !: guides/hello-world.md
-    - Understanding Kodular: guides/kodular-concepts.md
 
 
 # Google Analyitcs

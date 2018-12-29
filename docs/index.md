@@ -6,7 +6,7 @@ For further and personalized help, consider checking out [our community](https:/
 
 ## Get Started
 
-If you are new to Kodular, we strongly recommend checking out the [Hello World tutorial](/guides/hello-world).
+If you are new to Kodular, we strongly recommend checking out the [Guides Tab](/guides/).
 
 Start by searching what you need using the search bar at the top. You can also consider checking out [Components](/components/) or [Blocks](/blocks/).
 
