@@ -1,0 +1,3 @@
+# Accelerometer
+
+{!includes/sip.md!}
