@@ -1,0 +1,3 @@
+# Sqlite
+
+{!includes/sip.md!}
