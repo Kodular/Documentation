@@ -1,6 +1,7 @@
 # Overview <small> of Storage</small>
 
 * [Cloudinary](cloudinary.md)
+* [Cryptography](cryptography.md)
 * [File](file.md)
 * [Firebase DB](firebase-db.md)
 * [Fusiontables Control](fusiontables-control.md)

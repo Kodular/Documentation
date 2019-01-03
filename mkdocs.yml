@@ -50,7 +50,7 @@ extra_javascript:
 plugins:
   - search
   - replace
-  
+
 #Markdown extensions: https://python-markdown.github.io/extensions/
 markdown_extensions:
   - markdown.extensions.admonition
@@ -110,6 +110,7 @@ nav:
       - Overview: components/user-interface/index.md
       - Bottom Sheet: components/user-interface/bottom-sheet.md
       - Button: components/user-interface/button.md
+      - Chat View: components/user-interface/chat-view.md
       - Checkbox: components/user-interface/checkbox.md
       - Circular Progress: components/user-interface/circular-progress.md
       - Date Picker: components/user-interface/date-picker.md
@@ -172,6 +173,7 @@ nav:
       - Canvas: components/drawing-and-animation/canvas.md
       - Image Editor: components/drawing-and-animation/image-editor.md
       - Image Sprite: components/drawing-and-animation/image-sprite.md
+      - Lottie: components/drawing-and-animation/lottie.md
     - Maps:
       - Overview: components/maps/index.md
       - Circle: components/maps/circle.md
@@ -211,6 +213,7 @@ nav:
     - Storage:
       - Overview: components/storage/index.md
       - Cloudinary: components/storage/cloudinary.md
+      - Cryptography: components/storage/cryptography.md
       - File: components/storage/file.md
       - Firebase DB: components/storage/firebase-db.md
       - Fusiontables Control: components/storage/fusiontables-control.md

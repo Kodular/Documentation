@@ -2,6 +2,7 @@
 
 * [Bottom Sheet](bottom-sheet.md)
 * [Button](button.md)
+* [Chat View](chat-view.md)
 * [Checkbox](checkbox.md)
 * [Circular Progress](circular-progress.md)
 * [Date Picker](date-picker.md)
