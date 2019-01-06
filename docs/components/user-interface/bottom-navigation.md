@@ -13,6 +13,8 @@ they facilitate navigation thorough them.
 It is recommended that this be used only to provide the navigation to the main sections of your app
 to make the app better in terms of user experience.
 
+There can be a maximum of 5 menu items in the **Bottom Navigation** menu, at any given time.
+
 
 <br><br>
 ![Preview of bottom nav](/assets/images/components/user-interface/bottom-navigation/preview.png){: class="preview-img"}
@@ -21,11 +23,18 @@ Bottom Navigation menu
 {: .img-caption}
 
 
+!!! tip
+    Although Kodular is flexible enough to allow you to add a **Bottom Navigation** menu anywhere in the layout of the app
+    we recommend that it always be placed at the bottom (since it is _Bottom_ Navigation :wink:)
+
+
 ## Anatomy
+
 
 * `title` - The name of the menu item that will shown in the Bottom Navigation menu.
 * `image` - The icon that will be shown above the `title`
 <br><br>
+
 ![Anatomy of bottom nav](/assets/images/components/user-interface/bottom-navigation/anatomy.png){: class="preview-img"}
 
 The structure of Bottom Navigation menu item
@@ -68,7 +77,8 @@ The color of the unselected items of the Bottom Navigation Menu
 ### Add Item
 _**\(**  Number `id`, Text `title`, Asset `image`  **\)**_
 
-Adds an item to the **Bottom Navigation** menu.s\
+Adds an item to the **Bottom Navigation** menu.  
+Does nothing when the number of items is equal to five.
 
 Params               | []() 
 -------------------- | ---------- 
@@ -87,6 +97,7 @@ Removes all items from the **Bottom Navigation**.
 _**\(**  Number `id`  **\)**_
 
 Removes a specific item from the **Bottom Navigation**.
+Does nothing when the item with specified `id` doesn't exist.
 
 Params               | []() 
 -------------------- | ---------- 
@@ -97,6 +108,7 @@ Params               | []()
 _**\(**  Number `id`  **\)**_
 
 Selects a particular item from the **Bottom Navigation**.
+Does nothing when the item with `id` doesn't exist.
 
 Params               | []() 
 -------------------- | ---------- 
@@ -107,6 +119,7 @@ Params               | []()
 _**\(**  Number `id`, Text `title`, Asset `image`  **\)**_
 
 Updates the text and image of an item which is already existing with a specific ID in the **Bottom Navigation**.
+Does nothing when the item with `id` doesn't exist.
 
 Params               | []() 
 -------------------- | ---------- 
