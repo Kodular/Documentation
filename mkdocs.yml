@@ -109,6 +109,7 @@ nav:
     - User Interface:
       - Overview: components/user-interface/index.md
       - Bottom Sheet: components/user-interface/bottom-sheet.md
+      - Bottom Navigation: components/user-interface/bottom-navigation.md
       - Button: components/user-interface/button.md
       - Chat View: components/user-interface/chat-view.md
       - Checkbox: components/user-interface/checkbox.md

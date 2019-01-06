@@ -1,6 +1,7 @@
 # Overview <small> of User Interface</small>
 
 * [Bottom Sheet](bottom-sheet.md)
+* [Bottom Navigation](bottom-navigation.md)
 * [Button](button.md)
 * [Chat View](chat-view.md)
 * [Checkbox](checkbox.md)
