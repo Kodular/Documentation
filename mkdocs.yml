@@ -258,6 +258,7 @@ nav:
       - AdMob Rewarded Video: components/monetization/admob-rewardedvideo.md
       - Amazon Banner: components/monetization/amazon-banner.md
       - Amazon Interstitial: components/monetization/amazon-interstitial.md
+      - Chameleon Ad: components/monetization/chameleon-ad.md
       - Facebook Banner: components/monetization/facebook-banner.md
       - Facebook Interstitial: components/monetization/facebook-interstitial.md
       - In App Billing: components/monetization/in-app-billing.md

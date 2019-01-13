@@ -21,3 +21,11 @@
 ### Changelog
 
 [Release Notes](chamaeleon)
+
+---
+
+## 1.3 Draco   \|   _13 January 2019_
+
+### Changelog
+
+[Release Notes](draco)
