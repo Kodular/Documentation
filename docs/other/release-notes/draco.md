@@ -13,12 +13,12 @@ _You will not lose any project data with this change_
 
 - **Compressed images** making _loading_ faster
 
-- Added Target **SDK 28** (_Android 9_ :pie:) for all apps
+- Added Target **SDK 28** (_Android 9_) for all apps
 
 - Added **New Languages**
-  - :egypt: **Arabic** Language  
+	- **Arabic** Language  
 &nbsp;  
-  - :romania: **Romanian**  Language
+	- **Romanian**  Language
 
 - Updated **runtime permission system**  
 _It will now prompt for permissions when required, and not on start_  
@@ -29,8 +29,7 @@ _It will now prompt for permissions when required, and not on start_
 - Companion can be _exited_ by **pressing back button**
 
 - Companion now works **without being connected to the same WiFi network**  
-_You can even use it with your phone connected to mobile network_  
-_One usage suggestion of this feature is sending the Companion Code to a friend to get feedback on the app preview :wink:_
+_You can even use it with your phone connected to mobile network_
 
 ### UI Changes
 
