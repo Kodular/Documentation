@@ -57,7 +57,7 @@ _You can even use it with your phone connected to mobile network_
 - Moved **Fiebase DB** component to _Google_ category and renamed to **Firebase Database**
 
 - Added new **Chameleon Ads** component to _Monetization_ category  
-_Find more about this [HERE](https://account.kodular.io/cpanel/creator/ads)_  
+_Find more about this [HERE](https://community.kodular.io/t/chameleon-ads-what-is-it/15802)_  
 ![image|250x142](https://community.kodular.io/uploads/default/original/2X/6/62f917c42e423bccad07ec2db06bf1a521310b18.png)
 
 ### New Blocks
