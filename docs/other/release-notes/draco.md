@@ -17,7 +17,6 @@ _You will not lose any project data with this change_
 
 - Added **New Languages**
 	- **Arabic** Language  
-&nbsp;  
 	- **Romanian**  Language
 
 - Updated **runtime permission system**  
