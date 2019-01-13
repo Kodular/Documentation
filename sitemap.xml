@@ -71,11 +71,6 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.kodular.io/other/release-notes/draco/</loc>
-     <lastmod>2019-01-13</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
      <loc>https://docs.kodular.io/other/backpack/</loc>
      <lastmod>2019-01-13</lastmod>
      <changefreq>daily</changefreq>
@@ -112,11 +107,6 @@
     </url>
     <url>
      <loc>https://docs.kodular.io/components/user-interface/bottom-sheet/</loc>
-     <lastmod>2019-01-13</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>https://docs.kodular.io/components/user-interface/bottom-navigation/</loc>
      <lastmod>2019-01-13</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -616,11 +606,6 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.kodular.io/components/storage/firebase-db/</loc>
-     <lastmod>2019-01-13</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
      <loc>https://docs.kodular.io/components/storage/fusiontables-control/</loc>
      <lastmod>2019-01-13</lastmod>
      <changefreq>daily</changefreq>
@@ -756,6 +741,21 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
+     <loc>https://docs.kodular.io/components/google/firebase-authentication/</loc>
+     <lastmod>2019-01-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc></loc>
+     
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc></loc>
+     
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
      <loc>https://docs.kodular.io/components/google/google-account-picker/</loc>
      <lastmod>2019-01-13</lastmod>
      <changefreq>daily</changefreq>
@@ -792,11 +792,6 @@
     </url>
     <url>
      <loc>https://docs.kodular.io/components/monetization/amazon-interstitial/</loc>
-     <lastmod>2019-01-13</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>https://docs.kodular.io/components/monetization/chameleon-ad/</loc>
      <lastmod>2019-01-13</lastmod>
      <changefreq>daily</changefreq>
     </url>
