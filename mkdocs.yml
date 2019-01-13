@@ -215,7 +215,6 @@ nav:
       - Cloudinary: components/storage/cloudinary.md
       - Cryptography: components/storage/cryptography.md
       - File: components/storage/file.md
-      - Firebase DB: components/storage/firebase-db.md
       - Fusiontables Control: components/storage/fusiontables-control.md
       - Spreadsheet: components/storage/spreadsheet.md
       - SQLite: components/storage/sqlite.md
@@ -247,6 +246,9 @@ nav:
       - WiFi: components/connectivity/wifi.md
     - Google:
       - Overview: components/google/index.md
+      - Firebase Authentication: components/google/firebase-authentication.md
+      - Firebase Database: components/storage/firebase-database.md
+      - Firebase Remote Config: components/storage/firebase-remote-config.md
       - Google Account Picker: components/google/google-account-picker.md
       - Google Maps: components/google/google-maps.md
     - Monetization:
