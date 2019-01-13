@@ -7,7 +7,7 @@ populated from a [Layout](/components/layout) or can be set to show just a singl
 These modal-like **Bottom Sheet**s  are usually used as an alternative to menu or as a simple dialog.
 
 <br><br>
-![Bottom Sheet](/assets/images/component-previews/bottomsheet.png){: class="preview-img"}
+![Bottom Sheet](/assets/images/components/user-interface/bottom-sheet/preview.png){: class="preview-img"}
 
 
 A demo of the Bottom Sheet being used as a menu.
@@ -106,4 +106,4 @@ The below blocks can be used for the showing a _Vertical Arrangement_ in **Botto
 Please note that any of the arrangements,not only the _Vertical Arrangement_ can be used in a  
 **Bottom Sheet** .
 
-![Bottom Sheet Example](/assets/images/components/user-interface/bottomsheet/example_blocks.png)
+![Bottom Sheet Example](/assets/images/components/user-interface/bottom-sheet/example_blocks.png)
