@@ -249,7 +249,7 @@ nav:
     - Google:
       - Overview: components/google/index.md
       - Firebase Authentication: components/google/firebase-authentication.md
-      - Firebase Database: components/storage/firebase-database.md
+      - Firebase Database: components/google/firebase-database.md
       - Firebase Remote Config: components/storage/firebase-remote-config.md
       - Google Account Picker: components/google/google-account-picker.md
       - Google Maps: components/google/google-maps.md
