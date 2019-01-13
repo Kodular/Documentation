@@ -616,11 +616,6 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.kodular.io/components/storage/firebase-db/</loc>
-     <lastmod>2019-01-13</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
      <loc>https://docs.kodular.io/components/storage/fusiontables-control/</loc>
      <lastmod>2019-01-13</lastmod>
      <changefreq>daily</changefreq>
@@ -753,6 +748,21 @@
     <url>
      <loc>https://docs.kodular.io/components/google/</loc>
      <lastmod>2019-01-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://docs.kodular.io/components/google/firebase-authentication/</loc>
+     <lastmod>2019-01-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc></loc>
+     
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc></loc>
+     
      <changefreq>daily</changefreq>
     </url>
     <url>
