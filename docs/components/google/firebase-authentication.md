@@ -8,7 +8,7 @@
 
 To enable Firebase Auth Email and Password login in your app you need to enable this feature in the [Firebase Console](https://console.firebase.google.com/)
 
-![Firebase Auth Email Password](/images/components/google/firebase-authentication/screenshots/email-password-enable.png)
+![Firebase Auth Email Password](/assets/images/components/google/firebase-authentication/screenshots/email-password-enable.png)
 
 
 #### Google Login
@@ -16,7 +16,7 @@ To enable Firebase Auth Email and Password login in your app you need to enable 
 To enable Google Login for Firebase Authentication you need to do a few more steps.
 
 1. Go to the Authenticaiton Section in the [Firebase Console](https://console.firebase.google.com/) and click on the Google Login
-![Firebase Auth Google](/images/components/google/firebase-authentication/screenshots/google-enable.png)
+![Firebase Auth Google](/assets/images/components/google/firebase-authentication/screenshots/google-enable.png)
 2. Set the "Enable" switch to enabled
 3. Click on the "Whitelist client IDs from external pojects" tab.
 4. Find your [Client ID](#client-id) and add it there. Press the "Add" button and then hit the "Save" button
@@ -31,7 +31,7 @@ Your client ID is in the `google-services.json` file you download this file from
 
 ### Email Password Login
 
-![](/images/components/google/firebase-authentication/email-password-login.png)
+![](/assets/images/components/google/firebase-authentication/email-password-login.png)
 
 _**\(** Text `email`, Text `password` **\)**_ 
 
@@ -44,7 +44,7 @@ Params       |  []()
 
 ### Email Password Sign Up
 
-![](/images/components/google/firebase-authentication/email-password-sign-up.png)
+![](/assets/images/components/google/firebase-authentication/email-password-sign-up.png)
 
 _**\(** Text `email`, Text `password` **\)**_ 
 
@@ -57,7 +57,7 @@ Params       |  []()
 
 ### Get Current User
 
-![](/images/components/google/firebase-authentication/get-current-user.png)
+![](/assets/images/components/google/firebase-authentication/get-current-user.png)
 
 _**\(** None **\)**_ 
 
@@ -65,7 +65,7 @@ Try to get the current user if signed in.
 
 ### Google Sign In
 
-![](/images/components/google/firebase-authentication/google-sign-in.png)
+![](/assets/images/components/google/firebase-authentication/google-sign-in.png)
 
 _**\(** None **\)**_ 
 
@@ -73,13 +73,13 @@ Try to login or sign up the user with Google Login.
 
 ### Is Signed In
 
-![](/images/components/google/firebase-authentication/is-signed-in.png)
+![](/assets/images/components/google/firebase-authentication/is-signed-in.png)
 
 Returns true if the user is signed in and false when the user is not signed in
 
 ### Logout
 
-![](/images/components/google/firebase-authentication/logout.png)
+![](/assets/images/components/google/firebase-authentication/logout.png)
 
 _**\(** None **\)**_ 
 
@@ -87,7 +87,7 @@ If the user is signed in, then log the user out.
 
 ### Update Email
 
-![](/images/components/google/firebase-authentication/update-email.png)
+![](/assets/images/components/google/firebase-authentication/update-email.png)
 
 _**\(** Text `email` **\)**_ 
 
@@ -99,7 +99,7 @@ Params           |  []()
 
 ### Update Profile
 
-![](/images/components/google/firebase-authentication/update-email.png)
+![](/assets/images/components/google/firebase-authentication/update-email.png)
 
 _**\(** Text `email`, Url `profile Picture` **\)**_ 
 
@@ -114,7 +114,7 @@ Params             |  []()
 
 ### Current User Failed
 
-![](/images/components/google/firebase-authentication/current-user-failed.png)
+![](/assets/images/components/google/firebase-authentication/current-user-failed.png)
 
 _**\(** None **\)**_ 
 
@@ -122,7 +122,7 @@ Triggers when the Method `Get Current User` failed to load the current user. Thi
 
 ### Current User Success
 
-![](/images/components/google/firebase-authentication/current-user-failed.png)
+![](/assets/images/components/google/firebase-authentication/current-user-failed.png)
 
 _**\(** Text `user ID`, Text `name`, Text `email`, Text `phone Number`, Url `profile Picture` **\)**_ 
 
@@ -138,7 +138,7 @@ Params             |  []()
 
 ### Login Failed
 
-![](/images/components/google/firebase-authentication/login-failed.png)
+![](/assets/images/components/google/firebase-authentication/login-failed.png)
 
 _**\(** Text `provider` **\)**_ 
 
@@ -150,7 +150,7 @@ Params       |  []()
 
 ### Login Success
 
-![](/images/components/google/firebase-authentication/login-success.png)
+![](/assets/images/components/google/firebase-authentication/login-success.png)
 
 _**\(** Text `provider`, Text `user ID`, Text `name`, Text `email`, Text `phone Number`, Url `profile Picture` **\)**_ 
 
@@ -167,7 +167,7 @@ Params             |  []()
 
 ### Sign Up Failed
 
-![](/images/components/google/firebase-authentication/sign-up-failed.png)
+![](/assets/images/components/google/firebase-authentication/sign-up-failed.png)
 
 _**\(** Text `provider`, Text `message` **\)**_ 
 
@@ -180,7 +180,7 @@ Params       |  []()
 
 ### User Update Failed
 
-![](/images/components/google/firebase-authentication/user-update-failed.png)
+![](/assets/images/components/google/firebase-authentication/user-update-failed.png)
 
 _**\(** Text `type` **\)**_ 
 
@@ -192,7 +192,7 @@ Params     |  []()
 
 ### User Update Success
 
-![](/images/components/google/firebase-authentication/user-update-failed.png)
+![](/assets/images/components/google/firebase-authentication/user-update-failed.png)
 
 _**\(** Text `type` **\)**_ 
 
