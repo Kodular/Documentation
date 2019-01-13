@@ -13,7 +13,7 @@ To enable Firebase Auth Email and Password login in your app you need to enable 
 
 #### Google Login
 
-To enable Google Login for Firebase Auth you need to do a few more steps.
+To enable Google Login for Firebase Authentication you need to do a few more steps.
 
 1. Go to the Authenticaiton Section in the [Firebase Console](https://console.firebase.google.com/) and click on the Google Login
 ![Firebase Auth Google](/images/components/google/firebase-authentication/screenshots/google-enable.png)
