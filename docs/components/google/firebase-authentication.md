@@ -23,6 +23,10 @@ To enable Google Login for Firebase Auth you need to do a few more steps.
 
 ### Client ID
 
+Your client ID is in the `google-services.json` file you download this file from the [Firebase Console](https://console.firebase.google.com/). At kodular we have the simple [Google Services Tool](https://tools.kodular.io/google-services) to get the Client ID you need.
+
+[tools.kodular.io/google-services](https://tools.kodular.io/google-services)
+
 ## Methods
 
 ### Email Password Login
