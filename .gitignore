@@ -1,3 +1,4 @@
 site/
 *-venv/
 src/
+.idea/
