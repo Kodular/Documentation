@@ -10,7 +10,7 @@ repo_url: https://github.com/Kodular/Documentation
 edit_uri: blob/master/docs/
 
 #Copyright text in the footer
-copyright: Copyright &copy; 2018 Kodular
+copyright: Copyright &copy; 2019 Kodular
 
 # Customization
 extra:
@@ -250,7 +250,7 @@ nav:
       - Overview: components/google/index.md
       - Firebase Authentication: components/google/firebase-authentication.md
       - Firebase Database: components/google/firebase-database.md
-      - Firebase Remote Config: components/storage/firebase-remote-config.md
+      - Firebase Remote Config: components/google/firebase-remote-config.md
       - Google Account Picker: components/google/google-account-picker.md
       - Google Maps: components/google/google-maps.md
     - Monetization:

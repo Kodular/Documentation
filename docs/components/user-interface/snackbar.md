@@ -14,7 +14,7 @@ There are two components in a **Snackbar**:
 A click on this button can be detected with the [Click](#click) event.
 
 <br><br>
-![Snackbar](/assets/images/components/user-interface/snackbar/preview.png){: class="preview-img"}
+![Snackbar](/assets/images/components/user-interface/snackbar/snackbar.png){: class="preview-img"}
 
 
 An example Snackbar with an `Action Button`.

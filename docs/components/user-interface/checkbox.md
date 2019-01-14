@@ -49,7 +49,7 @@ Determines whether the **Checkbox** is checked or not.
 
 ### Set Shadow
 
-![](/assets/images/components/user-interface/checkbox/m_set-shadow.png)
+![](/assets/images/components/user-interface/checkbox/m_set-shadow.jpg)
 
 _**\(** Number `x`, Number `y`, Number `radius`, Color `color` **\)**_ 
 
