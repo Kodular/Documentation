@@ -99,7 +99,7 @@ Params           |  []()
 
 ### Update Profile
 
-![](/assets/images/components/google/firebase-authentication/update-email.png)
+![](/assets/images/components/google/firebase-authentication/update-profile.png)
 
 _**\(** Text `email`, Url `profile Picture` **\)**_ 
 
@@ -122,7 +122,7 @@ Triggers when the Method `Get Current User` failed to load the current user. Thi
 
 ### Current User Success
 
-![](/assets/images/components/google/firebase-authentication/current-user-failed.png)
+![](/assets/images/components/google/firebase-authentication/current-user-success.png)
 
 _**\(** Text `user ID`, Text `name`, Text `email`, Text `phone Number`, Url `profile Picture` **\)**_ 
 
@@ -192,7 +192,7 @@ Params     |  []()
 
 ### User Update Success
 
-![](/assets/images/components/google/firebase-authentication/user-update-failed.png)
+![](/assets/images/components/google/firebase-authentication/user-update-success.png)
 
 _**\(** Text `type` **\)**_ 
 
