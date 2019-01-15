@@ -1,3 +1,3 @@
 # Firebase Remote Config
 
-{!includes/sip.md!}
+<marquee>hi everyone
