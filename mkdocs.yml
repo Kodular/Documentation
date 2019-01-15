@@ -139,7 +139,7 @@ nav:
       - Web Viewer: components/user-interface/web-viewer.md
     - Layout:
       - Overview: components/layout/index.md
-      - Horizontal Arrangement: components/layout/card-view.md
+      - Card View: components/layout/card-view.md
       - Horizontal Arrangement: components/layout/horizontal-arrangement.md
       - Horizontal Scroll Arrangement: components/layout/horizontal-scroll-arrangement.md
       - Side Menu Layout: components/layout/side-menu-layout.md
