@@ -13,7 +13,7 @@ A demo of **Tab Layout**.
 
 ### Get Current Tab
 
-![](/assets/images/components/user-interface/tab-layout/p_getcurrenttab.jpg)
+![Get Current Tab](/assets/images/components/user-interface/tab-layout/p_getcurrenttab.jpg)
 
 _**\(** Getter only **\)**
 `Type: Text`_
@@ -23,7 +23,7 @@ Returns the current selected tab.
 
 ### Select Tab
 
-![](/assets/images/components/user-interface/tab-layout/p_selecttab.jpg)
+![Select Tab](/assets/images/components/user-interface/tab-layout/p_selecttab.jpg)
 
 _**\(** Setter only **\)**
 `Type: Text`_
@@ -33,7 +33,7 @@ Selects a tab which is then the active tab.
 
 ### Tabs Active Text Colour
 
-![](/assets/images/components/user-interface/tab-layout/p_tabactivetextcolor.jpg)
+![Tabs Active Text Colour](/assets/images/components/user-interface/tab-layout/p_tabactivetextcolor.jpg)
 
 _**\(** Getter + Setter **\)**
 `Type: Colour`_
@@ -43,7 +43,7 @@ Determines text's colour of the current active tab.
 
 ### Tabs Background Colour
 
-![](/assets/images/components/user-interface/tab-layout/p_tabsbackgroundcolor.jpg)
+![Tabs Background Colour](/assets/images/components/user-interface/tab-layout/p_tabsbackgroundcolor.jpg)
 
 _**\(** Getter + Setter **\)**
 `Type: Colour`_
@@ -53,7 +53,7 @@ Determines background colour of tabs.
 
 ### Tabs Indicator Colour
 
-![](/assets/images/components/user-interface/tab-layout/p_tabsindicatorcolor.jpg)
+![Tabs Indicator Colour](/assets/images/components/user-interface/tab-layout/p_tabsindicatorcolor.jpg)
 
 _**\(** Getter + Setter **\)**
 `Type: Colour`_
@@ -63,7 +63,7 @@ Determines indicator colour of the tabs.
 
 ### Tabs Mode
 
-![](/assets/images/components/user-interface/tab-layout/p_tabsmode.jpg)
+![Tabs Mode](/assets/images/components/user-interface/tab-layout/p_tabsmode.jpg)
 
 _**\(** Getter + Setter **\)**
 `Type: Number`_
@@ -73,7 +73,7 @@ Determines the mode of the tabs. If no mode is set, 'scrollable' is set as defau
 
 ### Tabs Text Colour
 
-![](/assets/images/components/user-interface/tab-layout/p_tabstextcolor.jpg)
+![Tabs Text Colour](/assets/images/components/user-interface/tab-layout/p_tabstextcolor.jpg)
 
 _**\(** Getter + Setter **\)**
 `Type: Colour`_
@@ -83,7 +83,7 @@ Determines text's colour of not selected tab.
 
 ### Visible
 
-![](/assets/images/components/user-interface/tab-layout/p_visible.jpg)
+![Visible](/assets/images/components/user-interface/tab-layout/p_visible.jpg)
 
 _**\(** Getter + Setter **\)**
 `Type: Boolean`_
@@ -93,7 +93,7 @@ Determines wheather the tabs are visible on the screen or not.
 
 ### Width
 
-![](/assets/images/components/user-interface/tab-layout/p_width.jpg)
+![Width](/assets/images/components/user-interface/tab-layout/p_width.jpg)
 
 _**\(** Getter + Setter **\)**
 `Type: Number`_
@@ -103,7 +103,7 @@ Determines the width with which the tabs are displayed.
 
 ### Width Percent
 
-![](/assets/images/components/user-interface/tab-layout/p_widthpercent.jpg)
+![Width Percent](/assets/images/components/user-interface/tab-layout/p_widthpercent.jpg)
 
 _**\(** Setter only **\)**
 `Type: Number`_
@@ -115,7 +115,7 @@ Determines the width with which the tabs are displayed in terms of precentage of
 
 ### Add New Tab
 
-![](/assets/images/components/user-interface/tab-layout/m_addnewtab.jpg)
+![Add New Tab](/assets/images/components/user-interface/tab-layout/m_addnewtab.jpg)
 
 _**\(** Text `name`, Text `icon`**\)**_
 
@@ -132,7 +132,7 @@ Params               | []()
 
 ### Add New Tab At
 
-![](/assets/images/components/user-interface/tab-layout/m_addnewtabat.jpg)
+![Add New Tab At](/assets/images/components/user-interface/tab-layout/m_addnewtabat.jpg)
 
 _**\(** Text `name`, Text `icon`, Number `position`**\)**_
 
@@ -144,13 +144,14 @@ Params               | []()
 `icon `              | **Text:** The name of the image that you want to set as icon of the tab. Leave blank if you don't want an icon.
 `position `          | **Number:** The position of the tab. For example, 3.
 
-!!! caution "Note"
-    The image that you want to set as the icon of a tab must be uploaded to the assets.
+
+
+
     
 
 ### Count Tabs
 
-![](/assets/images/components/user-interface/tab-layout/m_counttabs.jpg)
+![Count Tabs](/assets/images/components/user-interface/tab-layout/m_counttabs.jpg)
 
 _**\(**None**\)**_
 
@@ -159,7 +160,7 @@ Returns the number of current added tabs.
 
 ### Remove All Tabs
 
-![](/assets/images/components/user-interface/tab-layout/m_removealltabs.jpg)
+![Remove All Tabs](/assets/images/components/user-interface/tab-layout/m_removealltabs.jpg)
 
 _**\(**None**\)**_
 
@@ -168,7 +169,7 @@ Removes all the tabs from **Tab Layout**.
 
 ### Remove All Tab At
 
-![](/assets/images/components/user-interface/tab-layout/m_removealltabat.jpg)
+![Remove All Tabs At](/assets/images/components/user-interface/tab-layout/m_removealltabat.jpg)
 
 _**\(** Number `position`**\)**_
 
@@ -179,7 +180,7 @@ Removes the given tab the tabs from **Tab Layout**.
 
 ### Tab Item Selected
 
-![](/assets/images/components/user-interface/tab-layout/e_tabitemselected.jpg)
+![Tab Item Selected](/assets/images/components/user-interface/tab-layout/e_tabitemselected.jpg)
 
 _**\(** Text `tab`, Number `position`**\)**_
 
