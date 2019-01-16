@@ -33,7 +33,7 @@ Selects a tab which is then the active tab.
 
 ### Tabs Active Text Colour
 
-![Tabs Active Text Colour](/assets/images/components/user-interface/tab-layout/p_tabactivetextcolor.jpg)
+![Tabs Active Text Colour](/assets/images/components/user-interface/tab-layout/p_activetabtextcolor.jpg)
 
 _**\(** Getter + Setter **\)**
 `Type: Colour`_
@@ -53,7 +53,7 @@ Determines background colour of tabs.
 
 ### Tabs Indicator Colour
 
-![Tabs Indicator Colour](/assets/images/components/user-interface/tab-layout/p_tabsindicatorcolor.jpg)
+![Tabs Indicator Colour](/assets/images/components/user-interface/tab-layout/p_tabindicatorcolor.jpg)
 
 _**\(** Getter + Setter **\)**
 `Type: Colour`_
@@ -165,7 +165,7 @@ Removes all the tabs from **Tab Layout**.
 
 ### Remove Tab At
 
-![Remove Tab At](/assets/images/components/user-interface/tab-layout/m_removeatabat.jpg)
+![Remove Tab At](/assets/images/components/user-interface/tab-layout/m_removetabat.jpg)
 
 _**\(** Number `position`**\)**_
 
