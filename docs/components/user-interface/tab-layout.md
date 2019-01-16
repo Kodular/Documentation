@@ -1,9 +1,5 @@
 # Tab Layout
 
-!!! warning
-    This page is still in progress. You can check the description of blocks for help.
-#  Layout
-
 ## Overview
 A **Tab Layout** is a swipeable visible component where you can add tabs. It provides horizontal layout to display tabs on the screen.
 
@@ -149,10 +145,6 @@ Params               | []()
 `position `          | **Number:** The position of the tab. For example, 3.
 
 
-
-
-    
-
 ### Count Tabs
 
 ![Count Tabs](/assets/images/components/user-interface/tab-layout/m_counttabs.jpg)
@@ -171,13 +163,17 @@ _**\(**None**\)**_
 Removes all the tabs from **Tab Layout**.
 
 
-### Remove All Tab At
+### Remove Tab At
 
-![Remove All Tabs At](/assets/images/components/user-interface/tab-layout/m_removealltabat.jpg)
+![Remove Tab At](/assets/images/components/user-interface/tab-layout/m_removeatabat.jpg)
 
 _**\(** Number `position`**\)**_
 
 Removes the given tab the tabs from **Tab Layout**.
+
+Params               | []()
+-------------------- | ------------
+`position `          | **Number:** The position of the tab. For example, 3.
 
 
 ## Events
