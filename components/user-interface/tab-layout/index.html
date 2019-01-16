@@ -3344,6 +3344,151 @@
 <p class="admonition-title">Warning</p>
 <p>This page is still in progress. You can check the description of blocks for help.</p>
 </div>
+<h1 id="layout">Layout<a class="headerlink" href="#layout" title="Permanent link">&para;</a></h1>
+<h2 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">&para;</a></h2>
+<p>A <strong>Tab Layout</strong> is a swipeable visible component where you can add tabs. It provides horizontal layout to display tabs on the screen.</p>
+<p><br><br>
+<img alt="Tab Layout" src="/assets/images/components/user-interface/tab-layout/TabLayout.gif" /></p>
+<p>A demo of <strong>Tab Layout</strong>.</p>
+<h2 id="properties">Properties<a class="headerlink" href="#properties" title="Permanent link">&para;</a></h2>
+<h3 id="get-current-tab">Get Current Tab<a class="headerlink" href="#get-current-tab" title="Permanent link">&para;</a></h3>
+<p><img alt="Get Current Tab" src="/assets/images/components/user-interface/tab-layout/p_getcurrenttab.jpg" /></p>
+<p><em><strong>(</strong> Getter only <strong>)</strong>
+<code>Type: Text</code></em></p>
+<p>Returns the current selected tab.</p>
+<h3 id="select-tab">Select Tab<a class="headerlink" href="#select-tab" title="Permanent link">&para;</a></h3>
+<p><img alt="Select Tab" src="/assets/images/components/user-interface/tab-layout/p_selecttab.jpg" /></p>
+<p><em><strong>(</strong> Setter only <strong>)</strong>
+<code>Type: Text</code></em></p>
+<p>Selects a tab which is then the active tab.</p>
+<h3 id="tabs-active-text-colour">Tabs Active Text Colour<a class="headerlink" href="#tabs-active-text-colour" title="Permanent link">&para;</a></h3>
+<p><img alt="Tabs Active Text Colour" src="/assets/images/components/user-interface/tab-layout/p_tabactivetextcolor.jpg" /></p>
+<p><em><strong>(</strong> Getter + Setter <strong>)</strong>
+<code>Type: Colour</code></em></p>
+<p>Determines text's colour of the current active tab.</p>
+<h3 id="tabs-background-colour">Tabs Background Colour<a class="headerlink" href="#tabs-background-colour" title="Permanent link">&para;</a></h3>
+<p><img alt="Tabs Background Colour" src="/assets/images/components/user-interface/tab-layout/p_tabsbackgroundcolor.jpg" /></p>
+<p><em><strong>(</strong> Getter + Setter <strong>)</strong>
+<code>Type: Colour</code></em></p>
+<p>Determines background colour of tabs.</p>
+<h3 id="tabs-indicator-colour">Tabs Indicator Colour<a class="headerlink" href="#tabs-indicator-colour" title="Permanent link">&para;</a></h3>
+<p><img alt="Tabs Indicator Colour" src="/assets/images/components/user-interface/tab-layout/p_tabsindicatorcolor.jpg" /></p>
+<p><em><strong>(</strong> Getter + Setter <strong>)</strong>
+<code>Type: Colour</code></em></p>
+<p>Determines indicator colour of the tabs.</p>
+<h3 id="tabs-mode">Tabs Mode<a class="headerlink" href="#tabs-mode" title="Permanent link">&para;</a></h3>
+<p><img alt="Tabs Mode" src="/assets/images/components/user-interface/tab-layout/p_tabsmode.jpg" /></p>
+<p><em><strong>(</strong> Getter + Setter <strong>)</strong>
+<code>Type: Number</code></em></p>
+<p>Determines the mode of the tabs. If no mode is set, 'scrollable' is set as default. Use '0' for 'Scrollable and '1' for 'Fixed'.</p>
+<h3 id="tabs-text-colour">Tabs Text Colour<a class="headerlink" href="#tabs-text-colour" title="Permanent link">&para;</a></h3>
+<p><img alt="Tabs Text Colour" src="/assets/images/components/user-interface/tab-layout/p_tabstextcolor.jpg" /></p>
+<p><em><strong>(</strong> Getter + Setter <strong>)</strong>
+<code>Type: Colour</code></em></p>
+<p>Determines text's colour of not selected tab.</p>
+<h3 id="visible">Visible<a class="headerlink" href="#visible" title="Permanent link">&para;</a></h3>
+<p><img alt="Visible" src="/assets/images/components/user-interface/tab-layout/p_visible.jpg" /></p>
+<p><em><strong>(</strong> Getter + Setter <strong>)</strong>
+<code>Type: Boolean</code></em></p>
+<p>Determines wheather the tabs are visible on the screen or not.</p>
+<h3 id="width">Width<a class="headerlink" href="#width" title="Permanent link">&para;</a></h3>
+<p><img alt="Width" src="/assets/images/components/user-interface/tab-layout/p_width.jpg" /></p>
+<p><em><strong>(</strong> Getter + Setter <strong>)</strong>
+<code>Type: Number</code></em></p>
+<p>Determines the width with which the tabs are displayed.</p>
+<h3 id="width-percent">Width Percent<a class="headerlink" href="#width-percent" title="Permanent link">&para;</a></h3>
+<p><img alt="Width Percent" src="/assets/images/components/user-interface/tab-layout/p_widthpercent.jpg" /></p>
+<p><em><strong>(</strong> Setter only <strong>)</strong>
+<code>Type: Number</code></em></p>
+<p>Determines the width with which the tabs are displayed in terms of precentage of the whole screen width.</p>
+<h2 id="methods">Methods<a class="headerlink" href="#methods" title="Permanent link">&para;</a></h2>
+<h3 id="add-new-tab">Add New Tab<a class="headerlink" href="#add-new-tab" title="Permanent link">&para;</a></h3>
+<p><img alt="Add New Tab" src="/assets/images/components/user-interface/tab-layout/m_addnewtab.jpg" /></p>
+<p><em><strong>(</strong> Text <code>name</code>, Text <code>icon</code><strong>)</strong></em></p>
+<p>Adds a new tab to the <strong>Tab Layout</strong>.</p>
+<table>
+<thead>
+<tr>
+<th>Params</th>
+<th><a href=""></a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>name</code></td>
+<td><strong>Text:</strong> The name of the tab.</td>
+</tr>
+<tr>
+<td><code>icon</code></td>
+<td><strong>Text:</strong> The name of the image that you want to set as icon of the tab. Leave blank if you don't want an icon.</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition caution">
+<p class="admonition-title">Note</p>
+<p>The image that you want to set as the icon of a tab must be uploaded to the assets.</p>
+</div>
+<h3 id="add-new-tab-at">Add New Tab At<a class="headerlink" href="#add-new-tab-at" title="Permanent link">&para;</a></h3>
+<p><img alt="Add New Tab At" src="/assets/images/components/user-interface/tab-layout/m_addnewtabat.jpg" /></p>
+<p><em><strong>(</strong> Text <code>name</code>, Text <code>icon</code>, Number <code>position</code><strong>)</strong></em></p>
+<p>Adds a new tab to the <strong>Tab Layout</strong> at the given position.</p>
+<table>
+<thead>
+<tr>
+<th>Params</th>
+<th><a href=""></a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>name</code></td>
+<td><strong>Text:</strong> The name of the tab.</td>
+</tr>
+<tr>
+<td><code>icon</code></td>
+<td><strong>Text:</strong> The name of the image that you want to set as icon of the tab. Leave blank if you don't want an icon.</td>
+</tr>
+<tr>
+<td><code>position</code></td>
+<td><strong>Number:</strong> The position of the tab. For example, 3.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="count-tabs">Count Tabs<a class="headerlink" href="#count-tabs" title="Permanent link">&para;</a></h3>
+<p><img alt="Count Tabs" src="/assets/images/components/user-interface/tab-layout/m_counttabs.jpg" /></p>
+<p><em><strong>(</strong>None<strong>)</strong></em></p>
+<p>Returns the number of current added tabs.</p>
+<h3 id="remove-all-tabs">Remove All Tabs<a class="headerlink" href="#remove-all-tabs" title="Permanent link">&para;</a></h3>
+<p><img alt="Remove All Tabs" src="/assets/images/components/user-interface/tab-layout/m_removealltabs.jpg" /></p>
+<p><em><strong>(</strong>None<strong>)</strong></em></p>
+<p>Removes all the tabs from <strong>Tab Layout</strong>.</p>
+<h3 id="remove-all-tab-at">Remove All Tab At<a class="headerlink" href="#remove-all-tab-at" title="Permanent link">&para;</a></h3>
+<p><img alt="Remove All Tabs At" src="/assets/images/components/user-interface/tab-layout/m_removealltabat.jpg" /></p>
+<p><em><strong>(</strong> Number <code>position</code><strong>)</strong></em></p>
+<p>Removes the given tab the tabs from <strong>Tab Layout</strong>.</p>
+<h2 id="events">Events<a class="headerlink" href="#events" title="Permanent link">&para;</a></h2>
+<h3 id="tab-item-selected">Tab Item Selected<a class="headerlink" href="#tab-item-selected" title="Permanent link">&para;</a></h3>
+<p><img alt="Tab Item Selected" src="/assets/images/components/user-interface/tab-layout/e_tabitemselected.jpg" /></p>
+<p><em><strong>(</strong> Text <code>tab</code>, Number <code>position</code><strong>)</strong></em></p>
+<p>Indicates that a item in <strong>Tab Layout</strong> is selected.</p>
+<table>
+<thead>
+<tr>
+<th>Params</th>
+<th><a href=""></a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>tab</code></td>
+<td><strong>Text:</strong> The name of the tab.</td>
+</tr>
+<tr>
+<td><code>position</code></td>
+<td><strong>Number:</strong> The position of the tab. For example, 3.</td>
+</tr>
+</tbody>
+</table>
                 
                   
                 
