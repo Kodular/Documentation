@@ -145,7 +145,6 @@ _Find more about this [HERE](https://community.kodular.io/t/chameleon-ads-what-i
 - **Layout**
 	- **Arrangements** _borders' color_ with _IsCard_ property  
 [Changing programmatically the background color of arrangements defined as "iscard" doesn't change borders color](https://community.kodular.io/t/changing-programmatically-the-background-color-of-arrangements-defined-as-iscard-doesnt-change-borders-color/13996)  
-&nbsp;  
 	- **CardView** _elevation_ property wasn't working properly  
 [CardView ELEVATION property does't work correctly](https://community.kodular.io/t/cardview-elevation-property-doest-work-correctly/12583)
 
