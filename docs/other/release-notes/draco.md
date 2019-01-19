@@ -1,4 +1,4 @@
-# Chamaeleon
+# Kodular Draco
 
 ## 1.3 Draco   \|   _13 January 2019_
 
@@ -123,7 +123,7 @@ _Find more about this [HERE](https://community.kodular.io/t/chameleon-ads-what-i
 	- `ScaleBar`: adds a scale bar to generated map  
 ![image|282x64](https://community.kodular.io/uploads/default/original/2X/9/9c2c0410e6b49a873a2811e529f7a152cbc742b1.png)  
 &nbsp;  
-	- `ScaleUnits`: changes unit system of the scale bar
+	- `ScaleUnits`: changes unit system of the scale bar  
 ![image|288x62](https://community.kodular.io/uploads/default/original/2X/9/95bd7d691ae2b44f7a2b50b1736aa69d16229b25.png)
 
 &nbsp;
@@ -146,7 +146,7 @@ _Find more about this [HERE](https://community.kodular.io/t/chameleon-ads-what-i
 	- **Arrangements** _borders' color_ with _IsCard_ property  
 [Changing programmatically the background color of arrangements defined as "iscard" doesn't change borders color](https://community.kodular.io/t/changing-programmatically-the-background-color-of-arrangements-defined-as-iscard-doesnt-change-borders-color/13996)  
 &nbsp;  
-	- **CardView** _elevation_ property wasn't working properly
+	- **CardView** _elevation_ property wasn't working properly  
 [CardView ELEVATION property does't work correctly](https://community.kodular.io/t/cardview-elevation-property-doest-work-correctly/12583)
 
 - **Drawing and Animation**
@@ -156,9 +156,8 @@ _Find more about this [HERE](https://community.kodular.io/t/chameleon-ads-what-i
 	- **ActivityStarter** Component fixed when _opening files_
 
 - **Monetization**
-	- **AdMob** Components loading bug fixed  
-&nbsp;  
-	- **Facebook Ads** Components fixed by upgrading libraries
+	- **AdMob** Components loading bug fixed
+	- **Facebook Ads** Components fixed by upgrading libraries  
 
 - [Set webViewString directly to bypass event from blocks (#1320) · mit-cml/appinventor-sources@2869a13 · GitHub](https://github.com/mit-cml/appinventor-sources/commit/2869a13e01c1fbcfdf5e27640c15ca36e7cde912)
 
@@ -175,3 +174,57 @@ _Find more about this [HERE](https://community.kodular.io/t/chameleon-ads-what-i
 - [Stop resetting list of connections when errors occur · mit-cml/appinventor-sources@ac7c0e4 · GitHub](https://github.com/mit-cml/appinventor-sources/commit/ac7c0e4c74009b064e617ab2387caa43fb60f9fa)
 
 - [Fix handling of Map.ZoomLevel when animating changes · mit-cml/appinventor-sources@6f14488 · GitHub](https://github.com/mit-cml/appinventor-sources/commit/6f144887abd7be4bb78714720d8df343726890fa)
+
+## 1.3.1 Draco   \|   _19 January 2019_
+
+### UI Changes
+
+- Added **_Carbon Ads_** in _Creator_ dialogs
+
+- Fixed **_Docs URL_** when using _non-English language_
+
+### Companion
+
+- Fixed **_Error 1103_** on Companion using _Android 9_ (`when attempting to connect it was raising this error`)
+ 
+- Fixed **_Lottie_**  component in Companion (`it was crashing when trying to load it`)
+
+### New Features
+
+- Added missing **_Keep Screen On_** property for **Screen**
+
+- Added missing **_Text Color_** property for **Snackbar** component
+
+- Added missing **_Sign Up Success_** event for **Firebase Authentication** component
+
+- Added missing **_URL_** and **_Token_** blocks for **Firebase Database** component
+
+- **Chameleon Ads**
+	- Ads can now be **loaded with any device orientation**
+	- Ads can be **closed with backpress button**
+	- Ads can be **rotated**
+	- Ads are now **displayed in fullscreen**
+
+- Added missing **_error Code_** parameter to _Error Events_ for **Chameleon Ads** component
+
+### Bugs Fixed
+
+- Fixed **importing AIAs** from other servers which had set _Classic theme_
+
+- **Button** component made _app crash_ on devices with Android <5 (`when launching Screen, app was stopped`)
+
+- **Label** component was not working properly with _Inline Links_ (`temporall removed clickable links from it`)  
+[How to disable inline clickable links](https://community.kodular.io/t/how-to-disable-inline-clickable-links/15808)
+
+- **List View Image and Text** component was _crashing_ on devices with Android <5 (`when launching Screen, app was stopped`)
+
+- **WebView** component bug when _requesting location_ (`was not working properly`)  
+[WebViewer Bug with Maps](https://community.kodular.io/t/webviewer-bug-with-maps/7352)
+
+- **Lottie** component was crashing when no _Source_ was found (`now it will no longer crash`)
+
+- **Cloudinary** component was _sometimes crashing_ (`some internal bugs have been fixed`)
+
+- **Device Tools** component was requesting _too many permission_ (`on app start, some unused permissions were asked`)
+
+- **AdMob** components were _not working_ (`sometimes ad requests were unsuccessful`)
