@@ -8,7 +8,7 @@ The **Component**'s behaviour is configured using <span class=keyword>*Blocks*</
 <br><br>
 ![Illustration](/assets/images/other/components-blocks-illustration.jpg)
 
-Components + Blocks = Your Awesome App !
+Components + Blocks = Your Awesome App!
 {: .img-caption }
 
 
