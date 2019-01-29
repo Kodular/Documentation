@@ -90,9 +90,6 @@ nav:
     - Other:
       - Overview: other/index.md
       - Pricing: other/pricing.md
-      - Resources:
-        - Overview: other/resources/index.md
-        - Concept Cards: other/resources/concept-cards.md
       - Release Notes:
         - Overview: other/release-notes/index.md
         - Andromeda: other/release-notes/andromeda.md
@@ -103,7 +100,8 @@ nav:
       - Terms of Service: other/terms-of-service.md
   - Guides:
     - Understanding Kodular: guides/index.md
-    - Hello World!: guides/hello-world.md
+    - Hello World: guides/hello-world.md
+    - Concept Cards: guides/concept-cards.md
   - Components:
     - Overview: components/index.md
     - Screen: components/screen.md
