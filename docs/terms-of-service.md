@@ -84,6 +84,8 @@ Help keep the Site friendly. If you think a project, comment or user profile is 
 * Political content or content related to partisan political activities
 * Content that contains intentional inaccurate information with the intent of misleading others.
 
+In case any **Admob** component is used, Kodular will enforce a more in depth policy checking, to ensure apps comply with their prohibited content regulation.
+
 ### **Prohibited Activities**
 
 * Viruses, trojan horses, worms, time bombs, corrupted files, malware, spyware, or any other similar software that may damage the operation of another's computer or property

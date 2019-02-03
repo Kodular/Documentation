@@ -78,30 +78,27 @@ markdown_extensions:
 
 # Site navigation in the side bar
 nav:
-  - Getting Started:
+  - Home:
     - Overview: index.md
-    - Live Development:
-      - Overview: live-development/index.md
-      - Via WiFi: live-development/wifi.md
-      - Via USB: live-development/usb.md
-    - Extensions:
-      - Overview: extensions/index.md
-      - Create Extensions: extensions/create-extensions.md
-    - Other:
-      - Overview: other/index.md
-      - Pricing: other/pricing.md
-      - Release Notes:
-        - Overview: other/release-notes/index.md
-        - Andromeda: other/release-notes/andromeda.md
-        - Butterfly: other/release-notes/butterfly.md
-        - Chamaeleon: other/release-notes/chamaeleon.md
-        - Draco: other/release-notes/draco.md
-      - Backpack: other/backpack.md
-      - Terms of Service: other/terms-of-service.md
+    - Pricing: pricing.md
+    - Release Notes:
+      - Overview: release-notes/index.md
+      - Andromeda: release-notes/andromeda.md
+      - Butterfly: release-notes/butterfly.md
+      - Chamaeleon: release-notes/chamaeleon.md
+      - Draco: release-notes/draco.md
+    - Terms of Service: terms-of-service.md
   - Guides:
     - Understanding Kodular: guides/index.md
     - Hello World: guides/hello-world.md
+    - Backpack: guides/backpack.md
     - Concept Cards: guides/concept-cards.md
+    - Live Development:
+      - Overview: guides/live-development/index.md
+      - Via WiFi: guides/live-development/wifi.md
+      - Via USB: guides/live-development/usb.md
+    - Extensions:
+      - Create Extensions: guides/extensions/create-extensions.md
   - Components:
     - Overview: components/index.md
     - Screen: components/screen.md

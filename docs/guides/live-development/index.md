@@ -12,8 +12,8 @@ Visit the below pages to learn how to connect the companion via different ways:
 
 **Step 1:** Download the [Kodular Companion from the Google Play Store](https://play.google.com/store/apps/details?id=io.makeroid.companion).
 
-![](/assets/images/live-development/index-1.png)
+![](/assets/images/other/live-development/index-1.png)
 
 **Step 2:** Open the app
 
-![](/assets/images/live-development/index-2.png)
+![](/assets/images/other/live-development/index-2.png)
