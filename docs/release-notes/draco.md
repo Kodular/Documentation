@@ -335,7 +335,7 @@ _This permits the usage of `strings.xml` files_
 	- `Timestamp Border Radius`: sets a radius for timestamp's boxes  
 ![image|285x70](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/2X/d/dec4c2377bae93dfa13962c0d725453a574fd95b.png)  
 &nbsp;  
-  - `Timestamp Font Size`: changes the font size of the timestamp's text  
+	- `Timestamp Font Size`: changes the font size of the timestamp's text  
 ![image|282x75](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/2X/2/246ceb5b685f77bc52ea1ea3c96edc15e29295a8.png)  
 &nbsp;  
 	- `Title Font Size`: changes the font size of the title  
