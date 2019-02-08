@@ -1,3 +1,7 @@
+---
+redirect_from: "/other/terms-of-service/"
+---
+
 # Terms of Service
 
 ## Kodular Creator Privacy Policy and Terms of Use
