@@ -75,7 +75,6 @@ markdown_extensions:
   - pymdownx.tasklist:
      custom_checkbox: true
   #- pymdownx.tilde
-  - del_ins
 
 
 # Site navigation in the side bar
