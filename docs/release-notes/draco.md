@@ -404,3 +404,102 @@ _Big thanks to @Peter for Kodular one_
 	- **Admob** components were crashing sometimes
 
 _Other minor bugs which were not listed here have been fixed too, improving code performance_
+
+&nbsp;
+
+## 1.3B.1 Draco   \|   _12 February 2019_
+
+### Major Changes
+
+- Added ability to use **strings.json files**
+
+### UI Changes
+
+- Redesigned **Import Extension** dialog
+
+- Renamed _Device_ category to **Utilities** category
+
+- Moved _Animation Util_, _Color Util_, _Image Util_ and _Resource Util_ components to new **Utilities** category
+
+### New Events
+
+- **Audio** component  
+	- `Error Occurred`: triggered after an unexpected error happens  
+![image|268x105](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/2X/f/f0dc8857821f6b990a75d6079c01eea05699259b.png)
+
+- **Admob Banner** component  
+	- `Ad Failed To Load` (_added `Error Code` and `Error Message` variables_)  
+![image|346x101](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/2X/1/1f895026fbb5c5f9c1e5eb307eea5a85e7e1ddd2.png)
+
+- **Admob Interstitial** component  
+	- `Ad Opened`: triggered after the user clicks an Interstitial  
+![image|316x84](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/2X/e/e319347cd358328bf956da91e404aafbcc0bd226.png)
+
+- **Admob Rewarded Video** component  
+	- `Ad Video Completed`: triggered ending the video ad  
+![image|421x80](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/2X/f/f08179ea1e57e9b71bb410aeab20709d5381df38.png)  
+&nbsp;  
+	- `Ad Video Started`: triggered after the ad starts playing  
+![image|394x79](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/2X/a/a45560b565c2403abf89967e074aac6ee3011091.png)
+
+### New Methods
+
+- **Resource Utilities** component  
+  - `Get String From Asset`: returns a string from the inputted key if _Resource File from Asset_ is set  
+![image|396x103](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/2X/f/f285bc507063afdd37b585232cbe9722dae3aabe.png)  
+&nbsp;  
+  - `Get String From Path`: returns a string from the inputted key if _Resource File from Path_ is set  
+![image|383x99](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/2X/4/4496aaa26f5f34ed7f13dc1442d4d42d848c4507.png)  
+&nbsp;  
+  - ~~`Get String Content By Name`~~ _will be removed in future releases_  
+![image|442x94](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/2X/3/365820044e18fabb4725715aa25111049b1dc338.png)
+
+- **FTP** component  
+  - `Delete Dir`: deletes the given directory if exists  
+![image|208x72](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/2X/0/073fea81e8b4ef3238bcdb5f622b6960da78f3f6.png)  
+&nbsp;  
+  - `Get List of Files`: returns a list of files in given directory if exists  
+![image|266x74](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/2X/b/b284d870b9b1f296b2246d41b82117135a00aa6b.png)
+
+### New Properties
+
+- **Screen**  
+  - `RTL Support`: enables or disables the RTL interface  
+![image|292x64](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/2X/4/4a3a52a91396ecf2c48f2273543ab18156d875e6.png)
+
+- **Resource Utilities** component  
+  - `Resource File From Asset`: sets the file to work with  
+![image|284x72](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/2X/9/9ba6ae02d7725e3ad3c5016487f58ccfb9a2c6bc.png)  
+&nbsp;  
+  - `Resource File From Path`: loads the file to work with from the given path  
+![image|288x64](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/2X/8/827a14dd570c68b91e21aa4f108c38a215172bdd.png)
+
+### Bugs Fixed
+
+- **Screen**
+
+  - **Title Bar Back Button** was _not handled_ when locking Side MenuLayout
+
+- **User Interface** category
+
+  - **List View Image and Text** was _not loading images_ on Android below 5.0
+
+  - **Notifier** was sometimes returning a _Null Pointer Exception_
+
+  - **Textbox** was buggy when using _Copy/Paste feature_
+
+- **Layout** category
+
+  - **Surface View** was raising sometimes a _Null Pointer Exception_
+
+- **Social** category
+
+  - **Sharing** component was not working when using _share file with a custom package name_
+
+- **Monetization** category
+
+  - **Admob** components were not working properly when publishing to Play Store
+
+  - **Amazon Ad** component was sometimes returning a _Null Pointer Exception_
+
+_Other minor bugs which were not listed here have been fixed too, improving code performance_
