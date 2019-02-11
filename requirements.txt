@@ -4,4 +4,5 @@ markdown-include
 markdown-macros
 pymdown-extensions
 pygments
+mdx_del_int
 -e git://github.com/Barreeeiroo/mkdocs-replace-plugin.git#egg=replace
