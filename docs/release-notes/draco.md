@@ -451,7 +451,7 @@ _Other minor bugs which were not listed here have been fixed too, improving code
   - `Get String From Path`: returns a string from the inputted key if _Resource File from Path_ is set  
 ![image|383x99](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/2X/4/4496aaa26f5f34ed7f13dc1442d4d42d848c4507.png)  
 &nbsp;  
-  - ~~`Get String Content By Name`~~ _will be removed in future releases_  
+  - `Get String Content By Name` _will be removed in future releases_  
 ![image|442x94](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/2X/3/365820044e18fabb4725715aa25111049b1dc338.png)
 
 - **FTP** component  
