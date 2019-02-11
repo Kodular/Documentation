@@ -445,61 +445,61 @@ _Other minor bugs which were not listed here have been fixed too, improving code
 ### New Methods
 
 - **Resource Utilities** component  
-  - `Get String From Asset`: returns a string from the inputted key if _Resource File from Asset_ is set  
+	- `Get String From Asset`: returns a string from the inputted key if _Resource File from Asset_ is set  
 ![image|396x103](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/2X/f/f285bc507063afdd37b585232cbe9722dae3aabe.png)  
 &nbsp;  
-  - `Get String From Path`: returns a string from the inputted key if _Resource File from Path_ is set  
+	- `Get String From Path`: returns a string from the inputted key if _Resource File from Path_ is set  
 ![image|383x99](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/2X/4/4496aaa26f5f34ed7f13dc1442d4d42d848c4507.png)  
-&nbsp;  
-  - `Get String Content By Name` _will be removed in future releases_  
+	&nbsp;  
+	- `Get String Content By Name` _will be removed in future releases_  
 ![image|442x94](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/2X/3/365820044e18fabb4725715aa25111049b1dc338.png)
 
 - **FTP** component  
-  - `Delete Dir`: deletes the given directory if exists  
+	- `Delete Dir`: deletes the given directory if exists  
 ![image|208x72](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/2X/0/073fea81e8b4ef3238bcdb5f622b6960da78f3f6.png)  
 &nbsp;  
-  - `Get List of Files`: returns a list of files in given directory if exists  
+	- `Get List of Files`: returns a list of files in given directory if exists  
 ![image|266x74](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/2X/b/b284d870b9b1f296b2246d41b82117135a00aa6b.png)
 
 ### New Properties
 
 - **Screen**  
-  - `RTL Support`: enables or disables the RTL interface  
+	- `RTL Support`: enables or disables the RTL interface  
 ![image|292x64](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/2X/4/4a3a52a91396ecf2c48f2273543ab18156d875e6.png)
 
 - **Resource Utilities** component  
-  - `Resource File From Asset`: sets the file to work with  
+	- `Resource File From Asset`: sets the file to work with  
 ![image|284x72](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/2X/9/9ba6ae02d7725e3ad3c5016487f58ccfb9a2c6bc.png)  
 &nbsp;  
-  - `Resource File From Path`: loads the file to work with from the given path  
+	- `Resource File From Path`: loads the file to work with from the given path  
 ![image|288x64](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/2X/8/827a14dd570c68b91e21aa4f108c38a215172bdd.png)
 
 ### Bugs Fixed
 
 - **Screen**
 
-  - **Title Bar Back Button** was _not handled_ when locking Side MenuLayout
+	- **Title Bar Back Button** was _not handled_ when locking Side MenuLayout
 
 - **User Interface** category
 
-  - **List View Image and Text** was _not loading images_ on Android below 5.0
+	- **List View Image and Text** was _not loading images_ on Android below 5.0
 
-  - **Notifier** was sometimes returning a _Null Pointer Exception_
+	- **Notifier** was sometimes returning a _Null Pointer Exception_
 
-  - **Textbox** was buggy when using _Copy/Paste feature_
+	- **Textbox** was buggy when using _Copy/Paste feature_
 
 - **Layout** category
 
-  - **Surface View** was raising sometimes a _Null Pointer Exception_
+	- **Surface View** was raising sometimes a _Null Pointer Exception_
 
 - **Social** category
 
-  - **Sharing** component was not working when using _share file with a custom package name_
+	- **Sharing** component was not working when using _share file with a custom package name_
 
 - **Monetization** category
 
-  - **Admob** components were not working properly when publishing to Play Store
+	- **Admob** components were not working properly when publishing to Play Store
 
-  - **Amazon Ad** component was sometimes returning a _Null Pointer Exception_
+	- **Amazon Ad** component was sometimes returning a _Null Pointer Exception_
 
 _Other minor bugs which were not listed here have been fixed too, improving code performance_
