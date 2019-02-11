@@ -50,7 +50,7 @@ extra_javascript:
 plugins:
   - search
   - replace
-  - jekyll-redirect-from
+# - jekyll-redirect-from
 
 #Markdown extensions: https://python-markdown.github.io/extensions/
 markdown_extensions:
