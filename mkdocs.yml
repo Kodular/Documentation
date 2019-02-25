@@ -76,7 +76,6 @@ markdown_extensions:
      custom_checkbox: true
   #- pymdownx.tilde
 
-
 # Site navigation in the side bar
 nav:
   - Home:
