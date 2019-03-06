@@ -298,6 +298,11 @@ _**\(** Setter only **\)**  **\(** Blocks only **\)**
 Set title bar color
 
 
+### Title Bar Font Typeface
+**\(** Designer Only **\)**  
+
+The font of the text shown on the Title Bar i.e the bar where the Screen Title is shown.
+
 
 ### TitleBarSubTitle
 
@@ -342,4 +347,130 @@ _**\(** Getter only **\)**  **\(** Blocks only **\)**
 
 The screen width of the device on the which the app is being run on.
 
+## Screen1 Only Properties
 
+### What is Screen1 ?
+
+Screen1 is the name of the default screen that is present on any given app.
+It is the screen that is automatically opened whenever an app is opened from the launcher menu of a device.  
+Any workflow of the app should begin from the Screen1 and continue from there to the appropriate locations.
+
+In addition, Screen1 is also used to set some of the app-wide properties.  
+They are discussed below.
+
+### Accent Color
+_**\(** Designer Only **\)**  
+`Type: Color`_
+
+The Accent color that will be used throughout the app.
+
+### App Name
+_**\(** Designer Only **\)**  
+`Type: Text`_
+
+The name of the App.  This will be the name used when exported as an APK and
+when installed in a user's device. This name will appear on the device's launcher.
+
+
+### Icon
+_**\(** Designer Only **\)**  
+`Type: Text`_
+
+The icon which will be shown in the device's launcher after the app is installed on the 
+device. It is recommended to use a PNG image of dimensions 120x120.
+
+
+### Min Sdk
+_**\(** Designer Only **\)**_
+
+The minimum SDK level that the app can be run on.
+Note that the app is not install-able on devices running with a version lower than the
+selected version.
+
+
+### Package Name
+_**\(** Designer Only **\)**  
+`Type: Text`_
+
+It is the unique name by which your app is identified with.
+
+!!! quote "[App ID - Android Developer docs](https://developer.android.com/studio/build/application-id)"
+    Every Android app has a unique application ID that looks like a Java package name, such as `com.example.myapp`. This ID uniquely identifies your app on the device and in Google Play Store. If you want to upload a new version of your app, the application ID  must be the same as the original APK—if you change the application ID, Google Play Store treats   the APK as a completely different app. So once you publish your app, you should never change the application ID.
+
+
+### Primary Color
+_**\(** Designer Only **\)**  
+`Type: Color`_
+
+The Primary color that will be used throughout the app.
+
+### Primary Color Dark
+_**\(** Designer Only **\)**  
+`Type: Color`_
+
+The darkened version of the Primary Color that will be used throughout the app.
+
+### RTL Support
+_**\(** Designer Only **\)**_
+
+Whether to support RTL languages in the app or not.
+
+### Show Lists As Json
+_**\(** Designer Only **\)**_
+
+This is used to show lists as [JSON](https://en.wikipedia.org/wiki/JSON) instead of pairs in the app
+
+
+### Show Options Menu
+**\(** Designer Only **\)**  
+
+Whether to show the Options menu or not.
+
+
+### Sizing
+_**\(** Designer Only **\)**_
+
+The mode if Sizing used for all the components used in the app
+
+* `Fixed` - The given size as specified in the component's height and width properties will be irrespective of the
+            the device's screen size
+* `Responsive` - The size of the components adapts to the size of the device's screen.
+
+### Splash Enabled
+_**\(** Designer Only **\)**  _
+
+Whether to show the Splash Screen or not.
+Splash Screen is the temporary screen that will be shown whilst your app is being loaded for opening.
+
+### Splash Icon
+_**\(** Designer Only **\)**  
+`Type: Asset`_
+
+The image that will be shown on the Splash Screen if [Splash Enabled](#splash-enabled) is set to `True`.
+
+### Theme
+_**\(** Designer Only **\)**_
+
+The theme that will be followed for showning certain components on the app.
+
+
+### Tutorial URL
+_**\(** Designer Only **\)**_
+
+This is useful when you writing a tutorial and want to share a link to a webpage when the app is opened.
+(Currently, only Kodular links are allowed.)
+
+### Version Code
+_**\(** Designer Only **\)**  
+`Type: Number`_
+
+The version code is used by the OS to determine if the app is an updated version(if it is already installed) and by 
+Google Play. So whenever you are publishing to the Play Store, you should increment it.
+
+
+### Version Name
+_**\(** Designer Only **\)**  
+`Type: Text`_
+
+Unlike Version Code, Version Name can be any text and will appear in some places of the device, for example in the
+App Settings menu of the device etc.
