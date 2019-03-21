@@ -1,7 +1,6 @@
 # Overview <small> of Storage</small>
 
 * [Cloudinary](cloudinary.md)
-* [Cryptography](cryptography.md)
 * [File](file.md)
 * [Fusiontables Control](fusiontables-control.md)
 * [Spreadsheet](spreadsheet.md)
