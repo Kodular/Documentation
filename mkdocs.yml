@@ -217,13 +217,17 @@ nav:
       - SQLite: components/storage/sqlite.md
       - Tiny DB: components/storage/tiny-db.md
       - Tiny Web DB: components/storage/tiny-web-db.md
-    - Device:
-      - Overview: components/device/index.md
-      - Audio: components/device/audio.md
-      - Device Tools: components/device/device-tools.md
-      - Package: components/device/package.md
-      - Screenshot: components/device/screenshot.md
-      - Wallpaper: components/device/wallpaper.md
+    - Utilities:
+      - Overview: components/utilities/index.md
+      - Audio: components/utilities/audio.md
+      - Device Tools: components/utilities/device-tools.md
+      - Package: components/utilities/package.md
+      - Screenshot: components/utilities/screenshot.md
+      - Wallpaper: components/dutilities/wallpaper.md
+      - Color Utilities: components/utilities/color-utilities.md
+      - Cryptography: components/utilities/cryptography.md
+      - Resource Utilities: components/utilities/resource-utilities.md
+      - Image Utilities: components/utilities/image-utilities.md
     - Dynamic Components:
       - Overview: components/dynamic/index.md
       - Dynamic Button: components/dynamic/dynamic-button.md
