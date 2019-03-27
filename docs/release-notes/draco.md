@@ -504,9 +504,9 @@ _Other minor bugs which were not listed here have been fixed too, improving code
 
 _Other minor bugs which were not listed here have been fixed too, improving code performance_
 
+&nbsp;
 
-
-## Version 1.3B.2
+## 1.3B.2 Draco   \|   _27 March 2019_
 
 ### Major Changes
 
