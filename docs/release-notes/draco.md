@@ -512,10 +512,10 @@ _Other minor bugs which were not listed here have been fixed too, improving code
 
 - Added new [**Admob Validation System**](https://community.kodular.io/t/admob-approval-system/22210)
 
-- [Add **generic events** for component](https://github.com/mit-cml/appinventor-sources/commit/4ddd02dbb020dbcbf99483c1edeeb784e0d4f895)  
+- [Added **generic events** for component](https://github.com/mit-cml/appinventor-sources/commit/4ddd02dbb020dbcbf99483c1edeeb784e0d4f895)  
 ![image|297x104](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/2X/4/46160dfca8e851838fb6768338932c4e93bd6a7e.png)
 
-- [Allow component blocks and property **getters in global declarations**](https://github.com/mit-cml/appinventor-sources/commit/0341af0cee4fd46df2f800e7e9cc41257dd54cab)  
+- [Allowed component blocks and property **getters in global declarations**](https://github.com/mit-cml/appinventor-sources/commit/0341af0cee4fd46df2f800e7e9cc41257dd54cab)  
 ![image|477x68](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/2X/4/40b06a1f2f1c4571b818eaed83c7d756678d55c3.png)
 
 - [**Improved Blockly** controls](https://github.com/mit-cml/appinventor-sources/commit/f5a769a4b0e84d6064e1a115d6664063b6338672)  
@@ -528,15 +528,15 @@ _Other minor bugs which were not listed here have been fixed too, improving code
 
 - **Fixed "No Show Again" issue** in Splash Screen
 
-- [**Move copy before paste** in workspace menu](https://github.com/mit-cml/appinventor-sources/commit/545bd082eb95790bb67c2364d9d0322c0cbe557c)
+- [**Moved copy before paste** in workspace menu](https://github.com/mit-cml/appinventor-sources/commit/545bd082eb95790bb67c2364d9d0322c0cbe557c)
 
-- [**Move "Empty Backpack"** menu item to Backpack menu](https://github.com/mit-cml/appinventor-sources/commit/4cfd02b1a6f0e739d96320824486f194c9e8108d)
+- [**Moved "Empty Backpack"** menu item to Backpack menu](https://github.com/mit-cml/appinventor-sources/commit/4cfd02b1a6f0e739d96320824486f194c9e8108d)
 
-- [Add menu option to **hide workspace controls**](https://github.com/mit-cml/appinventor-sources/commit/50a1371fa64493dfcce8c1f39dad8daa73c16c7e)
+- [Added menu option to **hide workspace controls**](https://github.com/mit-cml/appinventor-sources/commit/50a1371fa64493dfcce8c1f39dad8daa73c16c7e)
 
 - [**Fixed palette not showing** when removing screen from blocks editor](https://github.com/mit-cml/appinventor-sources/commit/4241d37cbf10012a4c8c73a06a9efd81aa92d730)
 
-- [Implement menu option to **make component blocks generic**](https://github.com/mit-cml/appinventor-sources/commit/4ccbeea4e44534102abd1f628fb2a9fdc6efe10b)
+- [Implemented menu option to **make component blocks generic**](https://github.com/mit-cml/appinventor-sources/commit/4ccbeea4e44534102abd1f628fb2a9fdc6efe10b)
 
 ### Companion
 
@@ -544,10 +544,10 @@ _Other minor bugs which were not listed here have been fixed too, improving code
 
 ### New Blocks
 
-- [Implement join-with-separator block](https://github.com/mit-cml/appinventor-sources/commit/ceb27bf233d93e61ef741e9255149e1bb3e8ff8c)  
+- [Implemented join-with-separator block](https://github.com/mit-cml/appinventor-sources/commit/ceb27bf233d93e61ef741e9255149e1bb3e8ff8c)  
 ![image|284x76](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/2X/d/d2136f8350a13c219dd88cc601db30c6db73b54c.png)
 
-- [Implement list reverse block](https://github.com/mit-cml/appinventor-sources/commit/b3ce6b5878e592b5e0fd93379eb6e9445ad227c9)  
+- [Implemented list reverse block](https://github.com/mit-cml/appinventor-sources/commit/b3ce6b5878e592b5e0fd93379eb6e9445ad227c9)  
 ![image|158x47](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/2X/b/bdcf9f2c0c8cd7410dbf28b6e3c164c624675b9c.png)
 
 ### New Methods
@@ -573,35 +573,26 @@ _Other minor bugs which were not listed here have been fixed too, improving code
 ### New Properties
 
 - **Button** component
-  - `HTML Format | Advanced`: enables the HTML formatting of Buttons' text  
+	- `HTML Format | Advanced`: enables the HTML formatting of Buttons' text  
 ![image|277x66](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/2X/e/e79406b2d2c6414fee47d155db53edf7472eee65.png)
 
 ### Bugs Fixed
 
 - **User Interface** category
-
-  - **Notifier** dialogs button text now use *accent color*
+	- **Notifier** dialogs button text now use *accent color*
 
 - **Maps** category
-
-  - [Ensure **Polygon Points** and **Hole Points** *invalidate map view*](https://github.com/mit-cml/appinventor-sources/commit/5395a8340112b42e168bf8442a5e1a06a0a57984)
-
-  - [Fix *mapview invalidation* when **Marker** visibility changed](https://github.com/mit-cml/appinventor-sources/commit/0e3f0ac5492892012525f997ec87c114a08688bf)
+	- [Ensured **Polygon Points** and **Hole Points** *invalidate map view*](https://github.com/mit-cml/appinventor-sources/commit/5395a8340112b42e168bf8442a5e1a06a0a57984)
+	- [Fixed *mapview invalidation* when **Marker** visibility changed](https://github.com/mit-cml/appinventor-sources/commit/0e3f0ac5492892012525f997ec87c114a08688bf)
 
 - **Storage** category
-
-  - **Firebase DB** was raising some *null pointer exceptions*
+	- **Firebase DB** was raising some *null pointer exceptions*
 
 - **Monetization** category
-
-  - **Admob** now make usage of the new [Admob Validation System](https://community.kodular.io/t/admob-approval-system/22210), which improves load time when app is not installed from Google Play Store
-
-  - **Amazon Ads** *publisher id* problem is fixed
-
-  - **Chameleon Ads** component is now *hidden*
-
-  - **Facebook Ads** components did *not load the ad* sometimes
-
-  - **Whitemobi** component is now *hidden*
+	- **Admob** now make usage of the new [Admob Validation System](https://community.kodular.io/t/admob-approval-system/22210), which improves load time when app is not installed from Google Play Store
+	- **Amazon Ads** *publisher id* problem is fixed
+	- **Chameleon Ads** component is now *hidden*
+	- **Facebook Ads** components did *not load the ad* sometimes
+	- **Whitemobi** component is now *hidden*
 
 _Other minor bugs which were not listed here have been fixed too, improving code performance_
