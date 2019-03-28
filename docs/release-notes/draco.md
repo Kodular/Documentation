@@ -552,15 +552,15 @@ _Other minor bugs which were not listed here have been fixed too, improving code
 
 ### New Methods
 
-- **Notifier** component
+- **Notifier** component  
 	- [`Show Password Dialog`](https://github.com/mit-cml/appinventor-sources/commit/d75ffca771a0198b9c7118174901f7a6be9298d4): displays a new password dialog  
 ![image|317x120](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/2X/4/457b1188c005bbe8c5bf33be630039dfdeddc137.png)
 
-- **Video Player** component
+- **Video Player** component  
 	- [`Stop`](https://github.com/mit-cml/appinventor-sources/commit/b2d4a63c3db4a652c173a381ab52191eaa88f5d3): stops the currently playing video  
 ![image|224x52](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/2X/5/54f1af41e066f820fae0e117a76e48818100b93a.png)
 
-- **Clock** component
+- **Clock** component  
 	- [`Make Date`](https://github.com/mit-cml/appinventor-sources/commit/294905feb31ce8f2bd29b5950ac2b328646da35a): returns a formatted date from the given inputs  
 ![image|239x110](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/2X/3/39166d72bf94b19759f9e7053d69f9cf7754ade5.png)
 &nbsp;
@@ -572,7 +572,7 @@ _Other minor bugs which were not listed here have been fixed too, improving code
 
 ### New Properties
 
-- **Button** component
+- **Button** component  
 	- `HTML Format | Advanced`: enables the HTML formatting of Buttons' text  
 ![image|277x66](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/2X/e/e79406b2d2c6414fee47d155db53edf7472eee65.png)
 
