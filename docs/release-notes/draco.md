@@ -601,7 +601,7 @@ _Other minor bugs which were not listed here have been fixed too, improving code
 	- **Chameleon Ads** component is now *hidden*
 
 	- **Facebook Ads** components did *not load the ad* sometimes
-	
+
 	- **Whitemobi** component is now *hidden*
 
 _Other minor bugs which were not listed here have been fixed too, improving code performance_
