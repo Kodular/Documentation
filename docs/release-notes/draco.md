@@ -553,11 +553,11 @@ _Other minor bugs which were not listed here have been fixed too, improving code
 ### New Methods
 
 - **Notifier** component
-  - [`Show Password Dialog`](https://github.com/mit-cml/appinventor-sources/commit/d75ffca771a0198b9c7118174901f7a6be9298d4): displays a new password dialog  
+	- [`Show Password Dialog`](https://github.com/mit-cml/appinventor-sources/commit/d75ffca771a0198b9c7118174901f7a6be9298d4): displays a new password dialog  
 ![image|317x120](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/2X/4/457b1188c005bbe8c5bf33be630039dfdeddc137.png)
 
 - **Video Player** component
-  - [`Stop`](https://github.com/mit-cml/appinventor-sources/commit/b2d4a63c3db4a652c173a381ab52191eaa88f5d3): stops the currently playing video  
+	- [`Stop`](https://github.com/mit-cml/appinventor-sources/commit/b2d4a63c3db4a652c173a381ab52191eaa88f5d3): stops the currently playing video  
 ![image|224x52](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/2X/5/54f1af41e066f820fae0e117a76e48818100b93a.png)
 
 - **Clock** component
@@ -579,20 +579,29 @@ _Other minor bugs which were not listed here have been fixed too, improving code
 ### Bugs Fixed
 
 - **User Interface** category
+
 	- **Notifier** dialogs button text now use *accent color*
 
 - **Maps** category
+
 	- [Ensured **Polygon Points** and **Hole Points** *invalidate map view*](https://github.com/mit-cml/appinventor-sources/commit/5395a8340112b42e168bf8442a5e1a06a0a57984)
+
 	- [Fixed *mapview invalidation* when **Marker** visibility changed](https://github.com/mit-cml/appinventor-sources/commit/0e3f0ac5492892012525f997ec87c114a08688bf)
 
 - **Storage** category
+
 	- **Firebase DB** was raising some *null pointer exceptions*
 
 - **Monetization** category
+
 	- **Admob** now make usage of the new [Admob Validation System](https://community.kodular.io/t/admob-approval-system/22210), which improves load time when app is not installed from Google Play Store
+
 	- **Amazon Ads** *publisher id* problem is fixed
+
 	- **Chameleon Ads** component is now *hidden*
+
 	- **Facebook Ads** components did *not load the ad* sometimes
+	
 	- **Whitemobi** component is now *hidden*
 
 _Other minor bugs which were not listed here have been fixed too, improving code performance_
