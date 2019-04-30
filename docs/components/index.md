@@ -1,4 +1,4 @@
-# Overview <small> of components </small>
+# Overview <small> of Components</small>
 
 Components are the basic building blocks of your app. The behaviour and look are of your apps are
 customised with components.

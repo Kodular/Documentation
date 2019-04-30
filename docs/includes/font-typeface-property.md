@@ -1,5 +1,8 @@
 ### Font Typeface
-_**\(** Setter only **\) \(** Designer Only **\)**  
+
+![](/assets/images/includes/d_font-typeface.png)
+
+_**\(** Setter only | Designer**\)**  
 `Type: Text`_
 
 The [font family](https://en.wikipedia.org/wiki/Typeface) of the text displayed.

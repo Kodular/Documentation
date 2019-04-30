@@ -8,7 +8,7 @@ A **determinate progress bar** is used to indicate the progress of an task whose
 A **indeterminate progress bar** is used in situations where the extent of the task is unknown  or the progress of the task cannot be determined in a way that could be expressed as a percentage, for example, when a request to a server is being processed where we don't know the exact value of progress, but there is a need to indicate to the user that the task is in progress.
 
 <br><br>
-![Linear Progressbar](/assets/images/components/user-interface/linear-progressbar/preview.gif){: class="preview-img" }
+![Linear Progressbar](/assets/images/components/user-interface/linear-progressbar/preview.gif){: class="preview-img"}
 
 
 A determinate progressbar fills from 0% to 100%.  
@@ -35,7 +35,6 @@ Options              | []()
 -------------------- | ------------
 `true `              | The progressbar is in **indeterminate** mode.
 `false `             | The progressbar is in **determinate** mode.
-
 
 
 ### Indeterminate Color
@@ -85,9 +84,12 @@ _**\(** Getter + Setter | Blocks**\)**
 
 The current progress value of the progress bar in **determinate** mode (i.e when the  [_Indeterminate_](#indeterminate) property is set to _false_). When using _Getter_, returns 0 if **Indeterminate** is set to _true_
 
+
 {!includes/visible-property.md!}
 
+
 {!includes/width-property.md!}
+
 
 
 ## Methods
@@ -97,10 +99,9 @@ The current progress value of the progress bar in **determinate** mode (i.e when
 
 ![](/assets/images/components/user-interface/linear-progressbar/m_increment-progress-by.png)
 
-_**\(** Number value **\)**_
+_**\(** Number `value` **\)**_
 
 Increases the value progress by the given value.
-
 
 Params               |  []()       
 -------------------- | ------- 
@@ -113,7 +114,7 @@ Params               |  []()
 
 ![](/assets/images/components/user-interface/linear-progressbar/e_progress-changed.png)
 
-_**\(** Number progress **\)**_
+_**\(** Number `progress` **\)**_
 
 Indicates that the value of the progress bar has changed.
 

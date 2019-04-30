@@ -1,9 +1,11 @@
-### Enabled  
+### Enabled
+
+![](/assets/images/includes/d_enabled.png) ![](/assets/images/includes/p_enabled.png)
+
 _**\(** Getter + Setter **\)**  
 `Type: Boolean`_ 
 
-Determines whether the **{{ page.title }}** is enabled or not. A disabled component does not execute
-any of the [Events](#events). It does not respond to any interactions with it by the user.
+Determines whether the **{{ page.title }}** is enabled or not. A disabled component does not execute any of the [Events](#events). It does not respond to any interactions with it by the user.
 
 Options              | []()
 -------------------- | ------------

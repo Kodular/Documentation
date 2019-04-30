@@ -23,6 +23,7 @@ extra:
       link: https://facebook.com/Makeroid
     - type: github
       link: https://github.com/Makeroid
+  adsense: "ca-pub-9439286719204795"
 
 # Material theme for MkDocs : https://github.com/squidfunk/mkdocs-material/
 theme:
@@ -37,8 +38,7 @@ theme:
   font:
     text: Roboto
     code: Roboto Mono
-  static_templates:
-    - 404.html
+  custom_dir: makeroid_theme/
 
 extra_css:
   - assets/css/extra.css
@@ -49,6 +49,7 @@ extra_javascript:
 
 plugins:
   - search
+  - replace
   
 #Markdown extensions: https://python-markdown.github.io/extensions/
 markdown_extensions:
@@ -87,10 +88,14 @@ nav:
       - Overview: extensions/index.md
       - Create Extensions: extensions/create-extensions.md
     - Other:
+      - Overview: other/index.md
       - Resources:
         - Overview: other/resources/index.md
         - Concept Cards: other/resources/concept-cards.md
-      - Release Notes: other/release-notes/index.md
+      - Release Notes:
+        - Overview: other/release-notes/index.md
+        - Andromeda: other/release-notes/andromeda.md
+        - Butterfly: other/release-notes/butterfly.md
       - Backpack: other/backpack.md
       - Terms of Service: other/terms-of-service.md
   - Components:

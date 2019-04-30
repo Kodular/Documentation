@@ -8,7 +8,7 @@ _**\(** Getter + Setter **\)**
 The width with which the **{{ page.title }}** is displayed.
 
 
-### WidthPercent
+### Width Percent
 
 ![](/assets/images/includes/p_width-percent.png)
 

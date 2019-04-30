@@ -1,4 +1,7 @@
 ### Font Italic
+
+![](/assets/images/includes/d_font-italic.png) ![](/assets/images/includes/p_font-italic.png)
+
 _**\(** Getter + Setter **\)**  
 `Type: Boolean`_
 

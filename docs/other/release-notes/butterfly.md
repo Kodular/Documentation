@@ -148,3 +148,172 @@ _The "major changes" of this update are the bunch of new components_
 - **Textbox** component
     - `Cursor Visible`  
     ![image](https://community.makeroid.io/uploads/default/original/2X/7/7482940888ab2ab79ac65ecc3b336e27a741c304.png)
+
+## 1.1.1 Butterfly   \|   _23 August 2018_
+
+### **UI Changes**
+
+- Fixed **_Ads Position_** after _Build Error_
+- Switched "**_Show Navigation Bar_**" to _Experimental Properties_
+
+### **Improvements**
+
+- _Performance_ on **_App Loading_**
+- When receiving a **_PushNotification_** when _app is open_, a **_Dialog_** with the notification appears
+
+### **New Features**
+
+- Added "**_Background Color_**" property for _Side Menu Layout_ component
+- Added "**_Show Tabs_**" property for _View Pager_ component
+- Added "**_Get Icon_**" properties for _Floating Action Button_ component
+
+### **Bugs Fixed**
+
+- **_Push Notifications_** on _Android 8 Oreo_ (`were not working`)
+- **_Open Side Menu_** from _Hamburguer Icon_ (`was not opening`)
+- **_Screen Title Visible_** if Screen is _Scrollable_ (`was not working properly`)
+- **_Spreadsheet_** if request had _more than 100 rows_ (`was returning error`)
+- **_Security Issue_** on _Login Page_ (`critical bug could cause system failure`)
+- **_Internal Error_** when using an _AdBlocker_ (`Ode did not process properly`)
+- **_Dim Amount_** on _Notifier_ (`was missing a defualt value`)
+- **_Date Picker_** not _properly upgraded_ (`projects could be broken`)
+- **_Time Picker_** not _properly upgraded_ (`projects could be broken`)
+- **_Consent Dialog_**  not _properly executed_ (`sometimes was not showing`)
+- **_View Pager_** visibility _Shadow Bug_ (`was not rendering properly`)
+- **_Orientation Change_** Bug on _Tab Layout_ (`was broking screen`)
+- **_Orientation Change_** Bug on _View Pager_ (`was broking screen`)
+- **_Fixed Mode_** in Screen was _broken_ (`app design was broken`)
+- **_Some Links_** to Documentation in Blocks (`were pointing to wrong path`)
+- **_Other Minor Bugs_**
+- [Update AcitivityStarter for file permissions · mit-cml/appinventor-sources@f6f05ca · GitHub](https://github.com/mit-cml/appinventor-sources/commit/f6f05ca0f8a2a14a708557314c9d290b1cda8c56)
+- [Sound.java line 277 · Issue #462 · Makeroid/BugsTracker · GitHub](https://github.com/Makeroid/BugsTracker/issues/462)
+- [ViewGroup.java line 4404 · Issue #511 · Makeroid/BugsTracker · GitHub](https://github.com/Makeroid/BugsTracker/issues/511)
+
+## 1.1.2 Butterfly   \|   _15 September 2018_
+
+### UI Changes
+
+- Fixed **_Taiwan Flag_** on _Language Picker_
+- Fixed link to **_Release Notes_** in Splash Screen
+- Re-Added **_Import / Export Screen_** (.ais) files
+- Added context menu items to **_Enable / Disable All Blocks_**
+
+### Improvements
+
+- Removed [**_TitleBar Tabs Blocks_**](https://community.makeroid.io/t/removing-blocks/9382?u=barreeeiroo)
+- Fixed **_handling <kbd>Enter</kbd>_** key on _Dialogs_
+- **_Side Menu Layout_** and **_Side Menu block_** are now **_compatible with Companion_**
+_It will no longer crash_
+- Changed **_Text of Button_** from CANCEL to **_OK_** in _About this application_ Dialog
+
+### New Features
+
+- Re-Added **_High Quality Images_** property for _Screen1_
+- Added missing **_Is Companion_** return property for _Screen_
+- Added missing **_Is Side Menu Added_** return property for _Screen_
+- Added missing **_Visible_** property for _Tab Layout_ component
+- Added missing **_Visible_** property for _View Pager_ component
+- Added missing **_Align_** properties for _Card View_ component
+- Added missing **_Align_** properties for _Surface View_ component
+&nbsp;
+- Added missing **_Open System Write Settings_** function for _Screen_
+- Added missing **_Are System Write Settings Granted_** function for _Screen_
+&nbsp;
+- Added missing **_Selection_** variable in event _After Picking_ for all Pickers
+
+### Bugs Fixed
+
+- **_Several Errors_** on _Companion_ (`some properties were not properly rendered`)
+- **_TitleBar Back Button_** was not working (`it didn't handle user actions`)
+- **_Leadbolt_** component was broken (`it was not showing ads`)
+- **_Are Permissions Granted_** block was not working properly (`sometimes it was returning false even when granted`)
+- **_Screen Title_** was visible after rotation (`Screen was generated again after changing orientation`)
+- **_Screenshot_** component was crashing in some devices (`wrong procedures were called`)
+- **_Notifier_** component was throwing some NullPointerExceptions (`missing try/catch code`)
+- **_ListView_** scrolling speed (`it was too slow`)
+- **_Notification_** component was not working (`it was broken`)
+_Make sure you remove all OLD components. We have developed a new one, so you will need to add it again to your projects, as the one you are using is deprecated_
+- **_AirTable_** component with OffSet (`+100 values were not returned`)
+- **_None Color_** with _Is Card_ property in Arrangement (`Is Card was not active with that`)
+- **_Got Text_** Event of _Web Component_ (`Out of Memory Exception was raised`)
+- **_Tab Layout_** issue on selection (`Null Pointer Exception throwed sometimes`)
+- **_Is Card_** property in Arrangements (`Fill Parent was not working`)  
+_[Is card" property sizing BUG](https://community.makeroid.io/t/is-card-property-sizing-bug/9460)_
+- **_SwipeRefreshLayout_** with Scrollable Arrangements (`it was conflicting`)  
+_[Can't Scroll Vertical Scroll Arrangement Up in Swipe Refresh Layout](https://community.makeroid.io/t/cant-scroll-vertical-scroll-arrangement-up-in-swipe-refresh-layout/9765)_
+- **_TitleBar Icon Selected_** return values (`was returning image name`)  
+_[Error in Title Bar Back Button & Title Bar Icon Selected](https://community.makeroid.io/t/error-in-title-bar-back-button-title-bar-icon-selected/10093)_
+- **_Firebase_** with wrong URL (`it was crashing apps`)  
+_[Utilities.java line 39 · Issue #282 · Makeroid/BugsTracker · GitHub](https://github.com/Makeroid/BugsTracker/issues/282)_
+- **_ExoPlayer_** sending _Null Error Message_  
+_[Log.java · Issue #594 · Makeroid/BugsTracker · GitHub](https://github.com/Makeroid/BugsTracker/issues/594)_
+- **_Notifier_** component (`was throwing some errors`)  
+_[TextView.java line 672 · Issue #717 · Makeroid/BugsTracker · GitHub](https://github.com/Makeroid/BugsTracker/issues/717)_
+- **_Wallpaper_** component (`it was missing a permission`)  
+_[Missing wallpaper permission · Issue #723 · Makeroid/BugsTracker · GitHub](https://github.com/Makeroid/BugsTracker/issues/723)_
+- **_Notifier_** component (`Set Dialog Helper was not being triggered`)  
+_[Notifier.java line 1179 · Issue #966 · Makeroid/BugsTracker · GitHub](https://github.com/Makeroid/BugsTracker/issues/966)_
+- **_FillParent_** property with Scrollable parameter (`it was not working`)  
+_[Fill Parent does not work in Scrollable on Android 7+ with target SDK 26 · Issue #1344 · mit-cml/appinventor-sources · GitHub](https://github.com/mit-cml/appinventor-sources/issues/1344)_
+- **_Got Value_** event of Firebase (`it was not working as it should`)  
+_[register.yail line 10098 · Issue #1174 · Makeroid/BugsTracker · GitHub](https://github.com/Makeroid/BugsTracker/issues/1174)_
+- **_Internal Error Reporting_** was crashing sometimes in apps (`NullPointerException`)  
+_[Formatter.java line 2522 · Issue #28 · Makeroid/BugsTracker · GitHub](https://github.com/Makeroid/BugsTracker/issues/28)_
+- **_500 Internal Error_** on URLs (`accessing to /b`)  
+_[Fix a 500 Error · mit-cml/appinventor-sources@49c25e7 · GitHub](https://github.com/mit-cml/appinventor-sources/commit/49c25e75987380cd47eed11bdab55b908860b052)_
+
+## 1.1.3 Butterfly   \|   _04 October 2018_
+
+### Improvements
+
+- Added **_Subscribe to Notifications_** button in _Builder_
+
+### Companion
+
+- Fixed **_PushNotifications_** on _Companion_
+- **_SideMenu_** and **_SideMenuLayout_** are now _fully compatible_ in Companion
+
+### New Features
+
+- Added missing **_HTML Format_** property for _List View_ component  
+[_Disable Html in Listview_](https://community.makeroid.io/t/disable-html-in-listview/10377)
+- Added missing **_Statusbar Visible_** property for _List Picker_ component
+- Added missing **_CreateDirectory_** function for _File_ component
+- Added missing **_DirectoryCreated_** event for _File_ component
+
+### Bugs Fixed
+
+- **_Notifier_** component returning a strange error (`Fatal Exception: android.view.WindowManager$BadTokenException: Unable to add window -- token android.os.BinderProxy@20a73ee is not valid; is your activity running?`)
+- **_GetPackageIcon_** uses now PackageName as File Name (`before it was appIconMAK.png`)
+- **_Spotlight_** component was not working with FAB (`it was incompatible`)
+- **_ChromeCustomTabs_** were throwing NullPointerExceptions (`missing try/catch block`)
+- **_ImageTintColor_** was missing a description (`it had a copy-pasted one`)
+- **_ImageTintColor_** was crashing sometimes (`NPE were raised due to missing try/catch code`)
+- **_AirTable_** component had a security issue (`it was exposing API key in logs`)
+- **_Button_** crashing when editing multiple at once (`Concurrent Modification Exception`)
+- **_CloudDB_** was not working properly (`StringIndexOutOfBoundsException`)
+- **_PushNotifications_** were missing some permissions (`manifest was incomplete`)
+- **_Typo_** on Sprite component (`missign T`)
+- **_Typo_** on YouTube component (`stage has to be state`)
+- **_ActivityStarter_** was not opening PDFs (`missing permission`)  
+[_Getting error while accessing pdf from directory. Kindly help_](https://community.makeroid.io/t/getting-error-while-accessing-pdf-from-directory-kindly-help/10116)
+- **_Transparency Bug_** on _Button_ (`it was returning an opaque button`)  
+[Transparency not working with default shape button](https://community.makeroid.io/t/transparency-not-working-with-default-shape-button/10275)
+- **_Download_** component was not working sometimes (`it was crashing`)  
+[Download.java line 299 · Issue #1522 · Makeroid/BugsTracker · GitHub](https://github.com/Makeroid/BugsTracker/issues/1522)
+- **_Clock_** component throwing NPE (`app was unresponsive`)  
+[HashMap.java line 471 · Issue #1525 · Makeroid/BugsTracker · GitHub](https://github.com/Makeroid/BugsTracker/issues/1525)
+- **_FTP_** component crashing (`returning NPE`)  
+[MakeroidFtp.java line 233 · Issue #992 · Makeroid/BugsTracker · GitHub](https://github.com/Makeroid/BugsTracker/issues/992)
+- **_YouTube_** component causing NPE (`wrong variable reporting error`)  
+[ActivityThread.java line 3133 · Issue #1737 · Makeroid/BugsTracker · GitHub](https://github.com/Makeroid/BugsTracker/issues/1737)
+- **_VideoPlayer_** component causing NPE (`missing if check`)  
+[VideoView.java line 260 · Issue #1736 · Makeroid/BugsTracker · GitHub](https://github.com/Makeroid/BugsTracker/issues/1736)
+- **_FusionTables_** component causing the same issue as Notifier (`is your activity running?`)  
+[WindowManagerGlobal.java line 552 · Issue #1694 · Makeroid/BugsTracker · GitHub](https://github.com/Makeroid/BugsTracker/issues/1694)
+
+## 1.1.4 Butterfly   \|   _05 October 2018_
+
+### Bugs Fixed
+
+- **_ListView_** component causing a critical error (`Null Pointer Exception`)

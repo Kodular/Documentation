@@ -1,4 +1,7 @@
-### Font Bold  
+### Font Bold
+
+![](/assets/images/includes/d_font-bold.png) ![](/assets/images/includes/p_font-bold.png)
+
 _**\(** Getter + Setter **\)**  
 `Type: Boolean`_
 
