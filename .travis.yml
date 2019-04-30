@@ -7,8 +7,8 @@ script:
   - git clean -f -d -x
   - mkdocs build
 after_success:
-  - git config user.name "Makeroid Bot"
-  - git config user.email "github@makeroid.io"
-  - git remote add gh-token "https://MakeroidBuilder:${GH_TOKEN}@github.com/Makeroid/Documentation.git"
+  - git config user.name "Kodular Bot"
+  - git config user.email "github@kodular.io"
+  - git remote add gh-token "https://KodularCreator:${GH_TOKEN}@github.com/Kodular/Documentation.git"
   - git fetch gh-token && git fetch gh-token gh-pages:gh-pages;
   - mkdocs gh-deploy -v --clean --remote-name gh-token;

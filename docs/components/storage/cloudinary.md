@@ -1,0 +1,3 @@
+# Cloudinary
+
+{!includes/sip.md!}

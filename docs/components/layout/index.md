@@ -1,6 +1,6 @@
 # Overview <small> of Layout</small>
 
-* [Horizontal Arrangement](card-view.md)
+* [Card View](card-view.md)
 * [Horizontal Arrangement](horizontal-arrangement.md)
 * [Horizontal Scroll Arrangement](horizontal-scroll-arrangement.md)
 * [Side Menu Layout](side-menu-layout.md)

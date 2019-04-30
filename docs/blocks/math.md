@@ -13,7 +13,10 @@
 * [-](math.md#subtract)
 * [x](math.md#multiply)
 * [/](math.md#divide)
-* \(\#exponent\)
+* [^](math.md#exponent)
+* [bitwise and](math.md#bitwise_and)
+* [bitwise or (inclusive)](math.md#bitwise_ior)
+* [bitwise or (exclusive)](math.md#bitwise_xor)
 * [random integer](math.md#randomint)
 * [random fraction](math.md#randomfrac)
 * [random set seed to](math.md#randomseed)
@@ -39,7 +42,7 @@
 * [atan2](math.md#atan2)
 * [convert radians to degrees](math.md#convertrad)
 * [convert degrees to radians](math.md#convertdeg)
-* [format as a decimal](https://github.com/makeroid/docs/tree/6b89ce9eb8c93762fd238491325318be0e89c35f/format%20as%20a%20decimal/README.md)
+* [format as a decimal](https://github.com/Kodular/docs/tree/6b89ce9eb8c93762fd238491325318be0e89c35f/format%20as%20a%20decimal/README.md)
 * [is a number](math.md#isnumber)
 * [convert number](math.md#convertnumber)
 
@@ -146,6 +149,21 @@ Returns the result of dividing the first number by the second.
 ![](/assets/images/blocks/math/exponent.png)
 
 Returns the result of the first number raised to the power of the second.
+
+## Bitwise And {#bitwise_and}
+![](/assets/images/blocks/math/bitwise_and.png)
+
+Takes two numbers and compares each pair of bits. Each bit of the result is 1 only if the corresponding bits of both operands are 1.
+
+## Bitwise Or (Inclusive) {#bitwise_ior}
+![](/assets/images/blocks/math/bitwise_ior.png)
+
+Takes two numbers and compares each pair of bits. Each bit of the result is 1 if either of the corresponding bits in each operand is 1.
+
+## Bitwise Or (Exclusive) {#bitwise_xor}
+![](/assets/images/blocks/math/bitwise_xor.png)
+
+Takes two numbers and compares each pair of bits. Each bit of the result is 1 only if one corresponding bit in the operands is 1 and the other is 0.
 
 ## random integer {#randomint}
 

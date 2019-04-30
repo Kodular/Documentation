@@ -2,7 +2,6 @@
 
 * [Cloudinary](cloudinary.md)
 * [File](file.md)
-* [Firebase DB](firebase-db.md)
 * [Fusiontables Control](fusiontables-control.md)
 * [Spreadsheet](spreadsheet.md)
 * [SQLite](sqlite.md)

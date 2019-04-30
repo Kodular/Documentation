@@ -1,28 +1,28 @@
 # Site Config
-site_name: Makeroid Docs
-site_description: Makeroid Documentation
-site_author: Makeroid
-site_url: https://docs.makeroid.io/
+site_name: Kodular Docs
+site_description: Kodular Documentation
+site_author: Kodular
+site_url: https://docs.kodular.io/
 
 # Repository
-repo_name: Makeroid Docs
-repo_url: https://github.com/Makeroid/Documentation
+repo_name: Kodular Docs
+repo_url: https://github.com/Kodular/Documentation
 edit_uri: blob/master/docs/
 
 #Copyright text in the footer
-copyright: Copyright &copy; 2018 Makeroid
+copyright: Copyright &copy; 2019 Kodular
 
 # Customization
 extra:
   social:
     - type: globe
-      link: https://www.makeroid.io
+      link: https://www.kodular.io
     - type: twitter
-      link: https://twitter.com/Makeroid
+      link: https://twitter.com/KodularIO
     - type: facebook
-      link: https://facebook.com/Makeroid
+      link: https://facebook.com/Kodular
     - type: github
-      link: https://github.com/Makeroid
+      link: https://github.com/Kodular
   adsense: "ca-pub-9439286719204795"
 
 # Material theme for MkDocs : https://github.com/squidfunk/mkdocs-material/
@@ -50,7 +50,8 @@ extra_javascript:
 plugins:
   - search
   - replace
-  
+# - jekyll-redirect-from
+
 #Markdown extensions: https://python-markdown.github.io/extensions/
 markdown_extensions:
   - markdown.extensions.admonition
@@ -75,36 +76,38 @@ markdown_extensions:
      custom_checkbox: true
   #- pymdownx.tilde
 
-
 # Site navigation in the side bar
 nav:
-  - Getting Started:
+  - Home:
     - Overview: index.md
+    - Pricing: pricing.md
+    - Release Notes:
+      - Overview: release-notes/index.md
+      - Andromeda: release-notes/andromeda.md
+      - Butterfly: release-notes/butterfly.md
+      - Chamaeleon: release-notes/chamaeleon.md
+      - Draco: release-notes/draco.md
+    - Terms of Service: terms-of-service.md
+  - Guides:
+    - Understanding Kodular: guides/index.md
+    - Hello World: guides/hello-world.md
+    - Backpack: guides/backpack.md
+    - Concept Cards: guides/concept-cards.md
     - Live Development:
-      - Overview: live-development/index.md
-      - Via WiFi: live-development/wifi.md
-      - Via USB: live-development/usb.md
+      - Overview: guides/live-development/index.md
+      - Via WiFi: guides/live-development/wifi.md
+      - Via USB: guides/live-development/usb.md
     - Extensions:
-      - Overview: extensions/index.md
-      - Create Extensions: extensions/create-extensions.md
-    - Other:
-      - Overview: other/index.md
-      - Resources:
-        - Overview: other/resources/index.md
-        - Concept Cards: other/resources/concept-cards.md
-      - Release Notes:
-        - Overview: other/release-notes/index.md
-        - Andromeda: other/release-notes/andromeda.md
-        - Butterfly: other/release-notes/butterfly.md
-      - Backpack: other/backpack.md
-      - Terms of Service: other/terms-of-service.md
+      - Create Extensions: guides/extensions/create-extensions.md
   - Components:
     - Overview: components/index.md
     - Screen: components/screen.md
     - User Interface:
       - Overview: components/user-interface/index.md
       - Bottom Sheet: components/user-interface/bottom-sheet.md
+      - Bottom Navigation: components/user-interface/bottom-navigation.md
       - Button: components/user-interface/button.md
+      - Chat View: components/user-interface/chat-view.md
       - Checkbox: components/user-interface/checkbox.md
       - Circular Progress: components/user-interface/circular-progress.md
       - Date Picker: components/user-interface/date-picker.md
@@ -131,7 +134,7 @@ nav:
       - Web Viewer: components/user-interface/web-viewer.md
     - Layout:
       - Overview: components/layout/index.md
-      - Horizontal Arrangement: components/layout/card-view.md
+      - Card View: components/layout/card-view.md
       - Horizontal Arrangement: components/layout/horizontal-arrangement.md
       - Horizontal Scroll Arrangement: components/layout/horizontal-scroll-arrangement.md
       - Side Menu Layout: components/layout/side-menu-layout.md
@@ -167,6 +170,7 @@ nav:
       - Canvas: components/drawing-and-animation/canvas.md
       - Image Editor: components/drawing-and-animation/image-editor.md
       - Image Sprite: components/drawing-and-animation/image-sprite.md
+      - Lottie: components/drawing-and-animation/lottie.md
     - Maps:
       - Overview: components/maps/index.md
       - Circle: components/maps/circle.md
@@ -198,7 +202,6 @@ nav:
       - Overview: components/social/index.md
       - Contact Picker: components/social/contact-picker.md
       - Email Picker: components/social/email-picker.md
-      - Google Account Picker: components/social/google-account-picker.md
       - Phone Call: components/social/phone-call.md
       - Phone Number Picker: components/social/phone-number-picker.md
       - Sharing: components/social/sharing.md
@@ -207,20 +210,24 @@ nav:
     - Storage:
       - Overview: components/storage/index.md
       - Cloudinary: components/storage/cloudinary.md
+      - Cryptography: components/storage/cryptography.md
       - File: components/storage/file.md
-      - Firebase DB: components/storage/firebase-db.md
       - Fusiontables Control: components/storage/fusiontables-control.md
       - Spreadsheet: components/storage/spreadsheet.md
       - SQLite: components/storage/sqlite.md
       - Tiny DB: components/storage/tiny-db.md
       - Tiny Web DB: components/storage/tiny-web-db.md
-    - Device:
-      - Overview: components/device/index.md
-      - Audio: components/device/audio.md
-      - Device Tools: components/device/device-tools.md
-      - Package: components/device/package.md
-      - Screenshot: components/device/screenshot.md
-      - Wallpaper: components/device/wallpaper.md
+    - Utilities:
+      - Overview: components/utilities/index.md
+      - Audio: components/utilities/audio.md
+      - Device Tools: components/utilities/device-tools.md
+      - Package: components/utilities/package.md
+      - Screenshot: components/utilities/screenshot.md
+      - Wallpaper: components/dutilities/wallpaper.md
+      - Color Utilities: components/utilities/color-utilities.md
+      - Cryptography: components/utilities/cryptography.md
+      - Resource Utilities: components/utilities/resource-utilities.md
+      - Image Utilities: components/utilities/image-utilities.md
     - Dynamic Components:
       - Overview: components/dynamic/index.md
       - Dynamic Button: components/dynamic/dynamic-button.md
@@ -240,6 +247,9 @@ nav:
       - WiFi: components/connectivity/wifi.md
     - Google:
       - Overview: components/google/index.md
+      - Firebase Authentication: components/google/firebase-authentication.md
+      - Firebase Database: components/google/firebase-database.md
+      - Firebase Remote Config: components/google/firebase-remote-config.md
       - Google Account Picker: components/google/google-account-picker.md
       - Google Maps: components/google/google-maps.md
     - Monetization:
@@ -249,6 +259,7 @@ nav:
       - AdMob Rewarded Video: components/monetization/admob-rewardedvideo.md
       - Amazon Banner: components/monetization/amazon-banner.md
       - Amazon Interstitial: components/monetization/amazon-interstitial.md
+      - Chameleon Ad: components/monetization/chameleon-ad.md
       - Facebook Banner: components/monetization/facebook-banner.md
       - Facebook Interstitial: components/monetization/facebook-interstitial.md
       - In App Billing: components/monetization/in-app-billing.md
@@ -290,7 +301,6 @@ nav:
     - Variables: blocks/variables.md
     - Procedures: blocks/procedures.md
     - Any Component: blocks/any-component.md
-
 
 
 # Google Analyitcs

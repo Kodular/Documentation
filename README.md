@@ -1,11 +1,11 @@
-[![Website](https://img.shields.io/website-up-down-green-red/http/shields.io.svg?label=docs.makeroid.io&style=for-the-badge)](https://docs.makeroid.io) [![Travis (.com)](https://img.shields.io/travis/com/Makeroid/Documentation.svg?style=for-the-badge&logo=travis)](https://travis-ci.com/Makeroid/Documentation) [![Requires.io](https://img.shields.io/requires/github/Makeroid/Documentation.svg?style=for-the-badge)](https://github.com/Makeroid/Documentation/blob/master/requirements.txt) [![Codacy grade](https://img.shields.io/codacy/grade/23f3670699814e039eb585df4c60bb76.svg?style=for-the-badge)](https://github.com/Makeroid/Documentation)
+[![Website](https://img.shields.io/website-up-down-green-red/http/shields.io.svg?label=docs.kodular.io&style=for-the-badge)](https://docs.kodular.io) [![Travis (.com)](https://img.shields.io/travis/com/Kodular/Documentation.svg?style=for-the-badge&logo=travis)](https://travis-ci.com/Kodular/Documentation) [![Requires.io](https://img.shields.io/requires/github/Kodular/Documentation.svg?style=for-the-badge)](https://github.com/Kodular/Documentation/blob/master/requirements.txt) [![Codacy grade](https://img.shields.io/codacy/grade/23f3670699814e039eb585df4c60bb76.svg?style=for-the-badge&logo=codacy)](https://github.com/Kodular/Documentation)
 
 ---
 
-# Makeroid Docs
+# Kodular Docs
 
 
-The documentation source for [Makeroid](https://www.makeroid.io) lives is here.
+The documentation source for [Kodular](https://www.kodular.io) lives is here.
 
 The documentation rendered using [MkDocs](https://www.mkdocs.org).
 This uses the [Material theme](https://squidfunk.github.io/mkdocs-material) for MkDocs.
@@ -15,12 +15,12 @@ This uses the [Material theme](https://squidfunk.github.io/mkdocs-material) for 
 
 2. Create a `virtualenv`
 ```
-virtualenv makeroid-docs-venv
+virtualenv kodular-docs-venv
 ```
 
 3. Activate your `virtualenv`:
-  - On Linux : `source makeroid-docs-venv/bin/activate`
-  - On Windows : `source makeroid-docs-venv/Scripts/activate`
+  - On Linux : `source kodular-docs-venv/bin/activate`
+  - On Windows : `source kodular-docs-venv/Scripts/activate`
 
 4. Install the dependencies using `pip`:
 ```
