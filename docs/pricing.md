@@ -12,7 +12,7 @@ This also extends to **Kodular Store** and **Kodular Extensions IDE**.
 ## Commissions
 
 !!! tip "Updated: 19 January 2019"
-    Due to some technical issues with Google, apps generated with Kodular Creator Versions Draco 1.3.1, 1.3B.0 and 1.3B.1 will be free of comission. We will update this page as soon as it gets fixed.
+    Due to some technical issues with Google, apps generated with Kodular Creator Versions Draco 1.3.1, 1.3B.0, 1.3B.1, 1.3B.2 and 1.3B.3 will be free of comission. We will update this page as soon as it gets fixed.
 
 However, to keep our services for free, _we take a small comission from your earnings in ads_. We do not force nobody to place ads in apps, but if you want to earn money, we take a percentage of your earnings.
 
