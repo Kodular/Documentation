@@ -697,3 +697,27 @@ _Other minor bugs which were not listed here have been fixed too, improving code
 &nbsp;
 
 ## 1.3B.4 Draco   \|   _02 May 2019_
+
+### Major Changes
+
+- Added **Hungarian** language
+
+### New Methods
+
+- **Dynamic Button** component
+	- `Delete Button`: deletes the given button from the layout  
+![image|312x97](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/8/0/807109c6a095891d7b683fd828689ef0a30d5ccc.png)
+
+### Bugs Fixed
+
+- **Layout** category
+
+	- Temporarily disabled *Full Clickable* property in **Arrangement** components
+
+- **Device** category
+
+	- Fixed *Version Code* and *Version Name* in **Package** component
+
+- **Monetization** category
+
+	- Fixed **Billing** component which was not working properly
