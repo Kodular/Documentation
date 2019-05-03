@@ -7,11 +7,11 @@
 
 ### Load Image Async
 
-![](/assets/images/components/utilities/image-utilities/m_load-image-async.png)
-
-Loads a new image from the given path to the specified component.
+![Load Image Async](/assets/images/components/utilities/image-utilities/m_load-image-async.png)
 
 _**\(** Component `component`, Text `path` **\)**_
+
+Loads a new image from the given path to the specified component.
 
 Params               |  []()       
 -------------------- | ------- 
@@ -23,4 +23,4 @@ Params               |  []()
 Below is an example of blocks for loading image asynchronous using the **Image Utilities** component.
 Note: The image can be loaded directly from the assets of the app, the device storage or from the internet.
 
-![](/assets/images/components/utilities/image-utilities/eg_image-utilites.png)
+![Example](/assets/images/components/utilities/image-utilities/eg_image-utilites.png)
