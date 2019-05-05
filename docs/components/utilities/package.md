@@ -41,7 +41,7 @@ Returns the version code of the currrent running application.
 
 _**\(** Getter only **\)**_
 
-`Type: Alphanumerical
+`Type: Alphanumerical`
 
 Returns the version name of the currrent running application.
 
