@@ -1,5 +1,6 @@
 sudo: false
 language: python
+python: "3.6"
 install:
   - easy_install distribute
   - pip install -r requirements.txt
