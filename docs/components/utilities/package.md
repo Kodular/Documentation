@@ -9,7 +9,7 @@
 
 ![App Name](/assets/images/components/utilities/package/p_app-name.png)
 
-_**\(** Getter only**\)**_
+_**\(** Getter only **\)**_
 
 `Type: Number`
 
@@ -19,7 +19,7 @@ Returns the name of the currrent running application.
 
 ![Package Name](/assets/images/components/utilities/package/p_package-name.png)
 
-_**\(** Getter only**\)**_
+_**\(** Getter only **\)**_
 
 `Type: Number`
 
@@ -29,7 +29,7 @@ Returns the package name of the currrent running application.
 
 ![Version Code](/assets/images/components/utilities/package/p_version-code.png)
 
-_**\(** Getter only**\)**_
+_**\(** Getter only **\)**_
 
 `Type: Number`
 
@@ -39,7 +39,7 @@ Returns the version code of the currrent running application.
 
 ![Version Name](/assets/images/components/utilities/package/p_version-name.png)
 
-_**\(** Getter only**\)**_
+_**\(** Getter only **\)**_
 
 `Type: Alphanumerical
 
