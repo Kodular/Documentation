@@ -9,8 +9,9 @@
 
 ![App Name](/assets/images/components/utilities/package/p_app-name.png)
 
-_**\(** Getter only**\)**  
-`Type: Text`_
+_**\(** Getter only**\)**_
+
+`Type: Number`
 
 Returns the name of the currrent running application.
 
@@ -18,8 +19,9 @@ Returns the name of the currrent running application.
 
 ![Package Name](/assets/images/components/utilities/package/p_package-name.png)
 
-_**\(** Getter only**\)**  
-`Type: Text`_
+_**\(** Getter only**\)**_
+
+`Type: Number`
 
 Returns the package name of the currrent running application.
 
@@ -27,8 +29,9 @@ Returns the package name of the currrent running application.
 
 ![Version Code](/assets/images/components/utilities/package/p_version-code.png)
 
-_**\(** Getter only**\)**  
-`Type: Number`_
+_**\(** Getter only**\)**_
+
+`Type: Number`
 
 Returns the version code of the currrent running application.
 
@@ -36,8 +39,9 @@ Returns the version code of the currrent running application.
 
 ![Version Name](/assets/images/components/utilities/package/p_version-name.png)
 
-_**\(** Getter only**\)**  
-`Type: Alphanumerical`_
+_**\(** Getter only**\)**_
+
+`Type: Alphanumerical
 
 Returns the version name of the currrent running application.
 
@@ -51,73 +55,70 @@ _**\(** Text `package Name` **\)**_
 
 Returns the name of the app from the given package name.
 
+Params               |  []()       
+-------------------- | ------- 
+`package Name`       | **Text:**  The package name of the app whose name has to be returned. For example, io.kodular.myfirstapp
+
+### Get Package Icon
+
+![Get Package Icon](/assets/images/components/user-interface/utilities/package/m_get-package-icon.png)
+
+_**\(** Text `package Name` **\)**_
+
+Returns the icon of the app from the given package name.
 
 Params               |  []()       
 -------------------- | ------- 
 `package Name`       | **Text:**  The package name of the app whose name has to be returned. For example, io.kodular.myfirstapp
 
-### App Name From
+### Is Package Installed
 
-![](/assets/images/components/user-interface/utilities/package/m_app-name-from.png)
+![Is Package Installed](/assets/images/components/user-interface/utilities/package/m_is-package-installed.png)
 
-_**\(** Text package Name **\)**_
+_**\(** Text `package Name` **\)**_
 
-Increases the value progress by the given value.
-
-
-Params               |  []()       
--------------------- | ------- 
-`value`              | **Number:**  The amount by which progress should be increased.
-### App Name From
-
-![](/assets/images/components/user-interface/utilities/package/m_app-name-from.png)
-
-_**\(** Text package Name **\)**_
-
-Increases the value progress by the given value.
-
+Returns true if the package (app) is installed.
 
 Params               |  []()       
 -------------------- | ------- 
-`value`              | **Number:**  The amount by which progress should be increased.
-### App Name From
+`package Name`       | **Text:**  The package name of the app whose name has to be returned. For example, io.kodular.myfirstapp
 
-![](/assets/images/components/user-interface/utilities/package/m_app-name-from.png)
+### Version Code From
 
-_**\(** Text package Name **\)**_
+![Version Code From](/assets/images/components/user-interface/utilities/package/m_version-code-from.png)
 
-Increases the value progress by the given value.
+_**\(** Text `package Name` **\)**_
 
-
-Params               |  []()       
--------------------- | ------- 
-`value`              | **Number:**  The amount by which progress should be increased.
-### App Name From
-
-![](/assets/images/components/user-interface/utilities/package/m_app-name-from.png)
-
-_**\(** Text package Name **\)**_
-
-Increases the value progress by the given value.
-
+Returns the version code of the app from the given package name.
 
 Params               |  []()       
 -------------------- | ------- 
-`value`              | **Number:**  The amount by which progress should be increased.
-### App Name From
+`package Name`       | **Text:**  The package name of the app whose name has to be returned. For example, io.kodular.myfirstapp
 
-![](/assets/images/components/user-interface/utilities/package/m_app-name-from.png)
+### Version Name From
 
-_**\(** Text package Name **\)**_
+![Version Name From](/assets/images/components/user-interface/utilities/package/m_version-name-from.png)
 
-Increases the value progress by the given value.
+_**\(** Text `package Name` **\)**_
 
+Returns the version name of the app from the given package name.
 
 Params               |  []()       
 -------------------- | ------- 
-`value`              | **Number:**  The amount by which progress should be increased.
+`package Name`       | **Text:**  The package name of the app whose name has to be returned. For example, io.kodular.myfirstapp
 
+### Is Permission Granted
 
+![Is Permission Granted](/assets/images/components/user-interface/utilities/package/m_is-permission-granted.png)
+
+_**\(** Text `permission Name`, Text `package Name` **\)**_
+
+Returns the version code of the app from the given package name.
+
+Params               |  []()       
+-------------------- | ------- 
+`permission Name`    | **Text:** The name of the permision that has to be checked. For example, READ_CALENDER.
+`package Name`       | **Text:**  The package name of the app whose name has to be returned. For example, io.kodular.myfirstapp
 
 
 
