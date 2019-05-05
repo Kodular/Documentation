@@ -120,6 +120,9 @@ Params               |  []()
 `permission Name`    | **Text:** The name of the permision that has to be checked. For example, READ_CALENDER.
 `package Name`       | **Text:**  The package name of the app whose name has to be returned. For example, io.kodular.myfirstapp
 
+!!! tip
+    For an overview of permission groups take a look [here](https://developer.android.com/guide/topics/permissions/overview#permission-groups).
+
 
 
 
