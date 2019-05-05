@@ -113,7 +113,7 @@ Params               |  []()
 
 _**\(** Text `permission Name`, Text `package Name` **\)**_
 
-Returns the version code of the app from the given package name.
+Checks whether a particular package (app) has been granted a particular permission.
 
 Params               |  []()       
 -------------------- | ------- 
