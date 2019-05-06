@@ -605,3 +605,119 @@ _Other minor bugs which were not listed here have been fixed too, improving code
 	- **Whitemobi** component is now *hidden*
 
 _Other minor bugs which were not listed here have been fixed too, improving code performance_
+
+&nbsp;
+
+## 1.3B.3 Draco   \|   _01 May 2019_
+
+### Major Changes
+
+- **Locale is now preserved when you leave Kodular**  
+_If you change the locale and leave Kodular, next time you visit, your language selection will be saved_
+
+### UI Changes
+
+- Added **Get Keystore SHA-1** to Keystore menu
+
+### New Events
+
+- **Maps** component
+	- `On Point Of Interest Click`: triggered when an user clicks on a point of interest like shops or monuments  
+[Google Maps component show only certain points of interest?](https://community.kodular.io/t/google-maps-component-show-only-certain-points-of-interest/24602)  
+![image|376x101](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/2/1/215b11a705d10908fa53a907c0713660f83810fe.png)  
+
+### New Methods
+
+- **Package** component
+	- `Version Code From`: returns the version code of an app  
+[\*\*Package Component In Kodular Creator\*\*](https://community.kodular.io/t/package-component-in-kodular-component/23065)  
+![image|305x63](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/5/8/58e574a460548d2307facc4227a5dd6f340fd38c.png)
+&nbsp;
+	- `Version Name From`: returns the version name of an app  
+[\*\*Package Component In Kodular Creator\*\*](https://community.kodular.io/t/package-component-in-kodular-component/23065)  
+![image|311x63](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/0/1/011e6399a1bb103444950067b021d8644a7693f0.png)
+
+- **Custom Tabs** component
+	- `Add Menu Item Open App`: adds a menu item to open an app  
+![image|377x97](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/9/8/981b2e1c60dfba4368a23ff8847de70fa43a501e.png)  
+&nbsp;  
+	- `Add Menu Item Open Page`: adds a menu item to open a new page  
+![image|381x95](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/3/3/33690b53b920aa25d6d7e7f8af268b2b41c8a53b.png)
+
+### New Properties
+
+- **Arrangement** components
+	- `Full Clickable`: sets the whole layout to handle clicks  
+[Full clickable option in normal arrangements?](https://community.kodular.io/t/full-clickable-option-in-normal-arrangements/22426)  
+![image|289x69](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/2/4/247507e876ec5f34e314b18ad64710a6f95e78a0.png)
+
+- **Listview image and Text** component
+	- `Subtitle Font Typeface Import`: sets a custom typeface for subtitles  
+[How to add different ttf in list view image and text in title](https://community.kodular.io/t/how-to-add-different-ttf-in-list-view-image-and-text-in-title/17097)  
+![image|289x71](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/9/d/9d094e284470a9008b58c58840d77eb9cd29905a.png)
+&nbsp;
+	- `Title Font Typeface Import`: sets a custom typeface for titles  
+[How to add different ttf in list view image and text in title](https://community.kodular.io/t/how-to-add-different-ttf-in-list-view-image-and-text-in-title/17097)  
+![image|281x73](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/8/e/8e06e82655b265a364d213494b3f44657c159b88.png)
+
+- **FTP** component
+	- `Port`: sets the port to use on the connection  
+[How to connect to ftp?](https://community.kodular.io/t/how-to-connect-to-ftp/21870)  
+![image|291x69](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/3/2/329f953662d407395ce43ff5efba0ae7c5313783.png)
+
+- **Custom Tabs** component
+	- `Default Share Menu Item`: uses the default share menu item of Chrome  
+![image|295x64](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/b/9/b99df00998ae7c78db890df12209957234c1b64c.png)  
+&nbsp;  
+	- `Instant Apps Enabled`: allows the usage of Instant Apps  
+![image|278x63](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/1/b/1bb8c3668afb911a1e9ad0a1d867c747e0f83fbb.png)  
+&nbsp;  
+	- `Url Bar Hiding On Scroll`: hides the URL bar when scrolling  
+![image|295x64](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/b/9/b99df00998ae7c78db890df12209957234c1b64c.png)
+
+### Bugs Fixed
+
+- **Media** category
+
+  - **Picker** components had missing permission  
+[Ask Permission Block NOT WORKING](https://community.kodular.io/t/ask-permission-block-not-working/22857)
+
+- **Connectivity** category
+
+  - **Activity Starter** was having problems with custom package names  
+[Problems with Activity Starter](https://community.kodular.io/t/problems-with-activity-starter/14039)
+
+- **Experimental** category
+
+  - **Custom Tabs** now handles more tabs in the Chrome version  
+[Chrome custom tabs problem](https://community.kodular.io/t/chrome-custom-tabs-problem/9663)
+
+_Other minor bugs which were not listed here have been fixed too, improving code performance_
+
+&nbsp;
+
+## 1.3B.4 Draco   \|   _02 May 2019_
+
+### Major Changes
+
+- Added **Hungarian** language
+
+### New Methods
+
+- **Dynamic Button** component
+	- `Delete Button`: deletes the given button from the layout  
+![image|312x97](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/8/0/807109c6a095891d7b683fd828689ef0a30d5ccc.png)
+
+### Bugs Fixed
+
+- **Layout** category
+
+	- Temporarily disabled *Full Clickable* property in **Arrangement** components
+
+- **Device** category
+
+	- Fixed *Version Code* and *Version Name* in **Package** component
+
+- **Monetization** category
+
+	- Fixed **Billing** component which was not working properly
