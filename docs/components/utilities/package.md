@@ -81,7 +81,7 @@ Returns true if the package (app) is installed.
 
 Params               |  []()       
 -------------------- | ------- 
-`package Name`       | **Text:**  The package name of the app whose name has to be returned. For example, `io.kodular.myfirstapp`
+`package Name`       | **Text:**  The package name of the app whose name has to be returned. For example, _io.kodular.myfirstapp_.
 
 ### Version Code From
 
