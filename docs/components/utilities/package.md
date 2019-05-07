@@ -57,7 +57,7 @@ Returns the name of the app from the given package name.
 
 Params               |  []()       
 -------------------- | ------- 
-`package Name`       | **Text:**  The package name of the app whose name has to be returned. For example, `io.kodular.myfirstapp`
+`package Name`       | **Text:**  The package name of the app whose name has to be returned. For example, _io.kodular.myfirstapp_.
 
 ### Get Package Icon
 
