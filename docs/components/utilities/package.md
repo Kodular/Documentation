@@ -49,7 +49,7 @@ Returns the version name of the currrent running application.
 
 ### App Name From
 
-![App Name From](/assets/images/components/user-interface/utilities/package/m_app-name-from.png)
+![App Name From](/assets/images/components/utilities/package/m_app-name-from.png)
 
 _**\(** Text `package Name` **\)**_
 
@@ -61,7 +61,7 @@ Params               |  []()
 
 ### Get Package Icon
 
-![Get Package Icon](/assets/images/components/user-interface/utilities/package/m_get-package-icon.png)
+![Get Package Icon](/assets/images/components/utilities/package/m_get-package-icon.png)
 
 _**\(** Text `package Name` **\)**_
 
@@ -73,7 +73,7 @@ Params               |  []()
 
 ### Is Package Installed
 
-![Is Package Installed](/assets/images/components/user-interface/utilities/package/m_is-package-installed.png)
+![Is Package Installed](/assets/images/components/utilities/package/m_is-package-installed.png)
 
 _**\(** Text `package Name` **\)**_
 
@@ -85,7 +85,7 @@ Params               |  []()
 
 ### Version Code From
 
-![Version Code From](/assets/images/components/user-interface/utilities/package/m_version-code-from.png)
+![Version Code From](/assets/images/components/utilities/package/m_version-code-from.png)
 
 _**\(** Text `package Name` **\)**_
 
@@ -97,7 +97,7 @@ Params               |  []()
 
 ### Version Name From
 
-![Version Name From](/assets/images/components/user-interface/utilities/package/m_version-name-from.png)
+![Version Name From](/assets/images/components/utilities/package/m_version-name-from.png)
 
 _**\(** Text `package Name` **\)**_
 
@@ -109,7 +109,7 @@ Params               |  []()
 
 ### Is Permission Granted
 
-![Is Permission Granted](/assets/images/components/user-interface/utilities/package/m_is-permission-granted.png)
+![Is Permission Granted](/assets/images/components/utilities/package/m_is-permission-granted.png)
 
 _**\(** Text `permission Name`, Text `package Name` **\)**_
 
