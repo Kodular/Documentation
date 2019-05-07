@@ -23,4 +23,4 @@ Params               |  []()
 Below is an example of blocks for loading image asynchronous using the **Image Utilities** component.
 Note: The image can be loaded directly from the assets of the app, the device storage or from the internet.
 
-![Example](/assets/images/components/utilities/image-utilities/eg_image-utilites.png)
+![Example](/assets/images/components/utilities/image-utilities/eg_image-utilities.png)
