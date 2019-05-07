@@ -15,11 +15,13 @@
 * [append to list](lists.md#append)
 * [copy list](lists.md#copy)
 * [is a list?](lists.md#isalist)
+* [reverse list](lists.md#reverse)
 * [list to csv row](lists.md#listtocsvrow)
 * [list to csv table](lists.md#listtocsvtable)
 * [list from csv row](lists.md#listfromcsvrow)
 * [list from csv table](lists.md#listfromcsvtable)
 * [lookup in pairs](lists.md#lookupinpairs)
+* [join items using separator](lists.md#joinwithseparator)
 
 > ### _Need additional help understanding lists? Check out_ [_making lists_](http://appinventor.mit.edu/explore/ai2/support/concepts/lists.html).
 
@@ -119,6 +121,12 @@ Makes a copy of a list, including copying all sublists.
 
 If\_thing\_is a list, returns true; otherwise, returns false.
 
+## reverse list {#reverse}
+
+![](/assets/images/blocks/lists/reverse.png)
+
+Reverses the order of input list and returns it as a new list.
+
 ## list to csv row {#listtocsvrow}
 
 ![](/assets/images/blocks/lists/listtocsvrow.png)
@@ -164,3 +172,9 @@ element.
 For example, if the list is \(\(a apple\) \(d dragon\) \(b boxcar\) \(cat 100\)\) then looking up 'b' will return 'boxcar'.  
 If there is no such pair in the list, then the\_lookup in pairs\_will return the notFound result. If pairs is not a list of  
 pairs, then the operation will signal an error.
+
+## join items using separator {#joinwithseparator}
+
+![](/assets/images/blocks/lists/joinwithseparator.png)
+
+Joins all elements in the specified list by the specified separator, producing text as a result.
