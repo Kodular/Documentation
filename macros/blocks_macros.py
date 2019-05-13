@@ -7,21 +7,39 @@ import mdx_macros
 import urllib.parse
 import json
 
-class PropertyBlockMacro(mdx_macros.BaseMacro):
+class PropertyBlockSetterMacro(mdx_macros.BaseMacro):
     """
-    Returns the <div> containing information about a property block.
+    Returns the <div> containing information about a Setter Property Block.
     Usage:
-        - `[[PropertyBlock('Button', 'Visible', False)]]` - for a setter property
-        - `[[PropertyBlock('Button', 'Visible', True)]]` - for a getter property
+        - `[[PropertyBlockSetter('Button', 'Visible', False)]]` - for a setter property
 
     """
-    name = 'Property Block macro'
-    key  = 'PropertyBlock'
+    name = 'Setter Property Block macro'
+    key  = 'PropertyBlockSetter'
 
-    def handler(self, component_name, property_name, is_getter=False, *args, **kwargs):
+    def handler(self, component_name, property_name, *args, **kwargs):
 
         div = '<div class="block" ai2-block="property" not-rendered="true" value="{value}"></div>'
-        value_dict = {"componentName": component_name,  "name": property_name, "getter": is_getter}
+        value_dict = {"componentName": component_name,  "name": property_name, "getter": False}
+        value_str = json.dumps(value_dict)
+        quoted = urllib.parse.quote(value_str, safe='~@#$&()*!+=:;,.?/\''); # equivalent of encodeURI in JS
+
+        return div.format(value=quoted)
+
+class PropertyBlockGetterMacro(mdx_macros.BaseMacro):
+    """
+    Returns the <div> containing information about a getter property block.
+    Usage:
+        - `[[PropertyBlockGetter('Button', 'Visible']]` - for a property
+    """
+
+    name = 'Getter Property Block macro'
+    key  = 'PropertyBlockGetter'
+
+    def handler(self, component_name, property_name, *args, **kwargs):
+
+        div = '<div class="block" ai2-block="property" not-rendered="true" value="{value}"></div>'
+        value_dict = {"componentName": component_name,  "name": property_name, "getter": True}
         value_str = json.dumps(value_dict)
         quoted = urllib.parse.quote(value_str, safe='~@#$&()*!+=:;,.?/\''); # equivalent of encodeURI in JS
 
@@ -38,9 +56,10 @@ class PropertyBlockGetAndSetMacro(mdx_macros.BaseMacro):
     key  = 'PropertyBlockGetterAndSetter'
 
     def handler(self, component_name, property_name, *args, **kwargs):
-        pbm = PropertyBlockMacro(False, {}) # Dummy Macro
-        getter = pbm.handler(component_name, property_name, True)
-        setter = pbm.handler(component_name, property_name, False)
+        pbgm = PropertyBlockGetterMacro(False, {}) # Dummy Macro
+        pbsm = PropertyBlockSetterMacro(False, {}) # Dummy Macro
+        getter = pbgm.handler(component_name, property_name)
+        setter = pbsm.handler(component_name, property_name)
 
         # Extra <div> has been added to maintain a correct XML structure, because the markdown-macros parses the returned
         # string as XML
