@@ -80,7 +80,8 @@ markdown_extensions:
       macros:
         # If you get any error about module import here,
         # you need to add this directory to the PYTHONPATH enviroment variable
-        - !!python/name:macros.blocks_macros.PropertyBlockMacro
+        - !!python/name:macros.blocks_macros.PropertyBlockSetterMacro
+        - !!python/name:macros.blocks_macros.PropertyBlockGetterMacro
         - !!python/name:macros.blocks_macros.PropertyBlockGetAndSetMacro
 
 # Site navigation in the side bar
