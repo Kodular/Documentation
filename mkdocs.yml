@@ -76,6 +76,12 @@ markdown_extensions:
   - pymdownx.tasklist:
      custom_checkbox: true
   #- pymdownx.tilde
+  - mdx_macros:
+      macros:
+        # If you get any error about module import here,
+        # you need to add this directory to the PYTHONPATH enviroment variable
+        - !!python/name:macros.blocks_macros.PropertyBlockMacro
+        - !!python/name:macros.blocks_macros.PropertyBlockGetAndSetMacro
 
 # Site navigation in the side bar
 nav:
