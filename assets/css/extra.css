@@ -181,4 +181,7 @@ tr td:nth-child(1) {
       width: 100%;
     }
   }
-  
+
+.block {
+  margin: 10px;
+}
