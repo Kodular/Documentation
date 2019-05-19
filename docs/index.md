@@ -39,4 +39,4 @@ Using the Status Page you can check which services' of Kodular is working or in 
 ## Quick Start
 Watch a quick tutorial below to learn more about developing an app with Kodular.
 
-![YOUTUBE](_bZj-LOXdH8)
+![YOUTUBE](iK-J6U12NQc)

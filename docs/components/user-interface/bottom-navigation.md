@@ -49,6 +49,8 @@ The structure of Bottom Navigation menu item
 _**\(** Getter + Setter **\)**    
 `Type: Color`_
 
+[[PropertyBlockGetterAndSetter('BottomNavigation', 'Background Color')]]
+
 The background color of the **Bottom Navigation Menu**.
 
 
@@ -57,10 +59,14 @@ The background color of the **Bottom Navigation Menu**.
 _**\(** Getter + Setter **\)**    
 `Type: Color`_
 
+[[PropertyBlockGetterAndSetter('BottomNavigation', 'Selected Color')]]
+
 The color of the selected item of the **Bottom Navigation Menu**.
 
 
 ### Unselected Color
+
+[[PropertyBlockGetterAndSetter('BottomNavigation', 'Unselected Color')]]
 
 _**\(** Getter + Setter **\)**    
 `Type: Color`_

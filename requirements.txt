@@ -1,7 +1,7 @@
 mkdocs
 mkdocs-material
 markdown-include
-markdown-macros
 pymdown-extensions
 pygments
 -e git://github.com/Barreeeiroo/mkdocs-replace-plugin.git#egg=replace
+git+https://github.com/wnielson/markdown-macros.git
