@@ -6,6 +6,6 @@
 * [Device Tools](device-tools.md)
 * [Image Utilities](image-utilities.md)
 * [Package](package.md)
-* [Resource Utilities](resourse-utilities.md)
+* [Resource Utilities](resource-utilities.md)
 * [Screenshot](screenshot.md)
 * [Wallpaper](wallpaper.md)

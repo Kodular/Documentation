@@ -125,6 +125,7 @@ nav:
       - Snackbar: components/user-interface/snackbar.md
       - Spinner: components/user-interface/spinner.md
       - Spotlight: components/user-interface/spotlight.md
+      - State Progress Bar: components/user-interface/state-progress-bar.md
       - Switch: components/user-interface/switch.md
       - Tab Layout: components/user-interface/tab-layout.md
       - TextBox: components/user-interface/textbox.md
@@ -220,14 +221,13 @@ nav:
     - Utilities:
       - Overview: components/utilities/index.md
       - Audio: components/utilities/audio.md
-      - Device Tools: components/utilities/device-tools.md
-      - Package: components/utilities/package.md
-      - Screenshot: components/utilities/screenshot.md
-      - Wallpaper: components/dutilities/wallpaper.md
       - Color Utilities: components/utilities/color-utilities.md
-      - Cryptography: components/utilities/cryptography.md
-      - Resource Utilities: components/utilities/resource-utilities.md
+      - Device Tools: components/utilities/device-tools.md
       - Image Utilities: components/utilities/image-utilities.md
+      - Package: components/utilities/package.md
+      - Resource Utilities: components/utilities/resource-utilities.md
+      - Screenshot: components/utilities/screenshot.md
+      - Wallpaper: components/utilities/wallpaper.md
     - Dynamic Components:
       - Overview: components/dynamic/index.md
       - Dynamic Button: components/dynamic/dynamic-button.md
