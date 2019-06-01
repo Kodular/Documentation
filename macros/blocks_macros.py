@@ -64,3 +64,26 @@ class PropertyBlockGetAndSetMacro(mdx_macros.BaseMacro):
         # Extra <div> has been added to maintain a correct XML structure, because the markdown-macros parses the returned
         # string as XML
         return '<div>' + setter + '\n'+ getter + '</div>'
+
+
+class EventBlockMacro(mdx_macros.BaseMacro):
+    """
+    Returns the <div> containing information about a Component Event Block.
+    Usage:
+        Add the parameters of an event to the end of the macro call.
+        - `[[Event('Button', 'On Click')]]` - for an event without parameters.
+        - `[[Event('BottomNavigation', 'Item Selected', 'id', 'title')]]` - for an event with parameters.
+    """
+
+    name = 'Event Block macro'
+    key  = 'Event'
+
+    def handler(self, component_name, event_name, *params, **kwargs):
+
+        div = '<div class="block" ai2-block="event" not-rendered="true" value="{value}"></div>'
+        value_dict = {"componentName": component_name,  "name": event_name, "param": params}
+
+        value_str = json.dumps(value_dict)
+        quoted = urllib.parse.quote(value_str, safe='~@#$&()*!+=:;,.?/\''); # equivalent of encodeURI in JS
+
+        return div.format(value=quoted)
