@@ -732,7 +732,7 @@ _Other minor bugs which were not listed here have been fixed too, improving code
 
 ### Major Changes
 
-- We now take commission from all ad components by using [this system](https://community.kodular.io/t/draft-new-commissions-system/27394/)
+- We now take commission from all ad components by using [this system](https://community.kodular.io/t/new-commissions-system/27418)
 
 ### New Components
 
