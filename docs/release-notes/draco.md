@@ -721,3 +721,27 @@ _Other minor bugs which were not listed here have been fixed too, improving code
 - **Monetization** category
 
 	- Fixed **Billing** component which was not working properly
+
+&nbsp;
+
+## 1.3C.0 Draco   \|   _05 June 2019_
+
+# Version 1.3C.0
+
+---
+
+### Major Changes
+
+- We now take commission from all ad components by using [this system](https://community.kodular.io/t/draft-new-commissions-system/27394/)
+
+### New Components
+
+- Added new **StartApp Banner** component to *Monetization* category  
+![image|241x121](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/a/a/aa8db8c2ece4c9bb81328366f02698ee969b497f.png)
+
+- Added new **Unity Ads** component to *Monetization* category  
+![image|238x120](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/7/6/76ca176249cfa8bec1d6b7b5ed585908819a3da7.png)
+
+### Bugs Fixed
+
+- Fixed **critical security issue** regarding projects storage
