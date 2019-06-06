@@ -726,10 +726,6 @@ _Other minor bugs which were not listed here have been fixed too, improving code
 
 ## 1.3C.0 Draco   \|   _05 June 2019_
 
-# Version 1.3C.0
-
----
-
 ### Major Changes
 
 - We now take commission from all Interstitial Ad components by using [this system](https://community.kodular.io/t/new-commissions-system/27418)
@@ -745,3 +741,13 @@ _Other minor bugs which were not listed here have been fixed too, improving code
 ### Bugs Fixed
 
 - Fixed **critical security issue** regarding projects storage
+
+&nbsp;
+
+## 1.3C.1 Draco   \|   _06 June 2019_
+
+### Bugs Fixed
+
+- Fixed little issue in **Admob Interstitial**
+
+- **Unity Ads** was not checking if ad was approved
