@@ -31,3 +31,12 @@ pip install -r requirements.txt
 ```
 mkdocs serve
 ```
+
+If you run into this error,
+```
+  MkDocs encountered as error parsing the configuration file: while constructing a Python object
+  cannot find module 'macros.blocks_macros' (No module named 'macros.blocks_macros')
+  in "/media/ghostfox/NewVolume1/documentation/mkdocs.yml", line 83, column 11
+```
+then make sure that the root directory of the repo is present in the PYTHONPATH 
+`$ export PYTHONPATH=$PYTHONPATH:$PWD` (replace $PWD with the root directory of the repo)
