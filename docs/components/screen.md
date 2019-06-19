@@ -37,7 +37,6 @@ _**\(** Getter + Setter **\)**
 The backaground color of the "About this application" dialog.
 
 
-
 ### About Screen Light Theme
 
 _**\(** Getter + Setter **\)**    
@@ -62,7 +61,7 @@ _**\(** Getter + Setter **\)**
 
 The horizontal alignment of the contents of the **Screen**.  
 
-!!! tip 
+!!! tip
     _Use the numbers to set or change the alignment thorugh the Blocks_
 
 Options              | []()
@@ -72,7 +71,6 @@ Options              | []()
 3: `Right`           | Horizontally right align the contents.
 
 
-
 ### Align Vertical
 
 _**\(** Getter + Setter **\)**    
@@ -80,7 +78,7 @@ _**\(** Getter + Setter **\)**
 
 The vertical alignment of the contents of the **Screen**.  
 
-!!! tip 
+!!! tip
     _Use the numbers to set or change the alignment thorugh the Blocks_
 
 Options              | []()
@@ -131,13 +129,12 @@ _**\(** Getter only **\)**  **\(** Blocks only **\)**
 The screen height of the device on the which the app is being run on.
 
 
-### High Quality
+### High Quality Images
 
 _**\(** Getter + Setter **\)**    
 `Type: Boolean`_
 
-Determines whether the images should be loaded in High Quality or whether there can be intenal optimizations to 
-render the images.  
+Determines whether the images should be loaded in High Quality or whether there can be intenal optimizations to render the images.  
 If set to `True`, then it images are loaded as High Quality, if set to `False`, it isn't so.
 
 !!! note
@@ -150,12 +147,12 @@ If set to `True`, then it images are loaded as High Quality, if set to `False`, 
 _**\(** Getter only **\)**  **\(** Blocks only **\)**   
 `Type: Boolean`_
 
-Whether the app is in development mode, i.e whether it is being run on the Kodular Companion or is it being run as 
-a standalone app installed through the  exported APK.
+Whether the app is in development mode, i.e whether it is being run on the Kodular Companion or is it being run as a standalone app installed through the exported APK.
 `True` - Is run on Companion, `False` - Standalone app
 
 This property is used to check and perform the same task that might be different in a Companion and on an APK.
 (For example, for setting the `Assets` path for various properties.)
+
 
 ### Is Side Menu Added
 
@@ -179,7 +176,6 @@ Gives the info whether the Side Menu is currently open or not.
 * `False` - Side menu is closed.
 
 
-
 ### Keep Screen On
 
 _**\(** Getter + Setter **\)**    
@@ -196,8 +192,7 @@ _**\(** Getter + Setter **\)**
 The color of the Navigation Bar(the one at the bottom of the screen with the Back, Home buttons).
 
 !!! caution "Min Android Version"
-    This will work on devices with Android 5.0 - Lollipop or newer versions. 
-
+    This will work on devices with Android 5.0 - Lollipop or newer versions.
 
 
 ### Navigation Bar Light Icons
@@ -208,8 +203,7 @@ _**\(** Getter + Setter **\)**  **\(** Blocks only **\)**
 This option tells the system to use dark navigation bar icons, useful for lighter colored navigation bars. Works only for devices with API >= 26.
 
 
-
-### OpenScreenAnimation
+### Open Screen Animation
 
 _**\(** Getter + Setter **\)**    
 `Type: Text`_
@@ -217,14 +211,12 @@ _**\(** Getter + Setter **\)**
 The animation for switching to another screen. Valid options are default, fade, zoom, slidehorizontal, slidevertical, and none
 
 
-
-### ScreenOrientation
+### Screen Orientation
 
 _**\(** Getter + Setter **\)**    
 `Type: Text`_
 
 The requested screen orientation, specified as a text value.  Commonly used values are landscape, portrait, sensor, user and unspecified.  See the Android developer documentation for ActivityInfo.Screen_Orientation for the complete list of possible settings.
-
 
 
 ### Scrollable
@@ -238,7 +230,13 @@ Determines whether the app screen can be scrolled vertically to view contents be
 * `False` - The application height is constrained to the height of the device.
 
 
-### Show Nav Bar
+### Show Options Menu
+_**\(** Designer Only **\)**_
+
+Whether to show the options menu or not.
+
+
+### Show Navigation Bar
 
 _**\(** Getter + Setter **\)**    
 `Type: Boolean`_
@@ -251,19 +249,18 @@ Determines whether the Navigation Bar is shown or not.
 _**\(** Getter + Setter **\)**    
 `Type: Boolean`_
 
-Determines whether the Status Bar(i.e the topmost bar on the screen) is shown or not.
+Determines whether the Status Bar (i.e the topmost bar on the screen) is shown or not.
 
 
-### Show Titlebar Back Button
+### Show Title Bar Back Button
 
 _**\(** Getter + Setter **\)**  **\(** Blocks only **\)**   
 `Type: Boolean`_
 
-If true it will show in the TitleBar a back button only if no side menu was added. If a side menu was added it will remove the ‘hamburger’-menu icon but the side menu can still be opened.
+If true it will show in the Title Bar a back button only if no side menu was added. If a side menu was added it will remove the ‘hamburger’-menu icon but the side menu can still be opened.
 
 
-
-### StatusBarColor
+### Status Bar Color
 
 _**\(** Getter + Setter **\)**  **\(** Blocks only **\)**   
 `Type: Number`_
@@ -271,14 +268,12 @@ _**\(** Getter + Setter **\)**  **\(** Blocks only **\)**
 Set status bar color. This will work starting from API Level 21 (Android Lollipop
 
 
-
-### StatusbarLightIcons
+### Status Bar Light Icons
 
 _**\(** Getter + Setter **\)**  **\(** Blocks only **\)**   
 `Type: Boolean`_
 
-This option tells the system to use dark statusbar icons, useful for lighter colored status bars. Works only for devices with API >= 23.
-
+This option tells the system to use dark status bar icons, useful for lighter colored status bars. Works only for devices with API >= 23.
 
 
 ### Title
@@ -286,11 +281,10 @@ This option tells the system to use dark statusbar icons, useful for lighter col
 _**\(** Getter + Setter **\)**    
 `Type: Text`_
 
-The caption for the form, which apears in the title bar
+The caption for the form, which appears in the title bar
 
 
-
-### TitleBarColor
+### Title Bar Color
 
 _**\(** Setter only **\)**  **\(** Blocks only **\)**   
 `Type: Number`_
@@ -304,16 +298,15 @@ Set title bar color
 The font of the text shown on the Title Bar i.e the bar where the Screen Title is shown.
 
 
-### TitleBarSubTitle
+### Title Bar Subtitle
 
 _**\(** Getter + Setter **\)**    
 `Type: Text`_
 
-Set the TitleBar's subtitle.
+Set the Title Bar's subtitle.
 
 
-
-### TitleBarTypefaceImport
+### Title Bar Typeface Import
 
 _**\(** Setter only **\)**    
 `Type: Text`_
@@ -321,8 +314,7 @@ _**\(** Setter only **\)**
 Set a custom font.
 
 
-
-### TitleVisible
+### Title Visible
 
 _**\(** Getter + Setter **\)**    
 `Type: Boolean`_
@@ -330,14 +322,12 @@ _**\(** Getter + Setter **\)**
 The title bar is the top gray bar on the screen. This property reports whether the title bar is visible.
 
 
-
-### TitlebarTextColor
+### Title Bar Text Color
 
 _**\(** Getter + Setter **\)**  **\(** Blocks only **\)**   
 `Type: Number`_
 
 Set a custom color for the TitleBar text.
-
 
 
 ### Width
@@ -349,7 +339,7 @@ The screen width of the device on the which the app is being run on.
 
 ## Screen1 Only Properties
 
-### What is Screen1 ?
+### What is Screen1?
 
 Screen1 is the name of the default screen that is present on any given app.
 It is the screen that is automatically opened whenever an app is opened from the launcher menu of a device.  
@@ -358,11 +348,13 @@ Any workflow of the app should begin from the Screen1 and continue from there to
 In addition, Screen1 is also used to set some of the app-wide properties.  
 They are discussed below.
 
+
 ### Accent Color
 _**\(** Designer Only **\)**  
 `Type: Color`_
 
 The Accent color that will be used throughout the app.
+
 
 ### App Name
 _**\(** Designer Only **\)**  
@@ -376,11 +368,10 @@ when installed in a user's device. This name will appear on the device's launche
 _**\(** Designer Only **\)**  
 `Type: Text`_
 
-The icon which will be shown in the device's launcher after the app is installed on the 
-device. It is recommended to use a PNG image of dimensions 120x120.
+The icon which will be shown in the device's launcher after the app is installed on the device. It is recommended to use a PNG image of dimensions 120x120.
 
 
-### Min Sdk
+### Min SDK
 _**\(** Designer Only **\)**_
 
 The minimum SDK level that the app can be run on.
@@ -404,27 +395,24 @@ _**\(** Designer Only **\)**
 
 The Primary color that will be used throughout the app.
 
+
 ### Primary Color Dark
 _**\(** Designer Only **\)**  
 `Type: Color`_
 
 The darkened version of the Primary Color that will be used throughout the app.
 
+
 ### RTL Support
 _**\(** Designer Only **\)**_
 
 Whether to support RTL languages in the app or not.
 
+
 ### Show Lists As Json
 _**\(** Designer Only **\)**_
 
 This is used to show lists as [JSON](https://en.wikipedia.org/wiki/JSON) instead of pairs in the app
-
-
-### Show Options Menu
-**\(** Designer Only **\)**  
-
-Whether to show the Options menu or not.
 
 
 ### Sizing
@@ -436,11 +424,13 @@ The mode if Sizing used for all the components used in the app
             the device's screen size
 * `Responsive` - The size of the components adapts to the size of the device's screen.
 
+
 ### Splash Enabled
-_**\(** Designer Only **\)**  _
+_**\(** Designer Only **\)**_
 
 Whether to show the Splash Screen or not.
 Splash Screen is the temporary screen that will be shown whilst your app is being loaded for opening.
+
 
 ### Splash Icon
 _**\(** Designer Only **\)**  
@@ -448,10 +438,11 @@ _**\(** Designer Only **\)**
 
 The image that will be shown on the Splash Screen if [Splash Enabled](#splash-enabled) is set to `True`.
 
+
 ### Theme
 _**\(** Designer Only **\)**_
 
-The theme that will be followed for showning certain components on the app.
+The theme that will be followed for showing certain components on the app.
 
 
 ### Tutorial URL
@@ -460,12 +451,12 @@ _**\(** Designer Only **\)**_
 This is useful when you writing a tutorial and want to share a link to a webpage when the app is opened.
 (Currently, only Kodular links are allowed.)
 
+
 ### Version Code
 _**\(** Designer Only **\)**  
 `Type: Number`_
 
-The version code is used by the OS to determine if the app is an updated version(if it is already installed) and by 
-Google Play. So whenever you are publishing to the Play Store, you should increment it.
+The version code is used by the OS to determine if the app is an updated version (if it is already installed) and by Google Play. So whenever you are publishing to the Play Store, you should increment it.
 
 
 ### Version Name

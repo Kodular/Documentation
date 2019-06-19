@@ -39,7 +39,7 @@ var CONF_MARGIN_BOTTOM = 0;
 var blockIndex = 0;
 var blockId = 'block0';
 
-function newBlockAndWorkspace(id, scale, margin_left, margin_top, margin_right, margin_bottom) {
+function renderAndGetBlock(id, scale, margin_left, margin_top, margin_right, margin_bottom) {
     var workspace = Blockly.inject(id, {
         toolbox: false,
         trashcan: false,
@@ -59,7 +59,20 @@ function newBlockAndWorkspace(id, scale, margin_left, margin_top, margin_right, 
         .width(metrics.contentWidth + 8 + margin_left + margin_right);
     Blockly.svgResize(workspace);
     workspace.render();
+    return block;
+}
+
+
+// We have the seperate function for the Event block to add styling to the parameters
+// so that they appear in the same colour as in Kodular Creator
+function renderEventBlock(id, params_count) {
+    var block = renderAndGetBlock(id, 1, 0, 0, 0, 0, 0);
+    for (var i = 0; i < params_count; i++) {
+        if(block.getField('VAR'+i)) {
+            Blockly.utils.addClass(block.getField('VAR'+i).fieldGroup_, "event-parameter");
+        }
     }
+}
 
 /**
  * Returns the data a required block
@@ -131,6 +144,9 @@ function renderSingleBlockDiv(divElement) {
             this.setPreviousStatement(false, null);
             this.setNextStatement(false, null);
             this.setColour(COLOUR_EVENT);
+            // Trying to render the block here goes into an infinite loop for some reason
+            // renderEventBlock(blockId, param.length);
+            // return;
           }
         };
 
@@ -163,7 +179,12 @@ function renderSingleBlockDiv(divElement) {
         };
       }
 
-      newBlockAndWorkspace(blockId, scale, margin_left, margin_top, margin_right, margin_bottom);
+      if(type == 'event') {
+        renderEventBlock(blockId, block['param'].length || 0);
+      }
+      else {
+        renderAndGetBlock(blockId, scale, margin_left, margin_top, margin_right, margin_bottom);
+      }
       divElement.removeAttribute('not-rendered');
 
   }

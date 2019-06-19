@@ -66,10 +66,11 @@ The color of the selected item of the **Bottom Navigation Menu**.
 
 ### Unselected Color
 
-[[PropertyBlockGetterAndSetter('BottomNavigation', 'Unselected Color')]]
-
 _**\(** Getter + Setter **\)**    
 `Type: Color`_
+
+[[PropertyBlockGetterAndSetter('BottomNavigation', 'Unselected Color')]]
+
 
 The color of the unselected items of the Bottom Navigation Menu
 
@@ -141,6 +142,8 @@ Params               | []()
 _**\(**  Number `id`, Text `title`  **\)**_
 
 Indicates that an `item` has been selected(clicked by the user) from the **Bottom Navigation**.
+
+[[Event('BottomNavigation', 'Item Selected', 'id', 'title')]]
 
 Params               | []() 
 -------------------- | ---------- 

@@ -185,3 +185,11 @@ tr td:nth-child(1) {
 .block {
   margin: 10px;
 }
+
+/* Same as the one on Kodular Creator - for event parameter styling*/
+.event-parameter>rect {
+  fill: rgb(222, 143, 108);
+  fill-opacity: 1.0;
+  stroke: rgb(231, 175, 150);
+  stroke-width: 2;
+}
