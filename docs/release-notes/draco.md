@@ -751,3 +751,20 @@ _Other minor bugs which were not listed here have been fixed too, improving code
 - Fixed little issue in **Admob Interstitial**
 
 - **Unity Ads** was not checking if ad was approved
+
+
+&nbsp;
+
+## 1.3C.2 Draco   \|   _17 June 2019_
+
+### Major Changes
+
+- Now a **dialog pop ups in the app** if it requests to load ads and it is not approved
+
+### Bugs Fixed
+
+- Fixed issue in **Admob Banner**s and **Admob Interstitial**s
+
+- Fixed **ExoPlayer** bug with *Resume* block
+
+- Fixed little issue with **StartApp Banner**
