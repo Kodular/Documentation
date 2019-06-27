@@ -15,7 +15,7 @@ In order to use this component, you will need an App ID. It can be requested in 
 
 ### App ID
 
-[[PropertyBlockSetterMacro('StartApp_Banner', 'App ID')]]
+[[PropertyBlockSetter('StartApp_Banner', 'App ID')]]
 
 _**\(** Setter only **\)**  
 `Type: Integer`_
@@ -40,7 +40,7 @@ Options             | []()
 
 ### Load Ad
 
-![Method Load Ad](/assets/images/components/monetization/start-app-baner/m_loadad.png)
+![Method Load Ad](/assets/images/components/monetization/start-app-banner/m_loadad.png)
 
 _**\(** None **\)**_
 
@@ -58,11 +58,11 @@ Triggered when the user clicks on an ad to open its page.
 
 ### Ad Failed To Load
 
+[[Event('StartApp_Banner', 'Ad Failed To Load', 'error Code', 'error Message')]]
+
 _**\(**  Number `error Code`, Text `error Message`  **\)**_
 
 Raised when an ad from StartApp fails to load.
-
-[[Event('StartApp_Banner', 'Ad Failed To Load', 'error Code', 'error Message')]]
 
 Params               | []() 
 -------------------- | ---------- 
@@ -71,11 +71,11 @@ Params               | []()
 
 ### On Failed To Receive Ad
 
+[[Event('StartApp_Banner', 'On Failed To Receive Ad', 'error Message')]]
+
 _**\(**  Text `error Message`  **\)**_
 
 Raised when an ad from StartApp is not received (probably because of a network error).
-
-[[Event('StartApp_Banner', 'On Failed To Receive Ad', 'error Message')]]
 
 Params               | []() 
 -------------------- | ---------- 
@@ -92,7 +92,7 @@ Indicates that the ad has been successfully received and is has been shown.
 
 ## Example
 
-The below blocks can be used for the showing a an ad using **Chameleon Ad** component.
-In this example, ad starts loading in background and, when it is ready, the ad pop-outs.
+The below blocks can be used for the showing a an ad using **StartApp Banner** component.  
+In this example, ad starts loading in when the Screen initializes and it is shown automatically.
 
-![Chameleon Ads Example](/assets/images/components/monetization/chameleon-ad/example.png)
+![Chameleon Ads Example](/assets/images/components/monetization/start-app-baner/example.png)
