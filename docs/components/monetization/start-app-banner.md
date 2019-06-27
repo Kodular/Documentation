@@ -95,4 +95,4 @@ Indicates that the ad has been successfully received and is has been shown.
 The below blocks can be used for the showing a an ad using **StartApp Banner** component.  
 In this example, ad starts loading in when the Screen initializes and it is shown automatically.
 
-![Chameleon Ads Example](/assets/images/components/monetization/start-app-baner/example.png)
+![StartApp Banner Example](/assets/images/components/monetization/start-app-banner/example.png)
