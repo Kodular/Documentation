@@ -3551,7 +3551,7 @@
 <p>In order to use this component, you will need an App ID. It can be requested in their Portal (<a href="https://portal.startapp.com/#/pub/applications">portal.startapp.com</a>).</p>
 <h2 id="properties">Properties<a class="headerlink" href="#properties" title="Permanent link">&para;</a></h2>
 <h3 id="app-id">App ID<a class="headerlink" href="#app-id" title="Permanent link">&para;</a></h3>
-<p>[[PropertyBlockSetterMacro('StartApp_Banner', 'App ID')]]</p>
+<div ai2-block="property" class="block" not-rendered="true" value="%7B%22componentName%22:%20%22StartApp_Banner%22,%20%22name%22:%20%22App%20ID%22,%20%22getter%22:%20false%7D"></div>
 <p><em><strong>(</strong> Setter only <strong>)</strong><br />
 <code>Type: Integer</code></em></p>
 <p>The App ID is used to identify which app is serving ads. Requested at StartApp Portal.</p>
@@ -3583,7 +3583,7 @@
 </table>
 <h2 id="methods">Methods<a class="headerlink" href="#methods" title="Permanent link">&para;</a></h2>
 <h3 id="load-ad">Load Ad<a class="headerlink" href="#load-ad" title="Permanent link">&para;</a></h3>
-<p><img alt="Method Load Ad" src="/assets/images/components/monetization/start-app-baner/m_loadad.png" /></p>
+<p><img alt="Method Load Ad" src="/assets/images/components/monetization/start-app-banner/m_loadad.png" /></p>
 <p><em><strong>(</strong> None <strong>)</strong></em></p>
 <p>Perform a process in the background to request an ad. It triggers <em>On Receive Ad</em> event if request succeeds.</p>
 <h2 id="events">Events<a class="headerlink" href="#events" title="Permanent link">&para;</a></h2>
@@ -3592,9 +3592,9 @@
 <p><em><strong>(</strong>  None  <strong>)</strong></em></p>
 <p>Triggered when the user clicks on an ad to open its page.</p>
 <h3 id="ad-failed-to-load">Ad Failed To Load<a class="headerlink" href="#ad-failed-to-load" title="Permanent link">&para;</a></h3>
+<div ai2-block="event" class="block" not-rendered="true" value="%7B%22componentName%22:%20%22StartApp_Banner%22,%20%22name%22:%20%22Ad%20Failed%20To%20Load%22,%20%22param%22:%20%5B%22error%20Code%22,%20%22error%20Message%22%5D%7D"></div>
 <p><em><strong>(</strong>  Number <code>error Code</code>, Text <code>error Message</code>  <strong>)</strong></em></p>
 <p>Raised when an ad from StartApp fails to load.</p>
-<div ai2-block="event" class="block" not-rendered="true" value="%7B%22componentName%22:%20%22StartApp_Banner%22,%20%22name%22:%20%22Ad%20Failed%20To%20Load%22,%20%22param%22:%20%5B%22error%20Code%22,%20%22error%20Message%22%5D%7D"></div>
 <table>
 <thead>
 <tr>
@@ -3614,9 +3614,9 @@
 </tbody>
 </table>
 <h3 id="on-failed-to-receive-ad">On Failed To Receive Ad<a class="headerlink" href="#on-failed-to-receive-ad" title="Permanent link">&para;</a></h3>
+<div ai2-block="event" class="block" not-rendered="true" value="%7B%22componentName%22:%20%22StartApp_Banner%22,%20%22name%22:%20%22On%20Failed%20To%20Receive%20Ad%22,%20%22param%22:%20%5B%22error%20Message%22%5D%7D"></div>
 <p><em><strong>(</strong>  Text <code>error Message</code>  <strong>)</strong></em></p>
 <p>Raised when an ad from StartApp is not received (probably because of a network error).</p>
-<div ai2-block="event" class="block" not-rendered="true" value="%7B%22componentName%22:%20%22StartApp_Banner%22,%20%22name%22:%20%22On%20Failed%20To%20Receive%20Ad%22,%20%22param%22:%20%5B%22error%20Message%22%5D%7D"></div>
 <table>
 <thead>
 <tr>
@@ -3636,9 +3636,9 @@
 <p><em><strong>(</strong>  None  <strong>)</strong></em></p>
 <p>Indicates that the ad has been successfully received and is has been shown.</p>
 <h2 id="example">Example<a class="headerlink" href="#example" title="Permanent link">&para;</a></h2>
-<p>The below blocks can be used for the showing a an ad using <strong>Chameleon Ad</strong> component.
-In this example, ad starts loading in background and, when it is ready, the ad pop-outs.</p>
-<p><img alt="Chameleon Ads Example" src="/assets/images/components/monetization/chameleon-ad/example.png" /></p>
+<p>The below blocks can be used for the showing a an ad using <strong>StartApp Banner</strong> component.<br />
+In this example, ad starts loading in when the Screen initializes and it is shown automatically.</p>
+<p><img alt="Chameleon Ads Example" src="/assets/images/components/monetization/start-app-baner/example.png" /></p>
                 
                   
                 
