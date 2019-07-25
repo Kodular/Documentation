@@ -1,4 +1,4 @@
-## Accelerometer
+# Accelerometer
 
 Non-visible component that can detect shaking and measure acceleration approximately in three dimensions using SI units (m/s2). The components are:
 
