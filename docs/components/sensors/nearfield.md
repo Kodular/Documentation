@@ -13,8 +13,7 @@ Note: This component will only work on Screen1 of any app created by App Invento
 `WriteType`
 ## Event  
 `TagRead(text message)`  
-  Indicates that a new tag has been detected. Currently this is only a plain text tag, as specified in the manifest. See Compiler.java.  
-`TagWritten()`  
+  Indicates that a new tag has been detected. Currently this is only a plain text tag.  
 Event for TagWritten  
 ## Methods  
 none  
