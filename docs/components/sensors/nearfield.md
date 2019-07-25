@@ -4,7 +4,7 @@ Non-visible component to provide NFC capabilities. For now this component suppor
 
 In order to read and write text tags, the component must have its ReadMode property set to True or False respectively.  
 
-Note: This component will only work on Screen1 of any App Inventor app.
+Note: This component will only work on Screen1 of any app created by App Inventor distribution.  
 
 ## Properties
 `LastMessage`  
