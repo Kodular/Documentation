@@ -100,4 +100,4 @@ Derives latitude of given address
 
 _`number LongitudeFromAddress(text locationName)`_
 
-Derives longitude of given address}
+Derives longitude of given address
