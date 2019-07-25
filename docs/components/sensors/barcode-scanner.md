@@ -7,7 +7,7 @@ Component for using the Barcode Scanner to read a barcode
 Text result of the previous scan.  
 
 `UseExternalScanner`
-If true App Inventor will look for and use an external scanning program        such as "Bar Code Scanner."
+If true Kodular will look for and use an external scanning program        such as "Bar Code Scanner."
 
 ## Events  
 `AfterScan(text result)`  
