@@ -101,22 +101,7 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.kodular.io/components/user-interface/bottom-sheet/</loc>
-     <lastmod>2019-08-17</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>https://docs.kodular.io/components/user-interface/bottom-navigation/</loc>
-     <lastmod>2019-08-17</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
      <loc>https://docs.kodular.io/components/user-interface/button/</loc>
-     <lastmod>2019-08-17</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>https://docs.kodular.io/components/user-interface/chat-view/</loc>
      <lastmod>2019-08-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -157,16 +142,6 @@
     </url>
     <url>
      <loc>https://docs.kodular.io/components/user-interface/list-picker/</loc>
-     <lastmod>2019-08-17</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>https://docs.kodular.io/components/user-interface/list-view/</loc>
-     <lastmod>2019-08-17</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>https://docs.kodular.io/components/user-interface/list-view-image-and-text/</loc>
      <lastmod>2019-08-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -216,11 +191,6 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.kodular.io/components/user-interface/tab-layout/</loc>
-     <lastmod>2019-08-17</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
      <loc>https://docs.kodular.io/components/user-interface/textbox/</loc>
      <lastmod>2019-08-17</lastmod>
      <changefreq>daily</changefreq>
@@ -231,72 +201,102 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.kodular.io/components/user-interface/view-flipper/</loc>
-     <lastmod>2019-08-17</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>https://docs.kodular.io/components/user-interface/view-pager/</loc>
-     <lastmod>2019-08-17</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>https://docs.kodular.io/components/user-interface/web-viewer/</loc>
-     <lastmod>2019-08-17</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
      <loc>https://docs.kodular.io/components/layout/</loc>
      <lastmod>2019-08-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.kodular.io/components/layout/card-view/</loc>
+     <loc>https://docs.kodular.io/components/layout/general/card-view/</loc>
      <lastmod>2019-08-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.kodular.io/components/layout/horizontal-arrangement/</loc>
+     <loc>https://docs.kodular.io/components/layout/general/horizontal-arrangement/</loc>
      <lastmod>2019-08-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.kodular.io/components/layout/horizontal-scroll-arrangement/</loc>
+     <loc>https://docs.kodular.io/components/layout/general/horizontal-scroll-arrangement/</loc>
      <lastmod>2019-08-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.kodular.io/components/layout/side-menu-layout/</loc>
+     <loc>https://docs.kodular.io/components/layout/general/space/</loc>
      <lastmod>2019-08-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.kodular.io/components/layout/space/</loc>
+     <loc>https://docs.kodular.io/components/layout/general/swipe-refresh-layout/</loc>
      <lastmod>2019-08-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.kodular.io/components/layout/surface-view/</loc>
+     <loc>https://docs.kodular.io/components/layout/general/table-arrangement/</loc>
      <lastmod>2019-08-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.kodular.io/components/layout/swipe-refresh-layout/</loc>
+     <loc>https://docs.kodular.io/components/layout/general/vertical-arrangement/</loc>
      <lastmod>2019-08-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.kodular.io/components/layout/table-arrangement/</loc>
+     <loc>https://docs.kodular.io/components/layout/general/vertical-scroll-arrangement/</loc>
      <lastmod>2019-08-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.kodular.io/components/layout/vertical-arrangement/</loc>
+     <loc>https://docs.kodular.io/components/layout/lists/list-view/</loc>
      <lastmod>2019-08-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.kodular.io/components/layout/vertical-scroll-arrangement/</loc>
+     <loc>https://docs.kodular.io/components/layout/lists/list-view-image-and-text/</loc>
+     <lastmod>2019-08-17</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://docs.kodular.io/components/layout/navigation/bottom-navigation/</loc>
+     <lastmod>2019-08-17</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://docs.kodular.io/components/layout/navigation/side-menu-layout/</loc>
+     <lastmod>2019-08-17</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://docs.kodular.io/components/layout/navigation/tab-layout/</loc>
+     <lastmod>2019-08-17</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://docs.kodular.io/components/layout/navigation/view-pager/</loc>
+     <lastmod>2019-08-17</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://docs.kodular.io/components/layout/views/bottom-sheet/</loc>
+     <lastmod>2019-08-17</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://docs.kodular.io/components/layout/views/chat-view/</loc>
+     <lastmod>2019-08-17</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://docs.kodular.io/components/layout/views/surface-view/</loc>
+     <lastmod>2019-08-17</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://docs.kodular.io/components/layout/views/view-flipper/</loc>
+     <lastmod>2019-08-17</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://docs.kodular.io/components/layout/views/web-viewer/</loc>
      <lastmod>2019-08-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -576,6 +576,11 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
+     <loc>https://docs.kodular.io/components/social/push-notifications/</loc>
+     <lastmod>2019-08-17</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
      <loc>https://docs.kodular.io/components/social/sharing/</loc>
      <lastmod>2019-08-17</lastmod>
      <changefreq>daily</changefreq>
@@ -672,6 +677,11 @@
     </url>
     <url>
      <loc>https://docs.kodular.io/components/utilities/screenshot/</loc>
+     <lastmod>2019-08-17</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://docs.kodular.io/components/utilities/shell/</loc>
      <lastmod>2019-08-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -791,52 +801,52 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.kodular.io/components/monetization/admob-banner/</loc>
+     <loc>https://docs.kodular.io/components/monetization/general/in-app-billing/</loc>
      <lastmod>2019-08-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.kodular.io/components/monetization/admob-interstitial/</loc>
+     <loc>https://docs.kodular.io/components/monetization/advertising/admob-banner/</loc>
      <lastmod>2019-08-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.kodular.io/components/monetization/admob-rewardedvideo/</loc>
+     <loc>https://docs.kodular.io/components/monetization/advertising/admob-interstitial/</loc>
      <lastmod>2019-08-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.kodular.io/components/monetization/amazon-banner/</loc>
+     <loc>https://docs.kodular.io/components/monetization/advertising/admob-rewardedvideo/</loc>
      <lastmod>2019-08-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.kodular.io/components/monetization/amazon-interstitial/</loc>
+     <loc>https://docs.kodular.io/components/monetization/advertising/amazon-banner/</loc>
      <lastmod>2019-08-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.kodular.io/components/monetization/facebook-banner/</loc>
+     <loc>https://docs.kodular.io/components/monetization/advertising/amazon-interstitial/</loc>
      <lastmod>2019-08-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.kodular.io/components/monetization/facebook-interstitial/</loc>
+     <loc>https://docs.kodular.io/components/monetization/advertising/facebook-banner/</loc>
      <lastmod>2019-08-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.kodular.io/components/monetization/in-app-billing/</loc>
+     <loc>https://docs.kodular.io/components/monetization/advertising/facebook-interstitial/</loc>
      <lastmod>2019-08-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.kodular.io/components/monetization/leadbolt/</loc>
+     <loc>https://docs.kodular.io/components/monetization/advertising/leadbolt/</loc>
      <lastmod>2019-08-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.kodular.io/components/monetization/start-app-banner/</loc>
+     <loc>https://docs.kodular.io/components/monetization/advertising/start-app-banner/</loc>
      <lastmod>2019-08-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -851,77 +861,77 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.kodular.io/components/lego-mindstorms/nxt-drive/</loc>
+     <loc>https://docs.kodular.io/components/lego-mindstorms/ev3/ev3-motors/</loc>
      <lastmod>2019-08-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.kodular.io/components/lego-mindstorms/nxt-color-sensor/</loc>
+     <loc>https://docs.kodular.io/components/lego-mindstorms/ev3/ev3-color-sensor/</loc>
      <lastmod>2019-08-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.kodular.io/components/lego-mindstorms/nxt-light-sensor/</loc>
+     <loc>https://docs.kodular.io/components/lego-mindstorms/ev3/ev3-gyro-sensor/</loc>
      <lastmod>2019-08-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.kodular.io/components/lego-mindstorms/nxt-sound-sensor/</loc>
+     <loc>https://docs.kodular.io/components/lego-mindstorms/ev3/ev3-touch-sensor/</loc>
      <lastmod>2019-08-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.kodular.io/components/lego-mindstorms/nxt-touch-sensor/</loc>
+     <loc>https://docs.kodular.io/components/lego-mindstorms/ev3/ev3-ultrasonic-sensor/</loc>
      <lastmod>2019-08-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.kodular.io/components/lego-mindstorms/nxt-ultrasonic-sensor/</loc>
+     <loc>https://docs.kodular.io/components/lego-mindstorms/ev3/ev3-sound/</loc>
      <lastmod>2019-08-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.kodular.io/components/lego-mindstorms/nxt-direct-commands/</loc>
+     <loc>https://docs.kodular.io/components/lego-mindstorms/ev3/ev3-ui/</loc>
      <lastmod>2019-08-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.kodular.io/components/lego-mindstorms/ev3-motors/</loc>
+     <loc>https://docs.kodular.io/components/lego-mindstorms/ev3/ev3-commands/</loc>
      <lastmod>2019-08-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.kodular.io/components/lego-mindstorms/ev3-color-sensor/</loc>
+     <loc>https://docs.kodular.io/components/lego-mindstorms/nxt/nxt-drive/</loc>
      <lastmod>2019-08-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.kodular.io/components/lego-mindstorms/ev3-gyro-sensor/</loc>
+     <loc>https://docs.kodular.io/components/lego-mindstorms/nxt/nxt-color-sensor/</loc>
      <lastmod>2019-08-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.kodular.io/components/lego-mindstorms/ev3-touch-sensor/</loc>
+     <loc>https://docs.kodular.io/components/lego-mindstorms/nxt/nxt-light-sensor/</loc>
      <lastmod>2019-08-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.kodular.io/components/lego-mindstorms/ev3-ultrasonic-sensor/</loc>
+     <loc>https://docs.kodular.io/components/lego-mindstorms/nxt/nxt-sound-sensor/</loc>
      <lastmod>2019-08-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.kodular.io/components/lego-mindstorms/ev3-sound/</loc>
+     <loc>https://docs.kodular.io/components/lego-mindstorms/nxt/nxt-touch-sensor/</loc>
      <lastmod>2019-08-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.kodular.io/components/lego-mindstorms/ev3-ui/</loc>
+     <loc>https://docs.kodular.io/components/lego-mindstorms/nxt/nxt-ultrasonic-sensor/</loc>
      <lastmod>2019-08-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.kodular.io/components/lego-mindstorms/ev3-commands/</loc>
+     <loc>https://docs.kodular.io/components/lego-mindstorms/nxt/nxt-direct-commands/</loc>
      <lastmod>2019-08-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -942,16 +952,6 @@
     </url>
     <url>
      <loc>https://docs.kodular.io/components/experimental/notification/</loc>
-     <lastmod>2019-08-17</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>https://docs.kodular.io/components/experimental/push-notifications/</loc>
-     <lastmod>2019-08-17</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>https://docs.kodular.io/components/experimental/shell/</loc>
      <lastmod>2019-08-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
