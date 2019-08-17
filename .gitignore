@@ -3,3 +3,4 @@ _site/
 *-venv/
 src/
 .idea/
+__pycache__/

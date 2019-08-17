@@ -96,6 +96,7 @@ nav:
       - Butterfly: release-notes/butterfly.md
       - Chamaeleon: release-notes/chamaeleon.md
       - Draco: release-notes/draco.md
+      - Eagle: release-notes/eagle.md
     - Terms of Service: terms-of-service.md
   - Guides:
     - Understanding Kodular: guides/index.md
