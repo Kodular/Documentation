@@ -114,10 +114,7 @@ nav:
     - Screen: components/screen.md
     - User Interface:
       - Overview: components/user-interface/index.md
-      - Bottom Sheet: components/user-interface/bottom-sheet.md
-      - Bottom Navigation: components/user-interface/bottom-navigation.md
       - Button: components/user-interface/button.md
-      - Chat View: components/user-interface/chat-view.md
       - Checkbox: components/user-interface/checkbox.md
       - Circular Progress: components/user-interface/circular-progress.md
       - Date Picker: components/user-interface/date-picker.md
@@ -126,8 +123,6 @@ nav:
       - Label: components/user-interface/label.md
       - Linear Progressbar: components/user-interface/linear-progressbar.md
       - List Picker: components/user-interface/list-picker.md
-      - List View: components/user-interface/list-view.md
-      - List View Image and Text: components/user-interface/list-view-image-and-text.md
       - Notifier: components/user-interface/notifier.md
       - Radio Button: components/user-interface/radio-button.md
       - Rating Bar: components/user-interface/rating-bar.md
@@ -137,12 +132,8 @@ nav:
       - Spotlight: components/user-interface/spotlight.md
       - State Progress Bar: components/user-interface/state-progress-bar.md
       - Switch: components/user-interface/switch.md
-      - Tab Layout: components/user-interface/tab-layout.md
       - TextBox: components/user-interface/textbox.md
       - Time Picker: components/user-interface/time-picker.md
-      - View Flipper: components/user-interface/view-flipper.md
-      - View Pager: components/user-interface/view-pager.md
-      - Web Viewer: components/user-interface/web-viewer.md
     - Layout:
       - Overview: components/layout/index.md
       - General:
@@ -151,12 +142,23 @@ nav:
         - Horizontal Scroll Arrangement: components/layout/general/horizontal-scroll-arrangement.md
         - Space: components/layout/general/space.md
         - Swipe Refresh Layout: components/layout/general/swipe-refresh-layout.md
+        - Table Arrangement: components/layout/general/table-arrangement.md
         - Vertical Arrangement: components/layout/general/vertical-arrangement.md
         - Vertical Scroll Arrangement: components/layout/general/vertical-scroll-arrangement.md
-
-      - Side Menu Layout: components/layout/side-menu-layout.md
-      - Surface View: components/layout/surface-view.md
-      - Table Arrangement: components/layout/table-arrangement.md
+      - Lists:
+        - List View: components/layout/lists/list-view.md
+        - List View Image and Text: components/layout/lists/list-view-image-and-text.md
+      - Navigation:
+        - Bottom Navigation: components/layout/navigation/bottom-navigation.md
+        - Side Menu Layout: components/layout/navigation/side-menu-layout.md
+        - Tab Layout: components/layout/navigation/tab-layout.md
+        - View Pager: components/layout/navigation/view-pager.md
+      - Views:
+        - Bottom Sheet: components/layout/views/bottom-sheet.md
+        - Chat View: components/layout/views/chat-view.md
+        - Surface View: components/layout/views/surface-view.md
+        - View Flipper: components/layout/views/view-flipper.md
+        - Web Viewer: components/layout/views/web-viewer.md
     - Media:
       - Overview: components/media/index.md
       - Audio Picker: components/media/audio-picker.md

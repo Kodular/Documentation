@@ -1,9 +1,6 @@
 # Overview <small> of User Interface</small>
 
-* [Bottom Sheet](bottom-sheet.md)
-* [Bottom Navigation](bottom-navigation.md)
 * [Button](button.md)
-* [Chat View](chat-view.md)
 * [Checkbox](checkbox.md)
 * [Circular Progress](circular-progress.md)
 * [Date Picker](date-picker.md)
@@ -12,8 +9,6 @@
 * [Label](label.md)
 * [Linear Progressbar](linear-progressbar.md)
 * [List Picker](list-picker.md)
-* [List View](list-view.md)
-* [List View Image and Text](list-view-image-and-text.md)
 * [Notifier](notifier.md)
 * [Radio Button](radio-button.md)
 * [Rating Bar](rating-bar.md)
@@ -22,9 +17,5 @@
 * [Spinner](spinner.md)
 * [Spotlight](spotlight.md)
 * [Switch](switch.md)
-* [Tab Layout](tab-layout.md)
 * [TextBox](textbox.md)
 * [Time Picker](time-picker.md)
-* [View Flipper](view-flipper.md)
-* [View Pager](view-pager.md)
-* [Web Viewer](web-viewer.md)
