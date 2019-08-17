@@ -145,16 +145,18 @@ nav:
       - Web Viewer: components/user-interface/web-viewer.md
     - Layout:
       - Overview: components/layout/index.md
-      - Card View: components/layout/card-view.md
-      - Horizontal Arrangement: components/layout/horizontal-arrangement.md
-      - Horizontal Scroll Arrangement: components/layout/horizontal-scroll-arrangement.md
+      - General:
+        - Card View: components/layout/general/card-view.md
+        - Horizontal Arrangement: components/layout/general/horizontal-arrangement.md
+        - Horizontal Scroll Arrangement: components/layout/general/horizontal-scroll-arrangement.md
+        - Space: components/layout/general/space.md
+        - Swipe Refresh Layout: components/layout/general/swipe-refresh-layout.md
+        - Vertical Arrangement: components/layout/general/vertical-arrangement.md
+        - Vertical Scroll Arrangement: components/layout/general/vertical-scroll-arrangement.md
+
       - Side Menu Layout: components/layout/side-menu-layout.md
-      - Space: components/layout/space.md
       - Surface View: components/layout/surface-view.md
-      - Swipe Refresh Layout: components/layout/swipe-refresh-layout.md
       - Table Arrangement: components/layout/table-arrangement.md
-      - Vertical Arrangement: components/layout/vertical-arrangement.md
-      - Vertical Scroll Arrangement: components/layout/vertical-scroll-arrangement.md
     - Media:
       - Overview: components/media/index.md
       - Audio Picker: components/media/audio-picker.md
