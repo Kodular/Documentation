@@ -219,6 +219,7 @@ nav:
       - Email Picker: components/social/email-picker.md
       - Phone Call: components/social/phone-call.md
       - Phone Number Picker: components/social/phone-number-picker.md
+      - Push Notifications: components/social/push-notifications.md
       - Sharing: components/social/sharing.md
       - Texting: components/social/texting.md
       - Twitter: components/social/twitter.md
@@ -241,6 +242,7 @@ nav:
       - Package: components/utilities/package.md
       - Resource Utilities: components/utilities/resource-utilities.md
       - Screenshot: components/utilities/screenshot.md
+      - Shell: components/utilities/shell.md
       - Wallpaper: components/utilities/wallpaper.md
     - Dynamic Components:
       - Overview: components/dynamic/index.md
@@ -301,8 +303,6 @@ nav:
       - Chrome Custom Tabs: components/experimental/chrome-custom-tabs.md
       - Cloud DB: components/experimental/cloud-db.md
       - Notification: components/experimental/notification.md
-      - Push Notifications: components/experimental/push-notifications.md
-      - Shell: components/experimental/shell.md
       - Shortcut Badge: components/experimental/shortcut-badge.md
   - Blocks:
     - Overview: blocks/index.md

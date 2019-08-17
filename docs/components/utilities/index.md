@@ -8,4 +8,5 @@
 * [Package](package.md)
 * [Resource Utilities](resource-utilities.md)
 * [Screenshot](screenshot.md)
+* [Shell](shell.md)
 * [Wallpaper](wallpaper.md)
