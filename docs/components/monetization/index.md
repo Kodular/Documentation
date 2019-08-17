@@ -1,14 +1,17 @@
 # Overview <small> of Monetization</small>
 
-* [AdMob Banner](admob-banner.md)
-* [AdMob Interstitial](admob-interstitial.md)
-* [AdMob Rewarded Video](admob-rewardedvideo.md)
-* [Amazon Banner](amazon-banner.md)
-* [Amazon Interstitial](amazon-interstitial.md)
-* [Chameleon Ad](chameleon-ad.md)
-* [Facebook Banner](facebook-banner.md)
-* [Facebook Interstitial](facebook-interstitial.md)
-* [In App Billing](in-app-billing.md)
-* [Leadbolt](leadbolt.md)
-* [StartApp Banner](start-app-banner.md)
-* [Unity Ads](unity-ads_ads.md)
+### General
+* [In App Billing](general/in-app-billing.md)
+
+### Advertising
+* [AdMob Banner](advertising/admob-banner.md)
+* [AdMob Interstitial](advertising/admob-interstitial.md)
+* [AdMob Rewarded Video](advertising/admob-rewardedvideo.md)
+* [Amazon Banner](advertising/amazon-banner.md)
+* [Amazon Interstitial](advertising/amazon-interstitial.md)
+* [Chameleon Ad](advertising/chameleon-ad.md)
+* [Facebook Banner](advertising/facebook-banner.md)
+* [Facebook Interstitial](advertising/facebook-interstitial.md)
+* [Leadbolt](advertising/leadbolt.md)
+* [StartApp Banner](advertising/start-app-banner.md)
+* [Unity Ads](advertising/unity-ads_ads.md)

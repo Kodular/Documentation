@@ -270,34 +270,38 @@ nav:
       - Google Maps: components/google/google-maps.md
     - Monetization:
       - Overview: components/monetization/index.md
-      - AdMob Banner: components/monetization/admob-banner.md
-      - AdMob Interstitial: components/monetization/admob-interstitial.md
-      - AdMob Rewarded Video: components/monetization/admob-rewardedvideo.md
-      - Amazon Banner: components/monetization/amazon-banner.md
-      - Amazon Interstitial: components/monetization/amazon-interstitial.md
-      - Facebook Banner: components/monetization/facebook-banner.md
-      - Facebook Interstitial: components/monetization/facebook-interstitial.md
-      - In App Billing: components/monetization/in-app-billing.md
-      - Leadbolt: components/monetization/leadbolt.md
-      - StartApp Banner: components/monetization/start-app-banner.md
-      - Unity Ads: components/monetization/unity-ads_ads.md
+      - General:
+        - In App Billing: components/monetization/general/in-app-billing.md
+      - Advertising:
+        - AdMob Banner: components/monetization/advertising/admob-banner.md
+        - AdMob Interstitial: components/monetization/advertising/admob-interstitial.md
+        - AdMob Rewarded Video: components/monetization/advertising/admob-rewardedvideo.md
+        - Amazon Banner: components/monetization/advertising/amazon-banner.md
+        - Amazon Interstitial: components/monetization/advertising/amazon-interstitial.md
+        - Facebook Banner: components/monetization/advertising/facebook-banner.md
+        - Facebook Interstitial: components/monetization/advertising/facebook-interstitial.md
+        - Leadbolt: components/monetization/advertising/leadbolt.md
+        - StartApp Banner: components/monetization/advertising/start-app-banner.md
+        - Unity Ads: components/monetization/advertising/unity-ads_ads.md
     - LEGO Mindstorms:
       - Overview: components/lego-mindstorms/index.md
-      - NXT Drive: components/lego-mindstorms/nxt-drive.md
-      - NXT Color Sensor: components/lego-mindstorms/nxt-color-sensor.md
-      - NXT Light Sensor: components/lego-mindstorms/nxt-light-sensor.md
-      - NXT Sound Sensor: components/lego-mindstorms/nxt-sound-sensor.md
-      - NXT Touch Sensor: components/lego-mindstorms/nxt-touch-sensor.md
-      - NXT Ultrasonic Sensor: components/lego-mindstorms/nxt-ultrasonic-sensor.md
-      - NXT Direct Commands: components/lego-mindstorms/nxt-direct-commands.md
-      - EV3 Motors: components/lego-mindstorms/ev3-motors.md
-      - EV3 Color Sensor: components/lego-mindstorms/ev3-color-sensor.md
-      - EV3 Gyro Sensor: components/lego-mindstorms/ev3-gyro-sensor.md
-      - EV3 Touch Sensor: components/lego-mindstorms/ev3-touch-sensor.md
-      - EV3 Ultrasonic Sensor: components/lego-mindstorms/ev3-ultrasonic-sensor.md
-      - EV3 Sound: components/lego-mindstorms/ev3-sound.md
-      - EV3 UI: components/lego-mindstorms/ev3-ui.md
-      - EV3 Commands: components/lego-mindstorms/ev3-commands.md
+      - EV3:
+        - EV3 Motors: components/lego-mindstorms/ev3/ev3-motors.md
+        - EV3 Color Sensor: components/lego-mindstorms/ev3/ev3-color-sensor.md
+        - EV3 Gyro Sensor: components/lego-mindstorms/ev3/ev3-gyro-sensor.md
+        - EV3 Touch Sensor: components/lego-mindstorms/ev3/ev3-touch-sensor.md
+        - EV3 Ultrasonic Sensor: components/lego-mindstorms/ev3/ev3-ultrasonic-sensor.md
+        - EV3 Sound: components/lego-mindstorms/ev3/ev3-sound.md
+        - EV3 UI: components/lego-mindstorms/ev3/ev3-ui.md
+        - EV3 Commands: components/lego-mindstorms/ev3/ev3-commands.md
+      - NXT:
+        - NXT Drive: components/lego-mindstorms/nxt/nxt-drive.md
+        - NXT Color Sensor: components/lego-mindstorms/nxt/nxt-color-sensor.md
+        - NXT Light Sensor: components/lego-mindstorms/nxt/nxt-light-sensor.md
+        - NXT Sound Sensor: components/lego-mindstorms/nxt/nxt-sound-sensor.md
+        - NXT Touch Sensor: components/lego-mindstorms/nxt/nxt-touch-sensor.md
+        - NXT Ultrasonic Sensor: components/lego-mindstorms/nxt/nxt-ultrasonic-sensor.md
+        - NXT Direct Commands: components/lego-mindstorms/nxt/nxt-direct-commands.md
     - Experimental:
       - Overview: components/experimental/index.md
       - Chrome Custom Tabs: components/experimental/chrome-custom-tabs.md
