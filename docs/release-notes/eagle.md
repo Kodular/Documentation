@@ -458,3 +458,81 @@ _Currently using latest version (5.4.1)_
 - Removed *not needed libraries* for **Google Account Picker** component
 
 - Lots of **minor bugs have been fixed**, improving performance
+
+&nbsp;
+
+## 1.4.1 Eagle   \|   _25 August 2019_
+
+### Major Changes
+
+- **Commissions have been lowered down** a lot for a better earning rate  
+*Use [this app](https://play.google.com/store/apps/details?id=io.kodular.commission) to check your current commission*
+
+- **Reduced APK** size when using ad networks *without native commissions*  
+*We now use Unity Ads by default, so lots of libraries have been removed*
+
+### New Methods
+
+- **Dynamic Button** component
+  - `Get Button By Id`: returns the view containing the generated dynamic button
+![image|429x81](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/3/0/30ff7b109f4ded5b58c70879c2bcc50339767521.png)
+
+- **Dynamic Card View** component
+  - `Get Card View By Id`: returns the view containing the generated dynamic cardview
+![image|498x80](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/0/1/017859d30508e65861f13318af91e27dca3ee7ae.png)
+
+- **Dynamic Image** component
+  - `Get Image By Id`: returns the view containing the generated dynamic image
+![image|425x83](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/c/6/c6beeffb9428f5bea754feaea7b06fe9cb9760fb.png)
+
+- **Dynamic Label** component
+  - `Get Label By Id`: returns the view containing the generated dynamic label
+![image|408x78](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/c/0/c09d2f56720123914b80b7cba7fbcbc2c2dade58.png)
+
+- **Dynamic Space** component
+  - `Get Space By Id`: returns the view containing the generated dynamic space
+![image|426x81](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/a/2/a247b91b2aabe1c5a01fca268039b77da7a4e9f5.png) 
+
+- **Dynamic Text Box** component
+  - `Get Text Box By Id`: returns the view containing the generated dynamic textbox
+![image|448x81](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/b/5/b58d4d3f2a4bb984b8d1fc15d52194ce9af9487d.png)
+
+### Bugs Fixed
+
+- **Card View** *stroke* has been set to 0 by default
+
+- **Share-to-own-app** should only *appear once* on share menu
+
+- **ArchTaskExecutor** *not found* error has been solved
+
+- **Facebook Rewarded Video** reports *getCommission on a null object reference* is now fixed
+
+- **Unity Interstitial** *commission was wrongly set* to a higher value than real one
+
+- *Bug* in the new **Commission System** has been solved
+
+- Bug in **Admob Banner** which *prevented them from loading* is now solved
+
+- **ExoPlayer** problems with *Status Changed event* and *status methods* have been mitigated
+
+- **Apps crashing randomly** due to *java.lang.RuntimeException: Unable to start activity ComponentInfo* is now resolved
+
+- **Surface View** error related with *face recognition reporting wrong results* is fixed
+
+- **ExoPlayer** *ask for permission bug* has been solved
+
+- **Player** *does not need permission to read internal files*, so we removed it
+
+- **WebView** (*and **YouTube**, as it's a webview*) did *not work properly* on Android 9  
+*[:appinventor: Fix from MIT App Inventor Team](https://github.com/mit-cml/appinventor-sources/commit/e03ae81bc9f1b7a96e6d52a12d88b37d1f746f51)*
+
+- Solved issue which *prevented* doing **right-click in inputs** to copy/paste text
+
+- **File uploads** were *working incorrectly in Firefox*
+
+- The **import template** option has been *temporarily removed*
+*You will hear more about this soon*
+
+- **Hungarian language** did *not have translated blocks*, even though they were translated
+
+- The *Device Id block* in **Device Utilities** component was not returning any value
