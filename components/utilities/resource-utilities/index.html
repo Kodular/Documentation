@@ -2329,6 +2329,18 @@
 
 
   <li class="md-nav__item">
+    <a href="../animation-utilities/" title="Animation Utilities" class="md-nav__link">
+      Animation Utilities
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
     <a href="../audio/" title="Audio" class="md-nav__link">
       Audio
     </a>
@@ -2353,8 +2365,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../device-tools/" title="Device Tools" class="md-nav__link">
-      Device Tools
+    <a href="../device-utilities/" title="Device Utilities" class="md-nav__link">
+      Device Utilities
     </a>
   </li>
 
@@ -2377,8 +2389,32 @@
 
 
   <li class="md-nav__item">
-    <a href="../package/" title="Package" class="md-nav__link">
-      Package
+    <a href="../json/" title="JSON" class="md-nav__link">
+      JSON
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../keyguard-manager/" title="Keyguard Manager" class="md-nav__link">
+      Keyguard Manager
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../package-utilities/" title="Package Utilities" class="md-nav__link">
+      Package Utilities
     </a>
   </li>
 
@@ -2397,9 +2433,92 @@
       
     
     
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Resource Utilities
+      </label>
+    
     <a href="./" title="Resource Utilities" class="md-nav__link md-nav__link--active">
       Resource Utilities
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" title="Overview" class="md-nav__link">
+    Overview
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#properties" title="Properties" class="md-nav__link">
+    Properties
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#resource-file-from-asset" title="Resource File From Asset" class="md-nav__link">
+    Resource File From Asset
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resource-file-from-path" title="Resource File From Path" class="md-nav__link">
+    Resource File From Path
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#methods" title="Methods" class="md-nav__link">
+    Methods
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#get-string-from-asset" title="Get String From Asset" class="md-nav__link">
+    Get String From Asset
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#get-string-from-path" title="Get String From Path" class="md-nav__link">
+    Get String From Path
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
     
   </li>
 
@@ -3499,6 +3618,76 @@
     
   
   
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" title="Overview" class="md-nav__link">
+    Overview
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#properties" title="Properties" class="md-nav__link">
+    Properties
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#resource-file-from-asset" title="Resource File From Asset" class="md-nav__link">
+    Resource File From Asset
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resource-file-from-path" title="Resource File From Path" class="md-nav__link">
+    Resource File From Path
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#methods" title="Methods" class="md-nav__link">
+    Methods
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#get-string-from-asset" title="Get String From Asset" class="md-nav__link">
+    Get String From Asset
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#get-string-from-path" title="Get String From Path" class="md-nav__link">
+    Get String From Path
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
 </nav>
                 </div>
             </div>
@@ -3513,10 +3702,64 @@
                 
                 
                 <h1 id="resource-utilities">Resource Utilities<a class="headerlink" href="#resource-utilities" title="Permanent link">&para;</a></h1>
-<div class="admonition warning">
-<p class="admonition-title">Warning</p>
-<p>This page is still in progress. You can check the description of blocks for help.</p>
-</div>
+<h2 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">&para;</a></h2>
+<p>The <strong>Resource Utilities</strong> component can be used to add string resources to your application's strings.xml file. This component is mainly used for internationalizing the text in your application.</p>
+<h2 id="properties">Properties<a class="headerlink" href="#properties" title="Permanent link">&para;</a></h2>
+<h3 id="resource-file-from-asset">Resource File From Asset<a class="headerlink" href="#resource-file-from-asset" title="Permanent link">&para;</a></h3>
+<p><img alt="" src="/assets/images/components/utilities/resource-utilities/d_resource-file-from-asset.png" /> <img alt="" src="/assets/images/components/utilities/resource-utilities/p_resource-file-from-asset.png" /></p>
+<p>[ Getter  + Setter ]<br />
+<code>Type: Asset</code></p>
+<p>The name of the resource XML file from the app's Assets.</p>
+<h3 id="resource-file-from-path">Resource File From Path<a class="headerlink" href="#resource-file-from-path" title="Permanent link">&para;</a></h3>
+<p><img alt="" src="/assets/images/components/utilities/resource-utilities/d_resource-file-from-path.png" /> <img alt="" src="/assets/images/components/utilities/resource-utilities/p_resource-file-from-path.png" /></p>
+<p>[ Getter  + Setter ]<br />
+<code>Type: Text</code></p>
+<p>The full path to the resource XML file located in an external directory.</p>
+<h2 id="methods">Methods<a class="headerlink" href="#methods" title="Permanent link">&para;</a></h2>
+<h3 id="get-string-from-asset">Get String From Asset<a class="headerlink" href="#get-string-from-asset" title="Permanent link">&para;</a></h3>
+<p><img alt="" src="/assets/images/components/utilities/resource-utilities/m_get-string-from-asset.png" /></p>
+<p>[ Text <code>resource Name</code>, Text <code>if Resource Not Found Use</code> ]</p>
+<p>Fetches the resource by its name in the resources file that is in the app's Assets.</p>
+<table>
+<thead>
+<tr>
+<th>Params</th>
+<th><a href=""></a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>resource Name</code></td>
+<td><strong>Text:</strong>  The name of the resource that is to be fetched.</td>
+</tr>
+<tr>
+<td><code>if Resource Not Found Use</code></td>
+<td><strong>Text:</strong>  The fallback text to be used in case the resource name doesn't exist in the resources file.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="get-string-from-path">Get String From Path<a class="headerlink" href="#get-string-from-path" title="Permanent link">&para;</a></h3>
+<p><img alt="" src="/assets/images/components/utilities/resource-utilities/m_get-string-from-path.png" /></p>
+<p>[ Text <code>resource Name</code>, Text <code>if Resource Not Found Use</code> ]</p>
+<p>Fetches the resource by its name in the resources file that is in an external directory.</p>
+<table>
+<thead>
+<tr>
+<th>Params</th>
+<th><a href=""></a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>resource Name</code></td>
+<td><strong>Text:</strong>  The name of the resource that is to be fetched.</td>
+</tr>
+<tr>
+<td><code>if Resource Not Found Use</code></td>
+<td><strong>Text:</strong>  The fallback text to be used in case the resource name doesn't exist in the resources file.</td>
+</tr>
+</tbody>
+</table>
                 
                   
                 
@@ -3537,7 +3780,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../package/" title="Package" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../package-utilities/" title="Package Utilities" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -3546,7 +3789,7 @@
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Package
+                Package Utilities
               </span>
             </div>
           </a>

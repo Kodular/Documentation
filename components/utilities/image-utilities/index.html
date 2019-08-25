@@ -2329,6 +2329,18 @@
 
 
   <li class="md-nav__item">
+    <a href="../animation-utilities/" title="Animation Utilities" class="md-nav__link">
+      Animation Utilities
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
     <a href="../audio/" title="Audio" class="md-nav__link">
       Audio
     </a>
@@ -2353,8 +2365,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../device-tools/" title="Device Tools" class="md-nav__link">
-      Device Tools
+    <a href="../device-utilities/" title="Device Utilities" class="md-nav__link">
+      Device Utilities
     </a>
   </li>
 
@@ -2418,13 +2430,6 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#example" title="Example" class="md-nav__link">
-    Example
-  </a>
-  
-</li>
-      
       
       
       
@@ -2442,8 +2447,32 @@
 
 
   <li class="md-nav__item">
-    <a href="../package/" title="Package" class="md-nav__link">
-      Package
+    <a href="../json/" title="JSON" class="md-nav__link">
+      JSON
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../keyguard-manager/" title="Keyguard Manager" class="md-nav__link">
+      Keyguard Manager
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../package-utilities/" title="Package Utilities" class="md-nav__link">
+      Package Utilities
     </a>
   </li>
 
@@ -3585,13 +3614,6 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#example" title="Example" class="md-nav__link">
-    Example
-  </a>
-  
-</li>
-      
       
       
       
@@ -3617,8 +3639,8 @@
 <h2 id="methods">Methods<a class="headerlink" href="#methods" title="Permanent link">&para;</a></h2>
 <h3 id="load-image-async">Load Image Async<a class="headerlink" href="#load-image-async" title="Permanent link">&para;</a></h3>
 <p><img alt="Load Image Async" src="/assets/images/components/utilities/image-utilities/m_load-image-async.png" /></p>
-<p><em><strong>(</strong> Component <code>component</code>, Text <code>path</code> <strong>)</strong></em></p>
-<p>Loads a new image from the given path to the specified component.</p>
+<p>[ Component <code>component</code>, Text <code>path</code> ]</p>
+<p>Aynchronously loads an image from the given path in the specified component. Asynchronous loading does not block the main UI thread of the app, meaning your app won't temporarily stop responding to user input.</p>
 <table>
 <thead>
 <tr>
@@ -3629,18 +3651,18 @@
 <tbody>
 <tr>
 <td><code>component</code></td>
-<td><strong>Component:</strong>  The component where the image has to be shown. This is set using the Component type block.(Found a                          the last of all the blocks of a component. )</td>
+<td><strong>Component:</strong>  The component inside which the image has to be loaded</td>
 </tr>
 <tr>
 <td><code>path</code></td>
-<td><strong>Text:</strong> The path of the image which has to be loaded.</td>
+<td><strong>Text:</strong> The path to the image which has to be loaded. The image can be from the app's Assets, an external directory on the device, or from a URL on the internet.</td>
 </tr>
 </tbody>
 </table>
-<h2 id="example">Example<a class="headerlink" href="#example" title="Permanent link">&para;</a></h2>
-<p>Below is an example of blocks for loading image asynchronous using the <strong>Image Utilities</strong> component.
-Note: The image can be loaded directly from the assets of the app, the device storage or from the internet.</p>
-<p><img alt="Example" src="/assets/images/components/utilities/image-utilities/eg_image-utilities.png" /></p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>It is recommended to use this method when loading large or several images from the internet. Your app will continue to be responsive as the images load in the background.</p>
+</div>
                 
                   
                 
@@ -3661,7 +3683,7 @@ Note: The image can be loaded directly from the assets of the app, the device st
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../device-tools/" title="Device Tools" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../device-utilities/" title="Device Utilities" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -3670,19 +3692,19 @@ Note: The image can be loaded directly from the assets of the app, the device st
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Device Tools
+                Device Utilities
               </span>
             </div>
           </a>
         
         
-          <a href="../package/" title="Package" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../json/" title="JSON" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                Package
+                JSON
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">
