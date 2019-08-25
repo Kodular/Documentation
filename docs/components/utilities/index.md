@@ -1,11 +1,14 @@
 # Overview <small> of Utilities</small>
 
+* [Animation Utilities](animation-utilities.md)
 * [Audio](audio.md)
 * [Color Utilities](color-utilities.md)
 * [Cryptography](cryptography.md)
-* [Device Tools](device-tools.md)
+* [Device Utilities](device-utilities.md)
 * [Image Utilities](image-utilities.md)
-* [Package](package.md)
+* [JSON](json.md)
+* [Keyguard Manager](keyguard-manager.md)
+* [Package Utilities](package-utilities.md)
 * [Resource Utilities](resource-utilities.md)
 * [Screenshot](screenshot.md)
 * [Shell](shell.md)
