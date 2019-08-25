@@ -9,18 +9,14 @@
 
 ![Load Image Async](/assets/images/components/utilities/image-utilities/m_load-image-async.png)
 
-_**\(** Component `component`, Text `path` **\)**_
+\[ Component `component`, Text `path` \]
 
-Loads a new image from the given path to the specified component.
+Aynchronously loads an image from the given path in the specified component. Asynchronous loading does not block the main UI thread of the app, meaning your app won't temporarily stop responding to user input.
 
 Params               |  []()       
 -------------------- | ------- 
-`component`          | **Component:**  The component where the image has to be shown. This is set using the Component type block.(Found a                          the last of all the blocks of a component. )
-`path`               | **Text:** The path of the image which has to be loaded. 
+`component`          | **Component:**  The component inside which the image has to be loaded
+`path`               | **Text:** The path to the image which has to be loaded. The image can be from the app's Assets, an external directory on the device, or from a URL on the internet. 
 
-## Example
-
-Below is an example of blocks for loading image asynchronous using the **Image Utilities** component.
-Note: The image can be loaded directly from the assets of the app, the device storage or from the internet.
-
-![Example](/assets/images/components/utilities/image-utilities/eg_image-utilities.png)
+!!! tip
+    It is recommended to use this method when loading large or several images from the internet. Your app will continue to be responsive as the images load in the background.
