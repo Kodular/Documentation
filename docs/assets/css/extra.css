@@ -265,10 +265,16 @@ h2 {
   color: #444;
 }
 
-
 h3 {
   font-family: Jost;
   font-weight: 400 !important;
+}
+
+
+sub-header {
+  font-family: Jost;
+  font-weight: 400 !important;
+	color: #666;
 }
 
 code {
@@ -288,4 +294,14 @@ img[src*="#phone"] {
 img[src*="#animationUtilsPreview"] {
   height: 300px !important;
 	float: right;
+}
+
+#pre-requisites {
+  border-bottom: 0;
+	margin-bottom: 0;
+}
+
+#pre-requisites + p {
+	margin-top: 0;
+	border-bottom: 1px rgba(0,0,0,.17) solid;
 }
