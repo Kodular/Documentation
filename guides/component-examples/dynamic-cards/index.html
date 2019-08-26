@@ -3766,11 +3766,10 @@
 <h2 id="designing-the-app">Designing the app<a class="headerlink" href="#designing-the-app" title="Permanent link">&para;</a></h2>
 <p>As usual, we'll start with a new project. Drag and drop the <code>Vertical Scroll Arrangement</code>, <code>Web</code>, <code>JSON</code>, <code>Dynamic Label</code>, <code>Dynamic Image</code>, and <code>Dynamic Card View</code> components. </p>
 <p>Set the <code>Vertical Scroll Arrangement</code>'s height and width designer properties to <code>Fill Parent</code>, and its <code>Align Vertical</code> property to <code>Center</code>.</p>
-<p>In the <code>Dynamic Card View</code>'s designer properties, set the <code>Corner Radius</code> to 5 and the <code>Elevation</code> to 0. Finally, enable its <code>Full Clickable</code> designer xproperty.</p>
+<p>In the <code>Dynamic Card View</code>'s designer properties, set the <code>Corner Radius</code> to 5 and the <code>Elevation</code> to 0. Finally, enable its <code>Full Clickable</code> designer property.</p>
+<p>Finally, add an <code>Image Utilities</code> component which we will use to load images asynchronously</p>
 <p>This is what your designer should look like</p>
 <p><img alt="" src="/assets/images/guides/dynamic-cards/d_with-components.png" /></p>
-<p>Finally, add another <code>Dynamic Card View</code> component. We'll be using this component to wrap around the dynamic images. From the Designer, the component's <code>Elevation</code> to 0, <code>Corner Radius</code> to 5, <code>Stroke Width</code> to 0, and all padding properties to 0.
-<img alt="" src="/assets/images/guides/dynamic-cards/d_with-dynamic-card-view-2.png" /></p>
 <p>The top 20 news articles will be displayed as <code>Dynamic Card View</code>s, which will be loaded inside the <code>Vertical Scroll Arrangement</code>. Each card will include the article's title, a short description, and a header image. </p>
 <h2 id="coding-the-blocks">Coding the blocks<a class="headerlink" href="#coding-the-blocks" title="Permanent link">&para;</a></h2>
 <p>We will need a variable to store the JSON response from the API. This can be a simple <code>Text</code> variable like so. <br><br>
@@ -3824,7 +3823,7 @@ All the blocks we've used</p>
 <li>Add more information to each card, like the author's name and the date of publication.</li>
 </ul>
 <h2 id="downloads">Downloads<a class="headerlink" href="#downloads" title="Permanent link">&para;</a></h2>
-<p>Get the AIA file <a href="/assets/archives/dynamic_cards.aia">here</a>.</p>
+<p>Get the AIA file <a href="/assets/files/aia/dynamic_cards.aia">here</a>.</p>
                 
                   
                 
