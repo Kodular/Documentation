@@ -48,14 +48,14 @@ As usual, we'll start with a new project. Drag and drop the `Vertical Scroll Arr
 
 Set the `Vertical Scroll Arrangement`'s height and width designer properties to `Fill Parent`, and its `Align Vertical` property to `Center`.
 
-In the `Dynamic Card View`'s designer properties, set the `Corner Radius` to 5 and the `Elevation` to 0. Finally, enable its `Full Clickable` designer xproperty.
+In the `Dynamic Card View`'s designer properties, set the `Corner Radius` to 5 and the `Elevation` to 0. Finally, enable its `Full Clickable` designer property.
+
+Finally, add an `Image Utilities` component which we will use to load images asynchronously
 
 This is what your designer should look like
 
 ![](/assets/images/guides/dynamic-cards/d_with-components.png)
 
-Finally, add another `Dynamic Card View` component. We'll be using this component to wrap around the dynamic images. From the Designer, the component's `Elevation` to 0, `Corner Radius` to 5, `Stroke Width` to 0, and all padding properties to 0.
-![](/assets/images/guides/dynamic-cards/d_with-dynamic-card-view-2.png)
 
 The top 20 news articles will be displayed as `Dynamic Card View`s, which will be loaded inside the `Vertical Scroll Arrangement`. Each card will include the article's title, a short description, and a header image. 
 
@@ -140,4 +140,4 @@ Want ideas for making this app better? We have some things for you to try.
  
 ## Downloads
  
- Get the AIA file <a href="/assets/archives/dynamic_cards.aia">here</a>.
+ Get the AIA file <a href="/assets/files/aia/dynamic_cards.aia">here</a>.
