@@ -107,6 +107,8 @@ nav:
       - Overview: guides/live-development/index.md
       - Via WiFi: guides/live-development/wifi.md
       - Via USB: guides/live-development/usb.md
+    - Component Guides:
+      - Using Dynamic Cards: guides/component-examples/dynamic-cards.md
     - Extensions:
       - Create Extensions: guides/extensions/create-extensions.md
   - Components:
