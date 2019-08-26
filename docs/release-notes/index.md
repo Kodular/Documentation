@@ -7,3 +7,5 @@
 ## [1.2 Chamaeleon   \|   _26 October 2018_](chamaeleon)
 
 ## [1.3 Draco   \|   _13 January 2019_](draco)
+
+## [1.4 Eagle   \|   _17 August 2019_](eagle)
