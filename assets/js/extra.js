@@ -178,7 +178,27 @@ function renderSingleBlockDiv(divElement) {
           }
         };
       }
-
+      else if (type == 'method') {
+        var param = block['param'] || block['arg'] || [];
+        var output = block['output']===true;
+    
+        Blockly.Blocks['renderedBlock_'+blockId] = {
+          init: function() {
+            this.appendDummyInput().appendField(CONF_TEXT_CALL).appendField(new Blockly.FieldDropdown([[ComponentName, 'OPTIONNAME']]), 'COMPONENT_SELECTOR').appendField('.'+name);
+            for (var i=0; i<param.length; i++) {
+              this.appendValueInput('NAME').setAlign(Blockly.ALIGN_RIGHT).appendField(param[i]);
+            }
+            this.setInputsInline(false);
+            if (output) {
+              this.setOutput(true, null);
+            } else {
+              this.setPreviousStatement(true, null);
+              this.setNextStatement(true, null);
+            }
+            this.setColour(COLOUR_METHOD);
+          }
+        };
+      }
       if(type == 'event') {
         renderEventBlock(blockId, block['param'].length || 0);
       }
@@ -186,6 +206,7 @@ function renderSingleBlockDiv(divElement) {
         renderAndGetBlock(blockId, scale, margin_left, margin_top, margin_right, margin_bottom);
       }
       divElement.removeAttribute('not-rendered');
+
 
   }
 
