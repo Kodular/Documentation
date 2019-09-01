@@ -84,6 +84,7 @@ markdown_extensions:
         - !!python/name:macros.blocks_macros.PropertyBlockGetterMacro
         - !!python/name:macros.blocks_macros.PropertyBlockGetAndSetMacro
         - !!python/name:macros.blocks_macros.EventBlockMacro
+        - !!python/name:macros.blocks_macros.MethodBlockMacro
 
 # Site navigation in the side bar
 nav:

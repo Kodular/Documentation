@@ -87,3 +87,30 @@ class EventBlockMacro(mdx_macros.BaseMacro):
         quoted = urllib.parse.quote(value_str, safe='~@#$&()*!+=:;,.?/\''); # equivalent of encodeURI in JS
 
         return div.format(value=quoted)
+
+
+class MethodBlockMacro(mdx_macros.BaseMacro):
+    """
+    Returns the <div> containing information about a Component's Method Block.
+    Usage:
+        [[Method('Component Name', 'Method Name', <has_return_value: Boolean>, params)]]
+
+        Add the parameters of a method to the end of the macro call.
+        - `[[Method('Button', 'Simulate Click', False)]]` - for an method with no return value and without parameters.
+        - `[[Method('Device Utility', 'Copy', False, 'success Toast Message')]]` - for a  method with no return value and with parameters.
+        - `[[Method('Color Utility', 'Get Luminance', True,  'color')]]` - for a method with return value and with parameters.
+        - `[[Method('Device Utility', 'Is Emulator', True)]]` - for a method with return value and without parameters.
+
+    """
+
+    name = 'Method Block macro'
+    key  = 'Method'
+
+    def handler(self, component_name, method_name, has_return_value=False,*params, **kwargs):
+
+        div = '<div class="block" ai2-block="method" not-rendered="true" value="{value}"></div>'
+        value_dict = {"componentName": component_name,  "name": method_name, "param": params, "output": has_return_value}
+        value_str = json.dumps(value_dict)
+        quoted = urllib.parse.quote(value_str, safe='~@#$&()*!+=:;,.?/\''); # equivalent of encodeURI in JS
+
+        return div.format(value=quoted)
