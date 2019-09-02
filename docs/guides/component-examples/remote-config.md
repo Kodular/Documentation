@@ -148,6 +148,11 @@ Setting the parameter to true by default
 ### Rolling back updates
 To roll back the update you've made, remove the condition from the `parameter` and set the default value to false. This ensures nobody sees the `Bottom Navigation` anymore.
 
+![](/assets/images/guides/remote-config/ext_frc-roback.gif)
+
+Removing the condition so that the parameter always returns false
+{: .img-caption}
+
 Congratulations! You've successfully learnt to stage your app updates and release features to select users! 
 
 Here is a summary of what you've learned in this guide.
