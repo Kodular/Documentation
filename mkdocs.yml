@@ -110,6 +110,7 @@ nav:
       - Via USB: guides/live-development/usb.md
     - Component Guides:
       - Using Dynamic Cards: guides/component-examples/dynamic-cards.md
+      - Staged App Updates: guides/component-examples/remote-config.md
     - Extensions:
       - Create Extensions: guides/extensions/create-extensions.md
   - Components:
