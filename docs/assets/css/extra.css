@@ -293,8 +293,8 @@ img[src*="#phone"] {
 
 img[src*="#phInline"] {
   height: 300px !important;
-  display: inline;
   margin: 0 auto;
+	display: inline;
 }
 
 img[src*="#animationUtilsPreview"] {
