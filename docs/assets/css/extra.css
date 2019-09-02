@@ -291,6 +291,12 @@ img[src*="#phone"] {
   margin: 0 auto;
 }
 
+img[src*="#phInline"] {
+  height: 300px !important;
+  display: inline;
+  margin: 0 auto;
+}
+
 img[src*="#animationUtilsPreview"] {
   height: 300px !important;
 	float: right;
