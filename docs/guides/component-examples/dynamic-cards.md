@@ -17,10 +17,10 @@ Here are some things you should know before you can get started with this guide.
  
 ## First steps
 
-We will be using the <a href="https://newsapi.org/" target="_blank">News API</a> to fetch the trending headlines. Head over to <a href="https://newsapi.org/" target="_blank">https://newsapi.org/</a> to get an API key.
+We will be using the [News API](https://newsapi.org/){target="_blank"} to fetch the trending headlines. Head over to <a href="https://newsapi.org/" target="_blank">https://newsapi.org/</a> to get an API key.
 
 !!! warning
-		You will not be able to monetize apps which use the <a href="https://newsapi.org/" target="_blank">News API</a>. To place ads in apps that use this API, you will have to switch to their paid plan first. More information is available <a href="https://newsapi.org/pricing" target="_blank">here</a>
+		You will not be able to monetize apps which use the [News API](https://newsapi.org/){target="_blank"}. To place ads in apps that use this API, you will have to switch to their paid plan first. More information is available [here](https://newsapi.org/pricing){target="_blank"}
 		
 The API endpoint we'll be using in this guide is `https://newsapi.org/v2/top-headlines?language=en&apiKey={YOUR_API_KEY}`
 
