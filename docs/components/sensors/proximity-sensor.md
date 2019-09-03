@@ -17,7 +17,7 @@ following value:
    
 If enabled, then device will listen for changes in proximity.   
    
-### KeepRunningWhenOnPause   
+### Keep Running When On Pause   
 ![image](url)   
 [ Getter + Setter ]  
 `Type: Boolean`  
