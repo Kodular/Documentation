@@ -12,37 +12,37 @@ following value:
   
 ### Enabled    
 ![image](url)   
-_**(**  Getter + Setter  **)**_    
-_`Type: Boolean`_   
+[ Getter + Setter ]    
+`Type: Boolean`   
    
 If enabled, then device will listen for changes in proximity.   
    
 ### KeepRunningWhenOnPause   
 ![image](url)   
-_**(**  Getter + Setter  **)**_   
-_`Type: Boolean`_   
+[ Getter + Setter ]  
+`Type: Boolean`  
    
 If set to true, it will keep sensing for proximity changes even when the app is not visible.   
     
 ### Disatance  
 ![image](url)   
-_**(**  Getter **)**_   
-_`Type: Number`_   
+[ Getter Only]  
+`Type: Number`   
    
   
 Returns the distance from the object to the device.   
    
 ### MaximumRange  
 ![image](url)  
-_**(**  Getter **)**_   
+[ Getter Only]   
   
   
 Reports the Maximum Range of the device's proximity sensor.   
   
 ### Available   
 ![image](url)   
-_**(**  Getter **)**_   
-_`Type: Boolean`_   
+[ Getter Only]   
+`Type: Number`  
 
 Reports whether or not the device has a proximity sensor.   
    
@@ -50,7 +50,7 @@ Reports whether or not the device has a proximity sensor.
 ![image](url)    
    
 ### Proximity Changed (distance)   
-_**(**  None  **)**_   
+`None`  
     
 Called when the distance (in cm) of the object to the device changes.   
 
