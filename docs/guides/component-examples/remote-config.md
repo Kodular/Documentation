@@ -27,7 +27,7 @@ Here are some things you should know before you can get started with this guide.
  
 ## First steps
 
-Head over to [your Firebase Console](https://console.firebase.google.com) to set up Remote Config for your Firebase project. If you do not have an existing project, create a new one.
+Head over to <a href="https://console.firebase.google.com" target="_blank">your Firebase Console</a> to set up Remote Config for your Firebase project. If you do not have an existing project, create a new one.
 
 Use the navigation menu on the left to go to the Remote Config section.
 ![](/assets/images/guides/remote-config/ext_frc-home.png)
@@ -176,4 +176,4 @@ Want ideas for making this app better? We have some things for you to try.
 ## Downloads
  
  Get the AIA file <a href="/assets/files/aia/remote_config.aia">here</a>.
- Get a working APK <a href="/assets/files/apk/remote_config.aia">here</a>.
+ Get a working APK <a href="/assets/files/apk/remote_config.apk">here</a>.
