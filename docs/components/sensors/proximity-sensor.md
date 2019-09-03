@@ -24,7 +24,7 @@ If enabled, then device will listen for changes in proximity.
    
 If set to true, it will keep sensing for proximity changes even when the app is not visible.   
     
-### Disatance  
+### Distance  
 ![image](url)   
 [ Getter Only]  
 `Type: Number`   
