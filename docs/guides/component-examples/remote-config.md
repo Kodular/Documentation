@@ -27,7 +27,7 @@ Here are some things you should know before you can get started with this guide.
  
 ## First steps
 
-Head over to [your Firebase Console](https://console.firebase.google.com){target="_blank"} to set up Remote Config for your Firebase project. If you do not have an existing project, create a new one.
+Head over to [your Firebase Console](https://console.firebase.google.com){:target="_blank"} to set up Remote Config for your Firebase project. If you do not have an existing project, create a new one.
 
 Use the navigation menu on the left to go to the Remote Config section.
 ![](/assets/images/guides/remote-config/ext_frc-home.png)
