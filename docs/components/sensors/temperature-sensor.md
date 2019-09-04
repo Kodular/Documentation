@@ -1,9 +1,8 @@
-
-# Temperature
+# Temperature Sensor
 
 ## Overview
   
-A non-visible Component that measures the temperature of air surrounding the device in unit of Degree Celsius.
+A non-visible Component that measures the temperature of air surrounding the device in unit of degree Celsius.
 
   
 ## Properties
@@ -16,7 +15,7 @@ Type: Boolean
 
 ![image](url) 
 
-If checked the sensor will be enabled
+If checked the sensor will be enabled.
 
   
 ### Available 
