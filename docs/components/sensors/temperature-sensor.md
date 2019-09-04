@@ -41,7 +41,9 @@ Check if the device has a temperature sensor.
   
 ![image](url)   
 
-Return the temperature in degree Celsius.
+Return the temperature in degree Celsius.   
+!!! caution "" 
+  To get value, _[Temperature Sensor](#overview)_ must be enabled.  
 ## Events  
 ### Temperature Changed  
 \[ Number `temperature`\]   
