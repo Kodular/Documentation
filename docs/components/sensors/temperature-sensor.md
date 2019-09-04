@@ -10,25 +10,25 @@ A non-visible Component that measures the temperature of air surrounding the dev
   
 
 ### Enabled 
-[ Getter + Setter ] 
-Type: Boolean    
+[ Getter + Setter ]  
+`Type: Boolean`       
 
-![image](url) 
+![image](url)  
 
-If checked the sensor will be enabled.
+If checked the sensor will be enabled. 
 
   
 ### Available 
 [ Getter Only ]  
-Type: Boolean  
+`Type: Boolean`     
 ![image](url)   
 
-Check if the device has Temperature sensor.  
+Check if the device has a temperature sensor.  
 
 
 ### Temperature 
 [ Getter Only ]  
-Type: Number   
+`Type: Number`      
 ![image](url)   
 
 Return the temperature in degree Celsius.
@@ -36,4 +36,8 @@ Return the temperature in degree Celsius.
 ### Temperature Changed  
 [ Number `Tempereature` ]   
 ![image](url)  
-Event that fires when temperature is changed. 
+Event that fires when temperature is changed.  
+
+Params           |  []()       
+---------------- | ------- 
+`Temperature`          | **Number:**  Return new temperature value when temperature get changed.
