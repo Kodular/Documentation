@@ -43,7 +43,7 @@ Check if the device has a temperature sensor.
 Return the temperature in degree Celsius.
 ## Events  
 ### Temperature Changed  
-[ Number `Tempereature` ]   
+[ Number `temperature` ]   
 ![image](url)  
 Event that fires when temperature is changed.  
 
