@@ -49,4 +49,4 @@ Event that fires when temperature is changed.
 
 Params           |  []()       
 ---------------- | ------- 
-`Temperature`          | **Number:**  Return new temperature value when temperature get changed.
+`Temperature`          | **Number:**  Return new temperature value(in degree Celsius) when temperature get changed.
