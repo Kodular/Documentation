@@ -25,7 +25,8 @@ However, to keep our services for free, _we take a small comission from your ear
 
 The components we take commissions from are **only** Interstitial ones. The other ones are free of commissions. Interstitial ads are the top performing ad types.
 
-The percentage of your earnings we take **varies from a basic 10% up to a 20%**, depending on the _number of features_ you use in your app. For example, if an app with Interstitial Ads is very simple, _we will only take the 10% of those earnings_. But if the app uses all our components and features, _the commission will be of 20%_.
+The percentage of your earnings we take **starts from a basic 5%**, and increases depending on the _number of components and features_ you use in your app. For example, if an app is very simple, _we will only take the 5% of those earnings_. But if the app uses all our components and features, _the commission will be increased_.  
+You can calculate the final commission using [this app](https://play.google.com/store/apps/details?id=io.kodular.commission).
 
 You do not have to worry about paying us the correct percentage. **We take it automatically** using something called "fallback ads". Find more information about this [here](https://community.kodular.io/t/new-commissions-system/27418/).
 
