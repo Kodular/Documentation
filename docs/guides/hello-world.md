@@ -30,7 +30,7 @@ The _project_ will be created and you will be taken to the <span class="keyword"
 First, let us walk thorough the Designer UI of Kodular Creator.
 <br><br><br>
 <div class="browser-mockup">
-  <img src="/assets/images/other/designer-tagged-with-numbers.jpeg" />
+  <img src="/assets/images/other/designer-tagged-with-numbers.jpg" />
 </div>
 <br><br><br>
 The above shown screen is called **_Designer_**.  

@@ -9,21 +9,12 @@ We wanted it like that so **anyone could convert their desired ideas into apps**
 
 This also extends to **Kodular Store** and **Kodular Extensions IDE**.
 
-??? note "Why this business model?"
-    Kodular was created to providen accessible suite for everyone to learn and, later, professionally create apps
-    Due to this, we strongly believe learning to code has to be a right and nobody should have to pay in order to learn the basics of programming.  
-    Kodular Creator provides one of the most complete tools in Internet to create apps without coding, and moreover it is being used by tons of students all over the world.
-
-    Everybody has to be able to make their idea reality independently of their income.  
-    Someone can have the next big revolutionary idea, but sometimes without money it cannot be done.  
-    We don’t want this to happen.
-
-    Also, as you might know, we take a small commission from Interstitial components.  
-    What is fairer? Getting a fixed quota from everyone, without taking into account if they earn something, or taking the proportional earnings people make with our platform?  
-    I think the answer is very obvious.
-
-    We do not earn nothing from people which doesn’t earn anything with our platform.  
-    And we only earn from people who monetize their apps, earning money with Kodular Creator.
+!!! quote "Why this business model?"
+    Kodular was created to providen accessible suite for everyone to learn and, later, professionally create apps. Due to this, we strongly believe learning to code has to be a right and nobody should have to pay in order to learn the basics of programming.  
+    Kodular Creator provides one of the most complete tools in Internet to create apps without coding, and moreover it is being used by tons of students all over the world. Everybody has to be able to make their idea reality independently of their income. Someone can have the next big revolutionary idea, but sometimes without money it cannot be done.  
+    We don’t want this to happen.  
+    **What is fairer? Getting a fixed quota from everyone, without taking into account if they earn something, or taking the proportional earnings people make with our platform?** We think the answer is very obvious.  
+    We do not earn nothing from people which doesn’t earn anything with our platform. And we only earn from people who monetize their apps, earning money with Kodular Creator.
 
 ## Commissions
 
@@ -34,7 +25,8 @@ However, to keep our services for free, _we take a small comission from your ear
 
 The components we take commissions from are **only** Interstitial ones. The other ones are free of commissions. Interstitial ads are the top performing ad types.
 
-The percentage of your earnings we take **varies from a basic 10% up to a 20%**, depending on the _number of features_ you use in your app. For example, if an app with Interstitial Ads is very simple, _we will only take the 10% of those earnings_. But if the app uses all our components and features, _the commission will be of 20%_.
+The percentage of your earnings we take **starts from a basic 5%**, and increases depending on the _number of components and features_ you use in your app. For example, if an app is very simple, _we will only take the 5% of those earnings_. But if the app uses all our components and features, _the commission will be increased_.  
+You can calculate the final commission using [this app](https://play.google.com/store/apps/details?id=io.kodular.commission).
 
 You do not have to worry about paying us the correct percentage. **We take it automatically** using something called "fallback ads". Find more information about this [here](https://community.kodular.io/t/new-commissions-system/27418/).
 
