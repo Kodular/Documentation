@@ -111,6 +111,7 @@ nav:
     - Component Guides:
       - Using Dynamic Cards: guides/component-examples/dynamic-cards.md
       - Staged App Updates: guides/component-examples/remote-config.md
+      - Firebase Rules: guides/component-examples/firebase-rules.md
     - Extensions:
       - Create Extensions: guides/extensions/create-extensions.md
   - Components:
