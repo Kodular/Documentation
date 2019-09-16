@@ -96,6 +96,11 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
+     <loc>https://docs.kodular.io/guides/component-examples/securing-app/</loc>
+     <lastmod>2019-09-16</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
      <loc>https://docs.kodular.io/guides/extensions/create-extensions/</loc>
      <lastmod>2019-09-16</lastmod>
      <changefreq>daily</changefreq>
