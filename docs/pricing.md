@@ -23,7 +23,7 @@ This also extends to **Kodular Store** and **Kodular Extensions IDE**.
 
 To keep our services free for everyone, forever, _we take a small percentage of commission from your earnings in ads_. We do not force anybody to place ads in apps, but if you want to earn money, we take a percentage of your earnings.
 
-The ads from which we take commissions are **only** Interstitial ones. All other ad types are free of commissions
+The ads from which we take commissions are **only** Interstitial and Rewarded Video ones. All other ad types are free of commissions
 
 The percentage of commission we take from your earnings **starts from a basic 5%**, and increases depending on the _number of components and features_ you use in your app. For example, if an app is very simple, _we will only take the 5% of those earnings_. But if the app uses all our components and features, _the commission will be increased_.  
 You can calculate the final commission using [this app](https://play.google.com/store/apps/details?id=io.kodular.commission).
