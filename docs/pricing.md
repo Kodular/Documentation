@@ -14,7 +14,7 @@ This also extends to **Kodular Store** and **Kodular Extensions IDE**.
     Kodular Creator provides one of the most complete tools in Internet to create apps without coding, and moreover it is being used by tons of developers from all over the world. Everybody should be able to make their ideas a reality, independently of their income. Someone can have the next big revolutionary idea, but sometimes without money it cannot be done.  
     We don’t want this to happen.  
     **What is fairer? Getting a fixed quota from everyone, without taking into account if they earn something, or taking the proportional earnings people make with our platform?** We think the answer is very obvious.  
-    We **DO NOT** earn a single penny from the apps that don’t earn anything with our platform. We only earn from the apps that are monetized with ads or IAP.
+    We **DO NOT** earn a single penny from the apps that don’t earn anything with our platform. We only earn from the apps that are monetized with ads using Kodular Creator.
 
 ## Commissions
 
