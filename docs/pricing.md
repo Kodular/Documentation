@@ -5,7 +5,7 @@
 
 Kodular Creator is **completely free of charge**. You can use it for whatever you want, and _we will never ask you to pay us_.
 
-We wanted it to be like that so **anyone could convert their awesome ideas into apps** in a simple way. We believe that _everybody should have the right to create apps even without knowing how to code_. That's why, our platform is free and **it will remain like that forever**.
+We wanted it to be like that so **anyone could convert their awesome ideas into apps** in a simple way. We believe that _everybody should have the right to create apps even without knowing how to code_. That's why our platform is free and **it will remain like that forever**.
 
 This also extends to **Kodular Store** and **Kodular Extensions IDE**.
 
