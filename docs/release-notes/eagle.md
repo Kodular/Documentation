@@ -536,3 +536,53 @@ _Currently using latest version (5.4.1)_
 - **Hungarian language** did *not have translated blocks*, even though they were translated
 
 - The *Device Id block* in **Device Utilities** component was not returning any value
+
+&nbsp;
+
+## 1.4.2 Eagle   \|   _22 September 2019_
+
+### Major Changes
+
+- Improved **Blockly** performance  
+*We've tweaked the way Blockly compiles, so your blocks will now load and run faster*
+
+- Treated `com.appybuilder.email.app_name` as **default package for commission**  
+*This keeps commission at 0% when using the equivalent AppyBuilder package name*
+
+### New Blocks
+
+- [:appinventor: Added **not-equal** to *compare texts* block](https://github.com/mit-cml/appinventor-sources/commit/7452a36fd0497a617b9b183d6dcac6b6ff322fc2)  
+![image|287x55](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/2/b/2b189aa0f88f1884956e1f7ba1c19d090b974b20.png)
+
+### New Events
+
+- Added **Got Value** event to *Push Notifications*  
+![image|380x116](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/3/8/384026e5b5f77c4afb8a6ecbc6a36bbfc5bc9225.png)
+
+### New Events
+
+- Added **Get Value** method to *Push Notifications*  
+![image|372x106](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/2/3/23d7c3ad91142e203c1a215589fcb4616b9cd7d5.png)
+
+### Bug Fixes
+
+- Fixed broken **help URLs** in the Blocks Editor
+
+- Fixed **Facebook Ads** components (currently using `audience-network-5.5.0`)
+
+- Fixed issue with **Billing** events which were not being triggered
+
+- **Push Notifications** component was crashing in some projects
+	- Fixed *GetAvailableTags* & *GotAvaliableTags* in **Push Notifications**
+&nbsp;
+	- Updated OneSignal library
+
+- Fixed **Bluetooth Admin** bug which had previously broken the component
+
+- [:appinventor: Fixed empty dropdown](https://github.com/mit-cml/appinventor-sources/commit/9e38309ffd5e4bb772edd56a471c77448347da45)
+
+- [:appinventor: Add internationalization to component block tooltips in Blocks Editor](https://github.com/mit-cml/appinventor-sources/commit/4e08a869d89e81192697958947b43ecf6a221104)
+
+- [:appinventor: Fix REPL bug when switching to freshly opened projects](https://github.com/mit-cml/appinventor-sources/commit/f1214cbe42289cba209cb1c3ebd8a837d70ca14a)
+
+- [:appinventor: Fix missing tooltips in extension blocks](https://github.com/mit-cml/appinventor-sources/commit/aeaaea29a4f9aa32ba6ae061f422
