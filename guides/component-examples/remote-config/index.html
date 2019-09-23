@@ -3869,7 +3869,7 @@
 <p>Firebase Remote Config works using <code>parameters</code> and <code>values</code>. Your will app will fetch the <code>value</code> of a <code>parameter</code> and then decide how to proceed. Firebase can send different <code>value</code>s to different users, based on some conditions you can set. In this guide, we will create a <code>parameter</code> called <code>bottom_nav_enabled</code>, which returns <code>false</code> for all users except the 20% chosen at random.</p>
 <p><img alt="" src="/assets/images/guides/remote-config/ext_frc-param-name.png" /></p>
 <p class="img-caption">Give the parameter a name</p>
-<p>Next, add a condition to your <code>parameter</code>. Every conditon has a name, so that it can be identified easily when several are being used. We will name our condition <code>random_testers_group</code>. There are several constraints to choose from, but for this guide, we will restrict ourselves to "User in random percentile". </p>
+<p>Next, add a condition to your <code>parameter</code>. Every conditon has a name, so that it can be identified easily when several are being used. We will name our condition <code>random_testers_group</code>. There are several constraints to choose from, but for this guide, we will restrict ourselves to "User in random percentile".</p>
 <p><img alt="" src="/assets/images/guides/remote-config/ext_frc-condition.gif" /></p>
 <p class="img-caption">Add a condition</p>
 <div class="admonition tip">
@@ -3937,7 +3937,7 @@ Place the <code>fetch</code> block in the Screen's <code>Initialize</code> event
 <p>To roll back the update you've made, remove the condition from the <code>parameter</code> and set the default value to false. This ensures nobody sees the <code>Bottom Navigation</code> anymore.</p>
 <p><img alt="" src="/assets/images/guides/remote-config/ext_frc-roback.gif" /></p>
 <p class="img-caption">Removing the condition so that the parameter always returns false</p>
-<p>Congratulations! You've successfully learnt to stage your app updates and release features to select users! </p>
+<p>Congratulations! You've successfully learnt to stage your app updates and release features to select users!</p>
 <p>Here is a summary of what you've learned in this guide.</p>
 <ul>
 <li>How to set up Remote Config in Firebase.</li>
@@ -3956,8 +3956,8 @@ Place the <code>fetch</code> block in the Screen's <code>Initialize</code> event
 <li>Add a feedback form to your app so that users can share their thoughts on the <code>Bottom Navigation</code>. Ensure that the feedback form is shown only to users who see the <code>Bottom Navigation</code>!</li>
 </ul>
 <h2 id="downloads">Downloads<a class="headerlink" href="#downloads" title="Permanent link">&para;</a></h2>
-<p>Get the AIA file <a href="/assets/files/aia/remote_config.aia">here</a>.
- Get a working APK <a href="/assets/files/apk/remote_config.apk">here</a>.</p>
+<p>Get the AIA file <a href="https://kodular-docs.s3-eu-west-1.amazonaws.com/aia/remote_config.aia">here</a>.
+ Get a working APK <a href="https://kodular-docs.s3-eu-west-1.amazonaws.com/apk/remote_config.apk">here</a>.</p>
                 
                   
                 
