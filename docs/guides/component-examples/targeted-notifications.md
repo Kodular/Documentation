@@ -79,4 +79,4 @@ Want ideas for making this app better? We have some things for you to try.
 
 ## Downloads
 
- Get the APK file <a href="/assets/files/apk/targeted-notifications.apk">here</a>.
+ Get the APK file <a href="https://kodular-docs.s3-eu-west-1.amazonaws.com/apk/targeted_notifications.apk">here</a>.

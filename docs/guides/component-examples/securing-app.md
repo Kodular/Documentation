@@ -2,7 +2,7 @@
 
 ## Overview
 
-In this guide, you will learn how to secure your Firebase real-time database using Firebase Rules. Rules are a JSON and JavaScript based system that allow you to restrict database access to certain tags and/or users. 
+In this guide, you will learn how to secure your Firebase real-time database using Firebase Rules. Rules are a JSON and JavaScript based system that allow you to restrict database access to certain tags and/or users.
 
 You will be making a simple app that lets users sign in with Firebase Authentication and saves their data in the real-time database. Then, you will write some rules to prevent others from accessing sensitive user data.
 
@@ -11,12 +11,12 @@ Here are some things you should know before you can get started with this guide.
 
  * Working with Firebase Database and Authentication
  * Working with Firebase Rules
- 
+
 !!! caution
 		This is guide covers advanced Firebase topics. For sake of keeping this guide at a readable length, some basic instructions will be glossed over with the assumption that you are aware of the workings of other components. If not, please take a look at more basic guides before getting started here.
-		
+
 Take a look at our guide on [working with Firebase Rules](/guides/component-examples/firebase-rules) for an introduction to the rules system.
- 
+
 ## First steps
 
 Head over to [your Firebase Console](https://console.firebase.google.com){:target="_blank"} to set up a real-time database for your Firebase project. If you do not have an existing project, create a new one.
@@ -55,7 +55,7 @@ That's all the Firebase for now. Let's move to building your app. We'll come bac
 
 As usual, we'll start with a new project. We will need three buttons for this project - one to sign the user in, another to send their details to the database, and one more to fetch the names of all users in the database. Drag and drop three `Button` components and name them `SignInButton`, `UpdateDetailsButton`, and `GetDetailsButton`.
 
-Next, drop a `Text Box` where the user will be able to enter their name. 
+Next, drop a `Text Box` where the user will be able to enter their name.
 
 Then, add a `Notifier` component and rename it to `MessageNotifier`. We will use this component to display the names of all users.
 
@@ -63,7 +63,7 @@ Finally, drop the `Firebase Database`, `Firebase Authentication`, and `Device Ut
 
 !!! warning
 		You will have to upload the `google-services.json` file to Assets to be able to export your app. This file can be obtained from your Firebase Console.
-		
+
 This is what your designer should look like
 
 ![](/assets/images/guides/firebase-rules/d_preview.png)
@@ -90,7 +90,7 @@ Next, we handle clicks on the `UpdateDetailsButton`. When the button is clicked,
 
 !!! note
 		As of now, a user can fetch the list of all uids and update the details of any other user. We will be writing Firebase rules later to ensure the data a user can edit is limited to their uid.
-		
+
 Finally, we code the recursive function to get the names of all the users. Note that we cannot use the `Get Tag List` block as the rules we will be writing will block direct access to these tags.
 
 To get the names of all the users, we will need two lists: one for all uids and another for all names.
@@ -135,7 +135,7 @@ To start off, replace the currently set rules with a blank template as shown bel
 ```
 {
   "rules": {
-   	 
+
   }
 }
 ```
@@ -160,7 +160,7 @@ We wish for a user to be able to edit only their details. Each user has a tag fo
   "rules": {
    	 "*PROJECT_BUCKET*": {
       "$uid": {
-        
+
       }
     }
   }
@@ -310,7 +310,7 @@ Our final list of rules looks like this:
         	".write": "auth.uid == $uid"
       	}
       },
-      
+
       "uids" : {
         ".read" : "auth != null",
         ".write" : "newData.child(auth.uid).exists() && !data.child(auth.uid).exists()"
@@ -334,7 +334,7 @@ Here is a summary of what you've learned in this guide.
  - How to set up a Google login system using Firebase Authentication.
  - How to write rules that allow only partial access to tags and values.
  - How to recursively fetch details of all users.
- 
+
 ## Next steps
 
 Want ideas for making this app better? We have some things for you to try.
@@ -342,7 +342,7 @@ Want ideas for making this app better? We have some things for you to try.
  - Add more tags for each user and decide if they should be public or private.
  - Ensure that the name, email, and Android version are never empty using Firebase validation rules.
  - Let users sign up/log in using their email and password
- 
+
 ## Downloads
- 
- Get the AIA file <a href="/assets/files/aia/firebase_rules.aia">here</a>.
+
+ Get the AIA file <a href="https://kodular-docs.s3-eu-west-1.amazonaws.com/aia/firebase_rules.aia">here</a>.

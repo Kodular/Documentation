@@ -21,10 +21,10 @@ Here are some things you should know before you can get started with this guide.
 
  * Working with Firebase
  * Working with the Tab Layout and Bottom Navigation components
- 
+
 !!! caution
 		This is guide covers advanced topics like Firebase, staged rollouts, and generic blocks. For sake of keeping this guide at a readable length, some basic instructions will be glossed over with the assumption that you are aware of the workings of other components. If not, please take a look at more basic guides before getting started here.
- 
+
 ## First steps
 
 Head over to [your Firebase Console](https://console.firebase.google.com){:target="_blank"} to set up Remote Config for your Firebase project. If you do not have an existing project, create a new one.
@@ -39,7 +39,7 @@ Firebase Remote Config works using `parameters` and `values`. Your will app will
 Give the parameter a name
 {: .img-caption}
 
-Next, add a condition to your `parameter`. Every conditon has a name, so that it can be identified easily when several are being used. We will name our condition `random_testers_group`. There are several constraints to choose from, but for this guide, we will restrict ourselves to "User in random percentile". 
+Next, add a condition to your `parameter`. Every conditon has a name, so that it can be identified easily when several are being used. We will name our condition `random_testers_group`. There are several constraints to choose from, but for this guide, we will restrict ourselves to "User in random percentile".
 
 ![](/assets/images/guides/remote-config/ext_frc-condition.gif)
 
@@ -48,7 +48,7 @@ Add a condition
 
 !!! tip
 		It is possible to chain several constraints in a single condition using the "and" button.
-		
+
 Your `parameter` can now have two `value`s: one for those in the `random_testers_group`, and another for everybody else. Set the `value` to "true" for the testers, and "false" for others.
 
 ![](/assets/images/guides/remote-config/ext_frc-param-value.png)
@@ -78,7 +78,7 @@ Finally, set the `Visible` property of the `Bottom Navigation` component to `Fal
 
 !!! warning
 		You will have to upload the `google-services.json` file to Assets to be able to export your app. This file can be obtained from your Firebase Console.
-		
+
 This is what your designer should look like
 
 ![](/assets/images/guides/remote-config/d_preview.png)
@@ -153,7 +153,7 @@ To roll back the update you've made, remove the condition from the `parameter` a
 Removing the condition so that the parameter always returns false
 {: .img-caption}
 
-Congratulations! You've successfully learnt to stage your app updates and release features to select users! 
+Congratulations! You've successfully learnt to stage your app updates and release features to select users!
 
 Here is a summary of what you've learned in this guide.
 
@@ -162,7 +162,7 @@ Here is a summary of what you've learned in this guide.
  - How to create a simple screen with a Tab Layout and a Bottom Navigation.
  - How to fetch the Remote Config parameters.
  - How to use the fetched data to change the layout of your app during runtime.
- 
+
 ## Next steps
 
 Want ideas for making this app better? We have some things for you to try.
@@ -172,8 +172,8 @@ Want ideas for making this app better? We have some things for you to try.
  - Add language based constraints. For instance, show a link to a German-English dictionary in your app if the user is from Germany.
  - Roll back features and release them to all your users.
  - Add a feedback form to your app so that users can share their thoughts on the `Bottom Navigation`. Ensure that the feedback form is shown only to users who see the `Bottom Navigation`!
- 
+
 ## Downloads
- 
- Get the AIA file <a href="/assets/files/aia/remote_config.aia">here</a>.
- Get a working APK <a href="/assets/files/apk/remote_config.apk">here</a>.
+
+ Get the AIA file <a href="https://kodular-docs.s3-eu-west-1.amazonaws.com/aia/remote_config.aia">here</a>.
+ Get a working APK <a href="https://kodular-docs.s3-eu-west-1.amazonaws.com/apk/remote_config.apk">here</a>.

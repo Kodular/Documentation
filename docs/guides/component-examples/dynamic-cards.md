@@ -11,17 +11,17 @@ Here are some things you should know before you can get started with this guide.
  * Working with APIs and the Web Component
  * Working with the JSON component
  * Working with Dynamic Labels, Buttons, and Images
- 
+
 !!! caution
 		This is guide covers advanced topics like dynamic components and web APIs. For sake of keeping this guide at a readable length, some basic instructions will be glossed over with the assumption that you are aware of the workings of other components. If not, please take a look at more basic guides before getting started here.
- 
+
 ## First steps
 
 We will be using the [News API](https://newsapi.org/){:target="_blank"} to fetch the trending headlines. Head over to [https://newsapi.org/](https://newsapi.org/){:target="_blank"}> to get an API key.
 
 !!! warning
 		You will not be able to monetize apps which use the [News API](https://newsapi.org/){:target="_blank"}. To place ads in apps that use this API, you will have to switch to their paid plan first. More information is available [here](https://newsapi.org/pricing){:target="_blank"}
-		
+
 The API endpoint we'll be using in this guide is `https://newsapi.org/v2/top-headlines?language=en&apiKey={YOUR_API_KEY}`
 
 This is what a sample response looks like: <br>
@@ -44,7 +44,7 @@ We will need the article `title`, `description`, and `urlToImage` to populate th
 
 ## Designing the app
 
-As usual, we'll start with a new project. Drag and drop the `Vertical Scroll Arrangement`, `Web`, `JSON`, `Dynamic Label`, `Dynamic Image`, and `Dynamic Card View` components. 
+As usual, we'll start with a new project. Drag and drop the `Vertical Scroll Arrangement`, `Web`, `JSON`, `Dynamic Label`, `Dynamic Image`, and `Dynamic Card View` components.
 
 Set the `Vertical Scroll Arrangement`'s height and width designer properties to `Fill Parent`, and its `Align Vertical` property to `Center`.
 
@@ -57,7 +57,7 @@ This is what your designer should look like
 ![](/assets/images/guides/dynamic-cards/d_with-components.png)
 
 
-The top 20 news articles will be displayed as `Dynamic Card View`s, which will be loaded inside the `Vertical Scroll Arrangement`. Each card will include the article's title, a short description, and a header image. 
+The top 20 news articles will be displayed as `Dynamic Card View`s, which will be loaded inside the `Vertical Scroll Arrangement`. Each card will include the article's title, a short description, and a header image.
 
 
 ## Coding the blocks
@@ -85,7 +85,7 @@ Next, we create another procedure which takes the JSON object and the array inde
 
 !!! tip
 		It is recommended you place blocks in procedures so that they are more readable and can be used several times.
-		
+
 For each news article, we first create a card view that holds all the content we wish to show. Use the `Create Card View` block inside the procedure to make a dynamic card for each article. Each card will be 90% of the screen's width and will have automatic height so that it can resize according to the content inside.
 
 ![](/assets/images/guides/dynamic-cards/m_create-dynamic-card-view.png)
@@ -120,7 +120,7 @@ The finished project
 All the blocks we've used
 {: .img-caption}
 
-Hooray! You've successfully made an app that uses dynamic card views! 
+Hooray! You've successfully made an app that uses dynamic card views!
 
 Here is a summary of what you've learned in this guide.
 
@@ -128,7 +128,7 @@ Here is a summary of what you've learned in this guide.
  - How to add other dynamic components inside dynamic card views.
  - How to load images asynchronously inside dynamic images.
  - How to decode JSON that is fetched from an API.
- 
+
 ## Next steps
 
 Want ideas for making this app better? We have some things for you to try.
@@ -137,7 +137,7 @@ Want ideas for making this app better? We have some things for you to try.
  - Toggle the visibility of the card's descriptions when they are clicked on.
  - Experiment with different font sizes and typefaces for the title and description.
  - Add more information to each card, like the author's name and the date of publication.
- 
+
 ## Downloads
- 
- Get the AIA file <a href="/assets/files/aia/dynamic_cards.aia">here</a>.
+
+ Get the AIA file <a href="https://kodular-docs.s3-eu-west-1.amazonaws.com/aia/firebase_rules.aia">here</a>.
