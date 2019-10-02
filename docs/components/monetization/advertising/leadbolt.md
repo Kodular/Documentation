@@ -2,7 +2,7 @@
 
 ## Overview
 
-The **LeadBolt** component allows you to show interstitial and rewarded ads from [Leadbolt.com](https://www.leadbolt.com/)
+The **LeadBolt** component allows you to show interstitial and rewarded ads from [Leadbolt.com](https://www.leadbolt.com/){:target = "_blank"}
 
 ## Methods
 
