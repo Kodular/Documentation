@@ -3,7 +3,7 @@
 !!! success "How much does it cost?"
     Kodular is **FREE**!
 
-Kodular Creator is **completely free of charge**. You can use it for whatever you want, and _we will never ask you to pay us_.
+Kodular Creator is **completely free of charge**. You can use it for whatever you want, and _we will never ask you to pay us for its usage_.
 
 We wanted it like that so **anyone could convert their desired ideas into apps** in a simple way. We think that _everybody should have the right to create apps even without knowing how to code_. That is why our platform is free and **it will remain like that forever**.
 
