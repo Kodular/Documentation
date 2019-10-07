@@ -2289,9 +2289,78 @@
       
     
     
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Cloudinary
+      </label>
+    
     <a href="./" title="Cloudinary" class="md-nav__link md-nav__link--active">
       Cloudinary
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    Overview
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#methods" class="md-nav__link">
+    Methods
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#upload-media" class="md-nav__link">
+    Upload Media
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#events" class="md-nav__link">
+    Events
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#media-uploaded" class="md-nav__link">
+    Media Uploaded
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
     
   </li>
 
@@ -3619,6 +3688,62 @@
     
   
   
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    Overview
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#methods" class="md-nav__link">
+    Methods
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#upload-media" class="md-nav__link">
+    Upload Media
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#events" class="md-nav__link">
+    Events
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#media-uploaded" class="md-nav__link">
+    Media Uploaded
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
 </nav>
                 </div>
             </div>
@@ -3633,10 +3758,35 @@
                 
                 
                 <h1 id="cloudinary">Cloudinary<a class="headerlink" href="#cloudinary" title="Permanent link">&para;</a></h1>
-<div class="admonition caution">
-<p>This page is still in progress.
-Please refer the block descriptions for usage.</p>
-</div>
+<h2 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">&para;</a></h2>
+<p>The <strong>Cloudinary</strong> component allows you to upload and store media assets (such as images, videos and audio) to <a href="https://cloudinary.com/" target="target">Cloudinary.com</a></p>
+<h2 id="methods">Methods<a class="headerlink" href="#methods" title="Permanent link">&para;</a></h2>
+<h3 id="upload-media">Upload Media<a class="headerlink" href="#upload-media" title="Permanent link">&para;</a></h3>
+<div ai2-block="method" class="block" not-rendered="true" value="%7B%22componentName%22:%20%22Cloudinary%22,%20%22name%22:%20%22Upload%20Media%22,%20%22param%22:%20%5B%22path%22%5D,%20%22output%22:%20false%7D"></div>
+<p>Use this block to upload the specified media file to your Cloudinary media library</p>
+<h2 id="events">Events<a class="headerlink" href="#events" title="Permanent link">&para;</a></h2>
+<h3 id="media-uploaded">Media Uploaded<a class="headerlink" href="#media-uploaded" title="Permanent link">&para;</a></h3>
+<div ai2-block="event" class="block" not-rendered="true" value="%7B%22componentName%22:%20%22Cloudinary%22,%20%22name%22:%20%22Media%20Uploaded%22,%20%22param%22:%20%5B%22response%20Content%22,%20%22url%22%5D%7D"></div>
+<p>[ Text <code>response Content</code>, Text <code>url</code> ]</p>
+<p>Triggered when media is uploaded.</p>
+<table>
+<thead>
+<tr>
+<th>Params</th>
+<th><a href=""></a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>response Content</code></td>
+<td><strong>Text:</strong>  Tells you whether or not the media was successfully uploaded.</td>
+</tr>
+<tr>
+<td><code>url</code></td>
+<td><strong>Text:</strong>  The URL of the uploaded media file.</td>
+</tr>
+</tbody>
+</table>
                 
                   
                 
