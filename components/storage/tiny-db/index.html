@@ -2361,106 +2361,9 @@
       
     
     
-      <label class="md-nav__link md-nav__link--active" for="__toc">
-        Tiny DB
-      </label>
-    
     <a href="./" title="Tiny DB" class="md-nav__link md-nav__link--active">
       Tiny DB
     </a>
-    
-      
-<nav class="md-nav md-nav--secondary">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">Table of contents</label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#overview" class="md-nav__link">
-    Overview
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#properties" class="md-nav__link">
-    Properties
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#namespace" class="md-nav__link">
-    Namespace
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#methods" class="md-nav__link">
-    Methods
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#clear-all" class="md-nav__link">
-    Clear All
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#clear-tag" class="md-nav__link">
-    Clear Tag
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#get-tags" class="md-nav__link">
-    Get Tags
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#get-value" class="md-nav__link">
-    Get Value
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#store-value" class="md-nav__link">
-    Store Value
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-      
-      
-      
-      
-    </ul>
-  
-</nav>
     
   </li>
 
@@ -3716,90 +3619,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">Table of contents</label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#overview" class="md-nav__link">
-    Overview
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#properties" class="md-nav__link">
-    Properties
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#namespace" class="md-nav__link">
-    Namespace
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#methods" class="md-nav__link">
-    Methods
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#clear-all" class="md-nav__link">
-    Clear All
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#clear-tag" class="md-nav__link">
-    Clear Tag
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#get-tags" class="md-nav__link">
-    Get Tags
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#get-value" class="md-nav__link">
-    Get Value
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#store-value" class="md-nav__link">
-    Store Value
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-      
-      
-      
-      
-    </ul>
-  
 </nav>
                 </div>
             </div>
@@ -3814,36 +3633,10 @@
                 
                 
                 <h1 id="tiny-db">Tiny DB<a class="headerlink" href="#tiny-db" title="Permanent link">&para;</a></h1>
-<h2 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">&para;</a></h2>
-<p><strong>TinyDB</strong> is a non-visible component that stores data for an app.</p>
-<p>Apps created with Kodular are initialized each time they run. This means that if an app sets the value of a variable and the user then quits the app, the value of that variable will not be remembered the next time the app is run. In contrast, TinyDB is a persistent data store for the app. The data stored in a TinyDB will be available each time the app is run. An example might be a game that saves the high score and retrieves it each time the game is played.</p>
-<p>Data items consist of tags and values. To store a data item, you specify the tag it should be stored under. The tag must be a text block, giving the data a name. Subsequently, you can retrieve the data that was stored under a given tag.</p>
-<p>You cannot use the TinyDB to pass data between two different apps on the phone, although you can use the TinyDB to share data between the different screens of a multi-screen app.</p>
-<p>When you are developing apps using the Kodular Companion, all the apps using that Companion will share the same TinyDB. That sharing will disappear once the apps are packaged and installed on the phone. During development you should be careful to clear the Companion app's data each time you start working on a new app.</p>
-<h2 id="properties">Properties<a class="headerlink" href="#properties" title="Permanent link">&para;</a></h2>
-<h3 id="namespace">Namespace<a class="headerlink" href="#namespace" title="Permanent link">&para;</a></h3>
-<div>
-<div ai2-block="property" class="block" not-rendered="true" value="%7B%22componentName%22:%20%22TinyDB%22,%20%22name%22:%20%22Namespace%22,%20%22getter%22:%20false%7D"></div>
-<div ai2-block="property" class="block" not-rendered="true" value="%7B%22componentName%22:%20%22TinyDB%22,%20%22name%22:%20%22Namespace%22,%20%22getter%22:%20true%7D"></div>
+<div class="admonition caution">
+<p>This page is still in progress.
+Please refer the block descriptions for usage.</p>
 </div>
-<p>Namespace for storing data. All TinyDB components in the same app with the same namespace property access the same data.</p>
-<p>Each namespace represents a single data store that is shared by the entire app. If you have multiple TinyDB components with the same namespace within an app, they use the same data store, even if they are on different screens.</p>
-<h2 id="methods">Methods<a class="headerlink" href="#methods" title="Permanent link">&para;</a></h2>
-<h3 id="clear-all">Clear All<a class="headerlink" href="#clear-all" title="Permanent link">&para;</a></h3>
-<div ai2-block="method" class="block" not-rendered="true" value="%7B%22componentName%22:%20%22TinyDB%22,%20%22name%22:%20%22Clear%20All%22,%20%22param%22:%20%5B%5D,%20%22output%22:%20false%7D"></div>
-<p>Clear the entire data store in the TinyDB.</p>
-<h3 id="clear-tag">Clear Tag<a class="headerlink" href="#clear-tag" title="Permanent link">&para;</a></h3>
-<div ai2-block="method" class="block" not-rendered="true" value="%7B%22componentName%22:%20%22TinyDB%22,%20%22name%22:%20%22Clear%20Tag%22,%20%22param%22:%20%5B%22tag%22%5D,%20%22output%22:%20false%7D"></div>
-<p>Clear the entry with the given tag.</p>
-<h3 id="get-tags">Get Tags<a class="headerlink" href="#get-tags" title="Permanent link">&para;</a></h3>
-<div ai2-block="method" class="block" not-rendered="true" value="%7B%22componentName%22:%20%22TinyDB%22,%20%22name%22:%20%22Get%20Tags%22,%20%22param%22:%20%5B%5D,%20%22output%22:%20true%7D"></div>
-<p>Return a list of all the tags in the TinyDB.</p>
-<h3 id="get-value">Get Value<a class="headerlink" href="#get-value" title="Permanent link">&para;</a></h3>
-<div ai2-block="method" class="block" not-rendered="true" value="%7B%22componentName%22:%20%22TinyDB%22,%20%22name%22:%20%22Get%20Value%22,%20%22param%22:%20%5B%22tag%22,%20%22value%20If%20Tag%20Not%20There%22%5D,%20%22output%22:%20true%7D"></div>
-<p>Retrieve the value stored under the given tag. If there's no such tag, then return valueIfTagNotThere.</p>
-<h3 id="store-value">Store Value<a class="headerlink" href="#store-value" title="Permanent link">&para;</a></h3>
-<div ai2-block="method" class="block" not-rendered="true" value="%7B%22componentName%22:%20%22TinyDB%22,%20%22name%22:%20%22Store%20Value%22,%20%22param%22:%20%5B%22tag%22,%20%22value%20To%20Store%22%5D,%20%22output%22:%20false%7D"></div>
-<p>Store the value under the given tag. The storage persists on the phone when the app is restarted.</p>
                 
                   
                 
