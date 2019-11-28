@@ -3904,10 +3904,10 @@
 <h3 id="testing-mode">Testing mode<a class="headerlink" href="#testing-mode" title="Permanent link">&para;</a></h3>
 <p>Testing your app is easy when you have full access to your database. To enable read/write access to all tags, use:</p>
 <div class="codehilite"><pre><span></span><span class="err">{</span>
-  <span class="ss">&quot;rules&quot;</span><span class="p">:</span> <span class="err">{</span>
-    <span class="ss">&quot;.read&quot;</span> <span class="p">:</span> <span class="k">true</span><span class="p">,</span>
-    <span class="ss">&quot;.write&quot;</span> <span class="p">:</span> <span class="k">true</span><span class="p">,</span>
-  <span class="err">}</span>
+<span class="err">  &quot;rules&quot;: {</span>
+<span class="err">    &quot;.read&quot; : true,</span>
+<span class="err">    &quot;.write&quot; : true,</span>
+<span class="err">  }</span>
 <span class="err">}</span>
 </pre></div>
 
@@ -3924,10 +3924,10 @@
 <h3 id="authenticated-only-mode">Authenticated-only mode<a class="headerlink" href="#authenticated-only-mode" title="Permanent link">&para;</a></h3>
 <p>You can enable only authenticated users to read and write tags in your database. Users can be authenticated using the <a href="https://docs.kodular.io/components/google/firebase-authentication/" target="target">Firebase Authentication</a> component. </p>
 <div class="codehilite"><pre><span></span><span class="err">{</span>
-  <span class="ss">&quot;rules&quot;</span><span class="p">:</span> <span class="err">{</span>
-    <span class="ss">&quot;.read&quot;</span> <span class="p">:</span> <span class="ss">&quot;auth.uid != null&quot;</span><span class="p">,</span>
-    <span class="ss">&quot;.write&quot;</span> <span class="p">:</span> <span class="ss">&quot;auth.uid != null&quot;</span><span class="p">,</span>
-  <span class="err">}</span>
+<span class="err">  &quot;rules&quot;: {</span>
+<span class="err">    &quot;.read&quot; : &quot;auth.uid != null&quot;,</span>
+<span class="err">    &quot;.write&quot; : &quot;auth.uid != null&quot;,</span>
+<span class="err">  }</span>
 <span class="err">}</span>
 </pre></div>
 
@@ -3941,39 +3941,39 @@
 <h3 id="uid-tag-mode">Uid-Tag mode<a class="headerlink" href="#uid-tag-mode" title="Permanent link">&para;</a></h3>
 <p>You can also write rules to restrict read and write access to specific tags. With such rules, you can ensure that the user can edit only the data which they have created.</p>
 <p>Considering this database:</p>
-<div class="codehilite"><pre><span></span><span class="o">-</span><span class="w"> </span><span class="n">users</span><span class="w"></span>
-<span class="w">  </span><span class="o">-</span><span class="w"> </span><span class="n">U43gnonNP9joboLnv</span><span class="w"></span>
-<span class="w">      </span><span class="o">-</span><span class="w"> </span><span class="n">ranking</span><span class="w"> </span><span class="err">:</span><span class="w"> </span><span class="mi">1</span><span class="w"></span>
-<span class="w">        </span><span class="o">-</span><span class="w"> </span><span class="n">email</span><span class="w"> </span><span class="err">:</span><span class="w"> </span><span class="ss">&quot;example@example.ex&quot;</span><span class="w"></span>
-<span class="w">        </span><span class="o">-</span><span class="w"> </span><span class="n">age</span><span class="w"> </span><span class="err">:</span><span class="w"> </span><span class="mi">20</span><span class="w"></span>
-<span class="w">    </span><span class="o">-</span><span class="w"> </span><span class="n">greuo80NOpwqM8100</span><span class="w"></span>
-<span class="w">      </span><span class="o">-</span><span class="w"> </span><span class="n">ranking</span><span class="w"> </span><span class="err">:</span><span class="w"> </span><span class="mi">67</span><span class="w"></span>
-<span class="w">        </span><span class="o">-</span><span class="w"> </span><span class="n">email</span><span class="w"> </span><span class="err">:</span><span class="w"> </span><span class="ss">&quot;something@someone.com&quot;</span><span class="w"></span>
-<span class="w">        </span><span class="o">-</span><span class="w"> </span><span class="n">age</span><span class="w"> </span><span class="err">:</span><span class="w"> </span><span class="mi">15</span><span class="w"></span>
-<span class="w">    </span><span class="o">-</span><span class="w"> </span><span class="n">kpmkmnn2YIHVI542a</span><span class="w"></span>
-<span class="w">      </span><span class="o">-</span><span class="w"> </span><span class="n">ranking</span><span class="w"> </span><span class="err">:</span><span class="w"> </span><span class="mi">2</span><span class="w"></span>
-<span class="w">        </span><span class="o">-</span><span class="w"> </span><span class="n">email</span><span class="w"> </span><span class="err">:</span><span class="w"> </span><span class="ss">&quot;user@product.io&quot;</span><span class="w"></span>
-<span class="w">        </span><span class="o">-</span><span class="w"> </span><span class="n">age</span><span class="w"> </span><span class="err">:</span><span class="w"> </span><span class="mi">45</span><span class="w"></span>
-<span class="o">-</span><span class="w"> </span><span class="n">challenges</span><span class="w"></span>
-<span class="w">    </span><span class="o">-</span><span class="w"> </span><span class="n">FindingNemo</span><span class="w"></span>
-<span class="w">    </span><span class="o">-</span><span class="w"> </span><span class="n">name</span><span class="w"> </span><span class="err">:</span><span class="w"> </span><span class="ss">&quot;Finding Nemo&quot;</span><span class="w"></span>
-<span class="w">        </span><span class="o">-</span><span class="w"> </span><span class="nl">recommended_age</span><span class="p">:</span><span class="w"> </span><span class="mi">15</span><span class="w"></span>
-<span class="w">    </span><span class="o">-</span><span class="w"> </span><span class="n">Marathon</span><span class="w"></span>
-<span class="w">      </span><span class="o">-</span><span class="w"> </span><span class="n">name</span><span class="w"> </span><span class="err">:</span><span class="w"> </span><span class="ss">&quot;25mi Marathon&quot;</span><span class="w"></span>
-<span class="w">        </span><span class="o">-</span><span class="w"> </span><span class="nl">recommended_age</span><span class="p">:</span><span class="w"> </span><span class="mi">20</span><span class="w"></span>
+<div class="codehilite"><pre><span></span><span class="err">- users</span>
+<span class="err">  - U43gnonNP9joboLnv</span>
+<span class="err">      - ranking : 1</span>
+<span class="err">        - email : &quot;example@example.ex&quot;</span>
+<span class="err">        - age : 20</span>
+<span class="err">    - greuo80NOpwqM8100</span>
+<span class="err">      - ranking : 67</span>
+<span class="err">        - email : &quot;something@someone.com&quot;</span>
+<span class="err">        - age : 15</span>
+<span class="err">    - kpmkmnn2YIHVI542a</span>
+<span class="err">      - ranking : 2</span>
+<span class="err">        - email : &quot;user@product.io&quot;</span>
+<span class="err">        - age : 45</span>
+<span class="err">- challenges</span>
+<span class="err">    - FindingNemo</span>
+<span class="err">    - name : &quot;Finding Nemo&quot;</span>
+<span class="err">        - recommended_age: 15</span>
+<span class="err">    - Marathon</span>
+<span class="err">      - name : &quot;25mi Marathon&quot;</span>
+<span class="err">        - recommended_age: 20</span>
 </pre></div>
 
 
 <p>The structure of the database is:</p>
-<div class="codehilite"><pre><span></span><span class="o">-</span> <span class="n">users</span>
-    <span class="o">-</span> <span class="n">uid</span>
-        <span class="o">-</span> <span class="n">ranking</span>
-        <span class="o">-</span> <span class="n">email</span>
-        <span class="o">-</span> <span class="n">age</span>
-<span class="o">-</span> <span class="n">challenges</span>
-    <span class="o">-</span> <span class="n">challengeId</span>
-        <span class="o">-</span> <span class="n">name</span>
-        <span class="o">-</span> <span class="n">recommended_age</span>
+<div class="codehilite"><pre><span></span><span class="err">- users</span>
+<span class="err">    - uid</span>
+<span class="err">        - ranking</span>
+<span class="err">        - email</span>
+<span class="err">        - age</span>
+<span class="err">- challenges</span>
+<span class="err">    - challengeId</span>
+<span class="err">        - name</span>
+<span class="err">        - recommended_age</span>
 </pre></div>
 
 
@@ -3982,41 +3982,41 @@
 <p>Here is how you would write the rules for such a system.</p>
 <p>Start off with read/write rules for the <code>users</code> tag.</p>
 <div class="codehilite"><pre><span></span><span class="err">{</span>
-  <span class="ss">&quot;rules&quot;</span> <span class="p">:</span> <span class="err">{</span>
-    <span class="ss">&quot;users&quot;</span> <span class="p">:</span> <span class="err">{</span>
-            <span class="ss">&quot;$user_id&quot;</span> <span class="p">:</span> <span class="err">{</span>
-                <span class="ss">&quot;.read&quot;</span> <span class="p">:</span> <span class="ss">&quot;auth.uid == $user_id&quot;</span><span class="p">,</span>
-                <span class="ss">&quot;.write&quot;</span> <span class="p">:</span> <span class="ss">&quot;auth.uid == $user_id&quot;</span>
-            <span class="err">}</span>
-        <span class="err">}</span>
-  <span class="err">}</span>
+<span class="err">  &quot;rules&quot; : {</span>
+<span class="err">    &quot;users&quot; : {</span>
+<span class="err">            &quot;$user_id&quot; : {</span>
+<span class="err">                &quot;.read&quot; : &quot;auth.uid == $user_id&quot;,</span>
+<span class="err">                &quot;.write&quot; : &quot;auth.uid == $user_id&quot;</span>
+<span class="err">            }</span>
+<span class="err">        }</span>
+<span class="err">  }</span>
 <span class="err">}</span>
 </pre></div>
 
 
 <p>The <code>$user_id</code> tag is a wildcard reference to all keys that are inside the <code>users</code> tag. We allow read and write operations only if the name of the tag (as specified in <code>$user_id</code>) equals of the uid of the authenticated user. This way, a user will not be able to access tags that are not theirs as <code>auth.uid</code> will not be the name of the tag.</p>
 <p>On the other hand, <code>challenges</code> can be read by all and written by none.</p>
-<div class="codehilite"><pre><span></span><span class="ss">&quot;challenges&quot;</span> <span class="p">:</span> <span class="err">{</span>
-    <span class="ss">&quot;.read&quot;</span> <span class="p">:</span> <span class="k">true</span><span class="p">,</span>
-    <span class="ss">&quot;.write&quot;</span> <span class="p">:</span> <span class="k">false</span>
+<div class="codehilite"><pre><span></span><span class="err">&quot;challenges&quot; : {</span>
+<span class="err">    &quot;.read&quot; : true,</span>
+<span class="err">    &quot;.write&quot; : false</span>
 <span class="err">}</span>
 </pre></div>
 
 
 <p>The final JSON object will look like</p>
 <div class="codehilite"><pre><span></span><span class="err">{</span>
-  <span class="ss">&quot;rules&quot;</span> <span class="p">:</span> <span class="err">{</span>
-    <span class="ss">&quot;users&quot;</span> <span class="p">:</span> <span class="err">{</span>
-            <span class="ss">&quot;$user_id&quot;</span> <span class="p">:</span> <span class="err">{</span>
-                <span class="ss">&quot;.read&quot;</span> <span class="p">:</span> <span class="ss">&quot;auth.uid == $user_id&quot;</span><span class="p">,</span>
-                <span class="ss">&quot;.write&quot;</span> <span class="p">:</span> <span class="ss">&quot;auth.uid == $user_id&quot;</span>
-            <span class="err">}</span><span class="p">,</span>
-            <span class="ss">&quot;challenges&quot;</span> <span class="p">:</span> <span class="err">{</span>
-                <span class="ss">&quot;.read&quot;</span> <span class="p">:</span> <span class="k">true</span><span class="p">,</span>
-                <span class="ss">&quot;.write&quot;</span> <span class="p">:</span> <span class="k">false</span>
-            <span class="err">}</span>
-        <span class="err">}</span>
-  <span class="err">}</span>
+<span class="err">  &quot;rules&quot; : {</span>
+<span class="err">    &quot;users&quot; : {</span>
+<span class="err">            &quot;$user_id&quot; : {</span>
+<span class="err">                &quot;.read&quot; : &quot;auth.uid == $user_id&quot;,</span>
+<span class="err">                &quot;.write&quot; : &quot;auth.uid == $user_id&quot;</span>
+<span class="err">            },</span>
+<span class="err">            &quot;challenges&quot; : {</span>
+<span class="err">                &quot;.read&quot; : true,</span>
+<span class="err">                &quot;.write&quot; : false</span>
+<span class="err">            }</span>
+<span class="err">        }</span>
+<span class="err">  }</span>
 <span class="err">}</span>
 </pre></div>
 

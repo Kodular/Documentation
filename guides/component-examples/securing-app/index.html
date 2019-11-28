@@ -3881,12 +3881,12 @@
 <h3 id="database-structure">Database structure<a class="headerlink" href="#database-structure" title="Permanent link">&para;</a></h3>
 <p>For this tutorial, we will store a tag for each user who signs-up in the app. The tag will be identified by the user's unique id, and will contain their name, email, and the Android version of their device. We wish to keep the users' names public, but their email and Android version private.</p>
 <p>Here is what our database will look like:</p>
-<div class="codehilite"><pre><span></span><span class="o">-</span> <span class="n">bucket_name</span>
-    <span class="o">-</span> <span class="n">uid</span>
-        <span class="o">-</span> <span class="n">name</span>
-        <span class="o">-</span> <span class="n">email</span>
-        <span class="o">-</span> <span class="n">android_version</span>
-    <span class="o">-</span> <span class="n">uids</span>
+<div class="codehilite"><pre><span></span><span class="err">- bucket_name</span>
+<span class="err">    - uid</span>
+<span class="err">        - name</span>
+<span class="err">        - email</span>
+<span class="err">        - android_version</span>
+<span class="err">    - uids</span>
 </pre></div>
 
 
@@ -3937,10 +3937,10 @@
 <p><img alt="" src="/assets/images/guides/firebase-rules/ext_fdb-rules.png" /></p>
 <p>By default, Firebase allows full read/write access. If you created your database in locked mode, the default rules will allow only authenticated users, and your rules will look something like:</p>
 <div class="codehilite"><pre><span></span><span class="err">{</span>
-  <span class="ss">&quot;rules&quot;</span><span class="p">:</span> <span class="err">{</span>
-    <span class="ss">&quot;.read&quot;</span> <span class="p">:</span> <span class="ss">&quot;auth != null&quot;</span><span class="p">,</span>
-    <span class="ss">&quot;.write&quot;</span> <span class="p">:</span> <span class="ss">&quot;auth != null&quot;</span><span class="p">,</span>
-  <span class="err">}</span>
+<span class="err">  &quot;rules&quot;: {</span>
+<span class="err">    &quot;.read&quot; : &quot;auth != null&quot;,</span>
+<span class="err">    &quot;.write&quot; : &quot;auth != null&quot;,</span>
+<span class="err">  }</span>
 <span class="err">}</span>
 </pre></div>
 
@@ -3957,11 +3957,11 @@
 
 <p>Next, change the rules as shown to target all tags in your project bucket. Replace <code>*PROJECT_BUCKET*</code> with your bucket name. (The bucket name can be found in the designer properties of the <code>Firebase Database</code> component).</p>
 <div class="codehilite"><pre><span></span><span class="err">{</span>
-    <span class="ss">&quot;rules&quot;</span><span class="p">:</span> <span class="err">{</span>
-        <span class="ss">&quot;*PROJECT_BUCKET*&quot;</span><span class="p">:</span> <span class="err">{</span>
-            <span class="o">//</span><span class="p">...</span> <span class="k">to</span> <span class="n">be</span> <span class="n">added</span> <span class="n">later</span>
-        <span class="err">}</span>
-    <span class="err">}</span>
+<span class="err">    &quot;rules&quot;: {</span>
+<span class="err">        &quot;*PROJECT_BUCKET*&quot;: {</span>
+<span class="err">            //... to be added later</span>
+<span class="err">        }</span>
+<span class="err">    }</span>
 <span class="err">}</span>
 </pre></div>
 
@@ -3982,71 +3982,71 @@
 
 <p>A user should be able to edit only their name and nobody else's, but all authenticated users should be able to view every user's name.
 We can restrict read/write operations accordingly with this rule:</p>
-<div class="codehilite"><pre><span></span><span class="ss">&quot;name&quot;</span><span class="p">:</span> <span class="err">{</span>
-    <span class="ss">&quot;.read&quot;</span><span class="p">:</span> <span class="ss">&quot;auth != null&quot;</span><span class="p">,</span>
-    <span class="ss">&quot;.write&quot;</span><span class="p">:</span> <span class="ss">&quot;auth.uid == $uid&quot;</span>
+<div class="codehilite"><pre><span></span><span class="err">&quot;name&quot;: {</span>
+<span class="err">    &quot;.read&quot;: &quot;auth != null&quot;,</span>
+<span class="err">    &quot;.write&quot;: &quot;auth.uid == $uid&quot;</span>
 <span class="err">}</span>
 </pre></div>
 
 
 <p>However, the email and Android version should have restricted read <strong>and</strong> write access.</p>
-<div class="codehilite"><pre><span></span><span class="ss">&quot;email&quot;</span><span class="p">:</span> <span class="err">{</span>
-    <span class="ss">&quot;.read&quot;</span><span class="p">:</span> <span class="ss">&quot;auth.uid == $uid&quot;</span><span class="p">,</span>
-    <span class="ss">&quot;.write&quot;</span><span class="p">:</span> <span class="ss">&quot;auth.uid == $uid&quot;</span>
-<span class="err">}</span><span class="p">,</span>
-<span class="ss">&quot;android_version&quot;</span><span class="p">:</span> <span class="err">{</span>
-    <span class="ss">&quot;.read&quot;</span><span class="p">:</span> <span class="ss">&quot;auth.uid == $uid&quot;</span><span class="p">,</span>
-    <span class="ss">&quot;.write&quot;</span><span class="p">:</span> <span class="ss">&quot;auth.uid == $uid&quot;</span>
+<div class="codehilite"><pre><span></span><span class="err">&quot;email&quot;: {</span>
+<span class="err">    &quot;.read&quot;: &quot;auth.uid == $uid&quot;,</span>
+<span class="err">    &quot;.write&quot;: &quot;auth.uid == $uid&quot;</span>
+<span class="err">},</span>
+<span class="err">&quot;android_version&quot;: {</span>
+<span class="err">    &quot;.read&quot;: &quot;auth.uid == $uid&quot;,</span>
+<span class="err">    &quot;.write&quot;: &quot;auth.uid == $uid&quot;</span>
 <span class="err">}</span>
 </pre></div>
 
 
 <p>Our list of rules currently looks like this:</p>
 <div class="codehilite"><pre><span></span><span class="err">{</span>
-  <span class="ss">&quot;rules&quot;</span><span class="p">:</span> <span class="err">{</span>
-     <span class="ss">&quot;*PROJECT_BUCKET*&quot;</span><span class="p">:</span> <span class="err">{</span>
-      <span class="ss">&quot;$uid&quot;</span><span class="p">:</span> <span class="err">{</span>
-        <span class="ss">&quot;name&quot;</span><span class="p">:</span> <span class="err">{</span>
-            <span class="ss">&quot;.read&quot;</span><span class="p">:</span> <span class="ss">&quot;auth != null&quot;</span><span class="p">,</span>
-            <span class="ss">&quot;.write&quot;</span><span class="p">:</span> <span class="ss">&quot;auth.uid == $uid&quot;</span>
-        <span class="err">}</span><span class="p">,</span>
-        <span class="ss">&quot;email&quot;</span><span class="p">:</span> <span class="err">{</span>
-            <span class="ss">&quot;.read&quot;</span><span class="p">:</span> <span class="ss">&quot;auth.uid == $uid&quot;</span><span class="p">,</span>
-            <span class="ss">&quot;.write&quot;</span><span class="p">:</span> <span class="ss">&quot;auth.uid == $uid&quot;</span>
-        <span class="err">}</span><span class="p">,</span>
-        <span class="ss">&quot;android_version&quot;</span><span class="p">:</span> <span class="err">{</span>
-            <span class="ss">&quot;.read&quot;</span><span class="p">:</span> <span class="ss">&quot;auth.uid == $uid&quot;</span><span class="p">,</span>
-            <span class="ss">&quot;.write&quot;</span><span class="p">:</span> <span class="ss">&quot;auth.uid == $uid&quot;</span>
-        <span class="err">}</span>
-      <span class="err">}</span>
-    <span class="err">}</span>
-  <span class="err">}</span>
+<span class="err">  &quot;rules&quot;: {</span>
+<span class="err">     &quot;*PROJECT_BUCKET*&quot;: {</span>
+<span class="err">      &quot;$uid&quot;: {</span>
+<span class="err">        &quot;name&quot;: {</span>
+<span class="err">            &quot;.read&quot;: &quot;auth != null&quot;,</span>
+<span class="err">            &quot;.write&quot;: &quot;auth.uid == $uid&quot;</span>
+<span class="err">        },</span>
+<span class="err">        &quot;email&quot;: {</span>
+<span class="err">            &quot;.read&quot;: &quot;auth.uid == $uid&quot;,</span>
+<span class="err">            &quot;.write&quot;: &quot;auth.uid == $uid&quot;</span>
+<span class="err">        },</span>
+<span class="err">        &quot;android_version&quot;: {</span>
+<span class="err">            &quot;.read&quot;: &quot;auth.uid == $uid&quot;,</span>
+<span class="err">            &quot;.write&quot;: &quot;auth.uid == $uid&quot;</span>
+<span class="err">        }</span>
+<span class="err">      }</span>
+<span class="err">    }</span>
+<span class="err">  }</span>
 <span class="err">}</span>
 </pre></div>
 
 
 <p>Let's take an example of a sample database to see how the rules work. The database currently has the following data:
 <img alt="" src="/assets/images/guides/firebase-rules/ext_fdb-data.png" /></p>
-<div class="codehilite"><pre><span></span><span class="err">{</span><span class="w"></span>
-<span class="w">  </span><span class="ss">&quot;*PROJECT_BUCKET*&quot;</span><span class="w"> </span><span class="err">:</span><span class="w"> </span><span class="err">{</span><span class="w"></span>
-<span class="w">    </span><span class="ss">&quot;163IN5WF62eJsFeYQMmFdIIcAvl2&quot;</span><span class="w"> </span><span class="err">:</span><span class="w"> </span><span class="err">{</span><span class="w"></span>
-<span class="w">      </span><span class="ss">&quot;android_version&quot;</span><span class="w"> </span><span class="err">:</span><span class="w"> </span><span class="ss">&quot;\&quot;</span><span class="mf">8.1.0</span><span class="err">\</span><span class="ss">&quot;&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">      </span><span class="ss">&quot;email&quot;</span><span class="w"> </span><span class="err">:</span><span class="w"> </span><span class="ss">&quot;\&quot;</span><span class="n">vishwas</span><span class="nv">@kodular</span><span class="p">.</span><span class="n">io</span><span class="err">\</span><span class="ss">&quot;&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">      </span><span class="ss">&quot;name&quot;</span><span class="w"> </span><span class="err">:</span><span class="w"> </span><span class="ss">&quot;\&quot;</span><span class="n">Vishwas</span><span class="err">\</span><span class="ss">&quot;&quot;</span><span class="w"></span>
-<span class="w">    </span><span class="err">}</span><span class="p">,</span><span class="w"></span>
-<span class="w">    </span><span class="ss">&quot;AL2uxus1arNfAWtviUIXboPdRqy1&quot;</span><span class="w"> </span><span class="err">:</span><span class="w"> </span><span class="err">{</span><span class="w"></span>
-<span class="w">      </span><span class="ss">&quot;android_version&quot;</span><span class="w"> </span><span class="err">:</span><span class="w"> </span><span class="ss">&quot;\&quot;</span><span class="mf">9.0</span><span class="err">\</span><span class="ss">&quot;&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">      </span><span class="ss">&quot;email&quot;</span><span class="w"> </span><span class="err">:</span><span class="w"> </span><span class="ss">&quot;\&quot;</span><span class="n">helios</span><span class="nv">@helios</span><span class="p">.</span><span class="n">com</span><span class="err">\</span><span class="ss">&quot;&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">      </span><span class="ss">&quot;name&quot;</span><span class="w"> </span><span class="err">:</span><span class="w"> </span><span class="ss">&quot;\&quot;</span><span class="n">Helios</span><span class="err">\</span><span class="ss">&quot;&quot;</span><span class="w"></span>
-<span class="w">    </span><span class="err">}</span><span class="p">,</span><span class="w"></span>
-<span class="w">    </span><span class="ss">&quot;KW4LkSOtG0Y1iede9KaTrwsYCx62&quot;</span><span class="w"> </span><span class="err">:</span><span class="w"> </span><span class="err">{</span><span class="w"></span>
-<span class="w">      </span><span class="ss">&quot;android_version&quot;</span><span class="w"> </span><span class="err">:</span><span class="w"> </span><span class="ss">&quot;\&quot;</span><span class="mf">8.1.0</span><span class="err">\</span><span class="ss">&quot;&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">      </span><span class="ss">&quot;email&quot;</span><span class="w"> </span><span class="err">:</span><span class="w"> </span><span class="ss">&quot;\&quot;</span><span class="n">vishwasadiga</span><span class="nv">@gmail</span><span class="p">.</span><span class="n">com</span><span class="err">\</span><span class="ss">&quot;&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">      </span><span class="ss">&quot;name&quot;</span><span class="w"> </span><span class="err">:</span><span class="w"> </span><span class="ss">&quot;\&quot;</span><span class="n">Mr</span><span class="p">.</span><span class="w"> </span><span class="n">Example</span><span class="err">\</span><span class="ss">&quot;&quot;</span><span class="w"></span>
-<span class="w">    </span><span class="err">}</span><span class="p">,</span><span class="w"></span>
-<span class="w">    </span><span class="ss">&quot;uids&quot;</span><span class="w"> </span><span class="err">:</span><span class="w"> </span><span class="ss">&quot;[\&quot;</span><span class="n">AL2uxus1arNfAWtviUIXboPdRqy1</span><span class="err">\</span><span class="ss">&quot;, \&quot;</span><span class="mi">163</span><span class="n">IN5WF62eJsFeYQMmFdIIcAvl2</span><span class="err">\</span><span class="ss">&quot;, \&quot;</span><span class="n">KW4LkSOtG0Y1iede9KaTrwsYCx62</span><span class="err">\</span><span class="ss">&quot;]&quot;</span><span class="w"></span>
-<span class="w">  </span><span class="err">}</span><span class="w"></span>
-<span class="err">}</span><span class="w"></span>
+<div class="codehilite"><pre><span></span><span class="err">{</span>
+<span class="err">  &quot;*PROJECT_BUCKET*&quot; : {</span>
+<span class="err">    &quot;163IN5WF62eJsFeYQMmFdIIcAvl2&quot; : {</span>
+<span class="err">      &quot;android_version&quot; : &quot;\&quot;8.1.0\&quot;&quot;,</span>
+<span class="err">      &quot;email&quot; : &quot;\&quot;vishwas@kodular.io\&quot;&quot;,</span>
+<span class="err">      &quot;name&quot; : &quot;\&quot;Vishwas\&quot;&quot;</span>
+<span class="err">    },</span>
+<span class="err">    &quot;AL2uxus1arNfAWtviUIXboPdRqy1&quot; : {</span>
+<span class="err">      &quot;android_version&quot; : &quot;\&quot;9.0\&quot;&quot;,</span>
+<span class="err">      &quot;email&quot; : &quot;\&quot;helios@helios.com\&quot;&quot;,</span>
+<span class="err">      &quot;name&quot; : &quot;\&quot;Helios\&quot;&quot;</span>
+<span class="err">    },</span>
+<span class="err">    &quot;KW4LkSOtG0Y1iede9KaTrwsYCx62&quot; : {</span>
+<span class="err">      &quot;android_version&quot; : &quot;\&quot;8.1.0\&quot;&quot;,</span>
+<span class="err">      &quot;email&quot; : &quot;\&quot;vishwasadiga@gmail.com\&quot;&quot;,</span>
+<span class="err">      &quot;name&quot; : &quot;\&quot;Mr. Example\&quot;&quot;</span>
+<span class="err">    },</span>
+<span class="err">    &quot;uids&quot; : &quot;[\&quot;AL2uxus1arNfAWtviUIXboPdRqy1\&quot;, \&quot;163IN5WF62eJsFeYQMmFdIIcAvl2\&quot;, \&quot;KW4LkSOtG0Y1iede9KaTrwsYCx62\&quot;]&quot;</span>
+<span class="err">  }</span>
+<span class="err">}</span>
 </pre></div>
 
 
@@ -4066,9 +4066,9 @@ We can restrict read/write operations accordingly with this rule:</p>
 <h3 id="rules-for-list-of-uids">Rules for list of uids<a class="headerlink" href="#rules-for-list-of-uids" title="Permanent link">&para;</a></h3>
 <p>Every user should be able to access the list of all uids, but should not be allowed to spam the list with random values. We can validate the data to ensure the user is appending their uid to the list, and not any other value.</p>
 <p>Validation can be done using the following rule:</p>
-<div class="codehilite"><pre><span></span><span class="ss">&quot;uids&quot;</span> <span class="p">:</span> <span class="err">{</span>
-    <span class="ss">&quot;.read&quot;</span> <span class="p">:</span> <span class="ss">&quot;auth != null&quot;</span><span class="p">,</span>
-    <span class="ss">&quot;.write&quot;</span> <span class="p">:</span> <span class="ss">&quot;newData.child(auth.uid).exists()&quot;</span>
+<div class="codehilite"><pre><span></span><span class="err">&quot;uids&quot; : {</span>
+<span class="err">    &quot;.read&quot; : &quot;auth != null&quot;,</span>
+<span class="err">    &quot;.write&quot; : &quot;newData.child(auth.uid).exists()&quot;</span>
 <span class="err">}</span>
 </pre></div>
 
