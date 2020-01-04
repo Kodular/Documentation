@@ -287,7 +287,7 @@
 	- `Get Id Token`: retreives from Firebase the id for the current user  
 ![image|347x45](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/9/3/938f0f62f7645ffecf397c3521a9c7692d9831db.png)  
 	- `Phone Number Sign In`: authenticates the user using the given phone number sending an OTP code  
-![image|421x70](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/6/0/609c961324f8a3534a231f7ca85799c2f4985d32.png) 
+![image|421x70](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/6/0/609c961324f8a3534a231f7ca85799c2f4985d32.png)
 	- `Send Reset Password Email`: sends an email to the user to change the password  
 ![image|458x72](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/a/c/acd46b7de8dc7e16d6fb57292107d13f49c57f50.png)  
 	- `Update Phone Number`: changes the user's phone number  
@@ -491,7 +491,7 @@ _Currently using latest version (5.4.1)_
 
 - **Dynamic Space** component
   - `Get Space By Id`: returns the view containing the generated dynamic space
-![image|426x81](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/a/2/a247b91b2aabe1c5a01fca268039b77da7a4e9f5.png) 
+![image|426x81](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/a/2/a247b91b2aabe1c5a01fca268039b77da7a4e9f5.png)
 
 - **Dynamic Text Box** component
   - `Get Text Box By Id`: returns the view containing the generated dynamic textbox
@@ -524,7 +524,7 @@ _Currently using latest version (5.4.1)_
 - **Player** *does not need permission to read internal files*, so we removed it
 
 - **WebView** (*and **YouTube**, as it's a webview*) did *not work properly* on Android 9  
-*[:appinventor: Fix from MIT App Inventor Team](https://github.com/mit-cml/appinventor-sources/commit/e03ae81bc9f1b7a96e6d52a12d88b37d1f746f51)*
+*[Fix from MIT App Inventor Team](https://github.com/mit-cml/appinventor-sources/commit/e03ae81bc9f1b7a96e6d52a12d88b37d1f746f51)*
 
 - Solved issue which *prevented* doing **right-click in inputs** to copy/paste text
 
@@ -551,7 +551,7 @@ _Currently using latest version (5.4.1)_
 
 ### New Blocks
 
-- [:appinventor: Added **not-equal** to *compare texts* block](https://github.com/mit-cml/appinventor-sources/commit/7452a36fd0497a617b9b183d6dcac6b6ff322fc2)  
+- [Added **not-equal** to *compare texts* block](https://github.com/mit-cml/appinventor-sources/commit/7452a36fd0497a617b9b183d6dcac6b6ff322fc2)  
 ![image|287x55](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/2/b/2b189aa0f88f1884956e1f7ba1c19d090b974b20.png)
 
 ### New Events
@@ -579,10 +579,396 @@ _Currently using latest version (5.4.1)_
 
 - Fixed **Bluetooth Admin** bug which had previously broken the component
 
-- [:appinventor: Fixed empty dropdown](https://github.com/mit-cml/appinventor-sources/commit/9e38309ffd5e4bb772edd56a471c77448347da45)
+- [Fixed empty dropdown](https://github.com/mit-cml/appinventor-sources/commit/9e38309ffd5e4bb772edd56a471c77448347da45)
 
-- [:appinventor: Add internationalization to component block tooltips in Blocks Editor](https://github.com/mit-cml/appinventor-sources/commit/4e08a869d89e81192697958947b43ecf6a221104)
+- [Add internationalization to component block tooltips in Blocks Editor](https://github.com/mit-cml/appinventor-sources/commit/4e08a869d89e81192697958947b43ecf6a221104)
 
-- [:appinventor: Fix REPL bug when switching to freshly opened projects](https://github.com/mit-cml/appinventor-sources/commit/f1214cbe42289cba209cb1c3ebd8a837d70ca14a)
+- [Fix REPL bug when switching to freshly opened projects](https://github.com/mit-cml/appinventor-sources/commit/f1214cbe42289cba209cb1c3ebd8a837d70ca14a)
 
-- [:appinventor: Fix missing tooltips in extension blocks](https://github.com/mit-cml/appinventor-sources/commit/aeaaea29a4f9aa32ba6ae061f422
+- [Fix missing tooltips in extension blocks](https://github.com/mit-cml/appinventor-sources/commit/aeaaea29a4f9aa32ba6ae061f422
+
+&nbsp;
+
+## 1.4B.0 Eagle   \|   _03 January 2020_
+
+### Major Changes
+
+* New authentication system -- **Kodular Auth**.  
+*[How to login into Kodular? - Kodular Support](https://support.kodular.io/help/en-us/3-my-account/25-how-to-login-into-kodular)*
+
+* New account/projects management system -- **My Kodular**.  
+*[my.kodular.io](https://my.kodular.io)*
+
+* **Thunkable package names** are now handled the same as Kodular **default package names**.  
+*Projects with package name `com.thunkable.<email>.<app_name>` will no longer incur extra commission for being custom package names.*
+
+* Mentioning a project’s ID in the hash of the Creator’s URL will open it when the page loads.
+
+* Added **new upgraded compilers**.  
+*We now have 5 high-end compilers, which will build and export your fast much faster!*
+
+* **Commission** levied on advertisement components can now be **removed via purchase**.  
+*[Commission Removal - Kodular Support](https://support.kodular.io/help/en-us/4-billing-policies/7-commission-removal)*
+
+* **Kodular branding** in the “About” section of projects can now be **removed via purchase**.  
+*[Branding Removal - Kodular Support](https://support.kodular.io/help/en-us/4-billing-policies/5-branding-removal)*
+
+* Support for **Adaptive Icons** has been added.  
+*[Add adaptive icons (#1888) · mit-cml/appinventor-sources@653d8d2 · GitHub](https://github.com/mit-cml/appinventor-sources/commit/653d8d27ec22b3456c7198338d42365276bb16ab)*
+
+### UI Changes
+
+* New **Performance Mode**.  
+*This mode enhances Kodular’s performance on devices with weak specifications. Tested to have improved performance by ~80% when working with very large projects. Enable it from the Settings Dialog > Appearance.*
+
+* Product placement has been made more prominent.  
+*The Creator is now titled “Creator” instead of “Kodular”.*
+
+* Closing the search palette will now also clear the textbox content.  
+
+* Blocks can now be expanded/collapsed on double click.  
+*[Make blocks collapse/expand on double click (#1809) · mit-cml/appinventor-sources@ad97f10 · GitHub](https://github.com/mit-cml/appinventor-sources/commit/ad97f10985164c1ded8bfa75a9992ee0928aedca)*
+
+* Deprecated blocks are now hidden in the toolbox.  
+*[Hide deprecated blocks · mit-cml/appinventor-sources@bbf9c58 · GitHub](https://github.com/mit-cml/appinventor-sources/commit/bbf9c58cbd7bf9c618b5868f4ad3f8a5d0fb9a0f)*
+
+### Companion Changes
+
+* Companion now **occasionally shows ads** which can be **removed via purchase**.  
+*Removal is a one-time purchase which can be made from within the app.*
+
+* Companion now **displays its full version**.  
+*The full version is now shown as opposed to only the first two digits being previously displayed.*
+
+* Support for disabling events in the Companion has been added.  
+*[Support disabling events in the REPL (#1849) · mit-cml/appinventor-sources@43a74f9 · GitHub](https://github.com/mit-cml/appinventor-sources/commit/43a74f926535a5ae4d0309b86ed72a216dc95af1)*
+
+### New Components
+
+#### Palette components
+
+* New **Custom Progress** component in User Interface.  
+![Screen Shot 2019-12-24 at 00.07.54|250x148](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/e/d/edf4faa9c12bf420adbb4c5a9b0fecd089a79286.png)
+
+* New **Grid View** component in Layout > General.  
+![Screen Shot 2019-12-24 at 00.12.05|250x148](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/4/8/48992b63273b384d8f90077b4a6c21d9556104e2.png)
+
+* New **Gallery View** component in Layout > Views.  
+![Screen Shot 2019-12-24 at 00.09.56|250x148](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/8/b/8b57382d4bf253f6800c97319bcb7d3d1628a0a7.png)
+
+* New **Hygrometer** component in Sensors.  
+*[Add environment sensors · mit-cml/appinventor-sources@f2554cf · GitHub](https://github.com/mit-cml/appinventor-sources/commit/f2554cf07d5816a1fd62d268492b316562c2c720)*  
+![Screen Shot 2019-12-24 at 00.15.16|250x168](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/e/3/e31c8a5de89030cff5f570bd68a2ca1e754be6f0.png)   
+
+* New **Battery Utilities** component in Utilities.  
+![Screen Shot 2019-12-24 at 00.13.48|250x148](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/d/7/d7a7b8aef5512b7cbde4683078f63ffc803b0b01.png)
+
+* New **Decoration** component in Utilities.  
+![Screen Shot 2019-12-24 at 00.13.00|250x168](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/d/c/dc46fb58efae51296f4d0460f6e5eb377d0670e7.png)
+
+* New **Firebase Storage** component in Google.  
+![Screen Shot 2019-12-24 at 00.15.44|250x128](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/7/9/793955644b9b93ca4e8ffed9be20eb5e91c675d1.png)
+
+#### Parity components
+
+Parity components will not be available in the Palette and are meant only to support projects imported from AppyBuilder.
+
+* **Spacer** component.
+
+* **Network Manager**  component.
+
+* **Google Spreadsheet** component.
+
+* **Memory Info** component.
+
+### New Events
+
+#### User Interface
+
+##### Web Viewer
+
+* New parameter “**value**” in the **Web View String Change** event of the Web Viewer component.  
+*This parameter returns the new WebViewString value, a change of which originally invoked the event.*  
+![component_event|355x85](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/8/8/88d8fb2f978e464ddba28d821224b9304baff31b.png)
+
+### New Methods
+
+#### User Interface
+
+##### Button
+
+* New **Set Animation Style** method.  
+*Inserts an animated image inside the component.*  
+![component_method|273x129](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/b/d/bd24f28affaae217fb940b19f889ea82006061c7.png)
+
+##### Date Picker
+
+* New **Set Animation Style** method.  
+*Inserts an animated image inside the component.*  
+![component_method|311x129](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/c/5/c5cfbb1e8d8456765ea8fd74390172f4855c3c90.png)
+
+##### Label
+
+* New **Set Animation Style** method.  
+*Inserts an animated image inside the component.*  
+![component_method|265x129](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/a/0/a0e15263f22a6fccb92a1488c841c96b68c6d697.png)
+
+##### List Picker
+
+* New **Set Animation Style** method.  
+*Inserts an animated image inside the component.*  
+![component_method|302x129](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/2/5/257469eb41c96d095b4ee4e27977f1b5d84c6179.png)
+
+##### Textbox
+
+* New **Set Animation Style** method.  
+*Inserts an animated image inside the component.*  
+![component_method|289x129](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/b/3/b3498741f1f580093071104450545bcf925931b5.png)
+
+##### Time Picker
+
+* New **Set Animation Style** method.  
+*Inserts an animated image inside the component.*  
+![component_method|311x129](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/7/7/7767358f410b0985880af844cda4c9518ed4c910.png)
+
+#### Media
+
+##### Audio Picker
+
+* New **Set Animation Style** method.  
+*Inserts an animated image inside the component.*  
+![component_method|315x129](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/3/4/348207cf18c71cd66aa04f0b665961c583b8c52c.png)
+
+##### Image Picker
+
+* New **Set Animation Style** method.  
+*Inserts an animated image inside the component.*  
+![component_method|319x129](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/6/8/68b8e6fc6cd2aeb05f9f89526383296f80221ee0.png)
+
+##### Video Picker
+
+* New **Set Animation Style** method.  
+*Inserts an animated image inside the component.*  
+![component_method|315x129](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/b/c/bcdd23fe9e4cade1bec7e92bee1988b8a05ec506.png)
+
+#### Drawing and Animation
+
+##### Canvas
+
+* New **Draw Polygon** method.  
+*Draws an n-sided polygon in the canvas.*  
+![component_method|245x204](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/9/1/918821e84b984321d3d73a06210c78e529934835.png)
+
+#### Social
+
+##### Contact Picker
+
+* New **Set Animation Style** method.  
+*Inserts an animated image inside the component.*  
+![component_method|330x129](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/3/d/3d513e8177b137b118d923ad37e35bdbf2671ef1.png)
+
+##### Email Picker
+
+* New **Set Animation Style** method.  
+*Inserts an animated image inside the component.*  
+![component_method|316x129](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/7/5/75a94ce78899656a425f762cf923ce34a5edf4b4.png)
+
+##### Phone Number Picker
+
+* New **Set Animation Style** method.  
+*Inserts an animated image inside the component.*  
+![component_method|381x129](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/7/e/7ef585d38e2dd43775802405931cb58769c3b735.png)
+
+#### Connectivity
+
+##### Network
+
+* New **Is Wifi Connection** method.  
+*Returns true if the device is currently connected to WiFi, false otherwise.*  
+![component_method|275x26](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/9/1/91623a36a4c2fffdd6ee5fae35d59793a05b7bba.png)
+
+* New **Is Mobile Connection** method.  
+*Returns true if the device is connected to a mobile network, false otherwise.*  
+![component_method|291x26](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/3/8/38cac48a84268e945501a58e59be427edcf26159.png)
+
+* New **Is Fast Connection** method.  
+*Returns true if the current connection speed is greater than 400kb/s.*  
+![component_method|279x26](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/7/7/77c80f6761e62910960037ca35746246985e30a1.png)
+
+* New **Is Roaming** method.  
+*Returns true if using roaming; false otherwise.*  
+![component_method|231x26](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/5/d/5d0ee8c792ef530604cce991a3eaa63fa19a4ae8.png)
+
+### New Properties
+
+#### User Interface
+
+##### Notifier
+
+* New **Linkify** property.  
+*Allows disabling auto-hyperlinking of URLs and phone numbers.*  
+![blocks|239x30](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/b/6/b6595805d571c967e6882fb10a115add83ec8f39.png)  
+![component_set_get|179x26, 100%](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/1/d/1d2a15d849d725d623afe713ca0378809e9e8dec.png)
+
+#### Drawing and Animation
+
+##### Ball
+
+* New **Origin At Center** property.  
+*[Add OriginAtCenter property to Ball · mit-cml/appinventor-sources@d2083ab · GitHub](https://github.com/mit-cml/appinventor-sources/commit/d2083ab52a54decf7b6ee1a3d3fad95ba827352d)*  
+![Screen Shot 2019-12-23 at 23.56.37|287x32](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/f/8/f8f3485e857c2d58e8240a7b3662d5f9f62c745f.png)
+
+##### Canvas
+
+* New **Extend Moves Outside Canvas** property.  
+*[Ignore any canvas move events that are outside of the canvas borders · mit-cml/appinventor-sources@4e7df34 · GitHub](https://github.com/mit-cml/appinventor-sources/commit/4e7df342864c983858519cdc00348c8487cd2d2f)*  
+![blocks|404x30](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/9/d/9d40f9b3ec290a786cda51bd4105a39a83e2b8c3.png)  
+![component_set_get|344x26](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/4/4/4491f155b1636f42504a0087d12433eceaa53071.png)
+
+#### Maps
+
+##### Circle
+
+* New **Fill Opacity** property.  
+*[Support fill-opacity/stroke-opacity for map features (#1859) · mit-cml/appinventor-sources@fca2c24 · GitHub](https://github.com/mit-cml/appinventor-sources/commit/fca2c244331c7f9cfc270d11937a039bba361fd5)*  
+![fill_opacity|287x66](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/3/b/3bae95c5941d6639d85fbe05a990da0402001ee8.png)  
+![blocks|264x30](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/9/c/9ca3ed8dd445dca2db7dbb675c32f736d9f9b131.png)  
+![component_set_get|204x26](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/9/c/9c803d3d81a9fb5503a4e51bac95cbc324097a8c.png)
+
+* New **Stroke Opacity** property.  
+*[Support fill-opacity/stroke-opacity for map features (#1859) · mit-cml/appinventor-sources@fca2c24 · GitHub](https://github.com/mit-cml/appinventor-sources/commit/fca2c244331c7f9cfc270d11937a039bba361fd5)*  
+![stroke_opacity|287x66](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/4/9/4959ba18d687fb4382dbd5ed9c1a1a3a9a3c92e5.png)  
+![blocks|288x30](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/f/5/f5c463144e34630d13155438b4b888619b608e6a.png)  
+![component_set_get|228x26](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/6/9/693f397ac7f7024ea9f42fae2efbefeb353d49b9.png)
+
+##### Line String
+
+* New **Fill Opacity** property.  
+*[Support fill-opacity/stroke-opacity for map features (#1859) · mit-cml/appinventor-sources@fca2c24 · GitHub](https://github.com/mit-cml/appinventor-sources/commit/fca2c244331c7f9cfc270d11937a039bba361fd5)*  
+![fill_opacity|287x66](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/3/b/3bae95c5941d6639d85fbe05a990da0402001ee8.png)  
+![blocks|264x30](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/9/c/9ca3ed8dd445dca2db7dbb675c32f736d9f9b131.png)  
+![component_set_get|204x26](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/9/c/9c803d3d81a9fb5503a4e51bac95cbc324097a8c.png)
+  
+
+* New **Stroke Opacity** property.  
+*[Support fill-opacity/stroke-opacity for map features (#1859) · mit-cml/appinventor-sources@fca2c24 · GitHub](https://github.com/mit-cml/appinventor-sources/commit/fca2c244331c7f9cfc270d11937a039bba361fd5)*  
+![stroke_opacity|287x66](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/4/9/4959ba18d687fb4382dbd5ed9c1a1a3a9a3c92e5.png)  
+![blocks|323x30](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/7/3/73483023922511b9152282b50ff9b3e5adf6d967.png)  
+![component_set_get|263x26](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/3/7/37b536ad207708cbaef728b74206742d8d777afd.png)
+
+##### Marker
+
+* New **Fill Opacity** property.  
+*[Support fill-opacity/stroke-opacity for map features (#1859) · mit-cml/appinventor-sources@fca2c24 · GitHub](https://github.com/mit-cml/appinventor-sources/commit/fca2c244331c7f9cfc270d11937a039bba361fd5)*  
+![fill_opacity|287x66](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/3/b/3bae95c5941d6639d85fbe05a990da0402001ee8.png)  
+![blocks|270x30](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/f/9/f95a76a81de8a04cb4310155f8eddafebcaf4569.png)  
+![component_set_get|210x26](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/4/5/453ad5a7478f91be5badd19092301bcf520d8095.png)
+
+* New **Stroke Opacity** property.  
+*[Support fill-opacity/stroke-opacity for map features (#1859) · mit-cml/appinventor-sources@fca2c24 · GitHub](https://github.com/mit-cml/appinventor-sources/commit/fca2c244331c7f9cfc270d11937a039bba361fd5)*  
+![stroke_opacity|287x66](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/4/9/4959ba18d687fb4382dbd5ed9c1a1a3a9a3c92e5.png)  
+![blocks|294x30](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/d/a/dac4cdc8b6450285f427837467fed31ac66fd5ac.png)  
+![component_set_get|234x26](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/5/7/57ba320ea8b18837b13a90043add18fd2df92030.png)
+
+##### Polygon
+
+* New **Fill Opacity** property.  
+*[Support fill-opacity/stroke-opacity for map features (#1859) · mit-cml/appinventor-sources@fca2c24 · GitHub](https://github.com/mit-cml/appinventor-sources/commit/fca2c244331c7f9cfc270d11937a039bba361fd5)*  
+![fill_opacity|287x66](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/3/b/3bae95c5941d6639d85fbe05a990da0402001ee8.png)  
+![blocks|278x30](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/8/a/8a847168d7a0ab8c4e0c3a4e94730ac25c7ba607.png)  
+![component_set_get|218x26](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/9/8/98301a0f1dcbad4565a6725200990547eb5c4ef4.png)
+
+* New **Stroke Opacity** property.  
+*[Support fill-opacity/stroke-opacity for map features (#1859) · mit-cml/appinventor-sources@fca2c24 · GitHub](https://github.com/mit-cml/appinventor-sources/commit/fca2c244331c7f9cfc270d11937a039bba361fd5)*  
+![stroke_opacity|287x66](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/4/9/4959ba18d687fb4382dbd5ed9c1a1a3a9a3c92e5.png)  
+![blocks|302x30](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/c/5/c52402592d8cdf5ab98547c339d9220303ac63e4.png)  
+![component_set_get|242x26](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/8/e/8e034e83597b7f434f57c8959bf7f137edb20df9.png)
+
+##### Rectangle
+
+* New **Fill Opacity** property.  
+*[Support fill-opacity/stroke-opacity for map features (#1859) · mit-cml/appinventor-sources@fca2c24 · GitHub](https://github.com/mit-cml/appinventor-sources/commit/fca2c244331c7f9cfc270d11937a039bba361fd5)*  
+![fill_opacity|287x66](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/3/b/3bae95c5941d6639d85fbe05a990da0402001ee8.png)  
+![blocks|292x30](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/c/b/cb5e22c826fcf17fffe4a86cc9aeb3b72860097e.png)  
+![component_set_get|232x26](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/3/d/3d7d18fa8a5556d62bda076c6e96bdd36c7a6922.png)
+
+* New **Stroke Opacity** property.  
+*[Support fill-opacity/stroke-opacity for map features (#1859) · mit-cml/appinventor-sources@fca2c24 · GitHub](https://github.com/mit-cml/appinventor-sources/commit/fca2c244331c7f9cfc270d11937a039bba361fd5)*  
+![stroke_opacity|287x66](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/4/9/4959ba18d687fb4382dbd5ed9c1a1a3a9a3c92e5.png)  
+![blocks|316x30](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/8/a/8ad0571d235d0486ceaccfc4932285ae5a86593d.png)  
+![component_set_get|256x26](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/b/a/ba7d99b6573c14d3486954b0bfadbd79bc524733.png)
+
+#### Connectivity
+
+##### Web
+
+* New **Timeout** property.  
+*[Add Timeout property to Web component · mit-cml/appinventor-sources@28e898d · GitHub](https://github.com/mit-cml/appinventor-sources/commit/28e898d9b2f9afa8b737527a5668b30d6f1ee5b2)*  
+![Screen Shot 2019-12-24 at 00.05.00|295x66](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/8/5/856f9888bcbb5de04932721394f4d9e94f6a6fb9.png)  
+![blocks|237x30](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/3/b/3bdd01b905602d1c93d38764e71e54bb6b792e46.png)  
+![component_set_get|177x26](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/c/9/c9154cdbb0b30ba3ae0c04d06ed358a7a958562b.png)  
+
+#### Monetization > Advertising
+
+##### Unity Ads Interstitial
+
+* New **Placement ID** property  
+*Allows for Rewarded Videos to be placed in Unity Ads.*  
+![Screen Shot 2019-12-24 at 00.06.20|295x66](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/f/d/fd4f3a7f5939eb753f62a96814288c60f8c431eb.png)
+
+#### Sensors
+
+##### Pedometer
+
+* Deprecated **Pause** method.  
+*[Remove Redundant Pedometer Resume and Pause methods (#1907) · mit-cml/appinventor-sources@fbd7536 · GitHub](https://github.com/mit-cml/appinventor-sources/commit/fbd75360e1df2daca9076342aabdc463d4e7f359)*
+
+* Deprecated **Resume** method.  
+*[Remove Redundant Pedometer Resume and Pause methods (#1907) · mit-cml/appinventor-sources@fbd7536 · GitHub](https://github.com/mit-cml/appinventor-sources/commit/fbd75360e1df2daca9076342aabdc463d4e7f359)*
+
+### Bugs Fixed
+
+* Issue with **Status and Navigation Bar dark icons**.  
+*Status Bar dark icons and Navigation Bar dark icons can now be set simultaneously.*
+
+* Inability to enter **negative and decimal numbers**.  
+*The TextBox and Notifier components now accept negative and decimal numeric inputs.*
+
+* Issue with **Background Color of Card Views**.  
+*Updates to backgrounds of Card View components now reflect correctly in the display.*
+
+* Issue with **File Upload Cancel event** in the Web Viewer component.  
+*Apps no longer crash when this event is invoked.*
+
+* **Lottie animations** do not load.  
+*The Lottie library has been updated and animations now load as expected.*
+
+* Issue with **AES 128** and **AES 256** algorithms in the Cryptography component.  
+*The algorithms now return the correct encodings regardless of the length of keys used.*
+
+* Issue with **MD5 algorithm** in the Cryptography component.  
+*The MD5 algorithm has been updated and now reports the correct encoding.*
+
+* Issue with **Arduino icon** in Knight and Bliss themes.  
+*The icon has been updated and now better reflects the original Arduino logo.*
+
+* Failure to invoke the **Download Progress event** in the Download component.  
+*The Download component now correctly reports the progress of the download.*
+
+* **AdColony library** version.  
+*The component’s library has been updated to its latest version.*  
+
+* Issue with **Facebook ads and Monetization approval**.  
+*All apps using Facebook ads now require approval before they can be monetized.*
+
+* Issue with **exposed API keys**.  
+*The exposed API keys concerned have been removed, and the Google Play Store should no longer show API key warnings on apps made with Kodular.*
+
+* Fabric deprecation.  
+*Fabric libraries have been removed from Kodular apps. Kodular apps are now smaller in size.*
+
+* MIT Security vulnerability.  
+*A security hole in the MIT App Inventor system has been patched up; more details will be published soon.*
+
+* Issue with **Android Oreo Web Viewer** layout size.  
+*The Web Viewer now loads with the correct sizing even after the first refresh.*
