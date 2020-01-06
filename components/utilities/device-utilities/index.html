@@ -4260,6 +4260,10 @@ The bootloader usually lives on the system board in non-volatile memory and is o
 </div>
 <div class="admonition caution">
 <p class="admonition-title">Caution</p>
+<p>The Companion emulates the <strong>Device Id</strong> property and generates a value which may or may not be the true <strong>Device Id</strong> of the device. Only generated APKs are guaranteed to return the true <strong>Device Id</strong> of the device.</p>
+</div>
+<div class="admonition caution">
+<p class="admonition-title">Caution</p>
 <p>Certain OEMs are known to have botched the <strong>Device Id</strong> implementation. For example, all Motorola Droid2 devices return the same <strong>Device Id</strong>. Use caution before relying on this property to uniquely identify users and/or devices.</p>
 </div>
 <h3 id="device-name">Device Name<a class="headerlink" href="#device-name" title="Permanent link">&para;</a></h3>
