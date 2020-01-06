@@ -101,6 +101,9 @@ An alphanumeric string that can uniquely identify an Android device.
     When a device has multiple users (available on certain devices running Android 4.2 or higher), each user appears as a completely separate device, so the **Device Id** value is unique to each user.
     
 !!! caution
+    The Companion emulates the **Device Id** property and generates a value which may or may not be the true **Device Id** of the device. Only generated APKs are guaranteed to return the true **Device Id** of the device.
+    
+!!! caution
     Certain OEMs are known to have botched the **Device Id** implementation. For example, all Motorola Droid2 devices return the same **Device Id**. Use caution before relying on this property to uniquely identify users and/or devices.
     
 
