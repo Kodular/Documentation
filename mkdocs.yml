@@ -51,6 +51,9 @@ extra_javascript:
 plugins:
   - search
   - replace
+  - minify:
+      minify_html: true
+  - git-revision-date-localized
 # - jekyll-redirect-from
 
 #Markdown extensions: https://python-markdown.github.io/extensions/
