@@ -1,3 +1,39 @@
 # Barcode Scanner
 
-{!includes/sip.md!}
+| Category | Version | Requires |
+|:--------:|:-------:|:--------:|
+|Sensors|2|API 19 - Android 4.4 - 4.4.4 KitKat|
+
+:mag: {>>Non-visible component<<}
+
+## Overview
+
+_A non-visible component that reads barcodes from the device''s camera._
+
+## Properties
+
+### Use External Scanner
+
+<small>Available as Common Property</small>
+
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Barcode Scanner', 'Use External Scanner')]]
+
+| Type | Default |
+|:----:|:-------:|
+|boolean|False|
+
+If true App Inventor will look for and use an external scanning program such as "Bar Code Scanner."
+
+### Result
+
+
+
+:eyes: Read-Only property
+[[PropertyBlockGetter('Barcode Scanner', 'Result')]]
+
+| Type | Default |
+|:----:|:-------:|
+|text|None|
+
+Text result of the previous scan.

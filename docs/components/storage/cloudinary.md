@@ -1,27 +1,52 @@
 # Cloudinary
 
+| Category | Version | Requires |
+|:--------:|:-------:|:--------:|
+|Storage|1|API 19 - Android 4.4 - 4.4.4 KitKat|
+
+:mag: {>>Non-visible component<<}
+
 ## Overview
 
-The **Cloudinary** component allows you to upload and store media assets (such as images, videos and audio) to [Cloudinary.com](https://cloudinary.com/){:target = "_blank"}
+_A non-visible component that allows for uploading of images, videos, audios and many other file types to Cloudinary._
 
-## Methods
+## Properties
 
-### Upload Media
-[[Method('Cloudinary', 'Upload Media', False, 'path')]]
+### API Key
 
-Use this block to upload the specified media file to your Cloudinary media library
+<small>Available as Common Property</small>
 
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Cloudinary', 'API Key')]]
 
-## Events
+| Type |
+|:----:|
+|text|
 
-### Media Uploaded
-[[Event('Cloudinary', 'Media Uploaded', 'response Content', 'url')]]
+Your Cloudinary API key.
 
-\[ Text `response Content`, Text `url` \]
+### API Secret
 
-Triggered when media is uploaded.
+<small>Available as Common Property</small>
 
-Params           |  []()       
----------------- | ------- 
-`response Content`          | **Text:**  Tells you whether or not the media was successfully uploaded.
-`url`          | **Text:**  The URL of the uploaded media file.
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Cloudinary', 'API Secret')]]
+
+| Type |
+|:----:|
+|text|
+
+Your Cloudinary API secret.
+
+### Cloud Name
+
+<small>Available as Common Property</small>
+
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Cloudinary', 'Cloud Name')]]
+
+| Type |
+|:----:|
+|text|
+
+Your Cloudinary cloud name.

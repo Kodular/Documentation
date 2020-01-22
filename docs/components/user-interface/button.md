@@ -1,246 +1,325 @@
 # Button
 
+| Category | Version | Requires |
+|:--------:|:-------:|:--------:|
+|User Interface|12|API 19 - Android 4.4 - 4.4.4 KitKat|
 
 ## Overview
 
-A button is a basic UI element with which the user can interact with your apps by tapping or 
-clicking on it to perform an action.
-
-
-<br><br>
-![Preview of button](/assets/images/components/user-interface/button/preview.png){: class="preview-img"}
-
-A typical button
-{: .img-caption}
-
+_Button with the ability to detect clicks.  Many aspects of its appearance can be changed, as well as whether it is clickable (<code>Enabled</code>), can be changed in the Designer or in the Blocks Editor._
 
 ## Properties
 
-{!includes/bgcolor-property.md!}
+### Background Color
 
-!!! caution ""
-    If the _[Image](#image)_ property is set, then this is overriden.
+<small>Available as Common Property</small>
 
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Button', 'Background Color')]]
+
+| Type | Default |
+|:----:|:-------:|
+|number|&HFF444444|
+
+Returns the button's background color
 
 ### Border Shadow
 
-![](/assets/images/components/user-interface/button/d_border-shadow.png)
+<small>Available as Advanced Property</small>
 
-_**\(** Advanced | Setter only | Designer**\)**  
-`Type: Color`_
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Button', 'Border Shadow')]]
 
-The color of ripple effect when touching the button.
+| Type | Default |
+|:----:|:-------:|
+|boolean|True|
 
+Returns true if the button have a outside border shadow on click.
 
-{!includes/enabled-property.md!}
+### Enabled
 
+<small>Available as Common Property</small>
 
-{!includes/all-font-properties.md!}
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Button', 'Enabled')]]
 
+| Type | Default |
+|:----:|:-------:|
+|boolean|True|
 
-{!includes/height-property.md!}
+If set, user can tap check box to cause action.
 
+### Font Bold
+
+<small>Available as Common Property</small>
+
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Button', 'Font Bold')]]
+
+| Type | Default |
+|:----:|:-------:|
+|boolean|False|
+
+If set, button text is displayed in bold.
+
+### Font Italic
+
+<small>Available as Common Property</small>
+
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Button', 'Font Italic')]]
+
+| Type | Default |
+|:----:|:-------:|
+|boolean|False|
+
+If set, button text is displayed in italics.
+
+### Font Size
+
+<small>Available as Common Property</small>
+
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Button', 'Font Size')]]
+
+| Type | Default |
+|:----:|:-------:|
+|number|14.0|
+
+Point size for button text.
+
+### Font Typeface
+
+<small>Available as Common Property</small>
+
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Button', 'Font Typeface')]]
+
+| Type | Default |
+|:----:|:-------:|
+|number|0|
+
+Font family for button text.
+
+### Font Typeface Import
+
+<small>Available as Advanced Property</small>
+
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Button', 'Font Typeface Import')]]
+
+| Type |
+|:----:|
+|text|
+
+Set a custom font.
+
+### HTML Format
+
+<small>Available as Advanced Property</small>
+
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Button', 'HTML Format')]]
+
+| Type | Default |
+|:----:|:-------:|
+|boolean|False|
+
+If true, then this button will show html text else it will show plain text. Note: Not all HTML is supported.
 
 ### Image
 
-![](/assets/images/components/user-interface/button/d_image.png) ![](/assets/images/components/user-interface/button/p_image.png)
+<small>Available as Common Property</small>
 
-_**\(** Getter + Setter **\)**  
-`Type: Asset`_ 
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Button', 'Image')]]
 
-The image that is displayed on the button as a background.
+| Type |
+|:----:|
+|text|
 
-!!! caution ""
-    This property overrides the [Background Color](#background-color) property.
-
+Image to display on button.
 
 ### Rotation Angle
 
-![](/assets/images/components/user-interface/button/d_rotation-angle.png) ![](/assets/images/components/user-interface/button/p_rotation-angle.png)
+<small>Available as Advanced Property</small>
 
-_**\(** Getter + Setter **\)**  
-`Type: Number`_ 
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Button', 'Rotation Angle')]]
 
-The degrees that the **Button** is rotated around the pivot point. Increasing values result in clockwise rotation.
+| Type | Default |
+|:----:|:-------:|
+|number|0.0|
 
+Sets the degrees that the button is rotated around the pivot point. Increasing values result in clockwise rotation.
 
 ### Shape
 
-![](/assets/images/components/user-interface/button/d_shape.png)
+<small>Available as Common Property</small>
 
-_**\(** Setter only | Designer**\)**  
-`Type: Text`_ 
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Button', 'Shape')]]
 
-The shape of the **Button**.
+| Type | Default |
+|:----:|:-------:|
+|number|0|
 
-Options              | []()
--------------------- | ------------
-`Default`            | The default shape of the button i.e a standard button.
-`Rectangular`        | The button is in rectangular shape , similar to `Default` shape.
-`Rounded`            | The corners of the button are rounded giving it a shape like rounded rectangle.
-`Oval   `            | The **Button** is in the shape of an oval.
-
+Specifies the button's shape (default, rounded, rectangular, oval). The shape will not be visible if an Image is being displayed.
 
 ### Show Feedback
 
-![](/assets/images/components/user-interface/button/d_show-feedback.png) ![](/assets/images/components/user-interface/button/p_show-feedback.png)
+<small>Available as Advanced Property</small>
 
-_**\(** Advanced | Getter + Setter **\)**  
-`Type: Number`_ 
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Button', 'Show Feedback')]]
 
-Determines whether the **Button** shows a visual feedback for a button that has an image as background.
+| Type | Default |
+|:----:|:-------:|
+|boolean|True|
 
+Specifies if a visual feedback should be shown for a button that as an image as background.
+
+### Text
+
+<small>Available as Common Property</small>
+
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Button', 'Text')]]
+
+| Type |
+|:----:|
+|text|
+
+Text to display on button.
+
+### Text Alignment
+
+<small>Available as Common Property</small>
+
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Button', 'Text Alignment')]]
+
+| Type | Default |
+|:----:|:-------:|
+|number|1|
+
+Left, center, or right.
+
+### Text Color
+
+<small>Available as Common Property</small>
+
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Button', 'Text Color')]]
+
+| Type | Default |
+|:----:|:-------:|
+|number|&HFFFFFFFF|
+
+Color for button text.
 
 ### Touch Color
 
-![](/assets/images/components/user-interface/button/d_touch-color.png) ![](/assets/images/components/user-interface/button/p_touch-color.png)
+<small>Available as Advanced Property</small>
 
-_**\(** Advanced | Setter only **\)**  
-`Type: Color`_
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Button', 'Touch Color')]]
 
-The color of ripple effect when touching the button.
+| Type | Default |
+|:----:|:-------:|
+|number|&HFFCCCCCC|
 
+Set the buttons touch color.
 
-{!includes/text-property.md!}
+### Visible
 
+<small>Available as Common Property</small>
 
-{!includes/width-property.md!}
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Button', 'Visible')]]
 
+| Type | Default |
+|:----:|:-------:|
+|boolean|True|
 
-{!includes/visible-property.md!}
+Returns true iff the component is visible.
 
+### Column
 
 
-## Methods
 
-### Button Click
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Button', 'Column')]]
 
-![](/assets/images/components/user-interface/button/m_button-click.png)
+| Type | Default |
+|:----:|:-------:|
+|number|None|
 
-_**\(** None **\)**_ 
+Column property getter method.
 
-Perform a Button click. The Click event is also fired when this method is executed.
+### Height
 
-### Set Shadow
 
-![](/assets/images/components/user-interface/button/m_set-shadow.png)
 
-_**\(** Number `x`, Number `y`, Number `radius`, Color `color` **\)**_ 
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Button', 'Height')]]
 
-Adds a shadow to the button.
+| Type | Default |
+|:----:|:-------:|
+|number|None|
 
-Params           |  []()       
----------------- | ------- 
-`x`              | **Number:**  The x-displacement of the shadow.
-`y`              | **Number:**  The y-displacement of the shadow.
-`radius`         | **Number:**  The radius of the shadow.
-`color`          | **Color:**  The color of the shadow.
+Specifies the component's vertical height, measured in pixels.
 
+### Height Percent
 
-### With Icon from Font Awesome
 
-![](/assets/images/components/user-interface/button/m_with-icon-from-font-awesome.png)
 
-_**\(** Text `position`, Text `icon Name`, Color `icon Color`, Number `padding`, Number `size` **\)**_ 
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Button', 'Height Percent')]]
 
-Inserts an icon from [Font Awesome](https://fontawesome.com/v4.7.0) in the button.
+| Type | Default |
+|:----:|:-------:|
+|number|None|
 
-Params           |  []()       
----------------- | ------- 
-`position`       | **Text:** The position of the icon. It can be `Left`, `Right`, `Top` or `Bottom`
-`icon Name`      | **Text:** The Font Awesome icon name or code. See [Font Awesome Cheetsheet](https://fontawesome.com/v4.7.0/cheatsheet/) for available codes.
-`icon Color`     | **Color:** The color of the icon.
-`padding`        | **Number:** The padding of the icon.
-`size`           | **Number:** The size of the icon.
+Specifies the component's vertical height as a percentage
+ of the height of its parent Component.
 
+### Row
 
-### With Icon from Material Font
 
-![](/assets/images/components/user-interface/button/m_with-icon-from-material-font.png)
 
-_**\(** Text `position`, Text `icon Name`, Color `icon Color`, Number `padding`, Number `size` **\)**_ 
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Button', 'Row')]]
 
-Inserts an icon from [Material Font](https://material.io/icons) in the button.
+| Type | Default |
+|:----:|:-------:|
+|number|None|
 
-Params           |  []()       
----------------- | ------- 
-`position`       | **Text:** The position of the icon. It can be `Left`, `Right`, `Top` or `Bottom`
-`icon Name`      | **Text:** The Material Icon name. See [Material Icons](https://material.io/icons/) for available icons.
-`icon Color`     | **Color:** The color of the icon.
-`padding`        | **Number:** The padding of the icon.
-`size`           | **Number:** The size of the icon.
+Row property getter method.
 
+### Width
 
-### With Icon from Picture
 
-![](/assets/images/components/user-interface/button/m_with-icon-from-picture.png)
 
-_**\(** Text `position`, Asset `picture`, Number `padding`, Number `width`, Number `height` **\)**_ 
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Button', 'Width')]]
 
-Inserts an icon from an uploaded image in the button.
+| Type | Default |
+|:----:|:-------:|
+|number|None|
 
-Params           |  []()       
----------------- | ------- 
-`position`       | **Text:** The position of the icon. It can be `Left`, `Right`, `Top` or `Bottom`
-`picture`        | **Asset:** The name of the uploaded image
-`padding`        | **Number:** The padding of the icon.
-`width`          | **Number:** The width of the icon.
-`height`         | **Number:** The height of the icon.
+Specifies the component's horizontal width, measured in pixels.
 
+### Width Percent
 
 
-## Events
 
-### Click
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Button', 'Width Percent')]]
 
-![](/assets/images/components/user-interface/button/e_click.png)
+| Type | Default |
+|:----:|:-------:|
+|number|None|
 
-_**\(** None **\)**_ 
-
-Indicates that the user has clicked the button \(i.e pressed and released\)
-
-
-### Got Focus
-
-![](/assets/images/components/user-interface/button/e_got-focus.png)
-
-_**\(** None **\)**_
-
-Indicates the has been cursor moved over the button so it is now possible to click it.
-
-
-### Long Click
-
-![](/assets/images/components/user-interface/button/e_long-click.png)
-
-_**\(** None **\)**_
-
-Indicates that the user has clicked and held down the button. _Click_ event is not 
-fired when the Button is long clicked.
-
-
-### Lost Focus
-
-![](/assets/images/components/user-interface/button/e_lost-focus.png)
-
-_**\(** None **\)**_
-
-Indicates the cursor moved away from the button so it is now no longer possible to click it.
-
-
-### Touch Down
-
-![](/assets/images/components/user-interface/button/e_touch-down.png)
-
-_**\(** None **\)**_
-
-Indicates that the button was pressed down.
-
-
-### Touch Up
-
-![](/assets/images/components/user-interface/button/e_touch-up.png)
-
-_**\(** None **\)**_
-
-Indicates that a button has been released.
+Specifies the component's horizontal width as a percentage
+ of the Width of its parent Component.

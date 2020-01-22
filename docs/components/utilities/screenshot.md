@@ -1,175 +1,169 @@
 # Screenshot
 
+| Category | Version | Requires |
+|:--------:|:-------:|:--------:|
+|Utilities|2|API 19 - Android 4.4 - 4.4.4 KitKat|
+
+:mag: {>>Non-visible component<<}
+
 ## Overview
 
-The **Screenshot** component can, among many other things, be used to take screenshots of the current screen.
+_A non-visible component that takes a screenshot of the content currently visible on the device''s screen._
 
 ## Properties
 
 ### Allow Screenshots
-![](/assets/images/components/utilities/screenshot/d_allow-screenshots.png) ![](/assets/images/components/utilities/screenshot/p_allow-screenshots.png)
 
-\[ Setter only \]  
-`Type: Boolean`
+<small>Available as Common Property</small>
 
-Determines if the user can take screenshots of the current screen.
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Screenshot', 'Allow Screenshots')]]
 
-* `True` - The user can take screenshots of the current screen.
-* `False` - The user will see a "Screenshots blocked" notice when the they try to take a screenshot of the current screen. 
+| Type | Default |
+|:----:|:-------:|
+|boolean|True|
 
+This feature allows users of your app to make or ban screenshots of their app. If disabled and a person tries to make a screenshot, they will receive then a default system message that this is not possible.
 
 ### Dim Amount
-![](/assets/images/components/utilities/screenshot/d_dim-amount.png) ![](/assets/images/components/utilities/screenshot/p_dim-amount.png)
 
-\[ Getter + Setter \]  
-`Type: Number`
+<small>Available as Common Property</small>
 
-The amount by which the space behind the screenshot preview should be dimmed. `0.0` corresponds to no dimming of the background, and `1.0` will completely blacken the background.
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Screenshot', 'Dim Amount')]]
 
+| Type | Default |
+|:----:|:-------:|
+|number|0.5|
+
+Set the amount of dim behind the preview window if ShowPreview(...) is enabled. Use '0.0' for no dim and '1.0' for full dim.
 
 ### File Name
-![](/assets/images/components/utilities/screenshot/d_file-name.png) ![](/assets/images/components/utilities/screenshot/p_file-name.png)
 
-\[ Getter + Setter \]  
-`Type: Text`
+<small>Available as Common Property</small>
 
-The name by which the screenshot taken will be saved. You can also specify the full path of the image to store it in an external directory. The file name is "Screenshot.png" by default.
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Screenshot', 'File Name')]]
 
+| Type | Default |
+|:----:|:-------:|
+|text|Screenshot.png|
+
+This will be the name for the taken screenshot image file.
 
 ### Use Large Notification
-![](/assets/images/components/utilities/screenshot/d_use-large-notification.png) ![](/assets/images/components/utilities/screenshot/p_use-large-notification.png)
 
-\[ Getter + Setter \]  
-`Type: Boolean`
+<small>Available as Common Property</small>
 
-Determines the size of the notification that is sent to the user (if [Show Notification](#show-notification) is set to `True`) after the screenshot is taken.
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Screenshot', 'Use Large Notification')]]
 
-* `True` - A large notification is shown to the user with the notification title and a preview of the screenshot that was taken.
-* `False` - A small notification is shown to the user with only the notification title.
+| Type | Default |
+|:----:|:-------:|
+|boolean|False|
 
+This will display the notification in a big style.
 
 ### Show Notification Share Button
-![](/assets/images/components/utilities/screenshot/d_show-notification-share-button.png) ![](/assets/images/components/utilities/screenshot/p_show-notification-share-button.png)
 
-\[ Getter + Setter \]  
-`Type: Boolean`
+<small>Available as Common Property</small>
 
-Determines if a `Share` button is to be included in the notification that is sent to the user (if [Show Notification](#show-notification) is set to `True`) after the screenshot is taken.
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Screenshot', 'Show Notification Share Button')]]
 
-* `True` - A `Share` button is included in the notification, clicking on which will bring up the system's Sharing menu.
-* `False` - No `Share` icon will be shown to the user.
+| Type | Default |
+|:----:|:-------:|
+|boolean|True|
 
+If enabled you will see a notification with a share button after the screenshot is taken.
 
 ### Notification Share Title
-![](/assets/images/components/utilities/screenshot/d_notification-share-title.png) ![](/assets/images/components/utilities/screenshot/p_notification-share-title.png)
 
-\[ Getter + Setter \]  
-`Type: Text`
+<small>Available as Common Property</small>
 
-The text of the `Share` button that is sent to the user if [Show Notification Share Button](#show-notification-share-button) is set to `True`.
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Screenshot', 'Notification Share Title')]]
 
-![share-preview](/assets/images/components/utilities/screenshot/pr_share-menu.png#phone)
+| Type | Default |
+|:----:|:-------:|
+|text|Share|
 
-Share menu triggered after the `Share` button was clicked.
-{: .img-caption}
-
+This will set the notification share button text if the option "Show Notification" is enabled.
 
 ### Notification Title
-![](/assets/images/components/utilities/screenshot/d_notification-title.png) ![](/assets/images/components/utilities/screenshot/p_notification-title.png)
 
-\[ Getter + Setter \]  
-`Type: Text`
+<small>Available as Common Property</small>
 
-The title of the notification that is sent to the user (if [Show Notification](#show-notification) is set to `True`) after a screenshot has been taken.
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Screenshot', 'Notification Title')]]
 
+| Type | Default |
+|:----:|:-------:|
+|text|Screenshot..|
+
+This will set the notification title if the option "Show Notification" is enabled.
 
 ### Show Notification
-![](/assets/images/components/utilities/screenshot/d_show-notification.png) ![](/assets/images/components/utilities/screenshot/p_show-notification.png)
 
-\[ Getter + Setter \]  
-`Type: Boolean`
+<small>Available as Common Property</small>
 
-Determines if the user should be sent a notification after a screenshot has been taken.
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Screenshot', 'Show Notification')]]
 
-* `True` - A notification is sent to the user.
-* `False` - No notification is sent to the user.
+| Type | Default |
+|:----:|:-------:|
+|boolean|False|
 
-![notification-preview](/assets/images/components/utilities/screenshot/pr_notification.png#phone)
-
-Small notification (top) and large notification (bottom).
-{: .img-caption}
-
+If enabled you will see a notification in the statusbar after the screenshot is taken.
 
 ### Show Preview
-![](/assets/images/components/utilities/screenshot/d_show-preview.png) ![](/assets/images/components/utilities/screenshot/p_show-preview.png)
 
-\[ Getter + Setter \]  
-`Type: Boolean`
+<small>Available as Common Property</small>
 
-Determines if the user should be shown a preview of the screenshot that was just taken.
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Screenshot', 'Show Preview')]]
 
-* `True` - A preview of the screenshot is shown to the user.
-* `False` - No preview of the screenshot is shown to the user.
+| Type | Default |
+|:----:|:-------:|
+|boolean|True|
 
-![screenshot-preview](/assets/images/components/utilities/screenshot/pr_preview.png#phone)
-
-Screenshot preview.
-{: .img-caption}
-
+If enabled you will see a short preview animation after the screenshot is taken.
 
 ### Are Permissions Granted
-![](/assets/images/components/utilities/screenshot/p_are-permissions-granted.png)
-
-\[ Getter | Blocks only \]  
-`Type: Boolean`
-
-Determines if the app has been given permissions to read and write the device's external storage.
-
-* `True` - Read/write permissions have been granted.
-* `False` - Permissions have not been granted.
 
 
-### Is Read Permission Granted
-![](/assets/images/components/utilities/screenshot/p_is-read-permission-granted.png)
 
-\[ Getter | Blocks only \]  
-`Type: Boolean`
+:eyes: Read-Only property
+[[PropertyBlockGetter('Screenshot', 'Are Permissions Granted')]]
 
-Determines if the app has been given permissions to read from the device's external storage.
+| Type | Default |
+|:----:|:-------:|
+|boolean|None|
 
-* `True` - Read permissions have been granted.
-* `False` - Permissions have not been granted.
+Returns true if the write and read permission is granted, else false.
+
+### is Read Permission Granted
 
 
-### Is Write Permission Granted
-![](/assets/images/components/utilities/screenshot/p_is-write-permission-granted.png)
 
-\[ Getter | Blocks only \]  
-`Type: Boolean`
+:eyes: Read-Only property
+[[PropertyBlockGetter('Screenshot', 'is Read Permission Granted')]]
 
-Determines if the app has been given permissions to write to the device's external storage.
+| Type | Default |
+|:----:|:-------:|
+|boolean|None|
 
-* `True` - Write permissions have been granted.
-* `False` - Permissions have not been granted.
+Returns true if the read permission is granted, else false.
 
-## Methods
+### is Write Permission Granted
 
-### Take Screenshot
-![](/assets/images/components/utilities/screenshot/m_take-screenshot.png)
 
-\[ None \]
 
-Takes a screenshot of the currently open screen.
+:eyes: Read-Only property
+[[PropertyBlockGetter('Screenshot', 'is Write Permission Granted')]]
 
-## Events
+| Type | Default |
+|:----:|:-------:|
+|boolean|None|
 
-### Got Screenshot
-![](/assets/images/components/utilities/screenshot/e_got-screenshot.png)
-
-\[ Text `image` \]
-
-Triggers when the screenshot that was taken has been saved to the device's storage.
-
-Params           |  []()       
----------------- | ------- 
-`image`          | **Text:**  The path to the screenshot that was just taken.
+Returns true if the write permission is granted, else false.

@@ -1,94 +1,254 @@
 # Checkbox
 
-A **checkbox** is a GUI widget that allows the user to make a binary choice, i.e. a choice between one of two possible mutually exclusive options. For example, the user may have to answer 'yes' \(checked\) or 'no' \(not checked\) on a simple yes/no question.
+| Category | Version | Requires |
+|:--------:|:-------:|:--------:|
+|User Interface|6|API 19 - Android 4.4 - 4.4.4 KitKat|
 
-Often, a series of checkboxes are presented, each representing different options. Then the user may select several of the choices. 
+## Overview
 
-The difference between a Radio button and a checkbox is that a checkbox allows the user to select multiple options from a set, while a Radio Button allows the user to select only one option from a set.
-
-
+_Checkbox that raises an event when the user clicks on it. There are many properties affecting its appearance that can be set in the Designer or Blocks Editor._
 
 ## Properties
 
-{!includes/bgcolor-property.md!}
+### Background Color
 
+<small>Available as Common Property</small>
+
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Checkbox', 'Background Color')]]
+
+| Type | Default |
+|:----:|:-------:|
+|number|&H00FFFFFF|
+
+Returns the checkbox's background color as an alpha-red-green-blue
+ integer.
 
 ### Checkbox Color
 
-![](/assets/images/components/user-interface/checkbox/d_checkbox-color.png) ![](/assets/images/components/user-interface/checkbox/p_checkbox-color.png)
+<small>Available as Common Property</small>
 
-_**\(** Getter + Setter **\)**  
-`Type: Color`_
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Checkbox', 'Checkbox Color')]]
 
-The color of the checkbox displayed. This determines only the color of the checkbox and 
-not its text.
-See _[Text Color](#text-color)_ for the color of the text.
+| Type | Default |
+|:----:|:-------:|
+|number|&HFF000000|
 
+Change the checkbox component color.
 
 ### Checked
 
-![](/assets/images/components/user-interface/checkbox/d_checked.png) ![](/assets/images/components/user-interface/checkbox/p_checked.png)
+<small>Available as Common Property</small>
 
-_**\(** Getter + Setter **\)**  
-`Type: Boolean`_
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Checkbox', 'Checked')]]
 
-Determines whether the **Checkbox** is checked or not.
-`true` if checked, `false` otherwise.
+| Type | Default |
+|:----:|:-------:|
+|boolean|False|
 
-{!includes/enabled-property.md!}
+Returns true if the checkbox is checked.
 
-{!includes/text-property.md!}
+### Enabled
 
-{!includes/height-property.md!}
+<small>Available as Common Property</small>
 
-{!includes/width-property.md!}
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Checkbox', 'Enabled')]]
 
-{!includes/visible-property.md!}
+| Type | Default |
+|:----:|:-------:|
+|boolean|True|
 
-## Methods
+Returns true if the checkbox is active and clickable.
 
-### Set Shadow
+### Font Bold
 
-![](/assets/images/components/user-interface/checkbox/m_set-shadow.jpg)
+<small>Available as Common Property</small>
 
-_**\(** Number `x`, Number `y`, Number `radius`, Color `color` **\)**_ 
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Checkbox', 'Font Bold')]]
 
-Adds a shadow to the checkbox.
+| Type | Default |
+|:----:|:-------:|
+|boolean|False|
 
-Params           |  []()       
----------------- | ------- 
-`x`              | **Number:**  The x-displacement of the shadow.
-`y`              | **Number:**  The y-displacement of the shadow.
-`radius`         | **Number:**  The radius of the shadow.
-`color`          | **Color:**  The color of the shadow.
+Returns true if the checkbox's text should be bold.
+ If bold has been requested, this property will return true, even if the
+ font does not support bold.
+
+### Font Italic
+
+<small>Available as Common Property</small>
+
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Checkbox', 'Font Italic')]]
+
+| Type | Default |
+|:----:|:-------:|
+|boolean|False|
+
+Returns true if the checkbox's text should be italic.
+ If italic has been requested, this property will return true, even if the
+ font does not support italic.
+
+### Font Size
+
+<small>Available as Common Property</small>
+
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Checkbox', 'Font Size')]]
+
+| Type | Default |
+|:----:|:-------:|
+|number|14.0|
+
+Returns the checkbox's text's font size, measured in sp(scale-independent pixels).
+
+### Font Typeface
+
+<small>Available as Common Property</small>
+
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Checkbox', 'Font Typeface')]]
+
+| Type | Default |
+|:----:|:-------:|
+|number|0|
+
+Returns the checkbox's text's font face as default, serif, sans
+ serif, or monospace.
+
+### Font Typeface Import
+
+<small>Available as Advanced Property</small>
+
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Checkbox', 'Font Typeface Import')]]
+
+| Type |
+|:----:|
+|text|
+
+Set a custom font.
+
+### Text
+
+<small>Available as Common Property</small>
+
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Checkbox', 'Text')]]
+
+| Type |
+|:----:|
+|text|
+
+Returns the text displayed by the checkbox.
+
+### Text Color
+
+<small>Available as Common Property</small>
+
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Checkbox', 'Text Color')]]
+
+| Type | Default |
+|:----:|:-------:|
+|number|&HFF000000|
+
+Returns the checkbox's text color as an alpha-red-green-blue
+ integer.
+
+### Visible
+
+<small>Available as Common Property</small>
+
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Checkbox', 'Visible')]]
+
+| Type | Default |
+|:----:|:-------:|
+|boolean|True|
+
+Returns true iff the component is visible.
+
+### Column
 
 
-## Events
+
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Checkbox', 'Column')]]
+
+| Type | Default |
+|:----:|:-------:|
+|number|None|
+
+Column property getter method.
+
+### Height
 
 
-### Changed
 
-![](/assets/images/components/user-interface/checkbox/e_changed.png)
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Checkbox', 'Height')]]
 
-_**\(** None **\)**_
+| Type | Default |
+|:----:|:-------:|
+|number|None|
 
-Indicates that the user has checked or unchecked the **Checkbox**.
-Use the `Getter` block of _[Checked](#checked)_ property inside this Event's block to know the current status.
+Specifies the component's vertical height, measured in pixels.
 
-
-### Got Focus
-
-![](/assets/images/components/user-interface/checkbox/e_got-focus.png)
-
-_**\(** None **\)**_
-
-Indicates the has been cursor moved over the **Checkbox** so it is now possible to click it.
+### Height Percent
 
 
-### Lost Focus
 
-![](/assets/images/components/user-interface/checkbox/e_lost-focus.png)
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Checkbox', 'Height Percent')]]
 
-_**\(** None **\)**_
+| Type | Default |
+|:----:|:-------:|
+|number|None|
 
-Indicates the cursor moved away from the **Checkbox** so it is now no longer possible to click it.
+Specifies the component's vertical height as a percentage
+ of the height of its parent Component.
+
+### Row
+
+
+
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Checkbox', 'Row')]]
+
+| Type | Default |
+|:----:|:-------:|
+|number|None|
+
+Row property getter method.
+
+### Width
+
+
+
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Checkbox', 'Width')]]
+
+| Type | Default |
+|:----:|:-------:|
+|number|None|
+
+Specifies the component's horizontal width, measured in pixels.
+
+### Width Percent
+
+
+
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Checkbox', 'Width Percent')]]
+
+| Type | Default |
+|:----:|:-------:|
+|number|None|
+
+Specifies the component's horizontal width as a percentage
+ of the Width of its parent Component.

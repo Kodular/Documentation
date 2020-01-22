@@ -1,125 +1,155 @@
 # Linear Progressbar
 
+| Category | Version | Requires |
+|:--------:|:-------:|:--------:|
+|User Interface|1|API 19 - Android 4.4 - 4.4.4 KitKat|
+
 ## Overview
-A Progressbar is used to visually indicate the user the progress of some task, such as a download, data transfer etc.
 
-A **determinate progress bar** is used to indicate the progress of an task whose exact value of  progress is known for eg. the percentage of a file download, number of files transferred.
-
-A **indeterminate progress bar** is used in situations where the extent of the task is unknown  or the progress of the task cannot be determined in a way that could be expressed as a percentage, for example, when a request to a server is being processed where we don't know the exact value of progress, but there is a need to indicate to the user that the task is in progress.
-
-<br><br>
-![Linear Progressbar](/assets/images/components/user-interface/linear-progressbar/preview.gif){: class="preview-img"}
-
-
-A determinate progressbar fills from 0% to 100%.  
-An indeterminate progress bar moves in a fixed path, growing and shrinking in size.
-{: .img-caption }
-
-!!! tip
-    Use progressbars in a non-interupptive manner.
-
+_A visible component that indicates the progress of an operation using an animated linear bar._
 
 ## Properties
 
 ### Indeterminate
 
-![](/assets/images/components/user-interface/linear-progressbar/d_indeterminate.png) ![](/assets/images/components/user-interface/linear-progressbar/p_indeterminate.png)
+<small>Available as Common Property</small>
 
-_**\(** Getter + Setter **\)**  
-`Type: Boolean`_
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Linear Progressbar', 'Indeterminate')]]
 
-Determines whether the progress bar is to be displayed in the **indeterminate** mode.
-(See [_Overview_](#overview) for the difference between **determinate** and **indeterminate** modes.)
+| Type | Default |
+|:----:|:-------:|
+|boolean|True|
 
-Options              | []()
--------------------- | ------------
-`true `              | The progressbar is in **indeterminate** mode.
-`false `             | The progressbar is in **determinate** mode.
-
+Change the indeterminate mode for this progress bar. In indeterminate mode, the progress is ignored and the progress bar shows an infinite animation instead.
 
 ### Indeterminate Color
 
-![](/assets/images/components/user-interface/linear-progressbar/d_indeterminate-color.png) ![](/assets/images/components/user-interface/linear-progressbar/p_indeterminate-color.png)
+<small>Available as Common Property</small>
 
-_**\(** Getter + Setter **\)**  
-`Type: Color`_
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Linear Progressbar', 'Indeterminate Color')]]
 
-The color in which the indeterminate progress bar is displayed, if the [_Indeterminate_](#indeterminate) property is set to _true_. Has no effect on the apperance of the **determinate** progress bar.
+| Type | Default |
+|:----:|:-------:|
+|number|&HFF2196F2|
 
+Change the indeterminate color of the progress bar.
 
 ### Maximum
 
-![](/assets/images/components/user-interface/linear-progressbar/d_maximum.png) ![](/assets/images/components/user-interface/linear-progressbar/p_maximum.png)
+<small>Available as Common Property</small>
 
-_**\(** Getter + Setter **\)**  
-`Type: Number`_
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Linear Progressbar', 'Maximum')]]
 
-The upper range of the progress bar in **determinate** mode (i.e when the **Indeterminate** property is set to _false_.)  
+| Type | Default |
+|:----:|:-------:|
+|number|100|
 
-The default value is _100_
-
+Set the upper range of the progress bar max.
 
 ### Minimum
 
-![](/assets/images/components/user-interface/linear-progressbar/d_minimum.png) ![](/assets/images/components/user-interface/linear-progressbar/p_minimum.png)
+<small>Available as Common Property</small>
 
-_**\(** Getter + Setter **\)**  
-`Type: Number`_
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Linear Progressbar', 'Minimum')]]
 
-The lower range of the progress bar in **determinate** mode (i.e when the **Indeterminate** property is set to _false_.)  
+| Type | Default |
+|:----:|:-------:|
+|number|0|
 
-The default value is _0_  
+Set the lower range of the progress bar to min. This function works only for devices with API >= 26
 
-!!! caution "Note"
-    This property can be set only on devices using Android Oreo or newer versions.
-    Setting this method has no effect on devices using older versions of Android.
+### Progress Color
 
+<small>Available as Common Property</small>
+
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Linear Progressbar', 'Progress Color')]]
+
+| Type | Default |
+|:----:|:-------:|
+|number|&HFF2196F2|
+
+Change the progress color of the progress bar.
+
+### Visible
+
+<small>Available as Common Property</small>
+
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Linear Progressbar', 'Visible')]]
+
+| Type | Default |
+|:----:|:-------:|
+|boolean|True|
+
+Returns true iff the component is visible.
+
+### Column
+
+
+
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Linear Progressbar', 'Column')]]
+
+| Type | Default |
+|:----:|:-------:|
+|number|None|
+
+Column property getter method.
 
 ### Progress
 
-![](/assets/images/components/user-interface/linear-progressbar/p_progress.png)
-
-_**\(** Getter + Setter | Blocks**\)**  
-`Type: Number`_
-
-The current progress value of the progress bar in **determinate** mode (i.e when the  [_Indeterminate_](#indeterminate) property is set to _false_). When using _Getter_, returns 0 if **Indeterminate** is set to _true_
 
 
-{!includes/visible-property.md!}
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Linear Progressbar', 'Progress')]]
+
+| Type | Default |
+|:----:|:-------:|
+|number|None|
+
+Sets the current progress to the specified value. Does not do anything if the progress bar is in indeterminate mode.
+
+### Row
 
 
-{!includes/width-property.md!}
+
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Linear Progressbar', 'Row')]]
+
+| Type | Default |
+|:----:|:-------:|
+|number|None|
+
+Row property getter method.
+
+### Width
 
 
 
-## Methods
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Linear Progressbar', 'Width')]]
+
+| Type | Default |
+|:----:|:-------:|
+|number|None|
+
+Specifies the component's horizontal width, measured in pixels.
+
+### Width Percent
 
 
-### Increment Progress By
 
-![](/assets/images/components/user-interface/linear-progressbar/m_increment-progress-by.png)
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Linear Progressbar', 'Width Percent')]]
 
-_**\(** Number `value` **\)**_
+| Type | Default |
+|:----:|:-------:|
+|number|None|
 
-Increases the value progress by the given value.
-
-Params               |  []()       
--------------------- | ------- 
-`value`              | **Number:**  The amount by which progress should be increased.
-
-
-## Events
-
-### Progress Changed
-
-![](/assets/images/components/user-interface/linear-progressbar/e_progress-changed.png)
-
-_**\(** Number `progress` **\)**_
-
-Indicates that the value of the progress bar has changed.
-
-Params               | []()
--------------------- | ---------- 
-`progress`           | **Number:**  The current value of the progressbar.This is 0 if the progressbar is in **indeterminate** mode.
-
-
+Specifies the component's horizontal width as a percentage
+ of the Width of its parent Component.

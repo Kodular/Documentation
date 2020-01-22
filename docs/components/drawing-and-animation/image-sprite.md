@@ -1,5 +1,169 @@
 # Image Sprite
 
-!!! warning
-    This page is still in progress. You can check the description of blocks for help.
-    However, you can check [**MIT App Inventor Documentation for this component** here.](http://ai2.appinventor.mit.edu/reference/components/animation.html#ImageSprite)
+| Category | Version | Requires |
+|:--------:|:-------:|:--------:|
+|Drawing and Animation|6|API 19 - Android 4.4 - 4.4.4 KitKat|
+
+## Overview
+
+_<p>A 'sprite' that can be placed on a <code>Canvas</code>, where it can react to touches and drags, interact with other sprites (<code>Ball</code>s and other <code>ImageSprite</code>s) and the edge of the Canvas, and move according to its property values.  Its appearance is that of the image specified in its <code>Picture</code> property (unless its <code>Visible</code> property is <code>False</code>).</p> <p>To have an <code>ImageSprite</code> move 10 pixels to the left every 1000 milliseconds (one second), for example, you would set the <code>Speed</code> property to 10 [pixels], the <code>Interval</code> property to 1000 [milliseconds], the <code>Heading</code> property to 180 [degrees], and the <code>Enabled</code> property to <code>True</code>.  A sprite whose <code>Rotates</code> property is <code>True</code> will rotate its image as the sprite's <code>Heading</code> changes.  Checking for collisions with a rotated sprite currently checks the sprite's unrotated position so that collision checking will be inaccurate for tall narrow or short wide sprites that are rotated.  Any of the sprite properties can be changed at any time under program control.</p> _
+
+## Properties
+
+### Enabled
+
+<small>Available as Common Property</small>
+
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Image Sprite', 'Enabled')]]
+
+| Type | Default |
+|:----:|:-------:|
+|boolean|True|
+
+Controls whether the ImageSprite moves and can be interacted with through collisions, dragging, touching, and flinging.
+
+### Heading
+
+<small>Available as Common Property</small>
+
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Image Sprite', 'Heading')]]
+
+| Type | Default |
+|:----:|:-------:|
+|number|0|
+
+Sets heading in which sprite should move.  In addition to changing the
+ local variables
+
+### Interval
+
+<small>Available as Common Property</small>
+
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Image Sprite', 'Interval')]]
+
+| Type | Default |
+|:----:|:-------:|
+|number|100|
+
+The interval in milliseconds at which the ImageSprite's position is updated.  For example, if the interval is 50 and the speed is 10, then every 50 milliseconds the sprite will move 10 pixels in the heading direction.
+
+### Picture
+
+<small>Available as Common Property</small>
+
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Image Sprite', 'Picture')]]
+
+| Type |
+|:----:|
+|text|
+
+The picture that determines the ImageSprite's appearance.
+
+### Rotates
+
+<small>Available as Common Property</small>
+
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Image Sprite', 'Rotates')]]
+
+| Type | Default |
+|:----:|:-------:|
+|boolean|True|
+
+Whether the image should rotate to match the ImageSprite's heading. The sprite rotates around its centerpoint.
+
+### Speed
+
+<small>Available as Common Property</small>
+
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Image Sprite', 'Speed')]]
+
+| Type | Default |
+|:----:|:-------:|
+|number|0.0|
+
+The number of pixels that the ImageSprite should move every interval, if enabled.
+
+### Visible
+
+<small>Available as Common Property</small>
+
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Image Sprite', 'Visible')]]
+
+| Type | Default |
+|:----:|:-------:|
+|boolean|True|
+
+Whether the ImageSprite is visible.
+
+### X
+
+<small>Available as Common Property</small>
+
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Image Sprite', 'X')]]
+
+| Type | Default |
+|:----:|:-------:|
+|number|0.0|
+
+The horizontal coordinate of the left edge of the ImageSprite, increasing as the ImageSprite moves right.
+
+### Y
+
+<small>Available as Common Property</small>
+
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Image Sprite', 'Y')]]
+
+| Type | Default |
+|:----:|:-------:|
+|number|0.0|
+
+The vertical coordinate of the top edge of the ImageSprite, increasing as the ImageSprite moves down.
+
+### Z
+
+<small>Available as Common Property</small>
+
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Image Sprite', 'Z')]]
+
+| Type | Default |
+|:----:|:-------:|
+|number|1.0|
+
+Sets the layer of the sprite, indicating whether it will appear in
+ front of or behind other sprites.
+
+### Height
+
+
+
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Image Sprite', 'Height')]]
+
+| Type | Default |
+|:----:|:-------:|
+|number|None|
+
+The height of the ImageSprite in pixels.
+
+### Width
+
+
+
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Image Sprite', 'Width')]]
+
+| Type | Default |
+|:----:|:-------:|
+|number|None|
+
+The width of the ImageSprite in pixels.

@@ -1,44 +1,26 @@
 # Firebase Remote Config
 
+| Category | Version | Requires |
+|:--------:|:-------:|:--------:|
+|Google|2|API 19 - Android 4.4 - 4.4.4 KitKat|
+
+:mag: {>>Non-visible component<<}
+
 ## Overview
 
-The **Firebase Remote Config** component allows you to enable and disable features to specific users without having them update the app.
+_A non-visible component that gets data from the Remote Config service powered by Firebase._
 
-## Setup
+## Properties
 
-For an in-depth guide for how to setup the component see [Staging updates with Firebase Remote Config](/guides/component-examples/remote-config/)
+### Cache Expiration
 
-## Methods
+<small>Available as Common Property</small>
 
-### Fetch
-[[Method('Firebase_Remote_Config', 'Fetch')]]
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Firebase Remote Config', 'Cache Expiration')]]
 
-Use this block to fetch the parameter values that you created in your Firebase dashboard.
+| Type | Default |
+|:----:|:-------:|
+|number|43200|
 
-### Get Boolean
-[[Method('Firebase_Remote_Config', 'Get Boolean', True, 'key')]]
-
-Use this block to return the boolean value of the specified key.
-
-### Get Number
-[[Method('Firebase_Remote_Config', 'Get Number', True, 'key')]]
-
-Use this block to return the number value of the specified key.
-
-### Get Text
-[[Method('Firebase_Remote_Config', 'Get Text', True, 'key')]]
-
-Use this block to return the text value of the specified key.
-
-
-## Events
-
-### Fetch Failed
-[[Event('Firebase_Remote_Config', 'Fetch Failed')]]
-
-Triggered when the parameters fail to be fetched from Firebase.
-
-### Fetch Success
-[[Event('Firebase_Remote_Config', 'Fetch Success')]]
-
-Triggered when the parameters are successfully fetched from Firebase.
+Time how long the data keeps on the device in ms

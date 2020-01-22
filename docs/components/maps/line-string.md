@@ -1,5 +1,156 @@
 # Line String
 
-!!! warning
-    This page is still in progress. You can check the description of blocks for help.
-    However, you can check [**MIT App Inventor Documentation for this component** here.](http://ai2.appinventor.mit.edu/reference/components/maps.html#LineString)
+| Category | Version | Requires |
+|:--------:|:-------:|:--------:|
+|Maps|2|API 19 - Android 4.4 - 4.4.4 KitKat|
+
+## Overview
+
+_A visible component that draws a sequence of line segments on a Map component._
+
+## Properties
+
+### Description
+
+<small>Available as Common Property</small>
+
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Line String', 'Description')]]
+
+| Type |
+|:----:|
+|text|
+
+The description displayed in the info window that appears when the user clicks on the map feature.
+
+### Draggable
+
+<small>Available as Common Property</small>
+
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Line String', 'Draggable')]]
+
+| Type | Default |
+|:----:|:-------:|
+|boolean|False|
+
+The Draggable property is used to set whether or not the user can drag the Marker by long-pressing and then dragging the marker to a new location.
+
+### Enable Infobox
+
+<small>Available as Common Property</small>
+
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Line String', 'Enable Infobox')]]
+
+| Type | Default |
+|:----:|:-------:|
+|boolean|False|
+
+Enable or disable the infobox window display when the user taps the feature.
+
+### Points From String
+
+<small>Available as Common Property</small>
+
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Line String', 'Points From String')]]
+
+| Type |
+|:----:|
+|text|
+
+Set the points of the LineString from a specially-coded character string of the form:
+ [[longitude1, latitude1], [longitude2, latitude2], ...]
+ Note the reversal of latitude and longitude versus how they are typically represented.
+
+### Stroke Color
+
+<small>Available as Common Property</small>
+
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Line String', 'Stroke Color')]]
+
+| Type | Default |
+|:----:|:-------:|
+|number|&HFF000000|
+
+The paint color used to outline the map feature.
+
+### Stroke Opacity
+
+<small>Available as Common Property</small>
+
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Line String', 'Stroke Opacity')]]
+
+| Type | Default |
+|:----:|:-------:|
+|number|1.0|
+
+The opacity of the stroke used to outline the map feature.
+
+### Stroke Width
+
+<small>Available as Common Property</small>
+
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Line String', 'Stroke Width')]]
+
+| Type | Default |
+|:----:|:-------:|
+|number|3|
+
+The width of the stroke used to outline the map feature.
+
+### Title
+
+<small>Available as Common Property</small>
+
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Line String', 'Title')]]
+
+| Type |
+|:----:|
+|text|
+
+The title displayed in the info window that appears when the user clicks on the map feature.
+
+### Visible
+
+<small>Available as Common Property</small>
+
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Line String', 'Visible')]]
+
+| Type | Default |
+|:----:|:-------:|
+|boolean|True|
+
+Specifies whether the component should be visible on the screen. Value is true if the component is showing and false if hidden.
+
+### Points
+
+
+
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Line String', 'Points')]]
+
+| Type | Default |
+|:----:|:-------:|
+|list|None|
+
+A list of latitude and longitude pairs that represent the line segments of the polyline.
+
+### Type
+
+
+
+:eyes: Read-Only property
+[[PropertyBlockGetter('Line String', 'Type')]]
+
+| Type | Default |
+|:----:|:-------:|
+|text|None|
+
+The type of the map feature.

@@ -1,29 +1,117 @@
 # Circular Progress
 
+| Category | Version | Requires |
+|:--------:|:-------:|:--------:|
+|User Interface|1|API 19 - Android 4.4 - 4.4.4 KitKat|
+
 ## Overview
 
-**Circular Progress** displays progress by animating an indicator along an invisible circular track in a clockwise direction.
-The **Circular Progress** grows and shrinks in size while moving along the invisible track.
-
-<br><br>
-![Circular Progress](/assets/images/components/user-interface/circular-progress/preview.gif){: class="preview-img" }
-
-An example of a **Circular Progress**.
-{: .img-caption }
+_A visible component that indicates the progress of an operation using an animated loop._
 
 ## Properties
 
 ### Color
-_**\(** Getter + Setter **\)**  
-`Type: Color`_
 
-The color with which the moving **Circular Progess** is displayed.
+<small>Available as Common Property</small>
+
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Circular Progress', 'Color')]]
+
+| Type | Default |
+|:----:|:-------:|
+|number|&HFF2196F2|
+
+Change the indeterminate color of the circular progress bar.
+
+### Visible
+
+<small>Available as Common Property</small>
+
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Circular Progress', 'Visible')]]
+
+| Type | Default |
+|:----:|:-------:|
+|boolean|True|
+
+Returns true iff the component is visible.
+
+### Column
 
 
-{!includes/height-property.md!}
+
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Circular Progress', 'Column')]]
+
+| Type | Default |
+|:----:|:-------:|
+|number|None|
+
+Column property getter method.
+
+### Height
 
 
-{!includes/visible-property.md!}
+
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Circular Progress', 'Height')]]
+
+| Type | Default |
+|:----:|:-------:|
+|number|None|
+
+Specifies the component's vertical height, measured in pixels.
+
+### Height Percent
 
 
-{!includes/width-property.md!}
+
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Circular Progress', 'Height Percent')]]
+
+| Type | Default |
+|:----:|:-------:|
+|number|None|
+
+Specifies the component's vertical height as a percentage
+ of the height of its parent Component.
+
+### Row
+
+
+
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Circular Progress', 'Row')]]
+
+| Type | Default |
+|:----:|:-------:|
+|number|None|
+
+Row property getter method.
+
+### Width
+
+
+
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Circular Progress', 'Width')]]
+
+| Type | Default |
+|:----:|:-------:|
+|number|None|
+
+Specifies the component's horizontal width, measured in pixels.
+
+### Width Percent
+
+
+
+:eyes::pencil: Read-Write property
+[[PropertyBlockGetterAndSetter('Circular Progress', 'Width Percent')]]
+
+| Type | Default |
+|:----:|:-------:|
+|number|None|
+
+Specifies the component's horizontal width as a percentage
+ of the Width of its parent Component.

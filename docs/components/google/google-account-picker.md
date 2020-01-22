@@ -1,42 +1,11 @@
 # Google Account Picker
 
+| Category | Version | Requires |
+|:--------:|:-------:|:--------:|
+|Google|1|API 19 - Android 4.4 - 4.4.4 KitKat|
+
+:mag: {>>Non-visible component<<}
+
 ## Overview
-Google Account Picker is a non-visible component which can be used to pick a Google (Gmail) account registered in the user's device. This component can be used to create a login/register like system in the app.
 
-<br><br>
-![Google Account Picker](/assets/images/components/google/google-account-picker/preview.gif){: class="preview-img"}
-
-A demo of the Google Account Picker.
-{: .img-caption }
-
-## Properties
-
-This component doesn't have any designer property.
-
-
-
-## Methods
-
-
-### Pick
-
-![Picked](/assets/images/components/google/google-account-picker/m_pick.png)
-
-_**\(**None**\)**_
-
-Picks a Google (Gmail) account registered in the user's device.
-
-
-## Events
-
-### Picked
-
-![Pick](/assets/images/components/google/google-account-picker/e_picked.png)
-
-_**\(** Text `account Name`**\)**_
-
-Indicates that an account has been picked.
-
-Params               | []()
--------------------- | ---------- 
-`account Name`       | **Text:**  The username associated with the picked account.
+_A non-visible component that shows a pop-up list of Google accounts currently signed-in on the device for the user to pick from._
