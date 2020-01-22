@@ -8,6 +8,96 @@
 
 _A visible component that draws a circle of a given radius around a point on a Map component._
 
+## Events
+
+### Click
+
+[[Event('Circle', 'Click')]]
+
+The user clicked on the feature.
+
+### Drag
+
+[[Event('Circle', 'Drag')]]
+
+The user dragged the map feature.
+
+### Long Click
+
+[[Event('Circle', 'Long Click')]]
+
+The user long-pressed on the feature. This event will only trigger if Draggable is false.
+
+### Start Drag
+
+[[Event('Circle', 'Start Drag')]]
+
+The user started a drag operation.
+
+### Stop Drag
+
+[[Event('Circle', 'Stop Drag')]]
+
+The user stopped a drag operation.
+
+## Methods
+
+### DistanceToFeature
+
+[[Method('Circle', 'DistanceToFeature', true, 'mapFeature centroids')]]
+
+{>>Returns `number`<<}
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |map Feature|`component`|
+    |centroids|`boolean`|
+
+
+Compute the distance, in meters, between two map features.
+
+### DistanceToPoint
+
+[[Method('Circle', 'DistanceToPoint', true, 'latitude longitude centroid')]]
+
+{>>Returns `number`<<}
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |latitude|`number`|
+    |longitude|`number`|
+    |centroid|`boolean`|
+
+
+Compute the distance, in meters, between a map feature and a latitude, longitude point.
+
+### HideInfobox
+
+[[Method('Circle', 'HideInfobox', false)]]
+
+Hide the infobox if it is shown. If the infobox is not visible this function has no effect.
+
+### SetLocation
+
+[[Method('Circle', 'SetLocation', false, 'latitude longitude')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |latitude|`number`|
+    |longitude|`number`|
+
+
+Set the center of the Circle.
+
+### ShowInfobox
+
+[[Method('Circle', 'ShowInfobox', false)]]
+
+Show the infobox for the feature. This will show the infobox even if
+
 ## Properties
 
 ### Description
@@ -191,76 +281,3 @@ Specifies whether the component should be visible on the screen. Value is true i
 |text|None|
 
 _No description available_
-
-## Methods
-
-### DistanceToFeature
-
-
-
-[[Method('Circle', 'DistanceToFeature', true, 'mapFeature centroids')]]
-
-{>>Returns `number`<<}
-
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|map Feature|`component`|
-|centroids|`boolean`|
-
-
-Compute the distance, in meters, between two map features.
-
-### DistanceToPoint
-
-
-
-[[Method('Circle', 'DistanceToPoint', true, 'latitude longitude centroid')]]
-
-{>>Returns `number`<<}
-
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|latitude|`number`|
-|longitude|`number`|
-|centroid|`boolean`|
-
-
-Compute the distance, in meters, between a map feature and a latitude, longitude point.
-
-### HideInfobox
-
-
-
-[[Method('Circle', 'HideInfobox', false)]]
-
-Hide the infobox if it is shown. If the infobox is not visible this function has no effect.
-
-### SetLocation
-
-
-
-[[Method('Circle', 'SetLocation', false, 'latitude longitude')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|latitude|`number`|
-|longitude|`number`|
-
-
-Set the center of the Circle.
-
-### ShowInfobox
-
-
-
-[[Method('Circle', 'ShowInfobox', false)]]
-
-Show the infobox for the feature. This will show the infobox even if

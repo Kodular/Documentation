@@ -8,6 +8,46 @@
 
 _A non-visible component that shows Facebook ads as static banners._
 
+## Events
+
+### Ad Clicked
+
+[[Event('Facebook Banner', 'Ad Clicked')]]
+
+Event triggered when ads are clicked
+
+### Ad Closed
+
+[[Event('Facebook Banner', 'Ad Closed')]]
+
+Event triggered when ads are closed
+
+### Ad Loaded
+
+[[Event('Facebook Banner', 'Ad Loaded')]]
+
+Event triggered when ads are loaded
+
+### Error
+
+[[Event('Facebook Banner', 'Error', 'error')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |error|`text`|
+
+
+Event triggered when ads failed to load
+
+## Methods
+
+### Load Ad
+
+[[Method('Facebook Banner', 'Load Ad', false)]]
+
+Load Ad
+
 ## Properties
 
 ### Placement ID
@@ -61,13 +101,3 @@ Column property getter method.
 |number|None|
 
 Row property getter method.
-
-## Methods
-
-### Load Ad
-
-
-
-[[Method('Facebook Banner', 'Load Ad', false)]]
-
-Load Ad

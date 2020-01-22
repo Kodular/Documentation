@@ -8,6 +8,49 @@
 
 _Checkbox that raises an event when the user clicks on it. There are many properties affecting its appearance that can be set in the Designer or Blocks Editor._
 
+## Events
+
+### Changed
+
+[[Event('Checkbox', 'Changed')]]
+
+Default Changed event handler.
+
+### Click
+
+[[Event('Checkbox', 'Click')]]
+
+Indicates a user has clicked on the checkbox.
+
+### Got Focus
+
+[[Event('Checkbox', 'Got Focus')]]
+
+Default GotFocus event handler.
+
+### Lost Focus
+
+[[Event('Checkbox', 'Lost Focus')]]
+
+Default LostFocus event handler.
+
+## Methods
+
+### SetShadow
+
+[[Method('Checkbox', 'SetShadow', false, 'x y radius color')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |x|`number`|
+    |y|`number`|
+    |radius|`number`|
+    |color|`number`|
+
+
+Place a blurred shadow of text underneath the text, drawn with the specified x, y, radius, color (e.g. -11, 12, 13, black
+
 ## Properties
 
 ### Background Color
@@ -252,23 +295,3 @@ Specifies the component's horizontal width, measured in pixels.
 
 Specifies the component's horizontal width as a percentage
  of the Width of its parent Component.
-
-## Methods
-
-### SetShadow
-
-
-
-[[Method('Checkbox', 'SetShadow', false, 'x y radius color')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|x|`number`|
-|y|`number`|
-|radius|`number`|
-|color|`number`|
-
-
-Place a blurred shadow of text underneath the text, drawn with the specified x, y, radius, color (e.g. -11, 12, 13, black

@@ -10,6 +10,34 @@
 
 _A non-visible component that brings emphasis to the specified component by means of darkening the screen around that component._
 
+## Events
+
+### Clicked
+
+[[Event('Spotlight', 'Clicked')]]
+
+Event triggered when the spotlight is clicked.
+
+## Methods
+
+### ShowSpotlight
+
+[[Method('Spotlight', 'ShowSpotlight', false)]]
+
+Use this block to show the spotlight.
+
+### ShowSpotlightOnFAB
+
+[[Method('Spotlight', 'ShowSpotlightOnFAB', false, 'floatingActionButton')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |floating Action Button|`component`|
+
+
+Use this block to show the spotlight on a floating action button.
+
 ## Properties
 
 ### Circle Padding
@@ -297,28 +325,3 @@ The Spotlight subheading text color.
 |number|16|
 
 The Spotlight subheading text size.
-
-## Methods
-
-### ShowSpotlight
-
-
-
-[[Method('Spotlight', 'ShowSpotlight', false)]]
-
-Use this block to show the spotlight.
-
-### ShowSpotlightOnFAB
-
-
-
-[[Method('Spotlight', 'ShowSpotlightOnFAB', false, 'floatingActionButton')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|floating Action Button|`component`|
-
-
-Use this block to show the spotlight on a floating action button.

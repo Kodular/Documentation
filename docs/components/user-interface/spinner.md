@@ -8,6 +8,28 @@
 
 _<p>A spinner component that displays a pop-up with a list of elements. These elements can be set in the Designer or Blocks Editor by setting the<code>ElementsFromString</code> property to a string-separated concatenation (for example, <em>choice 1, choice 2, choice 3</em>) or by setting the <code>Elements</code> property to a List in the Blocks editor. Spinners are created with the first item already selected. So selecting  it does not generate an After Picking event. Consequently it's useful to make the  first Spinner item be a non-choice like "Select from below...". </p>_
 
+## Events
+
+### After Selecting
+
+[[Event('Spinner', 'After Selecting', 'selection')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |selection|`text`|
+
+
+Event called after the user selects an item from the dropdown list.
+
+## Methods
+
+### DisplayDropdown
+
+[[Method('Spinner', 'DisplayDropdown', false)]]
+
+displays the dropdown list for selection, same action as when the user clicks on the spinner.
+
 ## Properties
 
 ### Elements From String
@@ -323,13 +345,3 @@ Specifies the component's horizontal width, measured in pixels.
 
 Specifies the component's horizontal width as a percentage
  of the Width of its parent Component.
-
-## Methods
-
-### DisplayDropdown
-
-
-
-[[Method('Spinner', 'DisplayDropdown', false)]]
-
-displays the dropdown list for selection, same action as when the user clicks on the spinner.

@@ -10,6 +10,36 @@
 
 _A component that provides a high-level interface to an ultrasonic sensor on a LEGO MINDSTORMS NXT robot._
 
+## Events
+
+### Above Range
+
+[[Event('NXT Ultrasonic Sensor', 'Above Range')]]
+
+Distance has gone above the range.
+
+### Below Range
+
+[[Event('NXT Ultrasonic Sensor', 'Below Range')]]
+
+Distance has gone below the range.
+
+### Within Range
+
+[[Event('NXT Ultrasonic Sensor', 'Within Range')]]
+
+Distance has gone within the range.
+
+## Methods
+
+### GetDistance
+
+[[Method('NXT Ultrasonic Sensor', 'GetDistance', true)]]
+
+{>>Returns `number`<<}
+
+Returns the current distance in centimeters as a value between 0 and 254, or -1 if the distance can not be read.
+
 ## Properties
 
 ### Above Range Event Enabled
@@ -102,16 +132,3 @@ The top of the range used for the BelowRange, WithinRange, and AboveRange events
 |boolean|False|
 
 Whether the WithinRange event should fire when the distance goes between the BottomOfRange and the TopOfRange.
-
-## Methods
-
-### GetDistance
-
-
-
-[[Method('NXT Ultrasonic Sensor', 'GetDistance', true)]]
-
-{>>Returns `number`<<}
-
-
-Returns the current distance in centimeters as a value between 0 and 254, or -1 if the distance can not be read.

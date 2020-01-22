@@ -13,6 +13,28 @@ _Non-visible component that can detect shaking and measure acceleration approxim
  <li> <strong>yAccel</strong>: 0 when the phone is at rest on a flat      surface, positive when its bottom is raised, and negative when      its top is raised. </li>
  <li> <strong>zAccel</strong>: Equal to -9.8 (earth's gravity in meters per      second per second when the device is at rest parallel to the ground      with the display facing up,      0 when perpendicular to the ground, and +9.8 when facing down.       The value can also be affected by accelerating it with or against      gravity. </li></ul>_
 
+## Events
+
+### Acceleration Changed
+
+[[Event('Accelerometer Sensor', 'Acceleration Changed', 'xAccel yAccel zAccel')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |x Accel|`number`|
+    |y Accel|`number`|
+    |z Accel|`number`|
+
+
+Indicates the acceleration changed in the X, Y, and/or Z dimensions.
+
+### Shaking
+
+[[Event('Accelerometer Sensor', 'Shaking')]]
+
+Indicates the device started being shaken or continues to be shaken.
+
 ## Properties
 
 ### Enabled

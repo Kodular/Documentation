@@ -10,6 +10,29 @@
 
 _<p>Non-visible component to provide NFC capabilities.  For now this component supports the reading and writing of text tags only (if supported by the device)</p><p>In order to read and write text tags, the component must have its <code>ReadMode</code> property set to True or False respectively.</p><p><strong>Note:</strong> This component will only work on Screen1 of any App Inventor app.</p>_
 
+## Events
+
+### Tag Read
+
+[[Event('Near Field', 'Tag Read', 'tagID message')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |tag ID|`text`|
+    |message|`text`|
+
+
+Indicates that a new tag has been detected.
+ Currently this is only a plain text tag, as specified in the
+ manifest.  See Compiler.java.
+
+### Tag Written
+
+[[Event('Near Field', 'Tag Written')]]
+
+Event to detect when a tag was written.
+
 ## Properties
 
 ### Read Mode

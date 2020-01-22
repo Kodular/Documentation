@@ -8,6 +8,20 @@
 
 _A visible component that lets the user submit a star rating._
 
+## Events
+
+### Changed
+
+[[Event('Rating Bar', 'Changed', 'rating')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |rating|`number`|
+
+
+Event invoked when the rating has been changed.
+
 ## Properties
 
 ### Background Color

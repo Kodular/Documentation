@@ -10,6 +10,28 @@
 
 _Floating Button Component to make a Floating Action Button on the right bottom of the screen_
 
+## Events
+
+### Click
+
+[[Event('Floating Button', 'Click')]]
+
+FAB Clicked
+
+### Long Click
+
+[[Event('Floating Button', 'Long Click')]]
+
+FAB Long Clicked
+
+## Methods
+
+### Create
+
+[[Method('Floating Button', 'Create', false)]]
+
+Create FAB
+
 ## Properties
 
 ### Color
@@ -116,13 +138,3 @@ Is FAB visible?
 |boolean|None|
 
 Is FAB created?
-
-## Methods
-
-### Create
-
-
-
-[[Method('Floating Button', 'Create', false)]]
-
-Create FAB

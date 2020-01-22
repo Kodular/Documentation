@@ -10,6 +10,78 @@
 
 _The Download component is a non-visible component that allows users to download any file to the device_
 
+## Events
+
+### Download Complete
+
+[[Event('Download', 'Download Complete', 'filePath fileName fileSize')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |file Path|`text`|
+    |file Name|`text`|
+    |file Size|`number`|
+
+
+Event to detect if the download is successful finished. You can use the "filePath" to use the downloaded file into your app. The "fileSize" will be returned in bytes.
+
+### On Download Progress Changed
+
+[[Event('Download', 'On Download Progress Changed', 'progress')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |progress|`number`|
+
+
+Get the progress (in percentage) of the current download task.
+
+### Got File Size
+
+[[Event('Download', 'Got File Size', 'size')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |size|`number`|
+
+
+Event to detect file size is ready to be used.
+
+### Notification Clicked
+
+[[Event('Download', 'Notification Clicked')]]
+
+Event to detect when the user clicks on a running download, either from a system notification or from the downloads UI.
+
+## Methods
+
+### Download
+
+[[Method('Download', 'Download', false)]]
+
+Start the download process of the given download url.
+
+### GetFileSize
+
+[[Method('Download', 'GetFileSize', false, 'path')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |path|`text`|
+
+
+Get the file size (in bytes) of a file that is stored online or on your device. The block detect automatic if it is a online path or not. You will get the result in the "Got File Size" event.
+
+### ShowDownload
+
+[[Method('Download', 'ShowDownload', false)]]
+
+You can open the download folder with this block.
+
 ## Properties
 
 ### Allow Over Roaming
@@ -154,36 +226,3 @@ Set the title that you will see in the download notification.
 |boolean|None|
 
 This function is deprecated. Do not use it anymore. We will remove it in the future. Since we support min API 14 the download manager is by default available. The download manager was added in API 9.
-
-## Methods
-
-### Download
-
-
-
-[[Method('Download', 'Download', false)]]
-
-Start the download process of the given download url.
-
-### GetFileSize
-
-
-
-[[Method('Download', 'GetFileSize', false, 'path')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|path|`text`|
-
-
-Get the file size (in bytes) of a file that is stored online or on your device. The block detect automatic if it is a online path or not. You will get the result in the "Got File Size" event.
-
-### ShowDownload
-
-
-
-[[Method('Download', 'ShowDownload', false)]]
-
-You can open the download folder with this block.

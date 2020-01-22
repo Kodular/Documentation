@@ -8,6 +8,53 @@
 
 _A visible component that groups other layout components each of which can be accessed by swiping left or right._
 
+## Events
+
+### Page Selected
+
+[[Event('View Pager', 'Page Selected', 'position')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |position|`number`|
+
+
+Event to detect that a page was selected.
+
+## Methods
+
+### AddComponentToView
+
+[[Method('View Pager', 'AddComponentToView', false, 'component tabName')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |component|`component`|
+    |tab Name|`text`|
+
+
+Add a component to the view pager. The first added component will be the first visible component on the screen.
+
+### RemoveAllTabs
+
+[[Method('View Pager', 'RemoveAllTabs', false)]]
+
+Remove all tab's from view pager.
+
+### RemoveViewAt
+
+[[Method('View Pager', 'RemoveViewAt', false, 'position')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |position|`number`|
+
+
+Removes a before added view from the view pager. If you want to delete the first page then use as position '1'.
+
 ## Properties
 
 ### Show Tabs
@@ -206,44 +253,3 @@ Specifies the component's horizontal width, measured in pixels.
 
 Specifies the component's horizontal width as a percentage
  of the Width of its parent Component.
-
-## Methods
-
-### AddComponentToView
-
-
-
-[[Method('View Pager', 'AddComponentToView', false, 'component tabName')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|component|`component`|
-|tab Name|`text`|
-
-
-Add a component to the view pager. The first added component will be the first visible component on the screen.
-
-### RemoveAllTabs
-
-
-
-[[Method('View Pager', 'RemoveAllTabs', false)]]
-
-Remove all tab's from view pager.
-
-### RemoveViewAt
-
-
-
-[[Method('View Pager', 'RemoveViewAt', false, 'position')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|position|`number`|
-
-
-Removes a before added view from the view pager. If you want to delete the first page then use as position '1'.

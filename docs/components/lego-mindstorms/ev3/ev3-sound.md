@@ -10,6 +10,28 @@
 
 _A component that provides a high-level interface to sound functionalities on LEGO MINDSTORMS EV3 robot._
 
+## Methods
+
+### PlayTone
+
+[[Method('EV3 Sound', 'PlayTone', false, 'volume frequency milliseconds')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |volume|`number`|
+    |frequency|`number`|
+    |milliseconds|`number`|
+
+
+Make the robot play a tone.
+
+### StopSound
+
+[[Method('EV3 Sound', 'StopSound', false)]]
+
+Stop any sound on the robot.
+
 ## Properties
 
 ### Bluetooth Client
@@ -24,30 +46,3 @@ _A component that provides a high-level interface to sound functionalities on LE
 |component|
 
 The BluetoothClient component that should be used for communication.
-
-## Methods
-
-### PlayTone
-
-
-
-[[Method('EV3 Sound', 'PlayTone', false, 'volume frequency milliseconds')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|volume|`number`|
-|frequency|`number`|
-|milliseconds|`number`|
-
-
-Make the robot play a tone.
-
-### StopSound
-
-
-
-[[Method('EV3 Sound', 'StopSound', false)]]
-
-Stop any sound on the robot.

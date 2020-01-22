@@ -8,6 +8,137 @@
 
 _A FeatureColletion contains one or more map features as a group. Any events fired on a feature in the collection will also trigger the corresponding event on the collection object. FeatureCollections can be loaded from external resources as a means of populating a Map with content._
 
+## Events
+
+### Feature Click
+
+[[Event('Feature Collection', 'Feature Click', 'feature')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |feature|`component`|
+
+
+The user clicked on a map feature.
+
+### Feature Drag
+
+[[Event('Feature Collection', 'Feature Drag', 'feature')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |feature|`component`|
+
+
+The user dragged a map feature.
+
+### Feature Long Click
+
+[[Event('Feature Collection', 'Feature Long Click', 'feature')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |feature|`component`|
+
+
+The user long-pressed on a map feature.
+
+### Feature Start Drag
+
+[[Event('Feature Collection', 'Feature Start Drag', 'feature')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |feature|`component`|
+
+
+The user started dragging a map feature.
+
+### Feature Stop Drag
+
+[[Event('Feature Collection', 'Feature Stop Drag', 'feature')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |feature|`component`|
+
+
+The user stopped dragging a map feature.
+
+### Got Features
+
+[[Event('Feature Collection', 'Got Features', 'url features')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |url|`text`|
+    |features|`list`|
+
+
+A GeoJSON document was successfully read from url. The features specified in the document are provided as a list in features.
+
+### Load Error
+
+[[Event('Feature Collection', 'Load Error', 'url responseCode errorMessage')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |url|`text`|
+    |response Code|`number`|
+    |error Message|`text`|
+
+
+An error was encountered while processing a GeoJSON document at the given url. The responseCode parameter will contain an HTTP status code and the errorMessage parameter will contain a detailed error message.
+
+## Methods
+
+### FeatureFromDescription
+
+[[Method('Feature Collection', 'FeatureFromDescription', true, 'description')]]
+
+{>>Returns `any`<<}
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |description|`list`|
+
+
+Convert a feature description into an App Inventor map feature. Currently the only
+ supported conversion is from a GeoJSON point to Marker component. If the feature has
+ properties, they will be mapped into App Inventor properties using the following mapping:
+
+ description becomes Description;
+ draggable becomes Draggable;
+ infobox becomes EnableInfobox;
+ fill becomes FillColor;
+ fill-opacity becomes FillOpacity;
+ image becomes ImageAsset;
+ stroke becomes StrokeColor;
+ stroke-opacity becomes StrokeOpacity;
+ stroke-width becomes StrokeWidth;
+ title becomes Title;
+ visible becomes Visible
+
+### LoadFromURL
+
+[[Method('Feature Collection', 'LoadFromURL', false, 'url')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |url|`text`|
+
+
+<p>Load a feature collection in <a href="https://en.wikipedia.org/wiki/GeoJSON">GeoJSON</a> format from the given url. On success, the event GotFeatures will be raised with the given url and a list of the features parsed from the GeoJSON as a list of (key, value) pairs. On failure, the LoadError event will be raised with any applicable HTTP response code and error message.</p>
+
 ## Properties
 
 ### Features From Geo JSON
@@ -141,52 +272,3 @@ Specifies the component's horizontal width, measured in pixels.
 
 Specifies the component's horizontal width as a percentage
  of the Width of its parent Component.
-
-## Methods
-
-### FeatureFromDescription
-
-
-
-[[Method('Feature Collection', 'FeatureFromDescription', true, 'description')]]
-
-{>>Returns `any`<<}
-
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|description|`list`|
-
-
-Convert a feature description into an App Inventor map feature. Currently the only
- supported conversion is from a GeoJSON point to Marker component. If the feature has
- properties, they will be mapped into App Inventor properties using the following mapping:
-
- description becomes Description;
- draggable becomes Draggable;
- infobox becomes EnableInfobox;
- fill becomes FillColor;
- fill-opacity becomes FillOpacity;
- image becomes ImageAsset;
- stroke becomes StrokeColor;
- stroke-opacity becomes StrokeOpacity;
- stroke-width becomes StrokeWidth;
- title becomes Title;
- visible becomes Visible
-
-### LoadFromURL
-
-
-
-[[Method('Feature Collection', 'LoadFromURL', false, 'url')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|url|`text`|
-
-
-<p>Load a feature collection in <a href="https://en.wikipedia.org/wiki/GeoJSON">GeoJSON</a> format from the given url. On success, the event GotFeatures will be raised with the given url and a list of the features parsed from the GeoJSON as a list of (key, value) pairs. On failure, the LoadError event will be raised with any applicable HTTP response code and error message.</p>

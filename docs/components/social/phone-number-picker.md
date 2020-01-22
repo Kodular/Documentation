@@ -14,6 +14,157 @@ _A button that, when clicked on, displays a list of the contacts' phone numbers 
 <p>The PhoneNumberPicker component may not work on all Android devices. For example, on Android systems before system 3.0, the returned lists of phone numbers and email addresses will be empty.
 _
 
+## Events
+
+### After Picking
+
+[[Event('Phone Number Picker', 'After Picking', 'selection')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |selection|`text`|
+
+
+Event to be raised after the picker activity returns its
+ result and the properties have been filled in.
+
+### Before Picking
+
+[[Event('Phone Number Picker', 'Before Picking')]]
+
+Event to raise when the button of the component is clicked or the list is shown
+ using the Open block.  This event occurs before the list of items is displayed, and
+ can be used to prepare the list before it is shown.
+
+### Got Focus
+
+[[Event('Phone Number Picker', 'Got Focus')]]
+
+Indicates the cursor moved over the button so it is now possible to click it.
+
+### Lost Focus
+
+[[Event('Phone Number Picker', 'Lost Focus')]]
+
+Indicates the cursor moved away from the button so it is now no longer possible to click it.
+
+### Touch Down
+
+[[Event('Phone Number Picker', 'Touch Down')]]
+
+Indicates that the button was pressed down.
+
+### Touch Up
+
+[[Event('Phone Number Picker', 'Touch Up')]]
+
+Indicates that a button has been released.
+
+## Methods
+
+### AnimationStyle
+
+[[Method('Phone Number Picker', 'AnimationStyle', false, 'style position size color')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |style|`text`|
+    |position|`text`|
+    |size|`number`|
+    |color|`number`|
+
+
+Allows you to set animation style. Valid (case-insensitive) values are: ChasingDots, Circle, CubeGrid, DoubleBounce, FadingCircle, FoldingCube, Pulse, RotatingCircle, RotatingPlane, ThreeBounce, WanderingCubes, Wave. If invalid style is used, animation will be removed.Position can be: top, left, right, bottom. Size can be 100.
+
+### ButtonClick
+
+[[Method('Phone Number Picker', 'ButtonClick', false)]]
+
+Perform a button click as function.
+
+### Open
+
+[[Method('Phone Number Picker', 'Open', false)]]
+
+Opens the picker, as though the user clicked on it.
+
+### SetShadow
+
+[[Method('Phone Number Picker', 'SetShadow', false, 'x y radius color')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |x|`number`|
+    |y|`number`|
+    |radius|`number`|
+    |color|`number`|
+
+
+Place a blurred shadow of text underneath the text, drawn with the specified x, y, radius, color (e.g. -11, 12, 13, black.
+
+### ViewContact
+
+[[Method('Phone Number Picker', 'ViewContact', false, 'uri')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |uri|`text`|
+
+
+view a contact via its URI
+
+### WithIconFromFontAwesome
+
+[[Method('Phone Number Picker', 'WithIconFromFontAwesome', false, 'position iconName iconColor padding size')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |position|`text`|
+    |icon Name|`text`|
+    |icon Color|`number`|
+    |padding|`number`|
+    |size|`number`|
+
+
+Show an image on the given position near to the button. You can use following words for the position: 'Left', 'Right', 'Top' or 'Bottom'. Use the padding to add space between the icon and text. Use a material icon as the button icon without uploading a image resource into your project. You can find the icon name (or code) here at https://fontawesome.com/cheatsheet Use as example for a heart icon just 'f004'.
+
+### WithIconFromMaterialFont
+
+[[Method('Phone Number Picker', 'WithIconFromMaterialFont', false, 'position iconName iconColor padding size')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |position|`text`|
+    |icon Name|`text`|
+    |icon Color|`number`|
+    |padding|`number`|
+    |size|`number`|
+
+
+Show an image on the given position near to the button. You can use following words for the position: 'Left', 'Right', 'Top' or 'Bottom'. Use the padding to add space between the icon and text. Use a material icon as the button icon without uploading a image resource into your project. You can find the icon name (or code) here at https://material.io/icons
+
+### WithIconFromPicture
+
+[[Method('Phone Number Picker', 'WithIconFromPicture', false, 'position picture padding width height')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |position|`text`|
+    |picture|`text`|
+    |padding|`number`|
+    |width|`number`|
+    |height|`number`|
+
+
+Show an image on the given position near to the button. You can use following words for the position: 'Left', 'Right', 'Top' or 'Bottom'. Use the padding to add space between the icon and text.
+
 ## Properties
 
 ### Background Color
@@ -421,129 +572,3 @@ Specifies the component's horizontal width, measured in pixels.
 
 Specifies the component's horizontal width as a percentage
  of the Width of its parent Component.
-
-## Methods
-
-### AnimationStyle
-
-
-
-[[Method('Phone Number Picker', 'AnimationStyle', false, 'style position size color')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|style|`text`|
-|position|`text`|
-|size|`number`|
-|color|`number`|
-
-
-Allows you to set animation style. Valid (case-insensitive) values are: ChasingDots, Circle, CubeGrid, DoubleBounce, FadingCircle, FoldingCube, Pulse, RotatingCircle, RotatingPlane, ThreeBounce, WanderingCubes, Wave. If invalid style is used, animation will be removed.Position can be: top, left, right, bottom. Size can be 100.
-
-### ButtonClick
-
-
-
-[[Method('Phone Number Picker', 'ButtonClick', false)]]
-
-Perform a button click as function.
-
-### Open
-
-
-
-[[Method('Phone Number Picker', 'Open', false)]]
-
-Opens the picker, as though the user clicked on it.
-
-### SetShadow
-
-
-
-[[Method('Phone Number Picker', 'SetShadow', false, 'x y radius color')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|x|`number`|
-|y|`number`|
-|radius|`number`|
-|color|`number`|
-
-
-Place a blurred shadow of text underneath the text, drawn with the specified x, y, radius, color (e.g. -11, 12, 13, black.
-
-### ViewContact
-
-
-
-[[Method('Phone Number Picker', 'ViewContact', false, 'uri')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|uri|`text`|
-
-
-view a contact via its URI
-
-### WithIconFromFontAwesome
-
-
-
-[[Method('Phone Number Picker', 'WithIconFromFontAwesome', false, 'position iconName iconColor padding size')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|position|`text`|
-|icon Name|`text`|
-|icon Color|`number`|
-|padding|`number`|
-|size|`number`|
-
-
-Show an image on the given position near to the button. You can use following words for the position: 'Left', 'Right', 'Top' or 'Bottom'. Use the padding to add space between the icon and text. Use a material icon as the button icon without uploading a image resource into your project. You can find the icon name (or code) here at https://fontawesome.com/cheatsheet Use as example for a heart icon just 'f004'.
-
-### WithIconFromMaterialFont
-
-
-
-[[Method('Phone Number Picker', 'WithIconFromMaterialFont', false, 'position iconName iconColor padding size')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|position|`text`|
-|icon Name|`text`|
-|icon Color|`number`|
-|padding|`number`|
-|size|`number`|
-
-
-Show an image on the given position near to the button. You can use following words for the position: 'Left', 'Right', 'Top' or 'Bottom'. Use the padding to add space between the icon and text. Use a material icon as the button icon without uploading a image resource into your project. You can find the icon name (or code) here at https://material.io/icons
-
-### WithIconFromPicture
-
-
-
-[[Method('Phone Number Picker', 'WithIconFromPicture', false, 'position picture padding width height')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|position|`text`|
-|picture|`text`|
-|padding|`number`|
-|width|`number`|
-|height|`number`|
-
-
-Show an image on the given position near to the button. You can use following words for the position: 'Left', 'Right', 'Top' or 'Bottom'. Use the padding to add space between the icon and text.

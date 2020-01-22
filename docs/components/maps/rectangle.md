@@ -8,6 +8,112 @@
 
 _A visible component that draws a rectangle on a Map component bounded by north, south, east, and west edges._
 
+## Events
+
+### Click
+
+[[Event('Rectangle', 'Click')]]
+
+The user clicked on the feature.
+
+### Drag
+
+[[Event('Rectangle', 'Drag')]]
+
+The user dragged the map feature.
+
+### Long Click
+
+[[Event('Rectangle', 'Long Click')]]
+
+The user long-pressed on the feature. This event will only trigger if Draggable is false.
+
+### Start Drag
+
+[[Event('Rectangle', 'Start Drag')]]
+
+The user started a drag operation.
+
+### Stop Drag
+
+[[Event('Rectangle', 'Stop Drag')]]
+
+The user stopped a drag operation.
+
+## Methods
+
+### Bounds
+
+[[Method('Rectangle', 'Bounds', true)]]
+
+{>>Returns `list`<<}
+
+Returns the bounding box of the Rectangle in the format ((North West) (South East)).
+
+### Center
+
+[[Method('Rectangle', 'Center', true)]]
+
+{>>Returns `list`<<}
+
+Returns the center of the Rectangle as a list of the form (Latitude Longitude).
+
+### DistanceToFeature
+
+[[Method('Rectangle', 'DistanceToFeature', true, 'mapFeature centroids')]]
+
+{>>Returns `number`<<}
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |map Feature|`component`|
+    |centroids|`boolean`|
+
+
+Compute the distance, in meters, between two map features.
+
+### DistanceToPoint
+
+[[Method('Rectangle', 'DistanceToPoint', true, 'latitude longitude centroid')]]
+
+{>>Returns `number`<<}
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |latitude|`number`|
+    |longitude|`number`|
+    |centroid|`boolean`|
+
+
+Compute the distance, in meters, between a map feature and a latitude, longitude point.
+
+### HideInfobox
+
+[[Method('Rectangle', 'HideInfobox', false)]]
+
+Hide the infobox if it is shown. If the infobox is not visible this function has no effect.
+
+### SetCenter
+
+[[Method('Rectangle', 'SetCenter', false, 'latitude longitude')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |latitude|`number`|
+    |longitude|`number`|
+
+
+Moves the Rectangle so that it is centered on the given latitude and longitude while attempting to maintain the width and height of the Rectangle as measured from the center to the edges.
+
+### ShowInfobox
+
+[[Method('Rectangle', 'ShowInfobox', false)]]
+
+Show the infobox for the feature. This will show the infobox even if
+
 ## Properties
 
 ### Description
@@ -204,98 +310,3 @@ _No description available_
 |text|None|
 
 The type of the feature. For rectangles, this returns the text "Rectangle".
-
-## Methods
-
-### Bounds
-
-
-
-[[Method('Rectangle', 'Bounds', true)]]
-
-{>>Returns `list`<<}
-
-
-Returns the bounding box of the Rectangle in the format ((North West) (South East)).
-
-### Center
-
-
-
-[[Method('Rectangle', 'Center', true)]]
-
-{>>Returns `list`<<}
-
-
-Returns the center of the Rectangle as a list of the form (Latitude Longitude).
-
-### DistanceToFeature
-
-
-
-[[Method('Rectangle', 'DistanceToFeature', true, 'mapFeature centroids')]]
-
-{>>Returns `number`<<}
-
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|map Feature|`component`|
-|centroids|`boolean`|
-
-
-Compute the distance, in meters, between two map features.
-
-### DistanceToPoint
-
-
-
-[[Method('Rectangle', 'DistanceToPoint', true, 'latitude longitude centroid')]]
-
-{>>Returns `number`<<}
-
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|latitude|`number`|
-|longitude|`number`|
-|centroid|`boolean`|
-
-
-Compute the distance, in meters, between a map feature and a latitude, longitude point.
-
-### HideInfobox
-
-
-
-[[Method('Rectangle', 'HideInfobox', false)]]
-
-Hide the infobox if it is shown. If the infobox is not visible this function has no effect.
-
-### SetCenter
-
-
-
-[[Method('Rectangle', 'SetCenter', false, 'latitude longitude')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|latitude|`number`|
-|longitude|`number`|
-
-
-Moves the Rectangle so that it is centered on the given latitude and longitude while attempting to maintain the width and height of the Rectangle as measured from the center to the edges.
-
-### ShowInfobox
-
-
-
-[[Method('Rectangle', 'ShowInfobox', false)]]
-
-Show the infobox for the feature. This will show the infobox even if

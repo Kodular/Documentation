@@ -8,6 +8,14 @@
 
 _A visible component that groups other components and lets the user refresh them via a swipe-down gesture._
 
+## Events
+
+### On Refresh
+
+[[Event('Swipe Refresh Layout', 'On Refresh')]]
+
+Event to detect when a refresh is triggered via the swipe gesture.
+
 ## Properties
 
 ### Align Horizontal

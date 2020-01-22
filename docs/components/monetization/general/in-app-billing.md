@@ -10,6 +10,207 @@
 
 _A non-visible component that lets the user purchase items, powered by Google''s In-App Purchases service._
 
+## Events
+
+### After Purchase
+
+[[Event('In App Billing', 'After Purchase', 'productId')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |product Id|`text`|
+
+
+After purchase event.
+
+### Error Occurred
+
+[[Event('In App Billing', 'Error Occurred', 'message')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |message|`text`|
+
+
+Error occurred event.
+
+### Got Owned Purchases
+
+[[Event('In App Billing', 'Got Owned Purchases', 'ownedProducts ownedSubscriptions')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |owned Products|`list`|
+    |owned Subscriptions|`list`|
+
+
+Got Owned Purchases
+
+### Got Product Details
+
+[[Event('In App Billing', 'Got Product Details', 'success productId title description currency price')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |success|`boolean`|
+    |product Id|`text`|
+    |title|`text`|
+    |description|`text`|
+    |currency|`text`|
+    |price|`text`|
+
+
+Got Product Details
+
+### Got Subscription Details
+
+[[Event('In App Billing', 'Got Subscription Details', 'success isSubscription subscriptionId title description currency price')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |success|`boolean`|
+    |is Subscription|`boolean`|
+    |subscription Id|`text`|
+    |title|`text`|
+    |description|`text`|
+    |currency|`text`|
+    |price|`text`|
+
+
+Got Subscription Details
+
+## Methods
+
+### Consume
+
+:warning: ==**Deprecated**==
+
+[[Method('In App Billing', 'Consume', false, 'productId')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |product Id|`text`|
+
+
+Do not use this block anymore. This block is deprecated and does nothing and will be removed in the future!
+
+### Initialize
+
+:warning: ==**Deprecated**==
+
+[[Method('In App Billing', 'Initialize', false, 'licenseKey merchantId')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |license Key|`text`|
+    |merchant Id|`text`|
+
+
+Do not use this block anymore. This block is deprecated and does nothing and will be removed in the future!
+
+### IsPurchased
+
+[[Method('In App Billing', 'IsPurchased', true, 'productId')]]
+
+{>>Returns `boolean`<<}
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |product Id|`text`|
+
+
+Returns true if the product with the specific id is purchased.
+
+### IsSubscribed
+
+[[Method('In App Billing', 'IsSubscribed', true, 'subscriptionId')]]
+
+{>>Returns `boolean`<<}
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |subscription Id|`text`|
+
+
+Returns true if the product is subscribed.
+
+### LoadOwnedPurchases
+
+[[Method('In App Billing', 'LoadOwnedPurchases', false)]]
+
+Load Owned Purchases from Google.
+
+### ProductDetails
+
+[[Method('In App Billing', 'ProductDetails', false, 'productId')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |product Id|`text`|
+
+
+Get product details from the specific product id.
+
+### Purchase
+
+[[Method('In App Billing', 'Purchase', false, 'productId')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |product Id|`text`|
+
+
+Purchase a product with the given product id.
+
+### Subscribe
+
+[[Method('In App Billing', 'Subscribe', false, 'subscriptionId')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |subscription Id|`text`|
+
+
+Subscribe a product with the given product id.
+
+### SubscriptionDetails
+
+[[Method('In App Billing', 'SubscriptionDetails', false, 'subscriptionId')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |subscription Id|`text`|
+
+
+Get subscription details from the given id.
+
+### UpdateSubscription
+
+:warning: ==**Deprecated**==
+
+[[Method('In App Billing', 'UpdateSubscription', false, 'subscriptionId')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |subscription Id|`text`|
+
+
+Do not use this block anymore. This block is deprecated and does nothing and will be removed in the future!
+
 ## Properties
 
 ### Suppress Toast
@@ -89,155 +290,3 @@ Is subscription update supported.
 |boolean|None|
 
 Whether In-app billing service is ready to purchase.
-
-## Methods
-
-### Consume
-
-:warning: ==**Deprecated**==
-
-[[Method('In App Billing', 'Consume', false, 'productId')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|product Id|`text`|
-
-
-Do not use this block anymore. This block is deprecated and does nothing and will be removed in the future!
-
-### Initialize
-
-:warning: ==**Deprecated**==
-
-[[Method('In App Billing', 'Initialize', false, 'licenseKey merchantId')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|license Key|`text`|
-|merchant Id|`text`|
-
-
-Do not use this block anymore. This block is deprecated and does nothing and will be removed in the future!
-
-### IsPurchased
-
-
-
-[[Method('In App Billing', 'IsPurchased', true, 'productId')]]
-
-{>>Returns `boolean`<<}
-
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|product Id|`text`|
-
-
-Returns true if the product with the specific id is purchased.
-
-### IsSubscribed
-
-
-
-[[Method('In App Billing', 'IsSubscribed', true, 'subscriptionId')]]
-
-{>>Returns `boolean`<<}
-
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|subscription Id|`text`|
-
-
-Returns true if the product is subscribed.
-
-### LoadOwnedPurchases
-
-
-
-[[Method('In App Billing', 'LoadOwnedPurchases', false)]]
-
-Load Owned Purchases from Google.
-
-### ProductDetails
-
-
-
-[[Method('In App Billing', 'ProductDetails', false, 'productId')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|product Id|`text`|
-
-
-Get product details from the specific product id.
-
-### Purchase
-
-
-
-[[Method('In App Billing', 'Purchase', false, 'productId')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|product Id|`text`|
-
-
-Purchase a product with the given product id.
-
-### Subscribe
-
-
-
-[[Method('In App Billing', 'Subscribe', false, 'subscriptionId')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|subscription Id|`text`|
-
-
-Subscribe a product with the given product id.
-
-### SubscriptionDetails
-
-
-
-[[Method('In App Billing', 'SubscriptionDetails', false, 'subscriptionId')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|subscription Id|`text`|
-
-
-Get subscription details from the given id.
-
-### UpdateSubscription
-
-:warning: ==**Deprecated**==
-
-[[Method('In App Billing', 'UpdateSubscription', false, 'subscriptionId')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|subscription Id|`text`|
-
-
-Do not use this block anymore. This block is deprecated and does nothing and will be removed in the future!

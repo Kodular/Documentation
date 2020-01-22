@@ -8,6 +8,76 @@
 
 _A visible component that groups other layout components such that only one of its children is shown at a time. Each of the child layouts can be accessed either by swiping left and right, or using the tabs at the top._
 
+## Events
+
+### Tab Item Selected
+
+[[Event('Tab Layout', 'Tab Item Selected', 'tab position')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |tab|`text`|
+    |position|`number`|
+
+
+The event returns the name or the position of the selected tab.
+
+## Methods
+
+### AddNewTab
+
+[[Method('Tab Layout', 'AddNewTab', false, 'name icon')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |name|`text`|
+    |icon|`text`|
+
+
+Add a new tab to the tab layout. If you don't want a icon then let it empty.
+
+### AddNewTabAt
+
+[[Method('Tab Layout', 'AddNewTabAt', false, 'name icon position')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |name|`text`|
+    |icon|`text`|
+    |position|`number`|
+
+
+Add a new tab to the tab layout at the given position. If you don't want a icon then let it empty.
+
+### CountTabs
+
+[[Method('Tab Layout', 'CountTabs', true)]]
+
+{>>Returns `number`<<}
+
+Returns the number of current added tab's.
+
+### RemoveAllTabs
+
+[[Method('Tab Layout', 'RemoveAllTabs', false)]]
+
+Remove all tab's from tab layout.
+
+### RemoveTabAt
+
+[[Method('Tab Layout', 'RemoveTabAt', false, 'position')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |position|`number`|
+
+
+Removes a before added tab. If you want to delete the first tab then use as position '1'.
+
 ## Properties
 
 ### Tabs Active Text Color
@@ -166,72 +236,3 @@ Specifies the component's horizontal width, measured in pixels.
 
 Specifies the component's horizontal width as a percentage
  of the Width of its parent Component.
-
-## Methods
-
-### AddNewTab
-
-
-
-[[Method('Tab Layout', 'AddNewTab', false, 'name icon')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|name|`text`|
-|icon|`text`|
-
-
-Add a new tab to the tab layout. If you don't want a icon then let it empty.
-
-### AddNewTabAt
-
-
-
-[[Method('Tab Layout', 'AddNewTabAt', false, 'name icon position')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|name|`text`|
-|icon|`text`|
-|position|`number`|
-
-
-Add a new tab to the tab layout at the given position. If you don't want a icon then let it empty.
-
-### CountTabs
-
-
-
-[[Method('Tab Layout', 'CountTabs', true)]]
-
-{>>Returns `number`<<}
-
-
-Returns the number of current added tab's.
-
-### RemoveAllTabs
-
-
-
-[[Method('Tab Layout', 'RemoveAllTabs', false)]]
-
-Remove all tab's from tab layout.
-
-### RemoveTabAt
-
-
-
-[[Method('Tab Layout', 'RemoveTabAt', false, 'position')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|position|`number`|
-
-
-Removes a before added tab. If you want to delete the first tab then use as position '1'.

@@ -8,6 +8,53 @@
 
 _A visible component that shows StartApp ads as static banners._
 
+## Events
+
+### Ad Clicked
+
+[[Event('StartApp Banner', 'Ad Clicked')]]
+
+Indicates that the user has clicked on the banner ad.
+
+### Ad Failed To Load
+
+[[Event('StartApp Banner', 'Ad Failed To Load', 'errorCode errorMessage')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |error Code|`number`|
+    |error Message|`text`|
+
+
+Called when an ad request failed to load. The message will display the error code and error message.
+
+### On Failed To Receive Ad
+
+[[Event('StartApp Banner', 'On Failed To Receive Ad', 'errorMessage')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |error Message|`text`|
+
+
+Called when an ad request failed to load.
+
+### On Receive Ad
+
+[[Event('StartApp Banner', 'On Receive Ad')]]
+
+Called when an ad request succeeds.
+
+## Methods
+
+### Load Ad
+
+[[Method('StartApp Banner', 'Load Ad', false)]]
+
+Load a new StartApp Banner ad.
+
 ## Properties
 
 ### App ID
@@ -61,13 +108,3 @@ Column property getter method.
 |number|None|
 
 Row property getter method.
-
-## Methods
-
-### Load Ad
-
-
-
-[[Method('StartApp Banner', 'Load Ad', false)]]
-
-Load a new StartApp Banner ad.

@@ -8,6 +8,94 @@
 
 _A visible component that shows a live preview of the user''s camera as its background._
 
+## Events
+
+### Clicked
+
+[[Event('Surface View', 'Clicked')]]
+
+Event to detect clicks on the camera preview.
+
+### Face Detected
+
+[[Event('Surface View', 'Face Detected', 'numbers')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |numbers|`text`|
+
+
+Event to detect that there are faces in the front of the camera.
+
+### Got Preview
+
+[[Event('Surface View', 'Got Preview', 'image')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |image|`text`|
+
+
+Event to get the response from the camera preview as image file. The picture is by default in landscape mode. This event will only work if the option "Save Preview As File" is enabled/ true.
+
+### Long Clicked
+
+[[Event('Surface View', 'Long Clicked')]]
+
+Event to detect long clicks on the camera preview.
+
+### Picture Created
+
+[[Event('Surface View', 'Picture Created', 'image')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |image|`text`|
+
+
+Event to detect that the user has taken a picture from the preview.
+
+### Preview Paused
+
+[[Event('Surface View', 'Preview Paused')]]
+
+Event to detect that the user paused the camera preview.
+
+### Preview Stoped
+
+[[Event('Surface View', 'Preview Stoped')]]
+
+Event to detect that the user stopped the camera preview.
+
+## Methods
+
+### PausePreview
+
+[[Method('Surface View', 'PausePreview', false)]]
+
+Pause the camera preview.
+
+### StartPreview
+
+[[Method('Surface View', 'StartPreview', false)]]
+
+Start the camera preview.
+
+### StopPreview
+
+[[Method('Surface View', 'StopPreview', false)]]
+
+Stop the camera preview.
+
+### TakePicture
+
+[[Method('Surface View', 'TakePicture', false)]]
+
+Take a picture from the camera preview.
+
 ## Properties
 
 ### Align Horizontal
@@ -193,37 +281,3 @@ Specifies the component's horizontal width, measured in pixels.
 
 Specifies the component's horizontal width as a percentage
  of the Width of its parent Component.
-
-## Methods
-
-### PausePreview
-
-
-
-[[Method('Surface View', 'PausePreview', false)]]
-
-Pause the camera preview.
-
-### StartPreview
-
-
-
-[[Method('Surface View', 'StartPreview', false)]]
-
-Start the camera preview.
-
-### StopPreview
-
-
-
-[[Method('Surface View', 'StopPreview', false)]]
-
-Stop the camera preview.
-
-### TakePicture
-
-
-
-[[Method('Surface View', 'TakePicture', false)]]
-
-Take a picture from the camera preview.

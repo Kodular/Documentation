@@ -10,6 +10,113 @@
 
 _A non-visible component that shows LeadBolt ads as rewarded videos and network advertisements._
 
+## Events
+
+### Ad Loaded
+
+[[Event('LeadBolt', 'Ad Loaded', 'location')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |location|`text`|
+
+
+Event triggered when ads are loaded
+
+### Ad Clicked
+
+[[Event('LeadBolt', 'Ad Clicked', 'location')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |location|`text`|
+
+
+Event triggered when ads are clicked
+
+### Ad Closed
+
+[[Event('LeadBolt', 'Ad Closed', 'location reward')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |location|`text`|
+    |reward|`boolean`|
+
+
+Event triggered when ads are closed
+
+### Ad Failed To Load
+
+[[Event('LeadBolt', 'Ad Failed To Load', 'location error isCache')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |location|`text`|
+    |error|`text`|
+    |is Cache|`boolean`|
+
+
+Event triggered when ads are failed to load
+
+### Ad Shown
+
+[[Event('LeadBolt', 'Ad Shown', 'location')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |location|`text`|
+
+
+Event triggered when ads are shown
+
+## Methods
+
+### IsNetworkAdReady
+
+[[Method('LeadBolt', 'IsNetworkAdReady', true)]]
+
+{>>Returns `boolean`<<}
+
+Use this block after loading an ad to check whether it's ready to show.
+
+### IsRewardedAdReady
+
+[[Method('LeadBolt', 'IsRewardedAdReady', true)]]
+
+{>>Returns `boolean`<<}
+
+Use this block after loading an ad to check whether it's ready to show.
+
+### LoadNetworkAd
+
+[[Method('LeadBolt', 'LoadNetworkAd', false)]]
+
+Use this block to load a Network ad.
+
+### LoadRewardedAd
+
+[[Method('LeadBolt', 'LoadRewardedAd', false)]]
+
+Use this block to load a Rewarded Video ad.
+
+### ShowNetworkAd
+
+[[Method('LeadBolt', 'ShowNetworkAd', false)]]
+
+Use this block after LoadNetworkAd to show the loaded ad.
+
+### ShowRewardedAd
+
+[[Method('LeadBolt', 'ShowRewardedAd', false)]]
+
+Use this block after LoadRewardedAd to show the loaded ad.
+
 ## Properties
 
 ### API Key
@@ -50,59 +157,3 @@ Sets the ad network used to take the commission.
 |text|unity|
 
 Sets the ad network used to take the commission.
-
-## Methods
-
-### IsNetworkAdReady
-
-
-
-[[Method('LeadBolt', 'IsNetworkAdReady', true)]]
-
-{>>Returns `boolean`<<}
-
-
-Use this block after loading an ad to check whether it's ready to show.
-
-### IsRewardedAdReady
-
-
-
-[[Method('LeadBolt', 'IsRewardedAdReady', true)]]
-
-{>>Returns `boolean`<<}
-
-
-Use this block after loading an ad to check whether it's ready to show.
-
-### LoadNetworkAd
-
-
-
-[[Method('LeadBolt', 'LoadNetworkAd', false)]]
-
-Use this block to load a Network ad.
-
-### LoadRewardedAd
-
-
-
-[[Method('LeadBolt', 'LoadRewardedAd', false)]]
-
-Use this block to load a Rewarded Video ad.
-
-### ShowNetworkAd
-
-
-
-[[Method('LeadBolt', 'ShowNetworkAd', false)]]
-
-Use this block after LoadNetworkAd to show the loaded ad.
-
-### ShowRewardedAd
-
-
-
-[[Method('LeadBolt', 'ShowRewardedAd', false)]]
-
-Use this block after LoadRewardedAd to show the loaded ad.

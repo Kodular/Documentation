@@ -10,6 +10,23 @@
 
 _<p>Non-visible component that measures the ambient geomagnetic field for all three physical axes (x, y, z) in Tesla https://en.wikipedia.org/wiki/Tesla_(unit). </p>_
 
+## Events
+
+### Magnetic Changed
+
+[[Event('Magnetic Field Sensor', 'Magnetic Changed', 'xStrength yStrength zStrength absoluteStrength')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |x Strength|`number`|
+    |y Strength|`number`|
+    |z Strength|`number`|
+    |absolute Strength|`number`|
+
+
+Indicates that the magnetic sensor data has changed.
+
 ## Properties
 
 ### Enabled

@@ -12,6 +12,90 @@ _Multimedia component that plays audio and controls phone vibration.  The name o
 <p>For supported audio formats, see <a href="http://developer.android.com/guide/appendix/media-formats.html" target="_blank">Android Supported Media Formats</a>.</p>
 <p>This component is best for long sound files, such as songs, while the <code>Sound</code> component is more efficient for short files, such as sound effects.</p>_
 
+## Events
+
+### Completed
+
+[[Event('Player', 'Completed')]]
+
+Indicates that the media has reached the end
+
+### Other Player Started
+
+[[Event('Player', 'Other Player Started')]]
+
+This event is signaled when another player has started (and the current player is playing or paused, but not stopped).
+
+### PlayerError
+
+[[Event('Player', 'PlayerError', 'message')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |message|`text`|
+
+
+The PlayerError event is no longer used. Please use the Screen.ErrorOccurred event instead.
+
+## Methods
+
+### Pause
+
+[[Method('Player', 'Pause', false)]]
+
+Suspends playing the media if it is playing.
+
+### SeekTo
+
+[[Method('Player', 'SeekTo', false, 'position')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |position|`number`|
+
+
+Set a position where the source file should start playing.
+
+### SetLeftRightVolume
+
+[[Method('Player', 'SetLeftRightVolume', false, 'leftVolume rightVolume')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |left Volume|`number`|
+    |right Volume|`number`|
+
+
+Control the left and right volume of the player. Set the volume to a number between 0 and 100.
+
+### Start
+
+[[Method('Player', 'Start', false)]]
+
+Plays the media.  If it was previously paused, the playing is resumed.
+ If it was previously stopped, it starts from the beginning.
+
+### Stop
+
+[[Method('Player', 'Stop', false)]]
+
+Stops playing the media and seeks to the beginning of the song.
+
+### Vibrate
+
+[[Method('Player', 'Vibrate', false, 'milliseconds')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |milliseconds|`number`|
+
+
+Vibrates for specified number of milliseconds.
+
 ## Properties
 
 ### Loop
@@ -143,76 +227,3 @@ Returns the current left volume.
 |number|None|
 
 Returns the current right volume.
-
-## Methods
-
-### Pause
-
-
-
-[[Method('Player', 'Pause', false)]]
-
-Suspends playing the media if it is playing.
-
-### SeekTo
-
-
-
-[[Method('Player', 'SeekTo', false, 'position')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|position|`number`|
-
-
-Set a position where the source file should start playing.
-
-### SetLeftRightVolume
-
-
-
-[[Method('Player', 'SetLeftRightVolume', false, 'leftVolume rightVolume')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|left Volume|`number`|
-|right Volume|`number`|
-
-
-Control the left and right volume of the player. Set the volume to a number between 0 and 100.
-
-### Start
-
-
-
-[[Method('Player', 'Start', false)]]
-
-Plays the media.  If it was previously paused, the playing is resumed.
- If it was previously stopped, it starts from the beginning.
-
-### Stop
-
-
-
-[[Method('Player', 'Stop', false)]]
-
-Stops playing the media and seeks to the beginning of the song.
-
-### Vibrate
-
-
-
-[[Method('Player', 'Vibrate', false, 'milliseconds')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|milliseconds|`number`|
-
-
-Vibrates for specified number of milliseconds.

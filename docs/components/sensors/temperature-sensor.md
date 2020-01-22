@@ -10,6 +10,20 @@
 
 _<p>Non-visible component that measures the temperature of the air in the room in degrees Celsius. This sensor implementation varies across devices.</p>_
 
+## Events
+
+### Temperature Changed
+
+[[Event('Temperature Sensor', 'Temperature Changed', 'temperature')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |temperature|`number`|
+
+
+Event that fires when the temperature is changed
+
 ## Properties
 
 ### Enabled

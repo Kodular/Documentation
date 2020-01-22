@@ -10,6 +10,30 @@
 
 _A component that provides a high-level interface to a touch sensor on a LEGO MINDSTORMS NXT robot._
 
+## Events
+
+### Pressed
+
+[[Event('NXT Touch Sensor', 'Pressed')]]
+
+Touch sensor has been pressed.
+
+### Released
+
+[[Event('NXT Touch Sensor', 'Released')]]
+
+Touch sensor has been released.
+
+## Methods
+
+### IsPressed
+
+[[Method('NXT Touch Sensor', 'IsPressed', true)]]
+
+{>>Returns `boolean`<<}
+
+Returns true if the touch sensor is pressed.
+
 ## Properties
 
 ### Bluetooth Client
@@ -63,16 +87,3 @@ Whether the Released event should fire when the touch sensor is released.
 |text|1|
 
 The sensor port that the sensor is connected to.
-
-## Methods
-
-### IsPressed
-
-
-
-[[Method('NXT Touch Sensor', 'IsPressed', true)]]
-
-{>>Returns `boolean`<<}
-
-
-Returns true if the touch sensor is pressed.

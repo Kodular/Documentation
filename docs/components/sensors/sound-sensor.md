@@ -10,6 +10,20 @@
 
 _Physical world component that can detect such data as: sound amplitude (measurement of the degree of change [positive or negative] )._
 
+## Events
+
+### Sound Changed
+
+[[Event('Sound Sensor', 'Sound Changed', 'value')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |value|`number`|
+
+
+Triggered when the sound level has changed
+
 ## Properties
 
 ### Listen

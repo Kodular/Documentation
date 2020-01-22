@@ -10,6 +10,84 @@ _An EmailPicker is a kind of text box.  If the user begins entering the name or 
  <p>Other properties affect the appearance of the text box (<code>TextAlignment</code>, <code>BackgroundColor</code>, etc.) and whether it can be used (<code>Enabled</code>).</p>
 <p>Text boxes like this are usually used with <code>Button</code> components, with the user clicking on the button when text entry is complete._
 
+## Events
+
+### Got Focus
+
+[[Event('Email Picker', 'Got Focus')]]
+
+Event raised when this component is selected for input, such as by
+ the user touching it.
+
+### Lost Focus
+
+[[Event('Email Picker', 'Lost Focus')]]
+
+Event raised when this component is no longer selected for input, such
+ as if the user touches a different text box.
+
+### On Text Changed
+
+[[Event('Email Picker', 'On Text Changed')]]
+
+Event to detect text changes.
+
+## Methods
+
+### AnimationStyle
+
+[[Method('Email Picker', 'AnimationStyle', false, 'style position size color')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |style|`text`|
+    |position|`text`|
+    |size|`number`|
+    |color|`number`|
+
+
+Allows you to set animation style. Valid (case-insensitive) values are: ChasingDots, Circle, CubeGrid, DoubleBounce, FadingCircle, FoldingCube, Pulse, RotatingCircle, RotatingPlane, ThreeBounce, WanderingCubes, Wave. If invalid style is used, animation will be removed.Position can be: top, left, right, bottom. Size can be 100.
+
+### RequestFocus
+
+[[Method('Email Picker', 'RequestFocus', false)]]
+
+Sets the textbox active.
+
+### SetCursorAt
+
+[[Method('Email Picker', 'SetCursorAt', false, 'position')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |position|`number`|
+
+
+Set the cursor to the given position.
+
+### SetCursorAtEnd
+
+[[Method('Email Picker', 'SetCursorAtEnd', false)]]
+
+Set the cursor to the end of the text.
+
+### SetShadow
+
+[[Method('Email Picker', 'SetShadow', false, 'x y radius color')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |x|`number`|
+    |y|`number`|
+    |radius|`number`|
+    |color|`number`|
+
+
+Place a blurred shadow of text underneath the text, drawn with the specified x, y, radius, color (e.g. -11, 12, 13, black
+
 ## Properties
 
 ### Background Color
@@ -351,72 +429,3 @@ Specifies the component's horizontal width, measured in pixels.
 
 Specifies the component's horizontal width as a percentage
  of the Width of its parent Component.
-
-## Methods
-
-### AnimationStyle
-
-
-
-[[Method('Email Picker', 'AnimationStyle', false, 'style position size color')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|style|`text`|
-|position|`text`|
-|size|`number`|
-|color|`number`|
-
-
-Allows you to set animation style. Valid (case-insensitive) values are: ChasingDots, Circle, CubeGrid, DoubleBounce, FadingCircle, FoldingCube, Pulse, RotatingCircle, RotatingPlane, ThreeBounce, WanderingCubes, Wave. If invalid style is used, animation will be removed.Position can be: top, left, right, bottom. Size can be 100.
-
-### RequestFocus
-
-
-
-[[Method('Email Picker', 'RequestFocus', false)]]
-
-Sets the textbox active.
-
-### SetCursorAt
-
-
-
-[[Method('Email Picker', 'SetCursorAt', false, 'position')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|position|`number`|
-
-
-Set the cursor to the given position.
-
-### SetCursorAtEnd
-
-
-
-[[Method('Email Picker', 'SetCursorAtEnd', false)]]
-
-Set the cursor to the end of the text.
-
-### SetShadow
-
-
-
-[[Method('Email Picker', 'SetShadow', false, 'x y radius color')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|x|`number`|
-|y|`number`|
-|radius|`number`|
-|color|`number`|
-
-
-Place a blurred shadow of text underneath the text, drawn with the specified x, y, radius, color (e.g. -11, 12, 13, black

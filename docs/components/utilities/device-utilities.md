@@ -10,6 +10,194 @@
 
 _A non-visible component that fetches specifications of the device._
 
+## Events
+
+### Got IMEI
+
+[[Event('Device Utilities', 'Got IMEI', 'imei')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |imei|`text`|
+
+
+Event to get the IMEI after it was requested.
+
+### Got Serial
+
+[[Event('Device Utilities', 'Got Serial', 'serial')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |serial|`text`|
+
+
+Event to get the serial number after it was requested.
+
+## Methods
+
+### CheckForDangerousAPK
+
+[[Method('Device Utilities', 'CheckForDangerousAPK', true)]]
+
+{>>Returns `boolean`<<}
+
+Returns TRUE if one of 12 known patching or root emulating packages is installed. The name of the package is not returned, so the user does not know which package name to change. Developed by Cian.
+
+### Copy
+
+[[Method('Device Utilities', 'Copy', false, 'text successToastMessage')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |text|`text`|
+    |Success Toast Message|`text`|
+
+
+Copy text to clipboard. In case 'Show Success Toast' is true, the toast with your message will be shown after copying a text to the clipboard.
+
+### ExternalStorageAvailable
+
+[[Method('Device Utilities', 'ExternalStorageAvailable', true)]]
+
+{>>Returns `number`<<}
+
+Available size of external storage in Gigabytes.
+
+### ExternalStorageTotal
+
+[[Method('Device Utilities', 'ExternalStorageTotal', true)]]
+
+{>>Returns `number`<<}
+
+Total external storage size in Gigabytes.
+
+### ExternalStorageUsed
+
+[[Method('Device Utilities', 'ExternalStorageUsed', true)]]
+
+{>>Returns `number`<<}
+
+Size of used-external-storage in Gigabytes.
+
+### GetIMEI
+
+[[Method('Device Utilities', 'GetIMEI', false)]]
+
+Get the IMEI of the device. The result will be then at the 'Got IMEI' event.
+
+### GetSerial
+
+[[Method('Device Utilities', 'GetSerial', false)]]
+
+A hardware serial number, if available. Alphanumeric only, case-insensitive. For apps targeting SDK higher than N_MR1 this field is set to UNKNOWN.
+
+### InternalStorageAvailable
+
+[[Method('Device Utilities', 'InternalStorageAvailable', true)]]
+
+{>>Returns `number`<<}
+
+Size of available internal storage in Gigabytes.
+
+### InternalStorageTotal
+
+[[Method('Device Utilities', 'InternalStorageTotal', true)]]
+
+{>>Returns `number`<<}
+
+Total size of internal storage in Gigabytes.
+
+### InternalStorageUsed
+
+[[Method('Device Utilities', 'InternalStorageUsed', true)]]
+
+{>>Returns `number`<<}
+
+Size of used-internal-storage in Gigabytes.
+
+### MemoryFree
+
+[[Method('Device Utilities', 'MemoryFree', true)]]
+
+{>>Returns `number`<<}
+
+Total free RAM size in Gigabytes.
+
+### MemoryTotal
+
+[[Method('Device Utilities', 'MemoryTotal', true)]]
+
+{>>Returns `number`<<}
+
+Total RAM size in Gigabytes.
+
+### MemoryUsed
+
+[[Method('Device Utilities', 'MemoryUsed', true)]]
+
+{>>Returns `number`<<}
+
+Size of used-memory in Gigabytes.
+
+### Parse
+
+[[Method('Device Utilities', 'Parse', true, 'text start end ifTextNotFound')]]
+
+{>>Returns `text`<<}
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |text|`text`|
+    |start|`text`|
+    |end|`text`|
+    |if Text Not Found|`text`|
+
+
+Parse a text between two strings. Example: text = abcdef, start = a, end = d, result = bc. If there is a problem the 'if Text Not Found' will be returned.
+
+### Paste
+
+[[Method('Device Utilities', 'Paste', true, 'successToastMessage')]]
+
+{>>Returns `text`<<}
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |Success Toast Message|`text`|
+
+
+Paste text from clipboard. In case 'Show Success Toast' is true, the toast with your message will be shown after pasting a text from the clipboard.
+
+### Is Adb Debugging Enabled
+
+[[Method('Device Utilities', 'Is Adb Debugging Enabled', true)]]
+
+{>>Returns `boolean`<<}
+
+This returns TRUE if ADB debugging is enabled, which could be a sign of hacking your app, or a compromised device. Developed by Cian.
+
+### Is Emulator
+
+[[Method('Device Utilities', 'Is Emulator', true)]]
+
+{>>Returns `boolean`<<}
+
+Returns TRUE if the device operating on an emulator. Developed by Cian.
+
+### Is Installed From Play Store
+
+[[Method('Device Utilities', 'Is Installed From Play Store', true)]]
+
+{>>Returns `boolean`<<}
+
+Returns TRUE if the app was installed from Play Store. Developed by Cian.
+
 ## Properties
 
 ### Show Success Toast
@@ -284,219 +472,3 @@ Comma-separated tags describing the build, like "unsigned,debug".
 |text|None|
 
 The type of build, like "user" or "eng".
-
-## Methods
-
-### CheckForDangerousAPK
-
-
-
-[[Method('Device Utilities', 'CheckForDangerousAPK', true)]]
-
-{>>Returns `boolean`<<}
-
-
-Returns TRUE if one of 12 known patching or root emulating packages is installed. The name of the package is not returned, so the user does not know which package name to change. Developed by Cian.
-
-### Copy
-
-
-
-[[Method('Device Utilities', 'Copy', false, 'text successToastMessage')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|text|`text`|
-|Success Toast Message|`text`|
-
-
-Copy text to clipboard. In case 'Show Success Toast' is true, the toast with your message will be shown after copying a text to the clipboard.
-
-### ExternalStorageAvailable
-
-
-
-[[Method('Device Utilities', 'ExternalStorageAvailable', true)]]
-
-{>>Returns `number`<<}
-
-
-Available size of external storage in Gigabytes.
-
-### ExternalStorageTotal
-
-
-
-[[Method('Device Utilities', 'ExternalStorageTotal', true)]]
-
-{>>Returns `number`<<}
-
-
-Total external storage size in Gigabytes.
-
-### ExternalStorageUsed
-
-
-
-[[Method('Device Utilities', 'ExternalStorageUsed', true)]]
-
-{>>Returns `number`<<}
-
-
-Size of used-external-storage in Gigabytes.
-
-### GetIMEI
-
-
-
-[[Method('Device Utilities', 'GetIMEI', false)]]
-
-Get the IMEI of the device. The result will be then at the 'Got IMEI' event.
-
-### GetSerial
-
-
-
-[[Method('Device Utilities', 'GetSerial', false)]]
-
-A hardware serial number, if available. Alphanumeric only, case-insensitive. For apps targeting SDK higher than N_MR1 this field is set to UNKNOWN.
-
-### InternalStorageAvailable
-
-
-
-[[Method('Device Utilities', 'InternalStorageAvailable', true)]]
-
-{>>Returns `number`<<}
-
-
-Size of available internal storage in Gigabytes.
-
-### InternalStorageTotal
-
-
-
-[[Method('Device Utilities', 'InternalStorageTotal', true)]]
-
-{>>Returns `number`<<}
-
-
-Total size of internal storage in Gigabytes.
-
-### InternalStorageUsed
-
-
-
-[[Method('Device Utilities', 'InternalStorageUsed', true)]]
-
-{>>Returns `number`<<}
-
-
-Size of used-internal-storage in Gigabytes.
-
-### MemoryFree
-
-
-
-[[Method('Device Utilities', 'MemoryFree', true)]]
-
-{>>Returns `number`<<}
-
-
-Total free RAM size in Gigabytes.
-
-### MemoryTotal
-
-
-
-[[Method('Device Utilities', 'MemoryTotal', true)]]
-
-{>>Returns `number`<<}
-
-
-Total RAM size in Gigabytes.
-
-### MemoryUsed
-
-
-
-[[Method('Device Utilities', 'MemoryUsed', true)]]
-
-{>>Returns `number`<<}
-
-
-Size of used-memory in Gigabytes.
-
-### Parse
-
-
-
-[[Method('Device Utilities', 'Parse', true, 'text start end ifTextNotFound')]]
-
-{>>Returns `text`<<}
-
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|text|`text`|
-|start|`text`|
-|end|`text`|
-|if Text Not Found|`text`|
-
-
-Parse a text between two strings. Example: text = abcdef, start = a, end = d, result = bc. If there is a problem the 'if Text Not Found' will be returned.
-
-### Paste
-
-
-
-[[Method('Device Utilities', 'Paste', true, 'successToastMessage')]]
-
-{>>Returns `text`<<}
-
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|Success Toast Message|`text`|
-
-
-Paste text from clipboard. In case 'Show Success Toast' is true, the toast with your message will be shown after pasting a text from the clipboard.
-
-### Is Adb Debugging Enabled
-
-
-
-[[Method('Device Utilities', 'Is Adb Debugging Enabled', true)]]
-
-{>>Returns `boolean`<<}
-
-
-This returns TRUE if ADB debugging is enabled, which could be a sign of hacking your app, or a compromised device. Developed by Cian.
-
-### Is Emulator
-
-
-
-[[Method('Device Utilities', 'Is Emulator', true)]]
-
-{>>Returns `boolean`<<}
-
-
-Returns TRUE if the device operating on an emulator. Developed by Cian.
-
-### Is Installed From Play Store
-
-
-
-[[Method('Device Utilities', 'Is Installed From Play Store', true)]]
-
-{>>Returns `boolean`<<}
-
-
-Returns TRUE if the app was installed from Play Store. Developed by Cian.

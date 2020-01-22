@@ -10,6 +10,89 @@
 
 _An interstitial ad is a full-page ad. AdMobInterstitial component allows you to monetize your app. You must have a valid AdMob account and AdUnitId that can be obtained from http://www.google.com/AdMob . If your id is invalid, the AdMobInterstitial will not display on the emulator or the device. Warning: Make sure you're in test mode during development to avoid being disabled for clicking your own ads. _
 
+## Events
+
+### Ad Closed
+
+[[Event('AdMob Interstitial', 'Ad Closed')]]
+
+Called when an ad was closed.
+
+### Ad Failed To Load
+
+[[Event('AdMob Interstitial', 'Ad Failed To Load', 'errorCode errorMessage')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |error Code|`number`|
+    |error Message|`text`|
+
+
+Called when an ad request failed to load. The message will display the error code and error message.
+
+### Ad Failed To Show
+
+[[Event('AdMob Interstitial', 'Ad Failed To Show', 'message')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |message|`text`|
+
+
+Called when an an attempt was made to display the ad, but the ad was not ready to display.
+
+### Ad Left Application
+
+[[Event('AdMob Interstitial', 'Ad Left Application')]]
+
+Called when an ad leaves the application (e.g., to go to the browser).
+
+### Ad Loaded
+
+[[Event('AdMob Interstitial', 'Ad Loaded')]]
+
+Called when an ad request was loaded.
+
+### Ad Opened
+
+[[Event('AdMob Interstitial', 'Ad Opened')]]
+
+Called when an ad was opened.
+
+### On Consent Changed
+
+[[Event('AdMob Interstitial', 'On Consent Changed', 'personalized')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |personalized|`boolean`|
+
+
+Event triggered when the consent was changed.
+
+## Methods
+
+### Load Ad
+
+[[Method('AdMob Interstitial', 'Load Ad', false)]]
+
+Load a new AdMob Interstitial ad.
+
+### RevokeConsent
+
+[[Method('AdMob Interstitial', 'RevokeConsent', false)]]
+
+Deletes the user's consent. Useful if you want to test the consent dialog in development.
+
+### ShowInterstitialAd
+
+[[Method('AdMob Interstitial', 'ShowInterstitialAd', false)]]
+
+It will show the Interstitial Ad
+
 ## Properties
 
 ### Ad Enabled
@@ -154,29 +237,3 @@ If you want to test the component then that this property to true. Then you will
 |boolean|None|
 
 Returns the current personalized consent. If true user has consent to personalized ads.
-
-## Methods
-
-### Load Ad
-
-
-
-[[Method('AdMob Interstitial', 'Load Ad', false)]]
-
-Load a new AdMob Interstitial ad.
-
-### RevokeConsent
-
-
-
-[[Method('AdMob Interstitial', 'RevokeConsent', false)]]
-
-Deletes the user's consent. Useful if you want to test the consent dialog in development.
-
-### ShowInterstitialAd
-
-
-
-[[Method('AdMob Interstitial', 'ShowInterstitialAd', false)]]
-
-It will show the Interstitial Ad

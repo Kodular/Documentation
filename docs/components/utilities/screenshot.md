@@ -10,6 +10,28 @@
 
 _A non-visible component that takes a screenshot of the content currently visible on the device''s screen._
 
+## Events
+
+### Got Screenshot
+
+[[Event('Screenshot', 'Got Screenshot', 'image')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |image|`text`|
+
+
+Event to detect that a screenshot was made by the user. Returns the image path to the taken screenshot.
+
+## Methods
+
+### TakeScreenshot
+
+[[Method('Screenshot', 'TakeScreenshot', false)]]
+
+Take a screenshot of the current visible screen.
+
 ## Properties
 
 ### Allow Screenshots
@@ -167,13 +189,3 @@ Returns true if the read permission is granted, else false.
 |boolean|None|
 
 Returns true if the write permission is granted, else false.
-
-## Methods
-
-### TakeScreenshot
-
-
-
-[[Method('Screenshot', 'TakeScreenshot', false)]]
-
-Take a screenshot of the current visible screen.

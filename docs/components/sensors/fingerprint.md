@@ -10,6 +10,76 @@
 
 _A non-visible component that reads fingerprints using the device''s in-built fingerprint scanner._
 
+## Events
+
+### On Authentication Error
+
+[[Event('Fingerprint', 'On Authentication Error', 'errorId message')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |error Id|`number`|
+    |message|`text`|
+
+
+Triggers when there is a Authentication Error
+
+### On Authentication Failed
+
+[[Event('Fingerprint', 'On Authentication Failed')]]
+
+Triggers when the Authentication Failed
+
+### On Authentication Help
+
+[[Event('Fingerprint', 'On Authentication Help', 'helpId message')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |help Id|`number`|
+    |message|`text`|
+
+
+Triggers when there is a Authentication Help
+
+### On Authentication Succeeded
+
+[[Event('Fingerprint', 'On Authentication Succeeded')]]
+
+Trigger when the Authentication Succeeded
+
+## Methods
+
+### Authenticate
+
+[[Method('Fingerprint', 'Authenticate', false)]]
+
+Authenticate the user with a Fingerprint scanner
+
+### CancelScan
+
+[[Method('Fingerprint', 'CancelScan', false)]]
+
+Cancel the current Fingerprint Scan
+
+### HasFingerPrintScanner
+
+[[Method('Fingerprint', 'HasFingerPrintScanner', true)]]
+
+{>>Returns `boolean`<<}
+
+True if hardware is present and functional, false otherwise
+
+### HasFingersAdded
+
+[[Method('Fingerprint', 'HasFingersAdded', true)]]
+
+{>>Returns `boolean`<<}
+
+True if at least one fingerprint is enrolled, false otherwise
+
 ## Properties
 
 ### Dialog Help Text
@@ -63,43 +133,3 @@ Sets the current theme
 |boolean|True|
 
 Whether to use a dialog
-
-## Methods
-
-### Authenticate
-
-
-
-[[Method('Fingerprint', 'Authenticate', false)]]
-
-Authenticate the user with a Fingerprint scanner
-
-### CancelScan
-
-
-
-[[Method('Fingerprint', 'CancelScan', false)]]
-
-Cancel the current Fingerprint Scan
-
-### HasFingerPrintScanner
-
-
-
-[[Method('Fingerprint', 'HasFingerPrintScanner', true)]]
-
-{>>Returns `boolean`<<}
-
-
-True if hardware is present and functional, false otherwise
-
-### HasFingersAdded
-
-
-
-[[Method('Fingerprint', 'HasFingersAdded', true)]]
-
-{>>Returns `boolean`<<}
-
-
-True if at least one fingerprint is enrolled, false otherwise

@@ -10,6 +10,48 @@
 
 _A component that provides a high-level interface to an ultrasonic sensor on a LEGO MINDSTORMS EV3 robot._
 
+## Events
+
+### Above Range
+
+[[Event('EV3 Ultrasonic Sensor', 'Above Range')]]
+
+Called when the detected distance has gone above the range.
+
+### Below Range
+
+[[Event('EV3 Ultrasonic Sensor', 'Below Range')]]
+
+Called when the detected distance has gone below the range.
+
+### Within Range
+
+[[Event('EV3 Ultrasonic Sensor', 'Within Range')]]
+
+Called when the detected distance has gone within the range.
+
+## Methods
+
+### GetDistance
+
+[[Method('EV3 Ultrasonic Sensor', 'GetDistance', true)]]
+
+{>>Returns `number`<<}
+
+Returns the current distance in centimeters as a value between 0 and 254, or -1 if the distance can not be read.
+
+### SetCmUnit
+
+[[Method('EV3 Ultrasonic Sensor', 'SetCmUnit', false)]]
+
+Measure the distance in centimeters.
+
+### SetInchUnit
+
+[[Method('EV3 Ultrasonic Sensor', 'SetInchUnit', false)]]
+
+Measure the distance in inches.
+
 ## Properties
 
 ### Above Range Event Enabled
@@ -115,32 +157,3 @@ Specifies the unit of distance.
 |boolean|False|
 
 Whether the WithinRange event should fire when the distance goes between the BottomOfRange and the TopOfRange.
-
-## Methods
-
-### GetDistance
-
-
-
-[[Method('EV3 Ultrasonic Sensor', 'GetDistance', true)]]
-
-{>>Returns `number`<<}
-
-
-Returns the current distance in centimeters as a value between 0 and 254, or -1 if the distance can not be read.
-
-### SetCmUnit
-
-
-
-[[Method('EV3 Ultrasonic Sensor', 'SetCmUnit', false)]]
-
-Measure the distance in centimeters.
-
-### SetInchUnit
-
-
-
-[[Method('EV3 Ultrasonic Sensor', 'SetInchUnit', false)]]
-
-Measure the distance in inches.

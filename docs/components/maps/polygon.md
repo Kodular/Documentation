@@ -8,6 +8,91 @@
 
 _A visible component that draws arbitrary shapes on a Map component. Vertices of a Polygon can be moved by clicking and dragging on them._
 
+## Events
+
+### Click
+
+[[Event('Polygon', 'Click')]]
+
+The user clicked on the feature.
+
+### Drag
+
+[[Event('Polygon', 'Drag')]]
+
+The user dragged the map feature.
+
+### Long Click
+
+[[Event('Polygon', 'Long Click')]]
+
+The user long-pressed on the feature. This event will only trigger if Draggable is false.
+
+### Start Drag
+
+[[Event('Polygon', 'Start Drag')]]
+
+The user started a drag operation.
+
+### Stop Drag
+
+[[Event('Polygon', 'Stop Drag')]]
+
+The user stopped a drag operation.
+
+## Methods
+
+### Centroid
+
+[[Method('Polygon', 'Centroid', true)]]
+
+{>>Returns `list`<<}
+
+Returns the centroid of the Polygon as a (latitude, longitude) pair.
+
+### DistanceToFeature
+
+[[Method('Polygon', 'DistanceToFeature', true, 'mapFeature centroids')]]
+
+{>>Returns `number`<<}
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |map Feature|`component`|
+    |centroids|`boolean`|
+
+
+Compute the distance, in meters, between two map features.
+
+### DistanceToPoint
+
+[[Method('Polygon', 'DistanceToPoint', true, 'latitude longitude centroid')]]
+
+{>>Returns `number`<<}
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |latitude|`number`|
+    |longitude|`number`|
+    |centroid|`boolean`|
+
+
+Compute the distance, in meters, between a map feature and a latitude, longitude point.
+
+### HideInfobox
+
+[[Method('Polygon', 'HideInfobox', false)]]
+
+Hide the infobox if it is shown. If the infobox is not visible this function has no effect.
+
+### ShowInfobox
+
+[[Method('Polygon', 'ShowInfobox', false)]]
+
+Show the infobox for the feature. This will show the infobox even if
+
 ## Properties
 
 ### Description
@@ -204,71 +289,3 @@ Gets or sets the sequence of points used to draw the polygon.
 |text|None|
 
 The type of the feature. For polygons, this returns the text "Polygon".
-
-## Methods
-
-### Centroid
-
-
-
-[[Method('Polygon', 'Centroid', true)]]
-
-{>>Returns `list`<<}
-
-
-Returns the centroid of the Polygon as a (latitude, longitude) pair.
-
-### DistanceToFeature
-
-
-
-[[Method('Polygon', 'DistanceToFeature', true, 'mapFeature centroids')]]
-
-{>>Returns `number`<<}
-
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|map Feature|`component`|
-|centroids|`boolean`|
-
-
-Compute the distance, in meters, between two map features.
-
-### DistanceToPoint
-
-
-
-[[Method('Polygon', 'DistanceToPoint', true, 'latitude longitude centroid')]]
-
-{>>Returns `number`<<}
-
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|latitude|`number`|
-|longitude|`number`|
-|centroid|`boolean`|
-
-
-Compute the distance, in meters, between a map feature and a latitude, longitude point.
-
-### HideInfobox
-
-
-
-[[Method('Polygon', 'HideInfobox', false)]]
-
-Hide the infobox if it is shown. If the infobox is not visible this function has no effect.
-
-### ShowInfobox
-
-
-
-[[Method('Polygon', 'ShowInfobox', false)]]
-
-Show the infobox for the feature. This will show the infobox even if

@@ -10,6 +10,42 @@
 
 _A component that provides a high-level interface to a gyro sensor on a LEGO MINDSTORMS EV3 robot._
 
+## Events
+
+### Sensor Value Changed
+
+[[Event('EV3 Gyro Sensor', 'Sensor Value Changed', 'sensorValue')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |sensor Value|`number`|
+
+
+Called then the sensor value changed.
+
+## Methods
+
+### GetSensorValue
+
+[[Method('EV3 Gyro Sensor', 'GetSensorValue', true)]]
+
+{>>Returns `number`<<}
+
+Returns the current angle or rotation speed based on current mode, or -1 if the value cannot be read from sensor.
+
+### SetAngleMode
+
+[[Method('EV3 Gyro Sensor', 'SetAngleMode', false)]]
+
+Measures the orientation of the sensor.
+
+### SetRateMode
+
+[[Method('EV3 Gyro Sensor', 'SetRateMode', false)]]
+
+Measures the angular velocity of the sensor.
+
 ## Properties
 
 ### Bluetooth Client
@@ -63,32 +99,3 @@ The sensor port that the sensor is connected to.
 |boolean|False|
 
 Whether the SensorValueChanged event should fire when the sensor value changed.
-
-## Methods
-
-### GetSensorValue
-
-
-
-[[Method('EV3 Gyro Sensor', 'GetSensorValue', true)]]
-
-{>>Returns `number`<<}
-
-
-Returns the current angle or rotation speed based on current mode, or -1 if the value cannot be read from sensor.
-
-### SetAngleMode
-
-
-
-[[Method('EV3 Gyro Sensor', 'SetAngleMode', false)]]
-
-Measures the orientation of the sensor.
-
-### SetRateMode
-
-
-
-[[Method('EV3 Gyro Sensor', 'SetRateMode', false)]]
-
-Measures the angular velocity of the sensor.

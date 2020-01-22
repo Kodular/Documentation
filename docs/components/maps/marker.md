@@ -8,6 +8,125 @@
 
 _<p>An icon positioned at a point to indicate information on a map. Markers can be used to provide an info window, custom fill and stroke colors, and custom images to convey information to the user.</p>_
 
+## Events
+
+### Click
+
+[[Event('Marker', 'Click')]]
+
+The user clicked on the feature.
+
+### Drag
+
+[[Event('Marker', 'Drag')]]
+
+The user dragged the map feature.
+
+### Long Click
+
+[[Event('Marker', 'Long Click')]]
+
+The user long-pressed on the feature. This event will only trigger if Draggable is false.
+
+### Start Drag
+
+[[Event('Marker', 'Start Drag')]]
+
+The user started a drag operation.
+
+### Stop Drag
+
+[[Event('Marker', 'Stop Drag')]]
+
+The user stopped a drag operation.
+
+## Methods
+
+### BearingToFeature
+
+[[Method('Marker', 'BearingToFeature', true, 'mapFeature centroids')]]
+
+{>>Returns `number`<<}
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |map Feature|`component`|
+    |centroids|`boolean`|
+
+
+Returns the bearing from the Marker to the given map feature, in degrees from due north. If the centroids parameter is true, the bearing will be to the center of the map feature. Otherwise, the bearing will be computed to the point in the feature nearest the Marker.
+
+### BearingToPoint
+
+[[Method('Marker', 'BearingToPoint', true, 'latitude longitude')]]
+
+{>>Returns `number`<<}
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |latitude|`number`|
+    |longitude|`number`|
+
+
+Returns the bearing from the Marker to the given latitude and longitude, in degrees from due north.
+
+### DistanceToFeature
+
+[[Method('Marker', 'DistanceToFeature', true, 'mapFeature centroids')]]
+
+{>>Returns `number`<<}
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |map Feature|`component`|
+    |centroids|`boolean`|
+
+
+Compute the distance, in meters, between two map features.
+
+### DistanceToPoint
+
+[[Method('Marker', 'DistanceToPoint', true, 'latitude longitude')]]
+
+{>>Returns `number`<<}
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |latitude|`number`|
+    |longitude|`number`|
+
+
+Compute the distance, in meters, between a map feature and a latitude, longitude point.
+
+### HideInfobox
+
+[[Method('Marker', 'HideInfobox', false)]]
+
+Hide the infobox if it is shown. If the infobox is not visible this function has no effect.
+
+### SetLocation
+
+[[Method('Marker', 'SetLocation', false, 'latitude longitude')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |latitude|`number`|
+    |longitude|`number`|
+
+
+Set the location of the marker.
+
+### ShowInfobox
+
+[[Method('Marker', 'ShowInfobox', false)]]
+
+Show the infobox for the feature. This will show the infobox even if
+
 ## Properties
 
 ### Anchor Horizontal
@@ -282,113 +401,3 @@ _No description available_
 |number|None|
 
 _No description available_
-
-## Methods
-
-### BearingToFeature
-
-
-
-[[Method('Marker', 'BearingToFeature', true, 'mapFeature centroids')]]
-
-{>>Returns `number`<<}
-
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|map Feature|`component`|
-|centroids|`boolean`|
-
-
-Returns the bearing from the Marker to the given map feature, in degrees from due north. If the centroids parameter is true, the bearing will be to the center of the map feature. Otherwise, the bearing will be computed to the point in the feature nearest the Marker.
-
-### BearingToPoint
-
-
-
-[[Method('Marker', 'BearingToPoint', true, 'latitude longitude')]]
-
-{>>Returns `number`<<}
-
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|latitude|`number`|
-|longitude|`number`|
-
-
-Returns the bearing from the Marker to the given latitude and longitude, in degrees from due north.
-
-### DistanceToFeature
-
-
-
-[[Method('Marker', 'DistanceToFeature', true, 'mapFeature centroids')]]
-
-{>>Returns `number`<<}
-
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|map Feature|`component`|
-|centroids|`boolean`|
-
-
-Compute the distance, in meters, between two map features.
-
-### DistanceToPoint
-
-
-
-[[Method('Marker', 'DistanceToPoint', true, 'latitude longitude')]]
-
-{>>Returns `number`<<}
-
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|latitude|`number`|
-|longitude|`number`|
-
-
-Compute the distance, in meters, between a map feature and a latitude, longitude point.
-
-### HideInfobox
-
-
-
-[[Method('Marker', 'HideInfobox', false)]]
-
-Hide the infobox if it is shown. If the infobox is not visible this function has no effect.
-
-### SetLocation
-
-
-
-[[Method('Marker', 'SetLocation', false, 'latitude longitude')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|latitude|`number`|
-|longitude|`number`|
-
-
-Set the location of the marker.
-
-### ShowInfobox
-
-
-
-[[Method('Marker', 'ShowInfobox', false)]]
-
-Show the infobox for the feature. This will show the infobox even if

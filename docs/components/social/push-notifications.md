@@ -10,6 +10,140 @@
 
 _A non-visible component that remotely sends notifications to the device.<br>Powered by OneSignal._
 
+## Events
+
+### Got Available Tags
+
+[[Event('Push Notifications', 'Got Available Tags', 'tagsAsString tagsAsList')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |tags As String|`text`|
+    |tags As List|`list`|
+
+
+Event to detect available one signal tags.
+
+### Got Value
+
+[[Event('Push Notifications', 'Got Value', 'tag value')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |tag|`text`|
+    |value|`text`|
+
+
+Event to receive value for a tag.
+
+### Notification Opened
+
+[[Event('Push Notifications', 'Notification Opened', 'id title message')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |id|`text`|
+    |title|`text`|
+    |message|`text`|
+
+
+User opened a notification.
+
+### Notification Received
+
+[[Event('Push Notifications', 'Notification Received', 'id title message')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |id|`text`|
+    |title|`text`|
+    |message|`text`|
+
+
+User received a notification.
+
+### Send Message Done
+
+[[Event('Push Notifications', 'Send Message Done', 'success')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |success|`boolean`|
+
+
+Returns true if your message was send with success out of your app to all users.
+
+## Methods
+
+### ClearAllNotifications
+
+[[Method('Push Notifications', 'ClearAllNotifications', false)]]
+
+Clear All Notifications.
+
+### DeleteTag
+
+[[Method('Push Notifications', 'DeleteTag', false, 'key')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |key|`text`|
+
+
+Deletes a single tag that was previously set on a user.
+
+### GetAvailableTags
+
+[[Method('Push Notifications', 'GetAvailableTags', false)]]
+
+Get a list of available tags.
+
+### GetValue
+
+[[Method('Push Notifications', 'GetValue', false, 'tag valueIfTagNotThere')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |tag|`text`|
+    |value If Tag Not There|`text`|
+
+
+Get value for tag.
+
+### SendMessage
+
+[[Method('Push Notifications', 'SendMessage', false, 'title message restApiKey')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |title|`text`|
+    |message|`text`|
+    |rest API Key|`text`|
+
+
+Send a message to all users. The message and your REST Api Key can not be empty! You will find your REST Api Key in your OneSignal account settings.
+
+### SendTag
+
+[[Method('Push Notifications', 'SendTag', false, 'key value')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |key|`text`|
+    |value|`text`|
+
+
+Tag a user based on an app event of your choosing so later you can create segments in to target these users.
+
 ## Properties
 
 ### OneSignal App ID
@@ -141,85 +275,3 @@ Get the User ID. If there is no user id it will return '-1'.
 |boolean|None|
 
 If you want to subscribe then set it to true.
-
-## Methods
-
-### ClearAllNotifications
-
-
-
-[[Method('Push Notifications', 'ClearAllNotifications', false)]]
-
-Clear All Notifications.
-
-### DeleteTag
-
-
-
-[[Method('Push Notifications', 'DeleteTag', false, 'key')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|key|`text`|
-
-
-Deletes a single tag that was previously set on a user.
-
-### GetAvailableTags
-
-
-
-[[Method('Push Notifications', 'GetAvailableTags', false)]]
-
-Get a list of available tags.
-
-### GetValue
-
-
-
-[[Method('Push Notifications', 'GetValue', false, 'tag valueIfTagNotThere')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|tag|`text`|
-|value If Tag Not There|`text`|
-
-
-Get value for tag.
-
-### SendMessage
-
-
-
-[[Method('Push Notifications', 'SendMessage', false, 'title message restApiKey')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|title|`text`|
-|message|`text`|
-|rest API Key|`text`|
-
-
-Send a message to all users. The message and your REST Api Key can not be empty! You will find your REST Api Key in your OneSignal account settings.
-
-### SendTag
-
-
-
-[[Method('Push Notifications', 'SendTag', false, 'key value')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|key|`text`|
-|value|`text`|
-
-
-Tag a user based on an app event of your choosing so later you can create segments in to target these users.

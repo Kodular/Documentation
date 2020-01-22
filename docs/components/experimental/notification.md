@@ -10,6 +10,80 @@
 
 _A non-visible component that sends a notification to the user''s device._
 
+## Methods
+
+### AreNotificationsEnabled
+
+[[Method('Notification', 'AreNotificationsEnabled', true)]]
+
+{>>Returns `boolean`<<}
+
+Check wether the app can send Notifications
+
+### BigPictureNotification
+
+[[Method('Notification', 'BigPictureNotification', false, 'notificationID title message bigPicture startValue removeOnClick')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |notification ID|`number`|
+    |title|`text`|
+    |message|`text`|
+    |big Picture|`text`|
+    |start Value|`text`|
+    |remove On Click|`boolean`|
+
+
+Send a normal notification
+
+### CancelAll
+
+[[Method('Notification', 'CancelAll', false)]]
+
+Cancel all Notifications
+
+### CancelNotification
+
+[[Method('Notification', 'CancelNotification', false, 'id')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |id|`number`|
+
+
+Cancel a Notification with an id
+
+### NormalNotification
+
+[[Method('Notification', 'NormalNotification', false, 'notificationID title message startValue removeOnClick')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |notification ID|`number`|
+    |title|`text`|
+    |message|`text`|
+    |start Value|`text`|
+    |remove On Click|`boolean`|
+
+
+Send a normal notification
+
+### SimpleNotification
+
+[[Method('Notification', 'SimpleNotification', false, 'title message')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |title|`text`|
+    |message|`text`|
+
+
+Send a simple notification
+
 ## Properties
 
 ### Priority
@@ -37,94 +111,3 @@ Set the priority level. 1 = "Default", 2 = "high", 3 = "low", 4 = "max", 5 = "mi
 |number|1|
 
 Set the visibility property. 1 = "public", 2 = "private", 3 = "secret".
-
-## Methods
-
-### AreNotificationsEnabled
-
-
-
-[[Method('Notification', 'AreNotificationsEnabled', true)]]
-
-{>>Returns `boolean`<<}
-
-
-Check wether the app can send Notifications
-
-### BigPictureNotification
-
-
-
-[[Method('Notification', 'BigPictureNotification', false, 'notificationID title message bigPicture startValue removeOnClick')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|notification ID|`number`|
-|title|`text`|
-|message|`text`|
-|big Picture|`text`|
-|start Value|`text`|
-|remove On Click|`boolean`|
-
-
-Send a normal notification
-
-### CancelAll
-
-
-
-[[Method('Notification', 'CancelAll', false)]]
-
-Cancel all Notifications
-
-### CancelNotification
-
-
-
-[[Method('Notification', 'CancelNotification', false, 'id')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|id|`number`|
-
-
-Cancel a Notification with an id
-
-### NormalNotification
-
-
-
-[[Method('Notification', 'NormalNotification', false, 'notificationID title message startValue removeOnClick')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|notification ID|`number`|
-|title|`text`|
-|message|`text`|
-|start Value|`text`|
-|remove On Click|`boolean`|
-
-
-Send a normal notification
-
-### SimpleNotification
-
-
-
-[[Method('Notification', 'SimpleNotification', false, 'title message')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|title|`text`|
-|message|`text`|
-
-
-Send a simple notification

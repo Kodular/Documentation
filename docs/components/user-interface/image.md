@@ -8,6 +8,28 @@
 
 _Component for displaying images.  The picture to display, and other aspects of the Image's appearance, can be specified in the Designer or in the Blocks Editor. You can also add gif images._
 
+## Events
+
+### Click
+
+[[Event('Image', 'Click')]]
+
+Event to detect that a user has done a simple "Click".
+
+### Long Click
+
+[[Event('Image', 'Long Click')]]
+
+Event to detect that a user has done a simple "Long Click".
+
+## Methods
+
+### ClearImageTintColor
+
+[[Method('Image', 'ClearImageTintColor', false)]]
+
+Clear the image tint color.
+
 ## Properties
 
 ### Clickable
@@ -193,13 +215,3 @@ Specifies the component's horizontal width, measured in pixels.
 
 Specifies the component's horizontal width as a percentage
  of the Width of its parent Component.
-
-## Methods
-
-### ClearImageTintColor
-
-
-
-[[Method('Image', 'ClearImageTintColor', false)]]
-
-Clear the image tint color.

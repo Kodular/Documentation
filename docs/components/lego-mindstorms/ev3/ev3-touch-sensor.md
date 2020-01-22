@@ -10,6 +10,30 @@
 
 _A component that provides a high-level interface to a touch sensor on a LEGO MINDSTORMS EV3 robot._
 
+## Events
+
+### Pressed
+
+[[Event('EV3 Touch Sensor', 'Pressed')]]
+
+Called when the touch sensor is pressed.
+
+### Released
+
+[[Event('EV3 Touch Sensor', 'Released')]]
+
+Called when the touch sensor is pressed.
+
+## Methods
+
+### IsPressed
+
+[[Method('EV3 Touch Sensor', 'IsPressed', true)]]
+
+{>>Returns `boolean`<<}
+
+Returns true if the touch sensor is pressed.
+
 ## Properties
 
 ### Bluetooth Client
@@ -64,16 +88,3 @@ Whether the Released event should fire when the touch sensor is released.
 |text|1|
 
 The sensor port that the sensor is connected to.
-
-## Methods
-
-### IsPressed
-
-
-
-[[Method('EV3 Touch Sensor', 'IsPressed', true)]]
-
-{>>Returns `boolean`<<}
-
-
-Returns true if the touch sensor is pressed.

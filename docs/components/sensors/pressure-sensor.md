@@ -10,6 +10,21 @@
 
 _A non-visible component that measures the ambient air pressure in units of hPa or mbar._
 
+## Events
+
+### Pressure Changed
+
+[[Event('Pressure Sensor', 'Pressure Changed', 'pressure altitude')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |pressure|`number`|
+    |altitude|`number`|
+
+
+Event is invoked when pressure is changed.
+
 ## Properties
 
 ### Enabled

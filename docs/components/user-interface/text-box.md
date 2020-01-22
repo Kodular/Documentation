@@ -8,6 +8,96 @@
 
 _<p>A box for the user to enter text.  The initial or user-entered text value is in the <code>Text</code> property.  If blank, the <code>Hint</code> property, which appears as faint text in the box, can provide the user with guidance as to what to type.</p><p>The <code>MultiLine</code> property determines if the text can havemore than one line.  For a single line text box, the keyboard will closeautomatically when the user presses the Done key.  To close the keyboard for multiline text boxes, the app should use  the HideKeyboard method or  rely on the user to press the Back key.</p><p>The <code> NumbersOnly</code> property restricts the keyboard to acceptnumeric input only.</p><p>Other properties affect the appearance of the text box (<code>TextAlignment</code>, <code>BackgroundColor</code>, etc.) and whether it can be used (<code>Enabled</code>).</p><p>Text boxes are usually used with the <code>Button</code> component, with the user clicking on the button when text entry is complete.</p><p>If the text entered by the user should not be displayed, use <code>PasswordTextBox</code> instead.</p>_
 
+## Events
+
+### Got Focus
+
+[[Event('Text Box', 'Got Focus')]]
+
+Event raised when this component is selected for input, such as by
+ the user touching it.
+
+### Lost Focus
+
+[[Event('Text Box', 'Lost Focus')]]
+
+Event raised when this component is no longer selected for input, such
+ as if the user touches a different text box.
+
+### On Text Changed
+
+[[Event('Text Box', 'On Text Changed')]]
+
+Event to detect text changes.
+
+## Methods
+
+### AnimationStyle
+
+[[Method('Text Box', 'AnimationStyle', false, 'style position size color')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |style|`text`|
+    |position|`text`|
+    |size|`number`|
+    |color|`number`|
+
+
+Allows you to set animation style. Valid (case-insensitive) values are: ChasingDots, Circle, CubeGrid, DoubleBounce, FadingCircle, FoldingCube, Pulse, RotatingCircle, RotatingPlane, ThreeBounce, WanderingCubes, Wave. If invalid style is used, animation will be removed.Position can be: top, left, right, bottom. Size can be 100.
+
+### HideKeyboard
+
+[[Method('Text Box', 'HideKeyboard', false)]]
+
+Hide the keyboard.  Only multiline text boxes need this. Single line text boxes close the keyboard when the users presses the Done key.
+
+### RequestFocus
+
+[[Method('Text Box', 'RequestFocus', false)]]
+
+Sets the textbox active.
+
+### SetCursorAt
+
+[[Method('Text Box', 'SetCursorAt', false, 'position')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |position|`number`|
+
+
+Set the cursor to the given position.
+
+### SetCursorAtEnd
+
+[[Method('Text Box', 'SetCursorAtEnd', false)]]
+
+Set the cursor to the end of the text.
+
+### SetShadow
+
+[[Method('Text Box', 'SetShadow', false, 'x y radius color')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |x|`number`|
+    |y|`number`|
+    |radius|`number`|
+    |color|`number`|
+
+
+Place a blurred shadow of text underneath the text, drawn with the specified x, y, radius, color (e.g. -11, 12, 13, black
+
+### ShowError
+
+[[Method('Text Box', 'ShowError', false)]]
+
+Shows an error message next to the textbox.
+
 ## Properties
 
 ### Background Color
@@ -427,88 +517,3 @@ Specifies the component's horizontal width, measured in pixels.
 
 Specifies the component's horizontal width as a percentage
  of the Width of its parent Component.
-
-## Methods
-
-### AnimationStyle
-
-
-
-[[Method('Text Box', 'AnimationStyle', false, 'style position size color')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|style|`text`|
-|position|`text`|
-|size|`number`|
-|color|`number`|
-
-
-Allows you to set animation style. Valid (case-insensitive) values are: ChasingDots, Circle, CubeGrid, DoubleBounce, FadingCircle, FoldingCube, Pulse, RotatingCircle, RotatingPlane, ThreeBounce, WanderingCubes, Wave. If invalid style is used, animation will be removed.Position can be: top, left, right, bottom. Size can be 100.
-
-### HideKeyboard
-
-
-
-[[Method('Text Box', 'HideKeyboard', false)]]
-
-Hide the keyboard.  Only multiline text boxes need this. Single line text boxes close the keyboard when the users presses the Done key.
-
-### RequestFocus
-
-
-
-[[Method('Text Box', 'RequestFocus', false)]]
-
-Sets the textbox active.
-
-### SetCursorAt
-
-
-
-[[Method('Text Box', 'SetCursorAt', false, 'position')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|position|`number`|
-
-
-Set the cursor to the given position.
-
-### SetCursorAtEnd
-
-
-
-[[Method('Text Box', 'SetCursorAtEnd', false)]]
-
-Set the cursor to the end of the text.
-
-### SetShadow
-
-
-
-[[Method('Text Box', 'SetShadow', false, 'x y radius color')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|x|`number`|
-|y|`number`|
-|radius|`number`|
-|color|`number`|
-
-
-Place a blurred shadow of text underneath the text, drawn with the specified x, y, radius, color (e.g. -11, 12, 13, black
-
-### ShowError
-
-
-
-[[Method('Text Box', 'ShowError', false)]]
-
-Shows an error message next to the textbox.

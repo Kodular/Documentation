@@ -10,6 +10,245 @@
 
 _A non-visible component that provides functions for HTTP GET, POST, PUT, and DELETE requests._
 
+## Events
+
+### Got File
+
+[[Event('Web', 'Got File', 'url responseCode responseType fileName')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |url|`text`|
+    |response Code|`number`|
+    |response Type|`text`|
+    |file Name|`text`|
+
+
+Event indicating that a request has finished.
+
+### Got Text
+
+[[Event('Web', 'Got Text', 'url responseCode responseType responseContent')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |url|`text`|
+    |response Code|`number`|
+    |response Type|`text`|
+    |response Content|`text`|
+
+
+Event indicating that a request has finished.
+
+### Timed Out
+
+[[Event('Web', 'Timed Out', 'url')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |url|`text`|
+
+
+Event indicating that a request has timed out.
+
+## Methods
+
+### BuildRequestData
+
+[[Method('Web', 'BuildRequestData', true, 'list')]]
+
+{>>Returns `text`<<}
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |list|`list`|
+
+
+Converts a list of two-element sublists, representing name and value pairs, to a
+ string formatted as application/x-www-form-urlencoded media type, suitable to pass to
+ PostText.
+
+### ClearCookies
+
+[[Method('Web', 'ClearCookies', false)]]
+
+Clears all cookies for this Web component.
+
+### Delete
+
+[[Method('Web', 'Delete', false)]]
+
+Performs an HTTP DELETE request using the Url property and retrieves the
+ response.<br>
+ If the SaveResponse property is true, the response will be saved in a file
+ and the GotFile event will be triggered. The ResponseFileName property
+ can be used to specify the name of the file.<br>
+ If the SaveResponse property is false, the GotText event will be
+ triggered.
+
+### Get
+
+[[Method('Web', 'Get', false)]]
+
+Performs an HTTP GET request using the Url property and retrieves the
+ response.<br>
+ If the SaveResponse property is true, the response will be saved in a file
+ and the GotFile event will be triggered. The ResponseFileName property
+ can be used to specify the name of the file.<br>
+ If the SaveResponse property is false, the GotText event will be
+ triggered.
+
+### HtmlTextDecode
+
+[[Method('Web', 'HtmlTextDecode', true, 'htmlText')]]
+
+{>>Returns `text`<<}
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |html Text|`text`|
+
+
+Decodes the given HTML text value. HTML character entities such as &amp;amp;, &amp;lt;, &amp;gt;, &amp;apos;, and &amp;quot; are changed to &amp;, &lt;, &gt;, &#39;, and &quot;. Entities such as &amp;#xhhhh, and &amp;#nnnn are changed to the appropriate characters.
+
+### JsonTextDecode
+
+[[Method('Web', 'JsonTextDecode', true, 'jsonText')]]
+
+{>>Returns `any`<<}
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |json Text|`text`|
+
+
+Decodes the given JSON encoded value to produce a corresponding AppInventor value.
+ A JSON list [x, y, z] decodes to a list (x y z),  A JSON object with name A and value B,
+ (denoted as A:B enclosed in curly braces) decodes to a list
+ ((A B)), that is, a list containing the two-element list (A B).
+
+### PostFile
+
+[[Method('Web', 'PostFile', false, 'path')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |path|`text`|
+
+
+Performs an HTTP POST request using the Url property and data from the specified file.<br>If the SaveResponse property is true, the response will be saved in a file and the GotFile event will be triggered. The ResponseFileName property can be used to specify the name of the file.<br>If the SaveResponse property is false, the GotText event will be triggered.
+
+### PostText
+
+[[Method('Web', 'PostText', false, 'text')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |text|`text`|
+
+
+Performs an HTTP POST request using the Url property and the specified text.<br>The characters of the text are encoded using UTF-8 encoding.<br>If the SaveResponse property is true, the response will be saved in a file and the GotFile event will be triggered. The responseFileName property can be used to specify the name of the file.<br>If the SaveResponse property is false, the GotText event will be triggered.
+
+### PostTextWithEncoding
+
+[[Method('Web', 'PostTextWithEncoding', false, 'text encoding')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |text|`text`|
+    |encoding|`text`|
+
+
+Performs an HTTP POST request using the Url property and the specified text.<br>The characters of the text are encoded using the given encoding.<br>If the SaveResponse property is true, the response will be saved in a file and the GotFile event will be triggered. The ResponseFileName property can be used to specify the name of the file.<br>If the SaveResponse property is false, the GotText event will be triggered.
+
+### PutFile
+
+[[Method('Web', 'PutFile', false, 'path')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |path|`text`|
+
+
+Performs an HTTP PUT request using the Url property and data from the specified file.<br>If the SaveResponse property is true, the response will be saved in a file and the GotFile event will be triggered. The ResponseFileName property can be used to specify the name of the file.<br>If the SaveResponse property is false, the GotText event will be triggered.
+
+### PutText
+
+[[Method('Web', 'PutText', false, 'text')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |text|`text`|
+
+
+Performs an HTTP PUT request using the Url property and the specified text.<br>The characters of the text are encoded using UTF-8 encoding.<br>If the SaveResponse property is true, the response will be saved in a file and the GotFile event will be triggered. The responseFileName property can be used to specify the name of the file.<br>If the SaveResponse property is false, the GotText event will be triggered.
+
+### PutTextWithEncoding
+
+[[Method('Web', 'PutTextWithEncoding', false, 'text encoding')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |text|`text`|
+    |encoding|`text`|
+
+
+Performs an HTTP PUT request using the Url property and the specified text.<br>The characters of the text are encoded using the given encoding.<br>If the SaveResponse property is true, the response will be saved in a file and the GotFile event will be triggered. The ResponseFileName property can be used to specify the name of the file.<br>If the SaveResponse property is false, the GotText event will be triggered.
+
+### UriDecode
+
+[[Method('Web', 'UriDecode', true, 'text')]]
+
+{>>Returns `text`<<}
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |text|`text`|
+
+
+Decodes the encoded text value.
+
+### UriEncode
+
+[[Method('Web', 'UriEncode', true, 'text')]]
+
+{>>Returns `text`<<}
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |text|`text`|
+
+
+Encodes the given text value so that it can be used in a URL.
+
+### XMLTextDecode
+
+[[Method('Web', 'XMLTextDecode', true, 'XmlText')]]
+
+{>>Returns `any`<<}
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |XmlText|`text`|
+
+
+Decodes the given XML string to produce a list structure.  See the App Inventor documentation on "Other topics, notes, and details" for information.
+
 ## Properties
 
 ### Allow Cookies
@@ -89,246 +328,3 @@ The URL for the web request.
 |list|None|
 
 The request headers, as a list of two-element sublists. The first element of each sublist represents the request header field name. The second element of each sublist represents the request header field values, either a single value or a list containing multiple values.
-
-## Methods
-
-### BuildRequestData
-
-
-
-[[Method('Web', 'BuildRequestData', true, 'list')]]
-
-{>>Returns `text`<<}
-
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|list|`list`|
-
-
-Converts a list of two-element sublists, representing name and value pairs, to a
- string formatted as application/x-www-form-urlencoded media type, suitable to pass to
- PostText.
-
-### ClearCookies
-
-
-
-[[Method('Web', 'ClearCookies', false)]]
-
-Clears all cookies for this Web component.
-
-### Delete
-
-
-
-[[Method('Web', 'Delete', false)]]
-
-Performs an HTTP DELETE request using the Url property and retrieves the
- response.<br>
- If the SaveResponse property is true, the response will be saved in a file
- and the GotFile event will be triggered. The ResponseFileName property
- can be used to specify the name of the file.<br>
- If the SaveResponse property is false, the GotText event will be
- triggered.
-
-### Get
-
-
-
-[[Method('Web', 'Get', false)]]
-
-Performs an HTTP GET request using the Url property and retrieves the
- response.<br>
- If the SaveResponse property is true, the response will be saved in a file
- and the GotFile event will be triggered. The ResponseFileName property
- can be used to specify the name of the file.<br>
- If the SaveResponse property is false, the GotText event will be
- triggered.
-
-### HtmlTextDecode
-
-
-
-[[Method('Web', 'HtmlTextDecode', true, 'htmlText')]]
-
-{>>Returns `text`<<}
-
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|html Text|`text`|
-
-
-Decodes the given HTML text value. HTML character entities such as &amp;amp;, &amp;lt;, &amp;gt;, &amp;apos;, and &amp;quot; are changed to &amp;, &lt;, &gt;, &#39;, and &quot;. Entities such as &amp;#xhhhh, and &amp;#nnnn are changed to the appropriate characters.
-
-### JsonTextDecode
-
-
-
-[[Method('Web', 'JsonTextDecode', true, 'jsonText')]]
-
-{>>Returns `any`<<}
-
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|json Text|`text`|
-
-
-Decodes the given JSON encoded value to produce a corresponding AppInventor value.
- A JSON list [x, y, z] decodes to a list (x y z),  A JSON object with name A and value B,
- (denoted as A:B enclosed in curly braces) decodes to a list
- ((A B)), that is, a list containing the two-element list (A B).
-
-### PostFile
-
-
-
-[[Method('Web', 'PostFile', false, 'path')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|path|`text`|
-
-
-Performs an HTTP POST request using the Url property and data from the specified file.<br>If the SaveResponse property is true, the response will be saved in a file and the GotFile event will be triggered. The ResponseFileName property can be used to specify the name of the file.<br>If the SaveResponse property is false, the GotText event will be triggered.
-
-### PostText
-
-
-
-[[Method('Web', 'PostText', false, 'text')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|text|`text`|
-
-
-Performs an HTTP POST request using the Url property and the specified text.<br>The characters of the text are encoded using UTF-8 encoding.<br>If the SaveResponse property is true, the response will be saved in a file and the GotFile event will be triggered. The responseFileName property can be used to specify the name of the file.<br>If the SaveResponse property is false, the GotText event will be triggered.
-
-### PostTextWithEncoding
-
-
-
-[[Method('Web', 'PostTextWithEncoding', false, 'text encoding')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|text|`text`|
-|encoding|`text`|
-
-
-Performs an HTTP POST request using the Url property and the specified text.<br>The characters of the text are encoded using the given encoding.<br>If the SaveResponse property is true, the response will be saved in a file and the GotFile event will be triggered. The ResponseFileName property can be used to specify the name of the file.<br>If the SaveResponse property is false, the GotText event will be triggered.
-
-### PutFile
-
-
-
-[[Method('Web', 'PutFile', false, 'path')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|path|`text`|
-
-
-Performs an HTTP PUT request using the Url property and data from the specified file.<br>If the SaveResponse property is true, the response will be saved in a file and the GotFile event will be triggered. The ResponseFileName property can be used to specify the name of the file.<br>If the SaveResponse property is false, the GotText event will be triggered.
-
-### PutText
-
-
-
-[[Method('Web', 'PutText', false, 'text')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|text|`text`|
-
-
-Performs an HTTP PUT request using the Url property and the specified text.<br>The characters of the text are encoded using UTF-8 encoding.<br>If the SaveResponse property is true, the response will be saved in a file and the GotFile event will be triggered. The responseFileName property can be used to specify the name of the file.<br>If the SaveResponse property is false, the GotText event will be triggered.
-
-### PutTextWithEncoding
-
-
-
-[[Method('Web', 'PutTextWithEncoding', false, 'text encoding')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|text|`text`|
-|encoding|`text`|
-
-
-Performs an HTTP PUT request using the Url property and the specified text.<br>The characters of the text are encoded using the given encoding.<br>If the SaveResponse property is true, the response will be saved in a file and the GotFile event will be triggered. The ResponseFileName property can be used to specify the name of the file.<br>If the SaveResponse property is false, the GotText event will be triggered.
-
-### UriDecode
-
-
-
-[[Method('Web', 'UriDecode', true, 'text')]]
-
-{>>Returns `text`<<}
-
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|text|`text`|
-
-
-Decodes the encoded text value.
-
-### UriEncode
-
-
-
-[[Method('Web', 'UriEncode', true, 'text')]]
-
-{>>Returns `text`<<}
-
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|text|`text`|
-
-
-Encodes the given text value so that it can be used in a URL.
-
-### XMLTextDecode
-
-
-
-[[Method('Web', 'XMLTextDecode', true, 'XmlText')]]
-
-{>>Returns `any`<<}
-
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|XmlText|`text`|
-
-
-Decodes the given XML string to produce a list structure.  See the App Inventor documentation on "Other topics, notes, and details" for information.

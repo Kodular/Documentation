@@ -8,6 +8,28 @@
 
 _A visible component that groups other components in a two-dimensional, scrollable grid._
 
+## Events
+
+### After Picking
+
+[[Event('Grid View', 'After Picking', 'item')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |item|`text`|
+
+
+Triggers after an item from this component has been selected
+
+## Methods
+
+### ClearGridView
+
+[[Method('Grid View', 'ClearGridView', false)]]
+
+Clears the items from the component
+
 ## Properties
 
 ### Background Color
@@ -246,13 +268,3 @@ Specifies the component's horizontal width, measured in pixels.
 
 Specifies the component's horizontal width as a percentage
  of the Width of its parent Component.
-
-## Methods
-
-### ClearGridView
-
-
-
-[[Method('Grid View', 'ClearGridView', false)]]
-
-Clears the items from the component

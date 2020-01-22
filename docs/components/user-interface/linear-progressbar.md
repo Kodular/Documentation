@@ -8,6 +8,34 @@
 
 _A visible component that indicates the progress of an operation using an animated linear bar._
 
+## Events
+
+### Progress Changed
+
+[[Event('Linear Progressbar', 'Progress Changed', 'progress')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |progress|`number`|
+
+
+Event that indicates that the progress of the progress bar has been changed. Returns the current progress value. If "Indeterminate" is set to true, then it returns "0".
+
+## Methods
+
+### IncrementProgressBy
+
+[[Method('Linear Progressbar', 'IncrementProgressBy', false, 'value')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |value|`number`|
+
+
+Increase the progress bar's progress by the specified amount.
+
 ## Properties
 
 ### Indeterminate
@@ -153,20 +181,3 @@ Specifies the component's horizontal width, measured in pixels.
 
 Specifies the component's horizontal width as a percentage
  of the Width of its parent Component.
-
-## Methods
-
-### IncrementProgressBy
-
-
-
-[[Method('Linear Progressbar', 'IncrementProgressBy', false, 'value')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|value|`number`|
-
-
-Increase the progress bar's progress by the specified amount.

@@ -10,6 +10,58 @@
 
 _A non-visible component that shows a visible layout at the bottom of the screen._
 
+## Events
+
+### Closed
+
+[[Event('Bottom Sheet', 'Closed')]]
+
+Event to detect that the dialog was closed.
+
+### Opened
+
+[[Event('Bottom Sheet', 'Opened')]]
+
+Event to detect that the dialog was opened.
+
+## Methods
+
+### HideDialog
+
+[[Method('Bottom Sheet', 'HideDialog', false)]]
+
+Hide the bottom sheet dialog.
+
+### RegisterComponentAsDialog
+
+[[Method('Bottom Sheet', 'RegisterComponentAsDialog', false, 'component')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |component|`component`|
+
+
+Register any component as example a 'button', that will be later your bottom sheet dialog.
+
+### RegisterLayoutAsDialog
+
+[[Method('Bottom Sheet', 'RegisterLayoutAsDialog', false, 'layout')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |layout|`component`|
+
+
+Register any layout as example a 'horizontal arrangement', that will be later your bottom sheet dialog.
+
+### ShowDialog
+
+[[Method('Bottom Sheet', 'ShowDialog', false)]]
+
+Show the bottom sheet dialog.
+
 ## Properties
 
 ### Dim Background
@@ -37,51 +89,3 @@ If set to true the user will see a dark background effect. Else the background h
 |boolean|True|
 
 The status bar is the topmost bar on the screen. This property reports whether the status bar is visible.
-
-## Methods
-
-### HideDialog
-
-
-
-[[Method('Bottom Sheet', 'HideDialog', false)]]
-
-Hide the bottom sheet dialog.
-
-### RegisterComponentAsDialog
-
-
-
-[[Method('Bottom Sheet', 'RegisterComponentAsDialog', false, 'component')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|component|`component`|
-
-
-Register any component as example a 'button', that will be later your bottom sheet dialog.
-
-### RegisterLayoutAsDialog
-
-
-
-[[Method('Bottom Sheet', 'RegisterLayoutAsDialog', false, 'layout')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|layout|`component`|
-
-
-Register any layout as example a 'horizontal arrangement', that will be later your bottom sheet dialog.
-
-### ShowDialog
-
-
-
-[[Method('Bottom Sheet', 'ShowDialog', false)]]
-
-Show the bottom sheet dialog.

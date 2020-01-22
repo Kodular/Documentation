@@ -8,6 +8,65 @@
 
 _A visible component that shows AdMob ads as static banners._
 
+## Events
+
+### Ad Closed
+
+[[Event('AdMob Banner', 'Ad Closed')]]
+
+Called when an ad was closed.
+
+### Ad Failed To Load
+
+[[Event('AdMob Banner', 'Ad Failed To Load', 'errorCode errorMessage')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |error Code|`number`|
+    |error Message|`text`|
+
+
+Called when an ad request failed to load. The message will display the error code and error message.
+
+### Ad Loaded
+
+[[Event('AdMob Banner', 'Ad Loaded')]]
+
+Called when an ad request was loaded.
+
+### Ad Opened
+
+[[Event('AdMob Banner', 'Ad Opened')]]
+
+Called when an ad was opened.
+
+### On Consent Changed
+
+[[Event('AdMob Banner', 'On Consent Changed', 'personalized')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |personalized|`boolean`|
+
+
+Event triggered when the consent was changed.
+
+## Methods
+
+### Load Ad
+
+[[Method('AdMob Banner', 'Load Ad', false)]]
+
+Load a new AdMob Banner ad.
+
+### RevokeConsent
+
+[[Method('AdMob Banner', 'RevokeConsent', false)]]
+
+Deletes the user's consent. Useful if you want to test the consent dialog in development.
+
 ## Properties
 
 ### Ad Enabled
@@ -139,21 +198,3 @@ Returns the current personalized consent. If true user has consent to personaliz
 |number|None|
 
 Row property getter method.
-
-## Methods
-
-### Load Ad
-
-
-
-[[Method('AdMob Banner', 'Load Ad', false)]]
-
-Load a new AdMob Banner ad.
-
-### RevokeConsent
-
-
-
-[[Method('AdMob Banner', 'RevokeConsent', false)]]
-
-Deletes the user's consent. Useful if you want to test the consent dialog in development.

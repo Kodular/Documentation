@@ -8,6 +8,20 @@
 
 _<p>A formatting element in which to place components that should be displayed one below another.  (The first child component is stored on top, the second beneath it, etc.)  If you wish to have components displayed next to one another, use <code>HorizontalArrangement</code> instead.</p><p> This version is scrollable_
 
+## Events
+
+### Click
+
+[[Event('Vertical Scroll Arrangement', 'Click')]]
+
+Click listener event.
+
+### Long Click
+
+[[Event('Vertical Scroll Arrangement', 'Long Click')]]
+
+Long click listener event.
+
 ## Properties
 
 ### Align Horizontal

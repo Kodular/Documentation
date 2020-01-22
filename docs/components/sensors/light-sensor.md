@@ -10,6 +10,20 @@
 
 _A non-visible component that gets the current illuminance level around the device in units of lux._
 
+## Events
+
+### Light Changed
+
+[[Event('Light Sensor', 'Light Changed', 'illuminance')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |illuminance|`number`|
+
+
+Event that fires when the illuminance is changed
+
 ## Properties
 
 ### Enabled

@@ -8,6 +8,99 @@
 
 _A visible component that displays a list of elements consisting of an image and two labels._
 
+## Events
+
+### Click
+
+[[Event('List View Image and Text', 'Click', 'position title subtitle image')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |position|`number`|
+    |title|`text`|
+    |subtitle|`text`|
+    |image|`text`|
+
+
+Triggers when the user clicks on a item in the list
+
+### Long Click
+
+[[Event('List View Image and Text', 'Long Click', 'position title subtitle image')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |position|`number`|
+    |title|`text`|
+    |subtitle|`text`|
+    |image|`text`|
+
+
+Triggers when the user long clicks on a item in the list
+
+## Methods
+
+### AddItem
+
+[[Method('List View Image and Text', 'AddItem', false, 'image title subtitle')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |image|`text`|
+    |title|`text`|
+    |subtitle|`text`|
+
+
+Add a item to the list
+
+### AddItemFromList
+
+[[Method('List View Image and Text', 'AddItemFromList', false, 'list')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |list|`list`|
+
+
+Add a item to the list
+
+### ClearList
+
+[[Method('List View Image and Text', 'ClearList', false)]]
+
+Remove all the items from the list
+
+### RemoveItem
+
+[[Method('List View Image and Text', 'RemoveItem', false, 'position')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |position|`number`|
+
+
+Remove a item from the list
+
+### UpdateItem
+
+[[Method('List View Image and Text', 'UpdateItem', false, 'position image title subtitle')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |position|`number`|
+    |image|`text`|
+    |title|`text`|
+    |subtitle|`text`|
+
+
+Update a item of the list
+
 ## Properties
 
 ### Background Color
@@ -338,78 +431,3 @@ Determines the width of the list on the view.
 
 Specifies the component's horizontal width as a percentage
  of the Width of its parent Component.
-
-## Methods
-
-### AddItem
-
-
-
-[[Method('List View Image and Text', 'AddItem', false, 'image title subtitle')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|image|`text`|
-|title|`text`|
-|subtitle|`text`|
-
-
-Add a item to the list
-
-### AddItemFromList
-
-
-
-[[Method('List View Image and Text', 'AddItemFromList', false, 'list')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|list|`list`|
-
-
-Add a item to the list
-
-### ClearList
-
-
-
-[[Method('List View Image and Text', 'ClearList', false)]]
-
-Remove all the items from the list
-
-### RemoveItem
-
-
-
-[[Method('List View Image and Text', 'RemoveItem', false, 'position')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|position|`number`|
-
-
-Remove a item from the list
-
-### UpdateItem
-
-
-
-[[Method('List View Image and Text', 'UpdateItem', false, 'position image title subtitle')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|position|`number`|
-|image|`text`|
-|title|`text`|
-|subtitle|`text`|
-
-
-Update a item of the list

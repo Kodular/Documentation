@@ -8,6 +8,52 @@
 
 _A Label displays a piece of text, which is specified through the <code>Text</code> property.  Other properties, all of which can be set in the Designer or Blocks Editor, control the appearance and placement of the text._
 
+## Events
+
+### Click
+
+[[Event('Label', 'Click')]]
+
+Event to detect that a user has done a simple "Click".
+
+### Long Click
+
+[[Event('Label', 'Long Click')]]
+
+Event to detect that a user has done a simple "Long Click".
+
+## Methods
+
+### AnimationStyle
+
+[[Method('Label', 'AnimationStyle', false, 'style position size color')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |style|`text`|
+    |position|`text`|
+    |size|`number`|
+    |color|`number`|
+
+
+Allows you to set animation style. Valid (case-insensitive) values are: ChasingDots, Circle, CubeGrid, DoubleBounce, FadingCircle, FoldingCube, Pulse, RotatingCircle, RotatingPlane, ThreeBounce, WanderingCubes, Wave. If invalid style is used, animation will be removed.Position can be: top, left, right, bottom. Size can be 100.
+
+### SetShadow
+
+[[Method('Label', 'SetShadow', false, 'x y radius color')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |x|`number`|
+    |y|`number`|
+    |radius|`number`|
+    |color|`number`|
+
+
+Place a blurred shadow of text underneath the text, drawn with the specified x, y, radius, color (e.g. -11, 12, 13, black
+
 ## Properties
 
 ### Background Color
@@ -284,41 +330,3 @@ Specifies the component's horizontal width, measured in pixels.
 
 Specifies the component's horizontal width as a percentage
  of the Width of its parent Component.
-
-## Methods
-
-### AnimationStyle
-
-
-
-[[Method('Label', 'AnimationStyle', false, 'style position size color')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|style|`text`|
-|position|`text`|
-|size|`number`|
-|color|`number`|
-
-
-Allows you to set animation style. Valid (case-insensitive) values are: ChasingDots, Circle, CubeGrid, DoubleBounce, FadingCircle, FoldingCube, Pulse, RotatingCircle, RotatingPlane, ThreeBounce, WanderingCubes, Wave. If invalid style is used, animation will be removed.Position can be: top, left, right, bottom. Size can be 100.
-
-### SetShadow
-
-
-
-[[Method('Label', 'SetShadow', false, 'x y radius color')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|x|`number`|
-|y|`number`|
-|radius|`number`|
-|color|`number`|
-
-
-Place a blurred shadow of text underneath the text, drawn with the specified x, y, radius, color (e.g. -11, 12, 13, black

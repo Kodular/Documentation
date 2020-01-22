@@ -10,6 +10,67 @@
 
 _A non-visible component that manages the device''s audio settings._
 
+## Events
+
+### Error Occurred
+
+[[Event('Audio', 'Error Occurred', 'errorMessage')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |error Message|`text`|
+
+
+Event triggered when a error occurred.
+
+## Methods
+
+### IsSoundEffectsEnabled
+
+[[Method('Audio', 'IsSoundEffectsEnabled', true, 'component')]]
+
+{>>Returns `boolean`<<}
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |component|`component`|
+
+
+Returns true whether a component should have sound effects enabled for events such as clicking and touching.
+
+### RingerModeNormal
+
+[[Method('Audio', 'RingerModeNormal', false)]]
+
+Sets the ringer mode to "normal".
+
+### RingerModeSilent
+
+[[Method('Audio', 'RingerModeSilent', false)]]
+
+Sets the ringer mode to "silent".
+
+### RingerModeVibrate
+
+[[Method('Audio', 'RingerModeVibrate', false)]]
+
+Sets the ringer mode to "vibrate".
+
+### SoundEffectsEnabled
+
+[[Method('Audio', 'SoundEffectsEnabled', false, 'component enabled')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |component|`component`|
+    |enabled|`boolean`|
+
+
+Set whether a component should have sound effects enabled for events such as clicking and touching.
+
 ## Properties
 
 ### Show UI
@@ -76,63 +137,3 @@ Returns the current volume index in percent.
 |number|None|
 
 Returns the current volume index in percent.
-
-## Methods
-
-### IsSoundEffectsEnabled
-
-
-
-[[Method('Audio', 'IsSoundEffectsEnabled', true, 'component')]]
-
-{>>Returns `boolean`<<}
-
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|component|`component`|
-
-
-Returns true whether a component should have sound effects enabled for events such as clicking and touching.
-
-### RingerModeNormal
-
-
-
-[[Method('Audio', 'RingerModeNormal', false)]]
-
-Sets the ringer mode to "normal".
-
-### RingerModeSilent
-
-
-
-[[Method('Audio', 'RingerModeSilent', false)]]
-
-Sets the ringer mode to "silent".
-
-### RingerModeVibrate
-
-
-
-[[Method('Audio', 'RingerModeVibrate', false)]]
-
-Sets the ringer mode to "vibrate".
-
-### SoundEffectsEnabled
-
-
-
-[[Method('Audio', 'SoundEffectsEnabled', false, 'component enabled')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|component|`component`|
-|enabled|`boolean`|
-
-
-Set whether a component should have sound effects enabled for events such as clicking and touching.

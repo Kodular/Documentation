@@ -10,6 +10,29 @@
 
 _A non-visible component that generates a QR code from text._
 
+## Events
+
+### Got Response
+
+[[Event('QR Code', 'Got Response', 'success url')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |success|`boolean`|
+    |url|`text`|
+
+
+You will find here the success state and image url.
+
+## Methods
+
+### GenerateQrCode
+
+[[Method('QR Code', 'GenerateQrCode', false)]]
+
+Create a QR Code and the result is a link to it. Example: Set the resolution(in pixel) to 200(height and width has the same value) and text to: Hello world!. Result: QR code resolution is 200x200, text = Hello world! Your text input is encoded in the link automatically.
+
 ## Properties
 
 ### Background Color
@@ -102,13 +125,3 @@ Set the size/resolution of the qr code.
 |text|Default|
 
 This is the text that is converted as qr code.
-
-## Methods
-
-### GenerateQrCode
-
-
-
-[[Method('QR Code', 'GenerateQrCode', false)]]
-
-Create a QR Code and the result is a link to it. Example: Set the resolution(in pixel) to 200(height and width has the same value) and text to: Hello world!. Result: QR code resolution is 200x200, text = Hello world! Your text input is encoded in the link automatically.

@@ -8,6 +8,20 @@
 
 _A visible component that groups other components in a center-locked, horizontally scrolling list._
 
+## Events
+
+### After Picking
+
+[[Event('Gallery Viewer', 'After Picking', 'imageName')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |image Name|`text`|
+
+
+Triggered after an image is selected. It will also report selected image name
+
 ## Properties
 
 ### Padding

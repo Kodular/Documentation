@@ -10,6 +10,82 @@
 
 _A non-visible component that provides access to the system''s wallpaper settings._
 
+## Events
+
+### Got Wallpaper
+
+[[Event('Wallpaper', 'Got Wallpaper', 'picture')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |picture|`text`|
+
+
+Event to detect that the component got the current system wallpaper.
+
+### Wallpaper Changed
+
+[[Event('Wallpaper', 'Wallpaper Changed', 'success')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |success|`boolean`|
+
+
+Event to detect that the user has changed the wallpaper. This event will be invoked by the "Set Wallpaper" function.
+
+### Wallpaper Cleared
+
+[[Event('Wallpaper', 'Wallpaper Cleared')]]
+
+Event to detect that the user has cleared/deleted the wallpaper.
+
+## Methods
+
+### Clear
+
+[[Method('Wallpaper', 'Clear', false)]]
+
+Remove any currently set system wallpaper, reverting to the system's built-in wallpaper.
+
+### ClearWallpaper
+
+[[Method('Wallpaper', 'ClearWallpaper', false)]]
+
+Reset all wallpaper to the factory default. This block works only on devices with Android 9+.
+
+### GetWallpaper
+
+[[Method('Wallpaper', 'GetWallpaper', false)]]
+
+Retrieve the current system wallpaper; if no wallpaper is set, the system built-in static wallpaper is returned.
+
+### SetLockScreenWallpaper
+
+[[Method('Wallpaper', 'SetLockScreenWallpaper', false, 'image')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |image|`text`|
+
+
+Change the current lock screen wallpaper. This block works only on devices with Android 7+.
+
+### SetWallpaper
+
+[[Method('Wallpaper', 'SetWallpaper', false, 'image')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |image|`text`|
+
+
+Change the current system wallpaper.
+
 ## Properties
 
 ### Save Wallpaper As
@@ -76,59 +152,3 @@ Returns whether the calling package is allowed to set the wallpaper for the call
 |boolean|None|
 
 Returns whether wallpapers are supported for the calling user. This block works only on devices with Android 6+.
-
-## Methods
-
-### Clear
-
-
-
-[[Method('Wallpaper', 'Clear', false)]]
-
-Remove any currently set system wallpaper, reverting to the system's built-in wallpaper.
-
-### ClearWallpaper
-
-
-
-[[Method('Wallpaper', 'ClearWallpaper', false)]]
-
-Reset all wallpaper to the factory default. This block works only on devices with Android 9+.
-
-### GetWallpaper
-
-
-
-[[Method('Wallpaper', 'GetWallpaper', false)]]
-
-Retrieve the current system wallpaper; if no wallpaper is set, the system built-in static wallpaper is returned.
-
-### SetLockScreenWallpaper
-
-
-
-[[Method('Wallpaper', 'SetLockScreenWallpaper', false, 'image')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|image|`text`|
-
-
-Change the current lock screen wallpaper. This block works only on devices with Android 7+.
-
-### SetWallpaper
-
-
-
-[[Method('Wallpaper', 'SetWallpaper', false, 'image')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|image|`text`|
-
-
-Change the current system wallpaper.

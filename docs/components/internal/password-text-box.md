@@ -8,6 +8,84 @@
 
 _<p>A box for entering passwords.  This is the same as the ordinary <code>TextBox</code> component except this does not display the characters typed by the user.</p><p>The value of the text in the box can be found or set through the <code>Text</code> property. If blank, the <code>Hint</code> property, which appears as faint text in the box, can provide the user with guidance as to what to type.</p> <p>Text boxes are usually used with the <code>Button</code> component, with the user clicking on the button when text entry is complete.</p>_
 
+## Events
+
+### Got Focus
+
+[[Event('Password Text Box', 'Got Focus')]]
+
+Event raised when this component is selected for input, such as by
+ the user touching it.
+
+### Lost Focus
+
+[[Event('Password Text Box', 'Lost Focus')]]
+
+Event raised when this component is no longer selected for input, such
+ as if the user touches a different text box.
+
+### On Text Changed
+
+[[Event('Password Text Box', 'On Text Changed')]]
+
+Event to detect text changes.
+
+## Methods
+
+### AnimationStyle
+
+[[Method('Password Text Box', 'AnimationStyle', false, 'style position size color')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |style|`text`|
+    |position|`text`|
+    |size|`number`|
+    |color|`number`|
+
+
+Allows you to set animation style. Valid (case-insensitive) values are: ChasingDots, Circle, CubeGrid, DoubleBounce, FadingCircle, FoldingCube, Pulse, RotatingCircle, RotatingPlane, ThreeBounce, WanderingCubes, Wave. If invalid style is used, animation will be removed.Position can be: top, left, right, bottom. Size can be 100.
+
+### RequestFocus
+
+[[Method('Password Text Box', 'RequestFocus', false)]]
+
+Sets the textbox active.
+
+### SetCursorAt
+
+[[Method('Password Text Box', 'SetCursorAt', false, 'position')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |position|`number`|
+
+
+Set the cursor to the given position.
+
+### SetCursorAtEnd
+
+[[Method('Password Text Box', 'SetCursorAtEnd', false)]]
+
+Set the cursor to the end of the text.
+
+### SetShadow
+
+[[Method('Password Text Box', 'SetShadow', false, 'x y radius color')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |x|`number`|
+    |y|`number`|
+    |radius|`number`|
+    |color|`number`|
+
+
+Place a blurred shadow of text underneath the text, drawn with the specified x, y, radius, color (e.g. -11, 12, 13, black
+
 ## Properties
 
 ### Background Color
@@ -349,72 +427,3 @@ Specifies the component's horizontal width, measured in pixels.
 
 Specifies the component's horizontal width as a percentage
  of the Width of its parent Component.
-
-## Methods
-
-### AnimationStyle
-
-
-
-[[Method('Password Text Box', 'AnimationStyle', false, 'style position size color')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|style|`text`|
-|position|`text`|
-|size|`number`|
-|color|`number`|
-
-
-Allows you to set animation style. Valid (case-insensitive) values are: ChasingDots, Circle, CubeGrid, DoubleBounce, FadingCircle, FoldingCube, Pulse, RotatingCircle, RotatingPlane, ThreeBounce, WanderingCubes, Wave. If invalid style is used, animation will be removed.Position can be: top, left, right, bottom. Size can be 100.
-
-### RequestFocus
-
-
-
-[[Method('Password Text Box', 'RequestFocus', false)]]
-
-Sets the textbox active.
-
-### SetCursorAt
-
-
-
-[[Method('Password Text Box', 'SetCursorAt', false, 'position')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|position|`number`|
-
-
-Set the cursor to the given position.
-
-### SetCursorAtEnd
-
-
-
-[[Method('Password Text Box', 'SetCursorAtEnd', false)]]
-
-Set the cursor to the end of the text.
-
-### SetShadow
-
-
-
-[[Method('Password Text Box', 'SetShadow', false, 'x y radius color')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|x|`number`|
-|y|`number`|
-|radius|`number`|
-|color|`number`|
-
-
-Place a blurred shadow of text underneath the text, drawn with the specified x, y, radius, color (e.g. -11, 12, 13, black

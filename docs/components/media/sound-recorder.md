@@ -10,6 +10,52 @@
 
 _A non-visible component that records audio from the device''s microphone._
 
+## Events
+
+### After Sound Recorded
+
+[[Event('Sound Recorder', 'After Sound Recorded', 'sound')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |sound|`text`|
+
+
+Provides the location of the newly created sound.
+
+### Started Recording
+
+[[Event('Sound Recorder', 'Started Recording')]]
+
+Indicates that the recorder has started, and can be stopped.
+
+### Stopped Recording
+
+[[Event('Sound Recorder', 'Stopped Recording')]]
+
+Indicates that the recorder has stopped, and can be started again.
+
+## Methods
+
+### Pause
+
+[[Method('Sound Recorder', 'Pause', false)]]
+
+Pause recording.
+
+### Start
+
+[[Method('Sound Recorder', 'Start', false)]]
+
+Starts recording.
+
+### Stop
+
+[[Method('Sound Recorder', 'Stop', false)]]
+
+Stops recording.
+
 ## Properties
 
 ### Saved Recording
@@ -24,29 +70,3 @@ _A non-visible component that records audio from the device''s microphone._
 |text|/mnt/sdcard/Makeroid/mySound.3gp|
 
 Specifies the path to the file where the recording should be stored. If this property is the empty string, then starting a recording will create a file in an appropriate location.  If the property is not the empty string, it should specify a complete path to a file in an existing directory, including a file name with the extension .3gp.
-
-## Methods
-
-### Pause
-
-
-
-[[Method('Sound Recorder', 'Pause', false)]]
-
-Pause recording.
-
-### Start
-
-
-
-[[Method('Sound Recorder', 'Start', false)]]
-
-Starts recording.
-
-### Stop
-
-
-
-[[Method('Sound Recorder', 'Stop', false)]]
-
-Stops recording.

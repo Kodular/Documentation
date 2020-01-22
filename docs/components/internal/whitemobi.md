@@ -10,6 +10,28 @@
 
 _The WhiteMobi component allows you to show WhiteMobi offerwalls in your app. Get an API key at http\://whitemobi.com/_
 
+## Events
+
+### Offer Completed
+
+[[Event('WhiteMobi', 'Offer Completed', 'amount')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |amount|`number`|
+
+
+Event triggered when an offer has been completed
+
+## Methods
+
+### ShowOfferWall
+
+[[Method('WhiteMobi', 'ShowOfferWall', false)]]
+
+Show WhiteMobi offerwall
+
 ## Properties
 
 ### Application Key
@@ -24,13 +46,3 @@ _The WhiteMobi component allows you to show WhiteMobi offerwalls in your app. Ge
 |text|
 
 Return the application key.
-
-## Methods
-
-### ShowOfferWall
-
-
-
-[[Method('WhiteMobi', 'ShowOfferWall', false)]]
-
-Show WhiteMobi offerwall

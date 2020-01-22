@@ -10,6 +10,46 @@
 
 _A non-visible component that shows Facebook ads as full-screen advertisements._
 
+## Events
+
+### Ad Closed
+
+[[Event('Facebook Interstitial', 'Ad Closed')]]
+
+Called when the user is about to return to the application after clicking on an ad
+
+### Ad Loaded
+
+[[Event('Facebook Interstitial', 'Ad Loaded')]]
+
+Called when an ad is received
+
+### Error
+
+[[Event('Facebook Interstitial', 'Error', 'error')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |error|`text`|
+
+
+Called when an ad request failed. message will display the reason for why the ad failed
+
+## Methods
+
+### Load Ad
+
+[[Method('Facebook Interstitial', 'Load Ad', false)]]
+
+Loads a new ad.
+
+### ShowAd
+
+[[Method('Facebook Interstitial', 'ShowAd', false)]]
+
+Shows an ad to the user.
+
 ## Properties
 
 ### Interstitial Commission
@@ -37,21 +77,3 @@ Sets the ad network used to take the commission.
 |text|
 
 _No description available_
-
-## Methods
-
-### Load Ad
-
-
-
-[[Method('Facebook Interstitial', 'Load Ad', false)]]
-
-Loads a new ad.
-
-### ShowAd
-
-
-
-[[Method('Facebook Interstitial', 'ShowAd', false)]]
-
-Shows an ad to the user.

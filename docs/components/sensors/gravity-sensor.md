@@ -10,6 +10,22 @@
 
 _A non-visible component that measures the force of gravity that is applied to a device on all three physical axes.<br>Note\: All readings are in SI units._
 
+## Events
+
+### Gravity Changed
+
+[[Event('Gravity Sensor', 'Gravity Changed', 'xAccel yAccel zAccel')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |x Accel|`number`|
+    |y Accel|`number`|
+    |z Accel|`number`|
+
+
+Indicates that the gravity sensor data has changed.
+
 ## Properties
 
 ### Enabled

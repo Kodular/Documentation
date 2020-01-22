@@ -10,6 +10,23 @@
 
 _<p>Non-visible component that can measure angular velocity in three dimensions in units of degrees per second.</p><p>In order to function, the component must have its <code>Enabled</code> property set to True, and the device must have a gyroscope sensor.</p>_
 
+## Events
+
+### Gyroscope Changed
+
+[[Event('Gyroscope Sensor', 'Gyroscope Changed', 'xAngularVelocity yAngularVelocity zAngularVelocity timestamp')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |x Angular Velocity|`number`|
+    |y Angular Velocity|`number`|
+    |z Angular Velocity|`number`|
+    |timestamp|`number`|
+
+
+Indicates that the gyroscope sensor data has changed. The timestamp parameter is the time in nanoseconds at which the event occurred.
+
 ## Properties
 
 ### Enabled

@@ -10,6 +10,69 @@
 
 _A non-visible component that reads text from images using Optical Character Recognition technology._
 
+## Events
+
+### Got Response
+
+[[Event('OCR', 'Got Response', 'success responseContent')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |success|`boolean`|
+    |response Content|`text`|
+
+
+You will find here the success state and the response content.
+
+### Got Server Status
+
+[[Event('OCR', 'Got Server Status', 'free proUsa1 proUsa2 proEurope proAsia')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |free|`text`|
+    |pro USA 1|`text`|
+    |pro USA 2|`text`|
+    |pro Europe|`text`|
+    |pro Asia|`text`|
+
+
+You will find here the server status from the ocr provider. Possible results are 'UP' or 'DOWN'. 'pro Usa1' = Usa, East Coast. 'pro Usa2' = Usa, West Coast.
+
+## Methods
+
+### GetOcrServerStatus
+
+[[Method('OCR', 'GetOcrServerStatus', false)]]
+
+Get the server status from the free ocr.space server. This is helpful if you want to know if the server is online or offline. Returns true when online, else false when offline.
+
+### GetTextFromImageUrl
+
+[[Method('OCR', 'GetTextFromImageUrl', false, 'imageUrl')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |image URL|`text`|
+
+
+Get the text from a picture via the image url. Example: http://name/yourimage.jpg. Service powered by ocr.space.
+
+### UploadImage
+
+[[Method('OCR', 'UploadImage', false, 'path')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |path|`text`|
+
+
+Upload your image to the server from ocr.space and then you get back the text from the picture.
+
 ## Properties
 
 ### API Key
@@ -102,43 +165,3 @@ Set this block before you upload a image and before you try to get the response 
 |text|None|
 
 You can use the test image url if you have not any picture online on a server or else.
-
-## Methods
-
-### GetOcrServerStatus
-
-
-
-[[Method('OCR', 'GetOcrServerStatus', false)]]
-
-Get the server status from the free ocr.space server. This is helpful if you want to know if the server is online or offline. Returns true when online, else false when offline.
-
-### GetTextFromImageUrl
-
-
-
-[[Method('OCR', 'GetTextFromImageUrl', false, 'imageUrl')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|image URL|`text`|
-
-
-Get the text from a picture via the image url. Example: http://name/yourimage.jpg. Service powered by ocr.space.
-
-### UploadImage
-
-
-
-[[Method('OCR', 'UploadImage', false, 'path')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|path|`text`|
-
-
-Upload your image to the server from ocr.space and then you get back the text from the picture.

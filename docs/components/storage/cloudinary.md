@@ -10,6 +10,35 @@
 
 _A non-visible component that allows for uploading of images, videos, audios and many other file types to Cloudinary._
 
+## Events
+
+### Media Uploaded
+
+[[Event('Cloudinary', 'Media Uploaded', 'responseContent url')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |response Content|`text`|
+    |url|`text`|
+
+
+Event raised after the Upload Media block has been used
+
+## Methods
+
+### UploadMedia
+
+[[Method('Cloudinary', 'UploadMedia', false, 'path')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |path|`text`|
+
+
+Uploads the specified media file to your Cloudinary media library.
+
 ## Properties
 
 ### API Key
@@ -50,20 +79,3 @@ Your Cloudinary API secret.
 |text|
 
 Your Cloudinary cloud name.
-
-## Methods
-
-### UploadMedia
-
-
-
-[[Method('Cloudinary', 'UploadMedia', false, 'path')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|path|`text`|
-
-
-Uploads the specified media file to your Cloudinary media library.

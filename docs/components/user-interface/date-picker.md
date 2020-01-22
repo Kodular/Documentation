@@ -8,6 +8,157 @@
 
 _<p>A button that, when clicked on, launches a popup dialog to allow the user to select a date.</p>_
 
+## Events
+
+### After Date Set
+
+[[Event('Date Picker', 'After Date Set')]]
+
+Event that runs after the user chooses a Date in the dialog
+
+### Got Focus
+
+[[Event('Date Picker', 'Got Focus')]]
+
+Indicates the cursor moved over the button so it is now possible to click it.
+
+### Lost Focus
+
+[[Event('Date Picker', 'Lost Focus')]]
+
+Indicates the cursor moved away from the button so it is now no longer possible to click it.
+
+### Touch Down
+
+[[Event('Date Picker', 'Touch Down')]]
+
+Indicates that the button was pressed down.
+
+### Touch Up
+
+[[Event('Date Picker', 'Touch Up')]]
+
+Indicates that a button has been released.
+
+## Methods
+
+### AnimationStyle
+
+[[Method('Date Picker', 'AnimationStyle', false, 'style position size color')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |style|`text`|
+    |position|`text`|
+    |size|`number`|
+    |color|`number`|
+
+
+Allows you to set animation style. Valid (case-insensitive) values are: ChasingDots, Circle, CubeGrid, DoubleBounce, FadingCircle, FoldingCube, Pulse, RotatingCircle, RotatingPlane, ThreeBounce, WanderingCubes, Wave. If invalid style is used, animation will be removed.Position can be: top, left, right, bottom. Size can be 100.
+
+### ButtonClick
+
+[[Method('Date Picker', 'ButtonClick', false)]]
+
+Perform a button click as function.
+
+### LaunchPicker
+
+[[Method('Date Picker', 'LaunchPicker', false)]]
+
+Launches the DatePicker popup.
+
+### SetDateToDisplay
+
+[[Method('Date Picker', 'SetDateToDisplay', false, 'year month day')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |year|`number`|
+    |month|`number`|
+    |day|`number`|
+
+
+Allows the user to set the date to be displayed when the date picker opens.
+Valid values for the month field are 1-12 and 1-31 for the day field.
+
+### SetDateToDisplayFromInstant
+
+[[Method('Date Picker', 'SetDateToDisplayFromInstant', false, 'instant')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |instant|`InstantInTime`|
+
+
+Allows the user to set the date from the instant to be displayed when the date picker opens.
+
+### SetShadow
+
+[[Method('Date Picker', 'SetShadow', false, 'x y radius color')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |x|`number`|
+    |y|`number`|
+    |radius|`number`|
+    |color|`number`|
+
+
+Place a blurred shadow of text underneath the text, drawn with the specified x, y, radius, color (e.g. -11, 12, 13, black.
+
+### WithIconFromFontAwesome
+
+[[Method('Date Picker', 'WithIconFromFontAwesome', false, 'position iconName iconColor padding size')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |position|`text`|
+    |icon Name|`text`|
+    |icon Color|`number`|
+    |padding|`number`|
+    |size|`number`|
+
+
+Show an image on the given position near to the button. You can use following words for the position: 'Left', 'Right', 'Top' or 'Bottom'. Use the padding to add space between the icon and text. Use a material icon as the button icon without uploading a image resource into your project. You can find the icon name (or code) here at https://fontawesome.com/cheatsheet Use as example for a heart icon just 'f004'.
+
+### WithIconFromMaterialFont
+
+[[Method('Date Picker', 'WithIconFromMaterialFont', false, 'position iconName iconColor padding size')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |position|`text`|
+    |icon Name|`text`|
+    |icon Color|`number`|
+    |padding|`number`|
+    |size|`number`|
+
+
+Show an image on the given position near to the button. You can use following words for the position: 'Left', 'Right', 'Top' or 'Bottom'. Use the padding to add space between the icon and text. Use a material icon as the button icon without uploading a image resource into your project. You can find the icon name (or code) here at https://material.io/icons
+
+### WithIconFromPicture
+
+[[Method('Date Picker', 'WithIconFromPicture', false, 'position picture padding width height')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |position|`text`|
+    |picture|`text`|
+    |padding|`number`|
+    |width|`number`|
+    |height|`number`|
+
+
+Show an image on the given position near to the button. You can use following words for the position: 'Left', 'Right', 'Top' or 'Bottom'. Use the padding to add space between the icon and text.
+
 ## Properties
 
 ### Background Color
@@ -388,147 +539,3 @@ Specifies the component's horizontal width as a percentage
 |number|None|
 
 the Year that was last picked using the DatePicker
-
-## Methods
-
-### AnimationStyle
-
-
-
-[[Method('Date Picker', 'AnimationStyle', false, 'style position size color')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|style|`text`|
-|position|`text`|
-|size|`number`|
-|color|`number`|
-
-
-Allows you to set animation style. Valid (case-insensitive) values are: ChasingDots, Circle, CubeGrid, DoubleBounce, FadingCircle, FoldingCube, Pulse, RotatingCircle, RotatingPlane, ThreeBounce, WanderingCubes, Wave. If invalid style is used, animation will be removed.Position can be: top, left, right, bottom. Size can be 100.
-
-### ButtonClick
-
-
-
-[[Method('Date Picker', 'ButtonClick', false)]]
-
-Perform a button click as function.
-
-### LaunchPicker
-
-
-
-[[Method('Date Picker', 'LaunchPicker', false)]]
-
-Launches the DatePicker popup.
-
-### SetDateToDisplay
-
-
-
-[[Method('Date Picker', 'SetDateToDisplay', false, 'year month day')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|year|`number`|
-|month|`number`|
-|day|`number`|
-
-
-Allows the user to set the date to be displayed when the date picker opens.
-Valid values for the month field are 1-12 and 1-31 for the day field.
-
-### SetDateToDisplayFromInstant
-
-
-
-[[Method('Date Picker', 'SetDateToDisplayFromInstant', false, 'instant')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|instant|`InstantInTime`|
-
-
-Allows the user to set the date from the instant to be displayed when the date picker opens.
-
-### SetShadow
-
-
-
-[[Method('Date Picker', 'SetShadow', false, 'x y radius color')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|x|`number`|
-|y|`number`|
-|radius|`number`|
-|color|`number`|
-
-
-Place a blurred shadow of text underneath the text, drawn with the specified x, y, radius, color (e.g. -11, 12, 13, black.
-
-### WithIconFromFontAwesome
-
-
-
-[[Method('Date Picker', 'WithIconFromFontAwesome', false, 'position iconName iconColor padding size')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|position|`text`|
-|icon Name|`text`|
-|icon Color|`number`|
-|padding|`number`|
-|size|`number`|
-
-
-Show an image on the given position near to the button. You can use following words for the position: 'Left', 'Right', 'Top' or 'Bottom'. Use the padding to add space between the icon and text. Use a material icon as the button icon without uploading a image resource into your project. You can find the icon name (or code) here at https://fontawesome.com/cheatsheet Use as example for a heart icon just 'f004'.
-
-### WithIconFromMaterialFont
-
-
-
-[[Method('Date Picker', 'WithIconFromMaterialFont', false, 'position iconName iconColor padding size')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|position|`text`|
-|icon Name|`text`|
-|icon Color|`number`|
-|padding|`number`|
-|size|`number`|
-
-
-Show an image on the given position near to the button. You can use following words for the position: 'Left', 'Right', 'Top' or 'Bottom'. Use the padding to add space between the icon and text. Use a material icon as the button icon without uploading a image resource into your project. You can find the icon name (or code) here at https://material.io/icons
-
-### WithIconFromPicture
-
-
-
-[[Method('Date Picker', 'WithIconFromPicture', false, 'position picture padding width height')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|position|`text`|
-|picture|`text`|
-|padding|`number`|
-|width|`number`|
-|height|`number`|
-
-
-Show an image on the given position near to the button. You can use following words for the position: 'Left', 'Right', 'Top' or 'Bottom'. Use the padding to add space between the icon and text.

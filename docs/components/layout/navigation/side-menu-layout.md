@@ -10,6 +10,66 @@
 
 _A non-visible component that creates a side menu. <br>Side menus are navigation menus that slide from the left of the screen via a swipe-right gesture._
 
+## Events
+
+### On Menu Item Click
+
+[[Event('Side Menu Layout', 'On Menu Item Click', 'title')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |title|`text`|
+
+
+Triggers when the user clicks on an item of the Navigation Menu
+
+## Methods
+
+### AddItem
+
+[[Method('Side Menu Layout', 'AddItem', false, 'title image enabled checked group')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |title|`text`|
+    |image|`text`|
+    |enabled|`boolean`|
+    |checked|`boolean`|
+    |group|`number`|
+
+
+Add an item to the Navigation Menu
+
+### RemoveItem
+
+[[Method('Side Menu Layout', 'RemoveItem', false, 'title')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |title|`text`|
+
+
+Remove an item from the Navigation Menu
+
+### UpdateItem
+
+[[Method('Side Menu Layout', 'UpdateItem', false, 'title newTitle image enabled checked')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |title|`text`|
+    |new Title|`text`|
+    |image|`text`|
+    |enabled|`boolean`|
+    |checked|`boolean`|
+
+
+Update an item of the Navigation Menu
+
 ## Properties
 
 ### Background Color
@@ -128,58 +188,3 @@ Sets the Header Title
 |number|&HFFE81E63|
 
 Sets the color of the selected element of the SideMenu
-
-## Methods
-
-### AddItem
-
-
-
-[[Method('Side Menu Layout', 'AddItem', false, 'title image enabled checked group')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|title|`text`|
-|image|`text`|
-|enabled|`boolean`|
-|checked|`boolean`|
-|group|`number`|
-
-
-Add an item to the Navigation Menu
-
-### RemoveItem
-
-
-
-[[Method('Side Menu Layout', 'RemoveItem', false, 'title')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|title|`text`|
-
-
-Remove an item from the Navigation Menu
-
-### UpdateItem
-
-
-
-[[Method('Side Menu Layout', 'UpdateItem', false, 'title newTitle image enabled checked')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|title|`text`|
-|new Title|`text`|
-|image|`text`|
-|enabled|`boolean`|
-|checked|`boolean`|
-
-
-Update an item of the Navigation Menu

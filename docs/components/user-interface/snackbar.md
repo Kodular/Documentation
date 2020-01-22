@@ -10,6 +10,73 @@
 
 _A non-visible component that displays an alert at the bottom of the screen._
 
+## Events
+
+### Click
+
+[[Event('Snackbar', 'Click')]]
+
+User clicked on the action button.
+
+### On Dismissed
+
+[[Event('Snackbar', 'On Dismissed', 'event')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |event|`text`|
+
+
+Event to detect the snackbar was dismissed. Possible results can be: "UNDEFINED", "ACTION", "CONSECUTIVE", "MANUAL", "SWIPE" or "TIMEOUT". You can find more information at: https://developer.android.com/reference/android/support/design/widget/Snackbar.Callback.html
+
+### On Shown
+
+[[Event('Snackbar', 'On Shown')]]
+
+Event to detect the snackbar is shown.
+
+## Methods
+
+### Dismiss
+
+[[Method('Snackbar', 'Dismiss', false)]]
+
+Dismiss the snackbar.
+
+### IsShown
+
+[[Method('Snackbar', 'IsShown', true)]]
+
+{>>Returns `boolean`<<}
+
+Returns true whether this snackbar is currently being shown.
+
+### Show
+
+[[Method('Snackbar', 'Show', false, 'message')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |message|`text`|
+
+
+Show Snackbar (message supports HTML formatting)
+
+### ShowWithButton
+
+[[Method('Snackbar', 'ShowWithButton', false, 'message buttonText')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |message|`text`|
+    |button Text|`text`|
+
+
+Show Snackbar with action button (message supports HTML formatting)
+
 ## Properties
 
 ### Background Color
@@ -63,55 +130,3 @@ Specifies the length of time that the Snackbar is shown
 |number|&HFFFFFFFF|
 
 _No description available_
-
-## Methods
-
-### Dismiss
-
-
-
-[[Method('Snackbar', 'Dismiss', false)]]
-
-Dismiss the snackbar.
-
-### IsShown
-
-
-
-[[Method('Snackbar', 'IsShown', true)]]
-
-{>>Returns `boolean`<<}
-
-
-Returns true whether this snackbar is currently being shown.
-
-### Show
-
-
-
-[[Method('Snackbar', 'Show', false, 'message')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|message|`text`|
-
-
-Show Snackbar (message supports HTML formatting)
-
-### ShowWithButton
-
-
-
-[[Method('Snackbar', 'ShowWithButton', false, 'message buttonText')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|message|`text`|
-|button Text|`text`|
-
-
-Show Snackbar with action button (message supports HTML formatting)

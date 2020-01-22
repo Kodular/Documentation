@@ -8,6 +8,28 @@
 
 _<p>This is a visible component that displays a list of text elements. <br> The list can be set using the ElementsFromString property or using the Elements block in the blocks editor. </p>_
 
+## Events
+
+### After Picking
+
+[[Event('List View', 'After Picking')]]
+
+Simple event to be raised after the an element has been chosen in the list. The selected element is available in the Selection property.
+
+### Long Click
+
+[[Event('List View', 'Long Click')]]
+
+Simple event to be raised after the an element has been chosen in the list via long click. The selected element is available in the Selection property.
+
+## Methods
+
+### ClearList
+
+[[Method('List View', 'ClearList', false)]]
+
+Remove all the items from the list
+
 ## Properties
 
 ### Background Color
@@ -466,13 +488,3 @@ Determines the width of the list on the view.
 
 Specifies the component's horizontal width as a percentage
  of the Width of its parent Component.
-
-## Methods
-
-### ClearList
-
-
-
-[[Method('List View', 'ClearList', false)]]
-
-Remove all the items from the list

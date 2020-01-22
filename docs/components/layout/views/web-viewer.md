@@ -8,6 +8,219 @@
 
 _Component for viewing Web pages. The Home URL can be specified in the Designer or in the Blocks Editor. The view can be set to follow links when they are tapped, and users can fill in Web forms. Warning: This is not a full browser. For example, pressing the phone's hardware Back key will exit the app, rather than move back in the browser history.<p />You can use the WebViewer.WebViewString property to communicate between your app and Javascript code running in the Webviewer page. In the app, you get and set WebViewString.  In the WebViewer, you include Javascript that references the window.Makeroid object, using the methoods <em>getWebViewString()</em> and <em>setWebViewString(text)</em>. <p />For example, if the WebViewer opens to a page that contains the Javascript command <br /><em>document.write("The answer is" + window.Makeroid.getWebViewString());</em> <br />and if you set WebView.WebVewString to "hello", then the web page will show <br /><em>The answer is hello</em>. <br />And if the Web page contains Javascript that executes the command <br /><em>window.Makeroid.setWebViewString("hello from Javascript")</em>, <br />then the value of the WebViewString property will be <br /><em>hello from Javascript</em>._
 
+## Events
+
+### After JS Evaluated
+
+[[Event('Web Viewer', 'After JS Evaluated', 'result')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |result|`text`|
+
+
+Get the result of the evaluated JS
+
+### Cookies Removed
+
+[[Event('Web Viewer', 'Cookies Removed', 'success')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |success|`boolean`|
+
+
+This event return true when the cookies have been successfully removed. If the cookies was successfully cleared then the next run returns false as status, if in this time no new cookies was set.
+
+### On Console Message
+
+[[Event('Web Viewer', 'On Console Message', 'message lineNumber sourceId')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |message|`text`|
+    |line Number|`number`|
+    |source Id|`text`|
+
+
+Get webpage console output
+
+### On Download Start
+
+[[Event('Web Viewer', 'On Download Start', 'url contentDisposition mimetype contentLength')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |url|`text`|
+    |content Disposition|`text`|
+    |mime Type|`text`|
+    |content Length|`number`|
+
+
+Event for listening download links.
+
+### Page Loaded
+
+[[Event('Web Viewer', 'Page Loaded')]]
+
+Triggers when page finished loading
+
+### Progress Changed
+
+[[Event('Web Viewer', 'Progress Changed', 'progress')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |progress|`number`|
+
+
+Event to detect that the loading progress has changed.
+
+### Web View String Change
+
+[[Event('Web Viewer', 'Web View String Change', 'value')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |value|`text`|
+
+
+When the JavaScript calls AppInventor.setWebViewString this event is run.
+
+## Methods
+
+### CanGoBack
+
+[[Method('Web Viewer', 'CanGoBack', true)]]
+
+{>>Returns `boolean`<<}
+
+Returns true if the WebViewer can go back in the history list.
+
+### CanGoBackOrForward
+
+[[Method('Web Viewer', 'CanGoBackOrForward', true, 'steps')]]
+
+{>>Returns `boolean`<<}
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |steps|`number`|
+
+
+Returns true if the WebViewer can go back or forward the number of steps in the history list.
+
+### CanGoForward
+
+[[Method('Web Viewer', 'CanGoForward', true)]]
+
+{>>Returns `boolean`<<}
+
+Returns true if the WebViewer can go forward in the history list.
+
+### ClearCaches
+
+[[Method('Web Viewer', 'ClearCaches', false)]]
+
+Clear WebView caches.
+
+### ClearCookies
+
+[[Method('Web Viewer', 'ClearCookies', false)]]
+
+Start to clear the WebView cookies.
+
+### ClearLocations
+
+[[Method('Web Viewer', 'ClearLocations', false)]]
+
+Clear stored location permissions.
+
+### EvaluateJS
+
+[[Method('Web Viewer', 'EvaluateJS', false, 'script')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |script|`text`|
+
+
+Evaluate JS in the context of the current page
+
+### GoBack
+
+[[Method('Web Viewer', 'GoBack', false)]]
+
+Go back to the previous page in the history list. Does nothing if there is no previous page.
+
+### GoBackOrForward
+
+[[Method('Web Viewer', 'GoBackOrForward', false, 'steps')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |steps|`number`|
+
+
+Go forward or backward a number of steps away from the current page. Steps is negative if backward and positive if forward.
+
+### GoForward
+
+[[Method('Web Viewer', 'GoForward', false)]]
+
+Go forward to the next page in the history list. Does nothing if there is no next page.
+
+### GoHome
+
+[[Method('Web Viewer', 'GoHome', false)]]
+
+Loads the home URL page. This happens automatically when the home URL is changed.
+
+### GoToUrl
+
+[[Method('Web Viewer', 'GoToUrl', false, 'url')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |url|`text`|
+
+
+Load the page at the given URL.
+
+### LoadHtml
+
+[[Method('Web Viewer', 'LoadHtml', false, 'html')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |html|`text`|
+
+
+Load HTML content using Base64-encoded data URI scheme
+
+### Reload
+
+[[Method('Web Viewer', 'Reload', false)]]
+
+Reloads the current page
+
+### StopLoading
+
+[[Method('Web Viewer', 'StopLoading', false)]]
+
+Stops the current load.
+
 ## Properties
 
 ### Desktop Mode
@@ -323,169 +536,3 @@ Specifies the component's horizontal width, measured in pixels.
 
 Specifies the component's horizontal width as a percentage
  of the Width of its parent Component.
-
-## Methods
-
-### CanGoBack
-
-
-
-[[Method('Web Viewer', 'CanGoBack', true)]]
-
-{>>Returns `boolean`<<}
-
-
-Returns true if the WebViewer can go back in the history list.
-
-### CanGoBackOrForward
-
-
-
-[[Method('Web Viewer', 'CanGoBackOrForward', true, 'steps')]]
-
-{>>Returns `boolean`<<}
-
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|steps|`number`|
-
-
-Returns true if the WebViewer can go back or forward the number of steps in the history list.
-
-### CanGoForward
-
-
-
-[[Method('Web Viewer', 'CanGoForward', true)]]
-
-{>>Returns `boolean`<<}
-
-
-Returns true if the WebViewer can go forward in the history list.
-
-### ClearCaches
-
-
-
-[[Method('Web Viewer', 'ClearCaches', false)]]
-
-Clear WebView caches.
-
-### ClearCookies
-
-
-
-[[Method('Web Viewer', 'ClearCookies', false)]]
-
-Start to clear the WebView cookies.
-
-### ClearLocations
-
-
-
-[[Method('Web Viewer', 'ClearLocations', false)]]
-
-Clear stored location permissions.
-
-### EvaluateJS
-
-
-
-[[Method('Web Viewer', 'EvaluateJS', false, 'script')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|script|`text`|
-
-
-Evaluate JS in the context of the current page
-
-### GoBack
-
-
-
-[[Method('Web Viewer', 'GoBack', false)]]
-
-Go back to the previous page in the history list. Does nothing if there is no previous page.
-
-### GoBackOrForward
-
-
-
-[[Method('Web Viewer', 'GoBackOrForward', false, 'steps')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|steps|`number`|
-
-
-Go forward or backward a number of steps away from the current page. Steps is negative if backward and positive if forward.
-
-### GoForward
-
-
-
-[[Method('Web Viewer', 'GoForward', false)]]
-
-Go forward to the next page in the history list. Does nothing if there is no next page.
-
-### GoHome
-
-
-
-[[Method('Web Viewer', 'GoHome', false)]]
-
-Loads the home URL page. This happens automatically when the home URL is changed.
-
-### GoToUrl
-
-
-
-[[Method('Web Viewer', 'GoToUrl', false, 'url')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|url|`text`|
-
-
-Load the page at the given URL.
-
-### LoadHtml
-
-
-
-[[Method('Web Viewer', 'LoadHtml', false, 'html')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|html|`text`|
-
-
-Load HTML content using Base64-encoded data URI scheme
-
-### Reload
-
-
-
-[[Method('Web Viewer', 'Reload', false)]]
-
-Reloads the current page
-
-### StopLoading
-
-
-
-[[Method('Web Viewer', 'StopLoading', false)]]
-
-Stops the current load.

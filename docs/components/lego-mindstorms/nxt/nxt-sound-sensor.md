@@ -10,6 +10,36 @@
 
 _A component that provides a high-level interface to a sound sensor on a LEGO MINDSTORMS NXT robot._
 
+## Events
+
+### Above Range
+
+[[Event('NXT Sound Sensor', 'Above Range')]]
+
+Sound level has gone above the range.
+
+### Below Range
+
+[[Event('NXT Sound Sensor', 'Below Range')]]
+
+Sound level has gone below the range.
+
+### Within Range
+
+[[Event('NXT Sound Sensor', 'Within Range')]]
+
+Sound level has gone within the range.
+
+## Methods
+
+### GetSoundLevel
+
+[[Method('NXT Sound Sensor', 'GetSoundLevel', true)]]
+
+{>>Returns `number`<<}
+
+Returns the current sound level as a value between 0 and 1023, or -1 if the sound level can not be read.
+
 ## Properties
 
 ### Above Range Event Enabled
@@ -102,16 +132,3 @@ The top of the range used for the BelowRange, WithinRange, and AboveRange events
 |boolean|False|
 
 Whether the WithinRange event should fire when the sound level goes between the BottomOfRange and the TopOfRange.
-
-## Methods
-
-### GetSoundLevel
-
-
-
-[[Method('NXT Sound Sensor', 'GetSoundLevel', true)]]
-
-{>>Returns `number`<<}
-
-
-Returns the current sound level as a value between 0 and 1023, or -1 if the sound level can not be read.

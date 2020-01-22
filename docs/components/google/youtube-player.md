@@ -8,6 +8,156 @@
 
 _A visible component that plays YouTube videos.<br>Note\: For this component to work correctly, set the MIN API to 17 (Android 4.2)._
 
+## Events
+
+### Error
+
+[[Event('Youtube Player', 'Error', 'error')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |error|`text`|
+
+
+Use this event to detect that there was any error with the player. Return values: 'UNKNOWN', 'INVALID_PARAMETER_IN_REQUEST', 'HTML_5_PLAYER', 'VIDEO_NOT_FOUND', 'VIDEO_NOT_PLAYABLE_IN_EMBEDDED_PLAYER', 'INVALID_VOLUME' or 'INVALID_SEEK_TO'.
+
+### Fullscreen
+
+[[Event('Youtube Player', 'Fullscreen', 'fullscreen')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |fullscreen|`boolean`|
+
+
+Event to get notified when the player enters or exits fullscreen. The variable 'fullscreen' returns true or false.
+
+### Initialized
+
+[[Event('Youtube Player', 'Initialized')]]
+
+Use this event to start the playing of a normal or instant youtube video.
+
+### Playback Quality Changed
+
+[[Event('Youtube Player', 'Playback Quality Changed', 'quality')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |quality|`text`|
+
+
+Use this event to detect that the playback quality was changed. Return values: 'UNKNOWN', 'SMALL', 'MEDIUM', 'LARGE', 'HD720', 'HD1080', 'HIGH_RES' or 'DEFAULT'.
+
+### Playback Rate Changed
+
+[[Event('Youtube Player', 'Playback Rate Changed', 'rate')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |rate|`text`|
+
+
+Use this event to detect that the playback rate was changed. Return values: 'UNKNOWN', 'RATE_0_25', 'RATE_0_5', 'RATE_1', 'RATE_1_5' or 'RATE_2'.
+
+### State Changed
+
+[[Event('Youtube Player', 'State Changed', 'state')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |state|`text`|
+
+
+Use this event to detect that the state changes. Return values: 'UNKNOWN', 'UNSTARTED', 'ENDED', 'PLAYING', 'PAUSED', 'BUFFERING' or 'VIDEO_CUED'.
+
+## Methods
+
+### EnterFullscreen
+
+[[Method('Youtube Player', 'EnterFullscreen', false)]]
+
+Enter the video in fullscreen mode.
+
+### ExitFullscreen
+
+[[Method('Youtube Player', 'ExitFullscreen', false)]]
+
+Exit the video from fullscreen mode.
+
+### GetThumbnailFromVideoId
+
+[[Method('Youtube Player', 'GetThumbnailFromVideoId', true, 'videoId')]]
+
+{>>Returns `text`<<}
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |video Id|`text`|
+
+
+This block will return the thumbnail image path from a video id. Use only as example '_bZj-LOXdH8' from a youtube video.
+
+### InstantLoad
+
+[[Method('Youtube Player', 'InstantLoad', false, 'videoId')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |video Id|`text`|
+
+
+Use this block together with the 'Youtube Player' Initialized event. Loads and automatically plays the specified youtube video. Use only as example '_bZj-LOXdH8' from a youtube video.
+
+### Load
+
+[[Method('Youtube Player', 'Load', false, 'videoId')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |video Id|`text`|
+
+
+Loads the specified video's thumbnail and prepares the player to play the video. Does not automatically play the video. Use only as example '_bZj-LOXdH8' from a youtube video.
+
+### Pause
+
+[[Method('Youtube Player', 'Pause', false)]]
+
+Pause the youtube video.
+
+### Play
+
+[[Method('Youtube Player', 'Play', false)]]
+
+Plays the youtube video.
+
+### SeekTo
+
+[[Method('Youtube Player', 'SeekTo', false, 'position')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |position|`number`|
+
+
+Set a position where the youtube video should start playing in seconds.
+
+### ToggleFullscreen
+
+[[Method('Youtube Player', 'ToggleFullscreen', false)]]
+
+Toggle the state of the video player.
+
 ## Properties
 
 ### Enable Live Video UI
@@ -193,108 +343,3 @@ Specifies the component's horizontal width, measured in pixels.
 
 Specifies the component's horizontal width as a percentage
  of the Width of its parent Component.
-
-## Methods
-
-### EnterFullscreen
-
-
-
-[[Method('Youtube Player', 'EnterFullscreen', false)]]
-
-Enter the video in fullscreen mode.
-
-### ExitFullscreen
-
-
-
-[[Method('Youtube Player', 'ExitFullscreen', false)]]
-
-Exit the video from fullscreen mode.
-
-### GetThumbnailFromVideoId
-
-
-
-[[Method('Youtube Player', 'GetThumbnailFromVideoId', true, 'videoId')]]
-
-{>>Returns `text`<<}
-
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|video Id|`text`|
-
-
-This block will return the thumbnail image path from a video id. Use only as example '_bZj-LOXdH8' from a youtube video.
-
-### InstantLoad
-
-
-
-[[Method('Youtube Player', 'InstantLoad', false, 'videoId')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|video Id|`text`|
-
-
-Use this block together with the 'Youtube Player' Initialized event. Loads and automatically plays the specified youtube video. Use only as example '_bZj-LOXdH8' from a youtube video.
-
-### Load
-
-
-
-[[Method('Youtube Player', 'Load', false, 'videoId')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|video Id|`text`|
-
-
-Loads the specified video's thumbnail and prepares the player to play the video. Does not automatically play the video. Use only as example '_bZj-LOXdH8' from a youtube video.
-
-### Pause
-
-
-
-[[Method('Youtube Player', 'Pause', false)]]
-
-Pause the youtube video.
-
-### Play
-
-
-
-[[Method('Youtube Player', 'Play', false)]]
-
-Plays the youtube video.
-
-### SeekTo
-
-
-
-[[Method('Youtube Player', 'SeekTo', false, 'position')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|position|`number`|
-
-
-Set a position where the youtube video should start playing in seconds.
-
-### ToggleFullscreen
-
-
-
-[[Method('Youtube Player', 'ToggleFullscreen', false)]]
-
-Toggle the state of the video player.

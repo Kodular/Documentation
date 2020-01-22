@@ -10,6 +10,116 @@
 
 _A Component that acts like a Pedometer. It senses motion via the Accerleromter and attempts to determine if a step has been taken. Using a configurable stride length, it can estimate the distance traveled as well. _
 
+## Events
+
+### Calibration Failed
+
+:warning: ==**Deprecated**==
+
+[[Event('Pedometer', 'Calibration Failed')]]
+
+deprecated
+
+### GPS Available
+
+:warning: ==**Deprecated**==
+
+[[Event('Pedometer', 'GPS Available')]]
+
+deprecated
+
+### GPS Lost
+
+:warning: ==**Deprecated**==
+
+[[Event('Pedometer', 'GPS Lost')]]
+
+deprecated
+
+### Simple Step
+
+[[Event('Pedometer', 'Simple Step', 'simpleSteps distance')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |simple Steps|`number`|
+    |distance|`number`|
+
+
+This event is run when a raw step is detected
+
+### Started Moving
+
+:warning: ==**Deprecated**==
+
+[[Event('Pedometer', 'Started Moving')]]
+
+deprecated
+
+### Stopped Moving
+
+:warning: ==**Deprecated**==
+
+[[Event('Pedometer', 'Stopped Moving')]]
+
+deprecated
+
+### Walk Step
+
+[[Event('Pedometer', 'Walk Step', 'walkSteps distance')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |walk Steps|`number`|
+    |distance|`number`|
+
+
+This event is run when a walking step is detected. A walking step is a step that appears to be involved in forward motion.
+
+## Methods
+
+### Pause
+
+:warning: ==**Deprecated**==
+
+[[Method('Pedometer', 'Pause', false)]]
+
+Pause counting of steps and distance.
+
+### Reset
+
+[[Method('Pedometer', 'Reset', false)]]
+
+Resets the step counter, distance measure and time running.
+
+### Resume
+
+:warning: ==**Deprecated**==
+
+[[Method('Pedometer', 'Resume', false)]]
+
+Resumes counting, synonym of Start.
+
+### Save
+
+[[Method('Pedometer', 'Save', false)]]
+
+Saves the pedometer state to the phone. Permits permits accumulation of steps and distance between invocations of an App that uses the pedometer. Different Apps will have their own saved state.
+
+### Start
+
+[[Method('Pedometer', 'Start', false)]]
+
+Start counting steps
+
+### Stop
+
+[[Method('Pedometer', 'Stop', false)]]
+
+Stop counting steps
+
 ## Properties
 
 ### Stop Detection Timeout
@@ -128,53 +238,3 @@ _No description available_
 |number|None|
 
 the number of walk steps taken since the pedometer has started.
-
-## Methods
-
-### Pause
-
-:warning: ==**Deprecated**==
-
-[[Method('Pedometer', 'Pause', false)]]
-
-Pause counting of steps and distance.
-
-### Reset
-
-
-
-[[Method('Pedometer', 'Reset', false)]]
-
-Resets the step counter, distance measure and time running.
-
-### Resume
-
-:warning: ==**Deprecated**==
-
-[[Method('Pedometer', 'Resume', false)]]
-
-Resumes counting, synonym of Start.
-
-### Save
-
-
-
-[[Method('Pedometer', 'Save', false)]]
-
-Saves the pedometer state to the phone. Permits permits accumulation of steps and distance between invocations of an App that uses the pedometer. Different Apps will have their own saved state.
-
-### Start
-
-
-
-[[Method('Pedometer', 'Start', false)]]
-
-Start counting steps
-
-### Stop
-
-
-
-[[Method('Pedometer', 'Stop', false)]]
-
-Stop counting steps

@@ -16,6 +16,54 @@ _A component that can launch an activity using the <code>StartActivity</code> me
 <li> opening the map application to a specified location</li></ul> 
 You can also launch activities that return text data.  See the documentation on using the Activity Starter for examples.</p>_
 
+## Events
+
+### Activity Canceled
+
+[[Event('Activity Starter', 'Activity Canceled')]]
+
+Event raised if this ActivityStarter returns because the activity was canceled.
+
+### ActivityError
+
+[[Event('Activity Starter', 'ActivityError', 'message')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |message|`text`|
+
+
+The ActivityError event is no longer used. Please use the Screen.ErrorOccurred event instead.
+
+### After Activity
+
+[[Event('Activity Starter', 'After Activity', 'result')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |result|`text`|
+
+
+Event raised after this ActivityStarter returns.
+
+## Methods
+
+### ResolveActivity
+
+[[Method('Activity Starter', 'ResolveActivity', true)]]
+
+{>>Returns `text`<<}
+
+Returns the name of the activity that corresponds to this ActivityStarter, or an empty string if no corresponding activity can be found.
+
+### StartActivity
+
+[[Method('Activity Starter', 'StartActivity', false)]]
+
+Start the activity corresponding to this ActivityStarter.
+
 ## Properties
 
 ### Action
@@ -175,24 +223,3 @@ Returns the MIME type from the activity.
 |text|None|
 
 Returns the URI from the activity.
-
-## Methods
-
-### ResolveActivity
-
-
-
-[[Method('Activity Starter', 'ResolveActivity', true)]]
-
-{>>Returns `text`<<}
-
-
-Returns the name of the activity that corresponds to this ActivityStarter, or an empty string if no corresponding activity can be found.
-
-### StartActivity
-
-
-
-[[Method('Activity Starter', 'StartActivity', false)]]
-
-Start the activity corresponding to this ActivityStarter.

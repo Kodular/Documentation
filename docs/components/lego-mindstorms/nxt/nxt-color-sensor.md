@@ -10,6 +10,56 @@
 
 _A component that provides a high-level interface to a color sensor on a LEGO MINDSTORMS NXT robot._
 
+## Events
+
+### Above Range
+
+[[Event('NXT Color Sensor', 'Above Range')]]
+
+Light level has gone above the range. The AboveRange event will not occur if the DetectColor property is set to True or if the AboveRangeEventEnabled property is set to False.
+
+### Below Range
+
+[[Event('NXT Color Sensor', 'Below Range')]]
+
+Light level has gone below the range. The BelowRange event will not occur if the DetectColor property is set to True or if the BelowRangeEventEnabled property is set to False.
+
+### Color Changed
+
+[[Event('NXT Color Sensor', 'Color Changed', 'color')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |color|`number`|
+
+
+Detected color has changed. The ColorChanged event will not occur if the DetectColor property is set to False or if the ColorChangedEventEnabled property is set to False.
+
+### Within Range
+
+[[Event('NXT Color Sensor', 'Within Range')]]
+
+Light level has gone within the range. The WithinRange event will not occur if the DetectColor property is set to True or if the WithinRangeEventEnabled property is set to False.
+
+## Methods
+
+### GetColor
+
+[[Method('NXT Color Sensor', 'GetColor', true)]]
+
+{>>Returns `number`<<}
+
+Returns the current detected color, or the color None if the color can not be read or if the DetectColor property is set to False.
+
+### GetLightLevel
+
+[[Method('NXT Color Sensor', 'GetLightLevel', true)]]
+
+{>>Returns `number`<<}
+
+Returns the current light level as a value between 0 and 1023, or -1 if the light level can not be read or if the DetectColor property is set to True.
+
 ## Properties
 
 ### Above Range Event Enabled
@@ -141,27 +191,3 @@ The top of the range used for the BelowRange, WithinRange, and AboveRange events
 |boolean|False|
 
 Whether the WithinRange event should fire when the DetectColor property is set to False and the light level goes between the BottomOfRange and the TopOfRange.
-
-## Methods
-
-### GetColor
-
-
-
-[[Method('NXT Color Sensor', 'GetColor', true)]]
-
-{>>Returns `number`<<}
-
-
-Returns the current detected color, or the color None if the color can not be read or if the DetectColor property is set to False.
-
-### GetLightLevel
-
-
-
-[[Method('NXT Color Sensor', 'GetLightLevel', true)]]
-
-{>>Returns `number`<<}
-
-
-Returns the current light level as a value between 0 and 1023, or -1 if the light level can not be read or if the DetectColor property is set to True.

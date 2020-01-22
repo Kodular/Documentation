@@ -12,6 +12,67 @@ _Non-visible component providing location information, including longitude, lati
 <p>In order to function, the component must have its <code>Enabled</code> property set to True, and the device must have location sensing enabled through wireless networks or GPS satellites (if outdoors).</p>
 Location information might not be immediately available when an app starts.  You'll have to wait a short time for a location provider to be found and used, or wait for the OnLocationChanged event_
 
+## Events
+
+### Location Changed
+
+[[Event('Location Sensor', 'Location Changed', 'latitude longitude altitude speed')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |latitude|`number`|
+    |longitude|`number`|
+    |altitude|`number`|
+    |speed|`number`|
+
+
+Indicates that a new location has been detected.
+
+### Status Changed
+
+[[Event('Location Sensor', 'Status Changed', 'provider status')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |provider|`text`|
+    |status|`text`|
+
+
+Indicates that the status of the location provider service has changed, such as when a
+ provider is lost or a new provider starts being used.
+
+## Methods
+
+### LatitudeFromAddress
+
+[[Method('Location Sensor', 'LatitudeFromAddress', true, 'locationName')]]
+
+{>>Returns `number`<<}
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |location Name|`text`|
+
+
+Derives latitude of given address
+
+### LongitudeFromAddress
+
+[[Method('Location Sensor', 'LongitudeFromAddress', true, 'locationName')]]
+
+{>>Returns `number`<<}
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |location Name|`text`|
+
+
+Derives longitude of given address
+
 ## Properties
 
 ### Distance Interval
@@ -205,41 +266,3 @@ Indicates whether the sensor should allow the developer to
 
 Indicates the source of the location information.  If there is no provider, the
  string "NO PROVIDER" is returned.  This is useful primarily for debugging.
-
-## Methods
-
-### LatitudeFromAddress
-
-
-
-[[Method('Location Sensor', 'LatitudeFromAddress', true, 'locationName')]]
-
-{>>Returns `number`<<}
-
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|location Name|`text`|
-
-
-Derives latitude of given address
-
-### LongitudeFromAddress
-
-
-
-[[Method('Location Sensor', 'LongitudeFromAddress', true, 'locationName')]]
-
-{>>Returns `number`<<}
-
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|location Name|`text`|
-
-
-Derives longitude of given address

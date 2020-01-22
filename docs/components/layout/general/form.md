@@ -8,6 +8,360 @@
 
 _Top-level component containing all other components in the program._
 
+## Events
+
+### Back Pressed
+
+[[Event('Form', 'Back Pressed')]]
+
+Device back button pressed.
+
+### Error Occurred
+
+[[Event('Form', 'Error Occurred', 'component functionName errorNumber message')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |component|`component`|
+    |function Name|`text`|
+    |error Number|`number`|
+    |message|`text`|
+
+
+Event raised when an error occurs. Only some errors will raise this condition.  For those errors, the system will show a notification by default.  You can use this event handler to prescribe an error behavior different than the default.
+
+### Got Received Shared
+
+[[Event('Form', 'Got Received Shared', 'type value')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |type|`number`|
+    |value|`text`|
+
+
+Event to detect that a user shared content to your app throw the sharing dialog of any other app. Type stand for integer. 0 = nothing shared, 1 = audio, 2 = image, 3 = text or 4 = video
+
+### Initialize
+
+[[Event('Form', 'Initialize')]]
+
+Screen starting
+
+### Keyboard Visibility Changed
+
+[[Event('Form', 'Keyboard Visibility Changed', 'isKeyboardVisible')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |is Keyboard Visible|`boolean`|
+
+
+Event will be invoked if the keyboard was visible or invisible.
+
+### Menu Initialize
+
+[[Event('Form', 'Menu Initialize')]]
+
+Event to detect when the menu has loaded. Set here your blocks like TitleBarIcon or AddMenuItem.
+
+### Menu Item Selected
+
+[[Event('Form', 'Menu Item Selected', 'menuItem')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |menu Item|`text`|
+
+
+Event to detect when a menu item has been selected.
+
+### On App Pause
+
+[[Event('Form', 'On App Pause')]]
+
+The system calls this method as the first indication that the user is leaving your activity (though it does not always mean the activity is being destroyed).
+
+### On App Resume
+
+[[Event('Form', 'On App Resume')]]
+
+When the activity enters the Resumed state, it comes to the foreground, and then the system invokes this event.
+
+### On App Stop
+
+[[Event('Form', 'On App Stop')]]
+
+When your activity is no longer visible to the user, it has entered the Stopped state, and the system invokes this event.
+
+### Other Screen Closed
+
+[[Event('Form', 'Other Screen Closed', 'otherScreenName result')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |other Screen Name|`text`|
+    |result|`any`|
+
+
+Event raised when another screen has closed and control has returned to this screen.
+
+### Permission Denied
+
+[[Event('Form', 'Permission Denied', 'component functionName permissionName')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |component|`component`|
+    |function Name|`text`|
+    |permission Name|`text`|
+
+
+Event to handle when the app user has denied a needed permission.
+
+### Permission Granted
+
+[[Event('Form', 'Permission Granted', 'permissionName')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |permission Name|`text`|
+
+
+Event to handle when the app user has granted a needed permission. This event is only run when permission is
+ granted in response to the AskForPermission method.
+
+### Screen Orientation Changed
+
+[[Event('Form', 'Screen Orientation Changed')]]
+
+Screen orientation changed
+
+### Side Menu Closed
+
+[[Event('Form', 'Side Menu Closed')]]
+
+Event will be invoked if the side menu was closed.
+
+### Side Menu Opened
+
+[[Event('Form', 'Side Menu Opened')]]
+
+Event will be invoked if the side menu was opened.
+
+### Title Bar Icon Selected
+
+[[Event('Form', 'Title Bar Icon Selected', 'icon name')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |icon|`text`|
+    |name|`text`|
+
+
+The event returns the 'icon' or 'name' of the selected icon.
+
+### Title Bar Back Button Clicked
+
+[[Event('Form', 'Title Bar Back Button Clicked')]]
+
+Event to detect when a menu item has been selected.
+
+## Methods
+
+### AddMenuItem
+
+[[Method('Form', 'AddMenuItem', false, 'menuItem')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |menu Item|`list`|
+
+
+Add a new item to the menu. Use the 'make a list' block.
+
+### AddMenuItemWithIcon
+
+[[Method('Form', 'AddMenuItemWithIcon', false, 'menuItem menuIcon')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |menu Item|`text`|
+    |menu Icon|`text`|
+
+
+Add a new item with a icon on the left side to the menu. This function does not use the make a list block. If you want more items with icon then use this block again.
+
+### AddTitleBarIcon
+
+[[Method('Form', 'AddTitleBarIcon', false, 'icon name')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |icon|`text`|
+    |name|`text`|
+
+
+Add a new action icon to the TitleBar. You will see a toast message on a long click with your choosen name. Add this block to the "MenuInitialize" event.
+
+### ArePermissionsGranted
+
+[[Method('Form', 'ArePermissionsGranted', true)]]
+
+{>>Returns `boolean`<<}
+
+Returns true if ALL needed app permissions were granted, else false.
+
+### AskForPermission
+
+[[Method('Form', 'AskForPermission', false, 'permissionName')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |permission Name|`text`|
+
+
+Ask the user to grant access to a dangerous permission.
+
+### CanWriteSystemSettings
+
+[[Method('Form', 'CanWriteSystemSettings', true)]]
+
+{>>Returns `boolean`<<}
+
+Returns true if the app can write system settings, else it returns false. It will return true automatic for devices with android version below 6 (API 23).
+
+### HideKeyboard
+
+[[Method('Form', 'HideKeyboard', false)]]
+
+Hide the keyboard.
+
+### LockSideMenu
+
+[[Method('Form', 'LockSideMenu', false)]]
+
+Use this block to lock the side menu. This means the user can not open the side menu until the side menu  unlock block is used.
+
+### MoveTaskToBack
+
+[[Method('Form', 'MoveTaskToBack', false)]]
+
+Move task to back. That means it will minimize your current app.
+
+### OpenAppSettings
+
+[[Method('Form', 'OpenAppSettings', false)]]
+
+Opens the settings screen of the app. Useful if 'Are Permissions Granted' has returned false.
+
+### OpenSystemWriteSettings
+
+[[Method('Form', 'OpenSystemWriteSettings', false)]]
+
+Opens the app's system settings page. This works only for devices with android 6+.
+
+### RemoveSideMenu
+
+[[Method('Form', 'RemoveSideMenu', false)]]
+
+Remove a first created side menu. This block will be usefull if you need to update a side menu dynamically. You can use this block too to test a side menu in the companion. Add then this block above of the 'Side Menu' block.
+
+### RemoveTitleBarIcons
+
+[[Method('Form', 'RemoveTitleBarIcons', false)]]
+
+Remove all added action icons from the TitleBar.
+
+### ResetMenu
+
+[[Method('Form', 'ResetMenu', false)]]
+
+Reset the menu back to its default
+
+### ShowAboutApplication
+
+[[Method('Form', 'ShowAboutApplication', false)]]
+
+Show the dialog which shows when pressing the "About This Application" button in the menu.
+
+### ShowKeyboard
+
+[[Method('Form', 'ShowKeyboard', false)]]
+
+Show the keyboard
+
+### SideMenu
+
+[[Method('Form', 'SideMenu', false, 'layout')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |layout|`component`|
+
+
+Create a Side Menu. Set to "layout" your layout that will be then your side menu. Use as example a vertical arrangement. Your choosen layout will be then removed from the screen and only visible in the side menu."Information": This block works on companion only if you add a side menu on button click.Don’t add it in companion on "screen initialize event". Else the companion will crash.Do NOT use this block with the Side Menu Layout component
+
+### SideMenuClose
+
+[[Method('Form', 'SideMenuClose', false)]]
+
+If you had set your side menu then you can use this block to close it as example with a button click.
+
+### SideMenuOpen
+
+[[Method('Form', 'SideMenuOpen', false)]]
+
+If you had set your side menu then you can use this block to open it as example with a button click.
+
+### TaskDescription
+
+[[Method('Form', 'TaskDescription', false, 'text color')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |text|`text`|
+    |color|`number`|
+
+
+Sets information describing the task with this activity for presentation inside the Recents System UI. You will see the settings if the device API is >= 21 and you minimize the app.
+
+### UnlockSideMenu
+
+[[Method('Form', 'UnlockSideMenu', false)]]
+
+Use this block to unlock the side menu. This means the user can now open again the side menu.
+
+### VersionCode
+
+[[Method('Form', 'VersionCode', true)]]
+
+{>>Returns `number`<<}
+
+This block will returns the version code
+
+### VersionName
+
+[[Method('Form', 'VersionName', true)]]
+
+{>>Returns `text`<<}
+
+This block will returns the version name
+
 ## Properties
 
 ### About Screen
@@ -737,246 +1091,3 @@ Screen width (x-size).
 |boolean|None|
 
 Returns the status of the keyboard. If the keyboard is visible then the result is true.
-
-## Methods
-
-### AddMenuItem
-
-
-
-[[Method('Form', 'AddMenuItem', false, 'menuItem')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|menu Item|`list`|
-
-
-Add a new item to the menu. Use the 'make a list' block.
-
-### AddMenuItemWithIcon
-
-
-
-[[Method('Form', 'AddMenuItemWithIcon', false, 'menuItem menuIcon')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|menu Item|`text`|
-|menu Icon|`text`|
-
-
-Add a new item with a icon on the left side to the menu. This function does not use the make a list block. If you want more items with icon then use this block again.
-
-### AddTitleBarIcon
-
-
-
-[[Method('Form', 'AddTitleBarIcon', false, 'icon name')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|icon|`text`|
-|name|`text`|
-
-
-Add a new action icon to the TitleBar. You will see a toast message on a long click with your choosen name. Add this block to the "MenuInitialize" event.
-
-### ArePermissionsGranted
-
-
-
-[[Method('Form', 'ArePermissionsGranted', true)]]
-
-{>>Returns `boolean`<<}
-
-
-Returns true if ALL needed app permissions were granted, else false.
-
-### AskForPermission
-
-
-
-[[Method('Form', 'AskForPermission', false, 'permissionName')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|permission Name|`text`|
-
-
-Ask the user to grant access to a dangerous permission.
-
-### CanWriteSystemSettings
-
-
-
-[[Method('Form', 'CanWriteSystemSettings', true)]]
-
-{>>Returns `boolean`<<}
-
-
-Returns true if the app can write system settings, else it returns false. It will return true automatic for devices with android version below 6 (API 23).
-
-### HideKeyboard
-
-
-
-[[Method('Form', 'HideKeyboard', false)]]
-
-Hide the keyboard.
-
-### LockSideMenu
-
-
-
-[[Method('Form', 'LockSideMenu', false)]]
-
-Use this block to lock the side menu. This means the user can not open the side menu until the side menu  unlock block is used.
-
-### MoveTaskToBack
-
-
-
-[[Method('Form', 'MoveTaskToBack', false)]]
-
-Move task to back. That means it will minimize your current app.
-
-### OpenAppSettings
-
-
-
-[[Method('Form', 'OpenAppSettings', false)]]
-
-Opens the settings screen of the app. Useful if 'Are Permissions Granted' has returned false.
-
-### OpenSystemWriteSettings
-
-
-
-[[Method('Form', 'OpenSystemWriteSettings', false)]]
-
-Opens the app's system settings page. This works only for devices with android 6+.
-
-### RemoveSideMenu
-
-
-
-[[Method('Form', 'RemoveSideMenu', false)]]
-
-Remove a first created side menu. This block will be usefull if you need to update a side menu dynamically. You can use this block too to test a side menu in the companion. Add then this block above of the 'Side Menu' block.
-
-### RemoveTitleBarIcons
-
-
-
-[[Method('Form', 'RemoveTitleBarIcons', false)]]
-
-Remove all added action icons from the TitleBar.
-
-### ResetMenu
-
-
-
-[[Method('Form', 'ResetMenu', false)]]
-
-Reset the menu back to its default
-
-### ShowAboutApplication
-
-
-
-[[Method('Form', 'ShowAboutApplication', false)]]
-
-Show the dialog which shows when pressing the "About This Application" button in the menu.
-
-### ShowKeyboard
-
-
-
-[[Method('Form', 'ShowKeyboard', false)]]
-
-Show the keyboard
-
-### SideMenu
-
-
-
-[[Method('Form', 'SideMenu', false, 'layout')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|layout|`component`|
-
-
-Create a Side Menu. Set to "layout" your layout that will be then your side menu. Use as example a vertical arrangement. Your choosen layout will be then removed from the screen and only visible in the side menu."Information": This block works on companion only if you add a side menu on button click.Don’t add it in companion on "screen initialize event". Else the companion will crash.Do NOT use this block with the Side Menu Layout component
-
-### SideMenuClose
-
-
-
-[[Method('Form', 'SideMenuClose', false)]]
-
-If you had set your side menu then you can use this block to close it as example with a button click.
-
-### SideMenuOpen
-
-
-
-[[Method('Form', 'SideMenuOpen', false)]]
-
-If you had set your side menu then you can use this block to open it as example with a button click.
-
-### TaskDescription
-
-
-
-[[Method('Form', 'TaskDescription', false, 'text color')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|text|`text`|
-|color|`number`|
-
-
-Sets information describing the task with this activity for presentation inside the Recents System UI. You will see the settings if the device API is >= 21 and you minimize the app.
-
-### UnlockSideMenu
-
-
-
-[[Method('Form', 'UnlockSideMenu', false)]]
-
-Use this block to unlock the side menu. This means the user can now open again the side menu.
-
-### VersionCode
-
-
-
-[[Method('Form', 'VersionCode', true)]]
-
-{>>Returns `number`<<}
-
-
-This block will returns the version code
-
-### VersionName
-
-
-
-[[Method('Form', 'VersionName', true)]]
-
-{>>Returns `text`<<}
-
-
-This block will returns the version name

@@ -8,6 +8,32 @@
 
 _A Slider is a progress bar that adds a draggable thumb. You can touch the thumb and drag left or right to set the slider thumb position. As the Slider thumb is dragged, it will trigger the PositionChanged event, reporting the position of the Slider thumb. The reported position of the Slider thumb can be used to dynamically update another component attribute, such as the font size of a TextBox or the radius of a Ball._
 
+## Events
+
+### Position Changed
+
+[[Event('Slider', 'Position Changed', 'thumbPosition')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |thumb Position|`number`|
+
+
+Indicates that position of the slider thumb has changed.
+
+### Touch Down
+
+[[Event('Slider', 'Touch Down')]]
+
+Event will be invoked on a touch down.
+
+### Touch Up
+
+[[Event('Slider', 'Touch Up')]]
+
+Event will be invoked on a touch up.
+
 ## Properties
 
 ### Color Left

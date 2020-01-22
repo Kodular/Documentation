@@ -8,6 +8,62 @@
 
 _A visible component that can animate between two or more layout components that have been added to it._
 
+## Methods
+
+### AddComponentToView
+
+[[Method('View Flipper', 'AddComponentToView', false, 'component')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |component|`component`|
+
+
+Add a component to the view flipper. The first added component will be the first visible component on the screen.
+
+### AddImagesToView
+
+[[Method('View Flipper', 'AddImagesToView', false, 'images')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |images|`list`|
+
+
+Use this function if you try to create a image view flipper. Please use a 'make a list' block.
+
+### ShowNext
+
+[[Method('View Flipper', 'ShowNext', false)]]
+
+Show the next view.
+
+### ShowPrevious
+
+[[Method('View Flipper', 'ShowPrevious', false)]]
+
+Show the previous view.
+
+### StartFlipping
+
+[[Method('View Flipper', 'StartFlipping', false)]]
+
+Start a timer to cycle through child views.
+
+### StopFlipping
+
+[[Method('View Flipper', 'StopFlipping', false)]]
+
+No more flips.
+
+### is Flipping
+
+[[Method('View Flipper', 'is Flipping', false)]]
+
+Returns true if the child views are flipping.
+
 ## Properties
 
 ### Add Images From String
@@ -154,75 +210,3 @@ Specifies the component's horizontal width, measured in pixels.
 
 Specifies the component's horizontal width as a percentage
  of the Width of its parent Component.
-
-## Methods
-
-### AddComponentToView
-
-
-
-[[Method('View Flipper', 'AddComponentToView', false, 'component')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|component|`component`|
-
-
-Add a component to the view flipper. The first added component will be the first visible component on the screen.
-
-### AddImagesToView
-
-
-
-[[Method('View Flipper', 'AddImagesToView', false, 'images')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|images|`list`|
-
-
-Use this function if you try to create a image view flipper. Please use a 'make a list' block.
-
-### ShowNext
-
-
-
-[[Method('View Flipper', 'ShowNext', false)]]
-
-Show the next view.
-
-### ShowPrevious
-
-
-
-[[Method('View Flipper', 'ShowPrevious', false)]]
-
-Show the previous view.
-
-### StartFlipping
-
-
-
-[[Method('View Flipper', 'StartFlipping', false)]]
-
-Start a timer to cycle through child views.
-
-### StopFlipping
-
-
-
-[[Method('View Flipper', 'StopFlipping', false)]]
-
-No more flips.
-
-### is Flipping
-
-
-
-[[Method('View Flipper', 'is Flipping', false)]]
-
-Returns true if the child views are flipping.

@@ -8,6 +8,81 @@
 
 _A visible component that shows a navigation menu in the bottom of the screen._
 
+## Events
+
+### Item Selected
+
+[[Event('Bottom Navigation', 'Item Selected', 'id title')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |id|`number`|
+    |title|`text`|
+
+
+Event triggers when an item was selected.
+
+## Methods
+
+### AddItem
+
+[[Method('Bottom Navigation', 'AddItem', false, 'id title image')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |id|`number`|
+    |title|`text`|
+    |image|`text`|
+
+
+Add an item to the bottom menu
+
+### RemoveAllItems
+
+[[Method('Bottom Navigation', 'RemoveAllItems', false)]]
+
+Remove all items from the bottom menu
+
+### RemoveItem
+
+[[Method('Bottom Navigation', 'RemoveItem', false, 'id')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |id|`number`|
+
+
+Remove an item from the bottom menu
+
+### SelectItem
+
+[[Method('Bottom Navigation', 'SelectItem', false, 'id')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |id|`number`|
+
+
+Select an item from the bottom menu
+
+### UpdateItem
+
+[[Method('Bottom Navigation', 'UpdateItem', false, 'id title image')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |id|`number`|
+    |title|`text`|
+    |image|`text`|
+
+
+Update an item of the bottom menu
+
 ## Properties
 
 ### Background Color
@@ -87,77 +162,3 @@ Column property getter method.
 |number|None|
 
 Row property getter method.
-
-## Methods
-
-### AddItem
-
-
-
-[[Method('Bottom Navigation', 'AddItem', false, 'id title image')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|id|`number`|
-|title|`text`|
-|image|`text`|
-
-
-Add an item to the bottom menu
-
-### RemoveAllItems
-
-
-
-[[Method('Bottom Navigation', 'RemoveAllItems', false)]]
-
-Remove all items from the bottom menu
-
-### RemoveItem
-
-
-
-[[Method('Bottom Navigation', 'RemoveItem', false, 'id')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|id|`number`|
-
-
-Remove an item from the bottom menu
-
-### SelectItem
-
-
-
-[[Method('Bottom Navigation', 'SelectItem', false, 'id')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|id|`number`|
-
-
-Select an item from the bottom menu
-
-### UpdateItem
-
-
-
-[[Method('Bottom Navigation', 'UpdateItem', false, 'id title image')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|id|`number`|
-|title|`text`|
-|image|`text`|
-
-
-Update an item of the bottom menu

@@ -8,6 +8,321 @@
 
 _A visible component that displays a scrollable chat.<br>A chat consists of messages sent by two or more than two users where each message can be either simple text or have rich formatting._
 
+## Events
+
+### Click
+
+[[Event('Chat View', 'Click', 'userImage title message timestamp id sendAsSender imagePath withImage filePath fileThumbnail withFile')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |user Image|`text`|
+    |title|`text`|
+    |message|`text`|
+    |timestamp|`text`|
+    |id|`number`|
+    |send As Sender|`boolean`|
+    |image Path|`text`|
+    |with Image|`boolean`|
+    |file Path|`text`|
+    |file Thumbnail|`text`|
+    |with File|`boolean`|
+
+
+Click listener event.
+
+### Double Tap Click
+
+[[Event('Chat View', 'Double Tap Click', 'userImage title message timestamp id sendAsSender imagePath withImage filePath fileThumbnail withFile')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |user Image|`text`|
+    |title|`text`|
+    |message|`text`|
+    |timestamp|`text`|
+    |id|`number`|
+    |send As Sender|`boolean`|
+    |image Path|`text`|
+    |with Image|`boolean`|
+    |file Path|`text`|
+    |file Thumbnail|`text`|
+    |with File|`boolean`|
+
+
+Double tap click listener event.
+
+### Long Click
+
+[[Event('Chat View', 'Long Click', 'userImage title message timestamp id sendAsSender imagePath withImage filePath fileThumbnail withFile')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |user Image|`text`|
+    |title|`text`|
+    |message|`text`|
+    |timestamp|`text`|
+    |id|`number`|
+    |send As Sender|`boolean`|
+    |image Path|`text`|
+    |with Image|`boolean`|
+    |file Path|`text`|
+    |file Thumbnail|`text`|
+    |with File|`boolean`|
+
+
+Long click listener event.
+
+### Swipe
+
+[[Event('Chat View', 'Swipe', 'direction userImage title message timestamp id sendAsSender imagePath withImage filePath fileThumbnail withFile')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |direction|`number`|
+    |user Image|`text`|
+    |title|`text`|
+    |message|`text`|
+    |timestamp|`text`|
+    |id|`number`|
+    |send As Sender|`boolean`|
+    |image Path|`text`|
+    |with Image|`boolean`|
+    |file Path|`text`|
+    |file Thumbnail|`text`|
+    |with File|`boolean`|
+
+
+Swipe listener event. The direction value returns '1' for right-to-left swipes, '2' for left-to-right swipes '3' for bottom-to-top swipes and '4' for top-to-bottom swipes
+
+### User Image Click
+
+[[Event('Chat View', 'User Image Click', 'id userImage')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |id|`number`|
+    |user Image|`text`|
+
+
+Click listener event for the user image.
+
+## Methods
+
+### AddComponentMessage
+
+[[Method('Chat View', 'AddComponentMessage', false, 'userImage title message timestamp component id addAsSender')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |user Image|`text`|
+    |title|`text`|
+    |message|`text`|
+    |timestamp|`text`|
+    |component|`component`|
+    |id|`number`|
+    |add As Sender|`boolean`|
+
+
+Add a new simple component message into the chat view. If you do not want a user image or title or message or timestamp, then let the field empty. Make sure that the component is VISIBLE on the screen when you try to add it here. It will be then removed automatic from the screen and only visible again in the chat view.
+
+### AddDateTimestamp
+
+[[Method('Chat View', 'AddDateTimestamp', false, 'date textColor backgroundColor id')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |date|`text`|
+    |text Color|`number`|
+    |background Color|`number`|
+    |id|`number`|
+
+
+Add a new simple date timestamp into the chat view. You NEED to write a date, else this block will do nothing. This means the field 'date' can NOT be empty. Timestamp messages are not clickable.
+
+### AddFileMessage
+
+[[Method('Chat View', 'AddFileMessage', false, 'userImage title message filePath fileThumbnail timestamp id addAsSender')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |user Image|`text`|
+    |title|`text`|
+    |message|`text`|
+    |file Path|`text`|
+    |file Thumbnail|`text`|
+    |timestamp|`text`|
+    |id|`number`|
+    |add As Sender|`boolean`|
+
+
+Add a new simple file message into the chat view. If you do not want a user image or title or message or timestamp, then let the field empty.
+
+### AddImageMessage
+
+[[Method('Chat View', 'AddImageMessage', false, 'userImage title message image timestamp id addAsSender')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |user Image|`text`|
+    |title|`text`|
+    |message|`text`|
+    |image|`text`|
+    |timestamp|`text`|
+    |id|`number`|
+    |add As Sender|`boolean`|
+
+
+Add a new simple image message into the chat view. If you do not want a user image or title or message or timestamp, then let the field empty.
+
+### AddMessage
+
+[[Method('Chat View', 'AddMessage', false, 'userImage title message timestamp id addAsSender')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |user Image|`text`|
+    |title|`text`|
+    |message|`text`|
+    |timestamp|`text`|
+    |id|`number`|
+    |add As Sender|`boolean`|
+
+
+Add a new simple message into the chat view. If you do not want a user image or title or message or timestamp, then let the field empty.
+
+### ClearChatView
+
+[[Method('Chat View', 'ClearChatView', false)]]
+
+Removes all messages and timestamps from the chat view.
+
+### CountDateTimestamp
+
+[[Method('Chat View', 'CountDateTimestamp', true)]]
+
+{>>Returns `number`<<}
+
+Returns the number of all date timestamps. Normal messages are not included.
+
+### CountMessages
+
+[[Method('Chat View', 'CountMessages', true)]]
+
+{>>Returns `number`<<}
+
+Returns the number of all messages. 'Date Timestamp' messages are not included.
+
+### GetLastUsedId
+
+[[Method('Chat View', 'GetLastUsedId', true)]]
+
+{>>Returns `number`<<}
+
+Returns the last used id.
+
+### RemoveMessage
+
+[[Method('Chat View', 'RemoveMessage', false, 'id')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |id|`number`|
+
+
+Remove a message or timestamp from the chat view.
+
+### ScrollTo
+
+[[Method('Chat View', 'ScrollTo', false, 'id')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |id|`number`|
+
+
+Scroll to a specific message in the chat view with the given id.
+
+### UpdateMessageBackgroundColor
+
+[[Method('Chat View', 'UpdateMessageBackgroundColor', false, 'id backgroundColor')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |id|`number`|
+    |background Color|`number`|
+
+
+Update the background color of a chat view message.
+
+### UpdateMessageContent
+
+[[Method('Chat View', 'UpdateMessageContent', false, 'id text textColor')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |id|`number`|
+    |text|`text`|
+    |text Color|`number`|
+
+
+Update the message content of a chat view message.
+
+### UpdateTimestampContent
+
+[[Method('Chat View', 'UpdateTimestampContent', false, 'id text textColor')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |id|`number`|
+    |text|`text`|
+    |text Color|`number`|
+
+
+Update the timestamp content of a chat view message.
+
+### UpdateTitleContent
+
+[[Method('Chat View', 'UpdateTitleContent', false, 'id text textColor')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |id|`number`|
+    |text|`text`|
+    |text Color|`number`|
+
+
+Update the title content of a chat view message.
+
+### UpdateUserImage
+
+[[Method('Chat View', 'UpdateUserImage', false, 'id userImage')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |id|`number`|
+    |user Image|`text`|
+
+
+Update the user image of a chat view message. The image can only be updated if there was before a old image.
+
 ## Properties
 
 ### Automatic Scroll Down
@@ -453,261 +768,3 @@ Specifies the component's horizontal width, measured in pixels.
 
 Specifies the component's horizontal width as a percentage
  of the Width of its parent Component.
-
-## Methods
-
-### AddComponentMessage
-
-
-
-[[Method('Chat View', 'AddComponentMessage', false, 'userImage title message timestamp component id addAsSender')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|user Image|`text`|
-|title|`text`|
-|message|`text`|
-|timestamp|`text`|
-|component|`component`|
-|id|`number`|
-|add As Sender|`boolean`|
-
-
-Add a new simple component message into the chat view. If you do not want a user image or title or message or timestamp, then let the field empty. Make sure that the component is VISIBLE on the screen when you try to add it here. It will be then removed automatic from the screen and only visible again in the chat view.
-
-### AddDateTimestamp
-
-
-
-[[Method('Chat View', 'AddDateTimestamp', false, 'date textColor backgroundColor id')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|date|`text`|
-|text Color|`number`|
-|background Color|`number`|
-|id|`number`|
-
-
-Add a new simple date timestamp into the chat view. You NEED to write a date, else this block will do nothing. This means the field 'date' can NOT be empty. Timestamp messages are not clickable.
-
-### AddFileMessage
-
-
-
-[[Method('Chat View', 'AddFileMessage', false, 'userImage title message filePath fileThumbnail timestamp id addAsSender')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|user Image|`text`|
-|title|`text`|
-|message|`text`|
-|file Path|`text`|
-|file Thumbnail|`text`|
-|timestamp|`text`|
-|id|`number`|
-|add As Sender|`boolean`|
-
-
-Add a new simple file message into the chat view. If you do not want a user image or title or message or timestamp, then let the field empty.
-
-### AddImageMessage
-
-
-
-[[Method('Chat View', 'AddImageMessage', false, 'userImage title message image timestamp id addAsSender')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|user Image|`text`|
-|title|`text`|
-|message|`text`|
-|image|`text`|
-|timestamp|`text`|
-|id|`number`|
-|add As Sender|`boolean`|
-
-
-Add a new simple image message into the chat view. If you do not want a user image or title or message or timestamp, then let the field empty.
-
-### AddMessage
-
-
-
-[[Method('Chat View', 'AddMessage', false, 'userImage title message timestamp id addAsSender')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|user Image|`text`|
-|title|`text`|
-|message|`text`|
-|timestamp|`text`|
-|id|`number`|
-|add As Sender|`boolean`|
-
-
-Add a new simple message into the chat view. If you do not want a user image or title or message or timestamp, then let the field empty.
-
-### ClearChatView
-
-
-
-[[Method('Chat View', 'ClearChatView', false)]]
-
-Removes all messages and timestamps from the chat view.
-
-### CountDateTimestamp
-
-
-
-[[Method('Chat View', 'CountDateTimestamp', true)]]
-
-{>>Returns `number`<<}
-
-
-Returns the number of all date timestamps. Normal messages are not included.
-
-### CountMessages
-
-
-
-[[Method('Chat View', 'CountMessages', true)]]
-
-{>>Returns `number`<<}
-
-
-Returns the number of all messages. 'Date Timestamp' messages are not included.
-
-### GetLastUsedId
-
-
-
-[[Method('Chat View', 'GetLastUsedId', true)]]
-
-{>>Returns `number`<<}
-
-
-Returns the last used id.
-
-### RemoveMessage
-
-
-
-[[Method('Chat View', 'RemoveMessage', false, 'id')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|id|`number`|
-
-
-Remove a message or timestamp from the chat view.
-
-### ScrollTo
-
-
-
-[[Method('Chat View', 'ScrollTo', false, 'id')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|id|`number`|
-
-
-Scroll to a specific message in the chat view with the given id.
-
-### UpdateMessageBackgroundColor
-
-
-
-[[Method('Chat View', 'UpdateMessageBackgroundColor', false, 'id backgroundColor')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|id|`number`|
-|background Color|`number`|
-
-
-Update the background color of a chat view message.
-
-### UpdateMessageContent
-
-
-
-[[Method('Chat View', 'UpdateMessageContent', false, 'id text textColor')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|id|`number`|
-|text|`text`|
-|text Color|`number`|
-
-
-Update the message content of a chat view message.
-
-### UpdateTimestampContent
-
-
-
-[[Method('Chat View', 'UpdateTimestampContent', false, 'id text textColor')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|id|`number`|
-|text|`text`|
-|text Color|`number`|
-
-
-Update the timestamp content of a chat view message.
-
-### UpdateTitleContent
-
-
-
-[[Method('Chat View', 'UpdateTitleContent', false, 'id text textColor')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|id|`number`|
-|text|`text`|
-|text Color|`number`|
-
-
-Update the title content of a chat view message.
-
-### UpdateUserImage
-
-
-
-[[Method('Chat View', 'UpdateUserImage', false, 'id userImage')]]
-
-**Parameters**
-
-| Name | Type |
-|------|------|
-|id|`number`|
-|user Image|`text`|
-
-
-Update the user image of a chat view message. The image can only be updated if there was before a old image.

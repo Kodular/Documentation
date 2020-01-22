@@ -10,11 +10,23 @@
 
 _A non-visible component that shows a pop-up list of Google accounts currently signed-in on the device for the user to pick from._
 
+## Events
+
+### Picked
+
+[[Event('Google Account Picker', 'Picked', 'accountName')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |account Name|`text`|
+
+
+Event raised after account has been picked.
+
 ## Methods
 
 ### Pick
-
-
 
 [[Method('Google Account Picker', 'Pick', false)]]
 

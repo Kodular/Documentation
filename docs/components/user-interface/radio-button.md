@@ -8,6 +8,28 @@
 
 _A visible component that lets the user toggle between two states — checked and unchecked. Only one Radio Button in a group of Radio Buttons can be checked at any given time._
 
+## Events
+
+### Changed
+
+[[Event('Radio Button', 'Changed', 'checked')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |checked|`boolean`|
+
+
+Event invoked when the radio button state has been changed.
+
+## Methods
+
+### Toggle
+
+[[Method('Radio Button', 'Toggle', false)]]
+
+Change the checked state of the view to the inverse of its current state
+
 ## Properties
 
 ### Checked
@@ -245,13 +267,3 @@ Specifies the component's horizontal width as a percentage
 |boolean|None|
 
 Returns true if the radio button is checked, else false.
-
-## Methods
-
-### Toggle
-
-
-
-[[Method('Radio Button', 'Toggle', false)]]
-
-Change the checked state of the view to the inverse of its current state

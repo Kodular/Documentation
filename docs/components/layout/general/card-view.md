@@ -8,6 +8,32 @@
 
 _A visible component that lets the user group other components as a Card. <br>Cards are panels with a set elevation and border radius, meant to draw the user''s attention to their content._
 
+## Events
+
+### Click
+
+[[Event('Card View', 'Click')]]
+
+Event to detect that a user has done a simple "Click".
+
+### Long Click
+
+[[Event('Card View', 'Long Click')]]
+
+Event to detect that a user has done a simple "Long click".
+
+### Touch Down
+
+[[Event('Card View', 'Touch Down')]]
+
+Event to detect that a user has done a simple touch down on the card.
+
+### Touch Up
+
+[[Event('Card View', 'Touch Up')]]
+
+Event to detect that a user has done a simple touch up on the card.
+
 ## Properties
 
 ### Align Horizontal

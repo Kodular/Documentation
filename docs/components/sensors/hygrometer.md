@@ -10,6 +10,20 @@
 
 _A sensor component that can measure the relative ambient air humidity. Most Android devices do not have this sensor._
 
+## Events
+
+### Humidity Changed
+
+[[Event('Hygrometer', 'Humidity Changed', 'humidity')]]
+
+??? tip "Parameters"
+    | Name | Type |
+    |------|------|
+    |humidity|`number`|
+
+
+Called when a change is detected in the ambient air humidity (expressed as a percentage).
+
 ## Properties
 
 ### Enabled
