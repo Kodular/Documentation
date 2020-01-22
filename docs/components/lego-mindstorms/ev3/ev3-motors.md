@@ -8,7 +8,7 @@
 
 ## Overview
 
-_A component that provides both high- and low-level interfaces to a LEGO MINDSTORMS EV3 robot, with functions that can control the motors._
+A component that provides both high- and low-level interfaces to a LEGO MINDSTORMS EV3 robot, with functions that can control the motors.
 
 ## Events
 
@@ -22,7 +22,7 @@ _A component that provides both high- and low-level interfaces to a LEGO MINDSTO
     |tacho Count|`number`|
 
 
-_Called when the tacho count has changed._
+Called when the tacho count has changed.
 
 ## Methods
 
@@ -32,13 +32,13 @@ _Called when the tacho count has changed._
 
 {>>Returns `number`<<}
 
-_Get the current tacho count._
+Get the current tacho count.
 
 ### ResetTachoCount
 
 [[Method('EV3 Motors', 'ResetTachoCount', false)]]
 
-_Set the current tacho count to zero._
+Set the current tacho count to zero.
 
 ### RotateInDistance
 
@@ -52,7 +52,7 @@ _Set the current tacho count to zero._
     |use Brake|`boolean`|
 
 
-_Rotate the motors in a distance._
+Rotate the motors in a distance.
 
 ### RotateInDuration
 
@@ -66,7 +66,7 @@ _Rotate the motors in a distance._
     |use Brake|`boolean`|
 
 
-_Rotate the motors in a period of time._
+Rotate the motors in a period of time.
 
 ### RotateInTachoCounts
 
@@ -80,7 +80,7 @@ _Rotate the motors in a period of time._
     |use Brake|`boolean`|
 
 
-_Rotate the motors in a number of tacho counts._
+Rotate the motors in a number of tacho counts.
 
 ### RotateIndefinitely
 
@@ -92,7 +92,7 @@ _Rotate the motors in a number of tacho counts._
     |power|`number`|
 
 
-_Start to rotate the motors._
+Start to rotate the motors.
 
 ### RotateSyncInDistance
 
@@ -107,7 +107,7 @@ _Start to rotate the motors._
     |use Brake|`boolean`|
 
 
-_Rotate the motors at the same speed for a distance in cm._
+Rotate the motors at the same speed for a distance in cm.
 
 ### RotateSyncInDuration
 
@@ -122,7 +122,7 @@ _Rotate the motors at the same speed for a distance in cm._
     |use Brake|`boolean`|
 
 
-_Rotate the motors at the same speed in a period of time._
+Rotate the motors at the same speed in a period of time.
 
 ### RotateSyncInTachoCounts
 
@@ -137,7 +137,7 @@ _Rotate the motors at the same speed in a period of time._
     |use Brake|`boolean`|
 
 
-_Rotate the motors at the same speed in a number of tacho counts._
+Rotate the motors at the same speed in a number of tacho counts.
 
 ### RotateSyncIndefinitely
 
@@ -150,7 +150,7 @@ _Rotate the motors at the same speed in a number of tacho counts._
     |turn Ratio|`number`|
 
 
-_Start to rotate the motors at the same speed._
+Start to rotate the motors at the same speed.
 
 ### Stop
 
@@ -162,13 +162,13 @@ _Start to rotate the motors at the same speed._
     |use Brake|`boolean`|
 
 
-_Stop the motors of the robot._
+Stop the motors of the robot.
 
 ### ToggleDirection
 
 [[Method('EV3 Motors', 'ToggleDirection', false)]]
 
-_Toggle the direction of motors._
+Toggle the direction of motors.
 
 ## Properties
 
@@ -183,7 +183,7 @@ _Toggle the direction of motors._
 |:----:|
 |component|
 
-_The BluetoothClient component that should be used for communication._
+The BluetoothClient component that should be used for communication.
 
 ### Enable Speed Regulation
 
@@ -196,7 +196,7 @@ _The BluetoothClient component that should be used for communication._
 |:----:|:-------:|
 |boolean|True|
 
-_Specifies whether to keep motor rotation at constant speed._
+Specifies whether to keep motor rotation at constant speed.
 
 ### Motor Ports
 
@@ -209,7 +209,7 @@ _Specifies whether to keep motor rotation at constant speed._
 |:----:|:-------:|
 |text|ABC|
 
-_The motor ports that the motors are connected to. The ports are specified by a sequence of port letters._
+The motor ports that the motors are connected to. The ports are specified by a sequence of port letters.
 
 ### Reverse Direction
 
@@ -222,7 +222,7 @@ _The motor ports that the motors are connected to. The ports are specified by a 
 |:----:|:-------:|
 |boolean|False|
 
-_Set whether the direction of motors is reversed or not._
+Set whether the direction of motors is reversed or not.
 
 ### Stop Before Disconnect
 
@@ -235,7 +235,7 @@ _Set whether the direction of motors is reversed or not._
 |:----:|:-------:|
 |boolean|True|
 
-_Whether to stop the motor before disconnecting._
+Whether to stop the motor before disconnecting.
 
 ### Tacho Count Changed Event Enabled
 
@@ -248,7 +248,7 @@ _Whether to stop the motor before disconnecting._
 |:----:|:-------:|
 |boolean|False|
 
-_Whether the TachoCountChanged event should fire when the angle is changed._
+Whether the TachoCountChanged event should fire when the angle is changed.
 
 ### Wheel Diameter
 
@@ -261,4 +261,4 @@ _Whether the TachoCountChanged event should fire when the angle is changed._
 |:----:|:-------:|
 |number|4.32|
 
-_Specifies the diameter of the wheels attached on motors._
+Specifies the diameter of the wheels attached on motors.

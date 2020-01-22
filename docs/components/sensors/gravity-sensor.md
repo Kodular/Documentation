@@ -8,7 +8,7 @@
 
 ## Overview
 
-_A non-visible component that measures the force of gravity that is applied to a device on all three physical axes.<br>Note\: All readings are in SI units._
+A non-visible component that measures the force of gravity that is applied to a device on all three physical axes.<br>Note\: All readings are in SI units.
 
 ## Events
 
@@ -24,7 +24,7 @@ _A non-visible component that measures the force of gravity that is applied to a
     |z Accel|`number`|
 
 
-_Indicates that the gravity sensor data has changed._
+Indicates that the gravity sensor data has changed.
 
 ## Properties
 

@@ -8,7 +8,7 @@
 
 ## Overview
 
-_A component to create Short links with the Google API_
+A component to create Short links with the Google API
 
 ## Events
 
@@ -23,7 +23,7 @@ _A component to create Short links with the Google API_
     |response Content|`text`|
 
 
-_Event to detect when a link was converted._
+Event to detect when a link was converted.
 
 ## Methods
 
@@ -37,7 +37,7 @@ _Event to detect when a link was converted._
     |url|`text`|
 
 
-_Convert a short link from google into a normal link. Powerd by Google._
+Convert a short link from google into a normal link. Powerd by Google.
 
 ### UrlToShort
 
@@ -49,7 +49,7 @@ _Convert a short link from google into a normal link. Powerd by Google._
     |url|`text`|
 
 
-_Convert a link into a short link. Powerd by Google._
+Convert a link into a short link. Powerd by Google.
 
 ## Properties
 
@@ -64,7 +64,7 @@ _Convert a link into a short link. Powerd by Google._
 |:----:|
 |text|
 
-_Set here your api key to use the service. How to get a api key? Read here more: "https://goo.gl/AFks2R"_
+Set here your api key to use the service. How to get a api key? Read here more: "https://goo.gl/AFks2R"
 
 ### Default API Key
 
@@ -75,4 +75,4 @@ _Set here your api key to use the service. How to get a api key? Read here more:
 |:----:|:-------:|
 |text|None|
 
-_Don't use this default api key for your final app's. This default api key is only for development mode. Sponsored by NMD (Next Mobile Development)._
+Don't use this default api key for your final app's. This default api key is only for development mode. Sponsored by NMD (Next Mobile Development).

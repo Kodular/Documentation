@@ -8,7 +8,7 @@
 
 ## Overview
 
-_The Download component is a non-visible component that allows users to download any file to the device_
+The Download component is a non-visible component that allows users to download any file to the device
 
 ## Events
 
@@ -24,7 +24,7 @@ _The Download component is a non-visible component that allows users to download
     |file Size|`number`|
 
 
-_Event to detect if the download is successful finished. You can use the "filePath" to use the downloaded file into your app. The "fileSize" will be returned in bytes._
+Event to detect if the download is successful finished. You can use the "filePath" to use the downloaded file into your app. The "fileSize" will be returned in bytes.
 
 ### On Download Progress Changed
 
@@ -36,7 +36,7 @@ _Event to detect if the download is successful finished. You can use the "filePa
     |progress|`number`|
 
 
-_Get the progress (in percentage) of the current download task._
+Get the progress (in percentage) of the current download task.
 
 ### Got File Size
 
@@ -48,13 +48,13 @@ _Get the progress (in percentage) of the current download task._
     |size|`number`|
 
 
-_Event to detect file size is ready to be used._
+Event to detect file size is ready to be used.
 
 ### Notification Clicked
 
 [[Event('Download', 'Notification Clicked')]]
 
-_Event to detect when the user clicks on a running download, either from a system notification or from the downloads UI._
+Event to detect when the user clicks on a running download, either from a system notification or from the downloads UI.
 
 ## Methods
 
@@ -62,7 +62,7 @@ _Event to detect when the user clicks on a running download, either from a syste
 
 [[Method('Download', 'Download', false)]]
 
-_Start the download process of the given download url._
+Start the download process of the given download url.
 
 ### GetFileSize
 
@@ -74,13 +74,13 @@ _Start the download process of the given download url._
     |path|`text`|
 
 
-_Get the file size (in bytes) of a file that is stored online or on your device. The block detect automatic if it is a online path or not. You will get the result in the "Got File Size" event._
+Get the file size (in bytes) of a file that is stored online or on your device. The block detect automatic if it is a online path or not. You will get the result in the "Got File Size" event.
 
 ### ShowDownload
 
 [[Method('Download', 'ShowDownload', false)]]
 
-_You can open the download folder with this block._
+You can open the download folder with this block.
 
 ## Properties
 
@@ -95,7 +95,7 @@ _You can open the download folder with this block._
 |:----:|:-------:|
 |boolean|False|
 
-_Set whether this download may proceed over a roaming connection._
+Set whether this download may proceed over a roaming connection.
 
 ### Description
 
@@ -108,7 +108,7 @@ _Set whether this download may proceed over a roaming connection._
 |:----:|:-------:|
 |text|Downloading file..|
 
-_Set the description that you will see in the download notification._
+Set the description that you will see in the download notification.
 
 ### Download URL
 
@@ -121,7 +121,7 @@ _Set the description that you will see in the download notification._
 |:----:|
 |text|
 
-_Set here the url to the file that you want to download._
+Set here the url to the file that you want to download.
 
 ### Require Charging
 
@@ -134,7 +134,7 @@ _Set here the url to the file that you want to download._
 |:----:|:-------:|
 |boolean|False|
 
-_Specify that to run this download, the device needs to be plugged in. Works only for devices with api >= 24._
+Specify that to run this download, the device needs to be plugged in. Works only for devices with api >= 24.
 
 ### Require Device Idle
 
@@ -147,7 +147,7 @@ _Specify that to run this download, the device needs to be plugged in. Works onl
 |:----:|:-------:|
 |boolean|False|
 
-_Specify that to run, the download needs the device to be in idle mode. Idle mode is a loose definition provided by the system, which means that the device is not in use, and has not been in use for some time. Works only for devices with api >= 24._
+Specify that to run, the download needs the device to be in idle mode. Idle mode is a loose definition provided by the system, which means that the device is not in use, and has not been in use for some time. Works only for devices with api >= 24.
 
 ### Save File As
 
@@ -160,7 +160,7 @@ _Specify that to run, the download needs the device to be in idle mode. Idle mod
 |:----:|:-------:|
 |text|NewFile.png|
 
-_Set here the new filename for the file that you want to download._
+Set here the new filename for the file that you want to download.
 
 ### Scan By Media Scanner
 
@@ -173,7 +173,7 @@ _Set here the new filename for the file that you want to download._
 |:----:|:-------:|
 |boolean|True|
 
-_If the file to be downloaded is to be scanned by MediaScanner._
+If the file to be downloaded is to be scanned by MediaScanner.
 
 ### Show Notification
 
@@ -186,7 +186,7 @@ _If the file to be downloaded is to be scanned by MediaScanner._
 |:----:|:-------:|
 |boolean|True|
 
-_Control whether a system notification is posted by the download manager while this download is running or when it is completed._
+Control whether a system notification is posted by the download manager while this download is running or when it is completed.
 
 ### Suppress Warnings
 
@@ -199,7 +199,7 @@ _Control whether a system notification is posted by the download manager while t
 |:----:|:-------:|
 |boolean|True|
 
-_If false you will see a toast message with a error message when a error is occurred._
+If false you will see a toast message with a error message when a error is occurred.
 
 ### Title
 
@@ -212,7 +212,7 @@ _If false you will see a toast message with a error message when a error is occu
 |:----:|:-------:|
 |text|Download..|
 
-_Set the title that you will see in the download notification._
+Set the title that you will see in the download notification.
 
 ### Is Download Manager Available
 
@@ -225,4 +225,4 @@ _Set the title that you will see in the download notification._
 |:----:|:-------:|
 |boolean|None|
 
-_This function is deprecated. Do not use it anymore. We will remove it in the future. Since we support min API 14 the download manager is by default available. The download manager was added in API 9._
+This function is deprecated. Do not use it anymore. We will remove it in the future. Since we support min API 14 the download manager is by default available. The download manager was added in API 9.

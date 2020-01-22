@@ -8,7 +8,7 @@
 
 ## Overview
 
-_A component that provides a low-level interface to a LEGO MINDSTORMS EV3 robot, with functions to send system or direct commands to EV3 robots._
+A component that provides a low-level interface to a LEGO MINDSTORMS EV3 robot, with functions to send system or direct commands to EV3 robots.
 
 ## Methods
 
@@ -18,7 +18,7 @@ _A component that provides a low-level interface to a LEGO MINDSTORMS EV3 robot,
 
 {>>Returns `number`<<}
 
-_Get the battery current._
+Get the battery current.
 
 ### GetBatteryVoltage
 
@@ -26,7 +26,7 @@ _Get the battery current._
 
 {>>Returns `number`<<}
 
-_Get the battery voltage._
+Get the battery voltage.
 
 ### GetFirmwareBuild
 
@@ -34,7 +34,7 @@ _Get the battery voltage._
 
 {>>Returns `text`<<}
 
-_Get the firmware build on EV3._
+Get the firmware build on EV3.
 
 ### GetFirmwareVersion
 
@@ -42,7 +42,7 @@ _Get the firmware build on EV3._
 
 {>>Returns `text`<<}
 
-_Get the firmware version on EV3._
+Get the firmware version on EV3.
 
 ### GetHardwareVersion
 
@@ -50,7 +50,7 @@ _Get the firmware version on EV3._
 
 {>>Returns `text`<<}
 
-_Get the hardware version of EV3._
+Get the hardware version of EV3.
 
 ### GetOSBuild
 
@@ -58,7 +58,7 @@ _Get the hardware version of EV3._
 
 {>>Returns `text`<<}
 
-_Get the OS build on EV3._
+Get the OS build on EV3.
 
 ### GetOSVersion
 
@@ -66,7 +66,7 @@ _Get the OS build on EV3._
 
 {>>Returns `text`<<}
 
-_Get the OS version on EV3._
+Get the OS version on EV3.
 
 ### KeepAlive
 
@@ -78,7 +78,7 @@ _Get the OS version on EV3._
     |minutes|`number`|
 
 
-_Keep the EV3 brick from shutdown for a period of time._
+Keep the EV3 brick from shutdown for a period of time.
 
 ## Properties
 
@@ -93,4 +93,4 @@ _Keep the EV3 brick from shutdown for a period of time._
 |:----:|
 |component|
 
-_The BluetoothClient component that should be used for communication._
+The BluetoothClient component that should be used for communication.

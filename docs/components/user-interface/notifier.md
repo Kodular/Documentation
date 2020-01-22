@@ -8,7 +8,7 @@
 
 ## Overview
 
-_The Notifier component displays alert dialogs, messages, and temporary alerts, and creates Android log entries through the following methods: <ul><li> ShowMessageDialog: displays a message which the user must dismiss by pressing a button.</li><li> ShowChooseDialog: displays a message two buttons to let the user choose one of two responses, for example, yes or no, after which the AfterChoosing event is raised.</li><li> ShowTextDialog: lets the user enter text in response to the message, after which the AfterTextInput event is raised. <li> ShowPasswordDialog: lets the user enter password in response to the message, after which the AfterTextInput event is raised. <li> ShowAlert: displays a temporary  alert that goes away by itself after a short time.</li><li> ShowProgressDialog: displays an alert with a loading spinner that cannot be dismissed by the user. It can only be dismissed by using the DismissProgressDialog block.</li><li> CustomMessageDialog: New version to display dialogs with icon and in fullscreen mode.</li><li> CustomChooseDialog: New version to display choose dialogs with icon and in fullscreen mode.<li> LightTheme: To display the dialogs in a light or dark theme.</li><li> ShowLightbox: Displays a png or gif file from assets or from web url in a dialog.</li><li> ShowLinearProgress: Shows a progress dialog with a horizontal progress bar.</li><li> ShowSpinningProgress: Shows a spinning progress dialog.</li><li> UpdateProgress: Change the current value of the linear progress dialog.</li><li> ShowRadioListDialog: Shows a radio list dialog with a list of options.</li><li> ShowCheckboxListDialog: Shows a picker dialog with a list of options.</li><li> ShowListPicker: Shows a list picker dialog.</li><li> ShowTextInputDialog: Show a text input dialog.</li><li> ShowImageDialog: Show a image dialog. Animation types like "*.gif" are not supported.</li><li> ShowNumberPicker: Shows a number picker dialog that enables the user to select a number from a predefined range.</li><li> ShowWordPicker: Shows a word picker dialog that enables the user to select a number from a predefined word.</li><li> DismissProgressDialog: Dismisses the progress dialog displayed by ShowProgressDialog.</li><li> DismissSpinningProgress: Dismisses the progress dialog displayed by ShowSpinningProgress.</li><li> DismissLinearProgress: Dismisses the progress dialog displayed by ShowLinearProgress.</li><li> LogError: logs an error message to the Android log. </li><li> LogInfo: logs an info message to the Android log.</li><li> LogWarning: logs a warning message to the Android log.</li><li>The messages in the dialogs can be formatted using the following HTML tags:&lt;b&gt;, &lt;big&gt;, &lt;blockquote&gt;, &lt;br&gt;, &lt;cite&gt;, &lt;dfn&gt;, &lt;div&gt;, &lt;em&gt;, &lt;small&gt;, &lt;strong&gt;, &lt;sub&gt;, &lt;sup&gt;, &lt;tt&gt;. &lt;u&gt;</li><li>You can also use the font tag to specify color, for example, &lt;font color="blue"&gt;.  Some of the available color names are aqua, black, blue, fuchsia, green, grey, lime, maroon, navy, olive, purple, red, silver, teal, white, and yellow</li></ul>_
+The Notifier component displays alert dialogs, messages, and temporary alerts, and creates Android log entries through the following methods: <ul><li> ShowMessageDialog: displays a message which the user must dismiss by pressing a button.</li><li> ShowChooseDialog: displays a message two buttons to let the user choose one of two responses, for example, yes or no, after which the AfterChoosing event is raised.</li><li> ShowTextDialog: lets the user enter text in response to the message, after which the AfterTextInput event is raised. <li> ShowPasswordDialog: lets the user enter password in response to the message, after which the AfterTextInput event is raised. <li> ShowAlert: displays a temporary  alert that goes away by itself after a short time.</li><li> ShowProgressDialog: displays an alert with a loading spinner that cannot be dismissed by the user. It can only be dismissed by using the DismissProgressDialog block.</li><li> CustomMessageDialog: New version to display dialogs with icon and in fullscreen mode.</li><li> CustomChooseDialog: New version to display choose dialogs with icon and in fullscreen mode.<li> LightTheme: To display the dialogs in a light or dark theme.</li><li> ShowLightbox: Displays a png or gif file from assets or from web url in a dialog.</li><li> ShowLinearProgress: Shows a progress dialog with a horizontal progress bar.</li><li> ShowSpinningProgress: Shows a spinning progress dialog.</li><li> UpdateProgress: Change the current value of the linear progress dialog.</li><li> ShowRadioListDialog: Shows a radio list dialog with a list of options.</li><li> ShowCheckboxListDialog: Shows a picker dialog with a list of options.</li><li> ShowListPicker: Shows a list picker dialog.</li><li> ShowTextInputDialog: Show a text input dialog.</li><li> ShowImageDialog: Show a image dialog. Animation types like "*.gif" are not supported.</li><li> ShowNumberPicker: Shows a number picker dialog that enables the user to select a number from a predefined range.</li><li> ShowWordPicker: Shows a word picker dialog that enables the user to select a number from a predefined word.</li><li> DismissProgressDialog: Dismisses the progress dialog displayed by ShowProgressDialog.</li><li> DismissSpinningProgress: Dismisses the progress dialog displayed by ShowSpinningProgress.</li><li> DismissLinearProgress: Dismisses the progress dialog displayed by ShowLinearProgress.</li><li> LogError: logs an error message to the Android log. </li><li> LogInfo: logs an info message to the Android log.</li><li> LogWarning: logs a warning message to the Android log.</li><li>The messages in the dialogs can be formatted using the following HTML tags:&lt;b&gt;, &lt;big&gt;, &lt;blockquote&gt;, &lt;br&gt;, &lt;cite&gt;, &lt;dfn&gt;, &lt;div&gt;, &lt;em&gt;, &lt;small&gt;, &lt;strong&gt;, &lt;sub&gt;, &lt;sup&gt;, &lt;tt&gt;. &lt;u&gt;</li><li>You can also use the font tag to specify color, for example, &lt;font color="blue"&gt;.  Some of the available color names are aqua, black, blue, fuchsia, green, grey, lime, maroon, navy, olive, purple, red, silver, teal, white, and yellow</li></ul>
 
 ## Events
 
@@ -22,7 +22,7 @@ _The Notifier component displays alert dialogs, messages, and temporary alerts, 
     |choice|`text`|
 
 
-_Event to detect that a user have done his selection._
+Event to detect that a user have done his selection.
 
 ### After Message Dialog
 
@@ -34,7 +34,7 @@ _Event to detect that a user have done his selection._
     |title|`text`|
 
 
-_Event to detect that a user clicked on a button from the "Show Custom Message Dialog". Use the "title" response to know which dialog the user has clicked._
+Event to detect that a user clicked on a button from the "Show Custom Message Dialog". Use the "title" response to know which dialog the user has clicked.
 
 ### After Text Input
 
@@ -46,7 +46,7 @@ _Event to detect that a user clicked on a button from the "Show Custom Message D
     |response|`text`|
 
 
-_Event to detect that a user have done his text input in the "Show Text Dialog"._
+Event to detect that a user have done his text input in the "Show Text Dialog".
 
 ### Checkbox Selection
 
@@ -59,7 +59,7 @@ _Event to detect that a user have done his text input in the "Show Text Dialog".
     |selection|`list`|
 
 
-_Invoked after user has finished selecting items from the Checkbox picker. Returns a list of indices of the selected items in the order of selection. Returns a list having -1 if cancel was pressed._
+Invoked after user has finished selecting items from the Checkbox picker. Returns a list of indices of the selected items in the order of selection. Returns a list having -1 if cancel was pressed.
 
 ### Custom Dialog Selection
 
@@ -71,7 +71,7 @@ _Invoked after user has finished selecting items from the Checkbox picker. Retur
     |selection|`text`|
 
 
-_Event to detect that the user has pressed a button from the custom dialog. It returns then the text of the button that was pressed._
+Event to detect that the user has pressed a button from the custom dialog. It returns then the text of the button that was pressed.
 
 ### Got Custom Choose Dialog
 
@@ -84,7 +84,7 @@ _Event to detect that the user has pressed a button from the custom dialog. It r
     |choice|`text`|
 
 
-_Event to detect that a user have done his selection in the CustomChooseDialog._
+Event to detect that a user have done his selection in the CustomChooseDialog.
 
 ### Got Text Input From Dialog
 
@@ -97,7 +97,7 @@ _Event to detect that a user have done his selection in the CustomChooseDialog._
     |response|`text`|
 
 
-_Event to detect that a user have done his text input in the "Show Text Input Dialog"._
+Event to detect that a user have done his text input in the "Show Text Input Dialog".
 
 ### Image Dialog Closed
 
@@ -109,7 +109,7 @@ _Event to detect that a user have done his text input in the "Show Text Input Di
     |id|`number`|
 
 
-_Event to detect that the user has watched the image dialog._
+Event to detect that the user has watched the image dialog.
 
 ### Lightbox Closed
 
@@ -121,13 +121,13 @@ _Event to detect that the user has watched the image dialog._
     |id|`number`|
 
 
-_Event to detect that a user have closed the Lightbox._
+Event to detect that a user have closed the Lightbox.
 
 ### Linear Progress Dismissed
 
 [[Event('Notifier', 'Linear Progress Dismissed')]]
 
-_Event to detect that the linear progress dialog was dismissed._
+Event to detect that the linear progress dialog was dismissed.
 
 ### List Picker Selection
 
@@ -140,7 +140,7 @@ _Event to detect that the linear progress dialog was dismissed._
     |item|`text`|
 
 
-_Event to get the picked list selection from the List Picker._
+Event to get the picked list selection from the List Picker.
 
 ### Number Picker Selection
 
@@ -153,7 +153,7 @@ _Event to get the picked list selection from the List Picker._
     |selection|`number`|
 
 
-_Event to detect that the user has selected a number from the number picker dialog._
+Event to detect that the user has selected a number from the number picker dialog.
 
 ### Radio Selection
 
@@ -166,7 +166,7 @@ _Event to detect that the user has selected a number from the number picker dial
     |list Index|`number`|
 
 
-_Event invoked when user has selected an option from the radio button picker. Outputs the index of the selected item. Returns -1 if cancel was pressed._
+Event invoked when user has selected an option from the radio button picker. Outputs the index of the selected item. Returns -1 if cancel was pressed.
 
 ### Word Picker Selection
 
@@ -179,7 +179,7 @@ _Event invoked when user has selected an option from the radio button picker. Ou
     |selection|`text`|
 
 
-_Event to detect that the user has selected a word from the word picker dialog._
+Event to detect that the user has selected a word from the word picker dialog.
 
 ## Methods
 
@@ -197,7 +197,7 @@ _Event to detect that the user has selected a word from the word picker dialog._
     |cancelable|`boolean`|
 
 
-_Show whatever you want in a dialog. You can use as example arrangements, or images or whatever you want. Your chosen layout will be then removed from the screen and only visible in custom dialog. You can use the "Light Theme" property to have a light or dark background. Or you enable "Use Background Color" property to use the background color property as background dialog color. Please make sure the layout you want to use is visible._
+Show whatever you want in a dialog. You can use as example arrangements, or images or whatever you want. Your chosen layout will be then removed from the screen and only visible in custom dialog. You can use the "Light Theme" property to have a light or dark background. Or you enable "Use Background Color" property to use the background color property as background dialog color. Please make sure the layout you want to use is visible.
 
 ### CustomChooseDialog
 
@@ -217,7 +217,7 @@ _Show whatever you want in a dialog. You can use as example arrangements, or ima
     |fullscreen|`boolean`|
 
 
-_Shows a dialog box with two buttons, from which the user can choose.  If cancelable is true there will be an additional CANCEL button. Pressing a button will raise the GotCustomChooseDialog event.  The "choice" parameter to GotCustomChooseDialog will be the text on the button that was pressed, or "Cancel" if the  CANCEL button was pressed. You can use the "Light Theme" property to have a light or dark background. Or you enable "Use Background Color" property to use the background color property as background dialog color. Use the 'Show Custom Dialog' block to the show the created custom dialog. The added component must be visible on screen. After you used this block here it will be removed automatic from screen and will be only visible again after you have shown the custom dialog._
+Shows a dialog box with two buttons, from which the user can choose.  If cancelable is true there will be an additional CANCEL button. Pressing a button will raise the GotCustomChooseDialog event.  The "choice" parameter to GotCustomChooseDialog will be the text on the button that was pressed, or "Cancel" if the  CANCEL button was pressed. You can use the "Light Theme" property to have a light or dark background. Or you enable "Use Background Color" property to use the background color property as background dialog color. Use the 'Show Custom Dialog' block to the show the created custom dialog. The added component must be visible on screen. After you used this block here it will be removed automatic from screen and will be only visible again after you have shown the custom dialog.
 
 ### CustomMessageDialog
 
@@ -233,31 +233,31 @@ _Shows a dialog box with two buttons, from which the user can choose.  If cancel
     |fullscreen|`boolean`|
 
 
-_Show a Message Dialog. You can use the "Light Theme" property to have a light or dark background. Or you enable "Use Background Color" property to use the background color property as background dialog color._
+Show a Message Dialog. You can use the "Light Theme" property to have a light or dark background. Or you enable "Use Background Color" property to use the background color property as background dialog color.
 
 ### DismissCustomDialog
 
 [[Method('Notifier', 'DismissCustomDialog', false)]]
 
-_Use this block to dismiss the created custom dialog.the custom dialog._
+Use this block to dismiss the created custom dialog.the custom dialog.
 
 ### DismissLinearProgress
 
 [[Method('Notifier', 'DismissLinearProgress', false)]]
 
-_Dismiss a previously displayed LinearProgress box_
+Dismiss a previously displayed LinearProgress box
 
 ### DismissProgressDialog
 
 [[Method('Notifier', 'DismissProgressDialog', false)]]
 
-_Dismiss a previously displayed ProgressDialog box_
+Dismiss a previously displayed ProgressDialog box
 
 ### DismissSpinningProgress
 
 [[Method('Notifier', 'DismissSpinningProgress', false)]]
 
-_Dismiss a previously displayed SpinningProgress box_
+Dismiss a previously displayed SpinningProgress box
 
 ### LogError
 
@@ -269,7 +269,7 @@ _Dismiss a previously displayed SpinningProgress box_
     |message|`text`|
 
 
-_Writes an error message to the Android system log. See the Google Android documentation for how to access the log._
+Writes an error message to the Android system log. See the Google Android documentation for how to access the log.
 
 ### LogInfo
 
@@ -281,7 +281,7 @@ _Writes an error message to the Android system log. See the Google Android docum
     |message|`text`|
 
 
-_Writes an information message to the Android log._
+Writes an information message to the Android log.
 
 ### LogWarning
 
@@ -293,7 +293,7 @@ _Writes an information message to the Android log._
     |message|`text`|
 
 
-_Writes a warning message to the Android log. See the Google Android documentation for how to access the log._
+Writes a warning message to the Android log. See the Google Android documentation for how to access the log.
 
 ### ShowAlert
 
@@ -305,7 +305,7 @@ _Writes a warning message to the Android log. See the Google Android documentati
     |notice|`text`|
 
 
-_Show a alert "toast" message._
+Show a alert "toast" message.
 
 ### ShowCheckboxListDialog
 
@@ -324,7 +324,7 @@ _Show a alert "toast" message._
     |fullscreen|`boolean`|
 
 
-_Shows a picker dialog with a list of options of whichmore than one can be chosen. Invokes the 'AfterMultiSelection' event. You can use the "Light Theme" property to have a light or dark background. Or you enable "Use Background Color" property to use the background color property as background dialog color._
+Shows a picker dialog with a list of options of whichmore than one can be chosen. Invokes the 'AfterMultiSelection' event. You can use the "Light Theme" property to have a light or dark background. Or you enable "Use Background Color" property to use the background color property as background dialog color.
 
 ### ShowChooseDialog
 
@@ -340,13 +340,13 @@ _Shows a picker dialog with a list of options of whichmore than one can be chose
     |cancelable|`boolean`|
 
 
-_Shows a dialog box with two buttons, from which the user can choose.  If cancelable is true there will be an additional CANCEL button. Pressing a button will raise the AfterChoosing event.  The "choice" parameter to AfterChoosing will be the text on the button that was pressed, or "Cancel" if the  CANCEL button was pressed._
+Shows a dialog box with two buttons, from which the user can choose.  If cancelable is true there will be an additional CANCEL button. Pressing a button will raise the AfterChoosing event.  The "choice" parameter to AfterChoosing will be the text on the button that was pressed, or "Cancel" if the  CANCEL button was pressed.
 
 ### ShowCustomDialog
 
 [[Method('Notifier', 'ShowCustomDialog', false)]]
 
-_Show the custom dialog. Dont forget that you have first to create the custom dialog._
+Show the custom dialog. Dont forget that you have first to create the custom dialog.
 
 ### ShowImageDialog
 
@@ -361,7 +361,7 @@ _Show the custom dialog. Dont forget that you have first to create the custom di
     |button Text|`text`|
 
 
-_Show a image dialog. Animation types like "*.gif" are not supported. You can use the "Light Theme" property to have a light or dark background. Or you enable "Use Background Color" property to use the background color property as background dialog color._
+Show a image dialog. Animation types like "*.gif" are not supported. You can use the "Light Theme" property to have a light or dark background. Or you enable "Use Background Color" property to use the background color property as background dialog color.
 
 ### ShowLightbox
 
@@ -374,7 +374,7 @@ _Show a image dialog. Animation types like "*.gif" are not supported. You can us
     |image|`text`|
 
 
-_Displays a lightbox. You can use images like "*.png" or "*,gif" from assets folder or from a web url._
+Displays a lightbox. You can use images like "*.png" or "*,gif" from assets folder or from a web url.
 
 ### ShowLinearProgress
 
@@ -391,7 +391,7 @@ _Displays a lightbox. You can use images like "*.png" or "*,gif" from assets fol
     |icon|`text`|
 
 
-_Shows a progress dialog with a horizontal progress bar. Can be dismissed by user if 'cancelable' is set to true. If indeterminate is true, maxValue and the 'UpdateProgress' method will have no effect. You can use the "Light Theme" property to have a light or dark background. Or you enable "Use Background Color" property to use the background color property as background dialog color._
+Shows a progress dialog with a horizontal progress bar. Can be dismissed by user if 'cancelable' is set to true. If indeterminate is true, maxValue and the 'UpdateProgress' method will have no effect. You can use the "Light Theme" property to have a light or dark background. Or you enable "Use Background Color" property to use the background color property as background dialog color.
 
 ### ShowListPicker
 
@@ -407,7 +407,7 @@ _Shows a progress dialog with a horizontal progress bar. Can be dismissed by use
     |fullscreen|`boolean`|
 
 
-_Shows a list picker dialog. You can use the "Light Theme" property to have a light or dark background. Or you enable "Use Background Color" property to use the background color property as background dialog color._
+Shows a list picker dialog. You can use the "Light Theme" property to have a light or dark background. Or you enable "Use Background Color" property to use the background color property as background dialog color.
 
 ### ShowMessageDialog
 
@@ -421,7 +421,7 @@ _Shows a list picker dialog. You can use the "Light Theme" property to have a li
     |button Text|`text`|
 
 
-_Show a Message Dialog._
+Show a Message Dialog.
 
 ### ShowNumberPicker
 
@@ -439,7 +439,7 @@ _Show a Message Dialog._
     |start Value|`number`|
 
 
-_Shows a number picker dialog that enables the user to select a number from a predefined range. You can use the "Use Background Color" property to use the background color property as background dialog color._
+Shows a number picker dialog that enables the user to select a number from a predefined range. You can use the "Use Background Color" property to use the background color property as background dialog color.
 
 ### ShowPasswordDialog
 
@@ -453,7 +453,7 @@ _Shows a number picker dialog that enables the user to select a number from a pr
     |cancelable|`boolean`|
 
 
-_Shows a dialog box where the user can enter password (input is masked), after which the AfterTextInput event will be raised.  If cancelable is true there will be an additional CANCEL button. Entering password will raise the AfterTextInput event.  The "response" parameter to AfterTextInput will be the entered password, or "Cancel" if CANCEL button was pressed._
+Shows a dialog box where the user can enter password (input is masked), after which the AfterTextInput event will be raised.  If cancelable is true there will be an additional CANCEL button. Entering password will raise the AfterTextInput event.  The "response" parameter to AfterTextInput will be the entered password, or "Cancel" if CANCEL button was pressed.
 
 ### ShowProgressDialog
 
@@ -466,7 +466,7 @@ _Shows a dialog box where the user can enter password (input is masked), after w
     |title|`text`|
 
 
-_Shows a dialog box with an optional title and message (use empty strings if they are not wanted). This dialog box contains a spinning artifact to indicate that the program is working. It cannot be canceled by the user but must be dismissed by the App Inventor Program by using the DismissProgressDialog block._
+Shows a dialog box with an optional title and message (use empty strings if they are not wanted). This dialog box contains a spinning artifact to indicate that the program is working. It cannot be canceled by the user but must be dismissed by the App Inventor Program by using the DismissProgressDialog block.
 
 ### ShowRadioListDialog
 
@@ -486,7 +486,7 @@ _Shows a dialog box with an optional title and message (use empty strings if the
     |fullscreen|`boolean`|
 
 
-_Shows a radio list dialog with a list of options of which only one can be chosen. You can use the "Light Theme" property to have a light or dark background. Or you enable "Use Background Color" property to use the background color property as background dialog color._
+Shows a radio list dialog with a list of options of which only one can be chosen. You can use the "Light Theme" property to have a light or dark background. Or you enable "Use Background Color" property to use the background color property as background dialog color.
 
 ### ShowSpinningProgress
 
@@ -501,7 +501,7 @@ _Shows a radio list dialog with a list of options of which only one can be chose
     |icon|`text`|
 
 
-_Shows a spinning progress dialog which can be dismissed by the user if 'cancelable' is set to true. You can use the "Light Theme" property to have a light or dark background. Or you enable "Use Background Color" property to use the background color property as background dialog color._
+Shows a spinning progress dialog which can be dismissed by the user if 'cancelable' is set to true. You can use the "Light Theme" property to have a light or dark background. Or you enable "Use Background Color" property to use the background color property as background dialog color.
 
 ### ShowTextDialog
 
@@ -515,7 +515,7 @@ _Shows a spinning progress dialog which can be dismissed by the user if 'cancela
     |cancelable|`boolean`|
 
 
-_Shows a dialog box where the user can enter text, after which the AfterTextInput event will be raised.  If cancelable is true there will be an additional CANCEL button. Entering text will raise the AfterTextInput event.  The "response" parameter to AfterTextInput will be the text that was entered, or "Cancel" if the CANCEL button was pressed._
+Shows a dialog box where the user can enter text, after which the AfterTextInput event will be raised.  If cancelable is true there will be an additional CANCEL button. Entering text will raise the AfterTextInput event.  The "response" parameter to AfterTextInput will be the text that was entered, or "Cancel" if the CANCEL button was pressed.
 
 ### ShowTextInputDialog
 
@@ -538,7 +538,7 @@ _Shows a dialog box where the user can enter text, after which the AfterTextInpu
     |hint Color|`number`|
 
 
-_Show a text input dialog. Possible input types are: "1= Normal text", "2= Password text", "3= Person name", "4= Email adress", "5|6= Number", "7= Password number" or "8= datetime". You can use the "Light Theme" property to have a light or dark background. Or you enable "Use Background Color" property to use the background color property as background dialog color._
+Show a text input dialog. Possible input types are: "1= Normal text", "2= Password text", "3= Person name", "4= Email adress", "5|6= Number", "7= Password number" or "8= datetime". You can use the "Light Theme" property to have a light or dark background. Or you enable "Use Background Color" property to use the background color property as background dialog color.
 
 ### ShowWordPicker
 
@@ -554,7 +554,7 @@ _Show a text input dialog. Possible input types are: "1= Normal text", "2= Passw
     |items List|`list`|
 
 
-_Shows a word picker dialog that enables the user to select a number from a predefined word. You can use the "Use Background Color" property to use the background color property as background dialog color._
+Shows a word picker dialog that enables the user to select a number from a predefined word. You can use the "Use Background Color" property to use the background color property as background dialog color.
 
 ### UpdateProgress
 
@@ -566,7 +566,7 @@ _Shows a word picker dialog that enables the user to select a number from a pred
     |value|`number`|
 
 
-_Change the current value of the linear progress dialog. Has no effect if "indeterminate" is set to true._
+Change the current value of the linear progress dialog. Has no effect if "indeterminate" is set to true.
 
 ## Properties
 
@@ -581,7 +581,7 @@ _Change the current value of the linear progress dialog. Has no effect if "indet
 |:----:|:-------:|
 |number|&HFF444444|
 
-_Specifies the background color for alerts (not dialogs)._
+Specifies the background color for alerts (not dialogs).
 
 ### Dim Amount
 
@@ -594,7 +594,7 @@ _Specifies the background color for alerts (not dialogs)._
 |:----:|:-------:|
 |number|0.5|
 
-_Set the amount of dim behind the dialog window. Use '0.0' for no dim and '1.0' for full dim._
+Set the amount of dim behind the dialog window. Use '0.0' for no dim and '1.0' for full dim.
 
 ### Light Theme
 
@@ -607,7 +607,7 @@ _Set the amount of dim behind the dialog window. Use '0.0' for no dim and '1.0' 
 |:----:|:-------:|
 |boolean|False|
 
-_Gets the current theme_
+Gets the current theme
 
 ### Linkify
 
@@ -620,7 +620,7 @@ _Gets the current theme_
 |:----:|:-------:|
 |boolean|False|
 
-_If set to true will attempt to make text clickable where possible; e.g. hyperlinks, phone numbers. Can not be used for Progress Dialogs._
+If set to true will attempt to make text clickable where possible; e.g. hyperlinks, phone numbers. Can not be used for Progress Dialogs.
 
 ### Notifier Length
 
@@ -633,7 +633,7 @@ _If set to true will attempt to make text clickable where possible; e.g. hyperli
 |:----:|:-------:|
 |number|1|
 
-_specifies the length of time that the alert is shown -- either "short" or "long"._
+specifies the length of time that the alert is shown -- either "short" or "long".
 
 ### Text Color
 
@@ -646,7 +646,7 @@ _specifies the length of time that the alert is shown -- either "short" or "long
 |:----:|:-------:|
 |number|&HFFFFFFFF|
 
-_Specifies the text color for alerts or for dialogs message._
+Specifies the text color for alerts or for dialogs message.
 
 ### Text Font Typeface
 
@@ -672,7 +672,7 @@ _No description available_
 |:----:|
 |text|
 
-_Set a custom font._
+Set a custom font.
 
 ### Title Color
 
@@ -685,7 +685,7 @@ _Set a custom font._
 |:----:|:-------:|
 |number|&HFFFFFFFF|
 
-_Specifies the title text color for dialogs._
+Specifies the title text color for dialogs.
 
 ### Title Font Typeface
 
@@ -711,7 +711,7 @@ _No description available_
 |:----:|
 |text|
 
-_Set a custom font._
+Set a custom font.
 
 ### Use Background Color
 
@@ -724,4 +724,4 @@ _Set a custom font._
 |:----:|:-------:|
 |boolean|True|
 
-_If enabled the dialog will use the color from the "Background Color"-option. Else it will use the theme (light or dark)._
+If enabled the dialog will use the color from the "Background Color"-option. Else it will use the theme (light or dark).

@@ -8,7 +8,7 @@
 
 ## Overview
 
-_A non-visible component that reads barcodes from the device''s camera._
+A non-visible component that reads barcodes from the device''s camera.
 
 ## Events
 
@@ -22,7 +22,7 @@ _A non-visible component that reads barcodes from the device''s camera._
     |result|`text`|
 
 
-_Indicates that the scanner has read a (text) result and provides the result_
+Indicates that the scanner has read a (text) result and provides the result
 
 ## Methods
 
@@ -30,7 +30,7 @@ _Indicates that the scanner has read a (text) result and provides the result_
 
 [[Method('Barcode Scanner', 'DoScan', false)]]
 
-_Begins a barcode scan, using the camera. When the scan is complete, the AfterScan event will be raised._
+Begins a barcode scan, using the camera. When the scan is complete, the AfterScan event will be raised.
 
 ## Properties
 
@@ -45,7 +45,7 @@ _Begins a barcode scan, using the camera. When the scan is complete, the AfterSc
 |:----:|:-------:|
 |boolean|False|
 
-_If true App Inventor will look for and use an external scanning program such as "Bar Code Scanner."_
+If true App Inventor will look for and use an external scanning program such as "Bar Code Scanner."
 
 ### Result
 
@@ -56,4 +56,4 @@ _If true App Inventor will look for and use an external scanning program such as
 |:----:|:-------:|
 |text|None|
 
-_Text result of the previous scan._
+Text result of the previous scan.

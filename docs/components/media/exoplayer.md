@@ -8,7 +8,7 @@
 
 ## Overview
 
-_A non-visible component that plays audio files. <br>The ExoPlayer component, powered by Google, has significantly lower audio playback delay/lag than other players._
+A non-visible component that plays audio files. <br>The ExoPlayer component, powered by Google, has significantly lower audio playback delay/lag than other players.
 
 ## Events
 
@@ -16,7 +16,7 @@ _A non-visible component that plays audio files. <br>The ExoPlayer component, po
 
 [[Event('ExoPlayer', 'Completed')]]
 
-_This event is invoked if the player state is completed._
+This event is invoked if the player state is completed.
 
 ### Got Meta Data
 
@@ -32,7 +32,7 @@ _This event is invoked if the player state is completed._
     |track|`text`|
 
 
-_This event returns meta data from the audio stream. Works for files but not for streams as example radio streams._
+This event returns meta data from the audio stream. Works for files but not for streams as example radio streams.
 
 ### On Player Error
 
@@ -44,19 +44,19 @@ _This event returns meta data from the audio stream. Works for files but not for
     |error Message|`text`|
 
 
-_This event returns the error reason for any problems._
+This event returns the error reason for any problems.
 
 ### Other Player Started
 
 [[Event('ExoPlayer', 'Other Player Started')]]
 
-_This event is signaled when another player has started (and the current player is playing or paused, but not stopped)._
+This event is signaled when another player has started (and the current player is playing or paused, but not stopped).
 
 ### Other Player Stopped
 
 [[Event('ExoPlayer', 'Other Player Stopped')]]
 
-_This event is signaled when another player has stopped (and the current player is playing or paused, but not stopped)._
+This event is signaled when another player has stopped (and the current player is playing or paused, but not stopped).
 
 ### Status Changed
 
@@ -71,7 +71,7 @@ _This event is signaled when another player has stopped (and the current player 
     |is Loading|`boolean`|
 
 
-_This event returns true or false for the respective simpleExoPlayer statuses._
+This event returns true or false for the respective simpleExoPlayer statuses.
 
 ## Methods
 
@@ -79,13 +79,13 @@ _This event returns true or false for the respective simpleExoPlayer statuses._
 
 [[Method('ExoPlayer', 'Pause', false)]]
 
-_Pause the player._
+Pause the player.
 
 ### Resume
 
 [[Method('ExoPlayer', 'Resume', false)]]
 
-_Resume the player._
+Resume the player.
 
 ### SeekTo
 
@@ -97,19 +97,19 @@ _Resume the player._
     |position|`number`|
 
 
-_Set a position where the source file should start playing in milliseconds._
+Set a position where the source file should start playing in milliseconds.
 
 ### Start
 
 [[Method('ExoPlayer', 'Start', false)]]
 
-_Start the player._
+Start the player.
 
 ### Stop
 
 [[Method('ExoPlayer', 'Stop', false)]]
 
-_Stop the player._
+Stop the player.
 
 ### is Loading
 
@@ -117,7 +117,7 @@ _Stop the player._
 
 {>>Returns `boolean`<<}
 
-_Returns true if the player is current loading._
+Returns true if the player is current loading.
 
 ### is Pause
 
@@ -125,7 +125,7 @@ _Returns true if the player is current loading._
 
 {>>Returns `boolean`<<}
 
-_Returns true if the player is current in pause mode._
+Returns true if the player is current in pause mode.
 
 ### is Playing
 
@@ -133,7 +133,7 @@ _Returns true if the player is current in pause mode._
 
 {>>Returns `boolean`<<}
 
-_Returns true if the player is current playing._
+Returns true if the player is current playing.
 
 ### is Stopped
 
@@ -141,7 +141,7 @@ _Returns true if the player is current playing._
 
 {>>Returns `boolean`<<}
 
-_Returns true if the player is current stopped._
+Returns true if the player is current stopped.
 
 ## Properties
 
@@ -156,7 +156,7 @@ _Returns true if the player is current stopped._
 |:----:|:-------:|
 |boolean|False|
 
-_If true, the player will loop when it plays._
+If true, the player will loop when it plays.
 
 ### Source
 
@@ -169,7 +169,7 @@ _If true, the player will loop when it plays._
 |:----:|
 |text|
 
-_Set the path to the audio source. Can be a asset file, from external card, or from a online stream._
+Set the path to the audio source. Can be a asset file, from external card, or from a online stream.
 
 ### Volume
 
@@ -182,7 +182,7 @@ _Set the path to the audio source. Can be a asset file, from external card, or f
 |:----:|:-------:|
 |number|50|
 
-_Sets the volume to a number between 0 and 100_
+Sets the volume to a number between 0 and 100
 
 ### Current Position
 
@@ -193,7 +193,7 @@ _Sets the volume to a number between 0 and 100_
 |:----:|:-------:|
 |number|None|
 
-_Returns the current position of the source file that is playing in milliseconds._
+Returns the current position of the source file that is playing in milliseconds.
 
 ### Duration
 
@@ -204,4 +204,4 @@ _Returns the current position of the source file that is playing in milliseconds
 |:----:|:-------:|
 |number|None|
 
-_Returns the duration of the source file._
+Returns the duration of the source file.

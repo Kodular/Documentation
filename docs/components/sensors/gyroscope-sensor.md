@@ -8,7 +8,7 @@
 
 ## Overview
 
-_<p>Non-visible component that can measure angular velocity in three dimensions in units of degrees per second.</p><p>In order to function, the component must have its <code>Enabled</code> property set to True, and the device must have a gyroscope sensor.</p>_
+<p>Non-visible component that can measure angular velocity in three dimensions in units of degrees per second.</p><p>In order to function, the component must have its <code>Enabled</code> property set to True, and the device must have a gyroscope sensor.</p>
 
 ## Events
 
@@ -25,7 +25,7 @@ _<p>Non-visible component that can measure angular velocity in three dimensions 
     |timestamp|`number`|
 
 
-_Indicates that the gyroscope sensor data has changed. The timestamp parameter is the time in nanoseconds at which the event occurred._
+Indicates that the gyroscope sensor data has changed. The timestamp parameter is the time in nanoseconds at which the event occurred.
 
 ## Properties
 
@@ -40,7 +40,7 @@ _Indicates that the gyroscope sensor data has changed. The timestamp parameter i
 |:----:|:-------:|
 |boolean|True|
 
-_Enabled property getter method._
+Enabled property getter method.
 
 ### Available
 
@@ -51,7 +51,7 @@ _Enabled property getter method._
 |:----:|:-------:|
 |boolean|None|
 
-_Indicates whether a gyroscope sensor is available._
+Indicates whether a gyroscope sensor is available.
 
 ### X Angular Velocity
 
@@ -62,7 +62,7 @@ _Indicates whether a gyroscope sensor is available._
 |:----:|:-------:|
 |number|None|
 
-_The angular velocity around the X axis, in degrees per second._
+The angular velocity around the X axis, in degrees per second.
 
 ### Y Angular Velocity
 
@@ -73,7 +73,7 @@ _The angular velocity around the X axis, in degrees per second._
 |:----:|:-------:|
 |number|None|
 
-_The angular velocity around the Y axis, in degrees per second._
+The angular velocity around the Y axis, in degrees per second.
 
 ### Z Angular Velocity
 
@@ -84,4 +84,4 @@ _The angular velocity around the Y axis, in degrees per second._
 |:----:|:-------:|
 |number|None|
 
-_The angular velocity around the Z axis, in degrees per second._
+The angular velocity around the Z axis, in degrees per second.

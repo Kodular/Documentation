@@ -8,7 +8,7 @@
 
 ## Overview
 
-_A component that provides a high-level interface to a sound sensor on a LEGO MINDSTORMS NXT robot._
+A component that provides a high-level interface to a sound sensor on a LEGO MINDSTORMS NXT robot.
 
 ## Events
 
@@ -16,19 +16,19 @@ _A component that provides a high-level interface to a sound sensor on a LEGO MI
 
 [[Event('NXT Sound Sensor', 'Above Range')]]
 
-_Sound level has gone above the range._
+Sound level has gone above the range.
 
 ### Below Range
 
 [[Event('NXT Sound Sensor', 'Below Range')]]
 
-_Sound level has gone below the range._
+Sound level has gone below the range.
 
 ### Within Range
 
 [[Event('NXT Sound Sensor', 'Within Range')]]
 
-_Sound level has gone within the range._
+Sound level has gone within the range.
 
 ## Methods
 
@@ -38,7 +38,7 @@ _Sound level has gone within the range._
 
 {>>Returns `number`<<}
 
-_Returns the current sound level as a value between 0 and 1023, or -1 if the sound level can not be read._
+Returns the current sound level as a value between 0 and 1023, or -1 if the sound level can not be read.
 
 ## Properties
 
@@ -53,7 +53,7 @@ _Returns the current sound level as a value between 0 and 1023, or -1 if the sou
 |:----:|:-------:|
 |boolean|False|
 
-_Whether the AboveRange event should fire when the sound level goes above the TopOfRange._
+Whether the AboveRange event should fire when the sound level goes above the TopOfRange.
 
 ### Below Range Event Enabled
 
@@ -66,7 +66,7 @@ _Whether the AboveRange event should fire when the sound level goes above the To
 |:----:|:-------:|
 |boolean|False|
 
-_Whether the BelowRange event should fire when the sound level goes below the BottomOfRange._
+Whether the BelowRange event should fire when the sound level goes below the BottomOfRange.
 
 ### Bluetooth Client
 
@@ -79,7 +79,7 @@ _Whether the BelowRange event should fire when the sound level goes below the Bo
 |:----:|
 |component|
 
-_The BluetoothClient component that should be used for communication._
+The BluetoothClient component that should be used for communication.
 
 ### Bottom Of Range
 
@@ -92,7 +92,7 @@ _The BluetoothClient component that should be used for communication._
 |:----:|:-------:|
 |number|256|
 
-_The bottom of the range used for the BelowRange, WithinRange, and AboveRange events._
+The bottom of the range used for the BelowRange, WithinRange, and AboveRange events.
 
 ### Sensor Port
 
@@ -105,7 +105,7 @@ _The bottom of the range used for the BelowRange, WithinRange, and AboveRange ev
 |:----:|:-------:|
 |text|2|
 
-_The sensor port that the sensor is connected to._
+The sensor port that the sensor is connected to.
 
 ### Top Of Range
 
@@ -118,7 +118,7 @@ _The sensor port that the sensor is connected to._
 |:----:|:-------:|
 |number|767|
 
-_The top of the range used for the BelowRange, WithinRange, and AboveRange events._
+The top of the range used for the BelowRange, WithinRange, and AboveRange events.
 
 ### Within Range Event Enabled
 
@@ -131,4 +131,4 @@ _The top of the range used for the BelowRange, WithinRange, and AboveRange event
 |:----:|:-------:|
 |boolean|False|
 
-_Whether the WithinRange event should fire when the sound level goes between the BottomOfRange and the TopOfRange._
+Whether the WithinRange event should fire when the sound level goes between the BottomOfRange and the TopOfRange.

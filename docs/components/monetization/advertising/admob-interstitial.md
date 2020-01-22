@@ -8,7 +8,7 @@
 
 ## Overview
 
-_An interstitial ad is a full-page ad. AdMobInterstitial component allows you to monetize your app. You must have a valid AdMob account and AdUnitId that can be obtained from http://www.google.com/AdMob . If your id is invalid, the AdMobInterstitial will not display on the emulator or the device. Warning: Make sure you're in test mode during development to avoid being disabled for clicking your own ads. _
+An interstitial ad is a full-page ad. AdMobInterstitial component allows you to monetize your app. You must have a valid AdMob account and AdUnitId that can be obtained from http://www.google.com/AdMob . If your id is invalid, the AdMobInterstitial will not display on the emulator or the device. Warning: Make sure you're in test mode during development to avoid being disabled for clicking your own ads. 
 
 ## Events
 
@@ -16,7 +16,7 @@ _An interstitial ad is a full-page ad. AdMobInterstitial component allows you to
 
 [[Event('AdMob Interstitial', 'Ad Closed')]]
 
-_Called when an ad was closed._
+Called when an ad was closed.
 
 ### Ad Failed To Load
 
@@ -29,7 +29,7 @@ _Called when an ad was closed._
     |error Message|`text`|
 
 
-_Called when an ad request failed to load. The message will display the error code and error message._
+Called when an ad request failed to load. The message will display the error code and error message.
 
 ### Ad Failed To Show
 
@@ -41,25 +41,25 @@ _Called when an ad request failed to load. The message will display the error co
     |message|`text`|
 
 
-_Called when an an attempt was made to display the ad, but the ad was not ready to display._
+Called when an an attempt was made to display the ad, but the ad was not ready to display.
 
 ### Ad Left Application
 
 [[Event('AdMob Interstitial', 'Ad Left Application')]]
 
-_Called when an ad leaves the application (e.g., to go to the browser)._
+Called when an ad leaves the application (e.g., to go to the browser).
 
 ### Ad Loaded
 
 [[Event('AdMob Interstitial', 'Ad Loaded')]]
 
-_Called when an ad request was loaded._
+Called when an ad request was loaded.
 
 ### Ad Opened
 
 [[Event('AdMob Interstitial', 'Ad Opened')]]
 
-_Called when an ad was opened._
+Called when an ad was opened.
 
 ### On Consent Changed
 
@@ -71,7 +71,7 @@ _Called when an ad was opened._
     |personalized|`boolean`|
 
 
-_Event triggered when the consent was changed._
+Event triggered when the consent was changed.
 
 ## Methods
 
@@ -79,19 +79,19 @@ _Event triggered when the consent was changed._
 
 [[Method('AdMob Interstitial', 'Load Ad', false)]]
 
-_Load a new AdMob Interstitial ad._
+Load a new AdMob Interstitial ad.
 
 ### RevokeConsent
 
 [[Method('AdMob Interstitial', 'RevokeConsent', false)]]
 
-_Deletes the user's consent. Useful if you want to test the consent dialog in development._
+Deletes the user's consent. Useful if you want to test the consent dialog in development.
 
 ### ShowInterstitialAd
 
 [[Method('AdMob Interstitial', 'ShowInterstitialAd', false)]]
 
-_It will show the Interstitial Ad_
+It will show the Interstitial Ad
 
 ## Properties
 
@@ -106,7 +106,7 @@ _It will show the Interstitial Ad_
 |:----:|:-------:|
 |boolean|True|
 
-_This property must be set to true to receive ads._
+This property must be set to true to receive ads.
 
 ### Ad Unit ID
 
@@ -132,7 +132,7 @@ _No description available_
 |:----:|:-------:|
 |text|unity|
 
-_Sets the ad network used to take the commission._
+Sets the ad network used to take the commission.
 
 ### Consent Development Mode
 
@@ -145,7 +145,7 @@ _Sets the ad network used to take the commission._
 |:----:|:-------:|
 |boolean|False|
 
-_If enabled you will see the consent dialog no matter if you are located in Europe or not. Please use this option only in development.  If this setting is enabled ALL taken consents will not be saved._
+If enabled you will see the consent dialog no matter if you are located in Europe or not. Please use this option only in development.  If this setting is enabled ALL taken consents will not be saved.
 
 ### Consent Message
 
@@ -158,7 +158,7 @@ _If enabled you will see the consent dialog no matter if you are located in Euro
 |:----:|:-------:|
 |text|Can we continue to use your data to tailor ads for you?|
 
-_The message for the consent dialog._
+The message for the consent dialog.
 
 ### Consent Title
 
@@ -171,7 +171,7 @@ _The message for the consent dialog._
 |:----:|:-------:|
 |text|Data Protection|
 
-_The title for the consent dialog._
+The title for the consent dialog.
 
 ### Target Age
 
@@ -184,7 +184,7 @@ _The title for the consent dialog._
 |:----:|:-------:|
 |number|0|
 
-_Leave 0 for targeting ALL ages_
+Leave 0 for targeting ALL ages
 
 ### Target For Children
 
@@ -197,7 +197,7 @@ _Leave 0 for targeting ALL ages_
 |:----:|:-------:|
 |boolean|False|
 
-_Indicate whether you want Google to treat your content as child-directed when you make an ad request. Info here: https://developers.google.com/mobile-ads-sdk/docs/admob/android/targeting#child-directed_setting_
+Indicate whether you want Google to treat your content as child-directed when you make an ad request. Info here: https://developers.google.com/mobile-ads-sdk/docs/admob/android/targeting#child-directed_setting
 
 ### Target Gender
 
@@ -223,7 +223,7 @@ _No description available_
 |:----:|:-------:|
 |boolean|False|
 
-_If you want to test the component then that this property to true. Then you will receive test ads._
+If you want to test the component then that this property to true. Then you will receive test ads.
 
 ### Personalized Result
 
@@ -234,4 +234,4 @@ _If you want to test the component then that this property to true. Then you wil
 |:----:|:-------:|
 |boolean|None|
 
-_Returns the current personalized consent. If true user has consent to personalized ads._
+Returns the current personalized consent. If true user has consent to personalized ads.

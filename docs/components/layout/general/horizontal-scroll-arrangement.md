@@ -6,7 +6,7 @@
 
 ## Overview
 
-_<p>A formatting element in which to place components that should be displayed from left to right.  If you wish to have components displayed one over another, use <code>VerticalArrangement</code> instead.</p><p>This version is scrollable._
+<p>A formatting element in which to place components that should be displayed from left to right.  If you wish to have components displayed one over another, use <code>VerticalArrangement</code> instead.</p><p>This version is scrollable.
 
 ## Events
 
@@ -14,13 +14,13 @@ _<p>A formatting element in which to place components that should be displayed f
 
 [[Event('Horizontal Scroll Arrangement', 'Click')]]
 
-_Click listener event._
+Click listener event.
 
 ### Long Click
 
 [[Event('Horizontal Scroll Arrangement', 'Long Click')]]
 
-_Long click listener event._
+Long click listener event.
 
 ## Properties
 
@@ -35,7 +35,7 @@ _Long click listener event._
 |:----:|:-------:|
 |number|1|
 
-_A number that encodes how contents of the arrangement are aligned  horizontally. The choices are: 1 = left aligned, 2 = right aligned,  3 = horizontally centered.  Alignment has no effect if the arrangement's width is automatic._
+A number that encodes how contents of the arrangement are aligned  horizontally. The choices are: 1 = left aligned, 2 = right aligned,  3 = horizontally centered.  Alignment has no effect if the arrangement's width is automatic.
 
 ### Align Vertical
 
@@ -48,7 +48,7 @@ _A number that encodes how contents of the arrangement are aligned  horizontally
 |:----:|:-------:|
 |number|1|
 
-_A number that encodes how the contents of the arrangement are aligned  vertically. The choices are: 1 = aligned at the top, 2 = vertically centered, 3 = aligned at the bottom.  Alignment has no effect if the arrangement's height is automatic._
+A number that encodes how the contents of the arrangement are aligned  vertically. The choices are: 1 = aligned at the top, 2 = vertically centered, 3 = aligned at the bottom.  Alignment has no effect if the arrangement's height is automatic.
 
 ### Background Color
 
@@ -61,7 +61,7 @@ _A number that encodes how the contents of the arrangement are aligned  vertical
 |:----:|:-------:|
 |number|&H00000000|
 
-_Returns the component's background color_
+Returns the component's background color
 
 ### Clickable
 
@@ -74,7 +74,7 @@ _Returns the component's background color_
 |:----:|:-------:|
 |boolean|False|
 
-_Set the component clickable or not clickable._
+Set the component clickable or not clickable.
 
 ### Image
 
@@ -87,7 +87,7 @@ _Set the component clickable or not clickable._
 |:----:|
 |text|
 
-_Returns the path of the button's image._
+Returns the path of the button's image.
 
 ### Scrollbar
 
@@ -100,7 +100,7 @@ _Returns the path of the button's image._
 |:----:|:-------:|
 |boolean|True|
 
-_Whether to display a scrollbar_
+Whether to display a scrollbar
 
 ### Use Round Card
 
@@ -113,7 +113,7 @@ _Whether to display a scrollbar_
 |:----:|:-------:|
 |boolean|False|
 
-_If enabled the card layout will have then round corners._
+If enabled the card layout will have then round corners.
 
 ### Visible
 
@@ -126,7 +126,7 @@ _If enabled the card layout will have then round corners._
 |:----:|:-------:|
 |boolean|True|
 
-_Returns true iff the component is visible._
+Returns true iff the component is visible.
 
 ### Is Card
 
@@ -139,7 +139,7 @@ _Returns true iff the component is visible._
 |:----:|:-------:|
 |boolean|False|
 
-_If enabled the arrangement will be convert to a card view. You can detect clicks on it with the "Click" event._
+If enabled the arrangement will be convert to a card view. You can detect clicks on it with the "Click" event.
 
 ### Column
 
@@ -150,7 +150,7 @@ _If enabled the arrangement will be convert to a card view. You can detect click
 |:----:|:-------:|
 |number|None|
 
-_Column property getter method._
+Column property getter method.
 
 ### Full Clickable
 
@@ -174,7 +174,7 @@ _No description available_
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's vertical height, measured in pixels._
+Specifies the component's vertical height, measured in pixels.
 
 ### Height Percent
 
@@ -185,8 +185,8 @@ _Specifies the component's vertical height, measured in pixels._
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's vertical height as a percentage
- of the height of its parent Component._
+Specifies the component's vertical height as a percentage
+ of the height of its parent Component.
 
 ### Row
 
@@ -197,7 +197,7 @@ _Specifies the component's vertical height as a percentage
 |:----:|:-------:|
 |number|None|
 
-_Row property getter method._
+Row property getter method.
 
 ### Width
 
@@ -208,7 +208,7 @@ _Row property getter method._
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's horizontal width, measured in pixels._
+Specifies the component's horizontal width, measured in pixels.
 
 ### Width Percent
 
@@ -219,5 +219,5 @@ _Specifies the component's horizontal width, measured in pixels._
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's horizontal width as a percentage
- of the Width of its parent Component._
+Specifies the component's horizontal width as a percentage
+ of the Width of its parent Component.

@@ -8,7 +8,7 @@
 
 ## Overview
 
-_A non-visible component that is used to create Floating Action Buttons. <br>Floating Action Buttons are used to indicate the primary action of the screen._
+A non-visible component that is used to create Floating Action Buttons. <br>Floating Action Buttons are used to indicate the primary action of the screen.
 
 ## Events
 
@@ -16,13 +16,13 @@ _A non-visible component that is used to create Floating Action Buttons. <br>Flo
 
 [[Event('Floating Action Button', 'Click')]]
 
-_Event to detect that the fab button was clicked._
+Event to detect that the fab button was clicked.
 
 ### Long Click
 
 [[Event('Floating Action Button', 'Long Click')]]
 
-_Event to detect that the fab button was long clicked._
+Event to detect that the fab button was long clicked.
 
 ## Methods
 
@@ -30,31 +30,31 @@ _Event to detect that the fab button was long clicked._
 
 [[Method('Floating Action Button', 'Hide', false)]]
 
-_Hides the fab button._
+Hides the fab button.
 
 ### HideTextMessage
 
 [[Method('Floating Action Button', 'HideTextMessage', false)]]
 
-_Hides text message._
+Hides text message.
 
 ### Show
 
 [[Method('Floating Action Button', 'Show', false)]]
 
-_Shows the fab button._
+Shows the fab button.
 
 ### ShowTextMessage
 
 [[Method('Floating Action Button', 'ShowTextMessage', false)]]
 
-_Show a new text message near to the fab with the given properties. You can do the changes with the properties in the advanded category._
+Show a new text message near to the fab with the given properties. You can do the changes with the properties in the advanded category.
 
 ### StartRotationAnimation
 
 [[Method('Floating Action Button', 'StartRotationAnimation', false)]]
 
-_Starts a rotation animation. You can use the 'Rotation Duration','Rotation Start Degrees' and 'Rotation End Degrees' to define the animation. This block will work too if the 'Rotation On Click' property is disabled._
+Starts a rotation animation. You can use the 'Rotation Duration','Rotation Start Degrees' and 'Rotation End Degrees' to define the animation. This block will work too if the 'Rotation On Click' property is disabled.
 
 ## Properties
 
@@ -69,7 +69,7 @@ _Starts a rotation animation. You can use the 'Rotation Duration','Rotation Star
 |:----:|:-------:|
 |number|&HFF2196F2|
 
-_Returns the fab's background color._
+Returns the fab's background color.
 
 ### Call Fab Click Event When Label Clicked
 
@@ -82,7 +82,7 @@ _Returns the fab's background color._
 |:----:|:-------:|
 |boolean|False|
 
-_If true the FAB click listener will be invoked on a text message click._
+If true the FAB click listener will be invoked on a text message click.
 
 ### Call Fab Long Click Event When Label Long Clicked
 
@@ -95,7 +95,7 @@ _If true the FAB click listener will be invoked on a text message click._
 |:----:|:-------:|
 |boolean|False|
 
-_If true the FAB long click listener will be invoked on a text message long click._
+If true the FAB long click listener will be invoked on a text message long click.
 
 ### Elevation
 
@@ -121,7 +121,7 @@ _No description available_
 |:----:|:-------:|
 |boolean|True|
 
-_Hide the text message when clicking on the message_
+Hide the text message when clicking on the message
 
 ### Hide Label When Long Clicked
 
@@ -134,7 +134,7 @@ _Hide the text message when clicking on the message_
 |:----:|:-------:|
 |boolean|True|
 
-_Hide the text message after a long click on the text message._
+Hide the text message after a long click on the text message.
 
 ### Icon
 
@@ -147,7 +147,7 @@ _Hide the text message after a long click on the text message._
 |:----:|
 |text|
 
-_The path for the used image in FAB._
+The path for the used image in FAB.
 
 ### Icon Color
 
@@ -160,7 +160,7 @@ _The path for the used image in FAB._
 |:----:|:-------:|
 |number|&HFFFFFFFF|
 
-_The color for the material icon._
+The color for the material icon.
 
 ### Material Icon Name
 
@@ -173,7 +173,7 @@ _The color for the material icon._
 |:----:|:-------:|
 |text|add|
 
-_Use a material icon for the fab without uploading a image resource into your project. You can find the icon name (or code) here at https://material.io/icons_
+Use a material icon for the fab without uploading a image resource into your project. You can find the icon name (or code) here at https://material.io/icons
 
 ### Margin Bottom
 
@@ -186,7 +186,7 @@ _Use a material icon for the fab without uploading a image resource into your pr
 |:----:|:-------:|
 |number|16|
 
-_Returns the fab's bottom margin._
+Returns the fab's bottom margin.
 
 ### Margin Right
 
@@ -199,7 +199,7 @@ _Returns the fab's bottom margin._
 |:----:|:-------:|
 |number|16|
 
-_Returns right margin_
+Returns right margin
 
 ### Ripple Color
 
@@ -212,7 +212,7 @@ _Returns right margin_
 |:----:|:-------:|
 |number|&HFFFFFFFF|
 
-_Returns the fab's ripple color._
+Returns the fab's ripple color.
 
 ### Rotation Duration (millisecond)
 
@@ -225,7 +225,7 @@ _Returns the fab's ripple color._
 |:----:|:-------:|
 |number|300|
 
-_Returns the fab's rotation duration in milliseconds._
+Returns the fab's rotation duration in milliseconds.
 
 ### Rotation End Degrees
 
@@ -238,7 +238,7 @@ _Returns the fab's rotation duration in milliseconds._
 |:----:|:-------:|
 |number|360|
 
-_Returns the fab's rotation end degrees._
+Returns the fab's rotation end degrees.
 
 ### Rotate On Click
 
@@ -251,7 +251,7 @@ _Returns the fab's rotation end degrees._
 |:----:|:-------:|
 |boolean|True|
 
-_Returns true if the fab will rotate on click._
+Returns true if the fab will rotate on click.
 
 ### Rotation Start Degrees
 
@@ -264,7 +264,7 @@ _Returns true if the fab will rotate on click._
 |:----:|:-------:|
 |number|0|
 
-_Returns the fab's rotation start degrees._
+Returns the fab's rotation start degrees.
 
 ### Show Label On Left Side
 
@@ -277,7 +277,7 @@ _Returns the fab's rotation start degrees._
 |:----:|:-------:|
 |boolean|True|
 
-_Set the text message to the left side of the floating button. If false the text will be on the right side._
+Set the text message to the left side of the floating button. If false the text will be on the right side.
 
 ### Size
 
@@ -290,7 +290,7 @@ _Set the text message to the left side of the floating button. If false the text
 |:----:|:-------:|
 |number|1|
 
-_Sets the size of the button. Use '1' for normal, '2' for mini or '3' for auto size based on the screen size._
+Sets the size of the button. Use '1' for normal, '2' for mini or '3' for auto size based on the screen size.
 
 ### Label Background Color
 
@@ -303,7 +303,7 @@ _Sets the size of the button. Use '1' for normal, '2' for mini or '3' for auto s
 |:----:|:-------:|
 |number|&HFF444444|
 
-_Set the text message background color._
+Set the text message background color.
 
 ### Label Corner Radius
 
@@ -316,7 +316,7 @@ _Set the text message background color._
 |:----:|:-------:|
 |number|8|
 
-_Set the text message corner radius._
+Set the text message corner radius.
 
 ### Label Text
 
@@ -329,7 +329,7 @@ _Set the text message corner radius._
 |:----:|
 |text|
 
-_Set the text message._
+Set the text message.
 
 ### Label Text Color
 
@@ -342,7 +342,7 @@ _Set the text message._
 |:----:|:-------:|
 |number|&HFFFFFFFF|
 
-_Set the text message color._
+Set the text message color.
 
 ### Visible
 
@@ -355,4 +355,4 @@ _Set the text message color._
 |:----:|:-------:|
 |boolean|True|
 
-_Returns true if the fab button is visible._
+Returns true if the fab button is visible.

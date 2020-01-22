@@ -6,7 +6,7 @@
 
 ## Overview
 
-_A visible component that lets the user toggle between two states — on and off._
+A visible component that lets the user toggle between two states — on and off.
 
 ## Events
 
@@ -20,7 +20,7 @@ _A visible component that lets the user toggle between two states — on and off
     |is Checked|`boolean`|
 
 
-_Event invoked when a switch has been clicked. Returns true or false if the switch is checked or not._
+Event invoked when a switch has been clicked. Returns true or false if the switch is checked or not.
 
 ## Methods
 
@@ -34,7 +34,7 @@ _Event invoked when a switch has been clicked. Returns true or false if the swit
     |image|`text`|
 
 
-_Set the drawable used for the switch 'thumb' - the piece that the user can physically touch and drag along the track. If 'color Filter Enabled' is set to true, the image will get a light tint filter with the same color that you used as thumb color._
+Set the drawable used for the switch 'thumb' - the piece that the user can physically touch and drag along the track. If 'color Filter Enabled' is set to true, the image will get a light tint filter with the same color that you used as thumb color.
 
 ### ThumbImageFromMaterialFont
 
@@ -47,7 +47,7 @@ _Set the drawable used for the switch 'thumb' - the piece that the user can phys
     |size|`number`|
 
 
-_Set the drawable used for the switch 'thumb' - the piece that the user can physically touch and drag along the track. You can find the icon name (or code) here at https://material.io/icons . Use as size as example '300'._
+Set the drawable used for the switch 'thumb' - the piece that the user can physically touch and drag along the track. You can find the icon name (or code) here at https://material.io/icons . Use as size as example '300'.
 
 ## Properties
 
@@ -62,7 +62,7 @@ _Set the drawable used for the switch 'thumb' - the piece that the user can phys
 |:----:|:-------:|
 |boolean|False|
 
-_Set the toggle to checked or unchecked_
+Set the toggle to checked or unchecked
 
 ### Enabled
 
@@ -75,7 +75,7 @@ _Set the toggle to checked or unchecked_
 |:----:|:-------:|
 |boolean|True|
 
-_If set to true, user can touch the switch._
+If set to true, user can touch the switch.
 
 ### Font Bold
 
@@ -127,7 +127,7 @@ _No description available_
 |:----:|
 |text|
 
-_Set a custom font._
+Set a custom font.
 
 ### Text Color
 
@@ -140,7 +140,7 @@ _Set a custom font._
 |:----:|:-------:|
 |number|&HFF4CAF50|
 
-_Set the text color for the switch._
+Set the text color for the switch.
 
 ### Text Off
 
@@ -153,7 +153,7 @@ _Set the text color for the switch._
 |:----:|:-------:|
 |text|Switch Off|
 
-_Set here the switch off text. HTML tags are too possible: <b>, <big>, <blockquote>, <br>, <cite>, <dfn>, <div>, <em>, <small>, <strong>, <sub>, <sup>, <tt>, <u>. Example: <big>Test</big>._
+Set here the switch off text. HTML tags are too possible: <b>, <big>, <blockquote>, <br>, <cite>, <dfn>, <div>, <em>, <small>, <strong>, <sub>, <sup>, <tt>, <u>. Example: <big>Test</big>.
 
 ### Text On
 
@@ -166,7 +166,7 @@ _Set here the switch off text. HTML tags are too possible: <b>, <big>, <blockquo
 |:----:|:-------:|
 |text|Switch On|
 
-_Set here the switch on text. HTML tags are too possible: <b>, <big>, <blockquote>, <br>, <cite>, <dfn>, <div>, <em>, <small>, <strong>, <sub>, <sup>, <tt>, <u>. Example: <big>Test</big>._
+Set here the switch on text. HTML tags are too possible: <b>, <big>, <blockquote>, <br>, <cite>, <dfn>, <div>, <em>, <small>, <strong>, <sub>, <sup>, <tt>, <u>. Example: <big>Test</big>.
 
 ### Font Size
 
@@ -179,7 +179,7 @@ _Set here the switch on text. HTML tags are too possible: <b>, <big>, <blockquot
 |:----:|:-------:|
 |number|14.0|
 
-_The text size of the switch._
+The text size of the switch.
 
 ### Thumb Color
 
@@ -192,7 +192,7 @@ _The text size of the switch._
 |:----:|:-------:|
 |number|&HFF4CAF50|
 
-_Change the disabled color of the switch._
+Change the disabled color of the switch.
 
 ### Track Color
 
@@ -205,7 +205,7 @@ _Change the disabled color of the switch._
 |:----:|:-------:|
 |number|&HFF009688|
 
-_Change the enabled color of the switch._
+Change the enabled color of the switch.
 
 ### Visible
 
@@ -218,7 +218,7 @@ _Change the enabled color of the switch._
 |:----:|:-------:|
 |boolean|True|
 
-_Returns true iff the component is visible._
+Returns true iff the component is visible.
 
 ### Column
 
@@ -229,7 +229,7 @@ _Returns true iff the component is visible._
 |:----:|:-------:|
 |number|None|
 
-_Column property getter method._
+Column property getter method.
 
 ### Height
 
@@ -240,7 +240,7 @@ _Column property getter method._
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's vertical height, measured in pixels._
+Specifies the component's vertical height, measured in pixels.
 
 ### Height Percent
 
@@ -251,8 +251,8 @@ _Specifies the component's vertical height, measured in pixels._
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's vertical height as a percentage
- of the height of its parent Component._
+Specifies the component's vertical height as a percentage
+ of the height of its parent Component.
 
 ### Row
 
@@ -263,7 +263,7 @@ _Specifies the component's vertical height as a percentage
 |:----:|:-------:|
 |number|None|
 
-_Row property getter method._
+Row property getter method.
 
 ### Width
 
@@ -274,7 +274,7 @@ _Row property getter method._
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's horizontal width, measured in pixels._
+Specifies the component's horizontal width, measured in pixels.
 
 ### Width Percent
 
@@ -285,8 +285,8 @@ _Specifies the component's horizontal width, measured in pixels._
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's horizontal width as a percentage
- of the Width of its parent Component._
+Specifies the component's horizontal width as a percentage
+ of the Width of its parent Component.
 
 ### is Checked
 
@@ -297,4 +297,4 @@ _Specifies the component's horizontal width as a percentage
 |:----:|:-------:|
 |boolean|None|
 
-_Return true if the switch is checked else false._
+Return true if the switch is checked else false.

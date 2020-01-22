@@ -6,7 +6,7 @@
 
 ## Overview
 
-_A visible component that can animate between two or more layout components that have been added to it._
+A visible component that can animate between two or more layout components that have been added to it.
 
 ## Methods
 
@@ -20,7 +20,7 @@ _A visible component that can animate between two or more layout components that
     |component|`component`|
 
 
-_Add a component to the view flipper. The first added component will be the first visible component on the screen._
+Add a component to the view flipper. The first added component will be the first visible component on the screen.
 
 ### AddImagesToView
 
@@ -32,37 +32,37 @@ _Add a component to the view flipper. The first added component will be the firs
     |images|`list`|
 
 
-_Use this function if you try to create a image view flipper. Please use a 'make a list' block._
+Use this function if you try to create a image view flipper. Please use a 'make a list' block.
 
 ### ShowNext
 
 [[Method('View Flipper', 'ShowNext', false)]]
 
-_Show the next view._
+Show the next view.
 
 ### ShowPrevious
 
 [[Method('View Flipper', 'ShowPrevious', false)]]
 
-_Show the previous view._
+Show the previous view.
 
 ### StartFlipping
 
 [[Method('View Flipper', 'StartFlipping', false)]]
 
-_Start a timer to cycle through child views._
+Start a timer to cycle through child views.
 
 ### StopFlipping
 
 [[Method('View Flipper', 'StopFlipping', false)]]
 
-_No more flips._
+No more flips.
 
 ### is Flipping
 
 [[Method('View Flipper', 'is Flipping', false)]]
 
-_Returns true if the child views are flipping._
+Returns true if the child views are flipping.
 
 ## Properties
 
@@ -77,7 +77,7 @@ _Returns true if the child views are flipping._
 |:----:|
 |text|
 
-_Use this function if you try to create a image view flipper. Use images separated by commas such as: Image1.png,Image2.png,Image3.png._
+Use this function if you try to create a image view flipper. Use images separated by commas such as: Image1.png,Image2.png,Image3.png.
 
 ### Background Color
 
@@ -90,7 +90,7 @@ _Use this function if you try to create a image view flipper. Use images separat
 |:----:|:-------:|
 |number|&H00000000|
 
-_Specifies the view flippers background color._
+Specifies the view flippers background color.
 
 ### Flip Interval
 
@@ -103,7 +103,7 @@ _Specifies the view flippers background color._
 |:----:|:-------:|
 |number|1000|
 
-_How long to wait before flipping to the next view in milliseconds._
+How long to wait before flipping to the next view in milliseconds.
 
 ### Swipeable
 
@@ -116,7 +116,7 @@ _How long to wait before flipping to the next view in milliseconds._
 |:----:|:-------:|
 |boolean|True|
 
-_If set to true you can swipe with your fingers through views._
+If set to true you can swipe with your fingers through views.
 
 ### Visible
 
@@ -129,7 +129,7 @@ _If set to true you can swipe with your fingers through views._
 |:----:|:-------:|
 |boolean|True|
 
-_Returns true iff the component is visible._
+Returns true iff the component is visible.
 
 ### Column
 
@@ -140,7 +140,7 @@ _Returns true iff the component is visible._
 |:----:|:-------:|
 |number|None|
 
-_Column property getter method._
+Column property getter method.
 
 ### Height
 
@@ -151,7 +151,7 @@ _Column property getter method._
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's vertical height, measured in pixels._
+Specifies the component's vertical height, measured in pixels.
 
 ### Height Percent
 
@@ -162,8 +162,8 @@ _Specifies the component's vertical height, measured in pixels._
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's vertical height as a percentage
- of the height of its parent Component._
+Specifies the component's vertical height as a percentage
+ of the height of its parent Component.
 
 ### Row
 
@@ -174,7 +174,7 @@ _Specifies the component's vertical height as a percentage
 |:----:|:-------:|
 |number|None|
 
-_Row property getter method._
+Row property getter method.
 
 ### Width
 
@@ -185,7 +185,7 @@ _Row property getter method._
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's horizontal width, measured in pixels._
+Specifies the component's horizontal width, measured in pixels.
 
 ### Width Percent
 
@@ -196,5 +196,5 @@ _Specifies the component's horizontal width, measured in pixels._
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's horizontal width as a percentage
- of the Width of its parent Component._
+Specifies the component's horizontal width as a percentage
+ of the Width of its parent Component.

@@ -8,7 +8,7 @@
 
 ## Overview
 
-_A component to create dynamic image in Arrangements._
+A component to create dynamic image in Arrangements.
 
 ## Methods
 
@@ -26,7 +26,7 @@ _A component to create dynamic image in Arrangements._
     |height|`number`|
 
 
-_Create a new image component dynamically. Use for width/height '-1' for wrap content or '-2' for fill parent._
+Create a new image component dynamically. Use for width/height '-1' for wrap content or '-2' for fill parent.
 
 ### DeleteImage
 
@@ -38,7 +38,7 @@ _Create a new image component dynamically. Use for width/height '-1' for wrap co
     |id|`number`|
 
 
-_Remove a image component with the given id._
+Remove a image component with the given id.
 
 ### GetHeight
 
@@ -52,7 +52,7 @@ _Remove a image component with the given id._
     |id|`number`|
 
 
-_Get the Height of a image component._
+Get the Height of a image component.
 
 ### GetImageById
 
@@ -66,7 +66,7 @@ _Get the Height of a image component._
     |id|`number`|
 
 
-_Returns the image referenced by its id._
+Returns the image referenced by its id.
 
 ### GetWidth
 
@@ -80,7 +80,7 @@ _Returns the image referenced by its id._
     |id|`number`|
 
 
-_Get the Width of a image component._
+Get the Width of a image component.
 
 ### RotationAngle
 
@@ -93,7 +93,7 @@ _Get the Width of a image component._
     |rotation Angle|`number`|
 
 
-_Specifies the angle of a image component with the given id._
+Specifies the angle of a image component with the given id.
 
 ### ScalePictureToFit
 
@@ -106,7 +106,7 @@ _Specifies the angle of a image component with the given id._
     |scale|`boolean`|
 
 
-_Specifies whether a image component with the given id should be resized to match the size of the ImageView._
+Specifies whether a image component with the given id should be resized to match the size of the ImageView.
 
 ### SetHeight
 
@@ -119,7 +119,7 @@ _Specifies whether a image component with the given id should be resized to matc
     |height|`number`|
 
 
-_Update the Height of a image component._
+Update the Height of a image component.
 
 ### SetWidth
 
@@ -132,7 +132,7 @@ _Update the Height of a image component._
     |width|`number`|
 
 
-_Update the Width of a image component._
+Update the Width of a image component.
 
 ### UpdateImage
 
@@ -145,4 +145,4 @@ _Update the Width of a image component._
     |path|`text`|
 
 
-_Update a image component with the given id._
+Update a image component with the given id.

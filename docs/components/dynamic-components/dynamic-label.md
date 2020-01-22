@@ -8,7 +8,7 @@
 
 ## Overview
 
-_A component to create dynamic labels in Arrangements_
+A component to create dynamic labels in Arrangements
 
 ## Methods
 
@@ -23,7 +23,7 @@ _A component to create dynamic labels in Arrangements_
     |arrangement|`component`|
 
 
-_Create a Dynamic Label_
+Create a Dynamic Label
 
 ### DeleteLabel
 
@@ -35,7 +35,7 @@ _Create a Dynamic Label_
     |id|`number`|
 
 
-_Remove a label component with the given id._
+Remove a label component with the given id.
 
 ### GetFontSize
 
@@ -49,7 +49,7 @@ _Remove a label component with the given id._
     |id|`number`|
 
 
-_Get the Font Size of a Label_
+Get the Font Size of a Label
 
 ### GetHeight
 
@@ -63,7 +63,7 @@ _Get the Font Size of a Label_
     |id|`number`|
 
 
-_Get the Height of a Label_
+Get the Height of a Label
 
 ### GetLabelById
 
@@ -77,7 +77,7 @@ _Get the Height of a Label_
     |id|`number`|
 
 
-_Returns the label referenced by its id._
+Returns the label referenced by its id.
 
 ### GetText
 
@@ -91,7 +91,7 @@ _Returns the label referenced by its id._
     |id|`number`|
 
 
-_Get the Text of a Label_
+Get the Text of a Label
 
 ### GetWidth
 
@@ -105,7 +105,7 @@ _Get the Text of a Label_
     |id|`number`|
 
 
-_Get the Width of a Label_
+Get the Width of a Label
 
 ### SetAlignment
 
@@ -118,7 +118,7 @@ _Get the Width of a Label_
     |alignment|`number`|
 
 
-_Update the Text Alignment of a Label. 0 = left, 1 = center and 2 = right._
+Update the Text Alignment of a Label. 0 = left, 1 = center and 2 = right.
 
 ### SetBackgroundColor
 
@@ -131,7 +131,7 @@ _Update the Text Alignment of a Label. 0 = left, 1 = center and 2 = right._
     |color|`number`|
 
 
-_Update the Background Color of a Label_
+Update the Background Color of a Label
 
 ### SetFont
 
@@ -145,7 +145,7 @@ _Update the Background Color of a Label_
     |italic|`boolean`|
 
 
-_Update the Font of a Label_
+Update the Font of a Label
 
 ### SetFontSize
 
@@ -158,7 +158,7 @@ _Update the Font of a Label_
     |size|`number`|
 
 
-_Update the Font Size of a Label_
+Update the Font Size of a Label
 
 ### SetHeight
 
@@ -171,7 +171,7 @@ _Update the Font Size of a Label_
     |height|`number`|
 
 
-_Update the Height of a Label_
+Update the Height of a Label
 
 ### SetText
 
@@ -185,7 +185,7 @@ _Update the Height of a Label_
     |html|`boolean`|
 
 
-_Update the Text of a Label_
+Update the Text of a Label
 
 ### SetTextColor
 
@@ -198,7 +198,7 @@ _Update the Text of a Label_
     |color|`number`|
 
 
-_Update the Text Color of a Label_
+Update the Text Color of a Label
 
 ### SetWidth
 
@@ -211,7 +211,7 @@ _Update the Text Color of a Label_
     |width|`number`|
 
 
-_Update the Width of a Label_
+Update the Width of a Label
 
 ## Properties
 
@@ -224,7 +224,7 @@ _Update the Width of a Label_
 |:----:|:-------:|
 |number|None|
 
-_Center alignment (1)_
+Center alignment (1)
 
 ### Alignment Left
 
@@ -235,7 +235,7 @@ _Center alignment (1)_
 |:----:|:-------:|
 |number|None|
 
-_Left alignment (0)_
+Left alignment (0)
 
 ### Alignment Right
 
@@ -246,4 +246,4 @@ _Left alignment (0)_
 |:----:|:-------:|
 |number|None|
 
-_Right alignment (2)_
+Right alignment (2)

@@ -8,7 +8,7 @@
 
 ## Overview
 
-_A component that provides a high-level interface to a color sensor on a LEGO MINDSTORMS EV3 robot._
+A component that provides a high-level interface to a color sensor on a LEGO MINDSTORMS EV3 robot.
 
 ## Events
 
@@ -16,13 +16,13 @@ _A component that provides a high-level interface to a color sensor on a LEGO MI
 
 [[Event('EV3 Color Sensor', 'Above Range')]]
 
-_Light level has gone above the range._
+Light level has gone above the range.
 
 ### Below Range
 
 [[Event('EV3 Color Sensor', 'Below Range')]]
 
-_Light level has gone below the range._
+Light level has gone below the range.
 
 ### Color Changed
 
@@ -35,13 +35,13 @@ _Light level has gone below the range._
     |color Name|`text`|
 
 
-_Called when the detected color has changed. The ColorChanged event will occur if the Mode property is set to "color" and the ColorChangedEventEnabled property is set to True._
+Called when the detected color has changed. The ColorChanged event will occur if the Mode property is set to "color" and the ColorChangedEventEnabled property is set to True.
 
 ### Within Range
 
 [[Event('EV3 Color Sensor', 'Within Range')]]
 
-_Light level has gone within the range._
+Light level has gone within the range.
 
 ## Methods
 
@@ -51,7 +51,7 @@ _Light level has gone within the range._
 
 {>>Returns `number`<<}
 
-_It returns the color code from 0 to 7 corresponding to no color, black, blue, green, yellow, red, white and brown._
+It returns the color code from 0 to 7 corresponding to no color, black, blue, green, yellow, red, white and brown.
 
 ### GetColorName
 
@@ -59,7 +59,7 @@ _It returns the color code from 0 to 7 corresponding to no color, black, blue, g
 
 {>>Returns `text`<<}
 
-_Return the color name in one of "No Color", "Black", "Blue", "Green", "Yellow", "Red", "White", "Brown"._
+Return the color name in one of "No Color", "Black", "Blue", "Green", "Yellow", "Red", "White", "Brown".
 
 ### GetLightLevel
 
@@ -67,25 +67,25 @@ _Return the color name in one of "No Color", "Black", "Blue", "Green", "Yellow",
 
 {>>Returns `number`<<}
 
-_It returns the light level in percentage, or -1 when the light level cannot be read._
+It returns the light level in percentage, or -1 when the light level cannot be read.
 
 ### SetAmbientMode
 
 [[Method('EV3 Color Sensor', 'SetAmbientMode', false)]]
 
-_Make the sensor read the light level without reflected light._
+Make the sensor read the light level without reflected light.
 
 ### SetColorMode
 
 [[Method('EV3 Color Sensor', 'SetColorMode', false)]]
 
-_Enter the color detection mode._
+Enter the color detection mode.
 
 ### SetReflectedMode
 
 [[Method('EV3 Color Sensor', 'SetReflectedMode', false)]]
 
-_Make the sensor read the light level with reflected light._
+Make the sensor read the light level with reflected light.
 
 ## Properties
 
@@ -100,7 +100,7 @@ _Make the sensor read the light level with reflected light._
 |:----:|:-------:|
 |boolean|False|
 
-_Whether the AboveRange event should fire when the light level goes above the TopOfRange._
+Whether the AboveRange event should fire when the light level goes above the TopOfRange.
 
 ### Below Range Event Enabled
 
@@ -113,7 +113,7 @@ _Whether the AboveRange event should fire when the light level goes above the To
 |:----:|:-------:|
 |boolean|False|
 
-_Whether the BelowRange event should fire when the light level goes below the BottomOfRange._
+Whether the BelowRange event should fire when the light level goes below the BottomOfRange.
 
 ### Bluetooth Client
 
@@ -126,7 +126,7 @@ _Whether the BelowRange event should fire when the light level goes below the Bo
 |:----:|
 |component|
 
-_The BluetoothClient component that should be used for communication._
+The BluetoothClient component that should be used for communication.
 
 ### Bottom Of Range
 
@@ -139,7 +139,7 @@ _The BluetoothClient component that should be used for communication._
 |:----:|:-------:|
 |number|30|
 
-_The bottom of the range used for the BelowRange, WithinRange, and AboveRange events._
+The bottom of the range used for the BelowRange, WithinRange, and AboveRange events.
 
 ### Color Changed Event Enabled
 
@@ -152,7 +152,7 @@ _The bottom of the range used for the BelowRange, WithinRange, and AboveRange ev
 |:----:|:-------:|
 |boolean|False|
 
-_Whether the ColorChanged event should fire when the Mode property is set to "color" and the detected color changes._
+Whether the ColorChanged event should fire when the Mode property is set to "color" and the detected color changes.
 
 ### Mode
 
@@ -165,7 +165,7 @@ _Whether the ColorChanged event should fire when the Mode property is set to "co
 |:----:|:-------:|
 |text|reflected|
 
-_Specifies the mode of the sensor._
+Specifies the mode of the sensor.
 
 ### Sensor Port
 
@@ -178,7 +178,7 @@ _Specifies the mode of the sensor._
 |:----:|:-------:|
 |text|1|
 
-_The sensor port that the sensor is connected to._
+The sensor port that the sensor is connected to.
 
 ### Top Of Range
 
@@ -191,7 +191,7 @@ _The sensor port that the sensor is connected to._
 |:----:|:-------:|
 |number|60|
 
-_The top of the range used for the BelowRange, WithinRange, and AboveRange events._
+The top of the range used for the BelowRange, WithinRange, and AboveRange events.
 
 ### Within Range Event Enabled
 
@@ -204,4 +204,4 @@ _The top of the range used for the BelowRange, WithinRange, and AboveRange event
 |:----:|:-------:|
 |boolean|False|
 
-_Whether the WithinRange event should fire when the light level goes between the BottomOfRange and the TopOfRange._
+Whether the WithinRange event should fire when the light level goes between the BottomOfRange and the TopOfRange.

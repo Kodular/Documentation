@@ -6,7 +6,7 @@
 
 ## Overview
 
-_<p>A button that, when clicked on, displays a list of texts for the user to choose among. The texts can be specified through the Designer or Blocks Editor by setting the <code>ElementsFromString</code> property to their string-separated concatenation (for example, <em>choice 1, choice 2, choice 3</em>) or by setting the <code>Elements</code> property to a List in the Blocks editor.</p><p>Setting property ShowFilterBar to true, will make the list searchable.  Other properties affect the appearance of the button (<code>TextAlignment</code>, <code>BackgroundColor</code>, etc.) and whether it can be clicked on (<code>Enabled</code>).</p>_
+<p>A button that, when clicked on, displays a list of texts for the user to choose among. The texts can be specified through the Designer or Blocks Editor by setting the <code>ElementsFromString</code> property to their string-separated concatenation (for example, <em>choice 1, choice 2, choice 3</em>) or by setting the <code>Elements</code> property to a List in the Blocks editor.</p><p>Setting property ShowFilterBar to true, will make the list searchable.  Other properties affect the appearance of the button (<code>TextAlignment</code>, <code>BackgroundColor</code>, etc.) and whether it can be clicked on (<code>Enabled</code>).</p>
 
 ## Events
 
@@ -20,40 +20,40 @@ _<p>A button that, when clicked on, displays a list of texts for the user to cho
     |selection|`text`|
 
 
-_Event to be raised after the picker activity returns its
- result and the properties have been filled in._
+Event to be raised after the picker activity returns its
+ result and the properties have been filled in.
 
 ### Before Picking
 
 [[Event('List Picker', 'Before Picking')]]
 
-_Event to raise when the button of the component is clicked or the list is shown
+Event to raise when the button of the component is clicked or the list is shown
  using the Open block.  This event occurs before the list of items is displayed, and
- can be used to prepare the list before it is shown._
+ can be used to prepare the list before it is shown.
 
 ### Got Focus
 
 [[Event('List Picker', 'Got Focus')]]
 
-_Indicates the cursor moved over the button so it is now possible to click it._
+Indicates the cursor moved over the button so it is now possible to click it.
 
 ### Lost Focus
 
 [[Event('List Picker', 'Lost Focus')]]
 
-_Indicates the cursor moved away from the button so it is now no longer possible to click it._
+Indicates the cursor moved away from the button so it is now no longer possible to click it.
 
 ### Touch Down
 
 [[Event('List Picker', 'Touch Down')]]
 
-_Indicates that the button was pressed down._
+Indicates that the button was pressed down.
 
 ### Touch Up
 
 [[Event('List Picker', 'Touch Up')]]
 
-_Indicates that a button has been released._
+Indicates that a button has been released.
 
 ## Methods
 
@@ -70,19 +70,19 @@ _Indicates that a button has been released._
     |color|`number`|
 
 
-_Allows you to set animation style. Valid (case-insensitive) values are: ChasingDots, Circle, CubeGrid, DoubleBounce, FadingCircle, FoldingCube, Pulse, RotatingCircle, RotatingPlane, ThreeBounce, WanderingCubes, Wave. If invalid style is used, animation will be removed.Position can be: top, left, right, bottom. Size can be 100._
+Allows you to set animation style. Valid (case-insensitive) values are: ChasingDots, Circle, CubeGrid, DoubleBounce, FadingCircle, FoldingCube, Pulse, RotatingCircle, RotatingPlane, ThreeBounce, WanderingCubes, Wave. If invalid style is used, animation will be removed.Position can be: top, left, right, bottom. Size can be 100.
 
 ### ButtonClick
 
 [[Method('List Picker', 'ButtonClick', false)]]
 
-_Perform a button click as function._
+Perform a button click as function.
 
 ### Open
 
 [[Method('List Picker', 'Open', false)]]
 
-_Opens the picker, as though the user clicked on it._
+Opens the picker, as though the user clicked on it.
 
 ### SetShadow
 
@@ -97,7 +97,7 @@ _Opens the picker, as though the user clicked on it._
     |color|`number`|
 
 
-_Place a blurred shadow of text underneath the text, drawn with the specified x, y, radius, color (e.g. -11, 12, 13, black._
+Place a blurred shadow of text underneath the text, drawn with the specified x, y, radius, color (e.g. -11, 12, 13, black.
 
 ### WithIconFromFontAwesome
 
@@ -113,7 +113,7 @@ _Place a blurred shadow of text underneath the text, drawn with the specified x,
     |size|`number`|
 
 
-_Show an image on the given position near to the button. You can use following words for the position: 'Left', 'Right', 'Top' or 'Bottom'. Use the padding to add space between the icon and text. Use a material icon as the button icon without uploading a image resource into your project. You can find the icon name (or code) here at https://fontawesome.com/cheatsheet Use as example for a heart icon just 'f004'._
+Show an image on the given position near to the button. You can use following words for the position: 'Left', 'Right', 'Top' or 'Bottom'. Use the padding to add space between the icon and text. Use a material icon as the button icon without uploading a image resource into your project. You can find the icon name (or code) here at https://fontawesome.com/cheatsheet Use as example for a heart icon just 'f004'.
 
 ### WithIconFromMaterialFont
 
@@ -129,7 +129,7 @@ _Show an image on the given position near to the button. You can use following w
     |size|`number`|
 
 
-_Show an image on the given position near to the button. You can use following words for the position: 'Left', 'Right', 'Top' or 'Bottom'. Use the padding to add space between the icon and text. Use a material icon as the button icon without uploading a image resource into your project. You can find the icon name (or code) here at https://material.io/icons_
+Show an image on the given position near to the button. You can use following words for the position: 'Left', 'Right', 'Top' or 'Bottom'. Use the padding to add space between the icon and text. Use a material icon as the button icon without uploading a image resource into your project. You can find the icon name (or code) here at https://material.io/icons
 
 ### WithIconFromPicture
 
@@ -145,7 +145,7 @@ _Show an image on the given position near to the button. You can use following w
     |height|`number`|
 
 
-_Show an image on the given position near to the button. You can use following words for the position: 'Left', 'Right', 'Top' or 'Bottom'. Use the padding to add space between the icon and text._
+Show an image on the given position near to the button. You can use following words for the position: 'Left', 'Right', 'Top' or 'Bottom'. Use the padding to add space between the icon and text.
 
 ## Properties
 
@@ -160,7 +160,7 @@ _Show an image on the given position near to the button. You can use following w
 |:----:|:-------:|
 |number|&HFF444444|
 
-_Returns the button's background color_
+Returns the button's background color
 
 ### Border Shadow
 
@@ -173,7 +173,7 @@ _Returns the button's background color_
 |:----:|:-------:|
 |boolean|True|
 
-_Returns true if the button have a outside border shadow on click._
+Returns true if the button have a outside border shadow on click.
 
 ### Elements From String
 
@@ -186,7 +186,7 @@ _Returns true if the button have a outside border shadow on click._
 |:----:|
 |text|
 
-_ElementsFromString property setter method_
+ElementsFromString property setter method
 
 ### Enabled
 
@@ -199,7 +199,7 @@ _ElementsFromString property setter method_
 |:----:|:-------:|
 |boolean|True|
 
-_If set, user can tap check box to cause action._
+If set, user can tap check box to cause action.
 
 ### Font Bold
 
@@ -212,7 +212,7 @@ _If set, user can tap check box to cause action._
 |:----:|:-------:|
 |boolean|False|
 
-_If set, button text is displayed in bold._
+If set, button text is displayed in bold.
 
 ### Font Italic
 
@@ -225,7 +225,7 @@ _If set, button text is displayed in bold._
 |:----:|:-------:|
 |boolean|False|
 
-_If set, button text is displayed in italics._
+If set, button text is displayed in italics.
 
 ### Font Size
 
@@ -238,7 +238,7 @@ _If set, button text is displayed in italics._
 |:----:|:-------:|
 |number|14.0|
 
-_Point size for button text._
+Point size for button text.
 
 ### Font Typeface
 
@@ -251,7 +251,7 @@ _Point size for button text._
 |:----:|:-------:|
 |number|0|
 
-_Font family for button text._
+Font family for button text.
 
 ### Font Typeface Import
 
@@ -264,7 +264,7 @@ _Font family for button text._
 |:----:|
 |text|
 
-_Set a custom font._
+Set a custom font.
 
 ### HTML Format
 
@@ -277,7 +277,7 @@ _Set a custom font._
 |:----:|:-------:|
 |boolean|False|
 
-_If true, then this button will show html text else it will show plain text. Note: Not all HTML is supported._
+If true, then this button will show html text else it will show plain text. Note: Not all HTML is supported.
 
 ### Image
 
@@ -290,7 +290,7 @@ _If true, then this button will show html text else it will show plain text. Not
 |:----:|
 |text|
 
-_Image to display on button._
+Image to display on button.
 
 ### Item Background Color
 
@@ -303,7 +303,7 @@ _Image to display on button._
 |:----:|:-------:|
 |number|&HFF000000|
 
-_The background color of the ListPicker items._
+The background color of the ListPicker items.
 
 ### Item Text Color
 
@@ -316,7 +316,7 @@ _The background color of the ListPicker items._
 |:----:|:-------:|
 |number|&HFFFFFFFF|
 
-_The text color of the ListPicker items._
+The text color of the ListPicker items.
 
 ### Rotation Angle
 
@@ -329,7 +329,7 @@ _The text color of the ListPicker items._
 |:----:|:-------:|
 |number|0.0|
 
-_Sets the degrees that the button is rotated around the pivot point. Increasing values result in clockwise rotation._
+Sets the degrees that the button is rotated around the pivot point. Increasing values result in clockwise rotation.
 
 ### Selection
 
@@ -342,7 +342,7 @@ _Sets the degrees that the button is rotated around the pivot point. Increasing 
 |:----:|
 |text|
 
-_The selected item.  When directly changed by the programmer, the SelectionIndex property is also changed to the first item in the ListPicker with the given value.  If the value does not appear, SelectionIndex will be set to 0._
+The selected item.  When directly changed by the programmer, the SelectionIndex property is also changed to the first item in the ListPicker with the given value.  If the value does not appear, SelectionIndex will be set to 0.
 
 ### Shape
 
@@ -355,7 +355,7 @@ _The selected item.  When directly changed by the programmer, the SelectionIndex
 |:----:|:-------:|
 |number|0|
 
-_Specifies the button's shape (default, rounded, rectangular, oval). The shape will not be visible if an Image is being displayed._
+Specifies the button's shape (default, rounded, rectangular, oval). The shape will not be visible if an Image is being displayed.
 
 ### Show Feedback
 
@@ -368,7 +368,7 @@ _Specifies the button's shape (default, rounded, rectangular, oval). The shape w
 |:----:|:-------:|
 |boolean|True|
 
-_Specifies if a visual feedback should be shown for a button that as an image as background._
+Specifies if a visual feedback should be shown for a button that as an image as background.
 
 ### Show Filter Bar
 
@@ -381,7 +381,7 @@ _Specifies if a visual feedback should be shown for a button that as an image as
 |:----:|:-------:|
 |boolean|False|
 
-_Returns current state of ShowFilterBar indicating if Search Filter Bar will be displayed on ListPicker or not_
+Returns current state of ShowFilterBar indicating if Search Filter Bar will be displayed on ListPicker or not
 
 ### Status Bar Color
 
@@ -394,7 +394,7 @@ _Returns current state of ShowFilterBar indicating if Search Filter Bar will be 
 |:----:|:-------:|
 |number|&HFF2196F2|
 
-_The StatusBarColor of the ListPicker._
+The StatusBarColor of the ListPicker.
 
 ### Status Bar Visible
 
@@ -407,7 +407,7 @@ _The StatusBarColor of the ListPicker._
 |:----:|:-------:|
 |boolean|True|
 
-_Whether to show status bar_
+Whether to show status bar
 
 ### Text
 
@@ -420,7 +420,7 @@ _Whether to show status bar_
 |:----:|
 |text|
 
-_Text to display on button._
+Text to display on button.
 
 ### Text Alignment
 
@@ -433,7 +433,7 @@ _Text to display on button._
 |:----:|:-------:|
 |number|1|
 
-_Left, center, or right._
+Left, center, or right.
 
 ### Text Color
 
@@ -446,7 +446,7 @@ _Left, center, or right._
 |:----:|:-------:|
 |number|&HFFFFFFFF|
 
-_Color for button text._
+Color for button text.
 
 ### Title
 
@@ -459,7 +459,7 @@ _Color for button text._
 |:----:|
 |text|
 
-_Optional title displayed at the top of the list of choices._
+Optional title displayed at the top of the list of choices.
 
 ### Title Bar Color
 
@@ -472,7 +472,7 @@ _Optional title displayed at the top of the list of choices._
 |:----:|:-------:|
 |number|&HFF03A9F3|
 
-_The TitleBarColor of the ListPicker._
+The TitleBarColor of the ListPicker.
 
 ### Title Visible
 
@@ -485,7 +485,7 @@ _The TitleBarColor of the ListPicker._
 |:----:|:-------:|
 |boolean|True|
 
-_Whether to show title bar_
+Whether to show title bar
 
 ### Touch Color
 
@@ -498,7 +498,7 @@ _Whether to show title bar_
 |:----:|:-------:|
 |number|&HFFCCCCCC|
 
-_Set the buttons touch color._
+Set the buttons touch color.
 
 ### Visible
 
@@ -511,7 +511,7 @@ _Set the buttons touch color._
 |:----:|:-------:|
 |boolean|True|
 
-_Returns true iff the component is visible._
+Returns true iff the component is visible.
 
 ### Column
 
@@ -522,7 +522,7 @@ _Returns true iff the component is visible._
 |:----:|:-------:|
 |number|None|
 
-_Column property getter method._
+Column property getter method.
 
 ### Elements
 
@@ -533,7 +533,7 @@ _Column property getter method._
 |:----:|:-------:|
 |list|None|
 
-_Elements property getter method_
+Elements property getter method
 
 ### Height
 
@@ -544,7 +544,7 @@ _Elements property getter method_
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's vertical height, measured in pixels._
+Specifies the component's vertical height, measured in pixels.
 
 ### Height Percent
 
@@ -555,8 +555,8 @@ _Specifies the component's vertical height, measured in pixels._
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's vertical height as a percentage
- of the height of its parent Component._
+Specifies the component's vertical height as a percentage
+ of the height of its parent Component.
 
 ### Row
 
@@ -567,7 +567,7 @@ _Specifies the component's vertical height as a percentage
 |:----:|:-------:|
 |number|None|
 
-_Row property getter method._
+Row property getter method.
 
 ### Selection Index
 
@@ -578,7 +578,7 @@ _Row property getter method._
 |:----:|:-------:|
 |number|None|
 
-_The index of the currently selected item, starting at 1.  If no item is selected, the value will be 0.  If an attempt is made to set this to a number less than 1 or greater than the number of items in the ListPicker, SelectionIndex will be set to 0, and Selection will be set to the empty text._
+The index of the currently selected item, starting at 1.  If no item is selected, the value will be 0.  If an attempt is made to set this to a number less than 1 or greater than the number of items in the ListPicker, SelectionIndex will be set to 0, and Selection will be set to the empty text.
 
 ### Width
 
@@ -589,7 +589,7 @@ _The index of the currently selected item, starting at 1.  If no item is selecte
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's horizontal width, measured in pixels._
+Specifies the component's horizontal width, measured in pixels.
 
 ### Width Percent
 
@@ -600,5 +600,5 @@ _Specifies the component's horizontal width, measured in pixels._
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's horizontal width as a percentage
- of the Width of its parent Component._
+Specifies the component's horizontal width as a percentage
+ of the Width of its parent Component.

@@ -8,7 +8,7 @@
 
 ## Overview
 
-_An interstitial ad is a full-page ad. AdAmazonInterstitial component allows you to monetize your app. You must have a valid Amazon Application Key. If your application key is invalid, the ad will not display on the emulator or the device. Warning: Make sure you're in test mode during development to avoid being disabled for clicking your own ads. _
+An interstitial ad is a full-page ad. AdAmazonInterstitial component allows you to monetize your app. You must have a valid Amazon Application Key. If your application key is invalid, the ad will not display on the emulator or the device. Warning: Make sure you're in test mode during development to avoid being disabled for clicking your own ads. 
 
 ## Events
 
@@ -16,19 +16,19 @@ _An interstitial ad is a full-page ad. AdAmazonInterstitial component allows you
 
 [[Event('Amazon Interstitial', 'Ad Closed')]]
 
-_Triggered when the close button of the interstitial ad is clicked. It's important to remember only one interstitial ad can be shown at a time. The previous ad has to be dismissed before a new ad can be shown._
+Triggered when the close button of the interstitial ad is clicked. It's important to remember only one interstitial ad can be shown at a time. The previous ad has to be dismissed before a new ad can be shown.
 
 ### Ad Collapsed
 
 [[Event('Amazon Interstitial', 'Ad Collapsed')]]
 
-_After a user clicks on the close ad button on an expanded ad, this callback is called immediately after collapsing the ad. This callback can be used to do things like resume your app or restart audio._
+After a user clicks on the close ad button on an expanded ad, this callback is called immediately after collapsing the ad. This callback can be used to do things like resume your app or restart audio.
 
 ### Ad Expanded
 
 [[Event('Amazon Interstitial', 'Ad Expanded')]]
 
-_This callback is called each time an ad is successfully loaded. You can use this to log metrics on ad views and assist with initial integration. Detailed information about the ad that loaded can be obtained from the AdProperties object._
+This callback is called each time an ad is successfully loaded. You can use this to log metrics on ad views and assist with initial integration. Detailed information about the ad that loaded can be obtained from the AdProperties object.
 
 ### Ad Failed To Load
 
@@ -41,7 +41,7 @@ _This callback is called each time an ad is successfully loaded. You can use thi
     |message|`text`|
 
 
-_Whenever an ad fails to be retrieved, the event is called, returning the error message._
+Whenever an ad fails to be retrieved, the event is called, returning the error message.
 
 ### Ad Failed To Show
 
@@ -53,13 +53,13 @@ _Whenever an ad fails to be retrieved, the event is called, returning the error 
     |message|`text`|
 
 
-_Called when an an attempt was made to display the ad, but the ad was not ready to display_
+Called when an an attempt was made to display the ad, but the ad was not ready to display
 
 ### Ad Loaded
 
 [[Event('Amazon Interstitial', 'Ad Loaded')]]
 
-_Triggered each time an ad is successfully loaded. But you don't have to display the ad right after it's loaded. For example, set a flag to true and then at a transition point, if flag=true, then display the ad._
+Triggered each time an ad is successfully loaded. But you don't have to display the ad right after it's loaded. For example, set a flag to true and then at a transition point, if flag=true, then display the ad.
 
 ## Methods
 
@@ -67,13 +67,13 @@ _Triggered each time an ad is successfully loaded. But you don't have to display
 
 [[Method('Amazon Interstitial', 'Load Ad', false)]]
 
-_Loads a new ad._
+Loads a new ad.
 
 ### ShowInterstitialAd
 
 [[Method('Amazon Interstitial', 'ShowInterstitialAd', false)]]
 
-_It will show the Interstitial Ad_
+It will show the Interstitial Ad
 
 ## Properties
 
@@ -88,7 +88,7 @@ _It will show the Interstitial Ad_
 |:----:|:-------:|
 |text|ApplicationKey|
 
-_Enter Application Key. Go to Amazon Developer Portal and sign-in for your ApplicationKey_
+Enter Application Key. Go to Amazon Developer Portal and sign-in for your ApplicationKey
 
 ### Interstitial Commission
 
@@ -101,7 +101,7 @@ _Enter Application Key. Go to Amazon Developer Portal and sign-in for your Appli
 |:----:|:-------:|
 |text|unity|
 
-_Sets the ad network used to take the commission._
+Sets the ad network used to take the commission.
 
 ### Enable Debug
 
@@ -127,7 +127,7 @@ _No description available_
 |:----:|:-------:|
 |boolean|True|
 
-_If set to true, uses latitude and longitude coordinates as part of an ad request_
+If set to true, uses latitude and longitude coordinates as part of an ad request
 
 ### Enable Testing
 
@@ -140,7 +140,7 @@ _If set to true, uses latitude and longitude coordinates as part of an ad reques
 |:----:|:-------:|
 |boolean|True|
 
-_For debugging / development purposes flag all ad requests as tests, but set to false for production builds_
+For debugging / development purposes flag all ad requests as tests, but set to false for production builds
 
 ### Target Age
 
@@ -153,4 +153,4 @@ _For debugging / development purposes flag all ad requests as tests, but set to 
 |:----:|:-------:|
 |number|0|
 
-_You can pass age information to the Amazon Mobile Ad Network to target specific age groups. If set as 0, Age Targetting will not be used_
+You can pass age information to the Amazon Mobile Ad Network to target specific age groups. If set as 0, Age Targetting will not be used

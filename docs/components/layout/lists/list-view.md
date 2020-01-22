@@ -6,7 +6,7 @@
 
 ## Overview
 
-_<p>This is a visible component that displays a list of text elements. <br> The list can be set using the ElementsFromString property or using the Elements block in the blocks editor. </p>_
+<p>This is a visible component that displays a list of text elements. <br> The list can be set using the ElementsFromString property or using the Elements block in the blocks editor. </p>
 
 ## Events
 
@@ -14,13 +14,13 @@ _<p>This is a visible component that displays a list of text elements. <br> The 
 
 [[Event('List View', 'After Picking')]]
 
-_Simple event to be raised after the an element has been chosen in the list. The selected element is available in the Selection property._
+Simple event to be raised after the an element has been chosen in the list. The selected element is available in the Selection property.
 
 ### Long Click
 
 [[Event('List View', 'Long Click')]]
 
-_Simple event to be raised after the an element has been chosen in the list via long click. The selected element is available in the Selection property._
+Simple event to be raised after the an element has been chosen in the list via long click. The selected element is available in the Selection property.
 
 ## Methods
 
@@ -28,7 +28,7 @@ _Simple event to be raised after the an element has been chosen in the list via 
 
 [[Method('List View', 'ClearList', false)]]
 
-_Remove all the items from the list_
+Remove all the items from the list
 
 ## Properties
 
@@ -43,7 +43,7 @@ _Remove all the items from the list_
 |:----:|:-------:|
 |number|&HFF607D8B|
 
-_The color of the listview background._
+The color of the listview background.
 
 ### Divider Color
 
@@ -56,7 +56,7 @@ _The color of the listview background._
 |:----:|:-------:|
 |number|&HFF000000|
 
-_Set the divider color_
+Set the divider color
 
 ### Divider Height
 
@@ -69,7 +69,7 @@ _Set the divider color_
 |:----:|:-------:|
 |number|2|
 
-_Set the divider height._
+Set the divider height.
 
 ### Elements From String
 
@@ -82,7 +82,7 @@ _Set the divider height._
 |:----:|
 |text|
 
-_The ListView elements specified as a string with the items separated by commas such as: Cheese,Fruit,Bacon,Radish. Each word before the comma will be an element in the list._
+The ListView elements specified as a string with the items separated by commas such as: Cheese,Fruit,Bacon,Radish. Each word before the comma will be an element in the list.
 
 ### Filter Bar Hint
 
@@ -95,7 +95,7 @@ _The ListView elements specified as a string with the items separated by commas 
 |:----:|:-------:|
 |text|Search list...|
 
-_The hint that will be displayed in the filter bar._
+The hint that will be displayed in the filter bar.
 
 ### Font Bold
 
@@ -147,7 +147,7 @@ _No description available_
 |:----:|
 |text|
 
-_Set a custom font._
+Set a custom font.
 
 ### HTML Format
 
@@ -160,7 +160,7 @@ _Set a custom font._
 |:----:|:-------:|
 |boolean|True|
 
-_Returns true if html is enabled._
+Returns true if html is enabled.
 
 ### Item Height in %
 
@@ -173,7 +173,7 @@ _Returns true if html is enabled._
 |:----:|:-------:|
 |number|10|
 
-_Set the listview item height. If you write 10, that means the item height will be 10 percent of the device screen height._
+Set the listview item height. If you write 10, that means the item height will be 10 percent of the device screen height.
 
 ### Long Click Enabled
 
@@ -186,7 +186,7 @@ _Set the listview item height. If you write 10, that means the item height will 
 |:----:|:-------:|
 |boolean|False|
 
-_If true long click on items are enabled, else long click is disabled._
+If true long click on items are enabled, else long click is disabled.
 
 ### Scrollbar Fading
 
@@ -199,7 +199,7 @@ _If true long click on items are enabled, else long click is disabled._
 |:----:|:-------:|
 |boolean|True|
 
-_Return the state of ScrollbarFading. If ScrollbarFading is enabled returns true._
+Return the state of ScrollbarFading. If ScrollbarFading is enabled returns true.
 
 ### Scrolling Speed
 
@@ -212,7 +212,7 @@ _Return the state of ScrollbarFading. If ScrollbarFading is enabled returns true
 |:----:|:-------:|
 |number|1.0|
 
-_The amount of friction applied to flings._
+The amount of friction applied to flings.
 
 ### Search Hint Color
 
@@ -225,7 +225,7 @@ _The amount of friction applied to flings._
 |:----:|:-------:|
 |number|&HFFCCCCCC|
 
-_The color of the search hint text._
+The color of the search hint text.
 
 ### Search Text Color
 
@@ -238,7 +238,7 @@ _The color of the search hint text._
 |:----:|:-------:|
 |number|&HFFFFFFFF|
 
-_The color of the search text._
+The color of the search text.
 
 ### Search Text Size
 
@@ -251,7 +251,7 @@ _The color of the search text._
 |:----:|:-------:|
 |number|14.0|
 
-_The text size of the search text._
+The text size of the search text.
 
 ### Selection
 
@@ -264,7 +264,7 @@ _The text size of the search text._
 |:----:|
 |text|
 
-_Set the selection to the ListView._
+Set the selection to the ListView.
 
 ### Selection Color
 
@@ -277,7 +277,7 @@ _Set the selection to the ListView._
 |:----:|:-------:|
 |number|&HFFCCCCCC|
 
-_The color of the item when it is selected._
+The color of the item when it is selected.
 
 ### Show Filter Bar
 
@@ -290,7 +290,7 @@ _The color of the item when it is selected._
 |:----:|:-------:|
 |boolean|False|
 
-_Sets visibility of ShowFilterBar. True will show the bar, False will hide it._
+Sets visibility of ShowFilterBar. True will show the bar, False will hide it.
 
 ### Show Scrollbar
 
@@ -303,7 +303,7 @@ _Sets visibility of ShowFilterBar. True will show the bar, False will hide it._
 |:----:|:-------:|
 |boolean|True|
 
-_Return the state of ShowScrollbar. If ShowScrollbar is enabled returns true._
+Return the state of ShowScrollbar. If ShowScrollbar is enabled returns true.
 
 ### Show Selection Color
 
@@ -316,7 +316,7 @@ _Return the state of ShowScrollbar. If ShowScrollbar is enabled returns true._
 |:----:|:-------:|
 |boolean|False|
 
-_Sets visibility of ShowSelectionColor. True will show the selection color on a selected item, False will hide it._
+Sets visibility of ShowSelectionColor. True will show the selection color on a selected item, False will hide it.
 
 ### Text Alignment
 
@@ -342,7 +342,7 @@ _No description available_
 |:----:|:-------:|
 |number|&HFF000000|
 
-_The text color of the listview items._
+The text color of the listview items.
 
 ### Font Size
 
@@ -355,7 +355,7 @@ _The text color of the listview items._
 |:----:|:-------:|
 |number|22|
 
-_The text size of the listview items._
+The text size of the listview items.
 
 ### Visible
 
@@ -368,7 +368,7 @@ _The text size of the listview items._
 |:----:|:-------:|
 |boolean|True|
 
-_Returns true iff the component is visible._
+Returns true iff the component is visible.
 
 ### Column
 
@@ -379,7 +379,7 @@ _Returns true iff the component is visible._
 |:----:|:-------:|
 |number|None|
 
-_Column property getter method._
+Column property getter method.
 
 ### Elements
 
@@ -390,7 +390,7 @@ _Column property getter method._
 |:----:|:-------:|
 |list|None|
 
-_List of text elements to show in the ListView._
+List of text elements to show in the ListView.
 
 ### Height
 
@@ -401,7 +401,7 @@ _List of text elements to show in the ListView._
 |:----:|:-------:|
 |number|None|
 
-_Determines the height of the list on the view._
+Determines the height of the list on the view.
 
 ### Height Percent
 
@@ -412,8 +412,8 @@ _Determines the height of the list on the view._
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's vertical height as a percentage
- of the height of its parent Component._
+Specifies the component's vertical height as a percentage
+ of the height of its parent Component.
 
 ### Row
 
@@ -424,7 +424,7 @@ _Specifies the component's vertical height as a percentage
 |:----:|:-------:|
 |number|None|
 
-_Row property getter method._
+Row property getter method.
 
 ### Scroll To Position
 
@@ -435,7 +435,7 @@ _Row property getter method._
 |:----:|:-------:|
 |number|None|
 
-_Smoothly scroll to the specified position. The listview will scroll such that the indicated position is displayed._
+Smoothly scroll to the specified position. The listview will scroll such that the indicated position is displayed.
 
 ### Selection Index
 
@@ -446,7 +446,7 @@ _Smoothly scroll to the specified position. The listview will scroll such that t
 |:----:|:-------:|
 |number|None|
 
-_The index of the currently selected item, starting at 1.  If no item is selected, the value will be 0.  If an attempt is made to set this to a number less than 1 or greater than the number of items in the ListView, SelectionIndex will be set to 0, and Selection will be set to the empty text._
+The index of the currently selected item, starting at 1.  If no item is selected, the value will be 0.  If an attempt is made to set this to a number less than 1 or greater than the number of items in the ListView, SelectionIndex will be set to 0, and Selection will be set to the empty text.
 
 ### Width
 
@@ -457,7 +457,7 @@ _The index of the currently selected item, starting at 1.  If no item is selecte
 |:----:|:-------:|
 |number|None|
 
-_Determines the width of the list on the view._
+Determines the width of the list on the view.
 
 ### Width Percent
 
@@ -468,5 +468,5 @@ _Determines the width of the list on the view._
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's horizontal width as a percentage
- of the Width of its parent Component._
+Specifies the component's horizontal width as a percentage
+ of the Width of its parent Component.

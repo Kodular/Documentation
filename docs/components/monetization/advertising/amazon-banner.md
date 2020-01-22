@@ -6,7 +6,7 @@
 
 ## Overview
 
-_AdAmazon component allows you to monetize your app. You must have a valid publisher id that can be obtained from https://developer.amazon.com. If your publisher id is invalid, the AdAmazon banner will not display on the emulator or the device._
+AdAmazon component allows you to monetize your app. You must have a valid publisher id that can be obtained from https://developer.amazon.com. If your publisher id is invalid, the AdAmazon banner will not display on the emulator or the device.
 
 ## Events
 
@@ -14,13 +14,13 @@ _AdAmazon component allows you to monetize your app. You must have a valid publi
 
 [[Event('Amazon Banner', 'Ad Dismissed')]]
 
-_Event to detect that a ad was dismissed._
+Event to detect that a ad was dismissed.
 
 ### Ad Expanded
 
 [[Event('Amazon Banner', 'Ad Expanded')]]
 
-_Event to detect that a ad was expanded._
+Event to detect that a ad was expanded.
 
 ### Ad Failed To Load
 
@@ -33,13 +33,13 @@ _Event to detect that a ad was expanded._
     |error Message|`text`|
 
 
-_Event to detect that the try to load a ad was not successful._
+Event to detect that the try to load a ad was not successful.
 
 ### Ad Loaded
 
 [[Event('Amazon Banner', 'Ad Loaded')]]
 
-_Event to detect that a ad was loaded._
+Event to detect that a ad was loaded.
 
 ## Properties
 
@@ -54,7 +54,7 @@ _Event to detect that a ad was loaded._
 |:----:|:-------:|
 |text|AmazonPublisherId|
 
-_Sets the Amazon Ad Publisher Id and refreshes the ad._
+Sets the Amazon Ad Publisher Id and refreshes the ad.
 
 ### Refresh Ad
 
@@ -67,7 +67,7 @@ _Sets the Amazon Ad Publisher Id and refreshes the ad._
 |:----:|:-------:|
 |boolean|True|
 
-_Refreshes the ad._
+Refreshes the ad.
 
 ### Test Mode
 
@@ -80,7 +80,7 @@ _Refreshes the ad._
 |:----:|:-------:|
 |boolean|True|
 
-_Turns the debugging on / off based on enabled parameter._
+Turns the debugging on / off based on enabled parameter.
 
 ### Visible
 
@@ -93,7 +93,7 @@ _Turns the debugging on / off based on enabled parameter._
 |:----:|:-------:|
 |boolean|True|
 
-_Returns true iff the component is visible._
+Returns true iff the component is visible.
 
 ### Column
 
@@ -104,7 +104,7 @@ _Returns true iff the component is visible._
 |:----:|:-------:|
 |number|None|
 
-_Column property getter method._
+Column property getter method.
 
 ### Row
 
@@ -115,4 +115,4 @@ _Column property getter method._
 |:----:|:-------:|
 |number|None|
 
-_Row property getter method._
+Row property getter method.

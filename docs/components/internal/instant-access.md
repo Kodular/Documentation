@@ -8,7 +8,7 @@
 
 ## Overview
 
-_A non-visible component that allows user to connect with the service from 'Instant Access.io'_
+A non-visible component that allows user to connect with the service from 'Instant Access.io'
 
 ## Events
 
@@ -24,7 +24,7 @@ _A non-visible component that allows user to connect with the service from 'Inst
     |message|`text`|
 
 
-_A event to detect that the login request was sent._
+A event to detect that the login request was sent.
 
 ### On Status Received
 
@@ -38,7 +38,7 @@ _A event to detect that the login request was sent._
     |message|`text`|
 
 
-_A event to detect that the status was received._
+A event to detect that the status was received.
 
 ## Methods
 
@@ -52,7 +52,7 @@ _A event to detect that the status was received._
     |user|`text`|
 
 
-_Check the current status with a given username._
+Check the current status with a given username.
 
 ### ClientID
 
@@ -60,7 +60,7 @@ _Check the current status with a given username._
 
 {>>Returns `text`<<}
 
-_Returns the client id._
+Returns the client id.
 
 ### ClientSecret
 
@@ -68,7 +68,7 @@ _Returns the client id._
 
 {>>Returns `text`<<}
 
-_Returns the client secret._
+Returns the client secret.
 
 ### Request
 
@@ -80,7 +80,7 @@ _Returns the client secret._
     |user|`text`|
 
 
-_Start a request to user with the instant access login service._
+Start a request to user with the instant access login service.
 
 ## Properties
 

@@ -8,9 +8,9 @@
 
 ## Overview
 
-_Non-visible component providing location information, including longitude, latitude, altitude (if supported by the device), speed (if supported by the device), and address.  This can also perform "geocoding", converting a given address (not necessarily the current one) to a latitude (with the <code>LatitudeFromAddress</code> method) and a longitude (with the <code>LongitudeFromAddress</code> method).</p>
+Non-visible component providing location information, including longitude, latitude, altitude (if supported by the device), speed (if supported by the device), and address.  This can also perform "geocoding", converting a given address (not necessarily the current one) to a latitude (with the <code>LatitudeFromAddress</code> method) and a longitude (with the <code>LongitudeFromAddress</code> method).</p>
 <p>In order to function, the component must have its <code>Enabled</code> property set to True, and the device must have location sensing enabled through wireless networks or GPS satellites (if outdoors).</p>
-Location information might not be immediately available when an app starts.  You'll have to wait a short time for a location provider to be found and used, or wait for the OnLocationChanged event_
+Location information might not be immediately available when an app starts.  You'll have to wait a short time for a location provider to be found and used, or wait for the OnLocationChanged event
 
 ## Events
 
@@ -27,7 +27,7 @@ Location information might not be immediately available when an app starts.  You
     |speed|`number`|
 
 
-_Indicates that a new location has been detected._
+Indicates that a new location has been detected.
 
 ### Status Changed
 
@@ -40,8 +40,8 @@ _Indicates that a new location has been detected._
     |status|`text`|
 
 
-_Indicates that the status of the location provider service has changed, such as when a
- provider is lost or a new provider starts being used._
+Indicates that the status of the location provider service has changed, such as when a
+ provider is lost or a new provider starts being used.
 
 ## Methods
 
@@ -57,7 +57,7 @@ _Indicates that the status of the location provider service has changed, such as
     |location Name|`text`|
 
 
-_Derives latitude of given address_
+Derives latitude of given address
 
 ### LongitudeFromAddress
 
@@ -71,7 +71,7 @@ _Derives latitude of given address_
     |location Name|`text`|
 
 
-_Derives longitude of given address_
+Derives longitude of given address
 
 ## Properties
 
@@ -86,7 +86,7 @@ _Derives longitude of given address_
 |:----:|:-------:|
 |number|5|
 
-_Determines the minimum distance interval, in meters, that the sensor will try to use for sending out location updates. For example, if this is set to 5, then the sensor will fire a LocationChanged event only after 5 meters have been traversed. However, the sensor does not guarantee that an update will be received at exactly the distance interval. It may take more than 5 meters to fire an event, for instance._
+Determines the minimum distance interval, in meters, that the sensor will try to use for sending out location updates. For example, if this is set to 5, then the sensor will fire a LocationChanged event only after 5 meters have been traversed. However, the sensor does not guarantee that an update will be received at exactly the distance interval. It may take more than 5 meters to fire an event, for instance.
 
 ### Enabled
 
@@ -99,8 +99,8 @@ _Determines the minimum distance interval, in meters, that the sensor will try t
 |:----:|:-------:|
 |boolean|True|
 
-_Indicates whether the user has specified that the sensor should
- listen for location changes and raise the corresponding events._
+Indicates whether the user has specified that the sensor should
+ listen for location changes and raise the corresponding events.
 
 ### Time Interval
 
@@ -113,7 +113,7 @@ _Indicates whether the user has specified that the sensor should
 |:----:|:-------:|
 |number|60000|
 
-_Determines the minimum time interval, in milliseconds, that the sensor will try to use for sending out location updates. However, location updates will only be received when the location of the phone actually changes, and use of the specified time interval is not guaranteed. For example, if 1000 is used as the time interval, location updates will never be fired sooner than 1000ms, but they may be fired anytime after._
+Determines the minimum time interval, in milliseconds, that the sensor will try to use for sending out location updates. However, location updates will only be received when the location of the phone actually changes, and use of the specified time interval is not guaranteed. For example, if 1000 is used as the time interval, location updates will never be fired sooner than 1000ms, but they may be fired anytime after.
 
 ### Accuracy
 
@@ -124,8 +124,8 @@ _Determines the minimum time interval, in milliseconds, that the sensor will try
 |:----:|:-------:|
 |number|None|
 
-_The most recent measure of accuracy, in meters.  If no value is available,
- 0 will be returned._
+The most recent measure of accuracy, in meters.  If no value is available,
+ 0 will be returned.
 
 ### Altitude
 
@@ -136,8 +136,8 @@ _The most recent measure of accuracy, in meters.  If no value is available,
 |:----:|:-------:|
 |number|None|
 
-_The most recently available altitude value, in meters.  If no value is
- available, 0 will be returned._
+The most recently available altitude value, in meters.  If no value is
+ available, 0 will be returned.
 
 ### Available Providers
 
@@ -159,8 +159,8 @@ _No description available_
 |:----:|:-------:|
 |text|None|
 
-_Provides a textual representation of the current address or
- "No address available"._
+Provides a textual representation of the current address or
+ "No address available".
 
 ### Has Accuracy
 
@@ -171,7 +171,7 @@ _Provides a textual representation of the current address or
 |:----:|:-------:|
 |boolean|None|
 
-_Indicates whether information about location accuracy is available._
+Indicates whether information about location accuracy is available.
 
 ### Has Altitude
 
@@ -182,7 +182,7 @@ _Indicates whether information about location accuracy is available._
 |:----:|:-------:|
 |boolean|None|
 
-_Indicates whether altitude information is available._
+Indicates whether altitude information is available.
 
 ### Has Longitude Latitude
 
@@ -193,8 +193,8 @@ _Indicates whether altitude information is available._
 |:----:|:-------:|
 |boolean|None|
 
-_Indicates whether longitude and latitude information is available.  (It is
- always the case that either both or neither are.)_
+Indicates whether longitude and latitude information is available.  (It is
+ always the case that either both or neither are.)
 
 ### Latitude
 
@@ -205,8 +205,8 @@ _Indicates whether longitude and latitude information is available.  (It is
 |:----:|:-------:|
 |number|None|
 
-_The most recently available latitude value.  If no value is available,
- 0 will be returned._
+The most recently available latitude value.  If no value is available,
+ 0 will be returned.
 
 ### Longitude
 
@@ -217,8 +217,8 @@ _The most recently available latitude value.  If no value is available,
 |:----:|:-------:|
 |number|None|
 
-_The most recent available longitude value.  If no value is available,
- 0 will be returned._
+The most recent available longitude value.  If no value is available,
+ 0 will be returned.
 
 ### Provider Locked
 
@@ -229,9 +229,9 @@ _The most recent available longitude value.  If no value is available,
 |:----:|:-------:|
 |boolean|None|
 
-_Indicates whether the sensor should allow the developer to
+Indicates whether the sensor should allow the developer to
  manually change the provider (GPS, GSM, Wifi, etc.)
- from which location updates are received._
+ from which location updates are received.
 
 ### Provider Name
 
@@ -242,5 +242,5 @@ _Indicates whether the sensor should allow the developer to
 |:----:|:-------:|
 |text|None|
 
-_Indicates the source of the location information.  If there is no provider, the
- string "NO PROVIDER" is returned.  This is useful primarily for debugging._
+Indicates the source of the location information.  If there is no provider, the
+ string "NO PROVIDER" is returned.  This is useful primarily for debugging.

@@ -8,7 +8,7 @@
 
 ## Overview
 
-_A non-visible component that fetches specifications of the device._
+A non-visible component that fetches specifications of the device.
 
 ## Events
 
@@ -22,7 +22,7 @@ _A non-visible component that fetches specifications of the device._
     |imei|`text`|
 
 
-_Event to get the IMEI after it was requested._
+Event to get the IMEI after it was requested.
 
 ### Got Serial
 
@@ -34,7 +34,7 @@ _Event to get the IMEI after it was requested._
     |serial|`text`|
 
 
-_Event to get the serial number after it was requested._
+Event to get the serial number after it was requested.
 
 ## Methods
 
@@ -44,7 +44,7 @@ _Event to get the serial number after it was requested._
 
 {>>Returns `boolean`<<}
 
-_Returns TRUE if one of 12 known patching or root emulating packages is installed. The name of the package is not returned, so the user does not know which package name to change. Developed by Cian._
+Returns TRUE if one of 12 known patching or root emulating packages is installed. The name of the package is not returned, so the user does not know which package name to change. Developed by Cian.
 
 ### Copy
 
@@ -57,7 +57,7 @@ _Returns TRUE if one of 12 known patching or root emulating packages is installe
     |Success Toast Message|`text`|
 
 
-_Copy text to clipboard. In case 'Show Success Toast' is true, the toast with your message will be shown after copying a text to the clipboard._
+Copy text to clipboard. In case 'Show Success Toast' is true, the toast with your message will be shown after copying a text to the clipboard.
 
 ### ExternalStorageAvailable
 
@@ -65,7 +65,7 @@ _Copy text to clipboard. In case 'Show Success Toast' is true, the toast with yo
 
 {>>Returns `number`<<}
 
-_Available size of external storage in Gigabytes._
+Available size of external storage in Gigabytes.
 
 ### ExternalStorageTotal
 
@@ -73,7 +73,7 @@ _Available size of external storage in Gigabytes._
 
 {>>Returns `number`<<}
 
-_Total external storage size in Gigabytes._
+Total external storage size in Gigabytes.
 
 ### ExternalStorageUsed
 
@@ -81,19 +81,19 @@ _Total external storage size in Gigabytes._
 
 {>>Returns `number`<<}
 
-_Size of used-external-storage in Gigabytes._
+Size of used-external-storage in Gigabytes.
 
 ### GetIMEI
 
 [[Method('Device Utilities', 'GetIMEI', false)]]
 
-_Get the IMEI of the device. The result will be then at the 'Got IMEI' event._
+Get the IMEI of the device. The result will be then at the 'Got IMEI' event.
 
 ### GetSerial
 
 [[Method('Device Utilities', 'GetSerial', false)]]
 
-_A hardware serial number, if available. Alphanumeric only, case-insensitive. For apps targeting SDK higher than N_MR1 this field is set to UNKNOWN._
+A hardware serial number, if available. Alphanumeric only, case-insensitive. For apps targeting SDK higher than N_MR1 this field is set to UNKNOWN.
 
 ### InternalStorageAvailable
 
@@ -101,7 +101,7 @@ _A hardware serial number, if available. Alphanumeric only, case-insensitive. Fo
 
 {>>Returns `number`<<}
 
-_Size of available internal storage in Gigabytes._
+Size of available internal storage in Gigabytes.
 
 ### InternalStorageTotal
 
@@ -109,7 +109,7 @@ _Size of available internal storage in Gigabytes._
 
 {>>Returns `number`<<}
 
-_Total size of internal storage in Gigabytes._
+Total size of internal storage in Gigabytes.
 
 ### InternalStorageUsed
 
@@ -117,7 +117,7 @@ _Total size of internal storage in Gigabytes._
 
 {>>Returns `number`<<}
 
-_Size of used-internal-storage in Gigabytes._
+Size of used-internal-storage in Gigabytes.
 
 ### MemoryFree
 
@@ -125,7 +125,7 @@ _Size of used-internal-storage in Gigabytes._
 
 {>>Returns `number`<<}
 
-_Total free RAM size in Gigabytes._
+Total free RAM size in Gigabytes.
 
 ### MemoryTotal
 
@@ -133,7 +133,7 @@ _Total free RAM size in Gigabytes._
 
 {>>Returns `number`<<}
 
-_Total RAM size in Gigabytes._
+Total RAM size in Gigabytes.
 
 ### MemoryUsed
 
@@ -141,7 +141,7 @@ _Total RAM size in Gigabytes._
 
 {>>Returns `number`<<}
 
-_Size of used-memory in Gigabytes._
+Size of used-memory in Gigabytes.
 
 ### Parse
 
@@ -158,7 +158,7 @@ _Size of used-memory in Gigabytes._
     |if Text Not Found|`text`|
 
 
-_Parse a text between two strings. Example: text = abcdef, start = a, end = d, result = bc. If there is a problem the 'if Text Not Found' will be returned._
+Parse a text between two strings. Example: text = abcdef, start = a, end = d, result = bc. If there is a problem the 'if Text Not Found' will be returned.
 
 ### Paste
 
@@ -172,7 +172,7 @@ _Parse a text between two strings. Example: text = abcdef, start = a, end = d, r
     |Success Toast Message|`text`|
 
 
-_Paste text from clipboard. In case 'Show Success Toast' is true, the toast with your message will be shown after pasting a text from the clipboard._
+Paste text from clipboard. In case 'Show Success Toast' is true, the toast with your message will be shown after pasting a text from the clipboard.
 
 ### Is Adb Debugging Enabled
 
@@ -180,7 +180,7 @@ _Paste text from clipboard. In case 'Show Success Toast' is true, the toast with
 
 {>>Returns `boolean`<<}
 
-_This returns TRUE if ADB debugging is enabled, which could be a sign of hacking your app, or a compromised device. Developed by Cian._
+This returns TRUE if ADB debugging is enabled, which could be a sign of hacking your app, or a compromised device. Developed by Cian.
 
 ### Is Emulator
 
@@ -188,7 +188,7 @@ _This returns TRUE if ADB debugging is enabled, which could be a sign of hacking
 
 {>>Returns `boolean`<<}
 
-_Returns TRUE if the device operating on an emulator. Developed by Cian._
+Returns TRUE if the device operating on an emulator. Developed by Cian.
 
 ### Is Installed From Play Store
 
@@ -196,7 +196,7 @@ _Returns TRUE if the device operating on an emulator. Developed by Cian._
 
 {>>Returns `boolean`<<}
 
-_Returns TRUE if the app was installed from Play Store. Developed by Cian._
+Returns TRUE if the app was installed from Play Store. Developed by Cian.
 
 ## Properties
 
@@ -211,7 +211,7 @@ _Returns TRUE if the app was installed from Play Store. Developed by Cian._
 |:----:|:-------:|
 |boolean|False|
 
-_Returns true if 'Show Success Toast' is enabled._
+Returns true if 'Show Success Toast' is enabled.
 
 ### Android Version
 
@@ -222,7 +222,7 @@ _Returns true if 'Show Success Toast' is enabled._
 |:----:|:-------:|
 |text|None|
 
-_Get the android version of device._
+Get the android version of device.
 
 ### API Version
 
@@ -233,7 +233,7 @@ _Get the android version of device._
 |:----:|:-------:|
 |number|None|
 
-_The user-visible SDK version of the framework._
+The user-visible SDK version of the framework.
 
 ### Board
 
@@ -244,7 +244,7 @@ _The user-visible SDK version of the framework._
 |:----:|:-------:|
 |text|None|
 
-_The name of the underlying board, like "goldfish"._
+The name of the underlying board, like "goldfish".
 
 ### Bootloader Version
 
@@ -255,7 +255,7 @@ _The name of the underlying board, like "goldfish"._
 |:----:|:-------:|
 |text|None|
 
-_The system bootloader version number._
+The system bootloader version number.
 
 ### Brand
 
@@ -266,7 +266,7 @@ _The system bootloader version number._
 |:----:|:-------:|
 |text|None|
 
-_The consumer-visible brand with which the product/hardware will be associated, if any._
+The consumer-visible brand with which the product/hardware will be associated, if any.
 
 ### Build Number
 
@@ -277,7 +277,7 @@ _The consumer-visible brand with which the product/hardware will be associated, 
 |:----:|:-------:|
 |text|None|
 
-_Get the build number(Software) of the device._
+Get the build number(Software) of the device.
 
 ### Country Code
 
@@ -288,7 +288,7 @@ _Get the build number(Software) of the device._
 |:----:|:-------:|
 |text|None|
 
-_The result is the code of your country._
+The result is the code of your country.
 
 ### Device Name
 
@@ -299,7 +299,7 @@ _The result is the code of your country._
 |:----:|:-------:|
 |text|None|
 
-_The name of the industrial design._
+The name of the industrial design.
 
 ### Fingerprint
 
@@ -310,7 +310,7 @@ _The name of the industrial design._
 |:----:|:-------:|
 |text|None|
 
-_A string that uniquely identifies this build._
+A string that uniquely identifies this build.
 
 ### Device Id
 
@@ -321,7 +321,7 @@ _A string that uniquely identifies this build._
 |:----:|:-------:|
 |text|None|
 
-_Returns the unique device specific 'AndroidID'. Developed by Cian._
+Returns the unique device specific 'AndroidID'. Developed by Cian.
 
 ### Hardware
 
@@ -332,7 +332,7 @@ _Returns the unique device specific 'AndroidID'. Developed by Cian._
 |:----:|:-------:|
 |text|None|
 
-_The name of the hardware (from the kernel command line or /proc)._
+The name of the hardware (from the kernel command line or /proc).
 
 ### ID
 
@@ -343,7 +343,7 @@ _The name of the hardware (from the kernel command line or /proc)._
 |:----:|:-------:|
 |text|None|
 
-_Either a changelist number, or a label like "M4-rc20"._
+Either a changelist number, or a label like "M4-rc20".
 
 ### Language Code
 
@@ -354,7 +354,7 @@ _Either a changelist number, or a label like "M4-rc20"._
 |:----:|:-------:|
 |text|None|
 
-_The result is the code of your device language._
+The result is the code of your device language.
 
 ### Manufacturer
 
@@ -365,7 +365,7 @@ _The result is the code of your device language._
 |:----:|:-------:|
 |text|None|
 
-_The manufacturer of the product/hardware._
+The manufacturer of the product/hardware.
 
 ### Model Name
 
@@ -376,7 +376,7 @@ _The manufacturer of the product/hardware._
 |:----:|:-------:|
 |text|None|
 
-_The end-user-visible name for the end product._
+The end-user-visible name for the end product.
 
 ### Product
 
@@ -387,7 +387,7 @@ _The end-user-visible name for the end product._
 |:----:|:-------:|
 |text|None|
 
-_The name of the overall product._
+The name of the overall product.
 
 ### Radio Version
 
@@ -398,7 +398,7 @@ _The name of the overall product._
 |:----:|:-------:|
 |text|None|
 
-_Returns the version string for the radio firmware. May return null (if, for instance, the radio is not currently on)._
+Returns the version string for the radio firmware. May return null (if, for instance, the radio is not currently on).
 
 ### Serial
 
@@ -411,7 +411,7 @@ _Returns the version string for the radio firmware. May return null (if, for ins
 |:----:|:-------:|
 |text|None|
 
-_DEPRECATED. DO NOT USE THIS ANYMORE. USE 'Get Serial' INSTEAD!_
+DEPRECATED. DO NOT USE THIS ANYMORE. USE 'Get Serial' INSTEAD!
 
 ### Tags
 
@@ -422,7 +422,7 @@ _DEPRECATED. DO NOT USE THIS ANYMORE. USE 'Get Serial' INSTEAD!_
 |:----:|:-------:|
 |text|None|
 
-_Comma-separated tags describing the build, like "unsigned,debug"._
+Comma-separated tags describing the build, like "unsigned,debug".
 
 ### Type
 
@@ -433,4 +433,4 @@ _Comma-separated tags describing the build, like "unsigned,debug"._
 |:----:|:-------:|
 |text|None|
 
-_The type of build, like "user" or "eng"._
+The type of build, like "user" or "eng".

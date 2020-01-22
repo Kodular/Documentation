@@ -8,7 +8,7 @@
 
 ## Overview
 
-_A non-visible component that enables game user authentication, leaderboards, and more.<br>Powered by the Google Play Games service._
+A non-visible component that enables game user authentication, leaderboards, and more.<br>Powered by the Google Play Games service.
 
 ## Events
 
@@ -25,7 +25,7 @@ _A non-visible component that enables game user authentication, leaderboards, an
     |xp|`number`|
 
 
-_Got player info_
+Got player info
 
 ### Signed In
 
@@ -37,13 +37,13 @@ _Got player info_
     |success|`boolean`|
 
 
-_User signed in._
+User signed in.
 
 ### Signed Out
 
 [[Event('Google Play Games', 'Signed Out')]]
 
-_User signed out._
+User signed out.
 
 ## Methods
 
@@ -51,7 +51,7 @@ _User signed out._
 
 [[Method('Google Play Games', 'GetPlayer', false)]]
 
-_Get the current player_
+Get the current player
 
 ### IncrementAchievement
 
@@ -64,7 +64,7 @@ _Get the current player_
     |by|`number`|
 
 
-_Increment an achievement._
+Increment an achievement.
 
 ### IsSignedIn
 
@@ -72,13 +72,13 @@ _Increment an achievement._
 
 {>>Returns `boolean`<<}
 
-_Is user signed in?_
+Is user signed in?
 
 ### ShowAchievements
 
 [[Method('Google Play Games', 'ShowAchievements', false)]]
 
-_Shows Achievement._
+Shows Achievement.
 
 ### ShowLeaderboard
 
@@ -90,7 +90,7 @@ _Shows Achievement._
     |leaderboard Id|`text`|
 
 
-_Shows Leaderboard._
+Shows Leaderboard.
 
 ### SignIn
 
@@ -102,13 +102,13 @@ _Shows Leaderboard._
     |use Last Account|`boolean`|
 
 
-_Sign in the user. useLastAccount, true: use the last signed in account if possible, false: open a screen to choose for an account_
+Sign in the user. useLastAccount, true: use the last signed in account if possible, false: open a screen to choose for an account
 
 ### SignOut
 
 [[Method('Google Play Games', 'SignOut', false)]]
 
-_Sign out the user._
+Sign out the user.
 
 ### SubmitScore
 
@@ -121,7 +121,7 @@ _Sign out the user._
     |score|`number`|
 
 
-_Submits user score to leaderboard._
+Submits user score to leaderboard.
 
 ### UnlockAchievement
 
@@ -133,7 +133,7 @@ _Submits user score to leaderboard._
     |achievement Id|`text`|
 
 
-_Unlock an achievement._
+Unlock an achievement.
 
 ## Properties
 

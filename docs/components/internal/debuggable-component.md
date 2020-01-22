@@ -8,4 +8,4 @@
 
 ## Overview
 
-_This component makes the app debuggable_
+This component makes the app debuggable

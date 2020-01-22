@@ -8,7 +8,7 @@
 
 ## Overview
 
-_A non-visible component that retrieves information about other applications on the device._
+A non-visible component that retrieves information about other applications on the device.
 
 ## Methods
 
@@ -24,7 +24,7 @@ _A non-visible component that retrieves information about other applications on 
     |package Name|`text`|
 
 
-_Returns the name from the given package name._
+Returns the name from the given package name.
 
 ### GetPackageIcon
 
@@ -38,7 +38,7 @@ _Returns the name from the given package name._
     |package Name|`text`|
 
 
-_Try to show the application icon of the given package name. If the application cannot be found, "Package not found" is the output._
+Try to show the application icon of the given package name. If the application cannot be found, "Package not found" is the output.
 
 ### IsPackageInstalled
 
@@ -52,7 +52,7 @@ _Try to show the application icon of the given package name. If the application 
     |package Name|`text`|
 
 
-_Returns true if a package (app) is installed._
+Returns true if a package (app) is installed.
 
 ### VersionCodeFrom
 
@@ -66,7 +66,7 @@ _Returns true if a package (app) is installed._
     |package Name|`text`|
 
 
-_This block will returns the version code of the package name. Returns '-1' if the package is not installed._
+This block will returns the version code of the package name. Returns '-1' if the package is not installed.
 
 ### VersionNameFrom
 
@@ -80,7 +80,7 @@ _This block will returns the version code of the package name. Returns '-1' if t
     |package Name|`text`|
 
 
-_This block will returns the version name of the package name. Returns 'Package not found' if the package is not installed._
+This block will returns the version name of the package name. Returns 'Package not found' if the package is not installed.
 
 ### Is Permission Granted
 
@@ -95,7 +95,7 @@ _This block will returns the version name of the package name. Returns 'Package 
     |package Name|`text`|
 
 
-_Check whether a particular package has been granted a particular permission._
+Check whether a particular package has been granted a particular permission.
 
 ## Properties
 
@@ -108,7 +108,7 @@ _Check whether a particular package has been granted a particular permission._
 |:----:|:-------:|
 |text|None|
 
-_Returns the name from the current running app._
+Returns the name from the current running app.
 
 ### Package Name
 
@@ -119,7 +119,7 @@ _Returns the name from the current running app._
 |:----:|:-------:|
 |text|None|
 
-_Returns the package name from the current running app._
+Returns the package name from the current running app.
 
 ### Version Code
 
@@ -130,7 +130,7 @@ _Returns the package name from the current running app._
 |:----:|:-------:|
 |number|None|
 
-_This block will returns the version code of the current running app._
+This block will returns the version code of the current running app.
 
 ### Version Name
 
@@ -141,4 +141,4 @@ _This block will returns the version code of the current running app._
 |:----:|:-------:|
 |text|None|
 
-_This block will returns the version name of the current running app._
+This block will returns the version name of the current running app.

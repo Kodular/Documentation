@@ -8,7 +8,7 @@
 
 ## Overview
 
-_A non-visible component that connects the device via the USB Serial to Arduino hardware._
+A non-visible component that connects the device via the USB Serial to Arduino hardware.
 
 ## Events
 
@@ -23,7 +23,7 @@ _A non-visible component that connects the device via the USB Serial to Arduino 
     |data|`text`|
 
 
-_Triggered after Read function_
+Triggered after Read function
 
 ## Methods
 
@@ -37,7 +37,7 @@ _Triggered after Read function_
     |baud Rate|`number`|
 
 
-_Default baud rate is 9600 bps_
+Default baud rate is 9600 bps
 
 ### CloseArduino
 
@@ -45,13 +45,13 @@ _Default baud rate is 9600 bps_
 
 {>>Returns `boolean`<<}
 
-_Closes Arduino Connection_
+Closes Arduino Connection
 
 ### InitializeArduino
 
 [[Method('Arduino', 'InitializeArduino', false)]]
 
-_Initializes Arduino Connection_
+Initializes Arduino Connection
 
 ### IsOpenedArduino
 
@@ -59,7 +59,7 @@ _Initializes Arduino Connection_
 
 {>>Returns `boolean`<<}
 
-_Returns true when the Arduino connection is open_
+Returns true when the Arduino connection is open
 
 ### OpenArduino
 
@@ -67,13 +67,13 @@ _Returns true when the Arduino connection is open_
 
 {>>Returns `boolean`<<}
 
-_Opens Arduino Connection_
+Opens Arduino Connection
 
 ### ReadArduino
 
 [[Method('Arduino', 'ReadArduino', false)]]
 
-_Read from Serial_
+Read from Serial
 
 ### WriteArduino
 
@@ -85,4 +85,4 @@ _Read from Serial_
     |data|`text`|
 
 
-_Write Data to Serial_
+Write Data to Serial

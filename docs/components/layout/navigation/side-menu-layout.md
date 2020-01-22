@@ -8,7 +8,7 @@
 
 ## Overview
 
-_A non-visible component that creates a side menu. <br>Side menus are navigation menus that slide from the left of the screen via a swipe-right gesture._
+A non-visible component that creates a side menu. <br>Side menus are navigation menus that slide from the left of the screen via a swipe-right gesture.
 
 ## Events
 
@@ -22,7 +22,7 @@ _A non-visible component that creates a side menu. <br>Side menus are navigation
     |title|`text`|
 
 
-_Triggers when the user clicks on an item of the Navigation Menu_
+Triggers when the user clicks on an item of the Navigation Menu
 
 ## Methods
 
@@ -40,7 +40,7 @@ _Triggers when the user clicks on an item of the Navigation Menu_
     |group|`number`|
 
 
-_Add an item to the Navigation Menu_
+Add an item to the Navigation Menu
 
 ### RemoveItem
 
@@ -52,7 +52,7 @@ _Add an item to the Navigation Menu_
     |title|`text`|
 
 
-_Remove an item from the Navigation Menu_
+Remove an item from the Navigation Menu
 
 ### UpdateItem
 
@@ -68,7 +68,7 @@ _Remove an item from the Navigation Menu_
     |checked|`boolean`|
 
 
-_Update an item of the Navigation Menu_
+Update an item of the Navigation Menu
 
 ## Properties
 
@@ -83,7 +83,7 @@ _Update an item of the Navigation Menu_
 |:----:|:-------:|
 |number|&HFFFFFFFF|
 
-_Set the background color of the Sidemenu Layout_
+Set the background color of the Sidemenu Layout
 
 ### Circle Header Picture
 
@@ -96,7 +96,7 @@ _Set the background color of the Sidemenu Layout_
 |:----:|:-------:|
 |boolean|False|
 
-_Sets (or not) the header picture to use a circle shape_
+Sets (or not) the header picture to use a circle shape
 
 ### Disabled Color
 
@@ -109,7 +109,7 @@ _Sets (or not) the header picture to use a circle shape_
 |:----:|:-------:|
 |number|&HFF9E9E9E|
 
-_Sets the color of the disabled elements of the SideMenu_
+Sets the color of the disabled elements of the SideMenu
 
 ### Enabled Color
 
@@ -122,7 +122,7 @@ _Sets the color of the disabled elements of the SideMenu_
 |:----:|:-------:|
 |number|&HFF000000|
 
-_Sets the color of the enabled elements of the SideMenu_
+Sets the color of the enabled elements of the SideMenu
 
 ### Header Background Image
 
@@ -135,7 +135,7 @@ _Sets the color of the enabled elements of the SideMenu_
 |:----:|
 |text|
 
-_Sets the Header Background Picture_
+Sets the Header Background Picture
 
 ### Header Picture
 
@@ -148,7 +148,7 @@ _Sets the Header Background Picture_
 |:----:|
 |text|
 
-_Sets the Header Picture of the Side Menu_
+Sets the Header Picture of the Side Menu
 
 ### Header Subtitle
 
@@ -161,7 +161,7 @@ _Sets the Header Picture of the Side Menu_
 |:----:|
 |text|
 
-_Sets the Header Subtitle_
+Sets the Header Subtitle
 
 ### Header Title
 
@@ -174,7 +174,7 @@ _Sets the Header Subtitle_
 |:----:|
 |text|
 
-_Sets the Header Title_
+Sets the Header Title
 
 ### Selected Color
 
@@ -187,4 +187,4 @@ _Sets the Header Title_
 |:----:|:-------:|
 |number|&HFFE81E63|
 
-_Sets the color of the selected element of the SideMenu_
+Sets the color of the selected element of the SideMenu

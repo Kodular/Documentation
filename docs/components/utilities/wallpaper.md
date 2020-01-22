@@ -8,7 +8,7 @@
 
 ## Overview
 
-_A non-visible component that provides access to the system''s wallpaper settings._
+A non-visible component that provides access to the system''s wallpaper settings.
 
 ## Events
 
@@ -22,7 +22,7 @@ _A non-visible component that provides access to the system''s wallpaper setting
     |picture|`text`|
 
 
-_Event to detect that the component got the current system wallpaper._
+Event to detect that the component got the current system wallpaper.
 
 ### Wallpaper Changed
 
@@ -34,13 +34,13 @@ _Event to detect that the component got the current system wallpaper._
     |success|`boolean`|
 
 
-_Event to detect that the user has changed the wallpaper. This event will be invoked by the "Set Wallpaper" function._
+Event to detect that the user has changed the wallpaper. This event will be invoked by the "Set Wallpaper" function.
 
 ### Wallpaper Cleared
 
 [[Event('Wallpaper', 'Wallpaper Cleared')]]
 
-_Event to detect that the user has cleared/deleted the wallpaper._
+Event to detect that the user has cleared/deleted the wallpaper.
 
 ## Methods
 
@@ -48,19 +48,19 @@ _Event to detect that the user has cleared/deleted the wallpaper._
 
 [[Method('Wallpaper', 'Clear', false)]]
 
-_Remove any currently set system wallpaper, reverting to the system's built-in wallpaper._
+Remove any currently set system wallpaper, reverting to the system's built-in wallpaper.
 
 ### ClearWallpaper
 
 [[Method('Wallpaper', 'ClearWallpaper', false)]]
 
-_Reset all wallpaper to the factory default. This block works only on devices with Android 9+._
+Reset all wallpaper to the factory default. This block works only on devices with Android 9+.
 
 ### GetWallpaper
 
 [[Method('Wallpaper', 'GetWallpaper', false)]]
 
-_Retrieve the current system wallpaper; if no wallpaper is set, the system built-in static wallpaper is returned._
+Retrieve the current system wallpaper; if no wallpaper is set, the system built-in static wallpaper is returned.
 
 ### SetLockScreenWallpaper
 
@@ -72,7 +72,7 @@ _Retrieve the current system wallpaper; if no wallpaper is set, the system built
     |image|`text`|
 
 
-_Change the current lock screen wallpaper. This block works only on devices with Android 7+._
+Change the current lock screen wallpaper. This block works only on devices with Android 7+.
 
 ### SetWallpaper
 
@@ -84,7 +84,7 @@ _Change the current lock screen wallpaper. This block works only on devices with
     |image|`text`|
 
 
-_Change the current system wallpaper._
+Change the current system wallpaper.
 
 ## Properties
 
@@ -99,7 +99,7 @@ _Change the current system wallpaper._
 |:----:|:-------:|
 |text|wallpaperPicture.png|
 
-_After the user clicked on "Get Wallpaper" this will be the name for the wallpaper picture._
+After the user clicked on "Get Wallpaper" this will be the name for the wallpaper picture.
 
 ### Desired Minimum Height
 
@@ -110,7 +110,7 @@ _After the user clicked on "Get Wallpaper" this will be the name for the wallpap
 |:----:|:-------:|
 |number|None|
 
-_Returns the desired minimum height for the wallpaper._
+Returns the desired minimum height for the wallpaper.
 
 ### Desired Minimum Width
 
@@ -121,7 +121,7 @@ _Returns the desired minimum height for the wallpaper._
 |:----:|:-------:|
 |number|None|
 
-_Returns the desired minimum width for the wallpaper._
+Returns the desired minimum width for the wallpaper.
 
 ### Is Set Wallpaper Allowed
 
@@ -132,7 +132,7 @@ _Returns the desired minimum width for the wallpaper._
 |:----:|:-------:|
 |boolean|None|
 
-_Returns whether the calling package is allowed to set the wallpaper for the calling user. This block works only on devices with Android 7+._
+Returns whether the calling package is allowed to set the wallpaper for the calling user. This block works only on devices with Android 7+.
 
 ### Is Wallpaper Supported
 
@@ -143,4 +143,4 @@ _Returns whether the calling package is allowed to set the wallpaper for the cal
 |:----:|:-------:|
 |boolean|None|
 
-_Returns whether wallpapers are supported for the calling user. This block works only on devices with Android 6+._
+Returns whether wallpapers are supported for the calling user. This block works only on devices with Android 6+.

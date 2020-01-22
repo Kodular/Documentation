@@ -8,7 +8,7 @@
 
 ## Overview
 
-_A non-visible component that shows StartApp ads as full-screen advertisements._
+A non-visible component that shows StartApp ads as full-screen advertisements.
 
 ## Events
 
@@ -16,13 +16,13 @@ _A non-visible component that shows StartApp ads as full-screen advertisements._
 
 [[Event('StartApp Interstitial', 'Ad Clicked')]]
 
-_Indicates that the user has clicked on the interstial ad_
+Indicates that the user has clicked on the interstial ad
 
 ### Ad Displayed
 
 [[Event('StartApp Interstitial', 'Ad Displayed')]]
 
-_Indicates that an Ad is shown to the user._
+Indicates that an Ad is shown to the user.
 
 ### Ad Failed To Load
 
@@ -35,7 +35,7 @@ _Indicates that an Ad is shown to the user._
     |error Message|`text`|
 
 
-_Called when an ad request failed to load. The message will display the error code and error message._
+Called when an ad request failed to load. The message will display the error code and error message.
 
 ### Ad Failed To Show
 
@@ -47,13 +47,13 @@ _Called when an ad request failed to load. The message will display the error co
     |error Message|`text`|
 
 
-_Called when an an attempt was made to display the ad, but the ad was not ready to display._
+Called when an an attempt was made to display the ad, but the ad was not ready to display.
 
 ### Ad Hidden
 
 [[Event('StartApp Interstitial', 'Ad Hidden')]]
 
-_Indicates that an Ad which was shown to the user is now hidden._
+Indicates that an Ad which was shown to the user is now hidden.
 
 ### On Failed To Receive Ad
 
@@ -65,13 +65,13 @@ _Indicates that an Ad which was shown to the user is now hidden._
     |error Message|`text`|
 
 
-_Called when an ad request failed to load._
+Called when an ad request failed to load.
 
 ### On Receive Ad
 
 [[Event('StartApp Interstitial', 'On Receive Ad')]]
 
-_Called when an ad request failed to load. The message will display the error code and error message._
+Called when an ad request failed to load. The message will display the error code and error message.
 
 ## Methods
 
@@ -79,13 +79,13 @@ _Called when an ad request failed to load. The message will display the error co
 
 [[Method('StartApp Interstitial', 'Load Ad', false)]]
 
-_Load a new StartApp Interstitial ad._
+Load a new StartApp Interstitial ad.
 
 ### ShowInterstitialAd
 
 [[Method('StartApp Interstitial', 'ShowInterstitialAd', false)]]
 
-_It will show the Interstitial Ad_
+It will show the Interstitial Ad
 
 ## Properties
 

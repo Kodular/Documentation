@@ -8,7 +8,7 @@
 
 ## Overview
 
-_A non-visible component that provides functions for HTTP GET, POST, PUT, and DELETE requests._
+A non-visible component that provides functions for HTTP GET, POST, PUT, and DELETE requests.
 
 ## Events
 
@@ -25,7 +25,7 @@ _A non-visible component that provides functions for HTTP GET, POST, PUT, and DE
     |file Name|`text`|
 
 
-_Event indicating that a request has finished._
+Event indicating that a request has finished.
 
 ### Got Text
 
@@ -40,7 +40,7 @@ _Event indicating that a request has finished._
     |response Content|`text`|
 
 
-_Event indicating that a request has finished._
+Event indicating that a request has finished.
 
 ### Timed Out
 
@@ -52,7 +52,7 @@ _Event indicating that a request has finished._
     |url|`text`|
 
 
-_Event indicating that a request has timed out._
+Event indicating that a request has timed out.
 
 ## Methods
 
@@ -68,39 +68,39 @@ _Event indicating that a request has timed out._
     |list|`list`|
 
 
-_Converts a list of two-element sublists, representing name and value pairs, to a
+Converts a list of two-element sublists, representing name and value pairs, to a
  string formatted as application/x-www-form-urlencoded media type, suitable to pass to
- PostText._
+ PostText.
 
 ### ClearCookies
 
 [[Method('Web', 'ClearCookies', false)]]
 
-_Clears all cookies for this Web component._
+Clears all cookies for this Web component.
 
 ### Delete
 
 [[Method('Web', 'Delete', false)]]
 
-_Performs an HTTP DELETE request using the Url property and retrieves the
+Performs an HTTP DELETE request using the Url property and retrieves the
  response.<br>
  If the SaveResponse property is true, the response will be saved in a file
  and the GotFile event will be triggered. The ResponseFileName property
  can be used to specify the name of the file.<br>
  If the SaveResponse property is false, the GotText event will be
- triggered._
+ triggered.
 
 ### Get
 
 [[Method('Web', 'Get', false)]]
 
-_Performs an HTTP GET request using the Url property and retrieves the
+Performs an HTTP GET request using the Url property and retrieves the
  response.<br>
  If the SaveResponse property is true, the response will be saved in a file
  and the GotFile event will be triggered. The ResponseFileName property
  can be used to specify the name of the file.<br>
  If the SaveResponse property is false, the GotText event will be
- triggered._
+ triggered.
 
 ### HtmlTextDecode
 
@@ -114,7 +114,7 @@ _Performs an HTTP GET request using the Url property and retrieves the
     |html Text|`text`|
 
 
-_Decodes the given HTML text value. HTML character entities such as &amp;amp;, &amp;lt;, &amp;gt;, &amp;apos;, and &amp;quot; are changed to &amp;, &lt;, &gt;, &#39;, and &quot;. Entities such as &amp;#xhhhh, and &amp;#nnnn are changed to the appropriate characters._
+Decodes the given HTML text value. HTML character entities such as &amp;amp;, &amp;lt;, &amp;gt;, &amp;apos;, and &amp;quot; are changed to &amp;, &lt;, &gt;, &#39;, and &quot;. Entities such as &amp;#xhhhh, and &amp;#nnnn are changed to the appropriate characters.
 
 ### JsonTextDecode
 
@@ -128,10 +128,10 @@ _Decodes the given HTML text value. HTML character entities such as &amp;amp;, &
     |json Text|`text`|
 
 
-_Decodes the given JSON encoded value to produce a corresponding AppInventor value.
+Decodes the given JSON encoded value to produce a corresponding AppInventor value.
  A JSON list [x, y, z] decodes to a list (x y z),  A JSON object with name A and value B,
  (denoted as A:B enclosed in curly braces) decodes to a list
- ((A B)), that is, a list containing the two-element list (A B)._
+ ((A B)), that is, a list containing the two-element list (A B).
 
 ### PostFile
 
@@ -143,7 +143,7 @@ _Decodes the given JSON encoded value to produce a corresponding AppInventor val
     |path|`text`|
 
 
-_Performs an HTTP POST request using the Url property and data from the specified file.<br>If the SaveResponse property is true, the response will be saved in a file and the GotFile event will be triggered. The ResponseFileName property can be used to specify the name of the file.<br>If the SaveResponse property is false, the GotText event will be triggered._
+Performs an HTTP POST request using the Url property and data from the specified file.<br>If the SaveResponse property is true, the response will be saved in a file and the GotFile event will be triggered. The ResponseFileName property can be used to specify the name of the file.<br>If the SaveResponse property is false, the GotText event will be triggered.
 
 ### PostText
 
@@ -155,7 +155,7 @@ _Performs an HTTP POST request using the Url property and data from the specifie
     |text|`text`|
 
 
-_Performs an HTTP POST request using the Url property and the specified text.<br>The characters of the text are encoded using UTF-8 encoding.<br>If the SaveResponse property is true, the response will be saved in a file and the GotFile event will be triggered. The responseFileName property can be used to specify the name of the file.<br>If the SaveResponse property is false, the GotText event will be triggered._
+Performs an HTTP POST request using the Url property and the specified text.<br>The characters of the text are encoded using UTF-8 encoding.<br>If the SaveResponse property is true, the response will be saved in a file and the GotFile event will be triggered. The responseFileName property can be used to specify the name of the file.<br>If the SaveResponse property is false, the GotText event will be triggered.
 
 ### PostTextWithEncoding
 
@@ -168,7 +168,7 @@ _Performs an HTTP POST request using the Url property and the specified text.<br
     |encoding|`text`|
 
 
-_Performs an HTTP POST request using the Url property and the specified text.<br>The characters of the text are encoded using the given encoding.<br>If the SaveResponse property is true, the response will be saved in a file and the GotFile event will be triggered. The ResponseFileName property can be used to specify the name of the file.<br>If the SaveResponse property is false, the GotText event will be triggered._
+Performs an HTTP POST request using the Url property and the specified text.<br>The characters of the text are encoded using the given encoding.<br>If the SaveResponse property is true, the response will be saved in a file and the GotFile event will be triggered. The ResponseFileName property can be used to specify the name of the file.<br>If the SaveResponse property is false, the GotText event will be triggered.
 
 ### PutFile
 
@@ -180,7 +180,7 @@ _Performs an HTTP POST request using the Url property and the specified text.<br
     |path|`text`|
 
 
-_Performs an HTTP PUT request using the Url property and data from the specified file.<br>If the SaveResponse property is true, the response will be saved in a file and the GotFile event will be triggered. The ResponseFileName property can be used to specify the name of the file.<br>If the SaveResponse property is false, the GotText event will be triggered._
+Performs an HTTP PUT request using the Url property and data from the specified file.<br>If the SaveResponse property is true, the response will be saved in a file and the GotFile event will be triggered. The ResponseFileName property can be used to specify the name of the file.<br>If the SaveResponse property is false, the GotText event will be triggered.
 
 ### PutText
 
@@ -192,7 +192,7 @@ _Performs an HTTP PUT request using the Url property and data from the specified
     |text|`text`|
 
 
-_Performs an HTTP PUT request using the Url property and the specified text.<br>The characters of the text are encoded using UTF-8 encoding.<br>If the SaveResponse property is true, the response will be saved in a file and the GotFile event will be triggered. The responseFileName property can be used to specify the name of the file.<br>If the SaveResponse property is false, the GotText event will be triggered._
+Performs an HTTP PUT request using the Url property and the specified text.<br>The characters of the text are encoded using UTF-8 encoding.<br>If the SaveResponse property is true, the response will be saved in a file and the GotFile event will be triggered. The responseFileName property can be used to specify the name of the file.<br>If the SaveResponse property is false, the GotText event will be triggered.
 
 ### PutTextWithEncoding
 
@@ -205,7 +205,7 @@ _Performs an HTTP PUT request using the Url property and the specified text.<br>
     |encoding|`text`|
 
 
-_Performs an HTTP PUT request using the Url property and the specified text.<br>The characters of the text are encoded using the given encoding.<br>If the SaveResponse property is true, the response will be saved in a file and the GotFile event will be triggered. The ResponseFileName property can be used to specify the name of the file.<br>If the SaveResponse property is false, the GotText event will be triggered._
+Performs an HTTP PUT request using the Url property and the specified text.<br>The characters of the text are encoded using the given encoding.<br>If the SaveResponse property is true, the response will be saved in a file and the GotFile event will be triggered. The ResponseFileName property can be used to specify the name of the file.<br>If the SaveResponse property is false, the GotText event will be triggered.
 
 ### UriDecode
 
@@ -219,7 +219,7 @@ _Performs an HTTP PUT request using the Url property and the specified text.<br>
     |text|`text`|
 
 
-_Decodes the encoded text value._
+Decodes the encoded text value.
 
 ### UriEncode
 
@@ -233,7 +233,7 @@ _Decodes the encoded text value._
     |text|`text`|
 
 
-_Encodes the given text value so that it can be used in a URL._
+Encodes the given text value so that it can be used in a URL.
 
 ### XMLTextDecode
 
@@ -247,7 +247,7 @@ _Encodes the given text value so that it can be used in a URL._
     |XmlText|`text`|
 
 
-_Decodes the given XML string to produce a list structure.  See the App Inventor documentation on "Other topics, notes, and details" for information._
+Decodes the given XML string to produce a list structure.  See the App Inventor documentation on "Other topics, notes, and details" for information.
 
 ## Properties
 
@@ -262,7 +262,7 @@ _Decodes the given XML string to produce a list structure.  See the App Inventor
 |:----:|:-------:|
 |boolean|false|
 
-_Whether the cookies from a response should be saved and used in subsequent requests. Cookies are only supported on Android version 2.3 or greater._
+Whether the cookies from a response should be saved and used in subsequent requests. Cookies are only supported on Android version 2.3 or greater.
 
 ### Response File Name
 
@@ -275,7 +275,7 @@ _Whether the cookies from a response should be saved and used in subsequent requ
 |:----:|
 |text|
 
-_The name of the file where the response should be saved. If SaveResponse is true and ResponseFileName is empty, then a new file name will be generated._
+The name of the file where the response should be saved. If SaveResponse is true and ResponseFileName is empty, then a new file name will be generated.
 
 ### Save Response
 
@@ -288,7 +288,7 @@ _The name of the file where the response should be saved. If SaveResponse is tru
 |:----:|:-------:|
 |boolean|false|
 
-_Whether the response should be saved in a file._
+Whether the response should be saved in a file.
 
 ### Timeout
 
@@ -301,7 +301,7 @@ _Whether the response should be saved in a file._
 |:----:|:-------:|
 |number|0|
 
-_The number of milliseconds that a web request will wait for a response before giving up. If set to 0, then there is no time limit on how long the request will wait._
+The number of milliseconds that a web request will wait for a response before giving up. If set to 0, then there is no time limit on how long the request will wait.
 
 ### URL
 
@@ -314,7 +314,7 @@ _The number of milliseconds that a web request will wait for a response before g
 |:----:|
 |text|
 
-_The URL for the web request._
+The URL for the web request.
 
 ### Request Headers
 
@@ -325,4 +325,4 @@ _The URL for the web request._
 |:----:|:-------:|
 |list|None|
 
-_The request headers, as a list of two-element sublists. The first element of each sublist represents the request header field name. The second element of each sublist represents the request header field values, either a single value or a list containing multiple values._
+The request headers, as a list of two-element sublists. The first element of each sublist represents the request header field name. The second element of each sublist represents the request header field values, either a single value or a list containing multiple values.

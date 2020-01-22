@@ -8,7 +8,7 @@
 
 ## Overview
 
-_A non-visible component that generates a QR code from text._
+A non-visible component that generates a QR code from text.
 
 ## Events
 
@@ -23,7 +23,7 @@ _A non-visible component that generates a QR code from text._
     |url|`text`|
 
 
-_You will find here the success state and image url._
+You will find here the success state and image url.
 
 ## Methods
 
@@ -31,7 +31,7 @@ _You will find here the success state and image url._
 
 [[Method('QR Code', 'GenerateQrCode', false)]]
 
-_Create a QR Code and the result is a link to it. Example: Set the resolution(in pixel) to 200(height and width has the same value) and text to: Hello world!. Result: QR code resolution is 200x200, text = Hello world! Your text input is encoded in the link automatically._
+Create a QR Code and the result is a link to it. Example: Set the resolution(in pixel) to 200(height and width has the same value) and text to: Hello world!. Result: QR code resolution is 200x200, text = Hello world! Your text input is encoded in the link automatically.
 
 ## Properties
 
@@ -46,7 +46,7 @@ _Create a QR Code and the result is a link to it. Example: Set the resolution(in
 |:----:|:-------:|
 |number|&HFFFFFFFF|
 
-_Set the background color of the qr code result._
+Set the background color of the qr code result.
 
 ### Charset
 
@@ -59,7 +59,7 @@ _Set the background color of the qr code result._
 |:----:|:-------:|
 |text|UTF-8|
 
-_Set the charset of the input text._
+Set the charset of the input text.
 
 ### Format
 
@@ -72,7 +72,7 @@ _Set the charset of the input text._
 |:----:|:-------:|
 |text|png|
 
-_It's possible to create the QR code picture using different file formats, available are PNG, GIF, JPEG and the vector graphic formats SVG and EPS._
+It's possible to create the QR code picture using different file formats, available are PNG, GIF, JPEG and the vector graphic formats SVG and EPS.
 
 ### Front Color
 
@@ -85,7 +85,7 @@ _It's possible to create the QR code picture using different file formats, avail
 |:----:|:-------:|
 |number|&HFF000000|
 
-_Set the color of the qr code result._
+Set the color of the qr code result.
 
 ### Margin
 
@@ -98,7 +98,7 @@ _Set the color of the qr code result._
 |:----:|:-------:|
 |number|0|
 
-_Thickness of a margin in pixels. The margin will always have the same color as the background._
+Thickness of a margin in pixels. The margin will always have the same color as the background.
 
 ### Size
 
@@ -111,7 +111,7 @@ _Thickness of a margin in pixels. The margin will always have the same color as 
 |:----:|:-------:|
 |number|200|
 
-_Set the size/resolution of the qr code._
+Set the size/resolution of the qr code.
 
 ### Text
 
@@ -124,4 +124,4 @@ _Set the size/resolution of the qr code._
 |:----:|:-------:|
 |text|Default|
 
-_This is the text that is converted as qr code._
+This is the text that is converted as qr code.

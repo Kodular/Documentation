@@ -8,7 +8,7 @@
 
 ## Overview
 
-_A non-visible component that adds a dot/badge to the app''s launcher icon when a there are unread notifications in the app._
+A non-visible component that adds a dot/badge to the app''s launcher icon when a there are unread notifications in the app.
 
 ## Methods
 
@@ -22,7 +22,7 @@ _A non-visible component that adds a dot/badge to the app''s launcher icon when 
     |count|`number`|
 
 
-_Use this block to apply a notification badge count._
+Use this block to apply a notification badge count.
 
 ### Count
 
@@ -30,10 +30,10 @@ _Use this block to apply a notification badge count._
 
 {>>Returns `number`<<}
 
-_Use this block to return the notification count._
+Use this block to return the notification count.
 
 ### RemoveCount
 
 [[Method('Shortcut Badge', 'RemoveCount', false)]]
 
-_Use this block to remove the notification badge count._
+Use this block to remove the notification badge count.

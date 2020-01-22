@@ -8,7 +8,7 @@
 
 ## Overview
 
-_A non-visible component that performs operations like conversion between formats, lightening, and darkening on color data._
+A non-visible component that performs operations like conversion between formats, lightening, and darkening on color data.
 
 ## Methods
 
@@ -24,7 +24,7 @@ _A non-visible component that performs operations like conversion between format
     |hex Color|`text`|
 
 
-_Convert a hex color to a integer color. The result is returned as integer._
+Convert a hex color to a integer color. The result is returned as integer.
 
 ### ConvertIntToHex
 
@@ -38,7 +38,7 @@ _Convert a hex color to a integer color. The result is returned as integer._
     |color|`number`|
 
 
-_Convert a integer color to a hex color. The result is returned as string._
+Convert a integer color to a hex color. The result is returned as string.
 
 ### GetLuminance
 
@@ -52,7 +52,7 @@ _Convert a integer color to a hex color. The result is returned as string._
     |color|`number`|
 
 
-_Returns the luminance of a color as a float between 0.0 and 1.0. The result is returned as double._
+Returns the luminance of a color as a float between 0.0 and 1.0. The result is returned as double.
 
 ### IsDarkColor
 
@@ -66,7 +66,7 @@ _Returns the luminance of a color as a float between 0.0 and 1.0. The result is 
     |color|`number`|
 
 
-_Returns true if the color is dark, else it returns false, means the color is light. The result is returned as boolean._
+Returns true if the color is dark, else it returns false, means the color is light. The result is returned as boolean.
 
 ### SetAlphaValue
 
@@ -81,4 +81,4 @@ _Returns true if the color is dark, else it returns false, means the color is li
     |alpha|`number`|
 
 
-_Set a alpha value to a color. The result is returned as integer._
+Set a alpha value to a color. The result is returned as integer.

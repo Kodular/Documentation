@@ -8,7 +8,7 @@
 
 ## Overview
 
-_A non-visible component that acts as a bluetooth admin._
+A non-visible component that acts as a bluetooth admin.
 
 ## Events
 
@@ -22,7 +22,7 @@ _A non-visible component that acts as a bluetooth admin._
     |address|`text`|
 
 
-_Event triggers when Pairing has finished._
+Event triggers when Pairing has finished.
 
 ### After Scanning
 
@@ -35,7 +35,7 @@ _Event triggers when Pairing has finished._
     |new Devices|`any`|
 
 
-_Event triggers when Scanning has finished._
+Event triggers when Scanning has finished.
 
 ### After Unpairing
 
@@ -47,7 +47,7 @@ _Event triggers when Scanning has finished._
     |address|`text`|
 
 
-_Event triggers when Unpairing has finished._
+Event triggers when Unpairing has finished.
 
 ### Error Occurred
 
@@ -59,7 +59,7 @@ _Event triggers when Unpairing has finished._
     |message|`text`|
 
 
-_Event triggers when an error occurred._
+Event triggers when an error occurred.
 
 ### State Changed
 
@@ -71,7 +71,7 @@ _Event triggers when an error occurred._
     |state|`text`|
 
 
-_Event triggers when the bluetooth state changed._
+Event triggers when the bluetooth state changed.
 
 ## Methods
 
@@ -79,13 +79,13 @@ _Event triggers when the bluetooth state changed._
 
 [[Method('Bluetooth Admin', 'Disable', false)]]
 
-_Disable Bluetooth_
+Disable Bluetooth
 
 ### Enable
 
 [[Method('Bluetooth Admin', 'Enable', false)]]
 
-_Enable Bluetooth_
+Enable Bluetooth
 
 ### HasBluetooth
 
@@ -93,7 +93,7 @@ _Enable Bluetooth_
 
 {>>Returns `boolean`<<}
 
-_Returns if the device has Bluetooth_
+Returns if the device has Bluetooth
 
 ### MacAddress
 
@@ -101,7 +101,7 @@ _Returns if the device has Bluetooth_
 
 {>>Returns `text`<<}
 
-_Returns the Bluetooth MacAddress._
+Returns the Bluetooth MacAddress.
 
 ### Pair
 
@@ -113,13 +113,13 @@ _Returns the Bluetooth MacAddress._
     |address|`text`|
 
 
-_Pair Bluetooth device._
+Pair Bluetooth device.
 
 ### Scan
 
 [[Method('Bluetooth Admin', 'Scan', false)]]
 
-_Scan Bluetooth devices. Caution: Performing device discovery is a heavy procedure for the Bluetooth adapter and will consume a lot of its resources. If you already hold a connection with a device, then performing discovery can significantly reduce the bandwidth available for the connection, so you should not perform discovery while connected._
+Scan Bluetooth devices. Caution: Performing device discovery is a heavy procedure for the Bluetooth adapter and will consume a lot of its resources. If you already hold a connection with a device, then performing discovery can significantly reduce the bandwidth available for the connection, so you should not perform discovery while connected.
 
 ### ScanMode
 
@@ -127,7 +127,7 @@ _Scan Bluetooth devices. Caution: Performing device discovery is a heavy procedu
 
 {>>Returns `text`<<}
 
-_Returns the scan mode of the Bluetooth Adapter_
+Returns the scan mode of the Bluetooth Adapter
 
 ### State
 
@@ -135,13 +135,13 @@ _Returns the scan mode of the Bluetooth Adapter_
 
 {>>Returns `text`<<}
 
-_Returns the state of the Bluetooth Adapter._
+Returns the state of the Bluetooth Adapter.
 
 ### Toggle
 
 [[Method('Bluetooth Admin', 'Toggle', false)]]
 
-_Toggle Bluetooth_
+Toggle Bluetooth
 
 ### Unpair
 
@@ -153,7 +153,7 @@ _Toggle Bluetooth_
     |address|`text`|
 
 
-_Unpair Bluetooth device._
+Unpair Bluetooth device.
 
 ### ValidateMacAddress
 
@@ -167,7 +167,7 @@ _Unpair Bluetooth device._
     |mac Address|`text`|
 
 
-_Returns true if the MacAddress is valid._
+Returns true if the MacAddress is valid.
 
 ### ValidateUserMacAddress
 
@@ -175,7 +175,7 @@ _Returns true if the MacAddress is valid._
 
 {>>Returns `boolean`<<}
 
-_Returns true if the User MacAddress is valid._
+Returns true if the User MacAddress is valid.
 
 ## Properties
 
@@ -190,4 +190,4 @@ _Returns true if the User MacAddress is valid._
 |:----:|:-------:|
 |boolean|False|
 
-_Use codes instead of strings in returns for ScanMode and State._
+Use codes instead of strings in returns for ScanMode and State.

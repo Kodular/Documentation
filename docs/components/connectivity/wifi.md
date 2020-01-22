@@ -8,7 +8,7 @@
 
 ## Overview
 
-_A non-visible component that manages the WiFi settings of the device._
+A non-visible component that manages the WiFi settings of the device.
 
 ## Methods
 
@@ -18,19 +18,19 @@ _A non-visible component that manages the WiFi settings of the device._
 
 {>>Returns `text`<<}
 
-_Return the basic service set identifier (BSSID) of the current access point_
+Return the basic service set identifier (BSSID) of the current access point
 
 ### Disable
 
 [[Method('WiFi', 'Disable', false)]]
 
-_Disable the Wi-Fi_
+Disable the Wi-Fi
 
 ### Enable
 
 [[Method('WiFi', 'Enable', false)]]
 
-_Enable the Wi-Fi_
+Enable the Wi-Fi
 
 ### Is5GHzSupported
 
@@ -38,7 +38,7 @@ _Enable the Wi-Fi_
 
 {>>Returns `boolean`<<}
 
-_Return whether this adapter supports 5 GHz band_
+Return whether this adapter supports 5 GHz band
 
 ### IsEnabled
 
@@ -46,7 +46,7 @@ _Return whether this adapter supports 5 GHz band_
 
 {>>Returns `boolean`<<}
 
-_Return whether Wi-Fi is enabled or disabled_
+Return whether Wi-Fi is enabled or disabled
 
 ### IsWiFiDirectSupported
 
@@ -54,7 +54,7 @@ _Return whether Wi-Fi is enabled or disabled_
 
 {>>Returns `boolean`<<}
 
-_Return whether this adapter supports Wi-Fi Direct_
+Return whether this adapter supports Wi-Fi Direct
 
 ### LinkSpeed
 
@@ -62,7 +62,7 @@ _Return whether this adapter supports Wi-Fi Direct_
 
 {>>Returns `number`<<}
 
-_Returns the current link speed in Mbps_
+Returns the current link speed in Mbps
 
 ### LocalIP
 
@@ -70,7 +70,7 @@ _Returns the current link speed in Mbps_
 
 {>>Returns `text`<<}
 
-_Return the current Local IP_
+Return the current Local IP
 
 ### MacAddress
 
@@ -78,7 +78,7 @@ _Return the current Local IP_
 
 {>>Returns `text`<<}
 
-_Returns the wlan mac address._
+Returns the wlan mac address.
 
 ### SSID
 
@@ -86,7 +86,7 @@ _Returns the wlan mac address._
 
 {>>Returns `text`<<}
 
-_Returns the service set identifier (SSID) of the current 802.11 network_
+Returns the service set identifier (SSID) of the current 802.11 network
 
 ### SignalStrength
 
@@ -94,10 +94,10 @@ _Returns the service set identifier (SSID) of the current 802.11 network_
 
 {>>Returns `number`<<}
 
-_Returns the received signal strength indicator of the current 802.11 network, in dBm_
+Returns the received signal strength indicator of the current 802.11 network, in dBm
 
 ### Toggle
 
 [[Method('WiFi', 'Toggle', false)]]
 
-_Toggle the Wi-Fi_
+Toggle the Wi-Fi

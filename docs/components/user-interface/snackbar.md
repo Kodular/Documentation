@@ -8,7 +8,7 @@
 
 ## Overview
 
-_A non-visible component that displays an alert at the bottom of the screen._
+A non-visible component that displays an alert at the bottom of the screen.
 
 ## Events
 
@@ -16,7 +16,7 @@ _A non-visible component that displays an alert at the bottom of the screen._
 
 [[Event('Snackbar', 'Click')]]
 
-_User clicked on the action button._
+User clicked on the action button.
 
 ### On Dismissed
 
@@ -28,13 +28,13 @@ _User clicked on the action button._
     |event|`text`|
 
 
-_Event to detect the snackbar was dismissed. Possible results can be: "UNDEFINED", "ACTION", "CONSECUTIVE", "MANUAL", "SWIPE" or "TIMEOUT". You can find more information at: https://developer.android.com/reference/android/support/design/widget/Snackbar.Callback.html_
+Event to detect the snackbar was dismissed. Possible results can be: "UNDEFINED", "ACTION", "CONSECUTIVE", "MANUAL", "SWIPE" or "TIMEOUT". You can find more information at: https://developer.android.com/reference/android/support/design/widget/Snackbar.Callback.html
 
 ### On Shown
 
 [[Event('Snackbar', 'On Shown')]]
 
-_Event to detect the snackbar is shown._
+Event to detect the snackbar is shown.
 
 ## Methods
 
@@ -42,7 +42,7 @@ _Event to detect the snackbar is shown._
 
 [[Method('Snackbar', 'Dismiss', false)]]
 
-_Dismiss the snackbar._
+Dismiss the snackbar.
 
 ### IsShown
 
@@ -50,7 +50,7 @@ _Dismiss the snackbar._
 
 {>>Returns `boolean`<<}
 
-_Returns true whether this snackbar is currently being shown._
+Returns true whether this snackbar is currently being shown.
 
 ### Show
 
@@ -62,7 +62,7 @@ _Returns true whether this snackbar is currently being shown._
     |message|`text`|
 
 
-_Show Snackbar (message supports HTML formatting)_
+Show Snackbar (message supports HTML formatting)
 
 ### ShowWithButton
 
@@ -75,7 +75,7 @@ _Show Snackbar (message supports HTML formatting)_
     |button Text|`text`|
 
 
-_Show Snackbar with action button (message supports HTML formatting)_
+Show Snackbar with action button (message supports HTML formatting)
 
 ## Properties
 
@@ -90,7 +90,7 @@ _Show Snackbar with action button (message supports HTML formatting)_
 |:----:|:-------:|
 |number|&HFF444444|
 
-_Specifies the snackbar's background color._
+Specifies the snackbar's background color.
 
 ### Button Text Color
 
@@ -103,7 +103,7 @@ _Specifies the snackbar's background color._
 |:----:|:-------:|
 |number|&HFFFFFFFF|
 
-_Specifies the action button's text color._
+Specifies the action button's text color.
 
 ### Duration
 
@@ -116,7 +116,7 @@ _Specifies the action button's text color._
 |:----:|:-------:|
 |number|0|
 
-_Specifies the length of time that the Snackbar is shown_
+Specifies the length of time that the Snackbar is shown
 
 ### Text Color
 

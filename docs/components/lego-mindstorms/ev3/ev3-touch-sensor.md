@@ -8,7 +8,7 @@
 
 ## Overview
 
-_A component that provides a high-level interface to a touch sensor on a LEGO MINDSTORMS EV3 robot._
+A component that provides a high-level interface to a touch sensor on a LEGO MINDSTORMS EV3 robot.
 
 ## Events
 
@@ -16,13 +16,13 @@ _A component that provides a high-level interface to a touch sensor on a LEGO MI
 
 [[Event('EV3 Touch Sensor', 'Pressed')]]
 
-_Called when the touch sensor is pressed._
+Called when the touch sensor is pressed.
 
 ### Released
 
 [[Event('EV3 Touch Sensor', 'Released')]]
 
-_Called when the touch sensor is pressed._
+Called when the touch sensor is pressed.
 
 ## Methods
 
@@ -32,7 +32,7 @@ _Called when the touch sensor is pressed._
 
 {>>Returns `boolean`<<}
 
-_Returns true if the touch sensor is pressed._
+Returns true if the touch sensor is pressed.
 
 ## Properties
 
@@ -47,7 +47,7 @@ _Returns true if the touch sensor is pressed._
 |:----:|
 |component|
 
-_The BluetoothClient component that should be used for communication._
+The BluetoothClient component that should be used for communication.
 
 ### Pressed Event Enabled
 
@@ -60,8 +60,8 @@ _The BluetoothClient component that should be used for communication._
 |:----:|:-------:|
 |boolean|False|
 
-_Specifies whether the Pressed event should fire when the touch sensor is
- pressed._
+Specifies whether the Pressed event should fire when the touch sensor is
+ pressed.
 
 ### Released Event Enabled
 
@@ -74,7 +74,7 @@ _Specifies whether the Pressed event should fire when the touch sensor is
 |:----:|:-------:|
 |boolean|False|
 
-_Whether the Released event should fire when the touch sensor is released._
+Whether the Released event should fire when the touch sensor is released.
 
 ### Sensor Port
 
@@ -87,4 +87,4 @@ _Whether the Released event should fire when the touch sensor is released._
 |:----:|:-------:|
 |text|1|
 
-_The sensor port that the sensor is connected to._
+The sensor port that the sensor is connected to.

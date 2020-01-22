@@ -6,7 +6,7 @@
 
 ## Overview
 
-_A visible component that displays animations from a json or zip file, or from a URL._
+A visible component that displays animations from a json or zip file, or from a URL.
 
 ## Events
 
@@ -14,31 +14,31 @@ _A visible component that displays animations from a json or zip file, or from a
 
 [[Event('Lottie', 'Animation End')]]
 
-_Triggers when the animation ends._
+Triggers when the animation ends.
 
 ### Animation Repeat
 
 [[Event('Lottie', 'Animation Repeat')]]
 
-_Triggers when the animation repeated._
+Triggers when the animation repeated.
 
 ### Animation Start
 
 [[Event('Lottie', 'Animation Start')]]
 
-_Triggers when the animation starts._
+Triggers when the animation starts.
 
 ### Click
 
 [[Event('Lottie', 'Click')]]
 
-_Triggers when the components was clicked._
+Triggers when the components was clicked.
 
 ### Long Click
 
 [[Event('Lottie', 'Long Click')]]
 
-_Triggers when the components was long clicked._
+Triggers when the components was long clicked.
 
 ## Methods
 
@@ -52,7 +52,7 @@ _Triggers when the components was long clicked._
     |frame|`number`|
 
 
-_Set the frame where you want the animation to end._
+Set the frame where you want the animation to end.
 
 ### GetCurrentFrame
 
@@ -60,7 +60,7 @@ _Set the frame where you want the animation to end._
 
 {>>Returns `number`<<}
 
-_Get the frame where the animation is now._
+Get the frame where the animation is now.
 
 ### GetFrameCount
 
@@ -68,7 +68,7 @@ _Get the frame where the animation is now._
 
 {>>Returns `number`<<}
 
-_Get the count of frames in the animation._
+Get the count of frames in the animation.
 
 ### IsAnimating
 
@@ -76,19 +76,19 @@ _Get the count of frames in the animation._
 
 {>>Returns `boolean`<<}
 
-_Check if the Lottie component is animating._
+Check if the Lottie component is animating.
 
 ### PauseAnimation
 
 [[Method('Lottie', 'PauseAnimation', false)]]
 
-_Pause the animation on the Lottie component._
+Pause the animation on the Lottie component.
 
 ### ResumeAnimation
 
 [[Method('Lottie', 'ResumeAnimation', false)]]
 
-_Resume the animation on the Lottie component._
+Resume the animation on the Lottie component.
 
 ### SetCurrentFrame
 
@@ -100,13 +100,13 @@ _Resume the animation on the Lottie component._
     |frame|`number`|
 
 
-_Set the frame where you want the animation to be now._
+Set the frame where you want the animation to be now.
 
 ### StartAnimation
 
 [[Method('Lottie', 'StartAnimation', false)]]
 
-_Start the animation on the Lottie component._
+Start the animation on the Lottie component.
 
 ### StartFrame
 
@@ -118,7 +118,7 @@ _Start the animation on the Lottie component._
     |frame|`number`|
 
 
-_Set the frame where you want the animation to start._
+Set the frame where you want the animation to start.
 
 ## Properties
 
@@ -133,7 +133,7 @@ _Set the frame where you want the animation to start._
 |:----:|:-------:|
 |number|1|
 
-_Set the speed of the animation._
+Set the speed of the animation.
 
 ### Clickable
 
@@ -146,7 +146,7 @@ _Set the speed of the animation._
 |:----:|:-------:|
 |boolean|True|
 
-_Set the component clickable or not clickable._
+Set the component clickable or not clickable.
 
 ### Loop Animation
 
@@ -159,7 +159,7 @@ _Set the component clickable or not clickable._
 |:----:|:-------:|
 |boolean|True|
 
-_Set to true if you want to loop the animation._
+Set to true if you want to loop the animation.
 
 ### Source
 
@@ -172,7 +172,7 @@ _Set to true if you want to loop the animation._
 |:----:|
 |text|
 
-_Set the file or url of the file you want to load._
+Set the file or url of the file you want to load.
 
 ### Visible
 
@@ -185,7 +185,7 @@ _Set the file or url of the file you want to load._
 |:----:|:-------:|
 |boolean|True|
 
-_Returns true iff the component is visible._
+Returns true iff the component is visible.
 
 ### Column
 
@@ -196,7 +196,7 @@ _Returns true iff the component is visible._
 |:----:|:-------:|
 |number|None|
 
-_Column property getter method._
+Column property getter method.
 
 ### Height
 
@@ -207,7 +207,7 @@ _Column property getter method._
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's vertical height, measured in pixels._
+Specifies the component's vertical height, measured in pixels.
 
 ### Height Percent
 
@@ -218,8 +218,8 @@ _Specifies the component's vertical height, measured in pixels._
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's vertical height as a percentage
- of the height of its parent Component._
+Specifies the component's vertical height as a percentage
+ of the height of its parent Component.
 
 ### Row
 
@@ -230,7 +230,7 @@ _Specifies the component's vertical height as a percentage
 |:----:|:-------:|
 |number|None|
 
-_Row property getter method._
+Row property getter method.
 
 ### Width
 
@@ -241,7 +241,7 @@ _Row property getter method._
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's horizontal width, measured in pixels._
+Specifies the component's horizontal width, measured in pixels.
 
 ### Width Percent
 
@@ -252,5 +252,5 @@ _Specifies the component's horizontal width, measured in pixels._
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's horizontal width as a percentage
- of the Width of its parent Component._
+Specifies the component's horizontal width as a percentage
+ of the Width of its parent Component.

@@ -8,7 +8,7 @@
 
 ## Overview
 
-_A non-visible component that shows a visible layout at the bottom of the screen._
+A non-visible component that shows a visible layout at the bottom of the screen.
 
 ## Events
 
@@ -16,13 +16,13 @@ _A non-visible component that shows a visible layout at the bottom of the screen
 
 [[Event('Bottom Sheet', 'Closed')]]
 
-_Event to detect that the dialog was closed._
+Event to detect that the dialog was closed.
 
 ### Opened
 
 [[Event('Bottom Sheet', 'Opened')]]
 
-_Event to detect that the dialog was opened._
+Event to detect that the dialog was opened.
 
 ## Methods
 
@@ -30,7 +30,7 @@ _Event to detect that the dialog was opened._
 
 [[Method('Bottom Sheet', 'HideDialog', false)]]
 
-_Hide the bottom sheet dialog._
+Hide the bottom sheet dialog.
 
 ### RegisterComponentAsDialog
 
@@ -42,7 +42,7 @@ _Hide the bottom sheet dialog._
     |component|`component`|
 
 
-_Register any component as example a 'button', that will be later your bottom sheet dialog._
+Register any component as example a 'button', that will be later your bottom sheet dialog.
 
 ### RegisterLayoutAsDialog
 
@@ -54,13 +54,13 @@ _Register any component as example a 'button', that will be later your bottom sh
     |layout|`component`|
 
 
-_Register any layout as example a 'horizontal arrangement', that will be later your bottom sheet dialog._
+Register any layout as example a 'horizontal arrangement', that will be later your bottom sheet dialog.
 
 ### ShowDialog
 
 [[Method('Bottom Sheet', 'ShowDialog', false)]]
 
-_Show the bottom sheet dialog._
+Show the bottom sheet dialog.
 
 ## Properties
 
@@ -75,7 +75,7 @@ _Show the bottom sheet dialog._
 |:----:|:-------:|
 |boolean|True|
 
-_If set to true the user will see a dark background effect. Else the background have then no dark background effect._
+If set to true the user will see a dark background effect. Else the background have then no dark background effect.
 
 ### Show Status Bar
 
@@ -88,4 +88,4 @@ _If set to true the user will see a dark background effect. Else the background 
 |:----:|:-------:|
 |boolean|True|
 
-_The status bar is the topmost bar on the screen. This property reports whether the status bar is visible._
+The status bar is the topmost bar on the screen. This property reports whether the status bar is visible.

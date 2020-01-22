@@ -8,7 +8,7 @@
 
 ## Overview
 
-_A non-visible component to show ads from AppLovin._
+A non-visible component to show ads from AppLovin.
 
 ## Events
 
@@ -16,7 +16,7 @@ _A non-visible component to show ads from AppLovin._
 
 [[Event('AppLovin Interstitial', 'Ad Closed')]]
 
-_Called when an ad was closed._
+Called when an ad was closed.
 
 ### Ad Failed To Load
 
@@ -29,25 +29,25 @@ _Called when an ad was closed._
     |error Message|`text`|
 
 
-_Called when an ad request failed to load. The message will display the error code and error message._
+Called when an ad request failed to load. The message will display the error code and error message.
 
 ### Ad Loaded
 
 [[Event('AppLovin Interstitial', 'Ad Loaded')]]
 
-_Called when an ad is received._
+Called when an ad is received.
 
 ### Ad Opened
 
 [[Event('AppLovin Interstitial', 'Ad Opened')]]
 
-_Called when an ad was opened._
+Called when an ad was opened.
 
 ### Ad Started
 
 [[Event('AppLovin Interstitial', 'Ad Started')]]
 
-_Called when an ad was started._
+Called when an ad was started.
 
 ### Error
 
@@ -60,7 +60,7 @@ _Called when an ad was started._
     |error Message|`text`|
 
 
-_Called when an ad request failed. The message will display the reason for why the ad failed._
+Called when an ad request failed. The message will display the reason for why the ad failed.
 
 ## Methods
 
@@ -70,19 +70,19 @@ _Called when an ad request failed. The message will display the reason for why t
 
 {>>Returns `boolean`<<}
 
-_Returns true if the current app user is located in europe. If true you must ask the user as example in a dialog if he give his consent for personalized ads._
+Returns true if the current app user is located in europe. If true you must ask the user as example in a dialog if he give his consent for personalized ads.
 
 ### Load Ad
 
 [[Method('AppLovin Interstitial', 'Load Ad', false)]]
 
-_Loads a new ad._
+Loads a new ad.
 
 ### ShowAd
 
 [[Method('AppLovin Interstitial', 'ShowAd', false)]]
 
-_Shows an ad to the user._
+Shows an ad to the user.
 
 ## Properties
 
@@ -110,7 +110,7 @@ _No description available_
 |:----:|:-------:|
 |boolean|False|
 
-_If you want to test the component then that this property to true. Then you will receive test ads._
+If you want to test the component then that this property to true. Then you will receive test ads.
 
 ### User Consent
 
@@ -121,4 +121,4 @@ _If you want to test the component then that this property to true. Then you wil
 |:----:|:-------:|
 |boolean|None|
 
-_If set to true the user allowed the ad network to show personalized ads. You only need to request the consent from european users._
+If set to true the user allowed the ad network to show personalized ads. You only need to request the consent from european users.

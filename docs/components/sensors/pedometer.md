@@ -8,7 +8,7 @@
 
 ## Overview
 
-_A Component that acts like a Pedometer. It senses motion via the Accerleromter and attempts to determine if a step has been taken. Using a configurable stride length, it can estimate the distance traveled as well. _
+A Component that acts like a Pedometer. It senses motion via the Accerleromter and attempts to determine if a step has been taken. Using a configurable stride length, it can estimate the distance traveled as well. 
 
 ## Events
 
@@ -18,7 +18,7 @@ _A Component that acts like a Pedometer. It senses motion via the Accerleromter 
 
 [[Event('Pedometer', 'Calibration Failed')]]
 
-_deprecated_
+deprecated
 
 ### GPS Available
 
@@ -26,7 +26,7 @@ _deprecated_
 
 [[Event('Pedometer', 'GPS Available')]]
 
-_deprecated_
+deprecated
 
 ### GPS Lost
 
@@ -34,7 +34,7 @@ _deprecated_
 
 [[Event('Pedometer', 'GPS Lost')]]
 
-_deprecated_
+deprecated
 
 ### Simple Step
 
@@ -47,7 +47,7 @@ _deprecated_
     |distance|`number`|
 
 
-_This event is run when a raw step is detected_
+This event is run when a raw step is detected
 
 ### Started Moving
 
@@ -55,7 +55,7 @@ _This event is run when a raw step is detected_
 
 [[Event('Pedometer', 'Started Moving')]]
 
-_deprecated_
+deprecated
 
 ### Stopped Moving
 
@@ -63,7 +63,7 @@ _deprecated_
 
 [[Event('Pedometer', 'Stopped Moving')]]
 
-_deprecated_
+deprecated
 
 ### Walk Step
 
@@ -76,7 +76,7 @@ _deprecated_
     |distance|`number`|
 
 
-_This event is run when a walking step is detected. A walking step is a step that appears to be involved in forward motion._
+This event is run when a walking step is detected. A walking step is a step that appears to be involved in forward motion.
 
 ## Methods
 
@@ -86,13 +86,13 @@ _This event is run when a walking step is detected. A walking step is a step tha
 
 [[Method('Pedometer', 'Pause', false)]]
 
-_Pause counting of steps and distance._
+Pause counting of steps and distance.
 
 ### Reset
 
 [[Method('Pedometer', 'Reset', false)]]
 
-_Resets the step counter, distance measure and time running._
+Resets the step counter, distance measure and time running.
 
 ### Resume
 
@@ -100,25 +100,25 @@ _Resets the step counter, distance measure and time running._
 
 [[Method('Pedometer', 'Resume', false)]]
 
-_Resumes counting, synonym of Start._
+Resumes counting, synonym of Start.
 
 ### Save
 
 [[Method('Pedometer', 'Save', false)]]
 
-_Saves the pedometer state to the phone. Permits permits accumulation of steps and distance between invocations of an App that uses the pedometer. Different Apps will have their own saved state._
+Saves the pedometer state to the phone. Permits permits accumulation of steps and distance between invocations of an App that uses the pedometer. Different Apps will have their own saved state.
 
 ### Start
 
 [[Method('Pedometer', 'Start', false)]]
 
-_Start counting steps_
+Start counting steps
 
 ### Stop
 
 [[Method('Pedometer', 'Stop', false)]]
 
-_Stop counting steps_
+Stop counting steps
 
 ## Properties
 
@@ -133,7 +133,7 @@ _Stop counting steps_
 |:----:|:-------:|
 |number|2000|
 
-_The duration in milliseconds of idleness (no steps detected) after which to go into a "stopped" state_
+The duration in milliseconds of idleness (no steps detected) after which to go into a "stopped" state
 
 ### Stride Length
 
@@ -146,7 +146,7 @@ _The duration in milliseconds of idleness (no steps detected) after which to go 
 |:----:|:-------:|
 |number|0.73|
 
-_Set the average stride length in meters._
+Set the average stride length in meters.
 
 ### Calibrate Stride Length
 
@@ -159,7 +159,7 @@ _Set the average stride length in meters._
 |:----:|:-------:|
 |boolean|None|
 
-_deprecated_
+deprecated
 
 ### Distance
 
@@ -170,7 +170,7 @@ _deprecated_
 |:----:|:-------:|
 |number|None|
 
-_The approximate distance traveled in meters._
+The approximate distance traveled in meters.
 
 ### Elapsed Time
 
@@ -181,7 +181,7 @@ _The approximate distance traveled in meters._
 |:----:|:-------:|
 |number|None|
 
-_Time elapsed in milliseconds since the pedometer was started._
+Time elapsed in milliseconds since the pedometer was started.
 
 ### Moving
 
@@ -194,7 +194,7 @@ _Time elapsed in milliseconds since the pedometer was started._
 |:----:|:-------:|
 |boolean|None|
 
-_deprecated_
+deprecated
 
 ### Simple Steps
 
@@ -205,7 +205,7 @@ _deprecated_
 |:----:|:-------:|
 |number|None|
 
-_The number of simple steps taken since the pedometer has started._
+The number of simple steps taken since the pedometer has started.
 
 ### Use GPS
 
@@ -229,4 +229,4 @@ _No description available_
 |:----:|:-------:|
 |number|None|
 
-_the number of walk steps taken since the pedometer has started._
+the number of walk steps taken since the pedometer has started.

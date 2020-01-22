@@ -8,7 +8,7 @@
 
 ## Overview
 
-_A non-visible component that loads string resources from a file._
+A non-visible component that loads string resources from a file.
 
 ## Methods
 
@@ -27,7 +27,7 @@ _A non-visible component that loads string resources from a file._
     |if Resource Not Found Use|`text`|
 
 
-_This block is deprecated and will be removed soon. Use instead 'Get String From Asset' or 'Get String From Path'._
+This block is deprecated and will be removed soon. Use instead 'Get String From Asset' or 'Get String From Path'.
 
 ### GetStringFromAsset
 
@@ -42,7 +42,7 @@ _This block is deprecated and will be removed soon. Use instead 'Get String From
     |if Resource Not Found Use|`text`|
 
 
-_Get the text from a asset resource file. Make sure you uploaded a file at 'Resource File From Asset' property._
+Get the text from a asset resource file. Make sure you uploaded a file at 'Resource File From Asset' property.
 
 ### GetStringFromPath
 
@@ -57,7 +57,7 @@ _Get the text from a asset resource file. Make sure you uploaded a file at 'Reso
     |if Resource Not Found Use|`text`|
 
 
-_Get the text from a path resource file. Make sure you added a file path at 'Resource File From Path' property. The path can be too a link to a url._
+Get the text from a path resource file. Make sure you added a file path at 'Resource File From Path' property. The path can be too a link to a url.
 
 ## Properties
 
@@ -72,7 +72,7 @@ _Get the text from a path resource file. Make sure you added a file path at 'Res
 |:----:|
 |text|
 
-_Set the file which is used as resource file. The file must be stored in the assets folder._
+Set the file which is used as resource file. The file must be stored in the assets folder.
 
 ### Resource File From Path
 
@@ -85,4 +85,4 @@ _Set the file which is used as resource file. The file must be stored in the ass
 |:----:|
 |text|
 
-_Set the file which is used as resource file. The file path must be valid to any file you want to use. The path can be too a link to a url._
+Set the file which is used as resource file. The file path must be valid to any file you want to use. The path can be too a link to a url.

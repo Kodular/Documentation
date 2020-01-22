@@ -8,7 +8,7 @@
 
 ## Overview
 
-_A non-visible component that sends a notification to the user''s device._
+A non-visible component that sends a notification to the user''s device.
 
 ## Methods
 
@@ -18,13 +18,13 @@ _A non-visible component that sends a notification to the user''s device._
 
 {>>Returns `boolean`<<}
 
-_Check whether the app can send Notifications_
+Check whether the app can send Notifications
 
 ### CancelAll
 
 [[Method('Notification', 'CancelAll', false)]]
 
-_Cancel all Notifications_
+Cancel all Notifications
 
 ### CancelNotification
 
@@ -36,7 +36,7 @@ _Cancel all Notifications_
     |id|`number`|
 
 
-_Cancel a Notification with an id_
+Cancel a Notification with an id
 
 ### NotificationBuilderAndroidCar
 
@@ -48,7 +48,7 @@ _Cancel a Notification with an id_
     |accent Color|`number`|
 
 
-_Set the accent color for Android Car devices_
+Set the accent color for Android Car devices
 
 ### NotificationBuilderAndroidWear
 
@@ -60,7 +60,7 @@ _Set the accent color for Android Car devices_
     |background Image|`text`|
 
 
-_Set the background image for Android Wear devices_
+Set the background image for Android Wear devices
 
 ### NotificationBuilderAutoCancel
 
@@ -72,7 +72,7 @@ _Set the background image for Android Wear devices_
     |auto Cancel|`boolean`|
 
 
-_Set whether the notification should me removed after the user clicks on it._
+Set whether the notification should me removed after the user clicks on it.
 
 ### NotificationBuilderBigPicture
 
@@ -84,7 +84,7 @@ _Set whether the notification should me removed after the user clicks on it._
     |big Picture|`text`|
 
 
-_Set the big picture for the notification_
+Set the big picture for the notification
 
 ### NotificationBuilderID
 
@@ -96,7 +96,7 @@ _Set the big picture for the notification_
     |id|`number`|
 
 
-_Set the notification id._
+Set the notification id.
 
 ### NotificationBuilderPriority
 
@@ -108,13 +108,13 @@ _Set the notification id._
     |priority|`number`|
 
 
-_Set the notification builder priority. 1 = "Default", 2 = "high", 3 = "low", 4 = "max", 5 = "min"_
+Set the notification builder priority. 1 = "Default", 2 = "high", 3 = "low", 4 = "max", 5 = "min"
 
 ### NotificationBuilderSend
 
 [[Method('Notification', 'NotificationBuilderSend', false)]]
 
-_Send the notification that you build_
+Send the notification that you build
 
 ### NotificationBuilderStart
 
@@ -127,7 +127,7 @@ _Send the notification that you build_
     |message|`text`|
 
 
-_Start building a new notification_
+Start building a new notification
 
 ### NotificationBuilderStartValue
 
@@ -139,7 +139,7 @@ _Start building a new notification_
     |start Value|`text`|
 
 
-_Set the start value of the notification._
+Set the start value of the notification.
 
 ### NotificationBuilderVisibility
 
@@ -151,7 +151,7 @@ _Set the start value of the notification._
     |visibility|`number`|
 
 
-_Set the notification builder visibility. 1 = "public", 2 = "private", 3 = "secret"._
+Set the notification builder visibility. 1 = "public", 2 = "private", 3 = "secret".
 
 ### SendAdvancedNotification
 
@@ -168,7 +168,7 @@ _Set the notification builder visibility. 1 = "public", 2 = "private", 3 = "secr
     |time Off|`number`|
 
 
-_Send a advanced notification (Android Wear Support)_
+Send a advanced notification (Android Wear Support)
 
 ### SendNotification
 
@@ -181,7 +181,7 @@ _Send a advanced notification (Android Wear Support)_
     |message|`text`|
 
 
-_Send a notification_
+Send a notification
 
 ## Properties
 
@@ -196,7 +196,7 @@ _Send a notification_
 |:----:|:-------:|
 |number|1|
 
-_Set the priority level. 1 = "Default", 2 = "high", 3 = "low", 4 = "max", 5 = "min"_
+Set the priority level. 1 = "Default", 2 = "high", 3 = "low", 4 = "max", 5 = "min"
 
 ### Visibility
 
@@ -209,4 +209,4 @@ _Set the priority level. 1 = "Default", 2 = "high", 3 = "low", 4 = "max", 5 = "m
 |:----:|:-------:|
 |number|1|
 
-_Set the visibility property. 1 = "public", 2 = "private", 3 = "secret"._
+Set the visibility property. 1 = "public", 2 = "private", 3 = "secret".

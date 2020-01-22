@@ -8,7 +8,7 @@
 
 ## Overview
 
-_A non-visible component that converts spoken words to text using voice recognition._
+A non-visible component that converts spoken words to text using voice recognition.
 
 ## Events
 
@@ -22,14 +22,14 @@ _A non-visible component that converts spoken words to text using voice recognit
     |result|`text`|
 
 
-_Simple event to raise after the VoiceReco activity has returned_
+Simple event to raise after the VoiceReco activity has returned
 
 ### Before Getting Text
 
 [[Event('Speech Recognizer', 'Before Getting Text')]]
 
-_Simple event to raise when VoiceReco is invoked but before the VoiceReco
- activity is started._
+Simple event to raise when VoiceReco is invoked but before the VoiceReco
+ activity is started.
 
 ## Methods
 
@@ -37,8 +37,8 @@ _Simple event to raise when VoiceReco is invoked but before the VoiceReco
 
 [[Method('Speech Recognizer', 'GetText', false)]]
 
-_Solicits speech input from the user.  After the speech is converted to
- text, the AfterGettingText event will be raised._
+Solicits speech input from the user.  After the speech is converted to
+ text, the AfterGettingText event will be raised.
 
 ## Properties
 
@@ -51,4 +51,4 @@ _Solicits speech input from the user.  After the speech is converted to
 |:----:|:-------:|
 |text|None|
 
-_Result property getter method._
+Result property getter method.

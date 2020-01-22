@@ -6,7 +6,7 @@
 
 ## Overview
 
-_A visible component that groups other layout components each of which can be accessed by swiping left or right._
+A visible component that groups other layout components each of which can be accessed by swiping left or right.
 
 ## Events
 
@@ -20,7 +20,7 @@ _A visible component that groups other layout components each of which can be ac
     |position|`number`|
 
 
-_Event to detect that a page was selected._
+Event to detect that a page was selected.
 
 ## Methods
 
@@ -35,13 +35,13 @@ _Event to detect that a page was selected._
     |tab Name|`text`|
 
 
-_Add a component to the view pager. The first added component will be the first visible component on the screen._
+Add a component to the view pager. The first added component will be the first visible component on the screen.
 
 ### RemoveAllTabs
 
 [[Method('View Pager', 'RemoveAllTabs', false)]]
 
-_Remove all tab's from view pager._
+Remove all tab's from view pager.
 
 ### RemoveViewAt
 
@@ -53,7 +53,7 @@ _Remove all tab's from view pager._
     |position|`number`|
 
 
-_Removes a before added view from the view pager. If you want to delete the first page then use as position '1'._
+Removes a before added view from the view pager. If you want to delete the first page then use as position '1'.
 
 ## Properties
 
@@ -68,7 +68,7 @@ _Removes a before added view from the view pager. If you want to delete the firs
 |:----:|:-------:|
 |boolean|True|
 
-_If set to true, you will see tabs above the view pager._
+If set to true, you will see tabs above the view pager.
 
 ### Tabs Active Text Color
 
@@ -81,7 +81,7 @@ _If set to true, you will see tabs above the view pager._
 |:----:|:-------:|
 |number|&HFFFF4081|
 
-_Specifies the tab's text color for active tab's._
+Specifies the tab's text color for active tab's.
 
 ### Tabs Background Color
 
@@ -94,7 +94,7 @@ _Specifies the tab's text color for active tab's._
 |:----:|:-------:|
 |number|&HFF3F51B5|
 
-_Specifies the tab's background color._
+Specifies the tab's background color.
 
 ### Tabs Indicator Color
 
@@ -107,7 +107,7 @@ _Specifies the tab's background color._
 |:----:|:-------:|
 |number|&HFFFFFFFF|
 
-_Specifies the tab's indicator color._
+Specifies the tab's indicator color.
 
 ### Tabs Mode
 
@@ -120,7 +120,7 @@ _Specifies the tab's indicator color._
 |:----:|:-------:|
 |number|1|
 
-_Choose the mode used for the tab's. If no mode is specified, 'Scrollable' is taken as 'Default'. Use '0' for scrollable and '1' for fixed._
+Choose the mode used for the tab's. If no mode is specified, 'Scrollable' is taken as 'Default'. Use '0' for scrollable and '1' for fixed.
 
 ### Tabs Text Color
 
@@ -133,7 +133,7 @@ _Choose the mode used for the tab's. If no mode is specified, 'Scrollable' is ta
 |:----:|:-------:|
 |number|&HFFFFFFFF|
 
-_Specifies the tab's text color for not selected tab's._
+Specifies the tab's text color for not selected tab's.
 
 ### Visible
 
@@ -146,7 +146,7 @@ _Specifies the tab's text color for not selected tab's._
 |:----:|:-------:|
 |boolean|True|
 
-_Specifies whether the component should be visible on the screen. Value is true if the component is showing and false if hidden._
+Specifies whether the component should be visible on the screen. Value is true if the component is showing and false if hidden.
 
 ### Column
 
@@ -157,7 +157,7 @@ _Specifies whether the component should be visible on the screen. Value is true 
 |:----:|:-------:|
 |number|None|
 
-_Column property getter method._
+Column property getter method.
 
 ### Get Current Page
 
@@ -168,7 +168,7 @@ _Column property getter method._
 |:----:|:-------:|
 |number|None|
 
-_Get the current selected visible page._
+Get the current selected visible page.
 
 ### Height
 
@@ -179,7 +179,7 @@ _Get the current selected visible page._
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's vertical height, measured in pixels._
+Specifies the component's vertical height, measured in pixels.
 
 ### Height Percent
 
@@ -190,8 +190,8 @@ _Specifies the component's vertical height, measured in pixels._
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's vertical height as a percentage
- of the height of its parent Component._
+Specifies the component's vertical height as a percentage
+ of the height of its parent Component.
 
 ### Row
 
@@ -202,7 +202,7 @@ _Specifies the component's vertical height as a percentage
 |:----:|:-------:|
 |number|None|
 
-_Row property getter method._
+Row property getter method.
 
 ### Select Page
 
@@ -213,7 +213,7 @@ _Row property getter method._
 |:----:|:-------:|
 |number|None|
 
-_Select a page which is then the active page._
+Select a page which is then the active page.
 
 ### Width
 
@@ -224,7 +224,7 @@ _Select a page which is then the active page._
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's horizontal width, measured in pixels._
+Specifies the component's horizontal width, measured in pixels.
 
 ### Width Percent
 
@@ -235,5 +235,5 @@ _Specifies the component's horizontal width, measured in pixels._
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's horizontal width as a percentage
- of the Width of its parent Component._
+Specifies the component's horizontal width as a percentage
+ of the Width of its parent Component.

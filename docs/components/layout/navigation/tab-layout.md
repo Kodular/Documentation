@@ -6,7 +6,7 @@
 
 ## Overview
 
-_A visible component that groups other layout components such that only one of its children is shown at a time. Each of the child layouts can be accessed either by swiping left and right, or using the tabs at the top._
+A visible component that groups other layout components such that only one of its children is shown at a time. Each of the child layouts can be accessed either by swiping left and right, or using the tabs at the top.
 
 ## Events
 
@@ -21,7 +21,7 @@ _A visible component that groups other layout components such that only one of i
     |position|`number`|
 
 
-_The event returns the name or the position of the selected tab._
+The event returns the name or the position of the selected tab.
 
 ## Methods
 
@@ -36,7 +36,7 @@ _The event returns the name or the position of the selected tab._
     |icon|`text`|
 
 
-_Add a new tab to the tab layout. If you don't want a icon then let it empty._
+Add a new tab to the tab layout. If you don't want a icon then let it empty.
 
 ### AddNewTabAt
 
@@ -50,7 +50,7 @@ _Add a new tab to the tab layout. If you don't want a icon then let it empty._
     |position|`number`|
 
 
-_Add a new tab to the tab layout at the given position. If you don't want a icon then let it empty._
+Add a new tab to the tab layout at the given position. If you don't want a icon then let it empty.
 
 ### CountTabs
 
@@ -58,13 +58,13 @@ _Add a new tab to the tab layout at the given position. If you don't want a icon
 
 {>>Returns `number`<<}
 
-_Returns the number of current added tab's._
+Returns the number of current added tab's.
 
 ### RemoveAllTabs
 
 [[Method('Tab Layout', 'RemoveAllTabs', false)]]
 
-_Remove all tab's from tab layout._
+Remove all tab's from tab layout.
 
 ### RemoveTabAt
 
@@ -76,7 +76,7 @@ _Remove all tab's from tab layout._
     |position|`number`|
 
 
-_Removes a before added tab. If you want to delete the first tab then use as position '1'._
+Removes a before added tab. If you want to delete the first tab then use as position '1'.
 
 ## Properties
 
@@ -91,7 +91,7 @@ _Removes a before added tab. If you want to delete the first tab then use as pos
 |:----:|:-------:|
 |number|&HFFFF4081|
 
-_Specifies the tab's text color for active tab's._
+Specifies the tab's text color for active tab's.
 
 ### Tabs Background Color
 
@@ -104,7 +104,7 @@ _Specifies the tab's text color for active tab's._
 |:----:|:-------:|
 |number|&HFF3F51B5|
 
-_Specifies the tab's background color._
+Specifies the tab's background color.
 
 ### Tabs Indicator Color
 
@@ -117,7 +117,7 @@ _Specifies the tab's background color._
 |:----:|:-------:|
 |number|&HFFFFFFFF|
 
-_Specifies the tab's indicator color._
+Specifies the tab's indicator color.
 
 ### Tabs Mode
 
@@ -130,7 +130,7 @@ _Specifies the tab's indicator color._
 |:----:|:-------:|
 |number|1|
 
-_Choose the mode used for the tab's. If no mode is specified, 'Scrollable' is taken as 'Default'. Use '0' for scrollable and '1' for fixed._
+Choose the mode used for the tab's. If no mode is specified, 'Scrollable' is taken as 'Default'. Use '0' for scrollable and '1' for fixed.
 
 ### Tabs Text Color
 
@@ -143,7 +143,7 @@ _Choose the mode used for the tab's. If no mode is specified, 'Scrollable' is ta
 |:----:|:-------:|
 |number|&HFFFFFFFF|
 
-_Specifies the tab's text color for not selected tab's._
+Specifies the tab's text color for not selected tab's.
 
 ### Visible
 
@@ -156,7 +156,7 @@ _Specifies the tab's text color for not selected tab's._
 |:----:|:-------:|
 |boolean|True|
 
-_Specifies whether the component should be visible on the screen. Value is true if the component is showing and false if hidden._
+Specifies whether the component should be visible on the screen. Value is true if the component is showing and false if hidden.
 
 ### Column
 
@@ -167,7 +167,7 @@ _Specifies whether the component should be visible on the screen. Value is true 
 |:----:|:-------:|
 |number|None|
 
-_Column property getter method._
+Column property getter method.
 
 ### Get Current Tab
 
@@ -178,7 +178,7 @@ _Column property getter method._
 |:----:|:-------:|
 |number|None|
 
-_Get the current selected tab._
+Get the current selected tab.
 
 ### Row
 
@@ -189,7 +189,7 @@ _Get the current selected tab._
 |:----:|:-------:|
 |number|None|
 
-_Row property getter method._
+Row property getter method.
 
 ### Select Tab
 
@@ -200,7 +200,7 @@ _Row property getter method._
 |:----:|:-------:|
 |number|None|
 
-_Select a tab which is then the active tab._
+Select a tab which is then the active tab.
 
 ### Width
 
@@ -211,7 +211,7 @@ _Select a tab which is then the active tab._
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's horizontal width, measured in pixels._
+Specifies the component's horizontal width, measured in pixels.
 
 ### Width Percent
 
@@ -222,5 +222,5 @@ _Specifies the component's horizontal width, measured in pixels._
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's horizontal width as a percentage
- of the Width of its parent Component._
+Specifies the component's horizontal width as a percentage
+ of the Width of its parent Component.

@@ -8,7 +8,7 @@
 
 ## Overview
 
-_A component that provides a low-level interface to a LEGO MINDSTORMS NXT robot, with functions to send NXT Direct Commands._
+A component that provides a low-level interface to a LEGO MINDSTORMS NXT robot, with functions to send NXT Direct Commands.
 
 ## Methods
 
@@ -22,7 +22,7 @@ _A component that provides a low-level interface to a LEGO MINDSTORMS NXT robot,
     |file Name|`text`|
 
 
-_Delete a file on the robot._
+Delete a file on the robot.
 
 ### DownloadFile
 
@@ -35,7 +35,7 @@ _Delete a file on the robot._
     |destination|`text`|
 
 
-_Download a file to the robot._
+Download a file to the robot.
 
 ### GetBatteryLevel
 
@@ -43,7 +43,7 @@ _Download a file to the robot._
 
 {>>Returns `number`<<}
 
-_Get the battery level for the robot. Returns the voltage in millivolts._
+Get the battery level for the robot. Returns the voltage in millivolts.
 
 ### GetBrickName
 
@@ -51,7 +51,7 @@ _Get the battery level for the robot. Returns the voltage in millivolts._
 
 {>>Returns `text`<<}
 
-_Get the brick name of the robot._
+Get the brick name of the robot.
 
 ### GetCurrentProgramName
 
@@ -59,7 +59,7 @@ _Get the brick name of the robot._
 
 {>>Returns `text`<<}
 
-_Get the name of currently running program on the robot._
+Get the name of currently running program on the robot.
 
 ### GetFirmwareVersion
 
@@ -67,7 +67,7 @@ _Get the name of currently running program on the robot._
 
 {>>Returns `list`<<}
 
-_Get the firmware and protocol version numbers for the robot as a list where the first element is the firmware version number and the second element is the protocol version number._
+Get the firmware and protocol version numbers for the robot as a list where the first element is the firmware version number and the second element is the protocol version number.
 
 ### GetInputValues
 
@@ -81,7 +81,7 @@ _Get the firmware and protocol version numbers for the robot as a list where the
     |sensor Port Letter|`text`|
 
 
-_Reads the values of an input sensor on the robot. Assumes sensor type has been configured via SetInputMode._
+Reads the values of an input sensor on the robot. Assumes sensor type has been configured via SetInputMode.
 
 ### GetOutputState
 
@@ -95,7 +95,7 @@ _Reads the values of an input sensor on the robot. Assumes sensor type has been 
     |motor Port Letter|`text`|
 
 
-_Reads the output state of a motor on the robot._
+Reads the output state of a motor on the robot.
 
 ### KeepAlive
 
@@ -103,7 +103,7 @@ _Reads the output state of a motor on the robot._
 
 {>>Returns `number`<<}
 
-_Keep Alive. Returns the current sleep time limit in milliseconds._
+Keep Alive. Returns the current sleep time limit in milliseconds.
 
 ### ListFiles
 
@@ -117,7 +117,7 @@ _Keep Alive. Returns the current sleep time limit in milliseconds._
     |wildcard|`text`|
 
 
-_Returns a list containing the names of matching files found on the robot._
+Returns a list containing the names of matching files found on the robot.
 
 ### LsGetStatus
 
@@ -131,7 +131,7 @@ _Returns a list containing the names of matching files found on the robot._
     |sensor Port Letter|`text`|
 
 
-_Returns the count of available bytes to read._
+Returns the count of available bytes to read.
 
 ### LsRead
 
@@ -145,7 +145,7 @@ _Returns the count of available bytes to read._
     |sensor Port Letter|`text`|
 
 
-_Reads unsigned low speed data from an input sensor on the robot. Assumes sensor type has been configured via SetInputMode._
+Reads unsigned low speed data from an input sensor on the robot. Assumes sensor type has been configured via SetInputMode.
 
 ### LsWrite
 
@@ -159,7 +159,7 @@ _Reads unsigned low speed data from an input sensor on the robot. Assumes sensor
     |rx Data Length|`number`|
 
 
-_Writes low speed data to an input sensor on the robot. Assumes sensor type has been configured via SetInputMode._
+Writes low speed data to an input sensor on the robot. Assumes sensor type has been configured via SetInputMode.
 
 ### MessageRead
 
@@ -173,7 +173,7 @@ _Writes low speed data to an input sensor on the robot. Assumes sensor type has 
     |mailbox|`number`|
 
 
-_Read a message from a mailbox (1-10) on the robot._
+Read a message from a mailbox (1-10) on the robot.
 
 ### MessageWrite
 
@@ -186,7 +186,7 @@ _Read a message from a mailbox (1-10) on the robot._
     |message|`text`|
 
 
-_Write a message to a mailbox (1-10) on the robot._
+Write a message to a mailbox (1-10) on the robot.
 
 ### PlaySoundFile
 
@@ -198,7 +198,7 @@ _Write a message to a mailbox (1-10) on the robot._
     |file Name|`text`|
 
 
-_Play a sound file on the robot._
+Play a sound file on the robot.
 
 ### PlayTone
 
@@ -211,7 +211,7 @@ _Play a sound file on the robot._
     |duration Ms|`number`|
 
 
-_Make the robot play a tone._
+Make the robot play a tone.
 
 ### ResetInputScaledValue
 
@@ -223,7 +223,7 @@ _Make the robot play a tone._
     |sensor Port Letter|`text`|
 
 
-_Reset the scaled value of an input sensor on the robot._
+Reset the scaled value of an input sensor on the robot.
 
 ### ResetMotorPosition
 
@@ -236,7 +236,7 @@ _Reset the scaled value of an input sensor on the robot._
     |relative|`boolean`|
 
 
-_Reset motor position._
+Reset motor position.
 
 ### SetBrickName
 
@@ -248,7 +248,7 @@ _Reset motor position._
     |name|`text`|
 
 
-_Set the brick name of the robot._
+Set the brick name of the robot.
 
 ### SetInputMode
 
@@ -262,7 +262,7 @@ _Set the brick name of the robot._
     |sensor Mode|`number`|
 
 
-_Configure an input sensor on the robot._
+Configure an input sensor on the robot.
 
 ### SetOutputState
 
@@ -280,7 +280,7 @@ _Configure an input sensor on the robot._
     |tacho Limit|`number`|
 
 
-_Sets the output state of a motor on the robot._
+Sets the output state of a motor on the robot.
 
 ### StartProgram
 
@@ -292,19 +292,19 @@ _Sets the output state of a motor on the robot._
     |program Name|`text`|
 
 
-_Start execution of a previously downloaded program on the robot._
+Start execution of a previously downloaded program on the robot.
 
 ### StopProgram
 
 [[Method('NXT Direct Commands', 'StopProgram', false)]]
 
-_Stop execution of the currently running program on the robot._
+Stop execution of the currently running program on the robot.
 
 ### StopSoundPlayback
 
 [[Method('NXT Direct Commands', 'StopSoundPlayback', false)]]
 
-_Stop sound playback._
+Stop sound playback.
 
 ## Properties
 
@@ -319,4 +319,4 @@ _Stop sound playback._
 |:----:|
 |component|
 
-_The BluetoothClient component that should be used for communication._
+The BluetoothClient component that should be used for communication.

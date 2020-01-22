@@ -8,7 +8,7 @@
 
 ## Overview
 
-_Physical world component that can detect such data as: sound amplitude (measurement of the degree of change [positive or negative] )._
+Physical world component that can detect such data as: sound amplitude (measurement of the degree of change [positive or negative] ).
 
 ## Events
 
@@ -22,7 +22,7 @@ _Physical world component that can detect such data as: sound amplitude (measure
     |value|`number`|
 
 
-_Triggered when the sound level has changed_
+Triggered when the sound level has changed
 
 ## Properties
 
@@ -37,7 +37,7 @@ _Triggered when the sound level has changed_
 |:----:|:-------:|
 |boolean|False|
 
-_Starts or Stops listening to sound changes_
+Starts or Stops listening to sound changes
 
 ### Max Sound Level
 
@@ -50,7 +50,7 @@ _Starts or Stops listening to sound changes_
 |:----:|:-------:|
 |number|100|
 
-_Returns the max sound level._
+Returns the max sound level.
 
 ### Amplitude
 
@@ -61,7 +61,7 @@ _Returns the max sound level._
 |:----:|:-------:|
 |number|None|
 
-_Returns the real sound amplitude which can be between 0 to 32768._
+Returns the real sound amplitude which can be between 0 to 32768.
 
 ### Sound Level
 
@@ -72,4 +72,4 @@ _Returns the real sound amplitude which can be between 0 to 32768._
 |:----:|:-------:|
 |number|None|
 
-_Returns the sound level._
+Returns the sound level.

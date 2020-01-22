@@ -6,7 +6,7 @@
 
 ## Overview
 
-_A Slider is a progress bar that adds a draggable thumb. You can touch the thumb and drag left or right to set the slider thumb position. As the Slider thumb is dragged, it will trigger the PositionChanged event, reporting the position of the Slider thumb. The reported position of the Slider thumb can be used to dynamically update another component attribute, such as the font size of a TextBox or the radius of a Ball._
+A Slider is a progress bar that adds a draggable thumb. You can touch the thumb and drag left or right to set the slider thumb position. As the Slider thumb is dragged, it will trigger the PositionChanged event, reporting the position of the Slider thumb. The reported position of the Slider thumb can be used to dynamically update another component attribute, such as the font size of a TextBox or the radius of a Ball.
 
 ## Events
 
@@ -20,19 +20,19 @@ _A Slider is a progress bar that adds a draggable thumb. You can touch the thumb
     |thumb Position|`number`|
 
 
-_Indicates that position of the slider thumb has changed._
+Indicates that position of the slider thumb has changed.
 
 ### Touch Down
 
 [[Event('Slider', 'Touch Down')]]
 
-_Event will be invoked on a touch down._
+Event will be invoked on a touch down.
 
 ### Touch Up
 
 [[Event('Slider', 'Touch Up')]]
 
-_Event will be invoked on a touch up._
+Event will be invoked on a touch up.
 
 ## Properties
 
@@ -47,7 +47,7 @@ _Event will be invoked on a touch up._
 |:----:|:-------:|
 |number|&HFF00BCD3|
 
-_The color of slider to the left of the thumb._
+The color of slider to the left of the thumb.
 
 ### Color Right
 
@@ -60,7 +60,7 @@ _The color of slider to the left of the thumb._
 |:----:|:-------:|
 |number|&HFF9E9E9E|
 
-_The color of slider to the left of the thumb._
+The color of slider to the left of the thumb.
 
 ### Max Value
 
@@ -73,7 +73,7 @@ _The color of slider to the left of the thumb._
 |:----:|:-------:|
 |number|50.0|
 
-_Sets the maximum value of slider.  Changing the maximum value also resets Thumbposition to be halfway between the minimum and the (new) maximum. If the new maximum is less than the current minimum, then minimum and maximum will both be set to this value.  Setting MaxValue resets the thumb position to halfway between MinValue and MaxValue and signals the PositionChanged event._
+Sets the maximum value of slider.  Changing the maximum value also resets Thumbposition to be halfway between the minimum and the (new) maximum. If the new maximum is less than the current minimum, then minimum and maximum will both be set to this value.  Setting MaxValue resets the thumb position to halfway between MinValue and MaxValue and signals the PositionChanged event.
 
 ### Min Value
 
@@ -86,7 +86,7 @@ _Sets the maximum value of slider.  Changing the maximum value also resets Thumb
 |:----:|:-------:|
 |number|10.0|
 
-_Sets the minimum value of slider.  Changing the minimum value also resets Thumbposition to be halfway between the (new) minimum and the maximum. If the new minimum is greater than the current maximum, then minimum and maximum will both be set to this value.  Setting MinValue resets the thumb position to halfway between MinValue and MaxValue and signals the PositionChanged event._
+Sets the minimum value of slider.  Changing the minimum value also resets Thumbposition to be halfway between the (new) minimum and the maximum. If the new minimum is greater than the current maximum, then minimum and maximum will both be set to this value.  Setting MinValue resets the thumb position to halfway between MinValue and MaxValue and signals the PositionChanged event.
 
 ### Rotation Angle
 
@@ -99,7 +99,7 @@ _Sets the minimum value of slider.  Changing the minimum value also resets Thumb
 |:----:|:-------:|
 |number|0.0|
 
-_Sets the degrees that the slider is rotated around the pivot point. Increasing values result in clockwise rotation._
+Sets the degrees that the slider is rotated around the pivot point. Increasing values result in clockwise rotation.
 
 ### Thumb Color
 
@@ -112,7 +112,7 @@ _Sets the degrees that the slider is rotated around the pivot point. Increasing 
 |:----:|:-------:|
 |number|&HFF00BCD3|
 
-_The color of slider thumb. This block works only on devices with api >= 16._
+The color of slider thumb. This block works only on devices with api >= 16.
 
 ### Thumb Enabled
 
@@ -125,7 +125,7 @@ _The color of slider thumb. This block works only on devices with api >= 16._
 |:----:|:-------:|
 |boolean|True|
 
-_Sets whether or not to display the slider thumb._
+Sets whether or not to display the slider thumb.
 
 ### Thumb Image
 
@@ -151,7 +151,7 @@ _No description available_
 |:----:|:-------:|
 |number|30.0|
 
-_Sets the position of the slider thumb. If this value is greater than MaxValue, then it will be set to same value as MaxValue. If this value is less than MinValue, then it will be set to same value as MinValue._
+Sets the position of the slider thumb. If this value is greater than MaxValue, then it will be set to same value as MaxValue. If this value is less than MinValue, then it will be set to same value as MinValue.
 
 ### Visible
 
@@ -164,7 +164,7 @@ _Sets the position of the slider thumb. If this value is greater than MaxValue, 
 |:----:|:-------:|
 |boolean|True|
 
-_Returns true iff the component is visible._
+Returns true iff the component is visible.
 
 ### Column
 
@@ -175,7 +175,7 @@ _Returns true iff the component is visible._
 |:----:|:-------:|
 |number|None|
 
-_Column property getter method._
+Column property getter method.
 
 ### Row
 
@@ -186,7 +186,7 @@ _Column property getter method._
 |:----:|:-------:|
 |number|None|
 
-_Row property getter method._
+Row property getter method.
 
 ### Width
 
@@ -197,7 +197,7 @@ _Row property getter method._
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's horizontal width, measured in pixels._
+Specifies the component's horizontal width, measured in pixels.
 
 ### Width Percent
 
@@ -208,5 +208,5 @@ _Specifies the component's horizontal width, measured in pixels._
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's horizontal width as a percentage
- of the Width of its parent Component._
+Specifies the component's horizontal width as a percentage
+ of the Width of its parent Component.

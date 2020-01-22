@@ -6,7 +6,7 @@
 
 ## Overview
 
-_A visible component that displays a scrollable chat.<br>A chat consists of messages sent by two or more than two users where each message can be either simple text or have rich formatting._
+A visible component that displays a scrollable chat.<br>A chat consists of messages sent by two or more than two users where each message can be either simple text or have rich formatting.
 
 ## Events
 
@@ -30,7 +30,7 @@ _A visible component that displays a scrollable chat.<br>A chat consists of mess
     |with File|`boolean`|
 
 
-_Click listener event._
+Click listener event.
 
 ### Double Tap Click
 
@@ -52,7 +52,7 @@ _Click listener event._
     |with File|`boolean`|
 
 
-_Double tap click listener event._
+Double tap click listener event.
 
 ### Long Click
 
@@ -74,7 +74,7 @@ _Double tap click listener event._
     |with File|`boolean`|
 
 
-_Long click listener event._
+Long click listener event.
 
 ### Swipe
 
@@ -97,7 +97,7 @@ _Long click listener event._
     |with File|`boolean`|
 
 
-_Swipe listener event. The direction value returns '1' for right-to-left swipes, '2' for left-to-right swipes '3' for bottom-to-top swipes and '4' for top-to-bottom swipes_
+Swipe listener event. The direction value returns '1' for right-to-left swipes, '2' for left-to-right swipes '3' for bottom-to-top swipes and '4' for top-to-bottom swipes
 
 ### User Image Click
 
@@ -110,7 +110,7 @@ _Swipe listener event. The direction value returns '1' for right-to-left swipes,
     |user Image|`text`|
 
 
-_Click listener event for the user image._
+Click listener event for the user image.
 
 ## Methods
 
@@ -130,7 +130,7 @@ _Click listener event for the user image._
     |add As Sender|`boolean`|
 
 
-_Add a new simple component message into the chat view. If you do not want a user image or title or message or timestamp, then let the field empty. Make sure that the component is VISIBLE on the screen when you try to add it here. It will be then removed automatic from the screen and only visible again in the chat view._
+Add a new simple component message into the chat view. If you do not want a user image or title or message or timestamp, then let the field empty. Make sure that the component is VISIBLE on the screen when you try to add it here. It will be then removed automatic from the screen and only visible again in the chat view.
 
 ### AddDateTimestamp
 
@@ -145,7 +145,7 @@ _Add a new simple component message into the chat view. If you do not want a use
     |id|`number`|
 
 
-_Add a new simple date timestamp into the chat view. You NEED to write a date, else this block will do nothing. This means the field 'date' can NOT be empty. Timestamp messages are not clickable._
+Add a new simple date timestamp into the chat view. You NEED to write a date, else this block will do nothing. This means the field 'date' can NOT be empty. Timestamp messages are not clickable.
 
 ### AddFileMessage
 
@@ -164,7 +164,7 @@ _Add a new simple date timestamp into the chat view. You NEED to write a date, e
     |add As Sender|`boolean`|
 
 
-_Add a new simple file message into the chat view. If you do not want a user image or title or message or timestamp, then let the field empty._
+Add a new simple file message into the chat view. If you do not want a user image or title or message or timestamp, then let the field empty.
 
 ### AddImageMessage
 
@@ -182,7 +182,7 @@ _Add a new simple file message into the chat view. If you do not want a user ima
     |add As Sender|`boolean`|
 
 
-_Add a new simple image message into the chat view. If you do not want a user image or title or message or timestamp, then let the field empty._
+Add a new simple image message into the chat view. If you do not want a user image or title or message or timestamp, then let the field empty.
 
 ### AddMessage
 
@@ -199,13 +199,13 @@ _Add a new simple image message into the chat view. If you do not want a user im
     |add As Sender|`boolean`|
 
 
-_Add a new simple message into the chat view. If you do not want a user image or title or message or timestamp, then let the field empty._
+Add a new simple message into the chat view. If you do not want a user image or title or message or timestamp, then let the field empty.
 
 ### ClearChatView
 
 [[Method('Chat View', 'ClearChatView', false)]]
 
-_Removes all messages and timestamps from the chat view._
+Removes all messages and timestamps from the chat view.
 
 ### CountDateTimestamp
 
@@ -213,7 +213,7 @@ _Removes all messages and timestamps from the chat view._
 
 {>>Returns `number`<<}
 
-_Returns the number of all date timestamps. Normal messages are not included._
+Returns the number of all date timestamps. Normal messages are not included.
 
 ### CountMessages
 
@@ -221,7 +221,7 @@ _Returns the number of all date timestamps. Normal messages are not included._
 
 {>>Returns `number`<<}
 
-_Returns the number of all messages. 'Date Timestamp' messages are not included._
+Returns the number of all messages. 'Date Timestamp' messages are not included.
 
 ### GetLastUsedId
 
@@ -229,7 +229,7 @@ _Returns the number of all messages. 'Date Timestamp' messages are not included.
 
 {>>Returns `number`<<}
 
-_Returns the last used id._
+Returns the last used id.
 
 ### RemoveMessage
 
@@ -241,7 +241,7 @@ _Returns the last used id._
     |id|`number`|
 
 
-_Remove a message or timestamp from the chat view._
+Remove a message or timestamp from the chat view.
 
 ### ScrollTo
 
@@ -253,7 +253,7 @@ _Remove a message or timestamp from the chat view._
     |id|`number`|
 
 
-_Scroll to a specific message in the chat view with the given id._
+Scroll to a specific message in the chat view with the given id.
 
 ### UpdateMessageBackgroundColor
 
@@ -266,7 +266,7 @@ _Scroll to a specific message in the chat view with the given id._
     |background Color|`number`|
 
 
-_Update the background color of a chat view message._
+Update the background color of a chat view message.
 
 ### UpdateMessageContent
 
@@ -280,7 +280,7 @@ _Update the background color of a chat view message._
     |text Color|`number`|
 
 
-_Update the message content of a chat view message._
+Update the message content of a chat view message.
 
 ### UpdateTimestampContent
 
@@ -294,7 +294,7 @@ _Update the message content of a chat view message._
     |text Color|`number`|
 
 
-_Update the timestamp content of a chat view message._
+Update the timestamp content of a chat view message.
 
 ### UpdateTitleContent
 
@@ -308,7 +308,7 @@ _Update the timestamp content of a chat view message._
     |text Color|`number`|
 
 
-_Update the title content of a chat view message._
+Update the title content of a chat view message.
 
 ### UpdateUserImage
 
@@ -321,7 +321,7 @@ _Update the title content of a chat view message._
     |user Image|`text`|
 
 
-_Update the user image of a chat view message. The image can only be updated if there was before a old image._
+Update the user image of a chat view message. The image can only be updated if there was before a old image.
 
 ## Properties
 
@@ -336,7 +336,7 @@ _Update the user image of a chat view message. The image can only be updated if 
 |:----:|:-------:|
 |boolean|True|
 
-_If set to true the chat view will scroll down when a new message was send._
+If set to true the chat view will scroll down when a new message was send.
 
 ### Background Color
 
@@ -349,7 +349,7 @@ _If set to true the chat view will scroll down when a new message was send._
 |:----:|:-------:|
 |number|&H00000000|
 
-_Specifies the component's background color. The background color will not be visible if an Image is being displayed._
+Specifies the component's background color. The background color will not be visible if an Image is being displayed.
 
 ### Clickable
 
@@ -362,7 +362,7 @@ _Specifies the component's background color. The background color will not be vi
 |:----:|:-------:|
 |boolean|False|
 
-_Set the component clickable or not clickable._
+Set the component clickable or not clickable.
 
 ### Double Tap
 
@@ -375,7 +375,7 @@ _Set the component clickable or not clickable._
 |:----:|:-------:|
 |boolean|False|
 
-_Set the component enabled for double taps or not._
+Set the component enabled for double taps or not.
 
 ### Image
 
@@ -388,7 +388,7 @@ _Set the component enabled for double taps or not._
 |:----:|
 |text|
 
-_Specifies the path of the component's image.  If there is both an Image and a BackgroundColor, only the Image will be visible._
+Specifies the path of the component's image.  If there is both an Image and a BackgroundColor, only the Image will be visible.
 
 ### Messages Corner Radius
 
@@ -427,7 +427,7 @@ _No description available_
 |:----:|:-------:|
 |number|&HFFCCCCCC|
 
-_Specifies the background color for receiver's messages._
+Specifies the background color for receiver's messages.
 
 ### Receivers Message Color
 
@@ -440,7 +440,7 @@ _Specifies the background color for receiver's messages._
 |:----:|:-------:|
 |number|&HFF000000|
 
-_Specifies the color for receivers's messages._
+Specifies the color for receivers's messages.
 
 ### Receivers Title Color
 
@@ -453,7 +453,7 @@ _Specifies the color for receivers's messages._
 |:----:|:-------:|
 |number|&HFF000000|
 
-_Specifies the color for receivers's title messages._
+Specifies the color for receivers's title messages.
 
 ### Receivers Typeface Message
 
@@ -518,7 +518,7 @@ _No description available_
 |:----:|:-------:|
 |boolean|True|
 
-_Whether to display a scrollbar._
+Whether to display a scrollbar.
 
 ### Senders Background Color
 
@@ -531,7 +531,7 @@ _Whether to display a scrollbar._
 |:----:|:-------:|
 |number|&HFF8BC24A|
 
-_Specifies the background color for sender's messages._
+Specifies the background color for sender's messages.
 
 ### Senders Message Color
 
@@ -544,7 +544,7 @@ _Specifies the background color for sender's messages._
 |:----:|:-------:|
 |number|&HFF000000|
 
-_Specifies the color for sender's messages._
+Specifies the color for sender's messages.
 
 ### Senders Title Color
 
@@ -557,7 +557,7 @@ _Specifies the color for sender's messages._
 |:----:|:-------:|
 |number|&HFF000000|
 
-_Specifies the color for sender's title messages._
+Specifies the color for sender's title messages.
 
 ### Senders Typeface Message
 
@@ -622,7 +622,7 @@ _No description available_
 |:----:|:-------:|
 |boolean|False|
 
-_If set to true you can swipe with your fingers through views._
+If set to true you can swipe with your fingers through views.
 
 ### Timestamp Corner Radius
 
@@ -661,7 +661,7 @@ _No description available_
 |:----:|:-------:|
 |number|&HFF000000|
 
-_Specifies the color for the timestamp._
+Specifies the color for the timestamp.
 
 ### Title Font Size
 
@@ -687,7 +687,7 @@ _No description available_
 |:----:|:-------:|
 |boolean|True|
 
-_Returns true iff the component is visible._
+Returns true iff the component is visible.
 
 ### Column
 
@@ -698,7 +698,7 @@ _Returns true iff the component is visible._
 |:----:|:-------:|
 |number|None|
 
-_Column property getter method._
+Column property getter method.
 
 ### Height
 
@@ -709,7 +709,7 @@ _Column property getter method._
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's vertical height, measured in pixels._
+Specifies the component's vertical height, measured in pixels.
 
 ### Height Percent
 
@@ -720,8 +720,8 @@ _Specifies the component's vertical height, measured in pixels._
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's vertical height as a percentage
- of the height of its parent Component._
+Specifies the component's vertical height as a percentage
+ of the height of its parent Component.
 
 ### Row
 
@@ -732,7 +732,7 @@ _Specifies the component's vertical height as a percentage
 |:----:|:-------:|
 |number|None|
 
-_Row property getter method._
+Row property getter method.
 
 ### Width
 
@@ -743,7 +743,7 @@ _Row property getter method._
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's horizontal width, measured in pixels._
+Specifies the component's horizontal width, measured in pixels.
 
 ### Width Percent
 
@@ -754,5 +754,5 @@ _Specifies the component's horizontal width, measured in pixels._
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's horizontal width as a percentage
- of the Width of its parent Component._
+Specifies the component's horizontal width as a percentage
+ of the Width of its parent Component.

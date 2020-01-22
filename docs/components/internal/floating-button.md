@@ -8,7 +8,7 @@
 
 ## Overview
 
-_Floating Button Component to make a Floating Action Button on the right bottom of the screen_
+Floating Button Component to make a Floating Action Button on the right bottom of the screen
 
 ## Events
 
@@ -16,13 +16,13 @@ _Floating Button Component to make a Floating Action Button on the right bottom 
 
 [[Event('Floating Button', 'Click')]]
 
-_FAB Clicked_
+FAB Clicked
 
 ### Long Click
 
 [[Event('Floating Button', 'Long Click')]]
 
-_FAB Long Clicked_
+FAB Long Clicked
 
 ## Methods
 
@@ -30,7 +30,7 @@ _FAB Long Clicked_
 
 [[Method('Floating Button', 'Create', false)]]
 
-_Create FAB_
+Create FAB
 
 ## Properties
 
@@ -45,7 +45,7 @@ _Create FAB_
 |:----:|:-------:|
 |number|&H00000000|
 
-_Returns Color_
+Returns Color
 
 ### Icon
 
@@ -58,7 +58,7 @@ _Returns Color_
 |:----:|
 |text|
 
-_Returns Icon Path_
+Returns Icon Path
 
 ### Margin Bottom
 
@@ -71,7 +71,7 @@ _Returns Icon Path_
 |:----:|:-------:|
 |number|8|
 
-_Set Bottom Margin in dp, Default = 16_
+Set Bottom Margin in dp, Default = 16
 
 ### Margin Right
 
@@ -84,7 +84,7 @@ _Set Bottom Margin in dp, Default = 16_
 |:----:|:-------:|
 |number|8|
 
-_Set Right Margin in dp, Default = 16_
+Set Right Margin in dp, Default = 16
 
 ### Size
 
@@ -97,8 +97,8 @@ _Set Right Margin in dp, Default = 16_
 |:----:|:-------:|
 |number|1|
 
-_Set FAB Size.
-Set it to 1 for Normal size, 2 for Mini._
+Set FAB Size.
+Set it to 1 for Normal size, 2 for Mini.
 
 ### Use Animation
 
@@ -111,7 +111,7 @@ Set it to 1 for Normal size, 2 for Mini._
 |:----:|:-------:|
 |boolean|True|
 
-_Are animations on?_
+Are animations on?
 
 ### Visible
 
@@ -124,7 +124,7 @@ _Are animations on?_
 |:----:|:-------:|
 |boolean|True|
 
-_Is FAB visible?_
+Is FAB visible?
 
 ### Is Created
 
@@ -135,4 +135,4 @@ _Is FAB visible?_
 |:----:|:-------:|
 |boolean|None|
 
-_Is FAB created?_
+Is FAB created?

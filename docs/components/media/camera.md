@@ -8,7 +8,7 @@
 
 ## Overview
 
-_A component to take a picture using the device's camera. After the picture is taken, the name of the file on the phone containing the picture is available as an argument to the AfterPicture event. The file name can be used, for example, to set the Picture property of an Image component._
+A component to take a picture using the device's camera. After the picture is taken, the name of the file on the phone containing the picture is available as an argument to the AfterPicture event. The file name can be used, for example, to set the Picture property of an Image component.
 
 ## Events
 
@@ -22,7 +22,7 @@ _A component to take a picture using the device's camera. After the picture is t
     |image|`text`|
 
 
-_Returns the taken picture._
+Returns the taken picture.
 
 ## Methods
 
@@ -32,19 +32,19 @@ _Returns the taken picture._
 
 {>>Returns `boolean`<<}
 
-_Returns true if your device has a flash._
+Returns true if your device has a flash.
 
 ### TakePicture
 
 [[Method('Camera', 'TakePicture', false)]]
 
-_Take a picture with the camera of your device._
+Take a picture with the camera of your device.
 
 ### ToggleLight
 
 [[Method('Camera', 'ToggleLight', false)]]
 
-_Toggle the flash of your device to on or off._
+Toggle the flash of your device to on or off.
 
 ## Properties
 
@@ -59,4 +59,4 @@ _Toggle the flash of your device to on or off._
 |:----:|:-------:|
 |boolean|None|
 
-_Specifies whether the front-facing camera should be used (when available). If the device does not have a front-facing camera, this option will be ignored and the camera will open normally._
+Specifies whether the front-facing camera should be used (when available). If the device does not have a front-facing camera, this option will be ignored and the camera will open normally.

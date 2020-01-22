@@ -6,7 +6,7 @@
 
 ## Overview
 
-_A non-visible component that shows Facebook ads as static banners._
+A non-visible component that shows Facebook ads as static banners.
 
 ## Events
 
@@ -14,19 +14,19 @@ _A non-visible component that shows Facebook ads as static banners._
 
 [[Event('Facebook Banner', 'Ad Clicked')]]
 
-_Event triggered when ads are clicked_
+Event triggered when ads are clicked
 
 ### Ad Closed
 
 [[Event('Facebook Banner', 'Ad Closed')]]
 
-_Event triggered when ads are closed_
+Event triggered when ads are closed
 
 ### Ad Loaded
 
 [[Event('Facebook Banner', 'Ad Loaded')]]
 
-_Event triggered when ads are loaded_
+Event triggered when ads are loaded
 
 ### Error
 
@@ -38,7 +38,7 @@ _Event triggered when ads are loaded_
     |error|`text`|
 
 
-_Event triggered when ads failed to load_
+Event triggered when ads failed to load
 
 ## Methods
 
@@ -46,7 +46,7 @@ _Event triggered when ads failed to load_
 
 [[Method('Facebook Banner', 'Load Ad', false)]]
 
-_Load Ad_
+Load Ad
 
 ## Properties
 
@@ -61,7 +61,7 @@ _Load Ad_
 |:----:|
 |text|
 
-_Set Placement ID_
+Set Placement ID
 
 ### Visible
 
@@ -74,7 +74,7 @@ _Set Placement ID_
 |:----:|:-------:|
 |boolean|True|
 
-_Returns true iff the component is visible._
+Returns true iff the component is visible.
 
 ### Column
 
@@ -85,7 +85,7 @@ _Returns true iff the component is visible._
 |:----:|:-------:|
 |number|None|
 
-_Column property getter method._
+Column property getter method.
 
 ### Row
 
@@ -96,4 +96,4 @@ _Column property getter method._
 |:----:|:-------:|
 |number|None|
 
-_Row property getter method._
+Row property getter method.

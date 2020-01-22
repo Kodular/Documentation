@@ -8,7 +8,7 @@
 
 ## Overview
 
-_A non-visible component that enables communication with <a href="http://www.twitter.com" target="_blank">Twitter</a>. Once a user has logged into their Twitter account (and the authorization has been confirmed successful by the <code>IsAuthorized</code> event), many more operations are available:<ul><li> Searching Twitter for tweets or labels (<code>SearchTwitter</code>)</li>
+A non-visible component that enables communication with <a href="http://www.twitter.com" target="_blank">Twitter</a>. Once a user has logged into their Twitter account (and the authorization has been confirmed successful by the <code>IsAuthorized</code> event), many more operations are available:<ul><li> Searching Twitter for tweets or labels (<code>SearchTwitter</code>)</li>
 <li> Sending a Tweet (<code>Tweet</code>)     </li>
 <li> Sending a Tweet with an Image (<code>TweetWithImage</code>)     </li>
 <li> Directing a message to a specific user      (<code>DirectMessage</code>)</li>
@@ -18,7 +18,7 @@ _A non-visible component that enables communication with <a href="http://www.twi
 <li> Getting a list of users following the logged-in user      (<code>RequestFollowers</code>)</li>
  <li> Getting the most recent messages of users followed by the      logged-in user (<code>RequestFriendTimeline</code>)</li>
  <li> Getting the most recent mentions of the logged-in user      (<code>RequestMentions</code>)</li></ul></p>
- <p>You must obtain a Consumer Key and Consumer Secret for Twitter authorization  specific to your app from http://twitter.com/oauth_clients/new_
+ <p>You must obtain a Consumer Key and Consumer Secret for Twitter authorization  specific to your app from http://twitter.com/oauth_clients/new
 
 ## Events
 
@@ -32,7 +32,7 @@ _A non-visible component that enables communication with <a href="http://www.twi
     |messages|`list`|
 
 
-_This event is raised when the recent messages requested through <code>RequestDirectMessages</code> have been retrieved. A list of the messages can then be found in the <code>messages</code> parameter or the <code>Messages</code> property._
+This event is raised when the recent messages requested through <code>RequestDirectMessages</code> have been retrieved. A list of the messages can then be found in the <code>messages</code> parameter or the <code>Messages</code> property.
 
 ### Followers Received
 
@@ -44,7 +44,7 @@ _This event is raised when the recent messages requested through <code>RequestDi
     |followers 2|`list`|
 
 
-_This event is raised when all of the followers of the logged-in user requested through <code>RequestFollowers</code> have been retrieved. A list of the followers can then be found in the <code>followers</code> parameter or the <code>Followers</code> property._
+This event is raised when all of the followers of the logged-in user requested through <code>RequestFollowers</code> have been retrieved. A list of the followers can then be found in the <code>followers</code> parameter or the <code>Followers</code> property.
 
 ### Friend Timeline Received
 
@@ -56,13 +56,13 @@ _This event is raised when all of the followers of the logged-in user requested 
     |timeline|`list`|
 
 
-_This event is raised when the messages requested through <code>RequestFriendTimeline</code> have been retrieved. The <code>timeline</code> parameter and the <code>Timeline</code> property will contain a list of lists, where each sub-list contains a status update of the form (username message)_
+This event is raised when the messages requested through <code>RequestFriendTimeline</code> have been retrieved. The <code>timeline</code> parameter and the <code>Timeline</code> property will contain a list of lists, where each sub-list contains a status update of the form (username message)
 
 ### Is Authorized
 
 [[Event('Twitter', 'Is Authorized')]]
 
-_This event is raised after the program calls <code>Authorize</code> if the authorization was successful.  It is also called after a call to <code>CheckAuthorized</code> if we already have a valid access token. After this event has been raised, any other method for this component can be called._
+This event is raised after the program calls <code>Authorize</code> if the authorization was successful.  It is also called after a call to <code>CheckAuthorized</code> if we already have a valid access token. After this event has been raised, any other method for this component can be called.
 
 ### Mentions Received
 
@@ -74,7 +74,7 @@ _This event is raised after the program calls <code>Authorize</code> if the auth
     |mentions|`list`|
 
 
-_This event is raised when the mentions of the logged-in user requested through <code>RequestMentions</code> have been retrieved.  A list of the mentions can then be found in the <code>mentions</code> parameter or the <code>Mentions</code> property._
+This event is raised when the mentions of the logged-in user requested through <code>RequestMentions</code> have been retrieved.  A list of the mentions can then be found in the <code>mentions</code> parameter or the <code>Mentions</code> property.
 
 ### Search Successful
 
@@ -86,7 +86,7 @@ _This event is raised when the mentions of the logged-in user requested through 
     |search Results|`list`|
 
 
-_This event is raised when the results of the search requested through <code>SearchSuccessful</code> have been retrieved. A list of the results can then be found in the <code>results</code> parameter or the <code>Results</code> property._
+This event is raised when the results of the search requested through <code>SearchSuccessful</code> have been retrieved. A list of the results can then be found in the <code>results</code> parameter or the <code>Results</code> property.
 
 ## Methods
 
@@ -94,19 +94,19 @@ _This event is raised when the results of the search requested through <code>Sea
 
 [[Method('Twitter', 'Authorize', false)]]
 
-_Redirects user to login to Twitter via the Web browser using the OAuth protocol if we don't already have authorization._
+Redirects user to login to Twitter via the Web browser using the OAuth protocol if we don't already have authorization.
 
 ### CheckAuthorized
 
 [[Method('Twitter', 'CheckAuthorized', false)]]
 
-_Checks whether we already have access, and if so, causes IsAuthorized event handler to be called._
+Checks whether we already have access, and if so, causes IsAuthorized event handler to be called.
 
 ### DeAuthorize
 
 [[Method('Twitter', 'DeAuthorize', false)]]
 
-_Removes Twitter authorization from this running app instance_
+Removes Twitter authorization from this running app instance
 
 ### DirectMessage
 
@@ -119,7 +119,7 @@ _Removes Twitter authorization from this running app instance_
     |message|`text`|
 
 
-_This sends a direct (private) message to the specified user.  The message will be trimmed if it exceeds 160characters. <p><u>Requirements</u>: This should only be called after the <code>IsAuthorized</code> event has been raised, indicating that the user has successfully logged in to Twitter.</p>_
+This sends a direct (private) message to the specified user.  The message will be trimmed if it exceeds 160characters. <p><u>Requirements</u>: This should only be called after the <code>IsAuthorized</code> event has been raised, indicating that the user has successfully logged in to Twitter.</p>
 
 ### Follow
 
@@ -131,7 +131,7 @@ _This sends a direct (private) message to the specified user.  The message will 
     |user|`text`|
 
 
-_Starts following a user._
+Starts following a user.
 
 ### Login
 
@@ -144,31 +144,31 @@ _Starts following a user._
     |password|`text`|
 
 
-_Twitter's API no longer supports login via username and password. Use the Authorize call instead._
+Twitter's API no longer supports login via username and password. Use the Authorize call instead.
 
 ### RequestDirectMessages
 
 [[Method('Twitter', 'RequestDirectMessages', false)]]
 
-_Requests the 20 most recent direct messages sent to the logged-in user.  When the messages have been retrieved, the system will raise the <code>DirectMessagesReceived</code> event and set the <code>DirectMessages</code> property to the list of messages.<p><u>Requirements</u>: This should only be called after the <code>IsAuthorized</code> event has been raised, indicating that the user has successfully logged in to Twitter.</p>_
+Requests the 20 most recent direct messages sent to the logged-in user.  When the messages have been retrieved, the system will raise the <code>DirectMessagesReceived</code> event and set the <code>DirectMessages</code> property to the list of messages.<p><u>Requirements</u>: This should only be called after the <code>IsAuthorized</code> event has been raised, indicating that the user has successfully logged in to Twitter.</p>
 
 ### RequestFollowers
 
 [[Method('Twitter', 'RequestFollowers', false)]]
 
-_Gets who is following you._
+Gets who is following you.
 
 ### RequestFriendTimeline
 
 [[Method('Twitter', 'RequestFriendTimeline', false)]]
 
-_Gets the most recent 20 messages in the user's timeline._
+Gets the most recent 20 messages in the user's timeline.
 
 ### RequestMentions
 
 [[Method('Twitter', 'RequestMentions', false)]]
 
-_Requests the 20 most recent mentions of the logged-in user.  When the mentions have been retrieved, the system will raise the <code>MentionsReceived</code> event and set the <code>Mentions</code> property to the list of mentions.<p><u>Requirements</u>: This should only be called after the <code>IsAuthorized</code> event has been raised, indicating that the user has successfully logged in to Twitter.</p>_
+Requests the 20 most recent mentions of the logged-in user.  When the mentions have been retrieved, the system will raise the <code>MentionsReceived</code> event and set the <code>Mentions</code> property to the list of mentions.<p><u>Requirements</u>: This should only be called after the <code>IsAuthorized</code> event has been raised, indicating that the user has successfully logged in to Twitter.</p>
 
 ### SearchTwitter
 
@@ -180,7 +180,7 @@ _Requests the 20 most recent mentions of the logged-in user.  When the mentions 
     |query|`text`|
 
 
-_This searches Twitter for the given String query.<p><u>Requirements</u>: This should only be called after the <code>IsAuthorized</code> event has been raised, indicating that the user has successfully logged in to Twitter.</p>_
+This searches Twitter for the given String query.<p><u>Requirements</u>: This should only be called after the <code>IsAuthorized</code> event has been raised, indicating that the user has successfully logged in to Twitter.</p>
 
 ### StopFollowing
 
@@ -192,7 +192,7 @@ _This searches Twitter for the given String query.<p><u>Requirements</u>: This s
     |user|`text`|
 
 
-_Stops following a user._
+Stops following a user.
 
 ### Tweet
 
@@ -204,7 +204,7 @@ _Stops following a user._
     |status|`text`|
 
 
-_This sends a tweet as the logged-in user with the specified Text, which will be trimmed if it exceeds 160 characters. <p><u>Requirements</u>: This should only be called after the <code>IsAuthorized</code> event has been raised, indicating that the user has successfully logged in to Twitter.</p>_
+This sends a tweet as the logged-in user with the specified Text, which will be trimmed if it exceeds 160 characters. <p><u>Requirements</u>: This should only be called after the <code>IsAuthorized</code> event has been raised, indicating that the user has successfully logged in to Twitter.</p>
 
 ### TweetWithImage
 
@@ -217,7 +217,7 @@ _This sends a tweet as the logged-in user with the specified Text, which will be
     |image Path|`text`|
 
 
-_This sends a tweet as the logged-in user with the specified Text and a path to the image to be uploaded, which will be trimmed if it exceeds 160 characters. If an image is not found or invalid, only the text will be tweeted.<p><u>Requirements</u>: This should only be called after the <code>IsAuthorized</code> event has been raised, indicating that the user has successfully logged in to Twitter.</p>_
+This sends a tweet as the logged-in user with the specified Text and a path to the image to be uploaded, which will be trimmed if it exceeds 160 characters. If an image is not found or invalid, only the text will be tweeted.<p><u>Requirements</u>: This should only be called after the <code>IsAuthorized</code> event has been raised, indicating that the user has successfully logged in to Twitter.</p>
 
 ## Properties
 
@@ -232,7 +232,7 @@ _This sends a tweet as the logged-in user with the specified Text and a path to 
 |:----:|
 |text|
 
-_ConsumerKey property getter method._
+ConsumerKey property getter method.
 
 ### Consumer Secret
 
@@ -245,7 +245,7 @@ _ConsumerKey property getter method._
 |:----:|
 |text|
 
-_ConsumerSecret property getter method._
+ConsumerSecret property getter method.
 
 ### Direct Messages
 
@@ -256,8 +256,8 @@ _ConsumerSecret property getter method._
 |:----:|:-------:|
 |list|None|
 
-_This property contains a list of the most recent messages mentioning the logged-in user.  Initially, the list is empty.  To set it, the program must: <ol> <li> Call the <code>Authorize</code> method.</li> <li> Wait for the <code>Authorized</code> event.</li> <li> Call the <code>RequestDirectMessages</code> method.</li> <li> Wait for the <code>DirectMessagesReceived</code> event.</li></ol>
-The value of this property will then be set to the list of direct messages retrieved (and maintain that value until any subsequent call to <code>RequestDirectMessages</code>)._
+This property contains a list of the most recent messages mentioning the logged-in user.  Initially, the list is empty.  To set it, the program must: <ol> <li> Call the <code>Authorize</code> method.</li> <li> Wait for the <code>Authorized</code> event.</li> <li> Call the <code>RequestDirectMessages</code> method.</li> <li> Wait for the <code>DirectMessagesReceived</code> event.</li></ol>
+The value of this property will then be set to the list of direct messages retrieved (and maintain that value until any subsequent call to <code>RequestDirectMessages</code>).
 
 ### Followers
 
@@ -268,8 +268,8 @@ The value of this property will then be set to the list of direct messages retri
 |:----:|:-------:|
 |list|None|
 
-_This property contains a list of the followers of the logged-in user.  Initially, the list is empty.  To set it, the program must: <ol> <li> Call the <code>Authorize</code> method.</li> <li> Wait for the <code>IsAuthorized</code> event.</li> <li> Call the <code>RequestFollowers</code> method.</li> <li> Wait for the <code>FollowersReceived</code> event.</li></ol>
-The value of this property will then be set to the list of followers (and maintain its value until any subsequent call to <code>RequestFollowers</code>)._
+This property contains a list of the followers of the logged-in user.  Initially, the list is empty.  To set it, the program must: <ol> <li> Call the <code>Authorize</code> method.</li> <li> Wait for the <code>IsAuthorized</code> event.</li> <li> Call the <code>RequestFollowers</code> method.</li> <li> Wait for the <code>FollowersReceived</code> event.</li></ol>
+The value of this property will then be set to the list of followers (and maintain its value until any subsequent call to <code>RequestFollowers</code>).
 
 ### Friend Time line
 
@@ -280,8 +280,8 @@ The value of this property will then be set to the list of followers (and mainta
 |:----:|:-------:|
 |list|None|
 
-_This property contains the 20 most recent messages of users being followed.  Initially, the list is empty.  To set it, the program must: <ol> <li> Call the <code>Authorize</code> method.</li> <li> Wait for the <code>IsAuthorized</code> event.</li> <li> Specify users to follow with one or more calls to the <code>Follow</code> method.</li> <li> Call the <code>RequestFriendTimeline</code> method.</li> <li> Wait for the <code>FriendTimelineReceived</code> event.</li> </ol>
-The value of this property will then be set to the list of messages (and maintain its value until any subsequent call to <code>RequestFriendTimeline</code>._
+This property contains the 20 most recent messages of users being followed.  Initially, the list is empty.  To set it, the program must: <ol> <li> Call the <code>Authorize</code> method.</li> <li> Wait for the <code>IsAuthorized</code> event.</li> <li> Specify users to follow with one or more calls to the <code>Follow</code> method.</li> <li> Call the <code>RequestFriendTimeline</code> method.</li> <li> Wait for the <code>FriendTimelineReceived</code> event.</li> </ol>
+The value of this property will then be set to the list of messages (and maintain its value until any subsequent call to <code>RequestFriendTimeline</code>.
 
 ### Mentions
 
@@ -292,8 +292,8 @@ The value of this property will then be set to the list of messages (and maintai
 |:----:|:-------:|
 |list|None|
 
-_This property contains a list of mentions of the logged-in user.  Initially, the list is empty.  To set it, the program must: <ol> <li> Call the <code>Authorize</code> method.</li> <li> Wait for the <code>IsAuthorized</code> event.</li> <li> Call the <code>RequestMentions</code> method.</li> <li> Wait for the <code>MentionsReceived</code> event.</li></ol>
-The value of this property will then be set to the list of mentions (and will maintain its value until any subsequent calls to <code>RequestMentions</code>)._
+This property contains a list of mentions of the logged-in user.  Initially, the list is empty.  To set it, the program must: <ol> <li> Call the <code>Authorize</code> method.</li> <li> Wait for the <code>IsAuthorized</code> event.</li> <li> Call the <code>RequestMentions</code> method.</li> <li> Wait for the <code>MentionsReceived</code> event.</li></ol>
+The value of this property will then be set to the list of mentions (and will maintain its value until any subsequent calls to <code>RequestMentions</code>).
 
 ### Search Results
 
@@ -304,8 +304,8 @@ The value of this property will then be set to the list of mentions (and will ma
 |:----:|:-------:|
 |list|None|
 
-_This property, which is initially empty, is set to a list of search results after the program: <ol><li>Calls the <code>SearchTwitter</code> method.</li> <li>Waits for the <code>SearchSuccessful</code> event.</li></ol>
-The value of the property will then be the same as the parameter to <code>SearchSuccessful</code>.  Note that it is not necessary to call the <code>Authorize</code> method before calling <code>SearchTwitter</code>._
+This property, which is initially empty, is set to a list of search results after the program: <ol><li>Calls the <code>SearchTwitter</code> method.</li> <li>Waits for the <code>SearchSuccessful</code> event.</li></ol>
+The value of the property will then be the same as the parameter to <code>SearchSuccessful</code>.  Note that it is not necessary to call the <code>Authorize</code> method before calling <code>SearchTwitter</code>.
 
 ### TwitPic_API_Key
 
@@ -318,7 +318,7 @@ The value of the property will then be the same as the parameter to <code>Search
 |:----:|:-------:|
 |text|None|
 
-_TwitPicAPIkey property getter method._
+TwitPicAPIkey property getter method.
 
 ### Username
 
@@ -329,4 +329,4 @@ _TwitPicAPIkey property getter method._
 |:----:|:-------:|
 |text|None|
 
-_The user name of the authorized user. Empty if there is no authorized user._
+The user name of the authorized user. Empty if there is no authorized user.

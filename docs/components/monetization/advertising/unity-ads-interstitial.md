@@ -8,7 +8,7 @@
 
 ## Overview
 
-_A non-visible component that shows Unity ads as full-screen advertisements._
+A non-visible component that shows Unity ads as full-screen advertisements.
 
 ## Events
 
@@ -24,7 +24,7 @@ _A non-visible component that shows Unity ads as full-screen advertisements._
     |was Completed|`boolean`|
 
 
-_Called when an ad was closed._
+Called when an ad was closed.
 
 ### Ad Opened
 
@@ -36,7 +36,7 @@ _Called when an ad was closed._
     |placement Id|`text`|
 
 
-_Called when an ad was opened._
+Called when an ad was opened.
 
 ### Ad Started
 
@@ -48,7 +48,7 @@ _Called when an ad was opened._
     |placement Id|`text`|
 
 
-_Called when an ad was started._
+Called when an ad was started.
 
 ### Error
 
@@ -60,7 +60,7 @@ _Called when an ad was started._
     |error|`text`|
 
 
-_Called when an ad request failed. The message will display the reason for why the ad failed._
+Called when an ad request failed. The message will display the reason for why the ad failed.
 
 ## Methods
 
@@ -70,13 +70,13 @@ _Called when an ad request failed. The message will display the reason for why t
 
 {>>Returns `boolean`<<}
 
-_Returns true if the ad is finished loading and can now be shown._
+Returns true if the ad is finished loading and can now be shown.
 
 ### ShowAd
 
 [[Method('Unity Ads Interstitial', 'ShowAd', false)]]
 
-_Shows an ad to the user._
+Shows an ad to the user.
 
 ## Properties
 
@@ -117,4 +117,4 @@ _No description available_
 |:----:|:-------:|
 |boolean|False|
 
-_If you want to test the component then that this property to true. Then you will receive test ads._
+If you want to test the component then that this property to true. Then you will receive test ads.

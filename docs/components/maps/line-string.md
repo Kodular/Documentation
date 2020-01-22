@@ -6,7 +6,7 @@
 
 ## Overview
 
-_A visible component that draws a sequence of line segments on a Map component._
+A visible component that draws a sequence of line segments on a Map component.
 
 ## Events
 
@@ -14,31 +14,31 @@ _A visible component that draws a sequence of line segments on a Map component._
 
 [[Event('Line String', 'Click')]]
 
-_The user clicked on the feature._
+The user clicked on the feature.
 
 ### Drag
 
 [[Event('Line String', 'Drag')]]
 
-_The user dragged the map feature._
+The user dragged the map feature.
 
 ### Long Click
 
 [[Event('Line String', 'Long Click')]]
 
-_The user long-pressed on the feature. This event will only trigger if Draggable is false._
+The user long-pressed on the feature. This event will only trigger if Draggable is false.
 
 ### Start Drag
 
 [[Event('Line String', 'Start Drag')]]
 
-_The user started a drag operation._
+The user started a drag operation.
 
 ### Stop Drag
 
 [[Event('Line String', 'Stop Drag')]]
 
-_The user stopped a drag operation._
+The user stopped a drag operation.
 
 ## Methods
 
@@ -55,7 +55,7 @@ _The user stopped a drag operation._
     |centroids|`boolean`|
 
 
-_Compute the distance, in meters, between two map features._
+Compute the distance, in meters, between two map features.
 
 ### DistanceToPoint
 
@@ -71,19 +71,19 @@ _Compute the distance, in meters, between two map features._
     |centroid|`boolean`|
 
 
-_Compute the distance, in meters, between a map feature and a latitude, longitude point._
+Compute the distance, in meters, between a map feature and a latitude, longitude point.
 
 ### HideInfobox
 
 [[Method('Line String', 'HideInfobox', false)]]
 
-_Hide the infobox if it is shown. If the infobox is not visible this function has no effect._
+Hide the infobox if it is shown. If the infobox is not visible this function has no effect.
 
 ### ShowInfobox
 
 [[Method('Line String', 'ShowInfobox', false)]]
 
-_Show the infobox for the feature. This will show the infobox even if_
+Show the infobox for the feature. This will show the infobox even if
 
 ## Properties
 
@@ -98,7 +98,7 @@ _Show the infobox for the feature. This will show the infobox even if_
 |:----:|
 |text|
 
-_The description displayed in the info window that appears when the user clicks on the map feature._
+The description displayed in the info window that appears when the user clicks on the map feature.
 
 ### Draggable
 
@@ -111,7 +111,7 @@ _The description displayed in the info window that appears when the user clicks 
 |:----:|:-------:|
 |boolean|False|
 
-_The Draggable property is used to set whether or not the user can drag the Marker by long-pressing and then dragging the marker to a new location._
+The Draggable property is used to set whether or not the user can drag the Marker by long-pressing and then dragging the marker to a new location.
 
 ### Enable Infobox
 
@@ -124,7 +124,7 @@ _The Draggable property is used to set whether or not the user can drag the Mark
 |:----:|:-------:|
 |boolean|False|
 
-_Enable or disable the infobox window display when the user taps the feature._
+Enable or disable the infobox window display when the user taps the feature.
 
 ### Points From String
 
@@ -137,9 +137,9 @@ _Enable or disable the infobox window display when the user taps the feature._
 |:----:|
 |text|
 
-_Set the points of the LineString from a specially-coded character string of the form:
+Set the points of the LineString from a specially-coded character string of the form:
  [[longitude1, latitude1], [longitude2, latitude2], ...]
- Note the reversal of latitude and longitude versus how they are typically represented._
+ Note the reversal of latitude and longitude versus how they are typically represented.
 
 ### Stroke Color
 
@@ -152,7 +152,7 @@ _Set the points of the LineString from a specially-coded character string of the
 |:----:|:-------:|
 |number|&HFF000000|
 
-_The paint color used to outline the map feature._
+The paint color used to outline the map feature.
 
 ### Stroke Opacity
 
@@ -165,7 +165,7 @@ _The paint color used to outline the map feature._
 |:----:|:-------:|
 |number|1.0|
 
-_The opacity of the stroke used to outline the map feature._
+The opacity of the stroke used to outline the map feature.
 
 ### Stroke Width
 
@@ -178,7 +178,7 @@ _The opacity of the stroke used to outline the map feature._
 |:----:|:-------:|
 |number|3|
 
-_The width of the stroke used to outline the map feature._
+The width of the stroke used to outline the map feature.
 
 ### Title
 
@@ -191,7 +191,7 @@ _The width of the stroke used to outline the map feature._
 |:----:|
 |text|
 
-_The title displayed in the info window that appears when the user clicks on the map feature._
+The title displayed in the info window that appears when the user clicks on the map feature.
 
 ### Visible
 
@@ -204,7 +204,7 @@ _The title displayed in the info window that appears when the user clicks on the
 |:----:|:-------:|
 |boolean|True|
 
-_Specifies whether the component should be visible on the screen. Value is true if the component is showing and false if hidden._
+Specifies whether the component should be visible on the screen. Value is true if the component is showing and false if hidden.
 
 ### Points
 
@@ -215,7 +215,7 @@ _Specifies whether the component should be visible on the screen. Value is true 
 |:----:|:-------:|
 |list|None|
 
-_A list of latitude and longitude pairs that represent the line segments of the polyline._
+A list of latitude and longitude pairs that represent the line segments of the polyline.
 
 ### Type
 
@@ -226,4 +226,4 @@ _A list of latitude and longitude pairs that represent the line segments of the 
 |:----:|:-------:|
 |text|None|
 
-_The type of the map feature._
+The type of the map feature.

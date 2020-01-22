@@ -6,7 +6,7 @@
 
 ## Overview
 
-_A Label displays a piece of text, which is specified through the <code>Text</code> property.  Other properties, all of which can be set in the Designer or Blocks Editor, control the appearance and placement of the text._
+A Label displays a piece of text, which is specified through the <code>Text</code> property.  Other properties, all of which can be set in the Designer or Blocks Editor, control the appearance and placement of the text.
 
 ## Events
 
@@ -14,13 +14,13 @@ _A Label displays a piece of text, which is specified through the <code>Text</co
 
 [[Event('Label', 'Click')]]
 
-_Event to detect that a user has done a simple "Click"._
+Event to detect that a user has done a simple "Click".
 
 ### Long Click
 
 [[Event('Label', 'Long Click')]]
 
-_Event to detect that a user has done a simple "Long Click"._
+Event to detect that a user has done a simple "Long Click".
 
 ## Methods
 
@@ -37,7 +37,7 @@ _Event to detect that a user has done a simple "Long Click"._
     |color|`number`|
 
 
-_Allows you to set animation style. Valid (case-insensitive) values are: ChasingDots, Circle, CubeGrid, DoubleBounce, FadingCircle, FoldingCube, Pulse, RotatingCircle, RotatingPlane, ThreeBounce, WanderingCubes, Wave. If invalid style is used, animation will be removed.Position can be: top, left, right, bottom. Size can be 100._
+Allows you to set animation style. Valid (case-insensitive) values are: ChasingDots, Circle, CubeGrid, DoubleBounce, FadingCircle, FoldingCube, Pulse, RotatingCircle, RotatingPlane, ThreeBounce, WanderingCubes, Wave. If invalid style is used, animation will be removed.Position can be: top, left, right, bottom. Size can be 100.
 
 ### SetShadow
 
@@ -52,7 +52,7 @@ _Allows you to set animation style. Valid (case-insensitive) values are: Chasing
     |color|`number`|
 
 
-_Place a blurred shadow of text underneath the text, drawn with the specified x, y, radius, color (e.g. -11, 12, 13, black_
+Place a blurred shadow of text underneath the text, drawn with the specified x, y, radius, color (e.g. -11, 12, 13, black
 
 ## Properties
 
@@ -80,7 +80,7 @@ _No description available_
 |:----:|:-------:|
 |boolean|False|
 
-_Set the component clickable or not clickable._
+Set the component clickable or not clickable.
 
 ### Font Bold
 
@@ -145,7 +145,7 @@ _No description available_
 |:----:|
 |text|
 
-_Set a custom font._
+Set a custom font.
 
 ### HTML Format
 
@@ -158,7 +158,7 @@ _Set a custom font._
 |:----:|:-------:|
 |boolean|False|
 
-_If true, then this label will show html text else it will show plain text. Note: Not all HTML is supported._
+If true, then this label will show html text else it will show plain text. Note: Not all HTML is supported.
 
 ### Has Margins
 
@@ -171,7 +171,7 @@ _If true, then this label will show html text else it will show plain text. Note
 |:----:|:-------:|
 |boolean|True|
 
-_Reports whether or not the label appears with margins.  All four margins (left, right, top, bottom) are the same.  This property has no effect in the designer, where labels are always shown with margins._
+Reports whether or not the label appears with margins.  All four margins (left, right, top, bottom) are the same.  This property has no effect in the designer, where labels are always shown with margins.
 
 ### Marquee
 
@@ -197,7 +197,7 @@ _No description available_
 |:----:|:-------:|
 |number|0.0|
 
-_Sets the degrees that the label is rotated around the pivot point. Increasing values result in clockwise rotation._
+Sets the degrees that the label is rotated around the pivot point. Increasing values result in clockwise rotation.
 
 ### Text
 
@@ -249,7 +249,7 @@ _No description available_
 |:----:|:-------:|
 |boolean|True|
 
-_Returns true iff the component is visible._
+Returns true iff the component is visible.
 
 ### Column
 
@@ -260,7 +260,7 @@ _Returns true iff the component is visible._
 |:----:|:-------:|
 |number|None|
 
-_Column property getter method._
+Column property getter method.
 
 ### Height
 
@@ -271,7 +271,7 @@ _Column property getter method._
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's vertical height, measured in pixels._
+Specifies the component's vertical height, measured in pixels.
 
 ### Height Percent
 
@@ -282,8 +282,8 @@ _Specifies the component's vertical height, measured in pixels._
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's vertical height as a percentage
- of the height of its parent Component._
+Specifies the component's vertical height as a percentage
+ of the height of its parent Component.
 
 ### Row
 
@@ -294,7 +294,7 @@ _Specifies the component's vertical height as a percentage
 |:----:|:-------:|
 |number|None|
 
-_Row property getter method._
+Row property getter method.
 
 ### Width
 
@@ -305,7 +305,7 @@ _Row property getter method._
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's horizontal width, measured in pixels._
+Specifies the component's horizontal width, measured in pixels.
 
 ### Width Percent
 
@@ -316,5 +316,5 @@ _Specifies the component's horizontal width, measured in pixels._
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's horizontal width as a percentage
- of the Width of its parent Component._
+Specifies the component's horizontal width as a percentage
+ of the Width of its parent Component.

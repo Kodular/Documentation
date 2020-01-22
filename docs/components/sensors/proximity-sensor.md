@@ -8,7 +8,7 @@
 
 ## Overview
 
-_<p>Non-visible component that can measures the proximity of an object in cm relative to the view screen of a device. This sensor is typically used to determine whether a handset is being held up to a persons ear; i.e. lets you determine how far away an object is from a device. Many devices return the absolute distance, in cm, but some return only near and far values. In this case, the sensor usually reports its maximum range value in the far state and a lesser value in the near state.</p>_
+<p>Non-visible component that can measures the proximity of an object in cm relative to the view screen of a device. This sensor is typically used to determine whether a handset is being held up to a persons ear; i.e. lets you determine how far away an object is from a device. Many devices return the absolute distance, in cm, but some return only near and far values. In this case, the sensor usually reports its maximum range value in the far state and a lesser value in the near state.</p>
 
 ## Events
 
@@ -22,7 +22,7 @@ _<p>Non-visible component that can measures the proximity of an object in cm rel
     |distance|`number`|
 
 
-_Triggered when distance (in cm) of the object to the device changes._
+Triggered when distance (in cm) of the object to the device changes.
 
 ## Properties
 
@@ -37,8 +37,8 @@ _Triggered when distance (in cm) of the object to the device changes._
 |:----:|:-------:|
 |boolean|True|
 
-_If true, the sensor will generate events.  Otherwise, no events
- are generated ._
+If true, the sensor will generate events.  Otherwise, no events
+ are generated .
 
 ### Keep Running When On Pause
 
@@ -51,7 +51,7 @@ _If true, the sensor will generate events.  Otherwise, no events
 |:----:|:-------:|
 |boolean|False|
 
-_Returns value of keepRunningWhenOnPause_
+Returns value of keepRunningWhenOnPause
 
 ### Available
 
@@ -62,7 +62,7 @@ _Returns value of keepRunningWhenOnPause_
 |:----:|:-------:|
 |boolean|None|
 
-_Reports whether or not the device has a proximity sensor_
+Reports whether or not the device has a proximity sensor
 
 ### Distance
 
@@ -73,7 +73,7 @@ _Reports whether or not the device has a proximity sensor_
 |:----:|:-------:|
 |number|None|
 
-_Returns the distance from the object to the device_
+Returns the distance from the object to the device
 
 ### Maximum Range
 
@@ -84,4 +84,4 @@ _Returns the distance from the object to the device_
 |:----:|:-------:|
 |number|None|
 
-_Reports the Maximum Range of the device's ProximitySensor_
+Reports the Maximum Range of the device's ProximitySensor

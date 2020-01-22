@@ -8,7 +8,7 @@
 
 ## Overview
 
-_A non-visible component to show interstitial ads form the Chameleon Ads Network._
+A non-visible component to show interstitial ads form the Chameleon Ads Network.
 
 ## Events
 
@@ -16,7 +16,7 @@ _A non-visible component to show interstitial ads form the Chameleon Ads Network
 
 [[Event('Chameleon Ad', 'Ad Closed')]]
 
-_Event triggered when ads are closed._
+Event triggered when ads are closed.
 
 ### Ad Failed To Load
 
@@ -29,7 +29,7 @@ _Event triggered when ads are closed._
     |error Code|`number`|
 
 
-_Event triggered when ads failed to load. Here is the list with all possible error codes (int) and error messages (string): '1' = The before loaded ad was not finished. It is not allowed to load a new one. The first must be in finished loading process. '2' = Ad failed to load. No internet connection available. '3' = Please enter a valid chameleon 'App ID'. '4' = Please enter a valid chameleon 'User ID'. '5' = UNKNOWN_WEB_VIEW_ERROR. '6' = There was an error validating the SSL Certificate._
+Event triggered when ads failed to load. Here is the list with all possible error codes (int) and error messages (string): '1' = The before loaded ad was not finished. It is not allowed to load a new one. The first must be in finished loading process. '2' = Ad failed to load. No internet connection available. '3' = Please enter a valid chameleon 'App ID'. '4' = Please enter a valid chameleon 'User ID'. '5' = UNKNOWN_WEB_VIEW_ERROR. '6' = There was an error validating the SSL Certificate.
 
 ### Ad Failed To Show
 
@@ -42,13 +42,13 @@ _Event triggered when ads failed to load. Here is the list with all possible err
     |error Code|`number`|
 
 
-_Event triggered when ads failed to show. Here is the list with all possible error codes (int) and error messages (string): '1' = UNKNOWN_ERROR_ON_SHOW_AD. '2' = The ad must first be loaded. After loading finished the ad can be shown._
+Event triggered when ads failed to show. Here is the list with all possible error codes (int) and error messages (string): '1' = UNKNOWN_ERROR_ON_SHOW_AD. '2' = The ad must first be loaded. After loading finished the ad can be shown.
 
 ### Ad Loaded
 
 [[Event('Chameleon Ad', 'Ad Loaded')]]
 
-_Event triggered when ads are loaded._
+Event triggered when ads are loaded.
 
 ## Methods
 
@@ -56,13 +56,13 @@ _Event triggered when ads are loaded._
 
 [[Method('Chameleon Ad', 'Load Ad', false)]]
 
-_Load a new interstitial chameleon ad._
+Load a new interstitial chameleon ad.
 
 ### ShowAd
 
 [[Method('Chameleon Ad', 'ShowAd', false)]]
 
-_Show a chameleon interstitial ad after it was loaded._
+Show a chameleon interstitial ad after it was loaded.
 
 ## Properties
 
@@ -77,7 +77,7 @@ _Show a chameleon interstitial ad after it was loaded._
 |:----:|
 |text|
 
-_Input here your own Chameleon Ad 'App ID' (request one at my.kodular.io)._
+Input here your own Chameleon Ad 'App ID' (request one at my.kodular.io).
 
 ### Test Mode
 
@@ -90,7 +90,7 @@ _Input here your own Chameleon Ad 'App ID' (request one at my.kodular.io)._
 |:----:|:-------:|
 |boolean|False|
 
-_If set to true, the device will receive test ads. This option must be set before you load a new ad._
+If set to true, the device will receive test ads. This option must be set before you load a new ad.
 
 ### User ID
 
@@ -103,4 +103,4 @@ _If set to true, the device will receive test ads. This option must be set befor
 |:----:|
 |text|
 
-_Input here your own Chameleon Ad 'User ID' (get yours at my.kodular.io)._
+Input here your own Chameleon Ad 'User ID' (get yours at my.kodular.io).

@@ -8,7 +8,7 @@
 
 ## Overview
 
-_A non-visible component that shows Facebook ads as full-screen video where users receive in-app rewards for viewing the ads._
+A non-visible component that shows Facebook ads as full-screen video where users receive in-app rewards for viewing the ads.
 
 ## Events
 
@@ -16,7 +16,7 @@ _A non-visible component that shows Facebook ads as full-screen video where user
 
 [[Event('Facebook Rewarded Video', 'Ad Closed')]]
 
-_Called when the user is about to return to the application after clicking on an ad._
+Called when the user is about to return to the application after clicking on an ad.
 
 ### Ad Failed To Load
 
@@ -29,31 +29,31 @@ _Called when the user is about to return to the application after clicking on an
     |error Message|`text`|
 
 
-_Called when an ad request failed to load. The message will display the error code and error message._
+Called when an ad request failed to load. The message will display the error code and error message.
 
 ### Ad Loaded
 
 [[Event('Facebook Rewarded Video', 'Ad Loaded')]]
 
-_Called when an ad is received._
+Called when an ad is received.
 
 ### Ad Opened
 
 [[Event('Facebook Rewarded Video', 'Ad Opened')]]
 
-_Called when an ad was opened._
+Called when an ad was opened.
 
 ### Ad Video Completed
 
 [[Event('Facebook Rewarded Video', 'Ad Video Completed')]]
 
-_Called when an video ad was completed._
+Called when an video ad was completed.
 
 ### Ad Video Started
 
 [[Event('Facebook Rewarded Video', 'Ad Video Started')]]
 
-_Called when an video ad started to show content._
+Called when an video ad started to show content.
 
 ### Error
 
@@ -65,7 +65,7 @@ _Called when an video ad started to show content._
     |error|`text`|
 
 
-_Called when an ad request failed. message will display the reason for why the ad failed._
+Called when an ad request failed. message will display the reason for why the ad failed.
 
 ## Methods
 
@@ -73,13 +73,13 @@ _Called when an ad request failed. message will display the reason for why the a
 
 [[Method('Facebook Rewarded Video', 'Load Ad', false)]]
 
-_Loads a new ad._
+Loads a new ad.
 
 ### ShowAd
 
 [[Method('Facebook Rewarded Video', 'ShowAd', false)]]
 
-_Shows an ad to the user._
+Shows an ad to the user.
 
 ## Properties
 
@@ -94,7 +94,7 @@ _Shows an ad to the user._
 |:----:|:-------:|
 |text|unity|
 
-_Sets the ad network used to take the commission._
+Sets the ad network used to take the commission.
 
 ### Placement ID
 

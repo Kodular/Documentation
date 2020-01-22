@@ -8,7 +8,7 @@
 
 ## Overview
 
-_A component that provides a high-level interface to a light sensor on a LEGO MINDSTORMS NXT robot._
+A component that provides a high-level interface to a light sensor on a LEGO MINDSTORMS NXT robot.
 
 ## Events
 
@@ -16,19 +16,19 @@ _A component that provides a high-level interface to a light sensor on a LEGO MI
 
 [[Event('NXT Light Sensor', 'Above Range')]]
 
-_Light level has gone above the range._
+Light level has gone above the range.
 
 ### Below Range
 
 [[Event('NXT Light Sensor', 'Below Range')]]
 
-_Light level has gone below the range._
+Light level has gone below the range.
 
 ### Within Range
 
 [[Event('NXT Light Sensor', 'Within Range')]]
 
-_Light level has gone within the range._
+Light level has gone within the range.
 
 ## Methods
 
@@ -38,7 +38,7 @@ _Light level has gone within the range._
 
 {>>Returns `number`<<}
 
-_Returns the current light level as a value between 0 and 1023, or -1 if the light level can not be read._
+Returns the current light level as a value between 0 and 1023, or -1 if the light level can not be read.
 
 ## Properties
 
@@ -53,7 +53,7 @@ _Returns the current light level as a value between 0 and 1023, or -1 if the lig
 |:----:|:-------:|
 |boolean|False|
 
-_Whether the AboveRange event should fire when the light level goes above the TopOfRange._
+Whether the AboveRange event should fire when the light level goes above the TopOfRange.
 
 ### Below Range Event Enabled
 
@@ -66,7 +66,7 @@ _Whether the AboveRange event should fire when the light level goes above the To
 |:----:|:-------:|
 |boolean|False|
 
-_Whether the BelowRange event should fire when the light level goes below the BottomOfRange._
+Whether the BelowRange event should fire when the light level goes below the BottomOfRange.
 
 ### Bluetooth Client
 
@@ -79,7 +79,7 @@ _Whether the BelowRange event should fire when the light level goes below the Bo
 |:----:|
 |component|
 
-_The BluetoothClient component that should be used for communication._
+The BluetoothClient component that should be used for communication.
 
 ### Bottom Of Range
 
@@ -92,7 +92,7 @@ _The BluetoothClient component that should be used for communication._
 |:----:|:-------:|
 |number|256|
 
-_The bottom of the range used for the BelowRange, WithinRange, and AboveRange events._
+The bottom of the range used for the BelowRange, WithinRange, and AboveRange events.
 
 ### Generate Light
 
@@ -105,7 +105,7 @@ _The bottom of the range used for the BelowRange, WithinRange, and AboveRange ev
 |:----:|:-------:|
 |boolean|False|
 
-_Whether the light sensor should generate light._
+Whether the light sensor should generate light.
 
 ### Sensor Port
 
@@ -118,7 +118,7 @@ _Whether the light sensor should generate light._
 |:----:|:-------:|
 |text|3|
 
-_The sensor port that the sensor is connected to._
+The sensor port that the sensor is connected to.
 
 ### Top Of Range
 
@@ -131,7 +131,7 @@ _The sensor port that the sensor is connected to._
 |:----:|:-------:|
 |number|767|
 
-_The top of the range used for the BelowRange, WithinRange, and AboveRange events._
+The top of the range used for the BelowRange, WithinRange, and AboveRange events.
 
 ### Within Range Event Enabled
 
@@ -144,4 +144,4 @@ _The top of the range used for the BelowRange, WithinRange, and AboveRange event
 |:----:|:-------:|
 |boolean|False|
 
-_Whether the WithinRange event should fire when the light level goes between the BottomOfRange and the TopOfRange._
+Whether the WithinRange event should fire when the light level goes between the BottomOfRange and the TopOfRange.

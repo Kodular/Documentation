@@ -6,7 +6,7 @@
 
 ## Overview
 
-_A visible component that shows a map on the screen powered by Google''s Maps service._
+A visible component that shows a map on the screen powered by Google''s Maps service.
 
 ## Events
 
@@ -24,7 +24,7 @@ _A visible component that shows a map on the screen powered by Google''s Maps se
     |zoom|`number`|
 
 
-_Called after the camera position of a map has changed._
+Called after the camera position of a map has changed.
 
 ### Finished Dragging Circle
 
@@ -39,7 +39,7 @@ _Called after the camera position of a map has changed._
     |radius|`number`|
 
 
-_Event been raised after the action of moving a draggable circle is finished. Possible a user drag the center of the circle or drag the radius marker of the circle_
+Event been raised after the action of moving a draggable circle is finished. Possible a user drag the center of the circle or drag the radius marker of the circle
 
 ### Info Window Clicked
 
@@ -51,13 +51,13 @@ _Event been raised after the action of moving a draggable circle is finished. Po
     |marker Id|`number`|
 
 
-_When the marker's infowindow is clicked, returning marker's id_
+When the marker's infowindow is clicked, returning marker's id
 
 ### Map Is Ready
 
 [[Event('Google Maps', 'Map Is Ready')]]
 
-_Indicates that the map has been rendered and ready for adding markers or changing other settings. Please add or updating markers within this event_
+Indicates that the map has been rendered and ready for adding markers or changing other settings. Please add or updating markers within this event
 
 ### On Location Changed
 
@@ -70,7 +70,7 @@ _Indicates that the map has been rendered and ready for adding markers or changi
     |lng|`number`|
 
 
-_Triggers this event when user location has changed. Only works when EnableMylocation is set to true_
+Triggers this event when user location has changed. Only works when EnableMylocation is set to true
 
 ### On Map Click
 
@@ -83,7 +83,7 @@ _Triggers this event when user location has changed. Only works when EnableMyloc
     |lng|`number`|
 
 
-_Called when the user makes a tap gesture on the map_
+Called when the user makes a tap gesture on the map
 
 ### On Map Long Click
 
@@ -96,7 +96,7 @@ _Called when the user makes a tap gesture on the map_
     |lng|`number`|
 
 
-_Called when the user makes a long-press gesture on the map_
+Called when the user makes a long-press gesture on the map
 
 ### On Marker Click
 
@@ -110,7 +110,7 @@ _Called when the user makes a long-press gesture on the map_
     |longitude|`number`|
 
 
-_When a marker is clicked_
+When a marker is clicked
 
 ### On Marker Drag
 
@@ -124,7 +124,7 @@ _When a marker is clicked_
     |longitude|`number`|
 
 
-_When a marker is been dragged_
+When a marker is been dragged
 
 ### On Marker Drag End
 
@@ -138,7 +138,7 @@ _When a marker is been dragged_
     |longitude|`number`|
 
 
-_When the user drags a marker and finish the action, returning marker's id and it's latest position_
+When the user drags a marker and finish the action, returning marker's id and it's latest position
 
 ### On Marker Drag Start
 
@@ -152,7 +152,7 @@ _When the user drags a marker and finish the action, returning marker's id and i
     |longitude|`number`|
 
 
-_When a marker starts been dragged_
+When a marker starts been dragged
 
 ### On Point Of Interest Click
 
@@ -167,7 +167,7 @@ _When a marker starts been dragged_
     |place ID|`text`|
 
 
-_This event will be invoked when a user clicks on a point of interest. This can be a shop, coffee-bar or else._
+This event will be invoked when a user clicks on a point of interest. This can be a shop, coffee-bar or else.
 
 ## Methods
 
@@ -190,7 +190,7 @@ _This event will be invoked when a user clicks on a point of interest. This can 
     |draggable|`boolean`|
 
 
-_Create a circle overlay on the map UI with specified latitude and longitude for center. "hue" (min 0, max 360) and "alpha" (min 0, max 255) are used to set color and transparency level of the circle, "strokeWidth" and "strokeColor" are for the perimeter of the circle. Returning a unique id of the circle for future reference to events raised by moving this circle. If the circle isset to be draggable, two default markers will appear on the map: one in the center of the circle, another on the perimeter._
+Create a circle overlay on the map UI with specified latitude and longitude for center. "hue" (min 0, max 360) and "alpha" (min 0, max 255) are used to set color and transparency level of the circle, "strokeWidth" and "strokeColor" are for the perimeter of the circle. Returning a unique id of the circle for future reference to events raised by moving this circle. If the circle isset to be draggable, two default markers will appear on the map: one in the center of the circle, another on the perimeter.
 
 ### AddMarkers
 
@@ -204,7 +204,7 @@ _Create a circle overlay on the map UI with specified latitude and longitude for
     |markers|`list`|
 
 
-_Adding a list of YailLists for markers. The representation of a maker in the inner YailList is composed of: lat(double) [required], long(double) [required], Color, title(String), snippet(String), draggable(boolean). Return a list of unqiue ids for the added  markers. Note that the markers ids are not meant to persist after  the app is closed, but for temporary references to the markers within the program only. Return an empty list if any error happen in the input_
+Adding a list of YailLists for markers. The representation of a maker in the inner YailList is composed of: lat(double) [required], long(double) [required], Color, title(String), snippet(String), draggable(boolean). Return a list of unqiue ids for the added  markers. Note that the markers ids are not meant to persist after  the app is closed, but for temporary references to the markers within the program only. Return an empty list if any error happen in the input
 
 ### AddMarkersFromJson
 
@@ -216,7 +216,7 @@ _Adding a list of YailLists for markers. The representation of a maker in the in
     |json String|`text`|
 
 
-_Adding a list of markers that are represented as JsonArray.  The inner JsonObject represents a markerand is composed of name-value pairs. Name fields for a marker are: "lat" (type double) [required], "lng"(type double) [required], "color"(type int)[in hue value ranging from 0~360], "title"(type String), "snippet"(type String), "draggable"(type boolean)_
+Adding a list of markers that are represented as JsonArray.  The inner JsonObject represents a markerand is composed of name-value pairs. Name fields for a marker are: "lat" (type double) [required], "lng"(type double) [required], "color"(type int)[in hue value ranging from 0~360], "title"(type String), "snippet"(type String), "draggable"(type boolean)
 
 ### AddMarkersHue
 
@@ -230,7 +230,7 @@ _Adding a list of markers that are represented as JsonArray.  The inner JsonObje
     |markers|`list`|
 
 
-_Adding a list of YailList for markers. The inner YailList represents a marker and is composed of lat(Double) [required], long(Double) [required], color(int)[in hue value ranging from 0-360], title(String), snippet(String), draggable(boolean). Return a list of unique ids for the markers that are added_
+Adding a list of YailList for markers. The inner YailList represents a marker and is composed of lat(Double) [required], long(Double) [required], color(int)[in hue value ranging from 0-360], title(String), snippet(String), draggable(boolean). Return a list of unique ids for the markers that are added
 
 ### AddPolyline
 
@@ -246,7 +246,7 @@ _Adding a list of YailList for markers. The inner YailList represents a marker a
     |color|`number`|
 
 
-_This block will return the unique id of the new added polyline. Create a new polyline on the map. Use for 'points' a list of lat, lng pairs. A integer for the 'width' (in pixel) and a valid color for the 'color' parameter._
+This block will return the unique id of the new added polyline. Create a new polyline on the map. Use for 'points' a list of lat, lng pairs. A integer for the 'width' (in pixel) and a valid color for the 'color' parameter.
 
 ### BoundCamera
 
@@ -261,7 +261,7 @@ _This block will return the unique id of the new added polyline. Create a new po
     |sw Lng|`number`|
 
 
-_Transforms the camera such that the specified latitude/longitude bounds are centered on screen at the greatest possible zoom level. Need to specify both latitudes and longitudes for both northeast location and southwest location of the bounding box_
+Transforms the camera such that the specified latitude/longitude bounds are centered on screen at the greatest possible zoom level. Need to specify both latitudes and longitudes for both northeast location and southwest location of the bounding box
 
 ### EnableCompass
 
@@ -273,7 +273,7 @@ _Transforms the camera such that the specified latitude/longitude bounds are cen
     |enable|`boolean`|
 
 
-_Enables/disables the compass widget on the map's ui. Call this only after event "MapIsReady" is received_
+Enables/disables the compass widget on the map's ui. Call this only after event "MapIsReady" is received
 
 ### EnableMapCameraPosChangeListener
 
@@ -285,7 +285,7 @@ _Enables/disables the compass widget on the map's ui. Call this only after event
     |enabled|`boolean`|
 
 
-_Enable/Disable to listen to map's camera position changed event_
+Enable/Disable to listen to map's camera position changed event
 
 ### EnableMapClickListener
 
@@ -297,7 +297,7 @@ _Enable/Disable to listen to map's camera position changed event_
     |enabled|`boolean`|
 
 
-_Enable/Disable to listen to map's click event_
+Enable/Disable to listen to map's click event
 
 ### EnableMapLongClickListener
 
@@ -309,7 +309,7 @@ _Enable/Disable to listen to map's click event_
     |enabled|`boolean`|
 
 
-_Enable/disable to listen to map's long click event_
+Enable/disable to listen to map's long click event
 
 ### EnableMyLocation
 
@@ -321,7 +321,7 @@ _Enable/disable to listen to map's long click event_
     |enabled|`boolean`|
 
 
-_Enable or disable my location widget control for Google Map. One can call GetMyLocation() to obtain the current location after enable this."_
+Enable or disable my location widget control for Google Map. One can call GetMyLocation() to obtain the current location after enable this."
 
 ### EnableRotate
 
@@ -333,7 +333,7 @@ _Enable or disable my location widget control for Google Map. One can call GetMy
     |enable|`boolean`|
 
 
-_Enables/disables the capability to rotate a map on the ui. Call this only after the event "MapIsReady" is received._
+Enables/disables the capability to rotate a map on the ui. Call this only after the event "MapIsReady" is received.
 
 ### EnableScroll
 
@@ -345,7 +345,7 @@ _Enables/disables the capability to rotate a map on the ui. Call this only after
     |enable|`boolean`|
 
 
-_Enables/disables the capability to scroll a map on the ui. Call this only after the event "MapIsReady" is received_
+Enables/disables the capability to scroll a map on the ui. Call this only after the event "MapIsReady" is received
 
 ### EnableZoomControl
 
@@ -357,7 +357,7 @@ _Enables/disables the capability to scroll a map on the ui. Call this only after
     |enable|`boolean`|
 
 
-_Enables/disables the zoom widget on the map's ui. Call this only after the event "MapIsReady" is received_
+Enables/disables the zoom widget on the map's ui. Call this only after the event "MapIsReady" is received
 
 ### EnableZoomGesture
 
@@ -369,7 +369,7 @@ _Enables/disables the zoom widget on the map's ui. Call this only after the even
     |enable|`boolean`|
 
 
-_Enables/disables zoom gesture on the map ui. Call this only after the event  "MapIsReady" is received._
+Enables/disables zoom gesture on the map ui. Call this only after the event  "MapIsReady" is received.
 
 ### GetAllCircleIDs
 
@@ -377,7 +377,7 @@ _Enables/disables zoom gesture on the map ui. Call this only after the event  "M
 
 {>>Returns `list`<<}
 
-_Get all circles Ids. A short cut to get all the references for the eixisting circles_
+Get all circles Ids. A short cut to get all the references for the eixisting circles
 
 ### GetAllMarkerID
 
@@ -385,7 +385,7 @@ _Get all circles Ids. A short cut to get all the references for the eixisting ci
 
 {>>Returns `list`<<}
 
-_Get all the existing markers's Ids_
+Get all the existing markers's Ids
 
 ### GetAllPolylineIds
 
@@ -393,7 +393,7 @@ _Get all the existing markers's Ids_
 
 {>>Returns `list`<<}
 
-_This will return a list with all available polyline id's._
+This will return a list with all available polyline id's.
 
 ### GetMarkers
 
@@ -401,7 +401,7 @@ _This will return a list with all available polyline id's._
 
 {>>Returns `list`<<}
 
-_Add a list of markers composed of name-value pairs. Name fields for a marker are: "lat" (type double) [required], "lng"(type double) [required], "color"(type int)[in hue value ranging from 0~360], "title"(type String), "snippet"(type String), "draggable"(type boolean)_
+Add a list of markers composed of name-value pairs. Name fields for a marker are: "lat" (type double) [required], "lng"(type double) [required], "color"(type int)[in hue value ranging from 0~360], "title"(type String), "snippet"(type String), "draggable"(type boolean)
 
 ### GetMyLocation
 
@@ -409,7 +409,7 @@ _Add a list of markers composed of name-value pairs. Name fields for a marker ar
 
 {>>Returns `list`<<}
 
-_Get current location using Google Map Service. Return a YailList with first item beingthe latitude, the second item being the longitude, and last time being the accuracy of the reading._
+Get current location using Google Map Service. Return a YailList with first item beingthe latitude, the second item being the longitude, and last time being the accuracy of the reading.
 
 ### GetPointsFromJson
 
@@ -423,7 +423,7 @@ _Get current location using Google Map Service. Return a YailList with first ite
     |json String|`text`|
 
 
-_Convert a JsonArray of points (lat, lng pairs) to a list._
+Convert a JsonArray of points (lat, lng pairs) to a list.
 
 ### MoveCamera
 
@@ -437,7 +437,7 @@ _Convert a JsonArray of points (lat, lng pairs) to a list._
     |zoom|`number`|
 
 
-_Move the map's camera to the specified position and zoom level_
+Move the map's camera to the specified position and zoom level
 
 ### RemoveCircle
 
@@ -451,7 +451,7 @@ _Move the map's camera to the specified position and zoom level_
     |circle Id|`number`|
 
 
-_Remove a circle for the map. Returns true if successfully removed, false if the circle does not exist with the specified id_
+Remove a circle for the map. Returns true if successfully removed, false if the circle does not exist with the specified id
 
 ### RemoveMarker
 
@@ -463,7 +463,7 @@ _Remove a circle for the map. Returns true if successfully removed, false if the
     |marker Id|`number`|
 
 
-_Remove a marker from the map_
+Remove a marker from the map
 
 ### RemovePolyline
 
@@ -477,7 +477,7 @@ _Remove a marker from the map_
     |polyline Id|`number`|
 
 
-_Use this block to remove a polyline from the map. It will return true if it was successful._
+Use this block to remove a polyline from the map. It will return true if it was successful.
 
 ### SetMapType
 
@@ -489,7 +489,7 @@ _Use this block to remove a polyline from the map. It will return true if it was
     |layer Name|`text`|
 
 
-_Set the layer of Google map. Default layer is "normal", other choices including "hybrid","satellite", and "terrain"_
+Set the layer of Google map. Default layer is "normal", other choices including "hybrid","satellite", and "terrain"
 
 ### UpdateCircle
 
@@ -503,7 +503,7 @@ _Set the layer of Google map. Default layer is "normal", other choices including
     |value|`any`|
 
 
-_Set the property of an existing circle. Properties include: "alpha"(number, value ranging from 0~255), "color" (nimber, hue value ranging 0~360), "radius"(number in meters)_
+Set the property of an existing circle. Properties include: "alpha"(number, value ranging from 0~255), "color" (nimber, hue value ranging 0~360), "radius"(number in meters)
 
 ### UpdateMarker
 
@@ -517,7 +517,7 @@ _Set the property of an existing circle. Properties include: "alpha"(number, val
     |value|`any`|
 
 
-_Set the property of a marker, note that the marker has to be added first or else will throw an exception! Properties include: "color"(hue value ranging from 0~360), "title", "snippet", "draggable"(give either true or false as the value)._
+Set the property of a marker, note that the marker has to be added first or else will throw an exception! Properties include: "color"(hue value ranging from 0~360), "title", "snippet", "draggable"(give either true or false as the value).
 
 ### UpdatePolyline
 
@@ -531,13 +531,13 @@ _Set the property of a marker, note that the marker has to be added first or els
     |points|`any`|
 
 
-_Update any polyline with the given id. You can change the property values for 'width' (in pixel), 'color' or 'points (a list of lat, lng pairs)._
+Update any polyline with the given id. You can change the property values for 'width' (in pixel), 'color' or 'points (a list of lat, lng pairs).
 
 ### Add Overlay
 
 [[Method('Google Maps', 'Add Overlay', false)]]
 
-_Add overlay._
+Add overlay.
 
 ### Add Polygon
 
@@ -552,25 +552,25 @@ _Add overlay._
     |lon Max|`number`|
 
 
-_A Polygon is an enclosed shape that can be used to mark areas on the map._
+A Polygon is an enclosed shape that can be used to mark areas on the map.
 
 ### Add Tile Overlay
 
 [[Method('Google Maps', 'Add Tile Overlay', false)]]
 
-_Add title overlay._
+Add title overlay.
 
 ### Clear All Polygons
 
 [[Method('Google Maps', 'Clear All Polygons', false)]]
 
-_Clear all Polygons._
+Clear all Polygons.
 
 ### Draw Central Square
 
 [[Method('Google Maps', 'Draw Central Square', false)]]
 
-_Draw central square._
+Draw central square.
 
 ### Get Bounding Box
 
@@ -586,7 +586,7 @@ _Draw central square._
     |half Side In Km|`number`|
 
 
-_Get bounding box._
+Get bounding box.
 
 ### Get Map Center
 
@@ -594,7 +594,7 @@ _Get bounding box._
 
 {>>Returns `text`<<}
 
-_Get map center. If a error occures the output will be '-999'._
+Get map center. If a error occures the output will be '-999'.
 
 ### Get Zoom Level Info
 
@@ -604,7 +604,7 @@ _Get map center. If a error occures the output will be '-999'._
 
 {>>Returns `number`<<}
 
-_Deprecated block! Don't use this anymore. Use instead 'Camera Zoom Level'._
+Deprecated block! Don't use this anymore. Use instead 'Camera Zoom Level'.
 
 ## Properties
 
@@ -619,7 +619,7 @@ _Deprecated block! Don't use this anymore. Use instead 'Camera Zoom Level'._
 |:----:|:-------:|
 |number|0|
 
-_Move the map's camera to the specified tilt, the angle (in degrees) from the nadir (directly facing the Earth). Must be a value between 0.0 and 90.0_
+Move the map's camera to the specified tilt, the angle (in degrees) from the nadir (directly facing the Earth). Must be a value between 0.0 and 90.0
 
 ### Camera Rotation
 
@@ -632,7 +632,7 @@ _Move the map's camera to the specified tilt, the angle (in degrees) from the na
 |:----:|:-------:|
 |number|0|
 
-_Move the map's camera to the specified bearing, the direction that the camera is pointing in (in degrees clockwise from north)._
+Move the map's camera to the specified bearing, the direction that the camera is pointing in (in degrees clockwise from north).
 
 ### Camera Zoom Level
 
@@ -645,7 +645,7 @@ _Move the map's camera to the specified bearing, the direction that the camera i
 |:----:|:-------:|
 |number|15|
 
-_Move the map's camera to the specified zoom level._
+Move the map's camera to the specified zoom level.
 
 ### Theme
 
@@ -658,7 +658,7 @@ _Move the map's camera to the specified zoom level._
 |:----:|:-------:|
 |text|standard|
 
-_Sets the theme of the map. The choices are "standard"(default), "silver", "retro", "dark", "night", "aubergine", "vintage", "kodular" and "roads-only"._
+Sets the theme of the map. The choices are "standard"(default), "silver", "retro", "dark", "night", "aubergine", "vintage", "kodular" and "roads-only".
 
 ### Visible
 
@@ -671,7 +671,7 @@ _Sets the theme of the map. The choices are "standard"(default), "silver", "retr
 |:----:|:-------:|
 |boolean|True|
 
-_Returns true iff the component is visible._
+Returns true iff the component is visible.
 
 ### Column
 
@@ -682,7 +682,7 @@ _Returns true iff the component is visible._
 |:----:|:-------:|
 |number|None|
 
-_Column property getter method._
+Column property getter method.
 
 ### Compass Enabled
 
@@ -693,7 +693,7 @@ _Column property getter method._
 |:----:|:-------:|
 |boolean|None|
 
-_Indicates whether the compass widget is currently enabled in the map ui_
+Indicates whether the compass widget is currently enabled in the map ui
 
 ### Height
 
@@ -704,7 +704,7 @@ _Indicates whether the compass widget is currently enabled in the map ui_
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's vertical height, measured in pixels._
+Specifies the component's vertical height, measured in pixels.
 
 ### Height Percent
 
@@ -715,8 +715,8 @@ _Specifies the component's vertical height, measured in pixels._
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's vertical height as a percentage
- of the height of its parent Component._
+Specifies the component's vertical height as a percentage
+ of the height of its parent Component.
 
 ### Map Camera Changed Listener Enabled
 
@@ -727,7 +727,7 @@ _Specifies the component's vertical height as a percentage
 |:----:|:-------:|
 |boolean|None|
 
-_Indicates if the map camera's position changed listener is currently enabled_
+Indicates if the map camera's position changed listener is currently enabled
 
 ### Map Click Listener Enabled
 
@@ -738,7 +738,7 @@ _Indicates if the map camera's position changed listener is currently enabled_
 |:----:|:-------:|
 |boolean|None|
 
-_Indicates if the mapClick event listener is currently enabled_
+Indicates if the mapClick event listener is currently enabled
 
 ### Map Long Click Listener Enabled
 
@@ -749,7 +749,7 @@ _Indicates if the mapClick event listener is currently enabled_
 |:----:|:-------:|
 |boolean|None|
 
-_Indicates if the map longClick listener is currently enabled_
+Indicates if the map longClick listener is currently enabled
 
 ### Map Type
 
@@ -760,7 +760,7 @@ _Indicates if the map longClick listener is currently enabled_
 |:----:|:-------:|
 |text|None|
 
-_Indicates the current map type_
+Indicates the current map type
 
 ### My Location Enabled
 
@@ -771,7 +771,7 @@ _Indicates the current map type_
 |:----:|:-------:|
 |boolean|None|
 
-_Indicates whether my locaiton UI control is currently enabled for the Google map._
+Indicates whether my locaiton UI control is currently enabled for the Google map.
 
 ### Rotate Enabled
 
@@ -782,7 +782,7 @@ _Indicates whether my locaiton UI control is currently enabled for the Google ma
 |:----:|:-------:|
 |boolean|None|
 
-_Indicates whether the capability to rotate a map on the ui is currently enabled_
+Indicates whether the capability to rotate a map on the ui is currently enabled
 
 ### Row
 
@@ -793,7 +793,7 @@ _Indicates whether the capability to rotate a map on the ui is currently enabled
 |:----:|:-------:|
 |number|None|
 
-_Row property getter method._
+Row property getter method.
 
 ### Scroll Enabled
 
@@ -804,7 +804,7 @@ _Row property getter method._
 |:----:|:-------:|
 |boolean|None|
 
-_Indicates whether the capability to scroll a map on the ui is currently enabled_
+Indicates whether the capability to scroll a map on the ui is currently enabled
 
 ### Style
 
@@ -815,7 +815,7 @@ _Indicates whether the capability to scroll a map on the ui is currently enabled
 |:----:|:-------:|
 |text|None|
 
-_Sets the style of the map from json. Just use a text field and paste there the json data. Create a custom map style at https://mapstyle.withgoogle.com/. Set the theme to "standard" to clear the style json._
+Sets the style of the map from json. Just use a text field and paste there the json data. Create a custom map style at https://mapstyle.withgoogle.com/. Set the theme to "standard" to clear the style json.
 
 ### Width
 
@@ -826,7 +826,7 @@ _Sets the style of the map from json. Just use a text field and paste there the 
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's horizontal width, measured in pixels._
+Specifies the component's horizontal width, measured in pixels.
 
 ### Width Percent
 
@@ -837,8 +837,8 @@ _Specifies the component's horizontal width, measured in pixels._
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's horizontal width as a percentage
- of the Width of its parent Component._
+Specifies the component's horizontal width as a percentage
+ of the Width of its parent Component.
 
 ### Zoom Control Enabled
 
@@ -849,7 +849,7 @@ _Specifies the component's horizontal width as a percentage
 |:----:|:-------:|
 |boolean|None|
 
-_Indicates whether the zoom widget on the map ui is currently enabled_
+Indicates whether the zoom widget on the map ui is currently enabled
 
 ### Zoom Gesture Enabled
 
@@ -860,4 +860,4 @@ _Indicates whether the zoom widget on the map ui is currently enabled_
 |:----:|:-------:|
 |boolean|None|
 
-_Indicates whether the zoom gesture is currently enabled_
+Indicates whether the zoom gesture is currently enabled

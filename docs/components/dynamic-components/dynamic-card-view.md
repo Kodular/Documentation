@@ -8,7 +8,7 @@
 
 ## Overview
 
-_A component to create dynamic cardviews in Arrangements._
+A component to create dynamic cardviews in Arrangements.
 
 ## Events
 
@@ -22,7 +22,7 @@ _A component to create dynamic cardviews in Arrangements._
     |id|`number`|
 
 
-_Event to detect that a user has done a simple click on a card view component with the specific id._
+Event to detect that a user has done a simple click on a card view component with the specific id.
 
 ### Long Click
 
@@ -34,7 +34,7 @@ _Event to detect that a user has done a simple click on a card view component wi
     |id|`number`|
 
 
-_Event to detect that a user has done a simple long click on a card view component with the specific id._
+Event to detect that a user has done a simple long click on a card view component with the specific id.
 
 ### Touch Down
 
@@ -46,7 +46,7 @@ _Event to detect that a user has done a simple long click on a card view compone
     |id|`number`|
 
 
-_Event to detect that a user has done a simple touch down on a card view component with the specific id._
+Event to detect that a user has done a simple touch down on a card view component with the specific id.
 
 ### Touch Up
 
@@ -58,7 +58,7 @@ _Event to detect that a user has done a simple touch down on a card view compone
     |id|`number`|
 
 
-_Event to detect that a user has done a simple touch up on a card view component with the specific id._
+Event to detect that a user has done a simple touch up on a card view component with the specific id.
 
 ## Methods
 
@@ -73,7 +73,7 @@ _Event to detect that a user has done a simple touch up on a card view component
     |arrangement|`component`|
 
 
-_Add a component into the card view component with the given id._
+Add a component into the card view component with the given id.
 
 ### ContentPadding
 
@@ -89,7 +89,7 @@ _Add a component into the card view component with the given id._
     |content Padding Bottom|`number`|
 
 
-_Set the content padding of a card view component._
+Set the content padding of a card view component.
 
 ### CreateCardView
 
@@ -104,7 +104,7 @@ _Set the content padding of a card view component._
     |height|`number`|
 
 
-_Create a new card view component dynamically. Use for width/height '-1' for wrap content or '-2' for fill parent._
+Create a new card view component dynamically. Use for width/height '-1' for wrap content or '-2' for fill parent.
 
 ### DeleteCardView
 
@@ -116,7 +116,7 @@ _Create a new card view component dynamically. Use for width/height '-1' for wra
     |id|`number`|
 
 
-_Remove a card view component with the given id._
+Remove a card view component with the given id.
 
 ### GetBackgroundColor
 
@@ -130,7 +130,7 @@ _Remove a card view component with the given id._
     |id|`number`|
 
 
-_Get the background color of a card view component._
+Get the background color of a card view component.
 
 ### GetCardViewById
 
@@ -144,7 +144,7 @@ _Get the background color of a card view component._
     |id|`number`|
 
 
-_Returns the card view referenced by its id._
+Returns the card view referenced by its id.
 
 ### GetCornerRadius
 
@@ -158,7 +158,7 @@ _Returns the card view referenced by its id._
     |id|`number`|
 
 
-_Get the corner radius of a card view component._
+Get the corner radius of a card view component.
 
 ### GetElevation
 
@@ -172,7 +172,7 @@ _Get the corner radius of a card view component._
     |id|`number`|
 
 
-_Get the elevation of a card view component._
+Get the elevation of a card view component.
 
 ### GetHeight
 
@@ -186,7 +186,7 @@ _Get the elevation of a card view component._
     |id|`number`|
 
 
-_Get the height of a card view component._
+Get the height of a card view component.
 
 ### GetWidth
 
@@ -200,7 +200,7 @@ _Get the height of a card view component._
     |id|`number`|
 
 
-_Get the width of a card view component._
+Get the width of a card view component.
 
 ### SetBackgroundColor
 
@@ -213,7 +213,7 @@ _Get the width of a card view component._
     |argb|`number`|
 
 
-_Set the background color of a card view component._
+Set the background color of a card view component.
 
 ### SetCornerRadius
 
@@ -226,7 +226,7 @@ _Set the background color of a card view component._
     |radius|`number`|
 
 
-_Set the corner radius of a card view component._
+Set the corner radius of a card view component.
 
 ### SetElevation
 
@@ -239,7 +239,7 @@ _Set the corner radius of a card view component._
     |value|`number`|
 
 
-_Set the elevation of a card view component._
+Set the elevation of a card view component.
 
 ### SetHeight
 
@@ -252,7 +252,7 @@ _Set the elevation of a card view component._
     |height|`number`|
 
 
-_Set the height of a card view component._
+Set the height of a card view component.
 
 ### SetWidth
 
@@ -265,7 +265,7 @@ _Set the height of a card view component._
     |width|`number`|
 
 
-_Set the width of a card view component._
+Set the width of a card view component.
 
 ### StrokeColor
 
@@ -278,7 +278,7 @@ _Set the width of a card view component._
     |color|`number`|
 
 
-_Set the stroke color to a card view component with the specific id._
+Set the stroke color to a card view component with the specific id.
 
 ### StrokeWidth
 
@@ -291,7 +291,7 @@ _Set the stroke color to a card view component with the specific id._
     |width|`number`|
 
 
-_Set the stroke width to a card view component with the specific id._
+Set the stroke width to a card view component with the specific id.
 
 ## Properties
 
@@ -306,7 +306,7 @@ _Set the stroke width to a card view component with the specific id._
 |:----:|:-------:|
 |number|&HFFFFFFFF|
 
-_Specifies the cards's background color._
+Specifies the cards's background color.
 
 ### Content Padding Bottom
 
@@ -319,7 +319,7 @@ _Specifies the cards's background color._
 |:----:|:-------:|
 |number|8|
 
-_Sets the bottom padding between the card's edges and the children of card view._
+Sets the bottom padding between the card's edges and the children of card view.
 
 ### Content Padding Left
 
@@ -332,7 +332,7 @@ _Sets the bottom padding between the card's edges and the children of card view.
 |:----:|:-------:|
 |number|8|
 
-_Sets the left padding between the card's edges and the children of card view._
+Sets the left padding between the card's edges and the children of card view.
 
 ### Content Padding Right
 
@@ -345,7 +345,7 @@ _Sets the left padding between the card's edges and the children of card view._
 |:----:|:-------:|
 |number|8|
 
-_Sets the right padding between the card's edges and the children of card view._
+Sets the right padding between the card's edges and the children of card view.
 
 ### Content Padding Top
 
@@ -358,7 +358,7 @@ _Sets the right padding between the card's edges and the children of card view._
 |:----:|:-------:|
 |number|8|
 
-_Sets the top padding between the card's edges and the children of card view._
+Sets the top padding between the card's edges and the children of card view.
 
 ### Corner Radius
 
@@ -371,7 +371,7 @@ _Sets the top padding between the card's edges and the children of card view._
 |:----:|:-------:|
 |number|2|
 
-_The corner radius from the card view._
+The corner radius from the card view.
 
 ### Elevation
 
@@ -384,7 +384,7 @@ _The corner radius from the card view._
 |:----:|:-------:|
 |number|2|
 
-_The card view elevation value._
+The card view elevation value.
 
 ### Full Clickable
 
@@ -397,7 +397,7 @@ _The card view elevation value._
 |:----:|:-------:|
 |boolean|False|
 
-_If set to true, the card will consume all click events. This means if you have added as example buttons into the card, then will the card consume the touch event on the button. And this means that the button would not be clickable, but only the entire card._
+If set to true, the card will consume all click events. This means if you have added as example buttons into the card, then will the card consume the touch event on the button. And this means that the button would not be clickable, but only the entire card.
 
 ### Stroke Color
 
@@ -410,7 +410,7 @@ _If set to true, the card will consume all click events. This means if you have 
 |:----:|:-------:|
 |number|&HFFCCCCCC|
 
-_The stroke width for the card view._
+The stroke width for the card view.
 
 ### Stroke Width
 
@@ -423,7 +423,7 @@ _The stroke width for the card view._
 |:----:|:-------:|
 |number|1|
 
-_The stroke width for the card view._
+The stroke width for the card view.
 
 ### Touch Color
 
@@ -436,4 +436,4 @@ _The stroke width for the card view._
 |:----:|:-------:|
 |number|&HFFCCCCCC|
 
-_Set the touch color also known as ripple color to a card view component._
+Set the touch color also known as ripple color to a card view component.

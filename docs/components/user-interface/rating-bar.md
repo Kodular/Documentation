@@ -6,7 +6,7 @@
 
 ## Overview
 
-_A visible component that lets the user submit a star rating._
+A visible component that lets the user submit a star rating.
 
 ## Events
 
@@ -20,7 +20,7 @@ _A visible component that lets the user submit a star rating._
     |rating|`number`|
 
 
-_Event invoked when the rating has been changed._
+Event invoked when the rating has been changed.
 
 ## Properties
 
@@ -35,7 +35,7 @@ _Event invoked when the rating has been changed._
 |:----:|:-------:|
 |number|&HFF9E9E9E|
 
-_Change the background color of the star._
+Change the background color of the star.
 
 ### Is Indicator
 
@@ -48,7 +48,7 @@ _Change the background color of the star._
 |:----:|:-------:|
 |boolean|False|
 
-_Whether this rating bar should only be an indicator (thus non-changeable by the user)._
+Whether this rating bar should only be an indicator (thus non-changeable by the user).
 
 ### Set Number Of Stars
 
@@ -61,7 +61,7 @@ _Whether this rating bar should only be an indicator (thus non-changeable by the
 |:----:|:-------:|
 |number|5|
 
-_Sets the number of stars to show._
+Sets the number of stars to show.
 
 ### Set Step Size
 
@@ -74,7 +74,7 @@ _Sets the number of stars to show._
 |:----:|:-------:|
 |number|.5|
 
-_Sets the step size (granularity) of this rating bar._
+Sets the step size (granularity) of this rating bar.
 
 ### Star Color
 
@@ -87,7 +87,7 @@ _Sets the step size (granularity) of this rating bar._
 |:----:|:-------:|
 |number|&HFFF34336|
 
-_Change the color of the star._
+Change the color of the star.
 
 ### Visible
 
@@ -100,7 +100,7 @@ _Change the color of the star._
 |:----:|:-------:|
 |boolean|True|
 
-_Returns true iff the component is visible._
+Returns true iff the component is visible.
 
 ### Column
 
@@ -111,7 +111,7 @@ _Returns true iff the component is visible._
 |:----:|:-------:|
 |number|None|
 
-_Column property getter method._
+Column property getter method.
 
 ### Get Number Of Stars
 
@@ -122,7 +122,7 @@ _Column property getter method._
 |:----:|:-------:|
 |number|None|
 
-_Returns the number of stars shown._
+Returns the number of stars shown.
 
 ### Get Rating
 
@@ -133,7 +133,7 @@ _Returns the number of stars shown._
 |:----:|:-------:|
 |number|None|
 
-_Gets the current rating (number of stars filled)._
+Gets the current rating (number of stars filled).
 
 ### Get Step Size
 
@@ -144,7 +144,7 @@ _Gets the current rating (number of stars filled)._
 |:----:|:-------:|
 |number|None|
 
-_Gets the step size (granularity) of this rating bar._
+Gets the step size (granularity) of this rating bar.
 
 ### Row
 
@@ -155,7 +155,7 @@ _Gets the step size (granularity) of this rating bar._
 |:----:|:-------:|
 |number|None|
 
-_Row property getter method._
+Row property getter method.
 
 ### Set Rating
 
@@ -166,4 +166,4 @@ _Row property getter method._
 |:----:|:-------:|
 |number|None|
 
-_Sets the rating (the number of stars filled)._
+Sets the rating (the number of stars filled).

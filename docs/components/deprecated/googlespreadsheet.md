@@ -8,7 +8,7 @@
 
 ## Overview
 
-_This is a component that allows you to read your Google Spreadsheet data using CloudStitch. <p>CloudStitch allows you to setup a project, that links to your Google Spreadsheet. <p>This component allows you to easily read / insert Spreadsheet data_
+This is a component that allows you to read your Google Spreadsheet data using CloudStitch. <p>CloudStitch allows you to setup a project, that links to your Google Spreadsheet. <p>This component allows you to easily read / insert Spreadsheet data
 
 ## Events
 
@@ -24,7 +24,7 @@ _This is a component that allows you to read your Google Spreadsheet data using 
     |action|`text`|
 
 
-_Triggered after an actions such as storing data has occurred._
+Triggered after an actions such as storing data has occurred.
 
 ## Methods
 
@@ -41,7 +41,7 @@ _Triggered after an actions such as storing data has occurred._
     |row Number|`number`|
 
 
-_For the given columnName and rowNumber, retrieves the spreadsheet cell data_
+For the given columnName and rowNumber, retrieves the spreadsheet cell data
 
 ### GetColumnData
 
@@ -55,7 +55,7 @@ _For the given columnName and rowNumber, retrieves the spreadsheet cell data_
     |column Name|`text`|
 
 
-_Retrieves all data for an entire column_
+Retrieves all data for an entire column
 
 ### GetRowData
 
@@ -69,13 +69,13 @@ _Retrieves all data for an entire column_
     |row Number|`number`|
 
 
-_Retrieves data for a specific row number_
+Retrieves data for a specific row number
 
 ### GetSpreadsheetData
 
 [[Method('GoogleSpreadsheet', 'GetSpreadsheetData', false)]]
 
-_For the given ApiEndpoint and Spreadsheet, retrieves all data from the spreadsheet._
+For the given ApiEndpoint and Spreadsheet, retrieves all data from the spreadsheet.
 
 ### StoreData
 
@@ -87,7 +87,7 @@ _For the given ApiEndpoint and Spreadsheet, retrieves all data from the spreadsh
     |data To Store|`text`|
 
 
-_Stores data into spreadsheet. dataToStore must be in json format. Will trigger AfterAction_
+Stores data into spreadsheet. dataToStore must be in json format. Will trigger AfterAction
 
 ## Properties
 
@@ -102,7 +102,7 @@ _Stores data into spreadsheet. dataToStore must be in json format. Will trigger 
 |:----:|:-------:|
 |text|Enter the Cloudstitch API Endpoint|
 
-_The Cloudstitch API endpoint._
+The Cloudstitch API endpoint.
 
 ### Sheet Name
 
@@ -115,4 +115,4 @@ _The Cloudstitch API endpoint._
 |:----:|:-------:|
 |text|Enter Spreadsheet name|
 
-_The Google spreadsheet name_
+The Google spreadsheet name

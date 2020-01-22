@@ -8,7 +8,7 @@
 
 ## Overview
 
-_A non-visible component that encrypts and decrypts data using a variety of techniques._
+A non-visible component that encrypts and decrypts data using a variety of techniques.
 
 ## Methods
 
@@ -24,7 +24,7 @@ _A non-visible component that encrypts and decrypts data using a variety of tech
     |AES-128 Hash|`text`|
 
 
-_Decodes the given hash using the given key through AES-128. If any exception occurs, returns empty string._
+Decodes the given hash using the given key through AES-128. If any exception occurs, returns empty string.
 
 ### AES128Encode
 
@@ -38,7 +38,7 @@ _Decodes the given hash using the given key through AES-128. If any exception oc
     |input Text|`text`|
 
 
-_Encodes the given string using the given key through AES-128. If any exception occurs, returns empty string._
+Encodes the given string using the given key through AES-128. If any exception occurs, returns empty string.
 
 ### AES128GenKey
 
@@ -46,7 +46,7 @@ _Encodes the given string using the given key through AES-128. If any exception 
 
 {>>Returns `text`<<}
 
-_Generates a secure random AES 128 key_
+Generates a secure random AES 128 key
 
 ### AES256Decode
 
@@ -60,7 +60,7 @@ _Generates a secure random AES 128 key_
     |AES-256 Hash|`text`|
 
 
-_Decodes the given hash using the given key through AES-256. If there are any exceptions, returns empty string_
+Decodes the given hash using the given key through AES-256. If there are any exceptions, returns empty string
 
 ### AES256Encode
 
@@ -74,7 +74,7 @@ _Decodes the given hash using the given key through AES-256. If there are any ex
     |input Text|`text`|
 
 
-_Encodes the given string using the given key through AES-256. If there are any exceptions, returns empty string_
+Encodes the given string using the given key through AES-256. If there are any exceptions, returns empty string
 
 ### AES256GenKey
 
@@ -82,7 +82,7 @@ _Encodes the given string using the given key through AES-256. If there are any 
 
 {>>Returns `text`<<}
 
-_Generates a secure random AES 256 key_
+Generates a secure random AES 256 key
 
 ### BCryptCreateHash
 
@@ -97,7 +97,7 @@ _Generates a secure random AES 256 key_
     |salt|`text`|
 
 
-_Generates a hash using BCrypt_
+Generates a hash using BCrypt
 
 ### BCryptGenerateSalt
 
@@ -105,7 +105,7 @@ _Generates a hash using BCrypt_
 
 {>>Returns `text`<<}
 
-_Generates a salt usable for hashing with BCrypt_
+Generates a salt usable for hashing with BCrypt
 
 ### BCryptVerifyPassword
 
@@ -120,7 +120,7 @@ _Generates a salt usable for hashing with BCrypt_
     |correct Hash|`text`|
 
 
-_Verifies if the input password is the same one as the correct hashed password using BCrypt algorithm_
+Verifies if the input password is the same one as the correct hashed password using BCrypt algorithm
 
 ### Base64Decode
 
@@ -134,7 +134,7 @@ _Verifies if the input password is the same one as the correct hashed password u
     |base64 Hash|`text`|
 
 
-_Decodes the given hash using Base64_
+Decodes the given hash using Base64
 
 ### Base64Encode
 
@@ -148,7 +148,7 @@ _Decodes the given hash using Base64_
     |input Text|`text`|
 
 
-_Encodes the given string using Base64_
+Encodes the given string using Base64
 
 ### Enigma
 
@@ -167,7 +167,7 @@ _Encodes the given string using Base64_
     |plugboard|`list`|
 
 
-_Encrypts or decrypts the given string simulating an Enigma machine. Rotors can go from 1 to 8, but they cannot be repeated. Reflector can be B, C or 0 if none. Plugboard is a list with sub-list of two items containing a character each one, which replace the first character with the second one._
+Encrypts or decrypts the given string simulating an Enigma machine. Rotors can go from 1 to 8, but they cannot be repeated. Reflector can be B, C or 0 if none. Plugboard is a list with sub-list of two items containing a character each one, which replace the first character with the second one.
 
 ### MD5CreateHash
 
@@ -181,7 +181,7 @@ _Encrypts or decrypts the given string simulating an Enigma machine. Rotors can 
     |input Text|`text`|
 
 
-_Generates a MD5 hash_
+Generates a MD5 hash
 
 ### PBKDF2CreateHash
 
@@ -195,7 +195,7 @@ _Generates a MD5 hash_
     |input Text|`text`|
 
 
-_Generates a hash using PBKDF2_
+Generates a hash using PBKDF2
 
 ### PBKDF2VerifyPassword
 
@@ -210,7 +210,7 @@ _Generates a hash using PBKDF2_
     |correct Hash|`text`|
 
 
-_Verifies if the input password is the same one as the correct hashed password using PBKDF2 algorithm_
+Verifies if the input password is the same one as the correct hashed password using PBKDF2 algorithm
 
 ### SHA1
 
@@ -224,7 +224,7 @@ _Verifies if the input password is the same one as the correct hashed password u
     |input Text|`text`|
 
 
-_Generates a hashed SHA-1 string_
+Generates a hashed SHA-1 string
 
 ### SHA224
 
@@ -238,7 +238,7 @@ _Generates a hashed SHA-1 string_
     |input Text|`text`|
 
 
-_Generates a hashed SHA-224 string_
+Generates a hashed SHA-224 string
 
 ### SHA256
 
@@ -252,7 +252,7 @@ _Generates a hashed SHA-224 string_
     |input Text|`text`|
 
 
-_Generates a hashed SHA-256 string_
+Generates a hashed SHA-256 string
 
 ### SHA384
 
@@ -266,7 +266,7 @@ _Generates a hashed SHA-256 string_
     |input Text|`text`|
 
 
-_Generates a hashed SHA-384 string_
+Generates a hashed SHA-384 string
 
 ### SHA512
 
@@ -280,7 +280,7 @@ _Generates a hashed SHA-384 string_
     |input Text|`text`|
 
 
-_Generates a hashed SHA-512 string_
+Generates a hashed SHA-512 string
 
 ### TripleDESDecode
 
@@ -294,7 +294,7 @@ _Generates a hashed SHA-512 string_
     |tripleDES Hash|`text`|
 
 
-_Decodes the given hash using the given key through TripleDES_
+Decodes the given hash using the given key through TripleDES
 
 ### TripleDESEncode
 
@@ -308,7 +308,7 @@ _Decodes the given hash using the given key through TripleDES_
     |input Text|`text`|
 
 
-_Encodes the given string using the given key through TripleDES_
+Encodes the given string using the given key through TripleDES
 
 ## Properties
 
@@ -323,7 +323,7 @@ _Encodes the given string using the given key through TripleDES_
 |:----:|
 |text|
 
-_Set the AES-128 Key_
+Set the AES-128 Key
 
 ### AES-256 Key
 
@@ -336,7 +336,7 @@ _Set the AES-128 Key_
 |:----:|
 |text|
 
-_Set the AES-256 Key_
+Set the AES-256 Key
 
 ### BCrypt Salt Size
 
@@ -349,7 +349,7 @@ _Set the AES-256 Key_
 |:----:|:-------:|
 |number|10|
 
-_Set the BCrypt Salt Size_
+Set the BCrypt Salt Size
 
 ### PBKDF2 Hash Byte Size
 
@@ -362,7 +362,7 @@ _Set the BCrypt Salt Size_
 |:----:|:-------:|
 |number|18|
 
-_Set the PBKDF2 Hash Byte Size_
+Set the PBKDF2 Hash Byte Size
 
 ### PBKDF2 Iterations Number
 
@@ -375,7 +375,7 @@ _Set the PBKDF2 Hash Byte Size_
 |:----:|:-------:|
 |number|64000|
 
-_Set the PBKDF2 number of Iterations_
+Set the PBKDF2 number of Iterations
 
 ### PBKDF2 Salt Byte Size
 
@@ -388,7 +388,7 @@ _Set the PBKDF2 number of Iterations_
 |:----:|:-------:|
 |number|24|
 
-_Set the PBKDF2 Salt Byte Size_
+Set the PBKDF2 Salt Byte Size
 
 ### TripleDES Key
 
@@ -401,4 +401,4 @@ _Set the PBKDF2 Salt Byte Size_
 |:----:|
 |text|
 
-_Set the TripleDES Key_
+Set the TripleDES Key

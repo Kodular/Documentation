@@ -8,7 +8,7 @@
 
 ## Overview
 
-_Sharing is a non-visible component that enables sharing files and/or messages between your app and other apps installed on a device. The component will display a list of the installed apps that can handle the information provided, and will allow the user to choose one to share the content with, for instance a mail app, a social network app, a texting app, and so on.<br>The file path can be taken directly from other components such as the Camera or the ImagePicker, but can also be specified directly to read from storage. Be aware that different devices treat storage differently, so a few things to try if, for instance, you have a file called arrow.gif in the folder <code>Appinventor/assets</code>, would be: <ul><li><code>"file:///sdcard/Appinventor/assets/arrow.gif"</code></li> or <li><code>"/storage/Appinventor/assets/arrow.gif"</code></li></ul>_
+Sharing is a non-visible component that enables sharing files and/or messages between your app and other apps installed on a device. The component will display a list of the installed apps that can handle the information provided, and will allow the user to choose one to share the content with, for instance a mail app, a social network app, a texting app, and so on.<br>The file path can be taken directly from other components such as the Camera or the ImagePicker, but can also be specified directly to read from storage. Be aware that different devices treat storage differently, so a few things to try if, for instance, you have a file called arrow.gif in the folder <code>Appinventor/assets</code>, would be: <ul><li><code>"file:///sdcard/Appinventor/assets/arrow.gif"</code></li> or <li><code>"/storage/Appinventor/assets/arrow.gif"</code></li></ul>
 
 ## Events
 
@@ -22,7 +22,7 @@ _Sharing is a non-visible component that enables sharing files and/or messages b
     |name|`text`|
 
 
-_This event returns the social media name if an app is not installed. Possible names are 'Facebook Messenger', 'Facebook', 'Twitter', 'Telegram', 'Twitter', 'Snapchat', 'Google Plus' or the given custom package name._
+This event returns the social media name if an app is not installed. Possible names are 'Facebook Messenger', 'Facebook', 'Twitter', 'Telegram', 'Twitter', 'Snapchat', 'Google Plus' or the given custom package name.
 
 ## Methods
 
@@ -36,7 +36,7 @@ _This event returns the social media name if an app is not installed. Possible n
     |file|`text`|
 
 
-_Shares a file through any capable application installed on the phone by displaying a list of the available apps and allowing the user to choose one from the list. The selected app will open with the file inserted on it._
+Shares a file through any capable application installed on the phone by displaying a list of the available apps and allowing the user to choose one from the list. The selected app will open with the file inserted on it.
 
 ### ShareFileWithMessage
 
@@ -49,7 +49,7 @@ _Shares a file through any capable application installed on the phone by display
     |message|`text`|
 
 
-_Shares both a file and a message through any capable application installed on the phone by displaying a list of available apps and allowing the user to  choose one from the list. The selected app will open with the file and message inserted on it._
+Shares both a file and a message through any capable application installed on the phone by displaying a list of available apps and allowing the user to  choose one from the list. The selected app will open with the file and message inserted on it.
 
 ### ShareMessage
 
@@ -61,7 +61,7 @@ _Shares both a file and a message through any capable application installed on t
     |message|`text`|
 
 
-_Shares a message through any capable application installed on the phone by displaying a list of the available apps and allowing the user to choose one from the list. The selected app will open with the message inserted on it._
+Shares a message through any capable application installed on the phone by displaying a list of the available apps and allowing the user to choose one from the list. The selected app will open with the message inserted on it.
 
 ### ShareMessageTo
 
@@ -75,7 +75,7 @@ _Shares a message through any capable application installed on the phone by disp
     |package Name|`text`|
 
 
-_Shares a message through the given app. If the given app is not installed, then the 'AppNotFound' event will be invoked and return the given name._
+Shares a message through the given app. If the given app is not installed, then the 'AppNotFound' event will be invoked and return the given name.
 
 ### ShareMessageToFacebook
 
@@ -87,7 +87,7 @@ _Shares a message through the given app. If the given app is not installed, then
     |message|`text`|
 
 
-_Shares a message through Facebook. If Facebook is not installed, then the 'AppNotFound' event will be invoked and return the name 'Facebook'._
+Shares a message through Facebook. If Facebook is not installed, then the 'AppNotFound' event will be invoked and return the name 'Facebook'.
 
 ### ShareMessageToFacebookMessenger
 
@@ -99,7 +99,7 @@ _Shares a message through Facebook. If Facebook is not installed, then the 'AppN
     |message|`text`|
 
 
-_Shares a message through Facebook Messenger. If Messenger is not installed, then the 'AppNotFound' event will be invoked and return the name 'Facebook Messenger'._
+Shares a message through Facebook Messenger. If Messenger is not installed, then the 'AppNotFound' event will be invoked and return the name 'Facebook Messenger'.
 
 ### ShareMessageToGooglePlus
 
@@ -111,7 +111,7 @@ _Shares a message through Facebook Messenger. If Messenger is not installed, the
     |message|`text`|
 
 
-_Shares a message through Google Plus. If Google+ is not installed, then the 'AppNotFound' event will be invoked and return the name 'Google Plus'._
+Shares a message through Google Plus. If Google+ is not installed, then the 'AppNotFound' event will be invoked and return the name 'Google Plus'.
 
 ### ShareMessageToSnapchat
 
@@ -123,7 +123,7 @@ _Shares a message through Google Plus. If Google+ is not installed, then the 'Ap
     |message|`text`|
 
 
-_Shares a message through Snapchat. If Snapchat is not installed, then the 'AppNotFound' event will be invoked and return the name 'Snapchat'._
+Shares a message through Snapchat. If Snapchat is not installed, then the 'AppNotFound' event will be invoked and return the name 'Snapchat'.
 
 ### ShareMessageToTelegram
 
@@ -135,7 +135,7 @@ _Shares a message through Snapchat. If Snapchat is not installed, then the 'AppN
     |message|`text`|
 
 
-_Shares a message through Telegram. If Telegram is not installed, then the 'AppNotFound' event will be invoked and return the name 'Telegram'._
+Shares a message through Telegram. If Telegram is not installed, then the 'AppNotFound' event will be invoked and return the name 'Telegram'.
 
 ### ShareMessageToTwitter
 
@@ -147,7 +147,7 @@ _Shares a message through Telegram. If Telegram is not installed, then the 'AppN
     |message|`text`|
 
 
-_Shares a message through Twitter. If Twitter is not installed, then the 'AppNotFound' event will be invoked and return the name 'Twitter'._
+Shares a message through Twitter. If Twitter is not installed, then the 'AppNotFound' event will be invoked and return the name 'Twitter'.
 
 ### ShareMessageToWhatsApp
 
@@ -159,7 +159,7 @@ _Shares a message through Twitter. If Twitter is not installed, then the 'AppNot
     |message|`text`|
 
 
-_Shares a message through WhatsApp. If WhatsApp is not installed, then the 'AppNotFound' event will be invoked and return the name 'WhatsApp'._
+Shares a message through WhatsApp. If WhatsApp is not installed, then the 'AppNotFound' event will be invoked and return the name 'WhatsApp'.
 
 ## Properties
 
@@ -174,4 +174,4 @@ _Shares a message through WhatsApp. If WhatsApp is not installed, then the 'AppN
 |:----:|:-------:|
 |text|Send using...|
 
-_Set the text for the sharing dialog. The default text is 'Send using...'._
+Set the text for the sharing dialog. The default text is 'Send using...'.

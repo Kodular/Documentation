@@ -6,7 +6,7 @@
 
 ## Overview
 
-_A visible component that lets the user toggle between two states — checked and unchecked. Only one Radio Button in a group of Radio Buttons can be checked at any given time._
+A visible component that lets the user toggle between two states — checked and unchecked. Only one Radio Button in a group of Radio Buttons can be checked at any given time.
 
 ## Events
 
@@ -20,7 +20,7 @@ _A visible component that lets the user toggle between two states — checked an
     |checked|`boolean`|
 
 
-_Event invoked when the radio button state has been changed._
+Event invoked when the radio button state has been changed.
 
 ## Methods
 
@@ -28,7 +28,7 @@ _Event invoked when the radio button state has been changed._
 
 [[Method('Radio Button', 'Toggle', false)]]
 
-_Change the checked state of the view to the inverse of its current state_
+Change the checked state of the view to the inverse of its current state
 
 ## Properties
 
@@ -43,7 +43,7 @@ _Change the checked state of the view to the inverse of its current state_
 |:----:|:-------:|
 |boolean|False|
 
-_Set the radio button to checked or unchecked_
+Set the radio button to checked or unchecked
 
 ### Enabled
 
@@ -56,7 +56,7 @@ _Set the radio button to checked or unchecked_
 |:----:|:-------:|
 |boolean|True|
 
-_If set, user can touch the radio button._
+If set, user can touch the radio button.
 
 ### Font Bold
 
@@ -108,7 +108,7 @@ _No description available_
 |:----:|
 |text|
 
-_Set a custom font._
+Set a custom font.
 
 ### Radio Button Color
 
@@ -121,7 +121,7 @@ _Set a custom font._
 |:----:|:-------:|
 |number|&HFF000000|
 
-_Change the radio button component color._
+Change the radio button component color.
 
 ### Text
 
@@ -134,7 +134,7 @@ _Change the radio button component color._
 |:----:|:-------:|
 |text|Radio Button Text|
 
-_Set here the radio button text._
+Set here the radio button text.
 
 ### Text Color
 
@@ -147,7 +147,7 @@ _Set here the radio button text._
 |:----:|:-------:|
 |number|&HFF000000|
 
-_Set the text color for the radio button._
+Set the text color for the radio button.
 
 ### Font Size
 
@@ -160,7 +160,7 @@ _Set the text color for the radio button._
 |:----:|:-------:|
 |number|14.0|
 
-_The text size of the radio button._
+The text size of the radio button.
 
 ### Visible
 
@@ -173,7 +173,7 @@ _The text size of the radio button._
 |:----:|:-------:|
 |boolean|True|
 
-_Returns true iff the component is visible._
+Returns true iff the component is visible.
 
 ### Column
 
@@ -184,7 +184,7 @@ _Returns true iff the component is visible._
 |:----:|:-------:|
 |number|None|
 
-_Column property getter method._
+Column property getter method.
 
 ### Height
 
@@ -195,7 +195,7 @@ _Column property getter method._
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's vertical height, measured in pixels._
+Specifies the component's vertical height, measured in pixels.
 
 ### Height Percent
 
@@ -206,8 +206,8 @@ _Specifies the component's vertical height, measured in pixels._
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's vertical height as a percentage
- of the height of its parent Component._
+Specifies the component's vertical height as a percentage
+ of the height of its parent Component.
 
 ### Row
 
@@ -218,7 +218,7 @@ _Specifies the component's vertical height as a percentage
 |:----:|:-------:|
 |number|None|
 
-_Row property getter method._
+Row property getter method.
 
 ### Width
 
@@ -229,7 +229,7 @@ _Row property getter method._
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's horizontal width, measured in pixels._
+Specifies the component's horizontal width, measured in pixels.
 
 ### Width Percent
 
@@ -240,8 +240,8 @@ _Specifies the component's horizontal width, measured in pixels._
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's horizontal width as a percentage
- of the Width of its parent Component._
+Specifies the component's horizontal width as a percentage
+ of the Width of its parent Component.
 
 ### is Checked
 
@@ -252,4 +252,4 @@ _Specifies the component's horizontal width as a percentage
 |:----:|:-------:|
 |boolean|None|
 
-_Returns true if the radio button is checked, else false._
+Returns true if the radio button is checked, else false.

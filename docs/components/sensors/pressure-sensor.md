@@ -8,7 +8,7 @@
 
 ## Overview
 
-_A non-visible component that measures the ambient air pressure in units of hPa or mbar._
+A non-visible component that measures the ambient air pressure in units of hPa or mbar.
 
 ## Events
 
@@ -23,7 +23,7 @@ _A non-visible component that measures the ambient air pressure in units of hPa 
     |altitude|`number`|
 
 
-_Event is invoked when pressure is changed._
+Event is invoked when pressure is changed.
 
 ## Properties
 

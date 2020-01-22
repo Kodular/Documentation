@@ -6,7 +6,7 @@
 
 ## Overview
 
-_A visible component that indicates the progress of an operation using a range of indeterminate animations._
+A visible component that indicates the progress of an operation using a range of indeterminate animations.
 
 ## Methods
 
@@ -16,7 +16,7 @@ _A visible component that indicates the progress of an operation using a range o
 
 {>>Returns `list`<<}
 
-_Gets style names of all possible animations._
+Gets style names of all possible animations.
 
 ## Properties
 
@@ -31,7 +31,7 @@ _Gets style names of all possible animations._
 |:----:|:-------:|
 |text|Wave|
 
-_Allows you to set animation style. Valid (case-insensitive) values are: ChasingDots, Circle, CubeGrid, DoubleBounce, FadingCircle, FoldingCube, Pulse, RotatingCircle, RotatingPlane, ThreeBounce, WanderingCubes, Wave. If invalid style is used, Wave animation will be used._
+Allows you to set animation style. Valid (case-insensitive) values are: ChasingDots, Circle, CubeGrid, DoubleBounce, FadingCircle, FoldingCube, Pulse, RotatingCircle, RotatingPlane, ThreeBounce, WanderingCubes, Wave. If invalid style is used, Wave animation will be used.
 
 ### Background Color
 
@@ -44,7 +44,7 @@ _Allows you to set animation style. Valid (case-insensitive) values are: Chasing
 |:----:|:-------:|
 |number|&H00FFFFFF|
 
-_Sets the background color of this component._
+Sets the background color of this component.
 
 ### Color
 
@@ -57,7 +57,7 @@ _Sets the background color of this component._
 |:----:|:-------:|
 |number|&HFF008b8b|
 
-_Sets the color of the component_
+Sets the color of the component
 
 ### Visible
 
@@ -70,7 +70,7 @@ _Sets the color of the component_
 |:----:|:-------:|
 |boolean|True|
 
-_Returns true iff the component is visible._
+Returns true iff the component is visible.
 
 ### Column
 
@@ -81,7 +81,7 @@ _Returns true iff the component is visible._
 |:----:|:-------:|
 |number|None|
 
-_Column property getter method._
+Column property getter method.
 
 ### Height
 
@@ -92,7 +92,7 @@ _Column property getter method._
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's vertical height, measured in pixels._
+Specifies the component's vertical height, measured in pixels.
 
 ### Height Percent
 
@@ -103,8 +103,8 @@ _Specifies the component's vertical height, measured in pixels._
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's vertical height as a percentage
- of the height of its parent Component._
+Specifies the component's vertical height as a percentage
+ of the height of its parent Component.
 
 ### Row
 
@@ -115,7 +115,7 @@ _Specifies the component's vertical height as a percentage
 |:----:|:-------:|
 |number|None|
 
-_Row property getter method._
+Row property getter method.
 
 ### Width
 
@@ -126,7 +126,7 @@ _Row property getter method._
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's horizontal width, measured in pixels._
+Specifies the component's horizontal width, measured in pixels.
 
 ### Width Percent
 
@@ -137,5 +137,5 @@ _Specifies the component's horizontal width, measured in pixels._
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's horizontal width as a percentage
- of the Width of its parent Component._
+Specifies the component's horizontal width as a percentage
+ of the Width of its parent Component.

@@ -8,7 +8,7 @@
 
 ## Overview
 
-_A component that provides a high-level interface to a LEGO MINDSTORMS EV3 robot, with functions to draw graphs on EV3 screen._
+A component that provides a high-level interface to a LEGO MINDSTORMS EV3 robot, with functions to draw graphs on EV3 screen.
 
 ## Methods
 
@@ -26,7 +26,7 @@ _A component that provides a high-level interface to a LEGO MINDSTORMS EV3 robot
     |fill|`boolean`|
 
 
-_Draw a circle on the screen._
+Draw a circle on the screen.
 
 ### DrawIcon
 
@@ -42,7 +42,7 @@ _Draw a circle on the screen._
     |no|`number`|
 
 
-_Draw a built-in icon on screen._
+Draw a built-in icon on screen.
 
 ### DrawLine
 
@@ -58,7 +58,7 @@ _Draw a built-in icon on screen._
     |y2|`number`|
 
 
-_Draw a line on the screen._
+Draw a line on the screen.
 
 ### DrawPoint
 
@@ -72,7 +72,7 @@ _Draw a line on the screen._
     |y|`number`|
 
 
-_Draw a point on the screen._
+Draw a point on the screen.
 
 ### DrawRect
 
@@ -89,7 +89,7 @@ _Draw a point on the screen._
     |fill|`boolean`|
 
 
-_Draw a rectangle on the screen._
+Draw a rectangle on the screen.
 
 ### FillScreen
 
@@ -101,7 +101,7 @@ _Draw a rectangle on the screen._
     |color|`number`|
 
 
-_Fill the screen with a color._
+Fill the screen with a color.
 
 ## Properties
 
@@ -116,4 +116,4 @@ _Fill the screen with a color._
 |:----:|
 |component|
 
-_The BluetoothClient component that should be used for communication._
+The BluetoothClient component that should be used for communication.

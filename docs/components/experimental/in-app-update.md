@@ -8,7 +8,7 @@
 
 ## Overview
 
-_A non-visible component that lets the user download app updates from within the app. <br>Note\: For this component to work correctly, set the MIN API to 21 (Android 5)._
+A non-visible component that lets the user download app updates from within the app. <br>Note\: For this component to work correctly, set the MIN API to 21 (Android 5).
 
 ## Events
 
@@ -16,43 +16,43 @@ _A non-visible component that lets the user download app updates from within the
 
 [[Event('In-App Update', 'Initialized')]]
 
-_Use this event to check if updates from Google Play Store are available for your app._
+Use this event to check if updates from Google Play Store are available for your app.
 
 ### Update Canceled
 
 [[Event('In-App Update', 'Update Canceled')]]
 
-_Event will be invoked when the update was canceled._
+Event will be invoked when the update was canceled.
 
 ### Update Downloaded
 
 [[Event('In-App Update', 'Update Downloaded')]]
 
-_Event will be invoked when the update is downloaded._
+Event will be invoked when the update is downloaded.
 
 ### Update Downloading
 
 [[Event('In-App Update', 'Update Downloading')]]
 
-_Event will be invoked when the update is still in downloading progress._
+Event will be invoked when the update is still in downloading progress.
 
 ### Update Failed
 
 [[Event('In-App Update', 'Update Failed')]]
 
-_Event will be invoked when there was a update fail._
+Event will be invoked when there was a update fail.
 
 ### Update Installed
 
 [[Event('In-App Update', 'Update Installed')]]
 
-_Event will be invoked when the update is installed._
+Event will be invoked when the update is installed.
 
 ### Update Installing
 
 [[Event('In-App Update', 'Update Installing')]]
 
-_Event will be invoked when the update is still in installing progress._
+Event will be invoked when the update is still in installing progress.
 
 ## Methods
 
@@ -60,19 +60,19 @@ _Event will be invoked when the update is still in installing progress._
 
 [[Method('In-App Update', 'InstallFlexibleUpdateNow', false)]]
 
-_Use this block to install a flexible update after it was downloaded._
+Use this block to install a flexible update after it was downloaded.
 
 ### StartFlexibleUpdate
 
 [[Method('In-App Update', 'StartFlexibleUpdate', false)]]
 
-_Start the process for flexible in-app updates. The update will be done in the background. Your users can still use your app in this time. After the update download is done you must restart your app._
+Start the process for flexible in-app updates. The update will be done in the background. Your users can still use your app in this time. After the update download is done you must restart your app.
 
 ### StartImmediateUpdate
 
 [[Method('In-App Update', 'StartImmediateUpdate', false)]]
 
-_Start the process for immediate in-app updates. In this time your app user can NOT use your app. After the update download is done your app will be restarted automatically._
+Start the process for immediate in-app updates. In this time your app user can NOT use your app. After the update download is done your app will be restarted automatically.
 
 ## Properties
 
@@ -85,4 +85,4 @@ _Start the process for immediate in-app updates. In this time your app user can 
 |:----:|:-------:|
 |boolean|None|
 
-_Returns true if a update is available for your app._
+Returns true if a update is available for your app.

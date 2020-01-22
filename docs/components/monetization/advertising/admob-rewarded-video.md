@@ -8,7 +8,7 @@
 
 ## Overview
 
-_A non-visible component that shows AdMob ads as full-screen video where users receive in-app rewards for viewing the ads._
+A non-visible component that shows AdMob ads as full-screen video where users receive in-app rewards for viewing the ads.
 
 ## Events
 
@@ -16,7 +16,7 @@ _A non-visible component that shows AdMob ads as full-screen video where users r
 
 [[Event('AdMob Rewarded Video', 'Ad Closed')]]
 
-_Called when an ad was closed._
+Called when an ad was closed.
 
 ### Ad Failed To Load
 
@@ -29,37 +29,37 @@ _Called when an ad was closed._
     |error Message|`text`|
 
 
-_Called when an ad request failed to load. The message will display the error code and error message._
+Called when an ad request failed to load. The message will display the error code and error message.
 
 ### Ad Left Application
 
 [[Event('AdMob Rewarded Video', 'Ad Left Application')]]
 
-_Called when an ad leaves the application (e.g., to go to the browser)._
+Called when an ad leaves the application (e.g., to go to the browser).
 
 ### Ad Loaded
 
 [[Event('AdMob Rewarded Video', 'Ad Loaded')]]
 
-_Called when an ad request was loaded._
+Called when an ad request was loaded.
 
 ### Ad Opened
 
 [[Event('AdMob Rewarded Video', 'Ad Opened')]]
 
-_Called when an ad was opened._
+Called when an ad was opened.
 
 ### Ad Video Completed
 
 [[Event('AdMob Rewarded Video', 'Ad Video Completed')]]
 
-_Called when an video ad was completed._
+Called when an video ad was completed.
 
 ### Ad Video Started
 
 [[Event('AdMob Rewarded Video', 'Ad Video Started')]]
 
-_Called when an video ad started to show content._
+Called when an video ad started to show content.
 
 ### On Consent Changed
 
@@ -71,7 +71,7 @@ _Called when an video ad started to show content._
     |personalized|`boolean`|
 
 
-_Event triggered when the consent was changed._
+Event triggered when the consent was changed.
 
 ### Rewarded
 
@@ -84,7 +84,7 @@ _Event triggered when the consent was changed._
     |amount|`number`|
 
 
-_User watched video and should be rewarded._
+User watched video and should be rewarded.
 
 ## Methods
 
@@ -92,19 +92,19 @@ _User watched video and should be rewarded._
 
 [[Method('AdMob Rewarded Video', 'Load Ad', false)]]
 
-_Load a new AdMob Rewarded Video ad._
+Load a new AdMob Rewarded Video ad.
 
 ### RevokeConsent
 
 [[Method('AdMob Rewarded Video', 'RevokeConsent', false)]]
 
-_Deletes the user's consent. Useful if you want to test the consent dialog in development._
+Deletes the user's consent. Useful if you want to test the consent dialog in development.
 
 ### ShowAd
 
 [[Method('AdMob Rewarded Video', 'ShowAd', false)]]
 
-_It will show the Video_
+It will show the Video
 
 ## Properties
 
@@ -119,7 +119,7 @@ _It will show the Video_
 |:----:|:-------:|
 |boolean|True|
 
-_This property must be set to true to receive ads._
+This property must be set to true to receive ads.
 
 ### Ad Unit Id
 
@@ -145,7 +145,7 @@ _No description available_
 |:----:|:-------:|
 |boolean|False|
 
-_If enabled you will see the consent dialog no matter if you are located in Europe or not. Please use this option only in development.  If this setting is enabled ALL taken consents will not be saved._
+If enabled you will see the consent dialog no matter if you are located in Europe or not. Please use this option only in development.  If this setting is enabled ALL taken consents will not be saved.
 
 ### Consent Message
 
@@ -158,7 +158,7 @@ _If enabled you will see the consent dialog no matter if you are located in Euro
 |:----:|:-------:|
 |text|Can we continue to use your data to tailor ads for you?|
 
-_The message for the consent dialog._
+The message for the consent dialog.
 
 ### Consent Title
 
@@ -171,7 +171,7 @@ _The message for the consent dialog._
 |:----:|:-------:|
 |text|Data Protection|
 
-_The title for the consent dialog._
+The title for the consent dialog.
 
 ### Test Mode
 
@@ -184,7 +184,7 @@ _The title for the consent dialog._
 |:----:|:-------:|
 |boolean|False|
 
-_If you want to test the component, that this property to true. After it you will receive test ads._
+If you want to test the component, that this property to true. After it you will receive test ads.
 
 ### Personalized Result
 
@@ -195,4 +195,4 @@ _If you want to test the component, that this property to true. After it you wil
 |:----:|:-------:|
 |boolean|None|
 
-_Returns the current personalized consent. If true user has consent to personalized ads._
+Returns the current personalized consent. If true user has consent to personalized ads.

@@ -8,13 +8,13 @@
 
 ## Overview
 
-_A component that can launch an activity using the <code>StartActivity</code> method.<p>Activities that can be launched include: <ul> 
+A component that can launch an activity using the <code>StartActivity</code> method.<p>Activities that can be launched include: <ul> 
 <li> starting other App Inventor for Android apps </li> 
 <li> starting the camera application </li> 
 <li> performing web search </li> 
 <li> opening a browser to a specified web page</li> 
 <li> opening the map application to a specified location</li></ul> 
-You can also launch activities that return text data.  See the documentation on using the Activity Starter for examples.</p>_
+You can also launch activities that return text data.  See the documentation on using the Activity Starter for examples.</p>
 
 ## Events
 
@@ -22,7 +22,7 @@ You can also launch activities that return text data.  See the documentation on 
 
 [[Event('Activity Starter', 'Activity Canceled')]]
 
-_Event raised if this ActivityStarter returns because the activity was canceled._
+Event raised if this ActivityStarter returns because the activity was canceled.
 
 ### ActivityError
 
@@ -34,7 +34,7 @@ _Event raised if this ActivityStarter returns because the activity was canceled.
     |message|`text`|
 
 
-_The ActivityError event is no longer used. Please use the Screen.ErrorOccurred event instead._
+The ActivityError event is no longer used. Please use the Screen.ErrorOccurred event instead.
 
 ### After Activity
 
@@ -46,7 +46,7 @@ _The ActivityError event is no longer used. Please use the Screen.ErrorOccurred 
     |result|`text`|
 
 
-_Event raised after this ActivityStarter returns._
+Event raised after this ActivityStarter returns.
 
 ## Methods
 
@@ -56,13 +56,13 @@ _Event raised after this ActivityStarter returns._
 
 {>>Returns `text`<<}
 
-_Returns the name of the activity that corresponds to this ActivityStarter, or an empty string if no corresponding activity can be found._
+Returns the name of the activity that corresponds to this ActivityStarter, or an empty string if no corresponding activity can be found.
 
 ### StartActivity
 
 [[Method('Activity Starter', 'StartActivity', false)]]
 
-_Start the activity corresponding to this ActivityStarter._
+Start the activity corresponding to this ActivityStarter.
 
 ## Properties
 
@@ -77,7 +77,7 @@ _Start the activity corresponding to this ActivityStarter._
 |:----:|
 |text|
 
-_Returns the action that will be used to start the activity._
+Returns the action that will be used to start the activity.
 
 ### Activity Class
 
@@ -90,7 +90,7 @@ _Returns the action that will be used to start the activity._
 |:----:|
 |text|
 
-_Returns the class part of the specific component that will be started._
+Returns the class part of the specific component that will be started.
 
 ### Activity Package
 
@@ -103,7 +103,7 @@ _Returns the class part of the specific component that will be started._
 |:----:|
 |text|
 
-_Returns the package part of the specific component that will be started._
+Returns the package part of the specific component that will be started.
 
 ### Data Type
 
@@ -116,7 +116,7 @@ _Returns the package part of the specific component that will be started._
 |:----:|
 |text|
 
-_Returns the MIME type to pass to the activity._
+Returns the MIME type to pass to the activity.
 
 ### Data Uri
 
@@ -129,7 +129,7 @@ _Returns the MIME type to pass to the activity._
 |:----:|
 |text|
 
-_Returns the data URI that will be used to start the activity._
+Returns the data URI that will be used to start the activity.
 
 ### Extra Key
 
@@ -142,8 +142,8 @@ _Returns the data URI that will be used to start the activity._
 |:----:|
 |text|
 
-_Returns the extra key that will be passed to the activity.
-DEPRECATED: New code should use Extras property instead._
+Returns the extra key that will be passed to the activity.
+DEPRECATED: New code should use Extras property instead.
 
 ### Extra Value
 
@@ -156,8 +156,8 @@ DEPRECATED: New code should use Extras property instead._
 |:----:|
 |text|
 
-_Returns the extra value that will be passed to the activity.
-DEPRECATED: New code should use Extras property instead._
+Returns the extra value that will be passed to the activity.
+DEPRECATED: New code should use Extras property instead.
 
 ### Result Name
 
@@ -170,7 +170,7 @@ DEPRECATED: New code should use Extras property instead._
 |:----:|
 |text|
 
-_Returns the name that will be used to retrieve a result from the activity._
+Returns the name that will be used to retrieve a result from the activity.
 
 ### Extras
 
@@ -181,7 +181,7 @@ _Returns the name that will be used to retrieve a result from the activity._
 |:----:|:-------:|
 |list|None|
 
-_Specifies the list of key-value pairs that will be passed as extra data to the activity._
+Specifies the list of key-value pairs that will be passed as extra data to the activity.
 
 ### Result
 
@@ -192,7 +192,7 @@ _Specifies the list of key-value pairs that will be passed as extra data to the 
 |:----:|:-------:|
 |text|None|
 
-_Returns the result from the activity._
+Returns the result from the activity.
 
 ### Result Type
 
@@ -203,7 +203,7 @@ _Returns the result from the activity._
 |:----:|:-------:|
 |text|None|
 
-_Returns the MIME type from the activity._
+Returns the MIME type from the activity.
 
 ### Result URI
 
@@ -214,4 +214,4 @@ _Returns the MIME type from the activity._
 |:----:|:-------:|
 |text|None|
 
-_Returns the URI from the activity._
+Returns the URI from the activity.

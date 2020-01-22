@@ -8,7 +8,7 @@
 
 ## Overview
 
-_Nonvisible component to retrieve information about device memory._
+Nonvisible component to retrieve information about device memory.
 
 ## Methods
 
@@ -18,7 +18,7 @@ _Nonvisible component to retrieve information about device memory._
 
 {>>Returns `number`<<}
 
-_Available size of external storage in Gigabytes._
+Available size of external storage in Gigabytes.
 
 ### ExternalStorageTotal
 
@@ -26,7 +26,7 @@ _Available size of external storage in Gigabytes._
 
 {>>Returns `number`<<}
 
-_Total external storage size in Gigabytes._
+Total external storage size in Gigabytes.
 
 ### ExternalStorageUsed
 
@@ -34,7 +34,7 @@ _Total external storage size in Gigabytes._
 
 {>>Returns `number`<<}
 
-_Size of used-external-storage in Gigabytes._
+Size of used-external-storage in Gigabytes.
 
 ### InternalStorageAvailable
 
@@ -42,7 +42,7 @@ _Size of used-external-storage in Gigabytes._
 
 {>>Returns `number`<<}
 
-_Size of available internal storage in Gigabytes._
+Size of available internal storage in Gigabytes.
 
 ### InternalStorageTotal
 
@@ -50,7 +50,7 @@ _Size of available internal storage in Gigabytes._
 
 {>>Returns `number`<<}
 
-_Total size of internal storage in Gigabytes._
+Total size of internal storage in Gigabytes.
 
 ### InternalStorageUsed
 
@@ -58,7 +58,7 @@ _Total size of internal storage in Gigabytes._
 
 {>>Returns `number`<<}
 
-_Size of used-internal-storage in Gigabytes._
+Size of used-internal-storage in Gigabytes.
 
 ### MemoryFree
 
@@ -66,7 +66,7 @@ _Size of used-internal-storage in Gigabytes._
 
 {>>Returns `number`<<}
 
-_Total free RAM size in Gigabytes._
+Total free RAM size in Gigabytes.
 
 ### MemoryTotal
 
@@ -74,7 +74,7 @@ _Total free RAM size in Gigabytes._
 
 {>>Returns `number`<<}
 
-_Total RAM size in Gigabytes._
+Total RAM size in Gigabytes.
 
 ### MemoryUsed
 
@@ -82,4 +82,4 @@ _Total RAM size in Gigabytes._
 
 {>>Returns `number`<<}
 
-_Size of used-memory in Gigabytes._
+Size of used-memory in Gigabytes.

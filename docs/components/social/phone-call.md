@@ -8,7 +8,7 @@
 
 ## Overview
 
-_<p>A non-visible component that makes a phone call to the number specified in the <code>PhoneNumber</code> property, which can be set either in the Designer or Blocks Editor. The component has a <code>MakePhoneCall</code> method, enabling the program to launch a phone call.</p><p>Often, this component is used with the <code>ContactPicker</code> component, which lets the user select a contact from the ones stored on the phone and sets the <code>PhoneNumber</code> property to the contact's phone number.</p><p>To directly specify the phone number (e.g., 650-555-1212), set the <code>PhoneNumber</code> property to a Text with the specified digits (e.g., "6505551212").  Dashes, dots, and parentheses may be included (e.g., "(650)-555-1212") but will be ignored; spaces may not be included.</p>_
+<p>A non-visible component that makes a phone call to the number specified in the <code>PhoneNumber</code> property, which can be set either in the Designer or Blocks Editor. The component has a <code>MakePhoneCall</code> method, enabling the program to launch a phone call.</p><p>Often, this component is used with the <code>ContactPicker</code> component, which lets the user select a contact from the ones stored on the phone and sets the <code>PhoneNumber</code> property to the contact's phone number.</p><p>To directly specify the phone number (e.g., 650-555-1212), set the <code>PhoneNumber</code> property to a Text with the specified digits (e.g., "6505551212").  Dashes, dots, and parentheses may be included (e.g., "(650)-555-1212") but will be ignored; spaces may not be included.</p>
 
 ## Events
 
@@ -22,7 +22,7 @@ _<p>A non-visible component that makes a phone call to the number specified in t
     |phone Number|`text`|
 
 
-_Event indicating that an incoming phone call is answered. phoneNumber is the incoming call phone number._
+Event indicating that an incoming phone call is answered. phoneNumber is the incoming call phone number.
 
 ### Phone Call Ended
 
@@ -35,7 +35,7 @@ _Event indicating that an incoming phone call is answered. phoneNumber is the in
     |phone Number|`text`|
 
 
-_Event indicating that a phone call has ended. If status is 1, incoming call is missed or rejected; if status is 2, incoming call is answered before hanging up; if status is 3, outgoing call is hung up. phoneNumber is the ended call phone number._
+Event indicating that a phone call has ended. If status is 1, incoming call is missed or rejected; if status is 2, incoming call is answered before hanging up; if status is 3, outgoing call is hung up. phoneNumber is the ended call phone number.
 
 ### Phone Call Started
 
@@ -48,7 +48,7 @@ _Event indicating that a phone call has ended. If status is 1, incoming call is 
     |phone Number|`text`|
 
 
-_Event indicating that a phonecall has started. If status is 1, incoming call is ringing; if status is 2, outgoing call is dialled. phoneNumber is the incoming/outgoing phone number._
+Event indicating that a phonecall has started. If status is 1, incoming call is ringing; if status is 2, outgoing call is dialled. phoneNumber is the incoming/outgoing phone number.
 
 ## Methods
 
@@ -56,7 +56,7 @@ _Event indicating that a phonecall has started. If status is 1, incoming call is
 
 [[Method('Phone Call', 'MakePhoneCall', false)]]
 
-_Makes a phone call using the number in the PhoneNumber property._
+Makes a phone call using the number in the PhoneNumber property.
 
 ## Properties
 
@@ -71,4 +71,4 @@ _Makes a phone call using the number in the PhoneNumber property._
 |:----:|
 |text|
 
-_PhoneNumber property getter method._
+PhoneNumber property getter method.

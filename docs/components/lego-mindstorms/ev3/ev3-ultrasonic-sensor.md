@@ -8,7 +8,7 @@
 
 ## Overview
 
-_A component that provides a high-level interface to an ultrasonic sensor on a LEGO MINDSTORMS EV3 robot._
+A component that provides a high-level interface to an ultrasonic sensor on a LEGO MINDSTORMS EV3 robot.
 
 ## Events
 
@@ -16,19 +16,19 @@ _A component that provides a high-level interface to an ultrasonic sensor on a L
 
 [[Event('EV3 Ultrasonic Sensor', 'Above Range')]]
 
-_Called when the detected distance has gone above the range._
+Called when the detected distance has gone above the range.
 
 ### Below Range
 
 [[Event('EV3 Ultrasonic Sensor', 'Below Range')]]
 
-_Called when the detected distance has gone below the range._
+Called when the detected distance has gone below the range.
 
 ### Within Range
 
 [[Event('EV3 Ultrasonic Sensor', 'Within Range')]]
 
-_Called when the detected distance has gone within the range._
+Called when the detected distance has gone within the range.
 
 ## Methods
 
@@ -38,19 +38,19 @@ _Called when the detected distance has gone within the range._
 
 {>>Returns `number`<<}
 
-_Returns the current distance in centimeters as a value between 0 and 254, or -1 if the distance can not be read._
+Returns the current distance in centimeters as a value between 0 and 254, or -1 if the distance can not be read.
 
 ### SetCmUnit
 
 [[Method('EV3 Ultrasonic Sensor', 'SetCmUnit', false)]]
 
-_Measure the distance in centimeters._
+Measure the distance in centimeters.
 
 ### SetInchUnit
 
 [[Method('EV3 Ultrasonic Sensor', 'SetInchUnit', false)]]
 
-_Measure the distance in inches._
+Measure the distance in inches.
 
 ## Properties
 
@@ -65,7 +65,7 @@ _Measure the distance in inches._
 |:----:|:-------:|
 |boolean|False|
 
-_Whether the AboveRange event should fire when the distance goes above the TopOfRange._
+Whether the AboveRange event should fire when the distance goes above the TopOfRange.
 
 ### Below Range Event Enabled
 
@@ -78,7 +78,7 @@ _Whether the AboveRange event should fire when the distance goes above the TopOf
 |:----:|:-------:|
 |boolean|False|
 
-_Whether the BelowRange event should fire when the distance goes below the BottomOfRange._
+Whether the BelowRange event should fire when the distance goes below the BottomOfRange.
 
 ### Bluetooth Client
 
@@ -91,7 +91,7 @@ _Whether the BelowRange event should fire when the distance goes below the Botto
 |:----:|
 |component|
 
-_The BluetoothClient component that should be used for communication._
+The BluetoothClient component that should be used for communication.
 
 ### Bottom Of Range
 
@@ -104,7 +104,7 @@ _The BluetoothClient component that should be used for communication._
 |:----:|:-------:|
 |number|30|
 
-_The bottom of the range used for the BelowRange, WithinRange, and AboveRange events._
+The bottom of the range used for the BelowRange, WithinRange, and AboveRange events.
 
 ### Sensor Port
 
@@ -117,7 +117,7 @@ _The bottom of the range used for the BelowRange, WithinRange, and AboveRange ev
 |:----:|:-------:|
 |text|1|
 
-_The sensor port that the sensor is connected to._
+The sensor port that the sensor is connected to.
 
 ### Top Of Range
 
@@ -130,7 +130,7 @@ _The sensor port that the sensor is connected to._
 |:----:|:-------:|
 |number|90|
 
-_The top of the range used for the BelowRange, WithinRange, and AboveRange events._
+The top of the range used for the BelowRange, WithinRange, and AboveRange events.
 
 ### Unit
 
@@ -143,7 +143,7 @@ _The top of the range used for the BelowRange, WithinRange, and AboveRange event
 |:----:|:-------:|
 |text|cm|
 
-_Specifies the unit of distance._
+Specifies the unit of distance.
 
 ### Within Range Event Enabled
 
@@ -156,4 +156,4 @@ _Specifies the unit of distance._
 |:----:|:-------:|
 |boolean|False|
 
-_Whether the WithinRange event should fire when the distance goes between the BottomOfRange and the TopOfRange._
+Whether the WithinRange event should fire when the distance goes between the BottomOfRange and the TopOfRange.

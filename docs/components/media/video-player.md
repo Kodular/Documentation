@@ -6,7 +6,7 @@
 
 ## Overview
 
-_A multimedia component capable of playing videos. When the application is run, the VideoPlayer will be displayed as a rectangle on-screen.  If the user touches the rectangle, controls will appear to play/pause, skip ahead, and skip backward within the video.  The application can also control behavior by calling the <code>Start</code>, <code>Pause</code>, and <code>SeekTo</code> methods.  <p>Video files should be in 3GPP (.3gp) or MPEG-4 (.mp4) formats.  For more details about legal formats, see <a href="http://developer.android.com/guide/appendix/media-formats.html" target="_blank">Android Supported Media Formats</a>.</p><p>App Inventor for Android only permits video files under 1 MB and limits the total size of an application to 5 MB, not all of which is available for media (video, audio, and sound) files.  If your media files are too large, you may get errors when packaging or installing your application, in which case you should reduce the number of media files or their sizes.  Most video editing software, such as Windows Movie Maker and Apple iMovie, can help you decrease the size of videos by shortening them or re-encoding the video into a more compact format.</p><p>You can also set the media source to a URL that points to a streaming video, but the URL must point to the video file itself, not to a program that plays the video._
+A multimedia component capable of playing videos. When the application is run, the VideoPlayer will be displayed as a rectangle on-screen.  If the user touches the rectangle, controls will appear to play/pause, skip ahead, and skip backward within the video.  The application can also control behavior by calling the <code>Start</code>, <code>Pause</code>, and <code>SeekTo</code> methods.  <p>Video files should be in 3GPP (.3gp) or MPEG-4 (.mp4) formats.  For more details about legal formats, see <a href="http://developer.android.com/guide/appendix/media-formats.html" target="_blank">Android Supported Media Formats</a>.</p><p>App Inventor for Android only permits video files under 1 MB and limits the total size of an application to 5 MB, not all of which is available for media (video, audio, and sound) files.  If your media files are too large, you may get errors when packaging or installing your application, in which case you should reduce the number of media files or their sizes.  Most video editing software, such as Windows Movie Maker and Apple iMovie, can help you decrease the size of videos by shortening them or re-encoding the video into a more compact format.</p><p>You can also set the media source to a URL that points to a streaming video, but the URL must point to the video file itself, not to a program that plays the video.
 
 ## Events
 
@@ -14,7 +14,7 @@ _A multimedia component capable of playing videos. When the application is run, 
 
 [[Event('Video Player', 'Completed')]]
 
-_Indicates that the video has reached the end_
+Indicates that the video has reached the end
 
 ### VideoPlayerError
 
@@ -26,7 +26,7 @@ _Indicates that the video has reached the end_
     |message|`text`|
 
 
-_The VideoPlayerError event is no longer used. Please use the Screen.ErrorOccurred event instead._
+The VideoPlayerError event is no longer used. Please use the Screen.ErrorOccurred event instead.
 
 ## Methods
 
@@ -36,13 +36,13 @@ _The VideoPlayerError event is no longer used. Please use the Screen.ErrorOccurr
 
 {>>Returns `number`<<}
 
-_Returns duration of the video in milliseconds._
+Returns duration of the video in milliseconds.
 
 ### Pause
 
 [[Method('Video Player', 'Pause', false)]]
 
-_Pauses playback of the video.  Playback can be resumed at the same location by calling the <code>Start</code> method._
+Pauses playback of the video.  Playback can be resumed at the same location by calling the <code>Start</code> method.
 
 ### SeekTo
 
@@ -54,19 +54,19 @@ _Pauses playback of the video.  Playback can be resumed at the same location by 
     |ms|`number`|
 
 
-_Seeks to the requested time (specified in milliseconds) in the video. If the video is paused, the frame shown will not be updated by the seek. The player can jump only to key frames in the video, so seeking to times that differ by short intervals may not actually move to different frames._
+Seeks to the requested time (specified in milliseconds) in the video. If the video is paused, the frame shown will not be updated by the seek. The player can jump only to key frames in the video, so seeking to times that differ by short intervals may not actually move to different frames.
 
 ### Start
 
 [[Method('Video Player', 'Start', false)]]
 
-_Starts playback of the video._
+Starts playback of the video.
 
 ### Stop
 
 [[Method('Video Player', 'Stop', false)]]
 
-_Resets to start of video and pauses it if video was playing._
+Resets to start of video and pauses it if video was playing.
 
 ## Properties
 
@@ -81,7 +81,7 @@ _Resets to start of video and pauses it if video was playing._
 |:----:|:-------:|
 |boolean|True|
 
-_If enabled the user will see the control buttons._
+If enabled the user will see the control buttons.
 
 ### Source
 
@@ -94,7 +94,7 @@ _If enabled the user will see the control buttons._
 |:----:|
 |text|
 
-_The "path" to the video.  Usually, this will be the name of the video file, which should be added in the Designer._
+The "path" to the video.  Usually, this will be the name of the video file, which should be added in the Designer.
 
 ### Visible
 
@@ -107,7 +107,7 @@ _The "path" to the video.  Usually, this will be the name of the video file, whi
 |:----:|:-------:|
 |boolean|True|
 
-_Returns true iff the component is visible._
+Returns true iff the component is visible.
 
 ### Volume
 
@@ -120,7 +120,7 @@ _Returns true iff the component is visible._
 |:----:|:-------:|
 |number|50|
 
-_Sets the volume to a number between 0 and 100. Values less than 0 will be treated as 0, and values greater than 100 will be treated as 100._
+Sets the volume to a number between 0 and 100. Values less than 0 will be treated as 0, and values greater than 100 will be treated as 100.
 
 ### Column
 
@@ -131,7 +131,7 @@ _Sets the volume to a number between 0 and 100. Values less than 0 will be treat
 |:----:|:-------:|
 |number|None|
 
-_Column property getter method._
+Column property getter method.
 
 ### Current Position
 
@@ -142,7 +142,7 @@ _Column property getter method._
 |:----:|:-------:|
 |number|None|
 
-_Returns the current position of the source file that is playing._
+Returns the current position of the source file that is playing.
 
 ### Full Screen
 
@@ -153,8 +153,8 @@ _Returns the current position of the source file that is playing._
 |:----:|:-------:|
 |boolean|None|
 
-_Returns whether the VideoPlayer's video is currently being
- shown in fullscreen mode or not._
+Returns whether the VideoPlayer's video is currently being
+ shown in fullscreen mode or not.
 
 ### Height
 
@@ -165,7 +165,7 @@ _Returns whether the VideoPlayer's video is currently being
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's vertical height, measured in pixels._
+Specifies the component's vertical height, measured in pixels.
 
 ### Height Percent
 
@@ -176,8 +176,8 @@ _Specifies the component's vertical height, measured in pixels._
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's vertical height as a percentage
- of the height of its parent Component._
+Specifies the component's vertical height as a percentage
+ of the height of its parent Component.
 
 ### Is Playing
 
@@ -188,7 +188,7 @@ _Specifies the component's vertical height as a percentage
 |:----:|:-------:|
 |boolean|None|
 
-_Reports whether the media is playing._
+Reports whether the media is playing.
 
 ### Row
 
@@ -199,7 +199,7 @@ _Reports whether the media is playing._
 |:----:|:-------:|
 |number|None|
 
-_Row property getter method._
+Row property getter method.
 
 ### Width
 
@@ -210,7 +210,7 @@ _Row property getter method._
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's horizontal width, measured in pixels._
+Specifies the component's horizontal width, measured in pixels.
 
 ### Width Percent
 
@@ -221,5 +221,5 @@ _Specifies the component's horizontal width, measured in pixels._
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's horizontal width as a percentage
- of the Width of its parent Component._
+Specifies the component's horizontal width as a percentage
+ of the Width of its parent Component.

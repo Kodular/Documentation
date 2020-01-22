@@ -8,7 +8,7 @@
 
 ## Overview
 
-_A non-visible component that opens web pages as custom tabs on Google Chrome._
+A non-visible component that opens web pages as custom tabs on Google Chrome.
 
 ## Methods
 
@@ -23,7 +23,7 @@ _A non-visible component that opens web pages as custom tabs on Google Chrome._
     |package Name|`text`|
 
 
-_Use this block to add a menu item with the given title to open any app you want with the package name. The package name can be as example 'com.instagram.android' to open Instagram on the menu item click. If the app is not installed the menu item will not be added._
+Use this block to add a menu item with the given title to open any app you want with the package name. The package name can be as example 'com.instagram.android' to open Instagram on the menu item click. If the app is not installed the menu item will not be added.
 
 ### AddMenuItemOpenPage
 
@@ -36,13 +36,13 @@ _Use this block to add a menu item with the given title to open any app you want
     |page|`text`|
 
 
-_Use this block to add a menu item with the given title and page link. The page can be as example 'https://www.instagram.com/kodular/'. If the user have Instagram installed,the page will then be opened in the official Instagram app. Else in the default browser._
+Use this block to add a menu item with the given title and page link. The page can be as example 'https://www.instagram.com/kodular/'. If the user have Instagram installed,the page will then be opened in the official Instagram app. Else in the default browser.
 
 ### OpenCustomTab
 
 [[Method('Custom Tabs', 'OpenCustomTab', false)]]
 
-_Use this block to open the custom tab._
+Use this block to open the custom tab.
 
 ## Properties
 
@@ -57,7 +57,7 @@ _Use this block to open the custom tab._
 |:----:|:-------:|
 |boolean|True|
 
-_Whether or not to add the default share menu item into the menu._
+Whether or not to add the default share menu item into the menu.
 
 ### Instant Apps Enabled
 
@@ -70,7 +70,7 @@ _Whether or not to add the default share menu item into the menu._
 |:----:|:-------:|
 |boolean|True|
 
-_Whether or not to enable instant apps._
+Whether or not to enable instant apps.
 
 ### Show Title
 
@@ -83,7 +83,7 @@ _Whether or not to enable instant apps._
 |:----:|:-------:|
 |boolean|True|
 
-_Whether or not to show the title._
+Whether or not to show the title.
 
 ### Toolbar Color
 
@@ -96,7 +96,7 @@ _Whether or not to show the title._
 |:----:|:-------:|
 |number|&HFF3F51B5|
 
-_Specifies the color of the toolbar._
+Specifies the color of the toolbar.
 
 ### URL
 
@@ -109,7 +109,7 @@ _Specifies the color of the toolbar._
 |:----:|
 |text|
 
-_The URL to load in the custom tab. The URL must start with 'http://' or 'https://'_
+The URL to load in the custom tab. The URL must start with 'http://' or 'https://'
 
 ### Url Bar Hiding On Scroll
 
@@ -122,4 +122,4 @@ _The URL to load in the custom tab. The URL must start with 'http://' or 'https:
 |:----:|:-------:|
 |boolean|False|
 
-_Whether or not to hide the url bar on scrolling._
+Whether or not to hide the url bar on scrolling.

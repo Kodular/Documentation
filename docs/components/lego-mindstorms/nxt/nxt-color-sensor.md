@@ -8,7 +8,7 @@
 
 ## Overview
 
-_A component that provides a high-level interface to a color sensor on a LEGO MINDSTORMS NXT robot._
+A component that provides a high-level interface to a color sensor on a LEGO MINDSTORMS NXT robot.
 
 ## Events
 
@@ -16,13 +16,13 @@ _A component that provides a high-level interface to a color sensor on a LEGO MI
 
 [[Event('NXT Color Sensor', 'Above Range')]]
 
-_Light level has gone above the range. The AboveRange event will not occur if the DetectColor property is set to True or if the AboveRangeEventEnabled property is set to False._
+Light level has gone above the range. The AboveRange event will not occur if the DetectColor property is set to True or if the AboveRangeEventEnabled property is set to False.
 
 ### Below Range
 
 [[Event('NXT Color Sensor', 'Below Range')]]
 
-_Light level has gone below the range. The BelowRange event will not occur if the DetectColor property is set to True or if the BelowRangeEventEnabled property is set to False._
+Light level has gone below the range. The BelowRange event will not occur if the DetectColor property is set to True or if the BelowRangeEventEnabled property is set to False.
 
 ### Color Changed
 
@@ -34,13 +34,13 @@ _Light level has gone below the range. The BelowRange event will not occur if th
     |color|`number`|
 
 
-_Detected color has changed. The ColorChanged event will not occur if the DetectColor property is set to False or if the ColorChangedEventEnabled property is set to False._
+Detected color has changed. The ColorChanged event will not occur if the DetectColor property is set to False or if the ColorChangedEventEnabled property is set to False.
 
 ### Within Range
 
 [[Event('NXT Color Sensor', 'Within Range')]]
 
-_Light level has gone within the range. The WithinRange event will not occur if the DetectColor property is set to True or if the WithinRangeEventEnabled property is set to False._
+Light level has gone within the range. The WithinRange event will not occur if the DetectColor property is set to True or if the WithinRangeEventEnabled property is set to False.
 
 ## Methods
 
@@ -50,7 +50,7 @@ _Light level has gone within the range. The WithinRange event will not occur if 
 
 {>>Returns `number`<<}
 
-_Returns the current detected color, or the color None if the color can not be read or if the DetectColor property is set to False._
+Returns the current detected color, or the color None if the color can not be read or if the DetectColor property is set to False.
 
 ### GetLightLevel
 
@@ -58,7 +58,7 @@ _Returns the current detected color, or the color None if the color can not be r
 
 {>>Returns `number`<<}
 
-_Returns the current light level as a value between 0 and 1023, or -1 if the light level can not be read or if the DetectColor property is set to True._
+Returns the current light level as a value between 0 and 1023, or -1 if the light level can not be read or if the DetectColor property is set to True.
 
 ## Properties
 
@@ -73,7 +73,7 @@ _Returns the current light level as a value between 0 and 1023, or -1 if the lig
 |:----:|:-------:|
 |boolean|False|
 
-_Whether the AboveRange event should fire when the DetectColor property is set to False and the light level goes above the TopOfRange._
+Whether the AboveRange event should fire when the DetectColor property is set to False and the light level goes above the TopOfRange.
 
 ### Below Range Event Enabled
 
@@ -86,7 +86,7 @@ _Whether the AboveRange event should fire when the DetectColor property is set t
 |:----:|:-------:|
 |boolean|False|
 
-_Whether the BelowRange event should fire when the DetectColor property is set to False and the light level goes below the BottomOfRange._
+Whether the BelowRange event should fire when the DetectColor property is set to False and the light level goes below the BottomOfRange.
 
 ### Bluetooth Client
 
@@ -99,7 +99,7 @@ _Whether the BelowRange event should fire when the DetectColor property is set t
 |:----:|
 |component|
 
-_The BluetoothClient component that should be used for communication._
+The BluetoothClient component that should be used for communication.
 
 ### Bottom Of Range
 
@@ -112,7 +112,7 @@ _The BluetoothClient component that should be used for communication._
 |:----:|:-------:|
 |number|256|
 
-_The bottom of the range used for the BelowRange, WithinRange, and AboveRange events._
+The bottom of the range used for the BelowRange, WithinRange, and AboveRange events.
 
 ### Color Changed Event Enabled
 
@@ -125,7 +125,7 @@ _The bottom of the range used for the BelowRange, WithinRange, and AboveRange ev
 |:----:|:-------:|
 |boolean|False|
 
-_Whether the ColorChanged event should fire when the DetectColor property is set to True and the detected color changes._
+Whether the ColorChanged event should fire when the DetectColor property is set to True and the detected color changes.
 
 ### Detect Color
 
@@ -138,7 +138,7 @@ _Whether the ColorChanged event should fire when the DetectColor property is set
 |:----:|:-------:|
 |boolean|True|
 
-_Whether the sensor should detect color or light. True indicates that the sensor should detect color; False indicates that the sensor should detect light. If the DetectColor property is set to True, the BelowRange, WithinRange, and AboveRange events will not occur and the sensor will not generate color. If the DetectColor property is set to False, the ColorChanged event will not occur._
+Whether the sensor should detect color or light. True indicates that the sensor should detect color; False indicates that the sensor should detect light. If the DetectColor property is set to True, the BelowRange, WithinRange, and AboveRange events will not occur and the sensor will not generate color. If the DetectColor property is set to False, the ColorChanged event will not occur.
 
 ### Generate Color
 
@@ -151,7 +151,7 @@ _Whether the sensor should detect color or light. True indicates that the sensor
 |:----:|:-------:|
 |number|&H00FFFFFF|
 
-_The color that should generated by the sensor. Only None, Red, Green, or Blue are valid values. The sensor will not generate color when the DetectColor property is set to True._
+The color that should generated by the sensor. Only None, Red, Green, or Blue are valid values. The sensor will not generate color when the DetectColor property is set to True.
 
 ### Sensor Port
 
@@ -164,7 +164,7 @@ _The color that should generated by the sensor. Only None, Red, Green, or Blue a
 |:----:|:-------:|
 |text|3|
 
-_The sensor port that the sensor is connected to._
+The sensor port that the sensor is connected to.
 
 ### Top Of Range
 
@@ -177,7 +177,7 @@ _The sensor port that the sensor is connected to._
 |:----:|:-------:|
 |number|767|
 
-_The top of the range used for the BelowRange, WithinRange, and AboveRange events._
+The top of the range used for the BelowRange, WithinRange, and AboveRange events.
 
 ### Within Range Event Enabled
 
@@ -190,4 +190,4 @@ _The top of the range used for the BelowRange, WithinRange, and AboveRange event
 |:----:|:-------:|
 |boolean|False|
 
-_Whether the WithinRange event should fire when the DetectColor property is set to False and the light level goes between the BottomOfRange and the TopOfRange._
+Whether the WithinRange event should fire when the DetectColor property is set to False and the light level goes between the BottomOfRange and the TopOfRange.

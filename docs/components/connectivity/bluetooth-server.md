@@ -8,7 +8,7 @@
 
 ## Overview
 
-_A non-visible component that acts as a bluetooth server._
+A non-visible component that acts as a bluetooth server.
 
 ## Events
 
@@ -23,13 +23,13 @@ _A non-visible component that acts as a bluetooth server._
     |message|`text`|
 
 
-_The BluetoothError event is no longer used. Please use the Screen.ErrorOccurred event instead._
+The BluetoothError event is no longer used. Please use the Screen.ErrorOccurred event instead.
 
 ### Connection Accepted
 
 [[Event('Bluetooth Server', 'Connection Accepted')]]
 
-_Indicates that a bluetooth connection has been accepted._
+Indicates that a bluetooth connection has been accepted.
 
 ## Methods
 
@@ -43,7 +43,7 @@ _Indicates that a bluetooth connection has been accepted._
     |service Name|`text`|
 
 
-_Accept an incoming connection with the Serial Port Profile (SPP)._
+Accept an incoming connection with the Serial Port Profile (SPP).
 
 ### AcceptConnectionWithUUID
 
@@ -56,7 +56,7 @@ _Accept an incoming connection with the Serial Port Profile (SPP)._
     |uuid|`text`|
 
 
-_Accept an incoming connection with a specific UUID._
+Accept an incoming connection with a specific UUID.
 
 ### BytesAvailableToReceive
 
@@ -64,13 +64,13 @@ _Accept an incoming connection with a specific UUID._
 
 {>>Returns `number`<<}
 
-_Returns an estimate of the number of bytes that can be received without blocking_
+Returns an estimate of the number of bytes that can be received without blocking
 
 ### Disconnect
 
 [[Method('Bluetooth Server', 'Disconnect', false)]]
 
-_Disconnect from the connected Bluetooth device._
+Disconnect from the connected Bluetooth device.
 
 ### ReceiveSigned1ByteNumber
 
@@ -78,7 +78,7 @@ _Disconnect from the connected Bluetooth device._
 
 {>>Returns `number`<<}
 
-_Receive a signed 1-byte number from the connected Bluetooth device._
+Receive a signed 1-byte number from the connected Bluetooth device.
 
 ### ReceiveSigned2ByteNumber
 
@@ -86,7 +86,7 @@ _Receive a signed 1-byte number from the connected Bluetooth device._
 
 {>>Returns `number`<<}
 
-_Receive a signed 2-byte number from the connected Bluetooth device._
+Receive a signed 2-byte number from the connected Bluetooth device.
 
 ### ReceiveSigned4ByteNumber
 
@@ -94,7 +94,7 @@ _Receive a signed 2-byte number from the connected Bluetooth device._
 
 {>>Returns `number`<<}
 
-_Receive a signed 4-byte number from the connected Bluetooth device._
+Receive a signed 4-byte number from the connected Bluetooth device.
 
 ### ReceiveSignedBytes
 
@@ -108,7 +108,7 @@ _Receive a signed 4-byte number from the connected Bluetooth device._
     |number Of Bytes|`number`|
 
 
-_Receive multiple signed byte values from the connected Bluetooth device. If numberOfBytes is less than 0, read until a delimiter byte value is received._
+Receive multiple signed byte values from the connected Bluetooth device. If numberOfBytes is less than 0, read until a delimiter byte value is received.
 
 ### ReceiveText
 
@@ -122,7 +122,7 @@ _Receive multiple signed byte values from the connected Bluetooth device. If num
     |number Of Bytes|`number`|
 
 
-_Receive text from the connected Bluetooth device. If numberOfBytes is less than 0, read until a delimiter byte value is received._
+Receive text from the connected Bluetooth device. If numberOfBytes is less than 0, read until a delimiter byte value is received.
 
 ### ReceiveUnsigned1ByteNumber
 
@@ -130,7 +130,7 @@ _Receive text from the connected Bluetooth device. If numberOfBytes is less than
 
 {>>Returns `number`<<}
 
-_Receive an unsigned 1-byte number from the connected Bluetooth device._
+Receive an unsigned 1-byte number from the connected Bluetooth device.
 
 ### ReceiveUnsigned2ByteNumber
 
@@ -138,7 +138,7 @@ _Receive an unsigned 1-byte number from the connected Bluetooth device._
 
 {>>Returns `number`<<}
 
-_Receive a unsigned 2-byte number from the connected Bluetooth device._
+Receive a unsigned 2-byte number from the connected Bluetooth device.
 
 ### ReceiveUnsigned4ByteNumber
 
@@ -146,7 +146,7 @@ _Receive a unsigned 2-byte number from the connected Bluetooth device._
 
 {>>Returns `number`<<}
 
-_Receive a unsigned 4-byte number from the connected Bluetooth device._
+Receive a unsigned 4-byte number from the connected Bluetooth device.
 
 ### ReceiveUnsignedBytes
 
@@ -160,7 +160,7 @@ _Receive a unsigned 4-byte number from the connected Bluetooth device._
     |number Of Bytes|`number`|
 
 
-_Receive multiple unsigned byte values from the connected Bluetooth device. If numberOfBytes is less than 0, read until a delimiter byte value is received._
+Receive multiple unsigned byte values from the connected Bluetooth device. If numberOfBytes is less than 0, read until a delimiter byte value is received.
 
 ### Send1ByteNumber
 
@@ -172,7 +172,7 @@ _Receive multiple unsigned byte values from the connected Bluetooth device. If n
     |number|`text`|
 
 
-_Send a 1-byte number to the connected Bluetooth device._
+Send a 1-byte number to the connected Bluetooth device.
 
 ### Send2ByteNumber
 
@@ -184,7 +184,7 @@ _Send a 1-byte number to the connected Bluetooth device._
     |number|`text`|
 
 
-_Send a 2-byte number to the connected Bluetooth device._
+Send a 2-byte number to the connected Bluetooth device.
 
 ### Send4ByteNumber
 
@@ -196,7 +196,7 @@ _Send a 2-byte number to the connected Bluetooth device._
     |number|`text`|
 
 
-_Send a 4-byte number to the connected Bluetooth device._
+Send a 4-byte number to the connected Bluetooth device.
 
 ### SendBytes
 
@@ -208,7 +208,7 @@ _Send a 4-byte number to the connected Bluetooth device._
     |list|`list`|
 
 
-_Send a list of byte values to the connected Bluetooth device._
+Send a list of byte values to the connected Bluetooth device.
 
 ### SendText
 
@@ -220,13 +220,13 @@ _Send a list of byte values to the connected Bluetooth device._
     |text|`text`|
 
 
-_Send text to the connected Bluetooth device._
+Send text to the connected Bluetooth device.
 
 ### StopAccepting
 
 [[Method('Bluetooth Server', 'StopAccepting', false)]]
 
-_Stop accepting an incoming connection._
+Stop accepting an incoming connection.
 
 ## Properties
 
@@ -241,7 +241,7 @@ _Stop accepting an incoming connection._
 |:----:|:-------:|
 |text|UTF-8|
 
-_Sets the character encoding to use when sending and receiving text._
+Sets the character encoding to use when sending and receiving text.
 
 ### Delimiter Byte
 
@@ -254,9 +254,9 @@ _Sets the character encoding to use when sending and receiving text._
 |:----:|:-------:|
 |number|0|
 
-_Sets the delimiter byte to use when passing a negative number for the
+Sets the delimiter byte to use when passing a negative number for the
  numberOfBytes parameter when calling ReceiveText, ReceiveSignedBytes, or
- ReceiveUnsignedBytes._
+ ReceiveUnsignedBytes.
 
 ### High Byte First
 
@@ -269,8 +269,8 @@ _Sets the delimiter byte to use when passing a negative number for the
 |:----:|:-------:|
 |boolean|False|
 
-_Returns true if numbers are sent and received with the most significant
- byte first._
+Returns true if numbers are sent and received with the most significant
+ byte first.
 
 ### Secure
 
@@ -283,7 +283,7 @@ _Returns true if numbers are sent and received with the most significant
 |:----:|:-------:|
 |boolean|True|
 
-_Whether to invoke SSP (Simple Secure Pairing), which is supported on devices with Bluetooth v2.1 or higher. When working with embedded Bluetooth devices, this property may need to be set to False. For Android 2.0-2.2, this property setting will be ignored._
+Whether to invoke SSP (Simple Secure Pairing), which is supported on devices with Bluetooth v2.1 or higher. When working with embedded Bluetooth devices, this property may need to be set to False. For Android 2.0-2.2, this property setting will be ignored.
 
 ### Available
 
@@ -294,7 +294,7 @@ _Whether to invoke SSP (Simple Secure Pairing), which is supported on devices wi
 |:----:|:-------:|
 |boolean|None|
 
-_Whether Bluetooth is available on the device_
+Whether Bluetooth is available on the device
 
 ### Enabled
 
@@ -305,7 +305,7 @@ _Whether Bluetooth is available on the device_
 |:----:|:-------:|
 |boolean|None|
 
-_Whether Bluetooth is enabled_
+Whether Bluetooth is enabled
 
 ### Is Accepting
 
@@ -316,8 +316,8 @@ _Whether Bluetooth is enabled_
 |:----:|:-------:|
 |boolean|None|
 
-_Returns true if this BluetoothServer component is accepting an
- incoming connection._
+Returns true if this BluetoothServer component is accepting an
+ incoming connection.
 
 ### Is Connected
 
@@ -328,4 +328,4 @@ _Returns true if this BluetoothServer component is accepting an
 |:----:|:-------:|
 |boolean|None|
 
-_Returns true if a connection to a Bluetooth device has been made._
+Returns true if a connection to a Bluetooth device has been made.

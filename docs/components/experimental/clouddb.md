@@ -8,7 +8,7 @@
 
 ## Overview
 
-_Non-visible component that communicates with CloudDB server to store and retrieve information._
+Non-visible component that communicates with CloudDB server to store and retrieve information.
 
 ## Events
 
@@ -22,7 +22,7 @@ _Non-visible component that communicates with CloudDB server to store and retrie
     |message|`text`|
 
 
-_Indicates that an error occurred while communicating with the CloudDB Redis server._
+Indicates that an error occurred while communicating with the CloudDB Redis server.
 
 ### Data Changed
 
@@ -35,8 +35,8 @@ _Indicates that an error occurred while communicating with the CloudDB Redis ser
     |value|`any`|
 
 
-_Indicates that the data in the CloudDB project has changed.
- Launches an event with the tag and value that have been updated._
+Indicates that the data in the CloudDB project has changed.
+ Launches an event with the tag and value that have been updated.
 
 ### First Removed
 
@@ -48,7 +48,7 @@ _Indicates that the data in the CloudDB project has changed.
     |value|`any`|
 
 
-_Event triggered by the "RemoveFirstFromList" function. The argument "value" is the object that was the first in the list, and which is now removed._
+Event triggered by the "RemoveFirstFromList" function. The argument "value" is the object that was the first in the list, and which is now removed.
 
 ### Got Value
 
@@ -61,7 +61,7 @@ _Event triggered by the "RemoveFirstFromList" function. The argument "value" is 
     |value|`any`|
 
 
-_Indicates that a GetValue request has succeeded._
+Indicates that a GetValue request has succeeded.
 
 ### Tag List
 
@@ -73,7 +73,7 @@ _Indicates that a GetValue request has succeeded._
     |value|`list`|
 
 
-_Event triggered when we have received the list of known tags. Used with the "GetTagList" Function._
+Event triggered when we have received the list of known tags. Used with the "GetTagList" Function.
 
 ## Methods
 
@@ -88,7 +88,7 @@ _Event triggered when we have received the list of known tags. Used with the "Ge
     |item To Add|`any`|
 
 
-_Append a value to the end of a list atomically. If two devices use this function simultaneously, both will be appended and no data lost._
+Append a value to the end of a list atomically. If two devices use this function simultaneously, both will be appended and no data lost.
 
 ### ClearTag
 
@@ -100,7 +100,7 @@ _Append a value to the end of a list atomically. If two devices use this functio
     |tag|`text`|
 
 
-_Remove the tag from CloudDB_
+Remove the tag from CloudDB
 
 ### CloudConnected
 
@@ -108,13 +108,13 @@ _Remove the tag from CloudDB_
 
 {>>Returns `boolean`<<}
 
-_returns True if we are on the network and will likely be able to connect to the CloudDB server._
+returns True if we are on the network and will likely be able to connect to the CloudDB server.
 
 ### GetTagList
 
 [[Method('CloudDB', 'GetTagList', false)]]
 
-_Get the list of tags for this application. When complete a "TagList" event will be triggered with the list of known tags._
+Get the list of tags for this application. When complete a "TagList" event will be triggered with the list of known tags.
 
 ### GetValue
 
@@ -127,7 +127,7 @@ _Get the list of tags for this application. When complete a "TagList" event will
     |value If Tag Not There|`any`|
 
 
-_Get the Value for a tag, doesn't return the value but will cause a GotValue event to fire when the value is looked up._
+Get the Value for a tag, doesn't return the value but will cause a GotValue event to fire when the value is looked up.
 
 ### RemoveFirstFromList
 
@@ -139,7 +139,7 @@ _Get the Value for a tag, doesn't return the value but will cause a GotValue eve
     |tag|`text`|
 
 
-_Return the first element of a list and atomically remove it. If two devices use this function simultaneously, one will get the first element and the the other will get the second element, or an error if there is no available element. When the element is available, the "FirstRemoved" event will be triggered._
+Return the first element of a list and atomically remove it. If two devices use this function simultaneously, one will get the first element and the the other will get the second element, or an error if there is no available element. When the element is available, the "FirstRemoved" event will be triggered.
 
 ### StoreValue
 
@@ -152,7 +152,7 @@ _Return the first element of a list and atomically remove it. If two devices use
     |value To Store|`any`|
 
 
-_Store a value at a tag._
+Store a value at a tag.
 
 ## Properties
 
@@ -167,7 +167,7 @@ _Store a value at a tag._
 |:----:|
 |text|
 
-_The Default Redis Server to use._
+The Default Redis Server to use.
 
 ### Project ID
 
@@ -180,7 +180,7 @@ _The Default Redis Server to use._
 |:----:|
 |text|
 
-_Gets the ProjectID for this CloudDB project._
+Gets the ProjectID for this CloudDB project.
 
 ### Redis Port
 
@@ -193,7 +193,7 @@ _Gets the ProjectID for this CloudDB project._
 |:----:|:-------:|
 |number|6381|
 
-_The Redis Server port to use. Defaults to 6381_
+The Redis Server port to use. Defaults to 6381
 
 ### Redis Server
 
@@ -206,7 +206,7 @@ _The Redis Server port to use. Defaults to 6381_
 |:----:|:-------:|
 |text|DEFAULT|
 
-_The Redis Server to use to store data. A setting of "DEFAULT" means that the MIT server will be used._
+The Redis Server to use to store data. A setting of "DEFAULT" means that the MIT server will be used.
 
 ### Token
 
@@ -219,7 +219,7 @@ _The Redis Server to use to store data. A setting of "DEFAULT" means that the MI
 |:----:|
 |text|
 
-_This field contains the authentication token used to login to the backed Redis server. For the "DEFAULT" server, do not edit this value, the system will fill it in for you. A system administrator may also provide a special value to you which can be used to share data between multiple projects from multiple people. If using your own Redis server, set a password in the server's config and enter it here._
+This field contains the authentication token used to login to the backed Redis server. For the "DEFAULT" server, do not edit this value, the system will fill it in for you. A system administrator may also provide a special value to you which can be used to share data between multiple projects from multiple people. If using your own Redis server, set a password in the server's config and enter it here.
 
 ### Use SSL
 
@@ -232,4 +232,4 @@ _This field contains the authentication token used to login to the backed Redis 
 |:----:|:-------:|
 |boolean|True|
 
-_Set to true to use SSL to talk to CloudDB/Redis server. This should be set to True for the "DEFAULT" server._
+Set to true to use SSL to talk to CloudDB/Redis server. This should be set to True for the "DEFAULT" server.

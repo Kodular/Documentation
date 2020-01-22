@@ -6,7 +6,7 @@
 
 ## Overview
 
-_<p>An icon positioned at a point to indicate information on a map. Markers can be used to provide an info window, custom fill and stroke colors, and custom images to convey information to the user.</p>_
+<p>An icon positioned at a point to indicate information on a map. Markers can be used to provide an info window, custom fill and stroke colors, and custom images to convey information to the user.</p>
 
 ## Events
 
@@ -14,31 +14,31 @@ _<p>An icon positioned at a point to indicate information on a map. Markers can 
 
 [[Event('Marker', 'Click')]]
 
-_The user clicked on the feature._
+The user clicked on the feature.
 
 ### Drag
 
 [[Event('Marker', 'Drag')]]
 
-_The user dragged the map feature._
+The user dragged the map feature.
 
 ### Long Click
 
 [[Event('Marker', 'Long Click')]]
 
-_The user long-pressed on the feature. This event will only trigger if Draggable is false._
+The user long-pressed on the feature. This event will only trigger if Draggable is false.
 
 ### Start Drag
 
 [[Event('Marker', 'Start Drag')]]
 
-_The user started a drag operation._
+The user started a drag operation.
 
 ### Stop Drag
 
 [[Event('Marker', 'Stop Drag')]]
 
-_The user stopped a drag operation._
+The user stopped a drag operation.
 
 ## Methods
 
@@ -55,7 +55,7 @@ _The user stopped a drag operation._
     |centroids|`boolean`|
 
 
-_Returns the bearing from the Marker to the given map feature, in degrees from due north. If the centroids parameter is true, the bearing will be to the center of the map feature. Otherwise, the bearing will be computed to the point in the feature nearest the Marker._
+Returns the bearing from the Marker to the given map feature, in degrees from due north. If the centroids parameter is true, the bearing will be to the center of the map feature. Otherwise, the bearing will be computed to the point in the feature nearest the Marker.
 
 ### BearingToPoint
 
@@ -70,7 +70,7 @@ _Returns the bearing from the Marker to the given map feature, in degrees from d
     |longitude|`number`|
 
 
-_Returns the bearing from the Marker to the given latitude and longitude, in degrees from due north._
+Returns the bearing from the Marker to the given latitude and longitude, in degrees from due north.
 
 ### DistanceToFeature
 
@@ -85,7 +85,7 @@ _Returns the bearing from the Marker to the given latitude and longitude, in deg
     |centroids|`boolean`|
 
 
-_Compute the distance, in meters, between two map features._
+Compute the distance, in meters, between two map features.
 
 ### DistanceToPoint
 
@@ -100,13 +100,13 @@ _Compute the distance, in meters, between two map features._
     |longitude|`number`|
 
 
-_Compute the distance, in meters, between a map feature and a latitude, longitude point._
+Compute the distance, in meters, between a map feature and a latitude, longitude point.
 
 ### HideInfobox
 
 [[Method('Marker', 'HideInfobox', false)]]
 
-_Hide the infobox if it is shown. If the infobox is not visible this function has no effect._
+Hide the infobox if it is shown. If the infobox is not visible this function has no effect.
 
 ### SetLocation
 
@@ -119,13 +119,13 @@ _Hide the infobox if it is shown. If the infobox is not visible this function ha
     |longitude|`number`|
 
 
-_Set the location of the marker._
+Set the location of the marker.
 
 ### ShowInfobox
 
 [[Method('Marker', 'ShowInfobox', false)]]
 
-_Show the infobox for the feature. This will show the infobox even if_
+Show the infobox for the feature. This will show the infobox even if
 
 ## Properties
 
@@ -140,7 +140,7 @@ _Show the infobox for the feature. This will show the infobox even if_
 |:----:|:-------:|
 |number|3|
 
-_The horizontal alignment property controls where the Marker's anchor is located relative to its width._
+The horizontal alignment property controls where the Marker's anchor is located relative to its width.
 
 ### Anchor Vertical
 
@@ -153,7 +153,7 @@ _The horizontal alignment property controls where the Marker's anchor is located
 |:----:|:-------:|
 |number|3|
 
-_The vertical alignment property controls where the Marker's anchor is located relative to its height._
+The vertical alignment property controls where the Marker's anchor is located relative to its height.
 
 ### Description
 
@@ -166,7 +166,7 @@ _The vertical alignment property controls where the Marker's anchor is located r
 |:----:|
 |text|
 
-_The description displayed in the info window that appears when the user clicks on the map feature._
+The description displayed in the info window that appears when the user clicks on the map feature.
 
 ### Draggable
 
@@ -179,7 +179,7 @@ _The description displayed in the info window that appears when the user clicks 
 |:----:|:-------:|
 |boolean|False|
 
-_The Draggable property is used to set whether or not the user can drag the Marker by long-pressing and then dragging the marker to a new location._
+The Draggable property is used to set whether or not the user can drag the Marker by long-pressing and then dragging the marker to a new location.
 
 ### Enable Infobox
 
@@ -192,7 +192,7 @@ _The Draggable property is used to set whether or not the user can drag the Mark
 |:----:|:-------:|
 |boolean|False|
 
-_Enable or disable the infobox window display when the user taps the feature._
+Enable or disable the infobox window display when the user taps the feature.
 
 ### Fill Color
 
@@ -205,7 +205,7 @@ _Enable or disable the infobox window display when the user taps the feature._
 |:----:|:-------:|
 |number|&HFFF34336|
 
-_The paint color used to fill in the map feature._
+The paint color used to fill in the map feature.
 
 ### Fill Opacity
 
@@ -218,7 +218,7 @@ _The paint color used to fill in the map feature._
 |:----:|:-------:|
 |number|1.0|
 
-_The opacity of the interior of the map feature._
+The opacity of the interior of the map feature.
 
 ### Image Asset
 
@@ -231,7 +231,7 @@ _The opacity of the interior of the map feature._
 |:----:|
 |text|
 
-_The ImageAsset property is used to provide an alternative image for the Marker._
+The ImageAsset property is used to provide an alternative image for the Marker.
 
 ### Latitude
 
@@ -270,7 +270,7 @@ _No description available_
 |:----:|:-------:|
 |number|&HFF000000|
 
-_The paint color used to outline the map feature._
+The paint color used to outline the map feature.
 
 ### Stroke Opacity
 
@@ -283,7 +283,7 @@ _The paint color used to outline the map feature._
 |:----:|:-------:|
 |number|1.0|
 
-_The opacity of the stroke used to outline the map feature._
+The opacity of the stroke used to outline the map feature.
 
 ### Stroke Width
 
@@ -296,7 +296,7 @@ _The opacity of the stroke used to outline the map feature._
 |:----:|:-------:|
 |number|1|
 
-_The width of the stroke used to outline the map feature._
+The width of the stroke used to outline the map feature.
 
 ### Title
 
@@ -309,7 +309,7 @@ _The width of the stroke used to outline the map feature._
 |:----:|
 |text|
 
-_The title displayed in the info window that appears when the user clicks on the map feature._
+The title displayed in the info window that appears when the user clicks on the map feature.
 
 ### Visible
 
@@ -322,7 +322,7 @@ _The title displayed in the info window that appears when the user clicks on the
 |:----:|:-------:|
 |boolean|True|
 
-_Specifies whether the component should be visible on the screen. Value is true if the component is showing and false if hidden._
+Specifies whether the component should be visible on the screen. Value is true if the component is showing and false if hidden.
 
 ### Height
 
@@ -355,7 +355,7 @@ _No description available_
 |:----:|:-------:|
 |boolean|None|
 
-_Gets whether or not the shadow of the Marker is shown._
+Gets whether or not the shadow of the Marker is shown.
 
 ### Type
 

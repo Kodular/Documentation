@@ -8,7 +8,7 @@
 
 ## Overview
 
-_A non-visible component that shows AdColony ads as full-screen advertisements._
+A non-visible component that shows AdColony ads as full-screen advertisements.
 
 ## Events
 
@@ -16,7 +16,7 @@ _A non-visible component that shows AdColony ads as full-screen advertisements._
 
 [[Event('AdColony Interstitial', 'Ad Expiring')]]
 
-_Called when the ad is expiring. You should load a new ad._
+Called when the ad is expiring. You should load a new ad.
 
 ### Ad Failed To Load
 
@@ -29,19 +29,19 @@ _Called when the ad is expiring. You should load a new ad._
     |error Message|`text`|
 
 
-_Called when an ad request failed to load. The message will display the error code and error message._
+Called when an ad request failed to load. The message will display the error code and error message.
 
 ### Ad Loaded
 
 [[Event('AdColony Interstitial', 'Ad Loaded')]]
 
-_Called when an ad is received._
+Called when an ad is received.
 
 ### Ad Opened
 
 [[Event('AdColony Interstitial', 'Ad Opened')]]
 
-_Called when an ad was opened._
+Called when an ad was opened.
 
 ### Error
 
@@ -53,7 +53,7 @@ _Called when an ad was opened._
     |error|`text`|
 
 
-_Called when an ad request failed. The message will display the reason for why the ad failed._
+Called when an ad request failed. The message will display the reason for why the ad failed.
 
 ## Methods
 
@@ -63,19 +63,19 @@ _Called when an ad request failed. The message will display the reason for why t
 
 {>>Returns `boolean`<<}
 
-_Returns true if the current app user is located in europe. If true you must ask the user as example in a dialog if he give his consent for personalized ads._
+Returns true if the current app user is located in europe. If true you must ask the user as example in a dialog if he give his consent for personalized ads.
 
 ### Load Ad
 
 [[Method('AdColony Interstitial', 'Load Ad', false)]]
 
-_Loads a new ad._
+Loads a new ad.
 
 ### ShowAd
 
 [[Method('AdColony Interstitial', 'ShowAd', false)]]
 
-_Shows an ad to the user._
+Shows an ad to the user.
 
 ## Properties
 
@@ -114,4 +114,4 @@ _No description available_
 |:----:|:-------:|
 |boolean|None|
 
-_If set to true the user allowed the ad network to show personalized ads. You only need to request the consent from european users._
+If set to true the user allowed the ad network to show personalized ads. You only need to request the consent from european users.

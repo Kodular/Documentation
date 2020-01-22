@@ -6,7 +6,7 @@
 
 ## Overview
 
-_A visible component that indicates the progress of an operation using an animated linear bar._
+A visible component that indicates the progress of an operation using an animated linear bar.
 
 ## Events
 
@@ -20,7 +20,7 @@ _A visible component that indicates the progress of an operation using an animat
     |progress|`number`|
 
 
-_Event that indicates that the progress of the progress bar has been changed. Returns the current progress value. If "Indeterminate" is set to true, then it returns "0"._
+Event that indicates that the progress of the progress bar has been changed. Returns the current progress value. If "Indeterminate" is set to true, then it returns "0".
 
 ## Methods
 
@@ -34,7 +34,7 @@ _Event that indicates that the progress of the progress bar has been changed. Re
     |value|`number`|
 
 
-_Increase the progress bar's progress by the specified amount._
+Increase the progress bar's progress by the specified amount.
 
 ## Properties
 
@@ -49,7 +49,7 @@ _Increase the progress bar's progress by the specified amount._
 |:----:|:-------:|
 |boolean|True|
 
-_Change the indeterminate mode for this progress bar. In indeterminate mode, the progress is ignored and the progress bar shows an infinite animation instead._
+Change the indeterminate mode for this progress bar. In indeterminate mode, the progress is ignored and the progress bar shows an infinite animation instead.
 
 ### Indeterminate Color
 
@@ -62,7 +62,7 @@ _Change the indeterminate mode for this progress bar. In indeterminate mode, the
 |:----:|:-------:|
 |number|&HFF2196F2|
 
-_Change the indeterminate color of the progress bar._
+Change the indeterminate color of the progress bar.
 
 ### Maximum
 
@@ -75,7 +75,7 @@ _Change the indeterminate color of the progress bar._
 |:----:|:-------:|
 |number|100|
 
-_Set the upper range of the progress bar max._
+Set the upper range of the progress bar max.
 
 ### Minimum
 
@@ -88,7 +88,7 @@ _Set the upper range of the progress bar max._
 |:----:|:-------:|
 |number|0|
 
-_Set the lower range of the progress bar to min. This function works only for devices with API >= 26_
+Set the lower range of the progress bar to min. This function works only for devices with API >= 26
 
 ### Progress Color
 
@@ -101,7 +101,7 @@ _Set the lower range of the progress bar to min. This function works only for de
 |:----:|:-------:|
 |number|&HFF2196F2|
 
-_Change the progress color of the progress bar._
+Change the progress color of the progress bar.
 
 ### Visible
 
@@ -114,7 +114,7 @@ _Change the progress color of the progress bar._
 |:----:|:-------:|
 |boolean|True|
 
-_Returns true iff the component is visible._
+Returns true iff the component is visible.
 
 ### Column
 
@@ -125,7 +125,7 @@ _Returns true iff the component is visible._
 |:----:|:-------:|
 |number|None|
 
-_Column property getter method._
+Column property getter method.
 
 ### Progress
 
@@ -136,7 +136,7 @@ _Column property getter method._
 |:----:|:-------:|
 |number|None|
 
-_Sets the current progress to the specified value. Does not do anything if the progress bar is in indeterminate mode._
+Sets the current progress to the specified value. Does not do anything if the progress bar is in indeterminate mode.
 
 ### Row
 
@@ -147,7 +147,7 @@ _Sets the current progress to the specified value. Does not do anything if the p
 |:----:|:-------:|
 |number|None|
 
-_Row property getter method._
+Row property getter method.
 
 ### Width
 
@@ -158,7 +158,7 @@ _Row property getter method._
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's horizontal width, measured in pixels._
+Specifies the component's horizontal width, measured in pixels.
 
 ### Width Percent
 
@@ -169,5 +169,5 @@ _Specifies the component's horizontal width, measured in pixels._
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's horizontal width as a percentage
- of the Width of its parent Component._
+Specifies the component's horizontal width as a percentage
+ of the Width of its parent Component.

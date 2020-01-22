@@ -6,7 +6,7 @@
 
 ## Overview
 
-_A visible component that draws a rectangle on a Map component bounded by north, south, east, and west edges._
+A visible component that draws a rectangle on a Map component bounded by north, south, east, and west edges.
 
 ## Events
 
@@ -14,31 +14,31 @@ _A visible component that draws a rectangle on a Map component bounded by north,
 
 [[Event('Rectangle', 'Click')]]
 
-_The user clicked on the feature._
+The user clicked on the feature.
 
 ### Drag
 
 [[Event('Rectangle', 'Drag')]]
 
-_The user dragged the map feature._
+The user dragged the map feature.
 
 ### Long Click
 
 [[Event('Rectangle', 'Long Click')]]
 
-_The user long-pressed on the feature. This event will only trigger if Draggable is false._
+The user long-pressed on the feature. This event will only trigger if Draggable is false.
 
 ### Start Drag
 
 [[Event('Rectangle', 'Start Drag')]]
 
-_The user started a drag operation._
+The user started a drag operation.
 
 ### Stop Drag
 
 [[Event('Rectangle', 'Stop Drag')]]
 
-_The user stopped a drag operation._
+The user stopped a drag operation.
 
 ## Methods
 
@@ -48,7 +48,7 @@ _The user stopped a drag operation._
 
 {>>Returns `list`<<}
 
-_Returns the bounding box of the Rectangle in the format ((North West) (South East))._
+Returns the bounding box of the Rectangle in the format ((North West) (South East)).
 
 ### Center
 
@@ -56,7 +56,7 @@ _Returns the bounding box of the Rectangle in the format ((North West) (South Ea
 
 {>>Returns `list`<<}
 
-_Returns the center of the Rectangle as a list of the form (Latitude Longitude)._
+Returns the center of the Rectangle as a list of the form (Latitude Longitude).
 
 ### DistanceToFeature
 
@@ -71,7 +71,7 @@ _Returns the center of the Rectangle as a list of the form (Latitude Longitude).
     |centroids|`boolean`|
 
 
-_Compute the distance, in meters, between two map features._
+Compute the distance, in meters, between two map features.
 
 ### DistanceToPoint
 
@@ -87,13 +87,13 @@ _Compute the distance, in meters, between two map features._
     |centroid|`boolean`|
 
 
-_Compute the distance, in meters, between a map feature and a latitude, longitude point._
+Compute the distance, in meters, between a map feature and a latitude, longitude point.
 
 ### HideInfobox
 
 [[Method('Rectangle', 'HideInfobox', false)]]
 
-_Hide the infobox if it is shown. If the infobox is not visible this function has no effect._
+Hide the infobox if it is shown. If the infobox is not visible this function has no effect.
 
 ### SetCenter
 
@@ -106,13 +106,13 @@ _Hide the infobox if it is shown. If the infobox is not visible this function ha
     |longitude|`number`|
 
 
-_Moves the Rectangle so that it is centered on the given latitude and longitude while attempting to maintain the width and height of the Rectangle as measured from the center to the edges._
+Moves the Rectangle so that it is centered on the given latitude and longitude while attempting to maintain the width and height of the Rectangle as measured from the center to the edges.
 
 ### ShowInfobox
 
 [[Method('Rectangle', 'ShowInfobox', false)]]
 
-_Show the infobox for the feature. This will show the infobox even if_
+Show the infobox for the feature. This will show the infobox even if
 
 ## Properties
 
@@ -127,7 +127,7 @@ _Show the infobox for the feature. This will show the infobox even if_
 |:----:|
 |text|
 
-_The description displayed in the info window that appears when the user clicks on the map feature._
+The description displayed in the info window that appears when the user clicks on the map feature.
 
 ### Draggable
 
@@ -140,7 +140,7 @@ _The description displayed in the info window that appears when the user clicks 
 |:----:|:-------:|
 |boolean|False|
 
-_The Draggable property is used to set whether or not the user can drag the Marker by long-pressing and then dragging the marker to a new location._
+The Draggable property is used to set whether or not the user can drag the Marker by long-pressing and then dragging the marker to a new location.
 
 ### East Longitude
 
@@ -166,7 +166,7 @@ _No description available_
 |:----:|:-------:|
 |boolean|False|
 
-_Enable or disable the infobox window display when the user taps the feature._
+Enable or disable the infobox window display when the user taps the feature.
 
 ### Fill Color
 
@@ -179,7 +179,7 @@ _Enable or disable the infobox window display when the user taps the feature._
 |:----:|:-------:|
 |number|&HFFF34336|
 
-_The paint color used to fill in the map feature._
+The paint color used to fill in the map feature.
 
 ### Fill Opacity
 
@@ -192,7 +192,7 @@ _The paint color used to fill in the map feature._
 |:----:|:-------:|
 |number|1.0|
 
-_The opacity of the interior of the map feature._
+The opacity of the interior of the map feature.
 
 ### North Latitude
 
@@ -231,7 +231,7 @@ _No description available_
 |:----:|:-------:|
 |number|&HFF000000|
 
-_The paint color used to outline the map feature._
+The paint color used to outline the map feature.
 
 ### Stroke Opacity
 
@@ -244,7 +244,7 @@ _The paint color used to outline the map feature._
 |:----:|:-------:|
 |number|1.0|
 
-_The opacity of the stroke used to outline the map feature._
+The opacity of the stroke used to outline the map feature.
 
 ### Stroke Width
 
@@ -257,7 +257,7 @@ _The opacity of the stroke used to outline the map feature._
 |:----:|:-------:|
 |number|1|
 
-_The width of the stroke used to outline the map feature._
+The width of the stroke used to outline the map feature.
 
 ### Title
 
@@ -270,7 +270,7 @@ _The width of the stroke used to outline the map feature._
 |:----:|
 |text|
 
-_The title displayed in the info window that appears when the user clicks on the map feature._
+The title displayed in the info window that appears when the user clicks on the map feature.
 
 ### Visible
 
@@ -283,7 +283,7 @@ _The title displayed in the info window that appears when the user clicks on the
 |:----:|:-------:|
 |boolean|True|
 
-_Specifies whether the component should be visible on the screen. Value is true if the component is showing and false if hidden._
+Specifies whether the component should be visible on the screen. Value is true if the component is showing and false if hidden.
 
 ### West Longitude
 
@@ -307,4 +307,4 @@ _No description available_
 |:----:|:-------:|
 |text|None|
 
-_The type of the feature. For rectangles, this returns the text "Rectangle"._
+The type of the feature. For rectangles, this returns the text "Rectangle".

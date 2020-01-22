@@ -8,7 +8,7 @@
 
 ## Overview
 
-_Non-visible component that communicates with a Firebase to store and retrieve information._
+Non-visible component that communicates with a Firebase to store and retrieve information.
 
 ## Events
 
@@ -23,8 +23,8 @@ _Non-visible component that communicates with a Firebase to store and retrieve i
     |value|`any`|
 
 
-_Indicates that the data in the Firebase has changed.
- Launches an event with the tag and value that have been updated._
+Indicates that the data in the Firebase has changed.
+ Launches an event with the tag and value that have been updated.
 
 ### Firebase Error
 
@@ -36,7 +36,7 @@ _Indicates that the data in the Firebase has changed.
     |message|`text`|
 
 
-_Indicates that the communication with the Firebase signaled an error._
+Indicates that the communication with the Firebase signaled an error.
 
 ### First Removed
 
@@ -48,7 +48,7 @@ _Indicates that the communication with the Firebase signaled an error._
     |value|`any`|
 
 
-_Event triggered by the "RemoveFirst" function. The argument "value" is the object that was the first in the list, and which is now removed._
+Event triggered by the "RemoveFirst" function. The argument "value" is the object that was the first in the list, and which is now removed.
 
 ### Got Value
 
@@ -61,7 +61,7 @@ _Event triggered by the "RemoveFirst" function. The argument "value" is the obje
     |value|`any`|
 
 
-_Indicates that a GetValue request has succeeded._
+Indicates that a GetValue request has succeeded.
 
 ### Tag List
 
@@ -73,7 +73,7 @@ _Indicates that a GetValue request has succeeded._
     |value|`list`|
 
 
-_Event triggered when we have received the list of known tags. Used with the "GetTagList" Function._
+Event triggered when we have received the list of known tags. Used with the "GetTagList" Function.
 
 ## Methods
 
@@ -88,7 +88,7 @@ _Event triggered when we have received the list of known tags. Used with the "Ge
     |value To Add|`any`|
 
 
-_Append a value to the end of a list atomically. If two devices use this function simultaneously, both will be appended and no data lost._
+Append a value to the end of a list atomically. If two devices use this function simultaneously, both will be appended and no data lost.
 
 ### ClearTag
 
@@ -100,13 +100,13 @@ _Append a value to the end of a list atomically. If two devices use this functio
     |tag|`text`|
 
 
-_Remove the tag from Firebase_
+Remove the tag from Firebase
 
 ### GetTagList
 
 [[Method('Firebase Database', 'GetTagList', false)]]
 
-_Get the list of tags for this application. When complete a "TagList" event will be triggered with the list of known tags._
+Get the list of tags for this application. When complete a "TagList" event will be triggered with the list of known tags.
 
 ### GetValue
 
@@ -119,21 +119,21 @@ _Get the list of tags for this application. When complete a "TagList" event will
     |value If Tag Not There|`any`|
 
 
-_GetValue asks Firebase to get the value stored under the given tag.
+GetValue asks Firebase to get the value stored under the given tag.
  It will pass valueIfTagNotThere to GotValue if there is no value stored
- under the tag._
+ under the tag.
 
 ### GoOffline
 
 [[Method('Firebase Database', 'GoOffline', false)]]
 
-_Take the database offline_
+Take the database offline
 
 ### GoOnline
 
 [[Method('Firebase Database', 'GoOnline', false)]]
 
-_Take the database online_
+Take the database online
 
 ### RemoveFirst
 
@@ -145,7 +145,7 @@ _Take the database online_
     |tag|`text`|
 
 
-_Return the first element of a list and atomically remove it. If two devices use this function simultaneously, one will get the first element and the the other will get the second element, or an error if there is no available element. When the element is available, the "FirstRemoved" event will be triggered._
+Return the first element of a list and atomically remove it. If two devices use this function simultaneously, one will get the first element and the the other will get the second element, or an error if there is no available element. When the element is available, the "FirstRemoved" event will be triggered.
 
 ### StoreValue
 
@@ -158,13 +158,13 @@ _Return the first element of a list and atomically remove it. If two devices use
     |value To Store|`any`|
 
 
-_Asks Firebase to store the given value under the given tag._
+Asks Firebase to store the given value under the given tag.
 
 ### Unauthenticate
 
 [[Method('Firebase Database', 'Unauthenticate', false)]]
 
-_If you are having difficulty with the Companion and you are switching between different Firebase accounts, you may need to use this function to clear internal Firebase caches. You can just use the "Do It" function on this block in the blocks editor. Note: You should not normally need to use this block as part of an application._
+If you are having difficulty with the Companion and you are switching between different Firebase accounts, you may need to use this function to clear internal Firebase caches. You can just use the "Do It" function on this block in the blocks editor. Note: You should not normally need to use this block as part of an application.
 
 ## Properties
 
@@ -192,7 +192,7 @@ _No description available_
 |:----:|
 |text|
 
-_Getter for the DeveloperBucket._
+Getter for the DeveloperBucket.
 
 ### Firebase Token
 
@@ -205,7 +205,7 @@ _Getter for the DeveloperBucket._
 |:----:|
 |text|
 
-_Returns the FirebaseToken from this FirebaseDB._
+Returns the FirebaseToken from this FirebaseDB.
 
 ### Firebase URL
 
@@ -218,7 +218,7 @@ _Returns the FirebaseToken from this FirebaseDB._
 |:----:|:-------:|
 |text|DEFAULT|
 
-_Gets the URL for this FirebaseDB._
+Gets the URL for this FirebaseDB.
 
 ### Persist
 
@@ -231,7 +231,7 @@ _Gets the URL for this FirebaseDB._
 |:----:|:-------:|
 |boolean|False|
 
-_If true, variables will retain their values when off-line and the App exits. Values will be uploaded to Firebase the next time the App is run while connected to the network. This is useful for applications which will gather data while not connected to the network. Note: AppendValue and RemoveFirst will not work correctly when off-line, they require a network connection.<br/><br/> <i>Note</i>: If you set Persist on any Firebase component, on any screen, it makes all Firebase components on all screens persistent. This is a limitation of the low level Firebase library. Also be aware that if you want to set persist to true, you should do so before connecting the Companion for incremental development._
+If true, variables will retain their values when off-line and the App exits. Values will be uploaded to Firebase the next time the App is run while connected to the network. This is useful for applications which will gather data while not connected to the network. Note: AppendValue and RemoveFirst will not work correctly when off-line, they require a network connection.<br/><br/> <i>Note</i>: If you set Persist on any Firebase component, on any screen, it makes all Firebase components on all screens persistent. This is a limitation of the low level Firebase library. Also be aware that if you want to set persist to true, you should do so before connecting the Companion for incremental development.
 
 ### Project Bucket
 
@@ -244,4 +244,4 @@ _If true, variables will retain their values when off-line and the App exits. Va
 |:----:|
 |text|
 
-_Gets the ProjectBucket for this FirebaseDB._
+Gets the ProjectBucket for this FirebaseDB.

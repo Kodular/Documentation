@@ -6,7 +6,7 @@
 
 ## Overview
 
-_Component for viewing Web pages. The Home URL can be specified in the Designer or in the Blocks Editor. The view can be set to follow links when they are tapped, and users can fill in Web forms. Warning: This is not a full browser. For example, pressing the phone's hardware Back key will exit the app, rather than move back in the browser history.<p />You can use the WebViewer.WebViewString property to communicate between your app and Javascript code running in the Webviewer page. In the app, you get and set WebViewString.  In the WebViewer, you include Javascript that references the window.Makeroid object, using the methoods <em>getWebViewString()</em> and <em>setWebViewString(text)</em>. <p />For example, if the WebViewer opens to a page that contains the Javascript command <br /><em>document.write("The answer is" + window.Makeroid.getWebViewString());</em> <br />and if you set WebView.WebVewString to "hello", then the web page will show <br /><em>The answer is hello</em>. <br />And if the Web page contains Javascript that executes the command <br /><em>window.Makeroid.setWebViewString("hello from Javascript")</em>, <br />then the value of the WebViewString property will be <br /><em>hello from Javascript</em>._
+Component for viewing Web pages. The Home URL can be specified in the Designer or in the Blocks Editor. The view can be set to follow links when they are tapped, and users can fill in Web forms. Warning: This is not a full browser. For example, pressing the phone's hardware Back key will exit the app, rather than move back in the browser history.<p />You can use the WebViewer.WebViewString property to communicate between your app and Javascript code running in the Webviewer page. In the app, you get and set WebViewString.  In the WebViewer, you include Javascript that references the window.Makeroid object, using the methoods <em>getWebViewString()</em> and <em>setWebViewString(text)</em>. <p />For example, if the WebViewer opens to a page that contains the Javascript command <br /><em>document.write("The answer is" + window.Makeroid.getWebViewString());</em> <br />and if you set WebView.WebVewString to "hello", then the web page will show <br /><em>The answer is hello</em>. <br />And if the Web page contains Javascript that executes the command <br /><em>window.Makeroid.setWebViewString("hello from Javascript")</em>, <br />then the value of the WebViewString property will be <br /><em>hello from Javascript</em>.
 
 ## Events
 
@@ -20,7 +20,7 @@ _Component for viewing Web pages. The Home URL can be specified in the Designer 
     |result|`text`|
 
 
-_Get the result of the evaluated JS_
+Get the result of the evaluated JS
 
 ### Cookies Removed
 
@@ -32,7 +32,7 @@ _Get the result of the evaluated JS_
     |success|`boolean`|
 
 
-_This event return true when the cookies have been successfully removed. If the cookies was successfully cleared then the next run returns false as status, if in this time no new cookies was set._
+This event return true when the cookies have been successfully removed. If the cookies was successfully cleared then the next run returns false as status, if in this time no new cookies was set.
 
 ### On Console Message
 
@@ -46,7 +46,7 @@ _This event return true when the cookies have been successfully removed. If the 
     |source Id|`text`|
 
 
-_Get webpage console output_
+Get webpage console output
 
 ### On Download Start
 
@@ -61,13 +61,13 @@ _Get webpage console output_
     |content Length|`number`|
 
 
-_Event for listening download links._
+Event for listening download links.
 
 ### Page Loaded
 
 [[Event('Web Viewer', 'Page Loaded')]]
 
-_Triggers when page finished loading_
+Triggers when page finished loading
 
 ### Progress Changed
 
@@ -79,7 +79,7 @@ _Triggers when page finished loading_
     |progress|`number`|
 
 
-_Event to detect that the loading progress has changed._
+Event to detect that the loading progress has changed.
 
 ### Web View String Change
 
@@ -91,7 +91,7 @@ _Event to detect that the loading progress has changed._
     |value|`text`|
 
 
-_When the JavaScript calls AppInventor.setWebViewString this event is run._
+When the JavaScript calls AppInventor.setWebViewString this event is run.
 
 ## Methods
 
@@ -101,7 +101,7 @@ _When the JavaScript calls AppInventor.setWebViewString this event is run._
 
 {>>Returns `boolean`<<}
 
-_Returns true if the WebViewer can go back in the history list._
+Returns true if the WebViewer can go back in the history list.
 
 ### CanGoBackOrForward
 
@@ -115,7 +115,7 @@ _Returns true if the WebViewer can go back in the history list._
     |steps|`number`|
 
 
-_Returns true if the WebViewer can go back or forward the number of steps in the history list._
+Returns true if the WebViewer can go back or forward the number of steps in the history list.
 
 ### CanGoForward
 
@@ -123,25 +123,25 @@ _Returns true if the WebViewer can go back or forward the number of steps in the
 
 {>>Returns `boolean`<<}
 
-_Returns true if the WebViewer can go forward in the history list._
+Returns true if the WebViewer can go forward in the history list.
 
 ### ClearCaches
 
 [[Method('Web Viewer', 'ClearCaches', false)]]
 
-_Clear WebView caches._
+Clear WebView caches.
 
 ### ClearCookies
 
 [[Method('Web Viewer', 'ClearCookies', false)]]
 
-_Start to clear the WebView cookies._
+Start to clear the WebView cookies.
 
 ### ClearLocations
 
 [[Method('Web Viewer', 'ClearLocations', false)]]
 
-_Clear stored location permissions._
+Clear stored location permissions.
 
 ### EvaluateJS
 
@@ -153,13 +153,13 @@ _Clear stored location permissions._
     |script|`text`|
 
 
-_Evaluate JS in the context of the current page_
+Evaluate JS in the context of the current page
 
 ### GoBack
 
 [[Method('Web Viewer', 'GoBack', false)]]
 
-_Go back to the previous page in the history list. Does nothing if there is no previous page._
+Go back to the previous page in the history list. Does nothing if there is no previous page.
 
 ### GoBackOrForward
 
@@ -171,19 +171,19 @@ _Go back to the previous page in the history list. Does nothing if there is no p
     |steps|`number`|
 
 
-_Go forward or backward a number of steps away from the current page. Steps is negative if backward and positive if forward._
+Go forward or backward a number of steps away from the current page. Steps is negative if backward and positive if forward.
 
 ### GoForward
 
 [[Method('Web Viewer', 'GoForward', false)]]
 
-_Go forward to the next page in the history list. Does nothing if there is no next page._
+Go forward to the next page in the history list. Does nothing if there is no next page.
 
 ### GoHome
 
 [[Method('Web Viewer', 'GoHome', false)]]
 
-_Loads the home URL page. This happens automatically when the home URL is changed._
+Loads the home URL page. This happens automatically when the home URL is changed.
 
 ### GoToUrl
 
@@ -195,7 +195,7 @@ _Loads the home URL page. This happens automatically when the home URL is change
     |url|`text`|
 
 
-_Load the page at the given URL._
+Load the page at the given URL.
 
 ### LoadHtml
 
@@ -207,19 +207,19 @@ _Load the page at the given URL._
     |html|`text`|
 
 
-_Load HTML content using Base64-encoded data URI scheme_
+Load HTML content using Base64-encoded data URI scheme
 
 ### Reload
 
 [[Method('Web Viewer', 'Reload', false)]]
 
-_Reloads the current page_
+Reloads the current page
 
 ### StopLoading
 
 [[Method('Web Viewer', 'StopLoading', false)]]
 
-_Stops the current load._
+Stops the current load.
 
 ## Properties
 
@@ -234,7 +234,7 @@ _Stops the current load._
 |:----:|:-------:|
 |boolean|false|
 
-_Get/Set Desktop mode by altering the user agent string._
+Get/Set Desktop mode by altering the user agent string.
 
 ### Enable JavaScript
 
@@ -247,7 +247,7 @@ _Get/Set Desktop mode by altering the user agent string._
 |:----:|:-------:|
 |boolean|True|
 
-_Enable/Disable JavaScript. Enabled by default_
+Enable/Disable JavaScript. Enabled by default
 
 ### Follow Links
 
@@ -260,7 +260,7 @@ _Enable/Disable JavaScript. Enabled by default_
 |:----:|:-------:|
 |boolean|True|
 
-_Determines whether to follow links when they are tapped in the WebViewer.  If you follow links, you can use GoBack and GoForward to navigate the browser history._
+Determines whether to follow links when they are tapped in the WebViewer.  If you follow links, you can use GoBack and GoForward to navigate the browser history.
 
 ### Home Url
 
@@ -273,7 +273,7 @@ _Determines whether to follow links when they are tapped in the WebViewer.  If y
 |:----:|
 |text|
 
-_URL of the page the WebViewer should initially open to. Setting this will load the page._
+URL of the page the WebViewer should initially open to. Setting this will load the page.
 
 ### Ignore SSL Errors
 
@@ -286,7 +286,7 @@ _URL of the page the WebViewer should initially open to. Setting this will load 
 |:----:|:-------:|
 |boolean|False|
 
-_Determine whether or not to ignore SSL errors. Set to true to ignore errors. Use this to accept self signed certificates from websites._
+Determine whether or not to ignore SSL errors. Set to true to ignore errors. Use this to accept self signed certificates from websites.
 
 ### Load Images
 
@@ -299,7 +299,7 @@ _Determine whether or not to ignore SSL errors. Set to true to ignore errors. Us
 |:----:|:-------:|
 |boolean|True|
 
-_Whether or not to automatically load images_
+Whether or not to automatically load images
 
 ### Prompt for Permission
 
@@ -312,7 +312,7 @@ _Whether or not to automatically load images_
 |:----:|:-------:|
 |boolean|True|
 
-_If True, then prompt the user of the WebView to give permission to access the geolocation API. If False, then assume permission is granted._
+If True, then prompt the user of the WebView to give permission to access the geolocation API. If False, then assume permission is granted.
 
 ### Scrollbar
 
@@ -325,7 +325,7 @@ _If True, then prompt the user of the WebView to give permission to access the g
 |:----:|:-------:|
 |boolean|True|
 
-_Whether to display a scrollbar_
+Whether to display a scrollbar
 
 ### Use External Browser
 
@@ -338,7 +338,7 @@ _Whether to display a scrollbar_
 |:----:|:-------:|
 |boolean|False|
 
-_Open a link in the webviewer page using the external browser. If true the page will be loaded in the external browser and not in the webviewer itself._
+Open a link in the webviewer page using the external browser. If true the page will be loaded in the external browser and not in the webviewer itself.
 
 ### User Agent
 
@@ -351,7 +351,7 @@ _Open a link in the webviewer page using the external browser. If true the page 
 |:----:|
 |text|
 
-_Get User Agent_
+Get User Agent
 
 ### Uses Location
 
@@ -364,7 +364,7 @@ _Get User Agent_
 |:----:|:-------:|
 |boolean|False|
 
-_Whether or not to give the application permission to use the Javascript geolocation API. This property is available only in the designer._
+Whether or not to give the application permission to use the Javascript geolocation API. This property is available only in the designer.
 
 ### Visible
 
@@ -377,7 +377,7 @@ _Whether or not to give the application permission to use the Javascript geoloca
 |:----:|:-------:|
 |boolean|True|
 
-_Returns true iff the component is visible._
+Returns true iff the component is visible.
 
 ### Zoom Display
 
@@ -390,7 +390,7 @@ _Returns true iff the component is visible._
 |:----:|:-------:|
 |boolean|True|
 
-_Show or Hide the zoom display._
+Show or Hide the zoom display.
 
 ### Zoom Enabled
 
@@ -403,7 +403,7 @@ _Show or Hide the zoom display._
 |:----:|:-------:|
 |boolean|True|
 
-_Enable or Disable pinch zooming. This effects both pinch zooming and the zoom controls._
+Enable or Disable pinch zooming. This effects both pinch zooming and the zoom controls.
 
 ### Zoom Percent
 
@@ -416,7 +416,7 @@ _Enable or Disable pinch zooming. This effects both pinch zooming and the zoom c
 |:----:|:-------:|
 |number|100|
 
-_The zoom of the page in percent %_
+The zoom of the page in percent %
 
 ### Column
 
@@ -427,7 +427,7 @@ _The zoom of the page in percent %_
 |:----:|:-------:|
 |number|None|
 
-_Column property getter method._
+Column property getter method.
 
 ### Current Page Title
 
@@ -438,7 +438,7 @@ _Column property getter method._
 |:----:|:-------:|
 |text|None|
 
-_Title of the page currently viewed_
+Title of the page currently viewed
 
 ### Current URL
 
@@ -449,7 +449,7 @@ _Title of the page currently viewed_
 |:----:|:-------:|
 |text|None|
 
-_URL of the page currently viewed. This could be different from the Home URL if new pages were visited by following links._
+URL of the page currently viewed. This could be different from the Home URL if new pages were visited by following links.
 
 ### Height
 
@@ -460,7 +460,7 @@ _URL of the page currently viewed. This could be different from the Home URL if 
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's vertical height, measured in pixels._
+Specifies the component's vertical height, measured in pixels.
 
 ### Height Percent
 
@@ -471,8 +471,8 @@ _Specifies the component's vertical height, measured in pixels._
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's vertical height as a percentage
- of the height of its parent Component._
+Specifies the component's vertical height as a percentage
+ of the height of its parent Component.
 
 ### Row
 
@@ -483,7 +483,7 @@ _Specifies the component's vertical height as a percentage
 |:----:|:-------:|
 |number|None|
 
-_Row property getter method._
+Row property getter method.
 
 ### Web View String
 
@@ -494,7 +494,7 @@ _Row property getter method._
 |:----:|:-------:|
 |text|None|
 
-_Gets the WebView's String, which is viewable through Javascript in the WebView as the window.AppInventor object_
+Gets the WebView's String, which is viewable through Javascript in the WebView as the window.AppInventor object
 
 ### Width
 
@@ -505,7 +505,7 @@ _Gets the WebView's String, which is viewable through Javascript in the WebView 
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's horizontal width, measured in pixels._
+Specifies the component's horizontal width, measured in pixels.
 
 ### Width Percent
 
@@ -516,5 +516,5 @@ _Specifies the component's horizontal width, measured in pixels._
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's horizontal width as a percentage
- of the Width of its parent Component._
+Specifies the component's horizontal width as a percentage
+ of the Width of its parent Component.

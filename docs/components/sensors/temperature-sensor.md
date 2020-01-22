@@ -8,7 +8,7 @@
 
 ## Overview
 
-_<p>Non-visible component that measures the temperature of the air in the room in degrees Celsius. This sensor implementation varies across devices.</p>_
+<p>Non-visible component that measures the temperature of the air in the room in degrees Celsius. This sensor implementation varies across devices.</p>
 
 ## Events
 
@@ -22,7 +22,7 @@ _<p>Non-visible component that measures the temperature of the air in the room i
     |temperature|`number`|
 
 
-_Event that fires when the temperature is changed_
+Event that fires when the temperature is changed
 
 ## Properties
 
@@ -37,7 +37,7 @@ _Event that fires when the temperature is changed_
 |:----:|:-------:|
 |boolean|True|
 
-_Whether Sensor should be Enabled_
+Whether Sensor should be Enabled
 
 ### Available
 
@@ -48,7 +48,7 @@ _Whether Sensor should be Enabled_
 |:----:|:-------:|
 |boolean|None|
 
-_Whether Sensor is Available_
+Whether Sensor is Available
 
 ### Temperature
 
@@ -59,4 +59,4 @@ _Whether Sensor is Available_
 |:----:|:-------:|
 |number|None|
 
-_Returns the temperature in degrees celsius. To return values the sensor must be enabled_
+Returns the temperature in degrees celsius. To return values the sensor must be enabled

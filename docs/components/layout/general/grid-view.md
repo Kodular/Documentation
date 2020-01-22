@@ -6,7 +6,7 @@
 
 ## Overview
 
-_A visible component that groups other components in a two-dimensional, scrollable grid._
+A visible component that groups other components in a two-dimensional, scrollable grid.
 
 ## Events
 
@@ -20,7 +20,7 @@ _A visible component that groups other components in a two-dimensional, scrollab
     |item|`text`|
 
 
-_Triggers after an item from this component has been selected_
+Triggers after an item from this component has been selected
 
 ## Methods
 
@@ -28,7 +28,7 @@ _Triggers after an item from this component has been selected_
 
 [[Method('Grid View', 'ClearGridView', false)]]
 
-_Clears the items from the component_
+Clears the items from the component
 
 ## Properties
 
@@ -43,7 +43,7 @@ _Clears the items from the component_
 |:----:|:-------:|
 |number|&H00000000|
 
-_Specifies the background color._
+Specifies the background color.
 
 ### Columns
 
@@ -56,7 +56,7 @@ _Specifies the background color._
 |:----:|:-------:|
 |number|4|
 
-_Returns number of columns for this component_
+Returns number of columns for this component
 
 ### Elements From String
 
@@ -69,7 +69,7 @@ _Returns number of columns for this component_
 |:----:|
 |text|
 
-_The elements specified as a string with the items separated by commas such as: Cheese,Fruit,Bacon,Radish. Each word before the comma will be an element in the list._
+The elements specified as a string with the items separated by commas such as: Cheese,Fruit,Bacon,Radish. Each word before the comma will be an element in the list.
 
 ### Font Size
 
@@ -82,7 +82,7 @@ _The elements specified as a string with the items separated by commas such as: 
 |:----:|:-------:|
 |number|14.0|
 
-_Sets the font size of the elements_
+Sets the font size of the elements
 
 ### Padding
 
@@ -95,7 +95,7 @@ _Sets the font size of the elements_
 |:----:|:-------:|
 |number|2|
 
-_The amount of padding (in DIP) on left, top, right, bottom_
+The amount of padding (in DIP) on left, top, right, bottom
 
 ### Stretch Enabled
 
@@ -108,7 +108,7 @@ _The amount of padding (in DIP) on left, top, right, bottom_
 |:----:|:-------:|
 |boolean|True|
 
-_Control how items are stretched to fill their space_
+Control how items are stretched to fill their space
 
 ### Text Color
 
@@ -121,8 +121,8 @@ _Control how items are stretched to fill their space_
 |:----:|:-------:|
 |number|&HFF000000|
 
-_Specifies the checkbox's text color as an alpha-red-green-blue
- integer._
+Specifies the checkbox's text color as an alpha-red-green-blue
+ integer.
 
 ### Thumbnail Height in DIP
 
@@ -135,7 +135,7 @@ _Specifies the checkbox's text color as an alpha-red-green-blue
 |:----:|:-------:|
 |number|155|
 
-_Sets the thumbnail height in DIP (Density Independent Pixels)_
+Sets the thumbnail height in DIP (Density Independent Pixels)
 
 ### Thumbnail Width in DIP
 
@@ -148,7 +148,7 @@ _Sets the thumbnail height in DIP (Density Independent Pixels)_
 |:----:|:-------:|
 |number|155|
 
-_Sets the thumbnail width in DIP (Density Independent Pixels)_
+Sets the thumbnail width in DIP (Density Independent Pixels)
 
 ### Visible
 
@@ -161,7 +161,7 @@ _Sets the thumbnail width in DIP (Density Independent Pixels)_
 |:----:|:-------:|
 |boolean|True|
 
-_Returns true iff the component is visible._
+Returns true iff the component is visible.
 
 ### Column
 
@@ -172,7 +172,7 @@ _Returns true iff the component is visible._
 |:----:|:-------:|
 |number|None|
 
-_Column property getter method._
+Column property getter method.
 
 ### Elements
 
@@ -183,7 +183,7 @@ _Column property getter method._
 |:----:|:-------:|
 |list|None|
 
-_List of elements to be used for GridView_
+List of elements to be used for GridView
 
 ### Height
 
@@ -194,7 +194,7 @@ _List of elements to be used for GridView_
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's vertical height, measured in pixels._
+Specifies the component's vertical height, measured in pixels.
 
 ### Height Percent
 
@@ -205,8 +205,8 @@ _Specifies the component's vertical height, measured in pixels._
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's vertical height as a percentage
- of the height of its parent Component._
+Specifies the component's vertical height as a percentage
+ of the height of its parent Component.
 
 ### Row
 
@@ -217,7 +217,7 @@ _Specifies the component's vertical height as a percentage
 |:----:|:-------:|
 |number|None|
 
-_Row property getter method._
+Row property getter method.
 
 ### Selection
 
@@ -228,7 +228,7 @@ _Row property getter method._
 |:----:|:-------:|
 |text|None|
 
-_Set the selection to the GridView_
+Set the selection to the GridView
 
 ### Width
 
@@ -239,7 +239,7 @@ _Set the selection to the GridView_
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's horizontal width, measured in pixels._
+Specifies the component's horizontal width, measured in pixels.
 
 ### Width Percent
 
@@ -250,5 +250,5 @@ _Specifies the component's horizontal width, measured in pixels._
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's horizontal width as a percentage
- of the Width of its parent Component._
+Specifies the component's horizontal width as a percentage
+ of the Width of its parent Component.

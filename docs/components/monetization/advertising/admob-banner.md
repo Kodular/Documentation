@@ -6,7 +6,7 @@
 
 ## Overview
 
-_A visible component that shows AdMob ads as static banners._
+A visible component that shows AdMob ads as static banners.
 
 ## Events
 
@@ -14,7 +14,7 @@ _A visible component that shows AdMob ads as static banners._
 
 [[Event('AdMob Banner', 'Ad Closed')]]
 
-_Called when an ad was closed._
+Called when an ad was closed.
 
 ### Ad Failed To Load
 
@@ -27,19 +27,19 @@ _Called when an ad was closed._
     |error Message|`text`|
 
 
-_Called when an ad request failed to load. The message will display the error code and error message._
+Called when an ad request failed to load. The message will display the error code and error message.
 
 ### Ad Loaded
 
 [[Event('AdMob Banner', 'Ad Loaded')]]
 
-_Called when an ad request was loaded._
+Called when an ad request was loaded.
 
 ### Ad Opened
 
 [[Event('AdMob Banner', 'Ad Opened')]]
 
-_Called when an ad was opened._
+Called when an ad was opened.
 
 ### On Consent Changed
 
@@ -51,7 +51,7 @@ _Called when an ad was opened._
     |personalized|`boolean`|
 
 
-_Event triggered when the consent was changed._
+Event triggered when the consent was changed.
 
 ## Methods
 
@@ -59,13 +59,13 @@ _Event triggered when the consent was changed._
 
 [[Method('AdMob Banner', 'Load Ad', false)]]
 
-_Load a new AdMob Banner ad._
+Load a new AdMob Banner ad.
 
 ### RevokeConsent
 
 [[Method('AdMob Banner', 'RevokeConsent', false)]]
 
-_Deletes the user's consent. Useful if you want to test the consent dialog in development._
+Deletes the user's consent. Useful if you want to test the consent dialog in development.
 
 ## Properties
 
@@ -80,7 +80,7 @@ _Deletes the user's consent. Useful if you want to test the consent dialog in de
 |:----:|:-------:|
 |boolean|True|
 
-_This property must be set to true to receive ads._
+This property must be set to true to receive ads.
 
 ### Ad Unit Id
 
@@ -93,7 +93,7 @@ _This property must be set to true to receive ads._
 |:----:|:-------:|
 |text|ca-app-pub-3940256099942544/6300978111|
 
-_Set Ad Unit ID_
+Set Ad Unit ID
 
 ### Consent Development Mode
 
@@ -106,7 +106,7 @@ _Set Ad Unit ID_
 |:----:|:-------:|
 |boolean|False|
 
-_If enabled you will see the consent dialog no matter if you are located in Europe or not. Please use this option only in development.  If this setting is enabled ALL taken consents will not be saved._
+If enabled you will see the consent dialog no matter if you are located in Europe or not. Please use this option only in development.  If this setting is enabled ALL taken consents will not be saved.
 
 ### Consent Message
 
@@ -119,7 +119,7 @@ _If enabled you will see the consent dialog no matter if you are located in Euro
 |:----:|:-------:|
 |text|Can we continue to use your data to tailor ads for you?|
 
-_The message for the consent dialog._
+The message for the consent dialog.
 
 ### Consent Title
 
@@ -132,7 +132,7 @@ _The message for the consent dialog._
 |:----:|:-------:|
 |text|Data Protection|
 
-_The title for the consent dialog._
+The title for the consent dialog.
 
 ### Test Mode
 
@@ -145,7 +145,7 @@ _The title for the consent dialog._
 |:----:|:-------:|
 |boolean|False|
 
-_If you want to test the component then that this property to true. Then you will receive test ads._
+If you want to test the component then that this property to true. Then you will receive test ads.
 
 ### Visible
 
@@ -158,7 +158,7 @@ _If you want to test the component then that this property to true. Then you wil
 |:----:|:-------:|
 |boolean|True|
 
-_Returns true iff the component is visible._
+Returns true iff the component is visible.
 
 ### Column
 
@@ -169,7 +169,7 @@ _Returns true iff the component is visible._
 |:----:|:-------:|
 |number|None|
 
-_Column property getter method._
+Column property getter method.
 
 ### Personalized Result
 
@@ -180,7 +180,7 @@ _Column property getter method._
 |:----:|:-------:|
 |boolean|None|
 
-_Returns the current personalized consent. If true user has consent to personalized ads._
+Returns the current personalized consent. If true user has consent to personalized ads.
 
 ### Row
 
@@ -191,4 +191,4 @@ _Returns the current personalized consent. If true user has consent to personali
 |:----:|:-------:|
 |number|None|
 
-_Row property getter method._
+Row property getter method.

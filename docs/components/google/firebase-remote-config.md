@@ -8,7 +8,7 @@
 
 ## Overview
 
-_A non-visible component that gets data from the Remote Config service powered by Firebase._
+A non-visible component that gets data from the Remote Config service powered by Firebase.
 
 ## Events
 
@@ -16,13 +16,13 @@ _A non-visible component that gets data from the Remote Config service powered b
 
 [[Event('Firebase Remote Config', 'Fetch Failed')]]
 
-_Triggers when the fetch failed_
+Triggers when the fetch failed
 
 ### Fetch Success
 
 [[Event('Firebase Remote Config', 'Fetch Success')]]
 
-_Triggers when the fetch was successful_
+Triggers when the fetch was successful
 
 ## Methods
 
@@ -30,7 +30,7 @@ _Triggers when the fetch was successful_
 
 [[Method('Firebase Remote Config', 'Fetch', false)]]
 
-_Fetches parameter values for your app_
+Fetches parameter values for your app
 
 ### GetBoolean
 
@@ -44,7 +44,7 @@ _Fetches parameter values for your app_
     |key|`text`|
 
 
-_Gets a boolean value corresponding to the specified key_
+Gets a boolean value corresponding to the specified key
 
 ### GetNumber
 
@@ -58,7 +58,7 @@ _Gets a boolean value corresponding to the specified key_
     |key|`text`|
 
 
-_Gets a number value corresponding to the specified key_
+Gets a number value corresponding to the specified key
 
 ### GetText
 
@@ -72,7 +72,7 @@ _Gets a number value corresponding to the specified key_
     |key|`text`|
 
 
-_Gets a text value corresponding to the specified key_
+Gets a text value corresponding to the specified key
 
 ## Properties
 
@@ -87,4 +87,4 @@ _Gets a text value corresponding to the specified key_
 |:----:|:-------:|
 |number|43200|
 
-_Time how long the data keeps on the device in ms_
+Time how long the data keeps on the device in ms

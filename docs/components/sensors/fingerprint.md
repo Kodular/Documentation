@@ -8,7 +8,7 @@
 
 ## Overview
 
-_A non-visible component that reads fingerprints using the device''s in-built fingerprint scanner._
+A non-visible component that reads fingerprints using the device''s in-built fingerprint scanner.
 
 ## Events
 
@@ -23,13 +23,13 @@ _A non-visible component that reads fingerprints using the device''s in-built fi
     |message|`text`|
 
 
-_Triggers when there is a Authentication Error_
+Triggers when there is a Authentication Error
 
 ### On Authentication Failed
 
 [[Event('Fingerprint', 'On Authentication Failed')]]
 
-_Triggers when the Authentication Failed_
+Triggers when the Authentication Failed
 
 ### On Authentication Help
 
@@ -42,13 +42,13 @@ _Triggers when the Authentication Failed_
     |message|`text`|
 
 
-_Triggers when there is a Authentication Help_
+Triggers when there is a Authentication Help
 
 ### On Authentication Succeeded
 
 [[Event('Fingerprint', 'On Authentication Succeeded')]]
 
-_Trigger when the Authentication Succeeded_
+Trigger when the Authentication Succeeded
 
 ## Methods
 
@@ -56,13 +56,13 @@ _Trigger when the Authentication Succeeded_
 
 [[Method('Fingerprint', 'Authenticate', false)]]
 
-_Authenticate the user with a Fingerprint scanner_
+Authenticate the user with a Fingerprint scanner
 
 ### CancelScan
 
 [[Method('Fingerprint', 'CancelScan', false)]]
 
-_Cancel the current Fingerprint Scan_
+Cancel the current Fingerprint Scan
 
 ### HasFingerPrintScanner
 
@@ -70,7 +70,7 @@ _Cancel the current Fingerprint Scan_
 
 {>>Returns `boolean`<<}
 
-_True if hardware is present and functional, false otherwise_
+True if hardware is present and functional, false otherwise
 
 ### HasFingersAdded
 
@@ -78,7 +78,7 @@ _True if hardware is present and functional, false otherwise_
 
 {>>Returns `boolean`<<}
 
-_True if at least one fingerprint is enrolled, false otherwise_
+True if at least one fingerprint is enrolled, false otherwise
 
 ## Properties
 
@@ -93,7 +93,7 @@ _True if at least one fingerprint is enrolled, false otherwise_
 |:----:|:-------:|
 |text|Scan your finger|
 
-_Sets the dialog help text_
+Sets the dialog help text
 
 ### Dialog Title
 
@@ -106,7 +106,7 @@ _Sets the dialog help text_
 |:----:|:-------:|
 |text|Sign in with your fingerprint|
 
-_Sets the dialog title_
+Sets the dialog title
 
 ### Light Theme
 
@@ -119,7 +119,7 @@ _Sets the dialog title_
 |:----:|:-------:|
 |boolean|False|
 
-_Sets the current theme_
+Sets the current theme
 
 ### Use Dialog
 
@@ -132,4 +132,4 @@ _Sets the current theme_
 |:----:|:-------:|
 |boolean|True|
 
-_Whether to use a dialog_
+Whether to use a dialog

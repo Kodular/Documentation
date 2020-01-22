@@ -6,7 +6,7 @@
 
 ## Overview
 
-_<p>A two-dimensional touch-sensitive rectangular panel on which drawing can be done and sprites can be moved.</p> <p>The <code>BackgroundColor</code>, <code>PaintColor</code>, <code>BackgroundImage</code>, <code>Width</code>, and <code>Height</code> of the Canvas can be set in either the Designer or in the Blocks Editor.  The <code>Width</code> and <code>Height</code> are measured in pixels and must be positive.</p><p>Any location on the Canvas can be specified as a pair of (X, Y) values, where <ul> <li>X is the number of pixels away from the left edge of the Canvas</li><li>Y is the number of pixels away from the top edge of the Canvas</li></ul>.</p> <p>There are events to tell when and where a Canvas has been touched or a <code>Sprite</code> (<code>ImageSprite</code> or <code>Ball</code>) has been dragged.  There are also methods for drawing points, lines, and circles.</p>_
+<p>A two-dimensional touch-sensitive rectangular panel on which drawing can be done and sprites can be moved.</p> <p>The <code>BackgroundColor</code>, <code>PaintColor</code>, <code>BackgroundImage</code>, <code>Width</code>, and <code>Height</code> of the Canvas can be set in either the Designer or in the Blocks Editor.  The <code>Width</code> and <code>Height</code> are measured in pixels and must be positive.</p><p>Any location on the Canvas can be specified as a pair of (X, Y) values, where <ul> <li>X is the number of pixels away from the left edge of the Canvas</li><li>Y is the number of pixels away from the top edge of the Canvas</li></ul>.</p> <p>There are events to tell when and where a Canvas has been touched or a <code>Sprite</code> (<code>ImageSprite</code> or <code>Ball</code>) has been dragged.  There are also methods for drawing points, lines, and circles.</p>
 
 ## Events
 
@@ -26,10 +26,10 @@ _<p>A two-dimensional touch-sensitive rectangular panel on which drawing can be 
     |dragged Any Sprite|`boolean`|
 
 
-_When the user does a drag from one point (prevX, prevY) to
+When the user does a drag from one point (prevX, prevY) to
  another (x, y).  The pair (startX, startY) indicates where the
  user first touched the screen, and "draggedAnySprite" indicates whether a
- sprite is being dragged._
+ sprite is being dragged.
 
 ### Flung
 
@@ -47,12 +47,12 @@ _When the user does a drag from one point (prevX, prevY) to
     |flung Sprite|`boolean`|
 
 
-_When a fling gesture (quick swipe) is made on the canvas: provides
+When a fling gesture (quick swipe) is made on the canvas: provides
  the (x,y) position of the start of the fling, relative to the upper
  left of the canvas. Also provides the speed (pixels per millisecond) and heading
  (0-360 degrees) of the fling, as well as the x velocity and y velocity
  components of the fling's vector. The value "flungSprite" is true if a sprite
- was located near the the starting point of the fling gesture._
+ was located near the the starting point of the fling gesture.
 
 ### Scaled
 
@@ -64,7 +64,7 @@ _When a fling gesture (quick swipe) is made on the canvas: provides
     |scale Factor|`number`|
 
 
-_This event is invoked when two-finger pinches. ScaleFactor is the ratio of the average distance between two-fingers from current and previous scale event._
+This event is invoked when two-finger pinches. ScaleFactor is the ratio of the average distance between two-fingers from current and previous scale event.
 
 ### Touch Down
 
@@ -77,9 +77,9 @@ _This event is invoked when two-finger pinches. ScaleFactor is the ratio of the 
     |y|`number`|
 
 
-_When the user begins touching the canvas (places finger on canvas and
+When the user begins touching the canvas (places finger on canvas and
  leaves it there): provides the (x,y) position of the touch, relative
- to the upper left of the canvas_
+ to the upper left of the canvas
 
 ### Touch Up
 
@@ -92,9 +92,9 @@ _When the user begins touching the canvas (places finger on canvas and
     |y|`number`|
 
 
-_When the user stops touching the canvas (lifts finger after a
+When the user stops touching the canvas (lifts finger after a
  TouchDown event): provides the (x,y) position of the touch, relative
- to the upper left of the canvas_
+ to the upper left of the canvas
 
 ### Touched
 
@@ -108,9 +108,9 @@ _When the user stops touching the canvas (lifts finger after a
     |touched Any Sprite|`boolean`|
 
 
-_When the user touches the canvas and then immediately lifts finger: provides
+When the user touches the canvas and then immediately lifts finger: provides
  the (x,y) position of the touch, relative to the upper left of the canvas.  TouchedAnySprite
- is true if the same touch also touched a sprite, and false otherwise._
+ is true if the same touch also touched a sprite, and false otherwise.
 
 ## Methods
 
@@ -118,7 +118,7 @@ _When the user touches the canvas and then immediately lifts finger: provides
 
 [[Method('Canvas', 'Clear', false)]]
 
-_Clears anything drawn on this Canvas but not any background color or image._
+Clears anything drawn on this Canvas but not any background color or image.
 
 ### DrawArc
 
@@ -137,7 +137,7 @@ _Clears anything drawn on this Canvas but not any background color or image._
     |fill|`boolean`|
 
 
-_Draw an arc on Canvas, by drawing an arc from a specified oval (specified by left, top, right & bottom). Start angle is 0 when heading to the right, and increase when rotate clockwise. When useCenter is true, a sector will be drawed instead of an arc. When fill is true, a filled arc (or sector) will be drawed instead of just an outline._
+Draw an arc on Canvas, by drawing an arc from a specified oval (specified by left, top, right & bottom). Start angle is 0 when heading to the right, and increase when rotate clockwise. When useCenter is true, a sector will be drawed instead of an arc. When fill is true, a filled arc (or sector) will be drawed instead of just an outline.
 
 ### DrawCircle
 
@@ -152,7 +152,7 @@ _Draw an arc on Canvas, by drawing an arc from a specified oval (specified by le
     |fill|`boolean`|
 
 
-_Draws a circle (filled in) with the given radius centered at the given coordinates on the canvas_
+Draws a circle (filled in) with the given radius centered at the given coordinates on the canvas
 
 ### DrawLine
 
@@ -167,7 +167,7 @@ _Draws a circle (filled in) with the given radius centered at the given coordina
     |y2|`number`|
 
 
-_Draws a line between the given coordinates on the canvas._
+Draws a line between the given coordinates on the canvas.
 
 ### DrawPoint
 
@@ -180,7 +180,7 @@ _Draws a line between the given coordinates on the canvas._
     |y|`number`|
 
 
-_Draws a point at the given coordinates on the canvas._
+Draws a point at the given coordinates on the canvas.
 
 ### DrawPolygon
 
@@ -198,7 +198,7 @@ _Draws a point at the given coordinates on the canvas._
     |fill|`boolean`|
 
 
-_Creates a polygon with with specified number of sides from a radius._
+Creates a polygon with with specified number of sides from a radius.
 
 ### DrawShape
 
@@ -211,7 +211,7 @@ _Creates a polygon with with specified number of sides from a radius._
     |fill|`boolean`|
 
 
-_Draws a shape on the canvas. pointList should be a list contains sub-lists with two number which represents a coordinate. The first point and last point does not need to be the same. e.g. ((x1 y1) (x2 y2) (x3 y3)) When fill is true, the shape will be filled._
+Draws a shape on the canvas. pointList should be a list contains sub-lists with two number which represents a coordinate. The first point and last point does not need to be the same. e.g. ((x1 y1) (x2 y2) (x3 y3)) When fill is true, the shape will be filled.
 
 ### DrawText
 
@@ -225,7 +225,7 @@ _Draws a shape on the canvas. pointList should be a list contains sub-lists with
     |y|`number`|
 
 
-_Draws the specified text relative to the specified coordinates using the values of the FontSize and TextAlignment properties._
+Draws the specified text relative to the specified coordinates using the values of the FontSize and TextAlignment properties.
 
 ### DrawTextAtAngle
 
@@ -240,7 +240,7 @@ _Draws the specified text relative to the specified coordinates using the values
     |angle|`number`|
 
 
-_Draws the specified text starting at the specified coordinates at the specified angle using the values of the FontSize and TextAlignment properties._
+Draws the specified text starting at the specified coordinates at the specified angle using the values of the FontSize and TextAlignment properties.
 
 ### GetBackgroundPixelColor
 
@@ -255,7 +255,7 @@ _Draws the specified text starting at the specified coordinates at the specified
     |y|`number`|
 
 
-_Gets the color of the specified point. This includes the background and any drawn points, lines, or circles but not sprites._
+Gets the color of the specified point. This includes the background and any drawn points, lines, or circles but not sprites.
 
 ### GetPixelColor
 
@@ -270,7 +270,7 @@ _Gets the color of the specified point. This includes the background and any dra
     |y|`number`|
 
 
-_Gets the color of the specified point._
+Gets the color of the specified point.
 
 ### Save
 
@@ -278,7 +278,7 @@ _Gets the color of the specified point._
 
 {>>Returns `text`<<}
 
-_Saves a picture of this Canvas to the device's external storage. If an error occurs, the Screen's ErrorOccurred event will be called._
+Saves a picture of this Canvas to the device's external storage. If an error occurs, the Screen's ErrorOccurred event will be called.
 
 ### SaveAs
 
@@ -292,7 +292,7 @@ _Saves a picture of this Canvas to the device's external storage. If an error oc
     |file Name|`text`|
 
 
-_Saves a picture of this Canvas to the device's external storage in the file named fileName. fileName must end with one of .jpg, .jpeg, or .png, which determines the file type._
+Saves a picture of this Canvas to the device's external storage in the file named fileName. fileName must end with one of .jpg, .jpeg, or .png, which determines the file type.
 
 ### SetBackgroundPixelColor
 
@@ -306,7 +306,7 @@ _Saves a picture of this Canvas to the device's external storage in the file nam
     |color|`number`|
 
 
-_Sets the color of the specified point. This differs from DrawPoint by having an argument for color._
+Sets the color of the specified point. This differs from DrawPoint by having an argument for color.
 
 ## Properties
 
@@ -321,7 +321,7 @@ _Sets the color of the specified point. This differs from DrawPoint by having an
 |:----:|:-------:|
 |number|&HFFFFFFFF|
 
-_The color of the canvas background._
+The color of the canvas background.
 
 ### Background Image
 
@@ -334,7 +334,7 @@ _The color of the canvas background._
 |:----:|
 |text|
 
-_The name of a file containing the background image for the canvas_
+The name of a file containing the background image for the canvas
 
 ### Extend Moves Outside Canvas
 
@@ -347,7 +347,7 @@ _The name of a file containing the background image for the canvas_
 |:----:|:-------:|
 |boolean|False|
 
-_Determines whether moves can extend beyond the canvas borders.   Default is false. This should normally be false, and the property is provided for backwards compatibility._
+Determines whether moves can extend beyond the canvas borders.   Default is false. This should normally be false, and the property is provided for backwards compatibility.
 
 ### Font Bold
 
@@ -386,7 +386,7 @@ _No description available_
 |:----:|:-------:|
 |number|14.0|
 
-_The font size of text drawn on the canvas._
+The font size of text drawn on the canvas.
 
 ### Font Typeface
 
@@ -412,7 +412,7 @@ _No description available_
 |:----:|
 |text|
 
-_Set a custom font._
+Set a custom font.
 
 ### Line Width
 
@@ -425,7 +425,7 @@ _Set a custom font._
 |:----:|:-------:|
 |number|2.0|
 
-_The width of lines drawn on the canvas._
+The width of lines drawn on the canvas.
 
 ### Paint Color
 
@@ -438,7 +438,7 @@ _The width of lines drawn on the canvas._
 |:----:|:-------:|
 |number|&HFF000000|
 
-_The color in which lines are drawn_
+The color in which lines are drawn
 
 ### Text Alignment
 
@@ -451,7 +451,7 @@ _The color in which lines are drawn_
 |:----:|:-------:|
 |number|1|
 
-_Determines the alignment of the text drawn by DrawText() or DrawAngle() with respect to the point specified by that command: point at the left of the text, point at the center of the text, or point at the right of the text._
+Determines the alignment of the text drawn by DrawText() or DrawAngle() with respect to the point specified by that command: point at the left of the text, point at the center of the text, or point at the right of the text.
 
 ### Visible
 
@@ -464,7 +464,7 @@ _Determines the alignment of the text drawn by DrawText() or DrawAngle() with re
 |:----:|:-------:|
 |boolean|True|
 
-_Returns true iff the component is visible._
+Returns true iff the component is visible.
 
 ### Column
 
@@ -475,7 +475,7 @@ _Returns true iff the component is visible._
 |:----:|:-------:|
 |number|None|
 
-_Column property getter method._
+Column property getter method.
 
 ### Height
 
@@ -486,11 +486,11 @@ _Column property getter method._
 |:----:|:-------:|
 |number|None|
 
-_Set the canvas height
+Set the canvas height
 
  The height can only be set to >0 or -1 (automatic) or -2 (fill parent) or
  to a value less then or equal to LENGTH_PERCENT_TAG (which is later
- converted to pixels._
+ converted to pixels.
 
 ### Height Percent
 
@@ -501,8 +501,8 @@ _Set the canvas height
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's vertical height as a percentage
- of the height of its parent Component._
+Specifies the component's vertical height as a percentage
+ of the height of its parent Component.
 
 ### Row
 
@@ -513,7 +513,7 @@ _Specifies the component's vertical height as a percentage
 |:----:|:-------:|
 |number|None|
 
-_Row property getter method._
+Row property getter method.
 
 ### Width
 
@@ -524,11 +524,11 @@ _Row property getter method._
 |:----:|:-------:|
 |number|None|
 
-_Set the canvas width
+Set the canvas width
 
  The width can only be set to >0 or -1 (automatic) or -2 (fill parent)
  or to a value less then or equal to LENGTH_PERCENT_TAG (which is later
- converted to pixels._
+ converted to pixels.
 
 ### Width Percent
 
@@ -539,5 +539,5 @@ _Set the canvas width
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's horizontal width as a percentage
- of the Width of its parent Component._
+Specifies the component's horizontal width as a percentage
+ of the Width of its parent Component.

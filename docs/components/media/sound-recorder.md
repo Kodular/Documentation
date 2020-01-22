@@ -8,7 +8,7 @@
 
 ## Overview
 
-_A non-visible component that records audio from the device''s microphone._
+A non-visible component that records audio from the device''s microphone.
 
 ## Events
 
@@ -22,19 +22,19 @@ _A non-visible component that records audio from the device''s microphone._
     |sound|`text`|
 
 
-_Provides the location of the newly created sound._
+Provides the location of the newly created sound.
 
 ### Started Recording
 
 [[Event('Sound Recorder', 'Started Recording')]]
 
-_Indicates that the recorder has started, and can be stopped._
+Indicates that the recorder has started, and can be stopped.
 
 ### Stopped Recording
 
 [[Event('Sound Recorder', 'Stopped Recording')]]
 
-_Indicates that the recorder has stopped, and can be started again._
+Indicates that the recorder has stopped, and can be started again.
 
 ## Methods
 
@@ -42,19 +42,19 @@ _Indicates that the recorder has stopped, and can be started again._
 
 [[Method('Sound Recorder', 'Pause', false)]]
 
-_Pause recording._
+Pause recording.
 
 ### Start
 
 [[Method('Sound Recorder', 'Start', false)]]
 
-_Starts recording._
+Starts recording.
 
 ### Stop
 
 [[Method('Sound Recorder', 'Stop', false)]]
 
-_Stops recording._
+Stops recording.
 
 ## Properties
 
@@ -69,4 +69,4 @@ _Stops recording._
 |:----:|:-------:|
 |text|/mnt/sdcard/Makeroid/mySound.3gp|
 
-_Specifies the path to the file where the recording should be stored. If this property is the empty string, then starting a recording will create a file in an appropriate location.  If the property is not the empty string, it should specify a complete path to a file in an existing directory, including a file name with the extension .3gp._
+Specifies the path to the file where the recording should be stored. If this property is the empty string, then starting a recording will create a file in an appropriate location.  If the property is not the empty string, it should specify a complete path to a file in an existing directory, including a file name with the extension .3gp.

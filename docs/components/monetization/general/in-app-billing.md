@@ -8,7 +8,7 @@
 
 ## Overview
 
-_A non-visible component that lets the user purchase items, powered by Google''s In-App Purchases service._
+A non-visible component that lets the user purchase items, powered by Google''s In-App Purchases service.
 
 ## Events
 
@@ -22,7 +22,7 @@ _A non-visible component that lets the user purchase items, powered by Google''s
     |product Id|`text`|
 
 
-_After purchase event._
+After purchase event.
 
 ### Error Occurred
 
@@ -34,7 +34,7 @@ _After purchase event._
     |message|`text`|
 
 
-_Error occurred event._
+Error occurred event.
 
 ### Got Owned Purchases
 
@@ -47,7 +47,7 @@ _Error occurred event._
     |owned Subscriptions|`list`|
 
 
-_Got Owned Purchases_
+Got Owned Purchases
 
 ### Got Product Details
 
@@ -64,7 +64,7 @@ _Got Owned Purchases_
     |price|`text`|
 
 
-_Got Product Details_
+Got Product Details
 
 ### Got Subscription Details
 
@@ -82,7 +82,7 @@ _Got Product Details_
     |price|`text`|
 
 
-_Got Subscription Details_
+Got Subscription Details
 
 ## Methods
 
@@ -98,7 +98,7 @@ _Got Subscription Details_
     |product Id|`text`|
 
 
-_Do not use this block anymore. This block is deprecated and does nothing and will be removed in the future!_
+Do not use this block anymore. This block is deprecated and does nothing and will be removed in the future!
 
 ### Initialize
 
@@ -113,7 +113,7 @@ _Do not use this block anymore. This block is deprecated and does nothing and wi
     |merchant Id|`text`|
 
 
-_Do not use this block anymore. This block is deprecated and does nothing and will be removed in the future!_
+Do not use this block anymore. This block is deprecated and does nothing and will be removed in the future!
 
 ### IsPurchased
 
@@ -127,7 +127,7 @@ _Do not use this block anymore. This block is deprecated and does nothing and wi
     |product Id|`text`|
 
 
-_Returns true if the product with the specific id is purchased._
+Returns true if the product with the specific id is purchased.
 
 ### IsSubscribed
 
@@ -141,13 +141,13 @@ _Returns true if the product with the specific id is purchased._
     |subscription Id|`text`|
 
 
-_Returns true if the product is subscribed._
+Returns true if the product is subscribed.
 
 ### LoadOwnedPurchases
 
 [[Method('In App Billing', 'LoadOwnedPurchases', false)]]
 
-_Load Owned Purchases from Google._
+Load Owned Purchases from Google.
 
 ### ProductDetails
 
@@ -159,7 +159,7 @@ _Load Owned Purchases from Google._
     |product Id|`text`|
 
 
-_Get product details from the specific product id._
+Get product details from the specific product id.
 
 ### Purchase
 
@@ -171,7 +171,7 @@ _Get product details from the specific product id._
     |product Id|`text`|
 
 
-_Purchase a product with the given product id._
+Purchase a product with the given product id.
 
 ### Subscribe
 
@@ -183,7 +183,7 @@ _Purchase a product with the given product id._
     |subscription Id|`text`|
 
 
-_Subscribe a product with the given product id._
+Subscribe a product with the given product id.
 
 ### SubscriptionDetails
 
@@ -195,7 +195,7 @@ _Subscribe a product with the given product id._
     |subscription Id|`text`|
 
 
-_Get subscription details from the given id._
+Get subscription details from the given id.
 
 ### UpdateSubscription
 
@@ -209,7 +209,7 @@ _Get subscription details from the given id._
     |subscription Id|`text`|
 
 
-_Do not use this block anymore. This block is deprecated and does nothing and will be removed in the future!_
+Do not use this block anymore. This block is deprecated and does nothing and will be removed in the future!
 
 ## Properties
 
@@ -224,7 +224,7 @@ _Do not use this block anymore. This block is deprecated and does nothing and wi
 |:----:|:-------:|
 |boolean|true|
 
-_Do not use this block anymore. This block is deprecated and does nothing and will be removed in the future!_
+Do not use this block anymore. This block is deprecated and does nothing and will be removed in the future!
 
 ### Test Mode
 
@@ -237,7 +237,7 @@ _Do not use this block anymore. This block is deprecated and does nothing and wi
 |:----:|:-------:|
 |boolean|false|
 
-_Whether it is testing mode enabled or not._
+Whether it is testing mode enabled or not.
 
 ### Is IAB Service Available
 
@@ -248,7 +248,7 @@ _Whether it is testing mode enabled or not._
 |:----:|:-------:|
 |boolean|None|
 
-_Check Play Market services availability._
+Check Play Market services availability.
 
 ### Is One Time Purchase Available
 
@@ -259,7 +259,7 @@ _Check Play Market services availability._
 |:----:|:-------:|
 |boolean|None|
 
-_Is one time purchase supported._
+Is one time purchase supported.
 
 ### Is Subscription Update Supported
 
@@ -270,7 +270,7 @@ _Is one time purchase supported._
 |:----:|:-------:|
 |boolean|None|
 
-_Is subscription update supported._
+Is subscription update supported.
 
 ### Ready To Purchase
 
@@ -281,4 +281,4 @@ _Is subscription update supported._
 |:----:|:-------:|
 |boolean|None|
 
-_Whether In-app billing service is ready to purchase._
+Whether In-app billing service is ready to purchase.

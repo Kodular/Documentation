@@ -6,7 +6,7 @@
 
 ## Overview
 
-_A visible component that shows a navigation menu in the bottom of the screen._
+A visible component that shows a navigation menu in the bottom of the screen.
 
 ## Events
 
@@ -21,7 +21,7 @@ _A visible component that shows a navigation menu in the bottom of the screen._
     |title|`text`|
 
 
-_Event triggers when an item was selected._
+Event triggers when an item was selected.
 
 ## Methods
 
@@ -37,13 +37,13 @@ _Event triggers when an item was selected._
     |image|`text`|
 
 
-_Add an item to the bottom menu_
+Add an item to the bottom menu
 
 ### RemoveAllItems
 
 [[Method('Bottom Navigation', 'RemoveAllItems', false)]]
 
-_Remove all items from the bottom menu_
+Remove all items from the bottom menu
 
 ### RemoveItem
 
@@ -55,7 +55,7 @@ _Remove all items from the bottom menu_
     |id|`number`|
 
 
-_Remove an item from the bottom menu_
+Remove an item from the bottom menu
 
 ### SelectItem
 
@@ -67,7 +67,7 @@ _Remove an item from the bottom menu_
     |id|`number`|
 
 
-_Select an item from the bottom menu_
+Select an item from the bottom menu
 
 ### UpdateItem
 
@@ -81,7 +81,7 @@ _Select an item from the bottom menu_
     |image|`text`|
 
 
-_Update an item of the bottom menu_
+Update an item of the bottom menu
 
 ## Properties
 
@@ -96,7 +96,7 @@ _Update an item of the bottom menu_
 |:----:|:-------:|
 |number|&HFFFFFFFF|
 
-_Set the background color of the Bottom Navigation Menu_
+Set the background color of the Bottom Navigation Menu
 
 ### Selected Color
 
@@ -109,7 +109,7 @@ _Set the background color of the Bottom Navigation Menu_
 |:----:|:-------:|
 |number|&HFF3F51B5|
 
-_Set the color of the selected item of the Bottom Navigation Menu_
+Set the color of the selected item of the Bottom Navigation Menu
 
 ### Unselected Color
 
@@ -122,7 +122,7 @@ _Set the color of the selected item of the Bottom Navigation Menu_
 |:----:|:-------:|
 |number|&HFF6E6E6E|
 
-_Set the color of the unselected items of the Bottom Navigation Menu_
+Set the color of the unselected items of the Bottom Navigation Menu
 
 ### Visible
 
@@ -135,7 +135,7 @@ _Set the color of the unselected items of the Bottom Navigation Menu_
 |:----:|:-------:|
 |boolean|True|
 
-_Returns true iff the component is visible._
+Returns true iff the component is visible.
 
 ### Column
 
@@ -146,7 +146,7 @@ _Returns true iff the component is visible._
 |:----:|:-------:|
 |number|None|
 
-_Column property getter method._
+Column property getter method.
 
 ### Row
 
@@ -157,4 +157,4 @@ _Column property getter method._
 |:----:|:-------:|
 |number|None|
 
-_Row property getter method._
+Row property getter method.

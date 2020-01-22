@@ -8,7 +8,7 @@
 
 ## Overview
 
-_A non-visible component that allows for uploading and downloading of files via File Transfer Protocol._
+A non-visible component that allows for uploading and downloading of files via File Transfer Protocol.
 
 ## Events
 
@@ -22,7 +22,7 @@ _A non-visible component that allows for uploading and downloading of files via 
     |error|`text`|
 
 
-_This event returns the reason if a try to connect was not successful._
+This event returns the reason if a try to connect was not successful.
 
 ### Connection Status
 
@@ -34,7 +34,7 @@ _This event returns the reason if a try to connect was not successful._
     |is Connected|`boolean`|
 
 
-_This event returns the status of the connection. If it is connect it will return true, else false._
+This event returns the status of the connection. If it is connect it will return true, else false.
 
 ### Disconnect Error
 
@@ -46,13 +46,13 @@ _This event returns the status of the connection. If it is connect it will retur
     |error|`text`|
 
 
-_This event returns the reason if a try to disconnect was not successful._
+This event returns the reason if a try to disconnect was not successful.
 
 ### Download Done
 
 [[Event('FTP', 'Download Done')]]
 
-_This event is invoked when the download is finished._
+This event is invoked when the download is finished.
 
 ### Download error
 
@@ -64,13 +64,13 @@ _This event is invoked when the download is finished._
     |error|`text`|
 
 
-_This event returns the reason if a download was not successful._
+This event returns the reason if a download was not successful.
 
 ### Upload Done
 
 [[Event('FTP', 'Upload Done')]]
 
-_This event is invoked when the upload is finished._
+This event is invoked when the upload is finished.
 
 ### Upload error
 
@@ -82,7 +82,7 @@ _This event is invoked when the upload is finished._
     |error|`text`|
 
 
-_This event returns the reason if a upload was not successful._
+This event returns the reason if a upload was not successful.
 
 ## Methods
 
@@ -90,13 +90,13 @@ _This event returns the reason if a upload was not successful._
 
 [[Method('FTP', 'Connect', false)]]
 
-_Start the connection to the ftp server._
+Start the connection to the ftp server.
 
 ### Disconnect
 
 [[Method('FTP', 'Disconnect', false)]]
 
-_Disconnect the current connection._
+Disconnect the current connection.
 
 ### DownloadFile
 
@@ -109,7 +109,7 @@ _Disconnect the current connection._
     |destination|`text`|
 
 
-_Start downloading a file._
+Start downloading a file.
 
 ### GetListOfFiles
 
@@ -123,7 +123,7 @@ _Start downloading a file._
     |dir|`text`|
 
 
-_Get a list of files in a directory. Returns a empty list if a error occurs._
+Get a list of files in a directory. Returns a empty list if a error occurs.
 
 ### UploadFile
 
@@ -136,7 +136,7 @@ _Get a list of files in a directory. Returns a empty list if a error occurs._
     |new Name|`text`|
 
 
-_Start uploading a file._
+Start uploading a file.
 
 ### Delete Dir
 
@@ -148,7 +148,7 @@ _Start uploading a file._
     |dir|`text`|
 
 
-_Delete a directory on the ftp server._
+Delete a directory on the ftp server.
 
 ### make Dir
 
@@ -160,7 +160,7 @@ _Delete a directory on the ftp server._
     |dir|`text`|
 
 
-_Make/create a directory on the ftp server._
+Make/create a directory on the ftp server.
 
 ## Properties
 
@@ -175,7 +175,7 @@ _Make/create a directory on the ftp server._
 |:----:|:-------:|
 |text|ftp.example.org|
 
-_Set the ftp server url._
+Set the ftp server url.
 
 ### Password
 
@@ -188,7 +188,7 @@ _Set the ftp server url._
 |:----:|
 |text|
 
-_Set the password to login into the ftp server._
+Set the password to login into the ftp server.
 
 ### Port
 
@@ -201,7 +201,7 @@ _Set the password to login into the ftp server._
 |:----:|:-------:|
 |number|21|
 
-_Set the ftp port number._
+Set the ftp port number.
 
 ### Username
 
@@ -214,7 +214,7 @@ _Set the ftp port number._
 |:----:|:-------:|
 |text|Your Username|
 
-_Set the username to login into the ftp server._
+Set the username to login into the ftp server.
 
 ### Working Directory
 
@@ -227,4 +227,4 @@ _Set the username to login into the ftp server._
 |:----:|:-------:|
 |text|/|
 
-_Set the ftp working dir._
+Set the ftp working dir.

@@ -8,7 +8,7 @@
 
 ## Overview
 
-_A component that provides a high-level interface to a gyro sensor on a LEGO MINDSTORMS EV3 robot._
+A component that provides a high-level interface to a gyro sensor on a LEGO MINDSTORMS EV3 robot.
 
 ## Events
 
@@ -22,7 +22,7 @@ _A component that provides a high-level interface to a gyro sensor on a LEGO MIN
     |sensor Value|`number`|
 
 
-_Called then the sensor value changed._
+Called then the sensor value changed.
 
 ## Methods
 
@@ -32,19 +32,19 @@ _Called then the sensor value changed._
 
 {>>Returns `number`<<}
 
-_Returns the current angle or rotation speed based on current mode, or -1 if the value cannot be read from sensor._
+Returns the current angle or rotation speed based on current mode, or -1 if the value cannot be read from sensor.
 
 ### SetAngleMode
 
 [[Method('EV3 Gyro Sensor', 'SetAngleMode', false)]]
 
-_Measures the orientation of the sensor._
+Measures the orientation of the sensor.
 
 ### SetRateMode
 
 [[Method('EV3 Gyro Sensor', 'SetRateMode', false)]]
 
-_Measures the angular velocity of the sensor._
+Measures the angular velocity of the sensor.
 
 ## Properties
 
@@ -59,7 +59,7 @@ _Measures the angular velocity of the sensor._
 |:----:|
 |component|
 
-_The BluetoothClient component that should be used for communication._
+The BluetoothClient component that should be used for communication.
 
 ### Mode
 
@@ -72,7 +72,7 @@ _The BluetoothClient component that should be used for communication._
 |:----:|:-------:|
 |text|angle|
 
-_Specifies the mode of the sensor._
+Specifies the mode of the sensor.
 
 ### Sensor Port
 
@@ -85,7 +85,7 @@ _Specifies the mode of the sensor._
 |:----:|:-------:|
 |text|1|
 
-_The sensor port that the sensor is connected to._
+The sensor port that the sensor is connected to.
 
 ### Sensor Value Changed Event Enabled
 
@@ -98,4 +98,4 @@ _The sensor port that the sensor is connected to._
 |:----:|:-------:|
 |boolean|False|
 
-_Whether the SensorValueChanged event should fire when the sensor value changed._
+Whether the SensorValueChanged event should fire when the sensor value changed.

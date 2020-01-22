@@ -8,7 +8,7 @@
 
 ## Overview
 
-_A non-visible component that shows a pop-up list of Google accounts currently signed-in on the device for the user to pick from._
+A non-visible component that shows a pop-up list of Google accounts currently signed-in on the device for the user to pick from.
 
 ## Events
 
@@ -22,7 +22,7 @@ _A non-visible component that shows a pop-up list of Google accounts currently s
     |account Name|`text`|
 
 
-_Event raised after account has been picked._
+Event raised after account has been picked.
 
 ## Methods
 
@@ -30,4 +30,4 @@ _Event raised after account has been picked._
 
 [[Method('Google Account Picker', 'Pick', false)]]
 
-_Provide an account picker to pick a Google account._
+Provide an account picker to pick a Google account.

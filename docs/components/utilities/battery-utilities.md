@@ -8,7 +8,7 @@
 
 ## Overview
 
-_A non-visible component that queries and monitors the device''s battery and its charging status._
+A non-visible component that queries and monitors the device''s battery and its charging status.
 
 ## Methods
 
@@ -24,7 +24,7 @@ _A non-visible component that queries and monitors the device''s battery and its
     |key|`text`|
 
 
-_Returns a list showing battery info for the specified key. Key can be: HEALTH, LEVEL, PLUGGED, PRESENT, STATUS, CHARGE_STATUS, TECHNOLOGY, TEMPERATURE, VOLTAGE. If key is empty, then all battery info is returned._
+Returns a list showing battery info for the specified key. Key can be: HEALTH, LEVEL, PLUGGED, PRESENT, STATUS, CHARGE_STATUS, TECHNOLOGY, TEMPERATURE, VOLTAGE. If key is empty, then all battery info is returned.
 
 ## Properties
 
@@ -39,7 +39,7 @@ _Returns a list showing battery info for the specified key. Key can be: HEALTH, 
 |:----:|:-------:|
 |boolean|False|
 
-_Starts or stops monitoring battery data. StartMonitoring only when you need to get information._
+Starts or stops monitoring battery data. StartMonitoring only when you need to get information.
 
 ### Show Battery Health
 
@@ -50,7 +50,7 @@ _Starts or stops monitoring battery data. StartMonitoring only when you need to 
 |:----:|:-------:|
 |text|None|
 
-_Returns battery health. It can be: COLD, DEAD, GOOD, OVERHEAT, OVER_VOLTAGE, UNKNOWN_
+Returns battery health. It can be: COLD, DEAD, GOOD, OVERHEAT, OVER_VOLTAGE, UNKNOWN
 
 ### Battery Level
 
@@ -61,7 +61,7 @@ _Returns battery health. It can be: COLD, DEAD, GOOD, OVERHEAT, OVER_VOLTAGE, UN
 |:----:|:-------:|
 |number|None|
 
-_Returns battery percentage level_
+Returns battery percentage level
 
 ### Battery Plugged
 
@@ -72,7 +72,7 @@ _Returns battery percentage level_
 |:----:|:-------:|
 |text|None|
 
-_Indicating whether the device is plugged in to a power source. Can be USB, AC or UNKNOWN_
+Indicating whether the device is plugged in to a power source. Can be USB, AC or UNKNOWN
 
 ### Battery Present
 
@@ -83,7 +83,7 @@ _Indicating whether the device is plugged in to a power source. Can be USB, AC o
 |:----:|:-------:|
 |boolean|None|
 
-_Indicating whether a battery is present_
+Indicating whether a battery is present
 
 ### Battery Temperature
 
@@ -94,7 +94,7 @@ _Indicating whether a battery is present_
 |:----:|:-------:|
 |number|None|
 
-_Indicating battery temperature in Centigrade_
+Indicating battery temperature in Centigrade
 
 ### Battery Voltage
 
@@ -105,4 +105,4 @@ _Indicating battery temperature in Centigrade_
 |:----:|:-------:|
 |number|None|
 
-_Indicating battery voltage in Volts_
+Indicating battery voltage in Volts

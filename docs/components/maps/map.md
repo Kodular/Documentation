@@ -6,7 +6,7 @@
 
 ## Overview
 
-_<p>A two-dimensional container that renders map tiles in the background and allows for multiple Marker elements to identify points on the map. Map tiles are supplied by OpenStreetMap contributors and the United States Geological Survey.</p><p>The Map component provides three utilities for manipulating its boundaries within App Inventor. First, a locking mechanism is provided to allow the map to be moved relative to other components on the Screen. Second, when unlocked, the user can pan the Map to any location. At this new location, the &quot;Set Initial Boundary&quot; button can be pressed to save the current Map coordinates to its properties. Lastly, if the Map is moved to a different location, for example to add Markers off-screen, then the &quot;Reset Map to Initial Bounds&quot; button can be used to re-center the Map at the starting location.</p>_
+<p>A two-dimensional container that renders map tiles in the background and allows for multiple Marker elements to identify points on the map. Map tiles are supplied by OpenStreetMap contributors and the United States Geological Survey.</p><p>The Map component provides three utilities for manipulating its boundaries within App Inventor. First, a locking mechanism is provided to allow the map to be moved relative to other components on the Screen. Second, when unlocked, the user can pan the Map to any location. At this new location, the &quot;Set Initial Boundary&quot; button can be pressed to save the current Map coordinates to its properties. Lastly, if the Map is moved to a different location, for example to add Markers off-screen, then the &quot;Reset Map to Initial Bounds&quot; button can be used to re-center the Map at the starting location.</p>
 
 ## Events
 
@@ -14,7 +14,7 @@ _<p>A two-dimensional container that renders map tiles in the background and all
 
 [[Event('Map', 'Bounds Change')]]
 
-_User has changed the map bounds by panning or zooming the map._
+User has changed the map bounds by panning or zooming the map.
 
 ### Double Tap At Point
 
@@ -27,7 +27,7 @@ _User has changed the map bounds by panning or zooming the map._
     |longitude|`number`|
 
 
-_The user double-tapped at a point on the map. This event will be followed by a ZoomChanged event if zooming gestures are enabled and the map is not at the highest possible zoom level._
+The user double-tapped at a point on the map. This event will be followed by a ZoomChanged event if zooming gestures are enabled and the map is not at the highest possible zoom level.
 
 ### Feature Click
 
@@ -39,7 +39,7 @@ _The user double-tapped at a point on the map. This event will be followed by a 
     |feature|`component`|
 
 
-_The user clicked on a map feature._
+The user clicked on a map feature.
 
 ### Feature Drag
 
@@ -51,7 +51,7 @@ _The user clicked on a map feature._
     |feature|`component`|
 
 
-_The user dragged a map feature._
+The user dragged a map feature.
 
 ### Feature Long Click
 
@@ -63,7 +63,7 @@ _The user dragged a map feature._
     |feature|`component`|
 
 
-_The user long-pressed on a map feature._
+The user long-pressed on a map feature.
 
 ### Feature Start Drag
 
@@ -75,7 +75,7 @@ _The user long-pressed on a map feature._
     |feature|`component`|
 
 
-_The user started dragging a map feature._
+The user started dragging a map feature.
 
 ### Feature Stop Drag
 
@@ -87,7 +87,7 @@ _The user started dragging a map feature._
     |feature|`component`|
 
 
-_The user stopped dragging a map feature._
+The user stopped dragging a map feature.
 
 ### Got Features
 
@@ -100,7 +100,7 @@ _The user stopped dragging a map feature._
     |features|`list`|
 
 
-_A GeoJSON document was successfully read from url. The features specified in the document are provided as a list in features._
+A GeoJSON document was successfully read from url. The features specified in the document are provided as a list in features.
 
 ### Invalid Point
 
@@ -112,7 +112,7 @@ _A GeoJSON document was successfully read from url. The features specified in th
     |message|`text`|
 
 
-_An invalid coordinate was supplied during a maps operation. The message parameter will have more details about the issue._
+An invalid coordinate was supplied during a maps operation. The message parameter will have more details about the issue.
 
 ### Load Error
 
@@ -126,7 +126,7 @@ _An invalid coordinate was supplied during a maps operation. The message paramet
     |error Message|`text`|
 
 
-_An error was encountered while processing a GeoJSON document at the given url. The responseCode parameter will contain an HTTP status code and the errorMessage parameter will contain a detailed error message._
+An error was encountered while processing a GeoJSON document at the given url. The responseCode parameter will contain an HTTP status code and the errorMessage parameter will contain a detailed error message.
 
 ### Long Press At Point
 
@@ -139,13 +139,13 @@ _An error was encountered while processing a GeoJSON document at the given url. 
     |longitude|`number`|
 
 
-_The user long-pressed at a point on the map._
+The user long-pressed at a point on the map.
 
 ### Map Ready
 
 [[Event('Map', 'Map Ready')]]
 
-_Map has been initialized and is ready for user interaction._
+Map has been initialized and is ready for user interaction.
 
 ### Tap At Point
 
@@ -158,13 +158,13 @@ _Map has been initialized and is ready for user interaction._
     |longitude|`number`|
 
 
-_The user tapped at a point on the map._
+The user tapped at a point on the map.
 
 ### Zoom Change
 
 [[Event('Map', 'Zoom Change')]]
 
-_User has changed the zoom level of the map._
+User has changed the zoom level of the map.
 
 ## Methods
 
@@ -181,7 +181,7 @@ _User has changed the zoom level of the map._
     |longitude|`number`|
 
 
-_Create a new marker with default properties at the specified latitude and longitude._
+Create a new marker with default properties at the specified latitude and longitude.
 
 ### FeatureFromDescription
 
@@ -195,7 +195,7 @@ _Create a new marker with default properties at the specified latitude and longi
     |description|`list`|
 
 
-_Convert a feature description into an App Inventor map feature. Currently the only
+Convert a feature description into an App Inventor map feature. Currently the only
  supported conversion is from a GeoJSON point to Marker component. If the feature has
  properties, they will be mapped into App Inventor properties using the following mapping:
 
@@ -209,7 +209,7 @@ _Convert a feature description into an App Inventor map feature. Currently the o
  stroke-opacity becomes StrokeOpacity;
  stroke-width becomes StrokeWidth;
  title becomes Title;
- visible becomes Visible_
+ visible becomes Visible
 
 ### LoadFromURL
 
@@ -221,7 +221,7 @@ _Convert a feature description into an App Inventor map feature. Currently the o
     |url|`text`|
 
 
-_<p>Load a feature collection in <a href="https://en.wikipedia.org/wiki/GeoJSON">GeoJSON</a> format from the given url. On success, the event GotFeatures will be raised with the given url and a list of the features parsed from the GeoJSON as a list of (key, value) pairs. On failure, the LoadError event will be raised with any applicable HTTP response code and error message.</p>_
+<p>Load a feature collection in <a href="https://en.wikipedia.org/wiki/GeoJSON">GeoJSON</a> format from the given url. On success, the event GotFeatures will be raised with the given url and a list of the features parsed from the GeoJSON as a list of (key, value) pairs. On failure, the LoadError event will be raised with any applicable HTTP response code and error message.</p>
 
 ### PanTo
 
@@ -235,7 +235,7 @@ _<p>Load a feature collection in <a href="https://en.wikipedia.org/wiki/GeoJSON"
     |zoom|`number`|
 
 
-_Pan the map center to the given latitude and longitude and adjust the zoom level to the specified zoom._
+Pan the map center to the given latitude and longitude and adjust the zoom level to the specified zoom.
 
 ### Save
 
@@ -247,7 +247,7 @@ _Pan the map center to the given latitude and longitude and adjust the zoom leve
     |path|`text`|
 
 
-_Save the contents of the Map to the specified path._
+Save the contents of the Map to the specified path.
 
 ## Properties
 
@@ -262,7 +262,7 @@ _Save the contents of the Map to the specified path._
 |:----:|:-------:|
 |text|42.359144, -71.093612|
 
-_<p>Set the initial center coordinate of the map. The value is specified as a comma-separated pair of decimal latitude and longitude coordinates, for example, <code>42.359144, -71.093612</code>.</p><p>In blocks code, it is recommended for performance reasons to use SetCenter with numerical latitude and longitude rather than convert to the string representation for use with this property.</p>_
+<p>Set the initial center coordinate of the map. The value is specified as a comma-separated pair of decimal latitude and longitude coordinates, for example, <code>42.359144, -71.093612</code>.</p><p>In blocks code, it is recommended for performance reasons to use SetCenter with numerical latitude and longitude rather than convert to the string representation for use with this property.</p>
 
 ### Enable Pan
 
@@ -275,7 +275,7 @@ _<p>Set the initial center coordinate of the map. The value is specified as a co
 |:----:|:-------:|
 |boolean|True|
 
-_Enable two-finger panning of the Map_
+Enable two-finger panning of the Map
 
 ### Enable Rotation
 
@@ -288,7 +288,7 @@ _Enable two-finger panning of the Map_
 |:----:|:-------:|
 |boolean|False|
 
-_Enable rotating the map based on the user's orientation._
+Enable rotating the map based on the user's orientation.
 
 ### Enable Zoom
 
@@ -301,8 +301,8 @@ _Enable rotating the map based on the user's orientation._
 |:----:|:-------:|
 |boolean|True|
 
-_<p>Set whether the user can zoom the map using touch gestures. This value does not affect
- whether the user can zoom using the zoom controls from_
+<p>Set whether the user can zoom the map using touch gestures. This value does not affect
+ whether the user can zoom using the zoom controls from
 
 ### Location Sensor
 
@@ -315,7 +315,7 @@ _<p>Set whether the user can zoom the map using touch gestures. This value does 
 |:----:|
 |component|
 
-_Uses the provided LocationSensor for user location data rather than the built-in location provider._
+Uses the provided LocationSensor for user location data rather than the built-in location provider.
 
 ### Map Type
 
@@ -328,12 +328,12 @@ _Uses the provided LocationSensor for user location data rather than the built-i
 |:----:|:-------:|
 |number|1|
 
-_<p>Set the type of map tile used for the base tile layer. Valid values are:</p>
+<p>Set the type of map tile used for the base tile layer. Valid values are:</p>
  <ol>
  <li>Roads</li>
  <li>Aerial</li>
  <li>Terrain</li>
- </ol>_
+ </ol>
 
 ### Rotation
 
@@ -346,7 +346,7 @@ _<p>Set the type of map tile used for the base tile layer. Valid values are:</p>
 |:----:|:-------:|
 |number|0.0|
 
-_Sets or gets the rotation of the map in decimal degrees if any_
+Sets or gets the rotation of the map in decimal degrees if any
 
 ### Scale Units
 
@@ -372,8 +372,8 @@ _No description available_
 |:----:|:-------:|
 |boolean|False|
 
-_Show a compass on the map. If the device provides a digital compass, orientation changes will
- be used to rotate the compass icon._
+Show a compass on the map. If the device provides a digital compass, orientation changes will
+ be used to rotate the compass icon.
 
 ### Show Scale
 
@@ -386,7 +386,7 @@ _Show a compass on the map. If the device provides a digital compass, orientatio
 |:----:|:-------:|
 |boolean|False|
 
-_Shows a scale reference on the map._
+Shows a scale reference on the map.
 
 ### Show User
 
@@ -399,7 +399,7 @@ _Shows a scale reference on the map._
 |:----:|:-------:|
 |boolean|False|
 
-_Show the user's location on the map._
+Show the user's location on the map.
 
 ### Show Zoom
 
@@ -412,7 +412,7 @@ _Show the user's location on the map._
 |:----:|:-------:|
 |boolean|False|
 
-_Show the zoom controls on the map._
+Show the zoom controls on the map.
 
 ### Visible
 
@@ -425,7 +425,7 @@ _Show the zoom controls on the map._
 |:----:|:-------:|
 |boolean|True|
 
-_Returns true iff the component is visible._
+Returns true iff the component is visible.
 
 ### Zoom Level
 
@@ -438,12 +438,12 @@ _Returns true iff the component is visible._
 |:----:|:-------:|
 |number|13|
 
-_<p>Set the zoom level of the map.</p>
+<p>Set the zoom level of the map.</p>
  <p>Valid values of ZoomLevel are dependent on the tile provider and the latitude and
  longitude of the map. For example, zoom levels are more constrained over oceans than dense
  city centers to conserve space for storing tiles, so valid values may be 1-7 over ocean and
  1-18 over cities. Tile providers may send warning or error tiles if the zoom level is too
- great for the server to support.</p>_
+ great for the server to support.</p>
 
 ### Bounding Box
 
@@ -454,7 +454,7 @@ _<p>Set the zoom level of the map.</p>
 |:----:|:-------:|
 |list|None|
 
-_Bounding box for the map stored as [[North, West], [South, East]]._
+Bounding box for the map stored as [[North, West], [South, East]].
 
 ### Column
 
@@ -465,7 +465,7 @@ _Bounding box for the map stored as [[North, West], [South, East]]._
 |:----:|:-------:|
 |number|None|
 
-_Column property getter method._
+Column property getter method.
 
 ### Features
 
@@ -476,7 +476,7 @@ _Column property getter method._
 |:----:|:-------:|
 |list|None|
 
-_The list of features placed on this map. This list also includes any features created by calls to FeatureFromDescription_
+The list of features placed on this map. This list also includes any features created by calls to FeatureFromDescription
 
 ### Height
 
@@ -487,7 +487,7 @@ _The list of features placed on this map. This list also includes any features c
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's vertical height, measured in pixels._
+Specifies the component's vertical height, measured in pixels.
 
 ### Height Percent
 
@@ -498,8 +498,8 @@ _Specifies the component's vertical height, measured in pixels._
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's vertical height as a percentage
- of the height of its parent Component._
+Specifies the component's vertical height as a percentage
+ of the height of its parent Component.
 
 ### Latitude
 
@@ -510,7 +510,7 @@ _Specifies the component's vertical height as a percentage
 |:----:|:-------:|
 |number|None|
 
-_The latitude of the center of the map._
+The latitude of the center of the map.
 
 ### Longitude
 
@@ -521,7 +521,7 @@ _The latitude of the center of the map._
 |:----:|:-------:|
 |number|None|
 
-_The longitude of the center of the map._
+The longitude of the center of the map.
 
 ### Row
 
@@ -532,7 +532,7 @@ _The longitude of the center of the map._
 |:----:|:-------:|
 |number|None|
 
-_Row property getter method._
+Row property getter method.
 
 ### User Latitude
 
@@ -543,7 +543,7 @@ _Row property getter method._
 |:----:|:-------:|
 |number|None|
 
-_Returns the user's latitude if ShowUser is enabled._
+Returns the user's latitude if ShowUser is enabled.
 
 ### User Longitude
 
@@ -554,7 +554,7 @@ _Returns the user's latitude if ShowUser is enabled._
 |:----:|:-------:|
 |number|None|
 
-_Returns the user's longitude if ShowUser is enabled._
+Returns the user's longitude if ShowUser is enabled.
 
 ### Width
 
@@ -565,7 +565,7 @@ _Returns the user's longitude if ShowUser is enabled._
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's horizontal width, measured in pixels._
+Specifies the component's horizontal width, measured in pixels.
 
 ### Width Percent
 
@@ -576,5 +576,5 @@ _Specifies the component's horizontal width, measured in pixels._
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's horizontal width as a percentage
- of the Width of its parent Component._
+Specifies the component's horizontal width as a percentage
+ of the Width of its parent Component.

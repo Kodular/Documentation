@@ -8,7 +8,7 @@
 
 ## Overview
 
-_A non-visible component that provides access to the Airtable spreadsheet storage<br>Component credits\: <a href\="https\://community.kodular.io/u/jerin_jacob" target\="_blank">Jerin Jacob</a>_
+A non-visible component that provides access to the Airtable spreadsheet storage<br>Component credits\: <a href\="https\://community.kodular.io/u/jerin_jacob" target\="_blank">Jerin Jacob</a>
 
 ## Events
 
@@ -22,7 +22,7 @@ _A non-visible component that provides access to the Airtable spreadsheet storag
     |response Code|`number`|
 
 
-_Triggered when changing cell data. ResponseCode is a number_
+Triggered when changing cell data. ResponseCode is a number
 
 ### Deleted Row By Number
 
@@ -34,7 +34,7 @@ _Triggered when changing cell data. ResponseCode is a number_
     |response Code|`number`|
 
 
-_Triggered when destroying a row. ResponseCode is a number_
+Triggered when destroying a row. ResponseCode is a number
 
 ### Got All Rows
 
@@ -48,7 +48,7 @@ _Triggered when destroying a row. ResponseCode is a number_
     |total Rows|`number`|
 
 
-_Triggered when getting all rows. ResponseCode is a number, ResponseContent is a string_
+Triggered when getting all rows. ResponseCode is a number, ResponseContent is a string
 
 ### Got Cell
 
@@ -63,7 +63,7 @@ _Triggered when getting all rows. ResponseCode is a number, ResponseContent is a
     |created Time|`text`|
 
 
-_Triggered when receiving cell data. ResponseCode is a number, the other ones are strings_
+Triggered when receiving cell data. ResponseCode is a number, the other ones are strings
 
 ### Got Column
 
@@ -78,7 +78,7 @@ _Triggered when receiving cell data. ResponseCode is a number, the other ones ar
     |created Times|`list`|
 
 
-_Triggered when receiving column data. ResponseCode is a number, the other ones are lists_
+Triggered when receiving column data. ResponseCode is a number, the other ones are lists
 
 ### Got Row
 
@@ -91,7 +91,7 @@ _Triggered when receiving column data. ResponseCode is a number, the other ones 
     |values|`list`|
 
 
-_Triggered when receiving row data. ResponseCode is a number, Values is a list_
+Triggered when receiving row data. ResponseCode is a number, Values is a list
 
 ### Row Created
 
@@ -103,7 +103,7 @@ _Triggered when receiving row data. ResponseCode is a number, Values is a list_
     |response Code|`number`|
 
 
-_Triggered when creating a row. ResponseCode is a number_
+Triggered when creating a row. ResponseCode is a number
 
 ### Row Updated
 
@@ -115,7 +115,7 @@ _Triggered when creating a row. ResponseCode is a number_
     |response Code|`number`|
 
 
-_Triggered when updating a row. ResponseCode is a number_
+Triggered when updating a row. ResponseCode is a number
 
 ## Methods
 
@@ -130,7 +130,7 @@ _Triggered when updating a row. ResponseCode is a number_
     |values|`list`|
 
 
-_Creates a new row_
+Creates a new row
 
 ### DeleteRowNum
 
@@ -142,13 +142,13 @@ _Creates a new row_
     |row Number|`number`|
 
 
-_Deletes the given row_
+Deletes the given row
 
 ### GetAllRows
 
 [[Method('Spreadsheet', 'GetAllRows', false)]]
 
-_Gets all rows_
+Gets all rows
 
 ### GetCell
 
@@ -161,7 +161,7 @@ _Gets all rows_
     |column Name|`text`|
 
 
-_Gets cell data_
+Gets cell data
 
 ### GetColumn
 
@@ -174,7 +174,7 @@ _Gets cell data_
     |max Record|`number`|
 
 
-_Gets column data_
+Gets column data
 
 ### GetRow
 
@@ -186,7 +186,7 @@ _Gets column data_
     |row Number|`number`|
 
 
-_Gets row data_
+Gets row data
 
 ### SetCell
 
@@ -200,7 +200,7 @@ _Gets row data_
     |value|`text`|
 
 
-_Changes the value of a cell_
+Changes the value of a cell
 
 ### UpdateRowByNum
 
@@ -214,7 +214,7 @@ _Changes the value of a cell_
     |values|`list`|
 
 
-_Updates the given row data_
+Updates the given row data
 
 ## Properties
 
@@ -229,7 +229,7 @@ _Updates the given row data_
 |:----:|
 |text|
 
-_Your apiKey_
+Your apiKey
 
 ### Base ID
 

@@ -8,10 +8,10 @@
 
 ## Overview
 
-_Non-visible component that can detect shaking and measure acceleration approximately in three dimensions using SI units (m/s<sup>2</sup>).  The components are: <ul>
+Non-visible component that can detect shaking and measure acceleration approximately in three dimensions using SI units (m/s<sup>2</sup>).  The components are: <ul>
 <li> <strong>xAccel</strong>: 0 when the phone is at rest on a flat      surface, positive when the phone is tilted to the right (i.e.,      its left side is raised), and negative when the phone is tilted      to the left (i.e., its right size is raised).</li>
  <li> <strong>yAccel</strong>: 0 when the phone is at rest on a flat      surface, positive when its bottom is raised, and negative when      its top is raised. </li>
- <li> <strong>zAccel</strong>: Equal to -9.8 (earth's gravity in meters per      second per second when the device is at rest parallel to the ground      with the display facing up,      0 when perpendicular to the ground, and +9.8 when facing down.       The value can also be affected by accelerating it with or against      gravity. </li></ul>_
+ <li> <strong>zAccel</strong>: Equal to -9.8 (earth's gravity in meters per      second per second when the device is at rest parallel to the ground      with the display facing up,      0 when perpendicular to the ground, and +9.8 when facing down.       The value can also be affected by accelerating it with or against      gravity. </li></ul>
 
 ## Events
 
@@ -27,13 +27,13 @@ _Non-visible component that can detect shaking and measure acceleration approxim
     |z Accel|`number`|
 
 
-_Indicates the acceleration changed in the X, Y, and/or Z dimensions._
+Indicates the acceleration changed in the X, Y, and/or Z dimensions.
 
 ### Shaking
 
 [[Event('Accelerometer Sensor', 'Shaking')]]
 
-_Indicates the device started being shaken or continues to be shaken._
+Indicates the device started being shaken or continues to be shaken.
 
 ## Properties
 
@@ -48,8 +48,8 @@ _Indicates the device started being shaken or continues to be shaken._
 |:----:|:-------:|
 |boolean|True|
 
-_If true, the sensor will generate events.  Otherwise, no events
- are generated even if the device is accelerated or shaken._
+If true, the sensor will generate events.  Otherwise, no events
+ are generated even if the device is accelerated or shaken.
 
 ### Legacy Mode
 
@@ -62,7 +62,7 @@ _If true, the sensor will generate events.  Otherwise, no events
 |:----:|:-------:|
 |boolean|False|
 
-_Prior to the release that added this property the AccelerometerSensor component passed through sensor values directly as received from the Android system. However these values do not compensate for tablets that default to Landscape mode, requiring the MIT App Inventor programmer to compensate. However compensating would result in incorrect results in Portrait mode devices such as phones. We now detect Landscape mode tablets and perform the compensation. However if your project is already compensating for the change, you will now get incorrect results. Although our preferred solution is for you to update your project, you can also just set this property to “true” and our compensation code will be deactivated. Note: We recommend that you update your project as we may remove this property in a future release._
+Prior to the release that added this property the AccelerometerSensor component passed through sensor values directly as received from the Android system. However these values do not compensate for tablets that default to Landscape mode, requiring the MIT App Inventor programmer to compensate. However compensating would result in incorrect results in Portrait mode devices such as phones. We now detect Landscape mode tablets and perform the compensation. However if your project is already compensating for the change, you will now get incorrect results. Although our preferred solution is for you to update your project, you can also just set this property to “true” and our compensation code will be deactivated. Note: We recommend that you update your project as we may remove this property in a future release.
 
 ### Minimum Interval (ms)
 
@@ -75,7 +75,7 @@ _Prior to the release that added this property the AccelerometerSensor component
 |:----:|:-------:|
 |number|400|
 
-_The minimum interval, in milliseconds, between phone shakes_
+The minimum interval, in milliseconds, between phone shakes
 
 ### Sensitivity
 
@@ -88,7 +88,7 @@ _The minimum interval, in milliseconds, between phone shakes_
 |:----:|:-------:|
 |number|2|
 
-_A number that encodes how sensitive the accelerometer is. The choices are: 1 = weak, 2 = moderate,  3 = strong._
+A number that encodes how sensitive the accelerometer is. The choices are: 1 = weak, 2 = moderate,  3 = strong.
 
 ### Available
 
@@ -99,7 +99,7 @@ _A number that encodes how sensitive the accelerometer is. The choices are: 1 = 
 |:----:|:-------:|
 |boolean|None|
 
-_Available property getter method (read-only property)._
+Available property getter method (read-only property).
 
 ### X Accel
 
@@ -110,8 +110,8 @@ _Available property getter method (read-only property)._
 |:----:|:-------:|
 |number|None|
 
-_Returns the acceleration in the X-dimension in SI units (m/s^2).
- The sensor must be enabled to return meaningful values._
+Returns the acceleration in the X-dimension in SI units (m/s^2).
+ The sensor must be enabled to return meaningful values.
 
 ### Y Accel
 
@@ -122,8 +122,8 @@ _Returns the acceleration in the X-dimension in SI units (m/s^2).
 |:----:|:-------:|
 |number|None|
 
-_Returns the acceleration in the Y-dimension in SI units (m/s^2).
- The sensor must be enabled to return meaningful values._
+Returns the acceleration in the Y-dimension in SI units (m/s^2).
+ The sensor must be enabled to return meaningful values.
 
 ### Z Accel
 
@@ -134,5 +134,5 @@ _Returns the acceleration in the Y-dimension in SI units (m/s^2).
 |:----:|:-------:|
 |number|None|
 
-_Returns the acceleration in the Z-dimension in SI units (m/s^2).
- The sensor must be enabled to return meaningful values._
+Returns the acceleration in the Z-dimension in SI units (m/s^2).
+ The sensor must be enabled to return meaningful values.

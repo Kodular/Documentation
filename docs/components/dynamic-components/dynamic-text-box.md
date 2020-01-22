@@ -8,7 +8,7 @@
 
 ## Overview
 
-_A component to create dynamic textboxes in Arrangements_
+A component to create dynamic textboxes in Arrangements
 
 ## Events
 
@@ -23,7 +23,7 @@ _A component to create dynamic textboxes in Arrangements_
     |text|`text`|
 
 
-_Trigger when the text of a Dynamic TextBox changes_
+Trigger when the text of a Dynamic TextBox changes
 
 ## Methods
 
@@ -38,7 +38,7 @@ _Trigger when the text of a Dynamic TextBox changes_
     |arrangement|`component`|
 
 
-_Create a Dynamic TextBox_
+Create a Dynamic TextBox
 
 ### DeleteTextBox
 
@@ -50,7 +50,7 @@ _Create a Dynamic TextBox_
     |id|`number`|
 
 
-_Remove a textbox component with the given id._
+Remove a textbox component with the given id.
 
 ### GetButtonById
 
@@ -64,7 +64,7 @@ _Remove a textbox component with the given id._
     |id|`number`|
 
 
-_Returns the button referenced by its id._
+Returns the button referenced by its id.
 
 ### GetEnabled
 
@@ -78,7 +78,7 @@ _Returns the button referenced by its id._
     |id|`number`|
 
 
-_Get the Enabled status of a TextBox_
+Get the Enabled status of a TextBox
 
 ### GetFontSize
 
@@ -92,7 +92,7 @@ _Get the Enabled status of a TextBox_
     |id|`number`|
 
 
-_Get the Font Size of a TextBox_
+Get the Font Size of a TextBox
 
 ### GetHeight
 
@@ -106,7 +106,7 @@ _Get the Font Size of a TextBox_
     |id|`number`|
 
 
-_Get the Height of a TextBox_
+Get the Height of a TextBox
 
 ### GetText
 
@@ -120,7 +120,7 @@ _Get the Height of a TextBox_
     |id|`number`|
 
 
-_Get the Text of a TextBox_
+Get the Text of a TextBox
 
 ### GetWidth
 
@@ -134,7 +134,7 @@ _Get the Text of a TextBox_
     |id|`number`|
 
 
-_Get the Width of a TextBox_
+Get the Width of a TextBox
 
 ### SetAlignment
 
@@ -147,7 +147,7 @@ _Get the Width of a TextBox_
     |alignment|`number`|
 
 
-_Update the Text Alignment of a TextBox. 0 = left, 1 = center and 2 = right._
+Update the Text Alignment of a TextBox. 0 = left, 1 = center and 2 = right.
 
 ### SetBackgroundColor
 
@@ -160,7 +160,7 @@ _Update the Text Alignment of a TextBox. 0 = left, 1 = center and 2 = right._
     |color|`number`|
 
 
-_Update the Background Color of a TextBox_
+Update the Background Color of a TextBox
 
 ### SetEnabled
 
@@ -173,7 +173,7 @@ _Update the Background Color of a TextBox_
     |enabled|`boolean`|
 
 
-_Update the Enabled status of a TextBox_
+Update the Enabled status of a TextBox
 
 ### SetFont
 
@@ -187,7 +187,7 @@ _Update the Enabled status of a TextBox_
     |italic|`boolean`|
 
 
-_Update the Font of a TextBox_
+Update the Font of a TextBox
 
 ### SetFontSize
 
@@ -200,7 +200,7 @@ _Update the Font of a TextBox_
     |size|`number`|
 
 
-_Update the Font Size of a TextBox_
+Update the Font Size of a TextBox
 
 ### SetHeight
 
@@ -213,7 +213,7 @@ _Update the Font Size of a TextBox_
     |height|`number`|
 
 
-_Update the Height of a TextBox_
+Update the Height of a TextBox
 
 ### SetText
 
@@ -226,7 +226,7 @@ _Update the Height of a TextBox_
     |text|`text`|
 
 
-_Update the Text of a TextBox_
+Update the Text of a TextBox
 
 ### SetTextColor
 
@@ -239,7 +239,7 @@ _Update the Text of a TextBox_
     |color|`number`|
 
 
-_Update the Text Color of a TextBox_
+Update the Text Color of a TextBox
 
 ### SetWidth
 
@@ -252,4 +252,4 @@ _Update the Text Color of a TextBox_
     |width|`number`|
 
 
-_Update the Width of a TextBox_
+Update the Width of a TextBox

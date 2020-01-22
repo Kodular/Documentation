@@ -8,7 +8,7 @@
 
 ## Overview
 
-_The TestToSpeech component speaks a given text aloud.  You can set the pitch and the rate of speech. <p>You can also set a language by supplying a language code.  This changes the pronounciation of words, not the actual language spoken.  For example, setting the language to French and speaking English text will sound like someone speaking English (en) with a French accent.</p> <p>You can also specify a country by supplying a country code. This can affect the pronounciation.  For example, British English (GBR) will sound different from US English (USA).  Not every country code will affect every language.</p> <p>The languages and countries available depend on the particular device, and can be listed with the AvailableLanguages and AvailableCountries properties.</p>_
+The TestToSpeech component speaks a given text aloud.  You can set the pitch and the rate of speech. <p>You can also set a language by supplying a language code.  This changes the pronounciation of words, not the actual language spoken.  For example, setting the language to French and speaking English text will sound like someone speaking English (en) with a French accent.</p> <p>You can also specify a country by supplying a country code. This can affect the pronounciation.  For example, British English (GBR) will sound different from US English (USA).  Not every country code will affect every language.</p> <p>The languages and countries available depend on the particular device, and can be listed with the AvailableLanguages and AvailableCountries properties.</p>
 
 ## Events
 
@@ -22,13 +22,13 @@ _The TestToSpeech component speaks a given text aloud.  You can set the pitch an
     |result|`boolean`|
 
 
-_Event to raise after the message is spoken._
+Event to raise after the message is spoken.
 
 ### Before Speaking
 
 [[Event('Text To Speech', 'Before Speaking')]]
 
-_Event to raise when Speak is invoked, before the message is spoken._
+Event to raise when Speak is invoked, before the message is spoken.
 
 ## Methods
 
@@ -42,7 +42,7 @@ _Event to raise when Speak is invoked, before the message is spoken._
     |message|`text`|
 
 
-_Speaks the given message._
+Speaks the given message.
 
 ## Properties
 
@@ -57,7 +57,7 @@ _Speaks the given message._
 |:----:|
 |text|
 
-_Country code to use for speech generation.  This can affect the pronounciation.  For example, British English (GBR) will sound different from US English (USA).  Not every country code will affect every language._
+Country code to use for speech generation.  This can affect the pronounciation.  For example, British English (GBR) will sound different from US English (USA).  Not every country code will affect every language.
 
 ### Language
 
@@ -70,7 +70,7 @@ _Country code to use for speech generation.  This can affect the pronounciation.
 |:----:|
 |text|
 
-_Sets the language for TextToSpeech. This changes the way that words are pronounced, not the actual language that is spoken.  For example setting the language to and speaking English text with sound like someone speaking English with a French accent._
+Sets the language for TextToSpeech. This changes the way that words are pronounced, not the actual language that is spoken.  For example setting the language to and speaking English text with sound like someone speaking English with a French accent.
 
 ### Pitch
 
@@ -83,7 +83,7 @@ _Sets the language for TextToSpeech. This changes the way that words are pronoun
 |:----:|:-------:|
 |number|1.0|
 
-_Sets the Pitch for TextToSpeech The values should be between 0 and 2 where lower values lower the tone of synthesized voice and greater values raise it._
+Sets the Pitch for TextToSpeech The values should be between 0 and 2 where lower values lower the tone of synthesized voice and greater values raise it.
 
 ### Speech Rate
 
@@ -96,7 +96,7 @@ _Sets the Pitch for TextToSpeech The values should be between 0 and 2 where lowe
 |:----:|:-------:|
 |number|1.0|
 
-_Sets the SpeechRate for TextToSpeech. The values should be between 0 and 2 where lower values slow down the pitch and greater values accelerate it._
+Sets the SpeechRate for TextToSpeech. The values should be between 0 and 2 where lower values slow down the pitch and greater values accelerate it.
 
 ### Available Countries
 
@@ -107,7 +107,7 @@ _Sets the SpeechRate for TextToSpeech. The values should be between 0 and 2 wher
 |:----:|:-------:|
 |list|None|
 
-_List of the country codes available on this device for use with TextToSpeech.  Check the Android developer documentation under supported languages to find the meanings of these abbreviations._
+List of the country codes available on this device for use with TextToSpeech.  Check the Android developer documentation under supported languages to find the meanings of these abbreviations.
 
 ### Available Languages
 
@@ -118,7 +118,7 @@ _List of the country codes available on this device for use with TextToSpeech.  
 |:----:|:-------:|
 |list|None|
 
-_List of the languages available on this device for use with TextToSpeech.  Check the Android developer documentation under supported languages to find the meanings of these abbreviations._
+List of the languages available on this device for use with TextToSpeech.  Check the Android developer documentation under supported languages to find the meanings of these abbreviations.
 
 ### Result
 
@@ -129,4 +129,4 @@ _List of the languages available on this device for use with TextToSpeech.  Chec
 |:----:|:-------:|
 |boolean|None|
 
-_Result property getter method._
+Result property getter method.

@@ -6,7 +6,7 @@
 
 ## Overview
 
-_A visible component that groups other components in a center-locked, horizontally scrolling list._
+A visible component that groups other components in a center-locked, horizontally scrolling list.
 
 ## Events
 
@@ -20,7 +20,7 @@ _A visible component that groups other components in a center-locked, horizontal
     |image Name|`text`|
 
 
-_Triggered after an image is selected. It will also report selected image name_
+Triggered after an image is selected. It will also report selected image name
 
 ## Properties
 
@@ -35,7 +35,7 @@ _Triggered after an image is selected. It will also report selected image name_
 |:----:|:-------:|
 |number|5|
 
-_Sets the spacing (in DIP) between images_
+Sets the spacing (in DIP) between images
 
 ### Thumbnail Height in DIP
 
@@ -48,7 +48,7 @@ _Sets the spacing (in DIP) between images_
 |:----:|:-------:|
 |number|100|
 
-_Sets the height of thumbnail in DIP (Density Independent Pixel)_
+Sets the height of thumbnail in DIP (Density Independent Pixel)
 
 ### Thumbnail Width in DIP
 
@@ -61,7 +61,7 @@ _Sets the height of thumbnail in DIP (Density Independent Pixel)_
 |:----:|:-------:|
 |number|100|
 
-_Sets the width of thumbnail in DIP (Density Independent Pixel)_
+Sets the width of thumbnail in DIP (Density Independent Pixel)
 
 ### Visible
 
@@ -74,7 +74,7 @@ _Sets the width of thumbnail in DIP (Density Independent Pixel)_
 |:----:|:-------:|
 |boolean|True|
 
-_Returns true iff the component is visible._
+Returns true iff the component is visible.
 
 ### Column
 
@@ -85,7 +85,7 @@ _Returns true iff the component is visible._
 |:----:|:-------:|
 |number|None|
 
-_Column property getter method._
+Column property getter method.
 
 ### Height
 
@@ -96,7 +96,7 @@ _Column property getter method._
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's vertical height, measured in pixels._
+Specifies the component's vertical height, measured in pixels.
 
 ### Height Percent
 
@@ -107,8 +107,8 @@ _Specifies the component's vertical height, measured in pixels._
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's vertical height as a percentage
- of the height of its parent Component._
+Specifies the component's vertical height as a percentage
+ of the height of its parent Component.
 
 ### Images
 
@@ -119,7 +119,7 @@ _Specifies the component's vertical height as a percentage
 |:----:|:-------:|
 |list|None|
 
-_Adds a series of images to the gallery_
+Adds a series of images to the gallery
 
 ### Row
 
@@ -130,7 +130,7 @@ _Adds a series of images to the gallery_
 |:----:|:-------:|
 |number|None|
 
-_Row property getter method._
+Row property getter method.
 
 ### Selection
 
@@ -152,7 +152,7 @@ _No description available_
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's horizontal width, measured in pixels._
+Specifies the component's horizontal width, measured in pixels.
 
 ### Width Percent
 
@@ -163,5 +163,5 @@ _Specifies the component's horizontal width, measured in pixels._
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's horizontal width as a percentage
- of the Width of its parent Component._
+Specifies the component's horizontal width as a percentage
+ of the Width of its parent Component.

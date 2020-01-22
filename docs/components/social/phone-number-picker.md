@@ -6,13 +6,13 @@
 
 ## Overview
 
-_A button that, when clicked on, displays a list of the contacts' phone numbers to choose among. After the user has made a selection, the following properties will be set to information about the chosen contact: <ul>
+A button that, when clicked on, displays a list of the contacts' phone numbers to choose among. After the user has made a selection, the following properties will be set to information about the chosen contact: <ul>
 <li> <code>ContactName</code>: the contact's name </li>
  <li> <code>PhoneNumber</code>: the contact's phone number </li>
  <li> <code>EmailAddress</code>: the contact's email address </li> <li> <code>Picture</code>: the name of the file containing the contact's image, which can be used as a <code>Picture</code> property value for the <code>Image</code> or <code>ImageSprite</code> component.</li></ul>
 </p><p>Other properties affect the appearance of the button (<code>TextAlignment</code>, <code>BackgroundColor</code>, etc.) and whether it can be clicked on (<code>Enabled</code>).</p>
 <p>The PhoneNumberPicker component may not work on all Android devices. For example, on Android systems before system 3.0, the returned lists of phone numbers and email addresses will be empty.
-_
+
 
 ## Events
 
@@ -26,40 +26,40 @@ _
     |selection|`text`|
 
 
-_Event to be raised after the picker activity returns its
- result and the properties have been filled in._
+Event to be raised after the picker activity returns its
+ result and the properties have been filled in.
 
 ### Before Picking
 
 [[Event('Phone Number Picker', 'Before Picking')]]
 
-_Event to raise when the button of the component is clicked or the list is shown
+Event to raise when the button of the component is clicked or the list is shown
  using the Open block.  This event occurs before the list of items is displayed, and
- can be used to prepare the list before it is shown._
+ can be used to prepare the list before it is shown.
 
 ### Got Focus
 
 [[Event('Phone Number Picker', 'Got Focus')]]
 
-_Indicates the cursor moved over the button so it is now possible to click it._
+Indicates the cursor moved over the button so it is now possible to click it.
 
 ### Lost Focus
 
 [[Event('Phone Number Picker', 'Lost Focus')]]
 
-_Indicates the cursor moved away from the button so it is now no longer possible to click it._
+Indicates the cursor moved away from the button so it is now no longer possible to click it.
 
 ### Touch Down
 
 [[Event('Phone Number Picker', 'Touch Down')]]
 
-_Indicates that the button was pressed down._
+Indicates that the button was pressed down.
 
 ### Touch Up
 
 [[Event('Phone Number Picker', 'Touch Up')]]
 
-_Indicates that a button has been released._
+Indicates that a button has been released.
 
 ## Methods
 
@@ -76,19 +76,19 @@ _Indicates that a button has been released._
     |color|`number`|
 
 
-_Allows you to set animation style. Valid (case-insensitive) values are: ChasingDots, Circle, CubeGrid, DoubleBounce, FadingCircle, FoldingCube, Pulse, RotatingCircle, RotatingPlane, ThreeBounce, WanderingCubes, Wave. If invalid style is used, animation will be removed.Position can be: top, left, right, bottom. Size can be 100._
+Allows you to set animation style. Valid (case-insensitive) values are: ChasingDots, Circle, CubeGrid, DoubleBounce, FadingCircle, FoldingCube, Pulse, RotatingCircle, RotatingPlane, ThreeBounce, WanderingCubes, Wave. If invalid style is used, animation will be removed.Position can be: top, left, right, bottom. Size can be 100.
 
 ### ButtonClick
 
 [[Method('Phone Number Picker', 'ButtonClick', false)]]
 
-_Perform a button click as function._
+Perform a button click as function.
 
 ### Open
 
 [[Method('Phone Number Picker', 'Open', false)]]
 
-_Opens the picker, as though the user clicked on it._
+Opens the picker, as though the user clicked on it.
 
 ### SetShadow
 
@@ -103,7 +103,7 @@ _Opens the picker, as though the user clicked on it._
     |color|`number`|
 
 
-_Place a blurred shadow of text underneath the text, drawn with the specified x, y, radius, color (e.g. -11, 12, 13, black._
+Place a blurred shadow of text underneath the text, drawn with the specified x, y, radius, color (e.g. -11, 12, 13, black.
 
 ### ViewContact
 
@@ -115,7 +115,7 @@ _Place a blurred shadow of text underneath the text, drawn with the specified x,
     |uri|`text`|
 
 
-_view a contact via its URI_
+view a contact via its URI
 
 ### WithIconFromFontAwesome
 
@@ -131,7 +131,7 @@ _view a contact via its URI_
     |size|`number`|
 
 
-_Show an image on the given position near to the button. You can use following words for the position: 'Left', 'Right', 'Top' or 'Bottom'. Use the padding to add space between the icon and text. Use a material icon as the button icon without uploading a image resource into your project. You can find the icon name (or code) here at https://fontawesome.com/cheatsheet Use as example for a heart icon just 'f004'._
+Show an image on the given position near to the button. You can use following words for the position: 'Left', 'Right', 'Top' or 'Bottom'. Use the padding to add space between the icon and text. Use a material icon as the button icon without uploading a image resource into your project. You can find the icon name (or code) here at https://fontawesome.com/cheatsheet Use as example for a heart icon just 'f004'.
 
 ### WithIconFromMaterialFont
 
@@ -147,7 +147,7 @@ _Show an image on the given position near to the button. You can use following w
     |size|`number`|
 
 
-_Show an image on the given position near to the button. You can use following words for the position: 'Left', 'Right', 'Top' or 'Bottom'. Use the padding to add space between the icon and text. Use a material icon as the button icon without uploading a image resource into your project. You can find the icon name (or code) here at https://material.io/icons_
+Show an image on the given position near to the button. You can use following words for the position: 'Left', 'Right', 'Top' or 'Bottom'. Use the padding to add space between the icon and text. Use a material icon as the button icon without uploading a image resource into your project. You can find the icon name (or code) here at https://material.io/icons
 
 ### WithIconFromPicture
 
@@ -163,7 +163,7 @@ _Show an image on the given position near to the button. You can use following w
     |height|`number`|
 
 
-_Show an image on the given position near to the button. You can use following words for the position: 'Left', 'Right', 'Top' or 'Bottom'. Use the padding to add space between the icon and text._
+Show an image on the given position near to the button. You can use following words for the position: 'Left', 'Right', 'Top' or 'Bottom'. Use the padding to add space between the icon and text.
 
 ## Properties
 
@@ -178,7 +178,7 @@ _Show an image on the given position near to the button. You can use following w
 |:----:|:-------:|
 |number|&HFF444444|
 
-_Returns the button's background color_
+Returns the button's background color
 
 ### Border Shadow
 
@@ -191,7 +191,7 @@ _Returns the button's background color_
 |:----:|:-------:|
 |boolean|True|
 
-_Returns true if the button have a outside border shadow on click._
+Returns true if the button have a outside border shadow on click.
 
 ### Enabled
 
@@ -204,7 +204,7 @@ _Returns true if the button have a outside border shadow on click._
 |:----:|:-------:|
 |boolean|True|
 
-_If set, user can tap check box to cause action._
+If set, user can tap check box to cause action.
 
 ### Font Bold
 
@@ -217,7 +217,7 @@ _If set, user can tap check box to cause action._
 |:----:|:-------:|
 |boolean|False|
 
-_If set, button text is displayed in bold._
+If set, button text is displayed in bold.
 
 ### Font Italic
 
@@ -230,7 +230,7 @@ _If set, button text is displayed in bold._
 |:----:|:-------:|
 |boolean|False|
 
-_If set, button text is displayed in italics._
+If set, button text is displayed in italics.
 
 ### Font Size
 
@@ -243,7 +243,7 @@ _If set, button text is displayed in italics._
 |:----:|:-------:|
 |number|14.0|
 
-_Point size for button text._
+Point size for button text.
 
 ### Font Typeface
 
@@ -256,7 +256,7 @@ _Point size for button text._
 |:----:|:-------:|
 |number|0|
 
-_Font family for button text._
+Font family for button text.
 
 ### Font Typeface Import
 
@@ -269,7 +269,7 @@ _Font family for button text._
 |:----:|
 |text|
 
-_Set a custom font._
+Set a custom font.
 
 ### HTML Format
 
@@ -282,7 +282,7 @@ _Set a custom font._
 |:----:|:-------:|
 |boolean|False|
 
-_If true, then this button will show html text else it will show plain text. Note: Not all HTML is supported._
+If true, then this button will show html text else it will show plain text. Note: Not all HTML is supported.
 
 ### Image
 
@@ -295,7 +295,7 @@ _If true, then this button will show html text else it will show plain text. Not
 |:----:|
 |text|
 
-_Image to display on button._
+Image to display on button.
 
 ### Rotation Angle
 
@@ -308,7 +308,7 @@ _Image to display on button._
 |:----:|:-------:|
 |number|0.0|
 
-_Sets the degrees that the button is rotated around the pivot point. Increasing values result in clockwise rotation._
+Sets the degrees that the button is rotated around the pivot point. Increasing values result in clockwise rotation.
 
 ### Shape
 
@@ -321,7 +321,7 @@ _Sets the degrees that the button is rotated around the pivot point. Increasing 
 |:----:|:-------:|
 |number|0|
 
-_Specifies the button's shape (default, rounded, rectangular, oval). The shape will not be visible if an Image is being displayed._
+Specifies the button's shape (default, rounded, rectangular, oval). The shape will not be visible if an Image is being displayed.
 
 ### Show Feedback
 
@@ -334,7 +334,7 @@ _Specifies the button's shape (default, rounded, rectangular, oval). The shape w
 |:----:|:-------:|
 |boolean|True|
 
-_Specifies if a visual feedback should be shown for a button that as an image as background._
+Specifies if a visual feedback should be shown for a button that as an image as background.
 
 ### Text
 
@@ -347,7 +347,7 @@ _Specifies if a visual feedback should be shown for a button that as an image as
 |:----:|
 |text|
 
-_Text to display on button._
+Text to display on button.
 
 ### Text Alignment
 
@@ -360,7 +360,7 @@ _Text to display on button._
 |:----:|:-------:|
 |number|1|
 
-_Left, center, or right._
+Left, center, or right.
 
 ### Text Color
 
@@ -373,7 +373,7 @@ _Left, center, or right._
 |:----:|:-------:|
 |number|&HFFFFFFFF|
 
-_Color for button text._
+Color for button text.
 
 ### Touch Color
 
@@ -386,7 +386,7 @@ _Color for button text._
 |:----:|:-------:|
 |number|&HFFCCCCCC|
 
-_Set the buttons touch color._
+Set the buttons touch color.
 
 ### Visible
 
@@ -399,7 +399,7 @@ _Set the buttons touch color._
 |:----:|:-------:|
 |boolean|True|
 
-_Returns true iff the component is visible._
+Returns true iff the component is visible.
 
 ### Column
 
@@ -410,7 +410,7 @@ _Returns true iff the component is visible._
 |:----:|:-------:|
 |number|None|
 
-_Column property getter method._
+Column property getter method.
 
 ### Contact Name
 
@@ -421,7 +421,7 @@ _Column property getter method._
 |:----:|:-------:|
 |text|None|
 
-_Name property getter method._
+Name property getter method.
 
 ### Contact URI
 
@@ -432,7 +432,7 @@ _Name property getter method._
 |:----:|:-------:|
 |text|None|
 
-_URI that specifies the location of the contact on the device._
+URI that specifies the location of the contact on the device.
 
 ### Email Address
 
@@ -443,7 +443,7 @@ _URI that specifies the location of the contact on the device._
 |:----:|:-------:|
 |text|None|
 
-_EmailAddress property getter method._
+EmailAddress property getter method.
 
 ### Email Address List
 
@@ -454,7 +454,7 @@ _EmailAddress property getter method._
 |:----:|:-------:|
 |list|None|
 
-_EmailAddressList property getter method._
+EmailAddressList property getter method.
 
 ### Height
 
@@ -465,7 +465,7 @@ _EmailAddressList property getter method._
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's vertical height, measured in pixels._
+Specifies the component's vertical height, measured in pixels.
 
 ### Height Percent
 
@@ -476,8 +476,8 @@ _Specifies the component's vertical height, measured in pixels._
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's vertical height as a percentage
- of the height of its parent Component._
+Specifies the component's vertical height as a percentage
+ of the height of its parent Component.
 
 ### Phone Number
 
@@ -488,7 +488,7 @@ _Specifies the component's vertical height as a percentage
 |:----:|:-------:|
 |text|None|
 
-_PhoneNumber property getter method._
+PhoneNumber property getter method.
 
 ### Phone Number List
 
@@ -499,7 +499,7 @@ _PhoneNumber property getter method._
 |:----:|:-------:|
 |list|None|
 
-_PhoneNumberList property getter method._
+PhoneNumberList property getter method.
 
 ### Picture
 
@@ -510,8 +510,8 @@ _PhoneNumberList property getter method._
 |:----:|:-------:|
 |text|None|
 
-_Picture URI for this contact, which can be
- used to retrieve the contact's photo and other fields._
+Picture URI for this contact, which can be
+ used to retrieve the contact's photo and other fields.
 
 ### Row
 
@@ -522,7 +522,7 @@ _Picture URI for this contact, which can be
 |:----:|:-------:|
 |number|None|
 
-_Row property getter method._
+Row property getter method.
 
 ### Width
 
@@ -533,7 +533,7 @@ _Row property getter method._
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's horizontal width, measured in pixels._
+Specifies the component's horizontal width, measured in pixels.
 
 ### Width Percent
 
@@ -544,5 +544,5 @@ _Specifies the component's horizontal width, measured in pixels._
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's horizontal width as a percentage
- of the Width of its parent Component._
+Specifies the component's horizontal width as a percentage
+ of the Width of its parent Component.

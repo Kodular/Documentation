@@ -6,7 +6,7 @@
 
 ## Overview
 
-_A visible component that draws arbitrary shapes on a Map component. Vertices of a Polygon can be moved by clicking and dragging on them._
+A visible component that draws arbitrary shapes on a Map component. Vertices of a Polygon can be moved by clicking and dragging on them.
 
 ## Events
 
@@ -14,31 +14,31 @@ _A visible component that draws arbitrary shapes on a Map component. Vertices of
 
 [[Event('Polygon', 'Click')]]
 
-_The user clicked on the feature._
+The user clicked on the feature.
 
 ### Drag
 
 [[Event('Polygon', 'Drag')]]
 
-_The user dragged the map feature._
+The user dragged the map feature.
 
 ### Long Click
 
 [[Event('Polygon', 'Long Click')]]
 
-_The user long-pressed on the feature. This event will only trigger if Draggable is false._
+The user long-pressed on the feature. This event will only trigger if Draggable is false.
 
 ### Start Drag
 
 [[Event('Polygon', 'Start Drag')]]
 
-_The user started a drag operation._
+The user started a drag operation.
 
 ### Stop Drag
 
 [[Event('Polygon', 'Stop Drag')]]
 
-_The user stopped a drag operation._
+The user stopped a drag operation.
 
 ## Methods
 
@@ -48,7 +48,7 @@ _The user stopped a drag operation._
 
 {>>Returns `list`<<}
 
-_Returns the centroid of the Polygon as a (latitude, longitude) pair._
+Returns the centroid of the Polygon as a (latitude, longitude) pair.
 
 ### DistanceToFeature
 
@@ -63,7 +63,7 @@ _Returns the centroid of the Polygon as a (latitude, longitude) pair._
     |centroids|`boolean`|
 
 
-_Compute the distance, in meters, between two map features._
+Compute the distance, in meters, between two map features.
 
 ### DistanceToPoint
 
@@ -79,19 +79,19 @@ _Compute the distance, in meters, between two map features._
     |centroid|`boolean`|
 
 
-_Compute the distance, in meters, between a map feature and a latitude, longitude point._
+Compute the distance, in meters, between a map feature and a latitude, longitude point.
 
 ### HideInfobox
 
 [[Method('Polygon', 'HideInfobox', false)]]
 
-_Hide the infobox if it is shown. If the infobox is not visible this function has no effect._
+Hide the infobox if it is shown. If the infobox is not visible this function has no effect.
 
 ### ShowInfobox
 
 [[Method('Polygon', 'ShowInfobox', false)]]
 
-_Show the infobox for the feature. This will show the infobox even if_
+Show the infobox for the feature. This will show the infobox even if
 
 ## Properties
 
@@ -106,7 +106,7 @@ _Show the infobox for the feature. This will show the infobox even if_
 |:----:|
 |text|
 
-_The description displayed in the info window that appears when the user clicks on the map feature._
+The description displayed in the info window that appears when the user clicks on the map feature.
 
 ### Draggable
 
@@ -119,7 +119,7 @@ _The description displayed in the info window that appears when the user clicks 
 |:----:|:-------:|
 |boolean|False|
 
-_The Draggable property is used to set whether or not the user can drag the Marker by long-pressing and then dragging the marker to a new location._
+The Draggable property is used to set whether or not the user can drag the Marker by long-pressing and then dragging the marker to a new location.
 
 ### Enable Infobox
 
@@ -132,7 +132,7 @@ _The Draggable property is used to set whether or not the user can drag the Mark
 |:----:|:-------:|
 |boolean|False|
 
-_Enable or disable the infobox window display when the user taps the feature._
+Enable or disable the infobox window display when the user taps the feature.
 
 ### Fill Color
 
@@ -145,7 +145,7 @@ _Enable or disable the infobox window display when the user taps the feature._
 |:----:|:-------:|
 |number|&HFFF34336|
 
-_The paint color used to fill in the map feature._
+The paint color used to fill in the map feature.
 
 ### Fill Opacity
 
@@ -158,7 +158,7 @@ _The paint color used to fill in the map feature._
 |:----:|:-------:|
 |number|1.0|
 
-_The opacity of the interior of the map feature._
+The opacity of the interior of the map feature.
 
 ### Hole Points From String
 
@@ -171,7 +171,7 @@ _The opacity of the interior of the map feature._
 |:----:|
 |text|
 
-_Constructs holes in a polygon from a given list of coordinates per hole._
+Constructs holes in a polygon from a given list of coordinates per hole.
 
 ### Points From String
 
@@ -184,7 +184,7 @@ _Constructs holes in a polygon from a given list of coordinates per hole._
 |:----:|
 |text|
 
-_Constructs a polygon from the given list of coordinates._
+Constructs a polygon from the given list of coordinates.
 
 ### Stroke Color
 
@@ -197,7 +197,7 @@ _Constructs a polygon from the given list of coordinates._
 |:----:|:-------:|
 |number|&HFF000000|
 
-_The paint color used to outline the map feature._
+The paint color used to outline the map feature.
 
 ### Stroke Opacity
 
@@ -210,7 +210,7 @@ _The paint color used to outline the map feature._
 |:----:|:-------:|
 |number|1.0|
 
-_The opacity of the stroke used to outline the map feature._
+The opacity of the stroke used to outline the map feature.
 
 ### Stroke Width
 
@@ -223,7 +223,7 @@ _The opacity of the stroke used to outline the map feature._
 |:----:|:-------:|
 |number|1|
 
-_The width of the stroke used to outline the map feature._
+The width of the stroke used to outline the map feature.
 
 ### Title
 
@@ -236,7 +236,7 @@ _The width of the stroke used to outline the map feature._
 |:----:|
 |text|
 
-_The title displayed in the info window that appears when the user clicks on the map feature._
+The title displayed in the info window that appears when the user clicks on the map feature.
 
 ### Visible
 
@@ -249,7 +249,7 @@ _The title displayed in the info window that appears when the user clicks on the
 |:----:|:-------:|
 |boolean|True|
 
-_Specifies whether the component should be visible on the screen. Value is true if the component is showing and false if hidden._
+Specifies whether the component should be visible on the screen. Value is true if the component is showing and false if hidden.
 
 ### Hole Points
 
@@ -271,7 +271,7 @@ _No description available_
 |:----:|:-------:|
 |list|None|
 
-_Gets or sets the sequence of points used to draw the polygon._
+Gets or sets the sequence of points used to draw the polygon.
 
 ### Type
 
@@ -282,4 +282,4 @@ _Gets or sets the sequence of points used to draw the polygon._
 |:----:|:-------:|
 |text|None|
 
-_The type of the feature. For polygons, this returns the text "Polygon"._
+The type of the feature. For polygons, this returns the text "Polygon".

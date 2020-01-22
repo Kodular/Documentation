@@ -8,7 +8,7 @@
 
 ## Overview
 
-_A non-visible component that manages the device''s audio settings._
+A non-visible component that manages the device''s audio settings.
 
 ## Events
 
@@ -22,7 +22,7 @@ _A non-visible component that manages the device''s audio settings._
     |error Message|`text`|
 
 
-_Event triggered when a error occurred._
+Event triggered when a error occurred.
 
 ## Methods
 
@@ -38,25 +38,25 @@ _Event triggered when a error occurred._
     |component|`component`|
 
 
-_Returns true whether a component should have sound effects enabled for events such as clicking and touching._
+Returns true whether a component should have sound effects enabled for events such as clicking and touching.
 
 ### RingerModeNormal
 
 [[Method('Audio', 'RingerModeNormal', false)]]
 
-_Sets the ringer mode to "normal"._
+Sets the ringer mode to "normal".
 
 ### RingerModeSilent
 
 [[Method('Audio', 'RingerModeSilent', false)]]
 
-_Sets the ringer mode to "silent"._
+Sets the ringer mode to "silent".
 
 ### RingerModeVibrate
 
 [[Method('Audio', 'RingerModeVibrate', false)]]
 
-_Sets the ringer mode to "vibrate"._
+Sets the ringer mode to "vibrate".
 
 ### SoundEffectsEnabled
 
@@ -69,7 +69,7 @@ _Sets the ringer mode to "vibrate"._
     |enabled|`boolean`|
 
 
-_Set whether a component should have sound effects enabled for events such as clicking and touching._
+Set whether a component should have sound effects enabled for events such as clicking and touching.
 
 ## Properties
 
@@ -84,7 +84,7 @@ _Set whether a component should have sound effects enabled for events such as cl
 |:----:|:-------:|
 |boolean|False|
 
-_If set to true you will see system ui._
+If set to true you will see system ui.
 
 ### Get Audio Mode
 
@@ -95,7 +95,7 @@ _If set to true you will see system ui._
 |:----:|:-------:|
 |text|None|
 
-_Returns the current audio mode as string. Possible returns are "NORMAL", "RINGTONE", "CALL" or "COMMUNICATION"._
+Returns the current audio mode as string. Possible returns are "NORMAL", "RINGTONE", "CALL" or "COMMUNICATION".
 
 ### Volume Alarm
 
@@ -106,7 +106,7 @@ _Returns the current audio mode as string. Possible returns are "NORMAL", "RINGT
 |:----:|:-------:|
 |number|None|
 
-_Returns the current volume index in percent._
+Returns the current volume index in percent.
 
 ### Volume Music
 
@@ -117,7 +117,7 @@ _Returns the current volume index in percent._
 |:----:|:-------:|
 |number|None|
 
-_Returns the current volume index in percent._
+Returns the current volume index in percent.
 
 ### Volume Ring
 
@@ -128,4 +128,4 @@ _Returns the current volume index in percent._
 |:----:|:-------:|
 |number|None|
 
-_Returns the current volume index in percent._
+Returns the current volume index in percent.

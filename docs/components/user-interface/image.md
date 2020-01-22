@@ -6,7 +6,7 @@
 
 ## Overview
 
-_Component for displaying images.  The picture to display, and other aspects of the Image's appearance, can be specified in the Designer or in the Blocks Editor. You can also add gif images._
+Component for displaying images.  The picture to display, and other aspects of the Image's appearance, can be specified in the Designer or in the Blocks Editor. You can also add gif images.
 
 ## Events
 
@@ -14,13 +14,13 @@ _Component for displaying images.  The picture to display, and other aspects of 
 
 [[Event('Image', 'Click')]]
 
-_Event to detect that a user has done a simple "Click"._
+Event to detect that a user has done a simple "Click".
 
 ### Long Click
 
 [[Event('Image', 'Long Click')]]
 
-_Event to detect that a user has done a simple "Long Click"._
+Event to detect that a user has done a simple "Long Click".
 
 ## Methods
 
@@ -28,7 +28,7 @@ _Event to detect that a user has done a simple "Long Click"._
 
 [[Method('Image', 'ClearImageTintColor', false)]]
 
-_Clear the image tint color._
+Clear the image tint color.
 
 ## Properties
 
@@ -43,7 +43,7 @@ _Clear the image tint color._
 |:----:|:-------:|
 |boolean|False|
 
-_Set the component clickable or not clickable._
+Set the component clickable or not clickable.
 
 ### Picture
 
@@ -69,7 +69,7 @@ _No description available_
 |:----:|:-------:|
 |number|0.0|
 
-_The angle at which the image picture appears rotated. This rotation does not appear on the designer screen, only on the device._
+The angle at which the image picture appears rotated. This rotation does not appear on the designer screen, only on the device.
 
 ### Scale Picture To Fit
 
@@ -82,7 +82,7 @@ _The angle at which the image picture appears rotated. This rotation does not ap
 |:----:|:-------:|
 |boolean|False|
 
-_Specifies whether the image should be resized to match the size of the ImageView._
+Specifies whether the image should be resized to match the size of the ImageView.
 
 ### Visible
 
@@ -95,7 +95,7 @@ _Specifies whether the image should be resized to match the size of the ImageVie
 |:----:|:-------:|
 |boolean|True|
 
-_Returns true iff the component is visible._
+Returns true iff the component is visible.
 
 ### Animation
 
@@ -106,7 +106,7 @@ _Returns true iff the component is visible._
 |:----:|:-------:|
 |text|None|
 
-_This is a limited form of animation that can attach a small number of motion types to images.  The allowable motions are ScrollRightSlow, ScrollRight, ScrollRightFast, ScrollLeftSlow, ScrollLeft, ScrollLeftFast, and Stop_
+This is a limited form of animation that can attach a small number of motion types to images.  The allowable motions are ScrollRightSlow, ScrollRight, ScrollRightFast, ScrollLeftSlow, ScrollLeft, ScrollLeftFast, and Stop
 
 ### Column
 
@@ -117,7 +117,7 @@ _This is a limited form of animation that can attach a small number of motion ty
 |:----:|:-------:|
 |number|None|
 
-_Column property getter method._
+Column property getter method.
 
 ### Height
 
@@ -128,7 +128,7 @@ _Column property getter method._
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's vertical height, measured in pixels._
+Specifies the component's vertical height, measured in pixels.
 
 ### Height Percent
 
@@ -139,8 +139,8 @@ _Specifies the component's vertical height, measured in pixels._
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's vertical height as a percentage
- of the height of its parent Component._
+Specifies the component's vertical height as a percentage
+ of the height of its parent Component.
 
 ### Image Tint Color
 
@@ -151,7 +151,7 @@ _Specifies the component's vertical height as a percentage
 |:----:|:-------:|
 |number|None|
 
-_Change the image tint color. You can use too alpha values if you want with the 'make a list' block. Do not forget to use the 'make color' block together with the 'make a list' block._
+Change the image tint color. You can use too alpha values if you want with the 'make a list' block. Do not forget to use the 'make color' block together with the 'make a list' block.
 
 ### Row
 
@@ -162,7 +162,7 @@ _Change the image tint color. You can use too alpha values if you want with the 
 |:----:|:-------:|
 |number|None|
 
-_Row property getter method._
+Row property getter method.
 
 ### Scaling
 
@@ -173,7 +173,7 @@ _Row property getter method._
 |:----:|:-------:|
 |number|None|
 
-_This property determines how the picture scales according to the Height or Width of the Image. Scale proportionally (0) preserves the picture aspect ratio. Scale to fit (1) matches the Image area, even if the aspect ratio changes._
+This property determines how the picture scales according to the Height or Width of the Image. Scale proportionally (0) preserves the picture aspect ratio. Scale to fit (1) matches the Image area, even if the aspect ratio changes.
 
 ### Width
 
@@ -184,7 +184,7 @@ _This property determines how the picture scales according to the Height or Widt
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's horizontal width, measured in pixels._
+Specifies the component's horizontal width, measured in pixels.
 
 ### Width Percent
 
@@ -195,5 +195,5 @@ _Specifies the component's horizontal width, measured in pixels._
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's horizontal width as a percentage
- of the Width of its parent Component._
+Specifies the component's horizontal width as a percentage
+ of the Width of its parent Component.

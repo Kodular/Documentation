@@ -8,7 +8,7 @@
 
 ## Overview
 
-_A non-visible component that reads text from images using Optical Character Recognition technology._
+A non-visible component that reads text from images using Optical Character Recognition technology.
 
 ## Events
 
@@ -23,7 +23,7 @@ _A non-visible component that reads text from images using Optical Character Rec
     |response Content|`text`|
 
 
-_You will find here the success state and the response content._
+You will find here the success state and the response content.
 
 ### Got Server Status
 
@@ -39,7 +39,7 @@ _You will find here the success state and the response content._
     |pro Asia|`text`|
 
 
-_You will find here the server status from the ocr provider. Possible results are 'UP' or 'DOWN'. 'pro Usa1' = Usa, East Coast. 'pro Usa2' = Usa, West Coast._
+You will find here the server status from the ocr provider. Possible results are 'UP' or 'DOWN'. 'pro Usa1' = Usa, East Coast. 'pro Usa2' = Usa, West Coast.
 
 ## Methods
 
@@ -47,7 +47,7 @@ _You will find here the server status from the ocr provider. Possible results ar
 
 [[Method('OCR', 'GetOcrServerStatus', false)]]
 
-_Get the server status from the free ocr.space server. This is helpful if you want to know if the server is online or offline. Returns true when online, else false when offline._
+Get the server status from the free ocr.space server. This is helpful if you want to know if the server is online or offline. Returns true when online, else false when offline.
 
 ### GetTextFromImageUrl
 
@@ -59,7 +59,7 @@ _Get the server status from the free ocr.space server. This is helpful if you wa
     |image URL|`text`|
 
 
-_Get the text from a picture via the image url. Example: http://name/yourimage.jpg. Service powered by ocr.space._
+Get the text from a picture via the image url. Example: http://name/yourimage.jpg. Service powered by ocr.space.
 
 ### UploadImage
 
@@ -71,7 +71,7 @@ _Get the text from a picture via the image url. Example: http://name/yourimage.j
     |path|`text`|
 
 
-_Upload your image to the server from ocr.space and then you get back the text from the picture._
+Upload your image to the server from ocr.space and then you get back the text from the picture.
 
 ## Properties
 
@@ -86,7 +86,7 @@ _Upload your image to the server from ocr.space and then you get back the text f
 |:----:|:-------:|
 |text|helloworld|
 
-_You can use the default api key: helloworld, or you can create your own api key at: https://ocr.space/ocrapi_
+You can use the default api key: helloworld, or you can create your own api key at: https://ocr.space/ocrapi
 
 ### Create Searchable PDF
 
@@ -99,7 +99,7 @@ _You can use the default api key: helloworld, or you can create your own api key
 |:----:|:-------:|
 |boolean|False|
 
-_A searchable PDF file is a PDF file that includes text that can be searched upon using the standard Adobe Reader “search” functionality. In addition, the text can be selected and copied from the PDF. In this case the JSON response of the API contains a download link for the the searchable PDF. This download link is valid for one hour, than all data is removed from the OCR servers._
+A searchable PDF file is a PDF file that includes text that can be searched upon using the standard Adobe Reader “search” functionality. In addition, the text can be selected and copied from the PDF. In this case the JSON response of the API contains a download link for the the searchable PDF. This download link is valid for one hour, than all data is removed from the OCR servers.
 
 ### Language
 
@@ -112,7 +112,7 @@ _A searchable PDF file is a PDF file that includes text that can be searched upo
 |:----:|:-------:|
 |text|1|
 
-_Choose the language used for OCR. If no language is specified, English is taken as 'Default'._
+Choose the language used for OCR. If no language is specified, English is taken as 'Default'.
 
 ### Overlaid
 
@@ -125,7 +125,7 @@ _Choose the language used for OCR. If no language is specified, English is taken
 |:----:|:-------:|
 |boolean|False|
 
-_Allows you to specify if the image/pdf text overlay is required. Overlay could be used to show the text over the image._
+Allows you to specify if the image/pdf text overlay is required. Overlay could be used to show the text over the image.
 
 ### Return Only Message
 
@@ -136,7 +136,7 @@ _Allows you to specify if the image/pdf text overlay is required. Overlay could 
 |:----:|:-------:|
 |boolean|None|
 
-_Set this block before you upload a image and before you try to get the response from a image url. If this property is set to true, the response content returns only the message. That means the response content will be only the scanned text in words._
+Set this block before you upload a image and before you try to get the response from a image url. If this property is set to true, the response content returns only the message. That means the response content will be only the scanned text in words.
 
 ### Return Only PDF Link
 
@@ -147,7 +147,7 @@ _Set this block before you upload a image and before you try to get the response
 |:----:|:-------:|
 |boolean|None|
 
-_Set this block before you upload a image and before you try to get the response from a image url. If this property is set to true, the response content returns only the created pdf download link._
+Set this block before you upload a image and before you try to get the response from a image url. If this property is set to true, the response content returns only the created pdf download link.
 
 ### Test Image URL
 
@@ -158,4 +158,4 @@ _Set this block before you upload a image and before you try to get the response
 |:----:|:-------:|
 |text|None|
 
-_You can use the test image url if you have not any picture online on a server or else._
+You can use the test image url if you have not any picture online on a server or else.

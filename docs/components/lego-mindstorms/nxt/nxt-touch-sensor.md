@@ -8,7 +8,7 @@
 
 ## Overview
 
-_A component that provides a high-level interface to a touch sensor on a LEGO MINDSTORMS NXT robot._
+A component that provides a high-level interface to a touch sensor on a LEGO MINDSTORMS NXT robot.
 
 ## Events
 
@@ -16,13 +16,13 @@ _A component that provides a high-level interface to a touch sensor on a LEGO MI
 
 [[Event('NXT Touch Sensor', 'Pressed')]]
 
-_Touch sensor has been pressed._
+Touch sensor has been pressed.
 
 ### Released
 
 [[Event('NXT Touch Sensor', 'Released')]]
 
-_Touch sensor has been released._
+Touch sensor has been released.
 
 ## Methods
 
@@ -32,7 +32,7 @@ _Touch sensor has been released._
 
 {>>Returns `boolean`<<}
 
-_Returns true if the touch sensor is pressed._
+Returns true if the touch sensor is pressed.
 
 ## Properties
 
@@ -47,7 +47,7 @@ _Returns true if the touch sensor is pressed._
 |:----:|
 |component|
 
-_The BluetoothClient component that should be used for communication._
+The BluetoothClient component that should be used for communication.
 
 ### Pressed Event Enabled
 
@@ -60,7 +60,7 @@ _The BluetoothClient component that should be used for communication._
 |:----:|:-------:|
 |boolean|False|
 
-_Whether the Pressed event should fire when the touch sensor is pressed._
+Whether the Pressed event should fire when the touch sensor is pressed.
 
 ### Released Event Enabled
 
@@ -73,7 +73,7 @@ _Whether the Pressed event should fire when the touch sensor is pressed._
 |:----:|:-------:|
 |boolean|False|
 
-_Whether the Released event should fire when the touch sensor is released._
+Whether the Released event should fire when the touch sensor is released.
 
 ### Sensor Port
 
@@ -86,4 +86,4 @@ _Whether the Released event should fire when the touch sensor is released._
 |:----:|:-------:|
 |text|1|
 
-_The sensor port that the sensor is connected to._
+The sensor port that the sensor is connected to.

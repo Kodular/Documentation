@@ -6,7 +6,7 @@
 
 ## Overview
 
-_Top-level component containing all other components in the program._
+Top-level component containing all other components in the program.
 
 ## Events
 
@@ -14,7 +14,7 @@ _Top-level component containing all other components in the program._
 
 [[Event('Form', 'Back Pressed')]]
 
-_Device back button pressed._
+Device back button pressed.
 
 ### Error Occurred
 
@@ -29,7 +29,7 @@ _Device back button pressed._
     |message|`text`|
 
 
-_Event raised when an error occurs. Only some errors will raise this condition.  For those errors, the system will show a notification by default.  You can use this event handler to prescribe an error behavior different than the default._
+Event raised when an error occurs. Only some errors will raise this condition.  For those errors, the system will show a notification by default.  You can use this event handler to prescribe an error behavior different than the default.
 
 ### Got Received Shared
 
@@ -42,13 +42,13 @@ _Event raised when an error occurs. Only some errors will raise this condition. 
     |value|`text`|
 
 
-_Event to detect that a user shared content to your app throw the sharing dialog of any other app. Type stand for integer. 0 = nothing shared, 1 = audio, 2 = image, 3 = text or 4 = video_
+Event to detect that a user shared content to your app throw the sharing dialog of any other app. Type stand for integer. 0 = nothing shared, 1 = audio, 2 = image, 3 = text or 4 = video
 
 ### Initialize
 
 [[Event('Form', 'Initialize')]]
 
-_Screen starting_
+Screen starting
 
 ### Keyboard Visibility Changed
 
@@ -60,13 +60,13 @@ _Screen starting_
     |is Keyboard Visible|`boolean`|
 
 
-_Event will be invoked if the keyboard was visible or invisible._
+Event will be invoked if the keyboard was visible or invisible.
 
 ### Menu Initialize
 
 [[Event('Form', 'Menu Initialize')]]
 
-_Event to detect when the menu has loaded. Set here your blocks like TitleBarIcon or AddMenuItem._
+Event to detect when the menu has loaded. Set here your blocks like TitleBarIcon or AddMenuItem.
 
 ### Menu Item Selected
 
@@ -78,25 +78,25 @@ _Event to detect when the menu has loaded. Set here your blocks like TitleBarIco
     |menu Item|`text`|
 
 
-_Event to detect when a menu item has been selected._
+Event to detect when a menu item has been selected.
 
 ### On App Pause
 
 [[Event('Form', 'On App Pause')]]
 
-_The system calls this method as the first indication that the user is leaving your activity (though it does not always mean the activity is being destroyed)._
+The system calls this method as the first indication that the user is leaving your activity (though it does not always mean the activity is being destroyed).
 
 ### On App Resume
 
 [[Event('Form', 'On App Resume')]]
 
-_When the activity enters the Resumed state, it comes to the foreground, and then the system invokes this event._
+When the activity enters the Resumed state, it comes to the foreground, and then the system invokes this event.
 
 ### On App Stop
 
 [[Event('Form', 'On App Stop')]]
 
-_When your activity is no longer visible to the user, it has entered the Stopped state, and the system invokes this event._
+When your activity is no longer visible to the user, it has entered the Stopped state, and the system invokes this event.
 
 ### Other Screen Closed
 
@@ -109,7 +109,7 @@ _When your activity is no longer visible to the user, it has entered the Stopped
     |result|`any`|
 
 
-_Event raised when another screen has closed and control has returned to this screen._
+Event raised when another screen has closed and control has returned to this screen.
 
 ### Permission Denied
 
@@ -123,7 +123,7 @@ _Event raised when another screen has closed and control has returned to this sc
     |permission Name|`text`|
 
 
-_Event to handle when the app user has denied a needed permission._
+Event to handle when the app user has denied a needed permission.
 
 ### Permission Granted
 
@@ -135,26 +135,26 @@ _Event to handle when the app user has denied a needed permission._
     |permission Name|`text`|
 
 
-_Event to handle when the app user has granted a needed permission. This event is only run when permission is
- granted in response to the AskForPermission method._
+Event to handle when the app user has granted a needed permission. This event is only run when permission is
+ granted in response to the AskForPermission method.
 
 ### Screen Orientation Changed
 
 [[Event('Form', 'Screen Orientation Changed')]]
 
-_Screen orientation changed_
+Screen orientation changed
 
 ### Side Menu Closed
 
 [[Event('Form', 'Side Menu Closed')]]
 
-_Event will be invoked if the side menu was closed._
+Event will be invoked if the side menu was closed.
 
 ### Side Menu Opened
 
 [[Event('Form', 'Side Menu Opened')]]
 
-_Event will be invoked if the side menu was opened._
+Event will be invoked if the side menu was opened.
 
 ### Title Bar Icon Selected
 
@@ -167,13 +167,13 @@ _Event will be invoked if the side menu was opened._
     |name|`text`|
 
 
-_The event returns the 'icon' or 'name' of the selected icon._
+The event returns the 'icon' or 'name' of the selected icon.
 
 ### Title Bar Back Button Clicked
 
 [[Event('Form', 'Title Bar Back Button Clicked')]]
 
-_Event to detect when a menu item has been selected._
+Event to detect when a menu item has been selected.
 
 ## Methods
 
@@ -187,7 +187,7 @@ _Event to detect when a menu item has been selected._
     |menu Item|`list`|
 
 
-_Add a new item to the menu. Use the 'make a list' block._
+Add a new item to the menu. Use the 'make a list' block.
 
 ### AddMenuItemWithIcon
 
@@ -200,7 +200,7 @@ _Add a new item to the menu. Use the 'make a list' block._
     |menu Icon|`text`|
 
 
-_Add a new item with a icon on the left side to the menu. This function does not use the make a list block. If you want more items with icon then use this block again._
+Add a new item with a icon on the left side to the menu. This function does not use the make a list block. If you want more items with icon then use this block again.
 
 ### AddTitleBarIcon
 
@@ -213,7 +213,7 @@ _Add a new item with a icon on the left side to the menu. This function does not
     |name|`text`|
 
 
-_Add a new action icon to the TitleBar. You will see a toast message on a long click with your choosen name. Add this block to the "MenuInitialize" event._
+Add a new action icon to the TitleBar. You will see a toast message on a long click with your choosen name. Add this block to the "MenuInitialize" event.
 
 ### ArePermissionsGranted
 
@@ -221,7 +221,7 @@ _Add a new action icon to the TitleBar. You will see a toast message on a long c
 
 {>>Returns `boolean`<<}
 
-_Returns true if ALL needed app permissions were granted, else false._
+Returns true if ALL needed app permissions were granted, else false.
 
 ### AskForPermission
 
@@ -233,7 +233,7 @@ _Returns true if ALL needed app permissions were granted, else false._
     |permission Name|`text`|
 
 
-_Ask the user to grant access to a dangerous permission._
+Ask the user to grant access to a dangerous permission.
 
 ### CanWriteSystemSettings
 
@@ -241,67 +241,67 @@ _Ask the user to grant access to a dangerous permission._
 
 {>>Returns `boolean`<<}
 
-_Returns true if the app can write system settings, else it returns false. It will return true automatic for devices with android version below 6 (API 23)._
+Returns true if the app can write system settings, else it returns false. It will return true automatic for devices with android version below 6 (API 23).
 
 ### HideKeyboard
 
 [[Method('Form', 'HideKeyboard', false)]]
 
-_Hide the keyboard._
+Hide the keyboard.
 
 ### LockSideMenu
 
 [[Method('Form', 'LockSideMenu', false)]]
 
-_Use this block to lock the side menu. This means the user can not open the side menu until the side menu  unlock block is used._
+Use this block to lock the side menu. This means the user can not open the side menu until the side menu  unlock block is used.
 
 ### MoveTaskToBack
 
 [[Method('Form', 'MoveTaskToBack', false)]]
 
-_Move task to back. That means it will minimize your current app._
+Move task to back. That means it will minimize your current app.
 
 ### OpenAppSettings
 
 [[Method('Form', 'OpenAppSettings', false)]]
 
-_Opens the settings screen of the app. Useful if 'Are Permissions Granted' has returned false._
+Opens the settings screen of the app. Useful if 'Are Permissions Granted' has returned false.
 
 ### OpenSystemWriteSettings
 
 [[Method('Form', 'OpenSystemWriteSettings', false)]]
 
-_Opens the app's system settings page. This works only for devices with android 6+._
+Opens the app's system settings page. This works only for devices with android 6+.
 
 ### RemoveSideMenu
 
 [[Method('Form', 'RemoveSideMenu', false)]]
 
-_Remove a first created side menu. This block will be usefull if you need to update a side menu dynamically. You can use this block too to test a side menu in the companion. Add then this block above of the 'Side Menu' block._
+Remove a first created side menu. This block will be usefull if you need to update a side menu dynamically. You can use this block too to test a side menu in the companion. Add then this block above of the 'Side Menu' block.
 
 ### RemoveTitleBarIcons
 
 [[Method('Form', 'RemoveTitleBarIcons', false)]]
 
-_Remove all added action icons from the TitleBar._
+Remove all added action icons from the TitleBar.
 
 ### ResetMenu
 
 [[Method('Form', 'ResetMenu', false)]]
 
-_Reset the menu back to its default_
+Reset the menu back to its default
 
 ### ShowAboutApplication
 
 [[Method('Form', 'ShowAboutApplication', false)]]
 
-_Show the dialog which shows when pressing the "About This Application" button in the menu._
+Show the dialog which shows when pressing the "About This Application" button in the menu.
 
 ### ShowKeyboard
 
 [[Method('Form', 'ShowKeyboard', false)]]
 
-_Show the keyboard_
+Show the keyboard
 
 ### SideMenu
 
@@ -313,19 +313,19 @@ _Show the keyboard_
     |layout|`component`|
 
 
-_Create a Side Menu. Set to "layout" your layout that will be then your side menu. Use as example a vertical arrangement. Your choosen layout will be then removed from the screen and only visible in the side menu."Information": This block works on companion only if you add a side menu on button click.Don’t add it in companion on "screen initialize event". Else the companion will crash.Do NOT use this block with the Side Menu Layout component_
+Create a Side Menu. Set to "layout" your layout that will be then your side menu. Use as example a vertical arrangement. Your choosen layout will be then removed from the screen and only visible in the side menu."Information": This block works on companion only if you add a side menu on button click.Don’t add it in companion on "screen initialize event". Else the companion will crash.Do NOT use this block with the Side Menu Layout component
 
 ### SideMenuClose
 
 [[Method('Form', 'SideMenuClose', false)]]
 
-_If you had set your side menu then you can use this block to close it as example with a button click._
+If you had set your side menu then you can use this block to close it as example with a button click.
 
 ### SideMenuOpen
 
 [[Method('Form', 'SideMenuOpen', false)]]
 
-_If you had set your side menu then you can use this block to open it as example with a button click._
+If you had set your side menu then you can use this block to open it as example with a button click.
 
 ### TaskDescription
 
@@ -338,13 +338,13 @@ _If you had set your side menu then you can use this block to open it as example
     |color|`number`|
 
 
-_Sets information describing the task with this activity for presentation inside the Recents System UI. You will see the settings if the device API is >= 21 and you minimize the app._
+Sets information describing the task with this activity for presentation inside the Recents System UI. You will see the settings if the device API is >= 21 and you minimize the app.
 
 ### UnlockSideMenu
 
 [[Method('Form', 'UnlockSideMenu', false)]]
 
-_Use this block to unlock the side menu. This means the user can now open again the side menu._
+Use this block to unlock the side menu. This means the user can now open again the side menu.
 
 ### VersionCode
 
@@ -352,7 +352,7 @@ _Use this block to unlock the side menu. This means the user can now open again 
 
 {>>Returns `number`<<}
 
-_This block will returns the version code_
+This block will returns the version code
 
 ### VersionName
 
@@ -360,7 +360,7 @@ _This block will returns the version code_
 
 {>>Returns `text`<<}
 
-_This block will returns the version name_
+This block will returns the version name
 
 ## Properties
 
@@ -375,7 +375,7 @@ _This block will returns the version name_
 |:----:|
 |text|
 
-_Information about the screen.  It appears when "About this Application" is selected from the system menu. Use it to inform people about your app.  In multiple screen apps, each screen has its own AboutScreen info._
+Information about the screen.  It appears when "About this Application" is selected from the system menu. Use it to inform people about your app.  In multiple screen apps, each screen has its own AboutScreen info.
 
 ### About Screen Background Color
 
@@ -414,7 +414,7 @@ _No description available_
 |:----:|:-------:|
 |text|About this application|
 
-_Define the title of the about application option._
+Define the title of the about application option.
 
 ### Accent Color
 
@@ -427,7 +427,7 @@ _Define the title of the about application option._
 |:----:|:-------:|
 |number|&HFFFF4081|
 
-_This is the accent color used for highlights and other user interface accents._
+This is the accent color used for highlights and other user interface accents.
 
 ### Align Horizontal
 
@@ -440,7 +440,7 @@ _This is the accent color used for highlights and other user interface accents._
 |:----:|:-------:|
 |number|1|
 
-_A number that encodes how contents of the screen are aligned  horizontally. The choices are: 1 = left aligned, 2 = horizontally centered,  3 = right aligned._
+A number that encodes how contents of the screen are aligned  horizontally. The choices are: 1 = left aligned, 2 = horizontally centered,  3 = right aligned.
 
 ### Align Vertical
 
@@ -453,7 +453,7 @@ _A number that encodes how contents of the screen are aligned  horizontally. The
 |:----:|:-------:|
 |number|1|
 
-_A number that encodes how the contents of the arrangement are aligned vertically. The choices are: 1 = aligned at the top, 2 = vertically centered, 3 = aligned at the bottom. Vertical alignment has no effect if the screen is scrollable._
+A number that encodes how the contents of the arrangement are aligned vertically. The choices are: 1 = aligned at the top, 2 = vertically centered, 3 = aligned at the bottom. Vertical alignment has no effect if the screen is scrollable.
 
 ### App ID
 
@@ -466,7 +466,7 @@ _A number that encodes how the contents of the arrangement are aligned verticall
 |:----:|
 |text|
 
-_The unique APP_ID for the user (which is generated by GWT and stored in Datastore)_
+The unique APP_ID for the user (which is generated by GWT and stored in Datastore)
 
 ### App Name
 
@@ -479,7 +479,7 @@ _The unique APP_ID for the user (which is generated by GWT and stored in Datasto
 |:----:|
 |text|
 
-_This is the display name of the installed application in the phone.If the AppName is blank, it will be set to the name of the project when the project is built._
+This is the display name of the installed application in the phone.If the AppName is blank, it will be set to the name of the project when the project is built.
 
 ### Background Color
 
@@ -492,7 +492,7 @@ _This is the display name of the installed application in the phone.If the AppNa
 |:----:|:-------:|
 |number|&HFFFFFFFF|
 
-_BackgroundColor property getter method._
+BackgroundColor property getter method.
 
 ### Background Image
 
@@ -505,7 +505,7 @@ _BackgroundColor property getter method._
 |:----:|
 |text|
 
-_The screen background image._
+The screen background image.
 
 ### Close Screen Animation
 
@@ -518,7 +518,7 @@ _The screen background image._
 |:----:|:-------:|
 |text|default|
 
-_The animation for closing current screen and returning  to the previous screen. Valid options are default, fade, zoom, slidehorizontal, slidevertical, and none_
+The animation for closing current screen and returning  to the previous screen. Valid options are default, fade, zoom, slidehorizontal, slidevertical, and none
 
 ### High Quality Images
 
@@ -531,7 +531,7 @@ _The animation for closing current screen and returning  to the previous screen.
 |:----:|:-------:|
 |boolean|False|
 
-_If set to true, pictures will be loaded in high quality._
+If set to true, pictures will be loaded in high quality.
 
 ### Icon
 
@@ -544,7 +544,7 @@ _If set to true, pictures will be loaded in high quality._
 |:----:|
 |text|
 
-_Specifies the name of the application icon._
+Specifies the name of the application icon.
 
 ### Keep Screen On
 
@@ -557,7 +557,7 @@ _Specifies the name of the application icon._
 |:----:|:-------:|
 |boolean|False|
 
-_Keep the device's screen turned on and bright._
+Keep the device's screen turned on and bright.
 
 ### Min SDK (Min. Android Version)
 
@@ -583,7 +583,7 @@ _No description available_
 |:----:|:-------:|
 |number|&HFF000000|
 
-_Set navigation bar color. This will work starting from API Level 21 (Android Lollipop)_
+Set navigation bar color. This will work starting from API Level 21 (Android Lollipop)
 
 ### Open Screen Animation
 
@@ -596,7 +596,7 @@ _Set navigation bar color. This will work starting from API Level 21 (Android Lo
 |:----:|:-------:|
 |text|default|
 
-_The animation for switching to another screen. Valid options are default, fade, zoom, slidehorizontal, slidevertical, and none_
+The animation for switching to another screen. Valid options are default, fade, zoom, slidehorizontal, slidevertical, and none
 
 ### Package Name
 
@@ -609,7 +609,7 @@ _The animation for switching to another screen. Valid options are default, fade,
 |:----:|
 |text|
 
-_Set a custom PackageName for the app_
+Set a custom PackageName for the app
 
 ### Primary Color / Title Bar
 
@@ -622,7 +622,7 @@ _Set a custom PackageName for the app_
 |:----:|:-------:|
 |number|&HFF3F51B5|
 
-_This is the primary color used for Material UI elements, such as the ActionBar._
+This is the primary color used for Material UI elements, such as the ActionBar.
 
 ### Primary Color Dark / Status Bar
 
@@ -635,7 +635,7 @@ _This is the primary color used for Material UI elements, such as the ActionBar.
 |:----:|:-------:|
 |number|&HFF303F9F|
 
-_This is the primary color used for darker elements in Material UI._
+This is the primary color used for darker elements in Material UI.
 
 ### RTL Support
 
@@ -674,7 +674,7 @@ _No description available_
 |:----:|:-------:|
 |text|unspecified|
 
-_The requested screen orientation, specified as a text value.  Commonly used values are landscape, portrait, sensor, user and unspecified.  See the Android developer documentation for ActivityInfo.Screen_Orientation for the complete list of possible settings._
+The requested screen orientation, specified as a text value.  Commonly used values are landscape, portrait, sensor, user and unspecified.  See the Android developer documentation for ActivityInfo.Screen_Orientation for the complete list of possible settings.
 
 ### Scrollable
 
@@ -687,7 +687,7 @@ _The requested screen orientation, specified as a text value.  Commonly used val
 |:----:|:-------:|
 |boolean|False|
 
-_When checked, there will be a vertical scrollbar on the screen, and the height of the application can exceed the physical height of the device. When unchecked, the application height is constrained to the height of the device._
+When checked, there will be a vertical scrollbar on the screen, and the height of the application can exceed the physical height of the device. When unchecked, the application height is constrained to the height of the device.
 
 ### Show Lists As Json
 
@@ -700,7 +700,7 @@ _When checked, there will be a vertical scrollbar on the screen, and the height 
 |:----:|:-------:|
 |boolean|False|
 
-_If false, lists will be converted to strings using Lisp notation, i.e., as symbols separated by spaces, e.g., (a 1 b2 (c d). If true, lists will appear as in Json or Python, e.g.  ["a", 1, "b", 2, ["c", "d"]].  This property appears only in Screen 1, and the value for Screen 1 determines the behavior for all screens. The property defaults to "false" meaning that the App Inventor programmer must explicitly set it to "true" if JSON/Python syntax is desired. At some point in the future we will alter the system so that new projects are created with this property set to "true" by default. Existing projects will not be impacted. The App Inventor programmer can also set it back to "false" in newer projects if desired._
+If false, lists will be converted to strings using Lisp notation, i.e., as symbols separated by spaces, e.g., (a 1 b2 (c d). If true, lists will appear as in Json or Python, e.g.  ["a", 1, "b", 2, ["c", "d"]].  This property appears only in Screen 1, and the value for Screen 1 determines the behavior for all screens. The property defaults to "false" meaning that the App Inventor programmer must explicitly set it to "true" if JSON/Python syntax is desired. At some point in the future we will alter the system so that new projects are created with this property set to "true" by default. Existing projects will not be impacted. The App Inventor programmer can also set it back to "false" in newer projects if desired.
 
 ### Show Navigation Bar
 
@@ -713,7 +713,7 @@ _If false, lists will be converted to strings using Lisp notation, i.e., as symb
 |:----:|:-------:|
 |boolean|True|
 
-_Show/Hide Navigation Bar_
+Show/Hide Navigation Bar
 
 ### Show Options Menu
 
@@ -739,7 +739,7 @@ _No description available_
 |:----:|:-------:|
 |boolean|True|
 
-_The status bar is the topmost bar on the screen. This property reports whether the status bar is visible._
+The status bar is the topmost bar on the screen. This property reports whether the status bar is visible.
 
 ### Sizing
 
@@ -752,7 +752,7 @@ _The status bar is the topmost bar on the screen. This property reports whether 
 |:----:|:-------:|
 |text|Responsive|
 
-_If set to fixed,  screen layouts will be created for a single fixed-size screen and autoscaled. If set to responsive, screen layouts will use the actual resolution of the device.  See the documentation on responsive design in App Inventor for more information. This property appears on Screen1 only and controls the sizing for all screens in the app._
+If set to fixed,  screen layouts will be created for a single fixed-size screen and autoscaled. If set to responsive, screen layouts will use the actual resolution of the device.  See the documentation on responsive design in App Inventor for more information. This property appears on Screen1 only and controls the sizing for all screens in the app.
 
 ### Splash Enabled
 
@@ -765,7 +765,7 @@ _If set to fixed,  screen layouts will be created for a single fixed-size screen
 |:----:|:-------:|
 |boolean|True|
 
-_If set to true the user will see a splash screen while the app is loading the content._
+If set to true the user will see a splash screen while the app is loading the content.
 
 ### Splash Image
 
@@ -791,7 +791,7 @@ _No description available_
 |:----:|:-------:|
 |text|AppTheme|
 
-_Sets the theme used by the application._
+Sets the theme used by the application.
 
 ### Title
 
@@ -804,7 +804,7 @@ _Sets the theme used by the application._
 |:----:|
 |text|
 
-_The caption for the form, which apears in the title bar_
+The caption for the form, which apears in the title bar
 
 ### Title Bar Font Typeface
 
@@ -830,7 +830,7 @@ _No description available_
 |:----:|
 |text|
 
-_Set the TitleBar's subtitle._
+Set the TitleBar's subtitle.
 
 ### Title Bar Typeface Import
 
@@ -843,7 +843,7 @@ _Set the TitleBar's subtitle._
 |:----:|
 |text|
 
-_Set a custom font._
+Set a custom font.
 
 ### Title Visible
 
@@ -856,7 +856,7 @@ _Set a custom font._
 |:----:|:-------:|
 |boolean|True|
 
-_The title bar is the top gray bar on the screen. This property reports whether the title bar is visible._
+The title bar is the top gray bar on the screen. This property reports whether the title bar is visible.
 
 ### Tutorial URL
 
@@ -869,7 +869,7 @@ _The title bar is the top gray bar on the screen. This property reports whether 
 |:----:|
 |text|
 
-_A URL to use to populate the Tutorial Sidebar while editing a project. Used as a teaching aid._
+A URL to use to populate the Tutorial Sidebar while editing a project. Used as a teaching aid.
 
 ### Version Code
 
@@ -882,7 +882,7 @@ _A URL to use to populate the Tutorial Sidebar while editing a project. Used as 
 |:----:|:-------:|
 |number|1|
 
-_An integer value which must be incremented each time a new Android Application Package File (APK) is created for the Google Play Store._
+An integer value which must be incremented each time a new Android Application Package File (APK) is created for the Google Play Store.
 
 ### Version Name
 
@@ -895,7 +895,7 @@ _An integer value which must be incremented each time a new Android Application 
 |:----:|:-------:|
 |text|1.0|
 
-_A string which can be changed to allow Google Play Store users to distinguish between different versions of the App._
+A string which can be changed to allow Google Play Store users to distinguish between different versions of the App.
 
 ### Drawer Arrow Icon Color
 
@@ -906,7 +906,7 @@ _A string which can be changed to allow Google Play Store users to distinguish b
 |:----:|:-------:|
 |number|None|
 
-_Set the drawer arrow icon color._
+Set the drawer arrow icon color.
 
 ### Height
 
@@ -917,7 +917,7 @@ _Set the drawer arrow icon color._
 |:----:|:-------:|
 |number|None|
 
-_Screen height (y-size)._
+Screen height (y-size).
 
 ### Is Companion
 
@@ -928,7 +928,7 @@ _Screen height (y-size)._
 |:----:|:-------:|
 |boolean|None|
 
-_This block will return true, if you are running your project current in the companion application. Else it will return false._
+This block will return true, if you are running your project current in the companion application. Else it will return false.
 
 ### is Side Menu Added
 
@@ -939,7 +939,7 @@ _This block will return true, if you are running your project current in the com
 |:----:|:-------:|
 |boolean|None|
 
-_Returns true if a side menu is added to the screen._
+Returns true if a side menu is added to the screen.
 
 ### is Side Menu Open
 
@@ -950,7 +950,7 @@ _Returns true if a side menu is added to the screen._
 |:----:|:-------:|
 |boolean|None|
 
-_Returns true if a side menu is current open. Else it will return false._
+Returns true if a side menu is current open. Else it will return false.
 
 ### Navigation Bar Light Icons
 
@@ -961,7 +961,7 @@ _Returns true if a side menu is current open. Else it will return false._
 |:----:|:-------:|
 |boolean|None|
 
-_This option tells the system to use dark navigation bar icons, useful for lighter colored navigation bars. Works only for devices with API >= 26._
+This option tells the system to use dark navigation bar icons, useful for lighter colored navigation bars. Works only for devices with API >= 26.
 
 ### Navigation Icon Color
 
@@ -972,7 +972,7 @@ _This option tells the system to use dark navigation bar icons, useful for light
 |:----:|:-------:|
 |number|None|
 
-_Set the navigation icon color._
+Set the navigation icon color.
 
 ### Options Menu Icon Color
 
@@ -983,7 +983,7 @@ _Set the navigation icon color._
 |:----:|:-------:|
 |number|None|
 
-_Set the options menu icon color._
+Set the options menu icon color.
 
 ### Show Title Bar Back Button
 
@@ -994,7 +994,7 @@ _Set the options menu icon color._
 |:----:|:-------:|
 |boolean|None|
 
-_If true it will show in the TitleBar a back button only if no side menu was added. If a side menu was added it will remove the ‘hamburger’-menu icon but the side menu can still be opened._
+If true it will show in the TitleBar a back button only if no side menu was added. If a side menu was added it will remove the ‘hamburger’-menu icon but the side menu can still be opened.
 
 ### Status Bar Color
 
@@ -1005,7 +1005,7 @@ _If true it will show in the TitleBar a back button only if no side menu was add
 |:----:|:-------:|
 |number|None|
 
-_Set status bar color. This will work starting from API Level 21 (Android Lollipop_
+Set status bar color. This will work starting from API Level 21 (Android Lollipop
 
 ### Status Bar Light Icons
 
@@ -1016,7 +1016,7 @@ _Set status bar color. This will work starting from API Level 21 (Android Lollip
 |:----:|:-------:|
 |boolean|None|
 
-_This option tells the system to use dark statusbar icons, useful for lighter colored status bars. Works only for devices with API >= 23._
+This option tells the system to use dark statusbar icons, useful for lighter colored status bars. Works only for devices with API >= 23.
 
 ### Title Bar Color
 
@@ -1027,7 +1027,7 @@ _This option tells the system to use dark statusbar icons, useful for lighter co
 |:----:|:-------:|
 |number|None|
 
-_Set title bar color_
+Set title bar color
 
 ### Title Bar Text Color
 
@@ -1038,7 +1038,7 @@ _Set title bar color_
 |:----:|:-------:|
 |number|None|
 
-_Set a custom color for the TitleBar text._
+Set a custom color for the TitleBar text.
 
 ### Width
 
@@ -1049,7 +1049,7 @@ _Set a custom color for the TitleBar text._
 |:----:|:-------:|
 |number|None|
 
-_Screen width (x-size)._
+Screen width (x-size).
 
 ### is Keyboard Visible
 
@@ -1060,4 +1060,4 @@ _Screen width (x-size)._
 |:----:|:-------:|
 |boolean|None|
 
-_Returns the status of the keyboard. If the keyboard is visible then the result is true._
+Returns the status of the keyboard. If the keyboard is visible then the result is true.

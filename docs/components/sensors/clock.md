@@ -8,7 +8,7 @@
 
 ## Overview
 
-_<p>Non-visible component that provides the instant in time using the internal clock on the phone. It can fire a timer at regularly set intervals and perform time calculations, manipulations, and conversions.</p> <p>Methods to convert an instant to text are also available. Acceptable patterns are empty string, MM/DD/YYYY HH:mm:ss a, or MMM d, yyyyHH:mm. The empty string will provide the default format, which is "MMM d, yyyy HH:mm:ss a" for FormatDateTime "MMM d, yyyy" for FormatDate. To see all possible format, please see <a href="https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html" _target="_blank">here</a>. </p> _
+<p>Non-visible component that provides the instant in time using the internal clock on the phone. It can fire a timer at regularly set intervals and perform time calculations, manipulations, and conversions.</p> <p>Methods to convert an instant to text are also available. Acceptable patterns are empty string, MM/DD/YYYY HH:mm:ss a, or MMM d, yyyyHH:mm. The empty string will provide the default format, which is "MMM d, yyyy HH:mm:ss a" for FormatDateTime "MMM d, yyyy" for FormatDate. To see all possible format, please see <a href="https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html" _target="_blank">here</a>. </p> 
 
 ## Events
 
@@ -16,7 +16,7 @@ _<p>Non-visible component that provides the instant in time using the internal c
 
 [[Event('Clock', 'Timer')]]
 
-_Timer has gone off._
+Timer has gone off.
 
 ## Methods
 
@@ -33,7 +33,7 @@ _Timer has gone off._
     |quantity|`number`|
 
 
-_An instant in time some days after the argument_
+An instant in time some days after the argument
 
 ### AddDuration
 
@@ -48,7 +48,7 @@ _An instant in time some days after the argument_
     |quantity|`number`|
 
 
-_An instant in time some duration after the argument_
+An instant in time some duration after the argument
 
 ### AddHours
 
@@ -63,7 +63,7 @@ _An instant in time some duration after the argument_
     |quantity|`number`|
 
 
-_An instant in time some hours after the argument_
+An instant in time some hours after the argument
 
 ### AddMinutes
 
@@ -78,7 +78,7 @@ _An instant in time some hours after the argument_
     |quantity|`number`|
 
 
-_An instant in time some minutes after the argument_
+An instant in time some minutes after the argument
 
 ### AddMonths
 
@@ -93,7 +93,7 @@ _An instant in time some minutes after the argument_
     |quantity|`number`|
 
 
-_An instant in time some months after the argument_
+An instant in time some months after the argument
 
 ### AddSeconds
 
@@ -108,7 +108,7 @@ _An instant in time some months after the argument_
     |quantity|`number`|
 
 
-_An instant in time some seconds after the argument_
+An instant in time some seconds after the argument
 
 ### AddWeeks
 
@@ -123,7 +123,7 @@ _An instant in time some seconds after the argument_
     |quantity|`number`|
 
 
-_An instant in time some weeks after the argument_
+An instant in time some weeks after the argument
 
 ### AddYears
 
@@ -138,7 +138,7 @@ _An instant in time some weeks after the argument_
     |quantity|`number`|
 
 
-_An instant in time some years after the argument_
+An instant in time some years after the argument
 
 ### DayOfMonth
 
@@ -152,7 +152,7 @@ _An instant in time some years after the argument_
     |instant|`InstantInTime`|
 
 
-_The day of the month_
+The day of the month
 
 ### Duration
 
@@ -167,7 +167,7 @@ _The day of the month_
     |end|`InstantInTime`|
 
 
-_Milliseconds elapsed between instants_
+Milliseconds elapsed between instants
 
 ### DurationToDays
 
@@ -181,7 +181,7 @@ _Milliseconds elapsed between instants_
     |duration|`number`|
 
 
-_convert duration to days_
+convert duration to days
 
 ### DurationToHours
 
@@ -195,7 +195,7 @@ _convert duration to days_
     |duration|`number`|
 
 
-_convert duration to hours_
+convert duration to hours
 
 ### DurationToMinutes
 
@@ -209,7 +209,7 @@ _convert duration to hours_
     |duration|`number`|
 
 
-_convert duration to minutes_
+convert duration to minutes
 
 ### DurationToSeconds
 
@@ -223,7 +223,7 @@ _convert duration to minutes_
     |duration|`number`|
 
 
-_convert duration to seconds_
+convert duration to seconds
 
 ### DurationToWeeks
 
@@ -237,7 +237,7 @@ _convert duration to seconds_
     |duration|`number`|
 
 
-_convert duration to weeks_
+convert duration to weeks
 
 ### FormatDate
 
@@ -252,7 +252,7 @@ _convert duration to weeks_
     |pattern|`text`|
 
 
-_Text representing the date of an instant in the specified pattern_
+Text representing the date of an instant in the specified pattern
 
 ### FormatDateTime
 
@@ -267,7 +267,7 @@ _Text representing the date of an instant in the specified pattern_
     |pattern|`text`|
 
 
-_Text representing the date and time of an instant in the specified pattern_
+Text representing the date and time of an instant in the specified pattern
 
 ### FormatTime
 
@@ -281,7 +281,7 @@ _Text representing the date and time of an instant in the specified pattern_
     |instant|`InstantInTime`|
 
 
-_Text representing the time of an instant_
+Text representing the time of an instant
 
 ### GetMillis
 
@@ -295,7 +295,7 @@ _Text representing the time of an instant_
     |instant|`InstantInTime`|
 
 
-_The instant in time measured as milliseconds since 1970._
+The instant in time measured as milliseconds since 1970.
 
 ### Hour
 
@@ -309,7 +309,7 @@ _The instant in time measured as milliseconds since 1970._
     |instant|`InstantInTime`|
 
 
-_The hour of the day_
+The hour of the day
 
 ### MakeDate
 
@@ -325,8 +325,8 @@ _The hour of the day_
     |day|`number`|
 
 
-_Allows the user to set the clock to be a date value.
-Valid values for the month field are 1-12 and 1-31 for the day field._
+Allows the user to set the clock to be a date value.
+Valid values for the month field are 1-12 and 1-31 for the day field.
 
 ### MakeInstant
 
@@ -340,7 +340,7 @@ Valid values for the month field are 1-12 and 1-31 for the day field._
     |from|`text`|
 
 
-_An instant in time specified by MM/dd/YYYY hh:mm:ss or MM/dd/YYYY or hh:mm_
+An instant in time specified by MM/dd/YYYY hh:mm:ss or MM/dd/YYYY or hh:mm
 
 ### MakeInstantFromMillis
 
@@ -354,7 +354,7 @@ _An instant in time specified by MM/dd/YYYY hh:mm:ss or MM/dd/YYYY or hh:mm_
     |millis|`number`|
 
 
-_An instant in time specified by the milliseconds since 1970._
+An instant in time specified by the milliseconds since 1970.
 
 ### MakeInstantFromParts
 
@@ -373,8 +373,8 @@ _An instant in time specified by the milliseconds since 1970._
     |second|`number`|
 
 
-_Allows the user to set the date and time to be displayed when the clock opens.
-Valid values for the month field are 1-12 and 1-31 for the day field._
+Allows the user to set the date and time to be displayed when the clock opens.
+Valid values for the month field are 1-12 and 1-31 for the day field.
 
 ### MakeTime
 
@@ -390,7 +390,7 @@ Valid values for the month field are 1-12 and 1-31 for the day field._
     |second|`number`|
 
 
-_Allows the user to set the time of the clock - Valid format is hh:mm:ss_
+Allows the user to set the time of the clock - Valid format is hh:mm:ss
 
 ### Minute
 
@@ -404,7 +404,7 @@ _Allows the user to set the time of the clock - Valid format is hh:mm:ss_
     |instant|`InstantInTime`|
 
 
-_The minute of the hour_
+The minute of the hour
 
 ### Month
 
@@ -418,7 +418,7 @@ _The minute of the hour_
     |instant|`InstantInTime`|
 
 
-_The month of the year represented as a number from 1 to 12)_
+The month of the year represented as a number from 1 to 12)
 
 ### MonthName
 
@@ -432,7 +432,7 @@ _The month of the year represented as a number from 1 to 12)_
     |instant|`InstantInTime`|
 
 
-_The name of the month_
+The name of the month
 
 ### Now
 
@@ -440,7 +440,7 @@ _The name of the month_
 
 {>>Returns `InstantInTime`<<}
 
-_The current instant in time read from phone's clock_
+The current instant in time read from phone's clock
 
 ### Second
 
@@ -454,7 +454,7 @@ _The current instant in time read from phone's clock_
     |instant|`InstantInTime`|
 
 
-_The second of the minute_
+The second of the minute
 
 ### SystemTime
 
@@ -462,7 +462,7 @@ _The second of the minute_
 
 {>>Returns `number`<<}
 
-_The phone's internal time_
+The phone's internal time
 
 ### Weekday
 
@@ -476,7 +476,7 @@ _The phone's internal time_
     |instant|`InstantInTime`|
 
 
-_The day of the week represented as a number from 1 (Sunday) to 7 (Saturday)_
+The day of the week represented as a number from 1 (Sunday) to 7 (Saturday)
 
 ### WeekdayName
 
@@ -490,7 +490,7 @@ _The day of the week represented as a number from 1 (Sunday) to 7 (Saturday)_
     |instant|`InstantInTime`|
 
 
-_The name of the day of the week_
+The name of the day of the week
 
 ### Year
 
@@ -504,7 +504,7 @@ _The name of the day of the week_
     |instant|`InstantInTime`|
 
 
-_The year_
+The year
 
 ## Properties
 
@@ -519,7 +519,7 @@ _The year_
 |:----:|:-------:|
 |boolean|True|
 
-_Will fire even when application is not showing on the screen if true_
+Will fire even when application is not showing on the screen if true
 
 ### Timer Enabled
 
@@ -532,7 +532,7 @@ _Will fire even when application is not showing on the screen if true_
 |:----:|:-------:|
 |boolean|True|
 
-_Fires timer if true_
+Fires timer if true
 
 ### Timer Interval
 
@@ -545,4 +545,4 @@ _Fires timer if true_
 |:----:|:-------:|
 |number|1000|
 
-_Interval between timer events in ms_
+Interval between timer events in ms

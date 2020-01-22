@@ -8,7 +8,7 @@
 
 ## Overview
 
-_This component can be used to provide information about network_
+This component can be used to provide information about network
 
 ## Methods
 
@@ -18,7 +18,7 @@ _This component can be used to provide information about network_
 
 {>>Returns `text`<<}
 
-_describe the type of the network, for example WIFI or MOBILE_
+describe the type of the network, for example WIFI or MOBILE
 
 ### is Connected
 
@@ -26,7 +26,7 @@ _describe the type of the network, for example WIFI or MOBILE_
 
 {>>Returns `boolean`<<}
 
-_Indicates whether network connectivity exists and it is possible to establish connections and pass data._
+Indicates whether network connectivity exists and it is possible to establish connections and pass data.
 
 ### IsFastConnection
 
@@ -34,7 +34,7 @@ _Indicates whether network connectivity exists and it is possible to establish c
 
 {>>Returns `boolean`<<}
 
-_Returns true if using a fast connection_
+Returns true if using a fast connection
 
 ### IsMobileConnection
 
@@ -42,7 +42,7 @@ _Returns true if using a fast connection_
 
 {>>Returns `boolean`<<}
 
-_Returns true if connection is through Mobile_
+Returns true if connection is through Mobile
 
 ### IsRoaming
 
@@ -50,7 +50,7 @@ _Returns true if connection is through Mobile_
 
 {>>Returns `boolean`<<}
 
-_Returns true if using using roaming_
+Returns true if using using roaming
 
 ### IsWiFiConnection
 
@@ -58,7 +58,7 @@ _Returns true if using using roaming_
 
 {>>Returns `boolean`<<}
 
-_Returns true if connection is through WiFi_
+Returns true if connection is through WiFi
 
 ## Properties
 
@@ -71,7 +71,7 @@ _Returns true if connection is through WiFi_
 |:----:|:-------:|
 |boolean|None|
 
-_Checks to see if device is GPS enabled and if so, checks to see if GPS is started or not_
+Checks to see if device is GPS enabled and if so, checks to see if GPS is started or not
 
 ### Is GPS Enabled Device
 
@@ -82,7 +82,7 @@ _Checks to see if device is GPS enabled and if so, checks to see if GPS is start
 |:----:|:-------:|
 |boolean|None|
 
-_Checks to see if device is GPS enabled_
+Checks to see if device is GPS enabled
 
 ### Start GPS Options
 
@@ -93,4 +93,4 @@ _Checks to see if device is GPS enabled_
 |:----:|:-------:|
 |boolean|None|
 
-_Starts up the GPS configuration activity, giving user option to turn turn on the GPS_
+Starts up the GPS configuration activity, giving user option to turn turn on the GPS

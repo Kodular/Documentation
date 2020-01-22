@@ -8,7 +8,7 @@
 
 ## Overview
 
-_A non-visible component that sends a notification to the user''s device._
+A non-visible component that sends a notification to the user''s device.
 
 ## Methods
 
@@ -18,7 +18,7 @@ _A non-visible component that sends a notification to the user''s device._
 
 {>>Returns `boolean`<<}
 
-_Check wether the app can send Notifications_
+Check wether the app can send Notifications
 
 ### BigPictureNotification
 
@@ -35,13 +35,13 @@ _Check wether the app can send Notifications_
     |remove On Click|`boolean`|
 
 
-_Send a normal notification_
+Send a normal notification
 
 ### CancelAll
 
 [[Method('Notification', 'CancelAll', false)]]
 
-_Cancel all Notifications_
+Cancel all Notifications
 
 ### CancelNotification
 
@@ -53,7 +53,7 @@ _Cancel all Notifications_
     |id|`number`|
 
 
-_Cancel a Notification with an id_
+Cancel a Notification with an id
 
 ### NormalNotification
 
@@ -69,7 +69,7 @@ _Cancel a Notification with an id_
     |remove On Click|`boolean`|
 
 
-_Send a normal notification_
+Send a normal notification
 
 ### SimpleNotification
 
@@ -82,7 +82,7 @@ _Send a normal notification_
     |message|`text`|
 
 
-_Send a simple notification_
+Send a simple notification
 
 ## Properties
 
@@ -97,7 +97,7 @@ _Send a simple notification_
 |:----:|:-------:|
 |number|1|
 
-_Set the priority level. 1 = "Default", 2 = "high", 3 = "low", 4 = "max", 5 = "min"_
+Set the priority level. 1 = "Default", 2 = "high", 3 = "low", 4 = "max", 5 = "min"
 
 ### Visibility
 
@@ -110,4 +110,4 @@ _Set the priority level. 1 = "Default", 2 = "high", 3 = "low", 4 = "max", 5 = "m
 |:----:|:-------:|
 |number|1|
 
-_Set the visibility property. 1 = "public", 2 = "private", 3 = "secret"._
+Set the visibility property. 1 = "public", 2 = "private", 3 = "secret".

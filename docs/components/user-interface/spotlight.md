@@ -8,7 +8,7 @@
 
 ## Overview
 
-_A non-visible component that brings emphasis to the specified component by means of darkening the screen around that component._
+A non-visible component that brings emphasis to the specified component by means of darkening the screen around that component.
 
 ## Events
 
@@ -16,7 +16,7 @@ _A non-visible component that brings emphasis to the specified component by mean
 
 [[Event('Spotlight', 'Clicked')]]
 
-_Event triggered when the spotlight is clicked._
+Event triggered when the spotlight is clicked.
 
 ## Methods
 
@@ -24,7 +24,7 @@ _Event triggered when the spotlight is clicked._
 
 [[Method('Spotlight', 'ShowSpotlight', false)]]
 
-_Use this block to show the spotlight._
+Use this block to show the spotlight.
 
 ### ShowSpotlightOnFAB
 
@@ -36,7 +36,7 @@ _Use this block to show the spotlight._
     |floating Action Button|`component`|
 
 
-_Use this block to show the spotlight on a floating action button._
+Use this block to show the spotlight on a floating action button.
 
 ## Properties
 
@@ -51,7 +51,7 @@ _Use this block to show the spotlight on a floating action button._
 |:----:|:-------:|
 |number|20|
 
-_The padding for the circle spotlight. Default is '20'._
+The padding for the circle spotlight. Default is '20'.
 
 ### Component
 
@@ -64,7 +64,7 @@ _The padding for the circle spotlight. Default is '20'._
 |:----:|
 |component|
 
-_The component to show in the spotlight._
+The component to show in the spotlight.
 
 ### Dismiss On Back Press
 
@@ -77,7 +77,7 @@ _The component to show in the spotlight._
 |:----:|:-------:|
 |boolean|True|
 
-_Dismiss the spotlight on back pressed._
+Dismiss the spotlight on back pressed.
 
 ### Dismiss On Touch
 
@@ -90,7 +90,7 @@ _Dismiss the spotlight on back pressed._
 |:----:|:-------:|
 |boolean|True|
 
-_Dismiss the spotlight on touch_
+Dismiss the spotlight on touch
 
 ### Enable Dismiss After Shown
 
@@ -103,7 +103,7 @@ _Dismiss the spotlight on touch_
 |:----:|:-------:|
 |boolean|True|
 
-_Dismiss spotlight on touch after spotlight is completely visible._
+Dismiss spotlight on touch after spotlight is completely visible.
 
 ### Enable Reveal Animation
 
@@ -116,7 +116,7 @@ _Dismiss spotlight on touch after spotlight is completely visible._
 |:----:|:-------:|
 |boolean|True|
 
-_Enable reveal animation (Only for Lollipop and above)._
+Enable reveal animation (Only for Lollipop and above).
 
 ### Fadein Text Duration
 
@@ -129,7 +129,7 @@ _Enable reveal animation (Only for Lollipop and above)._
 |:----:|:-------:|
 |number|400|
 
-_Fade in animation duration for spotlight text (Heading and Sub-heading)._
+Fade in animation duration for spotlight text (Heading and Sub-heading).
 
 ### Font Heading Typeface
 
@@ -155,7 +155,7 @@ _No description available_
 |:----:|
 |text|
 
-_Set a custom font._
+Set a custom font.
 
 ### Font Subheading Typeface
 
@@ -181,7 +181,7 @@ _No description available_
 |:----:|
 |text|
 
-_Set a custom font._
+Set a custom font.
 
 ### Heading Text
 
@@ -194,7 +194,7 @@ _Set a custom font._
 |:----:|
 |text|
 
-_The Spotlight heading text._
+The Spotlight heading text.
 
 ### Heading Text Color
 
@@ -207,7 +207,7 @@ _The Spotlight heading text._
 |:----:|:-------:|
 |number|&HFF3F51B5|
 
-_The Spotlight heading text color._
+The Spotlight heading text color.
 
 ### Heading Text Size
 
@@ -220,7 +220,7 @@ _The Spotlight heading text color._
 |:----:|:-------:|
 |number|32|
 
-_The Spotlight heading size._
+The Spotlight heading size.
 
 ### Intro Animation Duration
 
@@ -233,7 +233,7 @@ _The Spotlight heading size._
 |:----:|:-------:|
 |number|400|
 
-_Intro animation duration (For Reveal and Fadein)._
+Intro animation duration (For Reveal and Fadein).
 
 ### Line And Arc Color
 
@@ -246,7 +246,7 @@ _Intro animation duration (For Reveal and Fadein)._
 |:----:|:-------:|
 |number|&HFF3F51B5|
 
-_The Spotlight line and arc color._
+The Spotlight line and arc color.
 
 ### Line Animation Duration
 
@@ -259,7 +259,7 @@ _The Spotlight line and arc color._
 |:----:|:-------:|
 |number|400|
 
-_Line animation duration_
+Line animation duration
 
 ### Mask Color
 
@@ -272,7 +272,7 @@ _Line animation duration_
 |:----:|:-------:|
 |number|&Hbe000000|
 
-_The Spotlight mask color_
+The Spotlight mask color
 
 ### Show Target Arc
 
@@ -285,7 +285,7 @@ _The Spotlight mask color_
 |:----:|:-------:|
 |boolean|True|
 
-_If set to true you will see a half round circle below the spotlight circle._
+If set to true you will see a half round circle below the spotlight circle.
 
 ### Subheading Text
 
@@ -298,7 +298,7 @@ _If set to true you will see a half round circle below the spotlight circle._
 |:----:|
 |text|
 
-_The Spotlight subheading text._
+The Spotlight subheading text.
 
 ### Subheading Text Color
 
@@ -311,7 +311,7 @@ _The Spotlight subheading text._
 |:----:|:-------:|
 |number|&HFFFFFFFF|
 
-_The Spotlight subheading text color._
+The Spotlight subheading text color.
 
 ### Subheading Text Size
 
@@ -324,4 +324,4 @@ _The Spotlight subheading text color._
 |:----:|:-------:|
 |number|16|
 
-_The Spotlight subheading text size._
+The Spotlight subheading text size.

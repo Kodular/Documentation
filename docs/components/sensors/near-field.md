@@ -8,7 +8,7 @@
 
 ## Overview
 
-_<p>Non-visible component to provide NFC capabilities.  For now this component supports the reading and writing of text tags only (if supported by the device)</p><p>In order to read and write text tags, the component must have its <code>ReadMode</code> property set to True or False respectively.</p><p><strong>Note:</strong> This component will only work on Screen1 of any App Inventor app.</p>_
+<p>Non-visible component to provide NFC capabilities.  For now this component supports the reading and writing of text tags only (if supported by the device)</p><p>In order to read and write text tags, the component must have its <code>ReadMode</code> property set to True or False respectively.</p><p><strong>Note:</strong> This component will only work on Screen1 of any App Inventor app.</p>
 
 ## Events
 
@@ -23,15 +23,15 @@ _<p>Non-visible component to provide NFC capabilities.  For now this component s
     |message|`text`|
 
 
-_Indicates that a new tag has been detected.
+Indicates that a new tag has been detected.
  Currently this is only a plain text tag, as specified in the
- manifest.  See Compiler.java._
+ manifest.  See Compiler.java.
 
 ### Tag Written
 
 [[Event('Near Field', 'Tag Written')]]
 
-_Event to detect when a tag was written._
+Event to detect when a tag was written.
 
 ## Properties
 
@@ -46,7 +46,7 @@ _Event to detect when a tag was written._
 |:----:|:-------:|
 |boolean|True|
 
-_Returns true if in read mode, false if in write mode._
+Returns true if in read mode, false if in write mode.
 
 ### Last Message
 
@@ -57,7 +57,7 @@ _Returns true if in read mode, false if in write mode._
 |:----:|:-------:|
 |text|None|
 
-_Returns the content of the most recently received tag._
+Returns the content of the most recently received tag.
 
 ### Text To Write
 
@@ -68,7 +68,7 @@ _Returns the content of the most recently received tag._
 |:----:|:-------:|
 |text|None|
 
-_Returns the content of the text that's going to be written to the tag._
+Returns the content of the text that's going to be written to the tag.
 
 ### Write Type
 

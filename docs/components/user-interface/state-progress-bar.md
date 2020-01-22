@@ -6,7 +6,7 @@
 
 ## Overview
 
-_A visible component that indicates the progress of an operation by highlighting the steps involved in that operation._
+A visible component that indicates the progress of an operation by highlighting the steps involved in that operation.
 
 ## Events
 
@@ -20,7 +20,7 @@ _A visible component that indicates the progress of an operation by highlighting
     |error Message|`text`|
 
 
-_Event invoked when a error occurred._
+Event invoked when a error occurred.
 
 ### State Item Click
 
@@ -33,7 +33,7 @@ _Event invoked when a error occurred._
     |is Current State|`boolean`|
 
 
-_Event invoked when a state item was clicked._
+Event invoked when a state item was clicked.
 
 ## Properties
 
@@ -48,7 +48,7 @@ _Event invoked when a state item was clicked._
 |:----:|:-------:|
 |number|250|
 
-_Set the animation duration in milliseconds. Example:  use 1000 for 1 second._
+Set the animation duration in milliseconds. Example:  use 1000 for 1 second.
 
 ### Animate Between States
 
@@ -61,7 +61,7 @@ _Set the animation duration in milliseconds. Example:  use 1000 for 1 second._
 |:----:|:-------:|
 |boolean|True|
 
-_If set to true the states will use a animation when they changed._
+If set to true the states will use a animation when they changed.
 
 ### Background Color
 
@@ -74,7 +74,7 @@ _If set to true the states will use a animation when they changed._
 |:----:|:-------:|
 |number|&HFF444444|
 
-_Change the background color._
+Change the background color.
 
 ### Current State Description Color
 
@@ -87,7 +87,7 @@ _Change the background color._
 |:----:|:-------:|
 |number|&HFF4CAF50|
 
-_Change the current state description color._
+Change the current state description color.
 
 ### Current State Number
 
@@ -100,7 +100,7 @@ _Change the current state description color._
 |:----:|:-------:|
 |number|1|
 
-_Set the current state number._
+Set the current state number.
 
 ### Description Lines Spacing
 
@@ -113,7 +113,7 @@ _Set the current state number._
 |:----:|:-------:|
 |number|5.0|
 
-_Set the description lines spacing._
+Set the description lines spacing.
 
 ### Description Top Space Incrementer
 
@@ -126,7 +126,7 @@ _Set the description lines spacing._
 |:----:|:-------:|
 |number|10.0|
 
-_Set the description top space incrementer._
+Set the description top space incrementer.
 
 ### Elements From String
 
@@ -139,7 +139,7 @@ _Set the description top space incrementer._
 |:----:|:-------:|
 |text|Item 1, Item 2, Item 3, Item 4, Item 5|
 
-_The State Progress Bar elements specified as a string with the items separated by commas such as: Item 1, Item 2, Item 3, Item 4, Item 5. Each word before the comma will be an element in the list. You can add maximum 5 items._
+The State Progress Bar elements specified as a string with the items separated by commas such as: Item 1, Item 2, Item 3, Item 4, Item 5. Each word before the comma will be an element in the list. You can add maximum 5 items.
 
 ### Foreground Color
 
@@ -152,7 +152,7 @@ _The State Progress Bar elements specified as a string with the items separated 
 |:----:|:-------:|
 |number|&HFF4CAF50|
 
-_Change the foreground color._
+Change the foreground color.
 
 ### Justify Multiline Description
 
@@ -165,7 +165,7 @@ _Change the foreground color._
 |:----:|:-------:|
 |boolean|True|
 
-_If set to true justify multiline description is enabled._
+If set to true justify multiline description is enabled.
 
 ### Max Description Line
 
@@ -178,7 +178,7 @@ _If set to true justify multiline description is enabled._
 |:----:|:-------:|
 |number|2|
 
-_Set the maximum description line._
+Set the maximum description line.
 
 ### Max State Number
 
@@ -191,7 +191,7 @@ _Set the maximum description line._
 |:----:|:-------:|
 |number|5|
 
-_Set the maximum state number._
+Set the maximum state number.
 
 ### State Description Color
 
@@ -204,7 +204,7 @@ _Set the maximum state number._
 |:----:|:-------:|
 |number|&HFF444444|
 
-_Change the state description color._
+Change the state description color.
 
 ### State Description Size
 
@@ -217,7 +217,7 @@ _Change the state description color._
 |:----:|:-------:|
 |number|18.0|
 
-_Set the state description size._
+Set the state description size.
 
 ### State Description Typeface
 
@@ -243,7 +243,7 @@ _No description available_
 |:----:|
 |text|
 
-_Set a custom font for state description typeface._
+Set a custom font for state description typeface.
 
 ### State Line Thickness
 
@@ -256,7 +256,7 @@ _Set a custom font for state description typeface._
 |:----:|:-------:|
 |number|10.0|
 
-_Set the state line thickness._
+Set the state line thickness.
 
 ### State Number Background Color
 
@@ -269,7 +269,7 @@ _Set the state line thickness._
 |:----:|:-------:|
 |number|&HFF000000|
 
-_Change the state number background color._
+Change the state number background color.
 
 ### State Number Foreground Color
 
@@ -282,7 +282,7 @@ _Change the state number background color._
 |:----:|:-------:|
 |number|&HFFFFFFFF|
 
-_Change the state number foreground color._
+Change the state number foreground color.
 
 ### State Number Is Descending
 
@@ -295,7 +295,7 @@ _Change the state number foreground color._
 |:----:|:-------:|
 |boolean|False|
 
-_If set to true the state number is in descending order._
+If set to true the state number is in descending order.
 
 ### State Number Text Size
 
@@ -308,7 +308,7 @@ _If set to true the state number is in descending order._
 |:----:|:-------:|
 |number|20.0|
 
-_Set the state number text size._
+Set the state number text size.
 
 ### State Number Typeface
 
@@ -334,7 +334,7 @@ _No description available_
 |:----:|
 |text|
 
-_Set a custom font for state number typeface._
+Set a custom font for state number typeface.
 
 ### State Progress Bar Height
 
@@ -347,7 +347,7 @@ _Set a custom font for state number typeface._
 |:----:|:-------:|
 |number|40.0|
 
-_Set the state progress bar height._
+Set the state progress bar height.
 
 ### Visible
 
@@ -360,7 +360,7 @@ _Set the state progress bar height._
 |:----:|:-------:|
 |boolean|True|
 
-_Returns true iff the component is visible._
+Returns true iff the component is visible.
 
 ### All States Completed
 
@@ -371,7 +371,7 @@ _Returns true iff the component is visible._
 |:----:|:-------:|
 |boolean|None|
 
-_If set to true all states are completed._
+If set to true all states are completed.
 
 ### Column
 
@@ -382,7 +382,7 @@ _If set to true all states are completed._
 |:----:|:-------:|
 |number|None|
 
-_Column property getter method._
+Column property getter method.
 
 ### Height
 
@@ -393,7 +393,7 @@ _Column property getter method._
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's vertical height, measured in pixels._
+Specifies the component's vertical height, measured in pixels.
 
 ### Height Percent
 
@@ -404,8 +404,8 @@ _Specifies the component's vertical height, measured in pixels._
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's vertical height as a percentage
- of the height of its parent Component._
+Specifies the component's vertical height as a percentage
+ of the height of its parent Component.
 
 ### Row
 
@@ -416,7 +416,7 @@ _Specifies the component's vertical height as a percentage
 |:----:|:-------:|
 |number|None|
 
-_Row property getter method._
+Row property getter method.
 
 ### Width
 
@@ -427,7 +427,7 @@ _Row property getter method._
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's horizontal width, measured in pixels._
+Specifies the component's horizontal width, measured in pixels.
 
 ### Width Percent
 
@@ -438,5 +438,5 @@ _Specifies the component's horizontal width, measured in pixels._
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's horizontal width as a percentage
- of the Width of its parent Component._
+Specifies the component's horizontal width as a percentage
+ of the Width of its parent Component.

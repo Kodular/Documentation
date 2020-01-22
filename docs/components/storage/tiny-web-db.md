@@ -8,7 +8,7 @@
 
 ## Overview
 
-_A non-visible component that communicates with a web service to store and retrieve information._
+A non-visible component that communicates with a web service to store and retrieve information.
 
 ## Events
 
@@ -23,13 +23,13 @@ _A non-visible component that communicates with a web service to store and retri
     |value From Web DB|`any`|
 
 
-_Indicates that a GetValue server request has succeeded._
+Indicates that a GetValue server request has succeeded.
 
 ### Value Stored
 
 [[Event('Tiny Web DB', 'Value Stored')]]
 
-_Event indicating that a StoreValue server request has succeeded._
+Event indicating that a StoreValue server request has succeeded.
 
 ### Web Service Error
 
@@ -41,7 +41,7 @@ _Event indicating that a StoreValue server request has succeeded._
     |message|`text`|
 
 
-_Indicates that the communication with the Web service signaled an error._
+Indicates that the communication with the Web service signaled an error.
 
 ## Methods
 
@@ -55,7 +55,7 @@ _Indicates that the communication with the Web service signaled an error._
     |tag|`text`|
 
 
-_GetValue asks the Web service to get the value stored under the given tag._
+GetValue asks the Web service to get the value stored under the given tag.
 
 ### StoreValue
 
@@ -68,7 +68,7 @@ _GetValue asks the Web service to get the value stored under the given tag._
     |value To Store|`any`|
 
 
-_Asks the Web service to store the given value under the given tag._
+Asks the Web service to store the given value under the given tag.
 
 ## Properties
 
@@ -83,4 +83,4 @@ _Asks the Web service to store the given value under the given tag._
 |:----:|:-------:|
 |text|http://tinywebdb.builder.makeroid.io|
 
-_Returns the URL of the web service database._
+Returns the URL of the web service database.

@@ -8,7 +8,7 @@
 
 ## Overview
 
-_A non-visible component that authenticates the user using their preferred security option._
+A non-visible component that authenticates the user using their preferred security option.
 
 ## Events
 
@@ -22,7 +22,7 @@ _A non-visible component that authenticates the user using their preferred secur
     |is Authenticated|`boolean`|
 
 
-_Event to detect a authentication request was called._
+Event to detect a authentication request was called.
 
 ### On Dissmiss Keyguard Request
 
@@ -35,7 +35,7 @@ _Event to detect a authentication request was called._
     |cancelled|`boolean`|
 
 
-_Event to detect a dissmiss request keyguard was called._
+Event to detect a dissmiss request keyguard was called.
 
 ## Methods
 
@@ -43,13 +43,13 @@ _Event to detect a dissmiss request keyguard was called._
 
 [[Method('Keyguard Manager', 'RequestDismissKeyguard', false)]]
 
-_If the device is currently locked, requests the Keyguard to be dismissed. Works only for devices with Android 8+_
+If the device is currently locked, requests the Keyguard to be dismissed. Works only for devices with Android 8+
 
 ### ShowAuthenticationScreen
 
 [[Method('Keyguard Manager', 'ShowAuthenticationScreen', false)]]
 
-_Create the Confirm Credentials screen. You can customize the title and description. Or we will provide a generic one for you if you leave it empty. Works only for devices with Android 5+_
+Create the Confirm Credentials screen. You can customize the title and description. Or we will provide a generic one for you if you leave it empty. Works only for devices with Android 5+
 
 ### ShowWhenLocked
 
@@ -61,7 +61,7 @@ _Create the Confirm Credentials screen. You can customize the title and descript
     |enabled|`boolean`|
 
 
-_Specifies whether an Activity should be shown on top of the lock screen whenever the lockscreen is up and the activity is resumed. Normally an activity will be transitioned to the stopped state if it is started while the lockscreen is up, but with this flag set the activity will remain in the resumed state visible on-top of the lock screen._
+Specifies whether an Activity should be shown on top of the lock screen whenever the lockscreen is up and the activity is resumed. Normally an activity will be transitioned to the stopped state if it is started while the lockscreen is up, but with this flag set the activity will remain in the resumed state visible on-top of the lock screen.
 
 ## Properties
 
@@ -76,7 +76,7 @@ _Specifies whether an Activity should be shown on top of the lock screen wheneve
 |:----:|:-------:|
 |text|Confirm your screen lock.|
 
-_Returns the keyguard manager description text._
+Returns the keyguard manager description text.
 
 ### Title
 
@@ -89,7 +89,7 @@ _Returns the keyguard manager description text._
 |:----:|:-------:|
 |text|Unlock|
 
-_Returns the keyguard manager title text._
+Returns the keyguard manager title text.
 
 ### is Device Locked
 
@@ -100,7 +100,7 @@ _Returns the keyguard manager title text._
 |:----:|:-------:|
 |boolean|None|
 
-_Returns whether the device is currently locked and requires a PIN, pattern or password to unlock. Works only for devices with Android 5.1+_
+Returns whether the device is currently locked and requires a PIN, pattern or password to unlock. Works only for devices with Android 5.1+
 
 ### is Device Secure
 
@@ -111,7 +111,7 @@ _Returns whether the device is currently locked and requires a PIN, pattern or p
 |:----:|:-------:|
 |boolean|None|
 
-_Returns whether the device is secured with a PIN, pattern or password. Works only for devices with Android 6+_
+Returns whether the device is secured with a PIN, pattern or password. Works only for devices with Android 6+
 
 ### is Keyguard Locked
 
@@ -122,7 +122,7 @@ _Returns whether the device is secured with a PIN, pattern or password. Works on
 |:----:|:-------:|
 |boolean|None|
 
-_Return whether the keyguard is currently locked._
+Return whether the keyguard is currently locked.
 
 ### is Keyguard Secure
 
@@ -133,4 +133,4 @@ _Return whether the keyguard is currently locked._
 |:----:|:-------:|
 |boolean|None|
 
-_Return whether the keyguard is secured by a PIN, pattern or password or a SIM card is currently locked._
+Return whether the keyguard is secured by a PIN, pattern or password or a SIM card is currently locked.

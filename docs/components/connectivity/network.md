@@ -8,7 +8,7 @@
 
 ## Overview
 
-_A non-visible component that retrieves the internet connection status of the device._
+A non-visible component that retrieves the internet connection status of the device.
 
 ## Events
 
@@ -16,13 +16,13 @@ _A non-visible component that retrieves the internet connection status of the de
 
 [[Event('Network', 'On Connect')]]
 
-_Called when the device connects to a network._
+Called when the device connects to a network.
 
 ### On Disconnect
 
 [[Event('Network', 'On Disconnect')]]
 
-_Called when the device disconnects from a network._
+Called when the device disconnects from a network.
 
 ## Methods
 
@@ -32,7 +32,7 @@ _Called when the device disconnects from a network._
 
 {>>Returns `boolean`<<}
 
-_Returns "True" if the device is connected to a network, "False" otherwise._
+Returns "True" if the device is connected to a network, "False" otherwise.
 
 ### IsFastConnection
 
@@ -40,7 +40,7 @@ _Returns "True" if the device is connected to a network, "False" otherwise._
 
 {>>Returns `boolean`<<}
 
-_Returns true if using a fast connection_
+Returns true if using a fast connection
 
 ### IsMobileConnection
 
@@ -48,7 +48,7 @@ _Returns true if using a fast connection_
 
 {>>Returns `boolean`<<}
 
-_Returns true if connection is through Mobile_
+Returns true if connection is through Mobile
 
 ### IsRoaming
 
@@ -56,7 +56,7 @@ _Returns true if connection is through Mobile_
 
 {>>Returns `boolean`<<}
 
-_Returns true if using roaming_
+Returns true if using roaming
 
 ### IsWiFiConnection
 
@@ -64,7 +64,7 @@ _Returns true if using roaming_
 
 {>>Returns `boolean`<<}
 
-_Returns true if connection is through WiFi_
+Returns true if connection is through WiFi
 
 ### Type
 
@@ -74,4 +74,4 @@ _Returns true if connection is through WiFi_
 
 {>>Returns `text`<<}
 
-_Returns the type of network the device is connected to. e.g. "wifi" or "mobile". This block is deprecated, use the "IsWiFiConnection" and "IsMobileConnection" blocks instead_
+Returns the type of network the device is connected to. e.g. "wifi" or "mobile". This block is deprecated, use the "IsWiFiConnection" and "IsMobileConnection" blocks instead

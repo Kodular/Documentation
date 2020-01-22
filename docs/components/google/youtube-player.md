@@ -6,7 +6,7 @@
 
 ## Overview
 
-_A visible component that plays YouTube videos.<br>Note\: For this component to work correctly, set the MIN API to 17 (Android 4.2)._
+A visible component that plays YouTube videos.<br>Note\: For this component to work correctly, set the MIN API to 17 (Android 4.2).
 
 ## Events
 
@@ -20,7 +20,7 @@ _A visible component that plays YouTube videos.<br>Note\: For this component to 
     |error|`text`|
 
 
-_Use this event to detect that there was any error with the player. Return values: 'UNKNOWN', 'INVALID_PARAMETER_IN_REQUEST', 'HTML_5_PLAYER', 'VIDEO_NOT_FOUND', 'VIDEO_NOT_PLAYABLE_IN_EMBEDDED_PLAYER', 'INVALID_VOLUME' or 'INVALID_SEEK_TO'._
+Use this event to detect that there was any error with the player. Return values: 'UNKNOWN', 'INVALID_PARAMETER_IN_REQUEST', 'HTML_5_PLAYER', 'VIDEO_NOT_FOUND', 'VIDEO_NOT_PLAYABLE_IN_EMBEDDED_PLAYER', 'INVALID_VOLUME' or 'INVALID_SEEK_TO'.
 
 ### Fullscreen
 
@@ -32,13 +32,13 @@ _Use this event to detect that there was any error with the player. Return value
     |fullscreen|`boolean`|
 
 
-_Event to get notified when the player enters or exits fullscreen. The variable 'fullscreen' returns true or false._
+Event to get notified when the player enters or exits fullscreen. The variable 'fullscreen' returns true or false.
 
 ### Initialized
 
 [[Event('Youtube Player', 'Initialized')]]
 
-_Use this event to start the playing of a normal or instant youtube video._
+Use this event to start the playing of a normal or instant youtube video.
 
 ### Playback Quality Changed
 
@@ -50,7 +50,7 @@ _Use this event to start the playing of a normal or instant youtube video._
     |quality|`text`|
 
 
-_Use this event to detect that the playback quality was changed. Return values: 'UNKNOWN', 'SMALL', 'MEDIUM', 'LARGE', 'HD720', 'HD1080', 'HIGH_RES' or 'DEFAULT'._
+Use this event to detect that the playback quality was changed. Return values: 'UNKNOWN', 'SMALL', 'MEDIUM', 'LARGE', 'HD720', 'HD1080', 'HIGH_RES' or 'DEFAULT'.
 
 ### Playback Rate Changed
 
@@ -62,7 +62,7 @@ _Use this event to detect that the playback quality was changed. Return values: 
     |rate|`text`|
 
 
-_Use this event to detect that the playback rate was changed. Return values: 'UNKNOWN', 'RATE_0_25', 'RATE_0_5', 'RATE_1', 'RATE_1_5' or 'RATE_2'._
+Use this event to detect that the playback rate was changed. Return values: 'UNKNOWN', 'RATE_0_25', 'RATE_0_5', 'RATE_1', 'RATE_1_5' or 'RATE_2'.
 
 ### State Changed
 
@@ -74,7 +74,7 @@ _Use this event to detect that the playback rate was changed. Return values: 'UN
     |state|`text`|
 
 
-_Use this event to detect that the state changes. Return values: 'UNKNOWN', 'UNSTARTED', 'ENDED', 'PLAYING', 'PAUSED', 'BUFFERING' or 'VIDEO_CUED'._
+Use this event to detect that the state changes. Return values: 'UNKNOWN', 'UNSTARTED', 'ENDED', 'PLAYING', 'PAUSED', 'BUFFERING' or 'VIDEO_CUED'.
 
 ## Methods
 
@@ -82,13 +82,13 @@ _Use this event to detect that the state changes. Return values: 'UNKNOWN', 'UNS
 
 [[Method('Youtube Player', 'EnterFullscreen', false)]]
 
-_Enter the video in fullscreen mode._
+Enter the video in fullscreen mode.
 
 ### ExitFullscreen
 
 [[Method('Youtube Player', 'ExitFullscreen', false)]]
 
-_Exit the video from fullscreen mode._
+Exit the video from fullscreen mode.
 
 ### GetThumbnailFromVideoId
 
@@ -102,7 +102,7 @@ _Exit the video from fullscreen mode._
     |video Id|`text`|
 
 
-_This block will return the thumbnail image path from a video id. Use only as example '_bZj-LOXdH8' from a youtube video._
+This block will return the thumbnail image path from a video id. Use only as example '_bZj-LOXdH8' from a youtube video.
 
 ### InstantLoad
 
@@ -114,7 +114,7 @@ _This block will return the thumbnail image path from a video id. Use only as ex
     |video Id|`text`|
 
 
-_Use this block together with the 'Youtube Player' Initialized event. Loads and automatically plays the specified youtube video. Use only as example '_bZj-LOXdH8' from a youtube video._
+Use this block together with the 'Youtube Player' Initialized event. Loads and automatically plays the specified youtube video. Use only as example '_bZj-LOXdH8' from a youtube video.
 
 ### Load
 
@@ -126,19 +126,19 @@ _Use this block together with the 'Youtube Player' Initialized event. Loads and 
     |video Id|`text`|
 
 
-_Loads the specified video's thumbnail and prepares the player to play the video. Does not automatically play the video. Use only as example '_bZj-LOXdH8' from a youtube video._
+Loads the specified video's thumbnail and prepares the player to play the video. Does not automatically play the video. Use only as example '_bZj-LOXdH8' from a youtube video.
 
 ### Pause
 
 [[Method('Youtube Player', 'Pause', false)]]
 
-_Pause the youtube video._
+Pause the youtube video.
 
 ### Play
 
 [[Method('Youtube Player', 'Play', false)]]
 
-_Plays the youtube video._
+Plays the youtube video.
 
 ### SeekTo
 
@@ -150,13 +150,13 @@ _Plays the youtube video._
     |position|`number`|
 
 
-_Set a position where the youtube video should start playing in seconds._
+Set a position where the youtube video should start playing in seconds.
 
 ### ToggleFullscreen
 
 [[Method('Youtube Player', 'ToggleFullscreen', false)]]
 
-_Toggle the state of the video player._
+Toggle the state of the video player.
 
 ## Properties
 
@@ -171,7 +171,7 @@ _Toggle the state of the video player._
 |:----:|:-------:|
 |boolean|False|
 
-_If you want to play live videos you must setup the UI accordingly, by calling this method. If enabled, the user can not select a second on the video progress bar._
+If you want to play live videos you must setup the UI accordingly, by calling this method. If enabled, the user can not select a second on the video progress bar.
 
 ### Start Second
 
@@ -184,7 +184,7 @@ _If you want to play live videos you must setup the UI accordingly, by calling t
 |:----:|:-------:|
 |number|0|
 
-_The time from which the video should start playing._
+The time from which the video should start playing.
 
 ### Visible
 
@@ -197,7 +197,7 @@ _The time from which the video should start playing._
 |:----:|:-------:|
 |boolean|True|
 
-_Returns true iff the component is visible._
+Returns true iff the component is visible.
 
 ### Volume
 
@@ -210,7 +210,7 @@ _Returns true iff the component is visible._
 |:----:|:-------:|
 |number|50|
 
-_Set the volume to a number between 0 and 100.Use only integer numbers._
+Set the volume to a number between 0 and 100.Use only integer numbers.
 
 ### Column
 
@@ -221,7 +221,7 @@ _Set the volume to a number between 0 and 100.Use only integer numbers._
 |:----:|:-------:|
 |number|None|
 
-_Column property getter method._
+Column property getter method.
 
 ### Get Current Second
 
@@ -232,7 +232,7 @@ _Column property getter method._
 |:----:|:-------:|
 |number|None|
 
-_Returns the current second._
+Returns the current second.
 
 ### Get Video Duration
 
@@ -243,7 +243,7 @@ _Returns the current second._
 |:----:|:-------:|
 |number|None|
 
-_Returns the video duration in seconds._
+Returns the video duration in seconds.
 
 ### Height
 
@@ -254,7 +254,7 @@ _Returns the video duration in seconds._
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's vertical height, measured in pixels._
+Specifies the component's vertical height, measured in pixels.
 
 ### Height Percent
 
@@ -265,8 +265,8 @@ _Specifies the component's vertical height, measured in pixels._
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's vertical height as a percentage
- of the height of its parent Component._
+Specifies the component's vertical height as a percentage
+ of the height of its parent Component.
 
 ### Is Fullscreen
 
@@ -277,7 +277,7 @@ _Specifies the component's vertical height as a percentage
 |:----:|:-------:|
 |boolean|None|
 
-_Returns true if the player is in fullscreen mode._
+Returns true if the player is in fullscreen mode.
 
 ### Row
 
@@ -288,7 +288,7 @@ _Returns true if the player is in fullscreen mode._
 |:----:|:-------:|
 |number|None|
 
-_Row property getter method._
+Row property getter method.
 
 ### Test Video Id
 
@@ -299,7 +299,7 @@ _Row property getter method._
 |:----:|:-------:|
 |text|None|
 
-_Use this block to test the youtube player. Powered by Kodular.io_
+Use this block to test the youtube player. Powered by Kodular.io
 
 ### Width
 
@@ -310,7 +310,7 @@ _Use this block to test the youtube player. Powered by Kodular.io_
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's horizontal width, measured in pixels._
+Specifies the component's horizontal width, measured in pixels.
 
 ### Width Percent
 
@@ -321,5 +321,5 @@ _Specifies the component's horizontal width, measured in pixels._
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's horizontal width as a percentage
- of the Width of its parent Component._
+Specifies the component's horizontal width as a percentage
+ of the Width of its parent Component.

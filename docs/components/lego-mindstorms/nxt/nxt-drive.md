@@ -8,7 +8,7 @@
 
 ## Overview
 
-_A component that provides a high-level interface to a LEGO MINDSTORMS NXT robot, with functions that can move and turn the robot._
+A component that provides a high-level interface to a LEGO MINDSTORMS NXT robot, with functions that can move and turn the robot.
 
 ## Methods
 
@@ -23,7 +23,7 @@ _A component that provides a high-level interface to a LEGO MINDSTORMS NXT robot
     |distance|`number`|
 
 
-_Move the robot backward the given distance, with the specified percentage of maximum power, by powering both drive motors backward._
+Move the robot backward the given distance, with the specified percentage of maximum power, by powering both drive motors backward.
 
 ### MoveBackwardIndefinitely
 
@@ -35,7 +35,7 @@ _Move the robot backward the given distance, with the specified percentage of ma
     |power|`number`|
 
 
-_Move the robot backward indefinitely, with the specified percentage of maximum power, by powering both drive motors backward._
+Move the robot backward indefinitely, with the specified percentage of maximum power, by powering both drive motors backward.
 
 ### MoveForward
 
@@ -48,7 +48,7 @@ _Move the robot backward indefinitely, with the specified percentage of maximum 
     |distance|`number`|
 
 
-_Move the robot forward the given distance, with the specified percentage of maximum power, by powering both drive motors forward._
+Move the robot forward the given distance, with the specified percentage of maximum power, by powering both drive motors forward.
 
 ### MoveForwardIndefinitely
 
@@ -60,13 +60,13 @@ _Move the robot forward the given distance, with the specified percentage of max
     |power|`number`|
 
 
-_Move the robot forward indefinitely, with the specified percentage of maximum power, by powering both drive motors forward._
+Move the robot forward indefinitely, with the specified percentage of maximum power, by powering both drive motors forward.
 
 ### Stop
 
 [[Method('NXT Drive', 'Stop', false)]]
 
-_Stop the drive motors of the robot._
+Stop the drive motors of the robot.
 
 ### TurnClockwiseIndefinitely
 
@@ -78,7 +78,7 @@ _Stop the drive motors of the robot._
     |power|`number`|
 
 
-_Turn the robot clockwise indefinitely, with the specified percentage of maximum power, by powering the left drive motor forward and the right drive motor backward._
+Turn the robot clockwise indefinitely, with the specified percentage of maximum power, by powering the left drive motor forward and the right drive motor backward.
 
 ### TurnCounterClockwiseIndefinitely
 
@@ -90,7 +90,7 @@ _Turn the robot clockwise indefinitely, with the specified percentage of maximum
     |power|`number`|
 
 
-_Turn the robot counterclockwise indefinitely, with the specified percentage of maximum power, by powering the right drive motor forward and the left drive motor backward._
+Turn the robot counterclockwise indefinitely, with the specified percentage of maximum power, by powering the right drive motor forward and the left drive motor backward.
 
 ## Properties
 
@@ -105,7 +105,7 @@ _Turn the robot counterclockwise indefinitely, with the specified percentage of 
 |:----:|
 |component|
 
-_The BluetoothClient component that should be used for communication._
+The BluetoothClient component that should be used for communication.
 
 ### Drive Motors
 
@@ -118,7 +118,7 @@ _The BluetoothClient component that should be used for communication._
 |:----:|:-------:|
 |text|CB|
 
-_The motor ports that are used for driving: the left wheel's motor port followed by the right wheel's motor port._
+The motor ports that are used for driving: the left wheel's motor port followed by the right wheel's motor port.
 
 ### Stop Before Disconnect
 
@@ -131,7 +131,7 @@ _The motor ports that are used for driving: the left wheel's motor port followed
 |:----:|:-------:|
 |boolean|True|
 
-_Whether to stop the drive motors before disconnecting._
+Whether to stop the drive motors before disconnecting.
 
 ### Wheel Diameter
 
@@ -144,4 +144,4 @@ _Whether to stop the drive motors before disconnecting._
 |:----:|:-------:|
 |number|4.32|
 
-_The diameter of the wheels used for driving._
+The diameter of the wheels used for driving.

@@ -8,7 +8,7 @@
 
 ## Overview
 
-_A non-visible component that shows LeadBolt ads as rewarded videos and network advertisements._
+A non-visible component that shows LeadBolt ads as rewarded videos and network advertisements.
 
 ## Events
 
@@ -22,7 +22,7 @@ _A non-visible component that shows LeadBolt ads as rewarded videos and network 
     |location|`text`|
 
 
-_Event triggered when ads are loaded_
+Event triggered when ads are loaded
 
 ### Ad Clicked
 
@@ -34,7 +34,7 @@ _Event triggered when ads are loaded_
     |location|`text`|
 
 
-_Event triggered when ads are clicked_
+Event triggered when ads are clicked
 
 ### Ad Closed
 
@@ -47,7 +47,7 @@ _Event triggered when ads are clicked_
     |reward|`boolean`|
 
 
-_Event triggered when ads are closed_
+Event triggered when ads are closed
 
 ### Ad Failed To Load
 
@@ -61,7 +61,7 @@ _Event triggered when ads are closed_
     |is Cache|`boolean`|
 
 
-_Event triggered when ads are failed to load_
+Event triggered when ads are failed to load
 
 ### Ad Shown
 
@@ -73,7 +73,7 @@ _Event triggered when ads are failed to load_
     |location|`text`|
 
 
-_Event triggered when ads are shown_
+Event triggered when ads are shown
 
 ## Methods
 
@@ -83,7 +83,7 @@ _Event triggered when ads are shown_
 
 {>>Returns `boolean`<<}
 
-_Use this block after loading an ad to check whether it's ready to show._
+Use this block after loading an ad to check whether it's ready to show.
 
 ### IsRewardedAdReady
 
@@ -91,31 +91,31 @@ _Use this block after loading an ad to check whether it's ready to show._
 
 {>>Returns `boolean`<<}
 
-_Use this block after loading an ad to check whether it's ready to show._
+Use this block after loading an ad to check whether it's ready to show.
 
 ### LoadNetworkAd
 
 [[Method('LeadBolt', 'LoadNetworkAd', false)]]
 
-_Use this block to load a Network ad._
+Use this block to load a Network ad.
 
 ### LoadRewardedAd
 
 [[Method('LeadBolt', 'LoadRewardedAd', false)]]
 
-_Use this block to load a Rewarded Video ad._
+Use this block to load a Rewarded Video ad.
 
 ### ShowNetworkAd
 
 [[Method('LeadBolt', 'ShowNetworkAd', false)]]
 
-_Use this block after LoadNetworkAd to show the loaded ad._
+Use this block after LoadNetworkAd to show the loaded ad.
 
 ### ShowRewardedAd
 
 [[Method('LeadBolt', 'ShowRewardedAd', false)]]
 
-_Use this block after LoadRewardedAd to show the loaded ad._
+Use this block after LoadRewardedAd to show the loaded ad.
 
 ## Properties
 
@@ -143,7 +143,7 @@ _No description available_
 |:----:|:-------:|
 |text|unity|
 
-_Sets the ad network used to take the commission._
+Sets the ad network used to take the commission.
 
 ### Rewarded Video Commission
 
@@ -156,4 +156,4 @@ _Sets the ad network used to take the commission._
 |:----:|:-------:|
 |text|unity|
 
-_Sets the ad network used to take the commission._
+Sets the ad network used to take the commission.

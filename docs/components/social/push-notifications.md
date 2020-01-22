@@ -8,7 +8,7 @@
 
 ## Overview
 
-_A non-visible component that remotely sends notifications to the device.<br>Powered by OneSignal._
+A non-visible component that remotely sends notifications to the device.<br>Powered by OneSignal.
 
 ## Events
 
@@ -23,7 +23,7 @@ _A non-visible component that remotely sends notifications to the device.<br>Pow
     |tags As List|`list`|
 
 
-_Event to detect available one signal tags._
+Event to detect available one signal tags.
 
 ### Got Value
 
@@ -36,7 +36,7 @@ _Event to detect available one signal tags._
     |value|`text`|
 
 
-_Event to receive value for a tag._
+Event to receive value for a tag.
 
 ### Notification Opened
 
@@ -50,7 +50,7 @@ _Event to receive value for a tag._
     |message|`text`|
 
 
-_User opened a notification._
+User opened a notification.
 
 ### Notification Received
 
@@ -64,7 +64,7 @@ _User opened a notification._
     |message|`text`|
 
 
-_User received a notification._
+User received a notification.
 
 ### Send Message Done
 
@@ -76,7 +76,7 @@ _User received a notification._
     |success|`boolean`|
 
 
-_Returns true if your message was send with success out of your app to all users._
+Returns true if your message was send with success out of your app to all users.
 
 ## Methods
 
@@ -84,7 +84,7 @@ _Returns true if your message was send with success out of your app to all users
 
 [[Method('Push Notifications', 'ClearAllNotifications', false)]]
 
-_Clear All Notifications._
+Clear All Notifications.
 
 ### DeleteTag
 
@@ -96,13 +96,13 @@ _Clear All Notifications._
     |key|`text`|
 
 
-_Deletes a single tag that was previously set on a user._
+Deletes a single tag that was previously set on a user.
 
 ### GetAvailableTags
 
 [[Method('Push Notifications', 'GetAvailableTags', false)]]
 
-_Get a list of available tags._
+Get a list of available tags.
 
 ### GetValue
 
@@ -115,7 +115,7 @@ _Get a list of available tags._
     |value If Tag Not There|`text`|
 
 
-_Get value for tag._
+Get value for tag.
 
 ### SendMessage
 
@@ -129,7 +129,7 @@ _Get value for tag._
     |rest API Key|`text`|
 
 
-_Send a message to all users. The message and your REST Api Key can not be empty! You will find your REST Api Key in your OneSignal account settings._
+Send a message to all users. The message and your REST Api Key can not be empty! You will find your REST Api Key in your OneSignal account settings.
 
 ### SendTag
 
@@ -142,7 +142,7 @@ _Send a message to all users. The message and your REST Api Key can not be empty
     |value|`text`|
 
 
-_Tag a user based on an app event of your choosing so later you can create segments in to target these users._
+Tag a user based on an app event of your choosing so later you can create segments in to target these users.
 
 ## Properties
 
@@ -157,7 +157,7 @@ _Tag a user based on an app event of your choosing so later you can create segme
 |:----:|
 |text|
 
-_Set here your One Signal App ID_
+Set here your One Signal App ID
 
 ### Enable Log
 
@@ -168,7 +168,7 @@ _Set here your One Signal App ID_
 |:----:|:-------:|
 |boolean|None|
 
-_If you want to enable the log then set it to true._
+If you want to enable the log then set it to true.
 
 ### Enable Sound
 
@@ -179,7 +179,7 @@ _If you want to enable the log then set it to true._
 |:----:|:-------:|
 |boolean|None|
 
-_Enable Sound._
+Enable Sound.
 
 ### Enable Vibration
 
@@ -190,7 +190,7 @@ _Enable Sound._
 |:----:|:-------:|
 |boolean|None|
 
-_Enable Vibration._
+Enable Vibration.
 
 ### Get Email Subscription Email Address
 
@@ -201,7 +201,7 @@ _Enable Vibration._
 |:----:|:-------:|
 |text|None|
 
-_Get the email subscription email address._
+Get the email subscription email address.
 
 ### Get Email Subscription User Id
 
@@ -212,7 +212,7 @@ _Get the email subscription email address._
 |:----:|:-------:|
 |text|None|
 
-_Get the email subscription user id._
+Get the email subscription user id.
 
 ### Get Permission Status
 
@@ -223,7 +223,7 @@ _Get the email subscription user id._
 |:----:|:-------:|
 |boolean|None|
 
-_Get Permission Status_
+Get Permission Status
 
 ### Get Subscription Status
 
@@ -234,7 +234,7 @@ _Get Permission Status_
 |:----:|:-------:|
 |boolean|None|
 
-_Get the subscription Status_
+Get the subscription Status
 
 ### Get User Id
 
@@ -245,7 +245,7 @@ _Get the subscription Status_
 |:----:|:-------:|
 |text|None|
 
-_Get the User ID. If there is no user id it will return '-1'._
+Get the User ID. If there is no user id it will return '-1'.
 
 ### Set Subscription
 
@@ -256,4 +256,4 @@ _Get the User ID. If there is no user id it will return '-1'._
 |:----:|:-------:|
 |boolean|None|
 
-_If you want to subscribe then set it to true._
+If you want to subscribe then set it to true.

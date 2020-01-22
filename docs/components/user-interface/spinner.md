@@ -6,7 +6,7 @@
 
 ## Overview
 
-_<p>A spinner component that displays a pop-up with a list of elements. These elements can be set in the Designer or Blocks Editor by setting the<code>ElementsFromString</code> property to a string-separated concatenation (for example, <em>choice 1, choice 2, choice 3</em>) or by setting the <code>Elements</code> property to a List in the Blocks editor. Spinners are created with the first item already selected. So selecting  it does not generate an After Picking event. Consequently it's useful to make the  first Spinner item be a non-choice like "Select from below...". </p>_
+<p>A spinner component that displays a pop-up with a list of elements. These elements can be set in the Designer or Blocks Editor by setting the<code>ElementsFromString</code> property to a string-separated concatenation (for example, <em>choice 1, choice 2, choice 3</em>) or by setting the <code>Elements</code> property to a List in the Blocks editor. Spinners are created with the first item already selected. So selecting  it does not generate an After Picking event. Consequently it's useful to make the  first Spinner item be a non-choice like "Select from below...". </p>
 
 ## Events
 
@@ -20,7 +20,7 @@ _<p>A spinner component that displays a pop-up with a list of elements. These el
     |selection|`text`|
 
 
-_Event called after the user selects an item from the dropdown list._
+Event called after the user selects an item from the dropdown list.
 
 ## Methods
 
@@ -28,7 +28,7 @@ _Event called after the user selects an item from the dropdown list._
 
 [[Method('Spinner', 'DisplayDropdown', false)]]
 
-_displays the dropdown list for selection, same action as when the user clicks on the spinner._
+displays the dropdown list for selection, same action as when the user clicks on the spinner.
 
 ## Properties
 
@@ -43,7 +43,7 @@ _displays the dropdown list for selection, same action as when the user clicks o
 |:----:|:-------:|
 |text|Item1, Item2, Item3|
 
-_Sets the Spinner list to the elements passed in the comma-separated string._
+Sets the Spinner list to the elements passed in the comma-separated string.
 
 ### Font Bold
 
@@ -95,7 +95,7 @@ _No description available_
 |:----:|
 |text|
 
-_Set a custom font._
+Set a custom font.
 
 ### Item Background Color
 
@@ -108,7 +108,7 @@ _Set a custom font._
 |:----:|:-------:|
 |number|&HFF03A9F3|
 
-_Set the background color for the spinner items._
+Set the background color for the spinner items.
 
 ### Item Text Color
 
@@ -121,7 +121,7 @@ _Set the background color for the spinner items._
 |:----:|:-------:|
 |number|&HFFFFFFFF|
 
-_Set the text color for the spinner items._
+Set the text color for the spinner items.
 
 ### Prompt
 
@@ -134,7 +134,7 @@ _Set the text color for the spinner items._
 |:----:|
 |text|
 
-_Text with the current title for the Spinner window._
+Text with the current title for the Spinner window.
 
 ### Prompt Item Color
 
@@ -147,7 +147,7 @@ _Text with the current title for the Spinner window._
 |:----:|:-------:|
 |number|&HFFCCCCCC|
 
-_Set the text color for the spinner items prompt/hint._
+Set the text color for the spinner items prompt/hint.
 
 ### Selection
 
@@ -160,7 +160,7 @@ _Set the text color for the spinner items prompt/hint._
 |:----:|
 |text|
 
-_Returns the current selected item in the spinner._
+Returns the current selected item in the spinner.
 
 ### Spinner Color
 
@@ -173,7 +173,7 @@ _Returns the current selected item in the spinner._
 |:----:|:-------:|
 |number|&HFF2196F2|
 
-_Set the text color for the spinner._
+Set the text color for the spinner.
 
 ### Spinner Text Size
 
@@ -186,7 +186,7 @@ _Set the text color for the spinner._
 |:----:|:-------:|
 |number|14.0|
 
-_The size of the spinner selected text._
+The size of the spinner selected text.
 
 ### Text Alignment
 
@@ -212,7 +212,7 @@ _No description available_
 |:----:|:-------:|
 |number|18|
 
-_The text size of the spinner items._
+The text size of the spinner items.
 
 ### Use Prompt
 
@@ -225,7 +225,7 @@ _The text size of the spinner items._
 |:----:|:-------:|
 |boolean|False|
 
-_If true the first spinner item will be the prompt text._
+If true the first spinner item will be the prompt text.
 
 ### Visible
 
@@ -238,7 +238,7 @@ _If true the first spinner item will be the prompt text._
 |:----:|:-------:|
 |boolean|True|
 
-_Returns true iff the component is visible._
+Returns true iff the component is visible.
 
 ### Column
 
@@ -249,7 +249,7 @@ _Returns true iff the component is visible._
 |:----:|:-------:|
 |number|None|
 
-_Column property getter method._
+Column property getter method.
 
 ### Elements
 
@@ -260,7 +260,7 @@ _Column property getter method._
 |:----:|:-------:|
 |list|None|
 
-_returns a list of text elements to be picked from._
+returns a list of text elements to be picked from.
 
 ### Height
 
@@ -271,7 +271,7 @@ _returns a list of text elements to be picked from._
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's vertical height, measured in pixels._
+Specifies the component's vertical height, measured in pixels.
 
 ### Height Percent
 
@@ -282,8 +282,8 @@ _Specifies the component's vertical height, measured in pixels._
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's vertical height as a percentage
- of the height of its parent Component._
+Specifies the component's vertical height as a percentage
+ of the height of its parent Component.
 
 ### Row
 
@@ -294,7 +294,7 @@ _Specifies the component's vertical height as a percentage
 |:----:|:-------:|
 |number|None|
 
-_Row property getter method._
+Row property getter method.
 
 ### Selection Index
 
@@ -305,7 +305,7 @@ _Row property getter method._
 |:----:|:-------:|
 |number|None|
 
-_The index of the currently selected item, starting at 1. If no item is selected, the value will be 0._
+The index of the currently selected item, starting at 1. If no item is selected, the value will be 0.
 
 ### Width
 
@@ -316,7 +316,7 @@ _The index of the currently selected item, starting at 1. If no item is selected
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's horizontal width, measured in pixels._
+Specifies the component's horizontal width, measured in pixels.
 
 ### Width Percent
 
@@ -327,5 +327,5 @@ _Specifies the component's horizontal width, measured in pixels._
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's horizontal width as a percentage
- of the Width of its parent Component._
+Specifies the component's horizontal width as a percentage
+ of the Width of its parent Component.

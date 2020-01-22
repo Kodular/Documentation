@@ -8,7 +8,7 @@
 
 ## Overview
 
-_A non-visible component that gets the current illuminance level around the device in units of lux._
+A non-visible component that gets the current illuminance level around the device in units of lux.
 
 ## Events
 
@@ -22,7 +22,7 @@ _A non-visible component that gets the current illuminance level around the devi
     |illuminance|`number`|
 
 
-_Event that fires when the illuminance is changed_
+Event that fires when the illuminance is changed
 
 ## Properties
 
@@ -37,7 +37,7 @@ _Event that fires when the illuminance is changed_
 |:----:|:-------:|
 |boolean|True|
 
-_Whether Sensor should be Enabled_
+Whether Sensor should be Enabled
 
 ### Available
 
@@ -48,7 +48,7 @@ _Whether Sensor should be Enabled_
 |:----:|:-------:|
 |boolean|None|
 
-_Whether Sensor is Available_
+Whether Sensor is Available
 
 ### Illuminance
 
@@ -59,4 +59,4 @@ _Whether Sensor is Available_
 |:----:|:-------:|
 |number|None|
 
-_Returns the illuminance in lux. To return values the sensor must be enabled_
+Returns the illuminance in lux. To return values the sensor must be enabled

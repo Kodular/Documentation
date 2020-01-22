@@ -6,7 +6,7 @@
 
 ## Overview
 
-_A visible component that shows StartApp ads as static banners._
+A visible component that shows StartApp ads as static banners.
 
 ## Events
 
@@ -14,7 +14,7 @@ _A visible component that shows StartApp ads as static banners._
 
 [[Event('StartApp Banner', 'Ad Clicked')]]
 
-_Indicates that the user has clicked on the banner ad._
+Indicates that the user has clicked on the banner ad.
 
 ### Ad Failed To Load
 
@@ -27,7 +27,7 @@ _Indicates that the user has clicked on the banner ad._
     |error Message|`text`|
 
 
-_Called when an ad request failed to load. The message will display the error code and error message._
+Called when an ad request failed to load. The message will display the error code and error message.
 
 ### On Failed To Receive Ad
 
@@ -39,13 +39,13 @@ _Called when an ad request failed to load. The message will display the error co
     |error Message|`text`|
 
 
-_Called when an ad request failed to load._
+Called when an ad request failed to load.
 
 ### On Receive Ad
 
 [[Event('StartApp Banner', 'On Receive Ad')]]
 
-_Called when an ad request succeeds._
+Called when an ad request succeeds.
 
 ## Methods
 
@@ -53,7 +53,7 @@ _Called when an ad request succeeds._
 
 [[Method('StartApp Banner', 'Load Ad', false)]]
 
-_Load a new StartApp Banner ad._
+Load a new StartApp Banner ad.
 
 ## Properties
 
@@ -81,7 +81,7 @@ _No description available_
 |:----:|:-------:|
 |boolean|True|
 
-_Specifies whether the component should be visible on the screen. Value is true if the component is showing and false if hidden._
+Specifies whether the component should be visible on the screen. Value is true if the component is showing and false if hidden.
 
 ### Column
 
@@ -92,7 +92,7 @@ _Specifies whether the component should be visible on the screen. Value is true 
 |:----:|:-------:|
 |number|None|
 
-_Column property getter method._
+Column property getter method.
 
 ### Row
 
@@ -103,4 +103,4 @@ _Column property getter method._
 |:----:|:-------:|
 |number|None|
 
-_Row property getter method._
+Row property getter method.

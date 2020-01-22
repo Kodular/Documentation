@@ -8,7 +8,7 @@
 
 ## Overview
 
-_A non-visible component that takes a screenshot of the content currently visible on the device''s screen._
+A non-visible component that takes a screenshot of the content currently visible on the device''s screen.
 
 ## Events
 
@@ -22,7 +22,7 @@ _A non-visible component that takes a screenshot of the content currently visibl
     |image|`text`|
 
 
-_Event to detect that a screenshot was made by the user. Returns the image path to the taken screenshot._
+Event to detect that a screenshot was made by the user. Returns the image path to the taken screenshot.
 
 ## Methods
 
@@ -30,7 +30,7 @@ _Event to detect that a screenshot was made by the user. Returns the image path 
 
 [[Method('Screenshot', 'TakeScreenshot', false)]]
 
-_Take a screenshot of the current visible screen._
+Take a screenshot of the current visible screen.
 
 ## Properties
 
@@ -45,7 +45,7 @@ _Take a screenshot of the current visible screen._
 |:----:|:-------:|
 |boolean|True|
 
-_This feature allows users of your app to make or ban screenshots of their app. If disabled and a person tries to make a screenshot, they will receive then a default system message that this is not possible._
+This feature allows users of your app to make or ban screenshots of their app. If disabled and a person tries to make a screenshot, they will receive then a default system message that this is not possible.
 
 ### Dim Amount
 
@@ -58,7 +58,7 @@ _This feature allows users of your app to make or ban screenshots of their app. 
 |:----:|:-------:|
 |number|0.5|
 
-_Set the amount of dim behind the preview window if ShowPreview(...) is enabled. Use '0.0' for no dim and '1.0' for full dim._
+Set the amount of dim behind the preview window if ShowPreview(...) is enabled. Use '0.0' for no dim and '1.0' for full dim.
 
 ### File Name
 
@@ -71,7 +71,7 @@ _Set the amount of dim behind the preview window if ShowPreview(...) is enabled.
 |:----:|:-------:|
 |text|Screenshot.png|
 
-_This will be the name for the taken screenshot image file._
+This will be the name for the taken screenshot image file.
 
 ### Use Large Notification
 
@@ -84,7 +84,7 @@ _This will be the name for the taken screenshot image file._
 |:----:|:-------:|
 |boolean|False|
 
-_This will display the notification in a big style._
+This will display the notification in a big style.
 
 ### Show Notification Share Button
 
@@ -97,7 +97,7 @@ _This will display the notification in a big style._
 |:----:|:-------:|
 |boolean|True|
 
-_If enabled you will see a notification with a share button after the screenshot is taken._
+If enabled you will see a notification with a share button after the screenshot is taken.
 
 ### Notification Share Title
 
@@ -110,7 +110,7 @@ _If enabled you will see a notification with a share button after the screenshot
 |:----:|:-------:|
 |text|Share|
 
-_This will set the notification share button text if the option "Show Notification" is enabled._
+This will set the notification share button text if the option "Show Notification" is enabled.
 
 ### Notification Title
 
@@ -123,7 +123,7 @@ _This will set the notification share button text if the option "Show Notificati
 |:----:|:-------:|
 |text|Screenshot..|
 
-_This will set the notification title if the option "Show Notification" is enabled._
+This will set the notification title if the option "Show Notification" is enabled.
 
 ### Show Notification
 
@@ -136,7 +136,7 @@ _This will set the notification title if the option "Show Notification" is enabl
 |:----:|:-------:|
 |boolean|False|
 
-_If enabled you will see a notification in the statusbar after the screenshot is taken._
+If enabled you will see a notification in the statusbar after the screenshot is taken.
 
 ### Show Preview
 
@@ -149,7 +149,7 @@ _If enabled you will see a notification in the statusbar after the screenshot is
 |:----:|:-------:|
 |boolean|True|
 
-_If enabled you will see a short preview animation after the screenshot is taken._
+If enabled you will see a short preview animation after the screenshot is taken.
 
 ### Are Permissions Granted
 
@@ -160,7 +160,7 @@ _If enabled you will see a short preview animation after the screenshot is taken
 |:----:|:-------:|
 |boolean|None|
 
-_Returns true if the write and read permission is granted, else false._
+Returns true if the write and read permission is granted, else false.
 
 ### is Read Permission Granted
 
@@ -171,7 +171,7 @@ _Returns true if the write and read permission is granted, else false._
 |:----:|:-------:|
 |boolean|None|
 
-_Returns true if the read permission is granted, else false._
+Returns true if the read permission is granted, else false.
 
 ### is Write Permission Granted
 
@@ -182,4 +182,4 @@ _Returns true if the read permission is granted, else false._
 |:----:|:-------:|
 |boolean|None|
 
-_Returns true if the write permission is granted, else false._
+Returns true if the write permission is granted, else false.

@@ -8,4 +8,4 @@
 
 ## Overview
 
-_A non-visible component that converts all your earnings from ads to donations that go to Kodular._
+A non-visible component that converts all your earnings from ads to donations that go to Kodular.

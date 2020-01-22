@@ -8,9 +8,9 @@
 
 ## Overview
 
-_Multimedia component that plays audio and controls phone vibration.  The name of a multimedia field is specified in the <code>Source</code> property, which can be set in the Designer or in the Blocks Editor.  The length of time for a vibration is specified in the Blocks Editor in milliseconds (thousandths of a second).
+Multimedia component that plays audio and controls phone vibration.  The name of a multimedia field is specified in the <code>Source</code> property, which can be set in the Designer or in the Blocks Editor.  The length of time for a vibration is specified in the Blocks Editor in milliseconds (thousandths of a second).
 <p>For supported audio formats, see <a href="http://developer.android.com/guide/appendix/media-formats.html" target="_blank">Android Supported Media Formats</a>.</p>
-<p>This component is best for long sound files, such as songs, while the <code>Sound</code> component is more efficient for short files, such as sound effects.</p>_
+<p>This component is best for long sound files, such as songs, while the <code>Sound</code> component is more efficient for short files, such as sound effects.</p>
 
 ## Events
 
@@ -18,13 +18,13 @@ _Multimedia component that plays audio and controls phone vibration.  The name o
 
 [[Event('Player', 'Completed')]]
 
-_Indicates that the media has reached the end_
+Indicates that the media has reached the end
 
 ### Other Player Started
 
 [[Event('Player', 'Other Player Started')]]
 
-_This event is signaled when another player has started (and the current player is playing or paused, but not stopped)._
+This event is signaled when another player has started (and the current player is playing or paused, but not stopped).
 
 ### PlayerError
 
@@ -36,7 +36,7 @@ _This event is signaled when another player has started (and the current player 
     |message|`text`|
 
 
-_The PlayerError event is no longer used. Please use the Screen.ErrorOccurred event instead._
+The PlayerError event is no longer used. Please use the Screen.ErrorOccurred event instead.
 
 ## Methods
 
@@ -44,7 +44,7 @@ _The PlayerError event is no longer used. Please use the Screen.ErrorOccurred ev
 
 [[Method('Player', 'Pause', false)]]
 
-_Suspends playing the media if it is playing._
+Suspends playing the media if it is playing.
 
 ### SeekTo
 
@@ -56,7 +56,7 @@ _Suspends playing the media if it is playing._
     |position|`number`|
 
 
-_Set a position where the source file should start playing._
+Set a position where the source file should start playing.
 
 ### SetLeftRightVolume
 
@@ -69,20 +69,20 @@ _Set a position where the source file should start playing._
     |right Volume|`number`|
 
 
-_Control the left and right volume of the player. Set the volume to a number between 0 and 100._
+Control the left and right volume of the player. Set the volume to a number between 0 and 100.
 
 ### Start
 
 [[Method('Player', 'Start', false)]]
 
-_Plays the media.  If it was previously paused, the playing is resumed.
- If it was previously stopped, it starts from the beginning._
+Plays the media.  If it was previously paused, the playing is resumed.
+ If it was previously stopped, it starts from the beginning.
 
 ### Stop
 
 [[Method('Player', 'Stop', false)]]
 
-_Stops playing the media and seeks to the beginning of the song._
+Stops playing the media and seeks to the beginning of the song.
 
 ### Vibrate
 
@@ -94,7 +94,7 @@ _Stops playing the media and seeks to the beginning of the song._
     |milliseconds|`number`|
 
 
-_Vibrates for specified number of milliseconds._
+Vibrates for specified number of milliseconds.
 
 ## Properties
 
@@ -109,7 +109,7 @@ _Vibrates for specified number of milliseconds._
 |:----:|:-------:|
 |boolean|False|
 
-_If true, the player will loop when it plays. Setting Loop while the player is playing will affect the current playing._
+If true, the player will loop when it plays. Setting Loop while the player is playing will affect the current playing.
 
 ### Play Only In Foreground
 
@@ -122,7 +122,7 @@ _If true, the player will loop when it plays. Setting Loop while the player is p
 |:----:|:-------:|
 |boolean|False|
 
-_If true, the player will pause playing when leaving the current screen; if false (default option), the player continues playing whenever the current screen is displaying or not._
+If true, the player will pause playing when leaving the current screen; if false (default option), the player continues playing whenever the current screen is displaying or not.
 
 ### Source
 
@@ -135,7 +135,7 @@ _If true, the player will pause playing when leaving the current screen; if fals
 |:----:|
 |text|
 
-_Returns the path to the audio source_
+Returns the path to the audio source
 
 ### Volume
 
@@ -148,7 +148,7 @@ _Returns the path to the audio source_
 |:----:|:-------:|
 |number|50|
 
-_Sets the volume to a number between 0 and 100._
+Sets the volume to a number between 0 and 100.
 
 ### Current Position
 
@@ -159,7 +159,7 @@ _Sets the volume to a number between 0 and 100._
 |:----:|:-------:|
 |number|None|
 
-_Returns the current position of the source file that is playing._
+Returns the current position of the source file that is playing.
 
 ### Duration
 
@@ -170,7 +170,7 @@ _Returns the current position of the source file that is playing._
 |:----:|:-------:|
 |number|None|
 
-_Returns the duration of the source file._
+Returns the duration of the source file.
 
 ### Get TrackInfo
 
@@ -181,7 +181,7 @@ _Returns the duration of the source file._
 |:----:|:-------:|
 |text|None|
 
-_Returns a array of track information._
+Returns a array of track information.
 
 ### Is Playing
 
@@ -192,7 +192,7 @@ _Returns a array of track information._
 |:----:|:-------:|
 |boolean|None|
 
-_Reports whether the media is playing_
+Reports whether the media is playing
 
 ### Left Volume
 
@@ -203,7 +203,7 @@ _Reports whether the media is playing_
 |:----:|:-------:|
 |number|None|
 
-_Returns the current left volume._
+Returns the current left volume.
 
 ### Right Volume
 
@@ -214,4 +214,4 @@ _Returns the current left volume._
 |:----:|:-------:|
 |number|None|
 
-_Returns the current right volume._
+Returns the current right volume.

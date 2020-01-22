@@ -6,7 +6,7 @@
 
 ## Overview
 
-_A visible component that shows a live preview of the user''s camera as its background._
+A visible component that shows a live preview of the user''s camera as its background.
 
 ## Events
 
@@ -14,7 +14,7 @@ _A visible component that shows a live preview of the user''s camera as its back
 
 [[Event('Surface View', 'Clicked')]]
 
-_Event to detect clicks on the camera preview._
+Event to detect clicks on the camera preview.
 
 ### Face Detected
 
@@ -26,7 +26,7 @@ _Event to detect clicks on the camera preview._
     |numbers|`text`|
 
 
-_Event to detect that there are faces in the front of the camera._
+Event to detect that there are faces in the front of the camera.
 
 ### Got Preview
 
@@ -38,13 +38,13 @@ _Event to detect that there are faces in the front of the camera._
     |image|`text`|
 
 
-_Event to get the response from the camera preview as image file. The picture is by default in landscape mode. This event will only work if the option "Save Preview As File" is enabled/ true._
+Event to get the response from the camera preview as image file. The picture is by default in landscape mode. This event will only work if the option "Save Preview As File" is enabled/ true.
 
 ### Long Clicked
 
 [[Event('Surface View', 'Long Clicked')]]
 
-_Event to detect long clicks on the camera preview._
+Event to detect long clicks on the camera preview.
 
 ### Picture Created
 
@@ -56,19 +56,19 @@ _Event to detect long clicks on the camera preview._
     |image|`text`|
 
 
-_Event to detect that the user has taken a picture from the preview._
+Event to detect that the user has taken a picture from the preview.
 
 ### Preview Paused
 
 [[Event('Surface View', 'Preview Paused')]]
 
-_Event to detect that the user paused the camera preview._
+Event to detect that the user paused the camera preview.
 
 ### Preview Stoped
 
 [[Event('Surface View', 'Preview Stoped')]]
 
-_Event to detect that the user stopped the camera preview._
+Event to detect that the user stopped the camera preview.
 
 ## Methods
 
@@ -76,25 +76,25 @@ _Event to detect that the user stopped the camera preview._
 
 [[Method('Surface View', 'PausePreview', false)]]
 
-_Pause the camera preview._
+Pause the camera preview.
 
 ### StartPreview
 
 [[Method('Surface View', 'StartPreview', false)]]
 
-_Start the camera preview._
+Start the camera preview.
 
 ### StopPreview
 
 [[Method('Surface View', 'StopPreview', false)]]
 
-_Stop the camera preview._
+Stop the camera preview.
 
 ### TakePicture
 
 [[Method('Surface View', 'TakePicture', false)]]
 
-_Take a picture from the camera preview._
+Take a picture from the camera preview.
 
 ## Properties
 
@@ -109,7 +109,7 @@ _Take a picture from the camera preview._
 |:----:|:-------:|
 |number|1|
 
-_A number that encodes how contents of the arrangement are aligned  horizontally. The choices are: 1 = left aligned, 2 = right aligned,  3 = horizontally centered.  Alignment has no effect if the arrangement's width is automatic._
+A number that encodes how contents of the arrangement are aligned  horizontally. The choices are: 1 = left aligned, 2 = right aligned,  3 = horizontally centered.  Alignment has no effect if the arrangement's width is automatic.
 
 ### Align Vertical
 
@@ -135,7 +135,7 @@ _No description available_
 |:----:|:-------:|
 |boolean|False|
 
-_Set the surface view component clickable or not clickable._
+Set the surface view component clickable or not clickable.
 
 ### Detect Faces
 
@@ -148,7 +148,7 @@ _Set the surface view component clickable or not clickable._
 |:----:|:-------:|
 |boolean|False|
 
-_If enabled you can detect how many faces are in the front of the camera._
+If enabled you can detect how many faces are in the front of the camera.
 
 ### Save Preview As File
 
@@ -161,7 +161,7 @@ _If enabled you can detect how many faces are in the front of the camera._
 |:----:|:-------:|
 |boolean|False|
 
-_Enable this block to enable the "Got Preview" event to get a image file from the camera preview._
+Enable this block to enable the "Got Preview" event to get a image file from the camera preview.
 
 ### Use Back Camera
 
@@ -174,7 +174,7 @@ _Enable this block to enable the "Got Preview" event to get a image file from th
 |:----:|:-------:|
 |boolean|True|
 
-_If enabled you will open the back camera for the camera preview, else you open the front camera. The block detect automatic if there is a device camera available or not._
+If enabled you will open the back camera for the camera preview, else you open the front camera. The block detect automatic if there is a device camera available or not.
 
 ### Visible
 
@@ -187,7 +187,7 @@ _If enabled you will open the back camera for the camera preview, else you open 
 |:----:|:-------:|
 |boolean|True|
 
-_Returns true iff the component is visible._
+Returns true iff the component is visible.
 
 ### Column
 
@@ -198,7 +198,7 @@ _Returns true iff the component is visible._
 |:----:|:-------:|
 |number|None|
 
-_Column property getter method._
+Column property getter method.
 
 ### Flashlight
 
@@ -209,7 +209,7 @@ _Column property getter method._
 |:----:|:-------:|
 |boolean|None|
 
-_Turn on or off the device flashlight. The function knows automatic if there is a flash/ torch available._
+Turn on or off the device flashlight. The function knows automatic if there is a flash/ torch available.
 
 ### Height
 
@@ -220,7 +220,7 @@ _Turn on or off the device flashlight. The function knows automatic if there is 
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's vertical height, measured in pixels._
+Specifies the component's vertical height, measured in pixels.
 
 ### Height Percent
 
@@ -231,8 +231,8 @@ _Specifies the component's vertical height, measured in pixels._
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's vertical height as a percentage
- of the height of its parent Component._
+Specifies the component's vertical height as a percentage
+ of the height of its parent Component.
 
 ### Row
 
@@ -243,7 +243,7 @@ _Specifies the component's vertical height as a percentage
 |:----:|:-------:|
 |number|None|
 
-_Row property getter method._
+Row property getter method.
 
 ### Width
 
@@ -254,7 +254,7 @@ _Row property getter method._
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's horizontal width, measured in pixels._
+Specifies the component's horizontal width, measured in pixels.
 
 ### Width Percent
 
@@ -265,5 +265,5 @@ _Specifies the component's horizontal width, measured in pixels._
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's horizontal width as a percentage
- of the Width of its parent Component._
+Specifies the component's horizontal width as a percentage
+ of the Width of its parent Component.

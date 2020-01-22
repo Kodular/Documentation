@@ -8,7 +8,7 @@
 
 ## Overview
 
-_<p>Non-visible component that measures the ambient geomagnetic field for all three physical axes (x, y, z) in Tesla https://en.wikipedia.org/wiki/Tesla_(unit). </p>_
+<p>Non-visible component that measures the ambient geomagnetic field for all three physical axes (x, y, z) in Tesla https://en.wikipedia.org/wiki/Tesla_(unit). </p>
 
 ## Events
 
@@ -25,7 +25,7 @@ _<p>Non-visible component that measures the ambient geomagnetic field for all th
     |absolute Strength|`number`|
 
 
-_Indicates that the magnetic sensor data has changed._
+Indicates that the magnetic sensor data has changed.
 
 ## Properties
 

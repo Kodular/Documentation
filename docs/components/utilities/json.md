@@ -8,7 +8,7 @@
 
 ## Overview
 
-_A non-visible component that parses and handles data encoded as JSON._
+A non-visible component that parses and handles data encoded as JSON.
 
 ## Events
 
@@ -23,7 +23,7 @@ _A non-visible component that parses and handles data encoded as JSON._
     |error Message|`text`|
 
 
-_Triggers when there is a JSON error._
+Triggers when there is a JSON error.
 
 ## Methods
 
@@ -41,7 +41,7 @@ _Triggers when there is a JSON error._
     |default Value|`text`|
 
 
-_Add True or False to a JSON Array._
+Add True or False to a JSON Array.
 
 ### AddBooleanToJSONObject
 
@@ -58,7 +58,7 @@ _Add True or False to a JSON Array._
     |default Value|`text`|
 
 
-_Add True or False to a JSON Object._
+Add True or False to a JSON Object.
 
 ### AddJSONArrayToJSONArray
 
@@ -74,7 +74,7 @@ _Add True or False to a JSON Object._
     |default Value|`text`|
 
 
-_Add a JSON Array to a JSON Array._
+Add a JSON Array to a JSON Array.
 
 ### AddJSONObjectToJSONArray
 
@@ -90,7 +90,7 @@ _Add a JSON Array to a JSON Array._
     |default Value|`text`|
 
 
-_Add a JSON Object to a JSON Array._
+Add a JSON Object to a JSON Array.
 
 ### AddJSONObjectToJSONObject
 
@@ -107,7 +107,7 @@ _Add a JSON Object to a JSON Array._
     |default Value|`text`|
 
 
-_Add a JSON Object to a JSON Object._
+Add a JSON Object to a JSON Object.
 
 ### AddNumberToJSONArray
 
@@ -123,7 +123,7 @@ _Add a JSON Object to a JSON Object._
     |default Value|`text`|
 
 
-_Add a Number to a JSON Array._
+Add a Number to a JSON Array.
 
 ### AddNumberToJSONObject
 
@@ -140,7 +140,7 @@ _Add a Number to a JSON Array._
     |default Value|`text`|
 
 
-_Add a Number to a JSON Object._
+Add a Number to a JSON Object.
 
 ### AddTextToJSONArray
 
@@ -156,7 +156,7 @@ _Add a Number to a JSON Object._
     |default Value|`text`|
 
 
-_Add Text to a JSON Array._
+Add Text to a JSON Array.
 
 ### AddTextToJSONObject
 
@@ -173,7 +173,7 @@ _Add Text to a JSON Array._
     |default Value|`text`|
 
 
-_Add Text to a JSON Object._
+Add Text to a JSON Object.
 
 ### GetBooleanFromJSONAray
 
@@ -189,7 +189,7 @@ _Add Text to a JSON Object._
     |default Value|`boolean`|
 
 
-_Get a True or False from a JSON Array._
+Get a True or False from a JSON Array.
 
 ### GetBooleanFromJSONObject
 
@@ -205,7 +205,7 @@ _Get a True or False from a JSON Array._
     |default Value|`boolean`|
 
 
-_Get a true or false value from a JSON Object._
+Get a true or false value from a JSON Object.
 
 ### GetJSONArrayFromJSONObject
 
@@ -221,7 +221,7 @@ _Get a true or false value from a JSON Object._
     |default Value|`text`|
 
 
-_Get a JSON Array from a JSON Object._
+Get a JSON Array from a JSON Object.
 
 ### GetJSONObjectFromJSONAray
 
@@ -237,7 +237,7 @@ _Get a JSON Array from a JSON Object._
     |default Value|`text`|
 
 
-_Get a JSON Object from a JSON Array._
+Get a JSON Object from a JSON Array.
 
 ### GetJSONObjectFromJSONObject
 
@@ -253,7 +253,7 @@ _Get a JSON Object from a JSON Array._
     |default Value|`text`|
 
 
-_Get a JSON Object from a JSON Object._
+Get a JSON Object from a JSON Object.
 
 ### GetLengthOfJSONArray
 
@@ -268,7 +268,7 @@ _Get a JSON Object from a JSON Object._
     |default Value|`number`|
 
 
-_Get the length of a JSON Array._
+Get the length of a JSON Array.
 
 ### GetNumberFromJSONAray
 
@@ -284,7 +284,7 @@ _Get the length of a JSON Array._
     |default Value|`number`|
 
 
-_Get a Number from a JSON Array._
+Get a Number from a JSON Array.
 
 ### GetNumberFromJSONObject
 
@@ -300,7 +300,7 @@ _Get a Number from a JSON Array._
     |default Value|`number`|
 
 
-_Get a number from a JSON Object._
+Get a number from a JSON Object.
 
 ### GetTextFromJSONAray
 
@@ -316,7 +316,7 @@ _Get a number from a JSON Object._
     |default Value|`text`|
 
 
-_Get Text from a JSON Array._
+Get Text from a JSON Array.
 
 ### GetTextFromJSONObject
 
@@ -332,4 +332,4 @@ _Get Text from a JSON Array._
     |default Value|`text`|
 
 
-_Get text from a JSON object._
+Get text from a JSON object.

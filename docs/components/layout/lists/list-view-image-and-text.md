@@ -6,7 +6,7 @@
 
 ## Overview
 
-_A visible component that displays a list of elements consisting of an image and two labels._
+A visible component that displays a list of elements consisting of an image and two labels.
 
 ## Events
 
@@ -23,7 +23,7 @@ _A visible component that displays a list of elements consisting of an image and
     |image|`text`|
 
 
-_Triggers when the user clicks on a item in the list_
+Triggers when the user clicks on a item in the list
 
 ### Long Click
 
@@ -38,7 +38,7 @@ _Triggers when the user clicks on a item in the list_
     |image|`text`|
 
 
-_Triggers when the user long clicks on a item in the list_
+Triggers when the user long clicks on a item in the list
 
 ## Methods
 
@@ -54,7 +54,7 @@ _Triggers when the user long clicks on a item in the list_
     |subtitle|`text`|
 
 
-_Add a item to the list_
+Add a item to the list
 
 ### AddItemFromList
 
@@ -66,13 +66,13 @@ _Add a item to the list_
     |list|`list`|
 
 
-_Add a item to the list_
+Add a item to the list
 
 ### ClearList
 
 [[Method('List View Image and Text', 'ClearList', false)]]
 
-_Remove all the items from the list_
+Remove all the items from the list
 
 ### RemoveItem
 
@@ -84,7 +84,7 @@ _Remove all the items from the list_
     |position|`number`|
 
 
-_Remove a item from the list_
+Remove a item from the list
 
 ### UpdateItem
 
@@ -99,7 +99,7 @@ _Remove a item from the list_
     |subtitle|`text`|
 
 
-_Update a item of the list_
+Update a item of the list
 
 ## Properties
 
@@ -114,7 +114,7 @@ _Update a item of the list_
 |:----:|:-------:|
 |number|&H00FFFFFF|
 
-_Set the background color of the listview_
+Set the background color of the listview
 
 ### Divider Color
 
@@ -127,7 +127,7 @@ _Set the background color of the listview_
 |:----:|:-------:|
 |number|&HFFCCCCCC|
 
-_Set the divider color of the listview_
+Set the divider color of the listview
 
 ### Image Side
 
@@ -140,8 +140,8 @@ _Set the divider color of the listview_
 |:----:|:-------:|
 |number|1|
 
-_Set the side of the image.
-Set it to 1 for Left side and 2 for Right side_
+Set the side of the image.
+Set it to 1 for Left side and 2 for Right side
 
 ### Item Size
 
@@ -154,8 +154,8 @@ Set it to 1 for Left side and 2 for Right side_
 |:----:|:-------:|
 |number|1|
 
-_Set ListItem Size.
-Set it to 1 for Normal size, 2 for Small size and 3 for Big size._
+Set ListItem Size.
+Set it to 1 for Normal size, 2 for Small size and 3 for Big size.
 
 ### Subtitle Bold
 
@@ -168,7 +168,7 @@ Set it to 1 for Normal size, 2 for Small size and 3 for Big size._
 |:----:|:-------:|
 |boolean|False|
 
-_Whether the subtitle should be in bold text_
+Whether the subtitle should be in bold text
 
 ### Subtitle Color
 
@@ -181,7 +181,7 @@ _Whether the subtitle should be in bold text_
 |:----:|:-------:|
 |number|&HFF757575|
 
-_Changed the color of the subtitle text_
+Changed the color of the subtitle text
 
 ### Subtitle Font Typeface
 
@@ -194,7 +194,7 @@ _Changed the color of the subtitle text_
 |:----:|:-------:|
 |number|0|
 
-_Change the Typeface of the Subtitle_
+Change the Typeface of the Subtitle
 
 ### Subtitle Font Typeface Import
 
@@ -207,7 +207,7 @@ _Change the Typeface of the Subtitle_
 |:----:|
 |text|
 
-_Set a custom title font._
+Set a custom title font.
 
 ### Subtitle HTML
 
@@ -220,7 +220,7 @@ _Set a custom title font._
 |:----:|:-------:|
 |boolean|False|
 
-_If true, then the subtitle will show html text else it will show plain text. Note: Not all HTML is supported._
+If true, then the subtitle will show html text else it will show plain text. Note: Not all HTML is supported.
 
 ### Subtitle Italic
 
@@ -233,7 +233,7 @@ _If true, then the subtitle will show html text else it will show plain text. No
 |:----:|:-------:|
 |boolean|False|
 
-_Whether the subtitle should be in italic text_
+Whether the subtitle should be in italic text
 
 ### Subtitle Text Size
 
@@ -246,7 +246,7 @@ _Whether the subtitle should be in italic text_
 |:----:|:-------:|
 |number|14|
 
-_The text size of the subtitle._
+The text size of the subtitle.
 
 ### Title Bold
 
@@ -259,7 +259,7 @@ _The text size of the subtitle._
 |:----:|:-------:|
 |boolean|False|
 
-_Whether the title should be in bold text_
+Whether the title should be in bold text
 
 ### Title Color
 
@@ -272,7 +272,7 @@ _Whether the title should be in bold text_
 |:----:|:-------:|
 |number|&HFF212121|
 
-_Changed the color of the title text_
+Changed the color of the title text
 
 ### Title Font Typeface
 
@@ -285,7 +285,7 @@ _Changed the color of the title text_
 |:----:|:-------:|
 |number|0|
 
-_Change the Typeface of the Title_
+Change the Typeface of the Title
 
 ### Title Font Typeface Import
 
@@ -298,7 +298,7 @@ _Change the Typeface of the Title_
 |:----:|
 |text|
 
-_Set a custom title font._
+Set a custom title font.
 
 ### Title HTML
 
@@ -311,7 +311,7 @@ _Set a custom title font._
 |:----:|:-------:|
 |boolean|False|
 
-_If true, then the title will show html text else it will show plain text. Note: Not all HTML is supported._
+If true, then the title will show html text else it will show plain text. Note: Not all HTML is supported.
 
 ### Title Italic
 
@@ -324,7 +324,7 @@ _If true, then the title will show html text else it will show plain text. Note:
 |:----:|:-------:|
 |boolean|False|
 
-_Whether the title should be in italic text_
+Whether the title should be in italic text
 
 ### Title Text Size
 
@@ -337,7 +337,7 @@ _Whether the title should be in italic text_
 |:----:|:-------:|
 |number|14|
 
-_The text size of the title._
+The text size of the title.
 
 ### Visible
 
@@ -350,7 +350,7 @@ _The text size of the title._
 |:----:|:-------:|
 |boolean|True|
 
-_Returns true iff the component is visible._
+Returns true iff the component is visible.
 
 ### Column
 
@@ -361,7 +361,7 @@ _Returns true iff the component is visible._
 |:----:|:-------:|
 |number|None|
 
-_Column property getter method._
+Column property getter method.
 
 ### Height
 
@@ -372,7 +372,7 @@ _Column property getter method._
 |:----:|:-------:|
 |number|None|
 
-_Determines the height of the list on the view._
+Determines the height of the list on the view.
 
 ### Height Percent
 
@@ -383,8 +383,8 @@ _Determines the height of the list on the view._
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's vertical height as a percentage
- of the height of its parent Component._
+Specifies the component's vertical height as a percentage
+ of the height of its parent Component.
 
 ### Row
 
@@ -395,7 +395,7 @@ _Specifies the component's vertical height as a percentage
 |:----:|:-------:|
 |number|None|
 
-_Row property getter method._
+Row property getter method.
 
 ### Width
 
@@ -406,7 +406,7 @@ _Row property getter method._
 |:----:|:-------:|
 |number|None|
 
-_Determines the width of the list on the view._
+Determines the width of the list on the view.
 
 ### Width Percent
 
@@ -417,5 +417,5 @@ _Determines the width of the list on the view._
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's horizontal width as a percentage
- of the Width of its parent Component._
+Specifies the component's horizontal width as a percentage
+ of the Width of its parent Component.

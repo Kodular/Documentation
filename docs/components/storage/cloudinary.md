@@ -8,7 +8,7 @@
 
 ## Overview
 
-_A non-visible component that allows for uploading of images, videos, audios and many other file types to Cloudinary._
+A non-visible component that allows for uploading of images, videos, audios and many other file types to Cloudinary.
 
 ## Events
 
@@ -23,7 +23,7 @@ _A non-visible component that allows for uploading of images, videos, audios and
     |url|`text`|
 
 
-_Event raised after the Upload Media block has been used_
+Event raised after the Upload Media block has been used
 
 ## Methods
 
@@ -37,7 +37,7 @@ _Event raised after the Upload Media block has been used_
     |path|`text`|
 
 
-_Uploads the specified media file to your Cloudinary media library._
+Uploads the specified media file to your Cloudinary media library.
 
 ## Properties
 
@@ -52,7 +52,7 @@ _Uploads the specified media file to your Cloudinary media library._
 |:----:|
 |text|
 
-_Your Cloudinary API key._
+Your Cloudinary API key.
 
 ### API Secret
 
@@ -65,7 +65,7 @@ _Your Cloudinary API key._
 |:----:|
 |text|
 
-_Your Cloudinary API secret._
+Your Cloudinary API secret.
 
 ### Cloud Name
 
@@ -78,4 +78,4 @@ _Your Cloudinary API secret._
 |:----:|
 |text|
 
-_Your Cloudinary cloud name._
+Your Cloudinary cloud name.

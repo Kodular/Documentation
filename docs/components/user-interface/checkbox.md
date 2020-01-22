@@ -6,7 +6,7 @@
 
 ## Overview
 
-_Checkbox that raises an event when the user clicks on it. There are many properties affecting its appearance that can be set in the Designer or Blocks Editor._
+Checkbox that raises an event when the user clicks on it. There are many properties affecting its appearance that can be set in the Designer or Blocks Editor.
 
 ## Events
 
@@ -14,25 +14,25 @@ _Checkbox that raises an event when the user clicks on it. There are many proper
 
 [[Event('Checkbox', 'Changed')]]
 
-_Default Changed event handler._
+Default Changed event handler.
 
 ### Click
 
 [[Event('Checkbox', 'Click')]]
 
-_Indicates a user has clicked on the checkbox._
+Indicates a user has clicked on the checkbox.
 
 ### Got Focus
 
 [[Event('Checkbox', 'Got Focus')]]
 
-_Default GotFocus event handler._
+Default GotFocus event handler.
 
 ### Lost Focus
 
 [[Event('Checkbox', 'Lost Focus')]]
 
-_Default LostFocus event handler._
+Default LostFocus event handler.
 
 ## Methods
 
@@ -49,7 +49,7 @@ _Default LostFocus event handler._
     |color|`number`|
 
 
-_Place a blurred shadow of text underneath the text, drawn with the specified x, y, radius, color (e.g. -11, 12, 13, black_
+Place a blurred shadow of text underneath the text, drawn with the specified x, y, radius, color (e.g. -11, 12, 13, black
 
 ## Properties
 
@@ -64,8 +64,8 @@ _Place a blurred shadow of text underneath the text, drawn with the specified x,
 |:----:|:-------:|
 |number|&H00FFFFFF|
 
-_Returns the checkbox's background color as an alpha-red-green-blue
- integer._
+Returns the checkbox's background color as an alpha-red-green-blue
+ integer.
 
 ### Checkbox Color
 
@@ -78,7 +78,7 @@ _Returns the checkbox's background color as an alpha-red-green-blue
 |:----:|:-------:|
 |number|&HFF000000|
 
-_Change the checkbox component color._
+Change the checkbox component color.
 
 ### Checked
 
@@ -91,7 +91,7 @@ _Change the checkbox component color._
 |:----:|:-------:|
 |boolean|False|
 
-_Returns true if the checkbox is checked._
+Returns true if the checkbox is checked.
 
 ### Enabled
 
@@ -104,7 +104,7 @@ _Returns true if the checkbox is checked._
 |:----:|:-------:|
 |boolean|True|
 
-_Returns true if the checkbox is active and clickable._
+Returns true if the checkbox is active and clickable.
 
 ### Font Bold
 
@@ -117,9 +117,9 @@ _Returns true if the checkbox is active and clickable._
 |:----:|:-------:|
 |boolean|False|
 
-_Returns true if the checkbox's text should be bold.
+Returns true if the checkbox's text should be bold.
  If bold has been requested, this property will return true, even if the
- font does not support bold._
+ font does not support bold.
 
 ### Font Italic
 
@@ -132,9 +132,9 @@ _Returns true if the checkbox's text should be bold.
 |:----:|:-------:|
 |boolean|False|
 
-_Returns true if the checkbox's text should be italic.
+Returns true if the checkbox's text should be italic.
  If italic has been requested, this property will return true, even if the
- font does not support italic._
+ font does not support italic.
 
 ### Font Size
 
@@ -147,7 +147,7 @@ _Returns true if the checkbox's text should be italic.
 |:----:|:-------:|
 |number|14.0|
 
-_Returns the checkbox's text's font size, measured in sp(scale-independent pixels)._
+Returns the checkbox's text's font size, measured in sp(scale-independent pixels).
 
 ### Font Typeface
 
@@ -160,8 +160,8 @@ _Returns the checkbox's text's font size, measured in sp(scale-independent pixel
 |:----:|:-------:|
 |number|0|
 
-_Returns the checkbox's text's font face as default, serif, sans
- serif, or monospace._
+Returns the checkbox's text's font face as default, serif, sans
+ serif, or monospace.
 
 ### Font Typeface Import
 
@@ -174,7 +174,7 @@ _Returns the checkbox's text's font face as default, serif, sans
 |:----:|
 |text|
 
-_Set a custom font._
+Set a custom font.
 
 ### Text
 
@@ -187,7 +187,7 @@ _Set a custom font._
 |:----:|
 |text|
 
-_Returns the text displayed by the checkbox._
+Returns the text displayed by the checkbox.
 
 ### Text Color
 
@@ -200,8 +200,8 @@ _Returns the text displayed by the checkbox._
 |:----:|:-------:|
 |number|&HFF000000|
 
-_Returns the checkbox's text color as an alpha-red-green-blue
- integer._
+Returns the checkbox's text color as an alpha-red-green-blue
+ integer.
 
 ### Visible
 
@@ -214,7 +214,7 @@ _Returns the checkbox's text color as an alpha-red-green-blue
 |:----:|:-------:|
 |boolean|True|
 
-_Returns true iff the component is visible._
+Returns true iff the component is visible.
 
 ### Column
 
@@ -225,7 +225,7 @@ _Returns true iff the component is visible._
 |:----:|:-------:|
 |number|None|
 
-_Column property getter method._
+Column property getter method.
 
 ### Height
 
@@ -236,7 +236,7 @@ _Column property getter method._
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's vertical height, measured in pixels._
+Specifies the component's vertical height, measured in pixels.
 
 ### Height Percent
 
@@ -247,8 +247,8 @@ _Specifies the component's vertical height, measured in pixels._
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's vertical height as a percentage
- of the height of its parent Component._
+Specifies the component's vertical height as a percentage
+ of the height of its parent Component.
 
 ### Row
 
@@ -259,7 +259,7 @@ _Specifies the component's vertical height as a percentage
 |:----:|:-------:|
 |number|None|
 
-_Row property getter method._
+Row property getter method.
 
 ### Width
 
@@ -270,7 +270,7 @@ _Row property getter method._
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's horizontal width, measured in pixels._
+Specifies the component's horizontal width, measured in pixels.
 
 ### Width Percent
 
@@ -281,5 +281,5 @@ _Specifies the component's horizontal width, measured in pixels._
 |:----:|:-------:|
 |number|None|
 
-_Specifies the component's horizontal width as a percentage
- of the Width of its parent Component._
+Specifies the component's horizontal width as a percentage
+ of the Width of its parent Component.

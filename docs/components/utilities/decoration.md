@@ -8,7 +8,7 @@
 
 ## Overview
 
-_A non-visible component that modifies other components'' padding, margins, and other visual properties._
+A non-visible component that modifies other components'' padding, margins, and other visual properties.
 
 ## Methods
 
@@ -23,7 +23,7 @@ _A non-visible component that modifies other components'' padding, margins, and 
     |values|`text`|
 
 
-_Margin is a way for a component to enforce some distance from others components. By specifying margin for a component, we say that keep this much distance from this component._
+Margin is a way for a component to enforce some distance from others components. By specifying margin for a component, we say that keep this much distance from this component.
 
 ### SetPadding
 
@@ -36,7 +36,7 @@ _Margin is a way for a component to enforce some distance from others components
     |values|`text`|
 
 
-_The padding around the component. Padding is the space inside the border, between the border and the actual component content. Use single number like 5 to specify padding for top, left, bottom, righ. You can also use 4 different numbers like 5,0,10,0 for top, left, bottom right._
+The padding around the component. Padding is the space inside the border, between the border and the actual component content. Use single number like 5 to specify padding for top, left, bottom, righ. You can also use 4 different numbers like 5,0,10,0 for top, left, bottom right.
 
 ### SetShape
 
@@ -51,4 +51,4 @@ _The padding around the component. Padding is the space inside the border, betwe
     |is Round|`boolean`|
 
 
-_This block allows you to create a rectangle or round shape for the visible component. You can use Color for backgroundColor and borderColor._
+This block allows you to create a rectangle or round shape for the visible component. You can use Color for backgroundColor and borderColor.
