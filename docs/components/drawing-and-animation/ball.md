@@ -154,3 +154,93 @@ The vertical coordinate of the Ball, increasing as the Ball moves down. If the p
 
 Sets the layer of the sprite, indicating whether it will appear in
  front of or behind other sprites.
+
+## Methods
+
+### Bounce
+
+
+
+[[Method('Ball', 'Bounce', false, 'edge')]]
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|edge|`number`|
+
+
+Makes the Ball bounce, as if off a wall. For normal bouncing, the edge argument should be the one returned by EdgeReached.
+
+### CollidingWith
+
+
+
+[[Method('Ball', 'CollidingWith', true, 'other')]]
+
+{>>Returns `boolean`<<}
+
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|other|`component`|
+
+
+Indicates whether a collision has been registered between this Ball and the passed sprite (Ball or ImageSprite).
+
+### MoveIntoBounds
+
+
+
+[[Method('Ball', 'MoveIntoBounds', false)]]
+
+Moves the Ball back in bounds if part of it extends out of bounds, having no effect otherwise. If the Ball is too wide to fit on the canvas, this aligns the left side of the Ball with the left side of the canvas. If the Ball is too tall to fit on the canvas, this aligns the top side of the Ball with the top side of the canvas.
+
+### MoveTo
+
+
+
+[[Method('Ball', 'MoveTo', false, 'x y')]]
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|x|`number`|
+|y|`number`|
+
+
+Sets the x and y coordinates of the Ball. If CenterAtOrigin is true, the center of the Ball will be placed here. Otherwise, the top left edge of the Ball will be placed at the specified coordinates.
+
+### PointInDirection
+
+
+
+[[Method('Ball', 'PointInDirection', false, 'x y')]]
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|x|`number`|
+|y|`number`|
+
+
+Sets the heading of the Ball toward the point with the coordinates (x, y).
+
+### PointTowards
+
+
+
+[[Method('Ball', 'PointTowards', false, 'target')]]
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|target|`component`|
+
+
+Turns the Ball to point towards a designated target sprite (Ball or ImageSprite). The new heading will be parallel to the line joining the centerpoints of the two sprites.

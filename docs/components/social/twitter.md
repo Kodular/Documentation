@@ -120,7 +120,7 @@ The value of the property will then be the same as the parameter to <code>Search
 
 ### TwitPic_API_Key
 
-:warning: **Deprecated** 
+:warning: ==**Deprecated**== 
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Twitter', 'TwitPic_API_Key')]]
@@ -143,3 +143,169 @@ TwitPicAPIkey property getter method.
 |text|None|
 
 The user name of the authorized user. Empty if there is no authorized user.
+
+## Methods
+
+### Authorize
+
+
+
+[[Method('Twitter', 'Authorize', false)]]
+
+Redirects user to login to Twitter via the Web browser using the OAuth protocol if we don't already have authorization.
+
+### CheckAuthorized
+
+
+
+[[Method('Twitter', 'CheckAuthorized', false)]]
+
+Checks whether we already have access, and if so, causes IsAuthorized event handler to be called.
+
+### DeAuthorize
+
+
+
+[[Method('Twitter', 'DeAuthorize', false)]]
+
+Removes Twitter authorization from this running app instance
+
+### DirectMessage
+
+
+
+[[Method('Twitter', 'DirectMessage', false, 'user message')]]
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|user|`text`|
+|message|`text`|
+
+
+This sends a direct (private) message to the specified user.  The message will be trimmed if it exceeds 160characters. <p><u>Requirements</u>: This should only be called after the <code>IsAuthorized</code> event has been raised, indicating that the user has successfully logged in to Twitter.</p>
+
+### Follow
+
+
+
+[[Method('Twitter', 'Follow', false, 'user')]]
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|user|`text`|
+
+
+Starts following a user.
+
+### Login
+
+
+
+[[Method('Twitter', 'Login', false, 'username password')]]
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|username|`text`|
+|password|`text`|
+
+
+Twitter's API no longer supports login via username and password. Use the Authorize call instead.
+
+### RequestDirectMessages
+
+
+
+[[Method('Twitter', 'RequestDirectMessages', false)]]
+
+Requests the 20 most recent direct messages sent to the logged-in user.  When the messages have been retrieved, the system will raise the <code>DirectMessagesReceived</code> event and set the <code>DirectMessages</code> property to the list of messages.<p><u>Requirements</u>: This should only be called after the <code>IsAuthorized</code> event has been raised, indicating that the user has successfully logged in to Twitter.</p>
+
+### RequestFollowers
+
+
+
+[[Method('Twitter', 'RequestFollowers', false)]]
+
+Gets who is following you.
+
+### RequestFriendTimeline
+
+
+
+[[Method('Twitter', 'RequestFriendTimeline', false)]]
+
+Gets the most recent 20 messages in the user's timeline.
+
+### RequestMentions
+
+
+
+[[Method('Twitter', 'RequestMentions', false)]]
+
+Requests the 20 most recent mentions of the logged-in user.  When the mentions have been retrieved, the system will raise the <code>MentionsReceived</code> event and set the <code>Mentions</code> property to the list of mentions.<p><u>Requirements</u>: This should only be called after the <code>IsAuthorized</code> event has been raised, indicating that the user has successfully logged in to Twitter.</p>
+
+### SearchTwitter
+
+
+
+[[Method('Twitter', 'SearchTwitter', false, 'query')]]
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|query|`text`|
+
+
+This searches Twitter for the given String query.<p><u>Requirements</u>: This should only be called after the <code>IsAuthorized</code> event has been raised, indicating that the user has successfully logged in to Twitter.</p>
+
+### StopFollowing
+
+
+
+[[Method('Twitter', 'StopFollowing', false, 'user')]]
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|user|`text`|
+
+
+Stops following a user.
+
+### Tweet
+
+
+
+[[Method('Twitter', 'Tweet', false, 'status')]]
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|status|`text`|
+
+
+This sends a tweet as the logged-in user with the specified Text, which will be trimmed if it exceeds 160 characters. <p><u>Requirements</u>: This should only be called after the <code>IsAuthorized</code> event has been raised, indicating that the user has successfully logged in to Twitter.</p>
+
+### TweetWithImage
+
+
+
+[[Method('Twitter', 'TweetWithImage', false, 'status imagePath')]]
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|status|`text`|
+|image Path|`text`|
+
+
+This sends a tweet as the logged-in user with the specified Text and a path to the image to be uploaded, which will be trimmed if it exceeds 160 characters. If an image is not found or invalid, only the text will be tweeted.<p><u>Requirements</u>: This should only be called after the <code>IsAuthorized</code> event has been raised, indicating that the user has successfully logged in to Twitter.</p>

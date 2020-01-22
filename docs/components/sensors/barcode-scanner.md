@@ -37,3 +37,13 @@ If true App Inventor will look for and use an external scanning program such as 
 |text|None|
 
 Text result of the previous scan.
+
+## Methods
+
+### DoScan
+
+
+
+[[Method('Barcode Scanner', 'DoScan', false)]]
+
+Begins a barcode scan, using the camera. When the scan is complete, the AfterScan event will be raised.

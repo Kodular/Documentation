@@ -144,7 +144,7 @@ Set the title that you will see in the download notification.
 
 ### Is Download Manager Available
 
-:warning: **Deprecated** 
+:warning: ==**Deprecated**== 
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Download', 'Is Download Manager Available')]]
@@ -154,3 +154,36 @@ Set the title that you will see in the download notification.
 |boolean|None|
 
 This function is deprecated. Do not use it anymore. We will remove it in the future. Since we support min API 14 the download manager is by default available. The download manager was added in API 9.
+
+## Methods
+
+### Download
+
+
+
+[[Method('Download', 'Download', false)]]
+
+Start the download process of the given download url.
+
+### GetFileSize
+
+
+
+[[Method('Download', 'GetFileSize', false, 'path')]]
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|path|`text`|
+
+
+Get the file size (in bytes) of a file that is stored online or on your device. The block detect automatic if it is a online path or not. You will get the result in the "Got File Size" event.
+
+### ShowDownload
+
+
+
+[[Method('Download', 'ShowDownload', false)]]
+
+You can open the download folder with this block.

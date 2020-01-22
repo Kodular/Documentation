@@ -193,3 +193,13 @@ Specifies the component's horizontal width, measured in pixels.
 
 Specifies the component's horizontal width as a percentage
  of the Width of its parent Component.
+
+## Methods
+
+### ClearImageTintColor
+
+
+
+[[Method('Image', 'ClearImageTintColor', false)]]
+
+Clear the image tint color.

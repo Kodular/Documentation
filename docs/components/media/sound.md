@@ -37,3 +37,93 @@ The minimum interval, in milliseconds, between sounds.  If you play a sound, all
 |text|
 
 The name of the sound file.  Only certain formats are supported.  See http://developer.android.com/guide/appendix/media-formats.html.
+
+## Methods
+
+### Pause
+
+
+
+[[Method('Sound', 'Pause', false)]]
+
+Pauses playing the sound if it is being played.
+
+### Play
+
+
+
+[[Method('Sound', 'Play', false)]]
+
+Plays the sound specified by the Source property.
+
+### Resume
+
+
+
+[[Method('Sound', 'Resume', false)]]
+
+Resumes playing the sound after a pause.
+
+### SoundNormal
+
+
+
+[[Method('Sound', 'SoundNormal', false)]]
+
+Ringer mode that may be audible and may vibrate.
+
+### SoundSilent
+
+
+
+[[Method('Sound', 'SoundSilent', false)]]
+
+Ringer mode that will be silent and will not vibrate.
+
+### SoundVibrate
+
+
+
+[[Method('Sound', 'SoundVibrate', false)]]
+
+Ringer mode that will be silent and will vibrate.
+
+### Stop
+
+
+
+[[Method('Sound', 'Stop', false)]]
+
+Stops playing the sound if it is being played.
+
+### Vibrate
+
+
+
+[[Method('Sound', 'Vibrate', false, 'millisecs')]]
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|millisecs|`number`|
+
+
+Vibrates for the specified number of milliseconds.
+
+### VibratePattern
+
+
+
+[[Method('Sound', 'VibratePattern', false, 'vibrate delay repeat')]]
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|vibrate|`number`|
+|delay|`number`|
+|repeat|`boolean`|
+
+
+Vibrate with a given pattern

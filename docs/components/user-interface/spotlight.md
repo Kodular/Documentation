@@ -297,3 +297,28 @@ The Spotlight subheading text color.
 |number|16|
 
 The Spotlight subheading text size.
+
+## Methods
+
+### ShowSpotlight
+
+
+
+[[Method('Spotlight', 'ShowSpotlight', false)]]
+
+Use this block to show the spotlight.
+
+### ShowSpotlightOnFAB
+
+
+
+[[Method('Spotlight', 'ShowSpotlightOnFAB', false, 'floatingActionButton')]]
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|floating Action Button|`component`|
+
+
+Use this block to show the spotlight on a floating action button.

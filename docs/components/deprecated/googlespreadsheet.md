@@ -37,3 +37,83 @@ The Cloudstitch API endpoint.
 |text|Enter Spreadsheet name|
 
 The Google spreadsheet name
+
+## Methods
+
+### GetCellData
+
+
+
+[[Method('GoogleSpreadsheet', 'GetCellData', true, 'columnName rowNumber')]]
+
+{>>Returns `text`<<}
+
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|column Name|`text`|
+|row Number|`number`|
+
+
+For the given columnName and rowNumber, retrieves the spreadsheet cell data
+
+### GetColumnData
+
+
+
+[[Method('GoogleSpreadsheet', 'GetColumnData', true, 'columnName')]]
+
+{>>Returns `list`<<}
+
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|column Name|`text`|
+
+
+Retrieves all data for an entire column
+
+### GetRowData
+
+
+
+[[Method('GoogleSpreadsheet', 'GetRowData', true, 'rowNumber')]]
+
+{>>Returns `list`<<}
+
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|row Number|`number`|
+
+
+Retrieves data for a specific row number
+
+### GetSpreadsheetData
+
+
+
+[[Method('GoogleSpreadsheet', 'GetSpreadsheetData', false)]]
+
+For the given ApiEndpoint and Spreadsheet, retrieves all data from the spreadsheet.
+
+### StoreData
+
+
+
+[[Method('GoogleSpreadsheet', 'StoreData', false, 'dataToStore')]]
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|data To Store|`text`|
+
+
+Stores data into spreadsheet. dataToStore must be in json format. Will trigger AfterAction

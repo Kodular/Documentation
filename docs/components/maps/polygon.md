@@ -204,3 +204,71 @@ Gets or sets the sequence of points used to draw the polygon.
 |text|None|
 
 The type of the feature. For polygons, this returns the text "Polygon".
+
+## Methods
+
+### Centroid
+
+
+
+[[Method('Polygon', 'Centroid', true)]]
+
+{>>Returns `list`<<}
+
+
+Returns the centroid of the Polygon as a (latitude, longitude) pair.
+
+### DistanceToFeature
+
+
+
+[[Method('Polygon', 'DistanceToFeature', true, 'mapFeature centroids')]]
+
+{>>Returns `number`<<}
+
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|map Feature|`component`|
+|centroids|`boolean`|
+
+
+Compute the distance, in meters, between two map features.
+
+### DistanceToPoint
+
+
+
+[[Method('Polygon', 'DistanceToPoint', true, 'latitude longitude centroid')]]
+
+{>>Returns `number`<<}
+
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|latitude|`number`|
+|longitude|`number`|
+|centroid|`boolean`|
+
+
+Compute the distance, in meters, between a map feature and a latitude, longitude point.
+
+### HideInfobox
+
+
+
+[[Method('Polygon', 'HideInfobox', false)]]
+
+Hide the infobox if it is shown. If the infobox is not visible this function has no effect.
+
+### ShowInfobox
+
+
+
+[[Method('Polygon', 'ShowInfobox', false)]]
+
+Show the infobox for the feature. This will show the infobox even if

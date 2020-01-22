@@ -154,3 +154,107 @@ Specifies the component's horizontal width, measured in pixels.
 
 Specifies the component's horizontal width as a percentage
  of the Width of its parent Component.
+
+## Methods
+
+### EndFrame
+
+
+
+[[Method('Lottie', 'EndFrame', false, 'frame')]]
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|frame|`number`|
+
+
+Set the frame where you want the animation to end.
+
+### GetCurrentFrame
+
+
+
+[[Method('Lottie', 'GetCurrentFrame', true)]]
+
+{>>Returns `number`<<}
+
+
+Get the frame where the animation is now.
+
+### GetFrameCount
+
+
+
+[[Method('Lottie', 'GetFrameCount', true)]]
+
+{>>Returns `number`<<}
+
+
+Get the count of frames in the animation.
+
+### IsAnimating
+
+
+
+[[Method('Lottie', 'IsAnimating', true)]]
+
+{>>Returns `boolean`<<}
+
+
+Check if the Lottie component is animating.
+
+### PauseAnimation
+
+
+
+[[Method('Lottie', 'PauseAnimation', false)]]
+
+Pause the animation on the Lottie component.
+
+### ResumeAnimation
+
+
+
+[[Method('Lottie', 'ResumeAnimation', false)]]
+
+Resume the animation on the Lottie component.
+
+### SetCurrentFrame
+
+
+
+[[Method('Lottie', 'SetCurrentFrame', false, 'frame')]]
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|frame|`number`|
+
+
+Set the frame where you want the animation to be now.
+
+### StartAnimation
+
+
+
+[[Method('Lottie', 'StartAnimation', false)]]
+
+Start the animation on the Lottie component.
+
+### StartFrame
+
+
+
+[[Method('Lottie', 'StartFrame', false, 'frame')]]
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|frame|`number`|
+
+
+Set the frame where you want the animation to start.

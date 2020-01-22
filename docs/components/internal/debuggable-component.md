@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|internal|1|API 19 - Android 4.4 - 4.4.4 KitKat|
+|Internal|1|API 19 - Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 

@@ -102,3 +102,43 @@ Set this block before you upload a image and before you try to get the response 
 |text|None|
 
 You can use the test image url if you have not any picture online on a server or else.
+
+## Methods
+
+### GetOcrServerStatus
+
+
+
+[[Method('OCR', 'GetOcrServerStatus', false)]]
+
+Get the server status from the free ocr.space server. This is helpful if you want to know if the server is online or offline. Returns true when online, else false when offline.
+
+### GetTextFromImageUrl
+
+
+
+[[Method('OCR', 'GetTextFromImageUrl', false, 'imageUrl')]]
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|image URL|`text`|
+
+
+Get the text from a picture via the image url. Example: http://name/yourimage.jpg. Service powered by ocr.space.
+
+### UploadImage
+
+
+
+[[Method('OCR', 'UploadImage', false, 'path')]]
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|path|`text`|
+
+
+Upload your image to the server from ocr.space and then you get back the text from the picture.

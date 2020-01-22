@@ -76,3 +76,101 @@ Set the username to login into the ftp server.
 |text|/|
 
 Set the ftp working dir.
+
+## Methods
+
+### Connect
+
+
+
+[[Method('FTP', 'Connect', false)]]
+
+Start the connection to the ftp server.
+
+### Disconnect
+
+
+
+[[Method('FTP', 'Disconnect', false)]]
+
+Disconnect the current connection.
+
+### DownloadFile
+
+
+
+[[Method('FTP', 'DownloadFile', false, 'remoteFilepath destination')]]
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|remote Filepath|`text`|
+|destination|`text`|
+
+
+Start downloading a file.
+
+### GetListOfFiles
+
+
+
+[[Method('FTP', 'GetListOfFiles', true, 'dir')]]
+
+{>>Returns `list`<<}
+
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|dir|`text`|
+
+
+Get a list of files in a directory. Returns a empty list if a error occurs.
+
+### UploadFile
+
+
+
+[[Method('FTP', 'UploadFile', false, 'filePath newName')]]
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|file Path|`text`|
+|new Name|`text`|
+
+
+Start uploading a file.
+
+### Delete Dir
+
+
+
+[[Method('FTP', 'Delete Dir', false, 'dir')]]
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|dir|`text`|
+
+
+Delete a directory on the ftp server.
+
+### make Dir
+
+
+
+[[Method('FTP', 'make Dir', false, 'dir')]]
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|dir|`text`|
+
+
+Make/create a directory on the ftp server.

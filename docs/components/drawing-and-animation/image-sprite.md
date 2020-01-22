@@ -167,3 +167,93 @@ The height of the ImageSprite in pixels.
 |number|None|
 
 The width of the ImageSprite in pixels.
+
+## Methods
+
+### Bounce
+
+
+
+[[Method('Image Sprite', 'Bounce', false, 'edge')]]
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|edge|`number`|
+
+
+Makes the ImageSprite bounce, as if off a wall. For normal bouncing, the edge argument should be the one returned by EdgeReached.
+
+### CollidingWith
+
+
+
+[[Method('Image Sprite', 'CollidingWith', true, 'other')]]
+
+{>>Returns `boolean`<<}
+
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|other|`component`|
+
+
+Indicates whether a collision has been registered between this ImageSprite and the passed sprite (Ball or ImageSprite).
+
+### MoveIntoBounds
+
+
+
+[[Method('Image Sprite', 'MoveIntoBounds', false)]]
+
+Moves the ImageSprite back in bounds if part of it extends out of bounds, having no effect otherwise. If the ImageSprite is too wide to fit on the canvas, this aligns the left side of the ImageSprite with the left side of the canvas. If the ImageSprite is too tall to fit on the canvas, this aligns the top side of the ImageSprite with the top side of the canvas.
+
+### MoveTo
+
+
+
+[[Method('Image Sprite', 'MoveTo', false, 'x y')]]
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|x|`number`|
+|y|`number`|
+
+
+Moves the ImageSprite so that its left top corner is at the specfied x and y coordinates.
+
+### PointInDirection
+
+
+
+[[Method('Image Sprite', 'PointInDirection', false, 'x y')]]
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|x|`number`|
+|y|`number`|
+
+
+Sets the heading of the ImageSprite toward the point with the coordinates (x, y).
+
+### PointTowards
+
+
+
+[[Method('Image Sprite', 'PointTowards', false, 'target')]]
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|target|`component`|
+
+
+Turns the ImageSprite to point towards a designated target sprite (Ball or ImageSprite). The new heading will be parallel to the line joining the centerpoints of the two sprites.

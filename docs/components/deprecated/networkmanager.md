@@ -50,3 +50,71 @@ Checks to see if device is GPS enabled
 |boolean|None|
 
 Starts up the GPS configuration activity, giving user option to turn turn on the GPS
+
+## Methods
+
+### GetConnectionType
+
+
+
+[[Method('NetworkManager', 'GetConnectionType', true)]]
+
+{>>Returns `text`<<}
+
+
+describe the type of the network, for example WIFI or MOBILE
+
+### is Connected
+
+
+
+[[Method('NetworkManager', 'is Connected', true)]]
+
+{>>Returns `boolean`<<}
+
+
+Indicates whether network connectivity exists and it is possible to establish connections and pass data.
+
+### IsFastConnection
+
+
+
+[[Method('NetworkManager', 'IsFastConnection', true)]]
+
+{>>Returns `boolean`<<}
+
+
+Returns true if using a fast connection
+
+### IsMobileConnection
+
+
+
+[[Method('NetworkManager', 'IsMobileConnection', true)]]
+
+{>>Returns `boolean`<<}
+
+
+Returns true if connection is through Mobile
+
+### IsRoaming
+
+
+
+[[Method('NetworkManager', 'IsRoaming', true)]]
+
+{>>Returns `boolean`<<}
+
+
+Returns true if using using roaming
+
+### IsWiFiConnection
+
+
+
+[[Method('NetworkManager', 'IsWiFiConnection', true)]]
+
+{>>Returns `boolean`<<}
+
+
+Returns true if connection is through WiFi

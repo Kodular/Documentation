@@ -153,3 +153,20 @@ Specifies the component's horizontal width, measured in pixels.
 
 Specifies the component's horizontal width as a percentage
  of the Width of its parent Component.
+
+## Methods
+
+### IncrementProgressBy
+
+
+
+[[Method('Linear Progressbar', 'IncrementProgressBy', false, 'value')]]
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|value|`number`|
+
+
+Increase the progress bar's progress by the specified amount.

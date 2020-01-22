@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|internal|1|API 19 - Android 4.4 - 4.4.4 KitKat|
+|Internal|1|API 19 - Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 
@@ -50,3 +50,21 @@ If set to true, the device will receive test ads. This option must be set before
 |text|
 
 Input here your own Chameleon Ad 'User ID' (get yours at my.kodular.io).
+
+## Methods
+
+### Load Ad
+
+
+
+[[Method('Chameleon Ad', 'Load Ad', false)]]
+
+Load a new interstitial chameleon ad.
+
+### ShowAd
+
+
+
+[[Method('Chameleon Ad', 'ShowAd', false)]]
+
+Show a chameleon interstitial ad after it was loaded.

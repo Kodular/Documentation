@@ -89,3 +89,36 @@ Return whether the keyguard is currently locked.
 |boolean|None|
 
 Return whether the keyguard is secured by a PIN, pattern or password or a SIM card is currently locked.
+
+## Methods
+
+### RequestDismissKeyguard
+
+
+
+[[Method('Keyguard Manager', 'RequestDismissKeyguard', false)]]
+
+If the device is currently locked, requests the Keyguard to be dismissed. Works only for devices with Android 8+
+
+### ShowAuthenticationScreen
+
+
+
+[[Method('Keyguard Manager', 'ShowAuthenticationScreen', false)]]
+
+Create the Confirm Credentials screen. You can customize the title and description. Or we will provide a generic one for you if you leave it empty. Works only for devices with Android 5+
+
+### ShowWhenLocked
+
+
+
+[[Method('Keyguard Manager', 'ShowWhenLocked', false, 'enabled')]]
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|enabled|`boolean`|
+
+
+Specifies whether an Activity should be shown on top of the lock screen whenever the lockscreen is up and the activity is resumed. Normally an activity will be transitioned to the stopped state if it is started while the lockscreen is up, but with this flag set the activity will remain in the resumed state visible on-top of the lock screen.

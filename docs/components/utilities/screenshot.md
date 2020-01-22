@@ -167,3 +167,13 @@ Returns true if the read permission is granted, else false.
 |boolean|None|
 
 Returns true if the write permission is granted, else false.
+
+## Methods
+
+### TakeScreenshot
+
+
+
+[[Method('Screenshot', 'TakeScreenshot', false)]]
+
+Take a screenshot of the current visible screen.

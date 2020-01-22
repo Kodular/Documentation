@@ -102,3 +102,20 @@ List of the languages available on this device for use with TextToSpeech.  Check
 |boolean|None|
 
 Result property getter method.
+
+## Methods
+
+### Speak
+
+
+
+[[Method('Text To Speech', 'Speak', false, 'message')]]
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|message|`text`|
+
+
+Speaks the given message.

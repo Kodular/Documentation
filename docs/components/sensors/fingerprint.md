@@ -63,3 +63,43 @@ Sets the current theme
 |boolean|True|
 
 Whether to use a dialog
+
+## Methods
+
+### Authenticate
+
+
+
+[[Method('Fingerprint', 'Authenticate', false)]]
+
+Authenticate the user with a Fingerprint scanner
+
+### CancelScan
+
+
+
+[[Method('Fingerprint', 'CancelScan', false)]]
+
+Cancel the current Fingerprint Scan
+
+### HasFingerPrintScanner
+
+
+
+[[Method('Fingerprint', 'HasFingerPrintScanner', true)]]
+
+{>>Returns `boolean`<<}
+
+
+True if hardware is present and functional, false otherwise
+
+### HasFingersAdded
+
+
+
+[[Method('Fingerprint', 'HasFingersAdded', true)]]
+
+{>>Returns `boolean`<<}
+
+
+True if at least one fingerprint is enrolled, false otherwise

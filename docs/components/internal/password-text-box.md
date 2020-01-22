@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|internal|6|API 19 - Android 4.4 - 4.4.4 KitKat|
+|Internal|6|API 19 - Android 4.4 - 4.4.4 KitKat|
 
 ## Overview
 
@@ -246,7 +246,7 @@ Get the current cursor position.
 
 ### Enable Copy & Paste
 
-:warning: **Deprecated** 
+:warning: ==**Deprecated**== 
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Password Text Box', 'Enable Copy & Paste')]]
@@ -286,7 +286,7 @@ Specifies the component's vertical height as a percentage
 
 ### Line Color
 
-:warning: **Deprecated** 
+:warning: ==**Deprecated**== 
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Password Text Box', 'Line Color')]]
@@ -349,3 +349,72 @@ Specifies the component's horizontal width, measured in pixels.
 
 Specifies the component's horizontal width as a percentage
  of the Width of its parent Component.
+
+## Methods
+
+### AnimationStyle
+
+
+
+[[Method('Password Text Box', 'AnimationStyle', false, 'style position size color')]]
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|style|`text`|
+|position|`text`|
+|size|`number`|
+|color|`number`|
+
+
+Allows you to set animation style. Valid (case-insensitive) values are: ChasingDots, Circle, CubeGrid, DoubleBounce, FadingCircle, FoldingCube, Pulse, RotatingCircle, RotatingPlane, ThreeBounce, WanderingCubes, Wave. If invalid style is used, animation will be removed.Position can be: top, left, right, bottom. Size can be 100.
+
+### RequestFocus
+
+
+
+[[Method('Password Text Box', 'RequestFocus', false)]]
+
+Sets the textbox active.
+
+### SetCursorAt
+
+
+
+[[Method('Password Text Box', 'SetCursorAt', false, 'position')]]
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|position|`number`|
+
+
+Set the cursor to the given position.
+
+### SetCursorAtEnd
+
+
+
+[[Method('Password Text Box', 'SetCursorAtEnd', false)]]
+
+Set the cursor to the end of the text.
+
+### SetShadow
+
+
+
+[[Method('Password Text Box', 'SetShadow', false, 'x y radius color')]]
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|x|`number`|
+|y|`number`|
+|radius|`number`|
+|color|`number`|
+
+
+Place a blurred shadow of text underneath the text, drawn with the specified x, y, radius, color (e.g. -11, 12, 13, black

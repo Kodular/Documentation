@@ -9,3 +9,96 @@
 ## Overview
 
 _A non-visible component that performs operations like conversion between formats, lightening, and darkening on color data._
+
+## Methods
+
+### ConvertHexToInt
+
+
+
+[[Method('Color Utilities', 'ConvertHexToInt', true, 'hexColor')]]
+
+{>>Returns `number`<<}
+
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|hex Color|`text`|
+
+
+Convert a hex color to a integer color. The result is returned as integer.
+
+### ConvertIntToHex
+
+
+
+[[Method('Color Utilities', 'ConvertIntToHex', true, 'color')]]
+
+{>>Returns `text`<<}
+
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|color|`number`|
+
+
+Convert a integer color to a hex color. The result is returned as string.
+
+### GetLuminance
+
+
+
+[[Method('Color Utilities', 'GetLuminance', true, 'color')]]
+
+{>>Returns `number`<<}
+
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|color|`number`|
+
+
+Returns the luminance of a color as a float between 0.0 and 1.0. The result is returned as double.
+
+### IsDarkColor
+
+
+
+[[Method('Color Utilities', 'IsDarkColor', true, 'color')]]
+
+{>>Returns `boolean`<<}
+
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|color|`number`|
+
+
+Returns true if the color is dark, else it returns false, means the color is light. The result is returned as boolean.
+
+### SetAlphaValue
+
+
+
+[[Method('Color Utilities', 'SetAlphaValue', true, 'color alpha')]]
+
+{>>Returns `number`<<}
+
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|color|`number`|
+|alpha|`number`|
+
+
+Set a alpha value to a color. The result is returned as integer.

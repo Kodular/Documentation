@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|internal|1|API 19 - Android 4.4 - 4.4.4 KitKat|
+|Internal|1|API 19 - Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 
@@ -37,3 +37,57 @@ _No description available_
 |text|
 
 _No description available_
+
+## Methods
+
+### CheckStatus
+
+
+
+[[Method('Instant Access', 'CheckStatus', false, 'user')]]
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|user|`text`|
+
+
+Check the current status with a given username.
+
+### ClientID
+
+
+
+[[Method('Instant Access', 'ClientID', true)]]
+
+{>>Returns `text`<<}
+
+
+Returns the client id.
+
+### ClientSecret
+
+
+
+[[Method('Instant Access', 'ClientSecret', true)]]
+
+{>>Returns `text`<<}
+
+
+Returns the client secret.
+
+### Request
+
+
+
+[[Method('Instant Access', 'Request', false, 'user')]]
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|user|`text`|
+
+
+Start a request to user with the instant access login service.

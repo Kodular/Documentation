@@ -193,3 +193,108 @@ Specifies the component's horizontal width, measured in pixels.
 
 Specifies the component's horizontal width as a percentage
  of the Width of its parent Component.
+
+## Methods
+
+### EnterFullscreen
+
+
+
+[[Method('Youtube Player', 'EnterFullscreen', false)]]
+
+Enter the video in fullscreen mode.
+
+### ExitFullscreen
+
+
+
+[[Method('Youtube Player', 'ExitFullscreen', false)]]
+
+Exit the video from fullscreen mode.
+
+### GetThumbnailFromVideoId
+
+
+
+[[Method('Youtube Player', 'GetThumbnailFromVideoId', true, 'videoId')]]
+
+{>>Returns `text`<<}
+
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|video Id|`text`|
+
+
+This block will return the thumbnail image path from a video id. Use only as example '_bZj-LOXdH8' from a youtube video.
+
+### InstantLoad
+
+
+
+[[Method('Youtube Player', 'InstantLoad', false, 'videoId')]]
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|video Id|`text`|
+
+
+Use this block together with the 'Youtube Player' Initialized event. Loads and automatically plays the specified youtube video. Use only as example '_bZj-LOXdH8' from a youtube video.
+
+### Load
+
+
+
+[[Method('Youtube Player', 'Load', false, 'videoId')]]
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|video Id|`text`|
+
+
+Loads the specified video's thumbnail and prepares the player to play the video. Does not automatically play the video. Use only as example '_bZj-LOXdH8' from a youtube video.
+
+### Pause
+
+
+
+[[Method('Youtube Player', 'Pause', false)]]
+
+Pause the youtube video.
+
+### Play
+
+
+
+[[Method('Youtube Player', 'Play', false)]]
+
+Plays the youtube video.
+
+### SeekTo
+
+
+
+[[Method('Youtube Player', 'SeekTo', false, 'position')]]
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|position|`number`|
+
+
+Set a position where the youtube video should start playing in seconds.
+
+### ToggleFullscreen
+
+
+
+[[Method('Youtube Player', 'ToggleFullscreen', false)]]
+
+Toggle the state of the video player.

@@ -141,3 +141,16 @@ Specifies the component's horizontal width, measured in pixels.
 
 Specifies the component's horizontal width as a percentage
  of the Width of its parent Component.
+
+## Methods
+
+### GetAnimationStyleNames
+
+
+
+[[Method('Custom Progress', 'GetAnimationStyleNames', true)]]
+
+{>>Returns `list`<<}
+
+
+Gets style names of all possible animations.

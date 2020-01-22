@@ -141,3 +141,52 @@ Specifies the component's horizontal width, measured in pixels.
 
 Specifies the component's horizontal width as a percentage
  of the Width of its parent Component.
+
+## Methods
+
+### FeatureFromDescription
+
+
+
+[[Method('Feature Collection', 'FeatureFromDescription', true, 'description')]]
+
+{>>Returns `any`<<}
+
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|description|`list`|
+
+
+Convert a feature description into an App Inventor map feature. Currently the only
+ supported conversion is from a GeoJSON point to Marker component. If the feature has
+ properties, they will be mapped into App Inventor properties using the following mapping:
+
+ description becomes Description;
+ draggable becomes Draggable;
+ infobox becomes EnableInfobox;
+ fill becomes FillColor;
+ fill-opacity becomes FillOpacity;
+ image becomes ImageAsset;
+ stroke becomes StrokeColor;
+ stroke-opacity becomes StrokeOpacity;
+ stroke-width becomes StrokeWidth;
+ title becomes Title;
+ visible becomes Visible
+
+### LoadFromURL
+
+
+
+[[Method('Feature Collection', 'LoadFromURL', false, 'url')]]
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|url|`text`|
+
+
+<p>Load a feature collection in <a href="https://en.wikipedia.org/wiki/GeoJSON">GeoJSON</a> format from the given url. On success, the event GotFeatures will be raised with the given url and a list of the features parsed from the GeoJSON as a list of (key, value) pairs. On failure, the LoadError event will be raised with any applicable HTTP response code and error message.</p>

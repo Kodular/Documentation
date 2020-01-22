@@ -118,3 +118,292 @@ Whether Bluetooth is enabled
 |boolean|None|
 
 Returns true if a connection to a Bluetooth device has been made.
+
+## Methods
+
+### BytesAvailableToReceive
+
+
+
+[[Method('Bluetooth Client', 'BytesAvailableToReceive', true)]]
+
+{>>Returns `number`<<}
+
+
+Returns an estimate of the number of bytes that can be received without blocking
+
+### Connect
+
+
+
+[[Method('Bluetooth Client', 'Connect', true, 'address')]]
+
+{>>Returns `boolean`<<}
+
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|address|`text`|
+
+
+Connect to the Bluetooth device with the specified address and the Serial Port Profile (SPP). Returns true if the connection was successful.
+
+### ConnectWithUUID
+
+
+
+[[Method('Bluetooth Client', 'ConnectWithUUID', true, 'address uuid')]]
+
+{>>Returns `boolean`<<}
+
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|address|`text`|
+|uuid|`text`|
+
+
+Connect to the Bluetooth device with the specified address and UUID. Returns true if the connection was successful.
+
+### Disconnect
+
+
+
+[[Method('Bluetooth Client', 'Disconnect', false)]]
+
+Disconnect from the connected Bluetooth device.
+
+### IsDevicePaired
+
+
+
+[[Method('Bluetooth Client', 'IsDevicePaired', true, 'address')]]
+
+{>>Returns `boolean`<<}
+
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|address|`text`|
+
+
+Checks whether the Bluetooth device with the specified address is paired.
+
+### ReceiveSigned1ByteNumber
+
+
+
+[[Method('Bluetooth Client', 'ReceiveSigned1ByteNumber', true)]]
+
+{>>Returns `number`<<}
+
+
+Receive a signed 1-byte number from the connected Bluetooth device.
+
+### ReceiveSigned2ByteNumber
+
+
+
+[[Method('Bluetooth Client', 'ReceiveSigned2ByteNumber', true)]]
+
+{>>Returns `number`<<}
+
+
+Receive a signed 2-byte number from the connected Bluetooth device.
+
+### ReceiveSigned4ByteNumber
+
+
+
+[[Method('Bluetooth Client', 'ReceiveSigned4ByteNumber', true)]]
+
+{>>Returns `number`<<}
+
+
+Receive a signed 4-byte number from the connected Bluetooth device.
+
+### ReceiveSignedBytes
+
+
+
+[[Method('Bluetooth Client', 'ReceiveSignedBytes', true, 'numberOfBytes')]]
+
+{>>Returns `list`<<}
+
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|number Of Bytes|`number`|
+
+
+Receive multiple signed byte values from the connected Bluetooth device. If numberOfBytes is less than 0, read until a delimiter byte value is received.
+
+### ReceiveText
+
+
+
+[[Method('Bluetooth Client', 'ReceiveText', true, 'numberOfBytes')]]
+
+{>>Returns `text`<<}
+
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|number Of Bytes|`number`|
+
+
+Receive text from the connected Bluetooth device. If numberOfBytes is less than 0, read until a delimiter byte value is received.
+
+### ReceiveUnsigned1ByteNumber
+
+
+
+[[Method('Bluetooth Client', 'ReceiveUnsigned1ByteNumber', true)]]
+
+{>>Returns `number`<<}
+
+
+Receive an unsigned 1-byte number from the connected Bluetooth device.
+
+### ReceiveUnsigned2ByteNumber
+
+
+
+[[Method('Bluetooth Client', 'ReceiveUnsigned2ByteNumber', true)]]
+
+{>>Returns `number`<<}
+
+
+Receive a unsigned 2-byte number from the connected Bluetooth device.
+
+### ReceiveUnsigned4ByteNumber
+
+
+
+[[Method('Bluetooth Client', 'ReceiveUnsigned4ByteNumber', true)]]
+
+{>>Returns `number`<<}
+
+
+Receive a unsigned 4-byte number from the connected Bluetooth device.
+
+### ReceiveUnsignedBytes
+
+
+
+[[Method('Bluetooth Client', 'ReceiveUnsignedBytes', true, 'numberOfBytes')]]
+
+{>>Returns `list`<<}
+
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|number Of Bytes|`number`|
+
+
+Receive multiple unsigned byte values from the connected Bluetooth device. If numberOfBytes is less than 0, read until a delimiter byte value is received.
+
+### RemoveNameFromAddress
+
+
+
+[[Method('Bluetooth Client', 'RemoveNameFromAddress', true, 'addressAndName')]]
+
+{>>Returns `text`<<}
+
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|address And Name|`text`|
+
+
+Remove the Name from a Bluetooth Address and Name String.
+
+### Send1ByteNumber
+
+
+
+[[Method('Bluetooth Client', 'Send1ByteNumber', false, 'number')]]
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|number|`text`|
+
+
+Send a 1-byte number to the connected Bluetooth device.
+
+### Send2ByteNumber
+
+
+
+[[Method('Bluetooth Client', 'Send2ByteNumber', false, 'number')]]
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|number|`text`|
+
+
+Send a 2-byte number to the connected Bluetooth device.
+
+### Send4ByteNumber
+
+
+
+[[Method('Bluetooth Client', 'Send4ByteNumber', false, 'number')]]
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|number|`text`|
+
+
+Send a 4-byte number to the connected Bluetooth device.
+
+### SendBytes
+
+
+
+[[Method('Bluetooth Client', 'SendBytes', false, 'list')]]
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|list|`list`|
+
+
+Send a list of byte values to the connected Bluetooth device.
+
+### SendText
+
+
+
+[[Method('Bluetooth Client', 'SendText', false, 'text')]]
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|text|`text`|
+
+
+Send text to the connected Bluetooth device.

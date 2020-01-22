@@ -63,3 +63,55 @@ Specifies the length of time that the Snackbar is shown
 |number|&HFFFFFFFF|
 
 _No description available_
+
+## Methods
+
+### Dismiss
+
+
+
+[[Method('Snackbar', 'Dismiss', false)]]
+
+Dismiss the snackbar.
+
+### IsShown
+
+
+
+[[Method('Snackbar', 'IsShown', true)]]
+
+{>>Returns `boolean`<<}
+
+
+Returns true whether this snackbar is currently being shown.
+
+### Show
+
+
+
+[[Method('Snackbar', 'Show', false, 'message')]]
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|message|`text`|
+
+
+Show Snackbar (message supports HTML formatting)
+
+### ShowWithButton
+
+
+
+[[Method('Snackbar', 'ShowWithButton', false, 'message buttonText')]]
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|message|`text`|
+|button Text|`text`|
+
+
+Show Snackbar with action button (message supports HTML formatting)

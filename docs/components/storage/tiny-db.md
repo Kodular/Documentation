@@ -24,3 +24,75 @@ _TinyDB is a non-visible component that stores data for an app. <p> Apps created
 |text|TinyDB1|
 
 Namespace for storing data.
+
+## Methods
+
+### ClearAll
+
+
+
+[[Method('Tiny DB', 'ClearAll', false)]]
+
+Clear the entire data store
+
+### ClearTag
+
+
+
+[[Method('Tiny DB', 'ClearTag', false, 'tag')]]
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|tag|`text`|
+
+
+Clear the entry with the given tag
+
+### GetTags
+
+
+
+[[Method('Tiny DB', 'GetTags', true)]]
+
+{>>Returns `any`<<}
+
+
+Return a list of all the tags in the data store
+
+### GetValue
+
+
+
+[[Method('Tiny DB', 'GetValue', true, 'tag valueIfTagNotThere')]]
+
+{>>Returns `any`<<}
+
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|tag|`text`|
+|value If Tag Not There|`any`|
+
+
+Retrieve the value stored under the given tag.  If there's no such tag, then return valueIfTagNotThere.
+
+### StoreValue
+
+
+
+[[Method('Tiny DB', 'StoreValue', false, 'tag valueToStore')]]
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|tag|`text`|
+|value To Store|`any`|
+
+
+Store the given value under the given tag.  The storage persists on the
+ phone when the app is restarted.

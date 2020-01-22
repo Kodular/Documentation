@@ -102,3 +102,79 @@ Setter for the loading dialog's visibility.
 |boolean|False|
 
 Indicates whether a service account should be used for authentication
+
+## Methods
+
+### DoQuery
+
+:warning: ==**Deprecated**==
+
+[[Method('Fusiontables Control', 'DoQuery', false)]]
+
+DEPRECATED. This block is deprecated as of the end of 2012.  Use SendQuery.
+
+### ForgetLogin
+
+
+
+[[Method('Fusiontables Control', 'ForgetLogin', false)]]
+
+Forget end-users login credentials. Has no effect on service authentication
+
+### GetRows
+
+
+
+[[Method('Fusiontables Control', 'GetRows', false, 'tableId columns')]]
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|table ID|`text`|
+|columns|`text`|
+
+
+Gets all the rows from a specified fusion table. The tableId field is the id of therequired fusion table. The columns field is a comma-separeted list of the columns to retrieve.
+
+### GetRowsWithConditions
+
+
+
+[[Method('Fusiontables Control', 'GetRowsWithConditions', false, 'tableId columns conditions')]]
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|table ID|`text`|
+|columns|`text`|
+|conditions|`text`|
+
+
+Gets all the rows from a fusion table that meet certain conditions. The tableId field isthe id of the required fusion table. The columns field is a comma-separated list of the columns toretrieve. The conditions field specifies what rows to retrieve from the table, for example the rows in whicha particular column value is not null.
+
+### InsertRow
+
+
+
+[[Method('Fusiontables Control', 'InsertRow', false, 'tableId columns values')]]
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|table ID|`text`|
+|columns|`text`|
+|values|`text`|
+
+
+Inserts a row into the specified fusion table. The tableId field is the id of thefusion table. The columns is a comma-separated list of the columns to insert values into. The values field specifies what values to insert into each column.
+
+### SendQuery
+
+
+
+[[Method('Fusiontables Control', 'SendQuery', false)]]
+
+Send the query to the Fusiontables server.

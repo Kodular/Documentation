@@ -14,7 +14,7 @@ _A component to take a picture using the device's camera. After the picture is t
 
 ### Use Front
 
-:warning: **Deprecated** 
+:warning: ==**Deprecated**== 
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Camera', 'Use Front')]]
@@ -24,3 +24,32 @@ _A component to take a picture using the device's camera. After the picture is t
 |boolean|None|
 
 Specifies whether the front-facing camera should be used (when available). If the device does not have a front-facing camera, this option will be ignored and the camera will open normally.
+
+## Methods
+
+### HasFlash
+
+
+
+[[Method('Camera', 'HasFlash', true)]]
+
+{>>Returns `boolean`<<}
+
+
+Returns true if your device has a flash.
+
+### TakePicture
+
+
+
+[[Method('Camera', 'TakePicture', false)]]
+
+Take a picture with the camera of your device.
+
+### ToggleLight
+
+
+
+[[Method('Camera', 'ToggleLight', false)]]
+
+Toggle the flash of your device to on or off.

@@ -37,3 +37,62 @@ Set the file which is used as resource file. The file must be stored in the asse
 |text|
 
 Set the file which is used as resource file. The file path must be valid to any file you want to use. The path can be too a link to a url.
+
+## Methods
+
+### GetStringContentByName
+
+:warning: ==**Deprecated**==
+
+[[Method('Resource Utilities', 'GetStringContentByName', true, 'resourceName ifResourceNotFoundUse')]]
+
+{>>Returns `text`<<}
+
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|resource Name|`text`|
+|if Resource Not Found Use|`text`|
+
+
+This block is deprecated and will be removed soon. Use instead 'Get String From Asset' or 'Get String From Path'.
+
+### GetStringFromAsset
+
+
+
+[[Method('Resource Utilities', 'GetStringFromAsset', true, 'resourceName ifResourceNotFoundUse')]]
+
+{>>Returns `text`<<}
+
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|resource Name|`text`|
+|if Resource Not Found Use|`text`|
+
+
+Get the text from a asset resource file. Make sure you uploaded a file at 'Resource File From Asset' property.
+
+### GetStringFromPath
+
+
+
+[[Method('Resource Utilities', 'GetStringFromPath', true, 'resourceName ifResourceNotFoundUse')]]
+
+{>>Returns `text`<<}
+
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|resource Name|`text`|
+|if Resource Not Found Use|`text`|
+
+
+Get the text from a path resource file. Make sure you added a file path at 'Resource File From Path' property. The path can be too a link to a url.

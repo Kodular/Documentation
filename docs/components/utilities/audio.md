@@ -76,3 +76,63 @@ Returns the current volume index in percent.
 |number|None|
 
 Returns the current volume index in percent.
+
+## Methods
+
+### IsSoundEffectsEnabled
+
+
+
+[[Method('Audio', 'IsSoundEffectsEnabled', true, 'component')]]
+
+{>>Returns `boolean`<<}
+
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|component|`component`|
+
+
+Returns true whether a component should have sound effects enabled for events such as clicking and touching.
+
+### RingerModeNormal
+
+
+
+[[Method('Audio', 'RingerModeNormal', false)]]
+
+Sets the ringer mode to "normal".
+
+### RingerModeSilent
+
+
+
+[[Method('Audio', 'RingerModeSilent', false)]]
+
+Sets the ringer mode to "silent".
+
+### RingerModeVibrate
+
+
+
+[[Method('Audio', 'RingerModeVibrate', false)]]
+
+Sets the ringer mode to "vibrate".
+
+### SoundEffectsEnabled
+
+
+
+[[Method('Audio', 'SoundEffectsEnabled', false, 'component enabled')]]
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|component|`component`|
+|enabled|`boolean`|
+
+
+Set whether a component should have sound effects enabled for events such as clicking and touching.

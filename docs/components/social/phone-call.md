@@ -24,3 +24,13 @@ _<p>A non-visible component that makes a phone call to the number specified in t
 |text|
 
 PhoneNumber property getter method.
+
+## Methods
+
+### MakePhoneCall
+
+
+
+[[Method('Phone Call', 'MakePhoneCall', false)]]
+
+Makes a phone call using the number in the PhoneNumber property.

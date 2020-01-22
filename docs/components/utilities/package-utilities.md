@@ -63,3 +63,114 @@ This block will returns the version code of the current running app.
 |text|None|
 
 This block will returns the version name of the current running app.
+
+## Methods
+
+### AppNameFrom
+
+
+
+[[Method('Package Utilities', 'AppNameFrom', true, 'packageName')]]
+
+{>>Returns `text`<<}
+
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|package Name|`text`|
+
+
+Returns the name from the given package name.
+
+### GetPackageIcon
+
+
+
+[[Method('Package Utilities', 'GetPackageIcon', true, 'packageName')]]
+
+{>>Returns `text`<<}
+
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|package Name|`text`|
+
+
+Try to show the application icon of the given package name. If the application cannot be found, "Package not found" is the output.
+
+### IsPackageInstalled
+
+
+
+[[Method('Package Utilities', 'IsPackageInstalled', true, 'packageName')]]
+
+{>>Returns `boolean`<<}
+
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|package Name|`text`|
+
+
+Returns true if a package (app) is installed.
+
+### VersionCodeFrom
+
+
+
+[[Method('Package Utilities', 'VersionCodeFrom', true, 'packageName')]]
+
+{>>Returns `number`<<}
+
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|package Name|`text`|
+
+
+This block will returns the version code of the package name. Returns '-1' if the package is not installed.
+
+### VersionNameFrom
+
+
+
+[[Method('Package Utilities', 'VersionNameFrom', true, 'packageName')]]
+
+{>>Returns `text`<<}
+
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|package Name|`text`|
+
+
+This block will returns the version name of the package name. Returns 'Package not found' if the package is not installed.
+
+### Is Permission Granted
+
+
+
+[[Method('Package Utilities', 'Is Permission Granted', true, 'permissionName packageName')]]
+
+{>>Returns `boolean`<<}
+
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|permission Name|`text`|
+|package Name|`text`|
+
+
+Check whether a particular package has been granted a particular permission.

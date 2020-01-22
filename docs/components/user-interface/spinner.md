@@ -103,7 +103,7 @@ Set the text color for the spinner items.
 
 ### Prompt
 
-:warning: **Deprecated** <small>Available as Common Property</small>
+:warning: ==**Deprecated**== <small>Available as Common Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Spinner', 'Prompt')]]
@@ -323,3 +323,13 @@ Specifies the component's horizontal width, measured in pixels.
 
 Specifies the component's horizontal width as a percentage
  of the Width of its parent Component.
+
+## Methods
+
+### DisplayDropdown
+
+
+
+[[Method('Spinner', 'DisplayDropdown', false)]]
+
+displays the dropdown list for selection, same action as when the user clicks on the spinner.

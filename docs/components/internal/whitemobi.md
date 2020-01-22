@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|internal|1|API 19 - Android 4.4 - 4.4.4 KitKat|
+|Internal|1|API 19 - Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 
@@ -24,3 +24,13 @@ _The WhiteMobi component allows you to show WhiteMobi offerwalls in your app. Ge
 |text|
 
 Return the application key.
+
+## Methods
+
+### ShowOfferWall
+
+
+
+[[Method('WhiteMobi', 'ShowOfferWall', false)]]
+
+Show WhiteMobi offerwall

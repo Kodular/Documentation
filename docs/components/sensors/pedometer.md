@@ -40,7 +40,7 @@ Set the average stride length in meters.
 
 ### Calibrate Stride Length
 
-:warning: **Deprecated** 
+:warning: ==**Deprecated**== 
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Pedometer', 'Calibrate Stride Length')]]
@@ -79,7 +79,7 @@ Time elapsed in milliseconds since the pedometer was started.
 
 ### Moving
 
-:warning: **Deprecated** 
+:warning: ==**Deprecated**== 
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Pedometer', 'Moving')]]
@@ -105,7 +105,7 @@ The number of simple steps taken since the pedometer has started.
 
 ### Use GPS
 
-:warning: **Deprecated** 
+:warning: ==**Deprecated**== 
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Pedometer', 'Use GPS')]]
@@ -128,3 +128,53 @@ _No description available_
 |number|None|
 
 the number of walk steps taken since the pedometer has started.
+
+## Methods
+
+### Pause
+
+:warning: ==**Deprecated**==
+
+[[Method('Pedometer', 'Pause', false)]]
+
+Pause counting of steps and distance.
+
+### Reset
+
+
+
+[[Method('Pedometer', 'Reset', false)]]
+
+Resets the step counter, distance measure and time running.
+
+### Resume
+
+:warning: ==**Deprecated**==
+
+[[Method('Pedometer', 'Resume', false)]]
+
+Resumes counting, synonym of Start.
+
+### Save
+
+
+
+[[Method('Pedometer', 'Save', false)]]
+
+Saves the pedometer state to the phone. Permits permits accumulation of steps and distance between invocations of an App that uses the pedometer. Different Apps will have their own saved state.
+
+### Start
+
+
+
+[[Method('Pedometer', 'Start', false)]]
+
+Start counting steps
+
+### Stop
+
+
+
+[[Method('Pedometer', 'Stop', false)]]
+
+Stop counting steps

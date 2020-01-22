@@ -50,3 +50,20 @@ Your Cloudinary API secret.
 |text|
 
 Your Cloudinary cloud name.
+
+## Methods
+
+### UploadMedia
+
+
+
+[[Method('Cloudinary', 'UploadMedia', false, 'path')]]
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|path|`text`|
+
+
+Uploads the specified media file to your Cloudinary media library.

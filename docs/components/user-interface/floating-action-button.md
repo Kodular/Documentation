@@ -310,3 +310,45 @@ Set the text message color.
 |boolean|True|
 
 Returns true if the fab button is visible.
+
+## Methods
+
+### Hide
+
+
+
+[[Method('Floating Action Button', 'Hide', false)]]
+
+Hides the fab button.
+
+### HideTextMessage
+
+
+
+[[Method('Floating Action Button', 'HideTextMessage', false)]]
+
+Hides text message.
+
+### Show
+
+
+
+[[Method('Floating Action Button', 'Show', false)]]
+
+Shows the fab button.
+
+### ShowTextMessage
+
+
+
+[[Method('Floating Action Button', 'ShowTextMessage', false)]]
+
+Show a new text message near to the fab with the given properties. You can do the changes with the properties in the advanded category.
+
+### StartRotationAnimation
+
+
+
+[[Method('Floating Action Button', 'StartRotationAnimation', false)]]
+
+Starts a rotation animation. You can use the 'Rotation Duration','Rotation Start Degrees' and 'Rotation End Degrees' to define the animation. This block will work too if the 'Rotation On Click' property is disabled.

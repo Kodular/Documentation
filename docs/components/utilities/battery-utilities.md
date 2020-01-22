@@ -102,3 +102,23 @@ Indicating battery temperature in Centigrade
 |number|None|
 
 Indicating battery voltage in Volts
+
+## Methods
+
+### GetBatteryInfo
+
+
+
+[[Method('Battery Utilities', 'GetBatteryInfo', true, 'key')]]
+
+{>>Returns `list`<<}
+
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|key|`text`|
+
+
+Returns a list showing battery info for the specified key. Key can be: HEALTH, LEVEL, PLUGGED, PRESENT, STATUS, CHARGE_STATUS, TECHNOLOGY, TEMPERATURE, VOLTAGE. If key is empty, then all battery info is returned.

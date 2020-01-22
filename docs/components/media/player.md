@@ -143,3 +143,76 @@ Returns the current left volume.
 |number|None|
 
 Returns the current right volume.
+
+## Methods
+
+### Pause
+
+
+
+[[Method('Player', 'Pause', false)]]
+
+Suspends playing the media if it is playing.
+
+### SeekTo
+
+
+
+[[Method('Player', 'SeekTo', false, 'position')]]
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|position|`number`|
+
+
+Set a position where the source file should start playing.
+
+### SetLeftRightVolume
+
+
+
+[[Method('Player', 'SetLeftRightVolume', false, 'leftVolume rightVolume')]]
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|left Volume|`number`|
+|right Volume|`number`|
+
+
+Control the left and right volume of the player. Set the volume to a number between 0 and 100.
+
+### Start
+
+
+
+[[Method('Player', 'Start', false)]]
+
+Plays the media.  If it was previously paused, the playing is resumed.
+ If it was previously stopped, it starts from the beginning.
+
+### Stop
+
+
+
+[[Method('Player', 'Stop', false)]]
+
+Stops playing the media and seeks to the beginning of the song.
+
+### Vibrate
+
+
+
+[[Method('Player', 'Vibrate', false, 'milliseconds')]]
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|milliseconds|`number`|
+
+
+Vibrates for specified number of milliseconds.

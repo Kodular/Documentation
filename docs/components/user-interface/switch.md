@@ -271,3 +271,36 @@ Specifies the component's horizontal width as a percentage
 |boolean|None|
 
 Return true if the switch is checked else false.
+
+## Methods
+
+### ThumbImage
+
+
+
+[[Method('Switch', 'ThumbImage', false, 'image')]]
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|image|`text`|
+
+
+Set the drawable used for the switch 'thumb' - the piece that the user can physically touch and drag along the track. If 'color Filter Enabled' is set to true, the image will get a light tint filter with the same color that you used as thumb color.
+
+### ThumbImageFromMaterialFont
+
+
+
+[[Method('Switch', 'ThumbImageFromMaterialFont', false, 'iconName size')]]
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|icon Name|`text`|
+|size|`number`|
+
+
+Set the drawable used for the switch 'thumb' - the piece that the user can physically touch and drag along the track. You can find the icon name (or code) here at https://material.io/icons . Use as size as example '300'.

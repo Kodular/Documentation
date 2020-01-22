@@ -175,3 +175,24 @@ Returns the MIME type from the activity.
 |text|None|
 
 Returns the URI from the activity.
+
+## Methods
+
+### ResolveActivity
+
+
+
+[[Method('Activity Starter', 'ResolveActivity', true)]]
+
+{>>Returns `text`<<}
+
+
+Returns the name of the activity that corresponds to this ActivityStarter, or an empty string if no corresponding activity can be found.
+
+### StartActivity
+
+
+
+[[Method('Activity Starter', 'StartActivity', false)]]
+
+Start the activity corresponding to this ActivityStarter.

@@ -245,3 +245,13 @@ Specifies the component's horizontal width as a percentage
 |boolean|None|
 
 Returns true if the radio button is checked, else false.
+
+## Methods
+
+### Toggle
+
+
+
+[[Method('Radio Button', 'Toggle', false)]]
+
+Change the checked state of the view to the inverse of its current state

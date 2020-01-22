@@ -102,3 +102,13 @@ Set the size/resolution of the qr code.
 |text|Default|
 
 This is the text that is converted as qr code.
+
+## Methods
+
+### GenerateQrCode
+
+
+
+[[Method('QR Code', 'GenerateQrCode', false)]]
+
+Create a QR Code and the result is a link to it. Example: Set the resolution(in pixel) to 200(height and width has the same value) and text to: Hello world!. Result: QR code resolution is 200x200, text = Hello world! Your text input is encoded in the link automatically.

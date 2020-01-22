@@ -89,3 +89,102 @@ This field contains the authentication token used to login to the backed Redis s
 |boolean|True|
 
 Set to true to use SSL to talk to CloudDB/Redis server. This should be set to True for the "DEFAULT" server.
+
+## Methods
+
+### AppendValueToList
+
+
+
+[[Method('CloudDB', 'AppendValueToList', false, 'tag itemToAdd')]]
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|tag|`text`|
+|item To Add|`any`|
+
+
+Append a value to the end of a list atomically. If two devices use this function simultaneously, both will be appended and no data lost.
+
+### ClearTag
+
+
+
+[[Method('CloudDB', 'ClearTag', false, 'tag')]]
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|tag|`text`|
+
+
+Remove the tag from CloudDB
+
+### CloudConnected
+
+
+
+[[Method('CloudDB', 'CloudConnected', true)]]
+
+{>>Returns `boolean`<<}
+
+
+returns True if we are on the network and will likely be able to connect to the CloudDB server.
+
+### GetTagList
+
+
+
+[[Method('CloudDB', 'GetTagList', false)]]
+
+Get the list of tags for this application. When complete a "TagList" event will be triggered with the list of known tags.
+
+### GetValue
+
+
+
+[[Method('CloudDB', 'GetValue', false, 'tag valueIfTagNotThere')]]
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|tag|`text`|
+|value If Tag Not There|`any`|
+
+
+Get the Value for a tag, doesn't return the value but will cause a GotValue event to fire when the value is looked up.
+
+### RemoveFirstFromList
+
+
+
+[[Method('CloudDB', 'RemoveFirstFromList', false, 'tag')]]
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|tag|`text`|
+
+
+Return the first element of a list and atomically remove it. If two devices use this function simultaneously, one will get the first element and the the other will get the second element, or an error if there is no available element. When the element is available, the "FirstRemoved" event will be triggered.
+
+### StoreValue
+
+
+
+[[Method('CloudDB', 'StoreValue', false, 'tag valueToStore')]]
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|tag|`text`|
+|value To Store|`any`|
+
+
+Store a value at a tag.

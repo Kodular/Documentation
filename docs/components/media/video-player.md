@@ -181,3 +181,55 @@ Specifies the component's horizontal width, measured in pixels.
 
 Specifies the component's horizontal width as a percentage
  of the Width of its parent Component.
+
+## Methods
+
+### GetDuration
+
+
+
+[[Method('Video Player', 'GetDuration', true)]]
+
+{>>Returns `number`<<}
+
+
+Returns duration of the video in milliseconds.
+
+### Pause
+
+
+
+[[Method('Video Player', 'Pause', false)]]
+
+Pauses playback of the video.  Playback can be resumed at the same location by calling the <code>Start</code> method.
+
+### SeekTo
+
+
+
+[[Method('Video Player', 'SeekTo', false, 'ms')]]
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|ms|`number`|
+
+
+Seeks to the requested time (specified in milliseconds) in the video. If the video is paused, the frame shown will not be updated by the seek. The player can jump only to key frames in the video, so seeking to times that differ by short intervals may not actually move to different frames.
+
+### Start
+
+
+
+[[Method('Video Player', 'Start', false)]]
+
+Starts playback of the video.
+
+### Stop
+
+
+
+[[Method('Video Player', 'Stop', false)]]
+
+Resets to start of video and pauses it if video was playing.

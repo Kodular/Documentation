@@ -76,3 +76,96 @@ Returns the current position of the source file that is playing in milliseconds.
 |number|None|
 
 Returns the duration of the source file.
+
+## Methods
+
+### Pause
+
+
+
+[[Method('ExoPlayer', 'Pause', false)]]
+
+Pause the player.
+
+### Resume
+
+
+
+[[Method('ExoPlayer', 'Resume', false)]]
+
+Resume the player.
+
+### SeekTo
+
+
+
+[[Method('ExoPlayer', 'SeekTo', false, 'position')]]
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|position|`number`|
+
+
+Set a position where the source file should start playing in milliseconds.
+
+### Start
+
+
+
+[[Method('ExoPlayer', 'Start', false)]]
+
+Start the player.
+
+### Stop
+
+
+
+[[Method('ExoPlayer', 'Stop', false)]]
+
+Stop the player.
+
+### is Loading
+
+
+
+[[Method('ExoPlayer', 'is Loading', true)]]
+
+{>>Returns `boolean`<<}
+
+
+Returns true if the player is current loading.
+
+### is Pause
+
+
+
+[[Method('ExoPlayer', 'is Pause', true)]]
+
+{>>Returns `boolean`<<}
+
+
+Returns true if the player is current in pause mode.
+
+### is Playing
+
+
+
+[[Method('ExoPlayer', 'is Playing', true)]]
+
+{>>Returns `boolean`<<}
+
+
+Returns true if the player is current playing.
+
+### is Stopped
+
+
+
+[[Method('ExoPlayer', 'is Stopped', true)]]
+
+{>>Returns `boolean`<<}
+
+
+Returns true if the player is current stopped.

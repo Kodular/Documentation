@@ -207,7 +207,7 @@ If true, then this text box accepts multiple lines of input, which are entered u
 
 ### Numbers Only (Not Working, Use Input Type)
 
-:warning: **Deprecated** <small>Available as Common Property</small>
+:warning: ==**Deprecated**== <small>Available as Common Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Text Box', 'Numbers Only (Not Working, Use Input Type)')]]
@@ -324,7 +324,7 @@ Get the current cursor position.
 
 ### Enable Copy & Paste
 
-:warning: **Deprecated** 
+:warning: ==**Deprecated**== 
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Text Box', 'Enable Copy & Paste')]]
@@ -364,7 +364,7 @@ Specifies the component's vertical height as a percentage
 
 ### Line Color
 
-:warning: **Deprecated** 
+:warning: ==**Deprecated**== 
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Text Box', 'Line Color')]]
@@ -427,3 +427,88 @@ Specifies the component's horizontal width, measured in pixels.
 
 Specifies the component's horizontal width as a percentage
  of the Width of its parent Component.
+
+## Methods
+
+### AnimationStyle
+
+
+
+[[Method('Text Box', 'AnimationStyle', false, 'style position size color')]]
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|style|`text`|
+|position|`text`|
+|size|`number`|
+|color|`number`|
+
+
+Allows you to set animation style. Valid (case-insensitive) values are: ChasingDots, Circle, CubeGrid, DoubleBounce, FadingCircle, FoldingCube, Pulse, RotatingCircle, RotatingPlane, ThreeBounce, WanderingCubes, Wave. If invalid style is used, animation will be removed.Position can be: top, left, right, bottom. Size can be 100.
+
+### HideKeyboard
+
+
+
+[[Method('Text Box', 'HideKeyboard', false)]]
+
+Hide the keyboard.  Only multiline text boxes need this. Single line text boxes close the keyboard when the users presses the Done key.
+
+### RequestFocus
+
+
+
+[[Method('Text Box', 'RequestFocus', false)]]
+
+Sets the textbox active.
+
+### SetCursorAt
+
+
+
+[[Method('Text Box', 'SetCursorAt', false, 'position')]]
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|position|`number`|
+
+
+Set the cursor to the given position.
+
+### SetCursorAtEnd
+
+
+
+[[Method('Text Box', 'SetCursorAtEnd', false)]]
+
+Set the cursor to the end of the text.
+
+### SetShadow
+
+
+
+[[Method('Text Box', 'SetShadow', false, 'x y radius color')]]
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|x|`number`|
+|y|`number`|
+|radius|`number`|
+|color|`number`|
+
+
+Place a blurred shadow of text underneath the text, drawn with the specified x, y, radius, color (e.g. -11, 12, 13, black
+
+### ShowError
+
+
+
+[[Method('Text Box', 'ShowError', false)]]
+
+Shows an error message next to the textbox.

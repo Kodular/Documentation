@@ -9,3 +9,13 @@
 ## Overview
 
 _A non-visible component that shows a pop-up list of Google accounts currently signed-in on the device for the user to pick from._
+
+## Methods
+
+### Pick
+
+
+
+[[Method('Google Account Picker', 'Pick', false)]]
+
+Provide an account picker to pick a Google account.

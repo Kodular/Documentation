@@ -9,3 +9,53 @@
 ## Overview
 
 _A non-visible component that executes shell commands and checks the device''s root status._
+
+## Methods
+
+### CheckForSuperUserAPK
+
+
+
+[[Method('Shell', 'CheckForSuperUserAPK', true)]]
+
+{>>Returns `boolean`<<}
+
+
+Returns TRUE if one of 6 known root packages or varients is installed. The name of the package is not returned, so the user does not know which package name to change. Developed by Cian.
+
+### Execute
+
+
+
+[[Method('Shell', 'Execute', false, 'in')]]
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|in|`text`|
+
+
+Executes shell commands. To get output, use "GotOutput" event block.
+
+### IsRooted
+
+
+
+[[Method('Shell', 'IsRooted', true)]]
+
+{>>Returns `boolean`<<}
+
+
+Returns true if Phone is Rooted
+
+### Is System User
+
+
+
+[[Method('Shell', 'Is System User', true)]]
+
+{>>Returns `boolean`<<}
+
+
+This returns TRUE if the system user is running the application, and could be a sign of a rooted device. Developed by Cian.

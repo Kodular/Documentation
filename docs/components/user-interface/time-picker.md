@@ -362,3 +362,145 @@ Specifies the component's horizontal width, measured in pixels.
 
 Specifies the component's horizontal width as a percentage
  of the Width of its parent Component.
+
+## Methods
+
+### AnimationStyle
+
+
+
+[[Method('Time Picker', 'AnimationStyle', false, 'style position size color')]]
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|style|`text`|
+|position|`text`|
+|size|`number`|
+|color|`number`|
+
+
+Allows you to set animation style. Valid (case-insensitive) values are: ChasingDots, Circle, CubeGrid, DoubleBounce, FadingCircle, FoldingCube, Pulse, RotatingCircle, RotatingPlane, ThreeBounce, WanderingCubes, Wave. If invalid style is used, animation will be removed.Position can be: top, left, right, bottom. Size can be 100.
+
+### ButtonClick
+
+
+
+[[Method('Time Picker', 'ButtonClick', false)]]
+
+Perform a button click as function.
+
+### LaunchPicker
+
+
+
+[[Method('Time Picker', 'LaunchPicker', false)]]
+
+Launches the TimePicker popup.
+
+### SetShadow
+
+
+
+[[Method('Time Picker', 'SetShadow', false, 'x y radius color')]]
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|x|`number`|
+|y|`number`|
+|radius|`number`|
+|color|`number`|
+
+
+Place a blurred shadow of text underneath the text, drawn with the specified x, y, radius, color (e.g. -11, 12, 13, black.
+
+### SetTimeToDisplay
+
+
+
+[[Method('Time Picker', 'SetTimeToDisplay', false, 'hour minute')]]
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|hour|`number`|
+|minute|`number`|
+
+
+Set the time to be shown in the Time Picker popup. Current time is shown by default.
+
+### SetTimeToDisplayFromInstant
+
+
+
+[[Method('Time Picker', 'SetTimeToDisplayFromInstant', false, 'instant')]]
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|instant|`InstantInTime`|
+
+
+Set the time from the instant to be shown in the Time Picker popup. Current time is shown by default.
+
+### WithIconFromFontAwesome
+
+
+
+[[Method('Time Picker', 'WithIconFromFontAwesome', false, 'position iconName iconColor padding size')]]
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|position|`text`|
+|icon Name|`text`|
+|icon Color|`number`|
+|padding|`number`|
+|size|`number`|
+
+
+Show an image on the given position near to the button. You can use following words for the position: 'Left', 'Right', 'Top' or 'Bottom'. Use the padding to add space between the icon and text. Use a material icon as the button icon without uploading a image resource into your project. You can find the icon name (or code) here at https://fontawesome.com/cheatsheet Use as example for a heart icon just 'f004'.
+
+### WithIconFromMaterialFont
+
+
+
+[[Method('Time Picker', 'WithIconFromMaterialFont', false, 'position iconName iconColor padding size')]]
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|position|`text`|
+|icon Name|`text`|
+|icon Color|`number`|
+|padding|`number`|
+|size|`number`|
+
+
+Show an image on the given position near to the button. You can use following words for the position: 'Left', 'Right', 'Top' or 'Bottom'. Use the padding to add space between the icon and text. Use a material icon as the button icon without uploading a image resource into your project. You can find the icon name (or code) here at https://material.io/icons
+
+### WithIconFromPicture
+
+
+
+[[Method('Time Picker', 'WithIconFromPicture', false, 'position picture padding width height')]]
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|position|`text`|
+|picture|`text`|
+|padding|`number`|
+|width|`number`|
+|height|`number`|
+
+
+Show an image on the given position near to the button. You can use following words for the position: 'Left', 'Right', 'Top' or 'Bottom'. Use the padding to add space between the icon and text.

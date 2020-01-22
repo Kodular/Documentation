@@ -252,3 +252,23 @@ Specifies the component's horizontal width, measured in pixels.
 
 Specifies the component's horizontal width as a percentage
  of the Width of its parent Component.
+
+## Methods
+
+### SetShadow
+
+
+
+[[Method('Checkbox', 'SetShadow', false, 'x y radius color')]]
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|x|`number`|
+|y|`number`|
+|radius|`number`|
+|color|`number`|
+
+
+Place a blurred shadow of text underneath the text, drawn with the specified x, y, radius, color (e.g. -11, 12, 13, black

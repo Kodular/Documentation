@@ -336,3 +336,114 @@ Specifies the component's horizontal width, measured in pixels.
 
 Specifies the component's horizontal width as a percentage
  of the Width of its parent Component.
+
+## Methods
+
+### AnimationStyle
+
+
+
+[[Method('Audio Picker', 'AnimationStyle', false, 'style position size color')]]
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|style|`text`|
+|position|`text`|
+|size|`number`|
+|color|`number`|
+
+
+Allows you to set animation style. Valid (case-insensitive) values are: ChasingDots, Circle, CubeGrid, DoubleBounce, FadingCircle, FoldingCube, Pulse, RotatingCircle, RotatingPlane, ThreeBounce, WanderingCubes, Wave. If invalid style is used, animation will be removed.Position can be: top, left, right, bottom. Size can be 100.
+
+### ButtonClick
+
+
+
+[[Method('Audio Picker', 'ButtonClick', false)]]
+
+Perform a button click as function.
+
+### Open
+
+
+
+[[Method('Audio Picker', 'Open', false)]]
+
+Opens the picker, as though the user clicked on it.
+
+### SetShadow
+
+
+
+[[Method('Audio Picker', 'SetShadow', false, 'x y radius color')]]
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|x|`number`|
+|y|`number`|
+|radius|`number`|
+|color|`number`|
+
+
+Place a blurred shadow of text underneath the text, drawn with the specified x, y, radius, color (e.g. -11, 12, 13, black.
+
+### WithIconFromFontAwesome
+
+
+
+[[Method('Audio Picker', 'WithIconFromFontAwesome', false, 'position iconName iconColor padding size')]]
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|position|`text`|
+|icon Name|`text`|
+|icon Color|`number`|
+|padding|`number`|
+|size|`number`|
+
+
+Show an image on the given position near to the button. You can use following words for the position: 'Left', 'Right', 'Top' or 'Bottom'. Use the padding to add space between the icon and text. Use a material icon as the button icon without uploading a image resource into your project. You can find the icon name (or code) here at https://fontawesome.com/cheatsheet Use as example for a heart icon just 'f004'.
+
+### WithIconFromMaterialFont
+
+
+
+[[Method('Audio Picker', 'WithIconFromMaterialFont', false, 'position iconName iconColor padding size')]]
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|position|`text`|
+|icon Name|`text`|
+|icon Color|`number`|
+|padding|`number`|
+|size|`number`|
+
+
+Show an image on the given position near to the button. You can use following words for the position: 'Left', 'Right', 'Top' or 'Bottom'. Use the padding to add space between the icon and text. Use a material icon as the button icon without uploading a image resource into your project. You can find the icon name (or code) here at https://material.io/icons
+
+### WithIconFromPicture
+
+
+
+[[Method('Audio Picker', 'WithIconFromPicture', false, 'position picture padding width height')]]
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|position|`text`|
+|picture|`text`|
+|padding|`number`|
+|width|`number`|
+|height|`number`|
+
+
+Show an image on the given position near to the button. You can use following words for the position: 'Left', 'Right', 'Top' or 'Bottom'. Use the padding to add space between the icon and text.

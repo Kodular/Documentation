@@ -205,3 +205,41 @@ Indicates whether the sensor should allow the developer to
 
 Indicates the source of the location information.  If there is no provider, the
  string "NO PROVIDER" is returned.  This is useful primarily for debugging.
+
+## Methods
+
+### LatitudeFromAddress
+
+
+
+[[Method('Location Sensor', 'LatitudeFromAddress', true, 'locationName')]]
+
+{>>Returns `number`<<}
+
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|location Name|`text`|
+
+
+Derives latitude of given address
+
+### LongitudeFromAddress
+
+
+
+[[Method('Location Sensor', 'LongitudeFromAddress', true, 'locationName')]]
+
+{>>Returns `number`<<}
+
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|location Name|`text`|
+
+
+Derives longitude of given address

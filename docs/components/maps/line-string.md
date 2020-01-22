@@ -154,3 +154,60 @@ A list of latitude and longitude pairs that represent the line segments of the p
 |text|None|
 
 The type of the map feature.
+
+## Methods
+
+### DistanceToFeature
+
+
+
+[[Method('Line String', 'DistanceToFeature', true, 'mapFeature centroids')]]
+
+{>>Returns `number`<<}
+
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|map Feature|`component`|
+|centroids|`boolean`|
+
+
+Compute the distance, in meters, between two map features.
+
+### DistanceToPoint
+
+
+
+[[Method('Line String', 'DistanceToPoint', true, 'latitude longitude centroid')]]
+
+{>>Returns `number`<<}
+
+
+**Parameters**
+
+| Name | Type |
+|------|------|
+|latitude|`number`|
+|longitude|`number`|
+|centroid|`boolean`|
+
+
+Compute the distance, in meters, between a map feature and a latitude, longitude point.
+
+### HideInfobox
+
+
+
+[[Method('Line String', 'HideInfobox', false)]]
+
+Hide the infobox if it is shown. If the infobox is not visible this function has no effect.
+
+### ShowInfobox
+
+
+
+[[Method('Line String', 'ShowInfobox', false)]]
+
+Show the infobox for the feature. This will show the infobox even if
