@@ -8,7 +8,17 @@
 
 ## Overview
 
-The TestToSpeech component speaks a given text aloud.  You can set the pitch and the rate of speech. <p>You can also set a language by supplying a language code.  This changes the pronounciation of words, not the actual language spoken.  For example, setting the language to French and speaking English text will sound like someone speaking English (en) with a French accent.</p> <p>You can also specify a country by supplying a country code. This can affect the pronounciation.  For example, British English (GBR) will sound different from US English (USA).  Not every country code will affect every language.</p> <p>The languages and countries available depend on the particular device, and can be listed with the AvailableLanguages and AvailableCountries properties.</p>
+The TestToSpeech component speaks a given text aloud.  You can set the pitch and the rate of speech. 
+
+You can also set a language by supplying a language code. This changes the pronounciation of words, not the actual language spoken. For example, setting the language to French and speaking English text will sound like someone speaking English (en) with a French accent.
+
+ 
+
+You can also specify a country by supplying a country code. This can affect the pronounciation. For example, British English (GBR) will sound different from US English (USA). Not every country code will affect every language.
+
+ 
+
+The languages and countries available depend on the particular device, and can be listed with the AvailableLanguages and AvailableCountries properties.
 
 ## Events
 

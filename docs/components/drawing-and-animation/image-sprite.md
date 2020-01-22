@@ -6,7 +6,13 @@
 
 ## Overview
 
-<p>A 'sprite' that can be placed on a <code>Canvas</code>, where it can react to touches and drags, interact with other sprites (<code>Ball</code>s and other <code>ImageSprite</code>s) and the edge of the Canvas, and move according to its property values.  Its appearance is that of the image specified in its <code>Picture</code> property (unless its <code>Visible</code> property is <code>False</code>).</p> <p>To have an <code>ImageSprite</code> move 10 pixels to the left every 1000 milliseconds (one second), for example, you would set the <code>Speed</code> property to 10 [pixels], the <code>Interval</code> property to 1000 [milliseconds], the <code>Heading</code> property to 180 [degrees], and the <code>Enabled</code> property to <code>True</code>.  A sprite whose <code>Rotates</code> property is <code>True</code> will rotate its image as the sprite's <code>Heading</code> changes.  Checking for collisions with a rotated sprite currently checks the sprite's unrotated position so that collision checking will be inaccurate for tall narrow or short wide sprites that are rotated.  Any of the sprite properties can be changed at any time under program control.</p> 
+A 'sprite' that can be placed on a `` Canvas ``, where it can react to touches and drags, interact with other sprites (`` Ball ``s and other `` ImageSprite ``s) and the edge of the Canvas, and move according to its property values. Its appearance is that of the image specified in its `` Picture `` property (unless its `` Visible `` property is `` False ``).
+
+ 
+
+To have an `` ImageSprite `` move 10 pixels to the left every 1000 milliseconds (one second), for example, you would set the `` Speed `` property to 10 \[pixels\], the `` Interval `` property to 1000 \[milliseconds\], the `` Heading `` property to 180 \[degrees\], and the `` Enabled `` property to `` True ``. A sprite whose `` Rotates `` property is `` True `` will rotate its image as the sprite's `` Heading `` changes. Checking for collisions with a rotated sprite currently checks the sprite's unrotated position so that collision checking will be inaccurate for tall narrow or short wide sprites that are rotated. Any of the sprite properties can be changed at any time under program control.
+
+ 
 
 ## Events
 

@@ -6,7 +6,7 @@
 
 ## Overview
 
-<p>A button that, when clicked on, launches a popup dialog to allow the user to select a date.</p>
+A button that, when clicked on, launches a popup dialog to allow the user to select a date.
 
 ## Events
 

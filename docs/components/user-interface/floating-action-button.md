@@ -8,7 +8,8 @@
 
 ## Overview
 
-A non-visible component that is used to create Floating Action Buttons. <br>Floating Action Buttons are used to indicate the primary action of the screen.
+A non-visible component that is used to create Floating Action Buttons.   
+Floating Action Buttons are used to indicate the primary action of the screen.
 
 ## Events
 

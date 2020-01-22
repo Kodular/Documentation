@@ -88,7 +88,7 @@ Set the upper range of the progress bar max.
 |:----:|:-------:|
 |number|0|
 
-Set the lower range of the progress bar to min. This function works only for devices with API >= 26
+Set the lower range of the progress bar to min. This function works only for devices with API &gt;= 26
 
 ### Progress Color
 

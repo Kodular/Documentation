@@ -6,7 +6,9 @@
 
 ## Overview
 
-<p>A two-dimensional container that renders map tiles in the background and allows for multiple Marker elements to identify points on the map. Map tiles are supplied by OpenStreetMap contributors and the United States Geological Survey.</p><p>The Map component provides three utilities for manipulating its boundaries within App Inventor. First, a locking mechanism is provided to allow the map to be moved relative to other components on the Screen. Second, when unlocked, the user can pan the Map to any location. At this new location, the &quot;Set Initial Boundary&quot; button can be pressed to save the current Map coordinates to its properties. Lastly, if the Map is moved to a different location, for example to add Markers off-screen, then the &quot;Reset Map to Initial Bounds&quot; button can be used to re-center the Map at the starting location.</p>
+A two-dimensional container that renders map tiles in the background and allows for multiple Marker elements to identify points on the map. Map tiles are supplied by OpenStreetMap contributors and the United States Geological Survey.
+
+The Map component provides three utilities for manipulating its boundaries within App Inventor. First, a locking mechanism is provided to allow the map to be moved relative to other components on the Screen. Second, when unlocked, the user can pan the Map to any location. At this new location, the "Set Initial Boundary" button can be pressed to save the current Map coordinates to its properties. Lastly, if the Map is moved to a different location, for example to add Markers off-screen, then the "Reset Map to Initial Bounds" button can be used to re-center the Map at the starting location.
 
 ## Events
 
@@ -221,7 +223,7 @@ Convert a feature description into an App Inventor map feature. Currently the on
     |url|`text`|
 
 
-<p>Load a feature collection in <a href="https://en.wikipedia.org/wiki/GeoJSON">GeoJSON</a> format from the given url. On success, the event GotFeatures will be raised with the given url and a list of the features parsed from the GeoJSON as a list of (key, value) pairs. On failure, the LoadError event will be raised with any applicable HTTP response code and error message.</p>
+Load a feature collection in [GeoJSON](https://en.wikipedia.org/wiki/GeoJSON) format from the given url. On success, the event GotFeatures will be raised with the given url and a list of the features parsed from the GeoJSON as a list of (key, value) pairs. On failure, the LoadError event will be raised with any applicable HTTP response code and error message.
 
 ### PanTo
 
@@ -262,7 +264,9 @@ Save the contents of the Map to the specified path.
 |:----:|:-------:|
 |text|42.359144, -71.093612|
 
-<p>Set the initial center coordinate of the map. The value is specified as a comma-separated pair of decimal latitude and longitude coordinates, for example, <code>42.359144, -71.093612</code>.</p><p>In blocks code, it is recommended for performance reasons to use SetCenter with numerical latitude and longitude rather than convert to the string representation for use with this property.</p>
+Set the initial center coordinate of the map. The value is specified as a comma-separated pair of decimal latitude and longitude coordinates, for example, `` 42.359144, -71.093612 ``.
+
+In blocks code, it is recommended for performance reasons to use SetCenter with numerical latitude and longitude rather than convert to the string representation for use with this property.
 
 ### Enable Pan
 
@@ -301,8 +305,7 @@ Enable rotating the map based on the user's orientation.
 |:----:|:-------:|
 |boolean|True|
 
-<p>Set whether the user can zoom the map using touch gestures. This value does not affect
- whether the user can zoom using the zoom controls from
+Set whether the user can zoom the map using touch gestures. This value does not affect whether the user can zoom using the zoom controls from
 
 ### Location Sensor
 
@@ -328,12 +331,11 @@ Uses the provided LocationSensor for user location data rather than the built-in
 |:----:|:-------:|
 |number|1|
 
-<p>Set the type of map tile used for the base tile layer. Valid values are:</p>
- <ol>
- <li>Roads</li>
- <li>Aerial</li>
- <li>Terrain</li>
- </ol>
+Set the type of map tile used for the base tile layer. Valid values are:
+
+1.   Roads
+2.   Aerial
+3.   Terrain
 
 ### Rotation
 
@@ -438,12 +440,9 @@ Returns true iff the component is visible.
 |:----:|:-------:|
 |number|13|
 
-<p>Set the zoom level of the map.</p>
- <p>Valid values of ZoomLevel are dependent on the tile provider and the latitude and
- longitude of the map. For example, zoom levels are more constrained over oceans than dense
- city centers to conserve space for storing tiles, so valid values may be 1-7 over ocean and
- 1-18 over cities. Tile providers may send warning or error tiles if the zoom level is too
- great for the server to support.</p>
+Set the zoom level of the map.
+
+Valid values of ZoomLevel are dependent on the tile provider and the latitude and longitude of the map. For example, zoom levels are more constrained over oceans than dense city centers to conserve space for storing tiles, so valid values may be 1-7 over ocean and 1-18 over cities. Tile providers may send warning or error tiles if the zoom level is too great for the server to support.
 
 ### Bounding Box
 

@@ -6,7 +6,8 @@
 
 ## Overview
 
-<p>This is a visible component that displays a list of text elements. <br> The list can be set using the ElementsFromString property or using the Elements block in the blocks editor. </p>
+This is a visible component that displays a list of text elements.   
+ The list can be set using the ElementsFromString property or using the Elements block in the blocks editor. 
 
 ## Events
 

@@ -338,7 +338,7 @@ If you had set your side menu then you can use this block to open it as example 
     |color|`number`|
 
 
-Sets information describing the task with this activity for presentation inside the Recents System UI. You will see the settings if the device API is >= 21 and you minimize the app.
+Sets information describing the task with this activity for presentation inside the Recents System UI. You will see the settings if the device API is &gt;= 21 and you minimize the app.
 
 ### UnlockSideMenu
 
@@ -961,7 +961,7 @@ Returns true if a side menu is current open. Else it will return false.
 |:----:|:-------:|
 |boolean|None|
 
-This option tells the system to use dark navigation bar icons, useful for lighter colored navigation bars. Works only for devices with API >= 26.
+This option tells the system to use dark navigation bar icons, useful for lighter colored navigation bars. Works only for devices with API &gt;= 26.
 
 ### Navigation Icon Color
 
@@ -1016,7 +1016,7 @@ Set status bar color. This will work starting from API Level 21 (Android Lollipo
 |:----:|:-------:|
 |boolean|None|
 
-This option tells the system to use dark statusbar icons, useful for lighter colored status bars. Works only for devices with API >= 23.
+This option tells the system to use dark statusbar icons, useful for lighter colored status bars. Works only for devices with API &gt;= 23.
 
 ### Title Bar Color
 

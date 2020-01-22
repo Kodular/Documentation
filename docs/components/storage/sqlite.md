@@ -8,7 +8,8 @@
 
 ## Overview
 
-A non-visible component that accesses the application''s SQLite database. <br>Component credits\: Carlos Pedroza
+A non-visible component that accesses the application''s SQLite database.   
+Component credits\: Carlos Pedroza
 
 ## Events
 

@@ -8,7 +8,7 @@
 
 ## Overview
 
-<p>Non-visible component that measures the temperature of the air in the room in degrees Celsius. This sensor implementation varies across devices.</p>
+Non-visible component that measures the temperature of the air in the room in degrees Celsius. This sensor implementation varies across devices.
 
 ## Events
 

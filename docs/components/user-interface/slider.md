@@ -112,7 +112,7 @@ Sets the degrees that the slider is rotated around the pivot point. Increasing v
 |:----:|:-------:|
 |number|&HFF00BCD3|
 
-The color of slider thumb. This block works only on devices with api >= 16.
+The color of slider thumb. This block works only on devices with api &gt;= 16.
 
 ### Thumb Enabled
 

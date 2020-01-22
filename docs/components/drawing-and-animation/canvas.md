@@ -6,7 +6,22 @@
 
 ## Overview
 
-<p>A two-dimensional touch-sensitive rectangular panel on which drawing can be done and sprites can be moved.</p> <p>The <code>BackgroundColor</code>, <code>PaintColor</code>, <code>BackgroundImage</code>, <code>Width</code>, and <code>Height</code> of the Canvas can be set in either the Designer or in the Blocks Editor.  The <code>Width</code> and <code>Height</code> are measured in pixels and must be positive.</p><p>Any location on the Canvas can be specified as a pair of (X, Y) values, where <ul> <li>X is the number of pixels away from the left edge of the Canvas</li><li>Y is the number of pixels away from the top edge of the Canvas</li></ul>.</p> <p>There are events to tell when and where a Canvas has been touched or a <code>Sprite</code> (<code>ImageSprite</code> or <code>Ball</code>) has been dragged.  There are also methods for drawing points, lines, and circles.</p>
+A two-dimensional touch-sensitive rectangular panel on which drawing can be done and sprites can be moved.
+
+ 
+
+The `` BackgroundColor ``, `` PaintColor ``, `` BackgroundImage ``, `` Width ``, and `` Height `` of the Canvas can be set in either the Designer or in the Blocks Editor. The `` Width `` and `` Height `` are measured in pixels and must be positive.
+
+Any location on the Canvas can be specified as a pair of (X, Y) values, where 
+
+ *   X is the number of pixels away from the left edge of the Canvas
+*   Y is the number of pixels away from the top edge of the Canvas
+
+.
+
+ 
+
+There are events to tell when and where a Canvas has been touched or a `` Sprite `` (`` ImageSprite `` or `` Ball ``) has been dragged. There are also methods for drawing points, lines, and circles.
 
 ## Events
 
@@ -137,7 +152,7 @@ Clears anything drawn on this Canvas but not any background color or image.
     |fill|`boolean`|
 
 
-Draw an arc on Canvas, by drawing an arc from a specified oval (specified by left, top, right & bottom). Start angle is 0 when heading to the right, and increase when rotate clockwise. When useCenter is true, a sector will be drawed instead of an arc. When fill is true, a filled arc (or sector) will be drawed instead of just an outline.
+Draw an arc on Canvas, by drawing an arc from a specified oval (specified by left, top, right &amp; bottom). Start angle is 0 when heading to the right, and increase when rotate clockwise. When useCenter is true, a sector will be drawed instead of an arc. When fill is true, a filled arc (or sector) will be drawed instead of just an outline.
 
 ### DrawCircle
 
@@ -488,7 +503,7 @@ Column property getter method.
 
 Set the canvas height
 
- The height can only be set to >0 or -1 (automatic) or -2 (fill parent) or
+ The height can only be set to &gt;0 or -1 (automatic) or -2 (fill parent) or
  to a value less then or equal to LENGTH_PERCENT_TAG (which is later
  converted to pixels.
 
@@ -526,7 +541,7 @@ Row property getter method.
 
 Set the canvas width
 
- The width can only be set to >0 or -1 (automatic) or -2 (fill parent)
+ The width can only be set to &gt;0 or -1 (automatic) or -2 (fill parent)
  or to a value less then or equal to LENGTH_PERCENT_TAG (which is later
  converted to pixels.
 

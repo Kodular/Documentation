@@ -6,7 +6,7 @@
 
 ## Overview
 
-A Label displays a piece of text, which is specified through the <code>Text</code> property.  Other properties, all of which can be set in the Designer or Blocks Editor, control the appearance and placement of the text.
+A Label displays a piece of text, which is specified through the `` Text `` property.  Other properties, all of which can be set in the Designer or Blocks Editor, control the appearance and placement of the text.
 
 ## Events
 

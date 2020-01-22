@@ -8,7 +8,8 @@
 
 ## Overview
 
-A non-visible component that creates a side menu. <br>Side menus are navigation menus that slide from the left of the screen via a swipe-right gesture.
+A non-visible component that creates a side menu.   
+Side menus are navigation menus that slide from the left of the screen via a swipe-right gesture.
 
 ## Events
 

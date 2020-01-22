@@ -6,7 +6,8 @@
 
 ## Overview
 
-A visible component that displays a scrollable chat.<br>A chat consists of messages sent by two or more than two users where each message can be either simple text or have rich formatting.
+A visible component that displays a scrollable chat.  
+A chat consists of messages sent by two or more than two users where each message can be either simple text or have rich formatting.
 
 ## Events
 

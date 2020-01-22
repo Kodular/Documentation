@@ -8,7 +8,8 @@
 
 ## Overview
 
-A non-visible component that measures the force of gravity that is applied to a device on all three physical axes.<br>Note\: All readings are in SI units.
+A non-visible component that measures the force of gravity that is applied to a device on all three physical axes.  
+Note\: All readings are in SI units.
 
 ## Events
 

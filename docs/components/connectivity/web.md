@@ -83,10 +83,12 @@ Clears all cookies for this Web component.
 [[Method('Web', 'Delete', false)]]
 
 Performs an HTTP DELETE request using the Url property and retrieves the
- response.<br>
+ response.  
+
  If the SaveResponse property is true, the response will be saved in a file
  and the GotFile event will be triggered. The ResponseFileName property
- can be used to specify the name of the file.<br>
+ can be used to specify the name of the file.  
+
  If the SaveResponse property is false, the GotText event will be
  triggered.
 
@@ -95,10 +97,12 @@ Performs an HTTP DELETE request using the Url property and retrieves the
 [[Method('Web', 'Get', false)]]
 
 Performs an HTTP GET request using the Url property and retrieves the
- response.<br>
+ response.  
+
  If the SaveResponse property is true, the response will be saved in a file
  and the GotFile event will be triggered. The ResponseFileName property
- can be used to specify the name of the file.<br>
+ can be used to specify the name of the file.  
+
  If the SaveResponse property is false, the GotText event will be
  triggered.
 
@@ -114,7 +118,7 @@ Performs an HTTP GET request using the Url property and retrieves the
     |html Text|`text`|
 
 
-Decodes the given HTML text value. HTML character entities such as &amp;amp;, &amp;lt;, &amp;gt;, &amp;apos;, and &amp;quot; are changed to &amp;, &lt;, &gt;, &#39;, and &quot;. Entities such as &amp;#xhhhh, and &amp;#nnnn are changed to the appropriate characters.
+Decodes the given HTML text value. HTML character entities such as &amp;amp;, &amp;lt;, &amp;gt;, &amp;apos;, and &amp;quot; are changed to &amp;, &lt;, &gt;, ', and ". Entities such as &amp;#xhhhh, and &amp;#nnnn are changed to the appropriate characters.
 
 ### JsonTextDecode
 
@@ -143,7 +147,9 @@ Decodes the given JSON encoded value to produce a corresponding AppInventor valu
     |path|`text`|
 
 
-Performs an HTTP POST request using the Url property and data from the specified file.<br>If the SaveResponse property is true, the response will be saved in a file and the GotFile event will be triggered. The ResponseFileName property can be used to specify the name of the file.<br>If the SaveResponse property is false, the GotText event will be triggered.
+Performs an HTTP POST request using the Url property and data from the specified file.  
+If the SaveResponse property is true, the response will be saved in a file and the GotFile event will be triggered. The ResponseFileName property can be used to specify the name of the file.  
+If the SaveResponse property is false, the GotText event will be triggered.
 
 ### PostText
 
@@ -155,7 +161,10 @@ Performs an HTTP POST request using the Url property and data from the specified
     |text|`text`|
 
 
-Performs an HTTP POST request using the Url property and the specified text.<br>The characters of the text are encoded using UTF-8 encoding.<br>If the SaveResponse property is true, the response will be saved in a file and the GotFile event will be triggered. The responseFileName property can be used to specify the name of the file.<br>If the SaveResponse property is false, the GotText event will be triggered.
+Performs an HTTP POST request using the Url property and the specified text.  
+The characters of the text are encoded using UTF-8 encoding.  
+If the SaveResponse property is true, the response will be saved in a file and the GotFile event will be triggered. The responseFileName property can be used to specify the name of the file.  
+If the SaveResponse property is false, the GotText event will be triggered.
 
 ### PostTextWithEncoding
 
@@ -168,7 +177,10 @@ Performs an HTTP POST request using the Url property and the specified text.<br>
     |encoding|`text`|
 
 
-Performs an HTTP POST request using the Url property and the specified text.<br>The characters of the text are encoded using the given encoding.<br>If the SaveResponse property is true, the response will be saved in a file and the GotFile event will be triggered. The ResponseFileName property can be used to specify the name of the file.<br>If the SaveResponse property is false, the GotText event will be triggered.
+Performs an HTTP POST request using the Url property and the specified text.  
+The characters of the text are encoded using the given encoding.  
+If the SaveResponse property is true, the response will be saved in a file and the GotFile event will be triggered. The ResponseFileName property can be used to specify the name of the file.  
+If the SaveResponse property is false, the GotText event will be triggered.
 
 ### PutFile
 
@@ -180,7 +192,9 @@ Performs an HTTP POST request using the Url property and the specified text.<br>
     |path|`text`|
 
 
-Performs an HTTP PUT request using the Url property and data from the specified file.<br>If the SaveResponse property is true, the response will be saved in a file and the GotFile event will be triggered. The ResponseFileName property can be used to specify the name of the file.<br>If the SaveResponse property is false, the GotText event will be triggered.
+Performs an HTTP PUT request using the Url property and data from the specified file.  
+If the SaveResponse property is true, the response will be saved in a file and the GotFile event will be triggered. The ResponseFileName property can be used to specify the name of the file.  
+If the SaveResponse property is false, the GotText event will be triggered.
 
 ### PutText
 
@@ -192,7 +206,10 @@ Performs an HTTP PUT request using the Url property and data from the specified 
     |text|`text`|
 
 
-Performs an HTTP PUT request using the Url property and the specified text.<br>The characters of the text are encoded using UTF-8 encoding.<br>If the SaveResponse property is true, the response will be saved in a file and the GotFile event will be triggered. The responseFileName property can be used to specify the name of the file.<br>If the SaveResponse property is false, the GotText event will be triggered.
+Performs an HTTP PUT request using the Url property and the specified text.  
+The characters of the text are encoded using UTF-8 encoding.  
+If the SaveResponse property is true, the response will be saved in a file and the GotFile event will be triggered. The responseFileName property can be used to specify the name of the file.  
+If the SaveResponse property is false, the GotText event will be triggered.
 
 ### PutTextWithEncoding
 
@@ -205,7 +222,10 @@ Performs an HTTP PUT request using the Url property and the specified text.<br>T
     |encoding|`text`|
 
 
-Performs an HTTP PUT request using the Url property and the specified text.<br>The characters of the text are encoded using the given encoding.<br>If the SaveResponse property is true, the response will be saved in a file and the GotFile event will be triggered. The ResponseFileName property can be used to specify the name of the file.<br>If the SaveResponse property is false, the GotText event will be triggered.
+Performs an HTTP PUT request using the Url property and the specified text.  
+The characters of the text are encoded using the given encoding.  
+If the SaveResponse property is true, the response will be saved in a file and the GotFile event will be triggered. The ResponseFileName property can be used to specify the name of the file.  
+If the SaveResponse property is false, the GotText event will be triggered.
 
 ### UriDecode
 

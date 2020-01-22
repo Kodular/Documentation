@@ -8,7 +8,11 @@
 
 ## Overview
 
-<p>Non-visible component to provide NFC capabilities.  For now this component supports the reading and writing of text tags only (if supported by the device)</p><p>In order to read and write text tags, the component must have its <code>ReadMode</code> property set to True or False respectively.</p><p><strong>Note:</strong> This component will only work on Screen1 of any App Inventor app.</p>
+Non-visible component to provide NFC capabilities. For now this component supports the reading and writing of text tags only (if supported by the device)
+
+In order to read and write text tags, the component must have its `` ReadMode `` property set to True or False respectively.
+
+__Note:__ This component will only work on Screen1 of any App Inventor app.
 
 ## Events
 

@@ -8,7 +8,8 @@
 
 ## Overview
 
-A non-visible component that plays audio files. <br>The ExoPlayer component, powered by Google, has significantly lower audio playback delay/lag than other players.
+A non-visible component that plays audio files.   
+The ExoPlayer component, powered by Google, has significantly lower audio playback delay/lag than other players.
 
 ## Events
 

@@ -8,7 +8,13 @@
 
 ## Overview
 
-<p>Non-visible component providing information about the device's physical orientation in three dimensions: <ul> <li> <strong>Roll</strong>: 0 degrees when the device is level, increases to      90 degrees as the device is tilted up on its left side, and      decreases to -90 degrees when the device is tilted up on its right side.      </li> <li> <strong>Pitch</strong>: 0 degrees when the device is level, up to      90 degrees as the device is tilted so its top is pointing down,      up to 180 degrees as it gets turned over.  Similarly, as the device      is tilted so its bottom points down, pitch decreases to -90      degrees, then further decreases to -180 degrees as it gets turned all the way      over.</li> <li> <strong>Azimuth</strong>: 0 degrees when the top of the device is      pointing north, 90 degrees when it is pointing east, 180 degrees      when it is pointing south, 270 degrees when it is pointing west,      etc.</li></ul>     These measurements assume that the device itself is not moving.</p>
+Non-visible component providing information about the device's physical orientation in three dimensions: 
+
+ *    __Roll__: 0 degrees when the device is level, increases to 90 degrees as the device is tilted up on its left side, and decreases to -90 degrees when the device is tilted up on its right side. 
+ *    __Pitch__: 0 degrees when the device is level, up to 90 degrees as the device is tilted so its top is pointing down, up to 180 degrees as it gets turned over. Similarly, as the device is tilted so its bottom points down, pitch decreases to -90 degrees, then further decreases to -180 degrees as it gets turned all the way over.
+ *    __Azimuth__: 0 degrees when the top of the device is pointing north, 90 degrees when it is pointing east, 180 degrees when it is pointing south, 270 degrees when it is pointing west, etc.
+
+ These measurements assume that the device itself is not moving.
 
 ## Events
 
@@ -26,12 +32,11 @@
 
 Default OrientationChanged event handler.
 
- <p>This event is signalled when the device's orientation has changed.  It
- reports the new values of azimuth, pich, and roll, and it also sets the Azimuth, Pitch,
- and roll properties.</p>
- <p>Azimuth is the compass heading in degrees, pitch indicates how the device
- is tilted from top to bottom, and roll indicates how much the device is tilted from
- side to side.</p>
+ 
+
+This event is signalled when the device's orientation has changed. It reports the new values of azimuth, pich, and roll, and it also sets the Azimuth, Pitch, and roll properties.
+
+Azimuth is the compass heading in degrees, pitch indicates how the device is tilted from top to bottom, and roll indicates how much the device is tilted from side to side.
 
 ## Properties
 
@@ -57,8 +62,7 @@ Enabled property getter method.
 |:----:|:-------:|
 |number|None|
 
-<p>Angle property getter method (read-only property).  Specifically, this
- provides the angle in which the orientation sensor is tilted, treating
+Angle property getter method (read-only property). Specifically, this provides the angle in which the orientation sensor is tilted, treating
 
 ### Available
 
@@ -82,7 +86,9 @@ Available property getter method (read-only property).
 
 Azimuth property getter method (read-only property).
 
- <p>To return meaningful values the sensor must be enabled.</p>
+ 
+
+To return meaningful values the sensor must be enabled.
 
 ### Magnitude
 
@@ -108,7 +114,9 @@ Magnitude property getter method (read-only property).  Specifically, this
 
 Pitch property getter method (read-only property).
 
- <p>To return meaningful values the sensor must be enabled.</p>
+ 
+
+To return meaningful values the sensor must be enabled.
 
 ### Roll
 
@@ -121,4 +129,6 @@ Pitch property getter method (read-only property).
 
 Roll property getter method (read-only property).
 
- <p>To return meaningful values the sensor must be enabled.</p>
+ 
+
+To return meaningful values the sensor must be enabled.

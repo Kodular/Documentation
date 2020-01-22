@@ -8,7 +8,8 @@
 
 ## Overview
 
-A non-visible component that enables game user authentication, leaderboards, and more.<br>Powered by the Google Play Games service.
+A non-visible component that enables game user authentication, leaderboards, and more.  
+Powered by the Google Play Games service.
 
 ## Events
 

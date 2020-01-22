@@ -134,7 +134,7 @@ Set here the url to the file that you want to download.
 |:----:|:-------:|
 |boolean|False|
 
-Specify that to run this download, the device needs to be plugged in. Works only for devices with api >= 24.
+Specify that to run this download, the device needs to be plugged in. Works only for devices with api &gt;= 24.
 
 ### Require Device Idle
 
@@ -147,7 +147,7 @@ Specify that to run this download, the device needs to be plugged in. Works only
 |:----:|:-------:|
 |boolean|False|
 
-Specify that to run, the download needs the device to be in idle mode. Idle mode is a loose definition provided by the system, which means that the device is not in use, and has not been in use for some time. Works only for devices with api >= 24.
+Specify that to run, the download needs the device to be in idle mode. Idle mode is a loose definition provided by the system, which means that the device is not in use, and has not been in use for some time. Works only for devices with api &gt;= 24.
 
 ### Save File As
 

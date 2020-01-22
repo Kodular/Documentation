@@ -8,7 +8,8 @@
 
 ## Overview
 
-A non-visible component that remotely sends notifications to the device.<br>Powered by OneSignal.
+A non-visible component that remotely sends notifications to the device.  
+Powered by OneSignal.
 
 ## Events
 

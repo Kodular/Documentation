@@ -6,7 +6,8 @@
 
 ## Overview
 
-A visible component that plays YouTube videos.<br>Note\: For this component to work correctly, set the MIN API to 17 (Android 4.2).
+A visible component that plays YouTube videos.  
+Note\: For this component to work correctly, set the MIN API to 17 (Android 4.2).
 
 ## Events
 

@@ -8,7 +8,11 @@
 
 ## Overview
 
-This is a component that allows you to read your Google Spreadsheet data using CloudStitch. <p>CloudStitch allows you to setup a project, that links to your Google Spreadsheet. <p>This component allows you to easily read / insert Spreadsheet data
+This is a component that allows you to read your Google Spreadsheet data using CloudStitch. 
+
+CloudStitch allows you to setup a project, that links to your Google Spreadsheet. 
+
+This component allows you to easily read / insert Spreadsheet data
 
 ## Events
 

@@ -8,13 +8,17 @@
 
 ## Overview
 
-A component that can launch an activity using the <code>StartActivity</code> method.<p>Activities that can be launched include: <ul> 
-<li> starting other App Inventor for Android apps </li> 
-<li> starting the camera application </li> 
-<li> performing web search </li> 
-<li> opening a browser to a specified web page</li> 
-<li> opening the map application to a specified location</li></ul> 
-You can also launch activities that return text data.  See the documentation on using the Activity Starter for examples.</p>
+A component that can launch an activity using the `` StartActivity `` method.
+
+Activities that can be launched include: 
+
+*    starting other App Inventor for Android apps 
+*    starting the camera application 
+*    performing web search 
+*    opening a browser to a specified web page
+*    opening the map application to a specified location
+
+ You can also launch activities that return text data. See the documentation on using the Activity Starter for examples.
 
 ## Events
 

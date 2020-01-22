@@ -8,7 +8,9 @@
 
 ## Overview
 
-<p>Non-visible component that can measure angular velocity in three dimensions in units of degrees per second.</p><p>In order to function, the component must have its <code>Enabled</code> property set to True, and the device must have a gyroscope sensor.</p>
+Non-visible component that can measure angular velocity in three dimensions in units of degrees per second.
+
+In order to function, the component must have its `` Enabled `` property set to True, and the device must have a gyroscope sensor.
 
 ## Events
 

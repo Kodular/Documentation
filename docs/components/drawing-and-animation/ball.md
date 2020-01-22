@@ -6,7 +6,11 @@
 
 ## Overview
 
-<p>A round 'sprite' that can be placed on a <code>Canvas</code>, where it can react to touches and drags, interact with other sprites (<code>ImageSprite</code>s and other <code>Ball</code>s) and the edge of the Canvas, and move according to its property values.</p><p>For example, to have a <code>Ball</code> move 4 pixels toward the top of a <code>Canvas</code> every 500 milliseconds (half second), you would set the <code>Speed</code> property to 4 [pixels], the <code>Interval</code> property to 500 [milliseconds], the <code>Heading</code> property to 90 [degrees], and the <code>Enabled</code> property to <code>True</code>.</p><p>The difference between a <code>Ball</code> and an <code>ImageSprite</code> is that the latter can get its appearance from an image file, while a <code>Ball</code>'s appearance can be changed only by varying its <code>PaintColor</code> and <code>Radius</code> properties.</p>
+A round 'sprite' that can be placed on a `` Canvas ``, where it can react to touches and drags, interact with other sprites (`` ImageSprite ``s and other `` Ball ``s) and the edge of the Canvas, and move according to its property values.
+
+For example, to have a `` Ball `` move 4 pixels toward the top of a `` Canvas `` every 500 milliseconds (half second), you would set the `` Speed `` property to 4 \[pixels\], the `` Interval `` property to 500 \[milliseconds\], the `` Heading `` property to 90 \[degrees\], and the `` Enabled `` property to `` True ``.
+
+The difference between a `` Ball `` and an `` ImageSprite `` is that the latter can get its appearance from an image file, while a `` Ball ``'s appearance can be changed only by varying its `` PaintColor `` and `` Radius `` properties.
 
 ## Events
 
@@ -248,7 +252,7 @@ The interval in milliseconds at which the Ball's position is updated.  For examp
 |:----:|:-------:|
 |boolean|False|
 
-Whether the x- and y-coordinates should represent the center of the Ball (<code>true</code>) or its left and top edges (<code>false</code>).
+Whether the x- and y-coordinates should represent the center of the Ball (`` true ``) or its left and top edges (`` false ``).
 
 ### Paint Color
 

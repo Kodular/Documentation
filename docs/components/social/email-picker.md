@@ -6,9 +6,13 @@
 
 ## Overview
 
-An EmailPicker is a kind of text box.  If the user begins entering the name or email address of a contact, the phone will show a dropdown menu of choices that complete the entry.  If there are many contacts, the dropdown can take several seconds to appear, and can show intermediate results while the matches are being computed. <p>The initial contents of the text box and the contents< after user entry is in the <code>Text</code> property.  If the <code>Text</code> property is initially empty, the contents of the <code>Hint</code> property will be faintly shown in the text box as a hint to the user.</p>
- <p>Other properties affect the appearance of the text box (<code>TextAlignment</code>, <code>BackgroundColor</code>, etc.) and whether it can be used (<code>Enabled</code>).</p>
-<p>Text boxes like this are usually used with <code>Button</code> components, with the user clicking on the button when text entry is complete.
+An EmailPicker is a kind of text box.  If the user begins entering the name or email address of a contact, the phone will show a dropdown menu of choices that complete the entry.  If there are many contacts, the dropdown can take several seconds to appear, and can show intermediate results while the matches are being computed. 
+
+The initial contents of the text box and the contents&lt; after user entry is in the `` Text `` property. If the `` Text `` property is initially empty, the contents of the `` Hint `` property will be faintly shown in the text box as a hint to the user.
+
+Other properties affect the appearance of the text box (`` TextAlignment ``, `` BackgroundColor ``, etc.) and whether it can be used (`` Enabled ``).
+
+Text boxes like this are usually used with `` Button `` components, with the user clicking on the button when text entry is complete.
 
 ## Events
 
@@ -218,7 +222,7 @@ Set a custom font.
 |:----:|
 |text|
 
-Text that should appear faintly in the input box to provide a hint as to what the user should enter.  This can only be seen if the <code>Text</code> property is empty.
+Text that should appear faintly in the input box to provide a hint as to what the user should enter.  This can only be seen if the `` Text `` property is empty.
 
 ### Hint Color
 

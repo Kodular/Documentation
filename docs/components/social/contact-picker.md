@@ -6,16 +6,19 @@
 
 ## Overview
 
-A button that, when clicked on, displays a list of the contacts to choose among. After the user has made a selection, the following properties will be set to information about the chosen contact: <ul>
-<li> <code>ContactName</code>: the contact's name </li>
- <li> <code>EmailAddress</code>: the contact's primary email address </li>
- <li> <code>ContactUri</code>: the contact's URI on the device </li>
-<li> <code>EmailAddressList</code>: a list of the contact's email addresses </li>
- <li> <code>PhoneNumber</code>: the contact's primary phone number (on Later Android Verisons)</li>
- <li> <code>PhoneNumberList</code>: a list of the contact's phone numbers (on Later Android Versions)</li>
- <li> <code>Picture</code>: the name of the file containing the contact's image, which can be used as a <code>Picture</code> property value for the <code>Image</code> or <code>ImageSprite</code> component.</li></ul>
-</p><p>Other properties affect the appearance of the button (<code>TextAlignment</code>, <code>BackgroundColor</code>, etc.) and whether it can be clicked on (<code>Enabled</code>).
-</p><p>The ContactPicker component might not work on all phones. For example, on Android systems before system 3.0, it cannot pick phone numbers, and the list of email addresses will contain only one email.
+A button that, when clicked on, displays a list of the contacts to choose among. After the user has made a selection, the following properties will be set to information about the chosen contact: 
+
+*    `` ContactName ``: the contact's name 
+*    `` EmailAddress ``: the contact's primary email address 
+*    `` ContactUri ``: the contact's URI on the device 
+*    `` EmailAddressList ``: a list of the contact's email addresses 
+*    `` PhoneNumber ``: the contact's primary phone number (on Later Android Verisons)
+*    `` PhoneNumberList ``: a list of the contact's phone numbers (on Later Android Versions)
+*    `` Picture ``: the name of the file containing the contact's image, which can be used as a `` Picture `` property value for the `` Image `` or `` ImageSprite `` component.
+
+Other properties affect the appearance of the button (`` TextAlignment ``, `` BackgroundColor ``, etc.) and whether it can be clicked on (`` Enabled ``).
+
+The ContactPicker component might not work on all phones. For example, on Android systems before system 3.0, it cannot pick phone numbers, and the list of email addresses will contain only one email.
 
 ## Events
 

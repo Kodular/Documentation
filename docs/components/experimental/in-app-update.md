@@ -8,7 +8,8 @@
 
 ## Overview
 
-A non-visible component that lets the user download app updates from within the app. <br>Note\: For this component to work correctly, set the MIN API to 21 (Android 5).
+A non-visible component that lets the user download app updates from within the app.   
+Note\: For this component to work correctly, set the MIN API to 21 (Android 5).
 
 ## Events
 

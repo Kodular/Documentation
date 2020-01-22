@@ -8,7 +8,8 @@
 
 ## Overview
 
-A non-visible component that provides access to the Airtable spreadsheet storage<br>Component credits\: <a href\="https\://community.kodular.io/u/jerin_jacob" target\="_blank">Jerin Jacob</a>
+A non-visible component that provides access to the Airtable spreadsheet storage  
+Component credits\: <a href\="https\://community.kodular.io/u/jerin_jacob" target\="_blank">Jerin Jacob</a>
 
 ## Events
 

@@ -6,7 +6,13 @@
 
 ## Overview
 
-<p>A box for entering passwords.  This is the same as the ordinary <code>TextBox</code> component except this does not display the characters typed by the user.</p><p>The value of the text in the box can be found or set through the <code>Text</code> property. If blank, the <code>Hint</code> property, which appears as faint text in the box, can provide the user with guidance as to what to type.</p> <p>Text boxes are usually used with the <code>Button</code> component, with the user clicking on the button when text entry is complete.</p>
+A box for entering passwords. This is the same as the ordinary `` TextBox `` component except this does not display the characters typed by the user.
+
+The value of the text in the box can be found or set through the `` Text `` property. If blank, the `` Hint `` property, which appears as faint text in the box, can provide the user with guidance as to what to type.
+
+ 
+
+Text boxes are usually used with the `` Button `` component, with the user clicking on the button when text entry is complete.
 
 ## Events
 
@@ -216,7 +222,7 @@ Set a custom font.
 |:----:|
 |text|
 
-Text that should appear faintly in the input box to provide a hint as to what the user should enter.  This can only be seen if the <code>Text</code> property is empty.
+Text that should appear faintly in the input box to provide a hint as to what the user should enter.  This can only be seen if the `` Text `` property is empty.
 
 ### Hint Color
 

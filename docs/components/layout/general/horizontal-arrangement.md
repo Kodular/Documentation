@@ -6,7 +6,7 @@
 
 ## Overview
 
-<p>A formatting element in which to place components that should be displayed from left to right.  If you wish to have components displayed one over another, use <code>VerticalArrangement</code> instead.</p>
+A formatting element in which to place components that should be displayed from left to right. If you wish to have components displayed one over another, use `` VerticalArrangement `` instead.
 
 ## Events
 

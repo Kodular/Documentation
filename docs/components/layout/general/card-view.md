@@ -6,7 +6,8 @@
 
 ## Overview
 
-A visible component that lets the user group other components as a Card. <br>Cards are panels with a set elevation and border radius, meant to draw the user''s attention to their content.
+A visible component that lets the user group other components as a Card.   
+Cards are panels with a set elevation and border radius, meant to draw the user''s attention to their content.
 
 ## Events
 

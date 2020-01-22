@@ -6,7 +6,7 @@
 
 ## Overview
 
-<p>A button that, when clicked on, launches  a popup dialog to allow the user to select a time.</p>
+A button that, when clicked on, launches a popup dialog to allow the user to select a time.
 
 ## Events
 
