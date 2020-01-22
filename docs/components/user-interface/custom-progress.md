@@ -16,13 +16,13 @@ _A visible component that indicates the progress of an operation using a range o
 
 {>>Returns `list`<<}
 
-Gets style names of all possible animations.
+_Gets style names of all possible animations._
 
 ## Properties
 
 ### Animation Style
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Custom Progress', 'Animation Style')]]
@@ -31,11 +31,11 @@ Gets style names of all possible animations.
 |:----:|:-------:|
 |text|Wave|
 
-Allows you to set animation style. Valid (case-insensitive) values are: ChasingDots, Circle, CubeGrid, DoubleBounce, FadingCircle, FoldingCube, Pulse, RotatingCircle, RotatingPlane, ThreeBounce, WanderingCubes, Wave. If invalid style is used, Wave animation will be used.
+_Allows you to set animation style. Valid (case-insensitive) values are: ChasingDots, Circle, CubeGrid, DoubleBounce, FadingCircle, FoldingCube, Pulse, RotatingCircle, RotatingPlane, ThreeBounce, WanderingCubes, Wave. If invalid style is used, Wave animation will be used._
 
 ### Background Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Custom Progress', 'Background Color')]]
@@ -44,11 +44,11 @@ Allows you to set animation style. Valid (case-insensitive) values are: ChasingD
 |:----:|:-------:|
 |number|&H00FFFFFF|
 
-Sets the background color of this component.
+_Sets the background color of this component._
 
 ### Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Custom Progress', 'Color')]]
@@ -57,11 +57,11 @@ Sets the background color of this component.
 |:----:|:-------:|
 |number|&HFF008b8b|
 
-Sets the color of the component
+_Sets the color of the component_
 
 ### Visible
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Custom Progress', 'Visible')]]
@@ -70,11 +70,9 @@ Sets the color of the component
 |:----:|:-------:|
 |boolean|True|
 
-Returns true iff the component is visible.
+_Returns true iff the component is visible._
 
 ### Column
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Custom Progress', 'Column')]]
@@ -83,11 +81,9 @@ Returns true iff the component is visible.
 |:----:|:-------:|
 |number|None|
 
-Column property getter method.
+_Column property getter method._
 
 ### Height
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Custom Progress', 'Height')]]
@@ -96,11 +92,9 @@ Column property getter method.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's vertical height, measured in pixels.
+_Specifies the component's vertical height, measured in pixels._
 
 ### Height Percent
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Custom Progress', 'Height Percent')]]
@@ -109,12 +103,10 @@ Specifies the component's vertical height, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's vertical height as a percentage
- of the height of its parent Component.
+_Specifies the component's vertical height as a percentage
+ of the height of its parent Component._
 
 ### Row
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Custom Progress', 'Row')]]
@@ -123,11 +115,9 @@ Specifies the component's vertical height as a percentage
 |:----:|:-------:|
 |number|None|
 
-Row property getter method.
+_Row property getter method._
 
 ### Width
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Custom Progress', 'Width')]]
@@ -136,11 +126,9 @@ Row property getter method.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width, measured in pixels.
+_Specifies the component's horizontal width, measured in pixels._
 
 ### Width Percent
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Custom Progress', 'Width Percent')]]
@@ -149,5 +137,5 @@ Specifies the component's horizontal width, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width as a percentage
- of the Width of its parent Component.
+_Specifies the component's horizontal width as a percentage
+ of the Width of its parent Component._

@@ -25,13 +25,13 @@ _<p>Non-visible component that measures the ambient geomagnetic field for all th
     |absolute Strength|`number`|
 
 
-Indicates that the magnetic sensor data has changed.
+_Indicates that the magnetic sensor data has changed._
 
 ## Properties
 
 ### Enabled
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Magnetic Field Sensor', 'Enabled')]]
@@ -44,8 +44,6 @@ _No description available_
 
 ### Absolute Strength
 
-
-
 :eyes: Read-Only property
 [[PropertyBlockGetter('Magnetic Field Sensor', 'Absolute Strength')]]
 
@@ -56,8 +54,6 @@ _No description available_
 _No description available_
 
 ### Available
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Magnetic Field Sensor', 'Available')]]
@@ -70,8 +66,6 @@ _No description available_
 
 ### Maximum Range
 
-
-
 :eyes: Read-Only property
 [[PropertyBlockGetter('Magnetic Field Sensor', 'Maximum Range')]]
 
@@ -82,8 +76,6 @@ _No description available_
 _No description available_
 
 ### X Strength
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Magnetic Field Sensor', 'X Strength')]]
@@ -96,8 +88,6 @@ _No description available_
 
 ### Y Strength
 
-
-
 :eyes: Read-Only property
 [[PropertyBlockGetter('Magnetic Field Sensor', 'Y Strength')]]
 
@@ -108,8 +98,6 @@ _No description available_
 _No description available_
 
 ### Z Strength
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Magnetic Field Sensor', 'Z Strength')]]

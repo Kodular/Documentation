@@ -16,7 +16,7 @@ _A non-visible component that shows AdMob ads as full-screen video where users r
 
 [[Event('AdMob Rewarded Video', 'Ad Closed')]]
 
-Called when an ad was closed.
+_Called when an ad was closed._
 
 ### Ad Failed To Load
 
@@ -29,37 +29,37 @@ Called when an ad was closed.
     |error Message|`text`|
 
 
-Called when an ad request failed to load. The message will display the error code and error message.
+_Called when an ad request failed to load. The message will display the error code and error message._
 
 ### Ad Left Application
 
 [[Event('AdMob Rewarded Video', 'Ad Left Application')]]
 
-Called when an ad leaves the application (e.g., to go to the browser).
+_Called when an ad leaves the application (e.g., to go to the browser)._
 
 ### Ad Loaded
 
 [[Event('AdMob Rewarded Video', 'Ad Loaded')]]
 
-Called when an ad request was loaded.
+_Called when an ad request was loaded._
 
 ### Ad Opened
 
 [[Event('AdMob Rewarded Video', 'Ad Opened')]]
 
-Called when an ad was opened.
+_Called when an ad was opened._
 
 ### Ad Video Completed
 
 [[Event('AdMob Rewarded Video', 'Ad Video Completed')]]
 
-Called when an video ad was completed.
+_Called when an video ad was completed._
 
 ### Ad Video Started
 
 [[Event('AdMob Rewarded Video', 'Ad Video Started')]]
 
-Called when an video ad started to show content.
+_Called when an video ad started to show content._
 
 ### On Consent Changed
 
@@ -71,7 +71,7 @@ Called when an video ad started to show content.
     |personalized|`boolean`|
 
 
-Event triggered when the consent was changed.
+_Event triggered when the consent was changed._
 
 ### Rewarded
 
@@ -84,7 +84,7 @@ Event triggered when the consent was changed.
     |amount|`number`|
 
 
-User watched video and should be rewarded.
+_User watched video and should be rewarded._
 
 ## Methods
 
@@ -92,25 +92,25 @@ User watched video and should be rewarded.
 
 [[Method('AdMob Rewarded Video', 'Load Ad', false)]]
 
-Load a new AdMob Rewarded Video ad.
+_Load a new AdMob Rewarded Video ad._
 
 ### RevokeConsent
 
 [[Method('AdMob Rewarded Video', 'RevokeConsent', false)]]
 
-Deletes the user's consent. Useful if you want to test the consent dialog in development.
+_Deletes the user's consent. Useful if you want to test the consent dialog in development._
 
 ### ShowAd
 
 [[Method('AdMob Rewarded Video', 'ShowAd', false)]]
 
-It will show the Video
+_It will show the Video_
 
 ## Properties
 
 ### Ad Enabled
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('AdMob Rewarded Video', 'Ad Enabled')]]
@@ -119,11 +119,11 @@ It will show the Video
 |:----:|:-------:|
 |boolean|True|
 
-This property must be set to true to receive ads.
+_This property must be set to true to receive ads._
 
 ### Ad Unit Id
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('AdMob Rewarded Video', 'Ad Unit Id')]]
@@ -136,7 +136,7 @@ _No description available_
 
 ### Consent Development Mode
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('AdMob Rewarded Video', 'Consent Development Mode')]]
@@ -145,11 +145,11 @@ _No description available_
 |:----:|:-------:|
 |boolean|False|
 
-If enabled you will see the consent dialog no matter if you are located in Europe or not. Please use this option only in development.  If this setting is enabled ALL taken consents will not be saved.
+_If enabled you will see the consent dialog no matter if you are located in Europe or not. Please use this option only in development.  If this setting is enabled ALL taken consents will not be saved._
 
 ### Consent Message
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('AdMob Rewarded Video', 'Consent Message')]]
@@ -158,11 +158,11 @@ If enabled you will see the consent dialog no matter if you are located in Europ
 |:----:|:-------:|
 |text|Can we continue to use your data to tailor ads for you?|
 
-The message for the consent dialog.
+_The message for the consent dialog._
 
 ### Consent Title
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('AdMob Rewarded Video', 'Consent Title')]]
@@ -171,11 +171,11 @@ The message for the consent dialog.
 |:----:|:-------:|
 |text|Data Protection|
 
-The title for the consent dialog.
+_The title for the consent dialog._
 
 ### Test Mode
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('AdMob Rewarded Video', 'Test Mode')]]
@@ -184,11 +184,9 @@ The title for the consent dialog.
 |:----:|:-------:|
 |boolean|False|
 
-If you want to test the component, that this property to true. After it you will receive test ads.
+_If you want to test the component, that this property to true. After it you will receive test ads._
 
 ### Personalized Result
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('AdMob Rewarded Video', 'Personalized Result')]]
@@ -197,4 +195,4 @@ If you want to test the component, that this property to true. After it you will
 |:----:|:-------:|
 |boolean|None|
 
-Returns the current personalized consent. If true user has consent to personalized ads.
+_Returns the current personalized consent. If true user has consent to personalized ads._

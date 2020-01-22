@@ -14,7 +14,7 @@ _A visible component that shows AdMob ads as static banners._
 
 [[Event('AdMob Banner', 'Ad Closed')]]
 
-Called when an ad was closed.
+_Called when an ad was closed._
 
 ### Ad Failed To Load
 
@@ -27,19 +27,19 @@ Called when an ad was closed.
     |error Message|`text`|
 
 
-Called when an ad request failed to load. The message will display the error code and error message.
+_Called when an ad request failed to load. The message will display the error code and error message._
 
 ### Ad Loaded
 
 [[Event('AdMob Banner', 'Ad Loaded')]]
 
-Called when an ad request was loaded.
+_Called when an ad request was loaded._
 
 ### Ad Opened
 
 [[Event('AdMob Banner', 'Ad Opened')]]
 
-Called when an ad was opened.
+_Called when an ad was opened._
 
 ### On Consent Changed
 
@@ -51,7 +51,7 @@ Called when an ad was opened.
     |personalized|`boolean`|
 
 
-Event triggered when the consent was changed.
+_Event triggered when the consent was changed._
 
 ## Methods
 
@@ -59,19 +59,19 @@ Event triggered when the consent was changed.
 
 [[Method('AdMob Banner', 'Load Ad', false)]]
 
-Load a new AdMob Banner ad.
+_Load a new AdMob Banner ad._
 
 ### RevokeConsent
 
 [[Method('AdMob Banner', 'RevokeConsent', false)]]
 
-Deletes the user's consent. Useful if you want to test the consent dialog in development.
+_Deletes the user's consent. Useful if you want to test the consent dialog in development._
 
 ## Properties
 
 ### Ad Enabled
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('AdMob Banner', 'Ad Enabled')]]
@@ -80,11 +80,11 @@ Deletes the user's consent. Useful if you want to test the consent dialog in dev
 |:----:|:-------:|
 |boolean|True|
 
-This property must be set to true to receive ads.
+_This property must be set to true to receive ads._
 
 ### Ad Unit Id
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('AdMob Banner', 'Ad Unit Id')]]
@@ -93,11 +93,11 @@ This property must be set to true to receive ads.
 |:----:|:-------:|
 |text|ca-app-pub-3940256099942544/6300978111|
 
-Set Ad Unit ID
+_Set Ad Unit ID_
 
 ### Consent Development Mode
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('AdMob Banner', 'Consent Development Mode')]]
@@ -106,11 +106,11 @@ Set Ad Unit ID
 |:----:|:-------:|
 |boolean|False|
 
-If enabled you will see the consent dialog no matter if you are located in Europe or not. Please use this option only in development.  If this setting is enabled ALL taken consents will not be saved.
+_If enabled you will see the consent dialog no matter if you are located in Europe or not. Please use this option only in development.  If this setting is enabled ALL taken consents will not be saved._
 
 ### Consent Message
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('AdMob Banner', 'Consent Message')]]
@@ -119,11 +119,11 @@ If enabled you will see the consent dialog no matter if you are located in Europ
 |:----:|:-------:|
 |text|Can we continue to use your data to tailor ads for you?|
 
-The message for the consent dialog.
+_The message for the consent dialog._
 
 ### Consent Title
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('AdMob Banner', 'Consent Title')]]
@@ -132,11 +132,11 @@ The message for the consent dialog.
 |:----:|:-------:|
 |text|Data Protection|
 
-The title for the consent dialog.
+_The title for the consent dialog._
 
 ### Test Mode
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('AdMob Banner', 'Test Mode')]]
@@ -145,11 +145,11 @@ The title for the consent dialog.
 |:----:|:-------:|
 |boolean|False|
 
-If you want to test the component then that this property to true. Then you will receive test ads.
+_If you want to test the component then that this property to true. Then you will receive test ads._
 
 ### Visible
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('AdMob Banner', 'Visible')]]
@@ -158,11 +158,9 @@ If you want to test the component then that this property to true. Then you will
 |:----:|:-------:|
 |boolean|True|
 
-Returns true iff the component is visible.
+_Returns true iff the component is visible._
 
 ### Column
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('AdMob Banner', 'Column')]]
@@ -171,11 +169,9 @@ Returns true iff the component is visible.
 |:----:|:-------:|
 |number|None|
 
-Column property getter method.
+_Column property getter method._
 
 ### Personalized Result
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('AdMob Banner', 'Personalized Result')]]
@@ -184,11 +180,9 @@ Column property getter method.
 |:----:|:-------:|
 |boolean|None|
 
-Returns the current personalized consent. If true user has consent to personalized ads.
+_Returns the current personalized consent. If true user has consent to personalized ads._
 
 ### Row
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('AdMob Banner', 'Row')]]
@@ -197,4 +191,4 @@ Returns the current personalized consent. If true user has consent to personaliz
 |:----:|:-------:|
 |number|None|
 
-Row property getter method.
+_Row property getter method._

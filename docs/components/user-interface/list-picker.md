@@ -20,40 +20,40 @@ _<p>A button that, when clicked on, displays a list of texts for the user to cho
     |selection|`text`|
 
 
-Event to be raised after the picker activity returns its
- result and the properties have been filled in.
+_Event to be raised after the picker activity returns its
+ result and the properties have been filled in._
 
 ### Before Picking
 
 [[Event('List Picker', 'Before Picking')]]
 
-Event to raise when the button of the component is clicked or the list is shown
+_Event to raise when the button of the component is clicked or the list is shown
  using the Open block.  This event occurs before the list of items is displayed, and
- can be used to prepare the list before it is shown.
+ can be used to prepare the list before it is shown._
 
 ### Got Focus
 
 [[Event('List Picker', 'Got Focus')]]
 
-Indicates the cursor moved over the button so it is now possible to click it.
+_Indicates the cursor moved over the button so it is now possible to click it._
 
 ### Lost Focus
 
 [[Event('List Picker', 'Lost Focus')]]
 
-Indicates the cursor moved away from the button so it is now no longer possible to click it.
+_Indicates the cursor moved away from the button so it is now no longer possible to click it._
 
 ### Touch Down
 
 [[Event('List Picker', 'Touch Down')]]
 
-Indicates that the button was pressed down.
+_Indicates that the button was pressed down._
 
 ### Touch Up
 
 [[Event('List Picker', 'Touch Up')]]
 
-Indicates that a button has been released.
+_Indicates that a button has been released._
 
 ## Methods
 
@@ -70,19 +70,19 @@ Indicates that a button has been released.
     |color|`number`|
 
 
-Allows you to set animation style. Valid (case-insensitive) values are: ChasingDots, Circle, CubeGrid, DoubleBounce, FadingCircle, FoldingCube, Pulse, RotatingCircle, RotatingPlane, ThreeBounce, WanderingCubes, Wave. If invalid style is used, animation will be removed.Position can be: top, left, right, bottom. Size can be 100.
+_Allows you to set animation style. Valid (case-insensitive) values are: ChasingDots, Circle, CubeGrid, DoubleBounce, FadingCircle, FoldingCube, Pulse, RotatingCircle, RotatingPlane, ThreeBounce, WanderingCubes, Wave. If invalid style is used, animation will be removed.Position can be: top, left, right, bottom. Size can be 100._
 
 ### ButtonClick
 
 [[Method('List Picker', 'ButtonClick', false)]]
 
-Perform a button click as function.
+_Perform a button click as function._
 
 ### Open
 
 [[Method('List Picker', 'Open', false)]]
 
-Opens the picker, as though the user clicked on it.
+_Opens the picker, as though the user clicked on it._
 
 ### SetShadow
 
@@ -97,7 +97,7 @@ Opens the picker, as though the user clicked on it.
     |color|`number`|
 
 
-Place a blurred shadow of text underneath the text, drawn with the specified x, y, radius, color (e.g. -11, 12, 13, black.
+_Place a blurred shadow of text underneath the text, drawn with the specified x, y, radius, color (e.g. -11, 12, 13, black._
 
 ### WithIconFromFontAwesome
 
@@ -113,7 +113,7 @@ Place a blurred shadow of text underneath the text, drawn with the specified x, 
     |size|`number`|
 
 
-Show an image on the given position near to the button. You can use following words for the position: 'Left', 'Right', 'Top' or 'Bottom'. Use the padding to add space between the icon and text. Use a material icon as the button icon without uploading a image resource into your project. You can find the icon name (or code) here at https://fontawesome.com/cheatsheet Use as example for a heart icon just 'f004'.
+_Show an image on the given position near to the button. You can use following words for the position: 'Left', 'Right', 'Top' or 'Bottom'. Use the padding to add space between the icon and text. Use a material icon as the button icon without uploading a image resource into your project. You can find the icon name (or code) here at https://fontawesome.com/cheatsheet Use as example for a heart icon just 'f004'._
 
 ### WithIconFromMaterialFont
 
@@ -129,7 +129,7 @@ Show an image on the given position near to the button. You can use following wo
     |size|`number`|
 
 
-Show an image on the given position near to the button. You can use following words for the position: 'Left', 'Right', 'Top' or 'Bottom'. Use the padding to add space between the icon and text. Use a material icon as the button icon without uploading a image resource into your project. You can find the icon name (or code) here at https://material.io/icons
+_Show an image on the given position near to the button. You can use following words for the position: 'Left', 'Right', 'Top' or 'Bottom'. Use the padding to add space between the icon and text. Use a material icon as the button icon without uploading a image resource into your project. You can find the icon name (or code) here at https://material.io/icons_
 
 ### WithIconFromPicture
 
@@ -145,13 +145,13 @@ Show an image on the given position near to the button. You can use following wo
     |height|`number`|
 
 
-Show an image on the given position near to the button. You can use following words for the position: 'Left', 'Right', 'Top' or 'Bottom'. Use the padding to add space between the icon and text.
+_Show an image on the given position near to the button. You can use following words for the position: 'Left', 'Right', 'Top' or 'Bottom'. Use the padding to add space between the icon and text._
 
 ## Properties
 
 ### Background Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List Picker', 'Background Color')]]
@@ -160,11 +160,11 @@ Show an image on the given position near to the button. You can use following wo
 |:----:|:-------:|
 |number|&HFF444444|
 
-Returns the button's background color
+_Returns the button's background color_
 
 ### Border Shadow
 
-<small>Available as Advanced Property</small>
+<small>Available as ^^Advanced^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List Picker', 'Border Shadow')]]
@@ -173,11 +173,11 @@ Returns the button's background color
 |:----:|:-------:|
 |boolean|True|
 
-Returns true if the button have a outside border shadow on click.
+_Returns true if the button have a outside border shadow on click._
 
 ### Elements From String
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List Picker', 'Elements From String')]]
@@ -186,11 +186,11 @@ Returns true if the button have a outside border shadow on click.
 |:----:|
 |text|
 
-ElementsFromString property setter method
+_ElementsFromString property setter method_
 
 ### Enabled
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List Picker', 'Enabled')]]
@@ -199,11 +199,11 @@ ElementsFromString property setter method
 |:----:|:-------:|
 |boolean|True|
 
-If set, user can tap check box to cause action.
+_If set, user can tap check box to cause action._
 
 ### Font Bold
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List Picker', 'Font Bold')]]
@@ -212,11 +212,11 @@ If set, user can tap check box to cause action.
 |:----:|:-------:|
 |boolean|False|
 
-If set, button text is displayed in bold.
+_If set, button text is displayed in bold._
 
 ### Font Italic
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List Picker', 'Font Italic')]]
@@ -225,11 +225,11 @@ If set, button text is displayed in bold.
 |:----:|:-------:|
 |boolean|False|
 
-If set, button text is displayed in italics.
+_If set, button text is displayed in italics._
 
 ### Font Size
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List Picker', 'Font Size')]]
@@ -238,11 +238,11 @@ If set, button text is displayed in italics.
 |:----:|:-------:|
 |number|14.0|
 
-Point size for button text.
+_Point size for button text._
 
 ### Font Typeface
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List Picker', 'Font Typeface')]]
@@ -251,11 +251,11 @@ Point size for button text.
 |:----:|:-------:|
 |number|0|
 
-Font family for button text.
+_Font family for button text._
 
 ### Font Typeface Import
 
-<small>Available as Advanced Property</small>
+<small>Available as ^^Advanced^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List Picker', 'Font Typeface Import')]]
@@ -264,11 +264,11 @@ Font family for button text.
 |:----:|
 |text|
 
-Set a custom font.
+_Set a custom font._
 
 ### HTML Format
 
-<small>Available as Advanced Property</small>
+<small>Available as ^^Advanced^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List Picker', 'HTML Format')]]
@@ -277,11 +277,11 @@ Set a custom font.
 |:----:|:-------:|
 |boolean|False|
 
-If true, then this button will show html text else it will show plain text. Note: Not all HTML is supported.
+_If true, then this button will show html text else it will show plain text. Note: Not all HTML is supported._
 
 ### Image
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List Picker', 'Image')]]
@@ -290,11 +290,11 @@ If true, then this button will show html text else it will show plain text. Note
 |:----:|
 |text|
 
-Image to display on button.
+_Image to display on button._
 
 ### Item Background Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List Picker', 'Item Background Color')]]
@@ -303,11 +303,11 @@ Image to display on button.
 |:----:|:-------:|
 |number|&HFF000000|
 
-The background color of the ListPicker items.
+_The background color of the ListPicker items._
 
 ### Item Text Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List Picker', 'Item Text Color')]]
@@ -316,11 +316,11 @@ The background color of the ListPicker items.
 |:----:|:-------:|
 |number|&HFFFFFFFF|
 
-The text color of the ListPicker items.
+_The text color of the ListPicker items._
 
 ### Rotation Angle
 
-<small>Available as Advanced Property</small>
+<small>Available as ^^Advanced^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List Picker', 'Rotation Angle')]]
@@ -329,11 +329,11 @@ The text color of the ListPicker items.
 |:----:|:-------:|
 |number|0.0|
 
-Sets the degrees that the button is rotated around the pivot point. Increasing values result in clockwise rotation.
+_Sets the degrees that the button is rotated around the pivot point. Increasing values result in clockwise rotation._
 
 ### Selection
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List Picker', 'Selection')]]
@@ -342,11 +342,11 @@ Sets the degrees that the button is rotated around the pivot point. Increasing v
 |:----:|
 |text|
 
-The selected item.  When directly changed by the programmer, the SelectionIndex property is also changed to the first item in the ListPicker with the given value.  If the value does not appear, SelectionIndex will be set to 0.
+_The selected item.  When directly changed by the programmer, the SelectionIndex property is also changed to the first item in the ListPicker with the given value.  If the value does not appear, SelectionIndex will be set to 0._
 
 ### Shape
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List Picker', 'Shape')]]
@@ -355,11 +355,11 @@ The selected item.  When directly changed by the programmer, the SelectionIndex 
 |:----:|:-------:|
 |number|0|
 
-Specifies the button's shape (default, rounded, rectangular, oval). The shape will not be visible if an Image is being displayed.
+_Specifies the button's shape (default, rounded, rectangular, oval). The shape will not be visible if an Image is being displayed._
 
 ### Show Feedback
 
-<small>Available as Advanced Property</small>
+<small>Available as ^^Advanced^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List Picker', 'Show Feedback')]]
@@ -368,11 +368,11 @@ Specifies the button's shape (default, rounded, rectangular, oval). The shape wi
 |:----:|:-------:|
 |boolean|True|
 
-Specifies if a visual feedback should be shown for a button that as an image as background.
+_Specifies if a visual feedback should be shown for a button that as an image as background._
 
 ### Show Filter Bar
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List Picker', 'Show Filter Bar')]]
@@ -381,11 +381,11 @@ Specifies if a visual feedback should be shown for a button that as an image as 
 |:----:|:-------:|
 |boolean|False|
 
-Returns current state of ShowFilterBar indicating if Search Filter Bar will be displayed on ListPicker or not
+_Returns current state of ShowFilterBar indicating if Search Filter Bar will be displayed on ListPicker or not_
 
 ### Status Bar Color
 
-<small>Available as Advanced Property</small>
+<small>Available as ^^Advanced^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List Picker', 'Status Bar Color')]]
@@ -394,11 +394,11 @@ Returns current state of ShowFilterBar indicating if Search Filter Bar will be d
 |:----:|:-------:|
 |number|&HFF2196F2|
 
-The StatusBarColor of the ListPicker.
+_The StatusBarColor of the ListPicker._
 
 ### Status Bar Visible
 
-<small>Available as Advanced Property</small>
+<small>Available as ^^Advanced^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List Picker', 'Status Bar Visible')]]
@@ -407,11 +407,11 @@ The StatusBarColor of the ListPicker.
 |:----:|:-------:|
 |boolean|True|
 
-Whether to show status bar
+_Whether to show status bar_
 
 ### Text
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List Picker', 'Text')]]
@@ -420,11 +420,11 @@ Whether to show status bar
 |:----:|
 |text|
 
-Text to display on button.
+_Text to display on button._
 
 ### Text Alignment
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List Picker', 'Text Alignment')]]
@@ -433,11 +433,11 @@ Text to display on button.
 |:----:|:-------:|
 |number|1|
 
-Left, center, or right.
+_Left, center, or right._
 
 ### Text Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List Picker', 'Text Color')]]
@@ -446,11 +446,11 @@ Left, center, or right.
 |:----:|:-------:|
 |number|&HFFFFFFFF|
 
-Color for button text.
+_Color for button text._
 
 ### Title
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List Picker', 'Title')]]
@@ -459,11 +459,11 @@ Color for button text.
 |:----:|
 |text|
 
-Optional title displayed at the top of the list of choices.
+_Optional title displayed at the top of the list of choices._
 
 ### Title Bar Color
 
-<small>Available as Advanced Property</small>
+<small>Available as ^^Advanced^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List Picker', 'Title Bar Color')]]
@@ -472,11 +472,11 @@ Optional title displayed at the top of the list of choices.
 |:----:|:-------:|
 |number|&HFF03A9F3|
 
-The TitleBarColor of the ListPicker.
+_The TitleBarColor of the ListPicker._
 
 ### Title Visible
 
-<small>Available as Advanced Property</small>
+<small>Available as ^^Advanced^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List Picker', 'Title Visible')]]
@@ -485,11 +485,11 @@ The TitleBarColor of the ListPicker.
 |:----:|:-------:|
 |boolean|True|
 
-Whether to show title bar
+_Whether to show title bar_
 
 ### Touch Color
 
-<small>Available as Advanced Property</small>
+<small>Available as ^^Advanced^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List Picker', 'Touch Color')]]
@@ -498,11 +498,11 @@ Whether to show title bar
 |:----:|:-------:|
 |number|&HFFCCCCCC|
 
-Set the buttons touch color.
+_Set the buttons touch color._
 
 ### Visible
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List Picker', 'Visible')]]
@@ -511,11 +511,9 @@ Set the buttons touch color.
 |:----:|:-------:|
 |boolean|True|
 
-Returns true iff the component is visible.
+_Returns true iff the component is visible._
 
 ### Column
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List Picker', 'Column')]]
@@ -524,11 +522,9 @@ Returns true iff the component is visible.
 |:----:|:-------:|
 |number|None|
 
-Column property getter method.
+_Column property getter method._
 
 ### Elements
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List Picker', 'Elements')]]
@@ -537,11 +533,9 @@ Column property getter method.
 |:----:|:-------:|
 |list|None|
 
-Elements property getter method
+_Elements property getter method_
 
 ### Height
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List Picker', 'Height')]]
@@ -550,11 +544,9 @@ Elements property getter method
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's vertical height, measured in pixels.
+_Specifies the component's vertical height, measured in pixels._
 
 ### Height Percent
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List Picker', 'Height Percent')]]
@@ -563,12 +555,10 @@ Specifies the component's vertical height, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's vertical height as a percentage
- of the height of its parent Component.
+_Specifies the component's vertical height as a percentage
+ of the height of its parent Component._
 
 ### Row
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List Picker', 'Row')]]
@@ -577,11 +567,9 @@ Specifies the component's vertical height as a percentage
 |:----:|:-------:|
 |number|None|
 
-Row property getter method.
+_Row property getter method._
 
 ### Selection Index
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List Picker', 'Selection Index')]]
@@ -590,11 +578,9 @@ Row property getter method.
 |:----:|:-------:|
 |number|None|
 
-The index of the currently selected item, starting at 1.  If no item is selected, the value will be 0.  If an attempt is made to set this to a number less than 1 or greater than the number of items in the ListPicker, SelectionIndex will be set to 0, and Selection will be set to the empty text.
+_The index of the currently selected item, starting at 1.  If no item is selected, the value will be 0.  If an attempt is made to set this to a number less than 1 or greater than the number of items in the ListPicker, SelectionIndex will be set to 0, and Selection will be set to the empty text._
 
 ### Width
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List Picker', 'Width')]]
@@ -603,11 +589,9 @@ The index of the currently selected item, starting at 1.  If no item is selected
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width, measured in pixels.
+_Specifies the component's horizontal width, measured in pixels._
 
 ### Width Percent
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List Picker', 'Width Percent')]]
@@ -616,5 +600,5 @@ Specifies the component's horizontal width, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width as a percentage
- of the Width of its parent Component.
+_Specifies the component's horizontal width as a percentage
+ of the Width of its parent Component._

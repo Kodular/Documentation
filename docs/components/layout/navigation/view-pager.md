@@ -20,7 +20,7 @@ _A visible component that groups other layout components each of which can be ac
     |position|`number`|
 
 
-Event to detect that a page was selected.
+_Event to detect that a page was selected._
 
 ## Methods
 
@@ -35,13 +35,13 @@ Event to detect that a page was selected.
     |tab Name|`text`|
 
 
-Add a component to the view pager. The first added component will be the first visible component on the screen.
+_Add a component to the view pager. The first added component will be the first visible component on the screen._
 
 ### RemoveAllTabs
 
 [[Method('View Pager', 'RemoveAllTabs', false)]]
 
-Remove all tab's from view pager.
+_Remove all tab's from view pager._
 
 ### RemoveViewAt
 
@@ -53,13 +53,13 @@ Remove all tab's from view pager.
     |position|`number`|
 
 
-Removes a before added view from the view pager. If you want to delete the first page then use as position '1'.
+_Removes a before added view from the view pager. If you want to delete the first page then use as position '1'._
 
 ## Properties
 
 ### Show Tabs
 
-<small>Available as Experimental Property</small>
+<small>Available as ^^Experimental^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('View Pager', 'Show Tabs')]]
@@ -68,11 +68,11 @@ Removes a before added view from the view pager. If you want to delete the first
 |:----:|:-------:|
 |boolean|True|
 
-If set to true, you will see tabs above the view pager.
+_If set to true, you will see tabs above the view pager._
 
 ### Tabs Active Text Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('View Pager', 'Tabs Active Text Color')]]
@@ -81,11 +81,11 @@ If set to true, you will see tabs above the view pager.
 |:----:|:-------:|
 |number|&HFFFF4081|
 
-Specifies the tab's text color for active tab's.
+_Specifies the tab's text color for active tab's._
 
 ### Tabs Background Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('View Pager', 'Tabs Background Color')]]
@@ -94,11 +94,11 @@ Specifies the tab's text color for active tab's.
 |:----:|:-------:|
 |number|&HFF3F51B5|
 
-Specifies the tab's background color.
+_Specifies the tab's background color._
 
 ### Tabs Indicator Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('View Pager', 'Tabs Indicator Color')]]
@@ -107,11 +107,11 @@ Specifies the tab's background color.
 |:----:|:-------:|
 |number|&HFFFFFFFF|
 
-Specifies the tab's indicator color.
+_Specifies the tab's indicator color._
 
 ### Tabs Mode
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('View Pager', 'Tabs Mode')]]
@@ -120,11 +120,11 @@ Specifies the tab's indicator color.
 |:----:|:-------:|
 |number|1|
 
-Choose the mode used for the tab's. If no mode is specified, 'Scrollable' is taken as 'Default'. Use '0' for scrollable and '1' for fixed.
+_Choose the mode used for the tab's. If no mode is specified, 'Scrollable' is taken as 'Default'. Use '0' for scrollable and '1' for fixed._
 
 ### Tabs Text Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('View Pager', 'Tabs Text Color')]]
@@ -133,11 +133,11 @@ Choose the mode used for the tab's. If no mode is specified, 'Scrollable' is tak
 |:----:|:-------:|
 |number|&HFFFFFFFF|
 
-Specifies the tab's text color for not selected tab's.
+_Specifies the tab's text color for not selected tab's._
 
 ### Visible
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('View Pager', 'Visible')]]
@@ -146,11 +146,9 @@ Specifies the tab's text color for not selected tab's.
 |:----:|:-------:|
 |boolean|True|
 
-Specifies whether the component should be visible on the screen. Value is true if the component is showing and false if hidden.
+_Specifies whether the component should be visible on the screen. Value is true if the component is showing and false if hidden._
 
 ### Column
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('View Pager', 'Column')]]
@@ -159,11 +157,9 @@ Specifies whether the component should be visible on the screen. Value is true i
 |:----:|:-------:|
 |number|None|
 
-Column property getter method.
+_Column property getter method._
 
 ### Get Current Page
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('View Pager', 'Get Current Page')]]
@@ -172,11 +168,9 @@ Column property getter method.
 |:----:|:-------:|
 |number|None|
 
-Get the current selected visible page.
+_Get the current selected visible page._
 
 ### Height
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('View Pager', 'Height')]]
@@ -185,11 +179,9 @@ Get the current selected visible page.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's vertical height, measured in pixels.
+_Specifies the component's vertical height, measured in pixels._
 
 ### Height Percent
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('View Pager', 'Height Percent')]]
@@ -198,12 +190,10 @@ Specifies the component's vertical height, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's vertical height as a percentage
- of the height of its parent Component.
+_Specifies the component's vertical height as a percentage
+ of the height of its parent Component._
 
 ### Row
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('View Pager', 'Row')]]
@@ -212,11 +202,9 @@ Specifies the component's vertical height as a percentage
 |:----:|:-------:|
 |number|None|
 
-Row property getter method.
+_Row property getter method._
 
 ### Select Page
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('View Pager', 'Select Page')]]
@@ -225,11 +213,9 @@ Row property getter method.
 |:----:|:-------:|
 |number|None|
 
-Select a page which is then the active page.
+_Select a page which is then the active page._
 
 ### Width
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('View Pager', 'Width')]]
@@ -238,11 +224,9 @@ Select a page which is then the active page.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width, measured in pixels.
+_Specifies the component's horizontal width, measured in pixels._
 
 ### Width Percent
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('View Pager', 'Width Percent')]]
@@ -251,5 +235,5 @@ Specifies the component's horizontal width, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width as a percentage
- of the Width of its parent Component.
+_Specifies the component's horizontal width as a percentage
+ of the Width of its parent Component._

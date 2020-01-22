@@ -20,7 +20,7 @@ _A visible component that lets the user toggle between two states — on and off
     |is Checked|`boolean`|
 
 
-Event invoked when a switch has been clicked. Returns true or false if the switch is checked or not.
+_Event invoked when a switch has been clicked. Returns true or false if the switch is checked or not._
 
 ## Methods
 
@@ -34,7 +34,7 @@ Event invoked when a switch has been clicked. Returns true or false if the switc
     |image|`text`|
 
 
-Set the drawable used for the switch 'thumb' - the piece that the user can physically touch and drag along the track. If 'color Filter Enabled' is set to true, the image will get a light tint filter with the same color that you used as thumb color.
+_Set the drawable used for the switch 'thumb' - the piece that the user can physically touch and drag along the track. If 'color Filter Enabled' is set to true, the image will get a light tint filter with the same color that you used as thumb color._
 
 ### ThumbImageFromMaterialFont
 
@@ -47,13 +47,13 @@ Set the drawable used for the switch 'thumb' - the piece that the user can physi
     |size|`number`|
 
 
-Set the drawable used for the switch 'thumb' - the piece that the user can physically touch and drag along the track. You can find the icon name (or code) here at https://material.io/icons . Use as size as example '300'.
+_Set the drawable used for the switch 'thumb' - the piece that the user can physically touch and drag along the track. You can find the icon name (or code) here at https://material.io/icons . Use as size as example '300'._
 
 ## Properties
 
 ### Checked
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Switch', 'Checked')]]
@@ -62,11 +62,11 @@ Set the drawable used for the switch 'thumb' - the piece that the user can physi
 |:----:|:-------:|
 |boolean|False|
 
-Set the toggle to checked or unchecked
+_Set the toggle to checked or unchecked_
 
 ### Enabled
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Switch', 'Enabled')]]
@@ -75,11 +75,11 @@ Set the toggle to checked or unchecked
 |:----:|:-------:|
 |boolean|True|
 
-If set to true, user can touch the switch.
+_If set to true, user can touch the switch._
 
 ### Font Bold
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Switch', 'Font Bold')]]
@@ -92,7 +92,7 @@ _No description available_
 
 ### Font Italic
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Switch', 'Font Italic')]]
@@ -105,7 +105,7 @@ _No description available_
 
 ### Font Typeface
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Switch', 'Font Typeface')]]
@@ -118,7 +118,7 @@ _No description available_
 
 ### Font Typeface Import
 
-<small>Available as Advanced Property</small>
+<small>Available as ^^Advanced^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Switch', 'Font Typeface Import')]]
@@ -127,11 +127,11 @@ _No description available_
 |:----:|
 |text|
 
-Set a custom font.
+_Set a custom font._
 
 ### Text Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Switch', 'Text Color')]]
@@ -140,11 +140,11 @@ Set a custom font.
 |:----:|:-------:|
 |number|&HFF4CAF50|
 
-Set the text color for the switch.
+_Set the text color for the switch._
 
 ### Text Off
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Switch', 'Text Off')]]
@@ -153,11 +153,11 @@ Set the text color for the switch.
 |:----:|:-------:|
 |text|Switch Off|
 
-Set here the switch off text. HTML tags are too possible: <b>, <big>, <blockquote>, <br>, <cite>, <dfn>, <div>, <em>, <small>, <strong>, <sub>, <sup>, <tt>, <u>. Example: <big>Test</big>.
+_Set here the switch off text. HTML tags are too possible: <b>, <big>, <blockquote>, <br>, <cite>, <dfn>, <div>, <em>, <small>, <strong>, <sub>, <sup>, <tt>, <u>. Example: <big>Test</big>._
 
 ### Text On
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Switch', 'Text On')]]
@@ -166,11 +166,11 @@ Set here the switch off text. HTML tags are too possible: <b>, <big>, <blockquot
 |:----:|:-------:|
 |text|Switch On|
 
-Set here the switch on text. HTML tags are too possible: <b>, <big>, <blockquote>, <br>, <cite>, <dfn>, <div>, <em>, <small>, <strong>, <sub>, <sup>, <tt>, <u>. Example: <big>Test</big>.
+_Set here the switch on text. HTML tags are too possible: <b>, <big>, <blockquote>, <br>, <cite>, <dfn>, <div>, <em>, <small>, <strong>, <sub>, <sup>, <tt>, <u>. Example: <big>Test</big>._
 
 ### Font Size
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Switch', 'Font Size')]]
@@ -179,11 +179,11 @@ Set here the switch on text. HTML tags are too possible: <b>, <big>, <blockquote
 |:----:|:-------:|
 |number|14.0|
 
-The text size of the switch.
+_The text size of the switch._
 
 ### Thumb Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Switch', 'Thumb Color')]]
@@ -192,11 +192,11 @@ The text size of the switch.
 |:----:|:-------:|
 |number|&HFF4CAF50|
 
-Change the disabled color of the switch.
+_Change the disabled color of the switch._
 
 ### Track Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Switch', 'Track Color')]]
@@ -205,11 +205,11 @@ Change the disabled color of the switch.
 |:----:|:-------:|
 |number|&HFF009688|
 
-Change the enabled color of the switch.
+_Change the enabled color of the switch._
 
 ### Visible
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Switch', 'Visible')]]
@@ -218,11 +218,9 @@ Change the enabled color of the switch.
 |:----:|:-------:|
 |boolean|True|
 
-Returns true iff the component is visible.
+_Returns true iff the component is visible._
 
 ### Column
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Switch', 'Column')]]
@@ -231,11 +229,9 @@ Returns true iff the component is visible.
 |:----:|:-------:|
 |number|None|
 
-Column property getter method.
+_Column property getter method._
 
 ### Height
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Switch', 'Height')]]
@@ -244,11 +240,9 @@ Column property getter method.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's vertical height, measured in pixels.
+_Specifies the component's vertical height, measured in pixels._
 
 ### Height Percent
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Switch', 'Height Percent')]]
@@ -257,12 +251,10 @@ Specifies the component's vertical height, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's vertical height as a percentage
- of the height of its parent Component.
+_Specifies the component's vertical height as a percentage
+ of the height of its parent Component._
 
 ### Row
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Switch', 'Row')]]
@@ -271,11 +263,9 @@ Specifies the component's vertical height as a percentage
 |:----:|:-------:|
 |number|None|
 
-Row property getter method.
+_Row property getter method._
 
 ### Width
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Switch', 'Width')]]
@@ -284,11 +274,9 @@ Row property getter method.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width, measured in pixels.
+_Specifies the component's horizontal width, measured in pixels._
 
 ### Width Percent
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Switch', 'Width Percent')]]
@@ -297,12 +285,10 @@ Specifies the component's horizontal width, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width as a percentage
- of the Width of its parent Component.
+_Specifies the component's horizontal width as a percentage
+ of the Width of its parent Component._
 
 ### is Checked
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Switch', 'is Checked')]]
@@ -311,4 +297,4 @@ Specifies the component's horizontal width as a percentage
 |:----:|:-------:|
 |boolean|None|
 
-Return true if the switch is checked else false.
+_Return true if the switch is checked else false._

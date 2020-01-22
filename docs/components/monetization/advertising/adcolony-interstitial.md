@@ -16,7 +16,7 @@ _A non-visible component that shows AdColony ads as full-screen advertisements._
 
 [[Event('AdColony Interstitial', 'Ad Expiring')]]
 
-Called when the ad is expiring. You should load a new ad.
+_Called when the ad is expiring. You should load a new ad._
 
 ### Ad Failed To Load
 
@@ -29,19 +29,19 @@ Called when the ad is expiring. You should load a new ad.
     |error Message|`text`|
 
 
-Called when an ad request failed to load. The message will display the error code and error message.
+_Called when an ad request failed to load. The message will display the error code and error message._
 
 ### Ad Loaded
 
 [[Event('AdColony Interstitial', 'Ad Loaded')]]
 
-Called when an ad is received.
+_Called when an ad is received._
 
 ### Ad Opened
 
 [[Event('AdColony Interstitial', 'Ad Opened')]]
 
-Called when an ad was opened.
+_Called when an ad was opened._
 
 ### Error
 
@@ -53,7 +53,7 @@ Called when an ad was opened.
     |error|`text`|
 
 
-Called when an ad request failed. The message will display the reason for why the ad failed.
+_Called when an ad request failed. The message will display the reason for why the ad failed._
 
 ## Methods
 
@@ -63,25 +63,25 @@ Called when an ad request failed. The message will display the reason for why th
 
 {>>Returns `boolean`<<}
 
-Returns true if the current app user is located in europe. If true you must ask the user as example in a dialog if he give his consent for personalized ads.
+_Returns true if the current app user is located in europe. If true you must ask the user as example in a dialog if he give his consent for personalized ads._
 
 ### Load Ad
 
 [[Method('AdColony Interstitial', 'Load Ad', false)]]
 
-Loads a new ad.
+_Loads a new ad._
 
 ### ShowAd
 
 [[Method('AdColony Interstitial', 'ShowAd', false)]]
 
-Shows an ad to the user.
+_Shows an ad to the user._
 
 ## Properties
 
 ### App ID
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('AdColony Interstitial', 'App ID')]]
@@ -94,7 +94,7 @@ _No description available_
 
 ### Zone ID
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('AdColony Interstitial', 'Zone ID')]]
@@ -107,8 +107,6 @@ _No description available_
 
 ### User Consent
 
-
-
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('AdColony Interstitial', 'User Consent')]]
 
@@ -116,4 +114,4 @@ _No description available_
 |:----:|:-------:|
 |boolean|None|
 
-If set to true the user allowed the ad network to show personalized ads. You only need to request the consent from european users.
+_If set to true the user allowed the ad network to show personalized ads. You only need to request the consent from european users._

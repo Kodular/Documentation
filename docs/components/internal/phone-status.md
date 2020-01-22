@@ -16,8 +16,8 @@ _Component that returns information about the phone._
 
 [[Event('Phone Status', 'On Settings')]]
 
-This event is fired when the "settings" menu item is selected (only available in the
- Companion App, defined in ReplForm.java).
+_This event is fired when the "settings" menu item is selected (only available in the
+ Companion App, defined in ReplForm.java)._
 
 ## Methods
 
@@ -27,7 +27,7 @@ This event is fired when the "settings" menu item is selected (only available in
 
 {>>Returns `text`<<}
 
-Return the app that installed us
+_Return the app that installed us_
 
 ### get Version Name
 
@@ -35,7 +35,7 @@ Return the app that installed us
 
 {>>Returns `text`<<}
 
-Return the our VersionName property
+_Return the our VersionName property_
 
 ### GetWifiIpAddress
 
@@ -43,7 +43,7 @@ Return the our VersionName property
 
 {>>Returns `text`<<}
 
-Returns the IP address of the phone in the form of a String
+_Returns the IP address of the phone in the form of a String_
 
 ### SdkLevel
 
@@ -51,13 +51,13 @@ Returns the IP address of the phone in the form of a String
 
 {>>Returns `number`<<}
 
-Get the current Android SDK Level
+_Get the current Android SDK Level_
 
 ### do Fault
 
 [[Method('Phone Status', 'do Fault', false)]]
 
-Causes an Exception, used to debug exception processing.
+_Causes an Exception, used to debug exception processing._
 
 ### install URL
 
@@ -69,7 +69,7 @@ Causes an Exception, used to debug exception processing.
     |url|`text`|
 
 
-Downloads the URL and installs it as an Android Package
+_Downloads the URL and installs it as an Android Package_
 
 ### is Connected
 
@@ -77,7 +77,7 @@ Downloads the URL and installs it as an Android Package
 
 {>>Returns `boolean`<<}
 
-Returns TRUE if the phone is on Wifi, FALSE otherwise
+_Returns TRUE if the phone is on Wifi, FALSE otherwise_
 
 ### is Direct
 
@@ -85,13 +85,13 @@ Returns TRUE if the phone is on Wifi, FALSE otherwise
 
 {>>Returns `boolean`<<}
 
-Returns true if we are running in the emulator or USB Connection
+_Returns true if we are running in the emulator or USB Connection_
 
 ### set Assets Loaded
 
 [[Method('Phone Status', 'set Assets Loaded', false)]]
 
-Declare that we have loaded our initial assets and other assets should come from the sdcard
+_Declare that we have loaded our initial assets and other assets should come from the sdcard_
 
 ### set Hmac Seed Return Code
 
@@ -106,13 +106,13 @@ Declare that we have loaded our initial assets and other assets should come from
     |rendezvousServer|`text`|
 
 
-Establish the secret seed for HOTP generation. Return the SHA1 of the provided seed, this will be used to contact the rendezvous server. Note: This code also starts the connection negotiation process if we are using WebRTC. This is a bit of a kludge...
+_Establish the secret seed for HOTP generation. Return the SHA1 of the provided seed, this will be used to contact the rendezvous server. Note: This code also starts the connection negotiation process if we are using WebRTC. This is a bit of a kludge..._
 
 ### shutdown
 
 [[Method('Phone Status', 'shutdown', false)]]
 
-Really Exit the Application
+_Really Exit the Application_
 
 ### start HTTPD
 
@@ -124,13 +124,13 @@ Really Exit the Application
     |secure|`boolean`|
 
 
-Start the internal AppInvHTTPD to listen for incoming forms. FOR REPL USE ONLY!
+_Start the internal AppInvHTTPD to listen for incoming forms. FOR REPL USE ONLY!_
 
 ## Properties
 
 ### WebRTC
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Phone Status', 'WebRTC')]]
@@ -139,4 +139,4 @@ Start the internal AppInvHTTPD to listen for incoming forms. FOR REPL USE ONLY!
 |:----:|:-------:|
 |boolean|True|
 
-Set whether or not we will use WebRTC to communicate with the server
+_Set whether or not we will use WebRTC to communicate with the server_

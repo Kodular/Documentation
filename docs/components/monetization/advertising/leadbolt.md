@@ -22,7 +22,7 @@ _A non-visible component that shows LeadBolt ads as rewarded videos and network 
     |location|`text`|
 
 
-Event triggered when ads are loaded
+_Event triggered when ads are loaded_
 
 ### Ad Clicked
 
@@ -34,7 +34,7 @@ Event triggered when ads are loaded
     |location|`text`|
 
 
-Event triggered when ads are clicked
+_Event triggered when ads are clicked_
 
 ### Ad Closed
 
@@ -47,7 +47,7 @@ Event triggered when ads are clicked
     |reward|`boolean`|
 
 
-Event triggered when ads are closed
+_Event triggered when ads are closed_
 
 ### Ad Failed To Load
 
@@ -61,7 +61,7 @@ Event triggered when ads are closed
     |is Cache|`boolean`|
 
 
-Event triggered when ads are failed to load
+_Event triggered when ads are failed to load_
 
 ### Ad Shown
 
@@ -73,7 +73,7 @@ Event triggered when ads are failed to load
     |location|`text`|
 
 
-Event triggered when ads are shown
+_Event triggered when ads are shown_
 
 ## Methods
 
@@ -83,7 +83,7 @@ Event triggered when ads are shown
 
 {>>Returns `boolean`<<}
 
-Use this block after loading an ad to check whether it's ready to show.
+_Use this block after loading an ad to check whether it's ready to show._
 
 ### IsRewardedAdReady
 
@@ -91,37 +91,37 @@ Use this block after loading an ad to check whether it's ready to show.
 
 {>>Returns `boolean`<<}
 
-Use this block after loading an ad to check whether it's ready to show.
+_Use this block after loading an ad to check whether it's ready to show._
 
 ### LoadNetworkAd
 
 [[Method('LeadBolt', 'LoadNetworkAd', false)]]
 
-Use this block to load a Network ad.
+_Use this block to load a Network ad._
 
 ### LoadRewardedAd
 
 [[Method('LeadBolt', 'LoadRewardedAd', false)]]
 
-Use this block to load a Rewarded Video ad.
+_Use this block to load a Rewarded Video ad._
 
 ### ShowNetworkAd
 
 [[Method('LeadBolt', 'ShowNetworkAd', false)]]
 
-Use this block after LoadNetworkAd to show the loaded ad.
+_Use this block after LoadNetworkAd to show the loaded ad._
 
 ### ShowRewardedAd
 
 [[Method('LeadBolt', 'ShowRewardedAd', false)]]
 
-Use this block after LoadRewardedAd to show the loaded ad.
+_Use this block after LoadRewardedAd to show the loaded ad._
 
 ## Properties
 
 ### API Key
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('LeadBolt', 'API Key')]]
@@ -134,7 +134,7 @@ _No description available_
 
 ### Interstitial Commission
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('LeadBolt', 'Interstitial Commission')]]
@@ -143,11 +143,11 @@ _No description available_
 |:----:|:-------:|
 |text|unity|
 
-Sets the ad network used to take the commission.
+_Sets the ad network used to take the commission._
 
 ### Rewarded Video Commission
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('LeadBolt', 'Rewarded Video Commission')]]
@@ -156,4 +156,4 @@ Sets the ad network used to take the commission.
 |:----:|:-------:|
 |text|unity|
 
-Sets the ad network used to take the commission.
+_Sets the ad network used to take the commission._

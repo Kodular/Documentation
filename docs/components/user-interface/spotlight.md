@@ -16,7 +16,7 @@ _A non-visible component that brings emphasis to the specified component by mean
 
 [[Event('Spotlight', 'Clicked')]]
 
-Event triggered when the spotlight is clicked.
+_Event triggered when the spotlight is clicked._
 
 ## Methods
 
@@ -24,7 +24,7 @@ Event triggered when the spotlight is clicked.
 
 [[Method('Spotlight', 'ShowSpotlight', false)]]
 
-Use this block to show the spotlight.
+_Use this block to show the spotlight._
 
 ### ShowSpotlightOnFAB
 
@@ -36,13 +36,13 @@ Use this block to show the spotlight.
     |floating Action Button|`component`|
 
 
-Use this block to show the spotlight on a floating action button.
+_Use this block to show the spotlight on a floating action button._
 
 ## Properties
 
 ### Circle Padding
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Spotlight', 'Circle Padding')]]
@@ -51,11 +51,11 @@ Use this block to show the spotlight on a floating action button.
 |:----:|:-------:|
 |number|20|
 
-The padding for the circle spotlight. Default is '20'.
+_The padding for the circle spotlight. Default is '20'._
 
 ### Component
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Spotlight', 'Component')]]
@@ -64,11 +64,11 @@ The padding for the circle spotlight. Default is '20'.
 |:----:|
 |component|
 
-The component to show in the spotlight.
+_The component to show in the spotlight._
 
 ### Dismiss On Back Press
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Spotlight', 'Dismiss On Back Press')]]
@@ -77,11 +77,11 @@ The component to show in the spotlight.
 |:----:|:-------:|
 |boolean|True|
 
-Dismiss the spotlight on back pressed.
+_Dismiss the spotlight on back pressed._
 
 ### Dismiss On Touch
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Spotlight', 'Dismiss On Touch')]]
@@ -90,11 +90,11 @@ Dismiss the spotlight on back pressed.
 |:----:|:-------:|
 |boolean|True|
 
-Dismiss the spotlight on touch
+_Dismiss the spotlight on touch_
 
 ### Enable Dismiss After Shown
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Spotlight', 'Enable Dismiss After Shown')]]
@@ -103,11 +103,11 @@ Dismiss the spotlight on touch
 |:----:|:-------:|
 |boolean|True|
 
-Dismiss spotlight on touch after spotlight is completely visible.
+_Dismiss spotlight on touch after spotlight is completely visible._
 
 ### Enable Reveal Animation
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Spotlight', 'Enable Reveal Animation')]]
@@ -116,11 +116,11 @@ Dismiss spotlight on touch after spotlight is completely visible.
 |:----:|:-------:|
 |boolean|True|
 
-Enable reveal animation (Only for Lollipop and above).
+_Enable reveal animation (Only for Lollipop and above)._
 
 ### Fadein Text Duration
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Spotlight', 'Fadein Text Duration')]]
@@ -129,11 +129,11 @@ Enable reveal animation (Only for Lollipop and above).
 |:----:|:-------:|
 |number|400|
 
-Fade in animation duration for spotlight text (Heading and Sub-heading).
+_Fade in animation duration for spotlight text (Heading and Sub-heading)._
 
 ### Font Heading Typeface
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Spotlight', 'Font Heading Typeface')]]
@@ -146,7 +146,7 @@ _No description available_
 
 ### Font Heading Typeface Import
 
-<small>Available as Advanced Property</small>
+<small>Available as ^^Advanced^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Spotlight', 'Font Heading Typeface Import')]]
@@ -155,11 +155,11 @@ _No description available_
 |:----:|
 |text|
 
-Set a custom font.
+_Set a custom font._
 
 ### Font Subheading Typeface
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Spotlight', 'Font Subheading Typeface')]]
@@ -172,7 +172,7 @@ _No description available_
 
 ### Font Subheading Typeface Import
 
-<small>Available as Advanced Property</small>
+<small>Available as ^^Advanced^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Spotlight', 'Font Subheading Typeface Import')]]
@@ -181,11 +181,11 @@ _No description available_
 |:----:|
 |text|
 
-Set a custom font.
+_Set a custom font._
 
 ### Heading Text
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Spotlight', 'Heading Text')]]
@@ -194,11 +194,11 @@ Set a custom font.
 |:----:|
 |text|
 
-The Spotlight heading text.
+_The Spotlight heading text._
 
 ### Heading Text Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Spotlight', 'Heading Text Color')]]
@@ -207,11 +207,11 @@ The Spotlight heading text.
 |:----:|:-------:|
 |number|&HFF3F51B5|
 
-The Spotlight heading text color.
+_The Spotlight heading text color._
 
 ### Heading Text Size
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Spotlight', 'Heading Text Size')]]
@@ -220,11 +220,11 @@ The Spotlight heading text color.
 |:----:|:-------:|
 |number|32|
 
-The Spotlight heading size.
+_The Spotlight heading size._
 
 ### Intro Animation Duration
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Spotlight', 'Intro Animation Duration')]]
@@ -233,11 +233,11 @@ The Spotlight heading size.
 |:----:|:-------:|
 |number|400|
 
-Intro animation duration (For Reveal and Fadein).
+_Intro animation duration (For Reveal and Fadein)._
 
 ### Line And Arc Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Spotlight', 'Line And Arc Color')]]
@@ -246,11 +246,11 @@ Intro animation duration (For Reveal and Fadein).
 |:----:|:-------:|
 |number|&HFF3F51B5|
 
-The Spotlight line and arc color.
+_The Spotlight line and arc color._
 
 ### Line Animation Duration
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Spotlight', 'Line Animation Duration')]]
@@ -259,11 +259,11 @@ The Spotlight line and arc color.
 |:----:|:-------:|
 |number|400|
 
-Line animation duration
+_Line animation duration_
 
 ### Mask Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Spotlight', 'Mask Color')]]
@@ -272,11 +272,11 @@ Line animation duration
 |:----:|:-------:|
 |number|&Hbe000000|
 
-The Spotlight mask color
+_The Spotlight mask color_
 
 ### Show Target Arc
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Spotlight', 'Show Target Arc')]]
@@ -285,11 +285,11 @@ The Spotlight mask color
 |:----:|:-------:|
 |boolean|True|
 
-If set to true you will see a half round circle below the spotlight circle.
+_If set to true you will see a half round circle below the spotlight circle._
 
 ### Subheading Text
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Spotlight', 'Subheading Text')]]
@@ -298,11 +298,11 @@ If set to true you will see a half round circle below the spotlight circle.
 |:----:|
 |text|
 
-The Spotlight subheading text.
+_The Spotlight subheading text._
 
 ### Subheading Text Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Spotlight', 'Subheading Text Color')]]
@@ -311,11 +311,11 @@ The Spotlight subheading text.
 |:----:|:-------:|
 |number|&HFFFFFFFF|
 
-The Spotlight subheading text color.
+_The Spotlight subheading text color._
 
 ### Subheading Text Size
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Spotlight', 'Subheading Text Size')]]
@@ -324,4 +324,4 @@ The Spotlight subheading text color.
 |:----:|:-------:|
 |number|16|
 
-The Spotlight subheading text size.
+_The Spotlight subheading text size._

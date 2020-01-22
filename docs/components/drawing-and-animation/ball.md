@@ -20,11 +20,11 @@ _<p>A round 'sprite' that can be placed on a <code>Canvas</code>, where it can r
     |other|`component`|
 
 
-Event handler called when two enabled sprites (Balls or ImageSprites)
+_Event handler called when two enabled sprites (Balls or ImageSprites)
  collide. Note that checking for collisions with a rotated ImageSprite currently
  checks against its unrotated position. Therefore, collision
  checking will be inaccurate for tall narrow or short wide sprites that are
- rotated.
+ rotated._
 
 ### Dragged
 
@@ -41,7 +41,7 @@ Event handler called when two enabled sprites (Balls or ImageSprites)
     |current Y|`number`|
 
 
-Event handler called when a Ball is dragged. On all calls, the starting coordinates are where the screen was first touched, and the "current" coordinates describe the endpoint of the current line segment. On the first call within a given drag, the "previous" coordinates are the same as the starting coordinates; subsequently, they are the "current" coordinates from the prior call. Note that the Ball won't actually move anywhere in response to the Dragged event unless MoveTo is explicitly called. For smooth movement, each of its coordinates should be set to the sum of its initial value and the difference between its current and previous values.
+_Event handler called when a Ball is dragged. On all calls, the starting coordinates are where the screen was first touched, and the "current" coordinates describe the endpoint of the current line segment. On the first call within a given drag, the "previous" coordinates are the same as the starting coordinates; subsequently, they are the "current" coordinates from the prior call. Note that the Ball won't actually move anywhere in response to the Dragged event unless MoveTo is explicitly called. For smooth movement, each of its coordinates should be set to the sum of its initial value and the difference between its current and previous values._
 
 ### Edge Reached
 
@@ -53,7 +53,7 @@ Event handler called when a Ball is dragged. On all calls, the starting coordina
     |edge|`number`|
 
 
-Event handler called when the Ball reaches an edge of the screen. If Bounce is then called with that edge, the Ball will appear to bounce off of the edge it reached. Edge here is represented as an integer that indicates one of eight directions north (1), northeast (2), east (3), southeast (4), south (-1), southwest (-2), west (-3), and northwest (-4).
+_Event handler called when the Ball reaches an edge of the screen. If Bounce is then called with that edge, the Ball will appear to bounce off of the edge it reached. Edge here is represented as an integer that indicates one of eight directions north (1), northeast (2), east (3), southeast (4), south (-1), southwest (-2), west (-3), and northwest (-4)._
 
 ### Flung
 
@@ -70,7 +70,7 @@ Event handler called when the Ball reaches an edge of the screen. If Bounce is t
     |y vel|`number`|
 
 
-Event handler called when a fling gesture (quick swipe) is made on an enabled Ball. This provides the x and y coordinates of the start of the fling (relative to the upper left of the canvas), the speed (pixels per millisecond), the heading (0-360 degrees), and the x and y velocity components of the fling's vector.
+_Event handler called when a fling gesture (quick swipe) is made on an enabled Ball. This provides the x and y coordinates of the start of the fling (relative to the upper left of the canvas), the speed (pixels per millisecond), the heading (0-360 degrees), and the x and y velocity components of the fling's vector._
 
 ### No Longer Colliding With
 
@@ -82,7 +82,7 @@ Event handler called when a fling gesture (quick swipe) is made on an enabled Ba
     |other|`component`|
 
 
-Event handler called when a pair of sprites (Balls and ImageSprites) are no longer colliding.
+_Event handler called when a pair of sprites (Balls and ImageSprites) are no longer colliding._
 
 ### Touch Down
 
@@ -95,7 +95,7 @@ Event handler called when a pair of sprites (Balls and ImageSprites) are no long
     |y|`number`|
 
 
-Event handler called when the user begins touching an enabled Ball (placing their finger on a Ball and leaving it there). This provides the x and y coordinates of the touch, relative to the upper left of the canvas.
+_Event handler called when the user begins touching an enabled Ball (placing their finger on a Ball and leaving it there). This provides the x and y coordinates of the touch, relative to the upper left of the canvas._
 
 ### Touch Up
 
@@ -108,7 +108,7 @@ Event handler called when the user begins touching an enabled Ball (placing thei
     |y|`number`|
 
 
-Event handler called when the user stops touching an enabled Ball (lifting their finger after a TouchDown event). This provides the x and y coordinates of the touch, relative to the upper left of the canvas.
+_Event handler called when the user stops touching an enabled Ball (lifting their finger after a TouchDown event). This provides the x and y coordinates of the touch, relative to the upper left of the canvas._
 
 ### Touched
 
@@ -121,7 +121,7 @@ Event handler called when the user stops touching an enabled Ball (lifting their
     |y|`number`|
 
 
-Event handler called when the user touches an enabled Ball and then immediately lifts their finger. The provided x and y coordinates are relative to the upper left of the canvas.
+_Event handler called when the user touches an enabled Ball and then immediately lifts their finger. The provided x and y coordinates are relative to the upper left of the canvas._
 
 ## Methods
 
@@ -135,7 +135,7 @@ Event handler called when the user touches an enabled Ball and then immediately 
     |edge|`number`|
 
 
-Makes the Ball bounce, as if off a wall. For normal bouncing, the edge argument should be the one returned by EdgeReached.
+_Makes the Ball bounce, as if off a wall. For normal bouncing, the edge argument should be the one returned by EdgeReached._
 
 ### CollidingWith
 
@@ -149,13 +149,13 @@ Makes the Ball bounce, as if off a wall. For normal bouncing, the edge argument 
     |other|`component`|
 
 
-Indicates whether a collision has been registered between this Ball and the passed sprite (Ball or ImageSprite).
+_Indicates whether a collision has been registered between this Ball and the passed sprite (Ball or ImageSprite)._
 
 ### MoveIntoBounds
 
 [[Method('Ball', 'MoveIntoBounds', false)]]
 
-Moves the Ball back in bounds if part of it extends out of bounds, having no effect otherwise. If the Ball is too wide to fit on the canvas, this aligns the left side of the Ball with the left side of the canvas. If the Ball is too tall to fit on the canvas, this aligns the top side of the Ball with the top side of the canvas.
+_Moves the Ball back in bounds if part of it extends out of bounds, having no effect otherwise. If the Ball is too wide to fit on the canvas, this aligns the left side of the Ball with the left side of the canvas. If the Ball is too tall to fit on the canvas, this aligns the top side of the Ball with the top side of the canvas._
 
 ### MoveTo
 
@@ -168,7 +168,7 @@ Moves the Ball back in bounds if part of it extends out of bounds, having no eff
     |y|`number`|
 
 
-Sets the x and y coordinates of the Ball. If CenterAtOrigin is true, the center of the Ball will be placed here. Otherwise, the top left edge of the Ball will be placed at the specified coordinates.
+_Sets the x and y coordinates of the Ball. If CenterAtOrigin is true, the center of the Ball will be placed here. Otherwise, the top left edge of the Ball will be placed at the specified coordinates._
 
 ### PointInDirection
 
@@ -181,7 +181,7 @@ Sets the x and y coordinates of the Ball. If CenterAtOrigin is true, the center 
     |y|`number`|
 
 
-Sets the heading of the Ball toward the point with the coordinates (x, y).
+_Sets the heading of the Ball toward the point with the coordinates (x, y)._
 
 ### PointTowards
 
@@ -193,13 +193,13 @@ Sets the heading of the Ball toward the point with the coordinates (x, y).
     |target|`component`|
 
 
-Turns the Ball to point towards a designated target sprite (Ball or ImageSprite). The new heading will be parallel to the line joining the centerpoints of the two sprites.
+_Turns the Ball to point towards a designated target sprite (Ball or ImageSprite). The new heading will be parallel to the line joining the centerpoints of the two sprites._
 
 ## Properties
 
 ### Enabled
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Ball', 'Enabled')]]
@@ -208,11 +208,11 @@ Turns the Ball to point towards a designated target sprite (Ball or ImageSprite)
 |:----:|:-------:|
 |boolean|True|
 
-Controls whether the Ball moves and can be interacted with through collisions, dragging, touching, and flinging.
+_Controls whether the Ball moves and can be interacted with through collisions, dragging, touching, and flinging._
 
 ### Heading
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Ball', 'Heading')]]
@@ -221,12 +221,12 @@ Controls whether the Ball moves and can be interacted with through collisions, d
 |:----:|:-------:|
 |number|0|
 
-Sets heading in which sprite should move.  In addition to changing the
- local variables
+_Sets heading in which sprite should move.  In addition to changing the
+ local variables_
 
 ### Interval
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Ball', 'Interval')]]
@@ -235,11 +235,11 @@ Sets heading in which sprite should move.  In addition to changing the
 |:----:|:-------:|
 |number|100|
 
-The interval in milliseconds at which the Ball's position is updated.  For example, if the interval is 50 and the speed is 10, then every 50 milliseconds the sprite will move 10 pixels in the heading direction.
+_The interval in milliseconds at which the Ball's position is updated.  For example, if the interval is 50 and the speed is 10, then every 50 milliseconds the sprite will move 10 pixels in the heading direction._
 
 ### Origin At Center
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Ball', 'Origin At Center')]]
@@ -248,11 +248,11 @@ The interval in milliseconds at which the Ball's position is updated.  For examp
 |:----:|:-------:|
 |boolean|False|
 
-Whether the x- and y-coordinates should represent the center of the Ball (<code>true</code>) or its left and top edges (<code>false</code>).
+_Whether the x- and y-coordinates should represent the center of the Ball (<code>true</code>) or its left and top edges (<code>false</code>)._
 
 ### Paint Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Ball', 'Paint Color')]]
@@ -261,11 +261,11 @@ Whether the x- and y-coordinates should represent the center of the Ball (<code>
 |:----:|:-------:|
 |number|&HFF000000|
 
-The color of the Ball.
+_The color of the Ball._
 
 ### Radius
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Ball', 'Radius')]]
@@ -274,11 +274,11 @@ The color of the Ball.
 |:----:|:-------:|
 |number|5|
 
-The distance from the edge of the Ball to its center.
+_The distance from the edge of the Ball to its center._
 
 ### Speed
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Ball', 'Speed')]]
@@ -287,11 +287,11 @@ The distance from the edge of the Ball to its center.
 |:----:|:-------:|
 |number|0.0|
 
-The number of pixels that the Ball should move every interval, if enabled.
+_The number of pixels that the Ball should move every interval, if enabled._
 
 ### Visible
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Ball', 'Visible')]]
@@ -300,11 +300,11 @@ The number of pixels that the Ball should move every interval, if enabled.
 |:----:|:-------:|
 |boolean|True|
 
-Whether the Ball is visible.
+_Whether the Ball is visible._
 
 ### X
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Ball', 'X')]]
@@ -313,11 +313,11 @@ Whether the Ball is visible.
 |:----:|:-------:|
 |number|0.0|
 
-The horizontal coordinate of the Ball, increasing as the Ball moves right. If the property OriginAtCenter is true, the coodinate is for the center of the Ball; otherwise, it is for the leftmost point of the Ball.
+_The horizontal coordinate of the Ball, increasing as the Ball moves right. If the property OriginAtCenter is true, the coodinate is for the center of the Ball; otherwise, it is for the leftmost point of the Ball._
 
 ### Y
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Ball', 'Y')]]
@@ -326,11 +326,11 @@ The horizontal coordinate of the Ball, increasing as the Ball moves right. If th
 |:----:|:-------:|
 |number|0.0|
 
-The vertical coordinate of the Ball, increasing as the Ball moves down. If the property OriginAtCenter is true, the coodinate is for the center of the Ball; otherwise, it is for the uppermost point of the Ball.
+_The vertical coordinate of the Ball, increasing as the Ball moves down. If the property OriginAtCenter is true, the coodinate is for the center of the Ball; otherwise, it is for the uppermost point of the Ball._
 
 ### Z
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Ball', 'Z')]]
@@ -339,5 +339,5 @@ The vertical coordinate of the Ball, increasing as the Ball moves down. If the p
 |:----:|:-------:|
 |number|1.0|
 
-Sets the layer of the sprite, indicating whether it will appear in
- front of or behind other sprites.
+_Sets the layer of the sprite, indicating whether it will appear in
+ front of or behind other sprites._

@@ -14,7 +14,7 @@ _Top-level component containing all other components in the program._
 
 [[Event('Form', 'Back Pressed')]]
 
-Device back button pressed.
+_Device back button pressed._
 
 ### Error Occurred
 
@@ -29,7 +29,7 @@ Device back button pressed.
     |message|`text`|
 
 
-Event raised when an error occurs. Only some errors will raise this condition.  For those errors, the system will show a notification by default.  You can use this event handler to prescribe an error behavior different than the default.
+_Event raised when an error occurs. Only some errors will raise this condition.  For those errors, the system will show a notification by default.  You can use this event handler to prescribe an error behavior different than the default._
 
 ### Got Received Shared
 
@@ -42,13 +42,13 @@ Event raised when an error occurs. Only some errors will raise this condition.  
     |value|`text`|
 
 
-Event to detect that a user shared content to your app throw the sharing dialog of any other app. Type stand for integer. 0 = nothing shared, 1 = audio, 2 = image, 3 = text or 4 = video
+_Event to detect that a user shared content to your app throw the sharing dialog of any other app. Type stand for integer. 0 = nothing shared, 1 = audio, 2 = image, 3 = text or 4 = video_
 
 ### Initialize
 
 [[Event('Form', 'Initialize')]]
 
-Screen starting
+_Screen starting_
 
 ### Keyboard Visibility Changed
 
@@ -60,13 +60,13 @@ Screen starting
     |is Keyboard Visible|`boolean`|
 
 
-Event will be invoked if the keyboard was visible or invisible.
+_Event will be invoked if the keyboard was visible or invisible._
 
 ### Menu Initialize
 
 [[Event('Form', 'Menu Initialize')]]
 
-Event to detect when the menu has loaded. Set here your blocks like TitleBarIcon or AddMenuItem.
+_Event to detect when the menu has loaded. Set here your blocks like TitleBarIcon or AddMenuItem._
 
 ### Menu Item Selected
 
@@ -78,25 +78,25 @@ Event to detect when the menu has loaded. Set here your blocks like TitleBarIcon
     |menu Item|`text`|
 
 
-Event to detect when a menu item has been selected.
+_Event to detect when a menu item has been selected._
 
 ### On App Pause
 
 [[Event('Form', 'On App Pause')]]
 
-The system calls this method as the first indication that the user is leaving your activity (though it does not always mean the activity is being destroyed).
+_The system calls this method as the first indication that the user is leaving your activity (though it does not always mean the activity is being destroyed)._
 
 ### On App Resume
 
 [[Event('Form', 'On App Resume')]]
 
-When the activity enters the Resumed state, it comes to the foreground, and then the system invokes this event.
+_When the activity enters the Resumed state, it comes to the foreground, and then the system invokes this event._
 
 ### On App Stop
 
 [[Event('Form', 'On App Stop')]]
 
-When your activity is no longer visible to the user, it has entered the Stopped state, and the system invokes this event.
+_When your activity is no longer visible to the user, it has entered the Stopped state, and the system invokes this event._
 
 ### Other Screen Closed
 
@@ -109,7 +109,7 @@ When your activity is no longer visible to the user, it has entered the Stopped 
     |result|`any`|
 
 
-Event raised when another screen has closed and control has returned to this screen.
+_Event raised when another screen has closed and control has returned to this screen._
 
 ### Permission Denied
 
@@ -123,7 +123,7 @@ Event raised when another screen has closed and control has returned to this scr
     |permission Name|`text`|
 
 
-Event to handle when the app user has denied a needed permission.
+_Event to handle when the app user has denied a needed permission._
 
 ### Permission Granted
 
@@ -135,26 +135,26 @@ Event to handle when the app user has denied a needed permission.
     |permission Name|`text`|
 
 
-Event to handle when the app user has granted a needed permission. This event is only run when permission is
- granted in response to the AskForPermission method.
+_Event to handle when the app user has granted a needed permission. This event is only run when permission is
+ granted in response to the AskForPermission method._
 
 ### Screen Orientation Changed
 
 [[Event('Form', 'Screen Orientation Changed')]]
 
-Screen orientation changed
+_Screen orientation changed_
 
 ### Side Menu Closed
 
 [[Event('Form', 'Side Menu Closed')]]
 
-Event will be invoked if the side menu was closed.
+_Event will be invoked if the side menu was closed._
 
 ### Side Menu Opened
 
 [[Event('Form', 'Side Menu Opened')]]
 
-Event will be invoked if the side menu was opened.
+_Event will be invoked if the side menu was opened._
 
 ### Title Bar Icon Selected
 
@@ -167,13 +167,13 @@ Event will be invoked if the side menu was opened.
     |name|`text`|
 
 
-The event returns the 'icon' or 'name' of the selected icon.
+_The event returns the 'icon' or 'name' of the selected icon._
 
 ### Title Bar Back Button Clicked
 
 [[Event('Form', 'Title Bar Back Button Clicked')]]
 
-Event to detect when a menu item has been selected.
+_Event to detect when a menu item has been selected._
 
 ## Methods
 
@@ -187,7 +187,7 @@ Event to detect when a menu item has been selected.
     |menu Item|`list`|
 
 
-Add a new item to the menu. Use the 'make a list' block.
+_Add a new item to the menu. Use the 'make a list' block._
 
 ### AddMenuItemWithIcon
 
@@ -200,7 +200,7 @@ Add a new item to the menu. Use the 'make a list' block.
     |menu Icon|`text`|
 
 
-Add a new item with a icon on the left side to the menu. This function does not use the make a list block. If you want more items with icon then use this block again.
+_Add a new item with a icon on the left side to the menu. This function does not use the make a list block. If you want more items with icon then use this block again._
 
 ### AddTitleBarIcon
 
@@ -213,7 +213,7 @@ Add a new item with a icon on the left side to the menu. This function does not 
     |name|`text`|
 
 
-Add a new action icon to the TitleBar. You will see a toast message on a long click with your choosen name. Add this block to the "MenuInitialize" event.
+_Add a new action icon to the TitleBar. You will see a toast message on a long click with your choosen name. Add this block to the "MenuInitialize" event._
 
 ### ArePermissionsGranted
 
@@ -221,7 +221,7 @@ Add a new action icon to the TitleBar. You will see a toast message on a long cl
 
 {>>Returns `boolean`<<}
 
-Returns true if ALL needed app permissions were granted, else false.
+_Returns true if ALL needed app permissions were granted, else false._
 
 ### AskForPermission
 
@@ -233,7 +233,7 @@ Returns true if ALL needed app permissions were granted, else false.
     |permission Name|`text`|
 
 
-Ask the user to grant access to a dangerous permission.
+_Ask the user to grant access to a dangerous permission._
 
 ### CanWriteSystemSettings
 
@@ -241,67 +241,67 @@ Ask the user to grant access to a dangerous permission.
 
 {>>Returns `boolean`<<}
 
-Returns true if the app can write system settings, else it returns false. It will return true automatic for devices with android version below 6 (API 23).
+_Returns true if the app can write system settings, else it returns false. It will return true automatic for devices with android version below 6 (API 23)._
 
 ### HideKeyboard
 
 [[Method('Form', 'HideKeyboard', false)]]
 
-Hide the keyboard.
+_Hide the keyboard._
 
 ### LockSideMenu
 
 [[Method('Form', 'LockSideMenu', false)]]
 
-Use this block to lock the side menu. This means the user can not open the side menu until the side menu  unlock block is used.
+_Use this block to lock the side menu. This means the user can not open the side menu until the side menu  unlock block is used._
 
 ### MoveTaskToBack
 
 [[Method('Form', 'MoveTaskToBack', false)]]
 
-Move task to back. That means it will minimize your current app.
+_Move task to back. That means it will minimize your current app._
 
 ### OpenAppSettings
 
 [[Method('Form', 'OpenAppSettings', false)]]
 
-Opens the settings screen of the app. Useful if 'Are Permissions Granted' has returned false.
+_Opens the settings screen of the app. Useful if 'Are Permissions Granted' has returned false._
 
 ### OpenSystemWriteSettings
 
 [[Method('Form', 'OpenSystemWriteSettings', false)]]
 
-Opens the app's system settings page. This works only for devices with android 6+.
+_Opens the app's system settings page. This works only for devices with android 6+._
 
 ### RemoveSideMenu
 
 [[Method('Form', 'RemoveSideMenu', false)]]
 
-Remove a first created side menu. This block will be usefull if you need to update a side menu dynamically. You can use this block too to test a side menu in the companion. Add then this block above of the 'Side Menu' block.
+_Remove a first created side menu. This block will be usefull if you need to update a side menu dynamically. You can use this block too to test a side menu in the companion. Add then this block above of the 'Side Menu' block._
 
 ### RemoveTitleBarIcons
 
 [[Method('Form', 'RemoveTitleBarIcons', false)]]
 
-Remove all added action icons from the TitleBar.
+_Remove all added action icons from the TitleBar._
 
 ### ResetMenu
 
 [[Method('Form', 'ResetMenu', false)]]
 
-Reset the menu back to its default
+_Reset the menu back to its default_
 
 ### ShowAboutApplication
 
 [[Method('Form', 'ShowAboutApplication', false)]]
 
-Show the dialog which shows when pressing the "About This Application" button in the menu.
+_Show the dialog which shows when pressing the "About This Application" button in the menu._
 
 ### ShowKeyboard
 
 [[Method('Form', 'ShowKeyboard', false)]]
 
-Show the keyboard
+_Show the keyboard_
 
 ### SideMenu
 
@@ -313,19 +313,19 @@ Show the keyboard
     |layout|`component`|
 
 
-Create a Side Menu. Set to "layout" your layout that will be then your side menu. Use as example a vertical arrangement. Your choosen layout will be then removed from the screen and only visible in the side menu."Information": This block works on companion only if you add a side menu on button click.Don’t add it in companion on "screen initialize event". Else the companion will crash.Do NOT use this block with the Side Menu Layout component
+_Create a Side Menu. Set to "layout" your layout that will be then your side menu. Use as example a vertical arrangement. Your choosen layout will be then removed from the screen and only visible in the side menu."Information": This block works on companion only if you add a side menu on button click.Don’t add it in companion on "screen initialize event". Else the companion will crash.Do NOT use this block with the Side Menu Layout component_
 
 ### SideMenuClose
 
 [[Method('Form', 'SideMenuClose', false)]]
 
-If you had set your side menu then you can use this block to close it as example with a button click.
+_If you had set your side menu then you can use this block to close it as example with a button click._
 
 ### SideMenuOpen
 
 [[Method('Form', 'SideMenuOpen', false)]]
 
-If you had set your side menu then you can use this block to open it as example with a button click.
+_If you had set your side menu then you can use this block to open it as example with a button click._
 
 ### TaskDescription
 
@@ -338,13 +338,13 @@ If you had set your side menu then you can use this block to open it as example 
     |color|`number`|
 
 
-Sets information describing the task with this activity for presentation inside the Recents System UI. You will see the settings if the device API is >= 21 and you minimize the app.
+_Sets information describing the task with this activity for presentation inside the Recents System UI. You will see the settings if the device API is >= 21 and you minimize the app._
 
 ### UnlockSideMenu
 
 [[Method('Form', 'UnlockSideMenu', false)]]
 
-Use this block to unlock the side menu. This means the user can now open again the side menu.
+_Use this block to unlock the side menu. This means the user can now open again the side menu._
 
 ### VersionCode
 
@@ -352,7 +352,7 @@ Use this block to unlock the side menu. This means the user can now open again t
 
 {>>Returns `number`<<}
 
-This block will returns the version code
+_This block will returns the version code_
 
 ### VersionName
 
@@ -360,13 +360,13 @@ This block will returns the version code
 
 {>>Returns `text`<<}
 
-This block will returns the version name
+_This block will returns the version name_
 
 ## Properties
 
 ### About Screen
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Form', 'About Screen')]]
@@ -375,11 +375,11 @@ This block will returns the version name
 |:----:|
 |text|
 
-Information about the screen.  It appears when "About this Application" is selected from the system menu. Use it to inform people about your app.  In multiple screen apps, each screen has its own AboutScreen info.
+_Information about the screen.  It appears when "About this Application" is selected from the system menu. Use it to inform people about your app.  In multiple screen apps, each screen has its own AboutScreen info._
 
 ### About Screen Background Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Form', 'About Screen Background Color')]]
@@ -392,7 +392,7 @@ _No description available_
 
 ### About Screen Light Theme
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Form', 'About Screen Light Theme')]]
@@ -405,7 +405,7 @@ _No description available_
 
 ### About Screen Title
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Form', 'About Screen Title')]]
@@ -414,11 +414,11 @@ _No description available_
 |:----:|:-------:|
 |text|About this application|
 
-Define the title of the about application option.
+_Define the title of the about application option._
 
 ### Accent Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Form', 'Accent Color')]]
@@ -427,11 +427,11 @@ Define the title of the about application option.
 |:----:|:-------:|
 |number|&HFFFF4081|
 
-This is the accent color used for highlights and other user interface accents.
+_This is the accent color used for highlights and other user interface accents._
 
 ### Align Horizontal
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Form', 'Align Horizontal')]]
@@ -440,11 +440,11 @@ This is the accent color used for highlights and other user interface accents.
 |:----:|:-------:|
 |number|1|
 
-A number that encodes how contents of the screen are aligned  horizontally. The choices are: 1 = left aligned, 2 = horizontally centered,  3 = right aligned.
+_A number that encodes how contents of the screen are aligned  horizontally. The choices are: 1 = left aligned, 2 = horizontally centered,  3 = right aligned._
 
 ### Align Vertical
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Form', 'Align Vertical')]]
@@ -453,11 +453,11 @@ A number that encodes how contents of the screen are aligned  horizontally. The 
 |:----:|:-------:|
 |number|1|
 
-A number that encodes how the contents of the arrangement are aligned vertically. The choices are: 1 = aligned at the top, 2 = vertically centered, 3 = aligned at the bottom. Vertical alignment has no effect if the screen is scrollable.
+_A number that encodes how the contents of the arrangement are aligned vertically. The choices are: 1 = aligned at the top, 2 = vertically centered, 3 = aligned at the bottom. Vertical alignment has no effect if the screen is scrollable._
 
 ### App ID
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Form', 'App ID')]]
@@ -466,11 +466,11 @@ A number that encodes how the contents of the arrangement are aligned vertically
 |:----:|
 |text|
 
-The unique APP_ID for the user (which is generated by GWT and stored in Datastore)
+_The unique APP_ID for the user (which is generated by GWT and stored in Datastore)_
 
 ### App Name
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Form', 'App Name')]]
@@ -479,11 +479,11 @@ The unique APP_ID for the user (which is generated by GWT and stored in Datastor
 |:----:|
 |text|
 
-This is the display name of the installed application in the phone.If the AppName is blank, it will be set to the name of the project when the project is built.
+_This is the display name of the installed application in the phone.If the AppName is blank, it will be set to the name of the project when the project is built._
 
 ### Background Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Form', 'Background Color')]]
@@ -492,11 +492,11 @@ This is the display name of the installed application in the phone.If the AppNam
 |:----:|:-------:|
 |number|&HFFFFFFFF|
 
-BackgroundColor property getter method.
+_BackgroundColor property getter method._
 
 ### Background Image
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Form', 'Background Image')]]
@@ -505,11 +505,11 @@ BackgroundColor property getter method.
 |:----:|
 |text|
 
-The screen background image.
+_The screen background image._
 
 ### Close Screen Animation
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Form', 'Close Screen Animation')]]
@@ -518,11 +518,11 @@ The screen background image.
 |:----:|:-------:|
 |text|default|
 
-The animation for closing current screen and returning  to the previous screen. Valid options are default, fade, zoom, slidehorizontal, slidevertical, and none
+_The animation for closing current screen and returning  to the previous screen. Valid options are default, fade, zoom, slidehorizontal, slidevertical, and none_
 
 ### High Quality Images
 
-<small>Available as Advanced Property</small>
+<small>Available as ^^Advanced^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Form', 'High Quality Images')]]
@@ -531,11 +531,11 @@ The animation for closing current screen and returning  to the previous screen. 
 |:----:|:-------:|
 |boolean|False|
 
-If set to true, pictures will be loaded in high quality.
+_If set to true, pictures will be loaded in high quality._
 
 ### Icon
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Form', 'Icon')]]
@@ -544,11 +544,11 @@ If set to true, pictures will be loaded in high quality.
 |:----:|
 |text|
 
-Specifies the name of the application icon.
+_Specifies the name of the application icon._
 
 ### Keep Screen On
 
-<small>Available as Advanced Property</small>
+<small>Available as ^^Advanced^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Form', 'Keep Screen On')]]
@@ -557,11 +557,11 @@ Specifies the name of the application icon.
 |:----:|:-------:|
 |boolean|False|
 
-Keep the device's screen turned on and bright.
+_Keep the device's screen turned on and bright._
 
 ### Min SDK (Min. Android Version)
 
-<small>Available as Advanced Property</small>
+<small>Available as ^^Advanced^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Form', 'Min SDK (Min. Android Version)')]]
@@ -574,7 +574,7 @@ _No description available_
 
 ### Navigation Bar Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Form', 'Navigation Bar Color')]]
@@ -583,11 +583,11 @@ _No description available_
 |:----:|:-------:|
 |number|&HFF000000|
 
-Set navigation bar color. This will work starting from API Level 21 (Android Lollipop)
+_Set navigation bar color. This will work starting from API Level 21 (Android Lollipop)_
 
 ### Open Screen Animation
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Form', 'Open Screen Animation')]]
@@ -596,11 +596,11 @@ Set navigation bar color. This will work starting from API Level 21 (Android Lol
 |:----:|:-------:|
 |text|default|
 
-The animation for switching to another screen. Valid options are default, fade, zoom, slidehorizontal, slidevertical, and none
+_The animation for switching to another screen. Valid options are default, fade, zoom, slidehorizontal, slidevertical, and none_
 
 ### Package Name
 
-<small>Available as Advanced Property</small>
+<small>Available as ^^Advanced^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Form', 'Package Name')]]
@@ -609,11 +609,11 @@ The animation for switching to another screen. Valid options are default, fade, 
 |:----:|
 |text|
 
-Set a custom PackageName for the app
+_Set a custom PackageName for the app_
 
 ### Primary Color / Title Bar
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Form', 'Primary Color / Title Bar')]]
@@ -622,11 +622,11 @@ Set a custom PackageName for the app
 |:----:|:-------:|
 |number|&HFF3F51B5|
 
-This is the primary color used for Material UI elements, such as the ActionBar.
+_This is the primary color used for Material UI elements, such as the ActionBar._
 
 ### Primary Color Dark / Status Bar
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Form', 'Primary Color Dark / Status Bar')]]
@@ -635,11 +635,11 @@ This is the primary color used for Material UI elements, such as the ActionBar.
 |:----:|:-------:|
 |number|&HFF303F9F|
 
-This is the primary color used for darker elements in Material UI.
+_This is the primary color used for darker elements in Material UI._
 
 ### RTL Support
 
-<small>Available as Advanced Property</small>
+<small>Available as ^^Advanced^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Form', 'RTL Support')]]
@@ -652,7 +652,7 @@ _No description available_
 
 ### Receive Shared Files
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Form', 'Receive Shared Files')]]
@@ -665,7 +665,7 @@ _No description available_
 
 ### Screen Orientation
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Form', 'Screen Orientation')]]
@@ -674,11 +674,11 @@ _No description available_
 |:----:|:-------:|
 |text|unspecified|
 
-The requested screen orientation, specified as a text value.  Commonly used values are landscape, portrait, sensor, user and unspecified.  See the Android developer documentation for ActivityInfo.Screen_Orientation for the complete list of possible settings.
+_The requested screen orientation, specified as a text value.  Commonly used values are landscape, portrait, sensor, user and unspecified.  See the Android developer documentation for ActivityInfo.Screen_Orientation for the complete list of possible settings._
 
 ### Scrollable
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Form', 'Scrollable')]]
@@ -687,11 +687,11 @@ The requested screen orientation, specified as a text value.  Commonly used valu
 |:----:|:-------:|
 |boolean|False|
 
-When checked, there will be a vertical scrollbar on the screen, and the height of the application can exceed the physical height of the device. When unchecked, the application height is constrained to the height of the device.
+_When checked, there will be a vertical scrollbar on the screen, and the height of the application can exceed the physical height of the device. When unchecked, the application height is constrained to the height of the device._
 
 ### Show Lists As Json
 
-<small>Available as Advanced Property</small>
+<small>Available as ^^Advanced^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Form', 'Show Lists As Json')]]
@@ -700,11 +700,11 @@ When checked, there will be a vertical scrollbar on the screen, and the height o
 |:----:|:-------:|
 |boolean|False|
 
-If false, lists will be converted to strings using Lisp notation, i.e., as symbols separated by spaces, e.g., (a 1 b2 (c d). If true, lists will appear as in Json or Python, e.g.  ["a", 1, "b", 2, ["c", "d"]].  This property appears only in Screen 1, and the value for Screen 1 determines the behavior for all screens. The property defaults to "false" meaning that the App Inventor programmer must explicitly set it to "true" if JSON/Python syntax is desired. At some point in the future we will alter the system so that new projects are created with this property set to "true" by default. Existing projects will not be impacted. The App Inventor programmer can also set it back to "false" in newer projects if desired.
+_If false, lists will be converted to strings using Lisp notation, i.e., as symbols separated by spaces, e.g., (a 1 b2 (c d). If true, lists will appear as in Json or Python, e.g.  ["a", 1, "b", 2, ["c", "d"]].  This property appears only in Screen 1, and the value for Screen 1 determines the behavior for all screens. The property defaults to "false" meaning that the App Inventor programmer must explicitly set it to "true" if JSON/Python syntax is desired. At some point in the future we will alter the system so that new projects are created with this property set to "true" by default. Existing projects will not be impacted. The App Inventor programmer can also set it back to "false" in newer projects if desired._
 
 ### Show Navigation Bar
 
-<small>Available as Experimental Property</small>
+<small>Available as ^^Experimental^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Form', 'Show Navigation Bar')]]
@@ -713,11 +713,11 @@ If false, lists will be converted to strings using Lisp notation, i.e., as symbo
 |:----:|:-------:|
 |boolean|True|
 
-Show/Hide Navigation Bar
+_Show/Hide Navigation Bar_
 
 ### Show Options Menu
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Form', 'Show Options Menu')]]
@@ -730,7 +730,7 @@ _No description available_
 
 ### Show Status Bar
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Form', 'Show Status Bar')]]
@@ -739,11 +739,11 @@ _No description available_
 |:----:|:-------:|
 |boolean|True|
 
-The status bar is the topmost bar on the screen. This property reports whether the status bar is visible.
+_The status bar is the topmost bar on the screen. This property reports whether the status bar is visible._
 
 ### Sizing
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Form', 'Sizing')]]
@@ -752,11 +752,11 @@ The status bar is the topmost bar on the screen. This property reports whether t
 |:----:|:-------:|
 |text|Responsive|
 
-If set to fixed,  screen layouts will be created for a single fixed-size screen and autoscaled. If set to responsive, screen layouts will use the actual resolution of the device.  See the documentation on responsive design in App Inventor for more information. This property appears on Screen1 only and controls the sizing for all screens in the app.
+_If set to fixed,  screen layouts will be created for a single fixed-size screen and autoscaled. If set to responsive, screen layouts will use the actual resolution of the device.  See the documentation on responsive design in App Inventor for more information. This property appears on Screen1 only and controls the sizing for all screens in the app._
 
 ### Splash Enabled
 
-<small>Available as Advanced Property</small>
+<small>Available as ^^Advanced^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Form', 'Splash Enabled')]]
@@ -765,11 +765,11 @@ If set to fixed,  screen layouts will be created for a single fixed-size screen 
 |:----:|:-------:|
 |boolean|True|
 
-If set to true the user will see a splash screen while the app is loading the content.
+_If set to true the user will see a splash screen while the app is loading the content._
 
 ### Splash Image
 
-<small>Available as Advanced Property</small>
+<small>Available as ^^Advanced^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Form', 'Splash Image')]]
@@ -782,7 +782,7 @@ _No description available_
 
 ### Theme
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Form', 'Theme')]]
@@ -791,11 +791,11 @@ _No description available_
 |:----:|:-------:|
 |text|AppTheme|
 
-Sets the theme used by the application.
+_Sets the theme used by the application._
 
 ### Title
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Form', 'Title')]]
@@ -804,11 +804,11 @@ Sets the theme used by the application.
 |:----:|
 |text|
 
-The caption for the form, which apears in the title bar
+_The caption for the form, which apears in the title bar_
 
 ### Title Bar Font Typeface
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Form', 'Title Bar Font Typeface')]]
@@ -821,7 +821,7 @@ _No description available_
 
 ### Title Bar Subtitle
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Form', 'Title Bar Subtitle')]]
@@ -830,11 +830,11 @@ _No description available_
 |:----:|
 |text|
 
-Set the TitleBar's subtitle.
+_Set the TitleBar's subtitle._
 
 ### Title Bar Typeface Import
 
-<small>Available as Advanced Property</small>
+<small>Available as ^^Advanced^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Form', 'Title Bar Typeface Import')]]
@@ -843,11 +843,11 @@ Set the TitleBar's subtitle.
 |:----:|
 |text|
 
-Set a custom font.
+_Set a custom font._
 
 ### Title Visible
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Form', 'Title Visible')]]
@@ -856,11 +856,11 @@ Set a custom font.
 |:----:|:-------:|
 |boolean|True|
 
-The title bar is the top gray bar on the screen. This property reports whether the title bar is visible.
+_The title bar is the top gray bar on the screen. This property reports whether the title bar is visible._
 
 ### Tutorial URL
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Form', 'Tutorial URL')]]
@@ -869,11 +869,11 @@ The title bar is the top gray bar on the screen. This property reports whether t
 |:----:|
 |text|
 
-A URL to use to populate the Tutorial Sidebar while editing a project. Used as a teaching aid.
+_A URL to use to populate the Tutorial Sidebar while editing a project. Used as a teaching aid._
 
 ### Version Code
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Form', 'Version Code')]]
@@ -882,11 +882,11 @@ A URL to use to populate the Tutorial Sidebar while editing a project. Used as a
 |:----:|:-------:|
 |number|1|
 
-An integer value which must be incremented each time a new Android Application Package File (APK) is created for the Google Play Store.
+_An integer value which must be incremented each time a new Android Application Package File (APK) is created for the Google Play Store._
 
 ### Version Name
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Form', 'Version Name')]]
@@ -895,11 +895,9 @@ An integer value which must be incremented each time a new Android Application P
 |:----:|:-------:|
 |text|1.0|
 
-A string which can be changed to allow Google Play Store users to distinguish between different versions of the App.
+_A string which can be changed to allow Google Play Store users to distinguish between different versions of the App._
 
 ### Drawer Arrow Icon Color
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Form', 'Drawer Arrow Icon Color')]]
@@ -908,11 +906,9 @@ A string which can be changed to allow Google Play Store users to distinguish be
 |:----:|:-------:|
 |number|None|
 
-Set the drawer arrow icon color.
+_Set the drawer arrow icon color._
 
 ### Height
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Form', 'Height')]]
@@ -921,11 +917,9 @@ Set the drawer arrow icon color.
 |:----:|:-------:|
 |number|None|
 
-Screen height (y-size).
+_Screen height (y-size)._
 
 ### Is Companion
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Form', 'Is Companion')]]
@@ -934,11 +928,9 @@ Screen height (y-size).
 |:----:|:-------:|
 |boolean|None|
 
-This block will return true, if you are running your project current in the companion application. Else it will return false.
+_This block will return true, if you are running your project current in the companion application. Else it will return false._
 
 ### is Side Menu Added
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Form', 'is Side Menu Added')]]
@@ -947,11 +939,9 @@ This block will return true, if you are running your project current in the comp
 |:----:|:-------:|
 |boolean|None|
 
-Returns true if a side menu is added to the screen.
+_Returns true if a side menu is added to the screen._
 
 ### is Side Menu Open
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Form', 'is Side Menu Open')]]
@@ -960,11 +950,9 @@ Returns true if a side menu is added to the screen.
 |:----:|:-------:|
 |boolean|None|
 
-Returns true if a side menu is current open. Else it will return false.
+_Returns true if a side menu is current open. Else it will return false._
 
 ### Navigation Bar Light Icons
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Form', 'Navigation Bar Light Icons')]]
@@ -973,11 +961,9 @@ Returns true if a side menu is current open. Else it will return false.
 |:----:|:-------:|
 |boolean|None|
 
-This option tells the system to use dark navigation bar icons, useful for lighter colored navigation bars. Works only for devices with API >= 26.
+_This option tells the system to use dark navigation bar icons, useful for lighter colored navigation bars. Works only for devices with API >= 26._
 
 ### Navigation Icon Color
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Form', 'Navigation Icon Color')]]
@@ -986,11 +972,9 @@ This option tells the system to use dark navigation bar icons, useful for lighte
 |:----:|:-------:|
 |number|None|
 
-Set the navigation icon color.
+_Set the navigation icon color._
 
 ### Options Menu Icon Color
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Form', 'Options Menu Icon Color')]]
@@ -999,11 +983,9 @@ Set the navigation icon color.
 |:----:|:-------:|
 |number|None|
 
-Set the options menu icon color.
+_Set the options menu icon color._
 
 ### Show Title Bar Back Button
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Form', 'Show Title Bar Back Button')]]
@@ -1012,11 +994,9 @@ Set the options menu icon color.
 |:----:|:-------:|
 |boolean|None|
 
-If true it will show in the TitleBar a back button only if no side menu was added. If a side menu was added it will remove the ‘hamburger’-menu icon but the side menu can still be opened.
+_If true it will show in the TitleBar a back button only if no side menu was added. If a side menu was added it will remove the ‘hamburger’-menu icon but the side menu can still be opened._
 
 ### Status Bar Color
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Form', 'Status Bar Color')]]
@@ -1025,11 +1005,9 @@ If true it will show in the TitleBar a back button only if no side menu was adde
 |:----:|:-------:|
 |number|None|
 
-Set status bar color. This will work starting from API Level 21 (Android Lollipop
+_Set status bar color. This will work starting from API Level 21 (Android Lollipop_
 
 ### Status Bar Light Icons
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Form', 'Status Bar Light Icons')]]
@@ -1038,11 +1016,9 @@ Set status bar color. This will work starting from API Level 21 (Android Lollipo
 |:----:|:-------:|
 |boolean|None|
 
-This option tells the system to use dark statusbar icons, useful for lighter colored status bars. Works only for devices with API >= 23.
+_This option tells the system to use dark statusbar icons, useful for lighter colored status bars. Works only for devices with API >= 23._
 
 ### Title Bar Color
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Form', 'Title Bar Color')]]
@@ -1051,11 +1027,9 @@ This option tells the system to use dark statusbar icons, useful for lighter col
 |:----:|:-------:|
 |number|None|
 
-Set title bar color
+_Set title bar color_
 
 ### Title Bar Text Color
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Form', 'Title Bar Text Color')]]
@@ -1064,11 +1038,9 @@ Set title bar color
 |:----:|:-------:|
 |number|None|
 
-Set a custom color for the TitleBar text.
+_Set a custom color for the TitleBar text._
 
 ### Width
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Form', 'Width')]]
@@ -1077,11 +1049,9 @@ Set a custom color for the TitleBar text.
 |:----:|:-------:|
 |number|None|
 
-Screen width (x-size).
+_Screen width (x-size)._
 
 ### is Keyboard Visible
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Form', 'is Keyboard Visible')]]
@@ -1090,4 +1060,4 @@ Screen width (x-size).
 |:----:|:-------:|
 |boolean|None|
 
-Returns the status of the keyboard. If the keyboard is visible then the result is true.
+_Returns the status of the keyboard. If the keyboard is visible then the result is true._

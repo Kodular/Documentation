@@ -16,13 +16,13 @@ _A component that provides a high-level interface to a color sensor on a LEGO MI
 
 [[Event('NXT Color Sensor', 'Above Range')]]
 
-Light level has gone above the range. The AboveRange event will not occur if the DetectColor property is set to True or if the AboveRangeEventEnabled property is set to False.
+_Light level has gone above the range. The AboveRange event will not occur if the DetectColor property is set to True or if the AboveRangeEventEnabled property is set to False._
 
 ### Below Range
 
 [[Event('NXT Color Sensor', 'Below Range')]]
 
-Light level has gone below the range. The BelowRange event will not occur if the DetectColor property is set to True or if the BelowRangeEventEnabled property is set to False.
+_Light level has gone below the range. The BelowRange event will not occur if the DetectColor property is set to True or if the BelowRangeEventEnabled property is set to False._
 
 ### Color Changed
 
@@ -34,13 +34,13 @@ Light level has gone below the range. The BelowRange event will not occur if the
     |color|`number`|
 
 
-Detected color has changed. The ColorChanged event will not occur if the DetectColor property is set to False or if the ColorChangedEventEnabled property is set to False.
+_Detected color has changed. The ColorChanged event will not occur if the DetectColor property is set to False or if the ColorChangedEventEnabled property is set to False._
 
 ### Within Range
 
 [[Event('NXT Color Sensor', 'Within Range')]]
 
-Light level has gone within the range. The WithinRange event will not occur if the DetectColor property is set to True or if the WithinRangeEventEnabled property is set to False.
+_Light level has gone within the range. The WithinRange event will not occur if the DetectColor property is set to True or if the WithinRangeEventEnabled property is set to False._
 
 ## Methods
 
@@ -50,7 +50,7 @@ Light level has gone within the range. The WithinRange event will not occur if t
 
 {>>Returns `number`<<}
 
-Returns the current detected color, or the color None if the color can not be read or if the DetectColor property is set to False.
+_Returns the current detected color, or the color None if the color can not be read or if the DetectColor property is set to False._
 
 ### GetLightLevel
 
@@ -58,13 +58,13 @@ Returns the current detected color, or the color None if the color can not be re
 
 {>>Returns `number`<<}
 
-Returns the current light level as a value between 0 and 1023, or -1 if the light level can not be read or if the DetectColor property is set to True.
+_Returns the current light level as a value between 0 and 1023, or -1 if the light level can not be read or if the DetectColor property is set to True._
 
 ## Properties
 
 ### Above Range Event Enabled
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('NXT Color Sensor', 'Above Range Event Enabled')]]
@@ -73,11 +73,11 @@ Returns the current light level as a value between 0 and 1023, or -1 if the ligh
 |:----:|:-------:|
 |boolean|False|
 
-Whether the AboveRange event should fire when the DetectColor property is set to False and the light level goes above the TopOfRange.
+_Whether the AboveRange event should fire when the DetectColor property is set to False and the light level goes above the TopOfRange._
 
 ### Below Range Event Enabled
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('NXT Color Sensor', 'Below Range Event Enabled')]]
@@ -86,11 +86,11 @@ Whether the AboveRange event should fire when the DetectColor property is set to
 |:----:|:-------:|
 |boolean|False|
 
-Whether the BelowRange event should fire when the DetectColor property is set to False and the light level goes below the BottomOfRange.
+_Whether the BelowRange event should fire when the DetectColor property is set to False and the light level goes below the BottomOfRange._
 
 ### Bluetooth Client
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('NXT Color Sensor', 'Bluetooth Client')]]
@@ -99,11 +99,11 @@ Whether the BelowRange event should fire when the DetectColor property is set to
 |:----:|
 |component|
 
-The BluetoothClient component that should be used for communication.
+_The BluetoothClient component that should be used for communication._
 
 ### Bottom Of Range
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('NXT Color Sensor', 'Bottom Of Range')]]
@@ -112,11 +112,11 @@ The BluetoothClient component that should be used for communication.
 |:----:|:-------:|
 |number|256|
 
-The bottom of the range used for the BelowRange, WithinRange, and AboveRange events.
+_The bottom of the range used for the BelowRange, WithinRange, and AboveRange events._
 
 ### Color Changed Event Enabled
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('NXT Color Sensor', 'Color Changed Event Enabled')]]
@@ -125,11 +125,11 @@ The bottom of the range used for the BelowRange, WithinRange, and AboveRange eve
 |:----:|:-------:|
 |boolean|False|
 
-Whether the ColorChanged event should fire when the DetectColor property is set to True and the detected color changes.
+_Whether the ColorChanged event should fire when the DetectColor property is set to True and the detected color changes._
 
 ### Detect Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('NXT Color Sensor', 'Detect Color')]]
@@ -138,11 +138,11 @@ Whether the ColorChanged event should fire when the DetectColor property is set 
 |:----:|:-------:|
 |boolean|True|
 
-Whether the sensor should detect color or light. True indicates that the sensor should detect color; False indicates that the sensor should detect light. If the DetectColor property is set to True, the BelowRange, WithinRange, and AboveRange events will not occur and the sensor will not generate color. If the DetectColor property is set to False, the ColorChanged event will not occur.
+_Whether the sensor should detect color or light. True indicates that the sensor should detect color; False indicates that the sensor should detect light. If the DetectColor property is set to True, the BelowRange, WithinRange, and AboveRange events will not occur and the sensor will not generate color. If the DetectColor property is set to False, the ColorChanged event will not occur._
 
 ### Generate Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('NXT Color Sensor', 'Generate Color')]]
@@ -151,11 +151,11 @@ Whether the sensor should detect color or light. True indicates that the sensor 
 |:----:|:-------:|
 |number|&H00FFFFFF|
 
-The color that should generated by the sensor. Only None, Red, Green, or Blue are valid values. The sensor will not generate color when the DetectColor property is set to True.
+_The color that should generated by the sensor. Only None, Red, Green, or Blue are valid values. The sensor will not generate color when the DetectColor property is set to True._
 
 ### Sensor Port
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('NXT Color Sensor', 'Sensor Port')]]
@@ -164,11 +164,11 @@ The color that should generated by the sensor. Only None, Red, Green, or Blue ar
 |:----:|:-------:|
 |text|3|
 
-The sensor port that the sensor is connected to.
+_The sensor port that the sensor is connected to._
 
 ### Top Of Range
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('NXT Color Sensor', 'Top Of Range')]]
@@ -177,11 +177,11 @@ The sensor port that the sensor is connected to.
 |:----:|:-------:|
 |number|767|
 
-The top of the range used for the BelowRange, WithinRange, and AboveRange events.
+_The top of the range used for the BelowRange, WithinRange, and AboveRange events._
 
 ### Within Range Event Enabled
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('NXT Color Sensor', 'Within Range Event Enabled')]]
@@ -190,4 +190,4 @@ The top of the range used for the BelowRange, WithinRange, and AboveRange events
 |:----:|:-------:|
 |boolean|False|
 
-Whether the WithinRange event should fire when the DetectColor property is set to False and the light level goes between the BottomOfRange and the TopOfRange.
+_Whether the WithinRange event should fire when the DetectColor property is set to False and the light level goes between the BottomOfRange and the TopOfRange._

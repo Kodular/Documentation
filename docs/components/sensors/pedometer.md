@@ -18,7 +18,7 @@ _A Component that acts like a Pedometer. It senses motion via the Accerleromter 
 
 [[Event('Pedometer', 'Calibration Failed')]]
 
-deprecated
+_deprecated_
 
 ### GPS Available
 
@@ -26,7 +26,7 @@ deprecated
 
 [[Event('Pedometer', 'GPS Available')]]
 
-deprecated
+_deprecated_
 
 ### GPS Lost
 
@@ -34,7 +34,7 @@ deprecated
 
 [[Event('Pedometer', 'GPS Lost')]]
 
-deprecated
+_deprecated_
 
 ### Simple Step
 
@@ -47,7 +47,7 @@ deprecated
     |distance|`number`|
 
 
-This event is run when a raw step is detected
+_This event is run when a raw step is detected_
 
 ### Started Moving
 
@@ -55,7 +55,7 @@ This event is run when a raw step is detected
 
 [[Event('Pedometer', 'Started Moving')]]
 
-deprecated
+_deprecated_
 
 ### Stopped Moving
 
@@ -63,7 +63,7 @@ deprecated
 
 [[Event('Pedometer', 'Stopped Moving')]]
 
-deprecated
+_deprecated_
 
 ### Walk Step
 
@@ -76,7 +76,7 @@ deprecated
     |distance|`number`|
 
 
-This event is run when a walking step is detected. A walking step is a step that appears to be involved in forward motion.
+_This event is run when a walking step is detected. A walking step is a step that appears to be involved in forward motion._
 
 ## Methods
 
@@ -86,13 +86,13 @@ This event is run when a walking step is detected. A walking step is a step that
 
 [[Method('Pedometer', 'Pause', false)]]
 
-Pause counting of steps and distance.
+_Pause counting of steps and distance._
 
 ### Reset
 
 [[Method('Pedometer', 'Reset', false)]]
 
-Resets the step counter, distance measure and time running.
+_Resets the step counter, distance measure and time running._
 
 ### Resume
 
@@ -100,31 +100,31 @@ Resets the step counter, distance measure and time running.
 
 [[Method('Pedometer', 'Resume', false)]]
 
-Resumes counting, synonym of Start.
+_Resumes counting, synonym of Start._
 
 ### Save
 
 [[Method('Pedometer', 'Save', false)]]
 
-Saves the pedometer state to the phone. Permits permits accumulation of steps and distance between invocations of an App that uses the pedometer. Different Apps will have their own saved state.
+_Saves the pedometer state to the phone. Permits permits accumulation of steps and distance between invocations of an App that uses the pedometer. Different Apps will have their own saved state._
 
 ### Start
 
 [[Method('Pedometer', 'Start', false)]]
 
-Start counting steps
+_Start counting steps_
 
 ### Stop
 
 [[Method('Pedometer', 'Stop', false)]]
 
-Stop counting steps
+_Stop counting steps_
 
 ## Properties
 
 ### Stop Detection Timeout
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Pedometer', 'Stop Detection Timeout')]]
@@ -133,11 +133,11 @@ Stop counting steps
 |:----:|:-------:|
 |number|2000|
 
-The duration in milliseconds of idleness (no steps detected) after which to go into a "stopped" state
+_The duration in milliseconds of idleness (no steps detected) after which to go into a "stopped" state_
 
 ### Stride Length
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Pedometer', 'Stride Length')]]
@@ -146,11 +146,11 @@ The duration in milliseconds of idleness (no steps detected) after which to go i
 |:----:|:-------:|
 |number|0.73|
 
-Set the average stride length in meters.
+_Set the average stride length in meters._
 
 ### Calibrate Stride Length
 
-:warning: ==**Deprecated**== 
+:warning: ==**Deprecated**==
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Pedometer', 'Calibrate Stride Length')]]
@@ -159,11 +159,9 @@ Set the average stride length in meters.
 |:----:|:-------:|
 |boolean|None|
 
-deprecated
+_deprecated_
 
 ### Distance
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Pedometer', 'Distance')]]
@@ -172,11 +170,9 @@ deprecated
 |:----:|:-------:|
 |number|None|
 
-The approximate distance traveled in meters.
+_The approximate distance traveled in meters._
 
 ### Elapsed Time
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Pedometer', 'Elapsed Time')]]
@@ -185,11 +181,11 @@ The approximate distance traveled in meters.
 |:----:|:-------:|
 |number|None|
 
-Time elapsed in milliseconds since the pedometer was started.
+_Time elapsed in milliseconds since the pedometer was started._
 
 ### Moving
 
-:warning: ==**Deprecated**== 
+:warning: ==**Deprecated**==
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Pedometer', 'Moving')]]
@@ -198,11 +194,9 @@ Time elapsed in milliseconds since the pedometer was started.
 |:----:|:-------:|
 |boolean|None|
 
-deprecated
+_deprecated_
 
 ### Simple Steps
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Pedometer', 'Simple Steps')]]
@@ -211,11 +205,11 @@ deprecated
 |:----:|:-------:|
 |number|None|
 
-The number of simple steps taken since the pedometer has started.
+_The number of simple steps taken since the pedometer has started._
 
 ### Use GPS
 
-:warning: ==**Deprecated**== 
+:warning: ==**Deprecated**==
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Pedometer', 'Use GPS')]]
@@ -228,8 +222,6 @@ _No description available_
 
 ### Walk Steps
 
-
-
 :eyes: Read-Only property
 [[PropertyBlockGetter('Pedometer', 'Walk Steps')]]
 
@@ -237,4 +229,4 @@ _No description available_
 |:----:|:-------:|
 |number|None|
 
-the number of walk steps taken since the pedometer has started.
+_the number of walk steps taken since the pedometer has started._

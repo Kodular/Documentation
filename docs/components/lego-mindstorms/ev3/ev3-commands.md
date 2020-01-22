@@ -18,7 +18,7 @@ _A component that provides a low-level interface to a LEGO MINDSTORMS EV3 robot,
 
 {>>Returns `number`<<}
 
-Get the battery current.
+_Get the battery current._
 
 ### GetBatteryVoltage
 
@@ -26,7 +26,7 @@ Get the battery current.
 
 {>>Returns `number`<<}
 
-Get the battery voltage.
+_Get the battery voltage._
 
 ### GetFirmwareBuild
 
@@ -34,7 +34,7 @@ Get the battery voltage.
 
 {>>Returns `text`<<}
 
-Get the firmware build on EV3.
+_Get the firmware build on EV3._
 
 ### GetFirmwareVersion
 
@@ -42,7 +42,7 @@ Get the firmware build on EV3.
 
 {>>Returns `text`<<}
 
-Get the firmware version on EV3.
+_Get the firmware version on EV3._
 
 ### GetHardwareVersion
 
@@ -50,7 +50,7 @@ Get the firmware version on EV3.
 
 {>>Returns `text`<<}
 
-Get the hardware version of EV3.
+_Get the hardware version of EV3._
 
 ### GetOSBuild
 
@@ -58,7 +58,7 @@ Get the hardware version of EV3.
 
 {>>Returns `text`<<}
 
-Get the OS build on EV3.
+_Get the OS build on EV3._
 
 ### GetOSVersion
 
@@ -66,7 +66,7 @@ Get the OS build on EV3.
 
 {>>Returns `text`<<}
 
-Get the OS version on EV3.
+_Get the OS version on EV3._
 
 ### KeepAlive
 
@@ -78,13 +78,13 @@ Get the OS version on EV3.
     |minutes|`number`|
 
 
-Keep the EV3 brick from shutdown for a period of time.
+_Keep the EV3 brick from shutdown for a period of time._
 
 ## Properties
 
 ### Bluetooth Client
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('EV3 Commands', 'Bluetooth Client')]]
@@ -93,4 +93,4 @@ Keep the EV3 brick from shutdown for a period of time.
 |:----:|
 |component|
 
-The BluetoothClient component that should be used for communication.
+_The BluetoothClient component that should be used for communication._

@@ -22,7 +22,7 @@ _A non-visible component that executes shell commands and checks the device''s r
     |out|`text`|
 
 
-Read output after executing shell command
+_Read output after executing shell command_
 
 ## Methods
 
@@ -32,7 +32,7 @@ Read output after executing shell command
 
 {>>Returns `boolean`<<}
 
-Returns TRUE if one of 6 known root packages or varients is installed. The name of the package is not returned, so the user does not know which package name to change. Developed by Cian.
+_Returns TRUE if one of 6 known root packages or varients is installed. The name of the package is not returned, so the user does not know which package name to change. Developed by Cian._
 
 ### Execute
 
@@ -44,7 +44,7 @@ Returns TRUE if one of 6 known root packages or varients is installed. The name 
     |in|`text`|
 
 
-Executes shell commands. To get output, use "GotOutput" event block.
+_Executes shell commands. To get output, use "GotOutput" event block._
 
 ### IsRooted
 
@@ -52,7 +52,7 @@ Executes shell commands. To get output, use "GotOutput" event block.
 
 {>>Returns `boolean`<<}
 
-Returns true if Phone is Rooted
+_Returns true if Phone is Rooted_
 
 ### Is System User
 
@@ -60,4 +60,4 @@ Returns true if Phone is Rooted
 
 {>>Returns `boolean`<<}
 
-This returns TRUE if the system user is running the application, and could be a sign of a rooted device. Developed by Cian.
+_This returns TRUE if the system user is running the application, and could be a sign of a rooted device. Developed by Cian._

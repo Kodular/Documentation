@@ -24,7 +24,7 @@ _This is a component that allows you to read your Google Spreadsheet data using 
     |action|`text`|
 
 
-Triggered after an actions such as storing data has occurred.
+_Triggered after an actions such as storing data has occurred._
 
 ## Methods
 
@@ -41,7 +41,7 @@ Triggered after an actions such as storing data has occurred.
     |row Number|`number`|
 
 
-For the given columnName and rowNumber, retrieves the spreadsheet cell data
+_For the given columnName and rowNumber, retrieves the spreadsheet cell data_
 
 ### GetColumnData
 
@@ -55,7 +55,7 @@ For the given columnName and rowNumber, retrieves the spreadsheet cell data
     |column Name|`text`|
 
 
-Retrieves all data for an entire column
+_Retrieves all data for an entire column_
 
 ### GetRowData
 
@@ -69,13 +69,13 @@ Retrieves all data for an entire column
     |row Number|`number`|
 
 
-Retrieves data for a specific row number
+_Retrieves data for a specific row number_
 
 ### GetSpreadsheetData
 
 [[Method('GoogleSpreadsheet', 'GetSpreadsheetData', false)]]
 
-For the given ApiEndpoint and Spreadsheet, retrieves all data from the spreadsheet.
+_For the given ApiEndpoint and Spreadsheet, retrieves all data from the spreadsheet._
 
 ### StoreData
 
@@ -87,13 +87,13 @@ For the given ApiEndpoint and Spreadsheet, retrieves all data from the spreadshe
     |data To Store|`text`|
 
 
-Stores data into spreadsheet. dataToStore must be in json format. Will trigger AfterAction
+_Stores data into spreadsheet. dataToStore must be in json format. Will trigger AfterAction_
 
 ## Properties
 
 ### ApiEndpoint
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('GoogleSpreadsheet', 'ApiEndpoint')]]
@@ -102,11 +102,11 @@ Stores data into spreadsheet. dataToStore must be in json format. Will trigger A
 |:----:|:-------:|
 |text|Enter the Cloudstitch API Endpoint|
 
-The Cloudstitch API endpoint.
+_The Cloudstitch API endpoint._
 
 ### Sheet Name
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('GoogleSpreadsheet', 'Sheet Name')]]
@@ -115,4 +115,4 @@ The Cloudstitch API endpoint.
 |:----:|:-------:|
 |text|Enter Spreadsheet name|
 
-The Google spreadsheet name
+_The Google spreadsheet name_

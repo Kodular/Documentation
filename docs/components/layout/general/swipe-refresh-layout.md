@@ -14,13 +14,13 @@ _A visible component that groups other components and lets the user refresh them
 
 [[Event('Swipe Refresh Layout', 'On Refresh')]]
 
-Event to detect when a refresh is triggered via the swipe gesture.
+_Event to detect when a refresh is triggered via the swipe gesture._
 
 ## Properties
 
 ### Align Horizontal
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Swipe Refresh Layout', 'Align Horizontal')]]
@@ -29,11 +29,11 @@ Event to detect when a refresh is triggered via the swipe gesture.
 |:----:|:-------:|
 |number|1|
 
-A number that encodes how contents of the arrangement are aligned  horizontally. The choices are: 1 = left aligned, 2 = right aligned,  3 = horizontally centered.  Alignment has no effect if the arrangement's width is automatic.
+_A number that encodes how contents of the arrangement are aligned  horizontally. The choices are: 1 = left aligned, 2 = right aligned,  3 = horizontally centered.  Alignment has no effect if the arrangement's width is automatic._
 
 ### Align Vertical
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Swipe Refresh Layout', 'Align Vertical')]]
@@ -42,11 +42,11 @@ A number that encodes how contents of the arrangement are aligned  horizontally.
 |:----:|:-------:|
 |number|1|
 
-A number that encodes how the contents of the arrangement are aligned  vertically. The choices are: 1 = aligned at the top, 2 = vertically centered, 3 = aligned at the bottom.  Alignment has no effect if the arrangement's height is automatic.
+_A number that encodes how the contents of the arrangement are aligned  vertically. The choices are: 1 = aligned at the top, 2 = vertically centered, 3 = aligned at the bottom.  Alignment has no effect if the arrangement's height is automatic._
 
 ### Background Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Swipe Refresh Layout', 'Background Color')]]
@@ -55,11 +55,11 @@ A number that encodes how the contents of the arrangement are aligned  verticall
 |:----:|:-------:|
 |number|&H00000000|
 
-The background color of the swipe refresh layout.
+_The background color of the swipe refresh layout._
 
 ### Enabled
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Swipe Refresh Layout', 'Enabled')]]
@@ -68,11 +68,11 @@ The background color of the swipe refresh layout.
 |:----:|:-------:|
 |boolean|True|
 
-If set to true the swpipe refresh layout is enabled.
+_If set to true the swpipe refresh layout is enabled._
 
 ### Large Size
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Swipe Refresh Layout', 'Large Size')]]
@@ -81,11 +81,11 @@ If set to true the swpipe refresh layout is enabled.
 |:----:|:-------:|
 |boolean|False|
 
-If enabled is set to true the pull size will be large, else the size is default.
+_If enabled is set to true the pull size will be large, else the size is default._
 
 ### Nested Scrolling
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Swipe Refresh Layout', 'Nested Scrolling')]]
@@ -94,11 +94,11 @@ If enabled is set to true the pull size will be large, else the size is default.
 |:----:|:-------:|
 |boolean|False|
 
-Enable or disable nested scrolling for this view.
+_Enable or disable nested scrolling for this view._
 
 ### Progress Background Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Swipe Refresh Layout', 'Progress Background Color')]]
@@ -107,11 +107,11 @@ Enable or disable nested scrolling for this view.
 |:----:|:-------:|
 |number|&HFFFFFFFF|
 
-Change the pull to refresh background color.
+_Change the pull to refresh background color._
 
 ### Visible
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Swipe Refresh Layout', 'Visible')]]
@@ -120,11 +120,9 @@ Change the pull to refresh background color.
 |:----:|:-------:|
 |boolean|True|
 
-Returns true iff the component is visible.
+_Returns true iff the component is visible._
 
 ### Column
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Swipe Refresh Layout', 'Column')]]
@@ -133,11 +131,9 @@ Returns true iff the component is visible.
 |:----:|:-------:|
 |number|None|
 
-Column property getter method.
+_Column property getter method._
 
 ### Height
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Swipe Refresh Layout', 'Height')]]
@@ -146,11 +142,9 @@ Column property getter method.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's vertical height, measured in pixels.
+_Specifies the component's vertical height, measured in pixels._
 
 ### Height Percent
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Swipe Refresh Layout', 'Height Percent')]]
@@ -159,12 +153,10 @@ Specifies the component's vertical height, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's vertical height as a percentage
- of the height of its parent Component.
+_Specifies the component's vertical height as a percentage
+ of the height of its parent Component._
 
 ### Is Refreshing
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Swipe Refresh Layout', 'Is Refreshing')]]
@@ -173,11 +165,9 @@ Specifies the component's vertical height as a percentage
 |:----:|:-------:|
 |boolean|None|
 
-Returns true if is actively showing refresh progress.
+_Returns true if is actively showing refresh progress._
 
 ### Progress Animation Colors
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Swipe Refresh Layout', 'Progress Animation Colors')]]
@@ -186,11 +176,9 @@ Returns true if is actively showing refresh progress.
 |:----:|:-------:|
 |list|None|
 
-Set the colors used in the progress animation. Use a 'make a list' block. The first color on the list is than the first spinner color.
+_Set the colors used in the progress animation. Use a 'make a list' block. The first color on the list is than the first spinner color._
 
 ### Refreshing
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Swipe Refresh Layout', 'Refreshing')]]
@@ -199,11 +187,9 @@ Set the colors used in the progress animation. Use a 'make a list' block. The fi
 |:----:|:-------:|
 |boolean|None|
 
-Notify the widget that refresh state has changed. Do not call this when refresh is triggered by a swipe gesture.
+_Notify the widget that refresh state has changed. Do not call this when refresh is triggered by a swipe gesture._
 
 ### Row
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Swipe Refresh Layout', 'Row')]]
@@ -212,11 +198,9 @@ Notify the widget that refresh state has changed. Do not call this when refresh 
 |:----:|:-------:|
 |number|None|
 
-Row property getter method.
+_Row property getter method._
 
 ### Width
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Swipe Refresh Layout', 'Width')]]
@@ -225,11 +209,9 @@ Row property getter method.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width, measured in pixels.
+_Specifies the component's horizontal width, measured in pixels._
 
 ### Width Percent
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Swipe Refresh Layout', 'Width Percent')]]
@@ -238,5 +220,5 @@ Specifies the component's horizontal width, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width as a percentage
- of the Width of its parent Component.
+_Specifies the component's horizontal width as a percentage
+ of the Width of its parent Component._

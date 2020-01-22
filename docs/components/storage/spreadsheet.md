@@ -22,7 +22,7 @@ _A non-visible component that provides access to the Airtable spreadsheet storag
     |response Code|`number`|
 
 
-Triggered when changing cell data. ResponseCode is a number
+_Triggered when changing cell data. ResponseCode is a number_
 
 ### Deleted Row By Number
 
@@ -34,7 +34,7 @@ Triggered when changing cell data. ResponseCode is a number
     |response Code|`number`|
 
 
-Triggered when destroying a row. ResponseCode is a number
+_Triggered when destroying a row. ResponseCode is a number_
 
 ### Got All Rows
 
@@ -48,7 +48,7 @@ Triggered when destroying a row. ResponseCode is a number
     |total Rows|`number`|
 
 
-Triggered when getting all rows. ResponseCode is a number, ResponseContent is a string
+_Triggered when getting all rows. ResponseCode is a number, ResponseContent is a string_
 
 ### Got Cell
 
@@ -63,7 +63,7 @@ Triggered when getting all rows. ResponseCode is a number, ResponseContent is a 
     |created Time|`text`|
 
 
-Triggered when receiving cell data. ResponseCode is a number, the other ones are strings
+_Triggered when receiving cell data. ResponseCode is a number, the other ones are strings_
 
 ### Got Column
 
@@ -78,7 +78,7 @@ Triggered when receiving cell data. ResponseCode is a number, the other ones are
     |created Times|`list`|
 
 
-Triggered when receiving column data. ResponseCode is a number, the other ones are lists
+_Triggered when receiving column data. ResponseCode is a number, the other ones are lists_
 
 ### Got Row
 
@@ -91,7 +91,7 @@ Triggered when receiving column data. ResponseCode is a number, the other ones a
     |values|`list`|
 
 
-Triggered when receiving row data. ResponseCode is a number, Values is a list
+_Triggered when receiving row data. ResponseCode is a number, Values is a list_
 
 ### Row Created
 
@@ -103,7 +103,7 @@ Triggered when receiving row data. ResponseCode is a number, Values is a list
     |response Code|`number`|
 
 
-Triggered when creating a row. ResponseCode is a number
+_Triggered when creating a row. ResponseCode is a number_
 
 ### Row Updated
 
@@ -115,7 +115,7 @@ Triggered when creating a row. ResponseCode is a number
     |response Code|`number`|
 
 
-Triggered when updating a row. ResponseCode is a number
+_Triggered when updating a row. ResponseCode is a number_
 
 ## Methods
 
@@ -130,7 +130,7 @@ Triggered when updating a row. ResponseCode is a number
     |values|`list`|
 
 
-Creates a new row
+_Creates a new row_
 
 ### DeleteRowNum
 
@@ -142,13 +142,13 @@ Creates a new row
     |row Number|`number`|
 
 
-Deletes the given row
+_Deletes the given row_
 
 ### GetAllRows
 
 [[Method('Spreadsheet', 'GetAllRows', false)]]
 
-Gets all rows
+_Gets all rows_
 
 ### GetCell
 
@@ -161,7 +161,7 @@ Gets all rows
     |column Name|`text`|
 
 
-Gets cell data
+_Gets cell data_
 
 ### GetColumn
 
@@ -174,7 +174,7 @@ Gets cell data
     |max Record|`number`|
 
 
-Gets column data
+_Gets column data_
 
 ### GetRow
 
@@ -186,7 +186,7 @@ Gets column data
     |row Number|`number`|
 
 
-Gets row data
+_Gets row data_
 
 ### SetCell
 
@@ -200,7 +200,7 @@ Gets row data
     |value|`text`|
 
 
-Changes the value of a cell
+_Changes the value of a cell_
 
 ### UpdateRowByNum
 
@@ -214,13 +214,13 @@ Changes the value of a cell
     |values|`list`|
 
 
-Updates the given row data
+_Updates the given row data_
 
 ## Properties
 
 ### API Key
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Spreadsheet', 'API Key')]]
@@ -229,11 +229,11 @@ Updates the given row data
 |:----:|
 |text|
 
-Your apiKey
+_Your apiKey_
 
 ### Base ID
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Spreadsheet', 'Base ID')]]
@@ -246,7 +246,7 @@ _No description available_
 
 ### Table Name
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Spreadsheet', 'Table Name')]]
@@ -259,7 +259,7 @@ _No description available_
 
 ### View Name
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Spreadsheet', 'View Name')]]

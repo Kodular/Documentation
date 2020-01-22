@@ -20,7 +20,7 @@ _<p>A spinner component that displays a pop-up with a list of elements. These el
     |selection|`text`|
 
 
-Event called after the user selects an item from the dropdown list.
+_Event called after the user selects an item from the dropdown list._
 
 ## Methods
 
@@ -28,13 +28,13 @@ Event called after the user selects an item from the dropdown list.
 
 [[Method('Spinner', 'DisplayDropdown', false)]]
 
-displays the dropdown list for selection, same action as when the user clicks on the spinner.
+_displays the dropdown list for selection, same action as when the user clicks on the spinner._
 
 ## Properties
 
 ### Elements From String
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Spinner', 'Elements From String')]]
@@ -43,11 +43,11 @@ displays the dropdown list for selection, same action as when the user clicks on
 |:----:|:-------:|
 |text|Item1, Item2, Item3|
 
-Sets the Spinner list to the elements passed in the comma-separated string.
+_Sets the Spinner list to the elements passed in the comma-separated string._
 
 ### Font Bold
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Spinner', 'Font Bold')]]
@@ -60,7 +60,7 @@ _No description available_
 
 ### Font Italic
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Spinner', 'Font Italic')]]
@@ -73,7 +73,7 @@ _No description available_
 
 ### Font Typeface
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Spinner', 'Font Typeface')]]
@@ -86,7 +86,7 @@ _No description available_
 
 ### Font Typeface Import
 
-<small>Available as Advanced Property</small>
+<small>Available as ^^Advanced^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Spinner', 'Font Typeface Import')]]
@@ -95,11 +95,11 @@ _No description available_
 |:----:|
 |text|
 
-Set a custom font.
+_Set a custom font._
 
 ### Item Background Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Spinner', 'Item Background Color')]]
@@ -108,11 +108,11 @@ Set a custom font.
 |:----:|:-------:|
 |number|&HFF03A9F3|
 
-Set the background color for the spinner items.
+_Set the background color for the spinner items._
 
 ### Item Text Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Spinner', 'Item Text Color')]]
@@ -121,7 +121,7 @@ Set the background color for the spinner items.
 |:----:|:-------:|
 |number|&HFFFFFFFF|
 
-Set the text color for the spinner items.
+_Set the text color for the spinner items._
 
 ### Prompt
 
@@ -134,11 +134,11 @@ Set the text color for the spinner items.
 |:----:|
 |text|
 
-Text with the current title for the Spinner window.
+_Text with the current title for the Spinner window._
 
 ### Prompt Item Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Spinner', 'Prompt Item Color')]]
@@ -147,11 +147,11 @@ Text with the current title for the Spinner window.
 |:----:|:-------:|
 |number|&HFFCCCCCC|
 
-Set the text color for the spinner items prompt/hint.
+_Set the text color for the spinner items prompt/hint._
 
 ### Selection
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Spinner', 'Selection')]]
@@ -160,11 +160,11 @@ Set the text color for the spinner items prompt/hint.
 |:----:|
 |text|
 
-Returns the current selected item in the spinner.
+_Returns the current selected item in the spinner._
 
 ### Spinner Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Spinner', 'Spinner Color')]]
@@ -173,11 +173,11 @@ Returns the current selected item in the spinner.
 |:----:|:-------:|
 |number|&HFF2196F2|
 
-Set the text color for the spinner.
+_Set the text color for the spinner._
 
 ### Spinner Text Size
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Spinner', 'Spinner Text Size')]]
@@ -186,11 +186,11 @@ Set the text color for the spinner.
 |:----:|:-------:|
 |number|14.0|
 
-The size of the spinner selected text.
+_The size of the spinner selected text._
 
 ### Text Alignment
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Spinner', 'Text Alignment')]]
@@ -203,7 +203,7 @@ _No description available_
 
 ### Font Size
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Spinner', 'Font Size')]]
@@ -212,11 +212,11 @@ _No description available_
 |:----:|:-------:|
 |number|18|
 
-The text size of the spinner items.
+_The text size of the spinner items._
 
 ### Use Prompt
 
-<small>Available as Advanced Property</small>
+<small>Available as ^^Advanced^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Spinner', 'Use Prompt')]]
@@ -225,11 +225,11 @@ The text size of the spinner items.
 |:----:|:-------:|
 |boolean|False|
 
-If true the first spinner item will be the prompt text.
+_If true the first spinner item will be the prompt text._
 
 ### Visible
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Spinner', 'Visible')]]
@@ -238,11 +238,9 @@ If true the first spinner item will be the prompt text.
 |:----:|:-------:|
 |boolean|True|
 
-Returns true iff the component is visible.
+_Returns true iff the component is visible._
 
 ### Column
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Spinner', 'Column')]]
@@ -251,11 +249,9 @@ Returns true iff the component is visible.
 |:----:|:-------:|
 |number|None|
 
-Column property getter method.
+_Column property getter method._
 
 ### Elements
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Spinner', 'Elements')]]
@@ -264,11 +260,9 @@ Column property getter method.
 |:----:|:-------:|
 |list|None|
 
-returns a list of text elements to be picked from.
+_returns a list of text elements to be picked from._
 
 ### Height
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Spinner', 'Height')]]
@@ -277,11 +271,9 @@ returns a list of text elements to be picked from.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's vertical height, measured in pixels.
+_Specifies the component's vertical height, measured in pixels._
 
 ### Height Percent
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Spinner', 'Height Percent')]]
@@ -290,12 +282,10 @@ Specifies the component's vertical height, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's vertical height as a percentage
- of the height of its parent Component.
+_Specifies the component's vertical height as a percentage
+ of the height of its parent Component._
 
 ### Row
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Spinner', 'Row')]]
@@ -304,11 +294,9 @@ Specifies the component's vertical height as a percentage
 |:----:|:-------:|
 |number|None|
 
-Row property getter method.
+_Row property getter method._
 
 ### Selection Index
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Spinner', 'Selection Index')]]
@@ -317,11 +305,9 @@ Row property getter method.
 |:----:|:-------:|
 |number|None|
 
-The index of the currently selected item, starting at 1. If no item is selected, the value will be 0.
+_The index of the currently selected item, starting at 1. If no item is selected, the value will be 0._
 
 ### Width
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Spinner', 'Width')]]
@@ -330,11 +316,9 @@ The index of the currently selected item, starting at 1. If no item is selected,
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width, measured in pixels.
+_Specifies the component's horizontal width, measured in pixels._
 
 ### Width Percent
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Spinner', 'Width Percent')]]
@@ -343,5 +327,5 @@ Specifies the component's horizontal width, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width as a percentage
- of the Width of its parent Component.
+_Specifies the component's horizontal width as a percentage
+ of the Width of its parent Component._

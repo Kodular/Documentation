@@ -14,19 +14,19 @@ _A non-visible component that shows Facebook ads as static banners._
 
 [[Event('Facebook Banner', 'Ad Clicked')]]
 
-Event triggered when ads are clicked
+_Event triggered when ads are clicked_
 
 ### Ad Closed
 
 [[Event('Facebook Banner', 'Ad Closed')]]
 
-Event triggered when ads are closed
+_Event triggered when ads are closed_
 
 ### Ad Loaded
 
 [[Event('Facebook Banner', 'Ad Loaded')]]
 
-Event triggered when ads are loaded
+_Event triggered when ads are loaded_
 
 ### Error
 
@@ -38,7 +38,7 @@ Event triggered when ads are loaded
     |error|`text`|
 
 
-Event triggered when ads failed to load
+_Event triggered when ads failed to load_
 
 ## Methods
 
@@ -46,13 +46,13 @@ Event triggered when ads failed to load
 
 [[Method('Facebook Banner', 'Load Ad', false)]]
 
-Load Ad
+_Load Ad_
 
 ## Properties
 
 ### Placement ID
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Facebook Banner', 'Placement ID')]]
@@ -61,11 +61,11 @@ Load Ad
 |:----:|
 |text|
 
-Set Placement ID
+_Set Placement ID_
 
 ### Visible
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Facebook Banner', 'Visible')]]
@@ -74,11 +74,9 @@ Set Placement ID
 |:----:|:-------:|
 |boolean|True|
 
-Returns true iff the component is visible.
+_Returns true iff the component is visible._
 
 ### Column
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Facebook Banner', 'Column')]]
@@ -87,11 +85,9 @@ Returns true iff the component is visible.
 |:----:|:-------:|
 |number|None|
 
-Column property getter method.
+_Column property getter method._
 
 ### Row
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Facebook Banner', 'Row')]]
@@ -100,4 +96,4 @@ Column property getter method.
 |:----:|:-------:|
 |number|None|
 
-Row property getter method.
+_Row property getter method._

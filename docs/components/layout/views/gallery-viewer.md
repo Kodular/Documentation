@@ -20,13 +20,13 @@ _A visible component that groups other components in a center-locked, horizontal
     |image Name|`text`|
 
 
-Triggered after an image is selected. It will also report selected image name
+_Triggered after an image is selected. It will also report selected image name_
 
 ## Properties
 
 ### Padding
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Gallery Viewer', 'Padding')]]
@@ -35,11 +35,11 @@ Triggered after an image is selected. It will also report selected image name
 |:----:|:-------:|
 |number|5|
 
-Sets the spacing (in DIP) between images
+_Sets the spacing (in DIP) between images_
 
 ### Thumbnail Height in DIP
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Gallery Viewer', 'Thumbnail Height in DIP')]]
@@ -48,11 +48,11 @@ Sets the spacing (in DIP) between images
 |:----:|:-------:|
 |number|100|
 
-Sets the height of thumbnail in DIP (Density Independent Pixel)
+_Sets the height of thumbnail in DIP (Density Independent Pixel)_
 
 ### Thumbnail Width in DIP
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Gallery Viewer', 'Thumbnail Width in DIP')]]
@@ -61,11 +61,11 @@ Sets the height of thumbnail in DIP (Density Independent Pixel)
 |:----:|:-------:|
 |number|100|
 
-Sets the width of thumbnail in DIP (Density Independent Pixel)
+_Sets the width of thumbnail in DIP (Density Independent Pixel)_
 
 ### Visible
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Gallery Viewer', 'Visible')]]
@@ -74,11 +74,9 @@ Sets the width of thumbnail in DIP (Density Independent Pixel)
 |:----:|:-------:|
 |boolean|True|
 
-Returns true iff the component is visible.
+_Returns true iff the component is visible._
 
 ### Column
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Gallery Viewer', 'Column')]]
@@ -87,11 +85,9 @@ Returns true iff the component is visible.
 |:----:|:-------:|
 |number|None|
 
-Column property getter method.
+_Column property getter method._
 
 ### Height
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Gallery Viewer', 'Height')]]
@@ -100,11 +96,9 @@ Column property getter method.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's vertical height, measured in pixels.
+_Specifies the component's vertical height, measured in pixels._
 
 ### Height Percent
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Gallery Viewer', 'Height Percent')]]
@@ -113,12 +107,10 @@ Specifies the component's vertical height, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's vertical height as a percentage
- of the height of its parent Component.
+_Specifies the component's vertical height as a percentage
+ of the height of its parent Component._
 
 ### Images
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Gallery Viewer', 'Images')]]
@@ -127,11 +119,9 @@ Specifies the component's vertical height as a percentage
 |:----:|:-------:|
 |list|None|
 
-Adds a series of images to the gallery
+_Adds a series of images to the gallery_
 
 ### Row
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Gallery Viewer', 'Row')]]
@@ -140,11 +130,9 @@ Adds a series of images to the gallery
 |:----:|:-------:|
 |number|None|
 
-Row property getter method.
+_Row property getter method._
 
 ### Selection
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Gallery Viewer', 'Selection')]]
@@ -157,8 +145,6 @@ _No description available_
 
 ### Width
 
-
-
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Gallery Viewer', 'Width')]]
 
@@ -166,11 +152,9 @@ _No description available_
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width, measured in pixels.
+_Specifies the component's horizontal width, measured in pixels._
 
 ### Width Percent
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Gallery Viewer', 'Width Percent')]]
@@ -179,5 +163,5 @@ Specifies the component's horizontal width, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width as a percentage
- of the Width of its parent Component.
+_Specifies the component's horizontal width as a percentage
+ of the Width of its parent Component._

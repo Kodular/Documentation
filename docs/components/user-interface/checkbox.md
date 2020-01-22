@@ -14,25 +14,25 @@ _Checkbox that raises an event when the user clicks on it. There are many proper
 
 [[Event('Checkbox', 'Changed')]]
 
-Default Changed event handler.
+_Default Changed event handler._
 
 ### Click
 
 [[Event('Checkbox', 'Click')]]
 
-Indicates a user has clicked on the checkbox.
+_Indicates a user has clicked on the checkbox._
 
 ### Got Focus
 
 [[Event('Checkbox', 'Got Focus')]]
 
-Default GotFocus event handler.
+_Default GotFocus event handler._
 
 ### Lost Focus
 
 [[Event('Checkbox', 'Lost Focus')]]
 
-Default LostFocus event handler.
+_Default LostFocus event handler._
 
 ## Methods
 
@@ -49,13 +49,13 @@ Default LostFocus event handler.
     |color|`number`|
 
 
-Place a blurred shadow of text underneath the text, drawn with the specified x, y, radius, color (e.g. -11, 12, 13, black
+_Place a blurred shadow of text underneath the text, drawn with the specified x, y, radius, color (e.g. -11, 12, 13, black_
 
 ## Properties
 
 ### Background Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Checkbox', 'Background Color')]]
@@ -64,12 +64,12 @@ Place a blurred shadow of text underneath the text, drawn with the specified x, 
 |:----:|:-------:|
 |number|&H00FFFFFF|
 
-Returns the checkbox's background color as an alpha-red-green-blue
- integer.
+_Returns the checkbox's background color as an alpha-red-green-blue
+ integer._
 
 ### Checkbox Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Checkbox', 'Checkbox Color')]]
@@ -78,11 +78,11 @@ Returns the checkbox's background color as an alpha-red-green-blue
 |:----:|:-------:|
 |number|&HFF000000|
 
-Change the checkbox component color.
+_Change the checkbox component color._
 
 ### Checked
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Checkbox', 'Checked')]]
@@ -91,11 +91,11 @@ Change the checkbox component color.
 |:----:|:-------:|
 |boolean|False|
 
-Returns true if the checkbox is checked.
+_Returns true if the checkbox is checked._
 
 ### Enabled
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Checkbox', 'Enabled')]]
@@ -104,11 +104,11 @@ Returns true if the checkbox is checked.
 |:----:|:-------:|
 |boolean|True|
 
-Returns true if the checkbox is active and clickable.
+_Returns true if the checkbox is active and clickable._
 
 ### Font Bold
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Checkbox', 'Font Bold')]]
@@ -117,13 +117,13 @@ Returns true if the checkbox is active and clickable.
 |:----:|:-------:|
 |boolean|False|
 
-Returns true if the checkbox's text should be bold.
+_Returns true if the checkbox's text should be bold.
  If bold has been requested, this property will return true, even if the
- font does not support bold.
+ font does not support bold._
 
 ### Font Italic
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Checkbox', 'Font Italic')]]
@@ -132,13 +132,13 @@ Returns true if the checkbox's text should be bold.
 |:----:|:-------:|
 |boolean|False|
 
-Returns true if the checkbox's text should be italic.
+_Returns true if the checkbox's text should be italic.
  If italic has been requested, this property will return true, even if the
- font does not support italic.
+ font does not support italic._
 
 ### Font Size
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Checkbox', 'Font Size')]]
@@ -147,11 +147,11 @@ Returns true if the checkbox's text should be italic.
 |:----:|:-------:|
 |number|14.0|
 
-Returns the checkbox's text's font size, measured in sp(scale-independent pixels).
+_Returns the checkbox's text's font size, measured in sp(scale-independent pixels)._
 
 ### Font Typeface
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Checkbox', 'Font Typeface')]]
@@ -160,12 +160,12 @@ Returns the checkbox's text's font size, measured in sp(scale-independent pixels
 |:----:|:-------:|
 |number|0|
 
-Returns the checkbox's text's font face as default, serif, sans
- serif, or monospace.
+_Returns the checkbox's text's font face as default, serif, sans
+ serif, or monospace._
 
 ### Font Typeface Import
 
-<small>Available as Advanced Property</small>
+<small>Available as ^^Advanced^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Checkbox', 'Font Typeface Import')]]
@@ -174,11 +174,11 @@ Returns the checkbox's text's font face as default, serif, sans
 |:----:|
 |text|
 
-Set a custom font.
+_Set a custom font._
 
 ### Text
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Checkbox', 'Text')]]
@@ -187,11 +187,11 @@ Set a custom font.
 |:----:|
 |text|
 
-Returns the text displayed by the checkbox.
+_Returns the text displayed by the checkbox._
 
 ### Text Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Checkbox', 'Text Color')]]
@@ -200,12 +200,12 @@ Returns the text displayed by the checkbox.
 |:----:|:-------:|
 |number|&HFF000000|
 
-Returns the checkbox's text color as an alpha-red-green-blue
- integer.
+_Returns the checkbox's text color as an alpha-red-green-blue
+ integer._
 
 ### Visible
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Checkbox', 'Visible')]]
@@ -214,11 +214,9 @@ Returns the checkbox's text color as an alpha-red-green-blue
 |:----:|:-------:|
 |boolean|True|
 
-Returns true iff the component is visible.
+_Returns true iff the component is visible._
 
 ### Column
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Checkbox', 'Column')]]
@@ -227,11 +225,9 @@ Returns true iff the component is visible.
 |:----:|:-------:|
 |number|None|
 
-Column property getter method.
+_Column property getter method._
 
 ### Height
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Checkbox', 'Height')]]
@@ -240,11 +236,9 @@ Column property getter method.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's vertical height, measured in pixels.
+_Specifies the component's vertical height, measured in pixels._
 
 ### Height Percent
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Checkbox', 'Height Percent')]]
@@ -253,12 +247,10 @@ Specifies the component's vertical height, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's vertical height as a percentage
- of the height of its parent Component.
+_Specifies the component's vertical height as a percentage
+ of the height of its parent Component._
 
 ### Row
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Checkbox', 'Row')]]
@@ -267,11 +259,9 @@ Specifies the component's vertical height as a percentage
 |:----:|:-------:|
 |number|None|
 
-Row property getter method.
+_Row property getter method._
 
 ### Width
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Checkbox', 'Width')]]
@@ -280,11 +270,9 @@ Row property getter method.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width, measured in pixels.
+_Specifies the component's horizontal width, measured in pixels._
 
 ### Width Percent
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Checkbox', 'Width Percent')]]
@@ -293,5 +281,5 @@ Specifies the component's horizontal width, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width as a percentage
- of the Width of its parent Component.
+_Specifies the component's horizontal width as a percentage
+ of the Width of its parent Component._

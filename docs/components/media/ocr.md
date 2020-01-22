@@ -23,7 +23,7 @@ _A non-visible component that reads text from images using Optical Character Rec
     |response Content|`text`|
 
 
-You will find here the success state and the response content.
+_You will find here the success state and the response content._
 
 ### Got Server Status
 
@@ -39,7 +39,7 @@ You will find here the success state and the response content.
     |pro Asia|`text`|
 
 
-You will find here the server status from the ocr provider. Possible results are 'UP' or 'DOWN'. 'pro Usa1' = Usa, East Coast. 'pro Usa2' = Usa, West Coast.
+_You will find here the server status from the ocr provider. Possible results are 'UP' or 'DOWN'. 'pro Usa1' = Usa, East Coast. 'pro Usa2' = Usa, West Coast._
 
 ## Methods
 
@@ -47,7 +47,7 @@ You will find here the server status from the ocr provider. Possible results are
 
 [[Method('OCR', 'GetOcrServerStatus', false)]]
 
-Get the server status from the free ocr.space server. This is helpful if you want to know if the server is online or offline. Returns true when online, else false when offline.
+_Get the server status from the free ocr.space server. This is helpful if you want to know if the server is online or offline. Returns true when online, else false when offline._
 
 ### GetTextFromImageUrl
 
@@ -59,7 +59,7 @@ Get the server status from the free ocr.space server. This is helpful if you wan
     |image URL|`text`|
 
 
-Get the text from a picture via the image url. Example: http://name/yourimage.jpg. Service powered by ocr.space.
+_Get the text from a picture via the image url. Example: http://name/yourimage.jpg. Service powered by ocr.space._
 
 ### UploadImage
 
@@ -71,13 +71,13 @@ Get the text from a picture via the image url. Example: http://name/yourimage.jp
     |path|`text`|
 
 
-Upload your image to the server from ocr.space and then you get back the text from the picture.
+_Upload your image to the server from ocr.space and then you get back the text from the picture._
 
 ## Properties
 
 ### API Key
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('OCR', 'API Key')]]
@@ -86,11 +86,11 @@ Upload your image to the server from ocr.space and then you get back the text fr
 |:----:|:-------:|
 |text|helloworld|
 
-You can use the default api key: helloworld, or you can create your own api key at: https://ocr.space/ocrapi
+_You can use the default api key: helloworld, or you can create your own api key at: https://ocr.space/ocrapi_
 
 ### Create Searchable PDF
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('OCR', 'Create Searchable PDF')]]
@@ -99,11 +99,11 @@ You can use the default api key: helloworld, or you can create your own api key 
 |:----:|:-------:|
 |boolean|False|
 
-A searchable PDF file is a PDF file that includes text that can be searched upon using the standard Adobe Reader “search” functionality. In addition, the text can be selected and copied from the PDF. In this case the JSON response of the API contains a download link for the the searchable PDF. This download link is valid for one hour, than all data is removed from the OCR servers.
+_A searchable PDF file is a PDF file that includes text that can be searched upon using the standard Adobe Reader “search” functionality. In addition, the text can be selected and copied from the PDF. In this case the JSON response of the API contains a download link for the the searchable PDF. This download link is valid for one hour, than all data is removed from the OCR servers._
 
 ### Language
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('OCR', 'Language')]]
@@ -112,11 +112,11 @@ A searchable PDF file is a PDF file that includes text that can be searched upon
 |:----:|:-------:|
 |text|1|
 
-Choose the language used for OCR. If no language is specified, English is taken as 'Default'.
+_Choose the language used for OCR. If no language is specified, English is taken as 'Default'._
 
 ### Overlaid
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('OCR', 'Overlaid')]]
@@ -125,11 +125,9 @@ Choose the language used for OCR. If no language is specified, English is taken 
 |:----:|:-------:|
 |boolean|False|
 
-Allows you to specify if the image/pdf text overlay is required. Overlay could be used to show the text over the image.
+_Allows you to specify if the image/pdf text overlay is required. Overlay could be used to show the text over the image._
 
 ### Return Only Message
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('OCR', 'Return Only Message')]]
@@ -138,11 +136,9 @@ Allows you to specify if the image/pdf text overlay is required. Overlay could b
 |:----:|:-------:|
 |boolean|None|
 
-Set this block before you upload a image and before you try to get the response from a image url. If this property is set to true, the response content returns only the message. That means the response content will be only the scanned text in words.
+_Set this block before you upload a image and before you try to get the response from a image url. If this property is set to true, the response content returns only the message. That means the response content will be only the scanned text in words._
 
 ### Return Only PDF Link
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('OCR', 'Return Only PDF Link')]]
@@ -151,11 +147,9 @@ Set this block before you upload a image and before you try to get the response 
 |:----:|:-------:|
 |boolean|None|
 
-Set this block before you upload a image and before you try to get the response from a image url. If this property is set to true, the response content returns only the created pdf download link.
+_Set this block before you upload a image and before you try to get the response from a image url. If this property is set to true, the response content returns only the created pdf download link._
 
 ### Test Image URL
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('OCR', 'Test Image URL')]]
@@ -164,4 +158,4 @@ Set this block before you upload a image and before you try to get the response 
 |:----:|:-------:|
 |text|None|
 
-You can use the test image url if you have not any picture online on a server or else.
+_You can use the test image url if you have not any picture online on a server or else._

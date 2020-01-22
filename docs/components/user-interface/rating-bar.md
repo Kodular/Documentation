@@ -20,13 +20,13 @@ _A visible component that lets the user submit a star rating._
     |rating|`number`|
 
 
-Event invoked when the rating has been changed.
+_Event invoked when the rating has been changed._
 
 ## Properties
 
 ### Background Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Rating Bar', 'Background Color')]]
@@ -35,11 +35,11 @@ Event invoked when the rating has been changed.
 |:----:|:-------:|
 |number|&HFF9E9E9E|
 
-Change the background color of the star.
+_Change the background color of the star._
 
 ### Is Indicator
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Rating Bar', 'Is Indicator')]]
@@ -48,11 +48,11 @@ Change the background color of the star.
 |:----:|:-------:|
 |boolean|False|
 
-Whether this rating bar should only be an indicator (thus non-changeable by the user).
+_Whether this rating bar should only be an indicator (thus non-changeable by the user)._
 
 ### Set Number Of Stars
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Rating Bar', 'Set Number Of Stars')]]
@@ -61,11 +61,11 @@ Whether this rating bar should only be an indicator (thus non-changeable by the 
 |:----:|:-------:|
 |number|5|
 
-Sets the number of stars to show.
+_Sets the number of stars to show._
 
 ### Set Step Size
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Rating Bar', 'Set Step Size')]]
@@ -74,11 +74,11 @@ Sets the number of stars to show.
 |:----:|:-------:|
 |number|.5|
 
-Sets the step size (granularity) of this rating bar.
+_Sets the step size (granularity) of this rating bar._
 
 ### Star Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Rating Bar', 'Star Color')]]
@@ -87,11 +87,11 @@ Sets the step size (granularity) of this rating bar.
 |:----:|:-------:|
 |number|&HFFF34336|
 
-Change the color of the star.
+_Change the color of the star._
 
 ### Visible
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Rating Bar', 'Visible')]]
@@ -100,11 +100,9 @@ Change the color of the star.
 |:----:|:-------:|
 |boolean|True|
 
-Returns true iff the component is visible.
+_Returns true iff the component is visible._
 
 ### Column
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Rating Bar', 'Column')]]
@@ -113,11 +111,9 @@ Returns true iff the component is visible.
 |:----:|:-------:|
 |number|None|
 
-Column property getter method.
+_Column property getter method._
 
 ### Get Number Of Stars
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Rating Bar', 'Get Number Of Stars')]]
@@ -126,11 +122,9 @@ Column property getter method.
 |:----:|:-------:|
 |number|None|
 
-Returns the number of stars shown.
+_Returns the number of stars shown._
 
 ### Get Rating
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Rating Bar', 'Get Rating')]]
@@ -139,11 +133,9 @@ Returns the number of stars shown.
 |:----:|:-------:|
 |number|None|
 
-Gets the current rating (number of stars filled).
+_Gets the current rating (number of stars filled)._
 
 ### Get Step Size
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Rating Bar', 'Get Step Size')]]
@@ -152,11 +144,9 @@ Gets the current rating (number of stars filled).
 |:----:|:-------:|
 |number|None|
 
-Gets the step size (granularity) of this rating bar.
+_Gets the step size (granularity) of this rating bar._
 
 ### Row
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Rating Bar', 'Row')]]
@@ -165,11 +155,9 @@ Gets the step size (granularity) of this rating bar.
 |:----:|:-------:|
 |number|None|
 
-Row property getter method.
+_Row property getter method._
 
 ### Set Rating
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Rating Bar', 'Set Rating')]]
@@ -178,4 +166,4 @@ Row property getter method.
 |:----:|:-------:|
 |number|None|
 
-Sets the rating (the number of stars filled).
+_Sets the rating (the number of stars filled)._

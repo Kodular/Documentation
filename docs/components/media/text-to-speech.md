@@ -22,13 +22,13 @@ _The TestToSpeech component speaks a given text aloud.  You can set the pitch an
     |result|`boolean`|
 
 
-Event to raise after the message is spoken.
+_Event to raise after the message is spoken._
 
 ### Before Speaking
 
 [[Event('Text To Speech', 'Before Speaking')]]
 
-Event to raise when Speak is invoked, before the message is spoken.
+_Event to raise when Speak is invoked, before the message is spoken._
 
 ## Methods
 
@@ -42,13 +42,13 @@ Event to raise when Speak is invoked, before the message is spoken.
     |message|`text`|
 
 
-Speaks the given message.
+_Speaks the given message._
 
 ## Properties
 
 ### Country
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Text To Speech', 'Country')]]
@@ -57,11 +57,11 @@ Speaks the given message.
 |:----:|
 |text|
 
-Country code to use for speech generation.  This can affect the pronounciation.  For example, British English (GBR) will sound different from US English (USA).  Not every country code will affect every language.
+_Country code to use for speech generation.  This can affect the pronounciation.  For example, British English (GBR) will sound different from US English (USA).  Not every country code will affect every language._
 
 ### Language
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Text To Speech', 'Language')]]
@@ -70,11 +70,11 @@ Country code to use for speech generation.  This can affect the pronounciation. 
 |:----:|
 |text|
 
-Sets the language for TextToSpeech. This changes the way that words are pronounced, not the actual language that is spoken.  For example setting the language to and speaking English text with sound like someone speaking English with a French accent.
+_Sets the language for TextToSpeech. This changes the way that words are pronounced, not the actual language that is spoken.  For example setting the language to and speaking English text with sound like someone speaking English with a French accent._
 
 ### Pitch
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Text To Speech', 'Pitch')]]
@@ -83,11 +83,11 @@ Sets the language for TextToSpeech. This changes the way that words are pronounc
 |:----:|:-------:|
 |number|1.0|
 
-Sets the Pitch for TextToSpeech The values should be between 0 and 2 where lower values lower the tone of synthesized voice and greater values raise it.
+_Sets the Pitch for TextToSpeech The values should be between 0 and 2 where lower values lower the tone of synthesized voice and greater values raise it._
 
 ### Speech Rate
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Text To Speech', 'Speech Rate')]]
@@ -96,11 +96,9 @@ Sets the Pitch for TextToSpeech The values should be between 0 and 2 where lower
 |:----:|:-------:|
 |number|1.0|
 
-Sets the SpeechRate for TextToSpeech. The values should be between 0 and 2 where lower values slow down the pitch and greater values accelerate it.
+_Sets the SpeechRate for TextToSpeech. The values should be between 0 and 2 where lower values slow down the pitch and greater values accelerate it._
 
 ### Available Countries
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Text To Speech', 'Available Countries')]]
@@ -109,11 +107,9 @@ Sets the SpeechRate for TextToSpeech. The values should be between 0 and 2 where
 |:----:|:-------:|
 |list|None|
 
-List of the country codes available on this device for use with TextToSpeech.  Check the Android developer documentation under supported languages to find the meanings of these abbreviations.
+_List of the country codes available on this device for use with TextToSpeech.  Check the Android developer documentation under supported languages to find the meanings of these abbreviations._
 
 ### Available Languages
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Text To Speech', 'Available Languages')]]
@@ -122,11 +118,9 @@ List of the country codes available on this device for use with TextToSpeech.  C
 |:----:|:-------:|
 |list|None|
 
-List of the languages available on this device for use with TextToSpeech.  Check the Android developer documentation under supported languages to find the meanings of these abbreviations.
+_List of the languages available on this device for use with TextToSpeech.  Check the Android developer documentation under supported languages to find the meanings of these abbreviations._
 
 ### Result
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Text To Speech', 'Result')]]
@@ -135,4 +129,4 @@ List of the languages available on this device for use with TextToSpeech.  Check
 |:----:|:-------:|
 |boolean|None|
 
-Result property getter method.
+_Result property getter method._

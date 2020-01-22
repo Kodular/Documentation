@@ -14,21 +14,21 @@ _<p>A box for the user to enter text.  The initial or user-entered text value is
 
 [[Event('Text Box', 'Got Focus')]]
 
-Event raised when this component is selected for input, such as by
- the user touching it.
+_Event raised when this component is selected for input, such as by
+ the user touching it._
 
 ### Lost Focus
 
 [[Event('Text Box', 'Lost Focus')]]
 
-Event raised when this component is no longer selected for input, such
- as if the user touches a different text box.
+_Event raised when this component is no longer selected for input, such
+ as if the user touches a different text box._
 
 ### On Text Changed
 
 [[Event('Text Box', 'On Text Changed')]]
 
-Event to detect text changes.
+_Event to detect text changes._
 
 ## Methods
 
@@ -45,19 +45,19 @@ Event to detect text changes.
     |color|`number`|
 
 
-Allows you to set animation style. Valid (case-insensitive) values are: ChasingDots, Circle, CubeGrid, DoubleBounce, FadingCircle, FoldingCube, Pulse, RotatingCircle, RotatingPlane, ThreeBounce, WanderingCubes, Wave. If invalid style is used, animation will be removed.Position can be: top, left, right, bottom. Size can be 100.
+_Allows you to set animation style. Valid (case-insensitive) values are: ChasingDots, Circle, CubeGrid, DoubleBounce, FadingCircle, FoldingCube, Pulse, RotatingCircle, RotatingPlane, ThreeBounce, WanderingCubes, Wave. If invalid style is used, animation will be removed.Position can be: top, left, right, bottom. Size can be 100._
 
 ### HideKeyboard
 
 [[Method('Text Box', 'HideKeyboard', false)]]
 
-Hide the keyboard.  Only multiline text boxes need this. Single line text boxes close the keyboard when the users presses the Done key.
+_Hide the keyboard.  Only multiline text boxes need this. Single line text boxes close the keyboard when the users presses the Done key._
 
 ### RequestFocus
 
 [[Method('Text Box', 'RequestFocus', false)]]
 
-Sets the textbox active.
+_Sets the textbox active._
 
 ### SetCursorAt
 
@@ -69,13 +69,13 @@ Sets the textbox active.
     |position|`number`|
 
 
-Set the cursor to the given position.
+_Set the cursor to the given position._
 
 ### SetCursorAtEnd
 
 [[Method('Text Box', 'SetCursorAtEnd', false)]]
 
-Set the cursor to the end of the text.
+_Set the cursor to the end of the text._
 
 ### SetShadow
 
@@ -90,19 +90,19 @@ Set the cursor to the end of the text.
     |color|`number`|
 
 
-Place a blurred shadow of text underneath the text, drawn with the specified x, y, radius, color (e.g. -11, 12, 13, black
+_Place a blurred shadow of text underneath the text, drawn with the specified x, y, radius, color (e.g. -11, 12, 13, black_
 
 ### ShowError
 
 [[Method('Text Box', 'ShowError', false)]]
 
-Shows an error message next to the textbox.
+_Shows an error message next to the textbox._
 
 ## Properties
 
 ### Background Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Text Box', 'Background Color')]]
@@ -111,11 +111,11 @@ Shows an error message next to the textbox.
 |:----:|:-------:|
 |number|&H00000000|
 
-The background color of the input box.  You can choose a color by name in the Designer or in the Blocks Editor.  The default background color is 'default' (shaded 3-D look).
+_The background color of the input box.  You can choose a color by name in the Designer or in the Blocks Editor.  The default background color is 'default' (shaded 3-D look)._
 
 ### Cursor Color
 
-<small>Available as Advanced Property</small>
+<small>Available as ^^Advanced^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Text Box', 'Cursor Color')]]
@@ -124,11 +124,11 @@ The background color of the input box.  You can choose a color by name in the De
 |:----:|:-------:|
 |number|&HFF000000|
 
-The color of the cursor.
+_The color of the cursor._
 
 ### Cursor Visible
 
-<small>Available as Advanced Property</small>
+<small>Available as ^^Advanced^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Text Box', 'Cursor Visible')]]
@@ -137,11 +137,11 @@ The color of the cursor.
 |:----:|:-------:|
 |boolean|True|
 
-Makes the cursor visible (the default) or invisible.
+_Makes the cursor visible (the default) or invisible._
 
 ### Enabled
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Text Box', 'Enabled')]]
@@ -150,11 +150,11 @@ Makes the cursor visible (the default) or invisible.
 |:----:|:-------:|
 |boolean|True|
 
-Whether the user can enter text into this input box.  By default, this is true.
+_Whether the user can enter text into this input box.  By default, this is true._
 
 ### Error Text
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Text Box', 'Error Text')]]
@@ -163,11 +163,11 @@ Whether the user can enter text into this input box.  By default, this is true.
 |:----:|
 |text|
 
-Returns the error text.
+_Returns the error text._
 
 ### Font Bold
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Text Box', 'Font Bold')]]
@@ -176,11 +176,11 @@ Returns the error text.
 |:----:|:-------:|
 |boolean|False|
 
-Whether the font for the text should be bold.  By default, it is not.
+_Whether the font for the text should be bold.  By default, it is not._
 
 ### Font Italic
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Text Box', 'Font Italic')]]
@@ -189,11 +189,11 @@ Whether the font for the text should be bold.  By default, it is not.
 |:----:|:-------:|
 |boolean|False|
 
-Whether the text should appear in italics.  By default, it does not.
+_Whether the text should appear in italics.  By default, it does not._
 
 ### Font Size
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Text Box', 'Font Size')]]
@@ -202,11 +202,11 @@ Whether the text should appear in italics.  By default, it does not.
 |:----:|:-------:|
 |number|14.0|
 
-The font size for the text.  By default, it is 14.0 points.
+_The font size for the text.  By default, it is 14.0 points._
 
 ### Font Typeface
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Text Box', 'Font Typeface')]]
@@ -215,11 +215,11 @@ The font size for the text.  By default, it is 14.0 points.
 |:----:|:-------:|
 |number|0|
 
-The font for the text.  The value can be changed in the Designer.
+_The font for the text.  The value can be changed in the Designer._
 
 ### Font Typeface Import
 
-<small>Available as Advanced Property</small>
+<small>Available as ^^Advanced^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Text Box', 'Font Typeface Import')]]
@@ -228,11 +228,11 @@ The font for the text.  The value can be changed in the Designer.
 |:----:|
 |text|
 
-Set a custom font.
+_Set a custom font._
 
 ### Highlight Color
 
-<small>Available as Advanced Property</small>
+<small>Available as ^^Advanced^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Text Box', 'Highlight Color')]]
@@ -241,11 +241,11 @@ Set a custom font.
 |:----:|:-------:|
 |number|&H00000000|
 
-Returns the color of the highlighted text.
+_Returns the color of the highlighted text._
 
 ### Hint
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Text Box', 'Hint')]]
@@ -254,11 +254,11 @@ Returns the color of the highlighted text.
 |:----:|
 |text|
 
-Text that should appear faintly in the input box to provide a hint as to what the user should enter.  This can only be seen if the <code>Text</code> property is empty.
+_Text that should appear faintly in the input box to provide a hint as to what the user should enter.  This can only be seen if the <code>Text</code> property is empty._
 
 ### Hint Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Text Box', 'Hint Color')]]
@@ -267,11 +267,11 @@ Text that should appear faintly in the input box to provide a hint as to what th
 |:----:|:-------:|
 |number|&HFF000000|
 
-Set a custom hint text color.
+_Set a custom hint text color._
 
 ### Input Type
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Text Box', 'Input Type')]]
@@ -280,11 +280,11 @@ Set a custom hint text color.
 |:----:|:-------:|
 |number|1|
 
-The input type you want for this TextBox.
+_The input type you want for this TextBox._
 
 ### Multiline
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Text Box', 'Multiline')]]
@@ -293,7 +293,7 @@ The input type you want for this TextBox.
 |:----:|:-------:|
 |boolean|False|
 
-If true, then this text box accepts multiple lines of input, which are entered using the return key.  For single line text boxes there is a Done key instead of a return key, and pressing Done hides the keyboard.  The app should call the HideKeyboard method to hide the keyboard for a mutiline text box.
+_If true, then this text box accepts multiple lines of input, which are entered using the return key.  For single line text boxes there is a Done key instead of a return key, and pressing Done hides the keyboard.  The app should call the HideKeyboard method to hide the keyboard for a mutiline text box._
 
 ### Numbers Only (Not Working, Use Input Type)
 
@@ -306,11 +306,11 @@ If true, then this text box accepts multiple lines of input, which are entered u
 |:----:|:-------:|
 |boolean|False|
 
-If true, then this text box accepts only numbers as keyboard input.  Numbers can include a decimal point and an optional leading minus sign.  This applies to keyboard input only.  Even if NumbersOnly is true, you can use [set Text to] to enter any text at all.
+_If true, then this text box accepts only numbers as keyboard input.  Numbers can include a decimal point and an optional leading minus sign.  This applies to keyboard input only.  Even if NumbersOnly is true, you can use [set Text to] to enter any text at all._
 
 ### Read Only
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Text Box', 'Read Only')]]
@@ -319,11 +319,11 @@ If true, then this text box accepts only numbers as keyboard input.  Numbers can
 |:----:|:-------:|
 |boolean|False|
 
-Whether the TextBox is read-only. By default, this is true.
+_Whether the TextBox is read-only. By default, this is true._
 
 ### Rotation Angle
 
-<small>Available as Advanced Property</small>
+<small>Available as ^^Advanced^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Text Box', 'Rotation Angle')]]
@@ -332,11 +332,11 @@ Whether the TextBox is read-only. By default, this is true.
 |:----:|:-------:|
 |number|0.0|
 
-Sets the degrees that the textbox is rotated around the pivot point. Increasing values result in clockwise rotation.
+_Sets the degrees that the textbox is rotated around the pivot point. Increasing values result in clockwise rotation._
 
 ### Text
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Text Box', 'Text')]]
@@ -345,11 +345,11 @@ Sets the degrees that the textbox is rotated around the pivot point. Increasing 
 |:----:|
 |text|
 
-Returns the textbox contents.
+_Returns the textbox contents._
 
 ### Text Alignment
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Text Box', 'Text Alignment')]]
@@ -358,11 +358,11 @@ Returns the textbox contents.
 |:----:|:-------:|
 |number|0|
 
-Whether the text should be left justified, centered, or right justified.  By default, text is left justified.
+_Whether the text should be left justified, centered, or right justified.  By default, text is left justified._
 
 ### Text Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Text Box', 'Text Color')]]
@@ -371,11 +371,11 @@ Whether the text should be left justified, centered, or right justified.  By def
 |:----:|:-------:|
 |number|&HFF000000|
 
-The color for the text.  You can choose a color by name in the Designer or in the Blocks Editor.  The default text color is black.
+_The color for the text.  You can choose a color by name in the Designer or in the Blocks Editor.  The default text color is black._
 
 ### Visible
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Text Box', 'Visible')]]
@@ -384,11 +384,9 @@ The color for the text.  You can choose a color by name in the Designer or in th
 |:----:|:-------:|
 |boolean|True|
 
-Returns true iff the component is visible.
+_Returns true iff the component is visible._
 
 ### Column
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Text Box', 'Column')]]
@@ -397,11 +395,9 @@ Returns true iff the component is visible.
 |:----:|:-------:|
 |number|None|
 
-Column property getter method.
+_Column property getter method._
 
 ### Current Position
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Text Box', 'Current Position')]]
@@ -410,11 +406,11 @@ Column property getter method.
 |:----:|:-------:|
 |number|None|
 
-Get the current cursor position.
+_Get the current cursor position._
 
 ### Enable Copy & Paste
 
-:warning: ==**Deprecated**== 
+:warning: ==**Deprecated**==
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Text Box', 'Enable Copy & Paste')]]
@@ -423,11 +419,9 @@ Get the current cursor position.
 |:----:|:-------:|
 |boolean|None|
 
-DEPRECATED since this feature is not working. Use 'Enabled' instead.
+_DEPRECATED since this feature is not working. Use 'Enabled' instead._
 
 ### Height
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Text Box', 'Height')]]
@@ -436,11 +430,9 @@ DEPRECATED since this feature is not working. Use 'Enabled' instead.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's vertical height, measured in pixels.
+_Specifies the component's vertical height, measured in pixels._
 
 ### Height Percent
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Text Box', 'Height Percent')]]
@@ -449,12 +441,12 @@ Specifies the component's vertical height, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's vertical height as a percentage
- of the height of its parent Component.
+_Specifies the component's vertical height as a percentage
+ of the height of its parent Component._
 
 ### Line Color
 
-:warning: ==**Deprecated**== 
+:warning: ==**Deprecated**==
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Text Box', 'Line Color')]]
@@ -463,11 +455,9 @@ Specifies the component's vertical height as a percentage
 |:----:|:-------:|
 |number|None|
 
-Please delete this block from your project.This block is deprecated and not longer supported.
+_Please delete this block from your project.This block is deprecated and not longer supported._
 
 ### Row
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Text Box', 'Row')]]
@@ -476,11 +466,9 @@ Please delete this block from your project.This block is deprecated and not long
 |:----:|:-------:|
 |number|None|
 
-Row property getter method.
+_Row property getter method._
 
 ### Text Length
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Text Box', 'Text Length')]]
@@ -489,11 +477,9 @@ Row property getter method.
 |:----:|:-------:|
 |number|None|
 
-Returns the current text length as number.
+_Returns the current text length as number._
 
 ### Width
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Text Box', 'Width')]]
@@ -502,11 +488,9 @@ Returns the current text length as number.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width, measured in pixels.
+_Specifies the component's horizontal width, measured in pixels._
 
 ### Width Percent
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Text Box', 'Width Percent')]]
@@ -515,5 +499,5 @@ Specifies the component's horizontal width, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width as a percentage
- of the Width of its parent Component.
+_Specifies the component's horizontal width as a percentage
+ of the Width of its parent Component._

@@ -16,7 +16,7 @@ _<p>Non-visible component that provides the instant in time using the internal c
 
 [[Event('Clock', 'Timer')]]
 
-Timer has gone off.
+_Timer has gone off._
 
 ## Methods
 
@@ -33,7 +33,7 @@ Timer has gone off.
     |quantity|`number`|
 
 
-An instant in time some days after the argument
+_An instant in time some days after the argument_
 
 ### AddDuration
 
@@ -48,7 +48,7 @@ An instant in time some days after the argument
     |quantity|`number`|
 
 
-An instant in time some duration after the argument
+_An instant in time some duration after the argument_
 
 ### AddHours
 
@@ -63,7 +63,7 @@ An instant in time some duration after the argument
     |quantity|`number`|
 
 
-An instant in time some hours after the argument
+_An instant in time some hours after the argument_
 
 ### AddMinutes
 
@@ -78,7 +78,7 @@ An instant in time some hours after the argument
     |quantity|`number`|
 
 
-An instant in time some minutes after the argument
+_An instant in time some minutes after the argument_
 
 ### AddMonths
 
@@ -93,7 +93,7 @@ An instant in time some minutes after the argument
     |quantity|`number`|
 
 
-An instant in time some months after the argument
+_An instant in time some months after the argument_
 
 ### AddSeconds
 
@@ -108,7 +108,7 @@ An instant in time some months after the argument
     |quantity|`number`|
 
 
-An instant in time some seconds after the argument
+_An instant in time some seconds after the argument_
 
 ### AddWeeks
 
@@ -123,7 +123,7 @@ An instant in time some seconds after the argument
     |quantity|`number`|
 
 
-An instant in time some weeks after the argument
+_An instant in time some weeks after the argument_
 
 ### AddYears
 
@@ -138,7 +138,7 @@ An instant in time some weeks after the argument
     |quantity|`number`|
 
 
-An instant in time some years after the argument
+_An instant in time some years after the argument_
 
 ### DayOfMonth
 
@@ -152,7 +152,7 @@ An instant in time some years after the argument
     |instant|`InstantInTime`|
 
 
-The day of the month
+_The day of the month_
 
 ### Duration
 
@@ -167,7 +167,7 @@ The day of the month
     |end|`InstantInTime`|
 
 
-Milliseconds elapsed between instants
+_Milliseconds elapsed between instants_
 
 ### DurationToDays
 
@@ -181,7 +181,7 @@ Milliseconds elapsed between instants
     |duration|`number`|
 
 
-convert duration to days
+_convert duration to days_
 
 ### DurationToHours
 
@@ -195,7 +195,7 @@ convert duration to days
     |duration|`number`|
 
 
-convert duration to hours
+_convert duration to hours_
 
 ### DurationToMinutes
 
@@ -209,7 +209,7 @@ convert duration to hours
     |duration|`number`|
 
 
-convert duration to minutes
+_convert duration to minutes_
 
 ### DurationToSeconds
 
@@ -223,7 +223,7 @@ convert duration to minutes
     |duration|`number`|
 
 
-convert duration to seconds
+_convert duration to seconds_
 
 ### DurationToWeeks
 
@@ -237,7 +237,7 @@ convert duration to seconds
     |duration|`number`|
 
 
-convert duration to weeks
+_convert duration to weeks_
 
 ### FormatDate
 
@@ -252,7 +252,7 @@ convert duration to weeks
     |pattern|`text`|
 
 
-Text representing the date of an instant in the specified pattern
+_Text representing the date of an instant in the specified pattern_
 
 ### FormatDateTime
 
@@ -267,7 +267,7 @@ Text representing the date of an instant in the specified pattern
     |pattern|`text`|
 
 
-Text representing the date and time of an instant in the specified pattern
+_Text representing the date and time of an instant in the specified pattern_
 
 ### FormatTime
 
@@ -281,7 +281,7 @@ Text representing the date and time of an instant in the specified pattern
     |instant|`InstantInTime`|
 
 
-Text representing the time of an instant
+_Text representing the time of an instant_
 
 ### GetMillis
 
@@ -295,7 +295,7 @@ Text representing the time of an instant
     |instant|`InstantInTime`|
 
 
-The instant in time measured as milliseconds since 1970.
+_The instant in time measured as milliseconds since 1970._
 
 ### Hour
 
@@ -309,7 +309,7 @@ The instant in time measured as milliseconds since 1970.
     |instant|`InstantInTime`|
 
 
-The hour of the day
+_The hour of the day_
 
 ### MakeDate
 
@@ -325,8 +325,8 @@ The hour of the day
     |day|`number`|
 
 
-Allows the user to set the clock to be a date value.
-Valid values for the month field are 1-12 and 1-31 for the day field.
+_Allows the user to set the clock to be a date value.
+Valid values for the month field are 1-12 and 1-31 for the day field._
 
 ### MakeInstant
 
@@ -340,7 +340,7 @@ Valid values for the month field are 1-12 and 1-31 for the day field.
     |from|`text`|
 
 
-An instant in time specified by MM/dd/YYYY hh:mm:ss or MM/dd/YYYY or hh:mm
+_An instant in time specified by MM/dd/YYYY hh:mm:ss or MM/dd/YYYY or hh:mm_
 
 ### MakeInstantFromMillis
 
@@ -354,7 +354,7 @@ An instant in time specified by MM/dd/YYYY hh:mm:ss or MM/dd/YYYY or hh:mm
     |millis|`number`|
 
 
-An instant in time specified by the milliseconds since 1970.
+_An instant in time specified by the milliseconds since 1970._
 
 ### MakeInstantFromParts
 
@@ -373,8 +373,8 @@ An instant in time specified by the milliseconds since 1970.
     |second|`number`|
 
 
-Allows the user to set the date and time to be displayed when the clock opens.
-Valid values for the month field are 1-12 and 1-31 for the day field.
+_Allows the user to set the date and time to be displayed when the clock opens.
+Valid values for the month field are 1-12 and 1-31 for the day field._
 
 ### MakeTime
 
@@ -390,7 +390,7 @@ Valid values for the month field are 1-12 and 1-31 for the day field.
     |second|`number`|
 
 
-Allows the user to set the time of the clock - Valid format is hh:mm:ss
+_Allows the user to set the time of the clock - Valid format is hh:mm:ss_
 
 ### Minute
 
@@ -404,7 +404,7 @@ Allows the user to set the time of the clock - Valid format is hh:mm:ss
     |instant|`InstantInTime`|
 
 
-The minute of the hour
+_The minute of the hour_
 
 ### Month
 
@@ -418,7 +418,7 @@ The minute of the hour
     |instant|`InstantInTime`|
 
 
-The month of the year represented as a number from 1 to 12)
+_The month of the year represented as a number from 1 to 12)_
 
 ### MonthName
 
@@ -432,7 +432,7 @@ The month of the year represented as a number from 1 to 12)
     |instant|`InstantInTime`|
 
 
-The name of the month
+_The name of the month_
 
 ### Now
 
@@ -440,7 +440,7 @@ The name of the month
 
 {>>Returns `InstantInTime`<<}
 
-The current instant in time read from phone's clock
+_The current instant in time read from phone's clock_
 
 ### Second
 
@@ -454,7 +454,7 @@ The current instant in time read from phone's clock
     |instant|`InstantInTime`|
 
 
-The second of the minute
+_The second of the minute_
 
 ### SystemTime
 
@@ -462,7 +462,7 @@ The second of the minute
 
 {>>Returns `number`<<}
 
-The phone's internal time
+_The phone's internal time_
 
 ### Weekday
 
@@ -476,7 +476,7 @@ The phone's internal time
     |instant|`InstantInTime`|
 
 
-The day of the week represented as a number from 1 (Sunday) to 7 (Saturday)
+_The day of the week represented as a number from 1 (Sunday) to 7 (Saturday)_
 
 ### WeekdayName
 
@@ -490,7 +490,7 @@ The day of the week represented as a number from 1 (Sunday) to 7 (Saturday)
     |instant|`InstantInTime`|
 
 
-The name of the day of the week
+_The name of the day of the week_
 
 ### Year
 
@@ -504,13 +504,13 @@ The name of the day of the week
     |instant|`InstantInTime`|
 
 
-The year
+_The year_
 
 ## Properties
 
 ### Timer Always Fires
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Clock', 'Timer Always Fires')]]
@@ -519,11 +519,11 @@ The year
 |:----:|:-------:|
 |boolean|True|
 
-Will fire even when application is not showing on the screen if true
+_Will fire even when application is not showing on the screen if true_
 
 ### Timer Enabled
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Clock', 'Timer Enabled')]]
@@ -532,11 +532,11 @@ Will fire even when application is not showing on the screen if true
 |:----:|:-------:|
 |boolean|True|
 
-Fires timer if true
+_Fires timer if true_
 
 ### Timer Interval
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Clock', 'Timer Interval')]]
@@ -545,4 +545,4 @@ Fires timer if true
 |:----:|:-------:|
 |number|1000|
 
-Interval between timer events in ms
+_Interval between timer events in ms_

@@ -16,7 +16,7 @@ _A non-visible component that shows Facebook ads as full-screen video where user
 
 [[Event('Facebook Rewarded Video', 'Ad Closed')]]
 
-Called when the user is about to return to the application after clicking on an ad.
+_Called when the user is about to return to the application after clicking on an ad._
 
 ### Ad Failed To Load
 
@@ -29,31 +29,31 @@ Called when the user is about to return to the application after clicking on an 
     |error Message|`text`|
 
 
-Called when an ad request failed to load. The message will display the error code and error message.
+_Called when an ad request failed to load. The message will display the error code and error message._
 
 ### Ad Loaded
 
 [[Event('Facebook Rewarded Video', 'Ad Loaded')]]
 
-Called when an ad is received.
+_Called when an ad is received._
 
 ### Ad Opened
 
 [[Event('Facebook Rewarded Video', 'Ad Opened')]]
 
-Called when an ad was opened.
+_Called when an ad was opened._
 
 ### Ad Video Completed
 
 [[Event('Facebook Rewarded Video', 'Ad Video Completed')]]
 
-Called when an video ad was completed.
+_Called when an video ad was completed._
 
 ### Ad Video Started
 
 [[Event('Facebook Rewarded Video', 'Ad Video Started')]]
 
-Called when an video ad started to show content.
+_Called when an video ad started to show content._
 
 ### Error
 
@@ -65,7 +65,7 @@ Called when an video ad started to show content.
     |error|`text`|
 
 
-Called when an ad request failed. message will display the reason for why the ad failed.
+_Called when an ad request failed. message will display the reason for why the ad failed._
 
 ## Methods
 
@@ -73,19 +73,19 @@ Called when an ad request failed. message will display the reason for why the ad
 
 [[Method('Facebook Rewarded Video', 'Load Ad', false)]]
 
-Loads a new ad.
+_Loads a new ad._
 
 ### ShowAd
 
 [[Method('Facebook Rewarded Video', 'ShowAd', false)]]
 
-Shows an ad to the user.
+_Shows an ad to the user._
 
 ## Properties
 
 ### Rewarded Video Commission
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Facebook Rewarded Video', 'Rewarded Video Commission')]]
@@ -94,11 +94,11 @@ Shows an ad to the user.
 |:----:|:-------:|
 |text|unity|
 
-Sets the ad network used to take the commission.
+_Sets the ad network used to take the commission._
 
 ### Placement ID
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Facebook Rewarded Video', 'Placement ID')]]

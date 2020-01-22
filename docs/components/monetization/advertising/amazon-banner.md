@@ -14,13 +14,13 @@ _AdAmazon component allows you to monetize your app. You must have a valid publi
 
 [[Event('Amazon Banner', 'Ad Dismissed')]]
 
-Event to detect that a ad was dismissed.
+_Event to detect that a ad was dismissed._
 
 ### Ad Expanded
 
 [[Event('Amazon Banner', 'Ad Expanded')]]
 
-Event to detect that a ad was expanded.
+_Event to detect that a ad was expanded._
 
 ### Ad Failed To Load
 
@@ -33,19 +33,19 @@ Event to detect that a ad was expanded.
     |error Message|`text`|
 
 
-Event to detect that the try to load a ad was not successful.
+_Event to detect that the try to load a ad was not successful._
 
 ### Ad Loaded
 
 [[Event('Amazon Banner', 'Ad Loaded')]]
 
-Event to detect that a ad was loaded.
+_Event to detect that a ad was loaded._
 
 ## Properties
 
 ### Publisher ID
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Amazon Banner', 'Publisher ID')]]
@@ -54,11 +54,11 @@ Event to detect that a ad was loaded.
 |:----:|:-------:|
 |text|AmazonPublisherId|
 
-Sets the Amazon Ad Publisher Id and refreshes the ad.
+_Sets the Amazon Ad Publisher Id and refreshes the ad._
 
 ### Refresh Ad
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Amazon Banner', 'Refresh Ad')]]
@@ -67,11 +67,11 @@ Sets the Amazon Ad Publisher Id and refreshes the ad.
 |:----:|:-------:|
 |boolean|True|
 
-Refreshes the ad.
+_Refreshes the ad._
 
 ### Test Mode
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Amazon Banner', 'Test Mode')]]
@@ -80,11 +80,11 @@ Refreshes the ad.
 |:----:|:-------:|
 |boolean|True|
 
-Turns the debugging on / off based on enabled parameter.
+_Turns the debugging on / off based on enabled parameter._
 
 ### Visible
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Amazon Banner', 'Visible')]]
@@ -93,11 +93,9 @@ Turns the debugging on / off based on enabled parameter.
 |:----:|:-------:|
 |boolean|True|
 
-Returns true iff the component is visible.
+_Returns true iff the component is visible._
 
 ### Column
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Amazon Banner', 'Column')]]
@@ -106,11 +104,9 @@ Returns true iff the component is visible.
 |:----:|:-------:|
 |number|None|
 
-Column property getter method.
+_Column property getter method._
 
 ### Row
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Amazon Banner', 'Row')]]
@@ -119,4 +115,4 @@ Column property getter method.
 |:----:|:-------:|
 |number|None|
 
-Row property getter method.
+_Row property getter method._

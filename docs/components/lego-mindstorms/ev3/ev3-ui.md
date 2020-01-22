@@ -26,7 +26,7 @@ _A component that provides a high-level interface to a LEGO MINDSTORMS EV3 robot
     |fill|`boolean`|
 
 
-Draw a circle on the screen.
+_Draw a circle on the screen._
 
 ### DrawIcon
 
@@ -42,7 +42,7 @@ Draw a circle on the screen.
     |no|`number`|
 
 
-Draw a built-in icon on screen.
+_Draw a built-in icon on screen._
 
 ### DrawLine
 
@@ -58,7 +58,7 @@ Draw a built-in icon on screen.
     |y2|`number`|
 
 
-Draw a line on the screen.
+_Draw a line on the screen._
 
 ### DrawPoint
 
@@ -72,7 +72,7 @@ Draw a line on the screen.
     |y|`number`|
 
 
-Draw a point on the screen.
+_Draw a point on the screen._
 
 ### DrawRect
 
@@ -89,7 +89,7 @@ Draw a point on the screen.
     |fill|`boolean`|
 
 
-Draw a rectangle on the screen.
+_Draw a rectangle on the screen._
 
 ### FillScreen
 
@@ -101,13 +101,13 @@ Draw a rectangle on the screen.
     |color|`number`|
 
 
-Fill the screen with a color.
+_Fill the screen with a color._
 
 ## Properties
 
 ### Bluetooth Client
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('EV3 UI', 'Bluetooth Client')]]
@@ -116,4 +116,4 @@ Fill the screen with a color.
 |:----:|
 |component|
 
-The BluetoothClient component that should be used for communication.
+_The BluetoothClient component that should be used for communication._

@@ -22,14 +22,14 @@ _A non-visible component that converts spoken words to text using voice recognit
     |result|`text`|
 
 
-Simple event to raise after the VoiceReco activity has returned
+_Simple event to raise after the VoiceReco activity has returned_
 
 ### Before Getting Text
 
 [[Event('Speech Recognizer', 'Before Getting Text')]]
 
-Simple event to raise when VoiceReco is invoked but before the VoiceReco
- activity is started.
+_Simple event to raise when VoiceReco is invoked but before the VoiceReco
+ activity is started._
 
 ## Methods
 
@@ -37,14 +37,12 @@ Simple event to raise when VoiceReco is invoked but before the VoiceReco
 
 [[Method('Speech Recognizer', 'GetText', false)]]
 
-Solicits speech input from the user.  After the speech is converted to
- text, the AfterGettingText event will be raised.
+_Solicits speech input from the user.  After the speech is converted to
+ text, the AfterGettingText event will be raised._
 
 ## Properties
 
 ### Result
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Speech Recognizer', 'Result')]]
@@ -53,4 +51,4 @@ Solicits speech input from the user.  After the speech is converted to
 |:----:|:-------:|
 |text|None|
 
-Result property getter method.
+_Result property getter method._

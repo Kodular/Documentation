@@ -14,7 +14,7 @@ _<p>A two-dimensional container that renders map tiles in the background and all
 
 [[Event('Map', 'Bounds Change')]]
 
-User has changed the map bounds by panning or zooming the map.
+_User has changed the map bounds by panning or zooming the map._
 
 ### Double Tap At Point
 
@@ -27,7 +27,7 @@ User has changed the map bounds by panning or zooming the map.
     |longitude|`number`|
 
 
-The user double-tapped at a point on the map. This event will be followed by a ZoomChanged event if zooming gestures are enabled and the map is not at the highest possible zoom level.
+_The user double-tapped at a point on the map. This event will be followed by a ZoomChanged event if zooming gestures are enabled and the map is not at the highest possible zoom level._
 
 ### Feature Click
 
@@ -39,7 +39,7 @@ The user double-tapped at a point on the map. This event will be followed by a Z
     |feature|`component`|
 
 
-The user clicked on a map feature.
+_The user clicked on a map feature._
 
 ### Feature Drag
 
@@ -51,7 +51,7 @@ The user clicked on a map feature.
     |feature|`component`|
 
 
-The user dragged a map feature.
+_The user dragged a map feature._
 
 ### Feature Long Click
 
@@ -63,7 +63,7 @@ The user dragged a map feature.
     |feature|`component`|
 
 
-The user long-pressed on a map feature.
+_The user long-pressed on a map feature._
 
 ### Feature Start Drag
 
@@ -75,7 +75,7 @@ The user long-pressed on a map feature.
     |feature|`component`|
 
 
-The user started dragging a map feature.
+_The user started dragging a map feature._
 
 ### Feature Stop Drag
 
@@ -87,7 +87,7 @@ The user started dragging a map feature.
     |feature|`component`|
 
 
-The user stopped dragging a map feature.
+_The user stopped dragging a map feature._
 
 ### Got Features
 
@@ -100,7 +100,7 @@ The user stopped dragging a map feature.
     |features|`list`|
 
 
-A GeoJSON document was successfully read from url. The features specified in the document are provided as a list in features.
+_A GeoJSON document was successfully read from url. The features specified in the document are provided as a list in features._
 
 ### Invalid Point
 
@@ -112,7 +112,7 @@ A GeoJSON document was successfully read from url. The features specified in the
     |message|`text`|
 
 
-An invalid coordinate was supplied during a maps operation. The message parameter will have more details about the issue.
+_An invalid coordinate was supplied during a maps operation. The message parameter will have more details about the issue._
 
 ### Load Error
 
@@ -126,7 +126,7 @@ An invalid coordinate was supplied during a maps operation. The message paramete
     |error Message|`text`|
 
 
-An error was encountered while processing a GeoJSON document at the given url. The responseCode parameter will contain an HTTP status code and the errorMessage parameter will contain a detailed error message.
+_An error was encountered while processing a GeoJSON document at the given url. The responseCode parameter will contain an HTTP status code and the errorMessage parameter will contain a detailed error message._
 
 ### Long Press At Point
 
@@ -139,13 +139,13 @@ An error was encountered while processing a GeoJSON document at the given url. T
     |longitude|`number`|
 
 
-The user long-pressed at a point on the map.
+_The user long-pressed at a point on the map._
 
 ### Map Ready
 
 [[Event('Map', 'Map Ready')]]
 
-Map has been initialized and is ready for user interaction.
+_Map has been initialized and is ready for user interaction._
 
 ### Tap At Point
 
@@ -158,13 +158,13 @@ Map has been initialized and is ready for user interaction.
     |longitude|`number`|
 
 
-The user tapped at a point on the map.
+_The user tapped at a point on the map._
 
 ### Zoom Change
 
 [[Event('Map', 'Zoom Change')]]
 
-User has changed the zoom level of the map.
+_User has changed the zoom level of the map._
 
 ## Methods
 
@@ -181,7 +181,7 @@ User has changed the zoom level of the map.
     |longitude|`number`|
 
 
-Create a new marker with default properties at the specified latitude and longitude.
+_Create a new marker with default properties at the specified latitude and longitude._
 
 ### FeatureFromDescription
 
@@ -195,7 +195,7 @@ Create a new marker with default properties at the specified latitude and longit
     |description|`list`|
 
 
-Convert a feature description into an App Inventor map feature. Currently the only
+_Convert a feature description into an App Inventor map feature. Currently the only
  supported conversion is from a GeoJSON point to Marker component. If the feature has
  properties, they will be mapped into App Inventor properties using the following mapping:
 
@@ -209,7 +209,7 @@ Convert a feature description into an App Inventor map feature. Currently the on
  stroke-opacity becomes StrokeOpacity;
  stroke-width becomes StrokeWidth;
  title becomes Title;
- visible becomes Visible
+ visible becomes Visible_
 
 ### LoadFromURL
 
@@ -221,7 +221,7 @@ Convert a feature description into an App Inventor map feature. Currently the on
     |url|`text`|
 
 
-<p>Load a feature collection in <a href="https://en.wikipedia.org/wiki/GeoJSON">GeoJSON</a> format from the given url. On success, the event GotFeatures will be raised with the given url and a list of the features parsed from the GeoJSON as a list of (key, value) pairs. On failure, the LoadError event will be raised with any applicable HTTP response code and error message.</p>
+_<p>Load a feature collection in <a href="https://en.wikipedia.org/wiki/GeoJSON">GeoJSON</a> format from the given url. On success, the event GotFeatures will be raised with the given url and a list of the features parsed from the GeoJSON as a list of (key, value) pairs. On failure, the LoadError event will be raised with any applicable HTTP response code and error message.</p>_
 
 ### PanTo
 
@@ -235,7 +235,7 @@ Convert a feature description into an App Inventor map feature. Currently the on
     |zoom|`number`|
 
 
-Pan the map center to the given latitude and longitude and adjust the zoom level to the specified zoom.
+_Pan the map center to the given latitude and longitude and adjust the zoom level to the specified zoom._
 
 ### Save
 
@@ -247,13 +247,13 @@ Pan the map center to the given latitude and longitude and adjust the zoom level
     |path|`text`|
 
 
-Save the contents of the Map to the specified path.
+_Save the contents of the Map to the specified path._
 
 ## Properties
 
 ### Center From String
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Map', 'Center From String')]]
@@ -262,11 +262,11 @@ Save the contents of the Map to the specified path.
 |:----:|:-------:|
 |text|42.359144, -71.093612|
 
-<p>Set the initial center coordinate of the map. The value is specified as a comma-separated pair of decimal latitude and longitude coordinates, for example, <code>42.359144, -71.093612</code>.</p><p>In blocks code, it is recommended for performance reasons to use SetCenter with numerical latitude and longitude rather than convert to the string representation for use with this property.</p>
+_<p>Set the initial center coordinate of the map. The value is specified as a comma-separated pair of decimal latitude and longitude coordinates, for example, <code>42.359144, -71.093612</code>.</p><p>In blocks code, it is recommended for performance reasons to use SetCenter with numerical latitude and longitude rather than convert to the string representation for use with this property.</p>_
 
 ### Enable Pan
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Map', 'Enable Pan')]]
@@ -275,11 +275,11 @@ Save the contents of the Map to the specified path.
 |:----:|:-------:|
 |boolean|True|
 
-Enable two-finger panning of the Map
+_Enable two-finger panning of the Map_
 
 ### Enable Rotation
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Map', 'Enable Rotation')]]
@@ -288,11 +288,11 @@ Enable two-finger panning of the Map
 |:----:|:-------:|
 |boolean|False|
 
-Enable rotating the map based on the user's orientation.
+_Enable rotating the map based on the user's orientation._
 
 ### Enable Zoom
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Map', 'Enable Zoom')]]
@@ -301,12 +301,12 @@ Enable rotating the map based on the user's orientation.
 |:----:|:-------:|
 |boolean|True|
 
-<p>Set whether the user can zoom the map using touch gestures. This value does not affect
- whether the user can zoom using the zoom controls from
+_<p>Set whether the user can zoom the map using touch gestures. This value does not affect
+ whether the user can zoom using the zoom controls from_
 
 ### Location Sensor
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Map', 'Location Sensor')]]
@@ -315,11 +315,11 @@ Enable rotating the map based on the user's orientation.
 |:----:|
 |component|
 
-Uses the provided LocationSensor for user location data rather than the built-in location provider.
+_Uses the provided LocationSensor for user location data rather than the built-in location provider._
 
 ### Map Type
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Map', 'Map Type')]]
@@ -328,16 +328,16 @@ Uses the provided LocationSensor for user location data rather than the built-in
 |:----:|:-------:|
 |number|1|
 
-<p>Set the type of map tile used for the base tile layer. Valid values are:</p>
+_<p>Set the type of map tile used for the base tile layer. Valid values are:</p>
  <ol>
  <li>Roads</li>
  <li>Aerial</li>
  <li>Terrain</li>
- </ol>
+ </ol>_
 
 ### Rotation
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Map', 'Rotation')]]
@@ -346,11 +346,11 @@ Uses the provided LocationSensor for user location data rather than the built-in
 |:----:|:-------:|
 |number|0.0|
 
-Sets or gets the rotation of the map in decimal degrees if any
+_Sets or gets the rotation of the map in decimal degrees if any_
 
 ### Scale Units
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Map', 'Scale Units')]]
@@ -363,7 +363,7 @@ _No description available_
 
 ### Show Compass
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Map', 'Show Compass')]]
@@ -372,12 +372,12 @@ _No description available_
 |:----:|:-------:|
 |boolean|False|
 
-Show a compass on the map. If the device provides a digital compass, orientation changes will
- be used to rotate the compass icon.
+_Show a compass on the map. If the device provides a digital compass, orientation changes will
+ be used to rotate the compass icon._
 
 ### Show Scale
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Map', 'Show Scale')]]
@@ -386,11 +386,11 @@ Show a compass on the map. If the device provides a digital compass, orientation
 |:----:|:-------:|
 |boolean|False|
 
-Shows a scale reference on the map.
+_Shows a scale reference on the map._
 
 ### Show User
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Map', 'Show User')]]
@@ -399,11 +399,11 @@ Shows a scale reference on the map.
 |:----:|:-------:|
 |boolean|False|
 
-Show the user's location on the map.
+_Show the user's location on the map._
 
 ### Show Zoom
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Map', 'Show Zoom')]]
@@ -412,11 +412,11 @@ Show the user's location on the map.
 |:----:|:-------:|
 |boolean|False|
 
-Show the zoom controls on the map.
+_Show the zoom controls on the map._
 
 ### Visible
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Map', 'Visible')]]
@@ -425,11 +425,11 @@ Show the zoom controls on the map.
 |:----:|:-------:|
 |boolean|True|
 
-Returns true iff the component is visible.
+_Returns true iff the component is visible._
 
 ### Zoom Level
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Map', 'Zoom Level')]]
@@ -438,16 +438,14 @@ Returns true iff the component is visible.
 |:----:|:-------:|
 |number|13|
 
-<p>Set the zoom level of the map.</p>
+_<p>Set the zoom level of the map.</p>
  <p>Valid values of ZoomLevel are dependent on the tile provider and the latitude and
  longitude of the map. For example, zoom levels are more constrained over oceans than dense
  city centers to conserve space for storing tiles, so valid values may be 1-7 over ocean and
  1-18 over cities. Tile providers may send warning or error tiles if the zoom level is too
- great for the server to support.</p>
+ great for the server to support.</p>_
 
 ### Bounding Box
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Map', 'Bounding Box')]]
@@ -456,11 +454,9 @@ Returns true iff the component is visible.
 |:----:|:-------:|
 |list|None|
 
-Bounding box for the map stored as [[North, West], [South, East]].
+_Bounding box for the map stored as [[North, West], [South, East]]._
 
 ### Column
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Map', 'Column')]]
@@ -469,11 +465,9 @@ Bounding box for the map stored as [[North, West], [South, East]].
 |:----:|:-------:|
 |number|None|
 
-Column property getter method.
+_Column property getter method._
 
 ### Features
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Map', 'Features')]]
@@ -482,11 +476,9 @@ Column property getter method.
 |:----:|:-------:|
 |list|None|
 
-The list of features placed on this map. This list also includes any features created by calls to FeatureFromDescription
+_The list of features placed on this map. This list also includes any features created by calls to FeatureFromDescription_
 
 ### Height
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Map', 'Height')]]
@@ -495,11 +487,9 @@ The list of features placed on this map. This list also includes any features cr
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's vertical height, measured in pixels.
+_Specifies the component's vertical height, measured in pixels._
 
 ### Height Percent
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Map', 'Height Percent')]]
@@ -508,12 +498,10 @@ Specifies the component's vertical height, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's vertical height as a percentage
- of the height of its parent Component.
+_Specifies the component's vertical height as a percentage
+ of the height of its parent Component._
 
 ### Latitude
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Map', 'Latitude')]]
@@ -522,11 +510,9 @@ Specifies the component's vertical height as a percentage
 |:----:|:-------:|
 |number|None|
 
-The latitude of the center of the map.
+_The latitude of the center of the map._
 
 ### Longitude
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Map', 'Longitude')]]
@@ -535,11 +521,9 @@ The latitude of the center of the map.
 |:----:|:-------:|
 |number|None|
 
-The longitude of the center of the map.
+_The longitude of the center of the map._
 
 ### Row
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Map', 'Row')]]
@@ -548,11 +532,9 @@ The longitude of the center of the map.
 |:----:|:-------:|
 |number|None|
 
-Row property getter method.
+_Row property getter method._
 
 ### User Latitude
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Map', 'User Latitude')]]
@@ -561,11 +543,9 @@ Row property getter method.
 |:----:|:-------:|
 |number|None|
 
-Returns the user's latitude if ShowUser is enabled.
+_Returns the user's latitude if ShowUser is enabled._
 
 ### User Longitude
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Map', 'User Longitude')]]
@@ -574,11 +554,9 @@ Returns the user's latitude if ShowUser is enabled.
 |:----:|:-------:|
 |number|None|
 
-Returns the user's longitude if ShowUser is enabled.
+_Returns the user's longitude if ShowUser is enabled._
 
 ### Width
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Map', 'Width')]]
@@ -587,11 +565,9 @@ Returns the user's longitude if ShowUser is enabled.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width, measured in pixels.
+_Specifies the component's horizontal width, measured in pixels._
 
 ### Width Percent
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Map', 'Width Percent')]]
@@ -600,5 +576,5 @@ Specifies the component's horizontal width, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width as a percentage
- of the Width of its parent Component.
+_Specifies the component's horizontal width as a percentage
+ of the Width of its parent Component._

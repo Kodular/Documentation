@@ -22,7 +22,7 @@ _A component to create dynamic buttons in Arrangements_
     |id|`number`|
 
 
-Trigger when a Dynamic Button is clicked.
+_Trigger when a Dynamic Button is clicked._
 
 ### Button Long Click
 
@@ -34,7 +34,7 @@ Trigger when a Dynamic Button is clicked.
     |id|`number`|
 
 
-Trigger when a Dynamic Button is long clicked.
+_Trigger when a Dynamic Button is long clicked._
 
 ## Methods
 
@@ -49,7 +49,7 @@ Trigger when a Dynamic Button is long clicked.
     |arrangement|`component`|
 
 
-Create a Dynamic Button.
+_Create a Dynamic Button._
 
 ### DeleteButton
 
@@ -64,7 +64,7 @@ Create a Dynamic Button.
     |arrangement|`component`|
 
 
-This block is DEPRECATED! Please use instead the 'Delete Button' block without arrangement parameter.
+_This block is DEPRECATED! Please use instead the 'Delete Button' block without arrangement parameter._
 
 ### DeleteButtonNew
 
@@ -76,7 +76,7 @@ This block is DEPRECATED! Please use instead the 'Delete Button' block without a
     |id|`number`|
 
 
-Delete a Dynamic Button.
+_Delete a Dynamic Button._
 
 ### GetButtonById
 
@@ -90,7 +90,7 @@ Delete a Dynamic Button.
     |id|`number`|
 
 
-Returns the button referenced by its id.
+_Returns the button referenced by its id._
 
 ### GetEnabled
 
@@ -104,7 +104,7 @@ Returns the button referenced by its id.
     |id|`number`|
 
 
-Get the Enabled status of a button.
+_Get the Enabled status of a button._
 
 ### GetFontSize
 
@@ -118,7 +118,7 @@ Get the Enabled status of a button.
     |id|`number`|
 
 
-Get the Font Size of a button.
+_Get the Font Size of a button._
 
 ### GetHeight
 
@@ -132,7 +132,7 @@ Get the Font Size of a button.
     |id|`number`|
 
 
-Get the Height of a button.
+_Get the Height of a button._
 
 ### GetText
 
@@ -146,7 +146,7 @@ Get the Height of a button.
     |id|`number`|
 
 
-Get the Text of a button.
+_Get the Text of a button._
 
 ### GetWidth
 
@@ -160,7 +160,7 @@ Get the Text of a button.
     |id|`number`|
 
 
-Get the Width of a button.
+_Get the Width of a button._
 
 ### SetBackgroundColor
 
@@ -173,7 +173,7 @@ Get the Width of a button.
     |color|`number`|
 
 
-Update the Background Color of a button.
+_Update the Background Color of a button._
 
 ### SetEnabled
 
@@ -186,7 +186,7 @@ Update the Background Color of a button.
     |enabled|`boolean`|
 
 
-Update the Enabled status of a button.
+_Update the Enabled status of a button._
 
 ### SetFont
 
@@ -200,7 +200,7 @@ Update the Enabled status of a button.
     |italic|`boolean`|
 
 
-Update the Font of a button.
+_Update the Font of a button._
 
 ### SetFontSize
 
@@ -213,7 +213,7 @@ Update the Font of a button.
     |size|`number`|
 
 
-Update the Font Size of a button.
+_Update the Font Size of a button._
 
 ### SetHeight
 
@@ -226,7 +226,7 @@ Update the Font Size of a button.
     |height|`number`|
 
 
-Update the Height of a button.
+_Update the Height of a button._
 
 ### SetText
 
@@ -239,7 +239,7 @@ Update the Height of a button.
     |text|`text`|
 
 
-Update the Text of a button.
+_Update the Text of a button._
 
 ### SetTextColor
 
@@ -252,7 +252,7 @@ Update the Text of a button.
     |color|`number`|
 
 
-Update the Text Color of a button.
+_Update the Text Color of a button._
 
 ### SetWidth
 
@@ -265,4 +265,4 @@ Update the Text Color of a button.
     |width|`number`|
 
 
-Update the Width of a button.
+_Update the Width of a button._

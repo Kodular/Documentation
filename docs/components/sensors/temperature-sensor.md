@@ -22,13 +22,13 @@ _<p>Non-visible component that measures the temperature of the air in the room i
     |temperature|`number`|
 
 
-Event that fires when the temperature is changed
+_Event that fires when the temperature is changed_
 
 ## Properties
 
 ### Enabled
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Temperature Sensor', 'Enabled')]]
@@ -37,11 +37,9 @@ Event that fires when the temperature is changed
 |:----:|:-------:|
 |boolean|True|
 
-Whether Sensor should be Enabled
+_Whether Sensor should be Enabled_
 
 ### Available
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Temperature Sensor', 'Available')]]
@@ -50,11 +48,9 @@ Whether Sensor should be Enabled
 |:----:|:-------:|
 |boolean|None|
 
-Whether Sensor is Available
+_Whether Sensor is Available_
 
 ### Temperature
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Temperature Sensor', 'Temperature')]]
@@ -63,4 +59,4 @@ Whether Sensor is Available
 |:----:|:-------:|
 |number|None|
 
-Returns the temperature in degrees celsius. To return values the sensor must be enabled
+_Returns the temperature in degrees celsius. To return values the sensor must be enabled_

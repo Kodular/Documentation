@@ -20,7 +20,7 @@ _A visible component that plays YouTube videos.<br>Note\: For this component to 
     |error|`text`|
 
 
-Use this event to detect that there was any error with the player. Return values: 'UNKNOWN', 'INVALID_PARAMETER_IN_REQUEST', 'HTML_5_PLAYER', 'VIDEO_NOT_FOUND', 'VIDEO_NOT_PLAYABLE_IN_EMBEDDED_PLAYER', 'INVALID_VOLUME' or 'INVALID_SEEK_TO'.
+_Use this event to detect that there was any error with the player. Return values: 'UNKNOWN', 'INVALID_PARAMETER_IN_REQUEST', 'HTML_5_PLAYER', 'VIDEO_NOT_FOUND', 'VIDEO_NOT_PLAYABLE_IN_EMBEDDED_PLAYER', 'INVALID_VOLUME' or 'INVALID_SEEK_TO'._
 
 ### Fullscreen
 
@@ -32,13 +32,13 @@ Use this event to detect that there was any error with the player. Return values
     |fullscreen|`boolean`|
 
 
-Event to get notified when the player enters or exits fullscreen. The variable 'fullscreen' returns true or false.
+_Event to get notified when the player enters or exits fullscreen. The variable 'fullscreen' returns true or false._
 
 ### Initialized
 
 [[Event('Youtube Player', 'Initialized')]]
 
-Use this event to start the playing of a normal or instant youtube video.
+_Use this event to start the playing of a normal or instant youtube video._
 
 ### Playback Quality Changed
 
@@ -50,7 +50,7 @@ Use this event to start the playing of a normal or instant youtube video.
     |quality|`text`|
 
 
-Use this event to detect that the playback quality was changed. Return values: 'UNKNOWN', 'SMALL', 'MEDIUM', 'LARGE', 'HD720', 'HD1080', 'HIGH_RES' or 'DEFAULT'.
+_Use this event to detect that the playback quality was changed. Return values: 'UNKNOWN', 'SMALL', 'MEDIUM', 'LARGE', 'HD720', 'HD1080', 'HIGH_RES' or 'DEFAULT'._
 
 ### Playback Rate Changed
 
@@ -62,7 +62,7 @@ Use this event to detect that the playback quality was changed. Return values: '
     |rate|`text`|
 
 
-Use this event to detect that the playback rate was changed. Return values: 'UNKNOWN', 'RATE_0_25', 'RATE_0_5', 'RATE_1', 'RATE_1_5' or 'RATE_2'.
+_Use this event to detect that the playback rate was changed. Return values: 'UNKNOWN', 'RATE_0_25', 'RATE_0_5', 'RATE_1', 'RATE_1_5' or 'RATE_2'._
 
 ### State Changed
 
@@ -74,7 +74,7 @@ Use this event to detect that the playback rate was changed. Return values: 'UNK
     |state|`text`|
 
 
-Use this event to detect that the state changes. Return values: 'UNKNOWN', 'UNSTARTED', 'ENDED', 'PLAYING', 'PAUSED', 'BUFFERING' or 'VIDEO_CUED'.
+_Use this event to detect that the state changes. Return values: 'UNKNOWN', 'UNSTARTED', 'ENDED', 'PLAYING', 'PAUSED', 'BUFFERING' or 'VIDEO_CUED'._
 
 ## Methods
 
@@ -82,13 +82,13 @@ Use this event to detect that the state changes. Return values: 'UNKNOWN', 'UNST
 
 [[Method('Youtube Player', 'EnterFullscreen', false)]]
 
-Enter the video in fullscreen mode.
+_Enter the video in fullscreen mode._
 
 ### ExitFullscreen
 
 [[Method('Youtube Player', 'ExitFullscreen', false)]]
 
-Exit the video from fullscreen mode.
+_Exit the video from fullscreen mode._
 
 ### GetThumbnailFromVideoId
 
@@ -102,7 +102,7 @@ Exit the video from fullscreen mode.
     |video Id|`text`|
 
 
-This block will return the thumbnail image path from a video id. Use only as example '_bZj-LOXdH8' from a youtube video.
+_This block will return the thumbnail image path from a video id. Use only as example '_bZj-LOXdH8' from a youtube video._
 
 ### InstantLoad
 
@@ -114,7 +114,7 @@ This block will return the thumbnail image path from a video id. Use only as exa
     |video Id|`text`|
 
 
-Use this block together with the 'Youtube Player' Initialized event. Loads and automatically plays the specified youtube video. Use only as example '_bZj-LOXdH8' from a youtube video.
+_Use this block together with the 'Youtube Player' Initialized event. Loads and automatically plays the specified youtube video. Use only as example '_bZj-LOXdH8' from a youtube video._
 
 ### Load
 
@@ -126,19 +126,19 @@ Use this block together with the 'Youtube Player' Initialized event. Loads and a
     |video Id|`text`|
 
 
-Loads the specified video's thumbnail and prepares the player to play the video. Does not automatically play the video. Use only as example '_bZj-LOXdH8' from a youtube video.
+_Loads the specified video's thumbnail and prepares the player to play the video. Does not automatically play the video. Use only as example '_bZj-LOXdH8' from a youtube video._
 
 ### Pause
 
 [[Method('Youtube Player', 'Pause', false)]]
 
-Pause the youtube video.
+_Pause the youtube video._
 
 ### Play
 
 [[Method('Youtube Player', 'Play', false)]]
 
-Plays the youtube video.
+_Plays the youtube video._
 
 ### SeekTo
 
@@ -150,19 +150,19 @@ Plays the youtube video.
     |position|`number`|
 
 
-Set a position where the youtube video should start playing in seconds.
+_Set a position where the youtube video should start playing in seconds._
 
 ### ToggleFullscreen
 
 [[Method('Youtube Player', 'ToggleFullscreen', false)]]
 
-Toggle the state of the video player.
+_Toggle the state of the video player._
 
 ## Properties
 
 ### Enable Live Video UI
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Youtube Player', 'Enable Live Video UI')]]
@@ -171,11 +171,11 @@ Toggle the state of the video player.
 |:----:|:-------:|
 |boolean|False|
 
-If you want to play live videos you must setup the UI accordingly, by calling this method. If enabled, the user can not select a second on the video progress bar.
+_If you want to play live videos you must setup the UI accordingly, by calling this method. If enabled, the user can not select a second on the video progress bar._
 
 ### Start Second
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Youtube Player', 'Start Second')]]
@@ -184,11 +184,11 @@ If you want to play live videos you must setup the UI accordingly, by calling th
 |:----:|:-------:|
 |number|0|
 
-The time from which the video should start playing.
+_The time from which the video should start playing._
 
 ### Visible
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Youtube Player', 'Visible')]]
@@ -197,11 +197,11 @@ The time from which the video should start playing.
 |:----:|:-------:|
 |boolean|True|
 
-Returns true iff the component is visible.
+_Returns true iff the component is visible._
 
 ### Volume
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Youtube Player', 'Volume')]]
@@ -210,11 +210,9 @@ Returns true iff the component is visible.
 |:----:|:-------:|
 |number|50|
 
-Set the volume to a number between 0 and 100.Use only integer numbers.
+_Set the volume to a number between 0 and 100.Use only integer numbers._
 
 ### Column
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Youtube Player', 'Column')]]
@@ -223,11 +221,9 @@ Set the volume to a number between 0 and 100.Use only integer numbers.
 |:----:|:-------:|
 |number|None|
 
-Column property getter method.
+_Column property getter method._
 
 ### Get Current Second
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Youtube Player', 'Get Current Second')]]
@@ -236,11 +232,9 @@ Column property getter method.
 |:----:|:-------:|
 |number|None|
 
-Returns the current second.
+_Returns the current second._
 
 ### Get Video Duration
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Youtube Player', 'Get Video Duration')]]
@@ -249,11 +243,9 @@ Returns the current second.
 |:----:|:-------:|
 |number|None|
 
-Returns the video duration in seconds.
+_Returns the video duration in seconds._
 
 ### Height
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Youtube Player', 'Height')]]
@@ -262,11 +254,9 @@ Returns the video duration in seconds.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's vertical height, measured in pixels.
+_Specifies the component's vertical height, measured in pixels._
 
 ### Height Percent
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Youtube Player', 'Height Percent')]]
@@ -275,12 +265,10 @@ Specifies the component's vertical height, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's vertical height as a percentage
- of the height of its parent Component.
+_Specifies the component's vertical height as a percentage
+ of the height of its parent Component._
 
 ### Is Fullscreen
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Youtube Player', 'Is Fullscreen')]]
@@ -289,11 +277,9 @@ Specifies the component's vertical height as a percentage
 |:----:|:-------:|
 |boolean|None|
 
-Returns true if the player is in fullscreen mode.
+_Returns true if the player is in fullscreen mode._
 
 ### Row
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Youtube Player', 'Row')]]
@@ -302,11 +288,9 @@ Returns true if the player is in fullscreen mode.
 |:----:|:-------:|
 |number|None|
 
-Row property getter method.
+_Row property getter method._
 
 ### Test Video Id
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Youtube Player', 'Test Video Id')]]
@@ -315,11 +299,9 @@ Row property getter method.
 |:----:|:-------:|
 |text|None|
 
-Use this block to test the youtube player. Powered by Kodular.io
+_Use this block to test the youtube player. Powered by Kodular.io_
 
 ### Width
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Youtube Player', 'Width')]]
@@ -328,11 +310,9 @@ Use this block to test the youtube player. Powered by Kodular.io
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width, measured in pixels.
+_Specifies the component's horizontal width, measured in pixels._
 
 ### Width Percent
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Youtube Player', 'Width Percent')]]
@@ -341,5 +321,5 @@ Specifies the component's horizontal width, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width as a percentage
- of the Width of its parent Component.
+_Specifies the component's horizontal width as a percentage
+ of the Width of its parent Component._

@@ -25,13 +25,13 @@ _<p>Non-visible component that can measure angular velocity in three dimensions 
     |timestamp|`number`|
 
 
-Indicates that the gyroscope sensor data has changed. The timestamp parameter is the time in nanoseconds at which the event occurred.
+_Indicates that the gyroscope sensor data has changed. The timestamp parameter is the time in nanoseconds at which the event occurred._
 
 ## Properties
 
 ### Enabled
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Gyroscope Sensor', 'Enabled')]]
@@ -40,11 +40,9 @@ Indicates that the gyroscope sensor data has changed. The timestamp parameter is
 |:----:|:-------:|
 |boolean|True|
 
-Enabled property getter method.
+_Enabled property getter method._
 
 ### Available
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Gyroscope Sensor', 'Available')]]
@@ -53,11 +51,9 @@ Enabled property getter method.
 |:----:|:-------:|
 |boolean|None|
 
-Indicates whether a gyroscope sensor is available.
+_Indicates whether a gyroscope sensor is available._
 
 ### X Angular Velocity
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Gyroscope Sensor', 'X Angular Velocity')]]
@@ -66,11 +62,9 @@ Indicates whether a gyroscope sensor is available.
 |:----:|:-------:|
 |number|None|
 
-The angular velocity around the X axis, in degrees per second.
+_The angular velocity around the X axis, in degrees per second._
 
 ### Y Angular Velocity
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Gyroscope Sensor', 'Y Angular Velocity')]]
@@ -79,11 +73,9 @@ The angular velocity around the X axis, in degrees per second.
 |:----:|:-------:|
 |number|None|
 
-The angular velocity around the Y axis, in degrees per second.
+_The angular velocity around the Y axis, in degrees per second._
 
 ### Z Angular Velocity
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Gyroscope Sensor', 'Z Angular Velocity')]]
@@ -92,4 +84,4 @@ The angular velocity around the Y axis, in degrees per second.
 |:----:|:-------:|
 |number|None|
 
-The angular velocity around the Z axis, in degrees per second.
+_The angular velocity around the Z axis, in degrees per second._

@@ -16,13 +16,13 @@ _A non-visible component that gets data from the Remote Config service powered b
 
 [[Event('Firebase Remote Config', 'Fetch Failed')]]
 
-Triggers when the fetch failed
+_Triggers when the fetch failed_
 
 ### Fetch Success
 
 [[Event('Firebase Remote Config', 'Fetch Success')]]
 
-Triggers when the fetch was successful
+_Triggers when the fetch was successful_
 
 ## Methods
 
@@ -30,7 +30,7 @@ Triggers when the fetch was successful
 
 [[Method('Firebase Remote Config', 'Fetch', false)]]
 
-Fetches parameter values for your app
+_Fetches parameter values for your app_
 
 ### GetBoolean
 
@@ -44,7 +44,7 @@ Fetches parameter values for your app
     |key|`text`|
 
 
-Gets a boolean value corresponding to the specified key
+_Gets a boolean value corresponding to the specified key_
 
 ### GetNumber
 
@@ -58,7 +58,7 @@ Gets a boolean value corresponding to the specified key
     |key|`text`|
 
 
-Gets a number value corresponding to the specified key
+_Gets a number value corresponding to the specified key_
 
 ### GetText
 
@@ -72,13 +72,13 @@ Gets a number value corresponding to the specified key
     |key|`text`|
 
 
-Gets a text value corresponding to the specified key
+_Gets a text value corresponding to the specified key_
 
 ## Properties
 
 ### Cache Expiration
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Firebase Remote Config', 'Cache Expiration')]]
@@ -87,4 +87,4 @@ Gets a text value corresponding to the specified key
 |:----:|:-------:|
 |number|43200|
 
-Time how long the data keeps on the device in ms
+_Time how long the data keeps on the device in ms_

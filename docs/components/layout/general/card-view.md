@@ -14,31 +14,31 @@ _A visible component that lets the user group other components as a Card. <br>Ca
 
 [[Event('Card View', 'Click')]]
 
-Event to detect that a user has done a simple "Click".
+_Event to detect that a user has done a simple "Click"._
 
 ### Long Click
 
 [[Event('Card View', 'Long Click')]]
 
-Event to detect that a user has done a simple "Long click".
+_Event to detect that a user has done a simple "Long click"._
 
 ### Touch Down
 
 [[Event('Card View', 'Touch Down')]]
 
-Event to detect that a user has done a simple touch down on the card.
+_Event to detect that a user has done a simple touch down on the card._
 
 ### Touch Up
 
 [[Event('Card View', 'Touch Up')]]
 
-Event to detect that a user has done a simple touch up on the card.
+_Event to detect that a user has done a simple touch up on the card._
 
 ## Properties
 
 ### Align Horizontal
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Card View', 'Align Horizontal')]]
@@ -47,11 +47,11 @@ Event to detect that a user has done a simple touch up on the card.
 |:----:|:-------:|
 |number|1|
 
-A number that encodes how contents of the arrangement are aligned  horizontally. The choices are: 1 = left aligned, 2 = right aligned,  3 = horizontally centered.  Alignment has no effect if the arrangement's width is automatic.
+_A number that encodes how contents of the arrangement are aligned  horizontally. The choices are: 1 = left aligned, 2 = right aligned,  3 = horizontally centered.  Alignment has no effect if the arrangement's width is automatic._
 
 ### Align Vertical
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Card View', 'Align Vertical')]]
@@ -64,7 +64,7 @@ _No description available_
 
 ### Background Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Card View', 'Background Color')]]
@@ -73,11 +73,11 @@ _No description available_
 |:----:|:-------:|
 |number|&HFFFFFFFF|
 
-Specifies the card view background color.
+_Specifies the card view background color._
 
 ### Content Padding Bottom
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Card View', 'Content Padding Bottom')]]
@@ -86,11 +86,11 @@ Specifies the card view background color.
 |:----:|:-------:|
 |number|8|
 
-Sets the bottom padding between the card view edges and the children of CardView.
+_Sets the bottom padding between the card view edges and the children of CardView._
 
 ### Content Padding Left
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Card View', 'Content Padding Left')]]
@@ -99,11 +99,11 @@ Sets the bottom padding between the card view edges and the children of CardView
 |:----:|:-------:|
 |number|8|
 
-Sets the left padding between the card view edges and the children of card view.
+_Sets the left padding between the card view edges and the children of card view._
 
 ### Content Padding Right
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Card View', 'Content Padding Right')]]
@@ -112,11 +112,11 @@ Sets the left padding between the card view edges and the children of card view.
 |:----:|:-------:|
 |number|8|
 
-Sets the right padding between the card view edges and the children of card view.
+_Sets the right padding between the card view edges and the children of card view._
 
 ### Content Padding Top
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Card View', 'Content Padding Top')]]
@@ -125,11 +125,11 @@ Sets the right padding between the card view edges and the children of card view
 |:----:|:-------:|
 |number|8|
 
-Sets the top padding between the card view edges and the children of card view.
+_Sets the top padding between the card view edges and the children of card view._
 
 ### Corner Radius
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Card View', 'Corner Radius')]]
@@ -138,11 +138,11 @@ Sets the top padding between the card view edges and the children of card view.
 |:----:|:-------:|
 |number|2|
 
-The corner radius from the card view.
+_The corner radius from the card view._
 
 ### Elevation
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Card View', 'Elevation')]]
@@ -151,11 +151,11 @@ The corner radius from the card view.
 |:----:|:-------:|
 |number|2|
 
-The card view elevation value.
+_The card view elevation value._
 
 ### Full Clickable
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Card View', 'Full Clickable')]]
@@ -164,11 +164,11 @@ The card view elevation value.
 |:----:|:-------:|
 |boolean|False|
 
-If set to true, the card will consume all click events. This means if you have added as example buttons into the card, then will the card consume the touch event on the button. And this means that the button would not be clickable, but only the entire card.
+_If set to true, the card will consume all click events. This means if you have added as example buttons into the card, then will the card consume the touch event on the button. And this means that the button would not be clickable, but only the entire card._
 
 ### Stroke Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Card View', 'Stroke Color')]]
@@ -177,11 +177,11 @@ If set to true, the card will consume all click events. This means if you have a
 |:----:|:-------:|
 |number|&HFFCCCCCC|
 
-The stroke color for the card view.
+_The stroke color for the card view._
 
 ### Stroke Width
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Card View', 'Stroke Width')]]
@@ -190,11 +190,11 @@ The stroke color for the card view.
 |:----:|:-------:|
 |number|0|
 
-The stroke width for the card view.
+_The stroke width for the card view._
 
 ### Touch Color
 
-<small>Available as Advanced Property</small>
+<small>Available as ^^Advanced^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Card View', 'Touch Color')]]
@@ -203,11 +203,11 @@ The stroke width for the card view.
 |:----:|:-------:|
 |number|&HFFCCCCCC|
 
-Set the touch color also known as ripple color to the card view component.
+_Set the touch color also known as ripple color to the card view component._
 
 ### Visible
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Card View', 'Visible')]]
@@ -216,11 +216,9 @@ Set the touch color also known as ripple color to the card view component.
 |:----:|:-------:|
 |boolean|True|
 
-Returns true iff the component is visible.
+_Returns true iff the component is visible._
 
 ### Column
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Card View', 'Column')]]
@@ -229,11 +227,9 @@ Returns true iff the component is visible.
 |:----:|:-------:|
 |number|None|
 
-Column property getter method.
+_Column property getter method._
 
 ### Height
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Card View', 'Height')]]
@@ -242,11 +238,9 @@ Column property getter method.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's vertical height, measured in pixels.
+_Specifies the component's vertical height, measured in pixels._
 
 ### Height Percent
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Card View', 'Height Percent')]]
@@ -255,12 +249,10 @@ Specifies the component's vertical height, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's vertical height as a percentage
- of the height of its parent Component.
+_Specifies the component's vertical height as a percentage
+ of the height of its parent Component._
 
 ### Row
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Card View', 'Row')]]
@@ -269,11 +261,9 @@ Specifies the component's vertical height as a percentage
 |:----:|:-------:|
 |number|None|
 
-Row property getter method.
+_Row property getter method._
 
 ### Width
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Card View', 'Width')]]
@@ -282,11 +272,9 @@ Row property getter method.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width, measured in pixels.
+_Specifies the component's horizontal width, measured in pixels._
 
 ### Width Percent
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Card View', 'Width Percent')]]
@@ -295,5 +283,5 @@ Specifies the component's horizontal width, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width as a percentage
- of the Width of its parent Component.
+_Specifies the component's horizontal width as a percentage
+ of the Width of its parent Component._

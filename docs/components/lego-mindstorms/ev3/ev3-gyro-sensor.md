@@ -22,7 +22,7 @@ _A component that provides a high-level interface to a gyro sensor on a LEGO MIN
     |sensor Value|`number`|
 
 
-Called then the sensor value changed.
+_Called then the sensor value changed._
 
 ## Methods
 
@@ -32,25 +32,25 @@ Called then the sensor value changed.
 
 {>>Returns `number`<<}
 
-Returns the current angle or rotation speed based on current mode, or -1 if the value cannot be read from sensor.
+_Returns the current angle or rotation speed based on current mode, or -1 if the value cannot be read from sensor._
 
 ### SetAngleMode
 
 [[Method('EV3 Gyro Sensor', 'SetAngleMode', false)]]
 
-Measures the orientation of the sensor.
+_Measures the orientation of the sensor._
 
 ### SetRateMode
 
 [[Method('EV3 Gyro Sensor', 'SetRateMode', false)]]
 
-Measures the angular velocity of the sensor.
+_Measures the angular velocity of the sensor._
 
 ## Properties
 
 ### Bluetooth Client
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('EV3 Gyro Sensor', 'Bluetooth Client')]]
@@ -59,11 +59,11 @@ Measures the angular velocity of the sensor.
 |:----:|
 |component|
 
-The BluetoothClient component that should be used for communication.
+_The BluetoothClient component that should be used for communication._
 
 ### Mode
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('EV3 Gyro Sensor', 'Mode')]]
@@ -72,11 +72,11 @@ The BluetoothClient component that should be used for communication.
 |:----:|:-------:|
 |text|angle|
 
-Specifies the mode of the sensor.
+_Specifies the mode of the sensor._
 
 ### Sensor Port
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('EV3 Gyro Sensor', 'Sensor Port')]]
@@ -85,11 +85,11 @@ Specifies the mode of the sensor.
 |:----:|:-------:|
 |text|1|
 
-The sensor port that the sensor is connected to.
+_The sensor port that the sensor is connected to._
 
 ### Sensor Value Changed Event Enabled
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('EV3 Gyro Sensor', 'Sensor Value Changed Event Enabled')]]
@@ -98,4 +98,4 @@ The sensor port that the sensor is connected to.
 |:----:|:-------:|
 |boolean|False|
 
-Whether the SensorValueChanged event should fire when the sensor value changed.
+_Whether the SensorValueChanged event should fire when the sensor value changed._

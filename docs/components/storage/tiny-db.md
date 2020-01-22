@@ -16,7 +16,7 @@ _TinyDB is a non-visible component that stores data for an app. <p> Apps created
 
 [[Method('Tiny DB', 'ClearAll', false)]]
 
-Clear the entire data store
+_Clear the entire data store_
 
 ### ClearTag
 
@@ -28,7 +28,7 @@ Clear the entire data store
     |tag|`text`|
 
 
-Clear the entry with the given tag
+_Clear the entry with the given tag_
 
 ### GetTags
 
@@ -36,7 +36,7 @@ Clear the entry with the given tag
 
 {>>Returns `any`<<}
 
-Return a list of all the tags in the data store
+_Return a list of all the tags in the data store_
 
 ### GetValue
 
@@ -51,7 +51,7 @@ Return a list of all the tags in the data store
     |value If Tag Not There|`any`|
 
 
-Retrieve the value stored under the given tag.  If there's no such tag, then return valueIfTagNotThere.
+_Retrieve the value stored under the given tag.  If there's no such tag, then return valueIfTagNotThere._
 
 ### StoreValue
 
@@ -64,14 +64,14 @@ Retrieve the value stored under the given tag.  If there's no such tag, then ret
     |value To Store|`any`|
 
 
-Store the given value under the given tag.  The storage persists on the
- phone when the app is restarted.
+_Store the given value under the given tag.  The storage persists on the
+ phone when the app is restarted._
 
 ## Properties
 
 ### Namespace
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Tiny DB', 'Namespace')]]
@@ -80,4 +80,4 @@ Store the given value under the given tag.  The storage persists on the
 |:----:|:-------:|
 |text|TinyDB1|
 
-Namespace for storing data.
+_Namespace for storing data._

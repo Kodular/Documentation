@@ -24,19 +24,19 @@ _A component that provides a high-level interface to sound functionalities on LE
     |milliseconds|`number`|
 
 
-Make the robot play a tone.
+_Make the robot play a tone._
 
 ### StopSound
 
 [[Method('EV3 Sound', 'StopSound', false)]]
 
-Stop any sound on the robot.
+_Stop any sound on the robot._
 
 ## Properties
 
 ### Bluetooth Client
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('EV3 Sound', 'Bluetooth Client')]]
@@ -45,4 +45,4 @@ Stop any sound on the robot.
 |:----:|
 |component|
 
-The BluetoothClient component that should be used for communication.
+_The BluetoothClient component that should be used for communication._

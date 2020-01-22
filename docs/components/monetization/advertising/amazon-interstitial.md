@@ -16,19 +16,19 @@ _An interstitial ad is a full-page ad. AdAmazonInterstitial component allows you
 
 [[Event('Amazon Interstitial', 'Ad Closed')]]
 
-Triggered when the close button of the interstitial ad is clicked. It's important to remember only one interstitial ad can be shown at a time. The previous ad has to be dismissed before a new ad can be shown.
+_Triggered when the close button of the interstitial ad is clicked. It's important to remember only one interstitial ad can be shown at a time. The previous ad has to be dismissed before a new ad can be shown._
 
 ### Ad Collapsed
 
 [[Event('Amazon Interstitial', 'Ad Collapsed')]]
 
-After a user clicks on the close ad button on an expanded ad, this callback is called immediately after collapsing the ad. This callback can be used to do things like resume your app or restart audio.
+_After a user clicks on the close ad button on an expanded ad, this callback is called immediately after collapsing the ad. This callback can be used to do things like resume your app or restart audio._
 
 ### Ad Expanded
 
 [[Event('Amazon Interstitial', 'Ad Expanded')]]
 
-This callback is called each time an ad is successfully loaded. You can use this to log metrics on ad views and assist with initial integration. Detailed information about the ad that loaded can be obtained from the AdProperties object.
+_This callback is called each time an ad is successfully loaded. You can use this to log metrics on ad views and assist with initial integration. Detailed information about the ad that loaded can be obtained from the AdProperties object._
 
 ### Ad Failed To Load
 
@@ -41,7 +41,7 @@ This callback is called each time an ad is successfully loaded. You can use this
     |message|`text`|
 
 
-Whenever an ad fails to be retrieved, the event is called, returning the error message.
+_Whenever an ad fails to be retrieved, the event is called, returning the error message._
 
 ### Ad Failed To Show
 
@@ -53,13 +53,13 @@ Whenever an ad fails to be retrieved, the event is called, returning the error m
     |message|`text`|
 
 
-Called when an an attempt was made to display the ad, but the ad was not ready to display
+_Called when an an attempt was made to display the ad, but the ad was not ready to display_
 
 ### Ad Loaded
 
 [[Event('Amazon Interstitial', 'Ad Loaded')]]
 
-Triggered each time an ad is successfully loaded. But you don't have to display the ad right after it's loaded. For example, set a flag to true and then at a transition point, if flag=true, then display the ad.
+_Triggered each time an ad is successfully loaded. But you don't have to display the ad right after it's loaded. For example, set a flag to true and then at a transition point, if flag=true, then display the ad._
 
 ## Methods
 
@@ -67,19 +67,19 @@ Triggered each time an ad is successfully loaded. But you don't have to display 
 
 [[Method('Amazon Interstitial', 'Load Ad', false)]]
 
-Loads a new ad.
+_Loads a new ad._
 
 ### ShowInterstitialAd
 
 [[Method('Amazon Interstitial', 'ShowInterstitialAd', false)]]
 
-It will show the Interstitial Ad
+_It will show the Interstitial Ad_
 
 ## Properties
 
 ### Application Key
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Amazon Interstitial', 'Application Key')]]
@@ -88,11 +88,11 @@ It will show the Interstitial Ad
 |:----:|:-------:|
 |text|ApplicationKey|
 
-Enter Application Key. Go to Amazon Developer Portal and sign-in for your ApplicationKey
+_Enter Application Key. Go to Amazon Developer Portal and sign-in for your ApplicationKey_
 
 ### Interstitial Commission
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Amazon Interstitial', 'Interstitial Commission')]]
@@ -101,11 +101,11 @@ Enter Application Key. Go to Amazon Developer Portal and sign-in for your Applic
 |:----:|:-------:|
 |text|unity|
 
-Sets the ad network used to take the commission.
+_Sets the ad network used to take the commission._
 
 ### Enable Debug
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Amazon Interstitial', 'Enable Debug')]]
@@ -118,7 +118,7 @@ _No description available_
 
 ### Enable Geo Location Targeting
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Amazon Interstitial', 'Enable Geo Location Targeting')]]
@@ -127,11 +127,11 @@ _No description available_
 |:----:|:-------:|
 |boolean|True|
 
-If set to true, uses latitude and longitude coordinates as part of an ad request
+_If set to true, uses latitude and longitude coordinates as part of an ad request_
 
 ### Enable Testing
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Amazon Interstitial', 'Enable Testing')]]
@@ -140,11 +140,11 @@ If set to true, uses latitude and longitude coordinates as part of an ad request
 |:----:|:-------:|
 |boolean|True|
 
-For debugging / development purposes flag all ad requests as tests, but set to false for production builds
+_For debugging / development purposes flag all ad requests as tests, but set to false for production builds_
 
 ### Target Age
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Amazon Interstitial', 'Target Age')]]
@@ -153,4 +153,4 @@ For debugging / development purposes flag all ad requests as tests, but set to f
 |:----:|:-------:|
 |number|0|
 
-You can pass age information to the Amazon Mobile Ad Network to target specific age groups. If set as 0, Age Targetting will not be used
+_You can pass age information to the Amazon Mobile Ad Network to target specific age groups. If set as 0, Age Targetting will not be used_

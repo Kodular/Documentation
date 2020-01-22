@@ -16,13 +16,13 @@ _A non-visible component that shows StartApp ads as full-screen advertisements._
 
 [[Event('StartApp Interstitial', 'Ad Clicked')]]
 
-Indicates that the user has clicked on the interstial ad
+_Indicates that the user has clicked on the interstial ad_
 
 ### Ad Displayed
 
 [[Event('StartApp Interstitial', 'Ad Displayed')]]
 
-Indicates that an Ad is shown to the user.
+_Indicates that an Ad is shown to the user._
 
 ### Ad Failed To Load
 
@@ -35,7 +35,7 @@ Indicates that an Ad is shown to the user.
     |error Message|`text`|
 
 
-Called when an ad request failed to load. The message will display the error code and error message.
+_Called when an ad request failed to load. The message will display the error code and error message._
 
 ### Ad Failed To Show
 
@@ -47,13 +47,13 @@ Called when an ad request failed to load. The message will display the error cod
     |error Message|`text`|
 
 
-Called when an an attempt was made to display the ad, but the ad was not ready to display.
+_Called when an an attempt was made to display the ad, but the ad was not ready to display._
 
 ### Ad Hidden
 
 [[Event('StartApp Interstitial', 'Ad Hidden')]]
 
-Indicates that an Ad which was shown to the user is now hidden.
+_Indicates that an Ad which was shown to the user is now hidden._
 
 ### On Failed To Receive Ad
 
@@ -65,13 +65,13 @@ Indicates that an Ad which was shown to the user is now hidden.
     |error Message|`text`|
 
 
-Called when an ad request failed to load.
+_Called when an ad request failed to load._
 
 ### On Receive Ad
 
 [[Event('StartApp Interstitial', 'On Receive Ad')]]
 
-Called when an ad request failed to load. The message will display the error code and error message.
+_Called when an ad request failed to load. The message will display the error code and error message._
 
 ## Methods
 
@@ -79,19 +79,19 @@ Called when an ad request failed to load. The message will display the error cod
 
 [[Method('StartApp Interstitial', 'Load Ad', false)]]
 
-Load a new StartApp Interstitial ad.
+_Load a new StartApp Interstitial ad._
 
 ### ShowInterstitialAd
 
 [[Method('StartApp Interstitial', 'ShowInterstitialAd', false)]]
 
-It will show the Interstitial Ad
+_It will show the Interstitial Ad_
 
 ## Properties
 
 ### App ID
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('StartApp Interstitial', 'App ID')]]

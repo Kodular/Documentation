@@ -16,7 +16,7 @@ _An interstitial ad is a full-page ad. AdMobInterstitial component allows you to
 
 [[Event('AdMob Interstitial', 'Ad Closed')]]
 
-Called when an ad was closed.
+_Called when an ad was closed._
 
 ### Ad Failed To Load
 
@@ -29,7 +29,7 @@ Called when an ad was closed.
     |error Message|`text`|
 
 
-Called when an ad request failed to load. The message will display the error code and error message.
+_Called when an ad request failed to load. The message will display the error code and error message._
 
 ### Ad Failed To Show
 
@@ -41,25 +41,25 @@ Called when an ad request failed to load. The message will display the error cod
     |message|`text`|
 
 
-Called when an an attempt was made to display the ad, but the ad was not ready to display.
+_Called when an an attempt was made to display the ad, but the ad was not ready to display._
 
 ### Ad Left Application
 
 [[Event('AdMob Interstitial', 'Ad Left Application')]]
 
-Called when an ad leaves the application (e.g., to go to the browser).
+_Called when an ad leaves the application (e.g., to go to the browser)._
 
 ### Ad Loaded
 
 [[Event('AdMob Interstitial', 'Ad Loaded')]]
 
-Called when an ad request was loaded.
+_Called when an ad request was loaded._
 
 ### Ad Opened
 
 [[Event('AdMob Interstitial', 'Ad Opened')]]
 
-Called when an ad was opened.
+_Called when an ad was opened._
 
 ### On Consent Changed
 
@@ -71,7 +71,7 @@ Called when an ad was opened.
     |personalized|`boolean`|
 
 
-Event triggered when the consent was changed.
+_Event triggered when the consent was changed._
 
 ## Methods
 
@@ -79,25 +79,25 @@ Event triggered when the consent was changed.
 
 [[Method('AdMob Interstitial', 'Load Ad', false)]]
 
-Load a new AdMob Interstitial ad.
+_Load a new AdMob Interstitial ad._
 
 ### RevokeConsent
 
 [[Method('AdMob Interstitial', 'RevokeConsent', false)]]
 
-Deletes the user's consent. Useful if you want to test the consent dialog in development.
+_Deletes the user's consent. Useful if you want to test the consent dialog in development._
 
 ### ShowInterstitialAd
 
 [[Method('AdMob Interstitial', 'ShowInterstitialAd', false)]]
 
-It will show the Interstitial Ad
+_It will show the Interstitial Ad_
 
 ## Properties
 
 ### Ad Enabled
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('AdMob Interstitial', 'Ad Enabled')]]
@@ -106,11 +106,11 @@ It will show the Interstitial Ad
 |:----:|:-------:|
 |boolean|True|
 
-This property must be set to true to receive ads.
+_This property must be set to true to receive ads._
 
 ### Ad Unit ID
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('AdMob Interstitial', 'Ad Unit ID')]]
@@ -123,7 +123,7 @@ _No description available_
 
 ### Interstitial Commission
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('AdMob Interstitial', 'Interstitial Commission')]]
@@ -132,11 +132,11 @@ _No description available_
 |:----:|:-------:|
 |text|unity|
 
-Sets the ad network used to take the commission.
+_Sets the ad network used to take the commission._
 
 ### Consent Development Mode
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('AdMob Interstitial', 'Consent Development Mode')]]
@@ -145,11 +145,11 @@ Sets the ad network used to take the commission.
 |:----:|:-------:|
 |boolean|False|
 
-If enabled you will see the consent dialog no matter if you are located in Europe or not. Please use this option only in development.  If this setting is enabled ALL taken consents will not be saved.
+_If enabled you will see the consent dialog no matter if you are located in Europe or not. Please use this option only in development.  If this setting is enabled ALL taken consents will not be saved._
 
 ### Consent Message
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('AdMob Interstitial', 'Consent Message')]]
@@ -158,11 +158,11 @@ If enabled you will see the consent dialog no matter if you are located in Europ
 |:----:|:-------:|
 |text|Can we continue to use your data to tailor ads for you?|
 
-The message for the consent dialog.
+_The message for the consent dialog._
 
 ### Consent Title
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('AdMob Interstitial', 'Consent Title')]]
@@ -171,11 +171,11 @@ The message for the consent dialog.
 |:----:|:-------:|
 |text|Data Protection|
 
-The title for the consent dialog.
+_The title for the consent dialog._
 
 ### Target Age
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('AdMob Interstitial', 'Target Age')]]
@@ -184,11 +184,11 @@ The title for the consent dialog.
 |:----:|:-------:|
 |number|0|
 
-Leave 0 for targeting ALL ages
+_Leave 0 for targeting ALL ages_
 
 ### Target For Children
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('AdMob Interstitial', 'Target For Children')]]
@@ -197,11 +197,11 @@ Leave 0 for targeting ALL ages
 |:----:|:-------:|
 |boolean|False|
 
-Indicate whether you want Google to treat your content as child-directed when you make an ad request. Info here: https://developers.google.com/mobile-ads-sdk/docs/admob/android/targeting#child-directed_setting
+_Indicate whether you want Google to treat your content as child-directed when you make an ad request. Info here: https://developers.google.com/mobile-ads-sdk/docs/admob/android/targeting#child-directed_setting_
 
 ### Target Gender
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('AdMob Interstitial', 'Target Gender')]]
@@ -214,7 +214,7 @@ _No description available_
 
 ### Test Mode
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('AdMob Interstitial', 'Test Mode')]]
@@ -223,11 +223,9 @@ _No description available_
 |:----:|:-------:|
 |boolean|False|
 
-If you want to test the component then that this property to true. Then you will receive test ads.
+_If you want to test the component then that this property to true. Then you will receive test ads._
 
 ### Personalized Result
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('AdMob Interstitial', 'Personalized Result')]]
@@ -236,4 +234,4 @@ If you want to test the component then that this property to true. Then you will
 |:----:|:-------:|
 |boolean|None|
 
-Returns the current personalized consent. If true user has consent to personalized ads.
+_Returns the current personalized consent. If true user has consent to personalized ads._

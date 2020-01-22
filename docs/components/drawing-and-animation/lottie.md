@@ -14,31 +14,31 @@ _A visible component that displays animations from a json or zip file, or from a
 
 [[Event('Lottie', 'Animation End')]]
 
-Triggers when the animation ends.
+_Triggers when the animation ends._
 
 ### Animation Repeat
 
 [[Event('Lottie', 'Animation Repeat')]]
 
-Triggers when the animation repeated.
+_Triggers when the animation repeated._
 
 ### Animation Start
 
 [[Event('Lottie', 'Animation Start')]]
 
-Triggers when the animation starts.
+_Triggers when the animation starts._
 
 ### Click
 
 [[Event('Lottie', 'Click')]]
 
-Triggers when the components was clicked.
+_Triggers when the components was clicked._
 
 ### Long Click
 
 [[Event('Lottie', 'Long Click')]]
 
-Triggers when the components was long clicked.
+_Triggers when the components was long clicked._
 
 ## Methods
 
@@ -52,7 +52,7 @@ Triggers when the components was long clicked.
     |frame|`number`|
 
 
-Set the frame where you want the animation to end.
+_Set the frame where you want the animation to end._
 
 ### GetCurrentFrame
 
@@ -60,7 +60,7 @@ Set the frame where you want the animation to end.
 
 {>>Returns `number`<<}
 
-Get the frame where the animation is now.
+_Get the frame where the animation is now._
 
 ### GetFrameCount
 
@@ -68,7 +68,7 @@ Get the frame where the animation is now.
 
 {>>Returns `number`<<}
 
-Get the count of frames in the animation.
+_Get the count of frames in the animation._
 
 ### IsAnimating
 
@@ -76,19 +76,19 @@ Get the count of frames in the animation.
 
 {>>Returns `boolean`<<}
 
-Check if the Lottie component is animating.
+_Check if the Lottie component is animating._
 
 ### PauseAnimation
 
 [[Method('Lottie', 'PauseAnimation', false)]]
 
-Pause the animation on the Lottie component.
+_Pause the animation on the Lottie component._
 
 ### ResumeAnimation
 
 [[Method('Lottie', 'ResumeAnimation', false)]]
 
-Resume the animation on the Lottie component.
+_Resume the animation on the Lottie component._
 
 ### SetCurrentFrame
 
@@ -100,13 +100,13 @@ Resume the animation on the Lottie component.
     |frame|`number`|
 
 
-Set the frame where you want the animation to be now.
+_Set the frame where you want the animation to be now._
 
 ### StartAnimation
 
 [[Method('Lottie', 'StartAnimation', false)]]
 
-Start the animation on the Lottie component.
+_Start the animation on the Lottie component._
 
 ### StartFrame
 
@@ -118,13 +118,13 @@ Start the animation on the Lottie component.
     |frame|`number`|
 
 
-Set the frame where you want the animation to start.
+_Set the frame where you want the animation to start._
 
 ## Properties
 
 ### Animation Speed
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Lottie', 'Animation Speed')]]
@@ -133,11 +133,11 @@ Set the frame where you want the animation to start.
 |:----:|:-------:|
 |number|1|
 
-Set the speed of the animation.
+_Set the speed of the animation._
 
 ### Clickable
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Lottie', 'Clickable')]]
@@ -146,11 +146,11 @@ Set the speed of the animation.
 |:----:|:-------:|
 |boolean|True|
 
-Set the component clickable or not clickable.
+_Set the component clickable or not clickable._
 
 ### Loop Animation
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Lottie', 'Loop Animation')]]
@@ -159,11 +159,11 @@ Set the component clickable or not clickable.
 |:----:|:-------:|
 |boolean|True|
 
-Set to true if you want to loop the animation.
+_Set to true if you want to loop the animation._
 
 ### Source
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Lottie', 'Source')]]
@@ -172,11 +172,11 @@ Set to true if you want to loop the animation.
 |:----:|
 |text|
 
-Set the file or url of the file you want to load.
+_Set the file or url of the file you want to load._
 
 ### Visible
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Lottie', 'Visible')]]
@@ -185,11 +185,9 @@ Set the file or url of the file you want to load.
 |:----:|:-------:|
 |boolean|True|
 
-Returns true iff the component is visible.
+_Returns true iff the component is visible._
 
 ### Column
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Lottie', 'Column')]]
@@ -198,11 +196,9 @@ Returns true iff the component is visible.
 |:----:|:-------:|
 |number|None|
 
-Column property getter method.
+_Column property getter method._
 
 ### Height
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Lottie', 'Height')]]
@@ -211,11 +207,9 @@ Column property getter method.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's vertical height, measured in pixels.
+_Specifies the component's vertical height, measured in pixels._
 
 ### Height Percent
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Lottie', 'Height Percent')]]
@@ -224,12 +218,10 @@ Specifies the component's vertical height, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's vertical height as a percentage
- of the height of its parent Component.
+_Specifies the component's vertical height as a percentage
+ of the height of its parent Component._
 
 ### Row
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Lottie', 'Row')]]
@@ -238,11 +230,9 @@ Specifies the component's vertical height as a percentage
 |:----:|:-------:|
 |number|None|
 
-Row property getter method.
+_Row property getter method._
 
 ### Width
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Lottie', 'Width')]]
@@ -251,11 +241,9 @@ Row property getter method.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width, measured in pixels.
+_Specifies the component's horizontal width, measured in pixels._
 
 ### Width Percent
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Lottie', 'Width Percent')]]
@@ -264,5 +252,5 @@ Specifies the component's horizontal width, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width as a percentage
- of the Width of its parent Component.
+_Specifies the component's horizontal width as a percentage
+ of the Width of its parent Component._

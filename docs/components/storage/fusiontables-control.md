@@ -22,7 +22,7 @@ _<p>A non-visible component that communicates with Google Fusion Tables. Fusion 
     |result|`text`|
 
 
-Indicates that the Fusion Tables query has finished processing, with a result.  The result of the query will generally be returned in CSV format, and can be converted to list format using the "list from csv table" or "list from csv row" blocks.
+_Indicates that the Fusion Tables query has finished processing, with a result.  The result of the query will generally be returned in CSV format, and can be converted to list format using the "list from csv table" or "list from csv row" blocks._
 
 ## Methods
 
@@ -32,13 +32,13 @@ Indicates that the Fusion Tables query has finished processing, with a result.  
 
 [[Method('Fusiontables Control', 'DoQuery', false)]]
 
-DEPRECATED. This block is deprecated as of the end of 2012.  Use SendQuery.
+_DEPRECATED. This block is deprecated as of the end of 2012.  Use SendQuery._
 
 ### ForgetLogin
 
 [[Method('Fusiontables Control', 'ForgetLogin', false)]]
 
-Forget end-users login credentials. Has no effect on service authentication
+_Forget end-users login credentials. Has no effect on service authentication_
 
 ### GetRows
 
@@ -51,7 +51,7 @@ Forget end-users login credentials. Has no effect on service authentication
     |columns|`text`|
 
 
-Gets all the rows from a specified fusion table. The tableId field is the id of therequired fusion table. The columns field is a comma-separeted list of the columns to retrieve.
+_Gets all the rows from a specified fusion table. The tableId field is the id of therequired fusion table. The columns field is a comma-separeted list of the columns to retrieve._
 
 ### GetRowsWithConditions
 
@@ -65,7 +65,7 @@ Gets all the rows from a specified fusion table. The tableId field is the id of 
     |conditions|`text`|
 
 
-Gets all the rows from a fusion table that meet certain conditions. The tableId field isthe id of the required fusion table. The columns field is a comma-separated list of the columns toretrieve. The conditions field specifies what rows to retrieve from the table, for example the rows in whicha particular column value is not null.
+_Gets all the rows from a fusion table that meet certain conditions. The tableId field isthe id of the required fusion table. The columns field is a comma-separated list of the columns toretrieve. The conditions field specifies what rows to retrieve from the table, for example the rows in whicha particular column value is not null._
 
 ### InsertRow
 
@@ -79,19 +79,19 @@ Gets all the rows from a fusion table that meet certain conditions. The tableId 
     |values|`text`|
 
 
-Inserts a row into the specified fusion table. The tableId field is the id of thefusion table. The columns is a comma-separated list of the columns to insert values into. The values field specifies what values to insert into each column.
+_Inserts a row into the specified fusion table. The tableId field is the id of thefusion table. The columns is a comma-separated list of the columns to insert values into. The values field specifies what values to insert into each column._
 
 ### SendQuery
 
 [[Method('Fusiontables Control', 'SendQuery', false)]]
 
-Send the query to the Fusiontables server.
+_Send the query to the Fusiontables server._
 
 ## Properties
 
 ### API Key
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Fusiontables Control', 'API Key')]]
@@ -100,11 +100,11 @@ Send the query to the Fusiontables server.
 |:----:|
 |text|
 
-Setter for the app developer's API key.
+_Setter for the app developer's API key._
 
 ### Key File
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Fusiontables Control', 'Key File')]]
@@ -113,11 +113,11 @@ Setter for the app developer's API key.
 |:----:|
 |text|
 
-Specifies the path of the private key file.  This key file is used to get access to the FusionTables API.
+_Specifies the path of the private key file.  This key file is used to get access to the FusionTables API._
 
 ### Loading Dialog Message
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Fusiontables Control', 'Loading Dialog Message')]]
@@ -126,11 +126,11 @@ Specifies the path of the private key file.  This key file is used to get access
 |:----:|:-------:|
 |text|Please wait loading...|
 
-Setter for the loading dialog's message.
+_Setter for the loading dialog's message._
 
 ### Query
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Fusiontables Control', 'Query')]]
@@ -139,11 +139,11 @@ Setter for the loading dialog's message.
 |:----:|:-------:|
 |text|show tables|
 
-The query to send to the Fusion Tables API. <p>For legal query formats and examples, see the <a href="https://developers.google.com/fusiontables/docs/v2/getting_started" target="_blank">Fusion Tables API v2.0 reference manual</a>.</p> <p>Note that you do not need to worry about UTF-encoding the query. But you do need to make sure it follows the syntax described in the reference manual, which means that things like capitalization for names of columns matters, and that single quotes need to be used around column names if there are spaces in them.</p>
+_The query to send to the Fusion Tables API. <p>For legal query formats and examples, see the <a href="https://developers.google.com/fusiontables/docs/v2/getting_started" target="_blank">Fusion Tables API v2.0 reference manual</a>.</p> <p>Note that you do not need to worry about UTF-encoding the query. But you do need to make sure it follows the syntax described in the reference manual, which means that things like capitalization for names of columns matters, and that single quotes need to be used around column names if there are spaces in them.</p>_
 
 ### Service Account Email
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Fusiontables Control', 'Service Account Email')]]
@@ -152,11 +152,11 @@ The query to send to the Fusion Tables API. <p>For legal query formats and examp
 |:----:|
 |text|
 
-The Service Account Email Address when service account authentication is in use.
+_The Service Account Email Address when service account authentication is in use._
 
 ### Show Loading Dialog
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Fusiontables Control', 'Show Loading Dialog')]]
@@ -165,11 +165,11 @@ The Service Account Email Address when service account authentication is in use.
 |:----:|:-------:|
 |boolean|True|
 
-Setter for the loading dialog's visibility.
+_Setter for the loading dialog's visibility._
 
 ### Use Service Authentication
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Fusiontables Control', 'Use Service Authentication')]]
@@ -178,4 +178,4 @@ Setter for the loading dialog's visibility.
 |:----:|:-------:|
 |boolean|False|
 
-Indicates whether a service account should be used for authentication
+_Indicates whether a service account should be used for authentication_

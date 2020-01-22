@@ -24,7 +24,7 @@ _A non-visible component that shows Unity ads as full-screen advertisements._
     |was Completed|`boolean`|
 
 
-Called when an ad was closed.
+_Called when an ad was closed._
 
 ### Ad Opened
 
@@ -36,7 +36,7 @@ Called when an ad was closed.
     |placement Id|`text`|
 
 
-Called when an ad was opened.
+_Called when an ad was opened._
 
 ### Ad Started
 
@@ -48,7 +48,7 @@ Called when an ad was opened.
     |placement Id|`text`|
 
 
-Called when an ad was started.
+_Called when an ad was started._
 
 ### Error
 
@@ -60,7 +60,7 @@ Called when an ad was started.
     |error|`text`|
 
 
-Called when an ad request failed. The message will display the reason for why the ad failed.
+_Called when an ad request failed. The message will display the reason for why the ad failed._
 
 ## Methods
 
@@ -70,19 +70,19 @@ Called when an ad request failed. The message will display the reason for why th
 
 {>>Returns `boolean`<<}
 
-Returns true if the ad is finished loading and can now be shown.
+_Returns true if the ad is finished loading and can now be shown._
 
 ### ShowAd
 
 [[Method('Unity Ads Interstitial', 'ShowAd', false)]]
 
-Shows an ad to the user.
+_Shows an ad to the user._
 
 ## Properties
 
 ### Game ID
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Unity Ads Interstitial', 'Game ID')]]
@@ -95,7 +95,7 @@ _No description available_
 
 ### Placement ID
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Unity Ads Interstitial', 'Placement ID')]]
@@ -108,7 +108,7 @@ _No description available_
 
 ### Test Mode
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Unity Ads Interstitial', 'Test Mode')]]
@@ -117,4 +117,4 @@ _No description available_
 |:----:|:-------:|
 |boolean|False|
 
-If you want to test the component then that this property to true. Then you will receive test ads.
+_If you want to test the component then that this property to true. Then you will receive test ads._

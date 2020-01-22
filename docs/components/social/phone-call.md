@@ -22,7 +22,7 @@ _<p>A non-visible component that makes a phone call to the number specified in t
     |phone Number|`text`|
 
 
-Event indicating that an incoming phone call is answered. phoneNumber is the incoming call phone number.
+_Event indicating that an incoming phone call is answered. phoneNumber is the incoming call phone number._
 
 ### Phone Call Ended
 
@@ -35,7 +35,7 @@ Event indicating that an incoming phone call is answered. phoneNumber is the inc
     |phone Number|`text`|
 
 
-Event indicating that a phone call has ended. If status is 1, incoming call is missed or rejected; if status is 2, incoming call is answered before hanging up; if status is 3, outgoing call is hung up. phoneNumber is the ended call phone number.
+_Event indicating that a phone call has ended. If status is 1, incoming call is missed or rejected; if status is 2, incoming call is answered before hanging up; if status is 3, outgoing call is hung up. phoneNumber is the ended call phone number._
 
 ### Phone Call Started
 
@@ -48,7 +48,7 @@ Event indicating that a phone call has ended. If status is 1, incoming call is m
     |phone Number|`text`|
 
 
-Event indicating that a phonecall has started. If status is 1, incoming call is ringing; if status is 2, outgoing call is dialled. phoneNumber is the incoming/outgoing phone number.
+_Event indicating that a phonecall has started. If status is 1, incoming call is ringing; if status is 2, outgoing call is dialled. phoneNumber is the incoming/outgoing phone number._
 
 ## Methods
 
@@ -56,13 +56,13 @@ Event indicating that a phonecall has started. If status is 1, incoming call is 
 
 [[Method('Phone Call', 'MakePhoneCall', false)]]
 
-Makes a phone call using the number in the PhoneNumber property.
+_Makes a phone call using the number in the PhoneNumber property._
 
 ## Properties
 
 ### Phone Number
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Phone Call', 'Phone Number')]]
@@ -71,4 +71,4 @@ Makes a phone call using the number in the PhoneNumber property.
 |:----:|
 |text|
 
-PhoneNumber property getter method.
+_PhoneNumber property getter method._

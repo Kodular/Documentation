@@ -22,8 +22,8 @@ _A component to record a video using the device's camcorder.After the video is r
     |clip|`text`|
 
 
-Indicates that a video was recorded with the camera and provides the path to
- the stored picture.
+_Indicates that a video was recorded with the camera and provides the path to
+ the stored picture._
 
 ## Methods
 
@@ -31,4 +31,4 @@ Indicates that a video was recorded with the camera and provides the path to
 
 [[Method('Camcorder', 'RecordVideo', false)]]
 
-Records a video, then raises the AfterRecoding event.
+_Records a video, then raises the AfterRecoding event._

@@ -21,7 +21,7 @@ _A visible component that groups other layout components such that only one of i
     |position|`number`|
 
 
-The event returns the name or the position of the selected tab.
+_The event returns the name or the position of the selected tab._
 
 ## Methods
 
@@ -36,7 +36,7 @@ The event returns the name or the position of the selected tab.
     |icon|`text`|
 
 
-Add a new tab to the tab layout. If you don't want a icon then let it empty.
+_Add a new tab to the tab layout. If you don't want a icon then let it empty._
 
 ### AddNewTabAt
 
@@ -50,7 +50,7 @@ Add a new tab to the tab layout. If you don't want a icon then let it empty.
     |position|`number`|
 
 
-Add a new tab to the tab layout at the given position. If you don't want a icon then let it empty.
+_Add a new tab to the tab layout at the given position. If you don't want a icon then let it empty._
 
 ### CountTabs
 
@@ -58,13 +58,13 @@ Add a new tab to the tab layout at the given position. If you don't want a icon 
 
 {>>Returns `number`<<}
 
-Returns the number of current added tab's.
+_Returns the number of current added tab's._
 
 ### RemoveAllTabs
 
 [[Method('Tab Layout', 'RemoveAllTabs', false)]]
 
-Remove all tab's from tab layout.
+_Remove all tab's from tab layout._
 
 ### RemoveTabAt
 
@@ -76,13 +76,13 @@ Remove all tab's from tab layout.
     |position|`number`|
 
 
-Removes a before added tab. If you want to delete the first tab then use as position '1'.
+_Removes a before added tab. If you want to delete the first tab then use as position '1'._
 
 ## Properties
 
 ### Tabs Active Text Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Tab Layout', 'Tabs Active Text Color')]]
@@ -91,11 +91,11 @@ Removes a before added tab. If you want to delete the first tab then use as posi
 |:----:|:-------:|
 |number|&HFFFF4081|
 
-Specifies the tab's text color for active tab's.
+_Specifies the tab's text color for active tab's._
 
 ### Tabs Background Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Tab Layout', 'Tabs Background Color')]]
@@ -104,11 +104,11 @@ Specifies the tab's text color for active tab's.
 |:----:|:-------:|
 |number|&HFF3F51B5|
 
-Specifies the tab's background color.
+_Specifies the tab's background color._
 
 ### Tabs Indicator Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Tab Layout', 'Tabs Indicator Color')]]
@@ -117,11 +117,11 @@ Specifies the tab's background color.
 |:----:|:-------:|
 |number|&HFFFFFFFF|
 
-Specifies the tab's indicator color.
+_Specifies the tab's indicator color._
 
 ### Tabs Mode
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Tab Layout', 'Tabs Mode')]]
@@ -130,11 +130,11 @@ Specifies the tab's indicator color.
 |:----:|:-------:|
 |number|1|
 
-Choose the mode used for the tab's. If no mode is specified, 'Scrollable' is taken as 'Default'. Use '0' for scrollable and '1' for fixed.
+_Choose the mode used for the tab's. If no mode is specified, 'Scrollable' is taken as 'Default'. Use '0' for scrollable and '1' for fixed._
 
 ### Tabs Text Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Tab Layout', 'Tabs Text Color')]]
@@ -143,11 +143,11 @@ Choose the mode used for the tab's. If no mode is specified, 'Scrollable' is tak
 |:----:|:-------:|
 |number|&HFFFFFFFF|
 
-Specifies the tab's text color for not selected tab's.
+_Specifies the tab's text color for not selected tab's._
 
 ### Visible
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Tab Layout', 'Visible')]]
@@ -156,11 +156,9 @@ Specifies the tab's text color for not selected tab's.
 |:----:|:-------:|
 |boolean|True|
 
-Specifies whether the component should be visible on the screen. Value is true if the component is showing and false if hidden.
+_Specifies whether the component should be visible on the screen. Value is true if the component is showing and false if hidden._
 
 ### Column
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Tab Layout', 'Column')]]
@@ -169,11 +167,9 @@ Specifies whether the component should be visible on the screen. Value is true i
 |:----:|:-------:|
 |number|None|
 
-Column property getter method.
+_Column property getter method._
 
 ### Get Current Tab
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Tab Layout', 'Get Current Tab')]]
@@ -182,11 +178,9 @@ Column property getter method.
 |:----:|:-------:|
 |number|None|
 
-Get the current selected tab.
+_Get the current selected tab._
 
 ### Row
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Tab Layout', 'Row')]]
@@ -195,11 +189,9 @@ Get the current selected tab.
 |:----:|:-------:|
 |number|None|
 
-Row property getter method.
+_Row property getter method._
 
 ### Select Tab
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Tab Layout', 'Select Tab')]]
@@ -208,11 +200,9 @@ Row property getter method.
 |:----:|:-------:|
 |number|None|
 
-Select a tab which is then the active tab.
+_Select a tab which is then the active tab._
 
 ### Width
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Tab Layout', 'Width')]]
@@ -221,11 +211,9 @@ Select a tab which is then the active tab.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width, measured in pixels.
+_Specifies the component's horizontal width, measured in pixels._
 
 ### Width Percent
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Tab Layout', 'Width Percent')]]
@@ -234,5 +222,5 @@ Specifies the component's horizontal width, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width as a percentage
- of the Width of its parent Component.
+_Specifies the component's horizontal width as a percentage
+ of the Width of its parent Component._

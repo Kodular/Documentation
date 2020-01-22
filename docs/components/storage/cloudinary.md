@@ -23,7 +23,7 @@ _A non-visible component that allows for uploading of images, videos, audios and
     |url|`text`|
 
 
-Event raised after the Upload Media block has been used
+_Event raised after the Upload Media block has been used_
 
 ## Methods
 
@@ -37,13 +37,13 @@ Event raised after the Upload Media block has been used
     |path|`text`|
 
 
-Uploads the specified media file to your Cloudinary media library.
+_Uploads the specified media file to your Cloudinary media library._
 
 ## Properties
 
 ### API Key
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Cloudinary', 'API Key')]]
@@ -52,11 +52,11 @@ Uploads the specified media file to your Cloudinary media library.
 |:----:|
 |text|
 
-Your Cloudinary API key.
+_Your Cloudinary API key._
 
 ### API Secret
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Cloudinary', 'API Secret')]]
@@ -65,11 +65,11 @@ Your Cloudinary API key.
 |:----:|
 |text|
 
-Your Cloudinary API secret.
+_Your Cloudinary API secret._
 
 ### Cloud Name
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Cloudinary', 'Cloud Name')]]
@@ -78,4 +78,4 @@ Your Cloudinary API secret.
 |:----:|
 |text|
 
-Your Cloudinary cloud name.
+_Your Cloudinary cloud name._

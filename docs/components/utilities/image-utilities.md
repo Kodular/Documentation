@@ -23,4 +23,4 @@ _A non-visible component that loads images asynchronously._
     |path|`text`|
 
 
-Load a new image from the given path to any component. You can load also images from the internet. Supported components: Image, Buttons, Layouts, Canvas.
+_Load a new image from the given path to any component. You can load also images from the internet. Supported components: Image, Buttons, Layouts, Canvas._

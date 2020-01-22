@@ -16,13 +16,13 @@ _A component that provides a high-level interface to a touch sensor on a LEGO MI
 
 [[Event('EV3 Touch Sensor', 'Pressed')]]
 
-Called when the touch sensor is pressed.
+_Called when the touch sensor is pressed._
 
 ### Released
 
 [[Event('EV3 Touch Sensor', 'Released')]]
 
-Called when the touch sensor is pressed.
+_Called when the touch sensor is pressed._
 
 ## Methods
 
@@ -32,13 +32,13 @@ Called when the touch sensor is pressed.
 
 {>>Returns `boolean`<<}
 
-Returns true if the touch sensor is pressed.
+_Returns true if the touch sensor is pressed._
 
 ## Properties
 
 ### Bluetooth Client
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('EV3 Touch Sensor', 'Bluetooth Client')]]
@@ -47,11 +47,11 @@ Returns true if the touch sensor is pressed.
 |:----:|
 |component|
 
-The BluetoothClient component that should be used for communication.
+_The BluetoothClient component that should be used for communication._
 
 ### Pressed Event Enabled
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('EV3 Touch Sensor', 'Pressed Event Enabled')]]
@@ -60,12 +60,12 @@ The BluetoothClient component that should be used for communication.
 |:----:|:-------:|
 |boolean|False|
 
-Specifies whether the Pressed event should fire when the touch sensor is
- pressed.
+_Specifies whether the Pressed event should fire when the touch sensor is
+ pressed._
 
 ### Released Event Enabled
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('EV3 Touch Sensor', 'Released Event Enabled')]]
@@ -74,11 +74,11 @@ Specifies whether the Pressed event should fire when the touch sensor is
 |:----:|:-------:|
 |boolean|False|
 
-Whether the Released event should fire when the touch sensor is released.
+_Whether the Released event should fire when the touch sensor is released._
 
 ### Sensor Port
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('EV3 Touch Sensor', 'Sensor Port')]]
@@ -87,4 +87,4 @@ Whether the Released event should fire when the touch sensor is released.
 |:----:|:-------:|
 |text|1|
 
-The sensor port that the sensor is connected to.
+_The sensor port that the sensor is connected to._

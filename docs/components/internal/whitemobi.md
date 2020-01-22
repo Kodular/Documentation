@@ -22,7 +22,7 @@ _The WhiteMobi component allows you to show WhiteMobi offerwalls in your app. Ge
     |amount|`number`|
 
 
-Event triggered when an offer has been completed
+_Event triggered when an offer has been completed_
 
 ## Methods
 
@@ -30,13 +30,13 @@ Event triggered when an offer has been completed
 
 [[Method('WhiteMobi', 'ShowOfferWall', false)]]
 
-Show WhiteMobi offerwall
+_Show WhiteMobi offerwall_
 
 ## Properties
 
 ### Application Key
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('WhiteMobi', 'Application Key')]]
@@ -45,4 +45,4 @@ Show WhiteMobi offerwall
 |:----:|
 |text|
 
-Return the application key.
+_Return the application key._

@@ -16,7 +16,7 @@ _A non-visible component that displays an alert at the bottom of the screen._
 
 [[Event('Snackbar', 'Click')]]
 
-User clicked on the action button.
+_User clicked on the action button._
 
 ### On Dismissed
 
@@ -28,13 +28,13 @@ User clicked on the action button.
     |event|`text`|
 
 
-Event to detect the snackbar was dismissed. Possible results can be: "UNDEFINED", "ACTION", "CONSECUTIVE", "MANUAL", "SWIPE" or "TIMEOUT". You can find more information at: https://developer.android.com/reference/android/support/design/widget/Snackbar.Callback.html
+_Event to detect the snackbar was dismissed. Possible results can be: "UNDEFINED", "ACTION", "CONSECUTIVE", "MANUAL", "SWIPE" or "TIMEOUT". You can find more information at: https://developer.android.com/reference/android/support/design/widget/Snackbar.Callback.html_
 
 ### On Shown
 
 [[Event('Snackbar', 'On Shown')]]
 
-Event to detect the snackbar is shown.
+_Event to detect the snackbar is shown._
 
 ## Methods
 
@@ -42,7 +42,7 @@ Event to detect the snackbar is shown.
 
 [[Method('Snackbar', 'Dismiss', false)]]
 
-Dismiss the snackbar.
+_Dismiss the snackbar._
 
 ### IsShown
 
@@ -50,7 +50,7 @@ Dismiss the snackbar.
 
 {>>Returns `boolean`<<}
 
-Returns true whether this snackbar is currently being shown.
+_Returns true whether this snackbar is currently being shown._
 
 ### Show
 
@@ -62,7 +62,7 @@ Returns true whether this snackbar is currently being shown.
     |message|`text`|
 
 
-Show Snackbar (message supports HTML formatting)
+_Show Snackbar (message supports HTML formatting)_
 
 ### ShowWithButton
 
@@ -75,13 +75,13 @@ Show Snackbar (message supports HTML formatting)
     |button Text|`text`|
 
 
-Show Snackbar with action button (message supports HTML formatting)
+_Show Snackbar with action button (message supports HTML formatting)_
 
 ## Properties
 
 ### Background Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Snackbar', 'Background Color')]]
@@ -90,11 +90,11 @@ Show Snackbar with action button (message supports HTML formatting)
 |:----:|:-------:|
 |number|&HFF444444|
 
-Specifies the snackbar's background color.
+_Specifies the snackbar's background color._
 
 ### Button Text Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Snackbar', 'Button Text Color')]]
@@ -103,11 +103,11 @@ Specifies the snackbar's background color.
 |:----:|:-------:|
 |number|&HFFFFFFFF|
 
-Specifies the action button's text color.
+_Specifies the action button's text color._
 
 ### Duration
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Snackbar', 'Duration')]]
@@ -116,11 +116,11 @@ Specifies the action button's text color.
 |:----:|:-------:|
 |number|0|
 
-Specifies the length of time that the Snackbar is shown
+_Specifies the length of time that the Snackbar is shown_
 
 ### Text Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Snackbar', 'Text Color')]]

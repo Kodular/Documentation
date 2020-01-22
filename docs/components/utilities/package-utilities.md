@@ -24,7 +24,7 @@ _A non-visible component that retrieves information about other applications on 
     |package Name|`text`|
 
 
-Returns the name from the given package name.
+_Returns the name from the given package name._
 
 ### GetPackageIcon
 
@@ -38,7 +38,7 @@ Returns the name from the given package name.
     |package Name|`text`|
 
 
-Try to show the application icon of the given package name. If the application cannot be found, "Package not found" is the output.
+_Try to show the application icon of the given package name. If the application cannot be found, "Package not found" is the output._
 
 ### IsPackageInstalled
 
@@ -52,7 +52,7 @@ Try to show the application icon of the given package name. If the application c
     |package Name|`text`|
 
 
-Returns true if a package (app) is installed.
+_Returns true if a package (app) is installed._
 
 ### VersionCodeFrom
 
@@ -66,7 +66,7 @@ Returns true if a package (app) is installed.
     |package Name|`text`|
 
 
-This block will returns the version code of the package name. Returns '-1' if the package is not installed.
+_This block will returns the version code of the package name. Returns '-1' if the package is not installed._
 
 ### VersionNameFrom
 
@@ -80,7 +80,7 @@ This block will returns the version code of the package name. Returns '-1' if th
     |package Name|`text`|
 
 
-This block will returns the version name of the package name. Returns 'Package not found' if the package is not installed.
+_This block will returns the version name of the package name. Returns 'Package not found' if the package is not installed._
 
 ### Is Permission Granted
 
@@ -95,13 +95,11 @@ This block will returns the version name of the package name. Returns 'Package n
     |package Name|`text`|
 
 
-Check whether a particular package has been granted a particular permission.
+_Check whether a particular package has been granted a particular permission._
 
 ## Properties
 
 ### App Name
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Package Utilities', 'App Name')]]
@@ -110,11 +108,9 @@ Check whether a particular package has been granted a particular permission.
 |:----:|:-------:|
 |text|None|
 
-Returns the name from the current running app.
+_Returns the name from the current running app._
 
 ### Package Name
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Package Utilities', 'Package Name')]]
@@ -123,11 +119,9 @@ Returns the name from the current running app.
 |:----:|:-------:|
 |text|None|
 
-Returns the package name from the current running app.
+_Returns the package name from the current running app._
 
 ### Version Code
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Package Utilities', 'Version Code')]]
@@ -136,11 +130,9 @@ Returns the package name from the current running app.
 |:----:|:-------:|
 |number|None|
 
-This block will returns the version code of the current running app.
+_This block will returns the version code of the current running app._
 
 ### Version Name
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Package Utilities', 'Version Name')]]
@@ -149,4 +141,4 @@ This block will returns the version code of the current running app.
 |:----:|:-------:|
 |text|None|
 
-This block will returns the version name of the current running app.
+_This block will returns the version name of the current running app._

@@ -22,7 +22,7 @@ _A non-visible component that allows for uploading and downloading of files via 
     |error|`text`|
 
 
-This event returns the reason if a try to connect was not successful.
+_This event returns the reason if a try to connect was not successful._
 
 ### Connection Status
 
@@ -34,7 +34,7 @@ This event returns the reason if a try to connect was not successful.
     |is Connected|`boolean`|
 
 
-This event returns the status of the connection. If it is connect it will return true, else false.
+_This event returns the status of the connection. If it is connect it will return true, else false._
 
 ### Disconnect Error
 
@@ -46,13 +46,13 @@ This event returns the status of the connection. If it is connect it will return
     |error|`text`|
 
 
-This event returns the reason if a try to disconnect was not successful.
+_This event returns the reason if a try to disconnect was not successful._
 
 ### Download Done
 
 [[Event('FTP', 'Download Done')]]
 
-This event is invoked when the download is finished.
+_This event is invoked when the download is finished._
 
 ### Download error
 
@@ -64,13 +64,13 @@ This event is invoked when the download is finished.
     |error|`text`|
 
 
-This event returns the reason if a download was not successful.
+_This event returns the reason if a download was not successful._
 
 ### Upload Done
 
 [[Event('FTP', 'Upload Done')]]
 
-This event is invoked when the upload is finished.
+_This event is invoked when the upload is finished._
 
 ### Upload error
 
@@ -82,7 +82,7 @@ This event is invoked when the upload is finished.
     |error|`text`|
 
 
-This event returns the reason if a upload was not successful.
+_This event returns the reason if a upload was not successful._
 
 ## Methods
 
@@ -90,13 +90,13 @@ This event returns the reason if a upload was not successful.
 
 [[Method('FTP', 'Connect', false)]]
 
-Start the connection to the ftp server.
+_Start the connection to the ftp server._
 
 ### Disconnect
 
 [[Method('FTP', 'Disconnect', false)]]
 
-Disconnect the current connection.
+_Disconnect the current connection._
 
 ### DownloadFile
 
@@ -109,7 +109,7 @@ Disconnect the current connection.
     |destination|`text`|
 
 
-Start downloading a file.
+_Start downloading a file._
 
 ### GetListOfFiles
 
@@ -123,7 +123,7 @@ Start downloading a file.
     |dir|`text`|
 
 
-Get a list of files in a directory. Returns a empty list if a error occurs.
+_Get a list of files in a directory. Returns a empty list if a error occurs._
 
 ### UploadFile
 
@@ -136,7 +136,7 @@ Get a list of files in a directory. Returns a empty list if a error occurs.
     |new Name|`text`|
 
 
-Start uploading a file.
+_Start uploading a file._
 
 ### Delete Dir
 
@@ -148,7 +148,7 @@ Start uploading a file.
     |dir|`text`|
 
 
-Delete a directory on the ftp server.
+_Delete a directory on the ftp server._
 
 ### make Dir
 
@@ -160,13 +160,13 @@ Delete a directory on the ftp server.
     |dir|`text`|
 
 
-Make/create a directory on the ftp server.
+_Make/create a directory on the ftp server._
 
 ## Properties
 
 ### FTP-Server (Host)
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('FTP', 'FTP-Server (Host)')]]
@@ -175,11 +175,11 @@ Make/create a directory on the ftp server.
 |:----:|:-------:|
 |text|ftp.example.org|
 
-Set the ftp server url.
+_Set the ftp server url._
 
 ### Password
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('FTP', 'Password')]]
@@ -188,11 +188,11 @@ Set the ftp server url.
 |:----:|
 |text|
 
-Set the password to login into the ftp server.
+_Set the password to login into the ftp server._
 
 ### Port
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('FTP', 'Port')]]
@@ -201,11 +201,11 @@ Set the password to login into the ftp server.
 |:----:|:-------:|
 |number|21|
 
-Set the ftp port number.
+_Set the ftp port number._
 
 ### Username
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('FTP', 'Username')]]
@@ -214,11 +214,11 @@ Set the ftp port number.
 |:----:|:-------:|
 |text|Your Username|
 
-Set the username to login into the ftp server.
+_Set the username to login into the ftp server._
 
 ### Working Directory
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('FTP', 'Working Directory')]]
@@ -227,4 +227,4 @@ Set the username to login into the ftp server.
 |:----:|:-------:|
 |text|/|
 
-Set the ftp working dir.
+_Set the ftp working dir._

@@ -14,31 +14,31 @@ _A visible component that draws a circle of a given radius around a point on a M
 
 [[Event('Circle', 'Click')]]
 
-The user clicked on the feature.
+_The user clicked on the feature._
 
 ### Drag
 
 [[Event('Circle', 'Drag')]]
 
-The user dragged the map feature.
+_The user dragged the map feature._
 
 ### Long Click
 
 [[Event('Circle', 'Long Click')]]
 
-The user long-pressed on the feature. This event will only trigger if Draggable is false.
+_The user long-pressed on the feature. This event will only trigger if Draggable is false._
 
 ### Start Drag
 
 [[Event('Circle', 'Start Drag')]]
 
-The user started a drag operation.
+_The user started a drag operation._
 
 ### Stop Drag
 
 [[Event('Circle', 'Stop Drag')]]
 
-The user stopped a drag operation.
+_The user stopped a drag operation._
 
 ## Methods
 
@@ -55,7 +55,7 @@ The user stopped a drag operation.
     |centroids|`boolean`|
 
 
-Compute the distance, in meters, between two map features.
+_Compute the distance, in meters, between two map features._
 
 ### DistanceToPoint
 
@@ -71,13 +71,13 @@ Compute the distance, in meters, between two map features.
     |centroid|`boolean`|
 
 
-Compute the distance, in meters, between a map feature and a latitude, longitude point.
+_Compute the distance, in meters, between a map feature and a latitude, longitude point._
 
 ### HideInfobox
 
 [[Method('Circle', 'HideInfobox', false)]]
 
-Hide the infobox if it is shown. If the infobox is not visible this function has no effect.
+_Hide the infobox if it is shown. If the infobox is not visible this function has no effect._
 
 ### SetLocation
 
@@ -90,19 +90,19 @@ Hide the infobox if it is shown. If the infobox is not visible this function has
     |longitude|`number`|
 
 
-Set the center of the Circle.
+_Set the center of the Circle._
 
 ### ShowInfobox
 
 [[Method('Circle', 'ShowInfobox', false)]]
 
-Show the infobox for the feature. This will show the infobox even if
+_Show the infobox for the feature. This will show the infobox even if_
 
 ## Properties
 
 ### Description
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Circle', 'Description')]]
@@ -111,11 +111,11 @@ Show the infobox for the feature. This will show the infobox even if
 |:----:|
 |text|
 
-The description displayed in the info window that appears when the user clicks on the map feature.
+_The description displayed in the info window that appears when the user clicks on the map feature._
 
 ### Draggable
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Circle', 'Draggable')]]
@@ -124,11 +124,11 @@ The description displayed in the info window that appears when the user clicks o
 |:----:|:-------:|
 |boolean|False|
 
-The Draggable property is used to set whether or not the user can drag the Marker by long-pressing and then dragging the marker to a new location.
+_The Draggable property is used to set whether or not the user can drag the Marker by long-pressing and then dragging the marker to a new location._
 
 ### Enable Infobox
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Circle', 'Enable Infobox')]]
@@ -137,11 +137,11 @@ The Draggable property is used to set whether or not the user can drag the Marke
 |:----:|:-------:|
 |boolean|False|
 
-Enable or disable the infobox window display when the user taps the feature.
+_Enable or disable the infobox window display when the user taps the feature._
 
 ### Fill Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Circle', 'Fill Color')]]
@@ -150,11 +150,11 @@ Enable or disable the infobox window display when the user taps the feature.
 |:----:|:-------:|
 |number|&HFFF34336|
 
-The paint color used to fill in the map feature.
+_The paint color used to fill in the map feature._
 
 ### Fill Opacity
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Circle', 'Fill Opacity')]]
@@ -163,11 +163,11 @@ The paint color used to fill in the map feature.
 |:----:|:-------:|
 |number|1.0|
 
-The opacity of the interior of the map feature.
+_The opacity of the interior of the map feature._
 
 ### Latitude
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Circle', 'Latitude')]]
@@ -176,11 +176,11 @@ The opacity of the interior of the map feature.
 |:----:|:-------:|
 |number|0|
 
-The latitude of the center of the circle.
+_The latitude of the center of the circle._
 
 ### Longitude
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Circle', 'Longitude')]]
@@ -189,11 +189,11 @@ The latitude of the center of the circle.
 |:----:|:-------:|
 |number|0|
 
-The longitude of the center of the circle.
+_The longitude of the center of the circle._
 
 ### Radius
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Circle', 'Radius')]]
@@ -202,11 +202,11 @@ The longitude of the center of the circle.
 |:----:|:-------:|
 |number|0|
 
-The radius of the circle in meters.
+_The radius of the circle in meters._
 
 ### Stroke Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Circle', 'Stroke Color')]]
@@ -215,11 +215,11 @@ The radius of the circle in meters.
 |:----:|:-------:|
 |number|&HFF000000|
 
-The paint color used to outline the map feature.
+_The paint color used to outline the map feature._
 
 ### Stroke Opacity
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Circle', 'Stroke Opacity')]]
@@ -228,11 +228,11 @@ The paint color used to outline the map feature.
 |:----:|:-------:|
 |number|1.0|
 
-The opacity of the stroke used to outline the map feature.
+_The opacity of the stroke used to outline the map feature._
 
 ### Stroke Width
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Circle', 'Stroke Width')]]
@@ -241,11 +241,11 @@ The opacity of the stroke used to outline the map feature.
 |:----:|:-------:|
 |number|1|
 
-The width of the stroke used to outline the map feature.
+_The width of the stroke used to outline the map feature._
 
 ### Title
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Circle', 'Title')]]
@@ -254,11 +254,11 @@ The width of the stroke used to outline the map feature.
 |:----:|
 |text|
 
-The title displayed in the info window that appears when the user clicks on the map feature.
+_The title displayed in the info window that appears when the user clicks on the map feature._
 
 ### Visible
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Circle', 'Visible')]]
@@ -267,11 +267,9 @@ The title displayed in the info window that appears when the user clicks on the 
 |:----:|:-------:|
 |boolean|True|
 
-Specifies whether the component should be visible on the screen. Value is true if the component is showing and false if hidden.
+_Specifies whether the component should be visible on the screen. Value is true if the component is showing and false if hidden._
 
 ### Type
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Circle', 'Type')]]

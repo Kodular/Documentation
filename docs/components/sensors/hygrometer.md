@@ -22,13 +22,13 @@ _A sensor component that can measure the relative ambient air humidity. Most And
     |humidity|`number`|
 
 
-Called when a change is detected in the ambient air humidity (expressed as a percentage).
+_Called when a change is detected in the ambient air humidity (expressed as a percentage)._
 
 ## Properties
 
 ### Enabled
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Hygrometer', 'Enabled')]]
@@ -37,11 +37,11 @@ Called when a change is detected in the ambient air humidity (expressed as a per
 |:----:|:-------:|
 |boolean|True|
 
-If enabled, then device will listen for changes.
+_If enabled, then device will listen for changes._
 
 ### Refresh Time
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Hygrometer', 'Refresh Time')]]
@@ -50,11 +50,9 @@ If enabled, then device will listen for changes.
 |:----:|:-------:|
 |number|1000|
 
-The requested minimum time in milliseconds between changes in air pressure being reported. Android is not guaranteed to honor the request. Setting this property has no effect on pre-Gingerbread devices.
+_The requested minimum time in milliseconds between changes in air pressure being reported. Android is not guaranteed to honor the request. Setting this property has no effect on pre-Gingerbread devices._
 
 ### Available
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Hygrometer', 'Available')]]
@@ -63,11 +61,9 @@ The requested minimum time in milliseconds between changes in air pressure being
 |:----:|:-------:|
 |boolean|None|
 
-Specifies whether or not the device has an ambient air pressure sensor.
+_Specifies whether or not the device has an ambient air pressure sensor._
 
 ### Humidity
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Hygrometer', 'Humidity')]]
@@ -76,4 +72,4 @@ Specifies whether or not the device has an ambient air pressure sensor.
 |:----:|:-------:|
 |number|None|
 
-The relative ambient humidity as a percentage, if the sensor is available and enabled.
+_The relative ambient humidity as a percentage, if the sensor is available and enabled._

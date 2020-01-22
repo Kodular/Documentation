@@ -22,13 +22,13 @@ _<p>Non-visible component that can measures the proximity of an object in cm rel
     |distance|`number`|
 
 
-Triggered when distance (in cm) of the object to the device changes.
+_Triggered when distance (in cm) of the object to the device changes._
 
 ## Properties
 
 ### Enabled
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Proximity Sensor', 'Enabled')]]
@@ -37,12 +37,12 @@ Triggered when distance (in cm) of the object to the device changes.
 |:----:|:-------:|
 |boolean|True|
 
-If true, the sensor will generate events.  Otherwise, no events
- are generated .
+_If true, the sensor will generate events.  Otherwise, no events
+ are generated ._
 
 ### Keep Running When On Pause
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Proximity Sensor', 'Keep Running When On Pause')]]
@@ -51,11 +51,9 @@ If true, the sensor will generate events.  Otherwise, no events
 |:----:|:-------:|
 |boolean|False|
 
-Returns value of keepRunningWhenOnPause
+_Returns value of keepRunningWhenOnPause_
 
 ### Available
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Proximity Sensor', 'Available')]]
@@ -64,11 +62,9 @@ Returns value of keepRunningWhenOnPause
 |:----:|:-------:|
 |boolean|None|
 
-Reports whether or not the device has a proximity sensor
+_Reports whether or not the device has a proximity sensor_
 
 ### Distance
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Proximity Sensor', 'Distance')]]
@@ -77,11 +73,9 @@ Reports whether or not the device has a proximity sensor
 |:----:|:-------:|
 |number|None|
 
-Returns the distance from the object to the device
+_Returns the distance from the object to the device_
 
 ### Maximum Range
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Proximity Sensor', 'Maximum Range')]]
@@ -90,4 +84,4 @@ Returns the distance from the object to the device
 |:----:|:-------:|
 |number|None|
 
-Reports the Maximum Range of the device's ProximitySensor
+_Reports the Maximum Range of the device's ProximitySensor_

@@ -16,7 +16,7 @@ _A non-visible component that lets users sign in using authentication services p
 
 [[Event('Firebase Authentication', 'Current User Failed')]]
 
-Triggers when the current Firebase User failed to load
+_Triggers when the current Firebase User failed to load_
 
 ### Current User Success
 
@@ -32,7 +32,7 @@ Triggers when the current Firebase User failed to load
     |profile Picture|`text`|
 
 
-Triggers when the current Firebase User was successful loaded
+_Triggers when the current Firebase User was successful loaded_
 
 ### Got Id Token
 
@@ -44,7 +44,7 @@ Triggers when the current Firebase User was successful loaded
     |id Token|`text`|
 
 
-Triggers when the 'Get Id Token' got a result. If there was a error it returns a empty text.
+_Triggers when the 'Get Id Token' got a result. If there was a error it returns a empty text._
 
 ### Login Failed
 
@@ -56,7 +56,7 @@ Triggers when the 'Get Id Token' got a result. If there was a error it returns a
     |provider|`text`|
 
 
-Triggers when the Firebase Login failed
+_Triggers when the Firebase Login failed_
 
 ### Login Success
 
@@ -73,7 +73,7 @@ Triggers when the Firebase Login failed
     |profile Picture|`text`|
 
 
-Triggers when the Firebase Login was successful
+_Triggers when the Firebase Login was successful_
 
 ### Reset Password Email Done
 
@@ -85,7 +85,7 @@ Triggers when the Firebase Login was successful
     |success|`boolean`|
 
 
-Triggers when the 'Send Reset Password Email' got a result. Returns true if the reset email was send.
+_Triggers when the 'Send Reset Password Email' got a result. Returns true if the reset email was send._
 
 ### Sign Up Failed
 
@@ -98,7 +98,7 @@ Triggers when the 'Send Reset Password Email' got a result. Returns true if the 
     |message|`text`|
 
 
-Triggers when the Firebase Sign Up failed
+_Triggers when the Firebase Sign Up failed_
 
 ### Sign Up Success
 
@@ -115,7 +115,7 @@ Triggers when the Firebase Sign Up failed
     |profile Picture|`text`|
 
 
-Triggers when the Firebase Sign Up failed
+_Triggers when the Firebase Sign Up failed_
 
 ### User Update Failed
 
@@ -127,7 +127,7 @@ Triggers when the Firebase Sign Up failed
     |type|`text`|
 
 
-Triggers when updating of the user failed
+_Triggers when updating of the user failed_
 
 ### User Update Success
 
@@ -139,7 +139,7 @@ Triggers when updating of the user failed
     |type|`text`|
 
 
-Triggers when updating of the user was successful
+_Triggers when updating of the user was successful_
 
 ## Methods
 
@@ -154,7 +154,7 @@ Triggers when updating of the user was successful
     |password|`text`|
 
 
-Try to let the user sign in with Email and Password
+_Try to let the user sign in with Email and Password_
 
 ### EmailPasswordSignUp
 
@@ -167,25 +167,25 @@ Try to let the user sign in with Email and Password
     |password|`text`|
 
 
-Create a new user by Email and Password
+_Create a new user by Email and Password_
 
 ### GetCurrentUser
 
 [[Method('Firebase Authentication', 'GetCurrentUser', false)]]
 
-Try to get the user that is signed in
+_Try to get the user that is signed in_
 
 ### GetIdToken
 
 [[Method('Firebase Authentication', 'GetIdToken', false)]]
 
-Get the id token from the current user.
+_Get the id token from the current user._
 
 ### GoogleSignIn
 
 [[Method('Firebase Authentication', 'GoogleSignIn', false)]]
 
-Try to let the user sign in with Google
+_Try to let the user sign in with Google_
 
 ### IsSignedIn
 
@@ -193,13 +193,13 @@ Try to let the user sign in with Google
 
 {>>Returns `boolean`<<}
 
-Check if the user is signed in
+_Check if the user is signed in_
 
 ### Logout
 
 [[Method('Firebase Authentication', 'Logout', false)]]
 
-Log the current user out
+_Log the current user out_
 
 ### PhoneNumberSignIn
 
@@ -211,7 +211,7 @@ Log the current user out
     |phone Number|`text`|
 
 
-Try to let the user sign in with a Phone Number
+_Try to let the user sign in with a Phone Number_
 
 ### SendResetPasswordEmail
 
@@ -223,7 +223,7 @@ Try to let the user sign in with a Phone Number
     |email|`text`|
 
 
-Get the id token from the current user.
+_Get the id token from the current user._
 
 ### UpdateEmail
 
@@ -235,7 +235,7 @@ Get the id token from the current user.
     |email|`text`|
 
 
-Try to update the email of the current user (The user must have been recently signed in)
+_Try to update the email of the current user (The user must have been recently signed in)_
 
 ### UpdatePhoneNumber
 
@@ -247,7 +247,7 @@ Try to update the email of the current user (The user must have been recently si
     |phone Number|`text`|
 
 
-Try to update the phone number of the current user (The user must have been recently signed in)
+_Try to update the phone number of the current user (The user must have been recently signed in)_
 
 ### UpdateProfile
 
@@ -260,13 +260,13 @@ Try to update the phone number of the current user (The user must have been rece
     |profile Picture|`text`|
 
 
-Try to update the profile of the current user (The user must have been recently signed in)
+_Try to update the profile of the current user (The user must have been recently signed in)_
 
 ### VerifyEmail
 
 [[Method('Firebase Authentication', 'VerifyEmail', false)]]
 
-Verify the Email
+_Verify the Email_
 
 ### VerifyPhoneCode
 
@@ -278,4 +278,4 @@ Verify the Email
     |code|`text`|
 
 
-Verify the SMS code
+_Verify the SMS code_

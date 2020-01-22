@@ -25,7 +25,7 @@ _A component to create dynamic space in Arrangements._
     |height|`number`|
 
 
-Create a new space component dynamically. Use for width/height '-1' for wrap content or '-2' for fill parent.
+_Create a new space component dynamically. Use for width/height '-1' for wrap content or '-2' for fill parent._
 
 ### DeleteSpace
 
@@ -37,7 +37,7 @@ Create a new space component dynamically. Use for width/height '-1' for wrap con
     |id|`number`|
 
 
-Remove a space component with the given id.
+_Remove a space component with the given id._
 
 ### GetHeight
 
@@ -51,7 +51,7 @@ Remove a space component with the given id.
     |id|`number`|
 
 
-Get the Height of a space component.
+_Get the Height of a space component._
 
 ### GetSpaceById
 
@@ -65,7 +65,7 @@ Get the Height of a space component.
     |id|`number`|
 
 
-Returns the space referenced by its id.
+_Returns the space referenced by its id._
 
 ### GetWidth
 
@@ -79,7 +79,7 @@ Returns the space referenced by its id.
     |id|`number`|
 
 
-Get the Width of a space component.
+_Get the Width of a space component._
 
 ### SetHeight
 
@@ -92,7 +92,7 @@ Get the Width of a space component.
     |height|`number`|
 
 
-Update the Height of a space component.
+_Update the Height of a space component._
 
 ### SetWidth
 
@@ -105,4 +105,4 @@ Update the Height of a space component.
     |width|`number`|
 
 
-Update the Width of a space component.
+_Update the Width of a space component._

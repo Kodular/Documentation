@@ -23,13 +23,13 @@ _A non-visible component that communicates with a web service to store and retri
     |value From Web DB|`any`|
 
 
-Indicates that a GetValue server request has succeeded.
+_Indicates that a GetValue server request has succeeded._
 
 ### Value Stored
 
 [[Event('Tiny Web DB', 'Value Stored')]]
 
-Event indicating that a StoreValue server request has succeeded.
+_Event indicating that a StoreValue server request has succeeded._
 
 ### Web Service Error
 
@@ -41,7 +41,7 @@ Event indicating that a StoreValue server request has succeeded.
     |message|`text`|
 
 
-Indicates that the communication with the Web service signaled an error.
+_Indicates that the communication with the Web service signaled an error._
 
 ## Methods
 
@@ -55,7 +55,7 @@ Indicates that the communication with the Web service signaled an error.
     |tag|`text`|
 
 
-GetValue asks the Web service to get the value stored under the given tag.
+_GetValue asks the Web service to get the value stored under the given tag._
 
 ### StoreValue
 
@@ -68,13 +68,13 @@ GetValue asks the Web service to get the value stored under the given tag.
     |value To Store|`any`|
 
 
-Asks the Web service to store the given value under the given tag.
+_Asks the Web service to store the given value under the given tag._
 
 ## Properties
 
 ### Service URL
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Tiny Web DB', 'Service URL')]]
@@ -83,4 +83,4 @@ Asks the Web service to store the given value under the given tag.
 |:----:|:-------:|
 |text|http://tinywebdb.builder.makeroid.io|
 
-Returns the URL of the web service database.
+_Returns the URL of the web service database._

@@ -20,7 +20,7 @@ _Component for viewing Web pages. The Home URL can be specified in the Designer 
     |result|`text`|
 
 
-Get the result of the evaluated JS
+_Get the result of the evaluated JS_
 
 ### Cookies Removed
 
@@ -32,7 +32,7 @@ Get the result of the evaluated JS
     |success|`boolean`|
 
 
-This event return true when the cookies have been successfully removed. If the cookies was successfully cleared then the next run returns false as status, if in this time no new cookies was set.
+_This event return true when the cookies have been successfully removed. If the cookies was successfully cleared then the next run returns false as status, if in this time no new cookies was set._
 
 ### On Console Message
 
@@ -46,7 +46,7 @@ This event return true when the cookies have been successfully removed. If the c
     |source Id|`text`|
 
 
-Get webpage console output
+_Get webpage console output_
 
 ### On Download Start
 
@@ -61,13 +61,13 @@ Get webpage console output
     |content Length|`number`|
 
 
-Event for listening download links.
+_Event for listening download links._
 
 ### Page Loaded
 
 [[Event('Web Viewer', 'Page Loaded')]]
 
-Triggers when page finished loading
+_Triggers when page finished loading_
 
 ### Progress Changed
 
@@ -79,7 +79,7 @@ Triggers when page finished loading
     |progress|`number`|
 
 
-Event to detect that the loading progress has changed.
+_Event to detect that the loading progress has changed._
 
 ### Web View String Change
 
@@ -91,7 +91,7 @@ Event to detect that the loading progress has changed.
     |value|`text`|
 
 
-When the JavaScript calls AppInventor.setWebViewString this event is run.
+_When the JavaScript calls AppInventor.setWebViewString this event is run._
 
 ## Methods
 
@@ -101,7 +101,7 @@ When the JavaScript calls AppInventor.setWebViewString this event is run.
 
 {>>Returns `boolean`<<}
 
-Returns true if the WebViewer can go back in the history list.
+_Returns true if the WebViewer can go back in the history list._
 
 ### CanGoBackOrForward
 
@@ -115,7 +115,7 @@ Returns true if the WebViewer can go back in the history list.
     |steps|`number`|
 
 
-Returns true if the WebViewer can go back or forward the number of steps in the history list.
+_Returns true if the WebViewer can go back or forward the number of steps in the history list._
 
 ### CanGoForward
 
@@ -123,25 +123,25 @@ Returns true if the WebViewer can go back or forward the number of steps in the 
 
 {>>Returns `boolean`<<}
 
-Returns true if the WebViewer can go forward in the history list.
+_Returns true if the WebViewer can go forward in the history list._
 
 ### ClearCaches
 
 [[Method('Web Viewer', 'ClearCaches', false)]]
 
-Clear WebView caches.
+_Clear WebView caches._
 
 ### ClearCookies
 
 [[Method('Web Viewer', 'ClearCookies', false)]]
 
-Start to clear the WebView cookies.
+_Start to clear the WebView cookies._
 
 ### ClearLocations
 
 [[Method('Web Viewer', 'ClearLocations', false)]]
 
-Clear stored location permissions.
+_Clear stored location permissions._
 
 ### EvaluateJS
 
@@ -153,13 +153,13 @@ Clear stored location permissions.
     |script|`text`|
 
 
-Evaluate JS in the context of the current page
+_Evaluate JS in the context of the current page_
 
 ### GoBack
 
 [[Method('Web Viewer', 'GoBack', false)]]
 
-Go back to the previous page in the history list. Does nothing if there is no previous page.
+_Go back to the previous page in the history list. Does nothing if there is no previous page._
 
 ### GoBackOrForward
 
@@ -171,19 +171,19 @@ Go back to the previous page in the history list. Does nothing if there is no pr
     |steps|`number`|
 
 
-Go forward or backward a number of steps away from the current page. Steps is negative if backward and positive if forward.
+_Go forward or backward a number of steps away from the current page. Steps is negative if backward and positive if forward._
 
 ### GoForward
 
 [[Method('Web Viewer', 'GoForward', false)]]
 
-Go forward to the next page in the history list. Does nothing if there is no next page.
+_Go forward to the next page in the history list. Does nothing if there is no next page._
 
 ### GoHome
 
 [[Method('Web Viewer', 'GoHome', false)]]
 
-Loads the home URL page. This happens automatically when the home URL is changed.
+_Loads the home URL page. This happens automatically when the home URL is changed._
 
 ### GoToUrl
 
@@ -195,7 +195,7 @@ Loads the home URL page. This happens automatically when the home URL is changed
     |url|`text`|
 
 
-Load the page at the given URL.
+_Load the page at the given URL._
 
 ### LoadHtml
 
@@ -207,25 +207,25 @@ Load the page at the given URL.
     |html|`text`|
 
 
-Load HTML content using Base64-encoded data URI scheme
+_Load HTML content using Base64-encoded data URI scheme_
 
 ### Reload
 
 [[Method('Web Viewer', 'Reload', false)]]
 
-Reloads the current page
+_Reloads the current page_
 
 ### StopLoading
 
 [[Method('Web Viewer', 'StopLoading', false)]]
 
-Stops the current load.
+_Stops the current load._
 
 ## Properties
 
 ### Desktop Mode
 
-<small>Available as Advanced Property</small>
+<small>Available as ^^Advanced^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Web Viewer', 'Desktop Mode')]]
@@ -234,11 +234,11 @@ Stops the current load.
 |:----:|:-------:|
 |boolean|false|
 
-Get/Set Desktop mode by altering the user agent string.
+_Get/Set Desktop mode by altering the user agent string._
 
 ### Enable JavaScript
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Web Viewer', 'Enable JavaScript')]]
@@ -247,11 +247,11 @@ Get/Set Desktop mode by altering the user agent string.
 |:----:|:-------:|
 |boolean|True|
 
-Enable/Disable JavaScript. Enabled by default
+_Enable/Disable JavaScript. Enabled by default_
 
 ### Follow Links
 
-<small>Available as Advanced Property</small>
+<small>Available as ^^Advanced^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Web Viewer', 'Follow Links')]]
@@ -260,11 +260,11 @@ Enable/Disable JavaScript. Enabled by default
 |:----:|:-------:|
 |boolean|True|
 
-Determines whether to follow links when they are tapped in the WebViewer.  If you follow links, you can use GoBack and GoForward to navigate the browser history.
+_Determines whether to follow links when they are tapped in the WebViewer.  If you follow links, you can use GoBack and GoForward to navigate the browser history._
 
 ### Home Url
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Web Viewer', 'Home Url')]]
@@ -273,11 +273,11 @@ Determines whether to follow links when they are tapped in the WebViewer.  If yo
 |:----:|
 |text|
 
-URL of the page the WebViewer should initially open to. Setting this will load the page.
+_URL of the page the WebViewer should initially open to. Setting this will load the page._
 
 ### Ignore SSL Errors
 
-<small>Available as Advanced Property</small>
+<small>Available as ^^Advanced^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Web Viewer', 'Ignore SSL Errors')]]
@@ -286,11 +286,11 @@ URL of the page the WebViewer should initially open to. Setting this will load t
 |:----:|:-------:|
 |boolean|False|
 
-Determine whether or not to ignore SSL errors. Set to true to ignore errors. Use this to accept self signed certificates from websites.
+_Determine whether or not to ignore SSL errors. Set to true to ignore errors. Use this to accept self signed certificates from websites._
 
 ### Load Images
 
-<small>Available as Advanced Property</small>
+<small>Available as ^^Advanced^^ Property</small>
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Web Viewer', 'Load Images')]]
@@ -299,11 +299,11 @@ Determine whether or not to ignore SSL errors. Set to true to ignore errors. Use
 |:----:|:-------:|
 |boolean|True|
 
-Whether or not to automatically load images
+_Whether or not to automatically load images_
 
 ### Prompt for Permission
 
-<small>Available as Advanced Property</small>
+<small>Available as ^^Advanced^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Web Viewer', 'Prompt for Permission')]]
@@ -312,11 +312,11 @@ Whether or not to automatically load images
 |:----:|:-------:|
 |boolean|True|
 
-If True, then prompt the user of the WebView to give permission to access the geolocation API. If False, then assume permission is granted.
+_If True, then prompt the user of the WebView to give permission to access the geolocation API. If False, then assume permission is granted._
 
 ### Scrollbar
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Web Viewer', 'Scrollbar')]]
@@ -325,11 +325,11 @@ If True, then prompt the user of the WebView to give permission to access the ge
 |:----:|:-------:|
 |boolean|True|
 
-Whether to display a scrollbar
+_Whether to display a scrollbar_
 
 ### Use External Browser
 
-<small>Available as Advanced Property</small>
+<small>Available as ^^Advanced^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Web Viewer', 'Use External Browser')]]
@@ -338,11 +338,11 @@ Whether to display a scrollbar
 |:----:|:-------:|
 |boolean|False|
 
-Open a link in the webviewer page using the external browser. If true the page will be loaded in the external browser and not in the webviewer itself.
+_Open a link in the webviewer page using the external browser. If true the page will be loaded in the external browser and not in the webviewer itself._
 
 ### User Agent
 
-<small>Available as Advanced Property</small>
+<small>Available as ^^Advanced^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Web Viewer', 'User Agent')]]
@@ -351,11 +351,11 @@ Open a link in the webviewer page using the external browser. If true the page w
 |:----:|
 |text|
 
-Get User Agent
+_Get User Agent_
 
 ### Uses Location
 
-<small>Available as Advanced Property</small>
+<small>Available as ^^Advanced^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Web Viewer', 'Uses Location')]]
@@ -364,11 +364,11 @@ Get User Agent
 |:----:|:-------:|
 |boolean|False|
 
-Whether or not to give the application permission to use the Javascript geolocation API. This property is available only in the designer.
+_Whether or not to give the application permission to use the Javascript geolocation API. This property is available only in the designer._
 
 ### Visible
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Web Viewer', 'Visible')]]
@@ -377,11 +377,11 @@ Whether or not to give the application permission to use the Javascript geolocat
 |:----:|:-------:|
 |boolean|True|
 
-Returns true iff the component is visible.
+_Returns true iff the component is visible._
 
 ### Zoom Display
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Web Viewer', 'Zoom Display')]]
@@ -390,11 +390,11 @@ Returns true iff the component is visible.
 |:----:|:-------:|
 |boolean|True|
 
-Show or Hide the zoom display.
+_Show or Hide the zoom display._
 
 ### Zoom Enabled
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Web Viewer', 'Zoom Enabled')]]
@@ -403,11 +403,11 @@ Show or Hide the zoom display.
 |:----:|:-------:|
 |boolean|True|
 
-Enable or Disable pinch zooming. This effects both pinch zooming and the zoom controls.
+_Enable or Disable pinch zooming. This effects both pinch zooming and the zoom controls._
 
 ### Zoom Percent
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Web Viewer', 'Zoom Percent')]]
@@ -416,11 +416,9 @@ Enable or Disable pinch zooming. This effects both pinch zooming and the zoom co
 |:----:|:-------:|
 |number|100|
 
-The zoom of the page in percent %
+_The zoom of the page in percent %_
 
 ### Column
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Web Viewer', 'Column')]]
@@ -429,11 +427,9 @@ The zoom of the page in percent %
 |:----:|:-------:|
 |number|None|
 
-Column property getter method.
+_Column property getter method._
 
 ### Current Page Title
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Web Viewer', 'Current Page Title')]]
@@ -442,11 +438,9 @@ Column property getter method.
 |:----:|:-------:|
 |text|None|
 
-Title of the page currently viewed
+_Title of the page currently viewed_
 
 ### Current URL
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Web Viewer', 'Current URL')]]
@@ -455,11 +449,9 @@ Title of the page currently viewed
 |:----:|:-------:|
 |text|None|
 
-URL of the page currently viewed. This could be different from the Home URL if new pages were visited by following links.
+_URL of the page currently viewed. This could be different from the Home URL if new pages were visited by following links._
 
 ### Height
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Web Viewer', 'Height')]]
@@ -468,11 +460,9 @@ URL of the page currently viewed. This could be different from the Home URL if n
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's vertical height, measured in pixels.
+_Specifies the component's vertical height, measured in pixels._
 
 ### Height Percent
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Web Viewer', 'Height Percent')]]
@@ -481,12 +471,10 @@ Specifies the component's vertical height, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's vertical height as a percentage
- of the height of its parent Component.
+_Specifies the component's vertical height as a percentage
+ of the height of its parent Component._
 
 ### Row
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Web Viewer', 'Row')]]
@@ -495,11 +483,9 @@ Specifies the component's vertical height as a percentage
 |:----:|:-------:|
 |number|None|
 
-Row property getter method.
+_Row property getter method._
 
 ### Web View String
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Web Viewer', 'Web View String')]]
@@ -508,11 +494,9 @@ Row property getter method.
 |:----:|:-------:|
 |text|None|
 
-Gets the WebView's String, which is viewable through Javascript in the WebView as the window.AppInventor object
+_Gets the WebView's String, which is viewable through Javascript in the WebView as the window.AppInventor object_
 
 ### Width
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Web Viewer', 'Width')]]
@@ -521,11 +505,9 @@ Gets the WebView's String, which is viewable through Javascript in the WebView a
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width, measured in pixels.
+_Specifies the component's horizontal width, measured in pixels._
 
 ### Width Percent
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Web Viewer', 'Width Percent')]]
@@ -534,5 +516,5 @@ Specifies the component's horizontal width, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width as a percentage
- of the Width of its parent Component.
+_Specifies the component's horizontal width as a percentage
+ of the Width of its parent Component._

@@ -24,20 +24,20 @@ _<p>Non-visible component providing information about the device's physical orie
     |roll|`number`|
 
 
-Default OrientationChanged event handler.
+_Default OrientationChanged event handler.
 
  <p>This event is signalled when the device's orientation has changed.  It
  reports the new values of azimuth, pich, and roll, and it also sets the Azimuth, Pitch,
  and roll properties.</p>
  <p>Azimuth is the compass heading in degrees, pitch indicates how the device
  is tilted from top to bottom, and roll indicates how much the device is tilted from
- side to side.</p>
+ side to side.</p>_
 
 ## Properties
 
 ### Enabled
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Orientation Sensor', 'Enabled')]]
@@ -46,11 +46,9 @@ Default OrientationChanged event handler.
 |:----:|:-------:|
 |boolean|True|
 
-Enabled property getter method.
+_Enabled property getter method._
 
 ### Angle
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Orientation Sensor', 'Angle')]]
@@ -59,12 +57,10 @@ Enabled property getter method.
 |:----:|:-------:|
 |number|None|
 
-<p>Angle property getter method (read-only property).  Specifically, this
- provides the angle in which the orientation sensor is tilted, treating
+_<p>Angle property getter method (read-only property).  Specifically, this
+ provides the angle in which the orientation sensor is tilted, treating_
 
 ### Available
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Orientation Sensor', 'Available')]]
@@ -73,11 +69,9 @@ Enabled property getter method.
 |:----:|:-------:|
 |boolean|None|
 
-Available property getter method (read-only property).
+_Available property getter method (read-only property)._
 
 ### Azimuth
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Orientation Sensor', 'Azimuth')]]
@@ -86,13 +80,11 @@ Available property getter method (read-only property).
 |:----:|:-------:|
 |number|None|
 
-Azimuth property getter method (read-only property).
+_Azimuth property getter method (read-only property).
 
- <p>To return meaningful values the sensor must be enabled.</p>
+ <p>To return meaningful values the sensor must be enabled.</p>_
 
 ### Magnitude
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Orientation Sensor', 'Magnitude')]]
@@ -101,13 +93,11 @@ Azimuth property getter method (read-only property).
 |:----:|:-------:|
 |number|None|
 
-Magnitude property getter method (read-only property).  Specifically, this
+_Magnitude property getter method (read-only property).  Specifically, this
  returns a number between 0 and 1, indicating how much the device
- is tilted.  For the angle of tilt, use
+ is tilted.  For the angle of tilt, use_
 
 ### Pitch
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Orientation Sensor', 'Pitch')]]
@@ -116,13 +106,11 @@ Magnitude property getter method (read-only property).  Specifically, this
 |:----:|:-------:|
 |number|None|
 
-Pitch property getter method (read-only property).
+_Pitch property getter method (read-only property).
 
- <p>To return meaningful values the sensor must be enabled.</p>
+ <p>To return meaningful values the sensor must be enabled.</p>_
 
 ### Roll
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Orientation Sensor', 'Roll')]]
@@ -131,6 +119,6 @@ Pitch property getter method (read-only property).
 |:----:|:-------:|
 |number|None|
 
-Roll property getter method (read-only property).
+_Roll property getter method (read-only property).
 
- <p>To return meaningful values the sensor must be enabled.</p>
+ <p>To return meaningful values the sensor must be enabled.</p>_

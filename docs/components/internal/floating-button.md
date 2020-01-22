@@ -16,13 +16,13 @@ _Floating Button Component to make a Floating Action Button on the right bottom 
 
 [[Event('Floating Button', 'Click')]]
 
-FAB Clicked
+_FAB Clicked_
 
 ### Long Click
 
 [[Event('Floating Button', 'Long Click')]]
 
-FAB Long Clicked
+_FAB Long Clicked_
 
 ## Methods
 
@@ -30,13 +30,13 @@ FAB Long Clicked
 
 [[Method('Floating Button', 'Create', false)]]
 
-Create FAB
+_Create FAB_
 
 ## Properties
 
 ### Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Floating Button', 'Color')]]
@@ -45,11 +45,11 @@ Create FAB
 |:----:|:-------:|
 |number|&H00000000|
 
-Returns Color
+_Returns Color_
 
 ### Icon
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Floating Button', 'Icon')]]
@@ -58,11 +58,11 @@ Returns Color
 |:----:|
 |text|
 
-Returns Icon Path
+_Returns Icon Path_
 
 ### Margin Bottom
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Floating Button', 'Margin Bottom')]]
@@ -71,11 +71,11 @@ Returns Icon Path
 |:----:|:-------:|
 |number|8|
 
-Set Bottom Margin in dp, Default = 16
+_Set Bottom Margin in dp, Default = 16_
 
 ### Margin Right
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Floating Button', 'Margin Right')]]
@@ -84,11 +84,11 @@ Set Bottom Margin in dp, Default = 16
 |:----:|:-------:|
 |number|8|
 
-Set Right Margin in dp, Default = 16
+_Set Right Margin in dp, Default = 16_
 
 ### Size
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Floating Button', 'Size')]]
@@ -97,12 +97,12 @@ Set Right Margin in dp, Default = 16
 |:----:|:-------:|
 |number|1|
 
-Set FAB Size.
-Set it to 1 for Normal size, 2 for Mini.
+_Set FAB Size.
+Set it to 1 for Normal size, 2 for Mini._
 
 ### Use Animation
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Floating Button', 'Use Animation')]]
@@ -111,11 +111,11 @@ Set it to 1 for Normal size, 2 for Mini.
 |:----:|:-------:|
 |boolean|True|
 
-Are animations on?
+_Are animations on?_
 
 ### Visible
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Floating Button', 'Visible')]]
@@ -124,11 +124,9 @@ Are animations on?
 |:----:|:-------:|
 |boolean|True|
 
-Is FAB visible?
+_Is FAB visible?_
 
 ### Is Created
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Floating Button', 'Is Created')]]
@@ -137,4 +135,4 @@ Is FAB visible?
 |:----:|:-------:|
 |boolean|None|
 
-Is FAB created?
+_Is FAB created?_

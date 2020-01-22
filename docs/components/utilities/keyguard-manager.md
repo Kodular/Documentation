@@ -22,7 +22,7 @@ _A non-visible component that authenticates the user using their preferred secur
     |is Authenticated|`boolean`|
 
 
-Event to detect a authentication request was called.
+_Event to detect a authentication request was called._
 
 ### On Dissmiss Keyguard Request
 
@@ -35,7 +35,7 @@ Event to detect a authentication request was called.
     |cancelled|`boolean`|
 
 
-Event to detect a dissmiss request keyguard was called.
+_Event to detect a dissmiss request keyguard was called._
 
 ## Methods
 
@@ -43,13 +43,13 @@ Event to detect a dissmiss request keyguard was called.
 
 [[Method('Keyguard Manager', 'RequestDismissKeyguard', false)]]
 
-If the device is currently locked, requests the Keyguard to be dismissed. Works only for devices with Android 8+
+_If the device is currently locked, requests the Keyguard to be dismissed. Works only for devices with Android 8+_
 
 ### ShowAuthenticationScreen
 
 [[Method('Keyguard Manager', 'ShowAuthenticationScreen', false)]]
 
-Create the Confirm Credentials screen. You can customize the title and description. Or we will provide a generic one for you if you leave it empty. Works only for devices with Android 5+
+_Create the Confirm Credentials screen. You can customize the title and description. Or we will provide a generic one for you if you leave it empty. Works only for devices with Android 5+_
 
 ### ShowWhenLocked
 
@@ -61,13 +61,13 @@ Create the Confirm Credentials screen. You can customize the title and descripti
     |enabled|`boolean`|
 
 
-Specifies whether an Activity should be shown on top of the lock screen whenever the lockscreen is up and the activity is resumed. Normally an activity will be transitioned to the stopped state if it is started while the lockscreen is up, but with this flag set the activity will remain in the resumed state visible on-top of the lock screen.
+_Specifies whether an Activity should be shown on top of the lock screen whenever the lockscreen is up and the activity is resumed. Normally an activity will be transitioned to the stopped state if it is started while the lockscreen is up, but with this flag set the activity will remain in the resumed state visible on-top of the lock screen._
 
 ## Properties
 
 ### Description
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Keyguard Manager', 'Description')]]
@@ -76,11 +76,11 @@ Specifies whether an Activity should be shown on top of the lock screen whenever
 |:----:|:-------:|
 |text|Confirm your screen lock.|
 
-Returns the keyguard manager description text.
+_Returns the keyguard manager description text._
 
 ### Title
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Keyguard Manager', 'Title')]]
@@ -89,11 +89,9 @@ Returns the keyguard manager description text.
 |:----:|:-------:|
 |text|Unlock|
 
-Returns the keyguard manager title text.
+_Returns the keyguard manager title text._
 
 ### is Device Locked
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Keyguard Manager', 'is Device Locked')]]
@@ -102,11 +100,9 @@ Returns the keyguard manager title text.
 |:----:|:-------:|
 |boolean|None|
 
-Returns whether the device is currently locked and requires a PIN, pattern or password to unlock. Works only for devices with Android 5.1+
+_Returns whether the device is currently locked and requires a PIN, pattern or password to unlock. Works only for devices with Android 5.1+_
 
 ### is Device Secure
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Keyguard Manager', 'is Device Secure')]]
@@ -115,11 +111,9 @@ Returns whether the device is currently locked and requires a PIN, pattern or pa
 |:----:|:-------:|
 |boolean|None|
 
-Returns whether the device is secured with a PIN, pattern or password. Works only for devices with Android 6+
+_Returns whether the device is secured with a PIN, pattern or password. Works only for devices with Android 6+_
 
 ### is Keyguard Locked
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Keyguard Manager', 'is Keyguard Locked')]]
@@ -128,11 +122,9 @@ Returns whether the device is secured with a PIN, pattern or password. Works onl
 |:----:|:-------:|
 |boolean|None|
 
-Return whether the keyguard is currently locked.
+_Return whether the keyguard is currently locked._
 
 ### is Keyguard Secure
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Keyguard Manager', 'is Keyguard Secure')]]
@@ -141,4 +133,4 @@ Return whether the keyguard is currently locked.
 |:----:|:-------:|
 |boolean|None|
 
-Return whether the keyguard is secured by a PIN, pattern or password or a SIM card is currently locked.
+_Return whether the keyguard is secured by a PIN, pattern or password or a SIM card is currently locked._

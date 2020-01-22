@@ -14,7 +14,7 @@ _A visible component that shows a live preview of the user''s camera as its back
 
 [[Event('Surface View', 'Clicked')]]
 
-Event to detect clicks on the camera preview.
+_Event to detect clicks on the camera preview._
 
 ### Face Detected
 
@@ -26,7 +26,7 @@ Event to detect clicks on the camera preview.
     |numbers|`text`|
 
 
-Event to detect that there are faces in the front of the camera.
+_Event to detect that there are faces in the front of the camera._
 
 ### Got Preview
 
@@ -38,13 +38,13 @@ Event to detect that there are faces in the front of the camera.
     |image|`text`|
 
 
-Event to get the response from the camera preview as image file. The picture is by default in landscape mode. This event will only work if the option "Save Preview As File" is enabled/ true.
+_Event to get the response from the camera preview as image file. The picture is by default in landscape mode. This event will only work if the option "Save Preview As File" is enabled/ true._
 
 ### Long Clicked
 
 [[Event('Surface View', 'Long Clicked')]]
 
-Event to detect long clicks on the camera preview.
+_Event to detect long clicks on the camera preview._
 
 ### Picture Created
 
@@ -56,19 +56,19 @@ Event to detect long clicks on the camera preview.
     |image|`text`|
 
 
-Event to detect that the user has taken a picture from the preview.
+_Event to detect that the user has taken a picture from the preview._
 
 ### Preview Paused
 
 [[Event('Surface View', 'Preview Paused')]]
 
-Event to detect that the user paused the camera preview.
+_Event to detect that the user paused the camera preview._
 
 ### Preview Stoped
 
 [[Event('Surface View', 'Preview Stoped')]]
 
-Event to detect that the user stopped the camera preview.
+_Event to detect that the user stopped the camera preview._
 
 ## Methods
 
@@ -76,31 +76,31 @@ Event to detect that the user stopped the camera preview.
 
 [[Method('Surface View', 'PausePreview', false)]]
 
-Pause the camera preview.
+_Pause the camera preview._
 
 ### StartPreview
 
 [[Method('Surface View', 'StartPreview', false)]]
 
-Start the camera preview.
+_Start the camera preview._
 
 ### StopPreview
 
 [[Method('Surface View', 'StopPreview', false)]]
 
-Stop the camera preview.
+_Stop the camera preview._
 
 ### TakePicture
 
 [[Method('Surface View', 'TakePicture', false)]]
 
-Take a picture from the camera preview.
+_Take a picture from the camera preview._
 
 ## Properties
 
 ### Align Horizontal
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Surface View', 'Align Horizontal')]]
@@ -109,11 +109,11 @@ Take a picture from the camera preview.
 |:----:|:-------:|
 |number|1|
 
-A number that encodes how contents of the arrangement are aligned  horizontally. The choices are: 1 = left aligned, 2 = right aligned,  3 = horizontally centered.  Alignment has no effect if the arrangement's width is automatic.
+_A number that encodes how contents of the arrangement are aligned  horizontally. The choices are: 1 = left aligned, 2 = right aligned,  3 = horizontally centered.  Alignment has no effect if the arrangement's width is automatic._
 
 ### Align Vertical
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Surface View', 'Align Vertical')]]
@@ -126,7 +126,7 @@ _No description available_
 
 ### Clickable
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Surface View', 'Clickable')]]
@@ -135,11 +135,11 @@ _No description available_
 |:----:|:-------:|
 |boolean|False|
 
-Set the surface view component clickable or not clickable.
+_Set the surface view component clickable or not clickable._
 
 ### Detect Faces
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Surface View', 'Detect Faces')]]
@@ -148,11 +148,11 @@ Set the surface view component clickable or not clickable.
 |:----:|:-------:|
 |boolean|False|
 
-If enabled you can detect how many faces are in the front of the camera.
+_If enabled you can detect how many faces are in the front of the camera._
 
 ### Save Preview As File
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Surface View', 'Save Preview As File')]]
@@ -161,11 +161,11 @@ If enabled you can detect how many faces are in the front of the camera.
 |:----:|:-------:|
 |boolean|False|
 
-Enable this block to enable the "Got Preview" event to get a image file from the camera preview.
+_Enable this block to enable the "Got Preview" event to get a image file from the camera preview._
 
 ### Use Back Camera
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Surface View', 'Use Back Camera')]]
@@ -174,11 +174,11 @@ Enable this block to enable the "Got Preview" event to get a image file from the
 |:----:|:-------:|
 |boolean|True|
 
-If enabled you will open the back camera for the camera preview, else you open the front camera. The block detect automatic if there is a device camera available or not.
+_If enabled you will open the back camera for the camera preview, else you open the front camera. The block detect automatic if there is a device camera available or not._
 
 ### Visible
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Surface View', 'Visible')]]
@@ -187,11 +187,9 @@ If enabled you will open the back camera for the camera preview, else you open t
 |:----:|:-------:|
 |boolean|True|
 
-Returns true iff the component is visible.
+_Returns true iff the component is visible._
 
 ### Column
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Surface View', 'Column')]]
@@ -200,11 +198,9 @@ Returns true iff the component is visible.
 |:----:|:-------:|
 |number|None|
 
-Column property getter method.
+_Column property getter method._
 
 ### Flashlight
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Surface View', 'Flashlight')]]
@@ -213,11 +209,9 @@ Column property getter method.
 |:----:|:-------:|
 |boolean|None|
 
-Turn on or off the device flashlight. The function knows automatic if there is a flash/ torch available.
+_Turn on or off the device flashlight. The function knows automatic if there is a flash/ torch available._
 
 ### Height
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Surface View', 'Height')]]
@@ -226,11 +220,9 @@ Turn on or off the device flashlight. The function knows automatic if there is a
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's vertical height, measured in pixels.
+_Specifies the component's vertical height, measured in pixels._
 
 ### Height Percent
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Surface View', 'Height Percent')]]
@@ -239,12 +231,10 @@ Specifies the component's vertical height, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's vertical height as a percentage
- of the height of its parent Component.
+_Specifies the component's vertical height as a percentage
+ of the height of its parent Component._
 
 ### Row
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Surface View', 'Row')]]
@@ -253,11 +243,9 @@ Specifies the component's vertical height as a percentage
 |:----:|:-------:|
 |number|None|
 
-Row property getter method.
+_Row property getter method._
 
 ### Width
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Surface View', 'Width')]]
@@ -266,11 +254,9 @@ Row property getter method.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width, measured in pixels.
+_Specifies the component's horizontal width, measured in pixels._
 
 ### Width Percent
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Surface View', 'Width Percent')]]
@@ -279,5 +265,5 @@ Specifies the component's horizontal width, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width as a percentage
- of the Width of its parent Component.
+_Specifies the component's horizontal width as a percentage
+ of the Width of its parent Component._

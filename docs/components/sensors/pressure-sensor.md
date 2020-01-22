@@ -23,13 +23,13 @@ _A non-visible component that measures the ambient air pressure in units of hPa 
     |altitude|`number`|
 
 
-Event is invoked when pressure is changed.
+_Event is invoked when pressure is changed._
 
 ## Properties
 
 ### Enabled
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Pressure Sensor', 'Enabled')]]
@@ -42,7 +42,7 @@ _No description available_
 
 ### Keep Running When On Pause
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Pressure Sensor', 'Keep Running When On Pause')]]
@@ -55,8 +55,6 @@ _No description available_
 
 ### Altitude
 
-
-
 :eyes: Read-Only property
 [[PropertyBlockGetter('Pressure Sensor', 'Altitude')]]
 
@@ -67,8 +65,6 @@ _No description available_
 _No description available_
 
 ### Available
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Pressure Sensor', 'Available')]]
@@ -81,8 +77,6 @@ _No description available_
 
 ### Maximum Range
 
-
-
 :eyes: Read-Only property
 [[PropertyBlockGetter('Pressure Sensor', 'Maximum Range')]]
 
@@ -93,8 +87,6 @@ _No description available_
 _No description available_
 
 ### Pressure
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Pressure Sensor', 'Pressure')]]

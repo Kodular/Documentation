@@ -14,13 +14,13 @@ _Component for displaying images.  The picture to display, and other aspects of 
 
 [[Event('Image', 'Click')]]
 
-Event to detect that a user has done a simple "Click".
+_Event to detect that a user has done a simple "Click"._
 
 ### Long Click
 
 [[Event('Image', 'Long Click')]]
 
-Event to detect that a user has done a simple "Long Click".
+_Event to detect that a user has done a simple "Long Click"._
 
 ## Methods
 
@@ -28,13 +28,13 @@ Event to detect that a user has done a simple "Long Click".
 
 [[Method('Image', 'ClearImageTintColor', false)]]
 
-Clear the image tint color.
+_Clear the image tint color._
 
 ## Properties
 
 ### Clickable
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Image', 'Clickable')]]
@@ -43,11 +43,11 @@ Clear the image tint color.
 |:----:|:-------:|
 |boolean|False|
 
-Set the component clickable or not clickable.
+_Set the component clickable or not clickable._
 
 ### Picture
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Image', 'Picture')]]
@@ -60,7 +60,7 @@ _No description available_
 
 ### Rotation Angle
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Image', 'Rotation Angle')]]
@@ -69,11 +69,11 @@ _No description available_
 |:----:|:-------:|
 |number|0.0|
 
-The angle at which the image picture appears rotated. This rotation does not appear on the designer screen, only on the device.
+_The angle at which the image picture appears rotated. This rotation does not appear on the designer screen, only on the device._
 
 ### Scale Picture To Fit
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Image', 'Scale Picture To Fit')]]
@@ -82,11 +82,11 @@ The angle at which the image picture appears rotated. This rotation does not app
 |:----:|:-------:|
 |boolean|False|
 
-Specifies whether the image should be resized to match the size of the ImageView.
+_Specifies whether the image should be resized to match the size of the ImageView._
 
 ### Visible
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Image', 'Visible')]]
@@ -95,11 +95,9 @@ Specifies whether the image should be resized to match the size of the ImageView
 |:----:|:-------:|
 |boolean|True|
 
-Returns true iff the component is visible.
+_Returns true iff the component is visible._
 
 ### Animation
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Image', 'Animation')]]
@@ -108,11 +106,9 @@ Returns true iff the component is visible.
 |:----:|:-------:|
 |text|None|
 
-This is a limited form of animation that can attach a small number of motion types to images.  The allowable motions are ScrollRightSlow, ScrollRight, ScrollRightFast, ScrollLeftSlow, ScrollLeft, ScrollLeftFast, and Stop
+_This is a limited form of animation that can attach a small number of motion types to images.  The allowable motions are ScrollRightSlow, ScrollRight, ScrollRightFast, ScrollLeftSlow, ScrollLeft, ScrollLeftFast, and Stop_
 
 ### Column
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Image', 'Column')]]
@@ -121,11 +117,9 @@ This is a limited form of animation that can attach a small number of motion typ
 |:----:|:-------:|
 |number|None|
 
-Column property getter method.
+_Column property getter method._
 
 ### Height
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Image', 'Height')]]
@@ -134,11 +128,9 @@ Column property getter method.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's vertical height, measured in pixels.
+_Specifies the component's vertical height, measured in pixels._
 
 ### Height Percent
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Image', 'Height Percent')]]
@@ -147,12 +139,10 @@ Specifies the component's vertical height, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's vertical height as a percentage
- of the height of its parent Component.
+_Specifies the component's vertical height as a percentage
+ of the height of its parent Component._
 
 ### Image Tint Color
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Image', 'Image Tint Color')]]
@@ -161,11 +151,9 @@ Specifies the component's vertical height as a percentage
 |:----:|:-------:|
 |number|None|
 
-Change the image tint color. You can use too alpha values if you want with the 'make a list' block. Do not forget to use the 'make color' block together with the 'make a list' block.
+_Change the image tint color. You can use too alpha values if you want with the 'make a list' block. Do not forget to use the 'make color' block together with the 'make a list' block._
 
 ### Row
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Image', 'Row')]]
@@ -174,11 +162,9 @@ Change the image tint color. You can use too alpha values if you want with the '
 |:----:|:-------:|
 |number|None|
 
-Row property getter method.
+_Row property getter method._
 
 ### Scaling
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Image', 'Scaling')]]
@@ -187,11 +173,9 @@ Row property getter method.
 |:----:|:-------:|
 |number|None|
 
-This property determines how the picture scales according to the Height or Width of the Image. Scale proportionally (0) preserves the picture aspect ratio. Scale to fit (1) matches the Image area, even if the aspect ratio changes.
+_This property determines how the picture scales according to the Height or Width of the Image. Scale proportionally (0) preserves the picture aspect ratio. Scale to fit (1) matches the Image area, even if the aspect ratio changes._
 
 ### Width
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Image', 'Width')]]
@@ -200,11 +184,9 @@ This property determines how the picture scales according to the Height or Width
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width, measured in pixels.
+_Specifies the component's horizontal width, measured in pixels._
 
 ### Width Percent
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Image', 'Width Percent')]]
@@ -213,5 +195,5 @@ Specifies the component's horizontal width, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width as a percentage
- of the Width of its parent Component.
+_Specifies the component's horizontal width as a percentage
+ of the Width of its parent Component._

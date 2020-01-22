@@ -18,7 +18,7 @@ _A non-visible component that sends a notification to the user''s device._
 
 {>>Returns `boolean`<<}
 
-Check wether the app can send Notifications
+_Check wether the app can send Notifications_
 
 ### BigPictureNotification
 
@@ -35,13 +35,13 @@ Check wether the app can send Notifications
     |remove On Click|`boolean`|
 
 
-Send a normal notification
+_Send a normal notification_
 
 ### CancelAll
 
 [[Method('Notification', 'CancelAll', false)]]
 
-Cancel all Notifications
+_Cancel all Notifications_
 
 ### CancelNotification
 
@@ -53,7 +53,7 @@ Cancel all Notifications
     |id|`number`|
 
 
-Cancel a Notification with an id
+_Cancel a Notification with an id_
 
 ### NormalNotification
 
@@ -69,7 +69,7 @@ Cancel a Notification with an id
     |remove On Click|`boolean`|
 
 
-Send a normal notification
+_Send a normal notification_
 
 ### SimpleNotification
 
@@ -82,13 +82,13 @@ Send a normal notification
     |message|`text`|
 
 
-Send a simple notification
+_Send a simple notification_
 
 ## Properties
 
 ### Priority
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Notification', 'Priority')]]
@@ -97,11 +97,11 @@ Send a simple notification
 |:----:|:-------:|
 |number|1|
 
-Set the priority level. 1 = "Default", 2 = "high", 3 = "low", 4 = "max", 5 = "min"
+_Set the priority level. 1 = "Default", 2 = "high", 3 = "low", 4 = "max", 5 = "min"_
 
 ### Visibility
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Notification', 'Visibility')]]
@@ -110,4 +110,4 @@ Set the priority level. 1 = "Default", 2 = "high", 3 = "low", 4 = "max", 5 = "mi
 |:----:|:-------:|
 |number|1|
 
-Set the visibility property. 1 = "public", 2 = "private", 3 = "secret".
+_Set the visibility property. 1 = "public", 2 = "private", 3 = "secret"._

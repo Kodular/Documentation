@@ -20,7 +20,7 @@ _A visible component that indicates the progress of an operation by highlighting
     |error Message|`text`|
 
 
-Event invoked when a error occurred.
+_Event invoked when a error occurred._
 
 ### State Item Click
 
@@ -33,13 +33,13 @@ Event invoked when a error occurred.
     |is Current State|`boolean`|
 
 
-Event invoked when a state item was clicked.
+_Event invoked when a state item was clicked._
 
 ## Properties
 
 ### Animation Duration
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('State Progress Bar', 'Animation Duration')]]
@@ -48,11 +48,11 @@ Event invoked when a state item was clicked.
 |:----:|:-------:|
 |number|250|
 
-Set the animation duration in milliseconds. Example:  use 1000 for 1 second.
+_Set the animation duration in milliseconds. Example:  use 1000 for 1 second._
 
 ### Animate Between States
 
-<small>Available as Advanced Property</small>
+<small>Available as ^^Advanced^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('State Progress Bar', 'Animate Between States')]]
@@ -61,11 +61,11 @@ Set the animation duration in milliseconds. Example:  use 1000 for 1 second.
 |:----:|:-------:|
 |boolean|True|
 
-If set to true the states will use a animation when they changed.
+_If set to true the states will use a animation when they changed._
 
 ### Background Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('State Progress Bar', 'Background Color')]]
@@ -74,11 +74,11 @@ If set to true the states will use a animation when they changed.
 |:----:|:-------:|
 |number|&HFF444444|
 
-Change the background color.
+_Change the background color._
 
 ### Current State Description Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('State Progress Bar', 'Current State Description Color')]]
@@ -87,11 +87,11 @@ Change the background color.
 |:----:|:-------:|
 |number|&HFF4CAF50|
 
-Change the current state description color.
+_Change the current state description color._
 
 ### Current State Number
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('State Progress Bar', 'Current State Number')]]
@@ -100,11 +100,11 @@ Change the current state description color.
 |:----:|:-------:|
 |number|1|
 
-Set the current state number.
+_Set the current state number._
 
 ### Description Lines Spacing
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('State Progress Bar', 'Description Lines Spacing')]]
@@ -113,11 +113,11 @@ Set the current state number.
 |:----:|:-------:|
 |number|5.0|
 
-Set the description lines spacing.
+_Set the description lines spacing._
 
 ### Description Top Space Incrementer
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('State Progress Bar', 'Description Top Space Incrementer')]]
@@ -126,11 +126,11 @@ Set the description lines spacing.
 |:----:|:-------:|
 |number|10.0|
 
-Set the description top space incrementer.
+_Set the description top space incrementer._
 
 ### Elements From String
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('State Progress Bar', 'Elements From String')]]
@@ -139,11 +139,11 @@ Set the description top space incrementer.
 |:----:|:-------:|
 |text|Item 1, Item 2, Item 3, Item 4, Item 5|
 
-The State Progress Bar elements specified as a string with the items separated by commas such as: Item 1, Item 2, Item 3, Item 4, Item 5. Each word before the comma will be an element in the list. You can add maximum 5 items.
+_The State Progress Bar elements specified as a string with the items separated by commas such as: Item 1, Item 2, Item 3, Item 4, Item 5. Each word before the comma will be an element in the list. You can add maximum 5 items._
 
 ### Foreground Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('State Progress Bar', 'Foreground Color')]]
@@ -152,11 +152,11 @@ The State Progress Bar elements specified as a string with the items separated b
 |:----:|:-------:|
 |number|&HFF4CAF50|
 
-Change the foreground color.
+_Change the foreground color._
 
 ### Justify Multiline Description
 
-<small>Available as Advanced Property</small>
+<small>Available as ^^Advanced^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('State Progress Bar', 'Justify Multiline Description')]]
@@ -165,11 +165,11 @@ Change the foreground color.
 |:----:|:-------:|
 |boolean|True|
 
-If set to true justify multiline description is enabled.
+_If set to true justify multiline description is enabled._
 
 ### Max Description Line
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('State Progress Bar', 'Max Description Line')]]
@@ -178,11 +178,11 @@ If set to true justify multiline description is enabled.
 |:----:|:-------:|
 |number|2|
 
-Set the maximum description line.
+_Set the maximum description line._
 
 ### Max State Number
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('State Progress Bar', 'Max State Number')]]
@@ -191,11 +191,11 @@ Set the maximum description line.
 |:----:|:-------:|
 |number|5|
 
-Set the maximum state number.
+_Set the maximum state number._
 
 ### State Description Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('State Progress Bar', 'State Description Color')]]
@@ -204,11 +204,11 @@ Set the maximum state number.
 |:----:|:-------:|
 |number|&HFF444444|
 
-Change the state description color.
+_Change the state description color._
 
 ### State Description Size
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('State Progress Bar', 'State Description Size')]]
@@ -217,11 +217,11 @@ Change the state description color.
 |:----:|:-------:|
 |number|18.0|
 
-Set the state description size.
+_Set the state description size._
 
 ### State Description Typeface
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('State Progress Bar', 'State Description Typeface')]]
@@ -234,7 +234,7 @@ _No description available_
 
 ### State Description Typeface Import
 
-<small>Available as Advanced Property</small>
+<small>Available as ^^Advanced^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('State Progress Bar', 'State Description Typeface Import')]]
@@ -243,11 +243,11 @@ _No description available_
 |:----:|
 |text|
 
-Set a custom font for state description typeface.
+_Set a custom font for state description typeface._
 
 ### State Line Thickness
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('State Progress Bar', 'State Line Thickness')]]
@@ -256,11 +256,11 @@ Set a custom font for state description typeface.
 |:----:|:-------:|
 |number|10.0|
 
-Set the state line thickness.
+_Set the state line thickness._
 
 ### State Number Background Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('State Progress Bar', 'State Number Background Color')]]
@@ -269,11 +269,11 @@ Set the state line thickness.
 |:----:|:-------:|
 |number|&HFF000000|
 
-Change the state number background color.
+_Change the state number background color._
 
 ### State Number Foreground Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('State Progress Bar', 'State Number Foreground Color')]]
@@ -282,11 +282,11 @@ Change the state number background color.
 |:----:|:-------:|
 |number|&HFFFFFFFF|
 
-Change the state number foreground color.
+_Change the state number foreground color._
 
 ### State Number Is Descending
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('State Progress Bar', 'State Number Is Descending')]]
@@ -295,11 +295,11 @@ Change the state number foreground color.
 |:----:|:-------:|
 |boolean|False|
 
-If set to true the state number is in descending order.
+_If set to true the state number is in descending order._
 
 ### State Number Text Size
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('State Progress Bar', 'State Number Text Size')]]
@@ -308,11 +308,11 @@ If set to true the state number is in descending order.
 |:----:|:-------:|
 |number|20.0|
 
-Set the state number text size.
+_Set the state number text size._
 
 ### State Number Typeface
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('State Progress Bar', 'State Number Typeface')]]
@@ -325,7 +325,7 @@ _No description available_
 
 ### State Number Typeface Import
 
-<small>Available as Advanced Property</small>
+<small>Available as ^^Advanced^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('State Progress Bar', 'State Number Typeface Import')]]
@@ -334,11 +334,11 @@ _No description available_
 |:----:|
 |text|
 
-Set a custom font for state number typeface.
+_Set a custom font for state number typeface._
 
 ### State Progress Bar Height
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('State Progress Bar', 'State Progress Bar Height')]]
@@ -347,11 +347,11 @@ Set a custom font for state number typeface.
 |:----:|:-------:|
 |number|40.0|
 
-Set the state progress bar height.
+_Set the state progress bar height._
 
 ### Visible
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('State Progress Bar', 'Visible')]]
@@ -360,11 +360,9 @@ Set the state progress bar height.
 |:----:|:-------:|
 |boolean|True|
 
-Returns true iff the component is visible.
+_Returns true iff the component is visible._
 
 ### All States Completed
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('State Progress Bar', 'All States Completed')]]
@@ -373,11 +371,9 @@ Returns true iff the component is visible.
 |:----:|:-------:|
 |boolean|None|
 
-If set to true all states are completed.
+_If set to true all states are completed._
 
 ### Column
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('State Progress Bar', 'Column')]]
@@ -386,11 +382,9 @@ If set to true all states are completed.
 |:----:|:-------:|
 |number|None|
 
-Column property getter method.
+_Column property getter method._
 
 ### Height
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('State Progress Bar', 'Height')]]
@@ -399,11 +393,9 @@ Column property getter method.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's vertical height, measured in pixels.
+_Specifies the component's vertical height, measured in pixels._
 
 ### Height Percent
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('State Progress Bar', 'Height Percent')]]
@@ -412,12 +404,10 @@ Specifies the component's vertical height, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's vertical height as a percentage
- of the height of its parent Component.
+_Specifies the component's vertical height as a percentage
+ of the height of its parent Component._
 
 ### Row
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('State Progress Bar', 'Row')]]
@@ -426,11 +416,9 @@ Specifies the component's vertical height as a percentage
 |:----:|:-------:|
 |number|None|
 
-Row property getter method.
+_Row property getter method._
 
 ### Width
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('State Progress Bar', 'Width')]]
@@ -439,11 +427,9 @@ Row property getter method.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width, measured in pixels.
+_Specifies the component's horizontal width, measured in pixels._
 
 ### Width Percent
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('State Progress Bar', 'Width Percent')]]
@@ -452,5 +438,5 @@ Specifies the component's horizontal width, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width as a percentage
- of the Width of its parent Component.
+_Specifies the component's horizontal width as a percentage
+ of the Width of its parent Component._

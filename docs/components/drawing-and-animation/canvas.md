@@ -26,10 +26,10 @@ _<p>A two-dimensional touch-sensitive rectangular panel on which drawing can be 
     |dragged Any Sprite|`boolean`|
 
 
-When the user does a drag from one point (prevX, prevY) to
+_When the user does a drag from one point (prevX, prevY) to
  another (x, y).  The pair (startX, startY) indicates where the
  user first touched the screen, and "draggedAnySprite" indicates whether a
- sprite is being dragged.
+ sprite is being dragged._
 
 ### Flung
 
@@ -47,12 +47,12 @@ When the user does a drag from one point (prevX, prevY) to
     |flung Sprite|`boolean`|
 
 
-When a fling gesture (quick swipe) is made on the canvas: provides
+_When a fling gesture (quick swipe) is made on the canvas: provides
  the (x,y) position of the start of the fling, relative to the upper
  left of the canvas. Also provides the speed (pixels per millisecond) and heading
  (0-360 degrees) of the fling, as well as the x velocity and y velocity
  components of the fling's vector. The value "flungSprite" is true if a sprite
- was located near the the starting point of the fling gesture.
+ was located near the the starting point of the fling gesture._
 
 ### Scaled
 
@@ -64,7 +64,7 @@ When a fling gesture (quick swipe) is made on the canvas: provides
     |scale Factor|`number`|
 
 
-This event is invoked when two-finger pinches. ScaleFactor is the ratio of the average distance between two-fingers from current and previous scale event.
+_This event is invoked when two-finger pinches. ScaleFactor is the ratio of the average distance between two-fingers from current and previous scale event._
 
 ### Touch Down
 
@@ -77,9 +77,9 @@ This event is invoked when two-finger pinches. ScaleFactor is the ratio of the a
     |y|`number`|
 
 
-When the user begins touching the canvas (places finger on canvas and
+_When the user begins touching the canvas (places finger on canvas and
  leaves it there): provides the (x,y) position of the touch, relative
- to the upper left of the canvas
+ to the upper left of the canvas_
 
 ### Touch Up
 
@@ -92,9 +92,9 @@ When the user begins touching the canvas (places finger on canvas and
     |y|`number`|
 
 
-When the user stops touching the canvas (lifts finger after a
+_When the user stops touching the canvas (lifts finger after a
  TouchDown event): provides the (x,y) position of the touch, relative
- to the upper left of the canvas
+ to the upper left of the canvas_
 
 ### Touched
 
@@ -108,9 +108,9 @@ When the user stops touching the canvas (lifts finger after a
     |touched Any Sprite|`boolean`|
 
 
-When the user touches the canvas and then immediately lifts finger: provides
+_When the user touches the canvas and then immediately lifts finger: provides
  the (x,y) position of the touch, relative to the upper left of the canvas.  TouchedAnySprite
- is true if the same touch also touched a sprite, and false otherwise.
+ is true if the same touch also touched a sprite, and false otherwise._
 
 ## Methods
 
@@ -118,7 +118,7 @@ When the user touches the canvas and then immediately lifts finger: provides
 
 [[Method('Canvas', 'Clear', false)]]
 
-Clears anything drawn on this Canvas but not any background color or image.
+_Clears anything drawn on this Canvas but not any background color or image._
 
 ### DrawArc
 
@@ -137,7 +137,7 @@ Clears anything drawn on this Canvas but not any background color or image.
     |fill|`boolean`|
 
 
-Draw an arc on Canvas, by drawing an arc from a specified oval (specified by left, top, right & bottom). Start angle is 0 when heading to the right, and increase when rotate clockwise. When useCenter is true, a sector will be drawed instead of an arc. When fill is true, a filled arc (or sector) will be drawed instead of just an outline.
+_Draw an arc on Canvas, by drawing an arc from a specified oval (specified by left, top, right & bottom). Start angle is 0 when heading to the right, and increase when rotate clockwise. When useCenter is true, a sector will be drawed instead of an arc. When fill is true, a filled arc (or sector) will be drawed instead of just an outline._
 
 ### DrawCircle
 
@@ -152,7 +152,7 @@ Draw an arc on Canvas, by drawing an arc from a specified oval (specified by lef
     |fill|`boolean`|
 
 
-Draws a circle (filled in) with the given radius centered at the given coordinates on the canvas
+_Draws a circle (filled in) with the given radius centered at the given coordinates on the canvas_
 
 ### DrawLine
 
@@ -167,7 +167,7 @@ Draws a circle (filled in) with the given radius centered at the given coordinat
     |y2|`number`|
 
 
-Draws a line between the given coordinates on the canvas.
+_Draws a line between the given coordinates on the canvas._
 
 ### DrawPoint
 
@@ -180,7 +180,7 @@ Draws a line between the given coordinates on the canvas.
     |y|`number`|
 
 
-Draws a point at the given coordinates on the canvas.
+_Draws a point at the given coordinates on the canvas._
 
 ### DrawPolygon
 
@@ -198,7 +198,7 @@ Draws a point at the given coordinates on the canvas.
     |fill|`boolean`|
 
 
-Creates a polygon with with specified number of sides from a radius.
+_Creates a polygon with with specified number of sides from a radius._
 
 ### DrawShape
 
@@ -211,7 +211,7 @@ Creates a polygon with with specified number of sides from a radius.
     |fill|`boolean`|
 
 
-Draws a shape on the canvas. pointList should be a list contains sub-lists with two number which represents a coordinate. The first point and last point does not need to be the same. e.g. ((x1 y1) (x2 y2) (x3 y3)) When fill is true, the shape will be filled.
+_Draws a shape on the canvas. pointList should be a list contains sub-lists with two number which represents a coordinate. The first point and last point does not need to be the same. e.g. ((x1 y1) (x2 y2) (x3 y3)) When fill is true, the shape will be filled._
 
 ### DrawText
 
@@ -225,7 +225,7 @@ Draws a shape on the canvas. pointList should be a list contains sub-lists with 
     |y|`number`|
 
 
-Draws the specified text relative to the specified coordinates using the values of the FontSize and TextAlignment properties.
+_Draws the specified text relative to the specified coordinates using the values of the FontSize and TextAlignment properties._
 
 ### DrawTextAtAngle
 
@@ -240,7 +240,7 @@ Draws the specified text relative to the specified coordinates using the values 
     |angle|`number`|
 
 
-Draws the specified text starting at the specified coordinates at the specified angle using the values of the FontSize and TextAlignment properties.
+_Draws the specified text starting at the specified coordinates at the specified angle using the values of the FontSize and TextAlignment properties._
 
 ### GetBackgroundPixelColor
 
@@ -255,7 +255,7 @@ Draws the specified text starting at the specified coordinates at the specified 
     |y|`number`|
 
 
-Gets the color of the specified point. This includes the background and any drawn points, lines, or circles but not sprites.
+_Gets the color of the specified point. This includes the background and any drawn points, lines, or circles but not sprites._
 
 ### GetPixelColor
 
@@ -270,7 +270,7 @@ Gets the color of the specified point. This includes the background and any draw
     |y|`number`|
 
 
-Gets the color of the specified point.
+_Gets the color of the specified point._
 
 ### Save
 
@@ -278,7 +278,7 @@ Gets the color of the specified point.
 
 {>>Returns `text`<<}
 
-Saves a picture of this Canvas to the device's external storage. If an error occurs, the Screen's ErrorOccurred event will be called.
+_Saves a picture of this Canvas to the device's external storage. If an error occurs, the Screen's ErrorOccurred event will be called._
 
 ### SaveAs
 
@@ -292,7 +292,7 @@ Saves a picture of this Canvas to the device's external storage. If an error occ
     |file Name|`text`|
 
 
-Saves a picture of this Canvas to the device's external storage in the file named fileName. fileName must end with one of .jpg, .jpeg, or .png, which determines the file type.
+_Saves a picture of this Canvas to the device's external storage in the file named fileName. fileName must end with one of .jpg, .jpeg, or .png, which determines the file type._
 
 ### SetBackgroundPixelColor
 
@@ -306,13 +306,13 @@ Saves a picture of this Canvas to the device's external storage in the file name
     |color|`number`|
 
 
-Sets the color of the specified point. This differs from DrawPoint by having an argument for color.
+_Sets the color of the specified point. This differs from DrawPoint by having an argument for color._
 
 ## Properties
 
 ### Background Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Canvas', 'Background Color')]]
@@ -321,11 +321,11 @@ Sets the color of the specified point. This differs from DrawPoint by having an 
 |:----:|:-------:|
 |number|&HFFFFFFFF|
 
-The color of the canvas background.
+_The color of the canvas background._
 
 ### Background Image
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Canvas', 'Background Image')]]
@@ -334,11 +334,11 @@ The color of the canvas background.
 |:----:|
 |text|
 
-The name of a file containing the background image for the canvas
+_The name of a file containing the background image for the canvas_
 
 ### Extend Moves Outside Canvas
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Canvas', 'Extend Moves Outside Canvas')]]
@@ -347,11 +347,11 @@ The name of a file containing the background image for the canvas
 |:----:|:-------:|
 |boolean|False|
 
-Determines whether moves can extend beyond the canvas borders.   Default is false. This should normally be false, and the property is provided for backwards compatibility.
+_Determines whether moves can extend beyond the canvas borders.   Default is false. This should normally be false, and the property is provided for backwards compatibility._
 
 ### Font Bold
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Canvas', 'Font Bold')]]
@@ -364,7 +364,7 @@ _No description available_
 
 ### Font Italic
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Canvas', 'Font Italic')]]
@@ -377,7 +377,7 @@ _No description available_
 
 ### Font Size
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Canvas', 'Font Size')]]
@@ -386,11 +386,11 @@ _No description available_
 |:----:|:-------:|
 |number|14.0|
 
-The font size of text drawn on the canvas.
+_The font size of text drawn on the canvas._
 
 ### Font Typeface
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Canvas', 'Font Typeface')]]
@@ -403,7 +403,7 @@ _No description available_
 
 ### Font Typeface Import
 
-<small>Available as Advanced Property</small>
+<small>Available as ^^Advanced^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Canvas', 'Font Typeface Import')]]
@@ -412,11 +412,11 @@ _No description available_
 |:----:|
 |text|
 
-Set a custom font.
+_Set a custom font._
 
 ### Line Width
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Canvas', 'Line Width')]]
@@ -425,11 +425,11 @@ Set a custom font.
 |:----:|:-------:|
 |number|2.0|
 
-The width of lines drawn on the canvas.
+_The width of lines drawn on the canvas._
 
 ### Paint Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Canvas', 'Paint Color')]]
@@ -438,11 +438,11 @@ The width of lines drawn on the canvas.
 |:----:|:-------:|
 |number|&HFF000000|
 
-The color in which lines are drawn
+_The color in which lines are drawn_
 
 ### Text Alignment
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Canvas', 'Text Alignment')]]
@@ -451,11 +451,11 @@ The color in which lines are drawn
 |:----:|:-------:|
 |number|1|
 
-Determines the alignment of the text drawn by DrawText() or DrawAngle() with respect to the point specified by that command: point at the left of the text, point at the center of the text, or point at the right of the text.
+_Determines the alignment of the text drawn by DrawText() or DrawAngle() with respect to the point specified by that command: point at the left of the text, point at the center of the text, or point at the right of the text._
 
 ### Visible
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Canvas', 'Visible')]]
@@ -464,11 +464,9 @@ Determines the alignment of the text drawn by DrawText() or DrawAngle() with res
 |:----:|:-------:|
 |boolean|True|
 
-Returns true iff the component is visible.
+_Returns true iff the component is visible._
 
 ### Column
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Canvas', 'Column')]]
@@ -477,11 +475,9 @@ Returns true iff the component is visible.
 |:----:|:-------:|
 |number|None|
 
-Column property getter method.
+_Column property getter method._
 
 ### Height
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Canvas', 'Height')]]
@@ -490,15 +486,13 @@ Column property getter method.
 |:----:|:-------:|
 |number|None|
 
-Set the canvas height
+_Set the canvas height
 
  The height can only be set to >0 or -1 (automatic) or -2 (fill parent) or
  to a value less then or equal to LENGTH_PERCENT_TAG (which is later
- converted to pixels.
+ converted to pixels._
 
 ### Height Percent
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Canvas', 'Height Percent')]]
@@ -507,12 +501,10 @@ Set the canvas height
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's vertical height as a percentage
- of the height of its parent Component.
+_Specifies the component's vertical height as a percentage
+ of the height of its parent Component._
 
 ### Row
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Canvas', 'Row')]]
@@ -521,11 +513,9 @@ Specifies the component's vertical height as a percentage
 |:----:|:-------:|
 |number|None|
 
-Row property getter method.
+_Row property getter method._
 
 ### Width
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Canvas', 'Width')]]
@@ -534,15 +524,13 @@ Row property getter method.
 |:----:|:-------:|
 |number|None|
 
-Set the canvas width
+_Set the canvas width
 
  The width can only be set to >0 or -1 (automatic) or -2 (fill parent)
  or to a value less then or equal to LENGTH_PERCENT_TAG (which is later
- converted to pixels.
+ converted to pixels._
 
 ### Width Percent
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Canvas', 'Width Percent')]]
@@ -551,5 +539,5 @@ Set the canvas width
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width as a percentage
- of the Width of its parent Component.
+_Specifies the component's horizontal width as a percentage
+ of the Width of its parent Component._

@@ -21,7 +21,7 @@ _A visible component that shows a navigation menu in the bottom of the screen._
     |title|`text`|
 
 
-Event triggers when an item was selected.
+_Event triggers when an item was selected._
 
 ## Methods
 
@@ -37,13 +37,13 @@ Event triggers when an item was selected.
     |image|`text`|
 
 
-Add an item to the bottom menu
+_Add an item to the bottom menu_
 
 ### RemoveAllItems
 
 [[Method('Bottom Navigation', 'RemoveAllItems', false)]]
 
-Remove all items from the bottom menu
+_Remove all items from the bottom menu_
 
 ### RemoveItem
 
@@ -55,7 +55,7 @@ Remove all items from the bottom menu
     |id|`number`|
 
 
-Remove an item from the bottom menu
+_Remove an item from the bottom menu_
 
 ### SelectItem
 
@@ -67,7 +67,7 @@ Remove an item from the bottom menu
     |id|`number`|
 
 
-Select an item from the bottom menu
+_Select an item from the bottom menu_
 
 ### UpdateItem
 
@@ -81,13 +81,13 @@ Select an item from the bottom menu
     |image|`text`|
 
 
-Update an item of the bottom menu
+_Update an item of the bottom menu_
 
 ## Properties
 
 ### Background Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Bottom Navigation', 'Background Color')]]
@@ -96,11 +96,11 @@ Update an item of the bottom menu
 |:----:|:-------:|
 |number|&HFFFFFFFF|
 
-Set the background color of the Bottom Navigation Menu
+_Set the background color of the Bottom Navigation Menu_
 
 ### Selected Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Bottom Navigation', 'Selected Color')]]
@@ -109,11 +109,11 @@ Set the background color of the Bottom Navigation Menu
 |:----:|:-------:|
 |number|&HFF3F51B5|
 
-Set the color of the selected item of the Bottom Navigation Menu
+_Set the color of the selected item of the Bottom Navigation Menu_
 
 ### Unselected Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Bottom Navigation', 'Unselected Color')]]
@@ -122,11 +122,11 @@ Set the color of the selected item of the Bottom Navigation Menu
 |:----:|:-------:|
 |number|&HFF6E6E6E|
 
-Set the color of the unselected items of the Bottom Navigation Menu
+_Set the color of the unselected items of the Bottom Navigation Menu_
 
 ### Visible
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Bottom Navigation', 'Visible')]]
@@ -135,11 +135,9 @@ Set the color of the unselected items of the Bottom Navigation Menu
 |:----:|:-------:|
 |boolean|True|
 
-Returns true iff the component is visible.
+_Returns true iff the component is visible._
 
 ### Column
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Bottom Navigation', 'Column')]]
@@ -148,11 +146,9 @@ Returns true iff the component is visible.
 |:----:|:-------:|
 |number|None|
 
-Column property getter method.
+_Column property getter method._
 
 ### Row
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Bottom Navigation', 'Row')]]
@@ -161,4 +157,4 @@ Column property getter method.
 |:----:|:-------:|
 |number|None|
 
-Row property getter method.
+_Row property getter method._

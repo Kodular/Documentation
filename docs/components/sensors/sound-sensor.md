@@ -22,13 +22,13 @@ _Physical world component that can detect such data as: sound amplitude (measure
     |value|`number`|
 
 
-Triggered when the sound level has changed
+_Triggered when the sound level has changed_
 
 ## Properties
 
 ### Listen
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Sound Sensor', 'Listen')]]
@@ -37,11 +37,11 @@ Triggered when the sound level has changed
 |:----:|:-------:|
 |boolean|False|
 
-Starts or Stops listening to sound changes
+_Starts or Stops listening to sound changes_
 
 ### Max Sound Level
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Sound Sensor', 'Max Sound Level')]]
@@ -50,11 +50,9 @@ Starts or Stops listening to sound changes
 |:----:|:-------:|
 |number|100|
 
-Returns the max sound level.
+_Returns the max sound level._
 
 ### Amplitude
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Sound Sensor', 'Amplitude')]]
@@ -63,11 +61,9 @@ Returns the max sound level.
 |:----:|:-------:|
 |number|None|
 
-Returns the real sound amplitude which can be between 0 to 32768.
+_Returns the real sound amplitude which can be between 0 to 32768._
 
 ### Sound Level
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Sound Sensor', 'Sound Level')]]
@@ -76,4 +72,4 @@ Returns the real sound amplitude which can be between 0 to 32768.
 |:----:|:-------:|
 |number|None|
 
-Returns the sound level.
+_Returns the sound level._

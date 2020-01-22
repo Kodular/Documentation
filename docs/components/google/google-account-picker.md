@@ -22,7 +22,7 @@ _A non-visible component that shows a pop-up list of Google accounts currently s
     |account Name|`text`|
 
 
-Event raised after account has been picked.
+_Event raised after account has been picked._
 
 ## Methods
 
@@ -30,4 +30,4 @@ Event raised after account has been picked.
 
 [[Method('Google Account Picker', 'Pick', false)]]
 
-Provide an account picker to pick a Google account.
+_Provide an account picker to pick a Google account._

@@ -16,13 +16,13 @@ _A component that provides a high-level interface to a color sensor on a LEGO MI
 
 [[Event('EV3 Color Sensor', 'Above Range')]]
 
-Light level has gone above the range.
+_Light level has gone above the range._
 
 ### Below Range
 
 [[Event('EV3 Color Sensor', 'Below Range')]]
 
-Light level has gone below the range.
+_Light level has gone below the range._
 
 ### Color Changed
 
@@ -35,13 +35,13 @@ Light level has gone below the range.
     |color Name|`text`|
 
 
-Called when the detected color has changed. The ColorChanged event will occur if the Mode property is set to "color" and the ColorChangedEventEnabled property is set to True.
+_Called when the detected color has changed. The ColorChanged event will occur if the Mode property is set to "color" and the ColorChangedEventEnabled property is set to True._
 
 ### Within Range
 
 [[Event('EV3 Color Sensor', 'Within Range')]]
 
-Light level has gone within the range.
+_Light level has gone within the range._
 
 ## Methods
 
@@ -51,7 +51,7 @@ Light level has gone within the range.
 
 {>>Returns `number`<<}
 
-It returns the color code from 0 to 7 corresponding to no color, black, blue, green, yellow, red, white and brown.
+_It returns the color code from 0 to 7 corresponding to no color, black, blue, green, yellow, red, white and brown._
 
 ### GetColorName
 
@@ -59,7 +59,7 @@ It returns the color code from 0 to 7 corresponding to no color, black, blue, gr
 
 {>>Returns `text`<<}
 
-Return the color name in one of "No Color", "Black", "Blue", "Green", "Yellow", "Red", "White", "Brown".
+_Return the color name in one of "No Color", "Black", "Blue", "Green", "Yellow", "Red", "White", "Brown"._
 
 ### GetLightLevel
 
@@ -67,31 +67,31 @@ Return the color name in one of "No Color", "Black", "Blue", "Green", "Yellow", 
 
 {>>Returns `number`<<}
 
-It returns the light level in percentage, or -1 when the light level cannot be read.
+_It returns the light level in percentage, or -1 when the light level cannot be read._
 
 ### SetAmbientMode
 
 [[Method('EV3 Color Sensor', 'SetAmbientMode', false)]]
 
-Make the sensor read the light level without reflected light.
+_Make the sensor read the light level without reflected light._
 
 ### SetColorMode
 
 [[Method('EV3 Color Sensor', 'SetColorMode', false)]]
 
-Enter the color detection mode.
+_Enter the color detection mode._
 
 ### SetReflectedMode
 
 [[Method('EV3 Color Sensor', 'SetReflectedMode', false)]]
 
-Make the sensor read the light level with reflected light.
+_Make the sensor read the light level with reflected light._
 
 ## Properties
 
 ### Above Range Event Enabled
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('EV3 Color Sensor', 'Above Range Event Enabled')]]
@@ -100,11 +100,11 @@ Make the sensor read the light level with reflected light.
 |:----:|:-------:|
 |boolean|False|
 
-Whether the AboveRange event should fire when the light level goes above the TopOfRange.
+_Whether the AboveRange event should fire when the light level goes above the TopOfRange._
 
 ### Below Range Event Enabled
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('EV3 Color Sensor', 'Below Range Event Enabled')]]
@@ -113,11 +113,11 @@ Whether the AboveRange event should fire when the light level goes above the Top
 |:----:|:-------:|
 |boolean|False|
 
-Whether the BelowRange event should fire when the light level goes below the BottomOfRange.
+_Whether the BelowRange event should fire when the light level goes below the BottomOfRange._
 
 ### Bluetooth Client
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('EV3 Color Sensor', 'Bluetooth Client')]]
@@ -126,11 +126,11 @@ Whether the BelowRange event should fire when the light level goes below the Bot
 |:----:|
 |component|
 
-The BluetoothClient component that should be used for communication.
+_The BluetoothClient component that should be used for communication._
 
 ### Bottom Of Range
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('EV3 Color Sensor', 'Bottom Of Range')]]
@@ -139,11 +139,11 @@ The BluetoothClient component that should be used for communication.
 |:----:|:-------:|
 |number|30|
 
-The bottom of the range used for the BelowRange, WithinRange, and AboveRange events.
+_The bottom of the range used for the BelowRange, WithinRange, and AboveRange events._
 
 ### Color Changed Event Enabled
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('EV3 Color Sensor', 'Color Changed Event Enabled')]]
@@ -152,11 +152,11 @@ The bottom of the range used for the BelowRange, WithinRange, and AboveRange eve
 |:----:|:-------:|
 |boolean|False|
 
-Whether the ColorChanged event should fire when the Mode property is set to "color" and the detected color changes.
+_Whether the ColorChanged event should fire when the Mode property is set to "color" and the detected color changes._
 
 ### Mode
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('EV3 Color Sensor', 'Mode')]]
@@ -165,11 +165,11 @@ Whether the ColorChanged event should fire when the Mode property is set to "col
 |:----:|:-------:|
 |text|reflected|
 
-Specifies the mode of the sensor.
+_Specifies the mode of the sensor._
 
 ### Sensor Port
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('EV3 Color Sensor', 'Sensor Port')]]
@@ -178,11 +178,11 @@ Specifies the mode of the sensor.
 |:----:|:-------:|
 |text|1|
 
-The sensor port that the sensor is connected to.
+_The sensor port that the sensor is connected to._
 
 ### Top Of Range
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('EV3 Color Sensor', 'Top Of Range')]]
@@ -191,11 +191,11 @@ The sensor port that the sensor is connected to.
 |:----:|:-------:|
 |number|60|
 
-The top of the range used for the BelowRange, WithinRange, and AboveRange events.
+_The top of the range used for the BelowRange, WithinRange, and AboveRange events._
 
 ### Within Range Event Enabled
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('EV3 Color Sensor', 'Within Range Event Enabled')]]
@@ -204,4 +204,4 @@ The top of the range used for the BelowRange, WithinRange, and AboveRange events
 |:----:|:-------:|
 |boolean|False|
 
-Whether the WithinRange event should fire when the light level goes between the BottomOfRange and the TopOfRange.
+_Whether the WithinRange event should fire when the light level goes between the BottomOfRange and the TopOfRange._

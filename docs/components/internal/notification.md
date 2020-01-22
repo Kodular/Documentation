@@ -18,13 +18,13 @@ _A non-visible component that sends a notification to the user''s device._
 
 {>>Returns `boolean`<<}
 
-Check whether the app can send Notifications
+_Check whether the app can send Notifications_
 
 ### CancelAll
 
 [[Method('Notification', 'CancelAll', false)]]
 
-Cancel all Notifications
+_Cancel all Notifications_
 
 ### CancelNotification
 
@@ -36,7 +36,7 @@ Cancel all Notifications
     |id|`number`|
 
 
-Cancel a Notification with an id
+_Cancel a Notification with an id_
 
 ### NotificationBuilderAndroidCar
 
@@ -48,7 +48,7 @@ Cancel a Notification with an id
     |accent Color|`number`|
 
 
-Set the accent color for Android Car devices
+_Set the accent color for Android Car devices_
 
 ### NotificationBuilderAndroidWear
 
@@ -60,7 +60,7 @@ Set the accent color for Android Car devices
     |background Image|`text`|
 
 
-Set the background image for Android Wear devices
+_Set the background image for Android Wear devices_
 
 ### NotificationBuilderAutoCancel
 
@@ -72,7 +72,7 @@ Set the background image for Android Wear devices
     |auto Cancel|`boolean`|
 
 
-Set whether the notification should me removed after the user clicks on it.
+_Set whether the notification should me removed after the user clicks on it._
 
 ### NotificationBuilderBigPicture
 
@@ -84,7 +84,7 @@ Set whether the notification should me removed after the user clicks on it.
     |big Picture|`text`|
 
 
-Set the big picture for the notification
+_Set the big picture for the notification_
 
 ### NotificationBuilderID
 
@@ -96,7 +96,7 @@ Set the big picture for the notification
     |id|`number`|
 
 
-Set the notification id.
+_Set the notification id._
 
 ### NotificationBuilderPriority
 
@@ -108,13 +108,13 @@ Set the notification id.
     |priority|`number`|
 
 
-Set the notification builder priority. 1 = "Default", 2 = "high", 3 = "low", 4 = "max", 5 = "min"
+_Set the notification builder priority. 1 = "Default", 2 = "high", 3 = "low", 4 = "max", 5 = "min"_
 
 ### NotificationBuilderSend
 
 [[Method('Notification', 'NotificationBuilderSend', false)]]
 
-Send the notification that you build
+_Send the notification that you build_
 
 ### NotificationBuilderStart
 
@@ -127,7 +127,7 @@ Send the notification that you build
     |message|`text`|
 
 
-Start building a new notification
+_Start building a new notification_
 
 ### NotificationBuilderStartValue
 
@@ -139,7 +139,7 @@ Start building a new notification
     |start Value|`text`|
 
 
-Set the start value of the notification.
+_Set the start value of the notification._
 
 ### NotificationBuilderVisibility
 
@@ -151,7 +151,7 @@ Set the start value of the notification.
     |visibility|`number`|
 
 
-Set the notification builder visibility. 1 = "public", 2 = "private", 3 = "secret".
+_Set the notification builder visibility. 1 = "public", 2 = "private", 3 = "secret"._
 
 ### SendAdvancedNotification
 
@@ -168,7 +168,7 @@ Set the notification builder visibility. 1 = "public", 2 = "private", 3 = "secre
     |time Off|`number`|
 
 
-Send a advanced notification (Android Wear Support)
+_Send a advanced notification (Android Wear Support)_
 
 ### SendNotification
 
@@ -181,13 +181,13 @@ Send a advanced notification (Android Wear Support)
     |message|`text`|
 
 
-Send a notification
+_Send a notification_
 
 ## Properties
 
 ### Priority
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Notification', 'Priority')]]
@@ -196,11 +196,11 @@ Send a notification
 |:----:|:-------:|
 |number|1|
 
-Set the priority level. 1 = "Default", 2 = "high", 3 = "low", 4 = "max", 5 = "min"
+_Set the priority level. 1 = "Default", 2 = "high", 3 = "low", 4 = "max", 5 = "min"_
 
 ### Visibility
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Notification', 'Visibility')]]
@@ -209,4 +209,4 @@ Set the priority level. 1 = "Default", 2 = "high", 3 = "low", 4 = "max", 5 = "mi
 |:----:|:-------:|
 |number|1|
 
-Set the visibility property. 1 = "public", 2 = "private", 3 = "secret".
+_Set the visibility property. 1 = "public", 2 = "private", 3 = "secret"._

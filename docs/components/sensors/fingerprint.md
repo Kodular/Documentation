@@ -23,13 +23,13 @@ _A non-visible component that reads fingerprints using the device''s in-built fi
     |message|`text`|
 
 
-Triggers when there is a Authentication Error
+_Triggers when there is a Authentication Error_
 
 ### On Authentication Failed
 
 [[Event('Fingerprint', 'On Authentication Failed')]]
 
-Triggers when the Authentication Failed
+_Triggers when the Authentication Failed_
 
 ### On Authentication Help
 
@@ -42,13 +42,13 @@ Triggers when the Authentication Failed
     |message|`text`|
 
 
-Triggers when there is a Authentication Help
+_Triggers when there is a Authentication Help_
 
 ### On Authentication Succeeded
 
 [[Event('Fingerprint', 'On Authentication Succeeded')]]
 
-Trigger when the Authentication Succeeded
+_Trigger when the Authentication Succeeded_
 
 ## Methods
 
@@ -56,13 +56,13 @@ Trigger when the Authentication Succeeded
 
 [[Method('Fingerprint', 'Authenticate', false)]]
 
-Authenticate the user with a Fingerprint scanner
+_Authenticate the user with a Fingerprint scanner_
 
 ### CancelScan
 
 [[Method('Fingerprint', 'CancelScan', false)]]
 
-Cancel the current Fingerprint Scan
+_Cancel the current Fingerprint Scan_
 
 ### HasFingerPrintScanner
 
@@ -70,7 +70,7 @@ Cancel the current Fingerprint Scan
 
 {>>Returns `boolean`<<}
 
-True if hardware is present and functional, false otherwise
+_True if hardware is present and functional, false otherwise_
 
 ### HasFingersAdded
 
@@ -78,13 +78,13 @@ True if hardware is present and functional, false otherwise
 
 {>>Returns `boolean`<<}
 
-True if at least one fingerprint is enrolled, false otherwise
+_True if at least one fingerprint is enrolled, false otherwise_
 
 ## Properties
 
 ### Dialog Help Text
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Fingerprint', 'Dialog Help Text')]]
@@ -93,11 +93,11 @@ True if at least one fingerprint is enrolled, false otherwise
 |:----:|:-------:|
 |text|Scan your finger|
 
-Sets the dialog help text
+_Sets the dialog help text_
 
 ### Dialog Title
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Fingerprint', 'Dialog Title')]]
@@ -106,11 +106,11 @@ Sets the dialog help text
 |:----:|:-------:|
 |text|Sign in with your fingerprint|
 
-Sets the dialog title
+_Sets the dialog title_
 
 ### Light Theme
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Fingerprint', 'Light Theme')]]
@@ -119,11 +119,11 @@ Sets the dialog title
 |:----:|:-------:|
 |boolean|False|
 
-Sets the current theme
+_Sets the current theme_
 
 ### Use Dialog
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Fingerprint', 'Use Dialog')]]
@@ -132,4 +132,4 @@ Sets the current theme
 |:----:|:-------:|
 |boolean|True|
 
-Whether to use a dialog
+_Whether to use a dialog_

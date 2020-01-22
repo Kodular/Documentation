@@ -14,19 +14,19 @@ _<p>A formatting element in which to place components that should be displayed f
 
 [[Event('Horizontal Arrangement', 'Click')]]
 
-Click listener event.
+_Click listener event._
 
 ### Long Click
 
 [[Event('Horizontal Arrangement', 'Long Click')]]
 
-Long click listener event.
+_Long click listener event._
 
 ## Properties
 
 ### Align Horizontal
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Horizontal Arrangement', 'Align Horizontal')]]
@@ -35,11 +35,11 @@ Long click listener event.
 |:----:|:-------:|
 |number|1|
 
-A number that encodes how contents of the arrangement are aligned  horizontally. The choices are: 1 = left aligned, 2 = right aligned,  3 = horizontally centered.  Alignment has no effect if the arrangement's width is automatic.
+_A number that encodes how contents of the arrangement are aligned  horizontally. The choices are: 1 = left aligned, 2 = right aligned,  3 = horizontally centered.  Alignment has no effect if the arrangement's width is automatic._
 
 ### Align Vertical
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Horizontal Arrangement', 'Align Vertical')]]
@@ -48,11 +48,11 @@ A number that encodes how contents of the arrangement are aligned  horizontally.
 |:----:|:-------:|
 |number|1|
 
-A number that encodes how the contents of the arrangement are aligned  vertically. The choices are: 1 = aligned at the top, 2 = vertically centered, 3 = aligned at the bottom.  Alignment has no effect if the arrangement's height is automatic.
+_A number that encodes how the contents of the arrangement are aligned  vertically. The choices are: 1 = aligned at the top, 2 = vertically centered, 3 = aligned at the bottom.  Alignment has no effect if the arrangement's height is automatic._
 
 ### Background Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Horizontal Arrangement', 'Background Color')]]
@@ -61,11 +61,11 @@ A number that encodes how the contents of the arrangement are aligned  verticall
 |:----:|:-------:|
 |number|&H00000000|
 
-Returns the component's background color
+_Returns the component's background color_
 
 ### Clickable
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Horizontal Arrangement', 'Clickable')]]
@@ -74,11 +74,11 @@ Returns the component's background color
 |:----:|:-------:|
 |boolean|False|
 
-Set the component clickable or not clickable.
+_Set the component clickable or not clickable._
 
 ### Image
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Horizontal Arrangement', 'Image')]]
@@ -87,11 +87,11 @@ Set the component clickable or not clickable.
 |:----:|
 |text|
 
-Returns the path of the button's image.
+_Returns the path of the button's image._
 
 ### Scrollbar
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Horizontal Arrangement', 'Scrollbar')]]
@@ -100,11 +100,11 @@ Returns the path of the button's image.
 |:----:|:-------:|
 |boolean|True|
 
-Whether to display a scrollbar
+_Whether to display a scrollbar_
 
 ### Use Round Card
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Horizontal Arrangement', 'Use Round Card')]]
@@ -113,11 +113,11 @@ Whether to display a scrollbar
 |:----:|:-------:|
 |boolean|False|
 
-If enabled the card layout will have then round corners.
+_If enabled the card layout will have then round corners._
 
 ### Visible
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Horizontal Arrangement', 'Visible')]]
@@ -126,11 +126,11 @@ If enabled the card layout will have then round corners.
 |:----:|:-------:|
 |boolean|True|
 
-Returns true iff the component is visible.
+_Returns true iff the component is visible._
 
 ### Is Card
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Horizontal Arrangement', 'Is Card')]]
@@ -139,11 +139,9 @@ Returns true iff the component is visible.
 |:----:|:-------:|
 |boolean|False|
 
-If enabled the arrangement will be convert to a card view. You can detect clicks on it with the "Click" event.
+_If enabled the arrangement will be convert to a card view. You can detect clicks on it with the "Click" event._
 
 ### Column
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Horizontal Arrangement', 'Column')]]
@@ -152,11 +150,11 @@ If enabled the arrangement will be convert to a card view. You can detect clicks
 |:----:|:-------:|
 |number|None|
 
-Column property getter method.
+_Column property getter method._
 
 ### Full Clickable
 
-:warning: ==**Deprecated**== 
+:warning: ==**Deprecated**==
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Horizontal Arrangement', 'Full Clickable')]]
@@ -169,8 +167,6 @@ _No description available_
 
 ### Height
 
-
-
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Horizontal Arrangement', 'Height')]]
 
@@ -178,11 +174,9 @@ _No description available_
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's vertical height, measured in pixels.
+_Specifies the component's vertical height, measured in pixels._
 
 ### Height Percent
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Horizontal Arrangement', 'Height Percent')]]
@@ -191,12 +185,10 @@ Specifies the component's vertical height, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's vertical height as a percentage
- of the height of its parent Component.
+_Specifies the component's vertical height as a percentage
+ of the height of its parent Component._
 
 ### Row
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Horizontal Arrangement', 'Row')]]
@@ -205,11 +197,9 @@ Specifies the component's vertical height as a percentage
 |:----:|:-------:|
 |number|None|
 
-Row property getter method.
+_Row property getter method._
 
 ### Width
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Horizontal Arrangement', 'Width')]]
@@ -218,11 +208,9 @@ Row property getter method.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width, measured in pixels.
+_Specifies the component's horizontal width, measured in pixels._
 
 ### Width Percent
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Horizontal Arrangement', 'Width Percent')]]
@@ -231,5 +219,5 @@ Specifies the component's horizontal width, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width as a percentage
- of the Width of its parent Component.
+_Specifies the component's horizontal width as a percentage
+ of the Width of its parent Component._

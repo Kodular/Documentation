@@ -26,7 +26,7 @@ _Non-visible component that allows users to edit images._
     |radius|`number`|
 
 
-This methods creates a blur effect.
+_This methods creates a blur effect._
 
 ### ColorBoostEffect
 
@@ -42,7 +42,7 @@ This methods creates a blur effect.
     |percent|`number`|
 
 
-Color boost technique is basically based on color filtering, which is to increase the intensity of a single color channel. For example: type = green/ blue or red; percent = 40%.
+_Color boost technique is basically based on color filtering, which is to increase the intensity of a single color channel. For example: type = green/ blue or red; percent = 40%._
 
 ### ColorFilter
 
@@ -59,7 +59,7 @@ Color boost technique is basically based on color filtering, which is to increas
     |blue|`number`|
 
 
-Set a color filter to your image. For example: red = 30; green = 40; blue = 20.
+_Set a color filter to your image. For example: red = 30; green = 40; blue = 20._
 
 ### FlipPicture
 
@@ -74,7 +74,7 @@ Set a color filter to your image. For example: red = 30; green = 40; blue = 20.
     |type|`number`|
 
 
-Flip your image vertical or horizontal. For example: type = 1 (vertical); type = 2 (horizontal).
+_Flip your image vertical or horizontal. For example: type = 1 (vertical); type = 2 (horizontal)._
 
 ### GammaEffect
 
@@ -91,7 +91,7 @@ Flip your image vertical or horizontal. For example: type = 1 (vertical); type =
     |blue|`number`|
 
 
-Set a gamma effect to your image. For example: red = 5; green = 10; blue = 20.
+_Set a gamma effect to your image. For example: red = 5; green = 10; blue = 20._
 
 ### GreyscaleEffect
 
@@ -105,7 +105,7 @@ Set a gamma effect to your image. For example: red = 5; green = 10; blue = 20.
     |image A|`text`|
 
 
-Grayscale is a simple image effect that changes colors to grayscale by default.
+_Grayscale is a simple image effect that changes colors to grayscale by default._
 
 ### HighlightEffect
 
@@ -119,7 +119,7 @@ Grayscale is a simple image effect that changes colors to grayscale by default.
     |image A|`text`|
 
 
-Set a highlight effect to your image.
+_Set a highlight effect to your image._
 
 ### HueFilter
 
@@ -134,7 +134,7 @@ Set a highlight effect to your image.
     |level|`number`|
 
 
-Change the hue of an image. For example: level = 1 or 2 or 3 or 4 etc.
+_Change the hue of an image. For example: level = 1 or 2 or 3 or 4 etc._
 
 ### ImageRotation
 
@@ -149,7 +149,7 @@ Change the hue of an image. For example: level = 1 or 2 or 3 or 4 etc.
     |degree|`number`|
 
 
-Rotate the image to the degree you need it. For example: degree = 100.
+_Rotate the image to the degree you need it. For example: degree = 100._
 
 ### InvertEffect
 
@@ -163,7 +163,7 @@ Rotate the image to the degree you need it. For example: degree = 100.
     |image A|`text`|
 
 
-This effect inverts your image.
+_This effect inverts your image._
 
 ### MergeTwoImages
 
@@ -178,7 +178,7 @@ This effect inverts your image.
     |right Image|`text`|
 
 
-This methods creates a new side by side horizontal image.
+_This methods creates a new side by side horizontal image._
 
 ### Pixelate
 
@@ -193,7 +193,7 @@ This methods creates a new side by side horizontal image.
     |pixelation Amount|`number`|
 
 
-This methods creates a pixelate image effect. Use as example as pixelation Amount '1' for a hugh pixel effect and '99' for a almost not visible pixel effect.
+_This methods creates a pixelate image effect. Use as example as pixelation Amount '1' for a hugh pixel effect and '99' for a almost not visible pixel effect._
 
 ### RoundCorner
 
@@ -208,7 +208,7 @@ This methods creates a pixelate image effect. Use as example as pixelation Amoun
     |round|`number`|
 
 
-Set a round corner to your image. For example: round = 45.
+_Set a round corner to your image. For example: round = 45._
 
 ### ScaleCenterCrop
 
@@ -224,7 +224,7 @@ Set a round corner to your image. For example: round = 45.
     |width|`number`|
 
 
-This methods creates a new scale center crop image.
+_This methods creates a new scale center crop image._
 
 ### SepiaToningEffect
 
@@ -242,7 +242,7 @@ This methods creates a new scale center crop image.
     |blue|`number`|
 
 
-Set a sepia toning effect to your image. For example: depth = 20; red = 10; green = 20; blue = 25.
+_Set a sepia toning effect to your image. For example: depth = 20; red = 10; green = 20; blue = 25._
 
 ### SetBrightness
 
@@ -257,7 +257,7 @@ Set a sepia toning effect to your image. For example: depth = 20; red = 10; gree
     |value|`number`|
 
 
-Change the brightness of your image. For example: value = 50 (maximum = 255=100% brightness).
+_Change the brightness of your image. For example: value = 50 (maximum = 255=100% brightness)._
 
 ### SetColorDepth
 
@@ -272,7 +272,7 @@ Change the brightness of your image. For example: value = 50 (maximum = 255=100%
     |bit Offset|`number`|
 
 
-Change the color depth of an image as you wish. For example: bitOffset = 32 (bit) or bitOffset = 16 (bit).
+_Change the color depth of an image as you wish. For example: bitOffset = 32 (bit) or bitOffset = 16 (bit)._
 
 ### SetContrast
 
@@ -287,7 +287,7 @@ Change the color depth of an image as you wish. For example: bitOffset = 32 (bit
     |value|`number`|
 
 
-This changes the contrast of your image. For example: value = 1.0 means normal picture contrast. Below 1.0 like as example 0.7 means dark contrast, above 1.0 as example 1.5 means light contrast.
+_This changes the contrast of your image. For example: value = 1.0 means normal picture contrast. Below 1.0 like as example 0.7 means dark contrast, above 1.0 as example 1.5 means light contrast._
 
 ### ShadingFilter
 
@@ -302,7 +302,7 @@ This changes the contrast of your image. For example: value = 1.0 means normal p
     |shading Color|`number`|
 
 
-Make a new image with a shading filter. For example: shadingColor = green(rgb value).
+_Make a new image with a shading filter. For example: shadingColor = green(rgb value)._
 
 ### TintColorEffect
 
@@ -317,7 +317,7 @@ Make a new image with a shading filter. For example: shadingColor = green(rgb va
     |degree|`number`|
 
 
-That's a pretty new other cool effect. It changes the tint color of your image. For example: degree = 100.
+_That's a pretty new other cool effect. It changes the tint color of your image. For example: degree = 100._
 
 ### WatermarkEffect
 
@@ -338,7 +338,7 @@ That's a pretty new other cool effect. It changes the tint color of your image. 
     |point Y|`number`|
 
 
-Set a watermark effect to an image and change the positon/size or color of the text. For example: text = hello; textSize = 25; textColor = red(rgb value); textAlphaValue = 255 (255= 100% visible,127.5= 50% visible, 0= 0% visible); pointX = 50; pointY = 100; text underline(boolean) = true or false.
+_Set a watermark effect to an image and change the positon/size or color of the text. For example: text = hello; textSize = 25; textColor = red(rgb value); textAlphaValue = 255 (255= 100% visible,127.5= 50% visible, 0= 0% visible); pointX = 50; pointY = 100; text underline(boolean) = true or false._
 
 ### is Landscape
 
@@ -352,7 +352,7 @@ Set a watermark effect to an image and change the positon/size or color of the t
     |image|`text`|
 
 
-Return true if image is in landscape format, else return false.
+_Return true if image is in landscape format, else return false._
 
 ### is Portrait
 
@@ -366,7 +366,7 @@ Return true if image is in landscape format, else return false.
     |image|`text`|
 
 
-Return true if image is in portrait format, else return false.
+_Return true if image is in portrait format, else return false._
 
 ### is Square
 
@@ -380,13 +380,13 @@ Return true if image is in portrait format, else return false.
     |image|`text`|
 
 
-Return true if image is in square format (means as high as wide or as wide as high), else return false.
+_Return true if image is in square format (means as high as wide or as wide as high), else return false._
 
 ## Properties
 
 ### Save New Image As
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Image Editor', 'Save New Image As')]]
@@ -395,4 +395,4 @@ Return true if image is in square format (means as high as wide or as wide as hi
 |:----:|:-------:|
 |text|NewImage.png|
 
-Save the new created image to a folder/ name of your choice.
+_Save the new created image to a folder/ name of your choice._

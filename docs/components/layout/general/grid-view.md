@@ -20,7 +20,7 @@ _A visible component that groups other components in a two-dimensional, scrollab
     |item|`text`|
 
 
-Triggers after an item from this component has been selected
+_Triggers after an item from this component has been selected_
 
 ## Methods
 
@@ -28,13 +28,13 @@ Triggers after an item from this component has been selected
 
 [[Method('Grid View', 'ClearGridView', false)]]
 
-Clears the items from the component
+_Clears the items from the component_
 
 ## Properties
 
 ### Background Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Grid View', 'Background Color')]]
@@ -43,11 +43,11 @@ Clears the items from the component
 |:----:|:-------:|
 |number|&H00000000|
 
-Specifies the background color.
+_Specifies the background color._
 
 ### Columns
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Grid View', 'Columns')]]
@@ -56,11 +56,11 @@ Specifies the background color.
 |:----:|:-------:|
 |number|4|
 
-Returns number of columns for this component
+_Returns number of columns for this component_
 
 ### Elements From String
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Grid View', 'Elements From String')]]
@@ -69,11 +69,11 @@ Returns number of columns for this component
 |:----:|
 |text|
 
-The elements specified as a string with the items separated by commas such as: Cheese,Fruit,Bacon,Radish. Each word before the comma will be an element in the list.
+_The elements specified as a string with the items separated by commas such as: Cheese,Fruit,Bacon,Radish. Each word before the comma will be an element in the list._
 
 ### Font Size
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Grid View', 'Font Size')]]
@@ -82,11 +82,11 @@ The elements specified as a string with the items separated by commas such as: C
 |:----:|:-------:|
 |number|14.0|
 
-Sets the font size of the elements
+_Sets the font size of the elements_
 
 ### Padding
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Grid View', 'Padding')]]
@@ -95,11 +95,11 @@ Sets the font size of the elements
 |:----:|:-------:|
 |number|2|
 
-The amount of padding (in DIP) on left, top, right, bottom
+_The amount of padding (in DIP) on left, top, right, bottom_
 
 ### Stretch Enabled
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Grid View', 'Stretch Enabled')]]
@@ -108,11 +108,11 @@ The amount of padding (in DIP) on left, top, right, bottom
 |:----:|:-------:|
 |boolean|True|
 
-Control how items are stretched to fill their space
+_Control how items are stretched to fill their space_
 
 ### Text Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Grid View', 'Text Color')]]
@@ -121,12 +121,12 @@ Control how items are stretched to fill their space
 |:----:|:-------:|
 |number|&HFF000000|
 
-Specifies the checkbox's text color as an alpha-red-green-blue
- integer.
+_Specifies the checkbox's text color as an alpha-red-green-blue
+ integer._
 
 ### Thumbnail Height in DIP
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Grid View', 'Thumbnail Height in DIP')]]
@@ -135,11 +135,11 @@ Specifies the checkbox's text color as an alpha-red-green-blue
 |:----:|:-------:|
 |number|155|
 
-Sets the thumbnail height in DIP (Density Independent Pixels)
+_Sets the thumbnail height in DIP (Density Independent Pixels)_
 
 ### Thumbnail Width in DIP
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Grid View', 'Thumbnail Width in DIP')]]
@@ -148,11 +148,11 @@ Sets the thumbnail height in DIP (Density Independent Pixels)
 |:----:|:-------:|
 |number|155|
 
-Sets the thumbnail width in DIP (Density Independent Pixels)
+_Sets the thumbnail width in DIP (Density Independent Pixels)_
 
 ### Visible
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Grid View', 'Visible')]]
@@ -161,11 +161,9 @@ Sets the thumbnail width in DIP (Density Independent Pixels)
 |:----:|:-------:|
 |boolean|True|
 
-Returns true iff the component is visible.
+_Returns true iff the component is visible._
 
 ### Column
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Grid View', 'Column')]]
@@ -174,11 +172,9 @@ Returns true iff the component is visible.
 |:----:|:-------:|
 |number|None|
 
-Column property getter method.
+_Column property getter method._
 
 ### Elements
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Grid View', 'Elements')]]
@@ -187,11 +183,9 @@ Column property getter method.
 |:----:|:-------:|
 |list|None|
 
-List of elements to be used for GridView
+_List of elements to be used for GridView_
 
 ### Height
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Grid View', 'Height')]]
@@ -200,11 +194,9 @@ List of elements to be used for GridView
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's vertical height, measured in pixels.
+_Specifies the component's vertical height, measured in pixels._
 
 ### Height Percent
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Grid View', 'Height Percent')]]
@@ -213,12 +205,10 @@ Specifies the component's vertical height, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's vertical height as a percentage
- of the height of its parent Component.
+_Specifies the component's vertical height as a percentage
+ of the height of its parent Component._
 
 ### Row
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Grid View', 'Row')]]
@@ -227,11 +217,9 @@ Specifies the component's vertical height as a percentage
 |:----:|:-------:|
 |number|None|
 
-Row property getter method.
+_Row property getter method._
 
 ### Selection
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Grid View', 'Selection')]]
@@ -240,11 +228,9 @@ Row property getter method.
 |:----:|:-------:|
 |text|None|
 
-Set the selection to the GridView
+_Set the selection to the GridView_
 
 ### Width
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Grid View', 'Width')]]
@@ -253,11 +239,9 @@ Set the selection to the GridView
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width, measured in pixels.
+_Specifies the component's horizontal width, measured in pixels._
 
 ### Width Percent
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Grid View', 'Width Percent')]]
@@ -266,5 +250,5 @@ Specifies the component's horizontal width, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width as a percentage
- of the Width of its parent Component.
+_Specifies the component's horizontal width as a percentage
+ of the Width of its parent Component._

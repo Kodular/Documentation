@@ -23,7 +23,7 @@ _A non-visible component that remotely sends notifications to the device.<br>Pow
     |tags As List|`list`|
 
 
-Event to detect available one signal tags.
+_Event to detect available one signal tags._
 
 ### Got Value
 
@@ -36,7 +36,7 @@ Event to detect available one signal tags.
     |value|`text`|
 
 
-Event to receive value for a tag.
+_Event to receive value for a tag._
 
 ### Notification Opened
 
@@ -50,7 +50,7 @@ Event to receive value for a tag.
     |message|`text`|
 
 
-User opened a notification.
+_User opened a notification._
 
 ### Notification Received
 
@@ -64,7 +64,7 @@ User opened a notification.
     |message|`text`|
 
 
-User received a notification.
+_User received a notification._
 
 ### Send Message Done
 
@@ -76,7 +76,7 @@ User received a notification.
     |success|`boolean`|
 
 
-Returns true if your message was send with success out of your app to all users.
+_Returns true if your message was send with success out of your app to all users._
 
 ## Methods
 
@@ -84,7 +84,7 @@ Returns true if your message was send with success out of your app to all users.
 
 [[Method('Push Notifications', 'ClearAllNotifications', false)]]
 
-Clear All Notifications.
+_Clear All Notifications._
 
 ### DeleteTag
 
@@ -96,13 +96,13 @@ Clear All Notifications.
     |key|`text`|
 
 
-Deletes a single tag that was previously set on a user.
+_Deletes a single tag that was previously set on a user._
 
 ### GetAvailableTags
 
 [[Method('Push Notifications', 'GetAvailableTags', false)]]
 
-Get a list of available tags.
+_Get a list of available tags._
 
 ### GetValue
 
@@ -115,7 +115,7 @@ Get a list of available tags.
     |value If Tag Not There|`text`|
 
 
-Get value for tag.
+_Get value for tag._
 
 ### SendMessage
 
@@ -129,7 +129,7 @@ Get value for tag.
     |rest API Key|`text`|
 
 
-Send a message to all users. The message and your REST Api Key can not be empty! You will find your REST Api Key in your OneSignal account settings.
+_Send a message to all users. The message and your REST Api Key can not be empty! You will find your REST Api Key in your OneSignal account settings._
 
 ### SendTag
 
@@ -142,13 +142,13 @@ Send a message to all users. The message and your REST Api Key can not be empty!
     |value|`text`|
 
 
-Tag a user based on an app event of your choosing so later you can create segments in to target these users.
+_Tag a user based on an app event of your choosing so later you can create segments in to target these users._
 
 ## Properties
 
 ### OneSignal App ID
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Push Notifications', 'OneSignal App ID')]]
@@ -157,11 +157,9 @@ Tag a user based on an app event of your choosing so later you can create segmen
 |:----:|
 |text|
 
-Set here your One Signal App ID
+_Set here your One Signal App ID_
 
 ### Enable Log
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Push Notifications', 'Enable Log')]]
@@ -170,11 +168,9 @@ Set here your One Signal App ID
 |:----:|:-------:|
 |boolean|None|
 
-If you want to enable the log then set it to true.
+_If you want to enable the log then set it to true._
 
 ### Enable Sound
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Push Notifications', 'Enable Sound')]]
@@ -183,11 +179,9 @@ If you want to enable the log then set it to true.
 |:----:|:-------:|
 |boolean|None|
 
-Enable Sound.
+_Enable Sound._
 
 ### Enable Vibration
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Push Notifications', 'Enable Vibration')]]
@@ -196,11 +190,9 @@ Enable Sound.
 |:----:|:-------:|
 |boolean|None|
 
-Enable Vibration.
+_Enable Vibration._
 
 ### Get Email Subscription Email Address
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Push Notifications', 'Get Email Subscription Email Address')]]
@@ -209,11 +201,9 @@ Enable Vibration.
 |:----:|:-------:|
 |text|None|
 
-Get the email subscription email address.
+_Get the email subscription email address._
 
 ### Get Email Subscription User Id
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Push Notifications', 'Get Email Subscription User Id')]]
@@ -222,11 +212,9 @@ Get the email subscription email address.
 |:----:|:-------:|
 |text|None|
 
-Get the email subscription user id.
+_Get the email subscription user id._
 
 ### Get Permission Status
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Push Notifications', 'Get Permission Status')]]
@@ -235,11 +223,9 @@ Get the email subscription user id.
 |:----:|:-------:|
 |boolean|None|
 
-Get Permission Status
+_Get Permission Status_
 
 ### Get Subscription Status
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Push Notifications', 'Get Subscription Status')]]
@@ -248,11 +234,9 @@ Get Permission Status
 |:----:|:-------:|
 |boolean|None|
 
-Get the subscription Status
+_Get the subscription Status_
 
 ### Get User Id
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Push Notifications', 'Get User Id')]]
@@ -261,11 +245,9 @@ Get the subscription Status
 |:----:|:-------:|
 |text|None|
 
-Get the User ID. If there is no user id it will return '-1'.
+_Get the User ID. If there is no user id it will return '-1'._
 
 ### Set Subscription
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Push Notifications', 'Set Subscription')]]
@@ -274,4 +256,4 @@ Get the User ID. If there is no user id it will return '-1'.
 |:----:|:-------:|
 |boolean|None|
 
-If you want to subscribe then set it to true.
+_If you want to subscribe then set it to true._

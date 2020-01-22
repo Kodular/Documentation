@@ -16,13 +16,13 @@ _A non-visible component that shows Facebook ads as full-screen advertisements._
 
 [[Event('Facebook Interstitial', 'Ad Closed')]]
 
-Called when the user is about to return to the application after clicking on an ad
+_Called when the user is about to return to the application after clicking on an ad_
 
 ### Ad Loaded
 
 [[Event('Facebook Interstitial', 'Ad Loaded')]]
 
-Called when an ad is received
+_Called when an ad is received_
 
 ### Error
 
@@ -34,7 +34,7 @@ Called when an ad is received
     |error|`text`|
 
 
-Called when an ad request failed. message will display the reason for why the ad failed
+_Called when an ad request failed. message will display the reason for why the ad failed_
 
 ## Methods
 
@@ -42,19 +42,19 @@ Called when an ad request failed. message will display the reason for why the ad
 
 [[Method('Facebook Interstitial', 'Load Ad', false)]]
 
-Loads a new ad.
+_Loads a new ad._
 
 ### ShowAd
 
 [[Method('Facebook Interstitial', 'ShowAd', false)]]
 
-Shows an ad to the user.
+_Shows an ad to the user._
 
 ## Properties
 
 ### Interstitial Commission
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Facebook Interstitial', 'Interstitial Commission')]]
@@ -63,11 +63,11 @@ Shows an ad to the user.
 |:----:|:-------:|
 |text|unity|
 
-Sets the ad network used to take the commission.
+_Sets the ad network used to take the commission._
 
 ### Placement ID
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Facebook Interstitial', 'Placement ID')]]

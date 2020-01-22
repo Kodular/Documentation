@@ -22,7 +22,7 @@ _A non-visible component that reads the metadata of audio/video files._
     |type|`text`|
 
 
-Triggers when there is no metadata found in the file.
+_Triggers when there is no metadata found in the file._
 
 ## Methods
 
@@ -32,7 +32,7 @@ Triggers when there is no metadata found in the file.
 
 {>>Returns `text`<<}
 
-Get the Album from the file.
+_Get the Album from the file._
 
 ### Artist
 
@@ -40,7 +40,7 @@ Get the Album from the file.
 
 {>>Returns `text`<<}
 
-Get the Artist from the file.
+_Get the Artist from the file._
 
 ### Author
 
@@ -48,7 +48,7 @@ Get the Artist from the file.
 
 {>>Returns `text`<<}
 
-Get the Author from the file.
+_Get the Author from the file._
 
 ### Bitrate
 
@@ -56,7 +56,7 @@ Get the Author from the file.
 
 {>>Returns `text`<<}
 
-Get the Bitrate from the file.
+_Get the Bitrate from the file._
 
 ### Composer
 
@@ -64,7 +64,7 @@ Get the Bitrate from the file.
 
 {>>Returns `text`<<}
 
-Get the Composer from the file.
+_Get the Composer from the file._
 
 ### CustomItem
 
@@ -78,8 +78,8 @@ Get the Composer from the file.
     |id|`number`|
 
 
-Get a custom metadata item from the file
-you can find a list of ids on https://developer.android.com/reference/android/media/MediaMetadataRetriever.html
+_Get a custom metadata item from the file
+you can find a list of ids on https://developer.android.com/reference/android/media/MediaMetadataRetriever.html_
 
 ### Date
 
@@ -87,7 +87,7 @@ you can find a list of ids on https://developer.android.com/reference/android/me
 
 {>>Returns `text`<<}
 
-Get the Date from the file.
+_Get the Date from the file._
 
 ### DiscNumber
 
@@ -95,7 +95,7 @@ Get the Date from the file.
 
 {>>Returns `text`<<}
 
-Get the Disc Number from the file.
+_Get the Disc Number from the file._
 
 ### Duration
 
@@ -103,7 +103,7 @@ Get the Disc Number from the file.
 
 {>>Returns `text`<<}
 
-Get the Duration from the file.
+_Get the Duration from the file._
 
 ### EmbeddedPicture
 
@@ -111,7 +111,7 @@ Get the Duration from the file.
 
 {>>Returns `text`<<}
 
-This method finds the optional graphic or album/cover art associated associated with the data source. If there are more than one pictures, (any) one of them is returned.
+_This method finds the optional graphic or album/cover art associated associated with the data source. If there are more than one pictures, (any) one of them is returned._
 
 ### Genre
 
@@ -119,7 +119,7 @@ This method finds the optional graphic or album/cover art associated associated 
 
 {>>Returns `text`<<}
 
-Get the Genre from the file.
+_Get the Genre from the file._
 
 ### HasAudio
 
@@ -127,7 +127,7 @@ Get the Genre from the file.
 
 {>>Returns `text`<<}
 
-Get the Has Audio from the file.
+_Get the Has Audio from the file._
 
 ### HasVideo
 
@@ -135,7 +135,7 @@ Get the Has Audio from the file.
 
 {>>Returns `text`<<}
 
-Get the Has Video from the file.
+_Get the Has Video from the file._
 
 ### Location
 
@@ -143,7 +143,7 @@ Get the Has Video from the file.
 
 {>>Returns `text`<<}
 
-Get the Location from the file.
+_Get the Location from the file._
 
 ### Mimetype
 
@@ -151,7 +151,7 @@ Get the Location from the file.
 
 {>>Returns `text`<<}
 
-Get the Mimetype from the file.
+_Get the Mimetype from the file._
 
 ### Title
 
@@ -159,7 +159,7 @@ Get the Mimetype from the file.
 
 {>>Returns `text`<<}
 
-Get the Title from the file.
+_Get the Title from the file._
 
 ### TrackNumber
 
@@ -167,7 +167,7 @@ Get the Title from the file.
 
 {>>Returns `text`<<}
 
-Get the Track Number from the file.
+_Get the Track Number from the file._
 
 ### VideoHeight
 
@@ -175,7 +175,7 @@ Get the Track Number from the file.
 
 {>>Returns `text`<<}
 
-Get the Video Height from the file.
+_Get the Video Height from the file._
 
 ### VideoRotation
 
@@ -183,7 +183,7 @@ Get the Video Height from the file.
 
 {>>Returns `text`<<}
 
-Get the Video Rotation from the file.
+_Get the Video Rotation from the file._
 
 ### VideoWidth
 
@@ -191,7 +191,7 @@ Get the Video Rotation from the file.
 
 {>>Returns `text`<<}
 
-Get the Video Width from the file.
+_Get the Video Width from the file._
 
 ### Writer
 
@@ -199,7 +199,7 @@ Get the Video Width from the file.
 
 {>>Returns `text`<<}
 
-Get the Writer from the file.
+_Get the Writer from the file._
 
 ### Year
 
@@ -207,13 +207,13 @@ Get the Writer from the file.
 
 {>>Returns `text`<<}
 
-Get the Year from the file.
+_Get the Year from the file._
 
 ## Properties
 
 ### File
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Metadata', 'File')]]
@@ -222,4 +222,4 @@ Get the Year from the file.
 |:----:|
 |text|
 
-The name of the file.
+_The name of the file._

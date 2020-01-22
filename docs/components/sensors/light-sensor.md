@@ -22,13 +22,13 @@ _A non-visible component that gets the current illuminance level around the devi
     |illuminance|`number`|
 
 
-Event that fires when the illuminance is changed
+_Event that fires when the illuminance is changed_
 
 ## Properties
 
 ### Enabled
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Light Sensor', 'Enabled')]]
@@ -37,11 +37,9 @@ Event that fires when the illuminance is changed
 |:----:|:-------:|
 |boolean|True|
 
-Whether Sensor should be Enabled
+_Whether Sensor should be Enabled_
 
 ### Available
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Light Sensor', 'Available')]]
@@ -50,11 +48,9 @@ Whether Sensor should be Enabled
 |:----:|:-------:|
 |boolean|None|
 
-Whether Sensor is Available
+_Whether Sensor is Available_
 
 ### Illuminance
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Light Sensor', 'Illuminance')]]
@@ -63,4 +59,4 @@ Whether Sensor is Available
 |:----:|:-------:|
 |number|None|
 
-Returns the illuminance in lux. To return values the sensor must be enabled
+_Returns the illuminance in lux. To return values the sensor must be enabled_

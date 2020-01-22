@@ -23,7 +23,7 @@ _A visible component that displays a list of elements consisting of an image and
     |image|`text`|
 
 
-Triggers when the user clicks on a item in the list
+_Triggers when the user clicks on a item in the list_
 
 ### Long Click
 
@@ -38,7 +38,7 @@ Triggers when the user clicks on a item in the list
     |image|`text`|
 
 
-Triggers when the user long clicks on a item in the list
+_Triggers when the user long clicks on a item in the list_
 
 ## Methods
 
@@ -54,7 +54,7 @@ Triggers when the user long clicks on a item in the list
     |subtitle|`text`|
 
 
-Add a item to the list
+_Add a item to the list_
 
 ### AddItemFromList
 
@@ -66,13 +66,13 @@ Add a item to the list
     |list|`list`|
 
 
-Add a item to the list
+_Add a item to the list_
 
 ### ClearList
 
 [[Method('List View Image and Text', 'ClearList', false)]]
 
-Remove all the items from the list
+_Remove all the items from the list_
 
 ### RemoveItem
 
@@ -84,7 +84,7 @@ Remove all the items from the list
     |position|`number`|
 
 
-Remove a item from the list
+_Remove a item from the list_
 
 ### UpdateItem
 
@@ -99,13 +99,13 @@ Remove a item from the list
     |subtitle|`text`|
 
 
-Update a item of the list
+_Update a item of the list_
 
 ## Properties
 
 ### Background Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List View Image and Text', 'Background Color')]]
@@ -114,11 +114,11 @@ Update a item of the list
 |:----:|:-------:|
 |number|&H00FFFFFF|
 
-Set the background color of the listview
+_Set the background color of the listview_
 
 ### Divider Color
 
-<small>Available as Advanced Property</small>
+<small>Available as ^^Advanced^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List View Image and Text', 'Divider Color')]]
@@ -127,11 +127,11 @@ Set the background color of the listview
 |:----:|:-------:|
 |number|&HFFCCCCCC|
 
-Set the divider color of the listview
+_Set the divider color of the listview_
 
 ### Image Side
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List View Image and Text', 'Image Side')]]
@@ -140,12 +140,12 @@ Set the divider color of the listview
 |:----:|:-------:|
 |number|1|
 
-Set the side of the image.
-Set it to 1 for Left side and 2 for Right side
+_Set the side of the image.
+Set it to 1 for Left side and 2 for Right side_
 
 ### Item Size
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List View Image and Text', 'Item Size')]]
@@ -154,12 +154,12 @@ Set it to 1 for Left side and 2 for Right side
 |:----:|:-------:|
 |number|1|
 
-Set ListItem Size.
-Set it to 1 for Normal size, 2 for Small size and 3 for Big size.
+_Set ListItem Size.
+Set it to 1 for Normal size, 2 for Small size and 3 for Big size._
 
 ### Subtitle Bold
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List View Image and Text', 'Subtitle Bold')]]
@@ -168,11 +168,11 @@ Set it to 1 for Normal size, 2 for Small size and 3 for Big size.
 |:----:|:-------:|
 |boolean|False|
 
-Whether the subtitle should be in bold text
+_Whether the subtitle should be in bold text_
 
 ### Subtitle Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List View Image and Text', 'Subtitle Color')]]
@@ -181,11 +181,11 @@ Whether the subtitle should be in bold text
 |:----:|:-------:|
 |number|&HFF757575|
 
-Changed the color of the subtitle text
+_Changed the color of the subtitle text_
 
 ### Subtitle Font Typeface
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List View Image and Text', 'Subtitle Font Typeface')]]
@@ -194,11 +194,11 @@ Changed the color of the subtitle text
 |:----:|:-------:|
 |number|0|
 
-Change the Typeface of the Subtitle
+_Change the Typeface of the Subtitle_
 
 ### Subtitle Font Typeface Import
 
-<small>Available as Advanced Property</small>
+<small>Available as ^^Advanced^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List View Image and Text', 'Subtitle Font Typeface Import')]]
@@ -207,11 +207,11 @@ Change the Typeface of the Subtitle
 |:----:|
 |text|
 
-Set a custom title font.
+_Set a custom title font._
 
 ### Subtitle HTML
 
-<small>Available as Advanced Property</small>
+<small>Available as ^^Advanced^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List View Image and Text', 'Subtitle HTML')]]
@@ -220,11 +220,11 @@ Set a custom title font.
 |:----:|:-------:|
 |boolean|False|
 
-If true, then the subtitle will show html text else it will show plain text. Note: Not all HTML is supported.
+_If true, then the subtitle will show html text else it will show plain text. Note: Not all HTML is supported._
 
 ### Subtitle Italic
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List View Image and Text', 'Subtitle Italic')]]
@@ -233,11 +233,11 @@ If true, then the subtitle will show html text else it will show plain text. Not
 |:----:|:-------:|
 |boolean|False|
 
-Whether the subtitle should be in italic text
+_Whether the subtitle should be in italic text_
 
 ### Subtitle Text Size
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List View Image and Text', 'Subtitle Text Size')]]
@@ -246,11 +246,11 @@ Whether the subtitle should be in italic text
 |:----:|:-------:|
 |number|14|
 
-The text size of the subtitle.
+_The text size of the subtitle._
 
 ### Title Bold
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List View Image and Text', 'Title Bold')]]
@@ -259,11 +259,11 @@ The text size of the subtitle.
 |:----:|:-------:|
 |boolean|False|
 
-Whether the title should be in bold text
+_Whether the title should be in bold text_
 
 ### Title Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List View Image and Text', 'Title Color')]]
@@ -272,11 +272,11 @@ Whether the title should be in bold text
 |:----:|:-------:|
 |number|&HFF212121|
 
-Changed the color of the title text
+_Changed the color of the title text_
 
 ### Title Font Typeface
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List View Image and Text', 'Title Font Typeface')]]
@@ -285,11 +285,11 @@ Changed the color of the title text
 |:----:|:-------:|
 |number|0|
 
-Change the Typeface of the Title
+_Change the Typeface of the Title_
 
 ### Title Font Typeface Import
 
-<small>Available as Advanced Property</small>
+<small>Available as ^^Advanced^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List View Image and Text', 'Title Font Typeface Import')]]
@@ -298,11 +298,11 @@ Change the Typeface of the Title
 |:----:|
 |text|
 
-Set a custom title font.
+_Set a custom title font._
 
 ### Title HTML
 
-<small>Available as Advanced Property</small>
+<small>Available as ^^Advanced^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List View Image and Text', 'Title HTML')]]
@@ -311,11 +311,11 @@ Set a custom title font.
 |:----:|:-------:|
 |boolean|False|
 
-If true, then the title will show html text else it will show plain text. Note: Not all HTML is supported.
+_If true, then the title will show html text else it will show plain text. Note: Not all HTML is supported._
 
 ### Title Italic
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List View Image and Text', 'Title Italic')]]
@@ -324,11 +324,11 @@ If true, then the title will show html text else it will show plain text. Note: 
 |:----:|:-------:|
 |boolean|False|
 
-Whether the title should be in italic text
+_Whether the title should be in italic text_
 
 ### Title Text Size
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List View Image and Text', 'Title Text Size')]]
@@ -337,11 +337,11 @@ Whether the title should be in italic text
 |:----:|:-------:|
 |number|14|
 
-The text size of the title.
+_The text size of the title._
 
 ### Visible
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List View Image and Text', 'Visible')]]
@@ -350,11 +350,9 @@ The text size of the title.
 |:----:|:-------:|
 |boolean|True|
 
-Returns true iff the component is visible.
+_Returns true iff the component is visible._
 
 ### Column
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List View Image and Text', 'Column')]]
@@ -363,11 +361,9 @@ Returns true iff the component is visible.
 |:----:|:-------:|
 |number|None|
 
-Column property getter method.
+_Column property getter method._
 
 ### Height
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List View Image and Text', 'Height')]]
@@ -376,11 +372,9 @@ Column property getter method.
 |:----:|:-------:|
 |number|None|
 
-Determines the height of the list on the view.
+_Determines the height of the list on the view._
 
 ### Height Percent
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List View Image and Text', 'Height Percent')]]
@@ -389,12 +383,10 @@ Determines the height of the list on the view.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's vertical height as a percentage
- of the height of its parent Component.
+_Specifies the component's vertical height as a percentage
+ of the height of its parent Component._
 
 ### Row
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List View Image and Text', 'Row')]]
@@ -403,11 +395,9 @@ Specifies the component's vertical height as a percentage
 |:----:|:-------:|
 |number|None|
 
-Row property getter method.
+_Row property getter method._
 
 ### Width
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List View Image and Text', 'Width')]]
@@ -416,11 +406,9 @@ Row property getter method.
 |:----:|:-------:|
 |number|None|
 
-Determines the width of the list on the view.
+_Determines the width of the list on the view._
 
 ### Width Percent
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List View Image and Text', 'Width Percent')]]
@@ -429,5 +417,5 @@ Determines the width of the list on the view.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width as a percentage
- of the Width of its parent Component.
+_Specifies the component's horizontal width as a percentage
+ of the Width of its parent Component._

@@ -18,7 +18,7 @@ _This component can be used to provide information about network_
 
 {>>Returns `text`<<}
 
-describe the type of the network, for example WIFI or MOBILE
+_describe the type of the network, for example WIFI or MOBILE_
 
 ### is Connected
 
@@ -26,7 +26,7 @@ describe the type of the network, for example WIFI or MOBILE
 
 {>>Returns `boolean`<<}
 
-Indicates whether network connectivity exists and it is possible to establish connections and pass data.
+_Indicates whether network connectivity exists and it is possible to establish connections and pass data._
 
 ### IsFastConnection
 
@@ -34,7 +34,7 @@ Indicates whether network connectivity exists and it is possible to establish co
 
 {>>Returns `boolean`<<}
 
-Returns true if using a fast connection
+_Returns true if using a fast connection_
 
 ### IsMobileConnection
 
@@ -42,7 +42,7 @@ Returns true if using a fast connection
 
 {>>Returns `boolean`<<}
 
-Returns true if connection is through Mobile
+_Returns true if connection is through Mobile_
 
 ### IsRoaming
 
@@ -50,7 +50,7 @@ Returns true if connection is through Mobile
 
 {>>Returns `boolean`<<}
 
-Returns true if using using roaming
+_Returns true if using using roaming_
 
 ### IsWiFiConnection
 
@@ -58,13 +58,11 @@ Returns true if using using roaming
 
 {>>Returns `boolean`<<}
 
-Returns true if connection is through WiFi
+_Returns true if connection is through WiFi_
 
 ## Properties
 
 ### Is GPS Enabled
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('NetworkManager', 'Is GPS Enabled')]]
@@ -73,11 +71,9 @@ Returns true if connection is through WiFi
 |:----:|:-------:|
 |boolean|None|
 
-Checks to see if device is GPS enabled and if so, checks to see if GPS is started or not
+_Checks to see if device is GPS enabled and if so, checks to see if GPS is started or not_
 
 ### Is GPS Enabled Device
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('NetworkManager', 'Is GPS Enabled Device')]]
@@ -86,11 +82,9 @@ Checks to see if device is GPS enabled and if so, checks to see if GPS is starte
 |:----:|:-------:|
 |boolean|None|
 
-Checks to see if device is GPS enabled
+_Checks to see if device is GPS enabled_
 
 ### Start GPS Options
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('NetworkManager', 'Start GPS Options')]]
@@ -99,4 +93,4 @@ Checks to see if device is GPS enabled
 |:----:|:-------:|
 |boolean|None|
 
-Starts up the GPS configuration activity, giving user option to turn turn on the GPS
+_Starts up the GPS configuration activity, giving user option to turn turn on the GPS_

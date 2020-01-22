@@ -27,19 +27,19 @@ _Non-visible component that can detect shaking and measure acceleration approxim
     |z Accel|`number`|
 
 
-Indicates the acceleration changed in the X, Y, and/or Z dimensions.
+_Indicates the acceleration changed in the X, Y, and/or Z dimensions._
 
 ### Shaking
 
 [[Event('Accelerometer Sensor', 'Shaking')]]
 
-Indicates the device started being shaken or continues to be shaken.
+_Indicates the device started being shaken or continues to be shaken._
 
 ## Properties
 
 ### Enabled
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Accelerometer Sensor', 'Enabled')]]
@@ -48,12 +48,12 @@ Indicates the device started being shaken or continues to be shaken.
 |:----:|:-------:|
 |boolean|True|
 
-If true, the sensor will generate events.  Otherwise, no events
- are generated even if the device is accelerated or shaken.
+_If true, the sensor will generate events.  Otherwise, no events
+ are generated even if the device is accelerated or shaken._
 
 ### Legacy Mode
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Accelerometer Sensor', 'Legacy Mode')]]
@@ -62,11 +62,11 @@ If true, the sensor will generate events.  Otherwise, no events
 |:----:|:-------:|
 |boolean|False|
 
-Prior to the release that added this property the AccelerometerSensor component passed through sensor values directly as received from the Android system. However these values do not compensate for tablets that default to Landscape mode, requiring the MIT App Inventor programmer to compensate. However compensating would result in incorrect results in Portrait mode devices such as phones. We now detect Landscape mode tablets and perform the compensation. However if your project is already compensating for the change, you will now get incorrect results. Although our preferred solution is for you to update your project, you can also just set this property to “true” and our compensation code will be deactivated. Note: We recommend that you update your project as we may remove this property in a future release.
+_Prior to the release that added this property the AccelerometerSensor component passed through sensor values directly as received from the Android system. However these values do not compensate for tablets that default to Landscape mode, requiring the MIT App Inventor programmer to compensate. However compensating would result in incorrect results in Portrait mode devices such as phones. We now detect Landscape mode tablets and perform the compensation. However if your project is already compensating for the change, you will now get incorrect results. Although our preferred solution is for you to update your project, you can also just set this property to “true” and our compensation code will be deactivated. Note: We recommend that you update your project as we may remove this property in a future release._
 
 ### Minimum Interval (ms)
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Accelerometer Sensor', 'Minimum Interval (ms)')]]
@@ -75,11 +75,11 @@ Prior to the release that added this property the AccelerometerSensor component 
 |:----:|:-------:|
 |number|400|
 
-The minimum interval, in milliseconds, between phone shakes
+_The minimum interval, in milliseconds, between phone shakes_
 
 ### Sensitivity
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Accelerometer Sensor', 'Sensitivity')]]
@@ -88,11 +88,9 @@ The minimum interval, in milliseconds, between phone shakes
 |:----:|:-------:|
 |number|2|
 
-A number that encodes how sensitive the accelerometer is. The choices are: 1 = weak, 2 = moderate,  3 = strong.
+_A number that encodes how sensitive the accelerometer is. The choices are: 1 = weak, 2 = moderate,  3 = strong._
 
 ### Available
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Accelerometer Sensor', 'Available')]]
@@ -101,11 +99,9 @@ A number that encodes how sensitive the accelerometer is. The choices are: 1 = w
 |:----:|:-------:|
 |boolean|None|
 
-Available property getter method (read-only property).
+_Available property getter method (read-only property)._
 
 ### X Accel
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Accelerometer Sensor', 'X Accel')]]
@@ -114,12 +110,10 @@ Available property getter method (read-only property).
 |:----:|:-------:|
 |number|None|
 
-Returns the acceleration in the X-dimension in SI units (m/s^2).
- The sensor must be enabled to return meaningful values.
+_Returns the acceleration in the X-dimension in SI units (m/s^2).
+ The sensor must be enabled to return meaningful values._
 
 ### Y Accel
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Accelerometer Sensor', 'Y Accel')]]
@@ -128,12 +122,10 @@ Returns the acceleration in the X-dimension in SI units (m/s^2).
 |:----:|:-------:|
 |number|None|
 
-Returns the acceleration in the Y-dimension in SI units (m/s^2).
- The sensor must be enabled to return meaningful values.
+_Returns the acceleration in the Y-dimension in SI units (m/s^2).
+ The sensor must be enabled to return meaningful values._
 
 ### Z Accel
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Accelerometer Sensor', 'Z Accel')]]
@@ -142,5 +134,5 @@ Returns the acceleration in the Y-dimension in SI units (m/s^2).
 |:----:|:-------:|
 |number|None|
 
-Returns the acceleration in the Z-dimension in SI units (m/s^2).
- The sensor must be enabled to return meaningful values.
+_Returns the acceleration in the Z-dimension in SI units (m/s^2).
+ The sensor must be enabled to return meaningful values._

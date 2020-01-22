@@ -20,7 +20,7 @@ _A visible component that indicates the progress of an operation using an animat
     |progress|`number`|
 
 
-Event that indicates that the progress of the progress bar has been changed. Returns the current progress value. If "Indeterminate" is set to true, then it returns "0".
+_Event that indicates that the progress of the progress bar has been changed. Returns the current progress value. If "Indeterminate" is set to true, then it returns "0"._
 
 ## Methods
 
@@ -34,13 +34,13 @@ Event that indicates that the progress of the progress bar has been changed. Ret
     |value|`number`|
 
 
-Increase the progress bar's progress by the specified amount.
+_Increase the progress bar's progress by the specified amount._
 
 ## Properties
 
 ### Indeterminate
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Linear Progressbar', 'Indeterminate')]]
@@ -49,11 +49,11 @@ Increase the progress bar's progress by the specified amount.
 |:----:|:-------:|
 |boolean|True|
 
-Change the indeterminate mode for this progress bar. In indeterminate mode, the progress is ignored and the progress bar shows an infinite animation instead.
+_Change the indeterminate mode for this progress bar. In indeterminate mode, the progress is ignored and the progress bar shows an infinite animation instead._
 
 ### Indeterminate Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Linear Progressbar', 'Indeterminate Color')]]
@@ -62,11 +62,11 @@ Change the indeterminate mode for this progress bar. In indeterminate mode, the 
 |:----:|:-------:|
 |number|&HFF2196F2|
 
-Change the indeterminate color of the progress bar.
+_Change the indeterminate color of the progress bar._
 
 ### Maximum
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Linear Progressbar', 'Maximum')]]
@@ -75,11 +75,11 @@ Change the indeterminate color of the progress bar.
 |:----:|:-------:|
 |number|100|
 
-Set the upper range of the progress bar max.
+_Set the upper range of the progress bar max._
 
 ### Minimum
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Linear Progressbar', 'Minimum')]]
@@ -88,11 +88,11 @@ Set the upper range of the progress bar max.
 |:----:|:-------:|
 |number|0|
 
-Set the lower range of the progress bar to min. This function works only for devices with API >= 26
+_Set the lower range of the progress bar to min. This function works only for devices with API >= 26_
 
 ### Progress Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Linear Progressbar', 'Progress Color')]]
@@ -101,11 +101,11 @@ Set the lower range of the progress bar to min. This function works only for dev
 |:----:|:-------:|
 |number|&HFF2196F2|
 
-Change the progress color of the progress bar.
+_Change the progress color of the progress bar._
 
 ### Visible
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Linear Progressbar', 'Visible')]]
@@ -114,11 +114,9 @@ Change the progress color of the progress bar.
 |:----:|:-------:|
 |boolean|True|
 
-Returns true iff the component is visible.
+_Returns true iff the component is visible._
 
 ### Column
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Linear Progressbar', 'Column')]]
@@ -127,11 +125,9 @@ Returns true iff the component is visible.
 |:----:|:-------:|
 |number|None|
 
-Column property getter method.
+_Column property getter method._
 
 ### Progress
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Linear Progressbar', 'Progress')]]
@@ -140,11 +136,9 @@ Column property getter method.
 |:----:|:-------:|
 |number|None|
 
-Sets the current progress to the specified value. Does not do anything if the progress bar is in indeterminate mode.
+_Sets the current progress to the specified value. Does not do anything if the progress bar is in indeterminate mode._
 
 ### Row
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Linear Progressbar', 'Row')]]
@@ -153,11 +147,9 @@ Sets the current progress to the specified value. Does not do anything if the pr
 |:----:|:-------:|
 |number|None|
 
-Row property getter method.
+_Row property getter method._
 
 ### Width
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Linear Progressbar', 'Width')]]
@@ -166,11 +158,9 @@ Row property getter method.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width, measured in pixels.
+_Specifies the component's horizontal width, measured in pixels._
 
 ### Width Percent
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Linear Progressbar', 'Width Percent')]]
@@ -179,5 +169,5 @@ Specifies the component's horizontal width, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width as a percentage
- of the Width of its parent Component.
+_Specifies the component's horizontal width as a percentage
+ of the Width of its parent Component._

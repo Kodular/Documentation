@@ -14,13 +14,13 @@ _A Label displays a piece of text, which is specified through the <code>Text</co
 
 [[Event('Label', 'Click')]]
 
-Event to detect that a user has done a simple "Click".
+_Event to detect that a user has done a simple "Click"._
 
 ### Long Click
 
 [[Event('Label', 'Long Click')]]
 
-Event to detect that a user has done a simple "Long Click".
+_Event to detect that a user has done a simple "Long Click"._
 
 ## Methods
 
@@ -37,7 +37,7 @@ Event to detect that a user has done a simple "Long Click".
     |color|`number`|
 
 
-Allows you to set animation style. Valid (case-insensitive) values are: ChasingDots, Circle, CubeGrid, DoubleBounce, FadingCircle, FoldingCube, Pulse, RotatingCircle, RotatingPlane, ThreeBounce, WanderingCubes, Wave. If invalid style is used, animation will be removed.Position can be: top, left, right, bottom. Size can be 100.
+_Allows you to set animation style. Valid (case-insensitive) values are: ChasingDots, Circle, CubeGrid, DoubleBounce, FadingCircle, FoldingCube, Pulse, RotatingCircle, RotatingPlane, ThreeBounce, WanderingCubes, Wave. If invalid style is used, animation will be removed.Position can be: top, left, right, bottom. Size can be 100._
 
 ### SetShadow
 
@@ -52,13 +52,13 @@ Allows you to set animation style. Valid (case-insensitive) values are: ChasingD
     |color|`number`|
 
 
-Place a blurred shadow of text underneath the text, drawn with the specified x, y, radius, color (e.g. -11, 12, 13, black
+_Place a blurred shadow of text underneath the text, drawn with the specified x, y, radius, color (e.g. -11, 12, 13, black_
 
 ## Properties
 
 ### Background Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Label', 'Background Color')]]
@@ -71,7 +71,7 @@ _No description available_
 
 ### Clickable
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Label', 'Clickable')]]
@@ -80,11 +80,11 @@ _No description available_
 |:----:|:-------:|
 |boolean|False|
 
-Set the component clickable or not clickable.
+_Set the component clickable or not clickable._
 
 ### Font Bold
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Label', 'Font Bold')]]
@@ -97,7 +97,7 @@ _No description available_
 
 ### Font Italic
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Label', 'Font Italic')]]
@@ -110,7 +110,7 @@ _No description available_
 
 ### Font Size
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Label', 'Font Size')]]
@@ -123,7 +123,7 @@ _No description available_
 
 ### Font Typeface
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Label', 'Font Typeface')]]
@@ -136,7 +136,7 @@ _No description available_
 
 ### Font Typeface Import
 
-<small>Available as Advanced Property</small>
+<small>Available as ^^Advanced^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Label', 'Font Typeface Import')]]
@@ -145,11 +145,11 @@ _No description available_
 |:----:|
 |text|
 
-Set a custom font.
+_Set a custom font._
 
 ### HTML Format
 
-<small>Available as Advanced Property</small>
+<small>Available as ^^Advanced^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Label', 'HTML Format')]]
@@ -158,11 +158,11 @@ Set a custom font.
 |:----:|:-------:|
 |boolean|False|
 
-If true, then this label will show html text else it will show plain text. Note: Not all HTML is supported.
+_If true, then this label will show html text else it will show plain text. Note: Not all HTML is supported._
 
 ### Has Margins
 
-<small>Available as Advanced Property</small>
+<small>Available as ^^Advanced^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Label', 'Has Margins')]]
@@ -171,11 +171,11 @@ If true, then this label will show html text else it will show plain text. Note:
 |:----:|:-------:|
 |boolean|True|
 
-Reports whether or not the label appears with margins.  All four margins (left, right, top, bottom) are the same.  This property has no effect in the designer, where labels are always shown with margins.
+_Reports whether or not the label appears with margins.  All four margins (left, right, top, bottom) are the same.  This property has no effect in the designer, where labels are always shown with margins._
 
 ### Marquee
 
-<small>Available as Advanced Property</small>
+<small>Available as ^^Advanced^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Label', 'Marquee')]]
@@ -188,7 +188,7 @@ _No description available_
 
 ### Rotation Angle
 
-<small>Available as Advanced Property</small>
+<small>Available as ^^Advanced^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Label', 'Rotation Angle')]]
@@ -197,11 +197,11 @@ _No description available_
 |:----:|:-------:|
 |number|0.0|
 
-Sets the degrees that the label is rotated around the pivot point. Increasing values result in clockwise rotation.
+_Sets the degrees that the label is rotated around the pivot point. Increasing values result in clockwise rotation._
 
 ### Text
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Label', 'Text')]]
@@ -214,7 +214,7 @@ _No description available_
 
 ### Text Alignment
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Label', 'Text Alignment')]]
@@ -227,7 +227,7 @@ _No description available_
 
 ### Text Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Label', 'Text Color')]]
@@ -240,7 +240,7 @@ _No description available_
 
 ### Visible
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Label', 'Visible')]]
@@ -249,11 +249,9 @@ _No description available_
 |:----:|:-------:|
 |boolean|True|
 
-Returns true iff the component is visible.
+_Returns true iff the component is visible._
 
 ### Column
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Label', 'Column')]]
@@ -262,11 +260,9 @@ Returns true iff the component is visible.
 |:----:|:-------:|
 |number|None|
 
-Column property getter method.
+_Column property getter method._
 
 ### Height
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Label', 'Height')]]
@@ -275,11 +271,9 @@ Column property getter method.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's vertical height, measured in pixels.
+_Specifies the component's vertical height, measured in pixels._
 
 ### Height Percent
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Label', 'Height Percent')]]
@@ -288,12 +282,10 @@ Specifies the component's vertical height, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's vertical height as a percentage
- of the height of its parent Component.
+_Specifies the component's vertical height as a percentage
+ of the height of its parent Component._
 
 ### Row
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Label', 'Row')]]
@@ -302,11 +294,9 @@ Specifies the component's vertical height as a percentage
 |:----:|:-------:|
 |number|None|
 
-Row property getter method.
+_Row property getter method._
 
 ### Width
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Label', 'Width')]]
@@ -315,11 +305,9 @@ Row property getter method.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width, measured in pixels.
+_Specifies the component's horizontal width, measured in pixels._
 
 ### Width Percent
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Label', 'Width Percent')]]
@@ -328,5 +316,5 @@ Specifies the component's horizontal width, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width as a percentage
- of the Width of its parent Component.
+_Specifies the component's horizontal width as a percentage
+ of the Width of its parent Component._

@@ -22,7 +22,7 @@ _A non-visible component that lets the user purchase items, powered by Google''s
     |product Id|`text`|
 
 
-After purchase event.
+_After purchase event._
 
 ### Error Occurred
 
@@ -34,7 +34,7 @@ After purchase event.
     |message|`text`|
 
 
-Error occurred event.
+_Error occurred event._
 
 ### Got Owned Purchases
 
@@ -47,7 +47,7 @@ Error occurred event.
     |owned Subscriptions|`list`|
 
 
-Got Owned Purchases
+_Got Owned Purchases_
 
 ### Got Product Details
 
@@ -64,7 +64,7 @@ Got Owned Purchases
     |price|`text`|
 
 
-Got Product Details
+_Got Product Details_
 
 ### Got Subscription Details
 
@@ -82,7 +82,7 @@ Got Product Details
     |price|`text`|
 
 
-Got Subscription Details
+_Got Subscription Details_
 
 ## Methods
 
@@ -98,7 +98,7 @@ Got Subscription Details
     |product Id|`text`|
 
 
-Do not use this block anymore. This block is deprecated and does nothing and will be removed in the future!
+_Do not use this block anymore. This block is deprecated and does nothing and will be removed in the future!_
 
 ### Initialize
 
@@ -113,7 +113,7 @@ Do not use this block anymore. This block is deprecated and does nothing and wil
     |merchant Id|`text`|
 
 
-Do not use this block anymore. This block is deprecated and does nothing and will be removed in the future!
+_Do not use this block anymore. This block is deprecated and does nothing and will be removed in the future!_
 
 ### IsPurchased
 
@@ -127,7 +127,7 @@ Do not use this block anymore. This block is deprecated and does nothing and wil
     |product Id|`text`|
 
 
-Returns true if the product with the specific id is purchased.
+_Returns true if the product with the specific id is purchased._
 
 ### IsSubscribed
 
@@ -141,13 +141,13 @@ Returns true if the product with the specific id is purchased.
     |subscription Id|`text`|
 
 
-Returns true if the product is subscribed.
+_Returns true if the product is subscribed._
 
 ### LoadOwnedPurchases
 
 [[Method('In App Billing', 'LoadOwnedPurchases', false)]]
 
-Load Owned Purchases from Google.
+_Load Owned Purchases from Google._
 
 ### ProductDetails
 
@@ -159,7 +159,7 @@ Load Owned Purchases from Google.
     |product Id|`text`|
 
 
-Get product details from the specific product id.
+_Get product details from the specific product id._
 
 ### Purchase
 
@@ -171,7 +171,7 @@ Get product details from the specific product id.
     |product Id|`text`|
 
 
-Purchase a product with the given product id.
+_Purchase a product with the given product id._
 
 ### Subscribe
 
@@ -183,7 +183,7 @@ Purchase a product with the given product id.
     |subscription Id|`text`|
 
 
-Subscribe a product with the given product id.
+_Subscribe a product with the given product id._
 
 ### SubscriptionDetails
 
@@ -195,7 +195,7 @@ Subscribe a product with the given product id.
     |subscription Id|`text`|
 
 
-Get subscription details from the given id.
+_Get subscription details from the given id._
 
 ### UpdateSubscription
 
@@ -209,7 +209,7 @@ Get subscription details from the given id.
     |subscription Id|`text`|
 
 
-Do not use this block anymore. This block is deprecated and does nothing and will be removed in the future!
+_Do not use this block anymore. This block is deprecated and does nothing and will be removed in the future!_
 
 ## Properties
 
@@ -224,11 +224,11 @@ Do not use this block anymore. This block is deprecated and does nothing and wil
 |:----:|:-------:|
 |boolean|true|
 
-Do not use this block anymore. This block is deprecated and does nothing and will be removed in the future!
+_Do not use this block anymore. This block is deprecated and does nothing and will be removed in the future!_
 
 ### Test Mode
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('In App Billing', 'Test Mode')]]
@@ -237,11 +237,9 @@ Do not use this block anymore. This block is deprecated and does nothing and wil
 |:----:|:-------:|
 |boolean|false|
 
-Whether it is testing mode enabled or not.
+_Whether it is testing mode enabled or not._
 
 ### Is IAB Service Available
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('In App Billing', 'Is IAB Service Available')]]
@@ -250,11 +248,9 @@ Whether it is testing mode enabled or not.
 |:----:|:-------:|
 |boolean|None|
 
-Check Play Market services availability.
+_Check Play Market services availability._
 
 ### Is One Time Purchase Available
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('In App Billing', 'Is One Time Purchase Available')]]
@@ -263,11 +259,9 @@ Check Play Market services availability.
 |:----:|:-------:|
 |boolean|None|
 
-Is one time purchase supported.
+_Is one time purchase supported._
 
 ### Is Subscription Update Supported
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('In App Billing', 'Is Subscription Update Supported')]]
@@ -276,11 +270,9 @@ Is one time purchase supported.
 |:----:|:-------:|
 |boolean|None|
 
-Is subscription update supported.
+_Is subscription update supported._
 
 ### Ready To Purchase
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('In App Billing', 'Ready To Purchase')]]
@@ -289,4 +281,4 @@ Is subscription update supported.
 |:----:|:-------:|
 |boolean|None|
 
-Whether In-app billing service is ready to purchase.
+_Whether In-app billing service is ready to purchase._

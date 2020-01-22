@@ -24,7 +24,7 @@ _A non-visible component that allows user to connect with the service from 'Inst
     |message|`text`|
 
 
-A event to detect that the login request was sent.
+_A event to detect that the login request was sent._
 
 ### On Status Received
 
@@ -38,7 +38,7 @@ A event to detect that the login request was sent.
     |message|`text`|
 
 
-A event to detect that the status was received.
+_A event to detect that the status was received._
 
 ## Methods
 
@@ -52,7 +52,7 @@ A event to detect that the status was received.
     |user|`text`|
 
 
-Check the current status with a given username.
+_Check the current status with a given username._
 
 ### ClientID
 
@@ -60,7 +60,7 @@ Check the current status with a given username.
 
 {>>Returns `text`<<}
 
-Returns the client id.
+_Returns the client id._
 
 ### ClientSecret
 
@@ -68,7 +68,7 @@ Returns the client id.
 
 {>>Returns `text`<<}
 
-Returns the client secret.
+_Returns the client secret._
 
 ### Request
 
@@ -80,13 +80,13 @@ Returns the client secret.
     |user|`text`|
 
 
-Start a request to user with the instant access login service.
+_Start a request to user with the instant access login service._
 
 ## Properties
 
 ### Client ID
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Instant Access', 'Client ID')]]
@@ -99,7 +99,7 @@ _No description available_
 
 ### Client Secret
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Instant Access', 'Client Secret')]]

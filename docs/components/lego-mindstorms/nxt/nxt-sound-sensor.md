@@ -16,19 +16,19 @@ _A component that provides a high-level interface to a sound sensor on a LEGO MI
 
 [[Event('NXT Sound Sensor', 'Above Range')]]
 
-Sound level has gone above the range.
+_Sound level has gone above the range._
 
 ### Below Range
 
 [[Event('NXT Sound Sensor', 'Below Range')]]
 
-Sound level has gone below the range.
+_Sound level has gone below the range._
 
 ### Within Range
 
 [[Event('NXT Sound Sensor', 'Within Range')]]
 
-Sound level has gone within the range.
+_Sound level has gone within the range._
 
 ## Methods
 
@@ -38,13 +38,13 @@ Sound level has gone within the range.
 
 {>>Returns `number`<<}
 
-Returns the current sound level as a value between 0 and 1023, or -1 if the sound level can not be read.
+_Returns the current sound level as a value between 0 and 1023, or -1 if the sound level can not be read._
 
 ## Properties
 
 ### Above Range Event Enabled
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('NXT Sound Sensor', 'Above Range Event Enabled')]]
@@ -53,11 +53,11 @@ Returns the current sound level as a value between 0 and 1023, or -1 if the soun
 |:----:|:-------:|
 |boolean|False|
 
-Whether the AboveRange event should fire when the sound level goes above the TopOfRange.
+_Whether the AboveRange event should fire when the sound level goes above the TopOfRange._
 
 ### Below Range Event Enabled
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('NXT Sound Sensor', 'Below Range Event Enabled')]]
@@ -66,11 +66,11 @@ Whether the AboveRange event should fire when the sound level goes above the Top
 |:----:|:-------:|
 |boolean|False|
 
-Whether the BelowRange event should fire when the sound level goes below the BottomOfRange.
+_Whether the BelowRange event should fire when the sound level goes below the BottomOfRange._
 
 ### Bluetooth Client
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('NXT Sound Sensor', 'Bluetooth Client')]]
@@ -79,11 +79,11 @@ Whether the BelowRange event should fire when the sound level goes below the Bot
 |:----:|
 |component|
 
-The BluetoothClient component that should be used for communication.
+_The BluetoothClient component that should be used for communication._
 
 ### Bottom Of Range
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('NXT Sound Sensor', 'Bottom Of Range')]]
@@ -92,11 +92,11 @@ The BluetoothClient component that should be used for communication.
 |:----:|:-------:|
 |number|256|
 
-The bottom of the range used for the BelowRange, WithinRange, and AboveRange events.
+_The bottom of the range used for the BelowRange, WithinRange, and AboveRange events._
 
 ### Sensor Port
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('NXT Sound Sensor', 'Sensor Port')]]
@@ -105,11 +105,11 @@ The bottom of the range used for the BelowRange, WithinRange, and AboveRange eve
 |:----:|:-------:|
 |text|2|
 
-The sensor port that the sensor is connected to.
+_The sensor port that the sensor is connected to._
 
 ### Top Of Range
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('NXT Sound Sensor', 'Top Of Range')]]
@@ -118,11 +118,11 @@ The sensor port that the sensor is connected to.
 |:----:|:-------:|
 |number|767|
 
-The top of the range used for the BelowRange, WithinRange, and AboveRange events.
+_The top of the range used for the BelowRange, WithinRange, and AboveRange events._
 
 ### Within Range Event Enabled
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('NXT Sound Sensor', 'Within Range Event Enabled')]]
@@ -131,4 +131,4 @@ The top of the range used for the BelowRange, WithinRange, and AboveRange events
 |:----:|:-------:|
 |boolean|False|
 
-Whether the WithinRange event should fire when the sound level goes between the BottomOfRange and the TopOfRange.
+_Whether the WithinRange event should fire when the sound level goes between the BottomOfRange and the TopOfRange._

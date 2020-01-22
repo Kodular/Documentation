@@ -22,7 +22,7 @@ _A non-visible component that creates a side menu. <br>Side menus are navigation
     |title|`text`|
 
 
-Triggers when the user clicks on an item of the Navigation Menu
+_Triggers when the user clicks on an item of the Navigation Menu_
 
 ## Methods
 
@@ -40,7 +40,7 @@ Triggers when the user clicks on an item of the Navigation Menu
     |group|`number`|
 
 
-Add an item to the Navigation Menu
+_Add an item to the Navigation Menu_
 
 ### RemoveItem
 
@@ -52,7 +52,7 @@ Add an item to the Navigation Menu
     |title|`text`|
 
 
-Remove an item from the Navigation Menu
+_Remove an item from the Navigation Menu_
 
 ### UpdateItem
 
@@ -68,13 +68,13 @@ Remove an item from the Navigation Menu
     |checked|`boolean`|
 
 
-Update an item of the Navigation Menu
+_Update an item of the Navigation Menu_
 
 ## Properties
 
 ### Background Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Side Menu Layout', 'Background Color')]]
@@ -83,11 +83,11 @@ Update an item of the Navigation Menu
 |:----:|:-------:|
 |number|&HFFFFFFFF|
 
-Set the background color of the Sidemenu Layout
+_Set the background color of the Sidemenu Layout_
 
 ### Circle Header Picture
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Side Menu Layout', 'Circle Header Picture')]]
@@ -96,11 +96,11 @@ Set the background color of the Sidemenu Layout
 |:----:|:-------:|
 |boolean|False|
 
-Sets (or not) the header picture to use a circle shape
+_Sets (or not) the header picture to use a circle shape_
 
 ### Disabled Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Side Menu Layout', 'Disabled Color')]]
@@ -109,11 +109,11 @@ Sets (or not) the header picture to use a circle shape
 |:----:|:-------:|
 |number|&HFF9E9E9E|
 
-Sets the color of the disabled elements of the SideMenu
+_Sets the color of the disabled elements of the SideMenu_
 
 ### Enabled Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Side Menu Layout', 'Enabled Color')]]
@@ -122,11 +122,11 @@ Sets the color of the disabled elements of the SideMenu
 |:----:|:-------:|
 |number|&HFF000000|
 
-Sets the color of the enabled elements of the SideMenu
+_Sets the color of the enabled elements of the SideMenu_
 
 ### Header Background Image
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Side Menu Layout', 'Header Background Image')]]
@@ -135,11 +135,11 @@ Sets the color of the enabled elements of the SideMenu
 |:----:|
 |text|
 
-Sets the Header Background Picture
+_Sets the Header Background Picture_
 
 ### Header Picture
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Side Menu Layout', 'Header Picture')]]
@@ -148,11 +148,11 @@ Sets the Header Background Picture
 |:----:|
 |text|
 
-Sets the Header Picture of the Side Menu
+_Sets the Header Picture of the Side Menu_
 
 ### Header Subtitle
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Side Menu Layout', 'Header Subtitle')]]
@@ -161,11 +161,11 @@ Sets the Header Picture of the Side Menu
 |:----:|
 |text|
 
-Sets the Header Subtitle
+_Sets the Header Subtitle_
 
 ### Header Title
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Side Menu Layout', 'Header Title')]]
@@ -174,11 +174,11 @@ Sets the Header Subtitle
 |:----:|
 |text|
 
-Sets the Header Title
+_Sets the Header Title_
 
 ### Selected Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Side Menu Layout', 'Selected Color')]]
@@ -187,4 +187,4 @@ Sets the Header Title
 |:----:|:-------:|
 |number|&HFFE81E63|
 
-Sets the color of the selected element of the SideMenu
+_Sets the color of the selected element of the SideMenu_

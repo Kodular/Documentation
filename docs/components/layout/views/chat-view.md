@@ -30,7 +30,7 @@ _A visible component that displays a scrollable chat.<br>A chat consists of mess
     |with File|`boolean`|
 
 
-Click listener event.
+_Click listener event._
 
 ### Double Tap Click
 
@@ -52,7 +52,7 @@ Click listener event.
     |with File|`boolean`|
 
 
-Double tap click listener event.
+_Double tap click listener event._
 
 ### Long Click
 
@@ -74,7 +74,7 @@ Double tap click listener event.
     |with File|`boolean`|
 
 
-Long click listener event.
+_Long click listener event._
 
 ### Swipe
 
@@ -97,7 +97,7 @@ Long click listener event.
     |with File|`boolean`|
 
 
-Swipe listener event. The direction value returns '1' for right-to-left swipes, '2' for left-to-right swipes '3' for bottom-to-top swipes and '4' for top-to-bottom swipes
+_Swipe listener event. The direction value returns '1' for right-to-left swipes, '2' for left-to-right swipes '3' for bottom-to-top swipes and '4' for top-to-bottom swipes_
 
 ### User Image Click
 
@@ -110,7 +110,7 @@ Swipe listener event. The direction value returns '1' for right-to-left swipes, 
     |user Image|`text`|
 
 
-Click listener event for the user image.
+_Click listener event for the user image._
 
 ## Methods
 
@@ -130,7 +130,7 @@ Click listener event for the user image.
     |add As Sender|`boolean`|
 
 
-Add a new simple component message into the chat view. If you do not want a user image or title or message or timestamp, then let the field empty. Make sure that the component is VISIBLE on the screen when you try to add it here. It will be then removed automatic from the screen and only visible again in the chat view.
+_Add a new simple component message into the chat view. If you do not want a user image or title or message or timestamp, then let the field empty. Make sure that the component is VISIBLE on the screen when you try to add it here. It will be then removed automatic from the screen and only visible again in the chat view._
 
 ### AddDateTimestamp
 
@@ -145,7 +145,7 @@ Add a new simple component message into the chat view. If you do not want a user
     |id|`number`|
 
 
-Add a new simple date timestamp into the chat view. You NEED to write a date, else this block will do nothing. This means the field 'date' can NOT be empty. Timestamp messages are not clickable.
+_Add a new simple date timestamp into the chat view. You NEED to write a date, else this block will do nothing. This means the field 'date' can NOT be empty. Timestamp messages are not clickable._
 
 ### AddFileMessage
 
@@ -164,7 +164,7 @@ Add a new simple date timestamp into the chat view. You NEED to write a date, el
     |add As Sender|`boolean`|
 
 
-Add a new simple file message into the chat view. If you do not want a user image or title or message or timestamp, then let the field empty.
+_Add a new simple file message into the chat view. If you do not want a user image or title or message or timestamp, then let the field empty._
 
 ### AddImageMessage
 
@@ -182,7 +182,7 @@ Add a new simple file message into the chat view. If you do not want a user imag
     |add As Sender|`boolean`|
 
 
-Add a new simple image message into the chat view. If you do not want a user image or title or message or timestamp, then let the field empty.
+_Add a new simple image message into the chat view. If you do not want a user image or title or message or timestamp, then let the field empty._
 
 ### AddMessage
 
@@ -199,13 +199,13 @@ Add a new simple image message into the chat view. If you do not want a user ima
     |add As Sender|`boolean`|
 
 
-Add a new simple message into the chat view. If you do not want a user image or title or message or timestamp, then let the field empty.
+_Add a new simple message into the chat view. If you do not want a user image or title or message or timestamp, then let the field empty._
 
 ### ClearChatView
 
 [[Method('Chat View', 'ClearChatView', false)]]
 
-Removes all messages and timestamps from the chat view.
+_Removes all messages and timestamps from the chat view._
 
 ### CountDateTimestamp
 
@@ -213,7 +213,7 @@ Removes all messages and timestamps from the chat view.
 
 {>>Returns `number`<<}
 
-Returns the number of all date timestamps. Normal messages are not included.
+_Returns the number of all date timestamps. Normal messages are not included._
 
 ### CountMessages
 
@@ -221,7 +221,7 @@ Returns the number of all date timestamps. Normal messages are not included.
 
 {>>Returns `number`<<}
 
-Returns the number of all messages. 'Date Timestamp' messages are not included.
+_Returns the number of all messages. 'Date Timestamp' messages are not included._
 
 ### GetLastUsedId
 
@@ -229,7 +229,7 @@ Returns the number of all messages. 'Date Timestamp' messages are not included.
 
 {>>Returns `number`<<}
 
-Returns the last used id.
+_Returns the last used id._
 
 ### RemoveMessage
 
@@ -241,7 +241,7 @@ Returns the last used id.
     |id|`number`|
 
 
-Remove a message or timestamp from the chat view.
+_Remove a message or timestamp from the chat view._
 
 ### ScrollTo
 
@@ -253,7 +253,7 @@ Remove a message or timestamp from the chat view.
     |id|`number`|
 
 
-Scroll to a specific message in the chat view with the given id.
+_Scroll to a specific message in the chat view with the given id._
 
 ### UpdateMessageBackgroundColor
 
@@ -266,7 +266,7 @@ Scroll to a specific message in the chat view with the given id.
     |background Color|`number`|
 
 
-Update the background color of a chat view message.
+_Update the background color of a chat view message._
 
 ### UpdateMessageContent
 
@@ -280,7 +280,7 @@ Update the background color of a chat view message.
     |text Color|`number`|
 
 
-Update the message content of a chat view message.
+_Update the message content of a chat view message._
 
 ### UpdateTimestampContent
 
@@ -294,7 +294,7 @@ Update the message content of a chat view message.
     |text Color|`number`|
 
 
-Update the timestamp content of a chat view message.
+_Update the timestamp content of a chat view message._
 
 ### UpdateTitleContent
 
@@ -308,7 +308,7 @@ Update the timestamp content of a chat view message.
     |text Color|`number`|
 
 
-Update the title content of a chat view message.
+_Update the title content of a chat view message._
 
 ### UpdateUserImage
 
@@ -321,13 +321,13 @@ Update the title content of a chat view message.
     |user Image|`text`|
 
 
-Update the user image of a chat view message. The image can only be updated if there was before a old image.
+_Update the user image of a chat view message. The image can only be updated if there was before a old image._
 
 ## Properties
 
 ### Automatic Scroll Down
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Chat View', 'Automatic Scroll Down')]]
@@ -336,11 +336,11 @@ Update the user image of a chat view message. The image can only be updated if t
 |:----:|:-------:|
 |boolean|True|
 
-If set to true the chat view will scroll down when a new message was send.
+_If set to true the chat view will scroll down when a new message was send._
 
 ### Background Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Chat View', 'Background Color')]]
@@ -349,11 +349,11 @@ If set to true the chat view will scroll down when a new message was send.
 |:----:|:-------:|
 |number|&H00000000|
 
-Specifies the component's background color. The background color will not be visible if an Image is being displayed.
+_Specifies the component's background color. The background color will not be visible if an Image is being displayed._
 
 ### Clickable
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Chat View', 'Clickable')]]
@@ -362,11 +362,11 @@ Specifies the component's background color. The background color will not be vis
 |:----:|:-------:|
 |boolean|False|
 
-Set the component clickable or not clickable.
+_Set the component clickable or not clickable._
 
 ### Double Tap
 
-<small>Available as Advanced Property</small>
+<small>Available as ^^Advanced^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Chat View', 'Double Tap')]]
@@ -375,11 +375,11 @@ Set the component clickable or not clickable.
 |:----:|:-------:|
 |boolean|False|
 
-Set the component enabled for double taps or not.
+_Set the component enabled for double taps or not._
 
 ### Image
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Chat View', 'Image')]]
@@ -388,11 +388,11 @@ Set the component enabled for double taps or not.
 |:----:|
 |text|
 
-Specifies the path of the component's image.  If there is both an Image and a BackgroundColor, only the Image will be visible.
+_Specifies the path of the component's image.  If there is both an Image and a BackgroundColor, only the Image will be visible._
 
 ### Messages Corner Radius
 
-<small>Available as Advanced Property</small>
+<small>Available as ^^Advanced^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Chat View', 'Messages Corner Radius')]]
@@ -405,7 +405,7 @@ _No description available_
 
 ### Messages Font Size
 
-<small>Available as Advanced Property</small>
+<small>Available as ^^Advanced^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Chat View', 'Messages Font Size')]]
@@ -418,7 +418,7 @@ _No description available_
 
 ### Receivers Background Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Chat View', 'Receivers Background Color')]]
@@ -427,11 +427,11 @@ _No description available_
 |:----:|:-------:|
 |number|&HFFCCCCCC|
 
-Specifies the background color for receiver's messages.
+_Specifies the background color for receiver's messages._
 
 ### Receivers Message Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Chat View', 'Receivers Message Color')]]
@@ -440,11 +440,11 @@ Specifies the background color for receiver's messages.
 |:----:|:-------:|
 |number|&HFF000000|
 
-Specifies the color for receivers's messages.
+_Specifies the color for receivers's messages._
 
 ### Receivers Title Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Chat View', 'Receivers Title Color')]]
@@ -453,11 +453,11 @@ Specifies the color for receivers's messages.
 |:----:|:-------:|
 |number|&HFF000000|
 
-Specifies the color for receivers's title messages.
+_Specifies the color for receivers's title messages._
 
 ### Receivers Typeface Message
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Chat View', 'Receivers Typeface Message')]]
@@ -470,7 +470,7 @@ _No description available_
 
 ### Receivers Typeface Message Import
 
-<small>Available as Advanced Property</small>
+<small>Available as ^^Advanced^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Chat View', 'Receivers Typeface Message Import')]]
@@ -483,7 +483,7 @@ _No description available_
 
 ### Receivers Typeface Title
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Chat View', 'Receivers Typeface Title')]]
@@ -496,7 +496,7 @@ _No description available_
 
 ### Receivers Typeface Title Import
 
-<small>Available as Advanced Property</small>
+<small>Available as ^^Advanced^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Chat View', 'Receivers Typeface Title Import')]]
@@ -509,7 +509,7 @@ _No description available_
 
 ### Scrollbar
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Chat View', 'Scrollbar')]]
@@ -518,11 +518,11 @@ _No description available_
 |:----:|:-------:|
 |boolean|True|
 
-Whether to display a scrollbar.
+_Whether to display a scrollbar._
 
 ### Senders Background Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Chat View', 'Senders Background Color')]]
@@ -531,11 +531,11 @@ Whether to display a scrollbar.
 |:----:|:-------:|
 |number|&HFF8BC24A|
 
-Specifies the background color for sender's messages.
+_Specifies the background color for sender's messages._
 
 ### Senders Message Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Chat View', 'Senders Message Color')]]
@@ -544,11 +544,11 @@ Specifies the background color for sender's messages.
 |:----:|:-------:|
 |number|&HFF000000|
 
-Specifies the color for sender's messages.
+_Specifies the color for sender's messages._
 
 ### Senders Title Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Chat View', 'Senders Title Color')]]
@@ -557,11 +557,11 @@ Specifies the color for sender's messages.
 |:----:|:-------:|
 |number|&HFF000000|
 
-Specifies the color for sender's title messages.
+_Specifies the color for sender's title messages._
 
 ### Senders Typeface Message
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Chat View', 'Senders Typeface Message')]]
@@ -574,7 +574,7 @@ _No description available_
 
 ### Senders Typeface Message Import
 
-<small>Available as Advanced Property</small>
+<small>Available as ^^Advanced^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Chat View', 'Senders Typeface Message Import')]]
@@ -587,7 +587,7 @@ _No description available_
 
 ### Senders Typeface Title
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Chat View', 'Senders Typeface Title')]]
@@ -600,7 +600,7 @@ _No description available_
 
 ### Senders Typeface Title Import
 
-<small>Available as Advanced Property</small>
+<small>Available as ^^Advanced^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Chat View', 'Senders Typeface Title Import')]]
@@ -613,7 +613,7 @@ _No description available_
 
 ### Swipeable
 
-<small>Available as Advanced Property</small>
+<small>Available as ^^Advanced^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Chat View', 'Swipeable')]]
@@ -622,11 +622,11 @@ _No description available_
 |:----:|:-------:|
 |boolean|False|
 
-If set to true you can swipe with your fingers through views.
+_If set to true you can swipe with your fingers through views._
 
 ### Timestamp Corner Radius
 
-<small>Available as Advanced Property</small>
+<small>Available as ^^Advanced^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Chat View', 'Timestamp Corner Radius')]]
@@ -639,7 +639,7 @@ _No description available_
 
 ### Timestamp Font Size
 
-<small>Available as Advanced Property</small>
+<small>Available as ^^Advanced^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Chat View', 'Timestamp Font Size')]]
@@ -652,7 +652,7 @@ _No description available_
 
 ### Timestamp Text Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Chat View', 'Timestamp Text Color')]]
@@ -661,11 +661,11 @@ _No description available_
 |:----:|:-------:|
 |number|&HFF000000|
 
-Specifies the color for the timestamp.
+_Specifies the color for the timestamp._
 
 ### Title Font Size
 
-<small>Available as Advanced Property</small>
+<small>Available as ^^Advanced^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Chat View', 'Title Font Size')]]
@@ -678,7 +678,7 @@ _No description available_
 
 ### Visible
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Chat View', 'Visible')]]
@@ -687,11 +687,9 @@ _No description available_
 |:----:|:-------:|
 |boolean|True|
 
-Returns true iff the component is visible.
+_Returns true iff the component is visible._
 
 ### Column
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Chat View', 'Column')]]
@@ -700,11 +698,9 @@ Returns true iff the component is visible.
 |:----:|:-------:|
 |number|None|
 
-Column property getter method.
+_Column property getter method._
 
 ### Height
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Chat View', 'Height')]]
@@ -713,11 +709,9 @@ Column property getter method.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's vertical height, measured in pixels.
+_Specifies the component's vertical height, measured in pixels._
 
 ### Height Percent
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Chat View', 'Height Percent')]]
@@ -726,12 +720,10 @@ Specifies the component's vertical height, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's vertical height as a percentage
- of the height of its parent Component.
+_Specifies the component's vertical height as a percentage
+ of the height of its parent Component._
 
 ### Row
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Chat View', 'Row')]]
@@ -740,11 +732,9 @@ Specifies the component's vertical height as a percentage
 |:----:|:-------:|
 |number|None|
 
-Row property getter method.
+_Row property getter method._
 
 ### Width
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Chat View', 'Width')]]
@@ -753,11 +743,9 @@ Row property getter method.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width, measured in pixels.
+_Specifies the component's horizontal width, measured in pixels._
 
 ### Width Percent
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Chat View', 'Width Percent')]]
@@ -766,5 +754,5 @@ Specifies the component's horizontal width, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width as a percentage
- of the Width of its parent Component.
+_Specifies the component's horizontal width as a percentage
+ of the Width of its parent Component._

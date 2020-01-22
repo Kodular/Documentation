@@ -16,7 +16,7 @@ _A non-visible component to show ads from AppLovin._
 
 [[Event('AppLovin Interstitial', 'Ad Closed')]]
 
-Called when an ad was closed.
+_Called when an ad was closed._
 
 ### Ad Failed To Load
 
@@ -29,25 +29,25 @@ Called when an ad was closed.
     |error Message|`text`|
 
 
-Called when an ad request failed to load. The message will display the error code and error message.
+_Called when an ad request failed to load. The message will display the error code and error message._
 
 ### Ad Loaded
 
 [[Event('AppLovin Interstitial', 'Ad Loaded')]]
 
-Called when an ad is received.
+_Called when an ad is received._
 
 ### Ad Opened
 
 [[Event('AppLovin Interstitial', 'Ad Opened')]]
 
-Called when an ad was opened.
+_Called when an ad was opened._
 
 ### Ad Started
 
 [[Event('AppLovin Interstitial', 'Ad Started')]]
 
-Called when an ad was started.
+_Called when an ad was started._
 
 ### Error
 
@@ -60,7 +60,7 @@ Called when an ad was started.
     |error Message|`text`|
 
 
-Called when an ad request failed. The message will display the reason for why the ad failed.
+_Called when an ad request failed. The message will display the reason for why the ad failed._
 
 ## Methods
 
@@ -70,25 +70,25 @@ Called when an ad request failed. The message will display the reason for why th
 
 {>>Returns `boolean`<<}
 
-Returns true if the current app user is located in europe. If true you must ask the user as example in a dialog if he give his consent for personalized ads.
+_Returns true if the current app user is located in europe. If true you must ask the user as example in a dialog if he give his consent for personalized ads._
 
 ### Load Ad
 
 [[Method('AppLovin Interstitial', 'Load Ad', false)]]
 
-Loads a new ad.
+_Loads a new ad._
 
 ### ShowAd
 
 [[Method('AppLovin Interstitial', 'ShowAd', false)]]
 
-Shows an ad to the user.
+_Shows an ad to the user._
 
 ## Properties
 
 ### SDK Key
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('AppLovin Interstitial', 'SDK Key')]]
@@ -101,7 +101,7 @@ _No description available_
 
 ### Test Mode
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('AppLovin Interstitial', 'Test Mode')]]
@@ -110,11 +110,9 @@ _No description available_
 |:----:|:-------:|
 |boolean|False|
 
-If you want to test the component then that this property to true. Then you will receive test ads.
+_If you want to test the component then that this property to true. Then you will receive test ads._
 
 ### User Consent
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('AppLovin Interstitial', 'User Consent')]]
@@ -123,4 +121,4 @@ If you want to test the component then that this property to true. Then you will
 |:----:|:-------:|
 |boolean|None|
 
-If set to true the user allowed the ad network to show personalized ads. You only need to request the consent from european users.
+_If set to true the user allowed the ad network to show personalized ads. You only need to request the consent from european users._

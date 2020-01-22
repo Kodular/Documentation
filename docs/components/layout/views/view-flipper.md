@@ -20,7 +20,7 @@ _A visible component that can animate between two or more layout components that
     |component|`component`|
 
 
-Add a component to the view flipper. The first added component will be the first visible component on the screen.
+_Add a component to the view flipper. The first added component will be the first visible component on the screen._
 
 ### AddImagesToView
 
@@ -32,43 +32,43 @@ Add a component to the view flipper. The first added component will be the first
     |images|`list`|
 
 
-Use this function if you try to create a image view flipper. Please use a 'make a list' block.
+_Use this function if you try to create a image view flipper. Please use a 'make a list' block._
 
 ### ShowNext
 
 [[Method('View Flipper', 'ShowNext', false)]]
 
-Show the next view.
+_Show the next view._
 
 ### ShowPrevious
 
 [[Method('View Flipper', 'ShowPrevious', false)]]
 
-Show the previous view.
+_Show the previous view._
 
 ### StartFlipping
 
 [[Method('View Flipper', 'StartFlipping', false)]]
 
-Start a timer to cycle through child views.
+_Start a timer to cycle through child views._
 
 ### StopFlipping
 
 [[Method('View Flipper', 'StopFlipping', false)]]
 
-No more flips.
+_No more flips._
 
 ### is Flipping
 
 [[Method('View Flipper', 'is Flipping', false)]]
 
-Returns true if the child views are flipping.
+_Returns true if the child views are flipping._
 
 ## Properties
 
 ### Add Images From String
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('View Flipper', 'Add Images From String')]]
@@ -77,11 +77,11 @@ Returns true if the child views are flipping.
 |:----:|
 |text|
 
-Use this function if you try to create a image view flipper. Use images separated by commas such as: Image1.png,Image2.png,Image3.png.
+_Use this function if you try to create a image view flipper. Use images separated by commas such as: Image1.png,Image2.png,Image3.png._
 
 ### Background Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('View Flipper', 'Background Color')]]
@@ -90,11 +90,11 @@ Use this function if you try to create a image view flipper. Use images separate
 |:----:|:-------:|
 |number|&H00000000|
 
-Specifies the view flippers background color.
+_Specifies the view flippers background color._
 
 ### Flip Interval
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('View Flipper', 'Flip Interval')]]
@@ -103,11 +103,11 @@ Specifies the view flippers background color.
 |:----:|:-------:|
 |number|1000|
 
-How long to wait before flipping to the next view in milliseconds.
+_How long to wait before flipping to the next view in milliseconds._
 
 ### Swipeable
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('View Flipper', 'Swipeable')]]
@@ -116,11 +116,11 @@ How long to wait before flipping to the next view in milliseconds.
 |:----:|:-------:|
 |boolean|True|
 
-If set to true you can swipe with your fingers through views.
+_If set to true you can swipe with your fingers through views._
 
 ### Visible
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('View Flipper', 'Visible')]]
@@ -129,11 +129,9 @@ If set to true you can swipe with your fingers through views.
 |:----:|:-------:|
 |boolean|True|
 
-Returns true iff the component is visible.
+_Returns true iff the component is visible._
 
 ### Column
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('View Flipper', 'Column')]]
@@ -142,11 +140,9 @@ Returns true iff the component is visible.
 |:----:|:-------:|
 |number|None|
 
-Column property getter method.
+_Column property getter method._
 
 ### Height
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('View Flipper', 'Height')]]
@@ -155,11 +151,9 @@ Column property getter method.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's vertical height, measured in pixels.
+_Specifies the component's vertical height, measured in pixels._
 
 ### Height Percent
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('View Flipper', 'Height Percent')]]
@@ -168,12 +162,10 @@ Specifies the component's vertical height, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's vertical height as a percentage
- of the height of its parent Component.
+_Specifies the component's vertical height as a percentage
+ of the height of its parent Component._
 
 ### Row
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('View Flipper', 'Row')]]
@@ -182,11 +174,9 @@ Specifies the component's vertical height as a percentage
 |:----:|:-------:|
 |number|None|
 
-Row property getter method.
+_Row property getter method._
 
 ### Width
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('View Flipper', 'Width')]]
@@ -195,11 +185,9 @@ Row property getter method.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width, measured in pixels.
+_Specifies the component's horizontal width, measured in pixels._
 
 ### Width Percent
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('View Flipper', 'Width Percent')]]
@@ -208,5 +196,5 @@ Specifies the component's horizontal width, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width as a percentage
- of the Width of its parent Component.
+_Specifies the component's horizontal width as a percentage
+ of the Width of its parent Component._

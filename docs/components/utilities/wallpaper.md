@@ -22,7 +22,7 @@ _A non-visible component that provides access to the system''s wallpaper setting
     |picture|`text`|
 
 
-Event to detect that the component got the current system wallpaper.
+_Event to detect that the component got the current system wallpaper._
 
 ### Wallpaper Changed
 
@@ -34,13 +34,13 @@ Event to detect that the component got the current system wallpaper.
     |success|`boolean`|
 
 
-Event to detect that the user has changed the wallpaper. This event will be invoked by the "Set Wallpaper" function.
+_Event to detect that the user has changed the wallpaper. This event will be invoked by the "Set Wallpaper" function._
 
 ### Wallpaper Cleared
 
 [[Event('Wallpaper', 'Wallpaper Cleared')]]
 
-Event to detect that the user has cleared/deleted the wallpaper.
+_Event to detect that the user has cleared/deleted the wallpaper._
 
 ## Methods
 
@@ -48,19 +48,19 @@ Event to detect that the user has cleared/deleted the wallpaper.
 
 [[Method('Wallpaper', 'Clear', false)]]
 
-Remove any currently set system wallpaper, reverting to the system's built-in wallpaper.
+_Remove any currently set system wallpaper, reverting to the system's built-in wallpaper._
 
 ### ClearWallpaper
 
 [[Method('Wallpaper', 'ClearWallpaper', false)]]
 
-Reset all wallpaper to the factory default. This block works only on devices with Android 9+.
+_Reset all wallpaper to the factory default. This block works only on devices with Android 9+._
 
 ### GetWallpaper
 
 [[Method('Wallpaper', 'GetWallpaper', false)]]
 
-Retrieve the current system wallpaper; if no wallpaper is set, the system built-in static wallpaper is returned.
+_Retrieve the current system wallpaper; if no wallpaper is set, the system built-in static wallpaper is returned._
 
 ### SetLockScreenWallpaper
 
@@ -72,7 +72,7 @@ Retrieve the current system wallpaper; if no wallpaper is set, the system built-
     |image|`text`|
 
 
-Change the current lock screen wallpaper. This block works only on devices with Android 7+.
+_Change the current lock screen wallpaper. This block works only on devices with Android 7+._
 
 ### SetWallpaper
 
@@ -84,13 +84,13 @@ Change the current lock screen wallpaper. This block works only on devices with 
     |image|`text`|
 
 
-Change the current system wallpaper.
+_Change the current system wallpaper._
 
 ## Properties
 
 ### Save Wallpaper As
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Wallpaper', 'Save Wallpaper As')]]
@@ -99,11 +99,9 @@ Change the current system wallpaper.
 |:----:|:-------:|
 |text|wallpaperPicture.png|
 
-After the user clicked on "Get Wallpaper" this will be the name for the wallpaper picture.
+_After the user clicked on "Get Wallpaper" this will be the name for the wallpaper picture._
 
 ### Desired Minimum Height
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Wallpaper', 'Desired Minimum Height')]]
@@ -112,11 +110,9 @@ After the user clicked on "Get Wallpaper" this will be the name for the wallpape
 |:----:|:-------:|
 |number|None|
 
-Returns the desired minimum height for the wallpaper.
+_Returns the desired minimum height for the wallpaper._
 
 ### Desired Minimum Width
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Wallpaper', 'Desired Minimum Width')]]
@@ -125,11 +121,9 @@ Returns the desired minimum height for the wallpaper.
 |:----:|:-------:|
 |number|None|
 
-Returns the desired minimum width for the wallpaper.
+_Returns the desired minimum width for the wallpaper._
 
 ### Is Set Wallpaper Allowed
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Wallpaper', 'Is Set Wallpaper Allowed')]]
@@ -138,11 +132,9 @@ Returns the desired minimum width for the wallpaper.
 |:----:|:-------:|
 |boolean|None|
 
-Returns whether the calling package is allowed to set the wallpaper for the calling user. This block works only on devices with Android 7+.
+_Returns whether the calling package is allowed to set the wallpaper for the calling user. This block works only on devices with Android 7+._
 
 ### Is Wallpaper Supported
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Wallpaper', 'Is Wallpaper Supported')]]
@@ -151,4 +143,4 @@ Returns whether the calling package is allowed to set the wallpaper for the call
 |:----:|:-------:|
 |boolean|None|
 
-Returns whether wallpapers are supported for the calling user. This block works only on devices with Android 6+.
+_Returns whether wallpapers are supported for the calling user. This block works only on devices with Android 6+._

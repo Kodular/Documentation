@@ -16,13 +16,13 @@ _A non-visible component that retrieves the internet connection status of the de
 
 [[Event('Network', 'On Connect')]]
 
-Called when the device connects to a network.
+_Called when the device connects to a network._
 
 ### On Disconnect
 
 [[Event('Network', 'On Disconnect')]]
 
-Called when the device disconnects from a network.
+_Called when the device disconnects from a network._
 
 ## Methods
 
@@ -32,7 +32,7 @@ Called when the device disconnects from a network.
 
 {>>Returns `boolean`<<}
 
-Returns "True" if the device is connected to a network, "False" otherwise.
+_Returns "True" if the device is connected to a network, "False" otherwise._
 
 ### IsFastConnection
 
@@ -40,7 +40,7 @@ Returns "True" if the device is connected to a network, "False" otherwise.
 
 {>>Returns `boolean`<<}
 
-Returns true if using a fast connection
+_Returns true if using a fast connection_
 
 ### IsMobileConnection
 
@@ -48,7 +48,7 @@ Returns true if using a fast connection
 
 {>>Returns `boolean`<<}
 
-Returns true if connection is through Mobile
+_Returns true if connection is through Mobile_
 
 ### IsRoaming
 
@@ -56,7 +56,7 @@ Returns true if connection is through Mobile
 
 {>>Returns `boolean`<<}
 
-Returns true if using roaming
+_Returns true if using roaming_
 
 ### IsWiFiConnection
 
@@ -64,7 +64,7 @@ Returns true if using roaming
 
 {>>Returns `boolean`<<}
 
-Returns true if connection is through WiFi
+_Returns true if connection is through WiFi_
 
 ### Type
 
@@ -74,4 +74,4 @@ Returns true if connection is through WiFi
 
 {>>Returns `text`<<}
 
-Returns the type of network the device is connected to. e.g. "wifi" or "mobile". This block is deprecated, use the "IsWiFiConnection" and "IsMobileConnection" blocks instead
+_Returns the type of network the device is connected to. e.g. "wifi" or "mobile". This block is deprecated, use the "IsWiFiConnection" and "IsMobileConnection" blocks instead_

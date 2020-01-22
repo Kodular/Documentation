@@ -26,40 +26,40 @@ _
     |selection|`text`|
 
 
-Event to be raised after the picker activity returns its
- result and the properties have been filled in.
+_Event to be raised after the picker activity returns its
+ result and the properties have been filled in._
 
 ### Before Picking
 
 [[Event('Phone Number Picker', 'Before Picking')]]
 
-Event to raise when the button of the component is clicked or the list is shown
+_Event to raise when the button of the component is clicked or the list is shown
  using the Open block.  This event occurs before the list of items is displayed, and
- can be used to prepare the list before it is shown.
+ can be used to prepare the list before it is shown._
 
 ### Got Focus
 
 [[Event('Phone Number Picker', 'Got Focus')]]
 
-Indicates the cursor moved over the button so it is now possible to click it.
+_Indicates the cursor moved over the button so it is now possible to click it._
 
 ### Lost Focus
 
 [[Event('Phone Number Picker', 'Lost Focus')]]
 
-Indicates the cursor moved away from the button so it is now no longer possible to click it.
+_Indicates the cursor moved away from the button so it is now no longer possible to click it._
 
 ### Touch Down
 
 [[Event('Phone Number Picker', 'Touch Down')]]
 
-Indicates that the button was pressed down.
+_Indicates that the button was pressed down._
 
 ### Touch Up
 
 [[Event('Phone Number Picker', 'Touch Up')]]
 
-Indicates that a button has been released.
+_Indicates that a button has been released._
 
 ## Methods
 
@@ -76,19 +76,19 @@ Indicates that a button has been released.
     |color|`number`|
 
 
-Allows you to set animation style. Valid (case-insensitive) values are: ChasingDots, Circle, CubeGrid, DoubleBounce, FadingCircle, FoldingCube, Pulse, RotatingCircle, RotatingPlane, ThreeBounce, WanderingCubes, Wave. If invalid style is used, animation will be removed.Position can be: top, left, right, bottom. Size can be 100.
+_Allows you to set animation style. Valid (case-insensitive) values are: ChasingDots, Circle, CubeGrid, DoubleBounce, FadingCircle, FoldingCube, Pulse, RotatingCircle, RotatingPlane, ThreeBounce, WanderingCubes, Wave. If invalid style is used, animation will be removed.Position can be: top, left, right, bottom. Size can be 100._
 
 ### ButtonClick
 
 [[Method('Phone Number Picker', 'ButtonClick', false)]]
 
-Perform a button click as function.
+_Perform a button click as function._
 
 ### Open
 
 [[Method('Phone Number Picker', 'Open', false)]]
 
-Opens the picker, as though the user clicked on it.
+_Opens the picker, as though the user clicked on it._
 
 ### SetShadow
 
@@ -103,7 +103,7 @@ Opens the picker, as though the user clicked on it.
     |color|`number`|
 
 
-Place a blurred shadow of text underneath the text, drawn with the specified x, y, radius, color (e.g. -11, 12, 13, black.
+_Place a blurred shadow of text underneath the text, drawn with the specified x, y, radius, color (e.g. -11, 12, 13, black._
 
 ### ViewContact
 
@@ -115,7 +115,7 @@ Place a blurred shadow of text underneath the text, drawn with the specified x, 
     |uri|`text`|
 
 
-view a contact via its URI
+_view a contact via its URI_
 
 ### WithIconFromFontAwesome
 
@@ -131,7 +131,7 @@ view a contact via its URI
     |size|`number`|
 
 
-Show an image on the given position near to the button. You can use following words for the position: 'Left', 'Right', 'Top' or 'Bottom'. Use the padding to add space between the icon and text. Use a material icon as the button icon without uploading a image resource into your project. You can find the icon name (or code) here at https://fontawesome.com/cheatsheet Use as example for a heart icon just 'f004'.
+_Show an image on the given position near to the button. You can use following words for the position: 'Left', 'Right', 'Top' or 'Bottom'. Use the padding to add space between the icon and text. Use a material icon as the button icon without uploading a image resource into your project. You can find the icon name (or code) here at https://fontawesome.com/cheatsheet Use as example for a heart icon just 'f004'._
 
 ### WithIconFromMaterialFont
 
@@ -147,7 +147,7 @@ Show an image on the given position near to the button. You can use following wo
     |size|`number`|
 
 
-Show an image on the given position near to the button. You can use following words for the position: 'Left', 'Right', 'Top' or 'Bottom'. Use the padding to add space between the icon and text. Use a material icon as the button icon without uploading a image resource into your project. You can find the icon name (or code) here at https://material.io/icons
+_Show an image on the given position near to the button. You can use following words for the position: 'Left', 'Right', 'Top' or 'Bottom'. Use the padding to add space between the icon and text. Use a material icon as the button icon without uploading a image resource into your project. You can find the icon name (or code) here at https://material.io/icons_
 
 ### WithIconFromPicture
 
@@ -163,13 +163,13 @@ Show an image on the given position near to the button. You can use following wo
     |height|`number`|
 
 
-Show an image on the given position near to the button. You can use following words for the position: 'Left', 'Right', 'Top' or 'Bottom'. Use the padding to add space between the icon and text.
+_Show an image on the given position near to the button. You can use following words for the position: 'Left', 'Right', 'Top' or 'Bottom'. Use the padding to add space between the icon and text._
 
 ## Properties
 
 ### Background Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Phone Number Picker', 'Background Color')]]
@@ -178,11 +178,11 @@ Show an image on the given position near to the button. You can use following wo
 |:----:|:-------:|
 |number|&HFF444444|
 
-Returns the button's background color
+_Returns the button's background color_
 
 ### Border Shadow
 
-<small>Available as Advanced Property</small>
+<small>Available as ^^Advanced^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Phone Number Picker', 'Border Shadow')]]
@@ -191,11 +191,11 @@ Returns the button's background color
 |:----:|:-------:|
 |boolean|True|
 
-Returns true if the button have a outside border shadow on click.
+_Returns true if the button have a outside border shadow on click._
 
 ### Enabled
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Phone Number Picker', 'Enabled')]]
@@ -204,11 +204,11 @@ Returns true if the button have a outside border shadow on click.
 |:----:|:-------:|
 |boolean|True|
 
-If set, user can tap check box to cause action.
+_If set, user can tap check box to cause action._
 
 ### Font Bold
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Phone Number Picker', 'Font Bold')]]
@@ -217,11 +217,11 @@ If set, user can tap check box to cause action.
 |:----:|:-------:|
 |boolean|False|
 
-If set, button text is displayed in bold.
+_If set, button text is displayed in bold._
 
 ### Font Italic
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Phone Number Picker', 'Font Italic')]]
@@ -230,11 +230,11 @@ If set, button text is displayed in bold.
 |:----:|:-------:|
 |boolean|False|
 
-If set, button text is displayed in italics.
+_If set, button text is displayed in italics._
 
 ### Font Size
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Phone Number Picker', 'Font Size')]]
@@ -243,11 +243,11 @@ If set, button text is displayed in italics.
 |:----:|:-------:|
 |number|14.0|
 
-Point size for button text.
+_Point size for button text._
 
 ### Font Typeface
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Phone Number Picker', 'Font Typeface')]]
@@ -256,11 +256,11 @@ Point size for button text.
 |:----:|:-------:|
 |number|0|
 
-Font family for button text.
+_Font family for button text._
 
 ### Font Typeface Import
 
-<small>Available as Advanced Property</small>
+<small>Available as ^^Advanced^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Phone Number Picker', 'Font Typeface Import')]]
@@ -269,11 +269,11 @@ Font family for button text.
 |:----:|
 |text|
 
-Set a custom font.
+_Set a custom font._
 
 ### HTML Format
 
-<small>Available as Advanced Property</small>
+<small>Available as ^^Advanced^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Phone Number Picker', 'HTML Format')]]
@@ -282,11 +282,11 @@ Set a custom font.
 |:----:|:-------:|
 |boolean|False|
 
-If true, then this button will show html text else it will show plain text. Note: Not all HTML is supported.
+_If true, then this button will show html text else it will show plain text. Note: Not all HTML is supported._
 
 ### Image
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Phone Number Picker', 'Image')]]
@@ -295,11 +295,11 @@ If true, then this button will show html text else it will show plain text. Note
 |:----:|
 |text|
 
-Image to display on button.
+_Image to display on button._
 
 ### Rotation Angle
 
-<small>Available as Advanced Property</small>
+<small>Available as ^^Advanced^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Phone Number Picker', 'Rotation Angle')]]
@@ -308,11 +308,11 @@ Image to display on button.
 |:----:|:-------:|
 |number|0.0|
 
-Sets the degrees that the button is rotated around the pivot point. Increasing values result in clockwise rotation.
+_Sets the degrees that the button is rotated around the pivot point. Increasing values result in clockwise rotation._
 
 ### Shape
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Phone Number Picker', 'Shape')]]
@@ -321,11 +321,11 @@ Sets the degrees that the button is rotated around the pivot point. Increasing v
 |:----:|:-------:|
 |number|0|
 
-Specifies the button's shape (default, rounded, rectangular, oval). The shape will not be visible if an Image is being displayed.
+_Specifies the button's shape (default, rounded, rectangular, oval). The shape will not be visible if an Image is being displayed._
 
 ### Show Feedback
 
-<small>Available as Advanced Property</small>
+<small>Available as ^^Advanced^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Phone Number Picker', 'Show Feedback')]]
@@ -334,11 +334,11 @@ Specifies the button's shape (default, rounded, rectangular, oval). The shape wi
 |:----:|:-------:|
 |boolean|True|
 
-Specifies if a visual feedback should be shown for a button that as an image as background.
+_Specifies if a visual feedback should be shown for a button that as an image as background._
 
 ### Text
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Phone Number Picker', 'Text')]]
@@ -347,11 +347,11 @@ Specifies if a visual feedback should be shown for a button that as an image as 
 |:----:|
 |text|
 
-Text to display on button.
+_Text to display on button._
 
 ### Text Alignment
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Phone Number Picker', 'Text Alignment')]]
@@ -360,11 +360,11 @@ Text to display on button.
 |:----:|:-------:|
 |number|1|
 
-Left, center, or right.
+_Left, center, or right._
 
 ### Text Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Phone Number Picker', 'Text Color')]]
@@ -373,11 +373,11 @@ Left, center, or right.
 |:----:|:-------:|
 |number|&HFFFFFFFF|
 
-Color for button text.
+_Color for button text._
 
 ### Touch Color
 
-<small>Available as Advanced Property</small>
+<small>Available as ^^Advanced^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Phone Number Picker', 'Touch Color')]]
@@ -386,11 +386,11 @@ Color for button text.
 |:----:|:-------:|
 |number|&HFFCCCCCC|
 
-Set the buttons touch color.
+_Set the buttons touch color._
 
 ### Visible
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Phone Number Picker', 'Visible')]]
@@ -399,11 +399,9 @@ Set the buttons touch color.
 |:----:|:-------:|
 |boolean|True|
 
-Returns true iff the component is visible.
+_Returns true iff the component is visible._
 
 ### Column
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Phone Number Picker', 'Column')]]
@@ -412,11 +410,9 @@ Returns true iff the component is visible.
 |:----:|:-------:|
 |number|None|
 
-Column property getter method.
+_Column property getter method._
 
 ### Contact Name
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Phone Number Picker', 'Contact Name')]]
@@ -425,11 +421,9 @@ Column property getter method.
 |:----:|:-------:|
 |text|None|
 
-Name property getter method.
+_Name property getter method._
 
 ### Contact URI
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Phone Number Picker', 'Contact URI')]]
@@ -438,11 +432,9 @@ Name property getter method.
 |:----:|:-------:|
 |text|None|
 
-URI that specifies the location of the contact on the device.
+_URI that specifies the location of the contact on the device._
 
 ### Email Address
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Phone Number Picker', 'Email Address')]]
@@ -451,11 +443,9 @@ URI that specifies the location of the contact on the device.
 |:----:|:-------:|
 |text|None|
 
-EmailAddress property getter method.
+_EmailAddress property getter method._
 
 ### Email Address List
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Phone Number Picker', 'Email Address List')]]
@@ -464,11 +454,9 @@ EmailAddress property getter method.
 |:----:|:-------:|
 |list|None|
 
-EmailAddressList property getter method.
+_EmailAddressList property getter method._
 
 ### Height
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Phone Number Picker', 'Height')]]
@@ -477,11 +465,9 @@ EmailAddressList property getter method.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's vertical height, measured in pixels.
+_Specifies the component's vertical height, measured in pixels._
 
 ### Height Percent
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Phone Number Picker', 'Height Percent')]]
@@ -490,12 +476,10 @@ Specifies the component's vertical height, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's vertical height as a percentage
- of the height of its parent Component.
+_Specifies the component's vertical height as a percentage
+ of the height of its parent Component._
 
 ### Phone Number
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Phone Number Picker', 'Phone Number')]]
@@ -504,11 +488,9 @@ Specifies the component's vertical height as a percentage
 |:----:|:-------:|
 |text|None|
 
-PhoneNumber property getter method.
+_PhoneNumber property getter method._
 
 ### Phone Number List
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Phone Number Picker', 'Phone Number List')]]
@@ -517,11 +499,9 @@ PhoneNumber property getter method.
 |:----:|:-------:|
 |list|None|
 
-PhoneNumberList property getter method.
+_PhoneNumberList property getter method._
 
 ### Picture
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Phone Number Picker', 'Picture')]]
@@ -530,12 +510,10 @@ PhoneNumberList property getter method.
 |:----:|:-------:|
 |text|None|
 
-Picture URI for this contact, which can be
- used to retrieve the contact's photo and other fields.
+_Picture URI for this contact, which can be
+ used to retrieve the contact's photo and other fields._
 
 ### Row
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Phone Number Picker', 'Row')]]
@@ -544,11 +522,9 @@ Picture URI for this contact, which can be
 |:----:|:-------:|
 |number|None|
 
-Row property getter method.
+_Row property getter method._
 
 ### Width
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Phone Number Picker', 'Width')]]
@@ -557,11 +533,9 @@ Row property getter method.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width, measured in pixels.
+_Specifies the component's horizontal width, measured in pixels._
 
 ### Width Percent
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Phone Number Picker', 'Width Percent')]]
@@ -570,5 +544,5 @@ Specifies the component's horizontal width, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width as a percentage
- of the Width of its parent Component.
+_Specifies the component's horizontal width as a percentage
+ of the Width of its parent Component._

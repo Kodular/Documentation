@@ -14,7 +14,7 @@ _A multimedia component capable of playing videos. When the application is run, 
 
 [[Event('Video Player', 'Completed')]]
 
-Indicates that the video has reached the end
+_Indicates that the video has reached the end_
 
 ### VideoPlayerError
 
@@ -26,7 +26,7 @@ Indicates that the video has reached the end
     |message|`text`|
 
 
-The VideoPlayerError event is no longer used. Please use the Screen.ErrorOccurred event instead.
+_The VideoPlayerError event is no longer used. Please use the Screen.ErrorOccurred event instead._
 
 ## Methods
 
@@ -36,13 +36,13 @@ The VideoPlayerError event is no longer used. Please use the Screen.ErrorOccurre
 
 {>>Returns `number`<<}
 
-Returns duration of the video in milliseconds.
+_Returns duration of the video in milliseconds._
 
 ### Pause
 
 [[Method('Video Player', 'Pause', false)]]
 
-Pauses playback of the video.  Playback can be resumed at the same location by calling the <code>Start</code> method.
+_Pauses playback of the video.  Playback can be resumed at the same location by calling the <code>Start</code> method._
 
 ### SeekTo
 
@@ -54,25 +54,25 @@ Pauses playback of the video.  Playback can be resumed at the same location by c
     |ms|`number`|
 
 
-Seeks to the requested time (specified in milliseconds) in the video. If the video is paused, the frame shown will not be updated by the seek. The player can jump only to key frames in the video, so seeking to times that differ by short intervals may not actually move to different frames.
+_Seeks to the requested time (specified in milliseconds) in the video. If the video is paused, the frame shown will not be updated by the seek. The player can jump only to key frames in the video, so seeking to times that differ by short intervals may not actually move to different frames._
 
 ### Start
 
 [[Method('Video Player', 'Start', false)]]
 
-Starts playback of the video.
+_Starts playback of the video._
 
 ### Stop
 
 [[Method('Video Player', 'Stop', false)]]
 
-Resets to start of video and pauses it if video was playing.
+_Resets to start of video and pauses it if video was playing._
 
 ## Properties
 
 ### Show Controls
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Video Player', 'Show Controls')]]
@@ -81,11 +81,11 @@ Resets to start of video and pauses it if video was playing.
 |:----:|:-------:|
 |boolean|True|
 
-If enabled the user will see the control buttons.
+_If enabled the user will see the control buttons._
 
 ### Source
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Video Player', 'Source')]]
@@ -94,11 +94,11 @@ If enabled the user will see the control buttons.
 |:----:|
 |text|
 
-The "path" to the video.  Usually, this will be the name of the video file, which should be added in the Designer.
+_The "path" to the video.  Usually, this will be the name of the video file, which should be added in the Designer._
 
 ### Visible
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Video Player', 'Visible')]]
@@ -107,11 +107,11 @@ The "path" to the video.  Usually, this will be the name of the video file, whic
 |:----:|:-------:|
 |boolean|True|
 
-Returns true iff the component is visible.
+_Returns true iff the component is visible._
 
 ### Volume
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Video Player', 'Volume')]]
@@ -120,11 +120,9 @@ Returns true iff the component is visible.
 |:----:|:-------:|
 |number|50|
 
-Sets the volume to a number between 0 and 100. Values less than 0 will be treated as 0, and values greater than 100 will be treated as 100.
+_Sets the volume to a number between 0 and 100. Values less than 0 will be treated as 0, and values greater than 100 will be treated as 100._
 
 ### Column
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Video Player', 'Column')]]
@@ -133,11 +131,9 @@ Sets the volume to a number between 0 and 100. Values less than 0 will be treate
 |:----:|:-------:|
 |number|None|
 
-Column property getter method.
+_Column property getter method._
 
 ### Current Position
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Video Player', 'Current Position')]]
@@ -146,11 +142,9 @@ Column property getter method.
 |:----:|:-------:|
 |number|None|
 
-Returns the current position of the source file that is playing.
+_Returns the current position of the source file that is playing._
 
 ### Full Screen
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Video Player', 'Full Screen')]]
@@ -159,12 +153,10 @@ Returns the current position of the source file that is playing.
 |:----:|:-------:|
 |boolean|None|
 
-Returns whether the VideoPlayer's video is currently being
- shown in fullscreen mode or not.
+_Returns whether the VideoPlayer's video is currently being
+ shown in fullscreen mode or not._
 
 ### Height
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Video Player', 'Height')]]
@@ -173,11 +165,9 @@ Returns whether the VideoPlayer's video is currently being
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's vertical height, measured in pixels.
+_Specifies the component's vertical height, measured in pixels._
 
 ### Height Percent
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Video Player', 'Height Percent')]]
@@ -186,12 +176,10 @@ Specifies the component's vertical height, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's vertical height as a percentage
- of the height of its parent Component.
+_Specifies the component's vertical height as a percentage
+ of the height of its parent Component._
 
 ### Is Playing
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Video Player', 'Is Playing')]]
@@ -200,11 +188,9 @@ Specifies the component's vertical height as a percentage
 |:----:|:-------:|
 |boolean|None|
 
-Reports whether the media is playing.
+_Reports whether the media is playing._
 
 ### Row
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Video Player', 'Row')]]
@@ -213,11 +199,9 @@ Reports whether the media is playing.
 |:----:|:-------:|
 |number|None|
 
-Row property getter method.
+_Row property getter method._
 
 ### Width
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Video Player', 'Width')]]
@@ -226,11 +210,9 @@ Row property getter method.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width, measured in pixels.
+_Specifies the component's horizontal width, measured in pixels._
 
 ### Width Percent
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Video Player', 'Width Percent')]]
@@ -239,5 +221,5 @@ Specifies the component's horizontal width, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width as a percentage
- of the Width of its parent Component.
+_Specifies the component's horizontal width as a percentage
+ of the Width of its parent Component._

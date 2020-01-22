@@ -22,7 +22,7 @@ _A component to create dynamic cardviews in Arrangements._
     |id|`number`|
 
 
-Event to detect that a user has done a simple click on a card view component with the specific id.
+_Event to detect that a user has done a simple click on a card view component with the specific id._
 
 ### Long Click
 
@@ -34,7 +34,7 @@ Event to detect that a user has done a simple click on a card view component wit
     |id|`number`|
 
 
-Event to detect that a user has done a simple long click on a card view component with the specific id.
+_Event to detect that a user has done a simple long click on a card view component with the specific id._
 
 ### Touch Down
 
@@ -46,7 +46,7 @@ Event to detect that a user has done a simple long click on a card view componen
     |id|`number`|
 
 
-Event to detect that a user has done a simple touch down on a card view component with the specific id.
+_Event to detect that a user has done a simple touch down on a card view component with the specific id._
 
 ### Touch Up
 
@@ -58,7 +58,7 @@ Event to detect that a user has done a simple touch down on a card view componen
     |id|`number`|
 
 
-Event to detect that a user has done a simple touch up on a card view component with the specific id.
+_Event to detect that a user has done a simple touch up on a card view component with the specific id._
 
 ## Methods
 
@@ -73,7 +73,7 @@ Event to detect that a user has done a simple touch up on a card view component 
     |arrangement|`component`|
 
 
-Add a component into the card view component with the given id.
+_Add a component into the card view component with the given id._
 
 ### ContentPadding
 
@@ -89,7 +89,7 @@ Add a component into the card view component with the given id.
     |content Padding Bottom|`number`|
 
 
-Set the content padding of a card view component.
+_Set the content padding of a card view component._
 
 ### CreateCardView
 
@@ -104,7 +104,7 @@ Set the content padding of a card view component.
     |height|`number`|
 
 
-Create a new card view component dynamically. Use for width/height '-1' for wrap content or '-2' for fill parent.
+_Create a new card view component dynamically. Use for width/height '-1' for wrap content or '-2' for fill parent._
 
 ### DeleteCardView
 
@@ -116,7 +116,7 @@ Create a new card view component dynamically. Use for width/height '-1' for wrap
     |id|`number`|
 
 
-Remove a card view component with the given id.
+_Remove a card view component with the given id._
 
 ### GetBackgroundColor
 
@@ -130,7 +130,7 @@ Remove a card view component with the given id.
     |id|`number`|
 
 
-Get the background color of a card view component.
+_Get the background color of a card view component._
 
 ### GetCardViewById
 
@@ -144,7 +144,7 @@ Get the background color of a card view component.
     |id|`number`|
 
 
-Returns the card view referenced by its id.
+_Returns the card view referenced by its id._
 
 ### GetCornerRadius
 
@@ -158,7 +158,7 @@ Returns the card view referenced by its id.
     |id|`number`|
 
 
-Get the corner radius of a card view component.
+_Get the corner radius of a card view component._
 
 ### GetElevation
 
@@ -172,7 +172,7 @@ Get the corner radius of a card view component.
     |id|`number`|
 
 
-Get the elevation of a card view component.
+_Get the elevation of a card view component._
 
 ### GetHeight
 
@@ -186,7 +186,7 @@ Get the elevation of a card view component.
     |id|`number`|
 
 
-Get the height of a card view component.
+_Get the height of a card view component._
 
 ### GetWidth
 
@@ -200,7 +200,7 @@ Get the height of a card view component.
     |id|`number`|
 
 
-Get the width of a card view component.
+_Get the width of a card view component._
 
 ### SetBackgroundColor
 
@@ -213,7 +213,7 @@ Get the width of a card view component.
     |argb|`number`|
 
 
-Set the background color of a card view component.
+_Set the background color of a card view component._
 
 ### SetCornerRadius
 
@@ -226,7 +226,7 @@ Set the background color of a card view component.
     |radius|`number`|
 
 
-Set the corner radius of a card view component.
+_Set the corner radius of a card view component._
 
 ### SetElevation
 
@@ -239,7 +239,7 @@ Set the corner radius of a card view component.
     |value|`number`|
 
 
-Set the elevation of a card view component.
+_Set the elevation of a card view component._
 
 ### SetHeight
 
@@ -252,7 +252,7 @@ Set the elevation of a card view component.
     |height|`number`|
 
 
-Set the height of a card view component.
+_Set the height of a card view component._
 
 ### SetWidth
 
@@ -265,7 +265,7 @@ Set the height of a card view component.
     |width|`number`|
 
 
-Set the width of a card view component.
+_Set the width of a card view component._
 
 ### StrokeColor
 
@@ -278,7 +278,7 @@ Set the width of a card view component.
     |color|`number`|
 
 
-Set the stroke color to a card view component with the specific id.
+_Set the stroke color to a card view component with the specific id._
 
 ### StrokeWidth
 
@@ -291,13 +291,13 @@ Set the stroke color to a card view component with the specific id.
     |width|`number`|
 
 
-Set the stroke width to a card view component with the specific id.
+_Set the stroke width to a card view component with the specific id._
 
 ## Properties
 
 ### Background Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Dynamic Card View', 'Background Color')]]
@@ -306,11 +306,11 @@ Set the stroke width to a card view component with the specific id.
 |:----:|:-------:|
 |number|&HFFFFFFFF|
 
-Specifies the cards's background color.
+_Specifies the cards's background color._
 
 ### Content Padding Bottom
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Dynamic Card View', 'Content Padding Bottom')]]
@@ -319,11 +319,11 @@ Specifies the cards's background color.
 |:----:|:-------:|
 |number|8|
 
-Sets the bottom padding between the card's edges and the children of card view.
+_Sets the bottom padding between the card's edges and the children of card view._
 
 ### Content Padding Left
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Dynamic Card View', 'Content Padding Left')]]
@@ -332,11 +332,11 @@ Sets the bottom padding between the card's edges and the children of card view.
 |:----:|:-------:|
 |number|8|
 
-Sets the left padding between the card's edges and the children of card view.
+_Sets the left padding between the card's edges and the children of card view._
 
 ### Content Padding Right
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Dynamic Card View', 'Content Padding Right')]]
@@ -345,11 +345,11 @@ Sets the left padding between the card's edges and the children of card view.
 |:----:|:-------:|
 |number|8|
 
-Sets the right padding between the card's edges and the children of card view.
+_Sets the right padding between the card's edges and the children of card view._
 
 ### Content Padding Top
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Dynamic Card View', 'Content Padding Top')]]
@@ -358,11 +358,11 @@ Sets the right padding between the card's edges and the children of card view.
 |:----:|:-------:|
 |number|8|
 
-Sets the top padding between the card's edges and the children of card view.
+_Sets the top padding between the card's edges and the children of card view._
 
 ### Corner Radius
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Dynamic Card View', 'Corner Radius')]]
@@ -371,11 +371,11 @@ Sets the top padding between the card's edges and the children of card view.
 |:----:|:-------:|
 |number|2|
 
-The corner radius from the card view.
+_The corner radius from the card view._
 
 ### Elevation
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Dynamic Card View', 'Elevation')]]
@@ -384,11 +384,11 @@ The corner radius from the card view.
 |:----:|:-------:|
 |number|2|
 
-The card view elevation value.
+_The card view elevation value._
 
 ### Full Clickable
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Dynamic Card View', 'Full Clickable')]]
@@ -397,11 +397,11 @@ The card view elevation value.
 |:----:|:-------:|
 |boolean|False|
 
-If set to true, the card will consume all click events. This means if you have added as example buttons into the card, then will the card consume the touch event on the button. And this means that the button would not be clickable, but only the entire card.
+_If set to true, the card will consume all click events. This means if you have added as example buttons into the card, then will the card consume the touch event on the button. And this means that the button would not be clickable, but only the entire card._
 
 ### Stroke Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Dynamic Card View', 'Stroke Color')]]
@@ -410,11 +410,11 @@ If set to true, the card will consume all click events. This means if you have a
 |:----:|:-------:|
 |number|&HFFCCCCCC|
 
-The stroke width for the card view.
+_The stroke width for the card view._
 
 ### Stroke Width
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Dynamic Card View', 'Stroke Width')]]
@@ -423,11 +423,11 @@ The stroke width for the card view.
 |:----:|:-------:|
 |number|1|
 
-The stroke width for the card view.
+_The stroke width for the card view._
 
 ### Touch Color
 
-<small>Available as Advanced Property</small>
+<small>Available as ^^Advanced^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Dynamic Card View', 'Touch Color')]]
@@ -436,4 +436,4 @@ The stroke width for the card view.
 |:----:|:-------:|
 |number|&HFFCCCCCC|
 
-Set the touch color also known as ripple color to a card view component.
+_Set the touch color also known as ripple color to a card view component._

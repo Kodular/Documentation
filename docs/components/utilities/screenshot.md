@@ -22,7 +22,7 @@ _A non-visible component that takes a screenshot of the content currently visibl
     |image|`text`|
 
 
-Event to detect that a screenshot was made by the user. Returns the image path to the taken screenshot.
+_Event to detect that a screenshot was made by the user. Returns the image path to the taken screenshot._
 
 ## Methods
 
@@ -30,13 +30,13 @@ Event to detect that a screenshot was made by the user. Returns the image path t
 
 [[Method('Screenshot', 'TakeScreenshot', false)]]
 
-Take a screenshot of the current visible screen.
+_Take a screenshot of the current visible screen._
 
 ## Properties
 
 ### Allow Screenshots
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Screenshot', 'Allow Screenshots')]]
@@ -45,11 +45,11 @@ Take a screenshot of the current visible screen.
 |:----:|:-------:|
 |boolean|True|
 
-This feature allows users of your app to make or ban screenshots of their app. If disabled and a person tries to make a screenshot, they will receive then a default system message that this is not possible.
+_This feature allows users of your app to make or ban screenshots of their app. If disabled and a person tries to make a screenshot, they will receive then a default system message that this is not possible._
 
 ### Dim Amount
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Screenshot', 'Dim Amount')]]
@@ -58,11 +58,11 @@ This feature allows users of your app to make or ban screenshots of their app. I
 |:----:|:-------:|
 |number|0.5|
 
-Set the amount of dim behind the preview window if ShowPreview(...) is enabled. Use '0.0' for no dim and '1.0' for full dim.
+_Set the amount of dim behind the preview window if ShowPreview(...) is enabled. Use '0.0' for no dim and '1.0' for full dim._
 
 ### File Name
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Screenshot', 'File Name')]]
@@ -71,11 +71,11 @@ Set the amount of dim behind the preview window if ShowPreview(...) is enabled. 
 |:----:|:-------:|
 |text|Screenshot.png|
 
-This will be the name for the taken screenshot image file.
+_This will be the name for the taken screenshot image file._
 
 ### Use Large Notification
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Screenshot', 'Use Large Notification')]]
@@ -84,11 +84,11 @@ This will be the name for the taken screenshot image file.
 |:----:|:-------:|
 |boolean|False|
 
-This will display the notification in a big style.
+_This will display the notification in a big style._
 
 ### Show Notification Share Button
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Screenshot', 'Show Notification Share Button')]]
@@ -97,11 +97,11 @@ This will display the notification in a big style.
 |:----:|:-------:|
 |boolean|True|
 
-If enabled you will see a notification with a share button after the screenshot is taken.
+_If enabled you will see a notification with a share button after the screenshot is taken._
 
 ### Notification Share Title
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Screenshot', 'Notification Share Title')]]
@@ -110,11 +110,11 @@ If enabled you will see a notification with a share button after the screenshot 
 |:----:|:-------:|
 |text|Share|
 
-This will set the notification share button text if the option "Show Notification" is enabled.
+_This will set the notification share button text if the option "Show Notification" is enabled._
 
 ### Notification Title
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Screenshot', 'Notification Title')]]
@@ -123,11 +123,11 @@ This will set the notification share button text if the option "Show Notificatio
 |:----:|:-------:|
 |text|Screenshot..|
 
-This will set the notification title if the option "Show Notification" is enabled.
+_This will set the notification title if the option "Show Notification" is enabled._
 
 ### Show Notification
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Screenshot', 'Show Notification')]]
@@ -136,11 +136,11 @@ This will set the notification title if the option "Show Notification" is enable
 |:----:|:-------:|
 |boolean|False|
 
-If enabled you will see a notification in the statusbar after the screenshot is taken.
+_If enabled you will see a notification in the statusbar after the screenshot is taken._
 
 ### Show Preview
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Screenshot', 'Show Preview')]]
@@ -149,11 +149,9 @@ If enabled you will see a notification in the statusbar after the screenshot is 
 |:----:|:-------:|
 |boolean|True|
 
-If enabled you will see a short preview animation after the screenshot is taken.
+_If enabled you will see a short preview animation after the screenshot is taken._
 
 ### Are Permissions Granted
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Screenshot', 'Are Permissions Granted')]]
@@ -162,11 +160,9 @@ If enabled you will see a short preview animation after the screenshot is taken.
 |:----:|:-------:|
 |boolean|None|
 
-Returns true if the write and read permission is granted, else false.
+_Returns true if the write and read permission is granted, else false._
 
 ### is Read Permission Granted
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Screenshot', 'is Read Permission Granted')]]
@@ -175,11 +171,9 @@ Returns true if the write and read permission is granted, else false.
 |:----:|:-------:|
 |boolean|None|
 
-Returns true if the read permission is granted, else false.
+_Returns true if the read permission is granted, else false._
 
 ### is Write Permission Granted
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Screenshot', 'is Write Permission Granted')]]
@@ -188,4 +182,4 @@ Returns true if the read permission is granted, else false.
 |:----:|:-------:|
 |boolean|None|
 
-Returns true if the write permission is granted, else false.
+_Returns true if the write permission is granted, else false._

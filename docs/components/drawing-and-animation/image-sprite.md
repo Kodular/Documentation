@@ -20,11 +20,11 @@ _<p>A 'sprite' that can be placed on a <code>Canvas</code>, where it can react t
     |other|`component`|
 
 
-Event handler called when two enabled sprites (Balls or ImageSprites)
+_Event handler called when two enabled sprites (Balls or ImageSprites)
  collide. Note that checking for collisions with a rotated ImageSprite currently
  checks against its unrotated position. Therefore, collision
  checking will be inaccurate for tall narrow or short wide sprites that are
- rotated.
+ rotated._
 
 ### Dragged
 
@@ -41,7 +41,7 @@ Event handler called when two enabled sprites (Balls or ImageSprites)
     |current Y|`number`|
 
 
-Event handler called when a ImageSprite is dragged. On all calls, the starting coordinates are where the screen was first touched, and the "current" coordinates describe the endpoint of the current line segment. On the first call within a given drag, the "previous" coordinates are the same as the starting coordinates; subsequently, they are the "current" coordinates from the prior call. Note that the ImageSprite won't actually move anywhere in response to the Dragged event unless MoveTo is explicitly called. For smooth movement, each of its coordinates should be set to the sum of its initial value and the difference between its current and previous values.
+_Event handler called when a ImageSprite is dragged. On all calls, the starting coordinates are where the screen was first touched, and the "current" coordinates describe the endpoint of the current line segment. On the first call within a given drag, the "previous" coordinates are the same as the starting coordinates; subsequently, they are the "current" coordinates from the prior call. Note that the ImageSprite won't actually move anywhere in response to the Dragged event unless MoveTo is explicitly called. For smooth movement, each of its coordinates should be set to the sum of its initial value and the difference between its current and previous values._
 
 ### Edge Reached
 
@@ -53,7 +53,7 @@ Event handler called when a ImageSprite is dragged. On all calls, the starting c
     |edge|`number`|
 
 
-Event handler called when the ImageSprite reaches an edge of the screen. If Bounce is then called with that edge, the ImageSprite will appear to bounce off of the edge it reached. Edge here is represented as an integer that indicates one of eight directions north (1), northeast (2), east (3), southeast (4), south (-1), southwest (-2), west (-3), and northwest (-4).
+_Event handler called when the ImageSprite reaches an edge of the screen. If Bounce is then called with that edge, the ImageSprite will appear to bounce off of the edge it reached. Edge here is represented as an integer that indicates one of eight directions north (1), northeast (2), east (3), southeast (4), south (-1), southwest (-2), west (-3), and northwest (-4)._
 
 ### Flung
 
@@ -70,7 +70,7 @@ Event handler called when the ImageSprite reaches an edge of the screen. If Boun
     |y vel|`number`|
 
 
-Event handler called when a fling gesture (quick swipe) is made on an enabled ImageSprite. This provides the x and y coordinates of the start of the fling (relative to the upper left of the canvas), the speed (pixels per millisecond), the heading (0-360 degrees), and the x and y velocity components of the fling's vector.
+_Event handler called when a fling gesture (quick swipe) is made on an enabled ImageSprite. This provides the x and y coordinates of the start of the fling (relative to the upper left of the canvas), the speed (pixels per millisecond), the heading (0-360 degrees), and the x and y velocity components of the fling's vector._
 
 ### No Longer Colliding With
 
@@ -82,7 +82,7 @@ Event handler called when a fling gesture (quick swipe) is made on an enabled Im
     |other|`component`|
 
 
-Event handler called when a pair of sprites (Balls and ImageSprites) are no longer colliding.
+_Event handler called when a pair of sprites (Balls and ImageSprites) are no longer colliding._
 
 ### Touch Down
 
@@ -95,7 +95,7 @@ Event handler called when a pair of sprites (Balls and ImageSprites) are no long
     |y|`number`|
 
 
-Event handler called when the user begins touching an enabled ImageSprite (placing their finger on a ImageSprite and leaving it there). This provides the x and y coordinates of the touch, relative to the upper left of the canvas.
+_Event handler called when the user begins touching an enabled ImageSprite (placing their finger on a ImageSprite and leaving it there). This provides the x and y coordinates of the touch, relative to the upper left of the canvas._
 
 ### Touch Up
 
@@ -108,7 +108,7 @@ Event handler called when the user begins touching an enabled ImageSprite (placi
     |y|`number`|
 
 
-Event handler called when the user stops touching an enabled ImageSprite (lifting their finger after a TouchDown event). This provides the x and y coordinates of the touch, relative to the upper left of the canvas.
+_Event handler called when the user stops touching an enabled ImageSprite (lifting their finger after a TouchDown event). This provides the x and y coordinates of the touch, relative to the upper left of the canvas._
 
 ### Touched
 
@@ -121,7 +121,7 @@ Event handler called when the user stops touching an enabled ImageSprite (liftin
     |y|`number`|
 
 
-Event handler called when the user touches an enabled ImageSprite and then immediately lifts their finger. The provided x and y coordinates are relative to the upper left of the canvas.
+_Event handler called when the user touches an enabled ImageSprite and then immediately lifts their finger. The provided x and y coordinates are relative to the upper left of the canvas._
 
 ## Methods
 
@@ -135,7 +135,7 @@ Event handler called when the user touches an enabled ImageSprite and then immed
     |edge|`number`|
 
 
-Makes the ImageSprite bounce, as if off a wall. For normal bouncing, the edge argument should be the one returned by EdgeReached.
+_Makes the ImageSprite bounce, as if off a wall. For normal bouncing, the edge argument should be the one returned by EdgeReached._
 
 ### CollidingWith
 
@@ -149,13 +149,13 @@ Makes the ImageSprite bounce, as if off a wall. For normal bouncing, the edge ar
     |other|`component`|
 
 
-Indicates whether a collision has been registered between this ImageSprite and the passed sprite (Ball or ImageSprite).
+_Indicates whether a collision has been registered between this ImageSprite and the passed sprite (Ball or ImageSprite)._
 
 ### MoveIntoBounds
 
 [[Method('Image Sprite', 'MoveIntoBounds', false)]]
 
-Moves the ImageSprite back in bounds if part of it extends out of bounds, having no effect otherwise. If the ImageSprite is too wide to fit on the canvas, this aligns the left side of the ImageSprite with the left side of the canvas. If the ImageSprite is too tall to fit on the canvas, this aligns the top side of the ImageSprite with the top side of the canvas.
+_Moves the ImageSprite back in bounds if part of it extends out of bounds, having no effect otherwise. If the ImageSprite is too wide to fit on the canvas, this aligns the left side of the ImageSprite with the left side of the canvas. If the ImageSprite is too tall to fit on the canvas, this aligns the top side of the ImageSprite with the top side of the canvas._
 
 ### MoveTo
 
@@ -168,7 +168,7 @@ Moves the ImageSprite back in bounds if part of it extends out of bounds, having
     |y|`number`|
 
 
-Moves the ImageSprite so that its left top corner is at the specfied x and y coordinates.
+_Moves the ImageSprite so that its left top corner is at the specfied x and y coordinates._
 
 ### PointInDirection
 
@@ -181,7 +181,7 @@ Moves the ImageSprite so that its left top corner is at the specfied x and y coo
     |y|`number`|
 
 
-Sets the heading of the ImageSprite toward the point with the coordinates (x, y).
+_Sets the heading of the ImageSprite toward the point with the coordinates (x, y)._
 
 ### PointTowards
 
@@ -193,13 +193,13 @@ Sets the heading of the ImageSprite toward the point with the coordinates (x, y)
     |target|`component`|
 
 
-Turns the ImageSprite to point towards a designated target sprite (Ball or ImageSprite). The new heading will be parallel to the line joining the centerpoints of the two sprites.
+_Turns the ImageSprite to point towards a designated target sprite (Ball or ImageSprite). The new heading will be parallel to the line joining the centerpoints of the two sprites._
 
 ## Properties
 
 ### Enabled
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Image Sprite', 'Enabled')]]
@@ -208,11 +208,11 @@ Turns the ImageSprite to point towards a designated target sprite (Ball or Image
 |:----:|:-------:|
 |boolean|True|
 
-Controls whether the ImageSprite moves and can be interacted with through collisions, dragging, touching, and flinging.
+_Controls whether the ImageSprite moves and can be interacted with through collisions, dragging, touching, and flinging._
 
 ### Heading
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Image Sprite', 'Heading')]]
@@ -221,12 +221,12 @@ Controls whether the ImageSprite moves and can be interacted with through collis
 |:----:|:-------:|
 |number|0|
 
-Sets heading in which sprite should move.  In addition to changing the
- local variables
+_Sets heading in which sprite should move.  In addition to changing the
+ local variables_
 
 ### Interval
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Image Sprite', 'Interval')]]
@@ -235,11 +235,11 @@ Sets heading in which sprite should move.  In addition to changing the
 |:----:|:-------:|
 |number|100|
 
-The interval in milliseconds at which the ImageSprite's position is updated.  For example, if the interval is 50 and the speed is 10, then every 50 milliseconds the sprite will move 10 pixels in the heading direction.
+_The interval in milliseconds at which the ImageSprite's position is updated.  For example, if the interval is 50 and the speed is 10, then every 50 milliseconds the sprite will move 10 pixels in the heading direction._
 
 ### Picture
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Image Sprite', 'Picture')]]
@@ -248,11 +248,11 @@ The interval in milliseconds at which the ImageSprite's position is updated.  Fo
 |:----:|
 |text|
 
-The picture that determines the ImageSprite's appearance.
+_The picture that determines the ImageSprite's appearance._
 
 ### Rotates
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Image Sprite', 'Rotates')]]
@@ -261,11 +261,11 @@ The picture that determines the ImageSprite's appearance.
 |:----:|:-------:|
 |boolean|True|
 
-Whether the image should rotate to match the ImageSprite's heading. The sprite rotates around its centerpoint.
+_Whether the image should rotate to match the ImageSprite's heading. The sprite rotates around its centerpoint._
 
 ### Speed
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Image Sprite', 'Speed')]]
@@ -274,11 +274,11 @@ Whether the image should rotate to match the ImageSprite's heading. The sprite r
 |:----:|:-------:|
 |number|0.0|
 
-The number of pixels that the ImageSprite should move every interval, if enabled.
+_The number of pixels that the ImageSprite should move every interval, if enabled._
 
 ### Visible
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Image Sprite', 'Visible')]]
@@ -287,11 +287,11 @@ The number of pixels that the ImageSprite should move every interval, if enabled
 |:----:|:-------:|
 |boolean|True|
 
-Whether the ImageSprite is visible.
+_Whether the ImageSprite is visible._
 
 ### X
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Image Sprite', 'X')]]
@@ -300,11 +300,11 @@ Whether the ImageSprite is visible.
 |:----:|:-------:|
 |number|0.0|
 
-The horizontal coordinate of the left edge of the ImageSprite, increasing as the ImageSprite moves right.
+_The horizontal coordinate of the left edge of the ImageSprite, increasing as the ImageSprite moves right._
 
 ### Y
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Image Sprite', 'Y')]]
@@ -313,11 +313,11 @@ The horizontal coordinate of the left edge of the ImageSprite, increasing as the
 |:----:|:-------:|
 |number|0.0|
 
-The vertical coordinate of the top edge of the ImageSprite, increasing as the ImageSprite moves down.
+_The vertical coordinate of the top edge of the ImageSprite, increasing as the ImageSprite moves down._
 
 ### Z
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Image Sprite', 'Z')]]
@@ -326,12 +326,10 @@ The vertical coordinate of the top edge of the ImageSprite, increasing as the Im
 |:----:|:-------:|
 |number|1.0|
 
-Sets the layer of the sprite, indicating whether it will appear in
- front of or behind other sprites.
+_Sets the layer of the sprite, indicating whether it will appear in
+ front of or behind other sprites._
 
 ### Height
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Image Sprite', 'Height')]]
@@ -340,11 +338,9 @@ Sets the layer of the sprite, indicating whether it will appear in
 |:----:|:-------:|
 |number|None|
 
-The height of the ImageSprite in pixels.
+_The height of the ImageSprite in pixels._
 
 ### Width
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Image Sprite', 'Width')]]
@@ -353,4 +349,4 @@ The height of the ImageSprite in pixels.
 |:----:|:-------:|
 |number|None|
 
-The width of the ImageSprite in pixels.
+_The width of the ImageSprite in pixels._

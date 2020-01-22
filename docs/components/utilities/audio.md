@@ -22,7 +22,7 @@ _A non-visible component that manages the device''s audio settings._
     |error Message|`text`|
 
 
-Event triggered when a error occurred.
+_Event triggered when a error occurred._
 
 ## Methods
 
@@ -38,25 +38,25 @@ Event triggered when a error occurred.
     |component|`component`|
 
 
-Returns true whether a component should have sound effects enabled for events such as clicking and touching.
+_Returns true whether a component should have sound effects enabled for events such as clicking and touching._
 
 ### RingerModeNormal
 
 [[Method('Audio', 'RingerModeNormal', false)]]
 
-Sets the ringer mode to "normal".
+_Sets the ringer mode to "normal"._
 
 ### RingerModeSilent
 
 [[Method('Audio', 'RingerModeSilent', false)]]
 
-Sets the ringer mode to "silent".
+_Sets the ringer mode to "silent"._
 
 ### RingerModeVibrate
 
 [[Method('Audio', 'RingerModeVibrate', false)]]
 
-Sets the ringer mode to "vibrate".
+_Sets the ringer mode to "vibrate"._
 
 ### SoundEffectsEnabled
 
@@ -69,13 +69,13 @@ Sets the ringer mode to "vibrate".
     |enabled|`boolean`|
 
 
-Set whether a component should have sound effects enabled for events such as clicking and touching.
+_Set whether a component should have sound effects enabled for events such as clicking and touching._
 
 ## Properties
 
 ### Show UI
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Audio', 'Show UI')]]
@@ -84,11 +84,9 @@ Set whether a component should have sound effects enabled for events such as cli
 |:----:|:-------:|
 |boolean|False|
 
-If set to true you will see system ui.
+_If set to true you will see system ui._
 
 ### Get Audio Mode
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Audio', 'Get Audio Mode')]]
@@ -97,11 +95,9 @@ If set to true you will see system ui.
 |:----:|:-------:|
 |text|None|
 
-Returns the current audio mode as string. Possible returns are "NORMAL", "RINGTONE", "CALL" or "COMMUNICATION".
+_Returns the current audio mode as string. Possible returns are "NORMAL", "RINGTONE", "CALL" or "COMMUNICATION"._
 
 ### Volume Alarm
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Audio', 'Volume Alarm')]]
@@ -110,11 +106,9 @@ Returns the current audio mode as string. Possible returns are "NORMAL", "RINGTO
 |:----:|:-------:|
 |number|None|
 
-Returns the current volume index in percent.
+_Returns the current volume index in percent._
 
 ### Volume Music
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Audio', 'Volume Music')]]
@@ -123,11 +117,9 @@ Returns the current volume index in percent.
 |:----:|:-------:|
 |number|None|
 
-Returns the current volume index in percent.
+_Returns the current volume index in percent._
 
 ### Volume Ring
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Audio', 'Volume Ring')]]
@@ -136,4 +128,4 @@ Returns the current volume index in percent.
 |:----:|:-------:|
 |number|None|
 
-Returns the current volume index in percent.
+_Returns the current volume index in percent._

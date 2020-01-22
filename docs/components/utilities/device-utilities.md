@@ -22,7 +22,7 @@ _A non-visible component that fetches specifications of the device._
     |imei|`text`|
 
 
-Event to get the IMEI after it was requested.
+_Event to get the IMEI after it was requested._
 
 ### Got Serial
 
@@ -34,7 +34,7 @@ Event to get the IMEI after it was requested.
     |serial|`text`|
 
 
-Event to get the serial number after it was requested.
+_Event to get the serial number after it was requested._
 
 ## Methods
 
@@ -44,7 +44,7 @@ Event to get the serial number after it was requested.
 
 {>>Returns `boolean`<<}
 
-Returns TRUE if one of 12 known patching or root emulating packages is installed. The name of the package is not returned, so the user does not know which package name to change. Developed by Cian.
+_Returns TRUE if one of 12 known patching or root emulating packages is installed. The name of the package is not returned, so the user does not know which package name to change. Developed by Cian._
 
 ### Copy
 
@@ -57,7 +57,7 @@ Returns TRUE if one of 12 known patching or root emulating packages is installed
     |Success Toast Message|`text`|
 
 
-Copy text to clipboard. In case 'Show Success Toast' is true, the toast with your message will be shown after copying a text to the clipboard.
+_Copy text to clipboard. In case 'Show Success Toast' is true, the toast with your message will be shown after copying a text to the clipboard._
 
 ### ExternalStorageAvailable
 
@@ -65,7 +65,7 @@ Copy text to clipboard. In case 'Show Success Toast' is true, the toast with you
 
 {>>Returns `number`<<}
 
-Available size of external storage in Gigabytes.
+_Available size of external storage in Gigabytes._
 
 ### ExternalStorageTotal
 
@@ -73,7 +73,7 @@ Available size of external storage in Gigabytes.
 
 {>>Returns `number`<<}
 
-Total external storage size in Gigabytes.
+_Total external storage size in Gigabytes._
 
 ### ExternalStorageUsed
 
@@ -81,19 +81,19 @@ Total external storage size in Gigabytes.
 
 {>>Returns `number`<<}
 
-Size of used-external-storage in Gigabytes.
+_Size of used-external-storage in Gigabytes._
 
 ### GetIMEI
 
 [[Method('Device Utilities', 'GetIMEI', false)]]
 
-Get the IMEI of the device. The result will be then at the 'Got IMEI' event.
+_Get the IMEI of the device. The result will be then at the 'Got IMEI' event._
 
 ### GetSerial
 
 [[Method('Device Utilities', 'GetSerial', false)]]
 
-A hardware serial number, if available. Alphanumeric only, case-insensitive. For apps targeting SDK higher than N_MR1 this field is set to UNKNOWN.
+_A hardware serial number, if available. Alphanumeric only, case-insensitive. For apps targeting SDK higher than N_MR1 this field is set to UNKNOWN._
 
 ### InternalStorageAvailable
 
@@ -101,7 +101,7 @@ A hardware serial number, if available. Alphanumeric only, case-insensitive. For
 
 {>>Returns `number`<<}
 
-Size of available internal storage in Gigabytes.
+_Size of available internal storage in Gigabytes._
 
 ### InternalStorageTotal
 
@@ -109,7 +109,7 @@ Size of available internal storage in Gigabytes.
 
 {>>Returns `number`<<}
 
-Total size of internal storage in Gigabytes.
+_Total size of internal storage in Gigabytes._
 
 ### InternalStorageUsed
 
@@ -117,7 +117,7 @@ Total size of internal storage in Gigabytes.
 
 {>>Returns `number`<<}
 
-Size of used-internal-storage in Gigabytes.
+_Size of used-internal-storage in Gigabytes._
 
 ### MemoryFree
 
@@ -125,7 +125,7 @@ Size of used-internal-storage in Gigabytes.
 
 {>>Returns `number`<<}
 
-Total free RAM size in Gigabytes.
+_Total free RAM size in Gigabytes._
 
 ### MemoryTotal
 
@@ -133,7 +133,7 @@ Total free RAM size in Gigabytes.
 
 {>>Returns `number`<<}
 
-Total RAM size in Gigabytes.
+_Total RAM size in Gigabytes._
 
 ### MemoryUsed
 
@@ -141,7 +141,7 @@ Total RAM size in Gigabytes.
 
 {>>Returns `number`<<}
 
-Size of used-memory in Gigabytes.
+_Size of used-memory in Gigabytes._
 
 ### Parse
 
@@ -158,7 +158,7 @@ Size of used-memory in Gigabytes.
     |if Text Not Found|`text`|
 
 
-Parse a text between two strings. Example: text = abcdef, start = a, end = d, result = bc. If there is a problem the 'if Text Not Found' will be returned.
+_Parse a text between two strings. Example: text = abcdef, start = a, end = d, result = bc. If there is a problem the 'if Text Not Found' will be returned._
 
 ### Paste
 
@@ -172,7 +172,7 @@ Parse a text between two strings. Example: text = abcdef, start = a, end = d, re
     |Success Toast Message|`text`|
 
 
-Paste text from clipboard. In case 'Show Success Toast' is true, the toast with your message will be shown after pasting a text from the clipboard.
+_Paste text from clipboard. In case 'Show Success Toast' is true, the toast with your message will be shown after pasting a text from the clipboard._
 
 ### Is Adb Debugging Enabled
 
@@ -180,7 +180,7 @@ Paste text from clipboard. In case 'Show Success Toast' is true, the toast with 
 
 {>>Returns `boolean`<<}
 
-This returns TRUE if ADB debugging is enabled, which could be a sign of hacking your app, or a compromised device. Developed by Cian.
+_This returns TRUE if ADB debugging is enabled, which could be a sign of hacking your app, or a compromised device. Developed by Cian._
 
 ### Is Emulator
 
@@ -188,7 +188,7 @@ This returns TRUE if ADB debugging is enabled, which could be a sign of hacking 
 
 {>>Returns `boolean`<<}
 
-Returns TRUE if the device operating on an emulator. Developed by Cian.
+_Returns TRUE if the device operating on an emulator. Developed by Cian._
 
 ### Is Installed From Play Store
 
@@ -196,13 +196,13 @@ Returns TRUE if the device operating on an emulator. Developed by Cian.
 
 {>>Returns `boolean`<<}
 
-Returns TRUE if the app was installed from Play Store. Developed by Cian.
+_Returns TRUE if the app was installed from Play Store. Developed by Cian._
 
 ## Properties
 
 ### Show Success Toast
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Device Utilities', 'Show Success Toast')]]
@@ -211,11 +211,9 @@ Returns TRUE if the app was installed from Play Store. Developed by Cian.
 |:----:|:-------:|
 |boolean|False|
 
-Returns true if 'Show Success Toast' is enabled.
+_Returns true if 'Show Success Toast' is enabled._
 
 ### Android Version
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Device Utilities', 'Android Version')]]
@@ -224,11 +222,9 @@ Returns true if 'Show Success Toast' is enabled.
 |:----:|:-------:|
 |text|None|
 
-Get the android version of device.
+_Get the android version of device._
 
 ### API Version
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Device Utilities', 'API Version')]]
@@ -237,11 +233,9 @@ Get the android version of device.
 |:----:|:-------:|
 |number|None|
 
-The user-visible SDK version of the framework.
+_The user-visible SDK version of the framework._
 
 ### Board
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Device Utilities', 'Board')]]
@@ -250,11 +244,9 @@ The user-visible SDK version of the framework.
 |:----:|:-------:|
 |text|None|
 
-The name of the underlying board, like "goldfish".
+_The name of the underlying board, like "goldfish"._
 
 ### Bootloader Version
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Device Utilities', 'Bootloader Version')]]
@@ -263,11 +255,9 @@ The name of the underlying board, like "goldfish".
 |:----:|:-------:|
 |text|None|
 
-The system bootloader version number.
+_The system bootloader version number._
 
 ### Brand
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Device Utilities', 'Brand')]]
@@ -276,11 +266,9 @@ The system bootloader version number.
 |:----:|:-------:|
 |text|None|
 
-The consumer-visible brand with which the product/hardware will be associated, if any.
+_The consumer-visible brand with which the product/hardware will be associated, if any._
 
 ### Build Number
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Device Utilities', 'Build Number')]]
@@ -289,11 +277,9 @@ The consumer-visible brand with which the product/hardware will be associated, i
 |:----:|:-------:|
 |text|None|
 
-Get the build number(Software) of the device.
+_Get the build number(Software) of the device._
 
 ### Country Code
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Device Utilities', 'Country Code')]]
@@ -302,11 +288,9 @@ Get the build number(Software) of the device.
 |:----:|:-------:|
 |text|None|
 
-The result is the code of your country.
+_The result is the code of your country._
 
 ### Device Name
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Device Utilities', 'Device Name')]]
@@ -315,11 +299,9 @@ The result is the code of your country.
 |:----:|:-------:|
 |text|None|
 
-The name of the industrial design.
+_The name of the industrial design._
 
 ### Fingerprint
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Device Utilities', 'Fingerprint')]]
@@ -328,11 +310,9 @@ The name of the industrial design.
 |:----:|:-------:|
 |text|None|
 
-A string that uniquely identifies this build.
+_A string that uniquely identifies this build._
 
 ### Device Id
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Device Utilities', 'Device Id')]]
@@ -341,11 +321,9 @@ A string that uniquely identifies this build.
 |:----:|:-------:|
 |text|None|
 
-Returns the unique device specific 'AndroidID'. Developed by Cian.
+_Returns the unique device specific 'AndroidID'. Developed by Cian._
 
 ### Hardware
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Device Utilities', 'Hardware')]]
@@ -354,11 +332,9 @@ Returns the unique device specific 'AndroidID'. Developed by Cian.
 |:----:|:-------:|
 |text|None|
 
-The name of the hardware (from the kernel command line or /proc).
+_The name of the hardware (from the kernel command line or /proc)._
 
 ### ID
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Device Utilities', 'ID')]]
@@ -367,11 +343,9 @@ The name of the hardware (from the kernel command line or /proc).
 |:----:|:-------:|
 |text|None|
 
-Either a changelist number, or a label like "M4-rc20".
+_Either a changelist number, or a label like "M4-rc20"._
 
 ### Language Code
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Device Utilities', 'Language Code')]]
@@ -380,11 +354,9 @@ Either a changelist number, or a label like "M4-rc20".
 |:----:|:-------:|
 |text|None|
 
-The result is the code of your device language.
+_The result is the code of your device language._
 
 ### Manufacturer
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Device Utilities', 'Manufacturer')]]
@@ -393,11 +365,9 @@ The result is the code of your device language.
 |:----:|:-------:|
 |text|None|
 
-The manufacturer of the product/hardware.
+_The manufacturer of the product/hardware._
 
 ### Model Name
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Device Utilities', 'Model Name')]]
@@ -406,11 +376,9 @@ The manufacturer of the product/hardware.
 |:----:|:-------:|
 |text|None|
 
-The end-user-visible name for the end product.
+_The end-user-visible name for the end product._
 
 ### Product
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Device Utilities', 'Product')]]
@@ -419,11 +387,9 @@ The end-user-visible name for the end product.
 |:----:|:-------:|
 |text|None|
 
-The name of the overall product.
+_The name of the overall product._
 
 ### Radio Version
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Device Utilities', 'Radio Version')]]
@@ -432,11 +398,11 @@ The name of the overall product.
 |:----:|:-------:|
 |text|None|
 
-Returns the version string for the radio firmware. May return null (if, for instance, the radio is not currently on).
+_Returns the version string for the radio firmware. May return null (if, for instance, the radio is not currently on)._
 
 ### Serial
 
-:warning: ==**Deprecated**== 
+:warning: ==**Deprecated**==
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Device Utilities', 'Serial')]]
@@ -445,11 +411,9 @@ Returns the version string for the radio firmware. May return null (if, for inst
 |:----:|:-------:|
 |text|None|
 
-DEPRECATED. DO NOT USE THIS ANYMORE. USE 'Get Serial' INSTEAD!
+_DEPRECATED. DO NOT USE THIS ANYMORE. USE 'Get Serial' INSTEAD!_
 
 ### Tags
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Device Utilities', 'Tags')]]
@@ -458,11 +422,9 @@ DEPRECATED. DO NOT USE THIS ANYMORE. USE 'Get Serial' INSTEAD!
 |:----:|:-------:|
 |text|None|
 
-Comma-separated tags describing the build, like "unsigned,debug".
+_Comma-separated tags describing the build, like "unsigned,debug"._
 
 ### Type
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Device Utilities', 'Type')]]
@@ -471,4 +433,4 @@ Comma-separated tags describing the build, like "unsigned,debug".
 |:----:|:-------:|
 |text|None|
 
-The type of build, like "user" or "eng".
+_The type of build, like "user" or "eng"._

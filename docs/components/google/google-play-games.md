@@ -25,7 +25,7 @@ _A non-visible component that enables game user authentication, leaderboards, an
     |xp|`number`|
 
 
-Got player info
+_Got player info_
 
 ### Signed In
 
@@ -37,13 +37,13 @@ Got player info
     |success|`boolean`|
 
 
-User signed in.
+_User signed in._
 
 ### Signed Out
 
 [[Event('Google Play Games', 'Signed Out')]]
 
-User signed out.
+_User signed out._
 
 ## Methods
 
@@ -51,7 +51,7 @@ User signed out.
 
 [[Method('Google Play Games', 'GetPlayer', false)]]
 
-Get the current player
+_Get the current player_
 
 ### IncrementAchievement
 
@@ -64,7 +64,7 @@ Get the current player
     |by|`number`|
 
 
-Increment an achievement.
+_Increment an achievement._
 
 ### IsSignedIn
 
@@ -72,13 +72,13 @@ Increment an achievement.
 
 {>>Returns `boolean`<<}
 
-Is user signed in?
+_Is user signed in?_
 
 ### ShowAchievements
 
 [[Method('Google Play Games', 'ShowAchievements', false)]]
 
-Shows Achievement.
+_Shows Achievement._
 
 ### ShowLeaderboard
 
@@ -90,7 +90,7 @@ Shows Achievement.
     |leaderboard Id|`text`|
 
 
-Shows Leaderboard.
+_Shows Leaderboard._
 
 ### SignIn
 
@@ -102,13 +102,13 @@ Shows Leaderboard.
     |use Last Account|`boolean`|
 
 
-Sign in the user. useLastAccount, true: use the last signed in account if possible, false: open a screen to choose for an account
+_Sign in the user. useLastAccount, true: use the last signed in account if possible, false: open a screen to choose for an account_
 
 ### SignOut
 
 [[Method('Google Play Games', 'SignOut', false)]]
 
-Sign out the user.
+_Sign out the user._
 
 ### SubmitScore
 
@@ -121,7 +121,7 @@ Sign out the user.
     |score|`number`|
 
 
-Submits user score to leaderboard.
+_Submits user score to leaderboard._
 
 ### UnlockAchievement
 
@@ -133,13 +133,13 @@ Submits user score to leaderboard.
     |achievement Id|`text`|
 
 
-Unlock an achievement.
+_Unlock an achievement._
 
 ## Properties
 
 ### Google Play Games App ID
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Google Play Games', 'Google Play Games App ID')]]

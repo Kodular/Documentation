@@ -23,7 +23,7 @@ _A non-visible component that generates a QR code from text._
     |url|`text`|
 
 
-You will find here the success state and image url.
+_You will find here the success state and image url._
 
 ## Methods
 
@@ -31,13 +31,13 @@ You will find here the success state and image url.
 
 [[Method('QR Code', 'GenerateQrCode', false)]]
 
-Create a QR Code and the result is a link to it. Example: Set the resolution(in pixel) to 200(height and width has the same value) and text to: Hello world!. Result: QR code resolution is 200x200, text = Hello world! Your text input is encoded in the link automatically.
+_Create a QR Code and the result is a link to it. Example: Set the resolution(in pixel) to 200(height and width has the same value) and text to: Hello world!. Result: QR code resolution is 200x200, text = Hello world! Your text input is encoded in the link automatically._
 
 ## Properties
 
 ### Background Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('QR Code', 'Background Color')]]
@@ -46,11 +46,11 @@ Create a QR Code and the result is a link to it. Example: Set the resolution(in 
 |:----:|:-------:|
 |number|&HFFFFFFFF|
 
-Set the background color of the qr code result.
+_Set the background color of the qr code result._
 
 ### Charset
 
-<small>Available as Advanced Property</small>
+<small>Available as ^^Advanced^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('QR Code', 'Charset')]]
@@ -59,11 +59,11 @@ Set the background color of the qr code result.
 |:----:|:-------:|
 |text|UTF-8|
 
-Set the charset of the input text.
+_Set the charset of the input text._
 
 ### Format
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('QR Code', 'Format')]]
@@ -72,11 +72,11 @@ Set the charset of the input text.
 |:----:|:-------:|
 |text|png|
 
-It's possible to create the QR code picture using different file formats, available are PNG, GIF, JPEG and the vector graphic formats SVG and EPS.
+_It's possible to create the QR code picture using different file formats, available are PNG, GIF, JPEG and the vector graphic formats SVG and EPS._
 
 ### Front Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('QR Code', 'Front Color')]]
@@ -85,11 +85,11 @@ It's possible to create the QR code picture using different file formats, availa
 |:----:|:-------:|
 |number|&HFF000000|
 
-Set the color of the qr code result.
+_Set the color of the qr code result._
 
 ### Margin
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('QR Code', 'Margin')]]
@@ -98,11 +98,11 @@ Set the color of the qr code result.
 |:----:|:-------:|
 |number|0|
 
-Thickness of a margin in pixels. The margin will always have the same color as the background.
+_Thickness of a margin in pixels. The margin will always have the same color as the background._
 
 ### Size
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('QR Code', 'Size')]]
@@ -111,11 +111,11 @@ Thickness of a margin in pixels. The margin will always have the same color as t
 |:----:|:-------:|
 |number|200|
 
-Set the size/resolution of the qr code.
+_Set the size/resolution of the qr code._
 
 ### Text
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('QR Code', 'Text')]]
@@ -124,4 +124,4 @@ Set the size/resolution of the qr code.
 |:----:|:-------:|
 |text|Default|
 
-This is the text that is converted as qr code.
+_This is the text that is converted as qr code._

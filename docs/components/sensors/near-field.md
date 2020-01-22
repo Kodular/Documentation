@@ -23,21 +23,21 @@ _<p>Non-visible component to provide NFC capabilities.  For now this component s
     |message|`text`|
 
 
-Indicates that a new tag has been detected.
+_Indicates that a new tag has been detected.
  Currently this is only a plain text tag, as specified in the
- manifest.  See Compiler.java.
+ manifest.  See Compiler.java._
 
 ### Tag Written
 
 [[Event('Near Field', 'Tag Written')]]
 
-Event to detect when a tag was written.
+_Event to detect when a tag was written._
 
 ## Properties
 
 ### Read Mode
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Near Field', 'Read Mode')]]
@@ -46,11 +46,9 @@ Event to detect when a tag was written.
 |:----:|:-------:|
 |boolean|True|
 
-Returns true if in read mode, false if in write mode.
+_Returns true if in read mode, false if in write mode._
 
 ### Last Message
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Near Field', 'Last Message')]]
@@ -59,11 +57,9 @@ Returns true if in read mode, false if in write mode.
 |:----:|:-------:|
 |text|None|
 
-Returns the content of the most recently received tag.
+_Returns the content of the most recently received tag._
 
 ### Text To Write
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Near Field', 'Text To Write')]]
@@ -72,11 +68,9 @@ Returns the content of the most recently received tag.
 |:----:|:-------:|
 |text|None|
 
-Returns the content of the text that's going to be written to the tag.
+_Returns the content of the text that's going to be written to the tag._
 
 ### Write Type
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Near Field', 'Write Type')]]

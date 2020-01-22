@@ -16,43 +16,43 @@ _<p>A multimedia component that plays sound files and optionally vibrates for th
 
 [[Method('Sound', 'Pause', false)]]
 
-Pauses playing the sound if it is being played.
+_Pauses playing the sound if it is being played._
 
 ### Play
 
 [[Method('Sound', 'Play', false)]]
 
-Plays the sound specified by the Source property.
+_Plays the sound specified by the Source property._
 
 ### Resume
 
 [[Method('Sound', 'Resume', false)]]
 
-Resumes playing the sound after a pause.
+_Resumes playing the sound after a pause._
 
 ### SoundNormal
 
 [[Method('Sound', 'SoundNormal', false)]]
 
-Ringer mode that may be audible and may vibrate.
+_Ringer mode that may be audible and may vibrate._
 
 ### SoundSilent
 
 [[Method('Sound', 'SoundSilent', false)]]
 
-Ringer mode that will be silent and will not vibrate.
+_Ringer mode that will be silent and will not vibrate._
 
 ### SoundVibrate
 
 [[Method('Sound', 'SoundVibrate', false)]]
 
-Ringer mode that will be silent and will vibrate.
+_Ringer mode that will be silent and will vibrate._
 
 ### Stop
 
 [[Method('Sound', 'Stop', false)]]
 
-Stops playing the sound if it is being played.
+_Stops playing the sound if it is being played._
 
 ### Vibrate
 
@@ -64,7 +64,7 @@ Stops playing the sound if it is being played.
     |millisecs|`number`|
 
 
-Vibrates for the specified number of milliseconds.
+_Vibrates for the specified number of milliseconds._
 
 ### VibratePattern
 
@@ -78,13 +78,13 @@ Vibrates for the specified number of milliseconds.
     |repeat|`boolean`|
 
 
-Vibrate with a given pattern
+_Vibrate with a given pattern_
 
 ## Properties
 
 ### Minimum Interval (ms)
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Sound', 'Minimum Interval (ms)')]]
@@ -93,11 +93,11 @@ Vibrate with a given pattern
 |:----:|:-------:|
 |number|500|
 
-The minimum interval, in milliseconds, between sounds.  If you play a sound, all further Play() calls will be ignored until the interval has elapsed.
+_The minimum interval, in milliseconds, between sounds.  If you play a sound, all further Play() calls will be ignored until the interval has elapsed._
 
 ### Source
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Sound', 'Source')]]
@@ -106,4 +106,4 @@ The minimum interval, in milliseconds, between sounds.  If you play a sound, all
 |:----:|
 |text|
 
-The name of the sound file.  Only certain formats are supported.  See http://developer.android.com/guide/appendix/media-formats.html.
+_The name of the sound file.  Only certain formats are supported.  See http://developer.android.com/guide/appendix/media-formats.html._

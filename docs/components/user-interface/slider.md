@@ -20,25 +20,25 @@ _A Slider is a progress bar that adds a draggable thumb. You can touch the thumb
     |thumb Position|`number`|
 
 
-Indicates that position of the slider thumb has changed.
+_Indicates that position of the slider thumb has changed._
 
 ### Touch Down
 
 [[Event('Slider', 'Touch Down')]]
 
-Event will be invoked on a touch down.
+_Event will be invoked on a touch down._
 
 ### Touch Up
 
 [[Event('Slider', 'Touch Up')]]
 
-Event will be invoked on a touch up.
+_Event will be invoked on a touch up._
 
 ## Properties
 
 ### Color Left
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Slider', 'Color Left')]]
@@ -47,11 +47,11 @@ Event will be invoked on a touch up.
 |:----:|:-------:|
 |number|&HFF00BCD3|
 
-The color of slider to the left of the thumb.
+_The color of slider to the left of the thumb._
 
 ### Color Right
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Slider', 'Color Right')]]
@@ -60,11 +60,11 @@ The color of slider to the left of the thumb.
 |:----:|:-------:|
 |number|&HFF9E9E9E|
 
-The color of slider to the left of the thumb.
+_The color of slider to the left of the thumb._
 
 ### Max Value
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Slider', 'Max Value')]]
@@ -73,11 +73,11 @@ The color of slider to the left of the thumb.
 |:----:|:-------:|
 |number|50.0|
 
-Sets the maximum value of slider.  Changing the maximum value also resets Thumbposition to be halfway between the minimum and the (new) maximum. If the new maximum is less than the current minimum, then minimum and maximum will both be set to this value.  Setting MaxValue resets the thumb position to halfway between MinValue and MaxValue and signals the PositionChanged event.
+_Sets the maximum value of slider.  Changing the maximum value also resets Thumbposition to be halfway between the minimum and the (new) maximum. If the new maximum is less than the current minimum, then minimum and maximum will both be set to this value.  Setting MaxValue resets the thumb position to halfway between MinValue and MaxValue and signals the PositionChanged event._
 
 ### Min Value
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Slider', 'Min Value')]]
@@ -86,11 +86,11 @@ Sets the maximum value of slider.  Changing the maximum value also resets Thumbp
 |:----:|:-------:|
 |number|10.0|
 
-Sets the minimum value of slider.  Changing the minimum value also resets Thumbposition to be halfway between the (new) minimum and the maximum. If the new minimum is greater than the current maximum, then minimum and maximum will both be set to this value.  Setting MinValue resets the thumb position to halfway between MinValue and MaxValue and signals the PositionChanged event.
+_Sets the minimum value of slider.  Changing the minimum value also resets Thumbposition to be halfway between the (new) minimum and the maximum. If the new minimum is greater than the current maximum, then minimum and maximum will both be set to this value.  Setting MinValue resets the thumb position to halfway between MinValue and MaxValue and signals the PositionChanged event._
 
 ### Rotation Angle
 
-<small>Available as Advanced Property</small>
+<small>Available as ^^Advanced^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Slider', 'Rotation Angle')]]
@@ -99,11 +99,11 @@ Sets the minimum value of slider.  Changing the minimum value also resets Thumbp
 |:----:|:-------:|
 |number|0.0|
 
-Sets the degrees that the slider is rotated around the pivot point. Increasing values result in clockwise rotation.
+_Sets the degrees that the slider is rotated around the pivot point. Increasing values result in clockwise rotation._
 
 ### Thumb Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Slider', 'Thumb Color')]]
@@ -112,11 +112,11 @@ Sets the degrees that the slider is rotated around the pivot point. Increasing v
 |:----:|:-------:|
 |number|&HFF00BCD3|
 
-The color of slider thumb. This block works only on devices with api >= 16.
+_The color of slider thumb. This block works only on devices with api >= 16._
 
 ### Thumb Enabled
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Slider', 'Thumb Enabled')]]
@@ -125,11 +125,11 @@ The color of slider thumb. This block works only on devices with api >= 16.
 |:----:|:-------:|
 |boolean|True|
 
-Sets whether or not to display the slider thumb.
+_Sets whether or not to display the slider thumb._
 
 ### Thumb Image
 
-<small>Available as Advanced Property</small>
+<small>Available as ^^Advanced^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Slider', 'Thumb Image')]]
@@ -142,7 +142,7 @@ _No description available_
 
 ### Thumb Position
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Slider', 'Thumb Position')]]
@@ -151,11 +151,11 @@ _No description available_
 |:----:|:-------:|
 |number|30.0|
 
-Sets the position of the slider thumb. If this value is greater than MaxValue, then it will be set to same value as MaxValue. If this value is less than MinValue, then it will be set to same value as MinValue.
+_Sets the position of the slider thumb. If this value is greater than MaxValue, then it will be set to same value as MaxValue. If this value is less than MinValue, then it will be set to same value as MinValue._
 
 ### Visible
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Slider', 'Visible')]]
@@ -164,11 +164,9 @@ Sets the position of the slider thumb. If this value is greater than MaxValue, t
 |:----:|:-------:|
 |boolean|True|
 
-Returns true iff the component is visible.
+_Returns true iff the component is visible._
 
 ### Column
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Slider', 'Column')]]
@@ -177,11 +175,9 @@ Returns true iff the component is visible.
 |:----:|:-------:|
 |number|None|
 
-Column property getter method.
+_Column property getter method._
 
 ### Row
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Slider', 'Row')]]
@@ -190,11 +186,9 @@ Column property getter method.
 |:----:|:-------:|
 |number|None|
 
-Row property getter method.
+_Row property getter method._
 
 ### Width
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Slider', 'Width')]]
@@ -203,11 +197,9 @@ Row property getter method.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width, measured in pixels.
+_Specifies the component's horizontal width, measured in pixels._
 
 ### Width Percent
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Slider', 'Width Percent')]]
@@ -216,5 +208,5 @@ Specifies the component's horizontal width, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width as a percentage
- of the Width of its parent Component.
+_Specifies the component's horizontal width as a percentage
+ of the Width of its parent Component._

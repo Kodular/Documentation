@@ -16,13 +16,13 @@ _A non-visible component that shows a visible layout at the bottom of the screen
 
 [[Event('Bottom Sheet', 'Closed')]]
 
-Event to detect that the dialog was closed.
+_Event to detect that the dialog was closed._
 
 ### Opened
 
 [[Event('Bottom Sheet', 'Opened')]]
 
-Event to detect that the dialog was opened.
+_Event to detect that the dialog was opened._
 
 ## Methods
 
@@ -30,7 +30,7 @@ Event to detect that the dialog was opened.
 
 [[Method('Bottom Sheet', 'HideDialog', false)]]
 
-Hide the bottom sheet dialog.
+_Hide the bottom sheet dialog._
 
 ### RegisterComponentAsDialog
 
@@ -42,7 +42,7 @@ Hide the bottom sheet dialog.
     |component|`component`|
 
 
-Register any component as example a 'button', that will be later your bottom sheet dialog.
+_Register any component as example a 'button', that will be later your bottom sheet dialog._
 
 ### RegisterLayoutAsDialog
 
@@ -54,19 +54,19 @@ Register any component as example a 'button', that will be later your bottom she
     |layout|`component`|
 
 
-Register any layout as example a 'horizontal arrangement', that will be later your bottom sheet dialog.
+_Register any layout as example a 'horizontal arrangement', that will be later your bottom sheet dialog._
 
 ### ShowDialog
 
 [[Method('Bottom Sheet', 'ShowDialog', false)]]
 
-Show the bottom sheet dialog.
+_Show the bottom sheet dialog._
 
 ## Properties
 
 ### Dim Background
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Bottom Sheet', 'Dim Background')]]
@@ -75,11 +75,11 @@ Show the bottom sheet dialog.
 |:----:|:-------:|
 |boolean|True|
 
-If set to true the user will see a dark background effect. Else the background have then no dark background effect.
+_If set to true the user will see a dark background effect. Else the background have then no dark background effect._
 
 ### Show Status Bar
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Bottom Sheet', 'Show Status Bar')]]
@@ -88,4 +88,4 @@ If set to true the user will see a dark background effect. Else the background h
 |:----:|:-------:|
 |boolean|True|
 
-The status bar is the topmost bar on the screen. This property reports whether the status bar is visible.
+_The status bar is the topmost bar on the screen. This property reports whether the status bar is visible._

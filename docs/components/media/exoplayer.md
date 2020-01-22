@@ -16,7 +16,7 @@ _A non-visible component that plays audio files. <br>The ExoPlayer component, po
 
 [[Event('ExoPlayer', 'Completed')]]
 
-This event is invoked if the player state is completed.
+_This event is invoked if the player state is completed._
 
 ### Got Meta Data
 
@@ -32,7 +32,7 @@ This event is invoked if the player state is completed.
     |track|`text`|
 
 
-This event returns meta data from the audio stream. Works for files but not for streams as example radio streams.
+_This event returns meta data from the audio stream. Works for files but not for streams as example radio streams._
 
 ### On Player Error
 
@@ -44,19 +44,19 @@ This event returns meta data from the audio stream. Works for files but not for 
     |error Message|`text`|
 
 
-This event returns the error reason for any problems.
+_This event returns the error reason for any problems._
 
 ### Other Player Started
 
 [[Event('ExoPlayer', 'Other Player Started')]]
 
-This event is signaled when another player has started (and the current player is playing or paused, but not stopped).
+_This event is signaled when another player has started (and the current player is playing or paused, but not stopped)._
 
 ### Other Player Stopped
 
 [[Event('ExoPlayer', 'Other Player Stopped')]]
 
-This event is signaled when another player has stopped (and the current player is playing or paused, but not stopped).
+_This event is signaled when another player has stopped (and the current player is playing or paused, but not stopped)._
 
 ### Status Changed
 
@@ -71,7 +71,7 @@ This event is signaled when another player has stopped (and the current player i
     |is Loading|`boolean`|
 
 
-This event returns true or false for the respective simpleExoPlayer statuses.
+_This event returns true or false for the respective simpleExoPlayer statuses._
 
 ## Methods
 
@@ -79,13 +79,13 @@ This event returns true or false for the respective simpleExoPlayer statuses.
 
 [[Method('ExoPlayer', 'Pause', false)]]
 
-Pause the player.
+_Pause the player._
 
 ### Resume
 
 [[Method('ExoPlayer', 'Resume', false)]]
 
-Resume the player.
+_Resume the player._
 
 ### SeekTo
 
@@ -97,19 +97,19 @@ Resume the player.
     |position|`number`|
 
 
-Set a position where the source file should start playing in milliseconds.
+_Set a position where the source file should start playing in milliseconds._
 
 ### Start
 
 [[Method('ExoPlayer', 'Start', false)]]
 
-Start the player.
+_Start the player._
 
 ### Stop
 
 [[Method('ExoPlayer', 'Stop', false)]]
 
-Stop the player.
+_Stop the player._
 
 ### is Loading
 
@@ -117,7 +117,7 @@ Stop the player.
 
 {>>Returns `boolean`<<}
 
-Returns true if the player is current loading.
+_Returns true if the player is current loading._
 
 ### is Pause
 
@@ -125,7 +125,7 @@ Returns true if the player is current loading.
 
 {>>Returns `boolean`<<}
 
-Returns true if the player is current in pause mode.
+_Returns true if the player is current in pause mode._
 
 ### is Playing
 
@@ -133,7 +133,7 @@ Returns true if the player is current in pause mode.
 
 {>>Returns `boolean`<<}
 
-Returns true if the player is current playing.
+_Returns true if the player is current playing._
 
 ### is Stopped
 
@@ -141,13 +141,13 @@ Returns true if the player is current playing.
 
 {>>Returns `boolean`<<}
 
-Returns true if the player is current stopped.
+_Returns true if the player is current stopped._
 
 ## Properties
 
 ### Loop
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('ExoPlayer', 'Loop')]]
@@ -156,11 +156,11 @@ Returns true if the player is current stopped.
 |:----:|:-------:|
 |boolean|False|
 
-If true, the player will loop when it plays.
+_If true, the player will loop when it plays._
 
 ### Source
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('ExoPlayer', 'Source')]]
@@ -169,11 +169,11 @@ If true, the player will loop when it plays.
 |:----:|
 |text|
 
-Set the path to the audio source. Can be a asset file, from external card, or from a online stream.
+_Set the path to the audio source. Can be a asset file, from external card, or from a online stream._
 
 ### Volume
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('ExoPlayer', 'Volume')]]
@@ -182,11 +182,9 @@ Set the path to the audio source. Can be a asset file, from external card, or fr
 |:----:|:-------:|
 |number|50|
 
-Sets the volume to a number between 0 and 100
+_Sets the volume to a number between 0 and 100_
 
 ### Current Position
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('ExoPlayer', 'Current Position')]]
@@ -195,11 +193,9 @@ Sets the volume to a number between 0 and 100
 |:----:|:-------:|
 |number|None|
 
-Returns the current position of the source file that is playing in milliseconds.
+_Returns the current position of the source file that is playing in milliseconds._
 
 ### Duration
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('ExoPlayer', 'Duration')]]
@@ -208,4 +204,4 @@ Returns the current position of the source file that is playing in milliseconds.
 |:----:|:-------:|
 |number|None|
 
-Returns the duration of the source file.
+_Returns the duration of the source file._

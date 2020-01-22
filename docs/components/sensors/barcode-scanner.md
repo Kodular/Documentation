@@ -22,7 +22,7 @@ _A non-visible component that reads barcodes from the device''s camera._
     |result|`text`|
 
 
-Indicates that the scanner has read a (text) result and provides the result
+_Indicates that the scanner has read a (text) result and provides the result_
 
 ## Methods
 
@@ -30,13 +30,13 @@ Indicates that the scanner has read a (text) result and provides the result
 
 [[Method('Barcode Scanner', 'DoScan', false)]]
 
-Begins a barcode scan, using the camera. When the scan is complete, the AfterScan event will be raised.
+_Begins a barcode scan, using the camera. When the scan is complete, the AfterScan event will be raised._
 
 ## Properties
 
 ### Use External Scanner
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Barcode Scanner', 'Use External Scanner')]]
@@ -45,11 +45,9 @@ Begins a barcode scan, using the camera. When the scan is complete, the AfterSca
 |:----:|:-------:|
 |boolean|False|
 
-If true App Inventor will look for and use an external scanning program such as "Bar Code Scanner."
+_If true App Inventor will look for and use an external scanning program such as "Bar Code Scanner."_
 
 ### Result
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Barcode Scanner', 'Result')]]
@@ -58,4 +56,4 @@ If true App Inventor will look for and use an external scanning program such as 
 |:----:|:-------:|
 |text|None|
 
-Text result of the previous scan.
+_Text result of the previous scan._

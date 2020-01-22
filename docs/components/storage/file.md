@@ -22,19 +22,19 @@ _Non-visible component for storing and retrieving files. Use this component to w
     |file Name|`text`|
 
 
-Event indicating that the contents of the file have been written.
+_Event indicating that the contents of the file have been written._
 
 ### After Unzip
 
 [[Event('File', 'After Unzip')]]
 
-Event indicating that the zip file have been created.
+_Event indicating that the zip file have been created._
 
 ### After Zip
 
 [[Event('File', 'After Zip')]]
 
-Event indicating that the zip file have been created.
+_Event indicating that the zip file have been created._
 
 ### Directory Created
 
@@ -46,7 +46,7 @@ Event indicating that the zip file have been created.
     |is Directory Created|`boolean`|
 
 
-Event indicating that there was a directory created. The return value is 'true' or 'false'.
+_Event indicating that there was a directory created. The return value is 'true' or 'false'._
 
 ### Got Text
 
@@ -58,7 +58,7 @@ Event indicating that there was a directory created. The return value is 'true' 
     |text|`text`|
 
 
-Event indicating that the contents from the file have been read.
+_Event indicating that the contents from the file have been read._
 
 ### On Zip Failure
 
@@ -70,7 +70,7 @@ Event indicating that the contents from the file have been read.
     |error Message|`text`|
 
 
-Event indicating that there was any failure on zip or unzip a file.
+_Event indicating that there was any failure on zip or unzip a file._
 
 ## Methods
 
@@ -85,7 +85,7 @@ Event indicating that there was any failure on zip or unzip a file.
     |file Name|`text`|
 
 
-Appends text to the end of a file storage, creating the file if it does not exist. See the help text under SaveFile for information about where files are written.
+_Appends text to the end of a file storage, creating the file if it does not exist. See the help text under SaveFile for information about where files are written._
 
 ### Copy
 
@@ -98,7 +98,7 @@ Appends text to the end of a file storage, creating the file if it does not exis
     |output|`text`|
 
 
-Copy file
+_Copy file_
 
 ### CreateDirectory
 
@@ -110,7 +110,7 @@ Copy file
     |directory|`text`|
 
 
-Create a new directory.
+_Create a new directory._
 
 ### Delete
 
@@ -122,7 +122,7 @@ Create a new directory.
     |file Name|`text`|
 
 
-Deletes a file from storage. Prefix the filename with / to delete a specific file in the SD card, for instance /myFile.txt. will delete the file /sdcard/myFile.txt. If the file does not begin with a /, then the file located in the programs private storage will be deleted. Starting the file with // is an error because assets files cannot be deleted.
+_Deletes a file from storage. Prefix the filename with / to delete a specific file in the SD card, for instance /myFile.txt. will delete the file /sdcard/myFile.txt. If the file does not begin with a /, then the file located in the programs private storage will be deleted. Starting the file with // is an error because assets files cannot be deleted._
 
 ### Exists
 
@@ -136,7 +136,7 @@ Deletes a file from storage. Prefix the filename with / to delete a specific fil
     |file|`text`|
 
 
-Check whether a file exists
+_Check whether a file exists_
 
 ### FileSize
 
@@ -150,7 +150,7 @@ Check whether a file exists
     |file|`text`|
 
 
-Get file size
+_Get file size_
 
 ### GetFileName
 
@@ -164,7 +164,7 @@ Get file size
     |file|`text`|
 
 
-Get file name
+_Get file name_
 
 ### GetFreeSpace
 
@@ -178,7 +178,7 @@ Get file name
     |path|`text`|
 
 
-Get Free Space
+_Get Free Space_
 
 ### GetTotalSpace
 
@@ -192,7 +192,7 @@ Get Free Space
     |path|`text`|
 
 
-Get total space
+_Get total space_
 
 ### IsDirectory
 
@@ -206,7 +206,7 @@ Get total space
     |path|`text`|
 
 
-Check whether the path is a directory
+_Check whether the path is a directory_
 
 ### IsFile
 
@@ -220,7 +220,7 @@ Check whether the path is a directory
     |path|`text`|
 
 
-Check whether the path is a file
+_Check whether the path is a file_
 
 ### Move
 
@@ -235,7 +235,7 @@ Check whether the path is a file
     |output|`text`|
 
 
-Move file
+_Move file_
 
 ### ReadFrom
 
@@ -247,7 +247,7 @@ Move file
     |file Name|`text`|
 
 
-Reads text from a file in storage. Prefix the filename with / to read from a specific file on the SD card. for instance /myFile.txt will read the file /sdcard/myFile.txt. To read assets packaged with an application (also works for the Companion) start the filename with // (two slashes). If a filename does not start with a slash, it will be read from the applications private storage (for packaged apps) and from /sdcard/AppInventor/data for the Companion.
+_Reads text from a file in storage. Prefix the filename with / to read from a specific file on the SD card. for instance /myFile.txt will read the file /sdcard/myFile.txt. To read assets packaged with an application (also works for the Companion) start the filename with // (two slashes). If a filename does not start with a slash, it will be read from the applications private storage (for packaged apps) and from /sdcard/AppInventor/data for the Companion._
 
 ### SaveFile
 
@@ -260,9 +260,9 @@ Reads text from a file in storage. Prefix the filename with / to read from a spe
     |file Name|`text`|
 
 
-Saves text to a file. If the filename begins with a slash (/) the file is written to the sdcard. For example writing to /myFile.txt will write the file to /sdcard/myFile.txt. If the filename does not start with a slash, it will be written in the programs private data directory where it will not be accessible to other programs on the phone. There is a special exception for the AI Companion where these files are written to /sdcard/AppInventor/data to facilitate debugging. Note that this block will overwrite a file if it already exists.
+_Saves text to a file. If the filename begins with a slash (/) the file is written to the sdcard. For example writing to /myFile.txt will write the file to /sdcard/myFile.txt. If the filename does not start with a slash, it will be written in the programs private data directory where it will not be accessible to other programs on the phone. There is a special exception for the AI Companion where these files are written to /sdcard/AppInventor/data to facilitate debugging. Note that this block will overwrite a file if it already exists.
 
-If you want to add content to a file use the append block.
+If you want to add content to a file use the append block._
 
 ### Unzip
 
@@ -276,7 +276,7 @@ If you want to add content to a file use the append block.
     |password|`text`|
 
 
-Unzip a file with or without a password. If you dont need a passwort then let it empty.
+_Unzip a file with or without a password. If you dont need a passwort then let it empty._
 
 ### Zip
 
@@ -290,4 +290,4 @@ Unzip a file with or without a password. If you dont need a passwort then let it
     |password|`text`|
 
 
-Create a zip file with or without a password.
+_Create a zip file with or without a password._

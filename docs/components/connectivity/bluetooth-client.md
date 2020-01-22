@@ -23,7 +23,7 @@ _A non-visible component that acts as a bluetooth client._
     |message|`text`|
 
 
-The BluetoothError event is no longer used. Please use the Screen.ErrorOccurred event instead.
+_The BluetoothError event is no longer used. Please use the Screen.ErrorOccurred event instead._
 
 ## Methods
 
@@ -33,7 +33,7 @@ The BluetoothError event is no longer used. Please use the Screen.ErrorOccurred 
 
 {>>Returns `number`<<}
 
-Returns an estimate of the number of bytes that can be received without blocking
+_Returns an estimate of the number of bytes that can be received without blocking_
 
 ### Connect
 
@@ -47,7 +47,7 @@ Returns an estimate of the number of bytes that can be received without blocking
     |address|`text`|
 
 
-Connect to the Bluetooth device with the specified address and the Serial Port Profile (SPP). Returns true if the connection was successful.
+_Connect to the Bluetooth device with the specified address and the Serial Port Profile (SPP). Returns true if the connection was successful._
 
 ### ConnectWithUUID
 
@@ -62,13 +62,13 @@ Connect to the Bluetooth device with the specified address and the Serial Port P
     |uuid|`text`|
 
 
-Connect to the Bluetooth device with the specified address and UUID. Returns true if the connection was successful.
+_Connect to the Bluetooth device with the specified address and UUID. Returns true if the connection was successful._
 
 ### Disconnect
 
 [[Method('Bluetooth Client', 'Disconnect', false)]]
 
-Disconnect from the connected Bluetooth device.
+_Disconnect from the connected Bluetooth device._
 
 ### IsDevicePaired
 
@@ -82,7 +82,7 @@ Disconnect from the connected Bluetooth device.
     |address|`text`|
 
 
-Checks whether the Bluetooth device with the specified address is paired.
+_Checks whether the Bluetooth device with the specified address is paired._
 
 ### ReceiveSigned1ByteNumber
 
@@ -90,7 +90,7 @@ Checks whether the Bluetooth device with the specified address is paired.
 
 {>>Returns `number`<<}
 
-Receive a signed 1-byte number from the connected Bluetooth device.
+_Receive a signed 1-byte number from the connected Bluetooth device._
 
 ### ReceiveSigned2ByteNumber
 
@@ -98,7 +98,7 @@ Receive a signed 1-byte number from the connected Bluetooth device.
 
 {>>Returns `number`<<}
 
-Receive a signed 2-byte number from the connected Bluetooth device.
+_Receive a signed 2-byte number from the connected Bluetooth device._
 
 ### ReceiveSigned4ByteNumber
 
@@ -106,7 +106,7 @@ Receive a signed 2-byte number from the connected Bluetooth device.
 
 {>>Returns `number`<<}
 
-Receive a signed 4-byte number from the connected Bluetooth device.
+_Receive a signed 4-byte number from the connected Bluetooth device._
 
 ### ReceiveSignedBytes
 
@@ -120,7 +120,7 @@ Receive a signed 4-byte number from the connected Bluetooth device.
     |number Of Bytes|`number`|
 
 
-Receive multiple signed byte values from the connected Bluetooth device. If numberOfBytes is less than 0, read until a delimiter byte value is received.
+_Receive multiple signed byte values from the connected Bluetooth device. If numberOfBytes is less than 0, read until a delimiter byte value is received._
 
 ### ReceiveText
 
@@ -134,7 +134,7 @@ Receive multiple signed byte values from the connected Bluetooth device. If numb
     |number Of Bytes|`number`|
 
 
-Receive text from the connected Bluetooth device. If numberOfBytes is less than 0, read until a delimiter byte value is received.
+_Receive text from the connected Bluetooth device. If numberOfBytes is less than 0, read until a delimiter byte value is received._
 
 ### ReceiveUnsigned1ByteNumber
 
@@ -142,7 +142,7 @@ Receive text from the connected Bluetooth device. If numberOfBytes is less than 
 
 {>>Returns `number`<<}
 
-Receive an unsigned 1-byte number from the connected Bluetooth device.
+_Receive an unsigned 1-byte number from the connected Bluetooth device._
 
 ### ReceiveUnsigned2ByteNumber
 
@@ -150,7 +150,7 @@ Receive an unsigned 1-byte number from the connected Bluetooth device.
 
 {>>Returns `number`<<}
 
-Receive a unsigned 2-byte number from the connected Bluetooth device.
+_Receive a unsigned 2-byte number from the connected Bluetooth device._
 
 ### ReceiveUnsigned4ByteNumber
 
@@ -158,7 +158,7 @@ Receive a unsigned 2-byte number from the connected Bluetooth device.
 
 {>>Returns `number`<<}
 
-Receive a unsigned 4-byte number from the connected Bluetooth device.
+_Receive a unsigned 4-byte number from the connected Bluetooth device._
 
 ### ReceiveUnsignedBytes
 
@@ -172,7 +172,7 @@ Receive a unsigned 4-byte number from the connected Bluetooth device.
     |number Of Bytes|`number`|
 
 
-Receive multiple unsigned byte values from the connected Bluetooth device. If numberOfBytes is less than 0, read until a delimiter byte value is received.
+_Receive multiple unsigned byte values from the connected Bluetooth device. If numberOfBytes is less than 0, read until a delimiter byte value is received._
 
 ### RemoveNameFromAddress
 
@@ -186,7 +186,7 @@ Receive multiple unsigned byte values from the connected Bluetooth device. If nu
     |address And Name|`text`|
 
 
-Remove the Name from a Bluetooth Address and Name String.
+_Remove the Name from a Bluetooth Address and Name String._
 
 ### Send1ByteNumber
 
@@ -198,7 +198,7 @@ Remove the Name from a Bluetooth Address and Name String.
     |number|`text`|
 
 
-Send a 1-byte number to the connected Bluetooth device.
+_Send a 1-byte number to the connected Bluetooth device._
 
 ### Send2ByteNumber
 
@@ -210,7 +210,7 @@ Send a 1-byte number to the connected Bluetooth device.
     |number|`text`|
 
 
-Send a 2-byte number to the connected Bluetooth device.
+_Send a 2-byte number to the connected Bluetooth device._
 
 ### Send4ByteNumber
 
@@ -222,7 +222,7 @@ Send a 2-byte number to the connected Bluetooth device.
     |number|`text`|
 
 
-Send a 4-byte number to the connected Bluetooth device.
+_Send a 4-byte number to the connected Bluetooth device._
 
 ### SendBytes
 
@@ -234,7 +234,7 @@ Send a 4-byte number to the connected Bluetooth device.
     |list|`list`|
 
 
-Send a list of byte values to the connected Bluetooth device.
+_Send a list of byte values to the connected Bluetooth device._
 
 ### SendText
 
@@ -246,13 +246,13 @@ Send a list of byte values to the connected Bluetooth device.
     |text|`text`|
 
 
-Send text to the connected Bluetooth device.
+_Send text to the connected Bluetooth device._
 
 ## Properties
 
 ### Character Encoding
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Bluetooth Client', 'Character Encoding')]]
@@ -261,11 +261,11 @@ Send text to the connected Bluetooth device.
 |:----:|:-------:|
 |text|UTF-8|
 
-Sets the character encoding to use when sending and receiving text.
+_Sets the character encoding to use when sending and receiving text._
 
 ### Delimiter Byte
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Bluetooth Client', 'Delimiter Byte')]]
@@ -274,13 +274,13 @@ Sets the character encoding to use when sending and receiving text.
 |:----:|:-------:|
 |number|0|
 
-Sets the delimiter byte to use when passing a negative number for the
+_Sets the delimiter byte to use when passing a negative number for the
  numberOfBytes parameter when calling ReceiveText, ReceiveSignedBytes, or
- ReceiveUnsignedBytes.
+ ReceiveUnsignedBytes._
 
 ### High Byte First
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Bluetooth Client', 'High Byte First')]]
@@ -289,12 +289,12 @@ Sets the delimiter byte to use when passing a negative number for the
 |:----:|:-------:|
 |boolean|False|
 
-Returns true if numbers are sent and received with the most significant
- byte first.
+_Returns true if numbers are sent and received with the most significant
+ byte first._
 
 ### Secure
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Bluetooth Client', 'Secure')]]
@@ -303,11 +303,9 @@ Returns true if numbers are sent and received with the most significant
 |:----:|:-------:|
 |boolean|True|
 
-Whether to invoke SSP (Simple Secure Pairing), which is supported on devices with Bluetooth v2.1 or higher. When working with embedded Bluetooth devices, this property may need to be set to False. For Android 2.0-2.2, this property setting will be ignored.
+_Whether to invoke SSP (Simple Secure Pairing), which is supported on devices with Bluetooth v2.1 or higher. When working with embedded Bluetooth devices, this property may need to be set to False. For Android 2.0-2.2, this property setting will be ignored._
 
 ### Addresses And Names
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Bluetooth Client', 'Addresses And Names')]]
@@ -316,11 +314,9 @@ Whether to invoke SSP (Simple Secure Pairing), which is supported on devices wit
 |:----:|:-------:|
 |list|None|
 
-The addresses and names of paired Bluetooth devices
+_The addresses and names of paired Bluetooth devices_
 
 ### Available
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Bluetooth Client', 'Available')]]
@@ -329,11 +325,9 @@ The addresses and names of paired Bluetooth devices
 |:----:|:-------:|
 |boolean|None|
 
-Whether Bluetooth is available on the device
+_Whether Bluetooth is available on the device_
 
 ### Enabled
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Bluetooth Client', 'Enabled')]]
@@ -342,11 +336,9 @@ Whether Bluetooth is available on the device
 |:----:|:-------:|
 |boolean|None|
 
-Whether Bluetooth is enabled
+_Whether Bluetooth is enabled_
 
 ### Is Connected
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Bluetooth Client', 'Is Connected')]]
@@ -355,4 +347,4 @@ Whether Bluetooth is enabled
 |:----:|:-------:|
 |boolean|None|
 
-Returns true if a connection to a Bluetooth device has been made.
+_Returns true if a connection to a Bluetooth device has been made._

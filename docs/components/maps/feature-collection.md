@@ -20,7 +20,7 @@ _A FeatureColletion contains one or more map features as a group. Any events fir
     |feature|`component`|
 
 
-The user clicked on a map feature.
+_The user clicked on a map feature._
 
 ### Feature Drag
 
@@ -32,7 +32,7 @@ The user clicked on a map feature.
     |feature|`component`|
 
 
-The user dragged a map feature.
+_The user dragged a map feature._
 
 ### Feature Long Click
 
@@ -44,7 +44,7 @@ The user dragged a map feature.
     |feature|`component`|
 
 
-The user long-pressed on a map feature.
+_The user long-pressed on a map feature._
 
 ### Feature Start Drag
 
@@ -56,7 +56,7 @@ The user long-pressed on a map feature.
     |feature|`component`|
 
 
-The user started dragging a map feature.
+_The user started dragging a map feature._
 
 ### Feature Stop Drag
 
@@ -68,7 +68,7 @@ The user started dragging a map feature.
     |feature|`component`|
 
 
-The user stopped dragging a map feature.
+_The user stopped dragging a map feature._
 
 ### Got Features
 
@@ -81,7 +81,7 @@ The user stopped dragging a map feature.
     |features|`list`|
 
 
-A GeoJSON document was successfully read from url. The features specified in the document are provided as a list in features.
+_A GeoJSON document was successfully read from url. The features specified in the document are provided as a list in features._
 
 ### Load Error
 
@@ -95,7 +95,7 @@ A GeoJSON document was successfully read from url. The features specified in the
     |error Message|`text`|
 
 
-An error was encountered while processing a GeoJSON document at the given url. The responseCode parameter will contain an HTTP status code and the errorMessage parameter will contain a detailed error message.
+_An error was encountered while processing a GeoJSON document at the given url. The responseCode parameter will contain an HTTP status code and the errorMessage parameter will contain a detailed error message._
 
 ## Methods
 
@@ -111,7 +111,7 @@ An error was encountered while processing a GeoJSON document at the given url. T
     |description|`list`|
 
 
-Convert a feature description into an App Inventor map feature. Currently the only
+_Convert a feature description into an App Inventor map feature. Currently the only
  supported conversion is from a GeoJSON point to Marker component. If the feature has
  properties, they will be mapped into App Inventor properties using the following mapping:
 
@@ -125,7 +125,7 @@ Convert a feature description into an App Inventor map feature. Currently the on
  stroke-opacity becomes StrokeOpacity;
  stroke-width becomes StrokeWidth;
  title becomes Title;
- visible becomes Visible
+ visible becomes Visible_
 
 ### LoadFromURL
 
@@ -137,13 +137,13 @@ Convert a feature description into an App Inventor map feature. Currently the on
     |url|`text`|
 
 
-<p>Load a feature collection in <a href="https://en.wikipedia.org/wiki/GeoJSON">GeoJSON</a> format from the given url. On success, the event GotFeatures will be raised with the given url and a list of the features parsed from the GeoJSON as a list of (key, value) pairs. On failure, the LoadError event will be raised with any applicable HTTP response code and error message.</p>
+_<p>Load a feature collection in <a href="https://en.wikipedia.org/wiki/GeoJSON">GeoJSON</a> format from the given url. On success, the event GotFeatures will be raised with the given url and a list of the features parsed from the GeoJSON as a list of (key, value) pairs. On failure, the LoadError event will be raised with any applicable HTTP response code and error message.</p>_
 
 ## Properties
 
 ### Features From Geo JSON
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Feature Collection', 'Features From Geo JSON')]]
@@ -152,11 +152,11 @@ Convert a feature description into an App Inventor map feature. Currently the on
 |:----:|
 |text|
 
-Loads a collection of features from the given string. If the string is not valid GeoJSON, the ErrorLoadingFeatureCollection error will be run with url = <string>.
+_Loads a collection of features from the given string. If the string is not valid GeoJSON, the ErrorLoadingFeatureCollection error will be run with url = <string>._
 
 ### Source
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Feature Collection', 'Source')]]
@@ -165,11 +165,11 @@ Loads a collection of features from the given string. If the string is not valid
 |:----:|
 |text|
 
-Gets or sets the source URL used to populate the feature collection. If the feature collection was not loaded from a URL, this will be the empty string.
+_Gets or sets the source URL used to populate the feature collection. If the feature collection was not loaded from a URL, this will be the empty string._
 
 ### Visible
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Feature Collection', 'Visible')]]
@@ -178,11 +178,9 @@ Gets or sets the source URL used to populate the feature collection. If the feat
 |:----:|:-------:|
 |boolean|True|
 
-Returns true iff the component is visible.
+_Returns true iff the component is visible._
 
 ### Column
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Feature Collection', 'Column')]]
@@ -191,11 +189,9 @@ Returns true iff the component is visible.
 |:----:|:-------:|
 |number|None|
 
-Column property getter method.
+_Column property getter method._
 
 ### Features
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Feature Collection', 'Features')]]
@@ -204,11 +200,9 @@ Column property getter method.
 |:----:|:-------:|
 |list|None|
 
-The list of features placed on this map. This list also includes any features created by calls to FeatureFromDescription
+_The list of features placed on this map. This list also includes any features created by calls to FeatureFromDescription_
 
 ### Height
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Feature Collection', 'Height')]]
@@ -217,11 +211,9 @@ The list of features placed on this map. This list also includes any features cr
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's vertical height, measured in pixels.
+_Specifies the component's vertical height, measured in pixels._
 
 ### Height Percent
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Feature Collection', 'Height Percent')]]
@@ -230,12 +222,10 @@ Specifies the component's vertical height, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's vertical height as a percentage
- of the height of its parent Component.
+_Specifies the component's vertical height as a percentage
+ of the height of its parent Component._
 
 ### Row
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Feature Collection', 'Row')]]
@@ -244,11 +234,9 @@ Specifies the component's vertical height as a percentage
 |:----:|:-------:|
 |number|None|
 
-Row property getter method.
+_Row property getter method._
 
 ### Width
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Feature Collection', 'Width')]]
@@ -257,11 +245,9 @@ Row property getter method.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width, measured in pixels.
+_Specifies the component's horizontal width, measured in pixels._
 
 ### Width Percent
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Feature Collection', 'Width Percent')]]
@@ -270,5 +256,5 @@ Specifies the component's horizontal width, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width as a percentage
- of the Width of its parent Component.
+_Specifies the component's horizontal width as a percentage
+ of the Width of its parent Component._

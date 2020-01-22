@@ -14,13 +14,13 @@ _<p>This is a visible component that displays a list of text elements. <br> The 
 
 [[Event('List View', 'After Picking')]]
 
-Simple event to be raised after the an element has been chosen in the list. The selected element is available in the Selection property.
+_Simple event to be raised after the an element has been chosen in the list. The selected element is available in the Selection property._
 
 ### Long Click
 
 [[Event('List View', 'Long Click')]]
 
-Simple event to be raised after the an element has been chosen in the list via long click. The selected element is available in the Selection property.
+_Simple event to be raised after the an element has been chosen in the list via long click. The selected element is available in the Selection property._
 
 ## Methods
 
@@ -28,13 +28,13 @@ Simple event to be raised after the an element has been chosen in the list via l
 
 [[Method('List View', 'ClearList', false)]]
 
-Remove all the items from the list
+_Remove all the items from the list_
 
 ## Properties
 
 ### Background Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List View', 'Background Color')]]
@@ -43,11 +43,11 @@ Remove all the items from the list
 |:----:|:-------:|
 |number|&HFF607D8B|
 
-The color of the listview background.
+_The color of the listview background._
 
 ### Divider Color
 
-<small>Available as Advanced Property</small>
+<small>Available as ^^Advanced^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List View', 'Divider Color')]]
@@ -56,11 +56,11 @@ The color of the listview background.
 |:----:|:-------:|
 |number|&HFF000000|
 
-Set the divider color
+_Set the divider color_
 
 ### Divider Height
 
-<small>Available as Advanced Property</small>
+<small>Available as ^^Advanced^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List View', 'Divider Height')]]
@@ -69,11 +69,11 @@ Set the divider color
 |:----:|:-------:|
 |number|2|
 
-Set the divider height.
+_Set the divider height._
 
 ### Elements From String
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List View', 'Elements From String')]]
@@ -82,11 +82,11 @@ Set the divider height.
 |:----:|
 |text|
 
-The ListView elements specified as a string with the items separated by commas such as: Cheese,Fruit,Bacon,Radish. Each word before the comma will be an element in the list.
+_The ListView elements specified as a string with the items separated by commas such as: Cheese,Fruit,Bacon,Radish. Each word before the comma will be an element in the list._
 
 ### Filter Bar Hint
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List View', 'Filter Bar Hint')]]
@@ -95,11 +95,11 @@ The ListView elements specified as a string with the items separated by commas s
 |:----:|:-------:|
 |text|Search list...|
 
-The hint that will be displayed in the filter bar.
+_The hint that will be displayed in the filter bar._
 
 ### Font Bold
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List View', 'Font Bold')]]
@@ -112,7 +112,7 @@ _No description available_
 
 ### Font Italic
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List View', 'Font Italic')]]
@@ -125,7 +125,7 @@ _No description available_
 
 ### Font Typeface
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List View', 'Font Typeface')]]
@@ -138,7 +138,7 @@ _No description available_
 
 ### Font Typeface Import
 
-<small>Available as Advanced Property</small>
+<small>Available as ^^Advanced^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List View', 'Font Typeface Import')]]
@@ -147,11 +147,11 @@ _No description available_
 |:----:|
 |text|
 
-Set a custom font.
+_Set a custom font._
 
 ### HTML Format
 
-<small>Available as Advanced Property</small>
+<small>Available as ^^Advanced^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List View', 'HTML Format')]]
@@ -160,11 +160,11 @@ Set a custom font.
 |:----:|:-------:|
 |boolean|True|
 
-Returns true if html is enabled.
+_Returns true if html is enabled._
 
 ### Item Height in %
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List View', 'Item Height in %')]]
@@ -173,11 +173,11 @@ Returns true if html is enabled.
 |:----:|:-------:|
 |number|10|
 
-Set the listview item height. If you write 10, that means the item height will be 10 percent of the device screen height.
+_Set the listview item height. If you write 10, that means the item height will be 10 percent of the device screen height._
 
 ### Long Click Enabled
 
-<small>Available as Advanced Property</small>
+<small>Available as ^^Advanced^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List View', 'Long Click Enabled')]]
@@ -186,11 +186,11 @@ Set the listview item height. If you write 10, that means the item height will b
 |:----:|:-------:|
 |boolean|False|
 
-If true long click on items are enabled, else long click is disabled.
+_If true long click on items are enabled, else long click is disabled._
 
 ### Scrollbar Fading
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List View', 'Scrollbar Fading')]]
@@ -199,11 +199,11 @@ If true long click on items are enabled, else long click is disabled.
 |:----:|:-------:|
 |boolean|True|
 
-Return the state of ScrollbarFading. If ScrollbarFading is enabled returns true.
+_Return the state of ScrollbarFading. If ScrollbarFading is enabled returns true._
 
 ### Scrolling Speed
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List View', 'Scrolling Speed')]]
@@ -212,11 +212,11 @@ Return the state of ScrollbarFading. If ScrollbarFading is enabled returns true.
 |:----:|:-------:|
 |number|1.0|
 
-The amount of friction applied to flings.
+_The amount of friction applied to flings._
 
 ### Search Hint Color
 
-<small>Available as Advanced Property</small>
+<small>Available as ^^Advanced^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List View', 'Search Hint Color')]]
@@ -225,11 +225,11 @@ The amount of friction applied to flings.
 |:----:|:-------:|
 |number|&HFFCCCCCC|
 
-The color of the search hint text.
+_The color of the search hint text._
 
 ### Search Text Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List View', 'Search Text Color')]]
@@ -238,11 +238,11 @@ The color of the search hint text.
 |:----:|:-------:|
 |number|&HFFFFFFFF|
 
-The color of the search text.
+_The color of the search text._
 
 ### Search Text Size
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List View', 'Search Text Size')]]
@@ -251,11 +251,11 @@ The color of the search text.
 |:----:|:-------:|
 |number|14.0|
 
-The text size of the search text.
+_The text size of the search text._
 
 ### Selection
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List View', 'Selection')]]
@@ -264,11 +264,11 @@ The text size of the search text.
 |:----:|
 |text|
 
-Set the selection to the ListView.
+_Set the selection to the ListView._
 
 ### Selection Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List View', 'Selection Color')]]
@@ -277,11 +277,11 @@ Set the selection to the ListView.
 |:----:|:-------:|
 |number|&HFFCCCCCC|
 
-The color of the item when it is selected.
+_The color of the item when it is selected._
 
 ### Show Filter Bar
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List View', 'Show Filter Bar')]]
@@ -290,11 +290,11 @@ The color of the item when it is selected.
 |:----:|:-------:|
 |boolean|False|
 
-Sets visibility of ShowFilterBar. True will show the bar, False will hide it.
+_Sets visibility of ShowFilterBar. True will show the bar, False will hide it._
 
 ### Show Scrollbar
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List View', 'Show Scrollbar')]]
@@ -303,11 +303,11 @@ Sets visibility of ShowFilterBar. True will show the bar, False will hide it.
 |:----:|:-------:|
 |boolean|True|
 
-Return the state of ShowScrollbar. If ShowScrollbar is enabled returns true.
+_Return the state of ShowScrollbar. If ShowScrollbar is enabled returns true._
 
 ### Show Selection Color
 
-<small>Available as Advanced Property</small>
+<small>Available as ^^Advanced^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List View', 'Show Selection Color')]]
@@ -316,11 +316,11 @@ Return the state of ShowScrollbar. If ShowScrollbar is enabled returns true.
 |:----:|:-------:|
 |boolean|False|
 
-Sets visibility of ShowSelectionColor. True will show the selection color on a selected item, False will hide it.
+_Sets visibility of ShowSelectionColor. True will show the selection color on a selected item, False will hide it._
 
 ### Text Alignment
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List View', 'Text Alignment')]]
@@ -333,7 +333,7 @@ _No description available_
 
 ### Text Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List View', 'Text Color')]]
@@ -342,11 +342,11 @@ _No description available_
 |:----:|:-------:|
 |number|&HFF000000|
 
-The text color of the listview items.
+_The text color of the listview items._
 
 ### Font Size
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List View', 'Font Size')]]
@@ -355,11 +355,11 @@ The text color of the listview items.
 |:----:|:-------:|
 |number|22|
 
-The text size of the listview items.
+_The text size of the listview items._
 
 ### Visible
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List View', 'Visible')]]
@@ -368,11 +368,9 @@ The text size of the listview items.
 |:----:|:-------:|
 |boolean|True|
 
-Returns true iff the component is visible.
+_Returns true iff the component is visible._
 
 ### Column
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List View', 'Column')]]
@@ -381,11 +379,9 @@ Returns true iff the component is visible.
 |:----:|:-------:|
 |number|None|
 
-Column property getter method.
+_Column property getter method._
 
 ### Elements
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List View', 'Elements')]]
@@ -394,11 +390,9 @@ Column property getter method.
 |:----:|:-------:|
 |list|None|
 
-List of text elements to show in the ListView.
+_List of text elements to show in the ListView._
 
 ### Height
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List View', 'Height')]]
@@ -407,11 +401,9 @@ List of text elements to show in the ListView.
 |:----:|:-------:|
 |number|None|
 
-Determines the height of the list on the view.
+_Determines the height of the list on the view._
 
 ### Height Percent
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List View', 'Height Percent')]]
@@ -420,12 +412,10 @@ Determines the height of the list on the view.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's vertical height as a percentage
- of the height of its parent Component.
+_Specifies the component's vertical height as a percentage
+ of the height of its parent Component._
 
 ### Row
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List View', 'Row')]]
@@ -434,11 +424,9 @@ Specifies the component's vertical height as a percentage
 |:----:|:-------:|
 |number|None|
 
-Row property getter method.
+_Row property getter method._
 
 ### Scroll To Position
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List View', 'Scroll To Position')]]
@@ -447,11 +435,9 @@ Row property getter method.
 |:----:|:-------:|
 |number|None|
 
-Smoothly scroll to the specified position. The listview will scroll such that the indicated position is displayed.
+_Smoothly scroll to the specified position. The listview will scroll such that the indicated position is displayed._
 
 ### Selection Index
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List View', 'Selection Index')]]
@@ -460,11 +446,9 @@ Smoothly scroll to the specified position. The listview will scroll such that th
 |:----:|:-------:|
 |number|None|
 
-The index of the currently selected item, starting at 1.  If no item is selected, the value will be 0.  If an attempt is made to set this to a number less than 1 or greater than the number of items in the ListView, SelectionIndex will be set to 0, and Selection will be set to the empty text.
+_The index of the currently selected item, starting at 1.  If no item is selected, the value will be 0.  If an attempt is made to set this to a number less than 1 or greater than the number of items in the ListView, SelectionIndex will be set to 0, and Selection will be set to the empty text._
 
 ### Width
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List View', 'Width')]]
@@ -473,11 +457,9 @@ The index of the currently selected item, starting at 1.  If no item is selected
 |:----:|:-------:|
 |number|None|
 
-Determines the width of the list on the view.
+_Determines the width of the list on the view._
 
 ### Width Percent
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('List View', 'Width Percent')]]
@@ -486,5 +468,5 @@ Determines the width of the list on the view.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width as a percentage
- of the Width of its parent Component.
+_Specifies the component's horizontal width as a percentage
+ of the Width of its parent Component._

@@ -22,7 +22,7 @@ You can also launch activities that return text data.  See the documentation on 
 
 [[Event('Activity Starter', 'Activity Canceled')]]
 
-Event raised if this ActivityStarter returns because the activity was canceled.
+_Event raised if this ActivityStarter returns because the activity was canceled._
 
 ### ActivityError
 
@@ -34,7 +34,7 @@ Event raised if this ActivityStarter returns because the activity was canceled.
     |message|`text`|
 
 
-The ActivityError event is no longer used. Please use the Screen.ErrorOccurred event instead.
+_The ActivityError event is no longer used. Please use the Screen.ErrorOccurred event instead._
 
 ### After Activity
 
@@ -46,7 +46,7 @@ The ActivityError event is no longer used. Please use the Screen.ErrorOccurred e
     |result|`text`|
 
 
-Event raised after this ActivityStarter returns.
+_Event raised after this ActivityStarter returns._
 
 ## Methods
 
@@ -56,19 +56,19 @@ Event raised after this ActivityStarter returns.
 
 {>>Returns `text`<<}
 
-Returns the name of the activity that corresponds to this ActivityStarter, or an empty string if no corresponding activity can be found.
+_Returns the name of the activity that corresponds to this ActivityStarter, or an empty string if no corresponding activity can be found._
 
 ### StartActivity
 
 [[Method('Activity Starter', 'StartActivity', false)]]
 
-Start the activity corresponding to this ActivityStarter.
+_Start the activity corresponding to this ActivityStarter._
 
 ## Properties
 
 ### Action
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Activity Starter', 'Action')]]
@@ -77,11 +77,11 @@ Start the activity corresponding to this ActivityStarter.
 |:----:|
 |text|
 
-Returns the action that will be used to start the activity.
+_Returns the action that will be used to start the activity._
 
 ### Activity Class
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Activity Starter', 'Activity Class')]]
@@ -90,11 +90,11 @@ Returns the action that will be used to start the activity.
 |:----:|
 |text|
 
-Returns the class part of the specific component that will be started.
+_Returns the class part of the specific component that will be started._
 
 ### Activity Package
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Activity Starter', 'Activity Package')]]
@@ -103,11 +103,11 @@ Returns the class part of the specific component that will be started.
 |:----:|
 |text|
 
-Returns the package part of the specific component that will be started.
+_Returns the package part of the specific component that will be started._
 
 ### Data Type
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Activity Starter', 'Data Type')]]
@@ -116,11 +116,11 @@ Returns the package part of the specific component that will be started.
 |:----:|
 |text|
 
-Returns the MIME type to pass to the activity.
+_Returns the MIME type to pass to the activity._
 
 ### Data Uri
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Activity Starter', 'Data Uri')]]
@@ -129,11 +129,11 @@ Returns the MIME type to pass to the activity.
 |:----:|
 |text|
 
-Returns the data URI that will be used to start the activity.
+_Returns the data URI that will be used to start the activity._
 
 ### Extra Key
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Activity Starter', 'Extra Key')]]
@@ -142,12 +142,12 @@ Returns the data URI that will be used to start the activity.
 |:----:|
 |text|
 
-Returns the extra key that will be passed to the activity.
-DEPRECATED: New code should use Extras property instead.
+_Returns the extra key that will be passed to the activity.
+DEPRECATED: New code should use Extras property instead._
 
 ### Extra Value
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Activity Starter', 'Extra Value')]]
@@ -156,12 +156,12 @@ DEPRECATED: New code should use Extras property instead.
 |:----:|
 |text|
 
-Returns the extra value that will be passed to the activity.
-DEPRECATED: New code should use Extras property instead.
+_Returns the extra value that will be passed to the activity.
+DEPRECATED: New code should use Extras property instead._
 
 ### Result Name
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Activity Starter', 'Result Name')]]
@@ -170,11 +170,9 @@ DEPRECATED: New code should use Extras property instead.
 |:----:|
 |text|
 
-Returns the name that will be used to retrieve a result from the activity.
+_Returns the name that will be used to retrieve a result from the activity._
 
 ### Extras
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Activity Starter', 'Extras')]]
@@ -183,11 +181,9 @@ Returns the name that will be used to retrieve a result from the activity.
 |:----:|:-------:|
 |list|None|
 
-Specifies the list of key-value pairs that will be passed as extra data to the activity.
+_Specifies the list of key-value pairs that will be passed as extra data to the activity._
 
 ### Result
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Activity Starter', 'Result')]]
@@ -196,11 +192,9 @@ Specifies the list of key-value pairs that will be passed as extra data to the a
 |:----:|:-------:|
 |text|None|
 
-Returns the result from the activity.
+_Returns the result from the activity._
 
 ### Result Type
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Activity Starter', 'Result Type')]]
@@ -209,11 +203,9 @@ Returns the result from the activity.
 |:----:|:-------:|
 |text|None|
 
-Returns the MIME type from the activity.
+_Returns the MIME type from the activity._
 
 ### Result URI
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Activity Starter', 'Result URI')]]
@@ -222,4 +214,4 @@ Returns the MIME type from the activity.
 |:----:|:-------:|
 |text|None|
 
-Returns the URI from the activity.
+_Returns the URI from the activity._

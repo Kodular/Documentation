@@ -18,13 +18,13 @@ _Multimedia component that plays audio and controls phone vibration.  The name o
 
 [[Event('Player', 'Completed')]]
 
-Indicates that the media has reached the end
+_Indicates that the media has reached the end_
 
 ### Other Player Started
 
 [[Event('Player', 'Other Player Started')]]
 
-This event is signaled when another player has started (and the current player is playing or paused, but not stopped).
+_This event is signaled when another player has started (and the current player is playing or paused, but not stopped)._
 
 ### PlayerError
 
@@ -36,7 +36,7 @@ This event is signaled when another player has started (and the current player i
     |message|`text`|
 
 
-The PlayerError event is no longer used. Please use the Screen.ErrorOccurred event instead.
+_The PlayerError event is no longer used. Please use the Screen.ErrorOccurred event instead._
 
 ## Methods
 
@@ -44,7 +44,7 @@ The PlayerError event is no longer used. Please use the Screen.ErrorOccurred eve
 
 [[Method('Player', 'Pause', false)]]
 
-Suspends playing the media if it is playing.
+_Suspends playing the media if it is playing._
 
 ### SeekTo
 
@@ -56,7 +56,7 @@ Suspends playing the media if it is playing.
     |position|`number`|
 
 
-Set a position where the source file should start playing.
+_Set a position where the source file should start playing._
 
 ### SetLeftRightVolume
 
@@ -69,20 +69,20 @@ Set a position where the source file should start playing.
     |right Volume|`number`|
 
 
-Control the left and right volume of the player. Set the volume to a number between 0 and 100.
+_Control the left and right volume of the player. Set the volume to a number between 0 and 100._
 
 ### Start
 
 [[Method('Player', 'Start', false)]]
 
-Plays the media.  If it was previously paused, the playing is resumed.
- If it was previously stopped, it starts from the beginning.
+_Plays the media.  If it was previously paused, the playing is resumed.
+ If it was previously stopped, it starts from the beginning._
 
 ### Stop
 
 [[Method('Player', 'Stop', false)]]
 
-Stops playing the media and seeks to the beginning of the song.
+_Stops playing the media and seeks to the beginning of the song._
 
 ### Vibrate
 
@@ -94,13 +94,13 @@ Stops playing the media and seeks to the beginning of the song.
     |milliseconds|`number`|
 
 
-Vibrates for specified number of milliseconds.
+_Vibrates for specified number of milliseconds._
 
 ## Properties
 
 ### Loop
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Player', 'Loop')]]
@@ -109,11 +109,11 @@ Vibrates for specified number of milliseconds.
 |:----:|:-------:|
 |boolean|False|
 
-If true, the player will loop when it plays. Setting Loop while the player is playing will affect the current playing.
+_If true, the player will loop when it plays. Setting Loop while the player is playing will affect the current playing._
 
 ### Play Only In Foreground
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Player', 'Play Only In Foreground')]]
@@ -122,11 +122,11 @@ If true, the player will loop when it plays. Setting Loop while the player is pl
 |:----:|:-------:|
 |boolean|False|
 
-If true, the player will pause playing when leaving the current screen; if false (default option), the player continues playing whenever the current screen is displaying or not.
+_If true, the player will pause playing when leaving the current screen; if false (default option), the player continues playing whenever the current screen is displaying or not._
 
 ### Source
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Player', 'Source')]]
@@ -135,11 +135,11 @@ If true, the player will pause playing when leaving the current screen; if false
 |:----:|
 |text|
 
-Returns the path to the audio source
+_Returns the path to the audio source_
 
 ### Volume
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Player', 'Volume')]]
@@ -148,11 +148,9 @@ Returns the path to the audio source
 |:----:|:-------:|
 |number|50|
 
-Sets the volume to a number between 0 and 100.
+_Sets the volume to a number between 0 and 100._
 
 ### Current Position
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Player', 'Current Position')]]
@@ -161,11 +159,9 @@ Sets the volume to a number between 0 and 100.
 |:----:|:-------:|
 |number|None|
 
-Returns the current position of the source file that is playing.
+_Returns the current position of the source file that is playing._
 
 ### Duration
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Player', 'Duration')]]
@@ -174,11 +170,9 @@ Returns the current position of the source file that is playing.
 |:----:|:-------:|
 |number|None|
 
-Returns the duration of the source file.
+_Returns the duration of the source file._
 
 ### Get TrackInfo
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Player', 'Get TrackInfo')]]
@@ -187,11 +181,9 @@ Returns the duration of the source file.
 |:----:|:-------:|
 |text|None|
 
-Returns a array of track information.
+_Returns a array of track information._
 
 ### Is Playing
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Player', 'Is Playing')]]
@@ -200,11 +192,9 @@ Returns a array of track information.
 |:----:|:-------:|
 |boolean|None|
 
-Reports whether the media is playing
+_Reports whether the media is playing_
 
 ### Left Volume
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Player', 'Left Volume')]]
@@ -213,11 +203,9 @@ Reports whether the media is playing
 |:----:|:-------:|
 |number|None|
 
-Returns the current left volume.
+_Returns the current left volume._
 
 ### Right Volume
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Player', 'Right Volume')]]
@@ -226,4 +214,4 @@ Returns the current left volume.
 |:----:|:-------:|
 |number|None|
 
-Returns the current right volume.
+_Returns the current right volume._

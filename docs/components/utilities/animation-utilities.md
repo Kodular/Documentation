@@ -24,7 +24,7 @@ _A non-visible component with which other components can be animated._
     |method|`text`|
 
 
-This event is triggered when there was a error catched. Possible values for the error code and method: 1 'GetLeftPosition', 2 'GetTopPosition', 3 'GetRightPosition', 4 'GetBottomPosition', 5 'GetXPosition', 6 'GetYPosition', 7 'Rotation', 8 'BounceHorizontal', 9 'BounceVertical', 10 'OvershootHorizontal', 11 'OvershootVertical', 12 'Zoom'. The error message will return you the error reason.
+_This event is triggered when there was a error catched. Possible values for the error code and method: 1 'GetLeftPosition', 2 'GetTopPosition', 3 'GetRightPosition', 4 'GetBottomPosition', 5 'GetXPosition', 6 'GetYPosition', 7 'Rotation', 8 'BounceHorizontal', 9 'BounceVertical', 10 'OvershootHorizontal', 11 'OvershootVertical', 12 'Zoom'. The error message will return you the error reason._
 
 ## Methods
 
@@ -41,7 +41,7 @@ This event is triggered when there was a error catched. Possible values for the 
     |duration|`number`|
 
 
-Start a horizontal bounce animation. The duration is set in millisecond. Use as example for 1 second '1000'.
+_Start a horizontal bounce animation. The duration is set in millisecond. Use as example for 1 second '1000'._
 
 ### BounceVertical
 
@@ -56,7 +56,7 @@ Start a horizontal bounce animation. The duration is set in millisecond. Use as 
     |duration|`number`|
 
 
-Start a vertical bounce animation. The duration is set in millisecond. Use as example for 1 second '1000'.
+_Start a vertical bounce animation. The duration is set in millisecond. Use as example for 1 second '1000'._
 
 ### GetBottomPosition
 
@@ -70,7 +70,7 @@ Start a vertical bounce animation. The duration is set in millisecond. Use as ex
     |component|`component`|
 
 
-Returns the bottom position of a component. It will return '-9999' if there was a error.
+_Returns the bottom position of a component. It will return '-9999' if there was a error._
 
 ### GetLeftPosition
 
@@ -84,7 +84,7 @@ Returns the bottom position of a component. It will return '-9999' if there was 
     |component|`component`|
 
 
-Returns the left position of a component. It will return '-9999' if there was a error.
+_Returns the left position of a component. It will return '-9999' if there was a error._
 
 ### GetRightPosition
 
@@ -98,7 +98,7 @@ Returns the left position of a component. It will return '-9999' if there was a 
     |component|`component`|
 
 
-Returns the right position of a component. It will return '-9999' if there was a error.
+_Returns the right position of a component. It will return '-9999' if there was a error._
 
 ### GetTopPosition
 
@@ -112,7 +112,7 @@ Returns the right position of a component. It will return '-9999' if there was a
     |component|`component`|
 
 
-Returns the top position of a component. It will return '-9999' if there was a error.
+_Returns the top position of a component. It will return '-9999' if there was a error._
 
 ### GetXPosition
 
@@ -126,7 +126,7 @@ Returns the top position of a component. It will return '-9999' if there was a e
     |component|`component`|
 
 
-Returns the x position of a component. It will return '-9999' if there was a error.
+_Returns the x position of a component. It will return '-9999' if there was a error._
 
 ### GetYPosition
 
@@ -140,7 +140,7 @@ Returns the x position of a component. It will return '-9999' if there was a err
     |component|`component`|
 
 
-Returns the y position of a component. It will return '-9999' if there was a error.
+_Returns the y position of a component. It will return '-9999' if there was a error._
 
 ### OvershootHorizontal
 
@@ -156,7 +156,7 @@ Returns the y position of a component. It will return '-9999' if there was a err
     |tension|`number`|
 
 
-Start a horizontal overshoot animation. If 'tension' is set to 0 you will not see a overshoot animation. Then you will see just a simple deceleration animation. The duration is set in millisecond. Use as example for 1 second '1000'.
+_Start a horizontal overshoot animation. If 'tension' is set to 0 you will not see a overshoot animation. Then you will see just a simple deceleration animation. The duration is set in millisecond. Use as example for 1 second '1000'._
 
 ### OvershootVertical
 
@@ -172,7 +172,7 @@ Start a horizontal overshoot animation. If 'tension' is set to 0 you will not se
     |tension|`number`|
 
 
-Start a vertical overshoot animation. If 'tension' is set to 0 you will not see a overshoot animation. Then you will see just a simple deceleration animation. The duration is set in millisecond. Use as example for 1 second '1000'.
+_Start a vertical overshoot animation. If 'tension' is set to 0 you will not see a overshoot animation. Then you will see just a simple deceleration animation. The duration is set in millisecond. Use as example for 1 second '1000'._
 
 ### Rotation
 
@@ -187,7 +187,7 @@ Start a vertical overshoot animation. If 'tension' is set to 0 you will not see 
     |duration|`number`|
 
 
-Start a rotation on any component. Use as example in 'rotation Start Degrees' 0, in 'rotation End Degrees' 360 and in 'duration' 300 (millisecond) to run a clockwise, 360 degress animation. You can also use negative numbers for the degress.
+_Start a rotation on any component. Use as example in 'rotation Start Degrees' 0, in 'rotation End Degrees' 360 and in 'duration' 300 (millisecond) to run a clockwise, 360 degress animation. You can also use negative numbers for the degress._
 
 ### Zoom
 
@@ -202,4 +202,4 @@ Start a rotation on any component. Use as example in 'rotation Start Degrees' 0,
     |duration|`number`|
 
 
-Start a zoom animation.  'tension' is set to 0 you will not see a overshoot animation. Then you will see just a simple deceleration animation. The duration is set in millisecond. Use as example for 1 second '1000'.
+_Start a zoom animation.  'tension' is set to 0 you will not see a overshoot animation. Then you will see just a simple deceleration animation. The duration is set in millisecond. Use as example for 1 second '1000'._

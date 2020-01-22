@@ -22,7 +22,7 @@ _A non-visible component that accesses the application''s SQLite database. <br>C
     |was Executed|`boolean`|
 
 
-Event handler after the SQL statement is executed, returns whether the execution was succesful.
+_Event handler after the SQL statement is executed, returns whether the execution was succesful._
 
 ### After Query
 
@@ -35,7 +35,7 @@ Event handler after the SQL statement is executed, returns whether the execution
     |number Of Records|`number`|
 
 
-Event handler after the RawQuery or Query is executed and returns a list with the selected data and number of records.
+_Event handler after the RawQuery or Query is executed and returns a list with the selected data and number of records._
 
 ### Error Occurred
 
@@ -47,7 +47,7 @@ Event handler after the RawQuery or Query is executed and returns a list with th
     |message|`text`|
 
 
-Event handler when an error ocurred, returns a string with a message from the error.
+_Event handler when an error ocurred, returns a string with a message from the error._
 
 ## Methods
 
@@ -55,7 +55,7 @@ Event handler when an error ocurred, returns a string with a message from the er
 
 [[Method('SQLite', 'ClearDatabase', false)]]
 
-Clears the database to version 1. Use only while developing, this shouldn't be use on production.
+_Clears the database to version 1. Use only while developing, this shouldn't be use on production._
 
 ### Delete
 
@@ -71,7 +71,7 @@ Clears the database to version 1. Use only while developing, this shouldn't be u
     |where Args|`list`|
 
 
-Executes pre-compiled DELETE statement with specified parameters. Parameters: 1) String table - Name of the table. 2) String whereClause - Optional WHERE clause to apply when deleting (Example: 'ID = ?'), pasing an empty a string will delete all rows. 3) List whereArgs - List with arguments for the WHERE clause. These arguments will be replaced by '?' in the whereClause. Returns the number of rows affected if a whereClause is passed in, 0 otherwise.
+_Executes pre-compiled DELETE statement with specified parameters. Parameters: 1) String table - Name of the table. 2) String whereClause - Optional WHERE clause to apply when deleting (Example: 'ID = ?'), pasing an empty a string will delete all rows. 3) List whereArgs - List with arguments for the WHERE clause. These arguments will be replaced by '?' in the whereClause. Returns the number of rows affected if a whereClause is passed in, 0 otherwise._
 
 ### GetPath
 
@@ -79,7 +79,7 @@ Executes pre-compiled DELETE statement with specified parameters. Parameters: 1)
 
 {>>Returns `text`<<}
 
-Returns the path to the database
+_Returns the path to the database_
 
 ### Insert
 
@@ -95,7 +95,7 @@ Returns the path to the database
     |values|`list`|
 
 
-Executes pre-compiled INSERT statement with specified parameters. Parameters: 1) String table - Name of the table. 2) YailList columns - List with the columns that will contain the data to be inserted in the database. 3) YailList values - List with the data to be inserted in the database. Returns the row ID of the newly inserted row, or -1 if an error occurred.
+_Executes pre-compiled INSERT statement with specified parameters. Parameters: 1) String table - Name of the table. 2) YailList columns - List with the columns that will contain the data to be inserted in the database. 3) YailList values - List with the data to be inserted in the database. Returns the row ID of the newly inserted row, or -1 if an error occurred._
 
 ### MultipleSQL
 
@@ -107,7 +107,7 @@ Executes pre-compiled INSERT statement with specified parameters. Parameters: 1)
     |list|`list`|
 
 
-Execute Multiple SQL Statement asynchronously and returns whether the transaction was successful in the AfterExecution Event Handler. Use it when returned data isn't needed. Parameter: 1 ) List of SQL.
+_Execute Multiple SQL Statement asynchronously and returns whether the transaction was successful in the AfterExecution Event Handler. Use it when returned data isn't needed. Parameter: 1 ) List of SQL._
 
 ### Query
 
@@ -126,7 +126,7 @@ Execute Multiple SQL Statement asynchronously and returns whether the transactio
     |limit|`text`|
 
 
-Executes pre-compiled QUERY statement with specified parameters. Parameters: 1) String table: Name of the table. 2) YailList columns: List of which columns to return, passing an empty list will return all columns. 3) String selection: Filter declaring which rows to return, formatted as an SQL WHERE clause, passing an empty string will return all rows. 4) YailList selectionArgs: List with the arguments that will replace onto '?' in the selection filter. 5) String groupBy: A filter declaring how to group rows, formatted as an SQL GROUP BY clause (excluding the GROUP BY itself), passing an empty string will cause the row to not be grouped. 6) String having: A filter declare which row groups to include if row grouping is being used, passing an empty string will cause all row groups to be included. 7) String orderBy: How to order the rows, formatted as an SQL ORDER BY clause (excluding the ORDER BY itself), passing an empty string will use the default sort order (unordered). 8) String limit: Limits the number of rows returned by the query, formatted as LIMIT clause, passing an empty string denotes no LIMIT clause. The result query is available in the AfterQuery event handler
+_Executes pre-compiled QUERY statement with specified parameters. Parameters: 1) String table: Name of the table. 2) YailList columns: List of which columns to return, passing an empty list will return all columns. 3) String selection: Filter declaring which rows to return, formatted as an SQL WHERE clause, passing an empty string will return all rows. 4) YailList selectionArgs: List with the arguments that will replace onto '?' in the selection filter. 5) String groupBy: A filter declaring how to group rows, formatted as an SQL GROUP BY clause (excluding the GROUP BY itself), passing an empty string will cause the row to not be grouped. 6) String having: A filter declare which row groups to include if row grouping is being used, passing an empty string will cause all row groups to be included. 7) String orderBy: How to order the rows, formatted as an SQL ORDER BY clause (excluding the ORDER BY itself), passing an empty string will use the default sort order (unordered). 8) String limit: Limits the number of rows returned by the query, formatted as LIMIT clause, passing an empty string denotes no LIMIT clause. The result query is available in the AfterQuery event handler_
 
 ### RawQuery
 
@@ -139,7 +139,7 @@ Executes pre-compiled QUERY statement with specified parameters. Parameters: 1) 
     |selection Args|`list`|
 
 
-Executes the provided rawQuery Statement asynchronously. Returns a YailList with the selected data and number of records in the AfterQuery Event. Parameter: 1) String sql. 2) YailList selectionArgs: List with the arguments that will replace '?' in where clause in the query, to prevent SQL injections
+_Executes the provided rawQuery Statement asynchronously. Returns a YailList with the selected data and number of records in the AfterQuery Event. Parameter: 1) String sql. 2) YailList selectionArgs: List with the arguments that will replace '?' in where clause in the query, to prevent SQL injections_
 
 ### Replace
 
@@ -155,7 +155,7 @@ Executes the provided rawQuery Statement asynchronously. Returns a YailList with
     |values|`list`|
 
 
-Executes pre-compiled REPLACE OR INSERT INTO statement with specified parameters. Parameters: 1) String table - Name of the table. 2) YailList columns - List with the columns that will contain the data to be replaced in the database. 3) YailList values - List with the data to be replaced in the database. Returns the row ID of the newly replaced row, or -1 if an error occurred.
+_Executes pre-compiled REPLACE OR INSERT INTO statement with specified parameters. Parameters: 1) String table - Name of the table. 2) YailList columns - List with the columns that will contain the data to be replaced in the database. 3) YailList values - List with the data to be replaced in the database. Returns the row ID of the newly replaced row, or -1 if an error occurred._
 
 ### SingleSQL
 
@@ -167,7 +167,7 @@ Executes pre-compiled REPLACE OR INSERT INTO statement with specified parameters
     |sql|`text`|
 
 
-Execute a Single SQL Statement asynchronously and returns whether the transaction was successful in the AfterExecution Event Handler. Use it when returned data isn't needed. Parameter: 1) String sql.
+_Execute a Single SQL Statement asynchronously and returns whether the transaction was successful in the AfterExecution Event Handler. Use it when returned data isn't needed. Parameter: 1) String sql._
 
 ### Update
 
@@ -185,13 +185,13 @@ Execute a Single SQL Statement asynchronously and returns whether the transactio
     |where Args|`list`|
 
 
-Executes pre-compiled UPDATE statement with specified parameters. Parameters: 1) String table - Name of the table. 2) YailList columns - List with the columns that will contain the data to be inserted in the database. 3) YailList values - List with the data to be inserted in the database. 4) String whereClause - optional WHERE clause to apply when updating, leave an empty string to update all rows. Include ?s, which will be updated by the values from whereArgs. 5) YailList whereArgs - List with the columns that will contain the data to be updated in the database. Returns the row ID of the newly inserted row, or -1 if an error occurred.
+_Executes pre-compiled UPDATE statement with specified parameters. Parameters: 1) String table - Name of the table. 2) YailList columns - List with the columns that will contain the data to be inserted in the database. 3) YailList values - List with the data to be inserted in the database. 4) String whereClause - optional WHERE clause to apply when updating, leave an empty string to update all rows. Include ?s, which will be updated by the values from whereArgs. 5) YailList whereArgs - List with the columns that will contain the data to be updated in the database. Returns the row ID of the newly inserted row, or -1 if an error occurred._
 
 ## Properties
 
 ### Return Header
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('SQLite', 'Return Header')]]
@@ -200,11 +200,11 @@ Executes pre-compiled UPDATE statement with specified parameters. Parameters: 1)
 |:----:|:-------:|
 |boolean|false|
 
-Returns whether the header row should be returned in the result of a Select statement.
+_Returns whether the header row should be returned in the result of a Select statement._
 
 ### Suppress Toast
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('SQLite', 'Suppress Toast')]]
@@ -213,4 +213,4 @@ Returns whether the header row should be returned in the result of a Select stat
 |:----:|:-------:|
 |boolean|false|
 
-Returns whether Success Toast should be suppressed.
+_Returns whether Success Toast should be suppressed._

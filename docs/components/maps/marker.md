@@ -14,31 +14,31 @@ _<p>An icon positioned at a point to indicate information on a map. Markers can 
 
 [[Event('Marker', 'Click')]]
 
-The user clicked on the feature.
+_The user clicked on the feature._
 
 ### Drag
 
 [[Event('Marker', 'Drag')]]
 
-The user dragged the map feature.
+_The user dragged the map feature._
 
 ### Long Click
 
 [[Event('Marker', 'Long Click')]]
 
-The user long-pressed on the feature. This event will only trigger if Draggable is false.
+_The user long-pressed on the feature. This event will only trigger if Draggable is false._
 
 ### Start Drag
 
 [[Event('Marker', 'Start Drag')]]
 
-The user started a drag operation.
+_The user started a drag operation._
 
 ### Stop Drag
 
 [[Event('Marker', 'Stop Drag')]]
 
-The user stopped a drag operation.
+_The user stopped a drag operation._
 
 ## Methods
 
@@ -55,7 +55,7 @@ The user stopped a drag operation.
     |centroids|`boolean`|
 
 
-Returns the bearing from the Marker to the given map feature, in degrees from due north. If the centroids parameter is true, the bearing will be to the center of the map feature. Otherwise, the bearing will be computed to the point in the feature nearest the Marker.
+_Returns the bearing from the Marker to the given map feature, in degrees from due north. If the centroids parameter is true, the bearing will be to the center of the map feature. Otherwise, the bearing will be computed to the point in the feature nearest the Marker._
 
 ### BearingToPoint
 
@@ -70,7 +70,7 @@ Returns the bearing from the Marker to the given map feature, in degrees from du
     |longitude|`number`|
 
 
-Returns the bearing from the Marker to the given latitude and longitude, in degrees from due north.
+_Returns the bearing from the Marker to the given latitude and longitude, in degrees from due north._
 
 ### DistanceToFeature
 
@@ -85,7 +85,7 @@ Returns the bearing from the Marker to the given latitude and longitude, in degr
     |centroids|`boolean`|
 
 
-Compute the distance, in meters, between two map features.
+_Compute the distance, in meters, between two map features._
 
 ### DistanceToPoint
 
@@ -100,13 +100,13 @@ Compute the distance, in meters, between two map features.
     |longitude|`number`|
 
 
-Compute the distance, in meters, between a map feature and a latitude, longitude point.
+_Compute the distance, in meters, between a map feature and a latitude, longitude point._
 
 ### HideInfobox
 
 [[Method('Marker', 'HideInfobox', false)]]
 
-Hide the infobox if it is shown. If the infobox is not visible this function has no effect.
+_Hide the infobox if it is shown. If the infobox is not visible this function has no effect._
 
 ### SetLocation
 
@@ -119,19 +119,19 @@ Hide the infobox if it is shown. If the infobox is not visible this function has
     |longitude|`number`|
 
 
-Set the location of the marker.
+_Set the location of the marker._
 
 ### ShowInfobox
 
 [[Method('Marker', 'ShowInfobox', false)]]
 
-Show the infobox for the feature. This will show the infobox even if
+_Show the infobox for the feature. This will show the infobox even if_
 
 ## Properties
 
 ### Anchor Horizontal
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Marker', 'Anchor Horizontal')]]
@@ -140,11 +140,11 @@ Show the infobox for the feature. This will show the infobox even if
 |:----:|:-------:|
 |number|3|
 
-The horizontal alignment property controls where the Marker's anchor is located relative to its width.
+_The horizontal alignment property controls where the Marker's anchor is located relative to its width._
 
 ### Anchor Vertical
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Marker', 'Anchor Vertical')]]
@@ -153,11 +153,11 @@ The horizontal alignment property controls where the Marker's anchor is located 
 |:----:|:-------:|
 |number|3|
 
-The vertical alignment property controls where the Marker's anchor is located relative to its height.
+_The vertical alignment property controls where the Marker's anchor is located relative to its height._
 
 ### Description
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Marker', 'Description')]]
@@ -166,11 +166,11 @@ The vertical alignment property controls where the Marker's anchor is located re
 |:----:|
 |text|
 
-The description displayed in the info window that appears when the user clicks on the map feature.
+_The description displayed in the info window that appears when the user clicks on the map feature._
 
 ### Draggable
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Marker', 'Draggable')]]
@@ -179,11 +179,11 @@ The description displayed in the info window that appears when the user clicks o
 |:----:|:-------:|
 |boolean|False|
 
-The Draggable property is used to set whether or not the user can drag the Marker by long-pressing and then dragging the marker to a new location.
+_The Draggable property is used to set whether or not the user can drag the Marker by long-pressing and then dragging the marker to a new location._
 
 ### Enable Infobox
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Marker', 'Enable Infobox')]]
@@ -192,11 +192,11 @@ The Draggable property is used to set whether or not the user can drag the Marke
 |:----:|:-------:|
 |boolean|False|
 
-Enable or disable the infobox window display when the user taps the feature.
+_Enable or disable the infobox window display when the user taps the feature._
 
 ### Fill Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Marker', 'Fill Color')]]
@@ -205,11 +205,11 @@ Enable or disable the infobox window display when the user taps the feature.
 |:----:|:-------:|
 |number|&HFFF34336|
 
-The paint color used to fill in the map feature.
+_The paint color used to fill in the map feature._
 
 ### Fill Opacity
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Marker', 'Fill Opacity')]]
@@ -218,11 +218,11 @@ The paint color used to fill in the map feature.
 |:----:|:-------:|
 |number|1.0|
 
-The opacity of the interior of the map feature.
+_The opacity of the interior of the map feature._
 
 ### Image Asset
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Marker', 'Image Asset')]]
@@ -231,11 +231,11 @@ The opacity of the interior of the map feature.
 |:----:|
 |text|
 
-The ImageAsset property is used to provide an alternative image for the Marker.
+_The ImageAsset property is used to provide an alternative image for the Marker._
 
 ### Latitude
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Marker', 'Latitude')]]
@@ -248,7 +248,7 @@ _No description available_
 
 ### Longitude
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Marker', 'Longitude')]]
@@ -261,7 +261,7 @@ _No description available_
 
 ### Stroke Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Marker', 'Stroke Color')]]
@@ -270,11 +270,11 @@ _No description available_
 |:----:|:-------:|
 |number|&HFF000000|
 
-The paint color used to outline the map feature.
+_The paint color used to outline the map feature._
 
 ### Stroke Opacity
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Marker', 'Stroke Opacity')]]
@@ -283,11 +283,11 @@ The paint color used to outline the map feature.
 |:----:|:-------:|
 |number|1.0|
 
-The opacity of the stroke used to outline the map feature.
+_The opacity of the stroke used to outline the map feature._
 
 ### Stroke Width
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Marker', 'Stroke Width')]]
@@ -296,11 +296,11 @@ The opacity of the stroke used to outline the map feature.
 |:----:|:-------:|
 |number|1|
 
-The width of the stroke used to outline the map feature.
+_The width of the stroke used to outline the map feature._
 
 ### Title
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Marker', 'Title')]]
@@ -309,11 +309,11 @@ The width of the stroke used to outline the map feature.
 |:----:|
 |text|
 
-The title displayed in the info window that appears when the user clicks on the map feature.
+_The title displayed in the info window that appears when the user clicks on the map feature._
 
 ### Visible
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Marker', 'Visible')]]
@@ -322,11 +322,9 @@ The title displayed in the info window that appears when the user clicks on the 
 |:----:|:-------:|
 |boolean|True|
 
-Specifies whether the component should be visible on the screen. Value is true if the component is showing and false if hidden.
+_Specifies whether the component should be visible on the screen. Value is true if the component is showing and false if hidden._
 
 ### Height
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Marker', 'Height')]]
@@ -339,8 +337,6 @@ _No description available_
 
 ### Height Percent
 
-
-
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Marker', 'Height Percent')]]
 
@@ -352,8 +348,6 @@ _No description available_
 
 ### ShowShadow
 
-
-
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Marker', 'ShowShadow')]]
 
@@ -361,11 +355,9 @@ _No description available_
 |:----:|:-------:|
 |boolean|None|
 
-Gets whether or not the shadow of the Marker is shown.
+_Gets whether or not the shadow of the Marker is shown._
 
 ### Type
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Marker', 'Type')]]
@@ -378,8 +370,6 @@ _No description available_
 
 ### Width
 
-
-
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Marker', 'Width')]]
 
@@ -390,8 +380,6 @@ _No description available_
 _No description available_
 
 ### Width Percent
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Marker', 'Width Percent')]]

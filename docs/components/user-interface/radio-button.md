@@ -20,7 +20,7 @@ _A visible component that lets the user toggle between two states — checked an
     |checked|`boolean`|
 
 
-Event invoked when the radio button state has been changed.
+_Event invoked when the radio button state has been changed._
 
 ## Methods
 
@@ -28,13 +28,13 @@ Event invoked when the radio button state has been changed.
 
 [[Method('Radio Button', 'Toggle', false)]]
 
-Change the checked state of the view to the inverse of its current state
+_Change the checked state of the view to the inverse of its current state_
 
 ## Properties
 
 ### Checked
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Radio Button', 'Checked')]]
@@ -43,11 +43,11 @@ Change the checked state of the view to the inverse of its current state
 |:----:|:-------:|
 |boolean|False|
 
-Set the radio button to checked or unchecked
+_Set the radio button to checked or unchecked_
 
 ### Enabled
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Radio Button', 'Enabled')]]
@@ -56,11 +56,11 @@ Set the radio button to checked or unchecked
 |:----:|:-------:|
 |boolean|True|
 
-If set, user can touch the radio button.
+_If set, user can touch the radio button._
 
 ### Font Bold
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Radio Button', 'Font Bold')]]
@@ -73,7 +73,7 @@ _No description available_
 
 ### Font Italic
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Radio Button', 'Font Italic')]]
@@ -86,7 +86,7 @@ _No description available_
 
 ### Font Typeface
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Radio Button', 'Font Typeface')]]
@@ -99,7 +99,7 @@ _No description available_
 
 ### Font Typeface Import
 
-<small>Available as Advanced Property</small>
+<small>Available as ^^Advanced^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Radio Button', 'Font Typeface Import')]]
@@ -108,11 +108,11 @@ _No description available_
 |:----:|
 |text|
 
-Set a custom font.
+_Set a custom font._
 
 ### Radio Button Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Radio Button', 'Radio Button Color')]]
@@ -121,11 +121,11 @@ Set a custom font.
 |:----:|:-------:|
 |number|&HFF000000|
 
-Change the radio button component color.
+_Change the radio button component color._
 
 ### Text
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Radio Button', 'Text')]]
@@ -134,11 +134,11 @@ Change the radio button component color.
 |:----:|:-------:|
 |text|Radio Button Text|
 
-Set here the radio button text.
+_Set here the radio button text._
 
 ### Text Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Radio Button', 'Text Color')]]
@@ -147,11 +147,11 @@ Set here the radio button text.
 |:----:|:-------:|
 |number|&HFF000000|
 
-Set the text color for the radio button.
+_Set the text color for the radio button._
 
 ### Font Size
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Radio Button', 'Font Size')]]
@@ -160,11 +160,11 @@ Set the text color for the radio button.
 |:----:|:-------:|
 |number|14.0|
 
-The text size of the radio button.
+_The text size of the radio button._
 
 ### Visible
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Radio Button', 'Visible')]]
@@ -173,11 +173,9 @@ The text size of the radio button.
 |:----:|:-------:|
 |boolean|True|
 
-Returns true iff the component is visible.
+_Returns true iff the component is visible._
 
 ### Column
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Radio Button', 'Column')]]
@@ -186,11 +184,9 @@ Returns true iff the component is visible.
 |:----:|:-------:|
 |number|None|
 
-Column property getter method.
+_Column property getter method._
 
 ### Height
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Radio Button', 'Height')]]
@@ -199,11 +195,9 @@ Column property getter method.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's vertical height, measured in pixels.
+_Specifies the component's vertical height, measured in pixels._
 
 ### Height Percent
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Radio Button', 'Height Percent')]]
@@ -212,12 +206,10 @@ Specifies the component's vertical height, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's vertical height as a percentage
- of the height of its parent Component.
+_Specifies the component's vertical height as a percentage
+ of the height of its parent Component._
 
 ### Row
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Radio Button', 'Row')]]
@@ -226,11 +218,9 @@ Specifies the component's vertical height as a percentage
 |:----:|:-------:|
 |number|None|
 
-Row property getter method.
+_Row property getter method._
 
 ### Width
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Radio Button', 'Width')]]
@@ -239,11 +229,9 @@ Row property getter method.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width, measured in pixels.
+_Specifies the component's horizontal width, measured in pixels._
 
 ### Width Percent
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Radio Button', 'Width Percent')]]
@@ -252,12 +240,10 @@ Specifies the component's horizontal width, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width as a percentage
- of the Width of its parent Component.
+_Specifies the component's horizontal width as a percentage
+ of the Width of its parent Component._
 
 ### is Checked
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Radio Button', 'is Checked')]]
@@ -266,4 +252,4 @@ Specifies the component's horizontal width as a percentage
 |:----:|:-------:|
 |boolean|None|
 
-Returns true if the radio button is checked, else false.
+_Returns true if the radio button is checked, else false._

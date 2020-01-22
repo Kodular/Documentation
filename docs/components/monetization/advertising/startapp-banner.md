@@ -14,7 +14,7 @@ _A visible component that shows StartApp ads as static banners._
 
 [[Event('StartApp Banner', 'Ad Clicked')]]
 
-Indicates that the user has clicked on the banner ad.
+_Indicates that the user has clicked on the banner ad._
 
 ### Ad Failed To Load
 
@@ -27,7 +27,7 @@ Indicates that the user has clicked on the banner ad.
     |error Message|`text`|
 
 
-Called when an ad request failed to load. The message will display the error code and error message.
+_Called when an ad request failed to load. The message will display the error code and error message._
 
 ### On Failed To Receive Ad
 
@@ -39,13 +39,13 @@ Called when an ad request failed to load. The message will display the error cod
     |error Message|`text`|
 
 
-Called when an ad request failed to load.
+_Called when an ad request failed to load._
 
 ### On Receive Ad
 
 [[Event('StartApp Banner', 'On Receive Ad')]]
 
-Called when an ad request succeeds.
+_Called when an ad request succeeds._
 
 ## Methods
 
@@ -53,13 +53,13 @@ Called when an ad request succeeds.
 
 [[Method('StartApp Banner', 'Load Ad', false)]]
 
-Load a new StartApp Banner ad.
+_Load a new StartApp Banner ad._
 
 ## Properties
 
 ### App ID
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('StartApp Banner', 'App ID')]]
@@ -72,7 +72,7 @@ _No description available_
 
 ### Visible
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('StartApp Banner', 'Visible')]]
@@ -81,11 +81,9 @@ _No description available_
 |:----:|:-------:|
 |boolean|True|
 
-Specifies whether the component should be visible on the screen. Value is true if the component is showing and false if hidden.
+_Specifies whether the component should be visible on the screen. Value is true if the component is showing and false if hidden._
 
 ### Column
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('StartApp Banner', 'Column')]]
@@ -94,11 +92,9 @@ Specifies whether the component should be visible on the screen. Value is true i
 |:----:|:-------:|
 |number|None|
 
-Column property getter method.
+_Column property getter method._
 
 ### Row
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('StartApp Banner', 'Row')]]
@@ -107,4 +103,4 @@ Column property getter method.
 |:----:|:-------:|
 |number|None|
 
-Row property getter method.
+_Row property getter method._

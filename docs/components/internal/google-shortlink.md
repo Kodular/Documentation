@@ -23,7 +23,7 @@ _A component to create Short links with the Google API_
     |response Content|`text`|
 
 
-Event to detect when a link was converted.
+_Event to detect when a link was converted._
 
 ## Methods
 
@@ -37,7 +37,7 @@ Event to detect when a link was converted.
     |url|`text`|
 
 
-Convert a short link from google into a normal link. Powerd by Google.
+_Convert a short link from google into a normal link. Powerd by Google._
 
 ### UrlToShort
 
@@ -49,13 +49,13 @@ Convert a short link from google into a normal link. Powerd by Google.
     |url|`text`|
 
 
-Convert a link into a short link. Powerd by Google.
+_Convert a link into a short link. Powerd by Google._
 
 ## Properties
 
 ### API Key
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Google Shortlink', 'API Key')]]
@@ -64,11 +64,9 @@ Convert a link into a short link. Powerd by Google.
 |:----:|
 |text|
 
-Set here your api key to use the service. How to get a api key? Read here more: "https://goo.gl/AFks2R"
+_Set here your api key to use the service. How to get a api key? Read here more: "https://goo.gl/AFks2R"_
 
 ### Default API Key
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Google Shortlink', 'Default API Key')]]
@@ -77,4 +75,4 @@ Set here your api key to use the service. How to get a api key? Read here more: 
 |:----:|:-------:|
 |text|None|
 
-Don't use this default api key for your final app's. This default api key is only for development mode. Sponsored by NMD (Next Mobile Development).
+_Don't use this default api key for your final app's. This default api key is only for development mode. Sponsored by NMD (Next Mobile Development)._

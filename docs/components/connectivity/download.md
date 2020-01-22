@@ -24,7 +24,7 @@ _The Download component is a non-visible component that allows users to download
     |file Size|`number`|
 
 
-Event to detect if the download is successful finished. You can use the "filePath" to use the downloaded file into your app. The "fileSize" will be returned in bytes.
+_Event to detect if the download is successful finished. You can use the "filePath" to use the downloaded file into your app. The "fileSize" will be returned in bytes._
 
 ### On Download Progress Changed
 
@@ -36,7 +36,7 @@ Event to detect if the download is successful finished. You can use the "filePat
     |progress|`number`|
 
 
-Get the progress (in percentage) of the current download task.
+_Get the progress (in percentage) of the current download task._
 
 ### Got File Size
 
@@ -48,13 +48,13 @@ Get the progress (in percentage) of the current download task.
     |size|`number`|
 
 
-Event to detect file size is ready to be used.
+_Event to detect file size is ready to be used._
 
 ### Notification Clicked
 
 [[Event('Download', 'Notification Clicked')]]
 
-Event to detect when the user clicks on a running download, either from a system notification or from the downloads UI.
+_Event to detect when the user clicks on a running download, either from a system notification or from the downloads UI._
 
 ## Methods
 
@@ -62,7 +62,7 @@ Event to detect when the user clicks on a running download, either from a system
 
 [[Method('Download', 'Download', false)]]
 
-Start the download process of the given download url.
+_Start the download process of the given download url._
 
 ### GetFileSize
 
@@ -74,19 +74,19 @@ Start the download process of the given download url.
     |path|`text`|
 
 
-Get the file size (in bytes) of a file that is stored online or on your device. The block detect automatic if it is a online path or not. You will get the result in the "Got File Size" event.
+_Get the file size (in bytes) of a file that is stored online or on your device. The block detect automatic if it is a online path or not. You will get the result in the "Got File Size" event._
 
 ### ShowDownload
 
 [[Method('Download', 'ShowDownload', false)]]
 
-You can open the download folder with this block.
+_You can open the download folder with this block._
 
 ## Properties
 
 ### Allow Over Roaming
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Download', 'Allow Over Roaming')]]
@@ -95,11 +95,11 @@ You can open the download folder with this block.
 |:----:|:-------:|
 |boolean|False|
 
-Set whether this download may proceed over a roaming connection.
+_Set whether this download may proceed over a roaming connection._
 
 ### Description
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Download', 'Description')]]
@@ -108,11 +108,11 @@ Set whether this download may proceed over a roaming connection.
 |:----:|:-------:|
 |text|Downloading file..|
 
-Set the description that you will see in the download notification.
+_Set the description that you will see in the download notification._
 
 ### Download URL
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Download', 'Download URL')]]
@@ -121,11 +121,11 @@ Set the description that you will see in the download notification.
 |:----:|
 |text|
 
-Set here the url to the file that you want to download.
+_Set here the url to the file that you want to download._
 
 ### Require Charging
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Download', 'Require Charging')]]
@@ -134,11 +134,11 @@ Set here the url to the file that you want to download.
 |:----:|:-------:|
 |boolean|False|
 
-Specify that to run this download, the device needs to be plugged in. Works only for devices with api >= 24.
+_Specify that to run this download, the device needs to be plugged in. Works only for devices with api >= 24._
 
 ### Require Device Idle
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Download', 'Require Device Idle')]]
@@ -147,11 +147,11 @@ Specify that to run this download, the device needs to be plugged in. Works only
 |:----:|:-------:|
 |boolean|False|
 
-Specify that to run, the download needs the device to be in idle mode. Idle mode is a loose definition provided by the system, which means that the device is not in use, and has not been in use for some time. Works only for devices with api >= 24.
+_Specify that to run, the download needs the device to be in idle mode. Idle mode is a loose definition provided by the system, which means that the device is not in use, and has not been in use for some time. Works only for devices with api >= 24._
 
 ### Save File As
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Download', 'Save File As')]]
@@ -160,11 +160,11 @@ Specify that to run, the download needs the device to be in idle mode. Idle mode
 |:----:|:-------:|
 |text|NewFile.png|
 
-Set here the new filename for the file that you want to download.
+_Set here the new filename for the file that you want to download._
 
 ### Scan By Media Scanner
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Download', 'Scan By Media Scanner')]]
@@ -173,11 +173,11 @@ Set here the new filename for the file that you want to download.
 |:----:|:-------:|
 |boolean|True|
 
-If the file to be downloaded is to be scanned by MediaScanner.
+_If the file to be downloaded is to be scanned by MediaScanner._
 
 ### Show Notification
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Download', 'Show Notification')]]
@@ -186,11 +186,11 @@ If the file to be downloaded is to be scanned by MediaScanner.
 |:----:|:-------:|
 |boolean|True|
 
-Control whether a system notification is posted by the download manager while this download is running or when it is completed.
+_Control whether a system notification is posted by the download manager while this download is running or when it is completed._
 
 ### Suppress Warnings
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Download', 'Suppress Warnings')]]
@@ -199,11 +199,11 @@ Control whether a system notification is posted by the download manager while th
 |:----:|:-------:|
 |boolean|True|
 
-If false you will see a toast message with a error message when a error is occurred.
+_If false you will see a toast message with a error message when a error is occurred._
 
 ### Title
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Download', 'Title')]]
@@ -212,11 +212,11 @@ If false you will see a toast message with a error message when a error is occur
 |:----:|:-------:|
 |text|Download..|
 
-Set the title that you will see in the download notification.
+_Set the title that you will see in the download notification._
 
 ### Is Download Manager Available
 
-:warning: ==**Deprecated**== 
+:warning: ==**Deprecated**==
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Download', 'Is Download Manager Available')]]
@@ -225,4 +225,4 @@ Set the title that you will see in the download notification.
 |:----:|:-------:|
 |boolean|None|
 
-This function is deprecated. Do not use it anymore. We will remove it in the future. Since we support min API 14 the download manager is by default available. The download manager was added in API 9.
+_This function is deprecated. Do not use it anymore. We will remove it in the future. Since we support min API 14 the download manager is by default available. The download manager was added in API 9._

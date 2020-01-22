@@ -23,7 +23,7 @@ _Firebase Storage to upload files to a Firebase Storage Bucket_
     |message|`text`|
 
 
-Triggers when the file could not be deleted
+_Triggers when the file could not be deleted_
 
 ### Delete Success
 
@@ -35,7 +35,7 @@ Triggers when the file could not be deleted
     |file|`text`|
 
 
-Triggers when the file was successfully deleted
+_Triggers when the file was successfully deleted_
 
 ### Download Failed
 
@@ -48,7 +48,7 @@ Triggers when the file was successfully deleted
     |message|`text`|
 
 
-Triggers when the file could not be downloaded
+_Triggers when the file could not be downloaded_
 
 ### Download Success
 
@@ -61,7 +61,7 @@ Triggers when the file could not be downloaded
     |downloaded File|`text`|
 
 
-Triggers when the file was successfully downloaded
+_Triggers when the file was successfully downloaded_
 
 ### Upload Failed
 
@@ -74,7 +74,7 @@ Triggers when the file was successfully downloaded
     |message|`text`|
 
 
-Triggers when the file could not be uploaded
+_Triggers when the file could not be uploaded_
 
 ### Upload Progress
 
@@ -89,7 +89,7 @@ Triggers when the file could not be uploaded
     |total Bytes|`number`|
 
 
-Triggers when the file upload progress changed
+_Triggers when the file upload progress changed_
 
 ### Upload Success
 
@@ -103,7 +103,7 @@ Triggers when the file upload progress changed
     |download Url|`text`|
 
 
-Triggers when the file was successfully uploaded
+_Triggers when the file was successfully uploaded_
 
 ## Methods
 
@@ -117,7 +117,7 @@ Triggers when the file was successfully uploaded
     |file|`text`|
 
 
-Try to delete a file from Firebase Storage
+_Try to delete a file from Firebase Storage_
 
 ### DownloadFile
 
@@ -130,7 +130,7 @@ Try to delete a file from Firebase Storage
     |to Folder|`text`|
 
 
-Try to download a file from Firebase Storage
+_Try to download a file from Firebase Storage_
 
 ### GetBucket
 
@@ -138,31 +138,31 @@ Try to download a file from Firebase Storage
 
 {>>Returns `text`<<}
 
-Get the name of the Storage Bucket
+_Get the name of the Storage Bucket_
 
 ### PauseDownloads
 
 [[Method('Firebase Storage', 'PauseDownloads', false)]]
 
-Pause all the active downloads
+_Pause all the active downloads_
 
 ### PauseUploads
 
 [[Method('Firebase Storage', 'PauseUploads', false)]]
 
-Pause all the active uploads
+_Pause all the active uploads_
 
 ### ResumeDownloads
 
 [[Method('Firebase Storage', 'ResumeDownloads', false)]]
 
-Resume all the active downloads
+_Resume all the active downloads_
 
 ### ResumeUploads
 
 [[Method('Firebase Storage', 'ResumeUploads', false)]]
 
-Resume all the active uploads
+_Resume all the active uploads_
 
 ### UploadFile
 
@@ -175,4 +175,4 @@ Resume all the active uploads
     |upload Path|`text`|
 
 
-Try to upload a file to Firebase Storage
+_Try to upload a file to Firebase Storage_

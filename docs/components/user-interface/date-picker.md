@@ -14,31 +14,31 @@ _<p>A button that, when clicked on, launches a popup dialog to allow the user to
 
 [[Event('Date Picker', 'After Date Set')]]
 
-Event that runs after the user chooses a Date in the dialog
+_Event that runs after the user chooses a Date in the dialog_
 
 ### Got Focus
 
 [[Event('Date Picker', 'Got Focus')]]
 
-Indicates the cursor moved over the button so it is now possible to click it.
+_Indicates the cursor moved over the button so it is now possible to click it._
 
 ### Lost Focus
 
 [[Event('Date Picker', 'Lost Focus')]]
 
-Indicates the cursor moved away from the button so it is now no longer possible to click it.
+_Indicates the cursor moved away from the button so it is now no longer possible to click it._
 
 ### Touch Down
 
 [[Event('Date Picker', 'Touch Down')]]
 
-Indicates that the button was pressed down.
+_Indicates that the button was pressed down._
 
 ### Touch Up
 
 [[Event('Date Picker', 'Touch Up')]]
 
-Indicates that a button has been released.
+_Indicates that a button has been released._
 
 ## Methods
 
@@ -55,19 +55,19 @@ Indicates that a button has been released.
     |color|`number`|
 
 
-Allows you to set animation style. Valid (case-insensitive) values are: ChasingDots, Circle, CubeGrid, DoubleBounce, FadingCircle, FoldingCube, Pulse, RotatingCircle, RotatingPlane, ThreeBounce, WanderingCubes, Wave. If invalid style is used, animation will be removed.Position can be: top, left, right, bottom. Size can be 100.
+_Allows you to set animation style. Valid (case-insensitive) values are: ChasingDots, Circle, CubeGrid, DoubleBounce, FadingCircle, FoldingCube, Pulse, RotatingCircle, RotatingPlane, ThreeBounce, WanderingCubes, Wave. If invalid style is used, animation will be removed.Position can be: top, left, right, bottom. Size can be 100._
 
 ### ButtonClick
 
 [[Method('Date Picker', 'ButtonClick', false)]]
 
-Perform a button click as function.
+_Perform a button click as function._
 
 ### LaunchPicker
 
 [[Method('Date Picker', 'LaunchPicker', false)]]
 
-Launches the DatePicker popup.
+_Launches the DatePicker popup._
 
 ### SetDateToDisplay
 
@@ -81,8 +81,8 @@ Launches the DatePicker popup.
     |day|`number`|
 
 
-Allows the user to set the date to be displayed when the date picker opens.
-Valid values for the month field are 1-12 and 1-31 for the day field.
+_Allows the user to set the date to be displayed when the date picker opens.
+Valid values for the month field are 1-12 and 1-31 for the day field._
 
 ### SetDateToDisplayFromInstant
 
@@ -94,7 +94,7 @@ Valid values for the month field are 1-12 and 1-31 for the day field.
     |instant|`InstantInTime`|
 
 
-Allows the user to set the date from the instant to be displayed when the date picker opens.
+_Allows the user to set the date from the instant to be displayed when the date picker opens._
 
 ### SetShadow
 
@@ -109,7 +109,7 @@ Allows the user to set the date from the instant to be displayed when the date p
     |color|`number`|
 
 
-Place a blurred shadow of text underneath the text, drawn with the specified x, y, radius, color (e.g. -11, 12, 13, black.
+_Place a blurred shadow of text underneath the text, drawn with the specified x, y, radius, color (e.g. -11, 12, 13, black._
 
 ### WithIconFromFontAwesome
 
@@ -125,7 +125,7 @@ Place a blurred shadow of text underneath the text, drawn with the specified x, 
     |size|`number`|
 
 
-Show an image on the given position near to the button. You can use following words for the position: 'Left', 'Right', 'Top' or 'Bottom'. Use the padding to add space between the icon and text. Use a material icon as the button icon without uploading a image resource into your project. You can find the icon name (or code) here at https://fontawesome.com/cheatsheet Use as example for a heart icon just 'f004'.
+_Show an image on the given position near to the button. You can use following words for the position: 'Left', 'Right', 'Top' or 'Bottom'. Use the padding to add space between the icon and text. Use a material icon as the button icon without uploading a image resource into your project. You can find the icon name (or code) here at https://fontawesome.com/cheatsheet Use as example for a heart icon just 'f004'._
 
 ### WithIconFromMaterialFont
 
@@ -141,7 +141,7 @@ Show an image on the given position near to the button. You can use following wo
     |size|`number`|
 
 
-Show an image on the given position near to the button. You can use following words for the position: 'Left', 'Right', 'Top' or 'Bottom'. Use the padding to add space between the icon and text. Use a material icon as the button icon without uploading a image resource into your project. You can find the icon name (or code) here at https://material.io/icons
+_Show an image on the given position near to the button. You can use following words for the position: 'Left', 'Right', 'Top' or 'Bottom'. Use the padding to add space between the icon and text. Use a material icon as the button icon without uploading a image resource into your project. You can find the icon name (or code) here at https://material.io/icons_
 
 ### WithIconFromPicture
 
@@ -157,13 +157,13 @@ Show an image on the given position near to the button. You can use following wo
     |height|`number`|
 
 
-Show an image on the given position near to the button. You can use following words for the position: 'Left', 'Right', 'Top' or 'Bottom'. Use the padding to add space between the icon and text.
+_Show an image on the given position near to the button. You can use following words for the position: 'Left', 'Right', 'Top' or 'Bottom'. Use the padding to add space between the icon and text._
 
 ## Properties
 
 ### Background Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Date Picker', 'Background Color')]]
@@ -172,11 +172,11 @@ Show an image on the given position near to the button. You can use following wo
 |:----:|:-------:|
 |number|&HFF444444|
 
-Returns the button's background color
+_Returns the button's background color_
 
 ### Border Shadow
 
-<small>Available as Advanced Property</small>
+<small>Available as ^^Advanced^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Date Picker', 'Border Shadow')]]
@@ -185,11 +185,11 @@ Returns the button's background color
 |:----:|:-------:|
 |boolean|True|
 
-Returns true if the button have a outside border shadow on click.
+_Returns true if the button have a outside border shadow on click._
 
 ### Enabled
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Date Picker', 'Enabled')]]
@@ -198,11 +198,11 @@ Returns true if the button have a outside border shadow on click.
 |:----:|:-------:|
 |boolean|True|
 
-If set, user can tap check box to cause action.
+_If set, user can tap check box to cause action._
 
 ### Font Bold
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Date Picker', 'Font Bold')]]
@@ -211,11 +211,11 @@ If set, user can tap check box to cause action.
 |:----:|:-------:|
 |boolean|False|
 
-If set, button text is displayed in bold.
+_If set, button text is displayed in bold._
 
 ### Font Italic
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Date Picker', 'Font Italic')]]
@@ -224,11 +224,11 @@ If set, button text is displayed in bold.
 |:----:|:-------:|
 |boolean|False|
 
-If set, button text is displayed in italics.
+_If set, button text is displayed in italics._
 
 ### Font Size
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Date Picker', 'Font Size')]]
@@ -237,11 +237,11 @@ If set, button text is displayed in italics.
 |:----:|:-------:|
 |number|14.0|
 
-Point size for button text.
+_Point size for button text._
 
 ### Font Typeface
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Date Picker', 'Font Typeface')]]
@@ -250,11 +250,11 @@ Point size for button text.
 |:----:|:-------:|
 |number|0|
 
-Font family for button text.
+_Font family for button text._
 
 ### Font Typeface Import
 
-<small>Available as Advanced Property</small>
+<small>Available as ^^Advanced^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Date Picker', 'Font Typeface Import')]]
@@ -263,11 +263,11 @@ Font family for button text.
 |:----:|
 |text|
 
-Set a custom font.
+_Set a custom font._
 
 ### HTML Format
 
-<small>Available as Advanced Property</small>
+<small>Available as ^^Advanced^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Date Picker', 'HTML Format')]]
@@ -276,11 +276,11 @@ Set a custom font.
 |:----:|:-------:|
 |boolean|False|
 
-If true, then this button will show html text else it will show plain text. Note: Not all HTML is supported.
+_If true, then this button will show html text else it will show plain text. Note: Not all HTML is supported._
 
 ### Image
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Date Picker', 'Image')]]
@@ -289,11 +289,11 @@ If true, then this button will show html text else it will show plain text. Note
 |:----:|
 |text|
 
-Image to display on button.
+_Image to display on button._
 
 ### Rotation Angle
 
-<small>Available as Advanced Property</small>
+<small>Available as ^^Advanced^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Date Picker', 'Rotation Angle')]]
@@ -302,11 +302,11 @@ Image to display on button.
 |:----:|:-------:|
 |number|0.0|
 
-Sets the degrees that the button is rotated around the pivot point. Increasing values result in clockwise rotation.
+_Sets the degrees that the button is rotated around the pivot point. Increasing values result in clockwise rotation._
 
 ### Shape
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Date Picker', 'Shape')]]
@@ -315,11 +315,11 @@ Sets the degrees that the button is rotated around the pivot point. Increasing v
 |:----:|:-------:|
 |number|0|
 
-Specifies the button's shape (default, rounded, rectangular, oval). The shape will not be visible if an Image is being displayed.
+_Specifies the button's shape (default, rounded, rectangular, oval). The shape will not be visible if an Image is being displayed._
 
 ### Show Feedback
 
-<small>Available as Advanced Property</small>
+<small>Available as ^^Advanced^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Date Picker', 'Show Feedback')]]
@@ -328,11 +328,11 @@ Specifies the button's shape (default, rounded, rectangular, oval). The shape wi
 |:----:|:-------:|
 |boolean|True|
 
-Specifies if a visual feedback should be shown for a button that as an image as background.
+_Specifies if a visual feedback should be shown for a button that as an image as background._
 
 ### Text
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Date Picker', 'Text')]]
@@ -341,11 +341,11 @@ Specifies if a visual feedback should be shown for a button that as an image as 
 |:----:|
 |text|
 
-Text to display on button.
+_Text to display on button._
 
 ### Text Alignment
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Date Picker', 'Text Alignment')]]
@@ -354,11 +354,11 @@ Text to display on button.
 |:----:|:-------:|
 |number|1|
 
-Left, center, or right.
+_Left, center, or right._
 
 ### Text Color
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Date Picker', 'Text Color')]]
@@ -367,11 +367,11 @@ Left, center, or right.
 |:----:|:-------:|
 |number|&HFFFFFFFF|
 
-Color for button text.
+_Color for button text._
 
 ### Touch Color
 
-<small>Available as Advanced Property</small>
+<small>Available as ^^Advanced^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Date Picker', 'Touch Color')]]
@@ -380,11 +380,11 @@ Color for button text.
 |:----:|:-------:|
 |number|&HFFCCCCCC|
 
-Set the buttons touch color.
+_Set the buttons touch color._
 
 ### Visible
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Date Picker', 'Visible')]]
@@ -393,11 +393,9 @@ Set the buttons touch color.
 |:----:|:-------:|
 |boolean|True|
 
-Returns true iff the component is visible.
+_Returns true iff the component is visible._
 
 ### Column
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Date Picker', 'Column')]]
@@ -406,11 +404,9 @@ Returns true iff the component is visible.
 |:----:|:-------:|
 |number|None|
 
-Column property getter method.
+_Column property getter method._
 
 ### Day
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Date Picker', 'Day')]]
@@ -419,11 +415,9 @@ Column property getter method.
 |:----:|:-------:|
 |number|None|
 
-the Day of the month that was last picked using the DatePicker.
+_the Day of the month that was last picked using the DatePicker._
 
 ### Height
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Date Picker', 'Height')]]
@@ -432,11 +426,9 @@ the Day of the month that was last picked using the DatePicker.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's vertical height, measured in pixels.
+_Specifies the component's vertical height, measured in pixels._
 
 ### Height Percent
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Date Picker', 'Height Percent')]]
@@ -445,12 +437,10 @@ Specifies the component's vertical height, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's vertical height as a percentage
- of the height of its parent Component.
+_Specifies the component's vertical height as a percentage
+ of the height of its parent Component._
 
 ### Instant
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Date Picker', 'Instant')]]
@@ -459,11 +449,9 @@ Specifies the component's vertical height as a percentage
 |:----:|:-------:|
 |InstantInTime|None|
 
-the instant of the date that was last picked using the DatePicker.
+_the instant of the date that was last picked using the DatePicker._
 
 ### Month
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Date Picker', 'Month')]]
@@ -472,11 +460,9 @@ the instant of the date that was last picked using the DatePicker.
 |:----:|:-------:|
 |number|None|
 
-the number of the Month that was last picked using the DatePicker. Note that months start in 1 = January, 12 = December.
+_the number of the Month that was last picked using the DatePicker. Note that months start in 1 = January, 12 = December._
 
 ### Month In Text
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Date Picker', 'Month In Text')]]
@@ -485,11 +471,9 @@ the number of the Month that was last picked using the DatePicker. Note that mon
 |:----:|:-------:|
 |text|None|
 
-Returns the name of the Month that was last picked using the DatePicker, in textual format.
+_Returns the name of the Month that was last picked using the DatePicker, in textual format._
 
 ### Row
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Date Picker', 'Row')]]
@@ -498,11 +482,9 @@ Returns the name of the Month that was last picked using the DatePicker, in text
 |:----:|:-------:|
 |number|None|
 
-Row property getter method.
+_Row property getter method._
 
 ### Width
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Date Picker', 'Width')]]
@@ -511,11 +493,9 @@ Row property getter method.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width, measured in pixels.
+_Specifies the component's horizontal width, measured in pixels._
 
 ### Width Percent
-
-
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Date Picker', 'Width Percent')]]
@@ -524,12 +504,10 @@ Specifies the component's horizontal width, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width as a percentage
- of the Width of its parent Component.
+_Specifies the component's horizontal width as a percentage
+ of the Width of its parent Component._
 
 ### Year
-
-
 
 :eyes: Read-Only property
 [[PropertyBlockGetter('Date Picker', 'Year')]]
@@ -538,4 +516,4 @@ Specifies the component's horizontal width as a percentage
 |:----:|:-------:|
 |number|None|
 
-the Year that was last picked using the DatePicker
+_the Year that was last picked using the DatePicker_

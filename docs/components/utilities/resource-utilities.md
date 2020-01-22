@@ -27,7 +27,7 @@ _A non-visible component that loads string resources from a file._
     |if Resource Not Found Use|`text`|
 
 
-This block is deprecated and will be removed soon. Use instead 'Get String From Asset' or 'Get String From Path'.
+_This block is deprecated and will be removed soon. Use instead 'Get String From Asset' or 'Get String From Path'._
 
 ### GetStringFromAsset
 
@@ -42,7 +42,7 @@ This block is deprecated and will be removed soon. Use instead 'Get String From 
     |if Resource Not Found Use|`text`|
 
 
-Get the text from a asset resource file. Make sure you uploaded a file at 'Resource File From Asset' property.
+_Get the text from a asset resource file. Make sure you uploaded a file at 'Resource File From Asset' property._
 
 ### GetStringFromPath
 
@@ -57,13 +57,13 @@ Get the text from a asset resource file. Make sure you uploaded a file at 'Resou
     |if Resource Not Found Use|`text`|
 
 
-Get the text from a path resource file. Make sure you added a file path at 'Resource File From Path' property. The path can be too a link to a url.
+_Get the text from a path resource file. Make sure you added a file path at 'Resource File From Path' property. The path can be too a link to a url._
 
 ## Properties
 
 ### Resource File From Asset
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Resource Utilities', 'Resource File From Asset')]]
@@ -72,11 +72,11 @@ Get the text from a path resource file. Make sure you added a file path at 'Reso
 |:----:|
 |text|
 
-Set the file which is used as resource file. The file must be stored in the assets folder.
+_Set the file which is used as resource file. The file must be stored in the assets folder._
 
 ### Resource File From Path
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Resource Utilities', 'Resource File From Path')]]
@@ -85,4 +85,4 @@ Set the file which is used as resource file. The file must be stored in the asse
 |:----:|
 |text|
 
-Set the file which is used as resource file. The file path must be valid to any file you want to use. The path can be too a link to a url.
+_Set the file which is used as resource file. The file path must be valid to any file you want to use. The path can be too a link to a url._

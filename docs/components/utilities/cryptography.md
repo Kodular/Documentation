@@ -24,7 +24,7 @@ _A non-visible component that encrypts and decrypts data using a variety of tech
     |AES-128 Hash|`text`|
 
 
-Decodes the given hash using the given key through AES-128. If any exception occurs, returns empty string.
+_Decodes the given hash using the given key through AES-128. If any exception occurs, returns empty string._
 
 ### AES128Encode
 
@@ -38,7 +38,7 @@ Decodes the given hash using the given key through AES-128. If any exception occ
     |input Text|`text`|
 
 
-Encodes the given string using the given key through AES-128. If any exception occurs, returns empty string.
+_Encodes the given string using the given key through AES-128. If any exception occurs, returns empty string._
 
 ### AES128GenKey
 
@@ -46,7 +46,7 @@ Encodes the given string using the given key through AES-128. If any exception o
 
 {>>Returns `text`<<}
 
-Generates a secure random AES 128 key
+_Generates a secure random AES 128 key_
 
 ### AES256Decode
 
@@ -60,7 +60,7 @@ Generates a secure random AES 128 key
     |AES-256 Hash|`text`|
 
 
-Decodes the given hash using the given key through AES-256. If there are any exceptions, returns empty string
+_Decodes the given hash using the given key through AES-256. If there are any exceptions, returns empty string_
 
 ### AES256Encode
 
@@ -74,7 +74,7 @@ Decodes the given hash using the given key through AES-256. If there are any exc
     |input Text|`text`|
 
 
-Encodes the given string using the given key through AES-256. If there are any exceptions, returns empty string
+_Encodes the given string using the given key through AES-256. If there are any exceptions, returns empty string_
 
 ### AES256GenKey
 
@@ -82,7 +82,7 @@ Encodes the given string using the given key through AES-256. If there are any e
 
 {>>Returns `text`<<}
 
-Generates a secure random AES 256 key
+_Generates a secure random AES 256 key_
 
 ### BCryptCreateHash
 
@@ -97,7 +97,7 @@ Generates a secure random AES 256 key
     |salt|`text`|
 
 
-Generates a hash using BCrypt
+_Generates a hash using BCrypt_
 
 ### BCryptGenerateSalt
 
@@ -105,7 +105,7 @@ Generates a hash using BCrypt
 
 {>>Returns `text`<<}
 
-Generates a salt usable for hashing with BCrypt
+_Generates a salt usable for hashing with BCrypt_
 
 ### BCryptVerifyPassword
 
@@ -120,7 +120,7 @@ Generates a salt usable for hashing with BCrypt
     |correct Hash|`text`|
 
 
-Verifies if the input password is the same one as the correct hashed password using BCrypt algorithm
+_Verifies if the input password is the same one as the correct hashed password using BCrypt algorithm_
 
 ### Base64Decode
 
@@ -134,7 +134,7 @@ Verifies if the input password is the same one as the correct hashed password us
     |base64 Hash|`text`|
 
 
-Decodes the given hash using Base64
+_Decodes the given hash using Base64_
 
 ### Base64Encode
 
@@ -148,7 +148,7 @@ Decodes the given hash using Base64
     |input Text|`text`|
 
 
-Encodes the given string using Base64
+_Encodes the given string using Base64_
 
 ### Enigma
 
@@ -167,7 +167,7 @@ Encodes the given string using Base64
     |plugboard|`list`|
 
 
-Encrypts or decrypts the given string simulating an Enigma machine. Rotors can go from 1 to 8, but they cannot be repeated. Reflector can be B, C or 0 if none. Plugboard is a list with sub-list of two items containing a character each one, which replace the first character with the second one.
+_Encrypts or decrypts the given string simulating an Enigma machine. Rotors can go from 1 to 8, but they cannot be repeated. Reflector can be B, C or 0 if none. Plugboard is a list with sub-list of two items containing a character each one, which replace the first character with the second one._
 
 ### MD5CreateHash
 
@@ -181,7 +181,7 @@ Encrypts or decrypts the given string simulating an Enigma machine. Rotors can g
     |input Text|`text`|
 
 
-Generates a MD5 hash
+_Generates a MD5 hash_
 
 ### PBKDF2CreateHash
 
@@ -195,7 +195,7 @@ Generates a MD5 hash
     |input Text|`text`|
 
 
-Generates a hash using PBKDF2
+_Generates a hash using PBKDF2_
 
 ### PBKDF2VerifyPassword
 
@@ -210,7 +210,7 @@ Generates a hash using PBKDF2
     |correct Hash|`text`|
 
 
-Verifies if the input password is the same one as the correct hashed password using PBKDF2 algorithm
+_Verifies if the input password is the same one as the correct hashed password using PBKDF2 algorithm_
 
 ### SHA1
 
@@ -224,7 +224,7 @@ Verifies if the input password is the same one as the correct hashed password us
     |input Text|`text`|
 
 
-Generates a hashed SHA-1 string
+_Generates a hashed SHA-1 string_
 
 ### SHA224
 
@@ -238,7 +238,7 @@ Generates a hashed SHA-1 string
     |input Text|`text`|
 
 
-Generates a hashed SHA-224 string
+_Generates a hashed SHA-224 string_
 
 ### SHA256
 
@@ -252,7 +252,7 @@ Generates a hashed SHA-224 string
     |input Text|`text`|
 
 
-Generates a hashed SHA-256 string
+_Generates a hashed SHA-256 string_
 
 ### SHA384
 
@@ -266,7 +266,7 @@ Generates a hashed SHA-256 string
     |input Text|`text`|
 
 
-Generates a hashed SHA-384 string
+_Generates a hashed SHA-384 string_
 
 ### SHA512
 
@@ -280,7 +280,7 @@ Generates a hashed SHA-384 string
     |input Text|`text`|
 
 
-Generates a hashed SHA-512 string
+_Generates a hashed SHA-512 string_
 
 ### TripleDESDecode
 
@@ -294,7 +294,7 @@ Generates a hashed SHA-512 string
     |tripleDES Hash|`text`|
 
 
-Decodes the given hash using the given key through TripleDES
+_Decodes the given hash using the given key through TripleDES_
 
 ### TripleDESEncode
 
@@ -308,13 +308,13 @@ Decodes the given hash using the given key through TripleDES
     |input Text|`text`|
 
 
-Encodes the given string using the given key through TripleDES
+_Encodes the given string using the given key through TripleDES_
 
 ## Properties
 
 ### AES-128 Key
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Cryptography', 'AES-128 Key')]]
@@ -323,11 +323,11 @@ Encodes the given string using the given key through TripleDES
 |:----:|
 |text|
 
-Set the AES-128 Key
+_Set the AES-128 Key_
 
 ### AES-256 Key
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Cryptography', 'AES-256 Key')]]
@@ -336,11 +336,11 @@ Set the AES-128 Key
 |:----:|
 |text|
 
-Set the AES-256 Key
+_Set the AES-256 Key_
 
 ### BCrypt Salt Size
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Cryptography', 'BCrypt Salt Size')]]
@@ -349,11 +349,11 @@ Set the AES-256 Key
 |:----:|:-------:|
 |number|10|
 
-Set the BCrypt Salt Size
+_Set the BCrypt Salt Size_
 
 ### PBKDF2 Hash Byte Size
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Cryptography', 'PBKDF2 Hash Byte Size')]]
@@ -362,11 +362,11 @@ Set the BCrypt Salt Size
 |:----:|:-------:|
 |number|18|
 
-Set the PBKDF2 Hash Byte Size
+_Set the PBKDF2 Hash Byte Size_
 
 ### PBKDF2 Iterations Number
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Cryptography', 'PBKDF2 Iterations Number')]]
@@ -375,11 +375,11 @@ Set the PBKDF2 Hash Byte Size
 |:----:|:-------:|
 |number|64000|
 
-Set the PBKDF2 number of Iterations
+_Set the PBKDF2 number of Iterations_
 
 ### PBKDF2 Salt Byte Size
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Cryptography', 'PBKDF2 Salt Byte Size')]]
@@ -388,11 +388,11 @@ Set the PBKDF2 number of Iterations
 |:----:|:-------:|
 |number|24|
 
-Set the PBKDF2 Salt Byte Size
+_Set the PBKDF2 Salt Byte Size_
 
 ### TripleDES Key
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Cryptography', 'TripleDES Key')]]
@@ -401,4 +401,4 @@ Set the PBKDF2 Salt Byte Size
 |:----:|
 |text|
 
-Set the TripleDES Key
+_Set the TripleDES Key_

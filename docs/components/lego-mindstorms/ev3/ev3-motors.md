@@ -22,7 +22,7 @@ _A component that provides both high- and low-level interfaces to a LEGO MINDSTO
     |tacho Count|`number`|
 
 
-Called when the tacho count has changed.
+_Called when the tacho count has changed._
 
 ## Methods
 
@@ -32,13 +32,13 @@ Called when the tacho count has changed.
 
 {>>Returns `number`<<}
 
-Get the current tacho count.
+_Get the current tacho count._
 
 ### ResetTachoCount
 
 [[Method('EV3 Motors', 'ResetTachoCount', false)]]
 
-Set the current tacho count to zero.
+_Set the current tacho count to zero._
 
 ### RotateInDistance
 
@@ -52,7 +52,7 @@ Set the current tacho count to zero.
     |use Brake|`boolean`|
 
 
-Rotate the motors in a distance.
+_Rotate the motors in a distance._
 
 ### RotateInDuration
 
@@ -66,7 +66,7 @@ Rotate the motors in a distance.
     |use Brake|`boolean`|
 
 
-Rotate the motors in a period of time.
+_Rotate the motors in a period of time._
 
 ### RotateInTachoCounts
 
@@ -80,7 +80,7 @@ Rotate the motors in a period of time.
     |use Brake|`boolean`|
 
 
-Rotate the motors in a number of tacho counts.
+_Rotate the motors in a number of tacho counts._
 
 ### RotateIndefinitely
 
@@ -92,7 +92,7 @@ Rotate the motors in a number of tacho counts.
     |power|`number`|
 
 
-Start to rotate the motors.
+_Start to rotate the motors._
 
 ### RotateSyncInDistance
 
@@ -107,7 +107,7 @@ Start to rotate the motors.
     |use Brake|`boolean`|
 
 
-Rotate the motors at the same speed for a distance in cm.
+_Rotate the motors at the same speed for a distance in cm._
 
 ### RotateSyncInDuration
 
@@ -122,7 +122,7 @@ Rotate the motors at the same speed for a distance in cm.
     |use Brake|`boolean`|
 
 
-Rotate the motors at the same speed in a period of time.
+_Rotate the motors at the same speed in a period of time._
 
 ### RotateSyncInTachoCounts
 
@@ -137,7 +137,7 @@ Rotate the motors at the same speed in a period of time.
     |use Brake|`boolean`|
 
 
-Rotate the motors at the same speed in a number of tacho counts.
+_Rotate the motors at the same speed in a number of tacho counts._
 
 ### RotateSyncIndefinitely
 
@@ -150,7 +150,7 @@ Rotate the motors at the same speed in a number of tacho counts.
     |turn Ratio|`number`|
 
 
-Start to rotate the motors at the same speed.
+_Start to rotate the motors at the same speed._
 
 ### Stop
 
@@ -162,19 +162,19 @@ Start to rotate the motors at the same speed.
     |use Brake|`boolean`|
 
 
-Stop the motors of the robot.
+_Stop the motors of the robot._
 
 ### ToggleDirection
 
 [[Method('EV3 Motors', 'ToggleDirection', false)]]
 
-Toggle the direction of motors.
+_Toggle the direction of motors._
 
 ## Properties
 
 ### Bluetooth Client
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('EV3 Motors', 'Bluetooth Client')]]
@@ -183,11 +183,11 @@ Toggle the direction of motors.
 |:----:|
 |component|
 
-The BluetoothClient component that should be used for communication.
+_The BluetoothClient component that should be used for communication._
 
 ### Enable Speed Regulation
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('EV3 Motors', 'Enable Speed Regulation')]]
@@ -196,11 +196,11 @@ The BluetoothClient component that should be used for communication.
 |:----:|:-------:|
 |boolean|True|
 
-Specifies whether to keep motor rotation at constant speed.
+_Specifies whether to keep motor rotation at constant speed._
 
 ### Motor Ports
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('EV3 Motors', 'Motor Ports')]]
@@ -209,11 +209,11 @@ Specifies whether to keep motor rotation at constant speed.
 |:----:|:-------:|
 |text|ABC|
 
-The motor ports that the motors are connected to. The ports are specified by a sequence of port letters.
+_The motor ports that the motors are connected to. The ports are specified by a sequence of port letters._
 
 ### Reverse Direction
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('EV3 Motors', 'Reverse Direction')]]
@@ -222,11 +222,11 @@ The motor ports that the motors are connected to. The ports are specified by a s
 |:----:|:-------:|
 |boolean|False|
 
-Set whether the direction of motors is reversed or not.
+_Set whether the direction of motors is reversed or not._
 
 ### Stop Before Disconnect
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('EV3 Motors', 'Stop Before Disconnect')]]
@@ -235,11 +235,11 @@ Set whether the direction of motors is reversed or not.
 |:----:|:-------:|
 |boolean|True|
 
-Whether to stop the motor before disconnecting.
+_Whether to stop the motor before disconnecting._
 
 ### Tacho Count Changed Event Enabled
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('EV3 Motors', 'Tacho Count Changed Event Enabled')]]
@@ -248,11 +248,11 @@ Whether to stop the motor before disconnecting.
 |:----:|:-------:|
 |boolean|False|
 
-Whether the TachoCountChanged event should fire when the angle is changed.
+_Whether the TachoCountChanged event should fire when the angle is changed._
 
 ### Wheel Diameter
 
-<small>Available as Common Property</small>
+<small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('EV3 Motors', 'Wheel Diameter')]]
@@ -261,4 +261,4 @@ Whether the TachoCountChanged event should fire when the angle is changed.
 |:----:|:-------:|
 |number|4.32|
 
-Specifies the diameter of the wheels attached on motors.
+_Specifies the diameter of the wheels attached on motors._
