@@ -4,6 +4,7 @@ python: "3.6"
 install:
   - easy_install distribute
   - pip install -r requirements.txt
+  - export PYTHONPATH="${PYTHONPATH}:${TRAVIS_BUILD_DIR}"
 script:
   - git clean -f -d -x
   - mkdocs build
