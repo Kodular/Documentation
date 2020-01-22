@@ -66,19 +66,19 @@ markdown_extensions:
   - markdown.extensions.attr_list
   - codehilite
   # PyMdown Extensions
-  #- pymdownx.caret
-  #- pymdownx.critic
-  #- pymdownx.details
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
   - pymdownx.emoji:
       emoji_generator: !!python/name:pymdownx.emoji.to_svg
-  #- pymdownx.inlinehilite
-  #- pymdownx.keys
-  #- pymdownx.mark
-  #- pymdownx.smartsymbols
-  #- pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
   - pymdownx.tasklist:
      custom_checkbox: true
-  #- pymdownx.tilde
+  - pymdownx.tilde
   - mdx_macros:
       macros:
         # If you get any error about module import here,
