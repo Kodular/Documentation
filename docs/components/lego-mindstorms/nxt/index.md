@@ -1,4 +1,4 @@
-# Overview <small>of LEGO® MINDSTORMS® > Nxt</small>
+# Overview <small>of LEGO® MINDSTORMS® > NXT</small>
 
 * [NXT Color Sensor](nxt-color-sensor.md)
 * [NXT Direct Commands](nxt-direct-commands.md)

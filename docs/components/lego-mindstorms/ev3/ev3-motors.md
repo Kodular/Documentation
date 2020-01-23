@@ -2,7 +2,7 @@
 
 | Category | Requires | Version |
 |:--------:|:-------:|:--------:|
-|LEGO® MINDSTORMS® > Ev3|API 19, Android 4.4 - 4.4.4 KitKat|1|
+|LEGO® MINDSTORMS® > EV3|API 19, Android 4.4 - 4.4.4 KitKat|1|
 
 :mag: {>>Non-visible component<<}
 

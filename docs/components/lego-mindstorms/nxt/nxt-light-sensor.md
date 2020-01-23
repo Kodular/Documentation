@@ -2,7 +2,7 @@
 
 | Category | Requires | Version |
 |:--------:|:-------:|:--------:|
-|LEGO® MINDSTORMS® > Nxt|API 19, Android 4.4 - 4.4.4 KitKat|1|
+|LEGO® MINDSTORMS® > NXT|API 19, Android 4.4 - 4.4.4 KitKat|1|
 
 :mag: {>>Non-visible component<<}
 

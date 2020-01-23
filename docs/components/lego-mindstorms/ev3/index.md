@@ -1,4 +1,4 @@
-# Overview <small>of LEGO® MINDSTORMS® > Ev3</small>
+# Overview <small>of LEGO® MINDSTORMS® > EV3</small>
 
 * [EV3 Color Sensor](ev3-color-sensor.md)
 * [EV3 Commands](ev3-commands.md)
