@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Connectivity|2|API 19 - Android 4.4 - 4.4.4 KitKat|
+|Connectivity|2|API 19 | Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 
@@ -179,7 +179,7 @@ Make/create a directory on the ftp server.
 <small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('FTP', 'FTP-Server (Host)')]]
+[[PropertyBlockGetterAndSetter('FTP', 'FTP-Server Host')]]
 
 | Type | Default |
 |:----:|:-------:|

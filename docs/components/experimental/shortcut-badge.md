@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Experimental|1|API 19 - Android 4.4 - 4.4.4 KitKat|
+|Experimental|1|API 19 | Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 

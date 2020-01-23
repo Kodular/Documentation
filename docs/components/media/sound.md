@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Media|4|API 19 - Android 4.4 - 4.4.4 KitKat|
+|Media|4|API 19 | Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 
@@ -97,7 +97,7 @@ Vibrate with a given pattern
 <small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Sound', 'Minimum Interval (ms)')]]
+[[PropertyBlockGetterAndSetter('Sound', 'Minimum Interval ms')]]
 
 | Type | Default |
 |:----:|:-------:|

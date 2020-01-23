@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Monetization > General|1|API 19 - Android 4.4 - 4.4.4 KitKat|
+|Monetization > General|1|API 19 | Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 

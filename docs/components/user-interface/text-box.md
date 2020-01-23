@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|User Interface|13|API 19 - Android 4.4 - 4.4.4 KitKat|
+|User Interface|13|API 19 | Android 4.4 - 4.4.4 KitKat|
 
 ## Overview
 
@@ -311,7 +311,7 @@ If true, then this text box accepts multiple lines of input, which are entered u
 :warning: ==**Deprecated**== <small>Available as Common Property</small>
 
 :eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Text Box', 'Numbers Only \(Not Working, Use Input Type\)')]]
+[[PropertyBlockGetterAndSetter('Text Box', 'Numbers Only Not Working, Use Input Type')]]
 
 | Type | Default |
 |:----:|:-------:|
@@ -424,7 +424,7 @@ Get the current cursor position.
 :warning: ==**Deprecated**==
 
 :eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Text Box', 'Enable Copy \& Paste')]]
+[[PropertyBlockGetterAndSetter('Text Box', 'Enable Copy and Paste')]]
 
 | Type | Default |
 |:----:|:-------:|

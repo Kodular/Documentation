@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Experimental|1|API 21 - Android 5.0 Lollipop|
+|Experimental|1|API 21 | Android 5.0 Lollipop|
 
 :mag: {>>Non-visible component<<}
 

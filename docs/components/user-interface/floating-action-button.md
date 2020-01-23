@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|User Interface|2|API 19 - Android 4.4 - 4.4.4 KitKat|
+|User Interface|2|API 19 | Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 
@@ -220,7 +220,7 @@ Returns the fab's ripple color.
 <small>Available as ^^Advanced^^ Property</small>
 
 :eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Floating Action Button', 'Rotation Duration (millisecond)')]]
+[[PropertyBlockGetterAndSetter('Floating Action Button', 'Rotation Duration millisecond')]]
 
 | Type | Default |
 |:----:|:-------:|

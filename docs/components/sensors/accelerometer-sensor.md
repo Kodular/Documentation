@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Sensors|4|API 19 - Android 4.4 - 4.4.4 KitKat|
+|Sensors|4|API 19 | Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 
@@ -70,7 +70,7 @@ Prior to the release that added this property the AccelerometerSensor component 
 <small>Available as ^^Common^^ Property</small>
 
 :eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Accelerometer Sensor', 'Minimum Interval (ms)')]]
+[[PropertyBlockGetterAndSetter('Accelerometer Sensor', 'Minimum Interval ms')]]
 
 | Type | Default |
 |:----:|:-------:|

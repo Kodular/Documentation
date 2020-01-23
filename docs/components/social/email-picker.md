@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Social|6|API 19 - Android 4.4 - 4.4.4 KitKat|
+|Social|6|API 19 | Android 4.4 - 4.4.4 KitKat|
 
 ## Overview
 
@@ -330,7 +330,7 @@ Get the current cursor position.
 :warning: ==**Deprecated**==
 
 :eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Email Picker', 'Enable Copy \& Paste')]]
+[[PropertyBlockGetterAndSetter('Email Picker', 'Enable Copy and Paste')]]
 
 | Type | Default |
 |:----:|:-------:|

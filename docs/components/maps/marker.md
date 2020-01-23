@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Maps|3|API 19 - Android 4.4 - 4.4.4 KitKat|
+|Maps|3|API 19 | Android 4.4 - 4.4.4 KitKat|
 
 ## Overview
 

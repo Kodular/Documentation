@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Layout > Lists|4|API 19 - Android 4.4 - 4.4.4 KitKat|
+|Layout > Lists|4|API 19 | Android 4.4 - 4.4.4 KitKat|
 
 ## Overview
 

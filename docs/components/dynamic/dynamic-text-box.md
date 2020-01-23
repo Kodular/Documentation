@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Dynamic Components|3|API 19 - Android 4.4 - 4.4.4 KitKat|
+|Dynamic Components|3|API 19 | Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 

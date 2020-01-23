@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Drawing and Animation|2|API 19 - Android 4.4 - 4.4.4 KitKat|
+|Drawing and Animation|2|API 19 | Android 4.4 - 4.4.4 KitKat|
 
 ## Overview
 

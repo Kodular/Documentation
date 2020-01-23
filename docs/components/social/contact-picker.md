@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Social|12|API 19 - Android 4.4 - 4.4.4 KitKat|
+|Social|12|API 19 | Android 4.4 - 4.4.4 KitKat|
 
 ## Overview
 

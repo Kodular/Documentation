@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Media|6|API 19 - Android 4.4 - 4.4.4 KitKat|
+|Media|6|API 19 | Android 4.4 - 4.4.4 KitKat|
 
 ## Overview
 

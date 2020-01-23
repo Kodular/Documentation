@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Layout > General|42|API 19 - Android 4.4 - 4.4.4 KitKat|
+|Layout > General|42|API 19 | Android 4.4 - 4.4.4 KitKat|
 
 ## Overview
 
@@ -577,7 +577,7 @@ Keep the device's screen turned on and bright.
 <small>Available as ^^Advanced^^ Property</small>
 
 :eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Form', 'Min SDK (Min. Android Version)')]]
+[[PropertyBlockGetterAndSetter('Form', 'Min SDK Min. Android Version')]]
 
 | Type | Default |
 |:----:|:-------:|

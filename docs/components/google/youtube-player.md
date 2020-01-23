@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Google|2|API 17 - Android 4.2.X Jelly Bean|
+|Google|2|API 17 | Android 4.2.X Jelly Bean|
 
 ## Overview
 
