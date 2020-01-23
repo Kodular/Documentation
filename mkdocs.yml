@@ -245,6 +245,7 @@ nav:
       - Animation Utilities: components/utilities/animation-utilities.md
       - Audio: components/utilities/audio.md
       - Color Utilities: components/utilities/color-utilities.md
+      - Cryptography: components/utilities/cryptography.md
       - Device Utilities: components/utilities/device-utilities.md
       - Image Utilities: components/utilities/image-utilities.md
       - JSON: components/utilities/json.md

@@ -75,7 +75,7 @@ The key used for encoding and decoding with TripleDES. The key must be a string 
 
 \[ Text `AES-128 Hash` \]  
 
-[[Method('Cryptography', 'AES-128 Decode', 'AES-128 Hash')]]
+[[Method('Cryptography', 'AES-128 Decode', True, 'AES-128 Hash')]]
 
 Returns the output after decoding the Hash with the AES-128 Key. Returns `*empty-string*` if decoding failed, or if the plaintext was `*empty-string*`.
 
@@ -87,7 +87,7 @@ Params             |  []()
 
 \[ Text `input Text` \]  
 
-[[Method('Cryptography', 'AES-128 Decode', 'AES-128 Hash')]]
+[[Method('Cryptography', 'AES-128 Encode', True, 'input Text')]]
 
 Returns the output after encoding the input Text with the AES-128 Key.
 
@@ -99,7 +99,7 @@ Params             |  []()
 
 \[ None \]  
 
-[[Method('Cryptography', 'Generate AES 128 Key')]]
+[[Method('Cryptography', 'Generate AES 128 Key', True)]]
 
 Generates a secure random AES 128 key.
 
@@ -107,7 +107,7 @@ Generates a secure random AES 128 key.
 
 \[ Text `AES-256 Hash` \]  
 
-[[Method('Cryptography', 'AES-128 Decode', 'AES-128 Hash')]]
+[[Method('Cryptography', 'AES-256 Decode', True, 'AES-256 Hash')]]
 
 Returns the output after decoding the Hash with the AES-256 Key. Returns `*empty-string*` if decoding failed, or if the plaintext was `*empty-string*`.
 
@@ -119,7 +119,7 @@ Params             |  []()
 
 \[ Text `input Text` \]  
 
-[[Method('Cryptography', 'AES-128 Decode', 'AES-128 Hash')]]
+[[Method('Cryptography', 'AES-256 Encode', True, 'input Text')]]
 
 Returns the output after encoding the input Text with the AES-256 Key.
 
@@ -131,7 +131,7 @@ Params             |  []()
 
 \[ None \]  
 
-[[Method('Cryptography', 'Generate AES 256 Key')]]
+[[Method('Cryptography', 'Generate AES 256 Key', True)]]
 
 Generates a secure random AES 256 key.
 
@@ -139,7 +139,7 @@ Generates a secure random AES 256 key.
 
 \[ Text `input Text`, Text `salt` \]  
 
-[[Method('Cryptography', 'BCrypt create Hash', 'input Text', 'salt')]]
+[[Method('Cryptography', 'BCrypt Create Hash', True, 'input Text', 'salt')]]
 
 Returns the hash created from the input Text and the salt.
 
@@ -152,7 +152,7 @@ Params             |  []()
 
 \[ None \]  
 
-[[Method('Cryptography', 'BCrypt Generate Salt')]]
+[[Method('Cryptography', 'BCrypt Generate Salt', True)]]
 
 Returns a salt usable for hashing with BCrypt.
 
@@ -160,7 +160,7 @@ Returns a salt usable for hashing with BCrypt.
 
 \[ Text `input Text`, Text `correct Hash` \]  
 
-[[Method('Cryptography', 'BCrypt Validate Password', 'input Text', 'correct Hash')]]
+[[Method('Cryptography', 'BCrypt Validate Password', True, 'input Text', 'correct Hash')]]
 
 Verifies if the input password is the same one as the correct hashed password using BCrypt algorithm.
 
@@ -173,7 +173,7 @@ Params             |  []()
 
 \[ Text `base64 Hash` \]  
 
-[[Method('Cryptography', 'Base64 Decode', 'base64 Hash')]]
+[[Method('Cryptography', 'Base64 Decode', True, 'base64 Hash')]]
 
 Decodes Base64 encoded text.
 
@@ -185,7 +185,7 @@ Params             |  []()
 
 \[ Text `input Text` \]  
 
-[[Method('Cryptography', 'Base64 Decode', 'input Text')]]
+[[Method('Cryptography', 'Base64 Encode', True, 'input Text')]]
 
 Encodes Text to Base64.
 
@@ -197,7 +197,7 @@ Params             |  []()
 
 \[ Text `input Text`, Number `rotor 1`, Number `rotor 2`, Number `rotor 3`, Text `reflector`, List `plugboard` \]  
 
-[[Method('Cryptography', 'Enigma Parser', 'input Text', 'rotor 1', 'rotor 2', 'rotor 3', 'reflector', 'plugboard')]]
+[[Method('Cryptography', 'Enigma Parser', True, 'input Text', 'rotor 1', 'rotor 2', 'rotor 3', 'reflector', 'plugboard')]]
 
 Encrypts or decrypts the given string simulating an Enigma machine. Rotors can go from 1 to 8, but they cannot be repeated. Reflector can be B, C or 0 if none. Plugboard is a list with sub-list of two items containing one character each. The first character stored in each sub-list is replaced by the second.
 
@@ -214,7 +214,7 @@ Params             |  []()
 
 \[ Text `input Text` \]  
 
-[[Method('Cryptography', 'MD5 Create Hash', 'input Text')]]
+[[Method('Cryptography', 'MD5 Create Hash', True, 'input Text')]]
 
 Creates an MD5 Hash for the given text.
 
@@ -226,7 +226,7 @@ Params             |  []()
 
 \[ Text `input Text` \]  
 
-[[Method('Cryptography', 'PBKDF2 Create Hash', 'input Text')]]
+[[Method('Cryptography', 'PBKDF2 Create Hash', True, 'input Text')]]
 
 Creates a PBKDF2 Hash for the given Text, typically a password.
 
@@ -238,7 +238,7 @@ Params             |  []()
 
 \[ Text `input Text`, Text `correct Hash` \]  
 
-[[Method('Cryptography', 'PBKDF2 Validate Hash', 'input Text', 'correct Hash')]]
+[[Method('Cryptography', 'PBKDF2 Validate Hash', True, 'input Text', 'correct Hash')]]
 
 Validates if the input Text is the same as the original un-Hashed text. Returns a boolean.
 
@@ -251,7 +251,7 @@ Params             |  []()
 
 \[ Text `input Text` \]  
 
-[[Method('Cryptography', 'SHA-1 Generate Hash', 'input Text')]]
+[[Method('Cryptography', 'SHA-1 Generate Hash', True, 'input Text')]]
 
 Generates a SHA-1 Hash of the input Text.
 
@@ -263,7 +263,7 @@ Params             |  []()
 
 \[ Text `input Text` \]  
 
-[[Method('Cryptography', 'SHA-224 Generate Hash', 'input Text')]]
+[[Method('Cryptography', 'SHA-224 Generate Hash', True, 'input Text')]]
 
 Generates a SHA-224 Hash of the input Text.
 
@@ -275,7 +275,7 @@ Params             |  []()
 
 \[ Text `input Text` \]  
 
-[[Method('Cryptography', 'SHA-256 Generate Hash', 'input Text')]]
+[[Method('Cryptography', 'SHA-256 Generate Hash', True, 'input Text')]]
 
 Generates a SHA-256 Hash of the input Text.
 
@@ -287,7 +287,7 @@ Params             |  []()
 
 \[ Text `input Text` \]  
 
-[[Method('Cryptography', 'SHA-384 Generate Hash', 'input Text')]]
+[[Method('Cryptography', 'SHA-384 Generate Hash', True, 'input Text')]]
 
 Generates a SHA-384 Hash of the input Text.
 
@@ -299,7 +299,7 @@ Params             |  []()
 
 \[ Text `input Text` \]  
 
-[[Method('Cryptography', 'SHA-512 Generate Hash', 'input Text')]]
+[[Method('Cryptography', 'SHA-512 Generate Hash', True, 'input Text')]]
 
 Generates a SHA-512 Hash of the input Text.
 
@@ -311,7 +311,7 @@ Params             |  []()
 
 \[ Text `tripleDES Hash` \]  
 
-[[Method('Cryptography', 'TripleDES Decode', 'tripleDES Hash')]]
+[[Method('Cryptography', 'TripleDES Decode', True, 'tripleDES Hash')]]
 
 Decodes the TripleDES encoded Text with the given Key.
 
@@ -323,7 +323,7 @@ Params             |  []()
 
 \[ Text `input Text` \]  
 
-[[Method('Cryptography', 'TripleDES Encode', 'input Text')]]
+[[Method('Cryptography', 'TripleDES Encode', True, 'input Text')]]
 
 Encodes the input Text with the given Key using TripleDES algorithm.
 
