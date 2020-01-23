@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|User Interface|2|API 19 | Android 4.4 - 4.4.4 KitKat|
+|User Interface|2|API 19, Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 
@@ -33,7 +33,7 @@ _Block preview not available_
 
 Hides the fab button.
 
-### HideTextMessage
+### Hide Label
 
 _Block preview not available_
 
@@ -45,13 +45,13 @@ _Block preview not available_
 
 Shows the fab button.
 
-### ShowTextMessage
+### Show Label
 
 _Block preview not available_
 
 Show a new text message near to the fab with the given properties. You can do the changes with the properties in the advanded category.
 
-### StartRotationAnimation
+### Start Rotation Animation
 
 _Block preview not available_
 

@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Layout > Views|2|API 19 | Android 4.4 - 4.4.4 KitKat|
+|Layout > Views|2|API 19, Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 
@@ -26,13 +26,13 @@ Event to detect that the dialog was opened.
 
 ## Methods
 
-### HideDialog
+### Hide Dialog
 
 _Block preview not available_
 
 Hide the bottom sheet dialog.
 
-### RegisterComponentAsDialog
+### Register Component As Dialog
 
 _Block preview not available_
 
@@ -45,7 +45,7 @@ _Block preview not available_
 
 Register any component as example a 'button', that will be later your bottom sheet dialog.
 
-### RegisterLayoutAsDialog
+### Register Layout As Dialog
 
 _Block preview not available_
 
@@ -58,7 +58,7 @@ _Block preview not available_
 
 Register any layout as example a 'horizontal arrangement', that will be later your bottom sheet dialog.
 
-### ShowDialog
+### Show Dialog
 
 _Block preview not available_
 

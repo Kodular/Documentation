@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Utilities|2|API 19 | Android 4.4 - 4.4.4 KitKat|
+|Utilities|2|API 19, Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 
@@ -12,7 +12,7 @@ A non-visible component that encrypts and decrypts data using a variety of techn
 
 ## Methods
 
-### AES128Decode
+### AES-128 Decode
 
 _Block preview not available_
 
@@ -27,7 +27,7 @@ _Block preview not available_
 
 Decodes the given hash using the given key through AES-128. If any exception occurs, returns empty string.
 
-### AES128Encode
+### AES-128 Encode
 
 _Block preview not available_
 
@@ -42,7 +42,7 @@ _Block preview not available_
 
 Encodes the given string using the given key through AES-128. If any exception occurs, returns empty string.
 
-### AES128GenKey
+### Generate AES 128 Key
 
 _Block preview not available_
 
@@ -50,7 +50,7 @@ _Block preview not available_
 
 Generates a secure random AES 128 key
 
-### AES256Decode
+### AES-256 Decode
 
 _Block preview not available_
 
@@ -65,7 +65,7 @@ _Block preview not available_
 
 Decodes the given hash using the given key through AES-256. If there are any exceptions, returns empty string
 
-### AES256Encode
+### AES-256 Encode
 
 _Block preview not available_
 
@@ -80,7 +80,7 @@ _Block preview not available_
 
 Encodes the given string using the given key through AES-256. If there are any exceptions, returns empty string
 
-### AES256GenKey
+### Generate AES 256 Key
 
 _Block preview not available_
 
@@ -88,7 +88,7 @@ _Block preview not available_
 
 Generates a secure random AES 256 key
 
-### BCryptCreateHash
+### BCrypt Create Hash
 
 _Block preview not available_
 
@@ -104,7 +104,7 @@ _Block preview not available_
 
 Generates a hash using BCrypt
 
-### BCryptGenerateSalt
+### BCrypt Generate Salt
 
 _Block preview not available_
 
@@ -112,7 +112,7 @@ _Block preview not available_
 
 Generates a salt usable for hashing with BCrypt
 
-### BCryptVerifyPassword
+### BCrypt Validate Password
 
 _Block preview not available_
 
@@ -128,7 +128,7 @@ _Block preview not available_
 
 Verifies if the input password is the same one as the correct hashed password using BCrypt algorithm
 
-### Base64Decode
+### Base64 Decode
 
 _Block preview not available_
 
@@ -143,7 +143,7 @@ _Block preview not available_
 
 Decodes the given hash using Base64
 
-### Base64Encode
+### Base64 Encode
 
 _Block preview not available_
 
@@ -158,7 +158,7 @@ _Block preview not available_
 
 Encodes the given string using Base64
 
-### Enigma
+### Enigma Parser
 
 _Block preview not available_
 
@@ -178,7 +178,7 @@ _Block preview not available_
 
 Encrypts or decrypts the given string simulating an Enigma machine. Rotors can go from 1 to 8, but they cannot be repeated. Reflector can be B, C or 0 if none. Plugboard is a list with sub-list of two items containing a character each one, which replace the first character with the second one.
 
-### MD5CreateHash
+### MD5 Create Hash
 
 _Block preview not available_
 
@@ -193,7 +193,7 @@ _Block preview not available_
 
 Generates a MD5 hash
 
-### PBKDF2CreateHash
+### PBKDF2 Create Hash
 
 _Block preview not available_
 
@@ -208,7 +208,7 @@ _Block preview not available_
 
 Generates a hash using PBKDF2
 
-### PBKDF2VerifyPassword
+### PBKDF2 Validate Hash
 
 _Block preview not available_
 
@@ -224,7 +224,7 @@ _Block preview not available_
 
 Verifies if the input password is the same one as the correct hashed password using PBKDF2 algorithm
 
-### SHA1
+### SHA-1 Generate Hash
 
 _Block preview not available_
 
@@ -239,7 +239,7 @@ _Block preview not available_
 
 Generates a hashed SHA-1 string
 
-### SHA224
+### SHA-224 Generate Hash
 
 _Block preview not available_
 
@@ -254,7 +254,7 @@ _Block preview not available_
 
 Generates a hashed SHA-224 string
 
-### SHA256
+### SHA-256 Generate Hash
 
 _Block preview not available_
 
@@ -269,7 +269,7 @@ _Block preview not available_
 
 Generates a hashed SHA-256 string
 
-### SHA384
+### SHA-384 Generate Hash
 
 _Block preview not available_
 
@@ -284,7 +284,7 @@ _Block preview not available_
 
 Generates a hashed SHA-384 string
 
-### SHA512
+### SHA-512 Generate Hash
 
 _Block preview not available_
 
@@ -299,7 +299,7 @@ _Block preview not available_
 
 Generates a hashed SHA-512 string
 
-### TripleDESDecode
+### TripleDES Decode
 
 _Block preview not available_
 
@@ -314,7 +314,7 @@ _Block preview not available_
 
 Decodes the given hash using the given key through TripleDES
 
-### TripleDESEncode
+### TripleDES Encode
 
 _Block preview not available_
 

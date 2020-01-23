@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|User Interface|1|API 19 | Android 4.4 - 4.4.4 KitKat|
+|User Interface|1|API 19, Android 4.4 - 4.4.4 KitKat|
 
 ## Overview
 
@@ -25,7 +25,7 @@ Event that indicates that the progress of the progress bar has been changed. Ret
 
 ## Methods
 
-### IncrementProgressBy
+### Increment Progress By
 
 _Block preview not available_
 

@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Connectivity|1|API 19 | Android 4.4 - 4.4.4 KitKat|
+|Connectivity|1|API 19, Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 
@@ -28,7 +28,7 @@ Triggered after Read function
 
 ## Methods
 
-### BaudRate
+### Baud Rate
 
 _Block preview not available_
 
@@ -41,7 +41,7 @@ _Block preview not available_
 
 Default baud rate is 9600 bps
 
-### CloseArduino
+### Close
 
 _Block preview not available_
 
@@ -49,13 +49,13 @@ _Block preview not available_
 
 Closes Arduino Connection
 
-### InitializeArduino
+### Initialize
 
 _Block preview not available_
 
 Initializes Arduino Connection
 
-### IsOpenedArduino
+### Is Opened
 
 _Block preview not available_
 
@@ -63,7 +63,7 @@ _Block preview not available_
 
 Returns true when the Arduino connection is open
 
-### OpenArduino
+### Open
 
 _Block preview not available_
 
@@ -71,13 +71,13 @@ _Block preview not available_
 
 Opens Arduino Connection
 
-### ReadArduino
+### Read
 
 _Block preview not available_
 
 Read from Serial
 
-### WriteArduino
+### Write
 
 _Block preview not available_
 

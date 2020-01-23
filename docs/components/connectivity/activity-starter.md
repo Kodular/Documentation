@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Connectivity|6|API 19 | Android 4.4 - 4.4.4 KitKat|
+|Connectivity|6|API 19, Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 
@@ -56,7 +56,7 @@ Event raised after this ActivityStarter returns.
 
 ## Methods
 
-### ResolveActivity
+### Resolve Activity
 
 _Block preview not available_
 
@@ -64,7 +64,7 @@ _Block preview not available_
 
 Returns the name of the activity that corresponds to this ActivityStarter, or an empty string if no corresponding activity can be found.
 
-### StartActivity
+### Start Activity
 
 _Block preview not available_
 

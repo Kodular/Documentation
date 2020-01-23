@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Social|3|API 19 | Android 4.4 - 4.4.4 KitKat|
+|Social|3|API 19, Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 
@@ -52,7 +52,7 @@ Event that's raised when a text message is received by the phone.
 
 ## Methods
 
-### SendMessage
+### Send Message
 
 _Block preview not available_
 

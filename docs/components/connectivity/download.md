@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Connectivity|2|API 19 | Android 4.4 - 4.4.4 KitKat|
+|Connectivity|2|API 19, Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 
@@ -67,7 +67,7 @@ _Block preview not available_
 
 Start the download process of the given download url.
 
-### GetFileSize
+### Get File Size
 
 _Block preview not available_
 
@@ -80,7 +80,7 @@ _Block preview not available_
 
 Get the file size (in bytes) of a file that is stored online or on your device. The block detect automatic if it is a online path or not. You will get the result in the "Got File Size" event.
 
-### ShowDownload
+### Show Download
 
 _Block preview not available_
 

@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Layout > Lists|13|API 19 | Android 4.4 - 4.4.4 KitKat|
+|Layout > Lists|13|API 19, Android 4.4 - 4.4.4 KitKat|
 
 ## Overview
 
@@ -25,7 +25,7 @@ Simple event to be raised after the an element has been chosen in the list via l
 
 ## Methods
 
-### ClearList
+### Clear List
 
 _Block preview not available_
 

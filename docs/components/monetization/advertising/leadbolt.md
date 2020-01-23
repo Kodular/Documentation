@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Monetization > Advertising|2|API 19 | Android 4.4 - 4.4.4 KitKat|
+|Monetization > Advertising|2|API 19, Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 
@@ -82,7 +82,7 @@ Event triggered when ads are shown
 
 ## Methods
 
-### IsNetworkAdReady
+### Is Network Ad Ready
 
 _Block preview not available_
 
@@ -90,7 +90,7 @@ _Block preview not available_
 
 Use this block after loading an ad to check whether it's ready to show.
 
-### IsRewardedAdReady
+### Is Rewarded Ad Ready
 
 _Block preview not available_
 
@@ -98,25 +98,25 @@ _Block preview not available_
 
 Use this block after loading an ad to check whether it's ready to show.
 
-### LoadNetworkAd
+### Load Network Ad
 
 _Block preview not available_
 
 Use this block to load a Network ad.
 
-### LoadRewardedAd
+### Load Rewarded Ad
 
 _Block preview not available_
 
 Use this block to load a Rewarded Video ad.
 
-### ShowNetworkAd
+### Show Network Ad
 
 _Block preview not available_
 
 Use this block after LoadNetworkAd to show the loaded ad.
 
-### ShowRewardedAd
+### Show Rewarded Ad
 
 _Block preview not available_
 

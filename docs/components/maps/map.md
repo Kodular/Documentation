@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Maps|5|API 19 | Android 4.4 - 4.4.4 KitKat|
+|Maps|5|API 19, Android 4.4 - 4.4.4 KitKat|
 
 ## Overview
 
@@ -181,7 +181,7 @@ User has changed the zoom level of the map.
 
 ## Methods
 
-### CreateMarker
+### Create Marker
 
 _Block preview not available_
 
@@ -197,7 +197,7 @@ _Block preview not available_
 
 Create a new marker with default properties at the specified latitude and longitude.
 
-### FeatureFromDescription
+### Feature From Description
 
 _Block preview not available_
 
@@ -212,7 +212,7 @@ _Block preview not available_
 
 Convert a feature description into an App Inventor map feature. Currently the onlysupported conversion is from a GeoJSON point to Marker component. If the feature hasproperties, they will be mapped into App Inventor properties using the following mapping:description becomes Description;draggable becomes Draggable;infobox becomes EnableInfobox;fill becomes FillColor;fill-opacity becomes FillOpacity;image becomes ImageAsset;stroke becomes StrokeColor;stroke-opacity becomes StrokeOpacity;stroke-width becomes StrokeWidth;title becomes Title;visible becomes Visible
 
-### LoadFromURL
+### Load From URL
 
 _Block preview not available_
 
@@ -225,7 +225,7 @@ _Block preview not available_
 
 Load a feature collection in [GeoJSON](https://en.wikipedia.org/wiki/GeoJSON) format from the given url. On success, the event GotFeatures will be raised with the given url and a list of the features parsed from the GeoJSON as a list of (key, value) pairs. On failure, the LoadError event will be raised with any applicable HTTP response code and error message.
 
-### PanTo
+### Pan To
 
 _Block preview not available_
 

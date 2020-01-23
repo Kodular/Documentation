@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|User Interface|3|API 19 | Android 4.4 - 4.4.4 KitKat|
+|User Interface|3|API 19, Android 4.4 - 4.4.4 KitKat|
 
 ## Overview
 
@@ -25,7 +25,7 @@ Event called after the user selects an item from the dropdown list.
 
 ## Methods
 
-### DisplayDropdown
+### Display Dropdown
 
 _Block preview not available_
 

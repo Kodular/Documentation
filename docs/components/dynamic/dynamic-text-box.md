@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Dynamic Components|3|API 19 | Android 4.4 - 4.4.4 KitKat|
+|Dynamic Components|3|API 19, Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 
@@ -28,7 +28,7 @@ Trigger when the text of a Dynamic TextBox changes
 
 ## Methods
 
-### CreateTextBox
+### Create Text Box
 
 _Block preview not available_
 
@@ -42,7 +42,7 @@ _Block preview not available_
 
 Create a Dynamic TextBox
 
-### DeleteTextBox
+### Delete Text Box
 
 _Block preview not available_
 
@@ -55,7 +55,7 @@ _Block preview not available_
 
 Remove a textbox component with the given id.
 
-### GetButtonById
+### Get Button By Id
 
 _Block preview not available_
 
@@ -70,7 +70,7 @@ _Block preview not available_
 
 Returns the button referenced by its id.
 
-### GetEnabled
+### Get Enabled
 
 _Block preview not available_
 
@@ -85,7 +85,7 @@ _Block preview not available_
 
 Get the Enabled status of a TextBox
 
-### GetFontSize
+### Get Font Size
 
 _Block preview not available_
 
@@ -100,7 +100,7 @@ _Block preview not available_
 
 Get the Font Size of a TextBox
 
-### GetHeight
+### Get Height
 
 _Block preview not available_
 
@@ -115,7 +115,7 @@ _Block preview not available_
 
 Get the Height of a TextBox
 
-### GetText
+### Get Text
 
 _Block preview not available_
 
@@ -130,7 +130,7 @@ _Block preview not available_
 
 Get the Text of a TextBox
 
-### GetWidth
+### Get Width
 
 _Block preview not available_
 
@@ -145,7 +145,7 @@ _Block preview not available_
 
 Get the Width of a TextBox
 
-### SetAlignment
+### Set Alignment
 
 _Block preview not available_
 
@@ -159,7 +159,7 @@ _Block preview not available_
 
 Update the Text Alignment of a TextBox. 0 = left, 1 = center and 2 = right.
 
-### SetBackgroundColor
+### Set Background Color
 
 _Block preview not available_
 
@@ -173,7 +173,7 @@ _Block preview not available_
 
 Update the Background Color of a TextBox
 
-### SetEnabled
+### Set Enabled
 
 _Block preview not available_
 
@@ -187,7 +187,7 @@ _Block preview not available_
 
 Update the Enabled status of a TextBox
 
-### SetFont
+### Set Font
 
 _Block preview not available_
 
@@ -202,7 +202,7 @@ _Block preview not available_
 
 Update the Font of a TextBox
 
-### SetFontSize
+### Set Font Size
 
 _Block preview not available_
 
@@ -216,7 +216,7 @@ _Block preview not available_
 
 Update the Font Size of a TextBox
 
-### SetHeight
+### Set Height
 
 _Block preview not available_
 
@@ -230,7 +230,7 @@ _Block preview not available_
 
 Update the Height of a TextBox
 
-### SetText
+### Set Text
 
 _Block preview not available_
 
@@ -244,7 +244,7 @@ _Block preview not available_
 
 Update the Text of a TextBox
 
-### SetTextColor
+### Set Text Color
 
 _Block preview not available_
 
@@ -258,7 +258,7 @@ _Block preview not available_
 
 Update the Text Color of a TextBox
 
-### SetWidth
+### Set Width
 
 _Block preview not available_
 

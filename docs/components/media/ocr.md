@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Media|5|API 19 | Android 4.4 - 4.4.4 KitKat|
+|Media|5|API 19, Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 
@@ -45,13 +45,13 @@ You will find here the server status from the ocr provider. Possible results are
 
 ## Methods
 
-### GetOcrServerStatus
+### Get OCR Server Status
 
 _Block preview not available_
 
 Get the server status from the free ocr.space server. This is helpful if you want to know if the server is online or offline. Returns true when online, else false when offline.
 
-### GetTextFromImageUrl
+### Get Text From Image Url
 
 _Block preview not available_
 
@@ -64,7 +64,7 @@ _Block preview not available_
 
 Get the text from a picture via the image url. Example: http://name/yourimage.jpg. Service powered by ocr.space.
 
-### UploadImage
+### Upload Image
 
 _Block preview not available_
 

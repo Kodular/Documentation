@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Utilities|1|API 19 | Android 4.4 - 4.4.4 KitKat|
+|Utilities|1|API 19, Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 
@@ -29,7 +29,7 @@ This event is triggered when there was a error catched. Possible values for the 
 
 ## Methods
 
-### BounceHorizontal
+### Bounce Horizontal
 
 _Block preview not available_
 
@@ -45,7 +45,7 @@ _Block preview not available_
 
 Start a horizontal bounce animation. The duration is set in millisecond. Use as example for 1 second '1000'.
 
-### BounceVertical
+### Bounce Vertical
 
 _Block preview not available_
 
@@ -61,7 +61,7 @@ _Block preview not available_
 
 Start a vertical bounce animation. The duration is set in millisecond. Use as example for 1 second '1000'.
 
-### GetBottomPosition
+### Get Bottom Position
 
 _Block preview not available_
 
@@ -76,7 +76,7 @@ _Block preview not available_
 
 Returns the bottom position of a component. It will return '-9999' if there was a error.
 
-### GetLeftPosition
+### Get Left Position
 
 _Block preview not available_
 
@@ -91,7 +91,7 @@ _Block preview not available_
 
 Returns the left position of a component. It will return '-9999' if there was a error.
 
-### GetRightPosition
+### Get Right Position
 
 _Block preview not available_
 
@@ -106,7 +106,7 @@ _Block preview not available_
 
 Returns the right position of a component. It will return '-9999' if there was a error.
 
-### GetTopPosition
+### Get Top Position
 
 _Block preview not available_
 
@@ -121,7 +121,7 @@ _Block preview not available_
 
 Returns the top position of a component. It will return '-9999' if there was a error.
 
-### GetXPosition
+### Get X Position
 
 _Block preview not available_
 
@@ -136,7 +136,7 @@ _Block preview not available_
 
 Returns the x position of a component. It will return '-9999' if there was a error.
 
-### GetYPosition
+### Get Y Position
 
 _Block preview not available_
 
@@ -151,7 +151,7 @@ _Block preview not available_
 
 Returns the y position of a component. It will return '-9999' if there was a error.
 
-### OvershootHorizontal
+### Overshoot Horizontal
 
 _Block preview not available_
 
@@ -168,7 +168,7 @@ _Block preview not available_
 
 Start a horizontal overshoot animation. If 'tension' is set to 0 you will not see a overshoot animation. Then you will see just a simple deceleration animation. The duration is set in millisecond. Use as example for 1 second '1000'.
 
-### OvershootVertical
+### Overshoot Vertical
 
 _Block preview not available_
 

@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Google|3|API 19 | Android 4.4 - 4.4.4 KitKat|
+|Google|3|API 19, Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 
@@ -152,7 +152,7 @@ Triggers when updating of the user was successful
 
 ## Methods
 
-### EmailPasswordLogin
+### Email Password Login
 
 _Block preview not available_
 
@@ -166,7 +166,7 @@ _Block preview not available_
 
 Try to let the user sign in with Email and Password
 
-### EmailPasswordSignUp
+### Email Password Sign Up
 
 _Block preview not available_
 
@@ -180,25 +180,25 @@ _Block preview not available_
 
 Create a new user by Email and Password
 
-### GetCurrentUser
+### Get Current User
 
 _Block preview not available_
 
 Try to get the user that is signed in
 
-### GetIdToken
+### Get Id Token
 
 _Block preview not available_
 
 Get the id token from the current user.
 
-### GoogleSignIn
+### Google Sign In
 
 _Block preview not available_
 
 Try to let the user sign in with Google
 
-### IsSignedIn
+### Is Signed In
 
 _Block preview not available_
 
@@ -212,7 +212,7 @@ _Block preview not available_
 
 Log the current user out
 
-### PhoneNumberSignIn
+### Phone Number Sign In
 
 _Block preview not available_
 
@@ -225,7 +225,7 @@ _Block preview not available_
 
 Try to let the user sign in with a Phone Number
 
-### SendResetPasswordEmail
+### Send Reset Password Email
 
 _Block preview not available_
 
@@ -238,7 +238,7 @@ _Block preview not available_
 
 Get the id token from the current user.
 
-### UpdateEmail
+### Update Email
 
 _Block preview not available_
 
@@ -251,7 +251,7 @@ _Block preview not available_
 
 Try to update the email of the current user (The user must have been recently signed in)
 
-### UpdatePhoneNumber
+### Update Phone Number
 
 _Block preview not available_
 
@@ -264,7 +264,7 @@ _Block preview not available_
 
 Try to update the phone number of the current user (The user must have been recently signed in)
 
-### UpdateProfile
+### Update Profile
 
 _Block preview not available_
 
@@ -278,13 +278,13 @@ _Block preview not available_
 
 Try to update the profile of the current user (The user must have been recently signed in)
 
-### VerifyEmail
+### Verify Email
 
 _Block preview not available_
 
 Verify the Email
 
-### VerifyPhoneCode
+### Verify Phone Code
 
 _Block preview not available_
 

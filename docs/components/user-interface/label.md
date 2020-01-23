@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|User Interface|9|API 19 | Android 4.4 - 4.4.4 KitKat|
+|User Interface|9|API 19, Android 4.4 - 4.4.4 KitKat|
 
 ## Overview
 
@@ -24,7 +24,7 @@ Event to detect that a user has done a simple "Long Click".
 
 ## Methods
 
-### AnimationStyle
+### Set Animation Style
 
 _Block preview not available_
 
@@ -40,7 +40,7 @@ _Block preview not available_
 
 Allows you to set animation style. Valid (case-insensitive) values are: ChasingDots, Circle, CubeGrid, DoubleBounce, FadingCircle, FoldingCube, Pulse, RotatingCircle, RotatingPlane, ThreeBounce, WanderingCubes, Wave. If invalid style is used, animation will be removed.Position can be: top, left, right, bottom. Size can be 100.
 
-### SetShadow
+### Set Shadow
 
 _Block preview not available_
 

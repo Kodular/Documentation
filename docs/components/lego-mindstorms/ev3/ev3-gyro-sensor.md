@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|LEGO® MINDSTORMS® > Ev3|1|API 19 | Android 4.4 - 4.4.4 KitKat|
+|LEGO® MINDSTORMS® > Ev3|1|API 19, Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 
@@ -27,7 +27,7 @@ Called then the sensor value changed.
 
 ## Methods
 
-### GetSensorValue
+### Get Sensor Value
 
 _Block preview not available_
 
@@ -35,13 +35,13 @@ _Block preview not available_
 
 Returns the current angle or rotation speed based on current mode, or -1 if the value cannot be read from sensor.
 
-### SetAngleMode
+### Set Angle Mode
 
 _Block preview not available_
 
 Measures the orientation of the sensor.
 
-### SetRateMode
+### Set Rate Mode
 
 _Block preview not available_
 

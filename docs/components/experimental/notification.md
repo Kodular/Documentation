@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Experimental|1|API 19 | Android 4.4 - 4.4.4 KitKat|
+|Experimental|1|API 19, Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 
@@ -12,7 +12,7 @@ A non-visible component that sends a notification to the user''s device.
 
 ## Methods
 
-### AreNotificationsEnabled
+### Are Notification Enabled
 
 _Block preview not available_
 
@@ -20,7 +20,7 @@ _Block preview not available_
 
 Check wether the app can send Notifications
 
-### BigPictureNotification
+### Big Picture Notification
 
 _Block preview not available_
 
@@ -38,13 +38,13 @@ _Block preview not available_
 
 Send a normal notification
 
-### CancelAll
+### Cancel All Notifications
 
 _Block preview not available_
 
 Cancel all Notifications
 
-### CancelNotification
+### Cancel Notification
 
 _Block preview not available_
 
@@ -57,7 +57,7 @@ _Block preview not available_
 
 Cancel a Notification with an id
 
-### NormalNotification
+### Normal Notification
 
 _Block preview not available_
 
@@ -74,7 +74,7 @@ _Block preview not available_
 
 Send a normal notification
 
-### SimpleNotification
+### Simple Notification
 
 _Block preview not available_
 

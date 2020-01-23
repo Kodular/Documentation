@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Sensors|4|API 19 | Android 4.4 - 4.4.4 KitKat|
+|Sensors|4|API 19, Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 
@@ -26,7 +26,7 @@ Timer has gone off.
 
 ## Methods
 
-### AddDays
+### Add Days
 
 _Block preview not available_
 
@@ -42,7 +42,7 @@ _Block preview not available_
 
 An instant in time some days after the argument
 
-### AddDuration
+### Add Duration
 
 _Block preview not available_
 
@@ -58,7 +58,7 @@ _Block preview not available_
 
 An instant in time some duration after the argument
 
-### AddHours
+### Add Hours
 
 _Block preview not available_
 
@@ -74,7 +74,7 @@ _Block preview not available_
 
 An instant in time some hours after the argument
 
-### AddMinutes
+### Add Minutes
 
 _Block preview not available_
 
@@ -90,7 +90,7 @@ _Block preview not available_
 
 An instant in time some minutes after the argument
 
-### AddMonths
+### Add Months
 
 _Block preview not available_
 
@@ -106,7 +106,7 @@ _Block preview not available_
 
 An instant in time some months after the argument
 
-### AddSeconds
+### Add Seconds
 
 _Block preview not available_
 
@@ -122,7 +122,7 @@ _Block preview not available_
 
 An instant in time some seconds after the argument
 
-### AddWeeks
+### Add Weeks
 
 _Block preview not available_
 
@@ -138,7 +138,7 @@ _Block preview not available_
 
 An instant in time some weeks after the argument
 
-### AddYears
+### Add Years
 
 _Block preview not available_
 
@@ -154,7 +154,7 @@ _Block preview not available_
 
 An instant in time some years after the argument
 
-### DayOfMonth
+### Day Of Month
 
 _Block preview not available_
 
@@ -185,7 +185,7 @@ _Block preview not available_
 
 Milliseconds elapsed between instants
 
-### DurationToDays
+### Duration To Days
 
 _Block preview not available_
 
@@ -200,7 +200,7 @@ _Block preview not available_
 
 convert duration to days
 
-### DurationToHours
+### Duration To Hours
 
 _Block preview not available_
 
@@ -215,7 +215,7 @@ _Block preview not available_
 
 convert duration to hours
 
-### DurationToMinutes
+### Duration To Minutes
 
 _Block preview not available_
 
@@ -230,7 +230,7 @@ _Block preview not available_
 
 convert duration to minutes
 
-### DurationToSeconds
+### Duration To Seconds
 
 _Block preview not available_
 
@@ -245,7 +245,7 @@ _Block preview not available_
 
 convert duration to seconds
 
-### DurationToWeeks
+### Duration To Weeks
 
 _Block preview not available_
 
@@ -260,7 +260,7 @@ _Block preview not available_
 
 convert duration to weeks
 
-### FormatDate
+### Format Date
 
 _Block preview not available_
 
@@ -276,7 +276,7 @@ _Block preview not available_
 
 Text representing the date of an instant in the specified pattern
 
-### FormatDateTime
+### Format Date Time
 
 _Block preview not available_
 
@@ -292,7 +292,7 @@ _Block preview not available_
 
 Text representing the date and time of an instant in the specified pattern
 
-### FormatTime
+### Format Time
 
 _Block preview not available_
 
@@ -307,7 +307,7 @@ _Block preview not available_
 
 Text representing the time of an instant
 
-### GetMillis
+### Get Millis
 
 _Block preview not available_
 
@@ -337,7 +337,7 @@ _Block preview not available_
 
 The hour of the day
 
-### MakeDate
+### Make Date
 
 _Block preview not available_
 
@@ -355,7 +355,7 @@ _Block preview not available_
 Allows the user to set the clock to be a date value
 Valid values for the month field are 1-12 and 1-31 for the day field.
 
-### MakeInstant
+### Make Instant
 
 _Block preview not available_
 
@@ -370,7 +370,7 @@ _Block preview not available_
 
 An instant in time specified by MM/dd/YYYY hh:mm:ss or MM/dd/YYYY or hh:mm
 
-### MakeInstantFromMillis
+### Make Instant From Millis
 
 _Block preview not available_
 
@@ -385,7 +385,7 @@ _Block preview not available_
 
 An instant in time specified by the milliseconds since 1970.
 
-### MakeInstantFromParts
+### Make Instant From Parts
 
 _Block preview not available_
 
@@ -406,7 +406,7 @@ _Block preview not available_
 Allows the user to set the date and time to be displayed when the clock opens
 Valid values for the month field are 1-12 and 1-31 for the day field.
 
-### MakeTime
+### Make Time
 
 _Block preview not available_
 
@@ -453,7 +453,7 @@ _Block preview not available_
 
 The month of the year represented as a number from 1 to 12)
 
-### MonthName
+### Month Name
 
 _Block preview not available_
 
@@ -491,7 +491,7 @@ _Block preview not available_
 
 The second of the minute
 
-### SystemTime
+### System Time
 
 _Block preview not available_
 
@@ -514,7 +514,7 @@ _Block preview not available_
 
 The day of the week represented as a number from 1 (Sunday) to 7 (Saturday)
 
-### WeekdayName
+### Weekday Name
 
 _Block preview not available_
 

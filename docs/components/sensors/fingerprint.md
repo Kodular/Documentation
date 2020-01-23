@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Sensors|1|API 19 | Android 4.4 - 4.4.4 KitKat|
+|Sensors|1|API 19, Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 
@@ -60,13 +60,13 @@ _Block preview not available_
 
 Authenticate the user with a Fingerprint scanner
 
-### CancelScan
+### Cancel Scan
 
 _Block preview not available_
 
 Cancel the current Fingerprint Scan
 
-### HasFingerPrintScanner
+### Has Fingerprint Scanner
 
 _Block preview not available_
 
@@ -74,7 +74,7 @@ _Block preview not available_
 
 True if hardware is present and functional, false otherwise
 
-### HasFingersAdded
+### Has Fingers Added
 
 _Block preview not available_
 

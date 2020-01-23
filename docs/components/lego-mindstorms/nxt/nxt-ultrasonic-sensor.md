@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|LEGO® MINDSTORMS® > Nxt|1|API 19 | Android 4.4 - 4.4.4 KitKat|
+|LEGO® MINDSTORMS® > Nxt|1|API 19, Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 
@@ -32,7 +32,7 @@ Distance has gone within the range.
 
 ## Methods
 
-### GetDistance
+### Get Distance
 
 _Block preview not available_
 

@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Storage|2|API 19 | Android 4.4 - 4.4.4 KitKat|
+|Storage|2|API 19, Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 
@@ -22,13 +22,13 @@ When you are developing apps using the AI Companion, all the apps using that com
 
 ## Methods
 
-### ClearAll
+### Clear All
 
 _Block preview not available_
 
 Clear the entire data store
 
-### ClearTag
+### Clear Tag
 
 _Block preview not available_
 
@@ -41,7 +41,7 @@ _Block preview not available_
 
 Clear the entry with the given tag
 
-### GetTags
+### Get Tags
 
 _Block preview not available_
 
@@ -49,7 +49,7 @@ _Block preview not available_
 
 Return a list of all the tags in the data store
 
-### GetValue
+### Get Value
 
 _Block preview not available_
 
@@ -65,7 +65,7 @@ _Block preview not available_
 
 Retrieve the value stored under the given tag. If there's no such tag, then return valueIfTagNotThere.
 
-### StoreValue
+### Store Value
 
 _Block preview not available_
 

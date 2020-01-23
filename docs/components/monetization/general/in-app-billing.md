@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Monetization > General|1|API 19 | Android 4.4 - 4.4.4 KitKat|
+|Monetization > General|1|API 19, Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 
@@ -122,7 +122,7 @@ _Block preview not available_
 
 Do not use this block anymore. This block is deprecated and does nothing and will be removed in the future!
 
-### IsPurchased
+### Is Purchased
 
 _Block preview not available_
 
@@ -137,7 +137,7 @@ _Block preview not available_
 
 Returns true if the product with the specific id is purchased.
 
-### IsSubscribed
+### Is Subscribed
 
 _Block preview not available_
 
@@ -152,13 +152,13 @@ _Block preview not available_
 
 Returns true if the product is subscribed.
 
-### LoadOwnedPurchases
+### Load Owned Purchases
 
 _Block preview not available_
 
 Load Owned Purchases from Google.
 
-### ProductDetails
+### Product Details
 
 _Block preview not available_
 
@@ -197,7 +197,7 @@ _Block preview not available_
 
 Subscribe a product with the given product id.
 
-### SubscriptionDetails
+### Subscription Details
 
 _Block preview not available_
 
@@ -210,7 +210,7 @@ _Block preview not available_
 
 Get subscription details from the given id.
 
-### UpdateSubscription
+### Update Subscription
 
 :warning: ==**Deprecated**==
 

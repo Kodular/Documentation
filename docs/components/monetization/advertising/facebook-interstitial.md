@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Monetization > Advertising|3|API 19 | Android 4.4 - 4.4.4 KitKat|
+|Monetization > Advertising|3|API 19, Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 
@@ -45,7 +45,7 @@ _Block preview not available_
 
 Loads a new ad.
 
-### ShowAd
+### Show Ad
 
 _Block preview not available_
 

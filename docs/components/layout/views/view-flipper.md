@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Layout > Views|1|API 19 | Android 4.4 - 4.4.4 KitKat|
+|Layout > Views|1|API 19, Android 4.4 - 4.4.4 KitKat|
 
 ## Overview
 
@@ -10,7 +10,7 @@ A visible component that can animate between two or more layout components that 
 
 ## Methods
 
-### AddComponentToView
+### Add Component To View
 
 _Block preview not available_
 
@@ -23,7 +23,7 @@ _Block preview not available_
 
 Add a component to the view flipper. The first added component will be the first visible component on the screen.
 
-### AddImagesToView
+### Add Images To View
 
 _Block preview not available_
 
@@ -36,25 +36,25 @@ _Block preview not available_
 
 Use this function if you try to create a image view flipper. Please use a 'make a list' block.
 
-### ShowNext
+### Show Next
 
 _Block preview not available_
 
 Show the next view.
 
-### ShowPrevious
+### Show Previous
 
 _Block preview not available_
 
 Show the previous view.
 
-### StartFlipping
+### Start Flipping
 
 _Block preview not available_
 
 Start a timer to cycle through child views.
 
-### StopFlipping
+### Stop Flipping
 
 _Block preview not available_
 

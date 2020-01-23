@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|User Interface|11|API 19 | Android 4.4 - 4.4.4 KitKat|
+|User Interface|11|API 19, Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 
@@ -200,7 +200,7 @@ Event to detect that the user has selected a word from the word picker dialog.
 
 ## Methods
 
-### CreateCustomDialog
+### Create Custom Dialog
 
 _Block preview not available_
 
@@ -217,7 +217,7 @@ _Block preview not available_
 
 Show whatever you want in a dialog. You can use as example arrangements, or images or whatever you want. Your chosen layout will be then removed from the screen and only visible in custom dialog. You can use the "Light Theme" property to have a light or dark background. Or you enable "Use Background Color" property to use the background color property as background dialog color. Please make sure the layout you want to use is visible.
 
-### CustomChooseDialog
+### Custom Choose Dialog
 
 _Block preview not available_
 
@@ -238,7 +238,7 @@ _Block preview not available_
 
 Shows a dialog box with two buttons, from which the user can choose. If cancelable is true there will be an additional CANCEL button. Pressing a button will raise the GotCustomChooseDialog event. The "choice" parameter to GotCustomChooseDialog will be the text on the button that was pressed, or "Cancel" if the CANCEL button was pressed. You can use the "Light Theme" property to have a light or dark background. Or you enable "Use Background Color" property to use the background color property as background dialog color. Use the 'Show Custom Dialog' block to the show the created custom dialog. The added component must be visible on screen. After you used this block here it will be removed automatic from screen and will be only visible again after you have shown the custom dialog.
 
-### CustomMessageDialog
+### Custom Message Dialog
 
 _Block preview not available_
 
@@ -255,31 +255,31 @@ _Block preview not available_
 
 Show a Message Dialog. You can use the "Light Theme" property to have a light or dark background. Or you enable "Use Background Color" property to use the background color property as background dialog color.
 
-### DismissCustomDialog
+### Dismiss Custom Dialog
 
 _Block preview not available_
 
 Use this block to dismiss the created custom dialog.the custom dialog.
 
-### DismissLinearProgress
+### Dismiss Linear Progress
 
 _Block preview not available_
 
 Dismiss a previously displayed LinearProgress box
 
-### DismissProgressDialog
+### Dismiss Progress Dialog
 
 _Block preview not available_
 
 Dismiss a previously displayed ProgressDialog box
 
-### DismissSpinningProgress
+### Dismiss Spinning Progress
 
 _Block preview not available_
 
 Dismiss a previously displayed SpinningProgress box
 
-### LogError
+### Log Error
 
 _Block preview not available_
 
@@ -292,7 +292,7 @@ _Block preview not available_
 
 Writes an error message to the Android system log. See the Google Android documentation for how to access the log.
 
-### LogInfo
+### Log Info
 
 _Block preview not available_
 
@@ -305,7 +305,7 @@ _Block preview not available_
 
 Writes an information message to the Android log.
 
-### LogWarning
+### Log Warning
 
 _Block preview not available_
 
@@ -318,7 +318,7 @@ _Block preview not available_
 
 Writes a warning message to the Android log. See the Google Android documentation for how to access the log.
 
-### ShowAlert
+### Show Alert
 
 _Block preview not available_
 
@@ -331,7 +331,7 @@ _Block preview not available_
 
 Show a alert "toast" message.
 
-### ShowCheckboxListDialog
+### Show Checkbox List Dialog
 
 _Block preview not available_
 
@@ -351,7 +351,7 @@ _Block preview not available_
 
 Shows a picker dialog with a list of options of whichmore than one can be chosen. Invokes the 'AfterMultiSelection' event. You can use the "Light Theme" property to have a light or dark background. Or you enable "Use Background Color" property to use the background color property as background dialog color.
 
-### ShowChooseDialog
+### Show Choose Dialog
 
 _Block preview not available_
 
@@ -368,13 +368,13 @@ _Block preview not available_
 
 Shows a dialog box with two buttons, from which the user can choose. If cancelable is true there will be an additional CANCEL button. Pressing a button will raise the AfterChoosing event. The "choice" parameter to AfterChoosing will be the text on the button that was pressed, or "Cancel" if the CANCEL button was pressed.
 
-### ShowCustomDialog
+### Show Custom Dialog
 
 _Block preview not available_
 
 Show the custom dialog. Dont forget that you have first to create the custom dialog.
 
-### ShowImageDialog
+### Show Image Dialog
 
 _Block preview not available_
 
@@ -390,7 +390,7 @@ _Block preview not available_
 
 Show a image dialog. Animation types like "*.gif" are not supported. You can use the "Light Theme" property to have a light or dark background. Or you enable "Use Background Color" property to use the background color property as background dialog color.
 
-### ShowLightbox
+### Show Lightbox
 
 _Block preview not available_
 
@@ -404,7 +404,7 @@ _Block preview not available_
 
 Displays a lightbox. You can use images like "*.png" or "*,gif" from assets folder or from a web url.
 
-### ShowLinearProgress
+### Show Linear Progress
 
 _Block preview not available_
 
@@ -422,7 +422,7 @@ _Block preview not available_
 
 Shows a progress dialog with a horizontal progress bar. Can be dismissed by user if 'cancelable' is set to true. If indeterminate is true, maxValue and the 'UpdateProgress' method will have no effect. You can use the "Light Theme" property to have a light or dark background. Or you enable "Use Background Color" property to use the background color property as background dialog color.
 
-### ShowListPicker
+### Show List Picker
 
 _Block preview not available_
 
@@ -439,7 +439,7 @@ _Block preview not available_
 
 Shows a list picker dialog. You can use the "Light Theme" property to have a light or dark background. Or you enable "Use Background Color" property to use the background color property as background dialog color.
 
-### ShowMessageDialog
+### Show Message Dialog
 
 _Block preview not available_
 
@@ -454,7 +454,7 @@ _Block preview not available_
 
 Show a Message Dialog.
 
-### ShowNumberPicker
+### Show Number Picker
 
 _Block preview not available_
 
@@ -473,7 +473,7 @@ _Block preview not available_
 
 Shows a number picker dialog that enables the user to select a number from a predefined range. You can use the "Use Background Color" property to use the background color property as background dialog color.
 
-### ShowPasswordDialog
+### Show Password Dialog
 
 _Block preview not available_
 
@@ -488,7 +488,7 @@ _Block preview not available_
 
 Shows a dialog box where the user can enter password (input is masked), after which the AfterTextInput event will be raised. If cancelable is true there will be an additional CANCEL button. Entering password will raise the AfterTextInput event. The "response" parameter to AfterTextInput will be the entered password, or "Cancel" if CANCEL button was pressed.
 
-### ShowProgressDialog
+### Show Progress Dialog
 
 _Block preview not available_
 
@@ -502,7 +502,7 @@ _Block preview not available_
 
 Shows a dialog box with an optional title and message (use empty strings if they are not wanted). This dialog box contains a spinning artifact to indicate that the program is working. It cannot be canceled by the user but must be dismissed by the App Inventor Program by using the DismissProgressDialog block.
 
-### ShowRadioListDialog
+### Show Radio List Dialog
 
 _Block preview not available_
 
@@ -523,7 +523,7 @@ _Block preview not available_
 
 Shows a radio list dialog with a list of options of which only one can be chosen. You can use the "Light Theme" property to have a light or dark background. Or you enable "Use Background Color" property to use the background color property as background dialog color.
 
-### ShowSpinningProgress
+### Show Spinning Progress
 
 _Block preview not available_
 
@@ -539,7 +539,7 @@ _Block preview not available_
 
 Shows a spinning progress dialog which can be dismissed by the user if 'cancelable' is set to true. You can use the "Light Theme" property to have a light or dark background. Or you enable "Use Background Color" property to use the background color property as background dialog color.
 
-### ShowTextDialog
+### Show Text Dialog
 
 _Block preview not available_
 
@@ -554,7 +554,7 @@ _Block preview not available_
 
 Shows a dialog box where the user can enter text, after which the AfterTextInput event will be raised. If cancelable is true there will be an additional CANCEL button. Entering text will raise the AfterTextInput event. The "response" parameter to AfterTextInput will be the text that was entered, or "Cancel" if the CANCEL button was pressed.
 
-### ShowTextInputDialog
+### Show Text Input Dialog
 
 _Block preview not available_
 
@@ -578,7 +578,7 @@ _Block preview not available_
 
 Show a text input dialog. Possible input types are: "1= Normal text", "2= Password text", "3= Person name", "4= Email adress", "5|6= Number", "7= Password number" or "8= datetime". You can use the "Light Theme" property to have a light or dark background. Or you enable "Use Background Color" property to use the background color property as background dialog color.
 
-### ShowWordPicker
+### Show Word Picker
 
 _Block preview not available_
 
@@ -595,7 +595,7 @@ _Block preview not available_
 
 Shows a word picker dialog that enables the user to select a number from a predefined word. You can use the "Use Background Color" property to use the background color property as background dialog color.
 
-### UpdateProgress
+### Update Progress
 
 _Block preview not available_
 

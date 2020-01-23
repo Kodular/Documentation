@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|LEGO® MINDSTORMS® > Ev3|1|API 19 | Android 4.4 - 4.4.4 KitKat|
+|LEGO® MINDSTORMS® > Ev3|1|API 19, Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 
@@ -12,7 +12,7 @@ A component that provides a low-level interface to a LEGO MINDSTORMS EV3 robot, 
 
 ## Methods
 
-### GetBatteryCurrent
+### Get Battery Current
 
 _Block preview not available_
 
@@ -20,7 +20,7 @@ _Block preview not available_
 
 Get the battery current.
 
-### GetBatteryVoltage
+### Get Battery Voltage
 
 _Block preview not available_
 
@@ -28,7 +28,7 @@ _Block preview not available_
 
 Get the battery voltage.
 
-### GetFirmwareBuild
+### Get Firmware Build
 
 _Block preview not available_
 
@@ -36,7 +36,7 @@ _Block preview not available_
 
 Get the firmware build on EV3.
 
-### GetFirmwareVersion
+### Get Firmware Version
 
 _Block preview not available_
 
@@ -44,7 +44,7 @@ _Block preview not available_
 
 Get the firmware version on EV3.
 
-### GetHardwareVersion
+### Get Hardware Version
 
 _Block preview not available_
 
@@ -52,7 +52,7 @@ _Block preview not available_
 
 Get the hardware version of EV3.
 
-### GetOSBuild
+### Get OS Build
 
 _Block preview not available_
 
@@ -60,7 +60,7 @@ _Block preview not available_
 
 Get the OS build on EV3.
 
-### GetOSVersion
+### Get OS Version
 
 _Block preview not available_
 
@@ -68,7 +68,7 @@ _Block preview not available_
 
 Get the OS version on EV3.
 
-### KeepAlive
+### Keep Alive
 
 _Block preview not available_
 

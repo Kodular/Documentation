@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Maps|2|API 19 | Android 4.4 - 4.4.4 KitKat|
+|Maps|2|API 19, Android 4.4 - 4.4.4 KitKat|
 
 ## Overview
 
@@ -42,7 +42,7 @@ The user stopped a drag operation.
 
 ## Methods
 
-### DistanceToFeature
+### Distance To Feature
 
 _Block preview not available_
 
@@ -58,7 +58,7 @@ _Block preview not available_
 
 Compute the distance, in meters, between two map features.
 
-### DistanceToPoint
+### Distance To Point
 
 _Block preview not available_
 
@@ -75,13 +75,13 @@ _Block preview not available_
 
 Compute the distance, in meters, between a map feature and a latitude, longitude point.
 
-### HideInfobox
+### Hide Infobox
 
 _Block preview not available_
 
 Hide the infobox if it is shown. If the infobox is not visible this function has no effect.
 
-### SetLocation
+### Set Location
 
 _Block preview not available_
 
@@ -95,7 +95,7 @@ _Block preview not available_
 
 Set the center of the Circle.
 
-### ShowInfobox
+### Show Infobox
 
 _Block preview not available_
 

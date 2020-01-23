@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Connectivity|2|API 19 | Android 4.4 - 4.4.4 KitKat|
+|Connectivity|2|API 19, Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 
@@ -92,7 +92,7 @@ _Block preview not available_
 
 Enable Bluetooth
 
-### HasBluetooth
+### Has Bluetooth
 
 _Block preview not available_
 
@@ -100,7 +100,7 @@ _Block preview not available_
 
 Returns if the device has Bluetooth
 
-### MacAddress
+### Mac Address
 
 _Block preview not available_
 
@@ -127,7 +127,7 @@ _Block preview not available_
 
 Scan Bluetooth devices. Caution: Performing device discovery is a heavy procedure for the Bluetooth adapter and will consume a lot of its resources. If you already hold a connection with a device, then performing discovery can significantly reduce the bandwidth available for the connection, so you should not perform discovery while connected.
 
-### ScanMode
+### Scan Mode
 
 _Block preview not available_
 
@@ -149,7 +149,7 @@ _Block preview not available_
 
 Toggle Bluetooth
 
-### Unpair
+### Unpairing
 
 _Block preview not available_
 
@@ -162,7 +162,7 @@ _Block preview not available_
 
 Unpair Bluetooth device.
 
-### ValidateMacAddress
+### Validate Mac Address
 
 _Block preview not available_
 
@@ -177,7 +177,7 @@ _Block preview not available_
 
 Returns true if the MacAddress is valid.
 
-### ValidateUserMacAddress
+### Validate User Mac Address
 
 _Block preview not available_
 

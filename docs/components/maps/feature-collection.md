@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Maps|2|API 19 | Android 4.4 - 4.4.4 KitKat|
+|Maps|2|API 19, Android 4.4 - 4.4.4 KitKat|
 
 ## Overview
 
@@ -106,7 +106,7 @@ An error was encountered while processing a GeoJSON document at the given url. T
 
 ## Methods
 
-### FeatureFromDescription
+### Feature From Description
 
 _Block preview not available_
 
@@ -121,7 +121,7 @@ _Block preview not available_
 
 Convert a feature description into an App Inventor map feature. Currently the onlysupported conversion is from a GeoJSON point to Marker component. If the feature hasproperties, they will be mapped into App Inventor properties using the following mapping:description becomes Description;draggable becomes Draggable;infobox becomes EnableInfobox;fill becomes FillColor;fill-opacity becomes FillOpacity;image becomes ImageAsset;stroke becomes StrokeColor;stroke-opacity becomes StrokeOpacity;stroke-width becomes StrokeWidth;title becomes Title;visible becomes Visible
 
-### LoadFromURL
+### Load From URL
 
 _Block preview not available_
 

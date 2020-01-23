@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Dynamic Components|2|API 19 | Android 4.4 - 4.4.4 KitKat|
+|Dynamic Components|2|API 19, Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 
@@ -12,7 +12,7 @@ A component to create dynamic space in Arrangements.
 
 ## Methods
 
-### CreateSpace
+### Create Space
 
 _Block preview not available_
 
@@ -28,7 +28,7 @@ _Block preview not available_
 
 Create a new space component dynamically. Use for width/height '-1' for wrap content or '-2' for fill parent.
 
-### DeleteSpace
+### Delete Space
 
 _Block preview not available_
 
@@ -41,7 +41,7 @@ _Block preview not available_
 
 Remove a space component with the given id.
 
-### GetHeight
+### Get Height
 
 _Block preview not available_
 
@@ -56,7 +56,7 @@ _Block preview not available_
 
 Get the Height of a space component.
 
-### GetSpaceById
+### Get Space By Id
 
 _Block preview not available_
 
@@ -71,7 +71,7 @@ _Block preview not available_
 
 Returns the space referenced by its id.
 
-### GetWidth
+### Get Width
 
 _Block preview not available_
 
@@ -86,7 +86,7 @@ _Block preview not available_
 
 Get the Width of a space component.
 
-### SetHeight
+### Set Height
 
 _Block preview not available_
 
@@ -100,7 +100,7 @@ _Block preview not available_
 
 Update the Height of a space component.
 
-### SetWidth
+### Set Width
 
 _Block preview not available_
 

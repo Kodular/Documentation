@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Media|8|API 19 | Android 4.4 - 4.4.4 KitKat|
+|Media|8|API 19, Android 4.4 - 4.4.4 KitKat|
 
 ## Overview
 
@@ -37,7 +37,7 @@ The VideoPlayerError event is no longer used. Please use the Screen.ErrorOccurre
 
 ## Methods
 
-### GetDuration
+### Get Duration
 
 _Block preview not available_
 
@@ -51,7 +51,7 @@ _Block preview not available_
 
 Pauses playback of the video. Playback can be resumed at the same location by calling the `` Start `` method.
 
-### SeekTo
+### Seek To
 
 _Block preview not available_
 

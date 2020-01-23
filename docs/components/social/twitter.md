@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Social|4|API 19 | Android 4.4 - 4.4.4 KitKat|
+|Social|4|API 19, Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 
@@ -104,19 +104,19 @@ _Block preview not available_
 
 Redirects user to login to Twitter via the Web browser using the OAuth protocol if we don't already have authorization.
 
-### CheckAuthorized
+### Check Authorized
 
 _Block preview not available_
 
 Checks whether we already have access, and if so, causes IsAuthorized event handler to be called.
 
-### DeAuthorize
+### De Authorize
 
 _Block preview not available_
 
 Removes Twitter authorization from this running app instance
 
-### DirectMessage
+### Direct Message
 
 _Block preview not available_
 
@@ -159,7 +159,7 @@ _Block preview not available_
 
 Twitter's API no longer supports login via username and password. Use the Authorize call instead.
 
-### RequestDirectMessages
+### Request Direct Messages
 
 _Block preview not available_
 
@@ -167,19 +167,19 @@ Requests the 20 most recent direct messages sent to the logged-in user. When the
 
 <u>Requirements</u>: This should only be called after the `` IsAuthorized `` event has been raised, indicating that the user has successfully logged in to Twitter.
 
-### RequestFollowers
+### Request Followers
 
 _Block preview not available_
 
 Gets who is following you.
 
-### RequestFriendTimeline
+### Request Friend Timeline
 
 _Block preview not available_
 
 Gets the most recent 20 messages in the user's timeline.
 
-### RequestMentions
+### Request Mentions
 
 _Block preview not available_
 
@@ -187,7 +187,7 @@ Requests the 20 most recent mentions of the logged-in user. When the mentions ha
 
 <u>Requirements</u>: This should only be called after the `` IsAuthorized `` event has been raised, indicating that the user has successfully logged in to Twitter.
 
-### SearchTwitter
+### Search Twitter
 
 _Block preview not available_
 
@@ -202,7 +202,7 @@ This searches Twitter for the given String query.
 
 <u>Requirements</u>: This should only be called after the `` IsAuthorized `` event has been raised, indicating that the user has successfully logged in to Twitter.
 
-### StopFollowing
+### Stop Following
 
 _Block preview not available_
 
@@ -230,7 +230,7 @@ This sends a tweet as the logged-in user with the specified Text, which will be 
 
 <u>Requirements</u>: This should only be called after the `` IsAuthorized `` event has been raised, indicating that the user has successfully logged in to Twitter.
 
-### TweetWithImage
+### Tweet With Image
 
 _Block preview not available_
 

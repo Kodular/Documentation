@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Utilities|2|API 19 | Android 4.4 - 4.4.4 KitKat|
+|Utilities|2|API 19, Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 
@@ -27,7 +27,7 @@ Event to detect that a screenshot was made by the user. Returns the image path t
 
 ## Methods
 
-### TakeScreenshot
+### Take Screenshot
 
 _Block preview not available_
 

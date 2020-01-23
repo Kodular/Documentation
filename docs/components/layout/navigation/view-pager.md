@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Layout > Navigation|3|API 19 | Android 4.4 - 4.4.4 KitKat|
+|Layout > Navigation|3|API 19, Android 4.4 - 4.4.4 KitKat|
 
 ## Overview
 
@@ -25,7 +25,7 @@ Event to detect that a page was selected.
 
 ## Methods
 
-### AddComponentToView
+### Add Component To View
 
 _Block preview not available_
 
@@ -39,13 +39,13 @@ _Block preview not available_
 
 Add a component to the view pager. The first added component will be the first visible component on the screen.
 
-### RemoveAllTabs
+### Remove All Tabs
 
 _Block preview not available_
 
 Remove all tab's from view pager.
 
-### RemoveViewAt
+### Remove View At
 
 _Block preview not available_
 

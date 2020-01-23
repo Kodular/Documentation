@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Social|6|API 19 | Android 4.4 - 4.4.4 KitKat|
+|Social|6|API 19, Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 
@@ -86,13 +86,13 @@ Returns true if your message was send with success out of your app to all users.
 
 ## Methods
 
-### ClearAllNotifications
+### Clear All Notifications
 
 _Block preview not available_
 
 Clear All Notifications.
 
-### DeleteTag
+### Delete Tag
 
 _Block preview not available_
 
@@ -105,13 +105,13 @@ _Block preview not available_
 
 Deletes a single tag that was previously set on a user.
 
-### GetAvailableTags
+### Get Available Tags
 
 _Block preview not available_
 
 Get a list of available tags.
 
-### GetValue
+### Get Value
 
 _Block preview not available_
 
@@ -125,7 +125,7 @@ _Block preview not available_
 
 Get value for tag.
 
-### SendMessage
+### Send Message
 
 _Block preview not available_
 
@@ -140,7 +140,7 @@ _Block preview not available_
 
 Send a message to all users. The message and your REST Api Key can not be empty! You will find your REST Api Key in your OneSignal account settings.
 
-### SendTag
+### Send Tag
 
 _Block preview not available_
 

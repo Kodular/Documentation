@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Drawing and Animation|2|API 19 | Android 4.4 - 4.4.4 KitKat|
+|Drawing and Animation|2|API 19, Android 4.4 - 4.4.4 KitKat|
 
 ## Overview
 
@@ -42,7 +42,7 @@ Triggers when the components was long clicked.
 
 ## Methods
 
-### EndFrame
+### End Frame
 
 _Block preview not available_
 
@@ -55,7 +55,7 @@ _Block preview not available_
 
 Set the frame where you want the animation to end.
 
-### GetCurrentFrame
+### Get Current Frame
 
 _Block preview not available_
 
@@ -63,7 +63,7 @@ _Block preview not available_
 
 Get the frame where the animation is now.
 
-### GetFrameCount
+### Get Frame Count
 
 _Block preview not available_
 
@@ -71,7 +71,7 @@ _Block preview not available_
 
 Get the count of frames in the animation.
 
-### IsAnimating
+### Is Animating
 
 _Block preview not available_
 
@@ -79,19 +79,19 @@ _Block preview not available_
 
 Check if the Lottie component is animating.
 
-### PauseAnimation
+### Pause Animation
 
 _Block preview not available_
 
 Pause the animation on the Lottie component.
 
-### ResumeAnimation
+### Resume Animation
 
 _Block preview not available_
 
 Resume the animation on the Lottie component.
 
-### SetCurrentFrame
+### Set Current Frame
 
 _Block preview not available_
 
@@ -104,13 +104,13 @@ _Block preview not available_
 
 Set the frame where you want the animation to be now.
 
-### StartAnimation
+### Start Animation
 
 _Block preview not available_
 
 Start the animation on the Lottie component.
 
-### StartFrame
+### Start Frame
 
 _Block preview not available_
 

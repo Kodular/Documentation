@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|LEGO® MINDSTORMS® > Ev3|1|API 19 | Android 4.4 - 4.4.4 KitKat|
+|LEGO® MINDSTORMS® > Ev3|1|API 19, Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 
@@ -12,7 +12,7 @@ A component that provides a high-level interface to sound functionalities on LEG
 
 ## Methods
 
-### PlayTone
+### Play Tone
 
 _Block preview not available_
 
@@ -27,7 +27,7 @@ _Block preview not available_
 
 Make the robot play a tone.
 
-### StopSound
+### Stop Sound
 
 _Block preview not available_
 

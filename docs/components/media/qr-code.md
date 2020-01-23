@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Media|1|API 19 | Android 4.4 - 4.4.4 KitKat|
+|Media|1|API 19, Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 
@@ -28,7 +28,7 @@ You will find here the success state and image url.
 
 ## Methods
 
-### GenerateQrCode
+### Generate Qr Code
 
 _Block preview not available_
 

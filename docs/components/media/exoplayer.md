@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Media|4|API 19 | Android 4.4 - 4.4.4 KitKat|
+|Media|4|API 19, Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 
@@ -91,7 +91,7 @@ _Block preview not available_
 
 Resume the player.
 
-### SeekTo
+### Seek To
 
 _Block preview not available_
 

@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Utilities|3|API 19 | Android 4.4 - 4.4.4 KitKat|
+|Utilities|3|API 19, Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 
@@ -12,7 +12,7 @@ A non-visible component that retrieves information about other applications on t
 
 ## Methods
 
-### AppNameFrom
+### App Name From
 
 _Block preview not available_
 
@@ -27,7 +27,7 @@ _Block preview not available_
 
 Returns the name from the given package name.
 
-### GetPackageIcon
+### Get Package Icon
 
 _Block preview not available_
 
@@ -42,7 +42,7 @@ _Block preview not available_
 
 Try to show the application icon of the given package name. If the application cannot be found, "Package not found" is the output.
 
-### IsPackageInstalled
+### Is Package Installed
 
 _Block preview not available_
 
@@ -57,7 +57,7 @@ _Block preview not available_
 
 Returns true if a package (app) is installed.
 
-### VersionCodeFrom
+### Version Code From
 
 _Block preview not available_
 
@@ -72,7 +72,7 @@ _Block preview not available_
 
 This block will returns the version code of the package name. Returns '-1' if the package is not installed.
 
-### VersionNameFrom
+### Version Name From
 
 _Block preview not available_
 

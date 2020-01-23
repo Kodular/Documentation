@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Monetization > Advertising|2|API 19 | Android 4.4 - 4.4.4 KitKat|
+|Monetization > Advertising|2|API 19, Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 
@@ -68,7 +68,7 @@ Called when an ad request failed. The message will display the reason for why th
 
 ## Methods
 
-### IsReady
+### Is Ready
 
 _Block preview not available_
 
@@ -76,7 +76,7 @@ _Block preview not available_
 
 Returns true if the ad is finished loading and can now be shown.
 
-### ShowAd
+### Show Ad
 
 _Block preview not available_
 

@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Layout > Views|13|API 19 | Android 4.4 - 4.4.4 KitKat|
+|Layout > Views|13|API 19, Android 4.4 - 4.4.4 KitKat|
 
 ## Overview
 
@@ -112,7 +112,7 @@ When the JavaScript calls AppInventor.setWebViewString this event is run.
 
 ## Methods
 
-### CanGoBack
+### Can Go Back
 
 _Block preview not available_
 
@@ -120,7 +120,7 @@ _Block preview not available_
 
 Returns true if the WebViewer can go back in the history list.
 
-### CanGoBackOrForward
+### Can Go Back Or Forward
 
 _Block preview not available_
 
@@ -135,7 +135,7 @@ _Block preview not available_
 
 Returns true if the WebViewer can go back or forward the number of steps in the history list.
 
-### CanGoForward
+### Can Go Forward
 
 _Block preview not available_
 
@@ -143,25 +143,25 @@ _Block preview not available_
 
 Returns true if the WebViewer can go forward in the history list.
 
-### ClearCaches
+### Clear Caches
 
 _Block preview not available_
 
 Clear WebView caches.
 
-### ClearCookies
+### Clear Cookies
 
 _Block preview not available_
 
 Start to clear the WebView cookies.
 
-### ClearLocations
+### Clear Locations
 
 _Block preview not available_
 
 Clear stored location permissions.
 
-### EvaluateJS
+### Evaluate JS
 
 _Block preview not available_
 
@@ -174,13 +174,13 @@ _Block preview not available_
 
 Evaluate JS in the context of the current page
 
-### GoBack
+### Go Back
 
 _Block preview not available_
 
 Go back to the previous page in the history list. Does nothing if there is no previous page.
 
-### GoBackOrForward
+### Go Back Or Forward
 
 _Block preview not available_
 
@@ -193,19 +193,19 @@ _Block preview not available_
 
 Go forward or backward a number of steps away from the current page. Steps is negative if backward and positive if forward.
 
-### GoForward
+### Go Forward
 
 _Block preview not available_
 
 Go forward to the next page in the history list. Does nothing if there is no next page.
 
-### GoHome
+### Go Home
 
 _Block preview not available_
 
 Loads the home URL page. This happens automatically when the home URL is changed.
 
-### GoToUrl
+### Go To URL
 
 _Block preview not available_
 
@@ -218,7 +218,7 @@ _Block preview not available_
 
 Load the page at the given URL.
 
-### LoadHtml
+### Load HTML
 
 _Block preview not available_
 
@@ -237,7 +237,7 @@ _Block preview not available_
 
 Reloads the current page
 
-### StopLoading
+### Stop Loading
 
 _Block preview not available_
 

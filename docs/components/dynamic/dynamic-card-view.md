@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Dynamic Components|3|API 19 | Android 4.4 - 4.4.4 KitKat|
+|Dynamic Components|3|API 19, Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 
@@ -66,7 +66,7 @@ Event to detect that a user has done a simple touch up on a card view component 
 
 ## Methods
 
-### AddComponentToCardView
+### Add Component To Card View
 
 _Block preview not available_
 
@@ -80,7 +80,7 @@ _Block preview not available_
 
 Add a component into the card view component with the given id.
 
-### ContentPadding
+### Content Padding
 
 _Block preview not available_
 
@@ -97,7 +97,7 @@ _Block preview not available_
 
 Set the content padding of a card view component.
 
-### CreateCardView
+### Create Card View
 
 _Block preview not available_
 
@@ -113,7 +113,7 @@ _Block preview not available_
 
 Create a new card view component dynamically. Use for width/height '-1' for wrap content or '-2' for fill parent.
 
-### DeleteCardView
+### Delete Card View
 
 _Block preview not available_
 
@@ -126,7 +126,7 @@ _Block preview not available_
 
 Remove a card view component with the given id.
 
-### GetBackgroundColor
+### Get Background Color
 
 _Block preview not available_
 
@@ -141,7 +141,7 @@ _Block preview not available_
 
 Get the background color of a card view component.
 
-### GetCardViewById
+### Get Card View By Id
 
 _Block preview not available_
 
@@ -156,7 +156,7 @@ _Block preview not available_
 
 Returns the card view referenced by its id.
 
-### GetCornerRadius
+### Get Corner Radius
 
 _Block preview not available_
 
@@ -171,7 +171,7 @@ _Block preview not available_
 
 Get the corner radius of a card view component.
 
-### GetElevation
+### Get Elevation
 
 _Block preview not available_
 
@@ -186,7 +186,7 @@ _Block preview not available_
 
 Get the elevation of a card view component.
 
-### GetHeight
+### Get Height
 
 _Block preview not available_
 
@@ -201,7 +201,7 @@ _Block preview not available_
 
 Get the height of a card view component.
 
-### GetWidth
+### Get Width
 
 _Block preview not available_
 
@@ -216,7 +216,7 @@ _Block preview not available_
 
 Get the width of a card view component.
 
-### SetBackgroundColor
+### Set Background Color
 
 _Block preview not available_
 
@@ -230,7 +230,7 @@ _Block preview not available_
 
 Set the background color of a card view component.
 
-### SetCornerRadius
+### Set Corner Radius
 
 _Block preview not available_
 
@@ -244,7 +244,7 @@ _Block preview not available_
 
 Set the corner radius of a card view component.
 
-### SetElevation
+### Set Elevation
 
 _Block preview not available_
 
@@ -258,7 +258,7 @@ _Block preview not available_
 
 Set the elevation of a card view component.
 
-### SetHeight
+### Set Height
 
 _Block preview not available_
 
@@ -272,7 +272,7 @@ _Block preview not available_
 
 Set the height of a card view component.
 
-### SetWidth
+### Set Width
 
 _Block preview not available_
 
@@ -286,7 +286,7 @@ _Block preview not available_
 
 Set the width of a card view component.
 
-### StrokeColor
+### Stroke Color
 
 _Block preview not available_
 
@@ -300,7 +300,7 @@ _Block preview not available_
 
 Set the stroke color to a card view component with the specific id.
 
-### StrokeWidth
+### Stroke Width
 
 _Block preview not available_
 

@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Social|2|API 19 | Android 4.4 - 4.4.4 KitKat|
+|Social|2|API 19, Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 
@@ -59,7 +59,7 @@ Event indicating that a phonecall has started. If status is 1, incoming call is 
 
 ## Methods
 
-### MakePhoneCall
+### Make Phone Call
 
 _Block preview not available_
 

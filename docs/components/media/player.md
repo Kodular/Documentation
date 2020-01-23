@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Media|8|API 19 | Android 4.4 - 4.4.4 KitKat|
+|Media|8|API 19, Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 
@@ -49,7 +49,7 @@ _Block preview not available_
 
 Suspends playing the media if it is playing.
 
-### SeekTo
+### Seek To
 
 _Block preview not available_
 
@@ -62,7 +62,7 @@ _Block preview not available_
 
 Set a position where the source file should start playing.
 
-### SetLeftRightVolume
+### Set Left Right Volume
 
 _Block preview not available_
 

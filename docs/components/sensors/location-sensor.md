@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Sensors|3|API 19 | Android 4.4 - 4.4.4 KitKat|
+|Sensors|3|API 19, Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 
@@ -48,7 +48,7 @@ Indicates that the status of the location provider service has changed, such as 
 
 ## Methods
 
-### LatitudeFromAddress
+### Latitude From Address
 
 _Block preview not available_
 
@@ -63,7 +63,7 @@ _Block preview not available_
 
 Derives latitude of given address
 
-### LongitudeFromAddress
+### Longitude From Address
 
 _Block preview not available_
 

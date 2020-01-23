@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Utilities|1|API 19 | Android 4.4 - 4.4.4 KitKat|
+|Utilities|1|API 19, Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 
@@ -12,7 +12,7 @@ A non-visible component that loads string resources from a file.
 
 ## Methods
 
-### GetStringContentByName
+### Get String Content By Name
 
 :warning: ==**Deprecated**==
 
@@ -30,7 +30,7 @@ _Block preview not available_
 
 This block is deprecated and will be removed soon. Use instead 'Get String From Asset' or 'Get String From Path'.
 
-### GetStringFromAsset
+### Get String From Asset
 
 _Block preview not available_
 
@@ -46,7 +46,7 @@ _Block preview not available_
 
 Get the text from a asset resource file. Make sure you uploaded a file at 'Resource File From Asset' property.
 
-### GetStringFromPath
+### Get String From Path
 
 _Block preview not available_
 

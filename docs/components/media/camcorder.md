@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Media|1|API 19 | Android 4.4 - 4.4.4 KitKat|
+|Media|1|API 19, Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 
@@ -27,7 +27,7 @@ Indicates that a video was recorded with the camera and provides the path tothe 
 
 ## Methods
 
-### RecordVideo
+### Record Video
 
 _Block preview not available_
 

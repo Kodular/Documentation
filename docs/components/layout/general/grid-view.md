@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Layout > General|1|API 19 | Android 4.4 - 4.4.4 KitKat|
+|Layout > General|1|API 19, Android 4.4 - 4.4.4 KitKat|
 
 ## Overview
 
@@ -25,7 +25,7 @@ Triggers after an item from this component has been selected
 
 ## Methods
 
-### ClearGridView
+### Clear Grid View
 
 _Block preview not available_
 

@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|LEGO® MINDSTORMS® > Ev3|1|API 19 | Android 4.4 - 4.4.4 KitKat|
+|LEGO® MINDSTORMS® > Ev3|1|API 19, Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 
@@ -46,7 +46,7 @@ Light level has gone within the range.
 
 ## Methods
 
-### GetColorCode
+### Get Color Code
 
 _Block preview not available_
 
@@ -54,7 +54,7 @@ _Block preview not available_
 
 It returns the color code from 0 to 7 corresponding to no color, black, blue, green, yellow, red, white and brown.
 
-### GetColorName
+### Get Color Name
 
 _Block preview not available_
 
@@ -62,7 +62,7 @@ _Block preview not available_
 
 Return the color name in one of "No Color", "Black", "Blue", "Green", "Yellow", "Red", "White", "Brown".
 
-### GetLightLevel
+### Get Light Level
 
 _Block preview not available_
 
@@ -70,19 +70,19 @@ _Block preview not available_
 
 It returns the light level in percentage, or -1 when the light level cannot be read.
 
-### SetAmbientMode
+### Set Ambient Mode
 
 _Block preview not available_
 
 Make the sensor read the light level without reflected light.
 
-### SetColorMode
+### Set Color Mode
 
 _Block preview not available_
 
 Enter the color detection mode.
 
-### SetReflectedMode
+### Set Reflected Mode
 
 _Block preview not available_
 

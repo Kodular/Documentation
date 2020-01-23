@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Connectivity|6|API 19 | Android 4.4 - 4.4.4 KitKat|
+|Connectivity|6|API 19, Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 
@@ -59,7 +59,7 @@ Event indicating that a request has timed out.
 
 ## Methods
 
-### BuildRequestData
+### Build Request Data
 
 _Block preview not available_
 
@@ -74,7 +74,7 @@ _Block preview not available_
 
 Converts a list of two-element sublists, representing name and value pairs, to astring formatted as application/x-www-form-urlencoded media type, suitable to pass toPostText.
 
-### ClearCookies
+### Clear Cookies
 
 _Block preview not available_
 
@@ -96,7 +96,7 @@ Performs an HTTP GET request using the Url property and retrieves theresponse.
 If the SaveResponse property is true, the response will be saved in a fileand the GotFile event will be triggered. The ResponseFileName propertycan be used to specify the name of the file.  
 If the SaveResponse property is false, the GotText event will betriggered.
 
-### HtmlTextDecode
+### HTML Text Decode
 
 _Block preview not available_
 
@@ -111,7 +111,7 @@ _Block preview not available_
 
 Decodes the given HTML text value. HTML character entities such as &amp;amp;, &amp;lt;, &amp;gt;, &amp;apos;, and &amp;quot; are changed to &amp;, &lt;, &gt;, ', and ". Entities such as &amp;#xhhhh, and &amp;#nnnn are changed to the appropriate characters.
 
-### JsonTextDecode
+### JSON Text Decode
 
 _Block preview not available_
 
@@ -127,7 +127,7 @@ _Block preview not available_
 Decodes the given JSON encoded value to produce a corresponding AppInventor value
 A JSON list [x, y, z] decodes to a list (x y z), A JSON object with name A and value B,(denoted as A:B enclosed in curly braces) decodes to a list((A B)), that is, a list containing the two-element list (A B).
 
-### PostFile
+### Post File
 
 _Block preview not available_
 
@@ -142,7 +142,7 @@ Performs an HTTP POST request using the Url property and data from the specified
 If the SaveResponse property is true, the response will be saved in a file and the GotFile event will be triggered. The ResponseFileName property can be used to specify the name of the file.  
 If the SaveResponse property is false, the GotText event will be triggered.
 
-### PostText
+### Post Text
 
 _Block preview not available_
 
@@ -158,7 +158,7 @@ The characters of the text are encoded using UTF-8 encoding.
 If the SaveResponse property is true, the response will be saved in a file and the GotFile event will be triggered. The responseFileName property can be used to specify the name of the file.  
 If the SaveResponse property is false, the GotText event will be triggered.
 
-### PostTextWithEncoding
+### Post Text With Encoding
 
 _Block preview not available_
 
@@ -175,7 +175,7 @@ The characters of the text are encoded using the given encoding.
 If the SaveResponse property is true, the response will be saved in a file and the GotFile event will be triggered. The ResponseFileName property can be used to specify the name of the file.  
 If the SaveResponse property is false, the GotText event will be triggered.
 
-### PutFile
+### Put File
 
 _Block preview not available_
 
@@ -190,7 +190,7 @@ Performs an HTTP PUT request using the Url property and data from the specified 
 If the SaveResponse property is true, the response will be saved in a file and the GotFile event will be triggered. The ResponseFileName property can be used to specify the name of the file.  
 If the SaveResponse property is false, the GotText event will be triggered.
 
-### PutText
+### Put Text
 
 _Block preview not available_
 
@@ -206,7 +206,7 @@ The characters of the text are encoded using UTF-8 encoding.
 If the SaveResponse property is true, the response will be saved in a file and the GotFile event will be triggered. The responseFileName property can be used to specify the name of the file.  
 If the SaveResponse property is false, the GotText event will be triggered.
 
-### PutTextWithEncoding
+### Put Text With Encoding
 
 _Block preview not available_
 
@@ -223,7 +223,7 @@ The characters of the text are encoded using the given encoding.
 If the SaveResponse property is true, the response will be saved in a file and the GotFile event will be triggered. The ResponseFileName property can be used to specify the name of the file.  
 If the SaveResponse property is false, the GotText event will be triggered.
 
-### UriDecode
+### URI Decode
 
 _Block preview not available_
 
@@ -238,7 +238,7 @@ _Block preview not available_
 
 Decodes the encoded text value.
 
-### UriEncode
+### URI Encode
 
 _Block preview not available_
 
@@ -253,7 +253,7 @@ _Block preview not available_
 
 Encodes the given text value so that it can be used in a URL.
 
-### XMLTextDecode
+### XML Text Decode
 
 _Block preview not available_
 

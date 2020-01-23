@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Storage|1|API 19 | Android 4.4 - 4.4.4 KitKat|
+|Storage|1|API 19, Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 
@@ -28,7 +28,7 @@ Event raised after the Upload Media block has been used
 
 ## Methods
 
-### UploadMedia
+### Upload Media
 
 _Block preview not available_
 

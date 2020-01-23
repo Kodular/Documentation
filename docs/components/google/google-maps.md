@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Google|4|API 19 | Android 4.4 - 4.4.4 KitKat|
+|Google|4|API 19, Android 4.4 - 4.4.4 KitKat|
 
 ## Overview
 
@@ -182,7 +182,7 @@ This event will be invoked when a user clicks on a point of interest. This can b
 
 ## Methods
 
-### AddCircle
+### Add Circle
 
 _Block preview not available_
 
@@ -204,7 +204,7 @@ _Block preview not available_
 
 Create a circle overlay on the map UI with specified latitude and longitude for center. "hue" (min 0, max 360) and "alpha" (min 0, max 255) are used to set color and transparency level of the circle, "strokeWidth" and "strokeColor" are for the perimeter of the circle. Returning a unique id of the circle for future reference to events raised by moving this circle. If the circle isset to be draggable, two default markers will appear on the map: one in the center of the circle, another on the perimeter.
 
-### AddMarkers
+### Add Markers
 
 _Block preview not available_
 
@@ -219,7 +219,7 @@ _Block preview not available_
 
 Adding a list of YailLists for markers. The representation of a maker in the inner YailList is composed of: lat(double) [required], long(double) [required], Color, title(String), snippet(String), draggable(boolean). Return a list of unqiue ids for the added markers. Note that the markers ids are not meant to persist after the app is closed, but for temporary references to the markers within the program only. Return an empty list if any error happen in the input
 
-### AddMarkersFromJson
+### Add Markers From Json
 
 _Block preview not available_
 
@@ -232,7 +232,7 @@ _Block preview not available_
 
 Adding a list of markers that are represented as JsonArray. The inner JsonObject represents a markerand is composed of name-value pairs. Name fields for a marker are: "lat" (type double) [required], "lng"(type double) [required], "color"(type int)[in hue value ranging from 0~360], "title"(type String), "snippet"(type String), "draggable"(type boolean)
 
-### AddMarkersHue
+### Add Markers Hue
 
 _Block preview not available_
 
@@ -247,7 +247,7 @@ _Block preview not available_
 
 Adding a list of YailList for markers. The inner YailList represents a marker and is composed of lat(Double) [required], long(Double) [required], color(int)[in hue value ranging from 0-360], title(String), snippet(String), draggable(boolean). Return a list of unique ids for the markers that are added
 
-### AddPolyline
+### Add Polyline
 
 _Block preview not available_
 
@@ -264,7 +264,7 @@ _Block preview not available_
 
 This block will return the unique id of the new added polyline. Create a new polyline on the map. Use for 'points' a list of lat, lng pairs. A integer for the 'width' (in pixel) and a valid color for the 'color' parameter.
 
-### BoundCamera
+### Bound Camera
 
 _Block preview not available_
 
@@ -280,7 +280,7 @@ _Block preview not available_
 
 Transforms the camera such that the specified latitude/longitude bounds are centered on screen at the greatest possible zoom level. Need to specify both latitudes and longitudes for both northeast location and southwest location of the bounding box
 
-### EnableCompass
+### Enable Compass
 
 _Block preview not available_
 
@@ -293,7 +293,7 @@ _Block preview not available_
 
 Enables/disables the compass widget on the map's ui. Call this only after event "MapIsReady" is received
 
-### EnableMapCameraPosChangeListener
+### Enable Map Camera Pos Change Listener
 
 _Block preview not available_
 
@@ -306,7 +306,7 @@ _Block preview not available_
 
 Enable/Disable to listen to map's camera position changed event
 
-### EnableMapClickListener
+### Enable Map Click Listener
 
 _Block preview not available_
 
@@ -319,7 +319,7 @@ _Block preview not available_
 
 Enable/Disable to listen to map's click event
 
-### EnableMapLongClickListener
+### Enable Map Long Click Listener
 
 _Block preview not available_
 
@@ -332,7 +332,7 @@ _Block preview not available_
 
 Enable/disable to listen to map's long click event
 
-### EnableMyLocation
+### Enable My Location
 
 _Block preview not available_
 
@@ -345,7 +345,7 @@ _Block preview not available_
 
 Enable or disable my location widget control for Google Map. One can call GetMyLocation() to obtain the current location after enable this."
 
-### EnableRotate
+### Enable Rotate
 
 _Block preview not available_
 
@@ -358,7 +358,7 @@ _Block preview not available_
 
 Enables/disables the capability to rotate a map on the ui. Call this only after the event "MapIsReady" is received.
 
-### EnableScroll
+### Enable Scroll
 
 _Block preview not available_
 
@@ -371,7 +371,7 @@ _Block preview not available_
 
 Enables/disables the capability to scroll a map on the ui. Call this only after the event "MapIsReady" is received
 
-### EnableZoomControl
+### Enable Zoom Control
 
 _Block preview not available_
 
@@ -384,7 +384,7 @@ _Block preview not available_
 
 Enables/disables the zoom widget on the map's ui. Call this only after the event "MapIsReady" is received
 
-### EnableZoomGesture
+### Enable Zoom Gesture
 
 _Block preview not available_
 
@@ -397,7 +397,7 @@ _Block preview not available_
 
 Enables/disables zoom gesture on the map ui. Call this only after the event "MapIsReady" is received.
 
-### GetAllCircleIDs
+### Get All Circle IDs
 
 _Block preview not available_
 
@@ -405,7 +405,7 @@ _Block preview not available_
 
 Get all circles Ids. A short cut to get all the references for the eixisting circles
 
-### GetAllMarkerID
+### Get All Marker IDs
 
 _Block preview not available_
 
@@ -413,7 +413,7 @@ _Block preview not available_
 
 Get all the existing markers's Ids
 
-### GetAllPolylineIds
+### Get All Polyline Ids
 
 _Block preview not available_
 
@@ -421,7 +421,7 @@ _Block preview not available_
 
 This will return a list with all available polyline id's.
 
-### GetMarkers
+### Get Markers
 
 _Block preview not available_
 
@@ -429,7 +429,7 @@ _Block preview not available_
 
 Add a list of markers composed of name-value pairs. Name fields for a marker are: "lat" (type double) [required], "lng"(type double) [required], "color"(type int)[in hue value ranging from 0~360], "title"(type String), "snippet"(type String), "draggable"(type boolean)
 
-### GetMyLocation
+### Get My Location
 
 _Block preview not available_
 
@@ -437,7 +437,7 @@ _Block preview not available_
 
 Get current location using Google Map Service. Return a YailList with first item beingthe latitude, the second item being the longitude, and last time being the accuracy of the reading.
 
-### GetPointsFromJson
+### Get Points From Json
 
 _Block preview not available_
 
@@ -452,7 +452,7 @@ _Block preview not available_
 
 Convert a JsonArray of points (lat, lng pairs) to a list.
 
-### MoveCamera
+### Move Camera
 
 _Block preview not available_
 
@@ -467,7 +467,7 @@ _Block preview not available_
 
 Move the map's camera to the specified position and zoom level
 
-### RemoveCircle
+### Remove Circle
 
 _Block preview not available_
 
@@ -482,7 +482,7 @@ _Block preview not available_
 
 Remove a circle for the map. Returns true if successfully removed, false if the circle does not exist with the specified id
 
-### RemoveMarker
+### Remove Marker
 
 _Block preview not available_
 
@@ -495,7 +495,7 @@ _Block preview not available_
 
 Remove a marker from the map
 
-### RemovePolyline
+### Remove Polyline
 
 _Block preview not available_
 
@@ -510,7 +510,7 @@ _Block preview not available_
 
 Use this block to remove a polyline from the map. It will return true if it was successful.
 
-### SetMapType
+### Set Map Type
 
 _Block preview not available_
 
@@ -523,7 +523,7 @@ _Block preview not available_
 
 Set the layer of Google map. Default layer is "normal", other choices including "hybrid","satellite", and "terrain"
 
-### UpdateCircle
+### Update Circle
 
 _Block preview not available_
 
@@ -538,7 +538,7 @@ _Block preview not available_
 
 Set the property of an existing circle. Properties include: "alpha"(number, value ranging from 0~255), "color" (nimber, hue value ranging 0~360), "radius"(number in meters)
 
-### UpdateMarker
+### Update Marker
 
 _Block preview not available_
 
@@ -553,7 +553,7 @@ _Block preview not available_
 
 Set the property of a marker, note that the marker has to be added first or else will throw an exception! Properties include: "color"(hue value ranging from 0~360), "title", "snippet", "draggable"(give either true or false as the value).
 
-### UpdatePolyline
+### Update Polyline
 
 _Block preview not available_
 

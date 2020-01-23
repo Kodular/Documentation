@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Drawing and Animation|6|API 19 | Android 4.4 - 4.4.4 KitKat|
+|Drawing and Animation|6|API 19, Android 4.4 - 4.4.4 KitKat|
 
 ## Overview
 
@@ -146,7 +146,7 @@ _Block preview not available_
 
 Makes the Ball bounce, as if off a wall. For normal bouncing, the edge argument should be the one returned by EdgeReached.
 
-### CollidingWith
+### Colliding With
 
 _Block preview not available_
 
@@ -161,13 +161,13 @@ _Block preview not available_
 
 Indicates whether a collision has been registered between this Ball and the passed sprite (Ball or ImageSprite).
 
-### MoveIntoBounds
+### Move Into Bounds
 
 _Block preview not available_
 
 Moves the Ball back in bounds if part of it extends out of bounds, having no effect otherwise. If the Ball is too wide to fit on the canvas, this aligns the left side of the Ball with the left side of the canvas. If the Ball is too tall to fit on the canvas, this aligns the top side of the Ball with the top side of the canvas.
 
-### MoveTo
+### Move To
 
 _Block preview not available_
 
@@ -181,7 +181,7 @@ _Block preview not available_
 
 Sets the x and y coordinates of the Ball. If CenterAtOrigin is true, the center of the Ball will be placed here. Otherwise, the top left edge of the Ball will be placed at the specified coordinates.
 
-### PointInDirection
+### Point In Direction
 
 _Block preview not available_
 
@@ -195,7 +195,7 @@ _Block preview not available_
 
 Sets the heading of the Ball toward the point with the coordinates (x, y).
 
-### PointTowards
+### Point Towards
 
 _Block preview not available_
 

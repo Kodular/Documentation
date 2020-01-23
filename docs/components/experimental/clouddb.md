@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Experimental|1|API 19 | Android 4.4 - 4.4.4 KitKat|
+|Experimental|1|API 19, Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 
@@ -82,7 +82,7 @@ Event triggered when we have received the list of known tags. Used with the "Get
 
 ## Methods
 
-### AppendValueToList
+### Append Value To List
 
 _Block preview not available_
 
@@ -96,7 +96,7 @@ _Block preview not available_
 
 Append a value to the end of a list atomically. If two devices use this function simultaneously, both will be appended and no data lost.
 
-### ClearTag
+### Clear Tag
 
 _Block preview not available_
 
@@ -109,7 +109,7 @@ _Block preview not available_
 
 Remove the tag from CloudDB
 
-### CloudConnected
+### Cloud Connected
 
 _Block preview not available_
 
@@ -117,13 +117,13 @@ _Block preview not available_
 
 returns True if we are on the network and will likely be able to connect to the CloudDB server.
 
-### GetTagList
+### Get Tag List
 
 _Block preview not available_
 
 Get the list of tags for this application. When complete a "TagList" event will be triggered with the list of known tags.
 
-### GetValue
+### Get Value
 
 _Block preview not available_
 
@@ -137,7 +137,7 @@ _Block preview not available_
 
 Get the Value for a tag, doesn't return the value but will cause a GotValue event to fire when the value is looked up.
 
-### RemoveFirstFromList
+### Remove First From List
 
 _Block preview not available_
 
@@ -150,7 +150,7 @@ _Block preview not available_
 
 Return the first element of a list and atomically remove it. If two devices use this function simultaneously, one will get the first element and the the other will get the second element, or an error if there is no available element. When the element is available, the "FirstRemoved" event will be triggered.
 
-### StoreValue
+### Store Value
 
 _Block preview not available_
 

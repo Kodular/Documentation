@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Utilities|1|API 19 | Android 4.4 - 4.4.4 KitKat|
+|Utilities|1|API 19, Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 
@@ -28,7 +28,7 @@ Triggers when there is a JSON error.
 
 ## Methods
 
-### AddBooleanToJSONArray
+### Add Boolean To JSONArray
 
 _Block preview not available_
 
@@ -45,7 +45,7 @@ _Block preview not available_
 
 Add True or False to a JSON Array.
 
-### AddBooleanToJSONObject
+### Add Boolean To JSONObject
 
 _Block preview not available_
 
@@ -63,7 +63,7 @@ _Block preview not available_
 
 Add True or False to a JSON Object.
 
-### AddJSONArrayToJSONArray
+### Add JSONArray To JSONArray
 
 _Block preview not available_
 
@@ -80,7 +80,7 @@ _Block preview not available_
 
 Add a JSON Array to a JSON Array.
 
-### AddJSONObjectToJSONArray
+### Add JSONObject To JSONArray
 
 _Block preview not available_
 
@@ -97,7 +97,7 @@ _Block preview not available_
 
 Add a JSON Object to a JSON Array.
 
-### AddJSONObjectToJSONObject
+### Add JSONObject To JSONObject
 
 _Block preview not available_
 
@@ -115,7 +115,7 @@ _Block preview not available_
 
 Add a JSON Object to a JSON Object.
 
-### AddNumberToJSONArray
+### Add Number To JSONArray
 
 _Block preview not available_
 
@@ -132,7 +132,7 @@ _Block preview not available_
 
 Add a Number to a JSON Array.
 
-### AddNumberToJSONObject
+### Add Number To JSONObject
 
 _Block preview not available_
 
@@ -150,7 +150,7 @@ _Block preview not available_
 
 Add a Number to a JSON Object.
 
-### AddTextToJSONArray
+### Add Text To JSONArray
 
 _Block preview not available_
 
@@ -167,7 +167,7 @@ _Block preview not available_
 
 Add Text to a JSON Array.
 
-### AddTextToJSONObject
+### Add Text To JSONObject
 
 _Block preview not available_
 
@@ -185,7 +185,7 @@ _Block preview not available_
 
 Add Text to a JSON Object.
 
-### GetBooleanFromJSONAray
+### Get Boolean From JSONArray
 
 _Block preview not available_
 
@@ -202,7 +202,7 @@ _Block preview not available_
 
 Get a True or False from a JSON Array.
 
-### GetBooleanFromJSONObject
+### Get Boolean From JSONObject
 
 _Block preview not available_
 
@@ -219,7 +219,7 @@ _Block preview not available_
 
 Get a true or false value from a JSON Object.
 
-### GetJSONArrayFromJSONObject
+### Get JSONArray From JSONObject
 
 _Block preview not available_
 
@@ -236,7 +236,7 @@ _Block preview not available_
 
 Get a JSON Array from a JSON Object.
 
-### GetJSONObjectFromJSONAray
+### Get JSONObject From JSONArray
 
 _Block preview not available_
 
@@ -253,7 +253,7 @@ _Block preview not available_
 
 Get a JSON Object from a JSON Array.
 
-### GetJSONObjectFromJSONObject
+### Get JSONObject From JSONObject
 
 _Block preview not available_
 
@@ -270,7 +270,7 @@ _Block preview not available_
 
 Get a JSON Object from a JSON Object.
 
-### GetLengthOfJSONArray
+### Get Length Of JSONArray
 
 _Block preview not available_
 
@@ -286,7 +286,7 @@ _Block preview not available_
 
 Get the length of a JSON Array.
 
-### GetNumberFromJSONAray
+### Get Number From JSONArray
 
 _Block preview not available_
 
@@ -303,7 +303,7 @@ _Block preview not available_
 
 Get a Number from a JSON Array.
 
-### GetNumberFromJSONObject
+### Get Number From JSONObject
 
 _Block preview not available_
 
@@ -320,7 +320,7 @@ _Block preview not available_
 
 Get a number from a JSON Object.
 
-### GetTextFromJSONAray
+### Get Text From JSONArray
 
 _Block preview not available_
 
@@ -337,7 +337,7 @@ _Block preview not available_
 
 Get Text from a JSON Array.
 
-### GetTextFromJSONObject
+### Get Text From JSONObject
 
 _Block preview not available_
 

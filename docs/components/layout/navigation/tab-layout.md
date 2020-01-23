@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Layout > Navigation|1|API 19 | Android 4.4 - 4.4.4 KitKat|
+|Layout > Navigation|1|API 19, Android 4.4 - 4.4.4 KitKat|
 
 ## Overview
 
@@ -26,7 +26,7 @@ The event returns the name or the position of the selected tab.
 
 ## Methods
 
-### AddNewTab
+### Add New Tab
 
 _Block preview not available_
 
@@ -40,7 +40,7 @@ _Block preview not available_
 
 Add a new tab to the tab layout. If you don't want a icon then let it empty.
 
-### AddNewTabAt
+### Add New Tab At
 
 _Block preview not available_
 
@@ -55,7 +55,7 @@ _Block preview not available_
 
 Add a new tab to the tab layout at the given position. If you don't want a icon then let it empty.
 
-### CountTabs
+### Count Tabs
 
 _Block preview not available_
 
@@ -63,13 +63,13 @@ _Block preview not available_
 
 Returns the number of current added tab's.
 
-### RemoveAllTabs
+### Remove All Tabs
 
 _Block preview not available_
 
 Remove all tab's from tab layout.
 
-### RemoveTabAt
+### Remove Tab At
 
 _Block preview not available_
 

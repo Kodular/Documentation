@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Monetization > Advertising|1|API 19 | Android 4.4 - 4.4.4 KitKat|
+|Monetization > Advertising|1|API 19, Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 
@@ -84,7 +84,7 @@ _Block preview not available_
 
 Load a new StartApp Interstitial ad.
 
-### ShowInterstitialAd
+### Show Interstitial Ad
 
 _Block preview not available_
 

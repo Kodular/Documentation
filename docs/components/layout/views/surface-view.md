@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Layout > Views|2|API 19 | Android 4.4 - 4.4.4 KitKat|
+|Layout > Views|2|API 19, Android 4.4 - 4.4.4 KitKat|
 
 ## Overview
 
@@ -75,25 +75,25 @@ Event to detect that the user stopped the camera preview.
 
 ## Methods
 
-### PausePreview
+### Pause Preview
 
 _Block preview not available_
 
 Pause the camera preview.
 
-### StartPreview
+### Start Preview
 
 _Block preview not available_
 
 Start the camera preview.
 
-### StopPreview
+### Stop Preview
 
 _Block preview not available_
 
 Stop the camera preview.
 
-### TakePicture
+### Take Picture
 
 _Block preview not available_
 

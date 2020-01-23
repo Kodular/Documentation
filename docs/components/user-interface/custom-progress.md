@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|User Interface|4|API 19 | Android 4.4 - 4.4.4 KitKat|
+|User Interface|4|API 19, Android 4.4 - 4.4.4 KitKat|
 
 ## Overview
 
@@ -10,7 +10,7 @@ A visible component that indicates the progress of an operation using a range of
 
 ## Methods
 
-### GetAnimationStyleNames
+### Get Styles Names
 
 _Block preview not available_
 

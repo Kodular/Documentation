@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Media|2|API 19 | Android 4.4 - 4.4.4 KitKat|
+|Media|2|API 19, Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 
@@ -33,7 +33,7 @@ Simple event to raise when VoiceReco is invoked but before the VoiceRecoactivity
 
 ## Methods
 
-### GetText
+### Get Text
 
 _Block preview not available_
 

@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Utilities|1|API 19 | Android 4.4 - 4.4.4 KitKat|
+|Utilities|1|API 19, Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 
@@ -12,7 +12,7 @@ A non-visible component that performs operations like conversion between formats
 
 ## Methods
 
-### ConvertHexToInt
+### Convert Hex To Int
 
 _Block preview not available_
 
@@ -27,7 +27,7 @@ _Block preview not available_
 
 Convert a hex color to a integer color. The result is returned as integer.
 
-### ConvertIntToHex
+### Convert Int To Hex
 
 _Block preview not available_
 
@@ -42,7 +42,7 @@ _Block preview not available_
 
 Convert a integer color to a hex color. The result is returned as string.
 
-### GetLuminance
+### Get Luminance
 
 _Block preview not available_
 
@@ -57,7 +57,7 @@ _Block preview not available_
 
 Returns the luminance of a color as a float between 0.0 and 1.0. The result is returned as double.
 
-### IsDarkColor
+### Is Dark Color
 
 _Block preview not available_
 
@@ -72,7 +72,7 @@ _Block preview not available_
 
 Returns true if the color is dark, else it returns false, means the color is light. The result is returned as boolean.
 
-### SetAlphaValue
+### Set Alpha Value
 
 _Block preview not available_
 

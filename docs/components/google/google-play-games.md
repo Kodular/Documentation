@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Google|1|API 19 | Android 4.4 - 4.4.4 KitKat|
+|Google|1|API 19, Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 
@@ -50,13 +50,13 @@ User signed out.
 
 ## Methods
 
-### GetPlayer
+### Get Player
 
 _Block preview not available_
 
 Get the current player
 
-### IncrementAchievement
+### Increment Achievement
 
 _Block preview not available_
 
@@ -70,7 +70,7 @@ _Block preview not available_
 
 Increment an achievement.
 
-### IsSignedIn
+### Is Signed In
 
 _Block preview not available_
 
@@ -78,13 +78,13 @@ _Block preview not available_
 
 Is user signed in?
 
-### ShowAchievements
+### Show Achievements
 
 _Block preview not available_
 
 Shows Achievement.
 
-### ShowLeaderboard
+### Show Leaderboard
 
 _Block preview not available_
 
@@ -97,7 +97,7 @@ _Block preview not available_
 
 Shows Leaderboard.
 
-### SignIn
+### Sign In
 
 _Block preview not available_
 
@@ -110,13 +110,13 @@ _Block preview not available_
 
 Sign in the user. useLastAccount, true: use the last signed in account if possible, false: open a screen to choose for an account
 
-### SignOut
+### Sign Out
 
 _Block preview not available_
 
 Sign out the user.
 
-### SubmitScore
+### Submit Score
 
 _Block preview not available_
 
@@ -130,7 +130,7 @@ _Block preview not available_
 
 Submits user score to leaderboard.
 
-### UnlockAchievement
+### Unlock Achievements
 
 _Block preview not available_
 

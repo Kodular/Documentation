@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Media|2|API 19 | Android 4.4 - 4.4.4 KitKat|
+|Media|2|API 19, Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 
@@ -67,7 +67,7 @@ _Block preview not available_
 
 Get the Composer from the file.
 
-### CustomItem
+### Custom Item
 
 _Block preview not available_
 
@@ -90,7 +90,7 @@ _Block preview not available_
 
 Get the Date from the file.
 
-### DiscNumber
+### Disc Number
 
 _Block preview not available_
 
@@ -106,7 +106,7 @@ _Block preview not available_
 
 Get the Duration from the file.
 
-### EmbeddedPicture
+### Embedded Picture
 
 _Block preview not available_
 
@@ -122,7 +122,7 @@ _Block preview not available_
 
 Get the Genre from the file.
 
-### HasAudio
+### Has Audio
 
 _Block preview not available_
 
@@ -130,7 +130,7 @@ _Block preview not available_
 
 Get the Has Audio from the file.
 
-### HasVideo
+### Has Video
 
 _Block preview not available_
 
@@ -162,7 +162,7 @@ _Block preview not available_
 
 Get the Title from the file.
 
-### TrackNumber
+### Track Number
 
 _Block preview not available_
 
@@ -170,7 +170,7 @@ _Block preview not available_
 
 Get the Track Number from the file.
 
-### VideoHeight
+### Video Height
 
 _Block preview not available_
 
@@ -178,7 +178,7 @@ _Block preview not available_
 
 Get the Video Height from the file.
 
-### VideoRotation
+### Video Rotation
 
 _Block preview not available_
 
@@ -186,7 +186,7 @@ _Block preview not available_
 
 Get the Video Rotation from the file.
 
-### VideoWidth
+### Video Width
 
 _Block preview not available_
 

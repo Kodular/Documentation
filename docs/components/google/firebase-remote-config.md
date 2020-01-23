@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Google|2|API 19 | Android 4.4 - 4.4.4 KitKat|
+|Google|2|API 19, Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 
@@ -32,7 +32,7 @@ _Block preview not available_
 
 Fetches parameter values for your app
 
-### GetBoolean
+### Get Boolean
 
 _Block preview not available_
 
@@ -47,7 +47,7 @@ _Block preview not available_
 
 Gets a boolean value corresponding to the specified key
 
-### GetNumber
+### Get Number
 
 _Block preview not available_
 
@@ -62,7 +62,7 @@ _Block preview not available_
 
 Gets a number value corresponding to the specified key
 
-### GetText
+### Get Text
 
 _Block preview not available_
 

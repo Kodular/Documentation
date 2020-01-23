@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|User Interface|5|API 19 | Android 4.4 - 4.4.4 KitKat|
+|User Interface|5|API 19, Android 4.4 - 4.4.4 KitKat|
 
 ## Overview
 
@@ -24,7 +24,7 @@ Event to detect that a user has done a simple "Long Click".
 
 ## Methods
 
-### ClearImageTintColor
+### Clear Image Tint Color
 
 _Block preview not available_
 

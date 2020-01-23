@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Monetization > Advertising|1|API 19 | Android 4.4 - 4.4.4 KitKat|
+|Monetization > Advertising|1|API 19, Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 
@@ -59,7 +59,7 @@ Called when an ad request failed. The message will display the reason for why th
 
 ## Methods
 
-### IsEuropeanUser
+### Is European User
 
 _Block preview not available_
 
@@ -73,7 +73,7 @@ _Block preview not available_
 
 Loads a new ad.
 
-### ShowAd
+### Show Ad
 
 _Block preview not available_
 

@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Storage|1|API 19 | Android 4.4 - 4.4.4 KitKat|
+|Storage|1|API 19, Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 
@@ -128,7 +128,7 @@ Triggered when updating a row. ResponseCode is a number
 
 ## Methods
 
-### CreateRow
+### Create Row
 
 _Block preview not available_
 
@@ -142,7 +142,7 @@ _Block preview not available_
 
 Creates a new row
 
-### DeleteRowNum
+### Delete Row
 
 _Block preview not available_
 
@@ -155,13 +155,13 @@ _Block preview not available_
 
 Deletes the given row
 
-### GetAllRows
+### Get All Rows
 
 _Block preview not available_
 
 Gets all rows
 
-### GetCell
+### Get Cell
 
 _Block preview not available_
 
@@ -175,7 +175,7 @@ _Block preview not available_
 
 Gets cell data
 
-### GetColumn
+### Get Column
 
 _Block preview not available_
 
@@ -189,7 +189,7 @@ _Block preview not available_
 
 Gets column data
 
-### GetRow
+### Get Row
 
 _Block preview not available_
 
@@ -202,7 +202,7 @@ _Block preview not available_
 
 Gets row data
 
-### SetCell
+### Set Cell
 
 _Block preview not available_
 
@@ -217,7 +217,7 @@ _Block preview not available_
 
 Changes the value of a cell
 
-### UpdateRowByNum
+### Update Row by Number
 
 _Block preview not available_
 

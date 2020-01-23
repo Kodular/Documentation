@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Dynamic Components|4|API 19 | Android 4.4 - 4.4.4 KitKat|
+|Dynamic Components|4|API 19, Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 
@@ -40,7 +40,7 @@ Trigger when a Dynamic Button is long clicked.
 
 ## Methods
 
-### CreateButton
+### Create Button
 
 _Block preview not available_
 
@@ -54,7 +54,7 @@ _Block preview not available_
 
 Create a Dynamic Button.
 
-### DeleteButton
+### Delete Button
 
 :warning: ==**Deprecated**==
 
@@ -70,7 +70,7 @@ _Block preview not available_
 
 This block is DEPRECATED! Please use instead the 'Delete Button' block without arrangement parameter.
 
-### DeleteButtonNew
+### Delete Button
 
 _Block preview not available_
 
@@ -83,7 +83,7 @@ _Block preview not available_
 
 Delete a Dynamic Button.
 
-### GetButtonById
+### Get Button By Id
 
 _Block preview not available_
 
@@ -98,7 +98,7 @@ _Block preview not available_
 
 Returns the button referenced by its id.
 
-### GetEnabled
+### Get Enabled
 
 _Block preview not available_
 
@@ -113,7 +113,7 @@ _Block preview not available_
 
 Get the Enabled status of a button.
 
-### GetFontSize
+### Get Font Size
 
 _Block preview not available_
 
@@ -128,7 +128,7 @@ _Block preview not available_
 
 Get the Font Size of a button.
 
-### GetHeight
+### Get Height
 
 _Block preview not available_
 
@@ -143,7 +143,7 @@ _Block preview not available_
 
 Get the Height of a button.
 
-### GetText
+### Get Text
 
 _Block preview not available_
 
@@ -158,7 +158,7 @@ _Block preview not available_
 
 Get the Text of a button.
 
-### GetWidth
+### Get Width
 
 _Block preview not available_
 
@@ -173,7 +173,7 @@ _Block preview not available_
 
 Get the Width of a button.
 
-### SetBackgroundColor
+### Set Background Color
 
 _Block preview not available_
 
@@ -187,7 +187,7 @@ _Block preview not available_
 
 Update the Background Color of a button.
 
-### SetEnabled
+### Set Enabled
 
 _Block preview not available_
 
@@ -201,7 +201,7 @@ _Block preview not available_
 
 Update the Enabled status of a button.
 
-### SetFont
+### Set Font
 
 _Block preview not available_
 
@@ -216,7 +216,7 @@ _Block preview not available_
 
 Update the Font of a button.
 
-### SetFontSize
+### Set Font Size
 
 _Block preview not available_
 
@@ -230,7 +230,7 @@ _Block preview not available_
 
 Update the Font Size of a button.
 
-### SetHeight
+### Set Height
 
 _Block preview not available_
 
@@ -244,7 +244,7 @@ _Block preview not available_
 
 Update the Height of a button.
 
-### SetText
+### Set Text
 
 _Block preview not available_
 
@@ -258,7 +258,7 @@ _Block preview not available_
 
 Update the Text of a button.
 
-### SetTextColor
+### Set Text Color
 
 _Block preview not available_
 
@@ -272,7 +272,7 @@ _Block preview not available_
 
 Update the Text Color of a button.
 
-### SetWidth
+### Set Width
 
 _Block preview not available_
 

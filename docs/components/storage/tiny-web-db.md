@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Storage|2|API 19 | Android 4.4 - 4.4.4 KitKat|
+|Storage|2|API 19, Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 
@@ -47,7 +47,7 @@ Indicates that the communication with the Web service signaled an error.
 
 ## Methods
 
-### GetValue
+### Get Value
 
 _Block preview not available_
 
@@ -60,7 +60,7 @@ _Block preview not available_
 
 GetValue asks the Web service to get the value stored under the given tag.
 
-### StoreValue
+### Store Value
 
 _Block preview not available_
 

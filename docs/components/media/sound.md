@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Media|4|API 19 | Android 4.4 - 4.4.4 KitKat|
+|Media|4|API 19, Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 
@@ -38,19 +38,19 @@ _Block preview not available_
 
 Resumes playing the sound after a pause.
 
-### SoundNormal
+### Sound Normal
 
 _Block preview not available_
 
 Ringer mode that may be audible and may vibrate.
 
-### SoundSilent
+### Sound Silent
 
 _Block preview not available_
 
 Ringer mode that will be silent and will not vibrate.
 
-### SoundVibrate
+### Sound Vibrate
 
 _Block preview not available_
 
@@ -75,7 +75,7 @@ _Block preview not available_
 
 Vibrates for the specified number of milliseconds.
 
-### VibratePattern
+### Vibrate Pattern
 
 _Block preview not available_
 

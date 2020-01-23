@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Storage|5|API 19 | Android 4.4 - 4.4.4 KitKat|
+|Storage|5|API 19, Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 
@@ -78,7 +78,7 @@ Event indicating that there was any failure on zip or unzip a file.
 
 ## Methods
 
-### AppendToFile
+### Append To File
 
 _Block preview not available_
 
@@ -106,7 +106,7 @@ _Block preview not available_
 
 Copy file
 
-### CreateDirectory
+### Create Directory
 
 _Block preview not available_
 
@@ -147,7 +147,7 @@ _Block preview not available_
 
 Check whether a file exists
 
-### FileSize
+### File Size
 
 _Block preview not available_
 
@@ -162,7 +162,7 @@ _Block preview not available_
 
 Get file size
 
-### GetFileName
+### Get File Name
 
 _Block preview not available_
 
@@ -177,7 +177,7 @@ _Block preview not available_
 
 Get file name
 
-### GetFreeSpace
+### Get Free Space
 
 _Block preview not available_
 
@@ -192,7 +192,7 @@ _Block preview not available_
 
 Get Free Space
 
-### GetTotalSpace
+### Get Total Space
 
 _Block preview not available_
 
@@ -207,7 +207,7 @@ _Block preview not available_
 
 Get total space
 
-### IsDirectory
+### Is Directory
 
 _Block preview not available_
 
@@ -222,7 +222,7 @@ _Block preview not available_
 
 Check whether the path is a directory
 
-### IsFile
+### Is File
 
 _Block preview not available_
 
@@ -253,7 +253,7 @@ _Block preview not available_
 
 Move file
 
-### ReadFrom
+### Read From
 
 _Block preview not available_
 
@@ -266,7 +266,7 @@ _Block preview not available_
 
 Reads text from a file in storage. Prefix the filename with / to read from a specific file on the SD card. for instance /myFile.txt will read the file /sdcard/myFile.txt. To read assets packaged with an application (also works for the Companion) start the filename with // (two slashes). If a filename does not start with a slash, it will be read from the applications private storage (for packaged apps) and from /sdcard/AppInventor/data for the Companion.
 
-### SaveFile
+### Save File
 
 _Block preview not available_
 

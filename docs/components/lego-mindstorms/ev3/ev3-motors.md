@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|LEGO® MINDSTORMS® > Ev3|1|API 19 | Android 4.4 - 4.4.4 KitKat|
+|LEGO® MINDSTORMS® > Ev3|1|API 19, Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 
@@ -27,7 +27,7 @@ Called when the tacho count has changed.
 
 ## Methods
 
-### GetTachoCount
+### Get Tacho Count
 
 _Block preview not available_
 
@@ -35,13 +35,13 @@ _Block preview not available_
 
 Get the current tacho count.
 
-### ResetTachoCount
+### Reset Tacho Count
 
 _Block preview not available_
 
 Set the current tacho count to zero.
 
-### RotateInDistance
+### Rotate In Distance
 
 _Block preview not available_
 
@@ -56,7 +56,7 @@ _Block preview not available_
 
 Rotate the motors in a distance.
 
-### RotateInDuration
+### Rotate In Duration
 
 _Block preview not available_
 
@@ -71,7 +71,7 @@ _Block preview not available_
 
 Rotate the motors in a period of time.
 
-### RotateInTachoCounts
+### Rotate In Tacho Counts
 
 _Block preview not available_
 
@@ -86,7 +86,7 @@ _Block preview not available_
 
 Rotate the motors in a number of tacho counts.
 
-### RotateIndefinitely
+### Rotate Indefinitely
 
 _Block preview not available_
 
@@ -99,7 +99,7 @@ _Block preview not available_
 
 Start to rotate the motors.
 
-### RotateSyncInDistance
+### Rotate Sync In Distance
 
 _Block preview not available_
 
@@ -115,7 +115,7 @@ _Block preview not available_
 
 Rotate the motors at the same speed for a distance in cm.
 
-### RotateSyncInDuration
+### Rotate Sync In Duration
 
 _Block preview not available_
 
@@ -131,7 +131,7 @@ _Block preview not available_
 
 Rotate the motors at the same speed in a period of time.
 
-### RotateSyncInTachoCounts
+### Rotate Sync In Tacho Counts
 
 _Block preview not available_
 
@@ -147,7 +147,7 @@ _Block preview not available_
 
 Rotate the motors at the same speed in a number of tacho counts.
 
-### RotateSyncIndefinitely
+### Rotate Sync Indefinitely
 
 _Block preview not available_
 
@@ -174,7 +174,7 @@ _Block preview not available_
 
 Stop the motors of the robot.
 
-### ToggleDirection
+### Toggle Direction
 
 _Block preview not available_
 

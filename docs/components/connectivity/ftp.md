@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Connectivity|2|API 19 | Android 4.4 - 4.4.4 KitKat|
+|Connectivity|2|API 19, Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 
@@ -103,7 +103,7 @@ _Block preview not available_
 
 Disconnect the current connection.
 
-### DownloadFile
+### Download File
 
 _Block preview not available_
 
@@ -117,7 +117,7 @@ _Block preview not available_
 
 Start downloading a file.
 
-### GetListOfFiles
+### Get List Of Files
 
 _Block preview not available_
 
@@ -132,7 +132,7 @@ _Block preview not available_
 
 Get a list of files in a directory. Returns a empty list if a error occurs.
 
-### UploadFile
+### Upload File
 
 _Block preview not available_
 

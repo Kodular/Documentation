@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Layout > Navigation|2|API 19 | Android 4.4 - 4.4.4 KitKat|
+|Layout > Navigation|2|API 19, Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 
@@ -28,7 +28,7 @@ Triggers when the user clicks on an item of the Navigation Menu
 
 ## Methods
 
-### AddItem
+### Add Item
 
 _Block preview not available_
 
@@ -45,7 +45,7 @@ _Block preview not available_
 
 Add an item to the Navigation Menu
 
-### RemoveItem
+### Remove Item
 
 _Block preview not available_
 
@@ -58,7 +58,7 @@ _Block preview not available_
 
 Remove an item from the Navigation Menu
 
-### UpdateItem
+### Update Item
 
 _Block preview not available_
 

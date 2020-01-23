@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Connectivity|2|API 19 | Android 4.4 - 4.4.4 KitKat|
+|Connectivity|2|API 19, Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 
@@ -32,7 +32,7 @@ _Block preview not available_
 
 Enable the Wi-Fi
 
-### Is5GHzSupported
+### Is 5GHz Supported
 
 _Block preview not available_
 
@@ -40,7 +40,7 @@ _Block preview not available_
 
 Return whether this adapter supports 5 GHz band
 
-### IsEnabled
+### Is Enabled
 
 _Block preview not available_
 
@@ -48,7 +48,7 @@ _Block preview not available_
 
 Return whether Wi-Fi is enabled or disabled
 
-### IsWiFiDirectSupported
+### Is WiFi Direct Supported
 
 _Block preview not available_
 
@@ -56,7 +56,7 @@ _Block preview not available_
 
 Return whether this adapter supports Wi-Fi Direct
 
-### LinkSpeed
+### Link Speed
 
 _Block preview not available_
 
@@ -64,7 +64,7 @@ _Block preview not available_
 
 Returns the current link speed in Mbps
 
-### LocalIP
+### Local IP
 
 _Block preview not available_
 
@@ -72,7 +72,7 @@ _Block preview not available_
 
 Return the current Local IP
 
-### MacAddress
+### Mac Address
 
 _Block preview not available_
 
@@ -88,7 +88,7 @@ _Block preview not available_
 
 Returns the service set identifier (SSID) of the current 802.11 network
 
-### SignalStrength
+### Signal Strength
 
 _Block preview not available_
 

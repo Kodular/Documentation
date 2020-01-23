@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Social|6|API 19 | Android 4.4 - 4.4.4 KitKat|
+|Social|6|API 19, Android 4.4 - 4.4.4 KitKat|
 
 ## Overview
 
@@ -36,7 +36,7 @@ Event to detect text changes.
 
 ## Methods
 
-### AnimationStyle
+### Set Animation Style
 
 _Block preview not available_
 
@@ -52,13 +52,13 @@ _Block preview not available_
 
 Allows you to set animation style. Valid (case-insensitive) values are: ChasingDots, Circle, CubeGrid, DoubleBounce, FadingCircle, FoldingCube, Pulse, RotatingCircle, RotatingPlane, ThreeBounce, WanderingCubes, Wave. If invalid style is used, animation will be removed.Position can be: top, left, right, bottom. Size can be 100.
 
-### RequestFocus
+### Request Focus
 
 _Block preview not available_
 
 Sets the textbox active.
 
-### SetCursorAt
+### Set Cursor At
 
 _Block preview not available_
 
@@ -71,13 +71,13 @@ _Block preview not available_
 
 Set the cursor to the given position.
 
-### SetCursorAtEnd
+### Set Cursor At End
 
 _Block preview not available_
 
 Set the cursor to the end of the text.
 
-### SetShadow
+### Set Shadow
 
 _Block preview not available_
 

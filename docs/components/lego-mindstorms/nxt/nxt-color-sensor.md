@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|LEGO® MINDSTORMS® > Nxt|1|API 19 | Android 4.4 - 4.4.4 KitKat|
+|LEGO® MINDSTORMS® > Nxt|1|API 19, Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 
@@ -45,7 +45,7 @@ Light level has gone within the range. The WithinRange event will not occur if t
 
 ## Methods
 
-### GetColor
+### Get Color
 
 _Block preview not available_
 
@@ -53,7 +53,7 @@ _Block preview not available_
 
 Returns the current detected color, or the color None if the color can not be read or if the DetectColor property is set to False.
 
-### GetLightLevel
+### Get Light Level
 
 _Block preview not available_
 

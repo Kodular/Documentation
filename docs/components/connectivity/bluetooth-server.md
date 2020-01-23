@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Connectivity|5|API 19 | Android 4.4 - 4.4.4 KitKat|
+|Connectivity|5|API 19, Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 
@@ -34,7 +34,7 @@ Indicates that a bluetooth connection has been accepted.
 
 ## Methods
 
-### AcceptConnection
+### Accept Connection
 
 _Block preview not available_
 
@@ -47,7 +47,7 @@ _Block preview not available_
 
 Accept an incoming connection with the Serial Port Profile (SPP).
 
-### AcceptConnectionWithUUID
+### Accept Connection With UUID
 
 _Block preview not available_
 
@@ -61,7 +61,7 @@ _Block preview not available_
 
 Accept an incoming connection with a specific UUID.
 
-### BytesAvailableToReceive
+### Bytes Available To Receive
 
 _Block preview not available_
 
@@ -75,7 +75,7 @@ _Block preview not available_
 
 Disconnect from the connected Bluetooth device.
 
-### ReceiveSigned1ByteNumber
+### Receive Signed 1 Byte Number
 
 _Block preview not available_
 
@@ -83,7 +83,7 @@ _Block preview not available_
 
 Receive a signed 1-byte number from the connected Bluetooth device.
 
-### ReceiveSigned2ByteNumber
+### Receive Signed 2 Byte Number
 
 _Block preview not available_
 
@@ -91,7 +91,7 @@ _Block preview not available_
 
 Receive a signed 2-byte number from the connected Bluetooth device.
 
-### ReceiveSigned4ByteNumber
+### Receive Signed 4 Byte Number
 
 _Block preview not available_
 
@@ -99,7 +99,7 @@ _Block preview not available_
 
 Receive a signed 4-byte number from the connected Bluetooth device.
 
-### ReceiveSignedBytes
+### Receive Signed Bytes
 
 _Block preview not available_
 
@@ -114,7 +114,7 @@ _Block preview not available_
 
 Receive multiple signed byte values from the connected Bluetooth device. If numberOfBytes is less than 0, read until a delimiter byte value is received.
 
-### ReceiveText
+### Receive Text
 
 _Block preview not available_
 
@@ -129,7 +129,7 @@ _Block preview not available_
 
 Receive text from the connected Bluetooth device. If numberOfBytes is less than 0, read until a delimiter byte value is received.
 
-### ReceiveUnsigned1ByteNumber
+### Receive Unsigned 1 Byte Number
 
 _Block preview not available_
 
@@ -137,7 +137,7 @@ _Block preview not available_
 
 Receive an unsigned 1-byte number from the connected Bluetooth device.
 
-### ReceiveUnsigned2ByteNumber
+### Receive Unsigned 2 Byte Number
 
 _Block preview not available_
 
@@ -145,7 +145,7 @@ _Block preview not available_
 
 Receive a unsigned 2-byte number from the connected Bluetooth device.
 
-### ReceiveUnsigned4ByteNumber
+### Receive Unsigned 4 Byte Number
 
 _Block preview not available_
 
@@ -153,7 +153,7 @@ _Block preview not available_
 
 Receive a unsigned 4-byte number from the connected Bluetooth device.
 
-### ReceiveUnsignedBytes
+### Receive Unsigned Bytes
 
 _Block preview not available_
 
@@ -168,7 +168,7 @@ _Block preview not available_
 
 Receive multiple unsigned byte values from the connected Bluetooth device. If numberOfBytes is less than 0, read until a delimiter byte value is received.
 
-### Send1ByteNumber
+### Send 1 Byte Number
 
 _Block preview not available_
 
@@ -181,7 +181,7 @@ _Block preview not available_
 
 Send a 1-byte number to the connected Bluetooth device.
 
-### Send2ByteNumber
+### Send 2 Byte Number
 
 _Block preview not available_
 
@@ -194,7 +194,7 @@ _Block preview not available_
 
 Send a 2-byte number to the connected Bluetooth device.
 
-### Send4ByteNumber
+### Send 4 Byte Number
 
 _Block preview not available_
 
@@ -207,7 +207,7 @@ _Block preview not available_
 
 Send a 4-byte number to the connected Bluetooth device.
 
-### SendBytes
+### Send Bytes
 
 _Block preview not available_
 
@@ -220,7 +220,7 @@ _Block preview not available_
 
 Send a list of byte values to the connected Bluetooth device.
 
-### SendText
+### Send Text
 
 _Block preview not available_
 
@@ -233,7 +233,7 @@ _Block preview not available_
 
 Send text to the connected Bluetooth device.
 
-### StopAccepting
+### Stop Accepting
 
 _Block preview not available_
 

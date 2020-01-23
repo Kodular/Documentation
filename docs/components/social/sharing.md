@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Social|2|API 19 | Android 4.4 - 4.4.4 KitKat|
+|Social|2|API 19, Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 
@@ -31,7 +31,7 @@ This event returns the social media name if an app is not installed. Possible na
 
 ## Methods
 
-### ShareFile
+### Share File
 
 _Block preview not available_
 
@@ -44,7 +44,7 @@ _Block preview not available_
 
 Shares a file through any capable application installed on the phone by displaying a list of the available apps and allowing the user to choose one from the list. The selected app will open with the file inserted on it.
 
-### ShareFileWithMessage
+### Share File With Message
 
 _Block preview not available_
 
@@ -58,7 +58,7 @@ _Block preview not available_
 
 Shares both a file and a message through any capable application installed on the phone by displaying a list of available apps and allowing the user to choose one from the list. The selected app will open with the file and message inserted on it.
 
-### ShareMessage
+### Share Message
 
 _Block preview not available_
 
@@ -71,7 +71,7 @@ _Block preview not available_
 
 Shares a message through any capable application installed on the phone by displaying a list of the available apps and allowing the user to choose one from the list. The selected app will open with the message inserted on it.
 
-### ShareMessageTo
+### Share Message To
 
 _Block preview not available_
 
@@ -86,7 +86,7 @@ _Block preview not available_
 
 Shares a message through the given app. If the given app is not installed, then the 'AppNotFound' event will be invoked and return the given name.
 
-### ShareMessageToFacebook
+### Share Message To Facebook
 
 _Block preview not available_
 
@@ -99,7 +99,7 @@ _Block preview not available_
 
 Shares a message through Facebook. If Facebook is not installed, then the 'AppNotFound' event will be invoked and return the name 'Facebook'.
 
-### ShareMessageToFacebookMessenger
+### Share Message To Facebook Messenger
 
 _Block preview not available_
 
@@ -112,7 +112,7 @@ _Block preview not available_
 
 Shares a message through Facebook Messenger. If Messenger is not installed, then the 'AppNotFound' event will be invoked and return the name 'Facebook Messenger'.
 
-### ShareMessageToGooglePlus
+### Share Message To Google+
 
 _Block preview not available_
 
@@ -125,7 +125,7 @@ _Block preview not available_
 
 Shares a message through Google Plus. If Google+ is not installed, then the 'AppNotFound' event will be invoked and return the name 'Google Plus'.
 
-### ShareMessageToSnapchat
+### Share Message To Snapchat
 
 _Block preview not available_
 
@@ -138,7 +138,7 @@ _Block preview not available_
 
 Shares a message through Snapchat. If Snapchat is not installed, then the 'AppNotFound' event will be invoked and return the name 'Snapchat'.
 
-### ShareMessageToTelegram
+### Share Message To Telegram
 
 _Block preview not available_
 
@@ -151,7 +151,7 @@ _Block preview not available_
 
 Shares a message through Telegram. If Telegram is not installed, then the 'AppNotFound' event will be invoked and return the name 'Telegram'.
 
-### ShareMessageToTwitter
+### Share Message To Twitter
 
 _Block preview not available_
 
@@ -164,7 +164,7 @@ _Block preview not available_
 
 Shares a message through Twitter. If Twitter is not installed, then the 'AppNotFound' event will be invoked and return the name 'Twitter'.
 
-### ShareMessageToWhatsApp
+### Share Message To WhatsApp
 
 _Block preview not available_
 

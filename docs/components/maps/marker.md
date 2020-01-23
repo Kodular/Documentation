@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Maps|3|API 19 | Android 4.4 - 4.4.4 KitKat|
+|Maps|3|API 19, Android 4.4 - 4.4.4 KitKat|
 
 ## Overview
 
@@ -42,7 +42,7 @@ The user stopped a drag operation.
 
 ## Methods
 
-### BearingToFeature
+### Bearing To Feature
 
 _Block preview not available_
 
@@ -58,7 +58,7 @@ _Block preview not available_
 
 Returns the bearing from the Marker to the given map feature, in degrees from due north. If the centroids parameter is true, the bearing will be to the center of the map feature. Otherwise, the bearing will be computed to the point in the feature nearest the Marker.
 
-### BearingToPoint
+### Bearing To Point
 
 _Block preview not available_
 
@@ -74,7 +74,7 @@ _Block preview not available_
 
 Returns the bearing from the Marker to the given latitude and longitude, in degrees from due north.
 
-### DistanceToFeature
+### Distance To Feature
 
 _Block preview not available_
 
@@ -90,7 +90,7 @@ _Block preview not available_
 
 Compute the distance, in meters, between two map features.
 
-### DistanceToPoint
+### Distance To Point
 
 _Block preview not available_
 
@@ -106,13 +106,13 @@ _Block preview not available_
 
 Compute the distance, in meters, between a map feature and a latitude, longitude point.
 
-### HideInfobox
+### Hide Infobox
 
 _Block preview not available_
 
 Hide the infobox if it is shown. If the infobox is not visible this function has no effect.
 
-### SetLocation
+### Set Location
 
 _Block preview not available_
 
@@ -126,7 +126,7 @@ _Block preview not available_
 
 Set the location of the marker.
 
-### ShowInfobox
+### Show Infobox
 
 _Block preview not available_
 

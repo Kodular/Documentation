@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Experimental|2|API 19 | Android 4.4 - 4.4.4 KitKat|
+|Experimental|2|API 19, Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 
@@ -12,7 +12,7 @@ A non-visible component that opens web pages as custom tabs on Google Chrome.
 
 ## Methods
 
-### AddMenuItemOpenApp
+### Add Menu Item Open App
 
 _Block preview not available_
 
@@ -26,7 +26,7 @@ _Block preview not available_
 
 Use this block to add a menu item with the given title to open any app you want with the package name. The package name can be as example 'com.instagram.android' to open Instagram on the menu item click. If the app is not installed the menu item will not be added.
 
-### AddMenuItemOpenPage
+### Add Menu Item Open Page
 
 _Block preview not available_
 
@@ -40,7 +40,7 @@ _Block preview not available_
 
 Use this block to add a menu item with the given title and page link. The page can be as example 'https://www.instagram.com/kodular/'. If the user have Instagram installed,the page will then be opened in the official Instagram app. Else in the default browser.
 
-### OpenCustomTab
+### Open Custom Tab
 
 _Block preview not available_
 

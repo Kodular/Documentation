@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Layout > General|42|API 19 | Android 4.4 - 4.4.4 KitKat|
+|Layout > General|42|API 19, Android 4.4 - 4.4.4 KitKat|
 
 ## Overview
 
@@ -184,7 +184,7 @@ Event to detect when a menu item has been selected.
 
 ## Methods
 
-### AddMenuItem
+### Add Menu Item
 
 _Block preview not available_
 
@@ -197,7 +197,7 @@ _Block preview not available_
 
 Add a new item to the menu. Use the 'make a list' block.
 
-### AddMenuItemWithIcon
+### Add Menu Item With Icon
 
 _Block preview not available_
 
@@ -211,7 +211,7 @@ _Block preview not available_
 
 Add a new item with a icon on the left side to the menu. This function does not use the make a list block. If you want more items with icon then use this block again.
 
-### AddTitleBarIcon
+### Add Title Bar Icon
 
 _Block preview not available_
 
@@ -225,7 +225,7 @@ _Block preview not available_
 
 Add a new action icon to the TitleBar. You will see a toast message on a long click with your choosen name. Add this block to the "MenuInitialize" event.
 
-### ArePermissionsGranted
+### Are Permissions Granted
 
 _Block preview not available_
 
@@ -233,7 +233,7 @@ _Block preview not available_
 
 Returns true if ALL needed app permissions were granted, else false.
 
-### AskForPermission
+### Ask For Permission
 
 _Block preview not available_
 
@@ -246,7 +246,7 @@ _Block preview not available_
 
 Ask the user to grant access to a dangerous permission.
 
-### CanWriteSystemSettings
+### Can Write System Settings
 
 _Block preview not available_
 
@@ -254,67 +254,67 @@ _Block preview not available_
 
 Returns true if the app can write system settings, else it returns false. It will return true automatic for devices with android version below 6 (API 23).
 
-### HideKeyboard
+### Hide Keyboard
 
 _Block preview not available_
 
 Hide the keyboard.
 
-### LockSideMenu
+### Lock Side Menu
 
 _Block preview not available_
 
 Use this block to lock the side menu. This means the user can not open the side menu until the side menu unlock block is used.
 
-### MoveTaskToBack
+### Move Task To Back
 
 _Block preview not available_
 
 Move task to back. That means it will minimize your current app.
 
-### OpenAppSettings
+### Open App Settings
 
 _Block preview not available_
 
 Opens the settings screen of the app. Useful if 'Are Permissions Granted' has returned false.
 
-### OpenSystemWriteSettings
+### Open System Write Settings
 
 _Block preview not available_
 
 Opens the app's system settings page. This works only for devices with android 6+.
 
-### RemoveSideMenu
+### Remove Side Menu
 
 _Block preview not available_
 
 Remove a first created side menu. This block will be usefull if you need to update a side menu dynamically. You can use this block too to test a side menu in the companion. Add then this block above of the 'Side Menu' block.
 
-### RemoveTitleBarIcons
+### Remove Title Bar Icons
 
 _Block preview not available_
 
 Remove all added action icons from the TitleBar.
 
-### ResetMenu
+### Reset Options Menu
 
 _Block preview not available_
 
 Reset the menu back to its default
 
-### ShowAboutApplication
+### Show About Application
 
 _Block preview not available_
 
 Show the dialog which shows when pressing the "About This Application" button in the menu.
 
-### ShowKeyboard
+### Show Keyboard
 
 _Block preview not available_
 
 Show the keyboard
 
-### SideMenu
+### Side Menu
 
 _Block preview not available_
 
@@ -327,19 +327,19 @@ _Block preview not available_
 
 Create a Side Menu. Set to "layout" your layout that will be then your side menu. Use as example a vertical arrangement. Your choosen layout will be then removed from the screen and only visible in the side menu."Information": This block works on companion only if you add a side menu on button click.Don’t add it in companion on "screen initialize event". Else the companion will crash.Do NOT use this block with the Side Menu Layout component
 
-### SideMenuClose
+### Side Menu Close
 
 _Block preview not available_
 
 If you had set your side menu then you can use this block to close it as example with a button click.
 
-### SideMenuOpen
+### Side Menu Open
 
 _Block preview not available_
 
 If you had set your side menu then you can use this block to open it as example with a button click.
 
-### TaskDescription
+### Task Description
 
 _Block preview not available_
 
@@ -353,13 +353,13 @@ _Block preview not available_
 
 Sets information describing the task with this activity for presentation inside the Recents System UI. You will see the settings if the device API is &gt;= 21 and you minimize the app.
 
-### UnlockSideMenu
+### Unlock Side Menu
 
 _Block preview not available_
 
 Use this block to unlock the side menu. This means the user can now open again the side menu.
 
-### VersionCode
+### Version Code
 
 _Block preview not available_
 
@@ -367,7 +367,7 @@ _Block preview not available_
 
 This block will returns the version code
 
-### VersionName
+### Version Name
 
 _Block preview not available_
 

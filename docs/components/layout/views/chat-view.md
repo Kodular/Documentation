@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Layout > Views|3|API 19 | Android 4.4 - 4.4.4 KitKat|
+|Layout > Views|3|API 19, Android 4.4 - 4.4.4 KitKat|
 
 ## Overview
 
@@ -120,7 +120,7 @@ Click listener event for the user image.
 
 ## Methods
 
-### AddComponentMessage
+### Add Component Message
 
 _Block preview not available_
 
@@ -139,7 +139,7 @@ _Block preview not available_
 
 Add a new simple component message into the chat view. If you do not want a user image or title or message or timestamp, then let the field empty. Make sure that the component is VISIBLE on the screen when you try to add it here. It will be then removed automatic from the screen and only visible again in the chat view.
 
-### AddDateTimestamp
+### Add Date Timestamp
 
 _Block preview not available_
 
@@ -155,7 +155,7 @@ _Block preview not available_
 
 Add a new simple date timestamp into the chat view. You NEED to write a date, else this block will do nothing. This means the field 'date' can NOT be empty. Timestamp messages are not clickable.
 
-### AddFileMessage
+### Add File Message
 
 _Block preview not available_
 
@@ -175,7 +175,7 @@ _Block preview not available_
 
 Add a new simple file message into the chat view. If you do not want a user image or title or message or timestamp, then let the field empty.
 
-### AddImageMessage
+### Add Image Message
 
 _Block preview not available_
 
@@ -194,7 +194,7 @@ _Block preview not available_
 
 Add a new simple image message into the chat view. If you do not want a user image or title or message or timestamp, then let the field empty.
 
-### AddMessage
+### Add Message
 
 _Block preview not available_
 
@@ -212,13 +212,13 @@ _Block preview not available_
 
 Add a new simple message into the chat view. If you do not want a user image or title or message or timestamp, then let the field empty.
 
-### ClearChatView
+### Clear ChatView
 
 _Block preview not available_
 
 Removes all messages and timestamps from the chat view.
 
-### CountDateTimestamp
+### Count Date Timestamp
 
 _Block preview not available_
 
@@ -226,7 +226,7 @@ _Block preview not available_
 
 Returns the number of all date timestamps. Normal messages are not included.
 
-### CountMessages
+### Count Messages
 
 _Block preview not available_
 
@@ -234,7 +234,7 @@ _Block preview not available_
 
 Returns the number of all messages. 'Date Timestamp' messages are not included.
 
-### GetLastUsedId
+### Get Last Used Id
 
 _Block preview not available_
 
@@ -242,7 +242,7 @@ _Block preview not available_
 
 Returns the last used id.
 
-### RemoveMessage
+### Remove Message
 
 _Block preview not available_
 
@@ -255,7 +255,7 @@ _Block preview not available_
 
 Remove a message or timestamp from the chat view.
 
-### ScrollTo
+### Scroll To
 
 _Block preview not available_
 
@@ -268,7 +268,7 @@ _Block preview not available_
 
 Scroll to a specific message in the chat view with the given id.
 
-### UpdateMessageBackgroundColor
+### Update Message Background Color
 
 _Block preview not available_
 
@@ -282,7 +282,7 @@ _Block preview not available_
 
 Update the background color of a chat view message.
 
-### UpdateMessageContent
+### Update Message Content
 
 _Block preview not available_
 
@@ -297,7 +297,7 @@ _Block preview not available_
 
 Update the message content of a chat view message.
 
-### UpdateTimestampContent
+### Update Timestamp Content
 
 _Block preview not available_
 
@@ -312,7 +312,7 @@ _Block preview not available_
 
 Update the timestamp content of a chat view message.
 
-### UpdateTitleContent
+### Update Title Content
 
 _Block preview not available_
 
@@ -327,7 +327,7 @@ _Block preview not available_
 
 Update the title content of a chat view message.
 
-### UpdateUserImage
+### Update User Image
 
 _Block preview not available_
 

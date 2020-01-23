@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Dynamic Components|2|API 19 | Android 4.4 - 4.4.4 KitKat|
+|Dynamic Components|2|API 19, Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 
@@ -12,7 +12,7 @@ A component to create dynamic image in Arrangements.
 
 ## Methods
 
-### CreateImage
+### Create Image
 
 _Block preview not available_
 
@@ -29,7 +29,7 @@ _Block preview not available_
 
 Create a new image component dynamically. Use for width/height '-1' for wrap content or '-2' for fill parent.
 
-### DeleteImage
+### Delete Image
 
 _Block preview not available_
 
@@ -42,7 +42,7 @@ _Block preview not available_
 
 Remove a image component with the given id.
 
-### GetHeight
+### Get Height
 
 _Block preview not available_
 
@@ -57,7 +57,7 @@ _Block preview not available_
 
 Get the Height of a image component.
 
-### GetImageById
+### Get Image By Id
 
 _Block preview not available_
 
@@ -72,7 +72,7 @@ _Block preview not available_
 
 Returns the image referenced by its id.
 
-### GetWidth
+### Get Width
 
 _Block preview not available_
 
@@ -87,7 +87,7 @@ _Block preview not available_
 
 Get the Width of a image component.
 
-### RotationAngle
+### Rotation Angle
 
 _Block preview not available_
 
@@ -101,7 +101,7 @@ _Block preview not available_
 
 Specifies the angle of a image component with the given id.
 
-### ScalePictureToFit
+### Scale Picture To Fit
 
 _Block preview not available_
 
@@ -115,7 +115,7 @@ _Block preview not available_
 
 Specifies whether a image component with the given id should be resized to match the size of the ImageView.
 
-### SetHeight
+### Set Height
 
 _Block preview not available_
 
@@ -129,7 +129,7 @@ _Block preview not available_
 
 Update the Height of a image component.
 
-### SetWidth
+### Set Width
 
 _Block preview not available_
 
@@ -143,7 +143,7 @@ _Block preview not available_
 
 Update the Width of a image component.
 
-### UpdateImage
+### Update Image
 
 _Block preview not available_
 

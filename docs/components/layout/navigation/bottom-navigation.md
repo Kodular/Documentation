@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Layout > Navigation|1|API 19 | Android 4.4 - 4.4.4 KitKat|
+|Layout > Navigation|1|API 19, Android 4.4 - 4.4.4 KitKat|
 
 ## Overview
 
@@ -26,7 +26,7 @@ Event triggers when an item was selected.
 
 ## Methods
 
-### AddItem
+### Add Item
 
 _Block preview not available_
 
@@ -41,13 +41,13 @@ _Block preview not available_
 
 Add an item to the bottom menu
 
-### RemoveAllItems
+### Remove All Items
 
 _Block preview not available_
 
 Remove all items from the bottom menu
 
-### RemoveItem
+### Remove Item
 
 _Block preview not available_
 
@@ -60,7 +60,7 @@ _Block preview not available_
 
 Remove an item from the bottom menu
 
-### SelectItem
+### Select Item
 
 _Block preview not available_
 
@@ -73,7 +73,7 @@ _Block preview not available_
 
 Select an item from the bottom menu
 
-### UpdateItem
+### Update Item
 
 _Block preview not available_
 

@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Utilities|5|API 19 | Android 4.4 - 4.4.4 KitKat|
+|Utilities|5|API 19, Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 
@@ -40,7 +40,7 @@ Event to get the serial number after it was requested.
 
 ## Methods
 
-### CheckForDangerousAPK
+### Has Dangerous Apk Installed
 
 _Block preview not available_
 
@@ -62,7 +62,7 @@ _Block preview not available_
 
 Copy text to clipboard. In case 'Show Success Toast' is true, the toast with your message will be shown after copying a text to the clipboard.
 
-### ExternalStorageAvailable
+### External Storage Available
 
 _Block preview not available_
 
@@ -70,7 +70,7 @@ _Block preview not available_
 
 Available size of external storage in Gigabytes.
 
-### ExternalStorageTotal
+### External Storage Total
 
 _Block preview not available_
 
@@ -78,7 +78,7 @@ _Block preview not available_
 
 Total external storage size in Gigabytes.
 
-### ExternalStorageUsed
+### External Storage Used
 
 _Block preview not available_
 
@@ -86,19 +86,19 @@ _Block preview not available_
 
 Size of used-external-storage in Gigabytes.
 
-### GetIMEI
+### Get IMEI
 
 _Block preview not available_
 
 Get the IMEI of the device. The result will be then at the 'Got IMEI' event.
 
-### GetSerial
+### Get Serial
 
 _Block preview not available_
 
 A hardware serial number, if available. Alphanumeric only, case-insensitive. For apps targeting SDK higher than N_MR1 this field is set to UNKNOWN.
 
-### InternalStorageAvailable
+### Internal Storage Available
 
 _Block preview not available_
 
@@ -106,7 +106,7 @@ _Block preview not available_
 
 Size of available internal storage in Gigabytes.
 
-### InternalStorageTotal
+### Internal Storage Total
 
 _Block preview not available_
 
@@ -114,7 +114,7 @@ _Block preview not available_
 
 Total size of internal storage in Gigabytes.
 
-### InternalStorageUsed
+### Internal Storage Used
 
 _Block preview not available_
 
@@ -122,7 +122,7 @@ _Block preview not available_
 
 Size of used-internal-storage in Gigabytes.
 
-### MemoryFree
+### Memory Free
 
 _Block preview not available_
 
@@ -130,7 +130,7 @@ _Block preview not available_
 
 Total free RAM size in Gigabytes.
 
-### MemoryTotal
+### Memory Total
 
 _Block preview not available_
 
@@ -138,7 +138,7 @@ _Block preview not available_
 
 Total RAM size in Gigabytes.
 
-### MemoryUsed
+### Memory Used
 
 _Block preview not available_
 

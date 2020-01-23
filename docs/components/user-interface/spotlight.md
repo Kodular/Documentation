@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|User Interface|2|API 19 | Android 4.4 - 4.4.4 KitKat|
+|User Interface|2|API 19, Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 
@@ -20,13 +20,13 @@ Event triggered when the spotlight is clicked.
 
 ## Methods
 
-### ShowSpotlight
+### Show Spotlight
 
 _Block preview not available_
 
 Use this block to show the spotlight.
 
-### ShowSpotlightOnFAB
+### Show Spotlight On FAB
 
 _Block preview not available_
 

@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Utilities|1|API 19 | Android 4.4 - 4.4.4 KitKat|
+|Utilities|1|API 19, Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 
@@ -12,7 +12,7 @@ A non-visible component that loads images asynchronously.
 
 ## Methods
 
-### LoadImageAsync
+### Load Image Async
 
 _Block preview not available_
 

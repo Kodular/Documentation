@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|User Interface|4|API 19 | Android 4.4 - 4.4.4 KitKat|
+|User Interface|4|API 19, Android 4.4 - 4.4.4 KitKat|
 
 ## Overview
 
@@ -25,7 +25,7 @@ Event invoked when a switch has been clicked. Returns true or false if the switc
 
 ## Methods
 
-### ThumbImage
+### Thumb Image
 
 _Block preview not available_
 
@@ -38,7 +38,7 @@ _Block preview not available_
 
 Set the drawable used for the switch 'thumb' - the piece that the user can physically touch and drag along the track. If 'color Filter Enabled' is set to true, the image will get a light tint filter with the same color that you used as thumb color.
 
-### ThumbImageFromMaterialFont
+### Thumb Image From Material Font
 
 _Block preview not available_
 

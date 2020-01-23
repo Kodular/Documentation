@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|LEGO® MINDSTORMS® > Nxt|1|API 19 | Android 4.4 - 4.4.4 KitKat|
+|LEGO® MINDSTORMS® > Nxt|1|API 19, Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 
@@ -12,7 +12,7 @@ A component that provides a low-level interface to a LEGO MINDSTORMS NXT robot, 
 
 ## Methods
 
-### DeleteFile
+### Delete File
 
 _Block preview not available_
 
@@ -25,7 +25,7 @@ _Block preview not available_
 
 Delete a file on the robot.
 
-### DownloadFile
+### Download File
 
 _Block preview not available_
 
@@ -39,7 +39,7 @@ _Block preview not available_
 
 Download a file to the robot.
 
-### GetBatteryLevel
+### Get Battery Level
 
 _Block preview not available_
 
@@ -47,7 +47,7 @@ _Block preview not available_
 
 Get the battery level for the robot. Returns the voltage in millivolts.
 
-### GetBrickName
+### Get Brick Name
 
 _Block preview not available_
 
@@ -55,7 +55,7 @@ _Block preview not available_
 
 Get the brick name of the robot.
 
-### GetCurrentProgramName
+### Get Current Program Name
 
 _Block preview not available_
 
@@ -63,7 +63,7 @@ _Block preview not available_
 
 Get the name of currently running program on the robot.
 
-### GetFirmwareVersion
+### Get Firmware Version
 
 _Block preview not available_
 
@@ -71,7 +71,7 @@ _Block preview not available_
 
 Get the firmware and protocol version numbers for the robot as a list where the first element is the firmware version number and the second element is the protocol version number.
 
-### GetInputValues
+### Get Input Values
 
 _Block preview not available_
 
@@ -86,7 +86,7 @@ _Block preview not available_
 
 Reads the values of an input sensor on the robot. Assumes sensor type has been configured via SetInputMode.
 
-### GetOutputState
+### Get Output State
 
 _Block preview not available_
 
@@ -101,7 +101,7 @@ _Block preview not available_
 
 Reads the output state of a motor on the robot.
 
-### KeepAlive
+### Keep Alive
 
 _Block preview not available_
 
@@ -109,7 +109,7 @@ _Block preview not available_
 
 Keep Alive. Returns the current sleep time limit in milliseconds.
 
-### ListFiles
+### List Files
 
 _Block preview not available_
 
@@ -124,7 +124,7 @@ _Block preview not available_
 
 Returns a list containing the names of matching files found on the robot.
 
-### LsGetStatus
+### Ls Get Status
 
 _Block preview not available_
 
@@ -139,7 +139,7 @@ _Block preview not available_
 
 Returns the count of available bytes to read.
 
-### LsRead
+### Ls Read
 
 _Block preview not available_
 
@@ -154,7 +154,7 @@ _Block preview not available_
 
 Reads unsigned low speed data from an input sensor on the robot. Assumes sensor type has been configured via SetInputMode.
 
-### LsWrite
+### Ls Write
 
 _Block preview not available_
 
@@ -169,7 +169,7 @@ _Block preview not available_
 
 Writes low speed data to an input sensor on the robot. Assumes sensor type has been configured via SetInputMode.
 
-### MessageRead
+### Message Read
 
 _Block preview not available_
 
@@ -184,7 +184,7 @@ _Block preview not available_
 
 Read a message from a mailbox (1-10) on the robot.
 
-### MessageWrite
+### Message Write
 
 _Block preview not available_
 
@@ -198,7 +198,7 @@ _Block preview not available_
 
 Write a message to a mailbox (1-10) on the robot.
 
-### PlaySoundFile
+### Play Sound File
 
 _Block preview not available_
 
@@ -211,7 +211,7 @@ _Block preview not available_
 
 Play a sound file on the robot.
 
-### PlayTone
+### Play Tone
 
 _Block preview not available_
 
@@ -225,7 +225,7 @@ _Block preview not available_
 
 Make the robot play a tone.
 
-### ResetInputScaledValue
+### Reset Input Scaled Value
 
 _Block preview not available_
 
@@ -238,7 +238,7 @@ _Block preview not available_
 
 Reset the scaled value of an input sensor on the robot.
 
-### ResetMotorPosition
+### Reset Motor Position
 
 _Block preview not available_
 
@@ -252,7 +252,7 @@ _Block preview not available_
 
 Reset motor position.
 
-### SetBrickName
+### Set Brick Name
 
 _Block preview not available_
 
@@ -265,7 +265,7 @@ _Block preview not available_
 
 Set the brick name of the robot.
 
-### SetInputMode
+### Set Input Mode
 
 _Block preview not available_
 
@@ -280,7 +280,7 @@ _Block preview not available_
 
 Configure an input sensor on the robot.
 
-### SetOutputState
+### Set Output State
 
 _Block preview not available_
 
@@ -299,7 +299,7 @@ _Block preview not available_
 
 Sets the output state of a motor on the robot.
 
-### StartProgram
+### Start Program
 
 _Block preview not available_
 
@@ -312,13 +312,13 @@ _Block preview not available_
 
 Start execution of a previously downloaded program on the robot.
 
-### StopProgram
+### Stop Program
 
 _Block preview not available_
 
 Stop execution of the currently running program on the robot.
 
-### StopSoundPlayback
+### Stop Sound Playback
 
 _Block preview not available_
 

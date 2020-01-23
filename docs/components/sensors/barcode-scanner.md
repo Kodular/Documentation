@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Sensors|2|API 19 | Android 4.4 - 4.4.4 KitKat|
+|Sensors|2|API 19, Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 
@@ -27,7 +27,7 @@ Indicates that the scanner has read a (text) result and provides the result
 
 ## Methods
 
-### DoScan
+### Do Scan
 
 _Block preview not available_
 

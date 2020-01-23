@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Media|4|API 19 | Android 4.4 - 4.4.4 KitKat|
+|Media|4|API 19, Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 
@@ -27,7 +27,7 @@ Returns the taken picture.
 
 ## Methods
 
-### HasFlash
+### Has Flash
 
 _Block preview not available_
 
@@ -35,13 +35,13 @@ _Block preview not available_
 
 Returns true if your device has a flash.
 
-### TakePicture
+### Take Picture
 
 _Block preview not available_
 
 Take a picture with the camera of your device.
 
-### ToggleLight
+### Toggle Light
 
 _Block preview not available_
 

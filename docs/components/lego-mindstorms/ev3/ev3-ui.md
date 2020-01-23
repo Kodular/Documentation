@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|LEGO® MINDSTORMS® > Ev3|1|API 19 | Android 4.4 - 4.4.4 KitKat|
+|LEGO® MINDSTORMS® > Ev3|1|API 19, Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 
@@ -12,7 +12,7 @@ A component that provides a high-level interface to a LEGO MINDSTORMS EV3 robot,
 
 ## Methods
 
-### DrawCircle
+### Draw Circle
 
 _Block preview not available_
 
@@ -29,7 +29,7 @@ _Block preview not available_
 
 Draw a circle on the screen.
 
-### DrawIcon
+### Draw Icon
 
 _Block preview not available_
 
@@ -46,7 +46,7 @@ _Block preview not available_
 
 Draw a built-in icon on screen.
 
-### DrawLine
+### Draw Line
 
 _Block preview not available_
 
@@ -63,7 +63,7 @@ _Block preview not available_
 
 Draw a line on the screen.
 
-### DrawPoint
+### Draw Point
 
 _Block preview not available_
 
@@ -78,7 +78,7 @@ _Block preview not available_
 
 Draw a point on the screen.
 
-### DrawRect
+### Draw Rect
 
 _Block preview not available_
 
@@ -96,7 +96,7 @@ _Block preview not available_
 
 Draw a rectangle on the screen.
 
-### FillScreen
+### Fill Screen
 
 _Block preview not available_
 

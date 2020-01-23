@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|LEGO® MINDSTORMS® > Nxt|1|API 19 | Android 4.4 - 4.4.4 KitKat|
+|LEGO® MINDSTORMS® > Nxt|1|API 19, Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 
@@ -12,7 +12,7 @@ A component that provides a high-level interface to a LEGO MINDSTORMS NXT robot,
 
 ## Methods
 
-### MoveBackward
+### Move Backward
 
 _Block preview not available_
 
@@ -26,7 +26,7 @@ _Block preview not available_
 
 Move the robot backward the given distance, with the specified percentage of maximum power, by powering both drive motors backward.
 
-### MoveBackwardIndefinitely
+### Move Backward Indefinitely
 
 _Block preview not available_
 
@@ -39,7 +39,7 @@ _Block preview not available_
 
 Move the robot backward indefinitely, with the specified percentage of maximum power, by powering both drive motors backward.
 
-### MoveForward
+### Move Forward
 
 _Block preview not available_
 
@@ -53,7 +53,7 @@ _Block preview not available_
 
 Move the robot forward the given distance, with the specified percentage of maximum power, by powering both drive motors forward.
 
-### MoveForwardIndefinitely
+### Move Forward Indefinitely
 
 _Block preview not available_
 
@@ -72,7 +72,7 @@ _Block preview not available_
 
 Stop the drive motors of the robot.
 
-### TurnClockwiseIndefinitely
+### Turn Clockwise Indefinitely
 
 _Block preview not available_
 
@@ -85,7 +85,7 @@ _Block preview not available_
 
 Turn the robot clockwise indefinitely, with the specified percentage of maximum power, by powering the left drive motor forward and the right drive motor backward.
 
-### TurnCounterClockwiseIndefinitely
+### Turn Counter Clockwise Indefinitely
 
 _Block preview not available_
 

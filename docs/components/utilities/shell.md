@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Utilities|2|API 19 | Android 4.4 - 4.4.4 KitKat|
+|Utilities|2|API 19, Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 
@@ -27,7 +27,7 @@ Read output after executing shell command
 
 ## Methods
 
-### CheckForSuperUserAPK
+### Has Super User Apk Installed
 
 _Block preview not available_
 
@@ -48,7 +48,7 @@ _Block preview not available_
 
 Executes shell commands. To get output, use "GotOutput" event block.
 
-### IsRooted
+### Is Rooted
 
 _Block preview not available_
 

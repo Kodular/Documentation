@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Storage|4|API 19 | Android 4.4 - 4.4.4 KitKat|
+|Storage|4|API 19, Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 
@@ -50,7 +50,7 @@ Indicates that the Fusion Tables query has finished processing, with a result. T
 
 ## Methods
 
-### DoQuery
+### Do Query
 
 :warning: ==**Deprecated**==
 
@@ -58,13 +58,13 @@ _Block preview not available_
 
 DEPRECATED. This block is deprecated as of the end of 2012. Use SendQuery.
 
-### ForgetLogin
+### Forget Login
 
 _Block preview not available_
 
 Forget end-users login credentials. Has no effect on service authentication
 
-### GetRows
+### Get Rows
 
 _Block preview not available_
 
@@ -78,7 +78,7 @@ _Block preview not available_
 
 Gets all the rows from a specified fusion table. The tableId field is the id of therequired fusion table. The columns field is a comma-separeted list of the columns to retrieve.
 
-### GetRowsWithConditions
+### Get Rows With Conditions
 
 _Block preview not available_
 
@@ -93,7 +93,7 @@ _Block preview not available_
 
 Gets all the rows from a fusion table that meet certain conditions. The tableId field isthe id of the required fusion table. The columns field is a comma-separated list of the columns toretrieve. The conditions field specifies what rows to retrieve from the table, for example the rows in whicha particular column value is not null.
 
-### InsertRow
+### Insert Row
 
 _Block preview not available_
 
@@ -108,7 +108,7 @@ _Block preview not available_
 
 Inserts a row into the specified fusion table. The tableId field is the id of thefusion table. The columns is a comma-separated list of the columns to insert values into. The values field specifies what values to insert into each column.
 
-### SendQuery
+### Send Query
 
 _Block preview not available_
 

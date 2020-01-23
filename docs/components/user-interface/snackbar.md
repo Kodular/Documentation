@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|User Interface|4|API 19 | Android 4.4 - 4.4.4 KitKat|
+|User Interface|4|API 19, Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 
@@ -45,7 +45,7 @@ _Block preview not available_
 
 Dismiss the snackbar.
 
-### IsShown
+### Is Shown
 
 _Block preview not available_
 
@@ -66,7 +66,7 @@ _Block preview not available_
 
 Show Snackbar (message supports HTML formatting)
 
-### ShowWithButton
+### Show With Button
 
 _Block preview not available_
 

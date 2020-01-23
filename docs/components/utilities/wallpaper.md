@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Utilities|2|API 19 | Android 4.4 - 4.4.4 KitKat|
+|Utilities|2|API 19, Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 
@@ -52,19 +52,19 @@ _Block preview not available_
 
 Remove any currently set system wallpaper, reverting to the system's built-in wallpaper.
 
-### ClearWallpaper
+### Clear Wallpaper
 
 _Block preview not available_
 
 Reset all wallpaper to the factory default. This block works only on devices with Android 9+.
 
-### GetWallpaper
+### Get Wallpaper
 
 _Block preview not available_
 
 Retrieve the current system wallpaper; if no wallpaper is set, the system built-in static wallpaper is returned.
 
-### SetLockScreenWallpaper
+### Set Lock Screen Wallpaper
 
 _Block preview not available_
 
@@ -77,7 +77,7 @@ _Block preview not available_
 
 Change the current lock screen wallpaper. This block works only on devices with Android 7+.
 
-### SetWallpaper
+### Set Wallpaper
 
 _Block preview not available_
 

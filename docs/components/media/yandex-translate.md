@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Media|2|API 19 | Android 4.4 - 4.4.4 KitKat|
+|Media|2|API 19, Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 
@@ -32,7 +32,7 @@ Event triggered when the Yandex.Translate service returns the translated text. T
 
 ## Methods
 
-### RequestTranslation
+### Request Translation
 
 _Block preview not available_
 

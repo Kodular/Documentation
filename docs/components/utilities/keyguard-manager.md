@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Utilities|1|API 19 | Android 4.4 - 4.4.4 KitKat|
+|Utilities|1|API 19, Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 
@@ -41,19 +41,19 @@ Event to detect a dissmiss request keyguard was called.
 
 ## Methods
 
-### RequestDismissKeyguard
+### Request Dismiss Keyguard
 
 _Block preview not available_
 
 If the device is currently locked, requests the Keyguard to be dismissed. Works only for devices with Android 8+
 
-### ShowAuthenticationScreen
+### Show Authentication Screen
 
 _Block preview not available_
 
 Create the Confirm Credentials screen. You can customize the title and description. Or we will provide a generic one for you if you leave it empty. Works only for devices with Android 5+
 
-### ShowWhenLocked
+### Show When Locked
 
 _Block preview not available_
 

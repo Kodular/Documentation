@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Social|10|API 19 | Android 4.4 - 4.4.4 KitKat|
+|Social|10|API 19, Android 4.4 - 4.4.4 KitKat|
 
 ## Overview
 
@@ -64,7 +64,7 @@ Indicates that a button has been released.
 
 ## Methods
 
-### AnimationStyle
+### Set Animation Style
 
 _Block preview not available_
 
@@ -80,7 +80,7 @@ _Block preview not available_
 
 Allows you to set animation style. Valid (case-insensitive) values are: ChasingDots, Circle, CubeGrid, DoubleBounce, FadingCircle, FoldingCube, Pulse, RotatingCircle, RotatingPlane, ThreeBounce, WanderingCubes, Wave. If invalid style is used, animation will be removed.Position can be: top, left, right, bottom. Size can be 100.
 
-### ButtonClick
+### Button Click
 
 _Block preview not available_
 
@@ -92,7 +92,7 @@ _Block preview not available_
 
 Opens the picker, as though the user clicked on it.
 
-### SetShadow
+### Set Shadow
 
 _Block preview not available_
 
@@ -108,7 +108,7 @@ _Block preview not available_
 
 Place a blurred shadow of text underneath the text, drawn with the specified x, y, radius, color (e.g. -11, 12, 13, black.
 
-### ViewContact
+### View Contact
 
 _Block preview not available_
 
@@ -121,7 +121,7 @@ _Block preview not available_
 
 view a contact via its URI
 
-### WithIconFromFontAwesome
+### With Icon From Font Awesome
 
 _Block preview not available_
 
@@ -138,7 +138,7 @@ _Block preview not available_
 
 Show an image on the given position near to the button. You can use following words for the position: 'Left', 'Right', 'Top' or 'Bottom'. Use the padding to add space between the icon and text. Use a material icon as the button icon without uploading a image resource into your project. You can find the icon name (or code) here at https://fontawesome.com/cheatsheet Use as example for a heart icon just 'f004'.
 
-### WithIconFromMaterialFont
+### With Icon From Material Font
 
 _Block preview not available_
 
@@ -155,7 +155,7 @@ _Block preview not available_
 
 Show an image on the given position near to the button. You can use following words for the position: 'Left', 'Right', 'Top' or 'Bottom'. Use the padding to add space between the icon and text. Use a material icon as the button icon without uploading a image resource into your project. You can find the icon name (or code) here at https://material.io/icons
 
-### WithIconFromPicture
+### With Icon From Picture
 
 _Block preview not available_
 

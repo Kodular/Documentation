@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Connectivity|2|API 19 | Android 4.4 - 4.4.4 KitKat|
+|Connectivity|2|API 19, Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 
@@ -26,7 +26,7 @@ Called when the device disconnects from a network.
 
 ## Methods
 
-### is Connected
+### Is Connected
 
 _Block preview not available_
 
@@ -34,7 +34,7 @@ _Block preview not available_
 
 Returns "True" if the device is connected to a network, "False" otherwise.
 
-### IsFastConnection
+### Is Fast Connection
 
 _Block preview not available_
 
@@ -42,7 +42,7 @@ _Block preview not available_
 
 Returns true if using a fast connection
 
-### IsMobileConnection
+### Is Mobile Connection
 
 _Block preview not available_
 
@@ -50,7 +50,7 @@ _Block preview not available_
 
 Returns true if connection is through Mobile
 
-### IsRoaming
+### Is Roaming
 
 _Block preview not available_
 
@@ -58,7 +58,7 @@ _Block preview not available_
 
 Returns true if using roaming
 
-### IsWiFiConnection
+### Is Wifi Connection
 
 _Block preview not available_
 

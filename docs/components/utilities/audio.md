@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Utilities|3|API 19 | Android 4.4 - 4.4.4 KitKat|
+|Utilities|3|API 19, Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 
@@ -27,7 +27,7 @@ Event triggered when a error occurred.
 
 ## Methods
 
-### IsSoundEffectsEnabled
+### Is Sound Effects Enabled
 
 _Block preview not available_
 
@@ -42,25 +42,25 @@ _Block preview not available_
 
 Returns true whether a component should have sound effects enabled for events such as clicking and touching.
 
-### RingerModeNormal
+### Ringer Mode Normal
 
 _Block preview not available_
 
 Sets the ringer mode to "normal".
 
-### RingerModeSilent
+### Ringer Mode Silent
 
 _Block preview not available_
 
 Sets the ringer mode to "silent".
 
-### RingerModeVibrate
+### Ringer Mode Vibrate
 
 _Block preview not available_
 
 Sets the ringer mode to "vibrate".
 
-### SoundEffectsEnabled
+### Sound Effects Enabled
 
 _Block preview not available_
 

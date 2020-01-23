@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Drawing and Animation|13|API 19 | Android 4.4 - 4.4.4 KitKat|
+|Drawing and Animation|13|API 19, Android 4.4 - 4.4.4 KitKat|
 
 ## Overview
 
@@ -127,7 +127,7 @@ _Block preview not available_
 
 Clears anything drawn on this Canvas but not any background color or image.
 
-### DrawArc
+### Draw Arc
 
 _Block preview not available_
 
@@ -147,7 +147,7 @@ _Block preview not available_
 
 Draw an arc on Canvas, by drawing an arc from a specified oval (specified by left, top, right &amp; bottom). Start angle is 0 when heading to the right, and increase when rotate clockwise. When useCenter is true, a sector will be drawed instead of an arc. When fill is true, a filled arc (or sector) will be drawed instead of just an outline.
 
-### DrawCircle
+### Draw Circle
 
 _Block preview not available_
 
@@ -163,7 +163,7 @@ _Block preview not available_
 
 Draws a circle (filled in) with the given radius centered at the given coordinates on the canvas
 
-### DrawLine
+### Draw Line
 
 _Block preview not available_
 
@@ -179,7 +179,7 @@ _Block preview not available_
 
 Draws a line between the given coordinates on the canvas.
 
-### DrawPoint
+### Draw Point
 
 _Block preview not available_
 
@@ -193,7 +193,7 @@ _Block preview not available_
 
 Draws a point at the given coordinates on the canvas.
 
-### DrawPolygon
+### Draw Polygon
 
 _Block preview not available_
 
@@ -212,7 +212,7 @@ _Block preview not available_
 
 Creates a polygon with with specified number of sides from a radius.
 
-### DrawShape
+### Draw Shape
 
 _Block preview not available_
 
@@ -226,7 +226,7 @@ _Block preview not available_
 
 Draws a shape on the canvas. pointList should be a list contains sub-lists with two number which represents a coordinate. The first point and last point does not need to be the same. e.g. ((x1 y1) (x2 y2) (x3 y3)) When fill is true, the shape will be filled.
 
-### DrawText
+### Draw Text
 
 _Block preview not available_
 
@@ -241,7 +241,7 @@ _Block preview not available_
 
 Draws the specified text relative to the specified coordinates using the values of the FontSize and TextAlignment properties.
 
-### DrawTextAtAngle
+### Draw Text At Angle
 
 _Block preview not available_
 
@@ -257,7 +257,7 @@ _Block preview not available_
 
 Draws the specified text starting at the specified coordinates at the specified angle using the values of the FontSize and TextAlignment properties.
 
-### GetBackgroundPixelColor
+### Get Background Pixel Color
 
 _Block preview not available_
 
@@ -273,7 +273,7 @@ _Block preview not available_
 
 Gets the color of the specified point. This includes the background and any drawn points, lines, or circles but not sprites.
 
-### GetPixelColor
+### Get Pixel Color
 
 _Block preview not available_
 
@@ -297,7 +297,7 @@ _Block preview not available_
 
 Saves a picture of this Canvas to the device's external storage. If an error occurs, the Screen's ErrorOccurred event will be called.
 
-### SaveAs
+### Save As
 
 _Block preview not available_
 
@@ -312,7 +312,7 @@ _Block preview not available_
 
 Saves a picture of this Canvas to the device's external storage in the file named fileName. fileName must end with one of .jpg, .jpeg, or .png, which determines the file type.
 
-### SetBackgroundPixelColor
+### Set Background Pixel Color
 
 _Block preview not available_
 

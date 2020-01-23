@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|LEGO® MINDSTORMS® > Ev3|1|API 19 | Android 4.4 - 4.4.4 KitKat|
+|LEGO® MINDSTORMS® > Ev3|1|API 19, Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 
@@ -32,7 +32,7 @@ Called when the detected distance has gone within the range.
 
 ## Methods
 
-### GetDistance
+### Get Distance
 
 _Block preview not available_
 
@@ -40,13 +40,13 @@ _Block preview not available_
 
 Returns the current distance in centimeters as a value between 0 and 254, or -1 if the distance can not be read.
 
-### SetCmUnit
+### Set CM Unit
 
 _Block preview not available_
 
 Measure the distance in centimeters.
 
-### SetInchUnit
+### Set Inch Unit
 
 _Block preview not available_
 

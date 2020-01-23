@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Dynamic Components|3|API 19 | Android 4.4 - 4.4.4 KitKat|
+|Dynamic Components|3|API 19, Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 
@@ -12,7 +12,7 @@ A component to create dynamic labels in Arrangements
 
 ## Methods
 
-### CreateLabel
+### Create Label
 
 _Block preview not available_
 
@@ -26,7 +26,7 @@ _Block preview not available_
 
 Create a Dynamic Label
 
-### DeleteLabel
+### Delete Label
 
 _Block preview not available_
 
@@ -39,7 +39,7 @@ _Block preview not available_
 
 Remove a label component with the given id.
 
-### GetFontSize
+### Get Font Size
 
 _Block preview not available_
 
@@ -54,7 +54,7 @@ _Block preview not available_
 
 Get the Font Size of a Label
 
-### GetHeight
+### Get Height
 
 _Block preview not available_
 
@@ -69,7 +69,7 @@ _Block preview not available_
 
 Get the Height of a Label
 
-### GetLabelById
+### Get Label By Id
 
 _Block preview not available_
 
@@ -84,7 +84,7 @@ _Block preview not available_
 
 Returns the label referenced by its id.
 
-### GetText
+### Get Text
 
 _Block preview not available_
 
@@ -99,7 +99,7 @@ _Block preview not available_
 
 Get the Text of a Label
 
-### GetWidth
+### Get Width
 
 _Block preview not available_
 
@@ -114,7 +114,7 @@ _Block preview not available_
 
 Get the Width of a Label
 
-### SetAlignment
+### Set Alignment
 
 _Block preview not available_
 
@@ -128,7 +128,7 @@ _Block preview not available_
 
 Update the Text Alignment of a Label. 0 = left, 1 = center and 2 = right.
 
-### SetBackgroundColor
+### Set Background Color
 
 _Block preview not available_
 
@@ -142,7 +142,7 @@ _Block preview not available_
 
 Update the Background Color of a Label
 
-### SetFont
+### Set Font
 
 _Block preview not available_
 
@@ -157,7 +157,7 @@ _Block preview not available_
 
 Update the Font of a Label
 
-### SetFontSize
+### Set Font Size
 
 _Block preview not available_
 
@@ -171,7 +171,7 @@ _Block preview not available_
 
 Update the Font Size of a Label
 
-### SetHeight
+### Set Height
 
 _Block preview not available_
 
@@ -185,7 +185,7 @@ _Block preview not available_
 
 Update the Height of a Label
 
-### SetText
+### Set Text
 
 _Block preview not available_
 
@@ -200,7 +200,7 @@ _Block preview not available_
 
 Update the Text of a Label
 
-### SetTextColor
+### Set Text Color
 
 _Block preview not available_
 
@@ -214,7 +214,7 @@ _Block preview not available_
 
 Update the Text Color of a Label
 
-### SetWidth
+### Set Width
 
 _Block preview not available_
 

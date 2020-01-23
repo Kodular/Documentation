@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Layout > Lists|4|API 19 | Android 4.4 - 4.4.4 KitKat|
+|Layout > Lists|4|API 19, Android 4.4 - 4.4.4 KitKat|
 
 ## Overview
 
@@ -44,7 +44,7 @@ Triggers when the user long clicks on a item in the list
 
 ## Methods
 
-### AddItem
+### Add Item
 
 _Block preview not available_
 
@@ -59,7 +59,7 @@ _Block preview not available_
 
 Add a item to the list
 
-### AddItemFromList
+### Add Item From List
 
 _Block preview not available_
 
@@ -72,13 +72,13 @@ _Block preview not available_
 
 Add a item to the list
 
-### ClearList
+### Clear List
 
 _Block preview not available_
 
 Remove all the items from the list
 
-### RemoveItem
+### Remove Item
 
 _Block preview not available_
 
@@ -91,7 +91,7 @@ _Block preview not available_
 
 Remove a item from the list
 
-### UpdateItem
+### Update Item
 
 _Block preview not available_
 

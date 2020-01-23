@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Google|2|API 19 | Android 4.4 - 4.4.4 KitKat|
+|Google|2|API 19, Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 
@@ -114,7 +114,7 @@ Triggers when the file was successfully uploaded
 
 ## Methods
 
-### DeleteFile
+### Delete File
 
 _Block preview not available_
 
@@ -127,7 +127,7 @@ _Block preview not available_
 
 Try to delete a file from Firebase Storage
 
-### DownloadFile
+### Download File
 
 _Block preview not available_
 
@@ -141,7 +141,7 @@ _Block preview not available_
 
 Try to download a file from Firebase Storage
 
-### GetBucket
+### Get Bucket
 
 _Block preview not available_
 
@@ -149,31 +149,31 @@ _Block preview not available_
 
 Get the name of the Storage Bucket
 
-### PauseDownloads
+### Pause Downloads
 
 _Block preview not available_
 
 Pause all the active downloads
 
-### PauseUploads
+### Pause Uploads
 
 _Block preview not available_
 
 Pause all the active uploads
 
-### ResumeDownloads
+### Resume Downloads
 
 _Block preview not available_
 
 Resume all the active downloads
 
-### ResumeUploads
+### Resume Uploads
 
 _Block preview not available_
 
 Resume all the active uploads
 
-### UploadFile
+### Upload File
 
 _Block preview not available_
 

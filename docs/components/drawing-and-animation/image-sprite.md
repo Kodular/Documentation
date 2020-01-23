@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Drawing and Animation|6|API 19 | Android 4.4 - 4.4.4 KitKat|
+|Drawing and Animation|6|API 19, Android 4.4 - 4.4.4 KitKat|
 
 ## Overview
 
@@ -148,7 +148,7 @@ _Block preview not available_
 
 Makes the ImageSprite bounce, as if off a wall. For normal bouncing, the edge argument should be the one returned by EdgeReached.
 
-### CollidingWith
+### Colliding With
 
 _Block preview not available_
 
@@ -163,13 +163,13 @@ _Block preview not available_
 
 Indicates whether a collision has been registered between this ImageSprite and the passed sprite (Ball or ImageSprite).
 
-### MoveIntoBounds
+### Move Into Bounds
 
 _Block preview not available_
 
 Moves the ImageSprite back in bounds if part of it extends out of bounds, having no effect otherwise. If the ImageSprite is too wide to fit on the canvas, this aligns the left side of the ImageSprite with the left side of the canvas. If the ImageSprite is too tall to fit on the canvas, this aligns the top side of the ImageSprite with the top side of the canvas.
 
-### MoveTo
+### Move To
 
 _Block preview not available_
 
@@ -183,7 +183,7 @@ _Block preview not available_
 
 Moves the ImageSprite so that its left top corner is at the specfied x and y coordinates.
 
-### PointInDirection
+### Point In Direction
 
 _Block preview not available_
 
@@ -197,7 +197,7 @@ _Block preview not available_
 
 Sets the heading of the ImageSprite toward the point with the coordinates (x, y).
 
-### PointTowards
+### Point Towards
 
 _Block preview not available_
 

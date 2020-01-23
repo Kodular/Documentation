@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Monetization > Advertising|3|API 19 | Android 4.4 - 4.4.4 KitKat|
+|Monetization > Advertising|3|API 19, Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 
@@ -97,13 +97,13 @@ _Block preview not available_
 
 Load a new AdMob Rewarded Video ad.
 
-### RevokeConsent
+### Revoke Consent
 
 _Block preview not available_
 
 Deletes the user's consent. Useful if you want to test the consent dialog in development.
 
-### ShowAd
+### Show Ad
 
 _Block preview not available_
 

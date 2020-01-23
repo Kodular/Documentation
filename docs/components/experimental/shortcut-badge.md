@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Experimental|1|API 19 | Android 4.4 - 4.4.4 KitKat|
+|Experimental|1|API 19, Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 
@@ -12,7 +12,7 @@ A non-visible component that adds a dot/badge to the app''s launcher icon when a
 
 ## Methods
 
-### ApplyCount
+### Apply Count
 
 _Block preview not available_
 
@@ -33,7 +33,7 @@ _Block preview not available_
 
 Use this block to return the notification count.
 
-### RemoveCount
+### Remove Count
 
 _Block preview not available_
 

@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Google|2|API 17 | Android 4.2.X Jelly Bean|
+|Google|2|API 17, Android 4.2.X Jelly Bean|
 
 ## Overview
 
@@ -84,19 +84,19 @@ Use this event to detect that the state changes. Return values: 'UNKNOWN', 'UNST
 
 ## Methods
 
-### EnterFullscreen
+### Enter Fullscreen
 
 _Block preview not available_
 
 Enter the video in fullscreen mode.
 
-### ExitFullscreen
+### Exit Fullscreen
 
 _Block preview not available_
 
 Exit the video from fullscreen mode.
 
-### GetThumbnailFromVideoId
+### Get Thumbnail From Video Id
 
 _Block preview not available_
 
@@ -111,7 +111,7 @@ _Block preview not available_
 
 This block will return the thumbnail image path from a video id. Use only as example '_bZj-LOXdH8' from a youtube video.
 
-### InstantLoad
+### Instant Load
 
 _Block preview not available_
 
@@ -149,7 +149,7 @@ _Block preview not available_
 
 Plays the youtube video.
 
-### SeekTo
+### Seek To
 
 _Block preview not available_
 
@@ -162,7 +162,7 @@ _Block preview not available_
 
 Set a position where the youtube video should start playing in seconds.
 
-### ToggleFullscreen
+### Toggle Fullscreen
 
 _Block preview not available_
 

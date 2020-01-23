@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Drawing and Animation|1|API 19 | Android 4.4 - 4.4.4 KitKat|
+|Drawing and Animation|1|API 19, Android 4.4 - 4.4.4 KitKat|
 
 :mag: {>>Non-visible component<<}
 
@@ -12,7 +12,7 @@ Non-visible component that allows users to edit images.
 
 ## Methods
 
-### BlurEffect
+### Blur Effect
 
 _Block preview not available_
 
@@ -29,7 +29,7 @@ _Block preview not available_
 
 This methods creates a blur effect.
 
-### ColorBoostEffect
+### Color Boost Effect
 
 _Block preview not available_
 
@@ -46,7 +46,7 @@ _Block preview not available_
 
 Color boost technique is basically based on color filtering, which is to increase the intensity of a single color channel. For example: type = green/ blue or red; percent = 40%.
 
-### ColorFilter
+### Color Filter
 
 _Block preview not available_
 
@@ -64,7 +64,7 @@ _Block preview not available_
 
 Set a color filter to your image. For example: red = 30; green = 40; blue = 20.
 
-### FlipPicture
+### Flip Picture
 
 _Block preview not available_
 
@@ -80,7 +80,7 @@ _Block preview not available_
 
 Flip your image vertical or horizontal. For example: type = 1 (vertical); type = 2 (horizontal).
 
-### GammaEffect
+### Gamma Effect
 
 _Block preview not available_
 
@@ -98,7 +98,7 @@ _Block preview not available_
 
 Set a gamma effect to your image. For example: red = 5; green = 10; blue = 20.
 
-### GreyscaleEffect
+### Greyscale Effect
 
 _Block preview not available_
 
@@ -113,7 +113,7 @@ _Block preview not available_
 
 Grayscale is a simple image effect that changes colors to grayscale by default.
 
-### HighlightEffect
+### Highlight Effect
 
 _Block preview not available_
 
@@ -128,7 +128,7 @@ _Block preview not available_
 
 Set a highlight effect to your image.
 
-### HueFilter
+### Hue Filter
 
 _Block preview not available_
 
@@ -144,7 +144,7 @@ _Block preview not available_
 
 Change the hue of an image. For example: level = 1 or 2 or 3 or 4 etc.
 
-### ImageRotation
+### Image Rotation
 
 _Block preview not available_
 
@@ -160,7 +160,7 @@ _Block preview not available_
 
 Rotate the image to the degree you need it. For example: degree = 100.
 
-### InvertEffect
+### Invert Effect
 
 _Block preview not available_
 
@@ -175,7 +175,7 @@ _Block preview not available_
 
 This effect inverts your image.
 
-### MergeTwoImages
+### Merge Two Images
 
 _Block preview not available_
 
@@ -207,7 +207,7 @@ _Block preview not available_
 
 This methods creates a pixelate image effect. Use as example as pixelation Amount '1' for a hugh pixel effect and '99' for a almost not visible pixel effect.
 
-### RoundCorner
+### Round Corner
 
 _Block preview not available_
 
@@ -223,7 +223,7 @@ _Block preview not available_
 
 Set a round corner to your image. For example: round = 45.
 
-### ScaleCenterCrop
+### Scale Center Crop
 
 _Block preview not available_
 
@@ -240,7 +240,7 @@ _Block preview not available_
 
 This methods creates a new scale center crop image.
 
-### SepiaToningEffect
+### Sepia Toning Effect
 
 _Block preview not available_
 
@@ -259,7 +259,7 @@ _Block preview not available_
 
 Set a sepia toning effect to your image. For example: depth = 20; red = 10; green = 20; blue = 25.
 
-### SetBrightness
+### Set Brightness
 
 _Block preview not available_
 
@@ -275,7 +275,7 @@ _Block preview not available_
 
 Change the brightness of your image. For example: value = 50 (maximum = 255=100% brightness).
 
-### SetColorDepth
+### Set Color Depth
 
 _Block preview not available_
 
@@ -291,7 +291,7 @@ _Block preview not available_
 
 Change the color depth of an image as you wish. For example: bitOffset = 32 (bit) or bitOffset = 16 (bit).
 
-### SetContrast
+### Set Contrast
 
 _Block preview not available_
 
@@ -307,7 +307,7 @@ _Block preview not available_
 
 This changes the contrast of your image. For example: value = 1.0 means normal picture contrast. Below 1.0 like as example 0.7 means dark contrast, above 1.0 as example 1.5 means light contrast.
 
-### ShadingFilter
+### Shading Filter
 
 _Block preview not available_
 
@@ -323,7 +323,7 @@ _Block preview not available_
 
 Make a new image with a shading filter. For example: shadingColor = green(rgb value).
 
-### TintColorEffect
+### Tint Color Effect
 
 _Block preview not available_
 
@@ -339,7 +339,7 @@ _Block preview not available_
 
 That's a pretty new other cool effect. It changes the tint color of your image. For example: degree = 100.
 
-### WatermarkEffect
+### Watermark Effect
 
 _Block preview not available_
 

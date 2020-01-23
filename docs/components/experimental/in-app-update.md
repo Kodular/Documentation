@@ -2,7 +2,7 @@
 
 | Category | Version | Requires |
 |:--------:|:-------:|:--------:|
-|Experimental|1|API 21 | Android 5.0 Lollipop|
+|Experimental|1|API 21, Android 5.0 Lollipop|
 
 :mag: {>>Non-visible component<<}
 
@@ -57,19 +57,19 @@ Event will be invoked when the update is still in installing progress.
 
 ## Methods
 
-### InstallFlexibleUpdateNow
+### Install Flexible Update Now
 
 _Block preview not available_
 
 Use this block to install a flexible update after it was downloaded.
 
-### StartFlexibleUpdate
+### Start Flexible Update
 
 _Block preview not available_
 
 Start the process for flexible in-app updates. The update will be done in the background. Your users can still use your app in this time. After the update download is done you must restart your app.
 
-### StartImmediateUpdate
+### Start Immediate Update
 
 _Block preview not available_
 
