@@ -33,6 +33,16 @@ Once you have an API key, set the value of the _Query_ property to a valid Fusio
 
 Note that you do not need to worry about UTF-encoding the query. But you do need to make sure the query follows the syntax described in <a href="https://developers.google.com/fusiontables/docs/v2/getting_started" target="_blank">the reference manual</a>, which means that things like capitalization for names of columns matters, and that single quotes must be used around column names if there are spaces in them.
 
+??? example "Permissions"
+    * [android.permission.GET_ACCOUNTS](https://developer.android.com/reference/android/Manifest.permission.html#android.permission.GET_ACCOUNTS)
+    * [android.permission.INTERNET](https://developer.android.com/reference/android/Manifest.permission.html#android.permission.INTERNET)
+    * [android.permission.USE_CREDENTIALS](https://developer.android.com/reference/android/Manifest.permission.html#android.permission.USE_CREDENTIALS)
+    * [android.permission.ACCOUNT_MANAGER](https://developer.android.com/reference/android/Manifest.permission.html#android.permission.ACCOUNT_MANAGER)
+    * [android.permission.READ_EXTERNAL_STORAGE](https://developer.android.com/reference/android/Manifest.permission.html#android.permission.READ_EXTERNAL_STORAGE)
+    * [android.permission.MANAGE_ACCOUNTS](https://developer.android.com/reference/android/Manifest.permission.html#android.permission.MANAGE_ACCOUNTS)
+    * [android.permission.WRITE_EXTERNAL_STORAGE](https://developer.android.com/reference/android/Manifest.permission.html#android.permission.WRITE_EXTERNAL_STORAGE)
+
+
 ## Events
 
 ### Got Result

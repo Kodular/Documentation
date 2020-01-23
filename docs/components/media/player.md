@@ -14,6 +14,11 @@ For supported audio formats, see <a href="http://developer.android.com/guide/app
 
 This component is best for long sound files, such as songs, while the `` Sound `` component is more efficient for short files, such as sound effects.
 
+??? example "Permissions"
+    * [android.permission.INTERNET](https://developer.android.com/reference/android/Manifest.permission.html#android.permission.INTERNET)
+    * [android.permission.VIBRATE](https://developer.android.com/reference/android/Manifest.permission.html#android.permission.VIBRATE)
+
+
 ## Events
 
 ### Completed

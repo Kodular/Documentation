@@ -10,6 +10,11 @@
 
 A non-visible component that acts as a bluetooth server.
 
+??? example "Permissions"
+    * [android.permission.BLUETOOTH_ADMIN](https://developer.android.com/reference/android/Manifest.permission.html#android.permission.BLUETOOTH_ADMIN)
+    * [android.permission.BLUETOOTH](https://developer.android.com/reference/android/Manifest.permission.html#android.permission.BLUETOOTH)
+
+
 ## Events
 
 ### BluetoothError

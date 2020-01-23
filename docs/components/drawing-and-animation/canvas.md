@@ -23,6 +23,11 @@ Any location on the Canvas can be specified as a pair of (X, Y) values, where
 
 There are events to tell when and where a Canvas has been touched or a `` Sprite `` (`` ImageSprite `` or `` Ball ``) has been dragged. There are also methods for drawing points, lines, and circles.
 
+??? example "Permissions"
+    * [android.permission.INTERNET](https://developer.android.com/reference/android/Manifest.permission.html#android.permission.INTERNET)
+    * [android.permission.WRITE_EXTERNAL_STORAGE](https://developer.android.com/reference/android/Manifest.permission.html#android.permission.WRITE_EXTERNAL_STORAGE)
+
+
 ## Events
 
 ### Dragged

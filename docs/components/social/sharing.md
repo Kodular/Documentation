@@ -14,6 +14,11 @@ The file path can be taken directly from other components such as the Camera or 
 *   `` "file:///sdcard/Appinventor/assets/arrow.gif" ``
  or *   `` "/storage/Appinventor/assets/arrow.gif" ``
 
+??? example "Permissions"
+    * [android.permission.READ_EXTERNAL_STORAGE](https://developer.android.com/reference/android/Manifest.permission.html#android.permission.READ_EXTERNAL_STORAGE)
+    * [android.permission.WRITE_EXTERNAL_STORAGE](https://developer.android.com/reference/android/Manifest.permission.html#android.permission.WRITE_EXTERNAL_STORAGE)
+
+
 ## Events
 
 ### App Not Found

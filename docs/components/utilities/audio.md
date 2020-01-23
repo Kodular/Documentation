@@ -10,6 +10,10 @@
 
 A non-visible component that manages the device''s audio settings.
 
+??? example "Permissions"
+    * [android.permission.MODIFY_AUDIO_SETTINGS](https://developer.android.com/reference/android/Manifest.permission.html#android.permission.MODIFY_AUDIO_SETTINGS)
+
+
 ## Events
 
 ### Error Occurred

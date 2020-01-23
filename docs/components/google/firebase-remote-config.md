@@ -10,6 +10,14 @@
 
 A non-visible component that gets data from the Remote Config service powered by Firebase.
 
+??? example "Permissions"
+    * [android.permission.INTERNET](https://developer.android.com/reference/android/Manifest.permission.html#android.permission.INTERNET)
+    * [android.permission.ACCESS_NETWORK_STATE](https://developer.android.com/reference/android/Manifest.permission.html#android.permission.ACCESS_NETWORK_STATE)
+    * [android.permission.WAKE_LOCK](https://developer.android.com/reference/android/Manifest.permission.html#android.permission.WAKE_LOCK)
+    * [com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE](https://developer.android.com/reference/android/Manifest.permission.html#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE)
+    * [com.google.android.c2dm.permission.RECEIVE](https://developer.android.com/reference/android/Manifest.permission.html#com.google.android.c2dm.permission.RECEIVE)
+
+
 ## Events
 
 ### Fetch Failed

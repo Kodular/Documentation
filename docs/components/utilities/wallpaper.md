@@ -10,6 +10,13 @@
 
 A non-visible component that provides access to the system''s wallpaper settings.
 
+??? example "Permissions"
+    * [android.permission.SET_WALLPAPER](https://developer.android.com/reference/android/Manifest.permission.html#android.permission.SET_WALLPAPER)
+    * [android.permission.READ_EXTERNAL_STORAGE](https://developer.android.com/reference/android/Manifest.permission.html#android.permission.READ_EXTERNAL_STORAGE)
+    * [android.permission.WRITE_SETTINGS](https://developer.android.com/reference/android/Manifest.permission.html#android.permission.WRITE_SETTINGS)
+    * [android.permission.WRITE_EXTERNAL_STORAGE](https://developer.android.com/reference/android/Manifest.permission.html#android.permission.WRITE_EXTERNAL_STORAGE)
+
+
 ## Events
 
 ### Got Wallpaper

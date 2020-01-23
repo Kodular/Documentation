@@ -10,6 +10,10 @@
 
 A non-visible component that communicates with a web service to store and retrieve information.
 
+??? example "Permissions"
+    * [android.permission.INTERNET](https://developer.android.com/reference/android/Manifest.permission.html#android.permission.INTERNET)
+
+
 ## Events
 
 ### Got Value

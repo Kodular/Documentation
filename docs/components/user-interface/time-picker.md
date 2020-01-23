@@ -8,6 +8,10 @@
 
 A button that, when clicked on, launches a popup dialog to allow the user to select a time.
 
+??? example "Permissions"
+    * [android.permission.INTERNET](https://developer.android.com/reference/android/Manifest.permission.html#android.permission.INTERNET)
+
+
 ## Events
 
 ### After Time Set

@@ -23,6 +23,10 @@ A non-visible component that enables communication with <a href="http://www.twit
 
 You must obtain a Consumer Key and Consumer Secret for Twitter authorization specific to your app from http://twitter.com/oauth\_clients/new
 
+??? example "Permissions"
+    * [android.permission.INTERNET](https://developer.android.com/reference/android/Manifest.permission.html#android.permission.INTERNET)
+
+
 ## Events
 
 ### Direct Messages Received

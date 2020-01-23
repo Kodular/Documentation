@@ -160,6 +160,10 @@ nav:
         - Table Arrangement: components/layout/general/table-arrangement.md
         - Vertical Arrangement: components/layout/general/vertical-arrangement.md
         - Vertical Scroll Arrangement: components/layout/general/vertical-scroll-arrangement.md
+      - Lists:
+        - Overview: components/layout/lists/index.md
+        - List View: components/layout/lists/list-view.md
+        - List View Image and Text: components/layout/lists/list-view-image-and-text.md
       - Views:
         - Overview: components/layout/views/index.md
         - Gallery Viewer: components/layout/views/gallery-viewer.md

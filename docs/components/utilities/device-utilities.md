@@ -10,6 +10,10 @@
 
 A non-visible component that fetches specifications of the device.
 
+??? example "Permissions"
+    * [android.permission.READ_PHONE_STATE](https://developer.android.com/reference/android/Manifest.permission.html#android.permission.READ_PHONE_STATE)
+
+
 ## Events
 
 ### Got IMEI

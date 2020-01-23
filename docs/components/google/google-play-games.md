@@ -11,6 +11,10 @@
 A non-visible component that enables game user authentication, leaderboards, and more.  
 Powered by the Google Play Games service.
 
+??? example "Permissions"
+    * [android.permission.INTERNET](https://developer.android.com/reference/android/Manifest.permission.html#android.permission.INTERNET)
+
+
 ## Events
 
 ### Got Player

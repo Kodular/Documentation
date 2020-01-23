@@ -10,6 +10,10 @@
 
 Physical world component that can detect such data as: sound amplitude (measurement of the degree of change [positive or negative] ).
 
+??? example "Permissions"
+    * [android.permission.RECORD_AUDIO](https://developer.android.com/reference/android/Manifest.permission.html#android.permission.RECORD_AUDIO)
+
+
 ## Events
 
 ### Sound Changed

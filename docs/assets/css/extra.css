@@ -353,3 +353,7 @@ img[src*="#animationUtilsPreview"] {
 .chip-component {
   background-color: rgb(139, 195, 74);
 }
+
+.chip-any {
+  background-color: rgb(208, 95, 45);
+}

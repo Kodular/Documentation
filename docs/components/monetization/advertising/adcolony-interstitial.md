@@ -10,6 +10,12 @@
 
 A non-visible component that shows AdColony ads as full-screen advertisements.
 
+??? example "Permissions"
+    * [android.permission.INTERNET](https://developer.android.com/reference/android/Manifest.permission.html#android.permission.INTERNET)
+    * [android.permission.ACCESS_NETWORK_STATE](https://developer.android.com/reference/android/Manifest.permission.html#android.permission.ACCESS_NETWORK_STATE)
+    * [android.permission.VIBRATE](https://developer.android.com/reference/android/Manifest.permission.html#android.permission.VIBRATE)
+
+
 ## Events
 
 ### Ad Expiring

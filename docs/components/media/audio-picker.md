@@ -8,6 +8,11 @@
 
 A special-purpose button. When the user taps an audio picker, the device's audio gallery appears, and the user can choose an audio file.
 
+??? example "Permissions"
+    * [android.permission.INTERNET](https://developer.android.com/reference/android/Manifest.permission.html#android.permission.INTERNET)
+    * [android.permission.READ_EXTERNAL_STORAGE](https://developer.android.com/reference/android/Manifest.permission.html#android.permission.READ_EXTERNAL_STORAGE)
+
+
 ## Events
 
 ### After Picking

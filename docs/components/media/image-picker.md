@@ -8,6 +8,11 @@
 
 A special-purpose button. When the user taps an image picker, the device's image gallery appears, and the user can choose an image.
 
+??? example "Permissions"
+    * [android.permission.INTERNET](https://developer.android.com/reference/android/Manifest.permission.html#android.permission.INTERNET)
+    * [android.permission.READ_EXTERNAL_STORAGE](https://developer.android.com/reference/android/Manifest.permission.html#android.permission.READ_EXTERNAL_STORAGE)
+
+
 ## Events
 
 ### After Picking

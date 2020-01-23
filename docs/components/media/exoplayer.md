@@ -11,6 +11,11 @@
 A non-visible component that plays audio files.   
 The ExoPlayer component, powered by Google, has significantly lower audio playback delay/lag than other players.
 
+??? example "Permissions"
+    * [android.permission.INTERNET](https://developer.android.com/reference/android/Manifest.permission.html#android.permission.INTERNET)
+    * [android.permission.READ_EXTERNAL_STORAGE](https://developer.android.com/reference/android/Manifest.permission.html#android.permission.READ_EXTERNAL_STORAGE)
+
+
 ## Events
 
 ### Completed

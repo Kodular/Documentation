@@ -10,6 +10,10 @@
 
 A non-visible component that authenticates the user using their preferred security option.
 
+??? example "Permissions"
+    * [android.permission.DISABLE_KEYGUARD](https://developer.android.com/reference/android/Manifest.permission.html#android.permission.DISABLE_KEYGUARD)
+
+
 ## Events
 
 ### On Authentication Request

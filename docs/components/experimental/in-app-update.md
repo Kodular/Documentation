@@ -11,6 +11,10 @@
 A non-visible component that lets the user download app updates from within the app.   
 Note\: For this component to work correctly, set the MIN API to 21 (Android 5).
 
+??? example "Permissions"
+    * [android.permission.INTERNET](https://developer.android.com/reference/android/Manifest.permission.html#android.permission.INTERNET)
+
+
 ## Events
 
 ### Initialized

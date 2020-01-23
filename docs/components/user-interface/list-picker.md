@@ -10,6 +10,10 @@ A button that, when clicked on, displays a list of texts for the user to choose 
 
 Setting property ShowFilterBar to true, will make the list searchable. Other properties affect the appearance of the button (`` TextAlignment ``, `` BackgroundColor ``, etc.) and whether it can be clicked on (`` Enabled ``).
 
+??? example "Permissions"
+    * [android.permission.INTERNET](https://developer.android.com/reference/android/Manifest.permission.html#android.permission.INTERNET)
+
+
 ## Events
 
 ### After Picking

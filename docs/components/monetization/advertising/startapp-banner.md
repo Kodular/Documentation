@@ -8,6 +8,12 @@
 
 A visible component that shows StartApp ads as static banners.
 
+??? example "Permissions"
+    * [android.permission.INTERNET](https://developer.android.com/reference/android/Manifest.permission.html#android.permission.INTERNET)
+    * [android.permission.ACCESS_NETWORK_STATE](https://developer.android.com/reference/android/Manifest.permission.html#android.permission.ACCESS_NETWORK_STATE)
+    * [android.permission.ACCESS_WIFI_STATE](https://developer.android.com/reference/android/Manifest.permission.html#android.permission.ACCESS_WIFI_STATE)
+
+
 ## Events
 
 ### Ad Clicked

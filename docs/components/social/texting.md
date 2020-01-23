@@ -34,6 +34,13 @@ To specify the phone number (e.g., 650-555-1212), set the `` PhoneNumber `` prop
 
 Another way for an app to specify a phone number would be to include a `` PhoneNumberPicker `` component, which lets the users select a phone numbers from the ones stored in the the phone's contacts.
 
+??? example "Permissions"
+    * [android.permission.GET_ACCOUNTS](https://developer.android.com/reference/android/Manifest.permission.html#android.permission.GET_ACCOUNTS)
+    * [android.permission.USE_CREDENTIALS](https://developer.android.com/reference/android/Manifest.permission.html#android.permission.USE_CREDENTIALS)
+    * [android.permission.ACCOUNT_MANAGER](https://developer.android.com/reference/android/Manifest.permission.html#android.permission.ACCOUNT_MANAGER)
+    * [android.permission.MANAGE_ACCOUNTS](https://developer.android.com/reference/android/Manifest.permission.html#android.permission.MANAGE_ACCOUNTS)
+
+
 ## Events
 
 ### Message Received

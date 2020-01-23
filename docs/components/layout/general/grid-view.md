@@ -8,6 +8,10 @@
 
 A visible component that groups other components in a two-dimensional, scrollable grid.
 
+??? example "Permissions"
+    * [android.permission.INTERNET](https://developer.android.com/reference/android/Manifest.permission.html#android.permission.INTERNET)
+
+
 ## Events
 
 ### After Picking

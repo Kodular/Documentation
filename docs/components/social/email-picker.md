@@ -14,6 +14,10 @@ Other properties affect the appearance of the text box (`` TextAlignment ``, `` 
 
 Text boxes like this are usually used with `` Button `` components, with the user clicking on the button when text entry is complete.
 
+??? example "Permissions"
+    * [android.permission.READ_CONTACTS](https://developer.android.com/reference/android/Manifest.permission.html#android.permission.READ_CONTACTS)
+
+
 ## Events
 
 ### Got Focus

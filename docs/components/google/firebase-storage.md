@@ -10,6 +10,13 @@
 
 Firebase Storage to upload files to a Firebase Storage Bucket
 
+??? example "Permissions"
+    * [android.permission.INTERNET](https://developer.android.com/reference/android/Manifest.permission.html#android.permission.INTERNET)
+    * [android.permission.ACCESS_NETWORK_STATE](https://developer.android.com/reference/android/Manifest.permission.html#android.permission.ACCESS_NETWORK_STATE)
+    * [android.permission.WAKE_LOCK](https://developer.android.com/reference/android/Manifest.permission.html#android.permission.WAKE_LOCK)
+    * [com.google.android.c2dm.permission.RECEIVE](https://developer.android.com/reference/android/Manifest.permission.html#com.google.android.c2dm.permission.RECEIVE)
+
+
 ## Events
 
 ### Delete Failed
