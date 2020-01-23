@@ -88,7 +88,7 @@ Returns true if the checkbox is active and clickable.
 
 <span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>False</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
-Returns true if the checkbox's text should be bold
+Returns true if the checkbox's text should be bold  
 If bold has been requested, this property will return true, even if thefont does not support bold.
 
 [[PropertyBlockGetterAndSetter('Checkbox', 'Font Bold')]]
@@ -97,7 +97,7 @@ If bold has been requested, this property will return true, even if thefont does
 
 <span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>False</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
-Returns true if the checkbox's text should be italic
+Returns true if the checkbox's text should be italic  
 If italic has been requested, this property will return true, even if thefont does not support italic.
 
 [[PropertyBlockGetterAndSetter('Checkbox', 'Font Italic')]]

@@ -112,7 +112,7 @@ Returns the data URI that will be used to start the activity.
 
 <span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
-Returns the extra key that will be passed to the activity
+Returns the extra key that will be passed to the activity  
 DEPRECATED: New code should use Extras property instead.
 
 [[PropertyBlockGetterAndSetter('Activity Starter', 'Extra Key')]]
@@ -121,7 +121,7 @@ DEPRECATED: New code should use Extras property instead.
 
 <span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
-Returns the extra value that will be passed to the activity
+Returns the extra value that will be passed to the activity  
 DEPRECATED: New code should use Extras property instead.
 
 [[PropertyBlockGetterAndSetter('Activity Starter', 'Extra Value')]]

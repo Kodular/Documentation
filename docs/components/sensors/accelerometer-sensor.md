@@ -81,7 +81,7 @@ Available property getter method (read-only property).
 
 <span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
-Returns the acceleration in the X-dimension in SI units (m/s^2)
+Returns the acceleration in the X-dimension in SI units (m/s^2)  
 The sensor must be enabled to return meaningful values.
 
 [[PropertyBlockGetter('Accelerometer Sensor', 'X Accel')]]
@@ -90,7 +90,7 @@ The sensor must be enabled to return meaningful values.
 
 <span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
-Returns the acceleration in the Y-dimension in SI units (m/s^2)
+Returns the acceleration in the Y-dimension in SI units (m/s^2)  
 The sensor must be enabled to return meaningful values.
 
 [[PropertyBlockGetter('Accelerometer Sensor', 'Y Accel')]]
@@ -99,7 +99,7 @@ The sensor must be enabled to return meaningful values.
 
 <span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
-Returns the acceleration in the Z-dimension in SI units (m/s^2)
+Returns the acceleration in the Z-dimension in SI units (m/s^2)  
 The sensor must be enabled to return meaningful values.
 
 [[PropertyBlockGetter('Accelerometer Sensor', 'Z Accel')]]

@@ -119,7 +119,7 @@ Set the divider color of the listview
 
 <span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>1</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
-Set the side of the image
+Set the side of the image  
 Set it to 1 for Left side and 2 for Right side
 
 [[PropertyBlockGetterAndSetter('List View Image and Text', 'Image Side')]]
@@ -128,7 +128,7 @@ Set it to 1 for Left side and 2 for Right side
 
 <span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>1</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
-Set ListItem Size
+Set ListItem Size  
 Set it to 1 for Normal size, 2 for Small size and 3 for Big size.
 
 [[PropertyBlockGetterAndSetter('List View Image and Text', 'Item Size')]]

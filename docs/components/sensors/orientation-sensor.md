@@ -65,7 +65,7 @@ Available property getter method (read-only property).
 
 <span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
-Azimuth property getter method (read-only property)
+Azimuth property getter method (read-only property)  
 
 To return meaningful values the sensor must be enabled.
 
@@ -83,7 +83,7 @@ Magnitude property getter method (read-only property). Specifically, thisreturns
 
 <span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
-Pitch property getter method (read-only property)
+Pitch property getter method (read-only property)  
 
 To return meaningful values the sensor must be enabled.
 
@@ -93,7 +93,7 @@ To return meaningful values the sensor must be enabled.
 
 <span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
-Roll property getter method (read-only property)
+Roll property getter method (read-only property)  
 
 To return meaningful values the sensor must be enabled.
 
