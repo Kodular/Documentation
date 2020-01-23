@@ -28,51 +28,45 @@ Triggers when the fetch was successful
 
 ### Fetch
 
-_Block preview not available_
+[[Method('Firebase Remote Config', 'Fetch', False)]]
 
 Fetches parameter values for your app
 
 ### Get Boolean
 
-_Block preview not available_
+[[Method('Firebase Remote Config', 'Get Boolean', True, 'key')]]
 
 {>>Returns `boolean`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |key|`text`|
+| Params | []() |
+|--------|------|
+|key|Text|
 
 
 Gets a boolean value corresponding to the specified key
 
 ### Get Number
 
-_Block preview not available_
+[[Method('Firebase Remote Config', 'Get Number', True, 'key')]]
 
 {>>Returns `number`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |key|`text`|
+| Params | []() |
+|--------|------|
+|key|Text|
 
 
 Gets a number value corresponding to the specified key
 
 ### Get Text
 
-_Block preview not available_
+[[Method('Firebase Remote Config', 'Get Text', True, 'key')]]
 
 {>>Returns `text`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |key|`text`|
+| Params | []() |
+|--------|------|
+|key|Text|
 
 
 Gets a text value corresponding to the specified key
@@ -81,13 +75,8 @@ Gets a text value corresponding to the specified key
 
 ### Cache Expiration
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Firebase Remote Config', 'Cache Expiration')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|43200|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>43200</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Time how long the data keeps on the device in ms
+
+[[PropertyBlockGetterAndSetter('Firebase Remote Config', 'Cache Expiration')]]

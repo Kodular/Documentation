@@ -12,79 +12,56 @@ A visible component that creates spaces between components.
 
 ### Visible
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Space', 'Visible')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|True|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Returns true iff the component is visible.
 
+[[PropertyBlockGetterAndSetter('Space', 'Visible')]]
+
 ### Column
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Space', 'Column')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Blocks</span> 
 
 Column property getter method.
 
+[[PropertyBlockGetterAndSetter('Space', 'Column')]]
+
 ### Height
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Space', 'Height')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Blocks</span> 
 
 Specifies the component's vertical height, measured in pixels.
 
+[[PropertyBlockGetterAndSetter('Space', 'Height')]]
+
 ### Height Percent
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Space', 'Height Percent')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Blocks</span> 
 
 Specifies the component's vertical height as a percentageof the height of its parent Component.
 
+[[PropertyBlockGetterAndSetter('Space', 'Height Percent')]]
+
 ### Row
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Space', 'Row')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Blocks</span> 
 
 Row property getter method.
 
+[[PropertyBlockGetterAndSetter('Space', 'Row')]]
+
 ### Width
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Space', 'Width')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Blocks</span> 
 
 Specifies the component's horizontal width, measured in pixels.
 
+[[PropertyBlockGetterAndSetter('Space', 'Width')]]
+
 ### Width Percent
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Space', 'Width Percent')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Blocks</span> 
 
 Specifies the component's horizontal width as a percentageof the Width of its parent Component.
+
+[[PropertyBlockGetterAndSetter('Space', 'Width Percent')]]

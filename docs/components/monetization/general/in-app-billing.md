@@ -16,11 +16,9 @@ A non-visible component that lets the user purchase items, powered by Google''s 
 
 [[Event('In App Billing', 'After Purchase', 'productId')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |product Id|`text`|
+| Params | []() |
+|--------|------|
+|product Id|Text|
 
 
 After purchase event.
@@ -29,11 +27,9 @@ After purchase event.
 
 [[Event('In App Billing', 'Error Occurred', 'message')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |message|`text`|
+| Params | []() |
+|--------|------|
+|message|Text|
 
 
 Error occurred event.
@@ -42,12 +38,10 @@ Error occurred event.
 
 [[Event('In App Billing', 'Got Owned Purchases', 'ownedProducts', 'ownedSubscriptions')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |owned Products|`list`|
-    |owned Subscriptions|`list`|
+| Params | []() |
+|--------|------|
+|owned Products|List|
+|owned Subscriptions|List|
 
 
 Got Owned Purchases
@@ -56,16 +50,14 @@ Got Owned Purchases
 
 [[Event('In App Billing', 'Got Product Details', 'success', 'productId', 'title', 'description', 'currency', 'price')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |success|`boolean`|
-    |product Id|`text`|
-    |title|`text`|
-    |description|`text`|
-    |currency|`text`|
-    |price|`text`|
+| Params | []() |
+|--------|------|
+|success|Boolean|
+|product Id|Text|
+|title|Text|
+|description|Text|
+|currency|Text|
+|price|Text|
 
 
 Got Product Details
@@ -74,17 +66,15 @@ Got Product Details
 
 [[Event('In App Billing', 'Got Subscription Details', 'success', 'isSubscription', 'subscriptionId', 'title', 'description', 'currency', 'price')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |success|`boolean`|
-    |is Subscription|`boolean`|
-    |subscription Id|`text`|
-    |title|`text`|
-    |description|`text`|
-    |currency|`text`|
-    |price|`text`|
+| Params | []() |
+|--------|------|
+|success|Boolean|
+|is Subscription|Boolean|
+|subscription Id|Text|
+|title|Text|
+|description|Text|
+|currency|Text|
+|price|Text|
 
 
 Got Subscription Details
@@ -95,13 +85,11 @@ Got Subscription Details
 
 :warning: ==**Deprecated**==
 
-_Block preview not available_
+[[Method('In App Billing', 'Consume', False, 'productId')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |product Id|`text`|
+| Params | []() |
+|--------|------|
+|product Id|Text|
 
 
 Do not use this block anymore. This block is deprecated and does nothing and will be removed in the future!
@@ -110,102 +98,88 @@ Do not use this block anymore. This block is deprecated and does nothing and wil
 
 :warning: ==**Deprecated**==
 
-_Block preview not available_
+[[Method('In App Billing', 'Initialize', False, 'licenseKey', 'merchantId')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |license Key|`text`|
-    |merchant Id|`text`|
+| Params | []() |
+|--------|------|
+|license Key|Text|
+|merchant Id|Text|
 
 
 Do not use this block anymore. This block is deprecated and does nothing and will be removed in the future!
 
 ### Is Purchased
 
-_Block preview not available_
+[[Method('In App Billing', 'Is Purchased', True, 'productId')]]
 
 {>>Returns `boolean`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |product Id|`text`|
+| Params | []() |
+|--------|------|
+|product Id|Text|
 
 
 Returns true if the product with the specific id is purchased.
 
 ### Is Subscribed
 
-_Block preview not available_
+[[Method('In App Billing', 'Is Subscribed', True, 'subscriptionId')]]
 
 {>>Returns `boolean`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |subscription Id|`text`|
+| Params | []() |
+|--------|------|
+|subscription Id|Text|
 
 
 Returns true if the product is subscribed.
 
 ### Load Owned Purchases
 
-_Block preview not available_
+[[Method('In App Billing', 'Load Owned Purchases', False)]]
 
 Load Owned Purchases from Google.
 
 ### Product Details
 
-_Block preview not available_
+[[Method('In App Billing', 'Product Details', False, 'productId')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |product Id|`text`|
+| Params | []() |
+|--------|------|
+|product Id|Text|
 
 
 Get product details from the specific product id.
 
 ### Purchase
 
-_Block preview not available_
+[[Method('In App Billing', 'Purchase', False, 'productId')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |product Id|`text`|
+| Params | []() |
+|--------|------|
+|product Id|Text|
 
 
 Purchase a product with the given product id.
 
 ### Subscribe
 
-_Block preview not available_
+[[Method('In App Billing', 'Subscribe', False, 'subscriptionId')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |subscription Id|`text`|
+| Params | []() |
+|--------|------|
+|subscription Id|Text|
 
 
 Subscribe a product with the given product id.
 
 ### Subscription Details
 
-_Block preview not available_
+[[Method('In App Billing', 'Subscription Details', False, 'subscriptionId')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |subscription Id|`text`|
+| Params | []() |
+|--------|------|
+|subscription Id|Text|
 
 
 Get subscription details from the given id.
@@ -214,13 +188,11 @@ Get subscription details from the given id.
 
 :warning: ==**Deprecated**==
 
-_Block preview not available_
+[[Method('In App Billing', 'Update Subscription', False, 'subscriptionId')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |subscription Id|`text`|
+| Params | []() |
+|--------|------|
+|subscription Id|Text|
 
 
 Do not use this block anymore. This block is deprecated and does nothing and will be removed in the future!
@@ -229,70 +201,50 @@ Do not use this block anymore. This block is deprecated and does nothing and wil
 
 ### Suppress Toast
 
-:warning: ==**Deprecated**== <small>Available as Common Property</small>
+:warning: ==**Deprecated**==
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('In App Billing', 'Suppress Toast')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|true|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>true</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Do not use this block anymore. This block is deprecated and does nothing and will be removed in the future!
 
+[[PropertyBlockGetterAndSetter('In App Billing', 'Suppress Toast')]]
+
 ### Test Mode
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('In App Billing', 'Test Mode')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|false|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>false</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Whether it is testing mode enabled or not.
 
+[[PropertyBlockGetterAndSetter('In App Billing', 'Test Mode')]]
+
 ### Is IAB Service Available
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('In App Billing', 'Is IAB Service Available')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|None|
+<span class="chip chip-boolean">Boolean</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 Check Play Market services availability.
 
+[[PropertyBlockGetter('In App Billing', 'Is IAB Service Available')]]
+
 ### Is One Time Purchase Available
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('In App Billing', 'Is One Time Purchase Available')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|None|
+<span class="chip chip-boolean">Boolean</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 Is one time purchase supported.
 
+[[PropertyBlockGetter('In App Billing', 'Is One Time Purchase Available')]]
+
 ### Is Subscription Update Supported
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('In App Billing', 'Is Subscription Update Supported')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|None|
+<span class="chip chip-boolean">Boolean</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 Is subscription update supported.
 
+[[PropertyBlockGetter('In App Billing', 'Is Subscription Update Supported')]]
+
 ### Ready To Purchase
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('In App Billing', 'Ready To Purchase')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|None|
+<span class="chip chip-boolean">Boolean</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 Whether In-app billing service is ready to purchase.
+
+[[PropertyBlockGetter('In App Billing', 'Ready To Purchase')]]

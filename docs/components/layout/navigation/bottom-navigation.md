@@ -14,12 +14,10 @@ A visible component that shows a navigation menu in the bottom of the screen.
 
 [[Event('Bottom Navigation', 'Item Selected', 'id', 'title')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
-    |title|`text`|
+| Params | []() |
+|--------|------|
+|id|Number|
+|title|Text|
 
 
 Event triggers when an item was selected.
@@ -28,62 +26,54 @@ Event triggers when an item was selected.
 
 ### Add Item
 
-_Block preview not available_
+[[Method('Bottom Navigation', 'Add Item', False, 'id', 'title', 'image')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
-    |title|`text`|
-    |image|`text`|
+| Params | []() |
+|--------|------|
+|id|Number|
+|title|Text|
+|image|Text|
 
 
 Add an item to the bottom menu
 
 ### Remove All Items
 
-_Block preview not available_
+[[Method('Bottom Navigation', 'Remove All Items', False)]]
 
 Remove all items from the bottom menu
 
 ### Remove Item
 
-_Block preview not available_
+[[Method('Bottom Navigation', 'Remove Item', False, 'id')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
+| Params | []() |
+|--------|------|
+|id|Number|
 
 
 Remove an item from the bottom menu
 
 ### Select Item
 
-_Block preview not available_
+[[Method('Bottom Navigation', 'Select Item', False, 'id')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
+| Params | []() |
+|--------|------|
+|id|Number|
 
 
 Select an item from the bottom menu
 
 ### Update Item
 
-_Block preview not available_
+[[Method('Bottom Navigation', 'Update Item', False, 'id', 'title', 'image')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
-    |title|`text`|
-    |image|`text`|
+| Params | []() |
+|--------|------|
+|id|Number|
+|title|Text|
+|image|Text|
 
 
 Update an item of the bottom menu
@@ -92,74 +82,48 @@ Update an item of the bottom menu
 
 ### Background Color
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Bottom Navigation', 'Background Color')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|&HFFFFFFFF|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>&HFFFFFFFF</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Set the background color of the Bottom Navigation Menu
 
+[[PropertyBlockGetterAndSetter('Bottom Navigation', 'Background Color')]]
+
 ### Selected Color
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Bottom Navigation', 'Selected Color')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|&HFF3F51B5|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>&HFF3F51B5</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Set the color of the selected item of the Bottom Navigation Menu
 
+[[PropertyBlockGetterAndSetter('Bottom Navigation', 'Selected Color')]]
+
 ### Unselected Color
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Bottom Navigation', 'Unselected Color')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|&HFF6E6E6E|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>&HFF6E6E6E</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Set the color of the unselected items of the Bottom Navigation Menu
 
+[[PropertyBlockGetterAndSetter('Bottom Navigation', 'Unselected Color')]]
+
 ### Visible
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Bottom Navigation', 'Visible')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|True|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Returns true iff the component is visible.
 
+[[PropertyBlockGetterAndSetter('Bottom Navigation', 'Visible')]]
+
 ### Column
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Bottom Navigation', 'Column')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Blocks</span> 
 
 Column property getter method.
 
+[[PropertyBlockGetterAndSetter('Bottom Navigation', 'Column')]]
+
 ### Row
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Bottom Navigation', 'Row')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Blocks</span> 
 
 Row property getter method.
+
+[[PropertyBlockGetterAndSetter('Bottom Navigation', 'Row')]]

@@ -16,11 +16,9 @@ A component to take a picture using the device's camera. After the picture is ta
 
 [[Event('Camera', 'After Picture', 'image')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |image|`text`|
+| Params | []() |
+|--------|------|
+|image|Text|
 
 
 Returns the taken picture.
@@ -29,7 +27,7 @@ Returns the taken picture.
 
 ### Has Flash
 
-_Block preview not available_
+[[Method('Camera', 'Has Flash', True)]]
 
 {>>Returns `boolean`<<}
 
@@ -37,13 +35,13 @@ Returns true if your device has a flash.
 
 ### Take Picture
 
-_Block preview not available_
+[[Method('Camera', 'Take Picture', False)]]
 
 Take a picture with the camera of your device.
 
 ### Toggle Light
 
-_Block preview not available_
+[[Method('Camera', 'Toggle Light', False)]]
 
 Toggle the flash of your device to on or off.
 
@@ -53,11 +51,8 @@ Toggle the flash of your device to on or off.
 
 :warning: ==**Deprecated**==
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Camera', 'Use Front')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|None|
+<span class="chip chip-boolean">Boolean</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Blocks</span> 
 
 Specifies whether the front-facing camera should be used (when available). If the device does not have a front-facing camera, this option will be ignored and the camera will open normally.
+
+[[PropertyBlockGetterAndSetter('Camera', 'Use Front')]]

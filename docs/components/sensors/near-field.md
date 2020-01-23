@@ -20,12 +20,10 @@ __Note:__ This component will only work on Screen1 of any App Inventor app.
 
 [[Event('Near Field', 'Tag Read', 'tagID', 'message')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |tag ID|`text`|
-    |message|`text`|
+| Params | []() |
+|--------|------|
+|tag ID|Text|
+|message|Text|
 
 
 Indicates that a new tag has been detected
@@ -41,46 +39,30 @@ Event to detect when a tag was written.
 
 ### Read Mode
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Near Field', 'Read Mode')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|True|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Returns true if in read mode, false if in write mode.
 
+[[PropertyBlockGetterAndSetter('Near Field', 'Read Mode')]]
+
 ### Last Message
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Near Field', 'Last Message')]]
-
-| Type | Default |
-|:----:|:-------:|
-|text|None|
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 Returns the content of the most recently received tag.
 
+[[PropertyBlockGetter('Near Field', 'Last Message')]]
+
 ### Text To Write
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Near Field', 'Text To Write')]]
-
-| Type | Default |
-|:----:|:-------:|
-|text|None|
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Blocks</span> 
 
 Returns the content of the text that's going to be written to the tag.
 
+[[PropertyBlockGetterAndSetter('Near Field', 'Text To Write')]]
+
 ### Write Type
 
-:eyes: Read-Only property
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
+
 [[PropertyBlockGetter('Near Field', 'Write Type')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
-
-_No description available_

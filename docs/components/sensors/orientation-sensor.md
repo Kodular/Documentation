@@ -22,13 +22,11 @@ Non-visible component providing information about the device's physical orientat
 
 [[Event('Orientation Sensor', 'Orientation Changed', 'azimuth', 'pitch', 'roll')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |azimuth|`number`|
-    |pitch|`number`|
-    |roll|`number`|
+| Params | []() |
+|--------|------|
+|azimuth|Number|
+|pitch|Number|
+|roll|Number|
 
 
 Default OrientationChanged event handler
@@ -41,85 +39,62 @@ Azimuth is the compass heading in degrees, pitch indicates how the deviceis tilt
 
 ### Enabled
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Orientation Sensor', 'Enabled')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|True|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Enabled property getter method.
 
+[[PropertyBlockGetterAndSetter('Orientation Sensor', 'Enabled')]]
+
 ### Angle
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Orientation Sensor', 'Angle')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 Angle property getter method (read-only property). Specifically, thisprovides the angle in which the orientation sensor is tilted, treating
 
+[[PropertyBlockGetter('Orientation Sensor', 'Angle')]]
+
 ### Available
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Orientation Sensor', 'Available')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|None|
+<span class="chip chip-boolean">Boolean</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 Available property getter method (read-only property).
 
+[[PropertyBlockGetter('Orientation Sensor', 'Available')]]
+
 ### Azimuth
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Orientation Sensor', 'Azimuth')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 Azimuth property getter method (read-only property)
 
 To return meaningful values the sensor must be enabled.
 
+[[PropertyBlockGetter('Orientation Sensor', 'Azimuth')]]
+
 ### Magnitude
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Orientation Sensor', 'Magnitude')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 Magnitude property getter method (read-only property). Specifically, thisreturns a number between 0 and 1, indicating how much the deviceis tilted. For the angle of tilt, use
 
+[[PropertyBlockGetter('Orientation Sensor', 'Magnitude')]]
+
 ### Pitch
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Orientation Sensor', 'Pitch')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 Pitch property getter method (read-only property)
 
 To return meaningful values the sensor must be enabled.
 
+[[PropertyBlockGetter('Orientation Sensor', 'Pitch')]]
+
 ### Roll
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Orientation Sensor', 'Roll')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 Roll property getter method (read-only property)
 
 To return meaningful values the sensor must be enabled.
+
+[[PropertyBlockGetter('Orientation Sensor', 'Roll')]]

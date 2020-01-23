@@ -34,7 +34,7 @@ Light level has gone within the range.
 
 ### Get Light Level
 
-_Block preview not available_
+[[Method('NXT Light Sensor', 'Get Light Level', True)]]
 
 {>>Returns `number`<<}
 
@@ -44,104 +44,64 @@ Returns the current light level as a value between 0 and 1023, or -1 if the ligh
 
 ### Above Range Event Enabled
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('NXT Light Sensor', 'Above Range Event Enabled')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|False|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>False</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Whether the AboveRange event should fire when the light level goes above the TopOfRange.
 
+[[PropertyBlockGetterAndSetter('NXT Light Sensor', 'Above Range Event Enabled')]]
+
 ### Below Range Event Enabled
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('NXT Light Sensor', 'Below Range Event Enabled')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|False|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>False</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Whether the BelowRange event should fire when the light level goes below the BottomOfRange.
 
+[[PropertyBlockGetterAndSetter('NXT Light Sensor', 'Below Range Event Enabled')]]
+
 ### Bluetooth Client
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('NXT Light Sensor', 'Bluetooth Client')]]
-
-| Type |
-|:----:|
-|component|
+<span class="chip chip-component">Component</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 The BluetoothClient component that should be used for communication.
 
+[[PropertyBlockGetterAndSetter('NXT Light Sensor', 'Bluetooth Client')]]
+
 ### Bottom Of Range
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('NXT Light Sensor', 'Bottom Of Range')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|256|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>256</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 The bottom of the range used for the BelowRange, WithinRange, and AboveRange events.
 
+[[PropertyBlockGetterAndSetter('NXT Light Sensor', 'Bottom Of Range')]]
+
 ### Generate Light
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('NXT Light Sensor', 'Generate Light')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|False|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>False</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Whether the light sensor should generate light.
 
+[[PropertyBlockGetterAndSetter('NXT Light Sensor', 'Generate Light')]]
+
 ### Sensor Port
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('NXT Light Sensor', 'Sensor Port')]]
-
-| Type | Default |
-|:----:|:-------:|
-|text|3|
+<span class="chip chip-text">Text</span> <span class="chip chip-text">Default: <i>3</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 The sensor port that the sensor is connected to.
 
+[[PropertyBlockGetterAndSetter('NXT Light Sensor', 'Sensor Port')]]
+
 ### Top Of Range
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('NXT Light Sensor', 'Top Of Range')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|767|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>767</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 The top of the range used for the BelowRange, WithinRange, and AboveRange events.
 
+[[PropertyBlockGetterAndSetter('NXT Light Sensor', 'Top Of Range')]]
+
 ### Within Range Event Enabled
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('NXT Light Sensor', 'Within Range Event Enabled')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|False|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>False</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Whether the WithinRange event should fire when the light level goes between the BottomOfRange and the TopOfRange.
+
+[[PropertyBlockGetterAndSetter('NXT Light Sensor', 'Within Range Event Enabled')]]

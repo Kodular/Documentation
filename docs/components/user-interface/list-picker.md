@@ -16,11 +16,9 @@ Setting property ShowFilterBar to true, will make the list searchable. Other pro
 
 [[Event('List Picker', 'After Picking', 'selection')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |selection|`text`|
+| Params | []() |
+|--------|------|
+|selection|Text|
 
 
 Event to be raised after the picker activity returns itsresult and the properties have been filled in.
@@ -59,95 +57,85 @@ Indicates that a button has been released.
 
 ### Set Animation Style
 
-_Block preview not available_
+[[Method('List Picker', 'Set Animation Style', False, 'style', 'position', 'size', 'color')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |style|`text`|
-    |position|`text`|
-    |size|`number`|
-    |color|`number`|
+| Params | []() |
+|--------|------|
+|style|Text|
+|position|Text|
+|size|Number|
+|color|Number|
 
 
 Allows you to set animation style. Valid (case-insensitive) values are: ChasingDots, Circle, CubeGrid, DoubleBounce, FadingCircle, FoldingCube, Pulse, RotatingCircle, RotatingPlane, ThreeBounce, WanderingCubes, Wave. If invalid style is used, animation will be removed.Position can be: top, left, right, bottom. Size can be 100.
 
 ### Button Click
 
-_Block preview not available_
+[[Method('List Picker', 'Button Click', False)]]
 
 Perform a button click as function.
 
 ### Open
 
-_Block preview not available_
+[[Method('List Picker', 'Open', False)]]
 
 Opens the picker, as though the user clicked on it.
 
 ### Set Shadow
 
-_Block preview not available_
+[[Method('List Picker', 'Set Shadow', False, 'x', 'y', 'radius', 'color')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |x|`number`|
-    |y|`number`|
-    |radius|`number`|
-    |color|`number`|
+| Params | []() |
+|--------|------|
+|x|Number|
+|y|Number|
+|radius|Number|
+|color|Number|
 
 
 Place a blurred shadow of text underneath the text, drawn with the specified x, y, radius, color (e.g. -11, 12, 13, black.
 
 ### With Icon From Font Awesome
 
-_Block preview not available_
+[[Method('List Picker', 'With Icon From Font Awesome', False, 'position', 'iconName', 'iconColor', 'padding', 'size')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |position|`text`|
-    |icon Name|`text`|
-    |icon Color|`number`|
-    |padding|`number`|
-    |size|`number`|
+| Params | []() |
+|--------|------|
+|position|Text|
+|icon Name|Text|
+|icon Color|Number|
+|padding|Number|
+|size|Number|
 
 
 Show an image on the given position near to the button. You can use following words for the position: 'Left', 'Right', 'Top' or 'Bottom'. Use the padding to add space between the icon and text. Use a material icon as the button icon without uploading a image resource into your project. You can find the icon name (or code) here at https://fontawesome.com/cheatsheet Use as example for a heart icon just 'f004'.
 
 ### With Icon From Material Font
 
-_Block preview not available_
+[[Method('List Picker', 'With Icon From Material Font', False, 'position', 'iconName', 'iconColor', 'padding', 'size')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |position|`text`|
-    |icon Name|`text`|
-    |icon Color|`number`|
-    |padding|`number`|
-    |size|`number`|
+| Params | []() |
+|--------|------|
+|position|Text|
+|icon Name|Text|
+|icon Color|Number|
+|padding|Number|
+|size|Number|
 
 
 Show an image on the given position near to the button. You can use following words for the position: 'Left', 'Right', 'Top' or 'Bottom'. Use the padding to add space between the icon and text. Use a material icon as the button icon without uploading a image resource into your project. You can find the icon name (or code) here at https://material.io/icons
 
 ### With Icon From Picture
 
-_Block preview not available_
+[[Method('List Picker', 'With Icon From Picture', False, 'position', 'picture', 'padding', 'width', 'height')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |position|`text`|
-    |picture|`text`|
-    |padding|`number`|
-    |width|`number`|
-    |height|`number`|
+| Params | []() |
+|--------|------|
+|position|Text|
+|picture|Text|
+|padding|Number|
+|width|Number|
+|height|Number|
 
 
 Show an image on the given position near to the button. You can use following words for the position: 'Left', 'Right', 'Top' or 'Bottom'. Use the padding to add space between the icon and text.
@@ -156,452 +144,308 @@ Show an image on the given position near to the button. You can use following wo
 
 ### Background Color
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('List Picker', 'Background Color')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|&HFF444444|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>&HFF444444</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Returns the button's background color
 
+[[PropertyBlockGetterAndSetter('List Picker', 'Background Color')]]
+
 ### Border Shadow
 
-<small>Available as ^^Advanced^^ Property</small>
+ <small>Available as ^^Advanced^^ Property</small>
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('List Picker', 'Border Shadow')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|True|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Returns true if the button have a outside border shadow on click.
 
+[[PropertyBlockGetterAndSetter('List Picker', 'Border Shadow')]]
+
 ### Elements From String
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('List Picker', 'Elements From String')]]
-
-| Type |
-|:----:|
-|text|
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 ElementsFromString property setter method
 
+[[PropertyBlockGetterAndSetter('List Picker', 'Elements From String')]]
+
 ### Enabled
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('List Picker', 'Enabled')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|True|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 If set, user can tap check box to cause action.
 
+[[PropertyBlockGetterAndSetter('List Picker', 'Enabled')]]
+
 ### Font Bold
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('List Picker', 'Font Bold')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|False|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>False</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 If set, button text is displayed in bold.
 
+[[PropertyBlockGetterAndSetter('List Picker', 'Font Bold')]]
+
 ### Font Italic
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('List Picker', 'Font Italic')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|False|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>False</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 If set, button text is displayed in italics.
 
+[[PropertyBlockGetterAndSetter('List Picker', 'Font Italic')]]
+
 ### Font Size
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('List Picker', 'Font Size')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|14.0|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>14.0</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Point size for button text.
 
+[[PropertyBlockGetterAndSetter('List Picker', 'Font Size')]]
+
 ### Font Typeface
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('List Picker', 'Font Typeface')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|0|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>0</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Font family for button text.
 
+[[PropertyBlockGetterAndSetter('List Picker', 'Font Typeface')]]
+
 ### Font Typeface Import
 
-<small>Available as ^^Advanced^^ Property</small>
+ <small>Available as ^^Advanced^^ Property</small>
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('List Picker', 'Font Typeface Import')]]
-
-| Type |
-|:----:|
-|text|
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Set a custom font.
 
+[[PropertyBlockGetterAndSetter('List Picker', 'Font Typeface Import')]]
+
 ### HTML Format
 
-<small>Available as ^^Advanced^^ Property</small>
+ <small>Available as ^^Advanced^^ Property</small>
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('List Picker', 'HTML Format')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|False|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>False</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 If true, then this button will show html text else it will show plain text. Note: Not all HTML is supported.
 
+[[PropertyBlockGetterAndSetter('List Picker', 'HTML Format')]]
+
 ### Image
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('List Picker', 'Image')]]
-
-| Type |
-|:----:|
-|text|
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Image to display on button.
 
+[[PropertyBlockGetterAndSetter('List Picker', 'Image')]]
+
 ### Item Background Color
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('List Picker', 'Item Background Color')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|&HFF000000|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>&HFF000000</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 The background color of the ListPicker items.
 
+[[PropertyBlockGetterAndSetter('List Picker', 'Item Background Color')]]
+
 ### Item Text Color
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('List Picker', 'Item Text Color')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|&HFFFFFFFF|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>&HFFFFFFFF</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 The text color of the ListPicker items.
 
+[[PropertyBlockGetterAndSetter('List Picker', 'Item Text Color')]]
+
 ### Rotation Angle
 
-<small>Available as ^^Advanced^^ Property</small>
+ <small>Available as ^^Advanced^^ Property</small>
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('List Picker', 'Rotation Angle')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|0.0|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>0.0</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Sets the degrees that the button is rotated around the pivot point. Increasing values result in clockwise rotation.
 
+[[PropertyBlockGetterAndSetter('List Picker', 'Rotation Angle')]]
+
 ### Selection
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('List Picker', 'Selection')]]
-
-| Type |
-|:----:|
-|text|
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 The selected item. When directly changed by the programmer, the SelectionIndex property is also changed to the first item in the ListPicker with the given value. If the value does not appear, SelectionIndex will be set to 0.
 
+[[PropertyBlockGetterAndSetter('List Picker', 'Selection')]]
+
 ### Shape
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('List Picker', 'Shape')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|0|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>0</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Specifies the button's shape (default, rounded, rectangular, oval). The shape will not be visible if an Image is being displayed.
 
+[[PropertyBlockGetterAndSetter('List Picker', 'Shape')]]
+
 ### Show Feedback
 
-<small>Available as ^^Advanced^^ Property</small>
+ <small>Available as ^^Advanced^^ Property</small>
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('List Picker', 'Show Feedback')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|True|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Specifies if a visual feedback should be shown for a button that as an image as background.
 
+[[PropertyBlockGetterAndSetter('List Picker', 'Show Feedback')]]
+
 ### Show Filter Bar
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('List Picker', 'Show Filter Bar')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|False|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>False</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Returns current state of ShowFilterBar indicating if Search Filter Bar will be displayed on ListPicker or not
 
+[[PropertyBlockGetterAndSetter('List Picker', 'Show Filter Bar')]]
+
 ### Status Bar Color
 
-<small>Available as ^^Advanced^^ Property</small>
+ <small>Available as ^^Advanced^^ Property</small>
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('List Picker', 'Status Bar Color')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|&HFF2196F2|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>&HFF2196F2</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 The StatusBarColor of the ListPicker.
 
+[[PropertyBlockGetterAndSetter('List Picker', 'Status Bar Color')]]
+
 ### Status Bar Visible
 
-<small>Available as ^^Advanced^^ Property</small>
+ <small>Available as ^^Advanced^^ Property</small>
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('List Picker', 'Status Bar Visible')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|True|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Whether to show status bar
 
+[[PropertyBlockGetterAndSetter('List Picker', 'Status Bar Visible')]]
+
 ### Text
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('List Picker', 'Text')]]
-
-| Type |
-|:----:|
-|text|
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Text to display on button.
 
+[[PropertyBlockGetterAndSetter('List Picker', 'Text')]]
+
 ### Text Alignment
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('List Picker', 'Text Alignment')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|1|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>1</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Left, center, or right.
 
+[[PropertyBlockGetterAndSetter('List Picker', 'Text Alignment')]]
+
 ### Text Color
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('List Picker', 'Text Color')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|&HFFFFFFFF|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>&HFFFFFFFF</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Color for button text.
 
+[[PropertyBlockGetterAndSetter('List Picker', 'Text Color')]]
+
 ### Title
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('List Picker', 'Title')]]
-
-| Type |
-|:----:|
-|text|
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Optional title displayed at the top of the list of choices.
 
+[[PropertyBlockGetterAndSetter('List Picker', 'Title')]]
+
 ### Title Bar Color
 
-<small>Available as ^^Advanced^^ Property</small>
+ <small>Available as ^^Advanced^^ Property</small>
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('List Picker', 'Title Bar Color')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|&HFF03A9F3|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>&HFF03A9F3</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 The TitleBarColor of the ListPicker.
 
+[[PropertyBlockGetterAndSetter('List Picker', 'Title Bar Color')]]
+
 ### Title Visible
 
-<small>Available as ^^Advanced^^ Property</small>
+ <small>Available as ^^Advanced^^ Property</small>
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('List Picker', 'Title Visible')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|True|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Whether to show title bar
 
+[[PropertyBlockGetterAndSetter('List Picker', 'Title Visible')]]
+
 ### Touch Color
 
-<small>Available as ^^Advanced^^ Property</small>
+ <small>Available as ^^Advanced^^ Property</small>
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('List Picker', 'Touch Color')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|&HFFCCCCCC|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>&HFFCCCCCC</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Set the buttons touch color.
 
+[[PropertyBlockGetterAndSetter('List Picker', 'Touch Color')]]
+
 ### Visible
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('List Picker', 'Visible')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|True|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Returns true iff the component is visible.
 
+[[PropertyBlockGetterAndSetter('List Picker', 'Visible')]]
+
 ### Column
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('List Picker', 'Column')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Blocks</span> 
 
 Column property getter method.
 
+[[PropertyBlockGetterAndSetter('List Picker', 'Column')]]
+
 ### Elements
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('List Picker', 'Elements')]]
-
-| Type | Default |
-|:----:|:-------:|
-|list|None|
+<span class="chip chip-list">List</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Blocks</span> 
 
 Elements property getter method
 
+[[PropertyBlockGetterAndSetter('List Picker', 'Elements')]]
+
 ### Height
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('List Picker', 'Height')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Blocks</span> 
 
 Specifies the component's vertical height, measured in pixels.
 
+[[PropertyBlockGetterAndSetter('List Picker', 'Height')]]
+
 ### Height Percent
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('List Picker', 'Height Percent')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Blocks</span> 
 
 Specifies the component's vertical height as a percentageof the height of its parent Component.
 
+[[PropertyBlockGetterAndSetter('List Picker', 'Height Percent')]]
+
 ### Row
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('List Picker', 'Row')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Blocks</span> 
 
 Row property getter method.
 
+[[PropertyBlockGetterAndSetter('List Picker', 'Row')]]
+
 ### Selection Index
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('List Picker', 'Selection Index')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Blocks</span> 
 
 The index of the currently selected item, starting at 1. If no item is selected, the value will be 0. If an attempt is made to set this to a number less than 1 or greater than the number of items in the ListPicker, SelectionIndex will be set to 0, and Selection will be set to the empty text.
 
+[[PropertyBlockGetterAndSetter('List Picker', 'Selection Index')]]
+
 ### Width
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('List Picker', 'Width')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Blocks</span> 
 
 Specifies the component's horizontal width, measured in pixels.
 
+[[PropertyBlockGetterAndSetter('List Picker', 'Width')]]
+
 ### Width Percent
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('List Picker', 'Width Percent')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Blocks</span> 
 
 Specifies the component's horizontal width as a percentageof the Width of its parent Component.
+
+[[PropertyBlockGetterAndSetter('List Picker', 'Width Percent')]]

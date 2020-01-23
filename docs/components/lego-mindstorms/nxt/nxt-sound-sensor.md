@@ -34,7 +34,7 @@ Sound level has gone within the range.
 
 ### Get Sound Level
 
-_Block preview not available_
+[[Method('NXT Sound Sensor', 'Get Sound Level', True)]]
 
 {>>Returns `number`<<}
 
@@ -44,91 +44,56 @@ Returns the current sound level as a value between 0 and 1023, or -1 if the soun
 
 ### Above Range Event Enabled
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('NXT Sound Sensor', 'Above Range Event Enabled')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|False|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>False</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Whether the AboveRange event should fire when the sound level goes above the TopOfRange.
 
+[[PropertyBlockGetterAndSetter('NXT Sound Sensor', 'Above Range Event Enabled')]]
+
 ### Below Range Event Enabled
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('NXT Sound Sensor', 'Below Range Event Enabled')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|False|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>False</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Whether the BelowRange event should fire when the sound level goes below the BottomOfRange.
 
+[[PropertyBlockGetterAndSetter('NXT Sound Sensor', 'Below Range Event Enabled')]]
+
 ### Bluetooth Client
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('NXT Sound Sensor', 'Bluetooth Client')]]
-
-| Type |
-|:----:|
-|component|
+<span class="chip chip-component">Component</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 The BluetoothClient component that should be used for communication.
 
+[[PropertyBlockGetterAndSetter('NXT Sound Sensor', 'Bluetooth Client')]]
+
 ### Bottom Of Range
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('NXT Sound Sensor', 'Bottom Of Range')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|256|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>256</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 The bottom of the range used for the BelowRange, WithinRange, and AboveRange events.
 
+[[PropertyBlockGetterAndSetter('NXT Sound Sensor', 'Bottom Of Range')]]
+
 ### Sensor Port
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('NXT Sound Sensor', 'Sensor Port')]]
-
-| Type | Default |
-|:----:|:-------:|
-|text|2|
+<span class="chip chip-text">Text</span> <span class="chip chip-text">Default: <i>2</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 The sensor port that the sensor is connected to.
 
+[[PropertyBlockGetterAndSetter('NXT Sound Sensor', 'Sensor Port')]]
+
 ### Top Of Range
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('NXT Sound Sensor', 'Top Of Range')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|767|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>767</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 The top of the range used for the BelowRange, WithinRange, and AboveRange events.
 
+[[PropertyBlockGetterAndSetter('NXT Sound Sensor', 'Top Of Range')]]
+
 ### Within Range Event Enabled
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('NXT Sound Sensor', 'Within Range Event Enabled')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|False|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>False</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Whether the WithinRange event should fire when the sound level goes between the BottomOfRange and the TopOfRange.
+
+[[PropertyBlockGetterAndSetter('NXT Sound Sensor', 'Within Range Event Enabled')]]

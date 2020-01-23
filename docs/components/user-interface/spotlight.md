@@ -22,19 +22,17 @@ Event triggered when the spotlight is clicked.
 
 ### Show Spotlight
 
-_Block preview not available_
+[[Method('Spotlight', 'Show Spotlight', False)]]
 
 Use this block to show the spotlight.
 
 ### Show Spotlight On FAB
 
-_Block preview not available_
+[[Method('Spotlight', 'Show Spotlight On FAB', False, 'floatingActionButton')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |floating Action Button|`component`|
+| Params | []() |
+|--------|------|
+|floating Action Button|Component|
 
 
 Use this block to show the spotlight on a floating action button.
@@ -43,286 +41,176 @@ Use this block to show the spotlight on a floating action button.
 
 ### Circle Padding
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Spotlight', 'Circle Padding')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|20|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>20</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 The padding for the circle spotlight. Default is '20'.
 
+[[PropertyBlockGetterAndSetter('Spotlight', 'Circle Padding')]]
+
 ### Component
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Spotlight', 'Component')]]
-
-| Type |
-|:----:|
-|component|
+<span class="chip chip-component">Component</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 The component to show in the spotlight.
 
+[[PropertyBlockGetterAndSetter('Spotlight', 'Component')]]
+
 ### Dismiss On Back Press
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Spotlight', 'Dismiss On Back Press')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|True|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Dismiss the spotlight on back pressed.
 
+[[PropertyBlockGetterAndSetter('Spotlight', 'Dismiss On Back Press')]]
+
 ### Dismiss On Touch
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Spotlight', 'Dismiss On Touch')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|True|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Dismiss the spotlight on touch
 
+[[PropertyBlockGetterAndSetter('Spotlight', 'Dismiss On Touch')]]
+
 ### Enable Dismiss After Shown
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Spotlight', 'Enable Dismiss After Shown')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|True|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Dismiss spotlight on touch after spotlight is completely visible.
 
+[[PropertyBlockGetterAndSetter('Spotlight', 'Enable Dismiss After Shown')]]
+
 ### Enable Reveal Animation
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Spotlight', 'Enable Reveal Animation')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|True|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Enable reveal animation (Only for Lollipop and above).
 
+[[PropertyBlockGetterAndSetter('Spotlight', 'Enable Reveal Animation')]]
+
 ### Fadein Text Duration
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Spotlight', 'Fadein Text Duration')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|400|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>400</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Fade in animation duration for spotlight text (Heading and Sub-heading).
 
+[[PropertyBlockGetterAndSetter('Spotlight', 'Fadein Text Duration')]]
+
 ### Font Heading Typeface
 
-<small>Available as ^^Common^^ Property</small>
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>0</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
-:eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Spotlight', 'Font Heading Typeface')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|0|
-
-_No description available_
 
 ### Font Heading Typeface Import
 
-<small>Available as ^^Advanced^^ Property</small>
+ <small>Available as ^^Advanced^^ Property</small>
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Spotlight', 'Font Heading Typeface Import')]]
-
-| Type |
-|:----:|
-|text|
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Set a custom font.
+
+[[PropertyBlockGetterAndSetter('Spotlight', 'Font Heading Typeface Import')]]
 
 ### Font Subheading Typeface
 
-<small>Available as ^^Common^^ Property</small>
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>0</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
-:eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Spotlight', 'Font Subheading Typeface')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|0|
-
-_No description available_
 
 ### Font Subheading Typeface Import
 
-<small>Available as ^^Advanced^^ Property</small>
+ <small>Available as ^^Advanced^^ Property</small>
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Spotlight', 'Font Subheading Typeface Import')]]
-
-| Type |
-|:----:|
-|text|
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Set a custom font.
 
+[[PropertyBlockGetterAndSetter('Spotlight', 'Font Subheading Typeface Import')]]
+
 ### Heading Text
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Spotlight', 'Heading Text')]]
-
-| Type |
-|:----:|
-|text|
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 The Spotlight heading text.
 
+[[PropertyBlockGetterAndSetter('Spotlight', 'Heading Text')]]
+
 ### Heading Text Color
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Spotlight', 'Heading Text Color')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|&HFF3F51B5|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>&HFF3F51B5</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 The Spotlight heading text color.
 
+[[PropertyBlockGetterAndSetter('Spotlight', 'Heading Text Color')]]
+
 ### Heading Text Size
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Spotlight', 'Heading Text Size')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|32|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>32</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 The Spotlight heading size.
 
+[[PropertyBlockGetterAndSetter('Spotlight', 'Heading Text Size')]]
+
 ### Intro Animation Duration
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Spotlight', 'Intro Animation Duration')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|400|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>400</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Intro animation duration (For Reveal and Fadein).
 
+[[PropertyBlockGetterAndSetter('Spotlight', 'Intro Animation Duration')]]
+
 ### Line And Arc Color
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Spotlight', 'Line And Arc Color')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|&HFF3F51B5|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>&HFF3F51B5</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 The Spotlight line and arc color.
 
+[[PropertyBlockGetterAndSetter('Spotlight', 'Line And Arc Color')]]
+
 ### Line Animation Duration
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Spotlight', 'Line Animation Duration')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|400|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>400</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Line animation duration
 
+[[PropertyBlockGetterAndSetter('Spotlight', 'Line Animation Duration')]]
+
 ### Mask Color
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Spotlight', 'Mask Color')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|&Hbe000000|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>&Hbe000000</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 The Spotlight mask color
 
+[[PropertyBlockGetterAndSetter('Spotlight', 'Mask Color')]]
+
 ### Show Target Arc
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Spotlight', 'Show Target Arc')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|True|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 If set to true you will see a half round circle below the spotlight circle.
 
+[[PropertyBlockGetterAndSetter('Spotlight', 'Show Target Arc')]]
+
 ### Subheading Text
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Spotlight', 'Subheading Text')]]
-
-| Type |
-|:----:|
-|text|
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 The Spotlight subheading text.
 
+[[PropertyBlockGetterAndSetter('Spotlight', 'Subheading Text')]]
+
 ### Subheading Text Color
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Spotlight', 'Subheading Text Color')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|&HFFFFFFFF|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>&HFFFFFFFF</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 The Spotlight subheading text color.
 
+[[PropertyBlockGetterAndSetter('Spotlight', 'Subheading Text Color')]]
+
 ### Subheading Text Size
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Spotlight', 'Subheading Text Size')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|16|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>16</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 The Spotlight subheading text size.
+
+[[PropertyBlockGetterAndSetter('Spotlight', 'Subheading Text Size')]]

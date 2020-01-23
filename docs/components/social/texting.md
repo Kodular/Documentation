@@ -40,12 +40,10 @@ Another way for an app to specify a phone number would be to include a `` PhoneN
 
 [[Event('Texting', 'Message Received', 'number', 'messageText')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |number|`text`|
-    |message Text|`text`|
+| Params | []() |
+|--------|------|
+|number|Text|
+|message Text|Text|
 
 
 Event that's raised when a text message is received by the phone.
@@ -54,7 +52,7 @@ Event that's raised when a text message is received by the phone.
 
 ### Send Message
 
-_Block preview not available_
+[[Method('Texting', 'Send Message', False)]]
 
 Send a text message
 
@@ -62,52 +60,32 @@ Send a text message
 
 ### Google Voice Enabled
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Texting', 'Google Voice Enabled')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|False|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>False</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 If true, then SendMessage will attempt to send messages over Wifi using Google Voice. This requires that the Google Voice app must be installed and set up on the phone or tablet, with a Google Voice account. If GoogleVoiceEnabled is false, the device must have phone and texting service in order to send or receive messages with this component.
 
+[[PropertyBlockGetterAndSetter('Texting', 'Google Voice Enabled')]]
+
 ### Message
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Texting', 'Message')]]
-
-| Type |
-|:----:|
-|text|
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 The message that will be sent when the SendMessage method is called.
 
+[[PropertyBlockGetterAndSetter('Texting', 'Message')]]
+
 ### Phone Number
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Texting', 'Phone Number')]]
-
-| Type |
-|:----:|
-|text|
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Sets the phone number to send the text message to when the SendMessage function is called.
 
+[[PropertyBlockGetterAndSetter('Texting', 'Phone Number')]]
+
 ### Receiving Enabled
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Texting', 'Receiving Enabled')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|2|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>2</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 If set to 1 (OFF) no messages will be received. If set to 2 (FOREGROUND) or3 (ALWAYS) the component will respond to messages if it is running. If the app is not running then the message will be discarded if set to 2 (FOREGROUND). If set to 3 (ALWAYS) and the app is not running the phone will show a notification. Selecting the notification will bring up the app and signal the MessageReceived event. Messages received when the app is dormant will be queued, and so several MessageReceived events might appear when the app awakens. As an app developer, it would be a good idea to give your users control over this property, so they can make their phones ignore text messages when your app is installed.
+
+[[PropertyBlockGetterAndSetter('Texting', 'Receiving Enabled')]]

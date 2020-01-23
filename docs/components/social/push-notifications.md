@@ -17,12 +17,10 @@ Powered by OneSignal.
 
 [[Event('Push Notifications', 'Got Available Tags', 'tagsAsString', 'tagsAsList')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |tags As String|`text`|
-    |tags As List|`list`|
+| Params | []() |
+|--------|------|
+|tags As String|Text|
+|tags As List|List|
 
 
 Event to detect available one signal tags.
@@ -31,12 +29,10 @@ Event to detect available one signal tags.
 
 [[Event('Push Notifications', 'Got Value', 'tag', 'value')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |tag|`text`|
-    |value|`text`|
+| Params | []() |
+|--------|------|
+|tag|Text|
+|value|Text|
 
 
 Event to receive value for a tag.
@@ -45,13 +41,11 @@ Event to receive value for a tag.
 
 [[Event('Push Notifications', 'Notification Opened', 'id', 'title', 'message')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`text`|
-    |title|`text`|
-    |message|`text`|
+| Params | []() |
+|--------|------|
+|id|Text|
+|title|Text|
+|message|Text|
 
 
 User opened a notification.
@@ -60,13 +54,11 @@ User opened a notification.
 
 [[Event('Push Notifications', 'Notification Received', 'id', 'title', 'message')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`text`|
-    |title|`text`|
-    |message|`text`|
+| Params | []() |
+|--------|------|
+|id|Text|
+|title|Text|
+|message|Text|
 
 
 User received a notification.
@@ -75,11 +67,9 @@ User received a notification.
 
 [[Event('Push Notifications', 'Send Message Done', 'success')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |success|`boolean`|
+| Params | []() |
+|--------|------|
+|success|Boolean|
 
 
 Returns true if your message was send with success out of your app to all users.
@@ -88,68 +78,60 @@ Returns true if your message was send with success out of your app to all users.
 
 ### Clear All Notifications
 
-_Block preview not available_
+[[Method('Push Notifications', 'Clear All Notifications', False)]]
 
 Clear All Notifications.
 
 ### Delete Tag
 
-_Block preview not available_
+[[Method('Push Notifications', 'Delete Tag', False, 'key')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |key|`text`|
+| Params | []() |
+|--------|------|
+|key|Text|
 
 
 Deletes a single tag that was previously set on a user.
 
 ### Get Available Tags
 
-_Block preview not available_
+[[Method('Push Notifications', 'Get Available Tags', False)]]
 
 Get a list of available tags.
 
 ### Get Value
 
-_Block preview not available_
+[[Method('Push Notifications', 'Get Value', False, 'tag', 'valueIfTagNotThere')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |tag|`text`|
-    |value If Tag Not There|`text`|
+| Params | []() |
+|--------|------|
+|tag|Text|
+|value If Tag Not There|Text|
 
 
 Get value for tag.
 
 ### Send Message
 
-_Block preview not available_
+[[Method('Push Notifications', 'Send Message', False, 'title', 'message', 'restApiKey')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |title|`text`|
-    |message|`text`|
-    |rest API Key|`text`|
+| Params | []() |
+|--------|------|
+|title|Text|
+|message|Text|
+|rest API Key|Text|
 
 
 Send a message to all users. The message and your REST Api Key can not be empty! You will find your REST Api Key in your OneSignal account settings.
 
 ### Send Tag
 
-_Block preview not available_
+[[Method('Push Notifications', 'Send Tag', False, 'key', 'value')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |key|`text`|
-    |value|`text`|
+| Params | []() |
+|--------|------|
+|key|Text|
+|value|Text|
 
 
 Tag a user based on an app event of your choosing so later you can create segments in to target these users.
@@ -158,112 +140,80 @@ Tag a user based on an app event of your choosing so later you can create segmen
 
 ### OneSignal App ID
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Push Notifications', 'OneSignal App ID')]]
-
-| Type |
-|:----:|
-|text|
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Set here your One Signal App ID
 
+[[PropertyBlockGetterAndSetter('Push Notifications', 'OneSignal App ID')]]
+
 ### Enable Log
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Push Notifications', 'Enable Log')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|None|
+<span class="chip chip-boolean">Boolean</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Blocks</span> 
 
 If you want to enable the log then set it to true.
 
+[[PropertyBlockGetterAndSetter('Push Notifications', 'Enable Log')]]
+
 ### Enable Sound
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Push Notifications', 'Enable Sound')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|None|
+<span class="chip chip-boolean">Boolean</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Blocks</span> 
 
 Enable Sound.
 
+[[PropertyBlockGetterAndSetter('Push Notifications', 'Enable Sound')]]
+
 ### Enable Vibration
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Push Notifications', 'Enable Vibration')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|None|
+<span class="chip chip-boolean">Boolean</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Blocks</span> 
 
 Enable Vibration.
 
+[[PropertyBlockGetterAndSetter('Push Notifications', 'Enable Vibration')]]
+
 ### Get Email Subscription Email Address
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Push Notifications', 'Get Email Subscription Email Address')]]
-
-| Type | Default |
-|:----:|:-------:|
-|text|None|
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 Get the email subscription email address.
 
+[[PropertyBlockGetter('Push Notifications', 'Get Email Subscription Email Address')]]
+
 ### Get Email Subscription User Id
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Push Notifications', 'Get Email Subscription User Id')]]
-
-| Type | Default |
-|:----:|:-------:|
-|text|None|
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 Get the email subscription user id.
 
+[[PropertyBlockGetter('Push Notifications', 'Get Email Subscription User Id')]]
+
 ### Get Permission Status
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Push Notifications', 'Get Permission Status')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|None|
+<span class="chip chip-boolean">Boolean</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 Get Permission Status
 
+[[PropertyBlockGetter('Push Notifications', 'Get Permission Status')]]
+
 ### Get Subscription Status
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Push Notifications', 'Get Subscription Status')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|None|
+<span class="chip chip-boolean">Boolean</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 Get the subscription Status
 
+[[PropertyBlockGetter('Push Notifications', 'Get Subscription Status')]]
+
 ### Get User Id
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Push Notifications', 'Get User Id')]]
-
-| Type | Default |
-|:----:|:-------:|
-|text|None|
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 Get the User ID. If there is no user id it will return '-1'.
 
+[[PropertyBlockGetter('Push Notifications', 'Get User Id')]]
+
 ### Set Subscription
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Push Notifications', 'Set Subscription')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|None|
+<span class="chip chip-boolean">Boolean</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Blocks</span> 
 
 If you want to subscribe then set it to true.
+
+[[PropertyBlockGetterAndSetter('Push Notifications', 'Set Subscription')]]

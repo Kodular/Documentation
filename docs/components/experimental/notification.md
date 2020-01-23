@@ -14,7 +14,7 @@ A non-visible component that sends a notification to the user''s device.
 
 ### Are Notification Enabled
 
-_Block preview not available_
+[[Method('Notification', 'Are Notification Enabled', True)]]
 
 {>>Returns `boolean`<<}
 
@@ -22,68 +22,60 @@ Check wether the app can send Notifications
 
 ### Big Picture Notification
 
-_Block preview not available_
+[[Method('Notification', 'Big Picture Notification', False, 'notificationID', 'title', 'message', 'bigPicture', 'startValue', 'removeOnClick')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |notification ID|`number`|
-    |title|`text`|
-    |message|`text`|
-    |big Picture|`text`|
-    |start Value|`text`|
-    |remove On Click|`boolean`|
+| Params | []() |
+|--------|------|
+|notification ID|Number|
+|title|Text|
+|message|Text|
+|big Picture|Text|
+|start Value|Text|
+|remove On Click|Boolean|
 
 
 Send a normal notification
 
 ### Cancel All Notifications
 
-_Block preview not available_
+[[Method('Notification', 'Cancel All Notifications', False)]]
 
 Cancel all Notifications
 
 ### Cancel Notification
 
-_Block preview not available_
+[[Method('Notification', 'Cancel Notification', False, 'id')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
+| Params | []() |
+|--------|------|
+|id|Number|
 
 
 Cancel a Notification with an id
 
 ### Normal Notification
 
-_Block preview not available_
+[[Method('Notification', 'Normal Notification', False, 'notificationID', 'title', 'message', 'startValue', 'removeOnClick')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |notification ID|`number`|
-    |title|`text`|
-    |message|`text`|
-    |start Value|`text`|
-    |remove On Click|`boolean`|
+| Params | []() |
+|--------|------|
+|notification ID|Number|
+|title|Text|
+|message|Text|
+|start Value|Text|
+|remove On Click|Boolean|
 
 
 Send a normal notification
 
 ### Simple Notification
 
-_Block preview not available_
+[[Method('Notification', 'Simple Notification', False, 'title', 'message')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |title|`text`|
-    |message|`text`|
+| Params | []() |
+|--------|------|
+|title|Text|
+|message|Text|
 
 
 Send a simple notification
@@ -92,26 +84,16 @@ Send a simple notification
 
 ### Priority
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Notification', 'Priority')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|1|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>1</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Set the priority level. 1 = "Default", 2 = "high", 3 = "low", 4 = "max", 5 = "min"
 
+[[PropertyBlockGetterAndSetter('Notification', 'Priority')]]
+
 ### Visibility
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Notification', 'Visibility')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|1|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>1</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Set the visibility property. 1 = "public", 2 = "private", 3 = "secret".
+
+[[PropertyBlockGetterAndSetter('Notification', 'Visibility')]]

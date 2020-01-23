@@ -16,12 +16,10 @@ A non-visible component that connects the device via the USB Serial to Arduino h
 
 [[Event('Arduino', 'After Read', 'success', 'data')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |success|`boolean`|
-    |data|`text`|
+| Params | []() |
+|--------|------|
+|success|Boolean|
+|data|Text|
 
 
 Triggered after Read function
@@ -30,20 +28,18 @@ Triggered after Read function
 
 ### Baud Rate
 
-_Block preview not available_
+[[Method('Arduino', 'Baud Rate', False, 'baudRate')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |baud Rate|`number`|
+| Params | []() |
+|--------|------|
+|baud Rate|Number|
 
 
 Default baud rate is 9600 bps
 
 ### Close
 
-_Block preview not available_
+[[Method('Arduino', 'Close', True)]]
 
 {>>Returns `boolean`<<}
 
@@ -51,13 +47,13 @@ Closes Arduino Connection
 
 ### Initialize
 
-_Block preview not available_
+[[Method('Arduino', 'Initialize', False)]]
 
 Initializes Arduino Connection
 
 ### Is Opened
 
-_Block preview not available_
+[[Method('Arduino', 'Is Opened', True)]]
 
 {>>Returns `boolean`<<}
 
@@ -65,7 +61,7 @@ Returns true when the Arduino connection is open
 
 ### Open
 
-_Block preview not available_
+[[Method('Arduino', 'Open', True)]]
 
 {>>Returns `boolean`<<}
 
@@ -73,19 +69,17 @@ Opens Arduino Connection
 
 ### Read
 
-_Block preview not available_
+[[Method('Arduino', 'Read', False)]]
 
 Read from Serial
 
 ### Write
 
-_Block preview not available_
+[[Method('Arduino', 'Write', False, 'writeDataArduino')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |data|`text`|
+| Params | []() |
+|--------|------|
+|data|Text|
 
 
 Write Data to Serial

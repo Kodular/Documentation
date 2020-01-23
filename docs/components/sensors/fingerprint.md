@@ -16,12 +16,10 @@ A non-visible component that reads fingerprints using the device''s in-built fin
 
 [[Event('Fingerprint', 'On Authentication Error', 'errorId', 'message')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |error Id|`number`|
-    |message|`text`|
+| Params | []() |
+|--------|------|
+|error Id|Number|
+|message|Text|
 
 
 Triggers when there is a Authentication Error
@@ -36,12 +34,10 @@ Triggers when the Authentication Failed
 
 [[Event('Fingerprint', 'On Authentication Help', 'helpId', 'message')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |help Id|`number`|
-    |message|`text`|
+| Params | []() |
+|--------|------|
+|help Id|Number|
+|message|Text|
 
 
 Triggers when there is a Authentication Help
@@ -56,19 +52,19 @@ Trigger when the Authentication Succeeded
 
 ### Authenticate
 
-_Block preview not available_
+[[Method('Fingerprint', 'Authenticate', False)]]
 
 Authenticate the user with a Fingerprint scanner
 
 ### Cancel Scan
 
-_Block preview not available_
+[[Method('Fingerprint', 'Cancel Scan', False)]]
 
 Cancel the current Fingerprint Scan
 
 ### Has Fingerprint Scanner
 
-_Block preview not available_
+[[Method('Fingerprint', 'Has Fingerprint Scanner', True)]]
 
 {>>Returns `boolean`<<}
 
@@ -76,7 +72,7 @@ True if hardware is present and functional, false otherwise
 
 ### Has Fingers Added
 
-_Block preview not available_
+[[Method('Fingerprint', 'Has Fingers Added', True)]]
 
 {>>Returns `boolean`<<}
 
@@ -86,52 +82,32 @@ True if at least one fingerprint is enrolled, false otherwise
 
 ### Dialog Help Text
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Fingerprint', 'Dialog Help Text')]]
-
-| Type | Default |
-|:----:|:-------:|
-|text|Scan your finger|
+<span class="chip chip-text">Text</span> <span class="chip chip-text">Default: <i>Scan your finger</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Sets the dialog help text
 
+[[PropertyBlockGetterAndSetter('Fingerprint', 'Dialog Help Text')]]
+
 ### Dialog Title
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Fingerprint', 'Dialog Title')]]
-
-| Type | Default |
-|:----:|:-------:|
-|text|Sign in with your fingerprint|
+<span class="chip chip-text">Text</span> <span class="chip chip-text">Default: <i>Sign in with your fingerprint</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Sets the dialog title
 
+[[PropertyBlockGetterAndSetter('Fingerprint', 'Dialog Title')]]
+
 ### Light Theme
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Fingerprint', 'Light Theme')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|False|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>False</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Sets the current theme
 
+[[PropertyBlockGetterAndSetter('Fingerprint', 'Light Theme')]]
+
 ### Use Dialog
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Fingerprint', 'Use Dialog')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|True|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Whether to use a dialog
+
+[[PropertyBlockGetterAndSetter('Fingerprint', 'Use Dialog')]]

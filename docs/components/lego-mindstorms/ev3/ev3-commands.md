@@ -14,7 +14,7 @@ A component that provides a low-level interface to a LEGO MINDSTORMS EV3 robot, 
 
 ### Get Battery Current
 
-_Block preview not available_
+[[Method('EV3 Commands', 'Get Battery Current', True)]]
 
 {>>Returns `number`<<}
 
@@ -22,7 +22,7 @@ Get the battery current.
 
 ### Get Battery Voltage
 
-_Block preview not available_
+[[Method('EV3 Commands', 'Get Battery Voltage', True)]]
 
 {>>Returns `number`<<}
 
@@ -30,7 +30,7 @@ Get the battery voltage.
 
 ### Get Firmware Build
 
-_Block preview not available_
+[[Method('EV3 Commands', 'Get Firmware Build', True)]]
 
 {>>Returns `text`<<}
 
@@ -38,7 +38,7 @@ Get the firmware build on EV3.
 
 ### Get Firmware Version
 
-_Block preview not available_
+[[Method('EV3 Commands', 'Get Firmware Version', True)]]
 
 {>>Returns `text`<<}
 
@@ -46,7 +46,7 @@ Get the firmware version on EV3.
 
 ### Get Hardware Version
 
-_Block preview not available_
+[[Method('EV3 Commands', 'Get Hardware Version', True)]]
 
 {>>Returns `text`<<}
 
@@ -54,7 +54,7 @@ Get the hardware version of EV3.
 
 ### Get OS Build
 
-_Block preview not available_
+[[Method('EV3 Commands', 'Get OS Build', True)]]
 
 {>>Returns `text`<<}
 
@@ -62,7 +62,7 @@ Get the OS build on EV3.
 
 ### Get OS Version
 
-_Block preview not available_
+[[Method('EV3 Commands', 'Get OS Version', True)]]
 
 {>>Returns `text`<<}
 
@@ -70,13 +70,11 @@ Get the OS version on EV3.
 
 ### Keep Alive
 
-_Block preview not available_
+[[Method('EV3 Commands', 'Keep Alive', False, 'minutes')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |minutes|`number`|
+| Params | []() |
+|--------|------|
+|minutes|Number|
 
 
 Keep the EV3 brick from shutdown for a period of time.
@@ -85,13 +83,8 @@ Keep the EV3 brick from shutdown for a period of time.
 
 ### Bluetooth Client
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('EV3 Commands', 'Bluetooth Client')]]
-
-| Type |
-|:----:|
-|component|
+<span class="chip chip-component">Component</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 The BluetoothClient component that should be used for communication.
+
+[[PropertyBlockGetterAndSetter('EV3 Commands', 'Bluetooth Client')]]

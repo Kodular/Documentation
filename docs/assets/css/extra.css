@@ -168,7 +168,7 @@ tr td:nth-child(1) {
   border: 1px solid #ccc;
   max-width: calc(100% - 15px);
 }
-  
+
 #carbonads a {
   color: inherit;
   text-decoration: none;
@@ -206,7 +206,7 @@ tr td:nth-child(1) {
   font-size: 9px;
   line-height: 0;
 }
-  
+
 @media only screen and (min-width: 320px) and (max-width: 759px) {
   #carbonads {
     float: none;
@@ -311,4 +311,41 @@ img[src*="#animationUtilsPreview"] {
 #pre-requisites + p {
 	margin-top: 0;
 	border-bottom: 1px rgba(0,0,0,.17) solid;
+}
+
+.chip {
+  box-sizing: border-box;
+  color: white;
+  padding: 1pt 4pt 1.5pt 3pt;
+  border-radius: 4pt;
+  user-select: none;
+}
+
+.chip-rw {
+  background-color: rgb(200, 200, 200);
+  color: rgb(0, 0, 0);
+}
+
+.chip-bd {
+  background-color: rgb(0, 0, 0);
+}
+
+.chip-number {
+  background-color: rgb(63, 113, 181);
+}
+
+.chip-string, .chip-text {
+  background-color: rgb(179, 45, 94);
+}
+
+.chip-list {
+  background-color: rgb(73, 166, 212);
+}
+
+.chip-color {
+  background-color: rgb(125, 125, 125);
+}
+
+.chip-boolean {
+  background-color: rgb(119, 171, 65);
 }

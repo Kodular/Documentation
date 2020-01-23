@@ -16,11 +16,9 @@ A non-visible component that converts spoken words to text using voice recogniti
 
 [[Event('Speech Recognizer', 'After Getting Text', 'result')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |result|`text`|
+| Params | []() |
+|--------|------|
+|result|Text|
 
 
 Simple event to raise after the VoiceReco activity has returned
@@ -35,7 +33,7 @@ Simple event to raise when VoiceReco is invoked but before the VoiceRecoactivity
 
 ### Get Text
 
-_Block preview not available_
+[[Method('Speech Recognizer', 'Get Text', False)]]
 
 Solicits speech input from the user. After the speech is converted totext, the AfterGettingText event will be raised.
 
@@ -43,11 +41,8 @@ Solicits speech input from the user. After the speech is converted totext, the A
 
 ### Result
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Speech Recognizer', 'Result')]]
-
-| Type | Default |
-|:----:|:-------:|
-|text|None|
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 Result property getter method.
+
+[[PropertyBlockGetter('Speech Recognizer', 'Result')]]

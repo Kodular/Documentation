@@ -14,11 +14,9 @@ A visible component that groups other components in a center-locked, horizontall
 
 [[Event('Gallery Viewer', 'After Picking', 'imageName')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |image Name|`text`|
+| Params | []() |
+|--------|------|
+|image Name|Text|
 
 
 Triggered after an image is selected. It will also report selected image name
@@ -27,140 +25,94 @@ Triggered after an image is selected. It will also report selected image name
 
 ### Padding
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Gallery Viewer', 'Padding')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|5|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>5</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Sets the spacing (in DIP) between images
 
+[[PropertyBlockGetterAndSetter('Gallery Viewer', 'Padding')]]
+
 ### Thumbnail Height in DIP
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Gallery Viewer', 'Thumbnail Height in DIP')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|100|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>100</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Sets the height of thumbnail in DIP (Density Independent Pixel)
 
+[[PropertyBlockGetterAndSetter('Gallery Viewer', 'Thumbnail Height in DIP')]]
+
 ### Thumbnail Width in DIP
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Gallery Viewer', 'Thumbnail Width in DIP')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|100|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>100</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Sets the width of thumbnail in DIP (Density Independent Pixel)
 
+[[PropertyBlockGetterAndSetter('Gallery Viewer', 'Thumbnail Width in DIP')]]
+
 ### Visible
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Gallery Viewer', 'Visible')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|True|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Returns true iff the component is visible.
 
+[[PropertyBlockGetterAndSetter('Gallery Viewer', 'Visible')]]
+
 ### Column
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Gallery Viewer', 'Column')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Blocks</span> 
 
 Column property getter method.
 
+[[PropertyBlockGetterAndSetter('Gallery Viewer', 'Column')]]
+
 ### Height
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Gallery Viewer', 'Height')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Blocks</span> 
 
 Specifies the component's vertical height, measured in pixels.
 
+[[PropertyBlockGetterAndSetter('Gallery Viewer', 'Height')]]
+
 ### Height Percent
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Gallery Viewer', 'Height Percent')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Blocks</span> 
 
 Specifies the component's vertical height as a percentageof the height of its parent Component.
 
+[[PropertyBlockGetterAndSetter('Gallery Viewer', 'Height Percent')]]
+
 ### Images
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Gallery Viewer', 'Images')]]
-
-| Type | Default |
-|:----:|:-------:|
-|list|None|
+<span class="chip chip-list">List</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Blocks</span> 
 
 Adds a series of images to the gallery
 
+[[PropertyBlockGetterAndSetter('Gallery Viewer', 'Images')]]
+
 ### Row
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Gallery Viewer', 'Row')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Blocks</span> 
 
 Row property getter method.
 
+[[PropertyBlockGetterAndSetter('Gallery Viewer', 'Row')]]
+
 ### Selection
 
-:eyes::pencil: Read-Write property
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Blocks</span> 
+
 [[PropertyBlockGetterAndSetter('Gallery Viewer', 'Selection')]]
-
-| Type | Default |
-|:----:|:-------:|
-|text|None|
-
-_No description available_
 
 ### Width
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Gallery Viewer', 'Width')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Blocks</span> 
 
 Specifies the component's horizontal width, measured in pixels.
 
+[[PropertyBlockGetterAndSetter('Gallery Viewer', 'Width')]]
+
 ### Width Percent
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Gallery Viewer', 'Width Percent')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Blocks</span> 
 
 Specifies the component's horizontal width as a percentageof the Width of its parent Component.
+
+[[PropertyBlockGetterAndSetter('Gallery Viewer', 'Width Percent')]]

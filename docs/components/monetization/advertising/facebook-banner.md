@@ -32,11 +32,9 @@ Event triggered when ads are loaded
 
 [[Event('Facebook Banner', 'Error', 'error')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |error|`text`|
+| Params | []() |
+|--------|------|
+|error|Text|
 
 
 Event triggered when ads failed to load
@@ -45,7 +43,7 @@ Event triggered when ads failed to load
 
 ### Load Ad
 
-_Block preview not available_
+[[Method('Facebook Banner', 'Load Ad', False)]]
 
 Load Ad
 
@@ -53,48 +51,32 @@ Load Ad
 
 ### Placement ID
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Facebook Banner', 'Placement ID')]]
-
-| Type |
-|:----:|
-|text|
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Set Placement ID
 
+[[PropertyBlockGetterAndSetter('Facebook Banner', 'Placement ID')]]
+
 ### Visible
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Facebook Banner', 'Visible')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|True|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Returns true iff the component is visible.
 
+[[PropertyBlockGetterAndSetter('Facebook Banner', 'Visible')]]
+
 ### Column
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Facebook Banner', 'Column')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Blocks</span> 
 
 Column property getter method.
 
+[[PropertyBlockGetterAndSetter('Facebook Banner', 'Column')]]
+
 ### Row
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Facebook Banner', 'Row')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Blocks</span> 
 
 Row property getter method.
+
+[[PropertyBlockGetterAndSetter('Facebook Banner', 'Row')]]

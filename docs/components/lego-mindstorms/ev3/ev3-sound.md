@@ -14,22 +14,20 @@ A component that provides a high-level interface to sound functionalities on LEG
 
 ### Play Tone
 
-_Block preview not available_
+[[Method('EV3 Sound', 'Play Tone', False, 'volume', 'frequency', 'milliseconds')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |volume|`number`|
-    |frequency|`number`|
-    |milliseconds|`number`|
+| Params | []() |
+|--------|------|
+|volume|Number|
+|frequency|Number|
+|milliseconds|Number|
 
 
 Make the robot play a tone.
 
 ### Stop Sound
 
-_Block preview not available_
+[[Method('EV3 Sound', 'Stop Sound', False)]]
 
 Stop any sound on the robot.
 
@@ -37,13 +35,8 @@ Stop any sound on the robot.
 
 ### Bluetooth Client
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('EV3 Sound', 'Bluetooth Client')]]
-
-| Type |
-|:----:|
-|component|
+<span class="chip chip-component">Component</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 The BluetoothClient component that should be used for communication.
+
+[[PropertyBlockGetterAndSetter('EV3 Sound', 'Bluetooth Client')]]

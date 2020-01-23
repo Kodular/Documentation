@@ -16,12 +16,10 @@ A non-visible component that allows for uploading of images, videos, audios and 
 
 [[Event('Cloudinary', 'Media Uploaded', 'responseContent', 'url')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |response Content|`text`|
-    |url|`text`|
+| Params | []() |
+|--------|------|
+|response Content|Text|
+|url|Text|
 
 
 Event raised after the Upload Media block has been used
@@ -30,13 +28,11 @@ Event raised after the Upload Media block has been used
 
 ### Upload Media
 
-_Block preview not available_
+[[Method('Cloudinary', 'Upload Media', False, 'path')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |path|`text`|
+| Params | []() |
+|--------|------|
+|path|Text|
 
 
 Uploads the specified media file to your Cloudinary media library.
@@ -45,39 +41,24 @@ Uploads the specified media file to your Cloudinary media library.
 
 ### API Key
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Cloudinary', 'API Key')]]
-
-| Type |
-|:----:|
-|text|
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Your Cloudinary API key.
 
+[[PropertyBlockGetterAndSetter('Cloudinary', 'API Key')]]
+
 ### API Secret
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Cloudinary', 'API Secret')]]
-
-| Type |
-|:----:|
-|text|
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Your Cloudinary API secret.
 
+[[PropertyBlockGetterAndSetter('Cloudinary', 'API Secret')]]
+
 ### Cloud Name
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Cloudinary', 'Cloud Name')]]
-
-| Type |
-|:----:|
-|text|
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Your Cloudinary cloud name.
+
+[[PropertyBlockGetterAndSetter('Cloudinary', 'Cloud Name')]]

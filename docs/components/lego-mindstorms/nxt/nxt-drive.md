@@ -14,86 +14,74 @@ A component that provides a high-level interface to a LEGO MINDSTORMS NXT robot,
 
 ### Move Backward
 
-_Block preview not available_
+[[Method('NXT Drive', 'Move Backward', False, 'power', 'distance')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |power|`number`|
-    |distance|`number`|
+| Params | []() |
+|--------|------|
+|power|Number|
+|distance|Number|
 
 
 Move the robot backward the given distance, with the specified percentage of maximum power, by powering both drive motors backward.
 
 ### Move Backward Indefinitely
 
-_Block preview not available_
+[[Method('NXT Drive', 'Move Backward Indefinitely', False, 'power')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |power|`number`|
+| Params | []() |
+|--------|------|
+|power|Number|
 
 
 Move the robot backward indefinitely, with the specified percentage of maximum power, by powering both drive motors backward.
 
 ### Move Forward
 
-_Block preview not available_
+[[Method('NXT Drive', 'Move Forward', False, 'power', 'distance')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |power|`number`|
-    |distance|`number`|
+| Params | []() |
+|--------|------|
+|power|Number|
+|distance|Number|
 
 
 Move the robot forward the given distance, with the specified percentage of maximum power, by powering both drive motors forward.
 
 ### Move Forward Indefinitely
 
-_Block preview not available_
+[[Method('NXT Drive', 'Move Forward Indefinitely', False, 'power')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |power|`number`|
+| Params | []() |
+|--------|------|
+|power|Number|
 
 
 Move the robot forward indefinitely, with the specified percentage of maximum power, by powering both drive motors forward.
 
 ### Stop
 
-_Block preview not available_
+[[Method('NXT Drive', 'Stop', False)]]
 
 Stop the drive motors of the robot.
 
 ### Turn Clockwise Indefinitely
 
-_Block preview not available_
+[[Method('NXT Drive', 'Turn Clockwise Indefinitely', False, 'power')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |power|`number`|
+| Params | []() |
+|--------|------|
+|power|Number|
 
 
 Turn the robot clockwise indefinitely, with the specified percentage of maximum power, by powering the left drive motor forward and the right drive motor backward.
 
 ### Turn Counter Clockwise Indefinitely
 
-_Block preview not available_
+[[Method('NXT Drive', 'Turn Counter Clockwise Indefinitely', False, 'power')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |power|`number`|
+| Params | []() |
+|--------|------|
+|power|Number|
 
 
 Turn the robot counterclockwise indefinitely, with the specified percentage of maximum power, by powering the right drive motor forward and the left drive motor backward.
@@ -102,52 +90,32 @@ Turn the robot counterclockwise indefinitely, with the specified percentage of m
 
 ### Bluetooth Client
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('NXT Drive', 'Bluetooth Client')]]
-
-| Type |
-|:----:|
-|component|
+<span class="chip chip-component">Component</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 The BluetoothClient component that should be used for communication.
 
+[[PropertyBlockGetterAndSetter('NXT Drive', 'Bluetooth Client')]]
+
 ### Drive Motors
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('NXT Drive', 'Drive Motors')]]
-
-| Type | Default |
-|:----:|:-------:|
-|text|CB|
+<span class="chip chip-text">Text</span> <span class="chip chip-text">Default: <i>CB</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 The motor ports that are used for driving: the left wheel's motor port followed by the right wheel's motor port.
 
+[[PropertyBlockGetterAndSetter('NXT Drive', 'Drive Motors')]]
+
 ### Stop Before Disconnect
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('NXT Drive', 'Stop Before Disconnect')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|True|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Whether to stop the drive motors before disconnecting.
 
+[[PropertyBlockGetterAndSetter('NXT Drive', 'Stop Before Disconnect')]]
+
 ### Wheel Diameter
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('NXT Drive', 'Wheel Diameter')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|4.32|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>4.32</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 The diameter of the wheels used for driving.
+
+[[PropertyBlockGetterAndSetter('NXT Drive', 'Wheel Diameter')]]

@@ -12,7 +12,7 @@ A visible component that indicates the progress of an operation using a range of
 
 ### Get Styles Names
 
-_Block preview not available_
+[[Method('Custom Progress', 'Get Styles Names', True)]]
 
 {>>Returns `list`<<}
 
@@ -22,118 +22,80 @@ Gets style names of all possible animations.
 
 ### Animation Style
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Custom Progress', 'Animation Style')]]
-
-| Type | Default |
-|:----:|:-------:|
-|text|Wave|
+<span class="chip chip-text">Text</span> <span class="chip chip-text">Default: <i>Wave</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Allows you to set animation style. Valid (case-insensitive) values are: ChasingDots, Circle, CubeGrid, DoubleBounce, FadingCircle, FoldingCube, Pulse, RotatingCircle, RotatingPlane, ThreeBounce, WanderingCubes, Wave. If invalid style is used, Wave animation will be used.
 
+[[PropertyBlockGetterAndSetter('Custom Progress', 'Animation Style')]]
+
 ### Background Color
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Custom Progress', 'Background Color')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|&H00FFFFFF|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>&H00FFFFFF</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Sets the background color of this component.
 
+[[PropertyBlockGetterAndSetter('Custom Progress', 'Background Color')]]
+
 ### Color
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Custom Progress', 'Color')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|&HFF008b8b|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>&HFF008b8b</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Sets the color of the component
 
+[[PropertyBlockGetterAndSetter('Custom Progress', 'Color')]]
+
 ### Visible
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Custom Progress', 'Visible')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|True|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Returns true iff the component is visible.
 
+[[PropertyBlockGetterAndSetter('Custom Progress', 'Visible')]]
+
 ### Column
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Custom Progress', 'Column')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Blocks</span> 
 
 Column property getter method.
 
+[[PropertyBlockGetterAndSetter('Custom Progress', 'Column')]]
+
 ### Height
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Custom Progress', 'Height')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Blocks</span> 
 
 Specifies the component's vertical height, measured in pixels.
 
+[[PropertyBlockGetterAndSetter('Custom Progress', 'Height')]]
+
 ### Height Percent
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Custom Progress', 'Height Percent')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Blocks</span> 
 
 Specifies the component's vertical height as a percentageof the height of its parent Component.
 
+[[PropertyBlockGetterAndSetter('Custom Progress', 'Height Percent')]]
+
 ### Row
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Custom Progress', 'Row')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Blocks</span> 
 
 Row property getter method.
 
+[[PropertyBlockGetterAndSetter('Custom Progress', 'Row')]]
+
 ### Width
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Custom Progress', 'Width')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Blocks</span> 
 
 Specifies the component's horizontal width, measured in pixels.
 
+[[PropertyBlockGetterAndSetter('Custom Progress', 'Width')]]
+
 ### Width Percent
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Custom Progress', 'Width Percent')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Blocks</span> 
 
 Specifies the component's horizontal width as a percentageof the Width of its parent Component.
+
+[[PropertyBlockGetterAndSetter('Custom Progress', 'Width Percent')]]

@@ -34,12 +34,10 @@ This callback is called each time an ad is successfully loaded. You can use this
 
 [[Event('Amazon Interstitial', 'Ad Failed To Load', 'error', 'message')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |error|`text`|
-    |message|`text`|
+| Params | []() |
+|--------|------|
+|error|Text|
+|message|Text|
 
 
 Whenever an ad fails to be retrieved, the event is called, returning the error message.
@@ -48,11 +46,9 @@ Whenever an ad fails to be retrieved, the event is called, returning the error m
 
 [[Event('Amazon Interstitial', 'Ad Failed To Show', 'message')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |message|`text`|
+| Params | []() |
+|--------|------|
+|message|Text|
 
 
 Called when an an attempt was made to display the ad, but the ad was not ready to display
@@ -67,13 +63,13 @@ Triggered each time an ad is successfully loaded. But you don't have to display 
 
 ### Load Ad
 
-_Block preview not available_
+[[Method('Amazon Interstitial', 'Load Ad', False)]]
 
 Loads a new ad.
 
 ### Show Interstitial Ad
 
-_Block preview not available_
+[[Method('Amazon Interstitial', 'Show Interstitial Ad', False)]]
 
 It will show the Interstitial Ad
 
@@ -81,78 +77,46 @@ It will show the Interstitial Ad
 
 ### Application Key
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Amazon Interstitial', 'Application Key')]]
-
-| Type | Default |
-|:----:|:-------:|
-|text|ApplicationKey|
+<span class="chip chip-text">Text</span> <span class="chip chip-text">Default: <i>ApplicationKey</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Enter Application Key. Go to Amazon Developer Portal and sign-in for your ApplicationKey
 
+[[PropertyBlockGetterAndSetter('Amazon Interstitial', 'Application Key')]]
+
 ### Interstitial Commission
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Amazon Interstitial', 'Interstitial Commission')]]
-
-| Type | Default |
-|:----:|:-------:|
-|text|unity|
+<span class="chip chip-text">Text</span> <span class="chip chip-text">Default: <i>unity</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Sets the ad network used to take the commission.
 
+[[PropertyBlockGetterAndSetter('Amazon Interstitial', 'Interstitial Commission')]]
+
 ### Enable Debug
 
-<small>Available as ^^Common^^ Property</small>
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
-:eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Amazon Interstitial', 'Enable Debug')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|True|
-
-_No description available_
 
 ### Enable Geo Location Targeting
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Amazon Interstitial', 'Enable Geo Location Targeting')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|True|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 If set to true, uses latitude and longitude coordinates as part of an ad request
 
+[[PropertyBlockGetterAndSetter('Amazon Interstitial', 'Enable Geo Location Targeting')]]
+
 ### Enable Testing
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Amazon Interstitial', 'Enable Testing')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|True|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 For debugging / development purposes flag all ad requests as tests, but set to false for production builds
 
+[[PropertyBlockGetterAndSetter('Amazon Interstitial', 'Enable Testing')]]
+
 ### Target Age
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Amazon Interstitial', 'Target Age')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|0|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>0</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 You can pass age information to the Amazon Mobile Ad Network to target specific age groups. If set as 0, Age Targetting will not be used
+
+[[PropertyBlockGetterAndSetter('Amazon Interstitial', 'Target Age')]]

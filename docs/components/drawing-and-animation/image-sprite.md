@@ -20,11 +20,9 @@ To have an `` ImageSprite `` move 10 pixels to the left every 1000 milliseconds 
 
 [[Event('Image Sprite', 'Collided With', 'other')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |other|`component`|
+| Params | []() |
+|--------|------|
+|other|Component|
 
 
 Event handler called when two enabled sprites (Balls or ImageSprites)collide. Note that checking for collisions with a rotated ImageSprite currentlychecks against its unrotated position. Therefore, collisionchecking will be inaccurate for tall narrow or short wide sprites that arerotated.
@@ -33,16 +31,14 @@ Event handler called when two enabled sprites (Balls or ImageSprites)collide. No
 
 [[Event('Image Sprite', 'Dragged', 'startX', 'startY', 'prevX', 'prevY', 'currentX', 'currentY')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |start X|`number`|
-    |start Y|`number`|
-    |prev X|`number`|
-    |prev Y|`number`|
-    |current X|`number`|
-    |current Y|`number`|
+| Params | []() |
+|--------|------|
+|start X|Number|
+|start Y|Number|
+|prev X|Number|
+|prev Y|Number|
+|current X|Number|
+|current Y|Number|
 
 
 Event handler called when a ImageSprite is dragged. On all calls, the starting coordinates are where the screen was first touched, and the "current" coordinates describe the endpoint of the current line segment. On the first call within a given drag, the "previous" coordinates are the same as the starting coordinates; subsequently, they are the "current" coordinates from the prior call. Note that the ImageSprite won't actually move anywhere in response to the Dragged event unless MoveTo is explicitly called. For smooth movement, each of its coordinates should be set to the sum of its initial value and the difference between its current and previous values.
@@ -51,11 +47,9 @@ Event handler called when a ImageSprite is dragged. On all calls, the starting c
 
 [[Event('Image Sprite', 'Edge Reached', 'edge')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |edge|`number`|
+| Params | []() |
+|--------|------|
+|edge|Number|
 
 
 Event handler called when the ImageSprite reaches an edge of the screen. If Bounce is then called with that edge, the ImageSprite will appear to bounce off of the edge it reached. Edge here is represented as an integer that indicates one of eight directions north (1), northeast (2), east (3), southeast (4), south (-1), southwest (-2), west (-3), and northwest (-4).
@@ -64,16 +58,14 @@ Event handler called when the ImageSprite reaches an edge of the screen. If Boun
 
 [[Event('Image Sprite', 'Flung', 'x', 'y', 'speed', 'heading', 'xvel', 'yvel')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |x|`number`|
-    |y|`number`|
-    |speed|`number`|
-    |heading|`number`|
-    |x vel|`number`|
-    |y vel|`number`|
+| Params | []() |
+|--------|------|
+|x|Number|
+|y|Number|
+|speed|Number|
+|heading|Number|
+|x vel|Number|
+|y vel|Number|
 
 
 Event handler called when a fling gesture (quick swipe) is made on an enabled ImageSprite. This provides the x and y coordinates of the start of the fling (relative to the upper left of the canvas), the speed (pixels per millisecond), the heading (0-360 degrees), and the x and y velocity components of the fling's vector.
@@ -82,11 +74,9 @@ Event handler called when a fling gesture (quick swipe) is made on an enabled Im
 
 [[Event('Image Sprite', 'No Longer Colliding With', 'other')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |other|`component`|
+| Params | []() |
+|--------|------|
+|other|Component|
 
 
 Event handler called when a pair of sprites (Balls and ImageSprites) are no longer colliding.
@@ -95,12 +85,10 @@ Event handler called when a pair of sprites (Balls and ImageSprites) are no long
 
 [[Event('Image Sprite', 'Touch Down', 'x', 'y')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |x|`number`|
-    |y|`number`|
+| Params | []() |
+|--------|------|
+|x|Number|
+|y|Number|
 
 
 Event handler called when the user begins touching an enabled ImageSprite (placing their finger on a ImageSprite and leaving it there). This provides the x and y coordinates of the touch, relative to the upper left of the canvas.
@@ -109,12 +97,10 @@ Event handler called when the user begins touching an enabled ImageSprite (placi
 
 [[Event('Image Sprite', 'Touch Up', 'x', 'y')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |x|`number`|
-    |y|`number`|
+| Params | []() |
+|--------|------|
+|x|Number|
+|y|Number|
 
 
 Event handler called when the user stops touching an enabled ImageSprite (lifting their finger after a TouchDown event). This provides the x and y coordinates of the touch, relative to the upper left of the canvas.
@@ -123,12 +109,10 @@ Event handler called when the user stops touching an enabled ImageSprite (liftin
 
 [[Event('Image Sprite', 'Touched', 'x', 'y')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |x|`number`|
-    |y|`number`|
+| Params | []() |
+|--------|------|
+|x|Number|
+|y|Number|
 
 
 Event handler called when the user touches an enabled ImageSprite and then immediately lifts their finger. The provided x and y coordinates are relative to the upper left of the canvas.
@@ -137,75 +121,65 @@ Event handler called when the user touches an enabled ImageSprite and then immed
 
 ### Bounce
 
-_Block preview not available_
+[[Method('Image Sprite', 'Bounce', False, 'edge')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |edge|`number`|
+| Params | []() |
+|--------|------|
+|edge|Number|
 
 
 Makes the ImageSprite bounce, as if off a wall. For normal bouncing, the edge argument should be the one returned by EdgeReached.
 
 ### Colliding With
 
-_Block preview not available_
+[[Method('Image Sprite', 'Colliding With', True, 'other')]]
 
 {>>Returns `boolean`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |other|`component`|
+| Params | []() |
+|--------|------|
+|other|Component|
 
 
 Indicates whether a collision has been registered between this ImageSprite and the passed sprite (Ball or ImageSprite).
 
 ### Move Into Bounds
 
-_Block preview not available_
+[[Method('Image Sprite', 'Move Into Bounds', False)]]
 
 Moves the ImageSprite back in bounds if part of it extends out of bounds, having no effect otherwise. If the ImageSprite is too wide to fit on the canvas, this aligns the left side of the ImageSprite with the left side of the canvas. If the ImageSprite is too tall to fit on the canvas, this aligns the top side of the ImageSprite with the top side of the canvas.
 
 ### Move To
 
-_Block preview not available_
+[[Method('Image Sprite', 'Move To', False, 'x', 'y')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |x|`number`|
-    |y|`number`|
+| Params | []() |
+|--------|------|
+|x|Number|
+|y|Number|
 
 
 Moves the ImageSprite so that its left top corner is at the specfied x and y coordinates.
 
 ### Point In Direction
 
-_Block preview not available_
+[[Method('Image Sprite', 'Point In Direction', False, 'x', 'y')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |x|`number`|
-    |y|`number`|
+| Params | []() |
+|--------|------|
+|x|Number|
+|y|Number|
 
 
 Sets the heading of the ImageSprite toward the point with the coordinates (x, y).
 
 ### Point Towards
 
-_Block preview not available_
+[[Method('Image Sprite', 'Point Towards', False, 'target')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |target|`component`|
+| Params | []() |
+|--------|------|
+|target|Component|
 
 
 Turns the ImageSprite to point towards a designated target sprite (Ball or ImageSprite). The new heading will be parallel to the line joining the centerpoints of the two sprites.
@@ -214,152 +188,96 @@ Turns the ImageSprite to point towards a designated target sprite (Ball or Image
 
 ### Enabled
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Image Sprite', 'Enabled')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|True|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Controls whether the ImageSprite moves and can be interacted with through collisions, dragging, touching, and flinging.
 
+[[PropertyBlockGetterAndSetter('Image Sprite', 'Enabled')]]
+
 ### Heading
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Image Sprite', 'Heading')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|0|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>0</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Sets heading in which sprite should move. In addition to changing thelocal variables
 
+[[PropertyBlockGetterAndSetter('Image Sprite', 'Heading')]]
+
 ### Interval
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Image Sprite', 'Interval')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|100|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>100</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 The interval in milliseconds at which the ImageSprite's position is updated. For example, if the interval is 50 and the speed is 10, then every 50 milliseconds the sprite will move 10 pixels in the heading direction.
 
+[[PropertyBlockGetterAndSetter('Image Sprite', 'Interval')]]
+
 ### Picture
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Image Sprite', 'Picture')]]
-
-| Type |
-|:----:|
-|text|
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 The picture that determines the ImageSprite's appearance.
 
+[[PropertyBlockGetterAndSetter('Image Sprite', 'Picture')]]
+
 ### Rotates
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Image Sprite', 'Rotates')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|True|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Whether the image should rotate to match the ImageSprite's heading. The sprite rotates around its centerpoint.
 
+[[PropertyBlockGetterAndSetter('Image Sprite', 'Rotates')]]
+
 ### Speed
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Image Sprite', 'Speed')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|0.0|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>0.0</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 The number of pixels that the ImageSprite should move every interval, if enabled.
 
+[[PropertyBlockGetterAndSetter('Image Sprite', 'Speed')]]
+
 ### Visible
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Image Sprite', 'Visible')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|True|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Whether the ImageSprite is visible.
 
+[[PropertyBlockGetterAndSetter('Image Sprite', 'Visible')]]
+
 ### X
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Image Sprite', 'X')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|0.0|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>0.0</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 The horizontal coordinate of the left edge of the ImageSprite, increasing as the ImageSprite moves right.
 
+[[PropertyBlockGetterAndSetter('Image Sprite', 'X')]]
+
 ### Y
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Image Sprite', 'Y')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|0.0|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>0.0</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 The vertical coordinate of the top edge of the ImageSprite, increasing as the ImageSprite moves down.
 
+[[PropertyBlockGetterAndSetter('Image Sprite', 'Y')]]
+
 ### Z
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Image Sprite', 'Z')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|1.0|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>1.0</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Sets the layer of the sprite, indicating whether it will appear infront of or behind other sprites.
 
+[[PropertyBlockGetterAndSetter('Image Sprite', 'Z')]]
+
 ### Height
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Image Sprite', 'Height')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Blocks</span> 
 
 The height of the ImageSprite in pixels.
 
+[[PropertyBlockGetterAndSetter('Image Sprite', 'Height')]]
+
 ### Width
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Image Sprite', 'Width')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Blocks</span> 
 
 The width of the ImageSprite in pixels.
+
+[[PropertyBlockGetterAndSetter('Image Sprite', 'Width')]]

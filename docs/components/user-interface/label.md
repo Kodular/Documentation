@@ -26,32 +26,28 @@ Event to detect that a user has done a simple "Long Click".
 
 ### Set Animation Style
 
-_Block preview not available_
+[[Method('Label', 'Set Animation Style', False, 'style', 'position', 'size', 'color')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |style|`text`|
-    |position|`text`|
-    |size|`number`|
-    |color|`number`|
+| Params | []() |
+|--------|------|
+|style|Text|
+|position|Text|
+|size|Number|
+|color|Number|
 
 
 Allows you to set animation style. Valid (case-insensitive) values are: ChasingDots, Circle, CubeGrid, DoubleBounce, FadingCircle, FoldingCube, Pulse, RotatingCircle, RotatingPlane, ThreeBounce, WanderingCubes, Wave. If invalid style is used, animation will be removed.Position can be: top, left, right, bottom. Size can be 100.
 
 ### Set Shadow
 
-_Block preview not available_
+[[Method('Label', 'Set Shadow', False, 'x', 'y', 'radius', 'color')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |x|`number`|
-    |y|`number`|
-    |radius|`number`|
-    |color|`number`|
+| Params | []() |
+|--------|------|
+|x|Number|
+|y|Number|
+|radius|Number|
+|color|Number|
 
 
 Place a blurred shadow of text underneath the text, drawn with the specified x, y, radius, color (e.g. -11, 12, 13, black
@@ -60,261 +56,160 @@ Place a blurred shadow of text underneath the text, drawn with the specified x, 
 
 ### Background Color
 
-<small>Available as ^^Common^^ Property</small>
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>&H00FFFFFF</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
-:eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Label', 'Background Color')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|&H00FFFFFF|
-
-_No description available_
 
 ### Clickable
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Label', 'Clickable')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|False|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>False</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Set the component clickable or not clickable.
 
+[[PropertyBlockGetterAndSetter('Label', 'Clickable')]]
+
 ### Font Bold
 
-<small>Available as ^^Common^^ Property</small>
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>False</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
-:eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Label', 'Font Bold')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|False|
-
-_No description available_
 
 ### Font Italic
 
-<small>Available as ^^Common^^ Property</small>
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>False</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
-:eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Label', 'Font Italic')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|False|
-
-_No description available_
 
 ### Font Size
 
-<small>Available as ^^Common^^ Property</small>
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>14.0</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
-:eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Label', 'Font Size')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|14.0|
-
-_No description available_
 
 ### Font Typeface
 
-<small>Available as ^^Common^^ Property</small>
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>0</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
-:eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Label', 'Font Typeface')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|0|
-
-_No description available_
 
 ### Font Typeface Import
 
-<small>Available as ^^Advanced^^ Property</small>
+ <small>Available as ^^Advanced^^ Property</small>
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Label', 'Font Typeface Import')]]
-
-| Type |
-|:----:|
-|text|
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Set a custom font.
 
+[[PropertyBlockGetterAndSetter('Label', 'Font Typeface Import')]]
+
 ### HTML Format
 
-<small>Available as ^^Advanced^^ Property</small>
+ <small>Available as ^^Advanced^^ Property</small>
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Label', 'HTML Format')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|False|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>False</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 If true, then this label will show html text else it will show plain text. Note: Not all HTML is supported.
 
+[[PropertyBlockGetterAndSetter('Label', 'HTML Format')]]
+
 ### Has Margins
 
-<small>Available as ^^Advanced^^ Property</small>
+ <small>Available as ^^Advanced^^ Property</small>
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Label', 'Has Margins')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|True|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Reports whether or not the label appears with margins. All four margins (left, right, top, bottom) are the same. This property has no effect in the designer, where labels are always shown with margins.
 
+[[PropertyBlockGetterAndSetter('Label', 'Has Margins')]]
+
 ### Marquee
 
-<small>Available as ^^Advanced^^ Property</small>
+ <small>Available as ^^Advanced^^ Property</small>
 
-:eyes::pencil: Read-Write property
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>false</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
+
 [[PropertyBlockGetterAndSetter('Label', 'Marquee')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|false|
-
-_No description available_
 
 ### Rotation Angle
 
-<small>Available as ^^Advanced^^ Property</small>
+ <small>Available as ^^Advanced^^ Property</small>
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Label', 'Rotation Angle')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|0.0|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>0.0</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Sets the degrees that the label is rotated around the pivot point. Increasing values result in clockwise rotation.
 
+[[PropertyBlockGetterAndSetter('Label', 'Rotation Angle')]]
+
 ### Text
 
-<small>Available as ^^Common^^ Property</small>
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
-:eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Label', 'Text')]]
-
-| Type |
-|:----:|
-|text|
-
-_No description available_
 
 ### Text Alignment
 
-<small>Available as ^^Common^^ Property</small>
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>0</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
-:eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Label', 'Text Alignment')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|0|
-
-_No description available_
 
 ### Text Color
 
-<small>Available as ^^Common^^ Property</small>
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>&HFF000000</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
-:eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Label', 'Text Color')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|&HFF000000|
-
-_No description available_
 
 ### Visible
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Label', 'Visible')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|True|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Returns true iff the component is visible.
 
+[[PropertyBlockGetterAndSetter('Label', 'Visible')]]
+
 ### Column
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Label', 'Column')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Blocks</span> 
 
 Column property getter method.
 
+[[PropertyBlockGetterAndSetter('Label', 'Column')]]
+
 ### Height
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Label', 'Height')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Blocks</span> 
 
 Specifies the component's vertical height, measured in pixels.
 
+[[PropertyBlockGetterAndSetter('Label', 'Height')]]
+
 ### Height Percent
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Label', 'Height Percent')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Blocks</span> 
 
 Specifies the component's vertical height as a percentageof the height of its parent Component.
 
+[[PropertyBlockGetterAndSetter('Label', 'Height Percent')]]
+
 ### Row
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Label', 'Row')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Blocks</span> 
 
 Row property getter method.
 
+[[PropertyBlockGetterAndSetter('Label', 'Row')]]
+
 ### Width
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Label', 'Width')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Blocks</span> 
 
 Specifies the component's horizontal width, measured in pixels.
 
+[[PropertyBlockGetterAndSetter('Label', 'Width')]]
+
 ### Width Percent
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Label', 'Width Percent')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Blocks</span> 
 
 Specifies the component's horizontal width as a percentageof the Width of its parent Component.
+
+[[PropertyBlockGetterAndSetter('Label', 'Width Percent')]]

@@ -14,394 +14,346 @@ Non-visible component that allows users to edit images.
 
 ### Blur Effect
 
-_Block preview not available_
+[[Method('Image Editor', 'Blur Effect', True, 'imageA', 'scale', 'radius')]]
 
 {>>Returns `text`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |image A|`text`|
-    |scale|`number`|
-    |radius|`number`|
+| Params | []() |
+|--------|------|
+|image A|Text|
+|scale|Number|
+|radius|Number|
 
 
 This methods creates a blur effect.
 
 ### Color Boost Effect
 
-_Block preview not available_
+[[Method('Image Editor', 'Color Boost Effect', True, 'imageA', 'type', 'percent')]]
 
 {>>Returns `text`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |image A|`text`|
-    |type|`text`|
-    |percent|`number`|
+| Params | []() |
+|--------|------|
+|image A|Text|
+|type|Text|
+|percent|Number|
 
 
 Color boost technique is basically based on color filtering, which is to increase the intensity of a single color channel. For example: type = green/ blue or red; percent = 40%.
 
 ### Color Filter
 
-_Block preview not available_
+[[Method('Image Editor', 'Color Filter', True, 'imageA', 'red', 'green', 'blue')]]
 
 {>>Returns `text`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |image A|`text`|
-    |red|`number`|
-    |green|`number`|
-    |blue|`number`|
+| Params | []() |
+|--------|------|
+|image A|Text|
+|red|Number|
+|green|Number|
+|blue|Number|
 
 
 Set a color filter to your image. For example: red = 30; green = 40; blue = 20.
 
 ### Flip Picture
 
-_Block preview not available_
+[[Method('Image Editor', 'Flip Picture', True, 'imageA', 'type')]]
 
 {>>Returns `text`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |image A|`text`|
-    |type|`number`|
+| Params | []() |
+|--------|------|
+|image A|Text|
+|type|Number|
 
 
 Flip your image vertical or horizontal. For example: type = 1 (vertical); type = 2 (horizontal).
 
 ### Gamma Effect
 
-_Block preview not available_
+[[Method('Image Editor', 'Gamma Effect', True, 'imageA', 'red', 'green', 'blue')]]
 
 {>>Returns `text`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |image A|`text`|
-    |red|`number`|
-    |green|`number`|
-    |blue|`number`|
+| Params | []() |
+|--------|------|
+|image A|Text|
+|red|Number|
+|green|Number|
+|blue|Number|
 
 
 Set a gamma effect to your image. For example: red = 5; green = 10; blue = 20.
 
 ### Greyscale Effect
 
-_Block preview not available_
+[[Method('Image Editor', 'Greyscale Effect', True, 'imageA')]]
 
 {>>Returns `text`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |image A|`text`|
+| Params | []() |
+|--------|------|
+|image A|Text|
 
 
 Grayscale is a simple image effect that changes colors to grayscale by default.
 
 ### Highlight Effect
 
-_Block preview not available_
+[[Method('Image Editor', 'Highlight Effect', True, 'imageA')]]
 
 {>>Returns `text`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |image A|`text`|
+| Params | []() |
+|--------|------|
+|image A|Text|
 
 
 Set a highlight effect to your image.
 
 ### Hue Filter
 
-_Block preview not available_
+[[Method('Image Editor', 'Hue Filter', True, 'imageA', 'level')]]
 
 {>>Returns `text`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |image A|`text`|
-    |level|`number`|
+| Params | []() |
+|--------|------|
+|image A|Text|
+|level|Number|
 
 
 Change the hue of an image. For example: level = 1 or 2 or 3 or 4 etc.
 
 ### Image Rotation
 
-_Block preview not available_
+[[Method('Image Editor', 'Image Rotation', True, 'imageA', 'degree')]]
 
 {>>Returns `text`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |image A|`text`|
-    |degree|`number`|
+| Params | []() |
+|--------|------|
+|image A|Text|
+|degree|Number|
 
 
 Rotate the image to the degree you need it. For example: degree = 100.
 
 ### Invert Effect
 
-_Block preview not available_
+[[Method('Image Editor', 'Invert Effect', True, 'imageA')]]
 
 {>>Returns `text`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |image A|`text`|
+| Params | []() |
+|--------|------|
+|image A|Text|
 
 
 This effect inverts your image.
 
 ### Merge Two Images
 
-_Block preview not available_
+[[Method('Image Editor', 'Merge Two Images', True, 'leftImage', 'rightImage')]]
 
 {>>Returns `text`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |left Image|`text`|
-    |right Image|`text`|
+| Params | []() |
+|--------|------|
+|left Image|Text|
+|right Image|Text|
 
 
 This methods creates a new side by side horizontal image.
 
 ### Pixelate
 
-_Block preview not available_
+[[Method('Image Editor', 'Pixelate', True, 'imageA', 'pixelationAmount')]]
 
 {>>Returns `text`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |image A|`text`|
-    |pixelation Amount|`number`|
+| Params | []() |
+|--------|------|
+|image A|Text|
+|pixelation Amount|Number|
 
 
 This methods creates a pixelate image effect. Use as example as pixelation Amount '1' for a hugh pixel effect and '99' for a almost not visible pixel effect.
 
 ### Round Corner
 
-_Block preview not available_
+[[Method('Image Editor', 'Round Corner', True, 'imageA', 'round')]]
 
 {>>Returns `text`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |image A|`text`|
-    |round|`number`|
+| Params | []() |
+|--------|------|
+|image A|Text|
+|round|Number|
 
 
 Set a round corner to your image. For example: round = 45.
 
 ### Scale Center Crop
 
-_Block preview not available_
+[[Method('Image Editor', 'Scale Center Crop', True, 'imageA', 'height', 'width')]]
 
 {>>Returns `text`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |image A|`text`|
-    |height|`number`|
-    |width|`number`|
+| Params | []() |
+|--------|------|
+|image A|Text|
+|height|Number|
+|width|Number|
 
 
 This methods creates a new scale center crop image.
 
 ### Sepia Toning Effect
 
-_Block preview not available_
+[[Method('Image Editor', 'Sepia Toning Effect', True, 'imageA', 'depth', 'red', 'green', 'blue')]]
 
 {>>Returns `text`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |image A|`text`|
-    |depth|`number`|
-    |red|`number`|
-    |green|`number`|
-    |blue|`number`|
+| Params | []() |
+|--------|------|
+|image A|Text|
+|depth|Number|
+|red|Number|
+|green|Number|
+|blue|Number|
 
 
 Set a sepia toning effect to your image. For example: depth = 20; red = 10; green = 20; blue = 25.
 
 ### Set Brightness
 
-_Block preview not available_
+[[Method('Image Editor', 'Set Brightness', True, 'imageA', 'value')]]
 
 {>>Returns `text`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |image A|`text`|
-    |value|`number`|
+| Params | []() |
+|--------|------|
+|image A|Text|
+|value|Number|
 
 
 Change the brightness of your image. For example: value = 50 (maximum = 255=100% brightness).
 
 ### Set Color Depth
 
-_Block preview not available_
+[[Method('Image Editor', 'Set Color Depth', True, 'imageA', 'bitOffset')]]
 
 {>>Returns `text`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |image A|`text`|
-    |bit Offset|`number`|
+| Params | []() |
+|--------|------|
+|image A|Text|
+|bit Offset|Number|
 
 
 Change the color depth of an image as you wish. For example: bitOffset = 32 (bit) or bitOffset = 16 (bit).
 
 ### Set Contrast
 
-_Block preview not available_
+[[Method('Image Editor', 'Set Contrast', True, 'imageA', 'value')]]
 
 {>>Returns `text`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |image A|`text`|
-    |value|`number`|
+| Params | []() |
+|--------|------|
+|image A|Text|
+|value|Number|
 
 
 This changes the contrast of your image. For example: value = 1.0 means normal picture contrast. Below 1.0 like as example 0.7 means dark contrast, above 1.0 as example 1.5 means light contrast.
 
 ### Shading Filter
 
-_Block preview not available_
+[[Method('Image Editor', 'Shading Filter', True, 'imageA', 'shadingColor')]]
 
 {>>Returns `text`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |image A|`text`|
-    |shading Color|`number`|
+| Params | []() |
+|--------|------|
+|image A|Text|
+|shading Color|Number|
 
 
 Make a new image with a shading filter. For example: shadingColor = green(rgb value).
 
 ### Tint Color Effect
 
-_Block preview not available_
+[[Method('Image Editor', 'Tint Color Effect', True, 'imageA', 'degree')]]
 
 {>>Returns `text`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |image A|`text`|
-    |degree|`number`|
+| Params | []() |
+|--------|------|
+|image A|Text|
+|degree|Number|
 
 
 That's a pretty new other cool effect. It changes the tint color of your image. For example: degree = 100.
 
 ### Watermark Effect
 
-_Block preview not available_
+[[Method('Image Editor', 'Watermark Effect', True, 'imageA', 'text', 'textSize', 'textColor', 'textUnderline', 'textAlphaValue', 'pointX', 'pointY')]]
 
 {>>Returns `text`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |image A|`text`|
-    |text|`text`|
-    |text Size|`number`|
-    |text Color|`number`|
-    |text Underline|`boolean`|
-    |text Alpha Value|`number`|
-    |point X|`number`|
-    |point Y|`number`|
+| Params | []() |
+|--------|------|
+|image A|Text|
+|text|Text|
+|text Size|Number|
+|text Color|Number|
+|text Underline|Boolean|
+|text Alpha Value|Number|
+|point X|Number|
+|point Y|Number|
 
 
 Set a watermark effect to an image and change the positon/size or color of the text. For example: text = hello; textSize = 25; textColor = red(rgb value); textAlphaValue = 255 (255= 100% visible,127.5= 50% visible, 0= 0% visible); pointX = 50; pointY = 100; text underline(boolean) = true or false.
 
 ### is Landscape
 
-_Block preview not available_
+[[Method('Image Editor', 'is Landscape', True, 'image')]]
 
 {>>Returns `boolean`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |image|`text`|
+| Params | []() |
+|--------|------|
+|image|Text|
 
 
 Return true if image is in landscape format, else return false.
 
 ### is Portrait
 
-_Block preview not available_
+[[Method('Image Editor', 'is Portrait', True, 'image')]]
 
 {>>Returns `boolean`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |image|`text`|
+| Params | []() |
+|--------|------|
+|image|Text|
 
 
 Return true if image is in portrait format, else return false.
 
 ### is Square
 
-_Block preview not available_
+[[Method('Image Editor', 'is Square', True, 'image')]]
 
 {>>Returns `boolean`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |image|`text`|
+| Params | []() |
+|--------|------|
+|image|Text|
 
 
 Return true if image is in square format (means as high as wide or as wide as high), else return false.
@@ -410,13 +362,8 @@ Return true if image is in square format (means as high as wide or as wide as hi
 
 ### Save New Image As
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Image Editor', 'Save New Image As')]]
-
-| Type | Default |
-|:----:|:-------:|
-|text|NewImage.png|
+<span class="chip chip-text">Text</span> <span class="chip chip-text">Default: <i>NewImage.png</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Save the new created image to a folder/ name of your choice.
+
+[[PropertyBlockGetterAndSetter('Image Editor', 'Save New Image As')]]

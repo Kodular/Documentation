@@ -14,11 +14,9 @@ A visible component that indicates the progress of an operation by highlighting 
 
 [[Event('State Progress Bar', 'Error Occurred', 'errorMessage')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |error Message|`text`|
+| Params | []() |
+|--------|------|
+|error Message|Text|
 
 
 Event invoked when a error occurred.
@@ -27,12 +25,10 @@ Event invoked when a error occurred.
 
 [[Event('State Progress Bar', 'State Item Click', 'stateNumber', 'isCurrentState')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |state Number|`number`|
-    |is Current State|`boolean`|
+| Params | []() |
+|--------|------|
+|state Number|Number|
+|is Current State|Boolean|
 
 
 Event invoked when a state item was clicked.
@@ -41,402 +37,260 @@ Event invoked when a state item was clicked.
 
 ### Animation Duration
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('State Progress Bar', 'Animation Duration')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|250|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>250</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Set the animation duration in milliseconds. Example: use 1000 for 1 second.
 
+[[PropertyBlockGetterAndSetter('State Progress Bar', 'Animation Duration')]]
+
 ### Animate Between States
 
-<small>Available as ^^Advanced^^ Property</small>
+ <small>Available as ^^Advanced^^ Property</small>
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('State Progress Bar', 'Animate Between States')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|True|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 If set to true the states will use a animation when they changed.
 
+[[PropertyBlockGetterAndSetter('State Progress Bar', 'Animate Between States')]]
+
 ### Background Color
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('State Progress Bar', 'Background Color')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|&HFF444444|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>&HFF444444</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Change the background color.
 
+[[PropertyBlockGetterAndSetter('State Progress Bar', 'Background Color')]]
+
 ### Current State Description Color
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('State Progress Bar', 'Current State Description Color')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|&HFF4CAF50|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>&HFF4CAF50</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Change the current state description color.
 
+[[PropertyBlockGetterAndSetter('State Progress Bar', 'Current State Description Color')]]
+
 ### Current State Number
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('State Progress Bar', 'Current State Number')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|1|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>1</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Set the current state number.
 
+[[PropertyBlockGetterAndSetter('State Progress Bar', 'Current State Number')]]
+
 ### Description Lines Spacing
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('State Progress Bar', 'Description Lines Spacing')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|5.0|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>5.0</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Set the description lines spacing.
 
+[[PropertyBlockGetterAndSetter('State Progress Bar', 'Description Lines Spacing')]]
+
 ### Description Top Space Incrementer
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('State Progress Bar', 'Description Top Space Incrementer')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|10.0|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>10.0</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Set the description top space incrementer.
 
+[[PropertyBlockGetterAndSetter('State Progress Bar', 'Description Top Space Incrementer')]]
+
 ### Elements From String
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('State Progress Bar', 'Elements From String')]]
-
-| Type | Default |
-|:----:|:-------:|
-|text|Item 1, Item 2, Item 3, Item 4, Item 5|
+<span class="chip chip-text">Text</span> <span class="chip chip-text">Default: <i>Item 1, Item 2, Item 3, Item 4, Item 5</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 The State Progress Bar elements specified as a string with the items separated by commas such as: Item 1, Item 2, Item 3, Item 4, Item 5. Each word before the comma will be an element in the list. You can add maximum 5 items.
 
+[[PropertyBlockGetterAndSetter('State Progress Bar', 'Elements From String')]]
+
 ### Foreground Color
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('State Progress Bar', 'Foreground Color')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|&HFF4CAF50|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>&HFF4CAF50</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Change the foreground color.
 
+[[PropertyBlockGetterAndSetter('State Progress Bar', 'Foreground Color')]]
+
 ### Justify Multiline Description
 
-<small>Available as ^^Advanced^^ Property</small>
+ <small>Available as ^^Advanced^^ Property</small>
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('State Progress Bar', 'Justify Multiline Description')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|True|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 If set to true justify multiline description is enabled.
 
+[[PropertyBlockGetterAndSetter('State Progress Bar', 'Justify Multiline Description')]]
+
 ### Max Description Line
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('State Progress Bar', 'Max Description Line')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|2|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>2</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Set the maximum description line.
 
+[[PropertyBlockGetterAndSetter('State Progress Bar', 'Max Description Line')]]
+
 ### Max State Number
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('State Progress Bar', 'Max State Number')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|5|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>5</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Set the maximum state number.
 
+[[PropertyBlockGetterAndSetter('State Progress Bar', 'Max State Number')]]
+
 ### State Description Color
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('State Progress Bar', 'State Description Color')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|&HFF444444|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>&HFF444444</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Change the state description color.
 
+[[PropertyBlockGetterAndSetter('State Progress Bar', 'State Description Color')]]
+
 ### State Description Size
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('State Progress Bar', 'State Description Size')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|18.0|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>18.0</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Set the state description size.
 
+[[PropertyBlockGetterAndSetter('State Progress Bar', 'State Description Size')]]
+
 ### State Description Typeface
 
-<small>Available as ^^Common^^ Property</small>
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>0</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
-:eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('State Progress Bar', 'State Description Typeface')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|0|
-
-_No description available_
 
 ### State Description Typeface Import
 
-<small>Available as ^^Advanced^^ Property</small>
+ <small>Available as ^^Advanced^^ Property</small>
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('State Progress Bar', 'State Description Typeface Import')]]
-
-| Type |
-|:----:|
-|text|
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Set a custom font for state description typeface.
 
+[[PropertyBlockGetterAndSetter('State Progress Bar', 'State Description Typeface Import')]]
+
 ### State Line Thickness
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('State Progress Bar', 'State Line Thickness')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|10.0|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>10.0</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Set the state line thickness.
 
+[[PropertyBlockGetterAndSetter('State Progress Bar', 'State Line Thickness')]]
+
 ### State Number Background Color
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('State Progress Bar', 'State Number Background Color')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|&HFF000000|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>&HFF000000</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Change the state number background color.
 
+[[PropertyBlockGetterAndSetter('State Progress Bar', 'State Number Background Color')]]
+
 ### State Number Foreground Color
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('State Progress Bar', 'State Number Foreground Color')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|&HFFFFFFFF|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>&HFFFFFFFF</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Change the state number foreground color.
 
+[[PropertyBlockGetterAndSetter('State Progress Bar', 'State Number Foreground Color')]]
+
 ### State Number Is Descending
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('State Progress Bar', 'State Number Is Descending')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|False|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>False</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 If set to true the state number is in descending order.
 
+[[PropertyBlockGetterAndSetter('State Progress Bar', 'State Number Is Descending')]]
+
 ### State Number Text Size
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('State Progress Bar', 'State Number Text Size')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|20.0|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>20.0</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Set the state number text size.
 
+[[PropertyBlockGetterAndSetter('State Progress Bar', 'State Number Text Size')]]
+
 ### State Number Typeface
 
-<small>Available as ^^Common^^ Property</small>
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>0</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
-:eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('State Progress Bar', 'State Number Typeface')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|0|
-
-_No description available_
 
 ### State Number Typeface Import
 
-<small>Available as ^^Advanced^^ Property</small>
+ <small>Available as ^^Advanced^^ Property</small>
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('State Progress Bar', 'State Number Typeface Import')]]
-
-| Type |
-|:----:|
-|text|
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Set a custom font for state number typeface.
 
+[[PropertyBlockGetterAndSetter('State Progress Bar', 'State Number Typeface Import')]]
+
 ### State Progress Bar Height
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('State Progress Bar', 'State Progress Bar Height')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|40.0|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>40.0</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Set the state progress bar height.
 
+[[PropertyBlockGetterAndSetter('State Progress Bar', 'State Progress Bar Height')]]
+
 ### Visible
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('State Progress Bar', 'Visible')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|True|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Returns true iff the component is visible.
 
+[[PropertyBlockGetterAndSetter('State Progress Bar', 'Visible')]]
+
 ### All States Completed
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('State Progress Bar', 'All States Completed')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|None|
+<span class="chip chip-boolean">Boolean</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Blocks</span> 
 
 If set to true all states are completed.
 
+[[PropertyBlockGetterAndSetter('State Progress Bar', 'All States Completed')]]
+
 ### Column
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('State Progress Bar', 'Column')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Blocks</span> 
 
 Column property getter method.
 
+[[PropertyBlockGetterAndSetter('State Progress Bar', 'Column')]]
+
 ### Height
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('State Progress Bar', 'Height')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Blocks</span> 
 
 Specifies the component's vertical height, measured in pixels.
 
+[[PropertyBlockGetterAndSetter('State Progress Bar', 'Height')]]
+
 ### Height Percent
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('State Progress Bar', 'Height Percent')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Blocks</span> 
 
 Specifies the component's vertical height as a percentageof the height of its parent Component.
 
+[[PropertyBlockGetterAndSetter('State Progress Bar', 'Height Percent')]]
+
 ### Row
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('State Progress Bar', 'Row')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Blocks</span> 
 
 Row property getter method.
 
+[[PropertyBlockGetterAndSetter('State Progress Bar', 'Row')]]
+
 ### Width
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('State Progress Bar', 'Width')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Blocks</span> 
 
 Specifies the component's horizontal width, measured in pixels.
 
+[[PropertyBlockGetterAndSetter('State Progress Bar', 'Width')]]
+
 ### Width Percent
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('State Progress Bar', 'Width Percent')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Blocks</span> 
 
 Specifies the component's horizontal width as a percentageof the Width of its parent Component.
+
+[[PropertyBlockGetterAndSetter('State Progress Bar', 'Width Percent')]]

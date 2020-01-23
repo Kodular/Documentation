@@ -40,12 +40,10 @@ deprecated
 
 [[Event('Pedometer', 'Simple Step', 'simpleSteps', 'distance')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |simple Steps|`number`|
-    |distance|`number`|
+| Params | []() |
+|--------|------|
+|simple Steps|Number|
+|distance|Number|
 
 
 This event is run when a raw step is detected
@@ -70,12 +68,10 @@ deprecated
 
 [[Event('Pedometer', 'Walk Step', 'walkSteps', 'distance')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |walk Steps|`number`|
-    |distance|`number`|
+| Params | []() |
+|--------|------|
+|walk Steps|Number|
+|distance|Number|
 
 
 This event is run when a walking step is detected. A walking step is a step that appears to be involved in forward motion.
@@ -86,13 +82,13 @@ This event is run when a walking step is detected. A walking step is a step that
 
 :warning: ==**Deprecated**==
 
-_Block preview not available_
+[[Method('Pedometer', 'Pause', False)]]
 
 Pause counting of steps and distance.
 
 ### Reset
 
-_Block preview not available_
+[[Method('Pedometer', 'Reset', False)]]
 
 Resets the step counter, distance measure and time running.
 
@@ -100,25 +96,25 @@ Resets the step counter, distance measure and time running.
 
 :warning: ==**Deprecated**==
 
-_Block preview not available_
+[[Method('Pedometer', 'Resume', False)]]
 
 Resumes counting, synonym of Start.
 
 ### Save
 
-_Block preview not available_
+[[Method('Pedometer', 'Save', False)]]
 
 Saves the pedometer state to the phone. Permits permits accumulation of steps and distance between invocations of an App that uses the pedometer. Different Apps will have their own saved state.
 
 ### Start
 
-_Block preview not available_
+[[Method('Pedometer', 'Start', False)]]
 
 Start counting steps
 
 ### Stop
 
-_Block preview not available_
+[[Method('Pedometer', 'Stop', False)]]
 
 Stop counting steps
 
@@ -126,109 +122,76 @@ Stop counting steps
 
 ### Stop Detection Timeout
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Pedometer', 'Stop Detection Timeout')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|2000|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>2000</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 The duration in milliseconds of idleness (no steps detected) after which to go into a "stopped" state
 
+[[PropertyBlockGetterAndSetter('Pedometer', 'Stop Detection Timeout')]]
+
 ### Stride Length
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Pedometer', 'Stride Length')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|0.73|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>0.73</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Set the average stride length in meters.
+
+[[PropertyBlockGetterAndSetter('Pedometer', 'Stride Length')]]
 
 ### Calibrate Stride Length
 
 :warning: ==**Deprecated**==
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Pedometer', 'Calibrate Stride Length')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|None|
+<span class="chip chip-boolean">Boolean</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Blocks</span> 
 
 deprecated
 
+[[PropertyBlockGetterAndSetter('Pedometer', 'Calibrate Stride Length')]]
+
 ### Distance
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Pedometer', 'Distance')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 The approximate distance traveled in meters.
 
+[[PropertyBlockGetter('Pedometer', 'Distance')]]
+
 ### Elapsed Time
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Pedometer', 'Elapsed Time')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 Time elapsed in milliseconds since the pedometer was started.
+
+[[PropertyBlockGetter('Pedometer', 'Elapsed Time')]]
 
 ### Moving
 
 :warning: ==**Deprecated**==
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Pedometer', 'Moving')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|None|
+<span class="chip chip-boolean">Boolean</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 deprecated
 
+[[PropertyBlockGetter('Pedometer', 'Moving')]]
+
 ### Simple Steps
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Pedometer', 'Simple Steps')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 The number of simple steps taken since the pedometer has started.
+
+[[PropertyBlockGetter('Pedometer', 'Simple Steps')]]
 
 ### Use GPS
 
 :warning: ==**Deprecated**==
 
-:eyes::pencil: Read-Write property
+<span class="chip chip-boolean">Boolean</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Blocks</span> 
+
 [[PropertyBlockGetterAndSetter('Pedometer', 'Use GPS')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|None|
-
-_No description available_
 
 ### Walk Steps
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Pedometer', 'Walk Steps')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 the number of walk steps taken since the pedometer has started.
+
+[[PropertyBlockGetter('Pedometer', 'Walk Steps')]]

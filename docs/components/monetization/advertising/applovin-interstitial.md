@@ -22,12 +22,10 @@ Called when an ad was closed.
 
 [[Event('AppLovin Interstitial', 'Ad Failed To Load', 'errorCode', 'errorMessage')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |error Code|`number`|
-    |error Message|`text`|
+| Params | []() |
+|--------|------|
+|error Code|Number|
+|error Message|Text|
 
 
 Called when an ad request failed to load. The message will display the error code and error message.
@@ -54,12 +52,10 @@ Called when an ad was started.
 
 [[Event('AppLovin Interstitial', 'Error', 'errorCode', 'errorMessage')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |error Code|`number`|
-    |error Message|`text`|
+| Params | []() |
+|--------|------|
+|error Code|Number|
+|error Message|Text|
 
 
 Called when an ad request failed. The message will display the reason for why the ad failed.
@@ -68,7 +64,7 @@ Called when an ad request failed. The message will display the reason for why th
 
 ### Is European User
 
-_Block preview not available_
+[[Method('AppLovin Interstitial', 'Is European User', True)]]
 
 {>>Returns `boolean`<<}
 
@@ -76,13 +72,13 @@ Returns true if the current app user is located in europe. If true you must ask 
 
 ### Load Ad
 
-_Block preview not available_
+[[Method('AppLovin Interstitial', 'Load Ad', False)]]
 
 Loads a new ad.
 
 ### Show Ad
 
-_Block preview not available_
+[[Method('AppLovin Interstitial', 'Show Ad', False)]]
 
 Shows an ad to the user.
 
@@ -90,37 +86,22 @@ Shows an ad to the user.
 
 ### SDK Key
 
-<small>Available as ^^Common^^ Property</small>
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
-:eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('AppLovin Interstitial', 'SDK Key')]]
-
-| Type |
-|:----:|
-|text|
-
-_No description available_
 
 ### Test Mode
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('AppLovin Interstitial', 'Test Mode')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|False|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>False</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 If you want to test the component then that this property to true. Then you will receive test ads.
 
+[[PropertyBlockGetterAndSetter('AppLovin Interstitial', 'Test Mode')]]
+
 ### User Consent
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('AppLovin Interstitial', 'User Consent')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|None|
+<span class="chip chip-boolean">Boolean</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Blocks</span> 
 
 If set to true the user allowed the ad network to show personalized ads. You only need to request the consent from european users.
+
+[[PropertyBlockGetterAndSetter('AppLovin Interstitial', 'User Consent')]]

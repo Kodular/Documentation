@@ -14,14 +14,12 @@ A non-visible component that loads images asynchronously.
 
 ### Load Image Async
 
-_Block preview not available_
+[[Method('Image Utilities', 'Load Image Async', False, 'component', 'path')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |component|`component`|
-    |path|`text`|
+| Params | []() |
+|--------|------|
+|component|Component|
+|path|Text|
 
 
 Load a new image from the given path to any component. You can load also images from the internet. Supported components: Image, Buttons, Layouts, Canvas.

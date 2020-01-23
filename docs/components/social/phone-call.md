@@ -20,11 +20,9 @@ To directly specify the phone number (e.g., 650-555-1212), set the `` PhoneNumbe
 
 [[Event('Phone Call', 'Incoming Call Answered', 'phoneNumber')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |phone Number|`text`|
+| Params | []() |
+|--------|------|
+|phone Number|Text|
 
 
 Event indicating that an incoming phone call is answered. phoneNumber is the incoming call phone number.
@@ -33,12 +31,10 @@ Event indicating that an incoming phone call is answered. phoneNumber is the inc
 
 [[Event('Phone Call', 'Phone Call Ended', 'status', 'phoneNumber')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |status|`number`|
-    |phone Number|`text`|
+| Params | []() |
+|--------|------|
+|status|Number|
+|phone Number|Text|
 
 
 Event indicating that a phone call has ended. If status is 1, incoming call is missed or rejected; if status is 2, incoming call is answered before hanging up; if status is 3, outgoing call is hung up. phoneNumber is the ended call phone number.
@@ -47,12 +43,10 @@ Event indicating that a phone call has ended. If status is 1, incoming call is m
 
 [[Event('Phone Call', 'Phone Call Started', 'status', 'phoneNumber')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |status|`number`|
-    |phone Number|`text`|
+| Params | []() |
+|--------|------|
+|status|Number|
+|phone Number|Text|
 
 
 Event indicating that a phonecall has started. If status is 1, incoming call is ringing; if status is 2, outgoing call is dialled. phoneNumber is the incoming/outgoing phone number.
@@ -61,7 +55,7 @@ Event indicating that a phonecall has started. If status is 1, incoming call is 
 
 ### Make Phone Call
 
-_Block preview not available_
+[[Method('Phone Call', 'Make Phone Call', False)]]
 
 Makes a phone call using the number in the PhoneNumber property.
 
@@ -69,13 +63,8 @@ Makes a phone call using the number in the PhoneNumber property.
 
 ### Phone Number
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Phone Call', 'Phone Number')]]
-
-| Type |
-|:----:|
-|text|
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 PhoneNumber property getter method.
+
+[[PropertyBlockGetterAndSetter('Phone Call', 'Phone Number')]]

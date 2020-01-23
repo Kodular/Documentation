@@ -22,11 +22,9 @@ User clicked on the action button.
 
 [[Event('Snackbar', 'On Dismissed', 'event')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |event|`text`|
+| Params | []() |
+|--------|------|
+|event|Text|
 
 
 Event to detect the snackbar was dismissed. Possible results can be: "UNDEFINED", "ACTION", "CONSECUTIVE", "MANUAL", "SWIPE" or "TIMEOUT". You can find more information at: https://developer.android.com/reference/android/support/design/widget/Snackbar.Callback.html
@@ -41,13 +39,13 @@ Event to detect the snackbar is shown.
 
 ### Dismiss
 
-_Block preview not available_
+[[Method('Snackbar', 'Dismiss', False)]]
 
 Dismiss the snackbar.
 
 ### Is Shown
 
-_Block preview not available_
+[[Method('Snackbar', 'Is Shown', True)]]
 
 {>>Returns `boolean`<<}
 
@@ -55,27 +53,23 @@ Returns true whether this snackbar is currently being shown.
 
 ### Show
 
-_Block preview not available_
+[[Method('Snackbar', 'Show', False, 'message')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |message|`text`|
+| Params | []() |
+|--------|------|
+|message|Text|
 
 
 Show Snackbar (message supports HTML formatting)
 
 ### Show With Button
 
-_Block preview not available_
+[[Method('Snackbar', 'Show With Button', False, 'message', 'buttonText')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |message|`text`|
-    |button Text|`text`|
+| Params | []() |
+|--------|------|
+|message|Text|
+|button Text|Text|
 
 
 Show Snackbar with action button (message supports HTML formatting)
@@ -84,52 +78,30 @@ Show Snackbar with action button (message supports HTML formatting)
 
 ### Background Color
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Snackbar', 'Background Color')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|&HFF444444|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>&HFF444444</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Specifies the snackbar's background color.
 
+[[PropertyBlockGetterAndSetter('Snackbar', 'Background Color')]]
+
 ### Button Text Color
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Snackbar', 'Button Text Color')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|&HFFFFFFFF|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>&HFFFFFFFF</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Specifies the action button's text color.
 
+[[PropertyBlockGetterAndSetter('Snackbar', 'Button Text Color')]]
+
 ### Duration
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Snackbar', 'Duration')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|0|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>0</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Specifies the length of time that the Snackbar is shown
 
+[[PropertyBlockGetterAndSetter('Snackbar', 'Duration')]]
+
 ### Text Color
 
-<small>Available as ^^Common^^ Property</small>
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>&HFFFFFFFF</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
-:eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Snackbar', 'Text Color')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|&HFFFFFFFF|
-
-_No description available_

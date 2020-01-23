@@ -18,11 +18,9 @@ The difference between a `` Ball `` and an `` ImageSprite `` is that the latter 
 
 [[Event('Ball', 'Collided With', 'other')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |other|`component`|
+| Params | []() |
+|--------|------|
+|other|Component|
 
 
 Event handler called when two enabled sprites (Balls or ImageSprites)collide. Note that checking for collisions with a rotated ImageSprite currentlychecks against its unrotated position. Therefore, collisionchecking will be inaccurate for tall narrow or short wide sprites that arerotated.
@@ -31,16 +29,14 @@ Event handler called when two enabled sprites (Balls or ImageSprites)collide. No
 
 [[Event('Ball', 'Dragged', 'startX', 'startY', 'prevX', 'prevY', 'currentX', 'currentY')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |start X|`number`|
-    |start Y|`number`|
-    |prev X|`number`|
-    |prev Y|`number`|
-    |current X|`number`|
-    |current Y|`number`|
+| Params | []() |
+|--------|------|
+|start X|Number|
+|start Y|Number|
+|prev X|Number|
+|prev Y|Number|
+|current X|Number|
+|current Y|Number|
 
 
 Event handler called when a Ball is dragged. On all calls, the starting coordinates are where the screen was first touched, and the "current" coordinates describe the endpoint of the current line segment. On the first call within a given drag, the "previous" coordinates are the same as the starting coordinates; subsequently, they are the "current" coordinates from the prior call. Note that the Ball won't actually move anywhere in response to the Dragged event unless MoveTo is explicitly called. For smooth movement, each of its coordinates should be set to the sum of its initial value and the difference between its current and previous values.
@@ -49,11 +45,9 @@ Event handler called when a Ball is dragged. On all calls, the starting coordina
 
 [[Event('Ball', 'Edge Reached', 'edge')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |edge|`number`|
+| Params | []() |
+|--------|------|
+|edge|Number|
 
 
 Event handler called when the Ball reaches an edge of the screen. If Bounce is then called with that edge, the Ball will appear to bounce off of the edge it reached. Edge here is represented as an integer that indicates one of eight directions north (1), northeast (2), east (3), southeast (4), south (-1), southwest (-2), west (-3), and northwest (-4).
@@ -62,16 +56,14 @@ Event handler called when the Ball reaches an edge of the screen. If Bounce is t
 
 [[Event('Ball', 'Flung', 'x', 'y', 'speed', 'heading', 'xvel', 'yvel')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |x|`number`|
-    |y|`number`|
-    |speed|`number`|
-    |heading|`number`|
-    |x vel|`number`|
-    |y vel|`number`|
+| Params | []() |
+|--------|------|
+|x|Number|
+|y|Number|
+|speed|Number|
+|heading|Number|
+|x vel|Number|
+|y vel|Number|
 
 
 Event handler called when a fling gesture (quick swipe) is made on an enabled Ball. This provides the x and y coordinates of the start of the fling (relative to the upper left of the canvas), the speed (pixels per millisecond), the heading (0-360 degrees), and the x and y velocity components of the fling's vector.
@@ -80,11 +72,9 @@ Event handler called when a fling gesture (quick swipe) is made on an enabled Ba
 
 [[Event('Ball', 'No Longer Colliding With', 'other')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |other|`component`|
+| Params | []() |
+|--------|------|
+|other|Component|
 
 
 Event handler called when a pair of sprites (Balls and ImageSprites) are no longer colliding.
@@ -93,12 +83,10 @@ Event handler called when a pair of sprites (Balls and ImageSprites) are no long
 
 [[Event('Ball', 'Touch Down', 'x', 'y')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |x|`number`|
-    |y|`number`|
+| Params | []() |
+|--------|------|
+|x|Number|
+|y|Number|
 
 
 Event handler called when the user begins touching an enabled Ball (placing their finger on a Ball and leaving it there). This provides the x and y coordinates of the touch, relative to the upper left of the canvas.
@@ -107,12 +95,10 @@ Event handler called when the user begins touching an enabled Ball (placing thei
 
 [[Event('Ball', 'Touch Up', 'x', 'y')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |x|`number`|
-    |y|`number`|
+| Params | []() |
+|--------|------|
+|x|Number|
+|y|Number|
 
 
 Event handler called when the user stops touching an enabled Ball (lifting their finger after a TouchDown event). This provides the x and y coordinates of the touch, relative to the upper left of the canvas.
@@ -121,12 +107,10 @@ Event handler called when the user stops touching an enabled Ball (lifting their
 
 [[Event('Ball', 'Touched', 'x', 'y')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |x|`number`|
-    |y|`number`|
+| Params | []() |
+|--------|------|
+|x|Number|
+|y|Number|
 
 
 Event handler called when the user touches an enabled Ball and then immediately lifts their finger. The provided x and y coordinates are relative to the upper left of the canvas.
@@ -135,75 +119,65 @@ Event handler called when the user touches an enabled Ball and then immediately 
 
 ### Bounce
 
-_Block preview not available_
+[[Method('Ball', 'Bounce', False, 'edge')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |edge|`number`|
+| Params | []() |
+|--------|------|
+|edge|Number|
 
 
 Makes the Ball bounce, as if off a wall. For normal bouncing, the edge argument should be the one returned by EdgeReached.
 
 ### Colliding With
 
-_Block preview not available_
+[[Method('Ball', 'Colliding With', True, 'other')]]
 
 {>>Returns `boolean`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |other|`component`|
+| Params | []() |
+|--------|------|
+|other|Component|
 
 
 Indicates whether a collision has been registered between this Ball and the passed sprite (Ball or ImageSprite).
 
 ### Move Into Bounds
 
-_Block preview not available_
+[[Method('Ball', 'Move Into Bounds', False)]]
 
 Moves the Ball back in bounds if part of it extends out of bounds, having no effect otherwise. If the Ball is too wide to fit on the canvas, this aligns the left side of the Ball with the left side of the canvas. If the Ball is too tall to fit on the canvas, this aligns the top side of the Ball with the top side of the canvas.
 
 ### Move To
 
-_Block preview not available_
+[[Method('Ball', 'Move To', False, 'x', 'y')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |x|`number`|
-    |y|`number`|
+| Params | []() |
+|--------|------|
+|x|Number|
+|y|Number|
 
 
 Sets the x and y coordinates of the Ball. If CenterAtOrigin is true, the center of the Ball will be placed here. Otherwise, the top left edge of the Ball will be placed at the specified coordinates.
 
 ### Point In Direction
 
-_Block preview not available_
+[[Method('Ball', 'Point In Direction', False, 'x', 'y')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |x|`number`|
-    |y|`number`|
+| Params | []() |
+|--------|------|
+|x|Number|
+|y|Number|
 
 
 Sets the heading of the Ball toward the point with the coordinates (x, y).
 
 ### Point Towards
 
-_Block preview not available_
+[[Method('Ball', 'Point Towards', False, 'target')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |target|`component`|
+| Params | []() |
+|--------|------|
+|target|Component|
 
 
 Turns the Ball to point towards a designated target sprite (Ball or ImageSprite). The new heading will be parallel to the line joining the centerpoints of the two sprites.
@@ -212,143 +186,88 @@ Turns the Ball to point towards a designated target sprite (Ball or ImageSprite)
 
 ### Enabled
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Ball', 'Enabled')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|True|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Controls whether the Ball moves and can be interacted with through collisions, dragging, touching, and flinging.
 
+[[PropertyBlockGetterAndSetter('Ball', 'Enabled')]]
+
 ### Heading
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Ball', 'Heading')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|0|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>0</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Sets heading in which sprite should move. In addition to changing thelocal variables
 
+[[PropertyBlockGetterAndSetter('Ball', 'Heading')]]
+
 ### Interval
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Ball', 'Interval')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|100|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>100</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 The interval in milliseconds at which the Ball's position is updated. For example, if the interval is 50 and the speed is 10, then every 50 milliseconds the sprite will move 10 pixels in the heading direction.
 
+[[PropertyBlockGetterAndSetter('Ball', 'Interval')]]
+
 ### Origin At Center
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Ball', 'Origin At Center')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|False|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>False</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Whether the x- and y-coordinates should represent the center of the Ball (`` true ``) or its left and top edges (`` false ``).
 
+[[PropertyBlockGetterAndSetter('Ball', 'Origin At Center')]]
+
 ### Paint Color
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Ball', 'Paint Color')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|&HFF000000|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>&HFF000000</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 The color of the Ball.
 
+[[PropertyBlockGetterAndSetter('Ball', 'Paint Color')]]
+
 ### Radius
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Ball', 'Radius')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|5|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>5</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 The distance from the edge of the Ball to its center.
 
+[[PropertyBlockGetterAndSetter('Ball', 'Radius')]]
+
 ### Speed
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Ball', 'Speed')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|0.0|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>0.0</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 The number of pixels that the Ball should move every interval, if enabled.
 
+[[PropertyBlockGetterAndSetter('Ball', 'Speed')]]
+
 ### Visible
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Ball', 'Visible')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|True|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Whether the Ball is visible.
 
+[[PropertyBlockGetterAndSetter('Ball', 'Visible')]]
+
 ### X
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Ball', 'X')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|0.0|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>0.0</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 The horizontal coordinate of the Ball, increasing as the Ball moves right. If the property OriginAtCenter is true, the coodinate is for the center of the Ball; otherwise, it is for the leftmost point of the Ball.
 
+[[PropertyBlockGetterAndSetter('Ball', 'X')]]
+
 ### Y
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Ball', 'Y')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|0.0|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>0.0</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 The vertical coordinate of the Ball, increasing as the Ball moves down. If the property OriginAtCenter is true, the coodinate is for the center of the Ball; otherwise, it is for the uppermost point of the Ball.
 
+[[PropertyBlockGetterAndSetter('Ball', 'Y')]]
+
 ### Z
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Ball', 'Z')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|1.0|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>1.0</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Sets the layer of the sprite, indicating whether it will appear infront of or behind other sprites.
+
+[[PropertyBlockGetterAndSetter('Ball', 'Z')]]

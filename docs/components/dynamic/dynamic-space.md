@@ -14,102 +14,88 @@ A component to create dynamic space in Arrangements.
 
 ### Create Space
 
-_Block preview not available_
+[[Method('Dynamic Space', 'Create Space', False, 'id', 'arrangement', 'width', 'height')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
-    |arrangement|`component`|
-    |width|`number`|
-    |height|`number`|
+| Params | []() |
+|--------|------|
+|id|Number|
+|arrangement|Component|
+|width|Number|
+|height|Number|
 
 
 Create a new space component dynamically. Use for width/height '-1' for wrap content or '-2' for fill parent.
 
 ### Delete Space
 
-_Block preview not available_
+[[Method('Dynamic Space', 'Delete Space', False, 'id')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
+| Params | []() |
+|--------|------|
+|id|Number|
 
 
 Remove a space component with the given id.
 
 ### Get Height
 
-_Block preview not available_
+[[Method('Dynamic Space', 'Get Height', True, 'id')]]
 
 {>>Returns `number`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
+| Params | []() |
+|--------|------|
+|id|Number|
 
 
 Get the Height of a space component.
 
 ### Get Space By Id
 
-_Block preview not available_
+[[Method('Dynamic Space', 'Get Space By Id', True, 'id')]]
 
 {>>Returns `component`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
+| Params | []() |
+|--------|------|
+|id|Number|
 
 
 Returns the space referenced by its id.
 
 ### Get Width
 
-_Block preview not available_
+[[Method('Dynamic Space', 'Get Width', True, 'id')]]
 
 {>>Returns `number`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
+| Params | []() |
+|--------|------|
+|id|Number|
 
 
 Get the Width of a space component.
 
 ### Set Height
 
-_Block preview not available_
+[[Method('Dynamic Space', 'Set Height', False, 'id', 'height')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
-    |height|`number`|
+| Params | []() |
+|--------|------|
+|id|Number|
+|height|Number|
 
 
 Update the Height of a space component.
 
 ### Set Width
 
-_Block preview not available_
+[[Method('Dynamic Space', 'Set Width', False, 'id', 'width')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
-    |width|`number`|
+| Params | []() |
+|--------|------|
+|id|Number|
+|width|Number|
 
 
 Update the Width of a space component.

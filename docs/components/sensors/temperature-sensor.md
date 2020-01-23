@@ -16,11 +16,9 @@ Non-visible component that measures the temperature of the air in the room in de
 
 [[Event('Temperature Sensor', 'Temperature Changed', 'temperature')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |temperature|`number`|
+| Params | []() |
+|--------|------|
+|temperature|Number|
 
 
 Event that fires when the temperature is changed
@@ -29,35 +27,24 @@ Event that fires when the temperature is changed
 
 ### Enabled
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Temperature Sensor', 'Enabled')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|True|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Whether Sensor should be Enabled
 
+[[PropertyBlockGetterAndSetter('Temperature Sensor', 'Enabled')]]
+
 ### Available
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Temperature Sensor', 'Available')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|None|
+<span class="chip chip-boolean">Boolean</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 Whether Sensor is Available
 
+[[PropertyBlockGetter('Temperature Sensor', 'Available')]]
+
 ### Temperature
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Temperature Sensor', 'Temperature')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 Returns the temperature in degrees celsius. To return values the sensor must be enabled
+
+[[PropertyBlockGetter('Temperature Sensor', 'Temperature')]]

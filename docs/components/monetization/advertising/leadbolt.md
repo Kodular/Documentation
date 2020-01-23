@@ -16,11 +16,9 @@ A non-visible component that shows LeadBolt ads as rewarded videos and network a
 
 [[Event('LeadBolt', 'Ad Loaded', 'location')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |location|`text`|
+| Params | []() |
+|--------|------|
+|location|Text|
 
 
 Event triggered when ads are loaded
@@ -29,11 +27,9 @@ Event triggered when ads are loaded
 
 [[Event('LeadBolt', 'Ad Clicked', 'location')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |location|`text`|
+| Params | []() |
+|--------|------|
+|location|Text|
 
 
 Event triggered when ads are clicked
@@ -42,12 +38,10 @@ Event triggered when ads are clicked
 
 [[Event('LeadBolt', 'Ad Closed', 'location', 'reward')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |location|`text`|
-    |reward|`boolean`|
+| Params | []() |
+|--------|------|
+|location|Text|
+|reward|Boolean|
 
 
 Event triggered when ads are closed
@@ -56,13 +50,11 @@ Event triggered when ads are closed
 
 [[Event('LeadBolt', 'Ad Failed To Load', 'location', 'error', 'isCache')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |location|`text`|
-    |error|`text`|
-    |is Cache|`boolean`|
+| Params | []() |
+|--------|------|
+|location|Text|
+|error|Text|
+|is Cache|Boolean|
 
 
 Event triggered when ads are failed to load
@@ -71,11 +63,9 @@ Event triggered when ads are failed to load
 
 [[Event('LeadBolt', 'Ad Shown', 'location')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |location|`text`|
+| Params | []() |
+|--------|------|
+|location|Text|
 
 
 Event triggered when ads are shown
@@ -84,7 +74,7 @@ Event triggered when ads are shown
 
 ### Is Network Ad Ready
 
-_Block preview not available_
+[[Method('LeadBolt', 'Is Network Ad Ready', True)]]
 
 {>>Returns `boolean`<<}
 
@@ -92,7 +82,7 @@ Use this block after loading an ad to check whether it's ready to show.
 
 ### Is Rewarded Ad Ready
 
-_Block preview not available_
+[[Method('LeadBolt', 'Is Rewarded Ad Ready', True)]]
 
 {>>Returns `boolean`<<}
 
@@ -100,25 +90,25 @@ Use this block after loading an ad to check whether it's ready to show.
 
 ### Load Network Ad
 
-_Block preview not available_
+[[Method('LeadBolt', 'Load Network Ad', False)]]
 
 Use this block to load a Network ad.
 
 ### Load Rewarded Ad
 
-_Block preview not available_
+[[Method('LeadBolt', 'Load Rewarded Ad', False)]]
 
 Use this block to load a Rewarded Video ad.
 
 ### Show Network Ad
 
-_Block preview not available_
+[[Method('LeadBolt', 'Show Network Ad', False)]]
 
 Use this block after LoadNetworkAd to show the loaded ad.
 
 ### Show Rewarded Ad
 
-_Block preview not available_
+[[Method('LeadBolt', 'Show Rewarded Ad', False)]]
 
 Use this block after LoadRewardedAd to show the loaded ad.
 
@@ -126,39 +116,22 @@ Use this block after LoadRewardedAd to show the loaded ad.
 
 ### API Key
 
-<small>Available as ^^Common^^ Property</small>
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
-:eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('LeadBolt', 'API Key')]]
-
-| Type |
-|:----:|
-|text|
-
-_No description available_
 
 ### Interstitial Commission
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('LeadBolt', 'Interstitial Commission')]]
-
-| Type | Default |
-|:----:|:-------:|
-|text|unity|
+<span class="chip chip-text">Text</span> <span class="chip chip-text">Default: <i>unity</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Sets the ad network used to take the commission.
+
+[[PropertyBlockGetterAndSetter('LeadBolt', 'Interstitial Commission')]]
 
 ### Rewarded Video Commission
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('LeadBolt', 'Rewarded Video Commission')]]
-
-| Type | Default |
-|:----:|:-------:|
-|text|unity|
+<span class="chip chip-text">Text</span> <span class="chip chip-text">Default: <i>unity</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Sets the ad network used to take the commission.
+
+[[PropertyBlockGetterAndSetter('LeadBolt', 'Rewarded Video Commission')]]

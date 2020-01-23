@@ -16,11 +16,9 @@ A non-visible component that authenticates the user using their preferred securi
 
 [[Event('Keyguard Manager', 'On Authentication Request', 'isAuthenticated')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |is Authenticated|`boolean`|
+| Params | []() |
+|--------|------|
+|is Authenticated|Boolean|
 
 
 Event to detect a authentication request was called.
@@ -29,12 +27,10 @@ Event to detect a authentication request was called.
 
 [[Event('Keyguard Manager', 'On Dissmiss Keyguard Request', 'succeeded', 'cancelled')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |succeeded|`boolean`|
-    |cancelled|`boolean`|
+| Params | []() |
+|--------|------|
+|succeeded|Boolean|
+|cancelled|Boolean|
 
 
 Event to detect a dissmiss request keyguard was called.
@@ -43,25 +39,23 @@ Event to detect a dissmiss request keyguard was called.
 
 ### Request Dismiss Keyguard
 
-_Block preview not available_
+[[Method('Keyguard Manager', 'Request Dismiss Keyguard', False)]]
 
 If the device is currently locked, requests the Keyguard to be dismissed. Works only for devices with Android 8+
 
 ### Show Authentication Screen
 
-_Block preview not available_
+[[Method('Keyguard Manager', 'Show Authentication Screen', False)]]
 
 Create the Confirm Credentials screen. You can customize the title and description. Or we will provide a generic one for you if you leave it empty. Works only for devices with Android 5+
 
 ### Show When Locked
 
-_Block preview not available_
+[[Method('Keyguard Manager', 'Show When Locked', False, 'enabled')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |enabled|`boolean`|
+| Params | []() |
+|--------|------|
+|enabled|Boolean|
 
 
 Specifies whether an Activity should be shown on top of the lock screen whenever the lockscreen is up and the activity is resumed. Normally an activity will be transitioned to the stopped state if it is started while the lockscreen is up, but with this flag set the activity will remain in the resumed state visible on-top of the lock screen.
@@ -70,70 +64,48 @@ Specifies whether an Activity should be shown on top of the lock screen whenever
 
 ### Description
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Keyguard Manager', 'Description')]]
-
-| Type | Default |
-|:----:|:-------:|
-|text|Confirm your screen lock.|
+<span class="chip chip-text">Text</span> <span class="chip chip-text">Default: <i>Confirm your screen lock.</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Returns the keyguard manager description text.
 
+[[PropertyBlockGetterAndSetter('Keyguard Manager', 'Description')]]
+
 ### Title
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Keyguard Manager', 'Title')]]
-
-| Type | Default |
-|:----:|:-------:|
-|text|Unlock|
+<span class="chip chip-text">Text</span> <span class="chip chip-text">Default: <i>Unlock</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Returns the keyguard manager title text.
 
+[[PropertyBlockGetterAndSetter('Keyguard Manager', 'Title')]]
+
 ### is Device Locked
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Keyguard Manager', 'is Device Locked')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|None|
+<span class="chip chip-boolean">Boolean</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 Returns whether the device is currently locked and requires a PIN, pattern or password to unlock. Works only for devices with Android 5.1+
 
+[[PropertyBlockGetter('Keyguard Manager', 'is Device Locked')]]
+
 ### is Device Secure
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Keyguard Manager', 'is Device Secure')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|None|
+<span class="chip chip-boolean">Boolean</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 Returns whether the device is secured with a PIN, pattern or password. Works only for devices with Android 6+
 
+[[PropertyBlockGetter('Keyguard Manager', 'is Device Secure')]]
+
 ### is Keyguard Locked
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Keyguard Manager', 'is Keyguard Locked')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|None|
+<span class="chip chip-boolean">Boolean</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 Return whether the keyguard is currently locked.
 
+[[PropertyBlockGetter('Keyguard Manager', 'is Keyguard Locked')]]
+
 ### is Keyguard Secure
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Keyguard Manager', 'is Keyguard Secure')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|None|
+<span class="chip chip-boolean">Boolean</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 Return whether the keyguard is secured by a PIN, pattern or password or a SIM card is currently locked.
+
+[[PropertyBlockGetter('Keyguard Manager', 'is Keyguard Secure')]]

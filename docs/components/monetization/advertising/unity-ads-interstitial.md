@@ -16,13 +16,11 @@ A non-visible component that shows Unity ads as full-screen advertisements.
 
 [[Event('Unity Ads Interstitial', 'Ad Closed', 'placementId', 'wasSkipped', 'wasCompleted')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |placement Id|`text`|
-    |was Skipped|`boolean`|
-    |was Completed|`boolean`|
+| Params | []() |
+|--------|------|
+|placement Id|Text|
+|was Skipped|Boolean|
+|was Completed|Boolean|
 
 
 Called when an ad was closed.
@@ -31,11 +29,9 @@ Called when an ad was closed.
 
 [[Event('Unity Ads Interstitial', 'Ad Opened', 'placementId')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |placement Id|`text`|
+| Params | []() |
+|--------|------|
+|placement Id|Text|
 
 
 Called when an ad was opened.
@@ -44,11 +40,9 @@ Called when an ad was opened.
 
 [[Event('Unity Ads Interstitial', 'Ad Started', 'placementId')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |placement Id|`text`|
+| Params | []() |
+|--------|------|
+|placement Id|Text|
 
 
 Called when an ad was started.
@@ -57,11 +51,9 @@ Called when an ad was started.
 
 [[Event('Unity Ads Interstitial', 'Error', 'error')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |error|`text`|
+| Params | []() |
+|--------|------|
+|error|Text|
 
 
 Called when an ad request failed. The message will display the reason for why the ad failed.
@@ -70,7 +62,7 @@ Called when an ad request failed. The message will display the reason for why th
 
 ### Is Ready
 
-_Block preview not available_
+[[Method('Unity Ads Interstitial', 'Is Ready', True)]]
 
 {>>Returns `boolean`<<}
 
@@ -78,7 +70,7 @@ Returns true if the ad is finished loading and can now be shown.
 
 ### Show Ad
 
-_Block preview not available_
+[[Method('Unity Ads Interstitial', 'Show Ad', False)]]
 
 Shows an ad to the user.
 
@@ -86,39 +78,20 @@ Shows an ad to the user.
 
 ### Game ID
 
-<small>Available as ^^Common^^ Property</small>
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
-:eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Unity Ads Interstitial', 'Game ID')]]
-
-| Type |
-|:----:|
-|text|
-
-_No description available_
 
 ### Placement ID
 
-<small>Available as ^^Common^^ Property</small>
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
-:eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Unity Ads Interstitial', 'Placement ID')]]
-
-| Type |
-|:----:|
-|text|
-
-_No description available_
 
 ### Test Mode
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Unity Ads Interstitial', 'Test Mode')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|False|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>False</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 If you want to test the component then that this property to true. Then you will receive test ads.
+
+[[PropertyBlockGetterAndSetter('Unity Ads Interstitial', 'Test Mode')]]

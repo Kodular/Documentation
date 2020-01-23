@@ -32,11 +32,9 @@ This event is signaled when another player has started (and the current player i
 
 [[Event('Player', 'PlayerError', 'message')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |message|`text`|
+| Params | []() |
+|--------|------|
+|message|Text|
 
 
 The PlayerError event is no longer used. Please use the Screen.ErrorOccurred event instead.
@@ -45,59 +43,53 @@ The PlayerError event is no longer used. Please use the Screen.ErrorOccurred eve
 
 ### Pause
 
-_Block preview not available_
+[[Method('Player', 'Pause', False)]]
 
 Suspends playing the media if it is playing.
 
 ### Seek To
 
-_Block preview not available_
+[[Method('Player', 'Seek To', False, 'position')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |position|`number`|
+| Params | []() |
+|--------|------|
+|position|Number|
 
 
 Set a position where the source file should start playing.
 
 ### Set Left Right Volume
 
-_Block preview not available_
+[[Method('Player', 'Set Left Right Volume', False, 'leftVolume', 'rightVolume')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |left Volume|`number`|
-    |right Volume|`number`|
+| Params | []() |
+|--------|------|
+|left Volume|Number|
+|right Volume|Number|
 
 
 Control the left and right volume of the player. Set the volume to a number between 0 and 100.
 
 ### Start
 
-_Block preview not available_
+[[Method('Player', 'Start', False)]]
 
 Plays the media. If it was previously paused, the playing is resumed
 If it was previously stopped, it starts from the beginning.
 
 ### Stop
 
-_Block preview not available_
+[[Method('Player', 'Stop', False)]]
 
 Stops playing the media and seeks to the beginning of the song.
 
 ### Vibrate
 
-_Block preview not available_
+[[Method('Player', 'Vibrate', False, 'milliseconds')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |milliseconds|`number`|
+| Params | []() |
+|--------|------|
+|milliseconds|Number|
 
 
 Vibrates for specified number of milliseconds.
@@ -106,118 +98,80 @@ Vibrates for specified number of milliseconds.
 
 ### Loop
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Player', 'Loop')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|False|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>False</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 If true, the player will loop when it plays. Setting Loop while the player is playing will affect the current playing.
 
+[[PropertyBlockGetterAndSetter('Player', 'Loop')]]
+
 ### Play Only In Foreground
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Player', 'Play Only In Foreground')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|False|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>False</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 If true, the player will pause playing when leaving the current screen; if false (default option), the player continues playing whenever the current screen is displaying or not.
 
+[[PropertyBlockGetterAndSetter('Player', 'Play Only In Foreground')]]
+
 ### Source
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Player', 'Source')]]
-
-| Type |
-|:----:|
-|text|
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Returns the path to the audio source
 
+[[PropertyBlockGetterAndSetter('Player', 'Source')]]
+
 ### Volume
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Player', 'Volume')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|50|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>50</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Sets the volume to a number between 0 and 100.
 
+[[PropertyBlockGetterAndSetter('Player', 'Volume')]]
+
 ### Current Position
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Player', 'Current Position')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 Returns the current position of the source file that is playing.
 
+[[PropertyBlockGetter('Player', 'Current Position')]]
+
 ### Duration
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Player', 'Duration')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 Returns the duration of the source file.
 
+[[PropertyBlockGetter('Player', 'Duration')]]
+
 ### Get TrackInfo
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Player', 'Get TrackInfo')]]
-
-| Type | Default |
-|:----:|:-------:|
-|text|None|
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 Returns a array of track information.
 
+[[PropertyBlockGetter('Player', 'Get TrackInfo')]]
+
 ### Is Playing
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Player', 'Is Playing')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|None|
+<span class="chip chip-boolean">Boolean</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 Reports whether the media is playing
 
+[[PropertyBlockGetter('Player', 'Is Playing')]]
+
 ### Left Volume
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Player', 'Left Volume')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 Returns the current left volume.
 
+[[PropertyBlockGetter('Player', 'Left Volume')]]
+
 ### Right Volume
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Player', 'Right Volume')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 Returns the current right volume.
+
+[[PropertyBlockGetter('Player', 'Right Volume')]]

@@ -17,14 +17,12 @@ Powered by the Google Play Games service.
 
 [[Event('Google Play Games', 'Got Player', 'name', 'id', 'level', 'xp')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |name|`text`|
-    |id|`text`|
-    |level|`number`|
-    |xp|`number`|
+| Params | []() |
+|--------|------|
+|name|Text|
+|id|Text|
+|level|Number|
+|xp|Number|
 
 
 Got player info
@@ -33,11 +31,9 @@ Got player info
 
 [[Event('Google Play Games', 'Signed In', 'success')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |success|`boolean`|
+| Params | []() |
+|--------|------|
+|success|Boolean|
 
 
 User signed in.
@@ -52,27 +48,25 @@ User signed out.
 
 ### Get Player
 
-_Block preview not available_
+[[Method('Google Play Games', 'Get Player', False)]]
 
 Get the current player
 
 ### Increment Achievement
 
-_Block preview not available_
+[[Method('Google Play Games', 'Increment Achievement', False, 'achievementId', 'by')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |achievement Id|`text`|
-    |by|`number`|
+| Params | []() |
+|--------|------|
+|achievement Id|Text|
+|by|Number|
 
 
 Increment an achievement.
 
 ### Is Signed In
 
-_Block preview not available_
+[[Method('Google Play Games', 'Is Signed In', True)]]
 
 {>>Returns `boolean`<<}
 
@@ -80,65 +74,57 @@ Is user signed in?
 
 ### Show Achievements
 
-_Block preview not available_
+[[Method('Google Play Games', 'Show Achievements', False)]]
 
 Shows Achievement.
 
 ### Show Leaderboard
 
-_Block preview not available_
+[[Method('Google Play Games', 'Show Leaderboard', False, 'leaderboardId')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |leaderboard Id|`text`|
+| Params | []() |
+|--------|------|
+|leaderboard Id|Text|
 
 
 Shows Leaderboard.
 
 ### Sign In
 
-_Block preview not available_
+[[Method('Google Play Games', 'Sign In', False, 'useLastAccount')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |use Last Account|`boolean`|
+| Params | []() |
+|--------|------|
+|use Last Account|Boolean|
 
 
 Sign in the user. useLastAccount, true: use the last signed in account if possible, false: open a screen to choose for an account
 
 ### Sign Out
 
-_Block preview not available_
+[[Method('Google Play Games', 'Sign Out', False)]]
 
 Sign out the user.
 
 ### Submit Score
 
-_Block preview not available_
+[[Method('Google Play Games', 'Submit Score', False, 'leaderboardId', 'score')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |leaderboard Id|`text`|
-    |score|`number`|
+| Params | []() |
+|--------|------|
+|leaderboard Id|Text|
+|score|Number|
 
 
 Submits user score to leaderboard.
 
 ### Unlock Achievements
 
-_Block preview not available_
+[[Method('Google Play Games', 'Unlock Achievements', False, 'achievementId')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |achievement Id|`text`|
+| Params | []() |
+|--------|------|
+|achievement Id|Text|
 
 
 Unlock an achievement.
@@ -147,13 +133,6 @@ Unlock an achievement.
 
 ### Google Play Games App ID
 
-<small>Available as ^^Common^^ Property</small>
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
-:eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Google Play Games', 'Google Play Games App ID')]]
-
-| Type |
-|:----:|
-|text|
-
-_No description available_

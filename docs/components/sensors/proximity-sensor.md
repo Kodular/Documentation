@@ -16,11 +16,9 @@ Non-visible component that can measures the proximity of an object in cm relativ
 
 [[Event('Proximity Sensor', 'Proximity Changed', 'distance')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |distance|`number`|
+| Params | []() |
+|--------|------|
+|distance|Number|
 
 
 Triggered when distance (in cm) of the object to the device changes.
@@ -29,59 +27,40 @@ Triggered when distance (in cm) of the object to the device changes.
 
 ### Enabled
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Proximity Sensor', 'Enabled')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|True|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 If true, the sensor will generate events. Otherwise, no eventsare generated .
 
+[[PropertyBlockGetterAndSetter('Proximity Sensor', 'Enabled')]]
+
 ### Keep Running When On Pause
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Proximity Sensor', 'Keep Running When On Pause')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|False|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>False</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Returns value of keepRunningWhenOnPause
 
+[[PropertyBlockGetterAndSetter('Proximity Sensor', 'Keep Running When On Pause')]]
+
 ### Available
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Proximity Sensor', 'Available')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|None|
+<span class="chip chip-boolean">Boolean</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 Reports whether or not the device has a proximity sensor
 
+[[PropertyBlockGetter('Proximity Sensor', 'Available')]]
+
 ### Distance
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Proximity Sensor', 'Distance')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 Returns the distance from the object to the device
 
+[[PropertyBlockGetter('Proximity Sensor', 'Distance')]]
+
 ### Maximum Range
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Proximity Sensor', 'Maximum Range')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 Reports the Maximum Range of the device's ProximitySensor
+
+[[PropertyBlockGetter('Proximity Sensor', 'Maximum Range')]]

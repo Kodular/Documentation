@@ -22,12 +22,10 @@ Called when the ad is expiring. You should load a new ad.
 
 [[Event('AdColony Interstitial', 'Ad Failed To Load', 'errorCode', 'errorMessage')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |error Code|`number`|
-    |error Message|`text`|
+| Params | []() |
+|--------|------|
+|error Code|Number|
+|error Message|Text|
 
 
 Called when an ad request failed to load. The message will display the error code and error message.
@@ -48,11 +46,9 @@ Called when an ad was opened.
 
 [[Event('AdColony Interstitial', 'Error', 'error')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |error|`text`|
+| Params | []() |
+|--------|------|
+|error|Text|
 
 
 Called when an ad request failed. The message will display the reason for why the ad failed.
@@ -61,7 +57,7 @@ Called when an ad request failed. The message will display the reason for why th
 
 ### Is European User
 
-_Block preview not available_
+[[Method('AdColony Interstitial', 'Is European User', True)]]
 
 {>>Returns `boolean`<<}
 
@@ -69,13 +65,13 @@ Returns true if the current app user is located in europe. If true you must ask 
 
 ### Load Ad
 
-_Block preview not available_
+[[Method('AdColony Interstitial', 'Load Ad', False)]]
 
 Loads a new ad.
 
 ### Show Ad
 
-_Block preview not available_
+[[Method('AdColony Interstitial', 'Show Ad', False)]]
 
 Shows an ad to the user.
 
@@ -83,37 +79,20 @@ Shows an ad to the user.
 
 ### App ID
 
-<small>Available as ^^Common^^ Property</small>
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
-:eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('AdColony Interstitial', 'App ID')]]
-
-| Type |
-|:----:|
-|text|
-
-_No description available_
 
 ### Zone ID
 
-<small>Available as ^^Common^^ Property</small>
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
-:eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('AdColony Interstitial', 'Zone ID')]]
-
-| Type |
-|:----:|
-|text|
-
-_No description available_
 
 ### User Consent
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('AdColony Interstitial', 'User Consent')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|None|
+<span class="chip chip-boolean">Boolean</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Blocks</span> 
 
 If set to true the user allowed the ad network to show personalized ads. You only need to request the consent from european users.
+
+[[PropertyBlockGetterAndSetter('AdColony Interstitial', 'User Consent')]]

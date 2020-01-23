@@ -15,21 +15,19 @@ A chat consists of messages sent by two or more than two users where each messag
 
 [[Event('Chat View', 'Click', 'userImage', 'title', 'message', 'timestamp', 'id', 'sendAsSender', 'imagePath', 'withImage', 'filePath', 'fileThumbnail', 'withFile')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |user Image|`text`|
-    |title|`text`|
-    |message|`text`|
-    |timestamp|`text`|
-    |id|`number`|
-    |send As Sender|`boolean`|
-    |image Path|`text`|
-    |with Image|`boolean`|
-    |file Path|`text`|
-    |file Thumbnail|`text`|
-    |with File|`boolean`|
+| Params | []() |
+|--------|------|
+|user Image|Text|
+|title|Text|
+|message|Text|
+|timestamp|Text|
+|id|Number|
+|send As Sender|Boolean|
+|image Path|Text|
+|with Image|Boolean|
+|file Path|Text|
+|file Thumbnail|Text|
+|with File|Boolean|
 
 
 Click listener event.
@@ -38,21 +36,19 @@ Click listener event.
 
 [[Event('Chat View', 'Double Tap Click', 'userImage', 'title', 'message', 'timestamp', 'id', 'sendAsSender', 'imagePath', 'withImage', 'filePath', 'fileThumbnail', 'withFile')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |user Image|`text`|
-    |title|`text`|
-    |message|`text`|
-    |timestamp|`text`|
-    |id|`number`|
-    |send As Sender|`boolean`|
-    |image Path|`text`|
-    |with Image|`boolean`|
-    |file Path|`text`|
-    |file Thumbnail|`text`|
-    |with File|`boolean`|
+| Params | []() |
+|--------|------|
+|user Image|Text|
+|title|Text|
+|message|Text|
+|timestamp|Text|
+|id|Number|
+|send As Sender|Boolean|
+|image Path|Text|
+|with Image|Boolean|
+|file Path|Text|
+|file Thumbnail|Text|
+|with File|Boolean|
 
 
 Double tap click listener event.
@@ -61,21 +57,19 @@ Double tap click listener event.
 
 [[Event('Chat View', 'Long Click', 'userImage', 'title', 'message', 'timestamp', 'id', 'sendAsSender', 'imagePath', 'withImage', 'filePath', 'fileThumbnail', 'withFile')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |user Image|`text`|
-    |title|`text`|
-    |message|`text`|
-    |timestamp|`text`|
-    |id|`number`|
-    |send As Sender|`boolean`|
-    |image Path|`text`|
-    |with Image|`boolean`|
-    |file Path|`text`|
-    |file Thumbnail|`text`|
-    |with File|`boolean`|
+| Params | []() |
+|--------|------|
+|user Image|Text|
+|title|Text|
+|message|Text|
+|timestamp|Text|
+|id|Number|
+|send As Sender|Boolean|
+|image Path|Text|
+|with Image|Boolean|
+|file Path|Text|
+|file Thumbnail|Text|
+|with File|Boolean|
 
 
 Long click listener event.
@@ -84,22 +78,20 @@ Long click listener event.
 
 [[Event('Chat View', 'Swipe', 'direction', 'userImage', 'title', 'message', 'timestamp', 'id', 'sendAsSender', 'imagePath', 'withImage', 'filePath', 'fileThumbnail', 'withFile')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |direction|`number`|
-    |user Image|`text`|
-    |title|`text`|
-    |message|`text`|
-    |timestamp|`text`|
-    |id|`number`|
-    |send As Sender|`boolean`|
-    |image Path|`text`|
-    |with Image|`boolean`|
-    |file Path|`text`|
-    |file Thumbnail|`text`|
-    |with File|`boolean`|
+| Params | []() |
+|--------|------|
+|direction|Number|
+|user Image|Text|
+|title|Text|
+|message|Text|
+|timestamp|Text|
+|id|Number|
+|send As Sender|Boolean|
+|image Path|Text|
+|with Image|Boolean|
+|file Path|Text|
+|file Thumbnail|Text|
+|with File|Boolean|
 
 
 Swipe listener event. The direction value returns '1' for right-to-left swipes, '2' for left-to-right swipes '3' for bottom-to-top swipes and '4' for top-to-bottom swipes
@@ -108,12 +100,10 @@ Swipe listener event. The direction value returns '1' for right-to-left swipes, 
 
 [[Event('Chat View', 'User Image Click', 'id', 'userImage')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
-    |user Image|`text`|
+| Params | []() |
+|--------|------|
+|id|Number|
+|user Image|Text|
 
 
 Click listener event for the user image.
@@ -122,105 +112,95 @@ Click listener event for the user image.
 
 ### Add Component Message
 
-_Block preview not available_
+[[Method('Chat View', 'Add Component Message', False, 'userImage', 'title', 'message', 'timestamp', 'component', 'id', 'addAsSender')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |user Image|`text`|
-    |title|`text`|
-    |message|`text`|
-    |timestamp|`text`|
-    |component|`component`|
-    |id|`number`|
-    |add As Sender|`boolean`|
+| Params | []() |
+|--------|------|
+|user Image|Text|
+|title|Text|
+|message|Text|
+|timestamp|Text|
+|component|Component|
+|id|Number|
+|add As Sender|Boolean|
 
 
 Add a new simple component message into the chat view. If you do not want a user image or title or message or timestamp, then let the field empty. Make sure that the component is VISIBLE on the screen when you try to add it here. It will be then removed automatic from the screen and only visible again in the chat view.
 
 ### Add Date Timestamp
 
-_Block preview not available_
+[[Method('Chat View', 'Add Date Timestamp', False, 'date', 'textColor', 'backgroundColor', 'id')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |date|`text`|
-    |text Color|`number`|
-    |background Color|`number`|
-    |id|`number`|
+| Params | []() |
+|--------|------|
+|date|Text|
+|text Color|Number|
+|background Color|Number|
+|id|Number|
 
 
 Add a new simple date timestamp into the chat view. You NEED to write a date, else this block will do nothing. This means the field 'date' can NOT be empty. Timestamp messages are not clickable.
 
 ### Add File Message
 
-_Block preview not available_
+[[Method('Chat View', 'Add File Message', False, 'userImage', 'title', 'message', 'filePath', 'fileThumbnail', 'timestamp', 'id', 'addAsSender')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |user Image|`text`|
-    |title|`text`|
-    |message|`text`|
-    |file Path|`text`|
-    |file Thumbnail|`text`|
-    |timestamp|`text`|
-    |id|`number`|
-    |add As Sender|`boolean`|
+| Params | []() |
+|--------|------|
+|user Image|Text|
+|title|Text|
+|message|Text|
+|file Path|Text|
+|file Thumbnail|Text|
+|timestamp|Text|
+|id|Number|
+|add As Sender|Boolean|
 
 
 Add a new simple file message into the chat view. If you do not want a user image or title or message or timestamp, then let the field empty.
 
 ### Add Image Message
 
-_Block preview not available_
+[[Method('Chat View', 'Add Image Message', False, 'userImage', 'title', 'message', 'image', 'timestamp', 'id', 'addAsSender')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |user Image|`text`|
-    |title|`text`|
-    |message|`text`|
-    |image|`text`|
-    |timestamp|`text`|
-    |id|`number`|
-    |add As Sender|`boolean`|
+| Params | []() |
+|--------|------|
+|user Image|Text|
+|title|Text|
+|message|Text|
+|image|Text|
+|timestamp|Text|
+|id|Number|
+|add As Sender|Boolean|
 
 
 Add a new simple image message into the chat view. If you do not want a user image or title or message or timestamp, then let the field empty.
 
 ### Add Message
 
-_Block preview not available_
+[[Method('Chat View', 'Add Message', False, 'userImage', 'title', 'message', 'timestamp', 'id', 'addAsSender')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |user Image|`text`|
-    |title|`text`|
-    |message|`text`|
-    |timestamp|`text`|
-    |id|`number`|
-    |add As Sender|`boolean`|
+| Params | []() |
+|--------|------|
+|user Image|Text|
+|title|Text|
+|message|Text|
+|timestamp|Text|
+|id|Number|
+|add As Sender|Boolean|
 
 
 Add a new simple message into the chat view. If you do not want a user image or title or message or timestamp, then let the field empty.
 
 ### Clear ChatView
 
-_Block preview not available_
+[[Method('Chat View', 'Clear ChatView', False)]]
 
 Removes all messages and timestamps from the chat view.
 
 ### Count Date Timestamp
 
-_Block preview not available_
+[[Method('Chat View', 'Count Date Timestamp', True)]]
 
 {>>Returns `number`<<}
 
@@ -228,7 +208,7 @@ Returns the number of all date timestamps. Normal messages are not included.
 
 ### Count Messages
 
-_Block preview not available_
+[[Method('Chat View', 'Count Messages', True)]]
 
 {>>Returns `number`<<}
 
@@ -236,7 +216,7 @@ Returns the number of all messages. 'Date Timestamp' messages are not included.
 
 ### Get Last Used Id
 
-_Block preview not available_
+[[Method('Chat View', 'Get Last Used Id', True)]]
 
 {>>Returns `number`<<}
 
@@ -244,99 +224,85 @@ Returns the last used id.
 
 ### Remove Message
 
-_Block preview not available_
+[[Method('Chat View', 'Remove Message', False, 'id')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
+| Params | []() |
+|--------|------|
+|id|Number|
 
 
 Remove a message or timestamp from the chat view.
 
 ### Scroll To
 
-_Block preview not available_
+[[Method('Chat View', 'Scroll To', False, 'id')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
+| Params | []() |
+|--------|------|
+|id|Number|
 
 
 Scroll to a specific message in the chat view with the given id.
 
 ### Update Message Background Color
 
-_Block preview not available_
+[[Method('Chat View', 'Update Message Background Color', False, 'id', 'backgroundColor')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
-    |background Color|`number`|
+| Params | []() |
+|--------|------|
+|id|Number|
+|background Color|Number|
 
 
 Update the background color of a chat view message.
 
 ### Update Message Content
 
-_Block preview not available_
+[[Method('Chat View', 'Update Message Content', False, 'id', 'text', 'textColor')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
-    |text|`text`|
-    |text Color|`number`|
+| Params | []() |
+|--------|------|
+|id|Number|
+|text|Text|
+|text Color|Number|
 
 
 Update the message content of a chat view message.
 
 ### Update Timestamp Content
 
-_Block preview not available_
+[[Method('Chat View', 'Update Timestamp Content', False, 'id', 'text', 'textColor')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
-    |text|`text`|
-    |text Color|`number`|
+| Params | []() |
+|--------|------|
+|id|Number|
+|text|Text|
+|text Color|Number|
 
 
 Update the timestamp content of a chat view message.
 
 ### Update Title Content
 
-_Block preview not available_
+[[Method('Chat View', 'Update Title Content', False, 'id', 'text', 'textColor')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
-    |text|`text`|
-    |text Color|`number`|
+| Params | []() |
+|--------|------|
+|id|Number|
+|text|Text|
+|text Color|Number|
 
 
 Update the title content of a chat view message.
 
 ### Update User Image
 
-_Block preview not available_
+[[Method('Chat View', 'Update User Image', False, 'id', 'userImage')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
-    |user Image|`text`|
+| Params | []() |
+|--------|------|
+|id|Number|
+|user Image|Text|
 
 
 Update the user image of a chat view message. The image can only be updated if there was before a old image.
@@ -345,430 +311,268 @@ Update the user image of a chat view message. The image can only be updated if t
 
 ### Automatic Scroll Down
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Chat View', 'Automatic Scroll Down')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|True|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 If set to true the chat view will scroll down when a new message was send.
 
+[[PropertyBlockGetterAndSetter('Chat View', 'Automatic Scroll Down')]]
+
 ### Background Color
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Chat View', 'Background Color')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|&H00000000|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>&H00000000</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Specifies the component's background color. The background color will not be visible if an Image is being displayed.
 
+[[PropertyBlockGetterAndSetter('Chat View', 'Background Color')]]
+
 ### Clickable
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Chat View', 'Clickable')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|False|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>False</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Set the component clickable or not clickable.
 
+[[PropertyBlockGetterAndSetter('Chat View', 'Clickable')]]
+
 ### Double Tap
 
-<small>Available as ^^Advanced^^ Property</small>
+ <small>Available as ^^Advanced^^ Property</small>
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Chat View', 'Double Tap')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|False|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>False</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Set the component enabled for double taps or not.
 
+[[PropertyBlockGetterAndSetter('Chat View', 'Double Tap')]]
+
 ### Image
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Chat View', 'Image')]]
-
-| Type |
-|:----:|
-|text|
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Specifies the path of the component's image. If there is both an Image and a BackgroundColor, only the Image will be visible.
 
+[[PropertyBlockGetterAndSetter('Chat View', 'Image')]]
+
 ### Messages Corner Radius
 
-<small>Available as ^^Advanced^^ Property</small>
+ <small>Available as ^^Advanced^^ Property</small>
 
-:eyes::pencil: Read-Write property
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>5</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
+
 [[PropertyBlockGetterAndSetter('Chat View', 'Messages Corner Radius')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|5|
-
-_No description available_
 
 ### Messages Font Size
 
-<small>Available as ^^Advanced^^ Property</small>
+ <small>Available as ^^Advanced^^ Property</small>
 
-:eyes::pencil: Read-Write property
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>14.0</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
+
 [[PropertyBlockGetterAndSetter('Chat View', 'Messages Font Size')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|14.0|
-
-_No description available_
 
 ### Receivers Background Color
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Chat View', 'Receivers Background Color')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|&HFFCCCCCC|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>&HFFCCCCCC</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Specifies the background color for receiver's messages.
 
+[[PropertyBlockGetterAndSetter('Chat View', 'Receivers Background Color')]]
+
 ### Receivers Message Color
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Chat View', 'Receivers Message Color')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|&HFF000000|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>&HFF000000</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Specifies the color for receivers's messages.
 
+[[PropertyBlockGetterAndSetter('Chat View', 'Receivers Message Color')]]
+
 ### Receivers Title Color
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Chat View', 'Receivers Title Color')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|&HFF000000|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>&HFF000000</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Specifies the color for receivers's title messages.
 
+[[PropertyBlockGetterAndSetter('Chat View', 'Receivers Title Color')]]
+
 ### Receivers Typeface Message
 
-<small>Available as ^^Common^^ Property</small>
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>0</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
-:eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Chat View', 'Receivers Typeface Message')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|0|
-
-_No description available_
 
 ### Receivers Typeface Message Import
 
-<small>Available as ^^Advanced^^ Property</small>
+ <small>Available as ^^Advanced^^ Property</small>
 
-:eyes::pencil: Read-Write property
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
+
 [[PropertyBlockGetterAndSetter('Chat View', 'Receivers Typeface Message Import')]]
-
-| Type |
-|:----:|
-|text|
-
-_No description available_
 
 ### Receivers Typeface Title
 
-<small>Available as ^^Common^^ Property</small>
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>0</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
-:eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Chat View', 'Receivers Typeface Title')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|0|
-
-_No description available_
 
 ### Receivers Typeface Title Import
 
-<small>Available as ^^Advanced^^ Property</small>
+ <small>Available as ^^Advanced^^ Property</small>
 
-:eyes::pencil: Read-Write property
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
+
 [[PropertyBlockGetterAndSetter('Chat View', 'Receivers Typeface Title Import')]]
-
-| Type |
-|:----:|
-|text|
-
-_No description available_
 
 ### Scrollbar
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Chat View', 'Scrollbar')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|True|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Whether to display a scrollbar.
 
+[[PropertyBlockGetterAndSetter('Chat View', 'Scrollbar')]]
+
 ### Senders Background Color
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Chat View', 'Senders Background Color')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|&HFF8BC24A|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>&HFF8BC24A</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Specifies the background color for sender's messages.
 
+[[PropertyBlockGetterAndSetter('Chat View', 'Senders Background Color')]]
+
 ### Senders Message Color
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Chat View', 'Senders Message Color')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|&HFF000000|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>&HFF000000</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Specifies the color for sender's messages.
 
+[[PropertyBlockGetterAndSetter('Chat View', 'Senders Message Color')]]
+
 ### Senders Title Color
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Chat View', 'Senders Title Color')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|&HFF000000|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>&HFF000000</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Specifies the color for sender's title messages.
 
+[[PropertyBlockGetterAndSetter('Chat View', 'Senders Title Color')]]
+
 ### Senders Typeface Message
 
-<small>Available as ^^Common^^ Property</small>
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>0</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
-:eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Chat View', 'Senders Typeface Message')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|0|
-
-_No description available_
 
 ### Senders Typeface Message Import
 
-<small>Available as ^^Advanced^^ Property</small>
+ <small>Available as ^^Advanced^^ Property</small>
 
-:eyes::pencil: Read-Write property
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
+
 [[PropertyBlockGetterAndSetter('Chat View', 'Senders Typeface Message Import')]]
-
-| Type |
-|:----:|
-|text|
-
-_No description available_
 
 ### Senders Typeface Title
 
-<small>Available as ^^Common^^ Property</small>
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>0</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
-:eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Chat View', 'Senders Typeface Title')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|0|
-
-_No description available_
 
 ### Senders Typeface Title Import
 
-<small>Available as ^^Advanced^^ Property</small>
+ <small>Available as ^^Advanced^^ Property</small>
 
-:eyes::pencil: Read-Write property
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
+
 [[PropertyBlockGetterAndSetter('Chat View', 'Senders Typeface Title Import')]]
-
-| Type |
-|:----:|
-|text|
-
-_No description available_
 
 ### Swipeable
 
-<small>Available as ^^Advanced^^ Property</small>
+ <small>Available as ^^Advanced^^ Property</small>
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Chat View', 'Swipeable')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|False|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>False</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 If set to true you can swipe with your fingers through views.
 
+[[PropertyBlockGetterAndSetter('Chat View', 'Swipeable')]]
+
 ### Timestamp Corner Radius
 
-<small>Available as ^^Advanced^^ Property</small>
+ <small>Available as ^^Advanced^^ Property</small>
 
-:eyes::pencil: Read-Write property
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>5</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
+
 [[PropertyBlockGetterAndSetter('Chat View', 'Timestamp Corner Radius')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|5|
-
-_No description available_
 
 ### Timestamp Font Size
 
-<small>Available as ^^Advanced^^ Property</small>
+ <small>Available as ^^Advanced^^ Property</small>
 
-:eyes::pencil: Read-Write property
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>14.0</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
+
 [[PropertyBlockGetterAndSetter('Chat View', 'Timestamp Font Size')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|14.0|
-
-_No description available_
 
 ### Timestamp Text Color
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Chat View', 'Timestamp Text Color')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|&HFF000000|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>&HFF000000</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Specifies the color for the timestamp.
 
+[[PropertyBlockGetterAndSetter('Chat View', 'Timestamp Text Color')]]
+
 ### Title Font Size
 
-<small>Available as ^^Advanced^^ Property</small>
+ <small>Available as ^^Advanced^^ Property</small>
 
-:eyes::pencil: Read-Write property
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>14.0</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
+
 [[PropertyBlockGetterAndSetter('Chat View', 'Title Font Size')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|14.0|
-
-_No description available_
 
 ### Visible
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Chat View', 'Visible')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|True|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Returns true iff the component is visible.
 
+[[PropertyBlockGetterAndSetter('Chat View', 'Visible')]]
+
 ### Column
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Chat View', 'Column')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Blocks</span> 
 
 Column property getter method.
 
+[[PropertyBlockGetterAndSetter('Chat View', 'Column')]]
+
 ### Height
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Chat View', 'Height')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Blocks</span> 
 
 Specifies the component's vertical height, measured in pixels.
 
+[[PropertyBlockGetterAndSetter('Chat View', 'Height')]]
+
 ### Height Percent
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Chat View', 'Height Percent')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Blocks</span> 
 
 Specifies the component's vertical height as a percentageof the height of its parent Component.
 
+[[PropertyBlockGetterAndSetter('Chat View', 'Height Percent')]]
+
 ### Row
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Chat View', 'Row')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Blocks</span> 
 
 Row property getter method.
 
+[[PropertyBlockGetterAndSetter('Chat View', 'Row')]]
+
 ### Width
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Chat View', 'Width')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Blocks</span> 
 
 Specifies the component's horizontal width, measured in pixels.
 
+[[PropertyBlockGetterAndSetter('Chat View', 'Width')]]
+
 ### Width Percent
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Chat View', 'Width Percent')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Blocks</span> 
 
 Specifies the component's horizontal width as a percentageof the Width of its parent Component.
+
+[[PropertyBlockGetterAndSetter('Chat View', 'Width Percent')]]

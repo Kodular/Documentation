@@ -17,13 +17,11 @@ Note\: All readings are in SI units.
 
 [[Event('Gravity Sensor', 'Gravity Changed', 'xAccel', 'yAccel', 'zAccel')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |x Accel|`number`|
-    |y Accel|`number`|
-    |z Accel|`number`|
+| Params | []() |
+|--------|------|
+|x Accel|Number|
+|y Accel|Number|
+|z Accel|Number|
 
 
 Indicates that the gravity sensor data has changed.
@@ -32,68 +30,36 @@ Indicates that the gravity sensor data has changed.
 
 ### Enabled
 
-<small>Available as ^^Common^^ Property</small>
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
-:eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Gravity Sensor', 'Enabled')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|True|
-
-_No description available_
 
 ### Available
 
-:eyes: Read-Only property
+<span class="chip chip-boolean">Boolean</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
+
 [[PropertyBlockGetter('Gravity Sensor', 'Available')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|None|
-
-_No description available_
 
 ### Maximum Range
 
-:eyes: Read-Only property
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
+
 [[PropertyBlockGetter('Gravity Sensor', 'Maximum Range')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
-
-_No description available_
 
 ### X Accel
 
-:eyes: Read-Only property
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
+
 [[PropertyBlockGetter('Gravity Sensor', 'X Accel')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
-
-_No description available_
 
 ### Y Accel
 
-:eyes: Read-Only property
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
+
 [[PropertyBlockGetter('Gravity Sensor', 'Y Accel')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
-
-_No description available_
 
 ### Z Accel
 
-:eyes: Read-Only property
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
+
 [[PropertyBlockGetter('Gravity Sensor', 'Z Accel')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
-
-_No description available_

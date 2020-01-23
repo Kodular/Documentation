@@ -26,11 +26,9 @@ The languages and countries available depend on the particular device, and can b
 
 [[Event('Text To Speech', 'After Speaking', 'result')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |result|`boolean`|
+| Params | []() |
+|--------|------|
+|result|Boolean|
 
 
 Event to raise after the message is spoken.
@@ -45,13 +43,11 @@ Event to raise when Speak is invoked, before the message is spoken.
 
 ### Speak
 
-_Block preview not available_
+[[Method('Text To Speech', 'Speak', False, 'message')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |message|`text`|
+| Params | []() |
+|--------|------|
+|message|Text|
 
 
 Speaks the given message.
@@ -60,85 +56,56 @@ Speaks the given message.
 
 ### Country
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Text To Speech', 'Country')]]
-
-| Type |
-|:----:|
-|text|
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Country code to use for speech generation. This can affect the pronounciation. For example, British English (GBR) will sound different from US English (USA). Not every country code will affect every language.
 
+[[PropertyBlockGetterAndSetter('Text To Speech', 'Country')]]
+
 ### Language
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Text To Speech', 'Language')]]
-
-| Type |
-|:----:|
-|text|
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Sets the language for TextToSpeech. This changes the way that words are pronounced, not the actual language that is spoken. For example setting the language to and speaking English text with sound like someone speaking English with a French accent.
 
+[[PropertyBlockGetterAndSetter('Text To Speech', 'Language')]]
+
 ### Pitch
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Text To Speech', 'Pitch')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|1.0|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>1.0</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Sets the Pitch for TextToSpeech The values should be between 0 and 2 where lower values lower the tone of synthesized voice and greater values raise it.
 
+[[PropertyBlockGetterAndSetter('Text To Speech', 'Pitch')]]
+
 ### Speech Rate
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Text To Speech', 'Speech Rate')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|1.0|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>1.0</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Sets the SpeechRate for TextToSpeech. The values should be between 0 and 2 where lower values slow down the pitch and greater values accelerate it.
 
+[[PropertyBlockGetterAndSetter('Text To Speech', 'Speech Rate')]]
+
 ### Available Countries
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Text To Speech', 'Available Countries')]]
-
-| Type | Default |
-|:----:|:-------:|
-|list|None|
+<span class="chip chip-list">List</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 List of the country codes available on this device for use with TextToSpeech. Check the Android developer documentation under supported languages to find the meanings of these abbreviations.
 
+[[PropertyBlockGetter('Text To Speech', 'Available Countries')]]
+
 ### Available Languages
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Text To Speech', 'Available Languages')]]
-
-| Type | Default |
-|:----:|:-------:|
-|list|None|
+<span class="chip chip-list">List</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 List of the languages available on this device for use with TextToSpeech. Check the Android developer documentation under supported languages to find the meanings of these abbreviations.
 
+[[PropertyBlockGetter('Text To Speech', 'Available Languages')]]
+
 ### Result
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Text To Speech', 'Result')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|None|
+<span class="chip chip-boolean">Boolean</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 Result property getter method.
+
+[[PropertyBlockGetter('Text To Speech', 'Result')]]

@@ -16,11 +16,9 @@ A non-visible component that reads the metadata of audio/video files.
 
 [[Event('Metadata', 'No Metadata', 'type')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |type|`text`|
+| Params | []() |
+|--------|------|
+|type|Text|
 
 
 Triggers when there is no metadata found in the file.
@@ -29,7 +27,7 @@ Triggers when there is no metadata found in the file.
 
 ### Album
 
-_Block preview not available_
+[[Method('Metadata', 'Album', True)]]
 
 {>>Returns `text`<<}
 
@@ -37,7 +35,7 @@ Get the Album from the file.
 
 ### Artist
 
-_Block preview not available_
+[[Method('Metadata', 'Artist', True)]]
 
 {>>Returns `text`<<}
 
@@ -45,7 +43,7 @@ Get the Artist from the file.
 
 ### Author
 
-_Block preview not available_
+[[Method('Metadata', 'Author', True)]]
 
 {>>Returns `text`<<}
 
@@ -53,7 +51,7 @@ Get the Author from the file.
 
 ### Bitrate
 
-_Block preview not available_
+[[Method('Metadata', 'Bitrate', True)]]
 
 {>>Returns `text`<<}
 
@@ -61,7 +59,7 @@ Get the Bitrate from the file.
 
 ### Composer
 
-_Block preview not available_
+[[Method('Metadata', 'Composer', True)]]
 
 {>>Returns `text`<<}
 
@@ -69,22 +67,20 @@ Get the Composer from the file.
 
 ### Custom Item
 
-_Block preview not available_
+[[Method('Metadata', 'Custom Item', True, 'id')]]
 
 {>>Returns `text`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
+| Params | []() |
+|--------|------|
+|id|Number|
 
 
 Get a custom metadata item from the fileyou can find a list of ids on https://developer.android.com/reference/android/media/MediaMetadataRetriever.html
 
 ### Date
 
-_Block preview not available_
+[[Method('Metadata', 'Date', True)]]
 
 {>>Returns `text`<<}
 
@@ -92,7 +88,7 @@ Get the Date from the file.
 
 ### Disc Number
 
-_Block preview not available_
+[[Method('Metadata', 'Disc Number', True)]]
 
 {>>Returns `text`<<}
 
@@ -100,7 +96,7 @@ Get the Disc Number from the file.
 
 ### Duration
 
-_Block preview not available_
+[[Method('Metadata', 'Duration', True)]]
 
 {>>Returns `text`<<}
 
@@ -108,7 +104,7 @@ Get the Duration from the file.
 
 ### Embedded Picture
 
-_Block preview not available_
+[[Method('Metadata', 'Embedded Picture', True)]]
 
 {>>Returns `text`<<}
 
@@ -116,7 +112,7 @@ This method finds the optional graphic or album/cover art associated associated 
 
 ### Genre
 
-_Block preview not available_
+[[Method('Metadata', 'Genre', True)]]
 
 {>>Returns `text`<<}
 
@@ -124,7 +120,7 @@ Get the Genre from the file.
 
 ### Has Audio
 
-_Block preview not available_
+[[Method('Metadata', 'Has Audio', True)]]
 
 {>>Returns `text`<<}
 
@@ -132,7 +128,7 @@ Get the Has Audio from the file.
 
 ### Has Video
 
-_Block preview not available_
+[[Method('Metadata', 'Has Video', True)]]
 
 {>>Returns `text`<<}
 
@@ -140,7 +136,7 @@ Get the Has Video from the file.
 
 ### Location
 
-_Block preview not available_
+[[Method('Metadata', 'Location', True)]]
 
 {>>Returns `text`<<}
 
@@ -148,7 +144,7 @@ Get the Location from the file.
 
 ### Mimetype
 
-_Block preview not available_
+[[Method('Metadata', 'Mimetype', True)]]
 
 {>>Returns `text`<<}
 
@@ -156,7 +152,7 @@ Get the Mimetype from the file.
 
 ### Title
 
-_Block preview not available_
+[[Method('Metadata', 'Title', True)]]
 
 {>>Returns `text`<<}
 
@@ -164,7 +160,7 @@ Get the Title from the file.
 
 ### Track Number
 
-_Block preview not available_
+[[Method('Metadata', 'Track Number', True)]]
 
 {>>Returns `text`<<}
 
@@ -172,7 +168,7 @@ Get the Track Number from the file.
 
 ### Video Height
 
-_Block preview not available_
+[[Method('Metadata', 'Video Height', True)]]
 
 {>>Returns `text`<<}
 
@@ -180,7 +176,7 @@ Get the Video Height from the file.
 
 ### Video Rotation
 
-_Block preview not available_
+[[Method('Metadata', 'Video Rotation', True)]]
 
 {>>Returns `text`<<}
 
@@ -188,7 +184,7 @@ Get the Video Rotation from the file.
 
 ### Video Width
 
-_Block preview not available_
+[[Method('Metadata', 'Video Width', True)]]
 
 {>>Returns `text`<<}
 
@@ -196,7 +192,7 @@ Get the Video Width from the file.
 
 ### Writer
 
-_Block preview not available_
+[[Method('Metadata', 'Writer', True)]]
 
 {>>Returns `text`<<}
 
@@ -204,7 +200,7 @@ Get the Writer from the file.
 
 ### Year
 
-_Block preview not available_
+[[Method('Metadata', 'Year', True)]]
 
 {>>Returns `text`<<}
 
@@ -214,13 +210,8 @@ Get the Year from the file.
 
 ### File
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Metadata', 'File')]]
-
-| Type |
-|:----:|
-|text|
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 The name of the file.
+
+[[PropertyBlockGetterAndSetter('Metadata', 'File')]]

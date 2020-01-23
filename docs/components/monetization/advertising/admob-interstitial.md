@@ -22,12 +22,10 @@ Called when an ad was closed.
 
 [[Event('AdMob Interstitial', 'Ad Failed To Load', 'errorCode', 'errorMessage')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |error Code|`number`|
-    |error Message|`text`|
+| Params | []() |
+|--------|------|
+|error Code|Number|
+|error Message|Text|
 
 
 Called when an ad request failed to load. The message will display the error code and error message.
@@ -36,11 +34,9 @@ Called when an ad request failed to load. The message will display the error cod
 
 [[Event('AdMob Interstitial', 'Ad Failed To Show', 'message')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |message|`text`|
+| Params | []() |
+|--------|------|
+|message|Text|
 
 
 Called when an an attempt was made to display the ad, but the ad was not ready to display.
@@ -67,11 +63,9 @@ Called when an ad was opened.
 
 [[Event('AdMob Interstitial', 'On Consent Changed', 'personalized')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |personalized|`boolean`|
+| Params | []() |
+|--------|------|
+|personalized|Boolean|
 
 
 Event triggered when the consent was changed.
@@ -80,19 +74,19 @@ Event triggered when the consent was changed.
 
 ### Load Ad
 
-_Block preview not available_
+[[Method('AdMob Interstitial', 'Load Ad', False)]]
 
 Load a new AdMob Interstitial ad.
 
 ### Revoke Consent
 
-_Block preview not available_
+[[Method('AdMob Interstitial', 'Revoke Consent', False)]]
 
 Deletes the user's consent. Useful if you want to test the consent dialog in development.
 
 ### Show Interstitial Ad
 
-_Block preview not available_
+[[Method('AdMob Interstitial', 'Show Interstitial Ad', False)]]
 
 It will show the Interstitial Ad
 
@@ -100,141 +94,84 @@ It will show the Interstitial Ad
 
 ### Ad Enabled
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('AdMob Interstitial', 'Ad Enabled')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|True|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 This property must be set to true to receive ads.
 
+[[PropertyBlockGetterAndSetter('AdMob Interstitial', 'Ad Enabled')]]
+
 ### Ad Unit ID
 
-<small>Available as ^^Common^^ Property</small>
+<span class="chip chip-text">Text</span> <span class="chip chip-text">Default: <i>ca-app-pub-3940256099942544/1033173712</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
-:eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('AdMob Interstitial', 'Ad Unit ID')]]
-
-| Type | Default |
-|:----:|:-------:|
-|text|ca-app-pub-3940256099942544/1033173712|
-
-_No description available_
 
 ### Interstitial Commission
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('AdMob Interstitial', 'Interstitial Commission')]]
-
-| Type | Default |
-|:----:|:-------:|
-|text|unity|
+<span class="chip chip-text">Text</span> <span class="chip chip-text">Default: <i>unity</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Sets the ad network used to take the commission.
 
+[[PropertyBlockGetterAndSetter('AdMob Interstitial', 'Interstitial Commission')]]
+
 ### Consent Development Mode
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('AdMob Interstitial', 'Consent Development Mode')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|False|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>False</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 If enabled you will see the consent dialog no matter if you are located in Europe or not. Please use this option only in development. If this setting is enabled ALL taken consents will not be saved.
 
+[[PropertyBlockGetterAndSetter('AdMob Interstitial', 'Consent Development Mode')]]
+
 ### Consent Message
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('AdMob Interstitial', 'Consent Message')]]
-
-| Type | Default |
-|:----:|:-------:|
-|text|Can we continue to use your data to tailor ads for you?|
+<span class="chip chip-text">Text</span> <span class="chip chip-text">Default: <i>Can we continue to use your data to tailor ads for you?</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 The message for the consent dialog.
 
+[[PropertyBlockGetterAndSetter('AdMob Interstitial', 'Consent Message')]]
+
 ### Consent Title
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('AdMob Interstitial', 'Consent Title')]]
-
-| Type | Default |
-|:----:|:-------:|
-|text|Data Protection|
+<span class="chip chip-text">Text</span> <span class="chip chip-text">Default: <i>Data Protection</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 The title for the consent dialog.
 
+[[PropertyBlockGetterAndSetter('AdMob Interstitial', 'Consent Title')]]
+
 ### Target Age
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('AdMob Interstitial', 'Target Age')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|0|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>0</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Leave 0 for targeting ALL ages
 
+[[PropertyBlockGetterAndSetter('AdMob Interstitial', 'Target Age')]]
+
 ### Target For Children
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('AdMob Interstitial', 'Target For Children')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|False|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>False</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Indicate whether you want Google to treat your content as child-directed when you make an ad request. Info here: https://developers.google.com/mobile-ads-sdk/docs/admob/android/targeting#child-directed_setting
 
+[[PropertyBlockGetterAndSetter('AdMob Interstitial', 'Target For Children')]]
+
 ### Target Gender
 
-<small>Available as ^^Common^^ Property</small>
+<span class="chip chip-text">Text</span> <span class="chip chip-text">Default: <i>ALL</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
-:eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('AdMob Interstitial', 'Target Gender')]]
-
-| Type | Default |
-|:----:|:-------:|
-|text|ALL|
-
-_No description available_
 
 ### Test Mode
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('AdMob Interstitial', 'Test Mode')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|False|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>False</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 If you want to test the component then that this property to true. Then you will receive test ads.
 
+[[PropertyBlockGetterAndSetter('AdMob Interstitial', 'Test Mode')]]
+
 ### Personalized Result
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('AdMob Interstitial', 'Personalized Result')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|None|
+<span class="chip chip-boolean">Boolean</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 Returns the current personalized consent. If true user has consent to personalized ads.
+
+[[PropertyBlockGetter('AdMob Interstitial', 'Personalized Result')]]

@@ -16,11 +16,9 @@ A non-visible component that takes a screenshot of the content currently visible
 
 [[Event('Screenshot', 'Got Screenshot', 'image')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |image|`text`|
+| Params | []() |
+|--------|------|
+|image|Text|
 
 
 Event to detect that a screenshot was made by the user. Returns the image path to the taken screenshot.
@@ -29,7 +27,7 @@ Event to detect that a screenshot was made by the user. Returns the image path t
 
 ### Take Screenshot
 
-_Block preview not available_
+[[Method('Screenshot', 'Take Screenshot', False)]]
 
 Take a screenshot of the current visible screen.
 
@@ -37,150 +35,96 @@ Take a screenshot of the current visible screen.
 
 ### Allow Screenshots
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Screenshot', 'Allow Screenshots')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|True|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 This feature allows users of your app to make or ban screenshots of their app. If disabled and a person tries to make a screenshot, they will receive then a default system message that this is not possible.
 
+[[PropertyBlockGetterAndSetter('Screenshot', 'Allow Screenshots')]]
+
 ### Dim Amount
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Screenshot', 'Dim Amount')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|0.5|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>0.5</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Set the amount of dim behind the preview window if ShowPreview(...) is enabled. Use '0.0' for no dim and '1.0' for full dim.
 
+[[PropertyBlockGetterAndSetter('Screenshot', 'Dim Amount')]]
+
 ### File Name
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Screenshot', 'File Name')]]
-
-| Type | Default |
-|:----:|:-------:|
-|text|Screenshot.png|
+<span class="chip chip-text">Text</span> <span class="chip chip-text">Default: <i>Screenshot.png</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 This will be the name for the taken screenshot image file.
 
+[[PropertyBlockGetterAndSetter('Screenshot', 'File Name')]]
+
 ### Use Large Notification
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Screenshot', 'Use Large Notification')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|False|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>False</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 This will display the notification in a big style.
 
+[[PropertyBlockGetterAndSetter('Screenshot', 'Use Large Notification')]]
+
 ### Show Notification Share Button
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Screenshot', 'Show Notification Share Button')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|True|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 If enabled you will see a notification with a share button after the screenshot is taken.
 
+[[PropertyBlockGetterAndSetter('Screenshot', 'Show Notification Share Button')]]
+
 ### Notification Share Title
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Screenshot', 'Notification Share Title')]]
-
-| Type | Default |
-|:----:|:-------:|
-|text|Share|
+<span class="chip chip-text">Text</span> <span class="chip chip-text">Default: <i>Share</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 This will set the notification share button text if the option "Show Notification" is enabled.
 
+[[PropertyBlockGetterAndSetter('Screenshot', 'Notification Share Title')]]
+
 ### Notification Title
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Screenshot', 'Notification Title')]]
-
-| Type | Default |
-|:----:|:-------:|
-|text|Screenshot..|
+<span class="chip chip-text">Text</span> <span class="chip chip-text">Default: <i>Screenshot..</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 This will set the notification title if the option "Show Notification" is enabled.
 
+[[PropertyBlockGetterAndSetter('Screenshot', 'Notification Title')]]
+
 ### Show Notification
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Screenshot', 'Show Notification')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|False|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>False</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 If enabled you will see a notification in the statusbar after the screenshot is taken.
 
+[[PropertyBlockGetterAndSetter('Screenshot', 'Show Notification')]]
+
 ### Show Preview
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Screenshot', 'Show Preview')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|True|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 If enabled you will see a short preview animation after the screenshot is taken.
 
+[[PropertyBlockGetterAndSetter('Screenshot', 'Show Preview')]]
+
 ### Are Permissions Granted
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Screenshot', 'Are Permissions Granted')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|None|
+<span class="chip chip-boolean">Boolean</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 Returns true if the write and read permission is granted, else false.
 
+[[PropertyBlockGetter('Screenshot', 'Are Permissions Granted')]]
+
 ### is Read Permission Granted
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Screenshot', 'is Read Permission Granted')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|None|
+<span class="chip chip-boolean">Boolean</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 Returns true if the read permission is granted, else false.
 
+[[PropertyBlockGetter('Screenshot', 'is Read Permission Granted')]]
+
 ### is Write Permission Granted
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Screenshot', 'is Write Permission Granted')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|None|
+<span class="chip chip-boolean">Boolean</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 Returns true if the write permission is granted, else false.
+
+[[PropertyBlockGetter('Screenshot', 'is Write Permission Granted')]]

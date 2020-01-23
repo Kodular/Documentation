@@ -24,26 +24,24 @@ When you are developing apps using the AI Companion, all the apps using that com
 
 ### Clear All
 
-_Block preview not available_
+[[Method('Tiny DB', 'Clear All', False)]]
 
 Clear the entire data store
 
 ### Clear Tag
 
-_Block preview not available_
+[[Method('Tiny DB', 'Clear Tag', False, 'tag')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |tag|`text`|
+| Params | []() |
+|--------|------|
+|tag|Text|
 
 
 Clear the entry with the given tag
 
 ### Get Tags
 
-_Block preview not available_
+[[Method('Tiny DB', 'Get Tags', True)]]
 
 {>>Returns `any`<<}
 
@@ -51,30 +49,26 @@ Return a list of all the tags in the data store
 
 ### Get Value
 
-_Block preview not available_
+[[Method('Tiny DB', 'Get Value', True, 'tag', 'valueIfTagNotThere')]]
 
 {>>Returns `any`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |tag|`text`|
-    |value If Tag Not There|`any`|
+| Params | []() |
+|--------|------|
+|tag|Text|
+|value If Tag Not There|Any|
 
 
 Retrieve the value stored under the given tag. If there's no such tag, then return valueIfTagNotThere.
 
 ### Store Value
 
-_Block preview not available_
+[[Method('Tiny DB', 'Store Value', False, 'tag', 'valueToStore')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |tag|`text`|
-    |value To Store|`any`|
+| Params | []() |
+|--------|------|
+|tag|Text|
+|value To Store|Any|
 
 
 Store the given value under the given tag. The storage persists on thephone when the app is restarted.
@@ -83,13 +77,8 @@ Store the given value under the given tag. The storage persists on thephone when
 
 ### Namespace
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Tiny DB', 'Namespace')]]
-
-| Type | Default |
-|:----:|:-------:|
-|text|TinyDB1|
+<span class="chip chip-text">Text</span> <span class="chip chip-text">Default: <i>TinyDB1</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Namespace for storing data.
+
+[[PropertyBlockGetterAndSetter('Tiny DB', 'Namespace')]]

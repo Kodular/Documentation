@@ -22,70 +22,66 @@ You might get an error if you attempt to play a sound immediately after setting 
 
 ### Pause
 
-_Block preview not available_
+[[Method('Sound', 'Pause', False)]]
 
 Pauses playing the sound if it is being played.
 
 ### Play
 
-_Block preview not available_
+[[Method('Sound', 'Play', False)]]
 
 Plays the sound specified by the Source property.
 
 ### Resume
 
-_Block preview not available_
+[[Method('Sound', 'Resume', False)]]
 
 Resumes playing the sound after a pause.
 
 ### Sound Normal
 
-_Block preview not available_
+[[Method('Sound', 'Sound Normal', False)]]
 
 Ringer mode that may be audible and may vibrate.
 
 ### Sound Silent
 
-_Block preview not available_
+[[Method('Sound', 'Sound Silent', False)]]
 
 Ringer mode that will be silent and will not vibrate.
 
 ### Sound Vibrate
 
-_Block preview not available_
+[[Method('Sound', 'Sound Vibrate', False)]]
 
 Ringer mode that will be silent and will vibrate.
 
 ### Stop
 
-_Block preview not available_
+[[Method('Sound', 'Stop', False)]]
 
 Stops playing the sound if it is being played.
 
 ### Vibrate
 
-_Block preview not available_
+[[Method('Sound', 'Vibrate', False, 'millisecs')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |millisecs|`number`|
+| Params | []() |
+|--------|------|
+|millisecs|Number|
 
 
 Vibrates for the specified number of milliseconds.
 
 ### Vibrate Pattern
 
-_Block preview not available_
+[[Method('Sound', 'Vibrate Pattern', False, 'vibrate', 'delay', 'repeat')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |vibrate|`number`|
-    |delay|`number`|
-    |repeat|`boolean`|
+| Params | []() |
+|--------|------|
+|vibrate|Number|
+|delay|Number|
+|repeat|Boolean|
 
 
 Vibrate with a given pattern
@@ -94,26 +90,16 @@ Vibrate with a given pattern
 
 ### Minimum Interval (ms)
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Sound', 'Minimum Interval ms')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|500|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>500</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 The minimum interval, in milliseconds, between sounds. If you play a sound, all further Play() calls will be ignored until the interval has elapsed.
 
+[[PropertyBlockGetterAndSetter('Sound', 'Minimum Interval ms')]]
+
 ### Source
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Sound', 'Source')]]
-
-| Type |
-|:----:|
-|text|
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 The name of the sound file. Only certain formats are supported. See http://developer.android.com/guide/appendix/media-formats.html.
+
+[[PropertyBlockGetterAndSetter('Sound', 'Source')]]

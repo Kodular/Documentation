@@ -20,11 +20,9 @@ The Notifier component displays alert dialogs, messages, and temporary alerts, a
 
 [[Event('Notifier', 'After Choosing', 'choice')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |choice|`text`|
+| Params | []() |
+|--------|------|
+|choice|Text|
 
 
 Event to detect that a user have done his selection.
@@ -33,11 +31,9 @@ Event to detect that a user have done his selection.
 
 [[Event('Notifier', 'After Message Dialog', 'title')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |title|`text`|
+| Params | []() |
+|--------|------|
+|title|Text|
 
 
 Event to detect that a user clicked on a button from the "Show Custom Message Dialog". Use the "title" response to know which dialog the user has clicked.
@@ -46,11 +42,9 @@ Event to detect that a user clicked on a button from the "Show Custom Message Di
 
 [[Event('Notifier', 'After Text Input', 'response')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |response|`text`|
+| Params | []() |
+|--------|------|
+|response|Text|
 
 
 Event to detect that a user have done his text input in the "Show Text Dialog".
@@ -59,12 +53,10 @@ Event to detect that a user have done his text input in the "Show Text Dialog".
 
 [[Event('Notifier', 'Checkbox Selection', 'id', 'selection')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
-    |selection|`list`|
+| Params | []() |
+|--------|------|
+|id|Number|
+|selection|List|
 
 
 Invoked after user has finished selecting items from the Checkbox picker. Returns a list of indices of the selected items in the order of selection. Returns a list having -1 if cancel was pressed.
@@ -73,11 +65,9 @@ Invoked after user has finished selecting items from the Checkbox picker. Return
 
 [[Event('Notifier', 'Custom Dialog Selection', 'selection')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |selection|`text`|
+| Params | []() |
+|--------|------|
+|selection|Text|
 
 
 Event to detect that the user has pressed a button from the custom dialog. It returns then the text of the button that was pressed.
@@ -86,12 +76,10 @@ Event to detect that the user has pressed a button from the custom dialog. It re
 
 [[Event('Notifier', 'Got Custom Choose Dialog', 'id', 'choice')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
-    |choice|`text`|
+| Params | []() |
+|--------|------|
+|id|Number|
+|choice|Text|
 
 
 Event to detect that a user have done his selection in the CustomChooseDialog.
@@ -100,12 +88,10 @@ Event to detect that a user have done his selection in the CustomChooseDialog.
 
 [[Event('Notifier', 'Got Text Input From Dialog', 'id', 'response')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
-    |response|`text`|
+| Params | []() |
+|--------|------|
+|id|Number|
+|response|Text|
 
 
 Event to detect that a user have done his text input in the "Show Text Input Dialog".
@@ -114,11 +100,9 @@ Event to detect that a user have done his text input in the "Show Text Input Dia
 
 [[Event('Notifier', 'Image Dialog Closed', 'id')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
+| Params | []() |
+|--------|------|
+|id|Number|
 
 
 Event to detect that the user has watched the image dialog.
@@ -127,11 +111,9 @@ Event to detect that the user has watched the image dialog.
 
 [[Event('Notifier', 'Lightbox Closed', 'id')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
+| Params | []() |
+|--------|------|
+|id|Number|
 
 
 Event to detect that a user have closed the Lightbox.
@@ -146,12 +128,10 @@ Event to detect that the linear progress dialog was dismissed.
 
 [[Event('Notifier', 'List Picker Selection', 'id', 'item')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
-    |item|`text`|
+| Params | []() |
+|--------|------|
+|id|Number|
+|item|Text|
 
 
 Event to get the picked list selection from the List Picker.
@@ -160,12 +140,10 @@ Event to get the picked list selection from the List Picker.
 
 [[Event('Notifier', 'Number Picker Selection', 'id', 'selection')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
-    |selection|`number`|
+| Params | []() |
+|--------|------|
+|id|Number|
+|selection|Number|
 
 
 Event to detect that the user has selected a number from the number picker dialog.
@@ -174,12 +152,10 @@ Event to detect that the user has selected a number from the number picker dialo
 
 [[Event('Notifier', 'Radio Selection', 'id', 'listIndex')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
-    |list Index|`number`|
+| Params | []() |
+|--------|------|
+|id|Number|
+|list Index|Number|
 
 
 Event invoked when user has selected an option from the radio button picker. Outputs the index of the selected item. Returns -1 if cancel was pressed.
@@ -188,12 +164,10 @@ Event invoked when user has selected an option from the radio button picker. Out
 
 [[Event('Notifier', 'Word Picker Selection', 'id', 'selection')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
-    |selection|`text`|
+| Params | []() |
+|--------|------|
+|id|Number|
+|selection|Text|
 
 
 Event to detect that the user has selected a word from the word picker dialog.
@@ -202,408 +176,362 @@ Event to detect that the user has selected a word from the word picker dialog.
 
 ### Create Custom Dialog
 
-_Block preview not available_
+[[Method('Notifier', 'Create Custom Dialog', False, 'component', 'title', 'buttonText', 'cancelButtonText', 'cancelable')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |component|`component`|
-    |title|`text`|
-    |button Text|`text`|
-    |cancel Button Text|`text`|
-    |cancelable|`boolean`|
+| Params | []() |
+|--------|------|
+|component|Component|
+|title|Text|
+|button Text|Text|
+|cancel Button Text|Text|
+|cancelable|Boolean|
 
 
 Show whatever you want in a dialog. You can use as example arrangements, or images or whatever you want. Your chosen layout will be then removed from the screen and only visible in custom dialog. You can use the "Light Theme" property to have a light or dark background. Or you enable "Use Background Color" property to use the background color property as background dialog color. Please make sure the layout you want to use is visible.
 
 ### Custom Choose Dialog
 
-_Block preview not available_
+[[Method('Notifier', 'Custom Choose Dialog', False, 'id', 'message', 'title', 'button1Text', 'button2Text', 'cancelButtonText', 'icon', 'cancelable', 'fullscreen')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
-    |message|`text`|
-    |title|`text`|
-    |button1 Text|`text`|
-    |button2 Text|`text`|
-    |cancel Button Text|`text`|
-    |icon|`text`|
-    |cancelable|`boolean`|
-    |fullscreen|`boolean`|
+| Params | []() |
+|--------|------|
+|id|Number|
+|message|Text|
+|title|Text|
+|button1 Text|Text|
+|button2 Text|Text|
+|cancel Button Text|Text|
+|icon|Text|
+|cancelable|Boolean|
+|fullscreen|Boolean|
 
 
 Shows a dialog box with two buttons, from which the user can choose. If cancelable is true there will be an additional CANCEL button. Pressing a button will raise the GotCustomChooseDialog event. The "choice" parameter to GotCustomChooseDialog will be the text on the button that was pressed, or "Cancel" if the CANCEL button was pressed. You can use the "Light Theme" property to have a light or dark background. Or you enable "Use Background Color" property to use the background color property as background dialog color. Use the 'Show Custom Dialog' block to the show the created custom dialog. The added component must be visible on screen. After you used this block here it will be removed automatic from screen and will be only visible again after you have shown the custom dialog.
 
 ### Custom Message Dialog
 
-_Block preview not available_
+[[Method('Notifier', 'Custom Message Dialog', False, 'message', 'title', 'buttonText', 'icon', 'fullscreen')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |message|`text`|
-    |title|`text`|
-    |button Text|`text`|
-    |icon|`text`|
-    |fullscreen|`boolean`|
+| Params | []() |
+|--------|------|
+|message|Text|
+|title|Text|
+|button Text|Text|
+|icon|Text|
+|fullscreen|Boolean|
 
 
 Show a Message Dialog. You can use the "Light Theme" property to have a light or dark background. Or you enable "Use Background Color" property to use the background color property as background dialog color.
 
 ### Dismiss Custom Dialog
 
-_Block preview not available_
+[[Method('Notifier', 'Dismiss Custom Dialog', False)]]
 
 Use this block to dismiss the created custom dialog.the custom dialog.
 
 ### Dismiss Linear Progress
 
-_Block preview not available_
+[[Method('Notifier', 'Dismiss Linear Progress', False)]]
 
 Dismiss a previously displayed LinearProgress box
 
 ### Dismiss Progress Dialog
 
-_Block preview not available_
+[[Method('Notifier', 'Dismiss Progress Dialog', False)]]
 
 Dismiss a previously displayed ProgressDialog box
 
 ### Dismiss Spinning Progress
 
-_Block preview not available_
+[[Method('Notifier', 'Dismiss Spinning Progress', False)]]
 
 Dismiss a previously displayed SpinningProgress box
 
 ### Log Error
 
-_Block preview not available_
+[[Method('Notifier', 'Log Error', False, 'message')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |message|`text`|
+| Params | []() |
+|--------|------|
+|message|Text|
 
 
 Writes an error message to the Android system log. See the Google Android documentation for how to access the log.
 
 ### Log Info
 
-_Block preview not available_
+[[Method('Notifier', 'Log Info', False, 'message')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |message|`text`|
+| Params | []() |
+|--------|------|
+|message|Text|
 
 
 Writes an information message to the Android log.
 
 ### Log Warning
 
-_Block preview not available_
+[[Method('Notifier', 'Log Warning', False, 'message')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |message|`text`|
+| Params | []() |
+|--------|------|
+|message|Text|
 
 
 Writes a warning message to the Android log. See the Google Android documentation for how to access the log.
 
 ### Show Alert
 
-_Block preview not available_
+[[Method('Notifier', 'Show Alert', False, 'notice')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |notice|`text`|
+| Params | []() |
+|--------|------|
+|notice|Text|
 
 
 Show a alert "toast" message.
 
 ### Show Checkbox List Dialog
 
-_Block preview not available_
+[[Method('Notifier', 'Show Checkbox List Dialog', False, 'id', 'title', 'options', 'buttonText', 'cancelButtonText', 'cancelable', 'icon', 'fullscreen')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
-    |title|`text`|
-    |options|`list`|
-    |button Text|`text`|
-    |cancel Button Text|`text`|
-    |cancelable|`boolean`|
-    |icon|`text`|
-    |fullscreen|`boolean`|
+| Params | []() |
+|--------|------|
+|id|Number|
+|title|Text|
+|options|List|
+|button Text|Text|
+|cancel Button Text|Text|
+|cancelable|Boolean|
+|icon|Text|
+|fullscreen|Boolean|
 
 
 Shows a picker dialog with a list of options of whichmore than one can be chosen. Invokes the 'AfterMultiSelection' event. You can use the "Light Theme" property to have a light or dark background. Or you enable "Use Background Color" property to use the background color property as background dialog color.
 
 ### Show Choose Dialog
 
-_Block preview not available_
+[[Method('Notifier', 'Show Choose Dialog', False, 'message', 'title', 'button1Text', 'button2Text', 'cancelable')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |message|`text`|
-    |title|`text`|
-    |button1 Text|`text`|
-    |button2 Text|`text`|
-    |cancelable|`boolean`|
+| Params | []() |
+|--------|------|
+|message|Text|
+|title|Text|
+|button1 Text|Text|
+|button2 Text|Text|
+|cancelable|Boolean|
 
 
 Shows a dialog box with two buttons, from which the user can choose. If cancelable is true there will be an additional CANCEL button. Pressing a button will raise the AfterChoosing event. The "choice" parameter to AfterChoosing will be the text on the button that was pressed, or "Cancel" if the CANCEL button was pressed.
 
 ### Show Custom Dialog
 
-_Block preview not available_
+[[Method('Notifier', 'Show Custom Dialog', False)]]
 
 Show the custom dialog. Dont forget that you have first to create the custom dialog.
 
 ### Show Image Dialog
 
-_Block preview not available_
+[[Method('Notifier', 'Show Image Dialog', False, 'id', 'title', 'image', 'buttonText')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
-    |title|`text`|
-    |image|`text`|
-    |button Text|`text`|
+| Params | []() |
+|--------|------|
+|id|Number|
+|title|Text|
+|image|Text|
+|button Text|Text|
 
 
 Show a image dialog. Animation types like "*.gif" are not supported. You can use the "Light Theme" property to have a light or dark background. Or you enable "Use Background Color" property to use the background color property as background dialog color.
 
 ### Show Lightbox
 
-_Block preview not available_
+[[Method('Notifier', 'Show Lightbox', False, 'id', 'image')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
-    |image|`text`|
+| Params | []() |
+|--------|------|
+|id|Number|
+|image|Text|
 
 
 Displays a lightbox. You can use images like "*.png" or "*,gif" from assets folder or from a web url.
 
 ### Show Linear Progress
 
-_Block preview not available_
+[[Method('Notifier', 'Show Linear Progress', False, 'message', 'title', 'cancelable', 'indeterminate', 'maxValue', 'icon')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |message|`text`|
-    |title|`text`|
-    |cancelable|`boolean`|
-    |indeterminate|`boolean`|
-    |max Value|`number`|
-    |icon|`text`|
+| Params | []() |
+|--------|------|
+|message|Text|
+|title|Text|
+|cancelable|Boolean|
+|indeterminate|Boolean|
+|max Value|Number|
+|icon|Text|
 
 
 Shows a progress dialog with a horizontal progress bar. Can be dismissed by user if 'cancelable' is set to true. If indeterminate is true, maxValue and the 'UpdateProgress' method will have no effect. You can use the "Light Theme" property to have a light or dark background. Or you enable "Use Background Color" property to use the background color property as background dialog color.
 
 ### Show List Picker
 
-_Block preview not available_
+[[Method('Notifier', 'Show List Picker', False, 'id', 'title', 'itemsList', 'icon', 'fullscreen')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
-    |title|`text`|
-    |items List|`list`|
-    |icon|`text`|
-    |fullscreen|`boolean`|
+| Params | []() |
+|--------|------|
+|id|Number|
+|title|Text|
+|items List|List|
+|icon|Text|
+|fullscreen|Boolean|
 
 
 Shows a list picker dialog. You can use the "Light Theme" property to have a light or dark background. Or you enable "Use Background Color" property to use the background color property as background dialog color.
 
 ### Show Message Dialog
 
-_Block preview not available_
+[[Method('Notifier', 'Show Message Dialog', False, 'message', 'title', 'buttonText')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |message|`text`|
-    |title|`text`|
-    |button Text|`text`|
+| Params | []() |
+|--------|------|
+|message|Text|
+|title|Text|
+|button Text|Text|
 
 
 Show a Message Dialog.
 
 ### Show Number Picker
 
-_Block preview not available_
+[[Method('Notifier', 'Show Number Picker', False, 'id', 'title', 'buttonText', 'cancelButtonText', 'minValue', 'maxValue', 'startValue')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
-    |title|`text`|
-    |button Text|`text`|
-    |cancel Button Text|`text`|
-    |min Value|`number`|
-    |max Value|`number`|
-    |start Value|`number`|
+| Params | []() |
+|--------|------|
+|id|Number|
+|title|Text|
+|button Text|Text|
+|cancel Button Text|Text|
+|min Value|Number|
+|max Value|Number|
+|start Value|Number|
 
 
 Shows a number picker dialog that enables the user to select a number from a predefined range. You can use the "Use Background Color" property to use the background color property as background dialog color.
 
 ### Show Password Dialog
 
-_Block preview not available_
+[[Method('Notifier', 'Show Password Dialog', False, 'message', 'title', 'cancelable')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |message|`text`|
-    |title|`text`|
-    |cancelable|`boolean`|
+| Params | []() |
+|--------|------|
+|message|Text|
+|title|Text|
+|cancelable|Boolean|
 
 
 Shows a dialog box where the user can enter password (input is masked), after which the AfterTextInput event will be raised. If cancelable is true there will be an additional CANCEL button. Entering password will raise the AfterTextInput event. The "response" parameter to AfterTextInput will be the entered password, or "Cancel" if CANCEL button was pressed.
 
 ### Show Progress Dialog
 
-_Block preview not available_
+[[Method('Notifier', 'Show Progress Dialog', False, 'message', 'title')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |message|`text`|
-    |title|`text`|
+| Params | []() |
+|--------|------|
+|message|Text|
+|title|Text|
 
 
 Shows a dialog box with an optional title and message (use empty strings if they are not wanted). This dialog box contains a spinning artifact to indicate that the program is working. It cannot be canceled by the user but must be dismissed by the App Inventor Program by using the DismissProgressDialog block.
 
 ### Show Radio List Dialog
 
-_Block preview not available_
+[[Method('Notifier', 'Show Radio List Dialog', False, 'id', 'title', 'options', 'chooseButtonText', 'cancelable', 'cancelButtonText', 'selection', 'icon', 'fullscreen')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
-    |title|`text`|
-    |options|`list`|
-    |choose Button Text|`text`|
-    |cancelable|`boolean`|
-    |cancel Button Text|`text`|
-    |selection|`number`|
-    |icon|`text`|
-    |fullscreen|`boolean`|
+| Params | []() |
+|--------|------|
+|id|Number|
+|title|Text|
+|options|List|
+|choose Button Text|Text|
+|cancelable|Boolean|
+|cancel Button Text|Text|
+|selection|Number|
+|icon|Text|
+|fullscreen|Boolean|
 
 
 Shows a radio list dialog with a list of options of which only one can be chosen. You can use the "Light Theme" property to have a light or dark background. Or you enable "Use Background Color" property to use the background color property as background dialog color.
 
 ### Show Spinning Progress
 
-_Block preview not available_
+[[Method('Notifier', 'Show Spinning Progress', False, 'message', 'title', 'cancelable', 'icon')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |message|`text`|
-    |title|`text`|
-    |cancelable|`boolean`|
-    |icon|`text`|
+| Params | []() |
+|--------|------|
+|message|Text|
+|title|Text|
+|cancelable|Boolean|
+|icon|Text|
 
 
 Shows a spinning progress dialog which can be dismissed by the user if 'cancelable' is set to true. You can use the "Light Theme" property to have a light or dark background. Or you enable "Use Background Color" property to use the background color property as background dialog color.
 
 ### Show Text Dialog
 
-_Block preview not available_
+[[Method('Notifier', 'Show Text Dialog', False, 'message', 'title', 'cancelable')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |message|`text`|
-    |title|`text`|
-    |cancelable|`boolean`|
+| Params | []() |
+|--------|------|
+|message|Text|
+|title|Text|
+|cancelable|Boolean|
 
 
 Shows a dialog box where the user can enter text, after which the AfterTextInput event will be raised. If cancelable is true there will be an additional CANCEL button. Entering text will raise the AfterTextInput event. The "response" parameter to AfterTextInput will be the text that was entered, or "Cancel" if the CANCEL button was pressed.
 
 ### Show Text Input Dialog
 
-_Block preview not available_
+[[Method('Notifier', 'Show Text Input Dialog', False, 'id', 'title', 'defaultText', 'icon', 'hint', 'fullscreen', 'cancelable', 'inputType', 'buttonText', 'cancelButtonText', 'textColor', 'hintColor')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
-    |title|`text`|
-    |default Text|`text`|
-    |icon|`text`|
-    |hint|`text`|
-    |fullscreen|`boolean`|
-    |cancelable|`boolean`|
-    |input Type|`number`|
-    |button Text|`text`|
-    |cancel Button Text|`text`|
-    |text Color|`number`|
-    |hint Color|`number`|
+| Params | []() |
+|--------|------|
+|id|Number|
+|title|Text|
+|default Text|Text|
+|icon|Text|
+|hint|Text|
+|fullscreen|Boolean|
+|cancelable|Boolean|
+|input Type|Number|
+|button Text|Text|
+|cancel Button Text|Text|
+|text Color|Number|
+|hint Color|Number|
 
 
 Show a text input dialog. Possible input types are: "1= Normal text", "2= Password text", "3= Person name", "4= Email adress", "5|6= Number", "7= Password number" or "8= datetime". You can use the "Light Theme" property to have a light or dark background. Or you enable "Use Background Color" property to use the background color property as background dialog color.
 
 ### Show Word Picker
 
-_Block preview not available_
+[[Method('Notifier', 'Show Word Picker', False, 'id', 'title', 'buttonText', 'cancelButtonText', 'itemsList')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
-    |title|`text`|
-    |button Text|`text`|
-    |cancel Button Text|`text`|
-    |items List|`list`|
+| Params | []() |
+|--------|------|
+|id|Number|
+|title|Text|
+|button Text|Text|
+|cancel Button Text|Text|
+|items List|List|
 
 
 Shows a word picker dialog that enables the user to select a number from a predefined word. You can use the "Use Background Color" property to use the background color property as background dialog color.
 
 ### Update Progress
 
-_Block preview not available_
+[[Method('Notifier', 'Update Progress', False, 'value')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |value|`number`|
+| Params | []() |
+|--------|------|
+|value|Number|
 
 
 Change the current value of the linear progress dialog. Has no effect if "indeterminate" is set to true.
@@ -612,156 +540,98 @@ Change the current value of the linear progress dialog. Has no effect if "indete
 
 ### Background Color
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Notifier', 'Background Color')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|&HFF444444|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>&HFF444444</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Specifies the background color for alerts (not dialogs).
 
+[[PropertyBlockGetterAndSetter('Notifier', 'Background Color')]]
+
 ### Dim Amount
 
-<small>Available as ^^Advanced^^ Property</small>
+ <small>Available as ^^Advanced^^ Property</small>
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Notifier', 'Dim Amount')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|0.5|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>0.5</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Set the amount of dim behind the dialog window. Use '0.0' for no dim and '1.0' for full dim.
 
+[[PropertyBlockGetterAndSetter('Notifier', 'Dim Amount')]]
+
 ### Light Theme
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Notifier', 'Light Theme')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|False|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>False</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Gets the current theme
 
+[[PropertyBlockGetterAndSetter('Notifier', 'Light Theme')]]
+
 ### Linkify
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Notifier', 'Linkify')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|False|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>False</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 If set to true will attempt to make text clickable where possible; e.g. hyperlinks, phone numbers. Can not be used for Progress Dialogs.
 
+[[PropertyBlockGetterAndSetter('Notifier', 'Linkify')]]
+
 ### Notifier Length
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Notifier', 'Notifier Length')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|1|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>1</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 specifies the length of time that the alert is shown -- either "short" or "long".
 
+[[PropertyBlockGetterAndSetter('Notifier', 'Notifier Length')]]
+
 ### Text Color
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Notifier', 'Text Color')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|&HFFFFFFFF|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>&HFFFFFFFF</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Specifies the text color for alerts or for dialogs message.
 
+[[PropertyBlockGetterAndSetter('Notifier', 'Text Color')]]
+
 ### Text Font Typeface
 
-<small>Available as ^^Common^^ Property</small>
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>0</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
-:eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Notifier', 'Text Font Typeface')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|0|
-
-_No description available_
 
 ### Text Font Typeface Import
 
-<small>Available as ^^Advanced^^ Property</small>
+ <small>Available as ^^Advanced^^ Property</small>
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Notifier', 'Text Font Typeface Import')]]
-
-| Type |
-|:----:|
-|text|
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Set a custom font.
+
+[[PropertyBlockGetterAndSetter('Notifier', 'Text Font Typeface Import')]]
 
 ### Title Color
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Notifier', 'Title Color')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|&HFFFFFFFF|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>&HFFFFFFFF</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Specifies the title text color for dialogs.
 
+[[PropertyBlockGetterAndSetter('Notifier', 'Title Color')]]
+
 ### Title Font Typeface
 
-<small>Available as ^^Common^^ Property</small>
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>0</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
-:eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Notifier', 'Title Font Typeface')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|0|
-
-_No description available_
 
 ### Title Font Typeface Import
 
-<small>Available as ^^Advanced^^ Property</small>
+ <small>Available as ^^Advanced^^ Property</small>
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Notifier', 'Title Font Typeface Import')]]
-
-| Type |
-|:----:|
-|text|
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Set a custom font.
 
+[[PropertyBlockGetterAndSetter('Notifier', 'Title Font Typeface Import')]]
+
 ### Use Background Color
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Notifier', 'Use Background Color')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|True|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 If enabled the dialog will use the color from the "Background Color"-option. Else it will use the theme (light or dark).
+
+[[PropertyBlockGetterAndSetter('Notifier', 'Use Background Color')]]

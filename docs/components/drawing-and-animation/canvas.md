@@ -29,17 +29,15 @@ There are events to tell when and where a Canvas has been touched or a `` Sprite
 
 [[Event('Canvas', 'Dragged', 'startX', 'startY', 'prevX', 'prevY', 'currentX', 'currentY', 'draggedAnySprite')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |start X|`number`|
-    |start Y|`number`|
-    |prev X|`number`|
-    |prev Y|`number`|
-    |current X|`number`|
-    |current Y|`number`|
-    |dragged Any Sprite|`boolean`|
+| Params | []() |
+|--------|------|
+|start X|Number|
+|start Y|Number|
+|prev X|Number|
+|prev Y|Number|
+|current X|Number|
+|current Y|Number|
+|dragged Any Sprite|Boolean|
 
 
 When the user does a drag from one point (prevX, prevY) toanother (x, y). The pair (startX, startY) indicates where theuser first touched the screen, and "draggedAnySprite" indicates whether asprite is being dragged.
@@ -48,17 +46,15 @@ When the user does a drag from one point (prevX, prevY) toanother (x, y). The pa
 
 [[Event('Canvas', 'Flung', 'x', 'y', 'speed', 'heading', 'xvel', 'yvel', 'flungSprite')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |x|`number`|
-    |y|`number`|
-    |speed|`number`|
-    |heading|`number`|
-    |x vel|`number`|
-    |y vel|`number`|
-    |flung Sprite|`boolean`|
+| Params | []() |
+|--------|------|
+|x|Number|
+|y|Number|
+|speed|Number|
+|heading|Number|
+|x vel|Number|
+|y vel|Number|
+|flung Sprite|Boolean|
 
 
 When a fling gesture (quick swipe) is made on the canvas: providesthe (x,y) position of the start of the fling, relative to the upperleft of the canvas. Also provides the speed (pixels per millisecond) and heading(0-360 degrees) of the fling, as well as the x velocity and y velocitycomponents of the fling's vector. The value "flungSprite" is true if a spritewas located near the the starting point of the fling gesture.
@@ -67,11 +63,9 @@ When a fling gesture (quick swipe) is made on the canvas: providesthe (x,y) posi
 
 [[Event('Canvas', 'Scaled', 'scaleFactor')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |scale Factor|`number`|
+| Params | []() |
+|--------|------|
+|scale Factor|Number|
 
 
 This event is invoked when two-finger pinches. ScaleFactor is the ratio of the average distance between two-fingers from current and previous scale event.
@@ -80,12 +74,10 @@ This event is invoked when two-finger pinches. ScaleFactor is the ratio of the a
 
 [[Event('Canvas', 'Touch Down', 'x', 'y')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |x|`number`|
-    |y|`number`|
+| Params | []() |
+|--------|------|
+|x|Number|
+|y|Number|
 
 
 When the user begins touching the canvas (places finger on canvas andleaves it there): provides the (x,y) position of the touch, relativeto the upper left of the canvas
@@ -94,12 +86,10 @@ When the user begins touching the canvas (places finger on canvas andleaves it t
 
 [[Event('Canvas', 'Touch Up', 'x', 'y')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |x|`number`|
-    |y|`number`|
+| Params | []() |
+|--------|------|
+|x|Number|
+|y|Number|
 
 
 When the user stops touching the canvas (lifts finger after aTouchDown event): provides the (x,y) position of the touch, relativeto the upper left of the canvas
@@ -108,13 +98,11 @@ When the user stops touching the canvas (lifts finger after aTouchDown event): p
 
 [[Event('Canvas', 'Touched', 'x', 'y', 'touchedAnySprite')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |x|`number`|
-    |y|`number`|
-    |touched Any Sprite|`boolean`|
+| Params | []() |
+|--------|------|
+|x|Number|
+|y|Number|
+|touched Any Sprite|Boolean|
 
 
 When the user touches the canvas and then immediately lifts finger: providesthe (x,y) position of the touch, relative to the upper left of the canvas. TouchedAnySpriteis true if the same touch also touched a sprite, and false otherwise.
@@ -123,175 +111,155 @@ When the user touches the canvas and then immediately lifts finger: providesthe 
 
 ### Clear
 
-_Block preview not available_
+[[Method('Canvas', 'Clear', False)]]
 
 Clears anything drawn on this Canvas but not any background color or image.
 
 ### Draw Arc
 
-_Block preview not available_
+[[Method('Canvas', 'Draw Arc', False, 'left', 'top', 'right', 'bottom', 'startAngle', 'sweepAngle', 'useCenter', 'fill')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |left|`number`|
-    |top|`number`|
-    |right|`number`|
-    |bottom|`number`|
-    |start Angle|`number`|
-    |sweep Angle|`number`|
-    |use Center|`boolean`|
-    |fill|`boolean`|
+| Params | []() |
+|--------|------|
+|left|Number|
+|top|Number|
+|right|Number|
+|bottom|Number|
+|start Angle|Number|
+|sweep Angle|Number|
+|use Center|Boolean|
+|fill|Boolean|
 
 
 Draw an arc on Canvas, by drawing an arc from a specified oval (specified by left, top, right &amp; bottom). Start angle is 0 when heading to the right, and increase when rotate clockwise. When useCenter is true, a sector will be drawed instead of an arc. When fill is true, a filled arc (or sector) will be drawed instead of just an outline.
 
 ### Draw Circle
 
-_Block preview not available_
+[[Method('Canvas', 'Draw Circle', False, 'centerX', 'centerY', 'radius', 'fill')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |center X|`number`|
-    |center Y|`number`|
-    |radius|`number`|
-    |fill|`boolean`|
+| Params | []() |
+|--------|------|
+|center X|Number|
+|center Y|Number|
+|radius|Number|
+|fill|Boolean|
 
 
 Draws a circle (filled in) with the given radius centered at the given coordinates on the canvas
 
 ### Draw Line
 
-_Block preview not available_
+[[Method('Canvas', 'Draw Line', False, 'x1', 'y1', 'x2', 'y2')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |x1|`number`|
-    |y1|`number`|
-    |x2|`number`|
-    |y2|`number`|
+| Params | []() |
+|--------|------|
+|x1|Number|
+|y1|Number|
+|x2|Number|
+|y2|Number|
 
 
 Draws a line between the given coordinates on the canvas.
 
 ### Draw Point
 
-_Block preview not available_
+[[Method('Canvas', 'Draw Point', False, 'x', 'y')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |x|`number`|
-    |y|`number`|
+| Params | []() |
+|--------|------|
+|x|Number|
+|y|Number|
 
 
 Draws a point at the given coordinates on the canvas.
 
 ### Draw Polygon
 
-_Block preview not available_
+[[Method('Canvas', 'Draw Polygon', False, 'centerX', 'centerY', 'numSides', 'polyRadius', 'cornerRadius', 'rotation', 'fill')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |center X|`number`|
-    |center Y|`number`|
-    |num Sides|`number`|
-    |poly Radius|`number`|
-    |corner Radius|`number`|
-    |rotation|`number`|
-    |fill|`boolean`|
+| Params | []() |
+|--------|------|
+|center X|Number|
+|center Y|Number|
+|num Sides|Number|
+|poly Radius|Number|
+|corner Radius|Number|
+|rotation|Number|
+|fill|Boolean|
 
 
 Creates a polygon with with specified number of sides from a radius.
 
 ### Draw Shape
 
-_Block preview not available_
+[[Method('Canvas', 'Draw Shape', False, 'pointList', 'fill')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |point List|`list`|
-    |fill|`boolean`|
+| Params | []() |
+|--------|------|
+|point List|List|
+|fill|Boolean|
 
 
 Draws a shape on the canvas. pointList should be a list contains sub-lists with two number which represents a coordinate. The first point and last point does not need to be the same. e.g. ((x1 y1) (x2 y2) (x3 y3)) When fill is true, the shape will be filled.
 
 ### Draw Text
 
-_Block preview not available_
+[[Method('Canvas', 'Draw Text', False, 'text', 'x', 'y')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |text|`text`|
-    |x|`number`|
-    |y|`number`|
+| Params | []() |
+|--------|------|
+|text|Text|
+|x|Number|
+|y|Number|
 
 
 Draws the specified text relative to the specified coordinates using the values of the FontSize and TextAlignment properties.
 
 ### Draw Text At Angle
 
-_Block preview not available_
+[[Method('Canvas', 'Draw Text At Angle', False, 'text', 'x', 'y', 'angle')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |text|`text`|
-    |x|`number`|
-    |y|`number`|
-    |angle|`number`|
+| Params | []() |
+|--------|------|
+|text|Text|
+|x|Number|
+|y|Number|
+|angle|Number|
 
 
 Draws the specified text starting at the specified coordinates at the specified angle using the values of the FontSize and TextAlignment properties.
 
 ### Get Background Pixel Color
 
-_Block preview not available_
+[[Method('Canvas', 'Get Background Pixel Color', True, 'x', 'y')]]
 
 {>>Returns `number`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |x|`number`|
-    |y|`number`|
+| Params | []() |
+|--------|------|
+|x|Number|
+|y|Number|
 
 
 Gets the color of the specified point. This includes the background and any drawn points, lines, or circles but not sprites.
 
 ### Get Pixel Color
 
-_Block preview not available_
+[[Method('Canvas', 'Get Pixel Color', True, 'x', 'y')]]
 
 {>>Returns `number`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |x|`number`|
-    |y|`number`|
+| Params | []() |
+|--------|------|
+|x|Number|
+|y|Number|
 
 
 Gets the color of the specified point.
 
 ### Save
 
-_Block preview not available_
+[[Method('Canvas', 'Save', True)]]
 
 {>>Returns `text`<<}
 
@@ -299,30 +267,26 @@ Saves a picture of this Canvas to the device's external storage. If an error occ
 
 ### Save As
 
-_Block preview not available_
+[[Method('Canvas', 'Save As', True, 'fileName')]]
 
 {>>Returns `text`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |file Name|`text`|
+| Params | []() |
+|--------|------|
+|file Name|Text|
 
 
 Saves a picture of this Canvas to the device's external storage in the file named fileName. fileName must end with one of .jpg, .jpeg, or .png, which determines the file type.
 
 ### Set Background Pixel Color
 
-_Block preview not available_
+[[Method('Canvas', 'Set Background Pixel Color', False, 'x', 'y', 'color')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |x|`number`|
-    |y|`number`|
-    |color|`number`|
+| Params | []() |
+|--------|------|
+|x|Number|
+|y|Number|
+|color|Number|
 
 
 Sets the color of the specified point. This differs from DrawPoint by having an argument for color.
@@ -331,222 +295,140 @@ Sets the color of the specified point. This differs from DrawPoint by having an 
 
 ### Background Color
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Canvas', 'Background Color')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|&HFFFFFFFF|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>&HFFFFFFFF</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 The color of the canvas background.
 
+[[PropertyBlockGetterAndSetter('Canvas', 'Background Color')]]
+
 ### Background Image
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Canvas', 'Background Image')]]
-
-| Type |
-|:----:|
-|text|
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 The name of a file containing the background image for the canvas
 
+[[PropertyBlockGetterAndSetter('Canvas', 'Background Image')]]
+
 ### Extend Moves Outside Canvas
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Canvas', 'Extend Moves Outside Canvas')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|False|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>False</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Determines whether moves can extend beyond the canvas borders. Default is false. This should normally be false, and the property is provided for backwards compatibility.
 
+[[PropertyBlockGetterAndSetter('Canvas', 'Extend Moves Outside Canvas')]]
+
 ### Font Bold
 
-<small>Available as ^^Common^^ Property</small>
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>False</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
-:eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Canvas', 'Font Bold')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|False|
-
-_No description available_
 
 ### Font Italic
 
-<small>Available as ^^Common^^ Property</small>
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>False</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
-:eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Canvas', 'Font Italic')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|False|
-
-_No description available_
 
 ### Font Size
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Canvas', 'Font Size')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|14.0|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>14.0</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 The font size of text drawn on the canvas.
 
+[[PropertyBlockGetterAndSetter('Canvas', 'Font Size')]]
+
 ### Font Typeface
 
-<small>Available as ^^Common^^ Property</small>
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>0</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
-:eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Canvas', 'Font Typeface')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|0|
-
-_No description available_
 
 ### Font Typeface Import
 
-<small>Available as ^^Advanced^^ Property</small>
+ <small>Available as ^^Advanced^^ Property</small>
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Canvas', 'Font Typeface Import')]]
-
-| Type |
-|:----:|
-|text|
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Set a custom font.
 
+[[PropertyBlockGetterAndSetter('Canvas', 'Font Typeface Import')]]
+
 ### Line Width
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Canvas', 'Line Width')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|2.0|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>2.0</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 The width of lines drawn on the canvas.
 
+[[PropertyBlockGetterAndSetter('Canvas', 'Line Width')]]
+
 ### Paint Color
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Canvas', 'Paint Color')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|&HFF000000|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>&HFF000000</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 The color in which lines are drawn
 
+[[PropertyBlockGetterAndSetter('Canvas', 'Paint Color')]]
+
 ### Text Alignment
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Canvas', 'Text Alignment')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|1|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>1</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Determines the alignment of the text drawn by DrawText() or DrawAngle() with respect to the point specified by that command: point at the left of the text, point at the center of the text, or point at the right of the text.
 
+[[PropertyBlockGetterAndSetter('Canvas', 'Text Alignment')]]
+
 ### Visible
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Canvas', 'Visible')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|True|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Returns true iff the component is visible.
 
+[[PropertyBlockGetterAndSetter('Canvas', 'Visible')]]
+
 ### Column
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Canvas', 'Column')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Blocks</span> 
 
 Column property getter method.
 
+[[PropertyBlockGetterAndSetter('Canvas', 'Column')]]
+
 ### Height
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Canvas', 'Height')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Blocks</span> 
 
 Set the canvas heightThe height can only be set to &gt;0 or -1 (automatic) or -2 (fill parent) orto a value less then or equal to LENGTH_PERCENT_TAG (which is laterconverted to pixels.
 
+[[PropertyBlockGetterAndSetter('Canvas', 'Height')]]
+
 ### Height Percent
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Canvas', 'Height Percent')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Blocks</span> 
 
 Specifies the component's vertical height as a percentageof the height of its parent Component.
 
+[[PropertyBlockGetterAndSetter('Canvas', 'Height Percent')]]
+
 ### Row
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Canvas', 'Row')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Blocks</span> 
 
 Row property getter method.
 
+[[PropertyBlockGetterAndSetter('Canvas', 'Row')]]
+
 ### Width
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Canvas', 'Width')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Blocks</span> 
 
 Set the canvas widthThe width can only be set to &gt;0 or -1 (automatic) or -2 (fill parent)or to a value less then or equal to LENGTH_PERCENT_TAG (which is laterconverted to pixels.
 
+[[PropertyBlockGetterAndSetter('Canvas', 'Width')]]
+
 ### Width Percent
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Canvas', 'Width Percent')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Blocks</span> 
 
 Specifies the component's horizontal width as a percentageof the Width of its parent Component.
+
+[[PropertyBlockGetterAndSetter('Canvas', 'Width Percent')]]

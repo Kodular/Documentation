@@ -18,14 +18,12 @@ In order to function, the component must have its `` Enabled `` property set to 
 
 [[Event('Gyroscope Sensor', 'Gyroscope Changed', 'xAngularVelocity', 'yAngularVelocity', 'zAngularVelocity', 'timestamp')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |x Angular Velocity|`number`|
-    |y Angular Velocity|`number`|
-    |z Angular Velocity|`number`|
-    |timestamp|`number`|
+| Params | []() |
+|--------|------|
+|x Angular Velocity|Number|
+|y Angular Velocity|Number|
+|z Angular Velocity|Number|
+|timestamp|Number|
 
 
 Indicates that the gyroscope sensor data has changed. The timestamp parameter is the time in nanoseconds at which the event occurred.
@@ -34,57 +32,40 @@ Indicates that the gyroscope sensor data has changed. The timestamp parameter is
 
 ### Enabled
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Gyroscope Sensor', 'Enabled')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|True|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Enabled property getter method.
 
+[[PropertyBlockGetterAndSetter('Gyroscope Sensor', 'Enabled')]]
+
 ### Available
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Gyroscope Sensor', 'Available')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|None|
+<span class="chip chip-boolean">Boolean</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 Indicates whether a gyroscope sensor is available.
 
+[[PropertyBlockGetter('Gyroscope Sensor', 'Available')]]
+
 ### X Angular Velocity
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Gyroscope Sensor', 'X Angular Velocity')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 The angular velocity around the X axis, in degrees per second.
 
+[[PropertyBlockGetter('Gyroscope Sensor', 'X Angular Velocity')]]
+
 ### Y Angular Velocity
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Gyroscope Sensor', 'Y Angular Velocity')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 The angular velocity around the Y axis, in degrees per second.
 
+[[PropertyBlockGetter('Gyroscope Sensor', 'Y Angular Velocity')]]
+
 ### Z Angular Velocity
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Gyroscope Sensor', 'Z Angular Velocity')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 The angular velocity around the Z axis, in degrees per second.
+
+[[PropertyBlockGetter('Gyroscope Sensor', 'Z Angular Velocity')]]

@@ -16,11 +16,9 @@ A non-visible component that records audio from the device''s microphone.
 
 [[Event('Sound Recorder', 'After Sound Recorded', 'sound')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |sound|`text`|
+| Params | []() |
+|--------|------|
+|sound|Text|
 
 
 Provides the location of the newly created sound.
@@ -41,19 +39,19 @@ Indicates that the recorder has stopped, and can be started again.
 
 ### Pause
 
-_Block preview not available_
+[[Method('Sound Recorder', 'Pause', False)]]
 
 Pause recording.
 
 ### Start
 
-_Block preview not available_
+[[Method('Sound Recorder', 'Start', False)]]
 
 Starts recording.
 
 ### Stop
 
-_Block preview not available_
+[[Method('Sound Recorder', 'Stop', False)]]
 
 Stops recording.
 
@@ -61,13 +59,8 @@ Stops recording.
 
 ### Saved Recording
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Sound Recorder', 'Saved Recording')]]
-
-| Type | Default |
-|:----:|:-------:|
-|text|/mnt/sdcard/Makeroid/mySound.3gp|
+<span class="chip chip-text">Text</span> <span class="chip chip-text">Default: <i>/mnt/sdcard/Makeroid/mySound.3gp</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Specifies the path to the file where the recording should be stored. If this property is the empty string, then starting a recording will create a file in an appropriate location. If the property is not the empty string, it should specify a complete path to a file in an existing directory, including a file name with the extension .3gp.
+
+[[PropertyBlockGetterAndSetter('Sound Recorder', 'Saved Recording')]]

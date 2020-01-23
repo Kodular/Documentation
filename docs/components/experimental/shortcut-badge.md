@@ -14,20 +14,18 @@ A non-visible component that adds a dot/badge to the app''s launcher icon when a
 
 ### Apply Count
 
-_Block preview not available_
+[[Method('Shortcut Badge', 'Apply Count', False, 'count')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |count|`number`|
+| Params | []() |
+|--------|------|
+|count|Number|
 
 
 Use this block to apply a notification badge count.
 
 ### Count
 
-_Block preview not available_
+[[Method('Shortcut Badge', 'Count', True)]]
 
 {>>Returns `number`<<}
 
@@ -35,6 +33,6 @@ Use this block to return the notification count.
 
 ### Remove Count
 
-_Block preview not available_
+[[Method('Shortcut Badge', 'Remove Count', False)]]
 
 Use this block to remove the notification badge count.

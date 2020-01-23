@@ -14,145 +14,125 @@ A component to create dynamic image in Arrangements.
 
 ### Create Image
 
-_Block preview not available_
+[[Method('Dynamic Image', 'Create Image', False, 'id', 'arrangement', 'path', 'width', 'height')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
-    |arrangement|`component`|
-    |path|`text`|
-    |width|`number`|
-    |height|`number`|
+| Params | []() |
+|--------|------|
+|id|Number|
+|arrangement|Component|
+|path|Text|
+|width|Number|
+|height|Number|
 
 
 Create a new image component dynamically. Use for width/height '-1' for wrap content or '-2' for fill parent.
 
 ### Delete Image
 
-_Block preview not available_
+[[Method('Dynamic Image', 'Delete Image', False, 'id')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
+| Params | []() |
+|--------|------|
+|id|Number|
 
 
 Remove a image component with the given id.
 
 ### Get Height
 
-_Block preview not available_
+[[Method('Dynamic Image', 'Get Height', True, 'id')]]
 
 {>>Returns `number`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
+| Params | []() |
+|--------|------|
+|id|Number|
 
 
 Get the Height of a image component.
 
 ### Get Image By Id
 
-_Block preview not available_
+[[Method('Dynamic Image', 'Get Image By Id', True, 'id')]]
 
 {>>Returns `component`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
+| Params | []() |
+|--------|------|
+|id|Number|
 
 
 Returns the image referenced by its id.
 
 ### Get Width
 
-_Block preview not available_
+[[Method('Dynamic Image', 'Get Width', True, 'id')]]
 
 {>>Returns `number`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
+| Params | []() |
+|--------|------|
+|id|Number|
 
 
 Get the Width of a image component.
 
 ### Rotation Angle
 
-_Block preview not available_
+[[Method('Dynamic Image', 'Rotation Angle', False, 'id', 'rotationAngle')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
-    |rotation Angle|`number`|
+| Params | []() |
+|--------|------|
+|id|Number|
+|rotation Angle|Number|
 
 
 Specifies the angle of a image component with the given id.
 
 ### Scale Picture To Fit
 
-_Block preview not available_
+[[Method('Dynamic Image', 'Scale Picture To Fit', False, 'id', 'scale')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
-    |scale|`boolean`|
+| Params | []() |
+|--------|------|
+|id|Number|
+|scale|Boolean|
 
 
 Specifies whether a image component with the given id should be resized to match the size of the ImageView.
 
 ### Set Height
 
-_Block preview not available_
+[[Method('Dynamic Image', 'Set Height', False, 'id', 'height')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
-    |height|`number`|
+| Params | []() |
+|--------|------|
+|id|Number|
+|height|Number|
 
 
 Update the Height of a image component.
 
 ### Set Width
 
-_Block preview not available_
+[[Method('Dynamic Image', 'Set Width', False, 'id', 'width')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
-    |width|`number`|
+| Params | []() |
+|--------|------|
+|id|Number|
+|width|Number|
 
 
 Update the Width of a image component.
 
 ### Update Image
 
-_Block preview not available_
+[[Method('Dynamic Image', 'Update Image', False, 'id', 'path')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
-    |path|`text`|
+| Params | []() |
+|--------|------|
+|id|Number|
+|path|Text|
 
 
 Update a image component with the given id.

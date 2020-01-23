@@ -16,11 +16,9 @@ A non-visible component that fetches specifications of the device.
 
 [[Event('Device Utilities', 'Got IMEI', 'imei')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |imei|`text`|
+| Params | []() |
+|--------|------|
+|imei|Text|
 
 
 Event to get the IMEI after it was requested.
@@ -29,11 +27,9 @@ Event to get the IMEI after it was requested.
 
 [[Event('Device Utilities', 'Got Serial', 'serial')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |serial|`text`|
+| Params | []() |
+|--------|------|
+|serial|Text|
 
 
 Event to get the serial number after it was requested.
@@ -42,7 +38,7 @@ Event to get the serial number after it was requested.
 
 ### Has Dangerous Apk Installed
 
-_Block preview not available_
+[[Method('Device Utilities', 'Has Dangerous Apk Installed', True)]]
 
 {>>Returns `boolean`<<}
 
@@ -50,21 +46,19 @@ Returns TRUE if one of 12 known patching or root emulating packages is installed
 
 ### Copy
 
-_Block preview not available_
+[[Method('Device Utilities', 'Copy', False, 'text', 'successToastMessage')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |text|`text`|
-    |Success Toast Message|`text`|
+| Params | []() |
+|--------|------|
+|text|Text|
+|Success Toast Message|Text|
 
 
 Copy text to clipboard. In case 'Show Success Toast' is true, the toast with your message will be shown after copying a text to the clipboard.
 
 ### External Storage Available
 
-_Block preview not available_
+[[Method('Device Utilities', 'External Storage Available', True)]]
 
 {>>Returns `number`<<}
 
@@ -72,7 +66,7 @@ Available size of external storage in Gigabytes.
 
 ### External Storage Total
 
-_Block preview not available_
+[[Method('Device Utilities', 'External Storage Total', True)]]
 
 {>>Returns `number`<<}
 
@@ -80,7 +74,7 @@ Total external storage size in Gigabytes.
 
 ### External Storage Used
 
-_Block preview not available_
+[[Method('Device Utilities', 'External Storage Used', True)]]
 
 {>>Returns `number`<<}
 
@@ -88,19 +82,19 @@ Size of used-external-storage in Gigabytes.
 
 ### Get IMEI
 
-_Block preview not available_
+[[Method('Device Utilities', 'Get IMEI', False)]]
 
 Get the IMEI of the device. The result will be then at the 'Got IMEI' event.
 
 ### Get Serial
 
-_Block preview not available_
+[[Method('Device Utilities', 'Get Serial', False)]]
 
 A hardware serial number, if available. Alphanumeric only, case-insensitive. For apps targeting SDK higher than N_MR1 this field is set to UNKNOWN.
 
 ### Internal Storage Available
 
-_Block preview not available_
+[[Method('Device Utilities', 'Internal Storage Available', True)]]
 
 {>>Returns `number`<<}
 
@@ -108,7 +102,7 @@ Size of available internal storage in Gigabytes.
 
 ### Internal Storage Total
 
-_Block preview not available_
+[[Method('Device Utilities', 'Internal Storage Total', True)]]
 
 {>>Returns `number`<<}
 
@@ -116,7 +110,7 @@ Total size of internal storage in Gigabytes.
 
 ### Internal Storage Used
 
-_Block preview not available_
+[[Method('Device Utilities', 'Internal Storage Used', True)]]
 
 {>>Returns `number`<<}
 
@@ -124,7 +118,7 @@ Size of used-internal-storage in Gigabytes.
 
 ### Memory Free
 
-_Block preview not available_
+[[Method('Device Utilities', 'Memory Free', True)]]
 
 {>>Returns `number`<<}
 
@@ -132,7 +126,7 @@ Total free RAM size in Gigabytes.
 
 ### Memory Total
 
-_Block preview not available_
+[[Method('Device Utilities', 'Memory Total', True)]]
 
 {>>Returns `number`<<}
 
@@ -140,7 +134,7 @@ Total RAM size in Gigabytes.
 
 ### Memory Used
 
-_Block preview not available_
+[[Method('Device Utilities', 'Memory Used', True)]]
 
 {>>Returns `number`<<}
 
@@ -148,40 +142,36 @@ Size of used-memory in Gigabytes.
 
 ### Parse
 
-_Block preview not available_
+[[Method('Device Utilities', 'Parse', True, 'text', 'start', 'end', 'ifTextNotFound')]]
 
 {>>Returns `text`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |text|`text`|
-    |start|`text`|
-    |end|`text`|
-    |if Text Not Found|`text`|
+| Params | []() |
+|--------|------|
+|text|Text|
+|start|Text|
+|end|Text|
+|if Text Not Found|Text|
 
 
 Parse a text between two strings. Example: text = abcdef, start = a, end = d, result = bc. If there is a problem the 'if Text Not Found' will be returned.
 
 ### Paste
 
-_Block preview not available_
+[[Method('Device Utilities', 'Paste', True, 'successToastMessage')]]
 
 {>>Returns `text`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |Success Toast Message|`text`|
+| Params | []() |
+|--------|------|
+|Success Toast Message|Text|
 
 
 Paste text from clipboard. In case 'Show Success Toast' is true, the toast with your message will be shown after pasting a text from the clipboard.
 
 ### Is Adb Debugging Enabled
 
-_Block preview not available_
+[[Method('Device Utilities', 'Is Adb Debugging Enabled', True)]]
 
 {>>Returns `boolean`<<}
 
@@ -189,7 +179,7 @@ This returns TRUE if ADB debugging is enabled, which could be a sign of hacking 
 
 ### Is Emulator
 
-_Block preview not available_
+[[Method('Device Utilities', 'Is Emulator', True)]]
 
 {>>Returns `boolean`<<}
 
@@ -197,7 +187,7 @@ Returns TRUE if the device operating on an emulator. Developed by Cian.
 
 ### Is Installed From Play Store
 
-_Block preview not available_
+[[Method('Device Utilities', 'Is Installed From Play Store', True)]]
 
 {>>Returns `boolean`<<}
 
@@ -207,235 +197,170 @@ Returns TRUE if the app was installed from Play Store. Developed by Cian.
 
 ### Show Success Toast
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Device Utilities', 'Show Success Toast')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|False|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>False</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Returns true if 'Show Success Toast' is enabled.
 
+[[PropertyBlockGetterAndSetter('Device Utilities', 'Show Success Toast')]]
+
 ### Android Version
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Device Utilities', 'Android Version')]]
-
-| Type | Default |
-|:----:|:-------:|
-|text|None|
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 Get the android version of device.
 
+[[PropertyBlockGetter('Device Utilities', 'Android Version')]]
+
 ### API Version
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Device Utilities', 'API Version')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 The user-visible SDK version of the framework.
 
+[[PropertyBlockGetter('Device Utilities', 'API Version')]]
+
 ### Board
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Device Utilities', 'Board')]]
-
-| Type | Default |
-|:----:|:-------:|
-|text|None|
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 The name of the underlying board, like "goldfish".
 
+[[PropertyBlockGetter('Device Utilities', 'Board')]]
+
 ### Bootloader Version
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Device Utilities', 'Bootloader Version')]]
-
-| Type | Default |
-|:----:|:-------:|
-|text|None|
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 The system bootloader version number.
 
+[[PropertyBlockGetter('Device Utilities', 'Bootloader Version')]]
+
 ### Brand
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Device Utilities', 'Brand')]]
-
-| Type | Default |
-|:----:|:-------:|
-|text|None|
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 The consumer-visible brand with which the product/hardware will be associated, if any.
 
+[[PropertyBlockGetter('Device Utilities', 'Brand')]]
+
 ### Build Number
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Device Utilities', 'Build Number')]]
-
-| Type | Default |
-|:----:|:-------:|
-|text|None|
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 Get the build number(Software) of the device.
 
+[[PropertyBlockGetter('Device Utilities', 'Build Number')]]
+
 ### Country Code
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Device Utilities', 'Country Code')]]
-
-| Type | Default |
-|:----:|:-------:|
-|text|None|
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 The result is the code of your country.
 
+[[PropertyBlockGetter('Device Utilities', 'Country Code')]]
+
 ### Device Name
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Device Utilities', 'Device Name')]]
-
-| Type | Default |
-|:----:|:-------:|
-|text|None|
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 The name of the industrial design.
 
+[[PropertyBlockGetter('Device Utilities', 'Device Name')]]
+
 ### Fingerprint
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Device Utilities', 'Fingerprint')]]
-
-| Type | Default |
-|:----:|:-------:|
-|text|None|
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 A string that uniquely identifies this build.
 
+[[PropertyBlockGetter('Device Utilities', 'Fingerprint')]]
+
 ### Device Id
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Device Utilities', 'Device Id')]]
-
-| Type | Default |
-|:----:|:-------:|
-|text|None|
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 Returns the unique device specific 'AndroidID'. Developed by Cian.
 
+[[PropertyBlockGetter('Device Utilities', 'Device Id')]]
+
 ### Hardware
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Device Utilities', 'Hardware')]]
-
-| Type | Default |
-|:----:|:-------:|
-|text|None|
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 The name of the hardware (from the kernel command line or /proc).
 
+[[PropertyBlockGetter('Device Utilities', 'Hardware')]]
+
 ### ID
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Device Utilities', 'ID')]]
-
-| Type | Default |
-|:----:|:-------:|
-|text|None|
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 Either a changelist number, or a label like "M4-rc20".
 
+[[PropertyBlockGetter('Device Utilities', 'ID')]]
+
 ### Language Code
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Device Utilities', 'Language Code')]]
-
-| Type | Default |
-|:----:|:-------:|
-|text|None|
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 The result is the code of your device language.
 
+[[PropertyBlockGetter('Device Utilities', 'Language Code')]]
+
 ### Manufacturer
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Device Utilities', 'Manufacturer')]]
-
-| Type | Default |
-|:----:|:-------:|
-|text|None|
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 The manufacturer of the product/hardware.
 
+[[PropertyBlockGetter('Device Utilities', 'Manufacturer')]]
+
 ### Model Name
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Device Utilities', 'Model Name')]]
-
-| Type | Default |
-|:----:|:-------:|
-|text|None|
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 The end-user-visible name for the end product.
 
+[[PropertyBlockGetter('Device Utilities', 'Model Name')]]
+
 ### Product
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Device Utilities', 'Product')]]
-
-| Type | Default |
-|:----:|:-------:|
-|text|None|
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 The name of the overall product.
 
+[[PropertyBlockGetter('Device Utilities', 'Product')]]
+
 ### Radio Version
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Device Utilities', 'Radio Version')]]
-
-| Type | Default |
-|:----:|:-------:|
-|text|None|
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 Returns the version string for the radio firmware. May return null (if, for instance, the radio is not currently on).
+
+[[PropertyBlockGetter('Device Utilities', 'Radio Version')]]
 
 ### Serial
 
 :warning: ==**Deprecated**==
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Device Utilities', 'Serial')]]
-
-| Type | Default |
-|:----:|:-------:|
-|text|None|
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 DEPRECATED. DO NOT USE THIS ANYMORE. USE 'Get Serial' INSTEAD!
 
+[[PropertyBlockGetter('Device Utilities', 'Serial')]]
+
 ### Tags
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Device Utilities', 'Tags')]]
-
-| Type | Default |
-|:----:|:-------:|
-|text|None|
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 Comma-separated tags describing the build, like "unsigned,debug".
 
+[[PropertyBlockGetter('Device Utilities', 'Tags')]]
+
 ### Type
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Device Utilities', 'Type')]]
-
-| Type | Default |
-|:----:|:-------:|
-|text|None|
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 The type of build, like "user" or "eng".
+
+[[PropertyBlockGetter('Device Utilities', 'Type')]]

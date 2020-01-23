@@ -14,37 +14,33 @@ A non-visible component that encrypts and decrypts data using a variety of techn
 
 ### AES-128 Decode
 
-_Block preview not available_
+[[Method('Cryptography', 'AES-128 Decode', True, 'aes128Hash')]]
 
 {>>Returns `text`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |AES-128 Hash|`text`|
+| Params | []() |
+|--------|------|
+|AES-128 Hash|Text|
 
 
 Decodes the given hash using the given key through AES-128. If any exception occurs, returns empty string.
 
 ### AES-128 Encode
 
-_Block preview not available_
+[[Method('Cryptography', 'AES-128 Encode', True, 'inputText')]]
 
 {>>Returns `text`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |input Text|`text`|
+| Params | []() |
+|--------|------|
+|input Text|Text|
 
 
 Encodes the given string using the given key through AES-128. If any exception occurs, returns empty string.
 
 ### Generate AES 128 Key
 
-_Block preview not available_
+[[Method('Cryptography', 'Generate AES 128 Key', True)]]
 
 {>>Returns `text`<<}
 
@@ -52,37 +48,33 @@ Generates a secure random AES 128 key
 
 ### AES-256 Decode
 
-_Block preview not available_
+[[Method('Cryptography', 'AES-256 Decode', True, 'aes256Hash')]]
 
 {>>Returns `text`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |AES-256 Hash|`text`|
+| Params | []() |
+|--------|------|
+|AES-256 Hash|Text|
 
 
 Decodes the given hash using the given key through AES-256. If there are any exceptions, returns empty string
 
 ### AES-256 Encode
 
-_Block preview not available_
+[[Method('Cryptography', 'AES-256 Encode', True, 'inputText')]]
 
 {>>Returns `text`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |input Text|`text`|
+| Params | []() |
+|--------|------|
+|input Text|Text|
 
 
 Encodes the given string using the given key through AES-256. If there are any exceptions, returns empty string
 
 ### Generate AES 256 Key
 
-_Block preview not available_
+[[Method('Cryptography', 'Generate AES 256 Key', True)]]
 
 {>>Returns `text`<<}
 
@@ -90,23 +82,21 @@ Generates a secure random AES 256 key
 
 ### BCrypt Create Hash
 
-_Block preview not available_
+[[Method('Cryptography', 'BCrypt Create Hash', True, 'inputText', 'salt')]]
 
 {>>Returns `text`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |input Text|`text`|
-    |salt|`text`|
+| Params | []() |
+|--------|------|
+|input Text|Text|
+|salt|Text|
 
 
 Generates a hash using BCrypt
 
 ### BCrypt Generate Salt
 
-_Block preview not available_
+[[Method('Cryptography', 'BCrypt Generate Salt', True)]]
 
 {>>Returns `text`<<}
 
@@ -114,217 +104,189 @@ Generates a salt usable for hashing with BCrypt
 
 ### BCrypt Validate Password
 
-_Block preview not available_
+[[Method('Cryptography', 'BCrypt Validate Password', True, 'inputText', 'correctHash')]]
 
 {>>Returns `boolean`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |input Text|`text`|
-    |correct Hash|`text`|
+| Params | []() |
+|--------|------|
+|input Text|Text|
+|correct Hash|Text|
 
 
 Verifies if the input password is the same one as the correct hashed password using BCrypt algorithm
 
 ### Base64 Decode
 
-_Block preview not available_
+[[Method('Cryptography', 'Base64 Decode', True, 'base64Hash')]]
 
 {>>Returns `text`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |base64 Hash|`text`|
+| Params | []() |
+|--------|------|
+|base64 Hash|Text|
 
 
 Decodes the given hash using Base64
 
 ### Base64 Encode
 
-_Block preview not available_
+[[Method('Cryptography', 'Base64 Encode', True, 'inputText')]]
 
 {>>Returns `text`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |input Text|`text`|
+| Params | []() |
+|--------|------|
+|input Text|Text|
 
 
 Encodes the given string using Base64
 
 ### Enigma Parser
 
-_Block preview not available_
+[[Method('Cryptography', 'Enigma Parser', True, 'inputText', 'rotor1', 'rotor2', 'rotor3', 'reflector', 'plugboard')]]
 
 {>>Returns `text`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |input Text|`text`|
-    |rotor 1|`number`|
-    |rotor 2|`number`|
-    |rotor 3|`number`|
-    |reflector|`text`|
-    |plugboard|`list`|
+| Params | []() |
+|--------|------|
+|input Text|Text|
+|rotor 1|Number|
+|rotor 2|Number|
+|rotor 3|Number|
+|reflector|Text|
+|plugboard|List|
 
 
 Encrypts or decrypts the given string simulating an Enigma machine. Rotors can go from 1 to 8, but they cannot be repeated. Reflector can be B, C or 0 if none. Plugboard is a list with sub-list of two items containing a character each one, which replace the first character with the second one.
 
 ### MD5 Create Hash
 
-_Block preview not available_
+[[Method('Cryptography', 'MD5 Create Hash', True, 'inputText')]]
 
 {>>Returns `text`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |input Text|`text`|
+| Params | []() |
+|--------|------|
+|input Text|Text|
 
 
 Generates a MD5 hash
 
 ### PBKDF2 Create Hash
 
-_Block preview not available_
+[[Method('Cryptography', 'PBKDF2 Create Hash', True, 'inputText')]]
 
 {>>Returns `text`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |input Text|`text`|
+| Params | []() |
+|--------|------|
+|input Text|Text|
 
 
 Generates a hash using PBKDF2
 
 ### PBKDF2 Validate Hash
 
-_Block preview not available_
+[[Method('Cryptography', 'PBKDF2 Validate Hash', True, 'inputText', 'correctHash')]]
 
 {>>Returns `boolean`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |input Text|`text`|
-    |correct Hash|`text`|
+| Params | []() |
+|--------|------|
+|input Text|Text|
+|correct Hash|Text|
 
 
 Verifies if the input password is the same one as the correct hashed password using PBKDF2 algorithm
 
 ### SHA-1 Generate Hash
 
-_Block preview not available_
+[[Method('Cryptography', 'SHA-1 Generate Hash', True, 'inputText')]]
 
 {>>Returns `text`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |input Text|`text`|
+| Params | []() |
+|--------|------|
+|input Text|Text|
 
 
 Generates a hashed SHA-1 string
 
 ### SHA-224 Generate Hash
 
-_Block preview not available_
+[[Method('Cryptography', 'SHA-224 Generate Hash', True, 'inputText')]]
 
 {>>Returns `text`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |input Text|`text`|
+| Params | []() |
+|--------|------|
+|input Text|Text|
 
 
 Generates a hashed SHA-224 string
 
 ### SHA-256 Generate Hash
 
-_Block preview not available_
+[[Method('Cryptography', 'SHA-256 Generate Hash', True, 'inputText')]]
 
 {>>Returns `text`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |input Text|`text`|
+| Params | []() |
+|--------|------|
+|input Text|Text|
 
 
 Generates a hashed SHA-256 string
 
 ### SHA-384 Generate Hash
 
-_Block preview not available_
+[[Method('Cryptography', 'SHA-384 Generate Hash', True, 'inputText')]]
 
 {>>Returns `text`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |input Text|`text`|
+| Params | []() |
+|--------|------|
+|input Text|Text|
 
 
 Generates a hashed SHA-384 string
 
 ### SHA-512 Generate Hash
 
-_Block preview not available_
+[[Method('Cryptography', 'SHA-512 Generate Hash', True, 'inputText')]]
 
 {>>Returns `text`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |input Text|`text`|
+| Params | []() |
+|--------|------|
+|input Text|Text|
 
 
 Generates a hashed SHA-512 string
 
 ### TripleDES Decode
 
-_Block preview not available_
+[[Method('Cryptography', 'TripleDES Decode', True, 'tripleDESHash')]]
 
 {>>Returns `text`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |tripleDES Hash|`text`|
+| Params | []() |
+|--------|------|
+|tripleDES Hash|Text|
 
 
 Decodes the given hash using the given key through TripleDES
 
 ### TripleDES Encode
 
-_Block preview not available_
+[[Method('Cryptography', 'TripleDES Encode', True, 'inputText')]]
 
 {>>Returns `text`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |input Text|`text`|
+| Params | []() |
+|--------|------|
+|input Text|Text|
 
 
 Encodes the given string using the given key through TripleDES
@@ -333,91 +295,56 @@ Encodes the given string using the given key through TripleDES
 
 ### AES-128 Key
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Cryptography', 'AES-128 Key')]]
-
-| Type |
-|:----:|
-|text|
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Set the AES-128 Key
 
+[[PropertyBlockGetterAndSetter('Cryptography', 'AES-128 Key')]]
+
 ### AES-256 Key
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Cryptography', 'AES-256 Key')]]
-
-| Type |
-|:----:|
-|text|
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Set the AES-256 Key
 
+[[PropertyBlockGetterAndSetter('Cryptography', 'AES-256 Key')]]
+
 ### BCrypt Salt Size
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Cryptography', 'BCrypt Salt Size')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|10|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>10</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Set the BCrypt Salt Size
 
+[[PropertyBlockGetterAndSetter('Cryptography', 'BCrypt Salt Size')]]
+
 ### PBKDF2 Hash Byte Size
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Cryptography', 'PBKDF2 Hash Byte Size')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|18|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>18</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Set the PBKDF2 Hash Byte Size
 
+[[PropertyBlockGetterAndSetter('Cryptography', 'PBKDF2 Hash Byte Size')]]
+
 ### PBKDF2 Iterations Number
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Cryptography', 'PBKDF2 Iterations Number')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|64000|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>64000</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Set the PBKDF2 number of Iterations
 
+[[PropertyBlockGetterAndSetter('Cryptography', 'PBKDF2 Iterations Number')]]
+
 ### PBKDF2 Salt Byte Size
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Cryptography', 'PBKDF2 Salt Byte Size')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|24|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>24</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Set the PBKDF2 Salt Byte Size
 
+[[PropertyBlockGetterAndSetter('Cryptography', 'PBKDF2 Salt Byte Size')]]
+
 ### TripleDES Key
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Cryptography', 'TripleDES Key')]]
-
-| Type |
-|:----:|
-|text|
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Set the TripleDES Key
+
+[[PropertyBlockGetterAndSetter('Cryptography', 'TripleDES Key')]]

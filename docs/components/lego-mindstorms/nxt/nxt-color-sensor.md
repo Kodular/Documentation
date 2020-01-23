@@ -28,11 +28,9 @@ Light level has gone below the range. The BelowRange event will not occur if the
 
 [[Event('NXT Color Sensor', 'Color Changed', 'color')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |color|`number`|
+| Params | []() |
+|--------|------|
+|color|Number|
 
 
 Detected color has changed. The ColorChanged event will not occur if the DetectColor property is set to False or if the ColorChangedEventEnabled property is set to False.
@@ -47,7 +45,7 @@ Light level has gone within the range. The WithinRange event will not occur if t
 
 ### Get Color
 
-_Block preview not available_
+[[Method('NXT Color Sensor', 'Get Color', True)]]
 
 {>>Returns `number`<<}
 
@@ -55,7 +53,7 @@ Returns the current detected color, or the color None if the color can not be re
 
 ### Get Light Level
 
-_Block preview not available_
+[[Method('NXT Color Sensor', 'Get Light Level', True)]]
 
 {>>Returns `number`<<}
 
@@ -65,130 +63,80 @@ Returns the current light level as a value between 0 and 1023, or -1 if the ligh
 
 ### Above Range Event Enabled
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('NXT Color Sensor', 'Above Range Event Enabled')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|False|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>False</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Whether the AboveRange event should fire when the DetectColor property is set to False and the light level goes above the TopOfRange.
 
+[[PropertyBlockGetterAndSetter('NXT Color Sensor', 'Above Range Event Enabled')]]
+
 ### Below Range Event Enabled
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('NXT Color Sensor', 'Below Range Event Enabled')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|False|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>False</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Whether the BelowRange event should fire when the DetectColor property is set to False and the light level goes below the BottomOfRange.
 
+[[PropertyBlockGetterAndSetter('NXT Color Sensor', 'Below Range Event Enabled')]]
+
 ### Bluetooth Client
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('NXT Color Sensor', 'Bluetooth Client')]]
-
-| Type |
-|:----:|
-|component|
+<span class="chip chip-component">Component</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 The BluetoothClient component that should be used for communication.
 
+[[PropertyBlockGetterAndSetter('NXT Color Sensor', 'Bluetooth Client')]]
+
 ### Bottom Of Range
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('NXT Color Sensor', 'Bottom Of Range')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|256|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>256</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 The bottom of the range used for the BelowRange, WithinRange, and AboveRange events.
 
+[[PropertyBlockGetterAndSetter('NXT Color Sensor', 'Bottom Of Range')]]
+
 ### Color Changed Event Enabled
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('NXT Color Sensor', 'Color Changed Event Enabled')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|False|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>False</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Whether the ColorChanged event should fire when the DetectColor property is set to True and the detected color changes.
 
+[[PropertyBlockGetterAndSetter('NXT Color Sensor', 'Color Changed Event Enabled')]]
+
 ### Detect Color
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('NXT Color Sensor', 'Detect Color')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|True|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Whether the sensor should detect color or light. True indicates that the sensor should detect color; False indicates that the sensor should detect light. If the DetectColor property is set to True, the BelowRange, WithinRange, and AboveRange events will not occur and the sensor will not generate color. If the DetectColor property is set to False, the ColorChanged event will not occur.
 
+[[PropertyBlockGetterAndSetter('NXT Color Sensor', 'Detect Color')]]
+
 ### Generate Color
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('NXT Color Sensor', 'Generate Color')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|&H00FFFFFF|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>&H00FFFFFF</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 The color that should generated by the sensor. Only None, Red, Green, or Blue are valid values. The sensor will not generate color when the DetectColor property is set to True.
 
+[[PropertyBlockGetterAndSetter('NXT Color Sensor', 'Generate Color')]]
+
 ### Sensor Port
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('NXT Color Sensor', 'Sensor Port')]]
-
-| Type | Default |
-|:----:|:-------:|
-|text|3|
+<span class="chip chip-text">Text</span> <span class="chip chip-text">Default: <i>3</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 The sensor port that the sensor is connected to.
 
+[[PropertyBlockGetterAndSetter('NXT Color Sensor', 'Sensor Port')]]
+
 ### Top Of Range
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('NXT Color Sensor', 'Top Of Range')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|767|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>767</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 The top of the range used for the BelowRange, WithinRange, and AboveRange events.
 
+[[PropertyBlockGetterAndSetter('NXT Color Sensor', 'Top Of Range')]]
+
 ### Within Range Event Enabled
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('NXT Color Sensor', 'Within Range Event Enabled')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|False|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>False</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Whether the WithinRange event should fire when the DetectColor property is set to False and the light level goes between the BottomOfRange and the TopOfRange.
+
+[[PropertyBlockGetterAndSetter('NXT Color Sensor', 'Within Range Event Enabled')]]

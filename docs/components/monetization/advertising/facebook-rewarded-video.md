@@ -22,12 +22,10 @@ Called when the user is about to return to the application after clicking on an 
 
 [[Event('Facebook Rewarded Video', 'Ad Failed To Load', 'errorCode', 'errorMessage')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |error Code|`number`|
-    |error Message|`text`|
+| Params | []() |
+|--------|------|
+|error Code|Number|
+|error Message|Text|
 
 
 Called when an ad request failed to load. The message will display the error code and error message.
@@ -60,11 +58,9 @@ Called when an video ad started to show content.
 
 [[Event('Facebook Rewarded Video', 'Error', 'error')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |error|`text`|
+| Params | []() |
+|--------|------|
+|error|Text|
 
 
 Called when an ad request failed. message will display the reason for why the ad failed.
@@ -73,13 +69,13 @@ Called when an ad request failed. message will display the reason for why the ad
 
 ### Load Ad
 
-_Block preview not available_
+[[Method('Facebook Rewarded Video', 'Load Ad', False)]]
 
 Loads a new ad.
 
 ### Show Ad
 
-_Block preview not available_
+[[Method('Facebook Rewarded Video', 'Show Ad', False)]]
 
 Shows an ad to the user.
 
@@ -87,26 +83,14 @@ Shows an ad to the user.
 
 ### Rewarded Video Commission
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Facebook Rewarded Video', 'Rewarded Video Commission')]]
-
-| Type | Default |
-|:----:|:-------:|
-|text|unity|
+<span class="chip chip-text">Text</span> <span class="chip chip-text">Default: <i>unity</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Sets the ad network used to take the commission.
 
+[[PropertyBlockGetterAndSetter('Facebook Rewarded Video', 'Rewarded Video Commission')]]
+
 ### Placement ID
 
-<small>Available as ^^Common^^ Property</small>
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
-:eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Facebook Rewarded Video', 'Placement ID')]]
-
-| Type |
-|:----:|
-|text|
-
-_No description available_

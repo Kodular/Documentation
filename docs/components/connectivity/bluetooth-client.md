@@ -16,12 +16,10 @@ A non-visible component that acts as a bluetooth client.
 
 [[Event('Bluetooth Client', 'BluetoothError', 'functionName', 'message')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |function Name|`text`|
-    |message|`text`|
+| Params | []() |
+|--------|------|
+|function Name|Text|
+|message|Text|
 
 
 The BluetoothError event is no longer used. Please use the Screen.ErrorOccurred event instead.
@@ -30,7 +28,7 @@ The BluetoothError event is no longer used. Please use the Screen.ErrorOccurred 
 
 ### Bytes Available To Receive
 
-_Block preview not available_
+[[Method('Bluetooth Client', 'Bytes Available To Receive', True)]]
 
 {>>Returns `number`<<}
 
@@ -38,59 +36,53 @@ Returns an estimate of the number of bytes that can be received without blocking
 
 ### Connect
 
-_Block preview not available_
+[[Method('Bluetooth Client', 'Connect', True, 'address')]]
 
 {>>Returns `boolean`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |address|`text`|
+| Params | []() |
+|--------|------|
+|address|Text|
 
 
 Connect to the Bluetooth device with the specified address and the Serial Port Profile (SPP). Returns true if the connection was successful.
 
 ### Connect With UUID
 
-_Block preview not available_
+[[Method('Bluetooth Client', 'Connect With UUID', True, 'address', 'uuid')]]
 
 {>>Returns `boolean`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |address|`text`|
-    |uuid|`text`|
+| Params | []() |
+|--------|------|
+|address|Text|
+|uuid|Text|
 
 
 Connect to the Bluetooth device with the specified address and UUID. Returns true if the connection was successful.
 
 ### Disconnect
 
-_Block preview not available_
+[[Method('Bluetooth Client', 'Disconnect', False)]]
 
 Disconnect from the connected Bluetooth device.
 
 ### Is Device Paired
 
-_Block preview not available_
+[[Method('Bluetooth Client', 'Is Device Paired', True, 'address')]]
 
 {>>Returns `boolean`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |address|`text`|
+| Params | []() |
+|--------|------|
+|address|Text|
 
 
 Checks whether the Bluetooth device with the specified address is paired.
 
 ### Receive Signed 1 Byte Number
 
-_Block preview not available_
+[[Method('Bluetooth Client', 'Receive Signed 1 Byte Number', True)]]
 
 {>>Returns `number`<<}
 
@@ -98,7 +90,7 @@ Receive a signed 1-byte number from the connected Bluetooth device.
 
 ### Receive Signed 2 Byte Number
 
-_Block preview not available_
+[[Method('Bluetooth Client', 'Receive Signed 2 Byte Number', True)]]
 
 {>>Returns `number`<<}
 
@@ -106,7 +98,7 @@ Receive a signed 2-byte number from the connected Bluetooth device.
 
 ### Receive Signed 4 Byte Number
 
-_Block preview not available_
+[[Method('Bluetooth Client', 'Receive Signed 4 Byte Number', True)]]
 
 {>>Returns `number`<<}
 
@@ -114,37 +106,33 @@ Receive a signed 4-byte number from the connected Bluetooth device.
 
 ### Receive Signed Bytes
 
-_Block preview not available_
+[[Method('Bluetooth Client', 'Receive Signed Bytes', True, 'numberOfBytes')]]
 
 {>>Returns `list`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |number Of Bytes|`number`|
+| Params | []() |
+|--------|------|
+|number Of Bytes|Number|
 
 
 Receive multiple signed byte values from the connected Bluetooth device. If numberOfBytes is less than 0, read until a delimiter byte value is received.
 
 ### Receive Text
 
-_Block preview not available_
+[[Method('Bluetooth Client', 'Receive Text', True, 'numberOfBytes')]]
 
 {>>Returns `text`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |number Of Bytes|`number`|
+| Params | []() |
+|--------|------|
+|number Of Bytes|Number|
 
 
 Receive text from the connected Bluetooth device. If numberOfBytes is less than 0, read until a delimiter byte value is received.
 
 ### Receive Unsigned 1 Byte Number
 
-_Block preview not available_
+[[Method('Bluetooth Client', 'Receive Unsigned 1 Byte Number', True)]]
 
 {>>Returns `number`<<}
 
@@ -152,7 +140,7 @@ Receive an unsigned 1-byte number from the connected Bluetooth device.
 
 ### Receive Unsigned 2 Byte Number
 
-_Block preview not available_
+[[Method('Bluetooth Client', 'Receive Unsigned 2 Byte Number', True)]]
 
 {>>Returns `number`<<}
 
@@ -160,7 +148,7 @@ Receive a unsigned 2-byte number from the connected Bluetooth device.
 
 ### Receive Unsigned 4 Byte Number
 
-_Block preview not available_
+[[Method('Bluetooth Client', 'Receive Unsigned 4 Byte Number', True)]]
 
 {>>Returns `number`<<}
 
@@ -168,95 +156,81 @@ Receive a unsigned 4-byte number from the connected Bluetooth device.
 
 ### Receive Unsigned Bytes
 
-_Block preview not available_
+[[Method('Bluetooth Client', 'Receive Unsigned Bytes', True, 'numberOfBytes')]]
 
 {>>Returns `list`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |number Of Bytes|`number`|
+| Params | []() |
+|--------|------|
+|number Of Bytes|Number|
 
 
 Receive multiple unsigned byte values from the connected Bluetooth device. If numberOfBytes is less than 0, read until a delimiter byte value is received.
 
 ### Remove Name From Address
 
-_Block preview not available_
+[[Method('Bluetooth Client', 'Remove Name From Address', True, 'addressAndName')]]
 
 {>>Returns `text`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |address And Name|`text`|
+| Params | []() |
+|--------|------|
+|address And Name|Text|
 
 
 Remove the Name from a Bluetooth Address and Name String.
 
 ### Send 1 Byte Number
 
-_Block preview not available_
+[[Method('Bluetooth Client', 'Send 1 Byte Number', False, 'number')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |number|`text`|
+| Params | []() |
+|--------|------|
+|number|Text|
 
 
 Send a 1-byte number to the connected Bluetooth device.
 
 ### Send 2 Byte Number
 
-_Block preview not available_
+[[Method('Bluetooth Client', 'Send 2 Byte Number', False, 'number')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |number|`text`|
+| Params | []() |
+|--------|------|
+|number|Text|
 
 
 Send a 2-byte number to the connected Bluetooth device.
 
 ### Send 4 Byte Number
 
-_Block preview not available_
+[[Method('Bluetooth Client', 'Send 4 Byte Number', False, 'number')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |number|`text`|
+| Params | []() |
+|--------|------|
+|number|Text|
 
 
 Send a 4-byte number to the connected Bluetooth device.
 
 ### Send Bytes
 
-_Block preview not available_
+[[Method('Bluetooth Client', 'Send Bytes', False, 'list')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |list|`list`|
+| Params | []() |
+|--------|------|
+|list|List|
 
 
 Send a list of byte values to the connected Bluetooth device.
 
 ### Send Text
 
-_Block preview not available_
+[[Method('Bluetooth Client', 'Send Text', False, 'text')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |text|`text`|
+| Params | []() |
+|--------|------|
+|text|Text|
 
 
 Send text to the connected Bluetooth device.
@@ -265,96 +239,64 @@ Send text to the connected Bluetooth device.
 
 ### Character Encoding
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Bluetooth Client', 'Character Encoding')]]
-
-| Type | Default |
-|:----:|:-------:|
-|text|UTF-8|
+<span class="chip chip-text">Text</span> <span class="chip chip-text">Default: <i>UTF-8</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Sets the character encoding to use when sending and receiving text.
 
+[[PropertyBlockGetterAndSetter('Bluetooth Client', 'Character Encoding')]]
+
 ### Delimiter Byte
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Bluetooth Client', 'Delimiter Byte')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|0|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>0</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Sets the delimiter byte to use when passing a negative number for thenumberOfBytes parameter when calling ReceiveText, ReceiveSignedBytes, orReceiveUnsignedBytes.
 
+[[PropertyBlockGetterAndSetter('Bluetooth Client', 'Delimiter Byte')]]
+
 ### High Byte First
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Bluetooth Client', 'High Byte First')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|False|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>False</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Returns true if numbers are sent and received with the most significantbyte first.
 
+[[PropertyBlockGetterAndSetter('Bluetooth Client', 'High Byte First')]]
+
 ### Secure
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Bluetooth Client', 'Secure')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|True|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Whether to invoke SSP (Simple Secure Pairing), which is supported on devices with Bluetooth v2.1 or higher. When working with embedded Bluetooth devices, this property may need to be set to False. For Android 2.0-2.2, this property setting will be ignored.
 
+[[PropertyBlockGetterAndSetter('Bluetooth Client', 'Secure')]]
+
 ### Addresses And Names
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Bluetooth Client', 'Addresses And Names')]]
-
-| Type | Default |
-|:----:|:-------:|
-|list|None|
+<span class="chip chip-list">List</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 The addresses and names of paired Bluetooth devices
 
+[[PropertyBlockGetter('Bluetooth Client', 'Addresses And Names')]]
+
 ### Available
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Bluetooth Client', 'Available')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|None|
+<span class="chip chip-boolean">Boolean</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 Whether Bluetooth is available on the device
 
+[[PropertyBlockGetter('Bluetooth Client', 'Available')]]
+
 ### Enabled
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Bluetooth Client', 'Enabled')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|None|
+<span class="chip chip-boolean">Boolean</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 Whether Bluetooth is enabled
 
+[[PropertyBlockGetter('Bluetooth Client', 'Enabled')]]
+
 ### Is Connected
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Bluetooth Client', 'Is Connected')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|None|
+<span class="chip chip-boolean">Boolean</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 Returns true if a connection to a Bluetooth device has been made.
+
+[[PropertyBlockGetter('Bluetooth Client', 'Is Connected')]]

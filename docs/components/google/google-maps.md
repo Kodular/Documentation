@@ -14,15 +14,13 @@ A visible component that shows a map on the screen powered by Google''s Maps ser
 
 [[Event('Google Maps', 'Camera Position Changed', 'lat', 'lng', 'bearing', 'tilt', 'zoom')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |lat|`number`|
-    |lng|`number`|
-    |bearing|`number`|
-    |tilt|`number`|
-    |zoom|`number`|
+| Params | []() |
+|--------|------|
+|lat|Number|
+|lng|Number|
+|bearing|Number|
+|tilt|Number|
+|zoom|Number|
 
 
 Called after the camera position of a map has changed.
@@ -31,14 +29,12 @@ Called after the camera position of a map has changed.
 
 [[Event('Google Maps', 'Finished Dragging Circle', 'id', 'centerLat', 'centerLng', 'radius')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
-    |center Lat|`number`|
-    |center Lng|`number`|
-    |radius|`number`|
+| Params | []() |
+|--------|------|
+|id|Number|
+|center Lat|Number|
+|center Lng|Number|
+|radius|Number|
 
 
 Event been raised after the action of moving a draggable circle is finished. Possible a user drag the center of the circle or drag the radius marker of the circle
@@ -47,11 +43,9 @@ Event been raised after the action of moving a draggable circle is finished. Pos
 
 [[Event('Google Maps', 'Info Window Clicked', 'markerId')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |marker Id|`number`|
+| Params | []() |
+|--------|------|
+|marker Id|Number|
 
 
 When the marker's infowindow is clicked, returning marker's id
@@ -66,12 +60,10 @@ Indicates that the map has been rendered and ready for adding markers or changin
 
 [[Event('Google Maps', 'On Location Changed', 'lat', 'lng')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |lat|`number`|
-    |lng|`number`|
+| Params | []() |
+|--------|------|
+|lat|Number|
+|lng|Number|
 
 
 Triggers this event when user location has changed. Only works when EnableMylocation is set to true
@@ -80,12 +72,10 @@ Triggers this event when user location has changed. Only works when EnableMyloca
 
 [[Event('Google Maps', 'On Map Click', 'lat', 'lng')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |lat|`number`|
-    |lng|`number`|
+| Params | []() |
+|--------|------|
+|lat|Number|
+|lng|Number|
 
 
 Called when the user makes a tap gesture on the map
@@ -94,12 +84,10 @@ Called when the user makes a tap gesture on the map
 
 [[Event('Google Maps', 'On Map Long Click', 'lat', 'lng')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |lat|`number`|
-    |lng|`number`|
+| Params | []() |
+|--------|------|
+|lat|Number|
+|lng|Number|
 
 
 Called when the user makes a long-press gesture on the map
@@ -108,13 +96,11 @@ Called when the user makes a long-press gesture on the map
 
 [[Event('Google Maps', 'On Marker Click', 'markerId', 'latitude', 'longitude')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |marker Id|`number`|
-    |latitude|`number`|
-    |longitude|`number`|
+| Params | []() |
+|--------|------|
+|marker Id|Number|
+|latitude|Number|
+|longitude|Number|
 
 
 When a marker is clicked
@@ -123,13 +109,11 @@ When a marker is clicked
 
 [[Event('Google Maps', 'On Marker Drag', 'markerId', 'latitude', 'longitude')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |marker Id|`number`|
-    |latitude|`number`|
-    |longitude|`number`|
+| Params | []() |
+|--------|------|
+|marker Id|Number|
+|latitude|Number|
+|longitude|Number|
 
 
 When a marker is been dragged
@@ -138,13 +122,11 @@ When a marker is been dragged
 
 [[Event('Google Maps', 'On Marker Drag End', 'markerId', 'latitude', 'longitude')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |marker Id|`number`|
-    |latitude|`number`|
-    |longitude|`number`|
+| Params | []() |
+|--------|------|
+|marker Id|Number|
+|latitude|Number|
+|longitude|Number|
 
 
 When the user drags a marker and finish the action, returning marker's id and it's latest position
@@ -153,13 +135,11 @@ When the user drags a marker and finish the action, returning marker's id and it
 
 [[Event('Google Maps', 'On Marker Drag Start', 'markerId', 'latitude', 'longitude')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |marker Id|`number`|
-    |latitude|`number`|
-    |longitude|`number`|
+| Params | []() |
+|--------|------|
+|marker Id|Number|
+|latitude|Number|
+|longitude|Number|
 
 
 When a marker starts been dragged
@@ -168,14 +148,12 @@ When a marker starts been dragged
 
 [[Event('Google Maps', 'On Point Of Interest Click', 'lat', 'lng', 'placeName', 'placeID')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |lat|`number`|
-    |lng|`number`|
-    |place Name|`text`|
-    |place ID|`text`|
+| Params | []() |
+|--------|------|
+|lat|Number|
+|lng|Number|
+|place Name|Text|
+|place ID|Text|
 
 
 This event will be invoked when a user clicks on a point of interest. This can be a shop, coffee-bar or else.
@@ -184,222 +162,192 @@ This event will be invoked when a user clicks on a point of interest. This can b
 
 ### Add Circle
 
-_Block preview not available_
+[[Method('Google Maps', 'Add Circle', True, 'lat', 'lng', 'radius', 'alpha', 'hue', 'strokeWidth', 'strokeColor', 'draggable')]]
 
 {>>Returns `number`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |lat|`number`|
-    |lng|`number`|
-    |radius|`number`|
-    |alpha|`number`|
-    |hue|`number`|
-    |stroke Width|`number`|
-    |stroke Color|`number`|
-    |draggable|`boolean`|
+| Params | []() |
+|--------|------|
+|lat|Number|
+|lng|Number|
+|radius|Number|
+|alpha|Number|
+|hue|Number|
+|stroke Width|Number|
+|stroke Color|Number|
+|draggable|Boolean|
 
 
 Create a circle overlay on the map UI with specified latitude and longitude for center. "hue" (min 0, max 360) and "alpha" (min 0, max 255) are used to set color and transparency level of the circle, "strokeWidth" and "strokeColor" are for the perimeter of the circle. Returning a unique id of the circle for future reference to events raised by moving this circle. If the circle isset to be draggable, two default markers will appear on the map: one in the center of the circle, another on the perimeter.
 
 ### Add Markers
 
-_Block preview not available_
+[[Method('Google Maps', 'Add Markers', True, 'markers')]]
 
 {>>Returns `list`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |markers|`list`|
+| Params | []() |
+|--------|------|
+|markers|List|
 
 
 Adding a list of YailLists for markers. The representation of a maker in the inner YailList is composed of: lat(double) [required], long(double) [required], Color, title(String), snippet(String), draggable(boolean). Return a list of unqiue ids for the added markers. Note that the markers ids are not meant to persist after the app is closed, but for temporary references to the markers within the program only. Return an empty list if any error happen in the input
 
 ### Add Markers From Json
 
-_Block preview not available_
+[[Method('Google Maps', 'Add Markers From Json', False, 'jsonString')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |json String|`text`|
+| Params | []() |
+|--------|------|
+|json String|Text|
 
 
 Adding a list of markers that are represented as JsonArray. The inner JsonObject represents a markerand is composed of name-value pairs. Name fields for a marker are: "lat" (type double) [required], "lng"(type double) [required], "color"(type int)[in hue value ranging from 0~360], "title"(type String), "snippet"(type String), "draggable"(type boolean)
 
 ### Add Markers Hue
 
-_Block preview not available_
+[[Method('Google Maps', 'Add Markers Hue', True, 'markers')]]
 
 {>>Returns `list`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |markers|`list`|
+| Params | []() |
+|--------|------|
+|markers|List|
 
 
 Adding a list of YailList for markers. The inner YailList represents a marker and is composed of lat(Double) [required], long(Double) [required], color(int)[in hue value ranging from 0-360], title(String), snippet(String), draggable(boolean). Return a list of unique ids for the markers that are added
 
 ### Add Polyline
 
-_Block preview not available_
+[[Method('Google Maps', 'Add Polyline', True, 'points', 'width', 'color')]]
 
 {>>Returns `number`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |points|`list`|
-    |width|`number`|
-    |color|`number`|
+| Params | []() |
+|--------|------|
+|points|List|
+|width|Number|
+|color|Number|
 
 
 This block will return the unique id of the new added polyline. Create a new polyline on the map. Use for 'points' a list of lat, lng pairs. A integer for the 'width' (in pixel) and a valid color for the 'color' parameter.
 
 ### Bound Camera
 
-_Block preview not available_
+[[Method('Google Maps', 'Bound Camera', False, 'neLat', 'neLng', 'swLat', 'swLng')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |ne Lat|`number`|
-    |ne Lng|`number`|
-    |sw Lat|`number`|
-    |sw Lng|`number`|
+| Params | []() |
+|--------|------|
+|ne Lat|Number|
+|ne Lng|Number|
+|sw Lat|Number|
+|sw Lng|Number|
 
 
 Transforms the camera such that the specified latitude/longitude bounds are centered on screen at the greatest possible zoom level. Need to specify both latitudes and longitudes for both northeast location and southwest location of the bounding box
 
 ### Enable Compass
 
-_Block preview not available_
+[[Method('Google Maps', 'Enable Compass', False, 'enable')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |enable|`boolean`|
+| Params | []() |
+|--------|------|
+|enable|Boolean|
 
 
 Enables/disables the compass widget on the map's ui. Call this only after event "MapIsReady" is received
 
 ### Enable Map Camera Pos Change Listener
 
-_Block preview not available_
+[[Method('Google Maps', 'Enable Map Camera Pos Change Listener', False, 'enabled')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |enabled|`boolean`|
+| Params | []() |
+|--------|------|
+|enabled|Boolean|
 
 
 Enable/Disable to listen to map's camera position changed event
 
 ### Enable Map Click Listener
 
-_Block preview not available_
+[[Method('Google Maps', 'Enable Map Click Listener', False, 'enabled')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |enabled|`boolean`|
+| Params | []() |
+|--------|------|
+|enabled|Boolean|
 
 
 Enable/Disable to listen to map's click event
 
 ### Enable Map Long Click Listener
 
-_Block preview not available_
+[[Method('Google Maps', 'Enable Map Long Click Listener', False, 'enabled')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |enabled|`boolean`|
+| Params | []() |
+|--------|------|
+|enabled|Boolean|
 
 
 Enable/disable to listen to map's long click event
 
 ### Enable My Location
 
-_Block preview not available_
+[[Method('Google Maps', 'Enable My Location', False, 'enabled')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |enabled|`boolean`|
+| Params | []() |
+|--------|------|
+|enabled|Boolean|
 
 
 Enable or disable my location widget control for Google Map. One can call GetMyLocation() to obtain the current location after enable this."
 
 ### Enable Rotate
 
-_Block preview not available_
+[[Method('Google Maps', 'Enable Rotate', False, 'enable')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |enable|`boolean`|
+| Params | []() |
+|--------|------|
+|enable|Boolean|
 
 
 Enables/disables the capability to rotate a map on the ui. Call this only after the event "MapIsReady" is received.
 
 ### Enable Scroll
 
-_Block preview not available_
+[[Method('Google Maps', 'Enable Scroll', False, 'enable')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |enable|`boolean`|
+| Params | []() |
+|--------|------|
+|enable|Boolean|
 
 
 Enables/disables the capability to scroll a map on the ui. Call this only after the event "MapIsReady" is received
 
 ### Enable Zoom Control
 
-_Block preview not available_
+[[Method('Google Maps', 'Enable Zoom Control', False, 'enable')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |enable|`boolean`|
+| Params | []() |
+|--------|------|
+|enable|Boolean|
 
 
 Enables/disables the zoom widget on the map's ui. Call this only after the event "MapIsReady" is received
 
 ### Enable Zoom Gesture
 
-_Block preview not available_
+[[Method('Google Maps', 'Enable Zoom Gesture', False, 'enable')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |enable|`boolean`|
+| Params | []() |
+|--------|------|
+|enable|Boolean|
 
 
 Enables/disables zoom gesture on the map ui. Call this only after the event "MapIsReady" is received.
 
 ### Get All Circle IDs
 
-_Block preview not available_
+[[Method('Google Maps', 'Get All Circle IDs', True)]]
 
 {>>Returns `list`<<}
 
@@ -407,7 +355,7 @@ Get all circles Ids. A short cut to get all the references for the eixisting cir
 
 ### Get All Marker IDs
 
-_Block preview not available_
+[[Method('Google Maps', 'Get All Marker IDs', True)]]
 
 {>>Returns `list`<<}
 
@@ -415,7 +363,7 @@ Get all the existing markers's Ids
 
 ### Get All Polyline Ids
 
-_Block preview not available_
+[[Method('Google Maps', 'Get All Polyline Ids', True)]]
 
 {>>Returns `list`<<}
 
@@ -423,7 +371,7 @@ This will return a list with all available polyline id's.
 
 ### Get Markers
 
-_Block preview not available_
+[[Method('Google Maps', 'Get Markers', True)]]
 
 {>>Returns `list`<<}
 
@@ -431,7 +379,7 @@ Add a list of markers composed of name-value pairs. Name fields for a marker are
 
 ### Get My Location
 
-_Block preview not available_
+[[Method('Google Maps', 'Get My Location', True)]]
 
 {>>Returns `list`<<}
 
@@ -439,195 +387,173 @@ Get current location using Google Map Service. Return a YailList with first item
 
 ### Get Points From Json
 
-_Block preview not available_
+[[Method('Google Maps', 'Get Points From Json', True, 'jsonString')]]
 
 {>>Returns `list`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |json String|`text`|
+| Params | []() |
+|--------|------|
+|json String|Text|
 
 
 Convert a JsonArray of points (lat, lng pairs) to a list.
 
 ### Move Camera
 
-_Block preview not available_
+[[Method('Google Maps', 'Move Camera', False, 'lat', 'lng', 'zoom')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |lat|`number`|
-    |lng|`number`|
-    |zoom|`number`|
+| Params | []() |
+|--------|------|
+|lat|Number|
+|lng|Number|
+|zoom|Number|
 
 
 Move the map's camera to the specified position and zoom level
 
 ### Remove Circle
 
-_Block preview not available_
+[[Method('Google Maps', 'Remove Circle', True, 'circleId')]]
 
 {>>Returns `boolean`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |circle Id|`number`|
+| Params | []() |
+|--------|------|
+|circle Id|Number|
 
 
 Remove a circle for the map. Returns true if successfully removed, false if the circle does not exist with the specified id
 
 ### Remove Marker
 
-_Block preview not available_
+[[Method('Google Maps', 'Remove Marker', False, 'markerId')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |marker Id|`number`|
+| Params | []() |
+|--------|------|
+|marker Id|Number|
 
 
 Remove a marker from the map
 
 ### Remove Polyline
 
-_Block preview not available_
+[[Method('Google Maps', 'Remove Polyline', True, 'polylineId')]]
 
 {>>Returns `boolean`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |polyline Id|`number`|
+| Params | []() |
+|--------|------|
+|polyline Id|Number|
 
 
 Use this block to remove a polyline from the map. It will return true if it was successful.
 
 ### Set Map Type
 
-_Block preview not available_
+[[Method('Google Maps', 'Set Map Type', False, 'layerName')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |layer Name|`text`|
+| Params | []() |
+|--------|------|
+|layer Name|Text|
 
 
 Set the layer of Google map. Default layer is "normal", other choices including "hybrid","satellite", and "terrain"
 
 ### Update Circle
 
-_Block preview not available_
+[[Method('Google Maps', 'Update Circle', False, 'circleId', 'propertyName', 'value')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |circle Id|`number`|
-    |property Name|`text`|
-    |value|`any`|
+| Params | []() |
+|--------|------|
+|circle Id|Number|
+|property Name|Text|
+|value|Any|
 
 
 Set the property of an existing circle. Properties include: "alpha"(number, value ranging from 0~255), "color" (nimber, hue value ranging 0~360), "radius"(number in meters)
 
 ### Update Marker
 
-_Block preview not available_
+[[Method('Google Maps', 'Update Marker', False, 'markerId', 'propertyName', 'value')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |marker Id|`number`|
-    |property Name|`text`|
-    |value|`any`|
+| Params | []() |
+|--------|------|
+|marker Id|Number|
+|property Name|Text|
+|value|Any|
 
 
 Set the property of a marker, note that the marker has to be added first or else will throw an exception! Properties include: "color"(hue value ranging from 0~360), "title", "snippet", "draggable"(give either true or false as the value).
 
 ### Update Polyline
 
-_Block preview not available_
+[[Method('Google Maps', 'Update Polyline', False, 'polylineId', 'propertyName', 'points')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |polyline Id|`number`|
-    |property Name|`text`|
-    |points|`any`|
+| Params | []() |
+|--------|------|
+|polyline Id|Number|
+|property Name|Text|
+|points|Any|
 
 
 Update any polyline with the given id. You can change the property values for 'width' (in pixel), 'color' or 'points (a list of lat, lng pairs).
 
 ### Add Overlay
 
-_Block preview not available_
+[[Method('Google Maps', 'Add Overlay', False)]]
 
 Add overlay.
 
 ### Add Polygon
 
-_Block preview not available_
+[[Method('Google Maps', 'Add Polygon', False, 'latMin', 'latMax', 'lonMin', 'lonMax')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |lat Min|`number`|
-    |lat Max|`number`|
-    |lon Min|`number`|
-    |lon Max|`number`|
+| Params | []() |
+|--------|------|
+|lat Min|Number|
+|lat Max|Number|
+|lon Min|Number|
+|lon Max|Number|
 
 
 A Polygon is an enclosed shape that can be used to mark areas on the map.
 
 ### Add Tile Overlay
 
-_Block preview not available_
+[[Method('Google Maps', 'Add Tile Overlay', False)]]
 
 Add title overlay.
 
 ### Clear All Polygons
 
-_Block preview not available_
+[[Method('Google Maps', 'Clear All Polygons', False)]]
 
 Clear all Polygons.
 
 ### Draw Central Square
 
-_Block preview not available_
+[[Method('Google Maps', 'Draw Central Square', False)]]
 
 Draw central square.
 
 ### Get Bounding Box
 
-_Block preview not available_
+[[Method('Google Maps', 'Get Bounding Box', True, 'latitudeInDegrees', 'longitudeInDegrees', 'halfSideInKm')]]
 
 {>>Returns `text`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |latitude In Degrees|`number`|
-    |longitude In Degrees|`number`|
-    |half Side In Km|`number`|
+| Params | []() |
+|--------|------|
+|latitude In Degrees|Number|
+|longitude In Degrees|Number|
+|half Side In Km|Number|
 
 
 Get bounding box.
 
 ### Get Map Center
 
-_Block preview not available_
+[[Method('Google Maps', 'Get Map Center', True)]]
 
 {>>Returns `text`<<}
 
@@ -637,7 +563,7 @@ Get map center. If a error occures the output will be '-999'.
 
 :warning: ==**Deprecated**==
 
-_Block preview not available_
+[[Method('Google Maps', 'Get Zoom Level Info', True)]]
 
 {>>Returns `number`<<}
 
@@ -647,252 +573,176 @@ Deprecated block! Don't use this anymore. Use instead 'Camera Zoom Level'.
 
 ### Camera Angle
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Google Maps', 'Camera Angle')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|0|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>0</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Move the map's camera to the specified tilt, the angle (in degrees) from the nadir (directly facing the Earth). Must be a value between 0.0 and 90.0
 
+[[PropertyBlockGetterAndSetter('Google Maps', 'Camera Angle')]]
+
 ### Camera Rotation
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Google Maps', 'Camera Rotation')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|0|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>0</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Move the map's camera to the specified bearing, the direction that the camera is pointing in (in degrees clockwise from north).
 
+[[PropertyBlockGetterAndSetter('Google Maps', 'Camera Rotation')]]
+
 ### Camera Zoom Level
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Google Maps', 'Camera Zoom Level')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|15|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>15</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Move the map's camera to the specified zoom level.
 
+[[PropertyBlockGetterAndSetter('Google Maps', 'Camera Zoom Level')]]
+
 ### Theme
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Google Maps', 'Theme')]]
-
-| Type | Default |
-|:----:|:-------:|
-|text|standard|
+<span class="chip chip-text">Text</span> <span class="chip chip-text">Default: <i>standard</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Sets the theme of the map. The choices are "standard"(default), "silver", "retro", "dark", "night", "aubergine", "vintage", "kodular" and "roads-only".
 
+[[PropertyBlockGetterAndSetter('Google Maps', 'Theme')]]
+
 ### Visible
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Google Maps', 'Visible')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|True|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Returns true iff the component is visible.
 
+[[PropertyBlockGetterAndSetter('Google Maps', 'Visible')]]
+
 ### Column
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Google Maps', 'Column')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Blocks</span> 
 
 Column property getter method.
 
+[[PropertyBlockGetterAndSetter('Google Maps', 'Column')]]
+
 ### Compass Enabled
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Google Maps', 'Compass Enabled')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|None|
+<span class="chip chip-boolean">Boolean</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 Indicates whether the compass widget is currently enabled in the map ui
 
+[[PropertyBlockGetter('Google Maps', 'Compass Enabled')]]
+
 ### Height
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Google Maps', 'Height')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Blocks</span> 
 
 Specifies the component's vertical height, measured in pixels.
 
+[[PropertyBlockGetterAndSetter('Google Maps', 'Height')]]
+
 ### Height Percent
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Google Maps', 'Height Percent')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Blocks</span> 
 
 Specifies the component's vertical height as a percentageof the height of its parent Component.
 
+[[PropertyBlockGetterAndSetter('Google Maps', 'Height Percent')]]
+
 ### Map Camera Changed Listener Enabled
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Google Maps', 'Map Camera Changed Listener Enabled')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|None|
+<span class="chip chip-boolean">Boolean</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 Indicates if the map camera's position changed listener is currently enabled
 
+[[PropertyBlockGetter('Google Maps', 'Map Camera Changed Listener Enabled')]]
+
 ### Map Click Listener Enabled
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Google Maps', 'Map Click Listener Enabled')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|None|
+<span class="chip chip-boolean">Boolean</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 Indicates if the mapClick event listener is currently enabled
 
+[[PropertyBlockGetter('Google Maps', 'Map Click Listener Enabled')]]
+
 ### Map Long Click Listener Enabled
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Google Maps', 'Map Long Click Listener Enabled')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|None|
+<span class="chip chip-boolean">Boolean</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 Indicates if the map longClick listener is currently enabled
 
+[[PropertyBlockGetter('Google Maps', 'Map Long Click Listener Enabled')]]
+
 ### Map Type
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Google Maps', 'Map Type')]]
-
-| Type | Default |
-|:----:|:-------:|
-|text|None|
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 Indicates the current map type
 
+[[PropertyBlockGetter('Google Maps', 'Map Type')]]
+
 ### My Location Enabled
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Google Maps', 'My Location Enabled')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|None|
+<span class="chip chip-boolean">Boolean</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 Indicates whether my locaiton UI control is currently enabled for the Google map.
 
+[[PropertyBlockGetter('Google Maps', 'My Location Enabled')]]
+
 ### Rotate Enabled
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Google Maps', 'Rotate Enabled')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|None|
+<span class="chip chip-boolean">Boolean</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 Indicates whether the capability to rotate a map on the ui is currently enabled
 
+[[PropertyBlockGetter('Google Maps', 'Rotate Enabled')]]
+
 ### Row
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Google Maps', 'Row')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Blocks</span> 
 
 Row property getter method.
 
+[[PropertyBlockGetterAndSetter('Google Maps', 'Row')]]
+
 ### Scroll Enabled
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Google Maps', 'Scroll Enabled')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|None|
+<span class="chip chip-boolean">Boolean</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 Indicates whether the capability to scroll a map on the ui is currently enabled
 
+[[PropertyBlockGetter('Google Maps', 'Scroll Enabled')]]
+
 ### Style
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Google Maps', 'Style')]]
-
-| Type | Default |
-|:----:|:-------:|
-|text|None|
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Blocks</span> 
 
 Sets the style of the map from json. Just use a text field and paste there the json data. Create a custom map style at https://mapstyle.withgoogle.com/. Set the theme to "standard" to clear the style json.
 
+[[PropertyBlockGetterAndSetter('Google Maps', 'Style')]]
+
 ### Width
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Google Maps', 'Width')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Blocks</span> 
 
 Specifies the component's horizontal width, measured in pixels.
 
+[[PropertyBlockGetterAndSetter('Google Maps', 'Width')]]
+
 ### Width Percent
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Google Maps', 'Width Percent')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Blocks</span> 
 
 Specifies the component's horizontal width as a percentageof the Width of its parent Component.
 
+[[PropertyBlockGetterAndSetter('Google Maps', 'Width Percent')]]
+
 ### Zoom Control Enabled
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Google Maps', 'Zoom Control Enabled')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|None|
+<span class="chip chip-boolean">Boolean</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 Indicates whether the zoom widget on the map ui is currently enabled
 
+[[PropertyBlockGetter('Google Maps', 'Zoom Control Enabled')]]
+
 ### Zoom Gesture Enabled
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Google Maps', 'Zoom Gesture Enabled')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|None|
+<span class="chip chip-boolean">Boolean</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 Indicates whether the zoom gesture is currently enabled
+
+[[PropertyBlockGetter('Google Maps', 'Zoom Gesture Enabled')]]

@@ -20,12 +20,10 @@ Note: Translation happens asynchronously in the background. When the translation
 
 [[Event('Yandex Translate', 'Got Translation', 'responseCode', 'translation')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |response Code|`text`|
-    |translation|`text`|
+| Params | []() |
+|--------|------|
+|response Code|Text|
+|translation|Text|
 
 
 Event triggered when the Yandex.Translate service returns the translated text. This event also provides a response code for error handling. If the responseCode is not 200, then something went wrong with the call, and the translation will not be available.
@@ -34,14 +32,12 @@ Event triggered when the Yandex.Translate service returns the translated text. T
 
 ### Request Translation
 
-_Block preview not available_
+[[Method('Yandex Translate', 'Request Translation', False, 'languageToTranslateTo', 'textToTranslate')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |language To Translate To|`text`|
-    |text To Translate|`text`|
+| Params | []() |
+|--------|------|
+|language To Translate To|Text|
+|text To Translate|Text|
 
 
 By providing a target language to translate to (for instance, 'es' for Spanish, 'en' for English, or 'ru' for Russian), and a word or sentence to translate, this method will request a translation to the Yandex.Translate service
@@ -52,13 +48,6 @@ Note: Yandex.Translate will attempt to detect the source language. You can also 
 
 ### API Key
 
-<small>Available as ^^Common^^ Property</small>
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
-:eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Yandex Translate', 'API Key')]]
-
-| Type |
-|:----:|
-|text|
-
-_No description available_

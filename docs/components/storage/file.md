@@ -16,11 +16,9 @@ Non-visible component for storing and retrieving files. Use this component to wr
 
 [[Event('File', 'After File Saved', 'fileName')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |file Name|`text`|
+| Params | []() |
+|--------|------|
+|file Name|Text|
 
 
 Event indicating that the contents of the file have been written.
@@ -41,11 +39,9 @@ Event indicating that the zip file have been created.
 
 [[Event('File', 'Directory Created', 'isDirectoryCreated')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |is Directory Created|`boolean`|
+| Params | []() |
+|--------|------|
+|is Directory Created|Boolean|
 
 
 Event indicating that there was a directory created. The return value is 'true' or 'false'.
@@ -54,11 +50,9 @@ Event indicating that there was a directory created. The return value is 'true' 
 
 [[Event('File', 'Got Text', 'text')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |text|`text`|
+| Params | []() |
+|--------|------|
+|text|Text|
 
 
 Event indicating that the contents from the file have been read.
@@ -67,11 +61,9 @@ Event indicating that the contents from the file have been read.
 
 [[Event('File', 'On Zip Failure', 'errorMessage')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |error Message|`text`|
+| Params | []() |
+|--------|------|
+|error Message|Text|
 
 
 Event indicating that there was any failure on zip or unzip a file.
@@ -80,202 +72,174 @@ Event indicating that there was any failure on zip or unzip a file.
 
 ### Append To File
 
-_Block preview not available_
+[[Method('File', 'Append To File', False, 'text', 'fileName')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |text|`text`|
-    |file Name|`text`|
+| Params | []() |
+|--------|------|
+|text|Text|
+|file Name|Text|
 
 
 Appends text to the end of a file storage, creating the file if it does not exist. See the help text under SaveFile for information about where files are written.
 
 ### Copy
 
-_Block preview not available_
+[[Method('File', 'Copy', False, 'input', 'output')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |input|`text`|
-    |output|`text`|
+| Params | []() |
+|--------|------|
+|input|Text|
+|output|Text|
 
 
 Copy file
 
 ### Create Directory
 
-_Block preview not available_
+[[Method('File', 'Create Directory', False, 'directory')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |directory|`text`|
+| Params | []() |
+|--------|------|
+|directory|Text|
 
 
 Create a new directory.
 
 ### Delete
 
-_Block preview not available_
+[[Method('File', 'Delete', False, 'fileName')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |file Name|`text`|
+| Params | []() |
+|--------|------|
+|file Name|Text|
 
 
 Deletes a file from storage. Prefix the filename with / to delete a specific file in the SD card, for instance /myFile.txt. will delete the file /sdcard/myFile.txt. If the file does not begin with a /, then the file located in the programs private storage will be deleted. Starting the file with // is an error because assets files cannot be deleted.
 
 ### Exists
 
-_Block preview not available_
+[[Method('File', 'Exists', True, 'file')]]
 
 {>>Returns `boolean`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |file|`text`|
+| Params | []() |
+|--------|------|
+|file|Text|
 
 
 Check whether a file exists
 
 ### File Size
 
-_Block preview not available_
+[[Method('File', 'File Size', True, 'file')]]
 
 {>>Returns `number`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |file|`text`|
+| Params | []() |
+|--------|------|
+|file|Text|
 
 
 Get file size
 
 ### Get File Name
 
-_Block preview not available_
+[[Method('File', 'Get File Name', True, 'file')]]
 
 {>>Returns `text`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |file|`text`|
+| Params | []() |
+|--------|------|
+|file|Text|
 
 
 Get file name
 
 ### Get Free Space
 
-_Block preview not available_
+[[Method('File', 'Get Free Space', True, 'path')]]
 
 {>>Returns `number`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |path|`text`|
+| Params | []() |
+|--------|------|
+|path|Text|
 
 
 Get Free Space
 
 ### Get Total Space
 
-_Block preview not available_
+[[Method('File', 'Get Total Space', True, 'path')]]
 
 {>>Returns `number`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |path|`text`|
+| Params | []() |
+|--------|------|
+|path|Text|
 
 
 Get total space
 
 ### Is Directory
 
-_Block preview not available_
+[[Method('File', 'Is Directory', True, 'path')]]
 
 {>>Returns `boolean`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |path|`text`|
+| Params | []() |
+|--------|------|
+|path|Text|
 
 
 Check whether the path is a directory
 
 ### Is File
 
-_Block preview not available_
+[[Method('File', 'Is File', True, 'path')]]
 
 {>>Returns `boolean`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |path|`text`|
+| Params | []() |
+|--------|------|
+|path|Text|
 
 
 Check whether the path is a file
 
 ### Move
 
-_Block preview not available_
+[[Method('File', 'Move', True, 'input', 'output')]]
 
 {>>Returns `boolean`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |input|`text`|
-    |output|`text`|
+| Params | []() |
+|--------|------|
+|input|Text|
+|output|Text|
 
 
 Move file
 
 ### Read From
 
-_Block preview not available_
+[[Method('File', 'Read From', False, 'fileName')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |file Name|`text`|
+| Params | []() |
+|--------|------|
+|file Name|Text|
 
 
 Reads text from a file in storage. Prefix the filename with / to read from a specific file on the SD card. for instance /myFile.txt will read the file /sdcard/myFile.txt. To read assets packaged with an application (also works for the Companion) start the filename with // (two slashes). If a filename does not start with a slash, it will be read from the applications private storage (for packaged apps) and from /sdcard/AppInventor/data for the Companion.
 
 ### Save File
 
-_Block preview not available_
+[[Method('File', 'Save File', False, 'text', 'fileName')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |text|`text`|
-    |file Name|`text`|
+| Params | []() |
+|--------|------|
+|text|Text|
+|file Name|Text|
 
 
 Saves text to a file. If the filename begins with a slash (/) the file is written to the sdcard. For example writing to /myFile.txt will write the file to /sdcard/myFile.txt. If the filename does not start with a slash, it will be written in the programs private data directory where it will not be accessible to other programs on the phone. There is a special exception for the AI Companion where these files are written to /sdcard/AppInventor/data to facilitate debugging. Note that this block will overwrite a file if it already exists
@@ -283,30 +247,26 @@ If you want to add content to a file use the append block.
 
 ### Unzip
 
-_Block preview not available_
+[[Method('File', 'Unzip', False, 'targetZipFilePath', 'destinationFolderPath', 'password')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |target Zip File Path|`text`|
-    |destination Folder Path|`text`|
-    |password|`text`|
+| Params | []() |
+|--------|------|
+|target Zip File Path|Text|
+|destination Folder Path|Text|
+|password|Text|
 
 
 Unzip a file with or without a password. If you dont need a passwort then let it empty.
 
 ### Zip
 
-_Block preview not available_
+[[Method('File', 'Zip', False, 'targetPath', 'destinationFilePath', 'password')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |target Path|`text`|
-    |destination File Path|`text`|
-    |password|`text`|
+| Params | []() |
+|--------|------|
+|target Path|Text|
+|destination File Path|Text|
+|password|Text|
 
 
 Create a zip file with or without a password.

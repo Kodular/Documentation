@@ -16,12 +16,10 @@ Non-visible component that communicates with a Firebase to store and retrieve in
 
 [[Event('Firebase Database', 'Data Changed', 'tag', 'value')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |tag|`text`|
-    |value|`any`|
+| Params | []() |
+|--------|------|
+|tag|Text|
+|value|Any|
 
 
 Indicates that the data in the Firebase has changed
@@ -31,11 +29,9 @@ Launches an event with the tag and value that have been updated.
 
 [[Event('Firebase Database', 'Firebase Error', 'message')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |message|`text`|
+| Params | []() |
+|--------|------|
+|message|Text|
 
 
 Indicates that the communication with the Firebase signaled an error.
@@ -44,11 +40,9 @@ Indicates that the communication with the Firebase signaled an error.
 
 [[Event('Firebase Database', 'First Removed', 'value')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |value|`any`|
+| Params | []() |
+|--------|------|
+|value|Any|
 
 
 Event triggered by the "RemoveFirst" function. The argument "value" is the object that was the first in the list, and which is now removed.
@@ -57,12 +51,10 @@ Event triggered by the "RemoveFirst" function. The argument "value" is the objec
 
 [[Event('Firebase Database', 'Got Value', 'tag', 'value')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |tag|`text`|
-    |value|`any`|
+| Params | []() |
+|--------|------|
+|tag|Text|
+|value|Any|
 
 
 Indicates that a GetValue request has succeeded.
@@ -71,11 +63,9 @@ Indicates that a GetValue request has succeeded.
 
 [[Event('Firebase Database', 'Tag List', 'value')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |value|`list`|
+| Params | []() |
+|--------|------|
+|value|List|
 
 
 Event triggered when we have received the list of known tags. Used with the "GetTagList" Function.
@@ -84,47 +74,41 @@ Event triggered when we have received the list of known tags. Used with the "Get
 
 ### Append Value
 
-_Block preview not available_
+[[Method('Firebase Database', 'Append Value', False, 'tag', 'valueToAdd')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |tag|`text`|
-    |value To Add|`any`|
+| Params | []() |
+|--------|------|
+|tag|Text|
+|value To Add|Any|
 
 
 Append a value to the end of a list atomically. If two devices use this function simultaneously, both will be appended and no data lost.
 
 ### Clear Tag
 
-_Block preview not available_
+[[Method('Firebase Database', 'Clear Tag', False, 'tag')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |tag|`text`|
+| Params | []() |
+|--------|------|
+|tag|Text|
 
 
 Remove the tag from Firebase
 
 ### Get Tag List
 
-_Block preview not available_
+[[Method('Firebase Database', 'Get Tag List', False)]]
 
 Get the list of tags for this application. When complete a "TagList" event will be triggered with the list of known tags.
 
 ### Get Value
 
-_Block preview not available_
+[[Method('Firebase Database', 'Get Value', False, 'tag', 'valueIfTagNotThere')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |tag|`text`|
-    |value If Tag Not There|`any`|
+| Params | []() |
+|--------|------|
+|tag|Text|
+|value If Tag Not There|Any|
 
 
 GetValue asks Firebase to get the value stored under the given tag
@@ -132,46 +116,42 @@ It will pass valueIfTagNotThere to GotValue if there is no value storedunder the
 
 ### Go Offline
 
-_Block preview not available_
+[[Method('Firebase Database', 'Go Offline', False)]]
 
 Take the database offline
 
 ### Go Online
 
-_Block preview not available_
+[[Method('Firebase Database', 'Go Online', False)]]
 
 Take the database online
 
 ### Remove First
 
-_Block preview not available_
+[[Method('Firebase Database', 'Remove First', False, 'tag')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |tag|`text`|
+| Params | []() |
+|--------|------|
+|tag|Text|
 
 
 Return the first element of a list and atomically remove it. If two devices use this function simultaneously, one will get the first element and the the other will get the second element, or an error if there is no available element. When the element is available, the "FirstRemoved" event will be triggered.
 
 ### Store Value
 
-_Block preview not available_
+[[Method('Firebase Database', 'Store Value', False, 'tag', 'valueToStore')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |tag|`text`|
-    |value To Store|`any`|
+| Params | []() |
+|--------|------|
+|tag|Text|
+|value To Store|Any|
 
 
 Asks Firebase to store the given value under the given tag.
 
 ### Unauthenticate
 
-_Block preview not available_
+[[Method('Firebase Database', 'Unauthenticate', False)]]
 
 If you are having difficulty with the Companion and you are switching between different Firebase accounts, you may need to use this function to clear internal Firebase caches. You can just use the "Do It" function on this block in the blocks editor. Note: You should not normally need to use this block as part of an application.
 
@@ -179,80 +159,48 @@ If you are having difficulty with the Companion and you are switching between di
 
 ### Default URL
 
-<small>Available as ^^Common^^ Property</small>
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
-:eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Firebase Database', 'Default URL')]]
-
-| Type |
-|:----:|
-|text|
-
-_No description available_
 
 ### Developer Bucket
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Firebase Database', 'Developer Bucket')]]
-
-| Type |
-|:----:|
-|text|
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Getter for the DeveloperBucket.
 
+[[PropertyBlockGetterAndSetter('Firebase Database', 'Developer Bucket')]]
+
 ### Firebase Token
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Firebase Database', 'Firebase Token')]]
-
-| Type |
-|:----:|
-|text|
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Returns the FirebaseToken from this FirebaseDB.
 
+[[PropertyBlockGetterAndSetter('Firebase Database', 'Firebase Token')]]
+
 ### Firebase URL
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Firebase Database', 'Firebase URL')]]
-
-| Type | Default |
-|:----:|:-------:|
-|text|DEFAULT|
+<span class="chip chip-text">Text</span> <span class="chip chip-text">Default: <i>DEFAULT</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Gets the URL for this FirebaseDB.
 
+[[PropertyBlockGetterAndSetter('Firebase Database', 'Firebase URL')]]
+
 ### Persist
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Firebase Database', 'Persist')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|False|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>False</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 If true, variables will retain their values when off-line and the App exits. Values will be uploaded to Firebase the next time the App is run while connected to the network. This is useful for applications which will gather data while not connected to the network. Note: AppendValue and RemoveFirst will not work correctly when off-line, they require a network connection.  
   
  _Note_: If you set Persist on any Firebase component, on any screen, it makes all Firebase components on all screens persistent. This is a limitation of the low level Firebase library. Also be aware that if you want to set persist to true, you should do so before connecting the Companion for incremental development.
 
+[[PropertyBlockGetterAndSetter('Firebase Database', 'Persist')]]
+
 ### Project Bucket
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Firebase Database', 'Project Bucket')]]
-
-| Type |
-|:----:|
-|text|
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Gets the ProjectBucket for this FirebaseDB.
+
+[[PropertyBlockGetterAndSetter('Firebase Database', 'Project Bucket')]]

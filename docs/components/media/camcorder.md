@@ -16,11 +16,9 @@ A component to record a video using the device's camcorder.After the video is re
 
 [[Event('Camcorder', 'After Recording', 'clip')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |clip|`text`|
+| Params | []() |
+|--------|------|
+|clip|Text|
 
 
 Indicates that a video was recorded with the camera and provides the path tothe stored picture.
@@ -29,6 +27,6 @@ Indicates that a video was recorded with the camera and provides the path tothe 
 
 ### Record Video
 
-_Block preview not available_
+[[Method('Camcorder', 'Record Video', False)]]
 
 Records a video, then raises the AfterRecoding event.

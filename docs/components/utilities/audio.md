@@ -16,11 +16,9 @@ A non-visible component that manages the device''s audio settings.
 
 [[Event('Audio', 'Error Occurred', 'errorMessage')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |error Message|`text`|
+| Params | []() |
+|--------|------|
+|error Message|Text|
 
 
 Event triggered when a error occurred.
@@ -29,47 +27,43 @@ Event triggered when a error occurred.
 
 ### Is Sound Effects Enabled
 
-_Block preview not available_
+[[Method('Audio', 'Is Sound Effects Enabled', True, 'component')]]
 
 {>>Returns `boolean`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |component|`component`|
+| Params | []() |
+|--------|------|
+|component|Component|
 
 
 Returns true whether a component should have sound effects enabled for events such as clicking and touching.
 
 ### Ringer Mode Normal
 
-_Block preview not available_
+[[Method('Audio', 'Ringer Mode Normal', False)]]
 
 Sets the ringer mode to "normal".
 
 ### Ringer Mode Silent
 
-_Block preview not available_
+[[Method('Audio', 'Ringer Mode Silent', False)]]
 
 Sets the ringer mode to "silent".
 
 ### Ringer Mode Vibrate
 
-_Block preview not available_
+[[Method('Audio', 'Ringer Mode Vibrate', False)]]
 
 Sets the ringer mode to "vibrate".
 
 ### Sound Effects Enabled
 
-_Block preview not available_
+[[Method('Audio', 'Sound Effects Enabled', False, 'component', 'enabled')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |component|`component`|
-    |enabled|`boolean`|
+| Params | []() |
+|--------|------|
+|component|Component|
+|enabled|Boolean|
 
 
 Set whether a component should have sound effects enabled for events such as clicking and touching.
@@ -78,57 +72,40 @@ Set whether a component should have sound effects enabled for events such as cli
 
 ### Show UI
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Audio', 'Show UI')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|False|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>False</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 If set to true you will see system ui.
 
+[[PropertyBlockGetterAndSetter('Audio', 'Show UI')]]
+
 ### Get Audio Mode
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Audio', 'Get Audio Mode')]]
-
-| Type | Default |
-|:----:|:-------:|
-|text|None|
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 Returns the current audio mode as string. Possible returns are "NORMAL", "RINGTONE", "CALL" or "COMMUNICATION".
 
+[[PropertyBlockGetter('Audio', 'Get Audio Mode')]]
+
 ### Volume Alarm
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Audio', 'Volume Alarm')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Blocks</span> 
 
 Returns the current volume index in percent.
+
+[[PropertyBlockGetterAndSetter('Audio', 'Volume Alarm')]]
 
 ### Volume Music
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Audio', 'Volume Music')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Blocks</span> 
 
 Returns the current volume index in percent.
+
+[[PropertyBlockGetterAndSetter('Audio', 'Volume Music')]]
 
 ### Volume Ring
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Audio', 'Volume Ring')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Blocks</span> 
 
 Returns the current volume index in percent.
+
+[[PropertyBlockGetterAndSetter('Audio', 'Volume Ring')]]

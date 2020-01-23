@@ -22,15 +22,13 @@ Triggers when the current Firebase User failed to load
 
 [[Event('Firebase Authentication', 'Current User Success', 'userID', 'name', 'email', 'phoneNumber', 'profilePicture')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |user ID|`text`|
-    |name|`text`|
-    |email|`text`|
-    |phone Number|`text`|
-    |profile Picture|`text`|
+| Params | []() |
+|--------|------|
+|user ID|Text|
+|name|Text|
+|email|Text|
+|phone Number|Text|
+|profile Picture|Text|
 
 
 Triggers when the current Firebase User was successful loaded
@@ -39,11 +37,9 @@ Triggers when the current Firebase User was successful loaded
 
 [[Event('Firebase Authentication', 'Got Id Token', 'idToken')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id Token|`text`|
+| Params | []() |
+|--------|------|
+|id Token|Text|
 
 
 Triggers when the 'Get Id Token' got a result. If there was a error it returns a empty text.
@@ -52,11 +48,9 @@ Triggers when the 'Get Id Token' got a result. If there was a error it returns a
 
 [[Event('Firebase Authentication', 'Login Failed', 'provider')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |provider|`text`|
+| Params | []() |
+|--------|------|
+|provider|Text|
 
 
 Triggers when the Firebase Login failed
@@ -65,16 +59,14 @@ Triggers when the Firebase Login failed
 
 [[Event('Firebase Authentication', 'Login Success', 'provider', 'userID', 'name', 'email', 'phoneNumber', 'profilePicture')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |provider|`text`|
-    |user ID|`text`|
-    |name|`text`|
-    |email|`text`|
-    |phone Number|`text`|
-    |profile Picture|`text`|
+| Params | []() |
+|--------|------|
+|provider|Text|
+|user ID|Text|
+|name|Text|
+|email|Text|
+|phone Number|Text|
+|profile Picture|Text|
 
 
 Triggers when the Firebase Login was successful
@@ -83,11 +75,9 @@ Triggers when the Firebase Login was successful
 
 [[Event('Firebase Authentication', 'Reset Password Email Done', 'success')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |success|`boolean`|
+| Params | []() |
+|--------|------|
+|success|Boolean|
 
 
 Triggers when the 'Send Reset Password Email' got a result. Returns true if the reset email was send.
@@ -96,12 +86,10 @@ Triggers when the 'Send Reset Password Email' got a result. Returns true if the 
 
 [[Event('Firebase Authentication', 'Sign Up Failed', 'provider', 'message')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |provider|`text`|
-    |message|`text`|
+| Params | []() |
+|--------|------|
+|provider|Text|
+|message|Text|
 
 
 Triggers when the Firebase Sign Up failed
@@ -110,16 +98,14 @@ Triggers when the Firebase Sign Up failed
 
 [[Event('Firebase Authentication', 'Sign Up Success', 'provider', 'userID', 'name', 'email', 'phoneNumber', 'profilePicture')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |provider|`text`|
-    |user ID|`text`|
-    |name|`text`|
-    |email|`text`|
-    |phone Number|`text`|
-    |profile Picture|`text`|
+| Params | []() |
+|--------|------|
+|provider|Text|
+|user ID|Text|
+|name|Text|
+|email|Text|
+|phone Number|Text|
+|profile Picture|Text|
 
 
 Triggers when the Firebase Sign Up failed
@@ -128,11 +114,9 @@ Triggers when the Firebase Sign Up failed
 
 [[Event('Firebase Authentication', 'User Update Failed', 'type')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |type|`text`|
+| Params | []() |
+|--------|------|
+|type|Text|
 
 
 Triggers when updating of the user failed
@@ -141,11 +125,9 @@ Triggers when updating of the user failed
 
 [[Event('Firebase Authentication', 'User Update Success', 'type')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |type|`text`|
+| Params | []() |
+|--------|------|
+|type|Text|
 
 
 Triggers when updating of the user was successful
@@ -154,53 +136,49 @@ Triggers when updating of the user was successful
 
 ### Email Password Login
 
-_Block preview not available_
+[[Method('Firebase Authentication', 'Email Password Login', False, 'email', 'password')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |email|`text`|
-    |password|`text`|
+| Params | []() |
+|--------|------|
+|email|Text|
+|password|Text|
 
 
 Try to let the user sign in with Email and Password
 
 ### Email Password Sign Up
 
-_Block preview not available_
+[[Method('Firebase Authentication', 'Email Password Sign Up', False, 'email', 'password')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |email|`text`|
-    |password|`text`|
+| Params | []() |
+|--------|------|
+|email|Text|
+|password|Text|
 
 
 Create a new user by Email and Password
 
 ### Get Current User
 
-_Block preview not available_
+[[Method('Firebase Authentication', 'Get Current User', False)]]
 
 Try to get the user that is signed in
 
 ### Get Id Token
 
-_Block preview not available_
+[[Method('Firebase Authentication', 'Get Id Token', False)]]
 
 Get the id token from the current user.
 
 ### Google Sign In
 
-_Block preview not available_
+[[Method('Firebase Authentication', 'Google Sign In', False)]]
 
 Try to let the user sign in with Google
 
 ### Is Signed In
 
-_Block preview not available_
+[[Method('Firebase Authentication', 'Is Signed In', True)]]
 
 {>>Returns `boolean`<<}
 
@@ -208,91 +186,79 @@ Check if the user is signed in
 
 ### Logout
 
-_Block preview not available_
+[[Method('Firebase Authentication', 'Logout', False)]]
 
 Log the current user out
 
 ### Phone Number Sign In
 
-_Block preview not available_
+[[Method('Firebase Authentication', 'Phone Number Sign In', False, 'phoneNumber')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |phone Number|`text`|
+| Params | []() |
+|--------|------|
+|phone Number|Text|
 
 
 Try to let the user sign in with a Phone Number
 
 ### Send Reset Password Email
 
-_Block preview not available_
+[[Method('Firebase Authentication', 'Send Reset Password Email', False, 'email')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |email|`text`|
+| Params | []() |
+|--------|------|
+|email|Text|
 
 
 Get the id token from the current user.
 
 ### Update Email
 
-_Block preview not available_
+[[Method('Firebase Authentication', 'Update Email', False, 'email')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |email|`text`|
+| Params | []() |
+|--------|------|
+|email|Text|
 
 
 Try to update the email of the current user (The user must have been recently signed in)
 
 ### Update Phone Number
 
-_Block preview not available_
+[[Method('Firebase Authentication', 'Update Phone Number', False, 'phoneNumber')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |phone Number|`text`|
+| Params | []() |
+|--------|------|
+|phone Number|Text|
 
 
 Try to update the phone number of the current user (The user must have been recently signed in)
 
 ### Update Profile
 
-_Block preview not available_
+[[Method('Firebase Authentication', 'Update Profile', False, 'name', 'profilePicture')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |name|`text`|
-    |profile Picture|`text`|
+| Params | []() |
+|--------|------|
+|name|Text|
+|profile Picture|Text|
 
 
 Try to update the profile of the current user (The user must have been recently signed in)
 
 ### Verify Email
 
-_Block preview not available_
+[[Method('Firebase Authentication', 'Verify Email', False)]]
 
 Verify the Email
 
 ### Verify Phone Code
 
-_Block preview not available_
+[[Method('Firebase Authentication', 'Verify Phone Code', False, 'code')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |code|`text`|
+| Params | []() |
+|--------|------|
+|code|Text|
 
 
 Verify the SMS code

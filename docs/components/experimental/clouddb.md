@@ -16,11 +16,9 @@ Non-visible component that communicates with CloudDB server to store and retriev
 
 [[Event('CloudDB', 'CloudDB Error', 'message')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |message|`text`|
+| Params | []() |
+|--------|------|
+|message|Text|
 
 
 Indicates that an error occurred while communicating with the CloudDB Redis server.
@@ -29,12 +27,10 @@ Indicates that an error occurred while communicating with the CloudDB Redis serv
 
 [[Event('CloudDB', 'Data Changed', 'tag', 'value')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |tag|`text`|
-    |value|`any`|
+| Params | []() |
+|--------|------|
+|tag|Text|
+|value|Any|
 
 
 Indicates that the data in the CloudDB project has changed
@@ -44,11 +40,9 @@ Launches an event with the tag and value that have been updated.
 
 [[Event('CloudDB', 'First Removed', 'value')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |value|`any`|
+| Params | []() |
+|--------|------|
+|value|Any|
 
 
 Event triggered by the "RemoveFirstFromList" function. The argument "value" is the object that was the first in the list, and which is now removed.
@@ -57,12 +51,10 @@ Event triggered by the "RemoveFirstFromList" function. The argument "value" is t
 
 [[Event('CloudDB', 'Got Value', 'tag', 'value')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |tag|`text`|
-    |value|`any`|
+| Params | []() |
+|--------|------|
+|tag|Text|
+|value|Any|
 
 
 Indicates that a GetValue request has succeeded.
@@ -71,11 +63,9 @@ Indicates that a GetValue request has succeeded.
 
 [[Event('CloudDB', 'Tag List', 'value')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |value|`list`|
+| Params | []() |
+|--------|------|
+|value|List|
 
 
 Event triggered when we have received the list of known tags. Used with the "GetTagList" Function.
@@ -84,34 +74,30 @@ Event triggered when we have received the list of known tags. Used with the "Get
 
 ### Append Value To List
 
-_Block preview not available_
+[[Method('CloudDB', 'Append Value To List', False, 'tag', 'itemToAdd')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |tag|`text`|
-    |item To Add|`any`|
+| Params | []() |
+|--------|------|
+|tag|Text|
+|item To Add|Any|
 
 
 Append a value to the end of a list atomically. If two devices use this function simultaneously, both will be appended and no data lost.
 
 ### Clear Tag
 
-_Block preview not available_
+[[Method('CloudDB', 'Clear Tag', False, 'tag')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |tag|`text`|
+| Params | []() |
+|--------|------|
+|tag|Text|
 
 
 Remove the tag from CloudDB
 
 ### Cloud Connected
 
-_Block preview not available_
+[[Method('CloudDB', 'Cloud Connected', True)]]
 
 {>>Returns `boolean`<<}
 
@@ -119,47 +105,41 @@ returns True if we are on the network and will likely be able to connect to the 
 
 ### Get Tag List
 
-_Block preview not available_
+[[Method('CloudDB', 'Get Tag List', False)]]
 
 Get the list of tags for this application. When complete a "TagList" event will be triggered with the list of known tags.
 
 ### Get Value
 
-_Block preview not available_
+[[Method('CloudDB', 'Get Value', False, 'tag', 'valueIfTagNotThere')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |tag|`text`|
-    |value If Tag Not There|`any`|
+| Params | []() |
+|--------|------|
+|tag|Text|
+|value If Tag Not There|Any|
 
 
 Get the Value for a tag, doesn't return the value but will cause a GotValue event to fire when the value is looked up.
 
 ### Remove First From List
 
-_Block preview not available_
+[[Method('CloudDB', 'Remove First From List', False, 'tag')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |tag|`text`|
+| Params | []() |
+|--------|------|
+|tag|Text|
 
 
 Return the first element of a list and atomically remove it. If two devices use this function simultaneously, one will get the first element and the the other will get the second element, or an error if there is no available element. When the element is available, the "FirstRemoved" event will be triggered.
 
 ### Store Value
 
-_Block preview not available_
+[[Method('CloudDB', 'Store Value', False, 'tag', 'valueToStore')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |tag|`text`|
-    |value To Store|`any`|
+| Params | []() |
+|--------|------|
+|tag|Text|
+|value To Store|Any|
 
 
 Store a value at a tag.
@@ -168,78 +148,48 @@ Store a value at a tag.
 
 ### Default Redis Server
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('CloudDB', 'Default Redis Server')]]
-
-| Type |
-|:----:|
-|text|
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 The Default Redis Server to use.
 
+[[PropertyBlockGetterAndSetter('CloudDB', 'Default Redis Server')]]
+
 ### Project ID
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes: Read-Only property
-[[PropertyBlockGetter('CloudDB', 'Project ID')]]
-
-| Type |
-|:----:|
-|text|
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Gets the ProjectID for this CloudDB project.
 
+[[PropertyBlockGetter('CloudDB', 'Project ID')]]
+
 ### Redis Port
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes: Read-Only property
-[[PropertyBlockGetter('CloudDB', 'Redis Port')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|6381|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>6381</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 The Redis Server port to use. Defaults to 6381
 
+[[PropertyBlockGetter('CloudDB', 'Redis Port')]]
+
 ### Redis Server
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes: Read-Only property
-[[PropertyBlockGetter('CloudDB', 'Redis Server')]]
-
-| Type | Default |
-|:----:|:-------:|
-|text|DEFAULT|
+<span class="chip chip-text">Text</span> <span class="chip chip-text">Default: <i>DEFAULT</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 The Redis Server to use to store data. A setting of "DEFAULT" means that the MIT server will be used.
 
+[[PropertyBlockGetter('CloudDB', 'Redis Server')]]
+
 ### Token
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('CloudDB', 'Token')]]
-
-| Type |
-|:----:|
-|text|
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 This field contains the authentication token used to login to the backed Redis server. For the "DEFAULT" server, do not edit this value, the system will fill it in for you. A system administrator may also provide a special value to you which can be used to share data between multiple projects from multiple people. If using your own Redis server, set a password in the server's config and enter it here.
 
+[[PropertyBlockGetterAndSetter('CloudDB', 'Token')]]
+
 ### Use SSL
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('CloudDB', 'Use SSL')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|True|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Set to true to use SSL to talk to CloudDB/Redis server. This should be set to True for the "DEFAULT" server.
+
+[[PropertyBlockGetterAndSetter('CloudDB', 'Use SSL')]]

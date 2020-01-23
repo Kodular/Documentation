@@ -16,12 +16,10 @@ A non-visible component that measures the ambient air pressure in units of hPa o
 
 [[Event('Pressure Sensor', 'Pressure Changed', 'pressure', 'altitude')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |pressure|`number`|
-    |altitude|`number`|
+| Params | []() |
+|--------|------|
+|pressure|Number|
+|altitude|Number|
 
 
 Event is invoked when pressure is changed.
@@ -30,70 +28,36 @@ Event is invoked when pressure is changed.
 
 ### Enabled
 
-<small>Available as ^^Common^^ Property</small>
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
-:eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Pressure Sensor', 'Enabled')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|True|
-
-_No description available_
 
 ### Keep Running When On Pause
 
-<small>Available as ^^Common^^ Property</small>
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>False</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
-:eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Pressure Sensor', 'Keep Running When On Pause')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|False|
-
-_No description available_
 
 ### Altitude
 
-:eyes: Read-Only property
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
+
 [[PropertyBlockGetter('Pressure Sensor', 'Altitude')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
-
-_No description available_
 
 ### Available
 
-:eyes: Read-Only property
+<span class="chip chip-boolean">Boolean</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
+
 [[PropertyBlockGetter('Pressure Sensor', 'Available')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|None|
-
-_No description available_
 
 ### Maximum Range
 
-:eyes: Read-Only property
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
+
 [[PropertyBlockGetter('Pressure Sensor', 'Maximum Range')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
-
-_No description available_
 
 ### Pressure
 
-:eyes: Read-Only property
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
+
 [[PropertyBlockGetter('Pressure Sensor', 'Pressure')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
-
-_No description available_

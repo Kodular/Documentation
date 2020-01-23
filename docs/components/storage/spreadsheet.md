@@ -17,11 +17,9 @@ Component credits\: <a href\="https\://community.kodular.io/u/jerin_jacob" targe
 
 [[Event('Spreadsheet', 'Cell Changed', 'responseCode')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |response Code|`number`|
+| Params | []() |
+|--------|------|
+|response Code|Number|
 
 
 Triggered when changing cell data. ResponseCode is a number
@@ -30,11 +28,9 @@ Triggered when changing cell data. ResponseCode is a number
 
 [[Event('Spreadsheet', 'Deleted Row By Number', 'responseCode')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |response Code|`number`|
+| Params | []() |
+|--------|------|
+|response Code|Number|
 
 
 Triggered when destroying a row. ResponseCode is a number
@@ -43,13 +39,11 @@ Triggered when destroying a row. ResponseCode is a number
 
 [[Event('Spreadsheet', 'Got All Rows', 'responseCode', 'responseContent', 'totalRows')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |response Code|`number`|
-    |response Content|`text`|
-    |total Rows|`number`|
+| Params | []() |
+|--------|------|
+|response Code|Number|
+|response Content|Text|
+|total Rows|Number|
 
 
 Triggered when getting all rows. ResponseCode is a number, ResponseContent is a string
@@ -58,14 +52,12 @@ Triggered when getting all rows. ResponseCode is a number, ResponseContent is a 
 
 [[Event('Spreadsheet', 'Got Cell', 'responseCode', 'value', 'rowId', 'createdTime')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |response Code|`number`|
-    |value|`text`|
-    |row Id|`text`|
-    |created Time|`text`|
+| Params | []() |
+|--------|------|
+|response Code|Number|
+|value|Text|
+|row Id|Text|
+|created Time|Text|
 
 
 Triggered when receiving cell data. ResponseCode is a number, the other ones are strings
@@ -74,14 +66,12 @@ Triggered when receiving cell data. ResponseCode is a number, the other ones are
 
 [[Event('Spreadsheet', 'Got Column', 'responseCode', 'values', 'rowIds', 'createdTimes')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |response Code|`number`|
-    |values|`list`|
-    |row Ids|`list`|
-    |created Times|`list`|
+| Params | []() |
+|--------|------|
+|response Code|Number|
+|values|List|
+|row Ids|List|
+|created Times|List|
 
 
 Triggered when receiving column data. ResponseCode is a number, the other ones are lists
@@ -90,12 +80,10 @@ Triggered when receiving column data. ResponseCode is a number, the other ones a
 
 [[Event('Spreadsheet', 'Got Row', 'responseCode', 'values')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |response Code|`number`|
-    |values|`list`|
+| Params | []() |
+|--------|------|
+|response Code|Number|
+|values|List|
 
 
 Triggered when receiving row data. ResponseCode is a number, Values is a list
@@ -104,11 +92,9 @@ Triggered when receiving row data. ResponseCode is a number, Values is a list
 
 [[Event('Spreadsheet', 'Row Created', 'responseCode')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |response Code|`number`|
+| Params | []() |
+|--------|------|
+|response Code|Number|
 
 
 Triggered when creating a row. ResponseCode is a number
@@ -117,11 +103,9 @@ Triggered when creating a row. ResponseCode is a number
 
 [[Event('Spreadsheet', 'Row Updated', 'responseCode')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |response Code|`number`|
+| Params | []() |
+|--------|------|
+|response Code|Number|
 
 
 Triggered when updating a row. ResponseCode is a number
@@ -130,104 +114,90 @@ Triggered when updating a row. ResponseCode is a number
 
 ### Create Row
 
-_Block preview not available_
+[[Method('Spreadsheet', 'Create Row', False, 'columnNames', 'values')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |column Names|`list`|
-    |values|`list`|
+| Params | []() |
+|--------|------|
+|column Names|List|
+|values|List|
 
 
 Creates a new row
 
 ### Delete Row
 
-_Block preview not available_
+[[Method('Spreadsheet', 'Delete Row', False, 'rowNumber')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |row Number|`number`|
+| Params | []() |
+|--------|------|
+|row Number|Number|
 
 
 Deletes the given row
 
 ### Get All Rows
 
-_Block preview not available_
+[[Method('Spreadsheet', 'Get All Rows', False)]]
 
 Gets all rows
 
 ### Get Cell
 
-_Block preview not available_
+[[Method('Spreadsheet', 'Get Cell', False, 'rowNumber', 'columnName')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |row Number|`number`|
-    |column Name|`text`|
+| Params | []() |
+|--------|------|
+|row Number|Number|
+|column Name|Text|
 
 
 Gets cell data
 
 ### Get Column
 
-_Block preview not available_
+[[Method('Spreadsheet', 'Get Column', False, 'columnName', 'maxRecord')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |column Name|`text`|
-    |max Record|`number`|
+| Params | []() |
+|--------|------|
+|column Name|Text|
+|max Record|Number|
 
 
 Gets column data
 
 ### Get Row
 
-_Block preview not available_
+[[Method('Spreadsheet', 'Get Row', False, 'rowNumber')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |row Number|`number`|
+| Params | []() |
+|--------|------|
+|row Number|Number|
 
 
 Gets row data
 
 ### Set Cell
 
-_Block preview not available_
+[[Method('Spreadsheet', 'Set Cell', False, 'rowNumber', 'columnName', 'value')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |row Number|`number`|
-    |column Name|`text`|
-    |value|`text`|
+| Params | []() |
+|--------|------|
+|row Number|Number|
+|column Name|Text|
+|value|Text|
 
 
 Changes the value of a cell
 
 ### Update Row by Number
 
-_Block preview not available_
+[[Method('Spreadsheet', 'Update Row by Number', False, 'rowNumber', 'columnNames', 'values')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |row Number|`number`|
-    |column Names|`list`|
-    |values|`list`|
+| Params | []() |
+|--------|------|
+|row Number|Number|
+|column Names|List|
+|values|List|
 
 
 Updates the given row data
@@ -236,52 +206,26 @@ Updates the given row data
 
 ### API Key
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Spreadsheet', 'API Key')]]
-
-| Type |
-|:----:|
-|text|
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Your apiKey
 
+[[PropertyBlockGetterAndSetter('Spreadsheet', 'API Key')]]
+
 ### Base ID
 
-<small>Available as ^^Common^^ Property</small>
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
-:eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Spreadsheet', 'Base ID')]]
-
-| Type |
-|:----:|
-|text|
-
-_No description available_
 
 ### Table Name
 
-<small>Available as ^^Common^^ Property</small>
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
-:eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Spreadsheet', 'Table Name')]]
-
-| Type |
-|:----:|
-|text|
-
-_No description available_
 
 ### View Name
 
-<small>Available as ^^Common^^ Property</small>
+<span class="chip chip-text">Text</span> <span class="chip chip-text">Default: <i>Grid view</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
-:eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Spreadsheet', 'View Name')]]
-
-| Type | Default |
-|:----:|:-------:|
-|text|Grid view|
-
-_No description available_

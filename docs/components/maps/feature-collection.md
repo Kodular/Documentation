@@ -14,11 +14,9 @@ A FeatureColletion contains one or more map features as a group. Any events fire
 
 [[Event('Feature Collection', 'Feature Click', 'feature')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |feature|`component`|
+| Params | []() |
+|--------|------|
+|feature|Component|
 
 
 The user clicked on a map feature.
@@ -27,11 +25,9 @@ The user clicked on a map feature.
 
 [[Event('Feature Collection', 'Feature Drag', 'feature')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |feature|`component`|
+| Params | []() |
+|--------|------|
+|feature|Component|
 
 
 The user dragged a map feature.
@@ -40,11 +36,9 @@ The user dragged a map feature.
 
 [[Event('Feature Collection', 'Feature Long Click', 'feature')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |feature|`component`|
+| Params | []() |
+|--------|------|
+|feature|Component|
 
 
 The user long-pressed on a map feature.
@@ -53,11 +47,9 @@ The user long-pressed on a map feature.
 
 [[Event('Feature Collection', 'Feature Start Drag', 'feature')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |feature|`component`|
+| Params | []() |
+|--------|------|
+|feature|Component|
 
 
 The user started dragging a map feature.
@@ -66,11 +58,9 @@ The user started dragging a map feature.
 
 [[Event('Feature Collection', 'Feature Stop Drag', 'feature')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |feature|`component`|
+| Params | []() |
+|--------|------|
+|feature|Component|
 
 
 The user stopped dragging a map feature.
@@ -79,12 +69,10 @@ The user stopped dragging a map feature.
 
 [[Event('Feature Collection', 'Got Features', 'url', 'features')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |url|`text`|
-    |features|`list`|
+| Params | []() |
+|--------|------|
+|url|Text|
+|features|List|
 
 
 A GeoJSON document was successfully read from url. The features specified in the document are provided as a list in features.
@@ -93,13 +81,11 @@ A GeoJSON document was successfully read from url. The features specified in the
 
 [[Event('Feature Collection', 'Load Error', 'url', 'responseCode', 'errorMessage')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |url|`text`|
-    |response Code|`number`|
-    |error Message|`text`|
+| Params | []() |
+|--------|------|
+|url|Text|
+|response Code|Number|
+|error Message|Text|
 
 
 An error was encountered while processing a GeoJSON document at the given url. The responseCode parameter will contain an HTTP status code and the errorMessage parameter will contain a detailed error message.
@@ -108,28 +94,24 @@ An error was encountered while processing a GeoJSON document at the given url. T
 
 ### Feature From Description
 
-_Block preview not available_
+[[Method('Feature Collection', 'Feature From Description', True, 'description')]]
 
 {>>Returns `any`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |description|`list`|
+| Params | []() |
+|--------|------|
+|description|List|
 
 
 Convert a feature description into an App Inventor map feature. Currently the onlysupported conversion is from a GeoJSON point to Marker component. If the feature hasproperties, they will be mapped into App Inventor properties using the following mapping:description becomes Description;draggable becomes Draggable;infobox becomes EnableInfobox;fill becomes FillColor;fill-opacity becomes FillOpacity;image becomes ImageAsset;stroke becomes StrokeColor;stroke-opacity becomes StrokeOpacity;stroke-width becomes StrokeWidth;title becomes Title;visible becomes Visible
 
 ### Load From URL
 
-_Block preview not available_
+[[Method('Feature Collection', 'Load From URL', False, 'url')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |url|`text`|
+| Params | []() |
+|--------|------|
+|url|Text|
 
 
 Load a feature collection in [GeoJSON](https://en.wikipedia.org/wiki/GeoJSON) format from the given url. On success, the event GotFeatures will be raised with the given url and a list of the features parsed from the GeoJSON as a list of (key, value) pairs. On failure, the LoadError event will be raised with any applicable HTTP response code and error message.
@@ -138,118 +120,82 @@ Load a feature collection in [GeoJSON](https://en.wikipedia.org/wiki/GeoJSON) fo
 
 ### Features From Geo JSON
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Feature Collection', 'Features From Geo JSON')]]
-
-| Type |
-|:----:|
-|text|
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Loads a collection of features from the given string. If the string is not valid GeoJSON, the ErrorLoadingFeatureCollection error will be run with url = 
 
 <string>.</string>
 
+[[PropertyBlockGetterAndSetter('Feature Collection', 'Features From Geo JSON')]]
+
 ### Source
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes: Read-Only property
-[[PropertyBlockGetter('Feature Collection', 'Source')]]
-
-| Type |
-|:----:|
-|text|
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Gets or sets the source URL used to populate the feature collection. If the feature collection was not loaded from a URL, this will be the empty string.
 
+[[PropertyBlockGetter('Feature Collection', 'Source')]]
+
 ### Visible
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Feature Collection', 'Visible')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|True|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Returns true iff the component is visible.
 
+[[PropertyBlockGetterAndSetter('Feature Collection', 'Visible')]]
+
 ### Column
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Feature Collection', 'Column')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Blocks</span> 
 
 Column property getter method.
 
+[[PropertyBlockGetterAndSetter('Feature Collection', 'Column')]]
+
 ### Features
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Feature Collection', 'Features')]]
-
-| Type | Default |
-|:----:|:-------:|
-|list|None|
+<span class="chip chip-list">List</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Blocks</span> 
 
 The list of features placed on this map. This list also includes any features created by calls to FeatureFromDescription
 
+[[PropertyBlockGetterAndSetter('Feature Collection', 'Features')]]
+
 ### Height
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Feature Collection', 'Height')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Blocks</span> 
 
 Specifies the component's vertical height, measured in pixels.
 
+[[PropertyBlockGetterAndSetter('Feature Collection', 'Height')]]
+
 ### Height Percent
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Feature Collection', 'Height Percent')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Blocks</span> 
 
 Specifies the component's vertical height as a percentageof the height of its parent Component.
 
+[[PropertyBlockGetterAndSetter('Feature Collection', 'Height Percent')]]
+
 ### Row
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Feature Collection', 'Row')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Blocks</span> 
 
 Row property getter method.
 
+[[PropertyBlockGetterAndSetter('Feature Collection', 'Row')]]
+
 ### Width
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Feature Collection', 'Width')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Blocks</span> 
 
 Specifies the component's horizontal width, measured in pixels.
 
+[[PropertyBlockGetterAndSetter('Feature Collection', 'Width')]]
+
 ### Width Percent
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Feature Collection', 'Width Percent')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Blocks</span> 
 
 Specifies the component's horizontal width as a percentageof the Width of its parent Component.
+
+[[PropertyBlockGetterAndSetter('Feature Collection', 'Width Percent')]]

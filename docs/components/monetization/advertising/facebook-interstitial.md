@@ -28,11 +28,9 @@ Called when an ad is received
 
 [[Event('Facebook Interstitial', 'Error', 'error')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |error|`text`|
+| Params | []() |
+|--------|------|
+|error|Text|
 
 
 Called when an ad request failed. message will display the reason for why the ad failed
@@ -41,13 +39,13 @@ Called when an ad request failed. message will display the reason for why the ad
 
 ### Load Ad
 
-_Block preview not available_
+[[Method('Facebook Interstitial', 'Load Ad', False)]]
 
 Loads a new ad.
 
 ### Show Ad
 
-_Block preview not available_
+[[Method('Facebook Interstitial', 'Show Ad', False)]]
 
 Shows an ad to the user.
 
@@ -55,26 +53,14 @@ Shows an ad to the user.
 
 ### Interstitial Commission
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Facebook Interstitial', 'Interstitial Commission')]]
-
-| Type | Default |
-|:----:|:-------:|
-|text|unity|
+<span class="chip chip-text">Text</span> <span class="chip chip-text">Default: <i>unity</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Sets the ad network used to take the commission.
 
+[[PropertyBlockGetterAndSetter('Facebook Interstitial', 'Interstitial Commission')]]
+
 ### Placement ID
 
-<small>Available as ^^Common^^ Property</small>
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
-:eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Facebook Interstitial', 'Placement ID')]]
-
-| Type |
-|:----:|
-|text|
-
-_No description available_

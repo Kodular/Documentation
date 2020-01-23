@@ -16,11 +16,9 @@ A non-visible component that gets the current illuminance level around the devic
 
 [[Event('Light Sensor', 'Light Changed', 'illuminance')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |illuminance|`number`|
+| Params | []() |
+|--------|------|
+|illuminance|Number|
 
 
 Event that fires when the illuminance is changed
@@ -29,35 +27,24 @@ Event that fires when the illuminance is changed
 
 ### Enabled
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Light Sensor', 'Enabled')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|True|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Whether Sensor should be Enabled
 
+[[PropertyBlockGetterAndSetter('Light Sensor', 'Enabled')]]
+
 ### Available
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Light Sensor', 'Available')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|None|
+<span class="chip chip-boolean">Boolean</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 Whether Sensor is Available
 
+[[PropertyBlockGetter('Light Sensor', 'Available')]]
+
 ### Illuminance
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Light Sensor', 'Illuminance')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 Returns the illuminance in lux. To return values the sensor must be enabled
+
+[[PropertyBlockGetter('Light Sensor', 'Illuminance')]]

@@ -16,14 +16,12 @@ A non-visible component that provides functions for HTTP GET, POST, PUT, and DEL
 
 [[Event('Web', 'Got File', 'url', 'responseCode', 'responseType', 'fileName')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |url|`text`|
-    |response Code|`number`|
-    |response Type|`text`|
-    |file Name|`text`|
+| Params | []() |
+|--------|------|
+|url|Text|
+|response Code|Number|
+|response Type|Text|
+|file Name|Text|
 
 
 Event indicating that a request has finished.
@@ -32,14 +30,12 @@ Event indicating that a request has finished.
 
 [[Event('Web', 'Got Text', 'url', 'responseCode', 'responseType', 'responseContent')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |url|`text`|
-    |response Code|`number`|
-    |response Type|`text`|
-    |response Content|`text`|
+| Params | []() |
+|--------|------|
+|url|Text|
+|response Code|Number|
+|response Type|Text|
+|response Content|Text|
 
 
 Event indicating that a request has finished.
@@ -48,11 +44,9 @@ Event indicating that a request has finished.
 
 [[Event('Web', 'Timed Out', 'url')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |url|`text`|
+| Params | []() |
+|--------|------|
+|url|Text|
 
 
 Event indicating that a request has timed out.
@@ -61,28 +55,26 @@ Event indicating that a request has timed out.
 
 ### Build Request Data
 
-_Block preview not available_
+[[Method('Web', 'Build Request Data', True, 'list')]]
 
 {>>Returns `text`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |list|`list`|
+| Params | []() |
+|--------|------|
+|list|List|
 
 
 Converts a list of two-element sublists, representing name and value pairs, to astring formatted as application/x-www-form-urlencoded media type, suitable to pass toPostText.
 
 ### Clear Cookies
 
-_Block preview not available_
+[[Method('Web', 'Clear Cookies', False)]]
 
 Clears all cookies for this Web component.
 
 ### Delete
 
-_Block preview not available_
+[[Method('Web', 'Delete', False)]]
 
 Performs an HTTP DELETE request using the Url property and retrieves theresponse.  
 If the SaveResponse property is true, the response will be saved in a fileand the GotFile event will be triggered. The ResponseFileName propertycan be used to specify the name of the file.  
@@ -90,7 +82,7 @@ If the SaveResponse property is false, the GotText event will betriggered.
 
 ### Get
 
-_Block preview not available_
+[[Method('Web', 'Get', False)]]
 
 Performs an HTTP GET request using the Url property and retrieves theresponse.  
 If the SaveResponse property is true, the response will be saved in a fileand the GotFile event will be triggered. The ResponseFileName propertycan be used to specify the name of the file.  
@@ -98,30 +90,26 @@ If the SaveResponse property is false, the GotText event will betriggered.
 
 ### HTML Text Decode
 
-_Block preview not available_
+[[Method('Web', 'HTML Text Decode', True, 'htmlText')]]
 
 {>>Returns `text`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |html Text|`text`|
+| Params | []() |
+|--------|------|
+|html Text|Text|
 
 
 Decodes the given HTML text value. HTML character entities such as &amp;amp;, &amp;lt;, &amp;gt;, &amp;apos;, and &amp;quot; are changed to &amp;, &lt;, &gt;, ', and ". Entities such as &amp;#xhhhh, and &amp;#nnnn are changed to the appropriate characters.
 
 ### JSON Text Decode
 
-_Block preview not available_
+[[Method('Web', 'JSON Text Decode', True, 'jsonText')]]
 
 {>>Returns `any`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |json Text|`text`|
+| Params | []() |
+|--------|------|
+|json Text|Text|
 
 
 Decodes the given JSON encoded value to produce a corresponding AppInventor value
@@ -129,13 +117,11 @@ A JSON list [x, y, z] decodes to a list (x y z), A JSON object with name A and v
 
 ### Post File
 
-_Block preview not available_
+[[Method('Web', 'Post File', False, 'path')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |path|`text`|
+| Params | []() |
+|--------|------|
+|path|Text|
 
 
 Performs an HTTP POST request using the Url property and data from the specified file.  
@@ -144,13 +130,11 @@ If the SaveResponse property is false, the GotText event will be triggered.
 
 ### Post Text
 
-_Block preview not available_
+[[Method('Web', 'Post Text', False, 'text')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |text|`text`|
+| Params | []() |
+|--------|------|
+|text|Text|
 
 
 Performs an HTTP POST request using the Url property and the specified text.  
@@ -160,14 +144,12 @@ If the SaveResponse property is false, the GotText event will be triggered.
 
 ### Post Text With Encoding
 
-_Block preview not available_
+[[Method('Web', 'Post Text With Encoding', False, 'text', 'encoding')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |text|`text`|
-    |encoding|`text`|
+| Params | []() |
+|--------|------|
+|text|Text|
+|encoding|Text|
 
 
 Performs an HTTP POST request using the Url property and the specified text.  
@@ -177,13 +159,11 @@ If the SaveResponse property is false, the GotText event will be triggered.
 
 ### Put File
 
-_Block preview not available_
+[[Method('Web', 'Put File', False, 'path')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |path|`text`|
+| Params | []() |
+|--------|------|
+|path|Text|
 
 
 Performs an HTTP PUT request using the Url property and data from the specified file.  
@@ -192,13 +172,11 @@ If the SaveResponse property is false, the GotText event will be triggered.
 
 ### Put Text
 
-_Block preview not available_
+[[Method('Web', 'Put Text', False, 'text')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |text|`text`|
+| Params | []() |
+|--------|------|
+|text|Text|
 
 
 Performs an HTTP PUT request using the Url property and the specified text.  
@@ -208,14 +186,12 @@ If the SaveResponse property is false, the GotText event will be triggered.
 
 ### Put Text With Encoding
 
-_Block preview not available_
+[[Method('Web', 'Put Text With Encoding', False, 'text', 'encoding')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |text|`text`|
-    |encoding|`text`|
+| Params | []() |
+|--------|------|
+|text|Text|
+|encoding|Text|
 
 
 Performs an HTTP PUT request using the Url property and the specified text.  
@@ -225,45 +201,39 @@ If the SaveResponse property is false, the GotText event will be triggered.
 
 ### URI Decode
 
-_Block preview not available_
+[[Method('Web', 'URI Decode', True, 'text')]]
 
 {>>Returns `text`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |text|`text`|
+| Params | []() |
+|--------|------|
+|text|Text|
 
 
 Decodes the encoded text value.
 
 ### URI Encode
 
-_Block preview not available_
+[[Method('Web', 'URI Encode', True, 'text')]]
 
 {>>Returns `text`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |text|`text`|
+| Params | []() |
+|--------|------|
+|text|Text|
 
 
 Encodes the given text value so that it can be used in a URL.
 
 ### XML Text Decode
 
-_Block preview not available_
+[[Method('Web', 'XML Text Decode', True, 'XmlText')]]
 
 {>>Returns `any`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |XmlText|`text`|
+| Params | []() |
+|--------|------|
+|XmlText|Text|
 
 
 Decodes the given XML string to produce a list structure. See the App Inventor documentation on "Other topics, notes, and details" for information.
@@ -272,76 +242,48 @@ Decodes the given XML string to produce a list structure. See the App Inventor d
 
 ### Allow Cookies
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Web', 'Allow Cookies')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|false|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>false</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Whether the cookies from a response should be saved and used in subsequent requests. Cookies are only supported on Android version 2.3 or greater.
 
+[[PropertyBlockGetterAndSetter('Web', 'Allow Cookies')]]
+
 ### Response File Name
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Web', 'Response File Name')]]
-
-| Type |
-|:----:|
-|text|
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 The name of the file where the response should be saved. If SaveResponse is true and ResponseFileName is empty, then a new file name will be generated.
 
+[[PropertyBlockGetterAndSetter('Web', 'Response File Name')]]
+
 ### Save Response
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Web', 'Save Response')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|false|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>false</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Whether the response should be saved in a file.
 
+[[PropertyBlockGetterAndSetter('Web', 'Save Response')]]
+
 ### Timeout
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Web', 'Timeout')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|0|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>0</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 The number of milliseconds that a web request will wait for a response before giving up. If set to 0, then there is no time limit on how long the request will wait.
 
+[[PropertyBlockGetterAndSetter('Web', 'Timeout')]]
+
 ### URL
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Web', 'URL')]]
-
-| Type |
-|:----:|
-|text|
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 The URL for the web request.
 
+[[PropertyBlockGetterAndSetter('Web', 'URL')]]
+
 ### Request Headers
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Web', 'Request Headers')]]
-
-| Type | Default |
-|:----:|:-------:|
-|list|None|
+<span class="chip chip-list">List</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Blocks</span> 
 
 The request headers, as a list of two-element sublists. The first element of each sublist represents the request header field name. The second element of each sublist represents the request header field values, either a single value or a list containing multiple values.
+
+[[PropertyBlockGetterAndSetter('Web', 'Request Headers')]]

@@ -20,14 +20,12 @@ Location information might not be immediately available when an app starts. You'
 
 [[Event('Location Sensor', 'Location Changed', 'latitude', 'longitude', 'altitude', 'speed')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |latitude|`number`|
-    |longitude|`number`|
-    |altitude|`number`|
-    |speed|`number`|
+| Params | []() |
+|--------|------|
+|latitude|Number|
+|longitude|Number|
+|altitude|Number|
+|speed|Number|
 
 
 Indicates that a new location has been detected.
@@ -36,12 +34,10 @@ Indicates that a new location has been detected.
 
 [[Event('Location Sensor', 'Status Changed', 'provider', 'status')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |provider|`text`|
-    |status|`text`|
+| Params | []() |
+|--------|------|
+|provider|Text|
+|status|Text|
 
 
 Indicates that the status of the location provider service has changed, such as when aprovider is lost or a new provider starts being used.
@@ -50,30 +46,26 @@ Indicates that the status of the location provider service has changed, such as 
 
 ### Latitude From Address
 
-_Block preview not available_
+[[Method('Location Sensor', 'Latitude From Address', True, 'locationName')]]
 
 {>>Returns `number`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |location Name|`text`|
+| Params | []() |
+|--------|------|
+|location Name|Text|
 
 
 Derives latitude of given address
 
 ### Longitude From Address
 
-_Block preview not available_
+[[Method('Location Sensor', 'Longitude From Address', True, 'locationName')]]
 
 {>>Returns `number`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |location Name|`text`|
+| Params | []() |
+|--------|------|
+|location Name|Text|
 
 
 Derives longitude of given address
@@ -82,160 +74,110 @@ Derives longitude of given address
 
 ### Distance Interval
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Location Sensor', 'Distance Interval')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|5|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>5</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Determines the minimum distance interval, in meters, that the sensor will try to use for sending out location updates. For example, if this is set to 5, then the sensor will fire a LocationChanged event only after 5 meters have been traversed. However, the sensor does not guarantee that an update will be received at exactly the distance interval. It may take more than 5 meters to fire an event, for instance.
 
+[[PropertyBlockGetterAndSetter('Location Sensor', 'Distance Interval')]]
+
 ### Enabled
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Location Sensor', 'Enabled')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|True|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Indicates whether the user has specified that the sensor shouldlisten for location changes and raise the corresponding events.
 
+[[PropertyBlockGetterAndSetter('Location Sensor', 'Enabled')]]
+
 ### Time Interval
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Location Sensor', 'Time Interval')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|60000|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>60000</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Determines the minimum time interval, in milliseconds, that the sensor will try to use for sending out location updates. However, location updates will only be received when the location of the phone actually changes, and use of the specified time interval is not guaranteed. For example, if 1000 is used as the time interval, location updates will never be fired sooner than 1000ms, but they may be fired anytime after.
 
+[[PropertyBlockGetterAndSetter('Location Sensor', 'Time Interval')]]
+
 ### Accuracy
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Location Sensor', 'Accuracy')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 The most recent measure of accuracy, in meters. If no value is available,0 will be returned.
 
+[[PropertyBlockGetter('Location Sensor', 'Accuracy')]]
+
 ### Altitude
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Location Sensor', 'Altitude')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 The most recently available altitude value, in meters. If no value isavailable, 0 will be returned.
 
+[[PropertyBlockGetter('Location Sensor', 'Altitude')]]
+
 ### Available Providers
 
-:eyes: Read-Only property
+<span class="chip chip-list">List</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
+
 [[PropertyBlockGetter('Location Sensor', 'Available Providers')]]
-
-| Type | Default |
-|:----:|:-------:|
-|list|None|
-
-_No description available_
 
 ### Current Address
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Location Sensor', 'Current Address')]]
-
-| Type | Default |
-|:----:|:-------:|
-|text|None|
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 Provides a textual representation of the current address or"No address available".
 
+[[PropertyBlockGetter('Location Sensor', 'Current Address')]]
+
 ### Has Accuracy
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Location Sensor', 'Has Accuracy')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|None|
+<span class="chip chip-boolean">Boolean</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 Indicates whether information about location accuracy is available.
 
+[[PropertyBlockGetter('Location Sensor', 'Has Accuracy')]]
+
 ### Has Altitude
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Location Sensor', 'Has Altitude')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|None|
+<span class="chip chip-boolean">Boolean</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 Indicates whether altitude information is available.
 
+[[PropertyBlockGetter('Location Sensor', 'Has Altitude')]]
+
 ### Has Longitude Latitude
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Location Sensor', 'Has Longitude Latitude')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|None|
+<span class="chip chip-boolean">Boolean</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 Indicates whether longitude and latitude information is available. (It isalways the case that either both or neither are.)
 
+[[PropertyBlockGetter('Location Sensor', 'Has Longitude Latitude')]]
+
 ### Latitude
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Location Sensor', 'Latitude')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 The most recently available latitude value. If no value is available,0 will be returned.
 
+[[PropertyBlockGetter('Location Sensor', 'Latitude')]]
+
 ### Longitude
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Location Sensor', 'Longitude')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 The most recent available longitude value. If no value is available,0 will be returned.
 
+[[PropertyBlockGetter('Location Sensor', 'Longitude')]]
+
 ### Provider Locked
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Location Sensor', 'Provider Locked')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|None|
+<span class="chip chip-boolean">Boolean</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Blocks</span> 
 
 Indicates whether the sensor should allow the developer tomanually change the provider (GPS, GSM, Wifi, etc.)from which location updates are received.
 
+[[PropertyBlockGetterAndSetter('Location Sensor', 'Provider Locked')]]
+
 ### Provider Name
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Location Sensor', 'Provider Name')]]
-
-| Type | Default |
-|:----:|:-------:|
-|text|None|
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Blocks</span> 
 
 Indicates the source of the location information. If there is no provider, thestring "NO PROVIDER" is returned. This is useful primarily for debugging.
+
+[[PropertyBlockGetterAndSetter('Location Sensor', 'Provider Name')]]

@@ -16,12 +16,10 @@ A component to create dynamic textboxes in Arrangements
 
 [[Event('Dynamic Text Box', 'On Text Changed', 'id', 'text')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
-    |text|`text`|
+| Params | []() |
+|--------|------|
+|id|Number|
+|text|Text|
 
 
 Trigger when the text of a Dynamic TextBox changes
@@ -30,244 +28,210 @@ Trigger when the text of a Dynamic TextBox changes
 
 ### Create Text Box
 
-_Block preview not available_
+[[Method('Dynamic Text Box', 'Create Text Box', False, 'id', 'arrangement')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
-    |arrangement|`component`|
+| Params | []() |
+|--------|------|
+|id|Number|
+|arrangement|Component|
 
 
 Create a Dynamic TextBox
 
 ### Delete Text Box
 
-_Block preview not available_
+[[Method('Dynamic Text Box', 'Delete Text Box', False, 'id')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
+| Params | []() |
+|--------|------|
+|id|Number|
 
 
 Remove a textbox component with the given id.
 
 ### Get Button By Id
 
-_Block preview not available_
+[[Method('Dynamic Text Box', 'Get Button By Id', True, 'id')]]
 
 {>>Returns `component`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
+| Params | []() |
+|--------|------|
+|id|Number|
 
 
 Returns the button referenced by its id.
 
 ### Get Enabled
 
-_Block preview not available_
+[[Method('Dynamic Text Box', 'Get Enabled', True, 'id')]]
 
 {>>Returns `boolean`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
+| Params | []() |
+|--------|------|
+|id|Number|
 
 
 Get the Enabled status of a TextBox
 
 ### Get Font Size
 
-_Block preview not available_
+[[Method('Dynamic Text Box', 'Get Font Size', True, 'id')]]
 
 {>>Returns `number`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
+| Params | []() |
+|--------|------|
+|id|Number|
 
 
 Get the Font Size of a TextBox
 
 ### Get Height
 
-_Block preview not available_
+[[Method('Dynamic Text Box', 'Get Height', True, 'id')]]
 
 {>>Returns `number`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
+| Params | []() |
+|--------|------|
+|id|Number|
 
 
 Get the Height of a TextBox
 
 ### Get Text
 
-_Block preview not available_
+[[Method('Dynamic Text Box', 'Get Text', True, 'id')]]
 
 {>>Returns `text`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
+| Params | []() |
+|--------|------|
+|id|Number|
 
 
 Get the Text of a TextBox
 
 ### Get Width
 
-_Block preview not available_
+[[Method('Dynamic Text Box', 'Get Width', True, 'id')]]
 
 {>>Returns `number`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
+| Params | []() |
+|--------|------|
+|id|Number|
 
 
 Get the Width of a TextBox
 
 ### Set Alignment
 
-_Block preview not available_
+[[Method('Dynamic Text Box', 'Set Alignment', False, 'id', 'alignment')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
-    |alignment|`number`|
+| Params | []() |
+|--------|------|
+|id|Number|
+|alignment|Number|
 
 
 Update the Text Alignment of a TextBox. 0 = left, 1 = center and 2 = right.
 
 ### Set Background Color
 
-_Block preview not available_
+[[Method('Dynamic Text Box', 'Set Background Color', False, 'id', 'color')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
-    |color|`number`|
+| Params | []() |
+|--------|------|
+|id|Number|
+|color|Number|
 
 
 Update the Background Color of a TextBox
 
 ### Set Enabled
 
-_Block preview not available_
+[[Method('Dynamic Text Box', 'Set Enabled', False, 'id', 'enabled')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
-    |enabled|`boolean`|
+| Params | []() |
+|--------|------|
+|id|Number|
+|enabled|Boolean|
 
 
 Update the Enabled status of a TextBox
 
 ### Set Font
 
-_Block preview not available_
+[[Method('Dynamic Text Box', 'Set Font', False, 'id', 'bold', 'italic')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
-    |bold|`boolean`|
-    |italic|`boolean`|
+| Params | []() |
+|--------|------|
+|id|Number|
+|bold|Boolean|
+|italic|Boolean|
 
 
 Update the Font of a TextBox
 
 ### Set Font Size
 
-_Block preview not available_
+[[Method('Dynamic Text Box', 'Set Font Size', False, 'id', 'size')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
-    |size|`number`|
+| Params | []() |
+|--------|------|
+|id|Number|
+|size|Number|
 
 
 Update the Font Size of a TextBox
 
 ### Set Height
 
-_Block preview not available_
+[[Method('Dynamic Text Box', 'Set Height', False, 'id', 'height')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
-    |height|`number`|
+| Params | []() |
+|--------|------|
+|id|Number|
+|height|Number|
 
 
 Update the Height of a TextBox
 
 ### Set Text
 
-_Block preview not available_
+[[Method('Dynamic Text Box', 'Set Text', False, 'id', 'text')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
-    |text|`text`|
+| Params | []() |
+|--------|------|
+|id|Number|
+|text|Text|
 
 
 Update the Text of a TextBox
 
 ### Set Text Color
 
-_Block preview not available_
+[[Method('Dynamic Text Box', 'Set Text Color', False, 'id', 'color')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
-    |color|`number`|
+| Params | []() |
+|--------|------|
+|id|Number|
+|color|Number|
 
 
 Update the Text Color of a TextBox
 
 ### Set Width
 
-_Block preview not available_
+[[Method('Dynamic Text Box', 'Set Width', False, 'id', 'width')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
-    |width|`number`|
+| Params | []() |
+|--------|------|
+|id|Number|
+|width|Number|
 
 
 Update the Width of a TextBox

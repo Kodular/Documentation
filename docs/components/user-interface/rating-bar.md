@@ -14,11 +14,9 @@ A visible component that lets the user submit a star rating.
 
 [[Event('Rating Bar', 'Changed', 'rating')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |rating|`number`|
+| Params | []() |
+|--------|------|
+|rating|Number|
 
 
 Event invoked when the rating has been changed.
@@ -27,144 +25,96 @@ Event invoked when the rating has been changed.
 
 ### Background Color
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Rating Bar', 'Background Color')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|&HFF9E9E9E|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>&HFF9E9E9E</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Change the background color of the star.
 
+[[PropertyBlockGetterAndSetter('Rating Bar', 'Background Color')]]
+
 ### Is Indicator
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Rating Bar', 'Is Indicator')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|False|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>False</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Whether this rating bar should only be an indicator (thus non-changeable by the user).
 
+[[PropertyBlockGetterAndSetter('Rating Bar', 'Is Indicator')]]
+
 ### Set Number Of Stars
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Rating Bar', 'Set Number Of Stars')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|5|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>5</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Sets the number of stars to show.
 
+[[PropertyBlockGetterAndSetter('Rating Bar', 'Set Number Of Stars')]]
+
 ### Set Step Size
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Rating Bar', 'Set Step Size')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|.5|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>.5</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Sets the step size (granularity) of this rating bar.
 
+[[PropertyBlockGetterAndSetter('Rating Bar', 'Set Step Size')]]
+
 ### Star Color
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Rating Bar', 'Star Color')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|&HFFF34336|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>&HFFF34336</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Change the color of the star.
 
+[[PropertyBlockGetterAndSetter('Rating Bar', 'Star Color')]]
+
 ### Visible
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Rating Bar', 'Visible')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|True|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Returns true iff the component is visible.
 
+[[PropertyBlockGetterAndSetter('Rating Bar', 'Visible')]]
+
 ### Column
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Rating Bar', 'Column')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Blocks</span> 
 
 Column property getter method.
 
+[[PropertyBlockGetterAndSetter('Rating Bar', 'Column')]]
+
 ### Get Number Of Stars
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Rating Bar', 'Get Number Of Stars')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 Returns the number of stars shown.
 
+[[PropertyBlockGetter('Rating Bar', 'Get Number Of Stars')]]
+
 ### Get Rating
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Rating Bar', 'Get Rating')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 Gets the current rating (number of stars filled).
 
+[[PropertyBlockGetter('Rating Bar', 'Get Rating')]]
+
 ### Get Step Size
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Rating Bar', 'Get Step Size')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 Gets the step size (granularity) of this rating bar.
 
+[[PropertyBlockGetter('Rating Bar', 'Get Step Size')]]
+
 ### Row
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Rating Bar', 'Row')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Blocks</span> 
 
 Row property getter method.
 
+[[PropertyBlockGetterAndSetter('Rating Bar', 'Row')]]
+
 ### Set Rating
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Rating Bar', 'Set Rating')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Blocks</span> 
 
 Sets the rating (the number of stars filled).
+
+[[PropertyBlockGetterAndSetter('Rating Bar', 'Set Rating')]]

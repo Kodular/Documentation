@@ -14,35 +14,31 @@ A non-visible component that opens web pages as custom tabs on Google Chrome.
 
 ### Add Menu Item Open App
 
-_Block preview not available_
+[[Method('Custom Tabs', 'Add Menu Item Open App', False, 'title', 'packageName')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |title|`text`|
-    |package Name|`text`|
+| Params | []() |
+|--------|------|
+|title|Text|
+|package Name|Text|
 
 
 Use this block to add a menu item with the given title to open any app you want with the package name. The package name can be as example 'com.instagram.android' to open Instagram on the menu item click. If the app is not installed the menu item will not be added.
 
 ### Add Menu Item Open Page
 
-_Block preview not available_
+[[Method('Custom Tabs', 'Add Menu Item Open Page', False, 'title', 'page')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |title|`text`|
-    |page|`text`|
+| Params | []() |
+|--------|------|
+|title|Text|
+|page|Text|
 
 
 Use this block to add a menu item with the given title and page link. The page can be as example 'https://www.instagram.com/kodular/'. If the user have Instagram installed,the page will then be opened in the official Instagram app. Else in the default browser.
 
 ### Open Custom Tab
 
-_Block preview not available_
+[[Method('Custom Tabs', 'Open Custom Tab', False)]]
 
 Use this block to open the custom tab.
 
@@ -50,78 +46,48 @@ Use this block to open the custom tab.
 
 ### Default Share Menu Item
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Custom Tabs', 'Default Share Menu Item')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|True|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Whether or not to add the default share menu item into the menu.
 
+[[PropertyBlockGetterAndSetter('Custom Tabs', 'Default Share Menu Item')]]
+
 ### Instant Apps Enabled
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Custom Tabs', 'Instant Apps Enabled')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|True|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Whether or not to enable instant apps.
 
+[[PropertyBlockGetterAndSetter('Custom Tabs', 'Instant Apps Enabled')]]
+
 ### Show Title
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Custom Tabs', 'Show Title')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|True|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Whether or not to show the title.
 
+[[PropertyBlockGetterAndSetter('Custom Tabs', 'Show Title')]]
+
 ### Toolbar Color
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Custom Tabs', 'Toolbar Color')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|&HFF3F51B5|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>&HFF3F51B5</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Specifies the color of the toolbar.
 
+[[PropertyBlockGetterAndSetter('Custom Tabs', 'Toolbar Color')]]
+
 ### URL
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Custom Tabs', 'URL')]]
-
-| Type |
-|:----:|
-|text|
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 The URL to load in the custom tab. The URL must start with 'http://' or 'https://'
 
+[[PropertyBlockGetterAndSetter('Custom Tabs', 'URL')]]
+
 ### Url Bar Hiding On Scroll
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Custom Tabs', 'Url Bar Hiding On Scroll')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|False|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>False</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Whether or not to hide the url bar on scrolling.
+
+[[PropertyBlockGetterAndSetter('Custom Tabs', 'Url Bar Hiding On Scroll')]]

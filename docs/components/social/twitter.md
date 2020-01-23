@@ -29,11 +29,9 @@ You must obtain a Consumer Key and Consumer Secret for Twitter authorization spe
 
 [[Event('Twitter', 'Direct Messages Received', 'messages')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |messages|`list`|
+| Params | []() |
+|--------|------|
+|messages|List|
 
 
 This event is raised when the recent messages requested through `` RequestDirectMessages `` have been retrieved. A list of the messages can then be found in the `` messages `` parameter or the `` Messages `` property.
@@ -42,11 +40,9 @@ This event is raised when the recent messages requested through `` RequestDirect
 
 [[Event('Twitter', 'Followers Received', 'followers2')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |followers 2|`list`|
+| Params | []() |
+|--------|------|
+|followers 2|List|
 
 
 This event is raised when all of the followers of the logged-in user requested through `` RequestFollowers `` have been retrieved. A list of the followers can then be found in the `` followers `` parameter or the `` Followers `` property.
@@ -55,11 +51,9 @@ This event is raised when all of the followers of the logged-in user requested t
 
 [[Event('Twitter', 'Friend Timeline Received', 'timeline')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |timeline|`list`|
+| Params | []() |
+|--------|------|
+|timeline|List|
 
 
 This event is raised when the messages requested through `` RequestFriendTimeline `` have been retrieved. The `` timeline `` parameter and the `` Timeline `` property will contain a list of lists, where each sub-list contains a status update of the form (username message)
@@ -74,11 +68,9 @@ This event is raised after the program calls `` Authorize `` if the authorizatio
 
 [[Event('Twitter', 'Mentions Received', 'mentions')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |mentions|`list`|
+| Params | []() |
+|--------|------|
+|mentions|List|
 
 
 This event is raised when the mentions of the logged-in user requested through `` RequestMentions `` have been retrieved. A list of the mentions can then be found in the `` mentions `` parameter or the `` Mentions `` property.
@@ -87,11 +79,9 @@ This event is raised when the mentions of the logged-in user requested through `
 
 [[Event('Twitter', 'Search Successful', 'searchResults')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |search Results|`list`|
+| Params | []() |
+|--------|------|
+|search Results|List|
 
 
 This event is raised when the results of the search requested through `` SearchSuccessful `` have been retrieved. A list of the results can then be found in the `` results `` parameter or the `` Results `` property.
@@ -100,32 +90,30 @@ This event is raised when the results of the search requested through `` SearchS
 
 ### Authorize
 
-_Block preview not available_
+[[Method('Twitter', 'Authorize', False)]]
 
 Redirects user to login to Twitter via the Web browser using the OAuth protocol if we don't already have authorization.
 
 ### Check Authorized
 
-_Block preview not available_
+[[Method('Twitter', 'Check Authorized', False)]]
 
 Checks whether we already have access, and if so, causes IsAuthorized event handler to be called.
 
 ### De Authorize
 
-_Block preview not available_
+[[Method('Twitter', 'De Authorize', False)]]
 
 Removes Twitter authorization from this running app instance
 
 ### Direct Message
 
-_Block preview not available_
+[[Method('Twitter', 'Direct Message', False, 'user', 'message')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |user|`text`|
-    |message|`text`|
+| Params | []() |
+|--------|------|
+|user|Text|
+|message|Text|
 
 
 This sends a direct (private) message to the specified user. The message will be trimmed if it exceeds 160characters. 
@@ -134,34 +122,30 @@ This sends a direct (private) message to the specified user. The message will be
 
 ### Follow
 
-_Block preview not available_
+[[Method('Twitter', 'Follow', False, 'user')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |user|`text`|
+| Params | []() |
+|--------|------|
+|user|Text|
 
 
 Starts following a user.
 
 ### Login
 
-_Block preview not available_
+[[Method('Twitter', 'Login', False, 'username', 'password')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |username|`text`|
-    |password|`text`|
+| Params | []() |
+|--------|------|
+|username|Text|
+|password|Text|
 
 
 Twitter's API no longer supports login via username and password. Use the Authorize call instead.
 
 ### Request Direct Messages
 
-_Block preview not available_
+[[Method('Twitter', 'Request Direct Messages', False)]]
 
 Requests the 20 most recent direct messages sent to the logged-in user. When the messages have been retrieved, the system will raise the `` DirectMessagesReceived `` event and set the `` DirectMessages `` property to the list of messages.
 
@@ -169,19 +153,19 @@ Requests the 20 most recent direct messages sent to the logged-in user. When the
 
 ### Request Followers
 
-_Block preview not available_
+[[Method('Twitter', 'Request Followers', False)]]
 
 Gets who is following you.
 
 ### Request Friend Timeline
 
-_Block preview not available_
+[[Method('Twitter', 'Request Friend Timeline', False)]]
 
 Gets the most recent 20 messages in the user's timeline.
 
 ### Request Mentions
 
-_Block preview not available_
+[[Method('Twitter', 'Request Mentions', False)]]
 
 Requests the 20 most recent mentions of the logged-in user. When the mentions have been retrieved, the system will raise the `` MentionsReceived `` event and set the `` Mentions `` property to the list of mentions.
 
@@ -189,13 +173,11 @@ Requests the 20 most recent mentions of the logged-in user. When the mentions ha
 
 ### Search Twitter
 
-_Block preview not available_
+[[Method('Twitter', 'Search Twitter', False, 'query')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |query|`text`|
+| Params | []() |
+|--------|------|
+|query|Text|
 
 
 This searches Twitter for the given String query.
@@ -204,26 +186,22 @@ This searches Twitter for the given String query.
 
 ### Stop Following
 
-_Block preview not available_
+[[Method('Twitter', 'Stop Following', False, 'user')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |user|`text`|
+| Params | []() |
+|--------|------|
+|user|Text|
 
 
 Stops following a user.
 
 ### Tweet
 
-_Block preview not available_
+[[Method('Twitter', 'Tweet', False, 'status')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |status|`text`|
+| Params | []() |
+|--------|------|
+|status|Text|
 
 
 This sends a tweet as the logged-in user with the specified Text, which will be trimmed if it exceeds 160 characters. 
@@ -232,14 +210,12 @@ This sends a tweet as the logged-in user with the specified Text, which will be 
 
 ### Tweet With Image
 
-_Block preview not available_
+[[Method('Twitter', 'Tweet With Image', False, 'status', 'imagePath')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |status|`text`|
-    |image Path|`text`|
+| Params | []() |
+|--------|------|
+|status|Text|
+|image Path|Text|
 
 
 This sends a tweet as the logged-in user with the specified Text and a path to the image to be uploaded, which will be trimmed if it exceeds 160 characters. If an image is not found or invalid, only the text will be tweeted.
@@ -250,38 +226,23 @@ This sends a tweet as the logged-in user with the specified Text and a path to t
 
 ### Consumer Key
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Twitter', 'Consumer Key')]]
-
-| Type |
-|:----:|
-|text|
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 ConsumerKey property getter method.
 
+[[PropertyBlockGetterAndSetter('Twitter', 'Consumer Key')]]
+
 ### Consumer Secret
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Twitter', 'Consumer Secret')]]
-
-| Type |
-|:----:|
-|text|
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 ConsumerSecret property getter method.
 
+[[PropertyBlockGetterAndSetter('Twitter', 'Consumer Secret')]]
+
 ### Direct Messages
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Twitter', 'Direct Messages')]]
-
-| Type | Default |
-|:----:|:-------:|
-|list|None|
+<span class="chip chip-list">List</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 This property contains a list of the most recent messages mentioning the logged-in user. Initially, the list is empty. To set it, the program must: 
 
@@ -292,14 +253,11 @@ This property contains a list of the most recent messages mentioning the logged-
 
 The value of this property will then be set to the list of direct messages retrieved (and maintain that value until any subsequent call to `` RequestDirectMessages ``).
 
+[[PropertyBlockGetter('Twitter', 'Direct Messages')]]
+
 ### Followers
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Twitter', 'Followers')]]
-
-| Type | Default |
-|:----:|:-------:|
-|list|None|
+<span class="chip chip-list">List</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 This property contains a list of the followers of the logged-in user. Initially, the list is empty. To set it, the program must: 
 
@@ -310,14 +268,11 @@ This property contains a list of the followers of the logged-in user. Initially,
 
 The value of this property will then be set to the list of followers (and maintain its value until any subsequent call to `` RequestFollowers ``).
 
+[[PropertyBlockGetter('Twitter', 'Followers')]]
+
 ### Friend Time line
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Twitter', 'Friend Time line')]]
-
-| Type | Default |
-|:----:|:-------:|
-|list|None|
+<span class="chip chip-list">List</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 This property contains the 20 most recent messages of users being followed. Initially, the list is empty. To set it, the program must: 
 
@@ -330,14 +285,11 @@ This property contains the 20 most recent messages of users being followed. Init
 
 The value of this property will then be set to the list of messages (and maintain its value until any subsequent call to `` RequestFriendTimeline ``.
 
+[[PropertyBlockGetter('Twitter', 'Friend Time line')]]
+
 ### Mentions
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Twitter', 'Mentions')]]
-
-| Type | Default |
-|:----:|:-------:|
-|list|None|
+<span class="chip chip-list">List</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 This property contains a list of mentions of the logged-in user. Initially, the list is empty. To set it, the program must: 
 
@@ -348,14 +300,11 @@ This property contains a list of mentions of the logged-in user. Initially, the 
 
 The value of this property will then be set to the list of mentions (and will maintain its value until any subsequent calls to `` RequestMentions ``).
 
+[[PropertyBlockGetter('Twitter', 'Mentions')]]
+
 ### Search Results
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Twitter', 'Search Results')]]
-
-| Type | Default |
-|:----:|:-------:|
-|list|None|
+<span class="chip chip-list">List</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 This property, which is initially empty, is set to a list of search results after the program: 
 
@@ -364,26 +313,22 @@ This property, which is initially empty, is set to a list of search results afte
 
 The value of the property will then be the same as the parameter to `` SearchSuccessful ``. Note that it is not necessary to call the `` Authorize `` method before calling `` SearchTwitter ``.
 
+[[PropertyBlockGetter('Twitter', 'Search Results')]]
+
 ### TwitPic_API_Key
 
 :warning: ==**Deprecated**==
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Twitter', 'TwitPic_API_Key')]]
-
-| Type | Default |
-|:----:|:-------:|
-|text|None|
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Blocks</span> 
 
 TwitPicAPIkey property getter method.
 
+[[PropertyBlockGetterAndSetter('Twitter', 'TwitPic_API_Key')]]
+
 ### Username
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Twitter', 'Username')]]
-
-| Type | Default |
-|:----:|:-------:|
-|text|None|
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 The user name of the authorized user. Empty if there is no authorized user.
+
+[[PropertyBlockGetter('Twitter', 'Username')]]

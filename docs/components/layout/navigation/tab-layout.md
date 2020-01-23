@@ -14,12 +14,10 @@ A visible component that groups other layout components such that only one of it
 
 [[Event('Tab Layout', 'Tab Item Selected', 'tab', 'position')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |tab|`text`|
-    |position|`number`|
+| Params | []() |
+|--------|------|
+|tab|Text|
+|position|Number|
 
 
 The event returns the name or the position of the selected tab.
@@ -28,36 +26,32 @@ The event returns the name or the position of the selected tab.
 
 ### Add New Tab
 
-_Block preview not available_
+[[Method('Tab Layout', 'Add New Tab', False, 'name', 'icon')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |name|`text`|
-    |icon|`text`|
+| Params | []() |
+|--------|------|
+|name|Text|
+|icon|Text|
 
 
 Add a new tab to the tab layout. If you don't want a icon then let it empty.
 
 ### Add New Tab At
 
-_Block preview not available_
+[[Method('Tab Layout', 'Add New Tab At', False, 'name', 'icon', 'position')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |name|`text`|
-    |icon|`text`|
-    |position|`number`|
+| Params | []() |
+|--------|------|
+|name|Text|
+|icon|Text|
+|position|Number|
 
 
 Add a new tab to the tab layout at the given position. If you don't want a icon then let it empty.
 
 ### Count Tabs
 
-_Block preview not available_
+[[Method('Tab Layout', 'Count Tabs', True)]]
 
 {>>Returns `number`<<}
 
@@ -65,19 +59,17 @@ Returns the number of current added tab's.
 
 ### Remove All Tabs
 
-_Block preview not available_
+[[Method('Tab Layout', 'Remove All Tabs', False)]]
 
 Remove all tab's from tab layout.
 
 ### Remove Tab At
 
-_Block preview not available_
+[[Method('Tab Layout', 'Remove Tab At', False, 'position')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |position|`number`|
+| Params | []() |
+|--------|------|
+|position|Number|
 
 
 Removes a before added tab. If you want to delete the first tab then use as position '1'.
@@ -86,144 +78,96 @@ Removes a before added tab. If you want to delete the first tab then use as posi
 
 ### Tabs Active Text Color
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Tab Layout', 'Tabs Active Text Color')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|&HFFFF4081|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>&HFFFF4081</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Specifies the tab's text color for active tab's.
 
+[[PropertyBlockGetterAndSetter('Tab Layout', 'Tabs Active Text Color')]]
+
 ### Tabs Background Color
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Tab Layout', 'Tabs Background Color')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|&HFF3F51B5|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>&HFF3F51B5</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Specifies the tab's background color.
 
+[[PropertyBlockGetterAndSetter('Tab Layout', 'Tabs Background Color')]]
+
 ### Tabs Indicator Color
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Tab Layout', 'Tabs Indicator Color')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|&HFFFFFFFF|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>&HFFFFFFFF</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Specifies the tab's indicator color.
 
+[[PropertyBlockGetterAndSetter('Tab Layout', 'Tabs Indicator Color')]]
+
 ### Tabs Mode
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Tab Layout', 'Tabs Mode')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|1|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>1</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Choose the mode used for the tab's. If no mode is specified, 'Scrollable' is taken as 'Default'. Use '0' for scrollable and '1' for fixed.
 
+[[PropertyBlockGetterAndSetter('Tab Layout', 'Tabs Mode')]]
+
 ### Tabs Text Color
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Tab Layout', 'Tabs Text Color')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|&HFFFFFFFF|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>&HFFFFFFFF</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Specifies the tab's text color for not selected tab's.
 
+[[PropertyBlockGetterAndSetter('Tab Layout', 'Tabs Text Color')]]
+
 ### Visible
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Tab Layout', 'Visible')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|True|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Specifies whether the component should be visible on the screen. Value is true if the component is showing and false if hidden.
 
+[[PropertyBlockGetterAndSetter('Tab Layout', 'Visible')]]
+
 ### Column
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Tab Layout', 'Column')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Blocks</span> 
 
 Column property getter method.
 
+[[PropertyBlockGetterAndSetter('Tab Layout', 'Column')]]
+
 ### Get Current Tab
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Tab Layout', 'Get Current Tab')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 Get the current selected tab.
 
+[[PropertyBlockGetter('Tab Layout', 'Get Current Tab')]]
+
 ### Row
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Tab Layout', 'Row')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Blocks</span> 
 
 Row property getter method.
 
+[[PropertyBlockGetterAndSetter('Tab Layout', 'Row')]]
+
 ### Select Tab
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Tab Layout', 'Select Tab')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Blocks</span> 
 
 Select a tab which is then the active tab.
 
+[[PropertyBlockGetterAndSetter('Tab Layout', 'Select Tab')]]
+
 ### Width
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Tab Layout', 'Width')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Blocks</span> 
 
 Specifies the component's horizontal width, measured in pixels.
 
+[[PropertyBlockGetterAndSetter('Tab Layout', 'Width')]]
+
 ### Width Percent
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Tab Layout', 'Width Percent')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Blocks</span> 
 
 Specifies the component's horizontal width as a percentageof the Width of its parent Component.
+
+[[PropertyBlockGetterAndSetter('Tab Layout', 'Width Percent')]]

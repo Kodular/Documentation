@@ -16,11 +16,9 @@ A non-visible component that allows for uploading and downloading of files via F
 
 [[Event('FTP', 'Connect Error', 'error')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |error|`text`|
+| Params | []() |
+|--------|------|
+|error|Text|
 
 
 This event returns the reason if a try to connect was not successful.
@@ -29,11 +27,9 @@ This event returns the reason if a try to connect was not successful.
 
 [[Event('FTP', 'Connection Status', 'isConnected')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |is Connected|`boolean`|
+| Params | []() |
+|--------|------|
+|is Connected|Boolean|
 
 
 This event returns the status of the connection. If it is connect it will return true, else false.
@@ -42,11 +38,9 @@ This event returns the status of the connection. If it is connect it will return
 
 [[Event('FTP', 'Disconnect Error', 'error')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |error|`text`|
+| Params | []() |
+|--------|------|
+|error|Text|
 
 
 This event returns the reason if a try to disconnect was not successful.
@@ -61,11 +55,9 @@ This event is invoked when the download is finished.
 
 [[Event('FTP', 'Download error', 'error')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |error|`text`|
+| Params | []() |
+|--------|------|
+|error|Text|
 
 
 This event returns the reason if a download was not successful.
@@ -80,11 +72,9 @@ This event is invoked when the upload is finished.
 
 [[Event('FTP', 'Upload error', 'error')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |error|`text`|
+| Params | []() |
+|--------|------|
+|error|Text|
 
 
 This event returns the reason if a upload was not successful.
@@ -93,81 +83,71 @@ This event returns the reason if a upload was not successful.
 
 ### Connect
 
-_Block preview not available_
+[[Method('FTP', 'Connect', False)]]
 
 Start the connection to the ftp server.
 
 ### Disconnect
 
-_Block preview not available_
+[[Method('FTP', 'Disconnect', False)]]
 
 Disconnect the current connection.
 
 ### Download File
 
-_Block preview not available_
+[[Method('FTP', 'Download File', False, 'remoteFilepath', 'destination')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |remote Filepath|`text`|
-    |destination|`text`|
+| Params | []() |
+|--------|------|
+|remote Filepath|Text|
+|destination|Text|
 
 
 Start downloading a file.
 
 ### Get List Of Files
 
-_Block preview not available_
+[[Method('FTP', 'Get List Of Files', True, 'dir')]]
 
 {>>Returns `list`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |dir|`text`|
+| Params | []() |
+|--------|------|
+|dir|Text|
 
 
 Get a list of files in a directory. Returns a empty list if a error occurs.
 
 ### Upload File
 
-_Block preview not available_
+[[Method('FTP', 'Upload File', False, 'filePath', 'newName')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |file Path|`text`|
-    |new Name|`text`|
+| Params | []() |
+|--------|------|
+|file Path|Text|
+|new Name|Text|
 
 
 Start uploading a file.
 
 ### Delete Dir
 
-_Block preview not available_
+[[Method('FTP', 'Delete Dir', False, 'dir')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |dir|`text`|
+| Params | []() |
+|--------|------|
+|dir|Text|
 
 
 Delete a directory on the ftp server.
 
 ### make Dir
 
-_Block preview not available_
+[[Method('FTP', 'make Dir', False, 'dir')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |dir|`text`|
+| Params | []() |
+|--------|------|
+|dir|Text|
 
 
 Make/create a directory on the ftp server.
@@ -176,65 +156,40 @@ Make/create a directory on the ftp server.
 
 ### FTP-Server (Host)
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('FTP', 'FTP-Server Host')]]
-
-| Type | Default |
-|:----:|:-------:|
-|text|ftp.example.org|
+<span class="chip chip-text">Text</span> <span class="chip chip-text">Default: <i>ftp.example.org</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Set the ftp server url.
 
+[[PropertyBlockGetterAndSetter('FTP', 'FTP-Server Host')]]
+
 ### Password
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('FTP', 'Password')]]
-
-| Type |
-|:----:|
-|text|
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Set the password to login into the ftp server.
 
+[[PropertyBlockGetterAndSetter('FTP', 'Password')]]
+
 ### Port
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('FTP', 'Port')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|21|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>21</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Set the ftp port number.
 
+[[PropertyBlockGetterAndSetter('FTP', 'Port')]]
+
 ### Username
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('FTP', 'Username')]]
-
-| Type | Default |
-|:----:|:-------:|
-|text|Your Username|
+<span class="chip chip-text">Text</span> <span class="chip chip-text">Default: <i>Your Username</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Set the username to login into the ftp server.
 
+[[PropertyBlockGetterAndSetter('FTP', 'Username')]]
+
 ### Working Directory
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('FTP', 'Working Directory')]]
-
-| Type | Default |
-|:----:|:-------:|
-|text|/|
+<span class="chip chip-text">Text</span> <span class="chip chip-text">Default: <i>/</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Set the ftp working dir.
+
+[[PropertyBlockGetterAndSetter('FTP', 'Working Directory')]]

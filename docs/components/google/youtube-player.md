@@ -15,11 +15,9 @@ Note\: For this component to work correctly, set the MIN API to 17 (Android 4.2)
 
 [[Event('Youtube Player', 'Error', 'error')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |error|`text`|
+| Params | []() |
+|--------|------|
+|error|Text|
 
 
 Use this event to detect that there was any error with the player. Return values: 'UNKNOWN', 'INVALID_PARAMETER_IN_REQUEST', 'HTML_5_PLAYER', 'VIDEO_NOT_FOUND', 'VIDEO_NOT_PLAYABLE_IN_EMBEDDED_PLAYER', 'INVALID_VOLUME' or 'INVALID_SEEK_TO'.
@@ -28,11 +26,9 @@ Use this event to detect that there was any error with the player. Return values
 
 [[Event('Youtube Player', 'Fullscreen', 'fullscreen')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |fullscreen|`boolean`|
+| Params | []() |
+|--------|------|
+|fullscreen|Boolean|
 
 
 Event to get notified when the player enters or exits fullscreen. The variable 'fullscreen' returns true or false.
@@ -47,11 +43,9 @@ Use this event to start the playing of a normal or instant youtube video.
 
 [[Event('Youtube Player', 'Playback Quality Changed', 'quality')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |quality|`text`|
+| Params | []() |
+|--------|------|
+|quality|Text|
 
 
 Use this event to detect that the playback quality was changed. Return values: 'UNKNOWN', 'SMALL', 'MEDIUM', 'LARGE', 'HD720', 'HD1080', 'HIGH_RES' or 'DEFAULT'.
@@ -60,11 +54,9 @@ Use this event to detect that the playback quality was changed. Return values: '
 
 [[Event('Youtube Player', 'Playback Rate Changed', 'rate')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |rate|`text`|
+| Params | []() |
+|--------|------|
+|rate|Text|
 
 
 Use this event to detect that the playback rate was changed. Return values: 'UNKNOWN', 'RATE_0_25', 'RATE_0_5', 'RATE_1', 'RATE_1_5' or 'RATE_2'.
@@ -73,11 +65,9 @@ Use this event to detect that the playback rate was changed. Return values: 'UNK
 
 [[Event('Youtube Player', 'State Changed', 'state')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |state|`text`|
+| Params | []() |
+|--------|------|
+|state|Text|
 
 
 Use this event to detect that the state changes. Return values: 'UNKNOWN', 'UNSTARTED', 'ENDED', 'PLAYING', 'PAUSED', 'BUFFERING' or 'VIDEO_CUED'.
@@ -86,85 +76,77 @@ Use this event to detect that the state changes. Return values: 'UNKNOWN', 'UNST
 
 ### Enter Fullscreen
 
-_Block preview not available_
+[[Method('Youtube Player', 'Enter Fullscreen', False)]]
 
 Enter the video in fullscreen mode.
 
 ### Exit Fullscreen
 
-_Block preview not available_
+[[Method('Youtube Player', 'Exit Fullscreen', False)]]
 
 Exit the video from fullscreen mode.
 
 ### Get Thumbnail From Video Id
 
-_Block preview not available_
+[[Method('Youtube Player', 'Get Thumbnail From Video Id', True, 'videoId')]]
 
 {>>Returns `text`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |video Id|`text`|
+| Params | []() |
+|--------|------|
+|video Id|Text|
 
 
 This block will return the thumbnail image path from a video id. Use only as example '_bZj-LOXdH8' from a youtube video.
 
 ### Instant Load
 
-_Block preview not available_
+[[Method('Youtube Player', 'Instant Load', False, 'videoId')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |video Id|`text`|
+| Params | []() |
+|--------|------|
+|video Id|Text|
 
 
 Use this block together with the 'Youtube Player' Initialized event. Loads and automatically plays the specified youtube video. Use only as example '_bZj-LOXdH8' from a youtube video.
 
 ### Load
 
-_Block preview not available_
+[[Method('Youtube Player', 'Load', False, 'videoId')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |video Id|`text`|
+| Params | []() |
+|--------|------|
+|video Id|Text|
 
 
 Loads the specified video's thumbnail and prepares the player to play the video. Does not automatically play the video. Use only as example '_bZj-LOXdH8' from a youtube video.
 
 ### Pause
 
-_Block preview not available_
+[[Method('Youtube Player', 'Pause', False)]]
 
 Pause the youtube video.
 
 ### Play
 
-_Block preview not available_
+[[Method('Youtube Player', 'Play', False)]]
 
 Plays the youtube video.
 
 ### Seek To
 
-_Block preview not available_
+[[Method('Youtube Player', 'Seek To', False, 'position')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |position|`number`|
+| Params | []() |
+|--------|------|
+|position|Number|
 
 
 Set a position where the youtube video should start playing in seconds.
 
 ### Toggle Fullscreen
 
-_Block preview not available_
+[[Method('Youtube Player', 'Toggle Fullscreen', False)]]
 
 Toggle the state of the video player.
 
@@ -172,162 +154,112 @@ Toggle the state of the video player.
 
 ### Enable Live Video UI
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Youtube Player', 'Enable Live Video UI')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|False|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>False</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 If you want to play live videos you must setup the UI accordingly, by calling this method. If enabled, the user can not select a second on the video progress bar.
 
+[[PropertyBlockGetterAndSetter('Youtube Player', 'Enable Live Video UI')]]
+
 ### Start Second
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Youtube Player', 'Start Second')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|0|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>0</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 The time from which the video should start playing.
 
+[[PropertyBlockGetterAndSetter('Youtube Player', 'Start Second')]]
+
 ### Visible
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Youtube Player', 'Visible')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|True|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Returns true iff the component is visible.
 
+[[PropertyBlockGetterAndSetter('Youtube Player', 'Visible')]]
+
 ### Volume
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Youtube Player', 'Volume')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|50|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>50</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Set the volume to a number between 0 and 100.Use only integer numbers.
 
+[[PropertyBlockGetterAndSetter('Youtube Player', 'Volume')]]
+
 ### Column
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Youtube Player', 'Column')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Blocks</span> 
 
 Column property getter method.
 
+[[PropertyBlockGetterAndSetter('Youtube Player', 'Column')]]
+
 ### Get Current Second
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Youtube Player', 'Get Current Second')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 Returns the current second.
 
+[[PropertyBlockGetter('Youtube Player', 'Get Current Second')]]
+
 ### Get Video Duration
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Youtube Player', 'Get Video Duration')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 Returns the video duration in seconds.
 
+[[PropertyBlockGetter('Youtube Player', 'Get Video Duration')]]
+
 ### Height
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Youtube Player', 'Height')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Blocks</span> 
 
 Specifies the component's vertical height, measured in pixels.
 
+[[PropertyBlockGetterAndSetter('Youtube Player', 'Height')]]
+
 ### Height Percent
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Youtube Player', 'Height Percent')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Blocks</span> 
 
 Specifies the component's vertical height as a percentageof the height of its parent Component.
 
+[[PropertyBlockGetterAndSetter('Youtube Player', 'Height Percent')]]
+
 ### Is Fullscreen
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Youtube Player', 'Is Fullscreen')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|None|
+<span class="chip chip-boolean">Boolean</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 Returns true if the player is in fullscreen mode.
 
+[[PropertyBlockGetter('Youtube Player', 'Is Fullscreen')]]
+
 ### Row
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Youtube Player', 'Row')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Blocks</span> 
 
 Row property getter method.
 
+[[PropertyBlockGetterAndSetter('Youtube Player', 'Row')]]
+
 ### Test Video Id
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Youtube Player', 'Test Video Id')]]
-
-| Type | Default |
-|:----:|:-------:|
-|text|None|
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 Use this block to test the youtube player. Powered by Kodular.io
 
+[[PropertyBlockGetter('Youtube Player', 'Test Video Id')]]
+
 ### Width
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Youtube Player', 'Width')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Blocks</span> 
 
 Specifies the component's horizontal width, measured in pixels.
 
+[[PropertyBlockGetterAndSetter('Youtube Player', 'Width')]]
+
 ### Width Percent
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Youtube Player', 'Width Percent')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Blocks</span> 
 
 Specifies the component's horizontal width as a percentageof the Width of its parent Component.
+
+[[PropertyBlockGetterAndSetter('Youtube Player', 'Width Percent')]]

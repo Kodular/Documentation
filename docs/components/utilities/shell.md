@@ -16,11 +16,9 @@ A non-visible component that executes shell commands and checks the device''s ro
 
 [[Event('Shell', 'Got Output', 'out')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |out|`text`|
+| Params | []() |
+|--------|------|
+|out|Text|
 
 
 Read output after executing shell command
@@ -29,7 +27,7 @@ Read output after executing shell command
 
 ### Has Super User Apk Installed
 
-_Block preview not available_
+[[Method('Shell', 'Has Super User Apk Installed', True)]]
 
 {>>Returns `boolean`<<}
 
@@ -37,20 +35,18 @@ Returns TRUE if one of 6 known root packages or varients is installed. The name 
 
 ### Execute
 
-_Block preview not available_
+[[Method('Shell', 'Execute', False, 'in')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |in|`text`|
+| Params | []() |
+|--------|------|
+|in|Text|
 
 
 Executes shell commands. To get output, use "GotOutput" event block.
 
 ### Is Rooted
 
-_Block preview not available_
+[[Method('Shell', 'Is Rooted', True)]]
 
 {>>Returns `boolean`<<}
 
@@ -58,7 +54,7 @@ Returns true if Phone is Rooted
 
 ### Is System User
 
-_Block preview not available_
+[[Method('Shell', 'Is System User', True)]]
 
 {>>Returns `boolean`<<}
 

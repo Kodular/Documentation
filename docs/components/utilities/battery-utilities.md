@@ -14,15 +14,13 @@ A non-visible component that queries and monitors the device''s battery and its 
 
 ### Get Battery Info
 
-_Block preview not available_
+[[Method('Battery Utilities', 'Get Battery Info', True, 'key')]]
 
 {>>Returns `list`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |key|`text`|
+| Params | []() |
+|--------|------|
+|key|Text|
 
 
 Returns a list showing battery info for the specified key. Key can be: HEALTH, LEVEL, PLUGGED, PRESENT, STATUS, CHARGE_STATUS, TECHNOLOGY, TEMPERATURE, VOLTAGE. If key is empty, then all battery info is returned.
@@ -31,79 +29,56 @@ Returns a list showing battery info for the specified key. Key can be: HEALTH, L
 
 ### Enabled
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Battery Utilities', 'Enabled')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|False|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>False</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Starts or stops monitoring battery data. StartMonitoring only when you need to get information.
 
+[[PropertyBlockGetterAndSetter('Battery Utilities', 'Enabled')]]
+
 ### Show Battery Health
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Battery Utilities', 'Show Battery Health')]]
-
-| Type | Default |
-|:----:|:-------:|
-|text|None|
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 Returns battery health. It can be: COLD, DEAD, GOOD, OVERHEAT, OVER_VOLTAGE, UNKNOWN
 
+[[PropertyBlockGetter('Battery Utilities', 'Show Battery Health')]]
+
 ### Battery Level
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Battery Utilities', 'Battery Level')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 Returns battery percentage level
 
+[[PropertyBlockGetter('Battery Utilities', 'Battery Level')]]
+
 ### Battery Plugged
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Battery Utilities', 'Battery Plugged')]]
-
-| Type | Default |
-|:----:|:-------:|
-|text|None|
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 Indicating whether the device is plugged in to a power source. Can be USB, AC or UNKNOWN
 
+[[PropertyBlockGetter('Battery Utilities', 'Battery Plugged')]]
+
 ### Battery Present
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Battery Utilities', 'Battery Present')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|None|
+<span class="chip chip-boolean">Boolean</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 Indicating whether a battery is present
 
+[[PropertyBlockGetter('Battery Utilities', 'Battery Present')]]
+
 ### Battery Temperature
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Battery Utilities', 'Battery Temperature')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 Indicating battery temperature in Centigrade
 
+[[PropertyBlockGetter('Battery Utilities', 'Battery Temperature')]]
+
 ### Battery Voltage
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Battery Utilities', 'Battery Voltage')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 Indicating battery voltage in Volts
+
+[[PropertyBlockGetter('Battery Utilities', 'Battery Voltage')]]

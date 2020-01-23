@@ -16,11 +16,9 @@ A non-visible component that reads barcodes from the device''s camera.
 
 [[Event('Barcode Scanner', 'After Scan', 'result')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |result|`text`|
+| Params | []() |
+|--------|------|
+|result|Text|
 
 
 Indicates that the scanner has read a (text) result and provides the result
@@ -29,7 +27,7 @@ Indicates that the scanner has read a (text) result and provides the result
 
 ### Do Scan
 
-_Block preview not available_
+[[Method('Barcode Scanner', 'Do Scan', False)]]
 
 Begins a barcode scan, using the camera. When the scan is complete, the AfterScan event will be raised.
 
@@ -37,24 +35,16 @@ Begins a barcode scan, using the camera. When the scan is complete, the AfterSca
 
 ### Use External Scanner
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Barcode Scanner', 'Use External Scanner')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|False|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>False</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 If true App Inventor will look for and use an external scanning program such as "Bar Code Scanner."
 
+[[PropertyBlockGetterAndSetter('Barcode Scanner', 'Use External Scanner')]]
+
 ### Result
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Barcode Scanner', 'Result')]]
-
-| Type | Default |
-|:----:|:-------:|
-|text|None|
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 Text result of the previous scan.
+
+[[PropertyBlockGetter('Barcode Scanner', 'Result')]]

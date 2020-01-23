@@ -16,11 +16,9 @@ A component to create dynamic buttons in Arrangements
 
 [[Event('Dynamic Button', 'Button Click', 'id')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
+| Params | []() |
+|--------|------|
+|id|Number|
 
 
 Trigger when a Dynamic Button is clicked.
@@ -29,11 +27,9 @@ Trigger when a Dynamic Button is clicked.
 
 [[Event('Dynamic Button', 'Button Long Click', 'id')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
+| Params | []() |
+|--------|------|
+|id|Number|
 
 
 Trigger when a Dynamic Button is long clicked.
@@ -42,14 +38,12 @@ Trigger when a Dynamic Button is long clicked.
 
 ### Create Button
 
-_Block preview not available_
+[[Method('Dynamic Button', 'Create Button', False, 'id', 'arrangement')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
-    |arrangement|`component`|
+| Params | []() |
+|--------|------|
+|id|Number|
+|arrangement|Component|
 
 
 Create a Dynamic Button.
@@ -58,230 +52,198 @@ Create a Dynamic Button.
 
 :warning: ==**Deprecated**==
 
-_Block preview not available_
+[[Method('Dynamic Button', 'Delete Button', False, 'id', 'arrangement')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
-    |arrangement|`component`|
+| Params | []() |
+|--------|------|
+|id|Number|
+|arrangement|Component|
 
 
 This block is DEPRECATED! Please use instead the 'Delete Button' block without arrangement parameter.
 
 ### Delete Button
 
-_Block preview not available_
+[[Method('Dynamic Button', 'Delete Button', False, 'id')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
+| Params | []() |
+|--------|------|
+|id|Number|
 
 
 Delete a Dynamic Button.
 
 ### Get Button By Id
 
-_Block preview not available_
+[[Method('Dynamic Button', 'Get Button By Id', True, 'id')]]
 
 {>>Returns `component`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
+| Params | []() |
+|--------|------|
+|id|Number|
 
 
 Returns the button referenced by its id.
 
 ### Get Enabled
 
-_Block preview not available_
+[[Method('Dynamic Button', 'Get Enabled', True, 'id')]]
 
 {>>Returns `boolean`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
+| Params | []() |
+|--------|------|
+|id|Number|
 
 
 Get the Enabled status of a button.
 
 ### Get Font Size
 
-_Block preview not available_
+[[Method('Dynamic Button', 'Get Font Size', True, 'id')]]
 
 {>>Returns `number`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
+| Params | []() |
+|--------|------|
+|id|Number|
 
 
 Get the Font Size of a button.
 
 ### Get Height
 
-_Block preview not available_
+[[Method('Dynamic Button', 'Get Height', True, 'id')]]
 
 {>>Returns `number`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
+| Params | []() |
+|--------|------|
+|id|Number|
 
 
 Get the Height of a button.
 
 ### Get Text
 
-_Block preview not available_
+[[Method('Dynamic Button', 'Get Text', True, 'id')]]
 
 {>>Returns `text`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
+| Params | []() |
+|--------|------|
+|id|Number|
 
 
 Get the Text of a button.
 
 ### Get Width
 
-_Block preview not available_
+[[Method('Dynamic Button', 'Get Width', True, 'id')]]
 
 {>>Returns `number`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
+| Params | []() |
+|--------|------|
+|id|Number|
 
 
 Get the Width of a button.
 
 ### Set Background Color
 
-_Block preview not available_
+[[Method('Dynamic Button', 'Set Background Color', False, 'id', 'color')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
-    |color|`number`|
+| Params | []() |
+|--------|------|
+|id|Number|
+|color|Number|
 
 
 Update the Background Color of a button.
 
 ### Set Enabled
 
-_Block preview not available_
+[[Method('Dynamic Button', 'Set Enabled', False, 'id', 'enabled')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
-    |enabled|`boolean`|
+| Params | []() |
+|--------|------|
+|id|Number|
+|enabled|Boolean|
 
 
 Update the Enabled status of a button.
 
 ### Set Font
 
-_Block preview not available_
+[[Method('Dynamic Button', 'Set Font', False, 'id', 'bold', 'italic')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
-    |bold|`boolean`|
-    |italic|`boolean`|
+| Params | []() |
+|--------|------|
+|id|Number|
+|bold|Boolean|
+|italic|Boolean|
 
 
 Update the Font of a button.
 
 ### Set Font Size
 
-_Block preview not available_
+[[Method('Dynamic Button', 'Set Font Size', False, 'id', 'size')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
-    |size|`number`|
+| Params | []() |
+|--------|------|
+|id|Number|
+|size|Number|
 
 
 Update the Font Size of a button.
 
 ### Set Height
 
-_Block preview not available_
+[[Method('Dynamic Button', 'Set Height', False, 'id', 'height')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
-    |height|`number`|
+| Params | []() |
+|--------|------|
+|id|Number|
+|height|Number|
 
 
 Update the Height of a button.
 
 ### Set Text
 
-_Block preview not available_
+[[Method('Dynamic Button', 'Set Text', False, 'id', 'text')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
-    |text|`text`|
+| Params | []() |
+|--------|------|
+|id|Number|
+|text|Text|
 
 
 Update the Text of a button.
 
 ### Set Text Color
 
-_Block preview not available_
+[[Method('Dynamic Button', 'Set Text Color', False, 'id', 'color')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
-    |color|`number`|
+| Params | []() |
+|--------|------|
+|id|Number|
+|color|Number|
 
 
 Update the Text Color of a button.
 
 ### Set Width
 
-_Block preview not available_
+[[Method('Dynamic Button', 'Set Width', False, 'id', 'width')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
-    |width|`number`|
+| Params | []() |
+|--------|------|
+|id|Number|
+|width|Number|
 
 
 Update the Width of a button.

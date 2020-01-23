@@ -44,20 +44,18 @@ Triggers when the components was long clicked.
 
 ### End Frame
 
-_Block preview not available_
+[[Method('Lottie', 'End Frame', False, 'frame')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |frame|`number`|
+| Params | []() |
+|--------|------|
+|frame|Number|
 
 
 Set the frame where you want the animation to end.
 
 ### Get Current Frame
 
-_Block preview not available_
+[[Method('Lottie', 'Get Current Frame', True)]]
 
 {>>Returns `number`<<}
 
@@ -65,7 +63,7 @@ Get the frame where the animation is now.
 
 ### Get Frame Count
 
-_Block preview not available_
+[[Method('Lottie', 'Get Frame Count', True)]]
 
 {>>Returns `number`<<}
 
@@ -73,7 +71,7 @@ Get the count of frames in the animation.
 
 ### Is Animating
 
-_Block preview not available_
+[[Method('Lottie', 'Is Animating', True)]]
 
 {>>Returns `boolean`<<}
 
@@ -81,44 +79,40 @@ Check if the Lottie component is animating.
 
 ### Pause Animation
 
-_Block preview not available_
+[[Method('Lottie', 'Pause Animation', False)]]
 
 Pause the animation on the Lottie component.
 
 ### Resume Animation
 
-_Block preview not available_
+[[Method('Lottie', 'Resume Animation', False)]]
 
 Resume the animation on the Lottie component.
 
 ### Set Current Frame
 
-_Block preview not available_
+[[Method('Lottie', 'Set Current Frame', False, 'frame')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |frame|`number`|
+| Params | []() |
+|--------|------|
+|frame|Number|
 
 
 Set the frame where you want the animation to be now.
 
 ### Start Animation
 
-_Block preview not available_
+[[Method('Lottie', 'Start Animation', False)]]
 
 Start the animation on the Lottie component.
 
 ### Start Frame
 
-_Block preview not available_
+[[Method('Lottie', 'Start Frame', False, 'frame')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |frame|`number`|
+| Params | []() |
+|--------|------|
+|frame|Number|
 
 
 Set the frame where you want the animation to start.
@@ -127,131 +121,88 @@ Set the frame where you want the animation to start.
 
 ### Animation Speed
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Lottie', 'Animation Speed')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|1|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>1</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Set the speed of the animation.
 
+[[PropertyBlockGetterAndSetter('Lottie', 'Animation Speed')]]
+
 ### Clickable
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Lottie', 'Clickable')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|True|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Set the component clickable or not clickable.
 
+[[PropertyBlockGetterAndSetter('Lottie', 'Clickable')]]
+
 ### Loop Animation
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Lottie', 'Loop Animation')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|True|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Set to true if you want to loop the animation.
 
+[[PropertyBlockGetterAndSetter('Lottie', 'Loop Animation')]]
+
 ### Source
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Lottie', 'Source')]]
-
-| Type |
-|:----:|
-|text|
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Set the file or url of the file you want to load.
 
+[[PropertyBlockGetterAndSetter('Lottie', 'Source')]]
+
 ### Visible
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Lottie', 'Visible')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|True|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Returns true iff the component is visible.
 
+[[PropertyBlockGetterAndSetter('Lottie', 'Visible')]]
+
 ### Column
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Lottie', 'Column')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Blocks</span> 
 
 Column property getter method.
 
+[[PropertyBlockGetterAndSetter('Lottie', 'Column')]]
+
 ### Height
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Lottie', 'Height')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Blocks</span> 
 
 Specifies the component's vertical height, measured in pixels.
 
+[[PropertyBlockGetterAndSetter('Lottie', 'Height')]]
+
 ### Height Percent
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Lottie', 'Height Percent')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Blocks</span> 
 
 Specifies the component's vertical height as a percentageof the height of its parent Component.
 
+[[PropertyBlockGetterAndSetter('Lottie', 'Height Percent')]]
+
 ### Row
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Lottie', 'Row')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Blocks</span> 
 
 Row property getter method.
 
+[[PropertyBlockGetterAndSetter('Lottie', 'Row')]]
+
 ### Width
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Lottie', 'Width')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Blocks</span> 
 
 Specifies the component's horizontal width, measured in pixels.
 
+[[PropertyBlockGetterAndSetter('Lottie', 'Width')]]
+
 ### Width Percent
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Lottie', 'Width Percent')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Blocks</span> 
 
 Specifies the component's horizontal width as a percentageof the Width of its parent Component.
+
+[[PropertyBlockGetterAndSetter('Lottie', 'Width Percent')]]

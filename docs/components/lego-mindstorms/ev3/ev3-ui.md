@@ -14,97 +14,85 @@ A component that provides a high-level interface to a LEGO MINDSTORMS EV3 robot,
 
 ### Draw Circle
 
-_Block preview not available_
+[[Method('EV3 UI', 'Draw Circle', False, 'color', 'x', 'y', 'radius', 'fill')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |color|`number`|
-    |x|`number`|
-    |y|`number`|
-    |radius|`number`|
-    |fill|`boolean`|
+| Params | []() |
+|--------|------|
+|color|Number|
+|x|Number|
+|y|Number|
+|radius|Number|
+|fill|Boolean|
 
 
 Draw a circle on the screen.
 
 ### Draw Icon
 
-_Block preview not available_
+[[Method('EV3 UI', 'Draw Icon', False, 'color', 'x', 'y', 'type', 'no')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |color|`number`|
-    |x|`number`|
-    |y|`number`|
-    |type|`number`|
-    |no|`number`|
+| Params | []() |
+|--------|------|
+|color|Number|
+|x|Number|
+|y|Number|
+|type|Number|
+|no|Number|
 
 
 Draw a built-in icon on screen.
 
 ### Draw Line
 
-_Block preview not available_
+[[Method('EV3 UI', 'Draw Line', False, 'color', 'x1', 'y1', 'x2', 'y2')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |color|`number`|
-    |x1|`number`|
-    |y1|`number`|
-    |x2|`number`|
-    |y2|`number`|
+| Params | []() |
+|--------|------|
+|color|Number|
+|x1|Number|
+|y1|Number|
+|x2|Number|
+|y2|Number|
 
 
 Draw a line on the screen.
 
 ### Draw Point
 
-_Block preview not available_
+[[Method('EV3 UI', 'Draw Point', False, 'color', 'x', 'y')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |color|`number`|
-    |x|`number`|
-    |y|`number`|
+| Params | []() |
+|--------|------|
+|color|Number|
+|x|Number|
+|y|Number|
 
 
 Draw a point on the screen.
 
 ### Draw Rect
 
-_Block preview not available_
+[[Method('EV3 UI', 'Draw Rect', False, 'color', 'x', 'y', 'width', 'height', 'fill')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |color|`number`|
-    |x|`number`|
-    |y|`number`|
-    |width|`number`|
-    |height|`number`|
-    |fill|`boolean`|
+| Params | []() |
+|--------|------|
+|color|Number|
+|x|Number|
+|y|Number|
+|width|Number|
+|height|Number|
+|fill|Boolean|
 
 
 Draw a rectangle on the screen.
 
 ### Fill Screen
 
-_Block preview not available_
+[[Method('EV3 UI', 'Fill Screen', False, 'color')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |color|`number`|
+| Params | []() |
+|--------|------|
+|color|Number|
 
 
 Fill the screen with a color.
@@ -113,13 +101,8 @@ Fill the screen with a color.
 
 ### Bluetooth Client
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('EV3 UI', 'Bluetooth Client')]]
-
-| Type |
-|:----:|
-|component|
+<span class="chip chip-component">Component</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 The BluetoothClient component that should be used for communication.
+
+[[PropertyBlockGetterAndSetter('EV3 UI', 'Bluetooth Client')]]

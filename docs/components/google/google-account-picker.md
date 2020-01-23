@@ -16,11 +16,9 @@ A non-visible component that shows a pop-up list of Google accounts currently si
 
 [[Event('Google Account Picker', 'Picked', 'accountName')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |account Name|`text`|
+| Params | []() |
+|--------|------|
+|account Name|Text|
 
 
 Event raised after account has been picked.
@@ -29,6 +27,6 @@ Event raised after account has been picked.
 
 ### Pick
 
-_Block preview not available_
+[[Method('Google Account Picker', 'Pick', False)]]
 
 Provide an account picker to pick a Google account.

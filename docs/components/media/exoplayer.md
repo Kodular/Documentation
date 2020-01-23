@@ -23,15 +23,13 @@ This event is invoked if the player state is completed.
 
 [[Event('ExoPlayer', 'Got Meta Data', 'artist', 'title', 'album', 'albumArtist', 'track')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |artist|`text`|
-    |title|`text`|
-    |album|`text`|
-    |albumArtist|`text`|
-    |track|`text`|
+| Params | []() |
+|--------|------|
+|artist|Text|
+|title|Text|
+|album|Text|
+|albumArtist|Text|
+|track|Text|
 
 
 This event returns meta data from the audio stream. Works for files but not for streams as example radio streams.
@@ -40,11 +38,9 @@ This event returns meta data from the audio stream. Works for files but not for 
 
 [[Event('ExoPlayer', 'On Player Error', 'errorMessage')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |error Message|`text`|
+| Params | []() |
+|--------|------|
+|error Message|Text|
 
 
 This event returns the error reason for any problems.
@@ -65,14 +61,12 @@ This event is signaled when another player has stopped (and the current player i
 
 [[Event('ExoPlayer', 'Status Changed', 'isPlaying', 'isPause', 'isStopped', 'isLoading')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |is Playing|`boolean`|
-    |is Pause|`boolean`|
-    |is Stopped|`boolean`|
-    |is Loading|`boolean`|
+| Params | []() |
+|--------|------|
+|is Playing|Boolean|
+|is Pause|Boolean|
+|is Stopped|Boolean|
+|is Loading|Boolean|
 
 
 This event returns true or false for the respective simpleExoPlayer statuses.
@@ -81,44 +75,42 @@ This event returns true or false for the respective simpleExoPlayer statuses.
 
 ### Pause
 
-_Block preview not available_
+[[Method('ExoPlayer', 'Pause', False)]]
 
 Pause the player.
 
 ### Resume
 
-_Block preview not available_
+[[Method('ExoPlayer', 'Resume', False)]]
 
 Resume the player.
 
 ### Seek To
 
-_Block preview not available_
+[[Method('ExoPlayer', 'Seek To', False, 'position')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |position|`number`|
+| Params | []() |
+|--------|------|
+|position|Number|
 
 
 Set a position where the source file should start playing in milliseconds.
 
 ### Start
 
-_Block preview not available_
+[[Method('ExoPlayer', 'Start', False)]]
 
 Start the player.
 
 ### Stop
 
-_Block preview not available_
+[[Method('ExoPlayer', 'Stop', False)]]
 
 Stop the player.
 
 ### is Loading
 
-_Block preview not available_
+[[Method('ExoPlayer', 'is Loading', True)]]
 
 {>>Returns `boolean`<<}
 
@@ -126,7 +118,7 @@ Returns true if the player is current loading.
 
 ### is Pause
 
-_Block preview not available_
+[[Method('ExoPlayer', 'is Pause', True)]]
 
 {>>Returns `boolean`<<}
 
@@ -134,7 +126,7 @@ Returns true if the player is current in pause mode.
 
 ### is Playing
 
-_Block preview not available_
+[[Method('ExoPlayer', 'is Playing', True)]]
 
 {>>Returns `boolean`<<}
 
@@ -142,7 +134,7 @@ Returns true if the player is current playing.
 
 ### is Stopped
 
-_Block preview not available_
+[[Method('ExoPlayer', 'is Stopped', True)]]
 
 {>>Returns `boolean`<<}
 
@@ -152,61 +144,40 @@ Returns true if the player is current stopped.
 
 ### Loop
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('ExoPlayer', 'Loop')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|False|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>False</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 If true, the player will loop when it plays.
 
+[[PropertyBlockGetterAndSetter('ExoPlayer', 'Loop')]]
+
 ### Source
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('ExoPlayer', 'Source')]]
-
-| Type |
-|:----:|
-|text|
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Set the path to the audio source. Can be a asset file, from external card, or from a online stream.
 
+[[PropertyBlockGetterAndSetter('ExoPlayer', 'Source')]]
+
 ### Volume
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('ExoPlayer', 'Volume')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|50|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>50</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Sets the volume to a number between 0 and 100
 
+[[PropertyBlockGetterAndSetter('ExoPlayer', 'Volume')]]
+
 ### Current Position
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('ExoPlayer', 'Current Position')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 Returns the current position of the source file that is playing in milliseconds.
 
+[[PropertyBlockGetter('ExoPlayer', 'Current Position')]]
+
 ### Duration
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('ExoPlayer', 'Duration')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 Returns the duration of the source file.
+
+[[PropertyBlockGetter('ExoPlayer', 'Duration')]]

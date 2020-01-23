@@ -16,14 +16,12 @@ Non-visible component that measures the ambient geomagnetic field for all three 
 
 [[Event('Magnetic Field Sensor', 'Magnetic Changed', 'xStrength', 'yStrength', 'zStrength', 'absoluteStrength')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |x Strength|`number`|
-    |y Strength|`number`|
-    |z Strength|`number`|
-    |absolute Strength|`number`|
+| Params | []() |
+|--------|------|
+|x Strength|Number|
+|y Strength|Number|
+|z Strength|Number|
+|absolute Strength|Number|
 
 
 Indicates that the magnetic sensor data has changed.
@@ -32,79 +30,42 @@ Indicates that the magnetic sensor data has changed.
 
 ### Enabled
 
-<small>Available as ^^Common^^ Property</small>
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
-:eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('Magnetic Field Sensor', 'Enabled')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|True|
-
-_No description available_
 
 ### Absolute Strength
 
-:eyes: Read-Only property
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
+
 [[PropertyBlockGetter('Magnetic Field Sensor', 'Absolute Strength')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
-
-_No description available_
 
 ### Available
 
-:eyes: Read-Only property
+<span class="chip chip-boolean">Boolean</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
+
 [[PropertyBlockGetter('Magnetic Field Sensor', 'Available')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|None|
-
-_No description available_
 
 ### Maximum Range
 
-:eyes: Read-Only property
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
+
 [[PropertyBlockGetter('Magnetic Field Sensor', 'Maximum Range')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
-
-_No description available_
 
 ### X Strength
 
-:eyes: Read-Only property
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
+
 [[PropertyBlockGetter('Magnetic Field Sensor', 'X Strength')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
-
-_No description available_
 
 ### Y Strength
 
-:eyes: Read-Only property
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
+
 [[PropertyBlockGetter('Magnetic Field Sensor', 'Y Strength')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
-
-_No description available_
 
 ### Z Strength
 
-:eyes: Read-Only property
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
+
 [[PropertyBlockGetter('Magnetic Field Sensor', 'Z Strength')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
-
-_No description available_

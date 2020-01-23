@@ -20,13 +20,11 @@ Non-visible component that can detect shaking and measure acceleration approxima
 
 [[Event('Accelerometer Sensor', 'Acceleration Changed', 'xAccel', 'yAccel', 'zAccel')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |x Accel|`number`|
-    |y Accel|`number`|
-    |z Accel|`number`|
+| Params | []() |
+|--------|------|
+|x Accel|Number|
+|y Accel|Number|
+|z Accel|Number|
 
 
 Indicates the acceleration changed in the X, Y, and/or Z dimensions.
@@ -41,99 +39,67 @@ Indicates the device started being shaken or continues to be shaken.
 
 ### Enabled
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Accelerometer Sensor', 'Enabled')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|True|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 If true, the sensor will generate events. Otherwise, no eventsare generated even if the device is accelerated or shaken.
 
+[[PropertyBlockGetterAndSetter('Accelerometer Sensor', 'Enabled')]]
+
 ### Legacy Mode
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Accelerometer Sensor', 'Legacy Mode')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|False|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>False</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Prior to the release that added this property the AccelerometerSensor component passed through sensor values directly as received from the Android system. However these values do not compensate for tablets that default to Landscape mode, requiring the MIT App Inventor programmer to compensate. However compensating would result in incorrect results in Portrait mode devices such as phones. We now detect Landscape mode tablets and perform the compensation. However if your project is already compensating for the change, you will now get incorrect results. Although our preferred solution is for you to update your project, you can also just set this property to “true” and our compensation code will be deactivated. Note: We recommend that you update your project as we may remove this property in a future release.
 
+[[PropertyBlockGetterAndSetter('Accelerometer Sensor', 'Legacy Mode')]]
+
 ### Minimum Interval (ms)
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Accelerometer Sensor', 'Minimum Interval ms')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|400|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>400</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 The minimum interval, in milliseconds, between phone shakes
 
+[[PropertyBlockGetterAndSetter('Accelerometer Sensor', 'Minimum Interval ms')]]
+
 ### Sensitivity
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Accelerometer Sensor', 'Sensitivity')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|2|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>2</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 A number that encodes how sensitive the accelerometer is. The choices are: 1 = weak, 2 = moderate, 3 = strong.
 
+[[PropertyBlockGetterAndSetter('Accelerometer Sensor', 'Sensitivity')]]
+
 ### Available
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Accelerometer Sensor', 'Available')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|None|
+<span class="chip chip-boolean">Boolean</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 Available property getter method (read-only property).
 
+[[PropertyBlockGetter('Accelerometer Sensor', 'Available')]]
+
 ### X Accel
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Accelerometer Sensor', 'X Accel')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 Returns the acceleration in the X-dimension in SI units (m/s^2)
 The sensor must be enabled to return meaningful values.
 
+[[PropertyBlockGetter('Accelerometer Sensor', 'X Accel')]]
+
 ### Y Accel
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Accelerometer Sensor', 'Y Accel')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 Returns the acceleration in the Y-dimension in SI units (m/s^2)
 The sensor must be enabled to return meaningful values.
 
+[[PropertyBlockGetter('Accelerometer Sensor', 'Y Accel')]]
+
 ### Z Accel
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Accelerometer Sensor', 'Z Accel')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 Returns the acceleration in the Z-dimension in SI units (m/s^2)
 The sensor must be enabled to return meaningful values.
+
+[[PropertyBlockGetter('Accelerometer Sensor', 'Z Accel')]]

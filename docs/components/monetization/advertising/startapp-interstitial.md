@@ -28,12 +28,10 @@ Indicates that an Ad is shown to the user.
 
 [[Event('StartApp Interstitial', 'Ad Failed To Load', 'errorCode', 'errorMessage')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |error Code|`number`|
-    |error Message|`text`|
+| Params | []() |
+|--------|------|
+|error Code|Number|
+|error Message|Text|
 
 
 Called when an ad request failed to load. The message will display the error code and error message.
@@ -42,11 +40,9 @@ Called when an ad request failed to load. The message will display the error cod
 
 [[Event('StartApp Interstitial', 'Ad Failed To Show', 'errorMessage')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |error Message|`text`|
+| Params | []() |
+|--------|------|
+|error Message|Text|
 
 
 Called when an an attempt was made to display the ad, but the ad was not ready to display.
@@ -61,11 +57,9 @@ Indicates that an Ad which was shown to the user is now hidden.
 
 [[Event('StartApp Interstitial', 'On Failed To Receive Ad', 'errorMessage')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |error Message|`text`|
+| Params | []() |
+|--------|------|
+|error Message|Text|
 
 
 Called when an ad request failed to load.
@@ -80,13 +74,13 @@ Called when an ad request failed to load. The message will display the error cod
 
 ### Load Ad
 
-_Block preview not available_
+[[Method('StartApp Interstitial', 'Load Ad', False)]]
 
 Load a new StartApp Interstitial ad.
 
 ### Show Interstitial Ad
 
-_Block preview not available_
+[[Method('StartApp Interstitial', 'Show Interstitial Ad', False)]]
 
 It will show the Interstitial Ad
 
@@ -94,13 +88,6 @@ It will show the Interstitial Ad
 
 ### App ID
 
-<small>Available as ^^Common^^ Property</small>
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
-:eyes::pencil: Read-Write property
 [[PropertyBlockGetterAndSetter('StartApp Interstitial', 'App ID')]]
-
-| Type |
-|:----:|
-|text|
-
-_No description available_

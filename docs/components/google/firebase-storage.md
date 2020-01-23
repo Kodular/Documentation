@@ -16,12 +16,10 @@ Firebase Storage to upload files to a Firebase Storage Bucket
 
 [[Event('Firebase Storage', 'Delete Failed', 'file', 'message')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |file|`text`|
-    |message|`text`|
+| Params | []() |
+|--------|------|
+|file|Text|
+|message|Text|
 
 
 Triggers when the file could not be deleted
@@ -30,11 +28,9 @@ Triggers when the file could not be deleted
 
 [[Event('Firebase Storage', 'Delete Success', 'file')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |file|`text`|
+| Params | []() |
+|--------|------|
+|file|Text|
 
 
 Triggers when the file was successfully deleted
@@ -43,12 +39,10 @@ Triggers when the file was successfully deleted
 
 [[Event('Firebase Storage', 'Download Failed', 'file', 'message')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |file|`text`|
-    |message|`text`|
+| Params | []() |
+|--------|------|
+|file|Text|
+|message|Text|
 
 
 Triggers when the file could not be downloaded
@@ -57,12 +51,10 @@ Triggers when the file could not be downloaded
 
 [[Event('Firebase Storage', 'Download Success', 'file', 'downloadedFile')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |file|`text`|
-    |downloaded File|`text`|
+| Params | []() |
+|--------|------|
+|file|Text|
+|downloaded File|Text|
 
 
 Triggers when the file was successfully downloaded
@@ -71,12 +63,10 @@ Triggers when the file was successfully downloaded
 
 [[Event('Firebase Storage', 'Upload Failed', 'file', 'message')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |file|`text`|
-    |message|`text`|
+| Params | []() |
+|--------|------|
+|file|Text|
+|message|Text|
 
 
 Triggers when the file could not be uploaded
@@ -85,14 +75,12 @@ Triggers when the file could not be uploaded
 
 [[Event('Firebase Storage', 'Upload Progress', 'file', 'uploadPath', 'transferredBytes', 'totalBytes')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |file|`text`|
-    |upload Path|`text`|
-    |transferred Bytes|`number`|
-    |total Bytes|`number`|
+| Params | []() |
+|--------|------|
+|file|Text|
+|upload Path|Text|
+|transferred Bytes|Number|
+|total Bytes|Number|
 
 
 Triggers when the file upload progress changed
@@ -101,13 +89,11 @@ Triggers when the file upload progress changed
 
 [[Event('Firebase Storage', 'Upload Success', 'file', 'uploadPath', 'downloadUrl')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |file|`text`|
-    |upload Path|`text`|
-    |download Url|`text`|
+| Params | []() |
+|--------|------|
+|file|Text|
+|upload Path|Text|
+|download Url|Text|
 
 
 Triggers when the file was successfully uploaded
@@ -116,34 +102,30 @@ Triggers when the file was successfully uploaded
 
 ### Delete File
 
-_Block preview not available_
+[[Method('Firebase Storage', 'Delete File', False, 'file')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |file|`text`|
+| Params | []() |
+|--------|------|
+|file|Text|
 
 
 Try to delete a file from Firebase Storage
 
 ### Download File
 
-_Block preview not available_
+[[Method('Firebase Storage', 'Download File', False, 'file', 'toFolder')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |file|`text`|
-    |to Folder|`text`|
+| Params | []() |
+|--------|------|
+|file|Text|
+|to Folder|Text|
 
 
 Try to download a file from Firebase Storage
 
 ### Get Bucket
 
-_Block preview not available_
+[[Method('Firebase Storage', 'Get Bucket', True)]]
 
 {>>Returns `text`<<}
 
@@ -151,38 +133,36 @@ Get the name of the Storage Bucket
 
 ### Pause Downloads
 
-_Block preview not available_
+[[Method('Firebase Storage', 'Pause Downloads', False)]]
 
 Pause all the active downloads
 
 ### Pause Uploads
 
-_Block preview not available_
+[[Method('Firebase Storage', 'Pause Uploads', False)]]
 
 Pause all the active uploads
 
 ### Resume Downloads
 
-_Block preview not available_
+[[Method('Firebase Storage', 'Resume Downloads', False)]]
 
 Resume all the active downloads
 
 ### Resume Uploads
 
-_Block preview not available_
+[[Method('Firebase Storage', 'Resume Uploads', False)]]
 
 Resume all the active uploads
 
 ### Upload File
 
-_Block preview not available_
+[[Method('Firebase Storage', 'Upload File', False, 'file', 'uploadPath')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |file|`text`|
-    |upload Path|`text`|
+| Params | []() |
+|--------|------|
+|file|Text|
+|upload Path|Text|
 
 
 Try to upload a file to Firebase Storage

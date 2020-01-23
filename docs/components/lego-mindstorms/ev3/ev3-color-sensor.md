@@ -28,12 +28,10 @@ Light level has gone below the range.
 
 [[Event('EV3 Color Sensor', 'Color Changed', 'colorCode', 'colorName')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |color Code|`number`|
-    |color Name|`text`|
+| Params | []() |
+|--------|------|
+|color Code|Number|
+|color Name|Text|
 
 
 Called when the detected color has changed. The ColorChanged event will occur if the Mode property is set to "color" and the ColorChangedEventEnabled property is set to True.
@@ -48,7 +46,7 @@ Light level has gone within the range.
 
 ### Get Color Code
 
-_Block preview not available_
+[[Method('EV3 Color Sensor', 'Get Color Code', True)]]
 
 {>>Returns `number`<<}
 
@@ -56,7 +54,7 @@ It returns the color code from 0 to 7 corresponding to no color, black, blue, gr
 
 ### Get Color Name
 
-_Block preview not available_
+[[Method('EV3 Color Sensor', 'Get Color Name', True)]]
 
 {>>Returns `text`<<}
 
@@ -64,7 +62,7 @@ Return the color name in one of "No Color", "Black", "Blue", "Green", "Yellow", 
 
 ### Get Light Level
 
-_Block preview not available_
+[[Method('EV3 Color Sensor', 'Get Light Level', True)]]
 
 {>>Returns `number`<<}
 
@@ -72,19 +70,19 @@ It returns the light level in percentage, or -1 when the light level cannot be r
 
 ### Set Ambient Mode
 
-_Block preview not available_
+[[Method('EV3 Color Sensor', 'Set Ambient Mode', False)]]
 
 Make the sensor read the light level without reflected light.
 
 ### Set Color Mode
 
-_Block preview not available_
+[[Method('EV3 Color Sensor', 'Set Color Mode', False)]]
 
 Enter the color detection mode.
 
 ### Set Reflected Mode
 
-_Block preview not available_
+[[Method('EV3 Color Sensor', 'Set Reflected Mode', False)]]
 
 Make the sensor read the light level with reflected light.
 
@@ -92,117 +90,72 @@ Make the sensor read the light level with reflected light.
 
 ### Above Range Event Enabled
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('EV3 Color Sensor', 'Above Range Event Enabled')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|False|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>False</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Whether the AboveRange event should fire when the light level goes above the TopOfRange.
 
+[[PropertyBlockGetterAndSetter('EV3 Color Sensor', 'Above Range Event Enabled')]]
+
 ### Below Range Event Enabled
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('EV3 Color Sensor', 'Below Range Event Enabled')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|False|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>False</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Whether the BelowRange event should fire when the light level goes below the BottomOfRange.
 
+[[PropertyBlockGetterAndSetter('EV3 Color Sensor', 'Below Range Event Enabled')]]
+
 ### Bluetooth Client
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('EV3 Color Sensor', 'Bluetooth Client')]]
-
-| Type |
-|:----:|
-|component|
+<span class="chip chip-component">Component</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 The BluetoothClient component that should be used for communication.
 
+[[PropertyBlockGetterAndSetter('EV3 Color Sensor', 'Bluetooth Client')]]
+
 ### Bottom Of Range
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('EV3 Color Sensor', 'Bottom Of Range')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|30|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>30</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 The bottom of the range used for the BelowRange, WithinRange, and AboveRange events.
 
+[[PropertyBlockGetterAndSetter('EV3 Color Sensor', 'Bottom Of Range')]]
+
 ### Color Changed Event Enabled
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('EV3 Color Sensor', 'Color Changed Event Enabled')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|False|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>False</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Whether the ColorChanged event should fire when the Mode property is set to "color" and the detected color changes.
 
+[[PropertyBlockGetterAndSetter('EV3 Color Sensor', 'Color Changed Event Enabled')]]
+
 ### Mode
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('EV3 Color Sensor', 'Mode')]]
-
-| Type | Default |
-|:----:|:-------:|
-|text|reflected|
+<span class="chip chip-text">Text</span> <span class="chip chip-text">Default: <i>reflected</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Specifies the mode of the sensor.
 
+[[PropertyBlockGetterAndSetter('EV3 Color Sensor', 'Mode')]]
+
 ### Sensor Port
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('EV3 Color Sensor', 'Sensor Port')]]
-
-| Type | Default |
-|:----:|:-------:|
-|text|1|
+<span class="chip chip-text">Text</span> <span class="chip chip-text">Default: <i>1</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 The sensor port that the sensor is connected to.
 
+[[PropertyBlockGetterAndSetter('EV3 Color Sensor', 'Sensor Port')]]
+
 ### Top Of Range
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('EV3 Color Sensor', 'Top Of Range')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|60|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>60</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 The top of the range used for the BelowRange, WithinRange, and AboveRange events.
 
+[[PropertyBlockGetterAndSetter('EV3 Color Sensor', 'Top Of Range')]]
+
 ### Within Range Event Enabled
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('EV3 Color Sensor', 'Within Range Event Enabled')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|False|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>False</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Whether the WithinRange event should fire when the light level goes between the BottomOfRange and the TopOfRange.
+
+[[PropertyBlockGetterAndSetter('EV3 Color Sensor', 'Within Range Event Enabled')]]

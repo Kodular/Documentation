@@ -14,216 +14,186 @@ A component to create dynamic labels in Arrangements
 
 ### Create Label
 
-_Block preview not available_
+[[Method('Dynamic Label', 'Create Label', False, 'id', 'arrangement')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
-    |arrangement|`component`|
+| Params | []() |
+|--------|------|
+|id|Number|
+|arrangement|Component|
 
 
 Create a Dynamic Label
 
 ### Delete Label
 
-_Block preview not available_
+[[Method('Dynamic Label', 'Delete Label', False, 'id')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
+| Params | []() |
+|--------|------|
+|id|Number|
 
 
 Remove a label component with the given id.
 
 ### Get Font Size
 
-_Block preview not available_
+[[Method('Dynamic Label', 'Get Font Size', True, 'id')]]
 
 {>>Returns `number`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
+| Params | []() |
+|--------|------|
+|id|Number|
 
 
 Get the Font Size of a Label
 
 ### Get Height
 
-_Block preview not available_
+[[Method('Dynamic Label', 'Get Height', True, 'id')]]
 
 {>>Returns `number`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
+| Params | []() |
+|--------|------|
+|id|Number|
 
 
 Get the Height of a Label
 
 ### Get Label By Id
 
-_Block preview not available_
+[[Method('Dynamic Label', 'Get Label By Id', True, 'id')]]
 
 {>>Returns `component`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
+| Params | []() |
+|--------|------|
+|id|Number|
 
 
 Returns the label referenced by its id.
 
 ### Get Text
 
-_Block preview not available_
+[[Method('Dynamic Label', 'Get Text', True, 'id')]]
 
 {>>Returns `text`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
+| Params | []() |
+|--------|------|
+|id|Number|
 
 
 Get the Text of a Label
 
 ### Get Width
 
-_Block preview not available_
+[[Method('Dynamic Label', 'Get Width', True, 'id')]]
 
 {>>Returns `number`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
+| Params | []() |
+|--------|------|
+|id|Number|
 
 
 Get the Width of a Label
 
 ### Set Alignment
 
-_Block preview not available_
+[[Method('Dynamic Label', 'Set Alignment', False, 'id', 'alignment')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
-    |alignment|`number`|
+| Params | []() |
+|--------|------|
+|id|Number|
+|alignment|Number|
 
 
 Update the Text Alignment of a Label. 0 = left, 1 = center and 2 = right.
 
 ### Set Background Color
 
-_Block preview not available_
+[[Method('Dynamic Label', 'Set Background Color', False, 'id', 'color')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
-    |color|`number`|
+| Params | []() |
+|--------|------|
+|id|Number|
+|color|Number|
 
 
 Update the Background Color of a Label
 
 ### Set Font
 
-_Block preview not available_
+[[Method('Dynamic Label', 'Set Font', False, 'id', 'bold', 'italic')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
-    |bold|`boolean`|
-    |italic|`boolean`|
+| Params | []() |
+|--------|------|
+|id|Number|
+|bold|Boolean|
+|italic|Boolean|
 
 
 Update the Font of a Label
 
 ### Set Font Size
 
-_Block preview not available_
+[[Method('Dynamic Label', 'Set Font Size', False, 'id', 'size')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
-    |size|`number`|
+| Params | []() |
+|--------|------|
+|id|Number|
+|size|Number|
 
 
 Update the Font Size of a Label
 
 ### Set Height
 
-_Block preview not available_
+[[Method('Dynamic Label', 'Set Height', False, 'id', 'height')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
-    |height|`number`|
+| Params | []() |
+|--------|------|
+|id|Number|
+|height|Number|
 
 
 Update the Height of a Label
 
 ### Set Text
 
-_Block preview not available_
+[[Method('Dynamic Label', 'Set Text', False, 'id', 'text', 'html')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
-    |text|`text`|
-    |html|`boolean`|
+| Params | []() |
+|--------|------|
+|id|Number|
+|text|Text|
+|html|Boolean|
 
 
 Update the Text of a Label
 
 ### Set Text Color
 
-_Block preview not available_
+[[Method('Dynamic Label', 'Set Text Color', False, 'id', 'color')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
-    |color|`number`|
+| Params | []() |
+|--------|------|
+|id|Number|
+|color|Number|
 
 
 Update the Text Color of a Label
 
 ### Set Width
 
-_Block preview not available_
+[[Method('Dynamic Label', 'Set Width', False, 'id', 'width')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |id|`number`|
-    |width|`number`|
+| Params | []() |
+|--------|------|
+|id|Number|
+|width|Number|
 
 
 Update the Width of a Label
@@ -232,33 +202,24 @@ Update the Width of a Label
 
 ### Alignment Center
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Dynamic Label', 'Alignment Center')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 Center alignment (1)
 
+[[PropertyBlockGetter('Dynamic Label', 'Alignment Center')]]
+
 ### Alignment Left
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Dynamic Label', 'Alignment Left')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 Left alignment (0)
 
+[[PropertyBlockGetter('Dynamic Label', 'Alignment Left')]]
+
 ### Alignment Right
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Dynamic Label', 'Alignment Right')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 Right alignment (2)
+
+[[PropertyBlockGetter('Dynamic Label', 'Alignment Right')]]

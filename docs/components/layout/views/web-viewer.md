@@ -25,11 +25,9 @@ _hello from Javascript_.
 
 [[Event('Web Viewer', 'After JS Evaluated', 'result')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |result|`text`|
+| Params | []() |
+|--------|------|
+|result|Text|
 
 
 Get the result of the evaluated JS
@@ -38,11 +36,9 @@ Get the result of the evaluated JS
 
 [[Event('Web Viewer', 'Cookies Removed', 'success')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |success|`boolean`|
+| Params | []() |
+|--------|------|
+|success|Boolean|
 
 
 This event return true when the cookies have been successfully removed. If the cookies was successfully cleared then the next run returns false as status, if in this time no new cookies was set.
@@ -51,13 +47,11 @@ This event return true when the cookies have been successfully removed. If the c
 
 [[Event('Web Viewer', 'On Console Message', 'message', 'lineNumber', 'sourceId')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |message|`text`|
-    |line Number|`number`|
-    |source Id|`text`|
+| Params | []() |
+|--------|------|
+|message|Text|
+|line Number|Number|
+|source Id|Text|
 
 
 Get webpage console output
@@ -66,14 +60,12 @@ Get webpage console output
 
 [[Event('Web Viewer', 'On Download Start', 'url', 'contentDisposition', 'mimetype', 'contentLength')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |url|`text`|
-    |content Disposition|`text`|
-    |mime Type|`text`|
-    |content Length|`number`|
+| Params | []() |
+|--------|------|
+|url|Text|
+|content Disposition|Text|
+|mime Type|Text|
+|content Length|Number|
 
 
 Event for listening download links.
@@ -88,11 +80,9 @@ Triggers when page finished loading
 
 [[Event('Web Viewer', 'Progress Changed', 'progress')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |progress|`number`|
+| Params | []() |
+|--------|------|
+|progress|Number|
 
 
 Event to detect that the loading progress has changed.
@@ -101,11 +91,9 @@ Event to detect that the loading progress has changed.
 
 [[Event('Web Viewer', 'Web View String Change', 'value')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |value|`text`|
+| Params | []() |
+|--------|------|
+|value|Text|
 
 
 When the JavaScript calls AppInventor.setWebViewString this event is run.
@@ -114,7 +102,7 @@ When the JavaScript calls AppInventor.setWebViewString this event is run.
 
 ### Can Go Back
 
-_Block preview not available_
+[[Method('Web Viewer', 'Can Go Back', True)]]
 
 {>>Returns `boolean`<<}
 
@@ -122,22 +110,20 @@ Returns true if the WebViewer can go back in the history list.
 
 ### Can Go Back Or Forward
 
-_Block preview not available_
+[[Method('Web Viewer', 'Can Go Back Or Forward', True, 'steps')]]
 
 {>>Returns `boolean`<<}
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |steps|`number`|
+| Params | []() |
+|--------|------|
+|steps|Number|
 
 
 Returns true if the WebViewer can go back or forward the number of steps in the history list.
 
 ### Can Go Forward
 
-_Block preview not available_
+[[Method('Web Viewer', 'Can Go Forward', True)]]
 
 {>>Returns `boolean`<<}
 
@@ -145,101 +131,93 @@ Returns true if the WebViewer can go forward in the history list.
 
 ### Clear Caches
 
-_Block preview not available_
+[[Method('Web Viewer', 'Clear Caches', False)]]
 
 Clear WebView caches.
 
 ### Clear Cookies
 
-_Block preview not available_
+[[Method('Web Viewer', 'Clear Cookies', False)]]
 
 Start to clear the WebView cookies.
 
 ### Clear Locations
 
-_Block preview not available_
+[[Method('Web Viewer', 'Clear Locations', False)]]
 
 Clear stored location permissions.
 
 ### Evaluate JS
 
-_Block preview not available_
+[[Method('Web Viewer', 'Evaluate JS', False, 'script')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |script|`text`|
+| Params | []() |
+|--------|------|
+|script|Text|
 
 
 Evaluate JS in the context of the current page
 
 ### Go Back
 
-_Block preview not available_
+[[Method('Web Viewer', 'Go Back', False)]]
 
 Go back to the previous page in the history list. Does nothing if there is no previous page.
 
 ### Go Back Or Forward
 
-_Block preview not available_
+[[Method('Web Viewer', 'Go Back Or Forward', False, 'steps')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |steps|`number`|
+| Params | []() |
+|--------|------|
+|steps|Number|
 
 
 Go forward or backward a number of steps away from the current page. Steps is negative if backward and positive if forward.
 
 ### Go Forward
 
-_Block preview not available_
+[[Method('Web Viewer', 'Go Forward', False)]]
 
 Go forward to the next page in the history list. Does nothing if there is no next page.
 
 ### Go Home
 
-_Block preview not available_
+[[Method('Web Viewer', 'Go Home', False)]]
 
 Loads the home URL page. This happens automatically when the home URL is changed.
 
 ### Go To URL
 
-_Block preview not available_
+[[Method('Web Viewer', 'Go To URL', False, 'url')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |url|`text`|
+| Params | []() |
+|--------|------|
+|url|Text|
 
 
 Load the page at the given URL.
 
 ### Load HTML
 
-_Block preview not available_
+[[Method('Web Viewer', 'Load HTML', False, 'html')]]
 
-??? tip "Parameters"
-
-    | Name | Type |
-    |------|------|
-    |html|`text`|
+| Params | []() |
+|--------|------|
+|html|Text|
 
 
 Load HTML content using Base64-encoded data URI scheme
 
 ### Reload
 
-_Block preview not available_
+[[Method('Web Viewer', 'Reload', False)]]
 
 Reloads the current page
 
 ### Stop Loading
 
-_Block preview not available_
+[[Method('Web Viewer', 'Stop Loading', False)]]
 
 Stops the current load.
 
@@ -247,294 +225,208 @@ Stops the current load.
 
 ### Desktop Mode
 
-<small>Available as ^^Advanced^^ Property</small>
+ <small>Available as ^^Advanced^^ Property</small>
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Web Viewer', 'Desktop Mode')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|false|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>false</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Get/Set Desktop mode by altering the user agent string.
 
+[[PropertyBlockGetterAndSetter('Web Viewer', 'Desktop Mode')]]
+
 ### Enable JavaScript
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Web Viewer', 'Enable JavaScript')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|True|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Enable/Disable JavaScript. Enabled by default
 
+[[PropertyBlockGetterAndSetter('Web Viewer', 'Enable JavaScript')]]
+
 ### Follow Links
 
-<small>Available as ^^Advanced^^ Property</small>
+ <small>Available as ^^Advanced^^ Property</small>
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Web Viewer', 'Follow Links')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|True|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Determines whether to follow links when they are tapped in the WebViewer. If you follow links, you can use GoBack and GoForward to navigate the browser history.
 
+[[PropertyBlockGetterAndSetter('Web Viewer', 'Follow Links')]]
+
 ### Home Url
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Web Viewer', 'Home Url')]]
-
-| Type |
-|:----:|
-|text|
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 URL of the page the WebViewer should initially open to. Setting this will load the page.
 
+[[PropertyBlockGetterAndSetter('Web Viewer', 'Home Url')]]
+
 ### Ignore SSL Errors
 
-<small>Available as ^^Advanced^^ Property</small>
+ <small>Available as ^^Advanced^^ Property</small>
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Web Viewer', 'Ignore SSL Errors')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|False|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>False</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Determine whether or not to ignore SSL errors. Set to true to ignore errors. Use this to accept self signed certificates from websites.
 
+[[PropertyBlockGetterAndSetter('Web Viewer', 'Ignore SSL Errors')]]
+
 ### Load Images
 
-<small>Available as ^^Advanced^^ Property</small>
+ <small>Available as ^^Advanced^^ Property</small>
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Web Viewer', 'Load Images')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|True|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Whether or not to automatically load images
 
+[[PropertyBlockGetter('Web Viewer', 'Load Images')]]
+
 ### Prompt for Permission
 
-<small>Available as ^^Advanced^^ Property</small>
+ <small>Available as ^^Advanced^^ Property</small>
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Web Viewer', 'Prompt for Permission')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|True|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 If True, then prompt the user of the WebView to give permission to access the geolocation API. If False, then assume permission is granted.
 
+[[PropertyBlockGetterAndSetter('Web Viewer', 'Prompt for Permission')]]
+
 ### Scrollbar
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Web Viewer', 'Scrollbar')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|True|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Whether to display a scrollbar
 
+[[PropertyBlockGetterAndSetter('Web Viewer', 'Scrollbar')]]
+
 ### Use External Browser
 
-<small>Available as ^^Advanced^^ Property</small>
+ <small>Available as ^^Advanced^^ Property</small>
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Web Viewer', 'Use External Browser')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|False|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>False</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Open a link in the webviewer page using the external browser. If true the page will be loaded in the external browser and not in the webviewer itself.
 
+[[PropertyBlockGetterAndSetter('Web Viewer', 'Use External Browser')]]
+
 ### User Agent
 
-<small>Available as ^^Advanced^^ Property</small>
+ <small>Available as ^^Advanced^^ Property</small>
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Web Viewer', 'User Agent')]]
-
-| Type |
-|:----:|
-|text|
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Get User Agent
 
+[[PropertyBlockGetterAndSetter('Web Viewer', 'User Agent')]]
+
 ### Uses Location
 
-<small>Available as ^^Advanced^^ Property</small>
+ <small>Available as ^^Advanced^^ Property</small>
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Web Viewer', 'Uses Location')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|False|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>False</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Whether or not to give the application permission to use the Javascript geolocation API. This property is available only in the designer.
 
+[[PropertyBlockGetterAndSetter('Web Viewer', 'Uses Location')]]
+
 ### Visible
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Web Viewer', 'Visible')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|True|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Returns true iff the component is visible.
 
+[[PropertyBlockGetterAndSetter('Web Viewer', 'Visible')]]
+
 ### Zoom Display
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes: Read-Only property
-[[PropertyBlockGetter('Web Viewer', 'Zoom Display')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|True|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Show or Hide the zoom display.
 
+[[PropertyBlockGetter('Web Viewer', 'Zoom Display')]]
+
 ### Zoom Enabled
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes: Read-Only property
-[[PropertyBlockGetter('Web Viewer', 'Zoom Enabled')]]
-
-| Type | Default |
-|:----:|:-------:|
-|boolean|True|
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Enable or Disable pinch zooming. This effects both pinch zooming and the zoom controls.
 
+[[PropertyBlockGetter('Web Viewer', 'Zoom Enabled')]]
+
 ### Zoom Percent
 
-<small>Available as ^^Common^^ Property</small>
-
-:eyes: Read-Only property
-[[PropertyBlockGetter('Web Viewer', 'Zoom Percent')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|100|
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>100</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 The zoom of the page in percent %
 
+[[PropertyBlockGetter('Web Viewer', 'Zoom Percent')]]
+
 ### Column
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Web Viewer', 'Column')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Blocks</span> 
 
 Column property getter method.
 
+[[PropertyBlockGetterAndSetter('Web Viewer', 'Column')]]
+
 ### Current Page Title
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Web Viewer', 'Current Page Title')]]
-
-| Type | Default |
-|:----:|:-------:|
-|text|None|
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 Title of the page currently viewed
 
+[[PropertyBlockGetter('Web Viewer', 'Current Page Title')]]
+
 ### Current URL
 
-:eyes: Read-Only property
-[[PropertyBlockGetter('Web Viewer', 'Current URL')]]
-
-| Type | Default |
-|:----:|:-------:|
-|text|None|
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
 URL of the page currently viewed. This could be different from the Home URL if new pages were visited by following links.
 
+[[PropertyBlockGetter('Web Viewer', 'Current URL')]]
+
 ### Height
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Web Viewer', 'Height')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Blocks</span> 
 
 Specifies the component's vertical height, measured in pixels.
 
+[[PropertyBlockGetterAndSetter('Web Viewer', 'Height')]]
+
 ### Height Percent
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Web Viewer', 'Height Percent')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Blocks</span> 
 
 Specifies the component's vertical height as a percentageof the height of its parent Component.
 
+[[PropertyBlockGetterAndSetter('Web Viewer', 'Height Percent')]]
+
 ### Row
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Web Viewer', 'Row')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Blocks</span> 
 
 Row property getter method.
 
+[[PropertyBlockGetterAndSetter('Web Viewer', 'Row')]]
+
 ### Web View String
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Web Viewer', 'Web View String')]]
-
-| Type | Default |
-|:----:|:-------:|
-|text|None|
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Blocks</span> 
 
 Gets the WebView's String, which is viewable through Javascript in the WebView as the window.AppInventor object
 
+[[PropertyBlockGetterAndSetter('Web Viewer', 'Web View String')]]
+
 ### Width
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Web Viewer', 'Width')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Blocks</span> 
 
 Specifies the component's horizontal width, measured in pixels.
 
+[[PropertyBlockGetterAndSetter('Web Viewer', 'Width')]]
+
 ### Width Percent
 
-:eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Web Viewer', 'Width Percent')]]
-
-| Type | Default |
-|:----:|:-------:|
-|number|None|
+<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Blocks</span> 
 
 Specifies the component's horizontal width as a percentageof the Width of its parent Component.
+
+[[PropertyBlockGetterAndSetter('Web Viewer', 'Width Percent')]]
