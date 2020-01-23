@@ -12,67 +12,67 @@ A visible component that groups other layout components such that only one of it
 
 ### Tab Item Selected
 
+The event returns the name or the position of the selected tab.
+
 [[Event('Tab Layout', 'Tab Item Selected', 'tab', 'position')]]
 
 | Params | []() |
 |--------|------|
-|tab|Text|
-|position|Number|
+|tab|<span class="chip chip-text">Text</span>|
+|position|<span class="chip chip-number">Number</span>|
 
-
-The event returns the name or the position of the selected tab.
 
 ## Methods
 
 ### Add New Tab
 
+Add a new tab to the tab layout. If you don't want a icon then let it empty.
+
 [[Method('Tab Layout', 'Add New Tab', False, 'name', 'icon')]]
 
 | Params | []() |
 |--------|------|
-|name|Text|
-|icon|Text|
+|name|<span class="chip chip-text">Text</span>|
+|icon|<span class="chip chip-text">Text</span>|
 
-
-Add a new tab to the tab layout. If you don't want a icon then let it empty.
 
 ### Add New Tab At
+
+Add a new tab to the tab layout at the given position. If you don't want a icon then let it empty.
 
 [[Method('Tab Layout', 'Add New Tab At', False, 'name', 'icon', 'position')]]
 
 | Params | []() |
 |--------|------|
-|name|Text|
-|icon|Text|
-|position|Number|
+|name|<span class="chip chip-text">Text</span>|
+|icon|<span class="chip chip-text">Text</span>|
+|position|<span class="chip chip-number">Number</span>|
 
-
-Add a new tab to the tab layout at the given position. If you don't want a icon then let it empty.
 
 ### Count Tabs
 
-[[Method('Tab Layout', 'Count Tabs', True)]]
-
-{>>Returns `number`<<}
+<span class="chip chip-number">Returns: <i>Number</i></span> 
 
 Returns the number of current added tab's.
 
-### Remove All Tabs
+[[Method('Tab Layout', 'Count Tabs', True)]]
 
-[[Method('Tab Layout', 'Remove All Tabs', False)]]
+### Remove All Tabs
 
 Remove all tab's from tab layout.
 
+[[Method('Tab Layout', 'Remove All Tabs', False)]]
+
 ### Remove Tab At
+
+Removes a before added tab. If you want to delete the first tab then use as position '1'.
 
 [[Method('Tab Layout', 'Remove Tab At', False, 'position')]]
 
 | Params | []() |
 |--------|------|
-|position|Number|
+|position|<span class="chip chip-number">Number</span>|
 
-
-Removes a before added tab. If you want to delete the first tab then use as position '1'.
 
 ## Properties
 

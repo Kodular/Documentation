@@ -14,22 +14,22 @@ A non-visible component that takes a screenshot of the content currently visible
 
 ### Got Screenshot
 
+Event to detect that a screenshot was made by the user. Returns the image path to the taken screenshot.
+
 [[Event('Screenshot', 'Got Screenshot', 'image')]]
 
 | Params | []() |
 |--------|------|
-|image|Text|
+|image|<span class="chip chip-text">Text</span>|
 
-
-Event to detect that a screenshot was made by the user. Returns the image path to the taken screenshot.
 
 ## Methods
 
 ### Take Screenshot
 
-[[Method('Screenshot', 'Take Screenshot', False)]]
-
 Take a screenshot of the current visible screen.
+
+[[Method('Screenshot', 'Take Screenshot', False)]]
 
 ## Properties
 

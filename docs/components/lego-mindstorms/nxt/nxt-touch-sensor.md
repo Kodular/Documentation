@@ -14,25 +14,25 @@ A component that provides a high-level interface to a touch sensor on a LEGO MIN
 
 ### Pressed
 
-[[Event('NXT Touch Sensor', 'Pressed')]]
-
 Touch sensor has been pressed.
+
+[[Event('NXT Touch Sensor', 'Pressed')]]
 
 ### Released
 
-[[Event('NXT Touch Sensor', 'Released')]]
-
 Touch sensor has been released.
+
+[[Event('NXT Touch Sensor', 'Released')]]
 
 ## Methods
 
 ### Is Pressed
 
-[[Method('NXT Touch Sensor', 'Is Pressed', True)]]
-
-{>>Returns `boolean`<<}
+<span class="chip chip-boolean">Returns: <i>Boolean</i></span> 
 
 Returns true if the touch sensor is pressed.
+
+[[Method('NXT Touch Sensor', 'Is Pressed', True)]]
 
 ## Properties
 

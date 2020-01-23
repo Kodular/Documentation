@@ -14,23 +14,23 @@ A non-visible component that generates a QR code from text.
 
 ### Got Response
 
+You will find here the success state and image url.
+
 [[Event('QR Code', 'Got Response', 'success', 'url')]]
 
 | Params | []() |
 |--------|------|
-|success|Boolean|
-|url|Text|
+|success|<span class="chip chip-boolean">Boolean</span>|
+|url|<span class="chip chip-text">Text</span>|
 
-
-You will find here the success state and image url.
 
 ## Methods
 
 ### Generate Qr Code
 
-[[Method('QR Code', 'Generate Qr Code', False)]]
-
 Create a QR Code and the result is a link to it. Example: Set the resolution(in pixel) to 200(height and width has the same value) and text to: Hello world!. Result: QR code resolution is 200x200, text = Hello world! Your text input is encoded in the link automatically.
+
+[[Method('QR Code', 'Generate Qr Code', False)]]
 
 ## Properties
 

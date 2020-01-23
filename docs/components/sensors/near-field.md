@@ -18,22 +18,22 @@ __Note:__ This component will only work on Screen1 of any App Inventor app.
 
 ### Tag Read
 
+Indicates that a new tag has been detected
+Currently this is only a plain text tag, as specified in themanifest. See Compiler.java.
+
 [[Event('Near Field', 'Tag Read', 'tagID', 'message')]]
 
 | Params | []() |
 |--------|------|
-|tag ID|Text|
-|message|Text|
+|tag ID|<span class="chip chip-text">Text</span>|
+|message|<span class="chip chip-text">Text</span>|
 
-
-Indicates that a new tag has been detected
-Currently this is only a plain text tag, as specified in themanifest. See Compiler.java.
 
 ### Tag Written
 
-[[Event('Near Field', 'Tag Written')]]
-
 Event to detect when a tag was written.
+
+[[Event('Near Field', 'Tag Written')]]
 
 ## Properties
 

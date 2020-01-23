@@ -14,72 +14,71 @@ A non-visible component that connects the device via the USB Serial to Arduino h
 
 ### After Read
 
+Triggered after Read function
+
 [[Event('Arduino', 'After Read', 'success', 'data')]]
 
 | Params | []() |
 |--------|------|
-|success|Boolean|
-|data|Text|
+|success|<span class="chip chip-boolean">Boolean</span>|
+|data|<span class="chip chip-text">Text</span>|
 
-
-Triggered after Read function
 
 ## Methods
 
 ### Baud Rate
 
+Default baud rate is 9600 bps
+
 [[Method('Arduino', 'Baud Rate', False, 'baudRate')]]
 
 | Params | []() |
 |--------|------|
-|baud Rate|Number|
+|baud Rate|<span class="chip chip-number">Number</span>|
 
-
-Default baud rate is 9600 bps
 
 ### Close
 
-[[Method('Arduino', 'Close', True)]]
-
-{>>Returns `boolean`<<}
+<span class="chip chip-boolean">Returns: <i>Boolean</i></span> 
 
 Closes Arduino Connection
 
-### Initialize
+[[Method('Arduino', 'Close', True)]]
 
-[[Method('Arduino', 'Initialize', False)]]
+### Initialize
 
 Initializes Arduino Connection
 
+[[Method('Arduino', 'Initialize', False)]]
+
 ### Is Opened
 
-[[Method('Arduino', 'Is Opened', True)]]
-
-{>>Returns `boolean`<<}
+<span class="chip chip-boolean">Returns: <i>Boolean</i></span> 
 
 Returns true when the Arduino connection is open
 
+[[Method('Arduino', 'Is Opened', True)]]
+
 ### Open
 
-[[Method('Arduino', 'Open', True)]]
-
-{>>Returns `boolean`<<}
+<span class="chip chip-boolean">Returns: <i>Boolean</i></span> 
 
 Opens Arduino Connection
 
-### Read
+[[Method('Arduino', 'Open', True)]]
 
-[[Method('Arduino', 'Read', False)]]
+### Read
 
 Read from Serial
 
+[[Method('Arduino', 'Read', False)]]
+
 ### Write
+
+Write Data to Serial
 
 [[Method('Arduino', 'Write', False, 'writeDataArduino')]]
 
 | Params | []() |
 |--------|------|
-|data|Text|
-
-
-Write Data to Serial
+|data|<span class="chip chip-text">Text</span>|

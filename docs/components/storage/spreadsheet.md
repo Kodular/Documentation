@@ -15,192 +15,192 @@ Component credits\: <a href\="https\://community.kodular.io/u/jerin_jacob" targe
 
 ### Cell Changed
 
+Triggered when changing cell data. ResponseCode is a number
+
 [[Event('Spreadsheet', 'Cell Changed', 'responseCode')]]
 
 | Params | []() |
 |--------|------|
-|response Code|Number|
+|response Code|<span class="chip chip-number">Number</span>|
 
-
-Triggered when changing cell data. ResponseCode is a number
 
 ### Deleted Row By Number
+
+Triggered when destroying a row. ResponseCode is a number
 
 [[Event('Spreadsheet', 'Deleted Row By Number', 'responseCode')]]
 
 | Params | []() |
 |--------|------|
-|response Code|Number|
+|response Code|<span class="chip chip-number">Number</span>|
 
-
-Triggered when destroying a row. ResponseCode is a number
 
 ### Got All Rows
+
+Triggered when getting all rows. ResponseCode is a number, ResponseContent is a string
 
 [[Event('Spreadsheet', 'Got All Rows', 'responseCode', 'responseContent', 'totalRows')]]
 
 | Params | []() |
 |--------|------|
-|response Code|Number|
-|response Content|Text|
-|total Rows|Number|
+|response Code|<span class="chip chip-number">Number</span>|
+|response Content|<span class="chip chip-text">Text</span>|
+|total Rows|<span class="chip chip-number">Number</span>|
 
-
-Triggered when getting all rows. ResponseCode is a number, ResponseContent is a string
 
 ### Got Cell
+
+Triggered when receiving cell data. ResponseCode is a number, the other ones are strings
 
 [[Event('Spreadsheet', 'Got Cell', 'responseCode', 'value', 'rowId', 'createdTime')]]
 
 | Params | []() |
 |--------|------|
-|response Code|Number|
-|value|Text|
-|row Id|Text|
-|created Time|Text|
+|response Code|<span class="chip chip-number">Number</span>|
+|value|<span class="chip chip-text">Text</span>|
+|row Id|<span class="chip chip-text">Text</span>|
+|created Time|<span class="chip chip-text">Text</span>|
 
-
-Triggered when receiving cell data. ResponseCode is a number, the other ones are strings
 
 ### Got Column
+
+Triggered when receiving column data. ResponseCode is a number, the other ones are lists
 
 [[Event('Spreadsheet', 'Got Column', 'responseCode', 'values', 'rowIds', 'createdTimes')]]
 
 | Params | []() |
 |--------|------|
-|response Code|Number|
-|values|List|
-|row Ids|List|
-|created Times|List|
+|response Code|<span class="chip chip-number">Number</span>|
+|values|<span class="chip chip-list">List</span>|
+|row Ids|<span class="chip chip-list">List</span>|
+|created Times|<span class="chip chip-list">List</span>|
 
-
-Triggered when receiving column data. ResponseCode is a number, the other ones are lists
 
 ### Got Row
+
+Triggered when receiving row data. ResponseCode is a number, Values is a list
 
 [[Event('Spreadsheet', 'Got Row', 'responseCode', 'values')]]
 
 | Params | []() |
 |--------|------|
-|response Code|Number|
-|values|List|
+|response Code|<span class="chip chip-number">Number</span>|
+|values|<span class="chip chip-list">List</span>|
 
-
-Triggered when receiving row data. ResponseCode is a number, Values is a list
 
 ### Row Created
+
+Triggered when creating a row. ResponseCode is a number
 
 [[Event('Spreadsheet', 'Row Created', 'responseCode')]]
 
 | Params | []() |
 |--------|------|
-|response Code|Number|
+|response Code|<span class="chip chip-number">Number</span>|
 
-
-Triggered when creating a row. ResponseCode is a number
 
 ### Row Updated
+
+Triggered when updating a row. ResponseCode is a number
 
 [[Event('Spreadsheet', 'Row Updated', 'responseCode')]]
 
 | Params | []() |
 |--------|------|
-|response Code|Number|
+|response Code|<span class="chip chip-number">Number</span>|
 
-
-Triggered when updating a row. ResponseCode is a number
 
 ## Methods
 
 ### Create Row
 
+Creates a new row
+
 [[Method('Spreadsheet', 'Create Row', False, 'columnNames', 'values')]]
 
 | Params | []() |
 |--------|------|
-|column Names|List|
-|values|List|
+|column Names|<span class="chip chip-list">List</span>|
+|values|<span class="chip chip-list">List</span>|
 
-
-Creates a new row
 
 ### Delete Row
+
+Deletes the given row
 
 [[Method('Spreadsheet', 'Delete Row', False, 'rowNumber')]]
 
 | Params | []() |
 |--------|------|
-|row Number|Number|
+|row Number|<span class="chip chip-number">Number</span>|
 
-
-Deletes the given row
 
 ### Get All Rows
 
-[[Method('Spreadsheet', 'Get All Rows', False)]]
-
 Gets all rows
 
+[[Method('Spreadsheet', 'Get All Rows', False)]]
+
 ### Get Cell
+
+Gets cell data
 
 [[Method('Spreadsheet', 'Get Cell', False, 'rowNumber', 'columnName')]]
 
 | Params | []() |
 |--------|------|
-|row Number|Number|
-|column Name|Text|
+|row Number|<span class="chip chip-number">Number</span>|
+|column Name|<span class="chip chip-text">Text</span>|
 
-
-Gets cell data
 
 ### Get Column
+
+Gets column data
 
 [[Method('Spreadsheet', 'Get Column', False, 'columnName', 'maxRecord')]]
 
 | Params | []() |
 |--------|------|
-|column Name|Text|
-|max Record|Number|
+|column Name|<span class="chip chip-text">Text</span>|
+|max Record|<span class="chip chip-number">Number</span>|
 
-
-Gets column data
 
 ### Get Row
+
+Gets row data
 
 [[Method('Spreadsheet', 'Get Row', False, 'rowNumber')]]
 
 | Params | []() |
 |--------|------|
-|row Number|Number|
+|row Number|<span class="chip chip-number">Number</span>|
 
-
-Gets row data
 
 ### Set Cell
+
+Changes the value of a cell
 
 [[Method('Spreadsheet', 'Set Cell', False, 'rowNumber', 'columnName', 'value')]]
 
 | Params | []() |
 |--------|------|
-|row Number|Number|
-|column Name|Text|
-|value|Text|
+|row Number|<span class="chip chip-number">Number</span>|
+|column Name|<span class="chip chip-text">Text</span>|
+|value|<span class="chip chip-text">Text</span>|
 
-
-Changes the value of a cell
 
 ### Update Row by Number
+
+Updates the given row data
 
 [[Method('Spreadsheet', 'Update Row by Number', False, 'rowNumber', 'columnNames', 'values')]]
 
 | Params | []() |
 |--------|------|
-|row Number|Number|
-|column Names|List|
-|values|List|
+|row Number|<span class="chip chip-number">Number</span>|
+|column Names|<span class="chip chip-list">List</span>|
+|values|<span class="chip chip-list">List</span>|
 
-
-Updates the given row data
 
 ## Properties
 

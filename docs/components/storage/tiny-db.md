@@ -24,54 +24,54 @@ When you are developing apps using the AI Companion, all the apps using that com
 
 ### Clear All
 
-[[Method('Tiny DB', 'Clear All', False)]]
-
 Clear the entire data store
 
+[[Method('Tiny DB', 'Clear All', False)]]
+
 ### Clear Tag
+
+Clear the entry with the given tag
 
 [[Method('Tiny DB', 'Clear Tag', False, 'tag')]]
 
 | Params | []() |
 |--------|------|
-|tag|Text|
+|tag|<span class="chip chip-text">Text</span>|
 
-
-Clear the entry with the given tag
 
 ### Get Tags
 
-[[Method('Tiny DB', 'Get Tags', True)]]
-
-{>>Returns `any`<<}
+<span class="chip chip-any">Returns: <i>Any</i></span> 
 
 Return a list of all the tags in the data store
 
+[[Method('Tiny DB', 'Get Tags', True)]]
+
 ### Get Value
 
-[[Method('Tiny DB', 'Get Value', True, 'tag', 'valueIfTagNotThere')]]
-
-{>>Returns `any`<<}
-
-| Params | []() |
-|--------|------|
-|tag|Text|
-|value If Tag Not There|Any|
-
+<span class="chip chip-any">Returns: <i>Any</i></span> 
 
 Retrieve the value stored under the given tag. If there's no such tag, then return valueIfTagNotThere.
 
+[[Method('Tiny DB', 'Get Value', True, 'tag', 'valueIfTagNotThere')]]
+
+| Params | []() |
+|--------|------|
+|tag|<span class="chip chip-text">Text</span>|
+|value If Tag Not There|<span class="chip chip-any">Any</span>|
+
+
 ### Store Value
+
+Store the given value under the given tag. The storage persists on thephone when the app is restarted.
 
 [[Method('Tiny DB', 'Store Value', False, 'tag', 'valueToStore')]]
 
 | Params | []() |
 |--------|------|
-|tag|Text|
-|value To Store|Any|
+|tag|<span class="chip chip-text">Text</span>|
+|value To Store|<span class="chip chip-any">Any</span>|
 
-
-Store the given value under the given tag. The storage persists on thephone when the app is restarted.
 
 ## Properties
 

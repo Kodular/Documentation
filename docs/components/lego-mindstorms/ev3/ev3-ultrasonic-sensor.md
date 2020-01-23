@@ -14,43 +14,43 @@ A component that provides a high-level interface to an ultrasonic sensor on a LE
 
 ### Above Range
 
-[[Event('EV3 Ultrasonic Sensor', 'Above Range')]]
-
 Called when the detected distance has gone above the range.
+
+[[Event('EV3 Ultrasonic Sensor', 'Above Range')]]
 
 ### Below Range
 
-[[Event('EV3 Ultrasonic Sensor', 'Below Range')]]
-
 Called when the detected distance has gone below the range.
+
+[[Event('EV3 Ultrasonic Sensor', 'Below Range')]]
 
 ### Within Range
 
-[[Event('EV3 Ultrasonic Sensor', 'Within Range')]]
-
 Called when the detected distance has gone within the range.
+
+[[Event('EV3 Ultrasonic Sensor', 'Within Range')]]
 
 ## Methods
 
 ### Get Distance
 
-[[Method('EV3 Ultrasonic Sensor', 'Get Distance', True)]]
-
-{>>Returns `number`<<}
+<span class="chip chip-number">Returns: <i>Number</i></span> 
 
 Returns the current distance in centimeters as a value between 0 and 254, or -1 if the distance can not be read.
 
-### Set CM Unit
+[[Method('EV3 Ultrasonic Sensor', 'Get Distance', True)]]
 
-[[Method('EV3 Ultrasonic Sensor', 'Set CM Unit', False)]]
+### Set CM Unit
 
 Measure the distance in centimeters.
 
+[[Method('EV3 Ultrasonic Sensor', 'Set CM Unit', False)]]
+
 ### Set Inch Unit
 
-[[Method('EV3 Ultrasonic Sensor', 'Set Inch Unit', False)]]
-
 Measure the distance in inches.
+
+[[Method('EV3 Ultrasonic Sensor', 'Set Inch Unit', False)]]
 
 ## Properties
 

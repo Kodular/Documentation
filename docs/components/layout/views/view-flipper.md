@@ -12,55 +12,55 @@ A visible component that can animate between two or more layout components that 
 
 ### Add Component To View
 
+Add a component to the view flipper. The first added component will be the first visible component on the screen.
+
 [[Method('View Flipper', 'Add Component To View', False, 'component')]]
 
 | Params | []() |
 |--------|------|
-|component|Component|
+|component|<span class="chip chip-component">Component</span>|
 
-
-Add a component to the view flipper. The first added component will be the first visible component on the screen.
 
 ### Add Images To View
+
+Use this function if you try to create a image view flipper. Please use a 'make a list' block.
 
 [[Method('View Flipper', 'Add Images To View', False, 'images')]]
 
 | Params | []() |
 |--------|------|
-|images|List|
+|images|<span class="chip chip-list">List</span>|
 
-
-Use this function if you try to create a image view flipper. Please use a 'make a list' block.
 
 ### Show Next
 
-[[Method('View Flipper', 'Show Next', False)]]
-
 Show the next view.
+
+[[Method('View Flipper', 'Show Next', False)]]
 
 ### Show Previous
 
-[[Method('View Flipper', 'Show Previous', False)]]
-
 Show the previous view.
+
+[[Method('View Flipper', 'Show Previous', False)]]
 
 ### Start Flipping
 
-[[Method('View Flipper', 'Start Flipping', False)]]
-
 Start a timer to cycle through child views.
+
+[[Method('View Flipper', 'Start Flipping', False)]]
 
 ### Stop Flipping
 
-[[Method('View Flipper', 'Stop Flipping', False)]]
-
 No more flips.
+
+[[Method('View Flipper', 'Stop Flipping', False)]]
 
 ### is Flipping
 
-[[Method('View Flipper', 'is Flipping', False)]]
-
 Returns true if the child views are flipping.
+
+[[Method('View Flipper', 'is Flipping', False)]]
 
 ## Properties
 

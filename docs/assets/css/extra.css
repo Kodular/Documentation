@@ -349,3 +349,7 @@ img[src*="#animationUtilsPreview"] {
 .chip-boolean {
   background-color: rgb(119, 171, 65);
 }
+
+.chip-component {
+  background-color: rgb(139, 195, 74);
+}

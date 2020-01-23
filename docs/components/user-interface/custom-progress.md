@@ -12,11 +12,11 @@ A visible component that indicates the progress of an operation using a range of
 
 ### Get Styles Names
 
-[[Method('Custom Progress', 'Get Styles Names', True)]]
-
-{>>Returns `list`<<}
+<span class="chip chip-list">Returns: <i>List</i></span> 
 
 Gets style names of all possible animations.
+
+[[Method('Custom Progress', 'Get Styles Names', True)]]
 
 ## Properties
 

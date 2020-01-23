@@ -14,282 +14,282 @@ A non-visible component that encrypts and decrypts data using a variety of techn
 
 ### AES-128 Decode
 
-[[Method('Cryptography', 'AES-128 Decode', True, 'aes128Hash')]]
-
-{>>Returns `text`<<}
-
-| Params | []() |
-|--------|------|
-|AES-128 Hash|Text|
-
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 Decodes the given hash using the given key through AES-128. If any exception occurs, returns empty string.
 
-### AES-128 Encode
-
-[[Method('Cryptography', 'AES-128 Encode', True, 'inputText')]]
-
-{>>Returns `text`<<}
+[[Method('Cryptography', 'AES-128 Decode', True, 'aes128Hash')]]
 
 | Params | []() |
 |--------|------|
-|input Text|Text|
+|AES-128 Hash|<span class="chip chip-text">Text</span>|
 
+
+### AES-128 Encode
+
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 Encodes the given string using the given key through AES-128. If any exception occurs, returns empty string.
 
+[[Method('Cryptography', 'AES-128 Encode', True, 'inputText')]]
+
+| Params | []() |
+|--------|------|
+|input Text|<span class="chip chip-text">Text</span>|
+
+
 ### Generate AES 128 Key
 
-[[Method('Cryptography', 'Generate AES 128 Key', True)]]
-
-{>>Returns `text`<<}
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 Generates a secure random AES 128 key
 
+[[Method('Cryptography', 'Generate AES 128 Key', True)]]
+
 ### AES-256 Decode
 
-[[Method('Cryptography', 'AES-256 Decode', True, 'aes256Hash')]]
-
-{>>Returns `text`<<}
-
-| Params | []() |
-|--------|------|
-|AES-256 Hash|Text|
-
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 Decodes the given hash using the given key through AES-256. If there are any exceptions, returns empty string
 
-### AES-256 Encode
-
-[[Method('Cryptography', 'AES-256 Encode', True, 'inputText')]]
-
-{>>Returns `text`<<}
+[[Method('Cryptography', 'AES-256 Decode', True, 'aes256Hash')]]
 
 | Params | []() |
 |--------|------|
-|input Text|Text|
+|AES-256 Hash|<span class="chip chip-text">Text</span>|
 
+
+### AES-256 Encode
+
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 Encodes the given string using the given key through AES-256. If there are any exceptions, returns empty string
 
+[[Method('Cryptography', 'AES-256 Encode', True, 'inputText')]]
+
+| Params | []() |
+|--------|------|
+|input Text|<span class="chip chip-text">Text</span>|
+
+
 ### Generate AES 256 Key
 
-[[Method('Cryptography', 'Generate AES 256 Key', True)]]
-
-{>>Returns `text`<<}
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 Generates a secure random AES 256 key
 
+[[Method('Cryptography', 'Generate AES 256 Key', True)]]
+
 ### BCrypt Create Hash
 
-[[Method('Cryptography', 'BCrypt Create Hash', True, 'inputText', 'salt')]]
-
-{>>Returns `text`<<}
-
-| Params | []() |
-|--------|------|
-|input Text|Text|
-|salt|Text|
-
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 Generates a hash using BCrypt
 
+[[Method('Cryptography', 'BCrypt Create Hash', True, 'inputText', 'salt')]]
+
+| Params | []() |
+|--------|------|
+|input Text|<span class="chip chip-text">Text</span>|
+|salt|<span class="chip chip-text">Text</span>|
+
+
 ### BCrypt Generate Salt
 
-[[Method('Cryptography', 'BCrypt Generate Salt', True)]]
-
-{>>Returns `text`<<}
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 Generates a salt usable for hashing with BCrypt
 
+[[Method('Cryptography', 'BCrypt Generate Salt', True)]]
+
 ### BCrypt Validate Password
 
-[[Method('Cryptography', 'BCrypt Validate Password', True, 'inputText', 'correctHash')]]
-
-{>>Returns `boolean`<<}
-
-| Params | []() |
-|--------|------|
-|input Text|Text|
-|correct Hash|Text|
-
+<span class="chip chip-boolean">Returns: <i>Boolean</i></span> 
 
 Verifies if the input password is the same one as the correct hashed password using BCrypt algorithm
 
-### Base64 Decode
-
-[[Method('Cryptography', 'Base64 Decode', True, 'base64Hash')]]
-
-{>>Returns `text`<<}
+[[Method('Cryptography', 'BCrypt Validate Password', True, 'inputText', 'correctHash')]]
 
 | Params | []() |
 |--------|------|
-|base64 Hash|Text|
+|input Text|<span class="chip chip-text">Text</span>|
+|correct Hash|<span class="chip chip-text">Text</span>|
 
+
+### Base64 Decode
+
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 Decodes the given hash using Base64
 
-### Base64 Encode
-
-[[Method('Cryptography', 'Base64 Encode', True, 'inputText')]]
-
-{>>Returns `text`<<}
+[[Method('Cryptography', 'Base64 Decode', True, 'base64Hash')]]
 
 | Params | []() |
 |--------|------|
-|input Text|Text|
+|base64 Hash|<span class="chip chip-text">Text</span>|
 
+
+### Base64 Encode
+
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 Encodes the given string using Base64
 
-### Enigma Parser
-
-[[Method('Cryptography', 'Enigma Parser', True, 'inputText', 'rotor1', 'rotor2', 'rotor3', 'reflector', 'plugboard')]]
-
-{>>Returns `text`<<}
+[[Method('Cryptography', 'Base64 Encode', True, 'inputText')]]
 
 | Params | []() |
 |--------|------|
-|input Text|Text|
-|rotor 1|Number|
-|rotor 2|Number|
-|rotor 3|Number|
-|reflector|Text|
-|plugboard|List|
+|input Text|<span class="chip chip-text">Text</span>|
 
+
+### Enigma Parser
+
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 Encrypts or decrypts the given string simulating an Enigma machine. Rotors can go from 1 to 8, but they cannot be repeated. Reflector can be B, C or 0 if none. Plugboard is a list with sub-list of two items containing a character each one, which replace the first character with the second one.
 
-### MD5 Create Hash
-
-[[Method('Cryptography', 'MD5 Create Hash', True, 'inputText')]]
-
-{>>Returns `text`<<}
+[[Method('Cryptography', 'Enigma Parser', True, 'inputText', 'rotor1', 'rotor2', 'rotor3', 'reflector', 'plugboard')]]
 
 | Params | []() |
 |--------|------|
-|input Text|Text|
+|input Text|<span class="chip chip-text">Text</span>|
+|rotor 1|<span class="chip chip-number">Number</span>|
+|rotor 2|<span class="chip chip-number">Number</span>|
+|rotor 3|<span class="chip chip-number">Number</span>|
+|reflector|<span class="chip chip-text">Text</span>|
+|plugboard|<span class="chip chip-list">List</span>|
 
+
+### MD5 Create Hash
+
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 Generates a MD5 hash
 
-### PBKDF2 Create Hash
-
-[[Method('Cryptography', 'PBKDF2 Create Hash', True, 'inputText')]]
-
-{>>Returns `text`<<}
+[[Method('Cryptography', 'MD5 Create Hash', True, 'inputText')]]
 
 | Params | []() |
 |--------|------|
-|input Text|Text|
+|input Text|<span class="chip chip-text">Text</span>|
 
+
+### PBKDF2 Create Hash
+
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 Generates a hash using PBKDF2
 
-### PBKDF2 Validate Hash
-
-[[Method('Cryptography', 'PBKDF2 Validate Hash', True, 'inputText', 'correctHash')]]
-
-{>>Returns `boolean`<<}
+[[Method('Cryptography', 'PBKDF2 Create Hash', True, 'inputText')]]
 
 | Params | []() |
 |--------|------|
-|input Text|Text|
-|correct Hash|Text|
+|input Text|<span class="chip chip-text">Text</span>|
 
+
+### PBKDF2 Validate Hash
+
+<span class="chip chip-boolean">Returns: <i>Boolean</i></span> 
 
 Verifies if the input password is the same one as the correct hashed password using PBKDF2 algorithm
 
-### SHA-1 Generate Hash
-
-[[Method('Cryptography', 'SHA-1 Generate Hash', True, 'inputText')]]
-
-{>>Returns `text`<<}
+[[Method('Cryptography', 'PBKDF2 Validate Hash', True, 'inputText', 'correctHash')]]
 
 | Params | []() |
 |--------|------|
-|input Text|Text|
+|input Text|<span class="chip chip-text">Text</span>|
+|correct Hash|<span class="chip chip-text">Text</span>|
 
+
+### SHA-1 Generate Hash
+
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 Generates a hashed SHA-1 string
 
-### SHA-224 Generate Hash
-
-[[Method('Cryptography', 'SHA-224 Generate Hash', True, 'inputText')]]
-
-{>>Returns `text`<<}
+[[Method('Cryptography', 'SHA-1 Generate Hash', True, 'inputText')]]
 
 | Params | []() |
 |--------|------|
-|input Text|Text|
+|input Text|<span class="chip chip-text">Text</span>|
 
+
+### SHA-224 Generate Hash
+
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 Generates a hashed SHA-224 string
 
-### SHA-256 Generate Hash
-
-[[Method('Cryptography', 'SHA-256 Generate Hash', True, 'inputText')]]
-
-{>>Returns `text`<<}
+[[Method('Cryptography', 'SHA-224 Generate Hash', True, 'inputText')]]
 
 | Params | []() |
 |--------|------|
-|input Text|Text|
+|input Text|<span class="chip chip-text">Text</span>|
 
+
+### SHA-256 Generate Hash
+
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 Generates a hashed SHA-256 string
 
-### SHA-384 Generate Hash
-
-[[Method('Cryptography', 'SHA-384 Generate Hash', True, 'inputText')]]
-
-{>>Returns `text`<<}
+[[Method('Cryptography', 'SHA-256 Generate Hash', True, 'inputText')]]
 
 | Params | []() |
 |--------|------|
-|input Text|Text|
+|input Text|<span class="chip chip-text">Text</span>|
 
+
+### SHA-384 Generate Hash
+
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 Generates a hashed SHA-384 string
 
-### SHA-512 Generate Hash
-
-[[Method('Cryptography', 'SHA-512 Generate Hash', True, 'inputText')]]
-
-{>>Returns `text`<<}
+[[Method('Cryptography', 'SHA-384 Generate Hash', True, 'inputText')]]
 
 | Params | []() |
 |--------|------|
-|input Text|Text|
+|input Text|<span class="chip chip-text">Text</span>|
 
+
+### SHA-512 Generate Hash
+
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 Generates a hashed SHA-512 string
 
-### TripleDES Decode
-
-[[Method('Cryptography', 'TripleDES Decode', True, 'tripleDESHash')]]
-
-{>>Returns `text`<<}
+[[Method('Cryptography', 'SHA-512 Generate Hash', True, 'inputText')]]
 
 | Params | []() |
 |--------|------|
-|tripleDES Hash|Text|
+|input Text|<span class="chip chip-text">Text</span>|
 
+
+### TripleDES Decode
+
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 Decodes the given hash using the given key through TripleDES
 
-### TripleDES Encode
-
-[[Method('Cryptography', 'TripleDES Encode', True, 'inputText')]]
-
-{>>Returns `text`<<}
+[[Method('Cryptography', 'TripleDES Decode', True, 'tripleDESHash')]]
 
 | Params | []() |
 |--------|------|
-|input Text|Text|
+|tripleDES Hash|<span class="chip chip-text">Text</span>|
 
+
+### TripleDES Encode
+
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 Encodes the given string using the given key through TripleDES
+
+[[Method('Cryptography', 'TripleDES Encode', True, 'inputText')]]
+
+| Params | []() |
+|--------|------|
+|input Text|<span class="chip chip-text">Text</span>|
+
 
 ## Properties
 

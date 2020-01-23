@@ -18,140 +18,140 @@ The file path can be taken directly from other components such as the Camera or 
 
 ### App Not Found
 
+This event returns the social media name if an app is not installed. Possible names are 'Facebook Messenger', 'Facebook', 'Twitter', 'Telegram', 'Twitter', 'Snapchat', 'Google Plus' or the given custom package name.
+
 [[Event('Sharing', 'App Not Found', 'name')]]
 
 | Params | []() |
 |--------|------|
-|name|Text|
+|name|<span class="chip chip-text">Text</span>|
 
-
-This event returns the social media name if an app is not installed. Possible names are 'Facebook Messenger', 'Facebook', 'Twitter', 'Telegram', 'Twitter', 'Snapchat', 'Google Plus' or the given custom package name.
 
 ## Methods
 
 ### Share File
 
+Shares a file through any capable application installed on the phone by displaying a list of the available apps and allowing the user to choose one from the list. The selected app will open with the file inserted on it.
+
 [[Method('Sharing', 'Share File', False, 'file')]]
 
 | Params | []() |
 |--------|------|
-|file|Text|
+|file|<span class="chip chip-text">Text</span>|
 
-
-Shares a file through any capable application installed on the phone by displaying a list of the available apps and allowing the user to choose one from the list. The selected app will open with the file inserted on it.
 
 ### Share File With Message
+
+Shares both a file and a message through any capable application installed on the phone by displaying a list of available apps and allowing the user to choose one from the list. The selected app will open with the file and message inserted on it.
 
 [[Method('Sharing', 'Share File With Message', False, 'file', 'message')]]
 
 | Params | []() |
 |--------|------|
-|file|Text|
-|message|Text|
+|file|<span class="chip chip-text">Text</span>|
+|message|<span class="chip chip-text">Text</span>|
 
-
-Shares both a file and a message through any capable application installed on the phone by displaying a list of available apps and allowing the user to choose one from the list. The selected app will open with the file and message inserted on it.
 
 ### Share Message
+
+Shares a message through any capable application installed on the phone by displaying a list of the available apps and allowing the user to choose one from the list. The selected app will open with the message inserted on it.
 
 [[Method('Sharing', 'Share Message', False, 'message')]]
 
 | Params | []() |
 |--------|------|
-|message|Text|
+|message|<span class="chip chip-text">Text</span>|
 
-
-Shares a message through any capable application installed on the phone by displaying a list of the available apps and allowing the user to choose one from the list. The selected app will open with the message inserted on it.
 
 ### Share Message To
+
+Shares a message through the given app. If the given app is not installed, then the 'AppNotFound' event will be invoked and return the given name.
 
 [[Method('Sharing', 'Share Message To', False, 'message', 'name', 'packageName')]]
 
 | Params | []() |
 |--------|------|
-|message|Text|
-|name|Text|
-|package Name|Text|
+|message|<span class="chip chip-text">Text</span>|
+|name|<span class="chip chip-text">Text</span>|
+|package Name|<span class="chip chip-text">Text</span>|
 
-
-Shares a message through the given app. If the given app is not installed, then the 'AppNotFound' event will be invoked and return the given name.
 
 ### Share Message To Facebook
+
+Shares a message through Facebook. If Facebook is not installed, then the 'AppNotFound' event will be invoked and return the name 'Facebook'.
 
 [[Method('Sharing', 'Share Message To Facebook', False, 'message')]]
 
 | Params | []() |
 |--------|------|
-|message|Text|
+|message|<span class="chip chip-text">Text</span>|
 
-
-Shares a message through Facebook. If Facebook is not installed, then the 'AppNotFound' event will be invoked and return the name 'Facebook'.
 
 ### Share Message To Facebook Messenger
+
+Shares a message through Facebook Messenger. If Messenger is not installed, then the 'AppNotFound' event will be invoked and return the name 'Facebook Messenger'.
 
 [[Method('Sharing', 'Share Message To Facebook Messenger', False, 'message')]]
 
 | Params | []() |
 |--------|------|
-|message|Text|
+|message|<span class="chip chip-text">Text</span>|
 
-
-Shares a message through Facebook Messenger. If Messenger is not installed, then the 'AppNotFound' event will be invoked and return the name 'Facebook Messenger'.
 
 ### Share Message To Google+
+
+Shares a message through Google Plus. If Google+ is not installed, then the 'AppNotFound' event will be invoked and return the name 'Google Plus'.
 
 [[Method('Sharing', 'Share Message To Google+', False, 'message')]]
 
 | Params | []() |
 |--------|------|
-|message|Text|
+|message|<span class="chip chip-text">Text</span>|
 
-
-Shares a message through Google Plus. If Google+ is not installed, then the 'AppNotFound' event will be invoked and return the name 'Google Plus'.
 
 ### Share Message To Snapchat
+
+Shares a message through Snapchat. If Snapchat is not installed, then the 'AppNotFound' event will be invoked and return the name 'Snapchat'.
 
 [[Method('Sharing', 'Share Message To Snapchat', False, 'message')]]
 
 | Params | []() |
 |--------|------|
-|message|Text|
+|message|<span class="chip chip-text">Text</span>|
 
-
-Shares a message through Snapchat. If Snapchat is not installed, then the 'AppNotFound' event will be invoked and return the name 'Snapchat'.
 
 ### Share Message To Telegram
+
+Shares a message through Telegram. If Telegram is not installed, then the 'AppNotFound' event will be invoked and return the name 'Telegram'.
 
 [[Method('Sharing', 'Share Message To Telegram', False, 'message')]]
 
 | Params | []() |
 |--------|------|
-|message|Text|
+|message|<span class="chip chip-text">Text</span>|
 
-
-Shares a message through Telegram. If Telegram is not installed, then the 'AppNotFound' event will be invoked and return the name 'Telegram'.
 
 ### Share Message To Twitter
+
+Shares a message through Twitter. If Twitter is not installed, then the 'AppNotFound' event will be invoked and return the name 'Twitter'.
 
 [[Method('Sharing', 'Share Message To Twitter', False, 'message')]]
 
 | Params | []() |
 |--------|------|
-|message|Text|
+|message|<span class="chip chip-text">Text</span>|
 
-
-Shares a message through Twitter. If Twitter is not installed, then the 'AppNotFound' event will be invoked and return the name 'Twitter'.
 
 ### Share Message To WhatsApp
+
+Shares a message through WhatsApp. If WhatsApp is not installed, then the 'AppNotFound' event will be invoked and return the name 'WhatsApp'.
 
 [[Method('Sharing', 'Share Message To WhatsApp', False, 'message')]]
 
 | Params | []() |
 |--------|------|
-|message|Text|
+|message|<span class="chip chip-text">Text</span>|
 
-
-Shares a message through WhatsApp. If WhatsApp is not installed, then the 'AppNotFound' event will be invoked and return the name 'WhatsApp'.
 
 ## Properties
 

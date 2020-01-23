@@ -14,66 +14,66 @@ A non-visible component that shows AdColony ads as full-screen advertisements.
 
 ### Ad Expiring
 
-[[Event('AdColony Interstitial', 'Ad Expiring')]]
-
 Called when the ad is expiring. You should load a new ad.
 
+[[Event('AdColony Interstitial', 'Ad Expiring')]]
+
 ### Ad Failed To Load
+
+Called when an ad request failed to load. The message will display the error code and error message.
 
 [[Event('AdColony Interstitial', 'Ad Failed To Load', 'errorCode', 'errorMessage')]]
 
 | Params | []() |
 |--------|------|
-|error Code|Number|
-|error Message|Text|
+|error Code|<span class="chip chip-number">Number</span>|
+|error Message|<span class="chip chip-text">Text</span>|
 
-
-Called when an ad request failed to load. The message will display the error code and error message.
 
 ### Ad Loaded
 
-[[Event('AdColony Interstitial', 'Ad Loaded')]]
-
 Called when an ad is received.
+
+[[Event('AdColony Interstitial', 'Ad Loaded')]]
 
 ### Ad Opened
 
-[[Event('AdColony Interstitial', 'Ad Opened')]]
-
 Called when an ad was opened.
 
+[[Event('AdColony Interstitial', 'Ad Opened')]]
+
 ### Error
+
+Called when an ad request failed. The message will display the reason for why the ad failed.
 
 [[Event('AdColony Interstitial', 'Error', 'error')]]
 
 | Params | []() |
 |--------|------|
-|error|Text|
+|error|<span class="chip chip-text">Text</span>|
 
-
-Called when an ad request failed. The message will display the reason for why the ad failed.
 
 ## Methods
 
 ### Is European User
 
-[[Method('AdColony Interstitial', 'Is European User', True)]]
-
-{>>Returns `boolean`<<}
+<span class="chip chip-boolean">Returns: <i>Boolean</i></span> 
 
 Returns true if the current app user is located in europe. If true you must ask the user as example in a dialog if he give his consent for personalized ads.
 
-### Load Ad
+[[Method('AdColony Interstitial', 'Is European User', True)]]
 
-[[Method('AdColony Interstitial', 'Load Ad', False)]]
+### Load Ad
 
 Loads a new ad.
 
+[[Method('AdColony Interstitial', 'Load Ad', False)]]
+
 ### Show Ad
 
-[[Method('AdColony Interstitial', 'Show Ad', False)]]
-
 Shows an ad to the user.
+
+[[Method('AdColony Interstitial', 'Show Ad', False)]]
 
 ## Properties
 

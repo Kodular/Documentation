@@ -14,59 +14,59 @@ A non-visible component that manages the device''s audio settings.
 
 ### Error Occurred
 
+Event triggered when a error occurred.
+
 [[Event('Audio', 'Error Occurred', 'errorMessage')]]
 
 | Params | []() |
 |--------|------|
-|error Message|Text|
+|error Message|<span class="chip chip-text">Text</span>|
 
-
-Event triggered when a error occurred.
 
 ## Methods
 
 ### Is Sound Effects Enabled
 
-[[Method('Audio', 'Is Sound Effects Enabled', True, 'component')]]
-
-{>>Returns `boolean`<<}
-
-| Params | []() |
-|--------|------|
-|component|Component|
-
+<span class="chip chip-boolean">Returns: <i>Boolean</i></span> 
 
 Returns true whether a component should have sound effects enabled for events such as clicking and touching.
 
-### Ringer Mode Normal
+[[Method('Audio', 'Is Sound Effects Enabled', True, 'component')]]
 
-[[Method('Audio', 'Ringer Mode Normal', False)]]
+| Params | []() |
+|--------|------|
+|component|<span class="chip chip-component">Component</span>|
+
+
+### Ringer Mode Normal
 
 Sets the ringer mode to "normal".
 
-### Ringer Mode Silent
+[[Method('Audio', 'Ringer Mode Normal', False)]]
 
-[[Method('Audio', 'Ringer Mode Silent', False)]]
+### Ringer Mode Silent
 
 Sets the ringer mode to "silent".
 
-### Ringer Mode Vibrate
+[[Method('Audio', 'Ringer Mode Silent', False)]]
 
-[[Method('Audio', 'Ringer Mode Vibrate', False)]]
+### Ringer Mode Vibrate
 
 Sets the ringer mode to "vibrate".
 
+[[Method('Audio', 'Ringer Mode Vibrate', False)]]
+
 ### Sound Effects Enabled
+
+Set whether a component should have sound effects enabled for events such as clicking and touching.
 
 [[Method('Audio', 'Sound Effects Enabled', False, 'component', 'enabled')]]
 
 | Params | []() |
 |--------|------|
-|component|Component|
-|enabled|Boolean|
+|component|<span class="chip chip-component">Component</span>|
+|enabled|<span class="chip chip-boolean">Boolean</span>|
 
-
-Set whether a component should have sound effects enabled for events such as clicking and touching.
 
 ## Properties
 

@@ -20,20 +20,20 @@ Non-visible component providing information about the device's physical orientat
 
 ### Orientation Changed
 
-[[Event('Orientation Sensor', 'Orientation Changed', 'azimuth', 'pitch', 'roll')]]
-
-| Params | []() |
-|--------|------|
-|azimuth|Number|
-|pitch|Number|
-|roll|Number|
-
-
 Default OrientationChanged event handler
 
 This event is signalled when the device's orientation has changed. Itreports the new values of azimuth, pich, and roll, and it also sets the Azimuth, Pitch,and roll properties.
 
 Azimuth is the compass heading in degrees, pitch indicates how the deviceis tilted from top to bottom, and roll indicates how much the device is tilted fromside to side.
+
+[[Event('Orientation Sensor', 'Orientation Changed', 'azimuth', 'pitch', 'roll')]]
+
+| Params | []() |
+|--------|------|
+|azimuth|<span class="chip chip-number">Number</span>|
+|pitch|<span class="chip chip-number">Number</span>|
+|roll|<span class="chip chip-number">Number</span>|
+
 
 ## Properties
 

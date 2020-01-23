@@ -18,22 +18,22 @@ Non-visible component that can detect shaking and measure acceleration approxima
 
 ### Acceleration Changed
 
+Indicates the acceleration changed in the X, Y, and/or Z dimensions.
+
 [[Event('Accelerometer Sensor', 'Acceleration Changed', 'xAccel', 'yAccel', 'zAccel')]]
 
 | Params | []() |
 |--------|------|
-|x Accel|Number|
-|y Accel|Number|
-|z Accel|Number|
+|x Accel|<span class="chip chip-number">Number</span>|
+|y Accel|<span class="chip chip-number">Number</span>|
+|z Accel|<span class="chip chip-number">Number</span>|
 
-
-Indicates the acceleration changed in the X, Y, and/or Z dimensions.
 
 ### Shaking
 
-[[Event('Accelerometer Sensor', 'Shaking')]]
-
 Indicates the device started being shaken or continues to be shaken.
+
+[[Event('Accelerometer Sensor', 'Shaking')]]
 
 ## Properties
 

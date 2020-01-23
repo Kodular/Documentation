@@ -14,19 +14,19 @@ A component to record a video using the device's camcorder.After the video is re
 
 ### After Recording
 
+Indicates that a video was recorded with the camera and provides the path tothe stored picture.
+
 [[Event('Camcorder', 'After Recording', 'clip')]]
 
 | Params | []() |
 |--------|------|
-|clip|Text|
+|clip|<span class="chip chip-text">Text</span>|
 
-
-Indicates that a video was recorded with the camera and provides the path tothe stored picture.
 
 ## Methods
 
 ### Record Video
 
-[[Method('Camcorder', 'Record Video', False)]]
-
 Records a video, then raises the AfterRecoding event.
+
+[[Method('Camcorder', 'Record Video', False)]]

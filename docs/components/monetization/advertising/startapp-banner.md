@@ -12,46 +12,46 @@ A visible component that shows StartApp ads as static banners.
 
 ### Ad Clicked
 
-[[Event('StartApp Banner', 'Ad Clicked')]]
-
 Indicates that the user has clicked on the banner ad.
 
+[[Event('StartApp Banner', 'Ad Clicked')]]
+
 ### Ad Failed To Load
+
+Called when an ad request failed to load. The message will display the error code and error message.
 
 [[Event('StartApp Banner', 'Ad Failed To Load', 'errorCode', 'errorMessage')]]
 
 | Params | []() |
 |--------|------|
-|error Code|Number|
-|error Message|Text|
+|error Code|<span class="chip chip-number">Number</span>|
+|error Message|<span class="chip chip-text">Text</span>|
 
-
-Called when an ad request failed to load. The message will display the error code and error message.
 
 ### On Failed To Receive Ad
+
+Called when an ad request failed to load.
 
 [[Event('StartApp Banner', 'On Failed To Receive Ad', 'errorMessage')]]
 
 | Params | []() |
 |--------|------|
-|error Message|Text|
+|error Message|<span class="chip chip-text">Text</span>|
 
-
-Called when an ad request failed to load.
 
 ### On Receive Ad
 
-[[Event('StartApp Banner', 'On Receive Ad')]]
-
 Called when an ad request succeeds.
+
+[[Event('StartApp Banner', 'On Receive Ad')]]
 
 ## Methods
 
 ### Load Ad
 
-[[Method('StartApp Banner', 'Load Ad', False)]]
-
 Load a new StartApp Banner ad.
+
+[[Method('StartApp Banner', 'Load Ad', False)]]
 
 ## Properties
 

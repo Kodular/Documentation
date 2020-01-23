@@ -13,23 +13,23 @@ This is a visible component that displays a list of text elements.
 
 ### After Picking
 
-[[Event('List View', 'After Picking')]]
-
 Simple event to be raised after the an element has been chosen in the list. The selected element is available in the Selection property.
+
+[[Event('List View', 'After Picking')]]
 
 ### Long Click
 
-[[Event('List View', 'Long Click')]]
-
 Simple event to be raised after the an element has been chosen in the list via long click. The selected element is available in the Selection property.
+
+[[Event('List View', 'Long Click')]]
 
 ## Methods
 
 ### Clear List
 
-[[Method('List View', 'Clear List', False)]]
-
 Remove all the items from the list
+
+[[Method('List View', 'Clear List', False)]]
 
 ## Properties
 

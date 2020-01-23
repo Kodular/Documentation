@@ -18,74 +18,74 @@ Text boxes like this are usually used with `` Button `` components, with the use
 
 ### Got Focus
 
-[[Event('Email Picker', 'Got Focus')]]
-
 Event raised when this component is selected for input, such as bythe user touching it.
+
+[[Event('Email Picker', 'Got Focus')]]
 
 ### Lost Focus
 
-[[Event('Email Picker', 'Lost Focus')]]
-
 Event raised when this component is no longer selected for input, suchas if the user touches a different text box.
+
+[[Event('Email Picker', 'Lost Focus')]]
 
 ### On Text Changed
 
-[[Event('Email Picker', 'On Text Changed')]]
-
 Event to detect text changes.
+
+[[Event('Email Picker', 'On Text Changed')]]
 
 ## Methods
 
 ### Set Animation Style
 
+Allows you to set animation style. Valid (case-insensitive) values are: ChasingDots, Circle, CubeGrid, DoubleBounce, FadingCircle, FoldingCube, Pulse, RotatingCircle, RotatingPlane, ThreeBounce, WanderingCubes, Wave. If invalid style is used, animation will be removed.Position can be: top, left, right, bottom. Size can be 100.
+
 [[Method('Email Picker', 'Set Animation Style', False, 'style', 'position', 'size', 'color')]]
 
 | Params | []() |
 |--------|------|
-|style|Text|
-|position|Text|
-|size|Number|
-|color|Number|
+|style|<span class="chip chip-text">Text</span>|
+|position|<span class="chip chip-text">Text</span>|
+|size|<span class="chip chip-number">Number</span>|
+|color|<span class="chip chip-number">Number</span>|
 
-
-Allows you to set animation style. Valid (case-insensitive) values are: ChasingDots, Circle, CubeGrid, DoubleBounce, FadingCircle, FoldingCube, Pulse, RotatingCircle, RotatingPlane, ThreeBounce, WanderingCubes, Wave. If invalid style is used, animation will be removed.Position can be: top, left, right, bottom. Size can be 100.
 
 ### Request Focus
 
-[[Method('Email Picker', 'Request Focus', False)]]
-
 Sets the textbox active.
 
+[[Method('Email Picker', 'Request Focus', False)]]
+
 ### Set Cursor At
+
+Set the cursor to the given position.
 
 [[Method('Email Picker', 'Set Cursor At', False, 'position')]]
 
 | Params | []() |
 |--------|------|
-|position|Number|
+|position|<span class="chip chip-number">Number</span>|
 
-
-Set the cursor to the given position.
 
 ### Set Cursor At End
 
-[[Method('Email Picker', 'Set Cursor At End', False)]]
-
 Set the cursor to the end of the text.
 
+[[Method('Email Picker', 'Set Cursor At End', False)]]
+
 ### Set Shadow
+
+Place a blurred shadow of text underneath the text, drawn with the specified x, y, radius, color (e.g. -11, 12, 13, black
 
 [[Method('Email Picker', 'Set Shadow', False, 'x', 'y', 'radius', 'color')]]
 
 | Params | []() |
 |--------|------|
-|x|Number|
-|y|Number|
-|radius|Number|
-|color|Number|
+|x|<span class="chip chip-number">Number</span>|
+|y|<span class="chip chip-number">Number</span>|
+|radius|<span class="chip chip-number">Number</span>|
+|color|<span class="chip chip-number">Number</span>|
 
-
-Place a blurred shadow of text underneath the text, drawn with the specified x, y, radius, color (e.g. -11, 12, 13, black
 
 ## Properties
 

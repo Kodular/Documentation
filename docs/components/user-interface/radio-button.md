@@ -12,22 +12,22 @@ A visible component that lets the user toggle between two states — checked and
 
 ### Changed
 
+Event invoked when the radio button state has been changed.
+
 [[Event('Radio Button', 'Changed', 'checked')]]
 
 | Params | []() |
 |--------|------|
-|checked|Boolean|
+|checked|<span class="chip chip-boolean">Boolean</span>|
 
-
-Event invoked when the radio button state has been changed.
 
 ## Methods
 
 ### Toggle
 
-[[Method('Radio Button', 'Toggle', False)]]
-
 Change the checked state of the view to the inverse of its current state
+
+[[Method('Radio Button', 'Toggle', False)]]
 
 ## Properties
 

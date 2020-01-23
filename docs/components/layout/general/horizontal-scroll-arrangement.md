@@ -14,15 +14,15 @@ This version is scrollable.
 
 ### Click
 
-[[Event('Horizontal Scroll Arrangement', 'Click')]]
-
 Click listener event.
+
+[[Event('Horizontal Scroll Arrangement', 'Click')]]
 
 ### Long Click
 
-[[Event('Horizontal Scroll Arrangement', 'Long Click')]]
-
 Long click listener event.
+
+[[Event('Horizontal Scroll Arrangement', 'Long Click')]]
 
 ## Properties
 

@@ -12,76 +12,76 @@ A visible component that draws a sequence of line segments on a Map component.
 
 ### Click
 
-[[Event('Line String', 'Click')]]
-
 The user clicked on the feature.
+
+[[Event('Line String', 'Click')]]
 
 ### Drag
 
-[[Event('Line String', 'Drag')]]
-
 The user dragged the map feature.
+
+[[Event('Line String', 'Drag')]]
 
 ### Long Click
 
-[[Event('Line String', 'Long Click')]]
-
 The user long-pressed on the feature. This event will only trigger if Draggable is false.
+
+[[Event('Line String', 'Long Click')]]
 
 ### Start Drag
 
-[[Event('Line String', 'Start Drag')]]
-
 The user started a drag operation.
+
+[[Event('Line String', 'Start Drag')]]
 
 ### Stop Drag
 
-[[Event('Line String', 'Stop Drag')]]
-
 The user stopped a drag operation.
+
+[[Event('Line String', 'Stop Drag')]]
 
 ## Methods
 
 ### Distance To Feature
 
-[[Method('Line String', 'Distance To Feature', True, 'mapFeature', 'centroids')]]
-
-{>>Returns `number`<<}
-
-| Params | []() |
-|--------|------|
-|map Feature|Component|
-|centroids|Boolean|
-
+<span class="chip chip-number">Returns: <i>Number</i></span> 
 
 Compute the distance, in meters, between two map features.
 
-### Distance To Point
-
-[[Method('Line String', 'Distance To Point', True, 'latitude', 'longitude', 'centroid')]]
-
-{>>Returns `number`<<}
+[[Method('Line String', 'Distance To Feature', True, 'mapFeature', 'centroids')]]
 
 | Params | []() |
 |--------|------|
-|latitude|Number|
-|longitude|Number|
-|centroid|Boolean|
+|map Feature|<span class="chip chip-component">Component</span>|
+|centroids|<span class="chip chip-boolean">Boolean</span>|
 
+
+### Distance To Point
+
+<span class="chip chip-number">Returns: <i>Number</i></span> 
 
 Compute the distance, in meters, between a map feature and a latitude, longitude point.
 
-### Hide Infobox
+[[Method('Line String', 'Distance To Point', True, 'latitude', 'longitude', 'centroid')]]
 
-[[Method('Line String', 'Hide Infobox', False)]]
+| Params | []() |
+|--------|------|
+|latitude|<span class="chip chip-number">Number</span>|
+|longitude|<span class="chip chip-number">Number</span>|
+|centroid|<span class="chip chip-boolean">Boolean</span>|
+
+
+### Hide Infobox
 
 Hide the infobox if it is shown. If the infobox is not visible this function has no effect.
 
+[[Method('Line String', 'Hide Infobox', False)]]
+
 ### Show Infobox
 
-[[Method('Line String', 'Show Infobox', False)]]
-
 Show the infobox for the feature. This will show the infobox even if
+
+[[Method('Line String', 'Show Infobox', False)]]
 
 ## Properties
 

@@ -14,16 +14,16 @@ A non-visible component that queries and monitors the device''s battery and its 
 
 ### Get Battery Info
 
-[[Method('Battery Utilities', 'Get Battery Info', True, 'key')]]
+<span class="chip chip-list">Returns: <i>List</i></span> 
 
-{>>Returns `list`<<}
+Returns a list showing battery info for the specified key. Key can be: HEALTH, LEVEL, PLUGGED, PRESENT, STATUS, CHARGE_STATUS, TECHNOLOGY, TEMPERATURE, VOLTAGE. If key is empty, then all battery info is returned.
+
+[[Method('Battery Utilities', 'Get Battery Info', True, 'key')]]
 
 | Params | []() |
 |--------|------|
-|key|Text|
+|key|<span class="chip chip-text">Text</span>|
 
-
-Returns a list showing battery info for the specified key. Key can be: HEALTH, LEVEL, PLUGGED, PRESENT, STATUS, CHARGE_STATUS, TECHNOLOGY, TEMPERATURE, VOLTAGE. If key is empty, then all battery info is returned.
 
 ## Properties
 

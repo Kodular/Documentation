@@ -14,184 +14,184 @@ A non-visible component that fetches specifications of the device.
 
 ### Got IMEI
 
+Event to get the IMEI after it was requested.
+
 [[Event('Device Utilities', 'Got IMEI', 'imei')]]
 
 | Params | []() |
 |--------|------|
-|imei|Text|
+|imei|<span class="chip chip-text">Text</span>|
 
-
-Event to get the IMEI after it was requested.
 
 ### Got Serial
+
+Event to get the serial number after it was requested.
 
 [[Event('Device Utilities', 'Got Serial', 'serial')]]
 
 | Params | []() |
 |--------|------|
-|serial|Text|
+|serial|<span class="chip chip-text">Text</span>|
 
-
-Event to get the serial number after it was requested.
 
 ## Methods
 
 ### Has Dangerous Apk Installed
 
-[[Method('Device Utilities', 'Has Dangerous Apk Installed', True)]]
-
-{>>Returns `boolean`<<}
+<span class="chip chip-boolean">Returns: <i>Boolean</i></span> 
 
 Returns TRUE if one of 12 known patching or root emulating packages is installed. The name of the package is not returned, so the user does not know which package name to change. Developed by Cian.
 
+[[Method('Device Utilities', 'Has Dangerous Apk Installed', True)]]
+
 ### Copy
+
+Copy text to clipboard. In case 'Show Success Toast' is true, the toast with your message will be shown after copying a text to the clipboard.
 
 [[Method('Device Utilities', 'Copy', False, 'text', 'successToastMessage')]]
 
 | Params | []() |
 |--------|------|
-|text|Text|
-|Success Toast Message|Text|
+|text|<span class="chip chip-text">Text</span>|
+|Success Toast Message|<span class="chip chip-text">Text</span>|
 
-
-Copy text to clipboard. In case 'Show Success Toast' is true, the toast with your message will be shown after copying a text to the clipboard.
 
 ### External Storage Available
 
-[[Method('Device Utilities', 'External Storage Available', True)]]
-
-{>>Returns `number`<<}
+<span class="chip chip-number">Returns: <i>Number</i></span> 
 
 Available size of external storage in Gigabytes.
 
+[[Method('Device Utilities', 'External Storage Available', True)]]
+
 ### External Storage Total
 
-[[Method('Device Utilities', 'External Storage Total', True)]]
-
-{>>Returns `number`<<}
+<span class="chip chip-number">Returns: <i>Number</i></span> 
 
 Total external storage size in Gigabytes.
 
+[[Method('Device Utilities', 'External Storage Total', True)]]
+
 ### External Storage Used
 
-[[Method('Device Utilities', 'External Storage Used', True)]]
-
-{>>Returns `number`<<}
+<span class="chip chip-number">Returns: <i>Number</i></span> 
 
 Size of used-external-storage in Gigabytes.
 
-### Get IMEI
+[[Method('Device Utilities', 'External Storage Used', True)]]
 
-[[Method('Device Utilities', 'Get IMEI', False)]]
+### Get IMEI
 
 Get the IMEI of the device. The result will be then at the 'Got IMEI' event.
 
-### Get Serial
+[[Method('Device Utilities', 'Get IMEI', False)]]
 
-[[Method('Device Utilities', 'Get Serial', False)]]
+### Get Serial
 
 A hardware serial number, if available. Alphanumeric only, case-insensitive. For apps targeting SDK higher than N_MR1 this field is set to UNKNOWN.
 
+[[Method('Device Utilities', 'Get Serial', False)]]
+
 ### Internal Storage Available
 
-[[Method('Device Utilities', 'Internal Storage Available', True)]]
-
-{>>Returns `number`<<}
+<span class="chip chip-number">Returns: <i>Number</i></span> 
 
 Size of available internal storage in Gigabytes.
 
+[[Method('Device Utilities', 'Internal Storage Available', True)]]
+
 ### Internal Storage Total
 
-[[Method('Device Utilities', 'Internal Storage Total', True)]]
-
-{>>Returns `number`<<}
+<span class="chip chip-number">Returns: <i>Number</i></span> 
 
 Total size of internal storage in Gigabytes.
 
+[[Method('Device Utilities', 'Internal Storage Total', True)]]
+
 ### Internal Storage Used
 
-[[Method('Device Utilities', 'Internal Storage Used', True)]]
-
-{>>Returns `number`<<}
+<span class="chip chip-number">Returns: <i>Number</i></span> 
 
 Size of used-internal-storage in Gigabytes.
 
+[[Method('Device Utilities', 'Internal Storage Used', True)]]
+
 ### Memory Free
 
-[[Method('Device Utilities', 'Memory Free', True)]]
-
-{>>Returns `number`<<}
+<span class="chip chip-number">Returns: <i>Number</i></span> 
 
 Total free RAM size in Gigabytes.
 
+[[Method('Device Utilities', 'Memory Free', True)]]
+
 ### Memory Total
 
-[[Method('Device Utilities', 'Memory Total', True)]]
-
-{>>Returns `number`<<}
+<span class="chip chip-number">Returns: <i>Number</i></span> 
 
 Total RAM size in Gigabytes.
 
+[[Method('Device Utilities', 'Memory Total', True)]]
+
 ### Memory Used
 
-[[Method('Device Utilities', 'Memory Used', True)]]
-
-{>>Returns `number`<<}
+<span class="chip chip-number">Returns: <i>Number</i></span> 
 
 Size of used-memory in Gigabytes.
 
+[[Method('Device Utilities', 'Memory Used', True)]]
+
 ### Parse
 
-[[Method('Device Utilities', 'Parse', True, 'text', 'start', 'end', 'ifTextNotFound')]]
-
-{>>Returns `text`<<}
-
-| Params | []() |
-|--------|------|
-|text|Text|
-|start|Text|
-|end|Text|
-|if Text Not Found|Text|
-
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 Parse a text between two strings. Example: text = abcdef, start = a, end = d, result = bc. If there is a problem the 'if Text Not Found' will be returned.
 
-### Paste
-
-[[Method('Device Utilities', 'Paste', True, 'successToastMessage')]]
-
-{>>Returns `text`<<}
+[[Method('Device Utilities', 'Parse', True, 'text', 'start', 'end', 'ifTextNotFound')]]
 
 | Params | []() |
 |--------|------|
-|Success Toast Message|Text|
+|text|<span class="chip chip-text">Text</span>|
+|start|<span class="chip chip-text">Text</span>|
+|end|<span class="chip chip-text">Text</span>|
+|if Text Not Found|<span class="chip chip-text">Text</span>|
 
+
+### Paste
+
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 Paste text from clipboard. In case 'Show Success Toast' is true, the toast with your message will be shown after pasting a text from the clipboard.
 
+[[Method('Device Utilities', 'Paste', True, 'successToastMessage')]]
+
+| Params | []() |
+|--------|------|
+|Success Toast Message|<span class="chip chip-text">Text</span>|
+
+
 ### Is Adb Debugging Enabled
 
-[[Method('Device Utilities', 'Is Adb Debugging Enabled', True)]]
-
-{>>Returns `boolean`<<}
+<span class="chip chip-boolean">Returns: <i>Boolean</i></span> 
 
 This returns TRUE if ADB debugging is enabled, which could be a sign of hacking your app, or a compromised device. Developed by Cian.
 
+[[Method('Device Utilities', 'Is Adb Debugging Enabled', True)]]
+
 ### Is Emulator
 
-[[Method('Device Utilities', 'Is Emulator', True)]]
-
-{>>Returns `boolean`<<}
+<span class="chip chip-boolean">Returns: <i>Boolean</i></span> 
 
 Returns TRUE if the device operating on an emulator. Developed by Cian.
 
+[[Method('Device Utilities', 'Is Emulator', True)]]
+
 ### Is Installed From Play Store
 
-[[Method('Device Utilities', 'Is Installed From Play Store', True)]]
-
-{>>Returns `boolean`<<}
+<span class="chip chip-boolean">Returns: <i>Boolean</i></span> 
 
 Returns TRUE if the app was installed from Play Store. Developed by Cian.
+
+[[Method('Device Utilities', 'Is Installed From Play Store', True)]]
 
 ## Properties
 

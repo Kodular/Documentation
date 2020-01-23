@@ -16,171 +16,171 @@ The difference between a `` Ball `` and an `` ImageSprite `` is that the latter 
 
 ### Collided With
 
+Event handler called when two enabled sprites (Balls or ImageSprites)collide. Note that checking for collisions with a rotated ImageSprite currentlychecks against its unrotated position. Therefore, collisionchecking will be inaccurate for tall narrow or short wide sprites that arerotated.
+
 [[Event('Ball', 'Collided With', 'other')]]
 
 | Params | []() |
 |--------|------|
-|other|Component|
+|other|<span class="chip chip-component">Component</span>|
 
-
-Event handler called when two enabled sprites (Balls or ImageSprites)collide. Note that checking for collisions with a rotated ImageSprite currentlychecks against its unrotated position. Therefore, collisionchecking will be inaccurate for tall narrow or short wide sprites that arerotated.
 
 ### Dragged
+
+Event handler called when a Ball is dragged. On all calls, the starting coordinates are where the screen was first touched, and the "current" coordinates describe the endpoint of the current line segment. On the first call within a given drag, the "previous" coordinates are the same as the starting coordinates; subsequently, they are the "current" coordinates from the prior call. Note that the Ball won't actually move anywhere in response to the Dragged event unless MoveTo is explicitly called. For smooth movement, each of its coordinates should be set to the sum of its initial value and the difference between its current and previous values.
 
 [[Event('Ball', 'Dragged', 'startX', 'startY', 'prevX', 'prevY', 'currentX', 'currentY')]]
 
 | Params | []() |
 |--------|------|
-|start X|Number|
-|start Y|Number|
-|prev X|Number|
-|prev Y|Number|
-|current X|Number|
-|current Y|Number|
+|start X|<span class="chip chip-number">Number</span>|
+|start Y|<span class="chip chip-number">Number</span>|
+|prev X|<span class="chip chip-number">Number</span>|
+|prev Y|<span class="chip chip-number">Number</span>|
+|current X|<span class="chip chip-number">Number</span>|
+|current Y|<span class="chip chip-number">Number</span>|
 
-
-Event handler called when a Ball is dragged. On all calls, the starting coordinates are where the screen was first touched, and the "current" coordinates describe the endpoint of the current line segment. On the first call within a given drag, the "previous" coordinates are the same as the starting coordinates; subsequently, they are the "current" coordinates from the prior call. Note that the Ball won't actually move anywhere in response to the Dragged event unless MoveTo is explicitly called. For smooth movement, each of its coordinates should be set to the sum of its initial value and the difference between its current and previous values.
 
 ### Edge Reached
+
+Event handler called when the Ball reaches an edge of the screen. If Bounce is then called with that edge, the Ball will appear to bounce off of the edge it reached. Edge here is represented as an integer that indicates one of eight directions north (1), northeast (2), east (3), southeast (4), south (-1), southwest (-2), west (-3), and northwest (-4).
 
 [[Event('Ball', 'Edge Reached', 'edge')]]
 
 | Params | []() |
 |--------|------|
-|edge|Number|
+|edge|<span class="chip chip-number">Number</span>|
 
-
-Event handler called when the Ball reaches an edge of the screen. If Bounce is then called with that edge, the Ball will appear to bounce off of the edge it reached. Edge here is represented as an integer that indicates one of eight directions north (1), northeast (2), east (3), southeast (4), south (-1), southwest (-2), west (-3), and northwest (-4).
 
 ### Flung
+
+Event handler called when a fling gesture (quick swipe) is made on an enabled Ball. This provides the x and y coordinates of the start of the fling (relative to the upper left of the canvas), the speed (pixels per millisecond), the heading (0-360 degrees), and the x and y velocity components of the fling's vector.
 
 [[Event('Ball', 'Flung', 'x', 'y', 'speed', 'heading', 'xvel', 'yvel')]]
 
 | Params | []() |
 |--------|------|
-|x|Number|
-|y|Number|
-|speed|Number|
-|heading|Number|
-|x vel|Number|
-|y vel|Number|
+|x|<span class="chip chip-number">Number</span>|
+|y|<span class="chip chip-number">Number</span>|
+|speed|<span class="chip chip-number">Number</span>|
+|heading|<span class="chip chip-number">Number</span>|
+|x vel|<span class="chip chip-number">Number</span>|
+|y vel|<span class="chip chip-number">Number</span>|
 
-
-Event handler called when a fling gesture (quick swipe) is made on an enabled Ball. This provides the x and y coordinates of the start of the fling (relative to the upper left of the canvas), the speed (pixels per millisecond), the heading (0-360 degrees), and the x and y velocity components of the fling's vector.
 
 ### No Longer Colliding With
+
+Event handler called when a pair of sprites (Balls and ImageSprites) are no longer colliding.
 
 [[Event('Ball', 'No Longer Colliding With', 'other')]]
 
 | Params | []() |
 |--------|------|
-|other|Component|
+|other|<span class="chip chip-component">Component</span>|
 
-
-Event handler called when a pair of sprites (Balls and ImageSprites) are no longer colliding.
 
 ### Touch Down
+
+Event handler called when the user begins touching an enabled Ball (placing their finger on a Ball and leaving it there). This provides the x and y coordinates of the touch, relative to the upper left of the canvas.
 
 [[Event('Ball', 'Touch Down', 'x', 'y')]]
 
 | Params | []() |
 |--------|------|
-|x|Number|
-|y|Number|
+|x|<span class="chip chip-number">Number</span>|
+|y|<span class="chip chip-number">Number</span>|
 
-
-Event handler called when the user begins touching an enabled Ball (placing their finger on a Ball and leaving it there). This provides the x and y coordinates of the touch, relative to the upper left of the canvas.
 
 ### Touch Up
+
+Event handler called when the user stops touching an enabled Ball (lifting their finger after a TouchDown event). This provides the x and y coordinates of the touch, relative to the upper left of the canvas.
 
 [[Event('Ball', 'Touch Up', 'x', 'y')]]
 
 | Params | []() |
 |--------|------|
-|x|Number|
-|y|Number|
+|x|<span class="chip chip-number">Number</span>|
+|y|<span class="chip chip-number">Number</span>|
 
-
-Event handler called when the user stops touching an enabled Ball (lifting their finger after a TouchDown event). This provides the x and y coordinates of the touch, relative to the upper left of the canvas.
 
 ### Touched
+
+Event handler called when the user touches an enabled Ball and then immediately lifts their finger. The provided x and y coordinates are relative to the upper left of the canvas.
 
 [[Event('Ball', 'Touched', 'x', 'y')]]
 
 | Params | []() |
 |--------|------|
-|x|Number|
-|y|Number|
+|x|<span class="chip chip-number">Number</span>|
+|y|<span class="chip chip-number">Number</span>|
 
-
-Event handler called when the user touches an enabled Ball and then immediately lifts their finger. The provided x and y coordinates are relative to the upper left of the canvas.
 
 ## Methods
 
 ### Bounce
 
+Makes the Ball bounce, as if off a wall. For normal bouncing, the edge argument should be the one returned by EdgeReached.
+
 [[Method('Ball', 'Bounce', False, 'edge')]]
 
 | Params | []() |
 |--------|------|
-|edge|Number|
+|edge|<span class="chip chip-number">Number</span>|
 
-
-Makes the Ball bounce, as if off a wall. For normal bouncing, the edge argument should be the one returned by EdgeReached.
 
 ### Colliding With
 
-[[Method('Ball', 'Colliding With', True, 'other')]]
-
-{>>Returns `boolean`<<}
-
-| Params | []() |
-|--------|------|
-|other|Component|
-
+<span class="chip chip-boolean">Returns: <i>Boolean</i></span> 
 
 Indicates whether a collision has been registered between this Ball and the passed sprite (Ball or ImageSprite).
 
-### Move Into Bounds
+[[Method('Ball', 'Colliding With', True, 'other')]]
 
-[[Method('Ball', 'Move Into Bounds', False)]]
+| Params | []() |
+|--------|------|
+|other|<span class="chip chip-component">Component</span>|
+
+
+### Move Into Bounds
 
 Moves the Ball back in bounds if part of it extends out of bounds, having no effect otherwise. If the Ball is too wide to fit on the canvas, this aligns the left side of the Ball with the left side of the canvas. If the Ball is too tall to fit on the canvas, this aligns the top side of the Ball with the top side of the canvas.
 
+[[Method('Ball', 'Move Into Bounds', False)]]
+
 ### Move To
+
+Sets the x and y coordinates of the Ball. If CenterAtOrigin is true, the center of the Ball will be placed here. Otherwise, the top left edge of the Ball will be placed at the specified coordinates.
 
 [[Method('Ball', 'Move To', False, 'x', 'y')]]
 
 | Params | []() |
 |--------|------|
-|x|Number|
-|y|Number|
+|x|<span class="chip chip-number">Number</span>|
+|y|<span class="chip chip-number">Number</span>|
 
-
-Sets the x and y coordinates of the Ball. If CenterAtOrigin is true, the center of the Ball will be placed here. Otherwise, the top left edge of the Ball will be placed at the specified coordinates.
 
 ### Point In Direction
+
+Sets the heading of the Ball toward the point with the coordinates (x, y).
 
 [[Method('Ball', 'Point In Direction', False, 'x', 'y')]]
 
 | Params | []() |
 |--------|------|
-|x|Number|
-|y|Number|
+|x|<span class="chip chip-number">Number</span>|
+|y|<span class="chip chip-number">Number</span>|
 
-
-Sets the heading of the Ball toward the point with the coordinates (x, y).
 
 ### Point Towards
+
+Turns the Ball to point towards a designated target sprite (Ball or ImageSprite). The new heading will be parallel to the line joining the centerpoints of the two sprites.
 
 [[Method('Ball', 'Point Towards', False, 'target')]]
 
 | Params | []() |
 |--------|------|
-|target|Component|
+|target|<span class="chip chip-component">Component</span>|
 
-
-Turns the Ball to point towards a designated target sprite (Ball or ImageSprite). The new heading will be parallel to the line joining the centerpoints of the two sprites.
 
 ## Properties
 

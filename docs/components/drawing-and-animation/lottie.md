@@ -12,110 +12,110 @@ A visible component that displays animations from a json or zip file, or from a 
 
 ### Animation End
 
-[[Event('Lottie', 'Animation End')]]
-
 Triggers when the animation ends.
+
+[[Event('Lottie', 'Animation End')]]
 
 ### Animation Repeat
 
-[[Event('Lottie', 'Animation Repeat')]]
-
 Triggers when the animation repeated.
+
+[[Event('Lottie', 'Animation Repeat')]]
 
 ### Animation Start
 
-[[Event('Lottie', 'Animation Start')]]
-
 Triggers when the animation starts.
+
+[[Event('Lottie', 'Animation Start')]]
 
 ### Click
 
-[[Event('Lottie', 'Click')]]
-
 Triggers when the components was clicked.
+
+[[Event('Lottie', 'Click')]]
 
 ### Long Click
 
-[[Event('Lottie', 'Long Click')]]
-
 Triggers when the components was long clicked.
+
+[[Event('Lottie', 'Long Click')]]
 
 ## Methods
 
 ### End Frame
 
+Set the frame where you want the animation to end.
+
 [[Method('Lottie', 'End Frame', False, 'frame')]]
 
 | Params | []() |
 |--------|------|
-|frame|Number|
+|frame|<span class="chip chip-number">Number</span>|
 
-
-Set the frame where you want the animation to end.
 
 ### Get Current Frame
 
-[[Method('Lottie', 'Get Current Frame', True)]]
-
-{>>Returns `number`<<}
+<span class="chip chip-number">Returns: <i>Number</i></span> 
 
 Get the frame where the animation is now.
 
+[[Method('Lottie', 'Get Current Frame', True)]]
+
 ### Get Frame Count
 
-[[Method('Lottie', 'Get Frame Count', True)]]
-
-{>>Returns `number`<<}
+<span class="chip chip-number">Returns: <i>Number</i></span> 
 
 Get the count of frames in the animation.
 
+[[Method('Lottie', 'Get Frame Count', True)]]
+
 ### Is Animating
 
-[[Method('Lottie', 'Is Animating', True)]]
-
-{>>Returns `boolean`<<}
+<span class="chip chip-boolean">Returns: <i>Boolean</i></span> 
 
 Check if the Lottie component is animating.
 
-### Pause Animation
+[[Method('Lottie', 'Is Animating', True)]]
 
-[[Method('Lottie', 'Pause Animation', False)]]
+### Pause Animation
 
 Pause the animation on the Lottie component.
 
-### Resume Animation
+[[Method('Lottie', 'Pause Animation', False)]]
 
-[[Method('Lottie', 'Resume Animation', False)]]
+### Resume Animation
 
 Resume the animation on the Lottie component.
 
+[[Method('Lottie', 'Resume Animation', False)]]
+
 ### Set Current Frame
+
+Set the frame where you want the animation to be now.
 
 [[Method('Lottie', 'Set Current Frame', False, 'frame')]]
 
 | Params | []() |
 |--------|------|
-|frame|Number|
+|frame|<span class="chip chip-number">Number</span>|
 
-
-Set the frame where you want the animation to be now.
 
 ### Start Animation
 
-[[Method('Lottie', 'Start Animation', False)]]
-
 Start the animation on the Lottie component.
 
+[[Method('Lottie', 'Start Animation', False)]]
+
 ### Start Frame
+
+Set the frame where you want the animation to start.
 
 [[Method('Lottie', 'Start Frame', False, 'frame')]]
 
 | Params | []() |
 |--------|------|
-|frame|Number|
+|frame|<span class="chip chip-number">Number</span>|
 
-
-Set the frame where you want the animation to start.
 
 ## Properties
 

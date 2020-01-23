@@ -12,45 +12,45 @@ A Label displays a piece of text, which is specified through the `` Text `` prop
 
 ### Click
 
-[[Event('Label', 'Click')]]
-
 Event to detect that a user has done a simple "Click".
+
+[[Event('Label', 'Click')]]
 
 ### Long Click
 
-[[Event('Label', 'Long Click')]]
-
 Event to detect that a user has done a simple "Long Click".
+
+[[Event('Label', 'Long Click')]]
 
 ## Methods
 
 ### Set Animation Style
 
+Allows you to set animation style. Valid (case-insensitive) values are: ChasingDots, Circle, CubeGrid, DoubleBounce, FadingCircle, FoldingCube, Pulse, RotatingCircle, RotatingPlane, ThreeBounce, WanderingCubes, Wave. If invalid style is used, animation will be removed.Position can be: top, left, right, bottom. Size can be 100.
+
 [[Method('Label', 'Set Animation Style', False, 'style', 'position', 'size', 'color')]]
 
 | Params | []() |
 |--------|------|
-|style|Text|
-|position|Text|
-|size|Number|
-|color|Number|
+|style|<span class="chip chip-text">Text</span>|
+|position|<span class="chip chip-text">Text</span>|
+|size|<span class="chip chip-number">Number</span>|
+|color|<span class="chip chip-number">Number</span>|
 
-
-Allows you to set animation style. Valid (case-insensitive) values are: ChasingDots, Circle, CubeGrid, DoubleBounce, FadingCircle, FoldingCube, Pulse, RotatingCircle, RotatingPlane, ThreeBounce, WanderingCubes, Wave. If invalid style is used, animation will be removed.Position can be: top, left, right, bottom. Size can be 100.
 
 ### Set Shadow
+
+Place a blurred shadow of text underneath the text, drawn with the specified x, y, radius, color (e.g. -11, 12, 13, black
 
 [[Method('Label', 'Set Shadow', False, 'x', 'y', 'radius', 'color')]]
 
 | Params | []() |
 |--------|------|
-|x|Number|
-|y|Number|
-|radius|Number|
-|color|Number|
+|x|<span class="chip chip-number">Number</span>|
+|y|<span class="chip chip-number">Number</span>|
+|radius|<span class="chip chip-number">Number</span>|
+|color|<span class="chip chip-number">Number</span>|
 
-
-Place a blurred shadow of text underneath the text, drawn with the specified x, y, radius, color (e.g. -11, 12, 13, black
 
 ## Properties
 

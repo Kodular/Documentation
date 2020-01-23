@@ -12,86 +12,86 @@ A visible component that shows a live preview of the user''s camera as its backg
 
 ### Clicked
 
-[[Event('Surface View', 'Clicked')]]
-
 Event to detect clicks on the camera preview.
 
+[[Event('Surface View', 'Clicked')]]
+
 ### Face Detected
+
+Event to detect that there are faces in the front of the camera.
 
 [[Event('Surface View', 'Face Detected', 'numbers')]]
 
 | Params | []() |
 |--------|------|
-|numbers|Text|
+|numbers|<span class="chip chip-text">Text</span>|
 
-
-Event to detect that there are faces in the front of the camera.
 
 ### Got Preview
+
+Event to get the response from the camera preview as image file. The picture is by default in landscape mode. This event will only work if the option "Save Preview As File" is enabled/ true.
 
 [[Event('Surface View', 'Got Preview', 'image')]]
 
 | Params | []() |
 |--------|------|
-|image|Text|
+|image|<span class="chip chip-text">Text</span>|
 
-
-Event to get the response from the camera preview as image file. The picture is by default in landscape mode. This event will only work if the option "Save Preview As File" is enabled/ true.
 
 ### Long Clicked
 
-[[Event('Surface View', 'Long Clicked')]]
-
 Event to detect long clicks on the camera preview.
 
+[[Event('Surface View', 'Long Clicked')]]
+
 ### Picture Created
+
+Event to detect that the user has taken a picture from the preview.
 
 [[Event('Surface View', 'Picture Created', 'image')]]
 
 | Params | []() |
 |--------|------|
-|image|Text|
+|image|<span class="chip chip-text">Text</span>|
 
-
-Event to detect that the user has taken a picture from the preview.
 
 ### Preview Paused
 
-[[Event('Surface View', 'Preview Paused')]]
-
 Event to detect that the user paused the camera preview.
+
+[[Event('Surface View', 'Preview Paused')]]
 
 ### Preview Stoped
 
-[[Event('Surface View', 'Preview Stoped')]]
-
 Event to detect that the user stopped the camera preview.
+
+[[Event('Surface View', 'Preview Stoped')]]
 
 ## Methods
 
 ### Pause Preview
 
-[[Method('Surface View', 'Pause Preview', False)]]
-
 Pause the camera preview.
+
+[[Method('Surface View', 'Pause Preview', False)]]
 
 ### Start Preview
 
-[[Method('Surface View', 'Start Preview', False)]]
-
 Start the camera preview.
+
+[[Method('Surface View', 'Start Preview', False)]]
 
 ### Stop Preview
 
-[[Method('Surface View', 'Stop Preview', False)]]
-
 Stop the camera preview.
+
+[[Method('Surface View', 'Stop Preview', False)]]
 
 ### Take Picture
 
-[[Method('Surface View', 'Take Picture', False)]]
-
 Take a picture from the camera preview.
+
+[[Method('Surface View', 'Take Picture', False)]]
 
 ## Properties
 

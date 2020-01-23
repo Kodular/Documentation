@@ -12,109 +12,109 @@ A FeatureColletion contains one or more map features as a group. Any events fire
 
 ### Feature Click
 
+The user clicked on a map feature.
+
 [[Event('Feature Collection', 'Feature Click', 'feature')]]
 
 | Params | []() |
 |--------|------|
-|feature|Component|
+|feature|<span class="chip chip-component">Component</span>|
 
-
-The user clicked on a map feature.
 
 ### Feature Drag
+
+The user dragged a map feature.
 
 [[Event('Feature Collection', 'Feature Drag', 'feature')]]
 
 | Params | []() |
 |--------|------|
-|feature|Component|
+|feature|<span class="chip chip-component">Component</span>|
 
-
-The user dragged a map feature.
 
 ### Feature Long Click
+
+The user long-pressed on a map feature.
 
 [[Event('Feature Collection', 'Feature Long Click', 'feature')]]
 
 | Params | []() |
 |--------|------|
-|feature|Component|
+|feature|<span class="chip chip-component">Component</span>|
 
-
-The user long-pressed on a map feature.
 
 ### Feature Start Drag
+
+The user started dragging a map feature.
 
 [[Event('Feature Collection', 'Feature Start Drag', 'feature')]]
 
 | Params | []() |
 |--------|------|
-|feature|Component|
+|feature|<span class="chip chip-component">Component</span>|
 
-
-The user started dragging a map feature.
 
 ### Feature Stop Drag
+
+The user stopped dragging a map feature.
 
 [[Event('Feature Collection', 'Feature Stop Drag', 'feature')]]
 
 | Params | []() |
 |--------|------|
-|feature|Component|
+|feature|<span class="chip chip-component">Component</span>|
 
-
-The user stopped dragging a map feature.
 
 ### Got Features
+
+A GeoJSON document was successfully read from url. The features specified in the document are provided as a list in features.
 
 [[Event('Feature Collection', 'Got Features', 'url', 'features')]]
 
 | Params | []() |
 |--------|------|
-|url|Text|
-|features|List|
+|url|<span class="chip chip-text">Text</span>|
+|features|<span class="chip chip-list">List</span>|
 
-
-A GeoJSON document was successfully read from url. The features specified in the document are provided as a list in features.
 
 ### Load Error
+
+An error was encountered while processing a GeoJSON document at the given url. The responseCode parameter will contain an HTTP status code and the errorMessage parameter will contain a detailed error message.
 
 [[Event('Feature Collection', 'Load Error', 'url', 'responseCode', 'errorMessage')]]
 
 | Params | []() |
 |--------|------|
-|url|Text|
-|response Code|Number|
-|error Message|Text|
+|url|<span class="chip chip-text">Text</span>|
+|response Code|<span class="chip chip-number">Number</span>|
+|error Message|<span class="chip chip-text">Text</span>|
 
-
-An error was encountered while processing a GeoJSON document at the given url. The responseCode parameter will contain an HTTP status code and the errorMessage parameter will contain a detailed error message.
 
 ## Methods
 
 ### Feature From Description
 
-[[Method('Feature Collection', 'Feature From Description', True, 'description')]]
-
-{>>Returns `any`<<}
-
-| Params | []() |
-|--------|------|
-|description|List|
-
+<span class="chip chip-any">Returns: <i>Any</i></span> 
 
 Convert a feature description into an App Inventor map feature. Currently the onlysupported conversion is from a GeoJSON point to Marker component. If the feature hasproperties, they will be mapped into App Inventor properties using the following mapping:description becomes Description;draggable becomes Draggable;infobox becomes EnableInfobox;fill becomes FillColor;fill-opacity becomes FillOpacity;image becomes ImageAsset;stroke becomes StrokeColor;stroke-opacity becomes StrokeOpacity;stroke-width becomes StrokeWidth;title becomes Title;visible becomes Visible
 
+[[Method('Feature Collection', 'Feature From Description', True, 'description')]]
+
+| Params | []() |
+|--------|------|
+|description|<span class="chip chip-list">List</span>|
+
+
 ### Load From URL
+
+Load a feature collection in [GeoJSON](https://en.wikipedia.org/wiki/GeoJSON) format from the given url. On success, the event GotFeatures will be raised with the given url and a list of the features parsed from the GeoJSON as a list of (key, value) pairs. On failure, the LoadError event will be raised with any applicable HTTP response code and error message.
 
 [[Method('Feature Collection', 'Load From URL', False, 'url')]]
 
 | Params | []() |
 |--------|------|
-|url|Text|
+|url|<span class="chip chip-text">Text</span>|
 
-
-Load a feature collection in [GeoJSON](https://en.wikipedia.org/wiki/GeoJSON) format from the given url. On success, the event GotFeatures will be raised with the given url and a list of the features parsed from the GeoJSON as a list of (key, value) pairs. On failure, the LoadError event will be raised with any applicable HTTP response code and error message.
 
 ## Properties
 

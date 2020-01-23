@@ -13,27 +13,27 @@ Cards are panels with a set elevation and border radius, meant to draw the user'
 
 ### Click
 
-[[Event('Card View', 'Click')]]
-
 Event to detect that a user has done a simple "Click".
+
+[[Event('Card View', 'Click')]]
 
 ### Long Click
 
-[[Event('Card View', 'Long Click')]]
-
 Event to detect that a user has done a simple "Long click".
+
+[[Event('Card View', 'Long Click')]]
 
 ### Touch Down
 
-[[Event('Card View', 'Touch Down')]]
-
 Event to detect that a user has done a simple touch down on the card.
+
+[[Event('Card View', 'Touch Down')]]
 
 ### Touch Up
 
-[[Event('Card View', 'Touch Up')]]
-
 Event to detect that a user has done a simple touch up on the card.
+
+[[Event('Card View', 'Touch Up')]]
 
 ## Properties
 

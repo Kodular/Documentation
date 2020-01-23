@@ -27,200 +27,200 @@ You must obtain a Consumer Key and Consumer Secret for Twitter authorization spe
 
 ### Direct Messages Received
 
+This event is raised when the recent messages requested through `` RequestDirectMessages `` have been retrieved. A list of the messages can then be found in the `` messages `` parameter or the `` Messages `` property.
+
 [[Event('Twitter', 'Direct Messages Received', 'messages')]]
 
 | Params | []() |
 |--------|------|
-|messages|List|
+|messages|<span class="chip chip-list">List</span>|
 
-
-This event is raised when the recent messages requested through `` RequestDirectMessages `` have been retrieved. A list of the messages can then be found in the `` messages `` parameter or the `` Messages `` property.
 
 ### Followers Received
+
+This event is raised when all of the followers of the logged-in user requested through `` RequestFollowers `` have been retrieved. A list of the followers can then be found in the `` followers `` parameter or the `` Followers `` property.
 
 [[Event('Twitter', 'Followers Received', 'followers2')]]
 
 | Params | []() |
 |--------|------|
-|followers 2|List|
+|followers 2|<span class="chip chip-list">List</span>|
 
-
-This event is raised when all of the followers of the logged-in user requested through `` RequestFollowers `` have been retrieved. A list of the followers can then be found in the `` followers `` parameter or the `` Followers `` property.
 
 ### Friend Timeline Received
+
+This event is raised when the messages requested through `` RequestFriendTimeline `` have been retrieved. The `` timeline `` parameter and the `` Timeline `` property will contain a list of lists, where each sub-list contains a status update of the form (username message)
 
 [[Event('Twitter', 'Friend Timeline Received', 'timeline')]]
 
 | Params | []() |
 |--------|------|
-|timeline|List|
+|timeline|<span class="chip chip-list">List</span>|
 
-
-This event is raised when the messages requested through `` RequestFriendTimeline `` have been retrieved. The `` timeline `` parameter and the `` Timeline `` property will contain a list of lists, where each sub-list contains a status update of the form (username message)
 
 ### Is Authorized
 
-[[Event('Twitter', 'Is Authorized')]]
-
 This event is raised after the program calls `` Authorize `` if the authorization was successful. It is also called after a call to `` CheckAuthorized `` if we already have a valid access token. After this event has been raised, any other method for this component can be called.
 
+[[Event('Twitter', 'Is Authorized')]]
+
 ### Mentions Received
+
+This event is raised when the mentions of the logged-in user requested through `` RequestMentions `` have been retrieved. A list of the mentions can then be found in the `` mentions `` parameter or the `` Mentions `` property.
 
 [[Event('Twitter', 'Mentions Received', 'mentions')]]
 
 | Params | []() |
 |--------|------|
-|mentions|List|
+|mentions|<span class="chip chip-list">List</span>|
 
-
-This event is raised when the mentions of the logged-in user requested through `` RequestMentions `` have been retrieved. A list of the mentions can then be found in the `` mentions `` parameter or the `` Mentions `` property.
 
 ### Search Successful
+
+This event is raised when the results of the search requested through `` SearchSuccessful `` have been retrieved. A list of the results can then be found in the `` results `` parameter or the `` Results `` property.
 
 [[Event('Twitter', 'Search Successful', 'searchResults')]]
 
 | Params | []() |
 |--------|------|
-|search Results|List|
+|search Results|<span class="chip chip-list">List</span>|
 
-
-This event is raised when the results of the search requested through `` SearchSuccessful `` have been retrieved. A list of the results can then be found in the `` results `` parameter or the `` Results `` property.
 
 ## Methods
 
 ### Authorize
 
-[[Method('Twitter', 'Authorize', False)]]
-
 Redirects user to login to Twitter via the Web browser using the OAuth protocol if we don't already have authorization.
+
+[[Method('Twitter', 'Authorize', False)]]
 
 ### Check Authorized
 
-[[Method('Twitter', 'Check Authorized', False)]]
-
 Checks whether we already have access, and if so, causes IsAuthorized event handler to be called.
+
+[[Method('Twitter', 'Check Authorized', False)]]
 
 ### De Authorize
 
-[[Method('Twitter', 'De Authorize', False)]]
-
 Removes Twitter authorization from this running app instance
 
+[[Method('Twitter', 'De Authorize', False)]]
+
 ### Direct Message
-
-[[Method('Twitter', 'Direct Message', False, 'user', 'message')]]
-
-| Params | []() |
-|--------|------|
-|user|Text|
-|message|Text|
-
 
 This sends a direct (private) message to the specified user. The message will be trimmed if it exceeds 160characters. 
 
 <u>Requirements</u>: This should only be called after the `` IsAuthorized `` event has been raised, indicating that the user has successfully logged in to Twitter.
 
+[[Method('Twitter', 'Direct Message', False, 'user', 'message')]]
+
+| Params | []() |
+|--------|------|
+|user|<span class="chip chip-text">Text</span>|
+|message|<span class="chip chip-text">Text</span>|
+
+
 ### Follow
+
+Starts following a user.
 
 [[Method('Twitter', 'Follow', False, 'user')]]
 
 | Params | []() |
 |--------|------|
-|user|Text|
+|user|<span class="chip chip-text">Text</span>|
 
-
-Starts following a user.
 
 ### Login
+
+Twitter's API no longer supports login via username and password. Use the Authorize call instead.
 
 [[Method('Twitter', 'Login', False, 'username', 'password')]]
 
 | Params | []() |
 |--------|------|
-|username|Text|
-|password|Text|
+|username|<span class="chip chip-text">Text</span>|
+|password|<span class="chip chip-text">Text</span>|
 
-
-Twitter's API no longer supports login via username and password. Use the Authorize call instead.
 
 ### Request Direct Messages
-
-[[Method('Twitter', 'Request Direct Messages', False)]]
 
 Requests the 20 most recent direct messages sent to the logged-in user. When the messages have been retrieved, the system will raise the `` DirectMessagesReceived `` event and set the `` DirectMessages `` property to the list of messages.
 
 <u>Requirements</u>: This should only be called after the `` IsAuthorized `` event has been raised, indicating that the user has successfully logged in to Twitter.
 
-### Request Followers
+[[Method('Twitter', 'Request Direct Messages', False)]]
 
-[[Method('Twitter', 'Request Followers', False)]]
+### Request Followers
 
 Gets who is following you.
 
-### Request Friend Timeline
+[[Method('Twitter', 'Request Followers', False)]]
 
-[[Method('Twitter', 'Request Friend Timeline', False)]]
+### Request Friend Timeline
 
 Gets the most recent 20 messages in the user's timeline.
 
-### Request Mentions
+[[Method('Twitter', 'Request Friend Timeline', False)]]
 
-[[Method('Twitter', 'Request Mentions', False)]]
+### Request Mentions
 
 Requests the 20 most recent mentions of the logged-in user. When the mentions have been retrieved, the system will raise the `` MentionsReceived `` event and set the `` Mentions `` property to the list of mentions.
 
 <u>Requirements</u>: This should only be called after the `` IsAuthorized `` event has been raised, indicating that the user has successfully logged in to Twitter.
 
+[[Method('Twitter', 'Request Mentions', False)]]
+
 ### Search Twitter
-
-[[Method('Twitter', 'Search Twitter', False, 'query')]]
-
-| Params | []() |
-|--------|------|
-|query|Text|
-
 
 This searches Twitter for the given String query.
 
 <u>Requirements</u>: This should only be called after the `` IsAuthorized `` event has been raised, indicating that the user has successfully logged in to Twitter.
 
+[[Method('Twitter', 'Search Twitter', False, 'query')]]
+
+| Params | []() |
+|--------|------|
+|query|<span class="chip chip-text">Text</span>|
+
+
 ### Stop Following
+
+Stops following a user.
 
 [[Method('Twitter', 'Stop Following', False, 'user')]]
 
 | Params | []() |
 |--------|------|
-|user|Text|
+|user|<span class="chip chip-text">Text</span>|
 
-
-Stops following a user.
 
 ### Tweet
-
-[[Method('Twitter', 'Tweet', False, 'status')]]
-
-| Params | []() |
-|--------|------|
-|status|Text|
-
 
 This sends a tweet as the logged-in user with the specified Text, which will be trimmed if it exceeds 160 characters. 
 
 <u>Requirements</u>: This should only be called after the `` IsAuthorized `` event has been raised, indicating that the user has successfully logged in to Twitter.
 
+[[Method('Twitter', 'Tweet', False, 'status')]]
+
+| Params | []() |
+|--------|------|
+|status|<span class="chip chip-text">Text</span>|
+
+
 ### Tweet With Image
+
+This sends a tweet as the logged-in user with the specified Text and a path to the image to be uploaded, which will be trimmed if it exceeds 160 characters. If an image is not found or invalid, only the text will be tweeted.
+
+<u>Requirements</u>: This should only be called after the `` IsAuthorized `` event has been raised, indicating that the user has successfully logged in to Twitter.
 
 [[Method('Twitter', 'Tweet With Image', False, 'status', 'imagePath')]]
 
 | Params | []() |
 |--------|------|
-|status|Text|
-|image Path|Text|
+|status|<span class="chip chip-text">Text</span>|
+|image Path|<span class="chip chip-text">Text</span>|
 
-
-This sends a tweet as the logged-in user with the specified Text and a path to the image to be uploaded, which will be trimmed if it exceeds 160 characters. If an image is not found or invalid, only the text will be tweeted.
-
-<u>Requirements</u>: This should only be called after the `` IsAuthorized `` event has been raised, indicating that the user has successfully logged in to Twitter.
 
 ## Properties
 

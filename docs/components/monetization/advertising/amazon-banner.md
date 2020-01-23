@@ -12,33 +12,33 @@ AdAmazon component allows you to monetize your app. You must have a valid publis
 
 ### Ad Dismissed
 
-[[Event('Amazon Banner', 'Ad Dismissed')]]
-
 Event to detect that a ad was dismissed.
+
+[[Event('Amazon Banner', 'Ad Dismissed')]]
 
 ### Ad Expanded
 
-[[Event('Amazon Banner', 'Ad Expanded')]]
-
 Event to detect that a ad was expanded.
 
+[[Event('Amazon Banner', 'Ad Expanded')]]
+
 ### Ad Failed To Load
+
+Event to detect that the try to load a ad was not successful.
 
 [[Event('Amazon Banner', 'Ad Failed To Load', 'errCode', 'errorMessage')]]
 
 | Params | []() |
 |--------|------|
-|error Code|Text|
-|error Message|Text|
+|error Code|<span class="chip chip-text">Text</span>|
+|error Message|<span class="chip chip-text">Text</span>|
 
-
-Event to detect that the try to load a ad was not successful.
 
 ### Ad Loaded
 
-[[Event('Amazon Banner', 'Ad Loaded')]]
-
 Event to detect that a ad was loaded.
+
+[[Event('Amazon Banner', 'Ad Loaded')]]
 
 ## Properties
 

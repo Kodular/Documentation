@@ -14,66 +14,65 @@ A non-visible component that performs operations like conversion between formats
 
 ### Convert Hex To Int
 
-[[Method('Color Utilities', 'Convert Hex To Int', True, 'hexColor')]]
-
-{>>Returns `number`<<}
-
-| Params | []() |
-|--------|------|
-|hex Color|Text|
-
+<span class="chip chip-number">Returns: <i>Number</i></span> 
 
 Convert a hex color to a integer color. The result is returned as integer.
 
-### Convert Int To Hex
-
-[[Method('Color Utilities', 'Convert Int To Hex', True, 'color')]]
-
-{>>Returns `text`<<}
+[[Method('Color Utilities', 'Convert Hex To Int', True, 'hexColor')]]
 
 | Params | []() |
 |--------|------|
-|color|Number|
+|hex Color|<span class="chip chip-text">Text</span>|
 
+
+### Convert Int To Hex
+
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 Convert a integer color to a hex color. The result is returned as string.
 
-### Get Luminance
-
-[[Method('Color Utilities', 'Get Luminance', True, 'color')]]
-
-{>>Returns `number`<<}
+[[Method('Color Utilities', 'Convert Int To Hex', True, 'color')]]
 
 | Params | []() |
 |--------|------|
-|color|Number|
+|color|<span class="chip chip-number">Number</span>|
 
+
+### Get Luminance
+
+<span class="chip chip-number">Returns: <i>Number</i></span> 
 
 Returns the luminance of a color as a float between 0.0 and 1.0. The result is returned as double.
 
-### Is Dark Color
-
-[[Method('Color Utilities', 'Is Dark Color', True, 'color')]]
-
-{>>Returns `boolean`<<}
+[[Method('Color Utilities', 'Get Luminance', True, 'color')]]
 
 | Params | []() |
 |--------|------|
-|color|Number|
+|color|<span class="chip chip-number">Number</span>|
 
+
+### Is Dark Color
+
+<span class="chip chip-boolean">Returns: <i>Boolean</i></span> 
 
 Returns true if the color is dark, else it returns false, means the color is light. The result is returned as boolean.
 
-### Set Alpha Value
-
-[[Method('Color Utilities', 'Set Alpha Value', True, 'color', 'alpha')]]
-
-{>>Returns `number`<<}
+[[Method('Color Utilities', 'Is Dark Color', True, 'color')]]
 
 | Params | []() |
 |--------|------|
-|color|Number|
-|alpha|Number|
+|color|<span class="chip chip-number">Number</span>|
 
+
+### Set Alpha Value
+
+<span class="chip chip-number">Returns: <i>Number</i></span> 
 
 Set a alpha value to a color. The result is returned as integer.
+
+[[Method('Color Utilities', 'Set Alpha Value', True, 'color', 'alpha')]]
+
+| Params | []() |
+|--------|------|
+|color|<span class="chip chip-number">Number</span>|
+|alpha|<span class="chip chip-number">Number</span>|

@@ -14,103 +14,103 @@ A non-visible component that shows LeadBolt ads as rewarded videos and network a
 
 ### Ad Loaded
 
+Event triggered when ads are loaded
+
 [[Event('LeadBolt', 'Ad Loaded', 'location')]]
 
 | Params | []() |
 |--------|------|
-|location|Text|
+|location|<span class="chip chip-text">Text</span>|
 
-
-Event triggered when ads are loaded
 
 ### Ad Clicked
+
+Event triggered when ads are clicked
 
 [[Event('LeadBolt', 'Ad Clicked', 'location')]]
 
 | Params | []() |
 |--------|------|
-|location|Text|
+|location|<span class="chip chip-text">Text</span>|
 
-
-Event triggered when ads are clicked
 
 ### Ad Closed
+
+Event triggered when ads are closed
 
 [[Event('LeadBolt', 'Ad Closed', 'location', 'reward')]]
 
 | Params | []() |
 |--------|------|
-|location|Text|
-|reward|Boolean|
+|location|<span class="chip chip-text">Text</span>|
+|reward|<span class="chip chip-boolean">Boolean</span>|
 
-
-Event triggered when ads are closed
 
 ### Ad Failed To Load
+
+Event triggered when ads are failed to load
 
 [[Event('LeadBolt', 'Ad Failed To Load', 'location', 'error', 'isCache')]]
 
 | Params | []() |
 |--------|------|
-|location|Text|
-|error|Text|
-|is Cache|Boolean|
+|location|<span class="chip chip-text">Text</span>|
+|error|<span class="chip chip-text">Text</span>|
+|is Cache|<span class="chip chip-boolean">Boolean</span>|
 
-
-Event triggered when ads are failed to load
 
 ### Ad Shown
+
+Event triggered when ads are shown
 
 [[Event('LeadBolt', 'Ad Shown', 'location')]]
 
 | Params | []() |
 |--------|------|
-|location|Text|
+|location|<span class="chip chip-text">Text</span>|
 
-
-Event triggered when ads are shown
 
 ## Methods
 
 ### Is Network Ad Ready
 
-[[Method('LeadBolt', 'Is Network Ad Ready', True)]]
-
-{>>Returns `boolean`<<}
+<span class="chip chip-boolean">Returns: <i>Boolean</i></span> 
 
 Use this block after loading an ad to check whether it's ready to show.
+
+[[Method('LeadBolt', 'Is Network Ad Ready', True)]]
 
 ### Is Rewarded Ad Ready
 
-[[Method('LeadBolt', 'Is Rewarded Ad Ready', True)]]
-
-{>>Returns `boolean`<<}
+<span class="chip chip-boolean">Returns: <i>Boolean</i></span> 
 
 Use this block after loading an ad to check whether it's ready to show.
 
-### Load Network Ad
+[[Method('LeadBolt', 'Is Rewarded Ad Ready', True)]]
 
-[[Method('LeadBolt', 'Load Network Ad', False)]]
+### Load Network Ad
 
 Use this block to load a Network ad.
 
-### Load Rewarded Ad
+[[Method('LeadBolt', 'Load Network Ad', False)]]
 
-[[Method('LeadBolt', 'Load Rewarded Ad', False)]]
+### Load Rewarded Ad
 
 Use this block to load a Rewarded Video ad.
 
-### Show Network Ad
+[[Method('LeadBolt', 'Load Rewarded Ad', False)]]
 
-[[Method('LeadBolt', 'Show Network Ad', False)]]
+### Show Network Ad
 
 Use this block after LoadNetworkAd to show the loaded ad.
 
+[[Method('LeadBolt', 'Show Network Ad', False)]]
+
 ### Show Rewarded Ad
 
-[[Method('LeadBolt', 'Show Rewarded Ad', False)]]
-
 Use this block after LoadRewardedAd to show the loaded ad.
+
+[[Method('LeadBolt', 'Show Rewarded Ad', False)]]
 
 ## Properties
 

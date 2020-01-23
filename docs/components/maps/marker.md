@@ -12,115 +12,115 @@ An icon positioned at a point to indicate information on a map. Markers can be u
 
 ### Click
 
-[[Event('Marker', 'Click')]]
-
 The user clicked on the feature.
+
+[[Event('Marker', 'Click')]]
 
 ### Drag
 
-[[Event('Marker', 'Drag')]]
-
 The user dragged the map feature.
+
+[[Event('Marker', 'Drag')]]
 
 ### Long Click
 
-[[Event('Marker', 'Long Click')]]
-
 The user long-pressed on the feature. This event will only trigger if Draggable is false.
+
+[[Event('Marker', 'Long Click')]]
 
 ### Start Drag
 
-[[Event('Marker', 'Start Drag')]]
-
 The user started a drag operation.
+
+[[Event('Marker', 'Start Drag')]]
 
 ### Stop Drag
 
-[[Event('Marker', 'Stop Drag')]]
-
 The user stopped a drag operation.
+
+[[Event('Marker', 'Stop Drag')]]
 
 ## Methods
 
 ### Bearing To Feature
 
-[[Method('Marker', 'Bearing To Feature', True, 'mapFeature', 'centroids')]]
-
-{>>Returns `number`<<}
-
-| Params | []() |
-|--------|------|
-|map Feature|Component|
-|centroids|Boolean|
-
+<span class="chip chip-number">Returns: <i>Number</i></span> 
 
 Returns the bearing from the Marker to the given map feature, in degrees from due north. If the centroids parameter is true, the bearing will be to the center of the map feature. Otherwise, the bearing will be computed to the point in the feature nearest the Marker.
 
-### Bearing To Point
-
-[[Method('Marker', 'Bearing To Point', True, 'latitude', 'longitude')]]
-
-{>>Returns `number`<<}
+[[Method('Marker', 'Bearing To Feature', True, 'mapFeature', 'centroids')]]
 
 | Params | []() |
 |--------|------|
-|latitude|Number|
-|longitude|Number|
+|map Feature|<span class="chip chip-component">Component</span>|
+|centroids|<span class="chip chip-boolean">Boolean</span>|
 
+
+### Bearing To Point
+
+<span class="chip chip-number">Returns: <i>Number</i></span> 
 
 Returns the bearing from the Marker to the given latitude and longitude, in degrees from due north.
 
-### Distance To Feature
-
-[[Method('Marker', 'Distance To Feature', True, 'mapFeature', 'centroids')]]
-
-{>>Returns `number`<<}
+[[Method('Marker', 'Bearing To Point', True, 'latitude', 'longitude')]]
 
 | Params | []() |
 |--------|------|
-|map Feature|Component|
-|centroids|Boolean|
+|latitude|<span class="chip chip-number">Number</span>|
+|longitude|<span class="chip chip-number">Number</span>|
 
+
+### Distance To Feature
+
+<span class="chip chip-number">Returns: <i>Number</i></span> 
 
 Compute the distance, in meters, between two map features.
 
-### Distance To Point
-
-[[Method('Marker', 'Distance To Point', True, 'latitude', 'longitude')]]
-
-{>>Returns `number`<<}
+[[Method('Marker', 'Distance To Feature', True, 'mapFeature', 'centroids')]]
 
 | Params | []() |
 |--------|------|
-|latitude|Number|
-|longitude|Number|
+|map Feature|<span class="chip chip-component">Component</span>|
+|centroids|<span class="chip chip-boolean">Boolean</span>|
 
+
+### Distance To Point
+
+<span class="chip chip-number">Returns: <i>Number</i></span> 
 
 Compute the distance, in meters, between a map feature and a latitude, longitude point.
 
-### Hide Infobox
+[[Method('Marker', 'Distance To Point', True, 'latitude', 'longitude')]]
 
-[[Method('Marker', 'Hide Infobox', False)]]
+| Params | []() |
+|--------|------|
+|latitude|<span class="chip chip-number">Number</span>|
+|longitude|<span class="chip chip-number">Number</span>|
+
+
+### Hide Infobox
 
 Hide the infobox if it is shown. If the infobox is not visible this function has no effect.
 
+[[Method('Marker', 'Hide Infobox', False)]]
+
 ### Set Location
+
+Set the location of the marker.
 
 [[Method('Marker', 'Set Location', False, 'latitude', 'longitude')]]
 
 | Params | []() |
 |--------|------|
-|latitude|Number|
-|longitude|Number|
+|latitude|<span class="chip chip-number">Number</span>|
+|longitude|<span class="chip chip-number">Number</span>|
 
-
-Set the location of the marker.
 
 ### Show Infobox
 
-[[Method('Marker', 'Show Infobox', False)]]
-
 Show the infobox for the feature. This will show the infobox even if
+
+[[Method('Marker', 'Show Infobox', False)]]
 
 ## Properties
 

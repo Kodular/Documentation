@@ -13,299 +13,299 @@ A chat consists of messages sent by two or more than two users where each messag
 
 ### Click
 
+Click listener event.
+
 [[Event('Chat View', 'Click', 'userImage', 'title', 'message', 'timestamp', 'id', 'sendAsSender', 'imagePath', 'withImage', 'filePath', 'fileThumbnail', 'withFile')]]
 
 | Params | []() |
 |--------|------|
-|user Image|Text|
-|title|Text|
-|message|Text|
-|timestamp|Text|
-|id|Number|
-|send As Sender|Boolean|
-|image Path|Text|
-|with Image|Boolean|
-|file Path|Text|
-|file Thumbnail|Text|
-|with File|Boolean|
+|user Image|<span class="chip chip-text">Text</span>|
+|title|<span class="chip chip-text">Text</span>|
+|message|<span class="chip chip-text">Text</span>|
+|timestamp|<span class="chip chip-text">Text</span>|
+|id|<span class="chip chip-number">Number</span>|
+|send As Sender|<span class="chip chip-boolean">Boolean</span>|
+|image Path|<span class="chip chip-text">Text</span>|
+|with Image|<span class="chip chip-boolean">Boolean</span>|
+|file Path|<span class="chip chip-text">Text</span>|
+|file Thumbnail|<span class="chip chip-text">Text</span>|
+|with File|<span class="chip chip-boolean">Boolean</span>|
 
-
-Click listener event.
 
 ### Double Tap Click
+
+Double tap click listener event.
 
 [[Event('Chat View', 'Double Tap Click', 'userImage', 'title', 'message', 'timestamp', 'id', 'sendAsSender', 'imagePath', 'withImage', 'filePath', 'fileThumbnail', 'withFile')]]
 
 | Params | []() |
 |--------|------|
-|user Image|Text|
-|title|Text|
-|message|Text|
-|timestamp|Text|
-|id|Number|
-|send As Sender|Boolean|
-|image Path|Text|
-|with Image|Boolean|
-|file Path|Text|
-|file Thumbnail|Text|
-|with File|Boolean|
+|user Image|<span class="chip chip-text">Text</span>|
+|title|<span class="chip chip-text">Text</span>|
+|message|<span class="chip chip-text">Text</span>|
+|timestamp|<span class="chip chip-text">Text</span>|
+|id|<span class="chip chip-number">Number</span>|
+|send As Sender|<span class="chip chip-boolean">Boolean</span>|
+|image Path|<span class="chip chip-text">Text</span>|
+|with Image|<span class="chip chip-boolean">Boolean</span>|
+|file Path|<span class="chip chip-text">Text</span>|
+|file Thumbnail|<span class="chip chip-text">Text</span>|
+|with File|<span class="chip chip-boolean">Boolean</span>|
 
-
-Double tap click listener event.
 
 ### Long Click
+
+Long click listener event.
 
 [[Event('Chat View', 'Long Click', 'userImage', 'title', 'message', 'timestamp', 'id', 'sendAsSender', 'imagePath', 'withImage', 'filePath', 'fileThumbnail', 'withFile')]]
 
 | Params | []() |
 |--------|------|
-|user Image|Text|
-|title|Text|
-|message|Text|
-|timestamp|Text|
-|id|Number|
-|send As Sender|Boolean|
-|image Path|Text|
-|with Image|Boolean|
-|file Path|Text|
-|file Thumbnail|Text|
-|with File|Boolean|
+|user Image|<span class="chip chip-text">Text</span>|
+|title|<span class="chip chip-text">Text</span>|
+|message|<span class="chip chip-text">Text</span>|
+|timestamp|<span class="chip chip-text">Text</span>|
+|id|<span class="chip chip-number">Number</span>|
+|send As Sender|<span class="chip chip-boolean">Boolean</span>|
+|image Path|<span class="chip chip-text">Text</span>|
+|with Image|<span class="chip chip-boolean">Boolean</span>|
+|file Path|<span class="chip chip-text">Text</span>|
+|file Thumbnail|<span class="chip chip-text">Text</span>|
+|with File|<span class="chip chip-boolean">Boolean</span>|
 
-
-Long click listener event.
 
 ### Swipe
+
+Swipe listener event. The direction value returns '1' for right-to-left swipes, '2' for left-to-right swipes '3' for bottom-to-top swipes and '4' for top-to-bottom swipes
 
 [[Event('Chat View', 'Swipe', 'direction', 'userImage', 'title', 'message', 'timestamp', 'id', 'sendAsSender', 'imagePath', 'withImage', 'filePath', 'fileThumbnail', 'withFile')]]
 
 | Params | []() |
 |--------|------|
-|direction|Number|
-|user Image|Text|
-|title|Text|
-|message|Text|
-|timestamp|Text|
-|id|Number|
-|send As Sender|Boolean|
-|image Path|Text|
-|with Image|Boolean|
-|file Path|Text|
-|file Thumbnail|Text|
-|with File|Boolean|
+|direction|<span class="chip chip-number">Number</span>|
+|user Image|<span class="chip chip-text">Text</span>|
+|title|<span class="chip chip-text">Text</span>|
+|message|<span class="chip chip-text">Text</span>|
+|timestamp|<span class="chip chip-text">Text</span>|
+|id|<span class="chip chip-number">Number</span>|
+|send As Sender|<span class="chip chip-boolean">Boolean</span>|
+|image Path|<span class="chip chip-text">Text</span>|
+|with Image|<span class="chip chip-boolean">Boolean</span>|
+|file Path|<span class="chip chip-text">Text</span>|
+|file Thumbnail|<span class="chip chip-text">Text</span>|
+|with File|<span class="chip chip-boolean">Boolean</span>|
 
-
-Swipe listener event. The direction value returns '1' for right-to-left swipes, '2' for left-to-right swipes '3' for bottom-to-top swipes and '4' for top-to-bottom swipes
 
 ### User Image Click
+
+Click listener event for the user image.
 
 [[Event('Chat View', 'User Image Click', 'id', 'userImage')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
-|user Image|Text|
+|id|<span class="chip chip-number">Number</span>|
+|user Image|<span class="chip chip-text">Text</span>|
 
-
-Click listener event for the user image.
 
 ## Methods
 
 ### Add Component Message
 
+Add a new simple component message into the chat view. If you do not want a user image or title or message or timestamp, then let the field empty. Make sure that the component is VISIBLE on the screen when you try to add it here. It will be then removed automatic from the screen and only visible again in the chat view.
+
 [[Method('Chat View', 'Add Component Message', False, 'userImage', 'title', 'message', 'timestamp', 'component', 'id', 'addAsSender')]]
 
 | Params | []() |
 |--------|------|
-|user Image|Text|
-|title|Text|
-|message|Text|
-|timestamp|Text|
-|component|Component|
-|id|Number|
-|add As Sender|Boolean|
+|user Image|<span class="chip chip-text">Text</span>|
+|title|<span class="chip chip-text">Text</span>|
+|message|<span class="chip chip-text">Text</span>|
+|timestamp|<span class="chip chip-text">Text</span>|
+|component|<span class="chip chip-component">Component</span>|
+|id|<span class="chip chip-number">Number</span>|
+|add As Sender|<span class="chip chip-boolean">Boolean</span>|
 
-
-Add a new simple component message into the chat view. If you do not want a user image or title or message or timestamp, then let the field empty. Make sure that the component is VISIBLE on the screen when you try to add it here. It will be then removed automatic from the screen and only visible again in the chat view.
 
 ### Add Date Timestamp
+
+Add a new simple date timestamp into the chat view. You NEED to write a date, else this block will do nothing. This means the field 'date' can NOT be empty. Timestamp messages are not clickable.
 
 [[Method('Chat View', 'Add Date Timestamp', False, 'date', 'textColor', 'backgroundColor', 'id')]]
 
 | Params | []() |
 |--------|------|
-|date|Text|
-|text Color|Number|
-|background Color|Number|
-|id|Number|
+|date|<span class="chip chip-text">Text</span>|
+|text Color|<span class="chip chip-number">Number</span>|
+|background Color|<span class="chip chip-number">Number</span>|
+|id|<span class="chip chip-number">Number</span>|
 
-
-Add a new simple date timestamp into the chat view. You NEED to write a date, else this block will do nothing. This means the field 'date' can NOT be empty. Timestamp messages are not clickable.
 
 ### Add File Message
+
+Add a new simple file message into the chat view. If you do not want a user image or title or message or timestamp, then let the field empty.
 
 [[Method('Chat View', 'Add File Message', False, 'userImage', 'title', 'message', 'filePath', 'fileThumbnail', 'timestamp', 'id', 'addAsSender')]]
 
 | Params | []() |
 |--------|------|
-|user Image|Text|
-|title|Text|
-|message|Text|
-|file Path|Text|
-|file Thumbnail|Text|
-|timestamp|Text|
-|id|Number|
-|add As Sender|Boolean|
+|user Image|<span class="chip chip-text">Text</span>|
+|title|<span class="chip chip-text">Text</span>|
+|message|<span class="chip chip-text">Text</span>|
+|file Path|<span class="chip chip-text">Text</span>|
+|file Thumbnail|<span class="chip chip-text">Text</span>|
+|timestamp|<span class="chip chip-text">Text</span>|
+|id|<span class="chip chip-number">Number</span>|
+|add As Sender|<span class="chip chip-boolean">Boolean</span>|
 
-
-Add a new simple file message into the chat view. If you do not want a user image or title or message or timestamp, then let the field empty.
 
 ### Add Image Message
+
+Add a new simple image message into the chat view. If you do not want a user image or title or message or timestamp, then let the field empty.
 
 [[Method('Chat View', 'Add Image Message', False, 'userImage', 'title', 'message', 'image', 'timestamp', 'id', 'addAsSender')]]
 
 | Params | []() |
 |--------|------|
-|user Image|Text|
-|title|Text|
-|message|Text|
-|image|Text|
-|timestamp|Text|
-|id|Number|
-|add As Sender|Boolean|
+|user Image|<span class="chip chip-text">Text</span>|
+|title|<span class="chip chip-text">Text</span>|
+|message|<span class="chip chip-text">Text</span>|
+|image|<span class="chip chip-text">Text</span>|
+|timestamp|<span class="chip chip-text">Text</span>|
+|id|<span class="chip chip-number">Number</span>|
+|add As Sender|<span class="chip chip-boolean">Boolean</span>|
 
-
-Add a new simple image message into the chat view. If you do not want a user image or title or message or timestamp, then let the field empty.
 
 ### Add Message
+
+Add a new simple message into the chat view. If you do not want a user image or title or message or timestamp, then let the field empty.
 
 [[Method('Chat View', 'Add Message', False, 'userImage', 'title', 'message', 'timestamp', 'id', 'addAsSender')]]
 
 | Params | []() |
 |--------|------|
-|user Image|Text|
-|title|Text|
-|message|Text|
-|timestamp|Text|
-|id|Number|
-|add As Sender|Boolean|
+|user Image|<span class="chip chip-text">Text</span>|
+|title|<span class="chip chip-text">Text</span>|
+|message|<span class="chip chip-text">Text</span>|
+|timestamp|<span class="chip chip-text">Text</span>|
+|id|<span class="chip chip-number">Number</span>|
+|add As Sender|<span class="chip chip-boolean">Boolean</span>|
 
-
-Add a new simple message into the chat view. If you do not want a user image or title or message or timestamp, then let the field empty.
 
 ### Clear ChatView
 
-[[Method('Chat View', 'Clear ChatView', False)]]
-
 Removes all messages and timestamps from the chat view.
+
+[[Method('Chat View', 'Clear ChatView', False)]]
 
 ### Count Date Timestamp
 
-[[Method('Chat View', 'Count Date Timestamp', True)]]
-
-{>>Returns `number`<<}
+<span class="chip chip-number">Returns: <i>Number</i></span> 
 
 Returns the number of all date timestamps. Normal messages are not included.
 
+[[Method('Chat View', 'Count Date Timestamp', True)]]
+
 ### Count Messages
 
-[[Method('Chat View', 'Count Messages', True)]]
-
-{>>Returns `number`<<}
+<span class="chip chip-number">Returns: <i>Number</i></span> 
 
 Returns the number of all messages. 'Date Timestamp' messages are not included.
 
+[[Method('Chat View', 'Count Messages', True)]]
+
 ### Get Last Used Id
 
-[[Method('Chat View', 'Get Last Used Id', True)]]
-
-{>>Returns `number`<<}
+<span class="chip chip-number">Returns: <i>Number</i></span> 
 
 Returns the last used id.
 
+[[Method('Chat View', 'Get Last Used Id', True)]]
+
 ### Remove Message
+
+Remove a message or timestamp from the chat view.
 
 [[Method('Chat View', 'Remove Message', False, 'id')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
+|id|<span class="chip chip-number">Number</span>|
 
-
-Remove a message or timestamp from the chat view.
 
 ### Scroll To
+
+Scroll to a specific message in the chat view with the given id.
 
 [[Method('Chat View', 'Scroll To', False, 'id')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
+|id|<span class="chip chip-number">Number</span>|
 
-
-Scroll to a specific message in the chat view with the given id.
 
 ### Update Message Background Color
+
+Update the background color of a chat view message.
 
 [[Method('Chat View', 'Update Message Background Color', False, 'id', 'backgroundColor')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
-|background Color|Number|
+|id|<span class="chip chip-number">Number</span>|
+|background Color|<span class="chip chip-number">Number</span>|
 
-
-Update the background color of a chat view message.
 
 ### Update Message Content
+
+Update the message content of a chat view message.
 
 [[Method('Chat View', 'Update Message Content', False, 'id', 'text', 'textColor')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
-|text|Text|
-|text Color|Number|
+|id|<span class="chip chip-number">Number</span>|
+|text|<span class="chip chip-text">Text</span>|
+|text Color|<span class="chip chip-number">Number</span>|
 
-
-Update the message content of a chat view message.
 
 ### Update Timestamp Content
+
+Update the timestamp content of a chat view message.
 
 [[Method('Chat View', 'Update Timestamp Content', False, 'id', 'text', 'textColor')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
-|text|Text|
-|text Color|Number|
+|id|<span class="chip chip-number">Number</span>|
+|text|<span class="chip chip-text">Text</span>|
+|text Color|<span class="chip chip-number">Number</span>|
 
-
-Update the timestamp content of a chat view message.
 
 ### Update Title Content
+
+Update the title content of a chat view message.
 
 [[Method('Chat View', 'Update Title Content', False, 'id', 'text', 'textColor')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
-|text|Text|
-|text Color|Number|
+|id|<span class="chip chip-number">Number</span>|
+|text|<span class="chip chip-text">Text</span>|
+|text Color|<span class="chip chip-number">Number</span>|
 
-
-Update the title content of a chat view message.
 
 ### Update User Image
+
+Update the user image of a chat view message. The image can only be updated if there was before a old image.
 
 [[Method('Chat View', 'Update User Image', False, 'id', 'userImage')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
-|user Image|Text|
+|id|<span class="chip chip-number">Number</span>|
+|user Image|<span class="chip chip-text">Text</span>|
 
-
-Update the user image of a chat view message. The image can only be updated if there was before a old image.
 
 ## Properties
 

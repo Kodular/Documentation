@@ -22,69 +22,69 @@ You might get an error if you attempt to play a sound immediately after setting 
 
 ### Pause
 
-[[Method('Sound', 'Pause', False)]]
-
 Pauses playing the sound if it is being played.
+
+[[Method('Sound', 'Pause', False)]]
 
 ### Play
 
-[[Method('Sound', 'Play', False)]]
-
 Plays the sound specified by the Source property.
+
+[[Method('Sound', 'Play', False)]]
 
 ### Resume
 
-[[Method('Sound', 'Resume', False)]]
-
 Resumes playing the sound after a pause.
+
+[[Method('Sound', 'Resume', False)]]
 
 ### Sound Normal
 
-[[Method('Sound', 'Sound Normal', False)]]
-
 Ringer mode that may be audible and may vibrate.
+
+[[Method('Sound', 'Sound Normal', False)]]
 
 ### Sound Silent
 
-[[Method('Sound', 'Sound Silent', False)]]
-
 Ringer mode that will be silent and will not vibrate.
+
+[[Method('Sound', 'Sound Silent', False)]]
 
 ### Sound Vibrate
 
-[[Method('Sound', 'Sound Vibrate', False)]]
-
 Ringer mode that will be silent and will vibrate.
+
+[[Method('Sound', 'Sound Vibrate', False)]]
 
 ### Stop
 
-[[Method('Sound', 'Stop', False)]]
-
 Stops playing the sound if it is being played.
 
+[[Method('Sound', 'Stop', False)]]
+
 ### Vibrate
+
+Vibrates for the specified number of milliseconds.
 
 [[Method('Sound', 'Vibrate', False, 'millisecs')]]
 
 | Params | []() |
 |--------|------|
-|millisecs|Number|
+|millisecs|<span class="chip chip-number">Number</span>|
 
-
-Vibrates for the specified number of milliseconds.
 
 ### Vibrate Pattern
+
+Vibrate with a given pattern
 
 [[Method('Sound', 'Vibrate Pattern', False, 'vibrate', 'delay', 'repeat')]]
 
 | Params | []() |
 |--------|------|
-|vibrate|Number|
-|delay|Number|
-|repeat|Boolean|
+|vibrate|<span class="chip chip-number">Number</span>|
+|delay|<span class="chip chip-number">Number</span>|
+|repeat|<span class="chip chip-boolean">Boolean</span>|
 
-
-Vibrate with a given pattern
 
 ## Properties
 

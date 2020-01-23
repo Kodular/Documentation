@@ -14,12 +14,11 @@ A non-visible component that loads images asynchronously.
 
 ### Load Image Async
 
+Load a new image from the given path to any component. You can load also images from the internet. Supported components: Image, Buttons, Layouts, Canvas.
+
 [[Method('Image Utilities', 'Load Image Async', False, 'component', 'path')]]
 
 | Params | []() |
 |--------|------|
-|component|Component|
-|path|Text|
-
-
-Load a new image from the given path to any component. You can load also images from the internet. Supported components: Image, Buttons, Layouts, Canvas.
+|component|<span class="chip chip-component">Component</span>|
+|path|<span class="chip chip-text">Text</span>|

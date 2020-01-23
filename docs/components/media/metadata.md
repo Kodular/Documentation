@@ -14,197 +14,197 @@ A non-visible component that reads the metadata of audio/video files.
 
 ### No Metadata
 
+Triggers when there is no metadata found in the file.
+
 [[Event('Metadata', 'No Metadata', 'type')]]
 
 | Params | []() |
 |--------|------|
-|type|Text|
+|type|<span class="chip chip-text">Text</span>|
 
-
-Triggers when there is no metadata found in the file.
 
 ## Methods
 
 ### Album
 
-[[Method('Metadata', 'Album', True)]]
-
-{>>Returns `text`<<}
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 Get the Album from the file.
 
+[[Method('Metadata', 'Album', True)]]
+
 ### Artist
 
-[[Method('Metadata', 'Artist', True)]]
-
-{>>Returns `text`<<}
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 Get the Artist from the file.
 
+[[Method('Metadata', 'Artist', True)]]
+
 ### Author
 
-[[Method('Metadata', 'Author', True)]]
-
-{>>Returns `text`<<}
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 Get the Author from the file.
 
+[[Method('Metadata', 'Author', True)]]
+
 ### Bitrate
 
-[[Method('Metadata', 'Bitrate', True)]]
-
-{>>Returns `text`<<}
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 Get the Bitrate from the file.
 
+[[Method('Metadata', 'Bitrate', True)]]
+
 ### Composer
 
-[[Method('Metadata', 'Composer', True)]]
-
-{>>Returns `text`<<}
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 Get the Composer from the file.
 
+[[Method('Metadata', 'Composer', True)]]
+
 ### Custom Item
 
-[[Method('Metadata', 'Custom Item', True, 'id')]]
-
-{>>Returns `text`<<}
-
-| Params | []() |
-|--------|------|
-|id|Number|
-
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 Get a custom metadata item from the fileyou can find a list of ids on https://developer.android.com/reference/android/media/MediaMetadataRetriever.html
 
+[[Method('Metadata', 'Custom Item', True, 'id')]]
+
+| Params | []() |
+|--------|------|
+|id|<span class="chip chip-number">Number</span>|
+
+
 ### Date
 
-[[Method('Metadata', 'Date', True)]]
-
-{>>Returns `text`<<}
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 Get the Date from the file.
 
+[[Method('Metadata', 'Date', True)]]
+
 ### Disc Number
 
-[[Method('Metadata', 'Disc Number', True)]]
-
-{>>Returns `text`<<}
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 Get the Disc Number from the file.
 
+[[Method('Metadata', 'Disc Number', True)]]
+
 ### Duration
 
-[[Method('Metadata', 'Duration', True)]]
-
-{>>Returns `text`<<}
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 Get the Duration from the file.
 
+[[Method('Metadata', 'Duration', True)]]
+
 ### Embedded Picture
 
-[[Method('Metadata', 'Embedded Picture', True)]]
-
-{>>Returns `text`<<}
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 This method finds the optional graphic or album/cover art associated associated with the data source. If there are more than one pictures, (any) one of them is returned.
 
+[[Method('Metadata', 'Embedded Picture', True)]]
+
 ### Genre
 
-[[Method('Metadata', 'Genre', True)]]
-
-{>>Returns `text`<<}
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 Get the Genre from the file.
 
+[[Method('Metadata', 'Genre', True)]]
+
 ### Has Audio
 
-[[Method('Metadata', 'Has Audio', True)]]
-
-{>>Returns `text`<<}
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 Get the Has Audio from the file.
 
+[[Method('Metadata', 'Has Audio', True)]]
+
 ### Has Video
 
-[[Method('Metadata', 'Has Video', True)]]
-
-{>>Returns `text`<<}
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 Get the Has Video from the file.
 
+[[Method('Metadata', 'Has Video', True)]]
+
 ### Location
 
-[[Method('Metadata', 'Location', True)]]
-
-{>>Returns `text`<<}
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 Get the Location from the file.
 
+[[Method('Metadata', 'Location', True)]]
+
 ### Mimetype
 
-[[Method('Metadata', 'Mimetype', True)]]
-
-{>>Returns `text`<<}
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 Get the Mimetype from the file.
 
+[[Method('Metadata', 'Mimetype', True)]]
+
 ### Title
 
-[[Method('Metadata', 'Title', True)]]
-
-{>>Returns `text`<<}
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 Get the Title from the file.
 
+[[Method('Metadata', 'Title', True)]]
+
 ### Track Number
 
-[[Method('Metadata', 'Track Number', True)]]
-
-{>>Returns `text`<<}
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 Get the Track Number from the file.
 
+[[Method('Metadata', 'Track Number', True)]]
+
 ### Video Height
 
-[[Method('Metadata', 'Video Height', True)]]
-
-{>>Returns `text`<<}
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 Get the Video Height from the file.
 
+[[Method('Metadata', 'Video Height', True)]]
+
 ### Video Rotation
 
-[[Method('Metadata', 'Video Rotation', True)]]
-
-{>>Returns `text`<<}
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 Get the Video Rotation from the file.
 
+[[Method('Metadata', 'Video Rotation', True)]]
+
 ### Video Width
 
-[[Method('Metadata', 'Video Width', True)]]
-
-{>>Returns `text`<<}
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 Get the Video Width from the file.
 
+[[Method('Metadata', 'Video Width', True)]]
+
 ### Writer
 
-[[Method('Metadata', 'Writer', True)]]
-
-{>>Returns `text`<<}
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 Get the Writer from the file.
 
+[[Method('Metadata', 'Writer', True)]]
+
 ### Year
 
-[[Method('Metadata', 'Year', True)]]
-
-{>>Returns `text`<<}
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 Get the Year from the file.
+
+[[Method('Metadata', 'Year', True)]]
 
 ## Properties
 

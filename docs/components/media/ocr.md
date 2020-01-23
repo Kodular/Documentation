@@ -14,60 +14,60 @@ A non-visible component that reads text from images using Optical Character Reco
 
 ### Got Response
 
+You will find here the success state and the response content.
+
 [[Event('OCR', 'Got Response', 'success', 'responseContent')]]
 
 | Params | []() |
 |--------|------|
-|success|Boolean|
-|response Content|Text|
+|success|<span class="chip chip-boolean">Boolean</span>|
+|response Content|<span class="chip chip-text">Text</span>|
 
-
-You will find here the success state and the response content.
 
 ### Got Server Status
+
+You will find here the server status from the ocr provider. Possible results are 'UP' or 'DOWN'. 'pro Usa1' = Usa, East Coast. 'pro Usa2' = Usa, West Coast.
 
 [[Event('OCR', 'Got Server Status', 'free', 'proUsa1', 'proUsa2', 'proEurope', 'proAsia')]]
 
 | Params | []() |
 |--------|------|
-|free|Text|
-|pro USA 1|Text|
-|pro USA 2|Text|
-|pro Europe|Text|
-|pro Asia|Text|
+|free|<span class="chip chip-text">Text</span>|
+|pro USA 1|<span class="chip chip-text">Text</span>|
+|pro USA 2|<span class="chip chip-text">Text</span>|
+|pro Europe|<span class="chip chip-text">Text</span>|
+|pro Asia|<span class="chip chip-text">Text</span>|
 
-
-You will find here the server status from the ocr provider. Possible results are 'UP' or 'DOWN'. 'pro Usa1' = Usa, East Coast. 'pro Usa2' = Usa, West Coast.
 
 ## Methods
 
 ### Get OCR Server Status
 
-[[Method('OCR', 'Get OCR Server Status', False)]]
-
 Get the server status from the free ocr.space server. This is helpful if you want to know if the server is online or offline. Returns true when online, else false when offline.
 
+[[Method('OCR', 'Get OCR Server Status', False)]]
+
 ### Get Text From Image Url
+
+Get the text from a picture via the image url. Example: http://name/yourimage.jpg. Service powered by ocr.space.
 
 [[Method('OCR', 'Get Text From Image Url', False, 'imageUrl')]]
 
 | Params | []() |
 |--------|------|
-|image URL|Text|
+|image URL|<span class="chip chip-text">Text</span>|
 
-
-Get the text from a picture via the image url. Example: http://name/yourimage.jpg. Service powered by ocr.space.
 
 ### Upload Image
+
+Upload your image to the server from ocr.space and then you get back the text from the picture.
 
 [[Method('OCR', 'Upload Image', False, 'path')]]
 
 | Params | []() |
 |--------|------|
-|path|Text|
+|path|<span class="chip chip-text">Text</span>|
 
-
-Upload your image to the server from ocr.space and then you get back the text from the picture.
 
 ## Properties
 

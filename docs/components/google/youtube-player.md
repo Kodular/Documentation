@@ -13,142 +13,142 @@ Note\: For this component to work correctly, set the MIN API to 17 (Android 4.2)
 
 ### Error
 
+Use this event to detect that there was any error with the player. Return values: 'UNKNOWN', 'INVALID_PARAMETER_IN_REQUEST', 'HTML_5_PLAYER', 'VIDEO_NOT_FOUND', 'VIDEO_NOT_PLAYABLE_IN_EMBEDDED_PLAYER', 'INVALID_VOLUME' or 'INVALID_SEEK_TO'.
+
 [[Event('Youtube Player', 'Error', 'error')]]
 
 | Params | []() |
 |--------|------|
-|error|Text|
+|error|<span class="chip chip-text">Text</span>|
 
-
-Use this event to detect that there was any error with the player. Return values: 'UNKNOWN', 'INVALID_PARAMETER_IN_REQUEST', 'HTML_5_PLAYER', 'VIDEO_NOT_FOUND', 'VIDEO_NOT_PLAYABLE_IN_EMBEDDED_PLAYER', 'INVALID_VOLUME' or 'INVALID_SEEK_TO'.
 
 ### Fullscreen
+
+Event to get notified when the player enters or exits fullscreen. The variable 'fullscreen' returns true or false.
 
 [[Event('Youtube Player', 'Fullscreen', 'fullscreen')]]
 
 | Params | []() |
 |--------|------|
-|fullscreen|Boolean|
+|fullscreen|<span class="chip chip-boolean">Boolean</span>|
 
-
-Event to get notified when the player enters or exits fullscreen. The variable 'fullscreen' returns true or false.
 
 ### Initialized
 
-[[Event('Youtube Player', 'Initialized')]]
-
 Use this event to start the playing of a normal or instant youtube video.
 
+[[Event('Youtube Player', 'Initialized')]]
+
 ### Playback Quality Changed
+
+Use this event to detect that the playback quality was changed. Return values: 'UNKNOWN', 'SMALL', 'MEDIUM', 'LARGE', 'HD720', 'HD1080', 'HIGH_RES' or 'DEFAULT'.
 
 [[Event('Youtube Player', 'Playback Quality Changed', 'quality')]]
 
 | Params | []() |
 |--------|------|
-|quality|Text|
+|quality|<span class="chip chip-text">Text</span>|
 
-
-Use this event to detect that the playback quality was changed. Return values: 'UNKNOWN', 'SMALL', 'MEDIUM', 'LARGE', 'HD720', 'HD1080', 'HIGH_RES' or 'DEFAULT'.
 
 ### Playback Rate Changed
+
+Use this event to detect that the playback rate was changed. Return values: 'UNKNOWN', 'RATE_0_25', 'RATE_0_5', 'RATE_1', 'RATE_1_5' or 'RATE_2'.
 
 [[Event('Youtube Player', 'Playback Rate Changed', 'rate')]]
 
 | Params | []() |
 |--------|------|
-|rate|Text|
+|rate|<span class="chip chip-text">Text</span>|
 
-
-Use this event to detect that the playback rate was changed. Return values: 'UNKNOWN', 'RATE_0_25', 'RATE_0_5', 'RATE_1', 'RATE_1_5' or 'RATE_2'.
 
 ### State Changed
+
+Use this event to detect that the state changes. Return values: 'UNKNOWN', 'UNSTARTED', 'ENDED', 'PLAYING', 'PAUSED', 'BUFFERING' or 'VIDEO_CUED'.
 
 [[Event('Youtube Player', 'State Changed', 'state')]]
 
 | Params | []() |
 |--------|------|
-|state|Text|
+|state|<span class="chip chip-text">Text</span>|
 
-
-Use this event to detect that the state changes. Return values: 'UNKNOWN', 'UNSTARTED', 'ENDED', 'PLAYING', 'PAUSED', 'BUFFERING' or 'VIDEO_CUED'.
 
 ## Methods
 
 ### Enter Fullscreen
 
-[[Method('Youtube Player', 'Enter Fullscreen', False)]]
-
 Enter the video in fullscreen mode.
+
+[[Method('Youtube Player', 'Enter Fullscreen', False)]]
 
 ### Exit Fullscreen
 
-[[Method('Youtube Player', 'Exit Fullscreen', False)]]
-
 Exit the video from fullscreen mode.
+
+[[Method('Youtube Player', 'Exit Fullscreen', False)]]
 
 ### Get Thumbnail From Video Id
 
-[[Method('Youtube Player', 'Get Thumbnail From Video Id', True, 'videoId')]]
-
-{>>Returns `text`<<}
-
-| Params | []() |
-|--------|------|
-|video Id|Text|
-
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 This block will return the thumbnail image path from a video id. Use only as example '_bZj-LOXdH8' from a youtube video.
 
+[[Method('Youtube Player', 'Get Thumbnail From Video Id', True, 'videoId')]]
+
+| Params | []() |
+|--------|------|
+|video Id|<span class="chip chip-text">Text</span>|
+
+
 ### Instant Load
+
+Use this block together with the 'Youtube Player' Initialized event. Loads and automatically plays the specified youtube video. Use only as example '_bZj-LOXdH8' from a youtube video.
 
 [[Method('Youtube Player', 'Instant Load', False, 'videoId')]]
 
 | Params | []() |
 |--------|------|
-|video Id|Text|
+|video Id|<span class="chip chip-text">Text</span>|
 
-
-Use this block together with the 'Youtube Player' Initialized event. Loads and automatically plays the specified youtube video. Use only as example '_bZj-LOXdH8' from a youtube video.
 
 ### Load
+
+Loads the specified video's thumbnail and prepares the player to play the video. Does not automatically play the video. Use only as example '_bZj-LOXdH8' from a youtube video.
 
 [[Method('Youtube Player', 'Load', False, 'videoId')]]
 
 | Params | []() |
 |--------|------|
-|video Id|Text|
+|video Id|<span class="chip chip-text">Text</span>|
 
-
-Loads the specified video's thumbnail and prepares the player to play the video. Does not automatically play the video. Use only as example '_bZj-LOXdH8' from a youtube video.
 
 ### Pause
 
-[[Method('Youtube Player', 'Pause', False)]]
-
 Pause the youtube video.
+
+[[Method('Youtube Player', 'Pause', False)]]
 
 ### Play
 
-[[Method('Youtube Player', 'Play', False)]]
-
 Plays the youtube video.
 
+[[Method('Youtube Player', 'Play', False)]]
+
 ### Seek To
+
+Set a position where the youtube video should start playing in seconds.
 
 [[Method('Youtube Player', 'Seek To', False, 'position')]]
 
 | Params | []() |
 |--------|------|
-|position|Number|
+|position|<span class="chip chip-number">Number</span>|
 
-
-Set a position where the youtube video should start playing in seconds.
 
 ### Toggle Fullscreen
 
-[[Method('Youtube Player', 'Toggle Fullscreen', False)]]
-
 Toggle the state of the video player.
+
+[[Method('Youtube Player', 'Toggle Fullscreen', False)]]
 
 ## Properties
 

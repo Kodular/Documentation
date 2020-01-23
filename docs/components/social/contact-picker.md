@@ -24,142 +24,142 @@ The ContactPicker component might not work on all phones. For example, on Androi
 
 ### After Picking
 
+Event to be raised after the picker activity returns itsresult and the properties have been filled in.
+
 [[Event('Contact Picker', 'After Picking', 'selection')]]
 
 | Params | []() |
 |--------|------|
-|selection|Text|
+|selection|<span class="chip chip-text">Text</span>|
 
-
-Event to be raised after the picker activity returns itsresult and the properties have been filled in.
 
 ### Before Picking
 
-[[Event('Contact Picker', 'Before Picking')]]
-
 Event to raise when the button of the component is clicked or the list is shownusing the Open block. This event occurs before the list of items is displayed, andcan be used to prepare the list before it is shown.
+
+[[Event('Contact Picker', 'Before Picking')]]
 
 ### Got Focus
 
-[[Event('Contact Picker', 'Got Focus')]]
-
 Indicates the cursor moved over the button so it is now possible to click it.
+
+[[Event('Contact Picker', 'Got Focus')]]
 
 ### Lost Focus
 
-[[Event('Contact Picker', 'Lost Focus')]]
-
 Indicates the cursor moved away from the button so it is now no longer possible to click it.
+
+[[Event('Contact Picker', 'Lost Focus')]]
 
 ### Touch Down
 
-[[Event('Contact Picker', 'Touch Down')]]
-
 Indicates that the button was pressed down.
+
+[[Event('Contact Picker', 'Touch Down')]]
 
 ### Touch Up
 
-[[Event('Contact Picker', 'Touch Up')]]
-
 Indicates that a button has been released.
+
+[[Event('Contact Picker', 'Touch Up')]]
 
 ## Methods
 
 ### Set Animation Style
 
+Allows you to set animation style. Valid (case-insensitive) values are: ChasingDots, Circle, CubeGrid, DoubleBounce, FadingCircle, FoldingCube, Pulse, RotatingCircle, RotatingPlane, ThreeBounce, WanderingCubes, Wave. If invalid style is used, animation will be removed.Position can be: top, left, right, bottom. Size can be 100.
+
 [[Method('Contact Picker', 'Set Animation Style', False, 'style', 'position', 'size', 'color')]]
 
 | Params | []() |
 |--------|------|
-|style|Text|
-|position|Text|
-|size|Number|
-|color|Number|
+|style|<span class="chip chip-text">Text</span>|
+|position|<span class="chip chip-text">Text</span>|
+|size|<span class="chip chip-number">Number</span>|
+|color|<span class="chip chip-number">Number</span>|
 
-
-Allows you to set animation style. Valid (case-insensitive) values are: ChasingDots, Circle, CubeGrid, DoubleBounce, FadingCircle, FoldingCube, Pulse, RotatingCircle, RotatingPlane, ThreeBounce, WanderingCubes, Wave. If invalid style is used, animation will be removed.Position can be: top, left, right, bottom. Size can be 100.
 
 ### Button Click
 
-[[Method('Contact Picker', 'Button Click', False)]]
-
 Perform a button click as function.
+
+[[Method('Contact Picker', 'Button Click', False)]]
 
 ### Open
 
-[[Method('Contact Picker', 'Open', False)]]
-
 Opens the picker, as though the user clicked on it.
 
+[[Method('Contact Picker', 'Open', False)]]
+
 ### Set Shadow
+
+Place a blurred shadow of text underneath the text, drawn with the specified x, y, radius, color (e.g. -11, 12, 13, black.
 
 [[Method('Contact Picker', 'Set Shadow', False, 'x', 'y', 'radius', 'color')]]
 
 | Params | []() |
 |--------|------|
-|x|Number|
-|y|Number|
-|radius|Number|
-|color|Number|
+|x|<span class="chip chip-number">Number</span>|
+|y|<span class="chip chip-number">Number</span>|
+|radius|<span class="chip chip-number">Number</span>|
+|color|<span class="chip chip-number">Number</span>|
 
-
-Place a blurred shadow of text underneath the text, drawn with the specified x, y, radius, color (e.g. -11, 12, 13, black.
 
 ### View Contact
+
+view a contact via its URI
 
 [[Method('Contact Picker', 'View Contact', False, 'uri')]]
 
 | Params | []() |
 |--------|------|
-|uri|Text|
+|uri|<span class="chip chip-text">Text</span>|
 
-
-view a contact via its URI
 
 ### With Icon From Font Awesome
+
+Show an image on the given position near to the button. You can use following words for the position: 'Left', 'Right', 'Top' or 'Bottom'. Use the padding to add space between the icon and text. Use a material icon as the button icon without uploading a image resource into your project. You can find the icon name (or code) here at https://fontawesome.com/cheatsheet Use as example for a heart icon just 'f004'.
 
 [[Method('Contact Picker', 'With Icon From Font Awesome', False, 'position', 'iconName', 'iconColor', 'padding', 'size')]]
 
 | Params | []() |
 |--------|------|
-|position|Text|
-|icon Name|Text|
-|icon Color|Number|
-|padding|Number|
-|size|Number|
+|position|<span class="chip chip-text">Text</span>|
+|icon Name|<span class="chip chip-text">Text</span>|
+|icon Color|<span class="chip chip-number">Number</span>|
+|padding|<span class="chip chip-number">Number</span>|
+|size|<span class="chip chip-number">Number</span>|
 
-
-Show an image on the given position near to the button. You can use following words for the position: 'Left', 'Right', 'Top' or 'Bottom'. Use the padding to add space between the icon and text. Use a material icon as the button icon without uploading a image resource into your project. You can find the icon name (or code) here at https://fontawesome.com/cheatsheet Use as example for a heart icon just 'f004'.
 
 ### With Icon From Material Font
+
+Show an image on the given position near to the button. You can use following words for the position: 'Left', 'Right', 'Top' or 'Bottom'. Use the padding to add space between the icon and text. Use a material icon as the button icon without uploading a image resource into your project. You can find the icon name (or code) here at https://material.io/icons
 
 [[Method('Contact Picker', 'With Icon From Material Font', False, 'position', 'iconName', 'iconColor', 'padding', 'size')]]
 
 | Params | []() |
 |--------|------|
-|position|Text|
-|icon Name|Text|
-|icon Color|Number|
-|padding|Number|
-|size|Number|
+|position|<span class="chip chip-text">Text</span>|
+|icon Name|<span class="chip chip-text">Text</span>|
+|icon Color|<span class="chip chip-number">Number</span>|
+|padding|<span class="chip chip-number">Number</span>|
+|size|<span class="chip chip-number">Number</span>|
 
-
-Show an image on the given position near to the button. You can use following words for the position: 'Left', 'Right', 'Top' or 'Bottom'. Use the padding to add space between the icon and text. Use a material icon as the button icon without uploading a image resource into your project. You can find the icon name (or code) here at https://material.io/icons
 
 ### With Icon From Picture
+
+Show an image on the given position near to the button. You can use following words for the position: 'Left', 'Right', 'Top' or 'Bottom'. Use the padding to add space between the icon and text.
 
 [[Method('Contact Picker', 'With Icon From Picture', False, 'position', 'picture', 'padding', 'width', 'height')]]
 
 | Params | []() |
 |--------|------|
-|position|Text|
-|picture|Text|
-|padding|Number|
-|width|Number|
-|height|Number|
+|position|<span class="chip chip-text">Text</span>|
+|picture|<span class="chip chip-text">Text</span>|
+|padding|<span class="chip chip-number">Number</span>|
+|width|<span class="chip chip-number">Number</span>|
+|height|<span class="chip chip-number">Number</span>|
 
-
-Show an image on the given position near to the button. You can use following words for the position: 'Left', 'Right', 'Top' or 'Bottom'. Use the padding to add space between the icon and text.
 
 ## Properties
 

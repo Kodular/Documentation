@@ -27,269 +27,269 @@ There are events to tell when and where a Canvas has been touched or a `` Sprite
 
 ### Dragged
 
+When the user does a drag from one point (prevX, prevY) toanother (x, y). The pair (startX, startY) indicates where theuser first touched the screen, and "draggedAnySprite" indicates whether asprite is being dragged.
+
 [[Event('Canvas', 'Dragged', 'startX', 'startY', 'prevX', 'prevY', 'currentX', 'currentY', 'draggedAnySprite')]]
 
 | Params | []() |
 |--------|------|
-|start X|Number|
-|start Y|Number|
-|prev X|Number|
-|prev Y|Number|
-|current X|Number|
-|current Y|Number|
-|dragged Any Sprite|Boolean|
+|start X|<span class="chip chip-number">Number</span>|
+|start Y|<span class="chip chip-number">Number</span>|
+|prev X|<span class="chip chip-number">Number</span>|
+|prev Y|<span class="chip chip-number">Number</span>|
+|current X|<span class="chip chip-number">Number</span>|
+|current Y|<span class="chip chip-number">Number</span>|
+|dragged Any Sprite|<span class="chip chip-boolean">Boolean</span>|
 
-
-When the user does a drag from one point (prevX, prevY) toanother (x, y). The pair (startX, startY) indicates where theuser first touched the screen, and "draggedAnySprite" indicates whether asprite is being dragged.
 
 ### Flung
+
+When a fling gesture (quick swipe) is made on the canvas: providesthe (x,y) position of the start of the fling, relative to the upperleft of the canvas. Also provides the speed (pixels per millisecond) and heading(0-360 degrees) of the fling, as well as the x velocity and y velocitycomponents of the fling's vector. The value "flungSprite" is true if a spritewas located near the the starting point of the fling gesture.
 
 [[Event('Canvas', 'Flung', 'x', 'y', 'speed', 'heading', 'xvel', 'yvel', 'flungSprite')]]
 
 | Params | []() |
 |--------|------|
-|x|Number|
-|y|Number|
-|speed|Number|
-|heading|Number|
-|x vel|Number|
-|y vel|Number|
-|flung Sprite|Boolean|
+|x|<span class="chip chip-number">Number</span>|
+|y|<span class="chip chip-number">Number</span>|
+|speed|<span class="chip chip-number">Number</span>|
+|heading|<span class="chip chip-number">Number</span>|
+|x vel|<span class="chip chip-number">Number</span>|
+|y vel|<span class="chip chip-number">Number</span>|
+|flung Sprite|<span class="chip chip-boolean">Boolean</span>|
 
-
-When a fling gesture (quick swipe) is made on the canvas: providesthe (x,y) position of the start of the fling, relative to the upperleft of the canvas. Also provides the speed (pixels per millisecond) and heading(0-360 degrees) of the fling, as well as the x velocity and y velocitycomponents of the fling's vector. The value "flungSprite" is true if a spritewas located near the the starting point of the fling gesture.
 
 ### Scaled
+
+This event is invoked when two-finger pinches. ScaleFactor is the ratio of the average distance between two-fingers from current and previous scale event.
 
 [[Event('Canvas', 'Scaled', 'scaleFactor')]]
 
 | Params | []() |
 |--------|------|
-|scale Factor|Number|
+|scale Factor|<span class="chip chip-number">Number</span>|
 
-
-This event is invoked when two-finger pinches. ScaleFactor is the ratio of the average distance between two-fingers from current and previous scale event.
 
 ### Touch Down
+
+When the user begins touching the canvas (places finger on canvas andleaves it there): provides the (x,y) position of the touch, relativeto the upper left of the canvas
 
 [[Event('Canvas', 'Touch Down', 'x', 'y')]]
 
 | Params | []() |
 |--------|------|
-|x|Number|
-|y|Number|
+|x|<span class="chip chip-number">Number</span>|
+|y|<span class="chip chip-number">Number</span>|
 
-
-When the user begins touching the canvas (places finger on canvas andleaves it there): provides the (x,y) position of the touch, relativeto the upper left of the canvas
 
 ### Touch Up
+
+When the user stops touching the canvas (lifts finger after aTouchDown event): provides the (x,y) position of the touch, relativeto the upper left of the canvas
 
 [[Event('Canvas', 'Touch Up', 'x', 'y')]]
 
 | Params | []() |
 |--------|------|
-|x|Number|
-|y|Number|
+|x|<span class="chip chip-number">Number</span>|
+|y|<span class="chip chip-number">Number</span>|
 
-
-When the user stops touching the canvas (lifts finger after aTouchDown event): provides the (x,y) position of the touch, relativeto the upper left of the canvas
 
 ### Touched
+
+When the user touches the canvas and then immediately lifts finger: providesthe (x,y) position of the touch, relative to the upper left of the canvas. TouchedAnySpriteis true if the same touch also touched a sprite, and false otherwise.
 
 [[Event('Canvas', 'Touched', 'x', 'y', 'touchedAnySprite')]]
 
 | Params | []() |
 |--------|------|
-|x|Number|
-|y|Number|
-|touched Any Sprite|Boolean|
+|x|<span class="chip chip-number">Number</span>|
+|y|<span class="chip chip-number">Number</span>|
+|touched Any Sprite|<span class="chip chip-boolean">Boolean</span>|
 
-
-When the user touches the canvas and then immediately lifts finger: providesthe (x,y) position of the touch, relative to the upper left of the canvas. TouchedAnySpriteis true if the same touch also touched a sprite, and false otherwise.
 
 ## Methods
 
 ### Clear
 
-[[Method('Canvas', 'Clear', False)]]
-
 Clears anything drawn on this Canvas but not any background color or image.
 
+[[Method('Canvas', 'Clear', False)]]
+
 ### Draw Arc
+
+Draw an arc on Canvas, by drawing an arc from a specified oval (specified by left, top, right &amp; bottom). Start angle is 0 when heading to the right, and increase when rotate clockwise. When useCenter is true, a sector will be drawed instead of an arc. When fill is true, a filled arc (or sector) will be drawed instead of just an outline.
 
 [[Method('Canvas', 'Draw Arc', False, 'left', 'top', 'right', 'bottom', 'startAngle', 'sweepAngle', 'useCenter', 'fill')]]
 
 | Params | []() |
 |--------|------|
-|left|Number|
-|top|Number|
-|right|Number|
-|bottom|Number|
-|start Angle|Number|
-|sweep Angle|Number|
-|use Center|Boolean|
-|fill|Boolean|
+|left|<span class="chip chip-number">Number</span>|
+|top|<span class="chip chip-number">Number</span>|
+|right|<span class="chip chip-number">Number</span>|
+|bottom|<span class="chip chip-number">Number</span>|
+|start Angle|<span class="chip chip-number">Number</span>|
+|sweep Angle|<span class="chip chip-number">Number</span>|
+|use Center|<span class="chip chip-boolean">Boolean</span>|
+|fill|<span class="chip chip-boolean">Boolean</span>|
 
-
-Draw an arc on Canvas, by drawing an arc from a specified oval (specified by left, top, right &amp; bottom). Start angle is 0 when heading to the right, and increase when rotate clockwise. When useCenter is true, a sector will be drawed instead of an arc. When fill is true, a filled arc (or sector) will be drawed instead of just an outline.
 
 ### Draw Circle
+
+Draws a circle (filled in) with the given radius centered at the given coordinates on the canvas
 
 [[Method('Canvas', 'Draw Circle', False, 'centerX', 'centerY', 'radius', 'fill')]]
 
 | Params | []() |
 |--------|------|
-|center X|Number|
-|center Y|Number|
-|radius|Number|
-|fill|Boolean|
+|center X|<span class="chip chip-number">Number</span>|
+|center Y|<span class="chip chip-number">Number</span>|
+|radius|<span class="chip chip-number">Number</span>|
+|fill|<span class="chip chip-boolean">Boolean</span>|
 
-
-Draws a circle (filled in) with the given radius centered at the given coordinates on the canvas
 
 ### Draw Line
+
+Draws a line between the given coordinates on the canvas.
 
 [[Method('Canvas', 'Draw Line', False, 'x1', 'y1', 'x2', 'y2')]]
 
 | Params | []() |
 |--------|------|
-|x1|Number|
-|y1|Number|
-|x2|Number|
-|y2|Number|
+|x1|<span class="chip chip-number">Number</span>|
+|y1|<span class="chip chip-number">Number</span>|
+|x2|<span class="chip chip-number">Number</span>|
+|y2|<span class="chip chip-number">Number</span>|
 
-
-Draws a line between the given coordinates on the canvas.
 
 ### Draw Point
+
+Draws a point at the given coordinates on the canvas.
 
 [[Method('Canvas', 'Draw Point', False, 'x', 'y')]]
 
 | Params | []() |
 |--------|------|
-|x|Number|
-|y|Number|
+|x|<span class="chip chip-number">Number</span>|
+|y|<span class="chip chip-number">Number</span>|
 
-
-Draws a point at the given coordinates on the canvas.
 
 ### Draw Polygon
+
+Creates a polygon with with specified number of sides from a radius.
 
 [[Method('Canvas', 'Draw Polygon', False, 'centerX', 'centerY', 'numSides', 'polyRadius', 'cornerRadius', 'rotation', 'fill')]]
 
 | Params | []() |
 |--------|------|
-|center X|Number|
-|center Y|Number|
-|num Sides|Number|
-|poly Radius|Number|
-|corner Radius|Number|
-|rotation|Number|
-|fill|Boolean|
+|center X|<span class="chip chip-number">Number</span>|
+|center Y|<span class="chip chip-number">Number</span>|
+|num Sides|<span class="chip chip-number">Number</span>|
+|poly Radius|<span class="chip chip-number">Number</span>|
+|corner Radius|<span class="chip chip-number">Number</span>|
+|rotation|<span class="chip chip-number">Number</span>|
+|fill|<span class="chip chip-boolean">Boolean</span>|
 
-
-Creates a polygon with with specified number of sides from a radius.
 
 ### Draw Shape
+
+Draws a shape on the canvas. pointList should be a list contains sub-lists with two number which represents a coordinate. The first point and last point does not need to be the same. e.g. ((x1 y1) (x2 y2) (x3 y3)) When fill is true, the shape will be filled.
 
 [[Method('Canvas', 'Draw Shape', False, 'pointList', 'fill')]]
 
 | Params | []() |
 |--------|------|
-|point List|List|
-|fill|Boolean|
+|point List|<span class="chip chip-list">List</span>|
+|fill|<span class="chip chip-boolean">Boolean</span>|
 
-
-Draws a shape on the canvas. pointList should be a list contains sub-lists with two number which represents a coordinate. The first point and last point does not need to be the same. e.g. ((x1 y1) (x2 y2) (x3 y3)) When fill is true, the shape will be filled.
 
 ### Draw Text
+
+Draws the specified text relative to the specified coordinates using the values of the FontSize and TextAlignment properties.
 
 [[Method('Canvas', 'Draw Text', False, 'text', 'x', 'y')]]
 
 | Params | []() |
 |--------|------|
-|text|Text|
-|x|Number|
-|y|Number|
+|text|<span class="chip chip-text">Text</span>|
+|x|<span class="chip chip-number">Number</span>|
+|y|<span class="chip chip-number">Number</span>|
 
-
-Draws the specified text relative to the specified coordinates using the values of the FontSize and TextAlignment properties.
 
 ### Draw Text At Angle
+
+Draws the specified text starting at the specified coordinates at the specified angle using the values of the FontSize and TextAlignment properties.
 
 [[Method('Canvas', 'Draw Text At Angle', False, 'text', 'x', 'y', 'angle')]]
 
 | Params | []() |
 |--------|------|
-|text|Text|
-|x|Number|
-|y|Number|
-|angle|Number|
+|text|<span class="chip chip-text">Text</span>|
+|x|<span class="chip chip-number">Number</span>|
+|y|<span class="chip chip-number">Number</span>|
+|angle|<span class="chip chip-number">Number</span>|
 
-
-Draws the specified text starting at the specified coordinates at the specified angle using the values of the FontSize and TextAlignment properties.
 
 ### Get Background Pixel Color
 
-[[Method('Canvas', 'Get Background Pixel Color', True, 'x', 'y')]]
-
-{>>Returns `number`<<}
-
-| Params | []() |
-|--------|------|
-|x|Number|
-|y|Number|
-
+<span class="chip chip-number">Returns: <i>Number</i></span> 
 
 Gets the color of the specified point. This includes the background and any drawn points, lines, or circles but not sprites.
 
-### Get Pixel Color
-
-[[Method('Canvas', 'Get Pixel Color', True, 'x', 'y')]]
-
-{>>Returns `number`<<}
+[[Method('Canvas', 'Get Background Pixel Color', True, 'x', 'y')]]
 
 | Params | []() |
 |--------|------|
-|x|Number|
-|y|Number|
+|x|<span class="chip chip-number">Number</span>|
+|y|<span class="chip chip-number">Number</span>|
 
+
+### Get Pixel Color
+
+<span class="chip chip-number">Returns: <i>Number</i></span> 
 
 Gets the color of the specified point.
 
-### Save
-
-[[Method('Canvas', 'Save', True)]]
-
-{>>Returns `text`<<}
-
-Saves a picture of this Canvas to the device's external storage. If an error occurs, the Screen's ErrorOccurred event will be called.
-
-### Save As
-
-[[Method('Canvas', 'Save As', True, 'fileName')]]
-
-{>>Returns `text`<<}
+[[Method('Canvas', 'Get Pixel Color', True, 'x', 'y')]]
 
 | Params | []() |
 |--------|------|
-|file Name|Text|
+|x|<span class="chip chip-number">Number</span>|
+|y|<span class="chip chip-number">Number</span>|
 
+
+### Save
+
+<span class="chip chip-text">Returns: <i>Text</i></span> 
+
+Saves a picture of this Canvas to the device's external storage. If an error occurs, the Screen's ErrorOccurred event will be called.
+
+[[Method('Canvas', 'Save', True)]]
+
+### Save As
+
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 Saves a picture of this Canvas to the device's external storage in the file named fileName. fileName must end with one of .jpg, .jpeg, or .png, which determines the file type.
 
+[[Method('Canvas', 'Save As', True, 'fileName')]]
+
+| Params | []() |
+|--------|------|
+|file Name|<span class="chip chip-text">Text</span>|
+
+
 ### Set Background Pixel Color
+
+Sets the color of the specified point. This differs from DrawPoint by having an argument for color.
 
 [[Method('Canvas', 'Set Background Pixel Color', False, 'x', 'y', 'color')]]
 
 | Params | []() |
 |--------|------|
-|x|Number|
-|y|Number|
-|color|Number|
+|x|<span class="chip chip-number">Number</span>|
+|y|<span class="chip chip-number">Number</span>|
+|color|<span class="chip chip-number">Number</span>|
 
-
-Sets the color of the specified point. This differs from DrawPoint by having an argument for color.
 
 ## Properties
 

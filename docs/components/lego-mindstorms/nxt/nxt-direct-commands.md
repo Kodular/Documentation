@@ -14,279 +14,279 @@ A component that provides a low-level interface to a LEGO MINDSTORMS NXT robot, 
 
 ### Delete File
 
+Delete a file on the robot.
+
 [[Method('NXT Direct Commands', 'Delete File', False, 'fileName')]]
 
 | Params | []() |
 |--------|------|
-|file Name|Text|
+|file Name|<span class="chip chip-text">Text</span>|
 
-
-Delete a file on the robot.
 
 ### Download File
+
+Download a file to the robot.
 
 [[Method('NXT Direct Commands', 'Download File', False, 'source', 'destination')]]
 
 | Params | []() |
 |--------|------|
-|source|Text|
-|destination|Text|
+|source|<span class="chip chip-text">Text</span>|
+|destination|<span class="chip chip-text">Text</span>|
 
-
-Download a file to the robot.
 
 ### Get Battery Level
 
-[[Method('NXT Direct Commands', 'Get Battery Level', True)]]
-
-{>>Returns `number`<<}
+<span class="chip chip-number">Returns: <i>Number</i></span> 
 
 Get the battery level for the robot. Returns the voltage in millivolts.
 
+[[Method('NXT Direct Commands', 'Get Battery Level', True)]]
+
 ### Get Brick Name
 
-[[Method('NXT Direct Commands', 'Get Brick Name', True)]]
-
-{>>Returns `text`<<}
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 Get the brick name of the robot.
 
+[[Method('NXT Direct Commands', 'Get Brick Name', True)]]
+
 ### Get Current Program Name
 
-[[Method('NXT Direct Commands', 'Get Current Program Name', True)]]
-
-{>>Returns `text`<<}
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 Get the name of currently running program on the robot.
 
+[[Method('NXT Direct Commands', 'Get Current Program Name', True)]]
+
 ### Get Firmware Version
 
-[[Method('NXT Direct Commands', 'Get Firmware Version', True)]]
-
-{>>Returns `list`<<}
+<span class="chip chip-list">Returns: <i>List</i></span> 
 
 Get the firmware and protocol version numbers for the robot as a list where the first element is the firmware version number and the second element is the protocol version number.
 
+[[Method('NXT Direct Commands', 'Get Firmware Version', True)]]
+
 ### Get Input Values
 
-[[Method('NXT Direct Commands', 'Get Input Values', True, 'sensorPortLetter')]]
-
-{>>Returns `list`<<}
-
-| Params | []() |
-|--------|------|
-|sensor Port Letter|Text|
-
+<span class="chip chip-list">Returns: <i>List</i></span> 
 
 Reads the values of an input sensor on the robot. Assumes sensor type has been configured via SetInputMode.
 
-### Get Output State
-
-[[Method('NXT Direct Commands', 'Get Output State', True, 'motorPortLetter')]]
-
-{>>Returns `list`<<}
+[[Method('NXT Direct Commands', 'Get Input Values', True, 'sensorPortLetter')]]
 
 | Params | []() |
 |--------|------|
-|motor Port Letter|Text|
+|sensor Port Letter|<span class="chip chip-text">Text</span>|
 
+
+### Get Output State
+
+<span class="chip chip-list">Returns: <i>List</i></span> 
 
 Reads the output state of a motor on the robot.
 
+[[Method('NXT Direct Commands', 'Get Output State', True, 'motorPortLetter')]]
+
+| Params | []() |
+|--------|------|
+|motor Port Letter|<span class="chip chip-text">Text</span>|
+
+
 ### Keep Alive
 
-[[Method('NXT Direct Commands', 'Keep Alive', True)]]
-
-{>>Returns `number`<<}
+<span class="chip chip-number">Returns: <i>Number</i></span> 
 
 Keep Alive. Returns the current sleep time limit in milliseconds.
 
+[[Method('NXT Direct Commands', 'Keep Alive', True)]]
+
 ### List Files
 
-[[Method('NXT Direct Commands', 'List Files', True, 'wildcard')]]
-
-{>>Returns `list`<<}
-
-| Params | []() |
-|--------|------|
-|wildcard|Text|
-
+<span class="chip chip-list">Returns: <i>List</i></span> 
 
 Returns a list containing the names of matching files found on the robot.
 
-### Ls Get Status
-
-[[Method('NXT Direct Commands', 'Ls Get Status', True, 'sensorPortLetter')]]
-
-{>>Returns `number`<<}
+[[Method('NXT Direct Commands', 'List Files', True, 'wildcard')]]
 
 | Params | []() |
 |--------|------|
-|sensor Port Letter|Text|
+|wildcard|<span class="chip chip-text">Text</span>|
 
+
+### Ls Get Status
+
+<span class="chip chip-number">Returns: <i>Number</i></span> 
 
 Returns the count of available bytes to read.
 
-### Ls Read
-
-[[Method('NXT Direct Commands', 'Ls Read', True, 'sensorPortLetter')]]
-
-{>>Returns `list`<<}
+[[Method('NXT Direct Commands', 'Ls Get Status', True, 'sensorPortLetter')]]
 
 | Params | []() |
 |--------|------|
-|sensor Port Letter|Text|
+|sensor Port Letter|<span class="chip chip-text">Text</span>|
 
+
+### Ls Read
+
+<span class="chip chip-list">Returns: <i>List</i></span> 
 
 Reads unsigned low speed data from an input sensor on the robot. Assumes sensor type has been configured via SetInputMode.
 
+[[Method('NXT Direct Commands', 'Ls Read', True, 'sensorPortLetter')]]
+
+| Params | []() |
+|--------|------|
+|sensor Port Letter|<span class="chip chip-text">Text</span>|
+
+
 ### Ls Write
+
+Writes low speed data to an input sensor on the robot. Assumes sensor type has been configured via SetInputMode.
 
 [[Method('NXT Direct Commands', 'Ls Write', False, 'sensorPortLetter', 'list', 'rxDataLength')]]
 
 | Params | []() |
 |--------|------|
-|sensor Port Letter|Text|
-|list|List|
-|rx Data Length|Number|
+|sensor Port Letter|<span class="chip chip-text">Text</span>|
+|list|<span class="chip chip-list">List</span>|
+|rx Data Length|<span class="chip chip-number">Number</span>|
 
-
-Writes low speed data to an input sensor on the robot. Assumes sensor type has been configured via SetInputMode.
 
 ### Message Read
 
-[[Method('NXT Direct Commands', 'Message Read', True, 'mailbox')]]
-
-{>>Returns `text`<<}
-
-| Params | []() |
-|--------|------|
-|mailbox|Number|
-
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 Read a message from a mailbox (1-10) on the robot.
 
+[[Method('NXT Direct Commands', 'Message Read', True, 'mailbox')]]
+
+| Params | []() |
+|--------|------|
+|mailbox|<span class="chip chip-number">Number</span>|
+
+
 ### Message Write
+
+Write a message to a mailbox (1-10) on the robot.
 
 [[Method('NXT Direct Commands', 'Message Write', False, 'mailbox', 'message')]]
 
 | Params | []() |
 |--------|------|
-|mailbox|Number|
-|message|Text|
+|mailbox|<span class="chip chip-number">Number</span>|
+|message|<span class="chip chip-text">Text</span>|
 
-
-Write a message to a mailbox (1-10) on the robot.
 
 ### Play Sound File
+
+Play a sound file on the robot.
 
 [[Method('NXT Direct Commands', 'Play Sound File', False, 'fileName')]]
 
 | Params | []() |
 |--------|------|
-|file Name|Text|
+|file Name|<span class="chip chip-text">Text</span>|
 
-
-Play a sound file on the robot.
 
 ### Play Tone
+
+Make the robot play a tone.
 
 [[Method('NXT Direct Commands', 'Play Tone', False, 'frequencyHz', 'durationMs')]]
 
 | Params | []() |
 |--------|------|
-|frequency Hz|Number|
-|duration Ms|Number|
+|frequency Hz|<span class="chip chip-number">Number</span>|
+|duration Ms|<span class="chip chip-number">Number</span>|
 
-
-Make the robot play a tone.
 
 ### Reset Input Scaled Value
+
+Reset the scaled value of an input sensor on the robot.
 
 [[Method('NXT Direct Commands', 'Reset Input Scaled Value', False, 'sensorPortLetter')]]
 
 | Params | []() |
 |--------|------|
-|sensor Port Letter|Text|
+|sensor Port Letter|<span class="chip chip-text">Text</span>|
 
-
-Reset the scaled value of an input sensor on the robot.
 
 ### Reset Motor Position
+
+Reset motor position.
 
 [[Method('NXT Direct Commands', 'Reset Motor Position', False, 'motorPortLetter', 'relative')]]
 
 | Params | []() |
 |--------|------|
-|motor Port Letter|Text|
-|relative|Boolean|
+|motor Port Letter|<span class="chip chip-text">Text</span>|
+|relative|<span class="chip chip-boolean">Boolean</span>|
 
-
-Reset motor position.
 
 ### Set Brick Name
+
+Set the brick name of the robot.
 
 [[Method('NXT Direct Commands', 'Set Brick Name', False, 'name')]]
 
 | Params | []() |
 |--------|------|
-|name|Text|
+|name|<span class="chip chip-text">Text</span>|
 
-
-Set the brick name of the robot.
 
 ### Set Input Mode
+
+Configure an input sensor on the robot.
 
 [[Method('NXT Direct Commands', 'Set Input Mode', False, 'sensorPortLetter', 'sensorType', 'sensorMode')]]
 
 | Params | []() |
 |--------|------|
-|sensor Port Letter|Text|
-|sensor Type|Number|
-|sensor Mode|Number|
+|sensor Port Letter|<span class="chip chip-text">Text</span>|
+|sensor Type|<span class="chip chip-number">Number</span>|
+|sensor Mode|<span class="chip chip-number">Number</span>|
 
-
-Configure an input sensor on the robot.
 
 ### Set Output State
+
+Sets the output state of a motor on the robot.
 
 [[Method('NXT Direct Commands', 'Set Output State', False, 'motorPortLetter', 'power', 'mode', 'regulationMode', 'turnRatio', 'runState', 'tachoLimit')]]
 
 | Params | []() |
 |--------|------|
-|motor Port Letter|Text|
-|power|Number|
-|mode|Number|
-|regulation Mode|Number|
-|turn Ratio|Number|
-|run State|Number|
-|tacho Limit|Number|
+|motor Port Letter|<span class="chip chip-text">Text</span>|
+|power|<span class="chip chip-number">Number</span>|
+|mode|<span class="chip chip-number">Number</span>|
+|regulation Mode|<span class="chip chip-number">Number</span>|
+|turn Ratio|<span class="chip chip-number">Number</span>|
+|run State|<span class="chip chip-number">Number</span>|
+|tacho Limit|<span class="chip chip-number">Number</span>|
 
-
-Sets the output state of a motor on the robot.
 
 ### Start Program
+
+Start execution of a previously downloaded program on the robot.
 
 [[Method('NXT Direct Commands', 'Start Program', False, 'programName')]]
 
 | Params | []() |
 |--------|------|
-|program Name|Text|
+|program Name|<span class="chip chip-text">Text</span>|
 
-
-Start execution of a previously downloaded program on the robot.
 
 ### Stop Program
 
-[[Method('NXT Direct Commands', 'Stop Program', False)]]
-
 Stop execution of the currently running program on the robot.
+
+[[Method('NXT Direct Commands', 'Stop Program', False)]]
 
 ### Stop Sound Playback
 
-[[Method('NXT Direct Commands', 'Stop Sound Playback', False)]]
-
 Stop sound playback.
+
+[[Method('NXT Direct Commands', 'Stop Sound Playback', False)]]
 
 ## Properties
 

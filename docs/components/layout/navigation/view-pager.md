@@ -12,45 +12,45 @@ A visible component that groups other layout components each of which can be acc
 
 ### Page Selected
 
+Event to detect that a page was selected.
+
 [[Event('View Pager', 'Page Selected', 'position')]]
 
 | Params | []() |
 |--------|------|
-|position|Number|
+|position|<span class="chip chip-number">Number</span>|
 
-
-Event to detect that a page was selected.
 
 ## Methods
 
 ### Add Component To View
 
+Add a component to the view pager. The first added component will be the first visible component on the screen.
+
 [[Method('View Pager', 'Add Component To View', False, 'component', 'tabName')]]
 
 | Params | []() |
 |--------|------|
-|component|Component|
-|tab Name|Text|
+|component|<span class="chip chip-component">Component</span>|
+|tab Name|<span class="chip chip-text">Text</span>|
 
-
-Add a component to the view pager. The first added component will be the first visible component on the screen.
 
 ### Remove All Tabs
 
-[[Method('View Pager', 'Remove All Tabs', False)]]
-
 Remove all tab's from view pager.
 
+[[Method('View Pager', 'Remove All Tabs', False)]]
+
 ### Remove View At
+
+Removes a before added view from the view pager. If you want to delete the first page then use as position '1'.
 
 [[Method('View Pager', 'Remove View At', False, 'position')]]
 
 | Params | []() |
 |--------|------|
-|position|Number|
+|position|<span class="chip chip-number">Number</span>|
 
-
-Removes a before added view from the view pager. If you want to delete the first page then use as position '1'.
 
 ## Properties
 

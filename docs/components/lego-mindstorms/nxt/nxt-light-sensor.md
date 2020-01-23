@@ -14,31 +14,31 @@ A component that provides a high-level interface to a light sensor on a LEGO MIN
 
 ### Above Range
 
-[[Event('NXT Light Sensor', 'Above Range')]]
-
 Light level has gone above the range.
+
+[[Event('NXT Light Sensor', 'Above Range')]]
 
 ### Below Range
 
-[[Event('NXT Light Sensor', 'Below Range')]]
-
 Light level has gone below the range.
+
+[[Event('NXT Light Sensor', 'Below Range')]]
 
 ### Within Range
 
-[[Event('NXT Light Sensor', 'Within Range')]]
-
 Light level has gone within the range.
+
+[[Event('NXT Light Sensor', 'Within Range')]]
 
 ## Methods
 
 ### Get Light Level
 
-[[Method('NXT Light Sensor', 'Get Light Level', True)]]
-
-{>>Returns `number`<<}
+<span class="chip chip-number">Returns: <i>Number</i></span> 
 
 Returns the current light level as a value between 0 and 1023, or -1 if the light level can not be read.
+
+[[Method('NXT Light Sensor', 'Get Light Level', True)]]
 
 ## Properties
 

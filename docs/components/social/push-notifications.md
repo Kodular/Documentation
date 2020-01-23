@@ -15,126 +15,126 @@ Powered by OneSignal.
 
 ### Got Available Tags
 
+Event to detect available one signal tags.
+
 [[Event('Push Notifications', 'Got Available Tags', 'tagsAsString', 'tagsAsList')]]
 
 | Params | []() |
 |--------|------|
-|tags As String|Text|
-|tags As List|List|
+|tags As String|<span class="chip chip-text">Text</span>|
+|tags As List|<span class="chip chip-list">List</span>|
 
-
-Event to detect available one signal tags.
 
 ### Got Value
+
+Event to receive value for a tag.
 
 [[Event('Push Notifications', 'Got Value', 'tag', 'value')]]
 
 | Params | []() |
 |--------|------|
-|tag|Text|
-|value|Text|
+|tag|<span class="chip chip-text">Text</span>|
+|value|<span class="chip chip-text">Text</span>|
 
-
-Event to receive value for a tag.
 
 ### Notification Opened
+
+User opened a notification.
 
 [[Event('Push Notifications', 'Notification Opened', 'id', 'title', 'message')]]
 
 | Params | []() |
 |--------|------|
-|id|Text|
-|title|Text|
-|message|Text|
+|id|<span class="chip chip-text">Text</span>|
+|title|<span class="chip chip-text">Text</span>|
+|message|<span class="chip chip-text">Text</span>|
 
-
-User opened a notification.
 
 ### Notification Received
+
+User received a notification.
 
 [[Event('Push Notifications', 'Notification Received', 'id', 'title', 'message')]]
 
 | Params | []() |
 |--------|------|
-|id|Text|
-|title|Text|
-|message|Text|
+|id|<span class="chip chip-text">Text</span>|
+|title|<span class="chip chip-text">Text</span>|
+|message|<span class="chip chip-text">Text</span>|
 
-
-User received a notification.
 
 ### Send Message Done
+
+Returns true if your message was send with success out of your app to all users.
 
 [[Event('Push Notifications', 'Send Message Done', 'success')]]
 
 | Params | []() |
 |--------|------|
-|success|Boolean|
+|success|<span class="chip chip-boolean">Boolean</span>|
 
-
-Returns true if your message was send with success out of your app to all users.
 
 ## Methods
 
 ### Clear All Notifications
 
-[[Method('Push Notifications', 'Clear All Notifications', False)]]
-
 Clear All Notifications.
 
+[[Method('Push Notifications', 'Clear All Notifications', False)]]
+
 ### Delete Tag
+
+Deletes a single tag that was previously set on a user.
 
 [[Method('Push Notifications', 'Delete Tag', False, 'key')]]
 
 | Params | []() |
 |--------|------|
-|key|Text|
+|key|<span class="chip chip-text">Text</span>|
 
-
-Deletes a single tag that was previously set on a user.
 
 ### Get Available Tags
 
-[[Method('Push Notifications', 'Get Available Tags', False)]]
-
 Get a list of available tags.
 
+[[Method('Push Notifications', 'Get Available Tags', False)]]
+
 ### Get Value
+
+Get value for tag.
 
 [[Method('Push Notifications', 'Get Value', False, 'tag', 'valueIfTagNotThere')]]
 
 | Params | []() |
 |--------|------|
-|tag|Text|
-|value If Tag Not There|Text|
+|tag|<span class="chip chip-text">Text</span>|
+|value If Tag Not There|<span class="chip chip-text">Text</span>|
 
-
-Get value for tag.
 
 ### Send Message
+
+Send a message to all users. The message and your REST Api Key can not be empty! You will find your REST Api Key in your OneSignal account settings.
 
 [[Method('Push Notifications', 'Send Message', False, 'title', 'message', 'restApiKey')]]
 
 | Params | []() |
 |--------|------|
-|title|Text|
-|message|Text|
-|rest API Key|Text|
+|title|<span class="chip chip-text">Text</span>|
+|message|<span class="chip chip-text">Text</span>|
+|rest API Key|<span class="chip chip-text">Text</span>|
 
-
-Send a message to all users. The message and your REST Api Key can not be empty! You will find your REST Api Key in your OneSignal account settings.
 
 ### Send Tag
+
+Tag a user based on an app event of your choosing so later you can create segments in to target these users.
 
 [[Method('Push Notifications', 'Send Tag', False, 'key', 'value')]]
 
 | Params | []() |
 |--------|------|
-|key|Text|
-|value|Text|
+|key|<span class="chip chip-text">Text</span>|
+|value|<span class="chip chip-text">Text</span>|
 
-
-Tag a user based on an app event of your choosing so later you can create segments in to target these users.
 
 ## Properties
 

@@ -12,104 +12,104 @@ A visible component that draws a rectangle on a Map component bounded by north, 
 
 ### Click
 
-[[Event('Rectangle', 'Click')]]
-
 The user clicked on the feature.
+
+[[Event('Rectangle', 'Click')]]
 
 ### Drag
 
-[[Event('Rectangle', 'Drag')]]
-
 The user dragged the map feature.
+
+[[Event('Rectangle', 'Drag')]]
 
 ### Long Click
 
-[[Event('Rectangle', 'Long Click')]]
-
 The user long-pressed on the feature. This event will only trigger if Draggable is false.
+
+[[Event('Rectangle', 'Long Click')]]
 
 ### Start Drag
 
-[[Event('Rectangle', 'Start Drag')]]
-
 The user started a drag operation.
+
+[[Event('Rectangle', 'Start Drag')]]
 
 ### Stop Drag
 
-[[Event('Rectangle', 'Stop Drag')]]
-
 The user stopped a drag operation.
+
+[[Event('Rectangle', 'Stop Drag')]]
 
 ## Methods
 
 ### Bounds
 
-[[Method('Rectangle', 'Bounds', True)]]
-
-{>>Returns `list`<<}
+<span class="chip chip-list">Returns: <i>List</i></span> 
 
 Returns the bounding box of the Rectangle in the format ((North West) (South East)).
 
+[[Method('Rectangle', 'Bounds', True)]]
+
 ### Center
 
-[[Method('Rectangle', 'Center', True)]]
-
-{>>Returns `list`<<}
+<span class="chip chip-list">Returns: <i>List</i></span> 
 
 Returns the center of the Rectangle as a list of the form (Latitude Longitude).
 
+[[Method('Rectangle', 'Center', True)]]
+
 ### Distance To Feature
 
-[[Method('Rectangle', 'Distance To Feature', True, 'mapFeature', 'centroids')]]
-
-{>>Returns `number`<<}
-
-| Params | []() |
-|--------|------|
-|map Feature|Component|
-|centroids|Boolean|
-
+<span class="chip chip-number">Returns: <i>Number</i></span> 
 
 Compute the distance, in meters, between two map features.
 
-### Distance To Point
-
-[[Method('Rectangle', 'Distance To Point', True, 'latitude', 'longitude', 'centroid')]]
-
-{>>Returns `number`<<}
+[[Method('Rectangle', 'Distance To Feature', True, 'mapFeature', 'centroids')]]
 
 | Params | []() |
 |--------|------|
-|latitude|Number|
-|longitude|Number|
-|centroid|Boolean|
+|map Feature|<span class="chip chip-component">Component</span>|
+|centroids|<span class="chip chip-boolean">Boolean</span>|
 
+
+### Distance To Point
+
+<span class="chip chip-number">Returns: <i>Number</i></span> 
 
 Compute the distance, in meters, between a map feature and a latitude, longitude point.
 
-### Hide Infobox
+[[Method('Rectangle', 'Distance To Point', True, 'latitude', 'longitude', 'centroid')]]
 
-[[Method('Rectangle', 'Hide Infobox', False)]]
+| Params | []() |
+|--------|------|
+|latitude|<span class="chip chip-number">Number</span>|
+|longitude|<span class="chip chip-number">Number</span>|
+|centroid|<span class="chip chip-boolean">Boolean</span>|
+
+
+### Hide Infobox
 
 Hide the infobox if it is shown. If the infobox is not visible this function has no effect.
 
+[[Method('Rectangle', 'Hide Infobox', False)]]
+
 ### Set Center
+
+Moves the Rectangle so that it is centered on the given latitude and longitude while attempting to maintain the width and height of the Rectangle as measured from the center to the edges.
 
 [[Method('Rectangle', 'Set Center', False, 'latitude', 'longitude')]]
 
 | Params | []() |
 |--------|------|
-|latitude|Number|
-|longitude|Number|
+|latitude|<span class="chip chip-number">Number</span>|
+|longitude|<span class="chip chip-number">Number</span>|
 
-
-Moves the Rectangle so that it is centered on the given latitude and longitude while attempting to maintain the width and height of the Rectangle as measured from the center to the edges.
 
 ### Show Infobox
 
-[[Method('Rectangle', 'Show Infobox', False)]]
-
 Show the infobox for the feature. This will show the infobox even if
+
+[[Method('Rectangle', 'Show Infobox', False)]]
 
 ## Properties
 

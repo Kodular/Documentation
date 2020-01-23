@@ -12,71 +12,71 @@ A visible component that shows a navigation menu in the bottom of the screen.
 
 ### Item Selected
 
+Event triggers when an item was selected.
+
 [[Event('Bottom Navigation', 'Item Selected', 'id', 'title')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
-|title|Text|
+|id|<span class="chip chip-number">Number</span>|
+|title|<span class="chip chip-text">Text</span>|
 
-
-Event triggers when an item was selected.
 
 ## Methods
 
 ### Add Item
 
+Add an item to the bottom menu
+
 [[Method('Bottom Navigation', 'Add Item', False, 'id', 'title', 'image')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
-|title|Text|
-|image|Text|
+|id|<span class="chip chip-number">Number</span>|
+|title|<span class="chip chip-text">Text</span>|
+|image|<span class="chip chip-text">Text</span>|
 
-
-Add an item to the bottom menu
 
 ### Remove All Items
 
-[[Method('Bottom Navigation', 'Remove All Items', False)]]
-
 Remove all items from the bottom menu
 
+[[Method('Bottom Navigation', 'Remove All Items', False)]]
+
 ### Remove Item
+
+Remove an item from the bottom menu
 
 [[Method('Bottom Navigation', 'Remove Item', False, 'id')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
+|id|<span class="chip chip-number">Number</span>|
 
-
-Remove an item from the bottom menu
 
 ### Select Item
+
+Select an item from the bottom menu
 
 [[Method('Bottom Navigation', 'Select Item', False, 'id')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
+|id|<span class="chip chip-number">Number</span>|
 
-
-Select an item from the bottom menu
 
 ### Update Item
+
+Update an item of the bottom menu
 
 [[Method('Bottom Navigation', 'Update Item', False, 'id', 'title', 'image')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
-|title|Text|
-|image|Text|
+|id|<span class="chip chip-number">Number</span>|
+|title|<span class="chip chip-text">Text</span>|
+|image|<span class="chip chip-text">Text</span>|
 
-
-Update an item of the bottom menu
 
 ## Properties
 

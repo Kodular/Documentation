@@ -14,236 +14,235 @@ A component to create dynamic buttons in Arrangements
 
 ### Button Click
 
+Trigger when a Dynamic Button is clicked.
+
 [[Event('Dynamic Button', 'Button Click', 'id')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
+|id|<span class="chip chip-number">Number</span>|
 
-
-Trigger when a Dynamic Button is clicked.
 
 ### Button Long Click
+
+Trigger when a Dynamic Button is long clicked.
 
 [[Event('Dynamic Button', 'Button Long Click', 'id')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
+|id|<span class="chip chip-number">Number</span>|
 
-
-Trigger when a Dynamic Button is long clicked.
 
 ## Methods
 
 ### Create Button
 
+Create a Dynamic Button.
+
 [[Method('Dynamic Button', 'Create Button', False, 'id', 'arrangement')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
-|arrangement|Component|
+|id|<span class="chip chip-number">Number</span>|
+|arrangement|<span class="chip chip-component">Component</span>|
 
-
-Create a Dynamic Button.
 
 ### Delete Button
 
 :warning: ==**Deprecated**==
 
+This block is DEPRECATED! Please use instead the 'Delete Button' block without arrangement parameter.
+
 [[Method('Dynamic Button', 'Delete Button', False, 'id', 'arrangement')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
-|arrangement|Component|
+|id|<span class="chip chip-number">Number</span>|
+|arrangement|<span class="chip chip-component">Component</span>|
 
-
-This block is DEPRECATED! Please use instead the 'Delete Button' block without arrangement parameter.
 
 ### Delete Button
+
+Delete a Dynamic Button.
 
 [[Method('Dynamic Button', 'Delete Button', False, 'id')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
+|id|<span class="chip chip-number">Number</span>|
 
-
-Delete a Dynamic Button.
 
 ### Get Button By Id
 
-[[Method('Dynamic Button', 'Get Button By Id', True, 'id')]]
-
-{>>Returns `component`<<}
-
-| Params | []() |
-|--------|------|
-|id|Number|
-
+<span class="chip chip-component">Returns: <i>Component</i></span> 
 
 Returns the button referenced by its id.
 
-### Get Enabled
-
-[[Method('Dynamic Button', 'Get Enabled', True, 'id')]]
-
-{>>Returns `boolean`<<}
+[[Method('Dynamic Button', 'Get Button By Id', True, 'id')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
+|id|<span class="chip chip-number">Number</span>|
 
+
+### Get Enabled
+
+<span class="chip chip-boolean">Returns: <i>Boolean</i></span> 
 
 Get the Enabled status of a button.
 
-### Get Font Size
-
-[[Method('Dynamic Button', 'Get Font Size', True, 'id')]]
-
-{>>Returns `number`<<}
+[[Method('Dynamic Button', 'Get Enabled', True, 'id')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
+|id|<span class="chip chip-number">Number</span>|
 
+
+### Get Font Size
+
+<span class="chip chip-number">Returns: <i>Number</i></span> 
 
 Get the Font Size of a button.
 
-### Get Height
-
-[[Method('Dynamic Button', 'Get Height', True, 'id')]]
-
-{>>Returns `number`<<}
+[[Method('Dynamic Button', 'Get Font Size', True, 'id')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
+|id|<span class="chip chip-number">Number</span>|
 
+
+### Get Height
+
+<span class="chip chip-number">Returns: <i>Number</i></span> 
 
 Get the Height of a button.
 
-### Get Text
-
-[[Method('Dynamic Button', 'Get Text', True, 'id')]]
-
-{>>Returns `text`<<}
+[[Method('Dynamic Button', 'Get Height', True, 'id')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
+|id|<span class="chip chip-number">Number</span>|
 
+
+### Get Text
+
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 Get the Text of a button.
 
-### Get Width
-
-[[Method('Dynamic Button', 'Get Width', True, 'id')]]
-
-{>>Returns `number`<<}
+[[Method('Dynamic Button', 'Get Text', True, 'id')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
+|id|<span class="chip chip-number">Number</span>|
 
+
+### Get Width
+
+<span class="chip chip-number">Returns: <i>Number</i></span> 
 
 Get the Width of a button.
 
+[[Method('Dynamic Button', 'Get Width', True, 'id')]]
+
+| Params | []() |
+|--------|------|
+|id|<span class="chip chip-number">Number</span>|
+
+
 ### Set Background Color
+
+Update the Background Color of a button.
 
 [[Method('Dynamic Button', 'Set Background Color', False, 'id', 'color')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
-|color|Number|
+|id|<span class="chip chip-number">Number</span>|
+|color|<span class="chip chip-number">Number</span>|
 
-
-Update the Background Color of a button.
 
 ### Set Enabled
+
+Update the Enabled status of a button.
 
 [[Method('Dynamic Button', 'Set Enabled', False, 'id', 'enabled')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
-|enabled|Boolean|
+|id|<span class="chip chip-number">Number</span>|
+|enabled|<span class="chip chip-boolean">Boolean</span>|
 
-
-Update the Enabled status of a button.
 
 ### Set Font
+
+Update the Font of a button.
 
 [[Method('Dynamic Button', 'Set Font', False, 'id', 'bold', 'italic')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
-|bold|Boolean|
-|italic|Boolean|
+|id|<span class="chip chip-number">Number</span>|
+|bold|<span class="chip chip-boolean">Boolean</span>|
+|italic|<span class="chip chip-boolean">Boolean</span>|
 
-
-Update the Font of a button.
 
 ### Set Font Size
+
+Update the Font Size of a button.
 
 [[Method('Dynamic Button', 'Set Font Size', False, 'id', 'size')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
-|size|Number|
+|id|<span class="chip chip-number">Number</span>|
+|size|<span class="chip chip-number">Number</span>|
 
-
-Update the Font Size of a button.
 
 ### Set Height
+
+Update the Height of a button.
 
 [[Method('Dynamic Button', 'Set Height', False, 'id', 'height')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
-|height|Number|
+|id|<span class="chip chip-number">Number</span>|
+|height|<span class="chip chip-number">Number</span>|
 
-
-Update the Height of a button.
 
 ### Set Text
+
+Update the Text of a button.
 
 [[Method('Dynamic Button', 'Set Text', False, 'id', 'text')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
-|text|Text|
+|id|<span class="chip chip-number">Number</span>|
+|text|<span class="chip chip-text">Text</span>|
 
-
-Update the Text of a button.
 
 ### Set Text Color
+
+Update the Text Color of a button.
 
 [[Method('Dynamic Button', 'Set Text Color', False, 'id', 'color')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
-|color|Number|
+|id|<span class="chip chip-number">Number</span>|
+|color|<span class="chip chip-number">Number</span>|
 
-
-Update the Text Color of a button.
 
 ### Set Width
+
+Update the Width of a button.
 
 [[Method('Dynamic Button', 'Set Width', False, 'id', 'width')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
-|width|Number|
-
-
-Update the Width of a button.
+|id|<span class="chip chip-number">Number</span>|
+|width|<span class="chip chip-number">Number</span>|

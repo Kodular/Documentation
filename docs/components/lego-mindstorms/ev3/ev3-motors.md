@@ -14,151 +14,151 @@ A component that provides both high- and low-level interfaces to a LEGO MINDSTOR
 
 ### Tacho Count Changed
 
+Called when the tacho count has changed.
+
 [[Event('EV3 Motors', 'Tacho Count Changed', 'tachoCount')]]
 
 | Params | []() |
 |--------|------|
-|tacho Count|Number|
+|tacho Count|<span class="chip chip-number">Number</span>|
 
-
-Called when the tacho count has changed.
 
 ## Methods
 
 ### Get Tacho Count
 
-[[Method('EV3 Motors', 'Get Tacho Count', True)]]
-
-{>>Returns `number`<<}
+<span class="chip chip-number">Returns: <i>Number</i></span> 
 
 Get the current tacho count.
 
-### Reset Tacho Count
+[[Method('EV3 Motors', 'Get Tacho Count', True)]]
 
-[[Method('EV3 Motors', 'Reset Tacho Count', False)]]
+### Reset Tacho Count
 
 Set the current tacho count to zero.
 
+[[Method('EV3 Motors', 'Reset Tacho Count', False)]]
+
 ### Rotate In Distance
+
+Rotate the motors in a distance.
 
 [[Method('EV3 Motors', 'Rotate In Distance', False, 'power', 'distance', 'useBrake')]]
 
 | Params | []() |
 |--------|------|
-|power|Number|
-|distance|Number|
-|use Brake|Boolean|
+|power|<span class="chip chip-number">Number</span>|
+|distance|<span class="chip chip-number">Number</span>|
+|use Brake|<span class="chip chip-boolean">Boolean</span>|
 
-
-Rotate the motors in a distance.
 
 ### Rotate In Duration
+
+Rotate the motors in a period of time.
 
 [[Method('EV3 Motors', 'Rotate In Duration', False, 'power', 'milliseconds', 'useBrake')]]
 
 | Params | []() |
 |--------|------|
-|power|Number|
-|milliseconds|Number|
-|use Brake|Boolean|
+|power|<span class="chip chip-number">Number</span>|
+|milliseconds|<span class="chip chip-number">Number</span>|
+|use Brake|<span class="chip chip-boolean">Boolean</span>|
 
-
-Rotate the motors in a period of time.
 
 ### Rotate In Tacho Counts
+
+Rotate the motors in a number of tacho counts.
 
 [[Method('EV3 Motors', 'Rotate In Tacho Counts', False, 'power', 'tachoCounts', 'useBrake')]]
 
 | Params | []() |
 |--------|------|
-|power|Number|
-|tacho Counts|Number|
-|use Brake|Boolean|
+|power|<span class="chip chip-number">Number</span>|
+|tacho Counts|<span class="chip chip-number">Number</span>|
+|use Brake|<span class="chip chip-boolean">Boolean</span>|
 
-
-Rotate the motors in a number of tacho counts.
 
 ### Rotate Indefinitely
+
+Start to rotate the motors.
 
 [[Method('EV3 Motors', 'Rotate Indefinitely', False, 'power')]]
 
 | Params | []() |
 |--------|------|
-|power|Number|
+|power|<span class="chip chip-number">Number</span>|
 
-
-Start to rotate the motors.
 
 ### Rotate Sync In Distance
+
+Rotate the motors at the same speed for a distance in cm.
 
 [[Method('EV3 Motors', 'Rotate Sync In Distance', False, 'power', 'distance', 'turnRatio', 'useBrake')]]
 
 | Params | []() |
 |--------|------|
-|power|Number|
-|distance|Number|
-|turn Ratio|Number|
-|use Brake|Boolean|
+|power|<span class="chip chip-number">Number</span>|
+|distance|<span class="chip chip-number">Number</span>|
+|turn Ratio|<span class="chip chip-number">Number</span>|
+|use Brake|<span class="chip chip-boolean">Boolean</span>|
 
-
-Rotate the motors at the same speed for a distance in cm.
 
 ### Rotate Sync In Duration
+
+Rotate the motors at the same speed in a period of time.
 
 [[Method('EV3 Motors', 'Rotate Sync In Duration', False, 'power', 'milliseconds', 'turnRatio', 'useBrake')]]
 
 | Params | []() |
 |--------|------|
-|power|Number|
-|milliseconds|Number|
-|turn Ratio|Number|
-|use Brake|Boolean|
+|power|<span class="chip chip-number">Number</span>|
+|milliseconds|<span class="chip chip-number">Number</span>|
+|turn Ratio|<span class="chip chip-number">Number</span>|
+|use Brake|<span class="chip chip-boolean">Boolean</span>|
 
-
-Rotate the motors at the same speed in a period of time.
 
 ### Rotate Sync In Tacho Counts
+
+Rotate the motors at the same speed in a number of tacho counts.
 
 [[Method('EV3 Motors', 'Rotate Sync In Tacho Counts', False, 'power', 'tachoCounts', 'turnRatio', 'useBrake')]]
 
 | Params | []() |
 |--------|------|
-|power|Number|
-|tacho Counts|Number|
-|turn Ratio|Number|
-|use Brake|Boolean|
+|power|<span class="chip chip-number">Number</span>|
+|tacho Counts|<span class="chip chip-number">Number</span>|
+|turn Ratio|<span class="chip chip-number">Number</span>|
+|use Brake|<span class="chip chip-boolean">Boolean</span>|
 
-
-Rotate the motors at the same speed in a number of tacho counts.
 
 ### Rotate Sync Indefinitely
+
+Start to rotate the motors at the same speed.
 
 [[Method('EV3 Motors', 'Rotate Sync Indefinitely', False, 'power', 'turnRatio')]]
 
 | Params | []() |
 |--------|------|
-|power|Number|
-|turn Ratio|Number|
+|power|<span class="chip chip-number">Number</span>|
+|turn Ratio|<span class="chip chip-number">Number</span>|
 
-
-Start to rotate the motors at the same speed.
 
 ### Stop
+
+Stop the motors of the robot.
 
 [[Method('EV3 Motors', 'Stop', False, 'useBrake')]]
 
 | Params | []() |
 |--------|------|
-|use Brake|Boolean|
+|use Brake|<span class="chip chip-boolean">Boolean</span>|
 
-
-Stop the motors of the robot.
 
 ### Toggle Direction
 
-[[Method('EV3 Motors', 'Toggle Direction', False)]]
-
 Toggle the direction of motors.
+
+[[Method('EV3 Motors', 'Toggle Direction', False)]]
 
 ## Properties
 

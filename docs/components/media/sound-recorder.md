@@ -14,46 +14,46 @@ A non-visible component that records audio from the device''s microphone.
 
 ### After Sound Recorded
 
+Provides the location of the newly created sound.
+
 [[Event('Sound Recorder', 'After Sound Recorded', 'sound')]]
 
 | Params | []() |
 |--------|------|
-|sound|Text|
+|sound|<span class="chip chip-text">Text</span>|
 
-
-Provides the location of the newly created sound.
 
 ### Started Recording
 
-[[Event('Sound Recorder', 'Started Recording')]]
-
 Indicates that the recorder has started, and can be stopped.
+
+[[Event('Sound Recorder', 'Started Recording')]]
 
 ### Stopped Recording
 
-[[Event('Sound Recorder', 'Stopped Recording')]]
-
 Indicates that the recorder has stopped, and can be started again.
+
+[[Event('Sound Recorder', 'Stopped Recording')]]
 
 ## Methods
 
 ### Pause
 
-[[Method('Sound Recorder', 'Pause', False)]]
-
 Pause recording.
+
+[[Method('Sound Recorder', 'Pause', False)]]
 
 ### Start
 
-[[Method('Sound Recorder', 'Start', False)]]
-
 Starts recording.
+
+[[Method('Sound Recorder', 'Start', False)]]
 
 ### Stop
 
-[[Method('Sound Recorder', 'Stop', False)]]
-
 Stops recording.
+
+[[Method('Sound Recorder', 'Stop', False)]]
 
 ## Properties
 

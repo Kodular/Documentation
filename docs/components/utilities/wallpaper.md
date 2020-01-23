@@ -14,73 +14,73 @@ A non-visible component that provides access to the system''s wallpaper settings
 
 ### Got Wallpaper
 
+Event to detect that the component got the current system wallpaper.
+
 [[Event('Wallpaper', 'Got Wallpaper', 'picture')]]
 
 | Params | []() |
 |--------|------|
-|picture|Text|
+|picture|<span class="chip chip-text">Text</span>|
 
-
-Event to detect that the component got the current system wallpaper.
 
 ### Wallpaper Changed
+
+Event to detect that the user has changed the wallpaper. This event will be invoked by the "Set Wallpaper" function.
 
 [[Event('Wallpaper', 'Wallpaper Changed', 'success')]]
 
 | Params | []() |
 |--------|------|
-|success|Boolean|
+|success|<span class="chip chip-boolean">Boolean</span>|
 
-
-Event to detect that the user has changed the wallpaper. This event will be invoked by the "Set Wallpaper" function.
 
 ### Wallpaper Cleared
 
-[[Event('Wallpaper', 'Wallpaper Cleared')]]
-
 Event to detect that the user has cleared/deleted the wallpaper.
+
+[[Event('Wallpaper', 'Wallpaper Cleared')]]
 
 ## Methods
 
 ### Clear
 
-[[Method('Wallpaper', 'Clear', False)]]
-
 Remove any currently set system wallpaper, reverting to the system's built-in wallpaper.
+
+[[Method('Wallpaper', 'Clear', False)]]
 
 ### Clear Wallpaper
 
-[[Method('Wallpaper', 'Clear Wallpaper', False)]]
-
 Reset all wallpaper to the factory default. This block works only on devices with Android 9+.
+
+[[Method('Wallpaper', 'Clear Wallpaper', False)]]
 
 ### Get Wallpaper
 
-[[Method('Wallpaper', 'Get Wallpaper', False)]]
-
 Retrieve the current system wallpaper; if no wallpaper is set, the system built-in static wallpaper is returned.
 
+[[Method('Wallpaper', 'Get Wallpaper', False)]]
+
 ### Set Lock Screen Wallpaper
+
+Change the current lock screen wallpaper. This block works only on devices with Android 7+.
 
 [[Method('Wallpaper', 'Set Lock Screen Wallpaper', False, 'image')]]
 
 | Params | []() |
 |--------|------|
-|image|Text|
+|image|<span class="chip chip-text">Text</span>|
 
-
-Change the current lock screen wallpaper. This block works only on devices with Android 7+.
 
 ### Set Wallpaper
+
+Change the current system wallpaper.
 
 [[Method('Wallpaper', 'Set Wallpaper', False, 'image')]]
 
 | Params | []() |
 |--------|------|
-|image|Text|
+|image|<span class="chip chip-text">Text</span>|
 
-
-Change the current system wallpaper.
 
 ## Properties
 

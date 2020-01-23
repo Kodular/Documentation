@@ -14,70 +14,70 @@ A non-visible component that shows Facebook ads as full-screen video where users
 
 ### Ad Closed
 
-[[Event('Facebook Rewarded Video', 'Ad Closed')]]
-
 Called when the user is about to return to the application after clicking on an ad.
 
+[[Event('Facebook Rewarded Video', 'Ad Closed')]]
+
 ### Ad Failed To Load
+
+Called when an ad request failed to load. The message will display the error code and error message.
 
 [[Event('Facebook Rewarded Video', 'Ad Failed To Load', 'errorCode', 'errorMessage')]]
 
 | Params | []() |
 |--------|------|
-|error Code|Number|
-|error Message|Text|
+|error Code|<span class="chip chip-number">Number</span>|
+|error Message|<span class="chip chip-text">Text</span>|
 
-
-Called when an ad request failed to load. The message will display the error code and error message.
 
 ### Ad Loaded
 
-[[Event('Facebook Rewarded Video', 'Ad Loaded')]]
-
 Called when an ad is received.
+
+[[Event('Facebook Rewarded Video', 'Ad Loaded')]]
 
 ### Ad Opened
 
-[[Event('Facebook Rewarded Video', 'Ad Opened')]]
-
 Called when an ad was opened.
+
+[[Event('Facebook Rewarded Video', 'Ad Opened')]]
 
 ### Ad Video Completed
 
-[[Event('Facebook Rewarded Video', 'Ad Video Completed')]]
-
 Called when an video ad was completed.
+
+[[Event('Facebook Rewarded Video', 'Ad Video Completed')]]
 
 ### Ad Video Started
 
-[[Event('Facebook Rewarded Video', 'Ad Video Started')]]
-
 Called when an video ad started to show content.
 
+[[Event('Facebook Rewarded Video', 'Ad Video Started')]]
+
 ### Error
+
+Called when an ad request failed. message will display the reason for why the ad failed.
 
 [[Event('Facebook Rewarded Video', 'Error', 'error')]]
 
 | Params | []() |
 |--------|------|
-|error|Text|
+|error|<span class="chip chip-text">Text</span>|
 
-
-Called when an ad request failed. message will display the reason for why the ad failed.
 
 ## Methods
 
 ### Load Ad
 
-[[Method('Facebook Rewarded Video', 'Load Ad', False)]]
-
 Loads a new ad.
+
+[[Method('Facebook Rewarded Video', 'Load Ad', False)]]
 
 ### Show Ad
 
-[[Method('Facebook Rewarded Video', 'Show Ad', False)]]
-
 Shows an ad to the user.
+
+[[Method('Facebook Rewarded Video', 'Show Ad', False)]]
 
 ## Properties
 

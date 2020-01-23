@@ -14,70 +14,70 @@ A component that provides a low-level interface to a LEGO MINDSTORMS EV3 robot, 
 
 ### Get Battery Current
 
-[[Method('EV3 Commands', 'Get Battery Current', True)]]
-
-{>>Returns `number`<<}
+<span class="chip chip-number">Returns: <i>Number</i></span> 
 
 Get the battery current.
 
+[[Method('EV3 Commands', 'Get Battery Current', True)]]
+
 ### Get Battery Voltage
 
-[[Method('EV3 Commands', 'Get Battery Voltage', True)]]
-
-{>>Returns `number`<<}
+<span class="chip chip-number">Returns: <i>Number</i></span> 
 
 Get the battery voltage.
 
+[[Method('EV3 Commands', 'Get Battery Voltage', True)]]
+
 ### Get Firmware Build
 
-[[Method('EV3 Commands', 'Get Firmware Build', True)]]
-
-{>>Returns `text`<<}
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 Get the firmware build on EV3.
 
+[[Method('EV3 Commands', 'Get Firmware Build', True)]]
+
 ### Get Firmware Version
 
-[[Method('EV3 Commands', 'Get Firmware Version', True)]]
-
-{>>Returns `text`<<}
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 Get the firmware version on EV3.
 
+[[Method('EV3 Commands', 'Get Firmware Version', True)]]
+
 ### Get Hardware Version
 
-[[Method('EV3 Commands', 'Get Hardware Version', True)]]
-
-{>>Returns `text`<<}
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 Get the hardware version of EV3.
 
+[[Method('EV3 Commands', 'Get Hardware Version', True)]]
+
 ### Get OS Build
 
-[[Method('EV3 Commands', 'Get OS Build', True)]]
-
-{>>Returns `text`<<}
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 Get the OS build on EV3.
 
+[[Method('EV3 Commands', 'Get OS Build', True)]]
+
 ### Get OS Version
 
-[[Method('EV3 Commands', 'Get OS Version', True)]]
-
-{>>Returns `text`<<}
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 Get the OS version on EV3.
 
+[[Method('EV3 Commands', 'Get OS Version', True)]]
+
 ### Keep Alive
+
+Keep the EV3 brick from shutdown for a period of time.
 
 [[Method('EV3 Commands', 'Keep Alive', False, 'minutes')]]
 
 | Params | []() |
 |--------|------|
-|minutes|Number|
+|minutes|<span class="chip chip-number">Number</span>|
 
-
-Keep the EV3 brick from shutdown for a period of time.
 
 ## Properties
 

@@ -14,31 +14,31 @@ A component that provides a high-level interface to a sound sensor on a LEGO MIN
 
 ### Above Range
 
-[[Event('NXT Sound Sensor', 'Above Range')]]
-
 Sound level has gone above the range.
+
+[[Event('NXT Sound Sensor', 'Above Range')]]
 
 ### Below Range
 
-[[Event('NXT Sound Sensor', 'Below Range')]]
-
 Sound level has gone below the range.
+
+[[Event('NXT Sound Sensor', 'Below Range')]]
 
 ### Within Range
 
-[[Event('NXT Sound Sensor', 'Within Range')]]
-
 Sound level has gone within the range.
+
+[[Event('NXT Sound Sensor', 'Within Range')]]
 
 ## Methods
 
 ### Get Sound Level
 
-[[Method('NXT Sound Sensor', 'Get Sound Level', True)]]
-
-{>>Returns `number`<<}
+<span class="chip chip-number">Returns: <i>Number</i></span> 
 
 Returns the current sound level as a value between 0 and 1023, or -1 if the sound level can not be read.
+
+[[Method('NXT Sound Sensor', 'Get Sound Level', True)]]
 
 ## Properties
 

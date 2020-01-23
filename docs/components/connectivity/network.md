@@ -14,64 +14,64 @@ A non-visible component that retrieves the internet connection status of the dev
 
 ### On Connect
 
-[[Event('Network', 'On Connect')]]
-
 Called when the device connects to a network.
+
+[[Event('Network', 'On Connect')]]
 
 ### On Disconnect
 
-[[Event('Network', 'On Disconnect')]]
-
 Called when the device disconnects from a network.
+
+[[Event('Network', 'On Disconnect')]]
 
 ## Methods
 
 ### Is Connected
 
-[[Method('Network', 'Is Connected', True)]]
-
-{>>Returns `boolean`<<}
+<span class="chip chip-boolean">Returns: <i>Boolean</i></span> 
 
 Returns "True" if the device is connected to a network, "False" otherwise.
 
+[[Method('Network', 'Is Connected', True)]]
+
 ### Is Fast Connection
 
-[[Method('Network', 'Is Fast Connection', True)]]
-
-{>>Returns `boolean`<<}
+<span class="chip chip-boolean">Returns: <i>Boolean</i></span> 
 
 Returns true if using a fast connection
 
+[[Method('Network', 'Is Fast Connection', True)]]
+
 ### Is Mobile Connection
 
-[[Method('Network', 'Is Mobile Connection', True)]]
-
-{>>Returns `boolean`<<}
+<span class="chip chip-boolean">Returns: <i>Boolean</i></span> 
 
 Returns true if connection is through Mobile
 
+[[Method('Network', 'Is Mobile Connection', True)]]
+
 ### Is Roaming
 
-[[Method('Network', 'Is Roaming', True)]]
-
-{>>Returns `boolean`<<}
+<span class="chip chip-boolean">Returns: <i>Boolean</i></span> 
 
 Returns true if using roaming
 
+[[Method('Network', 'Is Roaming', True)]]
+
 ### Is Wifi Connection
 
-[[Method('Network', 'Is Wifi Connection', True)]]
-
-{>>Returns `boolean`<<}
+<span class="chip chip-boolean">Returns: <i>Boolean</i></span> 
 
 Returns true if connection is through WiFi
+
+[[Method('Network', 'Is Wifi Connection', True)]]
 
 ### Type
 
 :warning: ==**Deprecated**==
 
-[[Method('Network', 'Type', True)]]
-
-{>>Returns `text`<<}
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 Returns the type of network the device is connected to. e.g. "wifi" or "mobile". This block is deprecated, use the "IsWiFiConnection" and "IsMobileConnection" blocks instead
+
+[[Method('Network', 'Type', True)]]

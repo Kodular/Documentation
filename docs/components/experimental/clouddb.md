@@ -14,135 +14,135 @@ Non-visible component that communicates with CloudDB server to store and retriev
 
 ### CloudDB Error
 
+Indicates that an error occurred while communicating with the CloudDB Redis server.
+
 [[Event('CloudDB', 'CloudDB Error', 'message')]]
 
 | Params | []() |
 |--------|------|
-|message|Text|
+|message|<span class="chip chip-text">Text</span>|
 
-
-Indicates that an error occurred while communicating with the CloudDB Redis server.
 
 ### Data Changed
+
+Indicates that the data in the CloudDB project has changed
+Launches an event with the tag and value that have been updated.
 
 [[Event('CloudDB', 'Data Changed', 'tag', 'value')]]
 
 | Params | []() |
 |--------|------|
-|tag|Text|
-|value|Any|
+|tag|<span class="chip chip-text">Text</span>|
+|value|<span class="chip chip-any">Any</span>|
 
-
-Indicates that the data in the CloudDB project has changed
-Launches an event with the tag and value that have been updated.
 
 ### First Removed
+
+Event triggered by the "RemoveFirstFromList" function. The argument "value" is the object that was the first in the list, and which is now removed.
 
 [[Event('CloudDB', 'First Removed', 'value')]]
 
 | Params | []() |
 |--------|------|
-|value|Any|
+|value|<span class="chip chip-any">Any</span>|
 
-
-Event triggered by the "RemoveFirstFromList" function. The argument "value" is the object that was the first in the list, and which is now removed.
 
 ### Got Value
+
+Indicates that a GetValue request has succeeded.
 
 [[Event('CloudDB', 'Got Value', 'tag', 'value')]]
 
 | Params | []() |
 |--------|------|
-|tag|Text|
-|value|Any|
+|tag|<span class="chip chip-text">Text</span>|
+|value|<span class="chip chip-any">Any</span>|
 
-
-Indicates that a GetValue request has succeeded.
 
 ### Tag List
+
+Event triggered when we have received the list of known tags. Used with the "GetTagList" Function.
 
 [[Event('CloudDB', 'Tag List', 'value')]]
 
 | Params | []() |
 |--------|------|
-|value|List|
+|value|<span class="chip chip-list">List</span>|
 
-
-Event triggered when we have received the list of known tags. Used with the "GetTagList" Function.
 
 ## Methods
 
 ### Append Value To List
 
+Append a value to the end of a list atomically. If two devices use this function simultaneously, both will be appended and no data lost.
+
 [[Method('CloudDB', 'Append Value To List', False, 'tag', 'itemToAdd')]]
 
 | Params | []() |
 |--------|------|
-|tag|Text|
-|item To Add|Any|
+|tag|<span class="chip chip-text">Text</span>|
+|item To Add|<span class="chip chip-any">Any</span>|
 
-
-Append a value to the end of a list atomically. If two devices use this function simultaneously, both will be appended and no data lost.
 
 ### Clear Tag
+
+Remove the tag from CloudDB
 
 [[Method('CloudDB', 'Clear Tag', False, 'tag')]]
 
 | Params | []() |
 |--------|------|
-|tag|Text|
+|tag|<span class="chip chip-text">Text</span>|
 
-
-Remove the tag from CloudDB
 
 ### Cloud Connected
 
-[[Method('CloudDB', 'Cloud Connected', True)]]
-
-{>>Returns `boolean`<<}
+<span class="chip chip-boolean">Returns: <i>Boolean</i></span> 
 
 returns True if we are on the network and will likely be able to connect to the CloudDB server.
 
-### Get Tag List
+[[Method('CloudDB', 'Cloud Connected', True)]]
 
-[[Method('CloudDB', 'Get Tag List', False)]]
+### Get Tag List
 
 Get the list of tags for this application. When complete a "TagList" event will be triggered with the list of known tags.
 
+[[Method('CloudDB', 'Get Tag List', False)]]
+
 ### Get Value
+
+Get the Value for a tag, doesn't return the value but will cause a GotValue event to fire when the value is looked up.
 
 [[Method('CloudDB', 'Get Value', False, 'tag', 'valueIfTagNotThere')]]
 
 | Params | []() |
 |--------|------|
-|tag|Text|
-|value If Tag Not There|Any|
+|tag|<span class="chip chip-text">Text</span>|
+|value If Tag Not There|<span class="chip chip-any">Any</span>|
 
-
-Get the Value for a tag, doesn't return the value but will cause a GotValue event to fire when the value is looked up.
 
 ### Remove First From List
+
+Return the first element of a list and atomically remove it. If two devices use this function simultaneously, one will get the first element and the the other will get the second element, or an error if there is no available element. When the element is available, the "FirstRemoved" event will be triggered.
 
 [[Method('CloudDB', 'Remove First From List', False, 'tag')]]
 
 | Params | []() |
 |--------|------|
-|tag|Text|
+|tag|<span class="chip chip-text">Text</span>|
 
-
-Return the first element of a list and atomically remove it. If two devices use this function simultaneously, one will get the first element and the the other will get the second element, or an error if there is no available element. When the element is available, the "FirstRemoved" event will be triggered.
 
 ### Store Value
+
+Store a value at a tag.
 
 [[Method('CloudDB', 'Store Value', False, 'tag', 'valueToStore')]]
 
 | Params | []() |
 |--------|------|
-|tag|Text|
-|value To Store|Any|
+|tag|<span class="chip chip-text">Text</span>|
+|value To Store|<span class="chip chip-any">Any</span>|
 
-
-Store a value at a tag.
 
 ## Properties
 

@@ -14,77 +14,77 @@ A component that provides a high-level interface to a LEGO MINDSTORMS NXT robot,
 
 ### Move Backward
 
+Move the robot backward the given distance, with the specified percentage of maximum power, by powering both drive motors backward.
+
 [[Method('NXT Drive', 'Move Backward', False, 'power', 'distance')]]
 
 | Params | []() |
 |--------|------|
-|power|Number|
-|distance|Number|
+|power|<span class="chip chip-number">Number</span>|
+|distance|<span class="chip chip-number">Number</span>|
 
-
-Move the robot backward the given distance, with the specified percentage of maximum power, by powering both drive motors backward.
 
 ### Move Backward Indefinitely
+
+Move the robot backward indefinitely, with the specified percentage of maximum power, by powering both drive motors backward.
 
 [[Method('NXT Drive', 'Move Backward Indefinitely', False, 'power')]]
 
 | Params | []() |
 |--------|------|
-|power|Number|
+|power|<span class="chip chip-number">Number</span>|
 
-
-Move the robot backward indefinitely, with the specified percentage of maximum power, by powering both drive motors backward.
 
 ### Move Forward
+
+Move the robot forward the given distance, with the specified percentage of maximum power, by powering both drive motors forward.
 
 [[Method('NXT Drive', 'Move Forward', False, 'power', 'distance')]]
 
 | Params | []() |
 |--------|------|
-|power|Number|
-|distance|Number|
+|power|<span class="chip chip-number">Number</span>|
+|distance|<span class="chip chip-number">Number</span>|
 
-
-Move the robot forward the given distance, with the specified percentage of maximum power, by powering both drive motors forward.
 
 ### Move Forward Indefinitely
+
+Move the robot forward indefinitely, with the specified percentage of maximum power, by powering both drive motors forward.
 
 [[Method('NXT Drive', 'Move Forward Indefinitely', False, 'power')]]
 
 | Params | []() |
 |--------|------|
-|power|Number|
+|power|<span class="chip chip-number">Number</span>|
 
-
-Move the robot forward indefinitely, with the specified percentage of maximum power, by powering both drive motors forward.
 
 ### Stop
 
-[[Method('NXT Drive', 'Stop', False)]]
-
 Stop the drive motors of the robot.
 
+[[Method('NXT Drive', 'Stop', False)]]
+
 ### Turn Clockwise Indefinitely
+
+Turn the robot clockwise indefinitely, with the specified percentage of maximum power, by powering the left drive motor forward and the right drive motor backward.
 
 [[Method('NXT Drive', 'Turn Clockwise Indefinitely', False, 'power')]]
 
 | Params | []() |
 |--------|------|
-|power|Number|
+|power|<span class="chip chip-number">Number</span>|
 
-
-Turn the robot clockwise indefinitely, with the specified percentage of maximum power, by powering the left drive motor forward and the right drive motor backward.
 
 ### Turn Counter Clockwise Indefinitely
+
+Turn the robot counterclockwise indefinitely, with the specified percentage of maximum power, by powering the right drive motor forward and the left drive motor backward.
 
 [[Method('NXT Drive', 'Turn Counter Clockwise Indefinitely', False, 'power')]]
 
 | Params | []() |
 |--------|------|
-|power|Number|
+|power|<span class="chip chip-number">Number</span>|
 
-
-Turn the robot counterclockwise indefinitely, with the specified percentage of maximum power, by powering the right drive motor forward and the left drive motor backward.
 
 ## Properties
 

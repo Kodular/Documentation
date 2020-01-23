@@ -16,65 +16,65 @@ A Component that acts like a Pedometer. It senses motion via the Accerleromter a
 
 :warning: ==**Deprecated**==
 
-[[Event('Pedometer', 'Calibration Failed')]]
-
 deprecated
+
+[[Event('Pedometer', 'Calibration Failed')]]
 
 ### GPS Available
 
 :warning: ==**Deprecated**==
 
-[[Event('Pedometer', 'GPS Available')]]
-
 deprecated
+
+[[Event('Pedometer', 'GPS Available')]]
 
 ### GPS Lost
 
 :warning: ==**Deprecated**==
 
-[[Event('Pedometer', 'GPS Lost')]]
-
 deprecated
 
+[[Event('Pedometer', 'GPS Lost')]]
+
 ### Simple Step
+
+This event is run when a raw step is detected
 
 [[Event('Pedometer', 'Simple Step', 'simpleSteps', 'distance')]]
 
 | Params | []() |
 |--------|------|
-|simple Steps|Number|
-|distance|Number|
+|simple Steps|<span class="chip chip-number">Number</span>|
+|distance|<span class="chip chip-number">Number</span>|
 
-
-This event is run when a raw step is detected
 
 ### Started Moving
 
 :warning: ==**Deprecated**==
 
-[[Event('Pedometer', 'Started Moving')]]
-
 deprecated
+
+[[Event('Pedometer', 'Started Moving')]]
 
 ### Stopped Moving
 
 :warning: ==**Deprecated**==
 
-[[Event('Pedometer', 'Stopped Moving')]]
-
 deprecated
 
+[[Event('Pedometer', 'Stopped Moving')]]
+
 ### Walk Step
+
+This event is run when a walking step is detected. A walking step is a step that appears to be involved in forward motion.
 
 [[Event('Pedometer', 'Walk Step', 'walkSteps', 'distance')]]
 
 | Params | []() |
 |--------|------|
-|walk Steps|Number|
-|distance|Number|
+|walk Steps|<span class="chip chip-number">Number</span>|
+|distance|<span class="chip chip-number">Number</span>|
 
-
-This event is run when a walking step is detected. A walking step is a step that appears to be involved in forward motion.
 
 ## Methods
 
@@ -82,41 +82,41 @@ This event is run when a walking step is detected. A walking step is a step that
 
 :warning: ==**Deprecated**==
 
-[[Method('Pedometer', 'Pause', False)]]
-
 Pause counting of steps and distance.
+
+[[Method('Pedometer', 'Pause', False)]]
 
 ### Reset
 
-[[Method('Pedometer', 'Reset', False)]]
-
 Resets the step counter, distance measure and time running.
+
+[[Method('Pedometer', 'Reset', False)]]
 
 ### Resume
 
 :warning: ==**Deprecated**==
 
-[[Method('Pedometer', 'Resume', False)]]
-
 Resumes counting, synonym of Start.
+
+[[Method('Pedometer', 'Resume', False)]]
 
 ### Save
 
-[[Method('Pedometer', 'Save', False)]]
-
 Saves the pedometer state to the phone. Permits permits accumulation of steps and distance between invocations of an App that uses the pedometer. Different Apps will have their own saved state.
+
+[[Method('Pedometer', 'Save', False)]]
 
 ### Start
 
-[[Method('Pedometer', 'Start', False)]]
-
 Start counting steps
+
+[[Method('Pedometer', 'Start', False)]]
 
 ### Stop
 
-[[Method('Pedometer', 'Stop', False)]]
-
 Stop counting steps
+
+[[Method('Pedometer', 'Stop', False)]]
 
 ## Properties
 

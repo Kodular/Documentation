@@ -14,226 +14,226 @@ A non-visible component that acts as a bluetooth client.
 
 ### BluetoothError
 
+The BluetoothError event is no longer used. Please use the Screen.ErrorOccurred event instead.
+
 [[Event('Bluetooth Client', 'BluetoothError', 'functionName', 'message')]]
 
 | Params | []() |
 |--------|------|
-|function Name|Text|
-|message|Text|
+|function Name|<span class="chip chip-text">Text</span>|
+|message|<span class="chip chip-text">Text</span>|
 
-
-The BluetoothError event is no longer used. Please use the Screen.ErrorOccurred event instead.
 
 ## Methods
 
 ### Bytes Available To Receive
 
-[[Method('Bluetooth Client', 'Bytes Available To Receive', True)]]
-
-{>>Returns `number`<<}
+<span class="chip chip-number">Returns: <i>Number</i></span> 
 
 Returns an estimate of the number of bytes that can be received without blocking
 
+[[Method('Bluetooth Client', 'Bytes Available To Receive', True)]]
+
 ### Connect
 
-[[Method('Bluetooth Client', 'Connect', True, 'address')]]
-
-{>>Returns `boolean`<<}
-
-| Params | []() |
-|--------|------|
-|address|Text|
-
+<span class="chip chip-boolean">Returns: <i>Boolean</i></span> 
 
 Connect to the Bluetooth device with the specified address and the Serial Port Profile (SPP). Returns true if the connection was successful.
 
-### Connect With UUID
-
-[[Method('Bluetooth Client', 'Connect With UUID', True, 'address', 'uuid')]]
-
-{>>Returns `boolean`<<}
+[[Method('Bluetooth Client', 'Connect', True, 'address')]]
 
 | Params | []() |
 |--------|------|
-|address|Text|
-|uuid|Text|
+|address|<span class="chip chip-text">Text</span>|
 
+
+### Connect With UUID
+
+<span class="chip chip-boolean">Returns: <i>Boolean</i></span> 
 
 Connect to the Bluetooth device with the specified address and UUID. Returns true if the connection was successful.
 
-### Disconnect
+[[Method('Bluetooth Client', 'Connect With UUID', True, 'address', 'uuid')]]
 
-[[Method('Bluetooth Client', 'Disconnect', False)]]
+| Params | []() |
+|--------|------|
+|address|<span class="chip chip-text">Text</span>|
+|uuid|<span class="chip chip-text">Text</span>|
+
+
+### Disconnect
 
 Disconnect from the connected Bluetooth device.
 
+[[Method('Bluetooth Client', 'Disconnect', False)]]
+
 ### Is Device Paired
 
-[[Method('Bluetooth Client', 'Is Device Paired', True, 'address')]]
-
-{>>Returns `boolean`<<}
-
-| Params | []() |
-|--------|------|
-|address|Text|
-
+<span class="chip chip-boolean">Returns: <i>Boolean</i></span> 
 
 Checks whether the Bluetooth device with the specified address is paired.
 
+[[Method('Bluetooth Client', 'Is Device Paired', True, 'address')]]
+
+| Params | []() |
+|--------|------|
+|address|<span class="chip chip-text">Text</span>|
+
+
 ### Receive Signed 1 Byte Number
 
-[[Method('Bluetooth Client', 'Receive Signed 1 Byte Number', True)]]
-
-{>>Returns `number`<<}
+<span class="chip chip-number">Returns: <i>Number</i></span> 
 
 Receive a signed 1-byte number from the connected Bluetooth device.
 
+[[Method('Bluetooth Client', 'Receive Signed 1 Byte Number', True)]]
+
 ### Receive Signed 2 Byte Number
 
-[[Method('Bluetooth Client', 'Receive Signed 2 Byte Number', True)]]
-
-{>>Returns `number`<<}
+<span class="chip chip-number">Returns: <i>Number</i></span> 
 
 Receive a signed 2-byte number from the connected Bluetooth device.
 
+[[Method('Bluetooth Client', 'Receive Signed 2 Byte Number', True)]]
+
 ### Receive Signed 4 Byte Number
 
-[[Method('Bluetooth Client', 'Receive Signed 4 Byte Number', True)]]
-
-{>>Returns `number`<<}
+<span class="chip chip-number">Returns: <i>Number</i></span> 
 
 Receive a signed 4-byte number from the connected Bluetooth device.
 
+[[Method('Bluetooth Client', 'Receive Signed 4 Byte Number', True)]]
+
 ### Receive Signed Bytes
 
-[[Method('Bluetooth Client', 'Receive Signed Bytes', True, 'numberOfBytes')]]
-
-{>>Returns `list`<<}
-
-| Params | []() |
-|--------|------|
-|number Of Bytes|Number|
-
+<span class="chip chip-list">Returns: <i>List</i></span> 
 
 Receive multiple signed byte values from the connected Bluetooth device. If numberOfBytes is less than 0, read until a delimiter byte value is received.
 
-### Receive Text
-
-[[Method('Bluetooth Client', 'Receive Text', True, 'numberOfBytes')]]
-
-{>>Returns `text`<<}
+[[Method('Bluetooth Client', 'Receive Signed Bytes', True, 'numberOfBytes')]]
 
 | Params | []() |
 |--------|------|
-|number Of Bytes|Number|
+|number Of Bytes|<span class="chip chip-number">Number</span>|
 
+
+### Receive Text
+
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 Receive text from the connected Bluetooth device. If numberOfBytes is less than 0, read until a delimiter byte value is received.
 
+[[Method('Bluetooth Client', 'Receive Text', True, 'numberOfBytes')]]
+
+| Params | []() |
+|--------|------|
+|number Of Bytes|<span class="chip chip-number">Number</span>|
+
+
 ### Receive Unsigned 1 Byte Number
 
-[[Method('Bluetooth Client', 'Receive Unsigned 1 Byte Number', True)]]
-
-{>>Returns `number`<<}
+<span class="chip chip-number">Returns: <i>Number</i></span> 
 
 Receive an unsigned 1-byte number from the connected Bluetooth device.
 
+[[Method('Bluetooth Client', 'Receive Unsigned 1 Byte Number', True)]]
+
 ### Receive Unsigned 2 Byte Number
 
-[[Method('Bluetooth Client', 'Receive Unsigned 2 Byte Number', True)]]
-
-{>>Returns `number`<<}
+<span class="chip chip-number">Returns: <i>Number</i></span> 
 
 Receive a unsigned 2-byte number from the connected Bluetooth device.
 
+[[Method('Bluetooth Client', 'Receive Unsigned 2 Byte Number', True)]]
+
 ### Receive Unsigned 4 Byte Number
 
-[[Method('Bluetooth Client', 'Receive Unsigned 4 Byte Number', True)]]
-
-{>>Returns `number`<<}
+<span class="chip chip-number">Returns: <i>Number</i></span> 
 
 Receive a unsigned 4-byte number from the connected Bluetooth device.
 
+[[Method('Bluetooth Client', 'Receive Unsigned 4 Byte Number', True)]]
+
 ### Receive Unsigned Bytes
 
-[[Method('Bluetooth Client', 'Receive Unsigned Bytes', True, 'numberOfBytes')]]
-
-{>>Returns `list`<<}
-
-| Params | []() |
-|--------|------|
-|number Of Bytes|Number|
-
+<span class="chip chip-list">Returns: <i>List</i></span> 
 
 Receive multiple unsigned byte values from the connected Bluetooth device. If numberOfBytes is less than 0, read until a delimiter byte value is received.
 
-### Remove Name From Address
-
-[[Method('Bluetooth Client', 'Remove Name From Address', True, 'addressAndName')]]
-
-{>>Returns `text`<<}
+[[Method('Bluetooth Client', 'Receive Unsigned Bytes', True, 'numberOfBytes')]]
 
 | Params | []() |
 |--------|------|
-|address And Name|Text|
+|number Of Bytes|<span class="chip chip-number">Number</span>|
 
+
+### Remove Name From Address
+
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 Remove the Name from a Bluetooth Address and Name String.
 
+[[Method('Bluetooth Client', 'Remove Name From Address', True, 'addressAndName')]]
+
+| Params | []() |
+|--------|------|
+|address And Name|<span class="chip chip-text">Text</span>|
+
+
 ### Send 1 Byte Number
+
+Send a 1-byte number to the connected Bluetooth device.
 
 [[Method('Bluetooth Client', 'Send 1 Byte Number', False, 'number')]]
 
 | Params | []() |
 |--------|------|
-|number|Text|
+|number|<span class="chip chip-text">Text</span>|
 
-
-Send a 1-byte number to the connected Bluetooth device.
 
 ### Send 2 Byte Number
+
+Send a 2-byte number to the connected Bluetooth device.
 
 [[Method('Bluetooth Client', 'Send 2 Byte Number', False, 'number')]]
 
 | Params | []() |
 |--------|------|
-|number|Text|
+|number|<span class="chip chip-text">Text</span>|
 
-
-Send a 2-byte number to the connected Bluetooth device.
 
 ### Send 4 Byte Number
+
+Send a 4-byte number to the connected Bluetooth device.
 
 [[Method('Bluetooth Client', 'Send 4 Byte Number', False, 'number')]]
 
 | Params | []() |
 |--------|------|
-|number|Text|
+|number|<span class="chip chip-text">Text</span>|
 
-
-Send a 4-byte number to the connected Bluetooth device.
 
 ### Send Bytes
+
+Send a list of byte values to the connected Bluetooth device.
 
 [[Method('Bluetooth Client', 'Send Bytes', False, 'list')]]
 
 | Params | []() |
 |--------|------|
-|list|List|
+|list|<span class="chip chip-list">List</span>|
 
-
-Send a list of byte values to the connected Bluetooth device.
 
 ### Send Text
+
+Send text to the connected Bluetooth device.
 
 [[Method('Bluetooth Client', 'Send Text', False, 'text')]]
 
 | Params | []() |
 |--------|------|
-|text|Text|
+|text|<span class="chip chip-text">Text</span>|
 
-
-Send text to the connected Bluetooth device.
 
 ## Properties
 

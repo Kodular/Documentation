@@ -14,94 +14,94 @@ A non-visible component that shows AdMob ads as full-screen video where users re
 
 ### Ad Closed
 
-[[Event('AdMob Rewarded Video', 'Ad Closed')]]
-
 Called when an ad was closed.
 
+[[Event('AdMob Rewarded Video', 'Ad Closed')]]
+
 ### Ad Failed To Load
+
+Called when an ad request failed to load. The message will display the error code and error message.
 
 [[Event('AdMob Rewarded Video', 'Ad Failed To Load', 'errorCode', 'errorMessage')]]
 
 | Params | []() |
 |--------|------|
-|error Code|Number|
-|error Message|Text|
+|error Code|<span class="chip chip-number">Number</span>|
+|error Message|<span class="chip chip-text">Text</span>|
 
-
-Called when an ad request failed to load. The message will display the error code and error message.
 
 ### Ad Left Application
 
-[[Event('AdMob Rewarded Video', 'Ad Left Application')]]
-
 Called when an ad leaves the application (e.g., to go to the browser).
+
+[[Event('AdMob Rewarded Video', 'Ad Left Application')]]
 
 ### Ad Loaded
 
-[[Event('AdMob Rewarded Video', 'Ad Loaded')]]
-
 Called when an ad request was loaded.
+
+[[Event('AdMob Rewarded Video', 'Ad Loaded')]]
 
 ### Ad Opened
 
-[[Event('AdMob Rewarded Video', 'Ad Opened')]]
-
 Called when an ad was opened.
+
+[[Event('AdMob Rewarded Video', 'Ad Opened')]]
 
 ### Ad Video Completed
 
-[[Event('AdMob Rewarded Video', 'Ad Video Completed')]]
-
 Called when an video ad was completed.
+
+[[Event('AdMob Rewarded Video', 'Ad Video Completed')]]
 
 ### Ad Video Started
 
-[[Event('AdMob Rewarded Video', 'Ad Video Started')]]
-
 Called when an video ad started to show content.
 
+[[Event('AdMob Rewarded Video', 'Ad Video Started')]]
+
 ### On Consent Changed
+
+Event triggered when the consent was changed.
 
 [[Event('AdMob Rewarded Video', 'On Consent Changed', 'personalized')]]
 
 | Params | []() |
 |--------|------|
-|personalized|Boolean|
+|personalized|<span class="chip chip-boolean">Boolean</span>|
 
-
-Event triggered when the consent was changed.
 
 ### Rewarded
+
+User watched video and should be rewarded.
 
 [[Event('AdMob Rewarded Video', 'Rewarded', 'type', 'amount')]]
 
 | Params | []() |
 |--------|------|
-|type|Text|
-|amount|Number|
+|type|<span class="chip chip-text">Text</span>|
+|amount|<span class="chip chip-number">Number</span>|
 
-
-User watched video and should be rewarded.
 
 ## Methods
 
 ### Load Ad
 
-[[Method('AdMob Rewarded Video', 'Load Ad', False)]]
-
 Load a new AdMob Rewarded Video ad.
+
+[[Method('AdMob Rewarded Video', 'Load Ad', False)]]
 
 ### Revoke Consent
 
-[[Method('AdMob Rewarded Video', 'Revoke Consent', False)]]
-
 Deletes the user's consent. Useful if you want to test the consent dialog in development.
+
+[[Method('AdMob Rewarded Video', 'Revoke Consent', False)]]
 
 ### Show Ad
 
-[[Method('AdMob Rewarded Video', 'Show Ad', False)]]
-
 It will show the Video
+
+[[Method('AdMob Rewarded Video', 'Show Ad', False)]]
 
 ## Properties
 

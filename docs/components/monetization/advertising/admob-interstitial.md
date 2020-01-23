@@ -14,81 +14,81 @@ An interstitial ad is a full-page ad. AdMobInterstitial component allows you to 
 
 ### Ad Closed
 
-[[Event('AdMob Interstitial', 'Ad Closed')]]
-
 Called when an ad was closed.
 
+[[Event('AdMob Interstitial', 'Ad Closed')]]
+
 ### Ad Failed To Load
+
+Called when an ad request failed to load. The message will display the error code and error message.
 
 [[Event('AdMob Interstitial', 'Ad Failed To Load', 'errorCode', 'errorMessage')]]
 
 | Params | []() |
 |--------|------|
-|error Code|Number|
-|error Message|Text|
+|error Code|<span class="chip chip-number">Number</span>|
+|error Message|<span class="chip chip-text">Text</span>|
 
-
-Called when an ad request failed to load. The message will display the error code and error message.
 
 ### Ad Failed To Show
+
+Called when an an attempt was made to display the ad, but the ad was not ready to display.
 
 [[Event('AdMob Interstitial', 'Ad Failed To Show', 'message')]]
 
 | Params | []() |
 |--------|------|
-|message|Text|
+|message|<span class="chip chip-text">Text</span>|
 
-
-Called when an an attempt was made to display the ad, but the ad was not ready to display.
 
 ### Ad Left Application
 
-[[Event('AdMob Interstitial', 'Ad Left Application')]]
-
 Called when an ad leaves the application (e.g., to go to the browser).
+
+[[Event('AdMob Interstitial', 'Ad Left Application')]]
 
 ### Ad Loaded
 
-[[Event('AdMob Interstitial', 'Ad Loaded')]]
-
 Called when an ad request was loaded.
+
+[[Event('AdMob Interstitial', 'Ad Loaded')]]
 
 ### Ad Opened
 
-[[Event('AdMob Interstitial', 'Ad Opened')]]
-
 Called when an ad was opened.
 
+[[Event('AdMob Interstitial', 'Ad Opened')]]
+
 ### On Consent Changed
+
+Event triggered when the consent was changed.
 
 [[Event('AdMob Interstitial', 'On Consent Changed', 'personalized')]]
 
 | Params | []() |
 |--------|------|
-|personalized|Boolean|
+|personalized|<span class="chip chip-boolean">Boolean</span>|
 
-
-Event triggered when the consent was changed.
 
 ## Methods
 
 ### Load Ad
 
-[[Method('AdMob Interstitial', 'Load Ad', False)]]
-
 Load a new AdMob Interstitial ad.
+
+[[Method('AdMob Interstitial', 'Load Ad', False)]]
 
 ### Revoke Consent
 
-[[Method('AdMob Interstitial', 'Revoke Consent', False)]]
-
 Deletes the user's consent. Useful if you want to test the consent dialog in development.
+
+[[Method('AdMob Interstitial', 'Revoke Consent', False)]]
 
 ### Show Interstitial Ad
 
-[[Method('AdMob Interstitial', 'Show Interstitial Ad', False)]]
-
 It will show the Interstitial Ad
+
+[[Method('AdMob Interstitial', 'Show Interstitial Ad', False)]]
 
 ## Properties
 

@@ -12,22 +12,22 @@ A spinner component that displays a pop-up with a list of elements. These elemen
 
 ### After Selecting
 
+Event called after the user selects an item from the dropdown list.
+
 [[Event('Spinner', 'After Selecting', 'selection')]]
 
 | Params | []() |
 |--------|------|
-|selection|Text|
+|selection|<span class="chip chip-text">Text</span>|
 
-
-Event called after the user selects an item from the dropdown list.
 
 ## Methods
 
 ### Display Dropdown
 
-[[Method('Spinner', 'Display Dropdown', False)]]
-
 displays the dropdown list for selection, same action as when the user clicks on the spinner.
+
+[[Method('Spinner', 'Display Dropdown', False)]]
 
 ## Properties
 

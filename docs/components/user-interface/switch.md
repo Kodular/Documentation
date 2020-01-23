@@ -12,39 +12,39 @@ A visible component that lets the user toggle between two states — on and off.
 
 ### Clicked
 
+Event invoked when a switch has been clicked. Returns true or false if the switch is checked or not.
+
 [[Event('Switch', 'Clicked', 'isChecked')]]
 
 | Params | []() |
 |--------|------|
-|is Checked|Boolean|
+|is Checked|<span class="chip chip-boolean">Boolean</span>|
 
-
-Event invoked when a switch has been clicked. Returns true or false if the switch is checked or not.
 
 ## Methods
 
 ### Thumb Image
 
+Set the drawable used for the switch 'thumb' - the piece that the user can physically touch and drag along the track. If 'color Filter Enabled' is set to true, the image will get a light tint filter with the same color that you used as thumb color.
+
 [[Method('Switch', 'Thumb Image', False, 'image')]]
 
 | Params | []() |
 |--------|------|
-|image|Text|
+|image|<span class="chip chip-text">Text</span>|
 
-
-Set the drawable used for the switch 'thumb' - the piece that the user can physically touch and drag along the track. If 'color Filter Enabled' is set to true, the image will get a light tint filter with the same color that you used as thumb color.
 
 ### Thumb Image From Material Font
+
+Set the drawable used for the switch 'thumb' - the piece that the user can physically touch and drag along the track. You can find the icon name (or code) here at https://material.io/icons . Use as size as example '300'.
 
 [[Method('Switch', 'Thumb Image From Material Font', False, 'iconName', 'size')]]
 
 | Params | []() |
 |--------|------|
-|icon Name|Text|
-|size|Number|
+|icon Name|<span class="chip chip-text">Text</span>|
+|size|<span class="chip chip-number">Number</span>|
 
-
-Set the drawable used for the switch 'thumb' - the piece that the user can physically touch and drag along the track. You can find the icon name (or code) here at https://material.io/icons . Use as size as example '300'.
 
 ## Properties
 

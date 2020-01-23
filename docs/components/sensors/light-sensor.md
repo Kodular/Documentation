@@ -14,14 +14,14 @@ A non-visible component that gets the current illuminance level around the devic
 
 ### Light Changed
 
+Event that fires when the illuminance is changed
+
 [[Event('Light Sensor', 'Light Changed', 'illuminance')]]
 
 | Params | []() |
 |--------|------|
-|illuminance|Number|
+|illuminance|<span class="chip chip-number">Number</span>|
 
-
-Event that fires when the illuminance is changed
 
 ## Properties
 

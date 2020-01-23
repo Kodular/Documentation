@@ -12,43 +12,43 @@ Checkbox that raises an event when the user clicks on it. There are many propert
 
 ### Changed
 
-[[Event('Checkbox', 'Changed')]]
-
 Default Changed event handler.
+
+[[Event('Checkbox', 'Changed')]]
 
 ### Click
 
-[[Event('Checkbox', 'Click')]]
-
 Indicates a user has clicked on the checkbox.
+
+[[Event('Checkbox', 'Click')]]
 
 ### Got Focus
 
-[[Event('Checkbox', 'Got Focus')]]
-
 Default GotFocus event handler.
+
+[[Event('Checkbox', 'Got Focus')]]
 
 ### Lost Focus
 
-[[Event('Checkbox', 'Lost Focus')]]
-
 Default LostFocus event handler.
+
+[[Event('Checkbox', 'Lost Focus')]]
 
 ## Methods
 
 ### Set Shadow
 
+Place a blurred shadow of text underneath the text, drawn with the specified x, y, radius, color (e.g. -11, 12, 13, black
+
 [[Method('Checkbox', 'Set Shadow', False, 'x', 'y', 'radius', 'color')]]
 
 | Params | []() |
 |--------|------|
-|x|Number|
-|y|Number|
-|radius|Number|
-|color|Number|
+|x|<span class="chip chip-number">Number</span>|
+|y|<span class="chip chip-number">Number</span>|
+|radius|<span class="chip chip-number">Number</span>|
+|color|<span class="chip chip-number">Number</span>|
 
-
-Place a blurred shadow of text underneath the text, drawn with the specified x, y, radius, color (e.g. -11, 12, 13, black
 
 ## Properties
 

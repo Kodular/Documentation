@@ -14,22 +14,22 @@ A component that provides a high-level interface to sound functionalities on LEG
 
 ### Play Tone
 
+Make the robot play a tone.
+
 [[Method('EV3 Sound', 'Play Tone', False, 'volume', 'frequency', 'milliseconds')]]
 
 | Params | []() |
 |--------|------|
-|volume|Number|
-|frequency|Number|
-|milliseconds|Number|
+|volume|<span class="chip chip-number">Number</span>|
+|frequency|<span class="chip chip-number">Number</span>|
+|milliseconds|<span class="chip chip-number">Number</span>|
 
-
-Make the robot play a tone.
 
 ### Stop Sound
 
-[[Method('EV3 Sound', 'Stop Sound', False)]]
-
 Stop any sound on the robot.
+
+[[Method('EV3 Sound', 'Stop Sound', False)]]
 
 ## Properties
 

@@ -14,69 +14,69 @@ The Download component is a non-visible component that allows users to download 
 
 ### Download Complete
 
+Event to detect if the download is successful finished. You can use the "filePath" to use the downloaded file into your app. The "fileSize" will be returned in bytes.
+
 [[Event('Download', 'Download Complete', 'filePath', 'fileName', 'fileSize')]]
 
 | Params | []() |
 |--------|------|
-|file Path|Text|
-|file Name|Text|
-|file Size|Number|
+|file Path|<span class="chip chip-text">Text</span>|
+|file Name|<span class="chip chip-text">Text</span>|
+|file Size|<span class="chip chip-number">Number</span>|
 
-
-Event to detect if the download is successful finished. You can use the "filePath" to use the downloaded file into your app. The "fileSize" will be returned in bytes.
 
 ### On Download Progress Changed
+
+Get the progress (in percentage) of the current download task.
 
 [[Event('Download', 'On Download Progress Changed', 'progress')]]
 
 | Params | []() |
 |--------|------|
-|progress|Number|
+|progress|<span class="chip chip-number">Number</span>|
 
-
-Get the progress (in percentage) of the current download task.
 
 ### Got File Size
+
+Event to detect file size is ready to be used.
 
 [[Event('Download', 'Got File Size', 'size')]]
 
 | Params | []() |
 |--------|------|
-|size|Number|
+|size|<span class="chip chip-number">Number</span>|
 
-
-Event to detect file size is ready to be used.
 
 ### Notification Clicked
 
-[[Event('Download', 'Notification Clicked')]]
-
 Event to detect when the user clicks on a running download, either from a system notification or from the downloads UI.
+
+[[Event('Download', 'Notification Clicked')]]
 
 ## Methods
 
 ### Download
 
-[[Method('Download', 'Download', False)]]
-
 Start the download process of the given download url.
 
+[[Method('Download', 'Download', False)]]
+
 ### Get File Size
+
+Get the file size (in bytes) of a file that is stored online or on your device. The block detect automatic if it is a online path or not. You will get the result in the "Got File Size" event.
 
 [[Method('Download', 'Get File Size', False, 'path')]]
 
 | Params | []() |
 |--------|------|
-|path|Text|
+|path|<span class="chip chip-text">Text</span>|
 
-
-Get the file size (in bytes) of a file that is stored online or on your device. The block detect automatic if it is a online path or not. You will get the result in the "Got File Size" event.
 
 ### Show Download
 
-[[Method('Download', 'Show Download', False)]]
-
 You can open the download folder with this block.
+
+[[Method('Download', 'Show Download', False)]]
 
 ## Properties
 

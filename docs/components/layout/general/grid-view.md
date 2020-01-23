@@ -12,22 +12,22 @@ A visible component that groups other components in a two-dimensional, scrollabl
 
 ### After Picking
 
+Triggers after an item from this component has been selected
+
 [[Event('Grid View', 'After Picking', 'item')]]
 
 | Params | []() |
 |--------|------|
-|item|Text|
+|item|<span class="chip chip-text">Text</span>|
 
-
-Triggers after an item from this component has been selected
 
 ## Methods
 
 ### Clear Grid View
 
-[[Method('Grid View', 'Clear Grid View', False)]]
-
 Clears the items from the component
+
+[[Method('Grid View', 'Clear Grid View', False)]]
 
 ## Properties
 

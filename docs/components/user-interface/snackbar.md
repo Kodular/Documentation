@@ -14,65 +14,65 @@ A non-visible component that displays an alert at the bottom of the screen.
 
 ### Click
 
-[[Event('Snackbar', 'Click')]]
-
 User clicked on the action button.
 
+[[Event('Snackbar', 'Click')]]
+
 ### On Dismissed
+
+Event to detect the snackbar was dismissed. Possible results can be: "UNDEFINED", "ACTION", "CONSECUTIVE", "MANUAL", "SWIPE" or "TIMEOUT". You can find more information at: https://developer.android.com/reference/android/support/design/widget/Snackbar.Callback.html
 
 [[Event('Snackbar', 'On Dismissed', 'event')]]
 
 | Params | []() |
 |--------|------|
-|event|Text|
+|event|<span class="chip chip-text">Text</span>|
 
-
-Event to detect the snackbar was dismissed. Possible results can be: "UNDEFINED", "ACTION", "CONSECUTIVE", "MANUAL", "SWIPE" or "TIMEOUT". You can find more information at: https://developer.android.com/reference/android/support/design/widget/Snackbar.Callback.html
 
 ### On Shown
 
-[[Event('Snackbar', 'On Shown')]]
-
 Event to detect the snackbar is shown.
+
+[[Event('Snackbar', 'On Shown')]]
 
 ## Methods
 
 ### Dismiss
 
-[[Method('Snackbar', 'Dismiss', False)]]
-
 Dismiss the snackbar.
+
+[[Method('Snackbar', 'Dismiss', False)]]
 
 ### Is Shown
 
-[[Method('Snackbar', 'Is Shown', True)]]
-
-{>>Returns `boolean`<<}
+<span class="chip chip-boolean">Returns: <i>Boolean</i></span> 
 
 Returns true whether this snackbar is currently being shown.
 
+[[Method('Snackbar', 'Is Shown', True)]]
+
 ### Show
+
+Show Snackbar (message supports HTML formatting)
 
 [[Method('Snackbar', 'Show', False, 'message')]]
 
 | Params | []() |
 |--------|------|
-|message|Text|
+|message|<span class="chip chip-text">Text</span>|
 
-
-Show Snackbar (message supports HTML formatting)
 
 ### Show With Button
+
+Show Snackbar with action button (message supports HTML formatting)
 
 [[Method('Snackbar', 'Show With Button', False, 'message', 'buttonText')]]
 
 | Params | []() |
 |--------|------|
-|message|Text|
-|button Text|Text|
+|message|<span class="chip chip-text">Text</span>|
+|button Text|<span class="chip chip-text">Text</span>|
 
-
-Show Snackbar with action button (message supports HTML formatting)
 
 ## Properties
 

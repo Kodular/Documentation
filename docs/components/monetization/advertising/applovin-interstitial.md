@@ -14,73 +14,73 @@ A non-visible component to show ads from AppLovin.
 
 ### Ad Closed
 
-[[Event('AppLovin Interstitial', 'Ad Closed')]]
-
 Called when an ad was closed.
 
+[[Event('AppLovin Interstitial', 'Ad Closed')]]
+
 ### Ad Failed To Load
+
+Called when an ad request failed to load. The message will display the error code and error message.
 
 [[Event('AppLovin Interstitial', 'Ad Failed To Load', 'errorCode', 'errorMessage')]]
 
 | Params | []() |
 |--------|------|
-|error Code|Number|
-|error Message|Text|
+|error Code|<span class="chip chip-number">Number</span>|
+|error Message|<span class="chip chip-text">Text</span>|
 
-
-Called when an ad request failed to load. The message will display the error code and error message.
 
 ### Ad Loaded
 
-[[Event('AppLovin Interstitial', 'Ad Loaded')]]
-
 Called when an ad is received.
+
+[[Event('AppLovin Interstitial', 'Ad Loaded')]]
 
 ### Ad Opened
 
-[[Event('AppLovin Interstitial', 'Ad Opened')]]
-
 Called when an ad was opened.
+
+[[Event('AppLovin Interstitial', 'Ad Opened')]]
 
 ### Ad Started
 
-[[Event('AppLovin Interstitial', 'Ad Started')]]
-
 Called when an ad was started.
 
+[[Event('AppLovin Interstitial', 'Ad Started')]]
+
 ### Error
+
+Called when an ad request failed. The message will display the reason for why the ad failed.
 
 [[Event('AppLovin Interstitial', 'Error', 'errorCode', 'errorMessage')]]
 
 | Params | []() |
 |--------|------|
-|error Code|Number|
-|error Message|Text|
+|error Code|<span class="chip chip-number">Number</span>|
+|error Message|<span class="chip chip-text">Text</span>|
 
-
-Called when an ad request failed. The message will display the reason for why the ad failed.
 
 ## Methods
 
 ### Is European User
 
-[[Method('AppLovin Interstitial', 'Is European User', True)]]
-
-{>>Returns `boolean`<<}
+<span class="chip chip-boolean">Returns: <i>Boolean</i></span> 
 
 Returns true if the current app user is located in europe. If true you must ask the user as example in a dialog if he give his consent for personalized ads.
 
-### Load Ad
+[[Method('AppLovin Interstitial', 'Is European User', True)]]
 
-[[Method('AppLovin Interstitial', 'Load Ad', False)]]
+### Load Ad
 
 Loads a new ad.
 
+[[Method('AppLovin Interstitial', 'Load Ad', False)]]
+
 ### Show Ad
 
-[[Method('AppLovin Interstitial', 'Show Ad', False)]]
-
 Shows an ad to the user.
+
+[[Method('AppLovin Interstitial', 'Show Ad', False)]]
 
 ## Properties
 

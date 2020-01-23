@@ -14,14 +14,14 @@ Non-visible component that measures the temperature of the air in the room in de
 
 ### Temperature Changed
 
+Event that fires when the temperature is changed
+
 [[Event('Temperature Sensor', 'Temperature Changed', 'temperature')]]
 
 | Params | []() |
 |--------|------|
-|temperature|Number|
+|temperature|<span class="chip chip-number">Number</span>|
 
-
-Event that fires when the temperature is changed
 
 ## Properties
 

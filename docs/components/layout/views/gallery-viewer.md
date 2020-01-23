@@ -12,14 +12,14 @@ A visible component that groups other components in a center-locked, horizontall
 
 ### After Picking
 
+Triggered after an image is selected. It will also report selected image name
+
 [[Event('Gallery Viewer', 'After Picking', 'imageName')]]
 
 | Params | []() |
 |--------|------|
-|image Name|Text|
+|image Name|<span class="chip chip-text">Text</span>|
 
-
-Triggered after an image is selected. It will also report selected image name
 
 ## Properties
 

@@ -12,40 +12,40 @@ A non-visible component that shows Facebook ads as static banners.
 
 ### Ad Clicked
 
-[[Event('Facebook Banner', 'Ad Clicked')]]
-
 Event triggered when ads are clicked
+
+[[Event('Facebook Banner', 'Ad Clicked')]]
 
 ### Ad Closed
 
-[[Event('Facebook Banner', 'Ad Closed')]]
-
 Event triggered when ads are closed
+
+[[Event('Facebook Banner', 'Ad Closed')]]
 
 ### Ad Loaded
 
-[[Event('Facebook Banner', 'Ad Loaded')]]
-
 Event triggered when ads are loaded
 
+[[Event('Facebook Banner', 'Ad Loaded')]]
+
 ### Error
+
+Event triggered when ads failed to load
 
 [[Event('Facebook Banner', 'Error', 'error')]]
 
 | Params | []() |
 |--------|------|
-|error|Text|
+|error|<span class="chip chip-text">Text</span>|
 
-
-Event triggered when ads failed to load
 
 ## Methods
 
 ### Load Ad
 
-[[Method('Facebook Banner', 'Load Ad', False)]]
-
 Load Ad
+
+[[Method('Facebook Banner', 'Load Ad', False)]]
 
 ## Properties
 

@@ -14,125 +14,124 @@ A component to create dynamic image in Arrangements.
 
 ### Create Image
 
+Create a new image component dynamically. Use for width/height '-1' for wrap content or '-2' for fill parent.
+
 [[Method('Dynamic Image', 'Create Image', False, 'id', 'arrangement', 'path', 'width', 'height')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
-|arrangement|Component|
-|path|Text|
-|width|Number|
-|height|Number|
+|id|<span class="chip chip-number">Number</span>|
+|arrangement|<span class="chip chip-component">Component</span>|
+|path|<span class="chip chip-text">Text</span>|
+|width|<span class="chip chip-number">Number</span>|
+|height|<span class="chip chip-number">Number</span>|
 
-
-Create a new image component dynamically. Use for width/height '-1' for wrap content or '-2' for fill parent.
 
 ### Delete Image
+
+Remove a image component with the given id.
 
 [[Method('Dynamic Image', 'Delete Image', False, 'id')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
+|id|<span class="chip chip-number">Number</span>|
 
-
-Remove a image component with the given id.
 
 ### Get Height
 
-[[Method('Dynamic Image', 'Get Height', True, 'id')]]
-
-{>>Returns `number`<<}
-
-| Params | []() |
-|--------|------|
-|id|Number|
-
+<span class="chip chip-number">Returns: <i>Number</i></span> 
 
 Get the Height of a image component.
 
-### Get Image By Id
-
-[[Method('Dynamic Image', 'Get Image By Id', True, 'id')]]
-
-{>>Returns `component`<<}
+[[Method('Dynamic Image', 'Get Height', True, 'id')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
+|id|<span class="chip chip-number">Number</span>|
 
+
+### Get Image By Id
+
+<span class="chip chip-component">Returns: <i>Component</i></span> 
 
 Returns the image referenced by its id.
 
-### Get Width
-
-[[Method('Dynamic Image', 'Get Width', True, 'id')]]
-
-{>>Returns `number`<<}
+[[Method('Dynamic Image', 'Get Image By Id', True, 'id')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
+|id|<span class="chip chip-number">Number</span>|
 
+
+### Get Width
+
+<span class="chip chip-number">Returns: <i>Number</i></span> 
 
 Get the Width of a image component.
 
+[[Method('Dynamic Image', 'Get Width', True, 'id')]]
+
+| Params | []() |
+|--------|------|
+|id|<span class="chip chip-number">Number</span>|
+
+
 ### Rotation Angle
+
+Specifies the angle of a image component with the given id.
 
 [[Method('Dynamic Image', 'Rotation Angle', False, 'id', 'rotationAngle')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
-|rotation Angle|Number|
+|id|<span class="chip chip-number">Number</span>|
+|rotation Angle|<span class="chip chip-number">Number</span>|
 
-
-Specifies the angle of a image component with the given id.
 
 ### Scale Picture To Fit
+
+Specifies whether a image component with the given id should be resized to match the size of the ImageView.
 
 [[Method('Dynamic Image', 'Scale Picture To Fit', False, 'id', 'scale')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
-|scale|Boolean|
+|id|<span class="chip chip-number">Number</span>|
+|scale|<span class="chip chip-boolean">Boolean</span>|
 
-
-Specifies whether a image component with the given id should be resized to match the size of the ImageView.
 
 ### Set Height
+
+Update the Height of a image component.
 
 [[Method('Dynamic Image', 'Set Height', False, 'id', 'height')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
-|height|Number|
+|id|<span class="chip chip-number">Number</span>|
+|height|<span class="chip chip-number">Number</span>|
 
-
-Update the Height of a image component.
 
 ### Set Width
+
+Update the Width of a image component.
 
 [[Method('Dynamic Image', 'Set Width', False, 'id', 'width')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
-|width|Number|
+|id|<span class="chip chip-number">Number</span>|
+|width|<span class="chip chip-number">Number</span>|
 
-
-Update the Width of a image component.
 
 ### Update Image
+
+Update a image component with the given id.
 
 [[Method('Dynamic Image', 'Update Image', False, 'id', 'path')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
-|path|Text|
-
-
-Update a image component with the given id.
+|id|<span class="chip chip-number">Number</span>|
+|path|<span class="chip chip-text">Text</span>|

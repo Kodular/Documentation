@@ -14,17 +14,17 @@ Non-visible component that measures the ambient geomagnetic field for all three 
 
 ### Magnetic Changed
 
+Indicates that the magnetic sensor data has changed.
+
 [[Event('Magnetic Field Sensor', 'Magnetic Changed', 'xStrength', 'yStrength', 'zStrength', 'absoluteStrength')]]
 
 | Params | []() |
 |--------|------|
-|x Strength|Number|
-|y Strength|Number|
-|z Strength|Number|
-|absolute Strength|Number|
+|x Strength|<span class="chip chip-number">Number</span>|
+|y Strength|<span class="chip chip-number">Number</span>|
+|z Strength|<span class="chip chip-number">Number</span>|
+|absolute Strength|<span class="chip chip-number">Number</span>|
 
-
-Indicates that the magnetic sensor data has changed.
 
 ## Properties
 

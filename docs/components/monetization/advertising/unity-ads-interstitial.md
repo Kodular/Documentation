@@ -14,65 +14,65 @@ A non-visible component that shows Unity ads as full-screen advertisements.
 
 ### Ad Closed
 
+Called when an ad was closed.
+
 [[Event('Unity Ads Interstitial', 'Ad Closed', 'placementId', 'wasSkipped', 'wasCompleted')]]
 
 | Params | []() |
 |--------|------|
-|placement Id|Text|
-|was Skipped|Boolean|
-|was Completed|Boolean|
+|placement Id|<span class="chip chip-text">Text</span>|
+|was Skipped|<span class="chip chip-boolean">Boolean</span>|
+|was Completed|<span class="chip chip-boolean">Boolean</span>|
 
-
-Called when an ad was closed.
 
 ### Ad Opened
+
+Called when an ad was opened.
 
 [[Event('Unity Ads Interstitial', 'Ad Opened', 'placementId')]]
 
 | Params | []() |
 |--------|------|
-|placement Id|Text|
+|placement Id|<span class="chip chip-text">Text</span>|
 
-
-Called when an ad was opened.
 
 ### Ad Started
+
+Called when an ad was started.
 
 [[Event('Unity Ads Interstitial', 'Ad Started', 'placementId')]]
 
 | Params | []() |
 |--------|------|
-|placement Id|Text|
+|placement Id|<span class="chip chip-text">Text</span>|
 
-
-Called when an ad was started.
 
 ### Error
+
+Called when an ad request failed. The message will display the reason for why the ad failed.
 
 [[Event('Unity Ads Interstitial', 'Error', 'error')]]
 
 | Params | []() |
 |--------|------|
-|error|Text|
+|error|<span class="chip chip-text">Text</span>|
 
-
-Called when an ad request failed. The message will display the reason for why the ad failed.
 
 ## Methods
 
 ### Is Ready
 
-[[Method('Unity Ads Interstitial', 'Is Ready', True)]]
-
-{>>Returns `boolean`<<}
+<span class="chip chip-boolean">Returns: <i>Boolean</i></span> 
 
 Returns true if the ad is finished loading and can now be shown.
 
+[[Method('Unity Ads Interstitial', 'Is Ready', True)]]
+
 ### Show Ad
 
-[[Method('Unity Ads Interstitial', 'Show Ad', False)]]
-
 Shows an ad to the user.
+
+[[Method('Unity Ads Interstitial', 'Show Ad', False)]]
 
 ## Properties
 

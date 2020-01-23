@@ -16,17 +16,17 @@ In order to function, the component must have its `` Enabled `` property set to 
 
 ### Gyroscope Changed
 
+Indicates that the gyroscope sensor data has changed. The timestamp parameter is the time in nanoseconds at which the event occurred.
+
 [[Event('Gyroscope Sensor', 'Gyroscope Changed', 'xAngularVelocity', 'yAngularVelocity', 'zAngularVelocity', 'timestamp')]]
 
 | Params | []() |
 |--------|------|
-|x Angular Velocity|Number|
-|y Angular Velocity|Number|
-|z Angular Velocity|Number|
-|timestamp|Number|
+|x Angular Velocity|<span class="chip chip-number">Number</span>|
+|y Angular Velocity|<span class="chip chip-number">Number</span>|
+|z Angular Velocity|<span class="chip chip-number">Number</span>|
+|timestamp|<span class="chip chip-number">Number</span>|
 
-
-Indicates that the gyroscope sensor data has changed. The timestamp parameter is the time in nanoseconds at which the event occurred.
 
 ## Properties
 

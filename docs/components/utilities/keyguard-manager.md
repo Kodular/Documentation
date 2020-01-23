@@ -14,51 +14,51 @@ A non-visible component that authenticates the user using their preferred securi
 
 ### On Authentication Request
 
+Event to detect a authentication request was called.
+
 [[Event('Keyguard Manager', 'On Authentication Request', 'isAuthenticated')]]
 
 | Params | []() |
 |--------|------|
-|is Authenticated|Boolean|
+|is Authenticated|<span class="chip chip-boolean">Boolean</span>|
 
-
-Event to detect a authentication request was called.
 
 ### On Dissmiss Keyguard Request
+
+Event to detect a dissmiss request keyguard was called.
 
 [[Event('Keyguard Manager', 'On Dissmiss Keyguard Request', 'succeeded', 'cancelled')]]
 
 | Params | []() |
 |--------|------|
-|succeeded|Boolean|
-|cancelled|Boolean|
+|succeeded|<span class="chip chip-boolean">Boolean</span>|
+|cancelled|<span class="chip chip-boolean">Boolean</span>|
 
-
-Event to detect a dissmiss request keyguard was called.
 
 ## Methods
 
 ### Request Dismiss Keyguard
 
-[[Method('Keyguard Manager', 'Request Dismiss Keyguard', False)]]
-
 If the device is currently locked, requests the Keyguard to be dismissed. Works only for devices with Android 8+
+
+[[Method('Keyguard Manager', 'Request Dismiss Keyguard', False)]]
 
 ### Show Authentication Screen
 
-[[Method('Keyguard Manager', 'Show Authentication Screen', False)]]
-
 Create the Confirm Credentials screen. You can customize the title and description. Or we will provide a generic one for you if you leave it empty. Works only for devices with Android 5+
 
+[[Method('Keyguard Manager', 'Show Authentication Screen', False)]]
+
 ### Show When Locked
+
+Specifies whether an Activity should be shown on top of the lock screen whenever the lockscreen is up and the activity is resumed. Normally an activity will be transitioned to the stopped state if it is started while the lockscreen is up, but with this flag set the activity will remain in the resumed state visible on-top of the lock screen.
 
 [[Method('Keyguard Manager', 'Show When Locked', False, 'enabled')]]
 
 | Params | []() |
 |--------|------|
-|enabled|Boolean|
+|enabled|<span class="chip chip-boolean">Boolean</span>|
 
-
-Specifies whether an Activity should be shown on top of the lock screen whenever the lockscreen is up and the activity is resumed. Normally an activity will be transitioned to the stopped state if it is started while the lockscreen is up, but with this flag set the activity will remain in the resumed state visible on-top of the lock screen.
 
 ## Properties
 

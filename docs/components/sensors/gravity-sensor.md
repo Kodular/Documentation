@@ -15,16 +15,16 @@ Note\: All readings are in SI units.
 
 ### Gravity Changed
 
+Indicates that the gravity sensor data has changed.
+
 [[Event('Gravity Sensor', 'Gravity Changed', 'xAccel', 'yAccel', 'zAccel')]]
 
 | Params | []() |
 |--------|------|
-|x Accel|Number|
-|y Accel|Number|
-|z Accel|Number|
+|x Accel|<span class="chip chip-number">Number</span>|
+|y Accel|<span class="chip chip-number">Number</span>|
+|z Accel|<span class="chip chip-number">Number</span>|
 
-
-Indicates that the gravity sensor data has changed.
 
 ## Properties
 

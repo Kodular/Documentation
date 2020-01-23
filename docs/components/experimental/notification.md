@@ -14,71 +14,71 @@ A non-visible component that sends a notification to the user''s device.
 
 ### Are Notification Enabled
 
-[[Method('Notification', 'Are Notification Enabled', True)]]
-
-{>>Returns `boolean`<<}
+<span class="chip chip-boolean">Returns: <i>Boolean</i></span> 
 
 Check wether the app can send Notifications
 
+[[Method('Notification', 'Are Notification Enabled', True)]]
+
 ### Big Picture Notification
+
+Send a normal notification
 
 [[Method('Notification', 'Big Picture Notification', False, 'notificationID', 'title', 'message', 'bigPicture', 'startValue', 'removeOnClick')]]
 
 | Params | []() |
 |--------|------|
-|notification ID|Number|
-|title|Text|
-|message|Text|
-|big Picture|Text|
-|start Value|Text|
-|remove On Click|Boolean|
+|notification ID|<span class="chip chip-number">Number</span>|
+|title|<span class="chip chip-text">Text</span>|
+|message|<span class="chip chip-text">Text</span>|
+|big Picture|<span class="chip chip-text">Text</span>|
+|start Value|<span class="chip chip-text">Text</span>|
+|remove On Click|<span class="chip chip-boolean">Boolean</span>|
 
-
-Send a normal notification
 
 ### Cancel All Notifications
 
-[[Method('Notification', 'Cancel All Notifications', False)]]
-
 Cancel all Notifications
 
+[[Method('Notification', 'Cancel All Notifications', False)]]
+
 ### Cancel Notification
+
+Cancel a Notification with an id
 
 [[Method('Notification', 'Cancel Notification', False, 'id')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
+|id|<span class="chip chip-number">Number</span>|
 
-
-Cancel a Notification with an id
 
 ### Normal Notification
+
+Send a normal notification
 
 [[Method('Notification', 'Normal Notification', False, 'notificationID', 'title', 'message', 'startValue', 'removeOnClick')]]
 
 | Params | []() |
 |--------|------|
-|notification ID|Number|
-|title|Text|
-|message|Text|
-|start Value|Text|
-|remove On Click|Boolean|
+|notification ID|<span class="chip chip-number">Number</span>|
+|title|<span class="chip chip-text">Text</span>|
+|message|<span class="chip chip-text">Text</span>|
+|start Value|<span class="chip chip-text">Text</span>|
+|remove On Click|<span class="chip chip-boolean">Boolean</span>|
 
-
-Send a normal notification
 
 ### Simple Notification
+
+Send a simple notification
 
 [[Method('Notification', 'Simple Notification', False, 'title', 'message')]]
 
 | Params | []() |
 |--------|------|
-|title|Text|
-|message|Text|
+|title|<span class="chip chip-text">Text</span>|
+|message|<span class="chip chip-text">Text</span>|
 
-
-Send a simple notification
 
 ## Properties
 

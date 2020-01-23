@@ -14,88 +14,87 @@ A component to create dynamic space in Arrangements.
 
 ### Create Space
 
+Create a new space component dynamically. Use for width/height '-1' for wrap content or '-2' for fill parent.
+
 [[Method('Dynamic Space', 'Create Space', False, 'id', 'arrangement', 'width', 'height')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
-|arrangement|Component|
-|width|Number|
-|height|Number|
+|id|<span class="chip chip-number">Number</span>|
+|arrangement|<span class="chip chip-component">Component</span>|
+|width|<span class="chip chip-number">Number</span>|
+|height|<span class="chip chip-number">Number</span>|
 
-
-Create a new space component dynamically. Use for width/height '-1' for wrap content or '-2' for fill parent.
 
 ### Delete Space
+
+Remove a space component with the given id.
 
 [[Method('Dynamic Space', 'Delete Space', False, 'id')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
+|id|<span class="chip chip-number">Number</span>|
 
-
-Remove a space component with the given id.
 
 ### Get Height
 
-[[Method('Dynamic Space', 'Get Height', True, 'id')]]
-
-{>>Returns `number`<<}
-
-| Params | []() |
-|--------|------|
-|id|Number|
-
+<span class="chip chip-number">Returns: <i>Number</i></span> 
 
 Get the Height of a space component.
 
-### Get Space By Id
-
-[[Method('Dynamic Space', 'Get Space By Id', True, 'id')]]
-
-{>>Returns `component`<<}
+[[Method('Dynamic Space', 'Get Height', True, 'id')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
+|id|<span class="chip chip-number">Number</span>|
 
+
+### Get Space By Id
+
+<span class="chip chip-component">Returns: <i>Component</i></span> 
 
 Returns the space referenced by its id.
 
-### Get Width
-
-[[Method('Dynamic Space', 'Get Width', True, 'id')]]
-
-{>>Returns `number`<<}
+[[Method('Dynamic Space', 'Get Space By Id', True, 'id')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
+|id|<span class="chip chip-number">Number</span>|
 
+
+### Get Width
+
+<span class="chip chip-number">Returns: <i>Number</i></span> 
 
 Get the Width of a space component.
 
+[[Method('Dynamic Space', 'Get Width', True, 'id')]]
+
+| Params | []() |
+|--------|------|
+|id|<span class="chip chip-number">Number</span>|
+
+
 ### Set Height
+
+Update the Height of a space component.
 
 [[Method('Dynamic Space', 'Set Height', False, 'id', 'height')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
-|height|Number|
+|id|<span class="chip chip-number">Number</span>|
+|height|<span class="chip chip-number">Number</span>|
 
-
-Update the Height of a space component.
 
 ### Set Width
+
+Update the Width of a space component.
 
 [[Method('Dynamic Space', 'Set Width', False, 'id', 'width')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
-|width|Number|
-
-
-Update the Width of a space component.
+|id|<span class="chip chip-number">Number</span>|
+|width|<span class="chip chip-number">Number</span>|

@@ -14,48 +14,48 @@ A non-visible component that executes shell commands and checks the device''s ro
 
 ### Got Output
 
+Read output after executing shell command
+
 [[Event('Shell', 'Got Output', 'out')]]
 
 | Params | []() |
 |--------|------|
-|out|Text|
+|out|<span class="chip chip-text">Text</span>|
 
-
-Read output after executing shell command
 
 ## Methods
 
 ### Has Super User Apk Installed
 
-[[Method('Shell', 'Has Super User Apk Installed', True)]]
-
-{>>Returns `boolean`<<}
+<span class="chip chip-boolean">Returns: <i>Boolean</i></span> 
 
 Returns TRUE if one of 6 known root packages or varients is installed. The name of the package is not returned, so the user does not know which package name to change. Developed by Cian.
 
+[[Method('Shell', 'Has Super User Apk Installed', True)]]
+
 ### Execute
+
+Executes shell commands. To get output, use "GotOutput" event block.
 
 [[Method('Shell', 'Execute', False, 'in')]]
 
 | Params | []() |
 |--------|------|
-|in|Text|
+|in|<span class="chip chip-text">Text</span>|
 
-
-Executes shell commands. To get output, use "GotOutput" event block.
 
 ### Is Rooted
 
-[[Method('Shell', 'Is Rooted', True)]]
-
-{>>Returns `boolean`<<}
+<span class="chip chip-boolean">Returns: <i>Boolean</i></span> 
 
 Returns true if Phone is Rooted
 
+[[Method('Shell', 'Is Rooted', True)]]
+
 ### Is System User
 
-[[Method('Shell', 'Is System User', True)]]
-
-{>>Returns `boolean`<<}
+<span class="chip chip-boolean">Returns: <i>Boolean</i></span> 
 
 This returns TRUE if the system user is running the application, and could be a sign of a rooted device. Developed by Cian.
+
+[[Method('Shell', 'Is System User', True)]]

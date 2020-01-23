@@ -23,203 +23,203 @@ _hello from Javascript_.
 
 ### After JS Evaluated
 
+Get the result of the evaluated JS
+
 [[Event('Web Viewer', 'After JS Evaluated', 'result')]]
 
 | Params | []() |
 |--------|------|
-|result|Text|
+|result|<span class="chip chip-text">Text</span>|
 
-
-Get the result of the evaluated JS
 
 ### Cookies Removed
+
+This event return true when the cookies have been successfully removed. If the cookies was successfully cleared then the next run returns false as status, if in this time no new cookies was set.
 
 [[Event('Web Viewer', 'Cookies Removed', 'success')]]
 
 | Params | []() |
 |--------|------|
-|success|Boolean|
+|success|<span class="chip chip-boolean">Boolean</span>|
 
-
-This event return true when the cookies have been successfully removed. If the cookies was successfully cleared then the next run returns false as status, if in this time no new cookies was set.
 
 ### On Console Message
+
+Get webpage console output
 
 [[Event('Web Viewer', 'On Console Message', 'message', 'lineNumber', 'sourceId')]]
 
 | Params | []() |
 |--------|------|
-|message|Text|
-|line Number|Number|
-|source Id|Text|
+|message|<span class="chip chip-text">Text</span>|
+|line Number|<span class="chip chip-number">Number</span>|
+|source Id|<span class="chip chip-text">Text</span>|
 
-
-Get webpage console output
 
 ### On Download Start
+
+Event for listening download links.
 
 [[Event('Web Viewer', 'On Download Start', 'url', 'contentDisposition', 'mimetype', 'contentLength')]]
 
 | Params | []() |
 |--------|------|
-|url|Text|
-|content Disposition|Text|
-|mime Type|Text|
-|content Length|Number|
+|url|<span class="chip chip-text">Text</span>|
+|content Disposition|<span class="chip chip-text">Text</span>|
+|mime Type|<span class="chip chip-text">Text</span>|
+|content Length|<span class="chip chip-number">Number</span>|
 
-
-Event for listening download links.
 
 ### Page Loaded
 
-[[Event('Web Viewer', 'Page Loaded')]]
-
 Triggers when page finished loading
 
+[[Event('Web Viewer', 'Page Loaded')]]
+
 ### Progress Changed
+
+Event to detect that the loading progress has changed.
 
 [[Event('Web Viewer', 'Progress Changed', 'progress')]]
 
 | Params | []() |
 |--------|------|
-|progress|Number|
+|progress|<span class="chip chip-number">Number</span>|
 
-
-Event to detect that the loading progress has changed.
 
 ### Web View String Change
+
+When the JavaScript calls AppInventor.setWebViewString this event is run.
 
 [[Event('Web Viewer', 'Web View String Change', 'value')]]
 
 | Params | []() |
 |--------|------|
-|value|Text|
+|value|<span class="chip chip-text">Text</span>|
 
-
-When the JavaScript calls AppInventor.setWebViewString this event is run.
 
 ## Methods
 
 ### Can Go Back
 
-[[Method('Web Viewer', 'Can Go Back', True)]]
-
-{>>Returns `boolean`<<}
+<span class="chip chip-boolean">Returns: <i>Boolean</i></span> 
 
 Returns true if the WebViewer can go back in the history list.
 
+[[Method('Web Viewer', 'Can Go Back', True)]]
+
 ### Can Go Back Or Forward
 
-[[Method('Web Viewer', 'Can Go Back Or Forward', True, 'steps')]]
-
-{>>Returns `boolean`<<}
-
-| Params | []() |
-|--------|------|
-|steps|Number|
-
+<span class="chip chip-boolean">Returns: <i>Boolean</i></span> 
 
 Returns true if the WebViewer can go back or forward the number of steps in the history list.
 
+[[Method('Web Viewer', 'Can Go Back Or Forward', True, 'steps')]]
+
+| Params | []() |
+|--------|------|
+|steps|<span class="chip chip-number">Number</span>|
+
+
 ### Can Go Forward
 
-[[Method('Web Viewer', 'Can Go Forward', True)]]
-
-{>>Returns `boolean`<<}
+<span class="chip chip-boolean">Returns: <i>Boolean</i></span> 
 
 Returns true if the WebViewer can go forward in the history list.
 
-### Clear Caches
+[[Method('Web Viewer', 'Can Go Forward', True)]]
 
-[[Method('Web Viewer', 'Clear Caches', False)]]
+### Clear Caches
 
 Clear WebView caches.
 
-### Clear Cookies
+[[Method('Web Viewer', 'Clear Caches', False)]]
 
-[[Method('Web Viewer', 'Clear Cookies', False)]]
+### Clear Cookies
 
 Start to clear the WebView cookies.
 
-### Clear Locations
+[[Method('Web Viewer', 'Clear Cookies', False)]]
 
-[[Method('Web Viewer', 'Clear Locations', False)]]
+### Clear Locations
 
 Clear stored location permissions.
 
+[[Method('Web Viewer', 'Clear Locations', False)]]
+
 ### Evaluate JS
+
+Evaluate JS in the context of the current page
 
 [[Method('Web Viewer', 'Evaluate JS', False, 'script')]]
 
 | Params | []() |
 |--------|------|
-|script|Text|
+|script|<span class="chip chip-text">Text</span>|
 
-
-Evaluate JS in the context of the current page
 
 ### Go Back
 
-[[Method('Web Viewer', 'Go Back', False)]]
-
 Go back to the previous page in the history list. Does nothing if there is no previous page.
 
+[[Method('Web Viewer', 'Go Back', False)]]
+
 ### Go Back Or Forward
+
+Go forward or backward a number of steps away from the current page. Steps is negative if backward and positive if forward.
 
 [[Method('Web Viewer', 'Go Back Or Forward', False, 'steps')]]
 
 | Params | []() |
 |--------|------|
-|steps|Number|
+|steps|<span class="chip chip-number">Number</span>|
 
-
-Go forward or backward a number of steps away from the current page. Steps is negative if backward and positive if forward.
 
 ### Go Forward
 
-[[Method('Web Viewer', 'Go Forward', False)]]
-
 Go forward to the next page in the history list. Does nothing if there is no next page.
+
+[[Method('Web Viewer', 'Go Forward', False)]]
 
 ### Go Home
 
-[[Method('Web Viewer', 'Go Home', False)]]
-
 Loads the home URL page. This happens automatically when the home URL is changed.
 
+[[Method('Web Viewer', 'Go Home', False)]]
+
 ### Go To URL
+
+Load the page at the given URL.
 
 [[Method('Web Viewer', 'Go To URL', False, 'url')]]
 
 | Params | []() |
 |--------|------|
-|url|Text|
+|url|<span class="chip chip-text">Text</span>|
 
-
-Load the page at the given URL.
 
 ### Load HTML
+
+Load HTML content using Base64-encoded data URI scheme
 
 [[Method('Web Viewer', 'Load HTML', False, 'html')]]
 
 | Params | []() |
 |--------|------|
-|html|Text|
+|html|<span class="chip chip-text">Text</span>|
 
-
-Load HTML content using Base64-encoded data URI scheme
 
 ### Reload
 
-[[Method('Web Viewer', 'Reload', False)]]
-
 Reloads the current page
+
+[[Method('Web Viewer', 'Reload', False)]]
 
 ### Stop Loading
 
-[[Method('Web Viewer', 'Stop Loading', False)]]
-
 Stops the current load.
+
+[[Method('Web Viewer', 'Stop Loading', False)]]
 
 ## Properties
 

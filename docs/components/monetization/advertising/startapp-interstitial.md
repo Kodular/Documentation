@@ -14,75 +14,75 @@ A non-visible component that shows StartApp ads as full-screen advertisements.
 
 ### Ad Clicked
 
-[[Event('StartApp Interstitial', 'Ad Clicked')]]
-
 Indicates that the user has clicked on the interstial ad
+
+[[Event('StartApp Interstitial', 'Ad Clicked')]]
 
 ### Ad Displayed
 
-[[Event('StartApp Interstitial', 'Ad Displayed')]]
-
 Indicates that an Ad is shown to the user.
 
+[[Event('StartApp Interstitial', 'Ad Displayed')]]
+
 ### Ad Failed To Load
+
+Called when an ad request failed to load. The message will display the error code and error message.
 
 [[Event('StartApp Interstitial', 'Ad Failed To Load', 'errorCode', 'errorMessage')]]
 
 | Params | []() |
 |--------|------|
-|error Code|Number|
-|error Message|Text|
+|error Code|<span class="chip chip-number">Number</span>|
+|error Message|<span class="chip chip-text">Text</span>|
 
-
-Called when an ad request failed to load. The message will display the error code and error message.
 
 ### Ad Failed To Show
+
+Called when an an attempt was made to display the ad, but the ad was not ready to display.
 
 [[Event('StartApp Interstitial', 'Ad Failed To Show', 'errorMessage')]]
 
 | Params | []() |
 |--------|------|
-|error Message|Text|
+|error Message|<span class="chip chip-text">Text</span>|
 
-
-Called when an an attempt was made to display the ad, but the ad was not ready to display.
 
 ### Ad Hidden
 
-[[Event('StartApp Interstitial', 'Ad Hidden')]]
-
 Indicates that an Ad which was shown to the user is now hidden.
 
+[[Event('StartApp Interstitial', 'Ad Hidden')]]
+
 ### On Failed To Receive Ad
+
+Called when an ad request failed to load.
 
 [[Event('StartApp Interstitial', 'On Failed To Receive Ad', 'errorMessage')]]
 
 | Params | []() |
 |--------|------|
-|error Message|Text|
+|error Message|<span class="chip chip-text">Text</span>|
 
-
-Called when an ad request failed to load.
 
 ### On Receive Ad
 
-[[Event('StartApp Interstitial', 'On Receive Ad')]]
-
 Called when an ad request failed to load. The message will display the error code and error message.
+
+[[Event('StartApp Interstitial', 'On Receive Ad')]]
 
 ## Methods
 
 ### Load Ad
 
-[[Method('StartApp Interstitial', 'Load Ad', False)]]
-
 Load a new StartApp Interstitial ad.
+
+[[Method('StartApp Interstitial', 'Load Ad', False)]]
 
 ### Show Interstitial Ad
 
-[[Method('StartApp Interstitial', 'Show Interstitial Ad', False)]]
-
 It will show the Interstitial Ad
+
+[[Method('StartApp Interstitial', 'Show Interstitial Ad', False)]]
 
 ## Properties
 

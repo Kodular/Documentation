@@ -14,36 +14,36 @@ A component that provides a high-level interface to a gyro sensor on a LEGO MIND
 
 ### Sensor Value Changed
 
+Called then the sensor value changed.
+
 [[Event('EV3 Gyro Sensor', 'Sensor Value Changed', 'sensorValue')]]
 
 | Params | []() |
 |--------|------|
-|sensor Value|Number|
+|sensor Value|<span class="chip chip-number">Number</span>|
 
-
-Called then the sensor value changed.
 
 ## Methods
 
 ### Get Sensor Value
 
-[[Method('EV3 Gyro Sensor', 'Get Sensor Value', True)]]
-
-{>>Returns `number`<<}
+<span class="chip chip-number">Returns: <i>Number</i></span> 
 
 Returns the current angle or rotation speed based on current mode, or -1 if the value cannot be read from sensor.
 
-### Set Angle Mode
+[[Method('EV3 Gyro Sensor', 'Get Sensor Value', True)]]
 
-[[Method('EV3 Gyro Sensor', 'Set Angle Mode', False)]]
+### Set Angle Mode
 
 Measures the orientation of the sensor.
 
+[[Method('EV3 Gyro Sensor', 'Set Angle Mode', False)]]
+
 ### Set Rate Mode
 
-[[Method('EV3 Gyro Sensor', 'Set Rate Mode', False)]]
-
 Measures the angular velocity of the sensor.
+
+[[Method('EV3 Gyro Sensor', 'Set Rate Mode', False)]]
 
 ## Properties
 

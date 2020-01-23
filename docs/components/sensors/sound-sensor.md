@@ -14,14 +14,14 @@ Physical world component that can detect such data as: sound amplitude (measurem
 
 ### Sound Changed
 
+Triggered when the sound level has changed
+
 [[Event('Sound Sensor', 'Sound Changed', 'value')]]
 
 | Params | []() |
 |--------|------|
-|value|Number|
+|value|<span class="chip chip-number">Number</span>|
 
-
-Triggered when the sound level has changed
 
 ## Properties
 

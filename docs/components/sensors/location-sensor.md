@@ -18,57 +18,57 @@ Location information might not be immediately available when an app starts. You'
 
 ### Location Changed
 
+Indicates that a new location has been detected.
+
 [[Event('Location Sensor', 'Location Changed', 'latitude', 'longitude', 'altitude', 'speed')]]
 
 | Params | []() |
 |--------|------|
-|latitude|Number|
-|longitude|Number|
-|altitude|Number|
-|speed|Number|
+|latitude|<span class="chip chip-number">Number</span>|
+|longitude|<span class="chip chip-number">Number</span>|
+|altitude|<span class="chip chip-number">Number</span>|
+|speed|<span class="chip chip-number">Number</span>|
 
-
-Indicates that a new location has been detected.
 
 ### Status Changed
+
+Indicates that the status of the location provider service has changed, such as when aprovider is lost or a new provider starts being used.
 
 [[Event('Location Sensor', 'Status Changed', 'provider', 'status')]]
 
 | Params | []() |
 |--------|------|
-|provider|Text|
-|status|Text|
+|provider|<span class="chip chip-text">Text</span>|
+|status|<span class="chip chip-text">Text</span>|
 
-
-Indicates that the status of the location provider service has changed, such as when aprovider is lost or a new provider starts being used.
 
 ## Methods
 
 ### Latitude From Address
 
-[[Method('Location Sensor', 'Latitude From Address', True, 'locationName')]]
-
-{>>Returns `number`<<}
-
-| Params | []() |
-|--------|------|
-|location Name|Text|
-
+<span class="chip chip-number">Returns: <i>Number</i></span> 
 
 Derives latitude of given address
 
-### Longitude From Address
-
-[[Method('Location Sensor', 'Longitude From Address', True, 'locationName')]]
-
-{>>Returns `number`<<}
+[[Method('Location Sensor', 'Latitude From Address', True, 'locationName')]]
 
 | Params | []() |
 |--------|------|
-|location Name|Text|
+|location Name|<span class="chip chip-text">Text</span>|
 
+
+### Longitude From Address
+
+<span class="chip chip-number">Returns: <i>Number</i></span> 
 
 Derives longitude of given address
+
+[[Method('Location Sensor', 'Longitude From Address', True, 'locationName')]]
+
+| Params | []() |
+|--------|------|
+|location Name|<span class="chip chip-text">Text</span>|
+
 
 ## Properties
 

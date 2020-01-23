@@ -38,23 +38,23 @@ Another way for an app to specify a phone number would be to include a `` PhoneN
 
 ### Message Received
 
+Event that's raised when a text message is received by the phone.
+
 [[Event('Texting', 'Message Received', 'number', 'messageText')]]
 
 | Params | []() |
 |--------|------|
-|number|Text|
-|message Text|Text|
+|number|<span class="chip chip-text">Text</span>|
+|message Text|<span class="chip chip-text">Text</span>|
 
-
-Event that's raised when a text message is received by the phone.
 
 ## Methods
 
 ### Send Message
 
-[[Method('Texting', 'Send Message', False)]]
-
 Send a text message
+
+[[Method('Texting', 'Send Message', False)]]
 
 ## Properties
 

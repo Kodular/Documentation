@@ -14,229 +14,229 @@ A non-visible component that provides functions for HTTP GET, POST, PUT, and DEL
 
 ### Got File
 
+Event indicating that a request has finished.
+
 [[Event('Web', 'Got File', 'url', 'responseCode', 'responseType', 'fileName')]]
 
 | Params | []() |
 |--------|------|
-|url|Text|
-|response Code|Number|
-|response Type|Text|
-|file Name|Text|
+|url|<span class="chip chip-text">Text</span>|
+|response Code|<span class="chip chip-number">Number</span>|
+|response Type|<span class="chip chip-text">Text</span>|
+|file Name|<span class="chip chip-text">Text</span>|
 
-
-Event indicating that a request has finished.
 
 ### Got Text
+
+Event indicating that a request has finished.
 
 [[Event('Web', 'Got Text', 'url', 'responseCode', 'responseType', 'responseContent')]]
 
 | Params | []() |
 |--------|------|
-|url|Text|
-|response Code|Number|
-|response Type|Text|
-|response Content|Text|
+|url|<span class="chip chip-text">Text</span>|
+|response Code|<span class="chip chip-number">Number</span>|
+|response Type|<span class="chip chip-text">Text</span>|
+|response Content|<span class="chip chip-text">Text</span>|
 
-
-Event indicating that a request has finished.
 
 ### Timed Out
+
+Event indicating that a request has timed out.
 
 [[Event('Web', 'Timed Out', 'url')]]
 
 | Params | []() |
 |--------|------|
-|url|Text|
+|url|<span class="chip chip-text">Text</span>|
 
-
-Event indicating that a request has timed out.
 
 ## Methods
 
 ### Build Request Data
 
-[[Method('Web', 'Build Request Data', True, 'list')]]
-
-{>>Returns `text`<<}
-
-| Params | []() |
-|--------|------|
-|list|List|
-
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 Converts a list of two-element sublists, representing name and value pairs, to astring formatted as application/x-www-form-urlencoded media type, suitable to pass toPostText.
 
-### Clear Cookies
+[[Method('Web', 'Build Request Data', True, 'list')]]
 
-[[Method('Web', 'Clear Cookies', False)]]
+| Params | []() |
+|--------|------|
+|list|<span class="chip chip-list">List</span>|
+
+
+### Clear Cookies
 
 Clears all cookies for this Web component.
 
-### Delete
+[[Method('Web', 'Clear Cookies', False)]]
 
-[[Method('Web', 'Delete', False)]]
+### Delete
 
 Performs an HTTP DELETE request using the Url property and retrieves theresponse.  
 If the SaveResponse property is true, the response will be saved in a fileand the GotFile event will be triggered. The ResponseFileName propertycan be used to specify the name of the file.  
 If the SaveResponse property is false, the GotText event will betriggered.
 
-### Get
+[[Method('Web', 'Delete', False)]]
 
-[[Method('Web', 'Get', False)]]
+### Get
 
 Performs an HTTP GET request using the Url property and retrieves theresponse.  
 If the SaveResponse property is true, the response will be saved in a fileand the GotFile event will be triggered. The ResponseFileName propertycan be used to specify the name of the file.  
 If the SaveResponse property is false, the GotText event will betriggered.
 
+[[Method('Web', 'Get', False)]]
+
 ### HTML Text Decode
 
-[[Method('Web', 'HTML Text Decode', True, 'htmlText')]]
-
-{>>Returns `text`<<}
-
-| Params | []() |
-|--------|------|
-|html Text|Text|
-
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 Decodes the given HTML text value. HTML character entities such as &amp;amp;, &amp;lt;, &amp;gt;, &amp;apos;, and &amp;quot; are changed to &amp;, &lt;, &gt;, ', and ". Entities such as &amp;#xhhhh, and &amp;#nnnn are changed to the appropriate characters.
 
-### JSON Text Decode
-
-[[Method('Web', 'JSON Text Decode', True, 'jsonText')]]
-
-{>>Returns `any`<<}
+[[Method('Web', 'HTML Text Decode', True, 'htmlText')]]
 
 | Params | []() |
 |--------|------|
-|json Text|Text|
+|html Text|<span class="chip chip-text">Text</span>|
 
+
+### JSON Text Decode
+
+<span class="chip chip-any">Returns: <i>Any</i></span> 
 
 Decodes the given JSON encoded value to produce a corresponding AppInventor value
 A JSON list [x, y, z] decodes to a list (x y z), A JSON object with name A and value B,(denoted as A:B enclosed in curly braces) decodes to a list((A B)), that is, a list containing the two-element list (A B).
 
-### Post File
-
-[[Method('Web', 'Post File', False, 'path')]]
+[[Method('Web', 'JSON Text Decode', True, 'jsonText')]]
 
 | Params | []() |
 |--------|------|
-|path|Text|
+|json Text|<span class="chip chip-text">Text</span>|
 
+
+### Post File
 
 Performs an HTTP POST request using the Url property and data from the specified file.  
 If the SaveResponse property is true, the response will be saved in a file and the GotFile event will be triggered. The ResponseFileName property can be used to specify the name of the file.  
 If the SaveResponse property is false, the GotText event will be triggered.
 
+[[Method('Web', 'Post File', False, 'path')]]
+
+| Params | []() |
+|--------|------|
+|path|<span class="chip chip-text">Text</span>|
+
+
 ### Post Text
+
+Performs an HTTP POST request using the Url property and the specified text.  
+The characters of the text are encoded using UTF-8 encoding.  
+If the SaveResponse property is true, the response will be saved in a file and the GotFile event will be triggered. The responseFileName property can be used to specify the name of the file.  
+If the SaveResponse property is false, the GotText event will be triggered.
 
 [[Method('Web', 'Post Text', False, 'text')]]
 
 | Params | []() |
 |--------|------|
-|text|Text|
+|text|<span class="chip chip-text">Text</span>|
 
-
-Performs an HTTP POST request using the Url property and the specified text.  
-The characters of the text are encoded using UTF-8 encoding.  
-If the SaveResponse property is true, the response will be saved in a file and the GotFile event will be triggered. The responseFileName property can be used to specify the name of the file.  
-If the SaveResponse property is false, the GotText event will be triggered.
 
 ### Post Text With Encoding
+
+Performs an HTTP POST request using the Url property and the specified text.  
+The characters of the text are encoded using the given encoding.  
+If the SaveResponse property is true, the response will be saved in a file and the GotFile event will be triggered. The ResponseFileName property can be used to specify the name of the file.  
+If the SaveResponse property is false, the GotText event will be triggered.
 
 [[Method('Web', 'Post Text With Encoding', False, 'text', 'encoding')]]
 
 | Params | []() |
 |--------|------|
-|text|Text|
-|encoding|Text|
+|text|<span class="chip chip-text">Text</span>|
+|encoding|<span class="chip chip-text">Text</span>|
 
-
-Performs an HTTP POST request using the Url property and the specified text.  
-The characters of the text are encoded using the given encoding.  
-If the SaveResponse property is true, the response will be saved in a file and the GotFile event will be triggered. The ResponseFileName property can be used to specify the name of the file.  
-If the SaveResponse property is false, the GotText event will be triggered.
 
 ### Put File
-
-[[Method('Web', 'Put File', False, 'path')]]
-
-| Params | []() |
-|--------|------|
-|path|Text|
-
 
 Performs an HTTP PUT request using the Url property and data from the specified file.  
 If the SaveResponse property is true, the response will be saved in a file and the GotFile event will be triggered. The ResponseFileName property can be used to specify the name of the file.  
 If the SaveResponse property is false, the GotText event will be triggered.
 
-### Put Text
-
-[[Method('Web', 'Put Text', False, 'text')]]
+[[Method('Web', 'Put File', False, 'path')]]
 
 | Params | []() |
 |--------|------|
-|text|Text|
+|path|<span class="chip chip-text">Text</span>|
 
+
+### Put Text
 
 Performs an HTTP PUT request using the Url property and the specified text.  
 The characters of the text are encoded using UTF-8 encoding.  
 If the SaveResponse property is true, the response will be saved in a file and the GotFile event will be triggered. The responseFileName property can be used to specify the name of the file.  
 If the SaveResponse property is false, the GotText event will be triggered.
 
-### Put Text With Encoding
-
-[[Method('Web', 'Put Text With Encoding', False, 'text', 'encoding')]]
+[[Method('Web', 'Put Text', False, 'text')]]
 
 | Params | []() |
 |--------|------|
-|text|Text|
-|encoding|Text|
+|text|<span class="chip chip-text">Text</span>|
 
+
+### Put Text With Encoding
 
 Performs an HTTP PUT request using the Url property and the specified text.  
 The characters of the text are encoded using the given encoding.  
 If the SaveResponse property is true, the response will be saved in a file and the GotFile event will be triggered. The ResponseFileName property can be used to specify the name of the file.  
 If the SaveResponse property is false, the GotText event will be triggered.
 
-### URI Decode
-
-[[Method('Web', 'URI Decode', True, 'text')]]
-
-{>>Returns `text`<<}
+[[Method('Web', 'Put Text With Encoding', False, 'text', 'encoding')]]
 
 | Params | []() |
 |--------|------|
-|text|Text|
+|text|<span class="chip chip-text">Text</span>|
+|encoding|<span class="chip chip-text">Text</span>|
 
+
+### URI Decode
+
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 Decodes the encoded text value.
 
-### URI Encode
-
-[[Method('Web', 'URI Encode', True, 'text')]]
-
-{>>Returns `text`<<}
+[[Method('Web', 'URI Decode', True, 'text')]]
 
 | Params | []() |
 |--------|------|
-|text|Text|
+|text|<span class="chip chip-text">Text</span>|
 
+
+### URI Encode
+
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 Encodes the given text value so that it can be used in a URL.
 
-### XML Text Decode
-
-[[Method('Web', 'XML Text Decode', True, 'XmlText')]]
-
-{>>Returns `any`<<}
+[[Method('Web', 'URI Encode', True, 'text')]]
 
 | Params | []() |
 |--------|------|
-|XmlText|Text|
+|text|<span class="chip chip-text">Text</span>|
 
+
+### XML Text Decode
+
+<span class="chip chip-any">Returns: <i>Any</i></span> 
 
 Decodes the given XML string to produce a list structure. See the App Inventor documentation on "Other topics, notes, and details" for information.
+
+[[Method('Web', 'XML Text Decode', True, 'XmlText')]]
+
+| Params | []() |
+|--------|------|
+|XmlText|<span class="chip chip-text">Text</span>|
+
 
 ## Properties
 

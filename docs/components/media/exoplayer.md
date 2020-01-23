@@ -15,130 +15,130 @@ The ExoPlayer component, powered by Google, has significantly lower audio playba
 
 ### Completed
 
-[[Event('ExoPlayer', 'Completed')]]
-
 This event is invoked if the player state is completed.
 
+[[Event('ExoPlayer', 'Completed')]]
+
 ### Got Meta Data
+
+This event returns meta data from the audio stream. Works for files but not for streams as example radio streams.
 
 [[Event('ExoPlayer', 'Got Meta Data', 'artist', 'title', 'album', 'albumArtist', 'track')]]
 
 | Params | []() |
 |--------|------|
-|artist|Text|
-|title|Text|
-|album|Text|
-|albumArtist|Text|
-|track|Text|
+|artist|<span class="chip chip-text">Text</span>|
+|title|<span class="chip chip-text">Text</span>|
+|album|<span class="chip chip-text">Text</span>|
+|albumArtist|<span class="chip chip-text">Text</span>|
+|track|<span class="chip chip-text">Text</span>|
 
-
-This event returns meta data from the audio stream. Works for files but not for streams as example radio streams.
 
 ### On Player Error
+
+This event returns the error reason for any problems.
 
 [[Event('ExoPlayer', 'On Player Error', 'errorMessage')]]
 
 | Params | []() |
 |--------|------|
-|error Message|Text|
+|error Message|<span class="chip chip-text">Text</span>|
 
-
-This event returns the error reason for any problems.
 
 ### Other Player Started
 
-[[Event('ExoPlayer', 'Other Player Started')]]
-
 This event is signaled when another player has started (and the current player is playing or paused, but not stopped).
+
+[[Event('ExoPlayer', 'Other Player Started')]]
 
 ### Other Player Stopped
 
-[[Event('ExoPlayer', 'Other Player Stopped')]]
-
 This event is signaled when another player has stopped (and the current player is playing or paused, but not stopped).
 
+[[Event('ExoPlayer', 'Other Player Stopped')]]
+
 ### Status Changed
+
+This event returns true or false for the respective simpleExoPlayer statuses.
 
 [[Event('ExoPlayer', 'Status Changed', 'isPlaying', 'isPause', 'isStopped', 'isLoading')]]
 
 | Params | []() |
 |--------|------|
-|is Playing|Boolean|
-|is Pause|Boolean|
-|is Stopped|Boolean|
-|is Loading|Boolean|
+|is Playing|<span class="chip chip-boolean">Boolean</span>|
+|is Pause|<span class="chip chip-boolean">Boolean</span>|
+|is Stopped|<span class="chip chip-boolean">Boolean</span>|
+|is Loading|<span class="chip chip-boolean">Boolean</span>|
 
-
-This event returns true or false for the respective simpleExoPlayer statuses.
 
 ## Methods
 
 ### Pause
 
-[[Method('ExoPlayer', 'Pause', False)]]
-
 Pause the player.
+
+[[Method('ExoPlayer', 'Pause', False)]]
 
 ### Resume
 
-[[Method('ExoPlayer', 'Resume', False)]]
-
 Resume the player.
 
+[[Method('ExoPlayer', 'Resume', False)]]
+
 ### Seek To
+
+Set a position where the source file should start playing in milliseconds.
 
 [[Method('ExoPlayer', 'Seek To', False, 'position')]]
 
 | Params | []() |
 |--------|------|
-|position|Number|
+|position|<span class="chip chip-number">Number</span>|
 
-
-Set a position where the source file should start playing in milliseconds.
 
 ### Start
 
-[[Method('ExoPlayer', 'Start', False)]]
-
 Start the player.
+
+[[Method('ExoPlayer', 'Start', False)]]
 
 ### Stop
 
-[[Method('ExoPlayer', 'Stop', False)]]
-
 Stop the player.
+
+[[Method('ExoPlayer', 'Stop', False)]]
 
 ### is Loading
 
-[[Method('ExoPlayer', 'is Loading', True)]]
-
-{>>Returns `boolean`<<}
+<span class="chip chip-boolean">Returns: <i>Boolean</i></span> 
 
 Returns true if the player is current loading.
 
+[[Method('ExoPlayer', 'is Loading', True)]]
+
 ### is Pause
 
-[[Method('ExoPlayer', 'is Pause', True)]]
-
-{>>Returns `boolean`<<}
+<span class="chip chip-boolean">Returns: <i>Boolean</i></span> 
 
 Returns true if the player is current in pause mode.
 
+[[Method('ExoPlayer', 'is Pause', True)]]
+
 ### is Playing
 
-[[Method('ExoPlayer', 'is Playing', True)]]
-
-{>>Returns `boolean`<<}
+<span class="chip chip-boolean">Returns: <i>Boolean</i></span> 
 
 Returns true if the player is current playing.
 
+[[Method('ExoPlayer', 'is Playing', True)]]
+
 ### is Stopped
 
-[[Method('ExoPlayer', 'is Stopped', True)]]
-
-{>>Returns `boolean`<<}
+<span class="chip chip-boolean">Returns: <i>Boolean</i></span> 
 
 Returns true if the player is current stopped.
+
+[[Method('ExoPlayer', 'is Stopped', True)]]
 
 ## Properties
 

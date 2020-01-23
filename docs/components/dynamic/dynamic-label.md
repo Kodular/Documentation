@@ -14,189 +14,189 @@ A component to create dynamic labels in Arrangements
 
 ### Create Label
 
+Create a Dynamic Label
+
 [[Method('Dynamic Label', 'Create Label', False, 'id', 'arrangement')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
-|arrangement|Component|
+|id|<span class="chip chip-number">Number</span>|
+|arrangement|<span class="chip chip-component">Component</span>|
 
-
-Create a Dynamic Label
 
 ### Delete Label
+
+Remove a label component with the given id.
 
 [[Method('Dynamic Label', 'Delete Label', False, 'id')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
+|id|<span class="chip chip-number">Number</span>|
 
-
-Remove a label component with the given id.
 
 ### Get Font Size
 
-[[Method('Dynamic Label', 'Get Font Size', True, 'id')]]
-
-{>>Returns `number`<<}
-
-| Params | []() |
-|--------|------|
-|id|Number|
-
+<span class="chip chip-number">Returns: <i>Number</i></span> 
 
 Get the Font Size of a Label
 
-### Get Height
-
-[[Method('Dynamic Label', 'Get Height', True, 'id')]]
-
-{>>Returns `number`<<}
+[[Method('Dynamic Label', 'Get Font Size', True, 'id')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
+|id|<span class="chip chip-number">Number</span>|
 
+
+### Get Height
+
+<span class="chip chip-number">Returns: <i>Number</i></span> 
 
 Get the Height of a Label
 
-### Get Label By Id
-
-[[Method('Dynamic Label', 'Get Label By Id', True, 'id')]]
-
-{>>Returns `component`<<}
+[[Method('Dynamic Label', 'Get Height', True, 'id')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
+|id|<span class="chip chip-number">Number</span>|
 
+
+### Get Label By Id
+
+<span class="chip chip-component">Returns: <i>Component</i></span> 
 
 Returns the label referenced by its id.
 
-### Get Text
-
-[[Method('Dynamic Label', 'Get Text', True, 'id')]]
-
-{>>Returns `text`<<}
+[[Method('Dynamic Label', 'Get Label By Id', True, 'id')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
+|id|<span class="chip chip-number">Number</span>|
 
+
+### Get Text
+
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 Get the Text of a Label
 
-### Get Width
-
-[[Method('Dynamic Label', 'Get Width', True, 'id')]]
-
-{>>Returns `number`<<}
+[[Method('Dynamic Label', 'Get Text', True, 'id')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
+|id|<span class="chip chip-number">Number</span>|
 
+
+### Get Width
+
+<span class="chip chip-number">Returns: <i>Number</i></span> 
 
 Get the Width of a Label
 
+[[Method('Dynamic Label', 'Get Width', True, 'id')]]
+
+| Params | []() |
+|--------|------|
+|id|<span class="chip chip-number">Number</span>|
+
+
 ### Set Alignment
+
+Update the Text Alignment of a Label. 0 = left, 1 = center and 2 = right.
 
 [[Method('Dynamic Label', 'Set Alignment', False, 'id', 'alignment')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
-|alignment|Number|
+|id|<span class="chip chip-number">Number</span>|
+|alignment|<span class="chip chip-number">Number</span>|
 
-
-Update the Text Alignment of a Label. 0 = left, 1 = center and 2 = right.
 
 ### Set Background Color
+
+Update the Background Color of a Label
 
 [[Method('Dynamic Label', 'Set Background Color', False, 'id', 'color')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
-|color|Number|
+|id|<span class="chip chip-number">Number</span>|
+|color|<span class="chip chip-number">Number</span>|
 
-
-Update the Background Color of a Label
 
 ### Set Font
+
+Update the Font of a Label
 
 [[Method('Dynamic Label', 'Set Font', False, 'id', 'bold', 'italic')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
-|bold|Boolean|
-|italic|Boolean|
+|id|<span class="chip chip-number">Number</span>|
+|bold|<span class="chip chip-boolean">Boolean</span>|
+|italic|<span class="chip chip-boolean">Boolean</span>|
 
-
-Update the Font of a Label
 
 ### Set Font Size
+
+Update the Font Size of a Label
 
 [[Method('Dynamic Label', 'Set Font Size', False, 'id', 'size')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
-|size|Number|
+|id|<span class="chip chip-number">Number</span>|
+|size|<span class="chip chip-number">Number</span>|
 
-
-Update the Font Size of a Label
 
 ### Set Height
+
+Update the Height of a Label
 
 [[Method('Dynamic Label', 'Set Height', False, 'id', 'height')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
-|height|Number|
+|id|<span class="chip chip-number">Number</span>|
+|height|<span class="chip chip-number">Number</span>|
 
-
-Update the Height of a Label
 
 ### Set Text
+
+Update the Text of a Label
 
 [[Method('Dynamic Label', 'Set Text', False, 'id', 'text', 'html')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
-|text|Text|
-|html|Boolean|
+|id|<span class="chip chip-number">Number</span>|
+|text|<span class="chip chip-text">Text</span>|
+|html|<span class="chip chip-boolean">Boolean</span>|
 
-
-Update the Text of a Label
 
 ### Set Text Color
+
+Update the Text Color of a Label
 
 [[Method('Dynamic Label', 'Set Text Color', False, 'id', 'color')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
-|color|Number|
+|id|<span class="chip chip-number">Number</span>|
+|color|<span class="chip chip-number">Number</span>|
 
-
-Update the Text Color of a Label
 
 ### Set Width
+
+Update the Width of a Label
 
 [[Method('Dynamic Label', 'Set Width', False, 'id', 'width')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
-|width|Number|
+|id|<span class="chip chip-number">Number</span>|
+|width|<span class="chip chip-number">Number</span>|
 
-
-Update the Width of a Label
 
 ## Properties
 

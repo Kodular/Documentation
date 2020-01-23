@@ -12,88 +12,88 @@ A visible component that displays a list of elements consisting of an image and 
 
 ### Click
 
+Triggers when the user clicks on a item in the list
+
 [[Event('List View Image and Text', 'Click', 'position', 'title', 'subtitle', 'image')]]
 
 | Params | []() |
 |--------|------|
-|position|Number|
-|title|Text|
-|subtitle|Text|
-|image|Text|
+|position|<span class="chip chip-number">Number</span>|
+|title|<span class="chip chip-text">Text</span>|
+|subtitle|<span class="chip chip-text">Text</span>|
+|image|<span class="chip chip-text">Text</span>|
 
-
-Triggers when the user clicks on a item in the list
 
 ### Long Click
+
+Triggers when the user long clicks on a item in the list
 
 [[Event('List View Image and Text', 'Long Click', 'position', 'title', 'subtitle', 'image')]]
 
 | Params | []() |
 |--------|------|
-|position|Number|
-|title|Text|
-|subtitle|Text|
-|image|Text|
+|position|<span class="chip chip-number">Number</span>|
+|title|<span class="chip chip-text">Text</span>|
+|subtitle|<span class="chip chip-text">Text</span>|
+|image|<span class="chip chip-text">Text</span>|
 
-
-Triggers when the user long clicks on a item in the list
 
 ## Methods
 
 ### Add Item
 
+Add a item to the list
+
 [[Method('List View Image and Text', 'Add Item', False, 'image', 'title', 'subtitle')]]
 
 | Params | []() |
 |--------|------|
-|image|Text|
-|title|Text|
-|subtitle|Text|
+|image|<span class="chip chip-text">Text</span>|
+|title|<span class="chip chip-text">Text</span>|
+|subtitle|<span class="chip chip-text">Text</span>|
 
-
-Add a item to the list
 
 ### Add Item From List
+
+Add a item to the list
 
 [[Method('List View Image and Text', 'Add Item From List', False, 'list')]]
 
 | Params | []() |
 |--------|------|
-|list|List|
+|list|<span class="chip chip-list">List</span>|
 
-
-Add a item to the list
 
 ### Clear List
 
-[[Method('List View Image and Text', 'Clear List', False)]]
-
 Remove all the items from the list
 
+[[Method('List View Image and Text', 'Clear List', False)]]
+
 ### Remove Item
+
+Remove a item from the list
 
 [[Method('List View Image and Text', 'Remove Item', False, 'position')]]
 
 | Params | []() |
 |--------|------|
-|position|Number|
+|position|<span class="chip chip-number">Number</span>|
 
-
-Remove a item from the list
 
 ### Update Item
+
+Update a item of the list
 
 [[Method('List View Image and Text', 'Update Item', False, 'position', 'image', 'title', 'subtitle')]]
 
 | Params | []() |
 |--------|------|
-|position|Number|
-|image|Text|
-|title|Text|
-|subtitle|Text|
+|position|<span class="chip chip-number">Number</span>|
+|image|<span class="chip chip-text">Text</span>|
+|title|<span class="chip chip-text">Text</span>|
+|subtitle|<span class="chip chip-text">Text</span>|
 
-
-Update a item of the list
 
 ## Properties
 

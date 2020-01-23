@@ -14,90 +14,90 @@ A non-visible component that manages the WiFi settings of the device.
 
 ### BSSID
 
-[[Method('WiFi', 'BSSID', True)]]
-
-{>>Returns `text`<<}
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 Return the basic service set identifier (BSSID) of the current access point
 
-### Disable
+[[Method('WiFi', 'BSSID', True)]]
 
-[[Method('WiFi', 'Disable', False)]]
+### Disable
 
 Disable the Wi-Fi
 
-### Enable
+[[Method('WiFi', 'Disable', False)]]
 
-[[Method('WiFi', 'Enable', False)]]
+### Enable
 
 Enable the Wi-Fi
 
+[[Method('WiFi', 'Enable', False)]]
+
 ### Is 5GHz Supported
 
-[[Method('WiFi', 'Is 5GHz Supported', True)]]
-
-{>>Returns `boolean`<<}
+<span class="chip chip-boolean">Returns: <i>Boolean</i></span> 
 
 Return whether this adapter supports 5 GHz band
 
+[[Method('WiFi', 'Is 5GHz Supported', True)]]
+
 ### Is Enabled
 
-[[Method('WiFi', 'Is Enabled', True)]]
-
-{>>Returns `boolean`<<}
+<span class="chip chip-boolean">Returns: <i>Boolean</i></span> 
 
 Return whether Wi-Fi is enabled or disabled
 
+[[Method('WiFi', 'Is Enabled', True)]]
+
 ### Is WiFi Direct Supported
 
-[[Method('WiFi', 'Is WiFi Direct Supported', True)]]
-
-{>>Returns `boolean`<<}
+<span class="chip chip-boolean">Returns: <i>Boolean</i></span> 
 
 Return whether this adapter supports Wi-Fi Direct
 
+[[Method('WiFi', 'Is WiFi Direct Supported', True)]]
+
 ### Link Speed
 
-[[Method('WiFi', 'Link Speed', True)]]
-
-{>>Returns `number`<<}
+<span class="chip chip-number">Returns: <i>Number</i></span> 
 
 Returns the current link speed in Mbps
 
+[[Method('WiFi', 'Link Speed', True)]]
+
 ### Local IP
 
-[[Method('WiFi', 'Local IP', True)]]
-
-{>>Returns `text`<<}
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 Return the current Local IP
 
+[[Method('WiFi', 'Local IP', True)]]
+
 ### Mac Address
 
-[[Method('WiFi', 'Mac Address', True)]]
-
-{>>Returns `text`<<}
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 Returns the wlan mac address.
 
+[[Method('WiFi', 'Mac Address', True)]]
+
 ### SSID
 
-[[Method('WiFi', 'SSID', True)]]
-
-{>>Returns `text`<<}
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 Returns the service set identifier (SSID) of the current 802.11 network
 
+[[Method('WiFi', 'SSID', True)]]
+
 ### Signal Strength
 
-[[Method('WiFi', 'Signal Strength', True)]]
-
-{>>Returns `number`<<}
+<span class="chip chip-number">Returns: <i>Number</i></span> 
 
 Returns the received signal strength indicator of the current 802.11 network, in dBm
 
+[[Method('WiFi', 'Signal Strength', True)]]
+
 ### Toggle
 
-[[Method('WiFi', 'Toggle', False)]]
-
 Toggle the Wi-Fi
+
+[[Method('WiFi', 'Toggle', False)]]

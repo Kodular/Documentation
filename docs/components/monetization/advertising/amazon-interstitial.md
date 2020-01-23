@@ -14,64 +14,64 @@ An interstitial ad is a full-page ad. AdAmazonInterstitial component allows you 
 
 ### Ad Closed
 
-[[Event('Amazon Interstitial', 'Ad Closed')]]
-
 Triggered when the close button of the interstitial ad is clicked. It's important to remember only one interstitial ad can be shown at a time. The previous ad has to be dismissed before a new ad can be shown.
+
+[[Event('Amazon Interstitial', 'Ad Closed')]]
 
 ### Ad Collapsed
 
-[[Event('Amazon Interstitial', 'Ad Collapsed')]]
-
 After a user clicks on the close ad button on an expanded ad, this callback is called immediately after collapsing the ad. This callback can be used to do things like resume your app or restart audio.
+
+[[Event('Amazon Interstitial', 'Ad Collapsed')]]
 
 ### Ad Expanded
 
-[[Event('Amazon Interstitial', 'Ad Expanded')]]
-
 This callback is called each time an ad is successfully loaded. You can use this to log metrics on ad views and assist with initial integration. Detailed information about the ad that loaded can be obtained from the AdProperties object.
 
+[[Event('Amazon Interstitial', 'Ad Expanded')]]
+
 ### Ad Failed To Load
+
+Whenever an ad fails to be retrieved, the event is called, returning the error message.
 
 [[Event('Amazon Interstitial', 'Ad Failed To Load', 'error', 'message')]]
 
 | Params | []() |
 |--------|------|
-|error|Text|
-|message|Text|
+|error|<span class="chip chip-text">Text</span>|
+|message|<span class="chip chip-text">Text</span>|
 
-
-Whenever an ad fails to be retrieved, the event is called, returning the error message.
 
 ### Ad Failed To Show
+
+Called when an an attempt was made to display the ad, but the ad was not ready to display
 
 [[Event('Amazon Interstitial', 'Ad Failed To Show', 'message')]]
 
 | Params | []() |
 |--------|------|
-|message|Text|
+|message|<span class="chip chip-text">Text</span>|
 
-
-Called when an an attempt was made to display the ad, but the ad was not ready to display
 
 ### Ad Loaded
 
-[[Event('Amazon Interstitial', 'Ad Loaded')]]
-
 Triggered each time an ad is successfully loaded. But you don't have to display the ad right after it's loaded. For example, set a flag to true and then at a transition point, if flag=true, then display the ad.
+
+[[Event('Amazon Interstitial', 'Ad Loaded')]]
 
 ## Methods
 
 ### Load Ad
 
-[[Method('Amazon Interstitial', 'Load Ad', False)]]
-
 Loads a new ad.
+
+[[Method('Amazon Interstitial', 'Load Ad', False)]]
 
 ### Show Interstitial Ad
 
-[[Method('Amazon Interstitial', 'Show Interstitial Ad', False)]]
-
 It will show the Interstitial Ad
+
+[[Method('Amazon Interstitial', 'Show Interstitial Ad', False)]]
 
 ## Properties
 

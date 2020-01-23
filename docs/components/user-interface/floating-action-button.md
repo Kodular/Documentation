@@ -15,47 +15,47 @@ Floating Action Buttons are used to indicate the primary action of the screen.
 
 ### Click
 
-[[Event('Floating Action Button', 'Click')]]
-
 Event to detect that the fab button was clicked.
+
+[[Event('Floating Action Button', 'Click')]]
 
 ### Long Click
 
-[[Event('Floating Action Button', 'Long Click')]]
-
 Event to detect that the fab button was long clicked.
+
+[[Event('Floating Action Button', 'Long Click')]]
 
 ## Methods
 
 ### Hide
 
-[[Method('Floating Action Button', 'Hide', False)]]
-
 Hides the fab button.
+
+[[Method('Floating Action Button', 'Hide', False)]]
 
 ### Hide Label
 
-[[Method('Floating Action Button', 'Hide Label', False)]]
-
 Hides text message.
+
+[[Method('Floating Action Button', 'Hide Label', False)]]
 
 ### Show
 
-[[Method('Floating Action Button', 'Show', False)]]
-
 Shows the fab button.
+
+[[Method('Floating Action Button', 'Show', False)]]
 
 ### Show Label
 
-[[Method('Floating Action Button', 'Show Label', False)]]
-
 Show a new text message near to the fab with the given properties. You can do the changes with the properties in the advanded category.
+
+[[Method('Floating Action Button', 'Show Label', False)]]
 
 ### Start Rotation Animation
 
-[[Method('Floating Action Button', 'Start Rotation Animation', False)]]
-
 Starts a rotation animation. You can use the 'Rotation Duration','Rotation Start Degrees' and 'Rotation End Degrees' to define the animation. This block will work too if the 'Rotation On Click' property is disabled.
+
+[[Method('Floating Action Button', 'Start Rotation Animation', False)]]
 
 ## Properties
 

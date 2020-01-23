@@ -14,51 +14,51 @@ A non-visible component that shows a visible layout at the bottom of the screen.
 
 ### Closed
 
-[[Event('Bottom Sheet', 'Closed')]]
-
 Event to detect that the dialog was closed.
+
+[[Event('Bottom Sheet', 'Closed')]]
 
 ### Opened
 
-[[Event('Bottom Sheet', 'Opened')]]
-
 Event to detect that the dialog was opened.
+
+[[Event('Bottom Sheet', 'Opened')]]
 
 ## Methods
 
 ### Hide Dialog
 
-[[Method('Bottom Sheet', 'Hide Dialog', False)]]
-
 Hide the bottom sheet dialog.
 
+[[Method('Bottom Sheet', 'Hide Dialog', False)]]
+
 ### Register Component As Dialog
+
+Register any component as example a 'button', that will be later your bottom sheet dialog.
 
 [[Method('Bottom Sheet', 'Register Component As Dialog', False, 'component')]]
 
 | Params | []() |
 |--------|------|
-|component|Component|
+|component|<span class="chip chip-component">Component</span>|
 
-
-Register any component as example a 'button', that will be later your bottom sheet dialog.
 
 ### Register Layout As Dialog
+
+Register any layout as example a 'horizontal arrangement', that will be later your bottom sheet dialog.
 
 [[Method('Bottom Sheet', 'Register Layout As Dialog', False, 'layout')]]
 
 | Params | []() |
 |--------|------|
-|layout|Component|
+|layout|<span class="chip chip-component">Component</span>|
 
-
-Register any layout as example a 'horizontal arrangement', that will be later your bottom sheet dialog.
 
 ### Show Dialog
 
-[[Method('Bottom Sheet', 'Show Dialog', False)]]
-
 Show the bottom sheet dialog.
+
+[[Method('Bottom Sheet', 'Show Dialog', False)]]
 
 ## Properties
 

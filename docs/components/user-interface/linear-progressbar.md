@@ -12,27 +12,27 @@ A visible component that indicates the progress of an operation using an animate
 
 ### Progress Changed
 
+Event that indicates that the progress of the progress bar has been changed. Returns the current progress value. If "Indeterminate" is set to true, then it returns "0".
+
 [[Event('Linear Progressbar', 'Progress Changed', 'progress')]]
 
 | Params | []() |
 |--------|------|
-|progress|Number|
+|progress|<span class="chip chip-number">Number</span>|
 
-
-Event that indicates that the progress of the progress bar has been changed. Returns the current progress value. If "Indeterminate" is set to true, then it returns "0".
 
 ## Methods
 
 ### Increment Progress By
 
+Increase the progress bar's progress by the specified amount.
+
 [[Method('Linear Progressbar', 'Increment Progress By', False, 'value')]]
 
 | Params | []() |
 |--------|------|
-|value|Number|
+|value|<span class="chip chip-number">Number</span>|
 
-
-Increase the progress bar's progress by the specified amount.
 
 ## Properties
 

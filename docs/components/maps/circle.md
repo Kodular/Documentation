@@ -12,88 +12,88 @@ A visible component that draws a circle of a given radius around a point on a Ma
 
 ### Click
 
-[[Event('Circle', 'Click')]]
-
 The user clicked on the feature.
+
+[[Event('Circle', 'Click')]]
 
 ### Drag
 
-[[Event('Circle', 'Drag')]]
-
 The user dragged the map feature.
+
+[[Event('Circle', 'Drag')]]
 
 ### Long Click
 
-[[Event('Circle', 'Long Click')]]
-
 The user long-pressed on the feature. This event will only trigger if Draggable is false.
+
+[[Event('Circle', 'Long Click')]]
 
 ### Start Drag
 
-[[Event('Circle', 'Start Drag')]]
-
 The user started a drag operation.
+
+[[Event('Circle', 'Start Drag')]]
 
 ### Stop Drag
 
-[[Event('Circle', 'Stop Drag')]]
-
 The user stopped a drag operation.
+
+[[Event('Circle', 'Stop Drag')]]
 
 ## Methods
 
 ### Distance To Feature
 
-[[Method('Circle', 'Distance To Feature', True, 'mapFeature', 'centroids')]]
-
-{>>Returns `number`<<}
-
-| Params | []() |
-|--------|------|
-|map Feature|Component|
-|centroids|Boolean|
-
+<span class="chip chip-number">Returns: <i>Number</i></span> 
 
 Compute the distance, in meters, between two map features.
 
-### Distance To Point
-
-[[Method('Circle', 'Distance To Point', True, 'latitude', 'longitude', 'centroid')]]
-
-{>>Returns `number`<<}
+[[Method('Circle', 'Distance To Feature', True, 'mapFeature', 'centroids')]]
 
 | Params | []() |
 |--------|------|
-|latitude|Number|
-|longitude|Number|
-|centroid|Boolean|
+|map Feature|<span class="chip chip-component">Component</span>|
+|centroids|<span class="chip chip-boolean">Boolean</span>|
 
+
+### Distance To Point
+
+<span class="chip chip-number">Returns: <i>Number</i></span> 
 
 Compute the distance, in meters, between a map feature and a latitude, longitude point.
 
-### Hide Infobox
+[[Method('Circle', 'Distance To Point', True, 'latitude', 'longitude', 'centroid')]]
 
-[[Method('Circle', 'Hide Infobox', False)]]
+| Params | []() |
+|--------|------|
+|latitude|<span class="chip chip-number">Number</span>|
+|longitude|<span class="chip chip-number">Number</span>|
+|centroid|<span class="chip chip-boolean">Boolean</span>|
+
+
+### Hide Infobox
 
 Hide the infobox if it is shown. If the infobox is not visible this function has no effect.
 
+[[Method('Circle', 'Hide Infobox', False)]]
+
 ### Set Location
+
+Set the center of the Circle.
 
 [[Method('Circle', 'Set Location', False, 'latitude', 'longitude')]]
 
 | Params | []() |
 |--------|------|
-|latitude|Number|
-|longitude|Number|
+|latitude|<span class="chip chip-number">Number</span>|
+|longitude|<span class="chip chip-number">Number</span>|
 
-
-Set the center of the Circle.
 
 ### Show Infobox
 
-[[Method('Circle', 'Show Infobox', False)]]
-
 Show the infobox for the feature. This will show the infobox even if
+
+[[Method('Circle', 'Show Infobox', False)]]
 
 ## Properties
 

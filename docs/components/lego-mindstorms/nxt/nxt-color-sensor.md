@@ -14,50 +14,50 @@ A component that provides a high-level interface to a color sensor on a LEGO MIN
 
 ### Above Range
 
-[[Event('NXT Color Sensor', 'Above Range')]]
-
 Light level has gone above the range. The AboveRange event will not occur if the DetectColor property is set to True or if the AboveRangeEventEnabled property is set to False.
+
+[[Event('NXT Color Sensor', 'Above Range')]]
 
 ### Below Range
 
-[[Event('NXT Color Sensor', 'Below Range')]]
-
 Light level has gone below the range. The BelowRange event will not occur if the DetectColor property is set to True or if the BelowRangeEventEnabled property is set to False.
 
+[[Event('NXT Color Sensor', 'Below Range')]]
+
 ### Color Changed
+
+Detected color has changed. The ColorChanged event will not occur if the DetectColor property is set to False or if the ColorChangedEventEnabled property is set to False.
 
 [[Event('NXT Color Sensor', 'Color Changed', 'color')]]
 
 | Params | []() |
 |--------|------|
-|color|Number|
+|color|<span class="chip chip-number">Number</span>|
 
-
-Detected color has changed. The ColorChanged event will not occur if the DetectColor property is set to False or if the ColorChangedEventEnabled property is set to False.
 
 ### Within Range
 
-[[Event('NXT Color Sensor', 'Within Range')]]
-
 Light level has gone within the range. The WithinRange event will not occur if the DetectColor property is set to True or if the WithinRangeEventEnabled property is set to False.
+
+[[Event('NXT Color Sensor', 'Within Range')]]
 
 ## Methods
 
 ### Get Color
 
-[[Method('NXT Color Sensor', 'Get Color', True)]]
-
-{>>Returns `number`<<}
+<span class="chip chip-number">Returns: <i>Number</i></span> 
 
 Returns the current detected color, or the color None if the color can not be read or if the DetectColor property is set to False.
 
+[[Method('NXT Color Sensor', 'Get Color', True)]]
+
 ### Get Light Level
 
-[[Method('NXT Color Sensor', 'Get Light Level', True)]]
-
-{>>Returns `number`<<}
+<span class="chip chip-number">Returns: <i>Number</i></span> 
 
 Returns the current light level as a value between 0 and 1023, or -1 if the light level can not be read or if the DetectColor property is set to True.
+
+[[Method('NXT Color Sensor', 'Get Light Level', True)]]
 
 ## Properties
 

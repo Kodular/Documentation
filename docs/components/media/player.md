@@ -18,81 +18,81 @@ This component is best for long sound files, such as songs, while the `` Sound `
 
 ### Completed
 
-[[Event('Player', 'Completed')]]
-
 Indicates that the media has reached the end
+
+[[Event('Player', 'Completed')]]
 
 ### Other Player Started
 
-[[Event('Player', 'Other Player Started')]]
-
 This event is signaled when another player has started (and the current player is playing or paused, but not stopped).
 
+[[Event('Player', 'Other Player Started')]]
+
 ### PlayerError
+
+The PlayerError event is no longer used. Please use the Screen.ErrorOccurred event instead.
 
 [[Event('Player', 'PlayerError', 'message')]]
 
 | Params | []() |
 |--------|------|
-|message|Text|
+|message|<span class="chip chip-text">Text</span>|
 
-
-The PlayerError event is no longer used. Please use the Screen.ErrorOccurred event instead.
 
 ## Methods
 
 ### Pause
 
-[[Method('Player', 'Pause', False)]]
-
 Suspends playing the media if it is playing.
 
+[[Method('Player', 'Pause', False)]]
+
 ### Seek To
+
+Set a position where the source file should start playing.
 
 [[Method('Player', 'Seek To', False, 'position')]]
 
 | Params | []() |
 |--------|------|
-|position|Number|
+|position|<span class="chip chip-number">Number</span>|
 
-
-Set a position where the source file should start playing.
 
 ### Set Left Right Volume
+
+Control the left and right volume of the player. Set the volume to a number between 0 and 100.
 
 [[Method('Player', 'Set Left Right Volume', False, 'leftVolume', 'rightVolume')]]
 
 | Params | []() |
 |--------|------|
-|left Volume|Number|
-|right Volume|Number|
+|left Volume|<span class="chip chip-number">Number</span>|
+|right Volume|<span class="chip chip-number">Number</span>|
 
-
-Control the left and right volume of the player. Set the volume to a number between 0 and 100.
 
 ### Start
-
-[[Method('Player', 'Start', False)]]
 
 Plays the media. If it was previously paused, the playing is resumed
 If it was previously stopped, it starts from the beginning.
 
-### Stop
+[[Method('Player', 'Start', False)]]
 
-[[Method('Player', 'Stop', False)]]
+### Stop
 
 Stops playing the media and seeks to the beginning of the song.
 
+[[Method('Player', 'Stop', False)]]
+
 ### Vibrate
+
+Vibrates for specified number of milliseconds.
 
 [[Method('Player', 'Vibrate', False, 'milliseconds')]]
 
 | Params | []() |
 |--------|------|
-|milliseconds|Number|
+|milliseconds|<span class="chip chip-number">Number</span>|
 
-
-Vibrates for specified number of milliseconds.
 
 ## Properties
 

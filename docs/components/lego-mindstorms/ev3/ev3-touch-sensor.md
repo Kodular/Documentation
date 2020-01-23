@@ -14,25 +14,25 @@ A component that provides a high-level interface to a touch sensor on a LEGO MIN
 
 ### Pressed
 
-[[Event('EV3 Touch Sensor', 'Pressed')]]
-
 Called when the touch sensor is pressed.
+
+[[Event('EV3 Touch Sensor', 'Pressed')]]
 
 ### Released
 
-[[Event('EV3 Touch Sensor', 'Released')]]
-
 Called when the touch sensor is pressed.
+
+[[Event('EV3 Touch Sensor', 'Released')]]
 
 ## Methods
 
 ### Is Pressed
 
-[[Method('EV3 Touch Sensor', 'Is Pressed', True)]]
-
-{>>Returns `boolean`<<}
+<span class="chip chip-boolean">Returns: <i>Boolean</i></span> 
 
 Returns true if the touch sensor is pressed.
+
+[[Method('EV3 Touch Sensor', 'Is Pressed', True)]]
 
 ## Properties
 

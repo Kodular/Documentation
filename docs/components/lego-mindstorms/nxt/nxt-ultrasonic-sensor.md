@@ -14,31 +14,31 @@ A component that provides a high-level interface to an ultrasonic sensor on a LE
 
 ### Above Range
 
-[[Event('NXT Ultrasonic Sensor', 'Above Range')]]
-
 Distance has gone above the range.
+
+[[Event('NXT Ultrasonic Sensor', 'Above Range')]]
 
 ### Below Range
 
-[[Event('NXT Ultrasonic Sensor', 'Below Range')]]
-
 Distance has gone below the range.
+
+[[Event('NXT Ultrasonic Sensor', 'Below Range')]]
 
 ### Within Range
 
-[[Event('NXT Ultrasonic Sensor', 'Within Range')]]
-
 Distance has gone within the range.
+
+[[Event('NXT Ultrasonic Sensor', 'Within Range')]]
 
 ## Methods
 
 ### Get Distance
 
-[[Method('NXT Ultrasonic Sensor', 'Get Distance', True)]]
-
-{>>Returns `number`<<}
+<span class="chip chip-number">Returns: <i>Number</i></span> 
 
 Returns the current distance in centimeters as a value between 0 and 254, or -1 if the distance can not be read.
+
+[[Method('NXT Ultrasonic Sensor', 'Get Distance', True)]]
 
 ## Properties
 

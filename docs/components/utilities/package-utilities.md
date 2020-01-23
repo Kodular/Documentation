@@ -14,82 +14,82 @@ A non-visible component that retrieves information about other applications on t
 
 ### App Name From
 
-[[Method('Package Utilities', 'App Name From', True, 'packageName')]]
-
-{>>Returns `text`<<}
-
-| Params | []() |
-|--------|------|
-|package Name|Text|
-
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 Returns the name from the given package name.
 
-### Get Package Icon
-
-[[Method('Package Utilities', 'Get Package Icon', True, 'packageName')]]
-
-{>>Returns `text`<<}
+[[Method('Package Utilities', 'App Name From', True, 'packageName')]]
 
 | Params | []() |
 |--------|------|
-|package Name|Text|
+|package Name|<span class="chip chip-text">Text</span>|
 
+
+### Get Package Icon
+
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 Try to show the application icon of the given package name. If the application cannot be found, "Package not found" is the output.
 
-### Is Package Installed
-
-[[Method('Package Utilities', 'Is Package Installed', True, 'packageName')]]
-
-{>>Returns `boolean`<<}
+[[Method('Package Utilities', 'Get Package Icon', True, 'packageName')]]
 
 | Params | []() |
 |--------|------|
-|package Name|Text|
+|package Name|<span class="chip chip-text">Text</span>|
 
+
+### Is Package Installed
+
+<span class="chip chip-boolean">Returns: <i>Boolean</i></span> 
 
 Returns true if a package (app) is installed.
 
-### Version Code From
-
-[[Method('Package Utilities', 'Version Code From', True, 'packageName')]]
-
-{>>Returns `number`<<}
+[[Method('Package Utilities', 'Is Package Installed', True, 'packageName')]]
 
 | Params | []() |
 |--------|------|
-|package Name|Text|
+|package Name|<span class="chip chip-text">Text</span>|
 
+
+### Version Code From
+
+<span class="chip chip-number">Returns: <i>Number</i></span> 
 
 This block will returns the version code of the package name. Returns '-1' if the package is not installed.
 
-### Version Name From
-
-[[Method('Package Utilities', 'Version Name From', True, 'packageName')]]
-
-{>>Returns `text`<<}
+[[Method('Package Utilities', 'Version Code From', True, 'packageName')]]
 
 | Params | []() |
 |--------|------|
-|package Name|Text|
+|package Name|<span class="chip chip-text">Text</span>|
 
+
+### Version Name From
+
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 This block will returns the version name of the package name. Returns 'Package not found' if the package is not installed.
 
-### Is Permission Granted
-
-[[Method('Package Utilities', 'Is Permission Granted', True, 'permissionName', 'packageName')]]
-
-{>>Returns `boolean`<<}
+[[Method('Package Utilities', 'Version Name From', True, 'packageName')]]
 
 | Params | []() |
 |--------|------|
-|permission Name|Text|
-|package Name|Text|
+|package Name|<span class="chip chip-text">Text</span>|
 
+
+### Is Permission Granted
+
+<span class="chip chip-boolean">Returns: <i>Boolean</i></span> 
 
 Check whether a particular package has been granted a particular permission.
+
+[[Method('Package Utilities', 'Is Permission Granted', True, 'permissionName', 'packageName')]]
+
+| Params | []() |
+|--------|------|
+|permission Name|<span class="chip chip-text">Text</span>|
+|package Name|<span class="chip chip-text">Text</span>|
+
 
 ## Properties
 

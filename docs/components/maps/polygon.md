@@ -12,84 +12,84 @@ A visible component that draws arbitrary shapes on a Map component. Vertices of 
 
 ### Click
 
-[[Event('Polygon', 'Click')]]
-
 The user clicked on the feature.
+
+[[Event('Polygon', 'Click')]]
 
 ### Drag
 
-[[Event('Polygon', 'Drag')]]
-
 The user dragged the map feature.
+
+[[Event('Polygon', 'Drag')]]
 
 ### Long Click
 
-[[Event('Polygon', 'Long Click')]]
-
 The user long-pressed on the feature. This event will only trigger if Draggable is false.
+
+[[Event('Polygon', 'Long Click')]]
 
 ### Start Drag
 
-[[Event('Polygon', 'Start Drag')]]
-
 The user started a drag operation.
+
+[[Event('Polygon', 'Start Drag')]]
 
 ### Stop Drag
 
-[[Event('Polygon', 'Stop Drag')]]
-
 The user stopped a drag operation.
+
+[[Event('Polygon', 'Stop Drag')]]
 
 ## Methods
 
 ### Centroid
 
-[[Method('Polygon', 'Centroid', True)]]
-
-{>>Returns `list`<<}
+<span class="chip chip-list">Returns: <i>List</i></span> 
 
 Returns the centroid of the Polygon as a (latitude, longitude) pair.
 
+[[Method('Polygon', 'Centroid', True)]]
+
 ### Distance To Feature
 
-[[Method('Polygon', 'Distance To Feature', True, 'mapFeature', 'centroids')]]
-
-{>>Returns `number`<<}
-
-| Params | []() |
-|--------|------|
-|map Feature|Component|
-|centroids|Boolean|
-
+<span class="chip chip-number">Returns: <i>Number</i></span> 
 
 Compute the distance, in meters, between two map features.
 
-### Distance To Point
-
-[[Method('Polygon', 'Distance To Point', True, 'latitude', 'longitude', 'centroid')]]
-
-{>>Returns `number`<<}
+[[Method('Polygon', 'Distance To Feature', True, 'mapFeature', 'centroids')]]
 
 | Params | []() |
 |--------|------|
-|latitude|Number|
-|longitude|Number|
-|centroid|Boolean|
+|map Feature|<span class="chip chip-component">Component</span>|
+|centroids|<span class="chip chip-boolean">Boolean</span>|
 
+
+### Distance To Point
+
+<span class="chip chip-number">Returns: <i>Number</i></span> 
 
 Compute the distance, in meters, between a map feature and a latitude, longitude point.
 
-### Hide Infobox
+[[Method('Polygon', 'Distance To Point', True, 'latitude', 'longitude', 'centroid')]]
 
-[[Method('Polygon', 'Hide Infobox', False)]]
+| Params | []() |
+|--------|------|
+|latitude|<span class="chip chip-number">Number</span>|
+|longitude|<span class="chip chip-number">Number</span>|
+|centroid|<span class="chip chip-boolean">Boolean</span>|
+
+
+### Hide Infobox
 
 Hide the infobox if it is shown. If the infobox is not visible this function has no effect.
 
+[[Method('Polygon', 'Hide Infobox', False)]]
+
 ### Show Infobox
 
-[[Method('Polygon', 'Show Infobox', False)]]
-
 Show the infobox for the feature. This will show the infobox even if
+
+[[Method('Polygon', 'Show Infobox', False)]]
 
 ## Properties
 

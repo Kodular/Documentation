@@ -12,340 +12,340 @@ Top-level component containing all other components in the program.
 
 ### Back Pressed
 
-[[Event('Form', 'Back Pressed')]]
-
 Device back button pressed.
 
+[[Event('Form', 'Back Pressed')]]
+
 ### Error Occurred
+
+Event raised when an error occurs. Only some errors will raise this condition. For those errors, the system will show a notification by default. You can use this event handler to prescribe an error behavior different than the default.
 
 [[Event('Form', 'Error Occurred', 'component', 'functionName', 'errorNumber', 'message')]]
 
 | Params | []() |
 |--------|------|
-|component|Component|
-|function Name|Text|
-|error Number|Number|
-|message|Text|
+|component|<span class="chip chip-component">Component</span>|
+|function Name|<span class="chip chip-text">Text</span>|
+|error Number|<span class="chip chip-number">Number</span>|
+|message|<span class="chip chip-text">Text</span>|
 
-
-Event raised when an error occurs. Only some errors will raise this condition. For those errors, the system will show a notification by default. You can use this event handler to prescribe an error behavior different than the default.
 
 ### Got Received Shared
+
+Event to detect that a user shared content to your app throw the sharing dialog of any other app. Type stand for integer. 0 = nothing shared, 1 = audio, 2 = image, 3 = text or 4 = video
 
 [[Event('Form', 'Got Received Shared', 'type', 'value')]]
 
 | Params | []() |
 |--------|------|
-|type|Number|
-|value|Text|
+|type|<span class="chip chip-number">Number</span>|
+|value|<span class="chip chip-text">Text</span>|
 
-
-Event to detect that a user shared content to your app throw the sharing dialog of any other app. Type stand for integer. 0 = nothing shared, 1 = audio, 2 = image, 3 = text or 4 = video
 
 ### Initialize
 
-[[Event('Form', 'Initialize')]]
-
 Screen starting
 
+[[Event('Form', 'Initialize')]]
+
 ### Keyboard Visibility Changed
+
+Event will be invoked if the keyboard was visible or invisible.
 
 [[Event('Form', 'Keyboard Visibility Changed', 'isKeyboardVisible')]]
 
 | Params | []() |
 |--------|------|
-|is Keyboard Visible|Boolean|
+|is Keyboard Visible|<span class="chip chip-boolean">Boolean</span>|
 
-
-Event will be invoked if the keyboard was visible or invisible.
 
 ### Menu Initialize
 
-[[Event('Form', 'Menu Initialize')]]
-
 Event to detect when the menu has loaded. Set here your blocks like TitleBarIcon or AddMenuItem.
 
+[[Event('Form', 'Menu Initialize')]]
+
 ### Menu Item Selected
+
+Event to detect when a menu item has been selected.
 
 [[Event('Form', 'Menu Item Selected', 'menuItem')]]
 
 | Params | []() |
 |--------|------|
-|menu Item|Text|
+|menu Item|<span class="chip chip-text">Text</span>|
 
-
-Event to detect when a menu item has been selected.
 
 ### On App Pause
 
-[[Event('Form', 'On App Pause')]]
-
 The system calls this method as the first indication that the user is leaving your activity (though it does not always mean the activity is being destroyed).
+
+[[Event('Form', 'On App Pause')]]
 
 ### On App Resume
 
-[[Event('Form', 'On App Resume')]]
-
 When the activity enters the Resumed state, it comes to the foreground, and then the system invokes this event.
+
+[[Event('Form', 'On App Resume')]]
 
 ### On App Stop
 
-[[Event('Form', 'On App Stop')]]
-
 When your activity is no longer visible to the user, it has entered the Stopped state, and the system invokes this event.
 
+[[Event('Form', 'On App Stop')]]
+
 ### Other Screen Closed
+
+Event raised when another screen has closed and control has returned to this screen.
 
 [[Event('Form', 'Other Screen Closed', 'otherScreenName', 'result')]]
 
 | Params | []() |
 |--------|------|
-|other Screen Name|Text|
-|result|Any|
+|other Screen Name|<span class="chip chip-text">Text</span>|
+|result|<span class="chip chip-any">Any</span>|
 
-
-Event raised when another screen has closed and control has returned to this screen.
 
 ### Permission Denied
+
+Event to handle when the app user has denied a needed permission.
 
 [[Event('Form', 'Permission Denied', 'component', 'functionName', 'permissionName')]]
 
 | Params | []() |
 |--------|------|
-|component|Component|
-|function Name|Text|
-|permission Name|Text|
+|component|<span class="chip chip-component">Component</span>|
+|function Name|<span class="chip chip-text">Text</span>|
+|permission Name|<span class="chip chip-text">Text</span>|
 
-
-Event to handle when the app user has denied a needed permission.
 
 ### Permission Granted
+
+Event to handle when the app user has granted a needed permission. This event is only run when permission isgranted in response to the AskForPermission method.
 
 [[Event('Form', 'Permission Granted', 'permissionName')]]
 
 | Params | []() |
 |--------|------|
-|permission Name|Text|
+|permission Name|<span class="chip chip-text">Text</span>|
 
-
-Event to handle when the app user has granted a needed permission. This event is only run when permission isgranted in response to the AskForPermission method.
 
 ### Screen Orientation Changed
 
-[[Event('Form', 'Screen Orientation Changed')]]
-
 Screen orientation changed
+
+[[Event('Form', 'Screen Orientation Changed')]]
 
 ### Side Menu Closed
 
-[[Event('Form', 'Side Menu Closed')]]
-
 Event will be invoked if the side menu was closed.
+
+[[Event('Form', 'Side Menu Closed')]]
 
 ### Side Menu Opened
 
-[[Event('Form', 'Side Menu Opened')]]
-
 Event will be invoked if the side menu was opened.
 
+[[Event('Form', 'Side Menu Opened')]]
+
 ### Title Bar Icon Selected
+
+The event returns the 'icon' or 'name' of the selected icon.
 
 [[Event('Form', 'Title Bar Icon Selected', 'icon', 'name')]]
 
 | Params | []() |
 |--------|------|
-|icon|Text|
-|name|Text|
+|icon|<span class="chip chip-text">Text</span>|
+|name|<span class="chip chip-text">Text</span>|
 
-
-The event returns the 'icon' or 'name' of the selected icon.
 
 ### Title Bar Back Button Clicked
 
-[[Event('Form', 'Title Bar Back Button Clicked')]]
-
 Event to detect when a menu item has been selected.
+
+[[Event('Form', 'Title Bar Back Button Clicked')]]
 
 ## Methods
 
 ### Add Menu Item
 
+Add a new item to the menu. Use the 'make a list' block.
+
 [[Method('Form', 'Add Menu Item', False, 'menuItem')]]
 
 | Params | []() |
 |--------|------|
-|menu Item|List|
+|menu Item|<span class="chip chip-list">List</span>|
 
-
-Add a new item to the menu. Use the 'make a list' block.
 
 ### Add Menu Item With Icon
+
+Add a new item with a icon on the left side to the menu. This function does not use the make a list block. If you want more items with icon then use this block again.
 
 [[Method('Form', 'Add Menu Item With Icon', False, 'menuItem', 'menuIcon')]]
 
 | Params | []() |
 |--------|------|
-|menu Item|Text|
-|menu Icon|Text|
+|menu Item|<span class="chip chip-text">Text</span>|
+|menu Icon|<span class="chip chip-text">Text</span>|
 
-
-Add a new item with a icon on the left side to the menu. This function does not use the make a list block. If you want more items with icon then use this block again.
 
 ### Add Title Bar Icon
+
+Add a new action icon to the TitleBar. You will see a toast message on a long click with your choosen name. Add this block to the "MenuInitialize" event.
 
 [[Method('Form', 'Add Title Bar Icon', False, 'icon', 'name')]]
 
 | Params | []() |
 |--------|------|
-|icon|Text|
-|name|Text|
+|icon|<span class="chip chip-text">Text</span>|
+|name|<span class="chip chip-text">Text</span>|
 
-
-Add a new action icon to the TitleBar. You will see a toast message on a long click with your choosen name. Add this block to the "MenuInitialize" event.
 
 ### Are Permissions Granted
 
-[[Method('Form', 'Are Permissions Granted', True)]]
-
-{>>Returns `boolean`<<}
+<span class="chip chip-boolean">Returns: <i>Boolean</i></span> 
 
 Returns true if ALL needed app permissions were granted, else false.
 
+[[Method('Form', 'Are Permissions Granted', True)]]
+
 ### Ask For Permission
+
+Ask the user to grant access to a dangerous permission.
 
 [[Method('Form', 'Ask For Permission', False, 'permissionName')]]
 
 | Params | []() |
 |--------|------|
-|permission Name|Text|
+|permission Name|<span class="chip chip-text">Text</span>|
 
-
-Ask the user to grant access to a dangerous permission.
 
 ### Can Write System Settings
 
-[[Method('Form', 'Can Write System Settings', True)]]
-
-{>>Returns `boolean`<<}
+<span class="chip chip-boolean">Returns: <i>Boolean</i></span> 
 
 Returns true if the app can write system settings, else it returns false. It will return true automatic for devices with android version below 6 (API 23).
 
-### Hide Keyboard
+[[Method('Form', 'Can Write System Settings', True)]]
 
-[[Method('Form', 'Hide Keyboard', False)]]
+### Hide Keyboard
 
 Hide the keyboard.
 
-### Lock Side Menu
+[[Method('Form', 'Hide Keyboard', False)]]
 
-[[Method('Form', 'Lock Side Menu', False)]]
+### Lock Side Menu
 
 Use this block to lock the side menu. This means the user can not open the side menu until the side menu unlock block is used.
 
-### Move Task To Back
+[[Method('Form', 'Lock Side Menu', False)]]
 
-[[Method('Form', 'Move Task To Back', False)]]
+### Move Task To Back
 
 Move task to back. That means it will minimize your current app.
 
-### Open App Settings
+[[Method('Form', 'Move Task To Back', False)]]
 
-[[Method('Form', 'Open App Settings', False)]]
+### Open App Settings
 
 Opens the settings screen of the app. Useful if 'Are Permissions Granted' has returned false.
 
-### Open System Write Settings
+[[Method('Form', 'Open App Settings', False)]]
 
-[[Method('Form', 'Open System Write Settings', False)]]
+### Open System Write Settings
 
 Opens the app's system settings page. This works only for devices with android 6+.
 
-### Remove Side Menu
+[[Method('Form', 'Open System Write Settings', False)]]
 
-[[Method('Form', 'Remove Side Menu', False)]]
+### Remove Side Menu
 
 Remove a first created side menu. This block will be usefull if you need to update a side menu dynamically. You can use this block too to test a side menu in the companion. Add then this block above of the 'Side Menu' block.
 
-### Remove Title Bar Icons
+[[Method('Form', 'Remove Side Menu', False)]]
 
-[[Method('Form', 'Remove Title Bar Icons', False)]]
+### Remove Title Bar Icons
 
 Remove all added action icons from the TitleBar.
 
-### Reset Options Menu
+[[Method('Form', 'Remove Title Bar Icons', False)]]
 
-[[Method('Form', 'Reset Options Menu', False)]]
+### Reset Options Menu
 
 Reset the menu back to its default
 
-### Show About Application
+[[Method('Form', 'Reset Options Menu', False)]]
 
-[[Method('Form', 'Show About Application', False)]]
+### Show About Application
 
 Show the dialog which shows when pressing the "About This Application" button in the menu.
 
-### Show Keyboard
+[[Method('Form', 'Show About Application', False)]]
 
-[[Method('Form', 'Show Keyboard', False)]]
+### Show Keyboard
 
 Show the keyboard
 
+[[Method('Form', 'Show Keyboard', False)]]
+
 ### Side Menu
+
+Create a Side Menu. Set to "layout" your layout that will be then your side menu. Use as example a vertical arrangement. Your choosen layout will be then removed from the screen and only visible in the side menu."Information": This block works on companion only if you add a side menu on button click.Don’t add it in companion on "screen initialize event". Else the companion will crash.Do NOT use this block with the Side Menu Layout component
 
 [[Method('Form', 'Side Menu', False, 'layout')]]
 
 | Params | []() |
 |--------|------|
-|layout|Component|
+|layout|<span class="chip chip-component">Component</span>|
 
-
-Create a Side Menu. Set to "layout" your layout that will be then your side menu. Use as example a vertical arrangement. Your choosen layout will be then removed from the screen and only visible in the side menu."Information": This block works on companion only if you add a side menu on button click.Don’t add it in companion on "screen initialize event". Else the companion will crash.Do NOT use this block with the Side Menu Layout component
 
 ### Side Menu Close
 
-[[Method('Form', 'Side Menu Close', False)]]
-
 If you had set your side menu then you can use this block to close it as example with a button click.
+
+[[Method('Form', 'Side Menu Close', False)]]
 
 ### Side Menu Open
 
-[[Method('Form', 'Side Menu Open', False)]]
-
 If you had set your side menu then you can use this block to open it as example with a button click.
 
+[[Method('Form', 'Side Menu Open', False)]]
+
 ### Task Description
+
+Sets information describing the task with this activity for presentation inside the Recents System UI. You will see the settings if the device API is &gt;= 21 and you minimize the app.
 
 [[Method('Form', 'Task Description', False, 'text', 'color')]]
 
 | Params | []() |
 |--------|------|
-|text|Text|
-|color|Number|
+|text|<span class="chip chip-text">Text</span>|
+|color|<span class="chip chip-number">Number</span>|
 
-
-Sets information describing the task with this activity for presentation inside the Recents System UI. You will see the settings if the device API is &gt;= 21 and you minimize the app.
 
 ### Unlock Side Menu
 
-[[Method('Form', 'Unlock Side Menu', False)]]
-
 Use this block to unlock the side menu. This means the user can now open again the side menu.
+
+[[Method('Form', 'Unlock Side Menu', False)]]
 
 ### Version Code
 
-[[Method('Form', 'Version Code', True)]]
-
-{>>Returns `number`<<}
+<span class="chip chip-number">Returns: <i>Number</i></span> 
 
 This block will returns the version code
 
+[[Method('Form', 'Version Code', True)]]
+
 ### Version Name
 
-[[Method('Form', 'Version Name', True)]]
-
-{>>Returns `text`<<}
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 This block will returns the version name
+
+[[Method('Form', 'Version Name', True)]]
 
 ## Properties
 

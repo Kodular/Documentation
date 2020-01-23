@@ -18,59 +18,59 @@ You can also set the media source to a URL that points to a streaming video, but
 
 ### Completed
 
-[[Event('Video Player', 'Completed')]]
-
 Indicates that the video has reached the end
 
+[[Event('Video Player', 'Completed')]]
+
 ### VideoPlayerError
+
+The VideoPlayerError event is no longer used. Please use the Screen.ErrorOccurred event instead.
 
 [[Event('Video Player', 'VideoPlayerError', 'message')]]
 
 | Params | []() |
 |--------|------|
-|message|Text|
+|message|<span class="chip chip-text">Text</span>|
 
-
-The VideoPlayerError event is no longer used. Please use the Screen.ErrorOccurred event instead.
 
 ## Methods
 
 ### Get Duration
 
-[[Method('Video Player', 'Get Duration', True)]]
-
-{>>Returns `number`<<}
+<span class="chip chip-number">Returns: <i>Number</i></span> 
 
 Returns duration of the video in milliseconds.
 
-### Pause
+[[Method('Video Player', 'Get Duration', True)]]
 
-[[Method('Video Player', 'Pause', False)]]
+### Pause
 
 Pauses playback of the video. Playback can be resumed at the same location by calling the `` Start `` method.
 
+[[Method('Video Player', 'Pause', False)]]
+
 ### Seek To
+
+Seeks to the requested time (specified in milliseconds) in the video. If the video is paused, the frame shown will not be updated by the seek. The player can jump only to key frames in the video, so seeking to times that differ by short intervals may not actually move to different frames.
 
 [[Method('Video Player', 'Seek To', False, 'ms')]]
 
 | Params | []() |
 |--------|------|
-|ms|Number|
+|ms|<span class="chip chip-number">Number</span>|
 
-
-Seeks to the requested time (specified in milliseconds) in the video. If the video is paused, the frame shown will not be updated by the seek. The player can jump only to key frames in the video, so seeking to times that differ by short intervals may not actually move to different frames.
 
 ### Start
 
-[[Method('Video Player', 'Start', False)]]
-
 Starts playback of the video.
+
+[[Method('Video Player', 'Start', False)]]
 
 ### Stop
 
-[[Method('Video Player', 'Stop', False)]]
-
 Resets to start of video and pauses it if video was playing.
+
+[[Method('Video Player', 'Stop', False)]]
 
 ## Properties
 

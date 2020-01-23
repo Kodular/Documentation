@@ -14,62 +14,62 @@ A non-visible component that gets data from the Remote Config service powered by
 
 ### Fetch Failed
 
-[[Event('Firebase Remote Config', 'Fetch Failed')]]
-
 Triggers when the fetch failed
+
+[[Event('Firebase Remote Config', 'Fetch Failed')]]
 
 ### Fetch Success
 
-[[Event('Firebase Remote Config', 'Fetch Success')]]
-
 Triggers when the fetch was successful
+
+[[Event('Firebase Remote Config', 'Fetch Success')]]
 
 ## Methods
 
 ### Fetch
 
-[[Method('Firebase Remote Config', 'Fetch', False)]]
-
 Fetches parameter values for your app
+
+[[Method('Firebase Remote Config', 'Fetch', False)]]
 
 ### Get Boolean
 
-[[Method('Firebase Remote Config', 'Get Boolean', True, 'key')]]
-
-{>>Returns `boolean`<<}
-
-| Params | []() |
-|--------|------|
-|key|Text|
-
+<span class="chip chip-boolean">Returns: <i>Boolean</i></span> 
 
 Gets a boolean value corresponding to the specified key
 
-### Get Number
-
-[[Method('Firebase Remote Config', 'Get Number', True, 'key')]]
-
-{>>Returns `number`<<}
+[[Method('Firebase Remote Config', 'Get Boolean', True, 'key')]]
 
 | Params | []() |
 |--------|------|
-|key|Text|
+|key|<span class="chip chip-text">Text</span>|
 
+
+### Get Number
+
+<span class="chip chip-number">Returns: <i>Number</i></span> 
 
 Gets a number value corresponding to the specified key
 
-### Get Text
-
-[[Method('Firebase Remote Config', 'Get Text', True, 'key')]]
-
-{>>Returns `text`<<}
+[[Method('Firebase Remote Config', 'Get Number', True, 'key')]]
 
 | Params | []() |
 |--------|------|
-|key|Text|
+|key|<span class="chip chip-text">Text</span>|
 
+
+### Get Text
+
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 Gets a text value corresponding to the specified key
+
+[[Method('Firebase Remote Config', 'Get Text', True, 'key')]]
+
+| Params | []() |
+|--------|------|
+|key|<span class="chip chip-text">Text</span>|
+
 
 ## Properties
 

@@ -14,77 +14,77 @@ A component that provides a high-level interface to a color sensor on a LEGO MIN
 
 ### Above Range
 
-[[Event('EV3 Color Sensor', 'Above Range')]]
-
 Light level has gone above the range.
+
+[[Event('EV3 Color Sensor', 'Above Range')]]
 
 ### Below Range
 
-[[Event('EV3 Color Sensor', 'Below Range')]]
-
 Light level has gone below the range.
 
+[[Event('EV3 Color Sensor', 'Below Range')]]
+
 ### Color Changed
+
+Called when the detected color has changed. The ColorChanged event will occur if the Mode property is set to "color" and the ColorChangedEventEnabled property is set to True.
 
 [[Event('EV3 Color Sensor', 'Color Changed', 'colorCode', 'colorName')]]
 
 | Params | []() |
 |--------|------|
-|color Code|Number|
-|color Name|Text|
+|color Code|<span class="chip chip-number">Number</span>|
+|color Name|<span class="chip chip-text">Text</span>|
 
-
-Called when the detected color has changed. The ColorChanged event will occur if the Mode property is set to "color" and the ColorChangedEventEnabled property is set to True.
 
 ### Within Range
 
-[[Event('EV3 Color Sensor', 'Within Range')]]
-
 Light level has gone within the range.
+
+[[Event('EV3 Color Sensor', 'Within Range')]]
 
 ## Methods
 
 ### Get Color Code
 
-[[Method('EV3 Color Sensor', 'Get Color Code', True)]]
-
-{>>Returns `number`<<}
+<span class="chip chip-number">Returns: <i>Number</i></span> 
 
 It returns the color code from 0 to 7 corresponding to no color, black, blue, green, yellow, red, white and brown.
 
+[[Method('EV3 Color Sensor', 'Get Color Code', True)]]
+
 ### Get Color Name
 
-[[Method('EV3 Color Sensor', 'Get Color Name', True)]]
-
-{>>Returns `text`<<}
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 Return the color name in one of "No Color", "Black", "Blue", "Green", "Yellow", "Red", "White", "Brown".
 
+[[Method('EV3 Color Sensor', 'Get Color Name', True)]]
+
 ### Get Light Level
 
-[[Method('EV3 Color Sensor', 'Get Light Level', True)]]
-
-{>>Returns `number`<<}
+<span class="chip chip-number">Returns: <i>Number</i></span> 
 
 It returns the light level in percentage, or -1 when the light level cannot be read.
 
-### Set Ambient Mode
+[[Method('EV3 Color Sensor', 'Get Light Level', True)]]
 
-[[Method('EV3 Color Sensor', 'Set Ambient Mode', False)]]
+### Set Ambient Mode
 
 Make the sensor read the light level without reflected light.
 
-### Set Color Mode
+[[Method('EV3 Color Sensor', 'Set Ambient Mode', False)]]
 
-[[Method('EV3 Color Sensor', 'Set Color Mode', False)]]
+### Set Color Mode
 
 Enter the color detection mode.
 
+[[Method('EV3 Color Sensor', 'Set Color Mode', False)]]
+
 ### Set Reflected Mode
 
-[[Method('EV3 Color Sensor', 'Set Reflected Mode', False)]]
-
 Make the sensor read the light level with reflected light.
+
+[[Method('EV3 Color Sensor', 'Set Reflected Mode', False)]]
 
 ## Properties
 

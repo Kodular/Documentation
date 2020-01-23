@@ -14,143 +14,143 @@ A non-visible component that allows for uploading and downloading of files via F
 
 ### Connect Error
 
+This event returns the reason if a try to connect was not successful.
+
 [[Event('FTP', 'Connect Error', 'error')]]
 
 | Params | []() |
 |--------|------|
-|error|Text|
+|error|<span class="chip chip-text">Text</span>|
 
-
-This event returns the reason if a try to connect was not successful.
 
 ### Connection Status
+
+This event returns the status of the connection. If it is connect it will return true, else false.
 
 [[Event('FTP', 'Connection Status', 'isConnected')]]
 
 | Params | []() |
 |--------|------|
-|is Connected|Boolean|
+|is Connected|<span class="chip chip-boolean">Boolean</span>|
 
-
-This event returns the status of the connection. If it is connect it will return true, else false.
 
 ### Disconnect Error
+
+This event returns the reason if a try to disconnect was not successful.
 
 [[Event('FTP', 'Disconnect Error', 'error')]]
 
 | Params | []() |
 |--------|------|
-|error|Text|
+|error|<span class="chip chip-text">Text</span>|
 
-
-This event returns the reason if a try to disconnect was not successful.
 
 ### Download Done
 
-[[Event('FTP', 'Download Done')]]
-
 This event is invoked when the download is finished.
 
+[[Event('FTP', 'Download Done')]]
+
 ### Download error
+
+This event returns the reason if a download was not successful.
 
 [[Event('FTP', 'Download error', 'error')]]
 
 | Params | []() |
 |--------|------|
-|error|Text|
+|error|<span class="chip chip-text">Text</span>|
 
-
-This event returns the reason if a download was not successful.
 
 ### Upload Done
 
-[[Event('FTP', 'Upload Done')]]
-
 This event is invoked when the upload is finished.
 
+[[Event('FTP', 'Upload Done')]]
+
 ### Upload error
+
+This event returns the reason if a upload was not successful.
 
 [[Event('FTP', 'Upload error', 'error')]]
 
 | Params | []() |
 |--------|------|
-|error|Text|
+|error|<span class="chip chip-text">Text</span>|
 
-
-This event returns the reason if a upload was not successful.
 
 ## Methods
 
 ### Connect
 
-[[Method('FTP', 'Connect', False)]]
-
 Start the connection to the ftp server.
+
+[[Method('FTP', 'Connect', False)]]
 
 ### Disconnect
 
-[[Method('FTP', 'Disconnect', False)]]
-
 Disconnect the current connection.
 
+[[Method('FTP', 'Disconnect', False)]]
+
 ### Download File
+
+Start downloading a file.
 
 [[Method('FTP', 'Download File', False, 'remoteFilepath', 'destination')]]
 
 | Params | []() |
 |--------|------|
-|remote Filepath|Text|
-|destination|Text|
+|remote Filepath|<span class="chip chip-text">Text</span>|
+|destination|<span class="chip chip-text">Text</span>|
 
-
-Start downloading a file.
 
 ### Get List Of Files
 
-[[Method('FTP', 'Get List Of Files', True, 'dir')]]
-
-{>>Returns `list`<<}
-
-| Params | []() |
-|--------|------|
-|dir|Text|
-
+<span class="chip chip-list">Returns: <i>List</i></span> 
 
 Get a list of files in a directory. Returns a empty list if a error occurs.
 
+[[Method('FTP', 'Get List Of Files', True, 'dir')]]
+
+| Params | []() |
+|--------|------|
+|dir|<span class="chip chip-text">Text</span>|
+
+
 ### Upload File
+
+Start uploading a file.
 
 [[Method('FTP', 'Upload File', False, 'filePath', 'newName')]]
 
 | Params | []() |
 |--------|------|
-|file Path|Text|
-|new Name|Text|
+|file Path|<span class="chip chip-text">Text</span>|
+|new Name|<span class="chip chip-text">Text</span>|
 
-
-Start uploading a file.
 
 ### Delete Dir
+
+Delete a directory on the ftp server.
 
 [[Method('FTP', 'Delete Dir', False, 'dir')]]
 
 | Params | []() |
 |--------|------|
-|dir|Text|
+|dir|<span class="chip chip-text">Text</span>|
 
-
-Delete a directory on the ftp server.
 
 ### make Dir
+
+Make/create a directory on the ftp server.
 
 [[Method('FTP', 'make Dir', False, 'dir')]]
 
 | Params | []() |
 |--------|------|
-|dir|Text|
+|dir|<span class="chip chip-text">Text</span>|
 
-
-Make/create a directory on the ftp server.
 
 ## Properties
 

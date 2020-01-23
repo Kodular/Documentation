@@ -12,15 +12,15 @@ A formatting element in which to place components that should be displayed from 
 
 ### Click
 
-[[Event('Horizontal Arrangement', 'Click')]]
-
 Click listener event.
+
+[[Event('Horizontal Arrangement', 'Click')]]
 
 ### Long Click
 
-[[Event('Horizontal Arrangement', 'Long Click')]]
-
 Long click listener event.
+
+[[Event('Horizontal Arrangement', 'Long Click')]]
 
 ## Properties
 

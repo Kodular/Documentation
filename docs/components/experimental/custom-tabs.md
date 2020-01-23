@@ -14,33 +14,33 @@ A non-visible component that opens web pages as custom tabs on Google Chrome.
 
 ### Add Menu Item Open App
 
+Use this block to add a menu item with the given title to open any app you want with the package name. The package name can be as example 'com.instagram.android' to open Instagram on the menu item click. If the app is not installed the menu item will not be added.
+
 [[Method('Custom Tabs', 'Add Menu Item Open App', False, 'title', 'packageName')]]
 
 | Params | []() |
 |--------|------|
-|title|Text|
-|package Name|Text|
+|title|<span class="chip chip-text">Text</span>|
+|package Name|<span class="chip chip-text">Text</span>|
 
-
-Use this block to add a menu item with the given title to open any app you want with the package name. The package name can be as example 'com.instagram.android' to open Instagram on the menu item click. If the app is not installed the menu item will not be added.
 
 ### Add Menu Item Open Page
+
+Use this block to add a menu item with the given title and page link. The page can be as example 'https://www.instagram.com/kodular/'. If the user have Instagram installed,the page will then be opened in the official Instagram app. Else in the default browser.
 
 [[Method('Custom Tabs', 'Add Menu Item Open Page', False, 'title', 'page')]]
 
 | Params | []() |
 |--------|------|
-|title|Text|
-|page|Text|
+|title|<span class="chip chip-text">Text</span>|
+|page|<span class="chip chip-text">Text</span>|
 
-
-Use this block to add a menu item with the given title and page link. The page can be as example 'https://www.instagram.com/kodular/'. If the user have Instagram installed,the page will then be opened in the official Instagram app. Else in the default browser.
 
 ### Open Custom Tab
 
-[[Method('Custom Tabs', 'Open Custom Tab', False)]]
-
 Use this block to open the custom tab.
+
+[[Method('Custom Tabs', 'Open Custom Tab', False)]]
 
 ## Properties
 

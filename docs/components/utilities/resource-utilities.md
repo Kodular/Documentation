@@ -16,45 +16,45 @@ A non-visible component that loads string resources from a file.
 
 :warning: ==**Deprecated**==
 
-[[Method('Resource Utilities', 'Get String Content By Name', True, 'resourceName', 'ifResourceNotFoundUse')]]
-
-{>>Returns `text`<<}
-
-| Params | []() |
-|--------|------|
-|resource Name|Text|
-|if Resource Not Found Use|Text|
-
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 This block is deprecated and will be removed soon. Use instead 'Get String From Asset' or 'Get String From Path'.
 
-### Get String From Asset
-
-[[Method('Resource Utilities', 'Get String From Asset', True, 'resourceName', 'ifResourceNotFoundUse')]]
-
-{>>Returns `text`<<}
+[[Method('Resource Utilities', 'Get String Content By Name', True, 'resourceName', 'ifResourceNotFoundUse')]]
 
 | Params | []() |
 |--------|------|
-|resource Name|Text|
-|if Resource Not Found Use|Text|
+|resource Name|<span class="chip chip-text">Text</span>|
+|if Resource Not Found Use|<span class="chip chip-text">Text</span>|
 
+
+### Get String From Asset
+
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 Get the text from a asset resource file. Make sure you uploaded a file at 'Resource File From Asset' property.
 
-### Get String From Path
-
-[[Method('Resource Utilities', 'Get String From Path', True, 'resourceName', 'ifResourceNotFoundUse')]]
-
-{>>Returns `text`<<}
+[[Method('Resource Utilities', 'Get String From Asset', True, 'resourceName', 'ifResourceNotFoundUse')]]
 
 | Params | []() |
 |--------|------|
-|resource Name|Text|
-|if Resource Not Found Use|Text|
+|resource Name|<span class="chip chip-text">Text</span>|
+|if Resource Not Found Use|<span class="chip chip-text">Text</span>|
 
+
+### Get String From Path
+
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 Get the text from a path resource file. Make sure you added a file path at 'Resource File From Path' property. The path can be too a link to a url.
+
+[[Method('Resource Utilities', 'Get String From Path', True, 'resourceName', 'ifResourceNotFoundUse')]]
+
+| Params | []() |
+|--------|------|
+|resource Name|<span class="chip chip-text">Text</span>|
+|if Resource Not Found Use|<span class="chip chip-text">Text</span>|
+
 
 ## Properties
 

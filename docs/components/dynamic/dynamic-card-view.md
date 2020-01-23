@@ -14,263 +14,263 @@ A component to create dynamic cardviews in Arrangements.
 
 ### Click
 
+Event to detect that a user has done a simple click on a card view component with the specific id.
+
 [[Event('Dynamic Card View', 'Click', 'id')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
+|id|<span class="chip chip-number">Number</span>|
 
-
-Event to detect that a user has done a simple click on a card view component with the specific id.
 
 ### Long Click
+
+Event to detect that a user has done a simple long click on a card view component with the specific id.
 
 [[Event('Dynamic Card View', 'Long Click', 'id')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
+|id|<span class="chip chip-number">Number</span>|
 
-
-Event to detect that a user has done a simple long click on a card view component with the specific id.
 
 ### Touch Down
+
+Event to detect that a user has done a simple touch down on a card view component with the specific id.
 
 [[Event('Dynamic Card View', 'Touch Down', 'id')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
+|id|<span class="chip chip-number">Number</span>|
 
-
-Event to detect that a user has done a simple touch down on a card view component with the specific id.
 
 ### Touch Up
+
+Event to detect that a user has done a simple touch up on a card view component with the specific id.
 
 [[Event('Dynamic Card View', 'Touch Up', 'id')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
+|id|<span class="chip chip-number">Number</span>|
 
-
-Event to detect that a user has done a simple touch up on a card view component with the specific id.
 
 ## Methods
 
 ### Add Component To Card View
 
+Add a component into the card view component with the given id.
+
 [[Method('Dynamic Card View', 'Add Component To Card View', False, 'id', 'arrangement')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
-|arrangement|Component|
+|id|<span class="chip chip-number">Number</span>|
+|arrangement|<span class="chip chip-component">Component</span>|
 
-
-Add a component into the card view component with the given id.
 
 ### Content Padding
+
+Set the content padding of a card view component.
 
 [[Method('Dynamic Card View', 'Content Padding', False, 'id', 'contentPaddingLeft', 'contentPaddingTop', 'contentPaddingRight', 'contentPaddingBottom')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
-|content Padding Left|Number|
-|content Padding Top|Number|
-|content Padding Right|Number|
-|content Padding Bottom|Number|
+|id|<span class="chip chip-number">Number</span>|
+|content Padding Left|<span class="chip chip-number">Number</span>|
+|content Padding Top|<span class="chip chip-number">Number</span>|
+|content Padding Right|<span class="chip chip-number">Number</span>|
+|content Padding Bottom|<span class="chip chip-number">Number</span>|
 
-
-Set the content padding of a card view component.
 
 ### Create Card View
+
+Create a new card view component dynamically. Use for width/height '-1' for wrap content or '-2' for fill parent.
 
 [[Method('Dynamic Card View', 'Create Card View', False, 'id', 'arrangement', 'width', 'height')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
-|arrangement|Component|
-|width|Number|
-|height|Number|
+|id|<span class="chip chip-number">Number</span>|
+|arrangement|<span class="chip chip-component">Component</span>|
+|width|<span class="chip chip-number">Number</span>|
+|height|<span class="chip chip-number">Number</span>|
 
-
-Create a new card view component dynamically. Use for width/height '-1' for wrap content or '-2' for fill parent.
 
 ### Delete Card View
+
+Remove a card view component with the given id.
 
 [[Method('Dynamic Card View', 'Delete Card View', False, 'id')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
+|id|<span class="chip chip-number">Number</span>|
 
-
-Remove a card view component with the given id.
 
 ### Get Background Color
 
-[[Method('Dynamic Card View', 'Get Background Color', True, 'id')]]
-
-{>>Returns `number`<<}
-
-| Params | []() |
-|--------|------|
-|id|Number|
-
+<span class="chip chip-number">Returns: <i>Number</i></span> 
 
 Get the background color of a card view component.
 
-### Get Card View By Id
-
-[[Method('Dynamic Card View', 'Get Card View By Id', True, 'id')]]
-
-{>>Returns `component`<<}
+[[Method('Dynamic Card View', 'Get Background Color', True, 'id')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
+|id|<span class="chip chip-number">Number</span>|
 
+
+### Get Card View By Id
+
+<span class="chip chip-component">Returns: <i>Component</i></span> 
 
 Returns the card view referenced by its id.
 
-### Get Corner Radius
-
-[[Method('Dynamic Card View', 'Get Corner Radius', True, 'id')]]
-
-{>>Returns `number`<<}
+[[Method('Dynamic Card View', 'Get Card View By Id', True, 'id')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
+|id|<span class="chip chip-number">Number</span>|
 
+
+### Get Corner Radius
+
+<span class="chip chip-number">Returns: <i>Number</i></span> 
 
 Get the corner radius of a card view component.
 
-### Get Elevation
-
-[[Method('Dynamic Card View', 'Get Elevation', True, 'id')]]
-
-{>>Returns `number`<<}
+[[Method('Dynamic Card View', 'Get Corner Radius', True, 'id')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
+|id|<span class="chip chip-number">Number</span>|
 
+
+### Get Elevation
+
+<span class="chip chip-number">Returns: <i>Number</i></span> 
 
 Get the elevation of a card view component.
 
-### Get Height
-
-[[Method('Dynamic Card View', 'Get Height', True, 'id')]]
-
-{>>Returns `number`<<}
+[[Method('Dynamic Card View', 'Get Elevation', True, 'id')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
+|id|<span class="chip chip-number">Number</span>|
 
+
+### Get Height
+
+<span class="chip chip-number">Returns: <i>Number</i></span> 
 
 Get the height of a card view component.
 
-### Get Width
-
-[[Method('Dynamic Card View', 'Get Width', True, 'id')]]
-
-{>>Returns `number`<<}
+[[Method('Dynamic Card View', 'Get Height', True, 'id')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
+|id|<span class="chip chip-number">Number</span>|
 
+
+### Get Width
+
+<span class="chip chip-number">Returns: <i>Number</i></span> 
 
 Get the width of a card view component.
 
+[[Method('Dynamic Card View', 'Get Width', True, 'id')]]
+
+| Params | []() |
+|--------|------|
+|id|<span class="chip chip-number">Number</span>|
+
+
 ### Set Background Color
+
+Set the background color of a card view component.
 
 [[Method('Dynamic Card View', 'Set Background Color', False, 'id', 'argb')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
-|argb|Number|
+|id|<span class="chip chip-number">Number</span>|
+|argb|<span class="chip chip-number">Number</span>|
 
-
-Set the background color of a card view component.
 
 ### Set Corner Radius
+
+Set the corner radius of a card view component.
 
 [[Method('Dynamic Card View', 'Set Corner Radius', False, 'id', 'radius')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
-|radius|Number|
+|id|<span class="chip chip-number">Number</span>|
+|radius|<span class="chip chip-number">Number</span>|
 
-
-Set the corner radius of a card view component.
 
 ### Set Elevation
+
+Set the elevation of a card view component.
 
 [[Method('Dynamic Card View', 'Set Elevation', False, 'id', 'value')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
-|value|Number|
+|id|<span class="chip chip-number">Number</span>|
+|value|<span class="chip chip-number">Number</span>|
 
-
-Set the elevation of a card view component.
 
 ### Set Height
+
+Set the height of a card view component.
 
 [[Method('Dynamic Card View', 'Set Height', False, 'id', 'height')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
-|height|Number|
+|id|<span class="chip chip-number">Number</span>|
+|height|<span class="chip chip-number">Number</span>|
 
-
-Set the height of a card view component.
 
 ### Set Width
+
+Set the width of a card view component.
 
 [[Method('Dynamic Card View', 'Set Width', False, 'id', 'width')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
-|width|Number|
+|id|<span class="chip chip-number">Number</span>|
+|width|<span class="chip chip-number">Number</span>|
 
-
-Set the width of a card view component.
 
 ### Stroke Color
+
+Set the stroke color to a card view component with the specific id.
 
 [[Method('Dynamic Card View', 'Stroke Color', False, 'id', 'color')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
-|color|Number|
+|id|<span class="chip chip-number">Number</span>|
+|color|<span class="chip chip-number">Number</span>|
 
-
-Set the stroke color to a card view component with the specific id.
 
 ### Stroke Width
+
+Set the stroke width to a card view component with the specific id.
 
 [[Method('Dynamic Card View', 'Stroke Width', False, 'id', 'width')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
-|width|Number|
+|id|<span class="chip chip-number">Number</span>|
+|width|<span class="chip chip-number">Number</span>|
 
-
-Set the stroke width to a card view component with the specific id.
 
 ## Properties
 

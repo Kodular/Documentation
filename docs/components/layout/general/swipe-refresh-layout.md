@@ -12,9 +12,9 @@ A visible component that groups other components and lets the user refresh them 
 
 ### On Refresh
 
-[[Event('Swipe Refresh Layout', 'On Refresh')]]
-
 Event to detect when a refresh is triggered via the swipe gesture.
+
+[[Event('Swipe Refresh Layout', 'On Refresh')]]
 
 ## Properties
 

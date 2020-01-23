@@ -12,23 +12,23 @@ Component for displaying images. The picture to display, and other aspects of th
 
 ### Click
 
-[[Event('Image', 'Click')]]
-
 Event to detect that a user has done a simple "Click".
+
+[[Event('Image', 'Click')]]
 
 ### Long Click
 
-[[Event('Image', 'Long Click')]]
-
 Event to detect that a user has done a simple "Long Click".
+
+[[Event('Image', 'Long Click')]]
 
 ## Methods
 
 ### Clear Image Tint Color
 
-[[Method('Image', 'Clear Image Tint Color', False)]]
-
 Clear the image tint color.
+
+[[Method('Image', 'Clear Image Tint Color', False)]]
 
 ## Properties
 

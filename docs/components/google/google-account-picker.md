@@ -14,19 +14,19 @@ A non-visible component that shows a pop-up list of Google accounts currently si
 
 ### Picked
 
+Event raised after account has been picked.
+
 [[Event('Google Account Picker', 'Picked', 'accountName')]]
 
 | Params | []() |
 |--------|------|
-|account Name|Text|
+|account Name|<span class="chip chip-text">Text</span>|
 
-
-Event raised after account has been picked.
 
 ## Methods
 
 ### Pick
 
-[[Method('Google Account Picker', 'Pick', False)]]
-
 Provide an account picker to pick a Google account.
+
+[[Method('Google Account Picker', 'Pick', False)]]

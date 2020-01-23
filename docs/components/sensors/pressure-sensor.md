@@ -14,15 +14,15 @@ A non-visible component that measures the ambient air pressure in units of hPa o
 
 ### Pressure Changed
 
+Event is invoked when pressure is changed.
+
 [[Event('Pressure Sensor', 'Pressure Changed', 'pressure', 'altitude')]]
 
 | Params | []() |
 |--------|------|
-|pressure|Number|
-|altitude|Number|
+|pressure|<span class="chip chip-number">Number</span>|
+|altitude|<span class="chip chip-number">Number</span>|
 
-
-Event is invoked when pressure is changed.
 
 ## Properties
 

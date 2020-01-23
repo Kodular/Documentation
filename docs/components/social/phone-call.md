@@ -18,46 +18,46 @@ To directly specify the phone number (e.g., 650-555-1212), set the `` PhoneNumbe
 
 ### Incoming Call Answered
 
+Event indicating that an incoming phone call is answered. phoneNumber is the incoming call phone number.
+
 [[Event('Phone Call', 'Incoming Call Answered', 'phoneNumber')]]
 
 | Params | []() |
 |--------|------|
-|phone Number|Text|
+|phone Number|<span class="chip chip-text">Text</span>|
 
-
-Event indicating that an incoming phone call is answered. phoneNumber is the incoming call phone number.
 
 ### Phone Call Ended
+
+Event indicating that a phone call has ended. If status is 1, incoming call is missed or rejected; if status is 2, incoming call is answered before hanging up; if status is 3, outgoing call is hung up. phoneNumber is the ended call phone number.
 
 [[Event('Phone Call', 'Phone Call Ended', 'status', 'phoneNumber')]]
 
 | Params | []() |
 |--------|------|
-|status|Number|
-|phone Number|Text|
+|status|<span class="chip chip-number">Number</span>|
+|phone Number|<span class="chip chip-text">Text</span>|
 
-
-Event indicating that a phone call has ended. If status is 1, incoming call is missed or rejected; if status is 2, incoming call is answered before hanging up; if status is 3, outgoing call is hung up. phoneNumber is the ended call phone number.
 
 ### Phone Call Started
+
+Event indicating that a phonecall has started. If status is 1, incoming call is ringing; if status is 2, outgoing call is dialled. phoneNumber is the incoming/outgoing phone number.
 
 [[Event('Phone Call', 'Phone Call Started', 'status', 'phoneNumber')]]
 
 | Params | []() |
 |--------|------|
-|status|Number|
-|phone Number|Text|
+|status|<span class="chip chip-number">Number</span>|
+|phone Number|<span class="chip chip-text">Text</span>|
 
-
-Event indicating that a phonecall has started. If status is 1, incoming call is ringing; if status is 2, outgoing call is dialled. phoneNumber is the incoming/outgoing phone number.
 
 ## Methods
 
 ### Make Phone Call
 
-[[Method('Phone Call', 'Make Phone Call', False)]]
-
 Makes a phone call using the number in the PhoneNumber property.
+
+[[Method('Phone Call', 'Make Phone Call', False)]]
 
 ## Properties
 

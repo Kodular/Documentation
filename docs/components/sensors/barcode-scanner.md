@@ -14,22 +14,22 @@ A non-visible component that reads barcodes from the device''s camera.
 
 ### After Scan
 
+Indicates that the scanner has read a (text) result and provides the result
+
 [[Event('Barcode Scanner', 'After Scan', 'result')]]
 
 | Params | []() |
 |--------|------|
-|result|Text|
+|result|<span class="chip chip-text">Text</span>|
 
-
-Indicates that the scanner has read a (text) result and provides the result
 
 ## Methods
 
 ### Do Scan
 
-[[Method('Barcode Scanner', 'Do Scan', False)]]
-
 Begins a barcode scan, using the camera. When the scan is complete, the AfterScan event will be raised.
+
+[[Method('Barcode Scanner', 'Do Scan', False)]]
 
 ## Properties
 

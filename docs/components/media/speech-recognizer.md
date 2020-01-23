@@ -14,28 +14,28 @@ A non-visible component that converts spoken words to text using voice recogniti
 
 ### After Getting Text
 
+Simple event to raise after the VoiceReco activity has returned
+
 [[Event('Speech Recognizer', 'After Getting Text', 'result')]]
 
 | Params | []() |
 |--------|------|
-|result|Text|
+|result|<span class="chip chip-text">Text</span>|
 
-
-Simple event to raise after the VoiceReco activity has returned
 
 ### Before Getting Text
 
-[[Event('Speech Recognizer', 'Before Getting Text')]]
-
 Simple event to raise when VoiceReco is invoked but before the VoiceRecoactivity is started.
+
+[[Event('Speech Recognizer', 'Before Getting Text')]]
 
 ## Methods
 
 ### Get Text
 
-[[Method('Speech Recognizer', 'Get Text', False)]]
-
 Solicits speech input from the user. After the speech is converted totext, the AfterGettingText event will be raised.
+
+[[Method('Speech Recognizer', 'Get Text', False)]]
 
 ## Properties
 

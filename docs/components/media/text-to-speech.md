@@ -24,33 +24,33 @@ The languages and countries available depend on the particular device, and can b
 
 ### After Speaking
 
+Event to raise after the message is spoken.
+
 [[Event('Text To Speech', 'After Speaking', 'result')]]
 
 | Params | []() |
 |--------|------|
-|result|Boolean|
+|result|<span class="chip chip-boolean">Boolean</span>|
 
-
-Event to raise after the message is spoken.
 
 ### Before Speaking
 
-[[Event('Text To Speech', 'Before Speaking')]]
-
 Event to raise when Speak is invoked, before the message is spoken.
+
+[[Event('Text To Speech', 'Before Speaking')]]
 
 ## Methods
 
 ### Speak
 
+Speaks the given message.
+
 [[Method('Text To Speech', 'Speak', False, 'message')]]
 
 | Params | []() |
 |--------|------|
-|message|Text|
+|message|<span class="chip chip-text">Text</span>|
 
-
-Speaks the given message.
 
 ## Properties
 

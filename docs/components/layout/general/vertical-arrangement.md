@@ -12,15 +12,15 @@ A formatting element in which to place components that should be displayed one b
 
 ### Click
 
-[[Event('Vertical Arrangement', 'Click')]]
-
 Click listener event.
+
+[[Event('Vertical Arrangement', 'Click')]]
 
 ### Long Click
 
-[[Event('Vertical Arrangement', 'Long Click')]]
-
 Long click listener event.
+
+[[Event('Vertical Arrangement', 'Long Click')]]
 
 ## Properties
 

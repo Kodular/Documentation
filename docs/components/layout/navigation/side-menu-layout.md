@@ -15,57 +15,57 @@ Side menus are navigation menus that slide from the left of the screen via a swi
 
 ### On Menu Item Click
 
+Triggers when the user clicks on an item of the Navigation Menu
+
 [[Event('Side Menu Layout', 'On Menu Item Click', 'title')]]
 
 | Params | []() |
 |--------|------|
-|title|Text|
+|title|<span class="chip chip-text">Text</span>|
 
-
-Triggers when the user clicks on an item of the Navigation Menu
 
 ## Methods
 
 ### Add Item
 
+Add an item to the Navigation Menu
+
 [[Method('Side Menu Layout', 'Add Item', False, 'title', 'image', 'enabled', 'checked', 'group')]]
 
 | Params | []() |
 |--------|------|
-|title|Text|
-|image|Text|
-|enabled|Boolean|
-|checked|Boolean|
-|group|Number|
+|title|<span class="chip chip-text">Text</span>|
+|image|<span class="chip chip-text">Text</span>|
+|enabled|<span class="chip chip-boolean">Boolean</span>|
+|checked|<span class="chip chip-boolean">Boolean</span>|
+|group|<span class="chip chip-number">Number</span>|
 
-
-Add an item to the Navigation Menu
 
 ### Remove Item
+
+Remove an item from the Navigation Menu
 
 [[Method('Side Menu Layout', 'Remove Item', False, 'title')]]
 
 | Params | []() |
 |--------|------|
-|title|Text|
+|title|<span class="chip chip-text">Text</span>|
 
-
-Remove an item from the Navigation Menu
 
 ### Update Item
+
+Update an item of the Navigation Menu
 
 [[Method('Side Menu Layout', 'Update Item', False, 'title', 'newTitle', 'image', 'enabled', 'checked')]]
 
 | Params | []() |
 |--------|------|
-|title|Text|
-|new Title|Text|
-|image|Text|
-|enabled|Boolean|
-|checked|Boolean|
+|title|<span class="chip chip-text">Text</span>|
+|new Title|<span class="chip chip-text">Text</span>|
+|image|<span class="chip chip-text">Text</span>|
+|enabled|<span class="chip chip-boolean">Boolean</span>|
+|checked|<span class="chip chip-boolean">Boolean</span>|
 
-
-Update an item of the Navigation Menu
 
 ## Properties
 

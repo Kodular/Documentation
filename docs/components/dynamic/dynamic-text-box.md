@@ -14,224 +14,223 @@ A component to create dynamic textboxes in Arrangements
 
 ### On Text Changed
 
+Trigger when the text of a Dynamic TextBox changes
+
 [[Event('Dynamic Text Box', 'On Text Changed', 'id', 'text')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
-|text|Text|
+|id|<span class="chip chip-number">Number</span>|
+|text|<span class="chip chip-text">Text</span>|
 
-
-Trigger when the text of a Dynamic TextBox changes
 
 ## Methods
 
 ### Create Text Box
 
+Create a Dynamic TextBox
+
 [[Method('Dynamic Text Box', 'Create Text Box', False, 'id', 'arrangement')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
-|arrangement|Component|
+|id|<span class="chip chip-number">Number</span>|
+|arrangement|<span class="chip chip-component">Component</span>|
 
-
-Create a Dynamic TextBox
 
 ### Delete Text Box
+
+Remove a textbox component with the given id.
 
 [[Method('Dynamic Text Box', 'Delete Text Box', False, 'id')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
+|id|<span class="chip chip-number">Number</span>|
 
-
-Remove a textbox component with the given id.
 
 ### Get Button By Id
 
-[[Method('Dynamic Text Box', 'Get Button By Id', True, 'id')]]
-
-{>>Returns `component`<<}
-
-| Params | []() |
-|--------|------|
-|id|Number|
-
+<span class="chip chip-component">Returns: <i>Component</i></span> 
 
 Returns the button referenced by its id.
 
-### Get Enabled
-
-[[Method('Dynamic Text Box', 'Get Enabled', True, 'id')]]
-
-{>>Returns `boolean`<<}
+[[Method('Dynamic Text Box', 'Get Button By Id', True, 'id')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
+|id|<span class="chip chip-number">Number</span>|
 
+
+### Get Enabled
+
+<span class="chip chip-boolean">Returns: <i>Boolean</i></span> 
 
 Get the Enabled status of a TextBox
 
-### Get Font Size
-
-[[Method('Dynamic Text Box', 'Get Font Size', True, 'id')]]
-
-{>>Returns `number`<<}
+[[Method('Dynamic Text Box', 'Get Enabled', True, 'id')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
+|id|<span class="chip chip-number">Number</span>|
 
+
+### Get Font Size
+
+<span class="chip chip-number">Returns: <i>Number</i></span> 
 
 Get the Font Size of a TextBox
 
-### Get Height
-
-[[Method('Dynamic Text Box', 'Get Height', True, 'id')]]
-
-{>>Returns `number`<<}
+[[Method('Dynamic Text Box', 'Get Font Size', True, 'id')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
+|id|<span class="chip chip-number">Number</span>|
 
+
+### Get Height
+
+<span class="chip chip-number">Returns: <i>Number</i></span> 
 
 Get the Height of a TextBox
 
-### Get Text
-
-[[Method('Dynamic Text Box', 'Get Text', True, 'id')]]
-
-{>>Returns `text`<<}
+[[Method('Dynamic Text Box', 'Get Height', True, 'id')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
+|id|<span class="chip chip-number">Number</span>|
 
+
+### Get Text
+
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 Get the Text of a TextBox
 
-### Get Width
-
-[[Method('Dynamic Text Box', 'Get Width', True, 'id')]]
-
-{>>Returns `number`<<}
+[[Method('Dynamic Text Box', 'Get Text', True, 'id')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
+|id|<span class="chip chip-number">Number</span>|
 
+
+### Get Width
+
+<span class="chip chip-number">Returns: <i>Number</i></span> 
 
 Get the Width of a TextBox
 
+[[Method('Dynamic Text Box', 'Get Width', True, 'id')]]
+
+| Params | []() |
+|--------|------|
+|id|<span class="chip chip-number">Number</span>|
+
+
 ### Set Alignment
+
+Update the Text Alignment of a TextBox. 0 = left, 1 = center and 2 = right.
 
 [[Method('Dynamic Text Box', 'Set Alignment', False, 'id', 'alignment')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
-|alignment|Number|
+|id|<span class="chip chip-number">Number</span>|
+|alignment|<span class="chip chip-number">Number</span>|
 
-
-Update the Text Alignment of a TextBox. 0 = left, 1 = center and 2 = right.
 
 ### Set Background Color
+
+Update the Background Color of a TextBox
 
 [[Method('Dynamic Text Box', 'Set Background Color', False, 'id', 'color')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
-|color|Number|
+|id|<span class="chip chip-number">Number</span>|
+|color|<span class="chip chip-number">Number</span>|
 
-
-Update the Background Color of a TextBox
 
 ### Set Enabled
+
+Update the Enabled status of a TextBox
 
 [[Method('Dynamic Text Box', 'Set Enabled', False, 'id', 'enabled')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
-|enabled|Boolean|
+|id|<span class="chip chip-number">Number</span>|
+|enabled|<span class="chip chip-boolean">Boolean</span>|
 
-
-Update the Enabled status of a TextBox
 
 ### Set Font
+
+Update the Font of a TextBox
 
 [[Method('Dynamic Text Box', 'Set Font', False, 'id', 'bold', 'italic')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
-|bold|Boolean|
-|italic|Boolean|
+|id|<span class="chip chip-number">Number</span>|
+|bold|<span class="chip chip-boolean">Boolean</span>|
+|italic|<span class="chip chip-boolean">Boolean</span>|
 
-
-Update the Font of a TextBox
 
 ### Set Font Size
+
+Update the Font Size of a TextBox
 
 [[Method('Dynamic Text Box', 'Set Font Size', False, 'id', 'size')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
-|size|Number|
+|id|<span class="chip chip-number">Number</span>|
+|size|<span class="chip chip-number">Number</span>|
 
-
-Update the Font Size of a TextBox
 
 ### Set Height
+
+Update the Height of a TextBox
 
 [[Method('Dynamic Text Box', 'Set Height', False, 'id', 'height')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
-|height|Number|
+|id|<span class="chip chip-number">Number</span>|
+|height|<span class="chip chip-number">Number</span>|
 
-
-Update the Height of a TextBox
 
 ### Set Text
+
+Update the Text of a TextBox
 
 [[Method('Dynamic Text Box', 'Set Text', False, 'id', 'text')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
-|text|Text|
+|id|<span class="chip chip-number">Number</span>|
+|text|<span class="chip chip-text">Text</span>|
 
-
-Update the Text of a TextBox
 
 ### Set Text Color
+
+Update the Text Color of a TextBox
 
 [[Method('Dynamic Text Box', 'Set Text Color', False, 'id', 'color')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
-|color|Number|
+|id|<span class="chip chip-number">Number</span>|
+|color|<span class="chip chip-number">Number</span>|
 
-
-Update the Text Color of a TextBox
 
 ### Set Width
+
+Update the Width of a TextBox
 
 [[Method('Dynamic Text Box', 'Set Width', False, 'id', 'width')]]
 
 | Params | []() |
 |--------|------|
-|id|Number|
-|width|Number|
-
-
-Update the Width of a TextBox
+|id|<span class="chip chip-number">Number</span>|
+|width|<span class="chip chip-number">Number</span>|

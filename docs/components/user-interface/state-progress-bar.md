@@ -12,26 +12,26 @@ A visible component that indicates the progress of an operation by highlighting 
 
 ### Error Occurred
 
+Event invoked when a error occurred.
+
 [[Event('State Progress Bar', 'Error Occurred', 'errorMessage')]]
 
 | Params | []() |
 |--------|------|
-|error Message|Text|
+|error Message|<span class="chip chip-text">Text</span>|
 
-
-Event invoked when a error occurred.
 
 ### State Item Click
+
+Event invoked when a state item was clicked.
 
 [[Event('State Progress Bar', 'State Item Click', 'stateNumber', 'isCurrentState')]]
 
 | Params | []() |
 |--------|------|
-|state Number|Number|
-|is Current State|Boolean|
+|state Number|<span class="chip chip-number">Number</span>|
+|is Current State|<span class="chip chip-boolean">Boolean</span>|
 
-
-Event invoked when a state item was clicked.
 
 ## Properties
 

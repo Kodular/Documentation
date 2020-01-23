@@ -12,14 +12,14 @@ A visible component that lets the user submit a star rating.
 
 ### Changed
 
+Event invoked when the rating has been changed.
+
 [[Event('Rating Bar', 'Changed', 'rating')]]
 
 | Params | []() |
 |--------|------|
-|rating|Number|
+|rating|<span class="chip chip-number">Number</span>|
 
-
-Event invoked when the rating has been changed.
 
 ## Properties
 

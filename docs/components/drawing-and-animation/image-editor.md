@@ -14,349 +14,349 @@ Non-visible component that allows users to edit images.
 
 ### Blur Effect
 
-[[Method('Image Editor', 'Blur Effect', True, 'imageA', 'scale', 'radius')]]
-
-{>>Returns `text`<<}
-
-| Params | []() |
-|--------|------|
-|image A|Text|
-|scale|Number|
-|radius|Number|
-
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 This methods creates a blur effect.
 
-### Color Boost Effect
-
-[[Method('Image Editor', 'Color Boost Effect', True, 'imageA', 'type', 'percent')]]
-
-{>>Returns `text`<<}
+[[Method('Image Editor', 'Blur Effect', True, 'imageA', 'scale', 'radius')]]
 
 | Params | []() |
 |--------|------|
-|image A|Text|
-|type|Text|
-|percent|Number|
+|image A|<span class="chip chip-text">Text</span>|
+|scale|<span class="chip chip-number">Number</span>|
+|radius|<span class="chip chip-number">Number</span>|
 
+
+### Color Boost Effect
+
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 Color boost technique is basically based on color filtering, which is to increase the intensity of a single color channel. For example: type = green/ blue or red; percent = 40%.
 
-### Color Filter
-
-[[Method('Image Editor', 'Color Filter', True, 'imageA', 'red', 'green', 'blue')]]
-
-{>>Returns `text`<<}
+[[Method('Image Editor', 'Color Boost Effect', True, 'imageA', 'type', 'percent')]]
 
 | Params | []() |
 |--------|------|
-|image A|Text|
-|red|Number|
-|green|Number|
-|blue|Number|
+|image A|<span class="chip chip-text">Text</span>|
+|type|<span class="chip chip-text">Text</span>|
+|percent|<span class="chip chip-number">Number</span>|
 
+
+### Color Filter
+
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 Set a color filter to your image. For example: red = 30; green = 40; blue = 20.
 
-### Flip Picture
-
-[[Method('Image Editor', 'Flip Picture', True, 'imageA', 'type')]]
-
-{>>Returns `text`<<}
+[[Method('Image Editor', 'Color Filter', True, 'imageA', 'red', 'green', 'blue')]]
 
 | Params | []() |
 |--------|------|
-|image A|Text|
-|type|Number|
+|image A|<span class="chip chip-text">Text</span>|
+|red|<span class="chip chip-number">Number</span>|
+|green|<span class="chip chip-number">Number</span>|
+|blue|<span class="chip chip-number">Number</span>|
 
+
+### Flip Picture
+
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 Flip your image vertical or horizontal. For example: type = 1 (vertical); type = 2 (horizontal).
 
-### Gamma Effect
-
-[[Method('Image Editor', 'Gamma Effect', True, 'imageA', 'red', 'green', 'blue')]]
-
-{>>Returns `text`<<}
+[[Method('Image Editor', 'Flip Picture', True, 'imageA', 'type')]]
 
 | Params | []() |
 |--------|------|
-|image A|Text|
-|red|Number|
-|green|Number|
-|blue|Number|
+|image A|<span class="chip chip-text">Text</span>|
+|type|<span class="chip chip-number">Number</span>|
 
+
+### Gamma Effect
+
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 Set a gamma effect to your image. For example: red = 5; green = 10; blue = 20.
 
-### Greyscale Effect
-
-[[Method('Image Editor', 'Greyscale Effect', True, 'imageA')]]
-
-{>>Returns `text`<<}
+[[Method('Image Editor', 'Gamma Effect', True, 'imageA', 'red', 'green', 'blue')]]
 
 | Params | []() |
 |--------|------|
-|image A|Text|
+|image A|<span class="chip chip-text">Text</span>|
+|red|<span class="chip chip-number">Number</span>|
+|green|<span class="chip chip-number">Number</span>|
+|blue|<span class="chip chip-number">Number</span>|
 
+
+### Greyscale Effect
+
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 Grayscale is a simple image effect that changes colors to grayscale by default.
 
-### Highlight Effect
-
-[[Method('Image Editor', 'Highlight Effect', True, 'imageA')]]
-
-{>>Returns `text`<<}
+[[Method('Image Editor', 'Greyscale Effect', True, 'imageA')]]
 
 | Params | []() |
 |--------|------|
-|image A|Text|
+|image A|<span class="chip chip-text">Text</span>|
 
+
+### Highlight Effect
+
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 Set a highlight effect to your image.
 
-### Hue Filter
-
-[[Method('Image Editor', 'Hue Filter', True, 'imageA', 'level')]]
-
-{>>Returns `text`<<}
+[[Method('Image Editor', 'Highlight Effect', True, 'imageA')]]
 
 | Params | []() |
 |--------|------|
-|image A|Text|
-|level|Number|
+|image A|<span class="chip chip-text">Text</span>|
 
+
+### Hue Filter
+
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 Change the hue of an image. For example: level = 1 or 2 or 3 or 4 etc.
 
-### Image Rotation
-
-[[Method('Image Editor', 'Image Rotation', True, 'imageA', 'degree')]]
-
-{>>Returns `text`<<}
+[[Method('Image Editor', 'Hue Filter', True, 'imageA', 'level')]]
 
 | Params | []() |
 |--------|------|
-|image A|Text|
-|degree|Number|
+|image A|<span class="chip chip-text">Text</span>|
+|level|<span class="chip chip-number">Number</span>|
 
+
+### Image Rotation
+
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 Rotate the image to the degree you need it. For example: degree = 100.
 
-### Invert Effect
-
-[[Method('Image Editor', 'Invert Effect', True, 'imageA')]]
-
-{>>Returns `text`<<}
+[[Method('Image Editor', 'Image Rotation', True, 'imageA', 'degree')]]
 
 | Params | []() |
 |--------|------|
-|image A|Text|
+|image A|<span class="chip chip-text">Text</span>|
+|degree|<span class="chip chip-number">Number</span>|
 
+
+### Invert Effect
+
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 This effect inverts your image.
 
-### Merge Two Images
-
-[[Method('Image Editor', 'Merge Two Images', True, 'leftImage', 'rightImage')]]
-
-{>>Returns `text`<<}
+[[Method('Image Editor', 'Invert Effect', True, 'imageA')]]
 
 | Params | []() |
 |--------|------|
-|left Image|Text|
-|right Image|Text|
+|image A|<span class="chip chip-text">Text</span>|
 
+
+### Merge Two Images
+
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 This methods creates a new side by side horizontal image.
 
-### Pixelate
-
-[[Method('Image Editor', 'Pixelate', True, 'imageA', 'pixelationAmount')]]
-
-{>>Returns `text`<<}
+[[Method('Image Editor', 'Merge Two Images', True, 'leftImage', 'rightImage')]]
 
 | Params | []() |
 |--------|------|
-|image A|Text|
-|pixelation Amount|Number|
+|left Image|<span class="chip chip-text">Text</span>|
+|right Image|<span class="chip chip-text">Text</span>|
 
+
+### Pixelate
+
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 This methods creates a pixelate image effect. Use as example as pixelation Amount '1' for a hugh pixel effect and '99' for a almost not visible pixel effect.
 
-### Round Corner
-
-[[Method('Image Editor', 'Round Corner', True, 'imageA', 'round')]]
-
-{>>Returns `text`<<}
+[[Method('Image Editor', 'Pixelate', True, 'imageA', 'pixelationAmount')]]
 
 | Params | []() |
 |--------|------|
-|image A|Text|
-|round|Number|
+|image A|<span class="chip chip-text">Text</span>|
+|pixelation Amount|<span class="chip chip-number">Number</span>|
 
+
+### Round Corner
+
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 Set a round corner to your image. For example: round = 45.
 
-### Scale Center Crop
-
-[[Method('Image Editor', 'Scale Center Crop', True, 'imageA', 'height', 'width')]]
-
-{>>Returns `text`<<}
+[[Method('Image Editor', 'Round Corner', True, 'imageA', 'round')]]
 
 | Params | []() |
 |--------|------|
-|image A|Text|
-|height|Number|
-|width|Number|
+|image A|<span class="chip chip-text">Text</span>|
+|round|<span class="chip chip-number">Number</span>|
 
+
+### Scale Center Crop
+
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 This methods creates a new scale center crop image.
 
-### Sepia Toning Effect
-
-[[Method('Image Editor', 'Sepia Toning Effect', True, 'imageA', 'depth', 'red', 'green', 'blue')]]
-
-{>>Returns `text`<<}
+[[Method('Image Editor', 'Scale Center Crop', True, 'imageA', 'height', 'width')]]
 
 | Params | []() |
 |--------|------|
-|image A|Text|
-|depth|Number|
-|red|Number|
-|green|Number|
-|blue|Number|
+|image A|<span class="chip chip-text">Text</span>|
+|height|<span class="chip chip-number">Number</span>|
+|width|<span class="chip chip-number">Number</span>|
 
+
+### Sepia Toning Effect
+
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 Set a sepia toning effect to your image. For example: depth = 20; red = 10; green = 20; blue = 25.
 
-### Set Brightness
-
-[[Method('Image Editor', 'Set Brightness', True, 'imageA', 'value')]]
-
-{>>Returns `text`<<}
+[[Method('Image Editor', 'Sepia Toning Effect', True, 'imageA', 'depth', 'red', 'green', 'blue')]]
 
 | Params | []() |
 |--------|------|
-|image A|Text|
-|value|Number|
+|image A|<span class="chip chip-text">Text</span>|
+|depth|<span class="chip chip-number">Number</span>|
+|red|<span class="chip chip-number">Number</span>|
+|green|<span class="chip chip-number">Number</span>|
+|blue|<span class="chip chip-number">Number</span>|
 
+
+### Set Brightness
+
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 Change the brightness of your image. For example: value = 50 (maximum = 255=100% brightness).
 
-### Set Color Depth
-
-[[Method('Image Editor', 'Set Color Depth', True, 'imageA', 'bitOffset')]]
-
-{>>Returns `text`<<}
+[[Method('Image Editor', 'Set Brightness', True, 'imageA', 'value')]]
 
 | Params | []() |
 |--------|------|
-|image A|Text|
-|bit Offset|Number|
+|image A|<span class="chip chip-text">Text</span>|
+|value|<span class="chip chip-number">Number</span>|
 
+
+### Set Color Depth
+
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 Change the color depth of an image as you wish. For example: bitOffset = 32 (bit) or bitOffset = 16 (bit).
 
-### Set Contrast
-
-[[Method('Image Editor', 'Set Contrast', True, 'imageA', 'value')]]
-
-{>>Returns `text`<<}
+[[Method('Image Editor', 'Set Color Depth', True, 'imageA', 'bitOffset')]]
 
 | Params | []() |
 |--------|------|
-|image A|Text|
-|value|Number|
+|image A|<span class="chip chip-text">Text</span>|
+|bit Offset|<span class="chip chip-number">Number</span>|
 
+
+### Set Contrast
+
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 This changes the contrast of your image. For example: value = 1.0 means normal picture contrast. Below 1.0 like as example 0.7 means dark contrast, above 1.0 as example 1.5 means light contrast.
 
-### Shading Filter
-
-[[Method('Image Editor', 'Shading Filter', True, 'imageA', 'shadingColor')]]
-
-{>>Returns `text`<<}
+[[Method('Image Editor', 'Set Contrast', True, 'imageA', 'value')]]
 
 | Params | []() |
 |--------|------|
-|image A|Text|
-|shading Color|Number|
+|image A|<span class="chip chip-text">Text</span>|
+|value|<span class="chip chip-number">Number</span>|
 
+
+### Shading Filter
+
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 Make a new image with a shading filter. For example: shadingColor = green(rgb value).
 
-### Tint Color Effect
-
-[[Method('Image Editor', 'Tint Color Effect', True, 'imageA', 'degree')]]
-
-{>>Returns `text`<<}
+[[Method('Image Editor', 'Shading Filter', True, 'imageA', 'shadingColor')]]
 
 | Params | []() |
 |--------|------|
-|image A|Text|
-|degree|Number|
+|image A|<span class="chip chip-text">Text</span>|
+|shading Color|<span class="chip chip-number">Number</span>|
 
+
+### Tint Color Effect
+
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 That's a pretty new other cool effect. It changes the tint color of your image. For example: degree = 100.
 
-### Watermark Effect
-
-[[Method('Image Editor', 'Watermark Effect', True, 'imageA', 'text', 'textSize', 'textColor', 'textUnderline', 'textAlphaValue', 'pointX', 'pointY')]]
-
-{>>Returns `text`<<}
+[[Method('Image Editor', 'Tint Color Effect', True, 'imageA', 'degree')]]
 
 | Params | []() |
 |--------|------|
-|image A|Text|
-|text|Text|
-|text Size|Number|
-|text Color|Number|
-|text Underline|Boolean|
-|text Alpha Value|Number|
-|point X|Number|
-|point Y|Number|
+|image A|<span class="chip chip-text">Text</span>|
+|degree|<span class="chip chip-number">Number</span>|
 
+
+### Watermark Effect
+
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 Set a watermark effect to an image and change the positon/size or color of the text. For example: text = hello; textSize = 25; textColor = red(rgb value); textAlphaValue = 255 (255= 100% visible,127.5= 50% visible, 0= 0% visible); pointX = 50; pointY = 100; text underline(boolean) = true or false.
 
-### is Landscape
-
-[[Method('Image Editor', 'is Landscape', True, 'image')]]
-
-{>>Returns `boolean`<<}
+[[Method('Image Editor', 'Watermark Effect', True, 'imageA', 'text', 'textSize', 'textColor', 'textUnderline', 'textAlphaValue', 'pointX', 'pointY')]]
 
 | Params | []() |
 |--------|------|
-|image|Text|
+|image A|<span class="chip chip-text">Text</span>|
+|text|<span class="chip chip-text">Text</span>|
+|text Size|<span class="chip chip-number">Number</span>|
+|text Color|<span class="chip chip-number">Number</span>|
+|text Underline|<span class="chip chip-boolean">Boolean</span>|
+|text Alpha Value|<span class="chip chip-number">Number</span>|
+|point X|<span class="chip chip-number">Number</span>|
+|point Y|<span class="chip chip-number">Number</span>|
 
+
+### is Landscape
+
+<span class="chip chip-boolean">Returns: <i>Boolean</i></span> 
 
 Return true if image is in landscape format, else return false.
 
-### is Portrait
-
-[[Method('Image Editor', 'is Portrait', True, 'image')]]
-
-{>>Returns `boolean`<<}
+[[Method('Image Editor', 'is Landscape', True, 'image')]]
 
 | Params | []() |
 |--------|------|
-|image|Text|
+|image|<span class="chip chip-text">Text</span>|
 
+
+### is Portrait
+
+<span class="chip chip-boolean">Returns: <i>Boolean</i></span> 
 
 Return true if image is in portrait format, else return false.
 
-### is Square
-
-[[Method('Image Editor', 'is Square', True, 'image')]]
-
-{>>Returns `boolean`<<}
+[[Method('Image Editor', 'is Portrait', True, 'image')]]
 
 | Params | []() |
 |--------|------|
-|image|Text|
+|image|<span class="chip chip-text">Text</span>|
 
+
+### is Square
+
+<span class="chip chip-boolean">Returns: <i>Boolean</i></span> 
 
 Return true if image is in square format (means as high as wide or as wide as high), else return false.
+
+[[Method('Image Editor', 'is Square', True, 'image')]]
+
+| Params | []() |
+|--------|------|
+|image|<span class="chip chip-text">Text</span>|
+
 
 ## Properties
 

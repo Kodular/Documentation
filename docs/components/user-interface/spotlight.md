@@ -14,28 +14,28 @@ A non-visible component that brings emphasis to the specified component by means
 
 ### Clicked
 
-[[Event('Spotlight', 'Clicked')]]
-
 Event triggered when the spotlight is clicked.
+
+[[Event('Spotlight', 'Clicked')]]
 
 ## Methods
 
 ### Show Spotlight
 
-[[Method('Spotlight', 'Show Spotlight', False)]]
-
 Use this block to show the spotlight.
 
+[[Method('Spotlight', 'Show Spotlight', False)]]
+
 ### Show Spotlight On FAB
+
+Use this block to show the spotlight on a floating action button.
 
 [[Method('Spotlight', 'Show Spotlight On FAB', False, 'floatingActionButton')]]
 
 | Params | []() |
 |--------|------|
-|floating Action Button|Component|
+|floating Action Button|<span class="chip chip-component">Component</span>|
 
-
-Use this block to show the spotlight on a floating action button.
 
 ## Properties
 

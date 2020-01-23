@@ -14,14 +14,14 @@ Non-visible component that can measures the proximity of an object in cm relativ
 
 ### Proximity Changed
 
+Triggered when distance (in cm) of the object to the device changes.
+
 [[Event('Proximity Sensor', 'Proximity Changed', 'distance')]]
 
 | Params | []() |
 |--------|------|
-|distance|Number|
+|distance|<span class="chip chip-number">Number</span>|
 
-
-Triggered when distance (in cm) of the object to the device changes.
 
 ## Properties
 

@@ -14,57 +14,57 @@ A non-visible component that communicates with a web service to store and retrie
 
 ### Got Value
 
+Indicates that a GetValue server request has succeeded.
+
 [[Event('Tiny Web DB', 'Got Value', 'tagFromWebDB', 'valueFromWebDB')]]
 
 | Params | []() |
 |--------|------|
-|tag From Web DB|Text|
-|value From Web DB|Any|
+|tag From Web DB|<span class="chip chip-text">Text</span>|
+|value From Web DB|<span class="chip chip-any">Any</span>|
 
-
-Indicates that a GetValue server request has succeeded.
 
 ### Value Stored
 
-[[Event('Tiny Web DB', 'Value Stored')]]
-
 Event indicating that a StoreValue server request has succeeded.
 
+[[Event('Tiny Web DB', 'Value Stored')]]
+
 ### Web Service Error
+
+Indicates that the communication with the Web service signaled an error.
 
 [[Event('Tiny Web DB', 'Web Service Error', 'message')]]
 
 | Params | []() |
 |--------|------|
-|message|Text|
+|message|<span class="chip chip-text">Text</span>|
 
-
-Indicates that the communication with the Web service signaled an error.
 
 ## Methods
 
 ### Get Value
 
+GetValue asks the Web service to get the value stored under the given tag.
+
 [[Method('Tiny Web DB', 'Get Value', False, 'tag')]]
 
 | Params | []() |
 |--------|------|
-|tag|Text|
+|tag|<span class="chip chip-text">Text</span>|
 
-
-GetValue asks the Web service to get the value stored under the given tag.
 
 ### Store Value
+
+Asks the Web service to store the given value under the given tag.
 
 [[Method('Tiny Web DB', 'Store Value', False, 'tag', 'valueToStore')]]
 
 | Params | []() |
 |--------|------|
-|tag|Text|
-|value To Store|Any|
+|tag|<span class="chip chip-text">Text</span>|
+|value To Store|<span class="chip chip-any">Any</span>|
 
-
-Asks the Web service to store the given value under the given tag.
 
 ## Properties
 

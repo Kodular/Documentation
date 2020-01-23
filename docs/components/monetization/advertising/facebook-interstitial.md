@@ -14,40 +14,40 @@ A non-visible component that shows Facebook ads as full-screen advertisements.
 
 ### Ad Closed
 
-[[Event('Facebook Interstitial', 'Ad Closed')]]
-
 Called when the user is about to return to the application after clicking on an ad
+
+[[Event('Facebook Interstitial', 'Ad Closed')]]
 
 ### Ad Loaded
 
-[[Event('Facebook Interstitial', 'Ad Loaded')]]
-
 Called when an ad is received
 
+[[Event('Facebook Interstitial', 'Ad Loaded')]]
+
 ### Error
+
+Called when an ad request failed. message will display the reason for why the ad failed
 
 [[Event('Facebook Interstitial', 'Error', 'error')]]
 
 | Params | []() |
 |--------|------|
-|error|Text|
+|error|<span class="chip chip-text">Text</span>|
 
-
-Called when an ad request failed. message will display the reason for why the ad failed
 
 ## Methods
 
 ### Load Ad
 
-[[Method('Facebook Interstitial', 'Load Ad', False)]]
-
 Loads a new ad.
+
+[[Method('Facebook Interstitial', 'Load Ad', False)]]
 
 ### Show Ad
 
-[[Method('Facebook Interstitial', 'Show Ad', False)]]
-
 Shows an ad to the user.
+
+[[Method('Facebook Interstitial', 'Show Ad', False)]]
 
 ## Properties
 

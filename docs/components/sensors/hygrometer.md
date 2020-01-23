@@ -14,14 +14,14 @@ A sensor component that can measure the relative ambient air humidity. Most Andr
 
 ### Humidity Changed
 
+Called when a change is detected in the ambient air humidity (expressed as a percentage).
+
 [[Event('Hygrometer', 'Humidity Changed', 'humidity')]]
 
 | Params | []() |
 |--------|------|
-|humidity|Number|
+|humidity|<span class="chip chip-number">Number</span>|
 
-
-Called when a change is detected in the ambient air humidity (expressed as a percentage).
 
 ## Properties
 

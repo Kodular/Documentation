@@ -14,28 +14,28 @@ A non-visible component that allows for uploading of images, videos, audios and 
 
 ### Media Uploaded
 
+Event raised after the Upload Media block has been used
+
 [[Event('Cloudinary', 'Media Uploaded', 'responseContent', 'url')]]
 
 | Params | []() |
 |--------|------|
-|response Content|Text|
-|url|Text|
+|response Content|<span class="chip chip-text">Text</span>|
+|url|<span class="chip chip-text">Text</span>|
 
-
-Event raised after the Upload Media block has been used
 
 ## Methods
 
 ### Upload Media
 
+Uploads the specified media file to your Cloudinary media library.
+
 [[Method('Cloudinary', 'Upload Media', False, 'path')]]
 
 | Params | []() |
 |--------|------|
-|path|Text|
+|path|<span class="chip chip-text">Text</span>|
 
-
-Uploads the specified media file to your Cloudinary media library.
 
 ## Properties
 

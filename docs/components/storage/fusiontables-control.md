@@ -37,14 +37,14 @@ Note that you do not need to worry about UTF-encoding the query. But you do need
 
 ### Got Result
 
+Indicates that the Fusion Tables query has finished processing, with a result. The result of the query will generally be returned in CSV format, and can be converted to list format using the "list from csv table" or "list from csv row" blocks.
+
 [[Event('Fusiontables Control', 'Got Result', 'result')]]
 
 | Params | []() |
 |--------|------|
-|result|Text|
+|result|<span class="chip chip-text">Text</span>|
 
-
-Indicates that the Fusion Tables query has finished processing, with a result. The result of the query will generally be returned in CSV format, and can be converted to list format using the "list from csv table" or "list from csv row" blocks.
 
 ## Methods
 
@@ -52,59 +52,59 @@ Indicates that the Fusion Tables query has finished processing, with a result. T
 
 :warning: ==**Deprecated**==
 
-[[Method('Fusiontables Control', 'Do Query', False)]]
-
 DEPRECATED. This block is deprecated as of the end of 2012. Use SendQuery.
+
+[[Method('Fusiontables Control', 'Do Query', False)]]
 
 ### Forget Login
 
-[[Method('Fusiontables Control', 'Forget Login', False)]]
-
 Forget end-users login credentials. Has no effect on service authentication
 
+[[Method('Fusiontables Control', 'Forget Login', False)]]
+
 ### Get Rows
+
+Gets all the rows from a specified fusion table. The tableId field is the id of therequired fusion table. The columns field is a comma-separeted list of the columns to retrieve.
 
 [[Method('Fusiontables Control', 'Get Rows', False, 'tableId', 'columns')]]
 
 | Params | []() |
 |--------|------|
-|table ID|Text|
-|columns|Text|
+|table ID|<span class="chip chip-text">Text</span>|
+|columns|<span class="chip chip-text">Text</span>|
 
-
-Gets all the rows from a specified fusion table. The tableId field is the id of therequired fusion table. The columns field is a comma-separeted list of the columns to retrieve.
 
 ### Get Rows With Conditions
+
+Gets all the rows from a fusion table that meet certain conditions. The tableId field isthe id of the required fusion table. The columns field is a comma-separated list of the columns toretrieve. The conditions field specifies what rows to retrieve from the table, for example the rows in whicha particular column value is not null.
 
 [[Method('Fusiontables Control', 'Get Rows With Conditions', False, 'tableId', 'columns', 'conditions')]]
 
 | Params | []() |
 |--------|------|
-|table ID|Text|
-|columns|Text|
-|conditions|Text|
+|table ID|<span class="chip chip-text">Text</span>|
+|columns|<span class="chip chip-text">Text</span>|
+|conditions|<span class="chip chip-text">Text</span>|
 
-
-Gets all the rows from a fusion table that meet certain conditions. The tableId field isthe id of the required fusion table. The columns field is a comma-separated list of the columns toretrieve. The conditions field specifies what rows to retrieve from the table, for example the rows in whicha particular column value is not null.
 
 ### Insert Row
+
+Inserts a row into the specified fusion table. The tableId field is the id of thefusion table. The columns is a comma-separated list of the columns to insert values into. The values field specifies what values to insert into each column.
 
 [[Method('Fusiontables Control', 'Insert Row', False, 'tableId', 'columns', 'values')]]
 
 | Params | []() |
 |--------|------|
-|table ID|Text|
-|columns|Text|
-|values|Text|
+|table ID|<span class="chip chip-text">Text</span>|
+|columns|<span class="chip chip-text">Text</span>|
+|values|<span class="chip chip-text">Text</span>|
 
-
-Inserts a row into the specified fusion table. The tableId field is the id of thefusion table. The columns is a comma-separated list of the columns to insert values into. The values field specifies what values to insert into each column.
 
 ### Send Query
 
-[[Method('Fusiontables Control', 'Send Query', False)]]
-
 Send the query to the Fusiontables server.
+
+[[Method('Fusiontables Control', 'Send Query', False)]]
 
 ## Properties
 

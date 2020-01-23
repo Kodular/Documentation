@@ -15,119 +15,119 @@ Powered by the Google Play Games service.
 
 ### Got Player
 
+Got player info
+
 [[Event('Google Play Games', 'Got Player', 'name', 'id', 'level', 'xp')]]
 
 | Params | []() |
 |--------|------|
-|name|Text|
-|id|Text|
-|level|Number|
-|xp|Number|
+|name|<span class="chip chip-text">Text</span>|
+|id|<span class="chip chip-text">Text</span>|
+|level|<span class="chip chip-number">Number</span>|
+|xp|<span class="chip chip-number">Number</span>|
 
-
-Got player info
 
 ### Signed In
+
+User signed in.
 
 [[Event('Google Play Games', 'Signed In', 'success')]]
 
 | Params | []() |
 |--------|------|
-|success|Boolean|
+|success|<span class="chip chip-boolean">Boolean</span>|
 
-
-User signed in.
 
 ### Signed Out
 
-[[Event('Google Play Games', 'Signed Out')]]
-
 User signed out.
+
+[[Event('Google Play Games', 'Signed Out')]]
 
 ## Methods
 
 ### Get Player
 
-[[Method('Google Play Games', 'Get Player', False)]]
-
 Get the current player
 
+[[Method('Google Play Games', 'Get Player', False)]]
+
 ### Increment Achievement
+
+Increment an achievement.
 
 [[Method('Google Play Games', 'Increment Achievement', False, 'achievementId', 'by')]]
 
 | Params | []() |
 |--------|------|
-|achievement Id|Text|
-|by|Number|
+|achievement Id|<span class="chip chip-text">Text</span>|
+|by|<span class="chip chip-number">Number</span>|
 
-
-Increment an achievement.
 
 ### Is Signed In
 
-[[Method('Google Play Games', 'Is Signed In', True)]]
-
-{>>Returns `boolean`<<}
+<span class="chip chip-boolean">Returns: <i>Boolean</i></span> 
 
 Is user signed in?
 
-### Show Achievements
+[[Method('Google Play Games', 'Is Signed In', True)]]
 
-[[Method('Google Play Games', 'Show Achievements', False)]]
+### Show Achievements
 
 Shows Achievement.
 
+[[Method('Google Play Games', 'Show Achievements', False)]]
+
 ### Show Leaderboard
+
+Shows Leaderboard.
 
 [[Method('Google Play Games', 'Show Leaderboard', False, 'leaderboardId')]]
 
 | Params | []() |
 |--------|------|
-|leaderboard Id|Text|
+|leaderboard Id|<span class="chip chip-text">Text</span>|
 
-
-Shows Leaderboard.
 
 ### Sign In
+
+Sign in the user. useLastAccount, true: use the last signed in account if possible, false: open a screen to choose for an account
 
 [[Method('Google Play Games', 'Sign In', False, 'useLastAccount')]]
 
 | Params | []() |
 |--------|------|
-|use Last Account|Boolean|
+|use Last Account|<span class="chip chip-boolean">Boolean</span>|
 
-
-Sign in the user. useLastAccount, true: use the last signed in account if possible, false: open a screen to choose for an account
 
 ### Sign Out
 
-[[Method('Google Play Games', 'Sign Out', False)]]
-
 Sign out the user.
 
+[[Method('Google Play Games', 'Sign Out', False)]]
+
 ### Submit Score
+
+Submits user score to leaderboard.
 
 [[Method('Google Play Games', 'Submit Score', False, 'leaderboardId', 'score')]]
 
 | Params | []() |
 |--------|------|
-|leaderboard Id|Text|
-|score|Number|
+|leaderboard Id|<span class="chip chip-text">Text</span>|
+|score|<span class="chip chip-number">Number</span>|
 
-
-Submits user score to leaderboard.
 
 ### Unlock Achievements
+
+Unlock an achievement.
 
 [[Method('Google Play Games', 'Unlock Achievements', False, 'achievementId')]]
 
 | Params | []() |
 |--------|------|
-|achievement Id|Text|
+|achievement Id|<span class="chip chip-text">Text</span>|
 
-
-Unlock an achievement.
 
 ## Properties
 

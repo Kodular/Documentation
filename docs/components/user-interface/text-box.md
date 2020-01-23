@@ -22,86 +22,86 @@ If the text entered by the user should not be displayed, use `` PasswordTextBox 
 
 ### Got Focus
 
-[[Event('Text Box', 'Got Focus')]]
-
 Event raised when this component is selected for input, such as bythe user touching it.
+
+[[Event('Text Box', 'Got Focus')]]
 
 ### Lost Focus
 
-[[Event('Text Box', 'Lost Focus')]]
-
 Event raised when this component is no longer selected for input, suchas if the user touches a different text box.
+
+[[Event('Text Box', 'Lost Focus')]]
 
 ### On Text Changed
 
-[[Event('Text Box', 'On Text Changed')]]
-
 Event to detect text changes.
+
+[[Event('Text Box', 'On Text Changed')]]
 
 ## Methods
 
 ### Set Animation Style
 
+Allows you to set animation style. Valid (case-insensitive) values are: ChasingDots, Circle, CubeGrid, DoubleBounce, FadingCircle, FoldingCube, Pulse, RotatingCircle, RotatingPlane, ThreeBounce, WanderingCubes, Wave. If invalid style is used, animation will be removed.Position can be: top, left, right, bottom. Size can be 100.
+
 [[Method('Text Box', 'Set Animation Style', False, 'style', 'position', 'size', 'color')]]
 
 | Params | []() |
 |--------|------|
-|style|Text|
-|position|Text|
-|size|Number|
-|color|Number|
+|style|<span class="chip chip-text">Text</span>|
+|position|<span class="chip chip-text">Text</span>|
+|size|<span class="chip chip-number">Number</span>|
+|color|<span class="chip chip-number">Number</span>|
 
-
-Allows you to set animation style. Valid (case-insensitive) values are: ChasingDots, Circle, CubeGrid, DoubleBounce, FadingCircle, FoldingCube, Pulse, RotatingCircle, RotatingPlane, ThreeBounce, WanderingCubes, Wave. If invalid style is used, animation will be removed.Position can be: top, left, right, bottom. Size can be 100.
 
 ### Hide Keyboard
 
-[[Method('Text Box', 'Hide Keyboard', False)]]
-
 Hide the keyboard. Only multiline text boxes need this. Single line text boxes close the keyboard when the users presses the Done key.
+
+[[Method('Text Box', 'Hide Keyboard', False)]]
 
 ### Request Focus
 
-[[Method('Text Box', 'Request Focus', False)]]
-
 Sets the textbox active.
 
+[[Method('Text Box', 'Request Focus', False)]]
+
 ### Set Cursor At
+
+Set the cursor to the given position.
 
 [[Method('Text Box', 'Set Cursor At', False, 'position')]]
 
 | Params | []() |
 |--------|------|
-|position|Number|
+|position|<span class="chip chip-number">Number</span>|
 
-
-Set the cursor to the given position.
 
 ### Set Cursor At End
 
-[[Method('Text Box', 'Set Cursor At End', False)]]
-
 Set the cursor to the end of the text.
 
+[[Method('Text Box', 'Set Cursor At End', False)]]
+
 ### Set Shadow
+
+Place a blurred shadow of text underneath the text, drawn with the specified x, y, radius, color (e.g. -11, 12, 13, black
 
 [[Method('Text Box', 'Set Shadow', False, 'x', 'y', 'radius', 'color')]]
 
 | Params | []() |
 |--------|------|
-|x|Number|
-|y|Number|
-|radius|Number|
-|color|Number|
+|x|<span class="chip chip-number">Number</span>|
+|y|<span class="chip chip-number">Number</span>|
+|radius|<span class="chip chip-number">Number</span>|
+|color|<span class="chip chip-number">Number</span>|
 
-
-Place a blurred shadow of text underneath the text, drawn with the specified x, y, radius, color (e.g. -11, 12, 13, black
 
 ### Show Error Message
 
-[[Method('Text Box', 'Show Error Message', False)]]
-
 Shows an error message next to the textbox.
+
+[[Method('Text Box', 'Show Error Message', False)]]
 
 ## Properties
 

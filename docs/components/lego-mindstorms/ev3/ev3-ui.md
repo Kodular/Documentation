@@ -14,88 +14,88 @@ A component that provides a high-level interface to a LEGO MINDSTORMS EV3 robot,
 
 ### Draw Circle
 
+Draw a circle on the screen.
+
 [[Method('EV3 UI', 'Draw Circle', False, 'color', 'x', 'y', 'radius', 'fill')]]
 
 | Params | []() |
 |--------|------|
-|color|Number|
-|x|Number|
-|y|Number|
-|radius|Number|
-|fill|Boolean|
+|color|<span class="chip chip-number">Number</span>|
+|x|<span class="chip chip-number">Number</span>|
+|y|<span class="chip chip-number">Number</span>|
+|radius|<span class="chip chip-number">Number</span>|
+|fill|<span class="chip chip-boolean">Boolean</span>|
 
-
-Draw a circle on the screen.
 
 ### Draw Icon
+
+Draw a built-in icon on screen.
 
 [[Method('EV3 UI', 'Draw Icon', False, 'color', 'x', 'y', 'type', 'no')]]
 
 | Params | []() |
 |--------|------|
-|color|Number|
-|x|Number|
-|y|Number|
-|type|Number|
-|no|Number|
+|color|<span class="chip chip-number">Number</span>|
+|x|<span class="chip chip-number">Number</span>|
+|y|<span class="chip chip-number">Number</span>|
+|type|<span class="chip chip-number">Number</span>|
+|no|<span class="chip chip-number">Number</span>|
 
-
-Draw a built-in icon on screen.
 
 ### Draw Line
+
+Draw a line on the screen.
 
 [[Method('EV3 UI', 'Draw Line', False, 'color', 'x1', 'y1', 'x2', 'y2')]]
 
 | Params | []() |
 |--------|------|
-|color|Number|
-|x1|Number|
-|y1|Number|
-|x2|Number|
-|y2|Number|
+|color|<span class="chip chip-number">Number</span>|
+|x1|<span class="chip chip-number">Number</span>|
+|y1|<span class="chip chip-number">Number</span>|
+|x2|<span class="chip chip-number">Number</span>|
+|y2|<span class="chip chip-number">Number</span>|
 
-
-Draw a line on the screen.
 
 ### Draw Point
+
+Draw a point on the screen.
 
 [[Method('EV3 UI', 'Draw Point', False, 'color', 'x', 'y')]]
 
 | Params | []() |
 |--------|------|
-|color|Number|
-|x|Number|
-|y|Number|
+|color|<span class="chip chip-number">Number</span>|
+|x|<span class="chip chip-number">Number</span>|
+|y|<span class="chip chip-number">Number</span>|
 
-
-Draw a point on the screen.
 
 ### Draw Rect
+
+Draw a rectangle on the screen.
 
 [[Method('EV3 UI', 'Draw Rect', False, 'color', 'x', 'y', 'width', 'height', 'fill')]]
 
 | Params | []() |
 |--------|------|
-|color|Number|
-|x|Number|
-|y|Number|
-|width|Number|
-|height|Number|
-|fill|Boolean|
+|color|<span class="chip chip-number">Number</span>|
+|x|<span class="chip chip-number">Number</span>|
+|y|<span class="chip chip-number">Number</span>|
+|width|<span class="chip chip-number">Number</span>|
+|height|<span class="chip chip-number">Number</span>|
+|fill|<span class="chip chip-boolean">Boolean</span>|
 
-
-Draw a rectangle on the screen.
 
 ### Fill Screen
+
+Fill the screen with a color.
 
 [[Method('EV3 UI', 'Fill Screen', False, 'color')]]
 
 | Params | []() |
 |--------|------|
-|color|Number|
+|color|<span class="chip chip-number">Number</span>|
 
-
-Fill the screen with a color.
 
 ## Properties
 

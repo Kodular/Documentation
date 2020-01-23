@@ -14,36 +14,36 @@ A component to take a picture using the device's camera. After the picture is ta
 
 ### After Picture
 
+Returns the taken picture.
+
 [[Event('Camera', 'After Picture', 'image')]]
 
 | Params | []() |
 |--------|------|
-|image|Text|
+|image|<span class="chip chip-text">Text</span>|
 
-
-Returns the taken picture.
 
 ## Methods
 
 ### Has Flash
 
-[[Method('Camera', 'Has Flash', True)]]
-
-{>>Returns `boolean`<<}
+<span class="chip chip-boolean">Returns: <i>Boolean</i></span> 
 
 Returns true if your device has a flash.
 
-### Take Picture
+[[Method('Camera', 'Has Flash', True)]]
 
-[[Method('Camera', 'Take Picture', False)]]
+### Take Picture
 
 Take a picture with the camera of your device.
 
+[[Method('Camera', 'Take Picture', False)]]
+
 ### Toggle Light
 
-[[Method('Camera', 'Toggle Light', False)]]
-
 Toggle the flash of your device to on or off.
+
+[[Method('Camera', 'Toggle Light', False)]]
 
 ## Properties
 

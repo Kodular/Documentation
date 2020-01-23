@@ -12,26 +12,26 @@ A Slider is a progress bar that adds a draggable thumb. You can touch the thumb 
 
 ### Position Changed
 
+Indicates that position of the slider thumb has changed.
+
 [[Event('Slider', 'Position Changed', 'thumbPosition')]]
 
 | Params | []() |
 |--------|------|
-|thumb Position|Number|
+|thumb Position|<span class="chip chip-number">Number</span>|
 
-
-Indicates that position of the slider thumb has changed.
 
 ### Touch Down
 
-[[Event('Slider', 'Touch Down')]]
-
 Event will be invoked on a touch down.
+
+[[Event('Slider', 'Touch Down')]]
 
 ### Touch Up
 
-[[Event('Slider', 'Touch Up')]]
-
 Event will be invoked on a touch up.
+
+[[Event('Slider', 'Touch Up')]]
 
 ## Properties
 

@@ -14,69 +14,69 @@ A non-visible component that reads fingerprints using the device''s in-built fin
 
 ### On Authentication Error
 
+Triggers when there is a Authentication Error
+
 [[Event('Fingerprint', 'On Authentication Error', 'errorId', 'message')]]
 
 | Params | []() |
 |--------|------|
-|error Id|Number|
-|message|Text|
+|error Id|<span class="chip chip-number">Number</span>|
+|message|<span class="chip chip-text">Text</span>|
 
-
-Triggers when there is a Authentication Error
 
 ### On Authentication Failed
 
-[[Event('Fingerprint', 'On Authentication Failed')]]
-
 Triggers when the Authentication Failed
 
+[[Event('Fingerprint', 'On Authentication Failed')]]
+
 ### On Authentication Help
+
+Triggers when there is a Authentication Help
 
 [[Event('Fingerprint', 'On Authentication Help', 'helpId', 'message')]]
 
 | Params | []() |
 |--------|------|
-|help Id|Number|
-|message|Text|
+|help Id|<span class="chip chip-number">Number</span>|
+|message|<span class="chip chip-text">Text</span>|
 
-
-Triggers when there is a Authentication Help
 
 ### On Authentication Succeeded
 
-[[Event('Fingerprint', 'On Authentication Succeeded')]]
-
 Trigger when the Authentication Succeeded
+
+[[Event('Fingerprint', 'On Authentication Succeeded')]]
 
 ## Methods
 
 ### Authenticate
 
-[[Method('Fingerprint', 'Authenticate', False)]]
-
 Authenticate the user with a Fingerprint scanner
+
+[[Method('Fingerprint', 'Authenticate', False)]]
 
 ### Cancel Scan
 
-[[Method('Fingerprint', 'Cancel Scan', False)]]
-
 Cancel the current Fingerprint Scan
+
+[[Method('Fingerprint', 'Cancel Scan', False)]]
 
 ### Has Fingerprint Scanner
 
-[[Method('Fingerprint', 'Has Fingerprint Scanner', True)]]
-
-{>>Returns `boolean`<<}
+<span class="chip chip-boolean">Returns: <i>Boolean</i></span> 
 
 True if hardware is present and functional, false otherwise
 
+[[Method('Fingerprint', 'Has Fingerprint Scanner', True)]]
+
 ### Has Fingers Added
 
-[[Method('Fingerprint', 'Has Fingers Added', True)]]
-
-{>>Returns `boolean`<<}
+<span class="chip chip-boolean">Returns: <i>Boolean</i></span> 
 
 True if at least one fingerprint is enrolled, false otherwise
+
+[[Method('Fingerprint', 'Has Fingers Added', True)]]
 
 ## Properties
 

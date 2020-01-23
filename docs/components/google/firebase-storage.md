@@ -14,155 +14,154 @@ Firebase Storage to upload files to a Firebase Storage Bucket
 
 ### Delete Failed
 
+Triggers when the file could not be deleted
+
 [[Event('Firebase Storage', 'Delete Failed', 'file', 'message')]]
 
 | Params | []() |
 |--------|------|
-|file|Text|
-|message|Text|
+|file|<span class="chip chip-text">Text</span>|
+|message|<span class="chip chip-text">Text</span>|
 
-
-Triggers when the file could not be deleted
 
 ### Delete Success
+
+Triggers when the file was successfully deleted
 
 [[Event('Firebase Storage', 'Delete Success', 'file')]]
 
 | Params | []() |
 |--------|------|
-|file|Text|
+|file|<span class="chip chip-text">Text</span>|
 
-
-Triggers when the file was successfully deleted
 
 ### Download Failed
+
+Triggers when the file could not be downloaded
 
 [[Event('Firebase Storage', 'Download Failed', 'file', 'message')]]
 
 | Params | []() |
 |--------|------|
-|file|Text|
-|message|Text|
+|file|<span class="chip chip-text">Text</span>|
+|message|<span class="chip chip-text">Text</span>|
 
-
-Triggers when the file could not be downloaded
 
 ### Download Success
+
+Triggers when the file was successfully downloaded
 
 [[Event('Firebase Storage', 'Download Success', 'file', 'downloadedFile')]]
 
 | Params | []() |
 |--------|------|
-|file|Text|
-|downloaded File|Text|
+|file|<span class="chip chip-text">Text</span>|
+|downloaded File|<span class="chip chip-text">Text</span>|
 
-
-Triggers when the file was successfully downloaded
 
 ### Upload Failed
+
+Triggers when the file could not be uploaded
 
 [[Event('Firebase Storage', 'Upload Failed', 'file', 'message')]]
 
 | Params | []() |
 |--------|------|
-|file|Text|
-|message|Text|
+|file|<span class="chip chip-text">Text</span>|
+|message|<span class="chip chip-text">Text</span>|
 
-
-Triggers when the file could not be uploaded
 
 ### Upload Progress
+
+Triggers when the file upload progress changed
 
 [[Event('Firebase Storage', 'Upload Progress', 'file', 'uploadPath', 'transferredBytes', 'totalBytes')]]
 
 | Params | []() |
 |--------|------|
-|file|Text|
-|upload Path|Text|
-|transferred Bytes|Number|
-|total Bytes|Number|
+|file|<span class="chip chip-text">Text</span>|
+|upload Path|<span class="chip chip-text">Text</span>|
+|transferred Bytes|<span class="chip chip-number">Number</span>|
+|total Bytes|<span class="chip chip-number">Number</span>|
 
-
-Triggers when the file upload progress changed
 
 ### Upload Success
+
+Triggers when the file was successfully uploaded
 
 [[Event('Firebase Storage', 'Upload Success', 'file', 'uploadPath', 'downloadUrl')]]
 
 | Params | []() |
 |--------|------|
-|file|Text|
-|upload Path|Text|
-|download Url|Text|
+|file|<span class="chip chip-text">Text</span>|
+|upload Path|<span class="chip chip-text">Text</span>|
+|download Url|<span class="chip chip-text">Text</span>|
 
-
-Triggers when the file was successfully uploaded
 
 ## Methods
 
 ### Delete File
 
+Try to delete a file from Firebase Storage
+
 [[Method('Firebase Storage', 'Delete File', False, 'file')]]
 
 | Params | []() |
 |--------|------|
-|file|Text|
+|file|<span class="chip chip-text">Text</span>|
 
-
-Try to delete a file from Firebase Storage
 
 ### Download File
+
+Try to download a file from Firebase Storage
 
 [[Method('Firebase Storage', 'Download File', False, 'file', 'toFolder')]]
 
 | Params | []() |
 |--------|------|
-|file|Text|
-|to Folder|Text|
+|file|<span class="chip chip-text">Text</span>|
+|to Folder|<span class="chip chip-text">Text</span>|
 
-
-Try to download a file from Firebase Storage
 
 ### Get Bucket
 
-[[Method('Firebase Storage', 'Get Bucket', True)]]
-
-{>>Returns `text`<<}
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 Get the name of the Storage Bucket
 
-### Pause Downloads
+[[Method('Firebase Storage', 'Get Bucket', True)]]
 
-[[Method('Firebase Storage', 'Pause Downloads', False)]]
+### Pause Downloads
 
 Pause all the active downloads
 
-### Pause Uploads
+[[Method('Firebase Storage', 'Pause Downloads', False)]]
 
-[[Method('Firebase Storage', 'Pause Uploads', False)]]
+### Pause Uploads
 
 Pause all the active uploads
 
-### Resume Downloads
+[[Method('Firebase Storage', 'Pause Uploads', False)]]
 
-[[Method('Firebase Storage', 'Resume Downloads', False)]]
+### Resume Downloads
 
 Resume all the active downloads
 
-### Resume Uploads
+[[Method('Firebase Storage', 'Resume Downloads', False)]]
 
-[[Method('Firebase Storage', 'Resume Uploads', False)]]
+### Resume Uploads
 
 Resume all the active uploads
 
+[[Method('Firebase Storage', 'Resume Uploads', False)]]
+
 ### Upload File
+
+Try to upload a file to Firebase Storage
 
 [[Method('Firebase Storage', 'Upload File', False, 'file', 'uploadPath')]]
 
 | Params | []() |
 |--------|------|
-|file|Text|
-|upload Path|Text|
-
-
-Try to upload a file to Firebase Storage
+|file|<span class="chip chip-text">Text</span>|
+|upload Path|<span class="chip chip-text">Text</span>|

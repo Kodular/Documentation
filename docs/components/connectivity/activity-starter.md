@@ -24,47 +24,47 @@ You can also launch activities that return text data. See the documentation on u
 
 ### Activity Canceled
 
-[[Event('Activity Starter', 'Activity Canceled')]]
-
 Event raised if this ActivityStarter returns because the activity was canceled.
 
+[[Event('Activity Starter', 'Activity Canceled')]]
+
 ### ActivityError
+
+The ActivityError event is no longer used. Please use the Screen.ErrorOccurred event instead.
 
 [[Event('Activity Starter', 'ActivityError', 'message')]]
 
 | Params | []() |
 |--------|------|
-|message|Text|
+|message|<span class="chip chip-text">Text</span>|
 
-
-The ActivityError event is no longer used. Please use the Screen.ErrorOccurred event instead.
 
 ### After Activity
+
+Event raised after this ActivityStarter returns.
 
 [[Event('Activity Starter', 'After Activity', 'result')]]
 
 | Params | []() |
 |--------|------|
-|result|Text|
+|result|<span class="chip chip-text">Text</span>|
 
-
-Event raised after this ActivityStarter returns.
 
 ## Methods
 
 ### Resolve Activity
 
-[[Method('Activity Starter', 'Resolve Activity', True)]]
-
-{>>Returns `text`<<}
+<span class="chip chip-text">Returns: <i>Text</i></span> 
 
 Returns the name of the activity that corresponds to this ActivityStarter, or an empty string if no corresponding activity can be found.
 
+[[Method('Activity Starter', 'Resolve Activity', True)]]
+
 ### Start Activity
 
-[[Method('Activity Starter', 'Start Activity', False)]]
-
 Start the activity corresponding to this ActivityStarter.
+
+[[Method('Activity Starter', 'Start Activity', False)]]
 
 ## Properties
 
