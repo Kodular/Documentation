@@ -1,8 +1,8 @@
 # Spinner
 
-| Category | Version | Requires |
+| Category | Requires | Version |
 |:--------:|:-------:|:--------:|
-|User Interface|3|API 19, Android 4.4 - 4.4.4 KitKat|
+|User Interface|API 19, Android 4.4 - 4.4.4 KitKat|3|
 
 ## Overview
 
@@ -59,9 +59,9 @@ Sets the Spinner list to the elements passed in the comma-separated string.
 
 ### Font Typeface Import
 
- <small>Available as ^^Advanced^^ Property</small>
-
 <span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
+
+ <small>Available as ^^Advanced^^ Property</small>
 
 Set a custom font.
 
@@ -141,9 +141,9 @@ The text size of the spinner items.
 
 ### Use Prompt
 
- <small>Available as ^^Advanced^^ Property</small>
-
 <span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>False</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
+
+ <small>Available as ^^Advanced^^ Property</small>
 
 If true the first spinner item will be the prompt text.
 

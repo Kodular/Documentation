@@ -1,8 +1,8 @@
 # View Pager
 
-| Category | Version | Requires |
+| Category | Requires | Version |
 |:--------:|:-------:|:--------:|
-|Layout > Navigation|3|API 19, Android 4.4 - 4.4.4 KitKat|
+|Layout > Navigation|API 19, Android 4.4 - 4.4.4 KitKat|3|
 
 ## Overview
 
@@ -56,9 +56,9 @@ Removes a before added view from the view pager. If you want to delete the first
 
 ### Show Tabs
 
- <small>Available as ^^Experimental^^ Property</small>
-
 <span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
+
+ <small>Available as ^^Experimental^^ Property</small>
 
 If set to true, you will see tabs above the view pager.
 

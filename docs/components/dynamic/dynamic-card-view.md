@@ -1,8 +1,8 @@
 # Dynamic Card View
 
-| Category | Version | Requires |
+| Category | Requires | Version |
 |:--------:|:-------:|:--------:|
-|Dynamic Components|3|API 19, Android 4.4 - 4.4.4 KitKat|
+|Dynamic Components|API 19, Android 4.4 - 4.4.4 KitKat|3|
 
 :mag: {>>Non-visible component<<}
 
@@ -356,9 +356,9 @@ The stroke width for the card view.
 
 ### Touch Color
 
- <small>Available as ^^Advanced^^ Property</small>
-
 <span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>&HFFCCCCCC</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
+
+ <small>Available as ^^Advanced^^ Property</small>
 
 Set the touch color also known as ripple color to a card view component.
 

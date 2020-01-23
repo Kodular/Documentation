@@ -1,8 +1,8 @@
 # Label
 
-| Category | Version | Requires |
+| Category | Requires | Version |
 |:--------:|:-------:|:--------:|
-|User Interface|9|API 19, Android 4.4 - 4.4.4 KitKat|
+|User Interface|API 19, Android 4.4 - 4.4.4 KitKat|9|
 
 ## Overview
 
@@ -94,9 +94,9 @@ Set the component clickable or not clickable.
 
 ### Font Typeface Import
 
- <small>Available as ^^Advanced^^ Property</small>
-
 <span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
+
+ <small>Available as ^^Advanced^^ Property</small>
 
 Set a custom font.
 
@@ -104,9 +104,9 @@ Set a custom font.
 
 ### HTML Format
 
- <small>Available as ^^Advanced^^ Property</small>
-
 <span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>False</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
+
+ <small>Available as ^^Advanced^^ Property</small>
 
 If true, then this label will show html text else it will show plain text. Note: Not all HTML is supported.
 
@@ -114,9 +114,9 @@ If true, then this label will show html text else it will show plain text. Note:
 
 ### Has Margins
 
- <small>Available as ^^Advanced^^ Property</small>
-
 <span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
+
+ <small>Available as ^^Advanced^^ Property</small>
 
 Reports whether or not the label appears with margins. All four margins (left, right, top, bottom) are the same. This property has no effect in the designer, where labels are always shown with margins.
 
@@ -124,17 +124,17 @@ Reports whether or not the label appears with margins. All four margins (left, r
 
 ### Marquee
 
- <small>Available as ^^Advanced^^ Property</small>
-
 <span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>false</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
+
+ <small>Available as ^^Advanced^^ Property</small>
 
 [[PropertyBlockGetterAndSetter('Label', 'Marquee')]]
 
 ### Rotation Angle
 
- <small>Available as ^^Advanced^^ Property</small>
-
 <span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>0.0</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
+
+ <small>Available as ^^Advanced^^ Property</small>
 
 Sets the degrees that the label is rotated around the pivot point. Increasing values result in clockwise rotation.
 

@@ -1,8 +1,8 @@
 # Orientation Sensor
 
-| Category | Version | Requires |
+| Category | Requires | Version |
 |:--------:|:-------:|:--------:|
-|Sensors|2|API 19, Android 4.4 - 4.4.4 KitKat|
+|Sensors|API 19, Android 4.4 - 4.4.4 KitKat|2|
 
 :mag: {>>Non-visible component<<}
 

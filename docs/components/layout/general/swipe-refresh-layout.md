@@ -1,8 +1,8 @@
 # Swipe Refresh Layout
 
-| Category | Version | Requires |
+| Category | Requires | Version |
 |:--------:|:-------:|:--------:|
-|Layout > General|2|API 19, Android 4.4 - 4.4.4 KitKat|
+|Layout > General|API 19, Android 4.4 - 4.4.4 KitKat|2|
 
 ## Overview
 

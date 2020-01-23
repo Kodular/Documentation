@@ -1,8 +1,8 @@
 # In-App Update
 
-| Category | Version | Requires |
+| Category | Requires | Version |
 |:--------:|:-------:|:--------:|
-|Experimental|1|API 21, Android 5.0 Lollipop|
+|Experimental|API 21, Android 5.0 Lollipop|1|
 
 :mag: {>>Non-visible component<<}
 

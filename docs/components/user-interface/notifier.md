@@ -1,8 +1,8 @@
 # Notifier
 
-| Category | Version | Requires |
+| Category | Requires | Version |
 |:--------:|:-------:|:--------:|
-|User Interface|11|API 19, Android 4.4 - 4.4.4 KitKat|
+|User Interface|API 19, Android 4.4 - 4.4.4 KitKat|11|
 
 :mag: {>>Non-visible component<<}
 
@@ -548,9 +548,9 @@ Specifies the background color for alerts (not dialogs).
 
 ### Dim Amount
 
- <small>Available as ^^Advanced^^ Property</small>
-
 <span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>0.5</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
+
+ <small>Available as ^^Advanced^^ Property</small>
 
 Set the amount of dim behind the dialog window. Use '0.0' for no dim and '1.0' for full dim.
 
@@ -596,9 +596,9 @@ Specifies the text color for alerts or for dialogs message.
 
 ### Text Font Typeface Import
 
- <small>Available as ^^Advanced^^ Property</small>
-
 <span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
+
+ <small>Available as ^^Advanced^^ Property</small>
 
 Set a custom font.
 
@@ -620,9 +620,9 @@ Specifies the title text color for dialogs.
 
 ### Title Font Typeface Import
 
- <small>Available as ^^Advanced^^ Property</small>
-
 <span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
+
+ <small>Available as ^^Advanced^^ Property</small>
 
 Set a custom font.
 

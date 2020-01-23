@@ -1,8 +1,8 @@
 # Youtube Player
 
-| Category | Version | Requires |
+| Category | Requires | Version |
 |:--------:|:-------:|:--------:|
-|Google|2|API 17, Android 4.2.X Jelly Bean|
+|Google|API 17, Android 4.2.X Jelly Bean|2|
 
 ## Overview
 

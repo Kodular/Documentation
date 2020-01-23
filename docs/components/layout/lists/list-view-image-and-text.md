@@ -1,8 +1,8 @@
 # List View Image and Text
 
-| Category | Version | Requires |
+| Category | Requires | Version |
 |:--------:|:-------:|:--------:|
-|Layout > Lists|4|API 19, Android 4.4 - 4.4.4 KitKat|
+|Layout > Lists|API 19, Android 4.4 - 4.4.4 KitKat|4|
 
 ## Overview
 
@@ -107,9 +107,9 @@ Set the background color of the listview
 
 ### Divider Color
 
- <small>Available as ^^Advanced^^ Property</small>
-
 <span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>&HFFCCCCCC</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
+
+ <small>Available as ^^Advanced^^ Property</small>
 
 Set the divider color of the listview
 
@@ -159,9 +159,9 @@ Change the Typeface of the Subtitle
 
 ### Subtitle Font Typeface Import
 
- <small>Available as ^^Advanced^^ Property</small>
-
 <span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
+
+ <small>Available as ^^Advanced^^ Property</small>
 
 Set a custom title font.
 
@@ -169,9 +169,9 @@ Set a custom title font.
 
 ### Subtitle HTML
 
- <small>Available as ^^Advanced^^ Property</small>
-
 <span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>False</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
+
+ <small>Available as ^^Advanced^^ Property</small>
 
 If true, then the subtitle will show html text else it will show plain text. Note: Not all HTML is supported.
 
@@ -219,9 +219,9 @@ Change the Typeface of the Title
 
 ### Title Font Typeface Import
 
- <small>Available as ^^Advanced^^ Property</small>
-
 <span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
+
+ <small>Available as ^^Advanced^^ Property</small>
 
 Set a custom title font.
 
@@ -229,9 +229,9 @@ Set a custom title font.
 
 ### Title HTML
 
- <small>Available as ^^Advanced^^ Property</small>
-
 <span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>False</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
+
+ <small>Available as ^^Advanced^^ Property</small>
 
 If true, then the title will show html text else it will show plain text. Note: Not all HTML is supported.
 

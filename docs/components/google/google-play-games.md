@@ -1,8 +1,8 @@
 # Google Play Games
 
-| Category | Version | Requires |
+| Category | Requires | Version |
 |:--------:|:-------:|:--------:|
-|Google|1|API 19, Android 4.4 - 4.4.4 KitKat|
+|Google|API 19, Android 4.4 - 4.4.4 KitKat|1|
 
 :mag: {>>Non-visible component<<}
 

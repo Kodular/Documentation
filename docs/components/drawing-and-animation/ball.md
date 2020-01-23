@@ -1,8 +1,8 @@
 # Ball
 
-| Category | Version | Requires |
+| Category | Requires | Version |
 |:--------:|:-------:|:--------:|
-|Drawing and Animation|6|API 19, Android 4.4 - 4.4.4 KitKat|
+|Drawing and Animation|API 19, Android 4.4 - 4.4.4 KitKat|6|
 
 ## Overview
 

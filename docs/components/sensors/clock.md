@@ -1,8 +1,8 @@
 # Clock
 
-| Category | Version | Requires |
+| Category | Requires | Version |
 |:--------:|:-------:|:--------:|
-|Sensors|4|API 19, Android 4.4 - 4.4.4 KitKat|
+|Sensors|API 19, Android 4.4 - 4.4.4 KitKat|4|
 
 :mag: {>>Non-visible component<<}
 

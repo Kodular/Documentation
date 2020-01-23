@@ -1,8 +1,8 @@
 # List Picker
 
-| Category | Version | Requires |
+| Category | Requires | Version |
 |:--------:|:-------:|:--------:|
-|User Interface|17|API 19, Android 4.4 - 4.4.4 KitKat|
+|User Interface|API 19, Android 4.4 - 4.4.4 KitKat|17|
 
 ## Overview
 
@@ -152,9 +152,9 @@ Returns the button's background color
 
 ### Border Shadow
 
- <small>Available as ^^Advanced^^ Property</small>
-
 <span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
+
+ <small>Available as ^^Advanced^^ Property</small>
 
 Returns true if the button have a outside border shadow on click.
 
@@ -210,9 +210,9 @@ Font family for button text.
 
 ### Font Typeface Import
 
- <small>Available as ^^Advanced^^ Property</small>
-
 <span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
+
+ <small>Available as ^^Advanced^^ Property</small>
 
 Set a custom font.
 
@@ -220,9 +220,9 @@ Set a custom font.
 
 ### HTML Format
 
- <small>Available as ^^Advanced^^ Property</small>
-
 <span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>False</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
+
+ <small>Available as ^^Advanced^^ Property</small>
 
 If true, then this button will show html text else it will show plain text. Note: Not all HTML is supported.
 
@@ -254,9 +254,9 @@ The text color of the ListPicker items.
 
 ### Rotation Angle
 
- <small>Available as ^^Advanced^^ Property</small>
-
 <span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>0.0</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
+
+ <small>Available as ^^Advanced^^ Property</small>
 
 Sets the degrees that the button is rotated around the pivot point. Increasing values result in clockwise rotation.
 
@@ -280,9 +280,9 @@ Specifies the button's shape (default, rounded, rectangular, oval). The shape wi
 
 ### Show Feedback
 
- <small>Available as ^^Advanced^^ Property</small>
-
 <span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
+
+ <small>Available as ^^Advanced^^ Property</small>
 
 Specifies if a visual feedback should be shown for a button that as an image as background.
 
@@ -298,9 +298,9 @@ Returns current state of ShowFilterBar indicating if Search Filter Bar will be d
 
 ### Status Bar Color
 
- <small>Available as ^^Advanced^^ Property</small>
-
 <span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>&HFF2196F2</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
+
+ <small>Available as ^^Advanced^^ Property</small>
 
 The StatusBarColor of the ListPicker.
 
@@ -308,9 +308,9 @@ The StatusBarColor of the ListPicker.
 
 ### Status Bar Visible
 
- <small>Available as ^^Advanced^^ Property</small>
-
 <span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
+
+ <small>Available as ^^Advanced^^ Property</small>
 
 Whether to show status bar
 
@@ -350,9 +350,9 @@ Optional title displayed at the top of the list of choices.
 
 ### Title Bar Color
 
- <small>Available as ^^Advanced^^ Property</small>
-
 <span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>&HFF03A9F3</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
+
+ <small>Available as ^^Advanced^^ Property</small>
 
 The TitleBarColor of the ListPicker.
 
@@ -360,9 +360,9 @@ The TitleBarColor of the ListPicker.
 
 ### Title Visible
 
- <small>Available as ^^Advanced^^ Property</small>
-
 <span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
+
+ <small>Available as ^^Advanced^^ Property</small>
 
 Whether to show title bar
 
@@ -370,9 +370,9 @@ Whether to show title bar
 
 ### Touch Color
 
- <small>Available as ^^Advanced^^ Property</small>
-
 <span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>&HFFCCCCCC</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
+
+ <small>Available as ^^Advanced^^ Property</small>
 
 Set the buttons touch color.
 

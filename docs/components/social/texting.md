@@ -1,8 +1,8 @@
 # Texting
 
-| Category | Version | Requires |
+| Category | Requires | Version |
 |:--------:|:-------:|:--------:|
-|Social|3|API 19, Android 4.4 - 4.4.4 KitKat|
+|Social|API 19, Android 4.4 - 4.4.4 KitKat|3|
 
 :mag: {>>Non-visible component<<}
 

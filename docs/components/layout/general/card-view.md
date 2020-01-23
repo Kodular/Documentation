@@ -1,8 +1,8 @@
 # Card View
 
-| Category | Version | Requires |
+| Category | Requires | Version |
 |:--------:|:-------:|:--------:|
-|Layout > General|4|API 19, Android 4.4 - 4.4.4 KitKat|
+|Layout > General|API 19, Android 4.4 - 4.4.4 KitKat|4|
 
 ## Overview
 
@@ -133,9 +133,9 @@ The stroke width for the card view.
 
 ### Touch Color
 
- <small>Available as ^^Advanced^^ Property</small>
-
 <span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>&HFFCCCCCC</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
+
+ <small>Available as ^^Advanced^^ Property</small>
 
 Set the touch color also known as ripple color to the card view component.
 

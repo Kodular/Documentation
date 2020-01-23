@@ -1,8 +1,8 @@
 # Sound Recorder
 
-| Category | Version | Requires |
+| Category | Requires | Version |
 |:--------:|:-------:|:--------:|
-|Media|3|API 19, Android 4.4 - 4.4.4 KitKat|
+|Media|API 19, Android 4.4 - 4.4.4 KitKat|3|
 
 :mag: {>>Non-visible component<<}
 

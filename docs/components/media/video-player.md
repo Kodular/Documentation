@@ -1,8 +1,8 @@
 # Video Player
 
-| Category | Version | Requires |
+| Category | Requires | Version |
 |:--------:|:-------:|:--------:|
-|Media|8|API 19, Android 4.4 - 4.4.4 KitKat|
+|Media|API 19, Android 4.4 - 4.4.4 KitKat|8|
 
 ## Overview
 

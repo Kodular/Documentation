@@ -1,8 +1,8 @@
 # Facebook Rewarded Video
 
-| Category | Version | Requires |
+| Category | Requires | Version |
 |:--------:|:-------:|:--------:|
-|Monetization > Advertising|2|API 19, Android 4.4 - 4.4.4 KitKat|
+|Monetization > Advertising|API 19, Android 4.4 - 4.4.4 KitKat|2|
 
 :mag: {>>Non-visible component<<}
 

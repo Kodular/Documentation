@@ -1,8 +1,8 @@
 # Bottom Navigation
 
-| Category | Version | Requires |
+| Category | Requires | Version |
 |:--------:|:-------:|:--------:|
-|Layout > Navigation|1|API 19, Android 4.4 - 4.4.4 KitKat|
+|Layout > Navigation|API 19, Android 4.4 - 4.4.4 KitKat|1|
 
 ## Overview
 

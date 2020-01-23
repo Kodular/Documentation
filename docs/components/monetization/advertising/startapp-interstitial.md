@@ -1,8 +1,8 @@
 # StartApp Interstitial
 
-| Category | Version | Requires |
+| Category | Requires | Version |
 |:--------:|:-------:|:--------:|
-|Monetization > Advertising|1|API 19, Android 4.4 - 4.4.4 KitKat|
+|Monetization > Advertising|API 19, Android 4.4 - 4.4.4 KitKat|1|
 
 :mag: {>>Non-visible component<<}
 

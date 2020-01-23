@@ -1,8 +1,8 @@
 # Fusiontables Control
 
-| Category | Version | Requires |
+| Category | Requires | Version |
 |:--------:|:-------:|:--------:|
-|Storage|4|API 19, Android 4.4 - 4.4.4 KitKat|
+|Storage|API 19, Android 4.4 - 4.4.4 KitKat|4|
 
 :mag: {>>Non-visible component<<}
 

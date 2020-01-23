@@ -1,8 +1,8 @@
 # Arduino
 
-| Category | Version | Requires |
+| Category | Requires | Version |
 |:--------:|:-------:|:--------:|
-|Connectivity|1|API 19, Android 4.4 - 4.4.4 KitKat|
+|Connectivity|API 19, Android 4.4 - 4.4.4 KitKat|1|
 
 :mag: {>>Non-visible component<<}
 

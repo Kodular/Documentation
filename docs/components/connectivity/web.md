@@ -1,8 +1,8 @@
 # Web
 
-| Category | Version | Requires |
+| Category | Requires | Version |
 |:--------:|:-------:|:--------:|
-|Connectivity|6|API 19, Android 4.4 - 4.4.4 KitKat|
+|Connectivity|API 19, Android 4.4 - 4.4.4 KitKat|6|
 
 :mag: {>>Non-visible component<<}
 

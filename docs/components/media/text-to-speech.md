@@ -1,8 +1,8 @@
 # Text To Speech
 
-| Category | Version | Requires |
+| Category | Requires | Version |
 |:--------:|:-------:|:--------:|
-|Media|5|API 19, Android 4.4 - 4.4.4 KitKat|
+|Media|API 19, Android 4.4 - 4.4.4 KitKat|5|
 
 :mag: {>>Non-visible component<<}
 

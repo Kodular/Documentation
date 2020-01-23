@@ -1,8 +1,8 @@
 # Custom Tabs
 
-| Category | Version | Requires |
+| Category | Requires | Version |
 |:--------:|:-------:|:--------:|
-|Experimental|2|API 19, Android 4.4 - 4.4.4 KitKat|
+|Experimental|API 19, Android 4.4 - 4.4.4 KitKat|2|
 
 :mag: {>>Non-visible component<<}
 

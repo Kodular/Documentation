@@ -1,8 +1,8 @@
 # AdMob Banner
 
-| Category | Version | Requires |
+| Category | Requires | Version |
 |:--------:|:-------:|:--------:|
-|Monetization > Advertising|3|API 19, Android 4.4 - 4.4.4 KitKat|
+|Monetization > Advertising|API 19, Android 4.4 - 4.4.4 KitKat|3|
 
 ## Overview
 

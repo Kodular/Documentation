@@ -1,8 +1,8 @@
 # Dynamic Text Box
 
-| Category | Version | Requires |
+| Category | Requires | Version |
 |:--------:|:-------:|:--------:|
-|Dynamic Components|3|API 19, Android 4.4 - 4.4.4 KitKat|
+|Dynamic Components|API 19, Android 4.4 - 4.4.4 KitKat|3|
 
 :mag: {>>Non-visible component<<}
 

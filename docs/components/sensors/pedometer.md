@@ -1,8 +1,8 @@
 # Pedometer
 
-| Category | Version | Requires |
+| Category | Requires | Version |
 |:--------:|:-------:|:--------:|
-|Sensors|3|API 19, Android 4.4 - 4.4.4 KitKat|
+|Sensors|API 19, Android 4.4 - 4.4.4 KitKat|3|
 
 :mag: {>>Non-visible component<<}
 

@@ -1,8 +1,8 @@
 # Image Editor
 
-| Category | Version | Requires |
+| Category | Requires | Version |
 |:--------:|:-------:|:--------:|
-|Drawing and Animation|1|API 19, Android 4.4 - 4.4.4 KitKat|
+|Drawing and Animation|API 19, Android 4.4 - 4.4.4 KitKat|1|
 
 :mag: {>>Non-visible component<<}
 

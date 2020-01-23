@@ -1,8 +1,8 @@
 # Dynamic Image
 
-| Category | Version | Requires |
+| Category | Requires | Version |
 |:--------:|:-------:|:--------:|
-|Dynamic Components|2|API 19, Android 4.4 - 4.4.4 KitKat|
+|Dynamic Components|API 19, Android 4.4 - 4.4.4 KitKat|2|
 
 :mag: {>>Non-visible component<<}
 

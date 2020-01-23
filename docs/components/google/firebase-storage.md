@@ -1,8 +1,8 @@
 # Firebase Storage
 
-| Category | Version | Requires |
+| Category | Requires | Version |
 |:--------:|:-------:|:--------:|
-|Google|2|API 19, Android 4.4 - 4.4.4 KitKat|
+|Google|API 19, Android 4.4 - 4.4.4 KitKat|2|
 
 :mag: {>>Non-visible component<<}
 

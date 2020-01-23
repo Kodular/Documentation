@@ -1,8 +1,8 @@
 # Proximity Sensor
 
-| Category | Version | Requires |
+| Category | Requires | Version |
 |:--------:|:-------:|:--------:|
-|Sensors|1|API 19, Android 4.4 - 4.4.4 KitKat|
+|Sensors|API 19, Android 4.4 - 4.4.4 KitKat|1|
 
 :mag: {>>Non-visible component<<}
 

@@ -1,8 +1,8 @@
 # Audio
 
-| Category | Version | Requires |
+| Category | Requires | Version |
 |:--------:|:-------:|:--------:|
-|Utilities|3|API 19, Android 4.4 - 4.4.4 KitKat|
+|Utilities|API 19, Android 4.4 - 4.4.4 KitKat|3|
 
 :mag: {>>Non-visible component<<}
 

@@ -1,8 +1,8 @@
 # Speech Recognizer
 
-| Category | Version | Requires |
+| Category | Requires | Version |
 |:--------:|:-------:|:--------:|
-|Media|2|API 19, Android 4.4 - 4.4.4 KitKat|
+|Media|API 19, Android 4.4 - 4.4.4 KitKat|2|
 
 :mag: {>>Non-visible component<<}
 

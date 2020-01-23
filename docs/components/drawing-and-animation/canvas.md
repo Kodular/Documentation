@@ -1,8 +1,8 @@
 # Canvas
 
-| Category | Version | Requires |
+| Category | Requires | Version |
 |:--------:|:-------:|:--------:|
-|Drawing and Animation|13|API 19, Android 4.4 - 4.4.4 KitKat|
+|Drawing and Animation|API 19, Android 4.4 - 4.4.4 KitKat|13|
 
 ## Overview
 
@@ -345,9 +345,9 @@ The font size of text drawn on the canvas.
 
 ### Font Typeface Import
 
- <small>Available as ^^Advanced^^ Property</small>
-
 <span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
+
+ <small>Available as ^^Advanced^^ Property</small>
 
 Set a custom font.
 

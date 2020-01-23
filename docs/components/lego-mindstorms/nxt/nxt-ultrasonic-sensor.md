@@ -1,8 +1,8 @@
 # NXT Ultrasonic Sensor
 
-| Category | Version | Requires |
+| Category | Requires | Version |
 |:--------:|:-------:|:--------:|
-|LEGO® MINDSTORMS® > Nxt|1|API 19, Android 4.4 - 4.4.4 KitKat|
+|LEGO® MINDSTORMS® > Nxt|API 19, Android 4.4 - 4.4.4 KitKat|1|
 
 :mag: {>>Non-visible component<<}
 

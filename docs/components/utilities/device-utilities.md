@@ -1,8 +1,8 @@
 # Device Utilities
 
-| Category | Version | Requires |
+| Category | Requires | Version |
 |:--------:|:-------:|:--------:|
-|Utilities|5|API 19, Android 4.4 - 4.4.4 KitKat|
+|Utilities|API 19, Android 4.4 - 4.4.4 KitKat|5|
 
 :mag: {>>Non-visible component<<}
 
