@@ -60,11 +60,9 @@ Whether the BelowRange event should fire when the light level goes below the Bot
 
 ### Bluetooth Client
 
-<span class="chip chip-component">Component</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
+<span class="chip chip-component">Component</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> 
 
 The BluetoothClient component that should be used for communication.
-
-[[PropertyBlockGetterAndSetter('NXT Light Sensor', 'Bluetooth Client')]]
 
 ### Bottom Of Range
 
@@ -84,11 +82,9 @@ Whether the light sensor should generate light.
 
 ### Sensor Port
 
-<span class="chip chip-text">Text</span> <span class="chip chip-text">Default: <i>3</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
+<span class="chip chip-text">Text</span> <span class="chip chip-text">Default: <i>3</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> 
 
 The sensor port that the sensor is connected to.
-
-[[PropertyBlockGetterAndSetter('NXT Light Sensor', 'Sensor Port')]]
 
 ### Top Of Range
 

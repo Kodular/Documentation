@@ -165,11 +165,9 @@ Tag a user based on an app event of your choosing so later you can create segmen
 
 ### OneSignal App ID
 
-<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
+<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> 
 
 Set here your One Signal App ID
-
-[[PropertyBlockGetterAndSetter('Push Notifications', 'OneSignal App ID')]]
 
 ### Enable Log
 

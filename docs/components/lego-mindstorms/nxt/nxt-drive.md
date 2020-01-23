@@ -90,19 +90,15 @@ Turn the robot counterclockwise indefinitely, with the specified percentage of m
 
 ### Bluetooth Client
 
-<span class="chip chip-component">Component</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
+<span class="chip chip-component">Component</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> 
 
 The BluetoothClient component that should be used for communication.
 
-[[PropertyBlockGetterAndSetter('NXT Drive', 'Bluetooth Client')]]
-
 ### Drive Motors
 
-<span class="chip chip-text">Text</span> <span class="chip chip-text">Default: <i>CB</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
+<span class="chip chip-text">Text</span> <span class="chip chip-text">Default: <i>CB</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> 
 
 The motor ports that are used for driving: the left wheel's motor port followed by the right wheel's motor port.
-
-[[PropertyBlockGetterAndSetter('NXT Drive', 'Drive Motors')]]
 
 ### Stop Before Disconnect
 
@@ -114,8 +110,6 @@ Whether to stop the drive motors before disconnecting.
 
 ### Wheel Diameter
 
-<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>4.32</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>4.32</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> 
 
 The diameter of the wheels used for driving.
-
-[[PropertyBlockGetterAndSetter('NXT Drive', 'Wheel Diameter')]]

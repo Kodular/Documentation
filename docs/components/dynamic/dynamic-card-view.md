@@ -358,7 +358,7 @@ The stroke width for the card view.
 
 <span class="chip chip-number">Number</span> <span class="chip chip-number" style="background-color: #CCCCCC;">Default: <i>#CCCCCCFF</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
- <small>Available as ^^Advanced^^ Property</small>
+<small>Available as ^^Advanced^^ Property</small>
 
 Set the touch color also known as ripple color to a card view component.
 

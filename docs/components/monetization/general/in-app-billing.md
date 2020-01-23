@@ -208,11 +208,9 @@ Do not use this block anymore. This block is deprecated and does nothing and wil
 
 :warning: ==**Deprecated**==
 
-<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>true</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>true</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> 
 
 Do not use this block anymore. This block is deprecated and does nothing and will be removed in the future!
-
-[[PropertyBlockGetterAndSetter('In App Billing', 'Suppress Toast')]]
 
 ### Test Mode
 

@@ -210,11 +210,9 @@ The interval in milliseconds at which the Ball's position is updated. For exampl
 
 ### Origin At Center
 
-<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>False</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
+<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>False</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> 
 
 Whether the x- and y-coordinates should represent the center of the Ball (`` true ``) or its left and top edges (`` false ``).
-
-[[PropertyBlockGetterAndSetter('Ball', 'Origin At Center')]]
 
 ### Paint Color
 

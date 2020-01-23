@@ -85,11 +85,9 @@ It will show the Interstitial Ad
 
 ### Application Key
 
-<span class="chip chip-text">Text</span> <span class="chip chip-text">Default: <i>ApplicationKey</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
+<span class="chip chip-text">Text</span> <span class="chip chip-text">Default: <i>ApplicationKey</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> 
 
 Enter Application Key. Go to Amazon Developer Portal and sign-in for your ApplicationKey
-
-[[PropertyBlockGetterAndSetter('Amazon Interstitial', 'Application Key')]]
 
 ### Interstitial Commission
 

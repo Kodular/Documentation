@@ -254,11 +254,9 @@ Specifies whether the component should be visible on the screen. Value is true i
 
 ### ShowShadow
 
-<span class="chip chip-boolean">Boolean</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Blocks</span> 
+<span class="chip chip-boolean">Boolean</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - 
 
 Gets whether or not the shadow of the Marker is shown.
-
-[[PropertyBlockGetterAndSetter('Marker', 'ShowShadow')]]
 
 ### Type
 

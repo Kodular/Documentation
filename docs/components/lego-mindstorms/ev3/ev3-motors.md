@@ -180,11 +180,9 @@ Specifies whether to keep motor rotation at constant speed.
 
 ### Motor Ports
 
-<span class="chip chip-text">Text</span> <span class="chip chip-text">Default: <i>ABC</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
+<span class="chip chip-text">Text</span> <span class="chip chip-text">Default: <i>ABC</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> 
 
 The motor ports that the motors are connected to. The ports are specified by a sequence of port letters.
-
-[[PropertyBlockGetterAndSetter('EV3 Motors', 'Motor Ports')]]
 
 ### Reverse Direction
 
@@ -212,8 +210,6 @@ Whether the TachoCountChanged event should fire when the angle is changed.
 
 ### Wheel Diameter
 
-<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>4.32</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Non-Visible</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
+<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>4.32</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> 
 
 Specifies the diameter of the wheels attached on motors.
-
-[[PropertyBlockGetterAndSetter('EV3 Motors', 'Wheel Diameter')]]
