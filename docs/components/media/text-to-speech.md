@@ -8,7 +8,7 @@
 
 ## Overview
 
-The TestToSpeech component speaks a given text aloud.  You can set the pitch and the rate of speech. 
+The TestToSpeech component speaks a given text aloud. You can set the pitch and the rate of speech. 
 
 You can also set a language by supplying a language code. This changes the pronounciation of words, not the actual language spoken. For example, setting the language to French and speaking English text will sound like someone speaking English (en) with a French accent.
 
@@ -69,7 +69,7 @@ Speaks the given message.
 |:----:|
 |text|
 
-Country code to use for speech generation.  This can affect the pronounciation.  For example, British English (GBR) will sound different from US English (USA).  Not every country code will affect every language.
+Country code to use for speech generation. This can affect the pronounciation. For example, British English (GBR) will sound different from US English (USA). Not every country code will affect every language.
 
 ### Language
 
@@ -82,7 +82,7 @@ Country code to use for speech generation.  This can affect the pronounciation. 
 |:----:|
 |text|
 
-Sets the language for TextToSpeech. This changes the way that words are pronounced, not the actual language that is spoken.  For example setting the language to and speaking English text with sound like someone speaking English with a French accent.
+Sets the language for TextToSpeech. This changes the way that words are pronounced, not the actual language that is spoken. For example setting the language to and speaking English text with sound like someone speaking English with a French accent.
 
 ### Pitch
 
@@ -119,7 +119,7 @@ Sets the SpeechRate for TextToSpeech. The values should be between 0 and 2 where
 |:----:|:-------:|
 |list|None|
 
-List of the country codes available on this device for use with TextToSpeech.  Check the Android developer documentation under supported languages to find the meanings of these abbreviations.
+List of the country codes available on this device for use with TextToSpeech. Check the Android developer documentation under supported languages to find the meanings of these abbreviations.
 
 ### Available Languages
 
@@ -130,7 +130,7 @@ List of the country codes available on this device for use with TextToSpeech.  C
 |:----:|:-------:|
 |list|None|
 
-List of the languages available on this device for use with TextToSpeech.  Check the Android developer documentation under supported languages to find the meanings of these abbreviations.
+List of the languages available on this device for use with TextToSpeech. Check the Android developer documentation under supported languages to find the meanings of these abbreviations.
 
 ### Result
 

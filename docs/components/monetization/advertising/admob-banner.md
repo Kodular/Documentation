@@ -108,7 +108,7 @@ Set Ad Unit ID
 |:----:|:-------:|
 |boolean|False|
 
-If enabled you will see the consent dialog no matter if you are located in Europe or not. Please use this option only in development.  If this setting is enabled ALL taken consents will not be saved.
+If enabled you will see the consent dialog no matter if you are located in Europe or not. Please use this option only in development. If this setting is enabled ALL taken consents will not be saved.
 
 ### Consent Message
 

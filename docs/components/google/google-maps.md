@@ -217,7 +217,7 @@ _Block preview not available_
     |markers|`list`|
 
 
-Adding a list of YailLists for markers. The representation of a maker in the inner YailList is composed of: lat(double) [required], long(double) [required], Color, title(String), snippet(String), draggable(boolean). Return a list of unqiue ids for the added  markers. Note that the markers ids are not meant to persist after  the app is closed, but for temporary references to the markers within the program only. Return an empty list if any error happen in the input
+Adding a list of YailLists for markers. The representation of a maker in the inner YailList is composed of: lat(double) [required], long(double) [required], Color, title(String), snippet(String), draggable(boolean). Return a list of unqiue ids for the added markers. Note that the markers ids are not meant to persist after the app is closed, but for temporary references to the markers within the program only. Return an empty list if any error happen in the input
 
 ### AddMarkersFromJson
 
@@ -230,7 +230,7 @@ _Block preview not available_
     |json String|`text`|
 
 
-Adding a list of markers that are represented as JsonArray.  The inner JsonObject represents a markerand is composed of name-value pairs. Name fields for a marker are: "lat" (type double) [required], "lng"(type double) [required], "color"(type int)[in hue value ranging from 0~360], "title"(type String), "snippet"(type String), "draggable"(type boolean)
+Adding a list of markers that are represented as JsonArray. The inner JsonObject represents a markerand is composed of name-value pairs. Name fields for a marker are: "lat" (type double) [required], "lng"(type double) [required], "color"(type int)[in hue value ranging from 0~360], "title"(type String), "snippet"(type String), "draggable"(type boolean)
 
 ### AddMarkersHue
 
@@ -395,7 +395,7 @@ _Block preview not available_
     |enable|`boolean`|
 
 
-Enables/disables zoom gesture on the map ui. Call this only after the event  "MapIsReady" is received.
+Enables/disables zoom gesture on the map ui. Call this only after the event "MapIsReady" is received.
 
 ### GetAllCircleIDs
 

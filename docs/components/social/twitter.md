@@ -70,7 +70,7 @@ This event is raised when the messages requested through `` RequestFriendTimelin
 
 [[Event('Twitter', 'Is Authorized')]]
 
-This event is raised after the program calls `` Authorize `` if the authorization was successful.  It is also called after a call to `` CheckAuthorized `` if we already have a valid access token. After this event has been raised, any other method for this component can be called.
+This event is raised after the program calls `` Authorize `` if the authorization was successful. It is also called after a call to `` CheckAuthorized `` if we already have a valid access token. After this event has been raised, any other method for this component can be called.
 
 ### Mentions Received
 
@@ -83,7 +83,7 @@ This event is raised after the program calls `` Authorize `` if the authorizatio
     |mentions|`list`|
 
 
-This event is raised when the mentions of the logged-in user requested through `` RequestMentions `` have been retrieved.  A list of the mentions can then be found in the `` mentions `` parameter or the `` Mentions `` property.
+This event is raised when the mentions of the logged-in user requested through `` RequestMentions `` have been retrieved. A list of the mentions can then be found in the `` mentions `` parameter or the `` Mentions `` property.
 
 ### Search Successful
 
@@ -130,7 +130,7 @@ _Block preview not available_
     |message|`text`|
 
 
-This sends a direct (private) message to the specified user.  The message will be trimmed if it exceeds 160characters. 
+This sends a direct (private) message to the specified user. The message will be trimmed if it exceeds 160characters. 
 
 <u>Requirements</u>: This should only be called after the `` IsAuthorized `` event has been raised, indicating that the user has successfully logged in to Twitter.
 
@@ -165,7 +165,7 @@ Twitter's API no longer supports login via username and password. Use the Author
 
 _Block preview not available_
 
-Requests the 20 most recent direct messages sent to the logged-in user.  When the messages have been retrieved, the system will raise the `` DirectMessagesReceived `` event and set the `` DirectMessages `` property to the list of messages.
+Requests the 20 most recent direct messages sent to the logged-in user. When the messages have been retrieved, the system will raise the `` DirectMessagesReceived `` event and set the `` DirectMessages `` property to the list of messages.
 
 <u>Requirements</u>: This should only be called after the `` IsAuthorized `` event has been raised, indicating that the user has successfully logged in to Twitter.
 
@@ -185,7 +185,7 @@ Gets the most recent 20 messages in the user's timeline.
 
 _Block preview not available_
 
-Requests the 20 most recent mentions of the logged-in user.  When the mentions have been retrieved, the system will raise the `` MentionsReceived `` event and set the `` Mentions `` property to the list of mentions.
+Requests the 20 most recent mentions of the logged-in user. When the mentions have been retrieved, the system will raise the `` MentionsReceived `` event and set the `` Mentions `` property to the list of mentions.
 
 <u>Requirements</u>: This should only be called after the `` IsAuthorized `` event has been raised, indicating that the user has successfully logged in to Twitter.
 
@@ -285,7 +285,7 @@ ConsumerSecret property getter method.
 |:----:|:-------:|
 |list|None|
 
-This property contains a list of the most recent messages mentioning the logged-in user.  Initially, the list is empty.  To set it, the program must: 
+This property contains a list of the most recent messages mentioning the logged-in user. Initially, the list is empty. To set it, the program must: 
 
  1.    Call the `` Authorize `` method.
  2.    Wait for the `` Authorized `` event.
@@ -303,7 +303,7 @@ This property contains a list of the most recent messages mentioning the logged-
 |:----:|:-------:|
 |list|None|
 
-This property contains a list of the followers of the logged-in user.  Initially, the list is empty.  To set it, the program must: 
+This property contains a list of the followers of the logged-in user. Initially, the list is empty. To set it, the program must: 
 
  1.    Call the `` Authorize `` method.
  2.    Wait for the `` IsAuthorized `` event.
@@ -321,7 +321,7 @@ This property contains a list of the followers of the logged-in user.  Initially
 |:----:|:-------:|
 |list|None|
 
-This property contains the 20 most recent messages of users being followed.  Initially, the list is empty.  To set it, the program must: 
+This property contains the 20 most recent messages of users being followed. Initially, the list is empty. To set it, the program must: 
 
  1.    Call the `` Authorize `` method.
  2.    Wait for the `` IsAuthorized `` event.
@@ -341,7 +341,7 @@ This property contains the 20 most recent messages of users being followed.  Ini
 |:----:|:-------:|
 |list|None|
 
-This property contains a list of mentions of the logged-in user.  Initially, the list is empty.  To set it, the program must: 
+This property contains a list of mentions of the logged-in user. Initially, the list is empty. To set it, the program must: 
 
  1.    Call the `` Authorize `` method.
  2.    Wait for the `` IsAuthorized `` event.
@@ -364,7 +364,7 @@ This property, which is initially empty, is set to a list of search results afte
 1.   Calls the `` SearchTwitter `` method.
  2.   Waits for the `` SearchSuccessful `` event.
 
-  The value of the property will then be the same as the parameter to `` SearchSuccessful ``.  Note that it is not necessary to call the `` Authorize `` method before calling `` SearchTwitter ``.
+  The value of the property will then be the same as the parameter to `` SearchSuccessful ``. Note that it is not necessary to call the `` Authorize `` method before calling `` SearchTwitter ``.
 
 ### TwitPic_API_Key
 

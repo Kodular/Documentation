@@ -56,7 +56,7 @@ _Block preview not available_
     |message|`text`|
 
 
-Shares both a file and a message through any capable application installed on the phone by displaying a list of available apps and allowing the user to  choose one from the list. The selected app will open with the file and message inserted on it.
+Shares both a file and a message through any capable application installed on the phone by displaying a list of available apps and allowing the user to choose one from the list. The selected app will open with the file and message inserted on it.
 
 ### ShareMessage
 

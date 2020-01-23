@@ -38,7 +38,7 @@ Triggered when distance (in cm) of the object to the device changes.
 |:----:|:-------:|
 |boolean|True|
 
-If true, the sensor will generate events.  Otherwise, no events   are generated .
+If true, the sensor will generate events. Otherwise, no events   are generated .
 
 ### Keep Running When On Pause
 

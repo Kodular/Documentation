@@ -215,4 +215,4 @@ _Block preview not available_
     |duration|`number`|
 
 
-Start a zoom animation.  'tension' is set to 0 you will not see a overshoot animation. Then you will see just a simple deceleration animation. The duration is set in millisecond. Use as example for 1 second '1000'.
+Start a zoom animation. 'tension' is set to 0 you will not see a overshoot animation. Then you will see just a simple deceleration animation. The duration is set in millisecond. Use as example for 1 second '1000'.

@@ -37,7 +37,7 @@ Long click listener event.
 |:----:|:-------:|
 |number|1|
 
-A number that encodes how contents of the arrangement are aligned  horizontally. The choices are: 1 = left aligned, 2 = right aligned,  3 = horizontally centered.  Alignment has no effect if the arrangement's width is automatic.
+A number that encodes how contents of the arrangement are aligned horizontally. The choices are: 1 = left aligned, 2 = right aligned, 3 = horizontally centered. Alignment has no effect if the arrangement's width is automatic.
 
 ### Align Vertical
 
@@ -50,7 +50,7 @@ A number that encodes how contents of the arrangement are aligned  horizontally.
 |:----:|:-------:|
 |number|1|
 
-A number that encodes how the contents of the arrangement are aligned  vertically. The choices are: 1 = aligned at the top, 2 = vertically centered, 3 = aligned at the bottom.  Alignment has no effect if the arrangement's height is automatic.
+A number that encodes how the contents of the arrangement are aligned vertically. The choices are: 1 = aligned at the top, 2 = vertically centered, 3 = aligned at the bottom. Alignment has no effect if the arrangement's height is automatic.
 
 ### Background Color
 

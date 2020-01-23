@@ -6,7 +6,7 @@
 
 ## Overview
 
-An EmailPicker is a kind of text box.  If the user begins entering the name or email address of a contact, the phone will show a dropdown menu of choices that complete the entry.  If there are many contacts, the dropdown can take several seconds to appear, and can show intermediate results while the matches are being computed. 
+An EmailPicker is a kind of text box. If the user begins entering the name or email address of a contact, the phone will show a dropdown menu of choices that complete the entry. If there are many contacts, the dropdown can take several seconds to appear, and can show intermediate results while the matches are being computed. 
 
 The initial contents of the text box and the contents&lt; after user entry is in the `` Text `` property. If the `` Text `` property is initially empty, the contents of the `` Hint `` property will be faintly shown in the text box as a hint to the user.
 
@@ -110,7 +110,7 @@ Place a blurred shadow of text underneath the text, drawn with the specified x, 
 |:----:|:-------:|
 |number|&H00000000|
 
-The background color of the input box.  You can choose a color by name in the Designer or in the Blocks Editor.  The default background color is 'default' (shaded 3-D look).
+The background color of the input box. You can choose a color by name in the Designer or in the Blocks Editor. The default background color is 'default' (shaded 3-D look).
 
 ### Cursor Color
 
@@ -149,7 +149,7 @@ Makes the cursor visible (the default) or invisible.
 |:----:|:-------:|
 |boolean|True|
 
-Whether the user can enter text into this input box.  By default, this is true.
+Whether the user can enter text into this input box. By default, this is true.
 
 ### Font Bold
 
@@ -162,7 +162,7 @@ Whether the user can enter text into this input box.  By default, this is true.
 |:----:|:-------:|
 |boolean|False|
 
-Whether the font for the text should be bold.  By default, it is not.
+Whether the font for the text should be bold. By default, it is not.
 
 ### Font Italic
 
@@ -175,7 +175,7 @@ Whether the font for the text should be bold.  By default, it is not.
 |:----:|:-------:|
 |boolean|False|
 
-Whether the text should appear in italics.  By default, it does not.
+Whether the text should appear in italics. By default, it does not.
 
 ### Font Size
 
@@ -188,7 +188,7 @@ Whether the text should appear in italics.  By default, it does not.
 |:----:|:-------:|
 |number|14.0|
 
-The font size for the text.  By default, it is 14.0 points.
+The font size for the text. By default, it is 14.0 points.
 
 ### Font Typeface
 
@@ -201,7 +201,7 @@ The font size for the text.  By default, it is 14.0 points.
 |:----:|:-------:|
 |number|0|
 
-The font for the text.  The value can be changed in the Designer.
+The font for the text. The value can be changed in the Designer.
 
 ### Font Typeface Import
 
@@ -227,7 +227,7 @@ Set a custom font.
 |:----:|
 |text|
 
-Text that should appear faintly in the input box to provide a hint as to what the user should enter.  This can only be seen if the `` Text `` property is empty.
+Text that should appear faintly in the input box to provide a hint as to what the user should enter. This can only be seen if the `` Text `` property is empty.
 
 ### Hint Color
 
@@ -279,7 +279,7 @@ Returns the textbox contents.
 |:----:|:-------:|
 |number|0|
 
-Whether the text should be left justified, centered, or right justified.  By default, text is left justified.
+Whether the text should be left justified, centered, or right justified. By default, text is left justified.
 
 ### Text Color
 
@@ -292,7 +292,7 @@ Whether the text should be left justified, centered, or right justified.  By def
 |:----:|:-------:|
 |number|&HFF000000|
 
-The color for the text.  You can choose a color by name in the Designer or in the Blocks Editor.  The default text color is black.
+The color for the text. You can choose a color by name in the Designer or in the Blocks Editor. The default text color is black.
 
 ### Visible
 

@@ -29,7 +29,7 @@ Event to be raised after the picker activity returns its   result and the proper
 
 [[Event('List Picker', 'Before Picking')]]
 
-Event to raise when the button of the component is clicked or the list is shown   using the Open block.  This event occurs before the list of items is displayed, and   can be used to prepare the list before it is shown.
+Event to raise when the button of the component is clicked or the list is shown   using the Open block. This event occurs before the list of items is displayed, and   can be used to prepare the list before it is shown.
 
 ### Got Focus
 
@@ -347,7 +347,7 @@ Sets the degrees that the button is rotated around the pivot point. Increasing v
 |:----:|
 |text|
 
-The selected item.  When directly changed by the programmer, the SelectionIndex property is also changed to the first item in the ListPicker with the given value.  If the value does not appear, SelectionIndex will be set to 0.
+The selected item. When directly changed by the programmer, the SelectionIndex property is also changed to the first item in the ListPicker with the given value. If the value does not appear, SelectionIndex will be set to 0.
 
 ### Shape
 
@@ -582,7 +582,7 @@ Row property getter method.
 |:----:|:-------:|
 |number|None|
 
-The index of the currently selected item, starting at 1.  If no item is selected, the value will be 0.  If an attempt is made to set this to a number less than 1 or greater than the number of items in the ListPicker, SelectionIndex will be set to 0, and Selection will be set to the empty text.
+The index of the currently selected item, starting at 1. If no item is selected, the value will be 0. If an attempt is made to set this to a number less than 1 or greater than the number of items in the ListPicker, SelectionIndex will be set to 0, and Selection will be set to the empty text.
 
 ### Width
 

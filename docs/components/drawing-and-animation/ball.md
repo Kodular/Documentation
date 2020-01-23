@@ -234,7 +234,7 @@ Controls whether the Ball moves and can be interacted with through collisions, d
 |:----:|:-------:|
 |number|0|
 
-Sets heading in which sprite should move.  In addition to changing the   local variables
+Sets heading in which sprite should move. In addition to changing the   local variables
 
 ### Interval
 
@@ -247,7 +247,7 @@ Sets heading in which sprite should move.  In addition to changing the   local v
 |:----:|:-------:|
 |number|100|
 
-The interval in milliseconds at which the Ball's position is updated.  For example, if the interval is 50 and the speed is 10, then every 50 milliseconds the sprite will move 10 pixels in the heading direction.
+The interval in milliseconds at which the Ball's position is updated. For example, if the interval is 50 and the speed is 10, then every 50 milliseconds the sprite will move 10 pixels in the heading direction.
 
 ### Origin At Center
 

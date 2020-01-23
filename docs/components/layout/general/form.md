@@ -30,7 +30,7 @@ Device back button pressed.
     |message|`text`|
 
 
-Event raised when an error occurs. Only some errors will raise this condition.  For those errors, the system will show a notification by default.  You can use this event handler to prescribe an error behavior different than the default.
+Event raised when an error occurs. Only some errors will raise this condition. For those errors, the system will show a notification by default. You can use this event handler to prescribe an error behavior different than the default.
 
 ### Got Received Shared
 
@@ -264,7 +264,7 @@ Hide the keyboard.
 
 _Block preview not available_
 
-Use this block to lock the side menu. This means the user can not open the side menu until the side menu  unlock block is used.
+Use this block to lock the side menu. This means the user can not open the side menu until the side menu unlock block is used.
 
 ### MoveTaskToBack
 
@@ -388,7 +388,7 @@ This block will returns the version name
 |:----:|
 |text|
 
-Information about the screen.  It appears when "About this Application" is selected from the system menu. Use it to inform people about your app.  In multiple screen apps, each screen has its own AboutScreen info.
+Information about the screen. It appears when "About this Application" is selected from the system menu. Use it to inform people about your app. In multiple screen apps, each screen has its own AboutScreen info.
 
 ### About Screen Background Color
 
@@ -453,7 +453,7 @@ This is the accent color used for highlights and other user interface accents.
 |:----:|:-------:|
 |number|1|
 
-A number that encodes how contents of the screen are aligned  horizontally. The choices are: 1 = left aligned, 2 = horizontally centered,  3 = right aligned.
+A number that encodes how contents of the screen are aligned horizontally. The choices are: 1 = left aligned, 2 = horizontally centered, 3 = right aligned.
 
 ### Align Vertical
 
@@ -531,7 +531,7 @@ The screen background image.
 |:----:|:-------:|
 |text|default|
 
-The animation for closing current screen and returning  to the previous screen. Valid options are default, fade, zoom, slidehorizontal, slidevertical, and none
+The animation for closing current screen and returning to the previous screen. Valid options are default, fade, zoom, slidehorizontal, slidevertical, and none
 
 ### High Quality Images
 
@@ -687,7 +687,7 @@ _No description available_
 |:----:|:-------:|
 |text|unspecified|
 
-The requested screen orientation, specified as a text value.  Commonly used values are landscape, portrait, sensor, user and unspecified.  See the Android developer documentation for ActivityInfo.Screen_Orientation for the complete list of possible settings.
+The requested screen orientation, specified as a text value. Commonly used values are landscape, portrait, sensor, user and unspecified. See the Android developer documentation for ActivityInfo.Screen_Orientation for the complete list of possible settings.
 
 ### Scrollable
 
@@ -713,7 +713,7 @@ When checked, there will be a vertical scrollbar on the screen, and the height o
 |:----:|:-------:|
 |boolean|False|
 
-If false, lists will be converted to strings using Lisp notation, i.e., as symbols separated by spaces, e.g., (a 1 b2 (c d). If true, lists will appear as in Json or Python, e.g.  ["a", 1, "b", 2, ["c", "d"]].  This property appears only in Screen 1, and the value for Screen 1 determines the behavior for all screens. The property defaults to "false" meaning that the App Inventor programmer must explicitly set it to "true" if JSON/Python syntax is desired. At some point in the future we will alter the system so that new projects are created with this property set to "true" by default. Existing projects will not be impacted. The App Inventor programmer can also set it back to "false" in newer projects if desired.
+If false, lists will be converted to strings using Lisp notation, i.e., as symbols separated by spaces, e.g., (a 1 b2 (c d). If true, lists will appear as in Json or Python, e.g. ["a", 1, "b", 2, ["c", "d"]]. This property appears only in Screen 1, and the value for Screen 1 determines the behavior for all screens. The property defaults to "false" meaning that the App Inventor programmer must explicitly set it to "true" if JSON/Python syntax is desired. At some point in the future we will alter the system so that new projects are created with this property set to "true" by default. Existing projects will not be impacted. The App Inventor programmer can also set it back to "false" in newer projects if desired.
 
 ### Show Navigation Bar
 
@@ -765,7 +765,7 @@ The status bar is the topmost bar on the screen. This property reports whether t
 |:----:|:-------:|
 |text|Responsive|
 
-If set to fixed,  screen layouts will be created for a single fixed-size screen and autoscaled. If set to responsive, screen layouts will use the actual resolution of the device.  See the documentation on responsive design in App Inventor for more information. This property appears on Screen1 only and controls the sizing for all screens in the app.
+If set to fixed, screen layouts will be created for a single fixed-size screen and autoscaled. If set to responsive, screen layouts will use the actual resolution of the device. See the documentation on responsive design in App Inventor for more information. This property appears on Screen1 only and controls the sizing for all screens in the app.
 
 ### Splash Enabled
 

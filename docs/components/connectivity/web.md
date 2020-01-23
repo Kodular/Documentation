@@ -124,7 +124,7 @@ _Block preview not available_
     |json Text|`text`|
 
 
-Decodes the given JSON encoded value to produce a corresponding AppInventor value.   A JSON list [x, y, z] decodes to a list (x y z),  A JSON object with name A and value B,   (denoted as A:B enclosed in curly braces) decodes to a list   ((A B)), that is, a list containing the two-element list (A B).
+Decodes the given JSON encoded value to produce a corresponding AppInventor value.   A JSON list [x, y, z] decodes to a list (x y z), A JSON object with name A and value B,   (denoted as A:B enclosed in curly braces) decodes to a list   ((A B)), that is, a list containing the two-element list (A B).
 
 ### PostFile
 
@@ -265,7 +265,7 @@ _Block preview not available_
     |XmlText|`text`|
 
 
-Decodes the given XML string to produce a list structure.  See the App Inventor documentation on "Other topics, notes, and details" for information.
+Decodes the given XML string to produce a list structure. See the App Inventor documentation on "Other topics, notes, and details" for information.
 
 ## Properties
 

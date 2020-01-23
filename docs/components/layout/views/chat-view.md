@@ -406,7 +406,7 @@ Set the component enabled for double taps or not.
 |:----:|
 |text|
 
-Specifies the path of the component's image.  If there is both an Image and a BackgroundColor, only the Image will be visible.
+Specifies the path of the component's image. If there is both an Image and a BackgroundColor, only the Image will be visible.
 
 ### Messages Corner Radius
 

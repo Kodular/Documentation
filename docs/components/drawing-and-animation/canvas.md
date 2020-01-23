@@ -42,7 +42,7 @@ There are events to tell when and where a Canvas has been touched or a `` Sprite
     |dragged Any Sprite|`boolean`|
 
 
-When the user does a drag from one point (prevX, prevY) to   another (x, y).  The pair (startX, startY) indicates where the   user first touched the screen, and "draggedAnySprite" indicates whether a   sprite is being dragged.
+When the user does a drag from one point (prevX, prevY) to   another (x, y). The pair (startX, startY) indicates where the   user first touched the screen, and "draggedAnySprite" indicates whether a   sprite is being dragged.
 
 ### Flung
 
@@ -117,7 +117,7 @@ When the user stops touching the canvas (lifts finger after a   TouchDown event)
     |touched Any Sprite|`boolean`|
 
 
-When the user touches the canvas and then immediately lifts finger: provides   the (x,y) position of the touch, relative to the upper left of the canvas.  TouchedAnySprite   is true if the same touch also touched a sprite, and false otherwise.
+When the user touches the canvas and then immediately lifts finger: provides   the (x,y) position of the touch, relative to the upper left of the canvas. TouchedAnySprite   is true if the same touch also touched a sprite, and false otherwise.
 
 ## Methods
 
@@ -366,7 +366,7 @@ The name of a file containing the background image for the canvas
 |:----:|:-------:|
 |boolean|False|
 
-Determines whether moves can extend beyond the canvas borders.   Default is false. This should normally be false, and the property is provided for backwards compatibility.
+Determines whether moves can extend beyond the canvas borders. Default is false. This should normally be false, and the property is provided for backwards compatibility.
 
 ### Font Bold
 

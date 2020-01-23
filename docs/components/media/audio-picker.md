@@ -27,7 +27,7 @@ Event to be raised after the picker activity returns its   result and the proper
 
 [[Event('Audio Picker', 'Before Picking')]]
 
-Event to raise when the button of the component is clicked or the list is shown   using the Open block.  This event occurs before the list of items is displayed, and   can be used to prepare the list before it is shown.
+Event to raise when the button of the component is clicked or the list is shown   using the Open block. This event occurs before the list of items is displayed, and   can be used to prepare the list before it is shown.
 
 ### Got Focus
 

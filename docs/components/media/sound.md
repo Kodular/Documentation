@@ -103,7 +103,7 @@ Vibrate with a given pattern
 |:----:|:-------:|
 |number|500|
 
-The minimum interval, in milliseconds, between sounds.  If you play a sound, all further Play() calls will be ignored until the interval has elapsed.
+The minimum interval, in milliseconds, between sounds. If you play a sound, all further Play() calls will be ignored until the interval has elapsed.
 
 ### Source
 
@@ -116,4 +116,4 @@ The minimum interval, in milliseconds, between sounds.  If you play a sound, all
 |:----:|
 |text|
 
-The name of the sound file.  Only certain formats are supported.  See http://developer.android.com/guide/appendix/media-formats.html.
+The name of the sound file. Only certain formats are supported. See http://developer.android.com/guide/appendix/media-formats.html.

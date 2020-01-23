@@ -6,7 +6,7 @@
 
 ## Overview
 
-A multimedia component capable of playing videos. When the application is run, the VideoPlayer will be displayed as a rectangle on-screen.  If the user touches the rectangle, controls will appear to play/pause, skip ahead, and skip backward within the video.  The application can also control behavior by calling the `` Start ``, `` Pause ``, and `` SeekTo `` methods.  
+A multimedia component capable of playing videos. When the application is run, the VideoPlayer will be displayed as a rectangle on-screen. If the user touches the rectangle, controls will appear to play/pause, skip ahead, and skip backward within the video. The application can also control behavior by calling the `` Start ``, `` Pause ``, and `` SeekTo `` methods. 
 
 Video files should be in 3GPP (.3gp) or MPEG-4 (.mp4) formats. For more details about legal formats, see <a href="http://developer.android.com/guide/appendix/media-formats.html" target="_blank">Android Supported Media Formats</a>.
 
@@ -49,7 +49,7 @@ Returns duration of the video in milliseconds.
 
 _Block preview not available_
 
-Pauses playback of the video.  Playback can be resumed at the same location by calling the `` Start `` method.
+Pauses playback of the video. Playback can be resumed at the same location by calling the `` Start `` method.
 
 ### SeekTo
 
@@ -102,7 +102,7 @@ If enabled the user will see the control buttons.
 |:----:|
 |text|
 
-The "path" to the video.  Usually, this will be the name of the video file, which should be added in the Designer.
+The "path" to the video. Usually, this will be the name of the video file, which should be added in the Designer.
 
 ### Visible
 

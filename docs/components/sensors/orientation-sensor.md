@@ -98,7 +98,7 @@ To return meaningful values the sensor must be enabled.
 |:----:|:-------:|
 |number|None|
 
-Magnitude property getter method (read-only property).  Specifically, this   returns a number between 0 and 1, indicating how much the device   is tilted.  For the angle of tilt, use
+Magnitude property getter method (read-only property). Specifically, this   returns a number between 0 and 1, indicating how much the device   is tilted. For the angle of tilt, use
 
 ### Pitch
 

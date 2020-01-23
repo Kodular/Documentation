@@ -46,7 +46,7 @@ Note that you do not need to worry about UTF-encoding the query. But you do need
     |result|`text`|
 
 
-Indicates that the Fusion Tables query has finished processing, with a result.  The result of the query will generally be returned in CSV format, and can be converted to list format using the "list from csv table" or "list from csv row" blocks.
+Indicates that the Fusion Tables query has finished processing, with a result. The result of the query will generally be returned in CSV format, and can be converted to list format using the "list from csv table" or "list from csv row" blocks.
 
 ## Methods
 
@@ -56,7 +56,7 @@ Indicates that the Fusion Tables query has finished processing, with a result.  
 
 _Block preview not available_
 
-DEPRECATED. This block is deprecated as of the end of 2012.  Use SendQuery.
+DEPRECATED. This block is deprecated as of the end of 2012. Use SendQuery.
 
 ### ForgetLogin
 
@@ -140,7 +140,7 @@ Setter for the app developer's API key.
 |:----:|
 |text|
 
-Specifies the path of the private key file.  This key file is used to get access to the FusionTables API.
+Specifies the path of the private key file. This key file is used to get access to the FusionTables API.
 
 ### Loading Dialog Message
 

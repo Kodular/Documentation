@@ -8,7 +8,7 @@
 
 Component for viewing Web pages. The Home URL can be specified in the Designer or in the Blocks Editor. The view can be set to follow links when they are tapped, and users can fill in Web forms. Warning: This is not a full browser. For example, pressing the phone's hardware Back key will exit the app, rather than move back in the browser history.
 
-You can use the WebViewer.WebViewString property to communicate between your app and Javascript code running in the Webviewer page. In the app, you get and set WebViewString.  In the WebViewer, you include Javascript that references the window.Makeroid object, using the methoods _getWebViewString()_ and _setWebViewString(text)_. 
+You can use the WebViewer.WebViewString property to communicate between your app and Javascript code running in the Webviewer page. In the app, you get and set WebViewString. In the WebViewer, you include Javascript that references the window.Makeroid object, using the methoods _getWebViewString()_ and _setWebViewString(text)_. 
 
 For example, if the WebViewer opens to a page that contains the Javascript command   
 _document.write("The answer is" + window.Makeroid.getWebViewString());_   
@@ -282,7 +282,7 @@ Enable/Disable JavaScript. Enabled by default
 |:----:|:-------:|
 |boolean|True|
 
-Determines whether to follow links when they are tapped in the WebViewer.  If you follow links, you can use GoBack and GoForward to navigate the browser history.
+Determines whether to follow links when they are tapped in the WebViewer. If you follow links, you can use GoBack and GoForward to navigate the browser history.
 
 ### Home Url
 

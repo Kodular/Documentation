@@ -6,7 +6,7 @@
 
 ## Overview
 
-Button with the ability to detect clicks.  Many aspects of its appearance can be changed, as well as whether it is clickable (`` Enabled ``), can be changed in the Designer or in the Blocks Editor.
+Button with the ability to detect clicks. Many aspects of its appearance can be changed, as well as whether it is clickable (`` Enabled ``), can be changed in the Designer or in the Blocks Editor.
 
 ## Events
 

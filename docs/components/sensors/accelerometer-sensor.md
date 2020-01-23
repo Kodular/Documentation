@@ -8,7 +8,7 @@
 
 ## Overview
 
-Non-visible component that can detect shaking and measure acceleration approximately in three dimensions using SI units (m/s<sup>2</sup>).  The components are: 
+Non-visible component that can detect shaking and measure acceleration approximately in three dimensions using SI units (m/s<sup>2</sup>). The components are: 
 
  *    __xAccel__: 0 when the phone is at rest on a flat surface, positive when the phone is tilted to the right (i.e., its left side is raised), and negative when the phone is tilted to the left (i.e., its right size is raised).
  *    __yAccel__: 0 when the phone is at rest on a flat surface, positive when its bottom is raised, and negative when its top is raised. 
@@ -50,7 +50,7 @@ Indicates the device started being shaken or continues to be shaken.
 |:----:|:-------:|
 |boolean|True|
 
-If true, the sensor will generate events.  Otherwise, no events   are generated even if the device is accelerated or shaken.
+If true, the sensor will generate events. Otherwise, no events   are generated even if the device is accelerated or shaken.
 
 ### Legacy Mode
 
@@ -89,7 +89,7 @@ The minimum interval, in milliseconds, between phone shakes
 |:----:|:-------:|
 |number|2|
 
-A number that encodes how sensitive the accelerometer is. The choices are: 1 = weak, 2 = moderate,  3 = strong.
+A number that encodes how sensitive the accelerometer is. The choices are: 1 = weak, 2 = moderate, 3 = strong.
 
 ### Available
 

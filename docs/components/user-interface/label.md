@@ -6,7 +6,7 @@
 
 ## Overview
 
-A Label displays a piece of text, which is specified through the `` Text `` property.  Other properties, all of which can be set in the Designer or Blocks Editor, control the appearance and placement of the text.
+A Label displays a piece of text, which is specified through the `` Text `` property. Other properties, all of which can be set in the Designer or Blocks Editor, control the appearance and placement of the text.
 
 ## Events
 
@@ -173,7 +173,7 @@ If true, then this label will show html text else it will show plain text. Note:
 |:----:|:-------:|
 |boolean|True|
 
-Reports whether or not the label appears with margins.  All four margins (left, right, top, bottom) are the same.  This property has no effect in the designer, where labels are always shown with margins.
+Reports whether or not the label appears with margins. All four margins (left, right, top, bottom) are the same. This property has no effect in the designer, where labels are always shown with margins.
 
 ### Marquee
 

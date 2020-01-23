@@ -8,11 +8,11 @@
 
 ## Overview
 
-Non-visible component providing location information, including longitude, latitude, altitude (if supported by the device), speed (if supported by the device), and address.  This can also perform "geocoding", converting a given address (not necessarily the current one) to a latitude (with the `` LatitudeFromAddress `` method) and a longitude (with the `` LongitudeFromAddress `` method). 
+Non-visible component providing location information, including longitude, latitude, altitude (if supported by the device), speed (if supported by the device), and address. This can also perform "geocoding", converting a given address (not necessarily the current one) to a latitude (with the `` LatitudeFromAddress `` method) and a longitude (with the `` LongitudeFromAddress `` method). 
 
 In order to function, the component must have its `` Enabled `` property set to True, and the device must have location sensing enabled through wireless networks or GPS satellites (if outdoors).
 
-  Location information might not be immediately available when an app starts.  You'll have to wait a short time for a location provider to be found and used, or wait for the OnLocationChanged event
+  Location information might not be immediately available when an app starts. You'll have to wait a short time for a location provider to be found and used, or wait for the OnLocationChanged event
 
 ## Events
 
@@ -128,7 +128,7 @@ Determines the minimum time interval, in milliseconds, that the sensor will try 
 |:----:|:-------:|
 |number|None|
 
-The most recent measure of accuracy, in meters.  If no value is available,   0 will be returned.
+The most recent measure of accuracy, in meters. If no value is available,   0 will be returned.
 
 ### Altitude
 
@@ -139,7 +139,7 @@ The most recent measure of accuracy, in meters.  If no value is available,   0 w
 |:----:|:-------:|
 |number|None|
 
-The most recently available altitude value, in meters.  If no value is   available, 0 will be returned.
+The most recently available altitude value, in meters. If no value is   available, 0 will be returned.
 
 ### Available Providers
 
@@ -194,7 +194,7 @@ Indicates whether altitude information is available.
 |:----:|:-------:|
 |boolean|None|
 
-Indicates whether longitude and latitude information is available.  (It is   always the case that either both or neither are.)
+Indicates whether longitude and latitude information is available. (It is   always the case that either both or neither are.)
 
 ### Latitude
 
@@ -205,7 +205,7 @@ Indicates whether longitude and latitude information is available.  (It is   alw
 |:----:|:-------:|
 |number|None|
 
-The most recently available latitude value.  If no value is available,   0 will be returned.
+The most recently available latitude value. If no value is available,   0 will be returned.
 
 ### Longitude
 
@@ -216,7 +216,7 @@ The most recently available latitude value.  If no value is available,   0 will 
 |:----:|:-------:|
 |number|None|
 
-The most recent available longitude value.  If no value is available,   0 will be returned.
+The most recent available longitude value. If no value is available,   0 will be returned.
 
 ### Provider Locked
 
@@ -238,4 +238,4 @@ Indicates whether the sensor should allow the developer to   manually change the
 |:----:|:-------:|
 |text|None|
 
-Indicates the source of the location information.  If there is no provider, the   string "NO PROVIDER" is returned.  This is useful primarily for debugging.
+Indicates the source of the location information. If there is no provider, the   string "NO PROVIDER" is returned. This is useful primarily for debugging.

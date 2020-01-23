@@ -50,7 +50,7 @@ Event invoked when a state item was clicked.
 |:----:|:-------:|
 |number|250|
 
-Set the animation duration in milliseconds. Example:  use 1000 for 1 second.
+Set the animation duration in milliseconds. Example: use 1000 for 1 second.
 
 ### Animate Between States
 

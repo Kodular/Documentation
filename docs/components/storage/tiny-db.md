@@ -63,7 +63,7 @@ _Block preview not available_
     |value If Tag Not There|`any`|
 
 
-Retrieve the value stored under the given tag.  If there's no such tag, then return valueIfTagNotThere.
+Retrieve the value stored under the given tag. If there's no such tag, then return valueIfTagNotThere.
 
 ### StoreValue
 
@@ -77,7 +77,7 @@ _Block preview not available_
     |value To Store|`any`|
 
 
-Store the given value under the given tag.  The storage persists on the   phone when the app is restarted.
+Store the given value under the given tag. The storage persists on the   phone when the app is restarted.
 
 ## Properties
 
