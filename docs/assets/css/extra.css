@@ -166,6 +166,7 @@ tr td:nth-child(1) {
   font-size: 12px;
   padding: 13px;
   border: 1px solid #ccc;
+  max-width: calc(100% - 15px);
 }
   
 #carbonads a {
