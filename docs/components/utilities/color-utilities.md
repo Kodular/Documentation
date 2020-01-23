@@ -19,6 +19,7 @@ A non-visible component that performs operations like conversion between formats
 {>>Returns `number`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |hex Color|`text`|
@@ -33,6 +34,7 @@ Convert a hex color to a integer color. The result is returned as integer.
 {>>Returns `text`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |color|`number`|
@@ -47,6 +49,7 @@ Convert a integer color to a hex color. The result is returned as string.
 {>>Returns `number`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |color|`number`|
@@ -61,6 +64,7 @@ Returns the luminance of a color as a float between 0.0 and 1.0. The result is r
 {>>Returns `boolean`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |color|`number`|
@@ -75,6 +79,7 @@ Returns true if the color is dark, else it returns false, means the color is lig
 {>>Returns `number`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |color|`number`|

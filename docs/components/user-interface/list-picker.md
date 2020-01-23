@@ -17,6 +17,7 @@ Setting property ShowFilterBar to true, will make the list searchable. Other pro
 [[Event('List Picker', 'After Picking', 'selection')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |selection|`text`|
@@ -64,6 +65,7 @@ Indicates that a button has been released.
 [[Method('List Picker', 'AnimationStyle', false, 'style position size color')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |style|`text`|
@@ -91,6 +93,7 @@ Opens the picker, as though the user clicked on it.
 [[Method('List Picker', 'SetShadow', false, 'x y radius color')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |x|`number`|
@@ -106,6 +109,7 @@ Place a blurred shadow of text underneath the text, drawn with the specified x, 
 [[Method('List Picker', 'WithIconFromFontAwesome', false, 'position iconName iconColor padding size')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |position|`text`|
@@ -122,6 +126,7 @@ Show an image on the given position near to the button. You can use following wo
 [[Method('List Picker', 'WithIconFromMaterialFont', false, 'position iconName iconColor padding size')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |position|`text`|
@@ -138,6 +143,7 @@ Show an image on the given position near to the button. You can use following wo
 [[Method('List Picker', 'WithIconFromPicture', false, 'position picture padding width height')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |position|`text`|

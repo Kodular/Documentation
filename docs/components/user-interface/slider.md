@@ -15,6 +15,7 @@ A Slider is a progress bar that adds a draggable thumb. You can touch the thumb 
 [[Event('Slider', 'Position Changed', 'thumbPosition')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |thumb Position|`number`|

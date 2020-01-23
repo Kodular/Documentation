@@ -17,6 +17,7 @@ A component to create dynamic buttons in Arrangements
 [[Event('Dynamic Button', 'Button Click', 'id')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -29,6 +30,7 @@ Trigger when a Dynamic Button is clicked.
 [[Event('Dynamic Button', 'Button Long Click', 'id')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -43,6 +45,7 @@ Trigger when a Dynamic Button is long clicked.
 [[Method('Dynamic Button', 'CreateButton', false, 'id arrangement')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -58,6 +61,7 @@ Create a Dynamic Button.
 [[Method('Dynamic Button', 'DeleteButton', false, 'id arrangement')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -71,6 +75,7 @@ This block is DEPRECATED! Please use instead the 'Delete Button' block without a
 [[Method('Dynamic Button', 'DeleteButtonNew', false, 'id')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -85,6 +90,7 @@ Delete a Dynamic Button.
 {>>Returns `component`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -99,6 +105,7 @@ Returns the button referenced by its id.
 {>>Returns `boolean`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -113,6 +120,7 @@ Get the Enabled status of a button.
 {>>Returns `number`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -127,6 +135,7 @@ Get the Font Size of a button.
 {>>Returns `number`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -141,6 +150,7 @@ Get the Height of a button.
 {>>Returns `text`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -155,6 +165,7 @@ Get the Text of a button.
 {>>Returns `number`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -167,6 +178,7 @@ Get the Width of a button.
 [[Method('Dynamic Button', 'SetBackgroundColor', false, 'id color')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -180,6 +192,7 @@ Update the Background Color of a button.
 [[Method('Dynamic Button', 'SetEnabled', false, 'id enabled')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -193,6 +206,7 @@ Update the Enabled status of a button.
 [[Method('Dynamic Button', 'SetFont', false, 'id bold italic')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -207,6 +221,7 @@ Update the Font of a button.
 [[Method('Dynamic Button', 'SetFontSize', false, 'id size')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -220,6 +235,7 @@ Update the Font Size of a button.
 [[Method('Dynamic Button', 'SetHeight', false, 'id height')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -233,6 +249,7 @@ Update the Height of a button.
 [[Method('Dynamic Button', 'SetText', false, 'id text')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -246,6 +263,7 @@ Update the Text of a button.
 [[Method('Dynamic Button', 'SetTextColor', false, 'id color')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -259,6 +277,7 @@ Update the Text Color of a button.
 [[Method('Dynamic Button', 'SetWidth', false, 'id width')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|

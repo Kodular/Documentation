@@ -19,6 +19,7 @@ A non-visible component that retrieves information about other applications on t
 {>>Returns `text`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |package Name|`text`|
@@ -33,6 +34,7 @@ Returns the name from the given package name.
 {>>Returns `text`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |package Name|`text`|
@@ -47,6 +49,7 @@ Try to show the application icon of the given package name. If the application c
 {>>Returns `boolean`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |package Name|`text`|
@@ -61,6 +64,7 @@ Returns true if a package (app) is installed.
 {>>Returns `number`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |package Name|`text`|
@@ -75,6 +79,7 @@ This block will returns the version code of the package name. Returns '-1' if th
 {>>Returns `text`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |package Name|`text`|
@@ -89,6 +94,7 @@ This block will returns the version name of the package name. Returns 'Package n
 {>>Returns `boolean`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |permission Name|`text`|

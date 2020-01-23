@@ -17,6 +17,7 @@ A non-visible component that fetches specifications of the device.
 [[Event('Device Utilities', 'Got IMEI', 'imei')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |imei|`text`|
@@ -29,6 +30,7 @@ Event to get the IMEI after it was requested.
 [[Event('Device Utilities', 'Got Serial', 'serial')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |serial|`text`|
@@ -51,6 +53,7 @@ Returns TRUE if one of 12 known patching or root emulating packages is installed
 [[Method('Device Utilities', 'Copy', false, 'text successToastMessage')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |text|`text`|
@@ -150,6 +153,7 @@ Size of used-memory in Gigabytes.
 {>>Returns `text`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |text|`text`|
@@ -167,6 +171,7 @@ Parse a text between two strings. Example: text = abcdef, start = a, end = d, re
 {>>Returns `text`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |Success Toast Message|`text`|

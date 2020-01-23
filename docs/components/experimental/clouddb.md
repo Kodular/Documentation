@@ -17,6 +17,7 @@ Non-visible component that communicates with CloudDB server to store and retriev
 [[Event('CloudDB', 'CloudDB Error', 'message')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |message|`text`|
@@ -26,9 +27,10 @@ Indicates that an error occurred while communicating with the CloudDB Redis serv
 
 ### Data Changed
 
-[[Event('CloudDB', 'Data Changed', 'tag value')]]
+[[Event('CloudDB', 'Data Changed', 'tag', 'value')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |tag|`text`|
@@ -43,6 +45,7 @@ Indicates that the data in the CloudDB project has changed.
 [[Event('CloudDB', 'First Removed', 'value')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |value|`any`|
@@ -52,9 +55,10 @@ Event triggered by the "RemoveFirstFromList" function. The argument "value" is t
 
 ### Got Value
 
-[[Event('CloudDB', 'Got Value', 'tag value')]]
+[[Event('CloudDB', 'Got Value', 'tag', 'value')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |tag|`text`|
@@ -68,6 +72,7 @@ Indicates that a GetValue request has succeeded.
 [[Event('CloudDB', 'Tag List', 'value')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |value|`list`|
@@ -82,6 +87,7 @@ Event triggered when we have received the list of known tags. Used with the "Get
 [[Method('CloudDB', 'AppendValueToList', false, 'tag itemToAdd')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |tag|`text`|
@@ -95,6 +101,7 @@ Append a value to the end of a list atomically. If two devices use this function
 [[Method('CloudDB', 'ClearTag', false, 'tag')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |tag|`text`|
@@ -121,6 +128,7 @@ Get the list of tags for this application. When complete a "TagList" event will 
 [[Method('CloudDB', 'GetValue', false, 'tag valueIfTagNotThere')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |tag|`text`|
@@ -134,6 +142,7 @@ Get the Value for a tag, doesn't return the value but will cause a GotValue even
 [[Method('CloudDB', 'RemoveFirstFromList', false, 'tag')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |tag|`text`|
@@ -146,6 +155,7 @@ Return the first element of a list and atomically remove it. If two devices use 
 [[Method('CloudDB', 'StoreValue', false, 'tag valueToStore')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |tag|`text`|

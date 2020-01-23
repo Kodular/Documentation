@@ -17,6 +17,7 @@ Non-visible component that measures the temperature of the air in the room in de
 [[Event('Temperature Sensor', 'Temperature Changed', 'temperature')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |temperature|`number`|

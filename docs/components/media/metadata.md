@@ -17,6 +17,7 @@ A non-visible component that reads the metadata of audio/video files.
 [[Event('Metadata', 'No Metadata', 'type')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |type|`text`|
@@ -73,6 +74,7 @@ Get the Composer from the file.
 {>>Returns `text`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|

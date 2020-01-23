@@ -17,6 +17,7 @@ A non-visible component that shows a pop-up list of Google accounts currently si
 [[Event('Google Account Picker', 'Picked', 'accountName')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |account Name|`text`|

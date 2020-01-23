@@ -40,6 +40,7 @@ Note that you do not need to worry about UTF-encoding the query. But you do need
 [[Event('Fusiontables Control', 'Got Result', 'result')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |result|`text`|
@@ -68,6 +69,7 @@ Forget end-users login credentials. Has no effect on service authentication
 [[Method('Fusiontables Control', 'GetRows', false, 'tableId columns')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |table ID|`text`|
@@ -81,6 +83,7 @@ Gets all the rows from a specified fusion table. The tableId field is the id of 
 [[Method('Fusiontables Control', 'GetRowsWithConditions', false, 'tableId columns conditions')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |table ID|`text`|
@@ -95,6 +98,7 @@ Gets all the rows from a fusion table that meet certain conditions. The tableId 
 [[Method('Fusiontables Control', 'InsertRow', false, 'tableId columns values')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |table ID|`text`|

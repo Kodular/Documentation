@@ -17,6 +17,7 @@ A non-visible component that modifies other components'' padding, margins, and o
 [[Method('Decoration', 'SetMargin', false, 'component values')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |component|`component`|
@@ -30,6 +31,7 @@ Margin is a way for a component to enforce some distance from others components.
 [[Method('Decoration', 'SetPadding', false, 'component values')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |component|`component`|
@@ -43,6 +45,7 @@ The padding around the component. Padding is the space inside the border, betwee
 [[Method('Decoration', 'SetShape', false, 'component backgroundColor borderColor isRound')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |component|`component`|

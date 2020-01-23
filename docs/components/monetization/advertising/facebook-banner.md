@@ -33,6 +33,7 @@ Event triggered when ads are loaded
 [[Event('Facebook Banner', 'Error', 'error')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |error|`text`|

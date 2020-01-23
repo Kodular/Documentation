@@ -21,6 +21,7 @@ To directly specify the phone number (e.g., 650-555-1212), set the `` PhoneNumbe
 [[Event('Phone Call', 'Incoming Call Answered', 'phoneNumber')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |phone Number|`text`|
@@ -30,9 +31,10 @@ Event indicating that an incoming phone call is answered. phoneNumber is the inc
 
 ### Phone Call Ended
 
-[[Event('Phone Call', 'Phone Call Ended', 'status phoneNumber')]]
+[[Event('Phone Call', 'Phone Call Ended', 'status', 'phoneNumber')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |status|`number`|
@@ -43,9 +45,10 @@ Event indicating that a phone call has ended. If status is 1, incoming call is m
 
 ### Phone Call Started
 
-[[Event('Phone Call', 'Phone Call Started', 'status phoneNumber')]]
+[[Event('Phone Call', 'Phone Call Started', 'status', 'phoneNumber')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |status|`number`|

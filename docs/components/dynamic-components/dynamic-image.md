@@ -17,6 +17,7 @@ A component to create dynamic image in Arrangements.
 [[Method('Dynamic Image', 'CreateImage', false, 'id arrangement path width height')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -33,6 +34,7 @@ Create a new image component dynamically. Use for width/height '-1' for wrap con
 [[Method('Dynamic Image', 'DeleteImage', false, 'id')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -47,6 +49,7 @@ Remove a image component with the given id.
 {>>Returns `number`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -61,6 +64,7 @@ Get the Height of a image component.
 {>>Returns `component`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -75,6 +79,7 @@ Returns the image referenced by its id.
 {>>Returns `number`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -87,6 +92,7 @@ Get the Width of a image component.
 [[Method('Dynamic Image', 'RotationAngle', false, 'id rotationAngle')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -100,6 +106,7 @@ Specifies the angle of a image component with the given id.
 [[Method('Dynamic Image', 'ScalePictureToFit', false, 'id scale')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -113,6 +120,7 @@ Specifies whether a image component with the given id should be resized to match
 [[Method('Dynamic Image', 'SetHeight', false, 'id height')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -126,6 +134,7 @@ Update the Height of a image component.
 [[Method('Dynamic Image', 'SetWidth', false, 'id width')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -139,6 +148,7 @@ Update the Width of a image component.
 [[Method('Dynamic Image', 'UpdateImage', false, 'id path')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|

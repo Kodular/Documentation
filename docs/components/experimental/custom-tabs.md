@@ -17,6 +17,7 @@ A non-visible component that opens web pages as custom tabs on Google Chrome.
 [[Method('Custom Tabs', 'AddMenuItemOpenApp', false, 'title packageName')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |title|`text`|
@@ -30,6 +31,7 @@ Use this block to add a menu item with the given title to open any app you want 
 [[Method('Custom Tabs', 'AddMenuItemOpenPage', false, 'title page')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |title|`text`|

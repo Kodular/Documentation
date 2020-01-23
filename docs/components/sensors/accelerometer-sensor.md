@@ -18,9 +18,10 @@ Non-visible component that can detect shaking and measure acceleration approxima
 
 ### Acceleration Changed
 
-[[Event('Accelerometer Sensor', 'Acceleration Changed', 'xAccel yAccel zAccel')]]
+[[Event('Accelerometer Sensor', 'Acceleration Changed', 'xAccel', 'yAccel', 'zAccel')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |x Accel|`number`|

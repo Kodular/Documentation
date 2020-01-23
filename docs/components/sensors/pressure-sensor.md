@@ -14,9 +14,10 @@ A non-visible component that measures the ambient air pressure in units of hPa o
 
 ### Pressure Changed
 
-[[Event('Pressure Sensor', 'Pressure Changed', 'pressure altitude')]]
+[[Event('Pressure Sensor', 'Pressure Changed', 'pressure', 'altitude')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |pressure|`number`|

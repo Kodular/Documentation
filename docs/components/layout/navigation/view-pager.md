@@ -15,6 +15,7 @@ A visible component that groups other layout components each of which can be acc
 [[Event('View Pager', 'Page Selected', 'position')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |position|`number`|
@@ -29,6 +30,7 @@ Event to detect that a page was selected.
 [[Method('View Pager', 'AddComponentToView', false, 'component tabName')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |component|`component`|
@@ -48,6 +50,7 @@ Remove all tab's from view pager.
 [[Method('View Pager', 'RemoveViewAt', false, 'position')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |position|`number`|

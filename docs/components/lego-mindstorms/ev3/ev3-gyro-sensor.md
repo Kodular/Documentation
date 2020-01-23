@@ -17,6 +17,7 @@ A component that provides a high-level interface to a gyro sensor on a LEGO MIND
 [[Event('EV3 Gyro Sensor', 'Sensor Value Changed', 'sensorValue')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |sensor Value|`number`|

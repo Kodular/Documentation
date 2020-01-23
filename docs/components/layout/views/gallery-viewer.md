@@ -15,6 +15,7 @@ A visible component that groups other components in a center-locked, horizontall
 [[Event('Gallery Viewer', 'After Picking', 'imageName')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |image Name|`text`|

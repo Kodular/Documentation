@@ -15,9 +15,10 @@ Note\: All readings are in SI units.
 
 ### Gravity Changed
 
-[[Event('Gravity Sensor', 'Gravity Changed', 'xAccel yAccel zAccel')]]
+[[Event('Gravity Sensor', 'Gravity Changed', 'xAccel', 'yAccel', 'zAccel')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |x Accel|`number`|

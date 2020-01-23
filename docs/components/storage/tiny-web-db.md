@@ -14,9 +14,10 @@ A non-visible component that communicates with a web service to store and retrie
 
 ### Got Value
 
-[[Event('Tiny Web DB', 'Got Value', 'tagFromWebDB valueFromWebDB')]]
+[[Event('Tiny Web DB', 'Got Value', 'tagFromWebDB', 'valueFromWebDB')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |tag From Web DB|`text`|
@@ -36,6 +37,7 @@ Event indicating that a StoreValue server request has succeeded.
 [[Event('Tiny Web DB', 'Web Service Error', 'message')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |message|`text`|
@@ -50,6 +52,7 @@ Indicates that the communication with the Web service signaled an error.
 [[Method('Tiny Web DB', 'GetValue', false, 'tag')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |tag|`text`|
@@ -62,6 +65,7 @@ GetValue asks the Web service to get the value stored under the given tag.
 [[Method('Tiny Web DB', 'StoreValue', false, 'tag valueToStore')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |tag|`text`|

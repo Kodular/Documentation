@@ -17,6 +17,7 @@ A non-visible component that gets the current illuminance level around the devic
 [[Event('Light Sensor', 'Light Changed', 'illuminance')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |illuminance|`number`|

@@ -14,9 +14,10 @@ A non-visible component that connects the device via the USB Serial to Arduino h
 
 ### After Read
 
-[[Event('Arduino', 'After Read', 'success data')]]
+[[Event('Arduino', 'After Read', 'success', 'data')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |success|`boolean`|
@@ -32,6 +33,7 @@ Triggered after Read function
 [[Method('Arduino', 'BaudRate', false, 'baudRate')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |baud Rate|`number`|
@@ -80,6 +82,7 @@ Read from Serial
 [[Method('Arduino', 'WriteArduino', false, 'writeDataArduino')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |data|`text`|

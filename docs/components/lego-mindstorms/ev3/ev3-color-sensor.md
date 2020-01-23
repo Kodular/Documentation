@@ -26,9 +26,10 @@ Light level has gone below the range.
 
 ### Color Changed
 
-[[Event('EV3 Color Sensor', 'Color Changed', 'colorCode colorName')]]
+[[Event('EV3 Color Sensor', 'Color Changed', 'colorCode', 'colorName')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |color Code|`number`|

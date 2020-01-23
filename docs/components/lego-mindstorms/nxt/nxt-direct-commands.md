@@ -17,6 +17,7 @@ A component that provides a low-level interface to a LEGO MINDSTORMS NXT robot, 
 [[Method('NXT Direct Commands', 'DeleteFile', false, 'fileName')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |file Name|`text`|
@@ -29,6 +30,7 @@ Delete a file on the robot.
 [[Method('NXT Direct Commands', 'DownloadFile', false, 'source destination')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |source|`text`|
@@ -76,6 +78,7 @@ Get the firmware and protocol version numbers for the robot as a list where the 
 {>>Returns `list`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |sensor Port Letter|`text`|
@@ -90,6 +93,7 @@ Reads the values of an input sensor on the robot. Assumes sensor type has been c
 {>>Returns `list`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |motor Port Letter|`text`|
@@ -112,6 +116,7 @@ Keep Alive. Returns the current sleep time limit in milliseconds.
 {>>Returns `list`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |wildcard|`text`|
@@ -126,6 +131,7 @@ Returns a list containing the names of matching files found on the robot.
 {>>Returns `number`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |sensor Port Letter|`text`|
@@ -140,6 +146,7 @@ Returns the count of available bytes to read.
 {>>Returns `list`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |sensor Port Letter|`text`|
@@ -152,6 +159,7 @@ Reads unsigned low speed data from an input sensor on the robot. Assumes sensor 
 [[Method('NXT Direct Commands', 'LsWrite', false, 'sensorPortLetter list rxDataLength')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |sensor Port Letter|`text`|
@@ -168,6 +176,7 @@ Writes low speed data to an input sensor on the robot. Assumes sensor type has b
 {>>Returns `text`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |mailbox|`number`|
@@ -180,6 +189,7 @@ Read a message from a mailbox (1-10) on the robot.
 [[Method('NXT Direct Commands', 'MessageWrite', false, 'mailbox message')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |mailbox|`number`|
@@ -193,6 +203,7 @@ Write a message to a mailbox (1-10) on the robot.
 [[Method('NXT Direct Commands', 'PlaySoundFile', false, 'fileName')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |file Name|`text`|
@@ -205,6 +216,7 @@ Play a sound file on the robot.
 [[Method('NXT Direct Commands', 'PlayTone', false, 'frequencyHz durationMs')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |frequency Hz|`number`|
@@ -218,6 +230,7 @@ Make the robot play a tone.
 [[Method('NXT Direct Commands', 'ResetInputScaledValue', false, 'sensorPortLetter')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |sensor Port Letter|`text`|
@@ -230,6 +243,7 @@ Reset the scaled value of an input sensor on the robot.
 [[Method('NXT Direct Commands', 'ResetMotorPosition', false, 'motorPortLetter relative')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |motor Port Letter|`text`|
@@ -243,6 +257,7 @@ Reset motor position.
 [[Method('NXT Direct Commands', 'SetBrickName', false, 'name')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |name|`text`|
@@ -255,6 +270,7 @@ Set the brick name of the robot.
 [[Method('NXT Direct Commands', 'SetInputMode', false, 'sensorPortLetter sensorType sensorMode')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |sensor Port Letter|`text`|
@@ -269,6 +285,7 @@ Configure an input sensor on the robot.
 [[Method('NXT Direct Commands', 'SetOutputState', false, 'motorPortLetter power mode regulationMode turnRatio runState tachoLimit')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |motor Port Letter|`text`|
@@ -287,6 +304,7 @@ Sets the output state of a motor on the robot.
 [[Method('NXT Direct Commands', 'StartProgram', false, 'programName')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |program Name|`text`|

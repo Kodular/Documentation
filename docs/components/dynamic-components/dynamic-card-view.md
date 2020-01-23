@@ -17,6 +17,7 @@ A component to create dynamic cardviews in Arrangements.
 [[Event('Dynamic Card View', 'Click', 'id')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -29,6 +30,7 @@ Event to detect that a user has done a simple click on a card view component wit
 [[Event('Dynamic Card View', 'Long Click', 'id')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -41,6 +43,7 @@ Event to detect that a user has done a simple long click on a card view componen
 [[Event('Dynamic Card View', 'Touch Down', 'id')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -53,6 +56,7 @@ Event to detect that a user has done a simple touch down on a card view componen
 [[Event('Dynamic Card View', 'Touch Up', 'id')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -67,6 +71,7 @@ Event to detect that a user has done a simple touch up on a card view component 
 [[Method('Dynamic Card View', 'AddComponentToCardView', false, 'id arrangement')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -80,6 +85,7 @@ Add a component into the card view component with the given id.
 [[Method('Dynamic Card View', 'ContentPadding', false, 'id contentPaddingLeft contentPaddingTop contentPaddingRight contentPaddingBottom')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -96,6 +102,7 @@ Set the content padding of a card view component.
 [[Method('Dynamic Card View', 'CreateCardView', false, 'id arrangement width height')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -111,6 +118,7 @@ Create a new card view component dynamically. Use for width/height '-1' for wrap
 [[Method('Dynamic Card View', 'DeleteCardView', false, 'id')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -125,6 +133,7 @@ Remove a card view component with the given id.
 {>>Returns `number`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -139,6 +148,7 @@ Get the background color of a card view component.
 {>>Returns `component`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -153,6 +163,7 @@ Returns the card view referenced by its id.
 {>>Returns `number`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -167,6 +178,7 @@ Get the corner radius of a card view component.
 {>>Returns `number`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -181,6 +193,7 @@ Get the elevation of a card view component.
 {>>Returns `number`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -195,6 +208,7 @@ Get the height of a card view component.
 {>>Returns `number`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -207,6 +221,7 @@ Get the width of a card view component.
 [[Method('Dynamic Card View', 'SetBackgroundColor', false, 'id argb')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -220,6 +235,7 @@ Set the background color of a card view component.
 [[Method('Dynamic Card View', 'SetCornerRadius', false, 'id radius')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -233,6 +249,7 @@ Set the corner radius of a card view component.
 [[Method('Dynamic Card View', 'SetElevation', false, 'id value')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -246,6 +263,7 @@ Set the elevation of a card view component.
 [[Method('Dynamic Card View', 'SetHeight', false, 'id height')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -259,6 +277,7 @@ Set the height of a card view component.
 [[Method('Dynamic Card View', 'SetWidth', false, 'id width')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -272,6 +291,7 @@ Set the width of a card view component.
 [[Method('Dynamic Card View', 'StrokeColor', false, 'id color')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -285,6 +305,7 @@ Set the stroke color to a card view component with the specific id.
 [[Method('Dynamic Card View', 'StrokeWidth', false, 'id width')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|

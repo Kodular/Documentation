@@ -20,9 +20,10 @@ Called when the ad is expiring. You should load a new ad.
 
 ### Ad Failed To Load
 
-[[Event('AdColony Interstitial', 'Ad Failed To Load', 'errorCode errorMessage')]]
+[[Event('AdColony Interstitial', 'Ad Failed To Load', 'errorCode', 'errorMessage')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |error Code|`number`|
@@ -48,6 +49,7 @@ Called when an ad was opened.
 [[Event('AdColony Interstitial', 'Error', 'error')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |error|`text`|

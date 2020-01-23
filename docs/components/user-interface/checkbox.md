@@ -41,6 +41,7 @@ Default LostFocus event handler.
 [[Method('Checkbox', 'SetShadow', false, 'x y radius color')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |x|`number`|

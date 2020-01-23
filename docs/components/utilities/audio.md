@@ -17,6 +17,7 @@ A non-visible component that manages the device''s audio settings.
 [[Event('Audio', 'Error Occurred', 'errorMessage')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |error Message|`text`|
@@ -33,6 +34,7 @@ Event triggered when a error occurred.
 {>>Returns `boolean`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |component|`component`|
@@ -63,6 +65,7 @@ Sets the ringer mode to "vibrate".
 [[Method('Audio', 'SoundEffectsEnabled', false, 'component enabled')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |component|`component`|

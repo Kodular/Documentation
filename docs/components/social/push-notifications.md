@@ -15,9 +15,10 @@ Powered by OneSignal.
 
 ### Got Available Tags
 
-[[Event('Push Notifications', 'Got Available Tags', 'tagsAsString tagsAsList')]]
+[[Event('Push Notifications', 'Got Available Tags', 'tagsAsString', 'tagsAsList')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |tags As String|`text`|
@@ -28,9 +29,10 @@ Event to detect available one signal tags.
 
 ### Got Value
 
-[[Event('Push Notifications', 'Got Value', 'tag value')]]
+[[Event('Push Notifications', 'Got Value', 'tag', 'value')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |tag|`text`|
@@ -41,9 +43,10 @@ Event to receive value for a tag.
 
 ### Notification Opened
 
-[[Event('Push Notifications', 'Notification Opened', 'id title message')]]
+[[Event('Push Notifications', 'Notification Opened', 'id', 'title', 'message')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`text`|
@@ -55,9 +58,10 @@ User opened a notification.
 
 ### Notification Received
 
-[[Event('Push Notifications', 'Notification Received', 'id title message')]]
+[[Event('Push Notifications', 'Notification Received', 'id', 'title', 'message')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`text`|
@@ -72,6 +76,7 @@ User received a notification.
 [[Event('Push Notifications', 'Send Message Done', 'success')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |success|`boolean`|
@@ -92,6 +97,7 @@ Clear All Notifications.
 [[Method('Push Notifications', 'DeleteTag', false, 'key')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |key|`text`|
@@ -110,6 +116,7 @@ Get a list of available tags.
 [[Method('Push Notifications', 'GetValue', false, 'tag valueIfTagNotThere')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |tag|`text`|
@@ -123,6 +130,7 @@ Get value for tag.
 [[Method('Push Notifications', 'SendMessage', false, 'title message restApiKey')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |title|`text`|
@@ -137,6 +145,7 @@ Send a message to all users. The message and your REST Api Key can not be empty!
 [[Method('Push Notifications', 'SendTag', false, 'key value')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |key|`text`|

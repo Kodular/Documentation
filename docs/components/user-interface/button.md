@@ -53,6 +53,7 @@ Indicates that a button has been released.
 [[Method('Button', 'AnimationStyle', false, 'style position size color')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |style|`text`|
@@ -74,6 +75,7 @@ Perform a button click as function.
 [[Method('Button', 'SetShadow', false, 'x y radius color')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |x|`number`|
@@ -89,6 +91,7 @@ Place a blurred shadow of text underneath the text, drawn with the specified x, 
 [[Method('Button', 'WithIconFromFontAwesome', false, 'position iconName iconColor padding size')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |position|`text`|
@@ -105,6 +108,7 @@ Show an image on the given position near to the button. You can use following wo
 [[Method('Button', 'WithIconFromMaterialFont', false, 'position iconName iconColor padding size')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |position|`text`|
@@ -121,6 +125,7 @@ Show an image on the given position near to the button. You can use following wo
 [[Method('Button', 'WithIconFromPicture', false, 'position picture padding width height')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |position|`text`|

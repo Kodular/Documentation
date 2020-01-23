@@ -14,9 +14,10 @@ A non-visible component with which other components can be animated.
 
 ### Error
 
-[[Event('Animation Utilities', 'Error', 'errorCode errorMessage method')]]
+[[Event('Animation Utilities', 'Error', 'errorCode', 'errorMessage', 'method')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |error Code|`number`|
@@ -33,6 +34,7 @@ This event is triggered when there was a error catched. Possible values for the 
 [[Method('Animation Utilities', 'BounceHorizontal', false, 'component startPosition endPosition duration')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |component|`component`|
@@ -48,6 +50,7 @@ Start a horizontal bounce animation. The duration is set in millisecond. Use as 
 [[Method('Animation Utilities', 'BounceVertical', false, 'component startPosition endPosition duration')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |component|`component`|
@@ -65,6 +68,7 @@ Start a vertical bounce animation. The duration is set in millisecond. Use as ex
 {>>Returns `number`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |component|`component`|
@@ -79,6 +83,7 @@ Returns the bottom position of a component. It will return '-9999' if there was 
 {>>Returns `number`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |component|`component`|
@@ -93,6 +98,7 @@ Returns the left position of a component. It will return '-9999' if there was a 
 {>>Returns `number`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |component|`component`|
@@ -107,6 +113,7 @@ Returns the right position of a component. It will return '-9999' if there was a
 {>>Returns `number`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |component|`component`|
@@ -121,6 +128,7 @@ Returns the top position of a component. It will return '-9999' if there was a e
 {>>Returns `number`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |component|`component`|
@@ -135,6 +143,7 @@ Returns the x position of a component. It will return '-9999' if there was a err
 {>>Returns `number`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |component|`component`|
@@ -147,6 +156,7 @@ Returns the y position of a component. It will return '-9999' if there was a err
 [[Method('Animation Utilities', 'OvershootHorizontal', false, 'component startPosition endPosition duration tension')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |component|`component`|
@@ -163,6 +173,7 @@ Start a horizontal overshoot animation. If 'tension' is set to 0 you will not se
 [[Method('Animation Utilities', 'OvershootVertical', false, 'component startPosition endPosition duration tension')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |component|`component`|
@@ -179,6 +190,7 @@ Start a vertical overshoot animation. If 'tension' is set to 0 you will not see 
 [[Method('Animation Utilities', 'Rotation', false, 'component rotationStartDegrees rotationEndDegrees duration')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |component|`component`|
@@ -194,6 +206,7 @@ Start a rotation on any component. Use as example in 'rotation Start Degrees' 0,
 [[Method('Animation Utilities', 'Zoom', false, 'component startScale endScale duration')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |component|`component`|

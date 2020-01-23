@@ -15,6 +15,7 @@ A visible component that indicates the progress of an operation by highlighting 
 [[Event('State Progress Bar', 'Error Occurred', 'errorMessage')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |error Message|`text`|
@@ -24,9 +25,10 @@ Event invoked when a error occurred.
 
 ### State Item Click
 
-[[Event('State Progress Bar', 'State Item Click', 'stateNumber isCurrentState')]]
+[[Event('State Progress Bar', 'State Item Click', 'stateNumber', 'isCurrentState')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |state Number|`number`|

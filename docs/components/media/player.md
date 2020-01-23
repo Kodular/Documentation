@@ -33,6 +33,7 @@ This event is signaled when another player has started (and the current player i
 [[Event('Player', 'PlayerError', 'message')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |message|`text`|
@@ -53,6 +54,7 @@ Suspends playing the media if it is playing.
 [[Method('Player', 'SeekTo', false, 'position')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |position|`number`|
@@ -65,6 +67,7 @@ Set a position where the source file should start playing.
 [[Method('Player', 'SetLeftRightVolume', false, 'leftVolume rightVolume')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |left Volume|`number`|
@@ -91,6 +94,7 @@ Stops playing the media and seeks to the beginning of the song.
 [[Method('Player', 'Vibrate', false, 'milliseconds')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |milliseconds|`number`|

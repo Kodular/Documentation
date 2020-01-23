@@ -15,6 +15,7 @@ A spinner component that displays a pop-up with a list of elements. These elemen
 [[Event('Spinner', 'After Selecting', 'selection')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |selection|`text`|

@@ -17,6 +17,7 @@ A component that provides a high-level interface to sound functionalities on LEG
 [[Method('EV3 Sound', 'PlayTone', false, 'volume frequency milliseconds')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |volume|`number`|

@@ -14,9 +14,10 @@ A component to create Short links with the Google API
 
 ### Got Response
 
-[[Event('Google Shortlink', 'Got Response', 'success responseContent')]]
+[[Event('Google Shortlink', 'Got Response', 'success', 'responseContent')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |success|`boolean`|
@@ -32,6 +33,7 @@ Event to detect when a link was converted.
 [[Method('Google Shortlink', 'ShortToUrl', false, 'url')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |url|`text`|
@@ -44,6 +46,7 @@ Convert a short link from google into a normal link. Powerd by Google.
 [[Method('Google Shortlink', 'UrlToShort', false, 'url')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |url|`text`|

@@ -15,6 +15,7 @@ A FeatureColletion contains one or more map features as a group. Any events fire
 [[Event('Feature Collection', 'Feature Click', 'feature')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |feature|`component`|
@@ -27,6 +28,7 @@ The user clicked on a map feature.
 [[Event('Feature Collection', 'Feature Drag', 'feature')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |feature|`component`|
@@ -39,6 +41,7 @@ The user dragged a map feature.
 [[Event('Feature Collection', 'Feature Long Click', 'feature')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |feature|`component`|
@@ -51,6 +54,7 @@ The user long-pressed on a map feature.
 [[Event('Feature Collection', 'Feature Start Drag', 'feature')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |feature|`component`|
@@ -63,6 +67,7 @@ The user started dragging a map feature.
 [[Event('Feature Collection', 'Feature Stop Drag', 'feature')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |feature|`component`|
@@ -72,9 +77,10 @@ The user stopped dragging a map feature.
 
 ### Got Features
 
-[[Event('Feature Collection', 'Got Features', 'url features')]]
+[[Event('Feature Collection', 'Got Features', 'url', 'features')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |url|`text`|
@@ -85,9 +91,10 @@ A GeoJSON document was successfully read from url. The features specified in the
 
 ### Load Error
 
-[[Event('Feature Collection', 'Load Error', 'url responseCode errorMessage')]]
+[[Event('Feature Collection', 'Load Error', 'url', 'responseCode', 'errorMessage')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |url|`text`|
@@ -106,6 +113,7 @@ An error was encountered while processing a GeoJSON document at the given url. T
 {>>Returns `any`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |description|`list`|
@@ -132,6 +140,7 @@ Convert a feature description into an App Inventor map feature. Currently the on
 [[Method('Feature Collection', 'LoadFromURL', false, 'url')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |url|`text`|

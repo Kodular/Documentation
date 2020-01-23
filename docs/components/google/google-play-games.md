@@ -15,9 +15,10 @@ Powered by the Google Play Games service.
 
 ### Got Player
 
-[[Event('Google Play Games', 'Got Player', 'name id level xp')]]
+[[Event('Google Play Games', 'Got Player', 'name', 'id', 'level', 'xp')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |name|`text`|
@@ -33,6 +34,7 @@ Got player info
 [[Event('Google Play Games', 'Signed In', 'success')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |success|`boolean`|
@@ -59,6 +61,7 @@ Get the current player
 [[Method('Google Play Games', 'IncrementAchievement', false, 'achievementId by')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |achievement Id|`text`|
@@ -86,6 +89,7 @@ Shows Achievement.
 [[Method('Google Play Games', 'ShowLeaderboard', false, 'leaderboardId')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |leaderboard Id|`text`|
@@ -98,6 +102,7 @@ Shows Leaderboard.
 [[Method('Google Play Games', 'SignIn', false, 'useLastAccount')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |use Last Account|`boolean`|
@@ -116,6 +121,7 @@ Sign out the user.
 [[Method('Google Play Games', 'SubmitScore', false, 'leaderboardId score')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |leaderboard Id|`text`|
@@ -129,6 +135,7 @@ Submits user score to leaderboard.
 [[Method('Google Play Games', 'UnlockAchievement', false, 'achievementId')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |achievement Id|`text`|

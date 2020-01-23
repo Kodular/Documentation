@@ -16,9 +16,10 @@ In order to function, the component must have its `` Enabled `` property set to 
 
 ### Gyroscope Changed
 
-[[Event('Gyroscope Sensor', 'Gyroscope Changed', 'xAngularVelocity yAngularVelocity zAngularVelocity timestamp')]]
+[[Event('Gyroscope Sensor', 'Gyroscope Changed', 'xAngularVelocity', 'yAngularVelocity', 'zAngularVelocity', 'timestamp')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |x Angular Velocity|`number`|

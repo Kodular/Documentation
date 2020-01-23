@@ -17,6 +17,7 @@ A non-visible component that executes shell commands and checks the device''s ro
 [[Event('Shell', 'Got Output', 'out')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |out|`text`|
@@ -39,6 +40,7 @@ Returns TRUE if one of 6 known root packages or varients is installed. The name 
 [[Method('Shell', 'Execute', false, 'in')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |in|`text`|

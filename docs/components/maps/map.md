@@ -20,9 +20,10 @@ User has changed the map bounds by panning or zooming the map.
 
 ### Double Tap At Point
 
-[[Event('Map', 'Double Tap At Point', 'latitude longitude')]]
+[[Event('Map', 'Double Tap At Point', 'latitude', 'longitude')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |latitude|`number`|
@@ -36,6 +37,7 @@ The user double-tapped at a point on the map. This event will be followed by a Z
 [[Event('Map', 'Feature Click', 'feature')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |feature|`component`|
@@ -48,6 +50,7 @@ The user clicked on a map feature.
 [[Event('Map', 'Feature Drag', 'feature')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |feature|`component`|
@@ -60,6 +63,7 @@ The user dragged a map feature.
 [[Event('Map', 'Feature Long Click', 'feature')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |feature|`component`|
@@ -72,6 +76,7 @@ The user long-pressed on a map feature.
 [[Event('Map', 'Feature Start Drag', 'feature')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |feature|`component`|
@@ -84,6 +89,7 @@ The user started dragging a map feature.
 [[Event('Map', 'Feature Stop Drag', 'feature')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |feature|`component`|
@@ -93,9 +99,10 @@ The user stopped dragging a map feature.
 
 ### Got Features
 
-[[Event('Map', 'Got Features', 'url features')]]
+[[Event('Map', 'Got Features', 'url', 'features')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |url|`text`|
@@ -109,6 +116,7 @@ A GeoJSON document was successfully read from url. The features specified in the
 [[Event('Map', 'Invalid Point', 'message')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |message|`text`|
@@ -118,9 +126,10 @@ An invalid coordinate was supplied during a maps operation. The message paramete
 
 ### Load Error
 
-[[Event('Map', 'Load Error', 'url responseCode errorMessage')]]
+[[Event('Map', 'Load Error', 'url', 'responseCode', 'errorMessage')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |url|`text`|
@@ -132,9 +141,10 @@ An error was encountered while processing a GeoJSON document at the given url. T
 
 ### Long Press At Point
 
-[[Event('Map', 'Long Press At Point', 'latitude longitude')]]
+[[Event('Map', 'Long Press At Point', 'latitude', 'longitude')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |latitude|`number`|
@@ -151,9 +161,10 @@ Map has been initialized and is ready for user interaction.
 
 ### Tap At Point
 
-[[Event('Map', 'Tap At Point', 'latitude longitude')]]
+[[Event('Map', 'Tap At Point', 'latitude', 'longitude')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |latitude|`number`|
@@ -177,6 +188,7 @@ User has changed the zoom level of the map.
 {>>Returns `component`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |latitude|`number`|
@@ -192,6 +204,7 @@ Create a new marker with default properties at the specified latitude and longit
 {>>Returns `any`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |description|`list`|
@@ -218,6 +231,7 @@ Convert a feature description into an App Inventor map feature. Currently the on
 [[Method('Map', 'LoadFromURL', false, 'url')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |url|`text`|
@@ -230,6 +244,7 @@ Load a feature collection in [GeoJSON](https://en.wikipedia.org/wiki/GeoJSON) fo
 [[Method('Map', 'PanTo', false, 'latitude longitude zoom')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |latitude|`number`|
@@ -244,6 +259,7 @@ Pan the map center to the given latitude and longitude and adjust the zoom level
 [[Method('Map', 'Save', false, 'path')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |path|`text`|

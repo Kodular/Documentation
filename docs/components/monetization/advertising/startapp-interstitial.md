@@ -26,9 +26,10 @@ Indicates that an Ad is shown to the user.
 
 ### Ad Failed To Load
 
-[[Event('StartApp Interstitial', 'Ad Failed To Load', 'errorCode errorMessage')]]
+[[Event('StartApp Interstitial', 'Ad Failed To Load', 'errorCode', 'errorMessage')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |error Code|`number`|
@@ -42,6 +43,7 @@ Called when an ad request failed to load. The message will display the error cod
 [[Event('StartApp Interstitial', 'Ad Failed To Show', 'errorMessage')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |error Message|`text`|
@@ -60,6 +62,7 @@ Indicates that an Ad which was shown to the user is now hidden.
 [[Event('StartApp Interstitial', 'On Failed To Receive Ad', 'errorMessage')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |error Message|`text`|

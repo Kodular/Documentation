@@ -18,6 +18,7 @@ Side menus are navigation menus that slide from the left of the screen via a swi
 [[Event('Side Menu Layout', 'On Menu Item Click', 'title')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |title|`text`|
@@ -32,6 +33,7 @@ Triggers when the user clicks on an item of the Navigation Menu
 [[Method('Side Menu Layout', 'AddItem', false, 'title image enabled checked group')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |title|`text`|
@@ -48,6 +50,7 @@ Add an item to the Navigation Menu
 [[Method('Side Menu Layout', 'RemoveItem', false, 'title')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |title|`text`|
@@ -60,6 +63,7 @@ Remove an item from the Navigation Menu
 [[Method('Side Menu Layout', 'UpdateItem', false, 'title newTitle image enabled checked')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |title|`text`|

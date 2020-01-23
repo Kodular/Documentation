@@ -67,6 +67,7 @@ Stops playing the sound if it is being played.
 [[Method('Sound', 'Vibrate', false, 'millisecs')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |millisecs|`number`|
@@ -79,6 +80,7 @@ Vibrates for the specified number of milliseconds.
 [[Method('Sound', 'VibratePattern', false, 'vibrate delay repeat')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |vibrate|`number`|

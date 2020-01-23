@@ -14,9 +14,10 @@ A non-visible component that parses and handles data encoded as JSON.
 
 ### Error Occurred
 
-[[Event('JSON', 'Error Occurred', 'functionName errorMessage')]]
+[[Event('JSON', 'Error Occurred', 'functionName', 'errorMessage')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |function Name|`text`|
@@ -34,6 +35,7 @@ Triggers when there is a JSON error.
 {>>Returns `text`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |jsonArray|`text`|
@@ -50,6 +52,7 @@ Add True or False to a JSON Array.
 {>>Returns `text`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |jsonObject|`text`|
@@ -67,6 +70,7 @@ Add True or False to a JSON Object.
 {>>Returns `text`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |jsonArray|`text`|
@@ -83,6 +87,7 @@ Add a JSON Array to a JSON Array.
 {>>Returns `text`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |jsonArray|`text`|
@@ -99,6 +104,7 @@ Add a JSON Object to a JSON Array.
 {>>Returns `text`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |jsonObject|`text`|
@@ -116,6 +122,7 @@ Add a JSON Object to a JSON Object.
 {>>Returns `text`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |jsonArray|`text`|
@@ -132,6 +139,7 @@ Add a Number to a JSON Array.
 {>>Returns `text`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |jsonObject|`text`|
@@ -149,6 +157,7 @@ Add a Number to a JSON Object.
 {>>Returns `text`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |jsonArray|`text`|
@@ -165,6 +174,7 @@ Add Text to a JSON Array.
 {>>Returns `text`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |jsonObject|`text`|
@@ -182,6 +192,7 @@ Add Text to a JSON Object.
 {>>Returns `boolean`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |jsonArray|`text`|
@@ -198,6 +209,7 @@ Get a True or False from a JSON Array.
 {>>Returns `boolean`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |jsonObject|`text`|
@@ -214,6 +226,7 @@ Get a true or false value from a JSON Object.
 {>>Returns `text`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |jsonObject|`text`|
@@ -230,6 +243,7 @@ Get a JSON Array from a JSON Object.
 {>>Returns `text`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |jsonArray|`text`|
@@ -246,6 +260,7 @@ Get a JSON Object from a JSON Array.
 {>>Returns `text`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |jsonObject|`text`|
@@ -262,6 +277,7 @@ Get a JSON Object from a JSON Object.
 {>>Returns `number`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |jsonArray|`text`|
@@ -277,6 +293,7 @@ Get the length of a JSON Array.
 {>>Returns `number`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |jsonArray|`text`|
@@ -293,6 +310,7 @@ Get a Number from a JSON Array.
 {>>Returns `number`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |jsonObject|`text`|
@@ -309,6 +327,7 @@ Get a number from a JSON Object.
 {>>Returns `text`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |jsonArray|`text`|
@@ -325,6 +344,7 @@ Get Text from a JSON Array.
 {>>Returns `text`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |jsonObject|`text`|

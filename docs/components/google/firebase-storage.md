@@ -14,9 +14,10 @@ Firebase Storage to upload files to a Firebase Storage Bucket
 
 ### Delete Failed
 
-[[Event('Firebase Storage', 'Delete Failed', 'file message')]]
+[[Event('Firebase Storage', 'Delete Failed', 'file', 'message')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |file|`text`|
@@ -30,6 +31,7 @@ Triggers when the file could not be deleted
 [[Event('Firebase Storage', 'Delete Success', 'file')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |file|`text`|
@@ -39,9 +41,10 @@ Triggers when the file was successfully deleted
 
 ### Download Failed
 
-[[Event('Firebase Storage', 'Download Failed', 'file message')]]
+[[Event('Firebase Storage', 'Download Failed', 'file', 'message')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |file|`text`|
@@ -52,9 +55,10 @@ Triggers when the file could not be downloaded
 
 ### Download Success
 
-[[Event('Firebase Storage', 'Download Success', 'file downloadedFile')]]
+[[Event('Firebase Storage', 'Download Success', 'file', 'downloadedFile')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |file|`text`|
@@ -65,9 +69,10 @@ Triggers when the file was successfully downloaded
 
 ### Upload Failed
 
-[[Event('Firebase Storage', 'Upload Failed', 'file message')]]
+[[Event('Firebase Storage', 'Upload Failed', 'file', 'message')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |file|`text`|
@@ -78,9 +83,10 @@ Triggers when the file could not be uploaded
 
 ### Upload Progress
 
-[[Event('Firebase Storage', 'Upload Progress', 'file uploadPath transferredBytes totalBytes')]]
+[[Event('Firebase Storage', 'Upload Progress', 'file', 'uploadPath', 'transferredBytes', 'totalBytes')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |file|`text`|
@@ -93,9 +99,10 @@ Triggers when the file upload progress changed
 
 ### Upload Success
 
-[[Event('Firebase Storage', 'Upload Success', 'file uploadPath downloadUrl')]]
+[[Event('Firebase Storage', 'Upload Success', 'file', 'uploadPath', 'downloadUrl')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |file|`text`|
@@ -112,6 +119,7 @@ Triggers when the file was successfully uploaded
 [[Method('Firebase Storage', 'DeleteFile', false, 'file')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |file|`text`|
@@ -124,6 +132,7 @@ Try to delete a file from Firebase Storage
 [[Method('Firebase Storage', 'DownloadFile', false, 'file toFolder')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |file|`text`|
@@ -169,6 +178,7 @@ Resume all the active uploads
 [[Method('Firebase Storage', 'UploadFile', false, 'file uploadPath')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |file|`text`|

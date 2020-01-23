@@ -17,6 +17,7 @@ A non-visible component that acts as a bluetooth admin.
 [[Event('Bluetooth Admin', 'After Pairing', 'address')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |address|`text`|
@@ -26,9 +27,10 @@ Event triggers when Pairing has finished.
 
 ### After Scanning
 
-[[Event('Bluetooth Admin', 'After Scanning', 'pairedDevices newDevices')]]
+[[Event('Bluetooth Admin', 'After Scanning', 'pairedDevices', 'newDevices')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |paired Devices|`any`|
@@ -42,6 +44,7 @@ Event triggers when Scanning has finished.
 [[Event('Bluetooth Admin', 'After Unpairing', 'address')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |address|`text`|
@@ -54,6 +57,7 @@ Event triggers when Unpairing has finished.
 [[Event('Bluetooth Admin', 'Error Occurred', 'message')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |message|`text`|
@@ -66,6 +70,7 @@ Event triggers when an error occurred.
 [[Event('Bluetooth Admin', 'State Changed', 'state')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |state|`text`|
@@ -108,6 +113,7 @@ Returns the Bluetooth MacAddress.
 [[Method('Bluetooth Admin', 'Pair', false, 'address')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |address|`text`|
@@ -148,6 +154,7 @@ Toggle Bluetooth
 [[Method('Bluetooth Admin', 'Unpair', false, 'address')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |address|`text`|
@@ -162,6 +169,7 @@ Unpair Bluetooth device.
 {>>Returns `boolean`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |mac Address|`text`|

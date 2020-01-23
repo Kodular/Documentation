@@ -14,9 +14,10 @@ Non-visible component that measures the ambient geomagnetic field for all three 
 
 ### Magnetic Changed
 
-[[Event('Magnetic Field Sensor', 'Magnetic Changed', 'xStrength yStrength zStrength absoluteStrength')]]
+[[Event('Magnetic Field Sensor', 'Magnetic Changed', 'xStrength', 'yStrength', 'zStrength', 'absoluteStrength')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |x Strength|`number`|

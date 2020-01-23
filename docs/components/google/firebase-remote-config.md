@@ -39,6 +39,7 @@ Fetches parameter values for your app
 {>>Returns `boolean`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |key|`text`|
@@ -53,6 +54,7 @@ Gets a boolean value corresponding to the specified key
 {>>Returns `number`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |key|`text`|
@@ -67,6 +69,7 @@ Gets a number value corresponding to the specified key
 {>>Returns `text`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |key|`text`|

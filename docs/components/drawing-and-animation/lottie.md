@@ -47,6 +47,7 @@ Triggers when the components was long clicked.
 [[Method('Lottie', 'EndFrame', false, 'frame')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |frame|`number`|
@@ -95,6 +96,7 @@ Resume the animation on the Lottie component.
 [[Method('Lottie', 'SetCurrentFrame', false, 'frame')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |frame|`number`|
@@ -113,6 +115,7 @@ Start the animation on the Lottie component.
 [[Method('Lottie', 'StartFrame', false, 'frame')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |frame|`number`|

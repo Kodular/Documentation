@@ -17,6 +17,7 @@ A non-visible component that provides access to the system''s wallpaper settings
 [[Event('Wallpaper', 'Got Wallpaper', 'picture')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |picture|`text`|
@@ -29,6 +30,7 @@ Event to detect that the component got the current system wallpaper.
 [[Event('Wallpaper', 'Wallpaper Changed', 'success')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |success|`boolean`|
@@ -67,6 +69,7 @@ Retrieve the current system wallpaper; if no wallpaper is set, the system built-
 [[Method('Wallpaper', 'SetLockScreenWallpaper', false, 'image')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |image|`text`|
@@ -79,6 +82,7 @@ Change the current lock screen wallpaper. This block works only on devices with 
 [[Method('Wallpaper', 'SetWallpaper', false, 'image')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |image|`text`|

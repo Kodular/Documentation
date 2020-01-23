@@ -47,6 +47,7 @@ Indicates that a button has been released.
 [[Method('Date Picker', 'AnimationStyle', false, 'style position size color')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |style|`text`|
@@ -74,6 +75,7 @@ Launches the DatePicker popup.
 [[Method('Date Picker', 'SetDateToDisplay', false, 'year month day')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |year|`number`|
@@ -89,6 +91,7 @@ Valid values for the month field are 1-12 and 1-31 for the day field.
 [[Method('Date Picker', 'SetDateToDisplayFromInstant', false, 'instant')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |instant|`InstantInTime`|
@@ -101,6 +104,7 @@ Allows the user to set the date from the instant to be displayed when the date p
 [[Method('Date Picker', 'SetShadow', false, 'x y radius color')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |x|`number`|
@@ -116,6 +120,7 @@ Place a blurred shadow of text underneath the text, drawn with the specified x, 
 [[Method('Date Picker', 'WithIconFromFontAwesome', false, 'position iconName iconColor padding size')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |position|`text`|
@@ -132,6 +137,7 @@ Show an image on the given position near to the button. You can use following wo
 [[Method('Date Picker', 'WithIconFromMaterialFont', false, 'position iconName iconColor padding size')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |position|`text`|
@@ -148,6 +154,7 @@ Show an image on the given position near to the button. You can use following wo
 [[Method('Date Picker', 'WithIconFromPicture', false, 'position picture padding width height')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |position|`text`|

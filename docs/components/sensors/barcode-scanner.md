@@ -17,6 +17,7 @@ A non-visible component that reads barcodes from the device''s camera.
 [[Event('Barcode Scanner', 'After Scan', 'result')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |result|`text`|

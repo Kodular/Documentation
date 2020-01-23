@@ -12,9 +12,10 @@ A visible component that groups other layout components such that only one of it
 
 ### Tab Item Selected
 
-[[Event('Tab Layout', 'Tab Item Selected', 'tab position')]]
+[[Event('Tab Layout', 'Tab Item Selected', 'tab', 'position')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |tab|`text`|
@@ -30,6 +31,7 @@ The event returns the name or the position of the selected tab.
 [[Method('Tab Layout', 'AddNewTab', false, 'name icon')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |name|`text`|
@@ -43,6 +45,7 @@ Add a new tab to the tab layout. If you don't want a icon then let it empty.
 [[Method('Tab Layout', 'AddNewTabAt', false, 'name icon position')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |name|`text`|
@@ -71,6 +74,7 @@ Remove all tab's from tab layout.
 [[Method('Tab Layout', 'RemoveTabAt', false, 'position')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |position|`number`|

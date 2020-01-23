@@ -17,6 +17,7 @@ A component that provides a high-level interface to a LEGO MINDSTORMS EV3 robot,
 [[Method('EV3 UI', 'DrawCircle', false, 'color x y radius fill')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |color|`number`|
@@ -33,6 +34,7 @@ Draw a circle on the screen.
 [[Method('EV3 UI', 'DrawIcon', false, 'color x y type no')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |color|`number`|
@@ -49,6 +51,7 @@ Draw a built-in icon on screen.
 [[Method('EV3 UI', 'DrawLine', false, 'color x1 y1 x2 y2')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |color|`number`|
@@ -65,6 +68,7 @@ Draw a line on the screen.
 [[Method('EV3 UI', 'DrawPoint', false, 'color x y')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |color|`number`|
@@ -79,6 +83,7 @@ Draw a point on the screen.
 [[Method('EV3 UI', 'DrawRect', false, 'color x y width height fill')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |color|`number`|
@@ -96,6 +101,7 @@ Draw a rectangle on the screen.
 [[Method('EV3 UI', 'FillScreen', false, 'color')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |color|`number`|

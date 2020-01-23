@@ -21,6 +21,7 @@ Event to detect clicks on the camera preview.
 [[Event('Surface View', 'Face Detected', 'numbers')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |numbers|`text`|
@@ -33,6 +34,7 @@ Event to detect that there are faces in the front of the camera.
 [[Event('Surface View', 'Got Preview', 'image')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |image|`text`|
@@ -51,6 +53,7 @@ Event to detect long clicks on the camera preview.
 [[Event('Surface View', 'Picture Created', 'image')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |image|`text`|

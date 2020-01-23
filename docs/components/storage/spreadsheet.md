@@ -18,6 +18,7 @@ Component credits\: <a href\="https\://community.kodular.io/u/jerin_jacob" targe
 [[Event('Spreadsheet', 'Cell Changed', 'responseCode')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |response Code|`number`|
@@ -30,6 +31,7 @@ Triggered when changing cell data. ResponseCode is a number
 [[Event('Spreadsheet', 'Deleted Row By Number', 'responseCode')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |response Code|`number`|
@@ -39,9 +41,10 @@ Triggered when destroying a row. ResponseCode is a number
 
 ### Got All Rows
 
-[[Event('Spreadsheet', 'Got All Rows', 'responseCode responseContent totalRows')]]
+[[Event('Spreadsheet', 'Got All Rows', 'responseCode', 'responseContent', 'totalRows')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |response Code|`number`|
@@ -53,9 +56,10 @@ Triggered when getting all rows. ResponseCode is a number, ResponseContent is a 
 
 ### Got Cell
 
-[[Event('Spreadsheet', 'Got Cell', 'responseCode value rowId createdTime')]]
+[[Event('Spreadsheet', 'Got Cell', 'responseCode', 'value', 'rowId', 'createdTime')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |response Code|`number`|
@@ -68,9 +72,10 @@ Triggered when receiving cell data. ResponseCode is a number, the other ones are
 
 ### Got Column
 
-[[Event('Spreadsheet', 'Got Column', 'responseCode values rowIds createdTimes')]]
+[[Event('Spreadsheet', 'Got Column', 'responseCode', 'values', 'rowIds', 'createdTimes')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |response Code|`number`|
@@ -83,9 +88,10 @@ Triggered when receiving column data. ResponseCode is a number, the other ones a
 
 ### Got Row
 
-[[Event('Spreadsheet', 'Got Row', 'responseCode values')]]
+[[Event('Spreadsheet', 'Got Row', 'responseCode', 'values')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |response Code|`number`|
@@ -99,6 +105,7 @@ Triggered when receiving row data. ResponseCode is a number, Values is a list
 [[Event('Spreadsheet', 'Row Created', 'responseCode')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |response Code|`number`|
@@ -111,6 +118,7 @@ Triggered when creating a row. ResponseCode is a number
 [[Event('Spreadsheet', 'Row Updated', 'responseCode')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |response Code|`number`|
@@ -125,6 +133,7 @@ Triggered when updating a row. ResponseCode is a number
 [[Method('Spreadsheet', 'CreateRow', false, 'columnNames values')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |column Names|`list`|
@@ -138,6 +147,7 @@ Creates a new row
 [[Method('Spreadsheet', 'DeleteRowNum', false, 'rowNumber')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |row Number|`number`|
@@ -156,6 +166,7 @@ Gets all rows
 [[Method('Spreadsheet', 'GetCell', false, 'rowNumber columnName')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |row Number|`number`|
@@ -169,6 +180,7 @@ Gets cell data
 [[Method('Spreadsheet', 'GetColumn', false, 'columnName maxRecord')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |column Name|`text`|
@@ -182,6 +194,7 @@ Gets column data
 [[Method('Spreadsheet', 'GetRow', false, 'rowNumber')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |row Number|`number`|
@@ -194,6 +207,7 @@ Gets row data
 [[Method('Spreadsheet', 'SetCell', false, 'rowNumber columnName value')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |row Number|`number`|
@@ -208,6 +222,7 @@ Changes the value of a cell
 [[Method('Spreadsheet', 'UpdateRowByNum', false, 'rowNumber columnNames values')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |row Number|`number`|

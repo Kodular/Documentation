@@ -25,6 +25,7 @@ Check wether the app can send Notifications
 [[Method('Notification', 'BigPictureNotification', false, 'notificationID title message bigPicture startValue removeOnClick')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |notification ID|`number`|
@@ -48,6 +49,7 @@ Cancel all Notifications
 [[Method('Notification', 'CancelNotification', false, 'id')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -60,6 +62,7 @@ Cancel a Notification with an id
 [[Method('Notification', 'NormalNotification', false, 'notificationID title message startValue removeOnClick')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |notification ID|`number`|
@@ -76,6 +79,7 @@ Send a normal notification
 [[Method('Notification', 'SimpleNotification', false, 'title message')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |title|`text`|

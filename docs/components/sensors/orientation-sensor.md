@@ -20,9 +20,10 @@ Non-visible component providing information about the device's physical orientat
 
 ### Orientation Changed
 
-[[Event('Orientation Sensor', 'Orientation Changed', 'azimuth pitch roll')]]
+[[Event('Orientation Sensor', 'Orientation Changed', 'azimuth', 'pitch', 'roll')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |azimuth|`number`|

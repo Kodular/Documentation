@@ -27,6 +27,7 @@ Indicates that the video has reached the end
 [[Event('Video Player', 'VideoPlayerError', 'message')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |message|`text`|
@@ -55,6 +56,7 @@ Pauses playback of the video.  Playback can be resumed at the same location by c
 [[Method('Video Player', 'SeekTo', false, 'ms')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |ms|`number`|

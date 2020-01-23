@@ -17,6 +17,7 @@ A non-visible component that records audio from the device''s microphone.
 [[Event('Sound Recorder', 'After Sound Recorded', 'sound')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |sound|`text`|

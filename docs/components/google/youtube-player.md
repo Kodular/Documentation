@@ -16,6 +16,7 @@ Note\: For this component to work correctly, set the MIN API to 17 (Android 4.2)
 [[Event('Youtube Player', 'Error', 'error')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |error|`text`|
@@ -28,6 +29,7 @@ Use this event to detect that there was any error with the player. Return values
 [[Event('Youtube Player', 'Fullscreen', 'fullscreen')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |fullscreen|`boolean`|
@@ -46,6 +48,7 @@ Use this event to start the playing of a normal or instant youtube video.
 [[Event('Youtube Player', 'Playback Quality Changed', 'quality')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |quality|`text`|
@@ -58,6 +61,7 @@ Use this event to detect that the playback quality was changed. Return values: '
 [[Event('Youtube Player', 'Playback Rate Changed', 'rate')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |rate|`text`|
@@ -70,6 +74,7 @@ Use this event to detect that the playback rate was changed. Return values: 'UNK
 [[Event('Youtube Player', 'State Changed', 'state')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |state|`text`|
@@ -98,6 +103,7 @@ Exit the video from fullscreen mode.
 {>>Returns `text`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |video Id|`text`|
@@ -110,6 +116,7 @@ This block will return the thumbnail image path from a video id. Use only as exa
 [[Method('Youtube Player', 'InstantLoad', false, 'videoId')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |video Id|`text`|
@@ -122,6 +129,7 @@ Use this block together with the 'Youtube Player' Initialized event. Loads and a
 [[Method('Youtube Player', 'Load', false, 'videoId')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |video Id|`text`|
@@ -146,6 +154,7 @@ Plays the youtube video.
 [[Method('Youtube Player', 'SeekTo', false, 'position')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |position|`number`|

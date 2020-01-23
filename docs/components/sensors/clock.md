@@ -33,6 +33,7 @@ Timer has gone off.
 {>>Returns `InstantInTime`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |instant|`InstantInTime`|
@@ -48,6 +49,7 @@ An instant in time some days after the argument
 {>>Returns `InstantInTime`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |instant|`InstantInTime`|
@@ -63,6 +65,7 @@ An instant in time some duration after the argument
 {>>Returns `InstantInTime`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |instant|`InstantInTime`|
@@ -78,6 +81,7 @@ An instant in time some hours after the argument
 {>>Returns `InstantInTime`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |instant|`InstantInTime`|
@@ -93,6 +97,7 @@ An instant in time some minutes after the argument
 {>>Returns `InstantInTime`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |instant|`InstantInTime`|
@@ -108,6 +113,7 @@ An instant in time some months after the argument
 {>>Returns `InstantInTime`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |instant|`InstantInTime`|
@@ -123,6 +129,7 @@ An instant in time some seconds after the argument
 {>>Returns `InstantInTime`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |instant|`InstantInTime`|
@@ -138,6 +145,7 @@ An instant in time some weeks after the argument
 {>>Returns `InstantInTime`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |instant|`InstantInTime`|
@@ -153,6 +161,7 @@ An instant in time some years after the argument
 {>>Returns `number`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |instant|`InstantInTime`|
@@ -167,6 +176,7 @@ The day of the month
 {>>Returns `number`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |start|`InstantInTime`|
@@ -182,6 +192,7 @@ Milliseconds elapsed between instants
 {>>Returns `number`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |duration|`number`|
@@ -196,6 +207,7 @@ convert duration to days
 {>>Returns `number`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |duration|`number`|
@@ -210,6 +222,7 @@ convert duration to hours
 {>>Returns `number`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |duration|`number`|
@@ -224,6 +237,7 @@ convert duration to minutes
 {>>Returns `number`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |duration|`number`|
@@ -238,6 +252,7 @@ convert duration to seconds
 {>>Returns `number`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |duration|`number`|
@@ -252,6 +267,7 @@ convert duration to weeks
 {>>Returns `text`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |instant|`InstantInTime`|
@@ -267,6 +283,7 @@ Text representing the date of an instant in the specified pattern
 {>>Returns `text`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |instant|`InstantInTime`|
@@ -282,6 +299,7 @@ Text representing the date and time of an instant in the specified pattern
 {>>Returns `text`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |instant|`InstantInTime`|
@@ -296,6 +314,7 @@ Text representing the time of an instant
 {>>Returns `number`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |instant|`InstantInTime`|
@@ -310,6 +329,7 @@ The instant in time measured as milliseconds since 1970.
 {>>Returns `number`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |instant|`InstantInTime`|
@@ -324,6 +344,7 @@ The hour of the day
 {>>Returns `InstantInTime`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |year|`number`|
@@ -341,6 +362,7 @@ Valid values for the month field are 1-12 and 1-31 for the day field.
 {>>Returns `InstantInTime`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |from|`text`|
@@ -355,6 +377,7 @@ An instant in time specified by MM/dd/YYYY hh:mm:ss or MM/dd/YYYY or hh:mm
 {>>Returns `InstantInTime`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |millis|`number`|
@@ -369,6 +392,7 @@ An instant in time specified by the milliseconds since 1970.
 {>>Returns `InstantInTime`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |year|`number`|
@@ -389,6 +413,7 @@ Valid values for the month field are 1-12 and 1-31 for the day field.
 {>>Returns `InstantInTime`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |hour|`number`|
@@ -405,6 +430,7 @@ Allows the user to set the time of the clock - Valid format is hh:mm:ss
 {>>Returns `number`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |instant|`InstantInTime`|
@@ -419,6 +445,7 @@ The minute of the hour
 {>>Returns `number`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |instant|`InstantInTime`|
@@ -433,6 +460,7 @@ The month of the year represented as a number from 1 to 12)
 {>>Returns `text`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |instant|`InstantInTime`|
@@ -455,6 +483,7 @@ The current instant in time read from phone's clock
 {>>Returns `number`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |instant|`InstantInTime`|
@@ -477,6 +506,7 @@ The phone's internal time
 {>>Returns `number`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |instant|`InstantInTime`|
@@ -491,6 +521,7 @@ The day of the week represented as a number from 1 (Sunday) to 7 (Saturday)
 {>>Returns `text`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |instant|`InstantInTime`|
@@ -505,6 +536,7 @@ The name of the day of the week
 {>>Returns `number`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |instant|`InstantInTime`|

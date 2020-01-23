@@ -14,9 +14,10 @@ A non-visible component that shows Unity ads as full-screen advertisements.
 
 ### Ad Closed
 
-[[Event('Unity Ads Interstitial', 'Ad Closed', 'placementId wasSkipped wasCompleted')]]
+[[Event('Unity Ads Interstitial', 'Ad Closed', 'placementId', 'wasSkipped', 'wasCompleted')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |placement Id|`text`|
@@ -31,6 +32,7 @@ Called when an ad was closed.
 [[Event('Unity Ads Interstitial', 'Ad Opened', 'placementId')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |placement Id|`text`|
@@ -43,6 +45,7 @@ Called when an ad was opened.
 [[Event('Unity Ads Interstitial', 'Ad Started', 'placementId')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |placement Id|`text`|
@@ -55,6 +58,7 @@ Called when an ad was started.
 [[Event('Unity Ads Interstitial', 'Error', 'error')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |error|`text`|

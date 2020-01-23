@@ -15,6 +15,7 @@ A visible component that indicates the progress of an operation using an animate
 [[Event('Linear Progressbar', 'Progress Changed', 'progress')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |progress|`number`|
@@ -29,6 +30,7 @@ Event that indicates that the progress of the progress bar has been changed. Ret
 [[Method('Linear Progressbar', 'IncrementProgressBy', false, 'value')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |value|`number`|

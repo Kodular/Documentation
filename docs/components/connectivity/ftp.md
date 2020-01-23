@@ -17,6 +17,7 @@ A non-visible component that allows for uploading and downloading of files via F
 [[Event('FTP', 'Connect Error', 'error')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |error|`text`|
@@ -29,6 +30,7 @@ This event returns the reason if a try to connect was not successful.
 [[Event('FTP', 'Connection Status', 'isConnected')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |is Connected|`boolean`|
@@ -41,6 +43,7 @@ This event returns the status of the connection. If it is connect it will return
 [[Event('FTP', 'Disconnect Error', 'error')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |error|`text`|
@@ -59,6 +62,7 @@ This event is invoked when the download is finished.
 [[Event('FTP', 'Download error', 'error')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |error|`text`|
@@ -77,6 +81,7 @@ This event is invoked when the upload is finished.
 [[Event('FTP', 'Upload error', 'error')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |error|`text`|
@@ -103,6 +108,7 @@ Disconnect the current connection.
 [[Method('FTP', 'DownloadFile', false, 'remoteFilepath destination')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |remote Filepath|`text`|
@@ -118,6 +124,7 @@ Start downloading a file.
 {>>Returns `list`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |dir|`text`|
@@ -130,6 +137,7 @@ Get a list of files in a directory. Returns a empty list if a error occurs.
 [[Method('FTP', 'UploadFile', false, 'filePath newName')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |file Path|`text`|
@@ -143,6 +151,7 @@ Start uploading a file.
 [[Method('FTP', 'Delete Dir', false, 'dir')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |dir|`text`|
@@ -155,6 +164,7 @@ Delete a directory on the ftp server.
 [[Method('FTP', 'make Dir', false, 'dir')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |dir|`text`|

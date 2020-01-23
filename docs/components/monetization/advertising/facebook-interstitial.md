@@ -29,6 +29,7 @@ Called when an ad is received
 [[Event('Facebook Interstitial', 'Error', 'error')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |error|`text`|

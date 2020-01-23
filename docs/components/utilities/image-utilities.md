@@ -17,6 +17,7 @@ A non-visible component that loads images asynchronously.
 [[Method('Image Utilities', 'LoadImageAsync', false, 'component path')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |component|`component`|

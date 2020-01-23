@@ -49,6 +49,7 @@ The user stopped a drag operation.
 {>>Returns `number`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |map Feature|`component`|
@@ -64,6 +65,7 @@ Returns the bearing from the Marker to the given map feature, in degrees from du
 {>>Returns `number`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |latitude|`number`|
@@ -79,6 +81,7 @@ Returns the bearing from the Marker to the given latitude and longitude, in degr
 {>>Returns `number`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |map Feature|`component`|
@@ -94,6 +97,7 @@ Compute the distance, in meters, between two map features.
 {>>Returns `number`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |latitude|`number`|
@@ -113,6 +117,7 @@ Hide the infobox if it is shown. If the infobox is not visible this function has
 [[Method('Marker', 'SetLocation', false, 'latitude longitude')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |latitude|`number`|

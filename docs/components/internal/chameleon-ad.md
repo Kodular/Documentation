@@ -20,9 +20,10 @@ Event triggered when ads are closed.
 
 ### Ad Failed To Load
 
-[[Event('Chameleon Ad', 'Ad Failed To Load', 'errorMessage errorCode')]]
+[[Event('Chameleon Ad', 'Ad Failed To Load', 'errorMessage', 'errorCode')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |error Message|`text`|
@@ -33,9 +34,10 @@ Event triggered when ads failed to load. Here is the list with all possible erro
 
 ### Ad Failed To Show
 
-[[Event('Chameleon Ad', 'Ad Failed To Show', 'errorMessage errorCode')]]
+[[Event('Chameleon Ad', 'Ad Failed To Show', 'errorMessage', 'errorCode')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |error Message|`text`|

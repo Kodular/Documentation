@@ -17,6 +17,7 @@ A non-visible component that takes a screenshot of the content currently visible
 [[Event('Screenshot', 'Got Screenshot', 'image')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |image|`text`|

@@ -29,6 +29,7 @@ Event to detect that a user has done a simple "Long Click".
 [[Method('Label', 'AnimationStyle', false, 'style position size color')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |style|`text`|
@@ -44,6 +45,7 @@ Allows you to set animation style. Valid (case-insensitive) values are: ChasingD
 [[Method('Label', 'SetShadow', false, 'x y radius color')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |x|`number`|

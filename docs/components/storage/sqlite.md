@@ -18,6 +18,7 @@ Component credits\: Carlos Pedroza
 [[Event('SQLite', 'After Execution', 'wasExecuted')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |was Executed|`boolean`|
@@ -27,9 +28,10 @@ Event handler after the SQL statement is executed, returns whether the execution
 
 ### After Query
 
-[[Event('SQLite', 'After Query', 'result numberOfRecords')]]
+[[Event('SQLite', 'After Query', 'result', 'numberOfRecords')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |result|`list`|
@@ -43,6 +45,7 @@ Event handler after the RawQuery or Query is executed and returns a list with th
 [[Event('SQLite', 'Error Occurred', 'message')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |message|`text`|
@@ -65,6 +68,7 @@ Clears the database to version 1. Use only while developing, this shouldn't be u
 {>>Returns `number`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |table|`text`|
@@ -89,6 +93,7 @@ Returns the path to the database
 {>>Returns `number`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |table|`text`|
@@ -103,6 +108,7 @@ Executes pre-compiled INSERT statement with specified parameters. Parameters: 1)
 [[Method('SQLite', 'MultipleSQL', false, 'list')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |list|`list`|
@@ -115,6 +121,7 @@ Execute Multiple SQL Statement asynchronously and returns whether the transactio
 [[Method('SQLite', 'Query', false, 'table columns selection selectionArgs groupBy having orderBy limit')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |table|`text`|
@@ -134,6 +141,7 @@ Executes pre-compiled QUERY statement with specified parameters. Parameters: 1) 
 [[Method('SQLite', 'RawQuery', false, 'sql selectionArgs')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |sql|`text`|
@@ -149,6 +157,7 @@ Executes the provided rawQuery Statement asynchronously. Returns a YailList with
 {>>Returns `number`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |table|`text`|
@@ -163,6 +172,7 @@ Executes pre-compiled REPLACE OR INSERT INTO statement with specified parameters
 [[Method('SQLite', 'SingleSQL', false, 'sql')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |sql|`text`|
@@ -177,6 +187,7 @@ Execute a Single SQL Statement asynchronously and returns whether the transactio
 {>>Returns `number`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |table|`text`|

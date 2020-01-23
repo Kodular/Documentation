@@ -15,6 +15,7 @@ A visible component that can animate between two or more layout components that 
 [[Method('View Flipper', 'AddComponentToView', false, 'component')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |component|`component`|
@@ -27,6 +28,7 @@ Add a component to the view flipper. The first added component will be the first
 [[Method('View Flipper', 'AddImagesToView', false, 'images')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |images|`list`|

@@ -23,6 +23,7 @@ User clicked on the action button.
 [[Event('Snackbar', 'On Dismissed', 'event')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |event|`text`|
@@ -57,6 +58,7 @@ Returns true whether this snackbar is currently being shown.
 [[Method('Snackbar', 'Show', false, 'message')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |message|`text`|
@@ -69,6 +71,7 @@ Show Snackbar (message supports HTML formatting)
 [[Method('Snackbar', 'ShowWithButton', false, 'message buttonText')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |message|`text`|

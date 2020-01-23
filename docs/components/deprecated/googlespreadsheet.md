@@ -18,9 +18,10 @@ This component allows you to easily read / insert Spreadsheet data
 
 ### after Action
 
-[[Event('GoogleSpreadsheet', 'after Action', 'wasSuccess message action')]]
+[[Event('GoogleSpreadsheet', 'after Action', 'wasSuccess', 'message', 'action')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |was Success|`boolean`|
@@ -39,6 +40,7 @@ Triggered after an actions such as storing data has occurred.
 {>>Returns `text`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |column Name|`text`|
@@ -54,6 +56,7 @@ For the given columnName and rowNumber, retrieves the spreadsheet cell data
 {>>Returns `list`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |column Name|`text`|
@@ -68,6 +71,7 @@ Retrieves all data for an entire column
 {>>Returns `list`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |row Number|`number`|
@@ -86,6 +90,7 @@ For the given ApiEndpoint and Spreadsheet, retrieves all data from the spreadshe
 [[Method('GoogleSpreadsheet', 'StoreData', false, 'dataToStore')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |data To Store|`text`|

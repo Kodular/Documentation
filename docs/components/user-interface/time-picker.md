@@ -47,6 +47,7 @@ Indicates that a button has been released.
 [[Method('Time Picker', 'AnimationStyle', false, 'style position size color')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |style|`text`|
@@ -74,6 +75,7 @@ Launches the TimePicker popup.
 [[Method('Time Picker', 'SetShadow', false, 'x y radius color')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |x|`number`|
@@ -89,6 +91,7 @@ Place a blurred shadow of text underneath the text, drawn with the specified x, 
 [[Method('Time Picker', 'SetTimeToDisplay', false, 'hour minute')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |hour|`number`|
@@ -102,6 +105,7 @@ Set the time to be shown in the Time Picker popup. Current time is shown by defa
 [[Method('Time Picker', 'SetTimeToDisplayFromInstant', false, 'instant')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |instant|`InstantInTime`|
@@ -114,6 +118,7 @@ Set the time from the instant to be shown in the Time Picker popup. Current time
 [[Method('Time Picker', 'WithIconFromFontAwesome', false, 'position iconName iconColor padding size')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |position|`text`|
@@ -130,6 +135,7 @@ Show an image on the given position near to the button. You can use following wo
 [[Method('Time Picker', 'WithIconFromMaterialFont', false, 'position iconName iconColor padding size')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |position|`text`|
@@ -146,6 +152,7 @@ Show an image on the given position near to the button. You can use following wo
 [[Method('Time Picker', 'WithIconFromPicture', false, 'position picture padding width height')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |position|`text`|

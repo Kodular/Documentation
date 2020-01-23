@@ -17,6 +17,7 @@ A non-visible component that authenticates the user using their preferred securi
 [[Event('Keyguard Manager', 'On Authentication Request', 'isAuthenticated')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |is Authenticated|`boolean`|
@@ -26,9 +27,10 @@ Event to detect a authentication request was called.
 
 ### On Dissmiss Keyguard Request
 
-[[Event('Keyguard Manager', 'On Dissmiss Keyguard Request', 'succeeded cancelled')]]
+[[Event('Keyguard Manager', 'On Dissmiss Keyguard Request', 'succeeded', 'cancelled')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |succeeded|`boolean`|
@@ -56,6 +58,7 @@ Create the Confirm Credentials screen. You can customize the title and descripti
 [[Method('Keyguard Manager', 'ShowWhenLocked', false, 'enabled')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |enabled|`boolean`|

@@ -27,9 +27,10 @@ There are events to tell when and where a Canvas has been touched or a `` Sprite
 
 ### Dragged
 
-[[Event('Canvas', 'Dragged', 'startX startY prevX prevY currentX currentY draggedAnySprite')]]
+[[Event('Canvas', 'Dragged', 'startX', 'startY', 'prevX', 'prevY', 'currentX', 'currentY', 'draggedAnySprite')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |start X|`number`|
@@ -48,9 +49,10 @@ When the user does a drag from one point (prevX, prevY) to
 
 ### Flung
 
-[[Event('Canvas', 'Flung', 'x y speed heading xvel yvel flungSprite')]]
+[[Event('Canvas', 'Flung', 'x', 'y', 'speed', 'heading', 'xvel', 'yvel', 'flungSprite')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |x|`number`|
@@ -74,6 +76,7 @@ When a fling gesture (quick swipe) is made on the canvas: provides
 [[Event('Canvas', 'Scaled', 'scaleFactor')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |scale Factor|`number`|
@@ -83,9 +86,10 @@ This event is invoked when two-finger pinches. ScaleFactor is the ratio of the a
 
 ### Touch Down
 
-[[Event('Canvas', 'Touch Down', 'x y')]]
+[[Event('Canvas', 'Touch Down', 'x', 'y')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |x|`number`|
@@ -98,9 +102,10 @@ When the user begins touching the canvas (places finger on canvas and
 
 ### Touch Up
 
-[[Event('Canvas', 'Touch Up', 'x y')]]
+[[Event('Canvas', 'Touch Up', 'x', 'y')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |x|`number`|
@@ -113,9 +118,10 @@ When the user stops touching the canvas (lifts finger after a
 
 ### Touched
 
-[[Event('Canvas', 'Touched', 'x y touchedAnySprite')]]
+[[Event('Canvas', 'Touched', 'x', 'y', 'touchedAnySprite')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |x|`number`|
@@ -140,6 +146,7 @@ Clears anything drawn on this Canvas but not any background color or image.
 [[Method('Canvas', 'DrawArc', false, 'left top right bottom startAngle sweepAngle useCenter fill')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |left|`number`|
@@ -159,6 +166,7 @@ Draw an arc on Canvas, by drawing an arc from a specified oval (specified by lef
 [[Method('Canvas', 'DrawCircle', false, 'centerX centerY radius fill')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |center X|`number`|
@@ -174,6 +182,7 @@ Draws a circle (filled in) with the given radius centered at the given coordinat
 [[Method('Canvas', 'DrawLine', false, 'x1 y1 x2 y2')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |x1|`number`|
@@ -189,6 +198,7 @@ Draws a line between the given coordinates on the canvas.
 [[Method('Canvas', 'DrawPoint', false, 'x y')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |x|`number`|
@@ -202,6 +212,7 @@ Draws a point at the given coordinates on the canvas.
 [[Method('Canvas', 'DrawPolygon', false, 'centerX centerY numSides polyRadius cornerRadius rotation fill')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |center X|`number`|
@@ -220,6 +231,7 @@ Creates a polygon with with specified number of sides from a radius.
 [[Method('Canvas', 'DrawShape', false, 'pointList fill')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |point List|`list`|
@@ -233,6 +245,7 @@ Draws a shape on the canvas. pointList should be a list contains sub-lists with 
 [[Method('Canvas', 'DrawText', false, 'text x y')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |text|`text`|
@@ -247,6 +260,7 @@ Draws the specified text relative to the specified coordinates using the values 
 [[Method('Canvas', 'DrawTextAtAngle', false, 'text x y angle')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |text|`text`|
@@ -264,6 +278,7 @@ Draws the specified text starting at the specified coordinates at the specified 
 {>>Returns `number`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |x|`number`|
@@ -279,6 +294,7 @@ Gets the color of the specified point. This includes the background and any draw
 {>>Returns `number`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |x|`number`|
@@ -302,6 +318,7 @@ Saves a picture of this Canvas to the device's external storage. If an error occ
 {>>Returns `text`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |file Name|`text`|
@@ -314,6 +331,7 @@ Saves a picture of this Canvas to the device's external storage in the file name
 [[Method('Canvas', 'SetBackgroundPixelColor', false, 'x y color')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |x|`number`|

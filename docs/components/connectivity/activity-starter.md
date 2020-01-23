@@ -33,6 +33,7 @@ Event raised if this ActivityStarter returns because the activity was canceled.
 [[Event('Activity Starter', 'ActivityError', 'message')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |message|`text`|
@@ -45,6 +46,7 @@ The ActivityError event is no longer used. Please use the Screen.ErrorOccurred e
 [[Event('Activity Starter', 'After Activity', 'result')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |result|`text`|

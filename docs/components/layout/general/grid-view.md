@@ -15,6 +15,7 @@ A visible component that groups other components in a two-dimensional, scrollabl
 [[Event('Grid View', 'After Picking', 'item')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |item|`text`|

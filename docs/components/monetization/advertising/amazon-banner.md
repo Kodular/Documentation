@@ -24,9 +24,10 @@ Event to detect that a ad was expanded.
 
 ### Ad Failed To Load
 
-[[Event('Amazon Banner', 'Ad Failed To Load', 'errCode errorMessage')]]
+[[Event('Amazon Banner', 'Ad Failed To Load', 'errCode', 'errorMessage')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |error Code|`text`|

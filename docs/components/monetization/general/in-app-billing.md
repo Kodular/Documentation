@@ -17,6 +17,7 @@ A non-visible component that lets the user purchase items, powered by Google''s 
 [[Event('In App Billing', 'After Purchase', 'productId')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |product Id|`text`|
@@ -29,6 +30,7 @@ After purchase event.
 [[Event('In App Billing', 'Error Occurred', 'message')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |message|`text`|
@@ -38,9 +40,10 @@ Error occurred event.
 
 ### Got Owned Purchases
 
-[[Event('In App Billing', 'Got Owned Purchases', 'ownedProducts ownedSubscriptions')]]
+[[Event('In App Billing', 'Got Owned Purchases', 'ownedProducts', 'ownedSubscriptions')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |owned Products|`list`|
@@ -51,9 +54,10 @@ Got Owned Purchases
 
 ### Got Product Details
 
-[[Event('In App Billing', 'Got Product Details', 'success productId title description currency price')]]
+[[Event('In App Billing', 'Got Product Details', 'success', 'productId', 'title', 'description', 'currency', 'price')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |success|`boolean`|
@@ -68,9 +72,10 @@ Got Product Details
 
 ### Got Subscription Details
 
-[[Event('In App Billing', 'Got Subscription Details', 'success isSubscription subscriptionId title description currency price')]]
+[[Event('In App Billing', 'Got Subscription Details', 'success', 'isSubscription', 'subscriptionId', 'title', 'description', 'currency', 'price')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |success|`boolean`|
@@ -93,6 +98,7 @@ Got Subscription Details
 [[Method('In App Billing', 'Consume', false, 'productId')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |product Id|`text`|
@@ -107,6 +113,7 @@ Do not use this block anymore. This block is deprecated and does nothing and wil
 [[Method('In App Billing', 'Initialize', false, 'licenseKey merchantId')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |license Key|`text`|
@@ -122,6 +129,7 @@ Do not use this block anymore. This block is deprecated and does nothing and wil
 {>>Returns `boolean`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |product Id|`text`|
@@ -136,6 +144,7 @@ Returns true if the product with the specific id is purchased.
 {>>Returns `boolean`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |subscription Id|`text`|
@@ -154,6 +163,7 @@ Load Owned Purchases from Google.
 [[Method('In App Billing', 'ProductDetails', false, 'productId')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |product Id|`text`|
@@ -166,6 +176,7 @@ Get product details from the specific product id.
 [[Method('In App Billing', 'Purchase', false, 'productId')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |product Id|`text`|
@@ -178,6 +189,7 @@ Purchase a product with the given product id.
 [[Method('In App Billing', 'Subscribe', false, 'subscriptionId')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |subscription Id|`text`|
@@ -190,6 +202,7 @@ Subscribe a product with the given product id.
 [[Method('In App Billing', 'SubscriptionDetails', false, 'subscriptionId')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |subscription Id|`text`|
@@ -204,6 +217,7 @@ Get subscription details from the given id.
 [[Method('In App Billing', 'UpdateSubscription', false, 'subscriptionId')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |subscription Id|`text`|

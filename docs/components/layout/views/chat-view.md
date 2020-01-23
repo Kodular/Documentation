@@ -13,9 +13,10 @@ A chat consists of messages sent by two or more than two users where each messag
 
 ### Click
 
-[[Event('Chat View', 'Click', 'userImage title message timestamp id sendAsSender imagePath withImage filePath fileThumbnail withFile')]]
+[[Event('Chat View', 'Click', 'userImage', 'title', 'message', 'timestamp', 'id', 'sendAsSender', 'imagePath', 'withImage', 'filePath', 'fileThumbnail', 'withFile')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |user Image|`text`|
@@ -35,9 +36,10 @@ Click listener event.
 
 ### Double Tap Click
 
-[[Event('Chat View', 'Double Tap Click', 'userImage title message timestamp id sendAsSender imagePath withImage filePath fileThumbnail withFile')]]
+[[Event('Chat View', 'Double Tap Click', 'userImage', 'title', 'message', 'timestamp', 'id', 'sendAsSender', 'imagePath', 'withImage', 'filePath', 'fileThumbnail', 'withFile')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |user Image|`text`|
@@ -57,9 +59,10 @@ Double tap click listener event.
 
 ### Long Click
 
-[[Event('Chat View', 'Long Click', 'userImage title message timestamp id sendAsSender imagePath withImage filePath fileThumbnail withFile')]]
+[[Event('Chat View', 'Long Click', 'userImage', 'title', 'message', 'timestamp', 'id', 'sendAsSender', 'imagePath', 'withImage', 'filePath', 'fileThumbnail', 'withFile')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |user Image|`text`|
@@ -79,9 +82,10 @@ Long click listener event.
 
 ### Swipe
 
-[[Event('Chat View', 'Swipe', 'direction userImage title message timestamp id sendAsSender imagePath withImage filePath fileThumbnail withFile')]]
+[[Event('Chat View', 'Swipe', 'direction', 'userImage', 'title', 'message', 'timestamp', 'id', 'sendAsSender', 'imagePath', 'withImage', 'filePath', 'fileThumbnail', 'withFile')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |direction|`number`|
@@ -102,9 +106,10 @@ Swipe listener event. The direction value returns '1' for right-to-left swipes, 
 
 ### User Image Click
 
-[[Event('Chat View', 'User Image Click', 'id userImage')]]
+[[Event('Chat View', 'User Image Click', 'id', 'userImage')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -120,6 +125,7 @@ Click listener event for the user image.
 [[Method('Chat View', 'AddComponentMessage', false, 'userImage title message timestamp component id addAsSender')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |user Image|`text`|
@@ -138,6 +144,7 @@ Add a new simple component message into the chat view. If you do not want a user
 [[Method('Chat View', 'AddDateTimestamp', false, 'date textColor backgroundColor id')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |date|`text`|
@@ -153,6 +160,7 @@ Add a new simple date timestamp into the chat view. You NEED to write a date, el
 [[Method('Chat View', 'AddFileMessage', false, 'userImage title message filePath fileThumbnail timestamp id addAsSender')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |user Image|`text`|
@@ -172,6 +180,7 @@ Add a new simple file message into the chat view. If you do not want a user imag
 [[Method('Chat View', 'AddImageMessage', false, 'userImage title message image timestamp id addAsSender')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |user Image|`text`|
@@ -190,6 +199,7 @@ Add a new simple image message into the chat view. If you do not want a user ima
 [[Method('Chat View', 'AddMessage', false, 'userImage title message timestamp id addAsSender')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |user Image|`text`|
@@ -237,6 +247,7 @@ Returns the last used id.
 [[Method('Chat View', 'RemoveMessage', false, 'id')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -249,6 +260,7 @@ Remove a message or timestamp from the chat view.
 [[Method('Chat View', 'ScrollTo', false, 'id')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -261,6 +273,7 @@ Scroll to a specific message in the chat view with the given id.
 [[Method('Chat View', 'UpdateMessageBackgroundColor', false, 'id backgroundColor')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -274,6 +287,7 @@ Update the background color of a chat view message.
 [[Method('Chat View', 'UpdateMessageContent', false, 'id text textColor')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -288,6 +302,7 @@ Update the message content of a chat view message.
 [[Method('Chat View', 'UpdateTimestampContent', false, 'id text textColor')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -302,6 +317,7 @@ Update the timestamp content of a chat view message.
 [[Method('Chat View', 'UpdateTitleContent', false, 'id text textColor')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -316,6 +332,7 @@ Update the title content of a chat view message.
 [[Method('Chat View', 'UpdateUserImage', false, 'id userImage')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|

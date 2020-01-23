@@ -18,9 +18,10 @@ Indicates that the user has clicked on the banner ad.
 
 ### Ad Failed To Load
 
-[[Event('StartApp Banner', 'Ad Failed To Load', 'errorCode errorMessage')]]
+[[Event('StartApp Banner', 'Ad Failed To Load', 'errorCode', 'errorMessage')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |error Code|`number`|
@@ -34,6 +35,7 @@ Called when an ad request failed to load. The message will display the error cod
 [[Event('StartApp Banner', 'On Failed To Receive Ad', 'errorMessage')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |error Message|`text`|

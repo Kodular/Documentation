@@ -12,9 +12,10 @@ A visible component that shows a navigation menu in the bottom of the screen.
 
 ### Item Selected
 
-[[Event('Bottom Navigation', 'Item Selected', 'id title')]]
+[[Event('Bottom Navigation', 'Item Selected', 'id', 'title')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -30,6 +31,7 @@ Event triggers when an item was selected.
 [[Method('Bottom Navigation', 'AddItem', false, 'id title image')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -50,6 +52,7 @@ Remove all items from the bottom menu
 [[Method('Bottom Navigation', 'RemoveItem', false, 'id')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -62,6 +65,7 @@ Remove an item from the bottom menu
 [[Method('Bottom Navigation', 'SelectItem', false, 'id')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -74,6 +78,7 @@ Select an item from the bottom menu
 [[Method('Bottom Navigation', 'UpdateItem', false, 'id title image')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|

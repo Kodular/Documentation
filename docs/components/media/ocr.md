@@ -14,9 +14,10 @@ A non-visible component that reads text from images using Optical Character Reco
 
 ### Got Response
 
-[[Event('OCR', 'Got Response', 'success responseContent')]]
+[[Event('OCR', 'Got Response', 'success', 'responseContent')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |success|`boolean`|
@@ -27,9 +28,10 @@ You will find here the success state and the response content.
 
 ### Got Server Status
 
-[[Event('OCR', 'Got Server Status', 'free proUsa1 proUsa2 proEurope proAsia')]]
+[[Event('OCR', 'Got Server Status', 'free', 'proUsa1', 'proUsa2', 'proEurope', 'proAsia')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |free|`text`|
@@ -54,6 +56,7 @@ Get the server status from the free ocr.space server. This is helpful if you wan
 [[Method('OCR', 'GetTextFromImageUrl', false, 'imageUrl')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |image URL|`text`|
@@ -66,6 +69,7 @@ Get the text from a picture via the image url. Example: http://name/yourimage.jp
 [[Method('OCR', 'UploadImage', false, 'path')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |path|`text`|

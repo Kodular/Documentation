@@ -17,6 +17,7 @@ A non-visible component that converts spoken words to text using voice recogniti
 [[Event('Speech Recognizer', 'After Getting Text', 'result')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |result|`text`|

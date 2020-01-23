@@ -14,9 +14,10 @@ A non-visible component that allows user to connect with the service from 'Insta
 
 ### On Request Sent
 
-[[Event('Instant Access', 'On Request Sent', 'success data message')]]
+[[Event('Instant Access', 'On Request Sent', 'success', 'data', 'message')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |success|`boolean`|
@@ -28,9 +29,10 @@ A event to detect that the login request was sent.
 
 ### On Status Received
 
-[[Event('Instant Access', 'On Status Received', 'success data message')]]
+[[Event('Instant Access', 'On Status Received', 'success', 'data', 'message')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |success|`boolean`|
@@ -47,6 +49,7 @@ A event to detect that the status was received.
 [[Method('Instant Access', 'CheckStatus', false, 'user')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |user|`text`|
@@ -75,6 +78,7 @@ Returns the client secret.
 [[Method('Instant Access', 'Request', false, 'user')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |user|`text`|

@@ -17,6 +17,7 @@ A non-visible component that adds a dot/badge to the app''s launcher icon when a
 [[Method('Shortcut Badge', 'ApplyCount', false, 'count')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |count|`number`|

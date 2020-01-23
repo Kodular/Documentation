@@ -18,9 +18,10 @@ __Note:__ This component will only work on Screen1 of any App Inventor app.
 
 ### Tag Read
 
-[[Event('Near Field', 'Tag Read', 'tagID message')]]
+[[Event('Near Field', 'Tag Read', 'tagID', 'message')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |tag ID|`text`|

@@ -20,9 +20,10 @@ Called when an ad was closed.
 
 ### Ad Failed To Load
 
-[[Event('AdMob Interstitial', 'Ad Failed To Load', 'errorCode errorMessage')]]
+[[Event('AdMob Interstitial', 'Ad Failed To Load', 'errorCode', 'errorMessage')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |error Code|`number`|
@@ -36,6 +37,7 @@ Called when an ad request failed to load. The message will display the error cod
 [[Event('AdMob Interstitial', 'Ad Failed To Show', 'message')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |message|`text`|
@@ -66,6 +68,7 @@ Called when an ad was opened.
 [[Event('AdMob Interstitial', 'On Consent Changed', 'personalized')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |personalized|`boolean`|

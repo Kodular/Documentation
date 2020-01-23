@@ -17,6 +17,7 @@ A non-visible component that shows LeadBolt ads as rewarded videos and network a
 [[Event('LeadBolt', 'Ad Loaded', 'location')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |location|`text`|
@@ -29,6 +30,7 @@ Event triggered when ads are loaded
 [[Event('LeadBolt', 'Ad Clicked', 'location')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |location|`text`|
@@ -38,9 +40,10 @@ Event triggered when ads are clicked
 
 ### Ad Closed
 
-[[Event('LeadBolt', 'Ad Closed', 'location reward')]]
+[[Event('LeadBolt', 'Ad Closed', 'location', 'reward')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |location|`text`|
@@ -51,9 +54,10 @@ Event triggered when ads are closed
 
 ### Ad Failed To Load
 
-[[Event('LeadBolt', 'Ad Failed To Load', 'location error isCache')]]
+[[Event('LeadBolt', 'Ad Failed To Load', 'location', 'error', 'isCache')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |location|`text`|
@@ -68,6 +72,7 @@ Event triggered when ads are failed to load
 [[Event('LeadBolt', 'Ad Shown', 'location')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |location|`text`|

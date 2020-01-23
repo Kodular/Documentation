@@ -17,6 +17,7 @@ A sensor component that can measure the relative ambient air humidity. Most Andr
 [[Event('Hygrometer', 'Humidity Changed', 'humidity')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |humidity|`number`|

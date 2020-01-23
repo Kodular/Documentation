@@ -19,6 +19,7 @@ A non-visible component that queries and monitors the device''s battery and its 
 {>>Returns `list`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |key|`text`|

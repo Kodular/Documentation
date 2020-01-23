@@ -21,9 +21,10 @@ This event is invoked if the player state is completed.
 
 ### Got Meta Data
 
-[[Event('ExoPlayer', 'Got Meta Data', 'artist title album albumArtist track')]]
+[[Event('ExoPlayer', 'Got Meta Data', 'artist', 'title', 'album', 'albumArtist', 'track')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |artist|`text`|
@@ -40,6 +41,7 @@ This event returns meta data from the audio stream. Works for files but not for 
 [[Event('ExoPlayer', 'On Player Error', 'errorMessage')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |error Message|`text`|
@@ -61,9 +63,10 @@ This event is signaled when another player has stopped (and the current player i
 
 ### Status Changed
 
-[[Event('ExoPlayer', 'Status Changed', 'isPlaying isPause isStopped isLoading')]]
+[[Event('ExoPlayer', 'Status Changed', 'isPlaying', 'isPause', 'isStopped', 'isLoading')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |is Playing|`boolean`|
@@ -93,6 +96,7 @@ Resume the player.
 [[Method('ExoPlayer', 'SeekTo', false, 'position')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |position|`number`|

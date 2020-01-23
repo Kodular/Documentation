@@ -18,9 +18,10 @@ Called when an ad was closed.
 
 ### Ad Failed To Load
 
-[[Event('AdMob Banner', 'Ad Failed To Load', 'errorCode errorMessage')]]
+[[Event('AdMob Banner', 'Ad Failed To Load', 'errorCode', 'errorMessage')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |error Code|`number`|
@@ -46,6 +47,7 @@ Called when an ad was opened.
 [[Event('AdMob Banner', 'On Consent Changed', 'personalized')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |personalized|`boolean`|

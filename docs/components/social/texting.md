@@ -38,9 +38,10 @@ Another way for an app to specify a phone number would be to include a `` PhoneN
 
 ### Message Received
 
-[[Event('Texting', 'Message Received', 'number messageText')]]
+[[Event('Texting', 'Message Received', 'number', 'messageText')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |number|`text`|

@@ -21,6 +21,7 @@ The Notifier component displays alert dialogs, messages, and temporary alerts, a
 [[Event('Notifier', 'After Choosing', 'choice')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |choice|`text`|
@@ -33,6 +34,7 @@ Event to detect that a user have done his selection.
 [[Event('Notifier', 'After Message Dialog', 'title')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |title|`text`|
@@ -45,6 +47,7 @@ Event to detect that a user clicked on a button from the "Show Custom Message Di
 [[Event('Notifier', 'After Text Input', 'response')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |response|`text`|
@@ -54,9 +57,10 @@ Event to detect that a user have done his text input in the "Show Text Dialog".
 
 ### Checkbox Selection
 
-[[Event('Notifier', 'Checkbox Selection', 'id selection')]]
+[[Event('Notifier', 'Checkbox Selection', 'id', 'selection')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -70,6 +74,7 @@ Invoked after user has finished selecting items from the Checkbox picker. Return
 [[Event('Notifier', 'Custom Dialog Selection', 'selection')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |selection|`text`|
@@ -79,9 +84,10 @@ Event to detect that the user has pressed a button from the custom dialog. It re
 
 ### Got Custom Choose Dialog
 
-[[Event('Notifier', 'Got Custom Choose Dialog', 'id choice')]]
+[[Event('Notifier', 'Got Custom Choose Dialog', 'id', 'choice')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -92,9 +98,10 @@ Event to detect that a user have done his selection in the CustomChooseDialog.
 
 ### Got Text Input From Dialog
 
-[[Event('Notifier', 'Got Text Input From Dialog', 'id response')]]
+[[Event('Notifier', 'Got Text Input From Dialog', 'id', 'response')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -108,6 +115,7 @@ Event to detect that a user have done his text input in the "Show Text Input Dia
 [[Event('Notifier', 'Image Dialog Closed', 'id')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -120,6 +128,7 @@ Event to detect that the user has watched the image dialog.
 [[Event('Notifier', 'Lightbox Closed', 'id')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -135,9 +144,10 @@ Event to detect that the linear progress dialog was dismissed.
 
 ### List Picker Selection
 
-[[Event('Notifier', 'List Picker Selection', 'id item')]]
+[[Event('Notifier', 'List Picker Selection', 'id', 'item')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -148,9 +158,10 @@ Event to get the picked list selection from the List Picker.
 
 ### Number Picker Selection
 
-[[Event('Notifier', 'Number Picker Selection', 'id selection')]]
+[[Event('Notifier', 'Number Picker Selection', 'id', 'selection')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -161,9 +172,10 @@ Event to detect that the user has selected a number from the number picker dialo
 
 ### Radio Selection
 
-[[Event('Notifier', 'Radio Selection', 'id listIndex')]]
+[[Event('Notifier', 'Radio Selection', 'id', 'listIndex')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -174,9 +186,10 @@ Event invoked when user has selected an option from the radio button picker. Out
 
 ### Word Picker Selection
 
-[[Event('Notifier', 'Word Picker Selection', 'id selection')]]
+[[Event('Notifier', 'Word Picker Selection', 'id', 'selection')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -192,6 +205,7 @@ Event to detect that the user has selected a word from the word picker dialog.
 [[Method('Notifier', 'CreateCustomDialog', false, 'component title buttonText cancelButtonText cancelable')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |component|`component`|
@@ -208,6 +222,7 @@ Show whatever you want in a dialog. You can use as example arrangements, or imag
 [[Method('Notifier', 'CustomChooseDialog', false, 'id message title button1Text button2Text cancelButtonText icon cancelable fullscreen')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -228,6 +243,7 @@ Shows a dialog box with two buttons, from which the user can choose.  If cancela
 [[Method('Notifier', 'CustomMessageDialog', false, 'message title buttonText icon fullscreen')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |message|`text`|
@@ -268,6 +284,7 @@ Dismiss a previously displayed SpinningProgress box
 [[Method('Notifier', 'LogError', false, 'message')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |message|`text`|
@@ -280,6 +297,7 @@ Writes an error message to the Android system log. See the Google Android docume
 [[Method('Notifier', 'LogInfo', false, 'message')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |message|`text`|
@@ -292,6 +310,7 @@ Writes an information message to the Android log.
 [[Method('Notifier', 'LogWarning', false, 'message')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |message|`text`|
@@ -304,6 +323,7 @@ Writes a warning message to the Android log. See the Google Android documentatio
 [[Method('Notifier', 'ShowAlert', false, 'notice')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |notice|`text`|
@@ -316,6 +336,7 @@ Show a alert "toast" message.
 [[Method('Notifier', 'ShowCheckboxListDialog', false, 'id title options buttonText cancelButtonText cancelable icon fullscreen')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -335,6 +356,7 @@ Shows a picker dialog with a list of options of whichmore than one can be chosen
 [[Method('Notifier', 'ShowChooseDialog', false, 'message title button1Text button2Text cancelable')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |message|`text`|
@@ -357,6 +379,7 @@ Show the custom dialog. Dont forget that you have first to create the custom dia
 [[Method('Notifier', 'ShowImageDialog', false, 'id title image buttonText')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -372,6 +395,7 @@ Show a image dialog. Animation types like "*.gif" are not supported. You can use
 [[Method('Notifier', 'ShowLightbox', false, 'id image')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -385,6 +409,7 @@ Displays a lightbox. You can use images like "*.png" or "*,gif" from assets fold
 [[Method('Notifier', 'ShowLinearProgress', false, 'message title cancelable indeterminate maxValue icon')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |message|`text`|
@@ -402,6 +427,7 @@ Shows a progress dialog with a horizontal progress bar. Can be dismissed by user
 [[Method('Notifier', 'ShowListPicker', false, 'id title itemsList icon fullscreen')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -418,6 +444,7 @@ Shows a list picker dialog. You can use the "Light Theme" property to have a lig
 [[Method('Notifier', 'ShowMessageDialog', false, 'message title buttonText')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |message|`text`|
@@ -432,6 +459,7 @@ Show a Message Dialog.
 [[Method('Notifier', 'ShowNumberPicker', false, 'id title buttonText cancelButtonText minValue maxValue startValue')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -450,6 +478,7 @@ Shows a number picker dialog that enables the user to select a number from a pre
 [[Method('Notifier', 'ShowPasswordDialog', false, 'message title cancelable')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |message|`text`|
@@ -464,6 +493,7 @@ Shows a dialog box where the user can enter password (input is masked), after wh
 [[Method('Notifier', 'ShowProgressDialog', false, 'message title')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |message|`text`|
@@ -477,6 +507,7 @@ Shows a dialog box with an optional title and message (use empty strings if they
 [[Method('Notifier', 'ShowRadioListDialog', false, 'id title options chooseButtonText cancelable cancelButtonText selection icon fullscreen')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -497,6 +528,7 @@ Shows a radio list dialog with a list of options of which only one can be chosen
 [[Method('Notifier', 'ShowSpinningProgress', false, 'message title cancelable icon')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |message|`text`|
@@ -512,6 +544,7 @@ Shows a spinning progress dialog which can be dismissed by the user if 'cancelab
 [[Method('Notifier', 'ShowTextDialog', false, 'message title cancelable')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |message|`text`|
@@ -526,6 +559,7 @@ Shows a dialog box where the user can enter text, after which the AfterTextInput
 [[Method('Notifier', 'ShowTextInputDialog', false, 'id title defaultText icon hint fullscreen cancelable inputType buttonText cancelButtonText textColor hintColor')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -549,6 +583,7 @@ Show a text input dialog. Possible input types are: "1= Normal text", "2= Passwo
 [[Method('Notifier', 'ShowWordPicker', false, 'id title buttonText cancelButtonText itemsList')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -565,6 +600,7 @@ Shows a word picker dialog that enables the user to select a number from a prede
 [[Method('Notifier', 'UpdateProgress', false, 'value')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |value|`number`|

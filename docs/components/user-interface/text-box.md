@@ -47,6 +47,7 @@ Event to detect text changes.
 [[Method('Text Box', 'AnimationStyle', false, 'style position size color')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |style|`text`|
@@ -74,6 +75,7 @@ Sets the textbox active.
 [[Method('Text Box', 'SetCursorAt', false, 'position')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |position|`number`|
@@ -92,6 +94,7 @@ Set the cursor to the end of the text.
 [[Method('Text Box', 'SetShadow', false, 'x y radius color')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |x|`number`|

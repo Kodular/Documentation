@@ -17,6 +17,7 @@ A component to create dynamic space in Arrangements.
 [[Method('Dynamic Space', 'CreateSpace', false, 'id arrangement width height')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -32,6 +33,7 @@ Create a new space component dynamically. Use for width/height '-1' for wrap con
 [[Method('Dynamic Space', 'DeleteSpace', false, 'id')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -46,6 +48,7 @@ Remove a space component with the given id.
 {>>Returns `number`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -60,6 +63,7 @@ Get the Height of a space component.
 {>>Returns `component`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -74,6 +78,7 @@ Returns the space referenced by its id.
 {>>Returns `number`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -86,6 +91,7 @@ Get the Width of a space component.
 [[Method('Dynamic Space', 'SetHeight', false, 'id height')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -99,6 +105,7 @@ Update the Height of a space component.
 [[Method('Dynamic Space', 'SetWidth', false, 'id width')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|

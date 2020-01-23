@@ -19,6 +19,7 @@ The difference between a `` Ball `` and an `` ImageSprite `` is that the latter 
 [[Event('Ball', 'Collided With', 'other')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |other|`component`|
@@ -32,9 +33,10 @@ Event handler called when two enabled sprites (Balls or ImageSprites)
 
 ### Dragged
 
-[[Event('Ball', 'Dragged', 'startX startY prevX prevY currentX currentY')]]
+[[Event('Ball', 'Dragged', 'startX', 'startY', 'prevX', 'prevY', 'currentX', 'currentY')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |start X|`number`|
@@ -52,6 +54,7 @@ Event handler called when a Ball is dragged. On all calls, the starting coordina
 [[Event('Ball', 'Edge Reached', 'edge')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |edge|`number`|
@@ -61,9 +64,10 @@ Event handler called when the Ball reaches an edge of the screen. If Bounce is t
 
 ### Flung
 
-[[Event('Ball', 'Flung', 'x y speed heading xvel yvel')]]
+[[Event('Ball', 'Flung', 'x', 'y', 'speed', 'heading', 'xvel', 'yvel')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |x|`number`|
@@ -81,6 +85,7 @@ Event handler called when a fling gesture (quick swipe) is made on an enabled Ba
 [[Event('Ball', 'No Longer Colliding With', 'other')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |other|`component`|
@@ -90,9 +95,10 @@ Event handler called when a pair of sprites (Balls and ImageSprites) are no long
 
 ### Touch Down
 
-[[Event('Ball', 'Touch Down', 'x y')]]
+[[Event('Ball', 'Touch Down', 'x', 'y')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |x|`number`|
@@ -103,9 +109,10 @@ Event handler called when the user begins touching an enabled Ball (placing thei
 
 ### Touch Up
 
-[[Event('Ball', 'Touch Up', 'x y')]]
+[[Event('Ball', 'Touch Up', 'x', 'y')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |x|`number`|
@@ -116,9 +123,10 @@ Event handler called when the user stops touching an enabled Ball (lifting their
 
 ### Touched
 
-[[Event('Ball', 'Touched', 'x y')]]
+[[Event('Ball', 'Touched', 'x', 'y')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |x|`number`|
@@ -134,6 +142,7 @@ Event handler called when the user touches an enabled Ball and then immediately 
 [[Method('Ball', 'Bounce', false, 'edge')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |edge|`number`|
@@ -148,6 +157,7 @@ Makes the Ball bounce, as if off a wall. For normal bouncing, the edge argument 
 {>>Returns `boolean`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |other|`component`|
@@ -166,6 +176,7 @@ Moves the Ball back in bounds if part of it extends out of bounds, having no eff
 [[Method('Ball', 'MoveTo', false, 'x y')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |x|`number`|
@@ -179,6 +190,7 @@ Sets the x and y coordinates of the Ball. If CenterAtOrigin is true, the center 
 [[Method('Ball', 'PointInDirection', false, 'x y')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |x|`number`|
@@ -192,6 +204,7 @@ Sets the heading of the Ball toward the point with the coordinates (x, y).
 [[Method('Ball', 'PointTowards', false, 'target')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |target|`component`|

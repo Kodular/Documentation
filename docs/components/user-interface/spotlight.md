@@ -31,6 +31,7 @@ Use this block to show the spotlight.
 [[Method('Spotlight', 'ShowSpotlightOnFAB', false, 'floatingActionButton')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |floating Action Button|`component`|

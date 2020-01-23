@@ -14,9 +14,10 @@ The Download component is a non-visible component that allows users to download 
 
 ### Download Complete
 
-[[Event('Download', 'Download Complete', 'filePath fileName fileSize')]]
+[[Event('Download', 'Download Complete', 'filePath', 'fileName', 'fileSize')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |file Path|`text`|
@@ -31,6 +32,7 @@ Event to detect if the download is successful finished. You can use the "filePat
 [[Event('Download', 'On Download Progress Changed', 'progress')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |progress|`number`|
@@ -43,6 +45,7 @@ Get the progress (in percentage) of the current download task.
 [[Event('Download', 'Got File Size', 'size')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |size|`number`|
@@ -69,6 +72,7 @@ Start the download process of the given download url.
 [[Method('Download', 'GetFileSize', false, 'path')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |path|`text`|

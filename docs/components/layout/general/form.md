@@ -18,9 +18,10 @@ Device back button pressed.
 
 ### Error Occurred
 
-[[Event('Form', 'Error Occurred', 'component functionName errorNumber message')]]
+[[Event('Form', 'Error Occurred', 'component', 'functionName', 'errorNumber', 'message')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |component|`component`|
@@ -33,9 +34,10 @@ Event raised when an error occurs. Only some errors will raise this condition.  
 
 ### Got Received Shared
 
-[[Event('Form', 'Got Received Shared', 'type value')]]
+[[Event('Form', 'Got Received Shared', 'type', 'value')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |type|`number`|
@@ -55,6 +57,7 @@ Screen starting
 [[Event('Form', 'Keyboard Visibility Changed', 'isKeyboardVisible')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |is Keyboard Visible|`boolean`|
@@ -73,6 +76,7 @@ Event to detect when the menu has loaded. Set here your blocks like TitleBarIcon
 [[Event('Form', 'Menu Item Selected', 'menuItem')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |menu Item|`text`|
@@ -100,9 +104,10 @@ When your activity is no longer visible to the user, it has entered the Stopped 
 
 ### Other Screen Closed
 
-[[Event('Form', 'Other Screen Closed', 'otherScreenName result')]]
+[[Event('Form', 'Other Screen Closed', 'otherScreenName', 'result')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |other Screen Name|`text`|
@@ -113,9 +118,10 @@ Event raised when another screen has closed and control has returned to this scr
 
 ### Permission Denied
 
-[[Event('Form', 'Permission Denied', 'component functionName permissionName')]]
+[[Event('Form', 'Permission Denied', 'component', 'functionName', 'permissionName')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |component|`component`|
@@ -130,6 +136,7 @@ Event to handle when the app user has denied a needed permission.
 [[Event('Form', 'Permission Granted', 'permissionName')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |permission Name|`text`|
@@ -158,9 +165,10 @@ Event will be invoked if the side menu was opened.
 
 ### Title Bar Icon Selected
 
-[[Event('Form', 'Title Bar Icon Selected', 'icon name')]]
+[[Event('Form', 'Title Bar Icon Selected', 'icon', 'name')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |icon|`text`|
@@ -182,6 +190,7 @@ Event to detect when a menu item has been selected.
 [[Method('Form', 'AddMenuItem', false, 'menuItem')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |menu Item|`list`|
@@ -194,6 +203,7 @@ Add a new item to the menu. Use the 'make a list' block.
 [[Method('Form', 'AddMenuItemWithIcon', false, 'menuItem menuIcon')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |menu Item|`text`|
@@ -207,6 +217,7 @@ Add a new item with a icon on the left side to the menu. This function does not 
 [[Method('Form', 'AddTitleBarIcon', false, 'icon name')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |icon|`text`|
@@ -228,6 +239,7 @@ Returns true if ALL needed app permissions were granted, else false.
 [[Method('Form', 'AskForPermission', false, 'permissionName')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |permission Name|`text`|
@@ -308,6 +320,7 @@ Show the keyboard
 [[Method('Form', 'SideMenu', false, 'layout')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |layout|`component`|
@@ -332,6 +345,7 @@ If you had set your side menu then you can use this block to open it as example 
 [[Method('Form', 'TaskDescription', false, 'text color')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |text|`text`|

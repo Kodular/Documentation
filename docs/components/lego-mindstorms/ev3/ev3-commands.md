@@ -73,6 +73,7 @@ Get the OS version on EV3.
 [[Method('EV3 Commands', 'KeepAlive', false, 'minutes')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |minutes|`number`|

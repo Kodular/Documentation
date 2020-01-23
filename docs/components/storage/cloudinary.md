@@ -14,9 +14,10 @@ A non-visible component that allows for uploading of images, videos, audios and 
 
 ### Media Uploaded
 
-[[Event('Cloudinary', 'Media Uploaded', 'responseContent url')]]
+[[Event('Cloudinary', 'Media Uploaded', 'responseContent', 'url')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |response Content|`text`|
@@ -32,6 +33,7 @@ Event raised after the Upload Media block has been used
 [[Method('Cloudinary', 'UploadMedia', false, 'path')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |path|`text`|

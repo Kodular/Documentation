@@ -20,9 +20,10 @@ Called when an ad was closed.
 
 ### Ad Failed To Load
 
-[[Event('AdMob Rewarded Video', 'Ad Failed To Load', 'errorCode errorMessage')]]
+[[Event('AdMob Rewarded Video', 'Ad Failed To Load', 'errorCode', 'errorMessage')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |error Code|`number`|
@@ -66,6 +67,7 @@ Called when an video ad started to show content.
 [[Event('AdMob Rewarded Video', 'On Consent Changed', 'personalized')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |personalized|`boolean`|
@@ -75,9 +77,10 @@ Event triggered when the consent was changed.
 
 ### Rewarded
 
-[[Event('AdMob Rewarded Video', 'Rewarded', 'type amount')]]
+[[Event('AdMob Rewarded Video', 'Rewarded', 'type', 'amount')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |type|`text`|

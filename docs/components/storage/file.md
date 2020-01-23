@@ -17,6 +17,7 @@ Non-visible component for storing and retrieving files. Use this component to wr
 [[Event('File', 'After File Saved', 'fileName')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |file Name|`text`|
@@ -41,6 +42,7 @@ Event indicating that the zip file have been created.
 [[Event('File', 'Directory Created', 'isDirectoryCreated')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |is Directory Created|`boolean`|
@@ -53,6 +55,7 @@ Event indicating that there was a directory created. The return value is 'true' 
 [[Event('File', 'Got Text', 'text')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |text|`text`|
@@ -65,6 +68,7 @@ Event indicating that the contents from the file have been read.
 [[Event('File', 'On Zip Failure', 'errorMessage')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |error Message|`text`|
@@ -79,6 +83,7 @@ Event indicating that there was any failure on zip or unzip a file.
 [[Method('File', 'AppendToFile', false, 'text fileName')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |text|`text`|
@@ -92,6 +97,7 @@ Appends text to the end of a file storage, creating the file if it does not exis
 [[Method('File', 'Copy', false, 'input output')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |input|`text`|
@@ -105,6 +111,7 @@ Copy file
 [[Method('File', 'CreateDirectory', false, 'directory')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |directory|`text`|
@@ -117,6 +124,7 @@ Create a new directory.
 [[Method('File', 'Delete', false, 'fileName')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |file Name|`text`|
@@ -131,6 +139,7 @@ Deletes a file from storage. Prefix the filename with / to delete a specific fil
 {>>Returns `boolean`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |file|`text`|
@@ -145,6 +154,7 @@ Check whether a file exists
 {>>Returns `number`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |file|`text`|
@@ -159,6 +169,7 @@ Get file size
 {>>Returns `text`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |file|`text`|
@@ -173,6 +184,7 @@ Get file name
 {>>Returns `number`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |path|`text`|
@@ -187,6 +199,7 @@ Get Free Space
 {>>Returns `number`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |path|`text`|
@@ -201,6 +214,7 @@ Get total space
 {>>Returns `boolean`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |path|`text`|
@@ -215,6 +229,7 @@ Check whether the path is a directory
 {>>Returns `boolean`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |path|`text`|
@@ -229,6 +244,7 @@ Check whether the path is a file
 {>>Returns `boolean`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |input|`text`|
@@ -242,6 +258,7 @@ Move file
 [[Method('File', 'ReadFrom', false, 'fileName')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |file Name|`text`|
@@ -254,6 +271,7 @@ Reads text from a file in storage. Prefix the filename with / to read from a spe
 [[Method('File', 'SaveFile', false, 'text fileName')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |text|`text`|
@@ -269,6 +287,7 @@ If you want to add content to a file use the append block.
 [[Method('File', 'Unzip', false, 'targetZipFilePath destinationFolderPath password')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |target Zip File Path|`text`|
@@ -283,6 +302,7 @@ Unzip a file with or without a password. If you dont need a passwort then let it
 [[Method('File', 'Zip', false, 'targetPath destinationFilePath password')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |target Path|`text`|

@@ -15,6 +15,7 @@ A visible component that lets the user submit a star rating.
 [[Event('Rating Bar', 'Changed', 'rating')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |rating|`number`|

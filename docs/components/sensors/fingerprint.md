@@ -14,9 +14,10 @@ A non-visible component that reads fingerprints using the device''s in-built fin
 
 ### On Authentication Error
 
-[[Event('Fingerprint', 'On Authentication Error', 'errorId message')]]
+[[Event('Fingerprint', 'On Authentication Error', 'errorId', 'message')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |error Id|`number`|
@@ -33,9 +34,10 @@ Triggers when the Authentication Failed
 
 ### On Authentication Help
 
-[[Event('Fingerprint', 'On Authentication Help', 'helpId message')]]
+[[Event('Fingerprint', 'On Authentication Help', 'helpId', 'message')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |help Id|`number`|

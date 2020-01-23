@@ -14,9 +14,10 @@ A component to create dynamic textboxes in Arrangements
 
 ### On Text Changed
 
-[[Event('Dynamic Text Box', 'On Text Changed', 'id text')]]
+[[Event('Dynamic Text Box', 'On Text Changed', 'id', 'text')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -32,6 +33,7 @@ Trigger when the text of a Dynamic TextBox changes
 [[Method('Dynamic Text Box', 'CreateTextBox', false, 'id arrangement')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -45,6 +47,7 @@ Create a Dynamic TextBox
 [[Method('Dynamic Text Box', 'DeleteTextBox', false, 'id')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -59,6 +62,7 @@ Remove a textbox component with the given id.
 {>>Returns `component`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -73,6 +77,7 @@ Returns the button referenced by its id.
 {>>Returns `boolean`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -87,6 +92,7 @@ Get the Enabled status of a TextBox
 {>>Returns `number`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -101,6 +107,7 @@ Get the Font Size of a TextBox
 {>>Returns `number`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -115,6 +122,7 @@ Get the Height of a TextBox
 {>>Returns `text`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -129,6 +137,7 @@ Get the Text of a TextBox
 {>>Returns `number`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -141,6 +150,7 @@ Get the Width of a TextBox
 [[Method('Dynamic Text Box', 'SetAlignment', false, 'id alignment')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -154,6 +164,7 @@ Update the Text Alignment of a TextBox. 0 = left, 1 = center and 2 = right.
 [[Method('Dynamic Text Box', 'SetBackgroundColor', false, 'id color')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -167,6 +178,7 @@ Update the Background Color of a TextBox
 [[Method('Dynamic Text Box', 'SetEnabled', false, 'id enabled')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -180,6 +192,7 @@ Update the Enabled status of a TextBox
 [[Method('Dynamic Text Box', 'SetFont', false, 'id bold italic')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -194,6 +207,7 @@ Update the Font of a TextBox
 [[Method('Dynamic Text Box', 'SetFontSize', false, 'id size')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -207,6 +221,7 @@ Update the Font Size of a TextBox
 [[Method('Dynamic Text Box', 'SetHeight', false, 'id height')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -220,6 +235,7 @@ Update the Height of a TextBox
 [[Method('Dynamic Text Box', 'SetText', false, 'id text')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -233,6 +249,7 @@ Update the Text of a TextBox
 [[Method('Dynamic Text Box', 'SetTextColor', false, 'id color')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -246,6 +263,7 @@ Update the Text Color of a TextBox
 [[Method('Dynamic Text Box', 'SetWidth', false, 'id width')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|

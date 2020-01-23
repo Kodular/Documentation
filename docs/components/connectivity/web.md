@@ -14,9 +14,10 @@ A non-visible component that provides functions for HTTP GET, POST, PUT, and DEL
 
 ### Got File
 
-[[Event('Web', 'Got File', 'url responseCode responseType fileName')]]
+[[Event('Web', 'Got File', 'url', 'responseCode', 'responseType', 'fileName')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |url|`text`|
@@ -29,9 +30,10 @@ Event indicating that a request has finished.
 
 ### Got Text
 
-[[Event('Web', 'Got Text', 'url responseCode responseType responseContent')]]
+[[Event('Web', 'Got Text', 'url', 'responseCode', 'responseType', 'responseContent')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |url|`text`|
@@ -47,6 +49,7 @@ Event indicating that a request has finished.
 [[Event('Web', 'Timed Out', 'url')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |url|`text`|
@@ -63,6 +66,7 @@ Event indicating that a request has timed out.
 {>>Returns `text`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |list|`list`|
@@ -113,6 +117,7 @@ Performs an HTTP GET request using the Url property and retrieves the
 {>>Returns `text`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |html Text|`text`|
@@ -127,6 +132,7 @@ Decodes the given HTML text value. HTML character entities such as &amp;amp;, &a
 {>>Returns `any`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |json Text|`text`|
@@ -142,6 +148,7 @@ Decodes the given JSON encoded value to produce a corresponding AppInventor valu
 [[Method('Web', 'PostFile', false, 'path')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |path|`text`|
@@ -156,6 +163,7 @@ If the SaveResponse property is false, the GotText event will be triggered.
 [[Method('Web', 'PostText', false, 'text')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |text|`text`|
@@ -171,6 +179,7 @@ If the SaveResponse property is false, the GotText event will be triggered.
 [[Method('Web', 'PostTextWithEncoding', false, 'text encoding')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |text|`text`|
@@ -187,6 +196,7 @@ If the SaveResponse property is false, the GotText event will be triggered.
 [[Method('Web', 'PutFile', false, 'path')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |path|`text`|
@@ -201,6 +211,7 @@ If the SaveResponse property is false, the GotText event will be triggered.
 [[Method('Web', 'PutText', false, 'text')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |text|`text`|
@@ -216,6 +227,7 @@ If the SaveResponse property is false, the GotText event will be triggered.
 [[Method('Web', 'PutTextWithEncoding', false, 'text encoding')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |text|`text`|
@@ -234,6 +246,7 @@ If the SaveResponse property is false, the GotText event will be triggered.
 {>>Returns `text`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |text|`text`|
@@ -248,6 +261,7 @@ Decodes the encoded text value.
 {>>Returns `text`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |text|`text`|
@@ -262,6 +276,7 @@ Encodes the given text value so that it can be used in a URL.
 {>>Returns `any`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |XmlText|`text`|

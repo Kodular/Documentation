@@ -14,9 +14,10 @@ A non-visible component that generates a QR code from text.
 
 ### Got Response
 
-[[Event('QR Code', 'Got Response', 'success url')]]
+[[Event('QR Code', 'Got Response', 'success', 'url')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |success|`boolean`|

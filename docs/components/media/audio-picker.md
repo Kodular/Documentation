@@ -15,6 +15,7 @@ A special-purpose button. When the user taps an audio picker, the device's audio
 [[Event('Audio Picker', 'After Picking', 'selection')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |selection|`text`|
@@ -62,6 +63,7 @@ Indicates that a button has been released.
 [[Method('Audio Picker', 'AnimationStyle', false, 'style position size color')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |style|`text`|
@@ -89,6 +91,7 @@ Opens the picker, as though the user clicked on it.
 [[Method('Audio Picker', 'SetShadow', false, 'x y radius color')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |x|`number`|
@@ -104,6 +107,7 @@ Place a blurred shadow of text underneath the text, drawn with the specified x, 
 [[Method('Audio Picker', 'WithIconFromFontAwesome', false, 'position iconName iconColor padding size')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |position|`text`|
@@ -120,6 +124,7 @@ Show an image on the given position near to the button. You can use following wo
 [[Method('Audio Picker', 'WithIconFromMaterialFont', false, 'position iconName iconColor padding size')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |position|`text`|
@@ -136,6 +141,7 @@ Show an image on the given position near to the button. You can use following wo
 [[Method('Audio Picker', 'WithIconFromPicture', false, 'position picture padding width height')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |position|`text`|

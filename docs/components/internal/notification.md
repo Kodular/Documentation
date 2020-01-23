@@ -31,6 +31,7 @@ Cancel all Notifications
 [[Method('Notification', 'CancelNotification', false, 'id')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -43,6 +44,7 @@ Cancel a Notification with an id
 [[Method('Notification', 'NotificationBuilderAndroidCar', false, 'accentColor')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |accent Color|`number`|
@@ -55,6 +57,7 @@ Set the accent color for Android Car devices
 [[Method('Notification', 'NotificationBuilderAndroidWear', false, 'backgroundImage')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |background Image|`text`|
@@ -67,6 +70,7 @@ Set the background image for Android Wear devices
 [[Method('Notification', 'NotificationBuilderAutoCancel', false, 'autoCancel')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |auto Cancel|`boolean`|
@@ -79,6 +83,7 @@ Set whether the notification should me removed after the user clicks on it.
 [[Method('Notification', 'NotificationBuilderBigPicture', false, 'bigPicture')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |big Picture|`text`|
@@ -91,6 +96,7 @@ Set the big picture for the notification
 [[Method('Notification', 'NotificationBuilderID', false, 'id')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -103,6 +109,7 @@ Set the notification id.
 [[Method('Notification', 'NotificationBuilderPriority', false, 'priority')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |priority|`number`|
@@ -121,6 +128,7 @@ Send the notification that you build
 [[Method('Notification', 'NotificationBuilderStart', false, 'title message')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |title|`text`|
@@ -134,6 +142,7 @@ Start building a new notification
 [[Method('Notification', 'NotificationBuilderStartValue', false, 'startValue')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |start Value|`text`|
@@ -146,6 +155,7 @@ Set the start value of the notification.
 [[Method('Notification', 'NotificationBuilderVisibility', false, 'visiblity')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |visibility|`number`|
@@ -158,6 +168,7 @@ Set the notification builder visibility. 1 = "public", 2 = "private", 3 = "secre
 [[Method('Notification', 'SendAdvancedNotification', false, 'id title message startValue timeOn timeOff')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -175,6 +186,7 @@ Send a advanced notification (Android Wear Support)
 [[Method('Notification', 'SendNotification', false, 'title message')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |title|`text`|

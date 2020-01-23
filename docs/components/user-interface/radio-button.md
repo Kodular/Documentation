@@ -15,6 +15,7 @@ A visible component that lets the user toggle between two states — checked and
 [[Event('Radio Button', 'Changed', 'checked')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |checked|`boolean`|

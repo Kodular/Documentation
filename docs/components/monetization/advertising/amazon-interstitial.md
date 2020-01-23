@@ -32,9 +32,10 @@ This callback is called each time an ad is successfully loaded. You can use this
 
 ### Ad Failed To Load
 
-[[Event('Amazon Interstitial', 'Ad Failed To Load', 'error message')]]
+[[Event('Amazon Interstitial', 'Ad Failed To Load', 'error', 'message')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |error|`text`|
@@ -48,6 +49,7 @@ Whenever an ad fails to be retrieved, the event is called, returning the error m
 [[Event('Amazon Interstitial', 'Ad Failed To Show', 'message')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |message|`text`|

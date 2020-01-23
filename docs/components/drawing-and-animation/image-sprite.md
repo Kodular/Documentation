@@ -21,6 +21,7 @@ To have an `` ImageSprite `` move 10 pixels to the left every 1000 milliseconds 
 [[Event('Image Sprite', 'Collided With', 'other')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |other|`component`|
@@ -34,9 +35,10 @@ Event handler called when two enabled sprites (Balls or ImageSprites)
 
 ### Dragged
 
-[[Event('Image Sprite', 'Dragged', 'startX startY prevX prevY currentX currentY')]]
+[[Event('Image Sprite', 'Dragged', 'startX', 'startY', 'prevX', 'prevY', 'currentX', 'currentY')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |start X|`number`|
@@ -54,6 +56,7 @@ Event handler called when a ImageSprite is dragged. On all calls, the starting c
 [[Event('Image Sprite', 'Edge Reached', 'edge')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |edge|`number`|
@@ -63,9 +66,10 @@ Event handler called when the ImageSprite reaches an edge of the screen. If Boun
 
 ### Flung
 
-[[Event('Image Sprite', 'Flung', 'x y speed heading xvel yvel')]]
+[[Event('Image Sprite', 'Flung', 'x', 'y', 'speed', 'heading', 'xvel', 'yvel')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |x|`number`|
@@ -83,6 +87,7 @@ Event handler called when a fling gesture (quick swipe) is made on an enabled Im
 [[Event('Image Sprite', 'No Longer Colliding With', 'other')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |other|`component`|
@@ -92,9 +97,10 @@ Event handler called when a pair of sprites (Balls and ImageSprites) are no long
 
 ### Touch Down
 
-[[Event('Image Sprite', 'Touch Down', 'x y')]]
+[[Event('Image Sprite', 'Touch Down', 'x', 'y')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |x|`number`|
@@ -105,9 +111,10 @@ Event handler called when the user begins touching an enabled ImageSprite (placi
 
 ### Touch Up
 
-[[Event('Image Sprite', 'Touch Up', 'x y')]]
+[[Event('Image Sprite', 'Touch Up', 'x', 'y')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |x|`number`|
@@ -118,9 +125,10 @@ Event handler called when the user stops touching an enabled ImageSprite (liftin
 
 ### Touched
 
-[[Event('Image Sprite', 'Touched', 'x y')]]
+[[Event('Image Sprite', 'Touched', 'x', 'y')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |x|`number`|
@@ -136,6 +144,7 @@ Event handler called when the user touches an enabled ImageSprite and then immed
 [[Method('Image Sprite', 'Bounce', false, 'edge')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |edge|`number`|
@@ -150,6 +159,7 @@ Makes the ImageSprite bounce, as if off a wall. For normal bouncing, the edge ar
 {>>Returns `boolean`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |other|`component`|
@@ -168,6 +178,7 @@ Moves the ImageSprite back in bounds if part of it extends out of bounds, having
 [[Method('Image Sprite', 'MoveTo', false, 'x y')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |x|`number`|
@@ -181,6 +192,7 @@ Moves the ImageSprite so that its left top corner is at the specfied x and y coo
 [[Method('Image Sprite', 'PointInDirection', false, 'x y')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |x|`number`|
@@ -194,6 +206,7 @@ Sets the heading of the ImageSprite toward the point with the coordinates (x, y)
 [[Method('Image Sprite', 'PointTowards', false, 'target')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |target|`component`|

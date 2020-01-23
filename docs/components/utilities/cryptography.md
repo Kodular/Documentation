@@ -19,6 +19,7 @@ A non-visible component that encrypts and decrypts data using a variety of techn
 {>>Returns `text`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |AES-128 Hash|`text`|
@@ -33,6 +34,7 @@ Decodes the given hash using the given key through AES-128. If any exception occ
 {>>Returns `text`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |input Text|`text`|
@@ -55,6 +57,7 @@ Generates a secure random AES 128 key
 {>>Returns `text`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |AES-256 Hash|`text`|
@@ -69,6 +72,7 @@ Decodes the given hash using the given key through AES-256. If there are any exc
 {>>Returns `text`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |input Text|`text`|
@@ -91,6 +95,7 @@ Generates a secure random AES 256 key
 {>>Returns `text`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |input Text|`text`|
@@ -114,6 +119,7 @@ Generates a salt usable for hashing with BCrypt
 {>>Returns `boolean`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |input Text|`text`|
@@ -129,6 +135,7 @@ Verifies if the input password is the same one as the correct hashed password us
 {>>Returns `text`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |base64 Hash|`text`|
@@ -143,6 +150,7 @@ Decodes the given hash using Base64
 {>>Returns `text`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |input Text|`text`|
@@ -157,6 +165,7 @@ Encodes the given string using Base64
 {>>Returns `text`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |input Text|`text`|
@@ -176,6 +185,7 @@ Encrypts or decrypts the given string simulating an Enigma machine. Rotors can g
 {>>Returns `text`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |input Text|`text`|
@@ -190,6 +200,7 @@ Generates a MD5 hash
 {>>Returns `text`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |input Text|`text`|
@@ -204,6 +215,7 @@ Generates a hash using PBKDF2
 {>>Returns `boolean`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |input Text|`text`|
@@ -219,6 +231,7 @@ Verifies if the input password is the same one as the correct hashed password us
 {>>Returns `text`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |input Text|`text`|
@@ -233,6 +246,7 @@ Generates a hashed SHA-1 string
 {>>Returns `text`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |input Text|`text`|
@@ -247,6 +261,7 @@ Generates a hashed SHA-224 string
 {>>Returns `text`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |input Text|`text`|
@@ -261,6 +276,7 @@ Generates a hashed SHA-256 string
 {>>Returns `text`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |input Text|`text`|
@@ -275,6 +291,7 @@ Generates a hashed SHA-384 string
 {>>Returns `text`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |input Text|`text`|
@@ -289,6 +306,7 @@ Generates a hashed SHA-512 string
 {>>Returns `text`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |tripleDES Hash|`text`|
@@ -303,6 +321,7 @@ Decodes the given hash using the given key through TripleDES
 {>>Returns `text`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |input Text|`text`|

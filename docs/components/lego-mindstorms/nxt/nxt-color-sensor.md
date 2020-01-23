@@ -29,6 +29,7 @@ Light level has gone below the range. The BelowRange event will not occur if the
 [[Event('NXT Color Sensor', 'Color Changed', 'color')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |color|`number`|

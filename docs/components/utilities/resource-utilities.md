@@ -21,6 +21,7 @@ A non-visible component that loads string resources from a file.
 {>>Returns `text`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |resource Name|`text`|
@@ -36,6 +37,7 @@ This block is deprecated and will be removed soon. Use instead 'Get String From 
 {>>Returns `text`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |resource Name|`text`|
@@ -51,6 +53,7 @@ Get the text from a asset resource file. Make sure you uploaded a file at 'Resou
 {>>Returns `text`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |resource Name|`text`|

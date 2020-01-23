@@ -20,9 +20,10 @@ Called when the user is about to return to the application after clicking on an 
 
 ### Ad Failed To Load
 
-[[Event('Facebook Rewarded Video', 'Ad Failed To Load', 'errorCode errorMessage')]]
+[[Event('Facebook Rewarded Video', 'Ad Failed To Load', 'errorCode', 'errorMessage')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |error Code|`number`|
@@ -60,6 +61,7 @@ Called when an video ad started to show content.
 [[Event('Facebook Rewarded Video', 'Error', 'error')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |error|`text`|

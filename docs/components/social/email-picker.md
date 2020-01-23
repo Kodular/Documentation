@@ -43,6 +43,7 @@ Event to detect text changes.
 [[Method('Email Picker', 'AnimationStyle', false, 'style position size color')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |style|`text`|
@@ -64,6 +65,7 @@ Sets the textbox active.
 [[Method('Email Picker', 'SetCursorAt', false, 'position')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |position|`number`|
@@ -82,6 +84,7 @@ Set the cursor to the end of the text.
 [[Method('Email Picker', 'SetShadow', false, 'x y radius color')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |x|`number`|

@@ -64,6 +64,7 @@ Causes an Exception, used to debug exception processing.
 [[Method('Phone Status', 'install URL', false, 'url')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |url|`text`|
@@ -100,6 +101,7 @@ Declare that we have loaded our initial assets and other assets should come from
 {>>Returns `text`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |seed|`text`|
@@ -119,6 +121,7 @@ Really Exit the Application
 [[Method('Phone Status', 'start HTTPD', false, 'secure')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |secure|`boolean`|

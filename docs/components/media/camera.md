@@ -17,6 +17,7 @@ A component to take a picture using the device's camera. After the picture is ta
 [[Event('Camera', 'After Picture', 'image')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |image|`text`|

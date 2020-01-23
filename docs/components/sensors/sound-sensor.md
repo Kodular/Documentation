@@ -17,6 +17,7 @@ Physical world component that can detect such data as: sound amplitude (measurem
 [[Event('Sound Sensor', 'Sound Changed', 'value')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |value|`number`|

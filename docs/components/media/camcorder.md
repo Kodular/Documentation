@@ -17,6 +17,7 @@ A component to record a video using the device's camcorder.After the video is re
 [[Event('Camcorder', 'After Recording', 'clip')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |clip|`text`|

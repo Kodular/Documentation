@@ -18,9 +18,10 @@ Note: Translation happens asynchronously in the background. When the translation
 
 ### Got Translation
 
-[[Event('Yandex Translate', 'Got Translation', 'responseCode translation')]]
+[[Event('Yandex Translate', 'Got Translation', 'responseCode', 'translation')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |response Code|`text`|
@@ -36,6 +37,7 @@ Event triggered when the Yandex.Translate service returns the translated text. T
 [[Method('Yandex Translate', 'RequestTranslation', false, 'languageToTranslateTo textToTranslate')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |language To Translate To|`text`|

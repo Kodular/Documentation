@@ -37,6 +37,7 @@ Hide the bottom sheet dialog.
 [[Method('Bottom Sheet', 'RegisterComponentAsDialog', false, 'component')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |component|`component`|
@@ -49,6 +50,7 @@ Register any component as example a 'button', that will be later your bottom she
 [[Method('Bottom Sheet', 'RegisterLayoutAsDialog', false, 'layout')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |layout|`component`|

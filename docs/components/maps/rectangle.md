@@ -65,6 +65,7 @@ Returns the center of the Rectangle as a list of the form (Latitude Longitude).
 {>>Returns `number`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |map Feature|`component`|
@@ -80,6 +81,7 @@ Compute the distance, in meters, between two map features.
 {>>Returns `number`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |latitude|`number`|
@@ -100,6 +102,7 @@ Hide the infobox if it is shown. If the infobox is not visible this function has
 [[Method('Rectangle', 'SetCenter', false, 'latitude longitude')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |latitude|`number`|

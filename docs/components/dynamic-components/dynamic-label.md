@@ -17,6 +17,7 @@ A component to create dynamic labels in Arrangements
 [[Method('Dynamic Label', 'CreateLabel', false, 'id arrangement')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -30,6 +31,7 @@ Create a Dynamic Label
 [[Method('Dynamic Label', 'DeleteLabel', false, 'id')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -44,6 +46,7 @@ Remove a label component with the given id.
 {>>Returns `number`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -58,6 +61,7 @@ Get the Font Size of a Label
 {>>Returns `number`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -72,6 +76,7 @@ Get the Height of a Label
 {>>Returns `component`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -86,6 +91,7 @@ Returns the label referenced by its id.
 {>>Returns `text`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -100,6 +106,7 @@ Get the Text of a Label
 {>>Returns `number`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -112,6 +119,7 @@ Get the Width of a Label
 [[Method('Dynamic Label', 'SetAlignment', false, 'id alignment')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -125,6 +133,7 @@ Update the Text Alignment of a Label. 0 = left, 1 = center and 2 = right.
 [[Method('Dynamic Label', 'SetBackgroundColor', false, 'id color')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -138,6 +147,7 @@ Update the Background Color of a Label
 [[Method('Dynamic Label', 'SetFont', false, 'id bold italic')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -152,6 +162,7 @@ Update the Font of a Label
 [[Method('Dynamic Label', 'SetFontSize', false, 'id size')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -165,6 +176,7 @@ Update the Font Size of a Label
 [[Method('Dynamic Label', 'SetHeight', false, 'id height')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -178,6 +190,7 @@ Update the Height of a Label
 [[Method('Dynamic Label', 'SetText', false, 'id text html')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -192,6 +205,7 @@ Update the Text of a Label
 [[Method('Dynamic Label', 'SetTextColor', false, 'id color')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -205,6 +219,7 @@ Update the Text Color of a Label
 [[Method('Dynamic Label', 'SetWidth', false, 'id width')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|

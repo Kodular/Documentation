@@ -18,9 +18,10 @@ Location information might not be immediately available when an app starts.  You
 
 ### Location Changed
 
-[[Event('Location Sensor', 'Location Changed', 'latitude longitude altitude speed')]]
+[[Event('Location Sensor', 'Location Changed', 'latitude', 'longitude', 'altitude', 'speed')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |latitude|`number`|
@@ -33,9 +34,10 @@ Indicates that a new location has been detected.
 
 ### Status Changed
 
-[[Event('Location Sensor', 'Status Changed', 'provider status')]]
+[[Event('Location Sensor', 'Status Changed', 'provider', 'status')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |provider|`text`|
@@ -54,6 +56,7 @@ Indicates that the status of the location provider service has changed, such as 
 {>>Returns `number`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |location Name|`text`|
@@ -68,6 +71,7 @@ Derives latitude of given address
 {>>Returns `number`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |location Name|`text`|

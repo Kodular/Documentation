@@ -12,9 +12,10 @@ A visible component that shows a map on the screen powered by Google''s Maps ser
 
 ### Camera Position Changed
 
-[[Event('Google Maps', 'Camera Position Changed', 'lat lng bearing tilt zoom')]]
+[[Event('Google Maps', 'Camera Position Changed', 'lat', 'lng', 'bearing', 'tilt', 'zoom')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |lat|`number`|
@@ -28,9 +29,10 @@ Called after the camera position of a map has changed.
 
 ### Finished Dragging Circle
 
-[[Event('Google Maps', 'Finished Dragging Circle', 'id centerLat centerLng radius')]]
+[[Event('Google Maps', 'Finished Dragging Circle', 'id', 'centerLat', 'centerLng', 'radius')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id|`number`|
@@ -46,6 +48,7 @@ Event been raised after the action of moving a draggable circle is finished. Pos
 [[Event('Google Maps', 'Info Window Clicked', 'markerId')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |marker Id|`number`|
@@ -61,9 +64,10 @@ Indicates that the map has been rendered and ready for adding markers or changin
 
 ### On Location Changed
 
-[[Event('Google Maps', 'On Location Changed', 'lat lng')]]
+[[Event('Google Maps', 'On Location Changed', 'lat', 'lng')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |lat|`number`|
@@ -74,9 +78,10 @@ Triggers this event when user location has changed. Only works when EnableMyloca
 
 ### On Map Click
 
-[[Event('Google Maps', 'On Map Click', 'lat lng')]]
+[[Event('Google Maps', 'On Map Click', 'lat', 'lng')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |lat|`number`|
@@ -87,9 +92,10 @@ Called when the user makes a tap gesture on the map
 
 ### On Map Long Click
 
-[[Event('Google Maps', 'On Map Long Click', 'lat lng')]]
+[[Event('Google Maps', 'On Map Long Click', 'lat', 'lng')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |lat|`number`|
@@ -100,9 +106,10 @@ Called when the user makes a long-press gesture on the map
 
 ### On Marker Click
 
-[[Event('Google Maps', 'On Marker Click', 'markerId latitude longitude')]]
+[[Event('Google Maps', 'On Marker Click', 'markerId', 'latitude', 'longitude')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |marker Id|`number`|
@@ -114,9 +121,10 @@ When a marker is clicked
 
 ### On Marker Drag
 
-[[Event('Google Maps', 'On Marker Drag', 'markerId latitude longitude')]]
+[[Event('Google Maps', 'On Marker Drag', 'markerId', 'latitude', 'longitude')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |marker Id|`number`|
@@ -128,9 +136,10 @@ When a marker is been dragged
 
 ### On Marker Drag End
 
-[[Event('Google Maps', 'On Marker Drag End', 'markerId latitude longitude')]]
+[[Event('Google Maps', 'On Marker Drag End', 'markerId', 'latitude', 'longitude')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |marker Id|`number`|
@@ -142,9 +151,10 @@ When the user drags a marker and finish the action, returning marker's id and it
 
 ### On Marker Drag Start
 
-[[Event('Google Maps', 'On Marker Drag Start', 'markerId latitude longitude')]]
+[[Event('Google Maps', 'On Marker Drag Start', 'markerId', 'latitude', 'longitude')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |marker Id|`number`|
@@ -156,9 +166,10 @@ When a marker starts been dragged
 
 ### On Point Of Interest Click
 
-[[Event('Google Maps', 'On Point Of Interest Click', 'lat lng placeName placeID')]]
+[[Event('Google Maps', 'On Point Of Interest Click', 'lat', 'lng', 'placeName', 'placeID')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |lat|`number`|
@@ -178,6 +189,7 @@ This event will be invoked when a user clicks on a point of interest. This can b
 {>>Returns `number`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |lat|`number`|
@@ -199,6 +211,7 @@ Create a circle overlay on the map UI with specified latitude and longitude for 
 {>>Returns `list`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |markers|`list`|
@@ -211,6 +224,7 @@ Adding a list of YailLists for markers. The representation of a maker in the inn
 [[Method('Google Maps', 'AddMarkersFromJson', false, 'jsonString')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |json String|`text`|
@@ -225,6 +239,7 @@ Adding a list of markers that are represented as JsonArray.  The inner JsonObjec
 {>>Returns `list`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |markers|`list`|
@@ -239,6 +254,7 @@ Adding a list of YailList for markers. The inner YailList represents a marker an
 {>>Returns `number`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |points|`list`|
@@ -253,6 +269,7 @@ This block will return the unique id of the new added polyline. Create a new pol
 [[Method('Google Maps', 'BoundCamera', false, 'neLat neLng swLat swLng')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |ne Lat|`number`|
@@ -268,6 +285,7 @@ Transforms the camera such that the specified latitude/longitude bounds are cent
 [[Method('Google Maps', 'EnableCompass', false, 'enable')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |enable|`boolean`|
@@ -280,6 +298,7 @@ Enables/disables the compass widget on the map's ui. Call this only after event 
 [[Method('Google Maps', 'EnableMapCameraPosChangeListener', false, 'enabled')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |enabled|`boolean`|
@@ -292,6 +311,7 @@ Enable/Disable to listen to map's camera position changed event
 [[Method('Google Maps', 'EnableMapClickListener', false, 'enabled')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |enabled|`boolean`|
@@ -304,6 +324,7 @@ Enable/Disable to listen to map's click event
 [[Method('Google Maps', 'EnableMapLongClickListener', false, 'enabled')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |enabled|`boolean`|
@@ -316,6 +337,7 @@ Enable/disable to listen to map's long click event
 [[Method('Google Maps', 'EnableMyLocation', false, 'enabled')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |enabled|`boolean`|
@@ -328,6 +350,7 @@ Enable or disable my location widget control for Google Map. One can call GetMyL
 [[Method('Google Maps', 'EnableRotate', false, 'enable')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |enable|`boolean`|
@@ -340,6 +363,7 @@ Enables/disables the capability to rotate a map on the ui. Call this only after 
 [[Method('Google Maps', 'EnableScroll', false, 'enable')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |enable|`boolean`|
@@ -352,6 +376,7 @@ Enables/disables the capability to scroll a map on the ui. Call this only after 
 [[Method('Google Maps', 'EnableZoomControl', false, 'enable')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |enable|`boolean`|
@@ -364,6 +389,7 @@ Enables/disables the zoom widget on the map's ui. Call this only after the event
 [[Method('Google Maps', 'EnableZoomGesture', false, 'enable')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |enable|`boolean`|
@@ -418,6 +444,7 @@ Get current location using Google Map Service. Return a YailList with first item
 {>>Returns `list`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |json String|`text`|
@@ -430,6 +457,7 @@ Convert a JsonArray of points (lat, lng pairs) to a list.
 [[Method('Google Maps', 'MoveCamera', false, 'lat lng zoom')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |lat|`number`|
@@ -446,6 +474,7 @@ Move the map's camera to the specified position and zoom level
 {>>Returns `boolean`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |circle Id|`number`|
@@ -458,6 +487,7 @@ Remove a circle for the map. Returns true if successfully removed, false if the 
 [[Method('Google Maps', 'RemoveMarker', false, 'markerId')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |marker Id|`number`|
@@ -472,6 +502,7 @@ Remove a marker from the map
 {>>Returns `boolean`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |polyline Id|`number`|
@@ -484,6 +515,7 @@ Use this block to remove a polyline from the map. It will return true if it was 
 [[Method('Google Maps', 'SetMapType', false, 'layerName')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |layer Name|`text`|
@@ -496,6 +528,7 @@ Set the layer of Google map. Default layer is "normal", other choices including 
 [[Method('Google Maps', 'UpdateCircle', false, 'circleId propertyName value')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |circle Id|`number`|
@@ -510,6 +543,7 @@ Set the property of an existing circle. Properties include: "alpha"(number, valu
 [[Method('Google Maps', 'UpdateMarker', false, 'markerId propertyName value')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |marker Id|`number`|
@@ -524,6 +558,7 @@ Set the property of a marker, note that the marker has to be added first or else
 [[Method('Google Maps', 'UpdatePolyline', false, 'polylineId propertyName points')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |polyline Id|`number`|
@@ -544,6 +579,7 @@ Add overlay.
 [[Method('Google Maps', 'Add Polygon', false, 'latMin latMax lonMin lonMax')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |lat Min|`number`|
@@ -579,6 +615,7 @@ Draw central square.
 {>>Returns `text`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |latitude In Degrees|`number`|

@@ -30,6 +30,7 @@ You must obtain a Consumer Key and Consumer Secret for Twitter authorization spe
 [[Event('Twitter', 'Direct Messages Received', 'messages')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |messages|`list`|
@@ -42,6 +43,7 @@ This event is raised when the recent messages requested through `` RequestDirect
 [[Event('Twitter', 'Followers Received', 'followers2')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |followers 2|`list`|
@@ -54,6 +56,7 @@ This event is raised when all of the followers of the logged-in user requested t
 [[Event('Twitter', 'Friend Timeline Received', 'timeline')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |timeline|`list`|
@@ -72,6 +75,7 @@ This event is raised after the program calls `` Authorize `` if the authorizatio
 [[Event('Twitter', 'Mentions Received', 'mentions')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |mentions|`list`|
@@ -84,6 +88,7 @@ This event is raised when the mentions of the logged-in user requested through `
 [[Event('Twitter', 'Search Successful', 'searchResults')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |search Results|`list`|
@@ -116,6 +121,7 @@ Removes Twitter authorization from this running app instance
 [[Method('Twitter', 'DirectMessage', false, 'user message')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |user|`text`|
@@ -131,6 +137,7 @@ This sends a direct (private) message to the specified user.  The message will b
 [[Method('Twitter', 'Follow', false, 'user')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |user|`text`|
@@ -143,6 +150,7 @@ Starts following a user.
 [[Method('Twitter', 'Login', false, 'username password')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |username|`text`|
@@ -184,6 +192,7 @@ Requests the 20 most recent mentions of the logged-in user.  When the mentions h
 [[Method('Twitter', 'SearchTwitter', false, 'query')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |query|`text`|
@@ -198,6 +207,7 @@ This searches Twitter for the given String query.
 [[Method('Twitter', 'StopFollowing', false, 'user')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |user|`text`|
@@ -210,6 +220,7 @@ Stops following a user.
 [[Method('Twitter', 'Tweet', false, 'status')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |status|`text`|
@@ -224,6 +235,7 @@ This sends a tweet as the logged-in user with the specified Text, which will be 
 [[Method('Twitter', 'TweetWithImage', false, 'status imagePath')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |status|`text`|

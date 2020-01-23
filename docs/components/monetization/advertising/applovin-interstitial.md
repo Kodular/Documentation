@@ -20,9 +20,10 @@ Called when an ad was closed.
 
 ### Ad Failed To Load
 
-[[Event('AppLovin Interstitial', 'Ad Failed To Load', 'errorCode errorMessage')]]
+[[Event('AppLovin Interstitial', 'Ad Failed To Load', 'errorCode', 'errorMessage')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |error Code|`number`|
@@ -51,9 +52,10 @@ Called when an ad was started.
 
 ### Error
 
-[[Event('AppLovin Interstitial', 'Error', 'errorCode errorMessage')]]
+[[Event('AppLovin Interstitial', 'Error', 'errorCode', 'errorMessage')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |error Code|`number`|

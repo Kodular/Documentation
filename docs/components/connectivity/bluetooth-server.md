@@ -14,9 +14,10 @@ A non-visible component that acts as a bluetooth server.
 
 ### BluetoothError
 
-[[Event('Bluetooth Server', 'BluetoothError', 'functionName message')]]
+[[Event('Bluetooth Server', 'BluetoothError', 'functionName', 'message')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |function Name|`text`|
@@ -38,6 +39,7 @@ Indicates that a bluetooth connection has been accepted.
 [[Method('Bluetooth Server', 'AcceptConnection', false, 'serviceName')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |service Name|`text`|
@@ -50,6 +52,7 @@ Accept an incoming connection with the Serial Port Profile (SPP).
 [[Method('Bluetooth Server', 'AcceptConnectionWithUUID', false, 'serviceName uuid')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |service Name|`text`|
@@ -103,6 +106,7 @@ Receive a signed 4-byte number from the connected Bluetooth device.
 {>>Returns `list`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |number Of Bytes|`number`|
@@ -117,6 +121,7 @@ Receive multiple signed byte values from the connected Bluetooth device. If numb
 {>>Returns `text`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |number Of Bytes|`number`|
@@ -155,6 +160,7 @@ Receive a unsigned 4-byte number from the connected Bluetooth device.
 {>>Returns `list`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |number Of Bytes|`number`|
@@ -167,6 +173,7 @@ Receive multiple unsigned byte values from the connected Bluetooth device. If nu
 [[Method('Bluetooth Server', 'Send1ByteNumber', false, 'number')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |number|`text`|
@@ -179,6 +186,7 @@ Send a 1-byte number to the connected Bluetooth device.
 [[Method('Bluetooth Server', 'Send2ByteNumber', false, 'number')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |number|`text`|
@@ -191,6 +199,7 @@ Send a 2-byte number to the connected Bluetooth device.
 [[Method('Bluetooth Server', 'Send4ByteNumber', false, 'number')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |number|`text`|
@@ -203,6 +212,7 @@ Send a 4-byte number to the connected Bluetooth device.
 [[Method('Bluetooth Server', 'SendBytes', false, 'list')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |list|`list`|
@@ -215,6 +225,7 @@ Send a list of byte values to the connected Bluetooth device.
 [[Method('Bluetooth Server', 'SendText', false, 'text')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |text|`text`|

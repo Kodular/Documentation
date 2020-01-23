@@ -26,6 +26,7 @@ _hello from Javascript_.
 [[Event('Web Viewer', 'After JS Evaluated', 'result')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |result|`text`|
@@ -38,6 +39,7 @@ Get the result of the evaluated JS
 [[Event('Web Viewer', 'Cookies Removed', 'success')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |success|`boolean`|
@@ -47,9 +49,10 @@ This event return true when the cookies have been successfully removed. If the c
 
 ### On Console Message
 
-[[Event('Web Viewer', 'On Console Message', 'message lineNumber sourceId')]]
+[[Event('Web Viewer', 'On Console Message', 'message', 'lineNumber', 'sourceId')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |message|`text`|
@@ -61,9 +64,10 @@ Get webpage console output
 
 ### On Download Start
 
-[[Event('Web Viewer', 'On Download Start', 'url contentDisposition mimetype contentLength')]]
+[[Event('Web Viewer', 'On Download Start', 'url', 'contentDisposition', 'mimetype', 'contentLength')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |url|`text`|
@@ -85,6 +89,7 @@ Triggers when page finished loading
 [[Event('Web Viewer', 'Progress Changed', 'progress')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |progress|`number`|
@@ -97,6 +102,7 @@ Event to detect that the loading progress has changed.
 [[Event('Web Viewer', 'Web View String Change', 'value')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |value|`text`|
@@ -121,6 +127,7 @@ Returns true if the WebViewer can go back in the history list.
 {>>Returns `boolean`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |steps|`number`|
@@ -159,6 +166,7 @@ Clear stored location permissions.
 [[Method('Web Viewer', 'EvaluateJS', false, 'script')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |script|`text`|
@@ -177,6 +185,7 @@ Go back to the previous page in the history list. Does nothing if there is no pr
 [[Method('Web Viewer', 'GoBackOrForward', false, 'steps')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |steps|`number`|
@@ -201,6 +210,7 @@ Loads the home URL page. This happens automatically when the home URL is changed
 [[Method('Web Viewer', 'GoToUrl', false, 'url')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |url|`text`|
@@ -213,6 +223,7 @@ Load the page at the given URL.
 [[Method('Web Viewer', 'LoadHtml', false, 'html')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |html|`text`|

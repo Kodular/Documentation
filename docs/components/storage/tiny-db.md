@@ -33,6 +33,7 @@ Clear the entire data store
 [[Method('Tiny DB', 'ClearTag', false, 'tag')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |tag|`text`|
@@ -55,6 +56,7 @@ Return a list of all the tags in the data store
 {>>Returns `any`<<}
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |tag|`text`|
@@ -68,6 +70,7 @@ Retrieve the value stored under the given tag.  If there's no such tag, then ret
 [[Method('Tiny DB', 'StoreValue', false, 'tag valueToStore')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |tag|`text`|

@@ -17,6 +17,7 @@ Non-visible component that can measures the proximity of an object in cm relativ
 [[Event('Proximity Sensor', 'Proximity Changed', 'distance')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |distance|`number`|

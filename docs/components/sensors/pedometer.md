@@ -38,9 +38,10 @@ deprecated
 
 ### Simple Step
 
-[[Event('Pedometer', 'Simple Step', 'simpleSteps distance')]]
+[[Event('Pedometer', 'Simple Step', 'simpleSteps', 'distance')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |simple Steps|`number`|
@@ -67,9 +68,10 @@ deprecated
 
 ### Walk Step
 
-[[Event('Pedometer', 'Walk Step', 'walkSteps distance')]]
+[[Event('Pedometer', 'Walk Step', 'walkSteps', 'distance')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |walk Steps|`number`|

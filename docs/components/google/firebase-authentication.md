@@ -20,9 +20,10 @@ Triggers when the current Firebase User failed to load
 
 ### Current User Success
 
-[[Event('Firebase Authentication', 'Current User Success', 'userID name email phoneNumber profilePicture')]]
+[[Event('Firebase Authentication', 'Current User Success', 'userID', 'name', 'email', 'phoneNumber', 'profilePicture')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |user ID|`text`|
@@ -39,6 +40,7 @@ Triggers when the current Firebase User was successful loaded
 [[Event('Firebase Authentication', 'Got Id Token', 'idToken')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |id Token|`text`|
@@ -51,6 +53,7 @@ Triggers when the 'Get Id Token' got a result. If there was a error it returns a
 [[Event('Firebase Authentication', 'Login Failed', 'provider')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |provider|`text`|
@@ -60,9 +63,10 @@ Triggers when the Firebase Login failed
 
 ### Login Success
 
-[[Event('Firebase Authentication', 'Login Success', 'provider userID name email phoneNumber profilePicture')]]
+[[Event('Firebase Authentication', 'Login Success', 'provider', 'userID', 'name', 'email', 'phoneNumber', 'profilePicture')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |provider|`text`|
@@ -80,6 +84,7 @@ Triggers when the Firebase Login was successful
 [[Event('Firebase Authentication', 'Reset Password Email Done', 'success')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |success|`boolean`|
@@ -89,9 +94,10 @@ Triggers when the 'Send Reset Password Email' got a result. Returns true if the 
 
 ### Sign Up Failed
 
-[[Event('Firebase Authentication', 'Sign Up Failed', 'provider message')]]
+[[Event('Firebase Authentication', 'Sign Up Failed', 'provider', 'message')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |provider|`text`|
@@ -102,9 +108,10 @@ Triggers when the Firebase Sign Up failed
 
 ### Sign Up Success
 
-[[Event('Firebase Authentication', 'Sign Up Success', 'provider userID name email phoneNumber profilePicture')]]
+[[Event('Firebase Authentication', 'Sign Up Success', 'provider', 'userID', 'name', 'email', 'phoneNumber', 'profilePicture')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |provider|`text`|
@@ -122,6 +129,7 @@ Triggers when the Firebase Sign Up failed
 [[Event('Firebase Authentication', 'User Update Failed', 'type')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |type|`text`|
@@ -134,6 +142,7 @@ Triggers when updating of the user failed
 [[Event('Firebase Authentication', 'User Update Success', 'type')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |type|`text`|
@@ -148,6 +157,7 @@ Triggers when updating of the user was successful
 [[Method('Firebase Authentication', 'EmailPasswordLogin', false, 'email password')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |email|`text`|
@@ -161,6 +171,7 @@ Try to let the user sign in with Email and Password
 [[Method('Firebase Authentication', 'EmailPasswordSignUp', false, 'email password')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |email|`text`|
@@ -206,6 +217,7 @@ Log the current user out
 [[Method('Firebase Authentication', 'PhoneNumberSignIn', false, 'phoneNumber')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |phone Number|`text`|
@@ -218,6 +230,7 @@ Try to let the user sign in with a Phone Number
 [[Method('Firebase Authentication', 'SendResetPasswordEmail', false, 'email')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |email|`text`|
@@ -230,6 +243,7 @@ Get the id token from the current user.
 [[Method('Firebase Authentication', 'UpdateEmail', false, 'email')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |email|`text`|
@@ -242,6 +256,7 @@ Try to update the email of the current user (The user must have been recently si
 [[Method('Firebase Authentication', 'UpdatePhoneNumber', false, 'phoneNumber')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |phone Number|`text`|
@@ -254,6 +269,7 @@ Try to update the phone number of the current user (The user must have been rece
 [[Method('Firebase Authentication', 'UpdateProfile', false, 'name profilePicture')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |name|`text`|
@@ -273,6 +289,7 @@ Verify the Email
 [[Method('Firebase Authentication', 'VerifyPhoneCode', false, 'code')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |code|`text`|

@@ -12,9 +12,10 @@ A visible component that displays a list of elements consisting of an image and 
 
 ### Click
 
-[[Event('List View Image and Text', 'Click', 'position title subtitle image')]]
+[[Event('List View Image and Text', 'Click', 'position', 'title', 'subtitle', 'image')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |position|`number`|
@@ -27,9 +28,10 @@ Triggers when the user clicks on a item in the list
 
 ### Long Click
 
-[[Event('List View Image and Text', 'Long Click', 'position title subtitle image')]]
+[[Event('List View Image and Text', 'Long Click', 'position', 'title', 'subtitle', 'image')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |position|`number`|
@@ -47,6 +49,7 @@ Triggers when the user long clicks on a item in the list
 [[Method('List View Image and Text', 'AddItem', false, 'image title subtitle')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |image|`text`|
@@ -61,6 +64,7 @@ Add a item to the list
 [[Method('List View Image and Text', 'AddItemFromList', false, 'list')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |list|`list`|
@@ -79,6 +83,7 @@ Remove all the items from the list
 [[Method('List View Image and Text', 'RemoveItem', false, 'position')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |position|`number`|
@@ -91,6 +96,7 @@ Remove a item from the list
 [[Method('List View Image and Text', 'UpdateItem', false, 'position image title subtitle')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |position|`number`|

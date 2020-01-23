@@ -27,6 +27,7 @@ The languages and countries available depend on the particular device, and can b
 [[Event('Text To Speech', 'After Speaking', 'result')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |result|`boolean`|
@@ -47,6 +48,7 @@ Event to raise when Speak is invoked, before the message is spoken.
 [[Method('Text To Speech', 'Speak', false, 'message')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |message|`text`|

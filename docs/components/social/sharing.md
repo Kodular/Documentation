@@ -21,6 +21,7 @@ The file path can be taken directly from other components such as the Camera or 
 [[Event('Sharing', 'App Not Found', 'name')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |name|`text`|
@@ -35,6 +36,7 @@ This event returns the social media name if an app is not installed. Possible na
 [[Method('Sharing', 'ShareFile', false, 'file')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |file|`text`|
@@ -47,6 +49,7 @@ Shares a file through any capable application installed on the phone by displayi
 [[Method('Sharing', 'ShareFileWithMessage', false, 'file message')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |file|`text`|
@@ -60,6 +63,7 @@ Shares both a file and a message through any capable application installed on th
 [[Method('Sharing', 'ShareMessage', false, 'message')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |message|`text`|
@@ -72,6 +76,7 @@ Shares a message through any capable application installed on the phone by displ
 [[Method('Sharing', 'ShareMessageTo', false, 'message name packageName')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |message|`text`|
@@ -86,6 +91,7 @@ Shares a message through the given app. If the given app is not installed, then 
 [[Method('Sharing', 'ShareMessageToFacebook', false, 'message')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |message|`text`|
@@ -98,6 +104,7 @@ Shares a message through Facebook. If Facebook is not installed, then the 'AppNo
 [[Method('Sharing', 'ShareMessageToFacebookMessenger', false, 'message')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |message|`text`|
@@ -110,6 +117,7 @@ Shares a message through Facebook Messenger. If Messenger is not installed, then
 [[Method('Sharing', 'ShareMessageToGooglePlus', false, 'message')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |message|`text`|
@@ -122,6 +130,7 @@ Shares a message through Google Plus. If Google+ is not installed, then the 'App
 [[Method('Sharing', 'ShareMessageToSnapchat', false, 'message')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |message|`text`|
@@ -134,6 +143,7 @@ Shares a message through Snapchat. If Snapchat is not installed, then the 'AppNo
 [[Method('Sharing', 'ShareMessageToTelegram', false, 'message')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |message|`text`|
@@ -146,6 +156,7 @@ Shares a message through Telegram. If Telegram is not installed, then the 'AppNo
 [[Method('Sharing', 'ShareMessageToTwitter', false, 'message')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |message|`text`|
@@ -158,6 +169,7 @@ Shares a message through Twitter. If Twitter is not installed, then the 'AppNotF
 [[Method('Sharing', 'ShareMessageToWhatsApp', false, 'message')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |message|`text`|

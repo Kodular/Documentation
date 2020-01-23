@@ -17,6 +17,7 @@ A component that provides both high- and low-level interfaces to a LEGO MINDSTOR
 [[Event('EV3 Motors', 'Tacho Count Changed', 'tachoCount')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |tacho Count|`number`|
@@ -45,6 +46,7 @@ Set the current tacho count to zero.
 [[Method('EV3 Motors', 'RotateInDistance', false, 'power distance useBrake')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |power|`number`|
@@ -59,6 +61,7 @@ Rotate the motors in a distance.
 [[Method('EV3 Motors', 'RotateInDuration', false, 'power milliseconds useBrake')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |power|`number`|
@@ -73,6 +76,7 @@ Rotate the motors in a period of time.
 [[Method('EV3 Motors', 'RotateInTachoCounts', false, 'power tachoCounts useBrake')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |power|`number`|
@@ -87,6 +91,7 @@ Rotate the motors in a number of tacho counts.
 [[Method('EV3 Motors', 'RotateIndefinitely', false, 'power')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |power|`number`|
@@ -99,6 +104,7 @@ Start to rotate the motors.
 [[Method('EV3 Motors', 'RotateSyncInDistance', false, 'power distance turnRatio useBrake')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |power|`number`|
@@ -114,6 +120,7 @@ Rotate the motors at the same speed for a distance in cm.
 [[Method('EV3 Motors', 'RotateSyncInDuration', false, 'power milliseconds turnRatio useBrake')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |power|`number`|
@@ -129,6 +136,7 @@ Rotate the motors at the same speed in a period of time.
 [[Method('EV3 Motors', 'RotateSyncInTachoCounts', false, 'power tachoCounts turnRatio useBrake')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |power|`number`|
@@ -144,6 +152,7 @@ Rotate the motors at the same speed in a number of tacho counts.
 [[Method('EV3 Motors', 'RotateSyncIndefinitely', false, 'power turnRatio')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |power|`number`|
@@ -157,6 +166,7 @@ Start to rotate the motors at the same speed.
 [[Method('EV3 Motors', 'Stop', false, 'useBrake')]]
 
 ??? tip "Parameters"
+
     | Name | Type |
     |------|------|
     |use Brake|`boolean`|
