@@ -250,6 +250,23 @@ nav:
       - SQLite: components/storage/sqlite.md
       - Tiny DB: components/storage/tiny-db.md
       - Tiny Web DB: components/storage/tiny-web-db.md
+    - Utilities:
+      - Overview: components/utilities/index.md
+      - Audio: components/utilities/audio.md
+      - Battery Utilities: components/utilities/battery-utilities.md
+      - Decoration: components/utilities/decoration.md
+      - Device Utilities: components/utilities/device-utilities.md
+      - Color Utilities: components/utilities/color-utilities.md
+      - Cryptography: components/utilities/cryptography.md
+      - Image Utilities: components/utilities/image-utilities.md
+      - JSON: components/utilities/json.md
+      - Keyguard Manager: components/utilities/keyguard-manager.md
+      - Resource Utilities: components/utilities/resource-utilities.md
+      - Animation Utilities: components/utilities/animation-utilities.md
+      - Shell: components/utilities/shell.md
+      - Package Utilities: components/utilities/package-utilities.md
+      - Screenshot: components/utilities/screenshot.md
+      - Wallpaper: components/utilities/wallpaper.md
     - Dynamic Components:
       - Overview: components/dynamic/index.md
       - Dynamic Card View: components/dynamic/dynamic-card-view.md
@@ -323,23 +340,6 @@ nav:
         - LeadBolt: components/monetization/advertising/leadbolt.md
         - Facebook Banner: components/monetization/advertising/facebook-banner.md
         - Facebook Interstitial: components/monetization/advertising/facebook-interstitial.md
-    - Utilities:
-      - Overview: components/utilities/index.md
-      - Audio: components/utilities/audio.md
-      - Battery Utilities: components/utilities/battery-utilities.md
-      - Decoration: components/utilities/decoration.md
-      - Device Utilities: components/utilities/device-utilities.md
-      - Color Utilities: components/utilities/color-utilities.md
-      - Cryptography: components/utilities/cryptography.md
-      - Image Utilities: components/utilities/image-utilities.md
-      - JSON: components/utilities/json.md
-      - Keyguard Manager: components/utilities/keyguard-manager.md
-      - Resource Utilities: components/utilities/resource-utilities.md
-      - Animation Utilities: components/utilities/animation-utilities.md
-      - Shell: components/utilities/shell.md
-      - Package Utilities: components/utilities/package-utilities.md
-      - Screenshot: components/utilities/screenshot.md
-      - Wallpaper: components/utilities/wallpaper.md
     - Experimental:
       - Overview: components/experimental/index.md
       - CloudDB: components/experimental/clouddb.md
