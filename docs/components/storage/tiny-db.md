@@ -77,7 +77,7 @@ _Block preview not available_
     |value To Store|`any`|
 
 
-Store the given value under the given tag. The storage persists on the   phone when the app is restarted.
+Store the given value under the given tag. The storage persists on thephone when the app is restarted.
 
 ## Properties
 

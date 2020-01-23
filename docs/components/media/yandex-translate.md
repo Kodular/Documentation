@@ -44,7 +44,9 @@ _Block preview not available_
     |text To Translate|`text`|
 
 
-By providing a target language to translate to (for instance, 'es' for Spanish, 'en' for English, or 'ru' for Russian), and a word or sentence to translate, this method will request a translation to the Yandex.Translate service.  Once the text is translated by the external service, the event GotTranslation will be executed.  Note: Yandex.Translate will attempt to detect the source language. You can also specify prepending it to the language translation. I.e., es-ru will specify Spanish to Russian translation.
+By providing a target language to translate to (for instance, 'es' for Spanish, 'en' for English, or 'ru' for Russian), and a word or sentence to translate, this method will request a translation to the Yandex.Translate service
+Once the text is translated by the external service, the event GotTranslation will be executed
+Note: Yandex.Translate will attempt to detect the source language. You can also specify prepending it to the language translation. I.e., es-ru will specify Spanish to Russian translation.
 
 ## Properties
 

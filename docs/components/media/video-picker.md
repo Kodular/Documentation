@@ -21,13 +21,13 @@ A special-purpose button. When the user taps an video picker, the device's video
     |selection|`text`|
 
 
-Event to be raised after the picker activity returns its   result and the properties have been filled in.
+Event to be raised after the picker activity returns itsresult and the properties have been filled in.
 
 ### Before Picking
 
 [[Event('Video Picker', 'Before Picking')]]
 
-Event to raise when the button of the component is clicked or the list is shown   using the Open block. This event occurs before the list of items is displayed, and   can be used to prepare the list before it is shown.
+Event to raise when the button of the component is clicked or the list is shownusing the Open block. This event occurs before the list of items is displayed, andcan be used to prepare the list before it is shown.
 
 ### Got Focus
 
@@ -417,7 +417,7 @@ Specifies the component's vertical height, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's vertical height as a percentage   of the height of its parent Component.
+Specifies the component's vertical height as a percentageof the height of its parent Component.
 
 ### Row
 
@@ -461,4 +461,4 @@ Specifies the component's horizontal width, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width as a percentage   of the Width of its parent Component.
+Specifies the component's horizontal width as a percentageof the Width of its parent Component.

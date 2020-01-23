@@ -60,7 +60,7 @@ The BluetoothClient component that should be used for communication.
 |:----:|:-------:|
 |boolean|False|
 
-Specifies whether the Pressed event should fire when the touch sensor is   pressed.
+Specifies whether the Pressed event should fire when the touch sensor ispressed.
 
 ### Released Event Enabled
 

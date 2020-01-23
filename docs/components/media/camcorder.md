@@ -23,7 +23,7 @@ A component to record a video using the device's camcorder.After the video is re
     |clip|`text`|
 
 
-Indicates that a video was recorded with the camera and provides the path to   the stored picture.
+Indicates that a video was recorded with the camera and provides the path tothe stored picture.
 
 ## Methods
 

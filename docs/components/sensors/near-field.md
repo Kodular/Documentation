@@ -28,7 +28,8 @@ __Note:__ This component will only work on Screen1 of any App Inventor app.
     |message|`text`|
 
 
-Indicates that a new tag has been detected.   Currently this is only a plain text tag, as specified in the   manifest. See Compiler.java.
+Indicates that a new tag has been detected
+Currently this is only a plain text tag, as specified in themanifest. See Compiler.java.
 
 ### Tag Written
 

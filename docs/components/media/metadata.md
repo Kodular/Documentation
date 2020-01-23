@@ -80,7 +80,7 @@ _Block preview not available_
     |id|`number`|
 
 
-Get a custom metadata item from the file  you can find a list of ids on https://developer.android.com/reference/android/media/MediaMetadataRetriever.html
+Get a custom metadata item from the fileyou can find a list of ids on https://developer.android.com/reference/android/media/MediaMetadataRetriever.html
 
 ### Date
 

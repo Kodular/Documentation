@@ -24,7 +24,8 @@ Non-visible component that communicates with a Firebase to store and retrieve in
     |value|`any`|
 
 
-Indicates that the data in the Firebase has changed.   Launches an event with the tag and value that have been updated.
+Indicates that the data in the Firebase has changed
+Launches an event with the tag and value that have been updated.
 
 ### Firebase Error
 
@@ -126,7 +127,8 @@ _Block preview not available_
     |value If Tag Not There|`any`|
 
 
-GetValue asks Firebase to get the value stored under the given tag.   It will pass valueIfTagNotThere to GotValue if there is no value stored   under the tag.
+GetValue asks Firebase to get the value stored under the given tag
+It will pass valueIfTagNotThere to GotValue if there is no value storedunder the tag.
 
 ### GoOffline
 

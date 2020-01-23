@@ -413,7 +413,7 @@ Determines the height of the list on the view.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's vertical height as a percentage   of the height of its parent Component.
+Specifies the component's vertical height as a percentageof the height of its parent Component.
 
 ### Row
 
@@ -468,4 +468,4 @@ Determines the width of the list on the view.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width as a percentage   of the Width of its parent Component.
+Specifies the component's horizontal width as a percentageof the Width of its parent Component.

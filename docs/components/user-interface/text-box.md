@@ -24,13 +24,13 @@ If the text entered by the user should not be displayed, use `` PasswordTextBox 
 
 [[Event('Text Box', 'Got Focus')]]
 
-Event raised when this component is selected for input, such as by   the user touching it.
+Event raised when this component is selected for input, such as bythe user touching it.
 
 ### Lost Focus
 
 [[Event('Text Box', 'Lost Focus')]]
 
-Event raised when this component is no longer selected for input, such   as if the user touches a different text box.
+Event raised when this component is no longer selected for input, suchas if the user touches a different text box.
 
 ### On Text Changed
 
@@ -452,7 +452,7 @@ Specifies the component's vertical height, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's vertical height as a percentage   of the height of its parent Component.
+Specifies the component's vertical height as a percentageof the height of its parent Component.
 
 ### Line Color
 
@@ -509,4 +509,4 @@ Specifies the component's horizontal width, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width as a percentage   of the Width of its parent Component.
+Specifies the component's horizontal width as a percentageof the Width of its parent Component.

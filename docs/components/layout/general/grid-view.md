@@ -122,7 +122,7 @@ Control how items are stretched to fill their space
 |:----:|:-------:|
 |number|&HFF000000|
 
-Specifies the checkbox's text color as an alpha-red-green-blue   integer.
+Specifies the checkbox's text color as an alpha-red-green-blueinteger.
 
 ### Thumbnail Height in DIP
 
@@ -205,7 +205,7 @@ Specifies the component's vertical height, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's vertical height as a percentage   of the height of its parent Component.
+Specifies the component's vertical height as a percentageof the height of its parent Component.
 
 ### Row
 
@@ -249,4 +249,4 @@ Specifies the component's horizontal width, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width as a percentage   of the Width of its parent Component.
+Specifies the component's horizontal width as a percentageof the Width of its parent Component.

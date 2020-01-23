@@ -27,7 +27,7 @@ To have an `` ImageSprite `` move 10 pixels to the left every 1000 milliseconds 
     |other|`component`|
 
 
-Event handler called when two enabled sprites (Balls or ImageSprites)   collide. Note that checking for collisions with a rotated ImageSprite currently   checks against its unrotated position. Therefore, collision   checking will be inaccurate for tall narrow or short wide sprites that are   rotated.
+Event handler called when two enabled sprites (Balls or ImageSprites)collide. Note that checking for collisions with a rotated ImageSprite currentlychecks against its unrotated position. Therefore, collisionchecking will be inaccurate for tall narrow or short wide sprites that arerotated.
 
 ### Dragged
 
@@ -236,7 +236,7 @@ Controls whether the ImageSprite moves and can be interacted with through collis
 |:----:|:-------:|
 |number|0|
 
-Sets heading in which sprite should move. In addition to changing the   local variables
+Sets heading in which sprite should move. In addition to changing thelocal variables
 
 ### Interval
 
@@ -340,7 +340,7 @@ The vertical coordinate of the top edge of the ImageSprite, increasing as the Im
 |:----:|:-------:|
 |number|1.0|
 
-Sets the layer of the sprite, indicating whether it will appear in   front of or behind other sprites.
+Sets the layer of the sprite, indicating whether it will appear infront of or behind other sprites.
 
 ### Height
 

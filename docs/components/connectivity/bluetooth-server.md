@@ -265,7 +265,7 @@ Sets the character encoding to use when sending and receiving text.
 |:----:|:-------:|
 |number|0|
 
-Sets the delimiter byte to use when passing a negative number for the   numberOfBytes parameter when calling ReceiveText, ReceiveSignedBytes, or   ReceiveUnsignedBytes.
+Sets the delimiter byte to use when passing a negative number for thenumberOfBytes parameter when calling ReceiveText, ReceiveSignedBytes, orReceiveUnsignedBytes.
 
 ### High Byte First
 
@@ -278,7 +278,7 @@ Sets the delimiter byte to use when passing a negative number for the   numberOf
 |:----:|:-------:|
 |boolean|False|
 
-Returns true if numbers are sent and received with the most significant   byte first.
+Returns true if numbers are sent and received with the most significantbyte first.
 
 ### Secure
 
@@ -324,7 +324,7 @@ Whether Bluetooth is enabled
 |:----:|:-------:|
 |boolean|None|
 
-Returns true if this BluetoothServer component is accepting an   incoming connection.
+Returns true if this BluetoothServer component is accepting anincoming connection.
 
 ### Is Connected
 

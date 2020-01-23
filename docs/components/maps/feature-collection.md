@@ -119,7 +119,7 @@ _Block preview not available_
     |description|`list`|
 
 
-Convert a feature description into an App Inventor map feature. Currently the only   supported conversion is from a GeoJSON point to Marker component. If the feature has   properties, they will be mapped into App Inventor properties using the following mapping:     description becomes Description;   draggable becomes Draggable;   infobox becomes EnableInfobox;   fill becomes FillColor;   fill-opacity becomes FillOpacity;   image becomes ImageAsset;   stroke becomes StrokeColor;   stroke-opacity becomes StrokeOpacity;   stroke-width becomes StrokeWidth;   title becomes Title;   visible becomes Visible
+Convert a feature description into an App Inventor map feature. Currently the onlysupported conversion is from a GeoJSON point to Marker component. If the feature hasproperties, they will be mapped into App Inventor properties using the following mapping:description becomes Description;draggable becomes Draggable;infobox becomes EnableInfobox;fill becomes FillColor;fill-opacity becomes FillOpacity;image becomes ImageAsset;stroke becomes StrokeColor;stroke-opacity becomes StrokeOpacity;stroke-width becomes StrokeWidth;title becomes Title;visible becomes Visible
 
 ### LoadFromURL
 
@@ -219,7 +219,7 @@ Specifies the component's vertical height, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's vertical height as a percentage   of the height of its parent Component.
+Specifies the component's vertical height as a percentageof the height of its parent Component.
 
 ### Row
 
@@ -252,4 +252,4 @@ Specifies the component's horizontal width, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width as a percentage   of the Width of its parent Component.
+Specifies the component's horizontal width as a percentageof the Width of its parent Component.

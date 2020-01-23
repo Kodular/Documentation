@@ -161,7 +161,7 @@ Returns the current position of the source file that is playing.
 |:----:|:-------:|
 |boolean|None|
 
-Returns whether the VideoPlayer's video is currently being   shown in fullscreen mode or not.
+Returns whether the VideoPlayer's video is currently beingshown in fullscreen mode or not.
 
 ### Height
 
@@ -183,7 +183,7 @@ Specifies the component's vertical height, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's vertical height as a percentage   of the height of its parent Component.
+Specifies the component's vertical height as a percentageof the height of its parent Component.
 
 ### Is Playing
 
@@ -227,4 +227,4 @@ Specifies the component's horizontal width, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width as a percentage   of the Width of its parent Component.
+Specifies the component's horizontal width as a percentageof the Width of its parent Component.

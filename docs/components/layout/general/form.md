@@ -142,7 +142,7 @@ Event to handle when the app user has denied a needed permission.
     |permission Name|`text`|
 
 
-Event to handle when the app user has granted a needed permission. This event is only run when permission is   granted in response to the AskForPermission method.
+Event to handle when the app user has granted a needed permission. This event is only run when permission isgranted in response to the AskForPermission method.
 
 ### Screen Orientation Changed
 

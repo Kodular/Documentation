@@ -25,7 +25,7 @@ The difference between a `` Ball `` and an `` ImageSprite `` is that the latter 
     |other|`component`|
 
 
-Event handler called when two enabled sprites (Balls or ImageSprites)   collide. Note that checking for collisions with a rotated ImageSprite currently   checks against its unrotated position. Therefore, collision   checking will be inaccurate for tall narrow or short wide sprites that are   rotated.
+Event handler called when two enabled sprites (Balls or ImageSprites)collide. Note that checking for collisions with a rotated ImageSprite currentlychecks against its unrotated position. Therefore, collisionchecking will be inaccurate for tall narrow or short wide sprites that arerotated.
 
 ### Dragged
 
@@ -234,7 +234,7 @@ Controls whether the Ball moves and can be interacted with through collisions, d
 |:----:|:-------:|
 |number|0|
 
-Sets heading in which sprite should move. In addition to changing the   local variables
+Sets heading in which sprite should move. In addition to changing thelocal variables
 
 ### Interval
 
@@ -351,4 +351,4 @@ The vertical coordinate of the Ball, increasing as the Ball moves down. If the p
 |:----:|:-------:|
 |number|1.0|
 
-Sets the layer of the sprite, indicating whether it will appear in   front of or behind other sprites.
+Sets the layer of the sprite, indicating whether it will appear infront of or behind other sprites.

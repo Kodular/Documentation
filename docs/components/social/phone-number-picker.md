@@ -8,18 +8,14 @@
 
 A button that, when clicked on, displays a list of the contacts' phone numbers to choose among. After the user has made a selection, the following properties will be set to information about the chosen contact: 
 
- *    `` ContactName ``: the contact's name 
- *    `` PhoneNumber ``: the contact's phone number 
- *    `` EmailAddress ``: the contact's email address 
+*    `` ContactName ``: the contact's name 
+*    `` PhoneNumber ``: the contact's phone number 
+*    `` EmailAddress ``: the contact's email address 
  *    `` Picture ``: the name of the file containing the contact's image, which can be used as a `` Picture `` property value for the `` Image `` or `` ImageSprite `` component.
-
- 
 
 Other properties affect the appearance of the button (`` TextAlignment ``, `` BackgroundColor ``, etc.) and whether it can be clicked on (`` Enabled ``).
 
- 
-
-The PhoneNumberPicker component may not work on all Android devices. For example, on Android systems before system 3.0, the returned lists of phone numbers and email addresses will be empty. 
+The PhoneNumberPicker component may not work on all Android devices. For example, on Android systems before system 3.0, the returned lists of phone numbers and email addresses will be empty
 
 ## Events
 
@@ -34,13 +30,13 @@ The PhoneNumberPicker component may not work on all Android devices. For example
     |selection|`text`|
 
 
-Event to be raised after the picker activity returns its   result and the properties have been filled in.
+Event to be raised after the picker activity returns itsresult and the properties have been filled in.
 
 ### Before Picking
 
 [[Event('Phone Number Picker', 'Before Picking')]]
 
-Event to raise when the button of the component is clicked or the list is shown   using the Open block. This event occurs before the list of items is displayed, and   can be used to prepare the list before it is shown.
+Event to raise when the button of the component is clicked or the list is shownusing the Open block. This event occurs before the list of items is displayed, andcan be used to prepare the list before it is shown.
 
 ### Got Focus
 
@@ -487,7 +483,7 @@ Specifies the component's vertical height, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's vertical height as a percentage   of the height of its parent Component.
+Specifies the component's vertical height as a percentageof the height of its parent Component.
 
 ### Phone Number
 
@@ -520,7 +516,7 @@ PhoneNumberList property getter method.
 |:----:|:-------:|
 |text|None|
 
-Picture URI for this contact, which can be   used to retrieve the contact's photo and other fields.
+Picture URI for this contact, which can beused to retrieve the contact's photo and other fields.
 
 ### Row
 
@@ -553,4 +549,4 @@ Specifies the component's horizontal width, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width as a percentage   of the Width of its parent Component.
+Specifies the component's horizontal width as a percentageof the Width of its parent Component.

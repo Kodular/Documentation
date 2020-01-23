@@ -352,7 +352,8 @@ _Block preview not available_
     |day|`number`|
 
 
-Allows the user to set the clock to be a date value.  Valid values for the month field are 1-12 and 1-31 for the day field.
+Allows the user to set the clock to be a date value
+Valid values for the month field are 1-12 and 1-31 for the day field.
 
 ### MakeInstant
 
@@ -402,7 +403,8 @@ _Block preview not available_
     |second|`number`|
 
 
-Allows the user to set the date and time to be displayed when the clock opens.  Valid values for the month field are 1-12 and 1-31 for the day field.
+Allows the user to set the date and time to be displayed when the clock opens
+Valid values for the month field are 1-12 and 1-31 for the day field.
 
 ### MakeTime
 

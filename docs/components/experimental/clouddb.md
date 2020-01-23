@@ -37,7 +37,8 @@ Indicates that an error occurred while communicating with the CloudDB Redis serv
     |value|`any`|
 
 
-Indicates that the data in the CloudDB project has changed.   Launches an event with the tag and value that have been updated.
+Indicates that the data in the CloudDB project has changed
+Launches an event with the tag and value that have been updated.
 
 ### First Removed
 

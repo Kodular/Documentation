@@ -10,11 +10,7 @@ An EmailPicker is a kind of text box. If the user begins entering the name or em
 
 The initial contents of the text box and the contents&lt; after user entry is in the `` Text `` property. If the `` Text `` property is initially empty, the contents of the `` Hint `` property will be faintly shown in the text box as a hint to the user.
 
- 
-
 Other properties affect the appearance of the text box (`` TextAlignment ``, `` BackgroundColor ``, etc.) and whether it can be used (`` Enabled ``).
-
- 
 
 Text boxes like this are usually used with `` Button `` components, with the user clicking on the button when text entry is complete.
 
@@ -24,13 +20,13 @@ Text boxes like this are usually used with `` Button `` components, with the use
 
 [[Event('Email Picker', 'Got Focus')]]
 
-Event raised when this component is selected for input, such as by   the user touching it.
+Event raised when this component is selected for input, such as bythe user touching it.
 
 ### Lost Focus
 
 [[Event('Email Picker', 'Lost Focus')]]
 
-Event raised when this component is no longer selected for input, such   as if the user touches a different text box.
+Event raised when this component is no longer selected for input, suchas if the user touches a different text box.
 
 ### On Text Changed
 
@@ -362,7 +358,7 @@ Specifies the component's vertical height, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's vertical height as a percentage   of the height of its parent Component.
+Specifies the component's vertical height as a percentageof the height of its parent Component.
 
 ### Line Color
 
@@ -419,4 +415,4 @@ Specifies the component's horizontal width, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width as a percentage   of the Width of its parent Component.
+Specifies the component's horizontal width as a percentageof the Width of its parent Component.

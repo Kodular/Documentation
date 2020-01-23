@@ -146,7 +146,8 @@ Set the divider color of the listview
 |:----:|:-------:|
 |number|1|
 
-Set the side of the image.  Set it to 1 for Left side and 2 for Right side
+Set the side of the image
+Set it to 1 for Left side and 2 for Right side
 
 ### Item Size
 
@@ -159,7 +160,8 @@ Set the side of the image.  Set it to 1 for Left side and 2 for Right side
 |:----:|:-------:|
 |number|1|
 
-Set ListItem Size.  Set it to 1 for Normal size, 2 for Small size and 3 for Big size.
+Set ListItem Size
+Set it to 1 for Normal size, 2 for Small size and 3 for Big size.
 
 ### Subtitle Bold
 
@@ -387,7 +389,7 @@ Determines the height of the list on the view.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's vertical height as a percentage   of the height of its parent Component.
+Specifies the component's vertical height as a percentageof the height of its parent Component.
 
 ### Row
 
@@ -420,4 +422,4 @@ Determines the width of the list on the view.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width as a percentage   of the Width of its parent Component.
+Specifies the component's horizontal width as a percentageof the Width of its parent Component.

@@ -29,7 +29,7 @@ Simple event to raise after the VoiceReco activity has returned
 
 [[Event('Speech Recognizer', 'Before Getting Text')]]
 
-Simple event to raise when VoiceReco is invoked but before the VoiceReco   activity is started.
+Simple event to raise when VoiceReco is invoked but before the VoiceRecoactivity is started.
 
 ## Methods
 
@@ -37,7 +37,7 @@ Simple event to raise when VoiceReco is invoked but before the VoiceReco   activ
 
 _Block preview not available_
 
-Solicits speech input from the user. After the speech is converted to   text, the AfterGettingText event will be raised.
+Solicits speech input from the user. After the speech is converted totext, the AfterGettingText event will be raised.
 
 ## Properties
 

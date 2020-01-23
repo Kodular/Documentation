@@ -31,13 +31,11 @@ Non-visible component providing information about the device's physical orientat
     |roll|`number`|
 
 
-Default OrientationChanged event handler.     
+Default OrientationChanged event handler
 
-This event is signalled when the device's orientation has changed. It reports the new values of azimuth, pich, and roll, and it also sets the Azimuth, Pitch, and roll properties.
+This event is signalled when the device's orientation has changed. Itreports the new values of azimuth, pich, and roll, and it also sets the Azimuth, Pitch,and roll properties.
 
- 
-
-Azimuth is the compass heading in degrees, pitch indicates how the device is tilted from top to bottom, and roll indicates how much the device is tilted from side to side.
+Azimuth is the compass heading in degrees, pitch indicates how the deviceis tilted from top to bottom, and roll indicates how much the device is tilted fromside to side.
 
 ## Properties
 
@@ -63,7 +61,7 @@ Enabled property getter method.
 |:----:|:-------:|
 |number|None|
 
-Angle property getter method (read-only property). Specifically, this provides the angle in which the orientation sensor is tilted, treating
+Angle property getter method (read-only property). Specifically, thisprovides the angle in which the orientation sensor is tilted, treating
 
 ### Available
 
@@ -85,7 +83,7 @@ Available property getter method (read-only property).
 |:----:|:-------:|
 |number|None|
 
-Azimuth property getter method (read-only property).     
+Azimuth property getter method (read-only property)
 
 To return meaningful values the sensor must be enabled.
 
@@ -98,7 +96,7 @@ To return meaningful values the sensor must be enabled.
 |:----:|:-------:|
 |number|None|
 
-Magnitude property getter method (read-only property). Specifically, this   returns a number between 0 and 1, indicating how much the device   is tilted. For the angle of tilt, use
+Magnitude property getter method (read-only property). Specifically, thisreturns a number between 0 and 1, indicating how much the deviceis tilted. For the angle of tilt, use
 
 ### Pitch
 
@@ -109,7 +107,7 @@ Magnitude property getter method (read-only property). Specifically, this   retu
 |:----:|:-------:|
 |number|None|
 
-Pitch property getter method (read-only property).     
+Pitch property getter method (read-only property)
 
 To return meaningful values the sensor must be enabled.
 
@@ -122,6 +120,6 @@ To return meaningful values the sensor must be enabled.
 |:----:|:-------:|
 |number|None|
 
-Roll property getter method (read-only property).     
+Roll property getter method (read-only property)
 
 To return meaningful values the sensor must be enabled.

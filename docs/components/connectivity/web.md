@@ -72,7 +72,7 @@ _Block preview not available_
     |list|`list`|
 
 
-Converts a list of two-element sublists, representing name and value pairs, to a   string formatted as application/x-www-form-urlencoded media type, suitable to pass to   PostText.
+Converts a list of two-element sublists, representing name and value pairs, to astring formatted as application/x-www-form-urlencoded media type, suitable to pass toPostText.
 
 ### ClearCookies
 
@@ -84,17 +84,17 @@ Clears all cookies for this Web component.
 
 _Block preview not available_
 
-Performs an HTTP DELETE request using the Url property and retrieves the   response.  
-   If the SaveResponse property is true, the response will be saved in a file   and the GotFile event will be triggered. The ResponseFileName property   can be used to specify the name of the file.  
-   If the SaveResponse property is false, the GotText event will be   triggered.
+Performs an HTTP DELETE request using the Url property and retrieves theresponse.  
+If the SaveResponse property is true, the response will be saved in a fileand the GotFile event will be triggered. The ResponseFileName propertycan be used to specify the name of the file.  
+If the SaveResponse property is false, the GotText event will betriggered.
 
 ### Get
 
 _Block preview not available_
 
-Performs an HTTP GET request using the Url property and retrieves the   response.  
-   If the SaveResponse property is true, the response will be saved in a file   and the GotFile event will be triggered. The ResponseFileName property   can be used to specify the name of the file.  
-   If the SaveResponse property is false, the GotText event will be   triggered.
+Performs an HTTP GET request using the Url property and retrieves theresponse.  
+If the SaveResponse property is true, the response will be saved in a fileand the GotFile event will be triggered. The ResponseFileName propertycan be used to specify the name of the file.  
+If the SaveResponse property is false, the GotText event will betriggered.
 
 ### HtmlTextDecode
 
@@ -124,7 +124,8 @@ _Block preview not available_
     |json Text|`text`|
 
 
-Decodes the given JSON encoded value to produce a corresponding AppInventor value.   A JSON list [x, y, z] decodes to a list (x y z), A JSON object with name A and value B,   (denoted as A:B enclosed in curly braces) decodes to a list   ((A B)), that is, a list containing the two-element list (A B).
+Decodes the given JSON encoded value to produce a corresponding AppInventor value
+A JSON list [x, y, z] decodes to a list (x y z), A JSON object with name A and value B,(denoted as A:B enclosed in curly braces) decodes to a list((A B)), that is, a list containing the two-element list (A B).
 
 ### PostFile
 

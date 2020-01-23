@@ -8,11 +8,9 @@
 
 ## Overview
 
-Multimedia component that plays audio and controls phone vibration. The name of a multimedia field is specified in the `` Source `` property, which can be set in the Designer or in the Blocks Editor. The length of time for a vibration is specified in the Blocks Editor in milliseconds (thousandths of a second).  
+Multimedia component that plays audio and controls phone vibration. The name of a multimedia field is specified in the `` Source `` property, which can be set in the Designer or in the Blocks Editor. The length of time for a vibration is specified in the Blocks Editor in milliseconds (thousandths of a second)
 
 For supported audio formats, see <a href="http://developer.android.com/guide/appendix/media-formats.html" target="_blank">Android Supported Media Formats</a>.
-
- 
 
 This component is best for long sound files, such as songs, while the `` Sound `` component is more efficient for short files, such as sound effects.
 
@@ -82,7 +80,8 @@ Control the left and right volume of the player. Set the volume to a number betw
 
 _Block preview not available_
 
-Plays the media. If it was previously paused, the playing is resumed.   If it was previously stopped, it starts from the beginning.
+Plays the media. If it was previously paused, the playing is resumed
+If it was previously stopped, it starts from the beginning.
 
 ### Stop
 

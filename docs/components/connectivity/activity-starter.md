@@ -12,13 +12,13 @@ A component that can launch an activity using the `` StartActivity `` method.
 
 Activities that can be launched include: 
 
- *    starting other App Inventor for Android apps 
- *    starting the camera application 
- *    performing web search 
- *    opening a browser to a specified web page
- *    opening the map application to a specified location
+*    starting other App Inventor for Android apps 
+*    starting the camera application 
+*    performing web search 
+*    opening a browser to a specified web page
+*    opening the map application to a specified location
 
- You can also launch activities that return text data. See the documentation on using the Activity Starter for examples.
+You can also launch activities that return text data. See the documentation on using the Activity Starter for examples.
 
 ## Events
 
@@ -148,7 +148,8 @@ Returns the data URI that will be used to start the activity.
 |:----:|
 |text|
 
-Returns the extra key that will be passed to the activity.  DEPRECATED: New code should use Extras property instead.
+Returns the extra key that will be passed to the activity
+DEPRECATED: New code should use Extras property instead.
 
 ### Extra Value
 
@@ -161,7 +162,8 @@ Returns the extra key that will be passed to the activity.  DEPRECATED: New code
 |:----:|
 |text|
 
-Returns the extra value that will be passed to the activity.  DEPRECATED: New code should use Extras property instead.
+Returns the extra value that will be passed to the activity
+DEPRECATED: New code should use Extras property instead.
 
 ### Result Name
 

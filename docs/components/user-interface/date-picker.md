@@ -83,7 +83,8 @@ _Block preview not available_
     |day|`number`|
 
 
-Allows the user to set the date to be displayed when the date picker opens.  Valid values for the month field are 1-12 and 1-31 for the day field.
+Allows the user to set the date to be displayed when the date picker opens
+Valid values for the month field are 1-12 and 1-31 for the day field.
 
 ### SetDateToDisplayFromInstant
 
@@ -443,7 +444,7 @@ Specifies the component's vertical height, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's vertical height as a percentage   of the height of its parent Component.
+Specifies the component's vertical height as a percentageof the height of its parent Component.
 
 ### Instant
 
@@ -509,7 +510,7 @@ Specifies the component's horizontal width, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width as a percentage   of the Width of its parent Component.
+Specifies the component's horizontal width as a percentageof the Width of its parent Component.
 
 ### Year
 

@@ -139,7 +139,7 @@ Enable or disable the infobox window display when the user taps the feature.
 |:----:|
 |text|
 
-Set the points of the LineString from a specially-coded character string of the form:   [[longitude1, latitude1], [longitude2, latitude2], ...]   Note the reversal of latitude and longitude versus how they are typically represented.
+Set the points of the LineString from a specially-coded character string of the form:[[longitude1, latitude1], [longitude2, latitude2], ...]Note the reversal of latitude and longitude versus how they are typically represented.
 
 ### Stroke Color
 

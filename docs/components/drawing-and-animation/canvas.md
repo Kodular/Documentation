@@ -42,7 +42,7 @@ There are events to tell when and where a Canvas has been touched or a `` Sprite
     |dragged Any Sprite|`boolean`|
 
 
-When the user does a drag from one point (prevX, prevY) to   another (x, y). The pair (startX, startY) indicates where the   user first touched the screen, and "draggedAnySprite" indicates whether a   sprite is being dragged.
+When the user does a drag from one point (prevX, prevY) toanother (x, y). The pair (startX, startY) indicates where theuser first touched the screen, and "draggedAnySprite" indicates whether asprite is being dragged.
 
 ### Flung
 
@@ -61,7 +61,7 @@ When the user does a drag from one point (prevX, prevY) to   another (x, y). The
     |flung Sprite|`boolean`|
 
 
-When a fling gesture (quick swipe) is made on the canvas: provides   the (x,y) position of the start of the fling, relative to the upper   left of the canvas. Also provides the speed (pixels per millisecond) and heading   (0-360 degrees) of the fling, as well as the x velocity and y velocity   components of the fling's vector. The value "flungSprite" is true if a sprite   was located near the the starting point of the fling gesture.
+When a fling gesture (quick swipe) is made on the canvas: providesthe (x,y) position of the start of the fling, relative to the upperleft of the canvas. Also provides the speed (pixels per millisecond) and heading(0-360 degrees) of the fling, as well as the x velocity and y velocitycomponents of the fling's vector. The value "flungSprite" is true if a spritewas located near the the starting point of the fling gesture.
 
 ### Scaled
 
@@ -88,7 +88,7 @@ This event is invoked when two-finger pinches. ScaleFactor is the ratio of the a
     |y|`number`|
 
 
-When the user begins touching the canvas (places finger on canvas and   leaves it there): provides the (x,y) position of the touch, relative   to the upper left of the canvas
+When the user begins touching the canvas (places finger on canvas andleaves it there): provides the (x,y) position of the touch, relativeto the upper left of the canvas
 
 ### Touch Up
 
@@ -102,7 +102,7 @@ When the user begins touching the canvas (places finger on canvas and   leaves i
     |y|`number`|
 
 
-When the user stops touching the canvas (lifts finger after a   TouchDown event): provides the (x,y) position of the touch, relative   to the upper left of the canvas
+When the user stops touching the canvas (lifts finger after aTouchDown event): provides the (x,y) position of the touch, relativeto the upper left of the canvas
 
 ### Touched
 
@@ -117,7 +117,7 @@ When the user stops touching the canvas (lifts finger after a   TouchDown event)
     |touched Any Sprite|`boolean`|
 
 
-When the user touches the canvas and then immediately lifts finger: provides   the (x,y) position of the touch, relative to the upper left of the canvas. TouchedAnySprite   is true if the same touch also touched a sprite, and false otherwise.
+When the user touches the canvas and then immediately lifts finger: providesthe (x,y) position of the touch, relative to the upper left of the canvas. TouchedAnySpriteis true if the same touch also touched a sprite, and false otherwise.
 
 ## Methods
 
@@ -505,7 +505,7 @@ Column property getter method.
 |:----:|:-------:|
 |number|None|
 
-Set the canvas height     The height can only be set to &gt;0 or -1 (automatic) or -2 (fill parent) or   to a value less then or equal to LENGTH_PERCENT_TAG (which is later   converted to pixels.
+Set the canvas heightThe height can only be set to &gt;0 or -1 (automatic) or -2 (fill parent) orto a value less then or equal to LENGTH_PERCENT_TAG (which is laterconverted to pixels.
 
 ### Height Percent
 
@@ -516,7 +516,7 @@ Set the canvas height     The height can only be set to &gt;0 or -1 (automatic) 
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's vertical height as a percentage   of the height of its parent Component.
+Specifies the component's vertical height as a percentageof the height of its parent Component.
 
 ### Row
 
@@ -538,7 +538,7 @@ Row property getter method.
 |:----:|:-------:|
 |number|None|
 
-Set the canvas width     The width can only be set to &gt;0 or -1 (automatic) or -2 (fill parent)   or to a value less then or equal to LENGTH_PERCENT_TAG (which is later   converted to pixels.
+Set the canvas widthThe width can only be set to &gt;0 or -1 (automatic) or -2 (fill parent)or to a value less then or equal to LENGTH_PERCENT_TAG (which is laterconverted to pixels.
 
 ### Width Percent
 
@@ -549,4 +549,4 @@ Set the canvas width     The width can only be set to &gt;0 or -1 (automatic) or
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width as a percentage   of the Width of its parent Component.
+Specifies the component's horizontal width as a percentageof the Width of its parent Component.

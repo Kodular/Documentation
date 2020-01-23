@@ -65,7 +65,7 @@ Place a blurred shadow of text underneath the text, drawn with the specified x, 
 |:----:|:-------:|
 |number|&H00FFFFFF|
 
-Returns the checkbox's background color as an alpha-red-green-blue   integer.
+Returns the checkbox's background color as an alpha-red-green-blueinteger.
 
 ### Checkbox Color
 
@@ -117,7 +117,8 @@ Returns true if the checkbox is active and clickable.
 |:----:|:-------:|
 |boolean|False|
 
-Returns true if the checkbox's text should be bold.   If bold has been requested, this property will return true, even if the   font does not support bold.
+Returns true if the checkbox's text should be bold
+If bold has been requested, this property will return true, even if thefont does not support bold.
 
 ### Font Italic
 
@@ -130,7 +131,8 @@ Returns true if the checkbox's text should be bold.   If bold has been requested
 |:----:|:-------:|
 |boolean|False|
 
-Returns true if the checkbox's text should be italic.   If italic has been requested, this property will return true, even if the   font does not support italic.
+Returns true if the checkbox's text should be italic
+If italic has been requested, this property will return true, even if thefont does not support italic.
 
 ### Font Size
 
@@ -156,7 +158,7 @@ Returns the checkbox's text's font size, measured in sp(scale-independent pixels
 |:----:|:-------:|
 |number|0|
 
-Returns the checkbox's text's font face as default, serif, sans   serif, or monospace.
+Returns the checkbox's text's font face as default, serif, sansserif, or monospace.
 
 ### Font Typeface Import
 
@@ -195,7 +197,7 @@ Returns the text displayed by the checkbox.
 |:----:|:-------:|
 |number|&HFF000000|
 
-Returns the checkbox's text color as an alpha-red-green-blue   integer.
+Returns the checkbox's text color as an alpha-red-green-blueinteger.
 
 ### Visible
 
@@ -241,7 +243,7 @@ Specifies the component's vertical height, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's vertical height as a percentage   of the height of its parent Component.
+Specifies the component's vertical height as a percentageof the height of its parent Component.
 
 ### Row
 
@@ -274,4 +276,4 @@ Specifies the component's horizontal width, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width as a percentage   of the Width of its parent Component.
+Specifies the component's horizontal width as a percentageof the Width of its parent Component.

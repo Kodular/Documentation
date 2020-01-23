@@ -210,7 +210,7 @@ _Block preview not available_
     |description|`list`|
 
 
-Convert a feature description into an App Inventor map feature. Currently the only   supported conversion is from a GeoJSON point to Marker component. If the feature has   properties, they will be mapped into App Inventor properties using the following mapping:     description becomes Description;   draggable becomes Draggable;   infobox becomes EnableInfobox;   fill becomes FillColor;   fill-opacity becomes FillOpacity;   image becomes ImageAsset;   stroke becomes StrokeColor;   stroke-opacity becomes StrokeOpacity;   stroke-width becomes StrokeWidth;   title becomes Title;   visible becomes Visible
+Convert a feature description into an App Inventor map feature. Currently the onlysupported conversion is from a GeoJSON point to Marker component. If the feature hasproperties, they will be mapped into App Inventor properties using the following mapping:description becomes Description;draggable becomes Draggable;infobox becomes EnableInfobox;fill becomes FillColor;fill-opacity becomes FillOpacity;image becomes ImageAsset;stroke becomes StrokeColor;stroke-opacity becomes StrokeOpacity;stroke-width becomes StrokeWidth;title becomes Title;visible becomes Visible
 
 ### LoadFromURL
 
@@ -307,7 +307,7 @@ Enable rotating the map based on the user's orientation.
 |:----:|:-------:|
 |boolean|True|
 
-Set whether the user can zoom the map using touch gestures. This value does not affect whether the user can zoom using the zoom controls from
+Set whether the user can zoom the map using touch gestures. This value does not affectwhether the user can zoom using the zoom controls from
 
 ### Location Sensor
 
@@ -335,12 +335,9 @@ Uses the provided LocationSensor for user location data rather than the built-in
 
 Set the type of map tile used for the base tile layer. Valid values are:
 
- 
-
- 1.   Roads
- 2.   Aerial
- 3.   Terrain
- 
+1.   Roads
+2.   Aerial
+3.   Terrain
 
 ### Rotation
 
@@ -379,7 +376,7 @@ _No description available_
 |:----:|:-------:|
 |boolean|False|
 
-Show a compass on the map. If the device provides a digital compass, orientation changes will   be used to rotate the compass icon.
+Show a compass on the map. If the device provides a digital compass, orientation changes willbe used to rotate the compass icon.
 
 ### Show Scale
 
@@ -446,9 +443,7 @@ Returns true iff the component is visible.
 
 Set the zoom level of the map.
 
- 
-
-Valid values of ZoomLevel are dependent on the tile provider and the latitude and longitude of the map. For example, zoom levels are more constrained over oceans than dense city centers to conserve space for storing tiles, so valid values may be 1-7 over ocean and 1-18 over cities. Tile providers may send warning or error tiles if the zoom level is too great for the server to support.
+Valid values of ZoomLevel are dependent on the tile provider and the latitude andlongitude of the map. For example, zoom levels are more constrained over oceans than densecity centers to conserve space for storing tiles, so valid values may be 1-7 over ocean and1-18 over cities. Tile providers may send warning or error tiles if the zoom level is toogreat for the server to support.
 
 ### Bounding Box
 
@@ -503,7 +498,7 @@ Specifies the component's vertical height, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's vertical height as a percentage   of the height of its parent Component.
+Specifies the component's vertical height as a percentageof the height of its parent Component.
 
 ### Latitude
 
@@ -580,4 +575,4 @@ Specifies the component's horizontal width, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width as a percentage   of the Width of its parent Component.
+Specifies the component's horizontal width as a percentageof the Width of its parent Component.
