@@ -330,7 +330,7 @@ Get the current cursor position.
 :warning: ==**Deprecated**==
 
 :eyes::pencil: Read-Write property
-[[PropertyBlockGetterAndSetter('Email Picker', 'Enable Copy and Paste')]]
+[[PropertyBlockGetterAndSetter('Email Picker', 'Enable Copy \& Paste')]]
 
 | Type | Default |
 |:----:|:-------:|
