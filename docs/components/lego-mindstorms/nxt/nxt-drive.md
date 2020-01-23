@@ -14,7 +14,7 @@ A component that provides a high-level interface to a LEGO MINDSTORMS NXT robot,
 
 ### MoveBackward
 
-[[Method('NXT Drive', 'MoveBackward', false, 'power distance')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -28,7 +28,7 @@ Move the robot backward the given distance, with the specified percentage of max
 
 ### MoveBackwardIndefinitely
 
-[[Method('NXT Drive', 'MoveBackwardIndefinitely', false, 'power')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -41,7 +41,7 @@ Move the robot backward indefinitely, with the specified percentage of maximum p
 
 ### MoveForward
 
-[[Method('NXT Drive', 'MoveForward', false, 'power distance')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -55,7 +55,7 @@ Move the robot forward the given distance, with the specified percentage of maxi
 
 ### MoveForwardIndefinitely
 
-[[Method('NXT Drive', 'MoveForwardIndefinitely', false, 'power')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -68,13 +68,13 @@ Move the robot forward indefinitely, with the specified percentage of maximum po
 
 ### Stop
 
-[[Method('NXT Drive', 'Stop', false)]]
+_Block preview not available_
 
 Stop the drive motors of the robot.
 
 ### TurnClockwiseIndefinitely
 
-[[Method('NXT Drive', 'TurnClockwiseIndefinitely', false, 'power')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -87,7 +87,7 @@ Turn the robot clockwise indefinitely, with the specified percentage of maximum 
 
 ### TurnCounterClockwiseIndefinitely
 
-[[Method('NXT Drive', 'TurnCounterClockwiseIndefinitely', false, 'power')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 

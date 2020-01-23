@@ -44,7 +44,7 @@ Indicates that a button has been released.
 
 ### AnimationStyle
 
-[[Method('Time Picker', 'AnimationStyle', false, 'style position size color')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -60,19 +60,19 @@ Allows you to set animation style. Valid (case-insensitive) values are: ChasingD
 
 ### ButtonClick
 
-[[Method('Time Picker', 'ButtonClick', false)]]
+_Block preview not available_
 
 Perform a button click as function.
 
 ### LaunchPicker
 
-[[Method('Time Picker', 'LaunchPicker', false)]]
+_Block preview not available_
 
 Launches the TimePicker popup.
 
 ### SetShadow
 
-[[Method('Time Picker', 'SetShadow', false, 'x y radius color')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -88,7 +88,7 @@ Place a blurred shadow of text underneath the text, drawn with the specified x, 
 
 ### SetTimeToDisplay
 
-[[Method('Time Picker', 'SetTimeToDisplay', false, 'hour minute')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -102,7 +102,7 @@ Set the time to be shown in the Time Picker popup. Current time is shown by defa
 
 ### SetTimeToDisplayFromInstant
 
-[[Method('Time Picker', 'SetTimeToDisplayFromInstant', false, 'instant')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -115,7 +115,7 @@ Set the time from the instant to be shown in the Time Picker popup. Current time
 
 ### WithIconFromFontAwesome
 
-[[Method('Time Picker', 'WithIconFromFontAwesome', false, 'position iconName iconColor padding size')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -132,7 +132,7 @@ Show an image on the given position near to the button. You can use following wo
 
 ### WithIconFromMaterialFont
 
-[[Method('Time Picker', 'WithIconFromMaterialFont', false, 'position iconName iconColor padding size')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -149,7 +149,7 @@ Show an image on the given position near to the button. You can use following wo
 
 ### WithIconFromPicture
 
-[[Method('Time Picker', 'WithIconFromPicture', false, 'position picture padding width height')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -431,8 +431,7 @@ Specifies the component's vertical height, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's vertical height as a percentage
- of the height of its parent Component.
+Specifies the component's vertical height as a percentage   of the height of its parent Component.
 
 ### Hour
 
@@ -498,5 +497,4 @@ Specifies the component's horizontal width, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width as a percentage
- of the Width of its parent Component.
+Specifies the component's horizontal width as a percentage   of the Width of its parent Component.

@@ -61,7 +61,7 @@ Event indicating that a request has timed out.
 
 ### BuildRequestData
 
-[[Method('Web', 'BuildRequestData', true, 'list')]]
+_Block preview not available_
 
 {>>Returns `text`<<}
 
@@ -72,47 +72,33 @@ Event indicating that a request has timed out.
     |list|`list`|
 
 
-Converts a list of two-element sublists, representing name and value pairs, to a
- string formatted as application/x-www-form-urlencoded media type, suitable to pass to
- PostText.
+Converts a list of two-element sublists, representing name and value pairs, to a   string formatted as application/x-www-form-urlencoded media type, suitable to pass to   PostText.
 
 ### ClearCookies
 
-[[Method('Web', 'ClearCookies', false)]]
+_Block preview not available_
 
 Clears all cookies for this Web component.
 
 ### Delete
 
-[[Method('Web', 'Delete', false)]]
+_Block preview not available_
 
-Performs an HTTP DELETE request using the Url property and retrieves the
- response.  
-
- If the SaveResponse property is true, the response will be saved in a file
- and the GotFile event will be triggered. The ResponseFileName property
- can be used to specify the name of the file.  
-
- If the SaveResponse property is false, the GotText event will be
- triggered.
+Performs an HTTP DELETE request using the Url property and retrieves the   response.  
+   If the SaveResponse property is true, the response will be saved in a file   and the GotFile event will be triggered. The ResponseFileName property   can be used to specify the name of the file.  
+   If the SaveResponse property is false, the GotText event will be   triggered.
 
 ### Get
 
-[[Method('Web', 'Get', false)]]
+_Block preview not available_
 
-Performs an HTTP GET request using the Url property and retrieves the
- response.  
-
- If the SaveResponse property is true, the response will be saved in a file
- and the GotFile event will be triggered. The ResponseFileName property
- can be used to specify the name of the file.  
-
- If the SaveResponse property is false, the GotText event will be
- triggered.
+Performs an HTTP GET request using the Url property and retrieves the   response.  
+   If the SaveResponse property is true, the response will be saved in a file   and the GotFile event will be triggered. The ResponseFileName property   can be used to specify the name of the file.  
+   If the SaveResponse property is false, the GotText event will be   triggered.
 
 ### HtmlTextDecode
 
-[[Method('Web', 'HtmlTextDecode', true, 'htmlText')]]
+_Block preview not available_
 
 {>>Returns `text`<<}
 
@@ -127,7 +113,7 @@ Decodes the given HTML text value. HTML character entities such as &amp;amp;, &a
 
 ### JsonTextDecode
 
-[[Method('Web', 'JsonTextDecode', true, 'jsonText')]]
+_Block preview not available_
 
 {>>Returns `any`<<}
 
@@ -138,14 +124,11 @@ Decodes the given HTML text value. HTML character entities such as &amp;amp;, &a
     |json Text|`text`|
 
 
-Decodes the given JSON encoded value to produce a corresponding AppInventor value.
- A JSON list [x, y, z] decodes to a list (x y z),  A JSON object with name A and value B,
- (denoted as A:B enclosed in curly braces) decodes to a list
- ((A B)), that is, a list containing the two-element list (A B).
+Decodes the given JSON encoded value to produce a corresponding AppInventor value.   A JSON list [x, y, z] decodes to a list (x y z),  A JSON object with name A and value B,   (denoted as A:B enclosed in curly braces) decodes to a list   ((A B)), that is, a list containing the two-element list (A B).
 
 ### PostFile
 
-[[Method('Web', 'PostFile', false, 'path')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -160,7 +143,7 @@ If the SaveResponse property is false, the GotText event will be triggered.
 
 ### PostText
 
-[[Method('Web', 'PostText', false, 'text')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -176,7 +159,7 @@ If the SaveResponse property is false, the GotText event will be triggered.
 
 ### PostTextWithEncoding
 
-[[Method('Web', 'PostTextWithEncoding', false, 'text encoding')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -193,7 +176,7 @@ If the SaveResponse property is false, the GotText event will be triggered.
 
 ### PutFile
 
-[[Method('Web', 'PutFile', false, 'path')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -208,7 +191,7 @@ If the SaveResponse property is false, the GotText event will be triggered.
 
 ### PutText
 
-[[Method('Web', 'PutText', false, 'text')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -224,7 +207,7 @@ If the SaveResponse property is false, the GotText event will be triggered.
 
 ### PutTextWithEncoding
 
-[[Method('Web', 'PutTextWithEncoding', false, 'text encoding')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -241,7 +224,7 @@ If the SaveResponse property is false, the GotText event will be triggered.
 
 ### UriDecode
 
-[[Method('Web', 'UriDecode', true, 'text')]]
+_Block preview not available_
 
 {>>Returns `text`<<}
 
@@ -256,7 +239,7 @@ Decodes the encoded text value.
 
 ### UriEncode
 
-[[Method('Web', 'UriEncode', true, 'text')]]
+_Block preview not available_
 
 {>>Returns `text`<<}
 
@@ -271,7 +254,7 @@ Encodes the given text value so that it can be used in a URL.
 
 ### XMLTextDecode
 
-[[Method('Web', 'XMLTextDecode', true, 'XmlText')]]
+_Block preview not available_
 
 {>>Returns `any`<<}
 

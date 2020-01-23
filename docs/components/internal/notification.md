@@ -14,7 +14,7 @@ A non-visible component that sends a notification to the user''s device.
 
 ### AreNotificationsEnabled
 
-[[Method('Notification', 'AreNotificationsEnabled', true)]]
+_Block preview not available_
 
 {>>Returns `boolean`<<}
 
@@ -22,13 +22,13 @@ Check whether the app can send Notifications
 
 ### CancelAll
 
-[[Method('Notification', 'CancelAll', false)]]
+_Block preview not available_
 
 Cancel all Notifications
 
 ### CancelNotification
 
-[[Method('Notification', 'CancelNotification', false, 'id')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -41,7 +41,7 @@ Cancel a Notification with an id
 
 ### NotificationBuilderAndroidCar
 
-[[Method('Notification', 'NotificationBuilderAndroidCar', false, 'accentColor')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -54,7 +54,7 @@ Set the accent color for Android Car devices
 
 ### NotificationBuilderAndroidWear
 
-[[Method('Notification', 'NotificationBuilderAndroidWear', false, 'backgroundImage')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -67,7 +67,7 @@ Set the background image for Android Wear devices
 
 ### NotificationBuilderAutoCancel
 
-[[Method('Notification', 'NotificationBuilderAutoCancel', false, 'autoCancel')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -80,7 +80,7 @@ Set whether the notification should me removed after the user clicks on it.
 
 ### NotificationBuilderBigPicture
 
-[[Method('Notification', 'NotificationBuilderBigPicture', false, 'bigPicture')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -93,7 +93,7 @@ Set the big picture for the notification
 
 ### NotificationBuilderID
 
-[[Method('Notification', 'NotificationBuilderID', false, 'id')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -106,7 +106,7 @@ Set the notification id.
 
 ### NotificationBuilderPriority
 
-[[Method('Notification', 'NotificationBuilderPriority', false, 'priority')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -119,13 +119,13 @@ Set the notification builder priority. 1 = "Default", 2 = "high", 3 = "low", 4 =
 
 ### NotificationBuilderSend
 
-[[Method('Notification', 'NotificationBuilderSend', false)]]
+_Block preview not available_
 
 Send the notification that you build
 
 ### NotificationBuilderStart
 
-[[Method('Notification', 'NotificationBuilderStart', false, 'title message')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -139,7 +139,7 @@ Start building a new notification
 
 ### NotificationBuilderStartValue
 
-[[Method('Notification', 'NotificationBuilderStartValue', false, 'startValue')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -152,7 +152,7 @@ Set the start value of the notification.
 
 ### NotificationBuilderVisibility
 
-[[Method('Notification', 'NotificationBuilderVisibility', false, 'visiblity')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -165,7 +165,7 @@ Set the notification builder visibility. 1 = "public", 2 = "private", 3 = "secre
 
 ### SendAdvancedNotification
 
-[[Method('Notification', 'SendAdvancedNotification', false, 'id title message startValue timeOn timeOff')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -183,7 +183,7 @@ Send a advanced notification (Android Wear Support)
 
 ### SendNotification
 
-[[Method('Notification', 'SendNotification', false, 'title message')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 

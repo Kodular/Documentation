@@ -27,7 +27,7 @@ Event that indicates that the progress of the progress bar has been changed. Ret
 
 ### IncrementProgressBy
 
-[[Method('Linear Progressbar', 'IncrementProgressBy', false, 'value')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -171,5 +171,4 @@ Specifies the component's horizontal width, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width as a percentage
- of the Width of its parent Component.
+Specifies the component's horizontal width as a percentage   of the Width of its parent Component.

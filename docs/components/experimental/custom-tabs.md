@@ -14,7 +14,7 @@ A non-visible component that opens web pages as custom tabs on Google Chrome.
 
 ### AddMenuItemOpenApp
 
-[[Method('Custom Tabs', 'AddMenuItemOpenApp', false, 'title packageName')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -28,7 +28,7 @@ Use this block to add a menu item with the given title to open any app you want 
 
 ### AddMenuItemOpenPage
 
-[[Method('Custom Tabs', 'AddMenuItemOpenPage', false, 'title page')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -42,7 +42,7 @@ Use this block to add a menu item with the given title and page link. The page c
 
 ### OpenCustomTab
 
-[[Method('Custom Tabs', 'OpenCustomTab', false)]]
+_Block preview not available_
 
 Use this block to open the custom tab.
 

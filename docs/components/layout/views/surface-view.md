@@ -77,25 +77,25 @@ Event to detect that the user stopped the camera preview.
 
 ### PausePreview
 
-[[Method('Surface View', 'PausePreview', false)]]
+_Block preview not available_
 
 Pause the camera preview.
 
 ### StartPreview
 
-[[Method('Surface View', 'StartPreview', false)]]
+_Block preview not available_
 
 Start the camera preview.
 
 ### StopPreview
 
-[[Method('Surface View', 'StopPreview', false)]]
+_Block preview not available_
 
 Stop the camera preview.
 
 ### TakePicture
 
-[[Method('Surface View', 'TakePicture', false)]]
+_Block preview not available_
 
 Take a picture from the camera preview.
 
@@ -234,8 +234,7 @@ Specifies the component's vertical height, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's vertical height as a percentage
- of the height of its parent Component.
+Specifies the component's vertical height as a percentage   of the height of its parent Component.
 
 ### Row
 
@@ -268,5 +267,4 @@ Specifies the component's horizontal width, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width as a percentage
- of the Width of its parent Component.
+Specifies the component's horizontal width as a percentage   of the Width of its parent Component.

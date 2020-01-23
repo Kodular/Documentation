@@ -30,7 +30,7 @@ Triggered after Read function
 
 ### BaudRate
 
-[[Method('Arduino', 'BaudRate', false, 'baudRate')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -43,7 +43,7 @@ Default baud rate is 9600 bps
 
 ### CloseArduino
 
-[[Method('Arduino', 'CloseArduino', true)]]
+_Block preview not available_
 
 {>>Returns `boolean`<<}
 
@@ -51,13 +51,13 @@ Closes Arduino Connection
 
 ### InitializeArduino
 
-[[Method('Arduino', 'InitializeArduino', false)]]
+_Block preview not available_
 
 Initializes Arduino Connection
 
 ### IsOpenedArduino
 
-[[Method('Arduino', 'IsOpenedArduino', true)]]
+_Block preview not available_
 
 {>>Returns `boolean`<<}
 
@@ -65,7 +65,7 @@ Returns true when the Arduino connection is open
 
 ### OpenArduino
 
-[[Method('Arduino', 'OpenArduino', true)]]
+_Block preview not available_
 
 {>>Returns `boolean`<<}
 
@@ -73,13 +73,13 @@ Opens Arduino Connection
 
 ### ReadArduino
 
-[[Method('Arduino', 'ReadArduino', false)]]
+_Block preview not available_
 
 Read from Serial
 
 ### WriteArduino
 
-[[Method('Arduino', 'WriteArduino', false, 'writeDataArduino')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 

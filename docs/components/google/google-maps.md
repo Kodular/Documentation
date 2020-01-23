@@ -184,7 +184,7 @@ This event will be invoked when a user clicks on a point of interest. This can b
 
 ### AddCircle
 
-[[Method('Google Maps', 'AddCircle', true, 'lat lng radius alpha hue strokeWidth strokeColor draggable')]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -206,7 +206,7 @@ Create a circle overlay on the map UI with specified latitude and longitude for 
 
 ### AddMarkers
 
-[[Method('Google Maps', 'AddMarkers', true, 'markers')]]
+_Block preview not available_
 
 {>>Returns `list`<<}
 
@@ -221,7 +221,7 @@ Adding a list of YailLists for markers. The representation of a maker in the inn
 
 ### AddMarkersFromJson
 
-[[Method('Google Maps', 'AddMarkersFromJson', false, 'jsonString')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -234,7 +234,7 @@ Adding a list of markers that are represented as JsonArray.  The inner JsonObjec
 
 ### AddMarkersHue
 
-[[Method('Google Maps', 'AddMarkersHue', true, 'markers')]]
+_Block preview not available_
 
 {>>Returns `list`<<}
 
@@ -249,7 +249,7 @@ Adding a list of YailList for markers. The inner YailList represents a marker an
 
 ### AddPolyline
 
-[[Method('Google Maps', 'AddPolyline', true, 'points width color')]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -266,7 +266,7 @@ This block will return the unique id of the new added polyline. Create a new pol
 
 ### BoundCamera
 
-[[Method('Google Maps', 'BoundCamera', false, 'neLat neLng swLat swLng')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -282,7 +282,7 @@ Transforms the camera such that the specified latitude/longitude bounds are cent
 
 ### EnableCompass
 
-[[Method('Google Maps', 'EnableCompass', false, 'enable')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -295,7 +295,7 @@ Enables/disables the compass widget on the map's ui. Call this only after event 
 
 ### EnableMapCameraPosChangeListener
 
-[[Method('Google Maps', 'EnableMapCameraPosChangeListener', false, 'enabled')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -308,7 +308,7 @@ Enable/Disable to listen to map's camera position changed event
 
 ### EnableMapClickListener
 
-[[Method('Google Maps', 'EnableMapClickListener', false, 'enabled')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -321,7 +321,7 @@ Enable/Disable to listen to map's click event
 
 ### EnableMapLongClickListener
 
-[[Method('Google Maps', 'EnableMapLongClickListener', false, 'enabled')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -334,7 +334,7 @@ Enable/disable to listen to map's long click event
 
 ### EnableMyLocation
 
-[[Method('Google Maps', 'EnableMyLocation', false, 'enabled')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -347,7 +347,7 @@ Enable or disable my location widget control for Google Map. One can call GetMyL
 
 ### EnableRotate
 
-[[Method('Google Maps', 'EnableRotate', false, 'enable')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -360,7 +360,7 @@ Enables/disables the capability to rotate a map on the ui. Call this only after 
 
 ### EnableScroll
 
-[[Method('Google Maps', 'EnableScroll', false, 'enable')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -373,7 +373,7 @@ Enables/disables the capability to scroll a map on the ui. Call this only after 
 
 ### EnableZoomControl
 
-[[Method('Google Maps', 'EnableZoomControl', false, 'enable')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -386,7 +386,7 @@ Enables/disables the zoom widget on the map's ui. Call this only after the event
 
 ### EnableZoomGesture
 
-[[Method('Google Maps', 'EnableZoomGesture', false, 'enable')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -399,7 +399,7 @@ Enables/disables zoom gesture on the map ui. Call this only after the event  "Ma
 
 ### GetAllCircleIDs
 
-[[Method('Google Maps', 'GetAllCircleIDs', true)]]
+_Block preview not available_
 
 {>>Returns `list`<<}
 
@@ -407,7 +407,7 @@ Get all circles Ids. A short cut to get all the references for the eixisting cir
 
 ### GetAllMarkerID
 
-[[Method('Google Maps', 'GetAllMarkerID', true)]]
+_Block preview not available_
 
 {>>Returns `list`<<}
 
@@ -415,7 +415,7 @@ Get all the existing markers's Ids
 
 ### GetAllPolylineIds
 
-[[Method('Google Maps', 'GetAllPolylineIds', true)]]
+_Block preview not available_
 
 {>>Returns `list`<<}
 
@@ -423,7 +423,7 @@ This will return a list with all available polyline id's.
 
 ### GetMarkers
 
-[[Method('Google Maps', 'GetMarkers', true)]]
+_Block preview not available_
 
 {>>Returns `list`<<}
 
@@ -431,7 +431,7 @@ Add a list of markers composed of name-value pairs. Name fields for a marker are
 
 ### GetMyLocation
 
-[[Method('Google Maps', 'GetMyLocation', true)]]
+_Block preview not available_
 
 {>>Returns `list`<<}
 
@@ -439,7 +439,7 @@ Get current location using Google Map Service. Return a YailList with first item
 
 ### GetPointsFromJson
 
-[[Method('Google Maps', 'GetPointsFromJson', true, 'jsonString')]]
+_Block preview not available_
 
 {>>Returns `list`<<}
 
@@ -454,7 +454,7 @@ Convert a JsonArray of points (lat, lng pairs) to a list.
 
 ### MoveCamera
 
-[[Method('Google Maps', 'MoveCamera', false, 'lat lng zoom')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -469,7 +469,7 @@ Move the map's camera to the specified position and zoom level
 
 ### RemoveCircle
 
-[[Method('Google Maps', 'RemoveCircle', true, 'circleId')]]
+_Block preview not available_
 
 {>>Returns `boolean`<<}
 
@@ -484,7 +484,7 @@ Remove a circle for the map. Returns true if successfully removed, false if the 
 
 ### RemoveMarker
 
-[[Method('Google Maps', 'RemoveMarker', false, 'markerId')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -497,7 +497,7 @@ Remove a marker from the map
 
 ### RemovePolyline
 
-[[Method('Google Maps', 'RemovePolyline', true, 'polylineId')]]
+_Block preview not available_
 
 {>>Returns `boolean`<<}
 
@@ -512,7 +512,7 @@ Use this block to remove a polyline from the map. It will return true if it was 
 
 ### SetMapType
 
-[[Method('Google Maps', 'SetMapType', false, 'layerName')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -525,7 +525,7 @@ Set the layer of Google map. Default layer is "normal", other choices including 
 
 ### UpdateCircle
 
-[[Method('Google Maps', 'UpdateCircle', false, 'circleId propertyName value')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -540,7 +540,7 @@ Set the property of an existing circle. Properties include: "alpha"(number, valu
 
 ### UpdateMarker
 
-[[Method('Google Maps', 'UpdateMarker', false, 'markerId propertyName value')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -555,7 +555,7 @@ Set the property of a marker, note that the marker has to be added first or else
 
 ### UpdatePolyline
 
-[[Method('Google Maps', 'UpdatePolyline', false, 'polylineId propertyName points')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -570,13 +570,13 @@ Update any polyline with the given id. You can change the property values for 'w
 
 ### Add Overlay
 
-[[Method('Google Maps', 'Add Overlay', false)]]
+_Block preview not available_
 
 Add overlay.
 
 ### Add Polygon
 
-[[Method('Google Maps', 'Add Polygon', false, 'latMin latMax lonMin lonMax')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -592,25 +592,25 @@ A Polygon is an enclosed shape that can be used to mark areas on the map.
 
 ### Add Tile Overlay
 
-[[Method('Google Maps', 'Add Tile Overlay', false)]]
+_Block preview not available_
 
 Add title overlay.
 
 ### Clear All Polygons
 
-[[Method('Google Maps', 'Clear All Polygons', false)]]
+_Block preview not available_
 
 Clear all Polygons.
 
 ### Draw Central Square
 
-[[Method('Google Maps', 'Draw Central Square', false)]]
+_Block preview not available_
 
 Draw central square.
 
 ### Get Bounding Box
 
-[[Method('Google Maps', 'Get Bounding Box', true, 'latitudeInDegrees longitudeInDegrees halfSideInKm')]]
+_Block preview not available_
 
 {>>Returns `text`<<}
 
@@ -627,7 +627,7 @@ Get bounding box.
 
 ### Get Map Center
 
-[[Method('Google Maps', 'Get Map Center', true)]]
+_Block preview not available_
 
 {>>Returns `text`<<}
 
@@ -637,7 +637,7 @@ Get map center. If a error occures the output will be '-999'.
 
 :warning: ==**Deprecated**==
 
-[[Method('Google Maps', 'Get Zoom Level Info', true)]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -752,8 +752,7 @@ Specifies the component's vertical height, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's vertical height as a percentage
- of the height of its parent Component.
+Specifies the component's vertical height as a percentage   of the height of its parent Component.
 
 ### Map Camera Changed Listener Enabled
 
@@ -874,8 +873,7 @@ Specifies the component's horizontal width, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width as a percentage
- of the Width of its parent Component.
+Specifies the component's horizontal width as a percentage   of the Width of its parent Component.
 
 ### Zoom Control Enabled
 

@@ -54,19 +54,19 @@ Indicates that the Fusion Tables query has finished processing, with a result.  
 
 :warning: ==**Deprecated**==
 
-[[Method('Fusiontables Control', 'DoQuery', false)]]
+_Block preview not available_
 
 DEPRECATED. This block is deprecated as of the end of 2012.  Use SendQuery.
 
 ### ForgetLogin
 
-[[Method('Fusiontables Control', 'ForgetLogin', false)]]
+_Block preview not available_
 
 Forget end-users login credentials. Has no effect on service authentication
 
 ### GetRows
 
-[[Method('Fusiontables Control', 'GetRows', false, 'tableId columns')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -80,7 +80,7 @@ Gets all the rows from a specified fusion table. The tableId field is the id of 
 
 ### GetRowsWithConditions
 
-[[Method('Fusiontables Control', 'GetRowsWithConditions', false, 'tableId columns conditions')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -95,7 +95,7 @@ Gets all the rows from a fusion table that meet certain conditions. The tableId 
 
 ### InsertRow
 
-[[Method('Fusiontables Control', 'InsertRow', false, 'tableId columns values')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -110,7 +110,7 @@ Inserts a row into the specified fusion table. The tableId field is the id of th
 
 ### SendQuery
 
-[[Method('Fusiontables Control', 'SendQuery', false)]]
+_Block preview not available_
 
 Send the query to the Fusiontables server.
 

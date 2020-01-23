@@ -25,11 +25,7 @@ The difference between a `` Ball `` and an `` ImageSprite `` is that the latter 
     |other|`component`|
 
 
-Event handler called when two enabled sprites (Balls or ImageSprites)
- collide. Note that checking for collisions with a rotated ImageSprite currently
- checks against its unrotated position. Therefore, collision
- checking will be inaccurate for tall narrow or short wide sprites that are
- rotated.
+Event handler called when two enabled sprites (Balls or ImageSprites)   collide. Note that checking for collisions with a rotated ImageSprite currently   checks against its unrotated position. Therefore, collision   checking will be inaccurate for tall narrow or short wide sprites that are   rotated.
 
 ### Dragged
 
@@ -139,7 +135,7 @@ Event handler called when the user touches an enabled Ball and then immediately 
 
 ### Bounce
 
-[[Method('Ball', 'Bounce', false, 'edge')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -152,7 +148,7 @@ Makes the Ball bounce, as if off a wall. For normal bouncing, the edge argument 
 
 ### CollidingWith
 
-[[Method('Ball', 'CollidingWith', true, 'other')]]
+_Block preview not available_
 
 {>>Returns `boolean`<<}
 
@@ -167,13 +163,13 @@ Indicates whether a collision has been registered between this Ball and the pass
 
 ### MoveIntoBounds
 
-[[Method('Ball', 'MoveIntoBounds', false)]]
+_Block preview not available_
 
 Moves the Ball back in bounds if part of it extends out of bounds, having no effect otherwise. If the Ball is too wide to fit on the canvas, this aligns the left side of the Ball with the left side of the canvas. If the Ball is too tall to fit on the canvas, this aligns the top side of the Ball with the top side of the canvas.
 
 ### MoveTo
 
-[[Method('Ball', 'MoveTo', false, 'x y')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -187,7 +183,7 @@ Sets the x and y coordinates of the Ball. If CenterAtOrigin is true, the center 
 
 ### PointInDirection
 
-[[Method('Ball', 'PointInDirection', false, 'x y')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -201,7 +197,7 @@ Sets the heading of the Ball toward the point with the coordinates (x, y).
 
 ### PointTowards
 
-[[Method('Ball', 'PointTowards', false, 'target')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -238,8 +234,7 @@ Controls whether the Ball moves and can be interacted with through collisions, d
 |:----:|:-------:|
 |number|0|
 
-Sets heading in which sprite should move.  In addition to changing the
- local variables
+Sets heading in which sprite should move.  In addition to changing the   local variables
 
 ### Interval
 
@@ -356,5 +351,4 @@ The vertical coordinate of the Ball, increasing as the Ball moves down. If the p
 |:----:|:-------:|
 |number|1.0|
 
-Sets the layer of the sprite, indicating whether it will appear in
- front of or behind other sprites.
+Sets the layer of the sprite, indicating whether it will appear in   front of or behind other sprites.

@@ -42,10 +42,7 @@ There are events to tell when and where a Canvas has been touched or a `` Sprite
     |dragged Any Sprite|`boolean`|
 
 
-When the user does a drag from one point (prevX, prevY) to
- another (x, y).  The pair (startX, startY) indicates where the
- user first touched the screen, and "draggedAnySprite" indicates whether a
- sprite is being dragged.
+When the user does a drag from one point (prevX, prevY) to   another (x, y).  The pair (startX, startY) indicates where the   user first touched the screen, and "draggedAnySprite" indicates whether a   sprite is being dragged.
 
 ### Flung
 
@@ -64,12 +61,7 @@ When the user does a drag from one point (prevX, prevY) to
     |flung Sprite|`boolean`|
 
 
-When a fling gesture (quick swipe) is made on the canvas: provides
- the (x,y) position of the start of the fling, relative to the upper
- left of the canvas. Also provides the speed (pixels per millisecond) and heading
- (0-360 degrees) of the fling, as well as the x velocity and y velocity
- components of the fling's vector. The value "flungSprite" is true if a sprite
- was located near the the starting point of the fling gesture.
+When a fling gesture (quick swipe) is made on the canvas: provides   the (x,y) position of the start of the fling, relative to the upper   left of the canvas. Also provides the speed (pixels per millisecond) and heading   (0-360 degrees) of the fling, as well as the x velocity and y velocity   components of the fling's vector. The value "flungSprite" is true if a sprite   was located near the the starting point of the fling gesture.
 
 ### Scaled
 
@@ -96,9 +88,7 @@ This event is invoked when two-finger pinches. ScaleFactor is the ratio of the a
     |y|`number`|
 
 
-When the user begins touching the canvas (places finger on canvas and
- leaves it there): provides the (x,y) position of the touch, relative
- to the upper left of the canvas
+When the user begins touching the canvas (places finger on canvas and   leaves it there): provides the (x,y) position of the touch, relative   to the upper left of the canvas
 
 ### Touch Up
 
@@ -112,9 +102,7 @@ When the user begins touching the canvas (places finger on canvas and
     |y|`number`|
 
 
-When the user stops touching the canvas (lifts finger after a
- TouchDown event): provides the (x,y) position of the touch, relative
- to the upper left of the canvas
+When the user stops touching the canvas (lifts finger after a   TouchDown event): provides the (x,y) position of the touch, relative   to the upper left of the canvas
 
 ### Touched
 
@@ -129,21 +117,19 @@ When the user stops touching the canvas (lifts finger after a
     |touched Any Sprite|`boolean`|
 
 
-When the user touches the canvas and then immediately lifts finger: provides
- the (x,y) position of the touch, relative to the upper left of the canvas.  TouchedAnySprite
- is true if the same touch also touched a sprite, and false otherwise.
+When the user touches the canvas and then immediately lifts finger: provides   the (x,y) position of the touch, relative to the upper left of the canvas.  TouchedAnySprite   is true if the same touch also touched a sprite, and false otherwise.
 
 ## Methods
 
 ### Clear
 
-[[Method('Canvas', 'Clear', false)]]
+_Block preview not available_
 
 Clears anything drawn on this Canvas but not any background color or image.
 
 ### DrawArc
 
-[[Method('Canvas', 'DrawArc', false, 'left top right bottom startAngle sweepAngle useCenter fill')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -163,7 +149,7 @@ Draw an arc on Canvas, by drawing an arc from a specified oval (specified by lef
 
 ### DrawCircle
 
-[[Method('Canvas', 'DrawCircle', false, 'centerX centerY radius fill')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -179,7 +165,7 @@ Draws a circle (filled in) with the given radius centered at the given coordinat
 
 ### DrawLine
 
-[[Method('Canvas', 'DrawLine', false, 'x1 y1 x2 y2')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -195,7 +181,7 @@ Draws a line between the given coordinates on the canvas.
 
 ### DrawPoint
 
-[[Method('Canvas', 'DrawPoint', false, 'x y')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -209,7 +195,7 @@ Draws a point at the given coordinates on the canvas.
 
 ### DrawPolygon
 
-[[Method('Canvas', 'DrawPolygon', false, 'centerX centerY numSides polyRadius cornerRadius rotation fill')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -228,7 +214,7 @@ Creates a polygon with with specified number of sides from a radius.
 
 ### DrawShape
 
-[[Method('Canvas', 'DrawShape', false, 'pointList fill')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -242,7 +228,7 @@ Draws a shape on the canvas. pointList should be a list contains sub-lists with 
 
 ### DrawText
 
-[[Method('Canvas', 'DrawText', false, 'text x y')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -257,7 +243,7 @@ Draws the specified text relative to the specified coordinates using the values 
 
 ### DrawTextAtAngle
 
-[[Method('Canvas', 'DrawTextAtAngle', false, 'text x y angle')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -273,7 +259,7 @@ Draws the specified text starting at the specified coordinates at the specified 
 
 ### GetBackgroundPixelColor
 
-[[Method('Canvas', 'GetBackgroundPixelColor', true, 'x y')]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -289,7 +275,7 @@ Gets the color of the specified point. This includes the background and any draw
 
 ### GetPixelColor
 
-[[Method('Canvas', 'GetPixelColor', true, 'x y')]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -305,7 +291,7 @@ Gets the color of the specified point.
 
 ### Save
 
-[[Method('Canvas', 'Save', true)]]
+_Block preview not available_
 
 {>>Returns `text`<<}
 
@@ -313,7 +299,7 @@ Saves a picture of this Canvas to the device's external storage. If an error occ
 
 ### SaveAs
 
-[[Method('Canvas', 'SaveAs', true, 'fileName')]]
+_Block preview not available_
 
 {>>Returns `text`<<}
 
@@ -328,7 +314,7 @@ Saves a picture of this Canvas to the device's external storage in the file name
 
 ### SetBackgroundPixelColor
 
-[[Method('Canvas', 'SetBackgroundPixelColor', false, 'x y color')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -519,11 +505,7 @@ Column property getter method.
 |:----:|:-------:|
 |number|None|
 
-Set the canvas height
-
- The height can only be set to &gt;0 or -1 (automatic) or -2 (fill parent) or
- to a value less then or equal to LENGTH_PERCENT_TAG (which is later
- converted to pixels.
+Set the canvas height     The height can only be set to &gt;0 or -1 (automatic) or -2 (fill parent) or   to a value less then or equal to LENGTH_PERCENT_TAG (which is later   converted to pixels.
 
 ### Height Percent
 
@@ -534,8 +516,7 @@ Set the canvas height
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's vertical height as a percentage
- of the height of its parent Component.
+Specifies the component's vertical height as a percentage   of the height of its parent Component.
 
 ### Row
 
@@ -557,11 +538,7 @@ Row property getter method.
 |:----:|:-------:|
 |number|None|
 
-Set the canvas width
-
- The width can only be set to &gt;0 or -1 (automatic) or -2 (fill parent)
- or to a value less then or equal to LENGTH_PERCENT_TAG (which is later
- converted to pixels.
+Set the canvas width     The width can only be set to &gt;0 or -1 (automatic) or -2 (fill parent)   or to a value less then or equal to LENGTH_PERCENT_TAG (which is later   converted to pixels.
 
 ### Width Percent
 
@@ -572,5 +549,4 @@ Set the canvas width
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width as a percentage
- of the Width of its parent Component.
+Specifies the component's horizontal width as a percentage   of the Width of its parent Component.

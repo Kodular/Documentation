@@ -52,13 +52,13 @@ User signed out.
 
 ### GetPlayer
 
-[[Method('Google Play Games', 'GetPlayer', false)]]
+_Block preview not available_
 
 Get the current player
 
 ### IncrementAchievement
 
-[[Method('Google Play Games', 'IncrementAchievement', false, 'achievementId by')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -72,7 +72,7 @@ Increment an achievement.
 
 ### IsSignedIn
 
-[[Method('Google Play Games', 'IsSignedIn', true)]]
+_Block preview not available_
 
 {>>Returns `boolean`<<}
 
@@ -80,13 +80,13 @@ Is user signed in?
 
 ### ShowAchievements
 
-[[Method('Google Play Games', 'ShowAchievements', false)]]
+_Block preview not available_
 
 Shows Achievement.
 
 ### ShowLeaderboard
 
-[[Method('Google Play Games', 'ShowLeaderboard', false, 'leaderboardId')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -99,7 +99,7 @@ Shows Leaderboard.
 
 ### SignIn
 
-[[Method('Google Play Games', 'SignIn', false, 'useLastAccount')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -112,13 +112,13 @@ Sign in the user. useLastAccount, true: use the last signed in account if possib
 
 ### SignOut
 
-[[Method('Google Play Games', 'SignOut', false)]]
+_Block preview not available_
 
 Sign out the user.
 
 ### SubmitScore
 
-[[Method('Google Play Games', 'SubmitScore', false, 'leaderboardId score')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -132,7 +132,7 @@ Submits user score to leaderboard.
 
 ### UnlockAchievement
 
-[[Method('Google Play Games', 'UnlockAchievement', false, 'achievementId')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 

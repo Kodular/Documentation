@@ -29,7 +29,7 @@ Indicates that the scanner has read a (text) result and provides the result
 
 ### DoScan
 
-[[Method('Barcode Scanner', 'DoScan', false)]]
+_Block preview not available_
 
 Begins a barcode scan, using the camera. When the scan is complete, the AfterScan event will be raised.
 

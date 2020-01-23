@@ -34,7 +34,7 @@ Called when the detected distance has gone within the range.
 
 ### GetDistance
 
-[[Method('EV3 Ultrasonic Sensor', 'GetDistance', true)]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -42,13 +42,13 @@ Returns the current distance in centimeters as a value between 0 and 254, or -1 
 
 ### SetCmUnit
 
-[[Method('EV3 Ultrasonic Sensor', 'SetCmUnit', false)]]
+_Block preview not available_
 
 Measure the distance in centimeters.
 
 ### SetInchUnit
 
-[[Method('EV3 Ultrasonic Sensor', 'SetInchUnit', false)]]
+_Block preview not available_
 
 Measure the distance in inches.
 

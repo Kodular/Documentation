@@ -14,7 +14,7 @@ A non-visible component that retrieves information about other applications on t
 
 ### AppNameFrom
 
-[[Method('Package Utilities', 'AppNameFrom', true, 'packageName')]]
+_Block preview not available_
 
 {>>Returns `text`<<}
 
@@ -29,7 +29,7 @@ Returns the name from the given package name.
 
 ### GetPackageIcon
 
-[[Method('Package Utilities', 'GetPackageIcon', true, 'packageName')]]
+_Block preview not available_
 
 {>>Returns `text`<<}
 
@@ -44,7 +44,7 @@ Try to show the application icon of the given package name. If the application c
 
 ### IsPackageInstalled
 
-[[Method('Package Utilities', 'IsPackageInstalled', true, 'packageName')]]
+_Block preview not available_
 
 {>>Returns `boolean`<<}
 
@@ -59,7 +59,7 @@ Returns true if a package (app) is installed.
 
 ### VersionCodeFrom
 
-[[Method('Package Utilities', 'VersionCodeFrom', true, 'packageName')]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -74,7 +74,7 @@ This block will returns the version code of the package name. Returns '-1' if th
 
 ### VersionNameFrom
 
-[[Method('Package Utilities', 'VersionNameFrom', true, 'packageName')]]
+_Block preview not available_
 
 {>>Returns `text`<<}
 
@@ -89,7 +89,7 @@ This block will returns the version name of the package name. Returns 'Package n
 
 ### Is Permission Granted
 
-[[Method('Package Utilities', 'Is Permission Granted', true, 'permissionName packageName')]]
+_Block preview not available_
 
 {>>Returns `boolean`<<}
 

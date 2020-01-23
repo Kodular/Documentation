@@ -86,19 +86,19 @@ Use this event to detect that the state changes. Return values: 'UNKNOWN', 'UNST
 
 ### EnterFullscreen
 
-[[Method('Youtube Player', 'EnterFullscreen', false)]]
+_Block preview not available_
 
 Enter the video in fullscreen mode.
 
 ### ExitFullscreen
 
-[[Method('Youtube Player', 'ExitFullscreen', false)]]
+_Block preview not available_
 
 Exit the video from fullscreen mode.
 
 ### GetThumbnailFromVideoId
 
-[[Method('Youtube Player', 'GetThumbnailFromVideoId', true, 'videoId')]]
+_Block preview not available_
 
 {>>Returns `text`<<}
 
@@ -113,7 +113,7 @@ This block will return the thumbnail image path from a video id. Use only as exa
 
 ### InstantLoad
 
-[[Method('Youtube Player', 'InstantLoad', false, 'videoId')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -126,7 +126,7 @@ Use this block together with the 'Youtube Player' Initialized event. Loads and a
 
 ### Load
 
-[[Method('Youtube Player', 'Load', false, 'videoId')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -139,19 +139,19 @@ Loads the specified video's thumbnail and prepares the player to play the video.
 
 ### Pause
 
-[[Method('Youtube Player', 'Pause', false)]]
+_Block preview not available_
 
 Pause the youtube video.
 
 ### Play
 
-[[Method('Youtube Player', 'Play', false)]]
+_Block preview not available_
 
 Plays the youtube video.
 
 ### SeekTo
 
-[[Method('Youtube Player', 'SeekTo', false, 'position')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -164,7 +164,7 @@ Set a position where the youtube video should start playing in seconds.
 
 ### ToggleFullscreen
 
-[[Method('Youtube Player', 'ToggleFullscreen', false)]]
+_Block preview not available_
 
 Toggle the state of the video player.
 
@@ -275,8 +275,7 @@ Specifies the component's vertical height, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's vertical height as a percentage
- of the height of its parent Component.
+Specifies the component's vertical height as a percentage   of the height of its parent Component.
 
 ### Is Fullscreen
 
@@ -331,5 +330,4 @@ Specifies the component's horizontal width, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width as a percentage
- of the Width of its parent Component.
+Specifies the component's horizontal width as a percentage   of the Width of its parent Component.

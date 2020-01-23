@@ -22,49 +22,49 @@ You might get an error if you attempt to play a sound immediately after setting 
 
 ### Pause
 
-[[Method('Sound', 'Pause', false)]]
+_Block preview not available_
 
 Pauses playing the sound if it is being played.
 
 ### Play
 
-[[Method('Sound', 'Play', false)]]
+_Block preview not available_
 
 Plays the sound specified by the Source property.
 
 ### Resume
 
-[[Method('Sound', 'Resume', false)]]
+_Block preview not available_
 
 Resumes playing the sound after a pause.
 
 ### SoundNormal
 
-[[Method('Sound', 'SoundNormal', false)]]
+_Block preview not available_
 
 Ringer mode that may be audible and may vibrate.
 
 ### SoundSilent
 
-[[Method('Sound', 'SoundSilent', false)]]
+_Block preview not available_
 
 Ringer mode that will be silent and will not vibrate.
 
 ### SoundVibrate
 
-[[Method('Sound', 'SoundVibrate', false)]]
+_Block preview not available_
 
 Ringer mode that will be silent and will vibrate.
 
 ### Stop
 
-[[Method('Sound', 'Stop', false)]]
+_Block preview not available_
 
 Stops playing the sound if it is being played.
 
 ### Vibrate
 
-[[Method('Sound', 'Vibrate', false, 'millisecs')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -77,7 +77,7 @@ Vibrates for the specified number of milliseconds.
 
 ### VibratePattern
 
-[[Method('Sound', 'VibratePattern', false, 'vibrate delay repeat')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 

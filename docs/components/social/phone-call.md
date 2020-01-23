@@ -61,7 +61,7 @@ Event indicating that a phonecall has started. If status is 1, incoming call is 
 
 ### MakePhoneCall
 
-[[Method('Phone Call', 'MakePhoneCall', false)]]
+_Block preview not available_
 
 Makes a phone call using the number in the PhoneNumber property.
 

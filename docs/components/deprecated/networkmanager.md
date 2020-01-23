@@ -14,7 +14,7 @@ This component can be used to provide information about network
 
 ### GetConnectionType
 
-[[Method('NetworkManager', 'GetConnectionType', true)]]
+_Block preview not available_
 
 {>>Returns `text`<<}
 
@@ -22,7 +22,7 @@ describe the type of the network, for example WIFI or MOBILE
 
 ### is Connected
 
-[[Method('NetworkManager', 'is Connected', true)]]
+_Block preview not available_
 
 {>>Returns `boolean`<<}
 
@@ -30,7 +30,7 @@ Indicates whether network connectivity exists and it is possible to establish co
 
 ### IsFastConnection
 
-[[Method('NetworkManager', 'IsFastConnection', true)]]
+_Block preview not available_
 
 {>>Returns `boolean`<<}
 
@@ -38,7 +38,7 @@ Returns true if using a fast connection
 
 ### IsMobileConnection
 
-[[Method('NetworkManager', 'IsMobileConnection', true)]]
+_Block preview not available_
 
 {>>Returns `boolean`<<}
 
@@ -46,7 +46,7 @@ Returns true if connection is through Mobile
 
 ### IsRoaming
 
-[[Method('NetworkManager', 'IsRoaming', true)]]
+_Block preview not available_
 
 {>>Returns `boolean`<<}
 
@@ -54,7 +54,7 @@ Returns true if using using roaming
 
 ### IsWiFiConnection
 
-[[Method('NetworkManager', 'IsWiFiConnection', true)]]
+_Block preview not available_
 
 {>>Returns `boolean`<<}
 

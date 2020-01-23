@@ -26,7 +26,7 @@ Event to detect that a user has done a simple "Long Click".
 
 ### ClearImageTintColor
 
-[[Method('Image', 'ClearImageTintColor', false)]]
+_Block preview not available_
 
 Clear the image tint color.
 
@@ -139,8 +139,7 @@ Specifies the component's vertical height, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's vertical height as a percentage
- of the height of its parent Component.
+Specifies the component's vertical height as a percentage   of the height of its parent Component.
 
 ### Image Tint Color
 
@@ -195,5 +194,4 @@ Specifies the component's horizontal width, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width as a percentage
- of the Width of its parent Component.
+Specifies the component's horizontal width as a percentage   of the Width of its parent Component.

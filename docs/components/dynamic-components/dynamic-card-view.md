@@ -68,7 +68,7 @@ Event to detect that a user has done a simple touch up on a card view component 
 
 ### AddComponentToCardView
 
-[[Method('Dynamic Card View', 'AddComponentToCardView', false, 'id arrangement')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -82,7 +82,7 @@ Add a component into the card view component with the given id.
 
 ### ContentPadding
 
-[[Method('Dynamic Card View', 'ContentPadding', false, 'id contentPaddingLeft contentPaddingTop contentPaddingRight contentPaddingBottom')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -99,7 +99,7 @@ Set the content padding of a card view component.
 
 ### CreateCardView
 
-[[Method('Dynamic Card View', 'CreateCardView', false, 'id arrangement width height')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -115,7 +115,7 @@ Create a new card view component dynamically. Use for width/height '-1' for wrap
 
 ### DeleteCardView
 
-[[Method('Dynamic Card View', 'DeleteCardView', false, 'id')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -128,7 +128,7 @@ Remove a card view component with the given id.
 
 ### GetBackgroundColor
 
-[[Method('Dynamic Card View', 'GetBackgroundColor', true, 'id')]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -143,7 +143,7 @@ Get the background color of a card view component.
 
 ### GetCardViewById
 
-[[Method('Dynamic Card View', 'GetCardViewById', true, 'id')]]
+_Block preview not available_
 
 {>>Returns `component`<<}
 
@@ -158,7 +158,7 @@ Returns the card view referenced by its id.
 
 ### GetCornerRadius
 
-[[Method('Dynamic Card View', 'GetCornerRadius', true, 'id')]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -173,7 +173,7 @@ Get the corner radius of a card view component.
 
 ### GetElevation
 
-[[Method('Dynamic Card View', 'GetElevation', true, 'id')]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -188,7 +188,7 @@ Get the elevation of a card view component.
 
 ### GetHeight
 
-[[Method('Dynamic Card View', 'GetHeight', true, 'id')]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -203,7 +203,7 @@ Get the height of a card view component.
 
 ### GetWidth
 
-[[Method('Dynamic Card View', 'GetWidth', true, 'id')]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -218,7 +218,7 @@ Get the width of a card view component.
 
 ### SetBackgroundColor
 
-[[Method('Dynamic Card View', 'SetBackgroundColor', false, 'id argb')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -232,7 +232,7 @@ Set the background color of a card view component.
 
 ### SetCornerRadius
 
-[[Method('Dynamic Card View', 'SetCornerRadius', false, 'id radius')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -246,7 +246,7 @@ Set the corner radius of a card view component.
 
 ### SetElevation
 
-[[Method('Dynamic Card View', 'SetElevation', false, 'id value')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -260,7 +260,7 @@ Set the elevation of a card view component.
 
 ### SetHeight
 
-[[Method('Dynamic Card View', 'SetHeight', false, 'id height')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -274,7 +274,7 @@ Set the height of a card view component.
 
 ### SetWidth
 
-[[Method('Dynamic Card View', 'SetWidth', false, 'id width')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -288,7 +288,7 @@ Set the width of a card view component.
 
 ### StrokeColor
 
-[[Method('Dynamic Card View', 'StrokeColor', false, 'id color')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -302,7 +302,7 @@ Set the stroke color to a card view component with the specific id.
 
 ### StrokeWidth
 
-[[Method('Dynamic Card View', 'StrokeWidth', false, 'id width')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 

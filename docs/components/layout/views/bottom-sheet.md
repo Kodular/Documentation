@@ -28,13 +28,13 @@ Event to detect that the dialog was opened.
 
 ### HideDialog
 
-[[Method('Bottom Sheet', 'HideDialog', false)]]
+_Block preview not available_
 
 Hide the bottom sheet dialog.
 
 ### RegisterComponentAsDialog
 
-[[Method('Bottom Sheet', 'RegisterComponentAsDialog', false, 'component')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -47,7 +47,7 @@ Register any component as example a 'button', that will be later your bottom she
 
 ### RegisterLayoutAsDialog
 
-[[Method('Bottom Sheet', 'RegisterLayoutAsDialog', false, 'layout')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -60,7 +60,7 @@ Register any layout as example a 'horizontal arrangement', that will be later yo
 
 ### ShowDialog
 
-[[Method('Bottom Sheet', 'ShowDialog', false)]]
+_Block preview not available_
 
 Show the bottom sheet dialog.
 

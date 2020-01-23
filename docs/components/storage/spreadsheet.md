@@ -130,7 +130,7 @@ Triggered when updating a row. ResponseCode is a number
 
 ### CreateRow
 
-[[Method('Spreadsheet', 'CreateRow', false, 'columnNames values')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -144,7 +144,7 @@ Creates a new row
 
 ### DeleteRowNum
 
-[[Method('Spreadsheet', 'DeleteRowNum', false, 'rowNumber')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -157,13 +157,13 @@ Deletes the given row
 
 ### GetAllRows
 
-[[Method('Spreadsheet', 'GetAllRows', false)]]
+_Block preview not available_
 
 Gets all rows
 
 ### GetCell
 
-[[Method('Spreadsheet', 'GetCell', false, 'rowNumber columnName')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -177,7 +177,7 @@ Gets cell data
 
 ### GetColumn
 
-[[Method('Spreadsheet', 'GetColumn', false, 'columnName maxRecord')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -191,7 +191,7 @@ Gets column data
 
 ### GetRow
 
-[[Method('Spreadsheet', 'GetRow', false, 'rowNumber')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -204,7 +204,7 @@ Gets row data
 
 ### SetCell
 
-[[Method('Spreadsheet', 'SetCell', false, 'rowNumber columnName value')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -219,7 +219,7 @@ Changes the value of a cell
 
 ### UpdateRowByNum
 
-[[Method('Spreadsheet', 'UpdateRowByNum', false, 'rowNumber columnNames values')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 

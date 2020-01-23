@@ -46,7 +46,7 @@ Triggers when the user long clicks on a item in the list
 
 ### AddItem
 
-[[Method('List View Image and Text', 'AddItem', false, 'image title subtitle')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -61,7 +61,7 @@ Add a item to the list
 
 ### AddItemFromList
 
-[[Method('List View Image and Text', 'AddItemFromList', false, 'list')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -74,13 +74,13 @@ Add a item to the list
 
 ### ClearList
 
-[[Method('List View Image and Text', 'ClearList', false)]]
+_Block preview not available_
 
 Remove all the items from the list
 
 ### RemoveItem
 
-[[Method('List View Image and Text', 'RemoveItem', false, 'position')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -93,7 +93,7 @@ Remove a item from the list
 
 ### UpdateItem
 
-[[Method('List View Image and Text', 'UpdateItem', false, 'position image title subtitle')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -146,8 +146,7 @@ Set the divider color of the listview
 |:----:|:-------:|
 |number|1|
 
-Set the side of the image.
-Set it to 1 for Left side and 2 for Right side
+Set the side of the image.  Set it to 1 for Left side and 2 for Right side
 
 ### Item Size
 
@@ -160,8 +159,7 @@ Set it to 1 for Left side and 2 for Right side
 |:----:|:-------:|
 |number|1|
 
-Set ListItem Size.
-Set it to 1 for Normal size, 2 for Small size and 3 for Big size.
+Set ListItem Size.  Set it to 1 for Normal size, 2 for Small size and 3 for Big size.
 
 ### Subtitle Bold
 
@@ -389,8 +387,7 @@ Determines the height of the list on the view.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's vertical height as a percentage
- of the height of its parent Component.
+Specifies the component's vertical height as a percentage   of the height of its parent Component.
 
 ### Row
 
@@ -423,5 +420,4 @@ Determines the width of the list on the view.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width as a percentage
- of the Width of its parent Component.
+Specifies the component's horizontal width as a percentage   of the Width of its parent Component.

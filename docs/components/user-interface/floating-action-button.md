@@ -29,31 +29,31 @@ Event to detect that the fab button was long clicked.
 
 ### Hide
 
-[[Method('Floating Action Button', 'Hide', false)]]
+_Block preview not available_
 
 Hides the fab button.
 
 ### HideTextMessage
 
-[[Method('Floating Action Button', 'HideTextMessage', false)]]
+_Block preview not available_
 
 Hides text message.
 
 ### Show
 
-[[Method('Floating Action Button', 'Show', false)]]
+_Block preview not available_
 
 Shows the fab button.
 
 ### ShowTextMessage
 
-[[Method('Floating Action Button', 'ShowTextMessage', false)]]
+_Block preview not available_
 
 Show a new text message near to the fab with the given properties. You can do the changes with the properties in the advanded category.
 
 ### StartRotationAnimation
 
-[[Method('Floating Action Button', 'StartRotationAnimation', false)]]
+_Block preview not available_
 
 Starts a rotation animation. You can use the 'Rotation Duration','Rotation Start Degrees' and 'Rotation End Degrees' to define the animation. This block will work too if the 'Rotation On Click' property is disabled.
 

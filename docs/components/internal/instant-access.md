@@ -46,7 +46,7 @@ A event to detect that the status was received.
 
 ### CheckStatus
 
-[[Method('Instant Access', 'CheckStatus', false, 'user')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -59,7 +59,7 @@ Check the current status with a given username.
 
 ### ClientID
 
-[[Method('Instant Access', 'ClientID', true)]]
+_Block preview not available_
 
 {>>Returns `text`<<}
 
@@ -67,7 +67,7 @@ Returns the client id.
 
 ### ClientSecret
 
-[[Method('Instant Access', 'ClientSecret', true)]]
+_Block preview not available_
 
 {>>Returns `text`<<}
 
@@ -75,7 +75,7 @@ Returns the client secret.
 
 ### Request
 
-[[Method('Instant Access', 'Request', false, 'user')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 

@@ -142,8 +142,7 @@ Event to handle when the app user has denied a needed permission.
     |permission Name|`text`|
 
 
-Event to handle when the app user has granted a needed permission. This event is only run when permission is
- granted in response to the AskForPermission method.
+Event to handle when the app user has granted a needed permission. This event is only run when permission is   granted in response to the AskForPermission method.
 
 ### Screen Orientation Changed
 
@@ -187,7 +186,7 @@ Event to detect when a menu item has been selected.
 
 ### AddMenuItem
 
-[[Method('Form', 'AddMenuItem', false, 'menuItem')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -200,7 +199,7 @@ Add a new item to the menu. Use the 'make a list' block.
 
 ### AddMenuItemWithIcon
 
-[[Method('Form', 'AddMenuItemWithIcon', false, 'menuItem menuIcon')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -214,7 +213,7 @@ Add a new item with a icon on the left side to the menu. This function does not 
 
 ### AddTitleBarIcon
 
-[[Method('Form', 'AddTitleBarIcon', false, 'icon name')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -228,7 +227,7 @@ Add a new action icon to the TitleBar. You will see a toast message on a long cl
 
 ### ArePermissionsGranted
 
-[[Method('Form', 'ArePermissionsGranted', true)]]
+_Block preview not available_
 
 {>>Returns `boolean`<<}
 
@@ -236,7 +235,7 @@ Returns true if ALL needed app permissions were granted, else false.
 
 ### AskForPermission
 
-[[Method('Form', 'AskForPermission', false, 'permissionName')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -249,7 +248,7 @@ Ask the user to grant access to a dangerous permission.
 
 ### CanWriteSystemSettings
 
-[[Method('Form', 'CanWriteSystemSettings', true)]]
+_Block preview not available_
 
 {>>Returns `boolean`<<}
 
@@ -257,67 +256,67 @@ Returns true if the app can write system settings, else it returns false. It wil
 
 ### HideKeyboard
 
-[[Method('Form', 'HideKeyboard', false)]]
+_Block preview not available_
 
 Hide the keyboard.
 
 ### LockSideMenu
 
-[[Method('Form', 'LockSideMenu', false)]]
+_Block preview not available_
 
 Use this block to lock the side menu. This means the user can not open the side menu until the side menu  unlock block is used.
 
 ### MoveTaskToBack
 
-[[Method('Form', 'MoveTaskToBack', false)]]
+_Block preview not available_
 
 Move task to back. That means it will minimize your current app.
 
 ### OpenAppSettings
 
-[[Method('Form', 'OpenAppSettings', false)]]
+_Block preview not available_
 
 Opens the settings screen of the app. Useful if 'Are Permissions Granted' has returned false.
 
 ### OpenSystemWriteSettings
 
-[[Method('Form', 'OpenSystemWriteSettings', false)]]
+_Block preview not available_
 
 Opens the app's system settings page. This works only for devices with android 6+.
 
 ### RemoveSideMenu
 
-[[Method('Form', 'RemoveSideMenu', false)]]
+_Block preview not available_
 
 Remove a first created side menu. This block will be usefull if you need to update a side menu dynamically. You can use this block too to test a side menu in the companion. Add then this block above of the 'Side Menu' block.
 
 ### RemoveTitleBarIcons
 
-[[Method('Form', 'RemoveTitleBarIcons', false)]]
+_Block preview not available_
 
 Remove all added action icons from the TitleBar.
 
 ### ResetMenu
 
-[[Method('Form', 'ResetMenu', false)]]
+_Block preview not available_
 
 Reset the menu back to its default
 
 ### ShowAboutApplication
 
-[[Method('Form', 'ShowAboutApplication', false)]]
+_Block preview not available_
 
 Show the dialog which shows when pressing the "About This Application" button in the menu.
 
 ### ShowKeyboard
 
-[[Method('Form', 'ShowKeyboard', false)]]
+_Block preview not available_
 
 Show the keyboard
 
 ### SideMenu
 
-[[Method('Form', 'SideMenu', false, 'layout')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -330,19 +329,19 @@ Create a Side Menu. Set to "layout" your layout that will be then your side menu
 
 ### SideMenuClose
 
-[[Method('Form', 'SideMenuClose', false)]]
+_Block preview not available_
 
 If you had set your side menu then you can use this block to close it as example with a button click.
 
 ### SideMenuOpen
 
-[[Method('Form', 'SideMenuOpen', false)]]
+_Block preview not available_
 
 If you had set your side menu then you can use this block to open it as example with a button click.
 
 ### TaskDescription
 
-[[Method('Form', 'TaskDescription', false, 'text color')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -356,13 +355,13 @@ Sets information describing the task with this activity for presentation inside 
 
 ### UnlockSideMenu
 
-[[Method('Form', 'UnlockSideMenu', false)]]
+_Block preview not available_
 
 Use this block to unlock the side menu. This means the user can now open again the side menu.
 
 ### VersionCode
 
-[[Method('Form', 'VersionCode', true)]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -370,7 +369,7 @@ This block will returns the version code
 
 ### VersionName
 
-[[Method('Form', 'VersionName', true)]]
+_Block preview not available_
 
 {>>Returns `text`<<}
 

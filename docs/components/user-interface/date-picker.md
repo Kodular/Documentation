@@ -44,7 +44,7 @@ Indicates that a button has been released.
 
 ### AnimationStyle
 
-[[Method('Date Picker', 'AnimationStyle', false, 'style position size color')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -60,19 +60,19 @@ Allows you to set animation style. Valid (case-insensitive) values are: ChasingD
 
 ### ButtonClick
 
-[[Method('Date Picker', 'ButtonClick', false)]]
+_Block preview not available_
 
 Perform a button click as function.
 
 ### LaunchPicker
 
-[[Method('Date Picker', 'LaunchPicker', false)]]
+_Block preview not available_
 
 Launches the DatePicker popup.
 
 ### SetDateToDisplay
 
-[[Method('Date Picker', 'SetDateToDisplay', false, 'year month day')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -83,12 +83,11 @@ Launches the DatePicker popup.
     |day|`number`|
 
 
-Allows the user to set the date to be displayed when the date picker opens.
-Valid values for the month field are 1-12 and 1-31 for the day field.
+Allows the user to set the date to be displayed when the date picker opens.  Valid values for the month field are 1-12 and 1-31 for the day field.
 
 ### SetDateToDisplayFromInstant
 
-[[Method('Date Picker', 'SetDateToDisplayFromInstant', false, 'instant')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -101,7 +100,7 @@ Allows the user to set the date from the instant to be displayed when the date p
 
 ### SetShadow
 
-[[Method('Date Picker', 'SetShadow', false, 'x y radius color')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -117,7 +116,7 @@ Place a blurred shadow of text underneath the text, drawn with the specified x, 
 
 ### WithIconFromFontAwesome
 
-[[Method('Date Picker', 'WithIconFromFontAwesome', false, 'position iconName iconColor padding size')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -134,7 +133,7 @@ Show an image on the given position near to the button. You can use following wo
 
 ### WithIconFromMaterialFont
 
-[[Method('Date Picker', 'WithIconFromMaterialFont', false, 'position iconName iconColor padding size')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -151,7 +150,7 @@ Show an image on the given position near to the button. You can use following wo
 
 ### WithIconFromPicture
 
-[[Method('Date Picker', 'WithIconFromPicture', false, 'position picture padding width height')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -444,8 +443,7 @@ Specifies the component's vertical height, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's vertical height as a percentage
- of the height of its parent Component.
+Specifies the component's vertical height as a percentage   of the height of its parent Component.
 
 ### Instant
 
@@ -511,8 +509,7 @@ Specifies the component's horizontal width, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width as a percentage
- of the Width of its parent Component.
+Specifies the component's horizontal width as a percentage   of the Width of its parent Component.
 
 ### Year
 

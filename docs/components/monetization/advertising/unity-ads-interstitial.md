@@ -70,7 +70,7 @@ Called when an ad request failed. The message will display the reason for why th
 
 ### IsReady
 
-[[Method('Unity Ads Interstitial', 'IsReady', true)]]
+_Block preview not available_
 
 {>>Returns `boolean`<<}
 
@@ -78,7 +78,7 @@ Returns true if the ad is finished loading and can now be shown.
 
 ### ShowAd
 
-[[Method('Unity Ads Interstitial', 'ShowAd', false)]]
+_Block preview not available_
 
 Shows an ad to the user.
 

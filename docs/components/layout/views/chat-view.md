@@ -122,7 +122,7 @@ Click listener event for the user image.
 
 ### AddComponentMessage
 
-[[Method('Chat View', 'AddComponentMessage', false, 'userImage title message timestamp component id addAsSender')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -141,7 +141,7 @@ Add a new simple component message into the chat view. If you do not want a user
 
 ### AddDateTimestamp
 
-[[Method('Chat View', 'AddDateTimestamp', false, 'date textColor backgroundColor id')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -157,7 +157,7 @@ Add a new simple date timestamp into the chat view. You NEED to write a date, el
 
 ### AddFileMessage
 
-[[Method('Chat View', 'AddFileMessage', false, 'userImage title message filePath fileThumbnail timestamp id addAsSender')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -177,7 +177,7 @@ Add a new simple file message into the chat view. If you do not want a user imag
 
 ### AddImageMessage
 
-[[Method('Chat View', 'AddImageMessage', false, 'userImage title message image timestamp id addAsSender')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -196,7 +196,7 @@ Add a new simple image message into the chat view. If you do not want a user ima
 
 ### AddMessage
 
-[[Method('Chat View', 'AddMessage', false, 'userImage title message timestamp id addAsSender')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -214,13 +214,13 @@ Add a new simple message into the chat view. If you do not want a user image or 
 
 ### ClearChatView
 
-[[Method('Chat View', 'ClearChatView', false)]]
+_Block preview not available_
 
 Removes all messages and timestamps from the chat view.
 
 ### CountDateTimestamp
 
-[[Method('Chat View', 'CountDateTimestamp', true)]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -228,7 +228,7 @@ Returns the number of all date timestamps. Normal messages are not included.
 
 ### CountMessages
 
-[[Method('Chat View', 'CountMessages', true)]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -236,7 +236,7 @@ Returns the number of all messages. 'Date Timestamp' messages are not included.
 
 ### GetLastUsedId
 
-[[Method('Chat View', 'GetLastUsedId', true)]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -244,7 +244,7 @@ Returns the last used id.
 
 ### RemoveMessage
 
-[[Method('Chat View', 'RemoveMessage', false, 'id')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -257,7 +257,7 @@ Remove a message or timestamp from the chat view.
 
 ### ScrollTo
 
-[[Method('Chat View', 'ScrollTo', false, 'id')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -270,7 +270,7 @@ Scroll to a specific message in the chat view with the given id.
 
 ### UpdateMessageBackgroundColor
 
-[[Method('Chat View', 'UpdateMessageBackgroundColor', false, 'id backgroundColor')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -284,7 +284,7 @@ Update the background color of a chat view message.
 
 ### UpdateMessageContent
 
-[[Method('Chat View', 'UpdateMessageContent', false, 'id text textColor')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -299,7 +299,7 @@ Update the message content of a chat view message.
 
 ### UpdateTimestampContent
 
-[[Method('Chat View', 'UpdateTimestampContent', false, 'id text textColor')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -314,7 +314,7 @@ Update the timestamp content of a chat view message.
 
 ### UpdateTitleContent
 
-[[Method('Chat View', 'UpdateTitleContent', false, 'id text textColor')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -329,7 +329,7 @@ Update the title content of a chat view message.
 
 ### UpdateUserImage
 
-[[Method('Chat View', 'UpdateUserImage', false, 'id userImage')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -738,8 +738,7 @@ Specifies the component's vertical height, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's vertical height as a percentage
- of the height of its parent Component.
+Specifies the component's vertical height as a percentage   of the height of its parent Component.
 
 ### Row
 
@@ -772,5 +771,4 @@ Specifies the component's horizontal width, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width as a percentage
- of the Width of its parent Component.
+Specifies the component's horizontal width as a percentage   of the Width of its parent Component.

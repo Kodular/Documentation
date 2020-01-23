@@ -33,7 +33,7 @@ This event returns the social media name if an app is not installed. Possible na
 
 ### ShareFile
 
-[[Method('Sharing', 'ShareFile', false, 'file')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -46,7 +46,7 @@ Shares a file through any capable application installed on the phone by displayi
 
 ### ShareFileWithMessage
 
-[[Method('Sharing', 'ShareFileWithMessage', false, 'file message')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -60,7 +60,7 @@ Shares both a file and a message through any capable application installed on th
 
 ### ShareMessage
 
-[[Method('Sharing', 'ShareMessage', false, 'message')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -73,7 +73,7 @@ Shares a message through any capable application installed on the phone by displ
 
 ### ShareMessageTo
 
-[[Method('Sharing', 'ShareMessageTo', false, 'message name packageName')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -88,7 +88,7 @@ Shares a message through the given app. If the given app is not installed, then 
 
 ### ShareMessageToFacebook
 
-[[Method('Sharing', 'ShareMessageToFacebook', false, 'message')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -101,7 +101,7 @@ Shares a message through Facebook. If Facebook is not installed, then the 'AppNo
 
 ### ShareMessageToFacebookMessenger
 
-[[Method('Sharing', 'ShareMessageToFacebookMessenger', false, 'message')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -114,7 +114,7 @@ Shares a message through Facebook Messenger. If Messenger is not installed, then
 
 ### ShareMessageToGooglePlus
 
-[[Method('Sharing', 'ShareMessageToGooglePlus', false, 'message')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -127,7 +127,7 @@ Shares a message through Google Plus. If Google+ is not installed, then the 'App
 
 ### ShareMessageToSnapchat
 
-[[Method('Sharing', 'ShareMessageToSnapchat', false, 'message')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -140,7 +140,7 @@ Shares a message through Snapchat. If Snapchat is not installed, then the 'AppNo
 
 ### ShareMessageToTelegram
 
-[[Method('Sharing', 'ShareMessageToTelegram', false, 'message')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -153,7 +153,7 @@ Shares a message through Telegram. If Telegram is not installed, then the 'AppNo
 
 ### ShareMessageToTwitter
 
-[[Method('Sharing', 'ShareMessageToTwitter', false, 'message')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -166,7 +166,7 @@ Shares a message through Twitter. If Twitter is not installed, then the 'AppNotF
 
 ### ShareMessageToWhatsApp
 
-[[Method('Sharing', 'ShareMessageToWhatsApp', false, 'message')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 

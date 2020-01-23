@@ -14,7 +14,7 @@ A non-visible component that performs operations like conversion between formats
 
 ### ConvertHexToInt
 
-[[Method('Color Utilities', 'ConvertHexToInt', true, 'hexColor')]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -29,7 +29,7 @@ Convert a hex color to a integer color. The result is returned as integer.
 
 ### ConvertIntToHex
 
-[[Method('Color Utilities', 'ConvertIntToHex', true, 'color')]]
+_Block preview not available_
 
 {>>Returns `text`<<}
 
@@ -44,7 +44,7 @@ Convert a integer color to a hex color. The result is returned as string.
 
 ### GetLuminance
 
-[[Method('Color Utilities', 'GetLuminance', true, 'color')]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -59,7 +59,7 @@ Returns the luminance of a color as a float between 0.0 and 1.0. The result is r
 
 ### IsDarkColor
 
-[[Method('Color Utilities', 'IsDarkColor', true, 'color')]]
+_Block preview not available_
 
 {>>Returns `boolean`<<}
 
@@ -74,7 +74,7 @@ Returns true if the color is dark, else it returns false, means the color is lig
 
 ### SetAlphaValue
 
-[[Method('Color Utilities', 'SetAlphaValue', true, 'color alpha')]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 

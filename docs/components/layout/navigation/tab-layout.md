@@ -28,7 +28,7 @@ The event returns the name or the position of the selected tab.
 
 ### AddNewTab
 
-[[Method('Tab Layout', 'AddNewTab', false, 'name icon')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -42,7 +42,7 @@ Add a new tab to the tab layout. If you don't want a icon then let it empty.
 
 ### AddNewTabAt
 
-[[Method('Tab Layout', 'AddNewTabAt', false, 'name icon position')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -57,7 +57,7 @@ Add a new tab to the tab layout at the given position. If you don't want a icon 
 
 ### CountTabs
 
-[[Method('Tab Layout', 'CountTabs', true)]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -65,13 +65,13 @@ Returns the number of current added tab's.
 
 ### RemoveAllTabs
 
-[[Method('Tab Layout', 'RemoveAllTabs', false)]]
+_Block preview not available_
 
 Remove all tab's from tab layout.
 
 ### RemoveTabAt
 
-[[Method('Tab Layout', 'RemoveTabAt', false, 'position')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -226,5 +226,4 @@ Specifies the component's horizontal width, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width as a percentage
- of the Width of its parent Component.
+Specifies the component's horizontal width as a percentage   of the Width of its parent Component.

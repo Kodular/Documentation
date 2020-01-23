@@ -50,7 +50,7 @@ Indicates that a button has been released.
 
 ### AnimationStyle
 
-[[Method('Button', 'AnimationStyle', false, 'style position size color')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -66,13 +66,13 @@ Allows you to set animation style. Valid (case-insensitive) values are: ChasingD
 
 ### ButtonClick
 
-[[Method('Button', 'ButtonClick', false)]]
+_Block preview not available_
 
 Perform a button click as function.
 
 ### SetShadow
 
-[[Method('Button', 'SetShadow', false, 'x y radius color')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -88,7 +88,7 @@ Place a blurred shadow of text underneath the text, drawn with the specified x, 
 
 ### WithIconFromFontAwesome
 
-[[Method('Button', 'WithIconFromFontAwesome', false, 'position iconName iconColor padding size')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -105,7 +105,7 @@ Show an image on the given position near to the button. You can use following wo
 
 ### WithIconFromMaterialFont
 
-[[Method('Button', 'WithIconFromMaterialFont', false, 'position iconName iconColor padding size')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -122,7 +122,7 @@ Show an image on the given position near to the button. You can use following wo
 
 ### WithIconFromPicture
 
-[[Method('Button', 'WithIconFromPicture', false, 'position picture padding width height')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -404,8 +404,7 @@ Specifies the component's vertical height, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's vertical height as a percentage
- of the height of its parent Component.
+Specifies the component's vertical height as a percentage   of the height of its parent Component.
 
 ### Row
 
@@ -438,5 +437,4 @@ Specifies the component's horizontal width, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width as a percentage
- of the Width of its parent Component.
+Specifies the component's horizontal width as a percentage   of the Width of its parent Component.

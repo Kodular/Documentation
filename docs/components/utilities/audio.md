@@ -29,7 +29,7 @@ Event triggered when a error occurred.
 
 ### IsSoundEffectsEnabled
 
-[[Method('Audio', 'IsSoundEffectsEnabled', true, 'component')]]
+_Block preview not available_
 
 {>>Returns `boolean`<<}
 
@@ -44,25 +44,25 @@ Returns true whether a component should have sound effects enabled for events su
 
 ### RingerModeNormal
 
-[[Method('Audio', 'RingerModeNormal', false)]]
+_Block preview not available_
 
 Sets the ringer mode to "normal".
 
 ### RingerModeSilent
 
-[[Method('Audio', 'RingerModeSilent', false)]]
+_Block preview not available_
 
 Sets the ringer mode to "silent".
 
 ### RingerModeVibrate
 
-[[Method('Audio', 'RingerModeVibrate', false)]]
+_Block preview not available_
 
 Sets the ringer mode to "vibrate".
 
 ### SoundEffectsEnabled
 
-[[Method('Audio', 'SoundEffectsEnabled', false, 'component enabled')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 

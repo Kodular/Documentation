@@ -24,8 +24,7 @@ Non-visible component that communicates with a Firebase to store and retrieve in
     |value|`any`|
 
 
-Indicates that the data in the Firebase has changed.
- Launches an event with the tag and value that have been updated.
+Indicates that the data in the Firebase has changed.   Launches an event with the tag and value that have been updated.
 
 ### Firebase Error
 
@@ -84,7 +83,7 @@ Event triggered when we have received the list of known tags. Used with the "Get
 
 ### AppendValue
 
-[[Method('Firebase Database', 'AppendValue', false, 'tag valueToAdd')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -98,7 +97,7 @@ Append a value to the end of a list atomically. If two devices use this function
 
 ### ClearTag
 
-[[Method('Firebase Database', 'ClearTag', false, 'tag')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -111,13 +110,13 @@ Remove the tag from Firebase
 
 ### GetTagList
 
-[[Method('Firebase Database', 'GetTagList', false)]]
+_Block preview not available_
 
 Get the list of tags for this application. When complete a "TagList" event will be triggered with the list of known tags.
 
 ### GetValue
 
-[[Method('Firebase Database', 'GetValue', false, 'tag valueIfTagNotThere')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -127,25 +126,23 @@ Get the list of tags for this application. When complete a "TagList" event will 
     |value If Tag Not There|`any`|
 
 
-GetValue asks Firebase to get the value stored under the given tag.
- It will pass valueIfTagNotThere to GotValue if there is no value stored
- under the tag.
+GetValue asks Firebase to get the value stored under the given tag.   It will pass valueIfTagNotThere to GotValue if there is no value stored   under the tag.
 
 ### GoOffline
 
-[[Method('Firebase Database', 'GoOffline', false)]]
+_Block preview not available_
 
 Take the database offline
 
 ### GoOnline
 
-[[Method('Firebase Database', 'GoOnline', false)]]
+_Block preview not available_
 
 Take the database online
 
 ### RemoveFirst
 
-[[Method('Firebase Database', 'RemoveFirst', false, 'tag')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -158,7 +155,7 @@ Return the first element of a list and atomically remove it. If two devices use 
 
 ### StoreValue
 
-[[Method('Firebase Database', 'StoreValue', false, 'tag valueToStore')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -172,7 +169,7 @@ Asks Firebase to store the given value under the given tag.
 
 ### Unauthenticate
 
-[[Method('Firebase Database', 'Unauthenticate', false)]]
+_Block preview not available_
 
 If you are having difficulty with the Companion and you are switching between different Firebase accounts, you may need to use this function to clear internal Firebase caches. You can just use the "Do It" function on this block in the blocks editor. Note: You should not normally need to use this block as part of an application.
 

@@ -80,19 +80,19 @@ Event triggered when the consent was changed.
 
 ### Load Ad
 
-[[Method('AdMob Interstitial', 'Load Ad', false)]]
+_Block preview not available_
 
 Load a new AdMob Interstitial ad.
 
 ### RevokeConsent
 
-[[Method('AdMob Interstitial', 'RevokeConsent', false)]]
+_Block preview not available_
 
 Deletes the user's consent. Useful if you want to test the consent dialog in development.
 
 ### ShowInterstitialAd
 
-[[Method('AdMob Interstitial', 'ShowInterstitialAd', false)]]
+_Block preview not available_
 
 It will show the Interstitial Ad
 

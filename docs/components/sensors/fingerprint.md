@@ -56,19 +56,19 @@ Trigger when the Authentication Succeeded
 
 ### Authenticate
 
-[[Method('Fingerprint', 'Authenticate', false)]]
+_Block preview not available_
 
 Authenticate the user with a Fingerprint scanner
 
 ### CancelScan
 
-[[Method('Fingerprint', 'CancelScan', false)]]
+_Block preview not available_
 
 Cancel the current Fingerprint Scan
 
 ### HasFingerPrintScanner
 
-[[Method('Fingerprint', 'HasFingerPrintScanner', true)]]
+_Block preview not available_
 
 {>>Returns `boolean`<<}
 
@@ -76,7 +76,7 @@ True if hardware is present and functional, false otherwise
 
 ### HasFingersAdded
 
-[[Method('Fingerprint', 'HasFingersAdded', true)]]
+_Block preview not available_
 
 {>>Returns `boolean`<<}
 

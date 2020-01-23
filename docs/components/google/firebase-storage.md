@@ -116,7 +116,7 @@ Triggers when the file was successfully uploaded
 
 ### DeleteFile
 
-[[Method('Firebase Storage', 'DeleteFile', false, 'file')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -129,7 +129,7 @@ Try to delete a file from Firebase Storage
 
 ### DownloadFile
 
-[[Method('Firebase Storage', 'DownloadFile', false, 'file toFolder')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -143,7 +143,7 @@ Try to download a file from Firebase Storage
 
 ### GetBucket
 
-[[Method('Firebase Storage', 'GetBucket', true)]]
+_Block preview not available_
 
 {>>Returns `text`<<}
 
@@ -151,31 +151,31 @@ Get the name of the Storage Bucket
 
 ### PauseDownloads
 
-[[Method('Firebase Storage', 'PauseDownloads', false)]]
+_Block preview not available_
 
 Pause all the active downloads
 
 ### PauseUploads
 
-[[Method('Firebase Storage', 'PauseUploads', false)]]
+_Block preview not available_
 
 Pause all the active uploads
 
 ### ResumeDownloads
 
-[[Method('Firebase Storage', 'ResumeDownloads', false)]]
+_Block preview not available_
 
 Resume all the active downloads
 
 ### ResumeUploads
 
-[[Method('Firebase Storage', 'ResumeUploads', false)]]
+_Block preview not available_
 
 Resume all the active uploads
 
 ### UploadFile
 
-[[Method('Firebase Storage', 'UploadFile', false, 'file uploadPath')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 

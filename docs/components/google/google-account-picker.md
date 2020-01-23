@@ -29,6 +29,6 @@ Event raised after account has been picked.
 
 ### Pick
 
-[[Method('Google Account Picker', 'Pick', false)]]
+_Block preview not available_
 
 Provide an account picker to pick a Google account.

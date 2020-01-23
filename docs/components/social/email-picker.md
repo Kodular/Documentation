@@ -10,7 +10,11 @@ An EmailPicker is a kind of text box.  If the user begins entering the name or e
 
 The initial contents of the text box and the contents&lt; after user entry is in the `` Text `` property. If the `` Text `` property is initially empty, the contents of the `` Hint `` property will be faintly shown in the text box as a hint to the user.
 
+ 
+
 Other properties affect the appearance of the text box (`` TextAlignment ``, `` BackgroundColor ``, etc.) and whether it can be used (`` Enabled ``).
+
+ 
 
 Text boxes like this are usually used with `` Button `` components, with the user clicking on the button when text entry is complete.
 
@@ -20,15 +24,13 @@ Text boxes like this are usually used with `` Button `` components, with the use
 
 [[Event('Email Picker', 'Got Focus')]]
 
-Event raised when this component is selected for input, such as by
- the user touching it.
+Event raised when this component is selected for input, such as by   the user touching it.
 
 ### Lost Focus
 
 [[Event('Email Picker', 'Lost Focus')]]
 
-Event raised when this component is no longer selected for input, such
- as if the user touches a different text box.
+Event raised when this component is no longer selected for input, such   as if the user touches a different text box.
 
 ### On Text Changed
 
@@ -40,7 +42,7 @@ Event to detect text changes.
 
 ### AnimationStyle
 
-[[Method('Email Picker', 'AnimationStyle', false, 'style position size color')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -56,13 +58,13 @@ Allows you to set animation style. Valid (case-insensitive) values are: ChasingD
 
 ### RequestFocus
 
-[[Method('Email Picker', 'RequestFocus', false)]]
+_Block preview not available_
 
 Sets the textbox active.
 
 ### SetCursorAt
 
-[[Method('Email Picker', 'SetCursorAt', false, 'position')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -75,13 +77,13 @@ Set the cursor to the given position.
 
 ### SetCursorAtEnd
 
-[[Method('Email Picker', 'SetCursorAtEnd', false)]]
+_Block preview not available_
 
 Set the cursor to the end of the text.
 
 ### SetShadow
 
-[[Method('Email Picker', 'SetShadow', false, 'x y radius color')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -360,8 +362,7 @@ Specifies the component's vertical height, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's vertical height as a percentage
- of the height of its parent Component.
+Specifies the component's vertical height as a percentage   of the height of its parent Component.
 
 ### Line Color
 
@@ -418,5 +419,4 @@ Specifies the component's horizontal width, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width as a percentage
- of the Width of its parent Component.
+Specifies the component's horizontal width as a percentage   of the Width of its parent Component.

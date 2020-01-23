@@ -14,7 +14,7 @@ A non-visible component that queries and monitors the device''s battery and its 
 
 ### GetBatteryInfo
 
-[[Method('Battery Utilities', 'GetBatteryInfo', true, 'key')]]
+_Block preview not available_
 
 {>>Returns `list`<<}
 

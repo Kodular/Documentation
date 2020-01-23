@@ -34,7 +34,7 @@ Light level has gone within the range.
 
 ### GetLightLevel
 
-[[Method('NXT Light Sensor', 'GetLightLevel', true)]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 

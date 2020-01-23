@@ -42,7 +42,7 @@ Event to get the serial number after it was requested.
 
 ### CheckForDangerousAPK
 
-[[Method('Device Utilities', 'CheckForDangerousAPK', true)]]
+_Block preview not available_
 
 {>>Returns `boolean`<<}
 
@@ -50,7 +50,7 @@ Returns TRUE if one of 12 known patching or root emulating packages is installed
 
 ### Copy
 
-[[Method('Device Utilities', 'Copy', false, 'text successToastMessage')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -64,7 +64,7 @@ Copy text to clipboard. In case 'Show Success Toast' is true, the toast with you
 
 ### ExternalStorageAvailable
 
-[[Method('Device Utilities', 'ExternalStorageAvailable', true)]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -72,7 +72,7 @@ Available size of external storage in Gigabytes.
 
 ### ExternalStorageTotal
 
-[[Method('Device Utilities', 'ExternalStorageTotal', true)]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -80,7 +80,7 @@ Total external storage size in Gigabytes.
 
 ### ExternalStorageUsed
 
-[[Method('Device Utilities', 'ExternalStorageUsed', true)]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -88,19 +88,19 @@ Size of used-external-storage in Gigabytes.
 
 ### GetIMEI
 
-[[Method('Device Utilities', 'GetIMEI', false)]]
+_Block preview not available_
 
 Get the IMEI of the device. The result will be then at the 'Got IMEI' event.
 
 ### GetSerial
 
-[[Method('Device Utilities', 'GetSerial', false)]]
+_Block preview not available_
 
 A hardware serial number, if available. Alphanumeric only, case-insensitive. For apps targeting SDK higher than N_MR1 this field is set to UNKNOWN.
 
 ### InternalStorageAvailable
 
-[[Method('Device Utilities', 'InternalStorageAvailable', true)]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -108,7 +108,7 @@ Size of available internal storage in Gigabytes.
 
 ### InternalStorageTotal
 
-[[Method('Device Utilities', 'InternalStorageTotal', true)]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -116,7 +116,7 @@ Total size of internal storage in Gigabytes.
 
 ### InternalStorageUsed
 
-[[Method('Device Utilities', 'InternalStorageUsed', true)]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -124,7 +124,7 @@ Size of used-internal-storage in Gigabytes.
 
 ### MemoryFree
 
-[[Method('Device Utilities', 'MemoryFree', true)]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -132,7 +132,7 @@ Total free RAM size in Gigabytes.
 
 ### MemoryTotal
 
-[[Method('Device Utilities', 'MemoryTotal', true)]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -140,7 +140,7 @@ Total RAM size in Gigabytes.
 
 ### MemoryUsed
 
-[[Method('Device Utilities', 'MemoryUsed', true)]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -148,7 +148,7 @@ Size of used-memory in Gigabytes.
 
 ### Parse
 
-[[Method('Device Utilities', 'Parse', true, 'text start end ifTextNotFound')]]
+_Block preview not available_
 
 {>>Returns `text`<<}
 
@@ -166,7 +166,7 @@ Parse a text between two strings. Example: text = abcdef, start = a, end = d, re
 
 ### Paste
 
-[[Method('Device Utilities', 'Paste', true, 'successToastMessage')]]
+_Block preview not available_
 
 {>>Returns `text`<<}
 
@@ -181,7 +181,7 @@ Paste text from clipboard. In case 'Show Success Toast' is true, the toast with 
 
 ### Is Adb Debugging Enabled
 
-[[Method('Device Utilities', 'Is Adb Debugging Enabled', true)]]
+_Block preview not available_
 
 {>>Returns `boolean`<<}
 
@@ -189,7 +189,7 @@ This returns TRUE if ADB debugging is enabled, which could be a sign of hacking 
 
 ### Is Emulator
 
-[[Method('Device Utilities', 'Is Emulator', true)]]
+_Block preview not available_
 
 {>>Returns `boolean`<<}
 
@@ -197,7 +197,7 @@ Returns TRUE if the device operating on an emulator. Developed by Cian.
 
 ### Is Installed From Play Store
 
-[[Method('Device Utilities', 'Is Installed From Play Store', true)]]
+_Block preview not available_
 
 {>>Returns `boolean`<<}
 

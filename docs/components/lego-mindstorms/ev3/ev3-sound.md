@@ -14,7 +14,7 @@ A component that provides a high-level interface to sound functionalities on LEG
 
 ### PlayTone
 
-[[Method('EV3 Sound', 'PlayTone', false, 'volume frequency milliseconds')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -29,7 +29,7 @@ Make the robot play a tone.
 
 ### StopSound
 
-[[Method('EV3 Sound', 'StopSound', false)]]
+_Block preview not available_
 
 Stop any sound on the robot.
 

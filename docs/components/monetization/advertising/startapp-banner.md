@@ -53,7 +53,7 @@ Called when an ad request succeeds.
 
 ### Load Ad
 
-[[Method('StartApp Banner', 'Load Ad', false)]]
+_Block preview not available_
 
 Load a new StartApp Banner ad.
 

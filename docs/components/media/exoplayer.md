@@ -81,19 +81,19 @@ This event returns true or false for the respective simpleExoPlayer statuses.
 
 ### Pause
 
-[[Method('ExoPlayer', 'Pause', false)]]
+_Block preview not available_
 
 Pause the player.
 
 ### Resume
 
-[[Method('ExoPlayer', 'Resume', false)]]
+_Block preview not available_
 
 Resume the player.
 
 ### SeekTo
 
-[[Method('ExoPlayer', 'SeekTo', false, 'position')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -106,19 +106,19 @@ Set a position where the source file should start playing in milliseconds.
 
 ### Start
 
-[[Method('ExoPlayer', 'Start', false)]]
+_Block preview not available_
 
 Start the player.
 
 ### Stop
 
-[[Method('ExoPlayer', 'Stop', false)]]
+_Block preview not available_
 
 Stop the player.
 
 ### is Loading
 
-[[Method('ExoPlayer', 'is Loading', true)]]
+_Block preview not available_
 
 {>>Returns `boolean`<<}
 
@@ -126,7 +126,7 @@ Returns true if the player is current loading.
 
 ### is Pause
 
-[[Method('ExoPlayer', 'is Pause', true)]]
+_Block preview not available_
 
 {>>Returns `boolean`<<}
 
@@ -134,7 +134,7 @@ Returns true if the player is current in pause mode.
 
 ### is Playing
 
-[[Method('ExoPlayer', 'is Playing', true)]]
+_Block preview not available_
 
 {>>Returns `boolean`<<}
 
@@ -142,7 +142,7 @@ Returns true if the player is current playing.
 
 ### is Stopped
 
-[[Method('ExoPlayer', 'is Stopped', true)]]
+_Block preview not available_
 
 {>>Returns `boolean`<<}
 

@@ -34,7 +34,7 @@ Distance has gone within the range.
 
 ### GetDistance
 
-[[Method('NXT Ultrasonic Sensor', 'GetDistance', true)]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 

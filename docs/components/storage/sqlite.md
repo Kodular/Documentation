@@ -57,13 +57,13 @@ Event handler when an error ocurred, returns a string with a message from the er
 
 ### ClearDatabase
 
-[[Method('SQLite', 'ClearDatabase', false)]]
+_Block preview not available_
 
 Clears the database to version 1. Use only while developing, this shouldn't be use on production.
 
 ### Delete
 
-[[Method('SQLite', 'Delete', true, 'table whereClause whereArgs')]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -80,7 +80,7 @@ Executes pre-compiled DELETE statement with specified parameters. Parameters: 1)
 
 ### GetPath
 
-[[Method('SQLite', 'GetPath', true)]]
+_Block preview not available_
 
 {>>Returns `text`<<}
 
@@ -88,7 +88,7 @@ Returns the path to the database
 
 ### Insert
 
-[[Method('SQLite', 'Insert', true, 'table columns values')]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -105,7 +105,7 @@ Executes pre-compiled INSERT statement with specified parameters. Parameters: 1)
 
 ### MultipleSQL
 
-[[Method('SQLite', 'MultipleSQL', false, 'list')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -118,7 +118,7 @@ Execute Multiple SQL Statement asynchronously and returns whether the transactio
 
 ### Query
 
-[[Method('SQLite', 'Query', false, 'table columns selection selectionArgs groupBy having orderBy limit')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -138,7 +138,7 @@ Executes pre-compiled QUERY statement with specified parameters. Parameters: 1) 
 
 ### RawQuery
 
-[[Method('SQLite', 'RawQuery', false, 'sql selectionArgs')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -152,7 +152,7 @@ Executes the provided rawQuery Statement asynchronously. Returns a YailList with
 
 ### Replace
 
-[[Method('SQLite', 'Replace', true, 'table columns values')]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -169,7 +169,7 @@ Executes pre-compiled REPLACE OR INSERT INTO statement with specified parameters
 
 ### SingleSQL
 
-[[Method('SQLite', 'SingleSQL', false, 'sql')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -182,7 +182,7 @@ Execute a Single SQL Statement asynchronously and returns whether the transactio
 
 ### Update
 
-[[Method('SQLite', 'Update', true, 'table columns values whereClause whereArgs')]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 

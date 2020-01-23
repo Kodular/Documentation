@@ -86,13 +86,13 @@ This event is run when a walking step is detected. A walking step is a step that
 
 :warning: ==**Deprecated**==
 
-[[Method('Pedometer', 'Pause', false)]]
+_Block preview not available_
 
 Pause counting of steps and distance.
 
 ### Reset
 
-[[Method('Pedometer', 'Reset', false)]]
+_Block preview not available_
 
 Resets the step counter, distance measure and time running.
 
@@ -100,25 +100,25 @@ Resets the step counter, distance measure and time running.
 
 :warning: ==**Deprecated**==
 
-[[Method('Pedometer', 'Resume', false)]]
+_Block preview not available_
 
 Resumes counting, synonym of Start.
 
 ### Save
 
-[[Method('Pedometer', 'Save', false)]]
+_Block preview not available_
 
 Saves the pedometer state to the phone. Permits permits accumulation of steps and distance between invocations of an App that uses the pedometer. Different Apps will have their own saved state.
 
 ### Start
 
-[[Method('Pedometer', 'Start', false)]]
+_Block preview not available_
 
 Start counting steps
 
 ### Stop
 
-[[Method('Pedometer', 'Stop', false)]]
+_Block preview not available_
 
 Stop counting steps
 

@@ -27,7 +27,7 @@ Event to detect that a page was selected.
 
 ### AddComponentToView
 
-[[Method('View Pager', 'AddComponentToView', false, 'component tabName')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -41,13 +41,13 @@ Add a component to the view pager. The first added component will be the first v
 
 ### RemoveAllTabs
 
-[[Method('View Pager', 'RemoveAllTabs', false)]]
+_Block preview not available_
 
 Remove all tab's from view pager.
 
 ### RemoveViewAt
 
-[[Method('View Pager', 'RemoveViewAt', false, 'position')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -193,8 +193,7 @@ Specifies the component's vertical height, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's vertical height as a percentage
- of the height of its parent Component.
+Specifies the component's vertical height as a percentage   of the height of its parent Component.
 
 ### Row
 
@@ -238,5 +237,4 @@ Specifies the component's horizontal width, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width as a percentage
- of the Width of its parent Component.
+Specifies the component's horizontal width as a percentage   of the Width of its parent Component.

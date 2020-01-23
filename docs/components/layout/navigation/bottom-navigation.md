@@ -28,7 +28,7 @@ Event triggers when an item was selected.
 
 ### AddItem
 
-[[Method('Bottom Navigation', 'AddItem', false, 'id title image')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -43,13 +43,13 @@ Add an item to the bottom menu
 
 ### RemoveAllItems
 
-[[Method('Bottom Navigation', 'RemoveAllItems', false)]]
+_Block preview not available_
 
 Remove all items from the bottom menu
 
 ### RemoveItem
 
-[[Method('Bottom Navigation', 'RemoveItem', false, 'id')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -62,7 +62,7 @@ Remove an item from the bottom menu
 
 ### SelectItem
 
-[[Method('Bottom Navigation', 'SelectItem', false, 'id')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -75,7 +75,7 @@ Select an item from the bottom menu
 
 ### UpdateItem
 
-[[Method('Bottom Navigation', 'UpdateItem', false, 'id title image')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 

@@ -48,7 +48,7 @@ Light level has gone within the range.
 
 ### GetColorCode
 
-[[Method('EV3 Color Sensor', 'GetColorCode', true)]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -56,7 +56,7 @@ It returns the color code from 0 to 7 corresponding to no color, black, blue, gr
 
 ### GetColorName
 
-[[Method('EV3 Color Sensor', 'GetColorName', true)]]
+_Block preview not available_
 
 {>>Returns `text`<<}
 
@@ -64,7 +64,7 @@ Return the color name in one of "No Color", "Black", "Blue", "Green", "Yellow", 
 
 ### GetLightLevel
 
-[[Method('EV3 Color Sensor', 'GetLightLevel', true)]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -72,19 +72,19 @@ It returns the light level in percentage, or -1 when the light level cannot be r
 
 ### SetAmbientMode
 
-[[Method('EV3 Color Sensor', 'SetAmbientMode', false)]]
+_Block preview not available_
 
 Make the sensor read the light level without reflected light.
 
 ### SetColorMode
 
-[[Method('EV3 Color Sensor', 'SetColorMode', false)]]
+_Block preview not available_
 
 Enter the color detection mode.
 
 ### SetReflectedMode
 
-[[Method('EV3 Color Sensor', 'SetReflectedMode', false)]]
+_Block preview not available_
 
 Make the sensor read the light level with reflected light.
 

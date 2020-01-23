@@ -47,13 +47,13 @@ You will find here the server status from the ocr provider. Possible results are
 
 ### GetOcrServerStatus
 
-[[Method('OCR', 'GetOcrServerStatus', false)]]
+_Block preview not available_
 
 Get the server status from the free ocr.space server. This is helpful if you want to know if the server is online or offline. Returns true when online, else false when offline.
 
 ### GetTextFromImageUrl
 
-[[Method('OCR', 'GetTextFromImageUrl', false, 'imageUrl')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -66,7 +66,7 @@ Get the text from a picture via the image url. Example: http://name/yourimage.jp
 
 ### UploadImage
 
-[[Method('OCR', 'UploadImage', false, 'path')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 

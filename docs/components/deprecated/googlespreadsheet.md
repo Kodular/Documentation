@@ -35,7 +35,7 @@ Triggered after an actions such as storing data has occurred.
 
 ### GetCellData
 
-[[Method('GoogleSpreadsheet', 'GetCellData', true, 'columnName rowNumber')]]
+_Block preview not available_
 
 {>>Returns `text`<<}
 
@@ -51,7 +51,7 @@ For the given columnName and rowNumber, retrieves the spreadsheet cell data
 
 ### GetColumnData
 
-[[Method('GoogleSpreadsheet', 'GetColumnData', true, 'columnName')]]
+_Block preview not available_
 
 {>>Returns `list`<<}
 
@@ -66,7 +66,7 @@ Retrieves all data for an entire column
 
 ### GetRowData
 
-[[Method('GoogleSpreadsheet', 'GetRowData', true, 'rowNumber')]]
+_Block preview not available_
 
 {>>Returns `list`<<}
 
@@ -81,13 +81,13 @@ Retrieves data for a specific row number
 
 ### GetSpreadsheetData
 
-[[Method('GoogleSpreadsheet', 'GetSpreadsheetData', false)]]
+_Block preview not available_
 
 For the given ApiEndpoint and Spreadsheet, retrieves all data from the spreadsheet.
 
 ### StoreData
 
-[[Method('GoogleSpreadsheet', 'StoreData', false, 'dataToStore')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 

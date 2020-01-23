@@ -30,7 +30,7 @@ Event to detect when a link was converted.
 
 ### ShortToUrl
 
-[[Method('Google Shortlink', 'ShortToUrl', false, 'url')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -43,7 +43,7 @@ Convert a short link from google into a normal link. Powerd by Google.
 
 ### UrlToShort
 
-[[Method('Google Shortlink', 'UrlToShort', false, 'url')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 

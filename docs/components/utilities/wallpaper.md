@@ -48,25 +48,25 @@ Event to detect that the user has cleared/deleted the wallpaper.
 
 ### Clear
 
-[[Method('Wallpaper', 'Clear', false)]]
+_Block preview not available_
 
 Remove any currently set system wallpaper, reverting to the system's built-in wallpaper.
 
 ### ClearWallpaper
 
-[[Method('Wallpaper', 'ClearWallpaper', false)]]
+_Block preview not available_
 
 Reset all wallpaper to the factory default. This block works only on devices with Android 9+.
 
 ### GetWallpaper
 
-[[Method('Wallpaper', 'GetWallpaper', false)]]
+_Block preview not available_
 
 Retrieve the current system wallpaper; if no wallpaper is set, the system built-in static wallpaper is returned.
 
 ### SetLockScreenWallpaper
 
-[[Method('Wallpaper', 'SetLockScreenWallpaper', false, 'image')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -79,7 +79,7 @@ Change the current lock screen wallpaper. This block works only on devices with 
 
 ### SetWallpaper
 
-[[Method('Wallpaper', 'SetWallpaper', false, 'image')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 

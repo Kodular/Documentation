@@ -73,13 +73,13 @@ Called when an ad request failed. message will display the reason for why the ad
 
 ### Load Ad
 
-[[Method('Facebook Rewarded Video', 'Load Ad', false)]]
+_Block preview not available_
 
 Loads a new ad.
 
 ### ShowAd
 
-[[Method('Facebook Rewarded Video', 'ShowAd', false)]]
+_Block preview not available_
 
 Shows an ad to the user.
 

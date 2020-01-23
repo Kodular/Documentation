@@ -54,7 +54,7 @@ Event that's raised when a text message is received by the phone.
 
 ### SendMessage
 
-[[Method('Texting', 'SendMessage', false)]]
+_Block preview not available_
 
 Send a text message
 

@@ -34,7 +34,7 @@ Sound level has gone within the range.
 
 ### GetSoundLevel
 
-[[Method('NXT Sound Sensor', 'GetSoundLevel', true)]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 

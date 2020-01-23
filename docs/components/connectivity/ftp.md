@@ -93,19 +93,19 @@ This event returns the reason if a upload was not successful.
 
 ### Connect
 
-[[Method('FTP', 'Connect', false)]]
+_Block preview not available_
 
 Start the connection to the ftp server.
 
 ### Disconnect
 
-[[Method('FTP', 'Disconnect', false)]]
+_Block preview not available_
 
 Disconnect the current connection.
 
 ### DownloadFile
 
-[[Method('FTP', 'DownloadFile', false, 'remoteFilepath destination')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -119,7 +119,7 @@ Start downloading a file.
 
 ### GetListOfFiles
 
-[[Method('FTP', 'GetListOfFiles', true, 'dir')]]
+_Block preview not available_
 
 {>>Returns `list`<<}
 
@@ -134,7 +134,7 @@ Get a list of files in a directory. Returns a empty list if a error occurs.
 
 ### UploadFile
 
-[[Method('FTP', 'UploadFile', false, 'filePath newName')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -148,7 +148,7 @@ Start uploading a file.
 
 ### Delete Dir
 
-[[Method('FTP', 'Delete Dir', false, 'dir')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -161,7 +161,7 @@ Delete a directory on the ftp server.
 
 ### make Dir
 
-[[Method('FTP', 'make Dir', false, 'dir')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 

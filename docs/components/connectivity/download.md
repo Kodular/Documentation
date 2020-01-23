@@ -63,13 +63,13 @@ Event to detect when the user clicks on a running download, either from a system
 
 ### Download
 
-[[Method('Download', 'Download', false)]]
+_Block preview not available_
 
 Start the download process of the given download url.
 
 ### GetFileSize
 
-[[Method('Download', 'GetFileSize', false, 'path')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -82,7 +82,7 @@ Get the file size (in bytes) of a file that is stored online or on your device. 
 
 ### ShowDownload
 
-[[Method('Download', 'ShowDownload', false)]]
+_Block preview not available_
 
 You can open the download folder with this block.
 

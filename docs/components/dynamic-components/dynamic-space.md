@@ -14,7 +14,7 @@ A component to create dynamic space in Arrangements.
 
 ### CreateSpace
 
-[[Method('Dynamic Space', 'CreateSpace', false, 'id arrangement width height')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -30,7 +30,7 @@ Create a new space component dynamically. Use for width/height '-1' for wrap con
 
 ### DeleteSpace
 
-[[Method('Dynamic Space', 'DeleteSpace', false, 'id')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -43,7 +43,7 @@ Remove a space component with the given id.
 
 ### GetHeight
 
-[[Method('Dynamic Space', 'GetHeight', true, 'id')]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -58,7 +58,7 @@ Get the Height of a space component.
 
 ### GetSpaceById
 
-[[Method('Dynamic Space', 'GetSpaceById', true, 'id')]]
+_Block preview not available_
 
 {>>Returns `component`<<}
 
@@ -73,7 +73,7 @@ Returns the space referenced by its id.
 
 ### GetWidth
 
-[[Method('Dynamic Space', 'GetWidth', true, 'id')]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -88,7 +88,7 @@ Get the Width of a space component.
 
 ### SetHeight
 
-[[Method('Dynamic Space', 'SetHeight', false, 'id height')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -102,7 +102,7 @@ Update the Height of a space component.
 
 ### SetWidth
 
-[[Method('Dynamic Space', 'SetWidth', false, 'id width')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 

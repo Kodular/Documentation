@@ -14,7 +14,7 @@ A component that provides a low-level interface to a LEGO MINDSTORMS EV3 robot, 
 
 ### GetBatteryCurrent
 
-[[Method('EV3 Commands', 'GetBatteryCurrent', true)]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -22,7 +22,7 @@ Get the battery current.
 
 ### GetBatteryVoltage
 
-[[Method('EV3 Commands', 'GetBatteryVoltage', true)]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -30,7 +30,7 @@ Get the battery voltage.
 
 ### GetFirmwareBuild
 
-[[Method('EV3 Commands', 'GetFirmwareBuild', true)]]
+_Block preview not available_
 
 {>>Returns `text`<<}
 
@@ -38,7 +38,7 @@ Get the firmware build on EV3.
 
 ### GetFirmwareVersion
 
-[[Method('EV3 Commands', 'GetFirmwareVersion', true)]]
+_Block preview not available_
 
 {>>Returns `text`<<}
 
@@ -46,7 +46,7 @@ Get the firmware version on EV3.
 
 ### GetHardwareVersion
 
-[[Method('EV3 Commands', 'GetHardwareVersion', true)]]
+_Block preview not available_
 
 {>>Returns `text`<<}
 
@@ -54,7 +54,7 @@ Get the hardware version of EV3.
 
 ### GetOSBuild
 
-[[Method('EV3 Commands', 'GetOSBuild', true)]]
+_Block preview not available_
 
 {>>Returns `text`<<}
 
@@ -62,7 +62,7 @@ Get the OS build on EV3.
 
 ### GetOSVersion
 
-[[Method('EV3 Commands', 'GetOSVersion', true)]]
+_Block preview not available_
 
 {>>Returns `text`<<}
 
@@ -70,7 +70,7 @@ Get the OS version on EV3.
 
 ### KeepAlive
 
-[[Method('EV3 Commands', 'KeepAlive', false, 'minutes')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 

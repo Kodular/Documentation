@@ -28,7 +28,7 @@ Timer has gone off.
 
 ### AddDays
 
-[[Method('Clock', 'AddDays', true, 'instant quantity')]]
+_Block preview not available_
 
 {>>Returns `InstantInTime`<<}
 
@@ -44,7 +44,7 @@ An instant in time some days after the argument
 
 ### AddDuration
 
-[[Method('Clock', 'AddDuration', true, 'instant quantity')]]
+_Block preview not available_
 
 {>>Returns `InstantInTime`<<}
 
@@ -60,7 +60,7 @@ An instant in time some duration after the argument
 
 ### AddHours
 
-[[Method('Clock', 'AddHours', true, 'instant quantity')]]
+_Block preview not available_
 
 {>>Returns `InstantInTime`<<}
 
@@ -76,7 +76,7 @@ An instant in time some hours after the argument
 
 ### AddMinutes
 
-[[Method('Clock', 'AddMinutes', true, 'instant quantity')]]
+_Block preview not available_
 
 {>>Returns `InstantInTime`<<}
 
@@ -92,7 +92,7 @@ An instant in time some minutes after the argument
 
 ### AddMonths
 
-[[Method('Clock', 'AddMonths', true, 'instant quantity')]]
+_Block preview not available_
 
 {>>Returns `InstantInTime`<<}
 
@@ -108,7 +108,7 @@ An instant in time some months after the argument
 
 ### AddSeconds
 
-[[Method('Clock', 'AddSeconds', true, 'instant quantity')]]
+_Block preview not available_
 
 {>>Returns `InstantInTime`<<}
 
@@ -124,7 +124,7 @@ An instant in time some seconds after the argument
 
 ### AddWeeks
 
-[[Method('Clock', 'AddWeeks', true, 'instant quantity')]]
+_Block preview not available_
 
 {>>Returns `InstantInTime`<<}
 
@@ -140,7 +140,7 @@ An instant in time some weeks after the argument
 
 ### AddYears
 
-[[Method('Clock', 'AddYears', true, 'instant quantity')]]
+_Block preview not available_
 
 {>>Returns `InstantInTime`<<}
 
@@ -156,7 +156,7 @@ An instant in time some years after the argument
 
 ### DayOfMonth
 
-[[Method('Clock', 'DayOfMonth', true, 'instant')]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -171,7 +171,7 @@ The day of the month
 
 ### Duration
 
-[[Method('Clock', 'Duration', true, 'start end')]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -187,7 +187,7 @@ Milliseconds elapsed between instants
 
 ### DurationToDays
 
-[[Method('Clock', 'DurationToDays', true, 'duration')]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -202,7 +202,7 @@ convert duration to days
 
 ### DurationToHours
 
-[[Method('Clock', 'DurationToHours', true, 'duration')]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -217,7 +217,7 @@ convert duration to hours
 
 ### DurationToMinutes
 
-[[Method('Clock', 'DurationToMinutes', true, 'duration')]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -232,7 +232,7 @@ convert duration to minutes
 
 ### DurationToSeconds
 
-[[Method('Clock', 'DurationToSeconds', true, 'duration')]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -247,7 +247,7 @@ convert duration to seconds
 
 ### DurationToWeeks
 
-[[Method('Clock', 'DurationToWeeks', true, 'duration')]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -262,7 +262,7 @@ convert duration to weeks
 
 ### FormatDate
 
-[[Method('Clock', 'FormatDate', true, 'instant pattern')]]
+_Block preview not available_
 
 {>>Returns `text`<<}
 
@@ -278,7 +278,7 @@ Text representing the date of an instant in the specified pattern
 
 ### FormatDateTime
 
-[[Method('Clock', 'FormatDateTime', true, 'instant pattern')]]
+_Block preview not available_
 
 {>>Returns `text`<<}
 
@@ -294,7 +294,7 @@ Text representing the date and time of an instant in the specified pattern
 
 ### FormatTime
 
-[[Method('Clock', 'FormatTime', true, 'instant')]]
+_Block preview not available_
 
 {>>Returns `text`<<}
 
@@ -309,7 +309,7 @@ Text representing the time of an instant
 
 ### GetMillis
 
-[[Method('Clock', 'GetMillis', true, 'instant')]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -324,7 +324,7 @@ The instant in time measured as milliseconds since 1970.
 
 ### Hour
 
-[[Method('Clock', 'Hour', true, 'instant')]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -339,7 +339,7 @@ The hour of the day
 
 ### MakeDate
 
-[[Method('Clock', 'MakeDate', true, 'year month day')]]
+_Block preview not available_
 
 {>>Returns `InstantInTime`<<}
 
@@ -352,12 +352,11 @@ The hour of the day
     |day|`number`|
 
 
-Allows the user to set the clock to be a date value.
-Valid values for the month field are 1-12 and 1-31 for the day field.
+Allows the user to set the clock to be a date value.  Valid values for the month field are 1-12 and 1-31 for the day field.
 
 ### MakeInstant
 
-[[Method('Clock', 'MakeInstant', true, 'from')]]
+_Block preview not available_
 
 {>>Returns `InstantInTime`<<}
 
@@ -372,7 +371,7 @@ An instant in time specified by MM/dd/YYYY hh:mm:ss or MM/dd/YYYY or hh:mm
 
 ### MakeInstantFromMillis
 
-[[Method('Clock', 'MakeInstantFromMillis', true, 'millis')]]
+_Block preview not available_
 
 {>>Returns `InstantInTime`<<}
 
@@ -387,7 +386,7 @@ An instant in time specified by the milliseconds since 1970.
 
 ### MakeInstantFromParts
 
-[[Method('Clock', 'MakeInstantFromParts', true, 'year month day hour minute second')]]
+_Block preview not available_
 
 {>>Returns `InstantInTime`<<}
 
@@ -403,12 +402,11 @@ An instant in time specified by the milliseconds since 1970.
     |second|`number`|
 
 
-Allows the user to set the date and time to be displayed when the clock opens.
-Valid values for the month field are 1-12 and 1-31 for the day field.
+Allows the user to set the date and time to be displayed when the clock opens.  Valid values for the month field are 1-12 and 1-31 for the day field.
 
 ### MakeTime
 
-[[Method('Clock', 'MakeTime', true, 'hour minute second')]]
+_Block preview not available_
 
 {>>Returns `InstantInTime`<<}
 
@@ -425,7 +423,7 @@ Allows the user to set the time of the clock - Valid format is hh:mm:ss
 
 ### Minute
 
-[[Method('Clock', 'Minute', true, 'instant')]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -440,7 +438,7 @@ The minute of the hour
 
 ### Month
 
-[[Method('Clock', 'Month', true, 'instant')]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -455,7 +453,7 @@ The month of the year represented as a number from 1 to 12)
 
 ### MonthName
 
-[[Method('Clock', 'MonthName', true, 'instant')]]
+_Block preview not available_
 
 {>>Returns `text`<<}
 
@@ -470,7 +468,7 @@ The name of the month
 
 ### Now
 
-[[Method('Clock', 'Now', true)]]
+_Block preview not available_
 
 {>>Returns `InstantInTime`<<}
 
@@ -478,7 +476,7 @@ The current instant in time read from phone's clock
 
 ### Second
 
-[[Method('Clock', 'Second', true, 'instant')]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -493,7 +491,7 @@ The second of the minute
 
 ### SystemTime
 
-[[Method('Clock', 'SystemTime', true)]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -501,7 +499,7 @@ The phone's internal time
 
 ### Weekday
 
-[[Method('Clock', 'Weekday', true, 'instant')]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -516,7 +514,7 @@ The day of the week represented as a number from 1 (Sunday) to 7 (Saturday)
 
 ### WeekdayName
 
-[[Method('Clock', 'WeekdayName', true, 'instant')]]
+_Block preview not available_
 
 {>>Returns `text`<<}
 
@@ -531,7 +529,7 @@ The name of the day of the week
 
 ### Year
 
-[[Method('Clock', 'Year', true, 'instant')]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 

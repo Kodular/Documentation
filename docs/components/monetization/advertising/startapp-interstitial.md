@@ -80,13 +80,13 @@ Called when an ad request failed to load. The message will display the error cod
 
 ### Load Ad
 
-[[Method('StartApp Interstitial', 'Load Ad', false)]]
+_Block preview not available_
 
 Load a new StartApp Interstitial ad.
 
 ### ShowInterstitialAd
 
-[[Method('StartApp Interstitial', 'ShowInterstitialAd', false)]]
+_Block preview not available_
 
 It will show the Interstitial Ad
 

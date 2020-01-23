@@ -31,7 +31,7 @@ This event is triggered when there was a error catched. Possible values for the 
 
 ### BounceHorizontal
 
-[[Method('Animation Utilities', 'BounceHorizontal', false, 'component startPosition endPosition duration')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -47,7 +47,7 @@ Start a horizontal bounce animation. The duration is set in millisecond. Use as 
 
 ### BounceVertical
 
-[[Method('Animation Utilities', 'BounceVertical', false, 'component startPosition endPosition duration')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -63,7 +63,7 @@ Start a vertical bounce animation. The duration is set in millisecond. Use as ex
 
 ### GetBottomPosition
 
-[[Method('Animation Utilities', 'GetBottomPosition', true, 'component')]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -78,7 +78,7 @@ Returns the bottom position of a component. It will return '-9999' if there was 
 
 ### GetLeftPosition
 
-[[Method('Animation Utilities', 'GetLeftPosition', true, 'component')]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -93,7 +93,7 @@ Returns the left position of a component. It will return '-9999' if there was a 
 
 ### GetRightPosition
 
-[[Method('Animation Utilities', 'GetRightPosition', true, 'component')]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -108,7 +108,7 @@ Returns the right position of a component. It will return '-9999' if there was a
 
 ### GetTopPosition
 
-[[Method('Animation Utilities', 'GetTopPosition', true, 'component')]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -123,7 +123,7 @@ Returns the top position of a component. It will return '-9999' if there was a e
 
 ### GetXPosition
 
-[[Method('Animation Utilities', 'GetXPosition', true, 'component')]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -138,7 +138,7 @@ Returns the x position of a component. It will return '-9999' if there was a err
 
 ### GetYPosition
 
-[[Method('Animation Utilities', 'GetYPosition', true, 'component')]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -153,7 +153,7 @@ Returns the y position of a component. It will return '-9999' if there was a err
 
 ### OvershootHorizontal
 
-[[Method('Animation Utilities', 'OvershootHorizontal', false, 'component startPosition endPosition duration tension')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -170,7 +170,7 @@ Start a horizontal overshoot animation. If 'tension' is set to 0 you will not se
 
 ### OvershootVertical
 
-[[Method('Animation Utilities', 'OvershootVertical', false, 'component startPosition endPosition duration tension')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -187,7 +187,7 @@ Start a vertical overshoot animation. If 'tension' is set to 0 you will not see 
 
 ### Rotation
 
-[[Method('Animation Utilities', 'Rotation', false, 'component rotationStartDegrees rotationEndDegrees duration')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -203,7 +203,7 @@ Start a rotation on any component. Use as example in 'rotation Start Degrees' 0,
 
 ### Zoom
 
-[[Method('Animation Utilities', 'Zoom', false, 'component startScale endScale duration')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 

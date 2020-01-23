@@ -14,7 +14,7 @@ A non-visible component that encrypts and decrypts data using a variety of techn
 
 ### AES128Decode
 
-[[Method('Cryptography', 'AES128Decode', true, 'aes128Hash')]]
+_Block preview not available_
 
 {>>Returns `text`<<}
 
@@ -29,7 +29,7 @@ Decodes the given hash using the given key through AES-128. If any exception occ
 
 ### AES128Encode
 
-[[Method('Cryptography', 'AES128Encode', true, 'inputText')]]
+_Block preview not available_
 
 {>>Returns `text`<<}
 
@@ -44,7 +44,7 @@ Encodes the given string using the given key through AES-128. If any exception o
 
 ### AES128GenKey
 
-[[Method('Cryptography', 'AES128GenKey', true)]]
+_Block preview not available_
 
 {>>Returns `text`<<}
 
@@ -52,7 +52,7 @@ Generates a secure random AES 128 key
 
 ### AES256Decode
 
-[[Method('Cryptography', 'AES256Decode', true, 'aes256Hash')]]
+_Block preview not available_
 
 {>>Returns `text`<<}
 
@@ -67,7 +67,7 @@ Decodes the given hash using the given key through AES-256. If there are any exc
 
 ### AES256Encode
 
-[[Method('Cryptography', 'AES256Encode', true, 'inputText')]]
+_Block preview not available_
 
 {>>Returns `text`<<}
 
@@ -82,7 +82,7 @@ Encodes the given string using the given key through AES-256. If there are any e
 
 ### AES256GenKey
 
-[[Method('Cryptography', 'AES256GenKey', true)]]
+_Block preview not available_
 
 {>>Returns `text`<<}
 
@@ -90,7 +90,7 @@ Generates a secure random AES 256 key
 
 ### BCryptCreateHash
 
-[[Method('Cryptography', 'BCryptCreateHash', true, 'inputText salt')]]
+_Block preview not available_
 
 {>>Returns `text`<<}
 
@@ -106,7 +106,7 @@ Generates a hash using BCrypt
 
 ### BCryptGenerateSalt
 
-[[Method('Cryptography', 'BCryptGenerateSalt', true)]]
+_Block preview not available_
 
 {>>Returns `text`<<}
 
@@ -114,7 +114,7 @@ Generates a salt usable for hashing with BCrypt
 
 ### BCryptVerifyPassword
 
-[[Method('Cryptography', 'BCryptVerifyPassword', true, 'inputText correctHash')]]
+_Block preview not available_
 
 {>>Returns `boolean`<<}
 
@@ -130,7 +130,7 @@ Verifies if the input password is the same one as the correct hashed password us
 
 ### Base64Decode
 
-[[Method('Cryptography', 'Base64Decode', true, 'base64Hash')]]
+_Block preview not available_
 
 {>>Returns `text`<<}
 
@@ -145,7 +145,7 @@ Decodes the given hash using Base64
 
 ### Base64Encode
 
-[[Method('Cryptography', 'Base64Encode', true, 'inputText')]]
+_Block preview not available_
 
 {>>Returns `text`<<}
 
@@ -160,7 +160,7 @@ Encodes the given string using Base64
 
 ### Enigma
 
-[[Method('Cryptography', 'Enigma', true, 'inputText rotor1 rotor2 rotor3 reflector plugboard')]]
+_Block preview not available_
 
 {>>Returns `text`<<}
 
@@ -180,7 +180,7 @@ Encrypts or decrypts the given string simulating an Enigma machine. Rotors can g
 
 ### MD5CreateHash
 
-[[Method('Cryptography', 'MD5CreateHash', true, 'inputText')]]
+_Block preview not available_
 
 {>>Returns `text`<<}
 
@@ -195,7 +195,7 @@ Generates a MD5 hash
 
 ### PBKDF2CreateHash
 
-[[Method('Cryptography', 'PBKDF2CreateHash', true, 'inputText')]]
+_Block preview not available_
 
 {>>Returns `text`<<}
 
@@ -210,7 +210,7 @@ Generates a hash using PBKDF2
 
 ### PBKDF2VerifyPassword
 
-[[Method('Cryptography', 'PBKDF2VerifyPassword', true, 'inputText correctHash')]]
+_Block preview not available_
 
 {>>Returns `boolean`<<}
 
@@ -226,7 +226,7 @@ Verifies if the input password is the same one as the correct hashed password us
 
 ### SHA1
 
-[[Method('Cryptography', 'SHA1', true, 'inputText')]]
+_Block preview not available_
 
 {>>Returns `text`<<}
 
@@ -241,7 +241,7 @@ Generates a hashed SHA-1 string
 
 ### SHA224
 
-[[Method('Cryptography', 'SHA224', true, 'inputText')]]
+_Block preview not available_
 
 {>>Returns `text`<<}
 
@@ -256,7 +256,7 @@ Generates a hashed SHA-224 string
 
 ### SHA256
 
-[[Method('Cryptography', 'SHA256', true, 'inputText')]]
+_Block preview not available_
 
 {>>Returns `text`<<}
 
@@ -271,7 +271,7 @@ Generates a hashed SHA-256 string
 
 ### SHA384
 
-[[Method('Cryptography', 'SHA384', true, 'inputText')]]
+_Block preview not available_
 
 {>>Returns `text`<<}
 
@@ -286,7 +286,7 @@ Generates a hashed SHA-384 string
 
 ### SHA512
 
-[[Method('Cryptography', 'SHA512', true, 'inputText')]]
+_Block preview not available_
 
 {>>Returns `text`<<}
 
@@ -301,7 +301,7 @@ Generates a hashed SHA-512 string
 
 ### TripleDESDecode
 
-[[Method('Cryptography', 'TripleDESDecode', true, 'tripleDESHash')]]
+_Block preview not available_
 
 {>>Returns `text`<<}
 
@@ -316,7 +316,7 @@ Decodes the given hash using the given key through TripleDES
 
 ### TripleDESEncode
 
-[[Method('Cryptography', 'TripleDESEncode', true, 'inputText')]]
+_Block preview not available_
 
 {>>Returns `text`<<}
 

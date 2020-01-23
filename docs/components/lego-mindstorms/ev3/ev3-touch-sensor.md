@@ -28,7 +28,7 @@ Called when the touch sensor is pressed.
 
 ### IsPressed
 
-[[Method('EV3 Touch Sensor', 'IsPressed', true)]]
+_Block preview not available_
 
 {>>Returns `boolean`<<}
 
@@ -60,8 +60,7 @@ The BluetoothClient component that should be used for communication.
 |:----:|:-------:|
 |boolean|False|
 
-Specifies whether the Pressed event should fire when the touch sensor is
- pressed.
+Specifies whether the Pressed event should fire when the touch sensor is   pressed.
 
 ### Released Event Enabled
 

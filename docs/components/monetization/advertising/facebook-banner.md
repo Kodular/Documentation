@@ -45,7 +45,7 @@ Event triggered when ads failed to load
 
 ### Load Ad
 
-[[Method('Facebook Banner', 'Load Ad', false)]]
+_Block preview not available_
 
 Load Ad
 

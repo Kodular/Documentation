@@ -154,7 +154,7 @@ Triggers when updating of the user was successful
 
 ### EmailPasswordLogin
 
-[[Method('Firebase Authentication', 'EmailPasswordLogin', false, 'email password')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -168,7 +168,7 @@ Try to let the user sign in with Email and Password
 
 ### EmailPasswordSignUp
 
-[[Method('Firebase Authentication', 'EmailPasswordSignUp', false, 'email password')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -182,25 +182,25 @@ Create a new user by Email and Password
 
 ### GetCurrentUser
 
-[[Method('Firebase Authentication', 'GetCurrentUser', false)]]
+_Block preview not available_
 
 Try to get the user that is signed in
 
 ### GetIdToken
 
-[[Method('Firebase Authentication', 'GetIdToken', false)]]
+_Block preview not available_
 
 Get the id token from the current user.
 
 ### GoogleSignIn
 
-[[Method('Firebase Authentication', 'GoogleSignIn', false)]]
+_Block preview not available_
 
 Try to let the user sign in with Google
 
 ### IsSignedIn
 
-[[Method('Firebase Authentication', 'IsSignedIn', true)]]
+_Block preview not available_
 
 {>>Returns `boolean`<<}
 
@@ -208,13 +208,13 @@ Check if the user is signed in
 
 ### Logout
 
-[[Method('Firebase Authentication', 'Logout', false)]]
+_Block preview not available_
 
 Log the current user out
 
 ### PhoneNumberSignIn
 
-[[Method('Firebase Authentication', 'PhoneNumberSignIn', false, 'phoneNumber')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -227,7 +227,7 @@ Try to let the user sign in with a Phone Number
 
 ### SendResetPasswordEmail
 
-[[Method('Firebase Authentication', 'SendResetPasswordEmail', false, 'email')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -240,7 +240,7 @@ Get the id token from the current user.
 
 ### UpdateEmail
 
-[[Method('Firebase Authentication', 'UpdateEmail', false, 'email')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -253,7 +253,7 @@ Try to update the email of the current user (The user must have been recently si
 
 ### UpdatePhoneNumber
 
-[[Method('Firebase Authentication', 'UpdatePhoneNumber', false, 'phoneNumber')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -266,7 +266,7 @@ Try to update the phone number of the current user (The user must have been rece
 
 ### UpdateProfile
 
-[[Method('Firebase Authentication', 'UpdateProfile', false, 'name profilePicture')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -280,13 +280,13 @@ Try to update the profile of the current user (The user must have been recently 
 
 ### VerifyEmail
 
-[[Method('Firebase Authentication', 'VerifyEmail', false)]]
+_Block preview not available_
 
 Verify the Email
 
 ### VerifyPhoneCode
 
-[[Method('Firebase Authentication', 'VerifyPhoneCode', false, 'code')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 

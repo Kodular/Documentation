@@ -8,15 +8,17 @@
 
 A button that, when clicked on, displays a list of the contacts to choose among. After the user has made a selection, the following properties will be set to information about the chosen contact: 
 
-*    `` ContactName ``: the contact's name 
-*    `` EmailAddress ``: the contact's primary email address 
-*    `` ContactUri ``: the contact's URI on the device 
-*    `` EmailAddressList ``: a list of the contact's email addresses 
-*    `` PhoneNumber ``: the contact's primary phone number (on Later Android Verisons)
-*    `` PhoneNumberList ``: a list of the contact's phone numbers (on Later Android Versions)
-*    `` Picture ``: the name of the file containing the contact's image, which can be used as a `` Picture `` property value for the `` Image `` or `` ImageSprite `` component.
+ *    `` ContactName ``: the contact's name 
+ *    `` EmailAddress ``: the contact's primary email address 
+ *    `` ContactUri ``: the contact's URI on the device 
+ *    `` EmailAddressList ``: a list of the contact's email addresses 
+ *    `` PhoneNumber ``: the contact's primary phone number (on Later Android Verisons)
+ *    `` PhoneNumberList ``: a list of the contact's phone numbers (on Later Android Versions)
+ *    `` Picture ``: the name of the file containing the contact's image, which can be used as a `` Picture `` property value for the `` Image `` or `` ImageSprite `` component.
 
-Other properties affect the appearance of the button (`` TextAlignment ``, `` BackgroundColor ``, etc.) and whether it can be clicked on (`` Enabled ``).
+ 
+
+Other properties affect the appearance of the button (`` TextAlignment ``, `` BackgroundColor ``, etc.) and whether it can be clicked on (`` Enabled ``). 
 
 The ContactPicker component might not work on all phones. For example, on Android systems before system 3.0, it cannot pick phone numbers, and the list of email addresses will contain only one email.
 
@@ -33,16 +35,13 @@ The ContactPicker component might not work on all phones. For example, on Androi
     |selection|`text`|
 
 
-Event to be raised after the picker activity returns its
- result and the properties have been filled in.
+Event to be raised after the picker activity returns its   result and the properties have been filled in.
 
 ### Before Picking
 
 [[Event('Contact Picker', 'Before Picking')]]
 
-Event to raise when the button of the component is clicked or the list is shown
- using the Open block.  This event occurs before the list of items is displayed, and
- can be used to prepare the list before it is shown.
+Event to raise when the button of the component is clicked or the list is shown   using the Open block.  This event occurs before the list of items is displayed, and   can be used to prepare the list before it is shown.
 
 ### Got Focus
 
@@ -72,7 +71,7 @@ Indicates that a button has been released.
 
 ### AnimationStyle
 
-[[Method('Contact Picker', 'AnimationStyle', false, 'style position size color')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -88,19 +87,19 @@ Allows you to set animation style. Valid (case-insensitive) values are: ChasingD
 
 ### ButtonClick
 
-[[Method('Contact Picker', 'ButtonClick', false)]]
+_Block preview not available_
 
 Perform a button click as function.
 
 ### Open
 
-[[Method('Contact Picker', 'Open', false)]]
+_Block preview not available_
 
 Opens the picker, as though the user clicked on it.
 
 ### SetShadow
 
-[[Method('Contact Picker', 'SetShadow', false, 'x y radius color')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -116,7 +115,7 @@ Place a blurred shadow of text underneath the text, drawn with the specified x, 
 
 ### ViewContact
 
-[[Method('Contact Picker', 'ViewContact', false, 'uri')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -129,7 +128,7 @@ view a contact via its URI
 
 ### WithIconFromFontAwesome
 
-[[Method('Contact Picker', 'WithIconFromFontAwesome', false, 'position iconName iconColor padding size')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -146,7 +145,7 @@ Show an image on the given position near to the button. You can use following wo
 
 ### WithIconFromMaterialFont
 
-[[Method('Contact Picker', 'WithIconFromMaterialFont', false, 'position iconName iconColor padding size')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -163,7 +162,7 @@ Show an image on the given position near to the button. You can use following wo
 
 ### WithIconFromPicture
 
-[[Method('Contact Picker', 'WithIconFromPicture', false, 'position picture padding width height')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -489,8 +488,7 @@ Specifies the component's vertical height, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's vertical height as a percentage
- of the height of its parent Component.
+Specifies the component's vertical height as a percentage   of the height of its parent Component.
 
 ### Phone Number
 
@@ -523,8 +521,7 @@ PhoneNumberList property getter method.
 |:----:|:-------:|
 |text|None|
 
-Picture URI for this contact, which can be
- used to retrieve the contact's photo and other fields.
+Picture URI for this contact, which can be   used to retrieve the contact's photo and other fields.
 
 ### Row
 
@@ -557,5 +554,4 @@ Specifies the component's horizontal width, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width as a percentage
- of the Width of its parent Component.
+Specifies the component's horizontal width as a percentage   of the Width of its parent Component.

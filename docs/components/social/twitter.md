@@ -11,15 +11,17 @@
 A non-visible component that enables communication with <a href="http://www.twitter.com" target="_blank">Twitter</a>. Once a user has logged into their Twitter account (and the authorization has been confirmed successful by the `` IsAuthorized `` event), many more operations are available:
 
 *    Searching Twitter for tweets or labels (`` SearchTwitter ``)
-*    Sending a Tweet (`` Tweet ``) 
-*    Sending a Tweet with an Image (`` TweetWithImage ``) 
-*    Directing a message to a specific user (`` DirectMessage ``)
-*    Receiving the most recent messages directed to the logged-in user (`` RequestDirectMessages ``)
-*    Following a specific user (`` Follow ``)
-*    Ceasing to follow a specific user (`` StopFollowing ``)
-*    Getting a list of users following the logged-in user (`` RequestFollowers ``)
-*    Getting the most recent messages of users followed by the logged-in user (`` RequestFriendTimeline ``)
-*    Getting the most recent mentions of the logged-in user (`` RequestMentions ``)
+ *    Sending a Tweet (`` Tweet ``) 
+ *    Sending a Tweet with an Image (`` TweetWithImage ``) 
+ *    Directing a message to a specific user (`` DirectMessage ``)
+ *    Receiving the most recent messages directed to the logged-in user (`` RequestDirectMessages ``)
+ *    Following a specific user (`` Follow ``)
+ *    Ceasing to follow a specific user (`` StopFollowing ``)
+ *    Getting a list of users following the logged-in user (`` RequestFollowers ``)
+ *    Getting the most recent messages of users followed by the logged-in user (`` RequestFriendTimeline ``)
+ *    Getting the most recent mentions of the logged-in user (`` RequestMentions ``)
+
+ 
 
 You must obtain a Consumer Key and Consumer Secret for Twitter authorization specific to your app from http://twitter.com/oauth\_clients/new
 
@@ -100,25 +102,25 @@ This event is raised when the results of the search requested through `` SearchS
 
 ### Authorize
 
-[[Method('Twitter', 'Authorize', false)]]
+_Block preview not available_
 
 Redirects user to login to Twitter via the Web browser using the OAuth protocol if we don't already have authorization.
 
 ### CheckAuthorized
 
-[[Method('Twitter', 'CheckAuthorized', false)]]
+_Block preview not available_
 
 Checks whether we already have access, and if so, causes IsAuthorized event handler to be called.
 
 ### DeAuthorize
 
-[[Method('Twitter', 'DeAuthorize', false)]]
+_Block preview not available_
 
 Removes Twitter authorization from this running app instance
 
 ### DirectMessage
 
-[[Method('Twitter', 'DirectMessage', false, 'user message')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -134,7 +136,7 @@ This sends a direct (private) message to the specified user.  The message will b
 
 ### Follow
 
-[[Method('Twitter', 'Follow', false, 'user')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -147,7 +149,7 @@ Starts following a user.
 
 ### Login
 
-[[Method('Twitter', 'Login', false, 'username password')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -161,7 +163,7 @@ Twitter's API no longer supports login via username and password. Use the Author
 
 ### RequestDirectMessages
 
-[[Method('Twitter', 'RequestDirectMessages', false)]]
+_Block preview not available_
 
 Requests the 20 most recent direct messages sent to the logged-in user.  When the messages have been retrieved, the system will raise the `` DirectMessagesReceived `` event and set the `` DirectMessages `` property to the list of messages.
 
@@ -169,19 +171,19 @@ Requests the 20 most recent direct messages sent to the logged-in user.  When th
 
 ### RequestFollowers
 
-[[Method('Twitter', 'RequestFollowers', false)]]
+_Block preview not available_
 
 Gets who is following you.
 
 ### RequestFriendTimeline
 
-[[Method('Twitter', 'RequestFriendTimeline', false)]]
+_Block preview not available_
 
 Gets the most recent 20 messages in the user's timeline.
 
 ### RequestMentions
 
-[[Method('Twitter', 'RequestMentions', false)]]
+_Block preview not available_
 
 Requests the 20 most recent mentions of the logged-in user.  When the mentions have been retrieved, the system will raise the `` MentionsReceived `` event and set the `` Mentions `` property to the list of mentions.
 
@@ -189,7 +191,7 @@ Requests the 20 most recent mentions of the logged-in user.  When the mentions h
 
 ### SearchTwitter
 
-[[Method('Twitter', 'SearchTwitter', false, 'query')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -204,7 +206,7 @@ This searches Twitter for the given String query.
 
 ### StopFollowing
 
-[[Method('Twitter', 'StopFollowing', false, 'user')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -217,7 +219,7 @@ Stops following a user.
 
 ### Tweet
 
-[[Method('Twitter', 'Tweet', false, 'status')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -232,7 +234,7 @@ This sends a tweet as the logged-in user with the specified Text, which will be 
 
 ### TweetWithImage
 
-[[Method('Twitter', 'TweetWithImage', false, 'status imagePath')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -290,7 +292,7 @@ This property contains a list of the most recent messages mentioning the logged-
  3.    Call the `` RequestDirectMessages `` method.
  4.    Wait for the `` DirectMessagesReceived `` event.
 
-The value of this property will then be set to the list of direct messages retrieved (and maintain that value until any subsequent call to `` RequestDirectMessages ``).
+  The value of this property will then be set to the list of direct messages retrieved (and maintain that value until any subsequent call to `` RequestDirectMessages ``).
 
 ### Followers
 
@@ -308,7 +310,7 @@ This property contains a list of the followers of the logged-in user.  Initially
  3.    Call the `` RequestFollowers `` method.
  4.    Wait for the `` FollowersReceived `` event.
 
-The value of this property will then be set to the list of followers (and maintain its value until any subsequent call to `` RequestFollowers ``).
+  The value of this property will then be set to the list of followers (and maintain its value until any subsequent call to `` RequestFollowers ``).
 
 ### Friend Time line
 
@@ -328,7 +330,7 @@ This property contains the 20 most recent messages of users being followed.  Ini
  5.    Wait for the `` FriendTimelineReceived `` event.
  
 
-The value of this property will then be set to the list of messages (and maintain its value until any subsequent call to `` RequestFriendTimeline ``.
+  The value of this property will then be set to the list of messages (and maintain its value until any subsequent call to `` RequestFriendTimeline ``.
 
 ### Mentions
 
@@ -346,7 +348,7 @@ This property contains a list of mentions of the logged-in user.  Initially, the
  3.    Call the `` RequestMentions `` method.
  4.    Wait for the `` MentionsReceived `` event.
 
-The value of this property will then be set to the list of mentions (and will maintain its value until any subsequent calls to `` RequestMentions ``).
+  The value of this property will then be set to the list of mentions (and will maintain its value until any subsequent calls to `` RequestMentions ``).
 
 ### Search Results
 
@@ -362,7 +364,7 @@ This property, which is initially empty, is set to a list of search results afte
 1.   Calls the `` SearchTwitter `` method.
  2.   Waits for the `` SearchSuccessful `` event.
 
-The value of the property will then be the same as the parameter to `` SearchSuccessful ``.  Note that it is not necessary to call the `` Authorize `` method before calling `` SearchTwitter ``.
+  The value of the property will then be the same as the parameter to `` SearchSuccessful ``.  Note that it is not necessary to call the `` Authorize `` method before calling `` SearchTwitter ``.
 
 ### TwitPic_API_Key
 

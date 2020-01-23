@@ -30,7 +30,7 @@ Event raised after the Upload Media block has been used
 
 ### UploadMedia
 
-[[Method('Cloudinary', 'UploadMedia', false, 'path')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 

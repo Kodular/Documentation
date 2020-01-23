@@ -36,7 +36,7 @@ Indicates that a bluetooth connection has been accepted.
 
 ### AcceptConnection
 
-[[Method('Bluetooth Server', 'AcceptConnection', false, 'serviceName')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -49,7 +49,7 @@ Accept an incoming connection with the Serial Port Profile (SPP).
 
 ### AcceptConnectionWithUUID
 
-[[Method('Bluetooth Server', 'AcceptConnectionWithUUID', false, 'serviceName uuid')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -63,7 +63,7 @@ Accept an incoming connection with a specific UUID.
 
 ### BytesAvailableToReceive
 
-[[Method('Bluetooth Server', 'BytesAvailableToReceive', true)]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -71,13 +71,13 @@ Returns an estimate of the number of bytes that can be received without blocking
 
 ### Disconnect
 
-[[Method('Bluetooth Server', 'Disconnect', false)]]
+_Block preview not available_
 
 Disconnect from the connected Bluetooth device.
 
 ### ReceiveSigned1ByteNumber
 
-[[Method('Bluetooth Server', 'ReceiveSigned1ByteNumber', true)]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -85,7 +85,7 @@ Receive a signed 1-byte number from the connected Bluetooth device.
 
 ### ReceiveSigned2ByteNumber
 
-[[Method('Bluetooth Server', 'ReceiveSigned2ByteNumber', true)]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -93,7 +93,7 @@ Receive a signed 2-byte number from the connected Bluetooth device.
 
 ### ReceiveSigned4ByteNumber
 
-[[Method('Bluetooth Server', 'ReceiveSigned4ByteNumber', true)]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -101,7 +101,7 @@ Receive a signed 4-byte number from the connected Bluetooth device.
 
 ### ReceiveSignedBytes
 
-[[Method('Bluetooth Server', 'ReceiveSignedBytes', true, 'numberOfBytes')]]
+_Block preview not available_
 
 {>>Returns `list`<<}
 
@@ -116,7 +116,7 @@ Receive multiple signed byte values from the connected Bluetooth device. If numb
 
 ### ReceiveText
 
-[[Method('Bluetooth Server', 'ReceiveText', true, 'numberOfBytes')]]
+_Block preview not available_
 
 {>>Returns `text`<<}
 
@@ -131,7 +131,7 @@ Receive text from the connected Bluetooth device. If numberOfBytes is less than 
 
 ### ReceiveUnsigned1ByteNumber
 
-[[Method('Bluetooth Server', 'ReceiveUnsigned1ByteNumber', true)]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -139,7 +139,7 @@ Receive an unsigned 1-byte number from the connected Bluetooth device.
 
 ### ReceiveUnsigned2ByteNumber
 
-[[Method('Bluetooth Server', 'ReceiveUnsigned2ByteNumber', true)]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -147,7 +147,7 @@ Receive a unsigned 2-byte number from the connected Bluetooth device.
 
 ### ReceiveUnsigned4ByteNumber
 
-[[Method('Bluetooth Server', 'ReceiveUnsigned4ByteNumber', true)]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -155,7 +155,7 @@ Receive a unsigned 4-byte number from the connected Bluetooth device.
 
 ### ReceiveUnsignedBytes
 
-[[Method('Bluetooth Server', 'ReceiveUnsignedBytes', true, 'numberOfBytes')]]
+_Block preview not available_
 
 {>>Returns `list`<<}
 
@@ -170,7 +170,7 @@ Receive multiple unsigned byte values from the connected Bluetooth device. If nu
 
 ### Send1ByteNumber
 
-[[Method('Bluetooth Server', 'Send1ByteNumber', false, 'number')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -183,7 +183,7 @@ Send a 1-byte number to the connected Bluetooth device.
 
 ### Send2ByteNumber
 
-[[Method('Bluetooth Server', 'Send2ByteNumber', false, 'number')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -196,7 +196,7 @@ Send a 2-byte number to the connected Bluetooth device.
 
 ### Send4ByteNumber
 
-[[Method('Bluetooth Server', 'Send4ByteNumber', false, 'number')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -209,7 +209,7 @@ Send a 4-byte number to the connected Bluetooth device.
 
 ### SendBytes
 
-[[Method('Bluetooth Server', 'SendBytes', false, 'list')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -222,7 +222,7 @@ Send a list of byte values to the connected Bluetooth device.
 
 ### SendText
 
-[[Method('Bluetooth Server', 'SendText', false, 'text')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -235,7 +235,7 @@ Send text to the connected Bluetooth device.
 
 ### StopAccepting
 
-[[Method('Bluetooth Server', 'StopAccepting', false)]]
+_Block preview not available_
 
 Stop accepting an incoming connection.
 
@@ -265,9 +265,7 @@ Sets the character encoding to use when sending and receiving text.
 |:----:|:-------:|
 |number|0|
 
-Sets the delimiter byte to use when passing a negative number for the
- numberOfBytes parameter when calling ReceiveText, ReceiveSignedBytes, or
- ReceiveUnsignedBytes.
+Sets the delimiter byte to use when passing a negative number for the   numberOfBytes parameter when calling ReceiveText, ReceiveSignedBytes, or   ReceiveUnsignedBytes.
 
 ### High Byte First
 
@@ -280,8 +278,7 @@ Sets the delimiter byte to use when passing a negative number for the
 |:----:|:-------:|
 |boolean|False|
 
-Returns true if numbers are sent and received with the most significant
- byte first.
+Returns true if numbers are sent and received with the most significant   byte first.
 
 ### Secure
 
@@ -327,8 +324,7 @@ Whether Bluetooth is enabled
 |:----:|:-------:|
 |boolean|None|
 
-Returns true if this BluetoothServer component is accepting an
- incoming connection.
+Returns true if this BluetoothServer component is accepting an   incoming connection.
 
 ### Is Connected
 

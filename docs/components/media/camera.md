@@ -29,7 +29,7 @@ Returns the taken picture.
 
 ### HasFlash
 
-[[Method('Camera', 'HasFlash', true)]]
+_Block preview not available_
 
 {>>Returns `boolean`<<}
 
@@ -37,13 +37,13 @@ Returns true if your device has a flash.
 
 ### TakePicture
 
-[[Method('Camera', 'TakePicture', false)]]
+_Block preview not available_
 
 Take a picture with the camera of your device.
 
 ### ToggleLight
 
-[[Method('Camera', 'ToggleLight', false)]]
+_Block preview not available_
 
 Toggle the flash of your device to on or off.
 

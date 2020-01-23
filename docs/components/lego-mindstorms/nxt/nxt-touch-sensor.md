@@ -28,7 +28,7 @@ Touch sensor has been released.
 
 ### IsPressed
 
-[[Method('NXT Touch Sensor', 'IsPressed', true)]]
+_Block preview not available_
 
 {>>Returns `boolean`<<}
 

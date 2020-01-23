@@ -44,7 +44,7 @@ The user stopped a drag operation.
 
 ### DistanceToFeature
 
-[[Method('Line String', 'DistanceToFeature', true, 'mapFeature centroids')]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -60,7 +60,7 @@ Compute the distance, in meters, between two map features.
 
 ### DistanceToPoint
 
-[[Method('Line String', 'DistanceToPoint', true, 'latitude longitude centroid')]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -77,13 +77,13 @@ Compute the distance, in meters, between a map feature and a latitude, longitude
 
 ### HideInfobox
 
-[[Method('Line String', 'HideInfobox', false)]]
+_Block preview not available_
 
 Hide the infobox if it is shown. If the infobox is not visible this function has no effect.
 
 ### ShowInfobox
 
-[[Method('Line String', 'ShowInfobox', false)]]
+_Block preview not available_
 
 Show the infobox for the feature. This will show the infobox even if
 
@@ -139,9 +139,7 @@ Enable or disable the infobox window display when the user taps the feature.
 |:----:|
 |text|
 
-Set the points of the LineString from a specially-coded character string of the form:
- [[longitude1, latitude1], [longitude2, latitude2], ...]
- Note the reversal of latitude and longitude versus how they are typically represented.
+Set the points of the LineString from a specially-coded character string of the form:   [[longitude1, latitude1], [longitude2, latitude2], ...]   Note the reversal of latitude and longitude versus how they are typically represented.
 
 ### Stroke Color
 

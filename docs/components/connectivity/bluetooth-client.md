@@ -30,7 +30,7 @@ The BluetoothError event is no longer used. Please use the Screen.ErrorOccurred 
 
 ### BytesAvailableToReceive
 
-[[Method('Bluetooth Client', 'BytesAvailableToReceive', true)]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -38,7 +38,7 @@ Returns an estimate of the number of bytes that can be received without blocking
 
 ### Connect
 
-[[Method('Bluetooth Client', 'Connect', true, 'address')]]
+_Block preview not available_
 
 {>>Returns `boolean`<<}
 
@@ -53,7 +53,7 @@ Connect to the Bluetooth device with the specified address and the Serial Port P
 
 ### ConnectWithUUID
 
-[[Method('Bluetooth Client', 'ConnectWithUUID', true, 'address uuid')]]
+_Block preview not available_
 
 {>>Returns `boolean`<<}
 
@@ -69,13 +69,13 @@ Connect to the Bluetooth device with the specified address and UUID. Returns tru
 
 ### Disconnect
 
-[[Method('Bluetooth Client', 'Disconnect', false)]]
+_Block preview not available_
 
 Disconnect from the connected Bluetooth device.
 
 ### IsDevicePaired
 
-[[Method('Bluetooth Client', 'IsDevicePaired', true, 'address')]]
+_Block preview not available_
 
 {>>Returns `boolean`<<}
 
@@ -90,7 +90,7 @@ Checks whether the Bluetooth device with the specified address is paired.
 
 ### ReceiveSigned1ByteNumber
 
-[[Method('Bluetooth Client', 'ReceiveSigned1ByteNumber', true)]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -98,7 +98,7 @@ Receive a signed 1-byte number from the connected Bluetooth device.
 
 ### ReceiveSigned2ByteNumber
 
-[[Method('Bluetooth Client', 'ReceiveSigned2ByteNumber', true)]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -106,7 +106,7 @@ Receive a signed 2-byte number from the connected Bluetooth device.
 
 ### ReceiveSigned4ByteNumber
 
-[[Method('Bluetooth Client', 'ReceiveSigned4ByteNumber', true)]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -114,7 +114,7 @@ Receive a signed 4-byte number from the connected Bluetooth device.
 
 ### ReceiveSignedBytes
 
-[[Method('Bluetooth Client', 'ReceiveSignedBytes', true, 'numberOfBytes')]]
+_Block preview not available_
 
 {>>Returns `list`<<}
 
@@ -129,7 +129,7 @@ Receive multiple signed byte values from the connected Bluetooth device. If numb
 
 ### ReceiveText
 
-[[Method('Bluetooth Client', 'ReceiveText', true, 'numberOfBytes')]]
+_Block preview not available_
 
 {>>Returns `text`<<}
 
@@ -144,7 +144,7 @@ Receive text from the connected Bluetooth device. If numberOfBytes is less than 
 
 ### ReceiveUnsigned1ByteNumber
 
-[[Method('Bluetooth Client', 'ReceiveUnsigned1ByteNumber', true)]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -152,7 +152,7 @@ Receive an unsigned 1-byte number from the connected Bluetooth device.
 
 ### ReceiveUnsigned2ByteNumber
 
-[[Method('Bluetooth Client', 'ReceiveUnsigned2ByteNumber', true)]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -160,7 +160,7 @@ Receive a unsigned 2-byte number from the connected Bluetooth device.
 
 ### ReceiveUnsigned4ByteNumber
 
-[[Method('Bluetooth Client', 'ReceiveUnsigned4ByteNumber', true)]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -168,7 +168,7 @@ Receive a unsigned 4-byte number from the connected Bluetooth device.
 
 ### ReceiveUnsignedBytes
 
-[[Method('Bluetooth Client', 'ReceiveUnsignedBytes', true, 'numberOfBytes')]]
+_Block preview not available_
 
 {>>Returns `list`<<}
 
@@ -183,7 +183,7 @@ Receive multiple unsigned byte values from the connected Bluetooth device. If nu
 
 ### RemoveNameFromAddress
 
-[[Method('Bluetooth Client', 'RemoveNameFromAddress', true, 'addressAndName')]]
+_Block preview not available_
 
 {>>Returns `text`<<}
 
@@ -198,7 +198,7 @@ Remove the Name from a Bluetooth Address and Name String.
 
 ### Send1ByteNumber
 
-[[Method('Bluetooth Client', 'Send1ByteNumber', false, 'number')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -211,7 +211,7 @@ Send a 1-byte number to the connected Bluetooth device.
 
 ### Send2ByteNumber
 
-[[Method('Bluetooth Client', 'Send2ByteNumber', false, 'number')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -224,7 +224,7 @@ Send a 2-byte number to the connected Bluetooth device.
 
 ### Send4ByteNumber
 
-[[Method('Bluetooth Client', 'Send4ByteNumber', false, 'number')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -237,7 +237,7 @@ Send a 4-byte number to the connected Bluetooth device.
 
 ### SendBytes
 
-[[Method('Bluetooth Client', 'SendBytes', false, 'list')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -250,7 +250,7 @@ Send a list of byte values to the connected Bluetooth device.
 
 ### SendText
 
-[[Method('Bluetooth Client', 'SendText', false, 'text')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -287,9 +287,7 @@ Sets the character encoding to use when sending and receiving text.
 |:----:|:-------:|
 |number|0|
 
-Sets the delimiter byte to use when passing a negative number for the
- numberOfBytes parameter when calling ReceiveText, ReceiveSignedBytes, or
- ReceiveUnsignedBytes.
+Sets the delimiter byte to use when passing a negative number for the   numberOfBytes parameter when calling ReceiveText, ReceiveSignedBytes, or   ReceiveUnsignedBytes.
 
 ### High Byte First
 
@@ -302,8 +300,7 @@ Sets the delimiter byte to use when passing a negative number for the
 |:----:|:-------:|
 |boolean|False|
 
-Returns true if numbers are sent and received with the most significant
- byte first.
+Returns true if numbers are sent and received with the most significant   byte first.
 
 ### Secure
 

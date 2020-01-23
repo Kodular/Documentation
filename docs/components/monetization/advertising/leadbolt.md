@@ -84,7 +84,7 @@ Event triggered when ads are shown
 
 ### IsNetworkAdReady
 
-[[Method('LeadBolt', 'IsNetworkAdReady', true)]]
+_Block preview not available_
 
 {>>Returns `boolean`<<}
 
@@ -92,7 +92,7 @@ Use this block after loading an ad to check whether it's ready to show.
 
 ### IsRewardedAdReady
 
-[[Method('LeadBolt', 'IsRewardedAdReady', true)]]
+_Block preview not available_
 
 {>>Returns `boolean`<<}
 
@@ -100,25 +100,25 @@ Use this block after loading an ad to check whether it's ready to show.
 
 ### LoadNetworkAd
 
-[[Method('LeadBolt', 'LoadNetworkAd', false)]]
+_Block preview not available_
 
 Use this block to load a Network ad.
 
 ### LoadRewardedAd
 
-[[Method('LeadBolt', 'LoadRewardedAd', false)]]
+_Block preview not available_
 
 Use this block to load a Rewarded Video ad.
 
 ### ShowNetworkAd
 
-[[Method('LeadBolt', 'ShowNetworkAd', false)]]
+_Block preview not available_
 
 Use this block after LoadNetworkAd to show the loaded ad.
 
 ### ShowRewardedAd
 
-[[Method('LeadBolt', 'ShowRewardedAd', false)]]
+_Block preview not available_
 
 Use this block after LoadRewardedAd to show the loaded ad.
 

@@ -29,7 +29,7 @@ Read output after executing shell command
 
 ### CheckForSuperUserAPK
 
-[[Method('Shell', 'CheckForSuperUserAPK', true)]]
+_Block preview not available_
 
 {>>Returns `boolean`<<}
 
@@ -37,7 +37,7 @@ Returns TRUE if one of 6 known root packages or varients is installed. The name 
 
 ### Execute
 
-[[Method('Shell', 'Execute', false, 'in')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -50,7 +50,7 @@ Executes shell commands. To get output, use "GotOutput" event block.
 
 ### IsRooted
 
-[[Method('Shell', 'IsRooted', true)]]
+_Block preview not available_
 
 {>>Returns `boolean`<<}
 
@@ -58,7 +58,7 @@ Returns true if Phone is Rooted
 
 ### Is System User
 
-[[Method('Shell', 'Is System User', true)]]
+_Block preview not available_
 
 {>>Returns `boolean`<<}
 

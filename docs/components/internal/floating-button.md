@@ -28,7 +28,7 @@ FAB Long Clicked
 
 ### Create
 
-[[Method('Floating Button', 'Create', false)]]
+_Block preview not available_
 
 Create FAB
 
@@ -97,8 +97,7 @@ Set Right Margin in dp, Default = 16
 |:----:|:-------:|
 |number|1|
 
-Set FAB Size.
-Set it to 1 for Normal size, 2 for Mini.
+Set FAB Size.  Set it to 1 for Normal size, 2 for Mini.
 
 ### Use Animation
 

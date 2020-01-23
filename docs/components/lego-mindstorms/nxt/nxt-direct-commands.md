@@ -14,7 +14,7 @@ A component that provides a low-level interface to a LEGO MINDSTORMS NXT robot, 
 
 ### DeleteFile
 
-[[Method('NXT Direct Commands', 'DeleteFile', false, 'fileName')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -27,7 +27,7 @@ Delete a file on the robot.
 
 ### DownloadFile
 
-[[Method('NXT Direct Commands', 'DownloadFile', false, 'source destination')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -41,7 +41,7 @@ Download a file to the robot.
 
 ### GetBatteryLevel
 
-[[Method('NXT Direct Commands', 'GetBatteryLevel', true)]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -49,7 +49,7 @@ Get the battery level for the robot. Returns the voltage in millivolts.
 
 ### GetBrickName
 
-[[Method('NXT Direct Commands', 'GetBrickName', true)]]
+_Block preview not available_
 
 {>>Returns `text`<<}
 
@@ -57,7 +57,7 @@ Get the brick name of the robot.
 
 ### GetCurrentProgramName
 
-[[Method('NXT Direct Commands', 'GetCurrentProgramName', true)]]
+_Block preview not available_
 
 {>>Returns `text`<<}
 
@@ -65,7 +65,7 @@ Get the name of currently running program on the robot.
 
 ### GetFirmwareVersion
 
-[[Method('NXT Direct Commands', 'GetFirmwareVersion', true)]]
+_Block preview not available_
 
 {>>Returns `list`<<}
 
@@ -73,7 +73,7 @@ Get the firmware and protocol version numbers for the robot as a list where the 
 
 ### GetInputValues
 
-[[Method('NXT Direct Commands', 'GetInputValues', true, 'sensorPortLetter')]]
+_Block preview not available_
 
 {>>Returns `list`<<}
 
@@ -88,7 +88,7 @@ Reads the values of an input sensor on the robot. Assumes sensor type has been c
 
 ### GetOutputState
 
-[[Method('NXT Direct Commands', 'GetOutputState', true, 'motorPortLetter')]]
+_Block preview not available_
 
 {>>Returns `list`<<}
 
@@ -103,7 +103,7 @@ Reads the output state of a motor on the robot.
 
 ### KeepAlive
 
-[[Method('NXT Direct Commands', 'KeepAlive', true)]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -111,7 +111,7 @@ Keep Alive. Returns the current sleep time limit in milliseconds.
 
 ### ListFiles
 
-[[Method('NXT Direct Commands', 'ListFiles', true, 'wildcard')]]
+_Block preview not available_
 
 {>>Returns `list`<<}
 
@@ -126,7 +126,7 @@ Returns a list containing the names of matching files found on the robot.
 
 ### LsGetStatus
 
-[[Method('NXT Direct Commands', 'LsGetStatus', true, 'sensorPortLetter')]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -141,7 +141,7 @@ Returns the count of available bytes to read.
 
 ### LsRead
 
-[[Method('NXT Direct Commands', 'LsRead', true, 'sensorPortLetter')]]
+_Block preview not available_
 
 {>>Returns `list`<<}
 
@@ -156,7 +156,7 @@ Reads unsigned low speed data from an input sensor on the robot. Assumes sensor 
 
 ### LsWrite
 
-[[Method('NXT Direct Commands', 'LsWrite', false, 'sensorPortLetter list rxDataLength')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -171,7 +171,7 @@ Writes low speed data to an input sensor on the robot. Assumes sensor type has b
 
 ### MessageRead
 
-[[Method('NXT Direct Commands', 'MessageRead', true, 'mailbox')]]
+_Block preview not available_
 
 {>>Returns `text`<<}
 
@@ -186,7 +186,7 @@ Read a message from a mailbox (1-10) on the robot.
 
 ### MessageWrite
 
-[[Method('NXT Direct Commands', 'MessageWrite', false, 'mailbox message')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -200,7 +200,7 @@ Write a message to a mailbox (1-10) on the robot.
 
 ### PlaySoundFile
 
-[[Method('NXT Direct Commands', 'PlaySoundFile', false, 'fileName')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -213,7 +213,7 @@ Play a sound file on the robot.
 
 ### PlayTone
 
-[[Method('NXT Direct Commands', 'PlayTone', false, 'frequencyHz durationMs')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -227,7 +227,7 @@ Make the robot play a tone.
 
 ### ResetInputScaledValue
 
-[[Method('NXT Direct Commands', 'ResetInputScaledValue', false, 'sensorPortLetter')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -240,7 +240,7 @@ Reset the scaled value of an input sensor on the robot.
 
 ### ResetMotorPosition
 
-[[Method('NXT Direct Commands', 'ResetMotorPosition', false, 'motorPortLetter relative')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -254,7 +254,7 @@ Reset motor position.
 
 ### SetBrickName
 
-[[Method('NXT Direct Commands', 'SetBrickName', false, 'name')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -267,7 +267,7 @@ Set the brick name of the robot.
 
 ### SetInputMode
 
-[[Method('NXT Direct Commands', 'SetInputMode', false, 'sensorPortLetter sensorType sensorMode')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -282,7 +282,7 @@ Configure an input sensor on the robot.
 
 ### SetOutputState
 
-[[Method('NXT Direct Commands', 'SetOutputState', false, 'motorPortLetter power mode regulationMode turnRatio runState tachoLimit')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -301,7 +301,7 @@ Sets the output state of a motor on the robot.
 
 ### StartProgram
 
-[[Method('NXT Direct Commands', 'StartProgram', false, 'programName')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -314,13 +314,13 @@ Start execution of a previously downloaded program on the robot.
 
 ### StopProgram
 
-[[Method('NXT Direct Commands', 'StopProgram', false)]]
+_Block preview not available_
 
 Stop execution of the currently running program on the robot.
 
 ### StopSoundPlayback
 
-[[Method('NXT Direct Commands', 'StopSoundPlayback', false)]]
+_Block preview not available_
 
 Stop sound playback.
 

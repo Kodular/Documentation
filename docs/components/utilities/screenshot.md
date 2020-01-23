@@ -29,7 +29,7 @@ Event to detect that a screenshot was made by the user. Returns the image path t
 
 ### TakeScreenshot
 
-[[Method('Screenshot', 'TakeScreenshot', false)]]
+_Block preview not available_
 
 Take a screenshot of the current visible screen.
 

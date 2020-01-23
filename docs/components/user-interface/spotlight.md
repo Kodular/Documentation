@@ -22,13 +22,13 @@ Event triggered when the spotlight is clicked.
 
 ### ShowSpotlight
 
-[[Method('Spotlight', 'ShowSpotlight', false)]]
+_Block preview not available_
 
 Use this block to show the spotlight.
 
 ### ShowSpotlightOnFAB
 
-[[Method('Spotlight', 'ShowSpotlightOnFAB', false, 'floatingActionButton')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 

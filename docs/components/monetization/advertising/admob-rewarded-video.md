@@ -93,19 +93,19 @@ User watched video and should be rewarded.
 
 ### Load Ad
 
-[[Method('AdMob Rewarded Video', 'Load Ad', false)]]
+_Block preview not available_
 
 Load a new AdMob Rewarded Video ad.
 
 ### RevokeConsent
 
-[[Method('AdMob Rewarded Video', 'RevokeConsent', false)]]
+_Block preview not available_
 
 Deletes the user's consent. Useful if you want to test the consent dialog in development.
 
 ### ShowAd
 
-[[Method('AdMob Rewarded Video', 'ShowAd', false)]]
+_Block preview not available_
 
 It will show the Video
 

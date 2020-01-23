@@ -14,7 +14,7 @@ A non-visible component that modifies other components'' padding, margins, and o
 
 ### SetMargin
 
-[[Method('Decoration', 'SetMargin', false, 'component values')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -28,7 +28,7 @@ Margin is a way for a component to enforce some distance from others components.
 
 ### SetPadding
 
-[[Method('Decoration', 'SetPadding', false, 'component values')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -42,7 +42,7 @@ The padding around the component. Padding is the space inside the border, betwee
 
 ### SetShape
 
-[[Method('Decoration', 'SetShape', false, 'component backgroundColor borderColor isRound')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 

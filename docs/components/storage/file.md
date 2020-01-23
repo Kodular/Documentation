@@ -80,7 +80,7 @@ Event indicating that there was any failure on zip or unzip a file.
 
 ### AppendToFile
 
-[[Method('File', 'AppendToFile', false, 'text fileName')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -94,7 +94,7 @@ Appends text to the end of a file storage, creating the file if it does not exis
 
 ### Copy
 
-[[Method('File', 'Copy', false, 'input output')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -108,7 +108,7 @@ Copy file
 
 ### CreateDirectory
 
-[[Method('File', 'CreateDirectory', false, 'directory')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -121,7 +121,7 @@ Create a new directory.
 
 ### Delete
 
-[[Method('File', 'Delete', false, 'fileName')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -134,7 +134,7 @@ Deletes a file from storage. Prefix the filename with / to delete a specific fil
 
 ### Exists
 
-[[Method('File', 'Exists', true, 'file')]]
+_Block preview not available_
 
 {>>Returns `boolean`<<}
 
@@ -149,7 +149,7 @@ Check whether a file exists
 
 ### FileSize
 
-[[Method('File', 'FileSize', true, 'file')]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -164,7 +164,7 @@ Get file size
 
 ### GetFileName
 
-[[Method('File', 'GetFileName', true, 'file')]]
+_Block preview not available_
 
 {>>Returns `text`<<}
 
@@ -179,7 +179,7 @@ Get file name
 
 ### GetFreeSpace
 
-[[Method('File', 'GetFreeSpace', true, 'path')]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -194,7 +194,7 @@ Get Free Space
 
 ### GetTotalSpace
 
-[[Method('File', 'GetTotalSpace', true, 'path')]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -209,7 +209,7 @@ Get total space
 
 ### IsDirectory
 
-[[Method('File', 'IsDirectory', true, 'path')]]
+_Block preview not available_
 
 {>>Returns `boolean`<<}
 
@@ -224,7 +224,7 @@ Check whether the path is a directory
 
 ### IsFile
 
-[[Method('File', 'IsFile', true, 'path')]]
+_Block preview not available_
 
 {>>Returns `boolean`<<}
 
@@ -239,7 +239,7 @@ Check whether the path is a file
 
 ### Move
 
-[[Method('File', 'Move', true, 'input output')]]
+_Block preview not available_
 
 {>>Returns `boolean`<<}
 
@@ -255,7 +255,7 @@ Move file
 
 ### ReadFrom
 
-[[Method('File', 'ReadFrom', false, 'fileName')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -268,7 +268,7 @@ Reads text from a file in storage. Prefix the filename with / to read from a spe
 
 ### SaveFile
 
-[[Method('File', 'SaveFile', false, 'text fileName')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -278,13 +278,11 @@ Reads text from a file in storage. Prefix the filename with / to read from a spe
     |file Name|`text`|
 
 
-Saves text to a file. If the filename begins with a slash (/) the file is written to the sdcard. For example writing to /myFile.txt will write the file to /sdcard/myFile.txt. If the filename does not start with a slash, it will be written in the programs private data directory where it will not be accessible to other programs on the phone. There is a special exception for the AI Companion where these files are written to /sdcard/AppInventor/data to facilitate debugging. Note that this block will overwrite a file if it already exists.
-
-If you want to add content to a file use the append block.
+Saves text to a file. If the filename begins with a slash (/) the file is written to the sdcard. For example writing to /myFile.txt will write the file to /sdcard/myFile.txt. If the filename does not start with a slash, it will be written in the programs private data directory where it will not be accessible to other programs on the phone. There is a special exception for the AI Companion where these files are written to /sdcard/AppInventor/data to facilitate debugging. Note that this block will overwrite a file if it already exists.    If you want to add content to a file use the append block.
 
 ### Unzip
 
-[[Method('File', 'Unzip', false, 'targetZipFilePath destinationFolderPath password')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -299,7 +297,7 @@ Unzip a file with or without a password. If you dont need a passwort then let it
 
 ### Zip
 
-[[Method('File', 'Zip', false, 'targetPath destinationFilePath password')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 

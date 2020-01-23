@@ -45,7 +45,7 @@ Event to raise when Speak is invoked, before the message is spoken.
 
 ### Speak
 
-[[Method('Text To Speech', 'Speak', false, 'message')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 

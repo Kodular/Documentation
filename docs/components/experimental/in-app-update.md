@@ -59,19 +59,19 @@ Event will be invoked when the update is still in installing progress.
 
 ### InstallFlexibleUpdateNow
 
-[[Method('In-App Update', 'InstallFlexibleUpdateNow', false)]]
+_Block preview not available_
 
 Use this block to install a flexible update after it was downloaded.
 
 ### StartFlexibleUpdate
 
-[[Method('In-App Update', 'StartFlexibleUpdate', false)]]
+_Block preview not available_
 
 Start the process for flexible in-app updates. The update will be done in the background. Your users can still use your app in this time. After the update download is done you must restart your app.
 
 ### StartImmediateUpdate
 
-[[Method('In-App Update', 'StartImmediateUpdate', false)]]
+_Block preview not available_
 
 Start the process for immediate in-app updates. In this time your app user can NOT use your app. After the update download is done your app will be restarted automatically.
 

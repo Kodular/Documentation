@@ -30,7 +30,7 @@ Triggers when the user clicks on an item of the Navigation Menu
 
 ### AddItem
 
-[[Method('Side Menu Layout', 'AddItem', false, 'title image enabled checked group')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -47,7 +47,7 @@ Add an item to the Navigation Menu
 
 ### RemoveItem
 
-[[Method('Side Menu Layout', 'RemoveItem', false, 'title')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -60,7 +60,7 @@ Remove an item from the Navigation Menu
 
 ### UpdateItem
 
-[[Method('Side Menu Layout', 'UpdateItem', false, 'title newTitle image enabled checked')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 

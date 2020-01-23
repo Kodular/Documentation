@@ -202,7 +202,7 @@ Event to detect that the user has selected a word from the word picker dialog.
 
 ### CreateCustomDialog
 
-[[Method('Notifier', 'CreateCustomDialog', false, 'component title buttonText cancelButtonText cancelable')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -219,7 +219,7 @@ Show whatever you want in a dialog. You can use as example arrangements, or imag
 
 ### CustomChooseDialog
 
-[[Method('Notifier', 'CustomChooseDialog', false, 'id message title button1Text button2Text cancelButtonText icon cancelable fullscreen')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -240,7 +240,7 @@ Shows a dialog box with two buttons, from which the user can choose.  If cancela
 
 ### CustomMessageDialog
 
-[[Method('Notifier', 'CustomMessageDialog', false, 'message title buttonText icon fullscreen')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -257,31 +257,31 @@ Show a Message Dialog. You can use the "Light Theme" property to have a light or
 
 ### DismissCustomDialog
 
-[[Method('Notifier', 'DismissCustomDialog', false)]]
+_Block preview not available_
 
 Use this block to dismiss the created custom dialog.the custom dialog.
 
 ### DismissLinearProgress
 
-[[Method('Notifier', 'DismissLinearProgress', false)]]
+_Block preview not available_
 
 Dismiss a previously displayed LinearProgress box
 
 ### DismissProgressDialog
 
-[[Method('Notifier', 'DismissProgressDialog', false)]]
+_Block preview not available_
 
 Dismiss a previously displayed ProgressDialog box
 
 ### DismissSpinningProgress
 
-[[Method('Notifier', 'DismissSpinningProgress', false)]]
+_Block preview not available_
 
 Dismiss a previously displayed SpinningProgress box
 
 ### LogError
 
-[[Method('Notifier', 'LogError', false, 'message')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -294,7 +294,7 @@ Writes an error message to the Android system log. See the Google Android docume
 
 ### LogInfo
 
-[[Method('Notifier', 'LogInfo', false, 'message')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -307,7 +307,7 @@ Writes an information message to the Android log.
 
 ### LogWarning
 
-[[Method('Notifier', 'LogWarning', false, 'message')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -320,7 +320,7 @@ Writes a warning message to the Android log. See the Google Android documentatio
 
 ### ShowAlert
 
-[[Method('Notifier', 'ShowAlert', false, 'notice')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -333,7 +333,7 @@ Show a alert "toast" message.
 
 ### ShowCheckboxListDialog
 
-[[Method('Notifier', 'ShowCheckboxListDialog', false, 'id title options buttonText cancelButtonText cancelable icon fullscreen')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -353,7 +353,7 @@ Shows a picker dialog with a list of options of whichmore than one can be chosen
 
 ### ShowChooseDialog
 
-[[Method('Notifier', 'ShowChooseDialog', false, 'message title button1Text button2Text cancelable')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -370,13 +370,13 @@ Shows a dialog box with two buttons, from which the user can choose.  If cancela
 
 ### ShowCustomDialog
 
-[[Method('Notifier', 'ShowCustomDialog', false)]]
+_Block preview not available_
 
 Show the custom dialog. Dont forget that you have first to create the custom dialog.
 
 ### ShowImageDialog
 
-[[Method('Notifier', 'ShowImageDialog', false, 'id title image buttonText')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -392,7 +392,7 @@ Show a image dialog. Animation types like "*.gif" are not supported. You can use
 
 ### ShowLightbox
 
-[[Method('Notifier', 'ShowLightbox', false, 'id image')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -406,7 +406,7 @@ Displays a lightbox. You can use images like "*.png" or "*,gif" from assets fold
 
 ### ShowLinearProgress
 
-[[Method('Notifier', 'ShowLinearProgress', false, 'message title cancelable indeterminate maxValue icon')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -424,7 +424,7 @@ Shows a progress dialog with a horizontal progress bar. Can be dismissed by user
 
 ### ShowListPicker
 
-[[Method('Notifier', 'ShowListPicker', false, 'id title itemsList icon fullscreen')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -441,7 +441,7 @@ Shows a list picker dialog. You can use the "Light Theme" property to have a lig
 
 ### ShowMessageDialog
 
-[[Method('Notifier', 'ShowMessageDialog', false, 'message title buttonText')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -456,7 +456,7 @@ Show a Message Dialog.
 
 ### ShowNumberPicker
 
-[[Method('Notifier', 'ShowNumberPicker', false, 'id title buttonText cancelButtonText minValue maxValue startValue')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -475,7 +475,7 @@ Shows a number picker dialog that enables the user to select a number from a pre
 
 ### ShowPasswordDialog
 
-[[Method('Notifier', 'ShowPasswordDialog', false, 'message title cancelable')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -490,7 +490,7 @@ Shows a dialog box where the user can enter password (input is masked), after wh
 
 ### ShowProgressDialog
 
-[[Method('Notifier', 'ShowProgressDialog', false, 'message title')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -504,7 +504,7 @@ Shows a dialog box with an optional title and message (use empty strings if they
 
 ### ShowRadioListDialog
 
-[[Method('Notifier', 'ShowRadioListDialog', false, 'id title options chooseButtonText cancelable cancelButtonText selection icon fullscreen')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -525,7 +525,7 @@ Shows a radio list dialog with a list of options of which only one can be chosen
 
 ### ShowSpinningProgress
 
-[[Method('Notifier', 'ShowSpinningProgress', false, 'message title cancelable icon')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -541,7 +541,7 @@ Shows a spinning progress dialog which can be dismissed by the user if 'cancelab
 
 ### ShowTextDialog
 
-[[Method('Notifier', 'ShowTextDialog', false, 'message title cancelable')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -556,7 +556,7 @@ Shows a dialog box where the user can enter text, after which the AfterTextInput
 
 ### ShowTextInputDialog
 
-[[Method('Notifier', 'ShowTextInputDialog', false, 'id title defaultText icon hint fullscreen cancelable inputType buttonText cancelButtonText textColor hintColor')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -580,7 +580,7 @@ Show a text input dialog. Possible input types are: "1= Normal text", "2= Passwo
 
 ### ShowWordPicker
 
-[[Method('Notifier', 'ShowWordPicker', false, 'id title buttonText cancelButtonText itemsList')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -597,7 +597,7 @@ Shows a word picker dialog that enables the user to select a number from a prede
 
 ### UpdateProgress
 
-[[Method('Notifier', 'UpdateProgress', false, 'value')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 

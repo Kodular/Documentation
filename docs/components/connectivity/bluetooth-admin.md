@@ -82,19 +82,19 @@ Event triggers when the bluetooth state changed.
 
 ### Disable
 
-[[Method('Bluetooth Admin', 'Disable', false)]]
+_Block preview not available_
 
 Disable Bluetooth
 
 ### Enable
 
-[[Method('Bluetooth Admin', 'Enable', false)]]
+_Block preview not available_
 
 Enable Bluetooth
 
 ### HasBluetooth
 
-[[Method('Bluetooth Admin', 'HasBluetooth', true)]]
+_Block preview not available_
 
 {>>Returns `boolean`<<}
 
@@ -102,7 +102,7 @@ Returns if the device has Bluetooth
 
 ### MacAddress
 
-[[Method('Bluetooth Admin', 'MacAddress', true)]]
+_Block preview not available_
 
 {>>Returns `text`<<}
 
@@ -110,7 +110,7 @@ Returns the Bluetooth MacAddress.
 
 ### Pair
 
-[[Method('Bluetooth Admin', 'Pair', false, 'address')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -123,13 +123,13 @@ Pair Bluetooth device.
 
 ### Scan
 
-[[Method('Bluetooth Admin', 'Scan', false)]]
+_Block preview not available_
 
 Scan Bluetooth devices. Caution: Performing device discovery is a heavy procedure for the Bluetooth adapter and will consume a lot of its resources. If you already hold a connection with a device, then performing discovery can significantly reduce the bandwidth available for the connection, so you should not perform discovery while connected.
 
 ### ScanMode
 
-[[Method('Bluetooth Admin', 'ScanMode', true)]]
+_Block preview not available_
 
 {>>Returns `text`<<}
 
@@ -137,7 +137,7 @@ Returns the scan mode of the Bluetooth Adapter
 
 ### State
 
-[[Method('Bluetooth Admin', 'State', true)]]
+_Block preview not available_
 
 {>>Returns `text`<<}
 
@@ -145,13 +145,13 @@ Returns the state of the Bluetooth Adapter.
 
 ### Toggle
 
-[[Method('Bluetooth Admin', 'Toggle', false)]]
+_Block preview not available_
 
 Toggle Bluetooth
 
 ### Unpair
 
-[[Method('Bluetooth Admin', 'Unpair', false, 'address')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -164,7 +164,7 @@ Unpair Bluetooth device.
 
 ### ValidateMacAddress
 
-[[Method('Bluetooth Admin', 'ValidateMacAddress', true, 'macAddress')]]
+_Block preview not available_
 
 {>>Returns `boolean`<<}
 
@@ -179,7 +179,7 @@ Returns true if the MacAddress is valid.
 
 ### ValidateUserMacAddress
 
-[[Method('Bluetooth Admin', 'ValidateUserMacAddress', true)]]
+_Block preview not available_
 
 {>>Returns `boolean`<<}
 

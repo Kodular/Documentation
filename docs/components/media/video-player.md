@@ -39,7 +39,7 @@ The VideoPlayerError event is no longer used. Please use the Screen.ErrorOccurre
 
 ### GetDuration
 
-[[Method('Video Player', 'GetDuration', true)]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -47,13 +47,13 @@ Returns duration of the video in milliseconds.
 
 ### Pause
 
-[[Method('Video Player', 'Pause', false)]]
+_Block preview not available_
 
 Pauses playback of the video.  Playback can be resumed at the same location by calling the `` Start `` method.
 
 ### SeekTo
 
-[[Method('Video Player', 'SeekTo', false, 'ms')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -66,13 +66,13 @@ Seeks to the requested time (specified in milliseconds) in the video. If the vid
 
 ### Start
 
-[[Method('Video Player', 'Start', false)]]
+_Block preview not available_
 
 Starts playback of the video.
 
 ### Stop
 
-[[Method('Video Player', 'Stop', false)]]
+_Block preview not available_
 
 Resets to start of video and pauses it if video was playing.
 
@@ -161,8 +161,7 @@ Returns the current position of the source file that is playing.
 |:----:|:-------:|
 |boolean|None|
 
-Returns whether the VideoPlayer's video is currently being
- shown in fullscreen mode or not.
+Returns whether the VideoPlayer's video is currently being   shown in fullscreen mode or not.
 
 ### Height
 
@@ -184,8 +183,7 @@ Specifies the component's vertical height, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's vertical height as a percentage
- of the height of its parent Component.
+Specifies the component's vertical height as a percentage   of the height of its parent Component.
 
 ### Is Playing
 
@@ -229,5 +227,4 @@ Specifies the component's horizontal width, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width as a percentage
- of the Width of its parent Component.
+Specifies the component's horizontal width as a percentage   of the Width of its parent Component.

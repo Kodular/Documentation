@@ -41,13 +41,13 @@ Event to detect the snackbar is shown.
 
 ### Dismiss
 
-[[Method('Snackbar', 'Dismiss', false)]]
+_Block preview not available_
 
 Dismiss the snackbar.
 
 ### IsShown
 
-[[Method('Snackbar', 'IsShown', true)]]
+_Block preview not available_
 
 {>>Returns `boolean`<<}
 
@@ -55,7 +55,7 @@ Returns true whether this snackbar is currently being shown.
 
 ### Show
 
-[[Method('Snackbar', 'Show', false, 'message')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -68,7 +68,7 @@ Show Snackbar (message supports HTML formatting)
 
 ### ShowWithButton
 
-[[Method('Snackbar', 'ShowWithButton', false, 'message buttonText')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 

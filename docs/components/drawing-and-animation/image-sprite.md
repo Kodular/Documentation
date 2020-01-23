@@ -27,11 +27,7 @@ To have an `` ImageSprite `` move 10 pixels to the left every 1000 milliseconds 
     |other|`component`|
 
 
-Event handler called when two enabled sprites (Balls or ImageSprites)
- collide. Note that checking for collisions with a rotated ImageSprite currently
- checks against its unrotated position. Therefore, collision
- checking will be inaccurate for tall narrow or short wide sprites that are
- rotated.
+Event handler called when two enabled sprites (Balls or ImageSprites)   collide. Note that checking for collisions with a rotated ImageSprite currently   checks against its unrotated position. Therefore, collision   checking will be inaccurate for tall narrow or short wide sprites that are   rotated.
 
 ### Dragged
 
@@ -141,7 +137,7 @@ Event handler called when the user touches an enabled ImageSprite and then immed
 
 ### Bounce
 
-[[Method('Image Sprite', 'Bounce', false, 'edge')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -154,7 +150,7 @@ Makes the ImageSprite bounce, as if off a wall. For normal bouncing, the edge ar
 
 ### CollidingWith
 
-[[Method('Image Sprite', 'CollidingWith', true, 'other')]]
+_Block preview not available_
 
 {>>Returns `boolean`<<}
 
@@ -169,13 +165,13 @@ Indicates whether a collision has been registered between this ImageSprite and t
 
 ### MoveIntoBounds
 
-[[Method('Image Sprite', 'MoveIntoBounds', false)]]
+_Block preview not available_
 
 Moves the ImageSprite back in bounds if part of it extends out of bounds, having no effect otherwise. If the ImageSprite is too wide to fit on the canvas, this aligns the left side of the ImageSprite with the left side of the canvas. If the ImageSprite is too tall to fit on the canvas, this aligns the top side of the ImageSprite with the top side of the canvas.
 
 ### MoveTo
 
-[[Method('Image Sprite', 'MoveTo', false, 'x y')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -189,7 +185,7 @@ Moves the ImageSprite so that its left top corner is at the specfied x and y coo
 
 ### PointInDirection
 
-[[Method('Image Sprite', 'PointInDirection', false, 'x y')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -203,7 +199,7 @@ Sets the heading of the ImageSprite toward the point with the coordinates (x, y)
 
 ### PointTowards
 
-[[Method('Image Sprite', 'PointTowards', false, 'target')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -240,8 +236,7 @@ Controls whether the ImageSprite moves and can be interacted with through collis
 |:----:|:-------:|
 |number|0|
 
-Sets heading in which sprite should move.  In addition to changing the
- local variables
+Sets heading in which sprite should move.  In addition to changing the   local variables
 
 ### Interval
 
@@ -345,8 +340,7 @@ The vertical coordinate of the top edge of the ImageSprite, increasing as the Im
 |:----:|:-------:|
 |number|1.0|
 
-Sets the layer of the sprite, indicating whether it will appear in
- front of or behind other sprites.
+Sets the layer of the sprite, indicating whether it will appear in   front of or behind other sprites.
 
 ### Height
 

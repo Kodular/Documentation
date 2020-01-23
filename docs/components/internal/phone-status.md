@@ -16,14 +16,13 @@ Component that returns information about the phone.
 
 [[Event('Phone Status', 'On Settings')]]
 
-This event is fired when the "settings" menu item is selected (only available in the
- Companion App, defined in ReplForm.java).
+This event is fired when the "settings" menu item is selected (only available in the   Companion App, defined in ReplForm.java).
 
 ## Methods
 
 ### GetInstaller
 
-[[Method('Phone Status', 'GetInstaller', true)]]
+_Block preview not available_
 
 {>>Returns `text`<<}
 
@@ -31,7 +30,7 @@ Return the app that installed us
 
 ### get Version Name
 
-[[Method('Phone Status', 'get Version Name', true)]]
+_Block preview not available_
 
 {>>Returns `text`<<}
 
@@ -39,7 +38,7 @@ Return the our VersionName property
 
 ### GetWifiIpAddress
 
-[[Method('Phone Status', 'GetWifiIpAddress', true)]]
+_Block preview not available_
 
 {>>Returns `text`<<}
 
@@ -47,7 +46,7 @@ Returns the IP address of the phone in the form of a String
 
 ### SdkLevel
 
-[[Method('Phone Status', 'SdkLevel', true)]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -55,13 +54,13 @@ Get the current Android SDK Level
 
 ### do Fault
 
-[[Method('Phone Status', 'do Fault', false)]]
+_Block preview not available_
 
 Causes an Exception, used to debug exception processing.
 
 ### install URL
 
-[[Method('Phone Status', 'install URL', false, 'url')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -74,7 +73,7 @@ Downloads the URL and installs it as an Android Package
 
 ### is Connected
 
-[[Method('Phone Status', 'is Connected', true)]]
+_Block preview not available_
 
 {>>Returns `boolean`<<}
 
@@ -82,7 +81,7 @@ Returns TRUE if the phone is on Wifi, FALSE otherwise
 
 ### is Direct
 
-[[Method('Phone Status', 'is Direct', true)]]
+_Block preview not available_
 
 {>>Returns `boolean`<<}
 
@@ -90,13 +89,13 @@ Returns true if we are running in the emulator or USB Connection
 
 ### set Assets Loaded
 
-[[Method('Phone Status', 'set Assets Loaded', false)]]
+_Block preview not available_
 
 Declare that we have loaded our initial assets and other assets should come from the sdcard
 
 ### set Hmac Seed Return Code
 
-[[Method('Phone Status', 'set Hmac Seed Return Code', true, 'seed rendezvousServer')]]
+_Block preview not available_
 
 {>>Returns `text`<<}
 
@@ -112,13 +111,13 @@ Establish the secret seed for HOTP generation. Return the SHA1 of the provided s
 
 ### shutdown
 
-[[Method('Phone Status', 'shutdown', false)]]
+_Block preview not available_
 
 Really Exit the Application
 
 ### start HTTPD
 
-[[Method('Phone Status', 'start HTTPD', false, 'secure')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 

@@ -37,8 +37,7 @@ Indicates that an error occurred while communicating with the CloudDB Redis serv
     |value|`any`|
 
 
-Indicates that the data in the CloudDB project has changed.
- Launches an event with the tag and value that have been updated.
+Indicates that the data in the CloudDB project has changed.   Launches an event with the tag and value that have been updated.
 
 ### First Removed
 
@@ -84,7 +83,7 @@ Event triggered when we have received the list of known tags. Used with the "Get
 
 ### AppendValueToList
 
-[[Method('CloudDB', 'AppendValueToList', false, 'tag itemToAdd')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -98,7 +97,7 @@ Append a value to the end of a list atomically. If two devices use this function
 
 ### ClearTag
 
-[[Method('CloudDB', 'ClearTag', false, 'tag')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -111,7 +110,7 @@ Remove the tag from CloudDB
 
 ### CloudConnected
 
-[[Method('CloudDB', 'CloudConnected', true)]]
+_Block preview not available_
 
 {>>Returns `boolean`<<}
 
@@ -119,13 +118,13 @@ returns True if we are on the network and will likely be able to connect to the 
 
 ### GetTagList
 
-[[Method('CloudDB', 'GetTagList', false)]]
+_Block preview not available_
 
 Get the list of tags for this application. When complete a "TagList" event will be triggered with the list of known tags.
 
 ### GetValue
 
-[[Method('CloudDB', 'GetValue', false, 'tag valueIfTagNotThere')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -139,7 +138,7 @@ Get the Value for a tag, doesn't return the value but will cause a GotValue even
 
 ### RemoveFirstFromList
 
-[[Method('CloudDB', 'RemoveFirstFromList', false, 'tag')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -152,7 +151,7 @@ Return the first element of a list and atomically remove it. If two devices use 
 
 ### StoreValue
 
-[[Method('CloudDB', 'StoreValue', false, 'tag valueToStore')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 

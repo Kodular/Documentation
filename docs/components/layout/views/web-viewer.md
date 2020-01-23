@@ -114,7 +114,7 @@ When the JavaScript calls AppInventor.setWebViewString this event is run.
 
 ### CanGoBack
 
-[[Method('Web Viewer', 'CanGoBack', true)]]
+_Block preview not available_
 
 {>>Returns `boolean`<<}
 
@@ -122,7 +122,7 @@ Returns true if the WebViewer can go back in the history list.
 
 ### CanGoBackOrForward
 
-[[Method('Web Viewer', 'CanGoBackOrForward', true, 'steps')]]
+_Block preview not available_
 
 {>>Returns `boolean`<<}
 
@@ -137,7 +137,7 @@ Returns true if the WebViewer can go back or forward the number of steps in the 
 
 ### CanGoForward
 
-[[Method('Web Viewer', 'CanGoForward', true)]]
+_Block preview not available_
 
 {>>Returns `boolean`<<}
 
@@ -145,25 +145,25 @@ Returns true if the WebViewer can go forward in the history list.
 
 ### ClearCaches
 
-[[Method('Web Viewer', 'ClearCaches', false)]]
+_Block preview not available_
 
 Clear WebView caches.
 
 ### ClearCookies
 
-[[Method('Web Viewer', 'ClearCookies', false)]]
+_Block preview not available_
 
 Start to clear the WebView cookies.
 
 ### ClearLocations
 
-[[Method('Web Viewer', 'ClearLocations', false)]]
+_Block preview not available_
 
 Clear stored location permissions.
 
 ### EvaluateJS
 
-[[Method('Web Viewer', 'EvaluateJS', false, 'script')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -176,13 +176,13 @@ Evaluate JS in the context of the current page
 
 ### GoBack
 
-[[Method('Web Viewer', 'GoBack', false)]]
+_Block preview not available_
 
 Go back to the previous page in the history list. Does nothing if there is no previous page.
 
 ### GoBackOrForward
 
-[[Method('Web Viewer', 'GoBackOrForward', false, 'steps')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -195,19 +195,19 @@ Go forward or backward a number of steps away from the current page. Steps is ne
 
 ### GoForward
 
-[[Method('Web Viewer', 'GoForward', false)]]
+_Block preview not available_
 
 Go forward to the next page in the history list. Does nothing if there is no next page.
 
 ### GoHome
 
-[[Method('Web Viewer', 'GoHome', false)]]
+_Block preview not available_
 
 Loads the home URL page. This happens automatically when the home URL is changed.
 
 ### GoToUrl
 
-[[Method('Web Viewer', 'GoToUrl', false, 'url')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -220,7 +220,7 @@ Load the page at the given URL.
 
 ### LoadHtml
 
-[[Method('Web Viewer', 'LoadHtml', false, 'html')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -233,13 +233,13 @@ Load HTML content using Base64-encoded data URI scheme
 
 ### Reload
 
-[[Method('Web Viewer', 'Reload', false)]]
+_Block preview not available_
 
 Reloads the current page
 
 ### StopLoading
 
-[[Method('Web Viewer', 'StopLoading', false)]]
+_Block preview not available_
 
 Stops the current load.
 
@@ -493,8 +493,7 @@ Specifies the component's vertical height, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's vertical height as a percentage
- of the height of its parent Component.
+Specifies the component's vertical height as a percentage   of the height of its parent Component.
 
 ### Row
 
@@ -538,5 +537,4 @@ Specifies the component's horizontal width, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width as a percentage
- of the Width of its parent Component.
+Specifies the component's horizontal width as a percentage   of the Width of its parent Component.

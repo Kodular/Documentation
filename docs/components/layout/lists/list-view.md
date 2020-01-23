@@ -27,7 +27,7 @@ Simple event to be raised after the an element has been chosen in the list via l
 
 ### ClearList
 
-[[Method('List View', 'ClearList', false)]]
+_Block preview not available_
 
 Remove all the items from the list
 
@@ -413,8 +413,7 @@ Determines the height of the list on the view.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's vertical height as a percentage
- of the height of its parent Component.
+Specifies the component's vertical height as a percentage   of the height of its parent Component.
 
 ### Row
 
@@ -469,5 +468,4 @@ Determines the width of the list on the view.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width as a percentage
- of the Width of its parent Component.
+Specifies the component's horizontal width as a percentage   of the Width of its parent Component.

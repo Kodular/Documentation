@@ -30,7 +30,7 @@ Trigger when the text of a Dynamic TextBox changes
 
 ### CreateTextBox
 
-[[Method('Dynamic Text Box', 'CreateTextBox', false, 'id arrangement')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -44,7 +44,7 @@ Create a Dynamic TextBox
 
 ### DeleteTextBox
 
-[[Method('Dynamic Text Box', 'DeleteTextBox', false, 'id')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -57,7 +57,7 @@ Remove a textbox component with the given id.
 
 ### GetButtonById
 
-[[Method('Dynamic Text Box', 'GetButtonById', true, 'id')]]
+_Block preview not available_
 
 {>>Returns `component`<<}
 
@@ -72,7 +72,7 @@ Returns the button referenced by its id.
 
 ### GetEnabled
 
-[[Method('Dynamic Text Box', 'GetEnabled', true, 'id')]]
+_Block preview not available_
 
 {>>Returns `boolean`<<}
 
@@ -87,7 +87,7 @@ Get the Enabled status of a TextBox
 
 ### GetFontSize
 
-[[Method('Dynamic Text Box', 'GetFontSize', true, 'id')]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -102,7 +102,7 @@ Get the Font Size of a TextBox
 
 ### GetHeight
 
-[[Method('Dynamic Text Box', 'GetHeight', true, 'id')]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -117,7 +117,7 @@ Get the Height of a TextBox
 
 ### GetText
 
-[[Method('Dynamic Text Box', 'GetText', true, 'id')]]
+_Block preview not available_
 
 {>>Returns `text`<<}
 
@@ -132,7 +132,7 @@ Get the Text of a TextBox
 
 ### GetWidth
 
-[[Method('Dynamic Text Box', 'GetWidth', true, 'id')]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -147,7 +147,7 @@ Get the Width of a TextBox
 
 ### SetAlignment
 
-[[Method('Dynamic Text Box', 'SetAlignment', false, 'id alignment')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -161,7 +161,7 @@ Update the Text Alignment of a TextBox. 0 = left, 1 = center and 2 = right.
 
 ### SetBackgroundColor
 
-[[Method('Dynamic Text Box', 'SetBackgroundColor', false, 'id color')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -175,7 +175,7 @@ Update the Background Color of a TextBox
 
 ### SetEnabled
 
-[[Method('Dynamic Text Box', 'SetEnabled', false, 'id enabled')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -189,7 +189,7 @@ Update the Enabled status of a TextBox
 
 ### SetFont
 
-[[Method('Dynamic Text Box', 'SetFont', false, 'id bold italic')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -204,7 +204,7 @@ Update the Font of a TextBox
 
 ### SetFontSize
 
-[[Method('Dynamic Text Box', 'SetFontSize', false, 'id size')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -218,7 +218,7 @@ Update the Font Size of a TextBox
 
 ### SetHeight
 
-[[Method('Dynamic Text Box', 'SetHeight', false, 'id height')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -232,7 +232,7 @@ Update the Height of a TextBox
 
 ### SetText
 
-[[Method('Dynamic Text Box', 'SetText', false, 'id text')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -246,7 +246,7 @@ Update the Text of a TextBox
 
 ### SetTextColor
 
-[[Method('Dynamic Text Box', 'SetTextColor', false, 'id color')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -260,7 +260,7 @@ Update the Text Color of a TextBox
 
 ### SetWidth
 
-[[Method('Dynamic Text Box', 'SetWidth', false, 'id width')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 

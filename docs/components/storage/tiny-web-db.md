@@ -49,7 +49,7 @@ Indicates that the communication with the Web service signaled an error.
 
 ### GetValue
 
-[[Method('Tiny Web DB', 'GetValue', false, 'tag')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -62,7 +62,7 @@ GetValue asks the Web service to get the value stored under the given tag.
 
 ### StoreValue
 
-[[Method('Tiny Web DB', 'StoreValue', false, 'tag valueToStore')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 

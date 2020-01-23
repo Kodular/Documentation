@@ -61,7 +61,7 @@ Called when an ad request failed. The message will display the reason for why th
 
 ### IsEuropeanUser
 
-[[Method('AdColony Interstitial', 'IsEuropeanUser', true)]]
+_Block preview not available_
 
 {>>Returns `boolean`<<}
 
@@ -69,13 +69,13 @@ Returns true if the current app user is located in europe. If true you must ask 
 
 ### Load Ad
 
-[[Method('AdColony Interstitial', 'Load Ad', false)]]
+_Block preview not available_
 
 Loads a new ad.
 
 ### ShowAd
 
-[[Method('AdColony Interstitial', 'ShowAd', false)]]
+_Block preview not available_
 
 Shows an ad to the user.
 

@@ -27,7 +27,7 @@ Event invoked when a switch has been clicked. Returns true or false if the switc
 
 ### ThumbImage
 
-[[Method('Switch', 'ThumbImage', false, 'image')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -40,7 +40,7 @@ Set the drawable used for the switch 'thumb' - the piece that the user can physi
 
 ### ThumbImageFromMaterialFont
 
-[[Method('Switch', 'ThumbImageFromMaterialFont', false, 'iconName size')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -254,8 +254,7 @@ Specifies the component's vertical height, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's vertical height as a percentage
- of the height of its parent Component.
+Specifies the component's vertical height as a percentage   of the height of its parent Component.
 
 ### Row
 
@@ -288,8 +287,7 @@ Specifies the component's horizontal width, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width as a percentage
- of the Width of its parent Component.
+Specifies the component's horizontal width as a percentage   of the Width of its parent Component.
 
 ### is Checked
 

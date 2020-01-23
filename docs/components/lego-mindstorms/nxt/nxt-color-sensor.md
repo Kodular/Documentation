@@ -47,7 +47,7 @@ Light level has gone within the range. The WithinRange event will not occur if t
 
 ### GetColor
 
-[[Method('NXT Color Sensor', 'GetColor', true)]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -55,7 +55,7 @@ Returns the current detected color, or the color None if the color can not be re
 
 ### GetLightLevel
 
-[[Method('NXT Color Sensor', 'GetLightLevel', true)]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 

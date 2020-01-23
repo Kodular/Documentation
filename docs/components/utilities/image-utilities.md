@@ -14,7 +14,7 @@ A non-visible component that loads images asynchronously.
 
 ### LoadImageAsync
 
-[[Method('Image Utilities', 'LoadImageAsync', false, 'component path')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 

@@ -14,7 +14,7 @@ Nonvisible component to retrieve information about device memory.
 
 ### ExternalStorageAvailable
 
-[[Method('Memory Info', 'ExternalStorageAvailable', true)]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -22,7 +22,7 @@ Available size of external storage in Gigabytes.
 
 ### ExternalStorageTotal
 
-[[Method('Memory Info', 'ExternalStorageTotal', true)]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -30,7 +30,7 @@ Total external storage size in Gigabytes.
 
 ### ExternalStorageUsed
 
-[[Method('Memory Info', 'ExternalStorageUsed', true)]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -38,7 +38,7 @@ Size of used-external-storage in Gigabytes.
 
 ### InternalStorageAvailable
 
-[[Method('Memory Info', 'InternalStorageAvailable', true)]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -46,7 +46,7 @@ Size of available internal storage in Gigabytes.
 
 ### InternalStorageTotal
 
-[[Method('Memory Info', 'InternalStorageTotal', true)]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -54,7 +54,7 @@ Total size of internal storage in Gigabytes.
 
 ### InternalStorageUsed
 
-[[Method('Memory Info', 'InternalStorageUsed', true)]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -62,7 +62,7 @@ Size of used-internal-storage in Gigabytes.
 
 ### MemoryFree
 
-[[Method('Memory Info', 'MemoryFree', true)]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -70,7 +70,7 @@ Total free RAM size in Gigabytes.
 
 ### MemoryTotal
 
-[[Method('Memory Info', 'MemoryTotal', true)]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -78,7 +78,7 @@ Total RAM size in Gigabytes.
 
 ### MemoryUsed
 
-[[Method('Memory Info', 'MemoryUsed', true)]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 

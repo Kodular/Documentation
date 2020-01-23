@@ -14,7 +14,7 @@ A non-visible component that sends a notification to the user''s device.
 
 ### AreNotificationsEnabled
 
-[[Method('Notification', 'AreNotificationsEnabled', true)]]
+_Block preview not available_
 
 {>>Returns `boolean`<<}
 
@@ -22,7 +22,7 @@ Check wether the app can send Notifications
 
 ### BigPictureNotification
 
-[[Method('Notification', 'BigPictureNotification', false, 'notificationID title message bigPicture startValue removeOnClick')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -40,13 +40,13 @@ Send a normal notification
 
 ### CancelAll
 
-[[Method('Notification', 'CancelAll', false)]]
+_Block preview not available_
 
 Cancel all Notifications
 
 ### CancelNotification
 
-[[Method('Notification', 'CancelNotification', false, 'id')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -59,7 +59,7 @@ Cancel a Notification with an id
 
 ### NormalNotification
 
-[[Method('Notification', 'NormalNotification', false, 'notificationID title message startValue removeOnClick')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -76,7 +76,7 @@ Send a normal notification
 
 ### SimpleNotification
 
-[[Method('Notification', 'SimpleNotification', false, 'title message')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 

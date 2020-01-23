@@ -24,15 +24,13 @@ If the text entered by the user should not be displayed, use `` PasswordTextBox 
 
 [[Event('Text Box', 'Got Focus')]]
 
-Event raised when this component is selected for input, such as by
- the user touching it.
+Event raised when this component is selected for input, such as by   the user touching it.
 
 ### Lost Focus
 
 [[Event('Text Box', 'Lost Focus')]]
 
-Event raised when this component is no longer selected for input, such
- as if the user touches a different text box.
+Event raised when this component is no longer selected for input, such   as if the user touches a different text box.
 
 ### On Text Changed
 
@@ -44,7 +42,7 @@ Event to detect text changes.
 
 ### AnimationStyle
 
-[[Method('Text Box', 'AnimationStyle', false, 'style position size color')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -60,19 +58,19 @@ Allows you to set animation style. Valid (case-insensitive) values are: ChasingD
 
 ### HideKeyboard
 
-[[Method('Text Box', 'HideKeyboard', false)]]
+_Block preview not available_
 
 Hide the keyboard.  Only multiline text boxes need this. Single line text boxes close the keyboard when the users presses the Done key.
 
 ### RequestFocus
 
-[[Method('Text Box', 'RequestFocus', false)]]
+_Block preview not available_
 
 Sets the textbox active.
 
 ### SetCursorAt
 
-[[Method('Text Box', 'SetCursorAt', false, 'position')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -85,13 +83,13 @@ Set the cursor to the given position.
 
 ### SetCursorAtEnd
 
-[[Method('Text Box', 'SetCursorAtEnd', false)]]
+_Block preview not available_
 
 Set the cursor to the end of the text.
 
 ### SetShadow
 
-[[Method('Text Box', 'SetShadow', false, 'x y radius color')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -107,7 +105,7 @@ Place a blurred shadow of text underneath the text, drawn with the specified x, 
 
 ### ShowError
 
-[[Method('Text Box', 'ShowError', false)]]
+_Block preview not available_
 
 Shows an error message next to the textbox.
 
@@ -454,8 +452,7 @@ Specifies the component's vertical height, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's vertical height as a percentage
- of the height of its parent Component.
+Specifies the component's vertical height as a percentage   of the height of its parent Component.
 
 ### Line Color
 
@@ -512,5 +509,4 @@ Specifies the component's horizontal width, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width as a percentage
- of the Width of its parent Component.
+Specifies the component's horizontal width as a percentage   of the Width of its parent Component.

@@ -59,13 +59,13 @@ Event triggered when the consent was changed.
 
 ### Load Ad
 
-[[Method('AdMob Banner', 'Load Ad', false)]]
+_Block preview not available_
 
 Load a new AdMob Banner ad.
 
 ### RevokeConsent
 
-[[Method('AdMob Banner', 'RevokeConsent', false)]]
+_Block preview not available_
 
 Deletes the user's consent. Useful if you want to test the consent dialog in development.
 

@@ -88,13 +88,13 @@ Returns true if your message was send with success out of your app to all users.
 
 ### ClearAllNotifications
 
-[[Method('Push Notifications', 'ClearAllNotifications', false)]]
+_Block preview not available_
 
 Clear All Notifications.
 
 ### DeleteTag
 
-[[Method('Push Notifications', 'DeleteTag', false, 'key')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -107,13 +107,13 @@ Deletes a single tag that was previously set on a user.
 
 ### GetAvailableTags
 
-[[Method('Push Notifications', 'GetAvailableTags', false)]]
+_Block preview not available_
 
 Get a list of available tags.
 
 ### GetValue
 
-[[Method('Push Notifications', 'GetValue', false, 'tag valueIfTagNotThere')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -127,7 +127,7 @@ Get value for tag.
 
 ### SendMessage
 
-[[Method('Push Notifications', 'SendMessage', false, 'title message restApiKey')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -142,7 +142,7 @@ Send a message to all users. The message and your REST Api Key can not be empty!
 
 ### SendTag
 
-[[Method('Push Notifications', 'SendTag', false, 'key value')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 

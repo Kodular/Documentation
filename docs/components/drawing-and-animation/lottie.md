@@ -44,7 +44,7 @@ Triggers when the components was long clicked.
 
 ### EndFrame
 
-[[Method('Lottie', 'EndFrame', false, 'frame')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -57,7 +57,7 @@ Set the frame where you want the animation to end.
 
 ### GetCurrentFrame
 
-[[Method('Lottie', 'GetCurrentFrame', true)]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -65,7 +65,7 @@ Get the frame where the animation is now.
 
 ### GetFrameCount
 
-[[Method('Lottie', 'GetFrameCount', true)]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -73,7 +73,7 @@ Get the count of frames in the animation.
 
 ### IsAnimating
 
-[[Method('Lottie', 'IsAnimating', true)]]
+_Block preview not available_
 
 {>>Returns `boolean`<<}
 
@@ -81,19 +81,19 @@ Check if the Lottie component is animating.
 
 ### PauseAnimation
 
-[[Method('Lottie', 'PauseAnimation', false)]]
+_Block preview not available_
 
 Pause the animation on the Lottie component.
 
 ### ResumeAnimation
 
-[[Method('Lottie', 'ResumeAnimation', false)]]
+_Block preview not available_
 
 Resume the animation on the Lottie component.
 
 ### SetCurrentFrame
 
-[[Method('Lottie', 'SetCurrentFrame', false, 'frame')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -106,13 +106,13 @@ Set the frame where you want the animation to be now.
 
 ### StartAnimation
 
-[[Method('Lottie', 'StartAnimation', false)]]
+_Block preview not available_
 
 Start the animation on the Lottie component.
 
 ### StartFrame
 
-[[Method('Lottie', 'StartFrame', false, 'frame')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -221,8 +221,7 @@ Specifies the component's vertical height, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's vertical height as a percentage
- of the height of its parent Component.
+Specifies the component's vertical height as a percentage   of the height of its parent Component.
 
 ### Row
 
@@ -255,5 +254,4 @@ Specifies the component's horizontal width, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width as a percentage
- of the Width of its parent Component.
+Specifies the component's horizontal width as a percentage   of the Width of its parent Component.

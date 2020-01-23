@@ -28,7 +28,7 @@ Called when the device disconnects from a network.
 
 ### is Connected
 
-[[Method('Network', 'is Connected', true)]]
+_Block preview not available_
 
 {>>Returns `boolean`<<}
 
@@ -36,7 +36,7 @@ Returns "True" if the device is connected to a network, "False" otherwise.
 
 ### IsFastConnection
 
-[[Method('Network', 'IsFastConnection', true)]]
+_Block preview not available_
 
 {>>Returns `boolean`<<}
 
@@ -44,7 +44,7 @@ Returns true if using a fast connection
 
 ### IsMobileConnection
 
-[[Method('Network', 'IsMobileConnection', true)]]
+_Block preview not available_
 
 {>>Returns `boolean`<<}
 
@@ -52,7 +52,7 @@ Returns true if connection is through Mobile
 
 ### IsRoaming
 
-[[Method('Network', 'IsRoaming', true)]]
+_Block preview not available_
 
 {>>Returns `boolean`<<}
 
@@ -60,7 +60,7 @@ Returns true if using roaming
 
 ### IsWiFiConnection
 
-[[Method('Network', 'IsWiFiConnection', true)]]
+_Block preview not available_
 
 {>>Returns `boolean`<<}
 
@@ -70,7 +70,7 @@ Returns true if connection is through WiFi
 
 :warning: ==**Deprecated**==
 
-[[Method('Network', 'Type', true)]]
+_Block preview not available_
 
 {>>Returns `text`<<}
 

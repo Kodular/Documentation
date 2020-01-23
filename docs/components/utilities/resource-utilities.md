@@ -16,7 +16,7 @@ A non-visible component that loads string resources from a file.
 
 :warning: ==**Deprecated**==
 
-[[Method('Resource Utilities', 'GetStringContentByName', true, 'resourceName ifResourceNotFoundUse')]]
+_Block preview not available_
 
 {>>Returns `text`<<}
 
@@ -32,7 +32,7 @@ This block is deprecated and will be removed soon. Use instead 'Get String From 
 
 ### GetStringFromAsset
 
-[[Method('Resource Utilities', 'GetStringFromAsset', true, 'resourceName ifResourceNotFoundUse')]]
+_Block preview not available_
 
 {>>Returns `text`<<}
 
@@ -48,7 +48,7 @@ Get the text from a asset resource file. Make sure you uploaded a file at 'Resou
 
 ### GetStringFromPath
 
-[[Method('Resource Utilities', 'GetStringFromPath', true, 'resourceName ifResourceNotFoundUse')]]
+_Block preview not available_
 
 {>>Returns `text`<<}
 

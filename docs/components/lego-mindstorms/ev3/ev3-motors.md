@@ -29,7 +29,7 @@ Called when the tacho count has changed.
 
 ### GetTachoCount
 
-[[Method('EV3 Motors', 'GetTachoCount', true)]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -37,13 +37,13 @@ Get the current tacho count.
 
 ### ResetTachoCount
 
-[[Method('EV3 Motors', 'ResetTachoCount', false)]]
+_Block preview not available_
 
 Set the current tacho count to zero.
 
 ### RotateInDistance
 
-[[Method('EV3 Motors', 'RotateInDistance', false, 'power distance useBrake')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -58,7 +58,7 @@ Rotate the motors in a distance.
 
 ### RotateInDuration
 
-[[Method('EV3 Motors', 'RotateInDuration', false, 'power milliseconds useBrake')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -73,7 +73,7 @@ Rotate the motors in a period of time.
 
 ### RotateInTachoCounts
 
-[[Method('EV3 Motors', 'RotateInTachoCounts', false, 'power tachoCounts useBrake')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -88,7 +88,7 @@ Rotate the motors in a number of tacho counts.
 
 ### RotateIndefinitely
 
-[[Method('EV3 Motors', 'RotateIndefinitely', false, 'power')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -101,7 +101,7 @@ Start to rotate the motors.
 
 ### RotateSyncInDistance
 
-[[Method('EV3 Motors', 'RotateSyncInDistance', false, 'power distance turnRatio useBrake')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -117,7 +117,7 @@ Rotate the motors at the same speed for a distance in cm.
 
 ### RotateSyncInDuration
 
-[[Method('EV3 Motors', 'RotateSyncInDuration', false, 'power milliseconds turnRatio useBrake')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -133,7 +133,7 @@ Rotate the motors at the same speed in a period of time.
 
 ### RotateSyncInTachoCounts
 
-[[Method('EV3 Motors', 'RotateSyncInTachoCounts', false, 'power tachoCounts turnRatio useBrake')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -149,7 +149,7 @@ Rotate the motors at the same speed in a number of tacho counts.
 
 ### RotateSyncIndefinitely
 
-[[Method('EV3 Motors', 'RotateSyncIndefinitely', false, 'power turnRatio')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -163,7 +163,7 @@ Start to rotate the motors at the same speed.
 
 ### Stop
 
-[[Method('EV3 Motors', 'Stop', false, 'useBrake')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -176,7 +176,7 @@ Stop the motors of the robot.
 
 ### ToggleDirection
 
-[[Method('EV3 Motors', 'ToggleDirection', false)]]
+_Block preview not available_
 
 Toggle the direction of motors.
 

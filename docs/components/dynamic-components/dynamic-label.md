@@ -14,7 +14,7 @@ A component to create dynamic labels in Arrangements
 
 ### CreateLabel
 
-[[Method('Dynamic Label', 'CreateLabel', false, 'id arrangement')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -28,7 +28,7 @@ Create a Dynamic Label
 
 ### DeleteLabel
 
-[[Method('Dynamic Label', 'DeleteLabel', false, 'id')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -41,7 +41,7 @@ Remove a label component with the given id.
 
 ### GetFontSize
 
-[[Method('Dynamic Label', 'GetFontSize', true, 'id')]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -56,7 +56,7 @@ Get the Font Size of a Label
 
 ### GetHeight
 
-[[Method('Dynamic Label', 'GetHeight', true, 'id')]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -71,7 +71,7 @@ Get the Height of a Label
 
 ### GetLabelById
 
-[[Method('Dynamic Label', 'GetLabelById', true, 'id')]]
+_Block preview not available_
 
 {>>Returns `component`<<}
 
@@ -86,7 +86,7 @@ Returns the label referenced by its id.
 
 ### GetText
 
-[[Method('Dynamic Label', 'GetText', true, 'id')]]
+_Block preview not available_
 
 {>>Returns `text`<<}
 
@@ -101,7 +101,7 @@ Get the Text of a Label
 
 ### GetWidth
 
-[[Method('Dynamic Label', 'GetWidth', true, 'id')]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -116,7 +116,7 @@ Get the Width of a Label
 
 ### SetAlignment
 
-[[Method('Dynamic Label', 'SetAlignment', false, 'id alignment')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -130,7 +130,7 @@ Update the Text Alignment of a Label. 0 = left, 1 = center and 2 = right.
 
 ### SetBackgroundColor
 
-[[Method('Dynamic Label', 'SetBackgroundColor', false, 'id color')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -144,7 +144,7 @@ Update the Background Color of a Label
 
 ### SetFont
 
-[[Method('Dynamic Label', 'SetFont', false, 'id bold italic')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -159,7 +159,7 @@ Update the Font of a Label
 
 ### SetFontSize
 
-[[Method('Dynamic Label', 'SetFontSize', false, 'id size')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -173,7 +173,7 @@ Update the Font Size of a Label
 
 ### SetHeight
 
-[[Method('Dynamic Label', 'SetHeight', false, 'id height')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -187,7 +187,7 @@ Update the Height of a Label
 
 ### SetText
 
-[[Method('Dynamic Label', 'SetText', false, 'id text html')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -202,7 +202,7 @@ Update the Text of a Label
 
 ### SetTextColor
 
-[[Method('Dynamic Label', 'SetTextColor', false, 'id color')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -216,7 +216,7 @@ Update the Text Color of a Label
 
 ### SetWidth
 
-[[Method('Dynamic Label', 'SetWidth', false, 'id width')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 

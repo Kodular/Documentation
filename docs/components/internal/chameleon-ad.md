@@ -56,13 +56,13 @@ Event triggered when ads are loaded.
 
 ### Load Ad
 
-[[Method('Chameleon Ad', 'Load Ad', false)]]
+_Block preview not available_
 
 Load a new interstitial chameleon ad.
 
 ### ShowAd
 
-[[Method('Chameleon Ad', 'ShowAd', false)]]
+_Block preview not available_
 
 Show a chameleon interstitial ad after it was loaded.
 

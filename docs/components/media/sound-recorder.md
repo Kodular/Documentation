@@ -41,19 +41,19 @@ Indicates that the recorder has stopped, and can be started again.
 
 ### Pause
 
-[[Method('Sound Recorder', 'Pause', false)]]
+_Block preview not available_
 
 Pause recording.
 
 ### Start
 
-[[Method('Sound Recorder', 'Start', false)]]
+_Block preview not available_
 
 Starts recording.
 
 ### Stop
 
-[[Method('Sound Recorder', 'Stop', false)]]
+_Block preview not available_
 
 Stops recording.
 

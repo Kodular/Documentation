@@ -44,7 +44,7 @@ The user stopped a drag operation.
 
 ### Centroid
 
-[[Method('Polygon', 'Centroid', true)]]
+_Block preview not available_
 
 {>>Returns `list`<<}
 
@@ -52,7 +52,7 @@ Returns the centroid of the Polygon as a (latitude, longitude) pair.
 
 ### DistanceToFeature
 
-[[Method('Polygon', 'DistanceToFeature', true, 'mapFeature centroids')]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -68,7 +68,7 @@ Compute the distance, in meters, between two map features.
 
 ### DistanceToPoint
 
-[[Method('Polygon', 'DistanceToPoint', true, 'latitude longitude centroid')]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -85,13 +85,13 @@ Compute the distance, in meters, between a map feature and a latitude, longitude
 
 ### HideInfobox
 
-[[Method('Polygon', 'HideInfobox', false)]]
+_Block preview not available_
 
 Hide the infobox if it is shown. If the infobox is not visible this function has no effect.
 
 ### ShowInfobox
 
-[[Method('Polygon', 'ShowInfobox', false)]]
+_Block preview not available_
 
 Show the infobox for the feature. This will show the infobox even if
 

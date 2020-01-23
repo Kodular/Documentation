@@ -28,13 +28,13 @@ Triggers when the fetch was successful
 
 ### Fetch
 
-[[Method('Firebase Remote Config', 'Fetch', false)]]
+_Block preview not available_
 
 Fetches parameter values for your app
 
 ### GetBoolean
 
-[[Method('Firebase Remote Config', 'GetBoolean', true, 'key')]]
+_Block preview not available_
 
 {>>Returns `boolean`<<}
 
@@ -49,7 +49,7 @@ Gets a boolean value corresponding to the specified key
 
 ### GetNumber
 
-[[Method('Firebase Remote Config', 'GetNumber', true, 'key')]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -64,7 +64,7 @@ Gets a number value corresponding to the specified key
 
 ### GetText
 
-[[Method('Firebase Remote Config', 'GetText', true, 'key')]]
+_Block preview not available_
 
 {>>Returns `text`<<}
 

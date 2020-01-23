@@ -67,13 +67,13 @@ Triggered each time an ad is successfully loaded. But you don't have to display 
 
 ### Load Ad
 
-[[Method('Amazon Interstitial', 'Load Ad', false)]]
+_Block preview not available_
 
 Loads a new ad.
 
 ### ShowInterstitialAd
 
-[[Method('Amazon Interstitial', 'ShowInterstitialAd', false)]]
+_Block preview not available_
 
 It will show the Interstitial Ad
 

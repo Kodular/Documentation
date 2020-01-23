@@ -27,7 +27,7 @@ Event invoked when the radio button state has been changed.
 
 ### Toggle
 
-[[Method('Radio Button', 'Toggle', false)]]
+_Block preview not available_
 
 Change the checked state of the view to the inverse of its current state
 
@@ -207,8 +207,7 @@ Specifies the component's vertical height, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's vertical height as a percentage
- of the height of its parent Component.
+Specifies the component's vertical height as a percentage   of the height of its parent Component.
 
 ### Row
 
@@ -241,8 +240,7 @@ Specifies the component's horizontal width, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width as a percentage
- of the Width of its parent Component.
+Specifies the component's horizontal width as a percentage   of the Width of its parent Component.
 
 ### is Checked
 

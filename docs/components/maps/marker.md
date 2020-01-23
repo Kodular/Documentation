@@ -44,7 +44,7 @@ The user stopped a drag operation.
 
 ### BearingToFeature
 
-[[Method('Marker', 'BearingToFeature', true, 'mapFeature centroids')]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -60,7 +60,7 @@ Returns the bearing from the Marker to the given map feature, in degrees from du
 
 ### BearingToPoint
 
-[[Method('Marker', 'BearingToPoint', true, 'latitude longitude')]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -76,7 +76,7 @@ Returns the bearing from the Marker to the given latitude and longitude, in degr
 
 ### DistanceToFeature
 
-[[Method('Marker', 'DistanceToFeature', true, 'mapFeature centroids')]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -92,7 +92,7 @@ Compute the distance, in meters, between two map features.
 
 ### DistanceToPoint
 
-[[Method('Marker', 'DistanceToPoint', true, 'latitude longitude')]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -108,13 +108,13 @@ Compute the distance, in meters, between a map feature and a latitude, longitude
 
 ### HideInfobox
 
-[[Method('Marker', 'HideInfobox', false)]]
+_Block preview not available_
 
 Hide the infobox if it is shown. If the infobox is not visible this function has no effect.
 
 ### SetLocation
 
-[[Method('Marker', 'SetLocation', false, 'latitude longitude')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -128,7 +128,7 @@ Set the location of the marker.
 
 ### ShowInfobox
 
-[[Method('Marker', 'ShowInfobox', false)]]
+_Block preview not available_
 
 Show the infobox for the feature. This will show the infobox even if
 

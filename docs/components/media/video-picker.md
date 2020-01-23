@@ -21,16 +21,13 @@ A special-purpose button. When the user taps an video picker, the device's video
     |selection|`text`|
 
 
-Event to be raised after the picker activity returns its
- result and the properties have been filled in.
+Event to be raised after the picker activity returns its   result and the properties have been filled in.
 
 ### Before Picking
 
 [[Event('Video Picker', 'Before Picking')]]
 
-Event to raise when the button of the component is clicked or the list is shown
- using the Open block.  This event occurs before the list of items is displayed, and
- can be used to prepare the list before it is shown.
+Event to raise when the button of the component is clicked or the list is shown   using the Open block.  This event occurs before the list of items is displayed, and   can be used to prepare the list before it is shown.
 
 ### Got Focus
 
@@ -60,7 +57,7 @@ Indicates that a button has been released.
 
 ### AnimationStyle
 
-[[Method('Video Picker', 'AnimationStyle', false, 'style position size color')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -76,19 +73,19 @@ Allows you to set animation style. Valid (case-insensitive) values are: ChasingD
 
 ### ButtonClick
 
-[[Method('Video Picker', 'ButtonClick', false)]]
+_Block preview not available_
 
 Perform a button click as function.
 
 ### Open
 
-[[Method('Video Picker', 'Open', false)]]
+_Block preview not available_
 
 Opens the picker, as though the user clicked on it.
 
 ### SetShadow
 
-[[Method('Video Picker', 'SetShadow', false, 'x y radius color')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -104,7 +101,7 @@ Place a blurred shadow of text underneath the text, drawn with the specified x, 
 
 ### WithIconFromFontAwesome
 
-[[Method('Video Picker', 'WithIconFromFontAwesome', false, 'position iconName iconColor padding size')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -121,7 +118,7 @@ Show an image on the given position near to the button. You can use following wo
 
 ### WithIconFromMaterialFont
 
-[[Method('Video Picker', 'WithIconFromMaterialFont', false, 'position iconName iconColor padding size')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -138,7 +135,7 @@ Show an image on the given position near to the button. You can use following wo
 
 ### WithIconFromPicture
 
-[[Method('Video Picker', 'WithIconFromPicture', false, 'position picture padding width height')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -420,8 +417,7 @@ Specifies the component's vertical height, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's vertical height as a percentage
- of the height of its parent Component.
+Specifies the component's vertical height as a percentage   of the height of its parent Component.
 
 ### Row
 
@@ -465,5 +461,4 @@ Specifies the component's horizontal width, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width as a percentage
- of the Width of its parent Component.
+Specifies the component's horizontal width as a percentage   of the Width of its parent Component.

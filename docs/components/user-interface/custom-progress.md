@@ -12,7 +12,7 @@ A visible component that indicates the progress of an operation using a range of
 
 ### GetAnimationStyleNames
 
-[[Method('Custom Progress', 'GetAnimationStyleNames', true)]]
+_Block preview not available_
 
 {>>Returns `list`<<}
 
@@ -103,8 +103,7 @@ Specifies the component's vertical height, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's vertical height as a percentage
- of the height of its parent Component.
+Specifies the component's vertical height as a percentage   of the height of its parent Component.
 
 ### Row
 
@@ -137,5 +136,4 @@ Specifies the component's horizontal width, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width as a percentage
- of the Width of its parent Component.
+Specifies the component's horizontal width as a percentage   of the Width of its parent Component.

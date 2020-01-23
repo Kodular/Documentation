@@ -8,14 +8,18 @@
 
 A button that, when clicked on, displays a list of the contacts' phone numbers to choose among. After the user has made a selection, the following properties will be set to information about the chosen contact: 
 
-*    `` ContactName ``: the contact's name 
-*    `` PhoneNumber ``: the contact's phone number 
-*    `` EmailAddress ``: the contact's email address 
+ *    `` ContactName ``: the contact's name 
+ *    `` PhoneNumber ``: the contact's phone number 
+ *    `` EmailAddress ``: the contact's email address 
  *    `` Picture ``: the name of the file containing the contact's image, which can be used as a `` Picture `` property value for the `` Image `` or `` ImageSprite `` component.
+
+ 
 
 Other properties affect the appearance of the button (`` TextAlignment ``, `` BackgroundColor ``, etc.) and whether it can be clicked on (`` Enabled ``).
 
-The PhoneNumberPicker component may not work on all Android devices. For example, on Android systems before system 3.0, the returned lists of phone numbers and email addresses will be empty.
+ 
+
+The PhoneNumberPicker component may not work on all Android devices. For example, on Android systems before system 3.0, the returned lists of phone numbers and email addresses will be empty. 
 
 ## Events
 
@@ -30,16 +34,13 @@ The PhoneNumberPicker component may not work on all Android devices. For example
     |selection|`text`|
 
 
-Event to be raised after the picker activity returns its
- result and the properties have been filled in.
+Event to be raised after the picker activity returns its   result and the properties have been filled in.
 
 ### Before Picking
 
 [[Event('Phone Number Picker', 'Before Picking')]]
 
-Event to raise when the button of the component is clicked or the list is shown
- using the Open block.  This event occurs before the list of items is displayed, and
- can be used to prepare the list before it is shown.
+Event to raise when the button of the component is clicked or the list is shown   using the Open block.  This event occurs before the list of items is displayed, and   can be used to prepare the list before it is shown.
 
 ### Got Focus
 
@@ -69,7 +70,7 @@ Indicates that a button has been released.
 
 ### AnimationStyle
 
-[[Method('Phone Number Picker', 'AnimationStyle', false, 'style position size color')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -85,19 +86,19 @@ Allows you to set animation style. Valid (case-insensitive) values are: ChasingD
 
 ### ButtonClick
 
-[[Method('Phone Number Picker', 'ButtonClick', false)]]
+_Block preview not available_
 
 Perform a button click as function.
 
 ### Open
 
-[[Method('Phone Number Picker', 'Open', false)]]
+_Block preview not available_
 
 Opens the picker, as though the user clicked on it.
 
 ### SetShadow
 
-[[Method('Phone Number Picker', 'SetShadow', false, 'x y radius color')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -113,7 +114,7 @@ Place a blurred shadow of text underneath the text, drawn with the specified x, 
 
 ### ViewContact
 
-[[Method('Phone Number Picker', 'ViewContact', false, 'uri')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -126,7 +127,7 @@ view a contact via its URI
 
 ### WithIconFromFontAwesome
 
-[[Method('Phone Number Picker', 'WithIconFromFontAwesome', false, 'position iconName iconColor padding size')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -143,7 +144,7 @@ Show an image on the given position near to the button. You can use following wo
 
 ### WithIconFromMaterialFont
 
-[[Method('Phone Number Picker', 'WithIconFromMaterialFont', false, 'position iconName iconColor padding size')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -160,7 +161,7 @@ Show an image on the given position near to the button. You can use following wo
 
 ### WithIconFromPicture
 
-[[Method('Phone Number Picker', 'WithIconFromPicture', false, 'position picture padding width height')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -486,8 +487,7 @@ Specifies the component's vertical height, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's vertical height as a percentage
- of the height of its parent Component.
+Specifies the component's vertical height as a percentage   of the height of its parent Component.
 
 ### Phone Number
 
@@ -520,8 +520,7 @@ PhoneNumberList property getter method.
 |:----:|:-------:|
 |text|None|
 
-Picture URI for this contact, which can be
- used to retrieve the contact's photo and other fields.
+Picture URI for this contact, which can be   used to retrieve the contact's photo and other fields.
 
 ### Row
 
@@ -554,5 +553,4 @@ Specifies the component's horizontal width, measured in pixels.
 |:----:|:-------:|
 |number|None|
 
-Specifies the component's horizontal width as a percentage
- of the Width of its parent Component.
+Specifies the component's horizontal width as a percentage   of the Width of its parent Component.

@@ -44,7 +44,7 @@ The user stopped a drag operation.
 
 ### DistanceToFeature
 
-[[Method('Circle', 'DistanceToFeature', true, 'mapFeature centroids')]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -60,7 +60,7 @@ Compute the distance, in meters, between two map features.
 
 ### DistanceToPoint
 
-[[Method('Circle', 'DistanceToPoint', true, 'latitude longitude centroid')]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -77,13 +77,13 @@ Compute the distance, in meters, between a map feature and a latitude, longitude
 
 ### HideInfobox
 
-[[Method('Circle', 'HideInfobox', false)]]
+_Block preview not available_
 
 Hide the infobox if it is shown. If the infobox is not visible this function has no effect.
 
 ### SetLocation
 
-[[Method('Circle', 'SetLocation', false, 'latitude longitude')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -97,7 +97,7 @@ Set the center of the Circle.
 
 ### ShowInfobox
 
-[[Method('Circle', 'ShowInfobox', false)]]
+_Block preview not available_
 
 Show the infobox for the feature. This will show the infobox even if
 

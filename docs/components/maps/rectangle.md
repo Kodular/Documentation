@@ -44,7 +44,7 @@ The user stopped a drag operation.
 
 ### Bounds
 
-[[Method('Rectangle', 'Bounds', true)]]
+_Block preview not available_
 
 {>>Returns `list`<<}
 
@@ -52,7 +52,7 @@ Returns the bounding box of the Rectangle in the format ((North West) (South Eas
 
 ### Center
 
-[[Method('Rectangle', 'Center', true)]]
+_Block preview not available_
 
 {>>Returns `list`<<}
 
@@ -60,7 +60,7 @@ Returns the center of the Rectangle as a list of the form (Latitude Longitude).
 
 ### DistanceToFeature
 
-[[Method('Rectangle', 'DistanceToFeature', true, 'mapFeature centroids')]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -76,7 +76,7 @@ Compute the distance, in meters, between two map features.
 
 ### DistanceToPoint
 
-[[Method('Rectangle', 'DistanceToPoint', true, 'latitude longitude centroid')]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -93,13 +93,13 @@ Compute the distance, in meters, between a map feature and a latitude, longitude
 
 ### HideInfobox
 
-[[Method('Rectangle', 'HideInfobox', false)]]
+_Block preview not available_
 
 Hide the infobox if it is shown. If the infobox is not visible this function has no effect.
 
 ### SetCenter
 
-[[Method('Rectangle', 'SetCenter', false, 'latitude longitude')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -113,7 +113,7 @@ Moves the Rectangle so that it is centered on the given latitude and longitude w
 
 ### ShowInfobox
 
-[[Method('Rectangle', 'ShowInfobox', false)]]
+_Block preview not available_
 
 Show the infobox for the feature. This will show the infobox even if
 

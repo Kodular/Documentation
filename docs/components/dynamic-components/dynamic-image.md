@@ -14,7 +14,7 @@ A component to create dynamic image in Arrangements.
 
 ### CreateImage
 
-[[Method('Dynamic Image', 'CreateImage', false, 'id arrangement path width height')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -31,7 +31,7 @@ Create a new image component dynamically. Use for width/height '-1' for wrap con
 
 ### DeleteImage
 
-[[Method('Dynamic Image', 'DeleteImage', false, 'id')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -44,7 +44,7 @@ Remove a image component with the given id.
 
 ### GetHeight
 
-[[Method('Dynamic Image', 'GetHeight', true, 'id')]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -59,7 +59,7 @@ Get the Height of a image component.
 
 ### GetImageById
 
-[[Method('Dynamic Image', 'GetImageById', true, 'id')]]
+_Block preview not available_
 
 {>>Returns `component`<<}
 
@@ -74,7 +74,7 @@ Returns the image referenced by its id.
 
 ### GetWidth
 
-[[Method('Dynamic Image', 'GetWidth', true, 'id')]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -89,7 +89,7 @@ Get the Width of a image component.
 
 ### RotationAngle
 
-[[Method('Dynamic Image', 'RotationAngle', false, 'id rotationAngle')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -103,7 +103,7 @@ Specifies the angle of a image component with the given id.
 
 ### ScalePictureToFit
 
-[[Method('Dynamic Image', 'ScalePictureToFit', false, 'id scale')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -117,7 +117,7 @@ Specifies whether a image component with the given id should be resized to match
 
 ### SetHeight
 
-[[Method('Dynamic Image', 'SetHeight', false, 'id height')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -131,7 +131,7 @@ Update the Height of a image component.
 
 ### SetWidth
 
-[[Method('Dynamic Image', 'SetWidth', false, 'id width')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -145,7 +145,7 @@ Update the Width of a image component.
 
 ### UpdateImage
 
-[[Method('Dynamic Image', 'UpdateImage', false, 'id path')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 

@@ -29,7 +29,7 @@ Called then the sensor value changed.
 
 ### GetSensorValue
 
-[[Method('EV3 Gyro Sensor', 'GetSensorValue', true)]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -37,13 +37,13 @@ Returns the current angle or rotation speed based on current mode, or -1 if the 
 
 ### SetAngleMode
 
-[[Method('EV3 Gyro Sensor', 'SetAngleMode', false)]]
+_Block preview not available_
 
 Measures the orientation of the sensor.
 
 ### SetRateMode
 
-[[Method('EV3 Gyro Sensor', 'SetRateMode', false)]]
+_Block preview not available_
 
 Measures the angular velocity of the sensor.
 

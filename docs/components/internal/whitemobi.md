@@ -29,7 +29,7 @@ Event triggered when an offer has been completed
 
 ### ShowOfferWall
 
-[[Method('WhiteMobi', 'ShowOfferWall', false)]]
+_Block preview not available_
 
 Show WhiteMobi offerwall
 

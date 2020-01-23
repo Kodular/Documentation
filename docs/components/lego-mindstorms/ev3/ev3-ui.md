@@ -14,7 +14,7 @@ A component that provides a high-level interface to a LEGO MINDSTORMS EV3 robot,
 
 ### DrawCircle
 
-[[Method('EV3 UI', 'DrawCircle', false, 'color x y radius fill')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -31,7 +31,7 @@ Draw a circle on the screen.
 
 ### DrawIcon
 
-[[Method('EV3 UI', 'DrawIcon', false, 'color x y type no')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -48,7 +48,7 @@ Draw a built-in icon on screen.
 
 ### DrawLine
 
-[[Method('EV3 UI', 'DrawLine', false, 'color x1 y1 x2 y2')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -65,7 +65,7 @@ Draw a line on the screen.
 
 ### DrawPoint
 
-[[Method('EV3 UI', 'DrawPoint', false, 'color x y')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -80,7 +80,7 @@ Draw a point on the screen.
 
 ### DrawRect
 
-[[Method('EV3 UI', 'DrawRect', false, 'color x y width height fill')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -98,7 +98,7 @@ Draw a rectangle on the screen.
 
 ### FillScreen
 
-[[Method('EV3 UI', 'FillScreen', false, 'color')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 

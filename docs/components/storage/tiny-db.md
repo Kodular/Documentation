@@ -24,13 +24,13 @@ When you are developing apps using the AI Companion, all the apps using that com
 
 ### ClearAll
 
-[[Method('Tiny DB', 'ClearAll', false)]]
+_Block preview not available_
 
 Clear the entire data store
 
 ### ClearTag
 
-[[Method('Tiny DB', 'ClearTag', false, 'tag')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -43,7 +43,7 @@ Clear the entry with the given tag
 
 ### GetTags
 
-[[Method('Tiny DB', 'GetTags', true)]]
+_Block preview not available_
 
 {>>Returns `any`<<}
 
@@ -51,7 +51,7 @@ Return a list of all the tags in the data store
 
 ### GetValue
 
-[[Method('Tiny DB', 'GetValue', true, 'tag valueIfTagNotThere')]]
+_Block preview not available_
 
 {>>Returns `any`<<}
 
@@ -67,7 +67,7 @@ Retrieve the value stored under the given tag.  If there's no such tag, then ret
 
 ### StoreValue
 
-[[Method('Tiny DB', 'StoreValue', false, 'tag valueToStore')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -77,8 +77,7 @@ Retrieve the value stored under the given tag.  If there's no such tag, then ret
     |value To Store|`any`|
 
 
-Store the given value under the given tag.  The storage persists on the
- phone when the app is restarted.
+Store the given value under the given tag.  The storage persists on the   phone when the app is restarted.
 
 ## Properties
 

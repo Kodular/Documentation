@@ -42,7 +42,7 @@ Trigger when a Dynamic Button is long clicked.
 
 ### CreateButton
 
-[[Method('Dynamic Button', 'CreateButton', false, 'id arrangement')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -58,7 +58,7 @@ Create a Dynamic Button.
 
 :warning: ==**Deprecated**==
 
-[[Method('Dynamic Button', 'DeleteButton', false, 'id arrangement')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -72,7 +72,7 @@ This block is DEPRECATED! Please use instead the 'Delete Button' block without a
 
 ### DeleteButtonNew
 
-[[Method('Dynamic Button', 'DeleteButtonNew', false, 'id')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -85,7 +85,7 @@ Delete a Dynamic Button.
 
 ### GetButtonById
 
-[[Method('Dynamic Button', 'GetButtonById', true, 'id')]]
+_Block preview not available_
 
 {>>Returns `component`<<}
 
@@ -100,7 +100,7 @@ Returns the button referenced by its id.
 
 ### GetEnabled
 
-[[Method('Dynamic Button', 'GetEnabled', true, 'id')]]
+_Block preview not available_
 
 {>>Returns `boolean`<<}
 
@@ -115,7 +115,7 @@ Get the Enabled status of a button.
 
 ### GetFontSize
 
-[[Method('Dynamic Button', 'GetFontSize', true, 'id')]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -130,7 +130,7 @@ Get the Font Size of a button.
 
 ### GetHeight
 
-[[Method('Dynamic Button', 'GetHeight', true, 'id')]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -145,7 +145,7 @@ Get the Height of a button.
 
 ### GetText
 
-[[Method('Dynamic Button', 'GetText', true, 'id')]]
+_Block preview not available_
 
 {>>Returns `text`<<}
 
@@ -160,7 +160,7 @@ Get the Text of a button.
 
 ### GetWidth
 
-[[Method('Dynamic Button', 'GetWidth', true, 'id')]]
+_Block preview not available_
 
 {>>Returns `number`<<}
 
@@ -175,7 +175,7 @@ Get the Width of a button.
 
 ### SetBackgroundColor
 
-[[Method('Dynamic Button', 'SetBackgroundColor', false, 'id color')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -189,7 +189,7 @@ Update the Background Color of a button.
 
 ### SetEnabled
 
-[[Method('Dynamic Button', 'SetEnabled', false, 'id enabled')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -203,7 +203,7 @@ Update the Enabled status of a button.
 
 ### SetFont
 
-[[Method('Dynamic Button', 'SetFont', false, 'id bold italic')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -218,7 +218,7 @@ Update the Font of a button.
 
 ### SetFontSize
 
-[[Method('Dynamic Button', 'SetFontSize', false, 'id size')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -232,7 +232,7 @@ Update the Font Size of a button.
 
 ### SetHeight
 
-[[Method('Dynamic Button', 'SetHeight', false, 'id height')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -246,7 +246,7 @@ Update the Height of a button.
 
 ### SetText
 
-[[Method('Dynamic Button', 'SetText', false, 'id text')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -260,7 +260,7 @@ Update the Text of a button.
 
 ### SetTextColor
 
-[[Method('Dynamic Button', 'SetTextColor', false, 'id color')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
@@ -274,7 +274,7 @@ Update the Text Color of a button.
 
 ### SetWidth
 
-[[Method('Dynamic Button', 'SetWidth', false, 'id width')]]
+_Block preview not available_
 
 ??? tip "Parameters"
 
