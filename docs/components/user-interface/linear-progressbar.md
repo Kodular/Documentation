@@ -46,7 +46,7 @@ Change the indeterminate mode for this progress bar. In indeterminate mode, the 
 
 ### Indeterminate Color
 
-<span class="chip chip-number">Number</span> <span class="chip chip-number" style="background-color: #2196F2;">Default: <i>#2196F2FF</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
+<span class="chip chip-color">Color</span> <span class="chip chip-color" style="background-color: #2196F2;">Default: <i>#2196F2FF</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Change the indeterminate color of the progress bar.
 
@@ -70,7 +70,7 @@ Set the lower range of the progress bar to min. This function works only for dev
 
 ### Progress Color
 
-<span class="chip chip-number">Number</span> <span class="chip chip-number" style="background-color: #2196F2;">Default: <i>#2196F2FF</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
+<span class="chip chip-color">Color</span> <span class="chip chip-color" style="background-color: #2196F2;">Default: <i>#2196F2FF</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
 Change the progress color of the progress bar.
 
