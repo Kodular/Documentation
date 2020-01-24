@@ -23,7 +23,6 @@ Indicates that an error occurred while communicating with the CloudDB Redis serv
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22CloudDB%22,%20%22name%22:%20%22CloudDB%20Error%22,%20%22params%22:%20%5B%22message%22%5D%7D"></div>
 
-
 | Params | []() |
 |--------|------|
 |message|<span class="chip chip-text">Text</span>|
@@ -35,7 +34,6 @@ Indicates that the data in the CloudDB project has changed
 Launches an event with the tag and value that have been updated.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22CloudDB%22,%20%22name%22:%20%22Data%20Changed%22,%20%22params%22:%20%5B%22tag%22,%20%22value%22%5D%7D"></div>
-
 
 | Params | []() |
 |--------|------|
@@ -49,7 +47,6 @@ Event triggered by the "RemoveFirstFromList" function. The argument "value" is t
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22CloudDB%22,%20%22name%22:%20%22First%20Removed%22,%20%22params%22:%20%5B%22value%22%5D%7D"></div>
 
-
 | Params | []() |
 |--------|------|
 |value|<span class="chip chip-any">Any</span>|
@@ -60,7 +57,6 @@ Event triggered by the "RemoveFirstFromList" function. The argument "value" is t
 Indicates that a GetValue request has succeeded.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22CloudDB%22,%20%22name%22:%20%22Got%20Value%22,%20%22params%22:%20%5B%22tag%22,%20%22value%22%5D%7D"></div>
-
 
 | Params | []() |
 |--------|------|
@@ -73,7 +69,6 @@ Indicates that a GetValue request has succeeded.
 Event triggered when we have received the list of known tags. Used with the "GetTagList" Function.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22CloudDB%22,%20%22name%22:%20%22Tag%20List%22,%20%22params%22:%20%5B%22value%22%5D%7D"></div>
-
 
 | Params | []() |
 |--------|------|
@@ -165,13 +160,14 @@ Store a value at a tag.
 
 ### Default Redis Server
 
-<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> 
+<span class="chip chip-text">Text</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span>
 
 The Default Redis Server to use.
 
+
 ### Project ID
 
-<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
+<span class="chip chip-text">Text</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
 
 Gets the ProjectID for this CloudDB project.
 
@@ -180,7 +176,7 @@ Gets the ProjectID for this CloudDB project.
 
 ### Redis Port
 
-<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>6381</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
+<span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-number">Default: <i>6381</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
 
 The Redis Server port to use. Defaults to 6381
 
@@ -189,7 +185,7 @@ The Redis Server port to use. Defaults to 6381
 
 ### Redis Server
 
-<span class="chip chip-text">Text</span> <span class="chip chip-text">Default: <i>DEFAULT</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
+<span class="chip chip-text">Text</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-text">Default: <i>DEFAULT</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
 
 The Redis Server to use to store data. A setting of "DEFAULT" means that the MIT server will be used.
 
@@ -198,12 +194,13 @@ The Redis Server to use to store data. A setting of "DEFAULT" means that the MIT
 
 ### Token
 
-<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> 
+<span class="chip chip-text">Text</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span>
 
 This field contains the authentication token used to login to the backed Redis server. For the "DEFAULT" server, do not edit this value, the system will fill it in for you. A system administrator may also provide a special value to you which can be used to share data between multiple projects from multiple people. If using your own Redis server, set a password in the server's config and enter it here.
 
+
 ### Use SSL
 
-<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> 
+<span class="chip chip-boolean">Boolean</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-boolean">Default: <i>True</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span>
 
 Set to true to use SSL to talk to CloudDB/Redis server. This should be set to True for the "DEFAULT" server.

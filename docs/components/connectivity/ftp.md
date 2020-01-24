@@ -24,7 +24,6 @@ This event returns the reason if a try to connect was not successful.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22FTP%22,%20%22name%22:%20%22Connect%20Error%22,%20%22params%22:%20%5B%22error%22%5D%7D"></div>
 
-
 | Params | []() |
 |--------|------|
 |error|<span class="chip chip-text">Text</span>|
@@ -36,7 +35,6 @@ This event returns the status of the connection. If it is connect it will return
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22FTP%22,%20%22name%22:%20%22Connection%20Status%22,%20%22params%22:%20%5B%22is%20Connected%22%5D%7D"></div>
 
-
 | Params | []() |
 |--------|------|
 |is Connected|<span class="chip chip-boolean">Boolean</span>|
@@ -47,7 +45,6 @@ This event returns the status of the connection. If it is connect it will return
 This event returns the reason if a try to disconnect was not successful.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22FTP%22,%20%22name%22:%20%22Disconnect%20Error%22,%20%22params%22:%20%5B%22error%22%5D%7D"></div>
-
 
 | Params | []() |
 |--------|------|
@@ -67,7 +64,6 @@ This event returns the reason if a download was not successful.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22FTP%22,%20%22name%22:%20%22Download%20error%22,%20%22params%22:%20%5B%22error%22%5D%7D"></div>
 
-
 | Params | []() |
 |--------|------|
 |error|<span class="chip chip-text">Text</span>|
@@ -85,7 +81,6 @@ This event is invoked when the upload is finished.
 This event returns the reason if a upload was not successful.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22FTP%22,%20%22name%22:%20%22Upload%20error%22,%20%22params%22:%20%5B%22error%22%5D%7D"></div>
-
 
 | Params | []() |
 |--------|------|
@@ -176,7 +171,7 @@ Make/create a directory on the ftp server.
 
 ### FTP-Server (Host)
 
-<span class="chip chip-text">Text</span> <span class="chip chip-text">Default: <i>ftp.example.org</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
+<span class="chip chip-text">Text</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-text">Default: <i>ftp.example.org</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
 
 Set the ftp server url.
 
@@ -186,7 +181,7 @@ Set the ftp server url.
 
 ### Password
 
-<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
+<span class="chip chip-text">Text</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
 
 Set the password to login into the ftp server.
 
@@ -196,7 +191,7 @@ Set the password to login into the ftp server.
 
 ### Port
 
-<span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>21</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
+<span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-number">Default: <i>21</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
 
 Set the ftp port number.
 
@@ -206,7 +201,7 @@ Set the ftp port number.
 
 ### Username
 
-<span class="chip chip-text">Text</span> <span class="chip chip-text">Default: <i>Your Username</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
+<span class="chip chip-text">Text</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-text">Default: <i>Your Username</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
 
 Set the username to login into the ftp server.
 
@@ -216,7 +211,7 @@ Set the username to login into the ftp server.
 
 ### Working Directory
 
-<span class="chip chip-text">Text</span> <span class="chip chip-text">Default: <i>/</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
+<span class="chip chip-text">Text</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-text">Default: <i>/</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
 
 Set the ftp working dir.
 

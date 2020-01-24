@@ -35,7 +35,6 @@ This event is raised when the recent messages requested through `` RequestDirect
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22Direct%20Messages%20Received%22,%20%22params%22:%20%5B%22messages%22%5D%7D"></div>
 
-
 | Params | []() |
 |--------|------|
 |messages|<span class="chip chip-list">List</span>|
@@ -47,7 +46,6 @@ This event is raised when all of the followers of the logged-in user requested t
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22Followers%20Received%22,%20%22params%22:%20%5B%22followers%202%22%5D%7D"></div>
 
-
 | Params | []() |
 |--------|------|
 |followers 2|<span class="chip chip-list">List</span>|
@@ -58,7 +56,6 @@ This event is raised when all of the followers of the logged-in user requested t
 This event is raised when the messages requested through `` RequestFriendTimeline `` have been retrieved. The `` timeline `` parameter and the `` Timeline `` property will contain a list of lists, where each sub-list contains a status update of the form (username message)
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22Friend%20Timeline%20Received%22,%20%22params%22:%20%5B%22timeline%22%5D%7D"></div>
-
 
 | Params | []() |
 |--------|------|
@@ -78,7 +75,6 @@ This event is raised when the mentions of the logged-in user requested through `
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22Mentions%20Received%22,%20%22params%22:%20%5B%22mentions%22%5D%7D"></div>
 
-
 | Params | []() |
 |--------|------|
 |mentions|<span class="chip chip-list">List</span>|
@@ -89,7 +85,6 @@ This event is raised when the mentions of the logged-in user requested through `
 This event is raised when the results of the search requested through `` SearchSuccessful `` have been retrieved. A list of the results can then be found in the `` results `` parameter or the `` Results `` property.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22Search%20Successful%22,%20%22params%22:%20%5B%22search%20Results%22%5D%7D"></div>
-
 
 | Params | []() |
 |--------|------|
@@ -250,7 +245,7 @@ This sends a tweet as the logged-in user with the specified Text and a path to t
 
 ### Consumer Key
 
-<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
+<span class="chip chip-text">Text</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
 
 ConsumerKey property getter method.
 
@@ -260,7 +255,7 @@ ConsumerKey property getter method.
 
 ### Consumer Secret
 
-<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
+<span class="chip chip-text">Text</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
 
 ConsumerSecret property getter method.
 
@@ -270,7 +265,7 @@ ConsumerSecret property getter method.
 
 ### Direct Messages
 
-<span class="chip chip-list">List</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
+<span class="chip chip-list">List</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
 
 This property contains a list of the most recent messages mentioning the logged-in user. Initially, the list is empty. To set it, the program must: 
 
@@ -286,7 +281,7 @@ The value of this property will then be set to the list of direct messages retri
 
 ### Followers
 
-<span class="chip chip-list">List</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
+<span class="chip chip-list">List</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
 
 This property contains a list of the followers of the logged-in user. Initially, the list is empty. To set it, the program must: 
 
@@ -302,7 +297,7 @@ The value of this property will then be set to the list of followers (and mainta
 
 ### Friend Time line
 
-<span class="chip chip-list">List</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
+<span class="chip chip-list">List</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
 
 This property contains the 20 most recent messages of users being followed. Initially, the list is empty. To set it, the program must: 
 
@@ -320,7 +315,7 @@ The value of this property will then be set to the list of messages (and maintai
 
 ### Mentions
 
-<span class="chip chip-list">List</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
+<span class="chip chip-list">List</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
 
 This property contains a list of mentions of the logged-in user. Initially, the list is empty. To set it, the program must: 
 
@@ -336,7 +331,7 @@ The value of this property will then be set to the list of mentions (and will ma
 
 ### Search Results
 
-<span class="chip chip-list">List</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
+<span class="chip chip-list">List</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
 
 This property, which is initially empty, is set to a list of search results after the program: 
 
@@ -352,7 +347,7 @@ The value of the property will then be the same as the parameter to `` SearchSuc
 
 :warning: ==**Deprecated**==
 
-<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Blocks</span> 
+<span class="chip chip-text">Text</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
 
 TwitPicAPIkey property getter method.
 
@@ -362,7 +357,7 @@ TwitPicAPIkey property getter method.
 
 ### Username
 
-<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
+<span class="chip chip-text">Text</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
 
 The user name of the authorized user. Empty if there is no authorized user.
 

@@ -18,7 +18,6 @@ Simple event to raise after the VoiceReco activity has returned
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Speech%20Recognizer%22,%20%22name%22:%20%22After%20Getting%20Text%22,%20%22params%22:%20%5B%22result%22%5D%7D"></div>
 
-
 | Params | []() |
 |--------|------|
 |result|<span class="chip chip-text">Text</span>|
@@ -44,7 +43,7 @@ Solicits speech input from the user. After the speech is converted totext, the A
 
 ### Result
 
-<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
+<span class="chip chip-text">Text</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
 
 Result property getter method.
 

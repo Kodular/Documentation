@@ -27,7 +27,6 @@ Event indicating that an incoming phone call is answered. phoneNumber is the inc
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Phone%20Call%22,%20%22name%22:%20%22Incoming%20Call%20Answered%22,%20%22params%22:%20%5B%22phone%20Number%22%5D%7D"></div>
 
-
 | Params | []() |
 |--------|------|
 |phone Number|<span class="chip chip-text">Text</span>|
@@ -38,7 +37,6 @@ Event indicating that an incoming phone call is answered. phoneNumber is the inc
 Event indicating that a phone call has ended. If status is 1, incoming call is missed or rejected; if status is 2, incoming call is answered before hanging up; if status is 3, outgoing call is hung up. phoneNumber is the ended call phone number.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Phone%20Call%22,%20%22name%22:%20%22Phone%20Call%20Ended%22,%20%22params%22:%20%5B%22status%22,%20%22phone%20Number%22%5D%7D"></div>
-
 
 | Params | []() |
 |--------|------|
@@ -51,7 +49,6 @@ Event indicating that a phone call has ended. If status is 1, incoming call is m
 Event indicating that a phonecall has started. If status is 1, incoming call is ringing; if status is 2, outgoing call is dialled. phoneNumber is the incoming/outgoing phone number.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Phone%20Call%22,%20%22name%22:%20%22Phone%20Call%20Started%22,%20%22params%22:%20%5B%22status%22,%20%22phone%20Number%22%5D%7D"></div>
-
 
 | Params | []() |
 |--------|------|
@@ -72,7 +69,7 @@ Makes a phone call using the number in the PhoneNumber property.
 
 ### Phone Number
 
-<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
+<span class="chip chip-text">Text</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
 
 PhoneNumber property getter method.
 

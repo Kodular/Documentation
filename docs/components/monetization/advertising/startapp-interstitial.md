@@ -38,7 +38,6 @@ Called when an ad request failed to load. The message will display the error cod
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22StartApp%20Interstitial%22,%20%22name%22:%20%22Ad%20Failed%20To%20Load%22,%20%22params%22:%20%5B%22error%20Code%22,%20%22error%20Message%22%5D%7D"></div>
 
-
 | Params | []() |
 |--------|------|
 |error Code|<span class="chip chip-number">Number</span>|
@@ -50,7 +49,6 @@ Called when an ad request failed to load. The message will display the error cod
 Called when an an attempt was made to display the ad, but the ad was not ready to display.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22StartApp%20Interstitial%22,%20%22name%22:%20%22Ad%20Failed%20To%20Show%22,%20%22params%22:%20%5B%22error%20Message%22%5D%7D"></div>
-
 
 | Params | []() |
 |--------|------|
@@ -69,7 +67,6 @@ Indicates that an Ad which was shown to the user is now hidden.
 Called when an ad request failed to load.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22StartApp%20Interstitial%22,%20%22name%22:%20%22On%20Failed%20To%20Receive%20Ad%22,%20%22params%22:%20%5B%22error%20Message%22%5D%7D"></div>
-
 
 | Params | []() |
 |--------|------|
@@ -103,4 +100,4 @@ It will show the Interstitial Ad
 
 ### App ID
 
-<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> 
+<span class="chip chip-text">Text</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span>

@@ -23,7 +23,6 @@ Read output after executing shell command
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Shell%22,%20%22name%22:%20%22Got%20Output%22,%20%22params%22:%20%5B%22out%22%5D%7D"></div>
 
-
 | Params | []() |
 |--------|------|
 |out|<span class="chip chip-text">Text</span>|

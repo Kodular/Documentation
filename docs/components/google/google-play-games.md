@@ -23,7 +23,6 @@ Got player info
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Play%20Games%22,%20%22name%22:%20%22Got%20Player%22,%20%22params%22:%20%5B%22name%22,%20%22id%22,%20%22level%22,%20%22xp%22%5D%7D"></div>
 
-
 | Params | []() |
 |--------|------|
 |name|<span class="chip chip-text">Text</span>|
@@ -37,7 +36,6 @@ Got player info
 User signed in.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Play%20Games%22,%20%22name%22:%20%22Signed%20In%22,%20%22params%22:%20%5B%22success%22%5D%7D"></div>
-
 
 | Params | []() |
 |--------|------|
@@ -149,4 +147,4 @@ Unlock an achievement.
 
 ### Google Play Games App ID
 
-<span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> 
+<span class="chip chip-text">Text</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span>

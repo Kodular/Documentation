@@ -24,7 +24,6 @@ Provides the location of the newly created sound.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Sound%20Recorder%22,%20%22name%22:%20%22After%20Sound%20Recorded%22,%20%22params%22:%20%5B%22sound%22%5D%7D"></div>
 
-
 | Params | []() |
 |--------|------|
 |sound|<span class="chip chip-text">Text</span>|
@@ -71,7 +70,7 @@ Stops recording.
 
 ### Saved Recording
 
-<span class="chip chip-text">Text</span> <span class="chip chip-text">Default: <i>/mnt/sdcard/Makeroid/mySound.3gp</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
+<span class="chip chip-text">Text</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-text">Default: <i>/mnt/sdcard/Makeroid/mySound.3gp</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
 
 Specifies the path to the file where the recording should be stored. If this property is the empty string, then starting a recording will create a file in an appropriate location. If the property is not the empty string, it should specify a complete path to a file in an existing directory, including a file name with the extension .3gp.
 

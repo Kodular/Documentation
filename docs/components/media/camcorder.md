@@ -24,7 +24,6 @@ Indicates that a video was recorded with the camera and provides the path tothe 
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Camcorder%22,%20%22name%22:%20%22After%20Recording%22,%20%22params%22:%20%5B%22clip%22%5D%7D"></div>
 
-
 | Params | []() |
 |--------|------|
 |clip|<span class="chip chip-text">Text</span>|

@@ -19,7 +19,6 @@ Event handler after the SQL statement is executed, returns whether the execution
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22SQLite%22,%20%22name%22:%20%22After%20Execution%22,%20%22params%22:%20%5B%22was%20Executed%22%5D%7D"></div>
 
-
 | Params | []() |
 |--------|------|
 |was Executed|<span class="chip chip-boolean">Boolean</span>|
@@ -30,7 +29,6 @@ Event handler after the SQL statement is executed, returns whether the execution
 Event handler after the RawQuery or Query is executed and returns a list with the selected data and number of records.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22SQLite%22,%20%22name%22:%20%22After%20Query%22,%20%22params%22:%20%5B%22result%22,%20%22number%20Of%20Records%22%5D%7D"></div>
-
 
 | Params | []() |
 |--------|------|
@@ -43,7 +41,6 @@ Event handler after the RawQuery or Query is executed and returns a list with th
 Event handler when an error ocurred, returns a string with a message from the error.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22SQLite%22,%20%22name%22:%20%22Error%20Occurred%22,%20%22params%22:%20%5B%22message%22%5D%7D"></div>
-
 
 | Params | []() |
 |--------|------|
@@ -194,7 +191,7 @@ Executes pre-compiled UPDATE statement with specified parameters. Parameters: 1)
 
 ### Return Header
 
-<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>false</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
+<span class="chip chip-boolean">Boolean</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-boolean">Default: <i>false</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
 
 Returns whether the header row should be returned in the result of a Select statement.
 
@@ -204,7 +201,7 @@ Returns whether the header row should be returned in the result of a Select stat
 
 ### Suppress Toast
 
-<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>false</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
+<span class="chip chip-boolean">Boolean</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-boolean">Default: <i>false</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
 
 Returns whether Success Toast should be suppressed.
 

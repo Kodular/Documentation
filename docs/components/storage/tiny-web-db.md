@@ -22,7 +22,6 @@ Indicates that a GetValue server request has succeeded.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Tiny%20Web%20DB%22,%20%22name%22:%20%22Got%20Value%22,%20%22params%22:%20%5B%22tag%20From%20Web%20DB%22,%20%22value%20From%20Web%20DB%22%5D%7D"></div>
 
-
 | Params | []() |
 |--------|------|
 |tag From Web DB|<span class="chip chip-text">Text</span>|
@@ -41,7 +40,6 @@ Event indicating that a StoreValue server request has succeeded.
 Indicates that the communication with the Web service signaled an error.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Tiny%20Web%20DB%22,%20%22name%22:%20%22Web%20Service%20Error%22,%20%22params%22:%20%5B%22message%22%5D%7D"></div>
-
 
 | Params | []() |
 |--------|------|
@@ -79,7 +77,7 @@ Asks the Web service to store the given value under the given tag.
 
 ### Service URL
 
-<span class="chip chip-text">Text</span> <span class="chip chip-text">Default: <i>http://tinywebdb.builder.makeroid.io</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
+<span class="chip chip-text">Text</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-text">Default: <i>http://tinywebdb.builder.makeroid.io</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
 
 Returns the URL of the web service database.
 

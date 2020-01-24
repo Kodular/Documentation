@@ -23,7 +23,6 @@ After purchase event.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22In%20App%20Billing%22,%20%22name%22:%20%22After%20Purchase%22,%20%22params%22:%20%5B%22product%20Id%22%5D%7D"></div>
 
-
 | Params | []() |
 |--------|------|
 |product Id|<span class="chip chip-text">Text</span>|
@@ -34,7 +33,6 @@ After purchase event.
 Error occurred event.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22In%20App%20Billing%22,%20%22name%22:%20%22Error%20Occurred%22,%20%22params%22:%20%5B%22message%22%5D%7D"></div>
-
 
 | Params | []() |
 |--------|------|
@@ -47,7 +45,6 @@ Got Owned Purchases
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22In%20App%20Billing%22,%20%22name%22:%20%22Got%20Owned%20Purchases%22,%20%22params%22:%20%5B%22owned%20Products%22,%20%22owned%20Subscriptions%22%5D%7D"></div>
 
-
 | Params | []() |
 |--------|------|
 |owned Products|<span class="chip chip-list">List</span>|
@@ -59,7 +56,6 @@ Got Owned Purchases
 Got Product Details
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22In%20App%20Billing%22,%20%22name%22:%20%22Got%20Product%20Details%22,%20%22params%22:%20%5B%22success%22,%20%22product%20Id%22,%20%22title%22,%20%22description%22,%20%22currency%22,%20%22price%22%5D%7D"></div>
-
 
 | Params | []() |
 |--------|------|
@@ -76,7 +72,6 @@ Got Product Details
 Got Subscription Details
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22In%20App%20Billing%22,%20%22name%22:%20%22Got%20Subscription%20Details%22,%20%22params%22:%20%5B%22success%22,%20%22is%20Subscription%22,%20%22subscription%20Id%22,%20%22title%22,%20%22description%22,%20%22currency%22,%20%22price%22%5D%7D"></div>
-
 
 | Params | []() |
 |--------|------|
@@ -223,13 +218,14 @@ Do not use this block anymore. This block is deprecated and does nothing and wil
 
 :warning: ==**Deprecated**==
 
-<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>true</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> 
+<span class="chip chip-boolean">Boolean</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-boolean">Default: <i>true</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span>
 
 Do not use this block anymore. This block is deprecated and does nothing and will be removed in the future!
 
+
 ### Test Mode
 
-<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>false</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
+<span class="chip chip-boolean">Boolean</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-boolean">Default: <i>false</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
 
 Whether it is testing mode enabled or not.
 
@@ -239,7 +235,7 @@ Whether it is testing mode enabled or not.
 
 ### Is IAB Service Available
 
-<span class="chip chip-boolean">Boolean</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
+<span class="chip chip-boolean">Boolean</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
 
 Check Play Market services availability.
 
@@ -248,7 +244,7 @@ Check Play Market services availability.
 
 ### Is One Time Purchase Available
 
-<span class="chip chip-boolean">Boolean</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
+<span class="chip chip-boolean">Boolean</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
 
 Is one time purchase supported.
 
@@ -257,7 +253,7 @@ Is one time purchase supported.
 
 ### Is Subscription Update Supported
 
-<span class="chip chip-boolean">Boolean</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
+<span class="chip chip-boolean">Boolean</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
 
 Is subscription update supported.
 
@@ -266,7 +262,7 @@ Is subscription update supported.
 
 ### Ready To Purchase
 
-<span class="chip chip-boolean">Boolean</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
+<span class="chip chip-boolean">Boolean</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
 
 Whether In-app billing service is ready to purchase.
 

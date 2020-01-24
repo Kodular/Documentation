@@ -32,7 +32,6 @@ Triggers when the current Firebase User was successful loaded
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Firebase%20Authentication%22,%20%22name%22:%20%22Current%20User%20Success%22,%20%22params%22:%20%5B%22user%20ID%22,%20%22name%22,%20%22email%22,%20%22phone%20Number%22,%20%22profile%20Picture%22%5D%7D"></div>
 
-
 | Params | []() |
 |--------|------|
 |user ID|<span class="chip chip-text">Text</span>|
@@ -48,7 +47,6 @@ Triggers when the 'Get Id Token' got a result. If there was a error it returns a
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Firebase%20Authentication%22,%20%22name%22:%20%22Got%20Id%20Token%22,%20%22params%22:%20%5B%22id%20Token%22%5D%7D"></div>
 
-
 | Params | []() |
 |--------|------|
 |id Token|<span class="chip chip-text">Text</span>|
@@ -60,7 +58,6 @@ Triggers when the Firebase Login failed
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Firebase%20Authentication%22,%20%22name%22:%20%22Login%20Failed%22,%20%22params%22:%20%5B%22provider%22%5D%7D"></div>
 
-
 | Params | []() |
 |--------|------|
 |provider|<span class="chip chip-text">Text</span>|
@@ -71,7 +68,6 @@ Triggers when the Firebase Login failed
 Triggers when the Firebase Login was successful
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Firebase%20Authentication%22,%20%22name%22:%20%22Login%20Success%22,%20%22params%22:%20%5B%22provider%22,%20%22user%20ID%22,%20%22name%22,%20%22email%22,%20%22phone%20Number%22,%20%22profile%20Picture%22%5D%7D"></div>
-
 
 | Params | []() |
 |--------|------|
@@ -89,7 +85,6 @@ Triggers when the 'Send Reset Password Email' got a result. Returns true if the 
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Firebase%20Authentication%22,%20%22name%22:%20%22Reset%20Password%20Email%20Done%22,%20%22params%22:%20%5B%22success%22%5D%7D"></div>
 
-
 | Params | []() |
 |--------|------|
 |success|<span class="chip chip-boolean">Boolean</span>|
@@ -100,7 +95,6 @@ Triggers when the 'Send Reset Password Email' got a result. Returns true if the 
 Triggers when the Firebase Sign Up failed
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Firebase%20Authentication%22,%20%22name%22:%20%22Sign%20Up%20Failed%22,%20%22params%22:%20%5B%22provider%22,%20%22message%22%5D%7D"></div>
-
 
 | Params | []() |
 |--------|------|
@@ -113,7 +107,6 @@ Triggers when the Firebase Sign Up failed
 Triggers when the Firebase Sign Up failed
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Firebase%20Authentication%22,%20%22name%22:%20%22Sign%20Up%20Success%22,%20%22params%22:%20%5B%22provider%22,%20%22user%20ID%22,%20%22name%22,%20%22email%22,%20%22phone%20Number%22,%20%22profile%20Picture%22%5D%7D"></div>
-
 
 | Params | []() |
 |--------|------|
@@ -131,7 +124,6 @@ Triggers when updating of the user failed
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Firebase%20Authentication%22,%20%22name%22:%20%22User%20Update%20Failed%22,%20%22params%22:%20%5B%22type%22%5D%7D"></div>
 
-
 | Params | []() |
 |--------|------|
 |type|<span class="chip chip-text">Text</span>|
@@ -142,7 +134,6 @@ Triggers when updating of the user failed
 Triggers when updating of the user was successful
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Firebase%20Authentication%22,%20%22name%22:%20%22User%20Update%20Success%22,%20%22params%22:%20%5B%22type%22%5D%7D"></div>
-
 
 | Params | []() |
 |--------|------|

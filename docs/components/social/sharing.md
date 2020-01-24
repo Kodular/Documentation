@@ -27,7 +27,6 @@ This event returns the social media name if an app is not installed. Possible na
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Sharing%22,%20%22name%22:%20%22App%20Not%20Found%22,%20%22params%22:%20%5B%22name%22%5D%7D"></div>
 
-
 | Params | []() |
 |--------|------|
 |name|<span class="chip chip-text">Text</span>|
@@ -174,7 +173,7 @@ Shares a message through WhatsApp. If WhatsApp is not installed, then the 'AppNo
 
 ### Share Dialog Message
 
-<span class="chip chip-text">Text</span> <span class="chip chip-text">Default: <i>Send using...</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
+<span class="chip chip-text">Text</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-text">Default: <i>Send using...</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
 
 Set the text for the sharing dialog. The default text is 'Send using...'.
 

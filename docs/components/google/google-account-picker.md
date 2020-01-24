@@ -18,7 +18,6 @@ Event raised after account has been picked.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Account%20Picker%22,%20%22name%22:%20%22Picked%22,%20%22params%22:%20%5B%22account%20Name%22%5D%7D"></div>
 
-
 | Params | []() |
 |--------|------|
 |account Name|<span class="chip chip-text">Text</span>|

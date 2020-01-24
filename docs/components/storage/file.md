@@ -23,7 +23,6 @@ Event indicating that the contents of the file have been written.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22File%22,%20%22name%22:%20%22After%20File%20Saved%22,%20%22params%22:%20%5B%22file%20Name%22%5D%7D"></div>
 
-
 | Params | []() |
 |--------|------|
 |file Name|<span class="chip chip-text">Text</span>|
@@ -49,7 +48,6 @@ Event indicating that there was a directory created. The return value is 'true' 
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22File%22,%20%22name%22:%20%22Directory%20Created%22,%20%22params%22:%20%5B%22is%20Directory%20Created%22%5D%7D"></div>
 
-
 | Params | []() |
 |--------|------|
 |is Directory Created|<span class="chip chip-boolean">Boolean</span>|
@@ -61,7 +59,6 @@ Event indicating that the contents from the file have been read.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22File%22,%20%22name%22:%20%22Got%20Text%22,%20%22params%22:%20%5B%22text%22%5D%7D"></div>
 
-
 | Params | []() |
 |--------|------|
 |text|<span class="chip chip-text">Text</span>|
@@ -72,7 +69,6 @@ Event indicating that the contents from the file have been read.
 Event indicating that there was any failure on zip or unzip a file.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22File%22,%20%22name%22:%20%22On%20Zip%20Failure%22,%20%22params%22:%20%5B%22error%20Message%22%5D%7D"></div>
-
 
 | Params | []() |
 |--------|------|

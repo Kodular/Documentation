@@ -18,7 +18,6 @@ This event is triggered when there was a error catched. Possible values for the 
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Animation%20Utilities%22,%20%22name%22:%20%22Error%22,%20%22params%22:%20%5B%22error%20Code%22,%20%22error%20Message%22,%20%22method%22%5D%7D"></div>
 
-
 | Params | []() |
 |--------|------|
 |error Code|<span class="chip chip-number">Number</span>|

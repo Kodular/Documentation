@@ -25,7 +25,6 @@ Triggers when the file could not be deleted
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Firebase%20Storage%22,%20%22name%22:%20%22Delete%20Failed%22,%20%22params%22:%20%5B%22file%22,%20%22message%22%5D%7D"></div>
 
-
 | Params | []() |
 |--------|------|
 |file|<span class="chip chip-text">Text</span>|
@@ -38,7 +37,6 @@ Triggers when the file was successfully deleted
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Firebase%20Storage%22,%20%22name%22:%20%22Delete%20Success%22,%20%22params%22:%20%5B%22file%22%5D%7D"></div>
 
-
 | Params | []() |
 |--------|------|
 |file|<span class="chip chip-text">Text</span>|
@@ -49,7 +47,6 @@ Triggers when the file was successfully deleted
 Triggers when the file could not be downloaded
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Firebase%20Storage%22,%20%22name%22:%20%22Download%20Failed%22,%20%22params%22:%20%5B%22file%22,%20%22message%22%5D%7D"></div>
-
 
 | Params | []() |
 |--------|------|
@@ -63,7 +60,6 @@ Triggers when the file was successfully downloaded
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Firebase%20Storage%22,%20%22name%22:%20%22Download%20Success%22,%20%22params%22:%20%5B%22file%22,%20%22downloaded%20File%22%5D%7D"></div>
 
-
 | Params | []() |
 |--------|------|
 |file|<span class="chip chip-text">Text</span>|
@@ -76,7 +72,6 @@ Triggers when the file could not be uploaded
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Firebase%20Storage%22,%20%22name%22:%20%22Upload%20Failed%22,%20%22params%22:%20%5B%22file%22,%20%22message%22%5D%7D"></div>
 
-
 | Params | []() |
 |--------|------|
 |file|<span class="chip chip-text">Text</span>|
@@ -88,7 +83,6 @@ Triggers when the file could not be uploaded
 Triggers when the file upload progress changed
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Firebase%20Storage%22,%20%22name%22:%20%22Upload%20Progress%22,%20%22params%22:%20%5B%22file%22,%20%22upload%20Path%22,%20%22transferred%20Bytes%22,%20%22total%20Bytes%22%5D%7D"></div>
-
 
 | Params | []() |
 |--------|------|
@@ -103,7 +97,6 @@ Triggers when the file upload progress changed
 Triggers when the file was successfully uploaded
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Firebase%20Storage%22,%20%22name%22:%20%22Upload%20Success%22,%20%22params%22:%20%5B%22file%22,%20%22upload%20Path%22,%20%22download%20Url%22%5D%7D"></div>
-
 
 | Params | []() |
 |--------|------|

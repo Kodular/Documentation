@@ -25,7 +25,6 @@ Event triggers when Pairing has finished.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Bluetooth%20Admin%22,%20%22name%22:%20%22After%20Pairing%22,%20%22params%22:%20%5B%22address%22%5D%7D"></div>
 
-
 | Params | []() |
 |--------|------|
 |address|<span class="chip chip-text">Text</span>|
@@ -36,7 +35,6 @@ Event triggers when Pairing has finished.
 Event triggers when Scanning has finished.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Bluetooth%20Admin%22,%20%22name%22:%20%22After%20Scanning%22,%20%22params%22:%20%5B%22paired%20Devices%22,%20%22new%20Devices%22%5D%7D"></div>
-
 
 | Params | []() |
 |--------|------|
@@ -50,7 +48,6 @@ Event triggers when Unpairing has finished.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Bluetooth%20Admin%22,%20%22name%22:%20%22After%20Unpairing%22,%20%22params%22:%20%5B%22address%22%5D%7D"></div>
 
-
 | Params | []() |
 |--------|------|
 |address|<span class="chip chip-text">Text</span>|
@@ -62,7 +59,6 @@ Event triggers when an error occurred.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Bluetooth%20Admin%22,%20%22name%22:%20%22Error%20Occurred%22,%20%22params%22:%20%5B%22message%22%5D%7D"></div>
 
-
 | Params | []() |
 |--------|------|
 |message|<span class="chip chip-text">Text</span>|
@@ -73,7 +69,6 @@ Event triggers when an error occurred.
 Event triggers when the bluetooth state changed.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Bluetooth%20Admin%22,%20%22name%22:%20%22State%20Changed%22,%20%22params%22:%20%5B%22state%22%5D%7D"></div>
-
 
 | Params | []() |
 |--------|------|
@@ -197,7 +192,7 @@ Returns true if the User MacAddress is valid.
 
 ### Use Codes
 
-<span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>False</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
+<span class="chip chip-boolean">Boolean</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-boolean">Default: <i>False</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
 
 Use codes instead of strings in returns for ScanMode and State.
 

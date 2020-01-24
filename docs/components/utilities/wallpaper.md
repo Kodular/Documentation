@@ -25,7 +25,6 @@ Event to detect that the component got the current system wallpaper.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Wallpaper%22,%20%22name%22:%20%22Got%20Wallpaper%22,%20%22params%22:%20%5B%22picture%22%5D%7D"></div>
 
-
 | Params | []() |
 |--------|------|
 |picture|<span class="chip chip-text">Text</span>|
@@ -36,7 +35,6 @@ Event to detect that the component got the current system wallpaper.
 Event to detect that the user has changed the wallpaper. This event will be invoked by the "Set Wallpaper" function.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Wallpaper%22,%20%22name%22:%20%22Wallpaper%20Changed%22,%20%22params%22:%20%5B%22success%22%5D%7D"></div>
-
 
 | Params | []() |
 |--------|------|
@@ -101,7 +99,7 @@ Change the current system wallpaper.
 
 ### Save Wallpaper As
 
-<span class="chip chip-text">Text</span> <span class="chip chip-text">Default: <i>wallpaperPicture.png</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
+<span class="chip chip-text">Text</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-text">Default: <i>wallpaperPicture.png</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
 
 After the user clicked on "Get Wallpaper" this will be the name for the wallpaper picture.
 
@@ -110,7 +108,7 @@ After the user clicked on "Get Wallpaper" this will be the name for the wallpape
 
 ### Desired Minimum Height
 
-<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
+<span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
 
 Returns the desired minimum height for the wallpaper.
 
@@ -119,7 +117,7 @@ Returns the desired minimum height for the wallpaper.
 
 ### Desired Minimum Width
 
-<span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
+<span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
 
 Returns the desired minimum width for the wallpaper.
 
@@ -128,7 +126,7 @@ Returns the desired minimum width for the wallpaper.
 
 ### Is Set Wallpaper Allowed
 
-<span class="chip chip-boolean">Boolean</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
+<span class="chip chip-boolean">Boolean</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
 
 Returns whether the calling package is allowed to set the wallpaper for the calling user. This block works only on devices with Android 7+.
 
@@ -137,7 +135,7 @@ Returns whether the calling package is allowed to set the wallpaper for the call
 
 ### Is Wallpaper Supported
 
-<span class="chip chip-boolean">Boolean</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
+<span class="chip chip-boolean">Boolean</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
 
 Returns whether wallpapers are supported for the calling user. This block works only on devices with Android 6+.
 

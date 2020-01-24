@@ -18,7 +18,6 @@ Trigger when a Dynamic Button is clicked.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Button%22,%20%22name%22:%20%22Button%20Click%22,%20%22params%22:%20%5B%22id%22%5D%7D"></div>
 
-
 | Params | []() |
 |--------|------|
 |id|<span class="chip chip-number">Number</span>|
@@ -29,7 +28,6 @@ Trigger when a Dynamic Button is clicked.
 Trigger when a Dynamic Button is long clicked.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Button%22,%20%22name%22:%20%22Button%20Long%20Click%22,%20%22params%22:%20%5B%22id%22%5D%7D"></div>
-
 
 | Params | []() |
 |--------|------|
