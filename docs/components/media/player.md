@@ -24,26 +24,23 @@ This component is best for long sound files, such as songs, while the `` Sound `
 
 Indicates that the media has reached the end
 
-<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Player%22,%20%22name%22:%20%22Completed%22,%20%22params%22:%20%5B%5D%7D"></div>
-
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Player%22,%20%22name%22:%20%22Completed%22,%20%22param%22:%20%5B%5D%7D"></div>
 
 ### Other Player Started
 
 This event is signaled when another player has started (and the current player is playing or paused, but not stopped).
 
-<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Player%22,%20%22name%22:%20%22Other%20Player%20Started%22,%20%22params%22:%20%5B%5D%7D"></div>
-
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Player%22,%20%22name%22:%20%22Other%20Player%20Started%22,%20%22param%22:%20%5B%5D%7D"></div>
 
 ### PlayerError
 
 The PlayerError event is no longer used. Please use the Screen.ErrorOccurred event instead.
 
-<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Player%22,%20%22name%22:%20%22PlayerError%22,%20%22params%22:%20%5B%22message%22%5D%7D"></div>
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Player%22,%20%22name%22:%20%22PlayerError%22,%20%22param%22:%20%5B%22message%22%5D%7D"></div>
 
 | Params | []() |
 |--------|------|
 |message|<span class="chip chip-text">Text</span>|
-
 
 ## Methods
 
@@ -51,60 +48,51 @@ The PlayerError event is no longer used. Please use the Screen.ErrorOccurred eve
 
 Suspends playing the media if it is playing.
 
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Player%22,%20%22name%22:%20%22Pause%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
-
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Player%22,%20%22name%22:%20%22Pause%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
 
 ### Seek To
 
 Set a position where the source file should start playing.
 
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Player%22,%20%22name%22:%20%22Seek%20To%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22position%22%5D%7D"></div>
-
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Player%22,%20%22name%22:%20%22Seek%20To%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22position%22%5D%7D"></div>
 
 | Params | []() |
 |--------|------|
 |position|<span class="chip chip-number">Number</span>|
 
-
 ### Set Left Right Volume
 
 Control the left and right volume of the player. Set the volume to a number between 0 and 100.
 
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Player%22,%20%22name%22:%20%22Set%20Left%20Right%20Volume%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22left%20Volume%22,%20%22right%20Volume%22%5D%7D"></div>
-
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Player%22,%20%22name%22:%20%22Set%20Left%20Right%20Volume%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22left%20Volume%22,%20%22right%20Volume%22%5D%7D"></div>
 
 | Params | []() |
 |--------|------|
 |left Volume|<span class="chip chip-number">Number</span>|
 |right Volume|<span class="chip chip-number">Number</span>|
 
-
 ### Start
 
 Plays the media. If it was previously paused, the playing is resumed
 If it was previously stopped, it starts from the beginning.
 
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Player%22,%20%22name%22:%20%22Start%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
-
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Player%22,%20%22name%22:%20%22Start%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
 
 ### Stop
 
 Stops playing the media and seeks to the beginning of the song.
 
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Player%22,%20%22name%22:%20%22Stop%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
-
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Player%22,%20%22name%22:%20%22Stop%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
 
 ### Vibrate
 
 Vibrates for specified number of milliseconds.
 
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Player%22,%20%22name%22:%20%22Vibrate%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22milliseconds%22%5D%7D"></div>
-
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Player%22,%20%22name%22:%20%22Vibrate%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22milliseconds%22%5D%7D"></div>
 
 | Params | []() |
 |--------|------|
 |milliseconds|<span class="chip chip-number">Number</span>|
-
 
 ## Properties
 
@@ -117,7 +105,6 @@ If true, the player will loop when it plays. Setting Loop while the player is pl
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Player%22,%20%22name%22:%20%22Loop%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Player%22,%20%22name%22:%20%22Loop%22,%20%22getter%22:%20false%7D"></div>
 
-
 ### Play Only In Foreground
 
 <span class="chip chip-boolean">Boolean</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-boolean">Default: <i>False</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -126,7 +113,6 @@ If true, the player will pause playing when leaving the current screen; if false
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Player%22,%20%22name%22:%20%22Play%20Only%20In%20Foreground%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Player%22,%20%22name%22:%20%22Play%20Only%20In%20Foreground%22,%20%22getter%22:%20false%7D"></div>
-
 
 ### Source
 
@@ -137,7 +123,6 @@ Returns the path to the audio source
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Player%22,%20%22name%22:%20%22Source%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Player%22,%20%22name%22:%20%22Source%22,%20%22getter%22:%20false%7D"></div>
 
-
 ### Volume
 
 <span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-number">Default: <i>50</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -147,7 +132,6 @@ Sets the volume to a number between 0 and 100.
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Player%22,%20%22name%22:%20%22Volume%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Player%22,%20%22name%22:%20%22Volume%22,%20%22getter%22:%20false%7D"></div>
 
-
 ### Current Position
 
 <span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -155,7 +139,6 @@ Sets the volume to a number between 0 and 100.
 Returns the current position of the source file that is playing.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Player%22,%20%22name%22:%20%22Current%20Position%22,%20%22getter%22:%20true%7D"></div>
-
 
 ### Duration
 
@@ -165,7 +148,6 @@ Returns the duration of the source file.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Player%22,%20%22name%22:%20%22Duration%22,%20%22getter%22:%20true%7D"></div>
 
-
 ### Get TrackInfo
 
 <span class="chip chip-text">Text</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -173,7 +155,6 @@ Returns the duration of the source file.
 Returns a array of track information.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Player%22,%20%22name%22:%20%22Get%20TrackInfo%22,%20%22getter%22:%20true%7D"></div>
-
 
 ### Is Playing
 
@@ -183,7 +164,6 @@ Reports whether the media is playing
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Player%22,%20%22name%22:%20%22Is%20Playing%22,%20%22getter%22:%20true%7D"></div>
 
-
 ### Left Volume
 
 <span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -191,7 +171,6 @@ Reports whether the media is playing
 Returns the current left volume.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Player%22,%20%22name%22:%20%22Left%20Volume%22,%20%22getter%22:%20true%7D"></div>
-
 
 ### Right Volume
 

@@ -32,63 +32,57 @@ You must obtain a Consumer Key and Consumer Secret for Twitter authorization spe
 
 This event is raised when the recent messages requested through `` RequestDirectMessages `` have been retrieved. A list of the messages can then be found in the `` messages `` parameter or the `` Messages `` property.
 
-<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22Direct%20Messages%20Received%22,%20%22params%22:%20%5B%22messages%22%5D%7D"></div>
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22Direct%20Messages%20Received%22,%20%22param%22:%20%5B%22messages%22%5D%7D"></div>
 
 | Params | []() |
 |--------|------|
 |messages|<span class="chip chip-list">List</span>|
 
-
 ### Followers Received
 
 This event is raised when all of the followers of the logged-in user requested through `` RequestFollowers `` have been retrieved. A list of the followers can then be found in the `` followers `` parameter or the `` Followers `` property.
 
-<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22Followers%20Received%22,%20%22params%22:%20%5B%22followers%202%22%5D%7D"></div>
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22Followers%20Received%22,%20%22param%22:%20%5B%22followers%202%22%5D%7D"></div>
 
 | Params | []() |
 |--------|------|
 |followers 2|<span class="chip chip-list">List</span>|
 
-
 ### Friend Timeline Received
 
 This event is raised when the messages requested through `` RequestFriendTimeline `` have been retrieved. The `` timeline `` parameter and the `` Timeline `` property will contain a list of lists, where each sub-list contains a status update of the form (username message)
 
-<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22Friend%20Timeline%20Received%22,%20%22params%22:%20%5B%22timeline%22%5D%7D"></div>
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22Friend%20Timeline%20Received%22,%20%22param%22:%20%5B%22timeline%22%5D%7D"></div>
 
 | Params | []() |
 |--------|------|
 |timeline|<span class="chip chip-list">List</span>|
 
-
 ### Is Authorized
 
 This event is raised after the program calls `` Authorize `` if the authorization was successful. It is also called after a call to `` CheckAuthorized `` if we already have a valid access token. After this event has been raised, any other method for this component can be called.
 
-<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22Is%20Authorized%22,%20%22params%22:%20%5B%5D%7D"></div>
-
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22Is%20Authorized%22,%20%22param%22:%20%5B%5D%7D"></div>
 
 ### Mentions Received
 
 This event is raised when the mentions of the logged-in user requested through `` RequestMentions `` have been retrieved. A list of the mentions can then be found in the `` mentions `` parameter or the `` Mentions `` property.
 
-<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22Mentions%20Received%22,%20%22params%22:%20%5B%22mentions%22%5D%7D"></div>
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22Mentions%20Received%22,%20%22param%22:%20%5B%22mentions%22%5D%7D"></div>
 
 | Params | []() |
 |--------|------|
 |mentions|<span class="chip chip-list">List</span>|
 
-
 ### Search Successful
 
 This event is raised when the results of the search requested through `` SearchSuccessful `` have been retrieved. A list of the results can then be found in the `` results `` parameter or the `` Results `` property.
 
-<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22Search%20Successful%22,%20%22params%22:%20%5B%22search%20Results%22%5D%7D"></div>
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22Search%20Successful%22,%20%22param%22:%20%5B%22search%20Results%22%5D%7D"></div>
 
 | Params | []() |
 |--------|------|
 |search Results|<span class="chip chip-list">List</span>|
-
 
 ## Methods
 
@@ -96,22 +90,19 @@ This event is raised when the results of the search requested through `` SearchS
 
 Redirects user to login to Twitter via the Web browser using the OAuth protocol if we don't already have authorization.
 
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22Authorize%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
-
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22Authorize%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
 
 ### Check Authorized
 
 Checks whether we already have access, and if so, causes IsAuthorized event handler to be called.
 
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22Check%20Authorized%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
-
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22Check%20Authorized%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
 
 ### De Authorize
 
 Removes Twitter authorization from this running app instance
 
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22De%20Authorize%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
-
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22De%20Authorize%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
 
 ### Direct Message
 
@@ -119,39 +110,33 @@ This sends a direct (private) message to the specified user. The message will be
 
 <u>Requirements</u>: This should only be called after the `` IsAuthorized `` event has been raised, indicating that the user has successfully logged in to Twitter.
 
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22Direct%20Message%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22user%22,%20%22message%22%5D%7D"></div>
-
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22Direct%20Message%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22user%22,%20%22message%22%5D%7D"></div>
 
 | Params | []() |
 |--------|------|
 |user|<span class="chip chip-text">Text</span>|
 |message|<span class="chip chip-text">Text</span>|
 
-
 ### Follow
 
 Starts following a user.
 
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22Follow%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22user%22%5D%7D"></div>
-
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22Follow%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22user%22%5D%7D"></div>
 
 | Params | []() |
 |--------|------|
 |user|<span class="chip chip-text">Text</span>|
 
-
 ### Login
 
 Twitter's API no longer supports login via username and password. Use the Authorize call instead.
 
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22Login%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22username%22,%20%22password%22%5D%7D"></div>
-
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22Login%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22username%22,%20%22password%22%5D%7D"></div>
 
 | Params | []() |
 |--------|------|
 |username|<span class="chip chip-text">Text</span>|
 |password|<span class="chip chip-text">Text</span>|
-
 
 ### Request Direct Messages
 
@@ -159,22 +144,19 @@ Requests the 20 most recent direct messages sent to the logged-in user. When the
 
 <u>Requirements</u>: This should only be called after the `` IsAuthorized `` event has been raised, indicating that the user has successfully logged in to Twitter.
 
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22Request%20Direct%20Messages%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
-
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22Request%20Direct%20Messages%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
 
 ### Request Followers
 
 Gets who is following you.
 
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22Request%20Followers%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
-
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22Request%20Followers%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
 
 ### Request Friend Timeline
 
 Gets the most recent 20 messages in the user's timeline.
 
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22Request%20Friend%20Timeline%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
-
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22Request%20Friend%20Timeline%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
 
 ### Request Mentions
 
@@ -182,8 +164,7 @@ Requests the 20 most recent mentions of the logged-in user. When the mentions ha
 
 <u>Requirements</u>: This should only be called after the `` IsAuthorized `` event has been raised, indicating that the user has successfully logged in to Twitter.
 
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22Request%20Mentions%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
-
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22Request%20Mentions%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
 
 ### Search Twitter
 
@@ -191,25 +172,21 @@ This searches Twitter for the given String query.
 
 <u>Requirements</u>: This should only be called after the `` IsAuthorized `` event has been raised, indicating that the user has successfully logged in to Twitter.
 
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22Search%20Twitter%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22query%22%5D%7D"></div>
-
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22Search%20Twitter%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22query%22%5D%7D"></div>
 
 | Params | []() |
 |--------|------|
 |query|<span class="chip chip-text">Text</span>|
 
-
 ### Stop Following
 
 Stops following a user.
 
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22Stop%20Following%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22user%22%5D%7D"></div>
-
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22Stop%20Following%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22user%22%5D%7D"></div>
 
 | Params | []() |
 |--------|------|
 |user|<span class="chip chip-text">Text</span>|
-
 
 ### Tweet
 
@@ -217,13 +194,11 @@ This sends a tweet as the logged-in user with the specified Text, which will be 
 
 <u>Requirements</u>: This should only be called after the `` IsAuthorized `` event has been raised, indicating that the user has successfully logged in to Twitter.
 
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22Tweet%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22status%22%5D%7D"></div>
-
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22Tweet%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22status%22%5D%7D"></div>
 
 | Params | []() |
 |--------|------|
 |status|<span class="chip chip-text">Text</span>|
-
 
 ### Tweet With Image
 
@@ -231,14 +206,12 @@ This sends a tweet as the logged-in user with the specified Text and a path to t
 
 <u>Requirements</u>: This should only be called after the `` IsAuthorized `` event has been raised, indicating that the user has successfully logged in to Twitter.
 
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22Tweet%20With%20Image%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22status%22,%20%22image%20Path%22%5D%7D"></div>
-
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22Tweet%20With%20Image%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22status%22,%20%22image%20Path%22%5D%7D"></div>
 
 | Params | []() |
 |--------|------|
 |status|<span class="chip chip-text">Text</span>|
 |image Path|<span class="chip chip-text">Text</span>|
-
 
 ## Properties
 
@@ -251,7 +224,6 @@ ConsumerKey property getter method.
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22Consumer%20Key%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22Consumer%20Key%22,%20%22getter%22:%20false%7D"></div>
 
-
 ### Consumer Secret
 
 <span class="chip chip-text">Text</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -260,7 +232,6 @@ ConsumerSecret property getter method.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22Consumer%20Secret%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22Consumer%20Secret%22,%20%22getter%22:%20false%7D"></div>
-
 
 ### Direct Messages
 
@@ -277,7 +248,6 @@ The value of this property will then be set to the list of direct messages retri
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22Direct%20Messages%22,%20%22getter%22:%20true%7D"></div>
 
-
 ### Followers
 
 <span class="chip chip-list">List</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -292,7 +262,6 @@ This property contains a list of the followers of the logged-in user. Initially,
 The value of this property will then be set to the list of followers (and maintain its value until any subsequent call to `` RequestFollowers ``).
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22Followers%22,%20%22getter%22:%20true%7D"></div>
-
 
 ### Friend Time line
 
@@ -311,7 +280,6 @@ The value of this property will then be set to the list of messages (and maintai
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22Friend%20Time%20line%22,%20%22getter%22:%20true%7D"></div>
 
-
 ### Mentions
 
 <span class="chip chip-list">List</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -327,7 +295,6 @@ The value of this property will then be set to the list of mentions (and will ma
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22Mentions%22,%20%22getter%22:%20true%7D"></div>
 
-
 ### Search Results
 
 <span class="chip chip-list">List</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -341,7 +308,6 @@ The value of the property will then be the same as the parameter to `` SearchSuc
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22Search%20Results%22,%20%22getter%22:%20true%7D"></div>
 
-
 ### TwitPic_API_Key
 
 :warning: ==**Deprecated**==
@@ -352,7 +318,6 @@ TwitPicAPIkey property getter method.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22TwitPic_API_Key%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22TwitPic_API_Key%22,%20%22getter%22:%20false%7D"></div>
-
 
 ### Username
 

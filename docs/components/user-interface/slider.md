@@ -14,26 +14,23 @@ A Slider is a progress bar that adds a draggable thumb. You can touch the thumb 
 
 Indicates that position of the slider thumb has changed.
 
-<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Slider%22,%20%22name%22:%20%22Position%20Changed%22,%20%22params%22:%20%5B%22thumb%20Position%22%5D%7D"></div>
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Slider%22,%20%22name%22:%20%22Position%20Changed%22,%20%22param%22:%20%5B%22thumb%20Position%22%5D%7D"></div>
 
 | Params | []() |
 |--------|------|
 |thumb Position|<span class="chip chip-number">Number</span>|
 
-
 ### Touch Down
 
 Event will be invoked on a touch down.
 
-<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Slider%22,%20%22name%22:%20%22Touch%20Down%22,%20%22params%22:%20%5B%5D%7D"></div>
-
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Slider%22,%20%22name%22:%20%22Touch%20Down%22,%20%22param%22:%20%5B%5D%7D"></div>
 
 ### Touch Up
 
 Event will be invoked on a touch up.
 
-<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Slider%22,%20%22name%22:%20%22Touch%20Up%22,%20%22params%22:%20%5B%5D%7D"></div>
-
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Slider%22,%20%22name%22:%20%22Touch%20Up%22,%20%22param%22:%20%5B%5D%7D"></div>
 
 ## Properties
 
@@ -46,7 +43,6 @@ The color of slider to the left of the thumb.
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Slider%22,%20%22name%22:%20%22Color%20Left%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Slider%22,%20%22name%22:%20%22Color%20Left%22,%20%22getter%22:%20false%7D"></div>
 
-
 ### Color Right
 
 <span class="chip chip-color">Color</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-color" style="background-color: #9E9E9E;">Default: <i>#9E9E9EFF</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -55,7 +51,6 @@ The color of slider to the left of the thumb.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Slider%22,%20%22name%22:%20%22Color%20Right%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Slider%22,%20%22name%22:%20%22Color%20Right%22,%20%22getter%22:%20false%7D"></div>
-
 
 ### Max Value
 
@@ -66,7 +61,6 @@ Sets the maximum value of slider. Changing the maximum value also resets Thumbpo
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Slider%22,%20%22name%22:%20%22Max%20Value%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Slider%22,%20%22name%22:%20%22Max%20Value%22,%20%22getter%22:%20false%7D"></div>
 
-
 ### Min Value
 
 <span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-number">Default: <i>10.0</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -75,7 +69,6 @@ Sets the minimum value of slider. Changing the minimum value also resets Thumbpo
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Slider%22,%20%22name%22:%20%22Min%20Value%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Slider%22,%20%22name%22:%20%22Min%20Value%22,%20%22getter%22:%20false%7D"></div>
-
 
 ### Rotation Angle
 
@@ -88,7 +81,6 @@ Sets the degrees that the slider is rotated around the pivot point. Increasing v
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Slider%22,%20%22name%22:%20%22Rotation%20Angle%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Slider%22,%20%22name%22:%20%22Rotation%20Angle%22,%20%22getter%22:%20false%7D"></div>
 
-
 ### Thumb Color
 
 <span class="chip chip-color">Color</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-color" style="background-color: #00BCD3;">Default: <i>#00BCD3FF</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -97,7 +89,6 @@ The color of slider thumb. This block works only on devices with api &gt;= 16.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Slider%22,%20%22name%22:%20%22Thumb%20Color%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Slider%22,%20%22name%22:%20%22Thumb%20Color%22,%20%22getter%22:%20false%7D"></div>
-
 
 ### Thumb Enabled
 
@@ -108,13 +99,11 @@ Sets whether or not to display the slider thumb.
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Slider%22,%20%22name%22:%20%22Thumb%20Enabled%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Slider%22,%20%22name%22:%20%22Thumb%20Enabled%22,%20%22getter%22:%20false%7D"></div>
 
-
 ### Thumb Image
 
 <span class="chip chip-text">Text</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span>
 
 <small>Available as ^^Advanced^^ Property</small>
-
 
 ### Thumb Position
 
@@ -125,7 +114,6 @@ Sets the position of the slider thumb. If this value is greater than MaxValue, t
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Slider%22,%20%22name%22:%20%22Thumb%20Position%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Slider%22,%20%22name%22:%20%22Thumb%20Position%22,%20%22getter%22:%20false%7D"></div>
 
-
 ### Visible
 
 <span class="chip chip-boolean">Boolean</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-boolean">Default: <i>True</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -135,21 +123,6 @@ Returns true iff the component is visible.
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Slider%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Slider%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20false%7D"></div>
 
-
-### Column
-
-<span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Non-Visible</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span>
-
-Column property getter method.
-
-
-### Row
-
-<span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Non-Visible</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span>
-
-Row property getter method.
-
-
 ### Width
 
 <span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -158,7 +131,6 @@ Specifies the component's horizontal width, measured in pixels.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Slider%22,%20%22name%22:%20%22Width%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Slider%22,%20%22name%22:%20%22Width%22,%20%22getter%22:%20false%7D"></div>
-
 
 ### Width Percent
 

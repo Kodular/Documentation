@@ -20,13 +20,12 @@ A non-visible component that allows for uploading of images, videos, audios and 
 
 Event raised after the Upload Media block has been used
 
-<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Cloudinary%22,%20%22name%22:%20%22Media%20Uploaded%22,%20%22params%22:%20%5B%22response%20Content%22,%20%22url%22%5D%7D"></div>
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Cloudinary%22,%20%22name%22:%20%22Media%20Uploaded%22,%20%22param%22:%20%5B%22response%20Content%22,%20%22url%22%5D%7D"></div>
 
 | Params | []() |
 |--------|------|
 |response Content|<span class="chip chip-text">Text</span>|
 |url|<span class="chip chip-text">Text</span>|
-
 
 ## Methods
 
@@ -34,13 +33,11 @@ Event raised after the Upload Media block has been used
 
 Uploads the specified media file to your Cloudinary media library.
 
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Cloudinary%22,%20%22name%22:%20%22Upload%20Media%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22path%22%5D%7D"></div>
-
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Cloudinary%22,%20%22name%22:%20%22Upload%20Media%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22path%22%5D%7D"></div>
 
 | Params | []() |
 |--------|------|
 |path|<span class="chip chip-text">Text</span>|
-
 
 ## Properties
 
@@ -53,7 +50,6 @@ Your Cloudinary API key.
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Cloudinary%22,%20%22name%22:%20%22API%20Key%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Cloudinary%22,%20%22name%22:%20%22API%20Key%22,%20%22getter%22:%20false%7D"></div>
 
-
 ### API Secret
 
 <span class="chip chip-text">Text</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -62,7 +58,6 @@ Your Cloudinary API secret.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Cloudinary%22,%20%22name%22:%20%22API%20Secret%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Cloudinary%22,%20%22name%22:%20%22API%20Secret%22,%20%22getter%22:%20false%7D"></div>
-
 
 ### Cloud Name
 

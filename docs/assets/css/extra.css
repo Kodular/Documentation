@@ -321,7 +321,7 @@ img[src*="#animationUtilsPreview"] {
   user-select: none;
 }
 
-.chip-rw {
+.chip-rw, .chip-unknown {
   background-color: rgb(200, 200, 200);
   color: rgb(0, 0, 0);
 }
@@ -334,7 +334,7 @@ img[src*="#animationUtilsPreview"] {
   background-color: rgb(63, 113, 181);
 }
 
-.chip-string, .chip-text {
+.chip-text {
   background-color: rgb(179, 45, 94);
 }
 

@@ -48,12 +48,11 @@ Note that you do not need to worry about UTF-encoding the query. But you do need
 
 Indicates that the Fusion Tables query has finished processing, with a result. The result of the query will generally be returned in CSV format, and can be converted to list format using the "list from csv table" or "list from csv row" blocks.
 
-<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Fusiontables%20Control%22,%20%22name%22:%20%22Got%20Result%22,%20%22params%22:%20%5B%22result%22%5D%7D"></div>
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Fusiontables%20Control%22,%20%22name%22:%20%22Got%20Result%22,%20%22param%22:%20%5B%22result%22%5D%7D"></div>
 
 | Params | []() |
 |--------|------|
 |result|<span class="chip chip-text">Text</span>|
-
 
 ## Methods
 
@@ -63,35 +62,30 @@ Indicates that the Fusion Tables query has finished processing, with a result. T
 
 DEPRECATED. This block is deprecated as of the end of 2012. Use SendQuery.
 
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Fusiontables%20Control%22,%20%22name%22:%20%22Do%20Query%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
-
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Fusiontables%20Control%22,%20%22name%22:%20%22Do%20Query%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
 
 ### Forget Login
 
 Forget end-users login credentials. Has no effect on service authentication
 
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Fusiontables%20Control%22,%20%22name%22:%20%22Forget%20Login%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
-
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Fusiontables%20Control%22,%20%22name%22:%20%22Forget%20Login%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
 
 ### Get Rows
 
 Gets all the rows from a specified fusion table. The tableId field is the id of therequired fusion table. The columns field is a comma-separeted list of the columns to retrieve.
 
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Fusiontables%20Control%22,%20%22name%22:%20%22Get%20Rows%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22table%20ID%22,%20%22columns%22%5D%7D"></div>
-
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Fusiontables%20Control%22,%20%22name%22:%20%22Get%20Rows%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22table%20ID%22,%20%22columns%22%5D%7D"></div>
 
 | Params | []() |
 |--------|------|
 |table ID|<span class="chip chip-text">Text</span>|
 |columns|<span class="chip chip-text">Text</span>|
 
-
 ### Get Rows With Conditions
 
 Gets all the rows from a fusion table that meet certain conditions. The tableId field isthe id of the required fusion table. The columns field is a comma-separated list of the columns toretrieve. The conditions field specifies what rows to retrieve from the table, for example the rows in whicha particular column value is not null.
 
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Fusiontables%20Control%22,%20%22name%22:%20%22Get%20Rows%20With%20Conditions%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22table%20ID%22,%20%22columns%22,%20%22conditions%22%5D%7D"></div>
-
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Fusiontables%20Control%22,%20%22name%22:%20%22Get%20Rows%20With%20Conditions%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22table%20ID%22,%20%22columns%22,%20%22conditions%22%5D%7D"></div>
 
 | Params | []() |
 |--------|------|
@@ -99,13 +93,11 @@ Gets all the rows from a fusion table that meet certain conditions. The tableId 
 |columns|<span class="chip chip-text">Text</span>|
 |conditions|<span class="chip chip-text">Text</span>|
 
-
 ### Insert Row
 
 Inserts a row into the specified fusion table. The tableId field is the id of thefusion table. The columns is a comma-separated list of the columns to insert values into. The values field specifies what values to insert into each column.
 
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Fusiontables%20Control%22,%20%22name%22:%20%22Insert%20Row%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22table%20ID%22,%20%22columns%22,%20%22values%22%5D%7D"></div>
-
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Fusiontables%20Control%22,%20%22name%22:%20%22Insert%20Row%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22table%20ID%22,%20%22columns%22,%20%22values%22%5D%7D"></div>
 
 | Params | []() |
 |--------|------|
@@ -113,13 +105,11 @@ Inserts a row into the specified fusion table. The tableId field is the id of th
 |columns|<span class="chip chip-text">Text</span>|
 |values|<span class="chip chip-text">Text</span>|
 
-
 ### Send Query
 
 Send the query to the Fusiontables server.
 
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Fusiontables%20Control%22,%20%22name%22:%20%22Send%20Query%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
-
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Fusiontables%20Control%22,%20%22name%22:%20%22Send%20Query%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
 
 ## Properties
 
@@ -132,7 +122,6 @@ Setter for the app developer's API key.
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Fusiontables%20Control%22,%20%22name%22:%20%22API%20Key%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Fusiontables%20Control%22,%20%22name%22:%20%22API%20Key%22,%20%22getter%22:%20false%7D"></div>
 
-
 ### Key File
 
 <span class="chip chip-text">Text</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -142,7 +131,6 @@ Specifies the path of the private key file. This key file is used to get access 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Fusiontables%20Control%22,%20%22name%22:%20%22Key%20File%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Fusiontables%20Control%22,%20%22name%22:%20%22Key%20File%22,%20%22getter%22:%20false%7D"></div>
 
-
 ### Loading Dialog Message
 
 <span class="chip chip-text">Text</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-text">Default: <i>Please wait loading...</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -151,7 +139,6 @@ Setter for the loading dialog's message.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Fusiontables%20Control%22,%20%22name%22:%20%22Loading%20Dialog%20Message%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Fusiontables%20Control%22,%20%22name%22:%20%22Loading%20Dialog%20Message%22,%20%22getter%22:%20false%7D"></div>
-
 
 ### Query
 
@@ -168,7 +155,6 @@ Note that you do not need to worry about UTF-encoding the query. But you do need
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Fusiontables%20Control%22,%20%22name%22:%20%22Query%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Fusiontables%20Control%22,%20%22name%22:%20%22Query%22,%20%22getter%22:%20false%7D"></div>
 
-
 ### Service Account Email
 
 <span class="chip chip-text">Text</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -178,7 +164,6 @@ The Service Account Email Address when service account authentication is in use.
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Fusiontables%20Control%22,%20%22name%22:%20%22Service%20Account%20Email%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Fusiontables%20Control%22,%20%22name%22:%20%22Service%20Account%20Email%22,%20%22getter%22:%20false%7D"></div>
 
-
 ### Show Loading Dialog
 
 <span class="chip chip-boolean">Boolean</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-boolean">Default: <i>True</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -187,7 +172,6 @@ Setter for the loading dialog's visibility.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Fusiontables%20Control%22,%20%22name%22:%20%22Show%20Loading%20Dialog%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Fusiontables%20Control%22,%20%22name%22:%20%22Show%20Loading%20Dialog%22,%20%22getter%22:%20false%7D"></div>
-
 
 ### Use Service Authentication
 

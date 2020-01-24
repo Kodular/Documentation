@@ -25,104 +25,95 @@ The Map component provides three utilities for manipulating its boundaries withi
 
 User has changed the map bounds by panning or zooming the map.
 
-<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Bounds%20Change%22,%20%22params%22:%20%5B%5D%7D"></div>
-
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Bounds%20Change%22,%20%22param%22:%20%5B%5D%7D"></div>
 
 ### Double Tap At Point
 
 The user double-tapped at a point on the map. This event will be followed by a ZoomChanged event if zooming gestures are enabled and the map is not at the highest possible zoom level.
 
-<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Double%20Tap%20At%20Point%22,%20%22params%22:%20%5B%22latitude%22,%20%22longitude%22%5D%7D"></div>
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Double%20Tap%20At%20Point%22,%20%22param%22:%20%5B%22latitude%22,%20%22longitude%22%5D%7D"></div>
 
 | Params | []() |
 |--------|------|
 |latitude|<span class="chip chip-number">Number</span>|
 |longitude|<span class="chip chip-number">Number</span>|
 
-
 ### Feature Click
 
 The user clicked on a map feature.
 
-<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Feature%20Click%22,%20%22params%22:%20%5B%22feature%22%5D%7D"></div>
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Feature%20Click%22,%20%22param%22:%20%5B%22feature%22%5D%7D"></div>
 
 | Params | []() |
 |--------|------|
 |feature|<span class="chip chip-component">Component</span>|
-
 
 ### Feature Drag
 
 The user dragged a map feature.
 
-<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Feature%20Drag%22,%20%22params%22:%20%5B%22feature%22%5D%7D"></div>
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Feature%20Drag%22,%20%22param%22:%20%5B%22feature%22%5D%7D"></div>
 
 | Params | []() |
 |--------|------|
 |feature|<span class="chip chip-component">Component</span>|
-
 
 ### Feature Long Click
 
 The user long-pressed on a map feature.
 
-<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Feature%20Long%20Click%22,%20%22params%22:%20%5B%22feature%22%5D%7D"></div>
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Feature%20Long%20Click%22,%20%22param%22:%20%5B%22feature%22%5D%7D"></div>
 
 | Params | []() |
 |--------|------|
 |feature|<span class="chip chip-component">Component</span>|
-
 
 ### Feature Start Drag
 
 The user started dragging a map feature.
 
-<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Feature%20Start%20Drag%22,%20%22params%22:%20%5B%22feature%22%5D%7D"></div>
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Feature%20Start%20Drag%22,%20%22param%22:%20%5B%22feature%22%5D%7D"></div>
 
 | Params | []() |
 |--------|------|
 |feature|<span class="chip chip-component">Component</span>|
-
 
 ### Feature Stop Drag
 
 The user stopped dragging a map feature.
 
-<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Feature%20Stop%20Drag%22,%20%22params%22:%20%5B%22feature%22%5D%7D"></div>
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Feature%20Stop%20Drag%22,%20%22param%22:%20%5B%22feature%22%5D%7D"></div>
 
 | Params | []() |
 |--------|------|
 |feature|<span class="chip chip-component">Component</span>|
 
-
 ### Got Features
 
 A GeoJSON document was successfully read from url. The features specified in the document are provided as a list in features.
 
-<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Got%20Features%22,%20%22params%22:%20%5B%22url%22,%20%22features%22%5D%7D"></div>
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Got%20Features%22,%20%22param%22:%20%5B%22url%22,%20%22features%22%5D%7D"></div>
 
 | Params | []() |
 |--------|------|
 |url|<span class="chip chip-text">Text</span>|
 |features|<span class="chip chip-list">List</span>|
 
-
 ### Invalid Point
 
 An invalid coordinate was supplied during a maps operation. The message parameter will have more details about the issue.
 
-<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Invalid%20Point%22,%20%22params%22:%20%5B%22message%22%5D%7D"></div>
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Invalid%20Point%22,%20%22param%22:%20%5B%22message%22%5D%7D"></div>
 
 | Params | []() |
 |--------|------|
 |message|<span class="chip chip-text">Text</span>|
 
-
 ### Load Error
 
 An error was encountered while processing a GeoJSON document at the given url. The responseCode parameter will contain an HTTP status code and the errorMessage parameter will contain a detailed error message.
 
-<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Load%20Error%22,%20%22params%22:%20%5B%22url%22,%20%22response%20Code%22,%20%22error%20Message%22%5D%7D"></div>
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Load%20Error%22,%20%22param%22:%20%5B%22url%22,%20%22response%20Code%22,%20%22error%20Message%22%5D%7D"></div>
 
 | Params | []() |
 |--------|------|
@@ -130,94 +121,82 @@ An error was encountered while processing a GeoJSON document at the given url. T
 |response Code|<span class="chip chip-number">Number</span>|
 |error Message|<span class="chip chip-text">Text</span>|
 
-
 ### Long Press At Point
 
 The user long-pressed at a point on the map.
 
-<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Long%20Press%20At%20Point%22,%20%22params%22:%20%5B%22latitude%22,%20%22longitude%22%5D%7D"></div>
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Long%20Press%20At%20Point%22,%20%22param%22:%20%5B%22latitude%22,%20%22longitude%22%5D%7D"></div>
 
 | Params | []() |
 |--------|------|
 |latitude|<span class="chip chip-number">Number</span>|
 |longitude|<span class="chip chip-number">Number</span>|
-
 
 ### Map Ready
 
 Map has been initialized and is ready for user interaction.
 
-<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Map%20Ready%22,%20%22params%22:%20%5B%5D%7D"></div>
-
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Map%20Ready%22,%20%22param%22:%20%5B%5D%7D"></div>
 
 ### Tap At Point
 
 The user tapped at a point on the map.
 
-<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Tap%20At%20Point%22,%20%22params%22:%20%5B%22latitude%22,%20%22longitude%22%5D%7D"></div>
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Tap%20At%20Point%22,%20%22param%22:%20%5B%22latitude%22,%20%22longitude%22%5D%7D"></div>
 
 | Params | []() |
 |--------|------|
 |latitude|<span class="chip chip-number">Number</span>|
 |longitude|<span class="chip chip-number">Number</span>|
-
 
 ### Zoom Change
 
 User has changed the zoom level of the map.
 
-<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Zoom%20Change%22,%20%22params%22:%20%5B%5D%7D"></div>
-
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Zoom%20Change%22,%20%22param%22:%20%5B%5D%7D"></div>
 
 ## Methods
 
 ### Create Marker
 
-<span class="chip chip-component">Returns: <i>Component</i></span> 
+<span class="chip chip-component">Returns: <i>Component</i></span>
 
 Create a new marker with default properties at the specified latitude and longitude.
 
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Create%20Marker%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22latitude%22,%20%22longitude%22%5D%7D"></div>
-
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Create%20Marker%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22latitude%22,%20%22longitude%22%5D%7D"></div>
 
 | Params | []() |
 |--------|------|
 |latitude|<span class="chip chip-number">Number</span>|
 |longitude|<span class="chip chip-number">Number</span>|
 
-
 ### Feature From Description
 
-<span class="chip chip-any">Returns: <i>Any</i></span> 
+<span class="chip chip-any">Returns: <i>Any</i></span>
 
 Convert a feature description into an App Inventor map feature. Currently the onlysupported conversion is from a GeoJSON point to Marker component. If the feature hasproperties, they will be mapped into App Inventor properties using the following mapping:description becomes Description;draggable becomes Draggable;infobox becomes EnableInfobox;fill becomes FillColor;fill-opacity becomes FillOpacity;image becomes ImageAsset;stroke becomes StrokeColor;stroke-opacity becomes StrokeOpacity;stroke-width becomes StrokeWidth;title becomes Title;visible becomes Visible
 
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Feature%20From%20Description%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22description%22%5D%7D"></div>
-
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Feature%20From%20Description%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22description%22%5D%7D"></div>
 
 | Params | []() |
 |--------|------|
 |description|<span class="chip chip-list">List</span>|
 
-
 ### Load From URL
 
 Load a feature collection in [GeoJSON](https://en.wikipedia.org/wiki/GeoJSON) format from the given url. On success, the event GotFeatures will be raised with the given url and a list of the features parsed from the GeoJSON as a list of (key, value) pairs. On failure, the LoadError event will be raised with any applicable HTTP response code and error message.
 
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Load%20From%20URL%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22url%22%5D%7D"></div>
-
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Load%20From%20URL%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22url%22%5D%7D"></div>
 
 | Params | []() |
 |--------|------|
 |url|<span class="chip chip-text">Text</span>|
 
-
 ### Pan To
 
 Pan the map center to the given latitude and longitude and adjust the zoom level to the specified zoom.
 
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Pan%20To%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22latitude%22,%20%22longitude%22,%20%22zoom%22%5D%7D"></div>
-
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Pan%20To%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22latitude%22,%20%22longitude%22,%20%22zoom%22%5D%7D"></div>
 
 | Params | []() |
 |--------|------|
@@ -225,18 +204,15 @@ Pan the map center to the given latitude and longitude and adjust the zoom level
 |longitude|<span class="chip chip-number">Number</span>|
 |zoom|<span class="chip chip-number">Number</span>|
 
-
 ### Save
 
 Save the contents of the Map to the specified path.
 
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Save%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22path%22%5D%7D"></div>
-
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Save%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22path%22%5D%7D"></div>
 
 | Params | []() |
 |--------|------|
 |path|<span class="chip chip-text">Text</span>|
-
 
 ## Properties
 
@@ -250,7 +226,6 @@ In blocks code, it is recommended for performance reasons to use SetCenter with 
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Center%20From%20String%22,%20%22getter%22:%20false%7D"></div>
 
-
 ### Enable Pan
 
 <span class="chip chip-boolean">Boolean</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-boolean">Default: <i>True</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -259,7 +234,6 @@ Enable two-finger panning of the Map
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Enable%20Pan%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Enable%20Pan%22,%20%22getter%22:%20false%7D"></div>
-
 
 ### Enable Rotation
 
@@ -270,7 +244,6 @@ Enable rotating the map based on the user's orientation.
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Enable%20Rotation%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Enable%20Rotation%22,%20%22getter%22:%20false%7D"></div>
 
-
 ### Enable Zoom
 
 <span class="chip chip-boolean">Boolean</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-boolean">Default: <i>True</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -280,7 +253,6 @@ Set whether the user can zoom the map using touch gestures. This value does not 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Enable%20Zoom%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Enable%20Zoom%22,%20%22getter%22:%20false%7D"></div>
 
-
 ### Location Sensor
 
 <span class="chip chip-component">Component</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -288,7 +260,6 @@ Set whether the user can zoom the map using touch gestures. This value does not 
 Uses the provided LocationSensor for user location data rather than the built-in location provider.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Location%20Sensor%22,%20%22getter%22:%20false%7D"></div>
-
 
 ### Map Type
 
@@ -303,7 +274,6 @@ Set the type of map tile used for the base tile layer. Valid values are:
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Map%20Type%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Map%20Type%22,%20%22getter%22:%20false%7D"></div>
 
-
 ### Rotation
 
 <span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-number">Default: <i>0.0</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -313,14 +283,12 @@ Sets or gets the rotation of the map in decimal degrees if any
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Rotation%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Rotation%22,%20%22getter%22:%20false%7D"></div>
 
-
 ### Scale Units
 
 <span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-number">Default: <i>1</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Scale%20Units%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Scale%20Units%22,%20%22getter%22:%20false%7D"></div>
-
 
 ### Show Compass
 
@@ -331,7 +299,6 @@ Show a compass on the map. If the device provides a digital compass, orientation
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Show%20Compass%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Show%20Compass%22,%20%22getter%22:%20false%7D"></div>
 
-
 ### Show Scale
 
 <span class="chip chip-boolean">Boolean</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-boolean">Default: <i>False</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -340,7 +307,6 @@ Shows a scale reference on the map.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Show%20Scale%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Show%20Scale%22,%20%22getter%22:%20false%7D"></div>
-
 
 ### Show User
 
@@ -351,7 +317,6 @@ Show the user's location on the map.
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Show%20User%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Show%20User%22,%20%22getter%22:%20false%7D"></div>
 
-
 ### Show Zoom
 
 <span class="chip chip-boolean">Boolean</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-boolean">Default: <i>False</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -361,7 +326,6 @@ Show the zoom controls on the map.
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Show%20Zoom%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Show%20Zoom%22,%20%22getter%22:%20false%7D"></div>
 
-
 ### Visible
 
 <span class="chip chip-boolean">Boolean</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-boolean">Default: <i>True</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -370,7 +334,6 @@ Returns true iff the component is visible.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20false%7D"></div>
-
 
 ### Zoom Level
 
@@ -383,7 +346,6 @@ Valid values of ZoomLevel are dependent on the tile provider and the latitude an
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Zoom%20Level%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Zoom%20Level%22,%20%22getter%22:%20false%7D"></div>
 
-
 ### Bounding Box
 
 <span class="chip chip-list">List</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -392,14 +354,6 @@ Bounding box for the map stored as [[North, West], [South, East]].
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Bounding%20Box%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Bounding%20Box%22,%20%22getter%22:%20false%7D"></div>
-
-
-### Column
-
-<span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Non-Visible</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span>
-
-Column property getter method.
-
 
 ### Features
 
@@ -410,7 +364,6 @@ The list of features placed on this map. This list also includes any features cr
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Features%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Features%22,%20%22getter%22:%20false%7D"></div>
 
-
 ### Height
 
 <span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -420,7 +373,6 @@ Specifies the component's vertical height, measured in pixels.
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Height%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Height%22,%20%22getter%22:%20false%7D"></div>
 
-
 ### Height Percent
 
 <span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -428,7 +380,6 @@ Specifies the component's vertical height, measured in pixels.
 Specifies the component's vertical height as a percentageof the height of its parent Component.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Height%20Percent%22,%20%22getter%22:%20false%7D"></div>
-
 
 ### Latitude
 
@@ -438,7 +389,6 @@ The latitude of the center of the map.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Latitude%22,%20%22getter%22:%20true%7D"></div>
 
-
 ### Longitude
 
 <span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -446,14 +396,6 @@ The latitude of the center of the map.
 The longitude of the center of the map.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Longitude%22,%20%22getter%22:%20true%7D"></div>
-
-
-### Row
-
-<span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Non-Visible</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span>
-
-Row property getter method.
-
 
 ### User Latitude
 
@@ -463,7 +405,6 @@ Returns the user's latitude if ShowUser is enabled.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22User%20Latitude%22,%20%22getter%22:%20true%7D"></div>
 
-
 ### User Longitude
 
 <span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -471,7 +412,6 @@ Returns the user's latitude if ShowUser is enabled.
 Returns the user's longitude if ShowUser is enabled.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22User%20Longitude%22,%20%22getter%22:%20true%7D"></div>
-
 
 ### Width
 
@@ -481,7 +421,6 @@ Specifies the component's horizontal width, measured in pixels.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Width%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Width%22,%20%22getter%22:%20false%7D"></div>
-
 
 ### Width Percent
 

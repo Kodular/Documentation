@@ -19,38 +19,34 @@ A visible component that shows StartApp ads as static banners.
 
 Indicates that the user has clicked on the banner ad.
 
-<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22StartApp%20Banner%22,%20%22name%22:%20%22Ad%20Clicked%22,%20%22params%22:%20%5B%5D%7D"></div>
-
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22StartApp%20Banner%22,%20%22name%22:%20%22Ad%20Clicked%22,%20%22param%22:%20%5B%5D%7D"></div>
 
 ### Ad Failed To Load
 
 Called when an ad request failed to load. The message will display the error code and error message.
 
-<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22StartApp%20Banner%22,%20%22name%22:%20%22Ad%20Failed%20To%20Load%22,%20%22params%22:%20%5B%22error%20Code%22,%20%22error%20Message%22%5D%7D"></div>
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22StartApp%20Banner%22,%20%22name%22:%20%22Ad%20Failed%20To%20Load%22,%20%22param%22:%20%5B%22error%20Code%22,%20%22error%20Message%22%5D%7D"></div>
 
 | Params | []() |
 |--------|------|
 |error Code|<span class="chip chip-number">Number</span>|
 |error Message|<span class="chip chip-text">Text</span>|
 
-
 ### On Failed To Receive Ad
 
 Called when an ad request failed to load.
 
-<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22StartApp%20Banner%22,%20%22name%22:%20%22On%20Failed%20To%20Receive%20Ad%22,%20%22params%22:%20%5B%22error%20Message%22%5D%7D"></div>
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22StartApp%20Banner%22,%20%22name%22:%20%22On%20Failed%20To%20Receive%20Ad%22,%20%22param%22:%20%5B%22error%20Message%22%5D%7D"></div>
 
 | Params | []() |
 |--------|------|
 |error Message|<span class="chip chip-text">Text</span>|
 
-
 ### On Receive Ad
 
 Called when an ad request succeeds.
 
-<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22StartApp%20Banner%22,%20%22name%22:%20%22On%20Receive%20Ad%22,%20%22params%22:%20%5B%5D%7D"></div>
-
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22StartApp%20Banner%22,%20%22name%22:%20%22On%20Receive%20Ad%22,%20%22param%22:%20%5B%5D%7D"></div>
 
 ## Methods
 
@@ -58,15 +54,13 @@ Called when an ad request succeeds.
 
 Load a new StartApp Banner ad.
 
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22StartApp%20Banner%22,%20%22name%22:%20%22Load%20Ad%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
-
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22StartApp%20Banner%22,%20%22name%22:%20%22Load%20Ad%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
 
 ## Properties
 
 ### App ID
 
 <span class="chip chip-text">Text</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span>
-
 
 ### Visible
 
@@ -76,17 +70,3 @@ Specifies whether the component should be visible on the screen. Value is true i
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22StartApp%20Banner%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22StartApp%20Banner%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20false%7D"></div>
-
-
-### Column
-
-<span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Non-Visible</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span>
-
-Column property getter method.
-
-
-### Row
-
-<span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Non-Visible</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span>
-
-Row property getter method.

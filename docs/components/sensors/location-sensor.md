@@ -26,7 +26,7 @@ Location information might not be immediately available when an app starts. You'
 
 Indicates that a new location has been detected.
 
-<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Location%20Sensor%22,%20%22name%22:%20%22Location%20Changed%22,%20%22params%22:%20%5B%22latitude%22,%20%22longitude%22,%20%22altitude%22,%20%22speed%22%5D%7D"></div>
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Location%20Sensor%22,%20%22name%22:%20%22Location%20Changed%22,%20%22param%22:%20%5B%22latitude%22,%20%22longitude%22,%20%22altitude%22,%20%22speed%22%5D%7D"></div>
 
 | Params | []() |
 |--------|------|
@@ -35,48 +35,42 @@ Indicates that a new location has been detected.
 |altitude|<span class="chip chip-number">Number</span>|
 |speed|<span class="chip chip-number">Number</span>|
 
-
 ### Status Changed
 
 Indicates that the status of the location provider service has changed, such as when aprovider is lost or a new provider starts being used.
 
-<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Location%20Sensor%22,%20%22name%22:%20%22Status%20Changed%22,%20%22params%22:%20%5B%22provider%22,%20%22status%22%5D%7D"></div>
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Location%20Sensor%22,%20%22name%22:%20%22Status%20Changed%22,%20%22param%22:%20%5B%22provider%22,%20%22status%22%5D%7D"></div>
 
 | Params | []() |
 |--------|------|
 |provider|<span class="chip chip-text">Text</span>|
 |status|<span class="chip chip-text">Text</span>|
 
-
 ## Methods
 
 ### Latitude From Address
 
-<span class="chip chip-number">Returns: <i>Number</i></span> 
+<span class="chip chip-number">Returns: <i>Number</i></span>
 
 Derives latitude of given address
 
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Location%20Sensor%22,%20%22name%22:%20%22Latitude%20From%20Address%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22location%20Name%22%5D%7D"></div>
-
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Location%20Sensor%22,%20%22name%22:%20%22Latitude%20From%20Address%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22location%20Name%22%5D%7D"></div>
 
 | Params | []() |
 |--------|------|
 |location Name|<span class="chip chip-text">Text</span>|
-
 
 ### Longitude From Address
 
-<span class="chip chip-number">Returns: <i>Number</i></span> 
+<span class="chip chip-number">Returns: <i>Number</i></span>
 
 Derives longitude of given address
 
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Location%20Sensor%22,%20%22name%22:%20%22Longitude%20From%20Address%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22location%20Name%22%5D%7D"></div>
-
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Location%20Sensor%22,%20%22name%22:%20%22Longitude%20From%20Address%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22location%20Name%22%5D%7D"></div>
 
 | Params | []() |
 |--------|------|
 |location Name|<span class="chip chip-text">Text</span>|
-
 
 ## Properties
 
@@ -89,7 +83,6 @@ Determines the minimum distance interval, in meters, that the sensor will try to
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Location%20Sensor%22,%20%22name%22:%20%22Distance%20Interval%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Location%20Sensor%22,%20%22name%22:%20%22Distance%20Interval%22,%20%22getter%22:%20false%7D"></div>
 
-
 ### Enabled
 
 <span class="chip chip-boolean">Boolean</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-boolean">Default: <i>True</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -98,7 +91,6 @@ Indicates whether the user has specified that the sensor shouldlisten for locati
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Location%20Sensor%22,%20%22name%22:%20%22Enabled%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Location%20Sensor%22,%20%22name%22:%20%22Enabled%22,%20%22getter%22:%20false%7D"></div>
-
 
 ### Time Interval
 
@@ -109,7 +101,6 @@ Determines the minimum time interval, in milliseconds, that the sensor will try 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Location%20Sensor%22,%20%22name%22:%20%22Time%20Interval%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Location%20Sensor%22,%20%22name%22:%20%22Time%20Interval%22,%20%22getter%22:%20false%7D"></div>
 
-
 ### Accuracy
 
 <span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -117,7 +108,6 @@ Determines the minimum time interval, in milliseconds, that the sensor will try 
 The most recent measure of accuracy, in meters. If no value is available,0 will be returned.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Location%20Sensor%22,%20%22name%22:%20%22Accuracy%22,%20%22getter%22:%20true%7D"></div>
-
 
 ### Altitude
 
@@ -127,13 +117,11 @@ The most recently available altitude value, in meters. If no value isavailable, 
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Location%20Sensor%22,%20%22name%22:%20%22Altitude%22,%20%22getter%22:%20true%7D"></div>
 
-
 ### Available Providers
 
 <span class="chip chip-list">List</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Location%20Sensor%22,%20%22name%22:%20%22Available%20Providers%22,%20%22getter%22:%20true%7D"></div>
-
 
 ### Current Address
 
@@ -143,7 +131,6 @@ Provides a textual representation of the current address or"No address available
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Location%20Sensor%22,%20%22name%22:%20%22Current%20Address%22,%20%22getter%22:%20true%7D"></div>
 
-
 ### Has Accuracy
 
 <span class="chip chip-boolean">Boolean</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -151,7 +138,6 @@ Provides a textual representation of the current address or"No address available
 Indicates whether information about location accuracy is available.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Location%20Sensor%22,%20%22name%22:%20%22Has%20Accuracy%22,%20%22getter%22:%20true%7D"></div>
-
 
 ### Has Altitude
 
@@ -161,7 +147,6 @@ Indicates whether altitude information is available.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Location%20Sensor%22,%20%22name%22:%20%22Has%20Altitude%22,%20%22getter%22:%20true%7D"></div>
 
-
 ### Has Longitude Latitude
 
 <span class="chip chip-boolean">Boolean</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -169,7 +154,6 @@ Indicates whether altitude information is available.
 Indicates whether longitude and latitude information is available. (It isalways the case that either both or neither are.)
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Location%20Sensor%22,%20%22name%22:%20%22Has%20Longitude%20Latitude%22,%20%22getter%22:%20true%7D"></div>
-
 
 ### Latitude
 
@@ -179,7 +163,6 @@ The most recently available latitude value. If no value is available,0 will be r
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Location%20Sensor%22,%20%22name%22:%20%22Latitude%22,%20%22getter%22:%20true%7D"></div>
 
-
 ### Longitude
 
 <span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -187,7 +170,6 @@ The most recently available latitude value. If no value is available,0 will be r
 The most recent available longitude value. If no value is available,0 will be returned.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Location%20Sensor%22,%20%22name%22:%20%22Longitude%22,%20%22getter%22:%20true%7D"></div>
-
 
 ### Provider Locked
 
@@ -197,7 +179,6 @@ Indicates whether the sensor should allow the developer tomanually change the pr
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Location%20Sensor%22,%20%22name%22:%20%22Provider%20Locked%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Location%20Sensor%22,%20%22name%22:%20%22Provider%20Locked%22,%20%22getter%22:%20false%7D"></div>
-
 
 ### Provider Name
 

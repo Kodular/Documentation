@@ -15,29 +15,25 @@ Cards are panels with a set elevation and border radius, meant to draw the user'
 
 Event to detect that a user has done a simple "Click".
 
-<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Card%20View%22,%20%22name%22:%20%22Click%22,%20%22params%22:%20%5B%5D%7D"></div>
-
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Card%20View%22,%20%22name%22:%20%22Click%22,%20%22param%22:%20%5B%5D%7D"></div>
 
 ### Long Click
 
 Event to detect that a user has done a simple "Long click".
 
-<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Card%20View%22,%20%22name%22:%20%22Long%20Click%22,%20%22params%22:%20%5B%5D%7D"></div>
-
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Card%20View%22,%20%22name%22:%20%22Long%20Click%22,%20%22param%22:%20%5B%5D%7D"></div>
 
 ### Touch Down
 
 Event to detect that a user has done a simple touch down on the card.
 
-<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Card%20View%22,%20%22name%22:%20%22Touch%20Down%22,%20%22params%22:%20%5B%5D%7D"></div>
-
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Card%20View%22,%20%22name%22:%20%22Touch%20Down%22,%20%22param%22:%20%5B%5D%7D"></div>
 
 ### Touch Up
 
 Event to detect that a user has done a simple touch up on the card.
 
-<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Card%20View%22,%20%22name%22:%20%22Touch%20Up%22,%20%22params%22:%20%5B%5D%7D"></div>
-
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Card%20View%22,%20%22name%22:%20%22Touch%20Up%22,%20%22param%22:%20%5B%5D%7D"></div>
 
 ## Properties
 
@@ -50,13 +46,11 @@ A number that encodes how contents of the arrangement are aligned horizontally. 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Card%20View%22,%20%22name%22:%20%22Align%20Horizontal%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Card%20View%22,%20%22name%22:%20%22Align%20Horizontal%22,%20%22getter%22:%20false%7D"></div>
 
-
 ### Align Vertical
 
 <span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-number">Default: <i>1</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Card%20View%22,%20%22name%22:%20%22Align%20Vertical%22,%20%22getter%22:%20false%7D"></div>
-
 
 ### Background Color
 
@@ -67,7 +61,6 @@ Specifies the card view background color.
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Card%20View%22,%20%22name%22:%20%22Background%20Color%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Card%20View%22,%20%22name%22:%20%22Background%20Color%22,%20%22getter%22:%20false%7D"></div>
 
-
 ### Content Padding Bottom
 
 <span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-number">Default: <i>8</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -76,7 +69,6 @@ Sets the bottom padding between the card view edges and the children of CardView
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Card%20View%22,%20%22name%22:%20%22Content%20Padding%20Bottom%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Card%20View%22,%20%22name%22:%20%22Content%20Padding%20Bottom%22,%20%22getter%22:%20false%7D"></div>
-
 
 ### Content Padding Left
 
@@ -87,7 +79,6 @@ Sets the left padding between the card view edges and the children of card view.
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Card%20View%22,%20%22name%22:%20%22Content%20Padding%20Left%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Card%20View%22,%20%22name%22:%20%22Content%20Padding%20Left%22,%20%22getter%22:%20false%7D"></div>
 
-
 ### Content Padding Right
 
 <span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-number">Default: <i>8</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -96,7 +87,6 @@ Sets the right padding between the card view edges and the children of card view
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Card%20View%22,%20%22name%22:%20%22Content%20Padding%20Right%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Card%20View%22,%20%22name%22:%20%22Content%20Padding%20Right%22,%20%22getter%22:%20false%7D"></div>
-
 
 ### Content Padding Top
 
@@ -107,7 +97,6 @@ Sets the top padding between the card view edges and the children of card view.
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Card%20View%22,%20%22name%22:%20%22Content%20Padding%20Top%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Card%20View%22,%20%22name%22:%20%22Content%20Padding%20Top%22,%20%22getter%22:%20false%7D"></div>
 
-
 ### Corner Radius
 
 <span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-number">Default: <i>2</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -116,7 +105,6 @@ The corner radius from the card view.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Card%20View%22,%20%22name%22:%20%22Corner%20Radius%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Card%20View%22,%20%22name%22:%20%22Corner%20Radius%22,%20%22getter%22:%20false%7D"></div>
-
 
 ### Elevation
 
@@ -127,7 +115,6 @@ The card view elevation value.
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Card%20View%22,%20%22name%22:%20%22Elevation%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Card%20View%22,%20%22name%22:%20%22Elevation%22,%20%22getter%22:%20false%7D"></div>
 
-
 ### Full Clickable
 
 <span class="chip chip-boolean">Boolean</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-boolean">Default: <i>False</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -136,7 +123,6 @@ If set to true, the card will consume all click events. This means if you have a
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Card%20View%22,%20%22name%22:%20%22Full%20Clickable%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Card%20View%22,%20%22name%22:%20%22Full%20Clickable%22,%20%22getter%22:%20false%7D"></div>
-
 
 ### Stroke Color
 
@@ -147,7 +133,6 @@ The stroke color for the card view.
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Card%20View%22,%20%22name%22:%20%22Stroke%20Color%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Card%20View%22,%20%22name%22:%20%22Stroke%20Color%22,%20%22getter%22:%20false%7D"></div>
 
-
 ### Stroke Width
 
 <span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-number">Default: <i>0</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -157,7 +142,6 @@ The stroke width for the card view.
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Card%20View%22,%20%22name%22:%20%22Stroke%20Width%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Card%20View%22,%20%22name%22:%20%22Stroke%20Width%22,%20%22getter%22:%20false%7D"></div>
 
-
 ### Touch Color
 
 <span class="chip chip-color">Color</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-color" style="background-color: #CCCCCC;">Default: <i>#CCCCCCFF</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span>
@@ -165,7 +149,6 @@ The stroke width for the card view.
 <small>Available as ^^Advanced^^ Property</small>
 
 Set the touch color also known as ripple color to the card view component.
-
 
 ### Visible
 
@@ -176,14 +159,6 @@ Returns true iff the component is visible.
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Card%20View%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Card%20View%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20false%7D"></div>
 
-
-### Column
-
-<span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Non-Visible</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span>
-
-Column property getter method.
-
-
 ### Height
 
 <span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -193,7 +168,6 @@ Specifies the component's vertical height, measured in pixels.
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Card%20View%22,%20%22name%22:%20%22Height%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Card%20View%22,%20%22name%22:%20%22Height%22,%20%22getter%22:%20false%7D"></div>
 
-
 ### Height Percent
 
 <span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -201,14 +175,6 @@ Specifies the component's vertical height, measured in pixels.
 Specifies the component's vertical height as a percentageof the height of its parent Component.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Card%20View%22,%20%22name%22:%20%22Height%20Percent%22,%20%22getter%22:%20false%7D"></div>
-
-
-### Row
-
-<span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Non-Visible</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span>
-
-Row property getter method.
-
 
 ### Width
 
@@ -218,7 +184,6 @@ Specifies the component's horizontal width, measured in pixels.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Card%20View%22,%20%22name%22:%20%22Width%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Card%20View%22,%20%22name%22:%20%22Width%22,%20%22getter%22:%20false%7D"></div>
-
 
 ### Width Percent
 

@@ -12,7 +12,7 @@ Non-visible component that can detect shaking and measure acceleration approxima
 
 *    __xAccel__: 0 when the phone is at rest on a flat surface, positive when the phone is tilted to the right (i.e., its left side is raised), and negative when the phone is tilted to the left (i.e., its right size is raised).
 *    __yAccel__: 0 when the phone is at rest on a flat surface, positive when its bottom is raised, and negative when its top is raised. 
-*    __zAccel__: Equal to -9.8 (earth's gravity in meters per second per second when the device is at rest parallel to the ground with the display facing up, 0 when perpendicular to the ground, and +9.8 when facing down. The value can also be affected by accelerating it with or against gravity. 
+*    __zAccel__: Equal to -9.8 (earth's gravity in meters per second per second when the device is at rest parallel to the ground with the display facing up, 0 when perpendicular to the ground, and +9.8 when facing down. The value can also be affected by accelerating it with or against gravity.
 
 ## Events
 
@@ -20,7 +20,7 @@ Non-visible component that can detect shaking and measure acceleration approxima
 
 Indicates the acceleration changed in the X, Y, and/or Z dimensions.
 
-<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Accelerometer%20Sensor%22,%20%22name%22:%20%22Acceleration%20Changed%22,%20%22params%22:%20%5B%22x%20Accel%22,%20%22y%20Accel%22,%20%22z%20Accel%22%5D%7D"></div>
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Accelerometer%20Sensor%22,%20%22name%22:%20%22Acceleration%20Changed%22,%20%22param%22:%20%5B%22x%20Accel%22,%20%22y%20Accel%22,%20%22z%20Accel%22%5D%7D"></div>
 
 | Params | []() |
 |--------|------|
@@ -28,13 +28,11 @@ Indicates the acceleration changed in the X, Y, and/or Z dimensions.
 |y Accel|<span class="chip chip-number">Number</span>|
 |z Accel|<span class="chip chip-number">Number</span>|
 
-
 ### Shaking
 
 Indicates the device started being shaken or continues to be shaken.
 
-<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Accelerometer%20Sensor%22,%20%22name%22:%20%22Shaking%22,%20%22params%22:%20%5B%5D%7D"></div>
-
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Accelerometer%20Sensor%22,%20%22name%22:%20%22Shaking%22,%20%22param%22:%20%5B%5D%7D"></div>
 
 ## Properties
 
@@ -47,13 +45,11 @@ If true, the sensor will generate events. Otherwise, no eventsare generated even
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Accelerometer%20Sensor%22,%20%22name%22:%20%22Enabled%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Accelerometer%20Sensor%22,%20%22name%22:%20%22Enabled%22,%20%22getter%22:%20false%7D"></div>
 
-
 ### Legacy Mode
 
 <span class="chip chip-boolean">Boolean</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-boolean">Default: <i>False</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span>
 
 Prior to the release that added this property the AccelerometerSensor component passed through sensor values directly as received from the Android system. However these values do not compensate for tablets that default to Landscape mode, requiring the MIT App Inventor programmer to compensate. However compensating would result in incorrect results in Portrait mode devices such as phones. We now detect Landscape mode tablets and perform the compensation. However if your project is already compensating for the change, you will now get incorrect results. Although our preferred solution is for you to update your project, you can also just set this property to “true” and our compensation code will be deactivated. Note: We recommend that you update your project as we may remove this property in a future release.
-
 
 ### Minimum Interval (ms)
 
@@ -64,7 +60,6 @@ The minimum interval, in milliseconds, between phone shakes
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Accelerometer%20Sensor%22,%20%22name%22:%20%22Minimum%20Interval%20(ms)%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Accelerometer%20Sensor%22,%20%22name%22:%20%22Minimum%20Interval%20(ms)%22,%20%22getter%22:%20false%7D"></div>
 
-
 ### Sensitivity
 
 <span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-number">Default: <i>2</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -74,7 +69,6 @@ A number that encodes how sensitive the accelerometer is. The choices are: 1 = w
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Accelerometer%20Sensor%22,%20%22name%22:%20%22Sensitivity%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Accelerometer%20Sensor%22,%20%22name%22:%20%22Sensitivity%22,%20%22getter%22:%20false%7D"></div>
 
-
 ### Available
 
 <span class="chip chip-boolean">Boolean</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -82,7 +76,6 @@ A number that encodes how sensitive the accelerometer is. The choices are: 1 = w
 Available property getter method (read-only property).
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Accelerometer%20Sensor%22,%20%22name%22:%20%22Available%22,%20%22getter%22:%20true%7D"></div>
-
 
 ### X Accel
 
@@ -93,7 +86,6 @@ The sensor must be enabled to return meaningful values.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Accelerometer%20Sensor%22,%20%22name%22:%20%22X%20Accel%22,%20%22getter%22:%20true%7D"></div>
 
-
 ### Y Accel
 
 <span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -102,7 +94,6 @@ Returns the acceleration in the Y-dimension in SI units (m/s^2)
 The sensor must be enabled to return meaningful values.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Accelerometer%20Sensor%22,%20%22name%22:%20%22Y%20Accel%22,%20%22getter%22:%20true%7D"></div>
-
 
 ### Z Accel
 

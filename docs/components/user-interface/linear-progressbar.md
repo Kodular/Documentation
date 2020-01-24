@@ -14,12 +14,11 @@ A visible component that indicates the progress of an operation using an animate
 
 Event that indicates that the progress of the progress bar has been changed. Returns the current progress value. If "Indeterminate" is set to true, then it returns "0".
 
-<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Linear%20Progressbar%22,%20%22name%22:%20%22Progress%20Changed%22,%20%22params%22:%20%5B%22progress%22%5D%7D"></div>
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Linear%20Progressbar%22,%20%22name%22:%20%22Progress%20Changed%22,%20%22param%22:%20%5B%22progress%22%5D%7D"></div>
 
 | Params | []() |
 |--------|------|
 |progress|<span class="chip chip-number">Number</span>|
-
 
 ## Methods
 
@@ -27,13 +26,11 @@ Event that indicates that the progress of the progress bar has been changed. Ret
 
 Increase the progress bar's progress by the specified amount.
 
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Linear%20Progressbar%22,%20%22name%22:%20%22Increment%20Progress%20By%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22value%22%5D%7D"></div>
-
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Linear%20Progressbar%22,%20%22name%22:%20%22Increment%20Progress%20By%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22value%22%5D%7D"></div>
 
 | Params | []() |
 |--------|------|
 |value|<span class="chip chip-number">Number</span>|
-
 
 ## Properties
 
@@ -46,7 +43,6 @@ Change the indeterminate mode for this progress bar. In indeterminate mode, the 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Linear%20Progressbar%22,%20%22name%22:%20%22Indeterminate%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Linear%20Progressbar%22,%20%22name%22:%20%22Indeterminate%22,%20%22getter%22:%20false%7D"></div>
 
-
 ### Indeterminate Color
 
 <span class="chip chip-color">Color</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-color" style="background-color: #2196F2;">Default: <i>#2196F2FF</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -55,7 +51,6 @@ Change the indeterminate color of the progress bar.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Linear%20Progressbar%22,%20%22name%22:%20%22Indeterminate%20Color%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Linear%20Progressbar%22,%20%22name%22:%20%22Indeterminate%20Color%22,%20%22getter%22:%20false%7D"></div>
-
 
 ### Maximum
 
@@ -66,7 +61,6 @@ Set the upper range of the progress bar max.
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Linear%20Progressbar%22,%20%22name%22:%20%22Maximum%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Linear%20Progressbar%22,%20%22name%22:%20%22Maximum%22,%20%22getter%22:%20false%7D"></div>
 
-
 ### Minimum
 
 <span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-number">Default: <i>0</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -75,7 +69,6 @@ Set the lower range of the progress bar to min. This function works only for dev
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Linear%20Progressbar%22,%20%22name%22:%20%22Minimum%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Linear%20Progressbar%22,%20%22name%22:%20%22Minimum%22,%20%22getter%22:%20false%7D"></div>
-
 
 ### Progress Color
 
@@ -86,7 +79,6 @@ Change the progress color of the progress bar.
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Linear%20Progressbar%22,%20%22name%22:%20%22Progress%20Color%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Linear%20Progressbar%22,%20%22name%22:%20%22Progress%20Color%22,%20%22getter%22:%20false%7D"></div>
 
-
 ### Visible
 
 <span class="chip chip-boolean">Boolean</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-boolean">Default: <i>True</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -95,14 +87,6 @@ Returns true iff the component is visible.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Linear%20Progressbar%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Linear%20Progressbar%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20false%7D"></div>
-
-
-### Column
-
-<span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Non-Visible</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span>
-
-Column property getter method.
-
 
 ### Progress
 
@@ -113,14 +97,6 @@ Sets the current progress to the specified value. Does not do anything if the pr
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Linear%20Progressbar%22,%20%22name%22:%20%22Progress%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Linear%20Progressbar%22,%20%22name%22:%20%22Progress%22,%20%22getter%22:%20false%7D"></div>
 
-
-### Row
-
-<span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Non-Visible</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span>
-
-Row property getter method.
-
-
 ### Width
 
 <span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -129,7 +105,6 @@ Specifies the component's horizontal width, measured in pixels.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Linear%20Progressbar%22,%20%22name%22:%20%22Width%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Linear%20Progressbar%22,%20%22name%22:%20%22Width%22,%20%22getter%22:%20false%7D"></div>
-
 
 ### Width Percent
 

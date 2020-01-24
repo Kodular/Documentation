@@ -22,37 +22,33 @@ A component to take a picture using the device's camera. After the picture is ta
 
 Returns the taken picture.
 
-<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Camera%22,%20%22name%22:%20%22After%20Picture%22,%20%22params%22:%20%5B%22image%22%5D%7D"></div>
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Camera%22,%20%22name%22:%20%22After%20Picture%22,%20%22param%22:%20%5B%22image%22%5D%7D"></div>
 
 | Params | []() |
 |--------|------|
 |image|<span class="chip chip-text">Text</span>|
 
-
 ## Methods
 
 ### Has Flash
 
-<span class="chip chip-boolean">Returns: <i>Boolean</i></span> 
+<span class="chip chip-boolean">Returns: <i>Boolean</i></span>
 
 Returns true if your device has a flash.
 
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Camera%22,%20%22name%22:%20%22Has%20Flash%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
-
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Camera%22,%20%22name%22:%20%22Has%20Flash%22,%20%22output%22:%20true,%20%22param%22:%20%5B%5D%7D"></div>
 
 ### Take Picture
 
 Take a picture with the camera of your device.
 
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Camera%22,%20%22name%22:%20%22Take%20Picture%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
-
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Camera%22,%20%22name%22:%20%22Take%20Picture%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
 
 ### Toggle Light
 
 Toggle the flash of your device to on or off.
 
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Camera%22,%20%22name%22:%20%22Toggle%20Light%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
-
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Camera%22,%20%22name%22:%20%22Toggle%20Light%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
 
 ## Properties
 

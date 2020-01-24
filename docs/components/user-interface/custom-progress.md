@@ -12,12 +12,11 @@ A visible component that indicates the progress of an operation using a range of
 
 ### Get Styles Names
 
-<span class="chip chip-list">Returns: <i>List</i></span> 
+<span class="chip chip-list">Returns: <i>List</i></span>
 
 Gets style names of all possible animations.
 
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Custom%20Progress%22,%20%22name%22:%20%22Get%20Styles%20Names%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
-
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Custom%20Progress%22,%20%22name%22:%20%22Get%20Styles%20Names%22,%20%22output%22:%20true,%20%22param%22:%20%5B%5D%7D"></div>
 
 ## Properties
 
@@ -30,7 +29,6 @@ Allows you to set animation style. Valid (case-insensitive) values are: ChasingD
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Custom%20Progress%22,%20%22name%22:%20%22Animation%20Style%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Custom%20Progress%22,%20%22name%22:%20%22Animation%20Style%22,%20%22getter%22:%20false%7D"></div>
 
-
 ### Background Color
 
 <span class="chip chip-color">Color</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-color" style="background-color: #FFFFFF;">Default: <i>#FFFFFF00</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -39,7 +37,6 @@ Sets the background color of this component.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Custom%20Progress%22,%20%22name%22:%20%22Background%20Color%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Custom%20Progress%22,%20%22name%22:%20%22Background%20Color%22,%20%22getter%22:%20false%7D"></div>
-
 
 ### Color
 
@@ -50,7 +47,6 @@ Sets the color of the component
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Custom%20Progress%22,%20%22name%22:%20%22Color%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Custom%20Progress%22,%20%22name%22:%20%22Color%22,%20%22getter%22:%20false%7D"></div>
 
-
 ### Visible
 
 <span class="chip chip-boolean">Boolean</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-boolean">Default: <i>True</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -59,14 +55,6 @@ Returns true iff the component is visible.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Custom%20Progress%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Custom%20Progress%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20false%7D"></div>
-
-
-### Column
-
-<span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Non-Visible</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span>
-
-Column property getter method.
-
 
 ### Height
 
@@ -77,7 +65,6 @@ Specifies the component's vertical height, measured in pixels.
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Custom%20Progress%22,%20%22name%22:%20%22Height%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Custom%20Progress%22,%20%22name%22:%20%22Height%22,%20%22getter%22:%20false%7D"></div>
 
-
 ### Height Percent
 
 <span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -85,14 +72,6 @@ Specifies the component's vertical height, measured in pixels.
 Specifies the component's vertical height as a percentageof the height of its parent Component.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Custom%20Progress%22,%20%22name%22:%20%22Height%20Percent%22,%20%22getter%22:%20false%7D"></div>
-
-
-### Row
-
-<span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Non-Visible</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span>
-
-Row property getter method.
-
 
 ### Width
 
@@ -102,7 +81,6 @@ Specifies the component's horizontal width, measured in pixels.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Custom%20Progress%22,%20%22name%22:%20%22Width%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Custom%20Progress%22,%20%22name%22:%20%22Width%22,%20%22getter%22:%20false%7D"></div>
-
 
 ### Width Percent
 

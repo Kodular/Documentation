@@ -26,19 +26,17 @@ The languages and countries available depend on the particular device, and can b
 
 Event to raise after the message is spoken.
 
-<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Text%20To%20Speech%22,%20%22name%22:%20%22After%20Speaking%22,%20%22params%22:%20%5B%22result%22%5D%7D"></div>
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Text%20To%20Speech%22,%20%22name%22:%20%22After%20Speaking%22,%20%22param%22:%20%5B%22result%22%5D%7D"></div>
 
 | Params | []() |
 |--------|------|
 |result|<span class="chip chip-boolean">Boolean</span>|
 
-
 ### Before Speaking
 
 Event to raise when Speak is invoked, before the message is spoken.
 
-<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Text%20To%20Speech%22,%20%22name%22:%20%22Before%20Speaking%22,%20%22params%22:%20%5B%5D%7D"></div>
-
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Text%20To%20Speech%22,%20%22name%22:%20%22Before%20Speaking%22,%20%22param%22:%20%5B%5D%7D"></div>
 
 ## Methods
 
@@ -46,13 +44,11 @@ Event to raise when Speak is invoked, before the message is spoken.
 
 Speaks the given message.
 
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Text%20To%20Speech%22,%20%22name%22:%20%22Speak%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22message%22%5D%7D"></div>
-
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Text%20To%20Speech%22,%20%22name%22:%20%22Speak%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22message%22%5D%7D"></div>
 
 | Params | []() |
 |--------|------|
 |message|<span class="chip chip-text">Text</span>|
-
 
 ## Properties
 
@@ -65,7 +61,6 @@ Country code to use for speech generation. This can affect the pronounciation. F
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Text%20To%20Speech%22,%20%22name%22:%20%22Country%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Text%20To%20Speech%22,%20%22name%22:%20%22Country%22,%20%22getter%22:%20false%7D"></div>
 
-
 ### Language
 
 <span class="chip chip-text">Text</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -74,7 +69,6 @@ Sets the language for TextToSpeech. This changes the way that words are pronounc
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Text%20To%20Speech%22,%20%22name%22:%20%22Language%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Text%20To%20Speech%22,%20%22name%22:%20%22Language%22,%20%22getter%22:%20false%7D"></div>
-
 
 ### Pitch
 
@@ -85,7 +79,6 @@ Sets the Pitch for TextToSpeech The values should be between 0 and 2 where lower
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Text%20To%20Speech%22,%20%22name%22:%20%22Pitch%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Text%20To%20Speech%22,%20%22name%22:%20%22Pitch%22,%20%22getter%22:%20false%7D"></div>
 
-
 ### Speech Rate
 
 <span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-number">Default: <i>1.0</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -95,7 +88,6 @@ Sets the SpeechRate for TextToSpeech. The values should be between 0 and 2 where
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Text%20To%20Speech%22,%20%22name%22:%20%22Speech%20Rate%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Text%20To%20Speech%22,%20%22name%22:%20%22Speech%20Rate%22,%20%22getter%22:%20false%7D"></div>
 
-
 ### Available Countries
 
 <span class="chip chip-list">List</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -104,7 +96,6 @@ List of the country codes available on this device for use with TextToSpeech. Ch
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Text%20To%20Speech%22,%20%22name%22:%20%22Available%20Countries%22,%20%22getter%22:%20true%7D"></div>
 
-
 ### Available Languages
 
 <span class="chip chip-list">List</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -112,7 +103,6 @@ List of the country codes available on this device for use with TextToSpeech. Ch
 List of the languages available on this device for use with TextToSpeech. Check the Android developer documentation under supported languages to find the meanings of these abbreviations.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Text%20To%20Speech%22,%20%22name%22:%20%22Available%20Languages%22,%20%22getter%22:%20true%7D"></div>
-
 
 ### Result
 

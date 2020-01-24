@@ -16,12 +16,11 @@ Non-visible component that measures the temperature of the air in the room in de
 
 Event that fires when the temperature is changed
 
-<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Temperature%20Sensor%22,%20%22name%22:%20%22Temperature%20Changed%22,%20%22params%22:%20%5B%22temperature%22%5D%7D"></div>
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Temperature%20Sensor%22,%20%22name%22:%20%22Temperature%20Changed%22,%20%22param%22:%20%5B%22temperature%22%5D%7D"></div>
 
 | Params | []() |
 |--------|------|
 |temperature|<span class="chip chip-number">Number</span>|
-
 
 ## Properties
 
@@ -34,7 +33,6 @@ Whether Sensor should be Enabled
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Temperature%20Sensor%22,%20%22name%22:%20%22Enabled%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Temperature%20Sensor%22,%20%22name%22:%20%22Enabled%22,%20%22getter%22:%20false%7D"></div>
 
-
 ### Available
 
 <span class="chip chip-boolean">Boolean</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -42,7 +40,6 @@ Whether Sensor should be Enabled
 Whether Sensor is Available
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Temperature%20Sensor%22,%20%22name%22:%20%22Available%22,%20%22getter%22:%20true%7D"></div>
-
 
 ### Temperature
 

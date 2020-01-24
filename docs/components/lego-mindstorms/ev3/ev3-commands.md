@@ -19,78 +19,69 @@ A component that provides a low-level interface to a LEGO MINDSTORMS EV3 robot, 
 
 ### Get Battery Current
 
-<span class="chip chip-number">Returns: <i>Number</i></span> 
+<span class="chip chip-number">Returns: <i>Number</i></span>
 
 Get the battery current.
 
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Commands%22,%20%22name%22:%20%22Get%20Battery%20Current%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
-
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Commands%22,%20%22name%22:%20%22Get%20Battery%20Current%22,%20%22output%22:%20true,%20%22param%22:%20%5B%5D%7D"></div>
 
 ### Get Battery Voltage
 
-<span class="chip chip-number">Returns: <i>Number</i></span> 
+<span class="chip chip-number">Returns: <i>Number</i></span>
 
 Get the battery voltage.
 
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Commands%22,%20%22name%22:%20%22Get%20Battery%20Voltage%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
-
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Commands%22,%20%22name%22:%20%22Get%20Battery%20Voltage%22,%20%22output%22:%20true,%20%22param%22:%20%5B%5D%7D"></div>
 
 ### Get Firmware Build
 
-<span class="chip chip-text">Returns: <i>Text</i></span> 
+<span class="chip chip-text">Returns: <i>Text</i></span>
 
 Get the firmware build on EV3.
 
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Commands%22,%20%22name%22:%20%22Get%20Firmware%20Build%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
-
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Commands%22,%20%22name%22:%20%22Get%20Firmware%20Build%22,%20%22output%22:%20true,%20%22param%22:%20%5B%5D%7D"></div>
 
 ### Get Firmware Version
 
-<span class="chip chip-text">Returns: <i>Text</i></span> 
+<span class="chip chip-text">Returns: <i>Text</i></span>
 
 Get the firmware version on EV3.
 
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Commands%22,%20%22name%22:%20%22Get%20Firmware%20Version%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
-
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Commands%22,%20%22name%22:%20%22Get%20Firmware%20Version%22,%20%22output%22:%20true,%20%22param%22:%20%5B%5D%7D"></div>
 
 ### Get Hardware Version
 
-<span class="chip chip-text">Returns: <i>Text</i></span> 
+<span class="chip chip-text">Returns: <i>Text</i></span>
 
 Get the hardware version of EV3.
 
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Commands%22,%20%22name%22:%20%22Get%20Hardware%20Version%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
-
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Commands%22,%20%22name%22:%20%22Get%20Hardware%20Version%22,%20%22output%22:%20true,%20%22param%22:%20%5B%5D%7D"></div>
 
 ### Get OS Build
 
-<span class="chip chip-text">Returns: <i>Text</i></span> 
+<span class="chip chip-text">Returns: <i>Text</i></span>
 
 Get the OS build on EV3.
 
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Commands%22,%20%22name%22:%20%22Get%20OS%20Build%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
-
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Commands%22,%20%22name%22:%20%22Get%20OS%20Build%22,%20%22output%22:%20true,%20%22param%22:%20%5B%5D%7D"></div>
 
 ### Get OS Version
 
-<span class="chip chip-text">Returns: <i>Text</i></span> 
+<span class="chip chip-text">Returns: <i>Text</i></span>
 
 Get the OS version on EV3.
 
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Commands%22,%20%22name%22:%20%22Get%20OS%20Version%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
-
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Commands%22,%20%22name%22:%20%22Get%20OS%20Version%22,%20%22output%22:%20true,%20%22param%22:%20%5B%5D%7D"></div>
 
 ### Keep Alive
 
 Keep the EV3 brick from shutdown for a period of time.
 
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Commands%22,%20%22name%22:%20%22Keep%20Alive%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22minutes%22%5D%7D"></div>
-
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Commands%22,%20%22name%22:%20%22Keep%20Alive%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22minutes%22%5D%7D"></div>
 
 | Params | []() |
 |--------|------|
 |minutes|<span class="chip chip-number">Number</span>|
-
 
 ## Properties
 

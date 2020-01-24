@@ -17,14 +17,13 @@ Note\: All readings are in SI units.
 
 Indicates that the gravity sensor data has changed.
 
-<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Gravity%20Sensor%22,%20%22name%22:%20%22Gravity%20Changed%22,%20%22params%22:%20%5B%22x%20Accel%22,%20%22y%20Accel%22,%20%22z%20Accel%22%5D%7D"></div>
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Gravity%20Sensor%22,%20%22name%22:%20%22Gravity%20Changed%22,%20%22param%22:%20%5B%22x%20Accel%22,%20%22y%20Accel%22,%20%22z%20Accel%22%5D%7D"></div>
 
 | Params | []() |
 |--------|------|
 |x Accel|<span class="chip chip-number">Number</span>|
 |y Accel|<span class="chip chip-number">Number</span>|
 |z Accel|<span class="chip chip-number">Number</span>|
-
 
 ## Properties
 
@@ -35,13 +34,11 @@ Indicates that the gravity sensor data has changed.
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Gravity%20Sensor%22,%20%22name%22:%20%22Enabled%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Gravity%20Sensor%22,%20%22name%22:%20%22Enabled%22,%20%22getter%22:%20false%7D"></div>
 
-
 ### Available
 
 <span class="chip chip-boolean">Boolean</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Gravity%20Sensor%22,%20%22name%22:%20%22Available%22,%20%22getter%22:%20true%7D"></div>
-
 
 ### Maximum Range
 
@@ -49,20 +46,17 @@ Indicates that the gravity sensor data has changed.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Gravity%20Sensor%22,%20%22name%22:%20%22Maximum%20Range%22,%20%22getter%22:%20true%7D"></div>
 
-
 ### X Accel
 
 <span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Gravity%20Sensor%22,%20%22name%22:%20%22X%20Accel%22,%20%22getter%22:%20true%7D"></div>
 
-
 ### Y Accel
 
 <span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Gravity%20Sensor%22,%20%22name%22:%20%22Y%20Accel%22,%20%22getter%22:%20true%7D"></div>
-
 
 ### Z Accel
 

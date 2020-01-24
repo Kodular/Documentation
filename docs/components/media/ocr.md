@@ -20,19 +20,18 @@ A non-visible component that reads text from images using Optical Character Reco
 
 You will find here the success state and the response content.
 
-<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22OCR%22,%20%22name%22:%20%22Got%20Response%22,%20%22params%22:%20%5B%22success%22,%20%22response%20Content%22%5D%7D"></div>
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22OCR%22,%20%22name%22:%20%22Got%20Response%22,%20%22param%22:%20%5B%22success%22,%20%22response%20Content%22%5D%7D"></div>
 
 | Params | []() |
 |--------|------|
 |success|<span class="chip chip-boolean">Boolean</span>|
 |response Content|<span class="chip chip-text">Text</span>|
 
-
 ### Got Server Status
 
 You will find here the server status from the ocr provider. Possible results are 'UP' or 'DOWN'. 'pro Usa1' = Usa, East Coast. 'pro Usa2' = Usa, West Coast.
 
-<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22OCR%22,%20%22name%22:%20%22Got%20Server%20Status%22,%20%22params%22:%20%5B%22free%22,%20%22pro%20USA%201%22,%20%22pro%20USA%202%22,%20%22pro%20Europe%22,%20%22pro%20Asia%22%5D%7D"></div>
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22OCR%22,%20%22name%22:%20%22Got%20Server%20Status%22,%20%22param%22:%20%5B%22free%22,%20%22pro%20USA%201%22,%20%22pro%20USA%202%22,%20%22pro%20Europe%22,%20%22pro%20Asia%22%5D%7D"></div>
 
 | Params | []() |
 |--------|------|
@@ -42,39 +41,33 @@ You will find here the server status from the ocr provider. Possible results are
 |pro Europe|<span class="chip chip-text">Text</span>|
 |pro Asia|<span class="chip chip-text">Text</span>|
 
-
 ## Methods
 
 ### Get OCR Server Status
 
 Get the server status from the free ocr.space server. This is helpful if you want to know if the server is online or offline. Returns true when online, else false when offline.
 
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22OCR%22,%20%22name%22:%20%22Get%20OCR%20Server%20Status%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
-
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22OCR%22,%20%22name%22:%20%22Get%20OCR%20Server%20Status%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
 
 ### Get Text From Image Url
 
 Get the text from a picture via the image url. Example: http://name/yourimage.jpg. Service powered by ocr.space.
 
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22OCR%22,%20%22name%22:%20%22Get%20Text%20From%20Image%20Url%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22image%20URL%22%5D%7D"></div>
-
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22OCR%22,%20%22name%22:%20%22Get%20Text%20From%20Image%20Url%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22image%20URL%22%5D%7D"></div>
 
 | Params | []() |
 |--------|------|
 |image URL|<span class="chip chip-text">Text</span>|
 
-
 ### Upload Image
 
 Upload your image to the server from ocr.space and then you get back the text from the picture.
 
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22OCR%22,%20%22name%22:%20%22Upload%20Image%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22path%22%5D%7D"></div>
-
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22OCR%22,%20%22name%22:%20%22Upload%20Image%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22path%22%5D%7D"></div>
 
 | Params | []() |
 |--------|------|
 |path|<span class="chip chip-text">Text</span>|
-
 
 ## Properties
 
@@ -87,7 +80,6 @@ You can use the default api key: helloworld, or you can create your own api key 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22OCR%22,%20%22name%22:%20%22API%20Key%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22OCR%22,%20%22name%22:%20%22API%20Key%22,%20%22getter%22:%20false%7D"></div>
 
-
 ### Create Searchable PDF
 
 <span class="chip chip-boolean">Boolean</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-boolean">Default: <i>False</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -96,7 +88,6 @@ A searchable PDF file is a PDF file that includes text that can be searched upon
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22OCR%22,%20%22name%22:%20%22Create%20Searchable%20PDF%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22OCR%22,%20%22name%22:%20%22Create%20Searchable%20PDF%22,%20%22getter%22:%20false%7D"></div>
-
 
 ### Language
 
@@ -107,7 +98,6 @@ Choose the language used for OCR. If no language is specified, English is taken 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22OCR%22,%20%22name%22:%20%22Language%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22OCR%22,%20%22name%22:%20%22Language%22,%20%22getter%22:%20false%7D"></div>
 
-
 ### Overlaid
 
 <span class="chip chip-boolean">Boolean</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-boolean">Default: <i>False</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -117,7 +107,6 @@ Allows you to specify if the image/pdf text overlay is required. Overlay could b
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22OCR%22,%20%22name%22:%20%22Overlaid%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22OCR%22,%20%22name%22:%20%22Overlaid%22,%20%22getter%22:%20false%7D"></div>
 
-
 ### Return Only Message
 
 <span class="chip chip-boolean">Boolean</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -126,7 +115,6 @@ Set this block before you upload a image and before you try to get the response 
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22OCR%22,%20%22name%22:%20%22Return%20Only%20Message%22,%20%22getter%22:%20false%7D"></div>
 
-
 ### Return Only PDF Link
 
 <span class="chip chip-boolean">Boolean</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -134,7 +122,6 @@ Set this block before you upload a image and before you try to get the response 
 Set this block before you upload a image and before you try to get the response from a image url. If this property is set to true, the response content returns only the created pdf download link.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22OCR%22,%20%22name%22:%20%22Return%20Only%20PDF%20Link%22,%20%22getter%22:%20false%7D"></div>
-
 
 ### Test Image URL
 

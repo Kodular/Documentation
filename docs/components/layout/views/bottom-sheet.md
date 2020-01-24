@@ -16,15 +16,13 @@ A non-visible component that shows a visible layout at the bottom of the screen.
 
 Event to detect that the dialog was closed.
 
-<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Bottom%20Sheet%22,%20%22name%22:%20%22Closed%22,%20%22params%22:%20%5B%5D%7D"></div>
-
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Bottom%20Sheet%22,%20%22name%22:%20%22Closed%22,%20%22param%22:%20%5B%5D%7D"></div>
 
 ### Opened
 
 Event to detect that the dialog was opened.
 
-<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Bottom%20Sheet%22,%20%22name%22:%20%22Opened%22,%20%22params%22:%20%5B%5D%7D"></div>
-
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Bottom%20Sheet%22,%20%22name%22:%20%22Opened%22,%20%22param%22:%20%5B%5D%7D"></div>
 
 ## Methods
 
@@ -32,39 +30,33 @@ Event to detect that the dialog was opened.
 
 Hide the bottom sheet dialog.
 
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Bottom%20Sheet%22,%20%22name%22:%20%22Hide%20Dialog%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
-
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Bottom%20Sheet%22,%20%22name%22:%20%22Hide%20Dialog%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
 
 ### Register Component As Dialog
 
 Register any component as example a 'button', that will be later your bottom sheet dialog.
 
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Bottom%20Sheet%22,%20%22name%22:%20%22Register%20Component%20As%20Dialog%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22component%22%5D%7D"></div>
-
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Bottom%20Sheet%22,%20%22name%22:%20%22Register%20Component%20As%20Dialog%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22component%22%5D%7D"></div>
 
 | Params | []() |
 |--------|------|
 |component|<span class="chip chip-component">Component</span>|
 
-
 ### Register Layout As Dialog
 
 Register any layout as example a 'horizontal arrangement', that will be later your bottom sheet dialog.
 
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Bottom%20Sheet%22,%20%22name%22:%20%22Register%20Layout%20As%20Dialog%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22layout%22%5D%7D"></div>
-
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Bottom%20Sheet%22,%20%22name%22:%20%22Register%20Layout%20As%20Dialog%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22layout%22%5D%7D"></div>
 
 | Params | []() |
 |--------|------|
 |layout|<span class="chip chip-component">Component</span>|
 
-
 ### Show Dialog
 
 Show the bottom sheet dialog.
 
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Bottom%20Sheet%22,%20%22name%22:%20%22Show%20Dialog%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
-
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Bottom%20Sheet%22,%20%22name%22:%20%22Show%20Dialog%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
 
 ## Properties
 
@@ -76,7 +68,6 @@ If set to true the user will see a dark background effect. Else the background h
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Bottom%20Sheet%22,%20%22name%22:%20%22Dim%20Background%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Bottom%20Sheet%22,%20%22name%22:%20%22Dim%20Background%22,%20%22getter%22:%20false%7D"></div>
-
 
 ### Show Status Bar
 

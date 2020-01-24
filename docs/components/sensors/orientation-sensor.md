@@ -26,14 +26,13 @@ This event is signalled when the device's orientation has changed. Itreports the
 
 Azimuth is the compass heading in degrees, pitch indicates how the deviceis tilted from top to bottom, and roll indicates how much the device is tilted fromside to side.
 
-<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Orientation%20Sensor%22,%20%22name%22:%20%22Orientation%20Changed%22,%20%22params%22:%20%5B%22azimuth%22,%20%22pitch%22,%20%22roll%22%5D%7D"></div>
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Orientation%20Sensor%22,%20%22name%22:%20%22Orientation%20Changed%22,%20%22param%22:%20%5B%22azimuth%22,%20%22pitch%22,%20%22roll%22%5D%7D"></div>
 
 | Params | []() |
 |--------|------|
 |azimuth|<span class="chip chip-number">Number</span>|
 |pitch|<span class="chip chip-number">Number</span>|
 |roll|<span class="chip chip-number">Number</span>|
-
 
 ## Properties
 
@@ -46,7 +45,6 @@ Enabled property getter method.
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Orientation%20Sensor%22,%20%22name%22:%20%22Enabled%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Orientation%20Sensor%22,%20%22name%22:%20%22Enabled%22,%20%22getter%22:%20false%7D"></div>
 
-
 ### Angle
 
 <span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -55,7 +53,6 @@ Angle property getter method (read-only property). Specifically, thisprovides th
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Orientation%20Sensor%22,%20%22name%22:%20%22Angle%22,%20%22getter%22:%20true%7D"></div>
 
-
 ### Available
 
 <span class="chip chip-boolean">Boolean</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -63,7 +60,6 @@ Angle property getter method (read-only property). Specifically, thisprovides th
 Available property getter method (read-only property).
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Orientation%20Sensor%22,%20%22name%22:%20%22Available%22,%20%22getter%22:%20true%7D"></div>
-
 
 ### Azimuth
 
@@ -75,7 +71,6 @@ To return meaningful values the sensor must be enabled.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Orientation%20Sensor%22,%20%22name%22:%20%22Azimuth%22,%20%22getter%22:%20true%7D"></div>
 
-
 ### Magnitude
 
 <span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -83,7 +78,6 @@ To return meaningful values the sensor must be enabled.
 Magnitude property getter method (read-only property). Specifically, thisreturns a number between 0 and 1, indicating how much the deviceis tilted. For the angle of tilt, use
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Orientation%20Sensor%22,%20%22name%22:%20%22Magnitude%22,%20%22getter%22:%20true%7D"></div>
-
 
 ### Pitch
 
@@ -94,7 +88,6 @@ Pitch property getter method (read-only property)
 To return meaningful values the sensor must be enabled.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Orientation%20Sensor%22,%20%22name%22:%20%22Pitch%22,%20%22getter%22:%20true%7D"></div>
-
 
 ### Roll
 

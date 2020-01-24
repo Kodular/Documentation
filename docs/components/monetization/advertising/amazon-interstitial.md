@@ -8,7 +8,7 @@
 
 ## Overview
 
-An interstitial ad is a full-page ad. AdAmazonInterstitial component allows you to monetize your app. You must have a valid Amazon Application Key. If your application key is invalid, the ad will not display on the emulator or the device. Warning: Make sure you're in test mode during development to avoid being disabled for clicking your own ads. 
+An interstitial ad is a full-page ad. AdAmazonInterstitial component allows you to monetize your app. You must have a valid Amazon Application Key. If your application key is invalid, the ad will not display on the emulator or the device. Warning: Make sure you're in test mode during development to avoid being disabled for clicking your own ads.
 
 ??? example "Permissions"
     * [android.permission.ACCESS_FINE_LOCATION](https://developer.android.com/reference/android/Manifest.permission.html#ACCESS_FINE_LOCATION)
@@ -23,52 +23,46 @@ An interstitial ad is a full-page ad. AdAmazonInterstitial component allows you 
 
 Triggered when the close button of the interstitial ad is clicked. It's important to remember only one interstitial ad can be shown at a time. The previous ad has to be dismissed before a new ad can be shown.
 
-<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Amazon%20Interstitial%22,%20%22name%22:%20%22Ad%20Closed%22,%20%22params%22:%20%5B%5D%7D"></div>
-
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Amazon%20Interstitial%22,%20%22name%22:%20%22Ad%20Closed%22,%20%22param%22:%20%5B%5D%7D"></div>
 
 ### Ad Collapsed
 
 After a user clicks on the close ad button on an expanded ad, this callback is called immediately after collapsing the ad. This callback can be used to do things like resume your app or restart audio.
 
-<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Amazon%20Interstitial%22,%20%22name%22:%20%22Ad%20Collapsed%22,%20%22params%22:%20%5B%5D%7D"></div>
-
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Amazon%20Interstitial%22,%20%22name%22:%20%22Ad%20Collapsed%22,%20%22param%22:%20%5B%5D%7D"></div>
 
 ### Ad Expanded
 
 This callback is called each time an ad is successfully loaded. You can use this to log metrics on ad views and assist with initial integration. Detailed information about the ad that loaded can be obtained from the AdProperties object.
 
-<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Amazon%20Interstitial%22,%20%22name%22:%20%22Ad%20Expanded%22,%20%22params%22:%20%5B%5D%7D"></div>
-
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Amazon%20Interstitial%22,%20%22name%22:%20%22Ad%20Expanded%22,%20%22param%22:%20%5B%5D%7D"></div>
 
 ### Ad Failed To Load
 
 Whenever an ad fails to be retrieved, the event is called, returning the error message.
 
-<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Amazon%20Interstitial%22,%20%22name%22:%20%22Ad%20Failed%20To%20Load%22,%20%22params%22:%20%5B%22error%22,%20%22message%22%5D%7D"></div>
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Amazon%20Interstitial%22,%20%22name%22:%20%22Ad%20Failed%20To%20Load%22,%20%22param%22:%20%5B%22error%22,%20%22message%22%5D%7D"></div>
 
 | Params | []() |
 |--------|------|
 |error|<span class="chip chip-text">Text</span>|
 |message|<span class="chip chip-text">Text</span>|
 
-
 ### Ad Failed To Show
 
 Called when an an attempt was made to display the ad, but the ad was not ready to display
 
-<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Amazon%20Interstitial%22,%20%22name%22:%20%22Ad%20Failed%20To%20Show%22,%20%22params%22:%20%5B%22message%22%5D%7D"></div>
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Amazon%20Interstitial%22,%20%22name%22:%20%22Ad%20Failed%20To%20Show%22,%20%22param%22:%20%5B%22message%22%5D%7D"></div>
 
 | Params | []() |
 |--------|------|
 |message|<span class="chip chip-text">Text</span>|
 
-
 ### Ad Loaded
 
 Triggered each time an ad is successfully loaded. But you don't have to display the ad right after it's loaded. For example, set a flag to true and then at a transition point, if flag=true, then display the ad.
 
-<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Amazon%20Interstitial%22,%20%22name%22:%20%22Ad%20Loaded%22,%20%22params%22:%20%5B%5D%7D"></div>
-
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Amazon%20Interstitial%22,%20%22name%22:%20%22Ad%20Loaded%22,%20%22param%22:%20%5B%5D%7D"></div>
 
 ## Methods
 
@@ -76,15 +70,13 @@ Triggered each time an ad is successfully loaded. But you don't have to display 
 
 Loads a new ad.
 
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Amazon%20Interstitial%22,%20%22name%22:%20%22Load%20Ad%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
-
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Amazon%20Interstitial%22,%20%22name%22:%20%22Load%20Ad%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
 
 ### Show Interstitial Ad
 
 It will show the Interstitial Ad
 
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Amazon%20Interstitial%22,%20%22name%22:%20%22Show%20Interstitial%20Ad%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
-
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Amazon%20Interstitial%22,%20%22name%22:%20%22Show%20Interstitial%20Ad%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
 
 ## Properties
 
@@ -94,7 +86,6 @@ It will show the Interstitial Ad
 
 Enter Application Key. Go to Amazon Developer Portal and sign-in for your ApplicationKey
 
-
 ### Interstitial Commission
 
 <span class="chip chip-text">Text</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-text">Default: <i>unity</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -103,14 +94,12 @@ Sets the ad network used to take the commission.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Amazon%20Interstitial%22,%20%22name%22:%20%22Interstitial%20Commission%22,%20%22getter%22:%20false%7D"></div>
 
-
 ### Enable Debug
 
 <span class="chip chip-boolean">Boolean</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-boolean">Default: <i>True</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Amazon%20Interstitial%22,%20%22name%22:%20%22Enable%20Debug%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Amazon%20Interstitial%22,%20%22name%22:%20%22Enable%20Debug%22,%20%22getter%22:%20false%7D"></div>
-
 
 ### Enable Geo Location Targeting
 
@@ -121,7 +110,6 @@ If set to true, uses latitude and longitude coordinates as part of an ad request
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Amazon%20Interstitial%22,%20%22name%22:%20%22Enable%20Geo%20Location%20Targeting%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Amazon%20Interstitial%22,%20%22name%22:%20%22Enable%20Geo%20Location%20Targeting%22,%20%22getter%22:%20false%7D"></div>
 
-
 ### Enable Testing
 
 <span class="chip chip-boolean">Boolean</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-boolean">Default: <i>True</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -130,7 +118,6 @@ For debugging / development purposes flag all ad requests as tests, but set to f
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Amazon%20Interstitial%22,%20%22name%22:%20%22Enable%20Testing%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Amazon%20Interstitial%22,%20%22name%22:%20%22Enable%20Testing%22,%20%22getter%22:%20false%7D"></div>
-
 
 ### Target Age
 

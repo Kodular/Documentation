@@ -16,34 +16,29 @@ A non-visible component that opens web pages as custom tabs on Google Chrome.
 
 Use this block to add a menu item with the given title to open any app you want with the package name. The package name can be as example 'com.instagram.android' to open Instagram on the menu item click. If the app is not installed the menu item will not be added.
 
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Custom%20Tabs%22,%20%22name%22:%20%22Add%20Menu%20Item%20Open%20App%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22title%22,%20%22package%20Name%22%5D%7D"></div>
-
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Custom%20Tabs%22,%20%22name%22:%20%22Add%20Menu%20Item%20Open%20App%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22title%22,%20%22package%20Name%22%5D%7D"></div>
 
 | Params | []() |
 |--------|------|
 |title|<span class="chip chip-text">Text</span>|
 |package Name|<span class="chip chip-text">Text</span>|
 
-
 ### Add Menu Item Open Page
 
 Use this block to add a menu item with the given title and page link. The page can be as example 'https://www.instagram.com/kodular/'. If the user have Instagram installed,the page will then be opened in the official Instagram app. Else in the default browser.
 
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Custom%20Tabs%22,%20%22name%22:%20%22Add%20Menu%20Item%20Open%20Page%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22title%22,%20%22page%22%5D%7D"></div>
-
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Custom%20Tabs%22,%20%22name%22:%20%22Add%20Menu%20Item%20Open%20Page%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22title%22,%20%22page%22%5D%7D"></div>
 
 | Params | []() |
 |--------|------|
 |title|<span class="chip chip-text">Text</span>|
 |page|<span class="chip chip-text">Text</span>|
 
-
 ### Open Custom Tab
 
 Use this block to open the custom tab.
 
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Custom%20Tabs%22,%20%22name%22:%20%22Open%20Custom%20Tab%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
-
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Custom%20Tabs%22,%20%22name%22:%20%22Open%20Custom%20Tab%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
 
 ## Properties
 
@@ -52,7 +47,6 @@ Use this block to open the custom tab.
 <span class="chip chip-boolean">Boolean</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-boolean">Default: <i>True</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span>
 
 Whether or not to add the default share menu item into the menu.
-
 
 ### Instant Apps Enabled
 
@@ -63,7 +57,6 @@ Whether or not to enable instant apps.
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Custom%20Tabs%22,%20%22name%22:%20%22Instant%20Apps%20Enabled%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Custom%20Tabs%22,%20%22name%22:%20%22Instant%20Apps%20Enabled%22,%20%22getter%22:%20false%7D"></div>
 
-
 ### Show Title
 
 <span class="chip chip-boolean">Boolean</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-boolean">Default: <i>True</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -72,7 +65,6 @@ Whether or not to show the title.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Custom%20Tabs%22,%20%22name%22:%20%22Show%20Title%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Custom%20Tabs%22,%20%22name%22:%20%22Show%20Title%22,%20%22getter%22:%20false%7D"></div>
-
 
 ### Toolbar Color
 
@@ -83,7 +75,6 @@ Specifies the color of the toolbar.
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Custom%20Tabs%22,%20%22name%22:%20%22Toolbar%20Color%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Custom%20Tabs%22,%20%22name%22:%20%22Toolbar%20Color%22,%20%22getter%22:%20false%7D"></div>
 
-
 ### URL
 
 <span class="chip chip-text">Text</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -92,7 +83,6 @@ The URL to load in the custom tab. The URL must start with 'http://' or 'https:/
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Custom%20Tabs%22,%20%22name%22:%20%22URL%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Custom%20Tabs%22,%20%22name%22:%20%22URL%22,%20%22getter%22:%20false%7D"></div>
-
 
 ### Url Bar Hiding On Scroll
 

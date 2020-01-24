@@ -46,13 +46,12 @@ Another way for an app to specify a phone number would be to include a `` PhoneN
 
 Event that's raised when a text message is received by the phone.
 
-<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Texting%22,%20%22name%22:%20%22Message%20Received%22,%20%22params%22:%20%5B%22number%22,%20%22message%20Text%22%5D%7D"></div>
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Texting%22,%20%22name%22:%20%22Message%20Received%22,%20%22param%22:%20%5B%22number%22,%20%22message%20Text%22%5D%7D"></div>
 
 | Params | []() |
 |--------|------|
 |number|<span class="chip chip-text">Text</span>|
 |message Text|<span class="chip chip-text">Text</span>|
-
 
 ## Methods
 
@@ -60,8 +59,7 @@ Event that's raised when a text message is received by the phone.
 
 Send a text message
 
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Texting%22,%20%22name%22:%20%22Send%20Message%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
-
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Texting%22,%20%22name%22:%20%22Send%20Message%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
 
 ## Properties
 
@@ -74,7 +72,6 @@ If true, then SendMessage will attempt to send messages over Wifi using Google V
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Texting%22,%20%22name%22:%20%22Google%20Voice%20Enabled%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Texting%22,%20%22name%22:%20%22Google%20Voice%20Enabled%22,%20%22getter%22:%20false%7D"></div>
 
-
 ### Message
 
 <span class="chip chip-text">Text</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -84,7 +81,6 @@ The message that will be sent when the SendMessage method is called.
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Texting%22,%20%22name%22:%20%22Message%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Texting%22,%20%22name%22:%20%22Message%22,%20%22getter%22:%20false%7D"></div>
 
-
 ### Phone Number
 
 <span class="chip chip-text">Text</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -93,7 +89,6 @@ Sets the phone number to send the text message to when the SendMessage function 
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Texting%22,%20%22name%22:%20%22Phone%20Number%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Texting%22,%20%22name%22:%20%22Phone%20Number%22,%20%22getter%22:%20false%7D"></div>
-
 
 ### Receiving Enabled
 

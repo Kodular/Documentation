@@ -26,57 +26,49 @@ When you are developing apps using the AI Companion, all the apps using that com
 
 Clear the entire data store
 
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Tiny%20DB%22,%20%22name%22:%20%22Clear%20All%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
-
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Tiny%20DB%22,%20%22name%22:%20%22Clear%20All%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
 
 ### Clear Tag
 
 Clear the entry with the given tag
 
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Tiny%20DB%22,%20%22name%22:%20%22Clear%20Tag%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22tag%22%5D%7D"></div>
-
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Tiny%20DB%22,%20%22name%22:%20%22Clear%20Tag%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22tag%22%5D%7D"></div>
 
 | Params | []() |
 |--------|------|
 |tag|<span class="chip chip-text">Text</span>|
 
-
 ### Get Tags
 
-<span class="chip chip-any">Returns: <i>Any</i></span> 
+<span class="chip chip-any">Returns: <i>Any</i></span>
 
 Return a list of all the tags in the data store
 
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Tiny%20DB%22,%20%22name%22:%20%22Get%20Tags%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
-
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Tiny%20DB%22,%20%22name%22:%20%22Get%20Tags%22,%20%22output%22:%20true,%20%22param%22:%20%5B%5D%7D"></div>
 
 ### Get Value
 
-<span class="chip chip-any">Returns: <i>Any</i></span> 
+<span class="chip chip-any">Returns: <i>Any</i></span>
 
 Retrieve the value stored under the given tag. If there's no such tag, then return valueIfTagNotThere.
 
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Tiny%20DB%22,%20%22name%22:%20%22Get%20Value%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22tag%22,%20%22value%20If%20Tag%20Not%20There%22%5D%7D"></div>
-
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Tiny%20DB%22,%20%22name%22:%20%22Get%20Value%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22tag%22,%20%22value%20If%20Tag%20Not%20There%22%5D%7D"></div>
 
 | Params | []() |
 |--------|------|
 |tag|<span class="chip chip-text">Text</span>|
 |value If Tag Not There|<span class="chip chip-any">Any</span>|
 
-
 ### Store Value
 
 Store the given value under the given tag. The storage persists on thephone when the app is restarted.
 
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Tiny%20DB%22,%20%22name%22:%20%22Store%20Value%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22tag%22,%20%22value%20To%20Store%22%5D%7D"></div>
-
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Tiny%20DB%22,%20%22name%22:%20%22Store%20Value%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22tag%22,%20%22value%20To%20Store%22%5D%7D"></div>
 
 | Params | []() |
 |--------|------|
 |tag|<span class="chip chip-text">Text</span>|
 |value To Store|<span class="chip chip-any">Any</span>|
-
 
 ## Properties
 

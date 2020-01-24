@@ -17,7 +17,7 @@ A visible component that displays a list of elements consisting of an image and 
 
 Triggers when the user clicks on a item in the list
 
-<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Click%22,%20%22params%22:%20%5B%22position%22,%20%22title%22,%20%22subtitle%22,%20%22image%22%5D%7D"></div>
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Click%22,%20%22param%22:%20%5B%22position%22,%20%22title%22,%20%22subtitle%22,%20%22image%22%5D%7D"></div>
 
 | Params | []() |
 |--------|------|
@@ -25,13 +25,12 @@ Triggers when the user clicks on a item in the list
 |title|<span class="chip chip-text">Text</span>|
 |subtitle|<span class="chip chip-text">Text</span>|
 |image|<span class="chip chip-text">Text</span>|
-
 
 ### Long Click
 
 Triggers when the user long clicks on a item in the list
 
-<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Long%20Click%22,%20%22params%22:%20%5B%22position%22,%20%22title%22,%20%22subtitle%22,%20%22image%22%5D%7D"></div>
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Long%20Click%22,%20%22param%22:%20%5B%22position%22,%20%22title%22,%20%22subtitle%22,%20%22image%22%5D%7D"></div>
 
 | Params | []() |
 |--------|------|
@@ -39,7 +38,6 @@ Triggers when the user long clicks on a item in the list
 |title|<span class="chip chip-text">Text</span>|
 |subtitle|<span class="chip chip-text">Text</span>|
 |image|<span class="chip chip-text">Text</span>|
-
 
 ## Methods
 
@@ -47,53 +45,45 @@ Triggers when the user long clicks on a item in the list
 
 Add a item to the list
 
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Add%20Item%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22image%22,%20%22title%22,%20%22subtitle%22%5D%7D"></div>
-
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Add%20Item%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22image%22,%20%22title%22,%20%22subtitle%22%5D%7D"></div>
 
 | Params | []() |
 |--------|------|
 |image|<span class="chip chip-text">Text</span>|
 |title|<span class="chip chip-text">Text</span>|
 |subtitle|<span class="chip chip-text">Text</span>|
-
 
 ### Add Item From List
 
 Add a item to the list
 
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Add%20Item%20From%20List%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22list%22%5D%7D"></div>
-
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Add%20Item%20From%20List%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22list%22%5D%7D"></div>
 
 | Params | []() |
 |--------|------|
 |list|<span class="chip chip-list">List</span>|
 
-
 ### Clear List
 
 Remove all the items from the list
 
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Clear%20List%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
-
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Clear%20List%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
 
 ### Remove Item
 
 Remove a item from the list
 
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Remove%20Item%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22position%22%5D%7D"></div>
-
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Remove%20Item%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22position%22%5D%7D"></div>
 
 | Params | []() |
 |--------|------|
 |position|<span class="chip chip-number">Number</span>|
 
-
 ### Update Item
 
 Update a item of the list
 
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Update%20Item%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22position%22,%20%22image%22,%20%22title%22,%20%22subtitle%22%5D%7D"></div>
-
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Update%20Item%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22position%22,%20%22image%22,%20%22title%22,%20%22subtitle%22%5D%7D"></div>
 
 | Params | []() |
 |--------|------|
@@ -101,7 +91,6 @@ Update a item of the list
 |image|<span class="chip chip-text">Text</span>|
 |title|<span class="chip chip-text">Text</span>|
 |subtitle|<span class="chip chip-text">Text</span>|
-
 
 ## Properties
 
@@ -114,7 +103,6 @@ Set the background color of the listview
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Background%20Color%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Background%20Color%22,%20%22getter%22:%20false%7D"></div>
 
-
 ### Divider Color
 
 <span class="chip chip-color">Color</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-color" style="background-color: #CCCCCC;">Default: <i>#CCCCCCFF</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -126,7 +114,6 @@ Set the divider color of the listview
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Divider%20Color%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Divider%20Color%22,%20%22getter%22:%20false%7D"></div>
 
-
 ### Image Side
 
 <span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-number">Default: <i>1</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -136,7 +123,6 @@ Set it to 1 for Left side and 2 for Right side
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Image%20Side%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Image%20Side%22,%20%22getter%22:%20false%7D"></div>
-
 
 ### Item Size
 
@@ -148,7 +134,6 @@ Set it to 1 for Normal size, 2 for Small size and 3 for Big size.
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Item%20Size%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Item%20Size%22,%20%22getter%22:%20false%7D"></div>
 
-
 ### Subtitle Bold
 
 <span class="chip chip-boolean">Boolean</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-boolean">Default: <i>False</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -157,7 +142,6 @@ Whether the subtitle should be in bold text
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Subtitle%20Bold%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Subtitle%20Bold%22,%20%22getter%22:%20false%7D"></div>
-
 
 ### Subtitle Color
 
@@ -168,13 +152,11 @@ Changed the color of the subtitle text
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Subtitle%20Color%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Subtitle%20Color%22,%20%22getter%22:%20false%7D"></div>
 
-
 ### Subtitle Font Typeface
 
 <span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-number">Default: <i>0</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span>
 
 Change the Typeface of the Subtitle
-
 
 ### Subtitle Font Typeface Import
 
@@ -185,7 +167,6 @@ Change the Typeface of the Subtitle
 Set a custom title font.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Subtitle%20Font%20Typeface%20Import%22,%20%22getter%22:%20false%7D"></div>
-
 
 ### Subtitle HTML
 
@@ -198,7 +179,6 @@ If true, then the subtitle will show html text else it will show plain text. Not
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Subtitle%20HTML%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Subtitle%20HTML%22,%20%22getter%22:%20false%7D"></div>
 
-
 ### Subtitle Italic
 
 <span class="chip chip-boolean">Boolean</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-boolean">Default: <i>False</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -207,7 +187,6 @@ Whether the subtitle should be in italic text
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Subtitle%20Italic%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Subtitle%20Italic%22,%20%22getter%22:%20false%7D"></div>
-
 
 ### Subtitle Text Size
 
@@ -218,7 +197,6 @@ The text size of the subtitle.
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Subtitle%20Text%20Size%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Subtitle%20Text%20Size%22,%20%22getter%22:%20false%7D"></div>
 
-
 ### Title Bold
 
 <span class="chip chip-boolean">Boolean</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-boolean">Default: <i>False</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -227,7 +205,6 @@ Whether the title should be in bold text
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Title%20Bold%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Title%20Bold%22,%20%22getter%22:%20false%7D"></div>
-
 
 ### Title Color
 
@@ -238,13 +215,11 @@ Changed the color of the title text
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Title%20Color%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Title%20Color%22,%20%22getter%22:%20false%7D"></div>
 
-
 ### Title Font Typeface
 
 <span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-number">Default: <i>0</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span>
 
 Change the Typeface of the Title
-
 
 ### Title Font Typeface Import
 
@@ -255,7 +230,6 @@ Change the Typeface of the Title
 Set a custom title font.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Title%20Font%20Typeface%20Import%22,%20%22getter%22:%20false%7D"></div>
-
 
 ### Title HTML
 
@@ -268,7 +242,6 @@ If true, then the title will show html text else it will show plain text. Note: 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Title%20HTML%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Title%20HTML%22,%20%22getter%22:%20false%7D"></div>
 
-
 ### Title Italic
 
 <span class="chip chip-boolean">Boolean</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-boolean">Default: <i>False</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -277,7 +250,6 @@ Whether the title should be in italic text
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Title%20Italic%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Title%20Italic%22,%20%22getter%22:%20false%7D"></div>
-
 
 ### Title Text Size
 
@@ -288,7 +260,6 @@ The text size of the title.
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Title%20Text%20Size%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Title%20Text%20Size%22,%20%22getter%22:%20false%7D"></div>
 
-
 ### Visible
 
 <span class="chip chip-boolean">Boolean</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-boolean">Default: <i>True</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -297,14 +268,6 @@ Returns true iff the component is visible.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20false%7D"></div>
-
-
-### Column
-
-<span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Non-Visible</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span>
-
-Column property getter method.
-
 
 ### Height
 
@@ -315,7 +278,6 @@ Determines the height of the list on the view.
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Height%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Height%22,%20%22getter%22:%20false%7D"></div>
 
-
 ### Height Percent
 
 <span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -323,14 +285,6 @@ Determines the height of the list on the view.
 Specifies the component's vertical height as a percentageof the height of its parent Component.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Height%20Percent%22,%20%22getter%22:%20false%7D"></div>
-
-
-### Row
-
-<span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Non-Visible</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span>
-
-Row property getter method.
-
 
 ### Width
 
@@ -340,7 +294,6 @@ Determines the width of the list on the view.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Width%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Width%22,%20%22getter%22:%20false%7D"></div>
-
 
 ### Width Percent
 

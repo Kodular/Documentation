@@ -18,7 +18,7 @@ In order to function, the component must have its `` Enabled `` property set to 
 
 Indicates that the gyroscope sensor data has changed. The timestamp parameter is the time in nanoseconds at which the event occurred.
 
-<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Gyroscope%20Sensor%22,%20%22name%22:%20%22Gyroscope%20Changed%22,%20%22params%22:%20%5B%22x%20Angular%20Velocity%22,%20%22y%20Angular%20Velocity%22,%20%22z%20Angular%20Velocity%22,%20%22timestamp%22%5D%7D"></div>
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Gyroscope%20Sensor%22,%20%22name%22:%20%22Gyroscope%20Changed%22,%20%22param%22:%20%5B%22x%20Angular%20Velocity%22,%20%22y%20Angular%20Velocity%22,%20%22z%20Angular%20Velocity%22,%20%22timestamp%22%5D%7D"></div>
 
 | Params | []() |
 |--------|------|
@@ -26,7 +26,6 @@ Indicates that the gyroscope sensor data has changed. The timestamp parameter is
 |y Angular Velocity|<span class="chip chip-number">Number</span>|
 |z Angular Velocity|<span class="chip chip-number">Number</span>|
 |timestamp|<span class="chip chip-number">Number</span>|
-
 
 ## Properties
 
@@ -39,7 +38,6 @@ Enabled property getter method.
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Gyroscope%20Sensor%22,%20%22name%22:%20%22Enabled%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Gyroscope%20Sensor%22,%20%22name%22:%20%22Enabled%22,%20%22getter%22:%20false%7D"></div>
 
-
 ### Available
 
 <span class="chip chip-boolean">Boolean</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -47,7 +45,6 @@ Enabled property getter method.
 Indicates whether a gyroscope sensor is available.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Gyroscope%20Sensor%22,%20%22name%22:%20%22Available%22,%20%22getter%22:%20true%7D"></div>
-
 
 ### X Angular Velocity
 
@@ -57,7 +54,6 @@ The angular velocity around the X axis, in degrees per second.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Gyroscope%20Sensor%22,%20%22name%22:%20%22X%20Angular%20Velocity%22,%20%22getter%22:%20true%7D"></div>
 
-
 ### Y Angular Velocity
 
 <span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -65,7 +61,6 @@ The angular velocity around the X axis, in degrees per second.
 The angular velocity around the Y axis, in degrees per second.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Gyroscope%20Sensor%22,%20%22name%22:%20%22Y%20Angular%20Velocity%22,%20%22getter%22:%20true%7D"></div>
-
 
 ### Z Angular Velocity
 

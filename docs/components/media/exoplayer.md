@@ -21,14 +21,13 @@ The ExoPlayer component, powered by Google, has significantly lower audio playba
 
 This event is invoked if the player state is completed.
 
-<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22ExoPlayer%22,%20%22name%22:%20%22Completed%22,%20%22params%22:%20%5B%5D%7D"></div>
-
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22ExoPlayer%22,%20%22name%22:%20%22Completed%22,%20%22param%22:%20%5B%5D%7D"></div>
 
 ### Got Meta Data
 
 This event returns meta data from the audio stream. Works for files but not for streams as example radio streams.
 
-<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22ExoPlayer%22,%20%22name%22:%20%22Got%20Meta%20Data%22,%20%22params%22:%20%5B%22artist%22,%20%22title%22,%20%22album%22,%20%22albumArtist%22,%20%22track%22%5D%7D"></div>
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22ExoPlayer%22,%20%22name%22:%20%22Got%20Meta%20Data%22,%20%22param%22:%20%5B%22artist%22,%20%22title%22,%20%22album%22,%20%22albumArtist%22,%20%22track%22%5D%7D"></div>
 
 | Params | []() |
 |--------|------|
@@ -38,37 +37,33 @@ This event returns meta data from the audio stream. Works for files but not for 
 |albumArtist|<span class="chip chip-text">Text</span>|
 |track|<span class="chip chip-text">Text</span>|
 
-
 ### On Player Error
 
 This event returns the error reason for any problems.
 
-<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22ExoPlayer%22,%20%22name%22:%20%22On%20Player%20Error%22,%20%22params%22:%20%5B%22error%20Message%22%5D%7D"></div>
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22ExoPlayer%22,%20%22name%22:%20%22On%20Player%20Error%22,%20%22param%22:%20%5B%22error%20Message%22%5D%7D"></div>
 
 | Params | []() |
 |--------|------|
 |error Message|<span class="chip chip-text">Text</span>|
 
-
 ### Other Player Started
 
 This event is signaled when another player has started (and the current player is playing or paused, but not stopped).
 
-<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22ExoPlayer%22,%20%22name%22:%20%22Other%20Player%20Started%22,%20%22params%22:%20%5B%5D%7D"></div>
-
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22ExoPlayer%22,%20%22name%22:%20%22Other%20Player%20Started%22,%20%22param%22:%20%5B%5D%7D"></div>
 
 ### Other Player Stopped
 
 This event is signaled when another player has stopped (and the current player is playing or paused, but not stopped).
 
-<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22ExoPlayer%22,%20%22name%22:%20%22Other%20Player%20Stopped%22,%20%22params%22:%20%5B%5D%7D"></div>
-
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22ExoPlayer%22,%20%22name%22:%20%22Other%20Player%20Stopped%22,%20%22param%22:%20%5B%5D%7D"></div>
 
 ### Status Changed
 
 This event returns true or false for the respective simpleExoPlayer statuses.
 
-<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22ExoPlayer%22,%20%22name%22:%20%22Status%20Changed%22,%20%22params%22:%20%5B%22is%20Playing%22,%20%22is%20Pause%22,%20%22is%20Stopped%22,%20%22is%20Loading%22%5D%7D"></div>
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22ExoPlayer%22,%20%22name%22:%20%22Status%20Changed%22,%20%22param%22:%20%5B%22is%20Playing%22,%20%22is%20Pause%22,%20%22is%20Stopped%22,%20%22is%20Loading%22%5D%7D"></div>
 
 | Params | []() |
 |--------|------|
@@ -77,84 +72,73 @@ This event returns true or false for the respective simpleExoPlayer statuses.
 |is Stopped|<span class="chip chip-boolean">Boolean</span>|
 |is Loading|<span class="chip chip-boolean">Boolean</span>|
 
-
 ## Methods
 
 ### Pause
 
 Pause the player.
 
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22ExoPlayer%22,%20%22name%22:%20%22Pause%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
-
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22ExoPlayer%22,%20%22name%22:%20%22Pause%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
 
 ### Resume
 
 Resume the player.
 
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22ExoPlayer%22,%20%22name%22:%20%22Resume%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
-
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22ExoPlayer%22,%20%22name%22:%20%22Resume%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
 
 ### Seek To
 
 Set a position where the source file should start playing in milliseconds.
 
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22ExoPlayer%22,%20%22name%22:%20%22Seek%20To%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22position%22%5D%7D"></div>
-
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22ExoPlayer%22,%20%22name%22:%20%22Seek%20To%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22position%22%5D%7D"></div>
 
 | Params | []() |
 |--------|------|
 |position|<span class="chip chip-number">Number</span>|
 
-
 ### Start
 
 Start the player.
 
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22ExoPlayer%22,%20%22name%22:%20%22Start%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
-
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22ExoPlayer%22,%20%22name%22:%20%22Start%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
 
 ### Stop
 
 Stop the player.
 
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22ExoPlayer%22,%20%22name%22:%20%22Stop%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
-
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22ExoPlayer%22,%20%22name%22:%20%22Stop%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
 
 ### is Loading
 
-<span class="chip chip-boolean">Returns: <i>Boolean</i></span> 
+<span class="chip chip-boolean">Returns: <i>Boolean</i></span>
 
 Returns true if the player is current loading.
 
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22ExoPlayer%22,%20%22name%22:%20%22is%20Loading%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
-
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22ExoPlayer%22,%20%22name%22:%20%22is%20Loading%22,%20%22output%22:%20true,%20%22param%22:%20%5B%5D%7D"></div>
 
 ### is Pause
 
-<span class="chip chip-boolean">Returns: <i>Boolean</i></span> 
+<span class="chip chip-boolean">Returns: <i>Boolean</i></span>
 
 Returns true if the player is current in pause mode.
 
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22ExoPlayer%22,%20%22name%22:%20%22is%20Pause%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
-
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22ExoPlayer%22,%20%22name%22:%20%22is%20Pause%22,%20%22output%22:%20true,%20%22param%22:%20%5B%5D%7D"></div>
 
 ### is Playing
 
-<span class="chip chip-boolean">Returns: <i>Boolean</i></span> 
+<span class="chip chip-boolean">Returns: <i>Boolean</i></span>
 
 Returns true if the player is current playing.
 
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22ExoPlayer%22,%20%22name%22:%20%22is%20Playing%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
-
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22ExoPlayer%22,%20%22name%22:%20%22is%20Playing%22,%20%22output%22:%20true,%20%22param%22:%20%5B%5D%7D"></div>
 
 ### is Stopped
 
-<span class="chip chip-boolean">Returns: <i>Boolean</i></span> 
+<span class="chip chip-boolean">Returns: <i>Boolean</i></span>
 
 Returns true if the player is current stopped.
 
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22ExoPlayer%22,%20%22name%22:%20%22is%20Stopped%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
-
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22ExoPlayer%22,%20%22name%22:%20%22is%20Stopped%22,%20%22output%22:%20true,%20%22param%22:%20%5B%5D%7D"></div>
 
 ## Properties
 
@@ -167,7 +151,6 @@ If true, the player will loop when it plays.
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22ExoPlayer%22,%20%22name%22:%20%22Loop%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22ExoPlayer%22,%20%22name%22:%20%22Loop%22,%20%22getter%22:%20false%7D"></div>
 
-
 ### Source
 
 <span class="chip chip-text">Text</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -176,7 +159,6 @@ Set the path to the audio source. Can be a asset file, from external card, or fr
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22ExoPlayer%22,%20%22name%22:%20%22Source%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22ExoPlayer%22,%20%22name%22:%20%22Source%22,%20%22getter%22:%20false%7D"></div>
-
 
 ### Volume
 
@@ -187,7 +169,6 @@ Sets the volume to a number between 0 and 100
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22ExoPlayer%22,%20%22name%22:%20%22Volume%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22ExoPlayer%22,%20%22name%22:%20%22Volume%22,%20%22getter%22:%20false%7D"></div>
 
-
 ### Current Position
 
 <span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -195,7 +176,6 @@ Sets the volume to a number between 0 and 100
 Returns the current position of the source file that is playing in milliseconds.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22ExoPlayer%22,%20%22name%22:%20%22Current%20Position%22,%20%22getter%22:%20true%7D"></div>
-
 
 ### Duration
 

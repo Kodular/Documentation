@@ -16,12 +16,11 @@ A sensor component that can measure the relative ambient air humidity. Most Andr
 
 Called when a change is detected in the ambient air humidity (expressed as a percentage).
 
-<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Hygrometer%22,%20%22name%22:%20%22Humidity%20Changed%22,%20%22params%22:%20%5B%22humidity%22%5D%7D"></div>
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Hygrometer%22,%20%22name%22:%20%22Humidity%20Changed%22,%20%22param%22:%20%5B%22humidity%22%5D%7D"></div>
 
 | Params | []() |
 |--------|------|
 |humidity|<span class="chip chip-number">Number</span>|
-
 
 ## Properties
 
@@ -34,7 +33,6 @@ If enabled, then device will listen for changes.
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Hygrometer%22,%20%22name%22:%20%22Enabled%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Hygrometer%22,%20%22name%22:%20%22Enabled%22,%20%22getter%22:%20false%7D"></div>
 
-
 ### Refresh Time
 
 <span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-number">Default: <i>1000</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -44,7 +42,6 @@ The requested minimum time in milliseconds between changes in air pressure being
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Hygrometer%22,%20%22name%22:%20%22Refresh%20Time%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Hygrometer%22,%20%22name%22:%20%22Refresh%20Time%22,%20%22getter%22:%20false%7D"></div>
 
-
 ### Available
 
 <span class="chip chip-boolean">Boolean</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -52,7 +49,6 @@ The requested minimum time in milliseconds between changes in air pressure being
 Specifies whether or not the device has an ambient air pressure sensor.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Hygrometer%22,%20%22name%22:%20%22Available%22,%20%22getter%22:%20true%7D"></div>
-
 
 ### Humidity
 

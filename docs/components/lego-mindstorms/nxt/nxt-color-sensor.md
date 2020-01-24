@@ -16,53 +16,47 @@ A component that provides a high-level interface to a color sensor on a LEGO MIN
 
 Light level has gone above the range. The AboveRange event will not occur if the DetectColor property is set to True or if the AboveRangeEventEnabled property is set to False.
 
-<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Color%20Sensor%22,%20%22name%22:%20%22Above%20Range%22,%20%22params%22:%20%5B%5D%7D"></div>
-
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Color%20Sensor%22,%20%22name%22:%20%22Above%20Range%22,%20%22param%22:%20%5B%5D%7D"></div>
 
 ### Below Range
 
 Light level has gone below the range. The BelowRange event will not occur if the DetectColor property is set to True or if the BelowRangeEventEnabled property is set to False.
 
-<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Color%20Sensor%22,%20%22name%22:%20%22Below%20Range%22,%20%22params%22:%20%5B%5D%7D"></div>
-
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Color%20Sensor%22,%20%22name%22:%20%22Below%20Range%22,%20%22param%22:%20%5B%5D%7D"></div>
 
 ### Color Changed
 
 Detected color has changed. The ColorChanged event will not occur if the DetectColor property is set to False or if the ColorChangedEventEnabled property is set to False.
 
-<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Color%20Sensor%22,%20%22name%22:%20%22Color%20Changed%22,%20%22params%22:%20%5B%22color%22%5D%7D"></div>
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Color%20Sensor%22,%20%22name%22:%20%22Color%20Changed%22,%20%22param%22:%20%5B%22color%22%5D%7D"></div>
 
 | Params | []() |
 |--------|------|
 |color|<span class="chip chip-number">Number</span>|
 
-
 ### Within Range
 
 Light level has gone within the range. The WithinRange event will not occur if the DetectColor property is set to True or if the WithinRangeEventEnabled property is set to False.
 
-<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Color%20Sensor%22,%20%22name%22:%20%22Within%20Range%22,%20%22params%22:%20%5B%5D%7D"></div>
-
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Color%20Sensor%22,%20%22name%22:%20%22Within%20Range%22,%20%22param%22:%20%5B%5D%7D"></div>
 
 ## Methods
 
 ### Get Color
 
-<span class="chip chip-number">Returns: <i>Number</i></span> 
+<span class="chip chip-number">Returns: <i>Number</i></span>
 
 Returns the current detected color, or the color None if the color can not be read or if the DetectColor property is set to False.
 
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Color%20Sensor%22,%20%22name%22:%20%22Get%20Color%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
-
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Color%20Sensor%22,%20%22name%22:%20%22Get%20Color%22,%20%22output%22:%20true,%20%22param%22:%20%5B%5D%7D"></div>
 
 ### Get Light Level
 
-<span class="chip chip-number">Returns: <i>Number</i></span> 
+<span class="chip chip-number">Returns: <i>Number</i></span>
 
 Returns the current light level as a value between 0 and 1023, or -1 if the light level can not be read or if the DetectColor property is set to True.
 
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Color%20Sensor%22,%20%22name%22:%20%22Get%20Light%20Level%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
-
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Color%20Sensor%22,%20%22name%22:%20%22Get%20Light%20Level%22,%20%22output%22:%20true,%20%22param%22:%20%5B%5D%7D"></div>
 
 ## Properties
 
@@ -75,7 +69,6 @@ Whether the AboveRange event should fire when the DetectColor property is set to
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Color%20Sensor%22,%20%22name%22:%20%22Above%20Range%20Event%20Enabled%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Color%20Sensor%22,%20%22name%22:%20%22Above%20Range%20Event%20Enabled%22,%20%22getter%22:%20false%7D"></div>
 
-
 ### Below Range Event Enabled
 
 <span class="chip chip-boolean">Boolean</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-boolean">Default: <i>False</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -85,13 +78,11 @@ Whether the BelowRange event should fire when the DetectColor property is set to
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Color%20Sensor%22,%20%22name%22:%20%22Below%20Range%20Event%20Enabled%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Color%20Sensor%22,%20%22name%22:%20%22Below%20Range%20Event%20Enabled%22,%20%22getter%22:%20false%7D"></div>
 
-
 ### Bluetooth Client
 
 <span class="chip chip-component">Component</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span>
 
 The BluetoothClient component that should be used for communication.
-
 
 ### Bottom Of Range
 
@@ -102,7 +93,6 @@ The bottom of the range used for the BelowRange, WithinRange, and AboveRange eve
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Color%20Sensor%22,%20%22name%22:%20%22Bottom%20Of%20Range%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Color%20Sensor%22,%20%22name%22:%20%22Bottom%20Of%20Range%22,%20%22getter%22:%20false%7D"></div>
 
-
 ### Color Changed Event Enabled
 
 <span class="chip chip-boolean">Boolean</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-boolean">Default: <i>False</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -111,7 +101,6 @@ Whether the ColorChanged event should fire when the DetectColor property is set 
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Color%20Sensor%22,%20%22name%22:%20%22Color%20Changed%20Event%20Enabled%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Color%20Sensor%22,%20%22name%22:%20%22Color%20Changed%20Event%20Enabled%22,%20%22getter%22:%20false%7D"></div>
-
 
 ### Detect Color
 
@@ -122,7 +111,6 @@ Whether the sensor should detect color or light. True indicates that the sensor 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Color%20Sensor%22,%20%22name%22:%20%22Detect%20Color%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Color%20Sensor%22,%20%22name%22:%20%22Detect%20Color%22,%20%22getter%22:%20false%7D"></div>
 
-
 ### Generate Color
 
 <span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-number" style="background-color: #FFFFFF;">Default: <i>#FFFFFF00</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -132,13 +120,11 @@ The color that should generated by the sensor. Only None, Red, Green, or Blue ar
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Color%20Sensor%22,%20%22name%22:%20%22Generate%20Color%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Color%20Sensor%22,%20%22name%22:%20%22Generate%20Color%22,%20%22getter%22:%20false%7D"></div>
 
-
 ### Sensor Port
 
 <span class="chip chip-text">Text</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-text">Default: <i>3</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span>
 
 The sensor port that the sensor is connected to.
-
 
 ### Top Of Range
 
@@ -148,7 +134,6 @@ The top of the range used for the BelowRange, WithinRange, and AboveRange events
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Color%20Sensor%22,%20%22name%22:%20%22Top%20Of%20Range%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Color%20Sensor%22,%20%22name%22:%20%22Top%20Of%20Range%22,%20%22getter%22:%20false%7D"></div>
-
 
 ### Within Range Event Enabled
 
