@@ -4,7 +4,7 @@
 |:--------:|:-------:|:--------:|
 |**Connectivity**|<span class="chip chip-any">API 19, Android 4.4 - 4.4.4 KitKat</span>|<span class="chip chip-number">5</span>|
 
-:mag: {>>Non-visible component<<}
+:mag: {>>Non-Visible component<<}
 
 ## Overview
 
@@ -13,7 +13,6 @@ A non-visible component that acts as a bluetooth server.
 ??? example "Permissions"
     * [android.permission.BLUETOOTH_ADMIN](https://developer.android.com/reference/android/Manifest.permission.html#BLUETOOTH_ADMIN)
     * [android.permission.BLUETOOTH](https://developer.android.com/reference/android/Manifest.permission.html#BLUETOOTH)
-
 
 ## Events
 

@@ -11,7 +11,6 @@ A visible component that groups other components in a two-dimensional, scrollabl
 ??? example "Permissions"
     * [android.permission.INTERNET](https://developer.android.com/reference/android/Manifest.permission.html#INTERNET)
 
-
 ## Events
 
 ### After Picking

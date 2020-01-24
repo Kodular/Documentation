@@ -19,7 +19,6 @@ The Map component provides three utilities for manipulating its boundaries withi
     * [android.permission.READ_EXTERNAL_STORAGE](https://developer.android.com/reference/android/Manifest.permission.html#READ_EXTERNAL_STORAGE)
     * [android.permission.WRITE_EXTERNAL_STORAGE](https://developer.android.com/reference/android/Manifest.permission.html#WRITE_EXTERNAL_STORAGE)
 
-
 ## Events
 
 ### Bounds Change

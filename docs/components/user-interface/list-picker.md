@@ -13,7 +13,6 @@ Setting property ShowFilterBar to true, will make the list searchable. Other pro
 ??? example "Permissions"
     * [android.permission.INTERNET](https://developer.android.com/reference/android/Manifest.permission.html#INTERNET)
 
-
 ## Events
 
 ### After Picking

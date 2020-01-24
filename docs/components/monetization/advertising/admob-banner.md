@@ -14,7 +14,6 @@ A visible component that shows AdMob ads as static banners.
     * [android.permission.INTERNET](https://developer.android.com/reference/android/Manifest.permission.html#INTERNET)
     * [android.permission.ACCESS_NETWORK_STATE](https://developer.android.com/reference/android/Manifest.permission.html#ACCESS_NETWORK_STATE)
 
-
 ## Events
 
 ### Ad Closed

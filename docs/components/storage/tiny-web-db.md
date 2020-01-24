@@ -4,7 +4,7 @@
 |:--------:|:-------:|:--------:|
 |**Storage**|<span class="chip chip-any">API 19, Android 4.4 - 4.4.4 KitKat</span>|<span class="chip chip-number">2</span>|
 
-:mag: {>>Non-visible component<<}
+:mag: {>>Non-Visible component<<}
 
 ## Overview
 
@@ -12,7 +12,6 @@ A non-visible component that communicates with a web service to store and retrie
 
 ??? example "Permissions"
     * [android.permission.INTERNET](https://developer.android.com/reference/android/Manifest.permission.html#INTERNET)
-
 
 ## Events
 

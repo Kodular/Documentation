@@ -4,7 +4,7 @@
 |:--------:|:-------:|:--------:|
 |**Experimental**|<span class="chip chip-any">API 19, Android 4.4 - 4.4.4 KitKat</span>|<span class="chip chip-number">1</span>|
 
-:mag: {>>Non-visible component<<}
+:mag: {>>Non-Visible component<<}
 
 ## Overview
 
@@ -31,7 +31,6 @@ A non-visible component that adds a dot/badge to the app''s launcher icon when a
     * [com.android.launcher.permission.INSTALL_SHORTCUT](https://developer.android.com/reference/android/Manifest.permission.html#com.android.launcher.permission.INSTALL_SHORTCUT)
     * [com.oppo.launcher.permission.READ_SETTINGS](https://developer.android.com/reference/android/Manifest.permission.html#com.oppo.launcher.permission.READ_SETTINGS)
     * [com.android.launcher.permission.WRITE_SETTINGS](https://developer.android.com/reference/android/Manifest.permission.html#com.android.launcher.permission.WRITE_SETTINGS)
-
 
 ## Methods
 

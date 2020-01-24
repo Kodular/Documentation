@@ -15,7 +15,6 @@ AdAmazon component allows you to monetize your app. You must have a valid publis
     * [android.permission.ACCESS_NETWORK_STATE](https://developer.android.com/reference/android/Manifest.permission.html#ACCESS_NETWORK_STATE)
     * [android.permission.ACCESS_WIFI_STATE](https://developer.android.com/reference/android/Manifest.permission.html#ACCESS_WIFI_STATE)
 
-
 ## Events
 
 ### Ad Dismissed

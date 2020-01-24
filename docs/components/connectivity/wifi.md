@@ -4,7 +4,7 @@
 |:--------:|:-------:|:--------:|
 |**Connectivity**|<span class="chip chip-any">API 19, Android 4.4 - 4.4.4 KitKat</span>|<span class="chip chip-number">2</span>|
 
-:mag: {>>Non-visible component<<}
+:mag: {>>Non-Visible component<<}
 
 ## Overview
 
@@ -14,7 +14,6 @@ A non-visible component that manages the WiFi settings of the device.
     * [android.permission.CHANGE_WIFI_STATE](https://developer.android.com/reference/android/Manifest.permission.html#CHANGE_WIFI_STATE)
     * [android.permission.INTERNET](https://developer.android.com/reference/android/Manifest.permission.html#INTERNET)
     * [android.permission.ACCESS_WIFI_STATE](https://developer.android.com/reference/android/Manifest.permission.html#ACCESS_WIFI_STATE)
-
 
 ## Methods
 

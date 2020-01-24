@@ -12,7 +12,6 @@ A chat consists of messages sent by two or more than two users where each messag
 ??? example "Permissions"
     * [android.permission.INTERNET](https://developer.android.com/reference/android/Manifest.permission.html#INTERNET)
 
-
 ## Events
 
 ### Click

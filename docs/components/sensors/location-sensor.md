@@ -4,7 +4,7 @@
 |:--------:|:-------:|:--------:|
 |**Sensors**|<span class="chip chip-any">API 19, Android 4.4 - 4.4.4 KitKat</span>|<span class="chip chip-number">3</span>|
 
-:mag: {>>Non-visible component<<}
+:mag: {>>Non-Visible component<<}
 
 ## Overview
 
@@ -19,7 +19,6 @@ Location information might not be immediately available when an app starts. You'
     * [android.permission.ACCESS_COARSE_LOCATION](https://developer.android.com/reference/android/Manifest.permission.html#ACCESS_COARSE_LOCATION)
     * [android.permission.ACCESS_MOCK_LOCATION](https://developer.android.com/reference/android/Manifest.permission.html#ACCESS_MOCK_LOCATION)
     * [android.permission.ACCESS_LOCATION_EXTRA_COMMANDS](https://developer.android.com/reference/android/Manifest.permission.html#ACCESS_LOCATION_EXTRA_COMMANDS)
-
 
 ## Events
 

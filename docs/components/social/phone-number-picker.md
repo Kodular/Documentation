@@ -21,7 +21,6 @@ The PhoneNumberPicker component may not work on all Android devices. For example
     * [android.permission.READ_CONTACTS](https://developer.android.com/reference/android/Manifest.permission.html#READ_CONTACTS)
     * [android.permission.INTERNET](https://developer.android.com/reference/android/Manifest.permission.html#INTERNET)
 
-
 ## Events
 
 ### After Picking

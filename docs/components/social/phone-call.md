@@ -4,7 +4,7 @@
 |:--------:|:-------:|:--------:|
 |**Social**|<span class="chip chip-any">API 19, Android 4.4 - 4.4.4 KitKat</span>|<span class="chip chip-number">2</span>|
 
-:mag: {>>Non-visible component<<}
+:mag: {>>Non-Visible component<<}
 
 ## Overview
 
@@ -17,7 +17,6 @@ To directly specify the phone number (e.g., 650-555-1212), set the `` PhoneNumbe
 ??? example "Permissions"
     * [android.permission.CALL_PHONE](https://developer.android.com/reference/android/Manifest.permission.html#CALL_PHONE)
     * [android.permission.READ_PHONE_STATE](https://developer.android.com/reference/android/Manifest.permission.html#READ_PHONE_STATE)
-
 
 ## Events
 

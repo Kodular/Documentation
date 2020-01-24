@@ -12,7 +12,6 @@ Component for displaying images. The picture to display, and other aspects of th
     * [android.permission.INTERNET](https://developer.android.com/reference/android/Manifest.permission.html#INTERNET)
     * [android.permission.READ_EXTERNAL_STORAGE](https://developer.android.com/reference/android/Manifest.permission.html#READ_EXTERNAL_STORAGE)
 
-
 ## Events
 
 ### Click

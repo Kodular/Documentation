@@ -17,7 +17,6 @@ To have an `` ImageSprite `` move 10 pixels to the left every 1000 milliseconds 
 ??? example "Permissions"
     * [android.permission.INTERNET](https://developer.android.com/reference/android/Manifest.permission.html#INTERNET)
 
-
 ## Events
 
 ### Collided With

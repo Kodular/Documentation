@@ -27,7 +27,6 @@ There are events to tell when and where a Canvas has been touched or a `` Sprite
     * [android.permission.INTERNET](https://developer.android.com/reference/android/Manifest.permission.html#INTERNET)
     * [android.permission.WRITE_EXTERNAL_STORAGE](https://developer.android.com/reference/android/Manifest.permission.html#WRITE_EXTERNAL_STORAGE)
 
-
 ## Events
 
 ### Dragged

@@ -11,7 +11,6 @@ A button that, when clicked on, launches a popup dialog to allow the user to sel
 ??? example "Permissions"
     * [android.permission.INTERNET](https://developer.android.com/reference/android/Manifest.permission.html#INTERNET)
 
-
 ## Events
 
 ### After Time Set

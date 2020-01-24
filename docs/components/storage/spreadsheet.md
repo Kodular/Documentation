@@ -4,7 +4,7 @@
 |:--------:|:-------:|:--------:|
 |**Storage**|<span class="chip chip-any">API 19, Android 4.4 - 4.4.4 KitKat</span>|<span class="chip chip-number">1</span>|
 
-:mag: {>>Non-visible component<<}
+:mag: {>>Non-Visible component<<}
 
 ## Overview
 
@@ -13,7 +13,6 @@ Component credits\: <a href\="https\://community.kodular.io/u/jerin_jacob" targe
 
 ??? example "Permissions"
     * [android.permission.INTERNET](https://developer.android.com/reference/android/Manifest.permission.html#INTERNET)
-
 
 ## Events
 

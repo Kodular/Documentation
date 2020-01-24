@@ -4,7 +4,7 @@
 |:--------:|:-------:|:--------:|
 |**Monetization > General**|<span class="chip chip-any">API 19, Android 4.4 - 4.4.4 KitKat</span>|<span class="chip chip-number">1</span>|
 
-:mag: {>>Non-visible component<<}
+:mag: {>>Non-Visible component<<}
 
 ## Overview
 
@@ -13,7 +13,6 @@ A non-visible component that lets the user purchase items, powered by Google''s 
 ??? example "Permissions"
     * [android.permission.INTERNET](https://developer.android.com/reference/android/Manifest.permission.html#INTERNET)
     * [com.android.vending.BILLING](https://developer.android.com/reference/android/Manifest.permission.html#com.android.vending.BILLING)
-
 
 ## Events
 

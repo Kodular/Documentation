@@ -4,7 +4,7 @@
 |:--------:|:-------:|:--------:|
 |**Experimental**|<span class="chip chip-any">API 21, Android 5.0 Lollipop</span>|<span class="chip chip-number">1</span>|
 
-:mag: {>>Non-visible component<<}
+:mag: {>>Non-Visible component<<}
 
 ## Overview
 
@@ -13,7 +13,6 @@ Note\: For this component to work correctly, set the MIN API to 21 (Android 5).
 
 ??? example "Permissions"
     * [android.permission.INTERNET](https://developer.android.com/reference/android/Manifest.permission.html#INTERNET)
-
 
 ## Events
 

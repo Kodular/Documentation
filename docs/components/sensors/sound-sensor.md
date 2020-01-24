@@ -4,7 +4,7 @@
 |:--------:|:-------:|:--------:|
 |**Sensors**|<span class="chip chip-any">API 19, Android 4.4 - 4.4.4 KitKat</span>|<span class="chip chip-number">1</span>|
 
-:mag: {>>Non-visible component<<}
+:mag: {>>Non-Visible component<<}
 
 ## Overview
 
@@ -12,7 +12,6 @@ Physical world component that can detect such data as: sound amplitude (measurem
 
 ??? example "Permissions"
     * [android.permission.RECORD_AUDIO](https://developer.android.com/reference/android/Manifest.permission.html#RECORD_AUDIO)
-
 
 ## Events
 

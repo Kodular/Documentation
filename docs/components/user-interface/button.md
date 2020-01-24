@@ -11,7 +11,6 @@ Button with the ability to detect clicks. Many aspects of its appearance can be 
 ??? example "Permissions"
     * [android.permission.INTERNET](https://developer.android.com/reference/android/Manifest.permission.html#INTERNET)
 
-
 ## Events
 
 ### Click

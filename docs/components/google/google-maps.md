@@ -16,7 +16,6 @@ A visible component that shows a map on the screen powered by Google''s Maps ser
     * [android.permission.WRITE_EXTERNAL_STORAGE](https://developer.android.com/reference/android/Manifest.permission.html#WRITE_EXTERNAL_STORAGE)
     * [com.google.android.providers.gsf.permission.READ_GSERVICES](https://developer.android.com/reference/android/Manifest.permission.html#com.google.android.providers.gsf.permission.READ_GSERVICES)
 
-
 ## Events
 
 ### Camera Position Changed

@@ -4,7 +4,7 @@
 |:--------:|:-------:|:--------:|
 |**Social**|<span class="chip chip-any">API 19, Android 4.4 - 4.4.4 KitKat</span>|<span class="chip chip-number">3</span>|
 
-:mag: {>>Non-visible component<<}
+:mag: {>>Non-Visible component<<}
 
 ## Overview
 
@@ -39,7 +39,6 @@ Another way for an app to specify a phone number would be to include a `` PhoneN
     * [android.permission.USE_CREDENTIALS](https://developer.android.com/reference/android/Manifest.permission.html#USE_CREDENTIALS)
     * [android.permission.ACCOUNT_MANAGER](https://developer.android.com/reference/android/Manifest.permission.html#ACCOUNT_MANAGER)
     * [android.permission.MANAGE_ACCOUNTS](https://developer.android.com/reference/android/Manifest.permission.html#MANAGE_ACCOUNTS)
-
 
 ## Events
 

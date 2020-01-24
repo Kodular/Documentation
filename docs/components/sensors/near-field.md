@@ -4,7 +4,7 @@
 |:--------:|:-------:|:--------:|
 |**Sensors**|<span class="chip chip-any">API 19, Android 4.4 - 4.4.4 KitKat</span>|<span class="chip chip-number">1</span>|
 
-:mag: {>>Non-visible component<<}
+:mag: {>>Non-Visible component<<}
 
 ## Overview
 
@@ -16,7 +16,6 @@ __Note:__ This component will only work on Screen1 of any App Inventor app.
 
 ??? example "Permissions"
     * [android.permission.NFC](https://developer.android.com/reference/android/Manifest.permission.html#NFC)
-
 
 ## Events
 

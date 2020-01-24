@@ -4,7 +4,7 @@
 |:--------:|:-------:|:--------:|
 |**Media**|<span class="chip chip-any">API 19, Android 4.4 - 4.4.4 KitKat</span>|<span class="chip chip-number">1</span>|
 
-:mag: {>>Non-visible component<<}
+:mag: {>>Non-Visible component<<}
 
 ## Overview
 
@@ -14,7 +14,6 @@ A component to record a video using the device's camcorder.After the video is re
     * [android.permission.CAMERA](https://developer.android.com/reference/android/Manifest.permission.html#CAMERA)
     * [android.permission.READ_EXTERNAL_STORAGE](https://developer.android.com/reference/android/Manifest.permission.html#READ_EXTERNAL_STORAGE)
     * [android.permission.WRITE_EXTERNAL_STORAGE](https://developer.android.com/reference/android/Manifest.permission.html#WRITE_EXTERNAL_STORAGE)
-
 
 ## Events
 

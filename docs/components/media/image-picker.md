@@ -12,7 +12,6 @@ A special-purpose button. When the user taps an image picker, the device's image
     * [android.permission.INTERNET](https://developer.android.com/reference/android/Manifest.permission.html#INTERNET)
     * [android.permission.READ_EXTERNAL_STORAGE](https://developer.android.com/reference/android/Manifest.permission.html#READ_EXTERNAL_STORAGE)
 
-
 ## Events
 
 ### After Picking

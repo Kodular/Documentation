@@ -17,7 +17,6 @@ You can also set the media source to a URL that points to a streaming video, but
 ??? example "Permissions"
     * [android.permission.INTERNET](https://developer.android.com/reference/android/Manifest.permission.html#INTERNET)
 
-
 ## Events
 
 ### Completed

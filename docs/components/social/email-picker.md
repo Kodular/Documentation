@@ -17,7 +17,6 @@ Text boxes like this are usually used with `` Button `` components, with the use
 ??? example "Permissions"
     * [android.permission.READ_CONTACTS](https://developer.android.com/reference/android/Manifest.permission.html#READ_CONTACTS)
 
-
 ## Events
 
 ### Got Focus

@@ -4,7 +4,7 @@
 |:--------:|:-------:|:--------:|
 |**Utilities**|<span class="chip chip-any">API 19, Android 4.4 - 4.4.4 KitKat</span>|<span class="chip chip-number">1</span>|
 
-:mag: {>>Non-visible component<<}
+:mag: {>>Non-Visible component<<}
 
 ## Overview
 
@@ -12,7 +12,6 @@ A non-visible component that authenticates the user using their preferred securi
 
 ??? example "Permissions"
     * [android.permission.DISABLE_KEYGUARD](https://developer.android.com/reference/android/Manifest.permission.html#DISABLE_KEYGUARD)
-
 
 ## Events
 

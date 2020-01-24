@@ -4,7 +4,7 @@
 |:--------:|:-------:|:--------:|
 |**Utilities**|<span class="chip chip-any">API 19, Android 4.4 - 4.4.4 KitKat</span>|<span class="chip chip-number">2</span>|
 
-:mag: {>>Non-visible component<<}
+:mag: {>>Non-Visible component<<}
 
 ## Overview
 
@@ -15,7 +15,6 @@ A non-visible component that provides access to the system''s wallpaper settings
     * [android.permission.READ_EXTERNAL_STORAGE](https://developer.android.com/reference/android/Manifest.permission.html#READ_EXTERNAL_STORAGE)
     * [android.permission.WRITE_SETTINGS](https://developer.android.com/reference/android/Manifest.permission.html#WRITE_SETTINGS)
     * [android.permission.WRITE_EXTERNAL_STORAGE](https://developer.android.com/reference/android/Manifest.permission.html#WRITE_EXTERNAL_STORAGE)
-
 
 ## Events
 
