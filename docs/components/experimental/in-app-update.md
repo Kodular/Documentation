@@ -2,7 +2,7 @@
 
 | Category | Requires | Version |
 |:--------:|:-------:|:--------:|
-|Experimental|API 21, Android 5.0 Lollipop|1|
+|**Experimental**|<span class="chip chip-any">API 21, Android 5.0 Lollipop</span>|<span class="chip chip-number">1</span>|
 
 :mag: {>>Non-visible component<<}
 

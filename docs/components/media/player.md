@@ -2,7 +2,7 @@
 
 | Category | Requires | Version |
 |:--------:|:-------:|:--------:|
-|Media|API 19, Android 4.4 - 4.4.4 KitKat|8|
+|**Media**|<span class="chip chip-any">API 19, Android 4.4 - 4.4.4 KitKat</span>|<span class="chip chip-number">8</span>|
 
 :mag: {>>Non-visible component<<}
 

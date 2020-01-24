@@ -2,7 +2,7 @@
 
 | Category | Requires | Version |
 |:--------:|:-------:|:--------:|
-|Monetization > Advertising|API 19, Android 4.4 - 4.4.4 KitKat|4|
+|**Monetization > Advertising**|<span class="chip chip-any">API 19, Android 4.4 - 4.4.4 KitKat</span>|<span class="chip chip-number">4</span>|
 
 :mag: {>>Non-visible component<<}
 
