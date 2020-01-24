@@ -30,6 +30,15 @@ displays the dropdown list for selection, same action as when the user clicks on
 
 ## Properties
 
+### Elements
+
+<span class="chip chip-list">List</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
+
+returns a list of text elements to be picked from.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spinner%22,%20%22name%22:%20%22Elements%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spinner%22,%20%22name%22:%20%22Elements%22,%20%22getter%22:%20false%7D"></div>
+
 ### Elements From String
 
 <span class="chip chip-text">Text</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-text">Default: <i>Item1, Item2, Item3</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -46,6 +55,15 @@ Sets the Spinner list to the elements passed in the comma-separated string.
 
 <span class="chip chip-boolean">Boolean</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-boolean">Default: <i>False</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span>
 
+### Font Size
+
+<span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-number">Default: <i>18</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
+
+The text size of the spinner items.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spinner%22,%20%22name%22:%20%22Font%20Size%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spinner%22,%20%22name%22:%20%22Font%20Size%22,%20%22getter%22:%20false%7D"></div>
+
 ### Font Typeface
 
 <span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-number">Default: <i>0</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span>
@@ -59,6 +77,23 @@ Sets the Spinner list to the elements passed in the comma-separated string.
 Set a custom font.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spinner%22,%20%22name%22:%20%22Font%20Typeface%20Import%22,%20%22getter%22:%20false%7D"></div>
+
+### Height
+
+<span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
+
+Specifies the component's vertical height, measured in pixels.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spinner%22,%20%22name%22:%20%22Height%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spinner%22,%20%22name%22:%20%22Height%22,%20%22getter%22:%20false%7D"></div>
+
+### Height Percent
+
+<span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
+
+Specifies the component's vertical height as a percentageof the height of its parent Component.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spinner%22,%20%22name%22:%20%22Height%20Percent%22,%20%22getter%22:%20false%7D"></div>
 
 ### Item Background Color
 
@@ -104,6 +139,15 @@ Returns the current selected item in the spinner.
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spinner%22,%20%22name%22:%20%22Selection%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spinner%22,%20%22name%22:%20%22Selection%22,%20%22getter%22:%20false%7D"></div>
 
+### Selection Index
+
+<span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
+
+The index of the currently selected item, starting at 1. If no item is selected, the value will be 0.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spinner%22,%20%22name%22:%20%22Selection%20Index%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spinner%22,%20%22name%22:%20%22Selection%20Index%22,%20%22getter%22:%20false%7D"></div>
+
 ### Spinner Color
 
 <span class="chip chip-color">Color</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-color" style="background-color: #2196F2;">Default: <i>#2196F2FF</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -126,15 +170,6 @@ The size of the spinner selected text.
 
 <span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-number">Default: <i>0</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span>
 
-### Font Size
-
-<span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-number">Default: <i>18</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
-
-The text size of the spinner items.
-
-<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spinner%22,%20%22name%22:%20%22Font%20Size%22,%20%22getter%22:%20true%7D"></div>
-<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spinner%22,%20%22name%22:%20%22Font%20Size%22,%20%22getter%22:%20false%7D"></div>
-
 ### Use Prompt
 
 <span class="chip chip-boolean">Boolean</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-boolean">Default: <i>False</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -153,41 +188,6 @@ Returns true iff the component is visible.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spinner%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spinner%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20false%7D"></div>
-
-### Elements
-
-<span class="chip chip-list">List</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
-
-returns a list of text elements to be picked from.
-
-<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spinner%22,%20%22name%22:%20%22Elements%22,%20%22getter%22:%20true%7D"></div>
-<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spinner%22,%20%22name%22:%20%22Elements%22,%20%22getter%22:%20false%7D"></div>
-
-### Height
-
-<span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
-
-Specifies the component's vertical height, measured in pixels.
-
-<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spinner%22,%20%22name%22:%20%22Height%22,%20%22getter%22:%20true%7D"></div>
-<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spinner%22,%20%22name%22:%20%22Height%22,%20%22getter%22:%20false%7D"></div>
-
-### Height Percent
-
-<span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
-
-Specifies the component's vertical height as a percentageof the height of its parent Component.
-
-<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spinner%22,%20%22name%22:%20%22Height%20Percent%22,%20%22getter%22:%20false%7D"></div>
-
-### Selection Index
-
-<span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
-
-The index of the currently selected item, starting at 1. If no item is selected, the value will be 0.
-
-<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spinner%22,%20%22name%22:%20%22Selection%20Index%22,%20%22getter%22:%20true%7D"></div>
-<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spinner%22,%20%22name%22:%20%22Selection%20Index%22,%20%22getter%22:%20false%7D"></div>
 
 ### Width
 

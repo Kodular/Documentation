@@ -26,22 +26,6 @@ Returns a list showing battery info for the specified key. Key can be: HEALTH, L
 
 ## Properties
 
-### Enabled
-
-<span class="chip chip-boolean">Boolean</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-boolean">Default: <i>False</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
-
-Starts or stops monitoring battery data. StartMonitoring only when you need to get information.
-
-<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Battery%20Utilities%22,%20%22name%22:%20%22Enabled%22,%20%22getter%22:%20false%7D"></div>
-
-### Show Battery Health
-
-<span class="chip chip-text">Text</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
-
-Returns battery health. It can be: COLD, DEAD, GOOD, OVERHEAT, OVER_VOLTAGE, UNKNOWN
-
-<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Battery%20Utilities%22,%20%22name%22:%20%22Show%20Battery%20Health%22,%20%22getter%22:%20true%7D"></div>
-
 ### Battery Level
 
 <span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -81,3 +65,19 @@ Indicating battery temperature in Centigrade
 Indicating battery voltage in Volts
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Battery%20Utilities%22,%20%22name%22:%20%22Battery%20Voltage%22,%20%22getter%22:%20true%7D"></div>
+
+### Enabled
+
+<span class="chip chip-boolean">Boolean</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-boolean">Default: <i>False</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
+
+Starts or stops monitoring battery data. StartMonitoring only when you need to get information.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Battery%20Utilities%22,%20%22name%22:%20%22Enabled%22,%20%22getter%22:%20false%7D"></div>
+
+### Show Battery Health
+
+<span class="chip chip-text">Text</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
+
+Returns battery health. It can be: COLD, DEAD, GOOD, OVERHEAT, OVER_VOLTAGE, UNKNOWN
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Battery%20Utilities%22,%20%22name%22:%20%22Show%20Battery%20Health%22,%20%22getter%22:%20true%7D"></div>

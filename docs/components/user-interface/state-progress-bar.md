@@ -33,14 +33,14 @@ Event invoked when a state item was clicked.
 
 ## Properties
 
-### Animation Duration
+### All States Completed
 
-<span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-number">Default: <i>250</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
+<span class="chip chip-boolean">Boolean</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
 
-Set the animation duration in milliseconds. Example: use 1000 for 1 second.
+If set to true all states are completed.
 
-<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22State%20Progress%20Bar%22,%20%22name%22:%20%22Animation%20Duration%22,%20%22getter%22:%20true%7D"></div>
-<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22State%20Progress%20Bar%22,%20%22name%22:%20%22Animation%20Duration%22,%20%22getter%22:%20false%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22State%20Progress%20Bar%22,%20%22name%22:%20%22All%20States%20Completed%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22State%20Progress%20Bar%22,%20%22name%22:%20%22All%20States%20Completed%22,%20%22getter%22:%20false%7D"></div>
 
 ### Animate Between States
 
@@ -52,6 +52,15 @@ If set to true the states will use a animation when they changed.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22State%20Progress%20Bar%22,%20%22name%22:%20%22Animate%20Between%20States%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22State%20Progress%20Bar%22,%20%22name%22:%20%22Animate%20Between%20States%22,%20%22getter%22:%20false%7D"></div>
+
+### Animation Duration
+
+<span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-number">Default: <i>250</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
+
+Set the animation duration in milliseconds. Example: use 1000 for 1 second.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22State%20Progress%20Bar%22,%20%22name%22:%20%22Animation%20Duration%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22State%20Progress%20Bar%22,%20%22name%22:%20%22Animation%20Duration%22,%20%22getter%22:%20false%7D"></div>
 
 ### Background Color
 
@@ -114,6 +123,23 @@ Change the foreground color.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22State%20Progress%20Bar%22,%20%22name%22:%20%22Foreground%20Color%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22State%20Progress%20Bar%22,%20%22name%22:%20%22Foreground%20Color%22,%20%22getter%22:%20false%7D"></div>
+
+### Height
+
+<span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
+
+Specifies the component's vertical height, measured in pixels.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22State%20Progress%20Bar%22,%20%22name%22:%20%22Height%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22State%20Progress%20Bar%22,%20%22name%22:%20%22Height%22,%20%22getter%22:%20false%7D"></div>
+
+### Height Percent
+
+<span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
+
+Specifies the component's vertical height as a percentageof the height of its parent Component.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22State%20Progress%20Bar%22,%20%22name%22:%20%22Height%20Percent%22,%20%22getter%22:%20false%7D"></div>
 
 ### Justify Multiline Description
 
@@ -252,32 +278,6 @@ Returns true iff the component is visible.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22State%20Progress%20Bar%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22State%20Progress%20Bar%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20false%7D"></div>
-
-### All States Completed
-
-<span class="chip chip-boolean">Boolean</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
-
-If set to true all states are completed.
-
-<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22State%20Progress%20Bar%22,%20%22name%22:%20%22All%20States%20Completed%22,%20%22getter%22:%20true%7D"></div>
-<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22State%20Progress%20Bar%22,%20%22name%22:%20%22All%20States%20Completed%22,%20%22getter%22:%20false%7D"></div>
-
-### Height
-
-<span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
-
-Specifies the component's vertical height, measured in pixels.
-
-<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22State%20Progress%20Bar%22,%20%22name%22:%20%22Height%22,%20%22getter%22:%20true%7D"></div>
-<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22State%20Progress%20Bar%22,%20%22name%22:%20%22Height%22,%20%22getter%22:%20false%7D"></div>
-
-### Height Percent
-
-<span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
-
-Specifies the component's vertical height as a percentageof the height of its parent Component.
-
-<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22State%20Progress%20Bar%22,%20%22name%22:%20%22Height%20Percent%22,%20%22getter%22:%20false%7D"></div>
 
 ### Width
 

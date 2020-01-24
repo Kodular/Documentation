@@ -216,6 +216,15 @@ Save the contents of the Map to the specified path.
 
 ## Properties
 
+### Bounding Box
+
+<span class="chip chip-list">List</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
+
+Bounding box for the map stored as [[North, West], [South, East]].
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Bounding%20Box%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Bounding%20Box%22,%20%22getter%22:%20false%7D"></div>
+
 ### Center From String
 
 <span class="chip chip-text">Text</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-text">Default: <i>42.359144, -71.093612</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -253,6 +262,40 @@ Set whether the user can zoom the map using touch gestures. This value does not 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Enable%20Zoom%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Enable%20Zoom%22,%20%22getter%22:%20false%7D"></div>
 
+### Features
+
+<span class="chip chip-list">List</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
+
+The list of features placed on this map. This list also includes any features created by calls to FeatureFromDescription
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Features%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Features%22,%20%22getter%22:%20false%7D"></div>
+
+### Height
+
+<span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
+
+Specifies the component's vertical height, measured in pixels.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Height%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Height%22,%20%22getter%22:%20false%7D"></div>
+
+### Height Percent
+
+<span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
+
+Specifies the component's vertical height as a percentageof the height of its parent Component.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Height%20Percent%22,%20%22getter%22:%20false%7D"></div>
+
+### Latitude
+
+<span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
+
+The latitude of the center of the map.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Latitude%22,%20%22getter%22:%20true%7D"></div>
+
 ### Location Sensor
 
 <span class="chip chip-component">Component</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -260,6 +303,14 @@ Set whether the user can zoom the map using touch gestures. This value does not 
 Uses the provided LocationSensor for user location data rather than the built-in location provider.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Location%20Sensor%22,%20%22getter%22:%20false%7D"></div>
+
+### Longitude
+
+<span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
+
+The longitude of the center of the map.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Longitude%22,%20%22getter%22:%20true%7D"></div>
 
 ### Map Type
 
@@ -326,77 +377,6 @@ Show the zoom controls on the map.
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Show%20Zoom%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Show%20Zoom%22,%20%22getter%22:%20false%7D"></div>
 
-### Visible
-
-<span class="chip chip-boolean">Boolean</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-boolean">Default: <i>True</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
-
-Returns true iff the component is visible.
-
-<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20true%7D"></div>
-<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20false%7D"></div>
-
-### Zoom Level
-
-<span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-number">Default: <i>13</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
-
-Set the zoom level of the map.
-
-Valid values of ZoomLevel are dependent on the tile provider and the latitude andlongitude of the map. For example, zoom levels are more constrained over oceans than densecity centers to conserve space for storing tiles, so valid values may be 1-7 over ocean and1-18 over cities. Tile providers may send warning or error tiles if the zoom level is toogreat for the server to support.
-
-<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Zoom%20Level%22,%20%22getter%22:%20true%7D"></div>
-<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Zoom%20Level%22,%20%22getter%22:%20false%7D"></div>
-
-### Bounding Box
-
-<span class="chip chip-list">List</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
-
-Bounding box for the map stored as [[North, West], [South, East]].
-
-<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Bounding%20Box%22,%20%22getter%22:%20true%7D"></div>
-<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Bounding%20Box%22,%20%22getter%22:%20false%7D"></div>
-
-### Features
-
-<span class="chip chip-list">List</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
-
-The list of features placed on this map. This list also includes any features created by calls to FeatureFromDescription
-
-<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Features%22,%20%22getter%22:%20true%7D"></div>
-<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Features%22,%20%22getter%22:%20false%7D"></div>
-
-### Height
-
-<span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
-
-Specifies the component's vertical height, measured in pixels.
-
-<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Height%22,%20%22getter%22:%20true%7D"></div>
-<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Height%22,%20%22getter%22:%20false%7D"></div>
-
-### Height Percent
-
-<span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
-
-Specifies the component's vertical height as a percentageof the height of its parent Component.
-
-<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Height%20Percent%22,%20%22getter%22:%20false%7D"></div>
-
-### Latitude
-
-<span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
-
-The latitude of the center of the map.
-
-<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Latitude%22,%20%22getter%22:%20true%7D"></div>
-
-### Longitude
-
-<span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
-
-The longitude of the center of the map.
-
-<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Longitude%22,%20%22getter%22:%20true%7D"></div>
-
 ### User Latitude
 
 <span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -412,6 +392,15 @@ Returns the user's latitude if ShowUser is enabled.
 Returns the user's longitude if ShowUser is enabled.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22User%20Longitude%22,%20%22getter%22:%20true%7D"></div>
+
+### Visible
+
+<span class="chip chip-boolean">Boolean</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-boolean">Default: <i>True</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
+
+Returns true iff the component is visible.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20false%7D"></div>
 
 ### Width
 
@@ -429,3 +418,14 @@ Specifies the component's horizontal width, measured in pixels.
 Specifies the component's horizontal width as a percentageof the Width of its parent Component.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Width%20Percent%22,%20%22getter%22:%20false%7D"></div>
+
+### Zoom Level
+
+<span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-number">Default: <i>13</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
+
+Set the zoom level of the map.
+
+Valid values of ZoomLevel are dependent on the tile provider and the latitude andlongitude of the map. For example, zoom levels are more constrained over oceans than densecity centers to conserve space for storing tiles, so valid values may be 1-7 over ocean and1-18 over cities. Tile providers may send warning or error tiles if the zoom level is toogreat for the server to support.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Zoom%20Level%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Zoom%20Level%22,%20%22getter%22:%20false%7D"></div>

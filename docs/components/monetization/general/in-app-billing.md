@@ -189,23 +189,6 @@ Do not use this block anymore. This block is deprecated and does nothing and wil
 
 ## Properties
 
-### Suppress Toast
-
-:warning: ==**Deprecated**==
-
-<span class="chip chip-boolean">Boolean</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-boolean">Default: <i>true</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span>
-
-Do not use this block anymore. This block is deprecated and does nothing and will be removed in the future!
-
-### Test Mode
-
-<span class="chip chip-boolean">Boolean</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-boolean">Default: <i>false</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
-
-Whether it is testing mode enabled or not.
-
-<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22In%20App%20Billing%22,%20%22name%22:%20%22Test%20Mode%22,%20%22getter%22:%20true%7D"></div>
-<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22In%20App%20Billing%22,%20%22name%22:%20%22Test%20Mode%22,%20%22getter%22:%20false%7D"></div>
-
 ### Is IAB Service Available
 
 <span class="chip chip-boolean">Boolean</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -237,3 +220,20 @@ Is subscription update supported.
 Whether In-app billing service is ready to purchase.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22In%20App%20Billing%22,%20%22name%22:%20%22Ready%20To%20Purchase%22,%20%22getter%22:%20true%7D"></div>
+
+### Suppress Toast
+
+:warning: ==**Deprecated**==
+
+<span class="chip chip-boolean">Boolean</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-boolean">Default: <i>true</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span>
+
+Do not use this block anymore. This block is deprecated and does nothing and will be removed in the future!
+
+### Test Mode
+
+<span class="chip chip-boolean">Boolean</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-boolean">Default: <i>false</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
+
+Whether it is testing mode enabled or not.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22In%20App%20Billing%22,%20%22name%22:%20%22Test%20Mode%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22In%20App%20Billing%22,%20%22name%22:%20%22Test%20Mode%22,%20%22getter%22:%20false%7D"></div>

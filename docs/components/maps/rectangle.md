@@ -212,6 +212,14 @@ The title displayed in the info window that appears when the user clicks on the 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Rectangle%22,%20%22name%22:%20%22Title%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Rectangle%22,%20%22name%22:%20%22Title%22,%20%22getter%22:%20false%7D"></div>
 
+### Type
+
+<span class="chip chip-text">Text</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
+
+The type of the feature. For rectangles, this returns the text "Rectangle".
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Rectangle%22,%20%22name%22:%20%22Type%22,%20%22getter%22:%20true%7D"></div>
+
 ### Visible
 
 <span class="chip chip-boolean">Boolean</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-boolean">Default: <i>True</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -227,11 +235,3 @@ Specifies whether the component should be visible on the screen. Value is true i
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Rectangle%22,%20%22name%22:%20%22West%20Longitude%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Rectangle%22,%20%22name%22:%20%22West%20Longitude%22,%20%22getter%22:%20false%7D"></div>
-
-### Type
-
-<span class="chip chip-text">Text</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
-
-The type of the feature. For rectangles, this returns the text "Rectangle".
-
-<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Rectangle%22,%20%22name%22:%20%22Type%22,%20%22getter%22:%20true%7D"></div>

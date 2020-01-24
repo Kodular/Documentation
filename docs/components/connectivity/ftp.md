@@ -87,6 +87,16 @@ Start the connection to the ftp server.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22FTP%22,%20%22name%22:%20%22Connect%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
 
+### Delete Dir
+
+Delete a directory on the ftp server.
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22FTP%22,%20%22name%22:%20%22Delete%20Dir%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22dir%22%5D%7D"></div>
+
+| Params | []() |
+|--------|------|
+|dir|<span class="chip chip-text">Text</span>|
+
 ### Disconnect
 
 Disconnect the current connection.
@@ -126,16 +136,6 @@ Start uploading a file.
 |--------|------|
 |file Path|<span class="chip chip-text">Text</span>|
 |new Name|<span class="chip chip-text">Text</span>|
-
-### Delete Dir
-
-Delete a directory on the ftp server.
-
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22FTP%22,%20%22name%22:%20%22Delete%20Dir%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22dir%22%5D%7D"></div>
-
-| Params | []() |
-|--------|------|
-|dir|<span class="chip chip-text">Text</span>|
 
 ### make Dir
 

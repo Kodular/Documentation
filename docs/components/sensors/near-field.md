@@ -39,6 +39,14 @@ Event to detect when a tag was written.
 
 ## Properties
 
+### Last Message
+
+<span class="chip chip-text">Text</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
+
+Returns the content of the most recently received tag.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Near%20Field%22,%20%22name%22:%20%22Last%20Message%22,%20%22getter%22:%20true%7D"></div>
+
 ### Read Mode
 
 <span class="chip chip-boolean">Boolean</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-boolean">Default: <i>True</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -47,14 +55,6 @@ Returns true if in read mode, false if in write mode.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Near%20Field%22,%20%22name%22:%20%22Read%20Mode%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Near%20Field%22,%20%22name%22:%20%22Read%20Mode%22,%20%22getter%22:%20false%7D"></div>
-
-### Last Message
-
-<span class="chip chip-text">Text</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
-
-Returns the content of the most recently received tag.
-
-<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Near%20Field%22,%20%22name%22:%20%22Last%20Message%22,%20%22getter%22:%20true%7D"></div>
 
 ### Text To Write
 

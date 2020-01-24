@@ -45,6 +45,18 @@ Indicates that a button has been released.
 
 ## Methods
 
+### Button Click
+
+Perform a button click as function.
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Date%20Picker%22,%20%22name%22:%20%22Button%20Click%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
+
+### Launch Picker
+
+Launches the DatePicker popup.
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Date%20Picker%22,%20%22name%22:%20%22Launch%20Picker%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
+
 ### Set Animation Style
 
 Allows you to set animation style. Valid (case-insensitive) values are: ChasingDots, Circle, CubeGrid, DoubleBounce, FadingCircle, FoldingCube, Pulse, RotatingCircle, RotatingPlane, ThreeBounce, WanderingCubes, Wave. If invalid style is used, animation will be removed.Position can be: top, left, right, bottom. Size can be 100.
@@ -57,18 +69,6 @@ Allows you to set animation style. Valid (case-insensitive) values are: ChasingD
 |position|<span class="chip chip-text">Text</span>|
 |size|<span class="chip chip-number">Number</span>|
 |color|<span class="chip chip-number">Number</span>|
-
-### Button Click
-
-Perform a button click as function.
-
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Date%20Picker%22,%20%22name%22:%20%22Button%20Click%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
-
-### Launch Picker
-
-Launches the DatePicker popup.
-
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Date%20Picker%22,%20%22name%22:%20%22Launch%20Picker%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
 
 ### Set Date To Display
 
@@ -167,6 +167,14 @@ Returns the button's background color
 
 Returns true if the button have a outside border shadow on click.
 
+### Day
+
+<span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
+
+the Day of the month that was last picked using the DatePicker.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Date%20Picker%22,%20%22name%22:%20%22Day%22,%20%22getter%22:%20true%7D"></div>
+
 ### Enabled
 
 <span class="chip chip-boolean">Boolean</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-boolean">Default: <i>True</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -227,6 +235,23 @@ Set a custom font.
 
 If true, then this button will show html text else it will show plain text. Note: Not all HTML is supported.
 
+### Height
+
+<span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
+
+Specifies the component's vertical height, measured in pixels.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Date%20Picker%22,%20%22name%22:%20%22Height%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Date%20Picker%22,%20%22name%22:%20%22Height%22,%20%22getter%22:%20false%7D"></div>
+
+### Height Percent
+
+<span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
+
+Specifies the component's vertical height as a percentageof the height of its parent Component.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Date%20Picker%22,%20%22name%22:%20%22Height%20Percent%22,%20%22getter%22:%20false%7D"></div>
+
 ### Image
 
 <span class="chip chip-text">Text</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -235,6 +260,30 @@ Image to display on button.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Date%20Picker%22,%20%22name%22:%20%22Image%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Date%20Picker%22,%20%22name%22:%20%22Image%22,%20%22getter%22:%20false%7D"></div>
+
+### Instant
+
+<span class="chip chip-unknown">Instantintime</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
+
+the instant of the date that was last picked using the DatePicker.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Date%20Picker%22,%20%22name%22:%20%22Instant%22,%20%22getter%22:%20true%7D"></div>
+
+### Month
+
+<span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
+
+the number of the Month that was last picked using the DatePicker. Note that months start in 1 = January, 12 = December.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Date%20Picker%22,%20%22name%22:%20%22Month%22,%20%22getter%22:%20true%7D"></div>
+
+### Month In Text
+
+<span class="chip chip-text">Text</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
+
+Returns the name of the Month that was last picked using the DatePicker, in textual format.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Date%20Picker%22,%20%22name%22:%20%22Month%20In%20Text%22,%20%22getter%22:%20true%7D"></div>
 
 ### Rotation Angle
 
@@ -307,55 +356,6 @@ Returns true iff the component is visible.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Date%20Picker%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Date%20Picker%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20false%7D"></div>
-
-### Day
-
-<span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
-
-the Day of the month that was last picked using the DatePicker.
-
-<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Date%20Picker%22,%20%22name%22:%20%22Day%22,%20%22getter%22:%20true%7D"></div>
-
-### Height
-
-<span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
-
-Specifies the component's vertical height, measured in pixels.
-
-<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Date%20Picker%22,%20%22name%22:%20%22Height%22,%20%22getter%22:%20true%7D"></div>
-<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Date%20Picker%22,%20%22name%22:%20%22Height%22,%20%22getter%22:%20false%7D"></div>
-
-### Height Percent
-
-<span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
-
-Specifies the component's vertical height as a percentageof the height of its parent Component.
-
-<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Date%20Picker%22,%20%22name%22:%20%22Height%20Percent%22,%20%22getter%22:%20false%7D"></div>
-
-### Instant
-
-<span class="chip chip-unknown">Instantintime</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
-
-the instant of the date that was last picked using the DatePicker.
-
-<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Date%20Picker%22,%20%22name%22:%20%22Instant%22,%20%22getter%22:%20true%7D"></div>
-
-### Month
-
-<span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
-
-the number of the Month that was last picked using the DatePicker. Note that months start in 1 = January, 12 = December.
-
-<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Date%20Picker%22,%20%22name%22:%20%22Month%22,%20%22getter%22:%20true%7D"></div>
-
-### Month In Text
-
-<span class="chip chip-text">Text</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
-
-Returns the name of the Month that was last picked using the DatePicker, in textual format.
-
-<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Date%20Picker%22,%20%22name%22:%20%22Month%20In%20Text%22,%20%22getter%22:%20true%7D"></div>
 
 ### Width
 

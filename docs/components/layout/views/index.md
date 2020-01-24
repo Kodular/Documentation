@@ -1,8 +1,8 @@
 # Overview <small>of Layout > Views</small>
 
-* [Gallery Viewer](gallery-viewer.md)
-* [Chat View](chat-view.md)
 * [Bottom Sheet](bottom-sheet.md)
-* [View Flipper](view-flipper.md)
+* [Chat View](chat-view.md)
+* [Gallery Viewer](gallery-viewer.md)
 * [Surface View](surface-view.md)
+* [View Flipper](view-flipper.md)
 * [Web Viewer](web-viewer.md)

@@ -118,24 +118,6 @@ Stop counting steps
 
 ## Properties
 
-### Stop Detection Timeout
-
-<span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-number">Default: <i>2000</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
-
-The duration in milliseconds of idleness (no steps detected) after which to go into a "stopped" state
-
-<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Pedometer%22,%20%22name%22:%20%22Stop%20Detection%20Timeout%22,%20%22getter%22:%20true%7D"></div>
-<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Pedometer%22,%20%22name%22:%20%22Stop%20Detection%20Timeout%22,%20%22getter%22:%20false%7D"></div>
-
-### Stride Length
-
-<span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-number">Default: <i>0.73</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
-
-Set the average stride length in meters.
-
-<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Pedometer%22,%20%22name%22:%20%22Stride%20Length%22,%20%22getter%22:%20true%7D"></div>
-<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Pedometer%22,%20%22name%22:%20%22Stride%20Length%22,%20%22getter%22:%20false%7D"></div>
-
 ### Calibrate Stride Length
 
 :warning: ==**Deprecated**==
@@ -180,6 +162,24 @@ deprecated
 The number of simple steps taken since the pedometer has started.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Pedometer%22,%20%22name%22:%20%22Simple%20Steps%22,%20%22getter%22:%20true%7D"></div>
+
+### Stop Detection Timeout
+
+<span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-number">Default: <i>2000</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
+
+The duration in milliseconds of idleness (no steps detected) after which to go into a "stopped" state
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Pedometer%22,%20%22name%22:%20%22Stop%20Detection%20Timeout%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Pedometer%22,%20%22name%22:%20%22Stop%20Detection%20Timeout%22,%20%22getter%22:%20false%7D"></div>
+
+### Stride Length
+
+<span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-number">Default: <i>0.73</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
+
+Set the average stride length in meters.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Pedometer%22,%20%22name%22:%20%22Stride%20Length%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Pedometer%22,%20%22name%22:%20%22Stride%20Length%22,%20%22getter%22:%20false%7D"></div>
 
 ### Use GPS
 

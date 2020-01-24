@@ -35,6 +35,14 @@ Begins a barcode scan, using the camera. When the scan is complete, the AfterSca
 
 ## Properties
 
+### Result
+
+<span class="chip chip-text">Text</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
+
+Text result of the previous scan.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Barcode%20Scanner%22,%20%22name%22:%20%22Result%22,%20%22getter%22:%20true%7D"></div>
+
 ### Use External Scanner
 
 <span class="chip chip-boolean">Boolean</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-boolean">Default: <i>False</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -43,11 +51,3 @@ If true App Inventor will look for and use an external scanning program such as 
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Barcode%20Scanner%22,%20%22name%22:%20%22Use%20External%20Scanner%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Barcode%20Scanner%22,%20%22name%22:%20%22Use%20External%20Scanner%22,%20%22getter%22:%20false%7D"></div>
-
-### Result
-
-<span class="chip chip-text">Text</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
-
-Text result of the previous scan.
-
-<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Barcode%20Scanner%22,%20%22name%22:%20%22Result%22,%20%22getter%22:%20true%7D"></div>

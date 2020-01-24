@@ -36,6 +36,14 @@ Indicates the device started being shaken or continues to be shaken.
 
 ## Properties
 
+### Available
+
+<span class="chip chip-boolean">Boolean</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
+
+Available property getter method (read-only property).
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Accelerometer%20Sensor%22,%20%22name%22:%20%22Available%22,%20%22getter%22:%20true%7D"></div>
+
 ### Enabled
 
 <span class="chip chip-boolean">Boolean</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-boolean">Default: <i>True</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -68,14 +76,6 @@ A number that encodes how sensitive the accelerometer is. The choices are: 1 = w
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Accelerometer%20Sensor%22,%20%22name%22:%20%22Sensitivity%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Accelerometer%20Sensor%22,%20%22name%22:%20%22Sensitivity%22,%20%22getter%22:%20false%7D"></div>
-
-### Available
-
-<span class="chip chip-boolean">Boolean</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
-
-Available property getter method (read-only property).
-
-<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Accelerometer%20Sensor%22,%20%22name%22:%20%22Available%22,%20%22getter%22:%20true%7D"></div>
 
 ### X Accel
 

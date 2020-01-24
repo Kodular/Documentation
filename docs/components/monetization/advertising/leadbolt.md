@@ -16,16 +16,6 @@ A non-visible component that shows LeadBolt ads as rewarded videos and network a
 
 ## Events
 
-### Ad Loaded
-
-Event triggered when ads are loaded
-
-<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22LeadBolt%22,%20%22name%22:%20%22Ad%20Loaded%22,%20%22param%22:%20%5B%22location%22%5D%7D"></div>
-
-| Params | []() |
-|--------|------|
-|location|<span class="chip chip-text">Text</span>|
-
 ### Ad Clicked
 
 Event triggered when ads are clicked
@@ -58,6 +48,16 @@ Event triggered when ads are failed to load
 |location|<span class="chip chip-text">Text</span>|
 |error|<span class="chip chip-text">Text</span>|
 |is Cache|<span class="chip chip-boolean">Boolean</span>|
+
+### Ad Loaded
+
+Event triggered when ads are loaded
+
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22LeadBolt%22,%20%22name%22:%20%22Ad%20Loaded%22,%20%22param%22:%20%5B%22location%22%5D%7D"></div>
+
+| Params | []() |
+|--------|------|
+|location|<span class="chip chip-text">Text</span>|
 
 ### Ad Shown
 

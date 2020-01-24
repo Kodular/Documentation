@@ -131,15 +131,6 @@ DEPRECATED: New code should use Extras property instead.
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Activity%20Starter%22,%20%22name%22:%20%22Extra%20Value%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Activity%20Starter%22,%20%22name%22:%20%22Extra%20Value%22,%20%22getter%22:%20false%7D"></div>
 
-### Result Name
-
-<span class="chip chip-text">Text</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
-
-Returns the name that will be used to retrieve a result from the activity.
-
-<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Activity%20Starter%22,%20%22name%22:%20%22Result%20Name%22,%20%22getter%22:%20true%7D"></div>
-<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Activity%20Starter%22,%20%22name%22:%20%22Result%20Name%22,%20%22getter%22:%20false%7D"></div>
-
 ### Extras
 
 <span class="chip chip-list">List</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -156,6 +147,15 @@ Specifies the list of key-value pairs that will be passed as extra data to the a
 Returns the result from the activity.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Activity%20Starter%22,%20%22name%22:%20%22Result%22,%20%22getter%22:%20true%7D"></div>
+
+### Result Name
+
+<span class="chip chip-text">Text</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
+
+Returns the name that will be used to retrieve a result from the activity.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Activity%20Starter%22,%20%22name%22:%20%22Result%20Name%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Activity%20Starter%22,%20%22name%22:%20%22Result%20Name%22,%20%22getter%22:%20false%7D"></div>
 
 ### Result Type
 

@@ -29,16 +29,6 @@ Event to detect if the download is successful finished. You can use the "filePat
 |file Name|<span class="chip chip-text">Text</span>|
 |file Size|<span class="chip chip-number">Number</span>|
 
-### On Download Progress Changed
-
-Get the progress (in percentage) of the current download task.
-
-<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Download%22,%20%22name%22:%20%22On%20Download%20Progress%20Changed%22,%20%22param%22:%20%5B%22progress%22%5D%7D"></div>
-
-| Params | []() |
-|--------|------|
-|progress|<span class="chip chip-number">Number</span>|
-
 ### Got File Size
 
 Event to detect file size is ready to be used.
@@ -54,6 +44,16 @@ Event to detect file size is ready to be used.
 Event to detect when the user clicks on a running download, either from a system notification or from the downloads UI.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Download%22,%20%22name%22:%20%22Notification%20Clicked%22,%20%22param%22:%20%5B%5D%7D"></div>
+
+### On Download Progress Changed
+
+Get the progress (in percentage) of the current download task.
+
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Download%22,%20%22name%22:%20%22On%20Download%20Progress%20Changed%22,%20%22param%22:%20%5B%22progress%22%5D%7D"></div>
+
+| Params | []() |
+|--------|------|
+|progress|<span class="chip chip-number">Number</span>|
 
 ## Methods
 
@@ -107,6 +107,16 @@ Set here the url to the file that you want to download.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Download%22,%20%22name%22:%20%22Download%20URL%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Download%22,%20%22name%22:%20%22Download%20URL%22,%20%22getter%22:%20false%7D"></div>
+
+### Is Download Manager Available
+
+:warning: ==**Deprecated**==
+
+<span class="chip chip-boolean">Boolean</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
+
+This function is deprecated. Do not use it anymore. We will remove it in the future. Since we support min API 14 the download manager is by default available. The download manager was added in API 9.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Download%22,%20%22name%22:%20%22Is%20Download%20Manager%20Available%22,%20%22getter%22:%20true%7D"></div>
 
 ### Require Charging
 
@@ -170,13 +180,3 @@ Set the title that you will see in the download notification.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Download%22,%20%22name%22:%20%22Title%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Download%22,%20%22name%22:%20%22Title%22,%20%22getter%22:%20false%7D"></div>
-
-### Is Download Manager Available
-
-:warning: ==**Deprecated**==
-
-<span class="chip chip-boolean">Boolean</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
-
-This function is deprecated. Do not use it anymore. We will remove it in the future. Since we support min API 14 the download manager is by default available. The download manager was added in API 9.
-
-<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Download%22,%20%22name%22:%20%22Is%20Download%20Manager%20Available%22,%20%22getter%22:%20true%7D"></div>

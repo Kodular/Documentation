@@ -86,14 +86,6 @@ Change the current system wallpaper.
 
 ## Properties
 
-### Save Wallpaper As
-
-<span class="chip chip-text">Text</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-text">Default: <i>wallpaperPicture.png</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
-
-After the user clicked on "Get Wallpaper" this will be the name for the wallpaper picture.
-
-<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Wallpaper%22,%20%22name%22:%20%22Save%20Wallpaper%20As%22,%20%22getter%22:%20false%7D"></div>
-
 ### Desired Minimum Height
 
 <span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -125,3 +117,11 @@ Returns whether the calling package is allowed to set the wallpaper for the call
 Returns whether wallpapers are supported for the calling user. This block works only on devices with Android 6+.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Wallpaper%22,%20%22name%22:%20%22Is%20Wallpaper%20Supported%22,%20%22getter%22:%20true%7D"></div>
+
+### Save Wallpaper As
+
+<span class="chip chip-text">Text</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-text">Default: <i>wallpaperPicture.png</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
+
+After the user clicked on "Get Wallpaper" this will be the name for the wallpaper picture.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Wallpaper%22,%20%22name%22:%20%22Save%20Wallpaper%20As%22,%20%22getter%22:%20false%7D"></div>

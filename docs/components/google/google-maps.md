@@ -210,6 +210,25 @@ Adding a list of YailList for markers. The inner YailList represents a marker an
 |--------|------|
 |markers|<span class="chip chip-list">List</span>|
 
+### Add Overlay
+
+Add overlay.
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Add%20Overlay%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
+
+### Add Polygon
+
+A Polygon is an enclosed shape that can be used to mark areas on the map.
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Add%20Polygon%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22lat%20Min%22,%20%22lat%20Max%22,%20%22lon%20Min%22,%20%22lon%20Max%22%5D%7D"></div>
+
+| Params | []() |
+|--------|------|
+|lat Min|<span class="chip chip-number">Number</span>|
+|lat Max|<span class="chip chip-number">Number</span>|
+|lon Min|<span class="chip chip-number">Number</span>|
+|lon Max|<span class="chip chip-number">Number</span>|
+
 ### Add Polyline
 
 <span class="chip chip-number">Returns: <i>Number</i></span>
@@ -224,6 +243,12 @@ This block will return the unique id of the new added polyline. Create a new pol
 |width|<span class="chip chip-number">Number</span>|
 |color|<span class="chip chip-number">Number</span>|
 
+### Add Tile Overlay
+
+Add title overlay.
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Add%20Tile%20Overlay%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
+
 ### Bound Camera
 
 Transforms the camera such that the specified latitude/longitude bounds are centered on screen at the greatest possible zoom level. Need to specify both latitudes and longitudes for both northeast location and southwest location of the bounding box
@@ -236,6 +261,18 @@ Transforms the camera such that the specified latitude/longitude bounds are cent
 |ne Lng|<span class="chip chip-number">Number</span>|
 |sw Lat|<span class="chip chip-number">Number</span>|
 |sw Lng|<span class="chip chip-number">Number</span>|
+
+### Clear All Polygons
+
+Clear all Polygons.
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Clear%20All%20Polygons%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
+
+### Draw Central Square
+
+Draw central square.
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Draw%20Central%20Square%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
 
 ### Enable Compass
 
@@ -351,6 +388,28 @@ This will return a list with all available polyline id's.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Get%20All%20Polyline%20Ids%22,%20%22output%22:%20true,%20%22param%22:%20%5B%5D%7D"></div>
 
+### Get Bounding Box
+
+<span class="chip chip-text">Returns: <i>Text</i></span>
+
+Get bounding box.
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Get%20Bounding%20Box%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22latitude%20In%20Degrees%22,%20%22longitude%20In%20Degrees%22,%20%22half%20Side%20In%20Km%22%5D%7D"></div>
+
+| Params | []() |
+|--------|------|
+|latitude In Degrees|<span class="chip chip-number">Number</span>|
+|longitude In Degrees|<span class="chip chip-number">Number</span>|
+|half Side In Km|<span class="chip chip-number">Number</span>|
+
+### Get Map Center
+
+<span class="chip chip-text">Returns: <i>Text</i></span>
+
+Get map center. If a error occures the output will be '-999'.
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Get%20Map%20Center%22,%20%22output%22:%20true,%20%22param%22:%20%5B%5D%7D"></div>
+
 ### Get Markers
 
 <span class="chip chip-list">Returns: <i>List</i></span>
@@ -378,6 +437,16 @@ Convert a JsonArray of points (lat, lng pairs) to a list.
 | Params | []() |
 |--------|------|
 |json String|<span class="chip chip-text">Text</span>|
+
+### Get Zoom Level Info
+
+:warning: ==**Deprecated**==
+
+<span class="chip chip-number">Returns: <i>Number</i></span>
+
+Deprecated block! Don't use this anymore. Use instead 'Camera Zoom Level'.
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Get%20Zoom%20Level%20Info%22,%20%22output%22:%20true,%20%22param%22:%20%5B%5D%7D"></div>
 
 ### Move Camera
 
@@ -471,75 +540,6 @@ Update any polyline with the given id. You can change the property values for 'w
 |property Name|<span class="chip chip-text">Text</span>|
 |points|<span class="chip chip-any">Any</span>|
 
-### Add Overlay
-
-Add overlay.
-
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Add%20Overlay%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
-
-### Add Polygon
-
-A Polygon is an enclosed shape that can be used to mark areas on the map.
-
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Add%20Polygon%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22lat%20Min%22,%20%22lat%20Max%22,%20%22lon%20Min%22,%20%22lon%20Max%22%5D%7D"></div>
-
-| Params | []() |
-|--------|------|
-|lat Min|<span class="chip chip-number">Number</span>|
-|lat Max|<span class="chip chip-number">Number</span>|
-|lon Min|<span class="chip chip-number">Number</span>|
-|lon Max|<span class="chip chip-number">Number</span>|
-
-### Add Tile Overlay
-
-Add title overlay.
-
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Add%20Tile%20Overlay%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
-
-### Clear All Polygons
-
-Clear all Polygons.
-
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Clear%20All%20Polygons%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
-
-### Draw Central Square
-
-Draw central square.
-
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Draw%20Central%20Square%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
-
-### Get Bounding Box
-
-<span class="chip chip-text">Returns: <i>Text</i></span>
-
-Get bounding box.
-
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Get%20Bounding%20Box%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22latitude%20In%20Degrees%22,%20%22longitude%20In%20Degrees%22,%20%22half%20Side%20In%20Km%22%5D%7D"></div>
-
-| Params | []() |
-|--------|------|
-|latitude In Degrees|<span class="chip chip-number">Number</span>|
-|longitude In Degrees|<span class="chip chip-number">Number</span>|
-|half Side In Km|<span class="chip chip-number">Number</span>|
-
-### Get Map Center
-
-<span class="chip chip-text">Returns: <i>Text</i></span>
-
-Get map center. If a error occures the output will be '-999'.
-
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Get%20Map%20Center%22,%20%22output%22:%20true,%20%22param%22:%20%5B%5D%7D"></div>
-
-### Get Zoom Level Info
-
-:warning: ==**Deprecated**==
-
-<span class="chip chip-number">Returns: <i>Number</i></span>
-
-Deprecated block! Don't use this anymore. Use instead 'Camera Zoom Level'.
-
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Get%20Zoom%20Level%20Info%22,%20%22output%22:%20true,%20%22param%22:%20%5B%5D%7D"></div>
-
 ## Properties
 
 ### Camera Angle
@@ -568,24 +568,6 @@ Move the map's camera to the specified zoom level.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Camera%20Zoom%20Level%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Camera%20Zoom%20Level%22,%20%22getter%22:%20false%7D"></div>
-
-### Theme
-
-<span class="chip chip-text">Text</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-text">Default: <i>standard</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
-
-Sets the theme of the map. The choices are "standard"(default), "silver", "retro", "dark", "night", "aubergine", "vintage", "kodular" and "roads-only".
-
-<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Theme%22,%20%22getter%22:%20true%7D"></div>
-<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Theme%22,%20%22getter%22:%20false%7D"></div>
-
-### Visible
-
-<span class="chip chip-boolean">Boolean</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-boolean">Default: <i>True</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
-
-Returns true iff the component is visible.
-
-<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20true%7D"></div>
-<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20false%7D"></div>
 
 ### Compass Enabled
 
@@ -675,6 +657,24 @@ Indicates whether the capability to scroll a map on the ui is currently enabled
 Sets the style of the map from json. Just use a text field and paste there the json data. Create a custom map style at https://mapstyle.withgoogle.com/. Set the theme to "standard" to clear the style json.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Style%22,%20%22getter%22:%20false%7D"></div>
+
+### Theme
+
+<span class="chip chip-text">Text</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-text">Default: <i>standard</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
+
+Sets the theme of the map. The choices are "standard"(default), "silver", "retro", "dark", "night", "aubergine", "vintage", "kodular" and "roads-only".
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Theme%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Theme%22,%20%22getter%22:%20false%7D"></div>
+
+### Visible
+
+<span class="chip chip-boolean">Boolean</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-boolean">Default: <i>True</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
+
+Returns true iff the component is visible.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20false%7D"></div>
 
 ### Width
 

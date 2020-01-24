@@ -36,14 +36,6 @@ Encodes the given string using the given key through AES-128. If any exception o
 |--------|------|
 |input Text|<span class="chip chip-text">Text</span>|
 
-### Generate AES 128 Key
-
-<span class="chip chip-text">Returns: <i>Text</i></span>
-
-Generates a secure random AES 128 key
-
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Cryptography%22,%20%22name%22:%20%22Generate%20AES%20128%20Key%22,%20%22output%22:%20true,%20%22param%22:%20%5B%5D%7D"></div>
-
 ### AES-256 Decode
 
 <span class="chip chip-text">Returns: <i>Text</i></span>
@@ -67,14 +59,6 @@ Encodes the given string using the given key through AES-256. If there are any e
 | Params | []() |
 |--------|------|
 |input Text|<span class="chip chip-text">Text</span>|
-
-### Generate AES 256 Key
-
-<span class="chip chip-text">Returns: <i>Text</i></span>
-
-Generates a secure random AES 256 key
-
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Cryptography%22,%20%22name%22:%20%22Generate%20AES%20256%20Key%22,%20%22output%22:%20true,%20%22param%22:%20%5B%5D%7D"></div>
 
 ### BCrypt Create Hash
 
@@ -150,6 +134,22 @@ Encrypts or decrypts the given string simulating an Enigma machine. Rotors can g
 |rotor 3|<span class="chip chip-number">Number</span>|
 |reflector|<span class="chip chip-text">Text</span>|
 |plugboard|<span class="chip chip-list">List</span>|
+
+### Generate AES 128 Key
+
+<span class="chip chip-text">Returns: <i>Text</i></span>
+
+Generates a secure random AES 128 key
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Cryptography%22,%20%22name%22:%20%22Generate%20AES%20128%20Key%22,%20%22output%22:%20true,%20%22param%22:%20%5B%5D%7D"></div>
+
+### Generate AES 256 Key
+
+<span class="chip chip-text">Returns: <i>Text</i></span>
+
+Generates a secure random AES 256 key
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Cryptography%22,%20%22name%22:%20%22Generate%20AES%20256%20Key%22,%20%22output%22:%20true,%20%22param%22:%20%5B%5D%7D"></div>
 
 ### MD5 Create Hash
 

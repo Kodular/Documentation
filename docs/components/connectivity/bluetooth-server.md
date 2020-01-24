@@ -212,6 +212,14 @@ Stop accepting an incoming connection.
 
 ## Properties
 
+### Available
+
+<span class="chip chip-boolean">Boolean</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
+
+Whether Bluetooth is available on the device
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Bluetooth%20Server%22,%20%22name%22:%20%22Available%22,%20%22getter%22:%20true%7D"></div>
+
 ### Character Encoding
 
 <span class="chip chip-text">Text</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-text">Default: <i>UTF-8</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -230,6 +238,14 @@ Sets the delimiter byte to use when passing a negative number for thenumberOfByt
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Bluetooth%20Server%22,%20%22name%22:%20%22Delimiter%20Byte%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Bluetooth%20Server%22,%20%22name%22:%20%22Delimiter%20Byte%22,%20%22getter%22:%20false%7D"></div>
 
+### Enabled
+
+<span class="chip chip-boolean">Boolean</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
+
+Whether Bluetooth is enabled
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Bluetooth%20Server%22,%20%22name%22:%20%22Enabled%22,%20%22getter%22:%20true%7D"></div>
+
 ### High Byte First
 
 <span class="chip chip-boolean">Boolean</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-boolean">Default: <i>False</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -238,31 +254,6 @@ Returns true if numbers are sent and received with the most significantbyte firs
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Bluetooth%20Server%22,%20%22name%22:%20%22High%20Byte%20First%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Bluetooth%20Server%22,%20%22name%22:%20%22High%20Byte%20First%22,%20%22getter%22:%20false%7D"></div>
-
-### Secure
-
-<span class="chip chip-boolean">Boolean</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-boolean">Default: <i>True</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
-
-Whether to invoke SSP (Simple Secure Pairing), which is supported on devices with Bluetooth v2.1 or higher. When working with embedded Bluetooth devices, this property may need to be set to False. For Android 2.0-2.2, this property setting will be ignored.
-
-<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Bluetooth%20Server%22,%20%22name%22:%20%22Secure%22,%20%22getter%22:%20true%7D"></div>
-<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Bluetooth%20Server%22,%20%22name%22:%20%22Secure%22,%20%22getter%22:%20false%7D"></div>
-
-### Available
-
-<span class="chip chip-boolean">Boolean</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
-
-Whether Bluetooth is available on the device
-
-<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Bluetooth%20Server%22,%20%22name%22:%20%22Available%22,%20%22getter%22:%20true%7D"></div>
-
-### Enabled
-
-<span class="chip chip-boolean">Boolean</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
-
-Whether Bluetooth is enabled
-
-<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Bluetooth%20Server%22,%20%22name%22:%20%22Enabled%22,%20%22getter%22:%20true%7D"></div>
 
 ### Is Accepting
 
@@ -279,3 +270,12 @@ Returns true if this BluetoothServer component is accepting anincoming connectio
 Returns true if a connection to a Bluetooth device has been made.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Bluetooth%20Server%22,%20%22name%22:%20%22Is%20Connected%22,%20%22getter%22:%20true%7D"></div>
+
+### Secure
+
+<span class="chip chip-boolean">Boolean</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-boolean">Default: <i>True</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
+
+Whether to invoke SSP (Simple Secure Pairing), which is supported on devices with Bluetooth v2.1 or higher. When working with embedded Bluetooth devices, this property may need to be set to False. For Android 2.0-2.2, this property setting will be ignored.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Bluetooth%20Server%22,%20%22name%22:%20%22Secure%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Bluetooth%20Server%22,%20%22name%22:%20%22Secure%22,%20%22getter%22:%20false%7D"></div>

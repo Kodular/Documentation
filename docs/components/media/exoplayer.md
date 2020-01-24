@@ -142,6 +142,22 @@ Returns true if the player is current stopped.
 
 ## Properties
 
+### Current Position
+
+<span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
+
+Returns the current position of the source file that is playing in milliseconds.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22ExoPlayer%22,%20%22name%22:%20%22Current%20Position%22,%20%22getter%22:%20true%7D"></div>
+
+### Duration
+
+<span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
+
+Returns the duration of the source file.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22ExoPlayer%22,%20%22name%22:%20%22Duration%22,%20%22getter%22:%20true%7D"></div>
+
 ### Loop
 
 <span class="chip chip-boolean">Boolean</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-boolean">Default: <i>False</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -168,19 +184,3 @@ Sets the volume to a number between 0 and 100
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22ExoPlayer%22,%20%22name%22:%20%22Volume%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22ExoPlayer%22,%20%22name%22:%20%22Volume%22,%20%22getter%22:%20false%7D"></div>
-
-### Current Position
-
-<span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
-
-Returns the current position of the source file that is playing in milliseconds.
-
-<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22ExoPlayer%22,%20%22name%22:%20%22Current%20Position%22,%20%22getter%22:%20true%7D"></div>
-
-### Duration
-
-<span class="chip chip-number">Number</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
-
-Returns the duration of the source file.
-
-<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22ExoPlayer%22,%20%22name%22:%20%22Duration%22,%20%22getter%22:%20true%7D"></div>

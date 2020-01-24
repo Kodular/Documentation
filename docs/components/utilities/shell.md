@@ -28,14 +28,6 @@ Read output after executing shell command
 
 ## Methods
 
-### Has Super User Apk Installed
-
-<span class="chip chip-boolean">Returns: <i>Boolean</i></span>
-
-Returns TRUE if one of 6 known root packages or varients is installed. The name of the package is not returned, so the user does not know which package name to change. Developed by Cian.
-
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Shell%22,%20%22name%22:%20%22Has%20Super%20User%20Apk%20Installed%22,%20%22output%22:%20true,%20%22param%22:%20%5B%5D%7D"></div>
-
 ### Execute
 
 Executes shell commands. To get output, use "GotOutput" event block.
@@ -45,6 +37,14 @@ Executes shell commands. To get output, use "GotOutput" event block.
 | Params | []() |
 |--------|------|
 |in|<span class="chip chip-text">Text</span>|
+
+### Has Super User Apk Installed
+
+<span class="chip chip-boolean">Returns: <i>Boolean</i></span>
+
+Returns TRUE if one of 6 known root packages or varients is installed. The name of the package is not returned, so the user does not know which package name to change. Developed by Cian.
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Shell%22,%20%22name%22:%20%22Has%20Super%20User%20Apk%20Installed%22,%20%22output%22:%20true,%20%22param%22:%20%5B%5D%7D"></div>
 
 ### Is Rooted
 

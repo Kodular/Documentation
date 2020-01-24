@@ -37,14 +37,6 @@ Event to get the serial number after it was requested.
 
 ## Methods
 
-### Has Dangerous Apk Installed
-
-<span class="chip chip-boolean">Returns: <i>Boolean</i></span>
-
-Returns TRUE if one of 12 known patching or root emulating packages is installed. The name of the package is not returned, so the user does not know which package name to change. Developed by Cian.
-
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Has%20Dangerous%20Apk%20Installed%22,%20%22output%22:%20true,%20%22param%22:%20%5B%5D%7D"></div>
-
 ### Copy
 
 Copy text to clipboard. In case 'Show Success Toast' is true, the toast with your message will be shown after copying a text to the clipboard.
@@ -92,6 +84,14 @@ A hardware serial number, if available. Alphanumeric only, case-insensitive. For
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Get%20Serial%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
 
+### Has Dangerous Apk Installed
+
+<span class="chip chip-boolean">Returns: <i>Boolean</i></span>
+
+Returns TRUE if one of 12 known patching or root emulating packages is installed. The name of the package is not returned, so the user does not know which package name to change. Developed by Cian.
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Has%20Dangerous%20Apk%20Installed%22,%20%22output%22:%20true,%20%22param%22:%20%5B%5D%7D"></div>
+
 ### Internal Storage Available
 
 <span class="chip chip-number">Returns: <i>Number</i></span>
@@ -115,6 +115,30 @@ Total size of internal storage in Gigabytes.
 Size of used-internal-storage in Gigabytes.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Internal%20Storage%20Used%22,%20%22output%22:%20true,%20%22param%22:%20%5B%5D%7D"></div>
+
+### Is Adb Debugging Enabled
+
+<span class="chip chip-boolean">Returns: <i>Boolean</i></span>
+
+This returns TRUE if ADB debugging is enabled, which could be a sign of hacking your app, or a compromised device. Developed by Cian.
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Is%20Adb%20Debugging%20Enabled%22,%20%22output%22:%20true,%20%22param%22:%20%5B%5D%7D"></div>
+
+### Is Emulator
+
+<span class="chip chip-boolean">Returns: <i>Boolean</i></span>
+
+Returns TRUE if the device operating on an emulator. Developed by Cian.
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Is%20Emulator%22,%20%22output%22:%20true,%20%22param%22:%20%5B%5D%7D"></div>
+
+### Is Installed From Play Store
+
+<span class="chip chip-boolean">Returns: <i>Boolean</i></span>
+
+Returns TRUE if the app was installed from Play Store. Developed by Cian.
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Is%20Installed%20From%20Play%20Store%22,%20%22output%22:%20true,%20%22param%22:%20%5B%5D%7D"></div>
 
 ### Memory Free
 
@@ -167,48 +191,7 @@ Paste text from clipboard. In case 'Show Success Toast' is true, the toast with 
 |--------|------|
 |Success Toast Message|<span class="chip chip-text">Text</span>|
 
-### Is Adb Debugging Enabled
-
-<span class="chip chip-boolean">Returns: <i>Boolean</i></span>
-
-This returns TRUE if ADB debugging is enabled, which could be a sign of hacking your app, or a compromised device. Developed by Cian.
-
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Is%20Adb%20Debugging%20Enabled%22,%20%22output%22:%20true,%20%22param%22:%20%5B%5D%7D"></div>
-
-### Is Emulator
-
-<span class="chip chip-boolean">Returns: <i>Boolean</i></span>
-
-Returns TRUE if the device operating on an emulator. Developed by Cian.
-
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Is%20Emulator%22,%20%22output%22:%20true,%20%22param%22:%20%5B%5D%7D"></div>
-
-### Is Installed From Play Store
-
-<span class="chip chip-boolean">Returns: <i>Boolean</i></span>
-
-Returns TRUE if the app was installed from Play Store. Developed by Cian.
-
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Is%20Installed%20From%20Play%20Store%22,%20%22output%22:%20true,%20%22param%22:%20%5B%5D%7D"></div>
-
 ## Properties
-
-### Show Success Toast
-
-<span class="chip chip-boolean">Boolean</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-boolean">Default: <i>False</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
-
-Returns true if 'Show Success Toast' is enabled.
-
-<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Show%20Success%20Toast%22,%20%22getter%22:%20true%7D"></div>
-<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Show%20Success%20Toast%22,%20%22getter%22:%20false%7D"></div>
-
-### Android Version
-
-<span class="chip chip-text">Text</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
-
-Get the android version of device.
-
-<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Android%20Version%22,%20%22getter%22:%20true%7D"></div>
 
 ### API Version
 
@@ -217,6 +200,14 @@ Get the android version of device.
 The user-visible SDK version of the framework.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22API%20Version%22,%20%22getter%22:%20true%7D"></div>
+
+### Android Version
+
+<span class="chip chip-text">Text</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
+
+Get the android version of device.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Android%20Version%22,%20%22getter%22:%20true%7D"></div>
 
 ### Board
 
@@ -258,6 +249,14 @@ The result is the code of your country.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Country%20Code%22,%20%22getter%22:%20true%7D"></div>
 
+### Device Id
+
+<span class="chip chip-text">Text</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
+
+Returns the unique device specific 'AndroidID'. Developed by Cian.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Device%20Id%22,%20%22getter%22:%20true%7D"></div>
+
 ### Device Name
 
 <span class="chip chip-text">Text</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
@@ -273,14 +272,6 @@ The name of the industrial design.
 A string that uniquely identifies this build.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Fingerprint%22,%20%22getter%22:%20true%7D"></div>
-
-### Device Id
-
-<span class="chip chip-text">Text</span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
-
-Returns the unique device specific 'AndroidID'. Developed by Cian.
-
-<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Device%20Id%22,%20%22getter%22:%20true%7D"></div>
 
 ### Hardware
 
@@ -347,6 +338,15 @@ Returns the version string for the radio firmware. May return null (if, for inst
 DEPRECATED. DO NOT USE THIS ANYMORE. USE 'Get Serial' INSTEAD!
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Serial%22,%20%22getter%22:%20true%7D"></div>
+
+### Show Success Toast
+
+<span class="chip chip-boolean">Boolean</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-boolean">Default: <i>False</i></span><span style="user-select: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="chip chip-rw">Read</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-rw">Write</span><span style="user-select: none;">&nbsp;</span>-<span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Designer</span><span style="user-select: none;">&nbsp;</span><span class="chip chip-bd">Blocks</span><span style="user-select: none;">&nbsp;</span>
+
+Returns true if 'Show Success Toast' is enabled.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Show%20Success%20Toast%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Show%20Success%20Toast%22,%20%22getter%22:%20false%7D"></div>
 
 ### Tags
 

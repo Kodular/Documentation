@@ -52,6 +52,19 @@ Returns true if a package (app) is installed.
 |--------|------|
 |package Name|<span class="chip chip-text">Text</span>|
 
+### Is Permission Granted
+
+<span class="chip chip-boolean">Returns: <i>Boolean</i></span>
+
+Check whether a particular package has been granted a particular permission.
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Package%20Utilities%22,%20%22name%22:%20%22Is%20Permission%20Granted%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22permission%20Name%22,%20%22package%20Name%22%5D%7D"></div>
+
+| Params | []() |
+|--------|------|
+|permission Name|<span class="chip chip-text">Text</span>|
+|package Name|<span class="chip chip-text">Text</span>|
+
 ### Version Code From
 
 <span class="chip chip-number">Returns: <i>Number</i></span>
@@ -74,19 +87,6 @@ This block will returns the version name of the package name. Returns 'Package n
 
 | Params | []() |
 |--------|------|
-|package Name|<span class="chip chip-text">Text</span>|
-
-### Is Permission Granted
-
-<span class="chip chip-boolean">Returns: <i>Boolean</i></span>
-
-Check whether a particular package has been granted a particular permission.
-
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Package%20Utilities%22,%20%22name%22:%20%22Is%20Permission%20Granted%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22permission%20Name%22,%20%22package%20Name%22%5D%7D"></div>
-
-| Params | []() |
-|--------|------|
-|permission Name|<span class="chip chip-text">Text</span>|
 |package Name|<span class="chip chip-text">Text</span>|
 
 ## Properties
