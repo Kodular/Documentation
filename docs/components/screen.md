@@ -18,6 +18,11 @@ Screen is the top-most component in any app. All the other components are placed
 If you take the app as a book, the Screens can be regarded as the pages of a book and the other components as
 the various elements present on a page of a book, text, images etc.
 
+![screen-book-analogy](/assets/images/components/screen/screen-book-analogy.png)
+
+Screen &lt;--&gt; Book
+{: .img-caption}
+
 ## Events
 
 ### Back Pressed
