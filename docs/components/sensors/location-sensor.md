@@ -15,10 +15,10 @@ In order to function, the component must have its `` Enabled `` property set to 
 Location information might not be immediately available when an app starts. You'll have to wait a short time for a location provider to be found and used, or wait for the OnLocationChanged event
 
 ??? example "Permissions"
-    * [android.permission.ACCESS_FINE_LOCATION](https://developer.android.com/reference/android/Manifest.permission.html#android.permission.ACCESS_FINE_LOCATION)
-    * [android.permission.ACCESS_COARSE_LOCATION](https://developer.android.com/reference/android/Manifest.permission.html#android.permission.ACCESS_COARSE_LOCATION)
-    * [android.permission.ACCESS_MOCK_LOCATION](https://developer.android.com/reference/android/Manifest.permission.html#android.permission.ACCESS_MOCK_LOCATION)
-    * [android.permission.ACCESS_LOCATION_EXTRA_COMMANDS](https://developer.android.com/reference/android/Manifest.permission.html#android.permission.ACCESS_LOCATION_EXTRA_COMMANDS)
+    * [android.permission.ACCESS_FINE_LOCATION](https://developer.android.com/reference/android/Manifest.permission.html#ACCESS_FINE_LOCATION)
+    * [android.permission.ACCESS_COARSE_LOCATION](https://developer.android.com/reference/android/Manifest.permission.html#ACCESS_COARSE_LOCATION)
+    * [android.permission.ACCESS_MOCK_LOCATION](https://developer.android.com/reference/android/Manifest.permission.html#ACCESS_MOCK_LOCATION)
+    * [android.permission.ACCESS_LOCATION_EXTRA_COMMANDS](https://developer.android.com/reference/android/Manifest.permission.html#ACCESS_LOCATION_EXTRA_COMMANDS)
 
 
 ## Events

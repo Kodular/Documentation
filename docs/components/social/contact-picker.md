@@ -21,8 +21,8 @@ Other properties affect the appearance of the button (`` TextAlignment ``, `` Ba
 The ContactPicker component might not work on all phones. For example, on Android systems before system 3.0, it cannot pick phone numbers, and the list of email addresses will contain only one email.
 
 ??? example "Permissions"
-    * [android.permission.READ_CONTACTS](https://developer.android.com/reference/android/Manifest.permission.html#android.permission.READ_CONTACTS)
-    * [android.permission.INTERNET](https://developer.android.com/reference/android/Manifest.permission.html#android.permission.INTERNET)
+    * [android.permission.READ_CONTACTS](https://developer.android.com/reference/android/Manifest.permission.html#READ_CONTACTS)
+    * [android.permission.INTERNET](https://developer.android.com/reference/android/Manifest.permission.html#INTERNET)
 
 
 ## Events

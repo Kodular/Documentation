@@ -9,7 +9,7 @@
 Button with the ability to detect clicks. Many aspects of its appearance can be changed, as well as whether it is clickable (`` Enabled ``), can be changed in the Designer or in the Blocks Editor.
 
 ??? example "Permissions"
-    * [android.permission.INTERNET](https://developer.android.com/reference/android/Manifest.permission.html#android.permission.INTERNET)
+    * [android.permission.INTERNET](https://developer.android.com/reference/android/Manifest.permission.html#INTERNET)
 
 
 ## Events

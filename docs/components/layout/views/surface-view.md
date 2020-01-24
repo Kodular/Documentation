@@ -9,10 +9,10 @@
 A visible component that shows a live preview of the user''s camera as its background.
 
 ??? example "Permissions"
-    * [android.permission.FLASHLIGHT](https://developer.android.com/reference/android/Manifest.permission.html#android.permission.FLASHLIGHT)
-    * [android.permission.CAMERA](https://developer.android.com/reference/android/Manifest.permission.html#android.permission.CAMERA)
-    * [android.permission.READ_EXTERNAL_STORAGE](https://developer.android.com/reference/android/Manifest.permission.html#android.permission.READ_EXTERNAL_STORAGE)
-    * [android.permission.WRITE_EXTERNAL_STORAGE](https://developer.android.com/reference/android/Manifest.permission.html#android.permission.WRITE_EXTERNAL_STORAGE)
+    * [android.permission.FLASHLIGHT](https://developer.android.com/reference/android/Manifest.permission.html#FLASHLIGHT)
+    * [android.permission.CAMERA](https://developer.android.com/reference/android/Manifest.permission.html#CAMERA)
+    * [android.permission.READ_EXTERNAL_STORAGE](https://developer.android.com/reference/android/Manifest.permission.html#READ_EXTERNAL_STORAGE)
+    * [android.permission.WRITE_EXTERNAL_STORAGE](https://developer.android.com/reference/android/Manifest.permission.html#WRITE_EXTERNAL_STORAGE)
 
 
 ## Events

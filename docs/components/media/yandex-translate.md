@@ -15,7 +15,7 @@ Use this component to translate words and sentences between different languages.
 Note: Translation happens asynchronously in the background. When the translation is complete, the "GotTranslation" event is triggered.
 
 ??? example "Permissions"
-    * [android.permission.INTERNET](https://developer.android.com/reference/android/Manifest.permission.html#android.permission.INTERNET)
+    * [android.permission.INTERNET](https://developer.android.com/reference/android/Manifest.permission.html#INTERNET)
 
 
 ## Events

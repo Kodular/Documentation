@@ -11,7 +11,7 @@
 A non-visible component that reads barcodes from the device''s camera.
 
 ??? example "Permissions"
-    * [android.permission.CAMERA](https://developer.android.com/reference/android/Manifest.permission.html#android.permission.CAMERA)
+    * [android.permission.CAMERA](https://developer.android.com/reference/android/Manifest.permission.html#CAMERA)
 
 
 ## Events

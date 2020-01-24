@@ -11,7 +11,7 @@
 A non-visible component that reads fingerprints using the device''s in-built fingerprint scanner.
 
 ??? example "Permissions"
-    * [android.permission.USE_FINGERPRINT](https://developer.android.com/reference/android/Manifest.permission.html#android.permission.USE_FINGERPRINT)
+    * [android.permission.USE_FINGERPRINT](https://developer.android.com/reference/android/Manifest.permission.html#USE_FINGERPRINT)
 
 
 ## Events

@@ -11,9 +11,9 @@
 The Download component is a non-visible component that allows users to download any file to the device
 
 ??? example "Permissions"
-    * [android.permission.DOWNLOAD_WITHOUT_NOTIFICATION](https://developer.android.com/reference/android/Manifest.permission.html#android.permission.DOWNLOAD_WITHOUT_NOTIFICATION)
-    * [android.permission.INTERNET](https://developer.android.com/reference/android/Manifest.permission.html#android.permission.INTERNET)
-    * [android.permission.WRITE_EXTERNAL_STORAGE](https://developer.android.com/reference/android/Manifest.permission.html#android.permission.WRITE_EXTERNAL_STORAGE)
+    * [android.permission.DOWNLOAD_WITHOUT_NOTIFICATION](https://developer.android.com/reference/android/Manifest.permission.html#DOWNLOAD_WITHOUT_NOTIFICATION)
+    * [android.permission.INTERNET](https://developer.android.com/reference/android/Manifest.permission.html#INTERNET)
+    * [android.permission.WRITE_EXTERNAL_STORAGE](https://developer.android.com/reference/android/Manifest.permission.html#WRITE_EXTERNAL_STORAGE)
 
 
 ## Events

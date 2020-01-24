@@ -13,7 +13,7 @@ A non-visible component that adds a dot/badge to the app''s launcher icon when a
 ??? example "Permissions"
     * [com.android.launcher.permission.READ_SETTINGS](https://developer.android.com/reference/android/Manifest.permission.html#com.android.launcher.permission.READ_SETTINGS)
     * [com.sonyericsson.home.permission.BROADCAST_BADGE](https://developer.android.com/reference/android/Manifest.permission.html#com.sonyericsson.home.permission.BROADCAST_BADGE)
-    * [android.permission.READ_APP_BADGE](https://developer.android.com/reference/android/Manifest.permission.html#android.permission.READ_APP_BADGE)
+    * [android.permission.READ_APP_BADGE](https://developer.android.com/reference/android/Manifest.permission.html#READ_APP_BADGE)
     * [com.htc.launcher.permission.READ_SETTINGS](https://developer.android.com/reference/android/Manifest.permission.html#com.htc.launcher.permission.READ_SETTINGS)
     * [com.huawei.android.launcher.permission.CHANGE_BADGE](https://developer.android.com/reference/android/Manifest.permission.html#com.huawei.android.launcher.permission.CHANGE_BADGE)
     * [com.huawei.android.launcher.permission.WRITE_SETTINGS](https://developer.android.com/reference/android/Manifest.permission.html#com.huawei.android.launcher.permission.WRITE_SETTINGS)

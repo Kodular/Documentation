@@ -15,8 +15,8 @@ Often, this component is used with the `` ContactPicker `` component, which lets
 To directly specify the phone number (e.g., 650-555-1212), set the `` PhoneNumber `` property to a Text with the specified digits (e.g., "6505551212"). Dashes, dots, and parentheses may be included (e.g., "(650)-555-1212") but will be ignored; spaces may not be included.
 
 ??? example "Permissions"
-    * [android.permission.CALL_PHONE](https://developer.android.com/reference/android/Manifest.permission.html#android.permission.CALL_PHONE)
-    * [android.permission.READ_PHONE_STATE](https://developer.android.com/reference/android/Manifest.permission.html#android.permission.READ_PHONE_STATE)
+    * [android.permission.CALL_PHONE](https://developer.android.com/reference/android/Manifest.permission.html#CALL_PHONE)
+    * [android.permission.READ_PHONE_STATE](https://developer.android.com/reference/android/Manifest.permission.html#READ_PHONE_STATE)
 
 
 ## Events

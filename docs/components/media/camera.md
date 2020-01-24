@@ -11,10 +11,10 @@
 A component to take a picture using the device's camera. After the picture is taken, the name of the file on the phone containing the picture is available as an argument to the AfterPicture event. The file name can be used, for example, to set the Picture property of an Image component.
 
 ??? example "Permissions"
-    * [android.permission.FLASHLIGHT](https://developer.android.com/reference/android/Manifest.permission.html#android.permission.FLASHLIGHT)
-    * [android.permission.CAMERA](https://developer.android.com/reference/android/Manifest.permission.html#android.permission.CAMERA)
-    * [android.permission.READ_EXTERNAL_STORAGE](https://developer.android.com/reference/android/Manifest.permission.html#android.permission.READ_EXTERNAL_STORAGE)
-    * [android.permission.WRITE_EXTERNAL_STORAGE](https://developer.android.com/reference/android/Manifest.permission.html#android.permission.WRITE_EXTERNAL_STORAGE)
+    * [android.permission.FLASHLIGHT](https://developer.android.com/reference/android/Manifest.permission.html#FLASHLIGHT)
+    * [android.permission.CAMERA](https://developer.android.com/reference/android/Manifest.permission.html#CAMERA)
+    * [android.permission.READ_EXTERNAL_STORAGE](https://developer.android.com/reference/android/Manifest.permission.html#READ_EXTERNAL_STORAGE)
+    * [android.permission.WRITE_EXTERNAL_STORAGE](https://developer.android.com/reference/android/Manifest.permission.html#WRITE_EXTERNAL_STORAGE)
 
 
 ## Events

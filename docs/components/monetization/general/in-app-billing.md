@@ -11,7 +11,7 @@
 A non-visible component that lets the user purchase items, powered by Google''s In-App Purchases service.
 
 ??? example "Permissions"
-    * [android.permission.INTERNET](https://developer.android.com/reference/android/Manifest.permission.html#android.permission.INTERNET)
+    * [android.permission.INTERNET](https://developer.android.com/reference/android/Manifest.permission.html#INTERNET)
     * [com.android.vending.BILLING](https://developer.android.com/reference/android/Manifest.permission.html#com.android.vending.BILLING)
 
 

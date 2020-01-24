@@ -9,7 +9,7 @@
 A visible component that displays a list of elements consisting of an image and two labels.
 
 ??? example "Permissions"
-    * [android.permission.INTERNET](https://developer.android.com/reference/android/Manifest.permission.html#android.permission.INTERNET)
+    * [android.permission.INTERNET](https://developer.android.com/reference/android/Manifest.permission.html#INTERNET)
 
 
 ## Events

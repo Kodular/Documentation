@@ -15,7 +15,7 @@ In order to read and write text tags, the component must have its `` ReadMode ``
 __Note:__ This component will only work on Screen1 of any App Inventor app.
 
 ??? example "Permissions"
-    * [android.permission.NFC](https://developer.android.com/reference/android/Manifest.permission.html#android.permission.NFC)
+    * [android.permission.NFC](https://developer.android.com/reference/android/Manifest.permission.html#NFC)
 
 
 ## Events

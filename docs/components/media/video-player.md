@@ -15,7 +15,7 @@ App Inventor for Android only permits video files under 1 MB and limits the tota
 You can also set the media source to a URL that points to a streaming video, but the URL must point to the video file itself, not to a program that plays the video.
 
 ??? example "Permissions"
-    * [android.permission.INTERNET](https://developer.android.com/reference/android/Manifest.permission.html#android.permission.INTERNET)
+    * [android.permission.INTERNET](https://developer.android.com/reference/android/Manifest.permission.html#INTERNET)
 
 
 ## Events

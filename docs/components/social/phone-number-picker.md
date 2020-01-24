@@ -18,8 +18,8 @@ Other properties affect the appearance of the button (`` TextAlignment ``, `` Ba
 The PhoneNumberPicker component may not work on all Android devices. For example, on Android systems before system 3.0, the returned lists of phone numbers and email addresses will be empty
 
 ??? example "Permissions"
-    * [android.permission.READ_CONTACTS](https://developer.android.com/reference/android/Manifest.permission.html#android.permission.READ_CONTACTS)
-    * [android.permission.INTERNET](https://developer.android.com/reference/android/Manifest.permission.html#android.permission.INTERNET)
+    * [android.permission.READ_CONTACTS](https://developer.android.com/reference/android/Manifest.permission.html#READ_CONTACTS)
+    * [android.permission.INTERNET](https://developer.android.com/reference/android/Manifest.permission.html#INTERNET)
 
 
 ## Events
