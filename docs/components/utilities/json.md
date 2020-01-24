@@ -16,7 +16,8 @@ A non-visible component that parses and handles data encoded as JSON.
 
 Triggers when there is a JSON error.
 
-[[Event('JSON', 'Error Occurred', 'functionName', 'errorMessage')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22JSON%22,%20%22name%22:%20%22Error%20Occurred%22,%20%22params%22:%20%5B%22function%20Name%22,%20%22error%20Message%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -32,7 +33,8 @@ Triggers when there is a JSON error.
 
 Add True or False to a JSON Array.
 
-[[Method('JSON', 'Add Boolean To JSONArray', True, 'jsonArray', 'trueOrFalse', 'defaultVaue')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22JSON%22,%20%22name%22:%20%22Add%20Boolean%20To%20JSONArray%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22jsonArray%22,%20%22true%20Or%20false%22,%20%22default%20Value%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -47,7 +49,8 @@ Add True or False to a JSON Array.
 
 Add True or False to a JSON Object.
 
-[[Method('JSON', 'Add Boolean To JSONObject', True, 'jsonObject', 'trueOrFalse', 'name', 'defaultVaue')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22JSON%22,%20%22name%22:%20%22Add%20Boolean%20To%20JSONObject%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22jsonObject%22,%20%22true%20Or%20false%22,%20%22name%22,%20%22default%20Value%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -63,7 +66,8 @@ Add True or False to a JSON Object.
 
 Add a JSON Array to a JSON Array.
 
-[[Method('JSON', 'Add JSONArray To JSONArray', True, 'jsonArray', 'newJsonArray', 'defaultVaue')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22JSON%22,%20%22name%22:%20%22Add%20JSONArray%20To%20JSONArray%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22jsonArray%22,%20%22new%20JSONArray%22,%20%22default%20Value%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -78,7 +82,8 @@ Add a JSON Array to a JSON Array.
 
 Add a JSON Object to a JSON Array.
 
-[[Method('JSON', 'Add JSONObject To JSONArray', True, 'jsonArray', 'jsonObject', 'defaultVaue')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22JSON%22,%20%22name%22:%20%22Add%20JSONObject%20To%20JSONArray%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22jsonArray%22,%20%22jsonObject%22,%20%22default%20Value%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -93,7 +98,8 @@ Add a JSON Object to a JSON Array.
 
 Add a JSON Object to a JSON Object.
 
-[[Method('JSON', 'Add JSONObject To JSONObject', True, 'jsonObject', 'newJsonObject', 'name', 'defaultVaue')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22JSON%22,%20%22name%22:%20%22Add%20JSONObject%20To%20JSONObject%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22jsonObject%22,%20%22new%20JSONObject%22,%20%22name%22,%20%22default%20Value%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -109,7 +115,8 @@ Add a JSON Object to a JSON Object.
 
 Add a Number to a JSON Array.
 
-[[Method('JSON', 'Add Number To JSONArray', True, 'jsonArray', 'number', 'defaultVaue')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22JSON%22,%20%22name%22:%20%22Add%20Number%20To%20JSONArray%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22jsonArray%22,%20%22number%22,%20%22default%20Value%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -124,7 +131,8 @@ Add a Number to a JSON Array.
 
 Add a Number to a JSON Object.
 
-[[Method('JSON', 'Add Number To JSONObject', True, 'jsonObject', 'number', 'name', 'defaultVaue')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22JSON%22,%20%22name%22:%20%22Add%20Number%20To%20JSONObject%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22jsonObject%22,%20%22number%22,%20%22name%22,%20%22default%20Value%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -140,7 +148,8 @@ Add a Number to a JSON Object.
 
 Add Text to a JSON Array.
 
-[[Method('JSON', 'Add Text To JSONArray', True, 'jsonArray', 'text', 'defaultVaue')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22JSON%22,%20%22name%22:%20%22Add%20Text%20To%20JSONArray%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22jsonArray%22,%20%22text%22,%20%22default%20Value%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -155,7 +164,8 @@ Add Text to a JSON Array.
 
 Add Text to a JSON Object.
 
-[[Method('JSON', 'Add Text To JSONObject', True, 'jsonObject', 'text', 'name', 'defaultVaue')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22JSON%22,%20%22name%22:%20%22Add%20Text%20To%20JSONObject%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22jsonObject%22,%20%22text%22,%20%22name%22,%20%22default%20Value%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -171,7 +181,8 @@ Add Text to a JSON Object.
 
 Get a True or False from a JSON Array.
 
-[[Method('JSON', 'Get Boolean From JSONArray', True, 'jsonArray', 'index', 'defaultVaue')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22JSON%22,%20%22name%22:%20%22Get%20Boolean%20From%20JSONArray%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22jsonArray%22,%20%22index%22,%20%22default%20Value%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -186,7 +197,8 @@ Get a True or False from a JSON Array.
 
 Get a true or false value from a JSON Object.
 
-[[Method('JSON', 'Get Boolean From JSONObject', True, 'jsonObject', 'name', 'defaultVaue')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22JSON%22,%20%22name%22:%20%22Get%20Boolean%20From%20JSONObject%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22jsonObject%22,%20%22name%22,%20%22default%20Value%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -201,7 +213,8 @@ Get a true or false value from a JSON Object.
 
 Get a JSON Array from a JSON Object.
 
-[[Method('JSON', 'Get JSONArray From JSONObject', True, 'jsonObject', 'name', 'defaultVaue')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22JSON%22,%20%22name%22:%20%22Get%20JSONArray%20From%20JSONObject%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22jsonObject%22,%20%22name%22,%20%22default%20Value%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -216,7 +229,8 @@ Get a JSON Array from a JSON Object.
 
 Get a JSON Object from a JSON Array.
 
-[[Method('JSON', 'Get JSONObject From JSONArray', True, 'jsonArray', 'index', 'defaultVaue')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22JSON%22,%20%22name%22:%20%22Get%20JSONObject%20From%20JSONArray%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22jsonArray%22,%20%22index%22,%20%22default%20Value%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -231,7 +245,8 @@ Get a JSON Object from a JSON Array.
 
 Get a JSON Object from a JSON Object.
 
-[[Method('JSON', 'Get JSONObject From JSONObject', True, 'jsonObject', 'name', 'defaultVaue')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22JSON%22,%20%22name%22:%20%22Get%20JSONObject%20From%20JSONObject%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22jsonObject%22,%20%22name%22,%20%22default%20Value%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -246,7 +261,8 @@ Get a JSON Object from a JSON Object.
 
 Get the length of a JSON Array.
 
-[[Method('JSON', 'Get Length Of JSONArray', True, 'jsonArray', 'defaultVaue')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22JSON%22,%20%22name%22:%20%22Get%20Length%20Of%20JSONArray%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22jsonArray%22,%20%22default%20Value%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -260,7 +276,8 @@ Get the length of a JSON Array.
 
 Get a Number from a JSON Array.
 
-[[Method('JSON', 'Get Number From JSONArray', True, 'jsonArray', 'index', 'defaultVaue')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22JSON%22,%20%22name%22:%20%22Get%20Number%20From%20JSONArray%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22jsonArray%22,%20%22index%22,%20%22default%20Value%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -275,7 +292,8 @@ Get a Number from a JSON Array.
 
 Get a number from a JSON Object.
 
-[[Method('JSON', 'Get Number From JSONObject', True, 'jsonObject', 'name', 'defaultVaue')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22JSON%22,%20%22name%22:%20%22Get%20Number%20From%20JSONObject%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22jsonObject%22,%20%22name%22,%20%22default%20Value%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -290,7 +308,8 @@ Get a number from a JSON Object.
 
 Get Text from a JSON Array.
 
-[[Method('JSON', 'Get Text From JSONArray', True, 'jsonArray', 'index', 'defaultVaue')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22JSON%22,%20%22name%22:%20%22Get%20Text%20From%20JSONArray%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22jsonArray%22,%20%22index%22,%20%22default%20Value%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -305,7 +324,8 @@ Get Text from a JSON Array.
 
 Get text from a JSON object.
 
-[[Method('JSON', 'Get Text From JSONObject', True, 'jsonObject', 'name', 'defaultVaue')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22JSON%22,%20%22name%22:%20%22Get%20Text%20From%20JSONObject%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22jsonObject%22,%20%22name%22,%20%22default%20Value%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|

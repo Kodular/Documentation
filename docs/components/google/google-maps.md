@@ -23,7 +23,8 @@ A visible component that shows a map on the screen powered by Google''s Maps ser
 
 Called after the camera position of a map has changed.
 
-[[Event('Google Maps', 'Camera Position Changed', 'lat', 'lng', 'bearing', 'tilt', 'zoom')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Camera%20Position%20Changed%22,%20%22params%22:%20%5B%22lat%22,%20%22lng%22,%20%22bearing%22,%20%22tilt%22,%20%22zoom%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -38,7 +39,8 @@ Called after the camera position of a map has changed.
 
 Event been raised after the action of moving a draggable circle is finished. Possible a user drag the center of the circle or drag the radius marker of the circle
 
-[[Event('Google Maps', 'Finished Dragging Circle', 'id', 'centerLat', 'centerLng', 'radius')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Finished%20Dragging%20Circle%22,%20%22params%22:%20%5B%22id%22,%20%22center%20Lat%22,%20%22center%20Lng%22,%20%22radius%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -52,7 +54,8 @@ Event been raised after the action of moving a draggable circle is finished. Pos
 
 When the marker's infowindow is clicked, returning marker's id
 
-[[Event('Google Maps', 'Info Window Clicked', 'markerId')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Info%20Window%20Clicked%22,%20%22params%22:%20%5B%22marker%20Id%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -63,13 +66,15 @@ When the marker's infowindow is clicked, returning marker's id
 
 Indicates that the map has been rendered and ready for adding markers or changing other settings. Please add or updating markers within this event
 
-[[Event('Google Maps', 'Map Is Ready')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Map%20Is%20Ready%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### On Location Changed
 
 Triggers this event when user location has changed. Only works when EnableMylocation is set to true
 
-[[Event('Google Maps', 'On Location Changed', 'lat', 'lng')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22On%20Location%20Changed%22,%20%22params%22:%20%5B%22lat%22,%20%22lng%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -81,7 +86,8 @@ Triggers this event when user location has changed. Only works when EnableMyloca
 
 Called when the user makes a tap gesture on the map
 
-[[Event('Google Maps', 'On Map Click', 'lat', 'lng')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22On%20Map%20Click%22,%20%22params%22:%20%5B%22lat%22,%20%22lng%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -93,7 +99,8 @@ Called when the user makes a tap gesture on the map
 
 Called when the user makes a long-press gesture on the map
 
-[[Event('Google Maps', 'On Map Long Click', 'lat', 'lng')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22On%20Map%20Long%20Click%22,%20%22params%22:%20%5B%22lat%22,%20%22lng%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -105,7 +112,8 @@ Called when the user makes a long-press gesture on the map
 
 When a marker is clicked
 
-[[Event('Google Maps', 'On Marker Click', 'markerId', 'latitude', 'longitude')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22On%20Marker%20Click%22,%20%22params%22:%20%5B%22marker%20Id%22,%20%22latitude%22,%20%22longitude%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -118,7 +126,8 @@ When a marker is clicked
 
 When a marker is been dragged
 
-[[Event('Google Maps', 'On Marker Drag', 'markerId', 'latitude', 'longitude')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22On%20Marker%20Drag%22,%20%22params%22:%20%5B%22marker%20Id%22,%20%22latitude%22,%20%22longitude%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -131,7 +140,8 @@ When a marker is been dragged
 
 When the user drags a marker and finish the action, returning marker's id and it's latest position
 
-[[Event('Google Maps', 'On Marker Drag End', 'markerId', 'latitude', 'longitude')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22On%20Marker%20Drag%20End%22,%20%22params%22:%20%5B%22marker%20Id%22,%20%22latitude%22,%20%22longitude%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -144,7 +154,8 @@ When the user drags a marker and finish the action, returning marker's id and it
 
 When a marker starts been dragged
 
-[[Event('Google Maps', 'On Marker Drag Start', 'markerId', 'latitude', 'longitude')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22On%20Marker%20Drag%20Start%22,%20%22params%22:%20%5B%22marker%20Id%22,%20%22latitude%22,%20%22longitude%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -157,7 +168,8 @@ When a marker starts been dragged
 
 This event will be invoked when a user clicks on a point of interest. This can be a shop, coffee-bar or else.
 
-[[Event('Google Maps', 'On Point Of Interest Click', 'lat', 'lng', 'placeName', 'placeID')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22On%20Point%20Of%20Interest%20Click%22,%20%22params%22:%20%5B%22lat%22,%20%22lng%22,%20%22place%20Name%22,%20%22place%20ID%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -175,7 +187,8 @@ This event will be invoked when a user clicks on a point of interest. This can b
 
 Create a circle overlay on the map UI with specified latitude and longitude for center. "hue" (min 0, max 360) and "alpha" (min 0, max 255) are used to set color and transparency level of the circle, "strokeWidth" and "strokeColor" are for the perimeter of the circle. Returning a unique id of the circle for future reference to events raised by moving this circle. If the circle isset to be draggable, two default markers will appear on the map: one in the center of the circle, another on the perimeter.
 
-[[Method('Google Maps', 'Add Circle', True, 'lat', 'lng', 'radius', 'alpha', 'hue', 'strokeWidth', 'strokeColor', 'draggable')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Add%20Circle%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22lat%22,%20%22lng%22,%20%22radius%22,%20%22alpha%22,%20%22hue%22,%20%22stroke%20Width%22,%20%22stroke%20Color%22,%20%22draggable%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -195,7 +208,8 @@ Create a circle overlay on the map UI with specified latitude and longitude for 
 
 Adding a list of YailLists for markers. The representation of a maker in the inner YailList is composed of: lat(double) [required], long(double) [required], Color, title(String), snippet(String), draggable(boolean). Return a list of unqiue ids for the added markers. Note that the markers ids are not meant to persist after the app is closed, but for temporary references to the markers within the program only. Return an empty list if any error happen in the input
 
-[[Method('Google Maps', 'Add Markers', True, 'markers')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Add%20Markers%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22markers%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -206,7 +220,8 @@ Adding a list of YailLists for markers. The representation of a maker in the inn
 
 Adding a list of markers that are represented as JsonArray. The inner JsonObject represents a markerand is composed of name-value pairs. Name fields for a marker are: "lat" (type double) [required], "lng"(type double) [required], "color"(type int)[in hue value ranging from 0~360], "title"(type String), "snippet"(type String), "draggable"(type boolean)
 
-[[Method('Google Maps', 'Add Markers From Json', False, 'jsonString')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Add%20Markers%20From%20Json%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22json%20String%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -219,7 +234,8 @@ Adding a list of markers that are represented as JsonArray. The inner JsonObject
 
 Adding a list of YailList for markers. The inner YailList represents a marker and is composed of lat(Double) [required], long(Double) [required], color(int)[in hue value ranging from 0-360], title(String), snippet(String), draggable(boolean). Return a list of unique ids for the markers that are added
 
-[[Method('Google Maps', 'Add Markers Hue', True, 'markers')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Add%20Markers%20Hue%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22markers%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -232,7 +248,8 @@ Adding a list of YailList for markers. The inner YailList represents a marker an
 
 This block will return the unique id of the new added polyline. Create a new polyline on the map. Use for 'points' a list of lat, lng pairs. A integer for the 'width' (in pixel) and a valid color for the 'color' parameter.
 
-[[Method('Google Maps', 'Add Polyline', True, 'points', 'width', 'color')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Add%20Polyline%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22points%22,%20%22width%22,%20%22color%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -245,7 +262,8 @@ This block will return the unique id of the new added polyline. Create a new pol
 
 Transforms the camera such that the specified latitude/longitude bounds are centered on screen at the greatest possible zoom level. Need to specify both latitudes and longitudes for both northeast location and southwest location of the bounding box
 
-[[Method('Google Maps', 'Bound Camera', False, 'neLat', 'neLng', 'swLat', 'swLng')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Bound%20Camera%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22ne%20Lat%22,%20%22ne%20Lng%22,%20%22sw%20Lat%22,%20%22sw%20Lng%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -259,7 +277,8 @@ Transforms the camera such that the specified latitude/longitude bounds are cent
 
 Enables/disables the compass widget on the map's ui. Call this only after event "MapIsReady" is received
 
-[[Method('Google Maps', 'Enable Compass', False, 'enable')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Enable%20Compass%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22enable%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -270,7 +289,8 @@ Enables/disables the compass widget on the map's ui. Call this only after event 
 
 Enable/Disable to listen to map's camera position changed event
 
-[[Method('Google Maps', 'Enable Map Camera Pos Change Listener', False, 'enabled')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Enable%20Map%20Camera%20Pos%20Change%20Listener%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22enabled%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -281,7 +301,8 @@ Enable/Disable to listen to map's camera position changed event
 
 Enable/Disable to listen to map's click event
 
-[[Method('Google Maps', 'Enable Map Click Listener', False, 'enabled')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Enable%20Map%20Click%20Listener%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22enabled%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -292,7 +313,8 @@ Enable/Disable to listen to map's click event
 
 Enable/disable to listen to map's long click event
 
-[[Method('Google Maps', 'Enable Map Long Click Listener', False, 'enabled')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Enable%20Map%20Long%20Click%20Listener%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22enabled%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -303,7 +325,8 @@ Enable/disable to listen to map's long click event
 
 Enable or disable my location widget control for Google Map. One can call GetMyLocation() to obtain the current location after enable this."
 
-[[Method('Google Maps', 'Enable My Location', False, 'enabled')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Enable%20My%20Location%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22enabled%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -314,7 +337,8 @@ Enable or disable my location widget control for Google Map. One can call GetMyL
 
 Enables/disables the capability to rotate a map on the ui. Call this only after the event "MapIsReady" is received.
 
-[[Method('Google Maps', 'Enable Rotate', False, 'enable')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Enable%20Rotate%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22enable%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -325,7 +349,8 @@ Enables/disables the capability to rotate a map on the ui. Call this only after 
 
 Enables/disables the capability to scroll a map on the ui. Call this only after the event "MapIsReady" is received
 
-[[Method('Google Maps', 'Enable Scroll', False, 'enable')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Enable%20Scroll%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22enable%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -336,7 +361,8 @@ Enables/disables the capability to scroll a map on the ui. Call this only after 
 
 Enables/disables the zoom widget on the map's ui. Call this only after the event "MapIsReady" is received
 
-[[Method('Google Maps', 'Enable Zoom Control', False, 'enable')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Enable%20Zoom%20Control%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22enable%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -347,7 +373,8 @@ Enables/disables the zoom widget on the map's ui. Call this only after the event
 
 Enables/disables zoom gesture on the map ui. Call this only after the event "MapIsReady" is received.
 
-[[Method('Google Maps', 'Enable Zoom Gesture', False, 'enable')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Enable%20Zoom%20Gesture%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22enable%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -360,7 +387,8 @@ Enables/disables zoom gesture on the map ui. Call this only after the event "Map
 
 Get all circles Ids. A short cut to get all the references for the eixisting circles
 
-[[Method('Google Maps', 'Get All Circle IDs', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Get%20All%20Circle%20IDs%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Get All Marker IDs
 
@@ -368,7 +396,8 @@ Get all circles Ids. A short cut to get all the references for the eixisting cir
 
 Get all the existing markers's Ids
 
-[[Method('Google Maps', 'Get All Marker IDs', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Get%20All%20Marker%20IDs%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Get All Polyline Ids
 
@@ -376,7 +405,8 @@ Get all the existing markers's Ids
 
 This will return a list with all available polyline id's.
 
-[[Method('Google Maps', 'Get All Polyline Ids', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Get%20All%20Polyline%20Ids%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Get Markers
 
@@ -384,7 +414,8 @@ This will return a list with all available polyline id's.
 
 Add a list of markers composed of name-value pairs. Name fields for a marker are: "lat" (type double) [required], "lng"(type double) [required], "color"(type int)[in hue value ranging from 0~360], "title"(type String), "snippet"(type String), "draggable"(type boolean)
 
-[[Method('Google Maps', 'Get Markers', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Get%20Markers%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Get My Location
 
@@ -392,7 +423,8 @@ Add a list of markers composed of name-value pairs. Name fields for a marker are
 
 Get current location using Google Map Service. Return a YailList with first item beingthe latitude, the second item being the longitude, and last time being the accuracy of the reading.
 
-[[Method('Google Maps', 'Get My Location', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Get%20My%20Location%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Get Points From Json
 
@@ -400,7 +432,8 @@ Get current location using Google Map Service. Return a YailList with first item
 
 Convert a JsonArray of points (lat, lng pairs) to a list.
 
-[[Method('Google Maps', 'Get Points From Json', True, 'jsonString')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Get%20Points%20From%20Json%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22json%20String%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -411,7 +444,8 @@ Convert a JsonArray of points (lat, lng pairs) to a list.
 
 Move the map's camera to the specified position and zoom level
 
-[[Method('Google Maps', 'Move Camera', False, 'lat', 'lng', 'zoom')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Move%20Camera%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22lat%22,%20%22lng%22,%20%22zoom%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -426,7 +460,8 @@ Move the map's camera to the specified position and zoom level
 
 Remove a circle for the map. Returns true if successfully removed, false if the circle does not exist with the specified id
 
-[[Method('Google Maps', 'Remove Circle', True, 'circleId')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Remove%20Circle%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22circle%20Id%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -437,7 +472,8 @@ Remove a circle for the map. Returns true if successfully removed, false if the 
 
 Remove a marker from the map
 
-[[Method('Google Maps', 'Remove Marker', False, 'markerId')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Remove%20Marker%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22marker%20Id%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -450,7 +486,8 @@ Remove a marker from the map
 
 Use this block to remove a polyline from the map. It will return true if it was successful.
 
-[[Method('Google Maps', 'Remove Polyline', True, 'polylineId')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Remove%20Polyline%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22polyline%20Id%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -461,7 +498,8 @@ Use this block to remove a polyline from the map. It will return true if it was 
 
 Set the layer of Google map. Default layer is "normal", other choices including "hybrid","satellite", and "terrain"
 
-[[Method('Google Maps', 'Set Map Type', False, 'layerName')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Set%20Map%20Type%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22layer%20Name%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -472,7 +510,8 @@ Set the layer of Google map. Default layer is "normal", other choices including 
 
 Set the property of an existing circle. Properties include: "alpha"(number, value ranging from 0~255), "color" (nimber, hue value ranging 0~360), "radius"(number in meters)
 
-[[Method('Google Maps', 'Update Circle', False, 'circleId', 'propertyName', 'value')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Update%20Circle%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22circle%20Id%22,%20%22property%20Name%22,%20%22value%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -485,7 +524,8 @@ Set the property of an existing circle. Properties include: "alpha"(number, valu
 
 Set the property of a marker, note that the marker has to be added first or else will throw an exception! Properties include: "color"(hue value ranging from 0~360), "title", "snippet", "draggable"(give either true or false as the value).
 
-[[Method('Google Maps', 'Update Marker', False, 'markerId', 'propertyName', 'value')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Update%20Marker%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22marker%20Id%22,%20%22property%20Name%22,%20%22value%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -498,7 +538,8 @@ Set the property of a marker, note that the marker has to be added first or else
 
 Update any polyline with the given id. You can change the property values for 'width' (in pixel), 'color' or 'points (a list of lat, lng pairs).
 
-[[Method('Google Maps', 'Update Polyline', False, 'polylineId', 'propertyName', 'points')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Update%20Polyline%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22polyline%20Id%22,%20%22property%20Name%22,%20%22points%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -511,13 +552,15 @@ Update any polyline with the given id. You can change the property values for 'w
 
 Add overlay.
 
-[[Method('Google Maps', 'Add Overlay', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Add%20Overlay%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Add Polygon
 
 A Polygon is an enclosed shape that can be used to mark areas on the map.
 
-[[Method('Google Maps', 'Add Polygon', False, 'latMin', 'latMax', 'lonMin', 'lonMax')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Add%20Polygon%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22lat%20Min%22,%20%22lat%20Max%22,%20%22lon%20Min%22,%20%22lon%20Max%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -531,19 +574,22 @@ A Polygon is an enclosed shape that can be used to mark areas on the map.
 
 Add title overlay.
 
-[[Method('Google Maps', 'Add Tile Overlay', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Add%20Tile%20Overlay%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Clear All Polygons
 
 Clear all Polygons.
 
-[[Method('Google Maps', 'Clear All Polygons', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Clear%20All%20Polygons%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Draw Central Square
 
 Draw central square.
 
-[[Method('Google Maps', 'Draw Central Square', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Draw%20Central%20Square%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Get Bounding Box
 
@@ -551,7 +597,8 @@ Draw central square.
 
 Get bounding box.
 
-[[Method('Google Maps', 'Get Bounding Box', True, 'latitudeInDegrees', 'longitudeInDegrees', 'halfSideInKm')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Get%20Bounding%20Box%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22latitude%20In%20Degrees%22,%20%22longitude%20In%20Degrees%22,%20%22half%20Side%20In%20Km%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -566,7 +613,8 @@ Get bounding box.
 
 Get map center. If a error occures the output will be '-999'.
 
-[[Method('Google Maps', 'Get Map Center', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Get%20Map%20Center%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Get Zoom Level Info
 
@@ -576,7 +624,8 @@ Get map center. If a error occures the output will be '-999'.
 
 Deprecated block! Don't use this anymore. Use instead 'Camera Zoom Level'.
 
-[[Method('Google Maps', 'Get Zoom Level Info', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Get%20Zoom%20Level%20Info%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Properties
 
@@ -586,7 +635,9 @@ Deprecated block! Don't use this anymore. Use instead 'Camera Zoom Level'.
 
 Move the map's camera to the specified tilt, the angle (in degrees) from the nadir (directly facing the Earth). Must be a value between 0.0 and 90.0
 
-[[PropertyBlockGetterAndSetter('Google Maps', 'Camera Angle')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Camera%20Angle%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Camera%20Angle%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Camera Rotation
 
@@ -594,7 +645,9 @@ Move the map's camera to the specified tilt, the angle (in degrees) from the nad
 
 Move the map's camera to the specified bearing, the direction that the camera is pointing in (in degrees clockwise from north).
 
-[[PropertyBlockGetterAndSetter('Google Maps', 'Camera Rotation')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Camera%20Rotation%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Camera%20Rotation%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Camera Zoom Level
 
@@ -602,7 +655,9 @@ Move the map's camera to the specified bearing, the direction that the camera is
 
 Move the map's camera to the specified zoom level.
 
-[[PropertyBlockGetterAndSetter('Google Maps', 'Camera Zoom Level')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Camera%20Zoom%20Level%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Camera%20Zoom%20Level%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Theme
 
@@ -610,7 +665,9 @@ Move the map's camera to the specified zoom level.
 
 Sets the theme of the map. The choices are "standard"(default), "silver", "retro", "dark", "night", "aubergine", "vintage", "kodular" and "roads-only".
 
-[[PropertyBlockGetterAndSetter('Google Maps', 'Theme')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Theme%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Theme%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Visible
 
@@ -618,7 +675,9 @@ Sets the theme of the map. The choices are "standard"(default), "silver", "retro
 
 Returns true iff the component is visible.
 
-[[PropertyBlockGetterAndSetter('Google Maps', 'Visible')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Column
 
@@ -632,7 +691,8 @@ Column property getter method.
 
 Indicates whether the compass widget is currently enabled in the map ui
 
-[[PropertyBlockGetter('Google Maps', 'Compass Enabled')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Compass%20Enabled%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Height
 
@@ -640,7 +700,9 @@ Indicates whether the compass widget is currently enabled in the map ui
 
 Specifies the component's vertical height, measured in pixels.
 
-[[PropertyBlockGetterAndSetter('Google Maps', 'Height')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Height%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Height%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Height Percent
 
@@ -648,7 +710,8 @@ Specifies the component's vertical height, measured in pixels.
 
 Specifies the component's vertical height as a percentageof the height of its parent Component.
 
-[[PropertyBlockGetterAndSetter('Google Maps', 'Height Percent')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Height%20Percent%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Map Camera Changed Listener Enabled
 
@@ -656,7 +719,8 @@ Specifies the component's vertical height as a percentageof the height of its pa
 
 Indicates if the map camera's position changed listener is currently enabled
 
-[[PropertyBlockGetter('Google Maps', 'Map Camera Changed Listener Enabled')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Map%20Camera%20Changed%20Listener%20Enabled%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Map Click Listener Enabled
 
@@ -664,7 +728,8 @@ Indicates if the map camera's position changed listener is currently enabled
 
 Indicates if the mapClick event listener is currently enabled
 
-[[PropertyBlockGetter('Google Maps', 'Map Click Listener Enabled')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Map%20Click%20Listener%20Enabled%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Map Long Click Listener Enabled
 
@@ -672,7 +737,8 @@ Indicates if the mapClick event listener is currently enabled
 
 Indicates if the map longClick listener is currently enabled
 
-[[PropertyBlockGetter('Google Maps', 'Map Long Click Listener Enabled')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Map%20Long%20Click%20Listener%20Enabled%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Map Type
 
@@ -680,7 +746,8 @@ Indicates if the map longClick listener is currently enabled
 
 Indicates the current map type
 
-[[PropertyBlockGetter('Google Maps', 'Map Type')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Map%20Type%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### My Location Enabled
 
@@ -688,7 +755,8 @@ Indicates the current map type
 
 Indicates whether my locaiton UI control is currently enabled for the Google map.
 
-[[PropertyBlockGetter('Google Maps', 'My Location Enabled')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22My%20Location%20Enabled%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Rotate Enabled
 
@@ -696,7 +764,8 @@ Indicates whether my locaiton UI control is currently enabled for the Google map
 
 Indicates whether the capability to rotate a map on the ui is currently enabled
 
-[[PropertyBlockGetter('Google Maps', 'Rotate Enabled')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Rotate%20Enabled%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Row
 
@@ -710,7 +779,8 @@ Row property getter method.
 
 Indicates whether the capability to scroll a map on the ui is currently enabled
 
-[[PropertyBlockGetter('Google Maps', 'Scroll Enabled')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Scroll%20Enabled%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Style
 
@@ -718,7 +788,8 @@ Indicates whether the capability to scroll a map on the ui is currently enabled
 
 Sets the style of the map from json. Just use a text field and paste there the json data. Create a custom map style at https://mapstyle.withgoogle.com/. Set the theme to "standard" to clear the style json.
 
-[[PropertyBlockGetterAndSetter('Google Maps', 'Style')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Style%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Width
 
@@ -726,7 +797,9 @@ Sets the style of the map from json. Just use a text field and paste there the j
 
 Specifies the component's horizontal width, measured in pixels.
 
-[[PropertyBlockGetterAndSetter('Google Maps', 'Width')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Width%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Width%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Width Percent
 
@@ -734,7 +807,8 @@ Specifies the component's horizontal width, measured in pixels.
 
 Specifies the component's horizontal width as a percentageof the Width of its parent Component.
 
-[[PropertyBlockGetterAndSetter('Google Maps', 'Width Percent')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Width%20Percent%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Zoom Control Enabled
 
@@ -742,7 +816,8 @@ Specifies the component's horizontal width as a percentageof the Width of its pa
 
 Indicates whether the zoom widget on the map ui is currently enabled
 
-[[PropertyBlockGetter('Google Maps', 'Zoom Control Enabled')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Zoom%20Control%20Enabled%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Zoom Gesture Enabled
 
@@ -750,4 +825,4 @@ Indicates whether the zoom widget on the map ui is currently enabled
 
 Indicates whether the zoom gesture is currently enabled
 
-[[PropertyBlockGetter('Google Maps', 'Zoom Gesture Enabled')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Zoom%20Gesture%20Enabled%22,%20%22getter%22:%20true%7D"></div>

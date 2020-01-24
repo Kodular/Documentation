@@ -26,13 +26,15 @@ The Map component provides three utilities for manipulating its boundaries withi
 
 User has changed the map bounds by panning or zooming the map.
 
-[[Event('Map', 'Bounds Change')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Bounds%20Change%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Double Tap At Point
 
 The user double-tapped at a point on the map. This event will be followed by a ZoomChanged event if zooming gestures are enabled and the map is not at the highest possible zoom level.
 
-[[Event('Map', 'Double Tap At Point', 'latitude', 'longitude')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Double%20Tap%20At%20Point%22,%20%22params%22:%20%5B%22latitude%22,%20%22longitude%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -44,7 +46,8 @@ The user double-tapped at a point on the map. This event will be followed by a Z
 
 The user clicked on a map feature.
 
-[[Event('Map', 'Feature Click', 'feature')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Feature%20Click%22,%20%22params%22:%20%5B%22feature%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -55,7 +58,8 @@ The user clicked on a map feature.
 
 The user dragged a map feature.
 
-[[Event('Map', 'Feature Drag', 'feature')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Feature%20Drag%22,%20%22params%22:%20%5B%22feature%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -66,7 +70,8 @@ The user dragged a map feature.
 
 The user long-pressed on a map feature.
 
-[[Event('Map', 'Feature Long Click', 'feature')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Feature%20Long%20Click%22,%20%22params%22:%20%5B%22feature%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -77,7 +82,8 @@ The user long-pressed on a map feature.
 
 The user started dragging a map feature.
 
-[[Event('Map', 'Feature Start Drag', 'feature')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Feature%20Start%20Drag%22,%20%22params%22:%20%5B%22feature%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -88,7 +94,8 @@ The user started dragging a map feature.
 
 The user stopped dragging a map feature.
 
-[[Event('Map', 'Feature Stop Drag', 'feature')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Feature%20Stop%20Drag%22,%20%22params%22:%20%5B%22feature%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -99,7 +106,8 @@ The user stopped dragging a map feature.
 
 A GeoJSON document was successfully read from url. The features specified in the document are provided as a list in features.
 
-[[Event('Map', 'Got Features', 'url', 'features')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Got%20Features%22,%20%22params%22:%20%5B%22url%22,%20%22features%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -111,7 +119,8 @@ A GeoJSON document was successfully read from url. The features specified in the
 
 An invalid coordinate was supplied during a maps operation. The message parameter will have more details about the issue.
 
-[[Event('Map', 'Invalid Point', 'message')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Invalid%20Point%22,%20%22params%22:%20%5B%22message%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -122,7 +131,8 @@ An invalid coordinate was supplied during a maps operation. The message paramete
 
 An error was encountered while processing a GeoJSON document at the given url. The responseCode parameter will contain an HTTP status code and the errorMessage parameter will contain a detailed error message.
 
-[[Event('Map', 'Load Error', 'url', 'responseCode', 'errorMessage')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Load%20Error%22,%20%22params%22:%20%5B%22url%22,%20%22response%20Code%22,%20%22error%20Message%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -135,7 +145,8 @@ An error was encountered while processing a GeoJSON document at the given url. T
 
 The user long-pressed at a point on the map.
 
-[[Event('Map', 'Long Press At Point', 'latitude', 'longitude')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Long%20Press%20At%20Point%22,%20%22params%22:%20%5B%22latitude%22,%20%22longitude%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -147,13 +158,15 @@ The user long-pressed at a point on the map.
 
 Map has been initialized and is ready for user interaction.
 
-[[Event('Map', 'Map Ready')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Map%20Ready%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Tap At Point
 
 The user tapped at a point on the map.
 
-[[Event('Map', 'Tap At Point', 'latitude', 'longitude')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Tap%20At%20Point%22,%20%22params%22:%20%5B%22latitude%22,%20%22longitude%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -165,7 +178,8 @@ The user tapped at a point on the map.
 
 User has changed the zoom level of the map.
 
-[[Event('Map', 'Zoom Change')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Zoom%20Change%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Methods
 
@@ -175,7 +189,8 @@ User has changed the zoom level of the map.
 
 Create a new marker with default properties at the specified latitude and longitude.
 
-[[Method('Map', 'Create Marker', True, 'latitude', 'longitude')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Create%20Marker%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22latitude%22,%20%22longitude%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -189,7 +204,8 @@ Create a new marker with default properties at the specified latitude and longit
 
 Convert a feature description into an App Inventor map feature. Currently the onlysupported conversion is from a GeoJSON point to Marker component. If the feature hasproperties, they will be mapped into App Inventor properties using the following mapping:description becomes Description;draggable becomes Draggable;infobox becomes EnableInfobox;fill becomes FillColor;fill-opacity becomes FillOpacity;image becomes ImageAsset;stroke becomes StrokeColor;stroke-opacity becomes StrokeOpacity;stroke-width becomes StrokeWidth;title becomes Title;visible becomes Visible
 
-[[Method('Map', 'Feature From Description', True, 'description')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Feature%20From%20Description%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22description%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -200,7 +216,8 @@ Convert a feature description into an App Inventor map feature. Currently the on
 
 Load a feature collection in [GeoJSON](https://en.wikipedia.org/wiki/GeoJSON) format from the given url. On success, the event GotFeatures will be raised with the given url and a list of the features parsed from the GeoJSON as a list of (key, value) pairs. On failure, the LoadError event will be raised with any applicable HTTP response code and error message.
 
-[[Method('Map', 'Load From URL', False, 'url')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Load%20From%20URL%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22url%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -211,7 +228,8 @@ Load a feature collection in [GeoJSON](https://en.wikipedia.org/wiki/GeoJSON) fo
 
 Pan the map center to the given latitude and longitude and adjust the zoom level to the specified zoom.
 
-[[Method('Map', 'Pan To', False, 'latitude', 'longitude', 'zoom')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Pan%20To%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22latitude%22,%20%22longitude%22,%20%22zoom%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -224,7 +242,8 @@ Pan the map center to the given latitude and longitude and adjust the zoom level
 
 Save the contents of the Map to the specified path.
 
-[[Method('Map', 'Save', False, 'path')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Save%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22path%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -241,7 +260,8 @@ Set the initial center coordinate of the map. The value is specified as a comma-
 
 In blocks code, it is recommended for performance reasons to use SetCenter with numerical latitude and longitude rather than convert to the string representation for use with this property.
 
-[[PropertyBlockGetterAndSetter('Map', 'Center From String')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Center%20From%20String%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Enable Pan
 
@@ -249,7 +269,9 @@ In blocks code, it is recommended for performance reasons to use SetCenter with 
 
 Enable two-finger panning of the Map
 
-[[PropertyBlockGetterAndSetter('Map', 'Enable Pan')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Enable%20Pan%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Enable%20Pan%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Enable Rotation
 
@@ -257,7 +279,9 @@ Enable two-finger panning of the Map
 
 Enable rotating the map based on the user's orientation.
 
-[[PropertyBlockGetterAndSetter('Map', 'Enable Rotation')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Enable%20Rotation%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Enable%20Rotation%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Enable Zoom
 
@@ -265,7 +289,9 @@ Enable rotating the map based on the user's orientation.
 
 Set whether the user can zoom the map using touch gestures. This value does not affectwhether the user can zoom using the zoom controls from
 
-[[PropertyBlockGetterAndSetter('Map', 'Enable Zoom')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Enable%20Zoom%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Enable%20Zoom%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Location Sensor
 
@@ -273,7 +299,8 @@ Set whether the user can zoom the map using touch gestures. This value does not 
 
 Uses the provided LocationSensor for user location data rather than the built-in location provider.
 
-[[PropertyBlockGetterAndSetter('Map', 'Location Sensor')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Location%20Sensor%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Map Type
 
@@ -285,7 +312,9 @@ Set the type of map tile used for the base tile layer. Valid values are:
 2.   Aerial
 3.   Terrain
 
-[[PropertyBlockGetterAndSetter('Map', 'Map Type')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Map%20Type%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Map%20Type%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Rotation
 
@@ -293,13 +322,17 @@ Set the type of map tile used for the base tile layer. Valid values are:
 
 Sets or gets the rotation of the map in decimal degrees if any
 
-[[PropertyBlockGetterAndSetter('Map', 'Rotation')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Rotation%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Rotation%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Scale Units
 
 <span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>1</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
-[[PropertyBlockGetterAndSetter('Map', 'Scale Units')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Scale%20Units%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Scale%20Units%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Show Compass
 
@@ -307,7 +340,9 @@ Sets or gets the rotation of the map in decimal degrees if any
 
 Show a compass on the map. If the device provides a digital compass, orientation changes willbe used to rotate the compass icon.
 
-[[PropertyBlockGetterAndSetter('Map', 'Show Compass')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Show%20Compass%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Show%20Compass%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Show Scale
 
@@ -315,7 +350,9 @@ Show a compass on the map. If the device provides a digital compass, orientation
 
 Shows a scale reference on the map.
 
-[[PropertyBlockGetterAndSetter('Map', 'Show Scale')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Show%20Scale%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Show%20Scale%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Show User
 
@@ -323,7 +360,9 @@ Shows a scale reference on the map.
 
 Show the user's location on the map.
 
-[[PropertyBlockGetterAndSetter('Map', 'Show User')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Show%20User%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Show%20User%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Show Zoom
 
@@ -331,7 +370,9 @@ Show the user's location on the map.
 
 Show the zoom controls on the map.
 
-[[PropertyBlockGetterAndSetter('Map', 'Show Zoom')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Show%20Zoom%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Show%20Zoom%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Visible
 
@@ -339,7 +380,9 @@ Show the zoom controls on the map.
 
 Returns true iff the component is visible.
 
-[[PropertyBlockGetterAndSetter('Map', 'Visible')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Zoom Level
 
@@ -349,7 +392,9 @@ Set the zoom level of the map.
 
 Valid values of ZoomLevel are dependent on the tile provider and the latitude andlongitude of the map. For example, zoom levels are more constrained over oceans than densecity centers to conserve space for storing tiles, so valid values may be 1-7 over ocean and1-18 over cities. Tile providers may send warning or error tiles if the zoom level is toogreat for the server to support.
 
-[[PropertyBlockGetterAndSetter('Map', 'Zoom Level')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Zoom%20Level%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Zoom%20Level%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Bounding Box
 
@@ -357,7 +402,9 @@ Valid values of ZoomLevel are dependent on the tile provider and the latitude an
 
 Bounding box for the map stored as [[North, West], [South, East]].
 
-[[PropertyBlockGetterAndSetter('Map', 'Bounding Box')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Bounding%20Box%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Bounding%20Box%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Column
 
@@ -371,7 +418,9 @@ Column property getter method.
 
 The list of features placed on this map. This list also includes any features created by calls to FeatureFromDescription
 
-[[PropertyBlockGetterAndSetter('Map', 'Features')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Features%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Features%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Height
 
@@ -379,7 +428,9 @@ The list of features placed on this map. This list also includes any features cr
 
 Specifies the component's vertical height, measured in pixels.
 
-[[PropertyBlockGetterAndSetter('Map', 'Height')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Height%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Height%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Height Percent
 
@@ -387,7 +438,8 @@ Specifies the component's vertical height, measured in pixels.
 
 Specifies the component's vertical height as a percentageof the height of its parent Component.
 
-[[PropertyBlockGetterAndSetter('Map', 'Height Percent')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Height%20Percent%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Latitude
 
@@ -395,7 +447,8 @@ Specifies the component's vertical height as a percentageof the height of its pa
 
 The latitude of the center of the map.
 
-[[PropertyBlockGetter('Map', 'Latitude')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Latitude%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Longitude
 
@@ -403,7 +456,8 @@ The latitude of the center of the map.
 
 The longitude of the center of the map.
 
-[[PropertyBlockGetter('Map', 'Longitude')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Longitude%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Row
 
@@ -417,7 +471,8 @@ Row property getter method.
 
 Returns the user's latitude if ShowUser is enabled.
 
-[[PropertyBlockGetter('Map', 'User Latitude')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22User%20Latitude%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### User Longitude
 
@@ -425,7 +480,8 @@ Returns the user's latitude if ShowUser is enabled.
 
 Returns the user's longitude if ShowUser is enabled.
 
-[[PropertyBlockGetter('Map', 'User Longitude')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22User%20Longitude%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Width
 
@@ -433,7 +489,9 @@ Returns the user's longitude if ShowUser is enabled.
 
 Specifies the component's horizontal width, measured in pixels.
 
-[[PropertyBlockGetterAndSetter('Map', 'Width')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Width%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Width%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Width Percent
 
@@ -441,4 +499,4 @@ Specifies the component's horizontal width, measured in pixels.
 
 Specifies the component's horizontal width as a percentageof the Width of its parent Component.
 
-[[PropertyBlockGetterAndSetter('Map', 'Width Percent')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Width%20Percent%22,%20%22getter%22:%20false%7D"></div>

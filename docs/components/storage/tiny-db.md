@@ -26,13 +26,15 @@ When you are developing apps using the AI Companion, all the apps using that com
 
 Clear the entire data store
 
-[[Method('Tiny DB', 'Clear All', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Tiny%20DB%22,%20%22name%22:%20%22Clear%20All%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Clear Tag
 
 Clear the entry with the given tag
 
-[[Method('Tiny DB', 'Clear Tag', False, 'tag')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Tiny%20DB%22,%20%22name%22:%20%22Clear%20Tag%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22tag%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -45,7 +47,8 @@ Clear the entry with the given tag
 
 Return a list of all the tags in the data store
 
-[[Method('Tiny DB', 'Get Tags', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Tiny%20DB%22,%20%22name%22:%20%22Get%20Tags%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Get Value
 
@@ -53,7 +56,8 @@ Return a list of all the tags in the data store
 
 Retrieve the value stored under the given tag. If there's no such tag, then return valueIfTagNotThere.
 
-[[Method('Tiny DB', 'Get Value', True, 'tag', 'valueIfTagNotThere')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Tiny%20DB%22,%20%22name%22:%20%22Get%20Value%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22tag%22,%20%22value%20If%20Tag%20Not%20There%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -65,7 +69,8 @@ Retrieve the value stored under the given tag. If there's no such tag, then retu
 
 Store the given value under the given tag. The storage persists on thephone when the app is restarted.
 
-[[Method('Tiny DB', 'Store Value', False, 'tag', 'valueToStore')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Tiny%20DB%22,%20%22name%22:%20%22Store%20Value%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22tag%22,%20%22value%20To%20Store%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -81,4 +86,5 @@ Store the given value under the given tag. The storage persists on thephone when
 
 Namespace for storing data.
 
-[[PropertyBlockGetterAndSetter('Tiny DB', 'Namespace')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Tiny%20DB%22,%20%22name%22:%20%22Namespace%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Tiny%20DB%22,%20%22name%22:%20%22Namespace%22,%20%22getter%22:%20false%7D"></div>

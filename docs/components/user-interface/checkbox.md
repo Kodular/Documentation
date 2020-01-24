@@ -14,25 +14,29 @@ Checkbox that raises an event when the user clicks on it. There are many propert
 
 Default Changed event handler.
 
-[[Event('Checkbox', 'Changed')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Checkbox%22,%20%22name%22:%20%22Changed%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Click
 
 Indicates a user has clicked on the checkbox.
 
-[[Event('Checkbox', 'Click')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Checkbox%22,%20%22name%22:%20%22Click%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Got Focus
 
 Default GotFocus event handler.
 
-[[Event('Checkbox', 'Got Focus')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Checkbox%22,%20%22name%22:%20%22Got%20Focus%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Lost Focus
 
 Default LostFocus event handler.
 
-[[Event('Checkbox', 'Lost Focus')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Checkbox%22,%20%22name%22:%20%22Lost%20Focus%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Methods
 
@@ -40,7 +44,8 @@ Default LostFocus event handler.
 
 Place a blurred shadow of text underneath the text, drawn with the specified x, y, radius, color (e.g. -11, 12, 13, black
 
-[[Method('Checkbox', 'Set Shadow', False, 'x', 'y', 'radius', 'color')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Checkbox%22,%20%22name%22:%20%22Set%20Shadow%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22x%22,%20%22y%22,%20%22radius%22,%20%22color%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -58,7 +63,9 @@ Place a blurred shadow of text underneath the text, drawn with the specified x, 
 
 Returns the checkbox's background color as an alpha-red-green-blueinteger.
 
-[[PropertyBlockGetterAndSetter('Checkbox', 'Background Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Checkbox%22,%20%22name%22:%20%22Background%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Checkbox%22,%20%22name%22:%20%22Background%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Checkbox Color
 
@@ -66,7 +73,9 @@ Returns the checkbox's background color as an alpha-red-green-blueinteger.
 
 Change the checkbox component color.
 
-[[PropertyBlockGetterAndSetter('Checkbox', 'Checkbox Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Checkbox%22,%20%22name%22:%20%22Checkbox%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Checkbox%22,%20%22name%22:%20%22Checkbox%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Checked
 
@@ -74,7 +83,9 @@ Change the checkbox component color.
 
 Returns true if the checkbox is checked.
 
-[[PropertyBlockGetterAndSetter('Checkbox', 'Checked')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Checkbox%22,%20%22name%22:%20%22Checked%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Checkbox%22,%20%22name%22:%20%22Checked%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Enabled
 
@@ -82,7 +93,9 @@ Returns true if the checkbox is checked.
 
 Returns true if the checkbox is active and clickable.
 
-[[PropertyBlockGetterAndSetter('Checkbox', 'Enabled')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Checkbox%22,%20%22name%22:%20%22Enabled%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Checkbox%22,%20%22name%22:%20%22Enabled%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Font Bold
 
@@ -104,7 +117,9 @@ If italic has been requested, this property will return true, even if thefont do
 
 Returns the checkbox's text's font size, measured in sp(scale-independent pixels).
 
-[[PropertyBlockGetterAndSetter('Checkbox', 'Font Size')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Checkbox%22,%20%22name%22:%20%22Font%20Size%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Checkbox%22,%20%22name%22:%20%22Font%20Size%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Font Typeface
 
@@ -120,7 +135,8 @@ Returns the checkbox's text's font face as default, serif, sansserif, or monospa
 
 Set a custom font.
 
-[[PropertyBlockGetterAndSetter('Checkbox', 'Font Typeface Import')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Checkbox%22,%20%22name%22:%20%22Font%20Typeface%20Import%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Text
 
@@ -128,7 +144,9 @@ Set a custom font.
 
 Returns the text displayed by the checkbox.
 
-[[PropertyBlockGetterAndSetter('Checkbox', 'Text')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Checkbox%22,%20%22name%22:%20%22Text%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Checkbox%22,%20%22name%22:%20%22Text%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Text Color
 
@@ -136,7 +154,9 @@ Returns the text displayed by the checkbox.
 
 Returns the checkbox's text color as an alpha-red-green-blueinteger.
 
-[[PropertyBlockGetterAndSetter('Checkbox', 'Text Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Checkbox%22,%20%22name%22:%20%22Text%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Checkbox%22,%20%22name%22:%20%22Text%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Visible
 
@@ -144,7 +164,9 @@ Returns the checkbox's text color as an alpha-red-green-blueinteger.
 
 Returns true iff the component is visible.
 
-[[PropertyBlockGetterAndSetter('Checkbox', 'Visible')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Checkbox%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Checkbox%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Column
 
@@ -158,7 +180,9 @@ Column property getter method.
 
 Specifies the component's vertical height, measured in pixels.
 
-[[PropertyBlockGetterAndSetter('Checkbox', 'Height')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Checkbox%22,%20%22name%22:%20%22Height%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Checkbox%22,%20%22name%22:%20%22Height%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Height Percent
 
@@ -166,7 +190,8 @@ Specifies the component's vertical height, measured in pixels.
 
 Specifies the component's vertical height as a percentageof the height of its parent Component.
 
-[[PropertyBlockGetterAndSetter('Checkbox', 'Height Percent')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Checkbox%22,%20%22name%22:%20%22Height%20Percent%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Row
 
@@ -180,7 +205,9 @@ Row property getter method.
 
 Specifies the component's horizontal width, measured in pixels.
 
-[[PropertyBlockGetterAndSetter('Checkbox', 'Width')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Checkbox%22,%20%22name%22:%20%22Width%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Checkbox%22,%20%22name%22:%20%22Width%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Width Percent
 
@@ -188,4 +215,4 @@ Specifies the component's horizontal width, measured in pixels.
 
 Specifies the component's horizontal width as a percentageof the Width of its parent Component.
 
-[[PropertyBlockGetterAndSetter('Checkbox', 'Width Percent')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Checkbox%22,%20%22name%22:%20%22Width%20Percent%22,%20%22getter%22:%20false%7D"></div>

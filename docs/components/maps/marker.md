@@ -14,31 +14,36 @@ An icon positioned at a point to indicate information on a map. Markers can be u
 
 The user clicked on the feature.
 
-[[Event('Marker', 'Click')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Marker%22,%20%22name%22:%20%22Click%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Drag
 
 The user dragged the map feature.
 
-[[Event('Marker', 'Drag')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Marker%22,%20%22name%22:%20%22Drag%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Long Click
 
 The user long-pressed on the feature. This event will only trigger if Draggable is false.
 
-[[Event('Marker', 'Long Click')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Marker%22,%20%22name%22:%20%22Long%20Click%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Start Drag
 
 The user started a drag operation.
 
-[[Event('Marker', 'Start Drag')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Marker%22,%20%22name%22:%20%22Start%20Drag%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Stop Drag
 
 The user stopped a drag operation.
 
-[[Event('Marker', 'Stop Drag')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Marker%22,%20%22name%22:%20%22Stop%20Drag%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Methods
 
@@ -48,7 +53,8 @@ The user stopped a drag operation.
 
 Returns the bearing from the Marker to the given map feature, in degrees from due north. If the centroids parameter is true, the bearing will be to the center of the map feature. Otherwise, the bearing will be computed to the point in the feature nearest the Marker.
 
-[[Method('Marker', 'Bearing To Feature', True, 'mapFeature', 'centroids')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Marker%22,%20%22name%22:%20%22Bearing%20To%20Feature%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22map%20Feature%22,%20%22centroids%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -62,7 +68,8 @@ Returns the bearing from the Marker to the given map feature, in degrees from du
 
 Returns the bearing from the Marker to the given latitude and longitude, in degrees from due north.
 
-[[Method('Marker', 'Bearing To Point', True, 'latitude', 'longitude')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Marker%22,%20%22name%22:%20%22Bearing%20To%20Point%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22latitude%22,%20%22longitude%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -76,7 +83,8 @@ Returns the bearing from the Marker to the given latitude and longitude, in degr
 
 Compute the distance, in meters, between two map features.
 
-[[Method('Marker', 'Distance To Feature', True, 'mapFeature', 'centroids')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Marker%22,%20%22name%22:%20%22Distance%20To%20Feature%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22map%20Feature%22,%20%22centroids%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -90,7 +98,8 @@ Compute the distance, in meters, between two map features.
 
 Compute the distance, in meters, between a map feature and a latitude, longitude point.
 
-[[Method('Marker', 'Distance To Point', True, 'latitude', 'longitude')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Marker%22,%20%22name%22:%20%22Distance%20To%20Point%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22latitude%22,%20%22longitude%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -102,13 +111,15 @@ Compute the distance, in meters, between a map feature and a latitude, longitude
 
 Hide the infobox if it is shown. If the infobox is not visible this function has no effect.
 
-[[Method('Marker', 'Hide Infobox', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Marker%22,%20%22name%22:%20%22Hide%20Infobox%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Set Location
 
 Set the location of the marker.
 
-[[Method('Marker', 'Set Location', False, 'latitude', 'longitude')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Marker%22,%20%22name%22:%20%22Set%20Location%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22latitude%22,%20%22longitude%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -120,7 +131,8 @@ Set the location of the marker.
 
 Show the infobox for the feature. This will show the infobox even if
 
-[[Method('Marker', 'Show Infobox', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Marker%22,%20%22name%22:%20%22Show%20Infobox%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Properties
 
@@ -130,7 +142,9 @@ Show the infobox for the feature. This will show the infobox even if
 
 The horizontal alignment property controls where the Marker's anchor is located relative to its width.
 
-[[PropertyBlockGetterAndSetter('Marker', 'Anchor Horizontal')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Marker%22,%20%22name%22:%20%22Anchor%20Horizontal%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Marker%22,%20%22name%22:%20%22Anchor%20Horizontal%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Anchor Vertical
 
@@ -138,7 +152,9 @@ The horizontal alignment property controls where the Marker's anchor is located 
 
 The vertical alignment property controls where the Marker's anchor is located relative to its height.
 
-[[PropertyBlockGetterAndSetter('Marker', 'Anchor Vertical')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Marker%22,%20%22name%22:%20%22Anchor%20Vertical%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Marker%22,%20%22name%22:%20%22Anchor%20Vertical%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Description
 
@@ -146,7 +162,9 @@ The vertical alignment property controls where the Marker's anchor is located re
 
 The description displayed in the info window that appears when the user clicks on the map feature.
 
-[[PropertyBlockGetterAndSetter('Marker', 'Description')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Marker%22,%20%22name%22:%20%22Description%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Marker%22,%20%22name%22:%20%22Description%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Draggable
 
@@ -154,7 +172,9 @@ The description displayed in the info window that appears when the user clicks o
 
 The Draggable property is used to set whether or not the user can drag the Marker by long-pressing and then dragging the marker to a new location.
 
-[[PropertyBlockGetterAndSetter('Marker', 'Draggable')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Marker%22,%20%22name%22:%20%22Draggable%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Marker%22,%20%22name%22:%20%22Draggable%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Enable Infobox
 
@@ -162,7 +182,9 @@ The Draggable property is used to set whether or not the user can drag the Marke
 
 Enable or disable the infobox window display when the user taps the feature.
 
-[[PropertyBlockGetterAndSetter('Marker', 'Enable Infobox')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Marker%22,%20%22name%22:%20%22Enable%20Infobox%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Marker%22,%20%22name%22:%20%22Enable%20Infobox%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Fill Color
 
@@ -170,7 +192,9 @@ Enable or disable the infobox window display when the user taps the feature.
 
 The paint color used to fill in the map feature.
 
-[[PropertyBlockGetterAndSetter('Marker', 'Fill Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Marker%22,%20%22name%22:%20%22Fill%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Marker%22,%20%22name%22:%20%22Fill%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Fill Opacity
 
@@ -178,7 +202,9 @@ The paint color used to fill in the map feature.
 
 The opacity of the interior of the map feature.
 
-[[PropertyBlockGetterAndSetter('Marker', 'Fill Opacity')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Marker%22,%20%22name%22:%20%22Fill%20Opacity%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Marker%22,%20%22name%22:%20%22Fill%20Opacity%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Image Asset
 
@@ -186,19 +212,25 @@ The opacity of the interior of the map feature.
 
 The ImageAsset property is used to provide an alternative image for the Marker.
 
-[[PropertyBlockGetterAndSetter('Marker', 'Image Asset')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Marker%22,%20%22name%22:%20%22Image%20Asset%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Marker%22,%20%22name%22:%20%22Image%20Asset%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Latitude
 
 <span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>0</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
-[[PropertyBlockGetterAndSetter('Marker', 'Latitude')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Marker%22,%20%22name%22:%20%22Latitude%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Marker%22,%20%22name%22:%20%22Latitude%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Longitude
 
 <span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>0</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
-[[PropertyBlockGetterAndSetter('Marker', 'Longitude')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Marker%22,%20%22name%22:%20%22Longitude%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Marker%22,%20%22name%22:%20%22Longitude%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Stroke Color
 
@@ -206,7 +238,9 @@ The ImageAsset property is used to provide an alternative image for the Marker.
 
 The paint color used to outline the map feature.
 
-[[PropertyBlockGetterAndSetter('Marker', 'Stroke Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Marker%22,%20%22name%22:%20%22Stroke%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Marker%22,%20%22name%22:%20%22Stroke%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Stroke Opacity
 
@@ -214,7 +248,9 @@ The paint color used to outline the map feature.
 
 The opacity of the stroke used to outline the map feature.
 
-[[PropertyBlockGetterAndSetter('Marker', 'Stroke Opacity')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Marker%22,%20%22name%22:%20%22Stroke%20Opacity%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Marker%22,%20%22name%22:%20%22Stroke%20Opacity%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Stroke Width
 
@@ -222,7 +258,9 @@ The opacity of the stroke used to outline the map feature.
 
 The width of the stroke used to outline the map feature.
 
-[[PropertyBlockGetterAndSetter('Marker', 'Stroke Width')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Marker%22,%20%22name%22:%20%22Stroke%20Width%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Marker%22,%20%22name%22:%20%22Stroke%20Width%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Title
 
@@ -230,7 +268,9 @@ The width of the stroke used to outline the map feature.
 
 The title displayed in the info window that appears when the user clicks on the map feature.
 
-[[PropertyBlockGetterAndSetter('Marker', 'Title')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Marker%22,%20%22name%22:%20%22Title%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Marker%22,%20%22name%22:%20%22Title%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Visible
 
@@ -238,19 +278,24 @@ The title displayed in the info window that appears when the user clicks on the 
 
 Specifies whether the component should be visible on the screen. Value is true if the component is showing and false if hidden.
 
-[[PropertyBlockGetterAndSetter('Marker', 'Visible')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Marker%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Marker%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Height
 
 <span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Blocks</span> 
 
-[[PropertyBlockGetterAndSetter('Marker', 'Height')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Marker%22,%20%22name%22:%20%22Height%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Marker%22,%20%22name%22:%20%22Height%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Height Percent
 
 <span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Blocks</span> 
 
-[[PropertyBlockGetterAndSetter('Marker', 'Height Percent')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Marker%22,%20%22name%22:%20%22Height%20Percent%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### ShowShadow
 
@@ -262,16 +307,19 @@ Gets whether or not the shadow of the Marker is shown.
 
 <span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
-[[PropertyBlockGetter('Marker', 'Type')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Marker%22,%20%22name%22:%20%22Type%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Width
 
 <span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Blocks</span> 
 
-[[PropertyBlockGetterAndSetter('Marker', 'Width')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Marker%22,%20%22name%22:%20%22Width%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Marker%22,%20%22name%22:%20%22Width%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Width Percent
 
 <span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Blocks</span> 
 
-[[PropertyBlockGetterAndSetter('Marker', 'Width Percent')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Marker%22,%20%22name%22:%20%22Width%20Percent%22,%20%22getter%22:%20false%7D"></div>

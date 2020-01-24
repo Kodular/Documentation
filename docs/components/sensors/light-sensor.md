@@ -16,7 +16,8 @@ A non-visible component that gets the current illuminance level around the devic
 
 Event that fires when the illuminance is changed
 
-[[Event('Light Sensor', 'Light Changed', 'illuminance')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Light%20Sensor%22,%20%22name%22:%20%22Light%20Changed%22,%20%22params%22:%20%5B%22illuminance%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -31,7 +32,9 @@ Event that fires when the illuminance is changed
 
 Whether Sensor should be Enabled
 
-[[PropertyBlockGetterAndSetter('Light Sensor', 'Enabled')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Light%20Sensor%22,%20%22name%22:%20%22Enabled%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Light%20Sensor%22,%20%22name%22:%20%22Enabled%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Available
 
@@ -39,7 +42,8 @@ Whether Sensor should be Enabled
 
 Whether Sensor is Available
 
-[[PropertyBlockGetter('Light Sensor', 'Available')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Light%20Sensor%22,%20%22name%22:%20%22Available%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Illuminance
 
@@ -47,4 +51,4 @@ Whether Sensor is Available
 
 Returns the illuminance in lux. To return values the sensor must be enabled
 
-[[PropertyBlockGetter('Light Sensor', 'Illuminance')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Light%20Sensor%22,%20%22name%22:%20%22Illuminance%22,%20%22getter%22:%20true%7D"></div>

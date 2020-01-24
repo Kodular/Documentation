@@ -20,13 +20,15 @@ Top-level component containing all other components in the program.
 
 Device back button pressed.
 
-[[Event('Form', 'Back Pressed')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22Back%20Pressed%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Error Occurred
 
 Event raised when an error occurs. Only some errors will raise this condition. For those errors, the system will show a notification by default. You can use this event handler to prescribe an error behavior different than the default.
 
-[[Event('Form', 'Error Occurred', 'component', 'functionName', 'errorNumber', 'message')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22Error%20Occurred%22,%20%22params%22:%20%5B%22component%22,%20%22function%20Name%22,%20%22error%20Number%22,%20%22message%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -40,7 +42,8 @@ Event raised when an error occurs. Only some errors will raise this condition. F
 
 Event to detect that a user shared content to your app throw the sharing dialog of any other app. Type stand for integer. 0 = nothing shared, 1 = audio, 2 = image, 3 = text or 4 = video
 
-[[Event('Form', 'Got Received Shared', 'type', 'value')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22Got%20Received%20Shared%22,%20%22params%22:%20%5B%22type%22,%20%22value%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -52,13 +55,15 @@ Event to detect that a user shared content to your app throw the sharing dialog 
 
 Screen starting
 
-[[Event('Form', 'Initialize')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22Initialize%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Keyboard Visibility Changed
 
 Event will be invoked if the keyboard was visible or invisible.
 
-[[Event('Form', 'Keyboard Visibility Changed', 'isKeyboardVisible')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22Keyboard%20Visibility%20Changed%22,%20%22params%22:%20%5B%22is%20Keyboard%20Visible%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -69,13 +74,15 @@ Event will be invoked if the keyboard was visible or invisible.
 
 Event to detect when the menu has loaded. Set here your blocks like TitleBarIcon or AddMenuItem.
 
-[[Event('Form', 'Menu Initialize')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22Menu%20Initialize%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Menu Item Selected
 
 Event to detect when a menu item has been selected.
 
-[[Event('Form', 'Menu Item Selected', 'menuItem')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22Menu%20Item%20Selected%22,%20%22params%22:%20%5B%22menu%20Item%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -86,25 +93,29 @@ Event to detect when a menu item has been selected.
 
 The system calls this method as the first indication that the user is leaving your activity (though it does not always mean the activity is being destroyed).
 
-[[Event('Form', 'On App Pause')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22On%20App%20Pause%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### On App Resume
 
 When the activity enters the Resumed state, it comes to the foreground, and then the system invokes this event.
 
-[[Event('Form', 'On App Resume')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22On%20App%20Resume%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### On App Stop
 
 When your activity is no longer visible to the user, it has entered the Stopped state, and the system invokes this event.
 
-[[Event('Form', 'On App Stop')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22On%20App%20Stop%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Other Screen Closed
 
 Event raised when another screen has closed and control has returned to this screen.
 
-[[Event('Form', 'Other Screen Closed', 'otherScreenName', 'result')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22Other%20Screen%20Closed%22,%20%22params%22:%20%5B%22other%20Screen%20Name%22,%20%22result%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -116,7 +127,8 @@ Event raised when another screen has closed and control has returned to this scr
 
 Event to handle when the app user has denied a needed permission.
 
-[[Event('Form', 'Permission Denied', 'component', 'functionName', 'permissionName')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22Permission%20Denied%22,%20%22params%22:%20%5B%22component%22,%20%22function%20Name%22,%20%22permission%20Name%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -129,7 +141,8 @@ Event to handle when the app user has denied a needed permission.
 
 Event to handle when the app user has granted a needed permission. This event is only run when permission isgranted in response to the AskForPermission method.
 
-[[Event('Form', 'Permission Granted', 'permissionName')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22Permission%20Granted%22,%20%22params%22:%20%5B%22permission%20Name%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -140,25 +153,29 @@ Event to handle when the app user has granted a needed permission. This event is
 
 Screen orientation changed
 
-[[Event('Form', 'Screen Orientation Changed')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22Screen%20Orientation%20Changed%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Side Menu Closed
 
 Event will be invoked if the side menu was closed.
 
-[[Event('Form', 'Side Menu Closed')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22Side%20Menu%20Closed%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Side Menu Opened
 
 Event will be invoked if the side menu was opened.
 
-[[Event('Form', 'Side Menu Opened')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22Side%20Menu%20Opened%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Title Bar Icon Selected
 
 The event returns the 'icon' or 'name' of the selected icon.
 
-[[Event('Form', 'Title Bar Icon Selected', 'icon', 'name')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22Title%20Bar%20Icon%20Selected%22,%20%22params%22:%20%5B%22icon%22,%20%22name%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -170,7 +187,8 @@ The event returns the 'icon' or 'name' of the selected icon.
 
 Event to detect when a menu item has been selected.
 
-[[Event('Form', 'Title Bar Back Button Clicked')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22Title%20Bar%20Back%20Button%20Clicked%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Methods
 
@@ -178,7 +196,8 @@ Event to detect when a menu item has been selected.
 
 Add a new item to the menu. Use the 'make a list' block.
 
-[[Method('Form', 'Add Menu Item', False, 'menuItem')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22Add%20Menu%20Item%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22menu%20Item%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -189,7 +208,8 @@ Add a new item to the menu. Use the 'make a list' block.
 
 Add a new item with a icon on the left side to the menu. This function does not use the make a list block. If you want more items with icon then use this block again.
 
-[[Method('Form', 'Add Menu Item With Icon', False, 'menuItem', 'menuIcon')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22Add%20Menu%20Item%20With%20Icon%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22menu%20Item%22,%20%22menu%20Icon%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -201,7 +221,8 @@ Add a new item with a icon on the left side to the menu. This function does not 
 
 Add a new action icon to the TitleBar. You will see a toast message on a long click with your choosen name. Add this block to the "MenuInitialize" event.
 
-[[Method('Form', 'Add Title Bar Icon', False, 'icon', 'name')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22Add%20Title%20Bar%20Icon%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22icon%22,%20%22name%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -215,13 +236,15 @@ Add a new action icon to the TitleBar. You will see a toast message on a long cl
 
 Returns true if ALL needed app permissions were granted, else false.
 
-[[Method('Form', 'Are Permissions Granted', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22Are%20Permissions%20Granted%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Ask For Permission
 
 Ask the user to grant access to a dangerous permission.
 
-[[Method('Form', 'Ask For Permission', False, 'permissionName')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22Ask%20For%20Permission%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22permission%20Name%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -234,73 +257,85 @@ Ask the user to grant access to a dangerous permission.
 
 Returns true if the app can write system settings, else it returns false. It will return true automatic for devices with android version below 6 (API 23).
 
-[[Method('Form', 'Can Write System Settings', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22Can%20Write%20System%20Settings%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Hide Keyboard
 
 Hide the keyboard.
 
-[[Method('Form', 'Hide Keyboard', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22Hide%20Keyboard%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Lock Side Menu
 
 Use this block to lock the side menu. This means the user can not open the side menu until the side menu unlock block is used.
 
-[[Method('Form', 'Lock Side Menu', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22Lock%20Side%20Menu%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Move Task To Back
 
 Move task to back. That means it will minimize your current app.
 
-[[Method('Form', 'Move Task To Back', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22Move%20Task%20To%20Back%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Open App Settings
 
 Opens the settings screen of the app. Useful if 'Are Permissions Granted' has returned false.
 
-[[Method('Form', 'Open App Settings', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22Open%20App%20Settings%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Open System Write Settings
 
 Opens the app's system settings page. This works only for devices with android 6+.
 
-[[Method('Form', 'Open System Write Settings', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22Open%20System%20Write%20Settings%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Remove Side Menu
 
 Remove a first created side menu. This block will be usefull if you need to update a side menu dynamically. You can use this block too to test a side menu in the companion. Add then this block above of the 'Side Menu' block.
 
-[[Method('Form', 'Remove Side Menu', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22Remove%20Side%20Menu%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Remove Title Bar Icons
 
 Remove all added action icons from the TitleBar.
 
-[[Method('Form', 'Remove Title Bar Icons', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22Remove%20Title%20Bar%20Icons%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Reset Options Menu
 
 Reset the menu back to its default
 
-[[Method('Form', 'Reset Options Menu', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22Reset%20Options%20Menu%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Show About Application
 
 Show the dialog which shows when pressing the "About This Application" button in the menu.
 
-[[Method('Form', 'Show About Application', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22Show%20About%20Application%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Show Keyboard
 
 Show the keyboard
 
-[[Method('Form', 'Show Keyboard', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22Show%20Keyboard%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Side Menu
 
 Create a Side Menu. Set to "layout" your layout that will be then your side menu. Use as example a vertical arrangement. Your choosen layout will be then removed from the screen and only visible in the side menu."Information": This block works on companion only if you add a side menu on button click.Don’t add it in companion on "screen initialize event". Else the companion will crash.Do NOT use this block with the Side Menu Layout component
 
-[[Method('Form', 'Side Menu', False, 'layout')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22Side%20Menu%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22layout%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -311,19 +346,22 @@ Create a Side Menu. Set to "layout" your layout that will be then your side menu
 
 If you had set your side menu then you can use this block to close it as example with a button click.
 
-[[Method('Form', 'Side Menu Close', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22Side%20Menu%20Close%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Side Menu Open
 
 If you had set your side menu then you can use this block to open it as example with a button click.
 
-[[Method('Form', 'Side Menu Open', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22Side%20Menu%20Open%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Task Description
 
 Sets information describing the task with this activity for presentation inside the Recents System UI. You will see the settings if the device API is &gt;= 21 and you minimize the app.
 
-[[Method('Form', 'Task Description', False, 'text', 'color')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22Task%20Description%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22text%22,%20%22color%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -335,7 +373,8 @@ Sets information describing the task with this activity for presentation inside 
 
 Use this block to unlock the side menu. This means the user can now open again the side menu.
 
-[[Method('Form', 'Unlock Side Menu', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22Unlock%20Side%20Menu%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Version Code
 
@@ -343,7 +382,8 @@ Use this block to unlock the side menu. This means the user can now open again t
 
 This block will returns the version code
 
-[[Method('Form', 'Version Code', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22Version%20Code%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Version Name
 
@@ -351,7 +391,8 @@ This block will returns the version code
 
 This block will returns the version name
 
-[[Method('Form', 'Version Name', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22Version%20Name%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Properties
 
@@ -361,19 +402,25 @@ This block will returns the version name
 
 Information about the screen. It appears when "About this Application" is selected from the system menu. Use it to inform people about your app. In multiple screen apps, each screen has its own AboutScreen info.
 
-[[PropertyBlockGetterAndSetter('Form', 'About Screen')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22About%20Screen%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22About%20Screen%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### About Screen Background Color
 
 <span class="chip chip-color">Color</span> <span class="chip chip-color" style="background-color: #444444;">Default: <i>#444444FF</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
-[[PropertyBlockGetterAndSetter('Form', 'About Screen Background Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22About%20Screen%20Background%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22About%20Screen%20Background%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### About Screen Light Theme
 
 <span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>False</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
-[[PropertyBlockGetterAndSetter('Form', 'About Screen Light Theme')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22About%20Screen%20Light%20Theme%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22About%20Screen%20Light%20Theme%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### About Screen Title
 
@@ -381,7 +428,8 @@ Information about the screen. It appears when "About this Application" is select
 
 Define the title of the about application option.
 
-[[PropertyBlockGetterAndSetter('Form', 'About Screen Title')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22About%20Screen%20Title%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Accent Color
 
@@ -395,7 +443,9 @@ This is the accent color used for highlights and other user interface accents.
 
 A number that encodes how contents of the screen are aligned horizontally. The choices are: 1 = left aligned, 2 = horizontally centered, 3 = right aligned.
 
-[[PropertyBlockGetterAndSetter('Form', 'Align Horizontal')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22Align%20Horizontal%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22Align%20Horizontal%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Align Vertical
 
@@ -403,7 +453,9 @@ A number that encodes how contents of the screen are aligned horizontally. The c
 
 A number that encodes how the contents of the arrangement are aligned vertically. The choices are: 1 = aligned at the top, 2 = vertically centered, 3 = aligned at the bottom. Vertical alignment has no effect if the screen is scrollable.
 
-[[PropertyBlockGetterAndSetter('Form', 'Align Vertical')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22Align%20Vertical%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22Align%20Vertical%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### App ID
 
@@ -423,7 +475,9 @@ This is the display name of the installed application in the phone.If the AppNam
 
 BackgroundColor property getter method.
 
-[[PropertyBlockGetterAndSetter('Form', 'Background Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22Background%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22Background%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Background Image
 
@@ -431,7 +485,9 @@ BackgroundColor property getter method.
 
 The screen background image.
 
-[[PropertyBlockGetterAndSetter('Form', 'Background Image')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22Background%20Image%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22Background%20Image%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Close Screen Animation
 
@@ -439,7 +495,9 @@ The screen background image.
 
 The animation for closing current screen and returning to the previous screen. Valid options are default, fade, zoom, slidehorizontal, slidevertical, and none
 
-[[PropertyBlockGetterAndSetter('Form', 'Close Screen Animation')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22Close%20Screen%20Animation%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22Close%20Screen%20Animation%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### High Quality Images
 
@@ -449,7 +507,9 @@ The animation for closing current screen and returning to the previous screen. V
 
 If set to true, pictures will be loaded in high quality.
 
-[[PropertyBlockGetterAndSetter('Form', 'High Quality Images')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22High%20Quality%20Images%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22High%20Quality%20Images%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Icon
 
@@ -465,7 +525,9 @@ Specifies the name of the application icon.
 
 Keep the device's screen turned on and bright.
 
-[[PropertyBlockGetterAndSetter('Form', 'Keep Screen On')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22Keep%20Screen%20On%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22Keep%20Screen%20On%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Min SDK (Min. Android Version)
 
@@ -479,7 +541,9 @@ Keep the device's screen turned on and bright.
 
 Set navigation bar color. This will work starting from API Level 21 (Android Lollipop)
 
-[[PropertyBlockGetterAndSetter('Form', 'Navigation Bar Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22Navigation%20Bar%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22Navigation%20Bar%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Open Screen Animation
 
@@ -487,7 +551,9 @@ Set navigation bar color. This will work starting from API Level 21 (Android Lol
 
 The animation for switching to another screen. Valid options are default, fade, zoom, slidehorizontal, slidevertical, and none
 
-[[PropertyBlockGetterAndSetter('Form', 'Open Screen Animation')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22Open%20Screen%20Animation%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22Open%20Screen%20Animation%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Package Name
 
@@ -525,7 +591,9 @@ This is the primary color used for darker elements in Material UI.
 
 The requested screen orientation, specified as a text value. Commonly used values are landscape, portrait, sensor, user and unspecified. See the Android developer documentation for ActivityInfo.Screen_Orientation for the complete list of possible settings.
 
-[[PropertyBlockGetterAndSetter('Form', 'Screen Orientation')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22Screen%20Orientation%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22Screen%20Orientation%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Scrollable
 
@@ -533,7 +601,9 @@ The requested screen orientation, specified as a text value. Commonly used value
 
 When checked, there will be a vertical scrollbar on the screen, and the height of the application can exceed the physical height of the device. When unchecked, the application height is constrained to the height of the device.
 
-[[PropertyBlockGetterAndSetter('Form', 'Scrollable')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22Scrollable%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22Scrollable%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Show Lists As Json
 
@@ -551,7 +621,9 @@ If false, lists will be converted to strings using Lisp notation, i.e., as symbo
 
 Show/Hide Navigation Bar
 
-[[PropertyBlockGetterAndSetter('Form', 'Show Navigation Bar')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22Show%20Navigation%20Bar%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22Show%20Navigation%20Bar%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Show Options Menu
 
@@ -563,7 +635,9 @@ Show/Hide Navigation Bar
 
 The status bar is the topmost bar on the screen. This property reports whether the status bar is visible.
 
-[[PropertyBlockGetterAndSetter('Form', 'Show Status Bar')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22Show%20Status%20Bar%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22Show%20Status%20Bar%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Sizing
 
@@ -597,7 +671,9 @@ Sets the theme used by the application.
 
 The caption for the form, which apears in the title bar
 
-[[PropertyBlockGetterAndSetter('Form', 'Title')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22Title%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22Title%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Title Bar Font Typeface
 
@@ -609,7 +685,9 @@ The caption for the form, which apears in the title bar
 
 Set the TitleBar's subtitle.
 
-[[PropertyBlockGetterAndSetter('Form', 'Title Bar Subtitle')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22Title%20Bar%20Subtitle%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22Title%20Bar%20Subtitle%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Title Bar Typeface Import
 
@@ -619,7 +697,8 @@ Set the TitleBar's subtitle.
 
 Set a custom font.
 
-[[PropertyBlockGetterAndSetter('Form', 'Title Bar Typeface Import')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22Title%20Bar%20Typeface%20Import%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Title Visible
 
@@ -627,7 +706,9 @@ Set a custom font.
 
 The title bar is the top gray bar on the screen. This property reports whether the title bar is visible.
 
-[[PropertyBlockGetterAndSetter('Form', 'Title Visible')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22Title%20Visible%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22Title%20Visible%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Tutorial URL
 
@@ -653,7 +734,9 @@ A string which can be changed to allow Google Play Store users to distinguish be
 
 Set the drawer arrow icon color.
 
-[[PropertyBlockGetterAndSetter('Form', 'Drawer Arrow Icon Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22Drawer%20Arrow%20Icon%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22Drawer%20Arrow%20Icon%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Height
 
@@ -661,7 +744,8 @@ Set the drawer arrow icon color.
 
 Screen height (y-size).
 
-[[PropertyBlockGetter('Form', 'Height')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22Height%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Is Companion
 
@@ -669,7 +753,8 @@ Screen height (y-size).
 
 This block will return true, if you are running your project current in the companion application. Else it will return false.
 
-[[PropertyBlockGetter('Form', 'Is Companion')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22Is%20Companion%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### is Side Menu Added
 
@@ -677,7 +762,8 @@ This block will return true, if you are running your project current in the comp
 
 Returns true if a side menu is added to the screen.
 
-[[PropertyBlockGetter('Form', 'is Side Menu Added')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22is%20Side%20Menu%20Added%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### is Side Menu Open
 
@@ -685,7 +771,8 @@ Returns true if a side menu is added to the screen.
 
 Returns true if a side menu is current open. Else it will return false.
 
-[[PropertyBlockGetter('Form', 'is Side Menu Open')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22is%20Side%20Menu%20Open%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Navigation Bar Light Icons
 
@@ -693,7 +780,9 @@ Returns true if a side menu is current open. Else it will return false.
 
 This option tells the system to use dark navigation bar icons, useful for lighter colored navigation bars. Works only for devices with API &gt;= 26.
 
-[[PropertyBlockGetterAndSetter('Form', 'Navigation Bar Light Icons')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22Navigation%20Bar%20Light%20Icons%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22Navigation%20Bar%20Light%20Icons%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Navigation Icon Color
 
@@ -701,7 +790,9 @@ This option tells the system to use dark navigation bar icons, useful for lighte
 
 Set the navigation icon color.
 
-[[PropertyBlockGetterAndSetter('Form', 'Navigation Icon Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22Navigation%20Icon%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22Navigation%20Icon%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Options Menu Icon Color
 
@@ -709,7 +800,9 @@ Set the navigation icon color.
 
 Set the options menu icon color.
 
-[[PropertyBlockGetterAndSetter('Form', 'Options Menu Icon Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22Options%20Menu%20Icon%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22Options%20Menu%20Icon%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Show Title Bar Back Button
 
@@ -717,7 +810,9 @@ Set the options menu icon color.
 
 If true it will show in the TitleBar a back button only if no side menu was added. If a side menu was added it will remove the ‘hamburger’-menu icon but the side menu can still be opened.
 
-[[PropertyBlockGetterAndSetter('Form', 'Show Title Bar Back Button')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22Show%20Title%20Bar%20Back%20Button%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22Show%20Title%20Bar%20Back%20Button%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Status Bar Color
 
@@ -725,7 +820,9 @@ If true it will show in the TitleBar a back button only if no side menu was adde
 
 Set status bar color. This will work starting from API Level 21 (Android Lollipop
 
-[[PropertyBlockGetterAndSetter('Form', 'Status Bar Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22Status%20Bar%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22Status%20Bar%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Status Bar Light Icons
 
@@ -733,7 +830,9 @@ Set status bar color. This will work starting from API Level 21 (Android Lollipo
 
 This option tells the system to use dark statusbar icons, useful for lighter colored status bars. Works only for devices with API &gt;= 23.
 
-[[PropertyBlockGetterAndSetter('Form', 'Status Bar Light Icons')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22Status%20Bar%20Light%20Icons%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22Status%20Bar%20Light%20Icons%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Title Bar Color
 
@@ -741,7 +840,9 @@ This option tells the system to use dark statusbar icons, useful for lighter col
 
 Set title bar color
 
-[[PropertyBlockGetterAndSetter('Form', 'Title Bar Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22Title%20Bar%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22Title%20Bar%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Title Bar Text Color
 
@@ -749,7 +850,9 @@ Set title bar color
 
 Set a custom color for the TitleBar text.
 
-[[PropertyBlockGetterAndSetter('Form', 'Title Bar Text Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22Title%20Bar%20Text%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22Title%20Bar%20Text%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Width
 
@@ -757,7 +860,8 @@ Set a custom color for the TitleBar text.
 
 Screen width (x-size).
 
-[[PropertyBlockGetter('Form', 'Width')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22Width%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### is Keyboard Visible
 
@@ -765,4 +869,4 @@ Screen width (x-size).
 
 Returns the status of the keyboard. If the keyboard is visible then the result is true.
 
-[[PropertyBlockGetter('Form', 'is Keyboard Visible')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Form%22,%20%22name%22:%20%22is%20Keyboard%20Visible%22,%20%22getter%22:%20true%7D"></div>

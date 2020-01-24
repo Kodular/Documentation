@@ -21,7 +21,8 @@ A non-visible component that allows for uploading of images, videos, audios and 
 
 Event raised after the Upload Media block has been used
 
-[[Event('Cloudinary', 'Media Uploaded', 'responseContent', 'url')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Cloudinary%22,%20%22name%22:%20%22Media%20Uploaded%22,%20%22params%22:%20%5B%22response%20Content%22,%20%22url%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -35,7 +36,8 @@ Event raised after the Upload Media block has been used
 
 Uploads the specified media file to your Cloudinary media library.
 
-[[Method('Cloudinary', 'Upload Media', False, 'path')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Cloudinary%22,%20%22name%22:%20%22Upload%20Media%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22path%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -50,7 +52,9 @@ Uploads the specified media file to your Cloudinary media library.
 
 Your Cloudinary API key.
 
-[[PropertyBlockGetterAndSetter('Cloudinary', 'API Key')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Cloudinary%22,%20%22name%22:%20%22API%20Key%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Cloudinary%22,%20%22name%22:%20%22API%20Key%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### API Secret
 
@@ -58,7 +62,9 @@ Your Cloudinary API key.
 
 Your Cloudinary API secret.
 
-[[PropertyBlockGetterAndSetter('Cloudinary', 'API Secret')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Cloudinary%22,%20%22name%22:%20%22API%20Secret%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Cloudinary%22,%20%22name%22:%20%22API%20Secret%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Cloud Name
 
@@ -66,4 +72,5 @@ Your Cloudinary API secret.
 
 Your Cloudinary cloud name.
 
-[[PropertyBlockGetterAndSetter('Cloudinary', 'Cloud Name')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Cloudinary%22,%20%22name%22:%20%22Cloud%20Name%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Cloudinary%22,%20%22name%22:%20%22Cloud%20Name%22,%20%22getter%22:%20false%7D"></div>

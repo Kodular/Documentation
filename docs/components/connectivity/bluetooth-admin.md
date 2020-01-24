@@ -23,7 +23,8 @@ A non-visible component that acts as a bluetooth admin.
 
 Event triggers when Pairing has finished.
 
-[[Event('Bluetooth Admin', 'After Pairing', 'address')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Bluetooth%20Admin%22,%20%22name%22:%20%22After%20Pairing%22,%20%22params%22:%20%5B%22address%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -34,7 +35,8 @@ Event triggers when Pairing has finished.
 
 Event triggers when Scanning has finished.
 
-[[Event('Bluetooth Admin', 'After Scanning', 'pairedDevices', 'newDevices')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Bluetooth%20Admin%22,%20%22name%22:%20%22After%20Scanning%22,%20%22params%22:%20%5B%22paired%20Devices%22,%20%22new%20Devices%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -46,7 +48,8 @@ Event triggers when Scanning has finished.
 
 Event triggers when Unpairing has finished.
 
-[[Event('Bluetooth Admin', 'After Unpairing', 'address')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Bluetooth%20Admin%22,%20%22name%22:%20%22After%20Unpairing%22,%20%22params%22:%20%5B%22address%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -57,7 +60,8 @@ Event triggers when Unpairing has finished.
 
 Event triggers when an error occurred.
 
-[[Event('Bluetooth Admin', 'Error Occurred', 'message')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Bluetooth%20Admin%22,%20%22name%22:%20%22Error%20Occurred%22,%20%22params%22:%20%5B%22message%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -68,7 +72,8 @@ Event triggers when an error occurred.
 
 Event triggers when the bluetooth state changed.
 
-[[Event('Bluetooth Admin', 'State Changed', 'state')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Bluetooth%20Admin%22,%20%22name%22:%20%22State%20Changed%22,%20%22params%22:%20%5B%22state%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -81,13 +86,15 @@ Event triggers when the bluetooth state changed.
 
 Disable Bluetooth
 
-[[Method('Bluetooth Admin', 'Disable', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Bluetooth%20Admin%22,%20%22name%22:%20%22Disable%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Enable
 
 Enable Bluetooth
 
-[[Method('Bluetooth Admin', 'Enable', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Bluetooth%20Admin%22,%20%22name%22:%20%22Enable%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Has Bluetooth
 
@@ -95,7 +102,8 @@ Enable Bluetooth
 
 Returns if the device has Bluetooth
 
-[[Method('Bluetooth Admin', 'Has Bluetooth', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Bluetooth%20Admin%22,%20%22name%22:%20%22Has%20Bluetooth%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Mac Address
 
@@ -103,13 +111,15 @@ Returns if the device has Bluetooth
 
 Returns the Bluetooth MacAddress.
 
-[[Method('Bluetooth Admin', 'Mac Address', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Bluetooth%20Admin%22,%20%22name%22:%20%22Mac%20Address%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Pair
 
 Pair Bluetooth device.
 
-[[Method('Bluetooth Admin', 'Pair', False, 'address')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Bluetooth%20Admin%22,%20%22name%22:%20%22Pair%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22address%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -120,7 +130,8 @@ Pair Bluetooth device.
 
 Scan Bluetooth devices. Caution: Performing device discovery is a heavy procedure for the Bluetooth adapter and will consume a lot of its resources. If you already hold a connection with a device, then performing discovery can significantly reduce the bandwidth available for the connection, so you should not perform discovery while connected.
 
-[[Method('Bluetooth Admin', 'Scan', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Bluetooth%20Admin%22,%20%22name%22:%20%22Scan%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Scan Mode
 
@@ -128,7 +139,8 @@ Scan Bluetooth devices. Caution: Performing device discovery is a heavy procedur
 
 Returns the scan mode of the Bluetooth Adapter
 
-[[Method('Bluetooth Admin', 'Scan Mode', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Bluetooth%20Admin%22,%20%22name%22:%20%22Scan%20Mode%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### State
 
@@ -136,19 +148,22 @@ Returns the scan mode of the Bluetooth Adapter
 
 Returns the state of the Bluetooth Adapter.
 
-[[Method('Bluetooth Admin', 'State', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Bluetooth%20Admin%22,%20%22name%22:%20%22State%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Toggle
 
 Toggle Bluetooth
 
-[[Method('Bluetooth Admin', 'Toggle', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Bluetooth%20Admin%22,%20%22name%22:%20%22Toggle%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Unpairing
 
 Unpair Bluetooth device.
 
-[[Method('Bluetooth Admin', 'Unpairing', False, 'address')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Bluetooth%20Admin%22,%20%22name%22:%20%22Unpairing%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22address%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -161,7 +176,8 @@ Unpair Bluetooth device.
 
 Returns true if the MacAddress is valid.
 
-[[Method('Bluetooth Admin', 'Validate Mac Address', True, 'macAddress')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Bluetooth%20Admin%22,%20%22name%22:%20%22Validate%20Mac%20Address%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22mac%20Address%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -174,7 +190,8 @@ Returns true if the MacAddress is valid.
 
 Returns true if the User MacAddress is valid.
 
-[[Method('Bluetooth Admin', 'Validate User Mac Address', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Bluetooth%20Admin%22,%20%22name%22:%20%22Validate%20User%20Mac%20Address%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Properties
 
@@ -184,4 +201,5 @@ Returns true if the User MacAddress is valid.
 
 Use codes instead of strings in returns for ScanMode and State.
 
-[[PropertyBlockGetterAndSetter('Bluetooth Admin', 'Use Codes')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Bluetooth%20Admin%22,%20%22name%22:%20%22Use%20Codes%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Bluetooth%20Admin%22,%20%22name%22:%20%22Use%20Codes%22,%20%22getter%22:%20false%7D"></div>

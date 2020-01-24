@@ -16,7 +16,8 @@ A non-visible component that modifies other components'' padding, margins, and o
 
 Margin is a way for a component to enforce some distance from others components. By specifying margin for a component, we say that keep this much distance from this component.
 
-[[Method('Decoration', 'Set Margin', False, 'component', 'values')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Decoration%22,%20%22name%22:%20%22Set%20Margin%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22component%22,%20%22values%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -28,7 +29,8 @@ Margin is a way for a component to enforce some distance from others components.
 
 The padding around the component. Padding is the space inside the border, between the border and the actual component content. Use single number like 5 to specify padding for top, left, bottom, righ. You can also use 4 different numbers like 5,0,10,0 for top, left, bottom right.
 
-[[Method('Decoration', 'Set Padding', False, 'component', 'values')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Decoration%22,%20%22name%22:%20%22Set%20Padding%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22component%22,%20%22values%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -40,7 +42,8 @@ The padding around the component. Padding is the space inside the border, betwee
 
 This block allows you to create a rectangle or round shape for the visible component. You can use Color for backgroundColor and borderColor.
 
-[[Method('Decoration', 'Set Shape', False, 'component', 'backgroundColor', 'borderColor', 'isRound')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Decoration%22,%20%22name%22:%20%22Set%20Shape%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22component%22,%20%22background%20Color%22,%20%22border%20Color%22,%20%22is%20Round%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|

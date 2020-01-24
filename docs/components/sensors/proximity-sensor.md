@@ -16,7 +16,8 @@ Non-visible component that can measures the proximity of an object in cm relativ
 
 Triggered when distance (in cm) of the object to the device changes.
 
-[[Event('Proximity Sensor', 'Proximity Changed', 'distance')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Proximity%20Sensor%22,%20%22name%22:%20%22Proximity%20Changed%22,%20%22params%22:%20%5B%22distance%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -31,7 +32,9 @@ Triggered when distance (in cm) of the object to the device changes.
 
 If true, the sensor will generate events. Otherwise, no eventsare generated .
 
-[[PropertyBlockGetterAndSetter('Proximity Sensor', 'Enabled')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Proximity%20Sensor%22,%20%22name%22:%20%22Enabled%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Proximity%20Sensor%22,%20%22name%22:%20%22Enabled%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Keep Running When On Pause
 
@@ -39,7 +42,9 @@ If true, the sensor will generate events. Otherwise, no eventsare generated .
 
 Returns value of keepRunningWhenOnPause
 
-[[PropertyBlockGetterAndSetter('Proximity Sensor', 'Keep Running When On Pause')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Proximity%20Sensor%22,%20%22name%22:%20%22Keep%20Running%20When%20On%20Pause%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Proximity%20Sensor%22,%20%22name%22:%20%22Keep%20Running%20When%20On%20Pause%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Available
 
@@ -47,7 +52,8 @@ Returns value of keepRunningWhenOnPause
 
 Reports whether or not the device has a proximity sensor
 
-[[PropertyBlockGetter('Proximity Sensor', 'Available')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Proximity%20Sensor%22,%20%22name%22:%20%22Available%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Distance
 
@@ -55,7 +61,8 @@ Reports whether or not the device has a proximity sensor
 
 Returns the distance from the object to the device
 
-[[PropertyBlockGetter('Proximity Sensor', 'Distance')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Proximity%20Sensor%22,%20%22name%22:%20%22Distance%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Maximum Range
 
@@ -63,4 +70,4 @@ Returns the distance from the object to the device
 
 Reports the Maximum Range of the device's ProximitySensor
 
-[[PropertyBlockGetter('Proximity Sensor', 'Maximum Range')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Proximity%20Sensor%22,%20%22name%22:%20%22Maximum%20Range%22,%20%22getter%22:%20true%7D"></div>

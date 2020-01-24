@@ -22,7 +22,8 @@ A component that provides a high-level interface to a LEGO MINDSTORMS EV3 robot,
 
 Draw a circle on the screen.
 
-[[Method('EV3 UI', 'Draw Circle', False, 'color', 'x', 'y', 'radius', 'fill')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20UI%22,%20%22name%22:%20%22Draw%20Circle%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22color%22,%20%22x%22,%20%22y%22,%20%22radius%22,%20%22fill%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -37,7 +38,8 @@ Draw a circle on the screen.
 
 Draw a built-in icon on screen.
 
-[[Method('EV3 UI', 'Draw Icon', False, 'color', 'x', 'y', 'type', 'no')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20UI%22,%20%22name%22:%20%22Draw%20Icon%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22color%22,%20%22x%22,%20%22y%22,%20%22type%22,%20%22no%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -52,7 +54,8 @@ Draw a built-in icon on screen.
 
 Draw a line on the screen.
 
-[[Method('EV3 UI', 'Draw Line', False, 'color', 'x1', 'y1', 'x2', 'y2')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20UI%22,%20%22name%22:%20%22Draw%20Line%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22color%22,%20%22x1%22,%20%22y1%22,%20%22x2%22,%20%22y2%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -67,7 +70,8 @@ Draw a line on the screen.
 
 Draw a point on the screen.
 
-[[Method('EV3 UI', 'Draw Point', False, 'color', 'x', 'y')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20UI%22,%20%22name%22:%20%22Draw%20Point%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22color%22,%20%22x%22,%20%22y%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -80,7 +84,8 @@ Draw a point on the screen.
 
 Draw a rectangle on the screen.
 
-[[Method('EV3 UI', 'Draw Rect', False, 'color', 'x', 'y', 'width', 'height', 'fill')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20UI%22,%20%22name%22:%20%22Draw%20Rect%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22color%22,%20%22x%22,%20%22y%22,%20%22width%22,%20%22height%22,%20%22fill%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -96,7 +101,8 @@ Draw a rectangle on the screen.
 
 Fill the screen with a color.
 
-[[Method('EV3 UI', 'Fill Screen', False, 'color')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20UI%22,%20%22name%22:%20%22Fill%20Screen%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22color%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -111,4 +117,5 @@ Fill the screen with a color.
 
 The BluetoothClient component that should be used for communication.
 
-[[PropertyBlockGetterAndSetter('EV3 UI', 'Bluetooth Client')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20UI%22,%20%22name%22:%20%22Bluetooth%20Client%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20UI%22,%20%22name%22:%20%22Bluetooth%20Client%22,%20%22getter%22:%20false%7D"></div>

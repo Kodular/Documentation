@@ -22,13 +22,15 @@ A non-visible component that shows AdColony ads as full-screen advertisements.
 
 Called when the ad is expiring. You should load a new ad.
 
-[[Event('AdColony Interstitial', 'Ad Expiring')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22AdColony%20Interstitial%22,%20%22name%22:%20%22Ad%20Expiring%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Ad Failed To Load
 
 Called when an ad request failed to load. The message will display the error code and error message.
 
-[[Event('AdColony Interstitial', 'Ad Failed To Load', 'errorCode', 'errorMessage')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22AdColony%20Interstitial%22,%20%22name%22:%20%22Ad%20Failed%20To%20Load%22,%20%22params%22:%20%5B%22error%20Code%22,%20%22error%20Message%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -40,19 +42,22 @@ Called when an ad request failed to load. The message will display the error cod
 
 Called when an ad is received.
 
-[[Event('AdColony Interstitial', 'Ad Loaded')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22AdColony%20Interstitial%22,%20%22name%22:%20%22Ad%20Loaded%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Ad Opened
 
 Called when an ad was opened.
 
-[[Event('AdColony Interstitial', 'Ad Opened')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22AdColony%20Interstitial%22,%20%22name%22:%20%22Ad%20Opened%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Error
 
 Called when an ad request failed. The message will display the reason for why the ad failed.
 
-[[Event('AdColony Interstitial', 'Error', 'error')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22AdColony%20Interstitial%22,%20%22name%22:%20%22Error%22,%20%22params%22:%20%5B%22error%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -67,19 +72,22 @@ Called when an ad request failed. The message will display the reason for why th
 
 Returns true if the current app user is located in europe. If true you must ask the user as example in a dialog if he give his consent for personalized ads.
 
-[[Method('AdColony Interstitial', 'Is European User', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22AdColony%20Interstitial%22,%20%22name%22:%20%22Is%20European%20User%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Load Ad
 
 Loads a new ad.
 
-[[Method('AdColony Interstitial', 'Load Ad', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22AdColony%20Interstitial%22,%20%22name%22:%20%22Load%20Ad%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Show Ad
 
 Shows an ad to the user.
 
-[[Method('AdColony Interstitial', 'Show Ad', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22AdColony%20Interstitial%22,%20%22name%22:%20%22Show%20Ad%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Properties
 
@@ -97,4 +105,5 @@ Shows an ad to the user.
 
 If set to true the user allowed the ad network to show personalized ads. You only need to request the consent from european users.
 
-[[PropertyBlockGetterAndSetter('AdColony Interstitial', 'User Consent')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22AdColony%20Interstitial%22,%20%22name%22:%20%22User%20Consent%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22AdColony%20Interstitial%22,%20%22name%22:%20%22User%20Consent%22,%20%22getter%22:%20false%7D"></div>

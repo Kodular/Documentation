@@ -21,7 +21,8 @@ A non-visible component that acts as a bluetooth client.
 
 The BluetoothError event is no longer used. Please use the Screen.ErrorOccurred event instead.
 
-[[Event('Bluetooth Client', 'BluetoothError', 'functionName', 'message')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Bluetooth%20Client%22,%20%22name%22:%20%22BluetoothError%22,%20%22params%22:%20%5B%22function%20Name%22,%20%22message%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -37,7 +38,8 @@ The BluetoothError event is no longer used. Please use the Screen.ErrorOccurred 
 
 Returns an estimate of the number of bytes that can be received without blocking
 
-[[Method('Bluetooth Client', 'Bytes Available To Receive', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Bluetooth%20Client%22,%20%22name%22:%20%22Bytes%20Available%20To%20Receive%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Connect
 
@@ -45,7 +47,8 @@ Returns an estimate of the number of bytes that can be received without blocking
 
 Connect to the Bluetooth device with the specified address and the Serial Port Profile (SPP). Returns true if the connection was successful.
 
-[[Method('Bluetooth Client', 'Connect', True, 'address')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Bluetooth%20Client%22,%20%22name%22:%20%22Connect%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22address%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -58,7 +61,8 @@ Connect to the Bluetooth device with the specified address and the Serial Port P
 
 Connect to the Bluetooth device with the specified address and UUID. Returns true if the connection was successful.
 
-[[Method('Bluetooth Client', 'Connect With UUID', True, 'address', 'uuid')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Bluetooth%20Client%22,%20%22name%22:%20%22Connect%20With%20UUID%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22address%22,%20%22uuid%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -70,7 +74,8 @@ Connect to the Bluetooth device with the specified address and UUID. Returns tru
 
 Disconnect from the connected Bluetooth device.
 
-[[Method('Bluetooth Client', 'Disconnect', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Bluetooth%20Client%22,%20%22name%22:%20%22Disconnect%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Is Device Paired
 
@@ -78,7 +83,8 @@ Disconnect from the connected Bluetooth device.
 
 Checks whether the Bluetooth device with the specified address is paired.
 
-[[Method('Bluetooth Client', 'Is Device Paired', True, 'address')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Bluetooth%20Client%22,%20%22name%22:%20%22Is%20Device%20Paired%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22address%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -91,7 +97,8 @@ Checks whether the Bluetooth device with the specified address is paired.
 
 Receive a signed 1-byte number from the connected Bluetooth device.
 
-[[Method('Bluetooth Client', 'Receive Signed 1 Byte Number', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Bluetooth%20Client%22,%20%22name%22:%20%22Receive%20Signed%201%20Byte%20Number%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Receive Signed 2 Byte Number
 
@@ -99,7 +106,8 @@ Receive a signed 1-byte number from the connected Bluetooth device.
 
 Receive a signed 2-byte number from the connected Bluetooth device.
 
-[[Method('Bluetooth Client', 'Receive Signed 2 Byte Number', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Bluetooth%20Client%22,%20%22name%22:%20%22Receive%20Signed%202%20Byte%20Number%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Receive Signed 4 Byte Number
 
@@ -107,7 +115,8 @@ Receive a signed 2-byte number from the connected Bluetooth device.
 
 Receive a signed 4-byte number from the connected Bluetooth device.
 
-[[Method('Bluetooth Client', 'Receive Signed 4 Byte Number', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Bluetooth%20Client%22,%20%22name%22:%20%22Receive%20Signed%204%20Byte%20Number%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Receive Signed Bytes
 
@@ -115,7 +124,8 @@ Receive a signed 4-byte number from the connected Bluetooth device.
 
 Receive multiple signed byte values from the connected Bluetooth device. If numberOfBytes is less than 0, read until a delimiter byte value is received.
 
-[[Method('Bluetooth Client', 'Receive Signed Bytes', True, 'numberOfBytes')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Bluetooth%20Client%22,%20%22name%22:%20%22Receive%20Signed%20Bytes%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22number%20Of%20Bytes%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -128,7 +138,8 @@ Receive multiple signed byte values from the connected Bluetooth device. If numb
 
 Receive text from the connected Bluetooth device. If numberOfBytes is less than 0, read until a delimiter byte value is received.
 
-[[Method('Bluetooth Client', 'Receive Text', True, 'numberOfBytes')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Bluetooth%20Client%22,%20%22name%22:%20%22Receive%20Text%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22number%20Of%20Bytes%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -141,7 +152,8 @@ Receive text from the connected Bluetooth device. If numberOfBytes is less than 
 
 Receive an unsigned 1-byte number from the connected Bluetooth device.
 
-[[Method('Bluetooth Client', 'Receive Unsigned 1 Byte Number', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Bluetooth%20Client%22,%20%22name%22:%20%22Receive%20Unsigned%201%20Byte%20Number%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Receive Unsigned 2 Byte Number
 
@@ -149,7 +161,8 @@ Receive an unsigned 1-byte number from the connected Bluetooth device.
 
 Receive a unsigned 2-byte number from the connected Bluetooth device.
 
-[[Method('Bluetooth Client', 'Receive Unsigned 2 Byte Number', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Bluetooth%20Client%22,%20%22name%22:%20%22Receive%20Unsigned%202%20Byte%20Number%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Receive Unsigned 4 Byte Number
 
@@ -157,7 +170,8 @@ Receive a unsigned 2-byte number from the connected Bluetooth device.
 
 Receive a unsigned 4-byte number from the connected Bluetooth device.
 
-[[Method('Bluetooth Client', 'Receive Unsigned 4 Byte Number', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Bluetooth%20Client%22,%20%22name%22:%20%22Receive%20Unsigned%204%20Byte%20Number%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Receive Unsigned Bytes
 
@@ -165,7 +179,8 @@ Receive a unsigned 4-byte number from the connected Bluetooth device.
 
 Receive multiple unsigned byte values from the connected Bluetooth device. If numberOfBytes is less than 0, read until a delimiter byte value is received.
 
-[[Method('Bluetooth Client', 'Receive Unsigned Bytes', True, 'numberOfBytes')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Bluetooth%20Client%22,%20%22name%22:%20%22Receive%20Unsigned%20Bytes%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22number%20Of%20Bytes%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -178,7 +193,8 @@ Receive multiple unsigned byte values from the connected Bluetooth device. If nu
 
 Remove the Name from a Bluetooth Address and Name String.
 
-[[Method('Bluetooth Client', 'Remove Name From Address', True, 'addressAndName')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Bluetooth%20Client%22,%20%22name%22:%20%22Remove%20Name%20From%20Address%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22address%20And%20Name%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -189,7 +205,8 @@ Remove the Name from a Bluetooth Address and Name String.
 
 Send a 1-byte number to the connected Bluetooth device.
 
-[[Method('Bluetooth Client', 'Send 1 Byte Number', False, 'number')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Bluetooth%20Client%22,%20%22name%22:%20%22Send%201%20Byte%20Number%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22number%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -200,7 +217,8 @@ Send a 1-byte number to the connected Bluetooth device.
 
 Send a 2-byte number to the connected Bluetooth device.
 
-[[Method('Bluetooth Client', 'Send 2 Byte Number', False, 'number')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Bluetooth%20Client%22,%20%22name%22:%20%22Send%202%20Byte%20Number%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22number%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -211,7 +229,8 @@ Send a 2-byte number to the connected Bluetooth device.
 
 Send a 4-byte number to the connected Bluetooth device.
 
-[[Method('Bluetooth Client', 'Send 4 Byte Number', False, 'number')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Bluetooth%20Client%22,%20%22name%22:%20%22Send%204%20Byte%20Number%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22number%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -222,7 +241,8 @@ Send a 4-byte number to the connected Bluetooth device.
 
 Send a list of byte values to the connected Bluetooth device.
 
-[[Method('Bluetooth Client', 'Send Bytes', False, 'list')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Bluetooth%20Client%22,%20%22name%22:%20%22Send%20Bytes%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22list%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -233,7 +253,8 @@ Send a list of byte values to the connected Bluetooth device.
 
 Send text to the connected Bluetooth device.
 
-[[Method('Bluetooth Client', 'Send Text', False, 'text')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Bluetooth%20Client%22,%20%22name%22:%20%22Send%20Text%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22text%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -248,7 +269,9 @@ Send text to the connected Bluetooth device.
 
 Sets the character encoding to use when sending and receiving text.
 
-[[PropertyBlockGetterAndSetter('Bluetooth Client', 'Character Encoding')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Bluetooth%20Client%22,%20%22name%22:%20%22Character%20Encoding%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Bluetooth%20Client%22,%20%22name%22:%20%22Character%20Encoding%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Delimiter Byte
 
@@ -256,7 +279,9 @@ Sets the character encoding to use when sending and receiving text.
 
 Sets the delimiter byte to use when passing a negative number for thenumberOfBytes parameter when calling ReceiveText, ReceiveSignedBytes, orReceiveUnsignedBytes.
 
-[[PropertyBlockGetterAndSetter('Bluetooth Client', 'Delimiter Byte')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Bluetooth%20Client%22,%20%22name%22:%20%22Delimiter%20Byte%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Bluetooth%20Client%22,%20%22name%22:%20%22Delimiter%20Byte%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### High Byte First
 
@@ -264,7 +289,9 @@ Sets the delimiter byte to use when passing a negative number for thenumberOfByt
 
 Returns true if numbers are sent and received with the most significantbyte first.
 
-[[PropertyBlockGetterAndSetter('Bluetooth Client', 'High Byte First')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Bluetooth%20Client%22,%20%22name%22:%20%22High%20Byte%20First%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Bluetooth%20Client%22,%20%22name%22:%20%22High%20Byte%20First%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Secure
 
@@ -272,7 +299,9 @@ Returns true if numbers are sent and received with the most significantbyte firs
 
 Whether to invoke SSP (Simple Secure Pairing), which is supported on devices with Bluetooth v2.1 or higher. When working with embedded Bluetooth devices, this property may need to be set to False. For Android 2.0-2.2, this property setting will be ignored.
 
-[[PropertyBlockGetterAndSetter('Bluetooth Client', 'Secure')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Bluetooth%20Client%22,%20%22name%22:%20%22Secure%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Bluetooth%20Client%22,%20%22name%22:%20%22Secure%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Addresses And Names
 
@@ -280,7 +309,8 @@ Whether to invoke SSP (Simple Secure Pairing), which is supported on devices wit
 
 The addresses and names of paired Bluetooth devices
 
-[[PropertyBlockGetter('Bluetooth Client', 'Addresses And Names')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Bluetooth%20Client%22,%20%22name%22:%20%22Addresses%20And%20Names%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Available
 
@@ -288,7 +318,8 @@ The addresses and names of paired Bluetooth devices
 
 Whether Bluetooth is available on the device
 
-[[PropertyBlockGetter('Bluetooth Client', 'Available')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Bluetooth%20Client%22,%20%22name%22:%20%22Available%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Enabled
 
@@ -296,7 +327,8 @@ Whether Bluetooth is available on the device
 
 Whether Bluetooth is enabled
 
-[[PropertyBlockGetter('Bluetooth Client', 'Enabled')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Bluetooth%20Client%22,%20%22name%22:%20%22Enabled%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Is Connected
 
@@ -304,4 +336,4 @@ Whether Bluetooth is enabled
 
 Returns true if a connection to a Bluetooth device has been made.
 
-[[PropertyBlockGetter('Bluetooth Client', 'Is Connected')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Bluetooth%20Client%22,%20%22name%22:%20%22Is%20Connected%22,%20%22getter%22:%20true%7D"></div>

@@ -31,7 +31,8 @@ _hello from Javascript_.
 
 Get the result of the evaluated JS
 
-[[Event('Web Viewer', 'After JS Evaluated', 'result')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Web%20Viewer%22,%20%22name%22:%20%22After%20JS%20Evaluated%22,%20%22params%22:%20%5B%22result%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -42,7 +43,8 @@ Get the result of the evaluated JS
 
 This event return true when the cookies have been successfully removed. If the cookies was successfully cleared then the next run returns false as status, if in this time no new cookies was set.
 
-[[Event('Web Viewer', 'Cookies Removed', 'success')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Web%20Viewer%22,%20%22name%22:%20%22Cookies%20Removed%22,%20%22params%22:%20%5B%22success%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -53,7 +55,8 @@ This event return true when the cookies have been successfully removed. If the c
 
 Get webpage console output
 
-[[Event('Web Viewer', 'On Console Message', 'message', 'lineNumber', 'sourceId')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Web%20Viewer%22,%20%22name%22:%20%22On%20Console%20Message%22,%20%22params%22:%20%5B%22message%22,%20%22line%20Number%22,%20%22source%20Id%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -66,7 +69,8 @@ Get webpage console output
 
 Event for listening download links.
 
-[[Event('Web Viewer', 'On Download Start', 'url', 'contentDisposition', 'mimetype', 'contentLength')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Web%20Viewer%22,%20%22name%22:%20%22On%20Download%20Start%22,%20%22params%22:%20%5B%22url%22,%20%22content%20Disposition%22,%20%22mime%20Type%22,%20%22content%20Length%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -80,13 +84,15 @@ Event for listening download links.
 
 Triggers when page finished loading
 
-[[Event('Web Viewer', 'Page Loaded')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Web%20Viewer%22,%20%22name%22:%20%22Page%20Loaded%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Progress Changed
 
 Event to detect that the loading progress has changed.
 
-[[Event('Web Viewer', 'Progress Changed', 'progress')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Web%20Viewer%22,%20%22name%22:%20%22Progress%20Changed%22,%20%22params%22:%20%5B%22progress%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -97,7 +103,8 @@ Event to detect that the loading progress has changed.
 
 When the JavaScript calls AppInventor.setWebViewString this event is run.
 
-[[Event('Web Viewer', 'Web View String Change', 'value')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Web%20Viewer%22,%20%22name%22:%20%22Web%20View%20String%20Change%22,%20%22params%22:%20%5B%22value%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -112,7 +119,8 @@ When the JavaScript calls AppInventor.setWebViewString this event is run.
 
 Returns true if the WebViewer can go back in the history list.
 
-[[Method('Web Viewer', 'Can Go Back', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Web%20Viewer%22,%20%22name%22:%20%22Can%20Go%20Back%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Can Go Back Or Forward
 
@@ -120,7 +128,8 @@ Returns true if the WebViewer can go back in the history list.
 
 Returns true if the WebViewer can go back or forward the number of steps in the history list.
 
-[[Method('Web Viewer', 'Can Go Back Or Forward', True, 'steps')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Web%20Viewer%22,%20%22name%22:%20%22Can%20Go%20Back%20Or%20Forward%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22steps%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -133,31 +142,36 @@ Returns true if the WebViewer can go back or forward the number of steps in the 
 
 Returns true if the WebViewer can go forward in the history list.
 
-[[Method('Web Viewer', 'Can Go Forward', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Web%20Viewer%22,%20%22name%22:%20%22Can%20Go%20Forward%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Clear Caches
 
 Clear WebView caches.
 
-[[Method('Web Viewer', 'Clear Caches', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Web%20Viewer%22,%20%22name%22:%20%22Clear%20Caches%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Clear Cookies
 
 Start to clear the WebView cookies.
 
-[[Method('Web Viewer', 'Clear Cookies', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Web%20Viewer%22,%20%22name%22:%20%22Clear%20Cookies%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Clear Locations
 
 Clear stored location permissions.
 
-[[Method('Web Viewer', 'Clear Locations', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Web%20Viewer%22,%20%22name%22:%20%22Clear%20Locations%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Evaluate JS
 
 Evaluate JS in the context of the current page
 
-[[Method('Web Viewer', 'Evaluate JS', False, 'script')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Web%20Viewer%22,%20%22name%22:%20%22Evaluate%20JS%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22script%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -168,13 +182,15 @@ Evaluate JS in the context of the current page
 
 Go back to the previous page in the history list. Does nothing if there is no previous page.
 
-[[Method('Web Viewer', 'Go Back', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Web%20Viewer%22,%20%22name%22:%20%22Go%20Back%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Go Back Or Forward
 
 Go forward or backward a number of steps away from the current page. Steps is negative if backward and positive if forward.
 
-[[Method('Web Viewer', 'Go Back Or Forward', False, 'steps')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Web%20Viewer%22,%20%22name%22:%20%22Go%20Back%20Or%20Forward%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22steps%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -185,19 +201,22 @@ Go forward or backward a number of steps away from the current page. Steps is ne
 
 Go forward to the next page in the history list. Does nothing if there is no next page.
 
-[[Method('Web Viewer', 'Go Forward', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Web%20Viewer%22,%20%22name%22:%20%22Go%20Forward%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Go Home
 
 Loads the home URL page. This happens automatically when the home URL is changed.
 
-[[Method('Web Viewer', 'Go Home', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Web%20Viewer%22,%20%22name%22:%20%22Go%20Home%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Go To URL
 
 Load the page at the given URL.
 
-[[Method('Web Viewer', 'Go To URL', False, 'url')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Web%20Viewer%22,%20%22name%22:%20%22Go%20To%20URL%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22url%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -208,7 +227,8 @@ Load the page at the given URL.
 
 Load HTML content using Base64-encoded data URI scheme
 
-[[Method('Web Viewer', 'Load HTML', False, 'html')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Web%20Viewer%22,%20%22name%22:%20%22Load%20HTML%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22html%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -219,13 +239,15 @@ Load HTML content using Base64-encoded data URI scheme
 
 Reloads the current page
 
-[[Method('Web Viewer', 'Reload', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Web%20Viewer%22,%20%22name%22:%20%22Reload%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Stop Loading
 
 Stops the current load.
 
-[[Method('Web Viewer', 'Stop Loading', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Web%20Viewer%22,%20%22name%22:%20%22Stop%20Loading%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Properties
 
@@ -237,7 +259,9 @@ Stops the current load.
 
 Get/Set Desktop mode by altering the user agent string.
 
-[[PropertyBlockGetterAndSetter('Web Viewer', 'Desktop Mode')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Web%20Viewer%22,%20%22name%22:%20%22Desktop%20Mode%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Web%20Viewer%22,%20%22name%22:%20%22Desktop%20Mode%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Enable JavaScript
 
@@ -245,7 +269,9 @@ Get/Set Desktop mode by altering the user agent string.
 
 Enable/Disable JavaScript. Enabled by default
 
-[[PropertyBlockGetterAndSetter('Web Viewer', 'Enable JavaScript')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Web%20Viewer%22,%20%22name%22:%20%22Enable%20JavaScript%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Web%20Viewer%22,%20%22name%22:%20%22Enable%20JavaScript%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Follow Links
 
@@ -255,7 +281,9 @@ Enable/Disable JavaScript. Enabled by default
 
 Determines whether to follow links when they are tapped in the WebViewer. If you follow links, you can use GoBack and GoForward to navigate the browser history.
 
-[[PropertyBlockGetterAndSetter('Web Viewer', 'Follow Links')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Web%20Viewer%22,%20%22name%22:%20%22Follow%20Links%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Web%20Viewer%22,%20%22name%22:%20%22Follow%20Links%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Home Url
 
@@ -263,7 +291,9 @@ Determines whether to follow links when they are tapped in the WebViewer. If you
 
 URL of the page the WebViewer should initially open to. Setting this will load the page.
 
-[[PropertyBlockGetterAndSetter('Web Viewer', 'Home Url')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Web%20Viewer%22,%20%22name%22:%20%22Home%20Url%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Web%20Viewer%22,%20%22name%22:%20%22Home%20Url%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Ignore SSL Errors
 
@@ -273,7 +303,9 @@ URL of the page the WebViewer should initially open to. Setting this will load t
 
 Determine whether or not to ignore SSL errors. Set to true to ignore errors. Use this to accept self signed certificates from websites.
 
-[[PropertyBlockGetterAndSetter('Web Viewer', 'Ignore SSL Errors')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Web%20Viewer%22,%20%22name%22:%20%22Ignore%20SSL%20Errors%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Web%20Viewer%22,%20%22name%22:%20%22Ignore%20SSL%20Errors%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Load Images
 
@@ -283,7 +315,8 @@ Determine whether or not to ignore SSL errors. Set to true to ignore errors. Use
 
 Whether or not to automatically load images
 
-[[PropertyBlockGetter('Web Viewer', 'Load Images')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Web%20Viewer%22,%20%22name%22:%20%22Load%20Images%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Prompt for Permission
 
@@ -293,7 +326,9 @@ Whether or not to automatically load images
 
 If True, then prompt the user of the WebView to give permission to access the geolocation API. If False, then assume permission is granted.
 
-[[PropertyBlockGetterAndSetter('Web Viewer', 'Prompt for Permission')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Web%20Viewer%22,%20%22name%22:%20%22Prompt%20for%20Permission%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Web%20Viewer%22,%20%22name%22:%20%22Prompt%20for%20Permission%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Scrollbar
 
@@ -301,7 +336,9 @@ If True, then prompt the user of the WebView to give permission to access the ge
 
 Whether to display a scrollbar
 
-[[PropertyBlockGetterAndSetter('Web Viewer', 'Scrollbar')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Web%20Viewer%22,%20%22name%22:%20%22Scrollbar%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Web%20Viewer%22,%20%22name%22:%20%22Scrollbar%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Use External Browser
 
@@ -311,7 +348,9 @@ Whether to display a scrollbar
 
 Open a link in the webviewer page using the external browser. If true the page will be loaded in the external browser and not in the webviewer itself.
 
-[[PropertyBlockGetterAndSetter('Web Viewer', 'Use External Browser')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Web%20Viewer%22,%20%22name%22:%20%22Use%20External%20Browser%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Web%20Viewer%22,%20%22name%22:%20%22Use%20External%20Browser%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### User Agent
 
@@ -321,7 +360,9 @@ Open a link in the webviewer page using the external browser. If true the page w
 
 Get User Agent
 
-[[PropertyBlockGetterAndSetter('Web Viewer', 'User Agent')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Web%20Viewer%22,%20%22name%22:%20%22User%20Agent%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Web%20Viewer%22,%20%22name%22:%20%22User%20Agent%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Uses Location
 
@@ -337,7 +378,9 @@ Whether or not to give the application permission to use the Javascript geolocat
 
 Returns true iff the component is visible.
 
-[[PropertyBlockGetterAndSetter('Web Viewer', 'Visible')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Web%20Viewer%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Web%20Viewer%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Zoom Display
 
@@ -345,7 +388,8 @@ Returns true iff the component is visible.
 
 Show or Hide the zoom display.
 
-[[PropertyBlockGetter('Web Viewer', 'Zoom Display')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Web%20Viewer%22,%20%22name%22:%20%22Zoom%20Display%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Zoom Enabled
 
@@ -353,7 +397,8 @@ Show or Hide the zoom display.
 
 Enable or Disable pinch zooming. This effects both pinch zooming and the zoom controls.
 
-[[PropertyBlockGetter('Web Viewer', 'Zoom Enabled')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Web%20Viewer%22,%20%22name%22:%20%22Zoom%20Enabled%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Zoom Percent
 
@@ -361,7 +406,8 @@ Enable or Disable pinch zooming. This effects both pinch zooming and the zoom co
 
 The zoom of the page in percent %
 
-[[PropertyBlockGetter('Web Viewer', 'Zoom Percent')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Web%20Viewer%22,%20%22name%22:%20%22Zoom%20Percent%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Column
 
@@ -375,7 +421,8 @@ Column property getter method.
 
 Title of the page currently viewed
 
-[[PropertyBlockGetter('Web Viewer', 'Current Page Title')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Web%20Viewer%22,%20%22name%22:%20%22Current%20Page%20Title%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Current URL
 
@@ -383,7 +430,8 @@ Title of the page currently viewed
 
 URL of the page currently viewed. This could be different from the Home URL if new pages were visited by following links.
 
-[[PropertyBlockGetter('Web Viewer', 'Current URL')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Web%20Viewer%22,%20%22name%22:%20%22Current%20URL%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Height
 
@@ -391,7 +439,9 @@ URL of the page currently viewed. This could be different from the Home URL if n
 
 Specifies the component's vertical height, measured in pixels.
 
-[[PropertyBlockGetterAndSetter('Web Viewer', 'Height')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Web%20Viewer%22,%20%22name%22:%20%22Height%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Web%20Viewer%22,%20%22name%22:%20%22Height%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Height Percent
 
@@ -399,7 +449,8 @@ Specifies the component's vertical height, measured in pixels.
 
 Specifies the component's vertical height as a percentageof the height of its parent Component.
 
-[[PropertyBlockGetterAndSetter('Web Viewer', 'Height Percent')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Web%20Viewer%22,%20%22name%22:%20%22Height%20Percent%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Row
 
@@ -413,7 +464,9 @@ Row property getter method.
 
 Gets the WebView's String, which is viewable through Javascript in the WebView as the window.AppInventor object
 
-[[PropertyBlockGetterAndSetter('Web Viewer', 'Web View String')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Web%20Viewer%22,%20%22name%22:%20%22Web%20View%20String%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Web%20Viewer%22,%20%22name%22:%20%22Web%20View%20String%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Width
 
@@ -421,7 +474,9 @@ Gets the WebView's String, which is viewable through Javascript in the WebView a
 
 Specifies the component's horizontal width, measured in pixels.
 
-[[PropertyBlockGetterAndSetter('Web Viewer', 'Width')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Web%20Viewer%22,%20%22name%22:%20%22Width%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Web%20Viewer%22,%20%22name%22:%20%22Width%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Width Percent
 
@@ -429,4 +484,4 @@ Specifies the component's horizontal width, measured in pixels.
 
 Specifies the component's horizontal width as a percentageof the Width of its parent Component.
 
-[[PropertyBlockGetterAndSetter('Web Viewer', 'Width Percent')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Web%20Viewer%22,%20%22name%22:%20%22Width%20Percent%22,%20%22getter%22:%20false%7D"></div>

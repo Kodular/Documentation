@@ -26,13 +26,15 @@ You can also launch activities that return text data. See the documentation on u
 
 Event raised if this ActivityStarter returns because the activity was canceled.
 
-[[Event('Activity Starter', 'Activity Canceled')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Activity%20Starter%22,%20%22name%22:%20%22Activity%20Canceled%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### ActivityError
 
 The ActivityError event is no longer used. Please use the Screen.ErrorOccurred event instead.
 
-[[Event('Activity Starter', 'ActivityError', 'message')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Activity%20Starter%22,%20%22name%22:%20%22ActivityError%22,%20%22params%22:%20%5B%22message%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -43,7 +45,8 @@ The ActivityError event is no longer used. Please use the Screen.ErrorOccurred e
 
 Event raised after this ActivityStarter returns.
 
-[[Event('Activity Starter', 'After Activity', 'result')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Activity%20Starter%22,%20%22name%22:%20%22After%20Activity%22,%20%22params%22:%20%5B%22result%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -58,13 +61,15 @@ Event raised after this ActivityStarter returns.
 
 Returns the name of the activity that corresponds to this ActivityStarter, or an empty string if no corresponding activity can be found.
 
-[[Method('Activity Starter', 'Resolve Activity', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Activity%20Starter%22,%20%22name%22:%20%22Resolve%20Activity%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Start Activity
 
 Start the activity corresponding to this ActivityStarter.
 
-[[Method('Activity Starter', 'Start Activity', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Activity%20Starter%22,%20%22name%22:%20%22Start%20Activity%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Properties
 
@@ -74,7 +79,9 @@ Start the activity corresponding to this ActivityStarter.
 
 Returns the action that will be used to start the activity.
 
-[[PropertyBlockGetterAndSetter('Activity Starter', 'Action')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Activity%20Starter%22,%20%22name%22:%20%22Action%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Activity%20Starter%22,%20%22name%22:%20%22Action%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Activity Class
 
@@ -82,7 +89,9 @@ Returns the action that will be used to start the activity.
 
 Returns the class part of the specific component that will be started.
 
-[[PropertyBlockGetterAndSetter('Activity Starter', 'Activity Class')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Activity%20Starter%22,%20%22name%22:%20%22Activity%20Class%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Activity%20Starter%22,%20%22name%22:%20%22Activity%20Class%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Activity Package
 
@@ -90,7 +99,9 @@ Returns the class part of the specific component that will be started.
 
 Returns the package part of the specific component that will be started.
 
-[[PropertyBlockGetterAndSetter('Activity Starter', 'Activity Package')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Activity%20Starter%22,%20%22name%22:%20%22Activity%20Package%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Activity%20Starter%22,%20%22name%22:%20%22Activity%20Package%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Data Type
 
@@ -98,7 +109,9 @@ Returns the package part of the specific component that will be started.
 
 Returns the MIME type to pass to the activity.
 
-[[PropertyBlockGetterAndSetter('Activity Starter', 'Data Type')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Activity%20Starter%22,%20%22name%22:%20%22Data%20Type%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Activity%20Starter%22,%20%22name%22:%20%22Data%20Type%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Data Uri
 
@@ -106,7 +119,9 @@ Returns the MIME type to pass to the activity.
 
 Returns the data URI that will be used to start the activity.
 
-[[PropertyBlockGetterAndSetter('Activity Starter', 'Data Uri')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Activity%20Starter%22,%20%22name%22:%20%22Data%20Uri%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Activity%20Starter%22,%20%22name%22:%20%22Data%20Uri%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Extra Key
 
@@ -115,7 +130,9 @@ Returns the data URI that will be used to start the activity.
 Returns the extra key that will be passed to the activity  
 DEPRECATED: New code should use Extras property instead.
 
-[[PropertyBlockGetterAndSetter('Activity Starter', 'Extra Key')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Activity%20Starter%22,%20%22name%22:%20%22Extra%20Key%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Activity%20Starter%22,%20%22name%22:%20%22Extra%20Key%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Extra Value
 
@@ -124,7 +141,9 @@ DEPRECATED: New code should use Extras property instead.
 Returns the extra value that will be passed to the activity  
 DEPRECATED: New code should use Extras property instead.
 
-[[PropertyBlockGetterAndSetter('Activity Starter', 'Extra Value')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Activity%20Starter%22,%20%22name%22:%20%22Extra%20Value%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Activity%20Starter%22,%20%22name%22:%20%22Extra%20Value%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Result Name
 
@@ -132,7 +151,9 @@ DEPRECATED: New code should use Extras property instead.
 
 Returns the name that will be used to retrieve a result from the activity.
 
-[[PropertyBlockGetterAndSetter('Activity Starter', 'Result Name')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Activity%20Starter%22,%20%22name%22:%20%22Result%20Name%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Activity%20Starter%22,%20%22name%22:%20%22Result%20Name%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Extras
 
@@ -140,7 +161,9 @@ Returns the name that will be used to retrieve a result from the activity.
 
 Specifies the list of key-value pairs that will be passed as extra data to the activity.
 
-[[PropertyBlockGetterAndSetter('Activity Starter', 'Extras')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Activity%20Starter%22,%20%22name%22:%20%22Extras%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Activity%20Starter%22,%20%22name%22:%20%22Extras%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Result
 
@@ -148,7 +171,8 @@ Specifies the list of key-value pairs that will be passed as extra data to the a
 
 Returns the result from the activity.
 
-[[PropertyBlockGetter('Activity Starter', 'Result')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Activity%20Starter%22,%20%22name%22:%20%22Result%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Result Type
 
@@ -156,7 +180,8 @@ Returns the result from the activity.
 
 Returns the MIME type from the activity.
 
-[[PropertyBlockGetter('Activity Starter', 'Result Type')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Activity%20Starter%22,%20%22name%22:%20%22Result%20Type%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Result URI
 
@@ -164,4 +189,4 @@ Returns the MIME type from the activity.
 
 Returns the URI from the activity.
 
-[[PropertyBlockGetter('Activity Starter', 'Result URI')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Activity%20Starter%22,%20%22name%22:%20%22Result%20URI%22,%20%22getter%22:%20true%7D"></div>

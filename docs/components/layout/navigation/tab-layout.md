@@ -14,7 +14,8 @@ A visible component that groups other layout components such that only one of it
 
 The event returns the name or the position of the selected tab.
 
-[[Event('Tab Layout', 'Tab Item Selected', 'tab', 'position')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Tab%20Layout%22,%20%22name%22:%20%22Tab%20Item%20Selected%22,%20%22params%22:%20%5B%22tab%22,%20%22position%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -28,7 +29,8 @@ The event returns the name or the position of the selected tab.
 
 Add a new tab to the tab layout. If you don't want a icon then let it empty.
 
-[[Method('Tab Layout', 'Add New Tab', False, 'name', 'icon')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Tab%20Layout%22,%20%22name%22:%20%22Add%20New%20Tab%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22name%22,%20%22icon%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -40,7 +42,8 @@ Add a new tab to the tab layout. If you don't want a icon then let it empty.
 
 Add a new tab to the tab layout at the given position. If you don't want a icon then let it empty.
 
-[[Method('Tab Layout', 'Add New Tab At', False, 'name', 'icon', 'position')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Tab%20Layout%22,%20%22name%22:%20%22Add%20New%20Tab%20At%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22name%22,%20%22icon%22,%20%22position%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -55,19 +58,22 @@ Add a new tab to the tab layout at the given position. If you don't want a icon 
 
 Returns the number of current added tab's.
 
-[[Method('Tab Layout', 'Count Tabs', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Tab%20Layout%22,%20%22name%22:%20%22Count%20Tabs%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Remove All Tabs
 
 Remove all tab's from tab layout.
 
-[[Method('Tab Layout', 'Remove All Tabs', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Tab%20Layout%22,%20%22name%22:%20%22Remove%20All%20Tabs%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Remove Tab At
 
 Removes a before added tab. If you want to delete the first tab then use as position '1'.
 
-[[Method('Tab Layout', 'Remove Tab At', False, 'position')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Tab%20Layout%22,%20%22name%22:%20%22Remove%20Tab%20At%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22position%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -82,7 +88,9 @@ Removes a before added tab. If you want to delete the first tab then use as posi
 
 Specifies the tab's text color for active tab's.
 
-[[PropertyBlockGetterAndSetter('Tab Layout', 'Tabs Active Text Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Tab%20Layout%22,%20%22name%22:%20%22Tabs%20Active%20Text%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Tab%20Layout%22,%20%22name%22:%20%22Tabs%20Active%20Text%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Tabs Background Color
 
@@ -90,7 +98,9 @@ Specifies the tab's text color for active tab's.
 
 Specifies the tab's background color.
 
-[[PropertyBlockGetterAndSetter('Tab Layout', 'Tabs Background Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Tab%20Layout%22,%20%22name%22:%20%22Tabs%20Background%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Tab%20Layout%22,%20%22name%22:%20%22Tabs%20Background%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Tabs Indicator Color
 
@@ -98,7 +108,9 @@ Specifies the tab's background color.
 
 Specifies the tab's indicator color.
 
-[[PropertyBlockGetterAndSetter('Tab Layout', 'Tabs Indicator Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Tab%20Layout%22,%20%22name%22:%20%22Tabs%20Indicator%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Tab%20Layout%22,%20%22name%22:%20%22Tabs%20Indicator%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Tabs Mode
 
@@ -106,7 +118,9 @@ Specifies the tab's indicator color.
 
 Choose the mode used for the tab's. If no mode is specified, 'Scrollable' is taken as 'Default'. Use '0' for scrollable and '1' for fixed.
 
-[[PropertyBlockGetterAndSetter('Tab Layout', 'Tabs Mode')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Tab%20Layout%22,%20%22name%22:%20%22Tabs%20Mode%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Tab%20Layout%22,%20%22name%22:%20%22Tabs%20Mode%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Tabs Text Color
 
@@ -114,7 +128,9 @@ Choose the mode used for the tab's. If no mode is specified, 'Scrollable' is tak
 
 Specifies the tab's text color for not selected tab's.
 
-[[PropertyBlockGetterAndSetter('Tab Layout', 'Tabs Text Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Tab%20Layout%22,%20%22name%22:%20%22Tabs%20Text%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Tab%20Layout%22,%20%22name%22:%20%22Tabs%20Text%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Visible
 
@@ -122,7 +138,9 @@ Specifies the tab's text color for not selected tab's.
 
 Specifies whether the component should be visible on the screen. Value is true if the component is showing and false if hidden.
 
-[[PropertyBlockGetterAndSetter('Tab Layout', 'Visible')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Tab%20Layout%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Tab%20Layout%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Column
 
@@ -136,7 +154,8 @@ Column property getter method.
 
 Get the current selected tab.
 
-[[PropertyBlockGetter('Tab Layout', 'Get Current Tab')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Tab%20Layout%22,%20%22name%22:%20%22Get%20Current%20Tab%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Row
 
@@ -150,7 +169,8 @@ Row property getter method.
 
 Select a tab which is then the active tab.
 
-[[PropertyBlockGetterAndSetter('Tab Layout', 'Select Tab')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Tab%20Layout%22,%20%22name%22:%20%22Select%20Tab%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Width
 
@@ -158,7 +178,9 @@ Select a tab which is then the active tab.
 
 Specifies the component's horizontal width, measured in pixels.
 
-[[PropertyBlockGetterAndSetter('Tab Layout', 'Width')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Tab%20Layout%22,%20%22name%22:%20%22Width%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Tab%20Layout%22,%20%22name%22:%20%22Width%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Width Percent
 
@@ -166,4 +188,4 @@ Specifies the component's horizontal width, measured in pixels.
 
 Specifies the component's horizontal width as a percentageof the Width of its parent Component.
 
-[[PropertyBlockGetterAndSetter('Tab Layout', 'Width Percent')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Tab%20Layout%22,%20%22name%22:%20%22Width%20Percent%22,%20%22getter%22:%20false%7D"></div>

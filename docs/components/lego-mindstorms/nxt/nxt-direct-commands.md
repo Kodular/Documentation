@@ -22,7 +22,8 @@ A component that provides a low-level interface to a LEGO MINDSTORMS NXT robot, 
 
 Delete a file on the robot.
 
-[[Method('NXT Direct Commands', 'Delete File', False, 'fileName')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Direct%20Commands%22,%20%22name%22:%20%22Delete%20File%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22file%20Name%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -33,7 +34,8 @@ Delete a file on the robot.
 
 Download a file to the robot.
 
-[[Method('NXT Direct Commands', 'Download File', False, 'source', 'destination')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Direct%20Commands%22,%20%22name%22:%20%22Download%20File%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22source%22,%20%22destination%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -47,7 +49,8 @@ Download a file to the robot.
 
 Get the battery level for the robot. Returns the voltage in millivolts.
 
-[[Method('NXT Direct Commands', 'Get Battery Level', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Direct%20Commands%22,%20%22name%22:%20%22Get%20Battery%20Level%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Get Brick Name
 
@@ -55,7 +58,8 @@ Get the battery level for the robot. Returns the voltage in millivolts.
 
 Get the brick name of the robot.
 
-[[Method('NXT Direct Commands', 'Get Brick Name', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Direct%20Commands%22,%20%22name%22:%20%22Get%20Brick%20Name%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Get Current Program Name
 
@@ -63,7 +67,8 @@ Get the brick name of the robot.
 
 Get the name of currently running program on the robot.
 
-[[Method('NXT Direct Commands', 'Get Current Program Name', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Direct%20Commands%22,%20%22name%22:%20%22Get%20Current%20Program%20Name%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Get Firmware Version
 
@@ -71,7 +76,8 @@ Get the name of currently running program on the robot.
 
 Get the firmware and protocol version numbers for the robot as a list where the first element is the firmware version number and the second element is the protocol version number.
 
-[[Method('NXT Direct Commands', 'Get Firmware Version', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Direct%20Commands%22,%20%22name%22:%20%22Get%20Firmware%20Version%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Get Input Values
 
@@ -79,7 +85,8 @@ Get the firmware and protocol version numbers for the robot as a list where the 
 
 Reads the values of an input sensor on the robot. Assumes sensor type has been configured via SetInputMode.
 
-[[Method('NXT Direct Commands', 'Get Input Values', True, 'sensorPortLetter')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Direct%20Commands%22,%20%22name%22:%20%22Get%20Input%20Values%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22sensor%20Port%20Letter%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -92,7 +99,8 @@ Reads the values of an input sensor on the robot. Assumes sensor type has been c
 
 Reads the output state of a motor on the robot.
 
-[[Method('NXT Direct Commands', 'Get Output State', True, 'motorPortLetter')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Direct%20Commands%22,%20%22name%22:%20%22Get%20Output%20State%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22motor%20Port%20Letter%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -105,7 +113,8 @@ Reads the output state of a motor on the robot.
 
 Keep Alive. Returns the current sleep time limit in milliseconds.
 
-[[Method('NXT Direct Commands', 'Keep Alive', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Direct%20Commands%22,%20%22name%22:%20%22Keep%20Alive%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### List Files
 
@@ -113,7 +122,8 @@ Keep Alive. Returns the current sleep time limit in milliseconds.
 
 Returns a list containing the names of matching files found on the robot.
 
-[[Method('NXT Direct Commands', 'List Files', True, 'wildcard')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Direct%20Commands%22,%20%22name%22:%20%22List%20Files%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22wildcard%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -126,7 +136,8 @@ Returns a list containing the names of matching files found on the robot.
 
 Returns the count of available bytes to read.
 
-[[Method('NXT Direct Commands', 'Ls Get Status', True, 'sensorPortLetter')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Direct%20Commands%22,%20%22name%22:%20%22Ls%20Get%20Status%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22sensor%20Port%20Letter%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -139,7 +150,8 @@ Returns the count of available bytes to read.
 
 Reads unsigned low speed data from an input sensor on the robot. Assumes sensor type has been configured via SetInputMode.
 
-[[Method('NXT Direct Commands', 'Ls Read', True, 'sensorPortLetter')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Direct%20Commands%22,%20%22name%22:%20%22Ls%20Read%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22sensor%20Port%20Letter%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -150,7 +162,8 @@ Reads unsigned low speed data from an input sensor on the robot. Assumes sensor 
 
 Writes low speed data to an input sensor on the robot. Assumes sensor type has been configured via SetInputMode.
 
-[[Method('NXT Direct Commands', 'Ls Write', False, 'sensorPortLetter', 'list', 'rxDataLength')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Direct%20Commands%22,%20%22name%22:%20%22Ls%20Write%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22sensor%20Port%20Letter%22,%20%22list%22,%20%22rx%20Data%20Length%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -165,7 +178,8 @@ Writes low speed data to an input sensor on the robot. Assumes sensor type has b
 
 Read a message from a mailbox (1-10) on the robot.
 
-[[Method('NXT Direct Commands', 'Message Read', True, 'mailbox')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Direct%20Commands%22,%20%22name%22:%20%22Message%20Read%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22mailbox%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -176,7 +190,8 @@ Read a message from a mailbox (1-10) on the robot.
 
 Write a message to a mailbox (1-10) on the robot.
 
-[[Method('NXT Direct Commands', 'Message Write', False, 'mailbox', 'message')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Direct%20Commands%22,%20%22name%22:%20%22Message%20Write%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22mailbox%22,%20%22message%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -188,7 +203,8 @@ Write a message to a mailbox (1-10) on the robot.
 
 Play a sound file on the robot.
 
-[[Method('NXT Direct Commands', 'Play Sound File', False, 'fileName')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Direct%20Commands%22,%20%22name%22:%20%22Play%20Sound%20File%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22file%20Name%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -199,7 +215,8 @@ Play a sound file on the robot.
 
 Make the robot play a tone.
 
-[[Method('NXT Direct Commands', 'Play Tone', False, 'frequencyHz', 'durationMs')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Direct%20Commands%22,%20%22name%22:%20%22Play%20Tone%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22frequency%20Hz%22,%20%22duration%20Ms%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -211,7 +228,8 @@ Make the robot play a tone.
 
 Reset the scaled value of an input sensor on the robot.
 
-[[Method('NXT Direct Commands', 'Reset Input Scaled Value', False, 'sensorPortLetter')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Direct%20Commands%22,%20%22name%22:%20%22Reset%20Input%20Scaled%20Value%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22sensor%20Port%20Letter%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -222,7 +240,8 @@ Reset the scaled value of an input sensor on the robot.
 
 Reset motor position.
 
-[[Method('NXT Direct Commands', 'Reset Motor Position', False, 'motorPortLetter', 'relative')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Direct%20Commands%22,%20%22name%22:%20%22Reset%20Motor%20Position%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22motor%20Port%20Letter%22,%20%22relative%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -234,7 +253,8 @@ Reset motor position.
 
 Set the brick name of the robot.
 
-[[Method('NXT Direct Commands', 'Set Brick Name', False, 'name')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Direct%20Commands%22,%20%22name%22:%20%22Set%20Brick%20Name%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22name%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -245,7 +265,8 @@ Set the brick name of the robot.
 
 Configure an input sensor on the robot.
 
-[[Method('NXT Direct Commands', 'Set Input Mode', False, 'sensorPortLetter', 'sensorType', 'sensorMode')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Direct%20Commands%22,%20%22name%22:%20%22Set%20Input%20Mode%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22sensor%20Port%20Letter%22,%20%22sensor%20Type%22,%20%22sensor%20Mode%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -258,7 +279,8 @@ Configure an input sensor on the robot.
 
 Sets the output state of a motor on the robot.
 
-[[Method('NXT Direct Commands', 'Set Output State', False, 'motorPortLetter', 'power', 'mode', 'regulationMode', 'turnRatio', 'runState', 'tachoLimit')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Direct%20Commands%22,%20%22name%22:%20%22Set%20Output%20State%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22motor%20Port%20Letter%22,%20%22power%22,%20%22mode%22,%20%22regulation%20Mode%22,%20%22turn%20Ratio%22,%20%22run%20State%22,%20%22tacho%20Limit%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -275,7 +297,8 @@ Sets the output state of a motor on the robot.
 
 Start execution of a previously downloaded program on the robot.
 
-[[Method('NXT Direct Commands', 'Start Program', False, 'programName')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Direct%20Commands%22,%20%22name%22:%20%22Start%20Program%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22program%20Name%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -286,13 +309,15 @@ Start execution of a previously downloaded program on the robot.
 
 Stop execution of the currently running program on the robot.
 
-[[Method('NXT Direct Commands', 'Stop Program', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Direct%20Commands%22,%20%22name%22:%20%22Stop%20Program%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Stop Sound Playback
 
 Stop sound playback.
 
-[[Method('NXT Direct Commands', 'Stop Sound Playback', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Direct%20Commands%22,%20%22name%22:%20%22Stop%20Sound%20Playback%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Properties
 

@@ -29,49 +29,57 @@ You might get an error if you attempt to play a sound immediately after setting 
 
 Pauses playing the sound if it is being played.
 
-[[Method('Sound', 'Pause', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Sound%22,%20%22name%22:%20%22Pause%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Play
 
 Plays the sound specified by the Source property.
 
-[[Method('Sound', 'Play', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Sound%22,%20%22name%22:%20%22Play%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Resume
 
 Resumes playing the sound after a pause.
 
-[[Method('Sound', 'Resume', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Sound%22,%20%22name%22:%20%22Resume%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Sound Normal
 
 Ringer mode that may be audible and may vibrate.
 
-[[Method('Sound', 'Sound Normal', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Sound%22,%20%22name%22:%20%22Sound%20Normal%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Sound Silent
 
 Ringer mode that will be silent and will not vibrate.
 
-[[Method('Sound', 'Sound Silent', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Sound%22,%20%22name%22:%20%22Sound%20Silent%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Sound Vibrate
 
 Ringer mode that will be silent and will vibrate.
 
-[[Method('Sound', 'Sound Vibrate', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Sound%22,%20%22name%22:%20%22Sound%20Vibrate%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Stop
 
 Stops playing the sound if it is being played.
 
-[[Method('Sound', 'Stop', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Sound%22,%20%22name%22:%20%22Stop%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Vibrate
 
 Vibrates for the specified number of milliseconds.
 
-[[Method('Sound', 'Vibrate', False, 'millisecs')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Sound%22,%20%22name%22:%20%22Vibrate%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22millisecs%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -82,7 +90,8 @@ Vibrates for the specified number of milliseconds.
 
 Vibrate with a given pattern
 
-[[Method('Sound', 'Vibrate Pattern', False, 'vibrate', 'delay', 'repeat')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Sound%22,%20%22name%22:%20%22Vibrate%20Pattern%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22vibrate%22,%20%22delay%22,%20%22repeat%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -99,7 +108,9 @@ Vibrate with a given pattern
 
 The minimum interval, in milliseconds, between sounds. If you play a sound, all further Play() calls will be ignored until the interval has elapsed.
 
-[[PropertyBlockGetterAndSetter('Sound', 'Minimum Interval ms')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Sound%22,%20%22name%22:%20%22Minimum%20Interval%20(ms)%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Sound%22,%20%22name%22:%20%22Minimum%20Interval%20(ms)%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Source
 
@@ -107,4 +118,5 @@ The minimum interval, in milliseconds, between sounds. If you play a sound, all 
 
 The name of the sound file. Only certain formats are supported. See http://developer.android.com/guide/appendix/media-formats.html.
 
-[[PropertyBlockGetterAndSetter('Sound', 'Source')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Sound%22,%20%22name%22:%20%22Source%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Sound%22,%20%22name%22:%20%22Source%22,%20%22getter%22:%20false%7D"></div>

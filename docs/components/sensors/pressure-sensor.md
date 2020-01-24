@@ -16,7 +16,8 @@ A non-visible component that measures the ambient air pressure in units of hPa o
 
 Event is invoked when pressure is changed.
 
-[[Event('Pressure Sensor', 'Pressure Changed', 'pressure', 'altitude')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Pressure%20Sensor%22,%20%22name%22:%20%22Pressure%20Changed%22,%20%22params%22:%20%5B%22pressure%22,%20%22altitude%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -30,34 +31,41 @@ Event is invoked when pressure is changed.
 
 <span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
-[[PropertyBlockGetterAndSetter('Pressure Sensor', 'Enabled')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Pressure%20Sensor%22,%20%22name%22:%20%22Enabled%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Pressure%20Sensor%22,%20%22name%22:%20%22Enabled%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Keep Running When On Pause
 
 <span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>False</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
-[[PropertyBlockGetterAndSetter('Pressure Sensor', 'Keep Running When On Pause')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Pressure%20Sensor%22,%20%22name%22:%20%22Keep%20Running%20When%20On%20Pause%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Pressure%20Sensor%22,%20%22name%22:%20%22Keep%20Running%20When%20On%20Pause%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Altitude
 
 <span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
-[[PropertyBlockGetter('Pressure Sensor', 'Altitude')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Pressure%20Sensor%22,%20%22name%22:%20%22Altitude%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Available
 
 <span class="chip chip-boolean">Boolean</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
-[[PropertyBlockGetter('Pressure Sensor', 'Available')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Pressure%20Sensor%22,%20%22name%22:%20%22Available%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Maximum Range
 
 <span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
-[[PropertyBlockGetter('Pressure Sensor', 'Maximum Range')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Pressure%20Sensor%22,%20%22name%22:%20%22Maximum%20Range%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Pressure
 
 <span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
-[[PropertyBlockGetter('Pressure Sensor', 'Pressure')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Pressure%20Sensor%22,%20%22name%22:%20%22Pressure%22,%20%22getter%22:%20true%7D"></div>

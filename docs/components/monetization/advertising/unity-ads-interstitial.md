@@ -21,7 +21,8 @@ A non-visible component that shows Unity ads as full-screen advertisements.
 
 Called when an ad was closed.
 
-[[Event('Unity Ads Interstitial', 'Ad Closed', 'placementId', 'wasSkipped', 'wasCompleted')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Unity%20Ads%20Interstitial%22,%20%22name%22:%20%22Ad%20Closed%22,%20%22params%22:%20%5B%22placement%20Id%22,%20%22was%20Skipped%22,%20%22was%20Completed%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -34,7 +35,8 @@ Called when an ad was closed.
 
 Called when an ad was opened.
 
-[[Event('Unity Ads Interstitial', 'Ad Opened', 'placementId')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Unity%20Ads%20Interstitial%22,%20%22name%22:%20%22Ad%20Opened%22,%20%22params%22:%20%5B%22placement%20Id%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -45,7 +47,8 @@ Called when an ad was opened.
 
 Called when an ad was started.
 
-[[Event('Unity Ads Interstitial', 'Ad Started', 'placementId')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Unity%20Ads%20Interstitial%22,%20%22name%22:%20%22Ad%20Started%22,%20%22params%22:%20%5B%22placement%20Id%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -56,7 +59,8 @@ Called when an ad was started.
 
 Called when an ad request failed. The message will display the reason for why the ad failed.
 
-[[Event('Unity Ads Interstitial', 'Error', 'error')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Unity%20Ads%20Interstitial%22,%20%22name%22:%20%22Error%22,%20%22params%22:%20%5B%22error%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -71,13 +75,15 @@ Called when an ad request failed. The message will display the reason for why th
 
 Returns true if the ad is finished loading and can now be shown.
 
-[[Method('Unity Ads Interstitial', 'Is Ready', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Unity%20Ads%20Interstitial%22,%20%22name%22:%20%22Is%20Ready%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Show Ad
 
 Shows an ad to the user.
 
-[[Method('Unity Ads Interstitial', 'Show Ad', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Unity%20Ads%20Interstitial%22,%20%22name%22:%20%22Show%20Ad%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Properties
 

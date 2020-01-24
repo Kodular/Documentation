@@ -21,13 +21,15 @@ A non-visible component that retrieves the internet connection status of the dev
 
 Called when the device connects to a network.
 
-[[Event('Network', 'On Connect')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Network%22,%20%22name%22:%20%22On%20Connect%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### On Disconnect
 
 Called when the device disconnects from a network.
 
-[[Event('Network', 'On Disconnect')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Network%22,%20%22name%22:%20%22On%20Disconnect%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Methods
 
@@ -37,7 +39,8 @@ Called when the device disconnects from a network.
 
 Returns "True" if the device is connected to a network, "False" otherwise.
 
-[[Method('Network', 'Is Connected', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Network%22,%20%22name%22:%20%22Is%20Connected%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Is Fast Connection
 
@@ -45,7 +48,8 @@ Returns "True" if the device is connected to a network, "False" otherwise.
 
 Returns true if using a fast connection
 
-[[Method('Network', 'Is Fast Connection', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Network%22,%20%22name%22:%20%22Is%20Fast%20Connection%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Is Mobile Connection
 
@@ -53,7 +57,8 @@ Returns true if using a fast connection
 
 Returns true if connection is through Mobile
 
-[[Method('Network', 'Is Mobile Connection', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Network%22,%20%22name%22:%20%22Is%20Mobile%20Connection%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Is Roaming
 
@@ -61,7 +66,8 @@ Returns true if connection is through Mobile
 
 Returns true if using roaming
 
-[[Method('Network', 'Is Roaming', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Network%22,%20%22name%22:%20%22Is%20Roaming%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Is Wifi Connection
 
@@ -69,7 +75,8 @@ Returns true if using roaming
 
 Returns true if connection is through WiFi
 
-[[Method('Network', 'Is Wifi Connection', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Network%22,%20%22name%22:%20%22Is%20Wifi%20Connection%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Type
 
@@ -79,4 +86,4 @@ Returns true if connection is through WiFi
 
 Returns the type of network the device is connected to. e.g. "wifi" or "mobile". This block is deprecated, use the "IsWiFiConnection" and "IsMobileConnection" blocks instead
 
-[[Method('Network', 'Type', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Network%22,%20%22name%22:%20%22Type%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>

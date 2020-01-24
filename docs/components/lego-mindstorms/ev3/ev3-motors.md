@@ -16,7 +16,8 @@ A component that provides both high- and low-level interfaces to a LEGO MINDSTOR
 
 Called when the tacho count has changed.
 
-[[Event('EV3 Motors', 'Tacho Count Changed', 'tachoCount')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Motors%22,%20%22name%22:%20%22Tacho%20Count%20Changed%22,%20%22params%22:%20%5B%22tacho%20Count%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -31,19 +32,22 @@ Called when the tacho count has changed.
 
 Get the current tacho count.
 
-[[Method('EV3 Motors', 'Get Tacho Count', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Motors%22,%20%22name%22:%20%22Get%20Tacho%20Count%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Reset Tacho Count
 
 Set the current tacho count to zero.
 
-[[Method('EV3 Motors', 'Reset Tacho Count', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Motors%22,%20%22name%22:%20%22Reset%20Tacho%20Count%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Rotate In Distance
 
 Rotate the motors in a distance.
 
-[[Method('EV3 Motors', 'Rotate In Distance', False, 'power', 'distance', 'useBrake')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Motors%22,%20%22name%22:%20%22Rotate%20In%20Distance%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22power%22,%20%22distance%22,%20%22use%20Brake%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -56,7 +60,8 @@ Rotate the motors in a distance.
 
 Rotate the motors in a period of time.
 
-[[Method('EV3 Motors', 'Rotate In Duration', False, 'power', 'milliseconds', 'useBrake')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Motors%22,%20%22name%22:%20%22Rotate%20In%20Duration%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22power%22,%20%22milliseconds%22,%20%22use%20Brake%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -69,7 +74,8 @@ Rotate the motors in a period of time.
 
 Rotate the motors in a number of tacho counts.
 
-[[Method('EV3 Motors', 'Rotate In Tacho Counts', False, 'power', 'tachoCounts', 'useBrake')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Motors%22,%20%22name%22:%20%22Rotate%20In%20Tacho%20Counts%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22power%22,%20%22tacho%20Counts%22,%20%22use%20Brake%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -82,7 +88,8 @@ Rotate the motors in a number of tacho counts.
 
 Start to rotate the motors.
 
-[[Method('EV3 Motors', 'Rotate Indefinitely', False, 'power')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Motors%22,%20%22name%22:%20%22Rotate%20Indefinitely%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22power%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -93,7 +100,8 @@ Start to rotate the motors.
 
 Rotate the motors at the same speed for a distance in cm.
 
-[[Method('EV3 Motors', 'Rotate Sync In Distance', False, 'power', 'distance', 'turnRatio', 'useBrake')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Motors%22,%20%22name%22:%20%22Rotate%20Sync%20In%20Distance%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22power%22,%20%22distance%22,%20%22turn%20Ratio%22,%20%22use%20Brake%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -107,7 +115,8 @@ Rotate the motors at the same speed for a distance in cm.
 
 Rotate the motors at the same speed in a period of time.
 
-[[Method('EV3 Motors', 'Rotate Sync In Duration', False, 'power', 'milliseconds', 'turnRatio', 'useBrake')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Motors%22,%20%22name%22:%20%22Rotate%20Sync%20In%20Duration%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22power%22,%20%22milliseconds%22,%20%22turn%20Ratio%22,%20%22use%20Brake%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -121,7 +130,8 @@ Rotate the motors at the same speed in a period of time.
 
 Rotate the motors at the same speed in a number of tacho counts.
 
-[[Method('EV3 Motors', 'Rotate Sync In Tacho Counts', False, 'power', 'tachoCounts', 'turnRatio', 'useBrake')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Motors%22,%20%22name%22:%20%22Rotate%20Sync%20In%20Tacho%20Counts%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22power%22,%20%22tacho%20Counts%22,%20%22turn%20Ratio%22,%20%22use%20Brake%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -135,7 +145,8 @@ Rotate the motors at the same speed in a number of tacho counts.
 
 Start to rotate the motors at the same speed.
 
-[[Method('EV3 Motors', 'Rotate Sync Indefinitely', False, 'power', 'turnRatio')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Motors%22,%20%22name%22:%20%22Rotate%20Sync%20Indefinitely%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22power%22,%20%22turn%20Ratio%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -147,7 +158,8 @@ Start to rotate the motors at the same speed.
 
 Stop the motors of the robot.
 
-[[Method('EV3 Motors', 'Stop', False, 'useBrake')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Motors%22,%20%22name%22:%20%22Stop%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22use%20Brake%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -158,7 +170,8 @@ Stop the motors of the robot.
 
 Toggle the direction of motors.
 
-[[Method('EV3 Motors', 'Toggle Direction', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Motors%22,%20%22name%22:%20%22Toggle%20Direction%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Properties
 
@@ -168,7 +181,9 @@ Toggle the direction of motors.
 
 The BluetoothClient component that should be used for communication.
 
-[[PropertyBlockGetterAndSetter('EV3 Motors', 'Bluetooth Client')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Motors%22,%20%22name%22:%20%22Bluetooth%20Client%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Motors%22,%20%22name%22:%20%22Bluetooth%20Client%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Enable Speed Regulation
 
@@ -176,7 +191,9 @@ The BluetoothClient component that should be used for communication.
 
 Specifies whether to keep motor rotation at constant speed.
 
-[[PropertyBlockGetterAndSetter('EV3 Motors', 'Enable Speed Regulation')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Motors%22,%20%22name%22:%20%22Enable%20Speed%20Regulation%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Motors%22,%20%22name%22:%20%22Enable%20Speed%20Regulation%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Motor Ports
 
@@ -190,7 +207,9 @@ The motor ports that the motors are connected to. The ports are specified by a s
 
 Set whether the direction of motors is reversed or not.
 
-[[PropertyBlockGetterAndSetter('EV3 Motors', 'Reverse Direction')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Motors%22,%20%22name%22:%20%22Reverse%20Direction%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Motors%22,%20%22name%22:%20%22Reverse%20Direction%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Stop Before Disconnect
 
@@ -198,7 +217,9 @@ Set whether the direction of motors is reversed or not.
 
 Whether to stop the motor before disconnecting.
 
-[[PropertyBlockGetterAndSetter('EV3 Motors', 'Stop Before Disconnect')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Motors%22,%20%22name%22:%20%22Stop%20Before%20Disconnect%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Motors%22,%20%22name%22:%20%22Stop%20Before%20Disconnect%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Tacho Count Changed Event Enabled
 
@@ -206,7 +227,9 @@ Whether to stop the motor before disconnecting.
 
 Whether the TachoCountChanged event should fire when the angle is changed.
 
-[[PropertyBlockGetterAndSetter('EV3 Motors', 'Tacho Count Changed Event Enabled')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Motors%22,%20%22name%22:%20%22Tacho%20Count%20Changed%20Event%20Enabled%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Motors%22,%20%22name%22:%20%22Tacho%20Count%20Changed%20Event%20Enabled%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Wheel Diameter
 

@@ -19,7 +19,8 @@ A chat consists of messages sent by two or more than two users where each messag
 
 Click listener event.
 
-[[Event('Chat View', 'Click', 'userImage', 'title', 'message', 'timestamp', 'id', 'sendAsSender', 'imagePath', 'withImage', 'filePath', 'fileThumbnail', 'withFile')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Chat%20View%22,%20%22name%22:%20%22Click%22,%20%22params%22:%20%5B%22user%20Image%22,%20%22title%22,%20%22message%22,%20%22timestamp%22,%20%22id%22,%20%22send%20As%20Sender%22,%20%22image%20Path%22,%20%22with%20Image%22,%20%22file%20Path%22,%20%22file%20Thumbnail%22,%20%22with%20File%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -40,7 +41,8 @@ Click listener event.
 
 Double tap click listener event.
 
-[[Event('Chat View', 'Double Tap Click', 'userImage', 'title', 'message', 'timestamp', 'id', 'sendAsSender', 'imagePath', 'withImage', 'filePath', 'fileThumbnail', 'withFile')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Chat%20View%22,%20%22name%22:%20%22Double%20Tap%20Click%22,%20%22params%22:%20%5B%22user%20Image%22,%20%22title%22,%20%22message%22,%20%22timestamp%22,%20%22id%22,%20%22send%20As%20Sender%22,%20%22image%20Path%22,%20%22with%20Image%22,%20%22file%20Path%22,%20%22file%20Thumbnail%22,%20%22with%20File%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -61,7 +63,8 @@ Double tap click listener event.
 
 Long click listener event.
 
-[[Event('Chat View', 'Long Click', 'userImage', 'title', 'message', 'timestamp', 'id', 'sendAsSender', 'imagePath', 'withImage', 'filePath', 'fileThumbnail', 'withFile')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Chat%20View%22,%20%22name%22:%20%22Long%20Click%22,%20%22params%22:%20%5B%22user%20Image%22,%20%22title%22,%20%22message%22,%20%22timestamp%22,%20%22id%22,%20%22send%20As%20Sender%22,%20%22image%20Path%22,%20%22with%20Image%22,%20%22file%20Path%22,%20%22file%20Thumbnail%22,%20%22with%20File%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -82,7 +85,8 @@ Long click listener event.
 
 Swipe listener event. The direction value returns '1' for right-to-left swipes, '2' for left-to-right swipes '3' for bottom-to-top swipes and '4' for top-to-bottom swipes
 
-[[Event('Chat View', 'Swipe', 'direction', 'userImage', 'title', 'message', 'timestamp', 'id', 'sendAsSender', 'imagePath', 'withImage', 'filePath', 'fileThumbnail', 'withFile')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Chat%20View%22,%20%22name%22:%20%22Swipe%22,%20%22params%22:%20%5B%22direction%22,%20%22user%20Image%22,%20%22title%22,%20%22message%22,%20%22timestamp%22,%20%22id%22,%20%22send%20As%20Sender%22,%20%22image%20Path%22,%20%22with%20Image%22,%20%22file%20Path%22,%20%22file%20Thumbnail%22,%20%22with%20File%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -104,7 +108,8 @@ Swipe listener event. The direction value returns '1' for right-to-left swipes, 
 
 Click listener event for the user image.
 
-[[Event('Chat View', 'User Image Click', 'id', 'userImage')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Chat%20View%22,%20%22name%22:%20%22User%20Image%20Click%22,%20%22params%22:%20%5B%22id%22,%20%22user%20Image%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -118,7 +123,8 @@ Click listener event for the user image.
 
 Add a new simple component message into the chat view. If you do not want a user image or title or message or timestamp, then let the field empty. Make sure that the component is VISIBLE on the screen when you try to add it here. It will be then removed automatic from the screen and only visible again in the chat view.
 
-[[Method('Chat View', 'Add Component Message', False, 'userImage', 'title', 'message', 'timestamp', 'component', 'id', 'addAsSender')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Chat%20View%22,%20%22name%22:%20%22Add%20Component%20Message%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22user%20Image%22,%20%22title%22,%20%22message%22,%20%22timestamp%22,%20%22component%22,%20%22id%22,%20%22add%20As%20Sender%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -135,7 +141,8 @@ Add a new simple component message into the chat view. If you do not want a user
 
 Add a new simple date timestamp into the chat view. You NEED to write a date, else this block will do nothing. This means the field 'date' can NOT be empty. Timestamp messages are not clickable.
 
-[[Method('Chat View', 'Add Date Timestamp', False, 'date', 'textColor', 'backgroundColor', 'id')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Chat%20View%22,%20%22name%22:%20%22Add%20Date%20Timestamp%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22date%22,%20%22text%20Color%22,%20%22background%20Color%22,%20%22id%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -149,7 +156,8 @@ Add a new simple date timestamp into the chat view. You NEED to write a date, el
 
 Add a new simple file message into the chat view. If you do not want a user image or title or message or timestamp, then let the field empty.
 
-[[Method('Chat View', 'Add File Message', False, 'userImage', 'title', 'message', 'filePath', 'fileThumbnail', 'timestamp', 'id', 'addAsSender')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Chat%20View%22,%20%22name%22:%20%22Add%20File%20Message%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22user%20Image%22,%20%22title%22,%20%22message%22,%20%22file%20Path%22,%20%22file%20Thumbnail%22,%20%22timestamp%22,%20%22id%22,%20%22add%20As%20Sender%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -167,7 +175,8 @@ Add a new simple file message into the chat view. If you do not want a user imag
 
 Add a new simple image message into the chat view. If you do not want a user image or title or message or timestamp, then let the field empty.
 
-[[Method('Chat View', 'Add Image Message', False, 'userImage', 'title', 'message', 'image', 'timestamp', 'id', 'addAsSender')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Chat%20View%22,%20%22name%22:%20%22Add%20Image%20Message%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22user%20Image%22,%20%22title%22,%20%22message%22,%20%22image%22,%20%22timestamp%22,%20%22id%22,%20%22add%20As%20Sender%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -184,7 +193,8 @@ Add a new simple image message into the chat view. If you do not want a user ima
 
 Add a new simple message into the chat view. If you do not want a user image or title or message or timestamp, then let the field empty.
 
-[[Method('Chat View', 'Add Message', False, 'userImage', 'title', 'message', 'timestamp', 'id', 'addAsSender')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Chat%20View%22,%20%22name%22:%20%22Add%20Message%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22user%20Image%22,%20%22title%22,%20%22message%22,%20%22timestamp%22,%20%22id%22,%20%22add%20As%20Sender%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -200,7 +210,8 @@ Add a new simple message into the chat view. If you do not want a user image or 
 
 Removes all messages and timestamps from the chat view.
 
-[[Method('Chat View', 'Clear ChatView', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Chat%20View%22,%20%22name%22:%20%22Clear%20ChatView%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Count Date Timestamp
 
@@ -208,7 +219,8 @@ Removes all messages and timestamps from the chat view.
 
 Returns the number of all date timestamps. Normal messages are not included.
 
-[[Method('Chat View', 'Count Date Timestamp', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Chat%20View%22,%20%22name%22:%20%22Count%20Date%20Timestamp%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Count Messages
 
@@ -216,7 +228,8 @@ Returns the number of all date timestamps. Normal messages are not included.
 
 Returns the number of all messages. 'Date Timestamp' messages are not included.
 
-[[Method('Chat View', 'Count Messages', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Chat%20View%22,%20%22name%22:%20%22Count%20Messages%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Get Last Used Id
 
@@ -224,13 +237,15 @@ Returns the number of all messages. 'Date Timestamp' messages are not included.
 
 Returns the last used id.
 
-[[Method('Chat View', 'Get Last Used Id', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Chat%20View%22,%20%22name%22:%20%22Get%20Last%20Used%20Id%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Remove Message
 
 Remove a message or timestamp from the chat view.
 
-[[Method('Chat View', 'Remove Message', False, 'id')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Chat%20View%22,%20%22name%22:%20%22Remove%20Message%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22id%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -241,7 +256,8 @@ Remove a message or timestamp from the chat view.
 
 Scroll to a specific message in the chat view with the given id.
 
-[[Method('Chat View', 'Scroll To', False, 'id')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Chat%20View%22,%20%22name%22:%20%22Scroll%20To%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22id%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -252,7 +268,8 @@ Scroll to a specific message in the chat view with the given id.
 
 Update the background color of a chat view message.
 
-[[Method('Chat View', 'Update Message Background Color', False, 'id', 'backgroundColor')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Chat%20View%22,%20%22name%22:%20%22Update%20Message%20Background%20Color%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22id%22,%20%22background%20Color%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -264,7 +281,8 @@ Update the background color of a chat view message.
 
 Update the message content of a chat view message.
 
-[[Method('Chat View', 'Update Message Content', False, 'id', 'text', 'textColor')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Chat%20View%22,%20%22name%22:%20%22Update%20Message%20Content%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22id%22,%20%22text%22,%20%22text%20Color%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -277,7 +295,8 @@ Update the message content of a chat view message.
 
 Update the timestamp content of a chat view message.
 
-[[Method('Chat View', 'Update Timestamp Content', False, 'id', 'text', 'textColor')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Chat%20View%22,%20%22name%22:%20%22Update%20Timestamp%20Content%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22id%22,%20%22text%22,%20%22text%20Color%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -290,7 +309,8 @@ Update the timestamp content of a chat view message.
 
 Update the title content of a chat view message.
 
-[[Method('Chat View', 'Update Title Content', False, 'id', 'text', 'textColor')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Chat%20View%22,%20%22name%22:%20%22Update%20Title%20Content%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22id%22,%20%22text%22,%20%22text%20Color%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -303,7 +323,8 @@ Update the title content of a chat view message.
 
 Update the user image of a chat view message. The image can only be updated if there was before a old image.
 
-[[Method('Chat View', 'Update User Image', False, 'id', 'userImage')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Chat%20View%22,%20%22name%22:%20%22Update%20User%20Image%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22id%22,%20%22user%20Image%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -319,7 +340,9 @@ Update the user image of a chat view message. The image can only be updated if t
 
 If set to true the chat view will scroll down when a new message was send.
 
-[[PropertyBlockGetterAndSetter('Chat View', 'Automatic Scroll Down')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Chat%20View%22,%20%22name%22:%20%22Automatic%20Scroll%20Down%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Chat%20View%22,%20%22name%22:%20%22Automatic%20Scroll%20Down%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Background Color
 
@@ -327,7 +350,9 @@ If set to true the chat view will scroll down when a new message was send.
 
 Specifies the component's background color. The background color will not be visible if an Image is being displayed.
 
-[[PropertyBlockGetterAndSetter('Chat View', 'Background Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Chat%20View%22,%20%22name%22:%20%22Background%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Chat%20View%22,%20%22name%22:%20%22Background%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Clickable
 
@@ -335,7 +360,9 @@ Specifies the component's background color. The background color will not be vis
 
 Set the component clickable or not clickable.
 
-[[PropertyBlockGetterAndSetter('Chat View', 'Clickable')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Chat%20View%22,%20%22name%22:%20%22Clickable%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Chat%20View%22,%20%22name%22:%20%22Clickable%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Double Tap
 
@@ -345,7 +372,9 @@ Set the component clickable or not clickable.
 
 Set the component enabled for double taps or not.
 
-[[PropertyBlockGetterAndSetter('Chat View', 'Double Tap')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Chat%20View%22,%20%22name%22:%20%22Double%20Tap%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Chat%20View%22,%20%22name%22:%20%22Double%20Tap%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Image
 
@@ -353,7 +382,9 @@ Set the component enabled for double taps or not.
 
 Specifies the path of the component's image. If there is both an Image and a BackgroundColor, only the Image will be visible.
 
-[[PropertyBlockGetterAndSetter('Chat View', 'Image')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Chat%20View%22,%20%22name%22:%20%22Image%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Chat%20View%22,%20%22name%22:%20%22Image%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Messages Corner Radius
 
@@ -373,7 +404,9 @@ Specifies the path of the component's image. If there is both an Image and a Bac
 
 Specifies the background color for receiver's messages.
 
-[[PropertyBlockGetterAndSetter('Chat View', 'Receivers Background Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Chat%20View%22,%20%22name%22:%20%22Receivers%20Background%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Chat%20View%22,%20%22name%22:%20%22Receivers%20Background%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Receivers Message Color
 
@@ -381,7 +414,9 @@ Specifies the background color for receiver's messages.
 
 Specifies the color for receivers's messages.
 
-[[PropertyBlockGetterAndSetter('Chat View', 'Receivers Message Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Chat%20View%22,%20%22name%22:%20%22Receivers%20Message%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Chat%20View%22,%20%22name%22:%20%22Receivers%20Message%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Receivers Title Color
 
@@ -389,7 +424,9 @@ Specifies the color for receivers's messages.
 
 Specifies the color for receivers's title messages.
 
-[[PropertyBlockGetterAndSetter('Chat View', 'Receivers Title Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Chat%20View%22,%20%22name%22:%20%22Receivers%20Title%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Chat%20View%22,%20%22name%22:%20%22Receivers%20Title%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Receivers Typeface Message
 
@@ -417,7 +454,9 @@ Specifies the color for receivers's title messages.
 
 Whether to display a scrollbar.
 
-[[PropertyBlockGetterAndSetter('Chat View', 'Scrollbar')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Chat%20View%22,%20%22name%22:%20%22Scrollbar%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Chat%20View%22,%20%22name%22:%20%22Scrollbar%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Senders Background Color
 
@@ -425,7 +464,9 @@ Whether to display a scrollbar.
 
 Specifies the background color for sender's messages.
 
-[[PropertyBlockGetterAndSetter('Chat View', 'Senders Background Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Chat%20View%22,%20%22name%22:%20%22Senders%20Background%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Chat%20View%22,%20%22name%22:%20%22Senders%20Background%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Senders Message Color
 
@@ -433,7 +474,9 @@ Specifies the background color for sender's messages.
 
 Specifies the color for sender's messages.
 
-[[PropertyBlockGetterAndSetter('Chat View', 'Senders Message Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Chat%20View%22,%20%22name%22:%20%22Senders%20Message%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Chat%20View%22,%20%22name%22:%20%22Senders%20Message%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Senders Title Color
 
@@ -441,7 +484,9 @@ Specifies the color for sender's messages.
 
 Specifies the color for sender's title messages.
 
-[[PropertyBlockGetterAndSetter('Chat View', 'Senders Title Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Chat%20View%22,%20%22name%22:%20%22Senders%20Title%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Chat%20View%22,%20%22name%22:%20%22Senders%20Title%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Senders Typeface Message
 
@@ -471,7 +516,9 @@ Specifies the color for sender's title messages.
 
 If set to true you can swipe with your fingers through views.
 
-[[PropertyBlockGetterAndSetter('Chat View', 'Swipeable')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Chat%20View%22,%20%22name%22:%20%22Swipeable%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Chat%20View%22,%20%22name%22:%20%22Swipeable%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Timestamp Corner Radius
 
@@ -491,7 +538,9 @@ If set to true you can swipe with your fingers through views.
 
 Specifies the color for the timestamp.
 
-[[PropertyBlockGetterAndSetter('Chat View', 'Timestamp Text Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Chat%20View%22,%20%22name%22:%20%22Timestamp%20Text%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Chat%20View%22,%20%22name%22:%20%22Timestamp%20Text%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Title Font Size
 
@@ -505,7 +554,9 @@ Specifies the color for the timestamp.
 
 Returns true iff the component is visible.
 
-[[PropertyBlockGetterAndSetter('Chat View', 'Visible')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Chat%20View%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Chat%20View%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Column
 
@@ -519,7 +570,9 @@ Column property getter method.
 
 Specifies the component's vertical height, measured in pixels.
 
-[[PropertyBlockGetterAndSetter('Chat View', 'Height')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Chat%20View%22,%20%22name%22:%20%22Height%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Chat%20View%22,%20%22name%22:%20%22Height%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Height Percent
 
@@ -527,7 +580,8 @@ Specifies the component's vertical height, measured in pixels.
 
 Specifies the component's vertical height as a percentageof the height of its parent Component.
 
-[[PropertyBlockGetterAndSetter('Chat View', 'Height Percent')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Chat%20View%22,%20%22name%22:%20%22Height%20Percent%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Row
 
@@ -541,7 +595,9 @@ Row property getter method.
 
 Specifies the component's horizontal width, measured in pixels.
 
-[[PropertyBlockGetterAndSetter('Chat View', 'Width')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Chat%20View%22,%20%22name%22:%20%22Width%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Chat%20View%22,%20%22name%22:%20%22Width%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Width Percent
 
@@ -549,4 +605,4 @@ Specifies the component's horizontal width, measured in pixels.
 
 Specifies the component's horizontal width as a percentageof the Width of its parent Component.
 
-[[PropertyBlockGetterAndSetter('Chat View', 'Width Percent')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Chat%20View%22,%20%22name%22:%20%22Width%20Percent%22,%20%22getter%22:%20false%7D"></div>

@@ -14,31 +14,36 @@ A visible component that draws a circle of a given radius around a point on a Ma
 
 The user clicked on the feature.
 
-[[Event('Circle', 'Click')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Circle%22,%20%22name%22:%20%22Click%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Drag
 
 The user dragged the map feature.
 
-[[Event('Circle', 'Drag')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Circle%22,%20%22name%22:%20%22Drag%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Long Click
 
 The user long-pressed on the feature. This event will only trigger if Draggable is false.
 
-[[Event('Circle', 'Long Click')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Circle%22,%20%22name%22:%20%22Long%20Click%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Start Drag
 
 The user started a drag operation.
 
-[[Event('Circle', 'Start Drag')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Circle%22,%20%22name%22:%20%22Start%20Drag%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Stop Drag
 
 The user stopped a drag operation.
 
-[[Event('Circle', 'Stop Drag')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Circle%22,%20%22name%22:%20%22Stop%20Drag%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Methods
 
@@ -48,7 +53,8 @@ The user stopped a drag operation.
 
 Compute the distance, in meters, between two map features.
 
-[[Method('Circle', 'Distance To Feature', True, 'mapFeature', 'centroids')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Circle%22,%20%22name%22:%20%22Distance%20To%20Feature%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22map%20Feature%22,%20%22centroids%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -62,7 +68,8 @@ Compute the distance, in meters, between two map features.
 
 Compute the distance, in meters, between a map feature and a latitude, longitude point.
 
-[[Method('Circle', 'Distance To Point', True, 'latitude', 'longitude', 'centroid')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Circle%22,%20%22name%22:%20%22Distance%20To%20Point%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22latitude%22,%20%22longitude%22,%20%22centroid%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -75,13 +82,15 @@ Compute the distance, in meters, between a map feature and a latitude, longitude
 
 Hide the infobox if it is shown. If the infobox is not visible this function has no effect.
 
-[[Method('Circle', 'Hide Infobox', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Circle%22,%20%22name%22:%20%22Hide%20Infobox%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Set Location
 
 Set the center of the Circle.
 
-[[Method('Circle', 'Set Location', False, 'latitude', 'longitude')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Circle%22,%20%22name%22:%20%22Set%20Location%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22latitude%22,%20%22longitude%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -93,7 +102,8 @@ Set the center of the Circle.
 
 Show the infobox for the feature. This will show the infobox even if
 
-[[Method('Circle', 'Show Infobox', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Circle%22,%20%22name%22:%20%22Show%20Infobox%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Properties
 
@@ -103,7 +113,9 @@ Show the infobox for the feature. This will show the infobox even if
 
 The description displayed in the info window that appears when the user clicks on the map feature.
 
-[[PropertyBlockGetterAndSetter('Circle', 'Description')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Circle%22,%20%22name%22:%20%22Description%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Circle%22,%20%22name%22:%20%22Description%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Draggable
 
@@ -111,7 +123,9 @@ The description displayed in the info window that appears when the user clicks o
 
 The Draggable property is used to set whether or not the user can drag the Marker by long-pressing and then dragging the marker to a new location.
 
-[[PropertyBlockGetterAndSetter('Circle', 'Draggable')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Circle%22,%20%22name%22:%20%22Draggable%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Circle%22,%20%22name%22:%20%22Draggable%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Enable Infobox
 
@@ -119,7 +133,9 @@ The Draggable property is used to set whether or not the user can drag the Marke
 
 Enable or disable the infobox window display when the user taps the feature.
 
-[[PropertyBlockGetterAndSetter('Circle', 'Enable Infobox')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Circle%22,%20%22name%22:%20%22Enable%20Infobox%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Circle%22,%20%22name%22:%20%22Enable%20Infobox%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Fill Color
 
@@ -127,7 +143,9 @@ Enable or disable the infobox window display when the user taps the feature.
 
 The paint color used to fill in the map feature.
 
-[[PropertyBlockGetterAndSetter('Circle', 'Fill Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Circle%22,%20%22name%22:%20%22Fill%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Circle%22,%20%22name%22:%20%22Fill%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Fill Opacity
 
@@ -135,7 +153,9 @@ The paint color used to fill in the map feature.
 
 The opacity of the interior of the map feature.
 
-[[PropertyBlockGetterAndSetter('Circle', 'Fill Opacity')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Circle%22,%20%22name%22:%20%22Fill%20Opacity%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Circle%22,%20%22name%22:%20%22Fill%20Opacity%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Latitude
 
@@ -143,7 +163,9 @@ The opacity of the interior of the map feature.
 
 The latitude of the center of the circle.
 
-[[PropertyBlockGetterAndSetter('Circle', 'Latitude')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Circle%22,%20%22name%22:%20%22Latitude%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Circle%22,%20%22name%22:%20%22Latitude%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Longitude
 
@@ -151,7 +173,9 @@ The latitude of the center of the circle.
 
 The longitude of the center of the circle.
 
-[[PropertyBlockGetterAndSetter('Circle', 'Longitude')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Circle%22,%20%22name%22:%20%22Longitude%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Circle%22,%20%22name%22:%20%22Longitude%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Radius
 
@@ -159,7 +183,9 @@ The longitude of the center of the circle.
 
 The radius of the circle in meters.
 
-[[PropertyBlockGetterAndSetter('Circle', 'Radius')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Circle%22,%20%22name%22:%20%22Radius%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Circle%22,%20%22name%22:%20%22Radius%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Stroke Color
 
@@ -167,7 +193,9 @@ The radius of the circle in meters.
 
 The paint color used to outline the map feature.
 
-[[PropertyBlockGetterAndSetter('Circle', 'Stroke Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Circle%22,%20%22name%22:%20%22Stroke%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Circle%22,%20%22name%22:%20%22Stroke%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Stroke Opacity
 
@@ -175,7 +203,9 @@ The paint color used to outline the map feature.
 
 The opacity of the stroke used to outline the map feature.
 
-[[PropertyBlockGetterAndSetter('Circle', 'Stroke Opacity')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Circle%22,%20%22name%22:%20%22Stroke%20Opacity%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Circle%22,%20%22name%22:%20%22Stroke%20Opacity%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Stroke Width
 
@@ -183,7 +213,9 @@ The opacity of the stroke used to outline the map feature.
 
 The width of the stroke used to outline the map feature.
 
-[[PropertyBlockGetterAndSetter('Circle', 'Stroke Width')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Circle%22,%20%22name%22:%20%22Stroke%20Width%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Circle%22,%20%22name%22:%20%22Stroke%20Width%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Title
 
@@ -191,7 +223,9 @@ The width of the stroke used to outline the map feature.
 
 The title displayed in the info window that appears when the user clicks on the map feature.
 
-[[PropertyBlockGetterAndSetter('Circle', 'Title')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Circle%22,%20%22name%22:%20%22Title%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Circle%22,%20%22name%22:%20%22Title%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Visible
 
@@ -199,10 +233,12 @@ The title displayed in the info window that appears when the user clicks on the 
 
 Specifies whether the component should be visible on the screen. Value is true if the component is showing and false if hidden.
 
-[[PropertyBlockGetterAndSetter('Circle', 'Visible')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Circle%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Circle%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Type
 
 <span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
-[[PropertyBlockGetter('Circle', 'Type')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Circle%22,%20%22name%22:%20%22Type%22,%20%22getter%22:%20true%7D"></div>

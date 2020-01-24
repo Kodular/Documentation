@@ -16,19 +16,22 @@ A component that provides a high-level interface to a light sensor on a LEGO MIN
 
 Light level has gone above the range.
 
-[[Event('NXT Light Sensor', 'Above Range')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Light%20Sensor%22,%20%22name%22:%20%22Above%20Range%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Below Range
 
 Light level has gone below the range.
 
-[[Event('NXT Light Sensor', 'Below Range')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Light%20Sensor%22,%20%22name%22:%20%22Below%20Range%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Within Range
 
 Light level has gone within the range.
 
-[[Event('NXT Light Sensor', 'Within Range')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Light%20Sensor%22,%20%22name%22:%20%22Within%20Range%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Methods
 
@@ -38,7 +41,8 @@ Light level has gone within the range.
 
 Returns the current light level as a value between 0 and 1023, or -1 if the light level can not be read.
 
-[[Method('NXT Light Sensor', 'Get Light Level', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Light%20Sensor%22,%20%22name%22:%20%22Get%20Light%20Level%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Properties
 
@@ -48,7 +52,9 @@ Returns the current light level as a value between 0 and 1023, or -1 if the ligh
 
 Whether the AboveRange event should fire when the light level goes above the TopOfRange.
 
-[[PropertyBlockGetterAndSetter('NXT Light Sensor', 'Above Range Event Enabled')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Light%20Sensor%22,%20%22name%22:%20%22Above%20Range%20Event%20Enabled%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Light%20Sensor%22,%20%22name%22:%20%22Above%20Range%20Event%20Enabled%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Below Range Event Enabled
 
@@ -56,7 +62,9 @@ Whether the AboveRange event should fire when the light level goes above the Top
 
 Whether the BelowRange event should fire when the light level goes below the BottomOfRange.
 
-[[PropertyBlockGetterAndSetter('NXT Light Sensor', 'Below Range Event Enabled')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Light%20Sensor%22,%20%22name%22:%20%22Below%20Range%20Event%20Enabled%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Light%20Sensor%22,%20%22name%22:%20%22Below%20Range%20Event%20Enabled%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Bluetooth Client
 
@@ -70,7 +78,9 @@ The BluetoothClient component that should be used for communication.
 
 The bottom of the range used for the BelowRange, WithinRange, and AboveRange events.
 
-[[PropertyBlockGetterAndSetter('NXT Light Sensor', 'Bottom Of Range')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Light%20Sensor%22,%20%22name%22:%20%22Bottom%20Of%20Range%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Light%20Sensor%22,%20%22name%22:%20%22Bottom%20Of%20Range%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Generate Light
 
@@ -78,7 +88,9 @@ The bottom of the range used for the BelowRange, WithinRange, and AboveRange eve
 
 Whether the light sensor should generate light.
 
-[[PropertyBlockGetterAndSetter('NXT Light Sensor', 'Generate Light')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Light%20Sensor%22,%20%22name%22:%20%22Generate%20Light%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Light%20Sensor%22,%20%22name%22:%20%22Generate%20Light%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Sensor Port
 
@@ -92,7 +104,9 @@ The sensor port that the sensor is connected to.
 
 The top of the range used for the BelowRange, WithinRange, and AboveRange events.
 
-[[PropertyBlockGetterAndSetter('NXT Light Sensor', 'Top Of Range')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Light%20Sensor%22,%20%22name%22:%20%22Top%20Of%20Range%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Light%20Sensor%22,%20%22name%22:%20%22Top%20Of%20Range%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Within Range Event Enabled
 
@@ -100,4 +114,5 @@ The top of the range used for the BelowRange, WithinRange, and AboveRange events
 
 Whether the WithinRange event should fire when the light level goes between the BottomOfRange and the TopOfRange.
 
-[[PropertyBlockGetterAndSetter('NXT Light Sensor', 'Within Range Event Enabled')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Light%20Sensor%22,%20%22name%22:%20%22Within%20Range%20Event%20Enabled%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Light%20Sensor%22,%20%22name%22:%20%22Within%20Range%20Event%20Enabled%22,%20%22getter%22:%20false%7D"></div>

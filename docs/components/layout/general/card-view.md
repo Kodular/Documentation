@@ -15,25 +15,29 @@ Cards are panels with a set elevation and border radius, meant to draw the user'
 
 Event to detect that a user has done a simple "Click".
 
-[[Event('Card View', 'Click')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Card%20View%22,%20%22name%22:%20%22Click%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Long Click
 
 Event to detect that a user has done a simple "Long click".
 
-[[Event('Card View', 'Long Click')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Card%20View%22,%20%22name%22:%20%22Long%20Click%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Touch Down
 
 Event to detect that a user has done a simple touch down on the card.
 
-[[Event('Card View', 'Touch Down')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Card%20View%22,%20%22name%22:%20%22Touch%20Down%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Touch Up
 
 Event to detect that a user has done a simple touch up on the card.
 
-[[Event('Card View', 'Touch Up')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Card%20View%22,%20%22name%22:%20%22Touch%20Up%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Properties
 
@@ -43,13 +47,16 @@ Event to detect that a user has done a simple touch up on the card.
 
 A number that encodes how contents of the arrangement are aligned horizontally. The choices are: 1 = left aligned, 2 = right aligned, 3 = horizontally centered. Alignment has no effect if the arrangement's width is automatic.
 
-[[PropertyBlockGetterAndSetter('Card View', 'Align Horizontal')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Card%20View%22,%20%22name%22:%20%22Align%20Horizontal%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Card%20View%22,%20%22name%22:%20%22Align%20Horizontal%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Align Vertical
 
 <span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>1</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
-[[PropertyBlockGetterAndSetter('Card View', 'Align Vertical')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Card%20View%22,%20%22name%22:%20%22Align%20Vertical%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Background Color
 
@@ -57,7 +64,9 @@ A number that encodes how contents of the arrangement are aligned horizontally. 
 
 Specifies the card view background color.
 
-[[PropertyBlockGetterAndSetter('Card View', 'Background Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Card%20View%22,%20%22name%22:%20%22Background%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Card%20View%22,%20%22name%22:%20%22Background%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Content Padding Bottom
 
@@ -65,7 +74,9 @@ Specifies the card view background color.
 
 Sets the bottom padding between the card view edges and the children of CardView.
 
-[[PropertyBlockGetterAndSetter('Card View', 'Content Padding Bottom')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Card%20View%22,%20%22name%22:%20%22Content%20Padding%20Bottom%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Card%20View%22,%20%22name%22:%20%22Content%20Padding%20Bottom%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Content Padding Left
 
@@ -73,7 +84,9 @@ Sets the bottom padding between the card view edges and the children of CardView
 
 Sets the left padding between the card view edges and the children of card view.
 
-[[PropertyBlockGetterAndSetter('Card View', 'Content Padding Left')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Card%20View%22,%20%22name%22:%20%22Content%20Padding%20Left%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Card%20View%22,%20%22name%22:%20%22Content%20Padding%20Left%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Content Padding Right
 
@@ -81,7 +94,9 @@ Sets the left padding between the card view edges and the children of card view.
 
 Sets the right padding between the card view edges and the children of card view.
 
-[[PropertyBlockGetterAndSetter('Card View', 'Content Padding Right')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Card%20View%22,%20%22name%22:%20%22Content%20Padding%20Right%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Card%20View%22,%20%22name%22:%20%22Content%20Padding%20Right%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Content Padding Top
 
@@ -89,7 +104,9 @@ Sets the right padding between the card view edges and the children of card view
 
 Sets the top padding between the card view edges and the children of card view.
 
-[[PropertyBlockGetterAndSetter('Card View', 'Content Padding Top')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Card%20View%22,%20%22name%22:%20%22Content%20Padding%20Top%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Card%20View%22,%20%22name%22:%20%22Content%20Padding%20Top%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Corner Radius
 
@@ -97,7 +114,9 @@ Sets the top padding between the card view edges and the children of card view.
 
 The corner radius from the card view.
 
-[[PropertyBlockGetterAndSetter('Card View', 'Corner Radius')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Card%20View%22,%20%22name%22:%20%22Corner%20Radius%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Card%20View%22,%20%22name%22:%20%22Corner%20Radius%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Elevation
 
@@ -105,7 +124,9 @@ The corner radius from the card view.
 
 The card view elevation value.
 
-[[PropertyBlockGetterAndSetter('Card View', 'Elevation')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Card%20View%22,%20%22name%22:%20%22Elevation%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Card%20View%22,%20%22name%22:%20%22Elevation%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Full Clickable
 
@@ -113,7 +134,9 @@ The card view elevation value.
 
 If set to true, the card will consume all click events. This means if you have added as example buttons into the card, then will the card consume the touch event on the button. And this means that the button would not be clickable, but only the entire card.
 
-[[PropertyBlockGetterAndSetter('Card View', 'Full Clickable')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Card%20View%22,%20%22name%22:%20%22Full%20Clickable%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Card%20View%22,%20%22name%22:%20%22Full%20Clickable%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Stroke Color
 
@@ -121,7 +144,9 @@ If set to true, the card will consume all click events. This means if you have a
 
 The stroke color for the card view.
 
-[[PropertyBlockGetterAndSetter('Card View', 'Stroke Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Card%20View%22,%20%22name%22:%20%22Stroke%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Card%20View%22,%20%22name%22:%20%22Stroke%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Stroke Width
 
@@ -129,7 +154,9 @@ The stroke color for the card view.
 
 The stroke width for the card view.
 
-[[PropertyBlockGetterAndSetter('Card View', 'Stroke Width')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Card%20View%22,%20%22name%22:%20%22Stroke%20Width%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Card%20View%22,%20%22name%22:%20%22Stroke%20Width%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Touch Color
 
@@ -145,7 +172,9 @@ Set the touch color also known as ripple color to the card view component.
 
 Returns true iff the component is visible.
 
-[[PropertyBlockGetterAndSetter('Card View', 'Visible')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Card%20View%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Card%20View%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Column
 
@@ -159,7 +188,9 @@ Column property getter method.
 
 Specifies the component's vertical height, measured in pixels.
 
-[[PropertyBlockGetterAndSetter('Card View', 'Height')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Card%20View%22,%20%22name%22:%20%22Height%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Card%20View%22,%20%22name%22:%20%22Height%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Height Percent
 
@@ -167,7 +198,8 @@ Specifies the component's vertical height, measured in pixels.
 
 Specifies the component's vertical height as a percentageof the height of its parent Component.
 
-[[PropertyBlockGetterAndSetter('Card View', 'Height Percent')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Card%20View%22,%20%22name%22:%20%22Height%20Percent%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Row
 
@@ -181,7 +213,9 @@ Row property getter method.
 
 Specifies the component's horizontal width, measured in pixels.
 
-[[PropertyBlockGetterAndSetter('Card View', 'Width')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Card%20View%22,%20%22name%22:%20%22Width%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Card%20View%22,%20%22name%22:%20%22Width%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Width Percent
 
@@ -189,4 +223,4 @@ Specifies the component's horizontal width, measured in pixels.
 
 Specifies the component's horizontal width as a percentageof the Width of its parent Component.
 
-[[PropertyBlockGetterAndSetter('Card View', 'Width Percent')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Card%20View%22,%20%22name%22:%20%22Width%20Percent%22,%20%22getter%22:%20false%7D"></div>

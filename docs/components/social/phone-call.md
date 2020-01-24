@@ -25,7 +25,8 @@ To directly specify the phone number (e.g., 650-555-1212), set the `` PhoneNumbe
 
 Event indicating that an incoming phone call is answered. phoneNumber is the incoming call phone number.
 
-[[Event('Phone Call', 'Incoming Call Answered', 'phoneNumber')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Phone%20Call%22,%20%22name%22:%20%22Incoming%20Call%20Answered%22,%20%22params%22:%20%5B%22phone%20Number%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -36,7 +37,8 @@ Event indicating that an incoming phone call is answered. phoneNumber is the inc
 
 Event indicating that a phone call has ended. If status is 1, incoming call is missed or rejected; if status is 2, incoming call is answered before hanging up; if status is 3, outgoing call is hung up. phoneNumber is the ended call phone number.
 
-[[Event('Phone Call', 'Phone Call Ended', 'status', 'phoneNumber')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Phone%20Call%22,%20%22name%22:%20%22Phone%20Call%20Ended%22,%20%22params%22:%20%5B%22status%22,%20%22phone%20Number%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -48,7 +50,8 @@ Event indicating that a phone call has ended. If status is 1, incoming call is m
 
 Event indicating that a phonecall has started. If status is 1, incoming call is ringing; if status is 2, outgoing call is dialled. phoneNumber is the incoming/outgoing phone number.
 
-[[Event('Phone Call', 'Phone Call Started', 'status', 'phoneNumber')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Phone%20Call%22,%20%22name%22:%20%22Phone%20Call%20Started%22,%20%22params%22:%20%5B%22status%22,%20%22phone%20Number%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -62,7 +65,8 @@ Event indicating that a phonecall has started. If status is 1, incoming call is 
 
 Makes a phone call using the number in the PhoneNumber property.
 
-[[Method('Phone Call', 'Make Phone Call', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Phone%20Call%22,%20%22name%22:%20%22Make%20Phone%20Call%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Properties
 
@@ -72,4 +76,5 @@ Makes a phone call using the number in the PhoneNumber property.
 
 PhoneNumber property getter method.
 
-[[PropertyBlockGetterAndSetter('Phone Call', 'Phone Number')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Phone%20Call%22,%20%22name%22:%20%22Phone%20Number%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Phone%20Call%22,%20%22name%22:%20%22Phone%20Number%22,%20%22getter%22:%20false%7D"></div>

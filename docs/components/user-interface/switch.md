@@ -14,7 +14,8 @@ A visible component that lets the user toggle between two states — on and off.
 
 Event invoked when a switch has been clicked. Returns true or false if the switch is checked or not.
 
-[[Event('Switch', 'Clicked', 'isChecked')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Switch%22,%20%22name%22:%20%22Clicked%22,%20%22params%22:%20%5B%22is%20Checked%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -27,7 +28,8 @@ Event invoked when a switch has been clicked. Returns true or false if the switc
 
 Set the drawable used for the switch 'thumb' - the piece that the user can physically touch and drag along the track. If 'color Filter Enabled' is set to true, the image will get a light tint filter with the same color that you used as thumb color.
 
-[[Method('Switch', 'Thumb Image', False, 'image')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Switch%22,%20%22name%22:%20%22Thumb%20Image%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22image%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -38,7 +40,8 @@ Set the drawable used for the switch 'thumb' - the piece that the user can physi
 
 Set the drawable used for the switch 'thumb' - the piece that the user can physically touch and drag along the track. You can find the icon name (or code) here at https://material.io/icons . Use as size as example '300'.
 
-[[Method('Switch', 'Thumb Image From Material Font', False, 'iconName', 'size')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Switch%22,%20%22name%22:%20%22Thumb%20Image%20From%20Material%20Font%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22icon%20Name%22,%20%22size%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -54,7 +57,8 @@ Set the drawable used for the switch 'thumb' - the piece that the user can physi
 
 Set the toggle to checked or unchecked
 
-[[PropertyBlockGetterAndSetter('Switch', 'Checked')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Switch%22,%20%22name%22:%20%22Checked%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Enabled
 
@@ -62,7 +66,9 @@ Set the toggle to checked or unchecked
 
 If set to true, user can touch the switch.
 
-[[PropertyBlockGetterAndSetter('Switch', 'Enabled')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Switch%22,%20%22name%22:%20%22Enabled%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Switch%22,%20%22name%22:%20%22Enabled%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Font Bold
 
@@ -84,7 +90,8 @@ If set to true, user can touch the switch.
 
 Set a custom font.
 
-[[PropertyBlockGetterAndSetter('Switch', 'Font Typeface Import')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Switch%22,%20%22name%22:%20%22Font%20Typeface%20Import%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Text Color
 
@@ -92,7 +99,9 @@ Set a custom font.
 
 Set the text color for the switch.
 
-[[PropertyBlockGetterAndSetter('Switch', 'Text Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Switch%22,%20%22name%22:%20%22Text%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Switch%22,%20%22name%22:%20%22Text%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Text Off
 
@@ -100,7 +109,9 @@ Set the text color for the switch.
 
 Set here the switch off text. HTML tags are too possible: <b>, <big>, <blockquote>, <br/>, <cite>, <dfn>, <div>, <em>, <small>, <strong>, <sub>, <sup>, <tt>, <u>. Example: <big>Test</big>.</u></tt></sup></sub></strong></small></em></div></dfn></cite></blockquote></big></b>
 
-[[PropertyBlockGetterAndSetter('Switch', 'Text Off')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Switch%22,%20%22name%22:%20%22Text%20Off%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Switch%22,%20%22name%22:%20%22Text%20Off%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Text On
 
@@ -108,7 +119,9 @@ Set here the switch off text. HTML tags are too possible: <b>, <big>, <blockquot
 
 Set here the switch on text. HTML tags are too possible: <b>, <big>, <blockquote>, <br/>, <cite>, <dfn>, <div>, <em>, <small>, <strong>, <sub>, <sup>, <tt>, <u>. Example: <big>Test</big>.</u></tt></sup></sub></strong></small></em></div></dfn></cite></blockquote></big></b>
 
-[[PropertyBlockGetterAndSetter('Switch', 'Text On')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Switch%22,%20%22name%22:%20%22Text%20On%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Switch%22,%20%22name%22:%20%22Text%20On%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Font Size
 
@@ -116,7 +129,9 @@ Set here the switch on text. HTML tags are too possible: <b>, <big>, <blockquote
 
 The text size of the switch.
 
-[[PropertyBlockGetterAndSetter('Switch', 'Font Size')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Switch%22,%20%22name%22:%20%22Font%20Size%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Switch%22,%20%22name%22:%20%22Font%20Size%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Thumb Color
 
@@ -124,7 +139,9 @@ The text size of the switch.
 
 Change the disabled color of the switch.
 
-[[PropertyBlockGetterAndSetter('Switch', 'Thumb Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Switch%22,%20%22name%22:%20%22Thumb%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Switch%22,%20%22name%22:%20%22Thumb%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Track Color
 
@@ -132,7 +149,9 @@ Change the disabled color of the switch.
 
 Change the enabled color of the switch.
 
-[[PropertyBlockGetterAndSetter('Switch', 'Track Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Switch%22,%20%22name%22:%20%22Track%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Switch%22,%20%22name%22:%20%22Track%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Visible
 
@@ -140,7 +159,9 @@ Change the enabled color of the switch.
 
 Returns true iff the component is visible.
 
-[[PropertyBlockGetterAndSetter('Switch', 'Visible')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Switch%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Switch%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Column
 
@@ -154,7 +175,9 @@ Column property getter method.
 
 Specifies the component's vertical height, measured in pixels.
 
-[[PropertyBlockGetterAndSetter('Switch', 'Height')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Switch%22,%20%22name%22:%20%22Height%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Switch%22,%20%22name%22:%20%22Height%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Height Percent
 
@@ -162,7 +185,8 @@ Specifies the component's vertical height, measured in pixels.
 
 Specifies the component's vertical height as a percentageof the height of its parent Component.
 
-[[PropertyBlockGetterAndSetter('Switch', 'Height Percent')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Switch%22,%20%22name%22:%20%22Height%20Percent%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Row
 
@@ -176,7 +200,9 @@ Row property getter method.
 
 Specifies the component's horizontal width, measured in pixels.
 
-[[PropertyBlockGetterAndSetter('Switch', 'Width')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Switch%22,%20%22name%22:%20%22Width%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Switch%22,%20%22name%22:%20%22Width%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Width Percent
 
@@ -184,7 +210,8 @@ Specifies the component's horizontal width, measured in pixels.
 
 Specifies the component's horizontal width as a percentageof the Width of its parent Component.
 
-[[PropertyBlockGetterAndSetter('Switch', 'Width Percent')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Switch%22,%20%22name%22:%20%22Width%20Percent%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### is Checked
 
@@ -192,4 +219,4 @@ Specifies the component's horizontal width as a percentageof the Width of its pa
 
 Return true if the switch is checked else false.
 
-[[PropertyBlockGetter('Switch', 'is Checked')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Switch%22,%20%22name%22:%20%22is%20Checked%22,%20%22getter%22:%20true%7D"></div>

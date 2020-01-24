@@ -24,7 +24,8 @@ To have an `` ImageSprite `` move 10 pixels to the left every 1000 milliseconds 
 
 Event handler called when two enabled sprites (Balls or ImageSprites)collide. Note that checking for collisions with a rotated ImageSprite currentlychecks against its unrotated position. Therefore, collisionchecking will be inaccurate for tall narrow or short wide sprites that arerotated.
 
-[[Event('Image Sprite', 'Collided With', 'other')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Sprite%22,%20%22name%22:%20%22Collided%20With%22,%20%22params%22:%20%5B%22other%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -35,7 +36,8 @@ Event handler called when two enabled sprites (Balls or ImageSprites)collide. No
 
 Event handler called when a ImageSprite is dragged. On all calls, the starting coordinates are where the screen was first touched, and the "current" coordinates describe the endpoint of the current line segment. On the first call within a given drag, the "previous" coordinates are the same as the starting coordinates; subsequently, they are the "current" coordinates from the prior call. Note that the ImageSprite won't actually move anywhere in response to the Dragged event unless MoveTo is explicitly called. For smooth movement, each of its coordinates should be set to the sum of its initial value and the difference between its current and previous values.
 
-[[Event('Image Sprite', 'Dragged', 'startX', 'startY', 'prevX', 'prevY', 'currentX', 'currentY')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Sprite%22,%20%22name%22:%20%22Dragged%22,%20%22params%22:%20%5B%22start%20X%22,%20%22start%20Y%22,%20%22prev%20X%22,%20%22prev%20Y%22,%20%22current%20X%22,%20%22current%20Y%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -51,7 +53,8 @@ Event handler called when a ImageSprite is dragged. On all calls, the starting c
 
 Event handler called when the ImageSprite reaches an edge of the screen. If Bounce is then called with that edge, the ImageSprite will appear to bounce off of the edge it reached. Edge here is represented as an integer that indicates one of eight directions north (1), northeast (2), east (3), southeast (4), south (-1), southwest (-2), west (-3), and northwest (-4).
 
-[[Event('Image Sprite', 'Edge Reached', 'edge')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Sprite%22,%20%22name%22:%20%22Edge%20Reached%22,%20%22params%22:%20%5B%22edge%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -62,7 +65,8 @@ Event handler called when the ImageSprite reaches an edge of the screen. If Boun
 
 Event handler called when a fling gesture (quick swipe) is made on an enabled ImageSprite. This provides the x and y coordinates of the start of the fling (relative to the upper left of the canvas), the speed (pixels per millisecond), the heading (0-360 degrees), and the x and y velocity components of the fling's vector.
 
-[[Event('Image Sprite', 'Flung', 'x', 'y', 'speed', 'heading', 'xvel', 'yvel')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Sprite%22,%20%22name%22:%20%22Flung%22,%20%22params%22:%20%5B%22x%22,%20%22y%22,%20%22speed%22,%20%22heading%22,%20%22x%20vel%22,%20%22y%20vel%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -78,7 +82,8 @@ Event handler called when a fling gesture (quick swipe) is made on an enabled Im
 
 Event handler called when a pair of sprites (Balls and ImageSprites) are no longer colliding.
 
-[[Event('Image Sprite', 'No Longer Colliding With', 'other')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Sprite%22,%20%22name%22:%20%22No%20Longer%20Colliding%20With%22,%20%22params%22:%20%5B%22other%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -89,7 +94,8 @@ Event handler called when a pair of sprites (Balls and ImageSprites) are no long
 
 Event handler called when the user begins touching an enabled ImageSprite (placing their finger on a ImageSprite and leaving it there). This provides the x and y coordinates of the touch, relative to the upper left of the canvas.
 
-[[Event('Image Sprite', 'Touch Down', 'x', 'y')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Sprite%22,%20%22name%22:%20%22Touch%20Down%22,%20%22params%22:%20%5B%22x%22,%20%22y%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -101,7 +107,8 @@ Event handler called when the user begins touching an enabled ImageSprite (placi
 
 Event handler called when the user stops touching an enabled ImageSprite (lifting their finger after a TouchDown event). This provides the x and y coordinates of the touch, relative to the upper left of the canvas.
 
-[[Event('Image Sprite', 'Touch Up', 'x', 'y')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Sprite%22,%20%22name%22:%20%22Touch%20Up%22,%20%22params%22:%20%5B%22x%22,%20%22y%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -113,7 +120,8 @@ Event handler called when the user stops touching an enabled ImageSprite (liftin
 
 Event handler called when the user touches an enabled ImageSprite and then immediately lifts their finger. The provided x and y coordinates are relative to the upper left of the canvas.
 
-[[Event('Image Sprite', 'Touched', 'x', 'y')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Sprite%22,%20%22name%22:%20%22Touched%22,%20%22params%22:%20%5B%22x%22,%20%22y%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -127,7 +135,8 @@ Event handler called when the user touches an enabled ImageSprite and then immed
 
 Makes the ImageSprite bounce, as if off a wall. For normal bouncing, the edge argument should be the one returned by EdgeReached.
 
-[[Method('Image Sprite', 'Bounce', False, 'edge')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Sprite%22,%20%22name%22:%20%22Bounce%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22edge%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -140,7 +149,8 @@ Makes the ImageSprite bounce, as if off a wall. For normal bouncing, the edge ar
 
 Indicates whether a collision has been registered between this ImageSprite and the passed sprite (Ball or ImageSprite).
 
-[[Method('Image Sprite', 'Colliding With', True, 'other')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Sprite%22,%20%22name%22:%20%22Colliding%20With%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22other%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -151,13 +161,15 @@ Indicates whether a collision has been registered between this ImageSprite and t
 
 Moves the ImageSprite back in bounds if part of it extends out of bounds, having no effect otherwise. If the ImageSprite is too wide to fit on the canvas, this aligns the left side of the ImageSprite with the left side of the canvas. If the ImageSprite is too tall to fit on the canvas, this aligns the top side of the ImageSprite with the top side of the canvas.
 
-[[Method('Image Sprite', 'Move Into Bounds', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Sprite%22,%20%22name%22:%20%22Move%20Into%20Bounds%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Move To
 
 Moves the ImageSprite so that its left top corner is at the specfied x and y coordinates.
 
-[[Method('Image Sprite', 'Move To', False, 'x', 'y')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Sprite%22,%20%22name%22:%20%22Move%20To%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22x%22,%20%22y%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -169,7 +181,8 @@ Moves the ImageSprite so that its left top corner is at the specfied x and y coo
 
 Sets the heading of the ImageSprite toward the point with the coordinates (x, y).
 
-[[Method('Image Sprite', 'Point In Direction', False, 'x', 'y')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Sprite%22,%20%22name%22:%20%22Point%20In%20Direction%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22x%22,%20%22y%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -181,7 +194,8 @@ Sets the heading of the ImageSprite toward the point with the coordinates (x, y)
 
 Turns the ImageSprite to point towards a designated target sprite (Ball or ImageSprite). The new heading will be parallel to the line joining the centerpoints of the two sprites.
 
-[[Method('Image Sprite', 'Point Towards', False, 'target')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Sprite%22,%20%22name%22:%20%22Point%20Towards%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22target%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -196,7 +210,9 @@ Turns the ImageSprite to point towards a designated target sprite (Ball or Image
 
 Controls whether the ImageSprite moves and can be interacted with through collisions, dragging, touching, and flinging.
 
-[[PropertyBlockGetterAndSetter('Image Sprite', 'Enabled')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Sprite%22,%20%22name%22:%20%22Enabled%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Sprite%22,%20%22name%22:%20%22Enabled%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Heading
 
@@ -204,7 +220,9 @@ Controls whether the ImageSprite moves and can be interacted with through collis
 
 Sets heading in which sprite should move. In addition to changing thelocal variables
 
-[[PropertyBlockGetterAndSetter('Image Sprite', 'Heading')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Sprite%22,%20%22name%22:%20%22Heading%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Sprite%22,%20%22name%22:%20%22Heading%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Interval
 
@@ -212,7 +230,9 @@ Sets heading in which sprite should move. In addition to changing thelocal varia
 
 The interval in milliseconds at which the ImageSprite's position is updated. For example, if the interval is 50 and the speed is 10, then every 50 milliseconds the sprite will move 10 pixels in the heading direction.
 
-[[PropertyBlockGetterAndSetter('Image Sprite', 'Interval')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Sprite%22,%20%22name%22:%20%22Interval%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Sprite%22,%20%22name%22:%20%22Interval%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Picture
 
@@ -220,7 +240,9 @@ The interval in milliseconds at which the ImageSprite's position is updated. For
 
 The picture that determines the ImageSprite's appearance.
 
-[[PropertyBlockGetterAndSetter('Image Sprite', 'Picture')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Sprite%22,%20%22name%22:%20%22Picture%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Sprite%22,%20%22name%22:%20%22Picture%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Rotates
 
@@ -228,7 +250,9 @@ The picture that determines the ImageSprite's appearance.
 
 Whether the image should rotate to match the ImageSprite's heading. The sprite rotates around its centerpoint.
 
-[[PropertyBlockGetterAndSetter('Image Sprite', 'Rotates')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Sprite%22,%20%22name%22:%20%22Rotates%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Sprite%22,%20%22name%22:%20%22Rotates%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Speed
 
@@ -236,7 +260,9 @@ Whether the image should rotate to match the ImageSprite's heading. The sprite r
 
 The number of pixels that the ImageSprite should move every interval, if enabled.
 
-[[PropertyBlockGetterAndSetter('Image Sprite', 'Speed')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Sprite%22,%20%22name%22:%20%22Speed%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Sprite%22,%20%22name%22:%20%22Speed%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Visible
 
@@ -244,7 +270,9 @@ The number of pixels that the ImageSprite should move every interval, if enabled
 
 Whether the ImageSprite is visible.
 
-[[PropertyBlockGetterAndSetter('Image Sprite', 'Visible')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Sprite%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Sprite%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### X
 
@@ -252,7 +280,9 @@ Whether the ImageSprite is visible.
 
 The horizontal coordinate of the left edge of the ImageSprite, increasing as the ImageSprite moves right.
 
-[[PropertyBlockGetterAndSetter('Image Sprite', 'X')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Sprite%22,%20%22name%22:%20%22X%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Sprite%22,%20%22name%22:%20%22X%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Y
 
@@ -260,7 +290,9 @@ The horizontal coordinate of the left edge of the ImageSprite, increasing as the
 
 The vertical coordinate of the top edge of the ImageSprite, increasing as the ImageSprite moves down.
 
-[[PropertyBlockGetterAndSetter('Image Sprite', 'Y')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Sprite%22,%20%22name%22:%20%22Y%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Sprite%22,%20%22name%22:%20%22Y%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Z
 
@@ -268,7 +300,9 @@ The vertical coordinate of the top edge of the ImageSprite, increasing as the Im
 
 Sets the layer of the sprite, indicating whether it will appear infront of or behind other sprites.
 
-[[PropertyBlockGetterAndSetter('Image Sprite', 'Z')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Sprite%22,%20%22name%22:%20%22Z%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Sprite%22,%20%22name%22:%20%22Z%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Height
 
@@ -276,7 +310,9 @@ Sets the layer of the sprite, indicating whether it will appear infront of or be
 
 The height of the ImageSprite in pixels.
 
-[[PropertyBlockGetterAndSetter('Image Sprite', 'Height')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Sprite%22,%20%22name%22:%20%22Height%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Sprite%22,%20%22name%22:%20%22Height%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Width
 
@@ -284,4 +320,5 @@ The height of the ImageSprite in pixels.
 
 The width of the ImageSprite in pixels.
 
-[[PropertyBlockGetterAndSetter('Image Sprite', 'Width')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Sprite%22,%20%22name%22:%20%22Width%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Sprite%22,%20%22name%22:%20%22Width%22,%20%22getter%22:%20false%7D"></div>

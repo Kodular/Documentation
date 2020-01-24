@@ -16,7 +16,8 @@ A non-visible component that converts spoken words to text using voice recogniti
 
 Simple event to raise after the VoiceReco activity has returned
 
-[[Event('Speech Recognizer', 'After Getting Text', 'result')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Speech%20Recognizer%22,%20%22name%22:%20%22After%20Getting%20Text%22,%20%22params%22:%20%5B%22result%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -27,7 +28,8 @@ Simple event to raise after the VoiceReco activity has returned
 
 Simple event to raise when VoiceReco is invoked but before the VoiceRecoactivity is started.
 
-[[Event('Speech Recognizer', 'Before Getting Text')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Speech%20Recognizer%22,%20%22name%22:%20%22Before%20Getting%20Text%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Methods
 
@@ -35,7 +37,8 @@ Simple event to raise when VoiceReco is invoked but before the VoiceRecoactivity
 
 Solicits speech input from the user. After the speech is converted totext, the AfterGettingText event will be raised.
 
-[[Method('Speech Recognizer', 'Get Text', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Speech%20Recognizer%22,%20%22name%22:%20%22Get%20Text%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Properties
 
@@ -45,4 +48,4 @@ Solicits speech input from the user. After the speech is converted totext, the A
 
 Result property getter method.
 
-[[PropertyBlockGetter('Speech Recognizer', 'Result')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Speech%20Recognizer%22,%20%22name%22:%20%22Result%22,%20%22getter%22:%20true%7D"></div>

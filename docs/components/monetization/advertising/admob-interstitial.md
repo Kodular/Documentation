@@ -23,13 +23,15 @@ An interstitial ad is a full-page ad. AdMobInterstitial component allows you to 
 
 Called when an ad was closed.
 
-[[Event('AdMob Interstitial', 'Ad Closed')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22AdMob%20Interstitial%22,%20%22name%22:%20%22Ad%20Closed%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Ad Failed To Load
 
 Called when an ad request failed to load. The message will display the error code and error message.
 
-[[Event('AdMob Interstitial', 'Ad Failed To Load', 'errorCode', 'errorMessage')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22AdMob%20Interstitial%22,%20%22name%22:%20%22Ad%20Failed%20To%20Load%22,%20%22params%22:%20%5B%22error%20Code%22,%20%22error%20Message%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -41,7 +43,8 @@ Called when an ad request failed to load. The message will display the error cod
 
 Called when an an attempt was made to display the ad, but the ad was not ready to display.
 
-[[Event('AdMob Interstitial', 'Ad Failed To Show', 'message')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22AdMob%20Interstitial%22,%20%22name%22:%20%22Ad%20Failed%20To%20Show%22,%20%22params%22:%20%5B%22message%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -52,25 +55,29 @@ Called when an an attempt was made to display the ad, but the ad was not ready t
 
 Called when an ad leaves the application (e.g., to go to the browser).
 
-[[Event('AdMob Interstitial', 'Ad Left Application')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22AdMob%20Interstitial%22,%20%22name%22:%20%22Ad%20Left%20Application%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Ad Loaded
 
 Called when an ad request was loaded.
 
-[[Event('AdMob Interstitial', 'Ad Loaded')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22AdMob%20Interstitial%22,%20%22name%22:%20%22Ad%20Loaded%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Ad Opened
 
 Called when an ad was opened.
 
-[[Event('AdMob Interstitial', 'Ad Opened')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22AdMob%20Interstitial%22,%20%22name%22:%20%22Ad%20Opened%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### On Consent Changed
 
 Event triggered when the consent was changed.
 
-[[Event('AdMob Interstitial', 'On Consent Changed', 'personalized')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22AdMob%20Interstitial%22,%20%22name%22:%20%22On%20Consent%20Changed%22,%20%22params%22:%20%5B%22personalized%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -83,19 +90,22 @@ Event triggered when the consent was changed.
 
 Load a new AdMob Interstitial ad.
 
-[[Method('AdMob Interstitial', 'Load Ad', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22AdMob%20Interstitial%22,%20%22name%22:%20%22Load%20Ad%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Revoke Consent
 
 Deletes the user's consent. Useful if you want to test the consent dialog in development.
 
-[[Method('AdMob Interstitial', 'Revoke Consent', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22AdMob%20Interstitial%22,%20%22name%22:%20%22Revoke%20Consent%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Show Interstitial Ad
 
 It will show the Interstitial Ad
 
-[[Method('AdMob Interstitial', 'Show Interstitial Ad', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22AdMob%20Interstitial%22,%20%22name%22:%20%22Show%20Interstitial%20Ad%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Properties
 
@@ -105,7 +115,9 @@ It will show the Interstitial Ad
 
 This property must be set to true to receive ads.
 
-[[PropertyBlockGetterAndSetter('AdMob Interstitial', 'Ad Enabled')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22AdMob%20Interstitial%22,%20%22name%22:%20%22Ad%20Enabled%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22AdMob%20Interstitial%22,%20%22name%22:%20%22Ad%20Enabled%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Ad Unit ID
 
@@ -117,7 +129,8 @@ This property must be set to true to receive ads.
 
 Sets the ad network used to take the commission.
 
-[[PropertyBlockGetterAndSetter('AdMob Interstitial', 'Interstitial Commission')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22AdMob%20Interstitial%22,%20%22name%22:%20%22Interstitial%20Commission%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Consent Development Mode
 
@@ -125,7 +138,9 @@ Sets the ad network used to take the commission.
 
 If enabled you will see the consent dialog no matter if you are located in Europe or not. Please use this option only in development. If this setting is enabled ALL taken consents will not be saved.
 
-[[PropertyBlockGetterAndSetter('AdMob Interstitial', 'Consent Development Mode')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22AdMob%20Interstitial%22,%20%22name%22:%20%22Consent%20Development%20Mode%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22AdMob%20Interstitial%22,%20%22name%22:%20%22Consent%20Development%20Mode%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Consent Message
 
@@ -133,7 +148,9 @@ If enabled you will see the consent dialog no matter if you are located in Europ
 
 The message for the consent dialog.
 
-[[PropertyBlockGetterAndSetter('AdMob Interstitial', 'Consent Message')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22AdMob%20Interstitial%22,%20%22name%22:%20%22Consent%20Message%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22AdMob%20Interstitial%22,%20%22name%22:%20%22Consent%20Message%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Consent Title
 
@@ -141,7 +158,9 @@ The message for the consent dialog.
 
 The title for the consent dialog.
 
-[[PropertyBlockGetterAndSetter('AdMob Interstitial', 'Consent Title')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22AdMob%20Interstitial%22,%20%22name%22:%20%22Consent%20Title%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22AdMob%20Interstitial%22,%20%22name%22:%20%22Consent%20Title%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Target Age
 
@@ -149,7 +168,9 @@ The title for the consent dialog.
 
 Leave 0 for targeting ALL ages
 
-[[PropertyBlockGetterAndSetter('AdMob Interstitial', 'Target Age')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22AdMob%20Interstitial%22,%20%22name%22:%20%22Target%20Age%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22AdMob%20Interstitial%22,%20%22name%22:%20%22Target%20Age%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Target For Children
 
@@ -157,13 +178,16 @@ Leave 0 for targeting ALL ages
 
 Indicate whether you want Google to treat your content as child-directed when you make an ad request. Info here: https://developers.google.com/mobile-ads-sdk/docs/admob/android/targeting#child-directed_setting
 
-[[PropertyBlockGetterAndSetter('AdMob Interstitial', 'Target For Children')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22AdMob%20Interstitial%22,%20%22name%22:%20%22Target%20For%20Children%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22AdMob%20Interstitial%22,%20%22name%22:%20%22Target%20For%20Children%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Target Gender
 
 <span class="chip chip-text">Text</span> <span class="chip chip-text">Default: <i>ALL</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
-[[PropertyBlockGetterAndSetter('AdMob Interstitial', 'Target Gender')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22AdMob%20Interstitial%22,%20%22name%22:%20%22Target%20Gender%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Test Mode
 
@@ -177,4 +201,4 @@ If you want to test the component then that this property to true. Then you will
 
 Returns the current personalized consent. If true user has consent to personalized ads.
 
-[[PropertyBlockGetter('AdMob Interstitial', 'Personalized Result')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22AdMob%20Interstitial%22,%20%22name%22:%20%22Personalized%20Result%22,%20%22getter%22:%20true%7D"></div>

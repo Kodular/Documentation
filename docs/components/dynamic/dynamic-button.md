@@ -16,7 +16,8 @@ A component to create dynamic buttons in Arrangements
 
 Trigger when a Dynamic Button is clicked.
 
-[[Event('Dynamic Button', 'Button Click', 'id')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Button%22,%20%22name%22:%20%22Button%20Click%22,%20%22params%22:%20%5B%22id%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -27,7 +28,8 @@ Trigger when a Dynamic Button is clicked.
 
 Trigger when a Dynamic Button is long clicked.
 
-[[Event('Dynamic Button', 'Button Long Click', 'id')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Button%22,%20%22name%22:%20%22Button%20Long%20Click%22,%20%22params%22:%20%5B%22id%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -40,7 +42,8 @@ Trigger when a Dynamic Button is long clicked.
 
 Create a Dynamic Button.
 
-[[Method('Dynamic Button', 'Create Button', False, 'id', 'arrangement')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Button%22,%20%22name%22:%20%22Create%20Button%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22id%22,%20%22arrangement%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -54,7 +57,8 @@ Create a Dynamic Button.
 
 This block is DEPRECATED! Please use instead the 'Delete Button' block without arrangement parameter.
 
-[[Method('Dynamic Button', 'Delete Button', False, 'id', 'arrangement')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Button%22,%20%22name%22:%20%22Delete%20Button%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22id%22,%20%22arrangement%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -66,7 +70,8 @@ This block is DEPRECATED! Please use instead the 'Delete Button' block without a
 
 Delete a Dynamic Button.
 
-[[Method('Dynamic Button', 'Delete Button', False, 'id')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Button%22,%20%22name%22:%20%22Delete%20Button%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22id%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -79,7 +84,8 @@ Delete a Dynamic Button.
 
 Returns the button referenced by its id.
 
-[[Method('Dynamic Button', 'Get Button By Id', True, 'id')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Button%22,%20%22name%22:%20%22Get%20Button%20By%20Id%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22id%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -92,7 +98,8 @@ Returns the button referenced by its id.
 
 Get the Enabled status of a button.
 
-[[Method('Dynamic Button', 'Get Enabled', True, 'id')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Button%22,%20%22name%22:%20%22Get%20Enabled%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22id%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -105,7 +112,8 @@ Get the Enabled status of a button.
 
 Get the Font Size of a button.
 
-[[Method('Dynamic Button', 'Get Font Size', True, 'id')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Button%22,%20%22name%22:%20%22Get%20Font%20Size%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22id%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -118,7 +126,8 @@ Get the Font Size of a button.
 
 Get the Height of a button.
 
-[[Method('Dynamic Button', 'Get Height', True, 'id')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Button%22,%20%22name%22:%20%22Get%20Height%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22id%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -131,7 +140,8 @@ Get the Height of a button.
 
 Get the Text of a button.
 
-[[Method('Dynamic Button', 'Get Text', True, 'id')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Button%22,%20%22name%22:%20%22Get%20Text%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22id%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -144,7 +154,8 @@ Get the Text of a button.
 
 Get the Width of a button.
 
-[[Method('Dynamic Button', 'Get Width', True, 'id')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Button%22,%20%22name%22:%20%22Get%20Width%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22id%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -155,7 +166,8 @@ Get the Width of a button.
 
 Update the Background Color of a button.
 
-[[Method('Dynamic Button', 'Set Background Color', False, 'id', 'color')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Button%22,%20%22name%22:%20%22Set%20Background%20Color%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22id%22,%20%22color%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -167,7 +179,8 @@ Update the Background Color of a button.
 
 Update the Enabled status of a button.
 
-[[Method('Dynamic Button', 'Set Enabled', False, 'id', 'enabled')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Button%22,%20%22name%22:%20%22Set%20Enabled%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22id%22,%20%22enabled%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -179,7 +192,8 @@ Update the Enabled status of a button.
 
 Update the Font of a button.
 
-[[Method('Dynamic Button', 'Set Font', False, 'id', 'bold', 'italic')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Button%22,%20%22name%22:%20%22Set%20Font%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22id%22,%20%22bold%22,%20%22italic%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -192,7 +206,8 @@ Update the Font of a button.
 
 Update the Font Size of a button.
 
-[[Method('Dynamic Button', 'Set Font Size', False, 'id', 'size')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Button%22,%20%22name%22:%20%22Set%20Font%20Size%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22id%22,%20%22size%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -204,7 +219,8 @@ Update the Font Size of a button.
 
 Update the Height of a button.
 
-[[Method('Dynamic Button', 'Set Height', False, 'id', 'height')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Button%22,%20%22name%22:%20%22Set%20Height%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22id%22,%20%22height%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -216,7 +232,8 @@ Update the Height of a button.
 
 Update the Text of a button.
 
-[[Method('Dynamic Button', 'Set Text', False, 'id', 'text')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Button%22,%20%22name%22:%20%22Set%20Text%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22id%22,%20%22text%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -228,7 +245,8 @@ Update the Text of a button.
 
 Update the Text Color of a button.
 
-[[Method('Dynamic Button', 'Set Text Color', False, 'id', 'color')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Button%22,%20%22name%22:%20%22Set%20Text%20Color%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22id%22,%20%22color%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -240,7 +258,8 @@ Update the Text Color of a button.
 
 Update the Width of a button.
 
-[[Method('Dynamic Button', 'Set Width', False, 'id', 'width')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Button%22,%20%22name%22:%20%22Set%20Width%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22id%22,%20%22width%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|

@@ -24,13 +24,15 @@ A non-visible component that gets data from the Remote Config service powered by
 
 Triggers when the fetch failed
 
-[[Event('Firebase Remote Config', 'Fetch Failed')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Firebase%20Remote%20Config%22,%20%22name%22:%20%22Fetch%20Failed%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Fetch Success
 
 Triggers when the fetch was successful
 
-[[Event('Firebase Remote Config', 'Fetch Success')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Firebase%20Remote%20Config%22,%20%22name%22:%20%22Fetch%20Success%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Methods
 
@@ -38,7 +40,8 @@ Triggers when the fetch was successful
 
 Fetches parameter values for your app
 
-[[Method('Firebase Remote Config', 'Fetch', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Firebase%20Remote%20Config%22,%20%22name%22:%20%22Fetch%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Get Boolean
 
@@ -46,7 +49,8 @@ Fetches parameter values for your app
 
 Gets a boolean value corresponding to the specified key
 
-[[Method('Firebase Remote Config', 'Get Boolean', True, 'key')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Firebase%20Remote%20Config%22,%20%22name%22:%20%22Get%20Boolean%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22key%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -59,7 +63,8 @@ Gets a boolean value corresponding to the specified key
 
 Gets a number value corresponding to the specified key
 
-[[Method('Firebase Remote Config', 'Get Number', True, 'key')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Firebase%20Remote%20Config%22,%20%22name%22:%20%22Get%20Number%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22key%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -72,7 +77,8 @@ Gets a number value corresponding to the specified key
 
 Gets a text value corresponding to the specified key
 
-[[Method('Firebase Remote Config', 'Get Text', True, 'key')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Firebase%20Remote%20Config%22,%20%22name%22:%20%22Get%20Text%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22key%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -87,4 +93,5 @@ Gets a text value corresponding to the specified key
 
 Time how long the data keeps on the device in ms
 
-[[PropertyBlockGetterAndSetter('Firebase Remote Config', 'Cache Expiration')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Firebase%20Remote%20Config%22,%20%22name%22:%20%22Cache%20Expiration%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Firebase%20Remote%20Config%22,%20%22name%22:%20%22Cache%20Expiration%22,%20%22getter%22:%20false%7D"></div>

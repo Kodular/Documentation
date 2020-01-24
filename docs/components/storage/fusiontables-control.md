@@ -49,7 +49,8 @@ Note that you do not need to worry about UTF-encoding the query. But you do need
 
 Indicates that the Fusion Tables query has finished processing, with a result. The result of the query will generally be returned in CSV format, and can be converted to list format using the "list from csv table" or "list from csv row" blocks.
 
-[[Event('Fusiontables Control', 'Got Result', 'result')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Fusiontables%20Control%22,%20%22name%22:%20%22Got%20Result%22,%20%22params%22:%20%5B%22result%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -64,19 +65,22 @@ Indicates that the Fusion Tables query has finished processing, with a result. T
 
 DEPRECATED. This block is deprecated as of the end of 2012. Use SendQuery.
 
-[[Method('Fusiontables Control', 'Do Query', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Fusiontables%20Control%22,%20%22name%22:%20%22Do%20Query%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Forget Login
 
 Forget end-users login credentials. Has no effect on service authentication
 
-[[Method('Fusiontables Control', 'Forget Login', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Fusiontables%20Control%22,%20%22name%22:%20%22Forget%20Login%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Get Rows
 
 Gets all the rows from a specified fusion table. The tableId field is the id of therequired fusion table. The columns field is a comma-separeted list of the columns to retrieve.
 
-[[Method('Fusiontables Control', 'Get Rows', False, 'tableId', 'columns')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Fusiontables%20Control%22,%20%22name%22:%20%22Get%20Rows%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22table%20ID%22,%20%22columns%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -88,7 +92,8 @@ Gets all the rows from a specified fusion table. The tableId field is the id of 
 
 Gets all the rows from a fusion table that meet certain conditions. The tableId field isthe id of the required fusion table. The columns field is a comma-separated list of the columns toretrieve. The conditions field specifies what rows to retrieve from the table, for example the rows in whicha particular column value is not null.
 
-[[Method('Fusiontables Control', 'Get Rows With Conditions', False, 'tableId', 'columns', 'conditions')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Fusiontables%20Control%22,%20%22name%22:%20%22Get%20Rows%20With%20Conditions%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22table%20ID%22,%20%22columns%22,%20%22conditions%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -101,7 +106,8 @@ Gets all the rows from a fusion table that meet certain conditions. The tableId 
 
 Inserts a row into the specified fusion table. The tableId field is the id of thefusion table. The columns is a comma-separated list of the columns to insert values into. The values field specifies what values to insert into each column.
 
-[[Method('Fusiontables Control', 'Insert Row', False, 'tableId', 'columns', 'values')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Fusiontables%20Control%22,%20%22name%22:%20%22Insert%20Row%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22table%20ID%22,%20%22columns%22,%20%22values%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -114,7 +120,8 @@ Inserts a row into the specified fusion table. The tableId field is the id of th
 
 Send the query to the Fusiontables server.
 
-[[Method('Fusiontables Control', 'Send Query', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Fusiontables%20Control%22,%20%22name%22:%20%22Send%20Query%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Properties
 
@@ -124,7 +131,9 @@ Send the query to the Fusiontables server.
 
 Setter for the app developer's API key.
 
-[[PropertyBlockGetterAndSetter('Fusiontables Control', 'API Key')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Fusiontables%20Control%22,%20%22name%22:%20%22API%20Key%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Fusiontables%20Control%22,%20%22name%22:%20%22API%20Key%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Key File
 
@@ -132,7 +141,9 @@ Setter for the app developer's API key.
 
 Specifies the path of the private key file. This key file is used to get access to the FusionTables API.
 
-[[PropertyBlockGetterAndSetter('Fusiontables Control', 'Key File')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Fusiontables%20Control%22,%20%22name%22:%20%22Key%20File%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Fusiontables%20Control%22,%20%22name%22:%20%22Key%20File%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Loading Dialog Message
 
@@ -140,7 +151,9 @@ Specifies the path of the private key file. This key file is used to get access 
 
 Setter for the loading dialog's message.
 
-[[PropertyBlockGetterAndSetter('Fusiontables Control', 'Loading Dialog Message')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Fusiontables%20Control%22,%20%22name%22:%20%22Loading%20Dialog%20Message%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Fusiontables%20Control%22,%20%22name%22:%20%22Loading%20Dialog%20Message%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Query
 
@@ -154,7 +167,9 @@ For legal query formats and examples, see the <a href="https://developers.google
 
 Note that you do not need to worry about UTF-encoding the query. But you do need to make sure it follows the syntax described in the reference manual, which means that things like capitalization for names of columns matters, and that single quotes need to be used around column names if there are spaces in them.
 
-[[PropertyBlockGetterAndSetter('Fusiontables Control', 'Query')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Fusiontables%20Control%22,%20%22name%22:%20%22Query%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Fusiontables%20Control%22,%20%22name%22:%20%22Query%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Service Account Email
 
@@ -162,7 +177,9 @@ Note that you do not need to worry about UTF-encoding the query. But you do need
 
 The Service Account Email Address when service account authentication is in use.
 
-[[PropertyBlockGetterAndSetter('Fusiontables Control', 'Service Account Email')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Fusiontables%20Control%22,%20%22name%22:%20%22Service%20Account%20Email%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Fusiontables%20Control%22,%20%22name%22:%20%22Service%20Account%20Email%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Show Loading Dialog
 
@@ -170,7 +187,9 @@ The Service Account Email Address when service account authentication is in use.
 
 Setter for the loading dialog's visibility.
 
-[[PropertyBlockGetterAndSetter('Fusiontables Control', 'Show Loading Dialog')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Fusiontables%20Control%22,%20%22name%22:%20%22Show%20Loading%20Dialog%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Fusiontables%20Control%22,%20%22name%22:%20%22Show%20Loading%20Dialog%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Use Service Authentication
 
@@ -178,4 +197,5 @@ Setter for the loading dialog's visibility.
 
 Indicates whether a service account should be used for authentication
 
-[[PropertyBlockGetterAndSetter('Fusiontables Control', 'Use Service Authentication')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Fusiontables%20Control%22,%20%22name%22:%20%22Use%20Service%20Authentication%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Fusiontables%20Control%22,%20%22name%22:%20%22Use%20Service%20Authentication%22,%20%22getter%22:%20false%7D"></div>

@@ -16,7 +16,8 @@ A visible component that indicates the progress of an operation using a range of
 
 Gets style names of all possible animations.
 
-[[Method('Custom Progress', 'Get Styles Names', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Custom%20Progress%22,%20%22name%22:%20%22Get%20Styles%20Names%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Properties
 
@@ -26,7 +27,9 @@ Gets style names of all possible animations.
 
 Allows you to set animation style. Valid (case-insensitive) values are: ChasingDots, Circle, CubeGrid, DoubleBounce, FadingCircle, FoldingCube, Pulse, RotatingCircle, RotatingPlane, ThreeBounce, WanderingCubes, Wave. If invalid style is used, Wave animation will be used.
 
-[[PropertyBlockGetterAndSetter('Custom Progress', 'Animation Style')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Custom%20Progress%22,%20%22name%22:%20%22Animation%20Style%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Custom%20Progress%22,%20%22name%22:%20%22Animation%20Style%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Background Color
 
@@ -34,7 +37,9 @@ Allows you to set animation style. Valid (case-insensitive) values are: ChasingD
 
 Sets the background color of this component.
 
-[[PropertyBlockGetterAndSetter('Custom Progress', 'Background Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Custom%20Progress%22,%20%22name%22:%20%22Background%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Custom%20Progress%22,%20%22name%22:%20%22Background%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Color
 
@@ -42,7 +47,9 @@ Sets the background color of this component.
 
 Sets the color of the component
 
-[[PropertyBlockGetterAndSetter('Custom Progress', 'Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Custom%20Progress%22,%20%22name%22:%20%22Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Custom%20Progress%22,%20%22name%22:%20%22Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Visible
 
@@ -50,7 +57,9 @@ Sets the color of the component
 
 Returns true iff the component is visible.
 
-[[PropertyBlockGetterAndSetter('Custom Progress', 'Visible')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Custom%20Progress%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Custom%20Progress%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Column
 
@@ -64,7 +73,9 @@ Column property getter method.
 
 Specifies the component's vertical height, measured in pixels.
 
-[[PropertyBlockGetterAndSetter('Custom Progress', 'Height')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Custom%20Progress%22,%20%22name%22:%20%22Height%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Custom%20Progress%22,%20%22name%22:%20%22Height%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Height Percent
 
@@ -72,7 +83,8 @@ Specifies the component's vertical height, measured in pixels.
 
 Specifies the component's vertical height as a percentageof the height of its parent Component.
 
-[[PropertyBlockGetterAndSetter('Custom Progress', 'Height Percent')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Custom%20Progress%22,%20%22name%22:%20%22Height%20Percent%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Row
 
@@ -86,7 +98,9 @@ Row property getter method.
 
 Specifies the component's horizontal width, measured in pixels.
 
-[[PropertyBlockGetterAndSetter('Custom Progress', 'Width')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Custom%20Progress%22,%20%22name%22:%20%22Width%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Custom%20Progress%22,%20%22name%22:%20%22Width%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Width Percent
 
@@ -94,4 +108,4 @@ Specifies the component's horizontal width, measured in pixels.
 
 Specifies the component's horizontal width as a percentageof the Width of its parent Component.
 
-[[PropertyBlockGetterAndSetter('Custom Progress', 'Width Percent')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Custom%20Progress%22,%20%22name%22:%20%22Width%20Percent%22,%20%22getter%22:%20false%7D"></div>

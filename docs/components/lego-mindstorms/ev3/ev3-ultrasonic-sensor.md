@@ -16,19 +16,22 @@ A component that provides a high-level interface to an ultrasonic sensor on a LE
 
 Called when the detected distance has gone above the range.
 
-[[Event('EV3 Ultrasonic Sensor', 'Above Range')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Ultrasonic%20Sensor%22,%20%22name%22:%20%22Above%20Range%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Below Range
 
 Called when the detected distance has gone below the range.
 
-[[Event('EV3 Ultrasonic Sensor', 'Below Range')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Ultrasonic%20Sensor%22,%20%22name%22:%20%22Below%20Range%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Within Range
 
 Called when the detected distance has gone within the range.
 
-[[Event('EV3 Ultrasonic Sensor', 'Within Range')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Ultrasonic%20Sensor%22,%20%22name%22:%20%22Within%20Range%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Methods
 
@@ -38,19 +41,22 @@ Called when the detected distance has gone within the range.
 
 Returns the current distance in centimeters as a value between 0 and 254, or -1 if the distance can not be read.
 
-[[Method('EV3 Ultrasonic Sensor', 'Get Distance', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Ultrasonic%20Sensor%22,%20%22name%22:%20%22Get%20Distance%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Set CM Unit
 
 Measure the distance in centimeters.
 
-[[Method('EV3 Ultrasonic Sensor', 'Set CM Unit', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Ultrasonic%20Sensor%22,%20%22name%22:%20%22Set%20CM%20Unit%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Set Inch Unit
 
 Measure the distance in inches.
 
-[[Method('EV3 Ultrasonic Sensor', 'Set Inch Unit', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Ultrasonic%20Sensor%22,%20%22name%22:%20%22Set%20Inch%20Unit%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Properties
 
@@ -60,7 +66,9 @@ Measure the distance in inches.
 
 Whether the AboveRange event should fire when the distance goes above the TopOfRange.
 
-[[PropertyBlockGetterAndSetter('EV3 Ultrasonic Sensor', 'Above Range Event Enabled')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Ultrasonic%20Sensor%22,%20%22name%22:%20%22Above%20Range%20Event%20Enabled%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Ultrasonic%20Sensor%22,%20%22name%22:%20%22Above%20Range%20Event%20Enabled%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Below Range Event Enabled
 
@@ -68,7 +76,9 @@ Whether the AboveRange event should fire when the distance goes above the TopOfR
 
 Whether the BelowRange event should fire when the distance goes below the BottomOfRange.
 
-[[PropertyBlockGetterAndSetter('EV3 Ultrasonic Sensor', 'Below Range Event Enabled')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Ultrasonic%20Sensor%22,%20%22name%22:%20%22Below%20Range%20Event%20Enabled%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Ultrasonic%20Sensor%22,%20%22name%22:%20%22Below%20Range%20Event%20Enabled%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Bluetooth Client
 
@@ -76,7 +86,9 @@ Whether the BelowRange event should fire when the distance goes below the Bottom
 
 The BluetoothClient component that should be used for communication.
 
-[[PropertyBlockGetterAndSetter('EV3 Ultrasonic Sensor', 'Bluetooth Client')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Ultrasonic%20Sensor%22,%20%22name%22:%20%22Bluetooth%20Client%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Ultrasonic%20Sensor%22,%20%22name%22:%20%22Bluetooth%20Client%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Bottom Of Range
 
@@ -84,7 +96,9 @@ The BluetoothClient component that should be used for communication.
 
 The bottom of the range used for the BelowRange, WithinRange, and AboveRange events.
 
-[[PropertyBlockGetterAndSetter('EV3 Ultrasonic Sensor', 'Bottom Of Range')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Ultrasonic%20Sensor%22,%20%22name%22:%20%22Bottom%20Of%20Range%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Ultrasonic%20Sensor%22,%20%22name%22:%20%22Bottom%20Of%20Range%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Sensor Port
 
@@ -98,7 +112,9 @@ The sensor port that the sensor is connected to.
 
 The top of the range used for the BelowRange, WithinRange, and AboveRange events.
 
-[[PropertyBlockGetterAndSetter('EV3 Ultrasonic Sensor', 'Top Of Range')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Ultrasonic%20Sensor%22,%20%22name%22:%20%22Top%20Of%20Range%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Ultrasonic%20Sensor%22,%20%22name%22:%20%22Top%20Of%20Range%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Unit
 
@@ -106,7 +122,9 @@ The top of the range used for the BelowRange, WithinRange, and AboveRange events
 
 Specifies the unit of distance.
 
-[[PropertyBlockGetterAndSetter('EV3 Ultrasonic Sensor', 'Unit')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Ultrasonic%20Sensor%22,%20%22name%22:%20%22Unit%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Ultrasonic%20Sensor%22,%20%22name%22:%20%22Unit%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Within Range Event Enabled
 
@@ -114,4 +132,5 @@ Specifies the unit of distance.
 
 Whether the WithinRange event should fire when the distance goes between the BottomOfRange and the TopOfRange.
 
-[[PropertyBlockGetterAndSetter('EV3 Ultrasonic Sensor', 'Within Range Event Enabled')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Ultrasonic%20Sensor%22,%20%22name%22:%20%22Within%20Range%20Event%20Enabled%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Ultrasonic%20Sensor%22,%20%22name%22:%20%22Within%20Range%20Event%20Enabled%22,%20%22getter%22:%20false%7D"></div>

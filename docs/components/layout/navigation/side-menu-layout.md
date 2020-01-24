@@ -17,7 +17,8 @@ Side menus are navigation menus that slide from the left of the screen via a swi
 
 Triggers when the user clicks on an item of the Navigation Menu
 
-[[Event('Side Menu Layout', 'On Menu Item Click', 'title')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Side%20Menu%20Layout%22,%20%22name%22:%20%22On%20Menu%20Item%20Click%22,%20%22params%22:%20%5B%22title%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -30,7 +31,8 @@ Triggers when the user clicks on an item of the Navigation Menu
 
 Add an item to the Navigation Menu
 
-[[Method('Side Menu Layout', 'Add Item', False, 'title', 'image', 'enabled', 'checked', 'group')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Side%20Menu%20Layout%22,%20%22name%22:%20%22Add%20Item%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22title%22,%20%22image%22,%20%22enabled%22,%20%22checked%22,%20%22group%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -45,7 +47,8 @@ Add an item to the Navigation Menu
 
 Remove an item from the Navigation Menu
 
-[[Method('Side Menu Layout', 'Remove Item', False, 'title')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Side%20Menu%20Layout%22,%20%22name%22:%20%22Remove%20Item%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22title%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -56,7 +59,8 @@ Remove an item from the Navigation Menu
 
 Update an item of the Navigation Menu
 
-[[Method('Side Menu Layout', 'Update Item', False, 'title', 'newTitle', 'image', 'enabled', 'checked')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Side%20Menu%20Layout%22,%20%22name%22:%20%22Update%20Item%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22title%22,%20%22new%20Title%22,%20%22image%22,%20%22enabled%22,%20%22checked%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -75,7 +79,9 @@ Update an item of the Navigation Menu
 
 Set the background color of the Sidemenu Layout
 
-[[PropertyBlockGetterAndSetter('Side Menu Layout', 'Background Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Side%20Menu%20Layout%22,%20%22name%22:%20%22Background%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Side%20Menu%20Layout%22,%20%22name%22:%20%22Background%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Circle Header Picture
 
@@ -83,7 +89,9 @@ Set the background color of the Sidemenu Layout
 
 Sets (or not) the header picture to use a circle shape
 
-[[PropertyBlockGetterAndSetter('Side Menu Layout', 'Circle Header Picture')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Side%20Menu%20Layout%22,%20%22name%22:%20%22Circle%20Header%20Picture%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Side%20Menu%20Layout%22,%20%22name%22:%20%22Circle%20Header%20Picture%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Disabled Color
 
@@ -91,7 +99,9 @@ Sets (or not) the header picture to use a circle shape
 
 Sets the color of the disabled elements of the SideMenu
 
-[[PropertyBlockGetterAndSetter('Side Menu Layout', 'Disabled Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Side%20Menu%20Layout%22,%20%22name%22:%20%22Disabled%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Side%20Menu%20Layout%22,%20%22name%22:%20%22Disabled%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Enabled Color
 
@@ -99,7 +109,9 @@ Sets the color of the disabled elements of the SideMenu
 
 Sets the color of the enabled elements of the SideMenu
 
-[[PropertyBlockGetterAndSetter('Side Menu Layout', 'Enabled Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Side%20Menu%20Layout%22,%20%22name%22:%20%22Enabled%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Side%20Menu%20Layout%22,%20%22name%22:%20%22Enabled%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Header Background Image
 
@@ -107,7 +119,9 @@ Sets the color of the enabled elements of the SideMenu
 
 Sets the Header Background Picture
 
-[[PropertyBlockGetterAndSetter('Side Menu Layout', 'Header Background Image')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Side%20Menu%20Layout%22,%20%22name%22:%20%22Header%20Background%20Image%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Side%20Menu%20Layout%22,%20%22name%22:%20%22Header%20Background%20Image%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Header Picture
 
@@ -115,7 +129,9 @@ Sets the Header Background Picture
 
 Sets the Header Picture of the Side Menu
 
-[[PropertyBlockGetterAndSetter('Side Menu Layout', 'Header Picture')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Side%20Menu%20Layout%22,%20%22name%22:%20%22Header%20Picture%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Side%20Menu%20Layout%22,%20%22name%22:%20%22Header%20Picture%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Header Subtitle
 
@@ -123,7 +139,9 @@ Sets the Header Picture of the Side Menu
 
 Sets the Header Subtitle
 
-[[PropertyBlockGetterAndSetter('Side Menu Layout', 'Header Subtitle')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Side%20Menu%20Layout%22,%20%22name%22:%20%22Header%20Subtitle%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Side%20Menu%20Layout%22,%20%22name%22:%20%22Header%20Subtitle%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Header Title
 
@@ -131,7 +149,9 @@ Sets the Header Subtitle
 
 Sets the Header Title
 
-[[PropertyBlockGetterAndSetter('Side Menu Layout', 'Header Title')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Side%20Menu%20Layout%22,%20%22name%22:%20%22Header%20Title%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Side%20Menu%20Layout%22,%20%22name%22:%20%22Header%20Title%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Selected Color
 
@@ -139,4 +159,5 @@ Sets the Header Title
 
 Sets the color of the selected element of the SideMenu
 
-[[PropertyBlockGetterAndSetter('Side Menu Layout', 'Selected Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Side%20Menu%20Layout%22,%20%22name%22:%20%22Selected%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Side%20Menu%20Layout%22,%20%22name%22:%20%22Selected%20Color%22,%20%22getter%22:%20false%7D"></div>

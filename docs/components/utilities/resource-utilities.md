@@ -25,7 +25,8 @@ A non-visible component that loads string resources from a file.
 
 This block is deprecated and will be removed soon. Use instead 'Get String From Asset' or 'Get String From Path'.
 
-[[Method('Resource Utilities', 'Get String Content By Name', True, 'resourceName', 'ifResourceNotFoundUse')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Resource%20Utilities%22,%20%22name%22:%20%22Get%20String%20Content%20By%20Name%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22resource%20Name%22,%20%22if%20Resource%20Not%20Found%20Use%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -39,7 +40,8 @@ This block is deprecated and will be removed soon. Use instead 'Get String From 
 
 Get the text from a asset resource file. Make sure you uploaded a file at 'Resource File From Asset' property.
 
-[[Method('Resource Utilities', 'Get String From Asset', True, 'resourceName', 'ifResourceNotFoundUse')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Resource%20Utilities%22,%20%22name%22:%20%22Get%20String%20From%20Asset%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22resource%20Name%22,%20%22if%20Resource%20Not%20Found%20Use%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -53,7 +55,8 @@ Get the text from a asset resource file. Make sure you uploaded a file at 'Resou
 
 Get the text from a path resource file. Make sure you added a file path at 'Resource File From Path' property. The path can be too a link to a url.
 
-[[Method('Resource Utilities', 'Get String From Path', True, 'resourceName', 'ifResourceNotFoundUse')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Resource%20Utilities%22,%20%22name%22:%20%22Get%20String%20From%20Path%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22resource%20Name%22,%20%22if%20Resource%20Not%20Found%20Use%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -69,7 +72,9 @@ Get the text from a path resource file. Make sure you added a file path at 'Reso
 
 Set the file which is used as resource file. The file must be stored in the assets folder.
 
-[[PropertyBlockGetterAndSetter('Resource Utilities', 'Resource File From Asset')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Resource%20Utilities%22,%20%22name%22:%20%22Resource%20File%20From%20Asset%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Resource%20Utilities%22,%20%22name%22:%20%22Resource%20File%20From%20Asset%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Resource File From Path
 
@@ -77,4 +82,5 @@ Set the file which is used as resource file. The file must be stored in the asse
 
 Set the file which is used as resource file. The file path must be valid to any file you want to use. The path can be too a link to a url.
 
-[[PropertyBlockGetterAndSetter('Resource Utilities', 'Resource File From Path')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Resource%20Utilities%22,%20%22name%22:%20%22Resource%20File%20From%20Path%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Resource%20Utilities%22,%20%22name%22:%20%22Resource%20File%20From%20Path%22,%20%22getter%22:%20false%7D"></div>

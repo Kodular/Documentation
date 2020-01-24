@@ -14,7 +14,8 @@ A visible component that indicates the progress of an operation by highlighting 
 
 Event invoked when a error occurred.
 
-[[Event('State Progress Bar', 'Error Occurred', 'errorMessage')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22State%20Progress%20Bar%22,%20%22name%22:%20%22Error%20Occurred%22,%20%22params%22:%20%5B%22error%20Message%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -25,7 +26,8 @@ Event invoked when a error occurred.
 
 Event invoked when a state item was clicked.
 
-[[Event('State Progress Bar', 'State Item Click', 'stateNumber', 'isCurrentState')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22State%20Progress%20Bar%22,%20%22name%22:%20%22State%20Item%20Click%22,%20%22params%22:%20%5B%22state%20Number%22,%20%22is%20Current%20State%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -41,7 +43,9 @@ Event invoked when a state item was clicked.
 
 Set the animation duration in milliseconds. Example: use 1000 for 1 second.
 
-[[PropertyBlockGetterAndSetter('State Progress Bar', 'Animation Duration')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22State%20Progress%20Bar%22,%20%22name%22:%20%22Animation%20Duration%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22State%20Progress%20Bar%22,%20%22name%22:%20%22Animation%20Duration%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Animate Between States
 
@@ -51,7 +55,9 @@ Set the animation duration in milliseconds. Example: use 1000 for 1 second.
 
 If set to true the states will use a animation when they changed.
 
-[[PropertyBlockGetterAndSetter('State Progress Bar', 'Animate Between States')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22State%20Progress%20Bar%22,%20%22name%22:%20%22Animate%20Between%20States%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22State%20Progress%20Bar%22,%20%22name%22:%20%22Animate%20Between%20States%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Background Color
 
@@ -59,7 +65,9 @@ If set to true the states will use a animation when they changed.
 
 Change the background color.
 
-[[PropertyBlockGetterAndSetter('State Progress Bar', 'Background Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22State%20Progress%20Bar%22,%20%22name%22:%20%22Background%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22State%20Progress%20Bar%22,%20%22name%22:%20%22Background%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Current State Description Color
 
@@ -67,7 +75,9 @@ Change the background color.
 
 Change the current state description color.
 
-[[PropertyBlockGetterAndSetter('State Progress Bar', 'Current State Description Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22State%20Progress%20Bar%22,%20%22name%22:%20%22Current%20State%20Description%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22State%20Progress%20Bar%22,%20%22name%22:%20%22Current%20State%20Description%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Current State Number
 
@@ -75,7 +85,9 @@ Change the current state description color.
 
 Set the current state number.
 
-[[PropertyBlockGetterAndSetter('State Progress Bar', 'Current State Number')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22State%20Progress%20Bar%22,%20%22name%22:%20%22Current%20State%20Number%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22State%20Progress%20Bar%22,%20%22name%22:%20%22Current%20State%20Number%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Description Lines Spacing
 
@@ -83,7 +95,9 @@ Set the current state number.
 
 Set the description lines spacing.
 
-[[PropertyBlockGetterAndSetter('State Progress Bar', 'Description Lines Spacing')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22State%20Progress%20Bar%22,%20%22name%22:%20%22Description%20Lines%20Spacing%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22State%20Progress%20Bar%22,%20%22name%22:%20%22Description%20Lines%20Spacing%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Description Top Space Incrementer
 
@@ -91,7 +105,9 @@ Set the description lines spacing.
 
 Set the description top space incrementer.
 
-[[PropertyBlockGetterAndSetter('State Progress Bar', 'Description Top Space Incrementer')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22State%20Progress%20Bar%22,%20%22name%22:%20%22Description%20Top%20Space%20Incrementer%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22State%20Progress%20Bar%22,%20%22name%22:%20%22Description%20Top%20Space%20Incrementer%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Elements From String
 
@@ -99,7 +115,8 @@ Set the description top space incrementer.
 
 The State Progress Bar elements specified as a string with the items separated by commas such as: Item 1, Item 2, Item 3, Item 4, Item 5. Each word before the comma will be an element in the list. You can add maximum 5 items.
 
-[[PropertyBlockGetterAndSetter('State Progress Bar', 'Elements From String')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22State%20Progress%20Bar%22,%20%22name%22:%20%22Elements%20From%20String%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Foreground Color
 
@@ -107,7 +124,9 @@ The State Progress Bar elements specified as a string with the items separated b
 
 Change the foreground color.
 
-[[PropertyBlockGetterAndSetter('State Progress Bar', 'Foreground Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22State%20Progress%20Bar%22,%20%22name%22:%20%22Foreground%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22State%20Progress%20Bar%22,%20%22name%22:%20%22Foreground%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Justify Multiline Description
 
@@ -117,7 +136,9 @@ Change the foreground color.
 
 If set to true justify multiline description is enabled.
 
-[[PropertyBlockGetterAndSetter('State Progress Bar', 'Justify Multiline Description')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22State%20Progress%20Bar%22,%20%22name%22:%20%22Justify%20Multiline%20Description%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22State%20Progress%20Bar%22,%20%22name%22:%20%22Justify%20Multiline%20Description%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Max Description Line
 
@@ -125,7 +146,9 @@ If set to true justify multiline description is enabled.
 
 Set the maximum description line.
 
-[[PropertyBlockGetterAndSetter('State Progress Bar', 'Max Description Line')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22State%20Progress%20Bar%22,%20%22name%22:%20%22Max%20Description%20Line%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22State%20Progress%20Bar%22,%20%22name%22:%20%22Max%20Description%20Line%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Max State Number
 
@@ -133,7 +156,9 @@ Set the maximum description line.
 
 Set the maximum state number.
 
-[[PropertyBlockGetterAndSetter('State Progress Bar', 'Max State Number')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22State%20Progress%20Bar%22,%20%22name%22:%20%22Max%20State%20Number%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22State%20Progress%20Bar%22,%20%22name%22:%20%22Max%20State%20Number%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### State Description Color
 
@@ -141,7 +166,9 @@ Set the maximum state number.
 
 Change the state description color.
 
-[[PropertyBlockGetterAndSetter('State Progress Bar', 'State Description Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22State%20Progress%20Bar%22,%20%22name%22:%20%22State%20Description%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22State%20Progress%20Bar%22,%20%22name%22:%20%22State%20Description%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### State Description Size
 
@@ -149,7 +176,9 @@ Change the state description color.
 
 Set the state description size.
 
-[[PropertyBlockGetterAndSetter('State Progress Bar', 'State Description Size')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22State%20Progress%20Bar%22,%20%22name%22:%20%22State%20Description%20Size%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22State%20Progress%20Bar%22,%20%22name%22:%20%22State%20Description%20Size%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### State Description Typeface
 
@@ -163,7 +192,8 @@ Set the state description size.
 
 Set a custom font for state description typeface.
 
-[[PropertyBlockGetterAndSetter('State Progress Bar', 'State Description Typeface Import')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22State%20Progress%20Bar%22,%20%22name%22:%20%22State%20Description%20Typeface%20Import%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### State Line Thickness
 
@@ -171,7 +201,9 @@ Set a custom font for state description typeface.
 
 Set the state line thickness.
 
-[[PropertyBlockGetterAndSetter('State Progress Bar', 'State Line Thickness')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22State%20Progress%20Bar%22,%20%22name%22:%20%22State%20Line%20Thickness%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22State%20Progress%20Bar%22,%20%22name%22:%20%22State%20Line%20Thickness%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### State Number Background Color
 
@@ -179,7 +211,9 @@ Set the state line thickness.
 
 Change the state number background color.
 
-[[PropertyBlockGetterAndSetter('State Progress Bar', 'State Number Background Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22State%20Progress%20Bar%22,%20%22name%22:%20%22State%20Number%20Background%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22State%20Progress%20Bar%22,%20%22name%22:%20%22State%20Number%20Background%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### State Number Foreground Color
 
@@ -187,7 +221,9 @@ Change the state number background color.
 
 Change the state number foreground color.
 
-[[PropertyBlockGetterAndSetter('State Progress Bar', 'State Number Foreground Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22State%20Progress%20Bar%22,%20%22name%22:%20%22State%20Number%20Foreground%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22State%20Progress%20Bar%22,%20%22name%22:%20%22State%20Number%20Foreground%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### State Number Is Descending
 
@@ -195,7 +231,9 @@ Change the state number foreground color.
 
 If set to true the state number is in descending order.
 
-[[PropertyBlockGetterAndSetter('State Progress Bar', 'State Number Is Descending')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22State%20Progress%20Bar%22,%20%22name%22:%20%22State%20Number%20Is%20Descending%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22State%20Progress%20Bar%22,%20%22name%22:%20%22State%20Number%20Is%20Descending%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### State Number Text Size
 
@@ -203,7 +241,9 @@ If set to true the state number is in descending order.
 
 Set the state number text size.
 
-[[PropertyBlockGetterAndSetter('State Progress Bar', 'State Number Text Size')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22State%20Progress%20Bar%22,%20%22name%22:%20%22State%20Number%20Text%20Size%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22State%20Progress%20Bar%22,%20%22name%22:%20%22State%20Number%20Text%20Size%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### State Number Typeface
 
@@ -217,7 +257,8 @@ Set the state number text size.
 
 Set a custom font for state number typeface.
 
-[[PropertyBlockGetterAndSetter('State Progress Bar', 'State Number Typeface Import')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22State%20Progress%20Bar%22,%20%22name%22:%20%22State%20Number%20Typeface%20Import%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### State Progress Bar Height
 
@@ -225,7 +266,9 @@ Set a custom font for state number typeface.
 
 Set the state progress bar height.
 
-[[PropertyBlockGetterAndSetter('State Progress Bar', 'State Progress Bar Height')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22State%20Progress%20Bar%22,%20%22name%22:%20%22State%20Progress%20Bar%20Height%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22State%20Progress%20Bar%22,%20%22name%22:%20%22State%20Progress%20Bar%20Height%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Visible
 
@@ -233,7 +276,9 @@ Set the state progress bar height.
 
 Returns true iff the component is visible.
 
-[[PropertyBlockGetterAndSetter('State Progress Bar', 'Visible')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22State%20Progress%20Bar%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22State%20Progress%20Bar%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### All States Completed
 
@@ -241,7 +286,9 @@ Returns true iff the component is visible.
 
 If set to true all states are completed.
 
-[[PropertyBlockGetterAndSetter('State Progress Bar', 'All States Completed')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22State%20Progress%20Bar%22,%20%22name%22:%20%22All%20States%20Completed%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22State%20Progress%20Bar%22,%20%22name%22:%20%22All%20States%20Completed%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Column
 
@@ -255,7 +302,9 @@ Column property getter method.
 
 Specifies the component's vertical height, measured in pixels.
 
-[[PropertyBlockGetterAndSetter('State Progress Bar', 'Height')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22State%20Progress%20Bar%22,%20%22name%22:%20%22Height%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22State%20Progress%20Bar%22,%20%22name%22:%20%22Height%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Height Percent
 
@@ -263,7 +312,8 @@ Specifies the component's vertical height, measured in pixels.
 
 Specifies the component's vertical height as a percentageof the height of its parent Component.
 
-[[PropertyBlockGetterAndSetter('State Progress Bar', 'Height Percent')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22State%20Progress%20Bar%22,%20%22name%22:%20%22Height%20Percent%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Row
 
@@ -277,7 +327,9 @@ Row property getter method.
 
 Specifies the component's horizontal width, measured in pixels.
 
-[[PropertyBlockGetterAndSetter('State Progress Bar', 'Width')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22State%20Progress%20Bar%22,%20%22name%22:%20%22Width%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22State%20Progress%20Bar%22,%20%22name%22:%20%22Width%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Width Percent
 
@@ -285,4 +337,4 @@ Specifies the component's horizontal width, measured in pixels.
 
 Specifies the component's horizontal width as a percentageof the Width of its parent Component.
 
-[[PropertyBlockGetterAndSetter('State Progress Bar', 'Width Percent')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22State%20Progress%20Bar%22,%20%22name%22:%20%22Width%20Percent%22,%20%22getter%22:%20false%7D"></div>

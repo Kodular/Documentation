@@ -16,13 +16,15 @@ A component that provides a high-level interface to a touch sensor on a LEGO MIN
 
 Touch sensor has been pressed.
 
-[[Event('NXT Touch Sensor', 'Pressed')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Touch%20Sensor%22,%20%22name%22:%20%22Pressed%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Released
 
 Touch sensor has been released.
 
-[[Event('NXT Touch Sensor', 'Released')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Touch%20Sensor%22,%20%22name%22:%20%22Released%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Methods
 
@@ -32,7 +34,8 @@ Touch sensor has been released.
 
 Returns true if the touch sensor is pressed.
 
-[[Method('NXT Touch Sensor', 'Is Pressed', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Touch%20Sensor%22,%20%22name%22:%20%22Is%20Pressed%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Properties
 
@@ -48,7 +51,9 @@ The BluetoothClient component that should be used for communication.
 
 Whether the Pressed event should fire when the touch sensor is pressed.
 
-[[PropertyBlockGetterAndSetter('NXT Touch Sensor', 'Pressed Event Enabled')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Touch%20Sensor%22,%20%22name%22:%20%22Pressed%20Event%20Enabled%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Touch%20Sensor%22,%20%22name%22:%20%22Pressed%20Event%20Enabled%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Released Event Enabled
 
@@ -56,7 +61,9 @@ Whether the Pressed event should fire when the touch sensor is pressed.
 
 Whether the Released event should fire when the touch sensor is released.
 
-[[PropertyBlockGetterAndSetter('NXT Touch Sensor', 'Released Event Enabled')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Touch%20Sensor%22,%20%22name%22:%20%22Released%20Event%20Enabled%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Touch%20Sensor%22,%20%22name%22:%20%22Released%20Event%20Enabled%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Sensor Port
 

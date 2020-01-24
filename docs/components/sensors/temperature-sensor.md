@@ -16,7 +16,8 @@ Non-visible component that measures the temperature of the air in the room in de
 
 Event that fires when the temperature is changed
 
-[[Event('Temperature Sensor', 'Temperature Changed', 'temperature')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Temperature%20Sensor%22,%20%22name%22:%20%22Temperature%20Changed%22,%20%22params%22:%20%5B%22temperature%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -31,7 +32,9 @@ Event that fires when the temperature is changed
 
 Whether Sensor should be Enabled
 
-[[PropertyBlockGetterAndSetter('Temperature Sensor', 'Enabled')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Temperature%20Sensor%22,%20%22name%22:%20%22Enabled%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Temperature%20Sensor%22,%20%22name%22:%20%22Enabled%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Available
 
@@ -39,7 +42,8 @@ Whether Sensor should be Enabled
 
 Whether Sensor is Available
 
-[[PropertyBlockGetter('Temperature Sensor', 'Available')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Temperature%20Sensor%22,%20%22name%22:%20%22Available%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Temperature
 
@@ -47,4 +51,4 @@ Whether Sensor is Available
 
 Returns the temperature in degrees celsius. To return values the sensor must be enabled
 
-[[PropertyBlockGetter('Temperature Sensor', 'Temperature')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Temperature%20Sensor%22,%20%22name%22:%20%22Temperature%22,%20%22getter%22:%20true%7D"></div>

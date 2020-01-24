@@ -25,19 +25,22 @@ This component is best for long sound files, such as songs, while the `` Sound `
 
 Indicates that the media has reached the end
 
-[[Event('Player', 'Completed')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Player%22,%20%22name%22:%20%22Completed%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Other Player Started
 
 This event is signaled when another player has started (and the current player is playing or paused, but not stopped).
 
-[[Event('Player', 'Other Player Started')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Player%22,%20%22name%22:%20%22Other%20Player%20Started%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### PlayerError
 
 The PlayerError event is no longer used. Please use the Screen.ErrorOccurred event instead.
 
-[[Event('Player', 'PlayerError', 'message')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Player%22,%20%22name%22:%20%22PlayerError%22,%20%22params%22:%20%5B%22message%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -50,13 +53,15 @@ The PlayerError event is no longer used. Please use the Screen.ErrorOccurred eve
 
 Suspends playing the media if it is playing.
 
-[[Method('Player', 'Pause', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Player%22,%20%22name%22:%20%22Pause%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Seek To
 
 Set a position where the source file should start playing.
 
-[[Method('Player', 'Seek To', False, 'position')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Player%22,%20%22name%22:%20%22Seek%20To%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22position%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -67,7 +72,8 @@ Set a position where the source file should start playing.
 
 Control the left and right volume of the player. Set the volume to a number between 0 and 100.
 
-[[Method('Player', 'Set Left Right Volume', False, 'leftVolume', 'rightVolume')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Player%22,%20%22name%22:%20%22Set%20Left%20Right%20Volume%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22left%20Volume%22,%20%22right%20Volume%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -80,19 +86,22 @@ Control the left and right volume of the player. Set the volume to a number betw
 Plays the media. If it was previously paused, the playing is resumed
 If it was previously stopped, it starts from the beginning.
 
-[[Method('Player', 'Start', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Player%22,%20%22name%22:%20%22Start%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Stop
 
 Stops playing the media and seeks to the beginning of the song.
 
-[[Method('Player', 'Stop', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Player%22,%20%22name%22:%20%22Stop%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Vibrate
 
 Vibrates for specified number of milliseconds.
 
-[[Method('Player', 'Vibrate', False, 'milliseconds')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Player%22,%20%22name%22:%20%22Vibrate%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22milliseconds%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -107,7 +116,9 @@ Vibrates for specified number of milliseconds.
 
 If true, the player will loop when it plays. Setting Loop while the player is playing will affect the current playing.
 
-[[PropertyBlockGetterAndSetter('Player', 'Loop')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Player%22,%20%22name%22:%20%22Loop%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Player%22,%20%22name%22:%20%22Loop%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Play Only In Foreground
 
@@ -115,7 +126,9 @@ If true, the player will loop when it plays. Setting Loop while the player is pl
 
 If true, the player will pause playing when leaving the current screen; if false (default option), the player continues playing whenever the current screen is displaying or not.
 
-[[PropertyBlockGetterAndSetter('Player', 'Play Only In Foreground')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Player%22,%20%22name%22:%20%22Play%20Only%20In%20Foreground%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Player%22,%20%22name%22:%20%22Play%20Only%20In%20Foreground%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Source
 
@@ -123,7 +136,9 @@ If true, the player will pause playing when leaving the current screen; if false
 
 Returns the path to the audio source
 
-[[PropertyBlockGetterAndSetter('Player', 'Source')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Player%22,%20%22name%22:%20%22Source%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Player%22,%20%22name%22:%20%22Source%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Volume
 
@@ -131,7 +146,9 @@ Returns the path to the audio source
 
 Sets the volume to a number between 0 and 100.
 
-[[PropertyBlockGetterAndSetter('Player', 'Volume')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Player%22,%20%22name%22:%20%22Volume%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Player%22,%20%22name%22:%20%22Volume%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Current Position
 
@@ -139,7 +156,8 @@ Sets the volume to a number between 0 and 100.
 
 Returns the current position of the source file that is playing.
 
-[[PropertyBlockGetter('Player', 'Current Position')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Player%22,%20%22name%22:%20%22Current%20Position%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Duration
 
@@ -147,7 +165,8 @@ Returns the current position of the source file that is playing.
 
 Returns the duration of the source file.
 
-[[PropertyBlockGetter('Player', 'Duration')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Player%22,%20%22name%22:%20%22Duration%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Get TrackInfo
 
@@ -155,7 +174,8 @@ Returns the duration of the source file.
 
 Returns a array of track information.
 
-[[PropertyBlockGetter('Player', 'Get TrackInfo')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Player%22,%20%22name%22:%20%22Get%20TrackInfo%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Is Playing
 
@@ -163,7 +183,8 @@ Returns a array of track information.
 
 Reports whether the media is playing
 
-[[PropertyBlockGetter('Player', 'Is Playing')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Player%22,%20%22name%22:%20%22Is%20Playing%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Left Volume
 
@@ -171,7 +192,8 @@ Reports whether the media is playing
 
 Returns the current left volume.
 
-[[PropertyBlockGetter('Player', 'Left Volume')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Player%22,%20%22name%22:%20%22Left%20Volume%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Right Volume
 
@@ -179,4 +201,4 @@ Returns the current left volume.
 
 Returns the current right volume.
 
-[[PropertyBlockGetter('Player', 'Right Volume')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Player%22,%20%22name%22:%20%22Right%20Volume%22,%20%22getter%22:%20true%7D"></div>

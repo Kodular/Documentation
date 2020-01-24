@@ -16,19 +16,22 @@ A component that provides a high-level interface to a sound sensor on a LEGO MIN
 
 Sound level has gone above the range.
 
-[[Event('NXT Sound Sensor', 'Above Range')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Sound%20Sensor%22,%20%22name%22:%20%22Above%20Range%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Below Range
 
 Sound level has gone below the range.
 
-[[Event('NXT Sound Sensor', 'Below Range')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Sound%20Sensor%22,%20%22name%22:%20%22Below%20Range%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Within Range
 
 Sound level has gone within the range.
 
-[[Event('NXT Sound Sensor', 'Within Range')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Sound%20Sensor%22,%20%22name%22:%20%22Within%20Range%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Methods
 
@@ -38,7 +41,8 @@ Sound level has gone within the range.
 
 Returns the current sound level as a value between 0 and 1023, or -1 if the sound level can not be read.
 
-[[Method('NXT Sound Sensor', 'Get Sound Level', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Sound%20Sensor%22,%20%22name%22:%20%22Get%20Sound%20Level%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Properties
 
@@ -48,7 +52,9 @@ Returns the current sound level as a value between 0 and 1023, or -1 if the soun
 
 Whether the AboveRange event should fire when the sound level goes above the TopOfRange.
 
-[[PropertyBlockGetterAndSetter('NXT Sound Sensor', 'Above Range Event Enabled')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Sound%20Sensor%22,%20%22name%22:%20%22Above%20Range%20Event%20Enabled%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Sound%20Sensor%22,%20%22name%22:%20%22Above%20Range%20Event%20Enabled%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Below Range Event Enabled
 
@@ -56,7 +62,9 @@ Whether the AboveRange event should fire when the sound level goes above the Top
 
 Whether the BelowRange event should fire when the sound level goes below the BottomOfRange.
 
-[[PropertyBlockGetterAndSetter('NXT Sound Sensor', 'Below Range Event Enabled')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Sound%20Sensor%22,%20%22name%22:%20%22Below%20Range%20Event%20Enabled%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Sound%20Sensor%22,%20%22name%22:%20%22Below%20Range%20Event%20Enabled%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Bluetooth Client
 
@@ -70,7 +78,9 @@ The BluetoothClient component that should be used for communication.
 
 The bottom of the range used for the BelowRange, WithinRange, and AboveRange events.
 
-[[PropertyBlockGetterAndSetter('NXT Sound Sensor', 'Bottom Of Range')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Sound%20Sensor%22,%20%22name%22:%20%22Bottom%20Of%20Range%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Sound%20Sensor%22,%20%22name%22:%20%22Bottom%20Of%20Range%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Sensor Port
 
@@ -84,7 +94,9 @@ The sensor port that the sensor is connected to.
 
 The top of the range used for the BelowRange, WithinRange, and AboveRange events.
 
-[[PropertyBlockGetterAndSetter('NXT Sound Sensor', 'Top Of Range')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Sound%20Sensor%22,%20%22name%22:%20%22Top%20Of%20Range%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Sound%20Sensor%22,%20%22name%22:%20%22Top%20Of%20Range%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Within Range Event Enabled
 
@@ -92,4 +104,5 @@ The top of the range used for the BelowRange, WithinRange, and AboveRange events
 
 Whether the WithinRange event should fire when the sound level goes between the BottomOfRange and the TopOfRange.
 
-[[PropertyBlockGetterAndSetter('NXT Sound Sensor', 'Within Range Event Enabled')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Sound%20Sensor%22,%20%22name%22:%20%22Within%20Range%20Event%20Enabled%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Sound%20Sensor%22,%20%22name%22:%20%22Within%20Range%20Event%20Enabled%22,%20%22getter%22:%20false%7D"></div>

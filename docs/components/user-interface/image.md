@@ -19,13 +19,15 @@ Component for displaying images. The picture to display, and other aspects of th
 
 Event to detect that a user has done a simple "Click".
 
-[[Event('Image', 'Click')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Image%22,%20%22name%22:%20%22Click%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Long Click
 
 Event to detect that a user has done a simple "Long Click".
 
-[[Event('Image', 'Long Click')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Image%22,%20%22name%22:%20%22Long%20Click%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Methods
 
@@ -33,7 +35,8 @@ Event to detect that a user has done a simple "Long Click".
 
 Clear the image tint color.
 
-[[Method('Image', 'Clear Image Tint Color', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Image%22,%20%22name%22:%20%22Clear%20Image%20Tint%20Color%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Properties
 
@@ -43,13 +46,17 @@ Clear the image tint color.
 
 Set the component clickable or not clickable.
 
-[[PropertyBlockGetterAndSetter('Image', 'Clickable')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Image%22,%20%22name%22:%20%22Clickable%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Image%22,%20%22name%22:%20%22Clickable%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Picture
 
 <span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
-[[PropertyBlockGetterAndSetter('Image', 'Picture')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Image%22,%20%22name%22:%20%22Picture%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Image%22,%20%22name%22:%20%22Picture%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Rotation Angle
 
@@ -57,7 +64,9 @@ Set the component clickable or not clickable.
 
 The angle at which the image picture appears rotated. This rotation does not appear on the designer screen, only on the device.
 
-[[PropertyBlockGetterAndSetter('Image', 'Rotation Angle')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Image%22,%20%22name%22:%20%22Rotation%20Angle%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Image%22,%20%22name%22:%20%22Rotation%20Angle%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Scale Picture To Fit
 
@@ -65,7 +74,8 @@ The angle at which the image picture appears rotated. This rotation does not app
 
 Specifies whether the image should be resized to match the size of the ImageView.
 
-[[PropertyBlockGetterAndSetter('Image', 'Scale Picture To Fit')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Image%22,%20%22name%22:%20%22Scale%20Picture%20To%20Fit%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Visible
 
@@ -73,7 +83,9 @@ Specifies whether the image should be resized to match the size of the ImageView
 
 Returns true iff the component is visible.
 
-[[PropertyBlockGetterAndSetter('Image', 'Visible')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Image%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Image%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Animation
 
@@ -81,7 +93,8 @@ Returns true iff the component is visible.
 
 This is a limited form of animation that can attach a small number of motion types to images. The allowable motions are ScrollRightSlow, ScrollRight, ScrollRightFast, ScrollLeftSlow, ScrollLeft, ScrollLeftFast, and Stop
 
-[[PropertyBlockGetterAndSetter('Image', 'Animation')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Image%22,%20%22name%22:%20%22Animation%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Column
 
@@ -95,7 +108,9 @@ Column property getter method.
 
 Specifies the component's vertical height, measured in pixels.
 
-[[PropertyBlockGetterAndSetter('Image', 'Height')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Image%22,%20%22name%22:%20%22Height%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Image%22,%20%22name%22:%20%22Height%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Height Percent
 
@@ -103,7 +118,8 @@ Specifies the component's vertical height, measured in pixels.
 
 Specifies the component's vertical height as a percentageof the height of its parent Component.
 
-[[PropertyBlockGetterAndSetter('Image', 'Height Percent')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Image%22,%20%22name%22:%20%22Height%20Percent%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Image Tint Color
 
@@ -111,7 +127,9 @@ Specifies the component's vertical height as a percentageof the height of its pa
 
 Change the image tint color. You can use too alpha values if you want with the 'make a list' block. Do not forget to use the 'make color' block together with the 'make a list' block.
 
-[[PropertyBlockGetterAndSetter('Image', 'Image Tint Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Image%22,%20%22name%22:%20%22Image%20Tint%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Image%22,%20%22name%22:%20%22Image%20Tint%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Row
 
@@ -125,7 +143,9 @@ Row property getter method.
 
 This property determines how the picture scales according to the Height or Width of the Image. Scale proportionally (0) preserves the picture aspect ratio. Scale to fit (1) matches the Image area, even if the aspect ratio changes.
 
-[[PropertyBlockGetterAndSetter('Image', 'Scaling')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Image%22,%20%22name%22:%20%22Scaling%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Image%22,%20%22name%22:%20%22Scaling%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Width
 
@@ -133,7 +153,9 @@ This property determines how the picture scales according to the Height or Width
 
 Specifies the component's horizontal width, measured in pixels.
 
-[[PropertyBlockGetterAndSetter('Image', 'Width')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Image%22,%20%22name%22:%20%22Width%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Image%22,%20%22name%22:%20%22Width%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Width Percent
 
@@ -141,4 +163,4 @@ Specifies the component's horizontal width, measured in pixels.
 
 Specifies the component's horizontal width as a percentageof the Width of its parent Component.
 
-[[PropertyBlockGetterAndSetter('Image', 'Width Percent')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Image%22,%20%22name%22:%20%22Width%20Percent%22,%20%22getter%22:%20false%7D"></div>

@@ -23,7 +23,8 @@ A non-visible component that retrieves information about other applications on t
 
 Returns the name from the given package name.
 
-[[Method('Package Utilities', 'App Name From', True, 'packageName')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Package%20Utilities%22,%20%22name%22:%20%22App%20Name%20From%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22package%20Name%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -36,7 +37,8 @@ Returns the name from the given package name.
 
 Try to show the application icon of the given package name. If the application cannot be found, "Package not found" is the output.
 
-[[Method('Package Utilities', 'Get Package Icon', True, 'packageName')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Package%20Utilities%22,%20%22name%22:%20%22Get%20Package%20Icon%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22package%20Name%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -49,7 +51,8 @@ Try to show the application icon of the given package name. If the application c
 
 Returns true if a package (app) is installed.
 
-[[Method('Package Utilities', 'Is Package Installed', True, 'packageName')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Package%20Utilities%22,%20%22name%22:%20%22Is%20Package%20Installed%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22package%20Name%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -62,7 +65,8 @@ Returns true if a package (app) is installed.
 
 This block will returns the version code of the package name. Returns '-1' if the package is not installed.
 
-[[Method('Package Utilities', 'Version Code From', True, 'packageName')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Package%20Utilities%22,%20%22name%22:%20%22Version%20Code%20From%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22package%20Name%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -75,7 +79,8 @@ This block will returns the version code of the package name. Returns '-1' if th
 
 This block will returns the version name of the package name. Returns 'Package not found' if the package is not installed.
 
-[[Method('Package Utilities', 'Version Name From', True, 'packageName')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Package%20Utilities%22,%20%22name%22:%20%22Version%20Name%20From%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22package%20Name%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -88,7 +93,8 @@ This block will returns the version name of the package name. Returns 'Package n
 
 Check whether a particular package has been granted a particular permission.
 
-[[Method('Package Utilities', 'Is Permission Granted', True, 'permissionName', 'packageName')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Package%20Utilities%22,%20%22name%22:%20%22Is%20Permission%20Granted%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22permission%20Name%22,%20%22package%20Name%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -104,7 +110,8 @@ Check whether a particular package has been granted a particular permission.
 
 Returns the name from the current running app.
 
-[[PropertyBlockGetter('Package Utilities', 'App Name')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Package%20Utilities%22,%20%22name%22:%20%22App%20Name%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Package Name
 
@@ -112,7 +119,8 @@ Returns the name from the current running app.
 
 Returns the package name from the current running app.
 
-[[PropertyBlockGetter('Package Utilities', 'Package Name')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Package%20Utilities%22,%20%22name%22:%20%22Package%20Name%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Version Code
 
@@ -120,7 +128,8 @@ Returns the package name from the current running app.
 
 This block will returns the version code of the current running app.
 
-[[PropertyBlockGetter('Package Utilities', 'Version Code')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Package%20Utilities%22,%20%22name%22:%20%22Version%20Code%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Version Name
 
@@ -128,4 +137,4 @@ This block will returns the version code of the current running app.
 
 This block will returns the version name of the current running app.
 
-[[PropertyBlockGetter('Package Utilities', 'Version Name')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Package%20Utilities%22,%20%22name%22:%20%22Version%20Name%22,%20%22getter%22:%20true%7D"></div>

@@ -25,7 +25,8 @@ __Note:__ This component will only work on Screen1 of any App Inventor app.
 Indicates that a new tag has been detected
 Currently this is only a plain text tag, as specified in themanifest. See Compiler.java.
 
-[[Event('Near Field', 'Tag Read', 'tagID', 'message')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Near%20Field%22,%20%22name%22:%20%22Tag%20Read%22,%20%22params%22:%20%5B%22tag%20ID%22,%20%22message%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -37,7 +38,8 @@ Currently this is only a plain text tag, as specified in themanifest. See Compil
 
 Event to detect when a tag was written.
 
-[[Event('Near Field', 'Tag Written')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Near%20Field%22,%20%22name%22:%20%22Tag%20Written%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Properties
 
@@ -47,7 +49,9 @@ Event to detect when a tag was written.
 
 Returns true if in read mode, false if in write mode.
 
-[[PropertyBlockGetterAndSetter('Near Field', 'Read Mode')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Near%20Field%22,%20%22name%22:%20%22Read%20Mode%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Near%20Field%22,%20%22name%22:%20%22Read%20Mode%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Last Message
 
@@ -55,7 +59,8 @@ Returns true if in read mode, false if in write mode.
 
 Returns the content of the most recently received tag.
 
-[[PropertyBlockGetter('Near Field', 'Last Message')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Near%20Field%22,%20%22name%22:%20%22Last%20Message%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Text To Write
 
@@ -63,10 +68,12 @@ Returns the content of the most recently received tag.
 
 Returns the content of the text that's going to be written to the tag.
 
-[[PropertyBlockGetterAndSetter('Near Field', 'Text To Write')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Near%20Field%22,%20%22name%22:%20%22Text%20To%20Write%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Near%20Field%22,%20%22name%22:%20%22Text%20To%20Write%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Write Type
 
 <span class="chip chip-number">Number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
-[[PropertyBlockGetter('Near Field', 'Write Type')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Near%20Field%22,%20%22name%22:%20%22Write%20Type%22,%20%22getter%22:%20true%7D"></div>

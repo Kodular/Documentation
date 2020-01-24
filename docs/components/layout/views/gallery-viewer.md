@@ -14,7 +14,8 @@ A visible component that groups other components in a center-locked, horizontall
 
 Triggered after an image is selected. It will also report selected image name
 
-[[Event('Gallery Viewer', 'After Picking', 'imageName')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Gallery%20Viewer%22,%20%22name%22:%20%22After%20Picking%22,%20%22params%22:%20%5B%22image%20Name%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -29,7 +30,9 @@ Triggered after an image is selected. It will also report selected image name
 
 Sets the spacing (in DIP) between images
 
-[[PropertyBlockGetterAndSetter('Gallery Viewer', 'Padding')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Gallery%20Viewer%22,%20%22name%22:%20%22Padding%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Gallery%20Viewer%22,%20%22name%22:%20%22Padding%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Thumbnail Height in DIP
 
@@ -37,7 +40,9 @@ Sets the spacing (in DIP) between images
 
 Sets the height of thumbnail in DIP (Density Independent Pixel)
 
-[[PropertyBlockGetterAndSetter('Gallery Viewer', 'Thumbnail Height in DIP')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Gallery%20Viewer%22,%20%22name%22:%20%22Thumbnail%20Height%20in%20DIP%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Gallery%20Viewer%22,%20%22name%22:%20%22Thumbnail%20Height%20in%20DIP%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Thumbnail Width in DIP
 
@@ -45,7 +50,9 @@ Sets the height of thumbnail in DIP (Density Independent Pixel)
 
 Sets the width of thumbnail in DIP (Density Independent Pixel)
 
-[[PropertyBlockGetterAndSetter('Gallery Viewer', 'Thumbnail Width in DIP')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Gallery%20Viewer%22,%20%22name%22:%20%22Thumbnail%20Width%20in%20DIP%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Gallery%20Viewer%22,%20%22name%22:%20%22Thumbnail%20Width%20in%20DIP%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Visible
 
@@ -53,7 +60,9 @@ Sets the width of thumbnail in DIP (Density Independent Pixel)
 
 Returns true iff the component is visible.
 
-[[PropertyBlockGetterAndSetter('Gallery Viewer', 'Visible')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Gallery%20Viewer%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Gallery%20Viewer%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Column
 
@@ -67,7 +76,9 @@ Column property getter method.
 
 Specifies the component's vertical height, measured in pixels.
 
-[[PropertyBlockGetterAndSetter('Gallery Viewer', 'Height')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Gallery%20Viewer%22,%20%22name%22:%20%22Height%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Gallery%20Viewer%22,%20%22name%22:%20%22Height%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Height Percent
 
@@ -75,7 +86,8 @@ Specifies the component's vertical height, measured in pixels.
 
 Specifies the component's vertical height as a percentageof the height of its parent Component.
 
-[[PropertyBlockGetterAndSetter('Gallery Viewer', 'Height Percent')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Gallery%20Viewer%22,%20%22name%22:%20%22Height%20Percent%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Images
 
@@ -83,7 +95,9 @@ Specifies the component's vertical height as a percentageof the height of its pa
 
 Adds a series of images to the gallery
 
-[[PropertyBlockGetterAndSetter('Gallery Viewer', 'Images')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Gallery%20Viewer%22,%20%22name%22:%20%22Images%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Gallery%20Viewer%22,%20%22name%22:%20%22Images%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Row
 
@@ -95,7 +109,9 @@ Row property getter method.
 
 <span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Blocks</span> 
 
-[[PropertyBlockGetterAndSetter('Gallery Viewer', 'Selection')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Gallery%20Viewer%22,%20%22name%22:%20%22Selection%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Gallery%20Viewer%22,%20%22name%22:%20%22Selection%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Width
 
@@ -103,7 +119,9 @@ Row property getter method.
 
 Specifies the component's horizontal width, measured in pixels.
 
-[[PropertyBlockGetterAndSetter('Gallery Viewer', 'Width')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Gallery%20Viewer%22,%20%22name%22:%20%22Width%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Gallery%20Viewer%22,%20%22name%22:%20%22Width%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Width Percent
 
@@ -111,4 +129,4 @@ Specifies the component's horizontal width, measured in pixels.
 
 Specifies the component's horizontal width as a percentageof the Width of its parent Component.
 
-[[PropertyBlockGetterAndSetter('Gallery Viewer', 'Width Percent')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Gallery%20Viewer%22,%20%22name%22:%20%22Width%20Percent%22,%20%22getter%22:%20false%7D"></div>

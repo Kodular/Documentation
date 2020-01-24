@@ -16,13 +16,15 @@ A component that provides a high-level interface to a touch sensor on a LEGO MIN
 
 Called when the touch sensor is pressed.
 
-[[Event('EV3 Touch Sensor', 'Pressed')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Touch%20Sensor%22,%20%22name%22:%20%22Pressed%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Released
 
 Called when the touch sensor is pressed.
 
-[[Event('EV3 Touch Sensor', 'Released')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Touch%20Sensor%22,%20%22name%22:%20%22Released%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Methods
 
@@ -32,7 +34,8 @@ Called when the touch sensor is pressed.
 
 Returns true if the touch sensor is pressed.
 
-[[Method('EV3 Touch Sensor', 'Is Pressed', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Touch%20Sensor%22,%20%22name%22:%20%22Is%20Pressed%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Properties
 
@@ -42,7 +45,9 @@ Returns true if the touch sensor is pressed.
 
 The BluetoothClient component that should be used for communication.
 
-[[PropertyBlockGetterAndSetter('EV3 Touch Sensor', 'Bluetooth Client')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Touch%20Sensor%22,%20%22name%22:%20%22Bluetooth%20Client%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Touch%20Sensor%22,%20%22name%22:%20%22Bluetooth%20Client%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Pressed Event Enabled
 
@@ -50,7 +55,9 @@ The BluetoothClient component that should be used for communication.
 
 Specifies whether the Pressed event should fire when the touch sensor ispressed.
 
-[[PropertyBlockGetterAndSetter('EV3 Touch Sensor', 'Pressed Event Enabled')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Touch%20Sensor%22,%20%22name%22:%20%22Pressed%20Event%20Enabled%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Touch%20Sensor%22,%20%22name%22:%20%22Pressed%20Event%20Enabled%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Released Event Enabled
 
@@ -58,7 +65,9 @@ Specifies whether the Pressed event should fire when the touch sensor ispressed.
 
 Whether the Released event should fire when the touch sensor is released.
 
-[[PropertyBlockGetterAndSetter('EV3 Touch Sensor', 'Released Event Enabled')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Touch%20Sensor%22,%20%22name%22:%20%22Released%20Event%20Enabled%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Touch%20Sensor%22,%20%22name%22:%20%22Released%20Event%20Enabled%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Sensor Port
 

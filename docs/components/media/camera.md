@@ -23,7 +23,8 @@ A component to take a picture using the device's camera. After the picture is ta
 
 Returns the taken picture.
 
-[[Event('Camera', 'After Picture', 'image')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Camera%22,%20%22name%22:%20%22After%20Picture%22,%20%22params%22:%20%5B%22image%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -38,19 +39,22 @@ Returns the taken picture.
 
 Returns true if your device has a flash.
 
-[[Method('Camera', 'Has Flash', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Camera%22,%20%22name%22:%20%22Has%20Flash%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Take Picture
 
 Take a picture with the camera of your device.
 
-[[Method('Camera', 'Take Picture', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Camera%22,%20%22name%22:%20%22Take%20Picture%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Toggle Light
 
 Toggle the flash of your device to on or off.
 
-[[Method('Camera', 'Toggle Light', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Camera%22,%20%22name%22:%20%22Toggle%20Light%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Properties
 
@@ -62,4 +66,5 @@ Toggle the flash of your device to on or off.
 
 Specifies whether the front-facing camera should be used (when available). If the device does not have a front-facing camera, this option will be ignored and the camera will open normally.
 
-[[PropertyBlockGetterAndSetter('Camera', 'Use Front')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Camera%22,%20%22name%22:%20%22Use%20Front%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Camera%22,%20%22name%22:%20%22Use%20Front%22,%20%22getter%22:%20false%7D"></div>

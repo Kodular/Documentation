@@ -24,13 +24,15 @@ You can also set the media source to a URL that points to a streaming video, but
 
 Indicates that the video has reached the end
 
-[[Event('Video Player', 'Completed')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Video%20Player%22,%20%22name%22:%20%22Completed%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### VideoPlayerError
 
 The VideoPlayerError event is no longer used. Please use the Screen.ErrorOccurred event instead.
 
-[[Event('Video Player', 'VideoPlayerError', 'message')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Video%20Player%22,%20%22name%22:%20%22VideoPlayerError%22,%20%22params%22:%20%5B%22message%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -45,19 +47,22 @@ The VideoPlayerError event is no longer used. Please use the Screen.ErrorOccurre
 
 Returns duration of the video in milliseconds.
 
-[[Method('Video Player', 'Get Duration', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Video%20Player%22,%20%22name%22:%20%22Get%20Duration%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Pause
 
 Pauses playback of the video. Playback can be resumed at the same location by calling the `` Start `` method.
 
-[[Method('Video Player', 'Pause', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Video%20Player%22,%20%22name%22:%20%22Pause%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Seek To
 
 Seeks to the requested time (specified in milliseconds) in the video. If the video is paused, the frame shown will not be updated by the seek. The player can jump only to key frames in the video, so seeking to times that differ by short intervals may not actually move to different frames.
 
-[[Method('Video Player', 'Seek To', False, 'ms')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Video%20Player%22,%20%22name%22:%20%22Seek%20To%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22ms%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -68,13 +73,15 @@ Seeks to the requested time (specified in milliseconds) in the video. If the vid
 
 Starts playback of the video.
 
-[[Method('Video Player', 'Start', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Video%20Player%22,%20%22name%22:%20%22Start%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Stop
 
 Resets to start of video and pauses it if video was playing.
 
-[[Method('Video Player', 'Stop', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Video%20Player%22,%20%22name%22:%20%22Stop%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Properties
 
@@ -84,7 +91,8 @@ Resets to start of video and pauses it if video was playing.
 
 If enabled the user will see the control buttons.
 
-[[PropertyBlockGetterAndSetter('Video Player', 'Show Controls')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Video%20Player%22,%20%22name%22:%20%22Show%20Controls%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Source
 
@@ -92,7 +100,8 @@ If enabled the user will see the control buttons.
 
 The "path" to the video. Usually, this will be the name of the video file, which should be added in the Designer.
 
-[[PropertyBlockGetterAndSetter('Video Player', 'Source')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Video%20Player%22,%20%22name%22:%20%22Source%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Visible
 
@@ -100,7 +109,9 @@ The "path" to the video. Usually, this will be the name of the video file, which
 
 Returns true iff the component is visible.
 
-[[PropertyBlockGetterAndSetter('Video Player', 'Visible')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Video%20Player%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Video%20Player%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Volume
 
@@ -108,7 +119,9 @@ Returns true iff the component is visible.
 
 Sets the volume to a number between 0 and 100. Values less than 0 will be treated as 0, and values greater than 100 will be treated as 100.
 
-[[PropertyBlockGetterAndSetter('Video Player', 'Volume')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Video%20Player%22,%20%22name%22:%20%22Volume%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Video%20Player%22,%20%22name%22:%20%22Volume%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Column
 
@@ -122,7 +135,8 @@ Column property getter method.
 
 Returns the current position of the source file that is playing.
 
-[[PropertyBlockGetter('Video Player', 'Current Position')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Video%20Player%22,%20%22name%22:%20%22Current%20Position%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Full Screen
 
@@ -130,7 +144,9 @@ Returns the current position of the source file that is playing.
 
 Returns whether the VideoPlayer's video is currently beingshown in fullscreen mode or not.
 
-[[PropertyBlockGetterAndSetter('Video Player', 'Full Screen')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Video%20Player%22,%20%22name%22:%20%22Full%20Screen%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Video%20Player%22,%20%22name%22:%20%22Full%20Screen%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Height
 
@@ -138,7 +154,9 @@ Returns whether the VideoPlayer's video is currently beingshown in fullscreen mo
 
 Specifies the component's vertical height, measured in pixels.
 
-[[PropertyBlockGetterAndSetter('Video Player', 'Height')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Video%20Player%22,%20%22name%22:%20%22Height%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Video%20Player%22,%20%22name%22:%20%22Height%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Height Percent
 
@@ -146,7 +164,8 @@ Specifies the component's vertical height, measured in pixels.
 
 Specifies the component's vertical height as a percentageof the height of its parent Component.
 
-[[PropertyBlockGetterAndSetter('Video Player', 'Height Percent')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Video%20Player%22,%20%22name%22:%20%22Height%20Percent%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Is Playing
 
@@ -154,7 +173,8 @@ Specifies the component's vertical height as a percentageof the height of its pa
 
 Reports whether the media is playing.
 
-[[PropertyBlockGetter('Video Player', 'Is Playing')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Video%20Player%22,%20%22name%22:%20%22Is%20Playing%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Row
 
@@ -168,7 +188,9 @@ Row property getter method.
 
 Specifies the component's horizontal width, measured in pixels.
 
-[[PropertyBlockGetterAndSetter('Video Player', 'Width')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Video%20Player%22,%20%22name%22:%20%22Width%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Video%20Player%22,%20%22name%22:%20%22Width%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Width Percent
 
@@ -176,4 +198,4 @@ Specifies the component's horizontal width, measured in pixels.
 
 Specifies the component's horizontal width as a percentageof the Width of its parent Component.
 
-[[PropertyBlockGetterAndSetter('Video Player', 'Width Percent')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Video%20Player%22,%20%22name%22:%20%22Width%20Percent%22,%20%22getter%22:%20false%7D"></div>

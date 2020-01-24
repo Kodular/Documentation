@@ -16,7 +16,8 @@ A component that provides a high-level interface to a LEGO MINDSTORMS NXT robot,
 
 Move the robot backward the given distance, with the specified percentage of maximum power, by powering both drive motors backward.
 
-[[Method('NXT Drive', 'Move Backward', False, 'power', 'distance')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Drive%22,%20%22name%22:%20%22Move%20Backward%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22power%22,%20%22distance%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -28,7 +29,8 @@ Move the robot backward the given distance, with the specified percentage of max
 
 Move the robot backward indefinitely, with the specified percentage of maximum power, by powering both drive motors backward.
 
-[[Method('NXT Drive', 'Move Backward Indefinitely', False, 'power')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Drive%22,%20%22name%22:%20%22Move%20Backward%20Indefinitely%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22power%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -39,7 +41,8 @@ Move the robot backward indefinitely, with the specified percentage of maximum p
 
 Move the robot forward the given distance, with the specified percentage of maximum power, by powering both drive motors forward.
 
-[[Method('NXT Drive', 'Move Forward', False, 'power', 'distance')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Drive%22,%20%22name%22:%20%22Move%20Forward%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22power%22,%20%22distance%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -51,7 +54,8 @@ Move the robot forward the given distance, with the specified percentage of maxi
 
 Move the robot forward indefinitely, with the specified percentage of maximum power, by powering both drive motors forward.
 
-[[Method('NXT Drive', 'Move Forward Indefinitely', False, 'power')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Drive%22,%20%22name%22:%20%22Move%20Forward%20Indefinitely%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22power%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -62,13 +66,15 @@ Move the robot forward indefinitely, with the specified percentage of maximum po
 
 Stop the drive motors of the robot.
 
-[[Method('NXT Drive', 'Stop', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Drive%22,%20%22name%22:%20%22Stop%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Turn Clockwise Indefinitely
 
 Turn the robot clockwise indefinitely, with the specified percentage of maximum power, by powering the left drive motor forward and the right drive motor backward.
 
-[[Method('NXT Drive', 'Turn Clockwise Indefinitely', False, 'power')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Drive%22,%20%22name%22:%20%22Turn%20Clockwise%20Indefinitely%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22power%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -79,7 +85,8 @@ Turn the robot clockwise indefinitely, with the specified percentage of maximum 
 
 Turn the robot counterclockwise indefinitely, with the specified percentage of maximum power, by powering the right drive motor forward and the left drive motor backward.
 
-[[Method('NXT Drive', 'Turn Counter Clockwise Indefinitely', False, 'power')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Drive%22,%20%22name%22:%20%22Turn%20Counter%20Clockwise%20Indefinitely%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22power%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -106,7 +113,9 @@ The motor ports that are used for driving: the left wheel's motor port followed 
 
 Whether to stop the drive motors before disconnecting.
 
-[[PropertyBlockGetterAndSetter('NXT Drive', 'Stop Before Disconnect')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Drive%22,%20%22name%22:%20%22Stop%20Before%20Disconnect%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Drive%22,%20%22name%22:%20%22Stop%20Before%20Disconnect%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Wheel Diameter
 

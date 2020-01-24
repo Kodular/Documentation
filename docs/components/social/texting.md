@@ -47,7 +47,8 @@ Another way for an app to specify a phone number would be to include a `` PhoneN
 
 Event that's raised when a text message is received by the phone.
 
-[[Event('Texting', 'Message Received', 'number', 'messageText')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Texting%22,%20%22name%22:%20%22Message%20Received%22,%20%22params%22:%20%5B%22number%22,%20%22message%20Text%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -61,7 +62,8 @@ Event that's raised when a text message is received by the phone.
 
 Send a text message
 
-[[Method('Texting', 'Send Message', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Texting%22,%20%22name%22:%20%22Send%20Message%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Properties
 
@@ -71,7 +73,9 @@ Send a text message
 
 If true, then SendMessage will attempt to send messages over Wifi using Google Voice. This requires that the Google Voice app must be installed and set up on the phone or tablet, with a Google Voice account. If GoogleVoiceEnabled is false, the device must have phone and texting service in order to send or receive messages with this component.
 
-[[PropertyBlockGetterAndSetter('Texting', 'Google Voice Enabled')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Texting%22,%20%22name%22:%20%22Google%20Voice%20Enabled%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Texting%22,%20%22name%22:%20%22Google%20Voice%20Enabled%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Message
 
@@ -79,7 +83,9 @@ If true, then SendMessage will attempt to send messages over Wifi using Google V
 
 The message that will be sent when the SendMessage method is called.
 
-[[PropertyBlockGetterAndSetter('Texting', 'Message')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Texting%22,%20%22name%22:%20%22Message%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Texting%22,%20%22name%22:%20%22Message%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Phone Number
 
@@ -87,7 +93,9 @@ The message that will be sent when the SendMessage method is called.
 
 Sets the phone number to send the text message to when the SendMessage function is called.
 
-[[PropertyBlockGetterAndSetter('Texting', 'Phone Number')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Texting%22,%20%22name%22:%20%22Phone%20Number%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Texting%22,%20%22name%22:%20%22Phone%20Number%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Receiving Enabled
 
@@ -95,4 +103,5 @@ Sets the phone number to send the text message to when the SendMessage function 
 
 If set to 1 (OFF) no messages will be received. If set to 2 (FOREGROUND) or3 (ALWAYS) the component will respond to messages if it is running. If the app is not running then the message will be discarded if set to 2 (FOREGROUND). If set to 3 (ALWAYS) and the app is not running the phone will show a notification. Selecting the notification will bring up the app and signal the MessageReceived event. Messages received when the app is dormant will be queued, and so several MessageReceived events might appear when the app awakens. As an app developer, it would be a good idea to give your users control over this property, so they can make their phones ignore text messages when your app is installed.
 
-[[PropertyBlockGetterAndSetter('Texting', 'Receiving Enabled')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Texting%22,%20%22name%22:%20%22Receiving%20Enabled%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Texting%22,%20%22name%22:%20%22Receiving%20Enabled%22,%20%22getter%22:%20false%7D"></div>

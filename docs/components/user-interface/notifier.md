@@ -24,7 +24,8 @@ The Notifier component displays alert dialogs, messages, and temporary alerts, a
 
 Event to detect that a user have done his selection.
 
-[[Event('Notifier', 'After Choosing', 'choice')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22After%20Choosing%22,%20%22params%22:%20%5B%22choice%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -35,7 +36,8 @@ Event to detect that a user have done his selection.
 
 Event to detect that a user clicked on a button from the "Show Custom Message Dialog". Use the "title" response to know which dialog the user has clicked.
 
-[[Event('Notifier', 'After Message Dialog', 'title')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22After%20Message%20Dialog%22,%20%22params%22:%20%5B%22title%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -46,7 +48,8 @@ Event to detect that a user clicked on a button from the "Show Custom Message Di
 
 Event to detect that a user have done his text input in the "Show Text Dialog".
 
-[[Event('Notifier', 'After Text Input', 'response')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22After%20Text%20Input%22,%20%22params%22:%20%5B%22response%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -57,7 +60,8 @@ Event to detect that a user have done his text input in the "Show Text Dialog".
 
 Invoked after user has finished selecting items from the Checkbox picker. Returns a list of indices of the selected items in the order of selection. Returns a list having -1 if cancel was pressed.
 
-[[Event('Notifier', 'Checkbox Selection', 'id', 'selection')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22Checkbox%20Selection%22,%20%22params%22:%20%5B%22id%22,%20%22selection%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -69,7 +73,8 @@ Invoked after user has finished selecting items from the Checkbox picker. Return
 
 Event to detect that the user has pressed a button from the custom dialog. It returns then the text of the button that was pressed.
 
-[[Event('Notifier', 'Custom Dialog Selection', 'selection')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22Custom%20Dialog%20Selection%22,%20%22params%22:%20%5B%22selection%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -80,7 +85,8 @@ Event to detect that the user has pressed a button from the custom dialog. It re
 
 Event to detect that a user have done his selection in the CustomChooseDialog.
 
-[[Event('Notifier', 'Got Custom Choose Dialog', 'id', 'choice')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22Got%20Custom%20Choose%20Dialog%22,%20%22params%22:%20%5B%22id%22,%20%22choice%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -92,7 +98,8 @@ Event to detect that a user have done his selection in the CustomChooseDialog.
 
 Event to detect that a user have done his text input in the "Show Text Input Dialog".
 
-[[Event('Notifier', 'Got Text Input From Dialog', 'id', 'response')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22Got%20Text%20Input%20From%20Dialog%22,%20%22params%22:%20%5B%22id%22,%20%22response%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -104,7 +111,8 @@ Event to detect that a user have done his text input in the "Show Text Input Dia
 
 Event to detect that the user has watched the image dialog.
 
-[[Event('Notifier', 'Image Dialog Closed', 'id')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22Image%20Dialog%20Closed%22,%20%22params%22:%20%5B%22id%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -115,7 +123,8 @@ Event to detect that the user has watched the image dialog.
 
 Event to detect that a user have closed the Lightbox.
 
-[[Event('Notifier', 'Lightbox Closed', 'id')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22Lightbox%20Closed%22,%20%22params%22:%20%5B%22id%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -126,13 +135,15 @@ Event to detect that a user have closed the Lightbox.
 
 Event to detect that the linear progress dialog was dismissed.
 
-[[Event('Notifier', 'Linear Progress Dismissed')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22Linear%20Progress%20Dismissed%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### List Picker Selection
 
 Event to get the picked list selection from the List Picker.
 
-[[Event('Notifier', 'List Picker Selection', 'id', 'item')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22List%20Picker%20Selection%22,%20%22params%22:%20%5B%22id%22,%20%22item%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -144,7 +155,8 @@ Event to get the picked list selection from the List Picker.
 
 Event to detect that the user has selected a number from the number picker dialog.
 
-[[Event('Notifier', 'Number Picker Selection', 'id', 'selection')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22Number%20Picker%20Selection%22,%20%22params%22:%20%5B%22id%22,%20%22selection%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -156,7 +168,8 @@ Event to detect that the user has selected a number from the number picker dialo
 
 Event invoked when user has selected an option from the radio button picker. Outputs the index of the selected item. Returns -1 if cancel was pressed.
 
-[[Event('Notifier', 'Radio Selection', 'id', 'listIndex')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22Radio%20Selection%22,%20%22params%22:%20%5B%22id%22,%20%22list%20Index%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -168,7 +181,8 @@ Event invoked when user has selected an option from the radio button picker. Out
 
 Event to detect that the user has selected a word from the word picker dialog.
 
-[[Event('Notifier', 'Word Picker Selection', 'id', 'selection')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22Word%20Picker%20Selection%22,%20%22params%22:%20%5B%22id%22,%20%22selection%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -182,7 +196,8 @@ Event to detect that the user has selected a word from the word picker dialog.
 
 Show whatever you want in a dialog. You can use as example arrangements, or images or whatever you want. Your chosen layout will be then removed from the screen and only visible in custom dialog. You can use the "Light Theme" property to have a light or dark background. Or you enable "Use Background Color" property to use the background color property as background dialog color. Please make sure the layout you want to use is visible.
 
-[[Method('Notifier', 'Create Custom Dialog', False, 'component', 'title', 'buttonText', 'cancelButtonText', 'cancelable')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22Create%20Custom%20Dialog%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22component%22,%20%22title%22,%20%22button%20Text%22,%20%22cancel%20Button%20Text%22,%20%22cancelable%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -197,7 +212,8 @@ Show whatever you want in a dialog. You can use as example arrangements, or imag
 
 Shows a dialog box with two buttons, from which the user can choose. If cancelable is true there will be an additional CANCEL button. Pressing a button will raise the GotCustomChooseDialog event. The "choice" parameter to GotCustomChooseDialog will be the text on the button that was pressed, or "Cancel" if the CANCEL button was pressed. You can use the "Light Theme" property to have a light or dark background. Or you enable "Use Background Color" property to use the background color property as background dialog color. Use the 'Show Custom Dialog' block to the show the created custom dialog. The added component must be visible on screen. After you used this block here it will be removed automatic from screen and will be only visible again after you have shown the custom dialog.
 
-[[Method('Notifier', 'Custom Choose Dialog', False, 'id', 'message', 'title', 'button1Text', 'button2Text', 'cancelButtonText', 'icon', 'cancelable', 'fullscreen')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22Custom%20Choose%20Dialog%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22id%22,%20%22message%22,%20%22title%22,%20%22button1%20Text%22,%20%22button2%20Text%22,%20%22cancel%20Button%20Text%22,%20%22icon%22,%20%22cancelable%22,%20%22fullscreen%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -216,7 +232,8 @@ Shows a dialog box with two buttons, from which the user can choose. If cancelab
 
 Show a Message Dialog. You can use the "Light Theme" property to have a light or dark background. Or you enable "Use Background Color" property to use the background color property as background dialog color.
 
-[[Method('Notifier', 'Custom Message Dialog', False, 'message', 'title', 'buttonText', 'icon', 'fullscreen')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22Custom%20Message%20Dialog%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22message%22,%20%22title%22,%20%22button%20Text%22,%20%22icon%22,%20%22fullscreen%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -231,31 +248,36 @@ Show a Message Dialog. You can use the "Light Theme" property to have a light or
 
 Use this block to dismiss the created custom dialog.the custom dialog.
 
-[[Method('Notifier', 'Dismiss Custom Dialog', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22Dismiss%20Custom%20Dialog%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Dismiss Linear Progress
 
 Dismiss a previously displayed LinearProgress box
 
-[[Method('Notifier', 'Dismiss Linear Progress', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22Dismiss%20Linear%20Progress%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Dismiss Progress Dialog
 
 Dismiss a previously displayed ProgressDialog box
 
-[[Method('Notifier', 'Dismiss Progress Dialog', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22Dismiss%20Progress%20Dialog%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Dismiss Spinning Progress
 
 Dismiss a previously displayed SpinningProgress box
 
-[[Method('Notifier', 'Dismiss Spinning Progress', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22Dismiss%20Spinning%20Progress%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Log Error
 
 Writes an error message to the Android system log. See the Google Android documentation for how to access the log.
 
-[[Method('Notifier', 'Log Error', False, 'message')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22Log%20Error%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22message%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -266,7 +288,8 @@ Writes an error message to the Android system log. See the Google Android docume
 
 Writes an information message to the Android log.
 
-[[Method('Notifier', 'Log Info', False, 'message')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22Log%20Info%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22message%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -277,7 +300,8 @@ Writes an information message to the Android log.
 
 Writes a warning message to the Android log. See the Google Android documentation for how to access the log.
 
-[[Method('Notifier', 'Log Warning', False, 'message')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22Log%20Warning%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22message%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -288,7 +312,8 @@ Writes a warning message to the Android log. See the Google Android documentatio
 
 Show a alert "toast" message.
 
-[[Method('Notifier', 'Show Alert', False, 'notice')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22Show%20Alert%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22notice%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -299,7 +324,8 @@ Show a alert "toast" message.
 
 Shows a picker dialog with a list of options of whichmore than one can be chosen. Invokes the 'AfterMultiSelection' event. You can use the "Light Theme" property to have a light or dark background. Or you enable "Use Background Color" property to use the background color property as background dialog color.
 
-[[Method('Notifier', 'Show Checkbox List Dialog', False, 'id', 'title', 'options', 'buttonText', 'cancelButtonText', 'cancelable', 'icon', 'fullscreen')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22Show%20Checkbox%20List%20Dialog%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22id%22,%20%22title%22,%20%22options%22,%20%22button%20Text%22,%20%22cancel%20Button%20Text%22,%20%22cancelable%22,%20%22icon%22,%20%22fullscreen%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -317,7 +343,8 @@ Shows a picker dialog with a list of options of whichmore than one can be chosen
 
 Shows a dialog box with two buttons, from which the user can choose. If cancelable is true there will be an additional CANCEL button. Pressing a button will raise the AfterChoosing event. The "choice" parameter to AfterChoosing will be the text on the button that was pressed, or "Cancel" if the CANCEL button was pressed.
 
-[[Method('Notifier', 'Show Choose Dialog', False, 'message', 'title', 'button1Text', 'button2Text', 'cancelable')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22Show%20Choose%20Dialog%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22message%22,%20%22title%22,%20%22button1%20Text%22,%20%22button2%20Text%22,%20%22cancelable%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -332,13 +359,15 @@ Shows a dialog box with two buttons, from which the user can choose. If cancelab
 
 Show the custom dialog. Dont forget that you have first to create the custom dialog.
 
-[[Method('Notifier', 'Show Custom Dialog', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22Show%20Custom%20Dialog%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Show Image Dialog
 
 Show a image dialog. Animation types like "*.gif" are not supported. You can use the "Light Theme" property to have a light or dark background. Or you enable "Use Background Color" property to use the background color property as background dialog color.
 
-[[Method('Notifier', 'Show Image Dialog', False, 'id', 'title', 'image', 'buttonText')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22Show%20Image%20Dialog%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22id%22,%20%22title%22,%20%22image%22,%20%22button%20Text%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -352,7 +381,8 @@ Show a image dialog. Animation types like "*.gif" are not supported. You can use
 
 Displays a lightbox. You can use images like "*.png" or "*,gif" from assets folder or from a web url.
 
-[[Method('Notifier', 'Show Lightbox', False, 'id', 'image')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22Show%20Lightbox%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22id%22,%20%22image%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -364,7 +394,8 @@ Displays a lightbox. You can use images like "*.png" or "*,gif" from assets fold
 
 Shows a progress dialog with a horizontal progress bar. Can be dismissed by user if 'cancelable' is set to true. If indeterminate is true, maxValue and the 'UpdateProgress' method will have no effect. You can use the "Light Theme" property to have a light or dark background. Or you enable "Use Background Color" property to use the background color property as background dialog color.
 
-[[Method('Notifier', 'Show Linear Progress', False, 'message', 'title', 'cancelable', 'indeterminate', 'maxValue', 'icon')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22Show%20Linear%20Progress%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22message%22,%20%22title%22,%20%22cancelable%22,%20%22indeterminate%22,%20%22max%20Value%22,%20%22icon%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -380,7 +411,8 @@ Shows a progress dialog with a horizontal progress bar. Can be dismissed by user
 
 Shows a list picker dialog. You can use the "Light Theme" property to have a light or dark background. Or you enable "Use Background Color" property to use the background color property as background dialog color.
 
-[[Method('Notifier', 'Show List Picker', False, 'id', 'title', 'itemsList', 'icon', 'fullscreen')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22Show%20List%20Picker%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22id%22,%20%22title%22,%20%22items%20List%22,%20%22icon%22,%20%22fullscreen%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -395,7 +427,8 @@ Shows a list picker dialog. You can use the "Light Theme" property to have a lig
 
 Show a Message Dialog.
 
-[[Method('Notifier', 'Show Message Dialog', False, 'message', 'title', 'buttonText')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22Show%20Message%20Dialog%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22message%22,%20%22title%22,%20%22button%20Text%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -408,7 +441,8 @@ Show a Message Dialog.
 
 Shows a number picker dialog that enables the user to select a number from a predefined range. You can use the "Use Background Color" property to use the background color property as background dialog color.
 
-[[Method('Notifier', 'Show Number Picker', False, 'id', 'title', 'buttonText', 'cancelButtonText', 'minValue', 'maxValue', 'startValue')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22Show%20Number%20Picker%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22id%22,%20%22title%22,%20%22button%20Text%22,%20%22cancel%20Button%20Text%22,%20%22min%20Value%22,%20%22max%20Value%22,%20%22start%20Value%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -425,7 +459,8 @@ Shows a number picker dialog that enables the user to select a number from a pre
 
 Shows a dialog box where the user can enter password (input is masked), after which the AfterTextInput event will be raised. If cancelable is true there will be an additional CANCEL button. Entering password will raise the AfterTextInput event. The "response" parameter to AfterTextInput will be the entered password, or "Cancel" if CANCEL button was pressed.
 
-[[Method('Notifier', 'Show Password Dialog', False, 'message', 'title', 'cancelable')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22Show%20Password%20Dialog%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22message%22,%20%22title%22,%20%22cancelable%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -438,7 +473,8 @@ Shows a dialog box where the user can enter password (input is masked), after wh
 
 Shows a dialog box with an optional title and message (use empty strings if they are not wanted). This dialog box contains a spinning artifact to indicate that the program is working. It cannot be canceled by the user but must be dismissed by the App Inventor Program by using the DismissProgressDialog block.
 
-[[Method('Notifier', 'Show Progress Dialog', False, 'message', 'title')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22Show%20Progress%20Dialog%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22message%22,%20%22title%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -450,7 +486,8 @@ Shows a dialog box with an optional title and message (use empty strings if they
 
 Shows a radio list dialog with a list of options of which only one can be chosen. You can use the "Light Theme" property to have a light or dark background. Or you enable "Use Background Color" property to use the background color property as background dialog color.
 
-[[Method('Notifier', 'Show Radio List Dialog', False, 'id', 'title', 'options', 'chooseButtonText', 'cancelable', 'cancelButtonText', 'selection', 'icon', 'fullscreen')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22Show%20Radio%20List%20Dialog%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22id%22,%20%22title%22,%20%22options%22,%20%22choose%20Button%20Text%22,%20%22cancelable%22,%20%22cancel%20Button%20Text%22,%20%22selection%22,%20%22icon%22,%20%22fullscreen%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -469,7 +506,8 @@ Shows a radio list dialog with a list of options of which only one can be chosen
 
 Shows a spinning progress dialog which can be dismissed by the user if 'cancelable' is set to true. You can use the "Light Theme" property to have a light or dark background. Or you enable "Use Background Color" property to use the background color property as background dialog color.
 
-[[Method('Notifier', 'Show Spinning Progress', False, 'message', 'title', 'cancelable', 'icon')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22Show%20Spinning%20Progress%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22message%22,%20%22title%22,%20%22cancelable%22,%20%22icon%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -483,7 +521,8 @@ Shows a spinning progress dialog which can be dismissed by the user if 'cancelab
 
 Shows a dialog box where the user can enter text, after which the AfterTextInput event will be raised. If cancelable is true there will be an additional CANCEL button. Entering text will raise the AfterTextInput event. The "response" parameter to AfterTextInput will be the text that was entered, or "Cancel" if the CANCEL button was pressed.
 
-[[Method('Notifier', 'Show Text Dialog', False, 'message', 'title', 'cancelable')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22Show%20Text%20Dialog%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22message%22,%20%22title%22,%20%22cancelable%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -496,7 +535,8 @@ Shows a dialog box where the user can enter text, after which the AfterTextInput
 
 Show a text input dialog. Possible input types are: "1= Normal text", "2= Password text", "3= Person name", "4= Email adress", "5|6= Number", "7= Password number" or "8= datetime". You can use the "Light Theme" property to have a light or dark background. Or you enable "Use Background Color" property to use the background color property as background dialog color.
 
-[[Method('Notifier', 'Show Text Input Dialog', False, 'id', 'title', 'defaultText', 'icon', 'hint', 'fullscreen', 'cancelable', 'inputType', 'buttonText', 'cancelButtonText', 'textColor', 'hintColor')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22Show%20Text%20Input%20Dialog%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22id%22,%20%22title%22,%20%22default%20Text%22,%20%22icon%22,%20%22hint%22,%20%22fullscreen%22,%20%22cancelable%22,%20%22input%20Type%22,%20%22button%20Text%22,%20%22cancel%20Button%20Text%22,%20%22text%20Color%22,%20%22hint%20Color%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -518,7 +558,8 @@ Show a text input dialog. Possible input types are: "1= Normal text", "2= Passwo
 
 Shows a word picker dialog that enables the user to select a number from a predefined word. You can use the "Use Background Color" property to use the background color property as background dialog color.
 
-[[Method('Notifier', 'Show Word Picker', False, 'id', 'title', 'buttonText', 'cancelButtonText', 'itemsList')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22Show%20Word%20Picker%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22id%22,%20%22title%22,%20%22button%20Text%22,%20%22cancel%20Button%20Text%22,%20%22items%20List%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -533,7 +574,8 @@ Shows a word picker dialog that enables the user to select a number from a prede
 
 Change the current value of the linear progress dialog. Has no effect if "indeterminate" is set to true.
 
-[[Method('Notifier', 'Update Progress', False, 'value')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22Update%20Progress%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22value%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -548,7 +590,9 @@ Change the current value of the linear progress dialog. Has no effect if "indete
 
 Specifies the background color for alerts (not dialogs).
 
-[[PropertyBlockGetterAndSetter('Notifier', 'Background Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22Background%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22Background%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Dim Amount
 
@@ -558,7 +602,9 @@ Specifies the background color for alerts (not dialogs).
 
 Set the amount of dim behind the dialog window. Use '0.0' for no dim and '1.0' for full dim.
 
-[[PropertyBlockGetterAndSetter('Notifier', 'Dim Amount')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22Dim%20Amount%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22Dim%20Amount%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Light Theme
 
@@ -566,7 +612,9 @@ Set the amount of dim behind the dialog window. Use '0.0' for no dim and '1.0' f
 
 Gets the current theme
 
-[[PropertyBlockGetterAndSetter('Notifier', 'Light Theme')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22Light%20Theme%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22Light%20Theme%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Linkify
 
@@ -574,7 +622,9 @@ Gets the current theme
 
 If set to true will attempt to make text clickable where possible; e.g. hyperlinks, phone numbers. Can not be used for Progress Dialogs.
 
-[[PropertyBlockGetterAndSetter('Notifier', 'Linkify')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22Linkify%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22Linkify%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Notifier Length
 
@@ -588,7 +638,9 @@ specifies the length of time that the alert is shown -- either "short" or "long"
 
 Specifies the text color for alerts or for dialogs message.
 
-[[PropertyBlockGetterAndSetter('Notifier', 'Text Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22Text%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22Text%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Text Font Typeface
 
@@ -602,7 +654,8 @@ Specifies the text color for alerts or for dialogs message.
 
 Set a custom font.
 
-[[PropertyBlockGetterAndSetter('Notifier', 'Text Font Typeface Import')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22Text%20Font%20Typeface%20Import%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Title Color
 
@@ -610,7 +663,9 @@ Set a custom font.
 
 Specifies the title text color for dialogs.
 
-[[PropertyBlockGetterAndSetter('Notifier', 'Title Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22Title%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22Title%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Title Font Typeface
 
@@ -624,7 +679,8 @@ Specifies the title text color for dialogs.
 
 Set a custom font.
 
-[[PropertyBlockGetterAndSetter('Notifier', 'Title Font Typeface Import')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22Title%20Font%20Typeface%20Import%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Use Background Color
 
@@ -632,4 +688,5 @@ Set a custom font.
 
 If enabled the dialog will use the color from the "Background Color"-option. Else it will use the theme (light or dark).
 
-[[PropertyBlockGetterAndSetter('Notifier', 'Use Background Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22Use%20Background%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22Use%20Background%20Color%22,%20%22getter%22:%20false%7D"></div>

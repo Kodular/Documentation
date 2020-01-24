@@ -21,7 +21,8 @@ A non-visible component that shows LeadBolt ads as rewarded videos and network a
 
 Event triggered when ads are loaded
 
-[[Event('LeadBolt', 'Ad Loaded', 'location')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22LeadBolt%22,%20%22name%22:%20%22Ad%20Loaded%22,%20%22params%22:%20%5B%22location%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -32,7 +33,8 @@ Event triggered when ads are loaded
 
 Event triggered when ads are clicked
 
-[[Event('LeadBolt', 'Ad Clicked', 'location')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22LeadBolt%22,%20%22name%22:%20%22Ad%20Clicked%22,%20%22params%22:%20%5B%22location%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -43,7 +45,8 @@ Event triggered when ads are clicked
 
 Event triggered when ads are closed
 
-[[Event('LeadBolt', 'Ad Closed', 'location', 'reward')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22LeadBolt%22,%20%22name%22:%20%22Ad%20Closed%22,%20%22params%22:%20%5B%22location%22,%20%22reward%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -55,7 +58,8 @@ Event triggered when ads are closed
 
 Event triggered when ads are failed to load
 
-[[Event('LeadBolt', 'Ad Failed To Load', 'location', 'error', 'isCache')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22LeadBolt%22,%20%22name%22:%20%22Ad%20Failed%20To%20Load%22,%20%22params%22:%20%5B%22location%22,%20%22error%22,%20%22is%20Cache%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -68,7 +72,8 @@ Event triggered when ads are failed to load
 
 Event triggered when ads are shown
 
-[[Event('LeadBolt', 'Ad Shown', 'location')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22LeadBolt%22,%20%22name%22:%20%22Ad%20Shown%22,%20%22params%22:%20%5B%22location%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -83,7 +88,8 @@ Event triggered when ads are shown
 
 Use this block after loading an ad to check whether it's ready to show.
 
-[[Method('LeadBolt', 'Is Network Ad Ready', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22LeadBolt%22,%20%22name%22:%20%22Is%20Network%20Ad%20Ready%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Is Rewarded Ad Ready
 
@@ -91,31 +97,36 @@ Use this block after loading an ad to check whether it's ready to show.
 
 Use this block after loading an ad to check whether it's ready to show.
 
-[[Method('LeadBolt', 'Is Rewarded Ad Ready', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22LeadBolt%22,%20%22name%22:%20%22Is%20Rewarded%20Ad%20Ready%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Load Network Ad
 
 Use this block to load a Network ad.
 
-[[Method('LeadBolt', 'Load Network Ad', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22LeadBolt%22,%20%22name%22:%20%22Load%20Network%20Ad%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Load Rewarded Ad
 
 Use this block to load a Rewarded Video ad.
 
-[[Method('LeadBolt', 'Load Rewarded Ad', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22LeadBolt%22,%20%22name%22:%20%22Load%20Rewarded%20Ad%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Show Network Ad
 
 Use this block after LoadNetworkAd to show the loaded ad.
 
-[[Method('LeadBolt', 'Show Network Ad', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22LeadBolt%22,%20%22name%22:%20%22Show%20Network%20Ad%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Show Rewarded Ad
 
 Use this block after LoadRewardedAd to show the loaded ad.
 
-[[Method('LeadBolt', 'Show Rewarded Ad', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22LeadBolt%22,%20%22name%22:%20%22Show%20Rewarded%20Ad%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Properties
 
@@ -129,7 +140,8 @@ Use this block after LoadRewardedAd to show the loaded ad.
 
 Sets the ad network used to take the commission.
 
-[[PropertyBlockGetterAndSetter('LeadBolt', 'Interstitial Commission')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22LeadBolt%22,%20%22name%22:%20%22Interstitial%20Commission%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Rewarded Video Commission
 
@@ -137,4 +149,4 @@ Sets the ad network used to take the commission.
 
 Sets the ad network used to take the commission.
 
-[[PropertyBlockGetterAndSetter('LeadBolt', 'Rewarded Video Commission')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22LeadBolt%22,%20%22name%22:%20%22Rewarded%20Video%20Commission%22,%20%22getter%22:%20false%7D"></div>

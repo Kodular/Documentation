@@ -22,19 +22,22 @@ AdAmazon component allows you to monetize your app. You must have a valid publis
 
 Event to detect that a ad was dismissed.
 
-[[Event('Amazon Banner', 'Ad Dismissed')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Amazon%20Banner%22,%20%22name%22:%20%22Ad%20Dismissed%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Ad Expanded
 
 Event to detect that a ad was expanded.
 
-[[Event('Amazon Banner', 'Ad Expanded')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Amazon%20Banner%22,%20%22name%22:%20%22Ad%20Expanded%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Ad Failed To Load
 
 Event to detect that the try to load a ad was not successful.
 
-[[Event('Amazon Banner', 'Ad Failed To Load', 'errCode', 'errorMessage')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Amazon%20Banner%22,%20%22name%22:%20%22Ad%20Failed%20To%20Load%22,%20%22params%22:%20%5B%22error%20Code%22,%20%22error%20Message%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -46,7 +49,8 @@ Event to detect that the try to load a ad was not successful.
 
 Event to detect that a ad was loaded.
 
-[[Event('Amazon Banner', 'Ad Loaded')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Amazon%20Banner%22,%20%22name%22:%20%22Ad%20Loaded%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Properties
 
@@ -56,7 +60,9 @@ Event to detect that a ad was loaded.
 
 Sets the Amazon Ad Publisher Id and refreshes the ad.
 
-[[PropertyBlockGetterAndSetter('Amazon Banner', 'Publisher ID')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Amazon%20Banner%22,%20%22name%22:%20%22Publisher%20ID%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Amazon%20Banner%22,%20%22name%22:%20%22Publisher%20ID%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Refresh Ad
 
@@ -64,7 +70,8 @@ Sets the Amazon Ad Publisher Id and refreshes the ad.
 
 Refreshes the ad.
 
-[[PropertyBlockGetterAndSetter('Amazon Banner', 'Refresh Ad')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Amazon%20Banner%22,%20%22name%22:%20%22Refresh%20Ad%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Test Mode
 
@@ -72,7 +79,9 @@ Refreshes the ad.
 
 Turns the debugging on / off based on enabled parameter.
 
-[[PropertyBlockGetterAndSetter('Amazon Banner', 'Test Mode')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Amazon%20Banner%22,%20%22name%22:%20%22Test%20Mode%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Amazon%20Banner%22,%20%22name%22:%20%22Test%20Mode%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Visible
 
@@ -80,7 +89,9 @@ Turns the debugging on / off based on enabled parameter.
 
 Returns true iff the component is visible.
 
-[[PropertyBlockGetterAndSetter('Amazon Banner', 'Visible')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Amazon%20Banner%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Amazon%20Banner%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Column
 

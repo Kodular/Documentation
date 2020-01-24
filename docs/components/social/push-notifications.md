@@ -42,7 +42,8 @@ Powered by OneSignal.
 
 Event to detect available one signal tags.
 
-[[Event('Push Notifications', 'Got Available Tags', 'tagsAsString', 'tagsAsList')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Push%20Notifications%22,%20%22name%22:%20%22Got%20Available%20Tags%22,%20%22params%22:%20%5B%22tags%20As%20String%22,%20%22tags%20As%20List%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -54,7 +55,8 @@ Event to detect available one signal tags.
 
 Event to receive value for a tag.
 
-[[Event('Push Notifications', 'Got Value', 'tag', 'value')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Push%20Notifications%22,%20%22name%22:%20%22Got%20Value%22,%20%22params%22:%20%5B%22tag%22,%20%22value%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -66,7 +68,8 @@ Event to receive value for a tag.
 
 User opened a notification.
 
-[[Event('Push Notifications', 'Notification Opened', 'id', 'title', 'message')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Push%20Notifications%22,%20%22name%22:%20%22Notification%20Opened%22,%20%22params%22:%20%5B%22id%22,%20%22title%22,%20%22message%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -79,7 +82,8 @@ User opened a notification.
 
 User received a notification.
 
-[[Event('Push Notifications', 'Notification Received', 'id', 'title', 'message')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Push%20Notifications%22,%20%22name%22:%20%22Notification%20Received%22,%20%22params%22:%20%5B%22id%22,%20%22title%22,%20%22message%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -92,7 +96,8 @@ User received a notification.
 
 Returns true if your message was send with success out of your app to all users.
 
-[[Event('Push Notifications', 'Send Message Done', 'success')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Push%20Notifications%22,%20%22name%22:%20%22Send%20Message%20Done%22,%20%22params%22:%20%5B%22success%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -105,13 +110,15 @@ Returns true if your message was send with success out of your app to all users.
 
 Clear All Notifications.
 
-[[Method('Push Notifications', 'Clear All Notifications', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Push%20Notifications%22,%20%22name%22:%20%22Clear%20All%20Notifications%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Delete Tag
 
 Deletes a single tag that was previously set on a user.
 
-[[Method('Push Notifications', 'Delete Tag', False, 'key')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Push%20Notifications%22,%20%22name%22:%20%22Delete%20Tag%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22key%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -122,13 +129,15 @@ Deletes a single tag that was previously set on a user.
 
 Get a list of available tags.
 
-[[Method('Push Notifications', 'Get Available Tags', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Push%20Notifications%22,%20%22name%22:%20%22Get%20Available%20Tags%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Get Value
 
 Get value for tag.
 
-[[Method('Push Notifications', 'Get Value', False, 'tag', 'valueIfTagNotThere')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Push%20Notifications%22,%20%22name%22:%20%22Get%20Value%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22tag%22,%20%22value%20If%20Tag%20Not%20There%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -140,7 +149,8 @@ Get value for tag.
 
 Send a message to all users. The message and your REST Api Key can not be empty! You will find your REST Api Key in your OneSignal account settings.
 
-[[Method('Push Notifications', 'Send Message', False, 'title', 'message', 'restApiKey')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Push%20Notifications%22,%20%22name%22:%20%22Send%20Message%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22title%22,%20%22message%22,%20%22rest%20API%20Key%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -153,7 +163,8 @@ Send a message to all users. The message and your REST Api Key can not be empty!
 
 Tag a user based on an app event of your choosing so later you can create segments in to target these users.
 
-[[Method('Push Notifications', 'Send Tag', False, 'key', 'value')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Push%20Notifications%22,%20%22name%22:%20%22Send%20Tag%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22key%22,%20%22value%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -175,7 +186,8 @@ Set here your One Signal App ID
 
 If you want to enable the log then set it to true.
 
-[[PropertyBlockGetterAndSetter('Push Notifications', 'Enable Log')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Push%20Notifications%22,%20%22name%22:%20%22Enable%20Log%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Enable Sound
 
@@ -183,7 +195,8 @@ If you want to enable the log then set it to true.
 
 Enable Sound.
 
-[[PropertyBlockGetterAndSetter('Push Notifications', 'Enable Sound')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Push%20Notifications%22,%20%22name%22:%20%22Enable%20Sound%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Enable Vibration
 
@@ -191,7 +204,8 @@ Enable Sound.
 
 Enable Vibration.
 
-[[PropertyBlockGetterAndSetter('Push Notifications', 'Enable Vibration')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Push%20Notifications%22,%20%22name%22:%20%22Enable%20Vibration%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Get Email Subscription Email Address
 
@@ -199,7 +213,8 @@ Enable Vibration.
 
 Get the email subscription email address.
 
-[[PropertyBlockGetter('Push Notifications', 'Get Email Subscription Email Address')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Push%20Notifications%22,%20%22name%22:%20%22Get%20Email%20Subscription%20Email%20Address%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Get Email Subscription User Id
 
@@ -207,7 +222,8 @@ Get the email subscription email address.
 
 Get the email subscription user id.
 
-[[PropertyBlockGetter('Push Notifications', 'Get Email Subscription User Id')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Push%20Notifications%22,%20%22name%22:%20%22Get%20Email%20Subscription%20User%20Id%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Get Permission Status
 
@@ -215,7 +231,8 @@ Get the email subscription user id.
 
 Get Permission Status
 
-[[PropertyBlockGetter('Push Notifications', 'Get Permission Status')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Push%20Notifications%22,%20%22name%22:%20%22Get%20Permission%20Status%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Get Subscription Status
 
@@ -223,7 +240,8 @@ Get Permission Status
 
 Get the subscription Status
 
-[[PropertyBlockGetter('Push Notifications', 'Get Subscription Status')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Push%20Notifications%22,%20%22name%22:%20%22Get%20Subscription%20Status%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Get User Id
 
@@ -231,7 +249,8 @@ Get the subscription Status
 
 Get the User ID. If there is no user id it will return '-1'.
 
-[[PropertyBlockGetter('Push Notifications', 'Get User Id')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Push%20Notifications%22,%20%22name%22:%20%22Get%20User%20Id%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Set Subscription
 
@@ -239,4 +258,4 @@ Get the User ID. If there is no user id it will return '-1'.
 
 If you want to subscribe then set it to true.
 
-[[PropertyBlockGetterAndSetter('Push Notifications', 'Set Subscription')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Push%20Notifications%22,%20%22name%22:%20%22Set%20Subscription%22,%20%22getter%22:%20false%7D"></div>

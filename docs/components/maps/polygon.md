@@ -14,31 +14,36 @@ A visible component that draws arbitrary shapes on a Map component. Vertices of 
 
 The user clicked on the feature.
 
-[[Event('Polygon', 'Click')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Polygon%22,%20%22name%22:%20%22Click%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Drag
 
 The user dragged the map feature.
 
-[[Event('Polygon', 'Drag')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Polygon%22,%20%22name%22:%20%22Drag%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Long Click
 
 The user long-pressed on the feature. This event will only trigger if Draggable is false.
 
-[[Event('Polygon', 'Long Click')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Polygon%22,%20%22name%22:%20%22Long%20Click%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Start Drag
 
 The user started a drag operation.
 
-[[Event('Polygon', 'Start Drag')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Polygon%22,%20%22name%22:%20%22Start%20Drag%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Stop Drag
 
 The user stopped a drag operation.
 
-[[Event('Polygon', 'Stop Drag')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Polygon%22,%20%22name%22:%20%22Stop%20Drag%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Methods
 
@@ -48,7 +53,8 @@ The user stopped a drag operation.
 
 Returns the centroid of the Polygon as a (latitude, longitude) pair.
 
-[[Method('Polygon', 'Centroid', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Polygon%22,%20%22name%22:%20%22Centroid%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Distance To Feature
 
@@ -56,7 +62,8 @@ Returns the centroid of the Polygon as a (latitude, longitude) pair.
 
 Compute the distance, in meters, between two map features.
 
-[[Method('Polygon', 'Distance To Feature', True, 'mapFeature', 'centroids')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Polygon%22,%20%22name%22:%20%22Distance%20To%20Feature%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22map%20Feature%22,%20%22centroids%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -70,7 +77,8 @@ Compute the distance, in meters, between two map features.
 
 Compute the distance, in meters, between a map feature and a latitude, longitude point.
 
-[[Method('Polygon', 'Distance To Point', True, 'latitude', 'longitude', 'centroid')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Polygon%22,%20%22name%22:%20%22Distance%20To%20Point%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22latitude%22,%20%22longitude%22,%20%22centroid%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -83,13 +91,15 @@ Compute the distance, in meters, between a map feature and a latitude, longitude
 
 Hide the infobox if it is shown. If the infobox is not visible this function has no effect.
 
-[[Method('Polygon', 'Hide Infobox', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Polygon%22,%20%22name%22:%20%22Hide%20Infobox%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Show Infobox
 
 Show the infobox for the feature. This will show the infobox even if
 
-[[Method('Polygon', 'Show Infobox', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Polygon%22,%20%22name%22:%20%22Show%20Infobox%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Properties
 
@@ -99,7 +109,9 @@ Show the infobox for the feature. This will show the infobox even if
 
 The description displayed in the info window that appears when the user clicks on the map feature.
 
-[[PropertyBlockGetterAndSetter('Polygon', 'Description')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Polygon%22,%20%22name%22:%20%22Description%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Polygon%22,%20%22name%22:%20%22Description%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Draggable
 
@@ -107,7 +119,9 @@ The description displayed in the info window that appears when the user clicks o
 
 The Draggable property is used to set whether or not the user can drag the Marker by long-pressing and then dragging the marker to a new location.
 
-[[PropertyBlockGetterAndSetter('Polygon', 'Draggable')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Polygon%22,%20%22name%22:%20%22Draggable%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Polygon%22,%20%22name%22:%20%22Draggable%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Enable Infobox
 
@@ -115,7 +129,9 @@ The Draggable property is used to set whether or not the user can drag the Marke
 
 Enable or disable the infobox window display when the user taps the feature.
 
-[[PropertyBlockGetterAndSetter('Polygon', 'Enable Infobox')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Polygon%22,%20%22name%22:%20%22Enable%20Infobox%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Polygon%22,%20%22name%22:%20%22Enable%20Infobox%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Fill Color
 
@@ -123,7 +139,9 @@ Enable or disable the infobox window display when the user taps the feature.
 
 The paint color used to fill in the map feature.
 
-[[PropertyBlockGetterAndSetter('Polygon', 'Fill Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Polygon%22,%20%22name%22:%20%22Fill%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Polygon%22,%20%22name%22:%20%22Fill%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Fill Opacity
 
@@ -131,7 +149,9 @@ The paint color used to fill in the map feature.
 
 The opacity of the interior of the map feature.
 
-[[PropertyBlockGetterAndSetter('Polygon', 'Fill Opacity')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Polygon%22,%20%22name%22:%20%22Fill%20Opacity%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Polygon%22,%20%22name%22:%20%22Fill%20Opacity%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Hole Points From String
 
@@ -139,7 +159,8 @@ The opacity of the interior of the map feature.
 
 Constructs holes in a polygon from a given list of coordinates per hole.
 
-[[PropertyBlockGetterAndSetter('Polygon', 'Hole Points From String')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Polygon%22,%20%22name%22:%20%22Hole%20Points%20From%20String%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Points From String
 
@@ -147,7 +168,8 @@ Constructs holes in a polygon from a given list of coordinates per hole.
 
 Constructs a polygon from the given list of coordinates.
 
-[[PropertyBlockGetterAndSetter('Polygon', 'Points From String')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Polygon%22,%20%22name%22:%20%22Points%20From%20String%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Stroke Color
 
@@ -155,7 +177,9 @@ Constructs a polygon from the given list of coordinates.
 
 The paint color used to outline the map feature.
 
-[[PropertyBlockGetterAndSetter('Polygon', 'Stroke Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Polygon%22,%20%22name%22:%20%22Stroke%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Polygon%22,%20%22name%22:%20%22Stroke%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Stroke Opacity
 
@@ -163,7 +187,9 @@ The paint color used to outline the map feature.
 
 The opacity of the stroke used to outline the map feature.
 
-[[PropertyBlockGetterAndSetter('Polygon', 'Stroke Opacity')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Polygon%22,%20%22name%22:%20%22Stroke%20Opacity%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Polygon%22,%20%22name%22:%20%22Stroke%20Opacity%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Stroke Width
 
@@ -171,7 +197,9 @@ The opacity of the stroke used to outline the map feature.
 
 The width of the stroke used to outline the map feature.
 
-[[PropertyBlockGetterAndSetter('Polygon', 'Stroke Width')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Polygon%22,%20%22name%22:%20%22Stroke%20Width%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Polygon%22,%20%22name%22:%20%22Stroke%20Width%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Title
 
@@ -179,7 +207,9 @@ The width of the stroke used to outline the map feature.
 
 The title displayed in the info window that appears when the user clicks on the map feature.
 
-[[PropertyBlockGetterAndSetter('Polygon', 'Title')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Polygon%22,%20%22name%22:%20%22Title%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Polygon%22,%20%22name%22:%20%22Title%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Visible
 
@@ -187,13 +217,17 @@ The title displayed in the info window that appears when the user clicks on the 
 
 Specifies whether the component should be visible on the screen. Value is true if the component is showing and false if hidden.
 
-[[PropertyBlockGetterAndSetter('Polygon', 'Visible')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Polygon%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Polygon%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Hole Points
 
 <span class="chip chip-list">List</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Blocks</span> 
 
-[[PropertyBlockGetterAndSetter('Polygon', 'Hole Points')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Polygon%22,%20%22name%22:%20%22Hole%20Points%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Polygon%22,%20%22name%22:%20%22Hole%20Points%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Points
 
@@ -201,7 +235,9 @@ Specifies whether the component should be visible on the screen. Value is true i
 
 Gets or sets the sequence of points used to draw the polygon.
 
-[[PropertyBlockGetterAndSetter('Polygon', 'Points')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Polygon%22,%20%22name%22:%20%22Points%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Polygon%22,%20%22name%22:%20%22Points%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Type
 
@@ -209,4 +245,4 @@ Gets or sets the sequence of points used to draw the polygon.
 
 The type of the feature. For polygons, this returns the text "Polygon".
 
-[[PropertyBlockGetter('Polygon', 'Type')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Polygon%22,%20%22name%22:%20%22Type%22,%20%22getter%22:%20true%7D"></div>

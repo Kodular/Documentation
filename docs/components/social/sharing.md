@@ -25,7 +25,8 @@ The file path can be taken directly from other components such as the Camera or 
 
 This event returns the social media name if an app is not installed. Possible names are 'Facebook Messenger', 'Facebook', 'Twitter', 'Telegram', 'Twitter', 'Snapchat', 'Google Plus' or the given custom package name.
 
-[[Event('Sharing', 'App Not Found', 'name')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Sharing%22,%20%22name%22:%20%22App%20Not%20Found%22,%20%22params%22:%20%5B%22name%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -38,7 +39,8 @@ This event returns the social media name if an app is not installed. Possible na
 
 Shares a file through any capable application installed on the phone by displaying a list of the available apps and allowing the user to choose one from the list. The selected app will open with the file inserted on it.
 
-[[Method('Sharing', 'Share File', False, 'file')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Sharing%22,%20%22name%22:%20%22Share%20File%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22file%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -49,7 +51,8 @@ Shares a file through any capable application installed on the phone by displayi
 
 Shares both a file and a message through any capable application installed on the phone by displaying a list of available apps and allowing the user to choose one from the list. The selected app will open with the file and message inserted on it.
 
-[[Method('Sharing', 'Share File With Message', False, 'file', 'message')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Sharing%22,%20%22name%22:%20%22Share%20File%20With%20Message%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22file%22,%20%22message%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -61,7 +64,8 @@ Shares both a file and a message through any capable application installed on th
 
 Shares a message through any capable application installed on the phone by displaying a list of the available apps and allowing the user to choose one from the list. The selected app will open with the message inserted on it.
 
-[[Method('Sharing', 'Share Message', False, 'message')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Sharing%22,%20%22name%22:%20%22Share%20Message%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22message%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -72,7 +76,8 @@ Shares a message through any capable application installed on the phone by displ
 
 Shares a message through the given app. If the given app is not installed, then the 'AppNotFound' event will be invoked and return the given name.
 
-[[Method('Sharing', 'Share Message To', False, 'message', 'name', 'packageName')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Sharing%22,%20%22name%22:%20%22Share%20Message%20To%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22message%22,%20%22name%22,%20%22package%20Name%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -85,7 +90,8 @@ Shares a message through the given app. If the given app is not installed, then 
 
 Shares a message through Facebook. If Facebook is not installed, then the 'AppNotFound' event will be invoked and return the name 'Facebook'.
 
-[[Method('Sharing', 'Share Message To Facebook', False, 'message')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Sharing%22,%20%22name%22:%20%22Share%20Message%20To%20Facebook%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22message%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -96,7 +102,8 @@ Shares a message through Facebook. If Facebook is not installed, then the 'AppNo
 
 Shares a message through Facebook Messenger. If Messenger is not installed, then the 'AppNotFound' event will be invoked and return the name 'Facebook Messenger'.
 
-[[Method('Sharing', 'Share Message To Facebook Messenger', False, 'message')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Sharing%22,%20%22name%22:%20%22Share%20Message%20To%20Facebook%20Messenger%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22message%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -107,7 +114,8 @@ Shares a message through Facebook Messenger. If Messenger is not installed, then
 
 Shares a message through Google Plus. If Google+ is not installed, then the 'AppNotFound' event will be invoked and return the name 'Google Plus'.
 
-[[Method('Sharing', 'Share Message To Google+', False, 'message')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Sharing%22,%20%22name%22:%20%22Share%20Message%20To%20Google+%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22message%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -118,7 +126,8 @@ Shares a message through Google Plus. If Google+ is not installed, then the 'App
 
 Shares a message through Snapchat. If Snapchat is not installed, then the 'AppNotFound' event will be invoked and return the name 'Snapchat'.
 
-[[Method('Sharing', 'Share Message To Snapchat', False, 'message')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Sharing%22,%20%22name%22:%20%22Share%20Message%20To%20Snapchat%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22message%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -129,7 +138,8 @@ Shares a message through Snapchat. If Snapchat is not installed, then the 'AppNo
 
 Shares a message through Telegram. If Telegram is not installed, then the 'AppNotFound' event will be invoked and return the name 'Telegram'.
 
-[[Method('Sharing', 'Share Message To Telegram', False, 'message')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Sharing%22,%20%22name%22:%20%22Share%20Message%20To%20Telegram%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22message%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -140,7 +150,8 @@ Shares a message through Telegram. If Telegram is not installed, then the 'AppNo
 
 Shares a message through Twitter. If Twitter is not installed, then the 'AppNotFound' event will be invoked and return the name 'Twitter'.
 
-[[Method('Sharing', 'Share Message To Twitter', False, 'message')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Sharing%22,%20%22name%22:%20%22Share%20Message%20To%20Twitter%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22message%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -151,7 +162,8 @@ Shares a message through Twitter. If Twitter is not installed, then the 'AppNotF
 
 Shares a message through WhatsApp. If WhatsApp is not installed, then the 'AppNotFound' event will be invoked and return the name 'WhatsApp'.
 
-[[Method('Sharing', 'Share Message To WhatsApp', False, 'message')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Sharing%22,%20%22name%22:%20%22Share%20Message%20To%20WhatsApp%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22message%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -166,4 +178,4 @@ Shares a message through WhatsApp. If WhatsApp is not installed, then the 'AppNo
 
 Set the text for the sharing dialog. The default text is 'Send using...'.
 
-[[PropertyBlockGetterAndSetter('Sharing', 'Share Dialog Message')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Sharing%22,%20%22name%22:%20%22Share%20Dialog%20Message%22,%20%22getter%22:%20false%7D"></div>

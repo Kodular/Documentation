@@ -18,7 +18,8 @@ A non-visible component that encrypts and decrypts data using a variety of techn
 
 Decodes the given hash using the given key through AES-128. If any exception occurs, returns empty string.
 
-[[Method('Cryptography', 'AES-128 Decode', True, 'aes128Hash')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Cryptography%22,%20%22name%22:%20%22AES-128%20Decode%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22AES-128%20Hash%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -31,7 +32,8 @@ Decodes the given hash using the given key through AES-128. If any exception occ
 
 Encodes the given string using the given key through AES-128. If any exception occurs, returns empty string.
 
-[[Method('Cryptography', 'AES-128 Encode', True, 'inputText')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Cryptography%22,%20%22name%22:%20%22AES-128%20Encode%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22input%20Text%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -44,7 +46,8 @@ Encodes the given string using the given key through AES-128. If any exception o
 
 Generates a secure random AES 128 key
 
-[[Method('Cryptography', 'Generate AES 128 Key', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Cryptography%22,%20%22name%22:%20%22Generate%20AES%20128%20Key%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### AES-256 Decode
 
@@ -52,7 +55,8 @@ Generates a secure random AES 128 key
 
 Decodes the given hash using the given key through AES-256. If there are any exceptions, returns empty string
 
-[[Method('Cryptography', 'AES-256 Decode', True, 'aes256Hash')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Cryptography%22,%20%22name%22:%20%22AES-256%20Decode%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22AES-256%20Hash%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -65,7 +69,8 @@ Decodes the given hash using the given key through AES-256. If there are any exc
 
 Encodes the given string using the given key through AES-256. If there are any exceptions, returns empty string
 
-[[Method('Cryptography', 'AES-256 Encode', True, 'inputText')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Cryptography%22,%20%22name%22:%20%22AES-256%20Encode%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22input%20Text%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -78,7 +83,8 @@ Encodes the given string using the given key through AES-256. If there are any e
 
 Generates a secure random AES 256 key
 
-[[Method('Cryptography', 'Generate AES 256 Key', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Cryptography%22,%20%22name%22:%20%22Generate%20AES%20256%20Key%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### BCrypt Create Hash
 
@@ -86,7 +92,8 @@ Generates a secure random AES 256 key
 
 Generates a hash using BCrypt
 
-[[Method('Cryptography', 'BCrypt Create Hash', True, 'inputText', 'salt')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Cryptography%22,%20%22name%22:%20%22BCrypt%20Create%20Hash%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22input%20Text%22,%20%22salt%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -100,7 +107,8 @@ Generates a hash using BCrypt
 
 Generates a salt usable for hashing with BCrypt
 
-[[Method('Cryptography', 'BCrypt Generate Salt', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Cryptography%22,%20%22name%22:%20%22BCrypt%20Generate%20Salt%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### BCrypt Validate Password
 
@@ -108,7 +116,8 @@ Generates a salt usable for hashing with BCrypt
 
 Verifies if the input password is the same one as the correct hashed password using BCrypt algorithm
 
-[[Method('Cryptography', 'BCrypt Validate Password', True, 'inputText', 'correctHash')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Cryptography%22,%20%22name%22:%20%22BCrypt%20Validate%20Password%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22input%20Text%22,%20%22correct%20Hash%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -122,7 +131,8 @@ Verifies if the input password is the same one as the correct hashed password us
 
 Decodes the given hash using Base64
 
-[[Method('Cryptography', 'Base64 Decode', True, 'base64Hash')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Cryptography%22,%20%22name%22:%20%22Base64%20Decode%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22base64%20Hash%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -135,7 +145,8 @@ Decodes the given hash using Base64
 
 Encodes the given string using Base64
 
-[[Method('Cryptography', 'Base64 Encode', True, 'inputText')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Cryptography%22,%20%22name%22:%20%22Base64%20Encode%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22input%20Text%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -148,7 +159,8 @@ Encodes the given string using Base64
 
 Encrypts or decrypts the given string simulating an Enigma machine. Rotors can go from 1 to 8, but they cannot be repeated. Reflector can be B, C or 0 if none. Plugboard is a list with sub-list of two items containing a character each one, which replace the first character with the second one.
 
-[[Method('Cryptography', 'Enigma Parser', True, 'inputText', 'rotor1', 'rotor2', 'rotor3', 'reflector', 'plugboard')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Cryptography%22,%20%22name%22:%20%22Enigma%20Parser%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22input%20Text%22,%20%22rotor%201%22,%20%22rotor%202%22,%20%22rotor%203%22,%20%22reflector%22,%20%22plugboard%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -166,7 +178,8 @@ Encrypts or decrypts the given string simulating an Enigma machine. Rotors can g
 
 Generates a MD5 hash
 
-[[Method('Cryptography', 'MD5 Create Hash', True, 'inputText')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Cryptography%22,%20%22name%22:%20%22MD5%20Create%20Hash%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22input%20Text%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -179,7 +192,8 @@ Generates a MD5 hash
 
 Generates a hash using PBKDF2
 
-[[Method('Cryptography', 'PBKDF2 Create Hash', True, 'inputText')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Cryptography%22,%20%22name%22:%20%22PBKDF2%20Create%20Hash%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22input%20Text%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -192,7 +206,8 @@ Generates a hash using PBKDF2
 
 Verifies if the input password is the same one as the correct hashed password using PBKDF2 algorithm
 
-[[Method('Cryptography', 'PBKDF2 Validate Hash', True, 'inputText', 'correctHash')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Cryptography%22,%20%22name%22:%20%22PBKDF2%20Validate%20Hash%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22input%20Text%22,%20%22correct%20Hash%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -206,7 +221,8 @@ Verifies if the input password is the same one as the correct hashed password us
 
 Generates a hashed SHA-1 string
 
-[[Method('Cryptography', 'SHA-1 Generate Hash', True, 'inputText')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Cryptography%22,%20%22name%22:%20%22SHA-1%20Generate%20Hash%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22input%20Text%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -219,7 +235,8 @@ Generates a hashed SHA-1 string
 
 Generates a hashed SHA-224 string
 
-[[Method('Cryptography', 'SHA-224 Generate Hash', True, 'inputText')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Cryptography%22,%20%22name%22:%20%22SHA-224%20Generate%20Hash%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22input%20Text%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -232,7 +249,8 @@ Generates a hashed SHA-224 string
 
 Generates a hashed SHA-256 string
 
-[[Method('Cryptography', 'SHA-256 Generate Hash', True, 'inputText')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Cryptography%22,%20%22name%22:%20%22SHA-256%20Generate%20Hash%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22input%20Text%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -245,7 +263,8 @@ Generates a hashed SHA-256 string
 
 Generates a hashed SHA-384 string
 
-[[Method('Cryptography', 'SHA-384 Generate Hash', True, 'inputText')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Cryptography%22,%20%22name%22:%20%22SHA-384%20Generate%20Hash%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22input%20Text%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -258,7 +277,8 @@ Generates a hashed SHA-384 string
 
 Generates a hashed SHA-512 string
 
-[[Method('Cryptography', 'SHA-512 Generate Hash', True, 'inputText')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Cryptography%22,%20%22name%22:%20%22SHA-512%20Generate%20Hash%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22input%20Text%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -271,7 +291,8 @@ Generates a hashed SHA-512 string
 
 Decodes the given hash using the given key through TripleDES
 
-[[Method('Cryptography', 'TripleDES Decode', True, 'tripleDESHash')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Cryptography%22,%20%22name%22:%20%22TripleDES%20Decode%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22tripleDES%20Hash%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -284,7 +305,8 @@ Decodes the given hash using the given key through TripleDES
 
 Encodes the given string using the given key through TripleDES
 
-[[Method('Cryptography', 'TripleDES Encode', True, 'inputText')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Cryptography%22,%20%22name%22:%20%22TripleDES%20Encode%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22input%20Text%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -299,7 +321,9 @@ Encodes the given string using the given key through TripleDES
 
 Set the AES-128 Key
 
-[[PropertyBlockGetterAndSetter('Cryptography', 'AES-128 Key')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Cryptography%22,%20%22name%22:%20%22AES-128%20Key%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Cryptography%22,%20%22name%22:%20%22AES-128%20Key%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### AES-256 Key
 
@@ -307,7 +331,9 @@ Set the AES-128 Key
 
 Set the AES-256 Key
 
-[[PropertyBlockGetterAndSetter('Cryptography', 'AES-256 Key')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Cryptography%22,%20%22name%22:%20%22AES-256%20Key%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Cryptography%22,%20%22name%22:%20%22AES-256%20Key%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### BCrypt Salt Size
 
@@ -315,7 +341,9 @@ Set the AES-256 Key
 
 Set the BCrypt Salt Size
 
-[[PropertyBlockGetterAndSetter('Cryptography', 'BCrypt Salt Size')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Cryptography%22,%20%22name%22:%20%22BCrypt%20Salt%20Size%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Cryptography%22,%20%22name%22:%20%22BCrypt%20Salt%20Size%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### PBKDF2 Hash Byte Size
 
@@ -323,7 +351,9 @@ Set the BCrypt Salt Size
 
 Set the PBKDF2 Hash Byte Size
 
-[[PropertyBlockGetterAndSetter('Cryptography', 'PBKDF2 Hash Byte Size')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Cryptography%22,%20%22name%22:%20%22PBKDF2%20Hash%20Byte%20Size%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Cryptography%22,%20%22name%22:%20%22PBKDF2%20Hash%20Byte%20Size%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### PBKDF2 Iterations Number
 
@@ -331,7 +361,9 @@ Set the PBKDF2 Hash Byte Size
 
 Set the PBKDF2 number of Iterations
 
-[[PropertyBlockGetterAndSetter('Cryptography', 'PBKDF2 Iterations Number')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Cryptography%22,%20%22name%22:%20%22PBKDF2%20Iterations%20Number%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Cryptography%22,%20%22name%22:%20%22PBKDF2%20Iterations%20Number%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### PBKDF2 Salt Byte Size
 
@@ -339,7 +371,9 @@ Set the PBKDF2 number of Iterations
 
 Set the PBKDF2 Salt Byte Size
 
-[[PropertyBlockGetterAndSetter('Cryptography', 'PBKDF2 Salt Byte Size')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Cryptography%22,%20%22name%22:%20%22PBKDF2%20Salt%20Byte%20Size%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Cryptography%22,%20%22name%22:%20%22PBKDF2%20Salt%20Byte%20Size%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### TripleDES Key
 
@@ -347,4 +381,5 @@ Set the PBKDF2 Salt Byte Size
 
 Set the TripleDES Key
 
-[[PropertyBlockGetterAndSetter('Cryptography', 'TripleDES Key')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Cryptography%22,%20%22name%22:%20%22TripleDES%20Key%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Cryptography%22,%20%22name%22:%20%22TripleDES%20Key%22,%20%22getter%22:%20false%7D"></div>

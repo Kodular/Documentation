@@ -14,7 +14,8 @@ A visible component that can animate between two or more layout components that 
 
 Add a component to the view flipper. The first added component will be the first visible component on the screen.
 
-[[Method('View Flipper', 'Add Component To View', False, 'component')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22View%20Flipper%22,%20%22name%22:%20%22Add%20Component%20To%20View%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22component%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -25,7 +26,8 @@ Add a component to the view flipper. The first added component will be the first
 
 Use this function if you try to create a image view flipper. Please use a 'make a list' block.
 
-[[Method('View Flipper', 'Add Images To View', False, 'images')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22View%20Flipper%22,%20%22name%22:%20%22Add%20Images%20To%20View%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22images%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -36,31 +38,36 @@ Use this function if you try to create a image view flipper. Please use a 'make 
 
 Show the next view.
 
-[[Method('View Flipper', 'Show Next', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22View%20Flipper%22,%20%22name%22:%20%22Show%20Next%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Show Previous
 
 Show the previous view.
 
-[[Method('View Flipper', 'Show Previous', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22View%20Flipper%22,%20%22name%22:%20%22Show%20Previous%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Start Flipping
 
 Start a timer to cycle through child views.
 
-[[Method('View Flipper', 'Start Flipping', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22View%20Flipper%22,%20%22name%22:%20%22Start%20Flipping%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Stop Flipping
 
 No more flips.
 
-[[Method('View Flipper', 'Stop Flipping', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22View%20Flipper%22,%20%22name%22:%20%22Stop%20Flipping%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### is Flipping
 
 Returns true if the child views are flipping.
 
-[[Method('View Flipper', 'is Flipping', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22View%20Flipper%22,%20%22name%22:%20%22is%20Flipping%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Properties
 
@@ -70,7 +77,8 @@ Returns true if the child views are flipping.
 
 Use this function if you try to create a image view flipper. Use images separated by commas such as: Image1.png,Image2.png,Image3.png.
 
-[[PropertyBlockGetterAndSetter('View Flipper', 'Add Images From String')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22View%20Flipper%22,%20%22name%22:%20%22Add%20Images%20From%20String%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Background Color
 
@@ -78,7 +86,9 @@ Use this function if you try to create a image view flipper. Use images separate
 
 Specifies the view flippers background color.
 
-[[PropertyBlockGetterAndSetter('View Flipper', 'Background Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22View%20Flipper%22,%20%22name%22:%20%22Background%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22View%20Flipper%22,%20%22name%22:%20%22Background%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Flip Interval
 
@@ -86,7 +96,9 @@ Specifies the view flippers background color.
 
 How long to wait before flipping to the next view in milliseconds.
 
-[[PropertyBlockGetterAndSetter('View Flipper', 'Flip Interval')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22View%20Flipper%22,%20%22name%22:%20%22Flip%20Interval%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22View%20Flipper%22,%20%22name%22:%20%22Flip%20Interval%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Swipeable
 
@@ -94,7 +106,9 @@ How long to wait before flipping to the next view in milliseconds.
 
 If set to true you can swipe with your fingers through views.
 
-[[PropertyBlockGetterAndSetter('View Flipper', 'Swipeable')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22View%20Flipper%22,%20%22name%22:%20%22Swipeable%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22View%20Flipper%22,%20%22name%22:%20%22Swipeable%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Visible
 
@@ -102,7 +116,9 @@ If set to true you can swipe with your fingers through views.
 
 Returns true iff the component is visible.
 
-[[PropertyBlockGetterAndSetter('View Flipper', 'Visible')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22View%20Flipper%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22View%20Flipper%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Column
 
@@ -116,7 +132,9 @@ Column property getter method.
 
 Specifies the component's vertical height, measured in pixels.
 
-[[PropertyBlockGetterAndSetter('View Flipper', 'Height')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22View%20Flipper%22,%20%22name%22:%20%22Height%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22View%20Flipper%22,%20%22name%22:%20%22Height%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Height Percent
 
@@ -124,7 +142,8 @@ Specifies the component's vertical height, measured in pixels.
 
 Specifies the component's vertical height as a percentageof the height of its parent Component.
 
-[[PropertyBlockGetterAndSetter('View Flipper', 'Height Percent')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22View%20Flipper%22,%20%22name%22:%20%22Height%20Percent%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Row
 
@@ -138,7 +157,9 @@ Row property getter method.
 
 Specifies the component's horizontal width, measured in pixels.
 
-[[PropertyBlockGetterAndSetter('View Flipper', 'Width')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22View%20Flipper%22,%20%22name%22:%20%22Width%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22View%20Flipper%22,%20%22name%22:%20%22Width%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Width Percent
 
@@ -146,4 +167,4 @@ Specifies the component's horizontal width, measured in pixels.
 
 Specifies the component's horizontal width as a percentageof the Width of its parent Component.
 
-[[PropertyBlockGetterAndSetter('View Flipper', 'Width Percent')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22View%20Flipper%22,%20%22name%22:%20%22Width%20Percent%22,%20%22getter%22:%20false%7D"></div>

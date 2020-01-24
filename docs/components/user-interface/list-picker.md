@@ -20,7 +20,8 @@ Setting property ShowFilterBar to true, will make the list searchable. Other pro
 
 Event to be raised after the picker activity returns itsresult and the properties have been filled in.
 
-[[Event('List Picker', 'After Picking', 'selection')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22List%20Picker%22,%20%22name%22:%20%22After%20Picking%22,%20%22params%22:%20%5B%22selection%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -31,31 +32,36 @@ Event to be raised after the picker activity returns itsresult and the propertie
 
 Event to raise when the button of the component is clicked or the list is shownusing the Open block. This event occurs before the list of items is displayed, andcan be used to prepare the list before it is shown.
 
-[[Event('List Picker', 'Before Picking')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22List%20Picker%22,%20%22name%22:%20%22Before%20Picking%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Got Focus
 
 Indicates the cursor moved over the button so it is now possible to click it.
 
-[[Event('List Picker', 'Got Focus')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22List%20Picker%22,%20%22name%22:%20%22Got%20Focus%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Lost Focus
 
 Indicates the cursor moved away from the button so it is now no longer possible to click it.
 
-[[Event('List Picker', 'Lost Focus')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22List%20Picker%22,%20%22name%22:%20%22Lost%20Focus%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Touch Down
 
 Indicates that the button was pressed down.
 
-[[Event('List Picker', 'Touch Down')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22List%20Picker%22,%20%22name%22:%20%22Touch%20Down%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Touch Up
 
 Indicates that a button has been released.
 
-[[Event('List Picker', 'Touch Up')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22List%20Picker%22,%20%22name%22:%20%22Touch%20Up%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Methods
 
@@ -63,7 +69,8 @@ Indicates that a button has been released.
 
 Allows you to set animation style. Valid (case-insensitive) values are: ChasingDots, Circle, CubeGrid, DoubleBounce, FadingCircle, FoldingCube, Pulse, RotatingCircle, RotatingPlane, ThreeBounce, WanderingCubes, Wave. If invalid style is used, animation will be removed.Position can be: top, left, right, bottom. Size can be 100.
 
-[[Method('List Picker', 'Set Animation Style', False, 'style', 'position', 'size', 'color')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22List%20Picker%22,%20%22name%22:%20%22Set%20Animation%20Style%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22style%22,%20%22position%22,%20%22size%22,%20%22color%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -77,19 +84,22 @@ Allows you to set animation style. Valid (case-insensitive) values are: ChasingD
 
 Perform a button click as function.
 
-[[Method('List Picker', 'Button Click', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22List%20Picker%22,%20%22name%22:%20%22Button%20Click%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Open
 
 Opens the picker, as though the user clicked on it.
 
-[[Method('List Picker', 'Open', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22List%20Picker%22,%20%22name%22:%20%22Open%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Set Shadow
 
 Place a blurred shadow of text underneath the text, drawn with the specified x, y, radius, color (e.g. -11, 12, 13, black.
 
-[[Method('List Picker', 'Set Shadow', False, 'x', 'y', 'radius', 'color')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22List%20Picker%22,%20%22name%22:%20%22Set%20Shadow%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22x%22,%20%22y%22,%20%22radius%22,%20%22color%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -103,7 +113,8 @@ Place a blurred shadow of text underneath the text, drawn with the specified x, 
 
 Show an image on the given position near to the button. You can use following words for the position: 'Left', 'Right', 'Top' or 'Bottom'. Use the padding to add space between the icon and text. Use a material icon as the button icon without uploading a image resource into your project. You can find the icon name (or code) here at https://fontawesome.com/cheatsheet Use as example for a heart icon just 'f004'.
 
-[[Method('List Picker', 'With Icon From Font Awesome', False, 'position', 'iconName', 'iconColor', 'padding', 'size')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22List%20Picker%22,%20%22name%22:%20%22With%20Icon%20From%20Font%20Awesome%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22position%22,%20%22icon%20Name%22,%20%22icon%20Color%22,%20%22padding%22,%20%22size%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -118,7 +129,8 @@ Show an image on the given position near to the button. You can use following wo
 
 Show an image on the given position near to the button. You can use following words for the position: 'Left', 'Right', 'Top' or 'Bottom'. Use the padding to add space between the icon and text. Use a material icon as the button icon without uploading a image resource into your project. You can find the icon name (or code) here at https://material.io/icons
 
-[[Method('List Picker', 'With Icon From Material Font', False, 'position', 'iconName', 'iconColor', 'padding', 'size')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22List%20Picker%22,%20%22name%22:%20%22With%20Icon%20From%20Material%20Font%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22position%22,%20%22icon%20Name%22,%20%22icon%20Color%22,%20%22padding%22,%20%22size%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -133,7 +145,8 @@ Show an image on the given position near to the button. You can use following wo
 
 Show an image on the given position near to the button. You can use following words for the position: 'Left', 'Right', 'Top' or 'Bottom'. Use the padding to add space between the icon and text.
 
-[[Method('List Picker', 'With Icon From Picture', False, 'position', 'picture', 'padding', 'width', 'height')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22List%20Picker%22,%20%22name%22:%20%22With%20Icon%20From%20Picture%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22position%22,%20%22picture%22,%20%22padding%22,%20%22width%22,%20%22height%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -152,7 +165,9 @@ Show an image on the given position near to the button. You can use following wo
 
 Returns the button's background color
 
-[[PropertyBlockGetterAndSetter('List Picker', 'Background Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20Picker%22,%20%22name%22:%20%22Background%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20Picker%22,%20%22name%22:%20%22Background%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Border Shadow
 
@@ -168,7 +183,8 @@ Returns true if the button have a outside border shadow on click.
 
 ElementsFromString property setter method
 
-[[PropertyBlockGetterAndSetter('List Picker', 'Elements From String')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20Picker%22,%20%22name%22:%20%22Elements%20From%20String%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Enabled
 
@@ -176,7 +192,9 @@ ElementsFromString property setter method
 
 If set, user can tap check box to cause action.
 
-[[PropertyBlockGetterAndSetter('List Picker', 'Enabled')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20Picker%22,%20%22name%22:%20%22Enabled%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20Picker%22,%20%22name%22:%20%22Enabled%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Font Bold
 
@@ -184,7 +202,9 @@ If set, user can tap check box to cause action.
 
 If set, button text is displayed in bold.
 
-[[PropertyBlockGetterAndSetter('List Picker', 'Font Bold')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20Picker%22,%20%22name%22:%20%22Font%20Bold%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20Picker%22,%20%22name%22:%20%22Font%20Bold%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Font Italic
 
@@ -192,7 +212,9 @@ If set, button text is displayed in bold.
 
 If set, button text is displayed in italics.
 
-[[PropertyBlockGetterAndSetter('List Picker', 'Font Italic')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20Picker%22,%20%22name%22:%20%22Font%20Italic%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20Picker%22,%20%22name%22:%20%22Font%20Italic%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Font Size
 
@@ -200,7 +222,9 @@ If set, button text is displayed in italics.
 
 Point size for button text.
 
-[[PropertyBlockGetterAndSetter('List Picker', 'Font Size')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20Picker%22,%20%22name%22:%20%22Font%20Size%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20Picker%22,%20%22name%22:%20%22Font%20Size%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Font Typeface
 
@@ -216,7 +240,8 @@ Font family for button text.
 
 Set a custom font.
 
-[[PropertyBlockGetterAndSetter('List Picker', 'Font Typeface Import')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20Picker%22,%20%22name%22:%20%22Font%20Typeface%20Import%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### HTML Format
 
@@ -232,7 +257,9 @@ If true, then this button will show html text else it will show plain text. Note
 
 Image to display on button.
 
-[[PropertyBlockGetterAndSetter('List Picker', 'Image')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20Picker%22,%20%22name%22:%20%22Image%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20Picker%22,%20%22name%22:%20%22Image%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Item Background Color
 
@@ -240,7 +267,9 @@ Image to display on button.
 
 The background color of the ListPicker items.
 
-[[PropertyBlockGetterAndSetter('List Picker', 'Item Background Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20Picker%22,%20%22name%22:%20%22Item%20Background%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20Picker%22,%20%22name%22:%20%22Item%20Background%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Item Text Color
 
@@ -248,7 +277,9 @@ The background color of the ListPicker items.
 
 The text color of the ListPicker items.
 
-[[PropertyBlockGetterAndSetter('List Picker', 'Item Text Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20Picker%22,%20%22name%22:%20%22Item%20Text%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20Picker%22,%20%22name%22:%20%22Item%20Text%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Rotation Angle
 
@@ -258,7 +289,9 @@ The text color of the ListPicker items.
 
 Sets the degrees that the button is rotated around the pivot point. Increasing values result in clockwise rotation.
 
-[[PropertyBlockGetterAndSetter('List Picker', 'Rotation Angle')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20Picker%22,%20%22name%22:%20%22Rotation%20Angle%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20Picker%22,%20%22name%22:%20%22Rotation%20Angle%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Selection
 
@@ -266,7 +299,9 @@ Sets the degrees that the button is rotated around the pivot point. Increasing v
 
 The selected item. When directly changed by the programmer, the SelectionIndex property is also changed to the first item in the ListPicker with the given value. If the value does not appear, SelectionIndex will be set to 0.
 
-[[PropertyBlockGetterAndSetter('List Picker', 'Selection')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20Picker%22,%20%22name%22:%20%22Selection%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20Picker%22,%20%22name%22:%20%22Selection%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Shape
 
@@ -282,7 +317,9 @@ Specifies the button's shape (default, rounded, rectangular, oval). The shape wi
 
 Specifies if a visual feedback should be shown for a button that as an image as background.
 
-[[PropertyBlockGetterAndSetter('List Picker', 'Show Feedback')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20Picker%22,%20%22name%22:%20%22Show%20Feedback%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20Picker%22,%20%22name%22:%20%22Show%20Feedback%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Show Filter Bar
 
@@ -290,7 +327,9 @@ Specifies if a visual feedback should be shown for a button that as an image as 
 
 Returns current state of ShowFilterBar indicating if Search Filter Bar will be displayed on ListPicker or not
 
-[[PropertyBlockGetterAndSetter('List Picker', 'Show Filter Bar')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20Picker%22,%20%22name%22:%20%22Show%20Filter%20Bar%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20Picker%22,%20%22name%22:%20%22Show%20Filter%20Bar%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Status Bar Color
 
@@ -300,7 +339,9 @@ Returns current state of ShowFilterBar indicating if Search Filter Bar will be d
 
 The StatusBarColor of the ListPicker.
 
-[[PropertyBlockGetterAndSetter('List Picker', 'Status Bar Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20Picker%22,%20%22name%22:%20%22Status%20Bar%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20Picker%22,%20%22name%22:%20%22Status%20Bar%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Status Bar Visible
 
@@ -310,7 +351,9 @@ The StatusBarColor of the ListPicker.
 
 Whether to show status bar
 
-[[PropertyBlockGetterAndSetter('List Picker', 'Status Bar Visible')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20Picker%22,%20%22name%22:%20%22Status%20Bar%20Visible%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20Picker%22,%20%22name%22:%20%22Status%20Bar%20Visible%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Text
 
@@ -318,7 +361,9 @@ Whether to show status bar
 
 Text to display on button.
 
-[[PropertyBlockGetterAndSetter('List Picker', 'Text')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20Picker%22,%20%22name%22:%20%22Text%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20Picker%22,%20%22name%22:%20%22Text%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Text Alignment
 
@@ -332,7 +377,9 @@ Left, center, or right.
 
 Color for button text.
 
-[[PropertyBlockGetterAndSetter('List Picker', 'Text Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20Picker%22,%20%22name%22:%20%22Text%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20Picker%22,%20%22name%22:%20%22Text%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Title
 
@@ -340,7 +387,9 @@ Color for button text.
 
 Optional title displayed at the top of the list of choices.
 
-[[PropertyBlockGetterAndSetter('List Picker', 'Title')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20Picker%22,%20%22name%22:%20%22Title%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20Picker%22,%20%22name%22:%20%22Title%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Title Bar Color
 
@@ -350,7 +399,9 @@ Optional title displayed at the top of the list of choices.
 
 The TitleBarColor of the ListPicker.
 
-[[PropertyBlockGetterAndSetter('List Picker', 'Title Bar Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20Picker%22,%20%22name%22:%20%22Title%20Bar%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20Picker%22,%20%22name%22:%20%22Title%20Bar%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Title Visible
 
@@ -360,7 +411,9 @@ The TitleBarColor of the ListPicker.
 
 Whether to show title bar
 
-[[PropertyBlockGetterAndSetter('List Picker', 'Title Visible')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20Picker%22,%20%22name%22:%20%22Title%20Visible%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20Picker%22,%20%22name%22:%20%22Title%20Visible%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Touch Color
 
@@ -370,7 +423,9 @@ Whether to show title bar
 
 Set the buttons touch color.
 
-[[PropertyBlockGetterAndSetter('List Picker', 'Touch Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20Picker%22,%20%22name%22:%20%22Touch%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20Picker%22,%20%22name%22:%20%22Touch%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Visible
 
@@ -378,7 +433,9 @@ Set the buttons touch color.
 
 Returns true iff the component is visible.
 
-[[PropertyBlockGetterAndSetter('List Picker', 'Visible')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20Picker%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20Picker%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Column
 
@@ -392,7 +449,9 @@ Column property getter method.
 
 Elements property getter method
 
-[[PropertyBlockGetterAndSetter('List Picker', 'Elements')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20Picker%22,%20%22name%22:%20%22Elements%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20Picker%22,%20%22name%22:%20%22Elements%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Height
 
@@ -400,7 +459,9 @@ Elements property getter method
 
 Specifies the component's vertical height, measured in pixels.
 
-[[PropertyBlockGetterAndSetter('List Picker', 'Height')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20Picker%22,%20%22name%22:%20%22Height%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20Picker%22,%20%22name%22:%20%22Height%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Height Percent
 
@@ -408,7 +469,8 @@ Specifies the component's vertical height, measured in pixels.
 
 Specifies the component's vertical height as a percentageof the height of its parent Component.
 
-[[PropertyBlockGetterAndSetter('List Picker', 'Height Percent')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20Picker%22,%20%22name%22:%20%22Height%20Percent%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Row
 
@@ -422,7 +484,9 @@ Row property getter method.
 
 The index of the currently selected item, starting at 1. If no item is selected, the value will be 0. If an attempt is made to set this to a number less than 1 or greater than the number of items in the ListPicker, SelectionIndex will be set to 0, and Selection will be set to the empty text.
 
-[[PropertyBlockGetterAndSetter('List Picker', 'Selection Index')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20Picker%22,%20%22name%22:%20%22Selection%20Index%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20Picker%22,%20%22name%22:%20%22Selection%20Index%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Width
 
@@ -430,7 +494,9 @@ The index of the currently selected item, starting at 1. If no item is selected,
 
 Specifies the component's horizontal width, measured in pixels.
 
-[[PropertyBlockGetterAndSetter('List Picker', 'Width')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20Picker%22,%20%22name%22:%20%22Width%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20Picker%22,%20%22name%22:%20%22Width%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Width Percent
 
@@ -438,4 +504,4 @@ Specifies the component's horizontal width, measured in pixels.
 
 Specifies the component's horizontal width as a percentageof the Width of its parent Component.
 
-[[PropertyBlockGetterAndSetter('List Picker', 'Width Percent')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20Picker%22,%20%22name%22:%20%22Width%20Percent%22,%20%22getter%22:%20false%7D"></div>

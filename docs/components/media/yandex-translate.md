@@ -24,7 +24,8 @@ Note: Translation happens asynchronously in the background. When the translation
 
 Event triggered when the Yandex.Translate service returns the translated text. This event also provides a response code for error handling. If the responseCode is not 200, then something went wrong with the call, and the translation will not be available.
 
-[[Event('Yandex Translate', 'Got Translation', 'responseCode', 'translation')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Yandex%20Translate%22,%20%22name%22:%20%22Got%20Translation%22,%20%22params%22:%20%5B%22response%20Code%22,%20%22translation%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -40,7 +41,8 @@ By providing a target language to translate to (for instance, 'es' for Spanish, 
 Once the text is translated by the external service, the event GotTranslation will be executed
 Note: Yandex.Translate will attempt to detect the source language. You can also specify prepending it to the language translation. I.e., es-ru will specify Spanish to Russian translation.
 
-[[Method('Yandex Translate', 'Request Translation', False, 'languageToTranslateTo', 'textToTranslate')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Yandex%20Translate%22,%20%22name%22:%20%22Request%20Translation%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22language%20To%20Translate%20To%22,%20%22text%20To%20Translate%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -54,4 +56,4 @@ Note: Yandex.Translate will attempt to detect the source language. You can also 
 
 <span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
-[[PropertyBlockGetterAndSetter('Yandex Translate', 'API Key')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Yandex%20Translate%22,%20%22name%22:%20%22API%20Key%22,%20%22getter%22:%20false%7D"></div>

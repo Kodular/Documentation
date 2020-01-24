@@ -23,7 +23,8 @@ Firebase Storage to upload files to a Firebase Storage Bucket
 
 Triggers when the file could not be deleted
 
-[[Event('Firebase Storage', 'Delete Failed', 'file', 'message')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Firebase%20Storage%22,%20%22name%22:%20%22Delete%20Failed%22,%20%22params%22:%20%5B%22file%22,%20%22message%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -35,7 +36,8 @@ Triggers when the file could not be deleted
 
 Triggers when the file was successfully deleted
 
-[[Event('Firebase Storage', 'Delete Success', 'file')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Firebase%20Storage%22,%20%22name%22:%20%22Delete%20Success%22,%20%22params%22:%20%5B%22file%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -46,7 +48,8 @@ Triggers when the file was successfully deleted
 
 Triggers when the file could not be downloaded
 
-[[Event('Firebase Storage', 'Download Failed', 'file', 'message')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Firebase%20Storage%22,%20%22name%22:%20%22Download%20Failed%22,%20%22params%22:%20%5B%22file%22,%20%22message%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -58,7 +61,8 @@ Triggers when the file could not be downloaded
 
 Triggers when the file was successfully downloaded
 
-[[Event('Firebase Storage', 'Download Success', 'file', 'downloadedFile')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Firebase%20Storage%22,%20%22name%22:%20%22Download%20Success%22,%20%22params%22:%20%5B%22file%22,%20%22downloaded%20File%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -70,7 +74,8 @@ Triggers when the file was successfully downloaded
 
 Triggers when the file could not be uploaded
 
-[[Event('Firebase Storage', 'Upload Failed', 'file', 'message')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Firebase%20Storage%22,%20%22name%22:%20%22Upload%20Failed%22,%20%22params%22:%20%5B%22file%22,%20%22message%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -82,7 +87,8 @@ Triggers when the file could not be uploaded
 
 Triggers when the file upload progress changed
 
-[[Event('Firebase Storage', 'Upload Progress', 'file', 'uploadPath', 'transferredBytes', 'totalBytes')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Firebase%20Storage%22,%20%22name%22:%20%22Upload%20Progress%22,%20%22params%22:%20%5B%22file%22,%20%22upload%20Path%22,%20%22transferred%20Bytes%22,%20%22total%20Bytes%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -96,7 +102,8 @@ Triggers when the file upload progress changed
 
 Triggers when the file was successfully uploaded
 
-[[Event('Firebase Storage', 'Upload Success', 'file', 'uploadPath', 'downloadUrl')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Firebase%20Storage%22,%20%22name%22:%20%22Upload%20Success%22,%20%22params%22:%20%5B%22file%22,%20%22upload%20Path%22,%20%22download%20Url%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -111,7 +118,8 @@ Triggers when the file was successfully uploaded
 
 Try to delete a file from Firebase Storage
 
-[[Method('Firebase Storage', 'Delete File', False, 'file')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Firebase%20Storage%22,%20%22name%22:%20%22Delete%20File%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22file%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -122,7 +130,8 @@ Try to delete a file from Firebase Storage
 
 Try to download a file from Firebase Storage
 
-[[Method('Firebase Storage', 'Download File', False, 'file', 'toFolder')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Firebase%20Storage%22,%20%22name%22:%20%22Download%20File%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22file%22,%20%22to%20Folder%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -136,37 +145,43 @@ Try to download a file from Firebase Storage
 
 Get the name of the Storage Bucket
 
-[[Method('Firebase Storage', 'Get Bucket', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Firebase%20Storage%22,%20%22name%22:%20%22Get%20Bucket%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Pause Downloads
 
 Pause all the active downloads
 
-[[Method('Firebase Storage', 'Pause Downloads', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Firebase%20Storage%22,%20%22name%22:%20%22Pause%20Downloads%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Pause Uploads
 
 Pause all the active uploads
 
-[[Method('Firebase Storage', 'Pause Uploads', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Firebase%20Storage%22,%20%22name%22:%20%22Pause%20Uploads%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Resume Downloads
 
 Resume all the active downloads
 
-[[Method('Firebase Storage', 'Resume Downloads', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Firebase%20Storage%22,%20%22name%22:%20%22Resume%20Downloads%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Resume Uploads
 
 Resume all the active uploads
 
-[[Method('Firebase Storage', 'Resume Uploads', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Firebase%20Storage%22,%20%22name%22:%20%22Resume%20Uploads%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Upload File
 
 Try to upload a file to Firebase Storage
 
-[[Method('Firebase Storage', 'Upload File', False, 'file', 'uploadPath')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Firebase%20Storage%22,%20%22name%22:%20%22Upload%20File%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22file%22,%20%22upload%20Path%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|

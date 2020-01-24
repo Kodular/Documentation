@@ -22,7 +22,8 @@ A non-visible component that provides functions for HTTP GET, POST, PUT, and DEL
 
 Event indicating that a request has finished.
 
-[[Event('Web', 'Got File', 'url', 'responseCode', 'responseType', 'fileName')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Web%22,%20%22name%22:%20%22Got%20File%22,%20%22params%22:%20%5B%22url%22,%20%22response%20Code%22,%20%22response%20Type%22,%20%22file%20Name%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -36,7 +37,8 @@ Event indicating that a request has finished.
 
 Event indicating that a request has finished.
 
-[[Event('Web', 'Got Text', 'url', 'responseCode', 'responseType', 'responseContent')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Web%22,%20%22name%22:%20%22Got%20Text%22,%20%22params%22:%20%5B%22url%22,%20%22response%20Code%22,%20%22response%20Type%22,%20%22response%20Content%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -50,7 +52,8 @@ Event indicating that a request has finished.
 
 Event indicating that a request has timed out.
 
-[[Event('Web', 'Timed Out', 'url')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Web%22,%20%22name%22:%20%22Timed%20Out%22,%20%22params%22:%20%5B%22url%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -65,7 +68,8 @@ Event indicating that a request has timed out.
 
 Converts a list of two-element sublists, representing name and value pairs, to astring formatted as application/x-www-form-urlencoded media type, suitable to pass toPostText.
 
-[[Method('Web', 'Build Request Data', True, 'list')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Web%22,%20%22name%22:%20%22Build%20Request%20Data%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22list%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -76,7 +80,8 @@ Converts a list of two-element sublists, representing name and value pairs, to a
 
 Clears all cookies for this Web component.
 
-[[Method('Web', 'Clear Cookies', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Web%22,%20%22name%22:%20%22Clear%20Cookies%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Delete
 
@@ -84,7 +89,8 @@ Performs an HTTP DELETE request using the Url property and retrieves theresponse
 If the SaveResponse property is true, the response will be saved in a fileand the GotFile event will be triggered. The ResponseFileName propertycan be used to specify the name of the file.  
 If the SaveResponse property is false, the GotText event will betriggered.
 
-[[Method('Web', 'Delete', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Web%22,%20%22name%22:%20%22Delete%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Get
 
@@ -92,7 +98,8 @@ Performs an HTTP GET request using the Url property and retrieves theresponse.
 If the SaveResponse property is true, the response will be saved in a fileand the GotFile event will be triggered. The ResponseFileName propertycan be used to specify the name of the file.  
 If the SaveResponse property is false, the GotText event will betriggered.
 
-[[Method('Web', 'Get', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Web%22,%20%22name%22:%20%22Get%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### HTML Text Decode
 
@@ -100,7 +107,8 @@ If the SaveResponse property is false, the GotText event will betriggered.
 
 Decodes the given HTML text value. HTML character entities such as &amp;amp;, &amp;lt;, &amp;gt;, &amp;apos;, and &amp;quot; are changed to &amp;, &lt;, &gt;, ', and ". Entities such as &amp;#xhhhh, and &amp;#nnnn are changed to the appropriate characters.
 
-[[Method('Web', 'HTML Text Decode', True, 'htmlText')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Web%22,%20%22name%22:%20%22HTML%20Text%20Decode%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22html%20Text%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -114,7 +122,8 @@ Decodes the given HTML text value. HTML character entities such as &amp;amp;, &a
 Decodes the given JSON encoded value to produce a corresponding AppInventor value
 A JSON list [x, y, z] decodes to a list (x y z), A JSON object with name A and value B,(denoted as A:B enclosed in curly braces) decodes to a list((A B)), that is, a list containing the two-element list (A B).
 
-[[Method('Web', 'JSON Text Decode', True, 'jsonText')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Web%22,%20%22name%22:%20%22JSON%20Text%20Decode%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22json%20Text%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -127,7 +136,8 @@ Performs an HTTP POST request using the Url property and data from the specified
 If the SaveResponse property is true, the response will be saved in a file and the GotFile event will be triggered. The ResponseFileName property can be used to specify the name of the file.  
 If the SaveResponse property is false, the GotText event will be triggered.
 
-[[Method('Web', 'Post File', False, 'path')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Web%22,%20%22name%22:%20%22Post%20File%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22path%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -141,7 +151,8 @@ The characters of the text are encoded using UTF-8 encoding.
 If the SaveResponse property is true, the response will be saved in a file and the GotFile event will be triggered. The responseFileName property can be used to specify the name of the file.  
 If the SaveResponse property is false, the GotText event will be triggered.
 
-[[Method('Web', 'Post Text', False, 'text')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Web%22,%20%22name%22:%20%22Post%20Text%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22text%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -155,7 +166,8 @@ The characters of the text are encoded using the given encoding.
 If the SaveResponse property is true, the response will be saved in a file and the GotFile event will be triggered. The ResponseFileName property can be used to specify the name of the file.  
 If the SaveResponse property is false, the GotText event will be triggered.
 
-[[Method('Web', 'Post Text With Encoding', False, 'text', 'encoding')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Web%22,%20%22name%22:%20%22Post%20Text%20With%20Encoding%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22text%22,%20%22encoding%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -169,7 +181,8 @@ Performs an HTTP PUT request using the Url property and data from the specified 
 If the SaveResponse property is true, the response will be saved in a file and the GotFile event will be triggered. The ResponseFileName property can be used to specify the name of the file.  
 If the SaveResponse property is false, the GotText event will be triggered.
 
-[[Method('Web', 'Put File', False, 'path')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Web%22,%20%22name%22:%20%22Put%20File%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22path%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -183,7 +196,8 @@ The characters of the text are encoded using UTF-8 encoding.
 If the SaveResponse property is true, the response will be saved in a file and the GotFile event will be triggered. The responseFileName property can be used to specify the name of the file.  
 If the SaveResponse property is false, the GotText event will be triggered.
 
-[[Method('Web', 'Put Text', False, 'text')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Web%22,%20%22name%22:%20%22Put%20Text%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22text%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -197,7 +211,8 @@ The characters of the text are encoded using the given encoding.
 If the SaveResponse property is true, the response will be saved in a file and the GotFile event will be triggered. The ResponseFileName property can be used to specify the name of the file.  
 If the SaveResponse property is false, the GotText event will be triggered.
 
-[[Method('Web', 'Put Text With Encoding', False, 'text', 'encoding')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Web%22,%20%22name%22:%20%22Put%20Text%20With%20Encoding%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22text%22,%20%22encoding%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -211,7 +226,8 @@ If the SaveResponse property is false, the GotText event will be triggered.
 
 Decodes the encoded text value.
 
-[[Method('Web', 'URI Decode', True, 'text')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Web%22,%20%22name%22:%20%22URI%20Decode%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22text%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -224,7 +240,8 @@ Decodes the encoded text value.
 
 Encodes the given text value so that it can be used in a URL.
 
-[[Method('Web', 'URI Encode', True, 'text')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Web%22,%20%22name%22:%20%22URI%20Encode%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22text%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -237,7 +254,8 @@ Encodes the given text value so that it can be used in a URL.
 
 Decodes the given XML string to produce a list structure. See the App Inventor documentation on "Other topics, notes, and details" for information.
 
-[[Method('Web', 'XML Text Decode', True, 'XmlText')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Web%22,%20%22name%22:%20%22XML%20Text%20Decode%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22XmlText%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -252,7 +270,9 @@ Decodes the given XML string to produce a list structure. See the App Inventor d
 
 Whether the cookies from a response should be saved and used in subsequent requests. Cookies are only supported on Android version 2.3 or greater.
 
-[[PropertyBlockGetterAndSetter('Web', 'Allow Cookies')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Web%22,%20%22name%22:%20%22Allow%20Cookies%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Web%22,%20%22name%22:%20%22Allow%20Cookies%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Response File Name
 
@@ -260,7 +280,9 @@ Whether the cookies from a response should be saved and used in subsequent reque
 
 The name of the file where the response should be saved. If SaveResponse is true and ResponseFileName is empty, then a new file name will be generated.
 
-[[PropertyBlockGetterAndSetter('Web', 'Response File Name')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Web%22,%20%22name%22:%20%22Response%20File%20Name%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Web%22,%20%22name%22:%20%22Response%20File%20Name%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Save Response
 
@@ -268,7 +290,9 @@ The name of the file where the response should be saved. If SaveResponse is true
 
 Whether the response should be saved in a file.
 
-[[PropertyBlockGetterAndSetter('Web', 'Save Response')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Web%22,%20%22name%22:%20%22Save%20Response%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Web%22,%20%22name%22:%20%22Save%20Response%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Timeout
 
@@ -276,7 +300,9 @@ Whether the response should be saved in a file.
 
 The number of milliseconds that a web request will wait for a response before giving up. If set to 0, then there is no time limit on how long the request will wait.
 
-[[PropertyBlockGetterAndSetter('Web', 'Timeout')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Web%22,%20%22name%22:%20%22Timeout%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Web%22,%20%22name%22:%20%22Timeout%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### URL
 
@@ -284,7 +310,9 @@ The number of milliseconds that a web request will wait for a response before gi
 
 The URL for the web request.
 
-[[PropertyBlockGetterAndSetter('Web', 'URL')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Web%22,%20%22name%22:%20%22URL%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Web%22,%20%22name%22:%20%22URL%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Request Headers
 
@@ -292,4 +320,5 @@ The URL for the web request.
 
 The request headers, as a list of two-element sublists. The first element of each sublist represents the request header field name. The second element of each sublist represents the request header field values, either a single value or a list containing multiple values.
 
-[[PropertyBlockGetterAndSetter('Web', 'Request Headers')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Web%22,%20%22name%22:%20%22Request%20Headers%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Web%22,%20%22name%22:%20%22Request%20Headers%22,%20%22getter%22:%20false%7D"></div>

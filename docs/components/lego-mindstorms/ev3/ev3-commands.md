@@ -24,7 +24,8 @@ A component that provides a low-level interface to a LEGO MINDSTORMS EV3 robot, 
 
 Get the battery current.
 
-[[Method('EV3 Commands', 'Get Battery Current', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Commands%22,%20%22name%22:%20%22Get%20Battery%20Current%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Get Battery Voltage
 
@@ -32,7 +33,8 @@ Get the battery current.
 
 Get the battery voltage.
 
-[[Method('EV3 Commands', 'Get Battery Voltage', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Commands%22,%20%22name%22:%20%22Get%20Battery%20Voltage%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Get Firmware Build
 
@@ -40,7 +42,8 @@ Get the battery voltage.
 
 Get the firmware build on EV3.
 
-[[Method('EV3 Commands', 'Get Firmware Build', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Commands%22,%20%22name%22:%20%22Get%20Firmware%20Build%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Get Firmware Version
 
@@ -48,7 +51,8 @@ Get the firmware build on EV3.
 
 Get the firmware version on EV3.
 
-[[Method('EV3 Commands', 'Get Firmware Version', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Commands%22,%20%22name%22:%20%22Get%20Firmware%20Version%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Get Hardware Version
 
@@ -56,7 +60,8 @@ Get the firmware version on EV3.
 
 Get the hardware version of EV3.
 
-[[Method('EV3 Commands', 'Get Hardware Version', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Commands%22,%20%22name%22:%20%22Get%20Hardware%20Version%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Get OS Build
 
@@ -64,7 +69,8 @@ Get the hardware version of EV3.
 
 Get the OS build on EV3.
 
-[[Method('EV3 Commands', 'Get OS Build', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Commands%22,%20%22name%22:%20%22Get%20OS%20Build%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Get OS Version
 
@@ -72,13 +78,15 @@ Get the OS build on EV3.
 
 Get the OS version on EV3.
 
-[[Method('EV3 Commands', 'Get OS Version', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Commands%22,%20%22name%22:%20%22Get%20OS%20Version%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Keep Alive
 
 Keep the EV3 brick from shutdown for a period of time.
 
-[[Method('EV3 Commands', 'Keep Alive', False, 'minutes')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Commands%22,%20%22name%22:%20%22Keep%20Alive%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22minutes%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -93,4 +101,5 @@ Keep the EV3 brick from shutdown for a period of time.
 
 The BluetoothClient component that should be used for communication.
 
-[[PropertyBlockGetterAndSetter('EV3 Commands', 'Bluetooth Client')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Commands%22,%20%22name%22:%20%22Bluetooth%20Client%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Commands%22,%20%22name%22:%20%22Bluetooth%20Client%22,%20%22getter%22:%20false%7D"></div>

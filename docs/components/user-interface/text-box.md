@@ -24,19 +24,22 @@ If the text entered by the user should not be displayed, use `` PasswordTextBox 
 
 Event raised when this component is selected for input, such as bythe user touching it.
 
-[[Event('Text Box', 'Got Focus')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Text%20Box%22,%20%22name%22:%20%22Got%20Focus%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Lost Focus
 
 Event raised when this component is no longer selected for input, suchas if the user touches a different text box.
 
-[[Event('Text Box', 'Lost Focus')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Text%20Box%22,%20%22name%22:%20%22Lost%20Focus%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### On Text Changed
 
 Event to detect text changes.
 
-[[Event('Text Box', 'On Text Changed')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Text%20Box%22,%20%22name%22:%20%22On%20Text%20Changed%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Methods
 
@@ -44,7 +47,8 @@ Event to detect text changes.
 
 Allows you to set animation style. Valid (case-insensitive) values are: ChasingDots, Circle, CubeGrid, DoubleBounce, FadingCircle, FoldingCube, Pulse, RotatingCircle, RotatingPlane, ThreeBounce, WanderingCubes, Wave. If invalid style is used, animation will be removed.Position can be: top, left, right, bottom. Size can be 100.
 
-[[Method('Text Box', 'Set Animation Style', False, 'style', 'position', 'size', 'color')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Text%20Box%22,%20%22name%22:%20%22Set%20Animation%20Style%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22style%22,%20%22position%22,%20%22size%22,%20%22color%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -58,19 +62,22 @@ Allows you to set animation style. Valid (case-insensitive) values are: ChasingD
 
 Hide the keyboard. Only multiline text boxes need this. Single line text boxes close the keyboard when the users presses the Done key.
 
-[[Method('Text Box', 'Hide Keyboard', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Text%20Box%22,%20%22name%22:%20%22Hide%20Keyboard%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Request Focus
 
 Sets the textbox active.
 
-[[Method('Text Box', 'Request Focus', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Text%20Box%22,%20%22name%22:%20%22Request%20Focus%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Set Cursor At
 
 Set the cursor to the given position.
 
-[[Method('Text Box', 'Set Cursor At', False, 'position')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Text%20Box%22,%20%22name%22:%20%22Set%20Cursor%20At%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22position%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -81,13 +88,15 @@ Set the cursor to the given position.
 
 Set the cursor to the end of the text.
 
-[[Method('Text Box', 'Set Cursor At End', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Text%20Box%22,%20%22name%22:%20%22Set%20Cursor%20At%20End%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Set Shadow
 
 Place a blurred shadow of text underneath the text, drawn with the specified x, y, radius, color (e.g. -11, 12, 13, black
 
-[[Method('Text Box', 'Set Shadow', False, 'x', 'y', 'radius', 'color')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Text%20Box%22,%20%22name%22:%20%22Set%20Shadow%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22x%22,%20%22y%22,%20%22radius%22,%20%22color%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -101,7 +110,8 @@ Place a blurred shadow of text underneath the text, drawn with the specified x, 
 
 Shows an error message next to the textbox.
 
-[[Method('Text Box', 'Show Error Message', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Text%20Box%22,%20%22name%22:%20%22Show%20Error%20Message%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Properties
 
@@ -111,7 +121,9 @@ Shows an error message next to the textbox.
 
 The background color of the input box. You can choose a color by name in the Designer or in the Blocks Editor. The default background color is 'default' (shaded 3-D look).
 
-[[PropertyBlockGetterAndSetter('Text Box', 'Background Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Text%20Box%22,%20%22name%22:%20%22Background%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Text%20Box%22,%20%22name%22:%20%22Background%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Cursor Color
 
@@ -121,7 +133,9 @@ The background color of the input box. You can choose a color by name in the Des
 
 The color of the cursor.
 
-[[PropertyBlockGetterAndSetter('Text Box', 'Cursor Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Text%20Box%22,%20%22name%22:%20%22Cursor%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Text%20Box%22,%20%22name%22:%20%22Cursor%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Cursor Visible
 
@@ -131,7 +145,9 @@ The color of the cursor.
 
 Makes the cursor visible (the default) or invisible.
 
-[[PropertyBlockGetterAndSetter('Text Box', 'Cursor Visible')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Text%20Box%22,%20%22name%22:%20%22Cursor%20Visible%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Text%20Box%22,%20%22name%22:%20%22Cursor%20Visible%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Enabled
 
@@ -139,7 +155,9 @@ Makes the cursor visible (the default) or invisible.
 
 Whether the user can enter text into this input box. By default, this is true.
 
-[[PropertyBlockGetterAndSetter('Text Box', 'Enabled')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Text%20Box%22,%20%22name%22:%20%22Enabled%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Text%20Box%22,%20%22name%22:%20%22Enabled%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Error Text
 
@@ -147,7 +165,9 @@ Whether the user can enter text into this input box. By default, this is true.
 
 Returns the error text.
 
-[[PropertyBlockGetterAndSetter('Text Box', 'Error Text')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Text%20Box%22,%20%22name%22:%20%22Error%20Text%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Text%20Box%22,%20%22name%22:%20%22Error%20Text%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Font Bold
 
@@ -167,7 +187,9 @@ Whether the text should appear in italics. By default, it does not.
 
 The font size for the text. By default, it is 14.0 points.
 
-[[PropertyBlockGetterAndSetter('Text Box', 'Font Size')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Text%20Box%22,%20%22name%22:%20%22Font%20Size%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Text%20Box%22,%20%22name%22:%20%22Font%20Size%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Font Typeface
 
@@ -183,7 +205,8 @@ The font for the text. The value can be changed in the Designer.
 
 Set a custom font.
 
-[[PropertyBlockGetterAndSetter('Text Box', 'Font Typeface Import')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Text%20Box%22,%20%22name%22:%20%22Font%20Typeface%20Import%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Highlight Color
 
@@ -193,7 +216,9 @@ Set a custom font.
 
 Returns the color of the highlighted text.
 
-[[PropertyBlockGetterAndSetter('Text Box', 'Highlight Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Text%20Box%22,%20%22name%22:%20%22Highlight%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Text%20Box%22,%20%22name%22:%20%22Highlight%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Hint
 
@@ -201,7 +226,9 @@ Returns the color of the highlighted text.
 
 Text that should appear faintly in the input box to provide a hint as to what the user should enter. This can only be seen if the `` Text `` property is empty.
 
-[[PropertyBlockGetterAndSetter('Text Box', 'Hint')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Text%20Box%22,%20%22name%22:%20%22Hint%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Text%20Box%22,%20%22name%22:%20%22Hint%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Hint Color
 
@@ -209,7 +236,9 @@ Text that should appear faintly in the input box to provide a hint as to what th
 
 Set a custom hint text color.
 
-[[PropertyBlockGetterAndSetter('Text Box', 'Hint Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Text%20Box%22,%20%22name%22:%20%22Hint%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Text%20Box%22,%20%22name%22:%20%22Hint%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Input Type
 
@@ -217,7 +246,9 @@ Set a custom hint text color.
 
 The input type you want for this TextBox.
 
-[[PropertyBlockGetterAndSetter('Text Box', 'Input Type')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Text%20Box%22,%20%22name%22:%20%22Input%20Type%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Text%20Box%22,%20%22name%22:%20%22Input%20Type%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Multiline
 
@@ -225,7 +256,9 @@ The input type you want for this TextBox.
 
 If true, then this text box accepts multiple lines of input, which are entered using the return key. For single line text boxes there is a Done key instead of a return key, and pressing Done hides the keyboard. The app should call the HideKeyboard method to hide the keyboard for a mutiline text box.
 
-[[PropertyBlockGetterAndSetter('Text Box', 'Multiline')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Text%20Box%22,%20%22name%22:%20%22Multiline%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Text%20Box%22,%20%22name%22:%20%22Multiline%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Numbers Only (Not Working, Use Input Type)
 
@@ -235,7 +268,9 @@ If true, then this text box accepts multiple lines of input, which are entered u
 
 If true, then this text box accepts only numbers as keyboard input. Numbers can include a decimal point and an optional leading minus sign. This applies to keyboard input only. Even if NumbersOnly is true, you can use [set Text to] to enter any text at all.
 
-[[PropertyBlockGetterAndSetter('Text Box', 'Numbers Only Not Working. Use Input Type')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Text%20Box%22,%20%22name%22:%20%22Numbers%20Only%20(Not%20Working,%20Use%20Input%20Type)%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Text%20Box%22,%20%22name%22:%20%22Numbers%20Only%20(Not%20Working,%20Use%20Input%20Type)%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Read Only
 
@@ -243,7 +278,9 @@ If true, then this text box accepts only numbers as keyboard input. Numbers can 
 
 Whether the TextBox is read-only. By default, this is true.
 
-[[PropertyBlockGetterAndSetter('Text Box', 'Read Only')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Text%20Box%22,%20%22name%22:%20%22Read%20Only%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Text%20Box%22,%20%22name%22:%20%22Read%20Only%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Rotation Angle
 
@@ -253,7 +290,9 @@ Whether the TextBox is read-only. By default, this is true.
 
 Sets the degrees that the textbox is rotated around the pivot point. Increasing values result in clockwise rotation.
 
-[[PropertyBlockGetterAndSetter('Text Box', 'Rotation Angle')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Text%20Box%22,%20%22name%22:%20%22Rotation%20Angle%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Text%20Box%22,%20%22name%22:%20%22Rotation%20Angle%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Text
 
@@ -261,7 +300,9 @@ Sets the degrees that the textbox is rotated around the pivot point. Increasing 
 
 Returns the textbox contents.
 
-[[PropertyBlockGetterAndSetter('Text Box', 'Text')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Text%20Box%22,%20%22name%22:%20%22Text%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Text%20Box%22,%20%22name%22:%20%22Text%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Text Alignment
 
@@ -275,7 +316,9 @@ Whether the text should be left justified, centered, or right justified. By defa
 
 The color for the text. You can choose a color by name in the Designer or in the Blocks Editor. The default text color is black.
 
-[[PropertyBlockGetterAndSetter('Text Box', 'Text Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Text%20Box%22,%20%22name%22:%20%22Text%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Text%20Box%22,%20%22name%22:%20%22Text%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Visible
 
@@ -283,7 +326,9 @@ The color for the text. You can choose a color by name in the Designer or in the
 
 Returns true iff the component is visible.
 
-[[PropertyBlockGetterAndSetter('Text Box', 'Visible')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Text%20Box%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Text%20Box%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Column
 
@@ -297,7 +342,8 @@ Column property getter method.
 
 Get the current cursor position.
 
-[[PropertyBlockGetter('Text Box', 'Current Position')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Text%20Box%22,%20%22name%22:%20%22Current%20Position%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Enable Copy & Paste
 
@@ -307,7 +353,9 @@ Get the current cursor position.
 
 DEPRECATED since this feature is not working. Use 'Enabled' instead.
 
-[[PropertyBlockGetterAndSetter('Text Box', 'Enable Copy and Paste')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Text%20Box%22,%20%22name%22:%20%22Enable%20Copy%20&%20Paste%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Text%20Box%22,%20%22name%22:%20%22Enable%20Copy%20&%20Paste%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Height
 
@@ -315,7 +363,9 @@ DEPRECATED since this feature is not working. Use 'Enabled' instead.
 
 Specifies the component's vertical height, measured in pixels.
 
-[[PropertyBlockGetterAndSetter('Text Box', 'Height')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Text%20Box%22,%20%22name%22:%20%22Height%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Text%20Box%22,%20%22name%22:%20%22Height%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Height Percent
 
@@ -323,7 +373,8 @@ Specifies the component's vertical height, measured in pixels.
 
 Specifies the component's vertical height as a percentageof the height of its parent Component.
 
-[[PropertyBlockGetterAndSetter('Text Box', 'Height Percent')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Text%20Box%22,%20%22name%22:%20%22Height%20Percent%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Line Color
 
@@ -333,7 +384,9 @@ Specifies the component's vertical height as a percentageof the height of its pa
 
 Please delete this block from your project.This block is deprecated and not longer supported.
 
-[[PropertyBlockGetterAndSetter('Text Box', 'Line Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Text%20Box%22,%20%22name%22:%20%22Line%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Text%20Box%22,%20%22name%22:%20%22Line%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Row
 
@@ -347,7 +400,8 @@ Row property getter method.
 
 Returns the current text length as number.
 
-[[PropertyBlockGetter('Text Box', 'Text Length')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Text%20Box%22,%20%22name%22:%20%22Text%20Length%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Width
 
@@ -355,7 +409,9 @@ Returns the current text length as number.
 
 Specifies the component's horizontal width, measured in pixels.
 
-[[PropertyBlockGetterAndSetter('Text Box', 'Width')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Text%20Box%22,%20%22name%22:%20%22Width%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Text%20Box%22,%20%22name%22:%20%22Width%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Width Percent
 
@@ -363,4 +419,4 @@ Specifies the component's horizontal width, measured in pixels.
 
 Specifies the component's horizontal width as a percentageof the Width of its parent Component.
 
-[[PropertyBlockGetterAndSetter('Text Box', 'Width Percent')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Text%20Box%22,%20%22name%22:%20%22Width%20Percent%22,%20%22getter%22:%20false%7D"></div>

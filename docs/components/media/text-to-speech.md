@@ -26,7 +26,8 @@ The languages and countries available depend on the particular device, and can b
 
 Event to raise after the message is spoken.
 
-[[Event('Text To Speech', 'After Speaking', 'result')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Text%20To%20Speech%22,%20%22name%22:%20%22After%20Speaking%22,%20%22params%22:%20%5B%22result%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -37,7 +38,8 @@ Event to raise after the message is spoken.
 
 Event to raise when Speak is invoked, before the message is spoken.
 
-[[Event('Text To Speech', 'Before Speaking')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Text%20To%20Speech%22,%20%22name%22:%20%22Before%20Speaking%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Methods
 
@@ -45,7 +47,8 @@ Event to raise when Speak is invoked, before the message is spoken.
 
 Speaks the given message.
 
-[[Method('Text To Speech', 'Speak', False, 'message')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Text%20To%20Speech%22,%20%22name%22:%20%22Speak%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22message%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -60,7 +63,9 @@ Speaks the given message.
 
 Country code to use for speech generation. This can affect the pronounciation. For example, British English (GBR) will sound different from US English (USA). Not every country code will affect every language.
 
-[[PropertyBlockGetterAndSetter('Text To Speech', 'Country')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Text%20To%20Speech%22,%20%22name%22:%20%22Country%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Text%20To%20Speech%22,%20%22name%22:%20%22Country%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Language
 
@@ -68,7 +73,9 @@ Country code to use for speech generation. This can affect the pronounciation. F
 
 Sets the language for TextToSpeech. This changes the way that words are pronounced, not the actual language that is spoken. For example setting the language to and speaking English text with sound like someone speaking English with a French accent.
 
-[[PropertyBlockGetterAndSetter('Text To Speech', 'Language')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Text%20To%20Speech%22,%20%22name%22:%20%22Language%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Text%20To%20Speech%22,%20%22name%22:%20%22Language%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Pitch
 
@@ -76,7 +83,9 @@ Sets the language for TextToSpeech. This changes the way that words are pronounc
 
 Sets the Pitch for TextToSpeech The values should be between 0 and 2 where lower values lower the tone of synthesized voice and greater values raise it.
 
-[[PropertyBlockGetterAndSetter('Text To Speech', 'Pitch')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Text%20To%20Speech%22,%20%22name%22:%20%22Pitch%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Text%20To%20Speech%22,%20%22name%22:%20%22Pitch%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Speech Rate
 
@@ -84,7 +93,9 @@ Sets the Pitch for TextToSpeech The values should be between 0 and 2 where lower
 
 Sets the SpeechRate for TextToSpeech. The values should be between 0 and 2 where lower values slow down the pitch and greater values accelerate it.
 
-[[PropertyBlockGetterAndSetter('Text To Speech', 'Speech Rate')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Text%20To%20Speech%22,%20%22name%22:%20%22Speech%20Rate%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Text%20To%20Speech%22,%20%22name%22:%20%22Speech%20Rate%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Available Countries
 
@@ -92,7 +103,8 @@ Sets the SpeechRate for TextToSpeech. The values should be between 0 and 2 where
 
 List of the country codes available on this device for use with TextToSpeech. Check the Android developer documentation under supported languages to find the meanings of these abbreviations.
 
-[[PropertyBlockGetter('Text To Speech', 'Available Countries')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Text%20To%20Speech%22,%20%22name%22:%20%22Available%20Countries%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Available Languages
 
@@ -100,7 +112,8 @@ List of the country codes available on this device for use with TextToSpeech. Ch
 
 List of the languages available on this device for use with TextToSpeech. Check the Android developer documentation under supported languages to find the meanings of these abbreviations.
 
-[[PropertyBlockGetter('Text To Speech', 'Available Languages')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Text%20To%20Speech%22,%20%22name%22:%20%22Available%20Languages%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Result
 
@@ -108,4 +121,4 @@ List of the languages available on this device for use with TextToSpeech. Check 
 
 Result property getter method.
 
-[[PropertyBlockGetter('Text To Speech', 'Result')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Text%20To%20Speech%22,%20%22name%22:%20%22Result%22,%20%22getter%22:%20true%7D"></div>

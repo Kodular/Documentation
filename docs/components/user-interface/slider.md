@@ -14,7 +14,8 @@ A Slider is a progress bar that adds a draggable thumb. You can touch the thumb 
 
 Indicates that position of the slider thumb has changed.
 
-[[Event('Slider', 'Position Changed', 'thumbPosition')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Slider%22,%20%22name%22:%20%22Position%20Changed%22,%20%22params%22:%20%5B%22thumb%20Position%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -25,13 +26,15 @@ Indicates that position of the slider thumb has changed.
 
 Event will be invoked on a touch down.
 
-[[Event('Slider', 'Touch Down')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Slider%22,%20%22name%22:%20%22Touch%20Down%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Touch Up
 
 Event will be invoked on a touch up.
 
-[[Event('Slider', 'Touch Up')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Slider%22,%20%22name%22:%20%22Touch%20Up%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Properties
 
@@ -41,7 +44,9 @@ Event will be invoked on a touch up.
 
 The color of slider to the left of the thumb.
 
-[[PropertyBlockGetterAndSetter('Slider', 'Color Left')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Slider%22,%20%22name%22:%20%22Color%20Left%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Slider%22,%20%22name%22:%20%22Color%20Left%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Color Right
 
@@ -49,7 +54,9 @@ The color of slider to the left of the thumb.
 
 The color of slider to the left of the thumb.
 
-[[PropertyBlockGetterAndSetter('Slider', 'Color Right')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Slider%22,%20%22name%22:%20%22Color%20Right%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Slider%22,%20%22name%22:%20%22Color%20Right%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Max Value
 
@@ -57,7 +64,9 @@ The color of slider to the left of the thumb.
 
 Sets the maximum value of slider. Changing the maximum value also resets Thumbposition to be halfway between the minimum and the (new) maximum. If the new maximum is less than the current minimum, then minimum and maximum will both be set to this value. Setting MaxValue resets the thumb position to halfway between MinValue and MaxValue and signals the PositionChanged event.
 
-[[PropertyBlockGetterAndSetter('Slider', 'Max Value')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Slider%22,%20%22name%22:%20%22Max%20Value%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Slider%22,%20%22name%22:%20%22Max%20Value%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Min Value
 
@@ -65,7 +74,9 @@ Sets the maximum value of slider. Changing the maximum value also resets Thumbpo
 
 Sets the minimum value of slider. Changing the minimum value also resets Thumbposition to be halfway between the (new) minimum and the maximum. If the new minimum is greater than the current maximum, then minimum and maximum will both be set to this value. Setting MinValue resets the thumb position to halfway between MinValue and MaxValue and signals the PositionChanged event.
 
-[[PropertyBlockGetterAndSetter('Slider', 'Min Value')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Slider%22,%20%22name%22:%20%22Min%20Value%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Slider%22,%20%22name%22:%20%22Min%20Value%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Rotation Angle
 
@@ -75,7 +86,9 @@ Sets the minimum value of slider. Changing the minimum value also resets Thumbpo
 
 Sets the degrees that the slider is rotated around the pivot point. Increasing values result in clockwise rotation.
 
-[[PropertyBlockGetterAndSetter('Slider', 'Rotation Angle')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Slider%22,%20%22name%22:%20%22Rotation%20Angle%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Slider%22,%20%22name%22:%20%22Rotation%20Angle%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Thumb Color
 
@@ -83,7 +96,9 @@ Sets the degrees that the slider is rotated around the pivot point. Increasing v
 
 The color of slider thumb. This block works only on devices with api &gt;= 16.
 
-[[PropertyBlockGetterAndSetter('Slider', 'Thumb Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Slider%22,%20%22name%22:%20%22Thumb%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Slider%22,%20%22name%22:%20%22Thumb%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Thumb Enabled
 
@@ -91,7 +106,9 @@ The color of slider thumb. This block works only on devices with api &gt;= 16.
 
 Sets whether or not to display the slider thumb.
 
-[[PropertyBlockGetterAndSetter('Slider', 'Thumb Enabled')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Slider%22,%20%22name%22:%20%22Thumb%20Enabled%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Slider%22,%20%22name%22:%20%22Thumb%20Enabled%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Thumb Image
 
@@ -105,7 +122,9 @@ Sets whether or not to display the slider thumb.
 
 Sets the position of the slider thumb. If this value is greater than MaxValue, then it will be set to same value as MaxValue. If this value is less than MinValue, then it will be set to same value as MinValue.
 
-[[PropertyBlockGetterAndSetter('Slider', 'Thumb Position')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Slider%22,%20%22name%22:%20%22Thumb%20Position%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Slider%22,%20%22name%22:%20%22Thumb%20Position%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Visible
 
@@ -113,7 +132,9 @@ Sets the position of the slider thumb. If this value is greater than MaxValue, t
 
 Returns true iff the component is visible.
 
-[[PropertyBlockGetterAndSetter('Slider', 'Visible')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Slider%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Slider%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Column
 
@@ -133,7 +154,9 @@ Row property getter method.
 
 Specifies the component's horizontal width, measured in pixels.
 
-[[PropertyBlockGetterAndSetter('Slider', 'Width')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Slider%22,%20%22name%22:%20%22Width%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Slider%22,%20%22name%22:%20%22Width%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Width Percent
 
@@ -141,4 +164,4 @@ Specifies the component's horizontal width, measured in pixels.
 
 Specifies the component's horizontal width as a percentageof the Width of its parent Component.
 
-[[PropertyBlockGetterAndSetter('Slider', 'Width Percent')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Slider%22,%20%22name%22:%20%22Width%20Percent%22,%20%22getter%22:%20false%7D"></div>

@@ -18,7 +18,8 @@ A visible component that displays a list of elements consisting of an image and 
 
 Triggers when the user clicks on a item in the list
 
-[[Event('List View Image and Text', 'Click', 'position', 'title', 'subtitle', 'image')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Click%22,%20%22params%22:%20%5B%22position%22,%20%22title%22,%20%22subtitle%22,%20%22image%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -32,7 +33,8 @@ Triggers when the user clicks on a item in the list
 
 Triggers when the user long clicks on a item in the list
 
-[[Event('List View Image and Text', 'Long Click', 'position', 'title', 'subtitle', 'image')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Long%20Click%22,%20%22params%22:%20%5B%22position%22,%20%22title%22,%20%22subtitle%22,%20%22image%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -48,7 +50,8 @@ Triggers when the user long clicks on a item in the list
 
 Add a item to the list
 
-[[Method('List View Image and Text', 'Add Item', False, 'image', 'title', 'subtitle')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Add%20Item%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22image%22,%20%22title%22,%20%22subtitle%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -61,7 +64,8 @@ Add a item to the list
 
 Add a item to the list
 
-[[Method('List View Image and Text', 'Add Item From List', False, 'list')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Add%20Item%20From%20List%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22list%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -72,13 +76,15 @@ Add a item to the list
 
 Remove all the items from the list
 
-[[Method('List View Image and Text', 'Clear List', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Clear%20List%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Remove Item
 
 Remove a item from the list
 
-[[Method('List View Image and Text', 'Remove Item', False, 'position')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Remove%20Item%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22position%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -89,7 +95,8 @@ Remove a item from the list
 
 Update a item of the list
 
-[[Method('List View Image and Text', 'Update Item', False, 'position', 'image', 'title', 'subtitle')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Update%20Item%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22position%22,%20%22image%22,%20%22title%22,%20%22subtitle%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -107,7 +114,9 @@ Update a item of the list
 
 Set the background color of the listview
 
-[[PropertyBlockGetterAndSetter('List View Image and Text', 'Background Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Background%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Background%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Divider Color
 
@@ -117,7 +126,9 @@ Set the background color of the listview
 
 Set the divider color of the listview
 
-[[PropertyBlockGetterAndSetter('List View Image and Text', 'Divider Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Divider%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Divider%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Image Side
 
@@ -126,7 +137,9 @@ Set the divider color of the listview
 Set the side of the image  
 Set it to 1 for Left side and 2 for Right side
 
-[[PropertyBlockGetterAndSetter('List View Image and Text', 'Image Side')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Image%20Side%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Image%20Side%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Item Size
 
@@ -135,7 +148,9 @@ Set it to 1 for Left side and 2 for Right side
 Set ListItem Size  
 Set it to 1 for Normal size, 2 for Small size and 3 for Big size.
 
-[[PropertyBlockGetterAndSetter('List View Image and Text', 'Item Size')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Item%20Size%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Item%20Size%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Subtitle Bold
 
@@ -143,7 +158,9 @@ Set it to 1 for Normal size, 2 for Small size and 3 for Big size.
 
 Whether the subtitle should be in bold text
 
-[[PropertyBlockGetterAndSetter('List View Image and Text', 'Subtitle Bold')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Subtitle%20Bold%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Subtitle%20Bold%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Subtitle Color
 
@@ -151,7 +168,9 @@ Whether the subtitle should be in bold text
 
 Changed the color of the subtitle text
 
-[[PropertyBlockGetterAndSetter('List View Image and Text', 'Subtitle Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Subtitle%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Subtitle%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Subtitle Font Typeface
 
@@ -167,7 +186,8 @@ Change the Typeface of the Subtitle
 
 Set a custom title font.
 
-[[PropertyBlockGetterAndSetter('List View Image and Text', 'Subtitle Font Typeface Import')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Subtitle%20Font%20Typeface%20Import%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Subtitle HTML
 
@@ -177,7 +197,9 @@ Set a custom title font.
 
 If true, then the subtitle will show html text else it will show plain text. Note: Not all HTML is supported.
 
-[[PropertyBlockGetterAndSetter('List View Image and Text', 'Subtitle HTML')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Subtitle%20HTML%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Subtitle%20HTML%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Subtitle Italic
 
@@ -185,7 +207,9 @@ If true, then the subtitle will show html text else it will show plain text. Not
 
 Whether the subtitle should be in italic text
 
-[[PropertyBlockGetterAndSetter('List View Image and Text', 'Subtitle Italic')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Subtitle%20Italic%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Subtitle%20Italic%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Subtitle Text Size
 
@@ -193,7 +217,9 @@ Whether the subtitle should be in italic text
 
 The text size of the subtitle.
 
-[[PropertyBlockGetterAndSetter('List View Image and Text', 'Subtitle Text Size')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Subtitle%20Text%20Size%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Subtitle%20Text%20Size%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Title Bold
 
@@ -201,7 +227,9 @@ The text size of the subtitle.
 
 Whether the title should be in bold text
 
-[[PropertyBlockGetterAndSetter('List View Image and Text', 'Title Bold')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Title%20Bold%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Title%20Bold%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Title Color
 
@@ -209,7 +237,9 @@ Whether the title should be in bold text
 
 Changed the color of the title text
 
-[[PropertyBlockGetterAndSetter('List View Image and Text', 'Title Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Title%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Title%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Title Font Typeface
 
@@ -225,7 +255,8 @@ Change the Typeface of the Title
 
 Set a custom title font.
 
-[[PropertyBlockGetterAndSetter('List View Image and Text', 'Title Font Typeface Import')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Title%20Font%20Typeface%20Import%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Title HTML
 
@@ -235,7 +266,9 @@ Set a custom title font.
 
 If true, then the title will show html text else it will show plain text. Note: Not all HTML is supported.
 
-[[PropertyBlockGetterAndSetter('List View Image and Text', 'Title HTML')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Title%20HTML%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Title%20HTML%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Title Italic
 
@@ -243,7 +276,9 @@ If true, then the title will show html text else it will show plain text. Note: 
 
 Whether the title should be in italic text
 
-[[PropertyBlockGetterAndSetter('List View Image and Text', 'Title Italic')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Title%20Italic%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Title%20Italic%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Title Text Size
 
@@ -251,7 +286,9 @@ Whether the title should be in italic text
 
 The text size of the title.
 
-[[PropertyBlockGetterAndSetter('List View Image and Text', 'Title Text Size')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Title%20Text%20Size%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Title%20Text%20Size%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Visible
 
@@ -259,7 +296,9 @@ The text size of the title.
 
 Returns true iff the component is visible.
 
-[[PropertyBlockGetterAndSetter('List View Image and Text', 'Visible')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Column
 
@@ -273,7 +312,9 @@ Column property getter method.
 
 Determines the height of the list on the view.
 
-[[PropertyBlockGetterAndSetter('List View Image and Text', 'Height')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Height%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Height%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Height Percent
 
@@ -281,7 +322,8 @@ Determines the height of the list on the view.
 
 Specifies the component's vertical height as a percentageof the height of its parent Component.
 
-[[PropertyBlockGetterAndSetter('List View Image and Text', 'Height Percent')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Height%20Percent%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Row
 
@@ -295,7 +337,9 @@ Row property getter method.
 
 Determines the width of the list on the view.
 
-[[PropertyBlockGetterAndSetter('List View Image and Text', 'Width')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Width%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Width%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Width Percent
 
@@ -303,4 +347,4 @@ Determines the width of the list on the view.
 
 Specifies the component's horizontal width as a percentageof the Width of its parent Component.
 
-[[PropertyBlockGetterAndSetter('List View Image and Text', 'Width Percent')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Width%20Percent%22,%20%22getter%22:%20false%7D"></div>

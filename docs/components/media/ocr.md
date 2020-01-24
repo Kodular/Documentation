@@ -21,7 +21,8 @@ A non-visible component that reads text from images using Optical Character Reco
 
 You will find here the success state and the response content.
 
-[[Event('OCR', 'Got Response', 'success', 'responseContent')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22OCR%22,%20%22name%22:%20%22Got%20Response%22,%20%22params%22:%20%5B%22success%22,%20%22response%20Content%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -33,7 +34,8 @@ You will find here the success state and the response content.
 
 You will find here the server status from the ocr provider. Possible results are 'UP' or 'DOWN'. 'pro Usa1' = Usa, East Coast. 'pro Usa2' = Usa, West Coast.
 
-[[Event('OCR', 'Got Server Status', 'free', 'proUsa1', 'proUsa2', 'proEurope', 'proAsia')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22OCR%22,%20%22name%22:%20%22Got%20Server%20Status%22,%20%22params%22:%20%5B%22free%22,%20%22pro%20USA%201%22,%20%22pro%20USA%202%22,%20%22pro%20Europe%22,%20%22pro%20Asia%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -50,13 +52,15 @@ You will find here the server status from the ocr provider. Possible results are
 
 Get the server status from the free ocr.space server. This is helpful if you want to know if the server is online or offline. Returns true when online, else false when offline.
 
-[[Method('OCR', 'Get OCR Server Status', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22OCR%22,%20%22name%22:%20%22Get%20OCR%20Server%20Status%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Get Text From Image Url
 
 Get the text from a picture via the image url. Example: http://name/yourimage.jpg. Service powered by ocr.space.
 
-[[Method('OCR', 'Get Text From Image Url', False, 'imageUrl')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22OCR%22,%20%22name%22:%20%22Get%20Text%20From%20Image%20Url%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22image%20URL%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -67,7 +71,8 @@ Get the text from a picture via the image url. Example: http://name/yourimage.jp
 
 Upload your image to the server from ocr.space and then you get back the text from the picture.
 
-[[Method('OCR', 'Upload Image', False, 'path')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22OCR%22,%20%22name%22:%20%22Upload%20Image%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22path%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -82,7 +87,9 @@ Upload your image to the server from ocr.space and then you get back the text fr
 
 You can use the default api key: helloworld, or you can create your own api key at: https://ocr.space/ocrapi
 
-[[PropertyBlockGetterAndSetter('OCR', 'API Key')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22OCR%22,%20%22name%22:%20%22API%20Key%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22OCR%22,%20%22name%22:%20%22API%20Key%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Create Searchable PDF
 
@@ -90,7 +97,9 @@ You can use the default api key: helloworld, or you can create your own api key 
 
 A searchable PDF file is a PDF file that includes text that can be searched upon using the standard Adobe Reader “search” functionality. In addition, the text can be selected and copied from the PDF. In this case the JSON response of the API contains a download link for the the searchable PDF. This download link is valid for one hour, than all data is removed from the OCR servers.
 
-[[PropertyBlockGetterAndSetter('OCR', 'Create Searchable PDF')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22OCR%22,%20%22name%22:%20%22Create%20Searchable%20PDF%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22OCR%22,%20%22name%22:%20%22Create%20Searchable%20PDF%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Language
 
@@ -98,7 +107,9 @@ A searchable PDF file is a PDF file that includes text that can be searched upon
 
 Choose the language used for OCR. If no language is specified, English is taken as 'Default'.
 
-[[PropertyBlockGetterAndSetter('OCR', 'Language')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22OCR%22,%20%22name%22:%20%22Language%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22OCR%22,%20%22name%22:%20%22Language%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Overlaid
 
@@ -106,7 +117,9 @@ Choose the language used for OCR. If no language is specified, English is taken 
 
 Allows you to specify if the image/pdf text overlay is required. Overlay could be used to show the text over the image.
 
-[[PropertyBlockGetterAndSetter('OCR', 'Overlaid')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22OCR%22,%20%22name%22:%20%22Overlaid%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22OCR%22,%20%22name%22:%20%22Overlaid%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Return Only Message
 
@@ -114,7 +127,8 @@ Allows you to specify if the image/pdf text overlay is required. Overlay could b
 
 Set this block before you upload a image and before you try to get the response from a image url. If this property is set to true, the response content returns only the message. That means the response content will be only the scanned text in words.
 
-[[PropertyBlockGetterAndSetter('OCR', 'Return Only Message')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22OCR%22,%20%22name%22:%20%22Return%20Only%20Message%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Return Only PDF Link
 
@@ -122,7 +136,8 @@ Set this block before you upload a image and before you try to get the response 
 
 Set this block before you upload a image and before you try to get the response from a image url. If this property is set to true, the response content returns only the created pdf download link.
 
-[[PropertyBlockGetterAndSetter('OCR', 'Return Only PDF Link')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22OCR%22,%20%22name%22:%20%22Return%20Only%20PDF%20Link%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Test Image URL
 
@@ -130,4 +145,4 @@ Set this block before you upload a image and before you try to get the response 
 
 You can use the test image url if you have not any picture online on a server or else.
 
-[[PropertyBlockGetter('OCR', 'Test Image URL')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22OCR%22,%20%22name%22:%20%22Test%20Image%20URL%22,%20%22getter%22:%20true%7D"></div>

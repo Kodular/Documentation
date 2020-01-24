@@ -16,7 +16,8 @@ A component to create dynamic labels in Arrangements
 
 Create a Dynamic Label
 
-[[Method('Dynamic Label', 'Create Label', False, 'id', 'arrangement')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Label%22,%20%22name%22:%20%22Create%20Label%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22id%22,%20%22arrangement%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -28,7 +29,8 @@ Create a Dynamic Label
 
 Remove a label component with the given id.
 
-[[Method('Dynamic Label', 'Delete Label', False, 'id')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Label%22,%20%22name%22:%20%22Delete%20Label%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22id%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -41,7 +43,8 @@ Remove a label component with the given id.
 
 Get the Font Size of a Label
 
-[[Method('Dynamic Label', 'Get Font Size', True, 'id')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Label%22,%20%22name%22:%20%22Get%20Font%20Size%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22id%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -54,7 +57,8 @@ Get the Font Size of a Label
 
 Get the Height of a Label
 
-[[Method('Dynamic Label', 'Get Height', True, 'id')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Label%22,%20%22name%22:%20%22Get%20Height%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22id%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -67,7 +71,8 @@ Get the Height of a Label
 
 Returns the label referenced by its id.
 
-[[Method('Dynamic Label', 'Get Label By Id', True, 'id')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Label%22,%20%22name%22:%20%22Get%20Label%20By%20Id%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22id%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -80,7 +85,8 @@ Returns the label referenced by its id.
 
 Get the Text of a Label
 
-[[Method('Dynamic Label', 'Get Text', True, 'id')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Label%22,%20%22name%22:%20%22Get%20Text%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22id%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -93,7 +99,8 @@ Get the Text of a Label
 
 Get the Width of a Label
 
-[[Method('Dynamic Label', 'Get Width', True, 'id')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Label%22,%20%22name%22:%20%22Get%20Width%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22id%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -104,7 +111,8 @@ Get the Width of a Label
 
 Update the Text Alignment of a Label. 0 = left, 1 = center and 2 = right.
 
-[[Method('Dynamic Label', 'Set Alignment', False, 'id', 'alignment')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Label%22,%20%22name%22:%20%22Set%20Alignment%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22id%22,%20%22alignment%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -116,7 +124,8 @@ Update the Text Alignment of a Label. 0 = left, 1 = center and 2 = right.
 
 Update the Background Color of a Label
 
-[[Method('Dynamic Label', 'Set Background Color', False, 'id', 'color')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Label%22,%20%22name%22:%20%22Set%20Background%20Color%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22id%22,%20%22color%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -128,7 +137,8 @@ Update the Background Color of a Label
 
 Update the Font of a Label
 
-[[Method('Dynamic Label', 'Set Font', False, 'id', 'bold', 'italic')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Label%22,%20%22name%22:%20%22Set%20Font%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22id%22,%20%22bold%22,%20%22italic%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -141,7 +151,8 @@ Update the Font of a Label
 
 Update the Font Size of a Label
 
-[[Method('Dynamic Label', 'Set Font Size', False, 'id', 'size')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Label%22,%20%22name%22:%20%22Set%20Font%20Size%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22id%22,%20%22size%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -153,7 +164,8 @@ Update the Font Size of a Label
 
 Update the Height of a Label
 
-[[Method('Dynamic Label', 'Set Height', False, 'id', 'height')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Label%22,%20%22name%22:%20%22Set%20Height%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22id%22,%20%22height%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -165,7 +177,8 @@ Update the Height of a Label
 
 Update the Text of a Label
 
-[[Method('Dynamic Label', 'Set Text', False, 'id', 'text', 'html')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Label%22,%20%22name%22:%20%22Set%20Text%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22id%22,%20%22text%22,%20%22html%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -178,7 +191,8 @@ Update the Text of a Label
 
 Update the Text Color of a Label
 
-[[Method('Dynamic Label', 'Set Text Color', False, 'id', 'color')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Label%22,%20%22name%22:%20%22Set%20Text%20Color%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22id%22,%20%22color%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -190,7 +204,8 @@ Update the Text Color of a Label
 
 Update the Width of a Label
 
-[[Method('Dynamic Label', 'Set Width', False, 'id', 'width')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Label%22,%20%22name%22:%20%22Set%20Width%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22id%22,%20%22width%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -206,7 +221,8 @@ Update the Width of a Label
 
 Center alignment (1)
 
-[[PropertyBlockGetter('Dynamic Label', 'Alignment Center')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Label%22,%20%22name%22:%20%22Alignment%20Center%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Alignment Left
 
@@ -214,7 +230,8 @@ Center alignment (1)
 
 Left alignment (0)
 
-[[PropertyBlockGetter('Dynamic Label', 'Alignment Left')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Label%22,%20%22name%22:%20%22Alignment%20Left%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Alignment Right
 
@@ -222,4 +239,4 @@ Left alignment (0)
 
 Right alignment (2)
 
-[[PropertyBlockGetter('Dynamic Label', 'Alignment Right')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Label%22,%20%22name%22:%20%22Alignment%20Right%22,%20%22getter%22:%20true%7D"></div>

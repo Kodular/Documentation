@@ -16,13 +16,15 @@ A non-visible component that displays an alert at the bottom of the screen.
 
 User clicked on the action button.
 
-[[Event('Snackbar', 'Click')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Snackbar%22,%20%22name%22:%20%22Click%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### On Dismissed
 
 Event to detect the snackbar was dismissed. Possible results can be: "UNDEFINED", "ACTION", "CONSECUTIVE", "MANUAL", "SWIPE" or "TIMEOUT". You can find more information at: https://developer.android.com/reference/android/support/design/widget/Snackbar.Callback.html
 
-[[Event('Snackbar', 'On Dismissed', 'event')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Snackbar%22,%20%22name%22:%20%22On%20Dismissed%22,%20%22params%22:%20%5B%22event%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -33,7 +35,8 @@ Event to detect the snackbar was dismissed. Possible results can be: "UNDEFINED"
 
 Event to detect the snackbar is shown.
 
-[[Event('Snackbar', 'On Shown')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Snackbar%22,%20%22name%22:%20%22On%20Shown%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Methods
 
@@ -41,7 +44,8 @@ Event to detect the snackbar is shown.
 
 Dismiss the snackbar.
 
-[[Method('Snackbar', 'Dismiss', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Snackbar%22,%20%22name%22:%20%22Dismiss%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Is Shown
 
@@ -49,13 +53,15 @@ Dismiss the snackbar.
 
 Returns true whether this snackbar is currently being shown.
 
-[[Method('Snackbar', 'Is Shown', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Snackbar%22,%20%22name%22:%20%22Is%20Shown%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Show
 
 Show Snackbar (message supports HTML formatting)
 
-[[Method('Snackbar', 'Show', False, 'message')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Snackbar%22,%20%22name%22:%20%22Show%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22message%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -66,7 +72,8 @@ Show Snackbar (message supports HTML formatting)
 
 Show Snackbar with action button (message supports HTML formatting)
 
-[[Method('Snackbar', 'Show With Button', False, 'message', 'buttonText')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Snackbar%22,%20%22name%22:%20%22Show%20With%20Button%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22message%22,%20%22button%20Text%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -82,7 +89,9 @@ Show Snackbar with action button (message supports HTML formatting)
 
 Specifies the snackbar's background color.
 
-[[PropertyBlockGetterAndSetter('Snackbar', 'Background Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Snackbar%22,%20%22name%22:%20%22Background%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Snackbar%22,%20%22name%22:%20%22Background%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Button Text Color
 
@@ -90,7 +99,9 @@ Specifies the snackbar's background color.
 
 Specifies the action button's text color.
 
-[[PropertyBlockGetterAndSetter('Snackbar', 'Button Text Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Snackbar%22,%20%22name%22:%20%22Button%20Text%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Snackbar%22,%20%22name%22:%20%22Button%20Text%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Duration
 
@@ -102,4 +113,5 @@ Specifies the length of time that the Snackbar is shown
 
 <span class="chip chip-color">Color</span> <span class="chip chip-color" style="background-color: #FFFFFF;">Default: <i>#FFFFFFFF</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
-[[PropertyBlockGetterAndSetter('Snackbar', 'Text Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Snackbar%22,%20%22name%22:%20%22Text%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Snackbar%22,%20%22name%22:%20%22Text%20Color%22,%20%22getter%22:%20false%7D"></div>

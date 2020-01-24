@@ -33,7 +33,8 @@ You must obtain a Consumer Key and Consumer Secret for Twitter authorization spe
 
 This event is raised when the recent messages requested through `` RequestDirectMessages `` have been retrieved. A list of the messages can then be found in the `` messages `` parameter or the `` Messages `` property.
 
-[[Event('Twitter', 'Direct Messages Received', 'messages')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22Direct%20Messages%20Received%22,%20%22params%22:%20%5B%22messages%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -44,7 +45,8 @@ This event is raised when the recent messages requested through `` RequestDirect
 
 This event is raised when all of the followers of the logged-in user requested through `` RequestFollowers `` have been retrieved. A list of the followers can then be found in the `` followers `` parameter or the `` Followers `` property.
 
-[[Event('Twitter', 'Followers Received', 'followers2')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22Followers%20Received%22,%20%22params%22:%20%5B%22followers%202%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -55,7 +57,8 @@ This event is raised when all of the followers of the logged-in user requested t
 
 This event is raised when the messages requested through `` RequestFriendTimeline `` have been retrieved. The `` timeline `` parameter and the `` Timeline `` property will contain a list of lists, where each sub-list contains a status update of the form (username message)
 
-[[Event('Twitter', 'Friend Timeline Received', 'timeline')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22Friend%20Timeline%20Received%22,%20%22params%22:%20%5B%22timeline%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -66,13 +69,15 @@ This event is raised when the messages requested through `` RequestFriendTimelin
 
 This event is raised after the program calls `` Authorize `` if the authorization was successful. It is also called after a call to `` CheckAuthorized `` if we already have a valid access token. After this event has been raised, any other method for this component can be called.
 
-[[Event('Twitter', 'Is Authorized')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22Is%20Authorized%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Mentions Received
 
 This event is raised when the mentions of the logged-in user requested through `` RequestMentions `` have been retrieved. A list of the mentions can then be found in the `` mentions `` parameter or the `` Mentions `` property.
 
-[[Event('Twitter', 'Mentions Received', 'mentions')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22Mentions%20Received%22,%20%22params%22:%20%5B%22mentions%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -83,7 +88,8 @@ This event is raised when the mentions of the logged-in user requested through `
 
 This event is raised when the results of the search requested through `` SearchSuccessful `` have been retrieved. A list of the results can then be found in the `` results `` parameter or the `` Results `` property.
 
-[[Event('Twitter', 'Search Successful', 'searchResults')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22Search%20Successful%22,%20%22params%22:%20%5B%22search%20Results%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -96,19 +102,22 @@ This event is raised when the results of the search requested through `` SearchS
 
 Redirects user to login to Twitter via the Web browser using the OAuth protocol if we don't already have authorization.
 
-[[Method('Twitter', 'Authorize', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22Authorize%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Check Authorized
 
 Checks whether we already have access, and if so, causes IsAuthorized event handler to be called.
 
-[[Method('Twitter', 'Check Authorized', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22Check%20Authorized%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### De Authorize
 
 Removes Twitter authorization from this running app instance
 
-[[Method('Twitter', 'De Authorize', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22De%20Authorize%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Direct Message
 
@@ -116,7 +125,8 @@ This sends a direct (private) message to the specified user. The message will be
 
 <u>Requirements</u>: This should only be called after the `` IsAuthorized `` event has been raised, indicating that the user has successfully logged in to Twitter.
 
-[[Method('Twitter', 'Direct Message', False, 'user', 'message')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22Direct%20Message%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22user%22,%20%22message%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -128,7 +138,8 @@ This sends a direct (private) message to the specified user. The message will be
 
 Starts following a user.
 
-[[Method('Twitter', 'Follow', False, 'user')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22Follow%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22user%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -139,7 +150,8 @@ Starts following a user.
 
 Twitter's API no longer supports login via username and password. Use the Authorize call instead.
 
-[[Method('Twitter', 'Login', False, 'username', 'password')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22Login%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22username%22,%20%22password%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -153,19 +165,22 @@ Requests the 20 most recent direct messages sent to the logged-in user. When the
 
 <u>Requirements</u>: This should only be called after the `` IsAuthorized `` event has been raised, indicating that the user has successfully logged in to Twitter.
 
-[[Method('Twitter', 'Request Direct Messages', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22Request%20Direct%20Messages%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Request Followers
 
 Gets who is following you.
 
-[[Method('Twitter', 'Request Followers', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22Request%20Followers%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Request Friend Timeline
 
 Gets the most recent 20 messages in the user's timeline.
 
-[[Method('Twitter', 'Request Friend Timeline', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22Request%20Friend%20Timeline%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Request Mentions
 
@@ -173,7 +188,8 @@ Requests the 20 most recent mentions of the logged-in user. When the mentions ha
 
 <u>Requirements</u>: This should only be called after the `` IsAuthorized `` event has been raised, indicating that the user has successfully logged in to Twitter.
 
-[[Method('Twitter', 'Request Mentions', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22Request%20Mentions%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Search Twitter
 
@@ -181,7 +197,8 @@ This searches Twitter for the given String query.
 
 <u>Requirements</u>: This should only be called after the `` IsAuthorized `` event has been raised, indicating that the user has successfully logged in to Twitter.
 
-[[Method('Twitter', 'Search Twitter', False, 'query')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22Search%20Twitter%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22query%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -192,7 +209,8 @@ This searches Twitter for the given String query.
 
 Stops following a user.
 
-[[Method('Twitter', 'Stop Following', False, 'user')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22Stop%20Following%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22user%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -205,7 +223,8 @@ This sends a tweet as the logged-in user with the specified Text, which will be 
 
 <u>Requirements</u>: This should only be called after the `` IsAuthorized `` event has been raised, indicating that the user has successfully logged in to Twitter.
 
-[[Method('Twitter', 'Tweet', False, 'status')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22Tweet%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22status%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -218,7 +237,8 @@ This sends a tweet as the logged-in user with the specified Text and a path to t
 
 <u>Requirements</u>: This should only be called after the `` IsAuthorized `` event has been raised, indicating that the user has successfully logged in to Twitter.
 
-[[Method('Twitter', 'Tweet With Image', False, 'status', 'imagePath')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22Tweet%20With%20Image%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22status%22,%20%22image%20Path%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -234,7 +254,9 @@ This sends a tweet as the logged-in user with the specified Text and a path to t
 
 ConsumerKey property getter method.
 
-[[PropertyBlockGetterAndSetter('Twitter', 'Consumer Key')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22Consumer%20Key%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22Consumer%20Key%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Consumer Secret
 
@@ -242,7 +264,9 @@ ConsumerKey property getter method.
 
 ConsumerSecret property getter method.
 
-[[PropertyBlockGetterAndSetter('Twitter', 'Consumer Secret')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22Consumer%20Secret%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22Consumer%20Secret%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Direct Messages
 
@@ -257,7 +281,8 @@ This property contains a list of the most recent messages mentioning the logged-
 
 The value of this property will then be set to the list of direct messages retrieved (and maintain that value until any subsequent call to `` RequestDirectMessages ``).
 
-[[PropertyBlockGetter('Twitter', 'Direct Messages')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22Direct%20Messages%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Followers
 
@@ -272,7 +297,8 @@ This property contains a list of the followers of the logged-in user. Initially,
 
 The value of this property will then be set to the list of followers (and maintain its value until any subsequent call to `` RequestFollowers ``).
 
-[[PropertyBlockGetter('Twitter', 'Followers')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22Followers%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Friend Time line
 
@@ -289,7 +315,8 @@ This property contains the 20 most recent messages of users being followed. Init
 
 The value of this property will then be set to the list of messages (and maintain its value until any subsequent call to `` RequestFriendTimeline ``.
 
-[[PropertyBlockGetter('Twitter', 'Friend Time line')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22Friend%20Time%20line%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Mentions
 
@@ -304,7 +331,8 @@ This property contains a list of mentions of the logged-in user. Initially, the 
 
 The value of this property will then be set to the list of mentions (and will maintain its value until any subsequent calls to `` RequestMentions ``).
 
-[[PropertyBlockGetter('Twitter', 'Mentions')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22Mentions%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Search Results
 
@@ -317,7 +345,8 @@ This property, which is initially empty, is set to a list of search results afte
 
 The value of the property will then be the same as the parameter to `` SearchSuccessful ``. Note that it is not necessary to call the `` Authorize `` method before calling `` SearchTwitter ``.
 
-[[PropertyBlockGetter('Twitter', 'Search Results')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22Search%20Results%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### TwitPic_API_Key
 
@@ -327,7 +356,9 @@ The value of the property will then be the same as the parameter to `` SearchSuc
 
 TwitPicAPIkey property getter method.
 
-[[PropertyBlockGetterAndSetter('Twitter', 'TwitPic_API_Key')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22TwitPic_API_Key%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22TwitPic_API_Key%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Username
 
@@ -335,4 +366,4 @@ TwitPicAPIkey property getter method.
 
 The user name of the authorized user. Empty if there is no authorized user.
 
-[[PropertyBlockGetter('Twitter', 'Username')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22Username%22,%20%22getter%22:%20true%7D"></div>

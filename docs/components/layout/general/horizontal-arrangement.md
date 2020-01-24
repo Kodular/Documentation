@@ -14,13 +14,15 @@ A formatting element in which to place components that should be displayed from 
 
 Click listener event.
 
-[[Event('Horizontal Arrangement', 'Click')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Horizontal%20Arrangement%22,%20%22name%22:%20%22Click%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Long Click
 
 Long click listener event.
 
-[[Event('Horizontal Arrangement', 'Long Click')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Horizontal%20Arrangement%22,%20%22name%22:%20%22Long%20Click%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Properties
 
@@ -30,7 +32,9 @@ Long click listener event.
 
 A number that encodes how contents of the arrangement are aligned horizontally. The choices are: 1 = left aligned, 2 = right aligned, 3 = horizontally centered. Alignment has no effect if the arrangement's width is automatic.
 
-[[PropertyBlockGetterAndSetter('Horizontal Arrangement', 'Align Horizontal')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Horizontal%20Arrangement%22,%20%22name%22:%20%22Align%20Horizontal%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Horizontal%20Arrangement%22,%20%22name%22:%20%22Align%20Horizontal%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Align Vertical
 
@@ -38,7 +42,9 @@ A number that encodes how contents of the arrangement are aligned horizontally. 
 
 A number that encodes how the contents of the arrangement are aligned vertically. The choices are: 1 = aligned at the top, 2 = vertically centered, 3 = aligned at the bottom. Alignment has no effect if the arrangement's height is automatic.
 
-[[PropertyBlockGetterAndSetter('Horizontal Arrangement', 'Align Vertical')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Horizontal%20Arrangement%22,%20%22name%22:%20%22Align%20Vertical%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Horizontal%20Arrangement%22,%20%22name%22:%20%22Align%20Vertical%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Background Color
 
@@ -46,7 +52,9 @@ A number that encodes how the contents of the arrangement are aligned vertically
 
 Returns the component's background color
 
-[[PropertyBlockGetterAndSetter('Horizontal Arrangement', 'Background Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Horizontal%20Arrangement%22,%20%22name%22:%20%22Background%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Horizontal%20Arrangement%22,%20%22name%22:%20%22Background%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Clickable
 
@@ -54,7 +62,9 @@ Returns the component's background color
 
 Set the component clickable or not clickable.
 
-[[PropertyBlockGetterAndSetter('Horizontal Arrangement', 'Clickable')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Horizontal%20Arrangement%22,%20%22name%22:%20%22Clickable%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Horizontal%20Arrangement%22,%20%22name%22:%20%22Clickable%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Image
 
@@ -62,7 +72,9 @@ Set the component clickable or not clickable.
 
 Returns the path of the button's image.
 
-[[PropertyBlockGetterAndSetter('Horizontal Arrangement', 'Image')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Horizontal%20Arrangement%22,%20%22name%22:%20%22Image%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Horizontal%20Arrangement%22,%20%22name%22:%20%22Image%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Scrollbar
 
@@ -70,7 +82,9 @@ Returns the path of the button's image.
 
 Whether to display a scrollbar
 
-[[PropertyBlockGetterAndSetter('Horizontal Arrangement', 'Scrollbar')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Horizontal%20Arrangement%22,%20%22name%22:%20%22Scrollbar%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Horizontal%20Arrangement%22,%20%22name%22:%20%22Scrollbar%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Use Round Card
 
@@ -78,7 +92,9 @@ Whether to display a scrollbar
 
 If enabled the card layout will have then round corners.
 
-[[PropertyBlockGetterAndSetter('Horizontal Arrangement', 'Use Round Card')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Horizontal%20Arrangement%22,%20%22name%22:%20%22Use%20Round%20Card%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Horizontal%20Arrangement%22,%20%22name%22:%20%22Use%20Round%20Card%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Visible
 
@@ -86,7 +102,9 @@ If enabled the card layout will have then round corners.
 
 Returns true iff the component is visible.
 
-[[PropertyBlockGetterAndSetter('Horizontal Arrangement', 'Visible')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Horizontal%20Arrangement%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Horizontal%20Arrangement%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Is Card
 
@@ -94,7 +112,9 @@ Returns true iff the component is visible.
 
 If enabled the arrangement will be convert to a card view. You can detect clicks on it with the "Click" event.
 
-[[PropertyBlockGetterAndSetter('Horizontal Arrangement', 'Is Card')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Horizontal%20Arrangement%22,%20%22name%22:%20%22Is%20Card%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Horizontal%20Arrangement%22,%20%22name%22:%20%22Is%20Card%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Column
 
@@ -114,7 +134,9 @@ Column property getter method.
 
 Specifies the component's vertical height, measured in pixels.
 
-[[PropertyBlockGetterAndSetter('Horizontal Arrangement', 'Height')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Horizontal%20Arrangement%22,%20%22name%22:%20%22Height%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Horizontal%20Arrangement%22,%20%22name%22:%20%22Height%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Height Percent
 
@@ -122,7 +144,8 @@ Specifies the component's vertical height, measured in pixels.
 
 Specifies the component's vertical height as a percentageof the height of its parent Component.
 
-[[PropertyBlockGetterAndSetter('Horizontal Arrangement', 'Height Percent')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Horizontal%20Arrangement%22,%20%22name%22:%20%22Height%20Percent%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Row
 
@@ -136,7 +159,9 @@ Row property getter method.
 
 Specifies the component's horizontal width, measured in pixels.
 
-[[PropertyBlockGetterAndSetter('Horizontal Arrangement', 'Width')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Horizontal%20Arrangement%22,%20%22name%22:%20%22Width%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Horizontal%20Arrangement%22,%20%22name%22:%20%22Width%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Width Percent
 
@@ -144,4 +169,4 @@ Specifies the component's horizontal width, measured in pixels.
 
 Specifies the component's horizontal width as a percentageof the Width of its parent Component.
 
-[[PropertyBlockGetterAndSetter('Horizontal Arrangement', 'Width Percent')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Horizontal%20Arrangement%22,%20%22name%22:%20%22Width%20Percent%22,%20%22getter%22:%20false%7D"></div>

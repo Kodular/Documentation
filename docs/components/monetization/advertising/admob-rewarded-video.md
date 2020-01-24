@@ -23,13 +23,15 @@ A non-visible component that shows AdMob ads as full-screen video where users re
 
 Called when an ad was closed.
 
-[[Event('AdMob Rewarded Video', 'Ad Closed')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22AdMob%20Rewarded%20Video%22,%20%22name%22:%20%22Ad%20Closed%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Ad Failed To Load
 
 Called when an ad request failed to load. The message will display the error code and error message.
 
-[[Event('AdMob Rewarded Video', 'Ad Failed To Load', 'errorCode', 'errorMessage')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22AdMob%20Rewarded%20Video%22,%20%22name%22:%20%22Ad%20Failed%20To%20Load%22,%20%22params%22:%20%5B%22error%20Code%22,%20%22error%20Message%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -41,37 +43,43 @@ Called when an ad request failed to load. The message will display the error cod
 
 Called when an ad leaves the application (e.g., to go to the browser).
 
-[[Event('AdMob Rewarded Video', 'Ad Left Application')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22AdMob%20Rewarded%20Video%22,%20%22name%22:%20%22Ad%20Left%20Application%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Ad Loaded
 
 Called when an ad request was loaded.
 
-[[Event('AdMob Rewarded Video', 'Ad Loaded')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22AdMob%20Rewarded%20Video%22,%20%22name%22:%20%22Ad%20Loaded%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Ad Opened
 
 Called when an ad was opened.
 
-[[Event('AdMob Rewarded Video', 'Ad Opened')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22AdMob%20Rewarded%20Video%22,%20%22name%22:%20%22Ad%20Opened%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Ad Video Completed
 
 Called when an video ad was completed.
 
-[[Event('AdMob Rewarded Video', 'Ad Video Completed')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22AdMob%20Rewarded%20Video%22,%20%22name%22:%20%22Ad%20Video%20Completed%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Ad Video Started
 
 Called when an video ad started to show content.
 
-[[Event('AdMob Rewarded Video', 'Ad Video Started')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22AdMob%20Rewarded%20Video%22,%20%22name%22:%20%22Ad%20Video%20Started%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### On Consent Changed
 
 Event triggered when the consent was changed.
 
-[[Event('AdMob Rewarded Video', 'On Consent Changed', 'personalized')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22AdMob%20Rewarded%20Video%22,%20%22name%22:%20%22On%20Consent%20Changed%22,%20%22params%22:%20%5B%22personalized%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -82,7 +90,8 @@ Event triggered when the consent was changed.
 
 User watched video and should be rewarded.
 
-[[Event('AdMob Rewarded Video', 'Rewarded', 'type', 'amount')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22AdMob%20Rewarded%20Video%22,%20%22name%22:%20%22Rewarded%22,%20%22params%22:%20%5B%22type%22,%20%22amount%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -96,19 +105,22 @@ User watched video and should be rewarded.
 
 Load a new AdMob Rewarded Video ad.
 
-[[Method('AdMob Rewarded Video', 'Load Ad', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22AdMob%20Rewarded%20Video%22,%20%22name%22:%20%22Load%20Ad%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Revoke Consent
 
 Deletes the user's consent. Useful if you want to test the consent dialog in development.
 
-[[Method('AdMob Rewarded Video', 'Revoke Consent', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22AdMob%20Rewarded%20Video%22,%20%22name%22:%20%22Revoke%20Consent%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Show Ad
 
 It will show the Video
 
-[[Method('AdMob Rewarded Video', 'Show Ad', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22AdMob%20Rewarded%20Video%22,%20%22name%22:%20%22Show%20Ad%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Properties
 
@@ -118,7 +130,9 @@ It will show the Video
 
 This property must be set to true to receive ads.
 
-[[PropertyBlockGetterAndSetter('AdMob Rewarded Video', 'Ad Enabled')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22AdMob%20Rewarded%20Video%22,%20%22name%22:%20%22Ad%20Enabled%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22AdMob%20Rewarded%20Video%22,%20%22name%22:%20%22Ad%20Enabled%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Ad Unit Id
 
@@ -130,7 +144,9 @@ This property must be set to true to receive ads.
 
 If enabled you will see the consent dialog no matter if you are located in Europe or not. Please use this option only in development. If this setting is enabled ALL taken consents will not be saved.
 
-[[PropertyBlockGetterAndSetter('AdMob Rewarded Video', 'Consent Development Mode')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22AdMob%20Rewarded%20Video%22,%20%22name%22:%20%22Consent%20Development%20Mode%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22AdMob%20Rewarded%20Video%22,%20%22name%22:%20%22Consent%20Development%20Mode%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Consent Message
 
@@ -138,7 +154,9 @@ If enabled you will see the consent dialog no matter if you are located in Europ
 
 The message for the consent dialog.
 
-[[PropertyBlockGetterAndSetter('AdMob Rewarded Video', 'Consent Message')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22AdMob%20Rewarded%20Video%22,%20%22name%22:%20%22Consent%20Message%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22AdMob%20Rewarded%20Video%22,%20%22name%22:%20%22Consent%20Message%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Consent Title
 
@@ -146,7 +164,9 @@ The message for the consent dialog.
 
 The title for the consent dialog.
 
-[[PropertyBlockGetterAndSetter('AdMob Rewarded Video', 'Consent Title')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22AdMob%20Rewarded%20Video%22,%20%22name%22:%20%22Consent%20Title%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22AdMob%20Rewarded%20Video%22,%20%22name%22:%20%22Consent%20Title%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Test Mode
 
@@ -160,4 +180,4 @@ If you want to test the component, that this property to true. After it you will
 
 Returns the current personalized consent. If true user has consent to personalized ads.
 
-[[PropertyBlockGetter('AdMob Rewarded Video', 'Personalized Result')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22AdMob%20Rewarded%20Video%22,%20%22name%22:%20%22Personalized%20Result%22,%20%22getter%22:%20true%7D"></div>

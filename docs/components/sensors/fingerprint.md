@@ -20,7 +20,8 @@ A non-visible component that reads fingerprints using the device''s in-built fin
 
 Triggers when there is a Authentication Error
 
-[[Event('Fingerprint', 'On Authentication Error', 'errorId', 'message')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Fingerprint%22,%20%22name%22:%20%22On%20Authentication%20Error%22,%20%22params%22:%20%5B%22error%20Id%22,%20%22message%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -32,13 +33,15 @@ Triggers when there is a Authentication Error
 
 Triggers when the Authentication Failed
 
-[[Event('Fingerprint', 'On Authentication Failed')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Fingerprint%22,%20%22name%22:%20%22On%20Authentication%20Failed%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### On Authentication Help
 
 Triggers when there is a Authentication Help
 
-[[Event('Fingerprint', 'On Authentication Help', 'helpId', 'message')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Fingerprint%22,%20%22name%22:%20%22On%20Authentication%20Help%22,%20%22params%22:%20%5B%22help%20Id%22,%20%22message%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -50,7 +53,8 @@ Triggers when there is a Authentication Help
 
 Trigger when the Authentication Succeeded
 
-[[Event('Fingerprint', 'On Authentication Succeeded')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Fingerprint%22,%20%22name%22:%20%22On%20Authentication%20Succeeded%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Methods
 
@@ -58,13 +62,15 @@ Trigger when the Authentication Succeeded
 
 Authenticate the user with a Fingerprint scanner
 
-[[Method('Fingerprint', 'Authenticate', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Fingerprint%22,%20%22name%22:%20%22Authenticate%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Cancel Scan
 
 Cancel the current Fingerprint Scan
 
-[[Method('Fingerprint', 'Cancel Scan', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Fingerprint%22,%20%22name%22:%20%22Cancel%20Scan%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Has Fingerprint Scanner
 
@@ -72,7 +78,8 @@ Cancel the current Fingerprint Scan
 
 True if hardware is present and functional, false otherwise
 
-[[Method('Fingerprint', 'Has Fingerprint Scanner', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Fingerprint%22,%20%22name%22:%20%22Has%20Fingerprint%20Scanner%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Has Fingers Added
 
@@ -80,7 +87,8 @@ True if hardware is present and functional, false otherwise
 
 True if at least one fingerprint is enrolled, false otherwise
 
-[[Method('Fingerprint', 'Has Fingers Added', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Fingerprint%22,%20%22name%22:%20%22Has%20Fingers%20Added%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Properties
 
@@ -90,7 +98,9 @@ True if at least one fingerprint is enrolled, false otherwise
 
 Sets the dialog help text
 
-[[PropertyBlockGetterAndSetter('Fingerprint', 'Dialog Help Text')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Fingerprint%22,%20%22name%22:%20%22Dialog%20Help%20Text%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Fingerprint%22,%20%22name%22:%20%22Dialog%20Help%20Text%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Dialog Title
 
@@ -98,7 +108,9 @@ Sets the dialog help text
 
 Sets the dialog title
 
-[[PropertyBlockGetterAndSetter('Fingerprint', 'Dialog Title')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Fingerprint%22,%20%22name%22:%20%22Dialog%20Title%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Fingerprint%22,%20%22name%22:%20%22Dialog%20Title%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Light Theme
 
@@ -106,7 +118,9 @@ Sets the dialog title
 
 Sets the current theme
 
-[[PropertyBlockGetterAndSetter('Fingerprint', 'Light Theme')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Fingerprint%22,%20%22name%22:%20%22Light%20Theme%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Fingerprint%22,%20%22name%22:%20%22Light%20Theme%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Use Dialog
 
@@ -114,4 +128,5 @@ Sets the current theme
 
 Whether to use a dialog
 
-[[PropertyBlockGetterAndSetter('Fingerprint', 'Use Dialog')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Fingerprint%22,%20%22name%22:%20%22Use%20Dialog%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Fingerprint%22,%20%22name%22:%20%22Use%20Dialog%22,%20%22getter%22:%20false%7D"></div>

@@ -17,13 +17,15 @@ Floating Action Buttons are used to indicate the primary action of the screen.
 
 Event to detect that the fab button was clicked.
 
-[[Event('Floating Action Button', 'Click')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Floating%20Action%20Button%22,%20%22name%22:%20%22Click%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Long Click
 
 Event to detect that the fab button was long clicked.
 
-[[Event('Floating Action Button', 'Long Click')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Floating%20Action%20Button%22,%20%22name%22:%20%22Long%20Click%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Methods
 
@@ -31,31 +33,36 @@ Event to detect that the fab button was long clicked.
 
 Hides the fab button.
 
-[[Method('Floating Action Button', 'Hide', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Floating%20Action%20Button%22,%20%22name%22:%20%22Hide%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Hide Label
 
 Hides text message.
 
-[[Method('Floating Action Button', 'Hide Label', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Floating%20Action%20Button%22,%20%22name%22:%20%22Hide%20Label%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Show
 
 Shows the fab button.
 
-[[Method('Floating Action Button', 'Show', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Floating%20Action%20Button%22,%20%22name%22:%20%22Show%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Show Label
 
 Show a new text message near to the fab with the given properties. You can do the changes with the properties in the advanded category.
 
-[[Method('Floating Action Button', 'Show Label', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Floating%20Action%20Button%22,%20%22name%22:%20%22Show%20Label%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Start Rotation Animation
 
 Starts a rotation animation. You can use the 'Rotation Duration','Rotation Start Degrees' and 'Rotation End Degrees' to define the animation. This block will work too if the 'Rotation On Click' property is disabled.
 
-[[Method('Floating Action Button', 'Start Rotation Animation', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Floating%20Action%20Button%22,%20%22name%22:%20%22Start%20Rotation%20Animation%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Properties
 
@@ -65,7 +72,9 @@ Starts a rotation animation. You can use the 'Rotation Duration','Rotation Start
 
 Returns the fab's background color.
 
-[[PropertyBlockGetterAndSetter('Floating Action Button', 'Background Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Floating%20Action%20Button%22,%20%22name%22:%20%22Background%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Floating%20Action%20Button%22,%20%22name%22:%20%22Background%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Call Fab Click Event When Label Clicked
 
@@ -75,7 +84,9 @@ Returns the fab's background color.
 
 If true the FAB click listener will be invoked on a text message click.
 
-[[PropertyBlockGetterAndSetter('Floating Action Button', 'Call Fab Click Event When Label Clicked')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Floating%20Action%20Button%22,%20%22name%22:%20%22Call%20Fab%20Click%20Event%20When%20Label%20Clicked%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Floating%20Action%20Button%22,%20%22name%22:%20%22Call%20Fab%20Click%20Event%20When%20Label%20Clicked%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Call Fab Long Click Event When Label Long Clicked
 
@@ -85,13 +96,17 @@ If true the FAB click listener will be invoked on a text message click.
 
 If true the FAB long click listener will be invoked on a text message long click.
 
-[[PropertyBlockGetterAndSetter('Floating Action Button', 'Call Fab Long Click Event When Label Long Clicked')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Floating%20Action%20Button%22,%20%22name%22:%20%22Call%20Fab%20Long%20Click%20Event%20When%20Label%20Long%20Clicked%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Floating%20Action%20Button%22,%20%22name%22:%20%22Call%20Fab%20Long%20Click%20Event%20When%20Label%20Long%20Clicked%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Elevation
 
 <span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>10</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
-[[PropertyBlockGetterAndSetter('Floating Action Button', 'Elevation')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Floating%20Action%20Button%22,%20%22name%22:%20%22Elevation%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Floating%20Action%20Button%22,%20%22name%22:%20%22Elevation%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Hide Label When Clicked
 
@@ -101,7 +116,9 @@ If true the FAB long click listener will be invoked on a text message long click
 
 Hide the text message when clicking on the message
 
-[[PropertyBlockGetterAndSetter('Floating Action Button', 'Hide Label When Clicked')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Floating%20Action%20Button%22,%20%22name%22:%20%22Hide%20Label%20When%20Clicked%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Floating%20Action%20Button%22,%20%22name%22:%20%22Hide%20Label%20When%20Clicked%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Hide Label When Long Clicked
 
@@ -111,7 +128,9 @@ Hide the text message when clicking on the message
 
 Hide the text message after a long click on the text message.
 
-[[PropertyBlockGetterAndSetter('Floating Action Button', 'Hide Label When Long Clicked')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Floating%20Action%20Button%22,%20%22name%22:%20%22Hide%20Label%20When%20Long%20Clicked%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Floating%20Action%20Button%22,%20%22name%22:%20%22Hide%20Label%20When%20Long%20Clicked%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Icon
 
@@ -119,7 +138,9 @@ Hide the text message after a long click on the text message.
 
 The path for the used image in FAB.
 
-[[PropertyBlockGetterAndSetter('Floating Action Button', 'Icon')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Floating%20Action%20Button%22,%20%22name%22:%20%22Icon%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Floating%20Action%20Button%22,%20%22name%22:%20%22Icon%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Icon Color
 
@@ -127,7 +148,9 @@ The path for the used image in FAB.
 
 The color for the material icon.
 
-[[PropertyBlockGetterAndSetter('Floating Action Button', 'Icon Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Floating%20Action%20Button%22,%20%22name%22:%20%22Icon%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Floating%20Action%20Button%22,%20%22name%22:%20%22Icon%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Material Icon Name
 
@@ -135,7 +158,9 @@ The color for the material icon.
 
 Use a material icon for the fab without uploading a image resource into your project. You can find the icon name (or code) here at https://material.io/icons
 
-[[PropertyBlockGetterAndSetter('Floating Action Button', 'Material Icon Name')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Floating%20Action%20Button%22,%20%22name%22:%20%22Material%20Icon%20Name%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Floating%20Action%20Button%22,%20%22name%22:%20%22Material%20Icon%20Name%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Margin Bottom
 
@@ -143,7 +168,9 @@ Use a material icon for the fab without uploading a image resource into your pro
 
 Returns the fab's bottom margin.
 
-[[PropertyBlockGetterAndSetter('Floating Action Button', 'Margin Bottom')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Floating%20Action%20Button%22,%20%22name%22:%20%22Margin%20Bottom%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Floating%20Action%20Button%22,%20%22name%22:%20%22Margin%20Bottom%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Margin Right
 
@@ -151,7 +178,9 @@ Returns the fab's bottom margin.
 
 Returns right margin
 
-[[PropertyBlockGetterAndSetter('Floating Action Button', 'Margin Right')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Floating%20Action%20Button%22,%20%22name%22:%20%22Margin%20Right%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Floating%20Action%20Button%22,%20%22name%22:%20%22Margin%20Right%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Ripple Color
 
@@ -161,7 +190,9 @@ Returns right margin
 
 Returns the fab's ripple color.
 
-[[PropertyBlockGetterAndSetter('Floating Action Button', 'Ripple Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Floating%20Action%20Button%22,%20%22name%22:%20%22Ripple%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Floating%20Action%20Button%22,%20%22name%22:%20%22Ripple%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Rotation Duration (millisecond)
 
@@ -171,7 +202,9 @@ Returns the fab's ripple color.
 
 Returns the fab's rotation duration in milliseconds.
 
-[[PropertyBlockGetterAndSetter('Floating Action Button', 'Rotation Duration millisecond')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Floating%20Action%20Button%22,%20%22name%22:%20%22Rotation%20Duration%20(millisecond)%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Floating%20Action%20Button%22,%20%22name%22:%20%22Rotation%20Duration%20(millisecond)%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Rotation End Degrees
 
@@ -181,7 +214,9 @@ Returns the fab's rotation duration in milliseconds.
 
 Returns the fab's rotation end degrees.
 
-[[PropertyBlockGetterAndSetter('Floating Action Button', 'Rotation End Degrees')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Floating%20Action%20Button%22,%20%22name%22:%20%22Rotation%20End%20Degrees%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Floating%20Action%20Button%22,%20%22name%22:%20%22Rotation%20End%20Degrees%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Rotate On Click
 
@@ -191,7 +226,9 @@ Returns the fab's rotation end degrees.
 
 Returns true if the fab will rotate on click.
 
-[[PropertyBlockGetterAndSetter('Floating Action Button', 'Rotate On Click')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Floating%20Action%20Button%22,%20%22name%22:%20%22Rotate%20On%20Click%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Floating%20Action%20Button%22,%20%22name%22:%20%22Rotate%20On%20Click%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Rotation Start Degrees
 
@@ -201,7 +238,9 @@ Returns true if the fab will rotate on click.
 
 Returns the fab's rotation start degrees.
 
-[[PropertyBlockGetterAndSetter('Floating Action Button', 'Rotation Start Degrees')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Floating%20Action%20Button%22,%20%22name%22:%20%22Rotation%20Start%20Degrees%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Floating%20Action%20Button%22,%20%22name%22:%20%22Rotation%20Start%20Degrees%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Show Label On Left Side
 
@@ -211,7 +250,9 @@ Returns the fab's rotation start degrees.
 
 Set the text message to the left side of the floating button. If false the text will be on the right side.
 
-[[PropertyBlockGetterAndSetter('Floating Action Button', 'Show Label On Left Side')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Floating%20Action%20Button%22,%20%22name%22:%20%22Show%20Label%20On%20Left%20Side%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Floating%20Action%20Button%22,%20%22name%22:%20%22Show%20Label%20On%20Left%20Side%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Size
 
@@ -219,7 +260,9 @@ Set the text message to the left side of the floating button. If false the text 
 
 Sets the size of the button. Use '1' for normal, '2' for mini or '3' for auto size based on the screen size.
 
-[[PropertyBlockGetterAndSetter('Floating Action Button', 'Size')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Floating%20Action%20Button%22,%20%22name%22:%20%22Size%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Floating%20Action%20Button%22,%20%22name%22:%20%22Size%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Label Background Color
 
@@ -229,7 +272,9 @@ Sets the size of the button. Use '1' for normal, '2' for mini or '3' for auto si
 
 Set the text message background color.
 
-[[PropertyBlockGetterAndSetter('Floating Action Button', 'Label Background Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Floating%20Action%20Button%22,%20%22name%22:%20%22Label%20Background%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Floating%20Action%20Button%22,%20%22name%22:%20%22Label%20Background%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Label Corner Radius
 
@@ -239,7 +284,9 @@ Set the text message background color.
 
 Set the text message corner radius.
 
-[[PropertyBlockGetterAndSetter('Floating Action Button', 'Label Corner Radius')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Floating%20Action%20Button%22,%20%22name%22:%20%22Label%20Corner%20Radius%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Floating%20Action%20Button%22,%20%22name%22:%20%22Label%20Corner%20Radius%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Label Text
 
@@ -249,7 +296,9 @@ Set the text message corner radius.
 
 Set the text message.
 
-[[PropertyBlockGetterAndSetter('Floating Action Button', 'Label Text')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Floating%20Action%20Button%22,%20%22name%22:%20%22Label%20Text%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Floating%20Action%20Button%22,%20%22name%22:%20%22Label%20Text%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Label Text Color
 
@@ -259,7 +308,9 @@ Set the text message.
 
 Set the text message color.
 
-[[PropertyBlockGetterAndSetter('Floating Action Button', 'Label Text Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Floating%20Action%20Button%22,%20%22name%22:%20%22Label%20Text%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Floating%20Action%20Button%22,%20%22name%22:%20%22Label%20Text%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Visible
 
@@ -267,4 +318,5 @@ Set the text message color.
 
 Returns true if the fab button is visible.
 
-[[PropertyBlockGetterAndSetter('Floating Action Button', 'Visible')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Floating%20Action%20Button%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Floating%20Action%20Button%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20false%7D"></div>

@@ -20,7 +20,8 @@ A non-visible component that fetches specifications of the device.
 
 Event to get the IMEI after it was requested.
 
-[[Event('Device Utilities', 'Got IMEI', 'imei')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Got%20IMEI%22,%20%22params%22:%20%5B%22imei%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -31,7 +32,8 @@ Event to get the IMEI after it was requested.
 
 Event to get the serial number after it was requested.
 
-[[Event('Device Utilities', 'Got Serial', 'serial')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Got%20Serial%22,%20%22params%22:%20%5B%22serial%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -46,13 +48,15 @@ Event to get the serial number after it was requested.
 
 Returns TRUE if one of 12 known patching or root emulating packages is installed. The name of the package is not returned, so the user does not know which package name to change. Developed by Cian.
 
-[[Method('Device Utilities', 'Has Dangerous Apk Installed', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Has%20Dangerous%20Apk%20Installed%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Copy
 
 Copy text to clipboard. In case 'Show Success Toast' is true, the toast with your message will be shown after copying a text to the clipboard.
 
-[[Method('Device Utilities', 'Copy', False, 'text', 'successToastMessage')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Copy%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22text%22,%20%22Success%20Toast%20Message%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -66,7 +70,8 @@ Copy text to clipboard. In case 'Show Success Toast' is true, the toast with you
 
 Available size of external storage in Gigabytes.
 
-[[Method('Device Utilities', 'External Storage Available', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22External%20Storage%20Available%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### External Storage Total
 
@@ -74,7 +79,8 @@ Available size of external storage in Gigabytes.
 
 Total external storage size in Gigabytes.
 
-[[Method('Device Utilities', 'External Storage Total', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22External%20Storage%20Total%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### External Storage Used
 
@@ -82,19 +88,22 @@ Total external storage size in Gigabytes.
 
 Size of used-external-storage in Gigabytes.
 
-[[Method('Device Utilities', 'External Storage Used', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22External%20Storage%20Used%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Get IMEI
 
 Get the IMEI of the device. The result will be then at the 'Got IMEI' event.
 
-[[Method('Device Utilities', 'Get IMEI', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Get%20IMEI%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Get Serial
 
 A hardware serial number, if available. Alphanumeric only, case-insensitive. For apps targeting SDK higher than N_MR1 this field is set to UNKNOWN.
 
-[[Method('Device Utilities', 'Get Serial', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Get%20Serial%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Internal Storage Available
 
@@ -102,7 +111,8 @@ A hardware serial number, if available. Alphanumeric only, case-insensitive. For
 
 Size of available internal storage in Gigabytes.
 
-[[Method('Device Utilities', 'Internal Storage Available', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Internal%20Storage%20Available%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Internal Storage Total
 
@@ -110,7 +120,8 @@ Size of available internal storage in Gigabytes.
 
 Total size of internal storage in Gigabytes.
 
-[[Method('Device Utilities', 'Internal Storage Total', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Internal%20Storage%20Total%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Internal Storage Used
 
@@ -118,7 +129,8 @@ Total size of internal storage in Gigabytes.
 
 Size of used-internal-storage in Gigabytes.
 
-[[Method('Device Utilities', 'Internal Storage Used', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Internal%20Storage%20Used%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Memory Free
 
@@ -126,7 +138,8 @@ Size of used-internal-storage in Gigabytes.
 
 Total free RAM size in Gigabytes.
 
-[[Method('Device Utilities', 'Memory Free', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Memory%20Free%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Memory Total
 
@@ -134,7 +147,8 @@ Total free RAM size in Gigabytes.
 
 Total RAM size in Gigabytes.
 
-[[Method('Device Utilities', 'Memory Total', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Memory%20Total%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Memory Used
 
@@ -142,7 +156,8 @@ Total RAM size in Gigabytes.
 
 Size of used-memory in Gigabytes.
 
-[[Method('Device Utilities', 'Memory Used', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Memory%20Used%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Parse
 
@@ -150,7 +165,8 @@ Size of used-memory in Gigabytes.
 
 Parse a text between two strings. Example: text = abcdef, start = a, end = d, result = bc. If there is a problem the 'if Text Not Found' will be returned.
 
-[[Method('Device Utilities', 'Parse', True, 'text', 'start', 'end', 'ifTextNotFound')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Parse%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22text%22,%20%22start%22,%20%22end%22,%20%22if%20Text%20Not%20Found%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -166,7 +182,8 @@ Parse a text between two strings. Example: text = abcdef, start = a, end = d, re
 
 Paste text from clipboard. In case 'Show Success Toast' is true, the toast with your message will be shown after pasting a text from the clipboard.
 
-[[Method('Device Utilities', 'Paste', True, 'successToastMessage')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Paste%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22Success%20Toast%20Message%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -179,7 +196,8 @@ Paste text from clipboard. In case 'Show Success Toast' is true, the toast with 
 
 This returns TRUE if ADB debugging is enabled, which could be a sign of hacking your app, or a compromised device. Developed by Cian.
 
-[[Method('Device Utilities', 'Is Adb Debugging Enabled', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Is%20Adb%20Debugging%20Enabled%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Is Emulator
 
@@ -187,7 +205,8 @@ This returns TRUE if ADB debugging is enabled, which could be a sign of hacking 
 
 Returns TRUE if the device operating on an emulator. Developed by Cian.
 
-[[Method('Device Utilities', 'Is Emulator', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Is%20Emulator%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Is Installed From Play Store
 
@@ -195,7 +214,8 @@ Returns TRUE if the device operating on an emulator. Developed by Cian.
 
 Returns TRUE if the app was installed from Play Store. Developed by Cian.
 
-[[Method('Device Utilities', 'Is Installed From Play Store', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Is%20Installed%20From%20Play%20Store%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Properties
 
@@ -205,7 +225,9 @@ Returns TRUE if the app was installed from Play Store. Developed by Cian.
 
 Returns true if 'Show Success Toast' is enabled.
 
-[[PropertyBlockGetterAndSetter('Device Utilities', 'Show Success Toast')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Show%20Success%20Toast%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Show%20Success%20Toast%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Android Version
 
@@ -213,7 +235,8 @@ Returns true if 'Show Success Toast' is enabled.
 
 Get the android version of device.
 
-[[PropertyBlockGetter('Device Utilities', 'Android Version')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Android%20Version%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### API Version
 
@@ -221,7 +244,8 @@ Get the android version of device.
 
 The user-visible SDK version of the framework.
 
-[[PropertyBlockGetter('Device Utilities', 'API Version')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22API%20Version%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Board
 
@@ -229,7 +253,8 @@ The user-visible SDK version of the framework.
 
 The name of the underlying board, like "goldfish".
 
-[[PropertyBlockGetter('Device Utilities', 'Board')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Board%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Bootloader Version
 
@@ -237,7 +262,8 @@ The name of the underlying board, like "goldfish".
 
 The system bootloader version number.
 
-[[PropertyBlockGetter('Device Utilities', 'Bootloader Version')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Bootloader%20Version%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Brand
 
@@ -245,7 +271,8 @@ The system bootloader version number.
 
 The consumer-visible brand with which the product/hardware will be associated, if any.
 
-[[PropertyBlockGetter('Device Utilities', 'Brand')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Brand%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Build Number
 
@@ -253,7 +280,8 @@ The consumer-visible brand with which the product/hardware will be associated, i
 
 Get the build number(Software) of the device.
 
-[[PropertyBlockGetter('Device Utilities', 'Build Number')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Build%20Number%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Country Code
 
@@ -261,7 +289,8 @@ Get the build number(Software) of the device.
 
 The result is the code of your country.
 
-[[PropertyBlockGetter('Device Utilities', 'Country Code')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Country%20Code%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Device Name
 
@@ -269,7 +298,8 @@ The result is the code of your country.
 
 The name of the industrial design.
 
-[[PropertyBlockGetter('Device Utilities', 'Device Name')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Device%20Name%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Fingerprint
 
@@ -277,7 +307,8 @@ The name of the industrial design.
 
 A string that uniquely identifies this build.
 
-[[PropertyBlockGetter('Device Utilities', 'Fingerprint')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Fingerprint%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Device Id
 
@@ -285,7 +316,8 @@ A string that uniquely identifies this build.
 
 Returns the unique device specific 'AndroidID'. Developed by Cian.
 
-[[PropertyBlockGetter('Device Utilities', 'Device Id')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Device%20Id%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Hardware
 
@@ -293,7 +325,8 @@ Returns the unique device specific 'AndroidID'. Developed by Cian.
 
 The name of the hardware (from the kernel command line or /proc).
 
-[[PropertyBlockGetter('Device Utilities', 'Hardware')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Hardware%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### ID
 
@@ -301,7 +334,8 @@ The name of the hardware (from the kernel command line or /proc).
 
 Either a changelist number, or a label like "M4-rc20".
 
-[[PropertyBlockGetter('Device Utilities', 'ID')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22ID%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Language Code
 
@@ -309,7 +343,8 @@ Either a changelist number, or a label like "M4-rc20".
 
 The result is the code of your device language.
 
-[[PropertyBlockGetter('Device Utilities', 'Language Code')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Language%20Code%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Manufacturer
 
@@ -317,7 +352,8 @@ The result is the code of your device language.
 
 The manufacturer of the product/hardware.
 
-[[PropertyBlockGetter('Device Utilities', 'Manufacturer')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Manufacturer%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Model Name
 
@@ -325,7 +361,8 @@ The manufacturer of the product/hardware.
 
 The end-user-visible name for the end product.
 
-[[PropertyBlockGetter('Device Utilities', 'Model Name')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Model%20Name%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Product
 
@@ -333,7 +370,8 @@ The end-user-visible name for the end product.
 
 The name of the overall product.
 
-[[PropertyBlockGetter('Device Utilities', 'Product')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Product%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Radio Version
 
@@ -341,7 +379,8 @@ The name of the overall product.
 
 Returns the version string for the radio firmware. May return null (if, for instance, the radio is not currently on).
 
-[[PropertyBlockGetter('Device Utilities', 'Radio Version')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Radio%20Version%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Serial
 
@@ -351,7 +390,8 @@ Returns the version string for the radio firmware. May return null (if, for inst
 
 DEPRECATED. DO NOT USE THIS ANYMORE. USE 'Get Serial' INSTEAD!
 
-[[PropertyBlockGetter('Device Utilities', 'Serial')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Serial%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Tags
 
@@ -359,7 +399,8 @@ DEPRECATED. DO NOT USE THIS ANYMORE. USE 'Get Serial' INSTEAD!
 
 Comma-separated tags describing the build, like "unsigned,debug".
 
-[[PropertyBlockGetter('Device Utilities', 'Tags')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Tags%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Type
 
@@ -367,4 +408,4 @@ Comma-separated tags describing the build, like "unsigned,debug".
 
 The type of build, like "user" or "eng".
 
-[[PropertyBlockGetter('Device Utilities', 'Type')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Type%22,%20%22getter%22:%20true%7D"></div>

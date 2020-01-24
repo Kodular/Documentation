@@ -16,7 +16,8 @@ A non-visible component that opens web pages as custom tabs on Google Chrome.
 
 Use this block to add a menu item with the given title to open any app you want with the package name. The package name can be as example 'com.instagram.android' to open Instagram on the menu item click. If the app is not installed the menu item will not be added.
 
-[[Method('Custom Tabs', 'Add Menu Item Open App', False, 'title', 'packageName')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Custom%20Tabs%22,%20%22name%22:%20%22Add%20Menu%20Item%20Open%20App%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22title%22,%20%22package%20Name%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -28,7 +29,8 @@ Use this block to add a menu item with the given title to open any app you want 
 
 Use this block to add a menu item with the given title and page link. The page can be as example 'https://www.instagram.com/kodular/'. If the user have Instagram installed,the page will then be opened in the official Instagram app. Else in the default browser.
 
-[[Method('Custom Tabs', 'Add Menu Item Open Page', False, 'title', 'page')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Custom%20Tabs%22,%20%22name%22:%20%22Add%20Menu%20Item%20Open%20Page%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22title%22,%20%22page%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -40,7 +42,8 @@ Use this block to add a menu item with the given title and page link. The page c
 
 Use this block to open the custom tab.
 
-[[Method('Custom Tabs', 'Open Custom Tab', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Custom%20Tabs%22,%20%22name%22:%20%22Open%20Custom%20Tab%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Properties
 
@@ -56,7 +59,9 @@ Whether or not to add the default share menu item into the menu.
 
 Whether or not to enable instant apps.
 
-[[PropertyBlockGetterAndSetter('Custom Tabs', 'Instant Apps Enabled')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Custom%20Tabs%22,%20%22name%22:%20%22Instant%20Apps%20Enabled%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Custom%20Tabs%22,%20%22name%22:%20%22Instant%20Apps%20Enabled%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Show Title
 
@@ -64,7 +69,9 @@ Whether or not to enable instant apps.
 
 Whether or not to show the title.
 
-[[PropertyBlockGetterAndSetter('Custom Tabs', 'Show Title')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Custom%20Tabs%22,%20%22name%22:%20%22Show%20Title%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Custom%20Tabs%22,%20%22name%22:%20%22Show%20Title%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Toolbar Color
 
@@ -72,7 +79,9 @@ Whether or not to show the title.
 
 Specifies the color of the toolbar.
 
-[[PropertyBlockGetterAndSetter('Custom Tabs', 'Toolbar Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Custom%20Tabs%22,%20%22name%22:%20%22Toolbar%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Custom%20Tabs%22,%20%22name%22:%20%22Toolbar%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### URL
 
@@ -80,7 +89,9 @@ Specifies the color of the toolbar.
 
 The URL to load in the custom tab. The URL must start with 'http://' or 'https://'
 
-[[PropertyBlockGetterAndSetter('Custom Tabs', 'URL')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Custom%20Tabs%22,%20%22name%22:%20%22URL%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Custom%20Tabs%22,%20%22name%22:%20%22URL%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Url Bar Hiding On Scroll
 

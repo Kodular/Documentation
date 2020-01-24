@@ -14,31 +14,36 @@ A visible component that draws a rectangle on a Map component bounded by north, 
 
 The user clicked on the feature.
 
-[[Event('Rectangle', 'Click')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Rectangle%22,%20%22name%22:%20%22Click%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Drag
 
 The user dragged the map feature.
 
-[[Event('Rectangle', 'Drag')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Rectangle%22,%20%22name%22:%20%22Drag%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Long Click
 
 The user long-pressed on the feature. This event will only trigger if Draggable is false.
 
-[[Event('Rectangle', 'Long Click')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Rectangle%22,%20%22name%22:%20%22Long%20Click%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Start Drag
 
 The user started a drag operation.
 
-[[Event('Rectangle', 'Start Drag')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Rectangle%22,%20%22name%22:%20%22Start%20Drag%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Stop Drag
 
 The user stopped a drag operation.
 
-[[Event('Rectangle', 'Stop Drag')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Rectangle%22,%20%22name%22:%20%22Stop%20Drag%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Methods
 
@@ -48,7 +53,8 @@ The user stopped a drag operation.
 
 Returns the bounding box of the Rectangle in the format ((North West) (South East)).
 
-[[Method('Rectangle', 'Bounds', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Rectangle%22,%20%22name%22:%20%22Bounds%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Center
 
@@ -56,7 +62,8 @@ Returns the bounding box of the Rectangle in the format ((North West) (South Eas
 
 Returns the center of the Rectangle as a list of the form (Latitude Longitude).
 
-[[Method('Rectangle', 'Center', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Rectangle%22,%20%22name%22:%20%22Center%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Distance To Feature
 
@@ -64,7 +71,8 @@ Returns the center of the Rectangle as a list of the form (Latitude Longitude).
 
 Compute the distance, in meters, between two map features.
 
-[[Method('Rectangle', 'Distance To Feature', True, 'mapFeature', 'centroids')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Rectangle%22,%20%22name%22:%20%22Distance%20To%20Feature%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22map%20Feature%22,%20%22centroids%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -78,7 +86,8 @@ Compute the distance, in meters, between two map features.
 
 Compute the distance, in meters, between a map feature and a latitude, longitude point.
 
-[[Method('Rectangle', 'Distance To Point', True, 'latitude', 'longitude', 'centroid')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Rectangle%22,%20%22name%22:%20%22Distance%20To%20Point%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22latitude%22,%20%22longitude%22,%20%22centroid%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -91,13 +100,15 @@ Compute the distance, in meters, between a map feature and a latitude, longitude
 
 Hide the infobox if it is shown. If the infobox is not visible this function has no effect.
 
-[[Method('Rectangle', 'Hide Infobox', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Rectangle%22,%20%22name%22:%20%22Hide%20Infobox%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Set Center
 
 Moves the Rectangle so that it is centered on the given latitude and longitude while attempting to maintain the width and height of the Rectangle as measured from the center to the edges.
 
-[[Method('Rectangle', 'Set Center', False, 'latitude', 'longitude')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Rectangle%22,%20%22name%22:%20%22Set%20Center%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22latitude%22,%20%22longitude%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -109,7 +120,8 @@ Moves the Rectangle so that it is centered on the given latitude and longitude w
 
 Show the infobox for the feature. This will show the infobox even if
 
-[[Method('Rectangle', 'Show Infobox', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Rectangle%22,%20%22name%22:%20%22Show%20Infobox%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Properties
 
@@ -119,7 +131,9 @@ Show the infobox for the feature. This will show the infobox even if
 
 The description displayed in the info window that appears when the user clicks on the map feature.
 
-[[PropertyBlockGetterAndSetter('Rectangle', 'Description')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Rectangle%22,%20%22name%22:%20%22Description%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Rectangle%22,%20%22name%22:%20%22Description%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Draggable
 
@@ -127,13 +141,17 @@ The description displayed in the info window that appears when the user clicks o
 
 The Draggable property is used to set whether or not the user can drag the Marker by long-pressing and then dragging the marker to a new location.
 
-[[PropertyBlockGetterAndSetter('Rectangle', 'Draggable')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Rectangle%22,%20%22name%22:%20%22Draggable%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Rectangle%22,%20%22name%22:%20%22Draggable%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### East Longitude
 
 <span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>0</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
-[[PropertyBlockGetterAndSetter('Rectangle', 'East Longitude')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Rectangle%22,%20%22name%22:%20%22East%20Longitude%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Rectangle%22,%20%22name%22:%20%22East%20Longitude%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Enable Infobox
 
@@ -141,7 +159,9 @@ The Draggable property is used to set whether or not the user can drag the Marke
 
 Enable or disable the infobox window display when the user taps the feature.
 
-[[PropertyBlockGetterAndSetter('Rectangle', 'Enable Infobox')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Rectangle%22,%20%22name%22:%20%22Enable%20Infobox%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Rectangle%22,%20%22name%22:%20%22Enable%20Infobox%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Fill Color
 
@@ -149,7 +169,9 @@ Enable or disable the infobox window display when the user taps the feature.
 
 The paint color used to fill in the map feature.
 
-[[PropertyBlockGetterAndSetter('Rectangle', 'Fill Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Rectangle%22,%20%22name%22:%20%22Fill%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Rectangle%22,%20%22name%22:%20%22Fill%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Fill Opacity
 
@@ -157,19 +179,25 @@ The paint color used to fill in the map feature.
 
 The opacity of the interior of the map feature.
 
-[[PropertyBlockGetterAndSetter('Rectangle', 'Fill Opacity')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Rectangle%22,%20%22name%22:%20%22Fill%20Opacity%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Rectangle%22,%20%22name%22:%20%22Fill%20Opacity%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### North Latitude
 
 <span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>0</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
-[[PropertyBlockGetterAndSetter('Rectangle', 'North Latitude')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Rectangle%22,%20%22name%22:%20%22North%20Latitude%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Rectangle%22,%20%22name%22:%20%22North%20Latitude%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### South Latitude
 
 <span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>0</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
-[[PropertyBlockGetterAndSetter('Rectangle', 'South Latitude')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Rectangle%22,%20%22name%22:%20%22South%20Latitude%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Rectangle%22,%20%22name%22:%20%22South%20Latitude%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Stroke Color
 
@@ -177,7 +205,9 @@ The opacity of the interior of the map feature.
 
 The paint color used to outline the map feature.
 
-[[PropertyBlockGetterAndSetter('Rectangle', 'Stroke Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Rectangle%22,%20%22name%22:%20%22Stroke%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Rectangle%22,%20%22name%22:%20%22Stroke%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Stroke Opacity
 
@@ -185,7 +215,9 @@ The paint color used to outline the map feature.
 
 The opacity of the stroke used to outline the map feature.
 
-[[PropertyBlockGetterAndSetter('Rectangle', 'Stroke Opacity')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Rectangle%22,%20%22name%22:%20%22Stroke%20Opacity%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Rectangle%22,%20%22name%22:%20%22Stroke%20Opacity%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Stroke Width
 
@@ -193,7 +225,9 @@ The opacity of the stroke used to outline the map feature.
 
 The width of the stroke used to outline the map feature.
 
-[[PropertyBlockGetterAndSetter('Rectangle', 'Stroke Width')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Rectangle%22,%20%22name%22:%20%22Stroke%20Width%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Rectangle%22,%20%22name%22:%20%22Stroke%20Width%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Title
 
@@ -201,7 +235,9 @@ The width of the stroke used to outline the map feature.
 
 The title displayed in the info window that appears when the user clicks on the map feature.
 
-[[PropertyBlockGetterAndSetter('Rectangle', 'Title')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Rectangle%22,%20%22name%22:%20%22Title%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Rectangle%22,%20%22name%22:%20%22Title%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Visible
 
@@ -209,13 +245,17 @@ The title displayed in the info window that appears when the user clicks on the 
 
 Specifies whether the component should be visible on the screen. Value is true if the component is showing and false if hidden.
 
-[[PropertyBlockGetterAndSetter('Rectangle', 'Visible')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Rectangle%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Rectangle%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### West Longitude
 
 <span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>0</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
-[[PropertyBlockGetterAndSetter('Rectangle', 'West Longitude')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Rectangle%22,%20%22name%22:%20%22West%20Longitude%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Rectangle%22,%20%22name%22:%20%22West%20Longitude%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Type
 
@@ -223,4 +263,4 @@ Specifies whether the component should be visible on the screen. Value is true i
 
 The type of the feature. For rectangles, this returns the text "Rectangle".
 
-[[PropertyBlockGetter('Rectangle', 'Type')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Rectangle%22,%20%22name%22:%20%22Type%22,%20%22getter%22:%20true%7D"></div>

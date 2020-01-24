@@ -14,31 +14,36 @@ A visible component that displays animations from a json or zip file, or from a 
 
 Triggers when the animation ends.
 
-[[Event('Lottie', 'Animation End')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Lottie%22,%20%22name%22:%20%22Animation%20End%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Animation Repeat
 
 Triggers when the animation repeated.
 
-[[Event('Lottie', 'Animation Repeat')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Lottie%22,%20%22name%22:%20%22Animation%20Repeat%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Animation Start
 
 Triggers when the animation starts.
 
-[[Event('Lottie', 'Animation Start')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Lottie%22,%20%22name%22:%20%22Animation%20Start%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Click
 
 Triggers when the components was clicked.
 
-[[Event('Lottie', 'Click')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Lottie%22,%20%22name%22:%20%22Click%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Long Click
 
 Triggers when the components was long clicked.
 
-[[Event('Lottie', 'Long Click')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Lottie%22,%20%22name%22:%20%22Long%20Click%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Methods
 
@@ -46,7 +51,8 @@ Triggers when the components was long clicked.
 
 Set the frame where you want the animation to end.
 
-[[Method('Lottie', 'End Frame', False, 'frame')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Lottie%22,%20%22name%22:%20%22End%20Frame%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22frame%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -59,7 +65,8 @@ Set the frame where you want the animation to end.
 
 Get the frame where the animation is now.
 
-[[Method('Lottie', 'Get Current Frame', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Lottie%22,%20%22name%22:%20%22Get%20Current%20Frame%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Get Frame Count
 
@@ -67,7 +74,8 @@ Get the frame where the animation is now.
 
 Get the count of frames in the animation.
 
-[[Method('Lottie', 'Get Frame Count', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Lottie%22,%20%22name%22:%20%22Get%20Frame%20Count%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Is Animating
 
@@ -75,25 +83,29 @@ Get the count of frames in the animation.
 
 Check if the Lottie component is animating.
 
-[[Method('Lottie', 'Is Animating', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Lottie%22,%20%22name%22:%20%22Is%20Animating%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Pause Animation
 
 Pause the animation on the Lottie component.
 
-[[Method('Lottie', 'Pause Animation', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Lottie%22,%20%22name%22:%20%22Pause%20Animation%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Resume Animation
 
 Resume the animation on the Lottie component.
 
-[[Method('Lottie', 'Resume Animation', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Lottie%22,%20%22name%22:%20%22Resume%20Animation%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Set Current Frame
 
 Set the frame where you want the animation to be now.
 
-[[Method('Lottie', 'Set Current Frame', False, 'frame')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Lottie%22,%20%22name%22:%20%22Set%20Current%20Frame%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22frame%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -104,13 +116,15 @@ Set the frame where you want the animation to be now.
 
 Start the animation on the Lottie component.
 
-[[Method('Lottie', 'Start Animation', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Lottie%22,%20%22name%22:%20%22Start%20Animation%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Start Frame
 
 Set the frame where you want the animation to start.
 
-[[Method('Lottie', 'Start Frame', False, 'frame')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Lottie%22,%20%22name%22:%20%22Start%20Frame%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22frame%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -125,7 +139,9 @@ Set the frame where you want the animation to start.
 
 Set the speed of the animation.
 
-[[PropertyBlockGetterAndSetter('Lottie', 'Animation Speed')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Lottie%22,%20%22name%22:%20%22Animation%20Speed%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Lottie%22,%20%22name%22:%20%22Animation%20Speed%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Clickable
 
@@ -133,7 +149,9 @@ Set the speed of the animation.
 
 Set the component clickable or not clickable.
 
-[[PropertyBlockGetterAndSetter('Lottie', 'Clickable')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Lottie%22,%20%22name%22:%20%22Clickable%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Lottie%22,%20%22name%22:%20%22Clickable%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Loop Animation
 
@@ -141,7 +159,9 @@ Set the component clickable or not clickable.
 
 Set to true if you want to loop the animation.
 
-[[PropertyBlockGetterAndSetter('Lottie', 'Loop Animation')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Lottie%22,%20%22name%22:%20%22Loop%20Animation%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Lottie%22,%20%22name%22:%20%22Loop%20Animation%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Source
 
@@ -149,7 +169,9 @@ Set to true if you want to loop the animation.
 
 Set the file or url of the file you want to load.
 
-[[PropertyBlockGetterAndSetter('Lottie', 'Source')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Lottie%22,%20%22name%22:%20%22Source%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Lottie%22,%20%22name%22:%20%22Source%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Visible
 
@@ -157,7 +179,9 @@ Set the file or url of the file you want to load.
 
 Returns true iff the component is visible.
 
-[[PropertyBlockGetterAndSetter('Lottie', 'Visible')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Lottie%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Lottie%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Column
 
@@ -171,7 +195,9 @@ Column property getter method.
 
 Specifies the component's vertical height, measured in pixels.
 
-[[PropertyBlockGetterAndSetter('Lottie', 'Height')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Lottie%22,%20%22name%22:%20%22Height%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Lottie%22,%20%22name%22:%20%22Height%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Height Percent
 
@@ -179,7 +205,8 @@ Specifies the component's vertical height, measured in pixels.
 
 Specifies the component's vertical height as a percentageof the height of its parent Component.
 
-[[PropertyBlockGetterAndSetter('Lottie', 'Height Percent')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Lottie%22,%20%22name%22:%20%22Height%20Percent%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Row
 
@@ -193,7 +220,9 @@ Row property getter method.
 
 Specifies the component's horizontal width, measured in pixels.
 
-[[PropertyBlockGetterAndSetter('Lottie', 'Width')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Lottie%22,%20%22name%22:%20%22Width%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Lottie%22,%20%22name%22:%20%22Width%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Width Percent
 
@@ -201,4 +230,4 @@ Specifies the component's horizontal width, measured in pixels.
 
 Specifies the component's horizontal width as a percentageof the Width of its parent Component.
 
-[[PropertyBlockGetterAndSetter('Lottie', 'Width Percent')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Lottie%22,%20%22name%22:%20%22Width%20Percent%22,%20%22getter%22:%20false%7D"></div>

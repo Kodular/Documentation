@@ -16,7 +16,8 @@ A component to create dynamic space in Arrangements.
 
 Create a new space component dynamically. Use for width/height '-1' for wrap content or '-2' for fill parent.
 
-[[Method('Dynamic Space', 'Create Space', False, 'id', 'arrangement', 'width', 'height')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Space%22,%20%22name%22:%20%22Create%20Space%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22id%22,%20%22arrangement%22,%20%22width%22,%20%22height%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -30,7 +31,8 @@ Create a new space component dynamically. Use for width/height '-1' for wrap con
 
 Remove a space component with the given id.
 
-[[Method('Dynamic Space', 'Delete Space', False, 'id')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Space%22,%20%22name%22:%20%22Delete%20Space%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22id%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -43,7 +45,8 @@ Remove a space component with the given id.
 
 Get the Height of a space component.
 
-[[Method('Dynamic Space', 'Get Height', True, 'id')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Space%22,%20%22name%22:%20%22Get%20Height%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22id%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -56,7 +59,8 @@ Get the Height of a space component.
 
 Returns the space referenced by its id.
 
-[[Method('Dynamic Space', 'Get Space By Id', True, 'id')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Space%22,%20%22name%22:%20%22Get%20Space%20By%20Id%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22id%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -69,7 +73,8 @@ Returns the space referenced by its id.
 
 Get the Width of a space component.
 
-[[Method('Dynamic Space', 'Get Width', True, 'id')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Space%22,%20%22name%22:%20%22Get%20Width%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22id%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -80,7 +85,8 @@ Get the Width of a space component.
 
 Update the Height of a space component.
 
-[[Method('Dynamic Space', 'Set Height', False, 'id', 'height')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Space%22,%20%22name%22:%20%22Set%20Height%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22id%22,%20%22height%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -92,7 +98,8 @@ Update the Height of a space component.
 
 Update the Width of a space component.
 
-[[Method('Dynamic Space', 'Set Width', False, 'id', 'width')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Space%22,%20%22name%22:%20%22Set%20Width%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22id%22,%20%22width%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|

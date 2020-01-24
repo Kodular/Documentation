@@ -21,7 +21,8 @@ A non-visible component that lets the user purchase items, powered by Google''s 
 
 After purchase event.
 
-[[Event('In App Billing', 'After Purchase', 'productId')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22In%20App%20Billing%22,%20%22name%22:%20%22After%20Purchase%22,%20%22params%22:%20%5B%22product%20Id%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -32,7 +33,8 @@ After purchase event.
 
 Error occurred event.
 
-[[Event('In App Billing', 'Error Occurred', 'message')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22In%20App%20Billing%22,%20%22name%22:%20%22Error%20Occurred%22,%20%22params%22:%20%5B%22message%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -43,7 +45,8 @@ Error occurred event.
 
 Got Owned Purchases
 
-[[Event('In App Billing', 'Got Owned Purchases', 'ownedProducts', 'ownedSubscriptions')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22In%20App%20Billing%22,%20%22name%22:%20%22Got%20Owned%20Purchases%22,%20%22params%22:%20%5B%22owned%20Products%22,%20%22owned%20Subscriptions%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -55,7 +58,8 @@ Got Owned Purchases
 
 Got Product Details
 
-[[Event('In App Billing', 'Got Product Details', 'success', 'productId', 'title', 'description', 'currency', 'price')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22In%20App%20Billing%22,%20%22name%22:%20%22Got%20Product%20Details%22,%20%22params%22:%20%5B%22success%22,%20%22product%20Id%22,%20%22title%22,%20%22description%22,%20%22currency%22,%20%22price%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -71,7 +75,8 @@ Got Product Details
 
 Got Subscription Details
 
-[[Event('In App Billing', 'Got Subscription Details', 'success', 'isSubscription', 'subscriptionId', 'title', 'description', 'currency', 'price')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22In%20App%20Billing%22,%20%22name%22:%20%22Got%20Subscription%20Details%22,%20%22params%22:%20%5B%22success%22,%20%22is%20Subscription%22,%20%22subscription%20Id%22,%20%22title%22,%20%22description%22,%20%22currency%22,%20%22price%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -92,7 +97,8 @@ Got Subscription Details
 
 Do not use this block anymore. This block is deprecated and does nothing and will be removed in the future!
 
-[[Method('In App Billing', 'Consume', False, 'productId')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22In%20App%20Billing%22,%20%22name%22:%20%22Consume%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22product%20Id%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -105,7 +111,8 @@ Do not use this block anymore. This block is deprecated and does nothing and wil
 
 Do not use this block anymore. This block is deprecated and does nothing and will be removed in the future!
 
-[[Method('In App Billing', 'Initialize', False, 'licenseKey', 'merchantId')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22In%20App%20Billing%22,%20%22name%22:%20%22Initialize%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22license%20Key%22,%20%22merchant%20Id%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -119,7 +126,8 @@ Do not use this block anymore. This block is deprecated and does nothing and wil
 
 Returns true if the product with the specific id is purchased.
 
-[[Method('In App Billing', 'Is Purchased', True, 'productId')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22In%20App%20Billing%22,%20%22name%22:%20%22Is%20Purchased%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22product%20Id%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -132,7 +140,8 @@ Returns true if the product with the specific id is purchased.
 
 Returns true if the product is subscribed.
 
-[[Method('In App Billing', 'Is Subscribed', True, 'subscriptionId')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22In%20App%20Billing%22,%20%22name%22:%20%22Is%20Subscribed%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22subscription%20Id%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -143,13 +152,15 @@ Returns true if the product is subscribed.
 
 Load Owned Purchases from Google.
 
-[[Method('In App Billing', 'Load Owned Purchases', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22In%20App%20Billing%22,%20%22name%22:%20%22Load%20Owned%20Purchases%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Product Details
 
 Get product details from the specific product id.
 
-[[Method('In App Billing', 'Product Details', False, 'productId')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22In%20App%20Billing%22,%20%22name%22:%20%22Product%20Details%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22product%20Id%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -160,7 +171,8 @@ Get product details from the specific product id.
 
 Purchase a product with the given product id.
 
-[[Method('In App Billing', 'Purchase', False, 'productId')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22In%20App%20Billing%22,%20%22name%22:%20%22Purchase%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22product%20Id%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -171,7 +183,8 @@ Purchase a product with the given product id.
 
 Subscribe a product with the given product id.
 
-[[Method('In App Billing', 'Subscribe', False, 'subscriptionId')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22In%20App%20Billing%22,%20%22name%22:%20%22Subscribe%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22subscription%20Id%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -182,7 +195,8 @@ Subscribe a product with the given product id.
 
 Get subscription details from the given id.
 
-[[Method('In App Billing', 'Subscription Details', False, 'subscriptionId')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22In%20App%20Billing%22,%20%22name%22:%20%22Subscription%20Details%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22subscription%20Id%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -195,7 +209,8 @@ Get subscription details from the given id.
 
 Do not use this block anymore. This block is deprecated and does nothing and will be removed in the future!
 
-[[Method('In App Billing', 'Update Subscription', False, 'subscriptionId')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22In%20App%20Billing%22,%20%22name%22:%20%22Update%20Subscription%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22subscription%20Id%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -218,7 +233,9 @@ Do not use this block anymore. This block is deprecated and does nothing and wil
 
 Whether it is testing mode enabled or not.
 
-[[PropertyBlockGetterAndSetter('In App Billing', 'Test Mode')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22In%20App%20Billing%22,%20%22name%22:%20%22Test%20Mode%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22In%20App%20Billing%22,%20%22name%22:%20%22Test%20Mode%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Is IAB Service Available
 
@@ -226,7 +243,8 @@ Whether it is testing mode enabled or not.
 
 Check Play Market services availability.
 
-[[PropertyBlockGetter('In App Billing', 'Is IAB Service Available')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22In%20App%20Billing%22,%20%22name%22:%20%22Is%20IAB%20Service%20Available%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Is One Time Purchase Available
 
@@ -234,7 +252,8 @@ Check Play Market services availability.
 
 Is one time purchase supported.
 
-[[PropertyBlockGetter('In App Billing', 'Is One Time Purchase Available')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22In%20App%20Billing%22,%20%22name%22:%20%22Is%20One%20Time%20Purchase%20Available%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Is Subscription Update Supported
 
@@ -242,7 +261,8 @@ Is one time purchase supported.
 
 Is subscription update supported.
 
-[[PropertyBlockGetter('In App Billing', 'Is Subscription Update Supported')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22In%20App%20Billing%22,%20%22name%22:%20%22Is%20Subscription%20Update%20Supported%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Ready To Purchase
 
@@ -250,4 +270,4 @@ Is subscription update supported.
 
 Whether In-app billing service is ready to purchase.
 
-[[PropertyBlockGetter('In App Billing', 'Ready To Purchase')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22In%20App%20Billing%22,%20%22name%22:%20%22Ready%20To%20Purchase%22,%20%22getter%22:%20true%7D"></div>

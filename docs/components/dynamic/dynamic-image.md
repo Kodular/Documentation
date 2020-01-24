@@ -16,7 +16,8 @@ A component to create dynamic image in Arrangements.
 
 Create a new image component dynamically. Use for width/height '-1' for wrap content or '-2' for fill parent.
 
-[[Method('Dynamic Image', 'Create Image', False, 'id', 'arrangement', 'path', 'width', 'height')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Image%22,%20%22name%22:%20%22Create%20Image%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22id%22,%20%22arrangement%22,%20%22path%22,%20%22width%22,%20%22height%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -31,7 +32,8 @@ Create a new image component dynamically. Use for width/height '-1' for wrap con
 
 Remove a image component with the given id.
 
-[[Method('Dynamic Image', 'Delete Image', False, 'id')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Image%22,%20%22name%22:%20%22Delete%20Image%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22id%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -44,7 +46,8 @@ Remove a image component with the given id.
 
 Get the Height of a image component.
 
-[[Method('Dynamic Image', 'Get Height', True, 'id')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Image%22,%20%22name%22:%20%22Get%20Height%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22id%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -57,7 +60,8 @@ Get the Height of a image component.
 
 Returns the image referenced by its id.
 
-[[Method('Dynamic Image', 'Get Image By Id', True, 'id')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Image%22,%20%22name%22:%20%22Get%20Image%20By%20Id%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22id%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -70,7 +74,8 @@ Returns the image referenced by its id.
 
 Get the Width of a image component.
 
-[[Method('Dynamic Image', 'Get Width', True, 'id')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Image%22,%20%22name%22:%20%22Get%20Width%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22id%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -81,7 +86,8 @@ Get the Width of a image component.
 
 Specifies the angle of a image component with the given id.
 
-[[Method('Dynamic Image', 'Rotation Angle', False, 'id', 'rotationAngle')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Image%22,%20%22name%22:%20%22Rotation%20Angle%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22id%22,%20%22rotation%20Angle%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -93,7 +99,8 @@ Specifies the angle of a image component with the given id.
 
 Specifies whether a image component with the given id should be resized to match the size of the ImageView.
 
-[[Method('Dynamic Image', 'Scale Picture To Fit', False, 'id', 'scale')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Image%22,%20%22name%22:%20%22Scale%20Picture%20To%20Fit%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22id%22,%20%22scale%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -105,7 +112,8 @@ Specifies whether a image component with the given id should be resized to match
 
 Update the Height of a image component.
 
-[[Method('Dynamic Image', 'Set Height', False, 'id', 'height')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Image%22,%20%22name%22:%20%22Set%20Height%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22id%22,%20%22height%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -117,7 +125,8 @@ Update the Height of a image component.
 
 Update the Width of a image component.
 
-[[Method('Dynamic Image', 'Set Width', False, 'id', 'width')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Image%22,%20%22name%22:%20%22Set%20Width%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22id%22,%20%22width%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -129,7 +138,8 @@ Update the Width of a image component.
 
 Update a image component with the given id.
 
-[[Method('Dynamic Image', 'Update Image', False, 'id', 'path')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Image%22,%20%22name%22:%20%22Update%20Image%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22id%22,%20%22path%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|

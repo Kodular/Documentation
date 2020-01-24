@@ -18,7 +18,8 @@ A Component that acts like a Pedometer. It senses motion via the Accerleromter a
 
 deprecated
 
-[[Event('Pedometer', 'Calibration Failed')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Pedometer%22,%20%22name%22:%20%22Calibration%20Failed%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### GPS Available
 
@@ -26,7 +27,8 @@ deprecated
 
 deprecated
 
-[[Event('Pedometer', 'GPS Available')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Pedometer%22,%20%22name%22:%20%22GPS%20Available%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### GPS Lost
 
@@ -34,13 +36,15 @@ deprecated
 
 deprecated
 
-[[Event('Pedometer', 'GPS Lost')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Pedometer%22,%20%22name%22:%20%22GPS%20Lost%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Simple Step
 
 This event is run when a raw step is detected
 
-[[Event('Pedometer', 'Simple Step', 'simpleSteps', 'distance')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Pedometer%22,%20%22name%22:%20%22Simple%20Step%22,%20%22params%22:%20%5B%22simple%20Steps%22,%20%22distance%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -54,7 +58,8 @@ This event is run when a raw step is detected
 
 deprecated
 
-[[Event('Pedometer', 'Started Moving')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Pedometer%22,%20%22name%22:%20%22Started%20Moving%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Stopped Moving
 
@@ -62,13 +67,15 @@ deprecated
 
 deprecated
 
-[[Event('Pedometer', 'Stopped Moving')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Pedometer%22,%20%22name%22:%20%22Stopped%20Moving%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Walk Step
 
 This event is run when a walking step is detected. A walking step is a step that appears to be involved in forward motion.
 
-[[Event('Pedometer', 'Walk Step', 'walkSteps', 'distance')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Pedometer%22,%20%22name%22:%20%22Walk%20Step%22,%20%22params%22:%20%5B%22walk%20Steps%22,%20%22distance%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -84,13 +91,15 @@ This event is run when a walking step is detected. A walking step is a step that
 
 Pause counting of steps and distance.
 
-[[Method('Pedometer', 'Pause', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Pedometer%22,%20%22name%22:%20%22Pause%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Reset
 
 Resets the step counter, distance measure and time running.
 
-[[Method('Pedometer', 'Reset', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Pedometer%22,%20%22name%22:%20%22Reset%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Resume
 
@@ -98,25 +107,29 @@ Resets the step counter, distance measure and time running.
 
 Resumes counting, synonym of Start.
 
-[[Method('Pedometer', 'Resume', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Pedometer%22,%20%22name%22:%20%22Resume%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Save
 
 Saves the pedometer state to the phone. Permits permits accumulation of steps and distance between invocations of an App that uses the pedometer. Different Apps will have their own saved state.
 
-[[Method('Pedometer', 'Save', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Pedometer%22,%20%22name%22:%20%22Save%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Start
 
 Start counting steps
 
-[[Method('Pedometer', 'Start', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Pedometer%22,%20%22name%22:%20%22Start%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Stop
 
 Stop counting steps
 
-[[Method('Pedometer', 'Stop', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Pedometer%22,%20%22name%22:%20%22Stop%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Properties
 
@@ -126,7 +139,9 @@ Stop counting steps
 
 The duration in milliseconds of idleness (no steps detected) after which to go into a "stopped" state
 
-[[PropertyBlockGetterAndSetter('Pedometer', 'Stop Detection Timeout')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Pedometer%22,%20%22name%22:%20%22Stop%20Detection%20Timeout%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Pedometer%22,%20%22name%22:%20%22Stop%20Detection%20Timeout%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Stride Length
 
@@ -134,7 +149,9 @@ The duration in milliseconds of idleness (no steps detected) after which to go i
 
 Set the average stride length in meters.
 
-[[PropertyBlockGetterAndSetter('Pedometer', 'Stride Length')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Pedometer%22,%20%22name%22:%20%22Stride%20Length%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Pedometer%22,%20%22name%22:%20%22Stride%20Length%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Calibrate Stride Length
 
@@ -144,7 +161,9 @@ Set the average stride length in meters.
 
 deprecated
 
-[[PropertyBlockGetterAndSetter('Pedometer', 'Calibrate Stride Length')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Pedometer%22,%20%22name%22:%20%22Calibrate%20Stride%20Length%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Pedometer%22,%20%22name%22:%20%22Calibrate%20Stride%20Length%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Distance
 
@@ -152,7 +171,8 @@ deprecated
 
 The approximate distance traveled in meters.
 
-[[PropertyBlockGetter('Pedometer', 'Distance')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Pedometer%22,%20%22name%22:%20%22Distance%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Elapsed Time
 
@@ -160,7 +180,8 @@ The approximate distance traveled in meters.
 
 Time elapsed in milliseconds since the pedometer was started.
 
-[[PropertyBlockGetter('Pedometer', 'Elapsed Time')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Pedometer%22,%20%22name%22:%20%22Elapsed%20Time%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Moving
 
@@ -170,7 +191,8 @@ Time elapsed in milliseconds since the pedometer was started.
 
 deprecated
 
-[[PropertyBlockGetter('Pedometer', 'Moving')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Pedometer%22,%20%22name%22:%20%22Moving%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Simple Steps
 
@@ -178,7 +200,8 @@ deprecated
 
 The number of simple steps taken since the pedometer has started.
 
-[[PropertyBlockGetter('Pedometer', 'Simple Steps')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Pedometer%22,%20%22name%22:%20%22Simple%20Steps%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Use GPS
 
@@ -186,7 +209,8 @@ The number of simple steps taken since the pedometer has started.
 
 <span class="chip chip-boolean">Boolean</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Blocks</span> 
 
-[[PropertyBlockGetterAndSetter('Pedometer', 'Use GPS')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Pedometer%22,%20%22name%22:%20%22Use%20GPS%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Walk Steps
 
@@ -194,4 +218,4 @@ The number of simple steps taken since the pedometer has started.
 
 the number of walk steps taken since the pedometer has started.
 
-[[PropertyBlockGetter('Pedometer', 'Walk Steps')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Pedometer%22,%20%22name%22:%20%22Walk%20Steps%22,%20%22getter%22:%20true%7D"></div>

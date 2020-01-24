@@ -22,19 +22,22 @@ A non-visible component that shows StartApp ads as full-screen advertisements.
 
 Indicates that the user has clicked on the interstial ad
 
-[[Event('StartApp Interstitial', 'Ad Clicked')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22StartApp%20Interstitial%22,%20%22name%22:%20%22Ad%20Clicked%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Ad Displayed
 
 Indicates that an Ad is shown to the user.
 
-[[Event('StartApp Interstitial', 'Ad Displayed')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22StartApp%20Interstitial%22,%20%22name%22:%20%22Ad%20Displayed%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Ad Failed To Load
 
 Called when an ad request failed to load. The message will display the error code and error message.
 
-[[Event('StartApp Interstitial', 'Ad Failed To Load', 'errorCode', 'errorMessage')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22StartApp%20Interstitial%22,%20%22name%22:%20%22Ad%20Failed%20To%20Load%22,%20%22params%22:%20%5B%22error%20Code%22,%20%22error%20Message%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -46,7 +49,8 @@ Called when an ad request failed to load. The message will display the error cod
 
 Called when an an attempt was made to display the ad, but the ad was not ready to display.
 
-[[Event('StartApp Interstitial', 'Ad Failed To Show', 'errorMessage')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22StartApp%20Interstitial%22,%20%22name%22:%20%22Ad%20Failed%20To%20Show%22,%20%22params%22:%20%5B%22error%20Message%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -57,13 +61,15 @@ Called when an an attempt was made to display the ad, but the ad was not ready t
 
 Indicates that an Ad which was shown to the user is now hidden.
 
-[[Event('StartApp Interstitial', 'Ad Hidden')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22StartApp%20Interstitial%22,%20%22name%22:%20%22Ad%20Hidden%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### On Failed To Receive Ad
 
 Called when an ad request failed to load.
 
-[[Event('StartApp Interstitial', 'On Failed To Receive Ad', 'errorMessage')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22StartApp%20Interstitial%22,%20%22name%22:%20%22On%20Failed%20To%20Receive%20Ad%22,%20%22params%22:%20%5B%22error%20Message%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -74,7 +80,8 @@ Called when an ad request failed to load.
 
 Called when an ad request failed to load. The message will display the error code and error message.
 
-[[Event('StartApp Interstitial', 'On Receive Ad')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22StartApp%20Interstitial%22,%20%22name%22:%20%22On%20Receive%20Ad%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Methods
 
@@ -82,13 +89,15 @@ Called when an ad request failed to load. The message will display the error cod
 
 Load a new StartApp Interstitial ad.
 
-[[Method('StartApp Interstitial', 'Load Ad', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22StartApp%20Interstitial%22,%20%22name%22:%20%22Load%20Ad%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Show Interstitial Ad
 
 It will show the Interstitial Ad
 
-[[Method('StartApp Interstitial', 'Show Interstitial Ad', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22StartApp%20Interstitial%22,%20%22name%22:%20%22Show%20Interstitial%20Ad%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Properties
 

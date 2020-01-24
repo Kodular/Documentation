@@ -24,25 +24,29 @@ An interstitial ad is a full-page ad. AdAmazonInterstitial component allows you 
 
 Triggered when the close button of the interstitial ad is clicked. It's important to remember only one interstitial ad can be shown at a time. The previous ad has to be dismissed before a new ad can be shown.
 
-[[Event('Amazon Interstitial', 'Ad Closed')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Amazon%20Interstitial%22,%20%22name%22:%20%22Ad%20Closed%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Ad Collapsed
 
 After a user clicks on the close ad button on an expanded ad, this callback is called immediately after collapsing the ad. This callback can be used to do things like resume your app or restart audio.
 
-[[Event('Amazon Interstitial', 'Ad Collapsed')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Amazon%20Interstitial%22,%20%22name%22:%20%22Ad%20Collapsed%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Ad Expanded
 
 This callback is called each time an ad is successfully loaded. You can use this to log metrics on ad views and assist with initial integration. Detailed information about the ad that loaded can be obtained from the AdProperties object.
 
-[[Event('Amazon Interstitial', 'Ad Expanded')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Amazon%20Interstitial%22,%20%22name%22:%20%22Ad%20Expanded%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Ad Failed To Load
 
 Whenever an ad fails to be retrieved, the event is called, returning the error message.
 
-[[Event('Amazon Interstitial', 'Ad Failed To Load', 'error', 'message')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Amazon%20Interstitial%22,%20%22name%22:%20%22Ad%20Failed%20To%20Load%22,%20%22params%22:%20%5B%22error%22,%20%22message%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -54,7 +58,8 @@ Whenever an ad fails to be retrieved, the event is called, returning the error m
 
 Called when an an attempt was made to display the ad, but the ad was not ready to display
 
-[[Event('Amazon Interstitial', 'Ad Failed To Show', 'message')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Amazon%20Interstitial%22,%20%22name%22:%20%22Ad%20Failed%20To%20Show%22,%20%22params%22:%20%5B%22message%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -65,7 +70,8 @@ Called when an an attempt was made to display the ad, but the ad was not ready t
 
 Triggered each time an ad is successfully loaded. But you don't have to display the ad right after it's loaded. For example, set a flag to true and then at a transition point, if flag=true, then display the ad.
 
-[[Event('Amazon Interstitial', 'Ad Loaded')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Amazon%20Interstitial%22,%20%22name%22:%20%22Ad%20Loaded%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Methods
 
@@ -73,13 +79,15 @@ Triggered each time an ad is successfully loaded. But you don't have to display 
 
 Loads a new ad.
 
-[[Method('Amazon Interstitial', 'Load Ad', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Amazon%20Interstitial%22,%20%22name%22:%20%22Load%20Ad%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Show Interstitial Ad
 
 It will show the Interstitial Ad
 
-[[Method('Amazon Interstitial', 'Show Interstitial Ad', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Amazon%20Interstitial%22,%20%22name%22:%20%22Show%20Interstitial%20Ad%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Properties
 
@@ -95,13 +103,16 @@ Enter Application Key. Go to Amazon Developer Portal and sign-in for your Applic
 
 Sets the ad network used to take the commission.
 
-[[PropertyBlockGetterAndSetter('Amazon Interstitial', 'Interstitial Commission')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Amazon%20Interstitial%22,%20%22name%22:%20%22Interstitial%20Commission%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Enable Debug
 
 <span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
-[[PropertyBlockGetterAndSetter('Amazon Interstitial', 'Enable Debug')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Amazon%20Interstitial%22,%20%22name%22:%20%22Enable%20Debug%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Amazon%20Interstitial%22,%20%22name%22:%20%22Enable%20Debug%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Enable Geo Location Targeting
 
@@ -109,7 +120,9 @@ Sets the ad network used to take the commission.
 
 If set to true, uses latitude and longitude coordinates as part of an ad request
 
-[[PropertyBlockGetterAndSetter('Amazon Interstitial', 'Enable Geo Location Targeting')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Amazon%20Interstitial%22,%20%22name%22:%20%22Enable%20Geo%20Location%20Targeting%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Amazon%20Interstitial%22,%20%22name%22:%20%22Enable%20Geo%20Location%20Targeting%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Enable Testing
 
@@ -117,7 +130,9 @@ If set to true, uses latitude and longitude coordinates as part of an ad request
 
 For debugging / development purposes flag all ad requests as tests, but set to false for production builds
 
-[[PropertyBlockGetterAndSetter('Amazon Interstitial', 'Enable Testing')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Amazon%20Interstitial%22,%20%22name%22:%20%22Enable%20Testing%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Amazon%20Interstitial%22,%20%22name%22:%20%22Enable%20Testing%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Target Age
 
@@ -125,4 +140,5 @@ For debugging / development purposes flag all ad requests as tests, but set to f
 
 You can pass age information to the Amazon Mobile Ad Network to target specific age groups. If set as 0, Age Targetting will not be used
 
-[[PropertyBlockGetterAndSetter('Amazon Interstitial', 'Target Age')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Amazon%20Interstitial%22,%20%22name%22:%20%22Target%20Age%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Amazon%20Interstitial%22,%20%22name%22:%20%22Target%20Age%22,%20%22getter%22:%20false%7D"></div>

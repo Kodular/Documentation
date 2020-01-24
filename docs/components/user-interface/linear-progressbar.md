@@ -14,7 +14,8 @@ A visible component that indicates the progress of an operation using an animate
 
 Event that indicates that the progress of the progress bar has been changed. Returns the current progress value. If "Indeterminate" is set to true, then it returns "0".
 
-[[Event('Linear Progressbar', 'Progress Changed', 'progress')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Linear%20Progressbar%22,%20%22name%22:%20%22Progress%20Changed%22,%20%22params%22:%20%5B%22progress%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -27,7 +28,8 @@ Event that indicates that the progress of the progress bar has been changed. Ret
 
 Increase the progress bar's progress by the specified amount.
 
-[[Method('Linear Progressbar', 'Increment Progress By', False, 'value')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Linear%20Progressbar%22,%20%22name%22:%20%22Increment%20Progress%20By%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22value%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -42,7 +44,9 @@ Increase the progress bar's progress by the specified amount.
 
 Change the indeterminate mode for this progress bar. In indeterminate mode, the progress is ignored and the progress bar shows an infinite animation instead.
 
-[[PropertyBlockGetterAndSetter('Linear Progressbar', 'Indeterminate')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Linear%20Progressbar%22,%20%22name%22:%20%22Indeterminate%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Linear%20Progressbar%22,%20%22name%22:%20%22Indeterminate%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Indeterminate Color
 
@@ -50,7 +54,9 @@ Change the indeterminate mode for this progress bar. In indeterminate mode, the 
 
 Change the indeterminate color of the progress bar.
 
-[[PropertyBlockGetterAndSetter('Linear Progressbar', 'Indeterminate Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Linear%20Progressbar%22,%20%22name%22:%20%22Indeterminate%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Linear%20Progressbar%22,%20%22name%22:%20%22Indeterminate%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Maximum
 
@@ -58,7 +64,9 @@ Change the indeterminate color of the progress bar.
 
 Set the upper range of the progress bar max.
 
-[[PropertyBlockGetterAndSetter('Linear Progressbar', 'Maximum')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Linear%20Progressbar%22,%20%22name%22:%20%22Maximum%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Linear%20Progressbar%22,%20%22name%22:%20%22Maximum%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Minimum
 
@@ -66,7 +74,9 @@ Set the upper range of the progress bar max.
 
 Set the lower range of the progress bar to min. This function works only for devices with API &gt;= 26
 
-[[PropertyBlockGetterAndSetter('Linear Progressbar', 'Minimum')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Linear%20Progressbar%22,%20%22name%22:%20%22Minimum%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Linear%20Progressbar%22,%20%22name%22:%20%22Minimum%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Progress Color
 
@@ -74,7 +84,9 @@ Set the lower range of the progress bar to min. This function works only for dev
 
 Change the progress color of the progress bar.
 
-[[PropertyBlockGetterAndSetter('Linear Progressbar', 'Progress Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Linear%20Progressbar%22,%20%22name%22:%20%22Progress%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Linear%20Progressbar%22,%20%22name%22:%20%22Progress%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Visible
 
@@ -82,7 +94,9 @@ Change the progress color of the progress bar.
 
 Returns true iff the component is visible.
 
-[[PropertyBlockGetterAndSetter('Linear Progressbar', 'Visible')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Linear%20Progressbar%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Linear%20Progressbar%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Column
 
@@ -96,7 +110,9 @@ Column property getter method.
 
 Sets the current progress to the specified value. Does not do anything if the progress bar is in indeterminate mode.
 
-[[PropertyBlockGetterAndSetter('Linear Progressbar', 'Progress')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Linear%20Progressbar%22,%20%22name%22:%20%22Progress%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Linear%20Progressbar%22,%20%22name%22:%20%22Progress%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Row
 
@@ -110,7 +126,9 @@ Row property getter method.
 
 Specifies the component's horizontal width, measured in pixels.
 
-[[PropertyBlockGetterAndSetter('Linear Progressbar', 'Width')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Linear%20Progressbar%22,%20%22name%22:%20%22Width%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Linear%20Progressbar%22,%20%22name%22:%20%22Width%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Width Percent
 
@@ -118,4 +136,4 @@ Specifies the component's horizontal width, measured in pixels.
 
 Specifies the component's horizontal width as a percentageof the Width of its parent Component.
 
-[[PropertyBlockGetterAndSetter('Linear Progressbar', 'Width Percent')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Linear%20Progressbar%22,%20%22name%22:%20%22Width%20Percent%22,%20%22getter%22:%20false%7D"></div>

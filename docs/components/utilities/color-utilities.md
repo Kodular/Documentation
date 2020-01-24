@@ -18,7 +18,8 @@ A non-visible component that performs operations like conversion between formats
 
 Convert a hex color to a integer color. The result is returned as integer.
 
-[[Method('Color Utilities', 'Convert Hex To Int', True, 'hexColor')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Color%20Utilities%22,%20%22name%22:%20%22Convert%20Hex%20To%20Int%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22hex%20Color%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -31,7 +32,8 @@ Convert a hex color to a integer color. The result is returned as integer.
 
 Convert a integer color to a hex color. The result is returned as string.
 
-[[Method('Color Utilities', 'Convert Int To Hex', True, 'color')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Color%20Utilities%22,%20%22name%22:%20%22Convert%20Int%20To%20Hex%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22color%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -44,7 +46,8 @@ Convert a integer color to a hex color. The result is returned as string.
 
 Returns the luminance of a color as a float between 0.0 and 1.0. The result is returned as double.
 
-[[Method('Color Utilities', 'Get Luminance', True, 'color')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Color%20Utilities%22,%20%22name%22:%20%22Get%20Luminance%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22color%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -57,7 +60,8 @@ Returns the luminance of a color as a float between 0.0 and 1.0. The result is r
 
 Returns true if the color is dark, else it returns false, means the color is light. The result is returned as boolean.
 
-[[Method('Color Utilities', 'Is Dark Color', True, 'color')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Color%20Utilities%22,%20%22name%22:%20%22Is%20Dark%20Color%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22color%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -70,7 +74,8 @@ Returns true if the color is dark, else it returns false, means the color is lig
 
 Set a alpha value to a color. The result is returned as integer.
 
-[[Method('Color Utilities', 'Set Alpha Value', True, 'color', 'alpha')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Color%20Utilities%22,%20%22name%22:%20%22Set%20Alpha%20Value%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22color%22,%20%22alpha%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|

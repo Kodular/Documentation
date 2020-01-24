@@ -22,7 +22,8 @@ The Download component is a non-visible component that allows users to download 
 
 Event to detect if the download is successful finished. You can use the "filePath" to use the downloaded file into your app. The "fileSize" will be returned in bytes.
 
-[[Event('Download', 'Download Complete', 'filePath', 'fileName', 'fileSize')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Download%22,%20%22name%22:%20%22Download%20Complete%22,%20%22params%22:%20%5B%22file%20Path%22,%20%22file%20Name%22,%20%22file%20Size%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -35,7 +36,8 @@ Event to detect if the download is successful finished. You can use the "filePat
 
 Get the progress (in percentage) of the current download task.
 
-[[Event('Download', 'On Download Progress Changed', 'progress')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Download%22,%20%22name%22:%20%22On%20Download%20Progress%20Changed%22,%20%22params%22:%20%5B%22progress%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -46,7 +48,8 @@ Get the progress (in percentage) of the current download task.
 
 Event to detect file size is ready to be used.
 
-[[Event('Download', 'Got File Size', 'size')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Download%22,%20%22name%22:%20%22Got%20File%20Size%22,%20%22params%22:%20%5B%22size%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -57,7 +60,8 @@ Event to detect file size is ready to be used.
 
 Event to detect when the user clicks on a running download, either from a system notification or from the downloads UI.
 
-[[Event('Download', 'Notification Clicked')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Download%22,%20%22name%22:%20%22Notification%20Clicked%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Methods
 
@@ -65,13 +69,15 @@ Event to detect when the user clicks on a running download, either from a system
 
 Start the download process of the given download url.
 
-[[Method('Download', 'Download', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Download%22,%20%22name%22:%20%22Download%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Get File Size
 
 Get the file size (in bytes) of a file that is stored online or on your device. The block detect automatic if it is a online path or not. You will get the result in the "Got File Size" event.
 
-[[Method('Download', 'Get File Size', False, 'path')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Download%22,%20%22name%22:%20%22Get%20File%20Size%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22path%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -82,7 +88,8 @@ Get the file size (in bytes) of a file that is stored online or on your device. 
 
 You can open the download folder with this block.
 
-[[Method('Download', 'Show Download', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Download%22,%20%22name%22:%20%22Show%20Download%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Properties
 
@@ -92,7 +99,9 @@ You can open the download folder with this block.
 
 Set whether this download may proceed over a roaming connection.
 
-[[PropertyBlockGetterAndSetter('Download', 'Allow Over Roaming')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Download%22,%20%22name%22:%20%22Allow%20Over%20Roaming%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Download%22,%20%22name%22:%20%22Allow%20Over%20Roaming%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Description
 
@@ -100,7 +109,9 @@ Set whether this download may proceed over a roaming connection.
 
 Set the description that you will see in the download notification.
 
-[[PropertyBlockGetterAndSetter('Download', 'Description')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Download%22,%20%22name%22:%20%22Description%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Download%22,%20%22name%22:%20%22Description%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Download URL
 
@@ -108,7 +119,9 @@ Set the description that you will see in the download notification.
 
 Set here the url to the file that you want to download.
 
-[[PropertyBlockGetterAndSetter('Download', 'Download URL')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Download%22,%20%22name%22:%20%22Download%20URL%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Download%22,%20%22name%22:%20%22Download%20URL%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Require Charging
 
@@ -116,7 +129,9 @@ Set here the url to the file that you want to download.
 
 Specify that to run this download, the device needs to be plugged in. Works only for devices with api &gt;= 24.
 
-[[PropertyBlockGetterAndSetter('Download', 'Require Charging')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Download%22,%20%22name%22:%20%22Require%20Charging%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Download%22,%20%22name%22:%20%22Require%20Charging%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Require Device Idle
 
@@ -124,7 +139,9 @@ Specify that to run this download, the device needs to be plugged in. Works only
 
 Specify that to run, the download needs the device to be in idle mode. Idle mode is a loose definition provided by the system, which means that the device is not in use, and has not been in use for some time. Works only for devices with api &gt;= 24.
 
-[[PropertyBlockGetterAndSetter('Download', 'Require Device Idle')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Download%22,%20%22name%22:%20%22Require%20Device%20Idle%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Download%22,%20%22name%22:%20%22Require%20Device%20Idle%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Save File As
 
@@ -132,7 +149,9 @@ Specify that to run, the download needs the device to be in idle mode. Idle mode
 
 Set here the new filename for the file that you want to download.
 
-[[PropertyBlockGetterAndSetter('Download', 'Save File As')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Download%22,%20%22name%22:%20%22Save%20File%20As%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Download%22,%20%22name%22:%20%22Save%20File%20As%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Scan By Media Scanner
 
@@ -140,7 +159,9 @@ Set here the new filename for the file that you want to download.
 
 If the file to be downloaded is to be scanned by MediaScanner.
 
-[[PropertyBlockGetterAndSetter('Download', 'Scan By Media Scanner')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Download%22,%20%22name%22:%20%22Scan%20By%20Media%20Scanner%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Download%22,%20%22name%22:%20%22Scan%20By%20Media%20Scanner%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Show Notification
 
@@ -148,7 +169,9 @@ If the file to be downloaded is to be scanned by MediaScanner.
 
 Control whether a system notification is posted by the download manager while this download is running or when it is completed.
 
-[[PropertyBlockGetterAndSetter('Download', 'Show Notification')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Download%22,%20%22name%22:%20%22Show%20Notification%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Download%22,%20%22name%22:%20%22Show%20Notification%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Suppress Warnings
 
@@ -156,7 +179,9 @@ Control whether a system notification is posted by the download manager while th
 
 If false you will see a toast message with a error message when a error is occurred.
 
-[[PropertyBlockGetterAndSetter('Download', 'Suppress Warnings')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Download%22,%20%22name%22:%20%22Suppress%20Warnings%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Download%22,%20%22name%22:%20%22Suppress%20Warnings%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Title
 
@@ -164,7 +189,9 @@ If false you will see a toast message with a error message when a error is occur
 
 Set the title that you will see in the download notification.
 
-[[PropertyBlockGetterAndSetter('Download', 'Title')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Download%22,%20%22name%22:%20%22Title%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Download%22,%20%22name%22:%20%22Title%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Is Download Manager Available
 
@@ -174,4 +201,4 @@ Set the title that you will see in the download notification.
 
 This function is deprecated. Do not use it anymore. We will remove it in the future. Since we support min API 14 the download manager is by default available. The download manager was added in API 9.
 
-[[PropertyBlockGetter('Download', 'Is Download Manager Available')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Download%22,%20%22name%22:%20%22Is%20Download%20Manager%20Available%22,%20%22getter%22:%20true%7D"></div>

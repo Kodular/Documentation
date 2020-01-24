@@ -15,13 +15,15 @@ This is a visible component that displays a list of text elements.
 
 Simple event to be raised after the an element has been chosen in the list. The selected element is available in the Selection property.
 
-[[Event('List View', 'After Picking')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%22,%20%22name%22:%20%22After%20Picking%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Long Click
 
 Simple event to be raised after the an element has been chosen in the list via long click. The selected element is available in the Selection property.
 
-[[Event('List View', 'Long Click')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%22,%20%22name%22:%20%22Long%20Click%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Methods
 
@@ -29,7 +31,8 @@ Simple event to be raised after the an element has been chosen in the list via l
 
 Remove all the items from the list
 
-[[Method('List View', 'Clear List', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%22,%20%22name%22:%20%22Clear%20List%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Properties
 
@@ -39,7 +42,9 @@ Remove all the items from the list
 
 The color of the listview background.
 
-[[PropertyBlockGetterAndSetter('List View', 'Background Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%22,%20%22name%22:%20%22Background%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%22,%20%22name%22:%20%22Background%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Divider Color
 
@@ -49,7 +54,9 @@ The color of the listview background.
 
 Set the divider color
 
-[[PropertyBlockGetterAndSetter('List View', 'Divider Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%22,%20%22name%22:%20%22Divider%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%22,%20%22name%22:%20%22Divider%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Divider Height
 
@@ -59,7 +66,9 @@ Set the divider color
 
 Set the divider height.
 
-[[PropertyBlockGetterAndSetter('List View', 'Divider Height')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%22,%20%22name%22:%20%22Divider%20Height%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%22,%20%22name%22:%20%22Divider%20Height%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Elements From String
 
@@ -67,7 +76,8 @@ Set the divider height.
 
 The ListView elements specified as a string with the items separated by commas such as: Cheese,Fruit,Bacon,Radish. Each word before the comma will be an element in the list.
 
-[[PropertyBlockGetterAndSetter('List View', 'Elements From String')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%22,%20%22name%22:%20%22Elements%20From%20String%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Filter Bar Hint
 
@@ -75,7 +85,9 @@ The ListView elements specified as a string with the items separated by commas s
 
 The hint that will be displayed in the filter bar.
 
-[[PropertyBlockGetterAndSetter('List View', 'Filter Bar Hint')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%22,%20%22name%22:%20%22Filter%20Bar%20Hint%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%22,%20%22name%22:%20%22Filter%20Bar%20Hint%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Font Bold
 
@@ -97,7 +109,8 @@ The hint that will be displayed in the filter bar.
 
 Set a custom font.
 
-[[PropertyBlockGetterAndSetter('List View', 'Font Typeface Import')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%22,%20%22name%22:%20%22Font%20Typeface%20Import%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### HTML Format
 
@@ -107,7 +120,9 @@ Set a custom font.
 
 Returns true if html is enabled.
 
-[[PropertyBlockGetterAndSetter('List View', 'HTML Format')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%22,%20%22name%22:%20%22HTML%20Format%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%22,%20%22name%22:%20%22HTML%20Format%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Item Height in %
 
@@ -115,7 +130,9 @@ Returns true if html is enabled.
 
 Set the listview item height. If you write 10, that means the item height will be 10 percent of the device screen height.
 
-[[PropertyBlockGetterAndSetter('List View', 'Item Height in %')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%22,%20%22name%22:%20%22Item%20Height%20in%20%25%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%22,%20%22name%22:%20%22Item%20Height%20in%20%25%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Long Click Enabled
 
@@ -125,7 +142,9 @@ Set the listview item height. If you write 10, that means the item height will b
 
 If true long click on items are enabled, else long click is disabled.
 
-[[PropertyBlockGetterAndSetter('List View', 'Long Click Enabled')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%22,%20%22name%22:%20%22Long%20Click%20Enabled%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%22,%20%22name%22:%20%22Long%20Click%20Enabled%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Scrollbar Fading
 
@@ -133,7 +152,9 @@ If true long click on items are enabled, else long click is disabled.
 
 Return the state of ScrollbarFading. If ScrollbarFading is enabled returns true.
 
-[[PropertyBlockGetterAndSetter('List View', 'Scrollbar Fading')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%22,%20%22name%22:%20%22Scrollbar%20Fading%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%22,%20%22name%22:%20%22Scrollbar%20Fading%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Scrolling Speed
 
@@ -141,7 +162,9 @@ Return the state of ScrollbarFading. If ScrollbarFading is enabled returns true.
 
 The amount of friction applied to flings.
 
-[[PropertyBlockGetterAndSetter('List View', 'Scrolling Speed')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%22,%20%22name%22:%20%22Scrolling%20Speed%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%22,%20%22name%22:%20%22Scrolling%20Speed%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Search Hint Color
 
@@ -151,7 +174,9 @@ The amount of friction applied to flings.
 
 The color of the search hint text.
 
-[[PropertyBlockGetterAndSetter('List View', 'Search Hint Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%22,%20%22name%22:%20%22Search%20Hint%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%22,%20%22name%22:%20%22Search%20Hint%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Search Text Color
 
@@ -159,7 +184,9 @@ The color of the search hint text.
 
 The color of the search text.
 
-[[PropertyBlockGetterAndSetter('List View', 'Search Text Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%22,%20%22name%22:%20%22Search%20Text%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%22,%20%22name%22:%20%22Search%20Text%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Search Text Size
 
@@ -167,7 +194,9 @@ The color of the search text.
 
 The text size of the search text.
 
-[[PropertyBlockGetterAndSetter('List View', 'Search Text Size')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%22,%20%22name%22:%20%22Search%20Text%20Size%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%22,%20%22name%22:%20%22Search%20Text%20Size%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Selection
 
@@ -175,7 +204,9 @@ The text size of the search text.
 
 Set the selection to the ListView.
 
-[[PropertyBlockGetterAndSetter('List View', 'Selection')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%22,%20%22name%22:%20%22Selection%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%22,%20%22name%22:%20%22Selection%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Selection Color
 
@@ -183,7 +214,9 @@ Set the selection to the ListView.
 
 The color of the item when it is selected.
 
-[[PropertyBlockGetterAndSetter('List View', 'Selection Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%22,%20%22name%22:%20%22Selection%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%22,%20%22name%22:%20%22Selection%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Show Filter Bar
 
@@ -191,7 +224,9 @@ The color of the item when it is selected.
 
 Sets visibility of ShowFilterBar. True will show the bar, False will hide it.
 
-[[PropertyBlockGetterAndSetter('List View', 'Show Filter Bar')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%22,%20%22name%22:%20%22Show%20Filter%20Bar%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%22,%20%22name%22:%20%22Show%20Filter%20Bar%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Show Scrollbar
 
@@ -199,7 +234,9 @@ Sets visibility of ShowFilterBar. True will show the bar, False will hide it.
 
 Return the state of ShowScrollbar. If ShowScrollbar is enabled returns true.
 
-[[PropertyBlockGetterAndSetter('List View', 'Show Scrollbar')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%22,%20%22name%22:%20%22Show%20Scrollbar%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%22,%20%22name%22:%20%22Show%20Scrollbar%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Show Selection Color
 
@@ -219,7 +256,9 @@ Sets visibility of ShowSelectionColor. True will show the selection color on a s
 
 The text color of the listview items.
 
-[[PropertyBlockGetterAndSetter('List View', 'Text Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%22,%20%22name%22:%20%22Text%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%22,%20%22name%22:%20%22Text%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Font Size
 
@@ -227,7 +266,9 @@ The text color of the listview items.
 
 The text size of the listview items.
 
-[[PropertyBlockGetterAndSetter('List View', 'Font Size')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%22,%20%22name%22:%20%22Font%20Size%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%22,%20%22name%22:%20%22Font%20Size%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Visible
 
@@ -235,7 +276,9 @@ The text size of the listview items.
 
 Returns true iff the component is visible.
 
-[[PropertyBlockGetterAndSetter('List View', 'Visible')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Column
 
@@ -249,7 +292,9 @@ Column property getter method.
 
 List of text elements to show in the ListView.
 
-[[PropertyBlockGetterAndSetter('List View', 'Elements')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%22,%20%22name%22:%20%22Elements%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%22,%20%22name%22:%20%22Elements%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Height
 
@@ -257,7 +302,9 @@ List of text elements to show in the ListView.
 
 Determines the height of the list on the view.
 
-[[PropertyBlockGetterAndSetter('List View', 'Height')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%22,%20%22name%22:%20%22Height%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%22,%20%22name%22:%20%22Height%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Height Percent
 
@@ -265,7 +312,8 @@ Determines the height of the list on the view.
 
 Specifies the component's vertical height as a percentageof the height of its parent Component.
 
-[[PropertyBlockGetterAndSetter('List View', 'Height Percent')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%22,%20%22name%22:%20%22Height%20Percent%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Row
 
@@ -279,7 +327,8 @@ Row property getter method.
 
 Smoothly scroll to the specified position. The listview will scroll such that the indicated position is displayed.
 
-[[PropertyBlockGetterAndSetter('List View', 'Scroll To Position')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%22,%20%22name%22:%20%22Scroll%20To%20Position%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Selection Index
 
@@ -287,7 +336,9 @@ Smoothly scroll to the specified position. The listview will scroll such that th
 
 The index of the currently selected item, starting at 1. If no item is selected, the value will be 0. If an attempt is made to set this to a number less than 1 or greater than the number of items in the ListView, SelectionIndex will be set to 0, and Selection will be set to the empty text.
 
-[[PropertyBlockGetterAndSetter('List View', 'Selection Index')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%22,%20%22name%22:%20%22Selection%20Index%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%22,%20%22name%22:%20%22Selection%20Index%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Width
 
@@ -295,7 +346,9 @@ The index of the currently selected item, starting at 1. If no item is selected,
 
 Determines the width of the list on the view.
 
-[[PropertyBlockGetterAndSetter('List View', 'Width')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%22,%20%22name%22:%20%22Width%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%22,%20%22name%22:%20%22Width%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Width Percent
 
@@ -303,4 +356,4 @@ Determines the width of the list on the view.
 
 Specifies the component's horizontal width as a percentageof the Width of its parent Component.
 
-[[PropertyBlockGetterAndSetter('List View', 'Width Percent')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%22,%20%22name%22:%20%22Width%20Percent%22,%20%22getter%22:%20false%7D"></div>

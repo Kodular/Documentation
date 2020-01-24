@@ -39,7 +39,8 @@ A non-visible component that adds a dot/badge to the app''s launcher icon when a
 
 Use this block to apply a notification badge count.
 
-[[Method('Shortcut Badge', 'Apply Count', False, 'count')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Shortcut%20Badge%22,%20%22name%22:%20%22Apply%20Count%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22count%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -52,10 +53,11 @@ Use this block to apply a notification badge count.
 
 Use this block to return the notification count.
 
-[[Method('Shortcut Badge', 'Count', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Shortcut%20Badge%22,%20%22name%22:%20%22Count%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Remove Count
 
 Use this block to remove the notification badge count.
 
-[[Method('Shortcut Badge', 'Remove Count', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Shortcut%20Badge%22,%20%22name%22:%20%22Remove%20Count%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>

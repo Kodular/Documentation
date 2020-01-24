@@ -19,25 +19,29 @@ A non-visible component that shows Facebook ads as static banners.
 
 Event triggered when ads are clicked
 
-[[Event('Facebook Banner', 'Ad Clicked')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Facebook%20Banner%22,%20%22name%22:%20%22Ad%20Clicked%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Ad Closed
 
 Event triggered when ads are closed
 
-[[Event('Facebook Banner', 'Ad Closed')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Facebook%20Banner%22,%20%22name%22:%20%22Ad%20Closed%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Ad Loaded
 
 Event triggered when ads are loaded
 
-[[Event('Facebook Banner', 'Ad Loaded')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Facebook%20Banner%22,%20%22name%22:%20%22Ad%20Loaded%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Error
 
 Event triggered when ads failed to load
 
-[[Event('Facebook Banner', 'Error', 'error')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Facebook%20Banner%22,%20%22name%22:%20%22Error%22,%20%22params%22:%20%5B%22error%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -50,7 +54,8 @@ Event triggered when ads failed to load
 
 Load Ad
 
-[[Method('Facebook Banner', 'Load Ad', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Facebook%20Banner%22,%20%22name%22:%20%22Load%20Ad%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Properties
 
@@ -60,7 +65,9 @@ Load Ad
 
 Set Placement ID
 
-[[PropertyBlockGetterAndSetter('Facebook Banner', 'Placement ID')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Facebook%20Banner%22,%20%22name%22:%20%22Placement%20ID%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Facebook%20Banner%22,%20%22name%22:%20%22Placement%20ID%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Visible
 
@@ -68,7 +75,9 @@ Set Placement ID
 
 Returns true iff the component is visible.
 
-[[PropertyBlockGetterAndSetter('Facebook Banner', 'Visible')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Facebook%20Banner%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Facebook%20Banner%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Column
 

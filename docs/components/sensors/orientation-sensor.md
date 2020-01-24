@@ -26,7 +26,8 @@ This event is signalled when the device's orientation has changed. Itreports the
 
 Azimuth is the compass heading in degrees, pitch indicates how the deviceis tilted from top to bottom, and roll indicates how much the device is tilted fromside to side.
 
-[[Event('Orientation Sensor', 'Orientation Changed', 'azimuth', 'pitch', 'roll')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Orientation%20Sensor%22,%20%22name%22:%20%22Orientation%20Changed%22,%20%22params%22:%20%5B%22azimuth%22,%20%22pitch%22,%20%22roll%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -43,7 +44,9 @@ Azimuth is the compass heading in degrees, pitch indicates how the deviceis tilt
 
 Enabled property getter method.
 
-[[PropertyBlockGetterAndSetter('Orientation Sensor', 'Enabled')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Orientation%20Sensor%22,%20%22name%22:%20%22Enabled%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Orientation%20Sensor%22,%20%22name%22:%20%22Enabled%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Angle
 
@@ -51,7 +54,8 @@ Enabled property getter method.
 
 Angle property getter method (read-only property). Specifically, thisprovides the angle in which the orientation sensor is tilted, treating
 
-[[PropertyBlockGetter('Orientation Sensor', 'Angle')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Orientation%20Sensor%22,%20%22name%22:%20%22Angle%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Available
 
@@ -59,7 +63,8 @@ Angle property getter method (read-only property). Specifically, thisprovides th
 
 Available property getter method (read-only property).
 
-[[PropertyBlockGetter('Orientation Sensor', 'Available')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Orientation%20Sensor%22,%20%22name%22:%20%22Available%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Azimuth
 
@@ -69,7 +74,8 @@ Azimuth property getter method (read-only property)
 
 To return meaningful values the sensor must be enabled.
 
-[[PropertyBlockGetter('Orientation Sensor', 'Azimuth')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Orientation%20Sensor%22,%20%22name%22:%20%22Azimuth%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Magnitude
 
@@ -77,7 +83,8 @@ To return meaningful values the sensor must be enabled.
 
 Magnitude property getter method (read-only property). Specifically, thisreturns a number between 0 and 1, indicating how much the deviceis tilted. For the angle of tilt, use
 
-[[PropertyBlockGetter('Orientation Sensor', 'Magnitude')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Orientation%20Sensor%22,%20%22name%22:%20%22Magnitude%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Pitch
 
@@ -87,7 +94,8 @@ Pitch property getter method (read-only property)
 
 To return meaningful values the sensor must be enabled.
 
-[[PropertyBlockGetter('Orientation Sensor', 'Pitch')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Orientation%20Sensor%22,%20%22name%22:%20%22Pitch%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Roll
 
@@ -97,4 +105,4 @@ Roll property getter method (read-only property)
 
 To return meaningful values the sensor must be enabled.
 
-[[PropertyBlockGetter('Orientation Sensor', 'Roll')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Orientation%20Sensor%22,%20%22name%22:%20%22Roll%22,%20%22getter%22:%20true%7D"></div>

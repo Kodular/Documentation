@@ -34,7 +34,8 @@ There are events to tell when and where a Canvas has been touched or a `` Sprite
 
 When the user does a drag from one point (prevX, prevY) toanother (x, y). The pair (startX, startY) indicates where theuser first touched the screen, and "draggedAnySprite" indicates whether asprite is being dragged.
 
-[[Event('Canvas', 'Dragged', 'startX', 'startY', 'prevX', 'prevY', 'currentX', 'currentY', 'draggedAnySprite')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Canvas%22,%20%22name%22:%20%22Dragged%22,%20%22params%22:%20%5B%22start%20X%22,%20%22start%20Y%22,%20%22prev%20X%22,%20%22prev%20Y%22,%20%22current%20X%22,%20%22current%20Y%22,%20%22dragged%20Any%20Sprite%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -51,7 +52,8 @@ When the user does a drag from one point (prevX, prevY) toanother (x, y). The pa
 
 When a fling gesture (quick swipe) is made on the canvas: providesthe (x,y) position of the start of the fling, relative to the upperleft of the canvas. Also provides the speed (pixels per millisecond) and heading(0-360 degrees) of the fling, as well as the x velocity and y velocitycomponents of the fling's vector. The value "flungSprite" is true if a spritewas located near the the starting point of the fling gesture.
 
-[[Event('Canvas', 'Flung', 'x', 'y', 'speed', 'heading', 'xvel', 'yvel', 'flungSprite')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Canvas%22,%20%22name%22:%20%22Flung%22,%20%22params%22:%20%5B%22x%22,%20%22y%22,%20%22speed%22,%20%22heading%22,%20%22x%20vel%22,%20%22y%20vel%22,%20%22flung%20Sprite%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -68,7 +70,8 @@ When a fling gesture (quick swipe) is made on the canvas: providesthe (x,y) posi
 
 This event is invoked when two-finger pinches. ScaleFactor is the ratio of the average distance between two-fingers from current and previous scale event.
 
-[[Event('Canvas', 'Scaled', 'scaleFactor')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Canvas%22,%20%22name%22:%20%22Scaled%22,%20%22params%22:%20%5B%22scale%20Factor%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -79,7 +82,8 @@ This event is invoked when two-finger pinches. ScaleFactor is the ratio of the a
 
 When the user begins touching the canvas (places finger on canvas andleaves it there): provides the (x,y) position of the touch, relativeto the upper left of the canvas
 
-[[Event('Canvas', 'Touch Down', 'x', 'y')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Canvas%22,%20%22name%22:%20%22Touch%20Down%22,%20%22params%22:%20%5B%22x%22,%20%22y%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -91,7 +95,8 @@ When the user begins touching the canvas (places finger on canvas andleaves it t
 
 When the user stops touching the canvas (lifts finger after aTouchDown event): provides the (x,y) position of the touch, relativeto the upper left of the canvas
 
-[[Event('Canvas', 'Touch Up', 'x', 'y')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Canvas%22,%20%22name%22:%20%22Touch%20Up%22,%20%22params%22:%20%5B%22x%22,%20%22y%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -103,7 +108,8 @@ When the user stops touching the canvas (lifts finger after aTouchDown event): p
 
 When the user touches the canvas and then immediately lifts finger: providesthe (x,y) position of the touch, relative to the upper left of the canvas. TouchedAnySpriteis true if the same touch also touched a sprite, and false otherwise.
 
-[[Event('Canvas', 'Touched', 'x', 'y', 'touchedAnySprite')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Canvas%22,%20%22name%22:%20%22Touched%22,%20%22params%22:%20%5B%22x%22,%20%22y%22,%20%22touched%20Any%20Sprite%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -118,13 +124,15 @@ When the user touches the canvas and then immediately lifts finger: providesthe 
 
 Clears anything drawn on this Canvas but not any background color or image.
 
-[[Method('Canvas', 'Clear', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Canvas%22,%20%22name%22:%20%22Clear%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Draw Arc
 
 Draw an arc on Canvas, by drawing an arc from a specified oval (specified by left, top, right &amp; bottom). Start angle is 0 when heading to the right, and increase when rotate clockwise. When useCenter is true, a sector will be drawed instead of an arc. When fill is true, a filled arc (or sector) will be drawed instead of just an outline.
 
-[[Method('Canvas', 'Draw Arc', False, 'left', 'top', 'right', 'bottom', 'startAngle', 'sweepAngle', 'useCenter', 'fill')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Canvas%22,%20%22name%22:%20%22Draw%20Arc%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22left%22,%20%22top%22,%20%22right%22,%20%22bottom%22,%20%22start%20Angle%22,%20%22sweep%20Angle%22,%20%22use%20Center%22,%20%22fill%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -142,7 +150,8 @@ Draw an arc on Canvas, by drawing an arc from a specified oval (specified by lef
 
 Draws a circle (filled in) with the given radius centered at the given coordinates on the canvas
 
-[[Method('Canvas', 'Draw Circle', False, 'centerX', 'centerY', 'radius', 'fill')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Canvas%22,%20%22name%22:%20%22Draw%20Circle%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22center%20X%22,%20%22center%20Y%22,%20%22radius%22,%20%22fill%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -156,7 +165,8 @@ Draws a circle (filled in) with the given radius centered at the given coordinat
 
 Draws a line between the given coordinates on the canvas.
 
-[[Method('Canvas', 'Draw Line', False, 'x1', 'y1', 'x2', 'y2')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Canvas%22,%20%22name%22:%20%22Draw%20Line%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22x1%22,%20%22y1%22,%20%22x2%22,%20%22y2%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -170,7 +180,8 @@ Draws a line between the given coordinates on the canvas.
 
 Draws a point at the given coordinates on the canvas.
 
-[[Method('Canvas', 'Draw Point', False, 'x', 'y')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Canvas%22,%20%22name%22:%20%22Draw%20Point%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22x%22,%20%22y%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -182,7 +193,8 @@ Draws a point at the given coordinates on the canvas.
 
 Creates a polygon with with specified number of sides from a radius.
 
-[[Method('Canvas', 'Draw Polygon', False, 'centerX', 'centerY', 'numSides', 'polyRadius', 'cornerRadius', 'rotation', 'fill')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Canvas%22,%20%22name%22:%20%22Draw%20Polygon%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22center%20X%22,%20%22center%20Y%22,%20%22num%20Sides%22,%20%22poly%20Radius%22,%20%22corner%20Radius%22,%20%22rotation%22,%20%22fill%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -199,7 +211,8 @@ Creates a polygon with with specified number of sides from a radius.
 
 Draws a shape on the canvas. pointList should be a list contains sub-lists with two number which represents a coordinate. The first point and last point does not need to be the same. e.g. ((x1 y1) (x2 y2) (x3 y3)) When fill is true, the shape will be filled.
 
-[[Method('Canvas', 'Draw Shape', False, 'pointList', 'fill')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Canvas%22,%20%22name%22:%20%22Draw%20Shape%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22point%20List%22,%20%22fill%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -211,7 +224,8 @@ Draws a shape on the canvas. pointList should be a list contains sub-lists with 
 
 Draws the specified text relative to the specified coordinates using the values of the FontSize and TextAlignment properties.
 
-[[Method('Canvas', 'Draw Text', False, 'text', 'x', 'y')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Canvas%22,%20%22name%22:%20%22Draw%20Text%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22text%22,%20%22x%22,%20%22y%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -224,7 +238,8 @@ Draws the specified text relative to the specified coordinates using the values 
 
 Draws the specified text starting at the specified coordinates at the specified angle using the values of the FontSize and TextAlignment properties.
 
-[[Method('Canvas', 'Draw Text At Angle', False, 'text', 'x', 'y', 'angle')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Canvas%22,%20%22name%22:%20%22Draw%20Text%20At%20Angle%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22text%22,%20%22x%22,%20%22y%22,%20%22angle%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -240,7 +255,8 @@ Draws the specified text starting at the specified coordinates at the specified 
 
 Gets the color of the specified point. This includes the background and any drawn points, lines, or circles but not sprites.
 
-[[Method('Canvas', 'Get Background Pixel Color', True, 'x', 'y')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Canvas%22,%20%22name%22:%20%22Get%20Background%20Pixel%20Color%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22x%22,%20%22y%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -254,7 +270,8 @@ Gets the color of the specified point. This includes the background and any draw
 
 Gets the color of the specified point.
 
-[[Method('Canvas', 'Get Pixel Color', True, 'x', 'y')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Canvas%22,%20%22name%22:%20%22Get%20Pixel%20Color%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22x%22,%20%22y%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -268,7 +285,8 @@ Gets the color of the specified point.
 
 Saves a picture of this Canvas to the device's external storage. If an error occurs, the Screen's ErrorOccurred event will be called.
 
-[[Method('Canvas', 'Save', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Canvas%22,%20%22name%22:%20%22Save%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Save As
 
@@ -276,7 +294,8 @@ Saves a picture of this Canvas to the device's external storage. If an error occ
 
 Saves a picture of this Canvas to the device's external storage in the file named fileName. fileName must end with one of .jpg, .jpeg, or .png, which determines the file type.
 
-[[Method('Canvas', 'Save As', True, 'fileName')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Canvas%22,%20%22name%22:%20%22Save%20As%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22file%20Name%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -287,7 +306,8 @@ Saves a picture of this Canvas to the device's external storage in the file name
 
 Sets the color of the specified point. This differs from DrawPoint by having an argument for color.
 
-[[Method('Canvas', 'Set Background Pixel Color', False, 'x', 'y', 'color')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Canvas%22,%20%22name%22:%20%22Set%20Background%20Pixel%20Color%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22x%22,%20%22y%22,%20%22color%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -304,7 +324,9 @@ Sets the color of the specified point. This differs from DrawPoint by having an 
 
 The color of the canvas background.
 
-[[PropertyBlockGetterAndSetter('Canvas', 'Background Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Canvas%22,%20%22name%22:%20%22Background%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Canvas%22,%20%22name%22:%20%22Background%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Background Image
 
@@ -312,7 +334,9 @@ The color of the canvas background.
 
 The name of a file containing the background image for the canvas
 
-[[PropertyBlockGetterAndSetter('Canvas', 'Background Image')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Canvas%22,%20%22name%22:%20%22Background%20Image%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Canvas%22,%20%22name%22:%20%22Background%20Image%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Extend Moves Outside Canvas
 
@@ -320,7 +344,9 @@ The name of a file containing the background image for the canvas
 
 Determines whether moves can extend beyond the canvas borders. Default is false. This should normally be false, and the property is provided for backwards compatibility.
 
-[[PropertyBlockGetterAndSetter('Canvas', 'Extend Moves Outside Canvas')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Canvas%22,%20%22name%22:%20%22Extend%20Moves%20Outside%20Canvas%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Canvas%22,%20%22name%22:%20%22Extend%20Moves%20Outside%20Canvas%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Font Bold
 
@@ -336,7 +362,9 @@ Determines whether moves can extend beyond the canvas borders. Default is false.
 
 The font size of text drawn on the canvas.
 
-[[PropertyBlockGetterAndSetter('Canvas', 'Font Size')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Canvas%22,%20%22name%22:%20%22Font%20Size%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Canvas%22,%20%22name%22:%20%22Font%20Size%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Font Typeface
 
@@ -350,7 +378,8 @@ The font size of text drawn on the canvas.
 
 Set a custom font.
 
-[[PropertyBlockGetterAndSetter('Canvas', 'Font Typeface Import')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Canvas%22,%20%22name%22:%20%22Font%20Typeface%20Import%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Line Width
 
@@ -358,7 +387,9 @@ Set a custom font.
 
 The width of lines drawn on the canvas.
 
-[[PropertyBlockGetterAndSetter('Canvas', 'Line Width')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Canvas%22,%20%22name%22:%20%22Line%20Width%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Canvas%22,%20%22name%22:%20%22Line%20Width%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Paint Color
 
@@ -366,7 +397,9 @@ The width of lines drawn on the canvas.
 
 The color in which lines are drawn
 
-[[PropertyBlockGetterAndSetter('Canvas', 'Paint Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Canvas%22,%20%22name%22:%20%22Paint%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Canvas%22,%20%22name%22:%20%22Paint%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Text Alignment
 
@@ -374,7 +407,9 @@ The color in which lines are drawn
 
 Determines the alignment of the text drawn by DrawText() or DrawAngle() with respect to the point specified by that command: point at the left of the text, point at the center of the text, or point at the right of the text.
 
-[[PropertyBlockGetterAndSetter('Canvas', 'Text Alignment')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Canvas%22,%20%22name%22:%20%22Text%20Alignment%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Canvas%22,%20%22name%22:%20%22Text%20Alignment%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Visible
 
@@ -382,7 +417,9 @@ Determines the alignment of the text drawn by DrawText() or DrawAngle() with res
 
 Returns true iff the component is visible.
 
-[[PropertyBlockGetterAndSetter('Canvas', 'Visible')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Canvas%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Canvas%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Column
 
@@ -396,7 +433,9 @@ Column property getter method.
 
 Set the canvas heightThe height can only be set to &gt;0 or -1 (automatic) or -2 (fill parent) orto a value less then or equal to LENGTH_PERCENT_TAG (which is laterconverted to pixels.
 
-[[PropertyBlockGetterAndSetter('Canvas', 'Height')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Canvas%22,%20%22name%22:%20%22Height%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Canvas%22,%20%22name%22:%20%22Height%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Height Percent
 
@@ -404,7 +443,8 @@ Set the canvas heightThe height can only be set to &gt;0 or -1 (automatic) or -2
 
 Specifies the component's vertical height as a percentageof the height of its parent Component.
 
-[[PropertyBlockGetterAndSetter('Canvas', 'Height Percent')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Canvas%22,%20%22name%22:%20%22Height%20Percent%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Row
 
@@ -418,7 +458,9 @@ Row property getter method.
 
 Set the canvas widthThe width can only be set to &gt;0 or -1 (automatic) or -2 (fill parent)or to a value less then or equal to LENGTH_PERCENT_TAG (which is laterconverted to pixels.
 
-[[PropertyBlockGetterAndSetter('Canvas', 'Width')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Canvas%22,%20%22name%22:%20%22Width%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Canvas%22,%20%22name%22:%20%22Width%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Width Percent
 
@@ -426,4 +468,4 @@ Set the canvas widthThe width can only be set to &gt;0 or -1 (automatic) or -2 (
 
 Specifies the component's horizontal width as a percentageof the Width of its parent Component.
 
-[[PropertyBlockGetterAndSetter('Canvas', 'Width Percent')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Canvas%22,%20%22name%22:%20%22Width%20Percent%22,%20%22getter%22:%20false%7D"></div>

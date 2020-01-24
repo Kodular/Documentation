@@ -23,13 +23,15 @@ A non-visible component that lets users sign in using authentication services pr
 
 Triggers when the current Firebase User failed to load
 
-[[Event('Firebase Authentication', 'Current User Failed')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Firebase%20Authentication%22,%20%22name%22:%20%22Current%20User%20Failed%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Current User Success
 
 Triggers when the current Firebase User was successful loaded
 
-[[Event('Firebase Authentication', 'Current User Success', 'userID', 'name', 'email', 'phoneNumber', 'profilePicture')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Firebase%20Authentication%22,%20%22name%22:%20%22Current%20User%20Success%22,%20%22params%22:%20%5B%22user%20ID%22,%20%22name%22,%20%22email%22,%20%22phone%20Number%22,%20%22profile%20Picture%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -44,7 +46,8 @@ Triggers when the current Firebase User was successful loaded
 
 Triggers when the 'Get Id Token' got a result. If there was a error it returns a empty text.
 
-[[Event('Firebase Authentication', 'Got Id Token', 'idToken')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Firebase%20Authentication%22,%20%22name%22:%20%22Got%20Id%20Token%22,%20%22params%22:%20%5B%22id%20Token%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -55,7 +58,8 @@ Triggers when the 'Get Id Token' got a result. If there was a error it returns a
 
 Triggers when the Firebase Login failed
 
-[[Event('Firebase Authentication', 'Login Failed', 'provider')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Firebase%20Authentication%22,%20%22name%22:%20%22Login%20Failed%22,%20%22params%22:%20%5B%22provider%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -66,7 +70,8 @@ Triggers when the Firebase Login failed
 
 Triggers when the Firebase Login was successful
 
-[[Event('Firebase Authentication', 'Login Success', 'provider', 'userID', 'name', 'email', 'phoneNumber', 'profilePicture')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Firebase%20Authentication%22,%20%22name%22:%20%22Login%20Success%22,%20%22params%22:%20%5B%22provider%22,%20%22user%20ID%22,%20%22name%22,%20%22email%22,%20%22phone%20Number%22,%20%22profile%20Picture%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -82,7 +87,8 @@ Triggers when the Firebase Login was successful
 
 Triggers when the 'Send Reset Password Email' got a result. Returns true if the reset email was send.
 
-[[Event('Firebase Authentication', 'Reset Password Email Done', 'success')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Firebase%20Authentication%22,%20%22name%22:%20%22Reset%20Password%20Email%20Done%22,%20%22params%22:%20%5B%22success%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -93,7 +99,8 @@ Triggers when the 'Send Reset Password Email' got a result. Returns true if the 
 
 Triggers when the Firebase Sign Up failed
 
-[[Event('Firebase Authentication', 'Sign Up Failed', 'provider', 'message')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Firebase%20Authentication%22,%20%22name%22:%20%22Sign%20Up%20Failed%22,%20%22params%22:%20%5B%22provider%22,%20%22message%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -105,7 +112,8 @@ Triggers when the Firebase Sign Up failed
 
 Triggers when the Firebase Sign Up failed
 
-[[Event('Firebase Authentication', 'Sign Up Success', 'provider', 'userID', 'name', 'email', 'phoneNumber', 'profilePicture')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Firebase%20Authentication%22,%20%22name%22:%20%22Sign%20Up%20Success%22,%20%22params%22:%20%5B%22provider%22,%20%22user%20ID%22,%20%22name%22,%20%22email%22,%20%22phone%20Number%22,%20%22profile%20Picture%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -121,7 +129,8 @@ Triggers when the Firebase Sign Up failed
 
 Triggers when updating of the user failed
 
-[[Event('Firebase Authentication', 'User Update Failed', 'type')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Firebase%20Authentication%22,%20%22name%22:%20%22User%20Update%20Failed%22,%20%22params%22:%20%5B%22type%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -132,7 +141,8 @@ Triggers when updating of the user failed
 
 Triggers when updating of the user was successful
 
-[[Event('Firebase Authentication', 'User Update Success', 'type')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Firebase%20Authentication%22,%20%22name%22:%20%22User%20Update%20Success%22,%20%22params%22:%20%5B%22type%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -145,7 +155,8 @@ Triggers when updating of the user was successful
 
 Try to let the user sign in with Email and Password
 
-[[Method('Firebase Authentication', 'Email Password Login', False, 'email', 'password')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Firebase%20Authentication%22,%20%22name%22:%20%22Email%20Password%20Login%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22email%22,%20%22password%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -157,7 +168,8 @@ Try to let the user sign in with Email and Password
 
 Create a new user by Email and Password
 
-[[Method('Firebase Authentication', 'Email Password Sign Up', False, 'email', 'password')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Firebase%20Authentication%22,%20%22name%22:%20%22Email%20Password%20Sign%20Up%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22email%22,%20%22password%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -169,19 +181,22 @@ Create a new user by Email and Password
 
 Try to get the user that is signed in
 
-[[Method('Firebase Authentication', 'Get Current User', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Firebase%20Authentication%22,%20%22name%22:%20%22Get%20Current%20User%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Get Id Token
 
 Get the id token from the current user.
 
-[[Method('Firebase Authentication', 'Get Id Token', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Firebase%20Authentication%22,%20%22name%22:%20%22Get%20Id%20Token%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Google Sign In
 
 Try to let the user sign in with Google
 
-[[Method('Firebase Authentication', 'Google Sign In', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Firebase%20Authentication%22,%20%22name%22:%20%22Google%20Sign%20In%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Is Signed In
 
@@ -189,19 +204,22 @@ Try to let the user sign in with Google
 
 Check if the user is signed in
 
-[[Method('Firebase Authentication', 'Is Signed In', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Firebase%20Authentication%22,%20%22name%22:%20%22Is%20Signed%20In%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Logout
 
 Log the current user out
 
-[[Method('Firebase Authentication', 'Logout', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Firebase%20Authentication%22,%20%22name%22:%20%22Logout%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Phone Number Sign In
 
 Try to let the user sign in with a Phone Number
 
-[[Method('Firebase Authentication', 'Phone Number Sign In', False, 'phoneNumber')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Firebase%20Authentication%22,%20%22name%22:%20%22Phone%20Number%20Sign%20In%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22phone%20Number%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -212,7 +230,8 @@ Try to let the user sign in with a Phone Number
 
 Get the id token from the current user.
 
-[[Method('Firebase Authentication', 'Send Reset Password Email', False, 'email')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Firebase%20Authentication%22,%20%22name%22:%20%22Send%20Reset%20Password%20Email%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22email%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -223,7 +242,8 @@ Get the id token from the current user.
 
 Try to update the email of the current user (The user must have been recently signed in)
 
-[[Method('Firebase Authentication', 'Update Email', False, 'email')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Firebase%20Authentication%22,%20%22name%22:%20%22Update%20Email%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22email%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -234,7 +254,8 @@ Try to update the email of the current user (The user must have been recently si
 
 Try to update the phone number of the current user (The user must have been recently signed in)
 
-[[Method('Firebase Authentication', 'Update Phone Number', False, 'phoneNumber')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Firebase%20Authentication%22,%20%22name%22:%20%22Update%20Phone%20Number%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22phone%20Number%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -245,7 +266,8 @@ Try to update the phone number of the current user (The user must have been rece
 
 Try to update the profile of the current user (The user must have been recently signed in)
 
-[[Method('Firebase Authentication', 'Update Profile', False, 'name', 'profilePicture')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Firebase%20Authentication%22,%20%22name%22:%20%22Update%20Profile%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22name%22,%20%22profile%20Picture%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -257,13 +279,15 @@ Try to update the profile of the current user (The user must have been recently 
 
 Verify the Email
 
-[[Method('Firebase Authentication', 'Verify Email', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Firebase%20Authentication%22,%20%22name%22:%20%22Verify%20Email%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Verify Phone Code
 
 Verify the SMS code
 
-[[Method('Firebase Authentication', 'Verify Phone Code', False, 'code')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Firebase%20Authentication%22,%20%22name%22:%20%22Verify%20Phone%20Code%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22code%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|

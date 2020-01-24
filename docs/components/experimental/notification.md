@@ -18,13 +18,15 @@ A non-visible component that sends a notification to the user''s device.
 
 Check wether the app can send Notifications
 
-[[Method('Notification', 'Are Notification Enabled', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Notification%22,%20%22name%22:%20%22Are%20Notification%20Enabled%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Big Picture Notification
 
 Send a normal notification
 
-[[Method('Notification', 'Big Picture Notification', False, 'notificationID', 'title', 'message', 'bigPicture', 'startValue', 'removeOnClick')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Notification%22,%20%22name%22:%20%22Big%20Picture%20Notification%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22notification%20ID%22,%20%22title%22,%20%22message%22,%20%22big%20Picture%22,%20%22start%20Value%22,%20%22remove%20On%20Click%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -40,13 +42,15 @@ Send a normal notification
 
 Cancel all Notifications
 
-[[Method('Notification', 'Cancel All Notifications', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Notification%22,%20%22name%22:%20%22Cancel%20All%20Notifications%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Cancel Notification
 
 Cancel a Notification with an id
 
-[[Method('Notification', 'Cancel Notification', False, 'id')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Notification%22,%20%22name%22:%20%22Cancel%20Notification%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22id%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -57,7 +61,8 @@ Cancel a Notification with an id
 
 Send a normal notification
 
-[[Method('Notification', 'Normal Notification', False, 'notificationID', 'title', 'message', 'startValue', 'removeOnClick')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Notification%22,%20%22name%22:%20%22Normal%20Notification%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22notification%20ID%22,%20%22title%22,%20%22message%22,%20%22start%20Value%22,%20%22remove%20On%20Click%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -72,7 +77,8 @@ Send a normal notification
 
 Send a simple notification
 
-[[Method('Notification', 'Simple Notification', False, 'title', 'message')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Notification%22,%20%22name%22:%20%22Simple%20Notification%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22title%22,%20%22message%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -88,7 +94,9 @@ Send a simple notification
 
 Set the priority level. 1 = "Default", 2 = "high", 3 = "low", 4 = "max", 5 = "min"
 
-[[PropertyBlockGetterAndSetter('Notification', 'Priority')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Notification%22,%20%22name%22:%20%22Priority%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Notification%22,%20%22name%22:%20%22Priority%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Visibility
 
@@ -96,4 +104,5 @@ Set the priority level. 1 = "Default", 2 = "high", 3 = "low", 4 = "max", 5 = "mi
 
 Set the visibility property. 1 = "public", 2 = "private", 3 = "secret".
 
-[[PropertyBlockGetterAndSetter('Notification', 'Visibility')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Notification%22,%20%22name%22:%20%22Visibility%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Notification%22,%20%22name%22:%20%22Visibility%22,%20%22getter%22:%20false%7D"></div>

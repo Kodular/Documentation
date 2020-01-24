@@ -16,7 +16,8 @@ A component to create dynamic cardviews in Arrangements.
 
 Event to detect that a user has done a simple click on a card view component with the specific id.
 
-[[Event('Dynamic Card View', 'Click', 'id')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Card%20View%22,%20%22name%22:%20%22Click%22,%20%22params%22:%20%5B%22id%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -27,7 +28,8 @@ Event to detect that a user has done a simple click on a card view component wit
 
 Event to detect that a user has done a simple long click on a card view component with the specific id.
 
-[[Event('Dynamic Card View', 'Long Click', 'id')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Card%20View%22,%20%22name%22:%20%22Long%20Click%22,%20%22params%22:%20%5B%22id%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -38,7 +40,8 @@ Event to detect that a user has done a simple long click on a card view componen
 
 Event to detect that a user has done a simple touch down on a card view component with the specific id.
 
-[[Event('Dynamic Card View', 'Touch Down', 'id')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Card%20View%22,%20%22name%22:%20%22Touch%20Down%22,%20%22params%22:%20%5B%22id%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -49,7 +52,8 @@ Event to detect that a user has done a simple touch down on a card view componen
 
 Event to detect that a user has done a simple touch up on a card view component with the specific id.
 
-[[Event('Dynamic Card View', 'Touch Up', 'id')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Card%20View%22,%20%22name%22:%20%22Touch%20Up%22,%20%22params%22:%20%5B%22id%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -62,7 +66,8 @@ Event to detect that a user has done a simple touch up on a card view component 
 
 Add a component into the card view component with the given id.
 
-[[Method('Dynamic Card View', 'Add Component To Card View', False, 'id', 'arrangement')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Card%20View%22,%20%22name%22:%20%22Add%20Component%20To%20Card%20View%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22id%22,%20%22arrangement%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -74,7 +79,8 @@ Add a component into the card view component with the given id.
 
 Set the content padding of a card view component.
 
-[[Method('Dynamic Card View', 'Content Padding', False, 'id', 'contentPaddingLeft', 'contentPaddingTop', 'contentPaddingRight', 'contentPaddingBottom')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Card%20View%22,%20%22name%22:%20%22Content%20Padding%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22id%22,%20%22content%20Padding%20Left%22,%20%22content%20Padding%20Top%22,%20%22content%20Padding%20Right%22,%20%22content%20Padding%20Bottom%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -89,7 +95,8 @@ Set the content padding of a card view component.
 
 Create a new card view component dynamically. Use for width/height '-1' for wrap content or '-2' for fill parent.
 
-[[Method('Dynamic Card View', 'Create Card View', False, 'id', 'arrangement', 'width', 'height')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Card%20View%22,%20%22name%22:%20%22Create%20Card%20View%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22id%22,%20%22arrangement%22,%20%22width%22,%20%22height%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -103,7 +110,8 @@ Create a new card view component dynamically. Use for width/height '-1' for wrap
 
 Remove a card view component with the given id.
 
-[[Method('Dynamic Card View', 'Delete Card View', False, 'id')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Card%20View%22,%20%22name%22:%20%22Delete%20Card%20View%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22id%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -116,7 +124,8 @@ Remove a card view component with the given id.
 
 Get the background color of a card view component.
 
-[[Method('Dynamic Card View', 'Get Background Color', True, 'id')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Card%20View%22,%20%22name%22:%20%22Get%20Background%20Color%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22id%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -129,7 +138,8 @@ Get the background color of a card view component.
 
 Returns the card view referenced by its id.
 
-[[Method('Dynamic Card View', 'Get Card View By Id', True, 'id')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Card%20View%22,%20%22name%22:%20%22Get%20Card%20View%20By%20Id%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22id%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -142,7 +152,8 @@ Returns the card view referenced by its id.
 
 Get the corner radius of a card view component.
 
-[[Method('Dynamic Card View', 'Get Corner Radius', True, 'id')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Card%20View%22,%20%22name%22:%20%22Get%20Corner%20Radius%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22id%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -155,7 +166,8 @@ Get the corner radius of a card view component.
 
 Get the elevation of a card view component.
 
-[[Method('Dynamic Card View', 'Get Elevation', True, 'id')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Card%20View%22,%20%22name%22:%20%22Get%20Elevation%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22id%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -168,7 +180,8 @@ Get the elevation of a card view component.
 
 Get the height of a card view component.
 
-[[Method('Dynamic Card View', 'Get Height', True, 'id')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Card%20View%22,%20%22name%22:%20%22Get%20Height%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22id%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -181,7 +194,8 @@ Get the height of a card view component.
 
 Get the width of a card view component.
 
-[[Method('Dynamic Card View', 'Get Width', True, 'id')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Card%20View%22,%20%22name%22:%20%22Get%20Width%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22id%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -192,7 +206,8 @@ Get the width of a card view component.
 
 Set the background color of a card view component.
 
-[[Method('Dynamic Card View', 'Set Background Color', False, 'id', 'argb')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Card%20View%22,%20%22name%22:%20%22Set%20Background%20Color%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22id%22,%20%22argb%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -204,7 +219,8 @@ Set the background color of a card view component.
 
 Set the corner radius of a card view component.
 
-[[Method('Dynamic Card View', 'Set Corner Radius', False, 'id', 'radius')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Card%20View%22,%20%22name%22:%20%22Set%20Corner%20Radius%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22id%22,%20%22radius%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -216,7 +232,8 @@ Set the corner radius of a card view component.
 
 Set the elevation of a card view component.
 
-[[Method('Dynamic Card View', 'Set Elevation', False, 'id', 'value')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Card%20View%22,%20%22name%22:%20%22Set%20Elevation%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22id%22,%20%22value%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -228,7 +245,8 @@ Set the elevation of a card view component.
 
 Set the height of a card view component.
 
-[[Method('Dynamic Card View', 'Set Height', False, 'id', 'height')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Card%20View%22,%20%22name%22:%20%22Set%20Height%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22id%22,%20%22height%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -240,7 +258,8 @@ Set the height of a card view component.
 
 Set the width of a card view component.
 
-[[Method('Dynamic Card View', 'Set Width', False, 'id', 'width')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Card%20View%22,%20%22name%22:%20%22Set%20Width%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22id%22,%20%22width%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -252,7 +271,8 @@ Set the width of a card view component.
 
 Set the stroke color to a card view component with the specific id.
 
-[[Method('Dynamic Card View', 'Stroke Color', False, 'id', 'color')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Card%20View%22,%20%22name%22:%20%22Stroke%20Color%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22id%22,%20%22color%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -264,7 +284,8 @@ Set the stroke color to a card view component with the specific id.
 
 Set the stroke width to a card view component with the specific id.
 
-[[Method('Dynamic Card View', 'Stroke Width', False, 'id', 'width')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Card%20View%22,%20%22name%22:%20%22Stroke%20Width%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22id%22,%20%22width%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -280,7 +301,8 @@ Set the stroke width to a card view component with the specific id.
 
 Specifies the cards's background color.
 
-[[PropertyBlockGetterAndSetter('Dynamic Card View', 'Background Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Card%20View%22,%20%22name%22:%20%22Background%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Content Padding Bottom
 
@@ -288,7 +310,8 @@ Specifies the cards's background color.
 
 Sets the bottom padding between the card's edges and the children of card view.
 
-[[PropertyBlockGetterAndSetter('Dynamic Card View', 'Content Padding Bottom')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Card%20View%22,%20%22name%22:%20%22Content%20Padding%20Bottom%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Content Padding Left
 
@@ -296,7 +319,8 @@ Sets the bottom padding between the card's edges and the children of card view.
 
 Sets the left padding between the card's edges and the children of card view.
 
-[[PropertyBlockGetterAndSetter('Dynamic Card View', 'Content Padding Left')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Card%20View%22,%20%22name%22:%20%22Content%20Padding%20Left%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Content Padding Right
 
@@ -304,7 +328,8 @@ Sets the left padding between the card's edges and the children of card view.
 
 Sets the right padding between the card's edges and the children of card view.
 
-[[PropertyBlockGetterAndSetter('Dynamic Card View', 'Content Padding Right')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Card%20View%22,%20%22name%22:%20%22Content%20Padding%20Right%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Content Padding Top
 
@@ -312,7 +337,8 @@ Sets the right padding between the card's edges and the children of card view.
 
 Sets the top padding between the card's edges and the children of card view.
 
-[[PropertyBlockGetterAndSetter('Dynamic Card View', 'Content Padding Top')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Card%20View%22,%20%22name%22:%20%22Content%20Padding%20Top%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Corner Radius
 
@@ -320,7 +346,8 @@ Sets the top padding between the card's edges and the children of card view.
 
 The corner radius from the card view.
 
-[[PropertyBlockGetterAndSetter('Dynamic Card View', 'Corner Radius')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Card%20View%22,%20%22name%22:%20%22Corner%20Radius%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Elevation
 
@@ -328,7 +355,8 @@ The corner radius from the card view.
 
 The card view elevation value.
 
-[[PropertyBlockGetterAndSetter('Dynamic Card View', 'Elevation')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Card%20View%22,%20%22name%22:%20%22Elevation%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Full Clickable
 
@@ -336,7 +364,8 @@ The card view elevation value.
 
 If set to true, the card will consume all click events. This means if you have added as example buttons into the card, then will the card consume the touch event on the button. And this means that the button would not be clickable, but only the entire card.
 
-[[PropertyBlockGetterAndSetter('Dynamic Card View', 'Full Clickable')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Card%20View%22,%20%22name%22:%20%22Full%20Clickable%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Stroke Color
 
@@ -344,7 +373,8 @@ If set to true, the card will consume all click events. This means if you have a
 
 The stroke width for the card view.
 
-[[PropertyBlockGetterAndSetter('Dynamic Card View', 'Stroke Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Card%20View%22,%20%22name%22:%20%22Stroke%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Stroke Width
 
@@ -352,7 +382,8 @@ The stroke width for the card view.
 
 The stroke width for the card view.
 
-[[PropertyBlockGetterAndSetter('Dynamic Card View', 'Stroke Width')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Card%20View%22,%20%22name%22:%20%22Stroke%20Width%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Touch Color
 
@@ -362,4 +393,4 @@ The stroke width for the card view.
 
 Set the touch color also known as ripple color to a card view component.
 
-[[PropertyBlockGetterAndSetter('Dynamic Card View', 'Touch Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Card%20View%22,%20%22name%22:%20%22Touch%20Color%22,%20%22getter%22:%20false%7D"></div>

@@ -21,7 +21,8 @@ A non-visible component that takes a screenshot of the content currently visible
 
 Event to detect that a screenshot was made by the user. Returns the image path to the taken screenshot.
 
-[[Event('Screenshot', 'Got Screenshot', 'image')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Screenshot%22,%20%22name%22:%20%22Got%20Screenshot%22,%20%22params%22:%20%5B%22image%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -34,7 +35,8 @@ Event to detect that a screenshot was made by the user. Returns the image path t
 
 Take a screenshot of the current visible screen.
 
-[[Method('Screenshot', 'Take Screenshot', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Screenshot%22,%20%22name%22:%20%22Take%20Screenshot%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Properties
 
@@ -44,7 +46,8 @@ Take a screenshot of the current visible screen.
 
 This feature allows users of your app to make or ban screenshots of their app. If disabled and a person tries to make a screenshot, they will receive then a default system message that this is not possible.
 
-[[PropertyBlockGetterAndSetter('Screenshot', 'Allow Screenshots')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Screenshot%22,%20%22name%22:%20%22Allow%20Screenshots%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Dim Amount
 
@@ -52,7 +55,9 @@ This feature allows users of your app to make or ban screenshots of their app. I
 
 Set the amount of dim behind the preview window if ShowPreview(...) is enabled. Use '0.0' for no dim and '1.0' for full dim.
 
-[[PropertyBlockGetterAndSetter('Screenshot', 'Dim Amount')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Screenshot%22,%20%22name%22:%20%22Dim%20Amount%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Screenshot%22,%20%22name%22:%20%22Dim%20Amount%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### File Name
 
@@ -60,7 +65,9 @@ Set the amount of dim behind the preview window if ShowPreview(...) is enabled. 
 
 This will be the name for the taken screenshot image file.
 
-[[PropertyBlockGetterAndSetter('Screenshot', 'File Name')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Screenshot%22,%20%22name%22:%20%22File%20Name%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Screenshot%22,%20%22name%22:%20%22File%20Name%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Use Large Notification
 
@@ -68,7 +75,9 @@ This will be the name for the taken screenshot image file.
 
 This will display the notification in a big style.
 
-[[PropertyBlockGetterAndSetter('Screenshot', 'Use Large Notification')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Screenshot%22,%20%22name%22:%20%22Use%20Large%20Notification%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Screenshot%22,%20%22name%22:%20%22Use%20Large%20Notification%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Show Notification Share Button
 
@@ -76,7 +85,9 @@ This will display the notification in a big style.
 
 If enabled you will see a notification with a share button after the screenshot is taken.
 
-[[PropertyBlockGetterAndSetter('Screenshot', 'Show Notification Share Button')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Screenshot%22,%20%22name%22:%20%22Show%20Notification%20Share%20Button%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Screenshot%22,%20%22name%22:%20%22Show%20Notification%20Share%20Button%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Notification Share Title
 
@@ -84,7 +95,9 @@ If enabled you will see a notification with a share button after the screenshot 
 
 This will set the notification share button text if the option "Show Notification" is enabled.
 
-[[PropertyBlockGetterAndSetter('Screenshot', 'Notification Share Title')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Screenshot%22,%20%22name%22:%20%22Notification%20Share%20Title%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Screenshot%22,%20%22name%22:%20%22Notification%20Share%20Title%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Notification Title
 
@@ -92,7 +105,9 @@ This will set the notification share button text if the option "Show Notificatio
 
 This will set the notification title if the option "Show Notification" is enabled.
 
-[[PropertyBlockGetterAndSetter('Screenshot', 'Notification Title')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Screenshot%22,%20%22name%22:%20%22Notification%20Title%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Screenshot%22,%20%22name%22:%20%22Notification%20Title%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Show Notification
 
@@ -100,7 +115,9 @@ This will set the notification title if the option "Show Notification" is enable
 
 If enabled you will see a notification in the statusbar after the screenshot is taken.
 
-[[PropertyBlockGetterAndSetter('Screenshot', 'Show Notification')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Screenshot%22,%20%22name%22:%20%22Show%20Notification%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Screenshot%22,%20%22name%22:%20%22Show%20Notification%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Show Preview
 
@@ -108,7 +125,9 @@ If enabled you will see a notification in the statusbar after the screenshot is 
 
 If enabled you will see a short preview animation after the screenshot is taken.
 
-[[PropertyBlockGetterAndSetter('Screenshot', 'Show Preview')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Screenshot%22,%20%22name%22:%20%22Show%20Preview%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Screenshot%22,%20%22name%22:%20%22Show%20Preview%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Are Permissions Granted
 
@@ -116,7 +135,8 @@ If enabled you will see a short preview animation after the screenshot is taken.
 
 Returns true if the write and read permission is granted, else false.
 
-[[PropertyBlockGetter('Screenshot', 'Are Permissions Granted')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Screenshot%22,%20%22name%22:%20%22Are%20Permissions%20Granted%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### is Read Permission Granted
 
@@ -124,7 +144,8 @@ Returns true if the write and read permission is granted, else false.
 
 Returns true if the read permission is granted, else false.
 
-[[PropertyBlockGetter('Screenshot', 'is Read Permission Granted')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Screenshot%22,%20%22name%22:%20%22is%20Read%20Permission%20Granted%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### is Write Permission Granted
 
@@ -132,4 +153,4 @@ Returns true if the read permission is granted, else false.
 
 Returns true if the write permission is granted, else false.
 
-[[PropertyBlockGetter('Screenshot', 'is Write Permission Granted')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Screenshot%22,%20%22name%22:%20%22is%20Write%20Permission%20Granted%22,%20%22getter%22:%20true%7D"></div>

@@ -20,7 +20,8 @@ Non-visible component that can detect shaking and measure acceleration approxima
 
 Indicates the acceleration changed in the X, Y, and/or Z dimensions.
 
-[[Event('Accelerometer Sensor', 'Acceleration Changed', 'xAccel', 'yAccel', 'zAccel')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Accelerometer%20Sensor%22,%20%22name%22:%20%22Acceleration%20Changed%22,%20%22params%22:%20%5B%22x%20Accel%22,%20%22y%20Accel%22,%20%22z%20Accel%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -33,7 +34,8 @@ Indicates the acceleration changed in the X, Y, and/or Z dimensions.
 
 Indicates the device started being shaken or continues to be shaken.
 
-[[Event('Accelerometer Sensor', 'Shaking')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Accelerometer%20Sensor%22,%20%22name%22:%20%22Shaking%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Properties
 
@@ -43,7 +45,9 @@ Indicates the device started being shaken or continues to be shaken.
 
 If true, the sensor will generate events. Otherwise, no eventsare generated even if the device is accelerated or shaken.
 
-[[PropertyBlockGetterAndSetter('Accelerometer Sensor', 'Enabled')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Accelerometer%20Sensor%22,%20%22name%22:%20%22Enabled%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Accelerometer%20Sensor%22,%20%22name%22:%20%22Enabled%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Legacy Mode
 
@@ -57,7 +61,9 @@ Prior to the release that added this property the AccelerometerSensor component 
 
 The minimum interval, in milliseconds, between phone shakes
 
-[[PropertyBlockGetterAndSetter('Accelerometer Sensor', 'Minimum Interval ms')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Accelerometer%20Sensor%22,%20%22name%22:%20%22Minimum%20Interval%20(ms)%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Accelerometer%20Sensor%22,%20%22name%22:%20%22Minimum%20Interval%20(ms)%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Sensitivity
 
@@ -65,7 +71,9 @@ The minimum interval, in milliseconds, between phone shakes
 
 A number that encodes how sensitive the accelerometer is. The choices are: 1 = weak, 2 = moderate, 3 = strong.
 
-[[PropertyBlockGetterAndSetter('Accelerometer Sensor', 'Sensitivity')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Accelerometer%20Sensor%22,%20%22name%22:%20%22Sensitivity%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Accelerometer%20Sensor%22,%20%22name%22:%20%22Sensitivity%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Available
 
@@ -73,7 +81,8 @@ A number that encodes how sensitive the accelerometer is. The choices are: 1 = w
 
 Available property getter method (read-only property).
 
-[[PropertyBlockGetter('Accelerometer Sensor', 'Available')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Accelerometer%20Sensor%22,%20%22name%22:%20%22Available%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### X Accel
 
@@ -82,7 +91,8 @@ Available property getter method (read-only property).
 Returns the acceleration in the X-dimension in SI units (m/s^2)  
 The sensor must be enabled to return meaningful values.
 
-[[PropertyBlockGetter('Accelerometer Sensor', 'X Accel')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Accelerometer%20Sensor%22,%20%22name%22:%20%22X%20Accel%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Y Accel
 
@@ -91,7 +101,8 @@ The sensor must be enabled to return meaningful values.
 Returns the acceleration in the Y-dimension in SI units (m/s^2)  
 The sensor must be enabled to return meaningful values.
 
-[[PropertyBlockGetter('Accelerometer Sensor', 'Y Accel')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Accelerometer%20Sensor%22,%20%22name%22:%20%22Y%20Accel%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Z Accel
 
@@ -100,4 +111,4 @@ The sensor must be enabled to return meaningful values.
 Returns the acceleration in the Z-dimension in SI units (m/s^2)  
 The sensor must be enabled to return meaningful values.
 
-[[PropertyBlockGetter('Accelerometer Sensor', 'Z Accel')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Accelerometer%20Sensor%22,%20%22name%22:%20%22Z%20Accel%22,%20%22getter%22:%20true%7D"></div>

@@ -21,7 +21,8 @@ Component credits\: <a href\="https\://community.kodular.io/u/jerin_jacob" targe
 
 Triggered when changing cell data. ResponseCode is a number
 
-[[Event('Spreadsheet', 'Cell Changed', 'responseCode')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Spreadsheet%22,%20%22name%22:%20%22Cell%20Changed%22,%20%22params%22:%20%5B%22response%20Code%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -32,7 +33,8 @@ Triggered when changing cell data. ResponseCode is a number
 
 Triggered when destroying a row. ResponseCode is a number
 
-[[Event('Spreadsheet', 'Deleted Row By Number', 'responseCode')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Spreadsheet%22,%20%22name%22:%20%22Deleted%20Row%20By%20Number%22,%20%22params%22:%20%5B%22response%20Code%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -43,7 +45,8 @@ Triggered when destroying a row. ResponseCode is a number
 
 Triggered when getting all rows. ResponseCode is a number, ResponseContent is a string
 
-[[Event('Spreadsheet', 'Got All Rows', 'responseCode', 'responseContent', 'totalRows')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Spreadsheet%22,%20%22name%22:%20%22Got%20All%20Rows%22,%20%22params%22:%20%5B%22response%20Code%22,%20%22response%20Content%22,%20%22total%20Rows%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -56,7 +59,8 @@ Triggered when getting all rows. ResponseCode is a number, ResponseContent is a 
 
 Triggered when receiving cell data. ResponseCode is a number, the other ones are strings
 
-[[Event('Spreadsheet', 'Got Cell', 'responseCode', 'value', 'rowId', 'createdTime')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Spreadsheet%22,%20%22name%22:%20%22Got%20Cell%22,%20%22params%22:%20%5B%22response%20Code%22,%20%22value%22,%20%22row%20Id%22,%20%22created%20Time%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -70,7 +74,8 @@ Triggered when receiving cell data. ResponseCode is a number, the other ones are
 
 Triggered when receiving column data. ResponseCode is a number, the other ones are lists
 
-[[Event('Spreadsheet', 'Got Column', 'responseCode', 'values', 'rowIds', 'createdTimes')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Spreadsheet%22,%20%22name%22:%20%22Got%20Column%22,%20%22params%22:%20%5B%22response%20Code%22,%20%22values%22,%20%22row%20Ids%22,%20%22created%20Times%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -84,7 +89,8 @@ Triggered when receiving column data. ResponseCode is a number, the other ones a
 
 Triggered when receiving row data. ResponseCode is a number, Values is a list
 
-[[Event('Spreadsheet', 'Got Row', 'responseCode', 'values')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Spreadsheet%22,%20%22name%22:%20%22Got%20Row%22,%20%22params%22:%20%5B%22response%20Code%22,%20%22values%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -96,7 +102,8 @@ Triggered when receiving row data. ResponseCode is a number, Values is a list
 
 Triggered when creating a row. ResponseCode is a number
 
-[[Event('Spreadsheet', 'Row Created', 'responseCode')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Spreadsheet%22,%20%22name%22:%20%22Row%20Created%22,%20%22params%22:%20%5B%22response%20Code%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -107,7 +114,8 @@ Triggered when creating a row. ResponseCode is a number
 
 Triggered when updating a row. ResponseCode is a number
 
-[[Event('Spreadsheet', 'Row Updated', 'responseCode')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Spreadsheet%22,%20%22name%22:%20%22Row%20Updated%22,%20%22params%22:%20%5B%22response%20Code%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -120,7 +128,8 @@ Triggered when updating a row. ResponseCode is a number
 
 Creates a new row
 
-[[Method('Spreadsheet', 'Create Row', False, 'columnNames', 'values')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Spreadsheet%22,%20%22name%22:%20%22Create%20Row%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22column%20Names%22,%20%22values%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -132,7 +141,8 @@ Creates a new row
 
 Deletes the given row
 
-[[Method('Spreadsheet', 'Delete Row', False, 'rowNumber')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Spreadsheet%22,%20%22name%22:%20%22Delete%20Row%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22row%20Number%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -143,13 +153,15 @@ Deletes the given row
 
 Gets all rows
 
-[[Method('Spreadsheet', 'Get All Rows', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Spreadsheet%22,%20%22name%22:%20%22Get%20All%20Rows%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Get Cell
 
 Gets cell data
 
-[[Method('Spreadsheet', 'Get Cell', False, 'rowNumber', 'columnName')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Spreadsheet%22,%20%22name%22:%20%22Get%20Cell%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22row%20Number%22,%20%22column%20Name%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -161,7 +173,8 @@ Gets cell data
 
 Gets column data
 
-[[Method('Spreadsheet', 'Get Column', False, 'columnName', 'maxRecord')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Spreadsheet%22,%20%22name%22:%20%22Get%20Column%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22column%20Name%22,%20%22max%20Record%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -173,7 +186,8 @@ Gets column data
 
 Gets row data
 
-[[Method('Spreadsheet', 'Get Row', False, 'rowNumber')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Spreadsheet%22,%20%22name%22:%20%22Get%20Row%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22row%20Number%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -184,7 +198,8 @@ Gets row data
 
 Changes the value of a cell
 
-[[Method('Spreadsheet', 'Set Cell', False, 'rowNumber', 'columnName', 'value')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Spreadsheet%22,%20%22name%22:%20%22Set%20Cell%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22row%20Number%22,%20%22column%20Name%22,%20%22value%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -197,7 +212,8 @@ Changes the value of a cell
 
 Updates the given row data
 
-[[Method('Spreadsheet', 'Update Row by Number', False, 'rowNumber', 'columnNames', 'values')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Spreadsheet%22,%20%22name%22:%20%22Update%20Row%20by%20Number%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22row%20Number%22,%20%22column%20Names%22,%20%22values%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -214,22 +230,29 @@ Updates the given row data
 
 Your apiKey
 
-[[PropertyBlockGetterAndSetter('Spreadsheet', 'API Key')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spreadsheet%22,%20%22name%22:%20%22API%20Key%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spreadsheet%22,%20%22name%22:%20%22API%20Key%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Base ID
 
 <span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
-[[PropertyBlockGetterAndSetter('Spreadsheet', 'Base ID')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spreadsheet%22,%20%22name%22:%20%22Base%20ID%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spreadsheet%22,%20%22name%22:%20%22Base%20ID%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Table Name
 
 <span class="chip chip-text">Text</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
-[[PropertyBlockGetterAndSetter('Spreadsheet', 'Table Name')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spreadsheet%22,%20%22name%22:%20%22Table%20Name%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spreadsheet%22,%20%22name%22:%20%22Table%20Name%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### View Name
 
 <span class="chip chip-text">Text</span> <span class="chip chip-text">Default: <i>Grid view</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span> 
 
-[[PropertyBlockGetterAndSetter('Spreadsheet', 'View Name')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spreadsheet%22,%20%22name%22:%20%22View%20Name%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spreadsheet%22,%20%22name%22:%20%22View%20Name%22,%20%22getter%22:%20false%7D"></div>

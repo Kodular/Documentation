@@ -16,13 +16,15 @@ A non-visible component that shows a visible layout at the bottom of the screen.
 
 Event to detect that the dialog was closed.
 
-[[Event('Bottom Sheet', 'Closed')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Bottom%20Sheet%22,%20%22name%22:%20%22Closed%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Opened
 
 Event to detect that the dialog was opened.
 
-[[Event('Bottom Sheet', 'Opened')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Bottom%20Sheet%22,%20%22name%22:%20%22Opened%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Methods
 
@@ -30,13 +32,15 @@ Event to detect that the dialog was opened.
 
 Hide the bottom sheet dialog.
 
-[[Method('Bottom Sheet', 'Hide Dialog', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Bottom%20Sheet%22,%20%22name%22:%20%22Hide%20Dialog%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Register Component As Dialog
 
 Register any component as example a 'button', that will be later your bottom sheet dialog.
 
-[[Method('Bottom Sheet', 'Register Component As Dialog', False, 'component')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Bottom%20Sheet%22,%20%22name%22:%20%22Register%20Component%20As%20Dialog%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22component%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -47,7 +51,8 @@ Register any component as example a 'button', that will be later your bottom she
 
 Register any layout as example a 'horizontal arrangement', that will be later your bottom sheet dialog.
 
-[[Method('Bottom Sheet', 'Register Layout As Dialog', False, 'layout')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Bottom%20Sheet%22,%20%22name%22:%20%22Register%20Layout%20As%20Dialog%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22layout%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -58,7 +63,8 @@ Register any layout as example a 'horizontal arrangement', that will be later yo
 
 Show the bottom sheet dialog.
 
-[[Method('Bottom Sheet', 'Show Dialog', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Bottom%20Sheet%22,%20%22name%22:%20%22Show%20Dialog%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Properties
 
@@ -68,7 +74,9 @@ Show the bottom sheet dialog.
 
 If set to true the user will see a dark background effect. Else the background have then no dark background effect.
 
-[[PropertyBlockGetterAndSetter('Bottom Sheet', 'Dim Background')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Bottom%20Sheet%22,%20%22name%22:%20%22Dim%20Background%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Bottom%20Sheet%22,%20%22name%22:%20%22Dim%20Background%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Show Status Bar
 
@@ -76,4 +84,5 @@ If set to true the user will see a dark background effect. Else the background h
 
 The status bar is the topmost bar on the screen. This property reports whether the status bar is visible.
 
-[[PropertyBlockGetterAndSetter('Bottom Sheet', 'Show Status Bar')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Bottom%20Sheet%22,%20%22name%22:%20%22Show%20Status%20Bar%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Bottom%20Sheet%22,%20%22name%22:%20%22Show%20Status%20Bar%22,%20%22getter%22:%20false%7D"></div>

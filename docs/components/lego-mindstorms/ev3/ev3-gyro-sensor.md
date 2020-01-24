@@ -16,7 +16,8 @@ A component that provides a high-level interface to a gyro sensor on a LEGO MIND
 
 Called then the sensor value changed.
 
-[[Event('EV3 Gyro Sensor', 'Sensor Value Changed', 'sensorValue')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Gyro%20Sensor%22,%20%22name%22:%20%22Sensor%20Value%20Changed%22,%20%22params%22:%20%5B%22sensor%20Value%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -31,19 +32,22 @@ Called then the sensor value changed.
 
 Returns the current angle or rotation speed based on current mode, or -1 if the value cannot be read from sensor.
 
-[[Method('EV3 Gyro Sensor', 'Get Sensor Value', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Gyro%20Sensor%22,%20%22name%22:%20%22Get%20Sensor%20Value%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Set Angle Mode
 
 Measures the orientation of the sensor.
 
-[[Method('EV3 Gyro Sensor', 'Set Angle Mode', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Gyro%20Sensor%22,%20%22name%22:%20%22Set%20Angle%20Mode%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Set Rate Mode
 
 Measures the angular velocity of the sensor.
 
-[[Method('EV3 Gyro Sensor', 'Set Rate Mode', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Gyro%20Sensor%22,%20%22name%22:%20%22Set%20Rate%20Mode%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Properties
 
@@ -53,7 +57,9 @@ Measures the angular velocity of the sensor.
 
 The BluetoothClient component that should be used for communication.
 
-[[PropertyBlockGetterAndSetter('EV3 Gyro Sensor', 'Bluetooth Client')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Gyro%20Sensor%22,%20%22name%22:%20%22Bluetooth%20Client%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Gyro%20Sensor%22,%20%22name%22:%20%22Bluetooth%20Client%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Mode
 
@@ -61,7 +67,9 @@ The BluetoothClient component that should be used for communication.
 
 Specifies the mode of the sensor.
 
-[[PropertyBlockGetterAndSetter('EV3 Gyro Sensor', 'Mode')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Gyro%20Sensor%22,%20%22name%22:%20%22Mode%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Gyro%20Sensor%22,%20%22name%22:%20%22Mode%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Sensor Port
 
@@ -75,4 +83,5 @@ The sensor port that the sensor is connected to.
 
 Whether the SensorValueChanged event should fire when the sensor value changed.
 
-[[PropertyBlockGetterAndSetter('EV3 Gyro Sensor', 'Sensor Value Changed Event Enabled')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Gyro%20Sensor%22,%20%22name%22:%20%22Sensor%20Value%20Changed%20Event%20Enabled%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Gyro%20Sensor%22,%20%22name%22:%20%22Sensor%20Value%20Changed%20Event%20Enabled%22,%20%22getter%22:%20false%7D"></div>

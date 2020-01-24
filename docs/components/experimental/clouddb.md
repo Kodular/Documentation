@@ -21,7 +21,8 @@ Non-visible component that communicates with CloudDB server to store and retriev
 
 Indicates that an error occurred while communicating with the CloudDB Redis server.
 
-[[Event('CloudDB', 'CloudDB Error', 'message')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22CloudDB%22,%20%22name%22:%20%22CloudDB%20Error%22,%20%22params%22:%20%5B%22message%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -33,7 +34,8 @@ Indicates that an error occurred while communicating with the CloudDB Redis serv
 Indicates that the data in the CloudDB project has changed
 Launches an event with the tag and value that have been updated.
 
-[[Event('CloudDB', 'Data Changed', 'tag', 'value')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22CloudDB%22,%20%22name%22:%20%22Data%20Changed%22,%20%22params%22:%20%5B%22tag%22,%20%22value%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -45,7 +47,8 @@ Launches an event with the tag and value that have been updated.
 
 Event triggered by the "RemoveFirstFromList" function. The argument "value" is the object that was the first in the list, and which is now removed.
 
-[[Event('CloudDB', 'First Removed', 'value')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22CloudDB%22,%20%22name%22:%20%22First%20Removed%22,%20%22params%22:%20%5B%22value%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -56,7 +59,8 @@ Event triggered by the "RemoveFirstFromList" function. The argument "value" is t
 
 Indicates that a GetValue request has succeeded.
 
-[[Event('CloudDB', 'Got Value', 'tag', 'value')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22CloudDB%22,%20%22name%22:%20%22Got%20Value%22,%20%22params%22:%20%5B%22tag%22,%20%22value%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -68,7 +72,8 @@ Indicates that a GetValue request has succeeded.
 
 Event triggered when we have received the list of known tags. Used with the "GetTagList" Function.
 
-[[Event('CloudDB', 'Tag List', 'value')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22CloudDB%22,%20%22name%22:%20%22Tag%20List%22,%20%22params%22:%20%5B%22value%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -81,7 +86,8 @@ Event triggered when we have received the list of known tags. Used with the "Get
 
 Append a value to the end of a list atomically. If two devices use this function simultaneously, both will be appended and no data lost.
 
-[[Method('CloudDB', 'Append Value To List', False, 'tag', 'itemToAdd')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22CloudDB%22,%20%22name%22:%20%22Append%20Value%20To%20List%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22tag%22,%20%22item%20To%20Add%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -93,7 +99,8 @@ Append a value to the end of a list atomically. If two devices use this function
 
 Remove the tag from CloudDB
 
-[[Method('CloudDB', 'Clear Tag', False, 'tag')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22CloudDB%22,%20%22name%22:%20%22Clear%20Tag%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22tag%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -106,19 +113,22 @@ Remove the tag from CloudDB
 
 returns True if we are on the network and will likely be able to connect to the CloudDB server.
 
-[[Method('CloudDB', 'Cloud Connected', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22CloudDB%22,%20%22name%22:%20%22Cloud%20Connected%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Get Tag List
 
 Get the list of tags for this application. When complete a "TagList" event will be triggered with the list of known tags.
 
-[[Method('CloudDB', 'Get Tag List', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22CloudDB%22,%20%22name%22:%20%22Get%20Tag%20List%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Get Value
 
 Get the Value for a tag, doesn't return the value but will cause a GotValue event to fire when the value is looked up.
 
-[[Method('CloudDB', 'Get Value', False, 'tag', 'valueIfTagNotThere')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22CloudDB%22,%20%22name%22:%20%22Get%20Value%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22tag%22,%20%22value%20If%20Tag%20Not%20There%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -130,7 +140,8 @@ Get the Value for a tag, doesn't return the value but will cause a GotValue even
 
 Return the first element of a list and atomically remove it. If two devices use this function simultaneously, one will get the first element and the the other will get the second element, or an error if there is no available element. When the element is available, the "FirstRemoved" event will be triggered.
 
-[[Method('CloudDB', 'Remove First From List', False, 'tag')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22CloudDB%22,%20%22name%22:%20%22Remove%20First%20From%20List%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22tag%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -141,7 +152,8 @@ Return the first element of a list and atomically remove it. If two devices use 
 
 Store a value at a tag.
 
-[[Method('CloudDB', 'Store Value', False, 'tag', 'valueToStore')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22CloudDB%22,%20%22name%22:%20%22Store%20Value%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22tag%22,%20%22value%20To%20Store%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -163,7 +175,8 @@ The Default Redis Server to use.
 
 Gets the ProjectID for this CloudDB project.
 
-[[PropertyBlockGetter('CloudDB', 'Project ID')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22CloudDB%22,%20%22name%22:%20%22Project%20ID%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Redis Port
 
@@ -171,7 +184,8 @@ Gets the ProjectID for this CloudDB project.
 
 The Redis Server port to use. Defaults to 6381
 
-[[PropertyBlockGetter('CloudDB', 'Redis Port')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22CloudDB%22,%20%22name%22:%20%22Redis%20Port%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Redis Server
 
@@ -179,7 +193,8 @@ The Redis Server port to use. Defaults to 6381
 
 The Redis Server to use to store data. A setting of "DEFAULT" means that the MIT server will be used.
 
-[[PropertyBlockGetter('CloudDB', 'Redis Server')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22CloudDB%22,%20%22name%22:%20%22Redis%20Server%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Token
 

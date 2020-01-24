@@ -16,19 +16,22 @@ A component that provides a high-level interface to a color sensor on a LEGO MIN
 
 Light level has gone above the range. The AboveRange event will not occur if the DetectColor property is set to True or if the AboveRangeEventEnabled property is set to False.
 
-[[Event('NXT Color Sensor', 'Above Range')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Color%20Sensor%22,%20%22name%22:%20%22Above%20Range%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Below Range
 
 Light level has gone below the range. The BelowRange event will not occur if the DetectColor property is set to True or if the BelowRangeEventEnabled property is set to False.
 
-[[Event('NXT Color Sensor', 'Below Range')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Color%20Sensor%22,%20%22name%22:%20%22Below%20Range%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Color Changed
 
 Detected color has changed. The ColorChanged event will not occur if the DetectColor property is set to False or if the ColorChangedEventEnabled property is set to False.
 
-[[Event('NXT Color Sensor', 'Color Changed', 'color')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Color%20Sensor%22,%20%22name%22:%20%22Color%20Changed%22,%20%22params%22:%20%5B%22color%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -39,7 +42,8 @@ Detected color has changed. The ColorChanged event will not occur if the DetectC
 
 Light level has gone within the range. The WithinRange event will not occur if the DetectColor property is set to True or if the WithinRangeEventEnabled property is set to False.
 
-[[Event('NXT Color Sensor', 'Within Range')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Color%20Sensor%22,%20%22name%22:%20%22Within%20Range%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Methods
 
@@ -49,7 +53,8 @@ Light level has gone within the range. The WithinRange event will not occur if t
 
 Returns the current detected color, or the color None if the color can not be read or if the DetectColor property is set to False.
 
-[[Method('NXT Color Sensor', 'Get Color', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Color%20Sensor%22,%20%22name%22:%20%22Get%20Color%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Get Light Level
 
@@ -57,7 +62,8 @@ Returns the current detected color, or the color None if the color can not be re
 
 Returns the current light level as a value between 0 and 1023, or -1 if the light level can not be read or if the DetectColor property is set to True.
 
-[[Method('NXT Color Sensor', 'Get Light Level', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Color%20Sensor%22,%20%22name%22:%20%22Get%20Light%20Level%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Properties
 
@@ -67,7 +73,9 @@ Returns the current light level as a value between 0 and 1023, or -1 if the ligh
 
 Whether the AboveRange event should fire when the DetectColor property is set to False and the light level goes above the TopOfRange.
 
-[[PropertyBlockGetterAndSetter('NXT Color Sensor', 'Above Range Event Enabled')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Color%20Sensor%22,%20%22name%22:%20%22Above%20Range%20Event%20Enabled%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Color%20Sensor%22,%20%22name%22:%20%22Above%20Range%20Event%20Enabled%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Below Range Event Enabled
 
@@ -75,7 +83,9 @@ Whether the AboveRange event should fire when the DetectColor property is set to
 
 Whether the BelowRange event should fire when the DetectColor property is set to False and the light level goes below the BottomOfRange.
 
-[[PropertyBlockGetterAndSetter('NXT Color Sensor', 'Below Range Event Enabled')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Color%20Sensor%22,%20%22name%22:%20%22Below%20Range%20Event%20Enabled%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Color%20Sensor%22,%20%22name%22:%20%22Below%20Range%20Event%20Enabled%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Bluetooth Client
 
@@ -89,7 +99,9 @@ The BluetoothClient component that should be used for communication.
 
 The bottom of the range used for the BelowRange, WithinRange, and AboveRange events.
 
-[[PropertyBlockGetterAndSetter('NXT Color Sensor', 'Bottom Of Range')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Color%20Sensor%22,%20%22name%22:%20%22Bottom%20Of%20Range%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Color%20Sensor%22,%20%22name%22:%20%22Bottom%20Of%20Range%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Color Changed Event Enabled
 
@@ -97,7 +109,9 @@ The bottom of the range used for the BelowRange, WithinRange, and AboveRange eve
 
 Whether the ColorChanged event should fire when the DetectColor property is set to True and the detected color changes.
 
-[[PropertyBlockGetterAndSetter('NXT Color Sensor', 'Color Changed Event Enabled')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Color%20Sensor%22,%20%22name%22:%20%22Color%20Changed%20Event%20Enabled%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Color%20Sensor%22,%20%22name%22:%20%22Color%20Changed%20Event%20Enabled%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Detect Color
 
@@ -105,7 +119,9 @@ Whether the ColorChanged event should fire when the DetectColor property is set 
 
 Whether the sensor should detect color or light. True indicates that the sensor should detect color; False indicates that the sensor should detect light. If the DetectColor property is set to True, the BelowRange, WithinRange, and AboveRange events will not occur and the sensor will not generate color. If the DetectColor property is set to False, the ColorChanged event will not occur.
 
-[[PropertyBlockGetterAndSetter('NXT Color Sensor', 'Detect Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Color%20Sensor%22,%20%22name%22:%20%22Detect%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Color%20Sensor%22,%20%22name%22:%20%22Detect%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Generate Color
 
@@ -113,7 +129,9 @@ Whether the sensor should detect color or light. True indicates that the sensor 
 
 The color that should generated by the sensor. Only None, Red, Green, or Blue are valid values. The sensor will not generate color when the DetectColor property is set to True.
 
-[[PropertyBlockGetterAndSetter('NXT Color Sensor', 'Generate Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Color%20Sensor%22,%20%22name%22:%20%22Generate%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Color%20Sensor%22,%20%22name%22:%20%22Generate%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Sensor Port
 
@@ -127,7 +145,9 @@ The sensor port that the sensor is connected to.
 
 The top of the range used for the BelowRange, WithinRange, and AboveRange events.
 
-[[PropertyBlockGetterAndSetter('NXT Color Sensor', 'Top Of Range')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Color%20Sensor%22,%20%22name%22:%20%22Top%20Of%20Range%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Color%20Sensor%22,%20%22name%22:%20%22Top%20Of%20Range%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Within Range Event Enabled
 
@@ -135,4 +155,5 @@ The top of the range used for the BelowRange, WithinRange, and AboveRange events
 
 Whether the WithinRange event should fire when the DetectColor property is set to False and the light level goes between the BottomOfRange and the TopOfRange.
 
-[[PropertyBlockGetterAndSetter('NXT Color Sensor', 'Within Range Event Enabled')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Color%20Sensor%22,%20%22name%22:%20%22Within%20Range%20Event%20Enabled%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Color%20Sensor%22,%20%22name%22:%20%22Within%20Range%20Event%20Enabled%22,%20%22getter%22:%20false%7D"></div>

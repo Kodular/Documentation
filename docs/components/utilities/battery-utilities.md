@@ -18,7 +18,8 @@ A non-visible component that queries and monitors the device''s battery and its 
 
 Returns a list showing battery info for the specified key. Key can be: HEALTH, LEVEL, PLUGGED, PRESENT, STATUS, CHARGE_STATUS, TECHNOLOGY, TEMPERATURE, VOLTAGE. If key is empty, then all battery info is returned.
 
-[[Method('Battery Utilities', 'Get Battery Info', True, 'key')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Battery%20Utilities%22,%20%22name%22:%20%22Get%20Battery%20Info%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22key%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -33,7 +34,8 @@ Returns a list showing battery info for the specified key. Key can be: HEALTH, L
 
 Starts or stops monitoring battery data. StartMonitoring only when you need to get information.
 
-[[PropertyBlockGetterAndSetter('Battery Utilities', 'Enabled')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Battery%20Utilities%22,%20%22name%22:%20%22Enabled%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Show Battery Health
 
@@ -41,7 +43,8 @@ Starts or stops monitoring battery data. StartMonitoring only when you need to g
 
 Returns battery health. It can be: COLD, DEAD, GOOD, OVERHEAT, OVER_VOLTAGE, UNKNOWN
 
-[[PropertyBlockGetter('Battery Utilities', 'Show Battery Health')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Battery%20Utilities%22,%20%22name%22:%20%22Show%20Battery%20Health%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Battery Level
 
@@ -49,7 +52,8 @@ Returns battery health. It can be: COLD, DEAD, GOOD, OVERHEAT, OVER_VOLTAGE, UNK
 
 Returns battery percentage level
 
-[[PropertyBlockGetter('Battery Utilities', 'Battery Level')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Battery%20Utilities%22,%20%22name%22:%20%22Battery%20Level%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Battery Plugged
 
@@ -57,7 +61,8 @@ Returns battery percentage level
 
 Indicating whether the device is plugged in to a power source. Can be USB, AC or UNKNOWN
 
-[[PropertyBlockGetter('Battery Utilities', 'Battery Plugged')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Battery%20Utilities%22,%20%22name%22:%20%22Battery%20Plugged%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Battery Present
 
@@ -65,7 +70,8 @@ Indicating whether the device is plugged in to a power source. Can be USB, AC or
 
 Indicating whether a battery is present
 
-[[PropertyBlockGetter('Battery Utilities', 'Battery Present')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Battery%20Utilities%22,%20%22name%22:%20%22Battery%20Present%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Battery Temperature
 
@@ -73,7 +79,8 @@ Indicating whether a battery is present
 
 Indicating battery temperature in Centigrade
 
-[[PropertyBlockGetter('Battery Utilities', 'Battery Temperature')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Battery%20Utilities%22,%20%22name%22:%20%22Battery%20Temperature%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Battery Voltage
 
@@ -81,4 +88,4 @@ Indicating battery temperature in Centigrade
 
 Indicating battery voltage in Volts
 
-[[PropertyBlockGetter('Battery Utilities', 'Battery Voltage')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Battery%20Utilities%22,%20%22name%22:%20%22Battery%20Voltage%22,%20%22getter%22:%20true%7D"></div>

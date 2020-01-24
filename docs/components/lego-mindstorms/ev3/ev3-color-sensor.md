@@ -16,19 +16,22 @@ A component that provides a high-level interface to a color sensor on a LEGO MIN
 
 Light level has gone above the range.
 
-[[Event('EV3 Color Sensor', 'Above Range')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Color%20Sensor%22,%20%22name%22:%20%22Above%20Range%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Below Range
 
 Light level has gone below the range.
 
-[[Event('EV3 Color Sensor', 'Below Range')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Color%20Sensor%22,%20%22name%22:%20%22Below%20Range%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Color Changed
 
 Called when the detected color has changed. The ColorChanged event will occur if the Mode property is set to "color" and the ColorChangedEventEnabled property is set to True.
 
-[[Event('EV3 Color Sensor', 'Color Changed', 'colorCode', 'colorName')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Color%20Sensor%22,%20%22name%22:%20%22Color%20Changed%22,%20%22params%22:%20%5B%22color%20Code%22,%20%22color%20Name%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -40,7 +43,8 @@ Called when the detected color has changed. The ColorChanged event will occur if
 
 Light level has gone within the range.
 
-[[Event('EV3 Color Sensor', 'Within Range')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Color%20Sensor%22,%20%22name%22:%20%22Within%20Range%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Methods
 
@@ -50,7 +54,8 @@ Light level has gone within the range.
 
 It returns the color code from 0 to 7 corresponding to no color, black, blue, green, yellow, red, white and brown.
 
-[[Method('EV3 Color Sensor', 'Get Color Code', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Color%20Sensor%22,%20%22name%22:%20%22Get%20Color%20Code%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Get Color Name
 
@@ -58,7 +63,8 @@ It returns the color code from 0 to 7 corresponding to no color, black, blue, gr
 
 Return the color name in one of "No Color", "Black", "Blue", "Green", "Yellow", "Red", "White", "Brown".
 
-[[Method('EV3 Color Sensor', 'Get Color Name', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Color%20Sensor%22,%20%22name%22:%20%22Get%20Color%20Name%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Get Light Level
 
@@ -66,25 +72,29 @@ Return the color name in one of "No Color", "Black", "Blue", "Green", "Yellow", 
 
 It returns the light level in percentage, or -1 when the light level cannot be read.
 
-[[Method('EV3 Color Sensor', 'Get Light Level', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Color%20Sensor%22,%20%22name%22:%20%22Get%20Light%20Level%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Set Ambient Mode
 
 Make the sensor read the light level without reflected light.
 
-[[Method('EV3 Color Sensor', 'Set Ambient Mode', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Color%20Sensor%22,%20%22name%22:%20%22Set%20Ambient%20Mode%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Set Color Mode
 
 Enter the color detection mode.
 
-[[Method('EV3 Color Sensor', 'Set Color Mode', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Color%20Sensor%22,%20%22name%22:%20%22Set%20Color%20Mode%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Set Reflected Mode
 
 Make the sensor read the light level with reflected light.
 
-[[Method('EV3 Color Sensor', 'Set Reflected Mode', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Color%20Sensor%22,%20%22name%22:%20%22Set%20Reflected%20Mode%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Properties
 
@@ -94,7 +104,9 @@ Make the sensor read the light level with reflected light.
 
 Whether the AboveRange event should fire when the light level goes above the TopOfRange.
 
-[[PropertyBlockGetterAndSetter('EV3 Color Sensor', 'Above Range Event Enabled')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Color%20Sensor%22,%20%22name%22:%20%22Above%20Range%20Event%20Enabled%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Color%20Sensor%22,%20%22name%22:%20%22Above%20Range%20Event%20Enabled%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Below Range Event Enabled
 
@@ -102,7 +114,9 @@ Whether the AboveRange event should fire when the light level goes above the Top
 
 Whether the BelowRange event should fire when the light level goes below the BottomOfRange.
 
-[[PropertyBlockGetterAndSetter('EV3 Color Sensor', 'Below Range Event Enabled')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Color%20Sensor%22,%20%22name%22:%20%22Below%20Range%20Event%20Enabled%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Color%20Sensor%22,%20%22name%22:%20%22Below%20Range%20Event%20Enabled%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Bluetooth Client
 
@@ -110,7 +124,9 @@ Whether the BelowRange event should fire when the light level goes below the Bot
 
 The BluetoothClient component that should be used for communication.
 
-[[PropertyBlockGetterAndSetter('EV3 Color Sensor', 'Bluetooth Client')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Color%20Sensor%22,%20%22name%22:%20%22Bluetooth%20Client%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Color%20Sensor%22,%20%22name%22:%20%22Bluetooth%20Client%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Bottom Of Range
 
@@ -118,7 +134,9 @@ The BluetoothClient component that should be used for communication.
 
 The bottom of the range used for the BelowRange, WithinRange, and AboveRange events.
 
-[[PropertyBlockGetterAndSetter('EV3 Color Sensor', 'Bottom Of Range')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Color%20Sensor%22,%20%22name%22:%20%22Bottom%20Of%20Range%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Color%20Sensor%22,%20%22name%22:%20%22Bottom%20Of%20Range%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Color Changed Event Enabled
 
@@ -126,7 +144,9 @@ The bottom of the range used for the BelowRange, WithinRange, and AboveRange eve
 
 Whether the ColorChanged event should fire when the Mode property is set to "color" and the detected color changes.
 
-[[PropertyBlockGetterAndSetter('EV3 Color Sensor', 'Color Changed Event Enabled')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Color%20Sensor%22,%20%22name%22:%20%22Color%20Changed%20Event%20Enabled%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Color%20Sensor%22,%20%22name%22:%20%22Color%20Changed%20Event%20Enabled%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Mode
 
@@ -134,7 +154,9 @@ Whether the ColorChanged event should fire when the Mode property is set to "col
 
 Specifies the mode of the sensor.
 
-[[PropertyBlockGetterAndSetter('EV3 Color Sensor', 'Mode')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Color%20Sensor%22,%20%22name%22:%20%22Mode%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Color%20Sensor%22,%20%22name%22:%20%22Mode%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Sensor Port
 
@@ -148,7 +170,9 @@ The sensor port that the sensor is connected to.
 
 The top of the range used for the BelowRange, WithinRange, and AboveRange events.
 
-[[PropertyBlockGetterAndSetter('EV3 Color Sensor', 'Top Of Range')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Color%20Sensor%22,%20%22name%22:%20%22Top%20Of%20Range%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Color%20Sensor%22,%20%22name%22:%20%22Top%20Of%20Range%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Within Range Event Enabled
 
@@ -156,4 +180,5 @@ The top of the range used for the BelowRange, WithinRange, and AboveRange events
 
 Whether the WithinRange event should fire when the light level goes between the BottomOfRange and the TopOfRange.
 
-[[PropertyBlockGetterAndSetter('EV3 Color Sensor', 'Within Range Event Enabled')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Color%20Sensor%22,%20%22name%22:%20%22Within%20Range%20Event%20Enabled%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Color%20Sensor%22,%20%22name%22:%20%22Within%20Range%20Event%20Enabled%22,%20%22getter%22:%20false%7D"></div>

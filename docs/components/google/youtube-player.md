@@ -19,7 +19,8 @@ Note\: For this component to work correctly, set the MIN API to 17 (Android 4.2)
 
 Use this event to detect that there was any error with the player. Return values: 'UNKNOWN', 'INVALID_PARAMETER_IN_REQUEST', 'HTML_5_PLAYER', 'VIDEO_NOT_FOUND', 'VIDEO_NOT_PLAYABLE_IN_EMBEDDED_PLAYER', 'INVALID_VOLUME' or 'INVALID_SEEK_TO'.
 
-[[Event('Youtube Player', 'Error', 'error')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Youtube%20Player%22,%20%22name%22:%20%22Error%22,%20%22params%22:%20%5B%22error%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -30,7 +31,8 @@ Use this event to detect that there was any error with the player. Return values
 
 Event to get notified when the player enters or exits fullscreen. The variable 'fullscreen' returns true or false.
 
-[[Event('Youtube Player', 'Fullscreen', 'fullscreen')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Youtube%20Player%22,%20%22name%22:%20%22Fullscreen%22,%20%22params%22:%20%5B%22fullscreen%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -41,13 +43,15 @@ Event to get notified when the player enters or exits fullscreen. The variable '
 
 Use this event to start the playing of a normal or instant youtube video.
 
-[[Event('Youtube Player', 'Initialized')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Youtube%20Player%22,%20%22name%22:%20%22Initialized%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Playback Quality Changed
 
 Use this event to detect that the playback quality was changed. Return values: 'UNKNOWN', 'SMALL', 'MEDIUM', 'LARGE', 'HD720', 'HD1080', 'HIGH_RES' or 'DEFAULT'.
 
-[[Event('Youtube Player', 'Playback Quality Changed', 'quality')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Youtube%20Player%22,%20%22name%22:%20%22Playback%20Quality%20Changed%22,%20%22params%22:%20%5B%22quality%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -58,7 +62,8 @@ Use this event to detect that the playback quality was changed. Return values: '
 
 Use this event to detect that the playback rate was changed. Return values: 'UNKNOWN', 'RATE_0_25', 'RATE_0_5', 'RATE_1', 'RATE_1_5' or 'RATE_2'.
 
-[[Event('Youtube Player', 'Playback Rate Changed', 'rate')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Youtube%20Player%22,%20%22name%22:%20%22Playback%20Rate%20Changed%22,%20%22params%22:%20%5B%22rate%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -69,7 +74,8 @@ Use this event to detect that the playback rate was changed. Return values: 'UNK
 
 Use this event to detect that the state changes. Return values: 'UNKNOWN', 'UNSTARTED', 'ENDED', 'PLAYING', 'PAUSED', 'BUFFERING' or 'VIDEO_CUED'.
 
-[[Event('Youtube Player', 'State Changed', 'state')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Youtube%20Player%22,%20%22name%22:%20%22State%20Changed%22,%20%22params%22:%20%5B%22state%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -82,13 +88,15 @@ Use this event to detect that the state changes. Return values: 'UNKNOWN', 'UNST
 
 Enter the video in fullscreen mode.
 
-[[Method('Youtube Player', 'Enter Fullscreen', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Youtube%20Player%22,%20%22name%22:%20%22Enter%20Fullscreen%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Exit Fullscreen
 
 Exit the video from fullscreen mode.
 
-[[Method('Youtube Player', 'Exit Fullscreen', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Youtube%20Player%22,%20%22name%22:%20%22Exit%20Fullscreen%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Get Thumbnail From Video Id
 
@@ -96,7 +104,8 @@ Exit the video from fullscreen mode.
 
 This block will return the thumbnail image path from a video id. Use only as example '_bZj-LOXdH8' from a youtube video.
 
-[[Method('Youtube Player', 'Get Thumbnail From Video Id', True, 'videoId')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Youtube%20Player%22,%20%22name%22:%20%22Get%20Thumbnail%20From%20Video%20Id%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22video%20Id%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -107,7 +116,8 @@ This block will return the thumbnail image path from a video id. Use only as exa
 
 Use this block together with the 'Youtube Player' Initialized event. Loads and automatically plays the specified youtube video. Use only as example '_bZj-LOXdH8' from a youtube video.
 
-[[Method('Youtube Player', 'Instant Load', False, 'videoId')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Youtube%20Player%22,%20%22name%22:%20%22Instant%20Load%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22video%20Id%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -118,7 +128,8 @@ Use this block together with the 'Youtube Player' Initialized event. Loads and a
 
 Loads the specified video's thumbnail and prepares the player to play the video. Does not automatically play the video. Use only as example '_bZj-LOXdH8' from a youtube video.
 
-[[Method('Youtube Player', 'Load', False, 'videoId')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Youtube%20Player%22,%20%22name%22:%20%22Load%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22video%20Id%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -129,19 +140,22 @@ Loads the specified video's thumbnail and prepares the player to play the video.
 
 Pause the youtube video.
 
-[[Method('Youtube Player', 'Pause', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Youtube%20Player%22,%20%22name%22:%20%22Pause%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Play
 
 Plays the youtube video.
 
-[[Method('Youtube Player', 'Play', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Youtube%20Player%22,%20%22name%22:%20%22Play%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Seek To
 
 Set a position where the youtube video should start playing in seconds.
 
-[[Method('Youtube Player', 'Seek To', False, 'position')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Youtube%20Player%22,%20%22name%22:%20%22Seek%20To%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22position%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -152,7 +166,8 @@ Set a position where the youtube video should start playing in seconds.
 
 Toggle the state of the video player.
 
-[[Method('Youtube Player', 'Toggle Fullscreen', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Youtube%20Player%22,%20%22name%22:%20%22Toggle%20Fullscreen%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Properties
 
@@ -162,7 +177,9 @@ Toggle the state of the video player.
 
 If you want to play live videos you must setup the UI accordingly, by calling this method. If enabled, the user can not select a second on the video progress bar.
 
-[[PropertyBlockGetterAndSetter('Youtube Player', 'Enable Live Video UI')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Youtube%20Player%22,%20%22name%22:%20%22Enable%20Live%20Video%20UI%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Youtube%20Player%22,%20%22name%22:%20%22Enable%20Live%20Video%20UI%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Start Second
 
@@ -170,7 +187,9 @@ If you want to play live videos you must setup the UI accordingly, by calling th
 
 The time from which the video should start playing.
 
-[[PropertyBlockGetterAndSetter('Youtube Player', 'Start Second')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Youtube%20Player%22,%20%22name%22:%20%22Start%20Second%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Youtube%20Player%22,%20%22name%22:%20%22Start%20Second%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Visible
 
@@ -178,7 +197,9 @@ The time from which the video should start playing.
 
 Returns true iff the component is visible.
 
-[[PropertyBlockGetterAndSetter('Youtube Player', 'Visible')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Youtube%20Player%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Youtube%20Player%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Volume
 
@@ -186,7 +207,9 @@ Returns true iff the component is visible.
 
 Set the volume to a number between 0 and 100.Use only integer numbers.
 
-[[PropertyBlockGetterAndSetter('Youtube Player', 'Volume')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Youtube%20Player%22,%20%22name%22:%20%22Volume%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Youtube%20Player%22,%20%22name%22:%20%22Volume%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Column
 
@@ -200,7 +223,8 @@ Column property getter method.
 
 Returns the current second.
 
-[[PropertyBlockGetter('Youtube Player', 'Get Current Second')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Youtube%20Player%22,%20%22name%22:%20%22Get%20Current%20Second%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Get Video Duration
 
@@ -208,7 +232,8 @@ Returns the current second.
 
 Returns the video duration in seconds.
 
-[[PropertyBlockGetter('Youtube Player', 'Get Video Duration')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Youtube%20Player%22,%20%22name%22:%20%22Get%20Video%20Duration%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Height
 
@@ -216,7 +241,9 @@ Returns the video duration in seconds.
 
 Specifies the component's vertical height, measured in pixels.
 
-[[PropertyBlockGetterAndSetter('Youtube Player', 'Height')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Youtube%20Player%22,%20%22name%22:%20%22Height%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Youtube%20Player%22,%20%22name%22:%20%22Height%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Height Percent
 
@@ -224,7 +251,8 @@ Specifies the component's vertical height, measured in pixels.
 
 Specifies the component's vertical height as a percentageof the height of its parent Component.
 
-[[PropertyBlockGetterAndSetter('Youtube Player', 'Height Percent')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Youtube%20Player%22,%20%22name%22:%20%22Height%20Percent%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Is Fullscreen
 
@@ -232,7 +260,8 @@ Specifies the component's vertical height as a percentageof the height of its pa
 
 Returns true if the player is in fullscreen mode.
 
-[[PropertyBlockGetter('Youtube Player', 'Is Fullscreen')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Youtube%20Player%22,%20%22name%22:%20%22Is%20Fullscreen%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Row
 
@@ -246,7 +275,8 @@ Row property getter method.
 
 Use this block to test the youtube player. Powered by Kodular.io
 
-[[PropertyBlockGetter('Youtube Player', 'Test Video Id')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Youtube%20Player%22,%20%22name%22:%20%22Test%20Video%20Id%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Width
 
@@ -254,7 +284,9 @@ Use this block to test the youtube player. Powered by Kodular.io
 
 Specifies the component's horizontal width, measured in pixels.
 
-[[PropertyBlockGetterAndSetter('Youtube Player', 'Width')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Youtube%20Player%22,%20%22name%22:%20%22Width%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Youtube%20Player%22,%20%22name%22:%20%22Width%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Width Percent
 
@@ -262,4 +294,4 @@ Specifies the component's horizontal width, measured in pixels.
 
 Specifies the component's horizontal width as a percentageof the Width of its parent Component.
 
-[[PropertyBlockGetterAndSetter('Youtube Player', 'Width Percent')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Youtube%20Player%22,%20%22name%22:%20%22Width%20Percent%22,%20%22getter%22:%20false%7D"></div>

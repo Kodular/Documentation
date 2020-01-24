@@ -14,7 +14,8 @@ A spinner component that displays a pop-up with a list of elements. These elemen
 
 Event called after the user selects an item from the dropdown list.
 
-[[Event('Spinner', 'After Selecting', 'selection')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Spinner%22,%20%22name%22:%20%22After%20Selecting%22,%20%22params%22:%20%5B%22selection%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -27,7 +28,8 @@ Event called after the user selects an item from the dropdown list.
 
 displays the dropdown list for selection, same action as when the user clicks on the spinner.
 
-[[Method('Spinner', 'Display Dropdown', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Spinner%22,%20%22name%22:%20%22Display%20Dropdown%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Properties
 
@@ -37,7 +39,8 @@ displays the dropdown list for selection, same action as when the user clicks on
 
 Sets the Spinner list to the elements passed in the comma-separated string.
 
-[[PropertyBlockGetterAndSetter('Spinner', 'Elements From String')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spinner%22,%20%22name%22:%20%22Elements%20From%20String%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Font Bold
 
@@ -59,7 +62,8 @@ Sets the Spinner list to the elements passed in the comma-separated string.
 
 Set a custom font.
 
-[[PropertyBlockGetterAndSetter('Spinner', 'Font Typeface Import')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spinner%22,%20%22name%22:%20%22Font%20Typeface%20Import%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Item Background Color
 
@@ -67,7 +71,9 @@ Set a custom font.
 
 Set the background color for the spinner items.
 
-[[PropertyBlockGetterAndSetter('Spinner', 'Item Background Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spinner%22,%20%22name%22:%20%22Item%20Background%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spinner%22,%20%22name%22:%20%22Item%20Background%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Item Text Color
 
@@ -75,7 +81,9 @@ Set the background color for the spinner items.
 
 Set the text color for the spinner items.
 
-[[PropertyBlockGetterAndSetter('Spinner', 'Item Text Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spinner%22,%20%22name%22:%20%22Item%20Text%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spinner%22,%20%22name%22:%20%22Item%20Text%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Prompt
 
@@ -91,7 +99,9 @@ Text with the current title for the Spinner window.
 
 Set the text color for the spinner items prompt/hint.
 
-[[PropertyBlockGetterAndSetter('Spinner', 'Prompt Item Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spinner%22,%20%22name%22:%20%22Prompt%20Item%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spinner%22,%20%22name%22:%20%22Prompt%20Item%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Selection
 
@@ -99,7 +109,9 @@ Set the text color for the spinner items prompt/hint.
 
 Returns the current selected item in the spinner.
 
-[[PropertyBlockGetterAndSetter('Spinner', 'Selection')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spinner%22,%20%22name%22:%20%22Selection%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spinner%22,%20%22name%22:%20%22Selection%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Spinner Color
 
@@ -107,7 +119,9 @@ Returns the current selected item in the spinner.
 
 Set the text color for the spinner.
 
-[[PropertyBlockGetterAndSetter('Spinner', 'Spinner Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spinner%22,%20%22name%22:%20%22Spinner%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spinner%22,%20%22name%22:%20%22Spinner%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Spinner Text Size
 
@@ -115,7 +129,9 @@ Set the text color for the spinner.
 
 The size of the spinner selected text.
 
-[[PropertyBlockGetterAndSetter('Spinner', 'Spinner Text Size')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spinner%22,%20%22name%22:%20%22Spinner%20Text%20Size%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spinner%22,%20%22name%22:%20%22Spinner%20Text%20Size%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Text Alignment
 
@@ -127,7 +143,9 @@ The size of the spinner selected text.
 
 The text size of the spinner items.
 
-[[PropertyBlockGetterAndSetter('Spinner', 'Font Size')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spinner%22,%20%22name%22:%20%22Font%20Size%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spinner%22,%20%22name%22:%20%22Font%20Size%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Use Prompt
 
@@ -137,7 +155,8 @@ The text size of the spinner items.
 
 If true the first spinner item will be the prompt text.
 
-[[PropertyBlockGetterAndSetter('Spinner', 'Use Prompt')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spinner%22,%20%22name%22:%20%22Use%20Prompt%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Visible
 
@@ -145,7 +164,9 @@ If true the first spinner item will be the prompt text.
 
 Returns true iff the component is visible.
 
-[[PropertyBlockGetterAndSetter('Spinner', 'Visible')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spinner%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spinner%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Column
 
@@ -159,7 +180,9 @@ Column property getter method.
 
 returns a list of text elements to be picked from.
 
-[[PropertyBlockGetterAndSetter('Spinner', 'Elements')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spinner%22,%20%22name%22:%20%22Elements%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spinner%22,%20%22name%22:%20%22Elements%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Height
 
@@ -167,7 +190,9 @@ returns a list of text elements to be picked from.
 
 Specifies the component's vertical height, measured in pixels.
 
-[[PropertyBlockGetterAndSetter('Spinner', 'Height')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spinner%22,%20%22name%22:%20%22Height%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spinner%22,%20%22name%22:%20%22Height%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Height Percent
 
@@ -175,7 +200,8 @@ Specifies the component's vertical height, measured in pixels.
 
 Specifies the component's vertical height as a percentageof the height of its parent Component.
 
-[[PropertyBlockGetterAndSetter('Spinner', 'Height Percent')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spinner%22,%20%22name%22:%20%22Height%20Percent%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Row
 
@@ -189,7 +215,9 @@ Row property getter method.
 
 The index of the currently selected item, starting at 1. If no item is selected, the value will be 0.
 
-[[PropertyBlockGetterAndSetter('Spinner', 'Selection Index')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spinner%22,%20%22name%22:%20%22Selection%20Index%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spinner%22,%20%22name%22:%20%22Selection%20Index%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Width
 
@@ -197,7 +225,9 @@ The index of the currently selected item, starting at 1. If no item is selected,
 
 Specifies the component's horizontal width, measured in pixels.
 
-[[PropertyBlockGetterAndSetter('Spinner', 'Width')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spinner%22,%20%22name%22:%20%22Width%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spinner%22,%20%22name%22:%20%22Width%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Width Percent
 
@@ -205,4 +235,4 @@ Specifies the component's horizontal width, measured in pixels.
 
 Specifies the component's horizontal width as a percentageof the Width of its parent Component.
 
-[[PropertyBlockGetterAndSetter('Spinner', 'Width Percent')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spinner%22,%20%22name%22:%20%22Width%20Percent%22,%20%22getter%22:%20false%7D"></div>

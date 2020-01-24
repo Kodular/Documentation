@@ -20,7 +20,8 @@ A non-visible component that authenticates the user using their preferred securi
 
 Event to detect a authentication request was called.
 
-[[Event('Keyguard Manager', 'On Authentication Request', 'isAuthenticated')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Keyguard%20Manager%22,%20%22name%22:%20%22On%20Authentication%20Request%22,%20%22params%22:%20%5B%22is%20Authenticated%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -31,7 +32,8 @@ Event to detect a authentication request was called.
 
 Event to detect a dissmiss request keyguard was called.
 
-[[Event('Keyguard Manager', 'On Dissmiss Keyguard Request', 'succeeded', 'cancelled')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Keyguard%20Manager%22,%20%22name%22:%20%22On%20Dissmiss%20Keyguard%20Request%22,%20%22params%22:%20%5B%22succeeded%22,%20%22cancelled%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -45,19 +47,22 @@ Event to detect a dissmiss request keyguard was called.
 
 If the device is currently locked, requests the Keyguard to be dismissed. Works only for devices with Android 8+
 
-[[Method('Keyguard Manager', 'Request Dismiss Keyguard', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Keyguard%20Manager%22,%20%22name%22:%20%22Request%20Dismiss%20Keyguard%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Show Authentication Screen
 
 Create the Confirm Credentials screen. You can customize the title and description. Or we will provide a generic one for you if you leave it empty. Works only for devices with Android 5+
 
-[[Method('Keyguard Manager', 'Show Authentication Screen', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Keyguard%20Manager%22,%20%22name%22:%20%22Show%20Authentication%20Screen%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Show When Locked
 
 Specifies whether an Activity should be shown on top of the lock screen whenever the lockscreen is up and the activity is resumed. Normally an activity will be transitioned to the stopped state if it is started while the lockscreen is up, but with this flag set the activity will remain in the resumed state visible on-top of the lock screen.
 
-[[Method('Keyguard Manager', 'Show When Locked', False, 'enabled')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Keyguard%20Manager%22,%20%22name%22:%20%22Show%20When%20Locked%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22enabled%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -72,7 +77,9 @@ Specifies whether an Activity should be shown on top of the lock screen whenever
 
 Returns the keyguard manager description text.
 
-[[PropertyBlockGetterAndSetter('Keyguard Manager', 'Description')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Keyguard%20Manager%22,%20%22name%22:%20%22Description%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Keyguard%20Manager%22,%20%22name%22:%20%22Description%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Title
 
@@ -80,7 +87,9 @@ Returns the keyguard manager description text.
 
 Returns the keyguard manager title text.
 
-[[PropertyBlockGetterAndSetter('Keyguard Manager', 'Title')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Keyguard%20Manager%22,%20%22name%22:%20%22Title%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Keyguard%20Manager%22,%20%22name%22:%20%22Title%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### is Device Locked
 
@@ -88,7 +97,8 @@ Returns the keyguard manager title text.
 
 Returns whether the device is currently locked and requires a PIN, pattern or password to unlock. Works only for devices with Android 5.1+
 
-[[PropertyBlockGetter('Keyguard Manager', 'is Device Locked')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Keyguard%20Manager%22,%20%22name%22:%20%22is%20Device%20Locked%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### is Device Secure
 
@@ -96,7 +106,8 @@ Returns whether the device is currently locked and requires a PIN, pattern or pa
 
 Returns whether the device is secured with a PIN, pattern or password. Works only for devices with Android 6+
 
-[[PropertyBlockGetter('Keyguard Manager', 'is Device Secure')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Keyguard%20Manager%22,%20%22name%22:%20%22is%20Device%20Secure%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### is Keyguard Locked
 
@@ -104,7 +115,8 @@ Returns whether the device is secured with a PIN, pattern or password. Works onl
 
 Return whether the keyguard is currently locked.
 
-[[PropertyBlockGetter('Keyguard Manager', 'is Keyguard Locked')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Keyguard%20Manager%22,%20%22name%22:%20%22is%20Keyguard%20Locked%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### is Keyguard Secure
 
@@ -112,4 +124,4 @@ Return whether the keyguard is currently locked.
 
 Return whether the keyguard is secured by a PIN, pattern or password or a SIM card is currently locked.
 
-[[PropertyBlockGetter('Keyguard Manager', 'is Keyguard Secure')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Keyguard%20Manager%22,%20%22name%22:%20%22is%20Keyguard%20Secure%22,%20%22getter%22:%20true%7D"></div>

@@ -21,7 +21,8 @@ Powered by the Google Play Games service.
 
 Got player info
 
-[[Event('Google Play Games', 'Got Player', 'name', 'id', 'level', 'xp')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Play%20Games%22,%20%22name%22:%20%22Got%20Player%22,%20%22params%22:%20%5B%22name%22,%20%22id%22,%20%22level%22,%20%22xp%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -35,7 +36,8 @@ Got player info
 
 User signed in.
 
-[[Event('Google Play Games', 'Signed In', 'success')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Play%20Games%22,%20%22name%22:%20%22Signed%20In%22,%20%22params%22:%20%5B%22success%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -46,7 +48,8 @@ User signed in.
 
 User signed out.
 
-[[Event('Google Play Games', 'Signed Out')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Play%20Games%22,%20%22name%22:%20%22Signed%20Out%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Methods
 
@@ -54,13 +57,15 @@ User signed out.
 
 Get the current player
 
-[[Method('Google Play Games', 'Get Player', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Play%20Games%22,%20%22name%22:%20%22Get%20Player%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Increment Achievement
 
 Increment an achievement.
 
-[[Method('Google Play Games', 'Increment Achievement', False, 'achievementId', 'by')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Play%20Games%22,%20%22name%22:%20%22Increment%20Achievement%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22achievement%20Id%22,%20%22by%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -74,19 +79,22 @@ Increment an achievement.
 
 Is user signed in?
 
-[[Method('Google Play Games', 'Is Signed In', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Play%20Games%22,%20%22name%22:%20%22Is%20Signed%20In%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Show Achievements
 
 Shows Achievement.
 
-[[Method('Google Play Games', 'Show Achievements', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Play%20Games%22,%20%22name%22:%20%22Show%20Achievements%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Show Leaderboard
 
 Shows Leaderboard.
 
-[[Method('Google Play Games', 'Show Leaderboard', False, 'leaderboardId')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Play%20Games%22,%20%22name%22:%20%22Show%20Leaderboard%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22leaderboard%20Id%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -97,7 +105,8 @@ Shows Leaderboard.
 
 Sign in the user. useLastAccount, true: use the last signed in account if possible, false: open a screen to choose for an account
 
-[[Method('Google Play Games', 'Sign In', False, 'useLastAccount')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Play%20Games%22,%20%22name%22:%20%22Sign%20In%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22use%20Last%20Account%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -108,13 +117,15 @@ Sign in the user. useLastAccount, true: use the last signed in account if possib
 
 Sign out the user.
 
-[[Method('Google Play Games', 'Sign Out', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Play%20Games%22,%20%22name%22:%20%22Sign%20Out%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Submit Score
 
 Submits user score to leaderboard.
 
-[[Method('Google Play Games', 'Submit Score', False, 'leaderboardId', 'score')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Play%20Games%22,%20%22name%22:%20%22Submit%20Score%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22leaderboard%20Id%22,%20%22score%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -126,7 +137,8 @@ Submits user score to leaderboard.
 
 Unlock an achievement.
 
-[[Method('Google Play Games', 'Unlock Achievements', False, 'achievementId')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Play%20Games%22,%20%22name%22:%20%22Unlock%20Achievements%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22achievement%20Id%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|

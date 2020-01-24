@@ -18,7 +18,8 @@ The difference between a `` Ball `` and an `` ImageSprite `` is that the latter 
 
 Event handler called when two enabled sprites (Balls or ImageSprites)collide. Note that checking for collisions with a rotated ImageSprite currentlychecks against its unrotated position. Therefore, collisionchecking will be inaccurate for tall narrow or short wide sprites that arerotated.
 
-[[Event('Ball', 'Collided With', 'other')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Ball%22,%20%22name%22:%20%22Collided%20With%22,%20%22params%22:%20%5B%22other%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -29,7 +30,8 @@ Event handler called when two enabled sprites (Balls or ImageSprites)collide. No
 
 Event handler called when a Ball is dragged. On all calls, the starting coordinates are where the screen was first touched, and the "current" coordinates describe the endpoint of the current line segment. On the first call within a given drag, the "previous" coordinates are the same as the starting coordinates; subsequently, they are the "current" coordinates from the prior call. Note that the Ball won't actually move anywhere in response to the Dragged event unless MoveTo is explicitly called. For smooth movement, each of its coordinates should be set to the sum of its initial value and the difference between its current and previous values.
 
-[[Event('Ball', 'Dragged', 'startX', 'startY', 'prevX', 'prevY', 'currentX', 'currentY')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Ball%22,%20%22name%22:%20%22Dragged%22,%20%22params%22:%20%5B%22start%20X%22,%20%22start%20Y%22,%20%22prev%20X%22,%20%22prev%20Y%22,%20%22current%20X%22,%20%22current%20Y%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -45,7 +47,8 @@ Event handler called when a Ball is dragged. On all calls, the starting coordina
 
 Event handler called when the Ball reaches an edge of the screen. If Bounce is then called with that edge, the Ball will appear to bounce off of the edge it reached. Edge here is represented as an integer that indicates one of eight directions north (1), northeast (2), east (3), southeast (4), south (-1), southwest (-2), west (-3), and northwest (-4).
 
-[[Event('Ball', 'Edge Reached', 'edge')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Ball%22,%20%22name%22:%20%22Edge%20Reached%22,%20%22params%22:%20%5B%22edge%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -56,7 +59,8 @@ Event handler called when the Ball reaches an edge of the screen. If Bounce is t
 
 Event handler called when a fling gesture (quick swipe) is made on an enabled Ball. This provides the x and y coordinates of the start of the fling (relative to the upper left of the canvas), the speed (pixels per millisecond), the heading (0-360 degrees), and the x and y velocity components of the fling's vector.
 
-[[Event('Ball', 'Flung', 'x', 'y', 'speed', 'heading', 'xvel', 'yvel')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Ball%22,%20%22name%22:%20%22Flung%22,%20%22params%22:%20%5B%22x%22,%20%22y%22,%20%22speed%22,%20%22heading%22,%20%22x%20vel%22,%20%22y%20vel%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -72,7 +76,8 @@ Event handler called when a fling gesture (quick swipe) is made on an enabled Ba
 
 Event handler called when a pair of sprites (Balls and ImageSprites) are no longer colliding.
 
-[[Event('Ball', 'No Longer Colliding With', 'other')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Ball%22,%20%22name%22:%20%22No%20Longer%20Colliding%20With%22,%20%22params%22:%20%5B%22other%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -83,7 +88,8 @@ Event handler called when a pair of sprites (Balls and ImageSprites) are no long
 
 Event handler called when the user begins touching an enabled Ball (placing their finger on a Ball and leaving it there). This provides the x and y coordinates of the touch, relative to the upper left of the canvas.
 
-[[Event('Ball', 'Touch Down', 'x', 'y')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Ball%22,%20%22name%22:%20%22Touch%20Down%22,%20%22params%22:%20%5B%22x%22,%20%22y%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -95,7 +101,8 @@ Event handler called when the user begins touching an enabled Ball (placing thei
 
 Event handler called when the user stops touching an enabled Ball (lifting their finger after a TouchDown event). This provides the x and y coordinates of the touch, relative to the upper left of the canvas.
 
-[[Event('Ball', 'Touch Up', 'x', 'y')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Ball%22,%20%22name%22:%20%22Touch%20Up%22,%20%22params%22:%20%5B%22x%22,%20%22y%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -107,7 +114,8 @@ Event handler called when the user stops touching an enabled Ball (lifting their
 
 Event handler called when the user touches an enabled Ball and then immediately lifts their finger. The provided x and y coordinates are relative to the upper left of the canvas.
 
-[[Event('Ball', 'Touched', 'x', 'y')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Ball%22,%20%22name%22:%20%22Touched%22,%20%22params%22:%20%5B%22x%22,%20%22y%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -121,7 +129,8 @@ Event handler called when the user touches an enabled Ball and then immediately 
 
 Makes the Ball bounce, as if off a wall. For normal bouncing, the edge argument should be the one returned by EdgeReached.
 
-[[Method('Ball', 'Bounce', False, 'edge')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Ball%22,%20%22name%22:%20%22Bounce%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22edge%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -134,7 +143,8 @@ Makes the Ball bounce, as if off a wall. For normal bouncing, the edge argument 
 
 Indicates whether a collision has been registered between this Ball and the passed sprite (Ball or ImageSprite).
 
-[[Method('Ball', 'Colliding With', True, 'other')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Ball%22,%20%22name%22:%20%22Colliding%20With%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22other%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -145,13 +155,15 @@ Indicates whether a collision has been registered between this Ball and the pass
 
 Moves the Ball back in bounds if part of it extends out of bounds, having no effect otherwise. If the Ball is too wide to fit on the canvas, this aligns the left side of the Ball with the left side of the canvas. If the Ball is too tall to fit on the canvas, this aligns the top side of the Ball with the top side of the canvas.
 
-[[Method('Ball', 'Move Into Bounds', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Ball%22,%20%22name%22:%20%22Move%20Into%20Bounds%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Move To
 
 Sets the x and y coordinates of the Ball. If CenterAtOrigin is true, the center of the Ball will be placed here. Otherwise, the top left edge of the Ball will be placed at the specified coordinates.
 
-[[Method('Ball', 'Move To', False, 'x', 'y')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Ball%22,%20%22name%22:%20%22Move%20To%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22x%22,%20%22y%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -163,7 +175,8 @@ Sets the x and y coordinates of the Ball. If CenterAtOrigin is true, the center 
 
 Sets the heading of the Ball toward the point with the coordinates (x, y).
 
-[[Method('Ball', 'Point In Direction', False, 'x', 'y')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Ball%22,%20%22name%22:%20%22Point%20In%20Direction%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22x%22,%20%22y%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -175,7 +188,8 @@ Sets the heading of the Ball toward the point with the coordinates (x, y).
 
 Turns the Ball to point towards a designated target sprite (Ball or ImageSprite). The new heading will be parallel to the line joining the centerpoints of the two sprites.
 
-[[Method('Ball', 'Point Towards', False, 'target')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Ball%22,%20%22name%22:%20%22Point%20Towards%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22target%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -190,7 +204,9 @@ Turns the Ball to point towards a designated target sprite (Ball or ImageSprite)
 
 Controls whether the Ball moves and can be interacted with through collisions, dragging, touching, and flinging.
 
-[[PropertyBlockGetterAndSetter('Ball', 'Enabled')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Ball%22,%20%22name%22:%20%22Enabled%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Ball%22,%20%22name%22:%20%22Enabled%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Heading
 
@@ -198,7 +214,9 @@ Controls whether the Ball moves and can be interacted with through collisions, d
 
 Sets heading in which sprite should move. In addition to changing thelocal variables
 
-[[PropertyBlockGetterAndSetter('Ball', 'Heading')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Ball%22,%20%22name%22:%20%22Heading%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Ball%22,%20%22name%22:%20%22Heading%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Interval
 
@@ -206,7 +224,9 @@ Sets heading in which sprite should move. In addition to changing thelocal varia
 
 The interval in milliseconds at which the Ball's position is updated. For example, if the interval is 50 and the speed is 10, then every 50 milliseconds the sprite will move 10 pixels in the heading direction.
 
-[[PropertyBlockGetterAndSetter('Ball', 'Interval')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Ball%22,%20%22name%22:%20%22Interval%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Ball%22,%20%22name%22:%20%22Interval%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Origin At Center
 
@@ -220,7 +240,9 @@ Whether the x- and y-coordinates should represent the center of the Ball (`` tru
 
 The color of the Ball.
 
-[[PropertyBlockGetterAndSetter('Ball', 'Paint Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Ball%22,%20%22name%22:%20%22Paint%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Ball%22,%20%22name%22:%20%22Paint%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Radius
 
@@ -228,7 +250,9 @@ The color of the Ball.
 
 The distance from the edge of the Ball to its center.
 
-[[PropertyBlockGetterAndSetter('Ball', 'Radius')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Ball%22,%20%22name%22:%20%22Radius%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Ball%22,%20%22name%22:%20%22Radius%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Speed
 
@@ -236,7 +260,9 @@ The distance from the edge of the Ball to its center.
 
 The number of pixels that the Ball should move every interval, if enabled.
 
-[[PropertyBlockGetterAndSetter('Ball', 'Speed')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Ball%22,%20%22name%22:%20%22Speed%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Ball%22,%20%22name%22:%20%22Speed%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Visible
 
@@ -244,7 +270,9 @@ The number of pixels that the Ball should move every interval, if enabled.
 
 Whether the Ball is visible.
 
-[[PropertyBlockGetterAndSetter('Ball', 'Visible')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Ball%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Ball%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### X
 
@@ -252,7 +280,9 @@ Whether the Ball is visible.
 
 The horizontal coordinate of the Ball, increasing as the Ball moves right. If the property OriginAtCenter is true, the coodinate is for the center of the Ball; otherwise, it is for the leftmost point of the Ball.
 
-[[PropertyBlockGetterAndSetter('Ball', 'X')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Ball%22,%20%22name%22:%20%22X%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Ball%22,%20%22name%22:%20%22X%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Y
 
@@ -260,7 +290,9 @@ The horizontal coordinate of the Ball, increasing as the Ball moves right. If th
 
 The vertical coordinate of the Ball, increasing as the Ball moves down. If the property OriginAtCenter is true, the coodinate is for the center of the Ball; otherwise, it is for the uppermost point of the Ball.
 
-[[PropertyBlockGetterAndSetter('Ball', 'Y')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Ball%22,%20%22name%22:%20%22Y%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Ball%22,%20%22name%22:%20%22Y%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Z
 
@@ -268,4 +300,5 @@ The vertical coordinate of the Ball, increasing as the Ball moves down. If the p
 
 Sets the layer of the sprite, indicating whether it will appear infront of or behind other sprites.
 
-[[PropertyBlockGetterAndSetter('Ball', 'Z')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Ball%22,%20%22name%22:%20%22Z%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Ball%22,%20%22name%22:%20%22Z%22,%20%22getter%22:%20false%7D"></div>

@@ -16,7 +16,8 @@ A non-visible component that brings emphasis to the specified component by means
 
 Event triggered when the spotlight is clicked.
 
-[[Event('Spotlight', 'Clicked')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Spotlight%22,%20%22name%22:%20%22Clicked%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Methods
 
@@ -24,13 +25,15 @@ Event triggered when the spotlight is clicked.
 
 Use this block to show the spotlight.
 
-[[Method('Spotlight', 'Show Spotlight', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Spotlight%22,%20%22name%22:%20%22Show%20Spotlight%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Show Spotlight On FAB
 
 Use this block to show the spotlight on a floating action button.
 
-[[Method('Spotlight', 'Show Spotlight On FAB', False, 'floatingActionButton')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Spotlight%22,%20%22name%22:%20%22Show%20Spotlight%20On%20FAB%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22floating%20Action%20Button%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -45,7 +48,9 @@ Use this block to show the spotlight on a floating action button.
 
 The padding for the circle spotlight. Default is '20'.
 
-[[PropertyBlockGetterAndSetter('Spotlight', 'Circle Padding')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spotlight%22,%20%22name%22:%20%22Circle%20Padding%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spotlight%22,%20%22name%22:%20%22Circle%20Padding%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Component
 
@@ -53,7 +58,9 @@ The padding for the circle spotlight. Default is '20'.
 
 The component to show in the spotlight.
 
-[[PropertyBlockGetterAndSetter('Spotlight', 'Component')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spotlight%22,%20%22name%22:%20%22Component%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spotlight%22,%20%22name%22:%20%22Component%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Dismiss On Back Press
 
@@ -61,7 +68,9 @@ The component to show in the spotlight.
 
 Dismiss the spotlight on back pressed.
 
-[[PropertyBlockGetterAndSetter('Spotlight', 'Dismiss On Back Press')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spotlight%22,%20%22name%22:%20%22Dismiss%20On%20Back%20Press%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spotlight%22,%20%22name%22:%20%22Dismiss%20On%20Back%20Press%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Dismiss On Touch
 
@@ -69,7 +78,9 @@ Dismiss the spotlight on back pressed.
 
 Dismiss the spotlight on touch
 
-[[PropertyBlockGetterAndSetter('Spotlight', 'Dismiss On Touch')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spotlight%22,%20%22name%22:%20%22Dismiss%20On%20Touch%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spotlight%22,%20%22name%22:%20%22Dismiss%20On%20Touch%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Enable Dismiss After Shown
 
@@ -77,7 +88,9 @@ Dismiss the spotlight on touch
 
 Dismiss spotlight on touch after spotlight is completely visible.
 
-[[PropertyBlockGetterAndSetter('Spotlight', 'Enable Dismiss After Shown')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spotlight%22,%20%22name%22:%20%22Enable%20Dismiss%20After%20Shown%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spotlight%22,%20%22name%22:%20%22Enable%20Dismiss%20After%20Shown%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Enable Reveal Animation
 
@@ -85,7 +98,9 @@ Dismiss spotlight on touch after spotlight is completely visible.
 
 Enable reveal animation (Only for Lollipop and above).
 
-[[PropertyBlockGetterAndSetter('Spotlight', 'Enable Reveal Animation')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spotlight%22,%20%22name%22:%20%22Enable%20Reveal%20Animation%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spotlight%22,%20%22name%22:%20%22Enable%20Reveal%20Animation%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Fadein Text Duration
 
@@ -93,7 +108,9 @@ Enable reveal animation (Only for Lollipop and above).
 
 Fade in animation duration for spotlight text (Heading and Sub-heading).
 
-[[PropertyBlockGetterAndSetter('Spotlight', 'Fadein Text Duration')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spotlight%22,%20%22name%22:%20%22Fadein%20Text%20Duration%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spotlight%22,%20%22name%22:%20%22Fadein%20Text%20Duration%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Font Heading Typeface
 
@@ -107,7 +124,8 @@ Fade in animation duration for spotlight text (Heading and Sub-heading).
 
 Set a custom font.
 
-[[PropertyBlockGetterAndSetter('Spotlight', 'Font Heading Typeface Import')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spotlight%22,%20%22name%22:%20%22Font%20Heading%20Typeface%20Import%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Font Subheading Typeface
 
@@ -121,7 +139,8 @@ Set a custom font.
 
 Set a custom font.
 
-[[PropertyBlockGetterAndSetter('Spotlight', 'Font Subheading Typeface Import')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spotlight%22,%20%22name%22:%20%22Font%20Subheading%20Typeface%20Import%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Heading Text
 
@@ -129,7 +148,9 @@ Set a custom font.
 
 The Spotlight heading text.
 
-[[PropertyBlockGetterAndSetter('Spotlight', 'Heading Text')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spotlight%22,%20%22name%22:%20%22Heading%20Text%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spotlight%22,%20%22name%22:%20%22Heading%20Text%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Heading Text Color
 
@@ -137,7 +158,9 @@ The Spotlight heading text.
 
 The Spotlight heading text color.
 
-[[PropertyBlockGetterAndSetter('Spotlight', 'Heading Text Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spotlight%22,%20%22name%22:%20%22Heading%20Text%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spotlight%22,%20%22name%22:%20%22Heading%20Text%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Heading Text Size
 
@@ -145,7 +168,9 @@ The Spotlight heading text color.
 
 The Spotlight heading size.
 
-[[PropertyBlockGetterAndSetter('Spotlight', 'Heading Text Size')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spotlight%22,%20%22name%22:%20%22Heading%20Text%20Size%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spotlight%22,%20%22name%22:%20%22Heading%20Text%20Size%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Intro Animation Duration
 
@@ -153,7 +178,9 @@ The Spotlight heading size.
 
 Intro animation duration (For Reveal and Fadein).
 
-[[PropertyBlockGetterAndSetter('Spotlight', 'Intro Animation Duration')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spotlight%22,%20%22name%22:%20%22Intro%20Animation%20Duration%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spotlight%22,%20%22name%22:%20%22Intro%20Animation%20Duration%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Line And Arc Color
 
@@ -161,7 +188,9 @@ Intro animation duration (For Reveal and Fadein).
 
 The Spotlight line and arc color.
 
-[[PropertyBlockGetterAndSetter('Spotlight', 'Line And Arc Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spotlight%22,%20%22name%22:%20%22Line%20And%20Arc%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spotlight%22,%20%22name%22:%20%22Line%20And%20Arc%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Line Animation Duration
 
@@ -169,7 +198,9 @@ The Spotlight line and arc color.
 
 Line animation duration
 
-[[PropertyBlockGetterAndSetter('Spotlight', 'Line Animation Duration')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spotlight%22,%20%22name%22:%20%22Line%20Animation%20Duration%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spotlight%22,%20%22name%22:%20%22Line%20Animation%20Duration%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Mask Color
 
@@ -177,7 +208,9 @@ Line animation duration
 
 The Spotlight mask color
 
-[[PropertyBlockGetterAndSetter('Spotlight', 'Mask Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spotlight%22,%20%22name%22:%20%22Mask%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spotlight%22,%20%22name%22:%20%22Mask%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Show Target Arc
 
@@ -185,7 +218,9 @@ The Spotlight mask color
 
 If set to true you will see a half round circle below the spotlight circle.
 
-[[PropertyBlockGetterAndSetter('Spotlight', 'Show Target Arc')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spotlight%22,%20%22name%22:%20%22Show%20Target%20Arc%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spotlight%22,%20%22name%22:%20%22Show%20Target%20Arc%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Subheading Text
 
@@ -193,7 +228,9 @@ If set to true you will see a half round circle below the spotlight circle.
 
 The Spotlight subheading text.
 
-[[PropertyBlockGetterAndSetter('Spotlight', 'Subheading Text')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spotlight%22,%20%22name%22:%20%22Subheading%20Text%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spotlight%22,%20%22name%22:%20%22Subheading%20Text%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Subheading Text Color
 
@@ -201,7 +238,9 @@ The Spotlight subheading text.
 
 The Spotlight subheading text color.
 
-[[PropertyBlockGetterAndSetter('Spotlight', 'Subheading Text Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spotlight%22,%20%22name%22:%20%22Subheading%20Text%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spotlight%22,%20%22name%22:%20%22Subheading%20Text%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Subheading Text Size
 
@@ -209,4 +248,5 @@ The Spotlight subheading text color.
 
 The Spotlight subheading text size.
 
-[[PropertyBlockGetterAndSetter('Spotlight', 'Subheading Text Size')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spotlight%22,%20%22name%22:%20%22Subheading%20Text%20Size%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Spotlight%22,%20%22name%22:%20%22Subheading%20Text%20Size%22,%20%22getter%22:%20false%7D"></div>

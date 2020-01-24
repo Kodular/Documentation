@@ -20,7 +20,8 @@ A non-visible component that communicates with a web service to store and retrie
 
 Indicates that a GetValue server request has succeeded.
 
-[[Event('Tiny Web DB', 'Got Value', 'tagFromWebDB', 'valueFromWebDB')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Tiny%20Web%20DB%22,%20%22name%22:%20%22Got%20Value%22,%20%22params%22:%20%5B%22tag%20From%20Web%20DB%22,%20%22value%20From%20Web%20DB%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -32,13 +33,15 @@ Indicates that a GetValue server request has succeeded.
 
 Event indicating that a StoreValue server request has succeeded.
 
-[[Event('Tiny Web DB', 'Value Stored')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Tiny%20Web%20DB%22,%20%22name%22:%20%22Value%20Stored%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Web Service Error
 
 Indicates that the communication with the Web service signaled an error.
 
-[[Event('Tiny Web DB', 'Web Service Error', 'message')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Tiny%20Web%20DB%22,%20%22name%22:%20%22Web%20Service%20Error%22,%20%22params%22:%20%5B%22message%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -51,7 +54,8 @@ Indicates that the communication with the Web service signaled an error.
 
 GetValue asks the Web service to get the value stored under the given tag.
 
-[[Method('Tiny Web DB', 'Get Value', False, 'tag')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Tiny%20Web%20DB%22,%20%22name%22:%20%22Get%20Value%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22tag%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -62,7 +66,8 @@ GetValue asks the Web service to get the value stored under the given tag.
 
 Asks the Web service to store the given value under the given tag.
 
-[[Method('Tiny Web DB', 'Store Value', False, 'tag', 'valueToStore')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Tiny%20Web%20DB%22,%20%22name%22:%20%22Store%20Value%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22tag%22,%20%22value%20To%20Store%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -78,4 +83,5 @@ Asks the Web service to store the given value under the given tag.
 
 Returns the URL of the web service database.
 
-[[PropertyBlockGetterAndSetter('Tiny Web DB', 'Service URL')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Tiny%20Web%20DB%22,%20%22name%22:%20%22Service%20URL%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Tiny%20Web%20DB%22,%20%22name%22:%20%22Service%20URL%22,%20%22getter%22:%20false%7D"></div>

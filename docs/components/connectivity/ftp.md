@@ -22,7 +22,8 @@ A non-visible component that allows for uploading and downloading of files via F
 
 This event returns the reason if a try to connect was not successful.
 
-[[Event('FTP', 'Connect Error', 'error')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22FTP%22,%20%22name%22:%20%22Connect%20Error%22,%20%22params%22:%20%5B%22error%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -33,7 +34,8 @@ This event returns the reason if a try to connect was not successful.
 
 This event returns the status of the connection. If it is connect it will return true, else false.
 
-[[Event('FTP', 'Connection Status', 'isConnected')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22FTP%22,%20%22name%22:%20%22Connection%20Status%22,%20%22params%22:%20%5B%22is%20Connected%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -44,7 +46,8 @@ This event returns the status of the connection. If it is connect it will return
 
 This event returns the reason if a try to disconnect was not successful.
 
-[[Event('FTP', 'Disconnect Error', 'error')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22FTP%22,%20%22name%22:%20%22Disconnect%20Error%22,%20%22params%22:%20%5B%22error%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -55,13 +58,15 @@ This event returns the reason if a try to disconnect was not successful.
 
 This event is invoked when the download is finished.
 
-[[Event('FTP', 'Download Done')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22FTP%22,%20%22name%22:%20%22Download%20Done%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Download error
 
 This event returns the reason if a download was not successful.
 
-[[Event('FTP', 'Download error', 'error')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22FTP%22,%20%22name%22:%20%22Download%20error%22,%20%22params%22:%20%5B%22error%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -72,13 +77,15 @@ This event returns the reason if a download was not successful.
 
 This event is invoked when the upload is finished.
 
-[[Event('FTP', 'Upload Done')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22FTP%22,%20%22name%22:%20%22Upload%20Done%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Upload error
 
 This event returns the reason if a upload was not successful.
 
-[[Event('FTP', 'Upload error', 'error')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22FTP%22,%20%22name%22:%20%22Upload%20error%22,%20%22params%22:%20%5B%22error%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -91,19 +98,22 @@ This event returns the reason if a upload was not successful.
 
 Start the connection to the ftp server.
 
-[[Method('FTP', 'Connect', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22FTP%22,%20%22name%22:%20%22Connect%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Disconnect
 
 Disconnect the current connection.
 
-[[Method('FTP', 'Disconnect', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22FTP%22,%20%22name%22:%20%22Disconnect%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Download File
 
 Start downloading a file.
 
-[[Method('FTP', 'Download File', False, 'remoteFilepath', 'destination')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22FTP%22,%20%22name%22:%20%22Download%20File%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22remote%20Filepath%22,%20%22destination%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -117,7 +127,8 @@ Start downloading a file.
 
 Get a list of files in a directory. Returns a empty list if a error occurs.
 
-[[Method('FTP', 'Get List Of Files', True, 'dir')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22FTP%22,%20%22name%22:%20%22Get%20List%20Of%20Files%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22dir%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -128,7 +139,8 @@ Get a list of files in a directory. Returns a empty list if a error occurs.
 
 Start uploading a file.
 
-[[Method('FTP', 'Upload File', False, 'filePath', 'newName')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22FTP%22,%20%22name%22:%20%22Upload%20File%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22file%20Path%22,%20%22new%20Name%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -140,7 +152,8 @@ Start uploading a file.
 
 Delete a directory on the ftp server.
 
-[[Method('FTP', 'Delete Dir', False, 'dir')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22FTP%22,%20%22name%22:%20%22Delete%20Dir%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22dir%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -151,7 +164,8 @@ Delete a directory on the ftp server.
 
 Make/create a directory on the ftp server.
 
-[[Method('FTP', 'make Dir', False, 'dir')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22FTP%22,%20%22name%22:%20%22make%20Dir%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22dir%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -166,7 +180,9 @@ Make/create a directory on the ftp server.
 
 Set the ftp server url.
 
-[[PropertyBlockGetterAndSetter('FTP', 'FTP-Server Host')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22FTP%22,%20%22name%22:%20%22FTP-Server%20(Host)%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22FTP%22,%20%22name%22:%20%22FTP-Server%20(Host)%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Password
 
@@ -174,7 +190,9 @@ Set the ftp server url.
 
 Set the password to login into the ftp server.
 
-[[PropertyBlockGetterAndSetter('FTP', 'Password')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22FTP%22,%20%22name%22:%20%22Password%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22FTP%22,%20%22name%22:%20%22Password%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Port
 
@@ -182,7 +200,9 @@ Set the password to login into the ftp server.
 
 Set the ftp port number.
 
-[[PropertyBlockGetterAndSetter('FTP', 'Port')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22FTP%22,%20%22name%22:%20%22Port%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22FTP%22,%20%22name%22:%20%22Port%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Username
 
@@ -190,7 +210,9 @@ Set the ftp port number.
 
 Set the username to login into the ftp server.
 
-[[PropertyBlockGetterAndSetter('FTP', 'Username')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22FTP%22,%20%22name%22:%20%22Username%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22FTP%22,%20%22name%22:%20%22Username%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Working Directory
 
@@ -198,4 +220,5 @@ Set the username to login into the ftp server.
 
 Set the ftp working dir.
 
-[[PropertyBlockGetterAndSetter('FTP', 'Working Directory')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22FTP%22,%20%22name%22:%20%22Working%20Directory%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22FTP%22,%20%22name%22:%20%22Working%20Directory%22,%20%22getter%22:%20false%7D"></div>

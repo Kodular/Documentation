@@ -20,13 +20,15 @@ A visible component that shows StartApp ads as static banners.
 
 Indicates that the user has clicked on the banner ad.
 
-[[Event('StartApp Banner', 'Ad Clicked')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22StartApp%20Banner%22,%20%22name%22:%20%22Ad%20Clicked%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Ad Failed To Load
 
 Called when an ad request failed to load. The message will display the error code and error message.
 
-[[Event('StartApp Banner', 'Ad Failed To Load', 'errorCode', 'errorMessage')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22StartApp%20Banner%22,%20%22name%22:%20%22Ad%20Failed%20To%20Load%22,%20%22params%22:%20%5B%22error%20Code%22,%20%22error%20Message%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -38,7 +40,8 @@ Called when an ad request failed to load. The message will display the error cod
 
 Called when an ad request failed to load.
 
-[[Event('StartApp Banner', 'On Failed To Receive Ad', 'errorMessage')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22StartApp%20Banner%22,%20%22name%22:%20%22On%20Failed%20To%20Receive%20Ad%22,%20%22params%22:%20%5B%22error%20Message%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -49,7 +52,8 @@ Called when an ad request failed to load.
 
 Called when an ad request succeeds.
 
-[[Event('StartApp Banner', 'On Receive Ad')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22StartApp%20Banner%22,%20%22name%22:%20%22On%20Receive%20Ad%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Methods
 
@@ -57,7 +61,8 @@ Called when an ad request succeeds.
 
 Load a new StartApp Banner ad.
 
-[[Method('StartApp Banner', 'Load Ad', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22StartApp%20Banner%22,%20%22name%22:%20%22Load%20Ad%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Properties
 
@@ -71,7 +76,9 @@ Load a new StartApp Banner ad.
 
 Specifies whether the component should be visible on the screen. Value is true if the component is showing and false if hidden.
 
-[[PropertyBlockGetterAndSetter('StartApp Banner', 'Visible')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22StartApp%20Banner%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22StartApp%20Banner%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Column
 

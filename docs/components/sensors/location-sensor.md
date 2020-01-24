@@ -27,7 +27,8 @@ Location information might not be immediately available when an app starts. You'
 
 Indicates that a new location has been detected.
 
-[[Event('Location Sensor', 'Location Changed', 'latitude', 'longitude', 'altitude', 'speed')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Location%20Sensor%22,%20%22name%22:%20%22Location%20Changed%22,%20%22params%22:%20%5B%22latitude%22,%20%22longitude%22,%20%22altitude%22,%20%22speed%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -41,7 +42,8 @@ Indicates that a new location has been detected.
 
 Indicates that the status of the location provider service has changed, such as when aprovider is lost or a new provider starts being used.
 
-[[Event('Location Sensor', 'Status Changed', 'provider', 'status')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Location%20Sensor%22,%20%22name%22:%20%22Status%20Changed%22,%20%22params%22:%20%5B%22provider%22,%20%22status%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -57,7 +59,8 @@ Indicates that the status of the location provider service has changed, such as 
 
 Derives latitude of given address
 
-[[Method('Location Sensor', 'Latitude From Address', True, 'locationName')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Location%20Sensor%22,%20%22name%22:%20%22Latitude%20From%20Address%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22location%20Name%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -70,7 +73,8 @@ Derives latitude of given address
 
 Derives longitude of given address
 
-[[Method('Location Sensor', 'Longitude From Address', True, 'locationName')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Location%20Sensor%22,%20%22name%22:%20%22Longitude%20From%20Address%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22location%20Name%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -85,7 +89,9 @@ Derives longitude of given address
 
 Determines the minimum distance interval, in meters, that the sensor will try to use for sending out location updates. For example, if this is set to 5, then the sensor will fire a LocationChanged event only after 5 meters have been traversed. However, the sensor does not guarantee that an update will be received at exactly the distance interval. It may take more than 5 meters to fire an event, for instance.
 
-[[PropertyBlockGetterAndSetter('Location Sensor', 'Distance Interval')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Location%20Sensor%22,%20%22name%22:%20%22Distance%20Interval%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Location%20Sensor%22,%20%22name%22:%20%22Distance%20Interval%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Enabled
 
@@ -93,7 +99,9 @@ Determines the minimum distance interval, in meters, that the sensor will try to
 
 Indicates whether the user has specified that the sensor shouldlisten for location changes and raise the corresponding events.
 
-[[PropertyBlockGetterAndSetter('Location Sensor', 'Enabled')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Location%20Sensor%22,%20%22name%22:%20%22Enabled%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Location%20Sensor%22,%20%22name%22:%20%22Enabled%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Time Interval
 
@@ -101,7 +109,9 @@ Indicates whether the user has specified that the sensor shouldlisten for locati
 
 Determines the minimum time interval, in milliseconds, that the sensor will try to use for sending out location updates. However, location updates will only be received when the location of the phone actually changes, and use of the specified time interval is not guaranteed. For example, if 1000 is used as the time interval, location updates will never be fired sooner than 1000ms, but they may be fired anytime after.
 
-[[PropertyBlockGetterAndSetter('Location Sensor', 'Time Interval')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Location%20Sensor%22,%20%22name%22:%20%22Time%20Interval%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Location%20Sensor%22,%20%22name%22:%20%22Time%20Interval%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Accuracy
 
@@ -109,7 +119,8 @@ Determines the minimum time interval, in milliseconds, that the sensor will try 
 
 The most recent measure of accuracy, in meters. If no value is available,0 will be returned.
 
-[[PropertyBlockGetter('Location Sensor', 'Accuracy')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Location%20Sensor%22,%20%22name%22:%20%22Accuracy%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Altitude
 
@@ -117,13 +128,15 @@ The most recent measure of accuracy, in meters. If no value is available,0 will 
 
 The most recently available altitude value, in meters. If no value isavailable, 0 will be returned.
 
-[[PropertyBlockGetter('Location Sensor', 'Altitude')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Location%20Sensor%22,%20%22name%22:%20%22Altitude%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Available Providers
 
 <span class="chip chip-list">List</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span> 
 
-[[PropertyBlockGetter('Location Sensor', 'Available Providers')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Location%20Sensor%22,%20%22name%22:%20%22Available%20Providers%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Current Address
 
@@ -131,7 +144,8 @@ The most recently available altitude value, in meters. If no value isavailable, 
 
 Provides a textual representation of the current address or"No address available".
 
-[[PropertyBlockGetter('Location Sensor', 'Current Address')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Location%20Sensor%22,%20%22name%22:%20%22Current%20Address%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Has Accuracy
 
@@ -139,7 +153,8 @@ Provides a textual representation of the current address or"No address available
 
 Indicates whether information about location accuracy is available.
 
-[[PropertyBlockGetter('Location Sensor', 'Has Accuracy')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Location%20Sensor%22,%20%22name%22:%20%22Has%20Accuracy%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Has Altitude
 
@@ -147,7 +162,8 @@ Indicates whether information about location accuracy is available.
 
 Indicates whether altitude information is available.
 
-[[PropertyBlockGetter('Location Sensor', 'Has Altitude')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Location%20Sensor%22,%20%22name%22:%20%22Has%20Altitude%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Has Longitude Latitude
 
@@ -155,7 +171,8 @@ Indicates whether altitude information is available.
 
 Indicates whether longitude and latitude information is available. (It isalways the case that either both or neither are.)
 
-[[PropertyBlockGetter('Location Sensor', 'Has Longitude Latitude')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Location%20Sensor%22,%20%22name%22:%20%22Has%20Longitude%20Latitude%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Latitude
 
@@ -163,7 +180,8 @@ Indicates whether longitude and latitude information is available. (It isalways 
 
 The most recently available latitude value. If no value is available,0 will be returned.
 
-[[PropertyBlockGetter('Location Sensor', 'Latitude')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Location%20Sensor%22,%20%22name%22:%20%22Latitude%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Longitude
 
@@ -171,7 +189,8 @@ The most recently available latitude value. If no value is available,0 will be r
 
 The most recent available longitude value. If no value is available,0 will be returned.
 
-[[PropertyBlockGetter('Location Sensor', 'Longitude')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Location%20Sensor%22,%20%22name%22:%20%22Longitude%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Provider Locked
 
@@ -179,7 +198,9 @@ The most recent available longitude value. If no value is available,0 will be re
 
 Indicates whether the sensor should allow the developer tomanually change the provider (GPS, GSM, Wifi, etc.)from which location updates are received.
 
-[[PropertyBlockGetterAndSetter('Location Sensor', 'Provider Locked')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Location%20Sensor%22,%20%22name%22:%20%22Provider%20Locked%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Location%20Sensor%22,%20%22name%22:%20%22Provider%20Locked%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Provider Name
 
@@ -187,4 +208,5 @@ Indicates whether the sensor should allow the developer tomanually change the pr
 
 Indicates the source of the location information. If there is no provider, thestring "NO PROVIDER" is returned. This is useful primarily for debugging.
 
-[[PropertyBlockGetterAndSetter('Location Sensor', 'Provider Name')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Location%20Sensor%22,%20%22name%22:%20%22Provider%20Name%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Location%20Sensor%22,%20%22name%22:%20%22Provider%20Name%22,%20%22getter%22:%20false%7D"></div>

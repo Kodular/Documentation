@@ -20,7 +20,8 @@ A non-visible component that manages the device''s audio settings.
 
 Event triggered when a error occurred.
 
-[[Event('Audio', 'Error Occurred', 'errorMessage')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Audio%22,%20%22name%22:%20%22Error%20Occurred%22,%20%22params%22:%20%5B%22error%20Message%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -35,7 +36,8 @@ Event triggered when a error occurred.
 
 Returns true whether a component should have sound effects enabled for events such as clicking and touching.
 
-[[Method('Audio', 'Is Sound Effects Enabled', True, 'component')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Audio%22,%20%22name%22:%20%22Is%20Sound%20Effects%20Enabled%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22component%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -46,25 +48,29 @@ Returns true whether a component should have sound effects enabled for events su
 
 Sets the ringer mode to "normal".
 
-[[Method('Audio', 'Ringer Mode Normal', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Audio%22,%20%22name%22:%20%22Ringer%20Mode%20Normal%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Ringer Mode Silent
 
 Sets the ringer mode to "silent".
 
-[[Method('Audio', 'Ringer Mode Silent', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Audio%22,%20%22name%22:%20%22Ringer%20Mode%20Silent%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Ringer Mode Vibrate
 
 Sets the ringer mode to "vibrate".
 
-[[Method('Audio', 'Ringer Mode Vibrate', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Audio%22,%20%22name%22:%20%22Ringer%20Mode%20Vibrate%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Sound Effects Enabled
 
 Set whether a component should have sound effects enabled for events such as clicking and touching.
 
-[[Method('Audio', 'Sound Effects Enabled', False, 'component', 'enabled')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Audio%22,%20%22name%22:%20%22Sound%20Effects%20Enabled%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22component%22,%20%22enabled%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -80,7 +86,9 @@ Set whether a component should have sound effects enabled for events such as cli
 
 If set to true you will see system ui.
 
-[[PropertyBlockGetterAndSetter('Audio', 'Show UI')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Audio%22,%20%22name%22:%20%22Show%20UI%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Audio%22,%20%22name%22:%20%22Show%20UI%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Get Audio Mode
 
@@ -88,7 +96,8 @@ If set to true you will see system ui.
 
 Returns the current audio mode as string. Possible returns are "NORMAL", "RINGTONE", "CALL" or "COMMUNICATION".
 
-[[PropertyBlockGetter('Audio', 'Get Audio Mode')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Audio%22,%20%22name%22:%20%22Get%20Audio%20Mode%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Volume Alarm
 
@@ -96,7 +105,9 @@ Returns the current audio mode as string. Possible returns are "NORMAL", "RINGTO
 
 Returns the current volume index in percent.
 
-[[PropertyBlockGetterAndSetter('Audio', 'Volume Alarm')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Audio%22,%20%22name%22:%20%22Volume%20Alarm%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Audio%22,%20%22name%22:%20%22Volume%20Alarm%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Volume Music
 
@@ -104,7 +115,9 @@ Returns the current volume index in percent.
 
 Returns the current volume index in percent.
 
-[[PropertyBlockGetterAndSetter('Audio', 'Volume Music')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Audio%22,%20%22name%22:%20%22Volume%20Music%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Audio%22,%20%22name%22:%20%22Volume%20Music%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Volume Ring
 
@@ -112,4 +125,5 @@ Returns the current volume index in percent.
 
 Returns the current volume index in percent.
 
-[[PropertyBlockGetterAndSetter('Audio', 'Volume Ring')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Audio%22,%20%22name%22:%20%22Volume%20Ring%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Audio%22,%20%22name%22:%20%22Volume%20Ring%22,%20%22getter%22:%20false%7D"></div>

@@ -14,7 +14,8 @@ A visible component that lets the user toggle between two states — checked and
 
 Event invoked when the radio button state has been changed.
 
-[[Event('Radio Button', 'Changed', 'checked')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Radio%20Button%22,%20%22name%22:%20%22Changed%22,%20%22params%22:%20%5B%22checked%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -27,7 +28,8 @@ Event invoked when the radio button state has been changed.
 
 Change the checked state of the view to the inverse of its current state
 
-[[Method('Radio Button', 'Toggle', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Radio%20Button%22,%20%22name%22:%20%22Toggle%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Properties
 
@@ -37,7 +39,8 @@ Change the checked state of the view to the inverse of its current state
 
 Set the radio button to checked or unchecked
 
-[[PropertyBlockGetterAndSetter('Radio Button', 'Checked')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Radio%20Button%22,%20%22name%22:%20%22Checked%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Enabled
 
@@ -45,7 +48,8 @@ Set the radio button to checked or unchecked
 
 If set, user can touch the radio button.
 
-[[PropertyBlockGetterAndSetter('Radio Button', 'Enabled')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Radio%20Button%22,%20%22name%22:%20%22Enabled%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Font Bold
 
@@ -67,7 +71,8 @@ If set, user can touch the radio button.
 
 Set a custom font.
 
-[[PropertyBlockGetterAndSetter('Radio Button', 'Font Typeface Import')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Radio%20Button%22,%20%22name%22:%20%22Font%20Typeface%20Import%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Radio Button Color
 
@@ -75,7 +80,9 @@ Set a custom font.
 
 Change the radio button component color.
 
-[[PropertyBlockGetterAndSetter('Radio Button', 'Radio Button Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Radio%20Button%22,%20%22name%22:%20%22Radio%20Button%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Radio%20Button%22,%20%22name%22:%20%22Radio%20Button%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Text
 
@@ -83,7 +90,9 @@ Change the radio button component color.
 
 Set here the radio button text.
 
-[[PropertyBlockGetterAndSetter('Radio Button', 'Text')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Radio%20Button%22,%20%22name%22:%20%22Text%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Radio%20Button%22,%20%22name%22:%20%22Text%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Text Color
 
@@ -91,7 +100,9 @@ Set here the radio button text.
 
 Set the text color for the radio button.
 
-[[PropertyBlockGetterAndSetter('Radio Button', 'Text Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Radio%20Button%22,%20%22name%22:%20%22Text%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Radio%20Button%22,%20%22name%22:%20%22Text%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Font Size
 
@@ -99,7 +110,9 @@ Set the text color for the radio button.
 
 The text size of the radio button.
 
-[[PropertyBlockGetterAndSetter('Radio Button', 'Font Size')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Radio%20Button%22,%20%22name%22:%20%22Font%20Size%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Radio%20Button%22,%20%22name%22:%20%22Font%20Size%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Visible
 
@@ -107,7 +120,9 @@ The text size of the radio button.
 
 Returns true iff the component is visible.
 
-[[PropertyBlockGetterAndSetter('Radio Button', 'Visible')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Radio%20Button%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Radio%20Button%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Column
 
@@ -121,7 +136,9 @@ Column property getter method.
 
 Specifies the component's vertical height, measured in pixels.
 
-[[PropertyBlockGetterAndSetter('Radio Button', 'Height')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Radio%20Button%22,%20%22name%22:%20%22Height%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Radio%20Button%22,%20%22name%22:%20%22Height%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Height Percent
 
@@ -129,7 +146,8 @@ Specifies the component's vertical height, measured in pixels.
 
 Specifies the component's vertical height as a percentageof the height of its parent Component.
 
-[[PropertyBlockGetterAndSetter('Radio Button', 'Height Percent')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Radio%20Button%22,%20%22name%22:%20%22Height%20Percent%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Row
 
@@ -143,7 +161,9 @@ Row property getter method.
 
 Specifies the component's horizontal width, measured in pixels.
 
-[[PropertyBlockGetterAndSetter('Radio Button', 'Width')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Radio%20Button%22,%20%22name%22:%20%22Width%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Radio%20Button%22,%20%22name%22:%20%22Width%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Width Percent
 
@@ -151,7 +171,8 @@ Specifies the component's horizontal width, measured in pixels.
 
 Specifies the component's horizontal width as a percentageof the Width of its parent Component.
 
-[[PropertyBlockGetterAndSetter('Radio Button', 'Width Percent')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Radio%20Button%22,%20%22name%22:%20%22Width%20Percent%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### is Checked
 
@@ -159,4 +180,4 @@ Specifies the component's horizontal width as a percentageof the Width of its pa
 
 Returns true if the radio button is checked, else false.
 
-[[PropertyBlockGetter('Radio Button', 'is Checked')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Radio%20Button%22,%20%22name%22:%20%22is%20Checked%22,%20%22getter%22:%20true%7D"></div>

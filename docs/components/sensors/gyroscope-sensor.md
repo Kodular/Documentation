@@ -18,7 +18,8 @@ In order to function, the component must have its `` Enabled `` property set to 
 
 Indicates that the gyroscope sensor data has changed. The timestamp parameter is the time in nanoseconds at which the event occurred.
 
-[[Event('Gyroscope Sensor', 'Gyroscope Changed', 'xAngularVelocity', 'yAngularVelocity', 'zAngularVelocity', 'timestamp')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Gyroscope%20Sensor%22,%20%22name%22:%20%22Gyroscope%20Changed%22,%20%22params%22:%20%5B%22x%20Angular%20Velocity%22,%20%22y%20Angular%20Velocity%22,%20%22z%20Angular%20Velocity%22,%20%22timestamp%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -36,7 +37,9 @@ Indicates that the gyroscope sensor data has changed. The timestamp parameter is
 
 Enabled property getter method.
 
-[[PropertyBlockGetterAndSetter('Gyroscope Sensor', 'Enabled')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Gyroscope%20Sensor%22,%20%22name%22:%20%22Enabled%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Gyroscope%20Sensor%22,%20%22name%22:%20%22Enabled%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Available
 
@@ -44,7 +47,8 @@ Enabled property getter method.
 
 Indicates whether a gyroscope sensor is available.
 
-[[PropertyBlockGetter('Gyroscope Sensor', 'Available')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Gyroscope%20Sensor%22,%20%22name%22:%20%22Available%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### X Angular Velocity
 
@@ -52,7 +56,8 @@ Indicates whether a gyroscope sensor is available.
 
 The angular velocity around the X axis, in degrees per second.
 
-[[PropertyBlockGetter('Gyroscope Sensor', 'X Angular Velocity')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Gyroscope%20Sensor%22,%20%22name%22:%20%22X%20Angular%20Velocity%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Y Angular Velocity
 
@@ -60,7 +65,8 @@ The angular velocity around the X axis, in degrees per second.
 
 The angular velocity around the Y axis, in degrees per second.
 
-[[PropertyBlockGetter('Gyroscope Sensor', 'Y Angular Velocity')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Gyroscope%20Sensor%22,%20%22name%22:%20%22Y%20Angular%20Velocity%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Z Angular Velocity
 
@@ -68,4 +74,4 @@ The angular velocity around the Y axis, in degrees per second.
 
 The angular velocity around the Z axis, in degrees per second.
 
-[[PropertyBlockGetter('Gyroscope Sensor', 'Z Angular Velocity')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Gyroscope%20Sensor%22,%20%22name%22:%20%22Z%20Angular%20Velocity%22,%20%22getter%22:%20true%7D"></div>

@@ -22,7 +22,8 @@ A component that provides a high-level interface to sound functionalities on LEG
 
 Make the robot play a tone.
 
-[[Method('EV3 Sound', 'Play Tone', False, 'volume', 'frequency', 'milliseconds')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Sound%22,%20%22name%22:%20%22Play%20Tone%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22volume%22,%20%22frequency%22,%20%22milliseconds%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -35,7 +36,8 @@ Make the robot play a tone.
 
 Stop any sound on the robot.
 
-[[Method('EV3 Sound', 'Stop Sound', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Sound%22,%20%22name%22:%20%22Stop%20Sound%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Properties
 
@@ -45,4 +47,5 @@ Stop any sound on the robot.
 
 The BluetoothClient component that should be used for communication.
 
-[[PropertyBlockGetterAndSetter('EV3 Sound', 'Bluetooth Client')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Sound%22,%20%22name%22:%20%22Bluetooth%20Client%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Sound%22,%20%22name%22:%20%22Bluetooth%20Client%22,%20%22getter%22:%20false%7D"></div>

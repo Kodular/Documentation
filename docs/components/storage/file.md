@@ -21,7 +21,8 @@ Non-visible component for storing and retrieving files. Use this component to wr
 
 Event indicating that the contents of the file have been written.
 
-[[Event('File', 'After File Saved', 'fileName')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22File%22,%20%22name%22:%20%22After%20File%20Saved%22,%20%22params%22:%20%5B%22file%20Name%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -32,19 +33,22 @@ Event indicating that the contents of the file have been written.
 
 Event indicating that the zip file have been created.
 
-[[Event('File', 'After Unzip')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22File%22,%20%22name%22:%20%22After%20Unzip%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### After Zip
 
 Event indicating that the zip file have been created.
 
-[[Event('File', 'After Zip')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22File%22,%20%22name%22:%20%22After%20Zip%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Directory Created
 
 Event indicating that there was a directory created. The return value is 'true' or 'false'.
 
-[[Event('File', 'Directory Created', 'isDirectoryCreated')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22File%22,%20%22name%22:%20%22Directory%20Created%22,%20%22params%22:%20%5B%22is%20Directory%20Created%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -55,7 +59,8 @@ Event indicating that there was a directory created. The return value is 'true' 
 
 Event indicating that the contents from the file have been read.
 
-[[Event('File', 'Got Text', 'text')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22File%22,%20%22name%22:%20%22Got%20Text%22,%20%22params%22:%20%5B%22text%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -66,7 +71,8 @@ Event indicating that the contents from the file have been read.
 
 Event indicating that there was any failure on zip or unzip a file.
 
-[[Event('File', 'On Zip Failure', 'errorMessage')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22File%22,%20%22name%22:%20%22On%20Zip%20Failure%22,%20%22params%22:%20%5B%22error%20Message%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -79,7 +85,8 @@ Event indicating that there was any failure on zip or unzip a file.
 
 Appends text to the end of a file storage, creating the file if it does not exist. See the help text under SaveFile for information about where files are written.
 
-[[Method('File', 'Append To File', False, 'text', 'fileName')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22File%22,%20%22name%22:%20%22Append%20To%20File%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22text%22,%20%22file%20Name%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -91,7 +98,8 @@ Appends text to the end of a file storage, creating the file if it does not exis
 
 Copy file
 
-[[Method('File', 'Copy', False, 'input', 'output')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22File%22,%20%22name%22:%20%22Copy%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22input%22,%20%22output%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -103,7 +111,8 @@ Copy file
 
 Create a new directory.
 
-[[Method('File', 'Create Directory', False, 'directory')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22File%22,%20%22name%22:%20%22Create%20Directory%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22directory%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -114,7 +123,8 @@ Create a new directory.
 
 Deletes a file from storage. Prefix the filename with / to delete a specific file in the SD card, for instance /myFile.txt. will delete the file /sdcard/myFile.txt. If the file does not begin with a /, then the file located in the programs private storage will be deleted. Starting the file with // is an error because assets files cannot be deleted.
 
-[[Method('File', 'Delete', False, 'fileName')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22File%22,%20%22name%22:%20%22Delete%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22file%20Name%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -127,7 +137,8 @@ Deletes a file from storage. Prefix the filename with / to delete a specific fil
 
 Check whether a file exists
 
-[[Method('File', 'Exists', True, 'file')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22File%22,%20%22name%22:%20%22Exists%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22file%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -140,7 +151,8 @@ Check whether a file exists
 
 Get file size
 
-[[Method('File', 'File Size', True, 'file')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22File%22,%20%22name%22:%20%22File%20Size%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22file%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -153,7 +165,8 @@ Get file size
 
 Get file name
 
-[[Method('File', 'Get File Name', True, 'file')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22File%22,%20%22name%22:%20%22Get%20File%20Name%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22file%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -166,7 +179,8 @@ Get file name
 
 Get Free Space
 
-[[Method('File', 'Get Free Space', True, 'path')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22File%22,%20%22name%22:%20%22Get%20Free%20Space%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22path%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -179,7 +193,8 @@ Get Free Space
 
 Get total space
 
-[[Method('File', 'Get Total Space', True, 'path')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22File%22,%20%22name%22:%20%22Get%20Total%20Space%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22path%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -192,7 +207,8 @@ Get total space
 
 Check whether the path is a directory
 
-[[Method('File', 'Is Directory', True, 'path')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22File%22,%20%22name%22:%20%22Is%20Directory%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22path%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -205,7 +221,8 @@ Check whether the path is a directory
 
 Check whether the path is a file
 
-[[Method('File', 'Is File', True, 'path')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22File%22,%20%22name%22:%20%22Is%20File%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22path%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -218,7 +235,8 @@ Check whether the path is a file
 
 Move file
 
-[[Method('File', 'Move', True, 'input', 'output')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22File%22,%20%22name%22:%20%22Move%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22input%22,%20%22output%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -230,7 +248,8 @@ Move file
 
 Reads text from a file in storage. Prefix the filename with / to read from a specific file on the SD card. for instance /myFile.txt will read the file /sdcard/myFile.txt. To read assets packaged with an application (also works for the Companion) start the filename with // (two slashes). If a filename does not start with a slash, it will be read from the applications private storage (for packaged apps) and from /sdcard/AppInventor/data for the Companion.
 
-[[Method('File', 'Read From', False, 'fileName')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22File%22,%20%22name%22:%20%22Read%20From%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22file%20Name%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -242,7 +261,8 @@ Reads text from a file in storage. Prefix the filename with / to read from a spe
 Saves text to a file. If the filename begins with a slash (/) the file is written to the sdcard. For example writing to /myFile.txt will write the file to /sdcard/myFile.txt. If the filename does not start with a slash, it will be written in the programs private data directory where it will not be accessible to other programs on the phone. There is a special exception for the AI Companion where these files are written to /sdcard/AppInventor/data to facilitate debugging. Note that this block will overwrite a file if it already exists
 If you want to add content to a file use the append block.
 
-[[Method('File', 'Save File', False, 'text', 'fileName')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22File%22,%20%22name%22:%20%22Save%20File%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22text%22,%20%22file%20Name%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -254,7 +274,8 @@ If you want to add content to a file use the append block.
 
 Unzip a file with or without a password. If you dont need a passwort then let it empty.
 
-[[Method('File', 'Unzip', False, 'targetZipFilePath', 'destinationFolderPath', 'password')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22File%22,%20%22name%22:%20%22Unzip%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22target%20Zip%20File%20Path%22,%20%22destination%20Folder%20Path%22,%20%22password%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -267,7 +288,8 @@ Unzip a file with or without a password. If you dont need a passwort then let it
 
 Create a zip file with or without a password.
 
-[[Method('File', 'Zip', False, 'targetPath', 'destinationFilePath', 'password')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22File%22,%20%22name%22:%20%22Zip%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22target%20Path%22,%20%22destination%20File%20Path%22,%20%22password%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|

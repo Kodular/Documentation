@@ -22,7 +22,8 @@ A non-visible component that reads the metadata of audio/video files.
 
 Triggers when there is no metadata found in the file.
 
-[[Event('Metadata', 'No Metadata', 'type')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Metadata%22,%20%22name%22:%20%22No%20Metadata%22,%20%22params%22:%20%5B%22type%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -37,7 +38,8 @@ Triggers when there is no metadata found in the file.
 
 Get the Album from the file.
 
-[[Method('Metadata', 'Album', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Metadata%22,%20%22name%22:%20%22Album%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Artist
 
@@ -45,7 +47,8 @@ Get the Album from the file.
 
 Get the Artist from the file.
 
-[[Method('Metadata', 'Artist', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Metadata%22,%20%22name%22:%20%22Artist%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Author
 
@@ -53,7 +56,8 @@ Get the Artist from the file.
 
 Get the Author from the file.
 
-[[Method('Metadata', 'Author', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Metadata%22,%20%22name%22:%20%22Author%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Bitrate
 
@@ -61,7 +65,8 @@ Get the Author from the file.
 
 Get the Bitrate from the file.
 
-[[Method('Metadata', 'Bitrate', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Metadata%22,%20%22name%22:%20%22Bitrate%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Composer
 
@@ -69,7 +74,8 @@ Get the Bitrate from the file.
 
 Get the Composer from the file.
 
-[[Method('Metadata', 'Composer', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Metadata%22,%20%22name%22:%20%22Composer%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Custom Item
 
@@ -77,7 +83,8 @@ Get the Composer from the file.
 
 Get a custom metadata item from the fileyou can find a list of ids on https://developer.android.com/reference/android/media/MediaMetadataRetriever.html
 
-[[Method('Metadata', 'Custom Item', True, 'id')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Metadata%22,%20%22name%22:%20%22Custom%20Item%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22id%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -90,7 +97,8 @@ Get a custom metadata item from the fileyou can find a list of ids on https://de
 
 Get the Date from the file.
 
-[[Method('Metadata', 'Date', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Metadata%22,%20%22name%22:%20%22Date%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Disc Number
 
@@ -98,7 +106,8 @@ Get the Date from the file.
 
 Get the Disc Number from the file.
 
-[[Method('Metadata', 'Disc Number', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Metadata%22,%20%22name%22:%20%22Disc%20Number%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Duration
 
@@ -106,7 +115,8 @@ Get the Disc Number from the file.
 
 Get the Duration from the file.
 
-[[Method('Metadata', 'Duration', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Metadata%22,%20%22name%22:%20%22Duration%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Embedded Picture
 
@@ -114,7 +124,8 @@ Get the Duration from the file.
 
 This method finds the optional graphic or album/cover art associated associated with the data source. If there are more than one pictures, (any) one of them is returned.
 
-[[Method('Metadata', 'Embedded Picture', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Metadata%22,%20%22name%22:%20%22Embedded%20Picture%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Genre
 
@@ -122,7 +133,8 @@ This method finds the optional graphic or album/cover art associated associated 
 
 Get the Genre from the file.
 
-[[Method('Metadata', 'Genre', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Metadata%22,%20%22name%22:%20%22Genre%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Has Audio
 
@@ -130,7 +142,8 @@ Get the Genre from the file.
 
 Get the Has Audio from the file.
 
-[[Method('Metadata', 'Has Audio', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Metadata%22,%20%22name%22:%20%22Has%20Audio%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Has Video
 
@@ -138,7 +151,8 @@ Get the Has Audio from the file.
 
 Get the Has Video from the file.
 
-[[Method('Metadata', 'Has Video', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Metadata%22,%20%22name%22:%20%22Has%20Video%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Location
 
@@ -146,7 +160,8 @@ Get the Has Video from the file.
 
 Get the Location from the file.
 
-[[Method('Metadata', 'Location', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Metadata%22,%20%22name%22:%20%22Location%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Mimetype
 
@@ -154,7 +169,8 @@ Get the Location from the file.
 
 Get the Mimetype from the file.
 
-[[Method('Metadata', 'Mimetype', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Metadata%22,%20%22name%22:%20%22Mimetype%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Title
 
@@ -162,7 +178,8 @@ Get the Mimetype from the file.
 
 Get the Title from the file.
 
-[[Method('Metadata', 'Title', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Metadata%22,%20%22name%22:%20%22Title%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Track Number
 
@@ -170,7 +187,8 @@ Get the Title from the file.
 
 Get the Track Number from the file.
 
-[[Method('Metadata', 'Track Number', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Metadata%22,%20%22name%22:%20%22Track%20Number%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Video Height
 
@@ -178,7 +196,8 @@ Get the Track Number from the file.
 
 Get the Video Height from the file.
 
-[[Method('Metadata', 'Video Height', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Metadata%22,%20%22name%22:%20%22Video%20Height%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Video Rotation
 
@@ -186,7 +205,8 @@ Get the Video Height from the file.
 
 Get the Video Rotation from the file.
 
-[[Method('Metadata', 'Video Rotation', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Metadata%22,%20%22name%22:%20%22Video%20Rotation%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Video Width
 
@@ -194,7 +214,8 @@ Get the Video Rotation from the file.
 
 Get the Video Width from the file.
 
-[[Method('Metadata', 'Video Width', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Metadata%22,%20%22name%22:%20%22Video%20Width%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Writer
 
@@ -202,7 +223,8 @@ Get the Video Width from the file.
 
 Get the Writer from the file.
 
-[[Method('Metadata', 'Writer', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Metadata%22,%20%22name%22:%20%22Writer%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Year
 
@@ -210,7 +232,8 @@ Get the Writer from the file.
 
 Get the Year from the file.
 
-[[Method('Metadata', 'Year', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Metadata%22,%20%22name%22:%20%22Year%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Properties
 
@@ -220,4 +243,5 @@ Get the Year from the file.
 
 The name of the file.
 
-[[PropertyBlockGetterAndSetter('Metadata', 'File')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Metadata%22,%20%22name%22:%20%22File%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Metadata%22,%20%22name%22:%20%22File%22,%20%22getter%22:%20false%7D"></div>

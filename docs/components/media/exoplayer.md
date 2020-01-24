@@ -22,13 +22,15 @@ The ExoPlayer component, powered by Google, has significantly lower audio playba
 
 This event is invoked if the player state is completed.
 
-[[Event('ExoPlayer', 'Completed')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22ExoPlayer%22,%20%22name%22:%20%22Completed%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Got Meta Data
 
 This event returns meta data from the audio stream. Works for files but not for streams as example radio streams.
 
-[[Event('ExoPlayer', 'Got Meta Data', 'artist', 'title', 'album', 'albumArtist', 'track')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22ExoPlayer%22,%20%22name%22:%20%22Got%20Meta%20Data%22,%20%22params%22:%20%5B%22artist%22,%20%22title%22,%20%22album%22,%20%22albumArtist%22,%20%22track%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -43,7 +45,8 @@ This event returns meta data from the audio stream. Works for files but not for 
 
 This event returns the error reason for any problems.
 
-[[Event('ExoPlayer', 'On Player Error', 'errorMessage')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22ExoPlayer%22,%20%22name%22:%20%22On%20Player%20Error%22,%20%22params%22:%20%5B%22error%20Message%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -54,19 +57,22 @@ This event returns the error reason for any problems.
 
 This event is signaled when another player has started (and the current player is playing or paused, but not stopped).
 
-[[Event('ExoPlayer', 'Other Player Started')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22ExoPlayer%22,%20%22name%22:%20%22Other%20Player%20Started%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Other Player Stopped
 
 This event is signaled when another player has stopped (and the current player is playing or paused, but not stopped).
 
-[[Event('ExoPlayer', 'Other Player Stopped')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22ExoPlayer%22,%20%22name%22:%20%22Other%20Player%20Stopped%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Status Changed
 
 This event returns true or false for the respective simpleExoPlayer statuses.
 
-[[Event('ExoPlayer', 'Status Changed', 'isPlaying', 'isPause', 'isStopped', 'isLoading')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22ExoPlayer%22,%20%22name%22:%20%22Status%20Changed%22,%20%22params%22:%20%5B%22is%20Playing%22,%20%22is%20Pause%22,%20%22is%20Stopped%22,%20%22is%20Loading%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -82,19 +88,22 @@ This event returns true or false for the respective simpleExoPlayer statuses.
 
 Pause the player.
 
-[[Method('ExoPlayer', 'Pause', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22ExoPlayer%22,%20%22name%22:%20%22Pause%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Resume
 
 Resume the player.
 
-[[Method('ExoPlayer', 'Resume', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22ExoPlayer%22,%20%22name%22:%20%22Resume%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Seek To
 
 Set a position where the source file should start playing in milliseconds.
 
-[[Method('ExoPlayer', 'Seek To', False, 'position')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22ExoPlayer%22,%20%22name%22:%20%22Seek%20To%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22position%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -105,13 +114,15 @@ Set a position where the source file should start playing in milliseconds.
 
 Start the player.
 
-[[Method('ExoPlayer', 'Start', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22ExoPlayer%22,%20%22name%22:%20%22Start%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Stop
 
 Stop the player.
 
-[[Method('ExoPlayer', 'Stop', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22ExoPlayer%22,%20%22name%22:%20%22Stop%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### is Loading
 
@@ -119,7 +130,8 @@ Stop the player.
 
 Returns true if the player is current loading.
 
-[[Method('ExoPlayer', 'is Loading', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22ExoPlayer%22,%20%22name%22:%20%22is%20Loading%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### is Pause
 
@@ -127,7 +139,8 @@ Returns true if the player is current loading.
 
 Returns true if the player is current in pause mode.
 
-[[Method('ExoPlayer', 'is Pause', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22ExoPlayer%22,%20%22name%22:%20%22is%20Pause%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### is Playing
 
@@ -135,7 +148,8 @@ Returns true if the player is current in pause mode.
 
 Returns true if the player is current playing.
 
-[[Method('ExoPlayer', 'is Playing', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22ExoPlayer%22,%20%22name%22:%20%22is%20Playing%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### is Stopped
 
@@ -143,7 +157,8 @@ Returns true if the player is current playing.
 
 Returns true if the player is current stopped.
 
-[[Method('ExoPlayer', 'is Stopped', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22ExoPlayer%22,%20%22name%22:%20%22is%20Stopped%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Properties
 
@@ -153,7 +168,9 @@ Returns true if the player is current stopped.
 
 If true, the player will loop when it plays.
 
-[[PropertyBlockGetterAndSetter('ExoPlayer', 'Loop')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22ExoPlayer%22,%20%22name%22:%20%22Loop%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22ExoPlayer%22,%20%22name%22:%20%22Loop%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Source
 
@@ -161,7 +178,9 @@ If true, the player will loop when it plays.
 
 Set the path to the audio source. Can be a asset file, from external card, or from a online stream.
 
-[[PropertyBlockGetterAndSetter('ExoPlayer', 'Source')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22ExoPlayer%22,%20%22name%22:%20%22Source%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22ExoPlayer%22,%20%22name%22:%20%22Source%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Volume
 
@@ -169,7 +188,9 @@ Set the path to the audio source. Can be a asset file, from external card, or fr
 
 Sets the volume to a number between 0 and 100
 
-[[PropertyBlockGetterAndSetter('ExoPlayer', 'Volume')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22ExoPlayer%22,%20%22name%22:%20%22Volume%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22ExoPlayer%22,%20%22name%22:%20%22Volume%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Current Position
 
@@ -177,7 +198,8 @@ Sets the volume to a number between 0 and 100
 
 Returns the current position of the source file that is playing in milliseconds.
 
-[[PropertyBlockGetter('ExoPlayer', 'Current Position')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22ExoPlayer%22,%20%22name%22:%20%22Current%20Position%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Duration
 
@@ -185,4 +207,4 @@ Returns the current position of the source file that is playing in milliseconds.
 
 Returns the duration of the source file.
 
-[[PropertyBlockGetter('ExoPlayer', 'Duration')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22ExoPlayer%22,%20%22name%22:%20%22Duration%22,%20%22getter%22:%20true%7D"></div>

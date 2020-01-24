@@ -14,7 +14,8 @@ A visible component that groups other layout components each of which can be acc
 
 Event to detect that a page was selected.
 
-[[Event('View Pager', 'Page Selected', 'position')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22View%20Pager%22,%20%22name%22:%20%22Page%20Selected%22,%20%22params%22:%20%5B%22position%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -27,7 +28,8 @@ Event to detect that a page was selected.
 
 Add a component to the view pager. The first added component will be the first visible component on the screen.
 
-[[Method('View Pager', 'Add Component To View', False, 'component', 'tabName')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22View%20Pager%22,%20%22name%22:%20%22Add%20Component%20To%20View%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22component%22,%20%22tab%20Name%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -39,13 +41,15 @@ Add a component to the view pager. The first added component will be the first v
 
 Remove all tab's from view pager.
 
-[[Method('View Pager', 'Remove All Tabs', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22View%20Pager%22,%20%22name%22:%20%22Remove%20All%20Tabs%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Remove View At
 
 Removes a before added view from the view pager. If you want to delete the first page then use as position '1'.
 
-[[Method('View Pager', 'Remove View At', False, 'position')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22View%20Pager%22,%20%22name%22:%20%22Remove%20View%20At%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22position%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -62,7 +66,9 @@ Removes a before added view from the view pager. If you want to delete the first
 
 If set to true, you will see tabs above the view pager.
 
-[[PropertyBlockGetterAndSetter('View Pager', 'Show Tabs')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22View%20Pager%22,%20%22name%22:%20%22Show%20Tabs%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22View%20Pager%22,%20%22name%22:%20%22Show%20Tabs%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Tabs Active Text Color
 
@@ -70,7 +76,9 @@ If set to true, you will see tabs above the view pager.
 
 Specifies the tab's text color for active tab's.
 
-[[PropertyBlockGetterAndSetter('View Pager', 'Tabs Active Text Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22View%20Pager%22,%20%22name%22:%20%22Tabs%20Active%20Text%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22View%20Pager%22,%20%22name%22:%20%22Tabs%20Active%20Text%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Tabs Background Color
 
@@ -78,7 +86,9 @@ Specifies the tab's text color for active tab's.
 
 Specifies the tab's background color.
 
-[[PropertyBlockGetterAndSetter('View Pager', 'Tabs Background Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22View%20Pager%22,%20%22name%22:%20%22Tabs%20Background%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22View%20Pager%22,%20%22name%22:%20%22Tabs%20Background%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Tabs Indicator Color
 
@@ -86,7 +96,9 @@ Specifies the tab's background color.
 
 Specifies the tab's indicator color.
 
-[[PropertyBlockGetterAndSetter('View Pager', 'Tabs Indicator Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22View%20Pager%22,%20%22name%22:%20%22Tabs%20Indicator%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22View%20Pager%22,%20%22name%22:%20%22Tabs%20Indicator%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Tabs Mode
 
@@ -94,7 +106,9 @@ Specifies the tab's indicator color.
 
 Choose the mode used for the tab's. If no mode is specified, 'Scrollable' is taken as 'Default'. Use '0' for scrollable and '1' for fixed.
 
-[[PropertyBlockGetterAndSetter('View Pager', 'Tabs Mode')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22View%20Pager%22,%20%22name%22:%20%22Tabs%20Mode%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22View%20Pager%22,%20%22name%22:%20%22Tabs%20Mode%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Tabs Text Color
 
@@ -102,7 +116,9 @@ Choose the mode used for the tab's. If no mode is specified, 'Scrollable' is tak
 
 Specifies the tab's text color for not selected tab's.
 
-[[PropertyBlockGetterAndSetter('View Pager', 'Tabs Text Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22View%20Pager%22,%20%22name%22:%20%22Tabs%20Text%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22View%20Pager%22,%20%22name%22:%20%22Tabs%20Text%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Visible
 
@@ -110,7 +126,9 @@ Specifies the tab's text color for not selected tab's.
 
 Specifies whether the component should be visible on the screen. Value is true if the component is showing and false if hidden.
 
-[[PropertyBlockGetterAndSetter('View Pager', 'Visible')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22View%20Pager%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22View%20Pager%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Column
 
@@ -124,7 +142,8 @@ Column property getter method.
 
 Get the current selected visible page.
 
-[[PropertyBlockGetter('View Pager', 'Get Current Page')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22View%20Pager%22,%20%22name%22:%20%22Get%20Current%20Page%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Height
 
@@ -132,7 +151,9 @@ Get the current selected visible page.
 
 Specifies the component's vertical height, measured in pixels.
 
-[[PropertyBlockGetterAndSetter('View Pager', 'Height')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22View%20Pager%22,%20%22name%22:%20%22Height%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22View%20Pager%22,%20%22name%22:%20%22Height%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Height Percent
 
@@ -140,7 +161,8 @@ Specifies the component's vertical height, measured in pixels.
 
 Specifies the component's vertical height as a percentageof the height of its parent Component.
 
-[[PropertyBlockGetterAndSetter('View Pager', 'Height Percent')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22View%20Pager%22,%20%22name%22:%20%22Height%20Percent%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Row
 
@@ -154,7 +176,8 @@ Row property getter method.
 
 Select a page which is then the active page.
 
-[[PropertyBlockGetterAndSetter('View Pager', 'Select Page')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22View%20Pager%22,%20%22name%22:%20%22Select%20Page%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Width
 
@@ -162,7 +185,9 @@ Select a page which is then the active page.
 
 Specifies the component's horizontal width, measured in pixels.
 
-[[PropertyBlockGetterAndSetter('View Pager', 'Width')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22View%20Pager%22,%20%22name%22:%20%22Width%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22View%20Pager%22,%20%22name%22:%20%22Width%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Width Percent
 
@@ -170,4 +195,4 @@ Specifies the component's horizontal width, measured in pixels.
 
 Specifies the component's horizontal width as a percentageof the Width of its parent Component.
 
-[[PropertyBlockGetterAndSetter('View Pager', 'Width Percent')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22View%20Pager%22,%20%22name%22:%20%22Width%20Percent%22,%20%22getter%22:%20false%7D"></div>

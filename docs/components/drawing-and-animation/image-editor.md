@@ -23,7 +23,8 @@ Non-visible component that allows users to edit images.
 
 This methods creates a blur effect.
 
-[[Method('Image Editor', 'Blur Effect', True, 'imageA', 'scale', 'radius')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Editor%22,%20%22name%22:%20%22Blur%20Effect%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22image%20A%22,%20%22scale%22,%20%22radius%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -38,7 +39,8 @@ This methods creates a blur effect.
 
 Color boost technique is basically based on color filtering, which is to increase the intensity of a single color channel. For example: type = green/ blue or red; percent = 40%.
 
-[[Method('Image Editor', 'Color Boost Effect', True, 'imageA', 'type', 'percent')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Editor%22,%20%22name%22:%20%22Color%20Boost%20Effect%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22image%20A%22,%20%22type%22,%20%22percent%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -53,7 +55,8 @@ Color boost technique is basically based on color filtering, which is to increas
 
 Set a color filter to your image. For example: red = 30; green = 40; blue = 20.
 
-[[Method('Image Editor', 'Color Filter', True, 'imageA', 'red', 'green', 'blue')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Editor%22,%20%22name%22:%20%22Color%20Filter%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22image%20A%22,%20%22red%22,%20%22green%22,%20%22blue%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -69,7 +72,8 @@ Set a color filter to your image. For example: red = 30; green = 40; blue = 20.
 
 Flip your image vertical or horizontal. For example: type = 1 (vertical); type = 2 (horizontal).
 
-[[Method('Image Editor', 'Flip Picture', True, 'imageA', 'type')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Editor%22,%20%22name%22:%20%22Flip%20Picture%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22image%20A%22,%20%22type%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -83,7 +87,8 @@ Flip your image vertical or horizontal. For example: type = 1 (vertical); type =
 
 Set a gamma effect to your image. For example: red = 5; green = 10; blue = 20.
 
-[[Method('Image Editor', 'Gamma Effect', True, 'imageA', 'red', 'green', 'blue')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Editor%22,%20%22name%22:%20%22Gamma%20Effect%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22image%20A%22,%20%22red%22,%20%22green%22,%20%22blue%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -99,7 +104,8 @@ Set a gamma effect to your image. For example: red = 5; green = 10; blue = 20.
 
 Grayscale is a simple image effect that changes colors to grayscale by default.
 
-[[Method('Image Editor', 'Greyscale Effect', True, 'imageA')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Editor%22,%20%22name%22:%20%22Greyscale%20Effect%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22image%20A%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -112,7 +118,8 @@ Grayscale is a simple image effect that changes colors to grayscale by default.
 
 Set a highlight effect to your image.
 
-[[Method('Image Editor', 'Highlight Effect', True, 'imageA')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Editor%22,%20%22name%22:%20%22Highlight%20Effect%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22image%20A%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -125,7 +132,8 @@ Set a highlight effect to your image.
 
 Change the hue of an image. For example: level = 1 or 2 or 3 or 4 etc.
 
-[[Method('Image Editor', 'Hue Filter', True, 'imageA', 'level')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Editor%22,%20%22name%22:%20%22Hue%20Filter%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22image%20A%22,%20%22level%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -139,7 +147,8 @@ Change the hue of an image. For example: level = 1 or 2 or 3 or 4 etc.
 
 Rotate the image to the degree you need it. For example: degree = 100.
 
-[[Method('Image Editor', 'Image Rotation', True, 'imageA', 'degree')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Editor%22,%20%22name%22:%20%22Image%20Rotation%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22image%20A%22,%20%22degree%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -153,7 +162,8 @@ Rotate the image to the degree you need it. For example: degree = 100.
 
 This effect inverts your image.
 
-[[Method('Image Editor', 'Invert Effect', True, 'imageA')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Editor%22,%20%22name%22:%20%22Invert%20Effect%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22image%20A%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -166,7 +176,8 @@ This effect inverts your image.
 
 This methods creates a new side by side horizontal image.
 
-[[Method('Image Editor', 'Merge Two Images', True, 'leftImage', 'rightImage')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Editor%22,%20%22name%22:%20%22Merge%20Two%20Images%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22left%20Image%22,%20%22right%20Image%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -180,7 +191,8 @@ This methods creates a new side by side horizontal image.
 
 This methods creates a pixelate image effect. Use as example as pixelation Amount '1' for a hugh pixel effect and '99' for a almost not visible pixel effect.
 
-[[Method('Image Editor', 'Pixelate', True, 'imageA', 'pixelationAmount')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Editor%22,%20%22name%22:%20%22Pixelate%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22image%20A%22,%20%22pixelation%20Amount%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -194,7 +206,8 @@ This methods creates a pixelate image effect. Use as example as pixelation Amoun
 
 Set a round corner to your image. For example: round = 45.
 
-[[Method('Image Editor', 'Round Corner', True, 'imageA', 'round')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Editor%22,%20%22name%22:%20%22Round%20Corner%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22image%20A%22,%20%22round%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -208,7 +221,8 @@ Set a round corner to your image. For example: round = 45.
 
 This methods creates a new scale center crop image.
 
-[[Method('Image Editor', 'Scale Center Crop', True, 'imageA', 'height', 'width')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Editor%22,%20%22name%22:%20%22Scale%20Center%20Crop%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22image%20A%22,%20%22height%22,%20%22width%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -223,7 +237,8 @@ This methods creates a new scale center crop image.
 
 Set a sepia toning effect to your image. For example: depth = 20; red = 10; green = 20; blue = 25.
 
-[[Method('Image Editor', 'Sepia Toning Effect', True, 'imageA', 'depth', 'red', 'green', 'blue')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Editor%22,%20%22name%22:%20%22Sepia%20Toning%20Effect%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22image%20A%22,%20%22depth%22,%20%22red%22,%20%22green%22,%20%22blue%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -240,7 +255,8 @@ Set a sepia toning effect to your image. For example: depth = 20; red = 10; gree
 
 Change the brightness of your image. For example: value = 50 (maximum = 255=100% brightness).
 
-[[Method('Image Editor', 'Set Brightness', True, 'imageA', 'value')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Editor%22,%20%22name%22:%20%22Set%20Brightness%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22image%20A%22,%20%22value%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -254,7 +270,8 @@ Change the brightness of your image. For example: value = 50 (maximum = 255=100%
 
 Change the color depth of an image as you wish. For example: bitOffset = 32 (bit) or bitOffset = 16 (bit).
 
-[[Method('Image Editor', 'Set Color Depth', True, 'imageA', 'bitOffset')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Editor%22,%20%22name%22:%20%22Set%20Color%20Depth%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22image%20A%22,%20%22bit%20Offset%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -268,7 +285,8 @@ Change the color depth of an image as you wish. For example: bitOffset = 32 (bit
 
 This changes the contrast of your image. For example: value = 1.0 means normal picture contrast. Below 1.0 like as example 0.7 means dark contrast, above 1.0 as example 1.5 means light contrast.
 
-[[Method('Image Editor', 'Set Contrast', True, 'imageA', 'value')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Editor%22,%20%22name%22:%20%22Set%20Contrast%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22image%20A%22,%20%22value%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -282,7 +300,8 @@ This changes the contrast of your image. For example: value = 1.0 means normal p
 
 Make a new image with a shading filter. For example: shadingColor = green(rgb value).
 
-[[Method('Image Editor', 'Shading Filter', True, 'imageA', 'shadingColor')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Editor%22,%20%22name%22:%20%22Shading%20Filter%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22image%20A%22,%20%22shading%20Color%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -296,7 +315,8 @@ Make a new image with a shading filter. For example: shadingColor = green(rgb va
 
 That's a pretty new other cool effect. It changes the tint color of your image. For example: degree = 100.
 
-[[Method('Image Editor', 'Tint Color Effect', True, 'imageA', 'degree')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Editor%22,%20%22name%22:%20%22Tint%20Color%20Effect%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22image%20A%22,%20%22degree%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -310,7 +330,8 @@ That's a pretty new other cool effect. It changes the tint color of your image. 
 
 Set a watermark effect to an image and change the positon/size or color of the text. For example: text = hello; textSize = 25; textColor = red(rgb value); textAlphaValue = 255 (255= 100% visible,127.5= 50% visible, 0= 0% visible); pointX = 50; pointY = 100; text underline(boolean) = true or false.
 
-[[Method('Image Editor', 'Watermark Effect', True, 'imageA', 'text', 'textSize', 'textColor', 'textUnderline', 'textAlphaValue', 'pointX', 'pointY')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Editor%22,%20%22name%22:%20%22Watermark%20Effect%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22image%20A%22,%20%22text%22,%20%22text%20Size%22,%20%22text%20Color%22,%20%22text%20Underline%22,%20%22text%20Alpha%20Value%22,%20%22point%20X%22,%20%22point%20Y%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -330,7 +351,8 @@ Set a watermark effect to an image and change the positon/size or color of the t
 
 Return true if image is in landscape format, else return false.
 
-[[Method('Image Editor', 'is Landscape', True, 'image')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Editor%22,%20%22name%22:%20%22is%20Landscape%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22image%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -343,7 +365,8 @@ Return true if image is in landscape format, else return false.
 
 Return true if image is in portrait format, else return false.
 
-[[Method('Image Editor', 'is Portrait', True, 'image')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Editor%22,%20%22name%22:%20%22is%20Portrait%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22image%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -356,7 +379,8 @@ Return true if image is in portrait format, else return false.
 
 Return true if image is in square format (means as high as wide or as wide as high), else return false.
 
-[[Method('Image Editor', 'is Square', True, 'image')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Editor%22,%20%22name%22:%20%22is%20Square%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22image%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -371,4 +395,5 @@ Return true if image is in square format (means as high as wide or as wide as hi
 
 Save the new created image to a folder/ name of your choice.
 
-[[PropertyBlockGetterAndSetter('Image Editor', 'Save New Image As')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Editor%22,%20%22name%22:%20%22Save%20New%20Image%20As%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Editor%22,%20%22name%22:%20%22Save%20New%20Image%20As%22,%20%22getter%22:%20false%7D"></div>

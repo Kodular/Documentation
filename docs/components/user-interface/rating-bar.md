@@ -14,7 +14,8 @@ A visible component that lets the user submit a star rating.
 
 Event invoked when the rating has been changed.
 
-[[Event('Rating Bar', 'Changed', 'rating')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Rating%20Bar%22,%20%22name%22:%20%22Changed%22,%20%22params%22:%20%5B%22rating%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -29,7 +30,9 @@ Event invoked when the rating has been changed.
 
 Change the background color of the star.
 
-[[PropertyBlockGetterAndSetter('Rating Bar', 'Background Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Rating%20Bar%22,%20%22name%22:%20%22Background%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Rating%20Bar%22,%20%22name%22:%20%22Background%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Is Indicator
 
@@ -37,7 +40,8 @@ Change the background color of the star.
 
 Whether this rating bar should only be an indicator (thus non-changeable by the user).
 
-[[PropertyBlockGetterAndSetter('Rating Bar', 'Is Indicator')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Rating%20Bar%22,%20%22name%22:%20%22Is%20Indicator%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Set Number Of Stars
 
@@ -45,7 +49,8 @@ Whether this rating bar should only be an indicator (thus non-changeable by the 
 
 Sets the number of stars to show.
 
-[[PropertyBlockGetterAndSetter('Rating Bar', 'Set Number Of Stars')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Rating%20Bar%22,%20%22name%22:%20%22Set%20Number%20Of%20Stars%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Set Step Size
 
@@ -53,7 +58,8 @@ Sets the number of stars to show.
 
 Sets the step size (granularity) of this rating bar.
 
-[[PropertyBlockGetterAndSetter('Rating Bar', 'Set Step Size')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Rating%20Bar%22,%20%22name%22:%20%22Set%20Step%20Size%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Star Color
 
@@ -61,7 +67,9 @@ Sets the step size (granularity) of this rating bar.
 
 Change the color of the star.
 
-[[PropertyBlockGetterAndSetter('Rating Bar', 'Star Color')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Rating%20Bar%22,%20%22name%22:%20%22Star%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Rating%20Bar%22,%20%22name%22:%20%22Star%20Color%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Visible
 
@@ -69,7 +77,9 @@ Change the color of the star.
 
 Returns true iff the component is visible.
 
-[[PropertyBlockGetterAndSetter('Rating Bar', 'Visible')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Rating%20Bar%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Rating%20Bar%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Column
 
@@ -83,7 +93,8 @@ Column property getter method.
 
 Returns the number of stars shown.
 
-[[PropertyBlockGetter('Rating Bar', 'Get Number Of Stars')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Rating%20Bar%22,%20%22name%22:%20%22Get%20Number%20Of%20Stars%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Get Rating
 
@@ -91,7 +102,8 @@ Returns the number of stars shown.
 
 Gets the current rating (number of stars filled).
 
-[[PropertyBlockGetter('Rating Bar', 'Get Rating')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Rating%20Bar%22,%20%22name%22:%20%22Get%20Rating%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Get Step Size
 
@@ -99,7 +111,8 @@ Gets the current rating (number of stars filled).
 
 Gets the step size (granularity) of this rating bar.
 
-[[PropertyBlockGetter('Rating Bar', 'Get Step Size')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Rating%20Bar%22,%20%22name%22:%20%22Get%20Step%20Size%22,%20%22getter%22:%20true%7D"></div>
+
 
 ### Row
 
@@ -113,4 +126,4 @@ Row property getter method.
 
 Sets the rating (the number of stars filled).
 
-[[PropertyBlockGetterAndSetter('Rating Bar', 'Set Rating')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Rating%20Bar%22,%20%22name%22:%20%22Set%20Rating%22,%20%22getter%22:%20false%7D"></div>

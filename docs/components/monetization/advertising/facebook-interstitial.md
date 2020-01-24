@@ -21,19 +21,22 @@ A non-visible component that shows Facebook ads as full-screen advertisements.
 
 Called when the user is about to return to the application after clicking on an ad
 
-[[Event('Facebook Interstitial', 'Ad Closed')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Facebook%20Interstitial%22,%20%22name%22:%20%22Ad%20Closed%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Ad Loaded
 
 Called when an ad is received
 
-[[Event('Facebook Interstitial', 'Ad Loaded')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Facebook%20Interstitial%22,%20%22name%22:%20%22Ad%20Loaded%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Error
 
 Called when an ad request failed. message will display the reason for why the ad failed
 
-[[Event('Facebook Interstitial', 'Error', 'error')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Facebook%20Interstitial%22,%20%22name%22:%20%22Error%22,%20%22params%22:%20%5B%22error%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -46,13 +49,15 @@ Called when an ad request failed. message will display the reason for why the ad
 
 Loads a new ad.
 
-[[Method('Facebook Interstitial', 'Load Ad', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Facebook%20Interstitial%22,%20%22name%22:%20%22Load%20Ad%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Show Ad
 
 Shows an ad to the user.
 
-[[Method('Facebook Interstitial', 'Show Ad', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Facebook%20Interstitial%22,%20%22name%22:%20%22Show%20Ad%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Properties
 
@@ -62,7 +67,8 @@ Shows an ad to the user.
 
 Sets the ad network used to take the commission.
 
-[[PropertyBlockGetterAndSetter('Facebook Interstitial', 'Interstitial Commission')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Facebook%20Interstitial%22,%20%22name%22:%20%22Interstitial%20Commission%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Placement ID
 

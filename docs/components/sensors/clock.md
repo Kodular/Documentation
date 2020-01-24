@@ -22,7 +22,8 @@ Methods to convert an instant to text are also available. Acceptable patterns ar
 
 Timer has gone off.
 
-[[Event('Clock', 'Timer')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Clock%22,%20%22name%22:%20%22Timer%22,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Methods
 
@@ -32,7 +33,8 @@ Timer has gone off.
 
 An instant in time some days after the argument
 
-[[Method('Clock', 'Add Days', True, 'instant', 'quantity')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Clock%22,%20%22name%22:%20%22Add%20Days%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22instant%22,%20%22quantity%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -46,7 +48,8 @@ An instant in time some days after the argument
 
 An instant in time some duration after the argument
 
-[[Method('Clock', 'Add Duration', True, 'instant', 'quantity')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Clock%22,%20%22name%22:%20%22Add%20Duration%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22instant%22,%20%22quantity%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -60,7 +63,8 @@ An instant in time some duration after the argument
 
 An instant in time some hours after the argument
 
-[[Method('Clock', 'Add Hours', True, 'instant', 'quantity')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Clock%22,%20%22name%22:%20%22Add%20Hours%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22instant%22,%20%22quantity%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -74,7 +78,8 @@ An instant in time some hours after the argument
 
 An instant in time some minutes after the argument
 
-[[Method('Clock', 'Add Minutes', True, 'instant', 'quantity')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Clock%22,%20%22name%22:%20%22Add%20Minutes%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22instant%22,%20%22quantity%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -88,7 +93,8 @@ An instant in time some minutes after the argument
 
 An instant in time some months after the argument
 
-[[Method('Clock', 'Add Months', True, 'instant', 'quantity')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Clock%22,%20%22name%22:%20%22Add%20Months%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22instant%22,%20%22quantity%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -102,7 +108,8 @@ An instant in time some months after the argument
 
 An instant in time some seconds after the argument
 
-[[Method('Clock', 'Add Seconds', True, 'instant', 'quantity')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Clock%22,%20%22name%22:%20%22Add%20Seconds%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22instant%22,%20%22quantity%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -116,7 +123,8 @@ An instant in time some seconds after the argument
 
 An instant in time some weeks after the argument
 
-[[Method('Clock', 'Add Weeks', True, 'instant', 'quantity')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Clock%22,%20%22name%22:%20%22Add%20Weeks%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22instant%22,%20%22quantity%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -130,7 +138,8 @@ An instant in time some weeks after the argument
 
 An instant in time some years after the argument
 
-[[Method('Clock', 'Add Years', True, 'instant', 'quantity')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Clock%22,%20%22name%22:%20%22Add%20Years%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22instant%22,%20%22quantity%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -144,7 +153,8 @@ An instant in time some years after the argument
 
 The day of the month
 
-[[Method('Clock', 'Day Of Month', True, 'instant')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Clock%22,%20%22name%22:%20%22Day%20Of%20Month%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22instant%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -157,7 +167,8 @@ The day of the month
 
 Milliseconds elapsed between instants
 
-[[Method('Clock', 'Duration', True, 'start', 'end')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Clock%22,%20%22name%22:%20%22Duration%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22start%22,%20%22end%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -171,7 +182,8 @@ Milliseconds elapsed between instants
 
 convert duration to days
 
-[[Method('Clock', 'Duration To Days', True, 'duration')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Clock%22,%20%22name%22:%20%22Duration%20To%20Days%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22duration%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -184,7 +196,8 @@ convert duration to days
 
 convert duration to hours
 
-[[Method('Clock', 'Duration To Hours', True, 'duration')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Clock%22,%20%22name%22:%20%22Duration%20To%20Hours%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22duration%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -197,7 +210,8 @@ convert duration to hours
 
 convert duration to minutes
 
-[[Method('Clock', 'Duration To Minutes', True, 'duration')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Clock%22,%20%22name%22:%20%22Duration%20To%20Minutes%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22duration%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -210,7 +224,8 @@ convert duration to minutes
 
 convert duration to seconds
 
-[[Method('Clock', 'Duration To Seconds', True, 'duration')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Clock%22,%20%22name%22:%20%22Duration%20To%20Seconds%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22duration%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -223,7 +238,8 @@ convert duration to seconds
 
 convert duration to weeks
 
-[[Method('Clock', 'Duration To Weeks', True, 'duration')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Clock%22,%20%22name%22:%20%22Duration%20To%20Weeks%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22duration%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -236,7 +252,8 @@ convert duration to weeks
 
 Text representing the date of an instant in the specified pattern
 
-[[Method('Clock', 'Format Date', True, 'instant', 'pattern')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Clock%22,%20%22name%22:%20%22Format%20Date%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22instant%22,%20%22pattern%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -250,7 +267,8 @@ Text representing the date of an instant in the specified pattern
 
 Text representing the date and time of an instant in the specified pattern
 
-[[Method('Clock', 'Format Date Time', True, 'instant', 'pattern')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Clock%22,%20%22name%22:%20%22Format%20Date%20Time%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22instant%22,%20%22pattern%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -264,7 +282,8 @@ Text representing the date and time of an instant in the specified pattern
 
 Text representing the time of an instant
 
-[[Method('Clock', 'Format Time', True, 'instant')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Clock%22,%20%22name%22:%20%22Format%20Time%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22instant%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -277,7 +296,8 @@ Text representing the time of an instant
 
 The instant in time measured as milliseconds since 1970.
 
-[[Method('Clock', 'Get Millis', True, 'instant')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Clock%22,%20%22name%22:%20%22Get%20Millis%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22instant%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -290,7 +310,8 @@ The instant in time measured as milliseconds since 1970.
 
 The hour of the day
 
-[[Method('Clock', 'Hour', True, 'instant')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Clock%22,%20%22name%22:%20%22Hour%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22instant%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -304,7 +325,8 @@ The hour of the day
 Allows the user to set the clock to be a date value
 Valid values for the month field are 1-12 and 1-31 for the day field.
 
-[[Method('Clock', 'Make Date', True, 'year', 'month', 'day')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Clock%22,%20%22name%22:%20%22Make%20Date%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22year%22,%20%22month%22,%20%22day%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -319,7 +341,8 @@ Valid values for the month field are 1-12 and 1-31 for the day field.
 
 An instant in time specified by MM/dd/YYYY hh:mm:ss or MM/dd/YYYY or hh:mm
 
-[[Method('Clock', 'Make Instant', True, 'from')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Clock%22,%20%22name%22:%20%22Make%20Instant%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22from%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -332,7 +355,8 @@ An instant in time specified by MM/dd/YYYY hh:mm:ss or MM/dd/YYYY or hh:mm
 
 An instant in time specified by the milliseconds since 1970.
 
-[[Method('Clock', 'Make Instant From Millis', True, 'millis')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Clock%22,%20%22name%22:%20%22Make%20Instant%20From%20Millis%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22millis%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -346,7 +370,8 @@ An instant in time specified by the milliseconds since 1970.
 Allows the user to set the date and time to be displayed when the clock opens
 Valid values for the month field are 1-12 and 1-31 for the day field.
 
-[[Method('Clock', 'Make Instant From Parts', True, 'year', 'month', 'day', 'hour', 'minute', 'second')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Clock%22,%20%22name%22:%20%22Make%20Instant%20From%20Parts%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22year%22,%20%22month%22,%20%22day%22,%20%22hour%22,%20%22minute%22,%20%22second%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -364,7 +389,8 @@ Valid values for the month field are 1-12 and 1-31 for the day field.
 
 Allows the user to set the time of the clock - Valid format is hh:mm:ss
 
-[[Method('Clock', 'Make Time', True, 'hour', 'minute', 'second')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Clock%22,%20%22name%22:%20%22Make%20Time%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22hour%22,%20%22minute%22,%20%22second%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -379,7 +405,8 @@ Allows the user to set the time of the clock - Valid format is hh:mm:ss
 
 The minute of the hour
 
-[[Method('Clock', 'Minute', True, 'instant')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Clock%22,%20%22name%22:%20%22Minute%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22instant%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -392,7 +419,8 @@ The minute of the hour
 
 The month of the year represented as a number from 1 to 12)
 
-[[Method('Clock', 'Month', True, 'instant')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Clock%22,%20%22name%22:%20%22Month%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22instant%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -405,7 +433,8 @@ The month of the year represented as a number from 1 to 12)
 
 The name of the month
 
-[[Method('Clock', 'Month Name', True, 'instant')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Clock%22,%20%22name%22:%20%22Month%20Name%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22instant%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -418,7 +447,8 @@ The name of the month
 
 The current instant in time read from phone's clock
 
-[[Method('Clock', 'Now', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Clock%22,%20%22name%22:%20%22Now%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Second
 
@@ -426,7 +456,8 @@ The current instant in time read from phone's clock
 
 The second of the minute
 
-[[Method('Clock', 'Second', True, 'instant')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Clock%22,%20%22name%22:%20%22Second%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22instant%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -439,7 +470,8 @@ The second of the minute
 
 The phone's internal time
 
-[[Method('Clock', 'System Time', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Clock%22,%20%22name%22:%20%22System%20Time%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Weekday
 
@@ -447,7 +479,8 @@ The phone's internal time
 
 The day of the week represented as a number from 1 (Sunday) to 7 (Saturday)
 
-[[Method('Clock', 'Weekday', True, 'instant')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Clock%22,%20%22name%22:%20%22Weekday%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22instant%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -460,7 +493,8 @@ The day of the week represented as a number from 1 (Sunday) to 7 (Saturday)
 
 The name of the day of the week
 
-[[Method('Clock', 'Weekday Name', True, 'instant')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Clock%22,%20%22name%22:%20%22Weekday%20Name%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22instant%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -473,7 +507,8 @@ The name of the day of the week
 
 The year
 
-[[Method('Clock', 'Year', True, 'instant')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Clock%22,%20%22name%22:%20%22Year%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22instant%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -488,7 +523,9 @@ The year
 
 Will fire even when application is not showing on the screen if true
 
-[[PropertyBlockGetterAndSetter('Clock', 'Timer Always Fires')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Clock%22,%20%22name%22:%20%22Timer%20Always%20Fires%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Clock%22,%20%22name%22:%20%22Timer%20Always%20Fires%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Timer Enabled
 
@@ -496,7 +533,9 @@ Will fire even when application is not showing on the screen if true
 
 Fires timer if true
 
-[[PropertyBlockGetterAndSetter('Clock', 'Timer Enabled')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Clock%22,%20%22name%22:%20%22Timer%20Enabled%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Clock%22,%20%22name%22:%20%22Timer%20Enabled%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Timer Interval
 
@@ -504,4 +543,5 @@ Fires timer if true
 
 Interval between timer events in ms
 
-[[PropertyBlockGetterAndSetter('Clock', 'Timer Interval')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Clock%22,%20%22name%22:%20%22Timer%20Interval%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Clock%22,%20%22name%22:%20%22Timer%20Interval%22,%20%22getter%22:%20false%7D"></div>

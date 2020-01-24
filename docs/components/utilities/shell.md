@@ -21,7 +21,8 @@ A non-visible component that executes shell commands and checks the device''s ro
 
 Read output after executing shell command
 
-[[Event('Shell', 'Got Output', 'out')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Shell%22,%20%22name%22:%20%22Got%20Output%22,%20%22params%22:%20%5B%22out%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -36,13 +37,15 @@ Read output after executing shell command
 
 Returns TRUE if one of 6 known root packages or varients is installed. The name of the package is not returned, so the user does not know which package name to change. Developed by Cian.
 
-[[Method('Shell', 'Has Super User Apk Installed', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Shell%22,%20%22name%22:%20%22Has%20Super%20User%20Apk%20Installed%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Execute
 
 Executes shell commands. To get output, use "GotOutput" event block.
 
-[[Method('Shell', 'Execute', False, 'in')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Shell%22,%20%22name%22:%20%22Execute%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22in%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -55,7 +58,8 @@ Executes shell commands. To get output, use "GotOutput" event block.
 
 Returns true if Phone is Rooted
 
-[[Method('Shell', 'Is Rooted', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Shell%22,%20%22name%22:%20%22Is%20Rooted%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ### Is System User
 
@@ -63,4 +67,4 @@ Returns true if Phone is Rooted
 
 This returns TRUE if the system user is running the application, and could be a sign of a rooted device. Developed by Cian.
 
-[[Method('Shell', 'Is System User', True)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Shell%22,%20%22name%22:%20%22Is%20System%20User%22,%20%22output%22:%20true,%20%22params%22:%20%5B%5D%7D"></div>

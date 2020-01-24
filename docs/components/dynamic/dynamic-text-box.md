@@ -16,7 +16,8 @@ A component to create dynamic textboxes in Arrangements
 
 Trigger when the text of a Dynamic TextBox changes
 
-[[Event('Dynamic Text Box', 'On Text Changed', 'id', 'text')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Text%20Box%22,%20%22name%22:%20%22On%20Text%20Changed%22,%20%22params%22:%20%5B%22id%22,%20%22text%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -30,7 +31,8 @@ Trigger when the text of a Dynamic TextBox changes
 
 Create a Dynamic TextBox
 
-[[Method('Dynamic Text Box', 'Create Text Box', False, 'id', 'arrangement')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Text%20Box%22,%20%22name%22:%20%22Create%20Text%20Box%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22id%22,%20%22arrangement%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -42,7 +44,8 @@ Create a Dynamic TextBox
 
 Remove a textbox component with the given id.
 
-[[Method('Dynamic Text Box', 'Delete Text Box', False, 'id')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Text%20Box%22,%20%22name%22:%20%22Delete%20Text%20Box%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22id%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -55,7 +58,8 @@ Remove a textbox component with the given id.
 
 Returns the button referenced by its id.
 
-[[Method('Dynamic Text Box', 'Get Button By Id', True, 'id')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Text%20Box%22,%20%22name%22:%20%22Get%20Button%20By%20Id%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22id%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -68,7 +72,8 @@ Returns the button referenced by its id.
 
 Get the Enabled status of a TextBox
 
-[[Method('Dynamic Text Box', 'Get Enabled', True, 'id')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Text%20Box%22,%20%22name%22:%20%22Get%20Enabled%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22id%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -81,7 +86,8 @@ Get the Enabled status of a TextBox
 
 Get the Font Size of a TextBox
 
-[[Method('Dynamic Text Box', 'Get Font Size', True, 'id')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Text%20Box%22,%20%22name%22:%20%22Get%20Font%20Size%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22id%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -94,7 +100,8 @@ Get the Font Size of a TextBox
 
 Get the Height of a TextBox
 
-[[Method('Dynamic Text Box', 'Get Height', True, 'id')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Text%20Box%22,%20%22name%22:%20%22Get%20Height%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22id%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -107,7 +114,8 @@ Get the Height of a TextBox
 
 Get the Text of a TextBox
 
-[[Method('Dynamic Text Box', 'Get Text', True, 'id')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Text%20Box%22,%20%22name%22:%20%22Get%20Text%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22id%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -120,7 +128,8 @@ Get the Text of a TextBox
 
 Get the Width of a TextBox
 
-[[Method('Dynamic Text Box', 'Get Width', True, 'id')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Text%20Box%22,%20%22name%22:%20%22Get%20Width%22,%20%22output%22:%20true,%20%22params%22:%20%5B%22id%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -131,7 +140,8 @@ Get the Width of a TextBox
 
 Update the Text Alignment of a TextBox. 0 = left, 1 = center and 2 = right.
 
-[[Method('Dynamic Text Box', 'Set Alignment', False, 'id', 'alignment')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Text%20Box%22,%20%22name%22:%20%22Set%20Alignment%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22id%22,%20%22alignment%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -143,7 +153,8 @@ Update the Text Alignment of a TextBox. 0 = left, 1 = center and 2 = right.
 
 Update the Background Color of a TextBox
 
-[[Method('Dynamic Text Box', 'Set Background Color', False, 'id', 'color')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Text%20Box%22,%20%22name%22:%20%22Set%20Background%20Color%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22id%22,%20%22color%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -155,7 +166,8 @@ Update the Background Color of a TextBox
 
 Update the Enabled status of a TextBox
 
-[[Method('Dynamic Text Box', 'Set Enabled', False, 'id', 'enabled')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Text%20Box%22,%20%22name%22:%20%22Set%20Enabled%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22id%22,%20%22enabled%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -167,7 +179,8 @@ Update the Enabled status of a TextBox
 
 Update the Font of a TextBox
 
-[[Method('Dynamic Text Box', 'Set Font', False, 'id', 'bold', 'italic')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Text%20Box%22,%20%22name%22:%20%22Set%20Font%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22id%22,%20%22bold%22,%20%22italic%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -180,7 +193,8 @@ Update the Font of a TextBox
 
 Update the Font Size of a TextBox
 
-[[Method('Dynamic Text Box', 'Set Font Size', False, 'id', 'size')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Text%20Box%22,%20%22name%22:%20%22Set%20Font%20Size%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22id%22,%20%22size%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -192,7 +206,8 @@ Update the Font Size of a TextBox
 
 Update the Height of a TextBox
 
-[[Method('Dynamic Text Box', 'Set Height', False, 'id', 'height')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Text%20Box%22,%20%22name%22:%20%22Set%20Height%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22id%22,%20%22height%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -204,7 +219,8 @@ Update the Height of a TextBox
 
 Update the Text of a TextBox
 
-[[Method('Dynamic Text Box', 'Set Text', False, 'id', 'text')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Text%20Box%22,%20%22name%22:%20%22Set%20Text%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22id%22,%20%22text%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -216,7 +232,8 @@ Update the Text of a TextBox
 
 Update the Text Color of a TextBox
 
-[[Method('Dynamic Text Box', 'Set Text Color', False, 'id', 'color')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Text%20Box%22,%20%22name%22:%20%22Set%20Text%20Color%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22id%22,%20%22color%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -228,7 +245,8 @@ Update the Text Color of a TextBox
 
 Update the Width of a TextBox
 
-[[Method('Dynamic Text Box', 'Set Width', False, 'id', 'width')]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Text%20Box%22,%20%22name%22:%20%22Set%20Width%22,%20%22output%22:%20false,%20%22params%22:%20%5B%22id%22,%20%22width%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|

@@ -20,7 +20,8 @@ A non-visible component that reads barcodes from the device''s camera.
 
 Indicates that the scanner has read a (text) result and provides the result
 
-[[Event('Barcode Scanner', 'After Scan', 'result')]]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Barcode%20Scanner%22,%20%22name%22:%20%22After%20Scan%22,%20%22params%22:%20%5B%22result%22%5D%7D"></div>
+
 
 | Params | []() |
 |--------|------|
@@ -33,7 +34,8 @@ Indicates that the scanner has read a (text) result and provides the result
 
 Begins a barcode scan, using the camera. When the scan is complete, the AfterScan event will be raised.
 
-[[Method('Barcode Scanner', 'Do Scan', False)]]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Barcode%20Scanner%22,%20%22name%22:%20%22Do%20Scan%22,%20%22output%22:%20false,%20%22params%22:%20%5B%5D%7D"></div>
+
 
 ## Properties
 
@@ -43,7 +45,9 @@ Begins a barcode scan, using the camera. When the scan is complete, the AfterSca
 
 If true App Inventor will look for and use an external scanning program such as "Bar Code Scanner."
 
-[[PropertyBlockGetterAndSetter('Barcode Scanner', 'Use External Scanner')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Barcode%20Scanner%22,%20%22name%22:%20%22Use%20External%20Scanner%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Barcode%20Scanner%22,%20%22name%22:%20%22Use%20External%20Scanner%22,%20%22getter%22:%20false%7D"></div>
+
 
 ### Result
 
@@ -51,4 +55,4 @@ If true App Inventor will look for and use an external scanning program such as 
 
 Text result of the previous scan.
 
-[[PropertyBlockGetter('Barcode Scanner', 'Result')]]
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Barcode%20Scanner%22,%20%22name%22:%20%22Result%22,%20%22getter%22:%20true%7D"></div>
