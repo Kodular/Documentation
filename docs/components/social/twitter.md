@@ -217,7 +217,7 @@ This sends a tweet as the logged-in user with the specified Text and a path to t
 
 ### Consumer Key
 
-<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span>          <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span>&#32;</span>
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span>:heavy_minus_sign:<span class="chip chip-rw">Read</span><span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span><span class="chip chip-bd">Blocks</span></span>
 
 ConsumerKey property getter method.
 
@@ -226,7 +226,7 @@ ConsumerKey property getter method.
 
 ### Consumer Secret
 
-<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span>          <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span>&#32;</span>
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span>:heavy_minus_sign:<span class="chip chip-rw">Read</span><span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Designer</span><span class="chip chip-bd">Blocks</span></span>
 
 ConsumerSecret property getter method.
 
@@ -235,7 +235,7 @@ ConsumerSecret property getter method.
 
 ### Direct Messages
 
-<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-list">List</span>          <span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span>&#32;</span>
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-list">List</span>:heavy_minus_sign:<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span></span>
 
 This property contains a list of the most recent messages mentioning the logged-in user. Initially, the list is empty. To set it, the program must: 
 
@@ -250,7 +250,7 @@ The value of this property will then be set to the list of direct messages retri
 
 ### Followers
 
-<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-list">List</span>          <span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span>&#32;</span>
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-list">List</span>:heavy_minus_sign:<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span></span>
 
 This property contains a list of the followers of the logged-in user. Initially, the list is empty. To set it, the program must: 
 
@@ -265,7 +265,7 @@ The value of this property will then be set to the list of followers (and mainta
 
 ### Friend Time line
 
-<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-list">List</span>          <span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span>&#32;</span>
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-list">List</span>:heavy_minus_sign:<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span></span>
 
 This property contains the 20 most recent messages of users being followed. Initially, the list is empty. To set it, the program must: 
 
@@ -282,7 +282,7 @@ The value of this property will then be set to the list of messages (and maintai
 
 ### Mentions
 
-<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-list">List</span>          <span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span>&#32;</span>
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-list">List</span>:heavy_minus_sign:<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span></span>
 
 This property contains a list of mentions of the logged-in user. Initially, the list is empty. To set it, the program must: 
 
@@ -297,7 +297,7 @@ The value of this property will then be set to the list of mentions (and will ma
 
 ### Search Results
 
-<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-list">List</span>          <span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span>&#32;</span>
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-list">List</span>:heavy_minus_sign:<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span></span>
 
 This property, which is initially empty, is set to a list of search results after the program: 
 
@@ -312,7 +312,7 @@ The value of the property will then be the same as the parameter to `` SearchSuc
 
 :warning: ==**Deprecated**==
 
-<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span>          <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Blocks</span>&#32;</span>
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span>:heavy_minus_sign:<span class="chip chip-rw">Read</span><span class="chip chip-rw">Write</span> - <span class="chip chip-bd">Blocks</span></span>
 
 TwitPicAPIkey property getter method.
 
@@ -321,7 +321,7 @@ TwitPicAPIkey property getter method.
 
 ### Username
 
-<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span>          <span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span>&#32;</span>
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span>:heavy_minus_sign:<span class="chip chip-rw">Read</span> - <span class="chip chip-bd">Blocks</span></span>
 
 The user name of the authorized user. Empty if there is no authorized user.
 

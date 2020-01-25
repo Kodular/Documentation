@@ -7,7 +7,7 @@ $(document).ready(function () {
     });
 
     // Lightbox
-    event.preventDefault();
+    // event.preventDefault();
     $(this).ekkoLightbox();
 });
 
@@ -48,13 +48,13 @@ function renderAndGetBlock(id, scale, margin_left, margin_top, margin_right, mar
     });
     workspace.setScale(scale);
 
-    var block = workspace.newBlock('renderedBlock_'+id);
+    var block = workspace.newBlock('renderedBlock_' + id);
     block.initSvg();
     block.moveBy(8 + margin_left, margin_top);
     block.render();
 
     var metrics = workspace.getMetrics();
-    $("#"+id)
+    $("#" + id)
         .height(metrics.contentHeight + margin_top + margin_bottom)
         .width(metrics.contentWidth + 8 + margin_left + margin_right);
     Blockly.svgResize(workspace);
@@ -68,8 +68,8 @@ function renderAndGetBlock(id, scale, margin_left, margin_top, margin_right, mar
 function renderEventBlock(id, params_count) {
     var block = renderAndGetBlock(id, 1, 0, 0, 0, 0, 0);
     for (var i = 0; i < params_count; i++) {
-        if(block.getField('VAR'+i)) {
-            Blockly.utils.addClass(block.getField('VAR'+i).fieldGroup_, "event-parameter");
+        if (block.getField('VAR' + i)) {
+            Blockly.utils.addClass(block.getField('VAR' + i).fieldGroup_, "event-parameter");
         }
     }
 }
@@ -83,12 +83,12 @@ function getBlock(json) {
     blockIndex++;
     blockId = 'block' + blockIndex;
     var blockData = JSON.parse(json);
-    if (typeof(blockData) != "object") {
-      console.error("block info is not a json object");
-      return null;
+    if (typeof (blockData) != "object") {
+        console.error("block info is not a json object");
+        return null;
     }
-    if (typeof(blockData['componentName']) != "undefined" && blockData['componentName'].length > 0) {
-      ComponentName = blockData.componentName;
+    if (typeof (blockData['componentName']) != "undefined" && blockData['componentName'].length > 0) {
+        ComponentName = blockData.componentName;
     }
     return blockData;
 }
@@ -107,112 +107,110 @@ function renderSingleBlockDiv(divElement) {
     var margin_bottom = block['margin_bottom'] || block['margin'] || CONF_MARGIN_BOTTOM;
     if (type == 'method') {
         var param = block['param'] || block['arg'] || [];
-        var output = block['output']===true;
+        var output = block['output'] === true;
 
-        Blockly.Blocks['renderedBlock_'+blockId] = {
-          init: function() {
-            this.appendDummyInput().appendField(CONF_TEXT_CALL).appendField(new Blockly.FieldDropdown([[ComponentName, 'OPTIONNAME']]), 'COMPONENT_SELECTOR').appendField('.'+name);
-            for (var i=0; i<param.length; i++) {
-              this.appendValueInput('NAME').setAlign(Blockly.ALIGN_RIGHT).appendField(param[i]);
+        Blockly.Blocks['renderedBlock_' + blockId] = {
+            init: function () {
+                this.appendDummyInput().appendField(CONF_TEXT_CALL).appendField(new Blockly.FieldDropdown([[ComponentName, 'OPTIONNAME']]), 'COMPONENT_SELECTOR').appendField('.' + name);
+                for (var i = 0; i < param.length; i++) {
+                    this.appendValueInput('NAME').setAlign(Blockly.ALIGN_RIGHT).appendField(param[i]);
+                }
+                this.setInputsInline(false);
+                if (output) {
+                    this.setOutput(true, null);
+                } else {
+                    this.setPreviousStatement(true, null);
+                    this.setNextStatement(true, null);
+                }
+                this.setColour(COLOUR_METHOD);
             }
-            this.setInputsInline(false);
-            if (output) {
-              this.setOutput(true, null);
-            } else {
-              this.setPreviousStatement(true, null);
-              this.setNextStatement(true, null);
-            }
-            this.setColour(COLOUR_METHOD);
-          }
         };
 
-      // EVENTS
-      } else if (type == 'event') {
+        // EVENTS
+    } else if (type == 'event') {
         var param = block['param'] || block['arg'] || [];
 
-        Blockly.Blocks['renderedBlock_'+blockId] = {
-          init: function() {
-            this.appendDummyInput('').appendField(CONF_TEXT_WHEN).appendField(new Blockly.FieldDropdown([[ComponentName, 'OPTIONNAME']]), "COMPONENT_SELECTOR").appendField('.' + name);
-            if (param.length > 0) {
-              var paramInput = this.appendDummyInput('PARAMETERS').appendField(" ").setAlign(Blockly.ALIGN_LEFT);
-              for (var i=0; i<param.length; i++) {
-                paramInput.appendField(new Blockly.FieldTextInput(param[i]), 'VAR'+i).appendField(" ");
-              }
+        Blockly.Blocks['renderedBlock_' + blockId] = {
+            init: function () {
+                this.appendDummyInput('').appendField(CONF_TEXT_WHEN).appendField(new Blockly.FieldDropdown([[ComponentName, 'OPTIONNAME']]), "COMPONENT_SELECTOR").appendField('.' + name);
+                if (param.length > 0) {
+                    var paramInput = this.appendDummyInput('PARAMETERS').appendField(" ").setAlign(Blockly.ALIGN_LEFT);
+                    for (var i = 0; i < param.length; i++) {
+                        paramInput.appendField(new Blockly.FieldTextInput(param[i]), 'VAR' + i).appendField(" ");
+                    }
+                }
+                this.appendStatementInput("DO").appendField(CONF_TEXT_DO);
+                this.setInputsInline(false);
+                this.setPreviousStatement(false, null);
+                this.setNextStatement(false, null);
+                this.setColour(COLOUR_EVENT);
+                // Trying to render the block here goes into an infinite loop for some reason
+                // renderEventBlock(blockId, param.length);
+                // return;
             }
-            this.appendStatementInput("DO").appendField(CONF_TEXT_DO);
-            this.setInputsInline(false);
-            this.setPreviousStatement(false, null);
-            this.setNextStatement(false, null);
-            this.setColour(COLOUR_EVENT);
-            // Trying to render the block here goes into an infinite loop for some reason
-            // renderEventBlock(blockId, param.length);
-            // return;
-          }
         };
 
-      // PROPERTIES
-      } else if (type == 'property') {
+        // PROPERTIES
+    } else if (type == 'property') {
         var getter = block['getter'];
         if (getter !== true && getter !== false) {
-          getter = true;
+            getter = true;
         }
 
-        Blockly.Blocks['renderedBlock_'+blockId] = {
-          init: function() {
-            var input;
-            if (getter) {
-              input = this.appendDummyInput();
-              this.setOutput(true, null);
-            } else {
-              input = this.appendValueInput("NAME").appendField(CONF_TEXT_SET);
-              this.setPreviousStatement(true, null);
-              this.setNextStatement(true, null);
+        Blockly.Blocks['renderedBlock_' + blockId] = {
+            init: function () {
+                var input;
+                if (getter) {
+                    input = this.appendDummyInput();
+                    this.setOutput(true, null);
+                } else {
+                    input = this.appendValueInput("NAME").appendField(CONF_TEXT_SET);
+                    this.setPreviousStatement(true, null);
+                    this.setNextStatement(true, null);
+                }
+                input.appendField(new Blockly.FieldDropdown([[ComponentName, 'OPTIONNAME']]), "NAME")
+                    .appendField(".")
+                    .appendField(new Blockly.FieldDropdown([[name, "OPTIONNAME"]]), "NAME2");
+                this.setColour(getter ? COLOUR_GET : COLOUR_SET);
+                if (!getter) {
+                    input.appendField(' to ');
+                }
             }
-            input.appendField(new Blockly.FieldDropdown([[ComponentName, 'OPTIONNAME']]), "NAME")
-                .appendField(".")
-                .appendField(new Blockly.FieldDropdown([[name, "OPTIONNAME"]]), "NAME2");
-            this.setColour(getter ? COLOUR_GET : COLOUR_SET);
-            if(!getter) {
-                input.appendField(' to ');
-            }
-          }
         };
-      }
-      else if (type == 'method') {
+    } else if (type == 'method') {
         var param = block['param'] || block['arg'] || [];
-        var output = block['output']===true;
-    
-        Blockly.Blocks['renderedBlock_'+blockId] = {
-          init: function() {
-            this.appendDummyInput().appendField(CONF_TEXT_CALL).appendField(new Blockly.FieldDropdown([[ComponentName, 'OPTIONNAME']]), 'COMPONENT_SELECTOR').appendField('.'+name);
-            for (var i=0; i<param.length; i++) {
-              this.appendValueInput('NAME').setAlign(Blockly.ALIGN_RIGHT).appendField(param[i]);
+        var output = block['output'] === true;
+
+        Blockly.Blocks['renderedBlock_' + blockId] = {
+            init: function () {
+                this.appendDummyInput().appendField(CONF_TEXT_CALL).appendField(new Blockly.FieldDropdown([[ComponentName, 'OPTIONNAME']]), 'COMPONENT_SELECTOR').appendField('.' + name);
+                for (var i = 0; i < param.length; i++) {
+                    this.appendValueInput('NAME').setAlign(Blockly.ALIGN_RIGHT).appendField(param[i]);
+                }
+                this.setInputsInline(false);
+                if (output) {
+                    this.setOutput(true, null);
+                } else {
+                    this.setPreviousStatement(true, null);
+                    this.setNextStatement(true, null);
+                }
+                this.setColour(COLOUR_METHOD);
             }
-            this.setInputsInline(false);
-            if (output) {
-              this.setOutput(true, null);
-            } else {
-              this.setPreviousStatement(true, null);
-              this.setNextStatement(true, null);
-            }
-            this.setColour(COLOUR_METHOD);
-          }
         };
-      }
-      if(type == 'event') {
+    }
+    if (type == 'event') {
         renderEventBlock(blockId, block['param'].length || 0);
-      }
-      else {
+    } else {
         renderAndGetBlock(blockId, scale, margin_left, margin_top, margin_right, margin_bottom);
-      }
-      divElement.removeAttribute('not-rendered');
+    }
+    divElement.removeAttribute('not-rendered');
 
 
-  }
+}
 
-document.addEventListener("DOMContentLoaded", function(event) {
+document.addEventListener("DOMContentLoaded", function (event) {
     allBlockDivs = document.getElementsByClassName('block');
-    for (var i=0; i<allBlockDivs.length; i++) {
-      renderSingleBlockDiv(allBlockDivs[i]);
-   }
+    for (var i = 0; i < allBlockDivs.length; i++) {
+        renderSingleBlockDiv(allBlockDivs[i]);
+    }
 });
