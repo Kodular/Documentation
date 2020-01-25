@@ -60,6 +60,30 @@ Encodes the given string using the given key through AES-256. If there are any e
 |--------|------|
 |input Text|<span class="chip chip-text">Text</span>|
 
+### Base64 Decode
+
+<span class="chip chip-text">Returns: <i>Text</i></span>
+
+Decodes the given hash using Base64
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Cryptography%22,%20%22name%22:%20%22Base64%20Decode%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22base64%20Hash%22%5D%7D"></div>
+
+| Params | []() |
+|--------|------|
+|base64 Hash|<span class="chip chip-text">Text</span>|
+
+### Base64 Encode
+
+<span class="chip chip-text">Returns: <i>Text</i></span>
+
+Encodes the given string using Base64
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Cryptography%22,%20%22name%22:%20%22Base64%20Encode%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22input%20Text%22%5D%7D"></div>
+
+| Params | []() |
+|--------|------|
+|input Text|<span class="chip chip-text">Text</span>|
+
 ### BCrypt Create Hash
 
 <span class="chip chip-text">Returns: <i>Text</i></span>
@@ -93,30 +117,6 @@ Verifies if the input password is the same one as the correct hashed password us
 |--------|------|
 |input Text|<span class="chip chip-text">Text</span>|
 |correct Hash|<span class="chip chip-text">Text</span>|
-
-### Base64 Decode
-
-<span class="chip chip-text">Returns: <i>Text</i></span>
-
-Decodes the given hash using Base64
-
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Cryptography%22,%20%22name%22:%20%22Base64%20Decode%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22base64%20Hash%22%5D%7D"></div>
-
-| Params | []() |
-|--------|------|
-|base64 Hash|<span class="chip chip-text">Text</span>|
-
-### Base64 Encode
-
-<span class="chip chip-text">Returns: <i>Text</i></span>
-
-Encodes the given string using Base64
-
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Cryptography%22,%20%22name%22:%20%22Base64%20Encode%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22input%20Text%22%5D%7D"></div>
-
-| Params | []() |
-|--------|------|
-|input Text|<span class="chip chip-text">Text</span>|
 
 ### Enigma Parser
 

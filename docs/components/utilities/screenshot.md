@@ -70,6 +70,22 @@ This will be the name for the taken screenshot image file.
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Screenshot%22,%20%22name%22:%20%22File%20Name%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Screenshot%22,%20%22name%22:%20%22File%20Name%22,%20%22getter%22:%20false%7D"></div>
 
+### is Read Permission Granted
+
+<span style="user-select: none;"><span class="chip chip-boolean">Boolean</span>&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<span class="chip chip-rw">Read</span>&#32;-&#32;<span class="chip chip-bd">Blocks</span>&#32;</span>
+
+Returns true if the read permission is granted, else false.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Screenshot%22,%20%22name%22:%20%22is%20Read%20Permission%20Granted%22,%20%22getter%22:%20true%7D"></div>
+
+### is Write Permission Granted
+
+<span style="user-select: none;"><span class="chip chip-boolean">Boolean</span>&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<span class="chip chip-rw">Read</span>&#32;-&#32;<span class="chip chip-bd">Blocks</span>&#32;</span>
+
+Returns true if the write permission is granted, else false.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Screenshot%22,%20%22name%22:%20%22is%20Write%20Permission%20Granted%22,%20%22getter%22:%20true%7D"></div>
+
 ### Notification Share Title
 
 <span style="user-select: none;"><span class="chip chip-text">Text</span>&#32;<span class="chip chip-text">Default: <i>Share</i></span>&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<span class="chip chip-rw">Read</span>&#32;<span class="chip chip-rw">Write</span>&#32;-&#32;<span class="chip chip-bd">Designer</span>&#32;<span class="chip chip-bd">Blocks</span>&#32;</span>
@@ -123,19 +139,3 @@ This will display the notification in a big style.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Screenshot%22,%20%22name%22:%20%22Use%20Large%20Notification%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Screenshot%22,%20%22name%22:%20%22Use%20Large%20Notification%22,%20%22getter%22:%20false%7D"></div>
-
-### is Read Permission Granted
-
-<span style="user-select: none;"><span class="chip chip-boolean">Boolean</span>&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<span class="chip chip-rw">Read</span>&#32;-&#32;<span class="chip chip-bd">Blocks</span>&#32;</span>
-
-Returns true if the read permission is granted, else false.
-
-<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Screenshot%22,%20%22name%22:%20%22is%20Read%20Permission%20Granted%22,%20%22getter%22:%20true%7D"></div>
-
-### is Write Permission Granted
-
-<span style="user-select: none;"><span class="chip chip-boolean">Boolean</span>&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<span class="chip chip-rw">Read</span>&#32;-&#32;<span class="chip chip-bd">Blocks</span>&#32;</span>
-
-Returns true if the write permission is granted, else false.
-
-<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Screenshot%22,%20%22name%22:%20%22is%20Write%20Permission%20Granted%22,%20%22getter%22:%20true%7D"></div>

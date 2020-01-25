@@ -85,14 +85,6 @@ Returns the wlan mac address.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22WiFi%22,%20%22name%22:%20%22Mac%20Address%22,%20%22output%22:%20true,%20%22param%22:%20%5B%5D%7D"></div>
 
-### SSID
-
-<span class="chip chip-text">Returns: <i>Text</i></span>
-
-Returns the service set identifier (SSID) of the current 802.11 network
-
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22WiFi%22,%20%22name%22:%20%22SSID%22,%20%22output%22:%20true,%20%22param%22:%20%5B%5D%7D"></div>
-
 ### Signal Strength
 
 <span class="chip chip-number">Returns: <i>Number</i></span>
@@ -100,6 +92,14 @@ Returns the service set identifier (SSID) of the current 802.11 network
 Returns the received signal strength indicator of the current 802.11 network, in dBm
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22WiFi%22,%20%22name%22:%20%22Signal%20Strength%22,%20%22output%22:%20true,%20%22param%22:%20%5B%5D%7D"></div>
+
+### SSID
+
+<span class="chip chip-text">Returns: <i>Text</i></span>
+
+Returns the service set identifier (SSID) of the current 802.11 network
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22WiFi%22,%20%22name%22:%20%22SSID%22,%20%22output%22:%20true,%20%22param%22:%20%5B%5D%7D"></div>
 
 ### Toggle
 

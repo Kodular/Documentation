@@ -217,14 +217,6 @@ Set a custom font.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Time%20Picker%22,%20%22name%22:%20%22Font%20Typeface%20Import%22,%20%22getter%22:%20false%7D"></div>
 
-### HTML Format
-
-<span style="user-select: none;"><span class="chip chip-boolean">Boolean</span>&#32;<span class="chip chip-boolean">Default: <i>False</i></span>&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<span class="chip chip-rw">Write</span>&#32;-&#32;<span class="chip chip-bd">Designer</span>&#32;</span>
-
-<small>Available as ^^Advanced^^ Property</small>
-
-If true, then this button will show html text else it will show plain text. Note: Not all HTML is supported.
-
 ### Height
 
 <span style="user-select: none;"><span class="chip chip-number">Number</span>&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<span class="chip chip-rw">Read</span>&#32;<span class="chip chip-rw">Write</span>&#32;-&#32;<span class="chip chip-bd">Blocks</span>&#32;</span>
@@ -249,6 +241,14 @@ Specifies the component's vertical height as a percentageof the height of its pa
 The hour of the last time set using the time picker. The hour is in a 24 hour format. If the last time set was 11:53 pm, this property will return 23.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Time%20Picker%22,%20%22name%22:%20%22Hour%22,%20%22getter%22:%20true%7D"></div>
+
+### HTML Format
+
+<span style="user-select: none;"><span class="chip chip-boolean">Boolean</span>&#32;<span class="chip chip-boolean">Default: <i>False</i></span>&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<span class="chip chip-rw">Write</span>&#32;-&#32;<span class="chip chip-bd">Designer</span>&#32;</span>
+
+<small>Available as ^^Advanced^^ Property</small>
+
+If true, then this button will show html text else it will show plain text. Note: Not all HTML is supported.
 
 ### Image
 

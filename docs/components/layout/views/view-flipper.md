@@ -30,6 +30,12 @@ Use this function if you try to create a image view flipper. Please use a 'make 
 |--------|------|
 |images|<span class="chip chip-list">List</span>|
 
+### is Flipping
+
+Returns true if the child views are flipping.
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22View%20Flipper%22,%20%22name%22:%20%22is%20Flipping%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
+
 ### Show Next
 
 Show the next view.
@@ -53,12 +59,6 @@ Start a timer to cycle through child views.
 No more flips.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22View%20Flipper%22,%20%22name%22:%20%22Stop%20Flipping%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
-
-### is Flipping
-
-Returns true if the child views are flipping.
-
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22View%20Flipper%22,%20%22name%22:%20%22is%20Flipping%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
 
 ## Properties
 

@@ -123,8 +123,8 @@
     - Cloudinary: components/storage/cloudinary.md
     - File: components/storage/file.md
     - Fusiontables Control: components/storage/fusiontables-control.md
-    - SQLite: components/storage/sqlite.md
     - Spreadsheet: components/storage/spreadsheet.md
+    - SQLite: components/storage/sqlite.md
     - Tiny DB: components/storage/tiny-db.md
     - Tiny Web DB: components/storage/tiny-web-db.md
   - Utilities:

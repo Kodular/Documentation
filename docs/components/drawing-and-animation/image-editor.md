@@ -149,6 +149,42 @@ This effect inverts your image.
 |--------|------|
 |image A|<span class="chip chip-text">Text</span>|
 
+### is Landscape
+
+<span class="chip chip-boolean">Returns: <i>Boolean</i></span>
+
+Return true if image is in landscape format, else return false.
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Editor%22,%20%22name%22:%20%22is%20Landscape%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22image%22%5D%7D"></div>
+
+| Params | []() |
+|--------|------|
+|image|<span class="chip chip-text">Text</span>|
+
+### is Portrait
+
+<span class="chip chip-boolean">Returns: <i>Boolean</i></span>
+
+Return true if image is in portrait format, else return false.
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Editor%22,%20%22name%22:%20%22is%20Portrait%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22image%22%5D%7D"></div>
+
+| Params | []() |
+|--------|------|
+|image|<span class="chip chip-text">Text</span>|
+
+### is Square
+
+<span class="chip chip-boolean">Returns: <i>Boolean</i></span>
+
+Return true if image is in square format (means as high as wide or as wide as high), else return false.
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Editor%22,%20%22name%22:%20%22is%20Square%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22image%22%5D%7D"></div>
+
+| Params | []() |
+|--------|------|
+|image|<span class="chip chip-text">Text</span>|
+
 ### Merge Two Images
 
 <span class="chip chip-text">Returns: <i>Text</i></span>
@@ -301,42 +337,6 @@ Set a watermark effect to an image and change the positon/size or color of the t
 |text Alpha Value|<span class="chip chip-number">Number</span>|
 |point X|<span class="chip chip-number">Number</span>|
 |point Y|<span class="chip chip-number">Number</span>|
-
-### is Landscape
-
-<span class="chip chip-boolean">Returns: <i>Boolean</i></span>
-
-Return true if image is in landscape format, else return false.
-
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Editor%22,%20%22name%22:%20%22is%20Landscape%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22image%22%5D%7D"></div>
-
-| Params | []() |
-|--------|------|
-|image|<span class="chip chip-text">Text</span>|
-
-### is Portrait
-
-<span class="chip chip-boolean">Returns: <i>Boolean</i></span>
-
-Return true if image is in portrait format, else return false.
-
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Editor%22,%20%22name%22:%20%22is%20Portrait%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22image%22%5D%7D"></div>
-
-| Params | []() |
-|--------|------|
-|image|<span class="chip chip-text">Text</span>|
-
-### is Square
-
-<span class="chip chip-boolean">Returns: <i>Boolean</i></span>
-
-Return true if image is in square format (means as high as wide or as wide as high), else return false.
-
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Editor%22,%20%22name%22:%20%22is%20Square%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22image%22%5D%7D"></div>
-
-| Params | []() |
-|--------|------|
-|image|<span class="chip chip-text">Text</span>|
 
 ## Properties
 

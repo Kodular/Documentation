@@ -71,15 +71,6 @@ Returns the keyguard manager description text.
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Keyguard%20Manager%22,%20%22name%22:%20%22Description%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Keyguard%20Manager%22,%20%22name%22:%20%22Description%22,%20%22getter%22:%20false%7D"></div>
 
-### Title
-
-<span style="user-select: none;"><span class="chip chip-text">Text</span>&#32;<span class="chip chip-text">Default: <i>Unlock</i></span>&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<span class="chip chip-rw">Read</span>&#32;<span class="chip chip-rw">Write</span>&#32;-&#32;<span class="chip chip-bd">Designer</span>&#32;<span class="chip chip-bd">Blocks</span>&#32;</span>
-
-Returns the keyguard manager title text.
-
-<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Keyguard%20Manager%22,%20%22name%22:%20%22Title%22,%20%22getter%22:%20true%7D"></div>
-<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Keyguard%20Manager%22,%20%22name%22:%20%22Title%22,%20%22getter%22:%20false%7D"></div>
-
 ### is Device Locked
 
 <span style="user-select: none;"><span class="chip chip-boolean">Boolean</span>&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<span class="chip chip-rw">Read</span>&#32;-&#32;<span class="chip chip-bd">Blocks</span>&#32;</span>
@@ -111,3 +102,12 @@ Return whether the keyguard is currently locked.
 Return whether the keyguard is secured by a PIN, pattern or password or a SIM card is currently locked.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Keyguard%20Manager%22,%20%22name%22:%20%22is%20Keyguard%20Secure%22,%20%22getter%22:%20true%7D"></div>
+
+### Title
+
+<span style="user-select: none;"><span class="chip chip-text">Text</span>&#32;<span class="chip chip-text">Default: <i>Unlock</i></span>&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<span class="chip chip-rw">Read</span>&#32;<span class="chip chip-rw">Write</span>&#32;-&#32;<span class="chip chip-bd">Designer</span>&#32;<span class="chip chip-bd">Blocks</span>&#32;</span>
+
+Returns the keyguard manager title text.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Keyguard%20Manager%22,%20%22name%22:%20%22Title%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Keyguard%20Manager%22,%20%22name%22:%20%22Title%22,%20%22getter%22:%20false%7D"></div>

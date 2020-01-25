@@ -74,6 +74,38 @@ This event returns true or false for the respective simpleExoPlayer statuses.
 
 ## Methods
 
+### is Loading
+
+<span class="chip chip-boolean">Returns: <i>Boolean</i></span>
+
+Returns true if the player is current loading.
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22ExoPlayer%22,%20%22name%22:%20%22is%20Loading%22,%20%22output%22:%20true,%20%22param%22:%20%5B%5D%7D"></div>
+
+### is Pause
+
+<span class="chip chip-boolean">Returns: <i>Boolean</i></span>
+
+Returns true if the player is current in pause mode.
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22ExoPlayer%22,%20%22name%22:%20%22is%20Pause%22,%20%22output%22:%20true,%20%22param%22:%20%5B%5D%7D"></div>
+
+### is Playing
+
+<span class="chip chip-boolean">Returns: <i>Boolean</i></span>
+
+Returns true if the player is current playing.
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22ExoPlayer%22,%20%22name%22:%20%22is%20Playing%22,%20%22output%22:%20true,%20%22param%22:%20%5B%5D%7D"></div>
+
+### is Stopped
+
+<span class="chip chip-boolean">Returns: <i>Boolean</i></span>
+
+Returns true if the player is current stopped.
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22ExoPlayer%22,%20%22name%22:%20%22is%20Stopped%22,%20%22output%22:%20true,%20%22param%22:%20%5B%5D%7D"></div>
+
 ### Pause
 
 Pause the player.
@@ -107,38 +139,6 @@ Start the player.
 Stop the player.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22ExoPlayer%22,%20%22name%22:%20%22Stop%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
-
-### is Loading
-
-<span class="chip chip-boolean">Returns: <i>Boolean</i></span>
-
-Returns true if the player is current loading.
-
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22ExoPlayer%22,%20%22name%22:%20%22is%20Loading%22,%20%22output%22:%20true,%20%22param%22:%20%5B%5D%7D"></div>
-
-### is Pause
-
-<span class="chip chip-boolean">Returns: <i>Boolean</i></span>
-
-Returns true if the player is current in pause mode.
-
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22ExoPlayer%22,%20%22name%22:%20%22is%20Pause%22,%20%22output%22:%20true,%20%22param%22:%20%5B%5D%7D"></div>
-
-### is Playing
-
-<span class="chip chip-boolean">Returns: <i>Boolean</i></span>
-
-Returns true if the player is current playing.
-
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22ExoPlayer%22,%20%22name%22:%20%22is%20Playing%22,%20%22output%22:%20true,%20%22param%22:%20%5B%5D%7D"></div>
-
-### is Stopped
-
-<span class="chip chip-boolean">Returns: <i>Boolean</i></span>
-
-Returns true if the player is current stopped.
-
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22ExoPlayer%22,%20%22name%22:%20%22is%20Stopped%22,%20%22output%22:%20true,%20%22param%22:%20%5B%5D%7D"></div>
 
 ## Properties
 

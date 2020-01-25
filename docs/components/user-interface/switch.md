@@ -110,6 +110,14 @@ Specifies the component's vertical height as a percentageof the height of its pa
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Switch%22,%20%22name%22:%20%22Height%20Percent%22,%20%22getter%22:%20false%7D"></div>
 
+### is Checked
+
+<span style="user-select: none;"><span class="chip chip-boolean">Boolean</span>&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<span class="chip chip-rw">Read</span>&#32;-&#32;<span class="chip chip-bd">Blocks</span>&#32;</span>
+
+Return true if the switch is checked else false.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Switch%22,%20%22name%22:%20%22is%20Checked%22,%20%22getter%22:%20true%7D"></div>
+
 ### Text Color
 
 <span style="user-select: none;"><span class="chip chip-color">Color</span>&#32;<span class="chip chip-color" style="background-color: #4CAF50;">Default: <i>#4CAF50FF</i></span>&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<span class="chip chip-rw">Read</span>&#32;<span class="chip chip-rw">Write</span>&#32;-&#32;<span class="chip chip-bd">Designer</span>&#32;<span class="chip chip-bd">Blocks</span>&#32;</span>
@@ -180,11 +188,3 @@ Specifies the component's horizontal width, measured in pixels.
 Specifies the component's horizontal width as a percentageof the Width of its parent Component.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Switch%22,%20%22name%22:%20%22Width%20Percent%22,%20%22getter%22:%20false%7D"></div>
-
-### is Checked
-
-<span style="user-select: none;"><span class="chip chip-boolean">Boolean</span>&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<span class="chip chip-rw">Read</span>&#32;-&#32;<span class="chip chip-bd">Blocks</span>&#32;</span>
-
-Return true if the switch is checked else false.
-
-<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Switch%22,%20%22name%22:%20%22is%20Checked%22,%20%22getter%22:%20true%7D"></div>

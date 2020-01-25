@@ -193,14 +193,6 @@ Paste text from clipboard. In case 'Show Success Toast' is true, the toast with 
 
 ## Properties
 
-### API Version
-
-<span style="user-select: none;"><span class="chip chip-number">Number</span>&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<span class="chip chip-rw">Read</span>&#32;-&#32;<span class="chip chip-bd">Blocks</span>&#32;</span>
-
-The user-visible SDK version of the framework.
-
-<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22API%20Version%22,%20%22getter%22:%20true%7D"></div>
-
 ### Android Version
 
 <span style="user-select: none;"><span class="chip chip-text">Text</span>&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<span class="chip chip-rw">Read</span>&#32;-&#32;<span class="chip chip-bd">Blocks</span>&#32;</span>
@@ -208,6 +200,14 @@ The user-visible SDK version of the framework.
 Get the android version of device.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Android%20Version%22,%20%22getter%22:%20true%7D"></div>
+
+### API Version
+
+<span style="user-select: none;"><span class="chip chip-number">Number</span>&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<span class="chip chip-rw">Read</span>&#32;-&#32;<span class="chip chip-bd">Blocks</span>&#32;</span>
+
+The user-visible SDK version of the framework.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22API%20Version%22,%20%22getter%22:%20true%7D"></div>
 
 ### Board
 
