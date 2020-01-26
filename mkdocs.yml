@@ -56,8 +56,8 @@ plugins:
   - git-revision-date-localized
 # - jekyll-redirect-from
   - mkpdfs:
-    - company: Junnovate, LLC
-    - author: Kodular Creator
+      company: Junnovate, LLC
+      author: Kodular Creator
   - cordova
 
 #Markdown extensions: https://python-markdown.github.io/extensions/
