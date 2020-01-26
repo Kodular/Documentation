@@ -55,9 +55,7 @@ plugins:
       minify_html: true
   - git-revision-date-localized
 #  - jekyll-redirect-from
-  - pdf-export:
-      company: Junnovate, LLC
-      author: Kodular Creator
+#  - pdf-export
 #  - cordova
 
 #Markdown extensions: https://python-markdown.github.io/extensions/

@@ -6,6 +6,6 @@ mkdocs-minify-plugin
 mkdocs-git-revision-date-localized-plugin
 pygments
 pymdown-extensions
-mkdocs-pdf-export-plugin
+# mkdocs-pdf-export-plugin
 # mkdocs-cordova-plugin
 -e git://github.com/Barreeeiroo/mkdocs-replace-plugin.git#egg=replace
