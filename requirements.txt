@@ -8,3 +8,5 @@ pymdown-extensions
 mkpdfs-mkdocs
 mkdocs-cordova-plugin
 -e git://github.com/Barreeeiroo/mkdocs-replace-plugin.git#egg=replace
+# For PDFs
+cairo>=1.15.4
