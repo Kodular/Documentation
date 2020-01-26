@@ -2,8 +2,11 @@ sudo: false
 language: python
 python: "3.6"
 install:
-  - easy_install distribute
+  # For Android App
   - npm install -g cordova
+  # For PDF Files
+  - sudo apt install libgirepository1.0-dev sudo apt install libcairo2-dev
+  - easy_install distribute
   - pip install -r requirements.txt
   - export PYTHONPATH="${PYTHONPATH}:${TRAVIS_BUILD_DIR}"
 script:
