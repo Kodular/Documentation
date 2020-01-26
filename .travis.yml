@@ -16,11 +16,10 @@ install:
   - curl -sL https://deb.nodesource.com/setup_13.x | sudo -E bash -
   - sudo apt-get install -y nodejs build-essential libcairo2-dev
   # NPM Packages
-  - npm install -g cordova
+  - sudo npm install -g cordova
   # Python Packages
-  - easy_install distribute
-  - pip install -r requirements.txt
-  - export PYTHONPATH="${PYTHONPATH}:${TRAVIS_BUILD_DIR}"
+  - sudo easy_install distribute
+  - sudo pip install -r requirements.txt
 
 script:
   - git clean -f -d -x
