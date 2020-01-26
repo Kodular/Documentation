@@ -12,14 +12,14 @@ android:
 install:
   # APT Packages
   - sudo apt-get update
-  - sudo apt-get install -y make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev libncursesw5-dev xz-utils tk-dev
+  - sudo apt-get install -y make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev libncursesw5-dev xz-utils tk-dev libffi-dev libssl-dev
   - curl -sL https://deb.nodesource.com/setup_13.x | sudo -E bash -
   - sudo apt-get install -y nodejs build-essential libcairo2-dev
   # NPM Packages
   - sudo npm install -g cordova
   # Python Packages
   - sudo easy_install distribute
-  - sudo pip install -r requirements.txt
+  - sudo pip3 install -r requirements.txt
 
 script:
   - git clean -f -d -x
