@@ -31,7 +31,8 @@ script:
 
 
 after_success:
-  - mkdocscombine -o mydocs.pd
+  - cd docs
+  - mkdocscombine -f $TRAVIS_BUILD_DIR/mkdocs.yml -o mydocs.pd
 
 
 before_deploy:

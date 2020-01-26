@@ -1,6 +1,6 @@
 # Kodular Eagle
 
-![Kodular Eagle](//assets.kodular.io/images/creator/versions/eagle2.png)
+![Kodular Eagle](https://assets.kodular.io/images/creator/versions/eagle2.png)
 
 ## 1.4 Eagle   \|   _17 August 2019_
 
