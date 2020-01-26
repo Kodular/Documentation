@@ -6,7 +6,7 @@
 |:--------:|:-------:|:--------:|
 |**Experimental**|<span class="chip chip-any">API 21, Android 5.0 Lollipop</span>|<span class="chip chip-number">1</span>|
 
-:warning: ==Using this component will increase the **Minimum Android SDK** of your app (_API 19, Android 4.4 - 4.4.4 KitKat_ -> _API 21, Android 5.0 Lollipop_)==
+==This component requires a higher **Minimum Android SDK** in your app (_API 19, Android 4.4 - 4.4.4 KitKat_ -> _API 21, Android 5.0 Lollipop_)==
 
 ## Overview
 
