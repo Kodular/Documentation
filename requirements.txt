@@ -6,4 +6,4 @@ mkdocs-git-revision-date-localized-plugin
 pygments
 pymdown-extensions
 -e git://github.com/Barreeeiroo/mkdocs-replace-plugin.git#egg=replace
-mkdocs-pdf-export-plugin
+mkpdfs-mkdocs
