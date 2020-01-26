@@ -47,6 +47,7 @@ extra_javascript:
   - 'https://code.jquery.com/jquery-3.3.1.min.js'
   - assets/js/extra.js
   - assets/js/blockly_compressed.js
+  - search/search_index.js
 
 plugins:
   - search
@@ -54,6 +55,7 @@ plugins:
   - minify:
       minify_html: true
   - git-revision-date-localized
+  - localsearch
 
 #Markdown extensions: https://python-markdown.github.io/extensions/
 markdown_extensions:
