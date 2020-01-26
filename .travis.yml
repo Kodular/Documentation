@@ -3,18 +3,6 @@ sudo: false
 language: python
 python: "3.8"
 
-addons:
-  apt:
-    packages:
-      - fonts-lmodern
-      - lmodern
-      - pandoc
-      - texlive-base
-      - texlive-latex-extra
-      - texlive-fonts-recommended
-      - texlive-latex-recommended
-      - texlive-xetex
-
 
 before_install:
   - easy_install distribute

@@ -1,4 +1,3 @@
-requests[security]
 markdown-include
 mkdocs
 mkdocs-material
@@ -7,4 +6,4 @@ mkdocs-git-revision-date-localized-plugin
 pygments
 pymdown-extensions
 -e git://github.com/Barreeeiroo/mkdocs-replace-plugin.git#egg=replace
-git+https://github.com/twardoch/mkdocs-combine.git
+mkdocs-pdf-export-plugin
