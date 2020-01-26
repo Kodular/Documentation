@@ -18,15 +18,6 @@ script:
   - mkdocs build
 
 
-after_success:
-  - cd docs
-  - mkdocscombine -f $TRAVIS_BUILD_DIR/mkdocs.yml -o mydocs.pd
-
-
-before_deploy:
-  - pandoc --toc -o mydocs.pdf mydocs.pd
-  - pandoc --toc -o mydocs.epub mydocs.pd
-
 deploy:
   - provider: script
     script: bash $TRAVIS_BUILD_DIR/.travis/deploy.sh
