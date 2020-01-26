@@ -20,9 +20,6 @@ install:
   # NPM Packages
   - sudo npm install -g cordova
   # Python Packages
-  - sudo pip3 install virtualenv
-  - virtualenv -p python3.6 venv
-  - source venv/bin/activate
   - easy_install distribute
   - pip3 install -r requirements.txt
 
