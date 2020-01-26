@@ -10,7 +10,8 @@ repo_url: https://github.com/Kodular/Documentation
 edit_uri: blob/master/docs/
 
 #Copyright text in the footer
-copyright: Copyright &copy; 2020 Kodular
+copyright: Kodular Creator
+copyright2: Junnovate, LLC &copy; 2020
 
 # Customization
 extra:
@@ -51,21 +52,17 @@ extra_javascript:
 
 plugins:
   - search
-  - replace
   - minify:
       minify_html: true
   - git-revision-date-localized
-  - localsearch
 
-#Markdown extensions: https://python-markdown.github.io/extensions/
 markdown_extensions:
+  - codehilite
+  # Markdown extensions: https://python-markdown.github.io/extensions/
   - markdown.extensions.admonition
   - markdown.extensions.toc:
       permalink: 'true'
-  - markdown_include.include:
-      base_path: docs
   - markdown.extensions.attr_list
-  - codehilite
   # PyMdown Extensions
   - pymdownx.caret
   - pymdownx.critic
