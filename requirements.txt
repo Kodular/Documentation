@@ -5,4 +5,5 @@ mkdocs-minify-plugin
 mkdocs-git-revision-date-localized-plugin
 pygments
 pymdown-extensions
+mkdocs-localsearch
 -e git://github.com/Barreeeiroo/mkdocs-replace-plugin.git#egg=replace
