@@ -1,10 +1,10 @@
 # Yandex Translate
 
+{>> Non-Visible component<<}
+
 | Category | Requires | Version |
 |:--------:|:-------:|:--------:|
 |**Media**|<span class="chip chip-any">API 19, Android 4.4 - 4.4.4 KitKat</span>|<span class="chip chip-number">2</span>|
-
-:mag: {>>Non-Visible component<<}
 
 ## Overview
 

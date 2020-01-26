@@ -1,10 +1,10 @@
 # Package Utilities
 
+{>> Non-Visible component<<}
+
 | Category | Requires | Version |
 |:--------:|:-------:|:--------:|
 |**Utilities**|<span class="chip chip-any">API 19, Android 4.4 - 4.4.4 KitKat</span>|<span class="chip chip-number">3</span>|
-
-:mag: {>>Non-Visible component<<}
 
 ## Overview
 
