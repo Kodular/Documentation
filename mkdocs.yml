@@ -24,6 +24,9 @@ extra:
     - type: github
       link: https://github.com/Kodular
   adsense: "ca-pub-9439286719204795"
+  platform: ['android']
+  package_name: io.kodular.docs
+  version: 0.0.1
 
 # Material theme for MkDocs : https://github.com/squidfunk/mkdocs-material/
 theme:
