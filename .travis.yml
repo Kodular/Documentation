@@ -1,6 +1,8 @@
 sudo: false
-language: python
+
+language: android
 python: "3.6"
+
 install:
   # For Android App
   - npm install -g cordova
@@ -9,9 +11,11 @@ install:
   - easy_install distribute
   - pip install -r requirements.txt
   - export PYTHONPATH="${PYTHONPATH}:${TRAVIS_BUILD_DIR}"
+
 script:
   - git clean -f -d -x
   - mkdocs build
+
 after_success:
   - git config user.name "Kodular Bot"
   - git config user.email "github@kodular.io"
