@@ -8,11 +8,3 @@ pygments
 pymdown-extensions
 -e git://github.com/Barreeeiroo/mkdocs-replace-plugin.git#egg=replace
 git+https://github.com/twardoch/mkdocs-combine.git
-fonts-lmodern
-lmodern
-pandoc
-texlive-base
-texlive-latex-extra
-texlive-fonts-recommended
-texlive-latex-recommended
-texlive-xetex
