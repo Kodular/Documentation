@@ -54,10 +54,10 @@ plugins:
   - minify:
       minify_html: true
   - git-revision-date-localized
-# - jekyll-redirect-from
-  - mkpdfs:
-      company: Junnovate, LLC
-      author: Kodular Creator
+#  - jekyll-redirect-from
+#  - mkpdfs:
+#      company: Junnovate, LLC
+#      author: Kodular Creator
   - cordova
 
 #Markdown extensions: https://python-markdown.github.io/extensions/
