@@ -20,8 +20,8 @@ install:
   # NPM Packages
   - sudo npm install -g cordova
   # Python Packages
-  - easy_install distribute
-  - pip3 install -r requirements.txt
+  - sudo easy_install distribute
+  - sudo pip3 install -r requirements.txt
 
 script:
   - git clean -f -d -x
