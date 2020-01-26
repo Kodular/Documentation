@@ -54,9 +54,6 @@ plugins:
   - minify:
       minify_html: true
   - git-revision-date-localized
-  - mkpdfs:
-      company: Junnovate, LLC
-      author: Kodular Creator
 
 #Markdown extensions: https://python-markdown.github.io/extensions/
 markdown_extensions:
