@@ -1,13 +1,25 @@
-sudo: false
+sudo: true
 
 language: android
 python: "3.6"
 
+android:
+  components:
+    - tools
+    - platform-tools
+    - android-29
+
 install:
-  # For PDF Files and Android App
-  - sudo apt install libcairo2-dev nodejs npm
-  # For Android App
+  # APT Packages
+  - sudo apt-get update
+  - sudo apt-get install -y make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev libncursesw5-dev xz-utils tk-dev
+  - curl -sL https://deb.nodesource.com/setup_13.x | sudo -E bash -
+  - sudo apt-get install -y nodejs
+  - sudo apt-get install -y build-essential
+  - sudo apt-get install -y libcairo2-dev nodejs npm
+  # NPM Packages
   - npm install -g cordova
+  # Python Packages
   - easy_install distribute
   - pip install -r requirements.txt
   - export PYTHONPATH="${PYTHONPATH}:${TRAVIS_BUILD_DIR}"
