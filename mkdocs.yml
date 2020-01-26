@@ -24,9 +24,6 @@ extra:
     - type: github
       link: https://github.com/Kodular
   adsense: "ca-pub-9439286719204795"
-  platform: ['android']
-  package_name: io.kodular.docs
-  version: 0.0.1
 
 # Material theme for MkDocs : https://github.com/squidfunk/mkdocs-material/
 theme:
@@ -58,10 +55,10 @@ plugins:
       minify_html: true
   - git-revision-date-localized
 #  - jekyll-redirect-from
-#  - mkpdfs:
-#      company: Junnovate, LLC
-#      author: Kodular Creator
-  - cordova
+  - mkpdfs:
+      company: Junnovate, LLC
+      author: Kodular Creator
+#  - cordova
 
 #Markdown extensions: https://python-markdown.github.io/extensions/
 markdown_extensions:

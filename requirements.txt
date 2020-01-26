@@ -7,5 +7,5 @@ mkdocs-git-revision-date-localized-plugin
 pygments
 pymdown-extensions
 mkpdfs-mkdocs
-mkdocs-cordova-plugin
+# mkdocs-cordova-plugin
 -e git://github.com/Barreeeiroo/mkdocs-replace-plugin.git#egg=replace
