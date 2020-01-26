@@ -55,7 +55,7 @@ plugins:
       minify_html: true
   - git-revision-date-localized
 #  - jekyll-redirect-from
-  - mkpdfs:
+  - pdf-export:
       company: Junnovate, LLC
       author: Kodular Creator
 #  - cordova
