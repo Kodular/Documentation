@@ -31,14 +31,12 @@ script:
 
 
 after_success:
-  - cd docs
   - mkdocscombine -o mydocs.pd
 
 
 before_deploy:
   - pandoc --toc -o mydocs.pdf mydocs.pd
   - pandoc --toc -o mydocs.epub mydocs.pd
-  - cd ..
 
 deploy:
   - provider: script
