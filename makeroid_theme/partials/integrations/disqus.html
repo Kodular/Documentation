@@ -1,13 +1,15 @@
-<div class="metadata page-metadata" data-bi-name="page info" lang="en-us" dir="ltr">
-    <span class="contributors-text">Contributors</span>
-    <ul class="contributors" data-bi-name="contributors">
-        {%- for user in committers -%}
-        <li>
-            <a href="{{ user.repos }}" title="{{ user.name }}" data-bi-name="contributorprofile">
-                <img class="contributor-avatar" src="../img/contributor.svg" data-src="{{ user.avatar }}"
-                     alt="{{ user.name }}">
-            </a>
-        </li>
-        {%- endfor -%}
-    </ul>
-</div>
+<ul class="metadata page-metadata" data-bi-name="page info" lang="en-us" dir="ltr">
+    <li class="contributors-holder">
+        <span class="contributors-text">Contributors</span>
+        <ul class="contributors" data-bi-name="contributors">
+            {%- for user in committers -%}
+            <li>
+                <a href="{{ user.repos }}" title="{{ user.name }}" data-bi-name="contributorprofile">
+                    <img class="contributor-avatar" src="../img/contributor.svg" data-src="{{ user.avatar }}"
+                         alt="{{ user.name }}">
+                </a>
+            </li>
+            {%- endfor -%}
+        </ul>
+    </li>
+</ul>

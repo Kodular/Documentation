@@ -8,7 +8,7 @@ $(document).ready(function () {
 
     // Lightbox
     // event.preventDefault();
-    $(this).ekkoLightbox();
+    // $(this).ekkoLightbox();
 
 
     $('.contributors img[data-src]').each(function () {
