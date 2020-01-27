@@ -55,10 +55,6 @@ plugins:
   - minify:
       minify_html: true
   - git-revision-date-localized
-  - git-committers:
-      repository: Kodular/Documentation
-      branch: master
-      token: !!python/object/apply:os.getenv ["GH_TOKEN"]
 
 markdown_extensions:
   - codehilite

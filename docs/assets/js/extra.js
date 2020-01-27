@@ -9,11 +9,6 @@ $(document).ready(function () {
     // Lightbox
     // event.preventDefault();
     // $(this).ekkoLightbox();
-
-
-    $('.contributors img[data-src]').each(function () {
-        $(this).attr('src', $(this).attr("data-src"));
-    });
 });
 
 
