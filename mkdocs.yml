@@ -58,7 +58,7 @@ plugins:
   - git-committers:
       repository: Kodular/Documentation
       branch: master
-      token: !!python/object/apply:os.getenv ["MKDOCS_GIT_COMMITTERS_APIKEY"]
+      token: !!python/object/apply:os.getenv ["GH_TOKEN"]
 
 markdown_extensions:
   - codehilite
