@@ -1,101 +1,101 @@
 @font-face {
-  font-family: Jost;
-  src: url('../fonts/Jost-100-Hairline.otf') format('opentype');
-  font-weight: 100;
-  font-style: normal;
+    font-family: Jost;
+    src: url('../fonts/Jost-100-Hairline.otf') format('opentype');
+    font-weight: 100;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: Jost;
-  src: url('../fonts/Jost-200-Thin.otf') format('opentype');
-  font-weight: 200;
-  font-style: normal;
+    font-family: Jost;
+    src: url('../fonts/Jost-200-Thin.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: Jost;
-  src: url('../fonts/Jost-300-Light.otf') format('opentype');
-  font-weight: 300;
-  font-style: normal;
+    font-family: Jost;
+    src: url('../fonts/Jost-300-Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: Jost;
-  src: url('../fonts/Jost-400-Book.otf') format('opentype');
-  font-weight: 400;
-  font-style: normal;
+    font-family: Jost;
+    src: url('../fonts/Jost-400-Book.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: Jost;
-  src: url('../fonts/Jost-500-Medium.otf') format('opentype');
-  font-weight: 500;
-  font-style: normal;
+    font-family: Jost;
+    src: url('../fonts/Jost-500-Medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: Jost;
-  src: url('../fonts/Jost-600-Semi.otf') format('opentype');
-  font-weight: 600;
-  font-style: normal;
+    font-family: Jost;
+    src: url('../fonts/Jost-600-Semi.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: Jost;
-  src: url('../fonts/Jost-700-Bold.otf') format('opentype');
-  font-weight: 700;
-  font-style: normal;
+    font-family: Jost;
+    src: url('../fonts/Jost-700-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: Jost;
-  src: url('../fonts/Jost-800-Heavy.otf') format('opentype');
-  font-weight: 800;
-  font-style: normal;
+    font-family: Jost;
+    src: url('../fonts/Jost-800-Heavy.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: Jost;
-  src: url('../fonts/Jost-900-Black.otf') format('opentype');
-  font-weight: 900;
-  font-style: normal;
+    font-family: Jost;
+    src: url('../fonts/Jost-900-Black.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
 }
 
 .preview-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 
 .img-caption {
-  text-align:center;
-  color: rgba(0,0,0,.54)
+    text-align: center;
+    color: rgba(0, 0, 0, .54)
 }
 
 thead tr th:first-child,
 tbody tr td:first-child {
-  width: 10em;
-  max-width: 10em;
-  word-break: break-all;
+    width: 10em;
+    max-width: 10em;
+    word-break: break-all;
 }
 
 tr td:nth-child(1) {
-  background: #dcdce269;
+    background: #dcdce269;
 }
 
 .md-typeset .md-typeset__table {
-  display: block;
+    display: block;
 }
 
 .keyword {
-  border-style: dashed;
-  border-radius: 10px;
-  border-width: 1.5px;
-  border-color: #f500579b;
-  padding: 3px;
-  font-style: italic;
+    border-style: dashed;
+    border-radius: 10px;
+    border-width: 1.5px;
+    border-color: #f500579b;
+    padding: 3px;
+    font-style: italic;
 }
 
 
@@ -105,255 +105,297 @@ tr td:nth-child(1) {
  */
 
 .browser-mockup {
-  border-top: 2em solid rgba(230, 230, 230, 0.7);
-  box-shadow: 0 0.1em 1em 0 rgba(0, 0, 0, 0.4);
-  position: relative;
-  border-radius: 3px 3px 0 0
+    border-top: 2em solid rgba(230, 230, 230, 0.7);
+    box-shadow: 0 0.1em 1em 0 rgba(0, 0, 0, 0.4);
+    position: relative;
+    border-radius: 3px 3px 0 0
 }
 
 .browser-mockup:before {
-  display: block;
-  position: absolute;
-  content: '';
-  top: -1.25em;
-  left: 1em;
-  width: 0.5em;
-  height: 0.5em;
-  border-radius: 50%;
-  background-color: #f44;
-  box-shadow: 0 0 0 2px #f44, 1.5em 0 0 2px #9b3, 3em 0 0 2px #fb5;
+    display: block;
+    position: absolute;
+    content: '';
+    top: -1.25em;
+    left: 1em;
+    width: 0.5em;
+    height: 0.5em;
+    border-radius: 50%;
+    background-color: #f44;
+    box-shadow: 0 0 0 2px #f44, 1.5em 0 0 2px #9b3, 3em 0 0 2px #fb5;
 }
 
 .browser-mockup.with-tab:after {
-  display: block;
-  position: absolute;
-  content: '';
-  top: -2em;
-  left: 5.5em;
-  width: 20%;
-  height: 0em;
-  border-bottom: 2em solid white;
-  border-left: 0.8em solid transparent;
-  border-right: 0.8em solid transparent;
+    display: block;
+    position: absolute;
+    content: '';
+    top: -2em;
+    left: 5.5em;
+    width: 20%;
+    height: 0em;
+    border-bottom: 2em solid white;
+    border-left: 0.8em solid transparent;
+    border-right: 0.8em solid transparent;
 }
 
 .browser-mockup.with-url:after {
-  display: block;
-  position: absolute;
-  content: '';
-  top: -1.6em;
-  left: 5.5em;
-  width: calc(100% - 6em);
-  height: 1.2em;
-  border-radius: 2px;
-  background-color: white;
+    display: block;
+    position: absolute;
+    content: '';
+    top: -1.6em;
+    left: 5.5em;
+    width: calc(100% - 6em);
+    height: 1.2em;
+    border-radius: 2px;
+    background-color: white;
 }
 
 .browser-mockup > * {
-  display: block;
+    display: block;
 }
 
 #carbonads {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  display: block;
-  overflow: hidden;
-  margin-bottom: 15px;
-  border-radius: 4px;
-  text-align: center;
-  box-shadow: 0 0 0 1px hsla(0, 0%, 0%, .1);
-  background-color: hsl(0, 0%, 98%);
-  line-height: 1.5;
-  font-size: 12px;
-  padding: 13px;
-  border: 1px solid #ccc;
-  max-width: calc(100% - 15px);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    display: block;
+    overflow: hidden;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    text-align: center;
+    box-shadow: 0 0 0 1px hsla(0, 0%, 0%, .1);
+    background-color: hsl(0, 0%, 98%);
+    line-height: 1.5;
+    font-size: 12px;
+    padding: 13px;
+    border: 1px solid #ccc;
+    max-width: calc(100% - 15px);
 }
 
 #carbonads a {
-  color: inherit;
-  text-decoration: none;
+    color: inherit;
+    text-decoration: none;
 }
 
 #carbonads a:hover {
-  color: inherit;
+    color: inherit;
 }
 
 #carbonads span {
-  position: relative;
-  display: block;
-  overflow: hidden;
+    position: relative;
+    display: block;
+    overflow: hidden;
 }
 
 .carbon-img {
-  display: block;
-  margin-bottom: 5px;
-  line-height: 1;
+    display: block;
+    margin-bottom: 5px;
+    line-height: 1;
 }
 
 .carbon-text {
-  display: block;
-  margin-bottom: 5px;
-  padding: 0 1em 5px;
+    display: block;
+    margin-bottom: 5px;
+    padding: 0 1em 5px;
 }
 
 .carbon-poweredby {
-  display: block;
-  padding: 10px 12px;
-  background: repeating-linear-gradient(-45deg, transparent, transparent 5px, hsla(0, 0%, 0%, .025) 5px, hsla(0, 0%, 0%, .025) 10px) hsla(203, 11%, 95%, .4);
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  font-weight: 600;
-  font-size: 9px;
-  line-height: 0;
+    display: block;
+    padding: 10px 12px;
+    background: repeating-linear-gradient(-45deg, transparent, transparent 5px, hsla(0, 0%, 0%, .025) 5px, hsla(0, 0%, 0%, .025) 10px) hsla(203, 11%, 95%, .4);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size: 9px;
+    line-height: 0;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 759px) {
-  #carbonads {
-    float: none;
-    margin: 0 auto;
-    max-width: 330px;
-  }
-  #carbonads span {
-    position: relative;
-  }
-  #carbonads > span {
-    max-width: none;
-  }
-  .carbon-img {
-    float: left;
-    margin: 0;
-  }
+    #carbonads {
+        float: none;
+        margin: 0 auto;
+        max-width: 330px;
+    }
 
-  .carbon-img img {
-    max-width: 130px !important;
-  }
-  .carbon-text {
-    float: left;
-    margin-bottom: 0;
-    padding: 8px 20px;
-    text-align: left;
-    max-width: calc(100% - 130px - 3em);
-  }
-  .carbon-poweredby {
-    left: 130px;
-    bottom: 0;
-    display: block;
-    width: 100%;
-  }
+    #carbonads span {
+        position: relative;
+    }
+
+    #carbonads > span {
+        max-width: none;
+    }
+
+    .carbon-img {
+        float: left;
+        margin: 0;
+    }
+
+    .carbon-img img {
+        max-width: 130px !important;
+    }
+
+    .carbon-text {
+        float: left;
+        margin-bottom: 0;
+        padding: 8px 20px;
+        text-align: left;
+        max-width: calc(100% - 130px - 3em);
+    }
+
+    .carbon-poweredby {
+        left: 130px;
+        bottom: 0;
+        display: block;
+        width: 100%;
+    }
 }
 
 .block {
-  margin: 10px;
+    margin: 10px;
 }
 
 /* Same as the one on Kodular Creator - for event parameter styling*/
-.event-parameter>rect {
-  fill: rgb(222, 143, 108);
-  fill-opacity: 1.0;
-  stroke: rgb(231, 175, 150);
-  stroke-width: 2;
+.event-parameter > rect {
+    fill: rgb(222, 143, 108);
+    fill-opacity: 1.0;
+    stroke: rgb(231, 175, 150);
+    stroke-width: 2;
 }
 
 h1 {
-  font-family: Jost;
-  font-weight: 400 !important;
+    font-family: Jost;
+    font-weight: 400 !important;
 }
 
 h2 {
-  border-bottom: 1px rgba(0,0,0,.17) solid;
-  font-family: Jost;
-  font-weight: 400 !important;
-  color: #444;
+    border-bottom: 1px rgba(0, 0, 0, .17) solid;
+    font-family: Jost;
+    font-weight: 400 !important;
+    color: #444;
 }
 
 h3 {
-  font-family: Jost;
-  font-weight: 400 !important;
+    font-family: Jost;
+    font-weight: 400 !important;
 }
 
 
 sub-header {
-  font-family: Jost;
-  font-weight: 400 !important;
-	color: #666;
+    font-family: Jost;
+    font-weight: 400 !important;
+    color: #666;
 }
 
 code {
-  border-radius: 5px !important;
+    border-radius: 5px !important;
 }
 
 .md-header-nav__topic {
-  font-family: Jost;
+    font-family: Jost;
 }
 
 img[src*="#phone"] {
-  height: 300px !important;
-  display: block;
-  margin: 0 auto;
+    height: 300px !important;
+    display: block;
+    margin: 0 auto;
 }
 
 img[src*="#phInline"] {
-  height: 300px !important;
-  margin: 0 auto;
-	display: inline;
+    height: 300px !important;
+    margin: 0 auto;
+    display: inline;
 }
 
 img[src*="#animationUtilsPreview"] {
-  height: 300px !important;
-	float: right;
+    height: 300px !important;
+    float: right;
 }
 
 #pre-requisites {
-  border-bottom: 0;
-	margin-bottom: 0;
+    border-bottom: 0;
+    margin-bottom: 0;
 }
 
 #pre-requisites + p {
-	margin-top: 0;
-	border-bottom: 1px rgba(0,0,0,.17) solid;
+    margin-top: 0;
+    border-bottom: 1px rgba(0, 0, 0, .17) solid;
 }
 
 .chip {
-  box-sizing: border-box;
-  color: white;
-  padding: 1pt 4pt 1.5pt 3pt;
-  border-radius: 4pt;
-  user-select: none;
+    box-sizing: border-box;
+    color: white;
+    padding: 1pt 4pt 1.5pt 3pt;
+    border-radius: 4pt;
+    user-select: none;
 }
 
 .chip-rw, .chip-unknown {
-  background-color: rgb(200, 200, 200);
-  color: rgb(0, 0, 0);
+    background-color: rgb(200, 200, 200);
+    color: rgb(0, 0, 0);
 }
 
 .chip-bd {
-  background-color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
 }
 
 .chip-number {
-  background-color: rgb(63, 113, 181);
+    background-color: rgb(63, 113, 181);
 }
 
 .chip-text {
-  background-color: rgb(179, 45, 94);
+    background-color: rgb(179, 45, 94);
 }
 
 .chip-list {
-  background-color: rgb(73, 166, 212);
+    background-color: rgb(73, 166, 212);
 }
 
 .chip-color {
-  background-color: rgb(125, 125, 125);
+    background-color: rgb(125, 125, 125);
 }
 
 .chip-boolean {
-  background-color: rgb(119, 171, 65);
+    background-color: rgb(119, 171, 65);
 }
 
 .chip-component {
-  background-color: rgb(139, 195, 74);
+    background-color: rgb(139, 195, 74);
 }
 
 .chip-any {
-  background-color: rgb(208, 95, 45);
+    background-color: rgb(208, 95, 45);
+}
+
+.metadata {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 15px;
+    color: #999;
+    font-size: 0.85em;
+}
+
+.metadata.page-metadata .contributors-text {
+    margin-right: 5px
+}
+
+body[dir=rtl] .metadata.page-metadata .contributors-text {
+    margin-right: 0;
+    margin-left: 5px
+}
+
+.page-metadata .contributors {
+    display: inline-block;
+    list-style: none;
+    margin: 0 !important;
+    padding: 0 !important
+}
+
+.page-metadata .contributors li {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+    padding: 0
+}
+
+.contributor-avatar {
+    max-width: 40px;
+    border-radius: 50%;
 }
