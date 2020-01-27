@@ -1,94 +1,188 @@
 # Checkbox
 
-A **checkbox** is a GUI widget that allows the user to make a binary choice, i.e. a choice between one of two possible mutually exclusive options. For example, the user may have to answer 'yes' \(checked\) or 'no' \(not checked\) on a simple yes/no question.
+| Category | Requires | Version |
+|:--------:|:-------:|:--------:|
+|**User Interface**|<span class="chip chip-any">API 19, Android 4.4 - 4.4.4 KitKat</span>|<span class="chip chip-number">6</span>|
 
-Often, a series of checkboxes are presented, each representing different options. Then the user may select several of the choices. 
+## Overview
 
-The difference between a Radio button and a checkbox is that a checkbox allows the user to select multiple options from a set, while a Radio Button allows the user to select only one option from a set.
+Checkbox that raises an event when the user clicks on it. There are many properties affecting its appearance that can be set in the Designer or Blocks Editor.
 
+## Events
 
+### Changed
 
-## Properties
+Default Changed event handler.
 
-{!includes/bgcolor-property.md!}
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Checkbox%22,%20%22name%22:%20%22Changed%22,%20%22param%22:%20%5B%5D%7D"></div>
 
+### Click
 
-### Checkbox Color
+Indicates a user has clicked on the checkbox.
 
-![](/assets/images/components/user-interface/checkbox/d_checkbox-color.png) ![](/assets/images/components/user-interface/checkbox/p_checkbox-color.png)
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Checkbox%22,%20%22name%22:%20%22Click%22,%20%22param%22:%20%5B%5D%7D"></div>
 
-_**\(** Getter + Setter **\)**  
-`Type: Color`_
+### Got Focus
 
-The color of the checkbox displayed. This determines only the color of the checkbox and 
-not its text.
-See _[Text Color](#text-color)_ for the color of the text.
+Default GotFocus event handler.
 
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Checkbox%22,%20%22name%22:%20%22Got%20Focus%22,%20%22param%22:%20%5B%5D%7D"></div>
 
-### Checked
+### Lost Focus
 
-![](/assets/images/components/user-interface/checkbox/d_checked.png) ![](/assets/images/components/user-interface/checkbox/p_checked.png)
+Default LostFocus event handler.
 
-_**\(** Getter + Setter **\)**  
-`Type: Boolean`_
-
-Determines whether the **Checkbox** is checked or not.
-`true` if checked, `false` otherwise.
-
-{!includes/enabled-property.md!}
-
-{!includes/text-property.md!}
-
-{!includes/height-property.md!}
-
-{!includes/width-property.md!}
-
-{!includes/visible-property.md!}
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Checkbox%22,%20%22name%22:%20%22Lost%20Focus%22,%20%22param%22:%20%5B%5D%7D"></div>
 
 ## Methods
 
 ### Set Shadow
 
-![](/assets/images/components/user-interface/checkbox/m_set-shadow.jpg)
+Place a blurred shadow of text underneath the text, drawn with the specified x, y, radius, color (e.g. -11, 12, 13, black
 
-_**\(** Number `x`, Number `y`, Number `radius`, Color `color` **\)**_ 
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Checkbox%22,%20%22name%22:%20%22Set%20Shadow%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22x%22,%20%22y%22,%20%22radius%22,%20%22color%22%5D%7D"></div>
 
-Adds a shadow to the checkbox.
+| Params | []() |
+|--------|------|
+|x|<span class="chip chip-number">Number</span>|
+|y|<span class="chip chip-number">Number</span>|
+|radius|<span class="chip chip-number">Number</span>|
+|color|<span class="chip chip-number">Number</span>|
 
-Params           |  []()       
----------------- | ------- 
-`x`              | **Number:**  The x-displacement of the shadow.
-`y`              | **Number:**  The y-displacement of the shadow.
-`radius`         | **Number:**  The radius of the shadow.
-`color`          | **Color:**  The color of the shadow.
+## Properties
 
+### Background Color
 
-## Events
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-color">Color</span> <span class="chip chip-color">Default: <i>#FFFFFF00</i>&nbsp;<span style="width: 15px; height: 15px; margin: auto; display: inline-block; border: 1px solid white; vertical-align: middle; border-radius: 3px; background-color: #FFFFFF;"></span></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
 
+Returns the checkbox's background color as an alpha-red-green-blueinteger.
 
-### Changed
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Checkbox%22,%20%22name%22:%20%22Background%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Checkbox%22,%20%22name%22:%20%22Background%20Color%22,%20%22getter%22:%20false%7D"></div>
 
-![](/assets/images/components/user-interface/checkbox/e_changed.png)
+### Checkbox Color
 
-_**\(** None **\)**_
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-color">Color</span> <span class="chip chip-color">Default: <i>#000000FF</i>&nbsp;<span style="width: 15px; height: 15px; margin: auto; display: inline-block; border: 1px solid white; vertical-align: middle; border-radius: 3px; background-color: #000000;"></span></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
 
-Indicates that the user has checked or unchecked the **Checkbox**.
-Use the `Getter` block of _[Checked](#checked)_ property inside this Event's block to know the current status.
+Change the checkbox component color.
 
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Checkbox%22,%20%22name%22:%20%22Checkbox%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Checkbox%22,%20%22name%22:%20%22Checkbox%20Color%22,%20%22getter%22:%20false%7D"></div>
 
-### Got Focus
+### Checked
 
-![](/assets/images/components/user-interface/checkbox/e_got-focus.png)
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>False</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
 
-_**\(** None **\)**_
+Returns true if the checkbox is checked.
 
-Indicates the has been cursor moved over the **Checkbox** so it is now possible to click it.
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Checkbox%22,%20%22name%22:%20%22Checked%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Checkbox%22,%20%22name%22:%20%22Checked%22,%20%22getter%22:%20false%7D"></div>
 
+### Enabled
 
-### Lost Focus
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
 
-![](/assets/images/components/user-interface/checkbox/e_lost-focus.png)
+Returns true if the checkbox is active and clickable.
 
-_**\(** None **\)**_
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Checkbox%22,%20%22name%22:%20%22Enabled%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Checkbox%22,%20%22name%22:%20%22Enabled%22,%20%22getter%22:%20false%7D"></div>
 
-Indicates the cursor moved away from the **Checkbox** so it is now no longer possible to click it.
+### Font Bold
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>False</i></span> :heavy_minus_sign: <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span></span>
+
+Returns true if the checkbox's text should be bold  
+If bold has been requested, this property will return true, even if thefont does not support bold.
+
+### Font Italic
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>False</i></span> :heavy_minus_sign: <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span></span>
+
+Returns true if the checkbox's text should be italic  
+If italic has been requested, this property will return true, even if thefont does not support italic.
+
+### Font Size
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>14.0</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
+
+Returns the checkbox's text's font size, measured in sp(scale-independent pixels).
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Checkbox%22,%20%22name%22:%20%22Font%20Size%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Checkbox%22,%20%22name%22:%20%22Font%20Size%22,%20%22getter%22:%20false%7D"></div>
+
+### Font Typeface
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>0</i></span> :heavy_minus_sign: <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span></span>
+
+Returns the checkbox's text's font face as default, serif, sansserif, or monospace.
+
+### Font Typeface Import
+
+<small>Available as ^^Advanced^^ Property</small>
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span> :heavy_minus_sign: <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
+
+Set a custom font.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Checkbox%22,%20%22name%22:%20%22Font%20Typeface%20Import%22,%20%22getter%22:%20false%7D"></div>
+
+### Height
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Blocks</span></span>
+
+Specifies the component's vertical height, measured in pixels.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Checkbox%22,%20%22name%22:%20%22Height%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Checkbox%22,%20%22name%22:%20%22Height%22,%20%22getter%22:%20false%7D"></div>
+
+### Height Percent
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> :heavy_minus_sign: <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Blocks</span></span>
+
+Specifies the component's vertical height as a percentageof the height of its parent Component.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Checkbox%22,%20%22name%22:%20%22Height%20Percent%22,%20%22getter%22:%20false%7D"></div>
+
+### Text
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
+
+Returns the text displayed by the checkbox.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Checkbox%22,%20%22name%22:%20%22Text%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Checkbox%22,%20%22name%22:%20%22Text%22,%20%22getter%22:%20false%7D"></div>
+
+### Text Color
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-color">Color</span> <span class="chip chip-color">Default: <i>#000000FF</i>&nbsp;<span style="width: 15px; height: 15px; margin: auto; display: inline-block; border: 1px solid white; vertical-align: middle; border-radius: 3px; background-color: #000000;"></span></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
+
+Returns the checkbox's text color as an alpha-red-green-blueinteger.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Checkbox%22,%20%22name%22:%20%22Text%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Checkbox%22,%20%22name%22:%20%22Text%20Color%22,%20%22getter%22:%20false%7D"></div>
+
+### Visible
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
+
+Returns true iff the component is visible.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Checkbox%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Checkbox%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20false%7D"></div>
+
+### Width
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Blocks</span></span>
+
+Specifies the component's horizontal width, measured in pixels.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Checkbox%22,%20%22name%22:%20%22Width%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Checkbox%22,%20%22name%22:%20%22Width%22,%20%22getter%22:%20false%7D"></div>
+
+### Width Percent
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> :heavy_minus_sign: <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Blocks</span></span>
+
+Specifies the component's horizontal width as a percentageof the Width of its parent Component.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Checkbox%22,%20%22name%22:%20%22Width%20Percent%22,%20%22getter%22:%20false%7D"></div>

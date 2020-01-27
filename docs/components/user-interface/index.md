@@ -1,8 +1,9 @@
-# Overview <small> of User Interface</small>
+# Overview <small>of User Interface</small>
 
 * [Button](button.md)
 * [Checkbox](checkbox.md)
 * [Circular Progress](circular-progress.md)
+* [Custom Progress](custom-progress.md)
 * [Date Picker](date-picker.md)
 * [Floating Action Button](floating-action-button.md)
 * [Image](image.md)
@@ -16,6 +17,7 @@
 * [Snackbar](snackbar.md)
 * [Spinner](spinner.md)
 * [Spotlight](spotlight.md)
+* [State Progress Bar](state-progress-bar.md)
 * [Switch](switch.md)
-* [TextBox](textbox.md)
+* [Text Box](text-box.md)
 * [Time Picker](time-picker.md)

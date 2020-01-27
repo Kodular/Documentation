@@ -1,4 +1,4 @@
-# Overview <small> of Storage</small>
+# Overview <small>of Storage</small>
 
 * [Cloudinary](cloudinary.md)
 * [File](file.md)

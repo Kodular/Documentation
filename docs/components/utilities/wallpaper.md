@@ -1,153 +1,127 @@
 # Wallpaper
 
+{>> Non-Visible component<<}
+
+| Category | Requires | Version |
+|:--------:|:-------:|:--------:|
+|**Utilities**|<span class="chip chip-any">API 19, Android 4.4 - 4.4.4 KitKat</span>|<span class="chip chip-number">2</span>|
+
 ## Overview
 
-The **Wallpaper** component can be used to get and set the device's wallpaper.
+A non-visible component that provides access to the system''s wallpaper settings.
 
-
-## Properties
-
-### Desired Minimum Height
-![](/assets/images/components/utilities/wallpaper/p_desired-minimum-height.png)
-
-\[ Getter only | Blocks only \]  
-`Type: Number`
-
-The least wallpaper height that is preferred by the device. Wallpaper assets with heights smaller than this value may not show up correctly
-in the device's lock screen and/or home screen.
-
-
-### Desired Minimum Width
-![](/assets/images/components/utilities/wallpaper/p_desired-minimum-width.png)
-
-\[ Getter only | Blocks only \]  
-`Type: Number`
-
-The least wallpaper width that is preferred by the device. Wallpaper assets with widths smaller than this value may not show up correctly
-in the device's lock screen and/or home screen.
-
-
-### Is Set Wallpaper Allowed
-![](/assets/images/components/utilities/wallpaper/p_is-set-wallpaper-allowed.png)
-
-\[ Getter only | Blocks only \]  
-`Type: Boolean`
-
-Determines if the app has the required permissions to set the device's wallpaper.
-
-* `True` - The app can set the wallpaper.
-* `False` - The app does not have the permissions to perform wallpaper actions.
-
-!!! caution
-    This property will work only on devices running Android 7.0 (Nougat) or later.
-
-
-### Is Wallpaper Supported
-![](/assets/images/components/utilities/wallpaper/p_is-wallpaper-supported.png)
-
-\[ Getter only | Blocks only \]  
-`Type: Boolean`
-
-Determines if the device supports setting/getting the wallpaper.
-
-* `True` - The device supports wallpaper actions.
-* `False` - The device does not support wallpaper actions.
-
-!!! caution
-    This property will work only on devices running Android 6.0 (Marshmallow) or later.
-
-
-### Save Wallpaper As
-![](/assets/images/components/utilities/wallpaper/d_save-wallpaper-as.png) ![](/assets/images/components/utilities/wallpaper/p_save-wallpaper-as.png)
-
-\[ Setter only \]  
-`Type: Boolean`
-
-The name of the file the wallpaper will be saved as after [Get Wallpaper](#get-wallpaper) is called and the current wallpaper is fetched.
-
-
-## Methods
-
-### Clear
-![](/assets/images/components/utilities/wallpaper/m_clear.png)
-
-\[ None \]
-
-Resets the home screen's current wallpaper to the system default. 
-
-
-### Clear Wallpaper
-![](/assets/images/components/utilities/wallpaper/m_clear-wallpaper.png)
-
-\[ None \]
-
-Resets the lock and home screens' wallpapers to the system default.
- 
-
-
-### Get Wallpaper
-![](/assets/images/components/utilities/wallpaper/m_get-wallpaper.png)
-
-\[ None \]
-
-Returns the full path to the currently set wallpaper. The path can be accessed from the [Got Wallpaper](#got-wallpaper) event.
-
-
-### Set Lock Screen Wallpaper
-![](/assets/images/components/utilities/wallpaper/m_set-lock-screen-wallpaper.png)
-
-\[ Text `image` \]
-
-Sets the wallpaper of the lock screen to the image that has been passed as a parameter.
-
-Params           |  []()       
----------------- | ------- 
-`image`          | **Text:**  The full path to the new wallpaper image.
-
-!!! caution
-    This property will work only on devices running Android 7.0 (Nougat) or later.
-
-
-### Set Wallpaper
-![](/assets/images/components/utilities/wallpaper/m_set-wallpaper.png)
-
-\[ Text `image` \]
-
-Sets the wallpaper of the lock and home screens to the image that has been passed as a parameter.
-
-Params           |  []()       
----------------- | ------- 
-`image`          | **Text:**  The full path to the new wallpaper image.
+??? example "Permissions"
+    * [android.permission.SET_WALLPAPER](https://developer.android.com/reference/android/Manifest.permission.html#SET_WALLPAPER)
+    * [android.permission.READ_EXTERNAL_STORAGE](https://developer.android.com/reference/android/Manifest.permission.html#READ_EXTERNAL_STORAGE)
+    * [android.permission.WRITE_SETTINGS](https://developer.android.com/reference/android/Manifest.permission.html#WRITE_SETTINGS)
+    * [android.permission.WRITE_EXTERNAL_STORAGE](https://developer.android.com/reference/android/Manifest.permission.html#WRITE_EXTERNAL_STORAGE)
 
 ## Events
 
 ### Got Wallpaper
-![](/assets/images/components/utilities/wallpaper/e_got-wallpaper.png)
 
-\[ Text `picture` \]
+Event to detect that the component got the current system wallpaper.
 
-Triggers when [Get Wallpaper](#get-wallpaper) has been called, and the system wallpaper has been fetched.
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Wallpaper%22,%20%22name%22:%20%22Got%20Wallpaper%22,%20%22param%22:%20%5B%22picture%22%5D%7D"></div>
 
-Params             |  []()       
------------------- | ------- 
-`picture`          | **Text:**  The full path to the current wallpaper of the device.
-
+| Params | []() |
+|--------|------|
+|picture|<span class="chip chip-text">Text</span>|
 
 ### Wallpaper Changed
-![](/assets/images/components/utilities/wallpaper/e_wallpaper-changed.png)
 
-\[ Boolean `success` \]
+Event to detect that the user has changed the wallpaper. This event will be invoked by the "Set Wallpaper" function.
 
-Triggers after [Set Wallpaper](#set-wallpaper) has been called. This event contains the result of the [Set Wallpaper](#set-wallpaper) operation.
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Wallpaper%22,%20%22name%22:%20%22Wallpaper%20Changed%22,%20%22param%22:%20%5B%22success%22%5D%7D"></div>
 
-Params             |  []()       
------------------- | ------- 
-`success`          | **Boolean:**  `True` if the wallpaper has been successfully changed, `False` if there was an error in the operation.
-
+| Params | []() |
+|--------|------|
+|success|<span class="chip chip-boolean">Boolean</span>|
 
 ### Wallpaper Cleared
-![](/assets/images/components/utilities/wallpaper/e_wallpaper-cleared.png)
 
-\[ None \]
+Event to detect that the user has cleared/deleted the wallpaper.
 
-Triggers after [Clear Wallpaper](#clear-wallpaper) has been called, and the device's wallpaper has been reset to the system default.
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Wallpaper%22,%20%22name%22:%20%22Wallpaper%20Cleared%22,%20%22param%22:%20%5B%5D%7D"></div>
+
+## Methods
+
+### Clear
+
+Remove any currently set system wallpaper, reverting to the system's built-in wallpaper.
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Wallpaper%22,%20%22name%22:%20%22Clear%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
+
+### Clear Wallpaper
+
+Reset all wallpaper to the factory default. This block works only on devices with Android 9+.
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Wallpaper%22,%20%22name%22:%20%22Clear%20Wallpaper%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
+
+### Get Wallpaper
+
+Retrieve the current system wallpaper; if no wallpaper is set, the system built-in static wallpaper is returned.
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Wallpaper%22,%20%22name%22:%20%22Get%20Wallpaper%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
+
+### Set Lock Screen Wallpaper
+
+Change the current lock screen wallpaper. This block works only on devices with Android 7+.
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Wallpaper%22,%20%22name%22:%20%22Set%20Lock%20Screen%20Wallpaper%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22image%22%5D%7D"></div>
+
+| Params | []() |
+|--------|------|
+|image|<span class="chip chip-text">Text</span>|
+
+### Set Wallpaper
+
+Change the current system wallpaper.
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Wallpaper%22,%20%22name%22:%20%22Set%20Wallpaper%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22image%22%5D%7D"></div>
+
+| Params | []() |
+|--------|------|
+|image|<span class="chip chip-text">Text</span>|
+
+## Properties
+
+### Desired Minimum Height
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> :heavy_minus_sign: <span class="chip chip-rw">Read</span>  - <span class="chip chip-bd">Blocks</span></span>
+
+Returns the desired minimum height for the wallpaper.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Wallpaper%22,%20%22name%22:%20%22Desired%20Minimum%20Height%22,%20%22getter%22:%20true%7D"></div>
+
+### Desired Minimum Width
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> :heavy_minus_sign: <span class="chip chip-rw">Read</span>  - <span class="chip chip-bd">Blocks</span></span>
+
+Returns the desired minimum width for the wallpaper.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Wallpaper%22,%20%22name%22:%20%22Desired%20Minimum%20Width%22,%20%22getter%22:%20true%7D"></div>
+
+### Is Set Wallpaper Allowed
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-boolean">Boolean</span> :heavy_minus_sign: <span class="chip chip-rw">Read</span>  - <span class="chip chip-bd">Blocks</span></span>
+
+Returns whether the calling package is allowed to set the wallpaper for the calling user. This block works only on devices with Android 7+.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Wallpaper%22,%20%22name%22:%20%22Is%20Set%20Wallpaper%20Allowed%22,%20%22getter%22:%20true%7D"></div>
+
+### Is Wallpaper Supported
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-boolean">Boolean</span> :heavy_minus_sign: <span class="chip chip-rw">Read</span>  - <span class="chip chip-bd">Blocks</span></span>
+
+Returns whether wallpapers are supported for the calling user. This block works only on devices with Android 6+.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Wallpaper%22,%20%22name%22:%20%22Is%20Wallpaper%20Supported%22,%20%22getter%22:%20true%7D"></div>
+
+### Save Wallpaper As
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span> <span class="chip chip-text">Default: <i>wallpaperPicture.png</i></span> :heavy_minus_sign: <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
+
+After the user clicked on "Get Wallpaper" this will be the name for the wallpaper picture.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Wallpaper%22,%20%22name%22:%20%22Save%20Wallpaper%20As%22,%20%22getter%22:%20false%7D"></div>

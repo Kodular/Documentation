@@ -3,4 +3,6 @@ _site/
 *-venv/
 src/
 .idea/
+.vscode/
 __pycache__/
+kodular-docs/

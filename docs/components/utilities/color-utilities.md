@@ -1,78 +1,74 @@
 # Color Utilities
 
+{>> Non-Visible component<<}
+
+| Category | Requires | Version |
+|:--------:|:-------:|:--------:|
+|**Utilities**|<span class="chip chip-any">API 19, Android 4.4 - 4.4.4 KitKat</span>|<span class="chip chip-number">1</span>|
 
 ## Overview
 
-The **Color Utilities** component can be used to manipulate colors and convert them from one format to another.
-
+A non-visible component that performs operations like conversion between formats, lightening, and darkening on color data.
 
 ## Methods
 
 ### Convert Hex To Int
-![](/assets/images/components/utilities/color-utilities/m_convert-hex-to-int.png)
 
-\[ Text `hex Color` \]
+<span class="chip chip-number">Returns: <i>Number</i></span>
 
-Returns the Kodular integer representation of the hexadecimal color value.
+Convert a hex color to a integer color. The result is returned as integer.
 
-Params           |  []()       
----------------- | ------- 
-`hex Color`      | **Text:**  The hexadecimal color value (must be in the format `#` + `aa` + `rr` + `gg` + `bb`)
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Color%20Utilities%22,%20%22name%22:%20%22Convert%20Hex%20To%20Int%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22hex%20Color%22%5D%7D"></div>
 
-    
+| Params | []() |
+|--------|------|
+|hex Color|<span class="chip chip-text">Text</span>|
+
 ### Convert Int To Hex
-![](/assets/images/components/utilities/color-utilities/m_convert-int-to-hex.png)
 
-\[ Number `color` \]
+<span class="chip chip-text">Returns: <i>Text</i></span>
 
-Returns the hexadecimal representation of the integer color. The returned value will be in the format `aarrggbb`.
+Convert a integer color to a hex color. The result is returned as string.
 
-Params           |  []()       
----------------- | ------- 
-`color`          | **Number:**  The integer value of the color.
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Color%20Utilities%22,%20%22name%22:%20%22Convert%20Int%20To%20Hex%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22color%22%5D%7D"></div>
 
-!!! info
-    Integer color codes are specific to App Inventor, and are used internally to manipulate components' color values. A list of common
-    integer color codes can be found in the [App Inventor Color Chart](http://appinventor.mit.edu/explore/app-inventor-color-chart).
-  
-  
+| Params | []() |
+|--------|------|
+|color|<span class="chip chip-number">Number</span>|
+
 ### Get Luminance
-![](/assets/images/components/utilities/color-utilities/m_get-luminance.png)
 
-\[ Number `color` \]
+<span class="chip chip-number">Returns: <i>Number</i></span>
 
-Returns the luminance of the color as a value between `0.0` and `1.0`. 
-The luminance is measured as the Y value in the XYZ representation of the color.
+Returns the luminance of a color as a float between 0.0 and 1.0. The result is returned as double.
 
-Params           |  []()       
----------------- | ------- 
-`color`          | **Number:**  The integer value of the color.
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Color%20Utilities%22,%20%22name%22:%20%22Get%20Luminance%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22color%22%5D%7D"></div>
 
-!!! info
-    The CIE XYZ representation of a color is a 3D vector model of each of the three components of the color, where each vector is a
-    scalar multiple of the unit vector describing its primary color. More information about CIE XYZ color spaces and colorimetry can be found in [this Medium Article](https://medium.com/hipster-color-science/a-beginners-guide-to-colorimetry-401f1830b65a) by Chandler Abraham. 
-    
-    
+| Params | []() |
+|--------|------|
+|color|<span class="chip chip-number">Number</span>|
+
 ### Is Dark Color
-![](/assets/images/components/utilities/color-utilities/m_is-dark-color.png)
 
-\[ Number `color` \]
+<span class="chip chip-boolean">Returns: <i>Boolean</i></span>
 
-Returns `True` if the Luminance of the color is less than `0.5`, and `False` otherwise.
+Returns true if the color is dark, else it returns false, means the color is light. The result is returned as boolean.
 
-Params           |  []()       
----------------- | ------- 
-`color`          | **Number:**  The integer value of the color.
-    
-    
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Color%20Utilities%22,%20%22name%22:%20%22Is%20Dark%20Color%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22color%22%5D%7D"></div>
+
+| Params | []() |
+|--------|------|
+|color|<span class="chip chip-number">Number</span>|
+
 ### Set Alpha Value
-![](/assets/images/components/utilities/color-utilities/m_set-alpha-value.png)
 
-\[ Number `color`, Number `alpha` \]
+<span class="chip chip-number">Returns: <i>Number</i></span>
 
-Sets the alpha (transparency) value of the passed color.
+Set a alpha value to a color. The result is returned as integer.
 
-Params           |  []()       
----------------- | ------- 
-`color`          | **Number:**  The integer value of the color whose alpha value is to be set.
-`alpha`          | **Number:**  An integer between `0` and `255`, where `0` is opaque and `255` is transparent.
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Color%20Utilities%22,%20%22name%22:%20%22Set%20Alpha%20Value%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22color%22,%20%22alpha%22%5D%7D"></div>
+
+| Params | []() |
+|--------|------|
+|color|<span class="chip chip-number">Number</span>|
+|alpha|<span class="chip chip-number">Number</span>|

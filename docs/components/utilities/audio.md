@@ -1,133 +1,115 @@
 # Audio
 
+{>> Non-Visible component<<}
+
+| Category | Requires | Version |
+|:--------:|:-------:|:--------:|
+|**Utilities**|<span class="chip chip-any">API 19, Android 4.4 - 4.4.4 KitKat</span>|<span class="chip chip-number">3</span>|
 
 ## Overview
 
-The **Audio** component can be used to handle the device's audio and ringer settings. It can also be used to set the sound settings of individual components.
+A non-visible component that manages the device''s audio settings.
 
-
-## Properties
-
-### Get Audio Mode
-![](/assets/images/components/utilities/audio/p_get-audio-mode.png)
-
-\[ Getter only | Blocks only \]  
-`Type: Text`
-
-The current audio mode of the device.
-
-Options              | []()
--------------------- | ------------
-`NORMAL`             | The device is currently in the normal audio mode.
-`RINGTONE`           | The ringtone of the device is currently playing, indicating an incoming call is being signaled.
-`CALL`               | The device is currently engaged in a telephony call.
-`COMMUNICATION`      | The device is currently engaged in a VoIP or chat communication.
-
-
-### Show UI
-![](/assets/images/components/utilities/audio/d_show-ui.png) ![](/assets/images/components/utilities/audio/p_show-ui.png)
-
-\[ Getter + Setter \]  
-`Type: Boolean`
-
-Determines if the system's audio manager UI is to be shown when audio manager actions are performed.
-
-* `True` - The system's audio manager UI will be visible.
-* `False` - The system's audio manager UI will be hidden.
-
-![](/assets/images/components/utilities/audio/pr_show-ui.gif#phone)
-Device UI shown when changing the volume percentage using the [Volume Music](#volume-music) block.
-{: .img-caption}
-
-
-### Volume Alarm
-![](/assets/images/components/utilities/audio/p_volume-alarm.png)
-
-\[ Getter + Setter | Blocks only \]  
-`Type: Number`
-
-The volume of the device's alarm sounds in percentage.
-
-
-### Volume Music
-![](/assets/images/components/utilities/audio/p_volume-music.png)
-
-\[ Getter + Setter | Blocks only \]  
-`Type: Number`
-
-The volume of the device's music and other ambient sounds in percentage.
-
-
-### Volume Ring
-![](/assets/images/components/utilities/audio/p_volume-ring.png)
-
-\[ Getter + Setter | Blocks only \]  
-`Type: Number`
-
-The volume of the device's ringtone in percentage.
-
-
-## Methods
-
-### Is Sound Effects Enabled
-![](/assets/images/components/utilities/audio/m_is-audio-effects-enabled.png)
-
-\[ Component `component` \]
-
-Returns `True` if sound effects (click and touch sounds) for the component are enabled, `False` otherwise.
-
-Params           |  []()       
----------------- | ------- 
-`component`      | **Component:**  The component of which the audio status is to be returned.
-
-
-### Ringer Mode Normal
-![](/assets/images/components/utilities/audio/m_ringer-mode-normal.png)
-
-\[ None \]
-
-Sets the device's ringer mode to `NORMAL`. All audio will play normally once this method is called.
-
-
-### Ringer Mode Silent
-![](/assets/images/components/utilities/audio/m_ringer-mode-silent.png)
-
-\[ None \] 
-
-Sets the device's ringer mode to `SILENT`. All audio will be silenced once this method is called.
-
-
-### Ringer Mode Vibrate
-![](/assets/images/components/utilities/audio/m_ringer-mode-vibrate.png)
-
-\[ None \] 
-
-Sets the device's ringer mode to `VIBRATE`. All audio will be silenced but vibrations permitted once this method is called.
-
-
-### Sound Effects Enabled
-![](/assets/images/components/utilities/audio/m_sound-effects-enabled.png)
-
-\[ Component `component`, Boolean `enabled` \] 
-
-Sets the sound effect status of the component passed to the method. If `True`, click and touch sounds will play as normal. If `False`, all sounds originating from interactions with the component will be silenced.
-
-Params           |  []()       
----------------- | ------- 
-`component`      | **Component:**  The component of which the audio status is to be set.
-`enabled`        | **Boolean:**  `True` if sounds are to be enabled for the component, `False` otherwise.
-
-
+??? example "Permissions"
+    * [android.permission.MODIFY_AUDIO_SETTINGS](https://developer.android.com/reference/android/Manifest.permission.html#MODIFY_AUDIO_SETTINGS)
 
 ## Events
 
 ### Error Occurred
-![](/assets/images/components/utilities/audio/e_error-occurred.png)
 
-\[ Text `error Message` \] 
+Event triggered when a error occurred.
 
-Triggers when an error occurred in changing the audio settings of the device.
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Audio%22,%20%22name%22:%20%22Error%20Occurred%22,%20%22param%22:%20%5B%22error%20Message%22%5D%7D"></div>
 
-Params             |  []()       
------------------- | ------- 
-`error Message`    | **Text:**  The message of the error that occurred
+| Params | []() |
+|--------|------|
+|error Message|<span class="chip chip-text">Text</span>|
+
+## Methods
+
+### Is Sound Effects Enabled
+
+<span class="chip chip-boolean">Returns: <i>Boolean</i></span>
+
+Returns true whether a component should have sound effects enabled for events such as clicking and touching.
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Audio%22,%20%22name%22:%20%22Is%20Sound%20Effects%20Enabled%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22component%22%5D%7D"></div>
+
+| Params | []() |
+|--------|------|
+|component|<span class="chip chip-component">Component</span>|
+
+### Ringer Mode Normal
+
+Sets the ringer mode to "normal".
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Audio%22,%20%22name%22:%20%22Ringer%20Mode%20Normal%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
+
+### Ringer Mode Silent
+
+Sets the ringer mode to "silent".
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Audio%22,%20%22name%22:%20%22Ringer%20Mode%20Silent%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
+
+### Ringer Mode Vibrate
+
+Sets the ringer mode to "vibrate".
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Audio%22,%20%22name%22:%20%22Ringer%20Mode%20Vibrate%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
+
+### Sound Effects Enabled
+
+Set whether a component should have sound effects enabled for events such as clicking and touching.
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Audio%22,%20%22name%22:%20%22Sound%20Effects%20Enabled%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22component%22,%20%22enabled%22%5D%7D"></div>
+
+| Params | []() |
+|--------|------|
+|component|<span class="chip chip-component">Component</span>|
+|enabled|<span class="chip chip-boolean">Boolean</span>|
+
+## Properties
+
+### Get Audio Mode
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span> :heavy_minus_sign: <span class="chip chip-rw">Read</span>  - <span class="chip chip-bd">Blocks</span></span>
+
+Returns the current audio mode as string. Possible returns are "NORMAL", "RINGTONE", "CALL" or "COMMUNICATION".
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Audio%22,%20%22name%22:%20%22Get%20Audio%20Mode%22,%20%22getter%22:%20true%7D"></div>
+
+### Show UI
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>False</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
+
+If set to true you will see system ui.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Audio%22,%20%22name%22:%20%22Show%20UI%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Audio%22,%20%22name%22:%20%22Show%20UI%22,%20%22getter%22:%20false%7D"></div>
+
+### Volume Alarm
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Blocks</span></span>
+
+Returns the current volume index in percent.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Audio%22,%20%22name%22:%20%22Volume%20Alarm%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Audio%22,%20%22name%22:%20%22Volume%20Alarm%22,%20%22getter%22:%20false%7D"></div>
+
+### Volume Music
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Blocks</span></span>
+
+Returns the current volume index in percent.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Audio%22,%20%22name%22:%20%22Volume%20Music%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Audio%22,%20%22name%22:%20%22Volume%20Music%22,%20%22getter%22:%20false%7D"></div>
+
+### Volume Ring
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Blocks</span></span>
+
+Returns the current volume index in percent.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Audio%22,%20%22name%22:%20%22Volume%20Ring%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Audio%22,%20%22name%22:%20%22Volume%20Ring%22,%20%22getter%22:%20false%7D"></div>

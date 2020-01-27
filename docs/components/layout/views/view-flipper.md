@@ -1,113 +1,141 @@
-
-
 # View Flipper
+
+| Category | Requires | Version |
+|:--------:|:-------:|:--------:|
+|**Layout > Views**|<span class="chip chip-any">API 19, Android 4.4 - 4.4.4 KitKat</span>|<span class="chip chip-number">1</span>|
 
 ## Overview
 
-A **ViewFlipper** is a component that flips through the various views in a sequence like a slideshow.
-The `views` are similar to a slide in a slideshow.
-In a slide show, only one slide is visible at a time, likewise only one `view` can be visible at a time.
-A `view` can be any component or an image.
+A visible component that can animate between two or more layout components that have been added to it.
 
+## Methods
+
+### Add Component To View
+
+Add a component to the view flipper. The first added component will be the first visible component on the screen.
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22View%20Flipper%22,%20%22name%22:%20%22Add%20Component%20To%20View%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22component%22%5D%7D"></div>
+
+| Params | []() |
+|--------|------|
+|component|<span class="chip chip-component">Component</span>|
+
+### Add Images To View
+
+Use this function if you try to create a image view flipper. Please use a 'make a list' block.
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22View%20Flipper%22,%20%22name%22:%20%22Add%20Images%20To%20View%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22images%22%5D%7D"></div>
+
+| Params | []() |
+|--------|------|
+|images|<span class="chip chip-list">List</span>|
+
+### is Flipping
+
+Returns true if the child views are flipping.
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22View%20Flipper%22,%20%22name%22:%20%22is%20Flipping%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
+
+### Show Next
+
+Show the next view.
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22View%20Flipper%22,%20%22name%22:%20%22Show%20Next%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
+
+### Show Previous
+
+Show the previous view.
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22View%20Flipper%22,%20%22name%22:%20%22Show%20Previous%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
+
+### Start Flipping
+
+Start a timer to cycle through child views.
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22View%20Flipper%22,%20%22name%22:%20%22Start%20Flipping%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
+
+### Stop Flipping
+
+No more flips.
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22View%20Flipper%22,%20%22name%22:%20%22Stop%20Flipping%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
 
 ## Properties
 
 ### Add Images From String
 
-_**\(** Setter only **\)**    
-`Type: Text`_
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span> :heavy_minus_sign: <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
 
-The images for the View Flipper to be animated.  
-Use comma as a seperator to seperate different images.  
-Example: `image1.png,image2.png`
+Use this function if you try to create a image view flipper. Use images separated by commas such as: Image1.png,Image2.png,Image3.png.
 
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22View%20Flipper%22,%20%22name%22:%20%22Add%20Images%20From%20String%22,%20%22getter%22:%20false%7D"></div>
 
 ### Background Color
 
-_**\(** Getter + Setter **\)**    
-`Type: Color`_
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-color">Color</span> <span class="chip chip-color">Default: <i>#00000000</i>&nbsp;<span style="width: 15px; height: 15px; margin: auto; display: inline-block; border: 1px solid white; vertical-align: middle; border-radius: 3px; background-color: #000000;"></span></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
 
-The background color with which the **View Flipper** is shown.
+Specifies the view flippers background color.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22View%20Flipper%22,%20%22name%22:%20%22Background%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22View%20Flipper%22,%20%22name%22:%20%22Background%20Color%22,%20%22getter%22:%20false%7D"></div>
 
 ### Flip Interval
 
-_**\(** Getter + Setter **\)**    
-`Type: Number`_
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>1000</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
 
-The amount of time to wait before flipping(i.e switching to another view) in milliseconds
+How long to wait before flipping to the next view in milliseconds.
 
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22View%20Flipper%22,%20%22name%22:%20%22Flip%20Interval%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22View%20Flipper%22,%20%22name%22:%20%22Flip%20Interval%22,%20%22getter%22:%20false%7D"></div>
 
-{!includes/height-property.md!}
+### Height
 
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Blocks</span></span>
+
+Specifies the component's vertical height, measured in pixels.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22View%20Flipper%22,%20%22name%22:%20%22Height%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22View%20Flipper%22,%20%22name%22:%20%22Height%22,%20%22getter%22:%20false%7D"></div>
+
+### Height Percent
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> :heavy_minus_sign: <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Blocks</span></span>
+
+Specifies the component's vertical height as a percentageof the height of its parent Component.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22View%20Flipper%22,%20%22name%22:%20%22Height%20Percent%22,%20%22getter%22:%20false%7D"></div>
 
 ### Swipeable
 
-_**\(** Getter + Setter **\)**    
-`Type: Boolean`_
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
 
-Determines if the **View Flipper** will flip on swipe gestures.
+If set to true you can swipe with your fingers through views.
 
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22View%20Flipper%22,%20%22name%22:%20%22Swipeable%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22View%20Flipper%22,%20%22name%22:%20%22Swipeable%22,%20%22getter%22:%20false%7D"></div>
 
-{!includes/visible-property.md!}
+### Visible
 
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
 
-{!includes/width-property.md!}
+Returns true iff the component is visible.
 
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22View%20Flipper%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22View%20Flipper%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20false%7D"></div>
 
-## Methods
+### Width
 
-### Add Component To View
-_**\(**  Component `component`  **\)**_
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Blocks</span></span>
 
-Add a component to the **ViewFlipper**.
-The order in which the components are shown are based on the order in which they are added to the **ViewFlipper**.  
-The component which is added first will be the first view to be seen on the **ViewFlipper** and so on.
+Specifies the component's horizontal width, measured in pixels.
 
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22View%20Flipper%22,%20%22name%22:%20%22Width%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22View%20Flipper%22,%20%22name%22:%20%22Width%22,%20%22getter%22:%20false%7D"></div>
 
-Params               | []() 
--------------------- | ---------- 
-`component`          | **Component:** The component which is to be added as a `view` to the **ViewFlipper**
+### Width Percent
 
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> :heavy_minus_sign: <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Blocks</span></span>
 
-### Add Images To View
-_**\(**  List `images`  **\)**_
+Specifies the component's horizontal width as a percentageof the Width of its parent Component.
 
-Add images from a list, as `views` to the **ViewFlipper**.
-
-Params               | []() 
--------------------- | ---------- 
-`images`             | **List:** The _List_ containing the path to the images that are to be added as `views`. Each item in `images` is the path to an image.
-
-### Show Next
-_**\(**  None  **\)**_
-
-Show the next `view` that is, flip through the current `view` to reveal the next one.
-
-
-### Show Previous
-_**\(**  None  **\)**_
-
-Show the previous `view` that is, flip through the current `view` in the reverse direction.
-
-
-### Start Flipping
-_**\(**  None  **\)**_
-
-Start flipping through the `views` automatically, pausing on each `view` for the time specified by  
-[Flip Interval](#flip-interval)
-
-
-### Stop Flipping
-_**\(**  None  **\)**_
-
-Stop the automatic flipping of the **ViewFlipper**. 
-
-
-### Is Flipping
-_**\(**  None  **\)**_
-
-Return a `Boolean` whether the **ViewFlipper** is automatically flipping through the `views` added to it.
-
-## Events
-
-_This component has no events._
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22View%20Flipper%22,%20%22name%22:%20%22Width%20Percent%22,%20%22getter%22:%20false%7D"></div>

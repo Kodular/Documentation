@@ -1,61 +1,63 @@
 # Shell
 
+{>> Non-Visible component<<}
+
+| Category | Requires | Version |
+|:--------:|:-------:|:--------:|
+|**Utilities**|<span class="chip chip-any">API 19, Android 4.4 - 4.4.4 KitKat</span>|<span class="chip chip-number">2</span>|
+
 ## Overview
 
-The **Shell** component can be used to run shell commands and to check for superuser access.
+A non-visible component that executes shell commands and checks the device''s root status.
 
-
-## Methods
-
-### Has Super User Apk Installed
-![](/assets/images/components/utilities/shell/m_has-super-user-apk-installed.png)
-
-\[ None \]
-
-Returns `True` if any of the six super user access APKs are installed in the device, `False` otherwise.
-
-
-### Execute
-![](/assets/images/components/utilities/shell/m_execute.png)
-
-\[ Text `in` \]
-
-Executes the shell command that has been passed to the method.
-
-Params           |  []()       
----------------- | ------- 
-`in`             | **Text:**  The command to be executed.
-
-
-### Is Rooted
-![](/assets/images/components/utilities/shell/m_is-rooted.png)
-
-\[ None \]
-
-Returns `True` if the device has root access, `False` otherwise.
-
-
-### Is System User
-![](/assets/images/components/utilities/shell/m_is-system-user.png)
-
-\[ None \]
-
-Returns `True` if the current user is a system user, `False` otherwise. 
-
-!!! tip
-    It is highly likely that the device has been rooted if this method returns true. It is thus recommended that you also check for
-    root access using the [Is Rooted](#is-rooted) method.
-    
+??? example "Permissions"
+    * [android.permission.READ_EXTERNAL_STORAGE](https://developer.android.com/reference/android/Manifest.permission.html#READ_EXTERNAL_STORAGE)
+    * [android.permission.WRITE_EXTERNAL_STORAGE](https://developer.android.com/reference/android/Manifest.permission.html#WRITE_EXTERNAL_STORAGE)
 
 ## Events
 
 ### Got Output
-![](/assets/images/components/utilities/shell/e_get-output.png)
 
-\[ Text `out` \] 
+Read output after executing shell command
 
-Triggers after a shell command called from [Execute](#execute) has finished executing.
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Shell%22,%20%22name%22:%20%22Got%20Output%22,%20%22param%22:%20%5B%22out%22%5D%7D"></div>
 
-Params             |  []()       
------------------- | ------- 
-`out`              | **Text:**  The output after the shell command has finished executing.
+| Params | []() |
+|--------|------|
+|out|<span class="chip chip-text">Text</span>|
+
+## Methods
+
+### Execute
+
+Executes shell commands. To get output, use "GotOutput" event block.
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Shell%22,%20%22name%22:%20%22Execute%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22in%22%5D%7D"></div>
+
+| Params | []() |
+|--------|------|
+|in|<span class="chip chip-text">Text</span>|
+
+### Has Super User Apk Installed
+
+<span class="chip chip-boolean">Returns: <i>Boolean</i></span>
+
+Returns TRUE if one of 6 known root packages or varients is installed. The name of the package is not returned, so the user does not know which package name to change. Developed by Cian.
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Shell%22,%20%22name%22:%20%22Has%20Super%20User%20Apk%20Installed%22,%20%22output%22:%20true,%20%22param%22:%20%5B%5D%7D"></div>
+
+### Is Rooted
+
+<span class="chip chip-boolean">Returns: <i>Boolean</i></span>
+
+Returns true if Phone is Rooted
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Shell%22,%20%22name%22:%20%22Is%20Rooted%22,%20%22output%22:%20true,%20%22param%22:%20%5B%5D%7D"></div>
+
+### Is System User
+
+<span class="chip chip-boolean">Returns: <i>Boolean</i></span>
+
+This returns TRUE if the system user is running the application, and could be a sign of a rooted device. Developed by Cian.
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Shell%22,%20%22name%22:%20%22Is%20System%20User%22,%20%22output%22:%20true,%20%22param%22:%20%5B%5D%7D"></div>

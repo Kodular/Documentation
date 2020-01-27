@@ -1,4 +1,4 @@
-# Overview <small> of Connectivity</small>
+# Overview <small>of Connectivity</small>
 
 * [Activity Starter](activity-starter.md)
 * [Arduino](arduino.md)

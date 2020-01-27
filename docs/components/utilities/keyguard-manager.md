@@ -1,142 +1,113 @@
 # Keyguard Manager
 
+{>> Non-Visible component<<}
+
+| Category | Requires | Version |
+|:--------:|:-------:|:--------:|
+|**Utilities**|<span class="chip chip-any">API 19, Android 4.4 - 4.4.4 KitKat</span>|<span class="chip chip-number">1</span>|
+
 ## Overview
 
-The **Keyguard Manager** component can be used to authorize users using one of the security measures (PIN, fingerprint, etc.) set on their devices.
+A non-visible component that authenticates the user using their preferred security option.
 
-
-## Properties
-
-### Description
-![](/assets/images/components/utilities/keyguard-manager/d_description.png) ![](/assets/images/components/utilities/keyguard-manager/p_description.png)
-
-\[ Getter + Setter \]  
-`Type: Text`
-
-The description text shown to the user in the authorization screen.
-
-
-### Title
-![](/assets/images/components/utilities/keyguard-manager/d_title.png) ![](/assets/images/components/utilities/keyguard-manager/p_title.png)
-
-\[ Getter + Setter \]  
-`Type: Text`
-
-The title of the authorization screen shown to the user.
-
-
-### Is Device Locked
-![](/assets/images/components/utilities/keyguard-manager/p_is-device-locked.png)
-
-\[ Getter only | Blocks only \]  
-`Type: Boolean`
-
-Determines if the device is currently locked and requires the user's PIN, fingerprint, or facial identification to be unlocked.
-
-* `True` - The device is locked.
-* `False` - The device is unlocked.
-
-!!! caution
-    This property will work only on devices running Android 5.1 (Lollipop) or later.
-
-
-### Is Device Secure
-![](/assets/images/components/utilities/keyguard-manager/p_is-device-secure.png)
-
-\[ Getter only | Blocks only \]  
-`Type: Boolean`
-
-Determines if a security option (like a PIN, fingerprint, or voice) is currently being used to secure the device. If this property is `False`, then the [Is Device Locked](#is-device-locked) property **cannot** be `True`, but the opposite needn't be the case. 
-
-* `True` - The device is currently being secured using an authorization measure.
-* `False` - The device has no currently set security options.
-
-!!! caution
-    This property will work only on devices running Android 6.0 (Marshmallow) or later.
-
-
-### Is Keyguard Locked
-![](/assets/images/components/utilities/keyguard-manager/p_is-keyguard-locked.png)
-
-\[ Getter only | Blocks only \]  
-`Type: Boolean`
-
-Determines if the screen is showing over a lock screen. This block can return `True` only if the app can run when locked (can be set using [Show When Locked](#show-when-locked)). 
-
-* `True` - The keyguard has been locked.
-* `False` - The keyguard is unlocked and the user has already been authorized.
-
-!!! info
-		A locked keyguard does not mean a locked device. For example, in devices where "on body detection" is turned on, switching the screen off can lock the keyguard but not the device.
-
-
-### Is Keyguard Secure
-![](/assets/images/components/utilities/keyguard-manager/p_is-keyguard-secure.png)
-
-\[ Getter only | Blocks only \]  
-`Type: Boolean`
-
-Determines if the keyguard has been secured using a device security measure. To check if the device has security options enabled, use the [Is Device Secure](#is-device-secure) block. 
-
-* `True` - The keyguard is currently being secured using an authorization measure.
-* `False` - The keyguard has no currently set security options.
-
-
-## Methods
-
-### Request Dismiss Keyguard
-![](/assets/images/components/utilities/keyguard-manager/m_request-dismiss-keyguard.png)
-
-\[ None \]
-
-Dismisses the keyguard if the device is currently locked, and prompts the user to unlock the device if it was locked manually. Results of the dismissal operation can be accessed from the [On Dismiss Keyguard Request](#on-dismiss-keyguard-request) block. 
-
-!!! caution
-    This method will work only on devices running Android 8.0 (Oreo) or later.
-
-
-### Show Authentication Screen
-![](/assets/images/components/utilities/keyguard-manager/m_show-authentication-screen.png)
-
-\[ None \]
-
-Shows the user an authorization screen. The user can choose to use any of the security options set on their device to authorize themselves. Alternately, they can also choose to cancel the authorization request. If the user is successfully authorized, the [On Authentication Request](#on-authentication-request) event is triggered.
-
-
-### Show When Locked
-![](/assets/images/components/utilities/keyguard-manager/m_show-when-locked.png)
-
-\[ Boolean `enabled` \]
-
-Specifies whether the screen should be shown even if the device is currently locked.
- 
-Params             |  []()       
------------------- | ------- 
-`enabled`          | **Boolean:**  `True` if the screen is to be shown above the lock screen, `False` otherwise.
-
+??? example "Permissions"
+    * [android.permission.DISABLE_KEYGUARD](https://developer.android.com/reference/android/Manifest.permission.html#DISABLE_KEYGUARD)
 
 ## Events
 
 ### On Authentication Request
-![](/assets/images/components/utilities/keyguard-manager/e_on-authentication-request.png)
 
-\[ Boolean `is Authenticated` \]
+Event to detect a authentication request was called.
 
-Triggers when [Show Authentication Screen](#show-authentication-screen) has been called, and the user has finished the authentication process.
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Keyguard%20Manager%22,%20%22name%22:%20%22On%20Authentication%20Request%22,%20%22param%22:%20%5B%22is%20Authenticated%22%5D%7D"></div>
 
-Params             |  []()       
------------------- | ------- 
-`is Authenticated` | **Boolean:**  `True` if the user has been authorized, `False` if the authorization request failed or if the user chose to cancel.
+| Params | []() |
+|--------|------|
+|is Authenticated|<span class="chip chip-boolean">Boolean</span>|
 
+### On Dissmiss Keyguard Request
 
-### On Dismiss Keyguard Request
-![](/assets/images/components/utilities/keyguard-manager/e_on-dismiss-keyguard-request.png)
+Event to detect a dissmiss request keyguard was called.
 
-\[ Boolean `succeeded`, Boolean `cancelled` \]
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Keyguard%20Manager%22,%20%22name%22:%20%22On%20Dissmiss%20Keyguard%20Request%22,%20%22param%22:%20%5B%22succeeded%22,%20%22cancelled%22%5D%7D"></div>
 
-Triggers after [Request Dismiss Keyguard](#request-dismiss-keyguard) has been called.
+| Params | []() |
+|--------|------|
+|succeeded|<span class="chip chip-boolean">Boolean</span>|
+|cancelled|<span class="chip chip-boolean">Boolean</span>|
 
-Params             |  []()       
------------------- | ------- 
-`succeeded`        | **Boolean:**  `True` if the keyguard was dismissed after the user entered their authorization credentials (like a PIN or fingerprint), `False` otherwise.
-`cancelled`        | **Boolean:**  `True` if the keyguard was dismissed without the user having to enter their credentials, `False` otherwise.
+## Methods
+
+### Request Dismiss Keyguard
+
+If the device is currently locked, requests the Keyguard to be dismissed. Works only for devices with Android 8+
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Keyguard%20Manager%22,%20%22name%22:%20%22Request%20Dismiss%20Keyguard%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
+
+### Show Authentication Screen
+
+Create the Confirm Credentials screen. You can customize the title and description. Or we will provide a generic one for you if you leave it empty. Works only for devices with Android 5+
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Keyguard%20Manager%22,%20%22name%22:%20%22Show%20Authentication%20Screen%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
+
+### Show When Locked
+
+Specifies whether an Activity should be shown on top of the lock screen whenever the lockscreen is up and the activity is resumed. Normally an activity will be transitioned to the stopped state if it is started while the lockscreen is up, but with this flag set the activity will remain in the resumed state visible on-top of the lock screen.
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Keyguard%20Manager%22,%20%22name%22:%20%22Show%20When%20Locked%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22enabled%22%5D%7D"></div>
+
+| Params | []() |
+|--------|------|
+|enabled|<span class="chip chip-boolean">Boolean</span>|
+
+## Properties
+
+### Description
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span> <span class="chip chip-text">Default: <i>Confirm your screen lock.</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
+
+Returns the keyguard manager description text.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Keyguard%20Manager%22,%20%22name%22:%20%22Description%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Keyguard%20Manager%22,%20%22name%22:%20%22Description%22,%20%22getter%22:%20false%7D"></div>
+
+### is Device Locked
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-boolean">Boolean</span> :heavy_minus_sign: <span class="chip chip-rw">Read</span>  - <span class="chip chip-bd">Blocks</span></span>
+
+Returns whether the device is currently locked and requires a PIN, pattern or password to unlock. Works only for devices with Android 5.1+
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Keyguard%20Manager%22,%20%22name%22:%20%22is%20Device%20Locked%22,%20%22getter%22:%20true%7D"></div>
+
+### is Device Secure
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-boolean">Boolean</span> :heavy_minus_sign: <span class="chip chip-rw">Read</span>  - <span class="chip chip-bd">Blocks</span></span>
+
+Returns whether the device is secured with a PIN, pattern or password. Works only for devices with Android 6+
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Keyguard%20Manager%22,%20%22name%22:%20%22is%20Device%20Secure%22,%20%22getter%22:%20true%7D"></div>
+
+### is Keyguard Locked
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-boolean">Boolean</span> :heavy_minus_sign: <span class="chip chip-rw">Read</span>  - <span class="chip chip-bd">Blocks</span></span>
+
+Return whether the keyguard is currently locked.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Keyguard%20Manager%22,%20%22name%22:%20%22is%20Keyguard%20Locked%22,%20%22getter%22:%20true%7D"></div>
+
+### is Keyguard Secure
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-boolean">Boolean</span> :heavy_minus_sign: <span class="chip chip-rw">Read</span>  - <span class="chip chip-bd">Blocks</span></span>
+
+Return whether the keyguard is secured by a PIN, pattern or password or a SIM card is currently locked.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Keyguard%20Manager%22,%20%22name%22:%20%22is%20Keyguard%20Secure%22,%20%22getter%22:%20true%7D"></div>
+
+### Title
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span> <span class="chip chip-text">Default: <i>Unlock</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
+
+Returns the keyguard manager title text.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Keyguard%20Manager%22,%20%22name%22:%20%22Title%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Keyguard%20Manager%22,%20%22name%22:%20%22Title%22,%20%22getter%22:%20false%7D"></div>

@@ -1,125 +1,115 @@
 # Linear Progressbar
 
+| Category | Requires | Version |
+|:--------:|:-------:|:--------:|
+|**User Interface**|<span class="chip chip-any">API 19, Android 4.4 - 4.4.4 KitKat</span>|<span class="chip chip-number">1</span>|
+
 ## Overview
-A Progressbar is used to visually indicate the user the progress of some task, such as a download, data transfer etc.
 
-A **determinate progress bar** is used to indicate the progress of an task whose exact value of  progress is known for eg. the percentage of a file download, number of files transferred.
-
-A **indeterminate progress bar** is used in situations where the extent of the task is unknown  or the progress of the task cannot be determined in a way that could be expressed as a percentage, for example, when a request to a server is being processed where we don't know the exact value of progress, but there is a need to indicate to the user that the task is in progress.
-
-<br><br>
-![Linear Progressbar](/assets/images/components/user-interface/linear-progressbar/preview.gif){: class="preview-img"}
-
-
-A determinate progressbar fills from 0% to 100%.  
-An indeterminate progress bar moves in a fixed path, growing and shrinking in size.
-{: .img-caption }
-
-!!! tip
-    Use progressbars in a non-interupptive manner.
-
-
-## Properties
-
-### Indeterminate
-
-![](/assets/images/components/user-interface/linear-progressbar/d_indeterminate.png) ![](/assets/images/components/user-interface/linear-progressbar/p_indeterminate.png)
-
-_**\(** Getter + Setter **\)**  
-`Type: Boolean`_
-
-Determines whether the progress bar is to be displayed in the **indeterminate** mode.
-(See [_Overview_](#overview) for the difference between **determinate** and **indeterminate** modes.)
-
-Options              | []()
--------------------- | ------------
-`true `              | The progressbar is in **indeterminate** mode.
-`false `             | The progressbar is in **determinate** mode.
-
-
-### Indeterminate Color
-
-![](/assets/images/components/user-interface/linear-progressbar/d_indeterminate-color.png) ![](/assets/images/components/user-interface/linear-progressbar/p_indeterminate-color.png)
-
-_**\(** Getter + Setter **\)**  
-`Type: Color`_
-
-The color in which the indeterminate progress bar is displayed, if the [_Indeterminate_](#indeterminate) property is set to _true_. Has no effect on the apperance of the **determinate** progress bar.
-
-
-### Maximum
-
-![](/assets/images/components/user-interface/linear-progressbar/d_maximum.png) ![](/assets/images/components/user-interface/linear-progressbar/p_maximum.png)
-
-_**\(** Getter + Setter **\)**  
-`Type: Number`_
-
-The upper range of the progress bar in **determinate** mode (i.e when the **Indeterminate** property is set to _false_.)  
-
-The default value is _100_
-
-
-### Minimum
-
-![](/assets/images/components/user-interface/linear-progressbar/d_minimum.png) ![](/assets/images/components/user-interface/linear-progressbar/p_minimum.png)
-
-_**\(** Getter + Setter **\)**  
-`Type: Number`_
-
-The lower range of the progress bar in **determinate** mode (i.e when the **Indeterminate** property is set to _false_.)  
-
-The default value is _0_  
-
-!!! caution "Note"
-    This property can be set only on devices using Android Oreo or newer versions.
-    Setting this method has no effect on devices using older versions of Android.
-
-
-### Progress
-
-![](/assets/images/components/user-interface/linear-progressbar/p_progress.png)
-
-_**\(** Getter + Setter | Blocks**\)**  
-`Type: Number`_
-
-The current progress value of the progress bar in **determinate** mode (i.e when the  [_Indeterminate_](#indeterminate) property is set to _false_). When using _Getter_, returns 0 if **Indeterminate** is set to _true_
-
-
-{!includes/visible-property.md!}
-
-
-{!includes/width-property.md!}
-
-
-
-## Methods
-
-
-### Increment Progress By
-
-![](/assets/images/components/user-interface/linear-progressbar/m_increment-progress-by.png)
-
-_**\(** Number `value` **\)**_
-
-Increases the value progress by the given value.
-
-Params               |  []()       
--------------------- | ------- 
-`value`              | **Number:**  The amount by which progress should be increased.
-
+A visible component that indicates the progress of an operation using an animated linear bar.
 
 ## Events
 
 ### Progress Changed
 
-![](/assets/images/components/user-interface/linear-progressbar/e_progress-changed.png)
+Event that indicates that the progress of the progress bar has been changed. Returns the current progress value. If "Indeterminate" is set to true, then it returns "0".
 
-_**\(** Number `progress` **\)**_
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Linear%20Progressbar%22,%20%22name%22:%20%22Progress%20Changed%22,%20%22param%22:%20%5B%22progress%22%5D%7D"></div>
 
-Indicates that the value of the progress bar has changed.
+| Params | []() |
+|--------|------|
+|progress|<span class="chip chip-number">Number</span>|
 
-Params               | []()
--------------------- | ---------- 
-`progress`           | **Number:**  The current value of the progressbar.This is 0 if the progressbar is in **indeterminate** mode.
+## Methods
 
+### Increment Progress By
 
+Increase the progress bar's progress by the specified amount.
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Linear%20Progressbar%22,%20%22name%22:%20%22Increment%20Progress%20By%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22value%22%5D%7D"></div>
+
+| Params | []() |
+|--------|------|
+|value|<span class="chip chip-number">Number</span>|
+
+## Properties
+
+### Indeterminate
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
+
+Change the indeterminate mode for this progress bar. In indeterminate mode, the progress is ignored and the progress bar shows an infinite animation instead.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Linear%20Progressbar%22,%20%22name%22:%20%22Indeterminate%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Linear%20Progressbar%22,%20%22name%22:%20%22Indeterminate%22,%20%22getter%22:%20false%7D"></div>
+
+### Indeterminate Color
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-color">Color</span> <span class="chip chip-color">Default: <i>#2196F2FF</i>&nbsp;<span style="width: 15px; height: 15px; margin: auto; display: inline-block; border: 1px solid white; vertical-align: middle; border-radius: 3px; background-color: #2196F2;"></span></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
+
+Change the indeterminate color of the progress bar.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Linear%20Progressbar%22,%20%22name%22:%20%22Indeterminate%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Linear%20Progressbar%22,%20%22name%22:%20%22Indeterminate%20Color%22,%20%22getter%22:%20false%7D"></div>
+
+### Maximum
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>100</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
+
+Set the upper range of the progress bar max.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Linear%20Progressbar%22,%20%22name%22:%20%22Maximum%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Linear%20Progressbar%22,%20%22name%22:%20%22Maximum%22,%20%22getter%22:%20false%7D"></div>
+
+### Minimum
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>0</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
+
+Set the lower range of the progress bar to min. This function works only for devices with API &gt;= 26
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Linear%20Progressbar%22,%20%22name%22:%20%22Minimum%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Linear%20Progressbar%22,%20%22name%22:%20%22Minimum%22,%20%22getter%22:%20false%7D"></div>
+
+### Progress
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Blocks</span></span>
+
+Sets the current progress to the specified value. Does not do anything if the progress bar is in indeterminate mode.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Linear%20Progressbar%22,%20%22name%22:%20%22Progress%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Linear%20Progressbar%22,%20%22name%22:%20%22Progress%22,%20%22getter%22:%20false%7D"></div>
+
+### Progress Color
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-color">Color</span> <span class="chip chip-color">Default: <i>#2196F2FF</i>&nbsp;<span style="width: 15px; height: 15px; margin: auto; display: inline-block; border: 1px solid white; vertical-align: middle; border-radius: 3px; background-color: #2196F2;"></span></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
+
+Change the progress color of the progress bar.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Linear%20Progressbar%22,%20%22name%22:%20%22Progress%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Linear%20Progressbar%22,%20%22name%22:%20%22Progress%20Color%22,%20%22getter%22:%20false%7D"></div>
+
+### Visible
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
+
+Returns true iff the component is visible.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Linear%20Progressbar%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Linear%20Progressbar%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20false%7D"></div>
+
+### Width
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Blocks</span></span>
+
+Specifies the component's horizontal width, measured in pixels.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Linear%20Progressbar%22,%20%22name%22:%20%22Width%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Linear%20Progressbar%22,%20%22name%22:%20%22Width%22,%20%22getter%22:%20false%7D"></div>
+
+### Width Percent
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> :heavy_minus_sign: <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Blocks</span></span>
+
+Specifies the component's horizontal width as a percentageof the Width of its parent Component.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Linear%20Progressbar%22,%20%22name%22:%20%22Width%20Percent%22,%20%22getter%22:%20false%7D"></div>

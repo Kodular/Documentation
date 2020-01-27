@@ -1,151 +1,112 @@
-
-
 # Bottom Navigation
 
-Bottom Navigation menu is used as a way to provide movement through the primary destinations of your app.
-It is used to navigate between the top-level sections of an app.
+| Category | Requires | Version |
+|:--------:|:-------:|:--------:|
+|**Layout > Navigation**|<span class="chip chip-any">API 19, Android 4.4 - 4.4.4 KitKat</span>|<span class="chip chip-number">1</span>|
 
-For example, if your app is for displaying the various files in the storage, you can have a **Bottom Navigation** menu for
-the showing various files in one section, only the audio files in one section, only the video files in one section, only the documents 
-in one section. Now this is a right usage of **Bottom Navigation** menu, since these are the main sections of this particular app and
-they facilitate navigation thorough them. 
+## Overview
 
-It is recommended that this be used only to provide the navigation to the main sections of your app
-to make the app better in terms of user experience.
+A visible component that shows a navigation menu in the bottom of the screen.
 
-There can be a maximum of 5 menu items in the **Bottom Navigation** menu, at any given time.
+## Events
 
+### Item Selected
 
-<br><br>
-![Preview of bottom nav](/assets/images/components/user-interface/bottom-navigation/preview.png){: class="preview-img"}
+Event triggers when an item was selected.
 
-Bottom Navigation menu
-{: .img-caption}
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Bottom%20Navigation%22,%20%22name%22:%20%22Item%20Selected%22,%20%22param%22:%20%5B%22id%22,%20%22title%22%5D%7D"></div>
 
+| Params | []() |
+|--------|------|
+|id|<span class="chip chip-number">Number</span>|
+|title|<span class="chip chip-text">Text</span>|
 
-!!! tip
-    Although Kodular is flexible enough to allow you to add a **Bottom Navigation** menu anywhere in the layout of the app
-    we recommend that it always be placed at the bottom (since it is _Bottom_ Navigation :wink:)
+## Methods
 
+### Add Item
 
-## Anatomy
+Add an item to the bottom menu
 
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Bottom%20Navigation%22,%20%22name%22:%20%22Add%20Item%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22id%22,%20%22title%22,%20%22image%22%5D%7D"></div>
 
-* `title` - The name of the menu item that will shown in the Bottom Navigation menu.
-* `image` - The icon that will be shown above the `title`
-<br><br>
+| Params | []() |
+|--------|------|
+|id|<span class="chip chip-number">Number</span>|
+|title|<span class="chip chip-text">Text</span>|
+|image|<span class="chip chip-text">Text</span>|
 
-![Anatomy of bottom nav](/assets/images/components/user-interface/bottom-navigation/anatomy.png){: class="preview-img"}
+### Remove All Items
 
-The structure of Bottom Navigation menu item
-{: .img-caption}
+Remove all items from the bottom menu
 
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Bottom%20Navigation%22,%20%22name%22:%20%22Remove%20All%20Items%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
 
+### Remove Item
+
+Remove an item from the bottom menu
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Bottom%20Navigation%22,%20%22name%22:%20%22Remove%20Item%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22id%22%5D%7D"></div>
+
+| Params | []() |
+|--------|------|
+|id|<span class="chip chip-number">Number</span>|
+
+### Select Item
+
+Select an item from the bottom menu
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Bottom%20Navigation%22,%20%22name%22:%20%22Select%20Item%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22id%22%5D%7D"></div>
+
+| Params | []() |
+|--------|------|
+|id|<span class="chip chip-number">Number</span>|
+
+### Update Item
+
+Update an item of the bottom menu
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Bottom%20Navigation%22,%20%22name%22:%20%22Update%20Item%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22id%22,%20%22title%22,%20%22image%22%5D%7D"></div>
+
+| Params | []() |
+|--------|------|
+|id|<span class="chip chip-number">Number</span>|
+|title|<span class="chip chip-text">Text</span>|
+|image|<span class="chip chip-text">Text</span>|
 
 ## Properties
 
 ### Background Color
 
-_**\(** Getter + Setter **\)**    
-`Type: Color`_
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-color">Color</span> <span class="chip chip-color">Default: <i>#FFFFFFFF</i>&nbsp;<span style="width: 15px; height: 15px; margin: auto; display: inline-block; border: 1px solid white; vertical-align: middle; border-radius: 3px; background-color: #FFFFFF;"></span></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
 
-[[PropertyBlockGetterAndSetter('BottomNavigation', 'Background Color')]]
+Set the background color of the Bottom Navigation Menu
 
-The background color of the **Bottom Navigation Menu**.
-
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Bottom%20Navigation%22,%20%22name%22:%20%22Background%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Bottom%20Navigation%22,%20%22name%22:%20%22Background%20Color%22,%20%22getter%22:%20false%7D"></div>
 
 ### Selected Color
 
-_**\(** Getter + Setter **\)**    
-`Type: Color`_
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-color">Color</span> <span class="chip chip-color">Default: <i>#3F51B5FF</i>&nbsp;<span style="width: 15px; height: 15px; margin: auto; display: inline-block; border: 1px solid white; vertical-align: middle; border-radius: 3px; background-color: #3F51B5;"></span></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
 
-[[PropertyBlockGetterAndSetter('BottomNavigation', 'Selected Color')]]
+Set the color of the selected item of the Bottom Navigation Menu
 
-The color of the selected item of the **Bottom Navigation Menu**.
-
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Bottom%20Navigation%22,%20%22name%22:%20%22Selected%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Bottom%20Navigation%22,%20%22name%22:%20%22Selected%20Color%22,%20%22getter%22:%20false%7D"></div>
 
 ### Unselected Color
 
-_**\(** Getter + Setter **\)**    
-`Type: Color`_
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-color">Color</span> <span class="chip chip-color">Default: <i>#6E6E6EFF</i>&nbsp;<span style="width: 15px; height: 15px; margin: auto; display: inline-block; border: 1px solid white; vertical-align: middle; border-radius: 3px; background-color: #6E6E6E;"></span></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
 
-[[PropertyBlockGetterAndSetter('BottomNavigation', 'Unselected Color')]]
+Set the color of the unselected items of the Bottom Navigation Menu
 
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Bottom%20Navigation%22,%20%22name%22:%20%22Unselected%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Bottom%20Navigation%22,%20%22name%22:%20%22Unselected%20Color%22,%20%22getter%22:%20false%7D"></div>
 
-The color of the unselected items of the Bottom Navigation Menu
+### Visible
 
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
 
-{!includes/visible-property.md!}
+Returns true iff the component is visible.
 
-
-## Methods
-
-
-### Add Item
-_**\(**  Number `id`, Text `title`, Asset `image`  **\)**_
-
-Adds an item to the **Bottom Navigation** menu.  
-Does nothing when the number of items is equal to five.
-
-Params               | []() 
--------------------- | ---------- 
-`id`                 | **Number:** The `item` added to the Bottom Navigation is identified with this ID. Should be unique for every `item` added.
-`title`              | **Text:** The title text to show in the menu
-`image`              | **Text:** The icon to show above the `title`
-
-
-### Remove All Items
-_**\(**  None  **\)**_
-
-Removes all items from the **Bottom Navigation**.
-
-
-### Remove Item
-_**\(**  Number `id`  **\)**_
-
-Removes a specific item from the **Bottom Navigation**.
-Does nothing when the item with specified `id` doesn't exist.
-
-Params               | []() 
--------------------- | ---------- 
-`id`                 | **Number:** The ID of the `item` which is to be removed.
-
-
-### Select Item
-_**\(**  Number `id`  **\)**_
-
-Selects a particular item from the **Bottom Navigation**.
-Does nothing when the item with `id` doesn't exist.
-
-Params               | []() 
--------------------- | ---------- 
-`id`                 | **Number:** The ID of the `item` to be selected.
-
-
-### Update Item
-_**\(**  Number `id`, Text `title`, Asset `image`  **\)**_
-
-Updates the text and image of an item which is already existing with a specific ID in the **Bottom Navigation**.
-Does nothing when the item with `id` doesn't exist.
-
-Params               | []() 
--------------------- | ---------- 
-`id`                 | **Number:** The ID of the `item` to be updated.
-`title`              | **Text:** The new title to be set instead of the old one.
-`image`              | **Asset:** The image that is updated instead of the previous one.
-
-
-## Events
-
-
-### Item Selected
-_**\(**  Number `id`, Text `title`  **\)**_
-
-Indicates that an `item` has been selected(clicked by the user) from the **Bottom Navigation**.
-
-[[Event('BottomNavigation', 'Item Selected', 'id', 'title')]]
-
-Params               | []() 
--------------------- | ---------- 
-`id`                 | **Number:** The ID of the `item` that was selected.
-`title`              | **Text:** The title of the `item` that was selected.
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Bottom%20Navigation%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Bottom%20Navigation%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20false%7D"></div>

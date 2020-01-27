@@ -1,22 +1,28 @@
 # Image Utilities
 
+{>> Non-Visible component<<}
+
+| Category | Requires | Version |
+|:--------:|:-------:|:--------:|
+|**Utilities**|<span class="chip chip-any">API 19, Android 4.4 - 4.4.4 KitKat</span>|<span class="chip chip-number">1</span>|
+
 ## Overview
-**Image Utilities** is a non-visible component which can load images asynchronous to the specified component. This reduces the loading time of the image making your apps faster.
+
+A non-visible component that loads images asynchronously.
+
+??? example "Permissions"
+    * [android.permission.INTERNET](https://developer.android.com/reference/android/Manifest.permission.html#INTERNET)
+    * [android.permission.READ_EXTERNAL_STORAGE](https://developer.android.com/reference/android/Manifest.permission.html#READ_EXTERNAL_STORAGE)
 
 ## Methods
 
 ### Load Image Async
 
-![Load Image Async](/assets/images/components/utilities/image-utilities/m_load-image-async.png)
+Load a new image from the given path to any component. You can load also images from the internet. Supported components: Image, Buttons, Layouts, Canvas.
 
-\[ Component `component`, Text `path` \]
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Utilities%22,%20%22name%22:%20%22Load%20Image%20Async%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22component%22,%20%22path%22%5D%7D"></div>
 
-Aynchronously loads an image from the given path in the specified component. Asynchronous loading does not block the main UI thread of the app, meaning your app won't temporarily stop responding to user input.
-
-Params               |  []()       
--------------------- | ------- 
-`component`          | **Component:**  The component inside which the image has to be loaded
-`path`               | **Text:** The path to the image which has to be loaded. The image can be from the app's Assets, an external directory on the device, or from a URL on the internet. 
-
-!!! tip
-    It is recommended to use this method when loading large or several images from the internet. Your app will continue to be responsive as the images load in the background.
+| Params | []() |
+|--------|------|
+|component|<span class="chip chip-component">Component</span>|
+|path|<span class="chip chip-text">Text</span>|

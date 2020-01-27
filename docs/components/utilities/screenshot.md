@@ -1,175 +1,141 @@
 # Screenshot
 
+{>> Non-Visible component<<}
+
+| Category | Requires | Version |
+|:--------:|:-------:|:--------:|
+|**Utilities**|<span class="chip chip-any">API 19, Android 4.4 - 4.4.4 KitKat</span>|<span class="chip chip-number">2</span>|
+
 ## Overview
 
-The **Screenshot** component can, among many other things, be used to take screenshots of the current screen.
-
-## Properties
-
-### Allow Screenshots
-![](/assets/images/components/utilities/screenshot/d_allow-screenshots.png) ![](/assets/images/components/utilities/screenshot/p_allow-screenshots.png)
-
-\[ Setter only \]  
-`Type: Boolean`
-
-Determines if the user can take screenshots of the current screen.
-
-* `True` - The user can take screenshots of the current screen.
-* `False` - The user will see a "Screenshots blocked" notice when the they try to take a screenshot of the current screen. 
-
-
-### Dim Amount
-![](/assets/images/components/utilities/screenshot/d_dim-amount.png) ![](/assets/images/components/utilities/screenshot/p_dim-amount.png)
-
-\[ Getter + Setter \]  
-`Type: Number`
-
-The amount by which the space behind the screenshot preview should be dimmed. `0.0` corresponds to no dimming of the background, and `1.0` will completely blacken the background.
-
-
-### File Name
-![](/assets/images/components/utilities/screenshot/d_file-name.png) ![](/assets/images/components/utilities/screenshot/p_file-name.png)
-
-\[ Getter + Setter \]  
-`Type: Text`
-
-The name by which the screenshot taken will be saved. You can also specify the full path of the image to store it in an external directory. The file name is "Screenshot.png" by default.
-
-
-### Use Large Notification
-![](/assets/images/components/utilities/screenshot/d_use-large-notification.png) ![](/assets/images/components/utilities/screenshot/p_use-large-notification.png)
-
-\[ Getter + Setter \]  
-`Type: Boolean`
-
-Determines the size of the notification that is sent to the user (if [Show Notification](#show-notification) is set to `True`) after the screenshot is taken.
-
-* `True` - A large notification is shown to the user with the notification title and a preview of the screenshot that was taken.
-* `False` - A small notification is shown to the user with only the notification title.
-
-
-### Show Notification Share Button
-![](/assets/images/components/utilities/screenshot/d_show-notification-share-button.png) ![](/assets/images/components/utilities/screenshot/p_show-notification-share-button.png)
-
-\[ Getter + Setter \]  
-`Type: Boolean`
-
-Determines if a `Share` button is to be included in the notification that is sent to the user (if [Show Notification](#show-notification) is set to `True`) after the screenshot is taken.
-
-* `True` - A `Share` button is included in the notification, clicking on which will bring up the system's Sharing menu.
-* `False` - No `Share` icon will be shown to the user.
-
-
-### Notification Share Title
-![](/assets/images/components/utilities/screenshot/d_notification-share-title.png) ![](/assets/images/components/utilities/screenshot/p_notification-share-title.png)
-
-\[ Getter + Setter \]  
-`Type: Text`
-
-The text of the `Share` button that is sent to the user if [Show Notification Share Button](#show-notification-share-button) is set to `True`.
-
-![share-preview](/assets/images/components/utilities/screenshot/pr_share-menu.png#phone)
-
-Share menu triggered after the `Share` button was clicked.
-{: .img-caption}
-
-
-### Notification Title
-![](/assets/images/components/utilities/screenshot/d_notification-title.png) ![](/assets/images/components/utilities/screenshot/p_notification-title.png)
-
-\[ Getter + Setter \]  
-`Type: Text`
-
-The title of the notification that is sent to the user (if [Show Notification](#show-notification) is set to `True`) after a screenshot has been taken.
-
-
-### Show Notification
-![](/assets/images/components/utilities/screenshot/d_show-notification.png) ![](/assets/images/components/utilities/screenshot/p_show-notification.png)
-
-\[ Getter + Setter \]  
-`Type: Boolean`
-
-Determines if the user should be sent a notification after a screenshot has been taken.
-
-* `True` - A notification is sent to the user.
-* `False` - No notification is sent to the user.
-
-![notification-preview](/assets/images/components/utilities/screenshot/pr_notification.png#phone)
-
-Small notification (top) and large notification (bottom).
-{: .img-caption}
-
-
-### Show Preview
-![](/assets/images/components/utilities/screenshot/d_show-preview.png) ![](/assets/images/components/utilities/screenshot/p_show-preview.png)
-
-\[ Getter + Setter \]  
-`Type: Boolean`
-
-Determines if the user should be shown a preview of the screenshot that was just taken.
-
-* `True` - A preview of the screenshot is shown to the user.
-* `False` - No preview of the screenshot is shown to the user.
-
-![screenshot-preview](/assets/images/components/utilities/screenshot/pr_preview.png#phone)
-
-Screenshot preview.
-{: .img-caption}
-
-
-### Are Permissions Granted
-![](/assets/images/components/utilities/screenshot/p_are-permissions-granted.png)
-
-\[ Getter | Blocks only \]  
-`Type: Boolean`
-
-Determines if the app has been given permissions to read and write the device's external storage.
-
-* `True` - Read/write permissions have been granted.
-* `False` - Permissions have not been granted.
-
-
-### Is Read Permission Granted
-![](/assets/images/components/utilities/screenshot/p_is-read-permission-granted.png)
-
-\[ Getter | Blocks only \]  
-`Type: Boolean`
-
-Determines if the app has been given permissions to read from the device's external storage.
-
-* `True` - Read permissions have been granted.
-* `False` - Permissions have not been granted.
-
-
-### Is Write Permission Granted
-![](/assets/images/components/utilities/screenshot/p_is-write-permission-granted.png)
-
-\[ Getter | Blocks only \]  
-`Type: Boolean`
-
-Determines if the app has been given permissions to write to the device's external storage.
-
-* `True` - Write permissions have been granted.
-* `False` - Permissions have not been granted.
-
-## Methods
-
-### Take Screenshot
-![](/assets/images/components/utilities/screenshot/m_take-screenshot.png)
-
-\[ None \]
-
-Takes a screenshot of the currently open screen.
+A non-visible component that takes a screenshot of the content currently visible on the device''s screen.
+
+??? example "Permissions"
+    * [android.permission.READ_EXTERNAL_STORAGE](https://developer.android.com/reference/android/Manifest.permission.html#READ_EXTERNAL_STORAGE)
+    * [android.permission.WRITE_EXTERNAL_STORAGE](https://developer.android.com/reference/android/Manifest.permission.html#WRITE_EXTERNAL_STORAGE)
 
 ## Events
 
 ### Got Screenshot
-![](/assets/images/components/utilities/screenshot/e_got-screenshot.png)
 
-\[ Text `image` \]
+Event to detect that a screenshot was made by the user. Returns the image path to the taken screenshot.
 
-Triggers when the screenshot that was taken has been saved to the device's storage.
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Screenshot%22,%20%22name%22:%20%22Got%20Screenshot%22,%20%22param%22:%20%5B%22image%22%5D%7D"></div>
 
-Params           |  []()       
----------------- | ------- 
-`image`          | **Text:**  The path to the screenshot that was just taken.
+| Params | []() |
+|--------|------|
+|image|<span class="chip chip-text">Text</span>|
+
+## Methods
+
+### Take Screenshot
+
+Take a screenshot of the current visible screen.
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Screenshot%22,%20%22name%22:%20%22Take%20Screenshot%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
+
+## Properties
+
+### Allow Screenshots
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span> :heavy_minus_sign: <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
+
+This feature allows users of your app to make or ban screenshots of their app. If disabled and a person tries to make a screenshot, they will receive then a default system message that this is not possible.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Screenshot%22,%20%22name%22:%20%22Allow%20Screenshots%22,%20%22getter%22:%20false%7D"></div>
+
+### Are Permissions Granted
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-boolean">Boolean</span> :heavy_minus_sign: <span class="chip chip-rw">Read</span>  - <span class="chip chip-bd">Blocks</span></span>
+
+Returns true if the write and read permission is granted, else false.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Screenshot%22,%20%22name%22:%20%22Are%20Permissions%20Granted%22,%20%22getter%22:%20true%7D"></div>
+
+### Dim Amount
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>0.5</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
+
+Set the amount of dim behind the preview window if ShowPreview(...) is enabled. Use '0.0' for no dim and '1.0' for full dim.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Screenshot%22,%20%22name%22:%20%22Dim%20Amount%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Screenshot%22,%20%22name%22:%20%22Dim%20Amount%22,%20%22getter%22:%20false%7D"></div>
+
+### File Name
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span> <span class="chip chip-text">Default: <i>Screenshot.png</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
+
+This will be the name for the taken screenshot image file.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Screenshot%22,%20%22name%22:%20%22File%20Name%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Screenshot%22,%20%22name%22:%20%22File%20Name%22,%20%22getter%22:%20false%7D"></div>
+
+### is Read Permission Granted
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-boolean">Boolean</span> :heavy_minus_sign: <span class="chip chip-rw">Read</span>  - <span class="chip chip-bd">Blocks</span></span>
+
+Returns true if the read permission is granted, else false.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Screenshot%22,%20%22name%22:%20%22is%20Read%20Permission%20Granted%22,%20%22getter%22:%20true%7D"></div>
+
+### is Write Permission Granted
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-boolean">Boolean</span> :heavy_minus_sign: <span class="chip chip-rw">Read</span>  - <span class="chip chip-bd">Blocks</span></span>
+
+Returns true if the write permission is granted, else false.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Screenshot%22,%20%22name%22:%20%22is%20Write%20Permission%20Granted%22,%20%22getter%22:%20true%7D"></div>
+
+### Notification Share Title
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span> <span class="chip chip-text">Default: <i>Share</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
+
+This will set the notification share button text if the option "Show Notification" is enabled.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Screenshot%22,%20%22name%22:%20%22Notification%20Share%20Title%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Screenshot%22,%20%22name%22:%20%22Notification%20Share%20Title%22,%20%22getter%22:%20false%7D"></div>
+
+### Notification Title
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span> <span class="chip chip-text">Default: <i>Screenshot..</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
+
+This will set the notification title if the option "Show Notification" is enabled.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Screenshot%22,%20%22name%22:%20%22Notification%20Title%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Screenshot%22,%20%22name%22:%20%22Notification%20Title%22,%20%22getter%22:%20false%7D"></div>
+
+### Show Notification
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>False</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
+
+If enabled you will see a notification in the statusbar after the screenshot is taken.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Screenshot%22,%20%22name%22:%20%22Show%20Notification%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Screenshot%22,%20%22name%22:%20%22Show%20Notification%22,%20%22getter%22:%20false%7D"></div>
+
+### Show Notification Share Button
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
+
+If enabled you will see a notification with a share button after the screenshot is taken.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Screenshot%22,%20%22name%22:%20%22Show%20Notification%20Share%20Button%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Screenshot%22,%20%22name%22:%20%22Show%20Notification%20Share%20Button%22,%20%22getter%22:%20false%7D"></div>
+
+### Show Preview
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
+
+If enabled you will see a short preview animation after the screenshot is taken.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Screenshot%22,%20%22name%22:%20%22Show%20Preview%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Screenshot%22,%20%22name%22:%20%22Show%20Preview%22,%20%22getter%22:%20false%7D"></div>
+
+### Use Large Notification
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>False</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
+
+This will display the notification in a big style.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Screenshot%22,%20%22name%22:%20%22Use%20Large%20Notification%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Screenshot%22,%20%22name%22:%20%22Use%20Large%20Notification%22,%20%22getter%22:%20false%7D"></div>
