@@ -362,3 +362,7 @@ img[src*="#animationUtilsPreview"] {
 .chip-any {
     background-color: rgb(208, 95, 45);
 }
+
+.md-content__inner {
+    word-break: break-word;
+}
