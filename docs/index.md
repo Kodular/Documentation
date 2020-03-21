@@ -16,19 +16,23 @@ Kodular allows you to create Android apps easily with a blocks-type editor. No c
 
 ## Useful Links
 
-### [Creator](http://creator.kodular.io)
+### [Creator](https://creator.kodular.io)
 
 This is the page you're going to use to build apps. This is main app that allows you to create anything you want with a Material Design UI.
+
+### [My Kodular](https://my.kodular.io)
+
+My Kodular is the Control Panel of your Kodular account, you can view and manage your data and projects created with Kodular Creator in a comfortable and simple way.
 
 ### [Community](https://community.kodular.io)
 
 Using the community, you can get help related to your questions about Kodular. Even submit your ideas to help improve Kodular or even report bugs you've experienced during your app development session. Community has so many users that help you, this means you will get a proper answer to any question of yours in minutes.
 
-### [IDE](http://ide.kodular.io)
+### [IDE](https://ide.kodular.io)
 
 This is Kodular's service for you to create your own extensions and distribute them.
 
-### [Store](http://store.kodular.io)
+### [Store](https://store.kodular.io)
 
 Using Kodular Store, you can publish your apps to a specific store where only Kodular apps exist.
 
