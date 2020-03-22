@@ -180,6 +180,7 @@
       - Overview: components/monetization/general/index.md
       - In App Billing: components/monetization/general/in-app-billing.md
       - Kodular Donations: components/monetization/general/kodular-donations.md
+      - Pollfish: components/monetization/general/pollfish.md
     - Advertising:
       - Overview: components/monetization/advertising/index.md
       - AdColony Interstitial: components/monetization/advertising/adcolony-interstitial.md

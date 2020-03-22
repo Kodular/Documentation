@@ -13,10 +13,10 @@ Top-level component containing all other components in the program.
     * [android.permission.ACCESS_NETWORK_STATE](https://developer.android.com/reference/android/Manifest.permission.html#ACCESS_NETWORK_STATE)
     * [android.permission.ACCESS_WIFI_STATE](https://developer.android.com/reference/android/Manifest.permission.html#ACCESS_WIFI_STATE)
 
-Screen is the top-most component in any app. All the other components are placed on a Screen.
+    Screen is the top-most component in any app. All the other components are placed on a Screen.
 
-If you take the app as a book, the Screens can be regarded as the pages of a book and the other components as
-the various elements present on a page of a book, text, images etc.
+    If you take the app as a book, the Screens can be regarded as the pages of a book and the other components as
+    the various elements present on a page of a book, text, images etc.
 
 ![screen-book-analogy](/assets/images/components/screen/screen-book-analogy.png)
 

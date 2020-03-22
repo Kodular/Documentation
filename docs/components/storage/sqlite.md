@@ -4,7 +4,7 @@
 
 | Category | Requires | Version |
 |:--------:|:-------:|:--------:|
-|**Storage**|<span class="chip chip-any">API 19, Android 4.4 - 4.4.4 KitKat</span>|<span class="chip chip-number">1</span>|
+|**Storage**|<span class="chip chip-any">API 19, Android 4.4 - 4.4.4 KitKat</span>|<span class="chip chip-number">2</span>|
 
 ## Overview
 
@@ -65,6 +65,26 @@ Executes pre-compiled DELETE statement with specified parameters. Parameters: 1)
 |table|<span class="chip chip-text">Text</span>|
 |where Clause|<span class="chip chip-text">Text</span>|
 |where Args|<span class="chip chip-list">List</span>|
+
+### Display Tables
+
+<span class="chip chip-list">Returns: <i>List</i></span>
+
+Used to retrieve list of existing tables from the database
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22SQLite%22,%20%22name%22:%20%22Display%20Tables%22,%20%22output%22:%20true,%20%22param%22:%20%5B%5D%7D"></div>
+
+### Drop Table
+
+<span class="chip chip-list">Returns: <i>List</i></span>
+
+Used to drop / delete table from database. Please note that this event will DELETE any data you may have on the table and will then delete table from the database. After this operation is completed, it cannot be undone!
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22SQLite%22,%20%22name%22:%20%22Drop%20Table%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22table%20Nme%22%5D%7D"></div>
+
+| Params | []() |
+|--------|------|
+|table Nme|<span class="chip chip-text">Text</span>|
 
 ### Get Path
 
@@ -150,6 +170,18 @@ Execute a Single SQL Statement asynchronously and returns whether the transactio
 |--------|------|
 |sql|<span class="chip chip-text">Text</span>|
 
+### SQL Query
+
+<span class="chip chip-list">Returns: <i>List</i></span>
+
+Used to run any valid SQLite query and return results in same block.
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22SQLite%22,%20%22name%22:%20%22SQL%20Query%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22query%22%5D%7D"></div>
+
+| Params | []() |
+|--------|------|
+|query|<span class="chip chip-text">Text</span>|
+
 ### Update
 
 <span class="chip chip-number">Returns: <i>Number</i></span>
@@ -176,6 +208,14 @@ Returns whether the header row should be returned in the result of a Select stat
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22SQLite%22,%20%22name%22:%20%22Return%20Header%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22SQLite%22,%20%22name%22:%20%22Return%20Header%22,%20%22getter%22:%20false%7D"></div>
+
+### Rows Affected
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> :heavy_minus_sign: <span class="chip chip-rw">Read</span>  - <span class="chip chip-bd">Blocks</span></span>
+
+Returns the number of rows affected after a raw SQL has been executed using SQL Query.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22SQLite%22,%20%22name%22:%20%22Rows%20Affected%22,%20%22getter%22:%20true%7D"></div>
 
 ### Suppress Toast
 

@@ -16,6 +16,8 @@ To directly specify the phone number (e.g., 650-555-1212), set the `` PhoneNumbe
 
 ??? example "Permissions"
     * [android.permission.CALL_PHONE](https://developer.android.com/reference/android/Manifest.permission.html#CALL_PHONE)
+    * [android.permission.READ_CALL_LOG](https://developer.android.com/reference/android/Manifest.permission.html#READ_CALL_LOG)
+    * [android.permission.PROCESS_OUTGOING_CALLS](https://developer.android.com/reference/android/Manifest.permission.html#PROCESS_OUTGOING_CALLS)
     * [android.permission.READ_PHONE_STATE](https://developer.android.com/reference/android/Manifest.permission.html#READ_PHONE_STATE)
 
 ## Events

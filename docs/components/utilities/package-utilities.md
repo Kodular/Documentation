@@ -10,10 +10,6 @@
 
 A non-visible component that retrieves information about other applications on the device.
 
-??? example "Permissions"
-    * [android.permission.READ_EXTERNAL_STORAGE](https://developer.android.com/reference/android/Manifest.permission.html#READ_EXTERNAL_STORAGE)
-    * [android.permission.WRITE_EXTERNAL_STORAGE](https://developer.android.com/reference/android/Manifest.permission.html#WRITE_EXTERNAL_STORAGE)
-
 ## Methods
 
 ### App Name From
@@ -44,7 +40,7 @@ Try to show the application icon of the given package name. If the application c
 
 <span class="chip chip-boolean">Returns: <i>Boolean</i></span>
 
-Returns true if a package (app) is installed.
+Returns true if a package (app) is installed and enabled.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Package%20Utilities%22,%20%22name%22:%20%22Is%20Package%20Installed%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22package%20Name%22%5D%7D"></div>
 

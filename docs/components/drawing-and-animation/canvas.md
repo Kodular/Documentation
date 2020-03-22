@@ -2,7 +2,7 @@
 
 | Category | Requires | Version |
 |:--------:|:-------:|:--------:|
-|**Drawing and Animation**|<span class="chip chip-any">API 19, Android 4.4 - 4.4.4 KitKat</span>|<span class="chip chip-number">13</span>|
+|**Drawing and Animation**|<span class="chip chip-any">API 19, Android 4.4 - 4.4.4 KitKat</span>|<span class="chip chip-number">14</span>|
 
 ## Overview
 
@@ -171,7 +171,7 @@ Draws a point at the given coordinates on the canvas.
 
 Creates a polygon with with specified number of sides from a radius.
 
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Canvas%22,%20%22name%22:%20%22Draw%20Polygon%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22center%20X%22,%20%22center%20Y%22,%20%22num%20Sides%22,%20%22poly%20Radius%22,%20%22corner%20Radius%22,%20%22rotation%22,%20%22fill%22%5D%7D"></div>
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Canvas%22,%20%22name%22:%20%22Draw%20Polygon%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22center%20X%22,%20%22center%20Y%22,%20%22num%20Sides%22,%20%22poly%20Radius%22,%20%22corner%20Radius%22,%20%22rotation%22,%20%22fill%22,%20%22clear%20Canvas%22%5D%7D"></div>
 
 | Params | []() |
 |--------|------|
@@ -182,6 +182,7 @@ Creates a polygon with with specified number of sides from a radius.
 |corner Radius|<span class="chip chip-number">Number</span>|
 |rotation|<span class="chip chip-number">Number</span>|
 |fill|<span class="chip chip-boolean">Boolean</span>|
+|clear Canvas|<span class="chip chip-boolean">Boolean</span>|
 
 ### Draw Shape
 
