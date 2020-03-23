@@ -343,6 +343,7 @@ nav:
     - Math: blocks/math.md
     - Text: blocks/text.md
     - Lists: blocks/lists.md
+    - Dictionaries: blocks/dictionaries.md
     - Colors: blocks/colors.md
     - Variables: blocks/variables.md
     - Procedures: blocks/procedures.md
