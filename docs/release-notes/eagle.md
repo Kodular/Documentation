@@ -986,3 +986,77 @@ Parity components will not be available in the Palette and are meant only to sup
 - Fixed *NullPointerException* in **Card View** component
 
 - Fixed **In-App Purchases** component which was not making one-time purchases
+
+
+## 1.4C.0 Eagle | 22 March 2020
+
+### Major Changes
+
+* Added new **Dictionary** data type.
+*[Implement dictionaries for the blocks language · mit-cml/appinventor-sources@f1e1863](https://github.com/mit-cml/appinventor-sources/commit/f1e1863ff151b95e55819715941c641555ed28b6)*
+
+### Companion Changes
+
+* Added new **Refresh companion** menu item.
+[Add refresh companion item to connect menu · mit-cml/appinventor-sources@ae9e02d](https://github.com/mit-cml/appinventor-sources/commit/ae9e02dd11c64f311e5e08b86d27412555f5ed62)
+
+### New Components
+
+* New **Pollfish** component in Monetization.
+*[Read more here :open_book:](https://medium.com/the-kodular-korner/kodular-pollfish-component-a79916d3813e)*
+![image|310x300, 75%](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/9/5/954ee5e215ae7f3ae29d867597574476ae2dcbbc.png)
+
+### New Methods
+
+#### Storage
+
+* **SQLite** component
+	* New **Display Tables** method.  
+*Retrieves the list of tables' names in the database.*  
+![component_method|243x26](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/5/9/59136ef57d4f7dc5777d9a597693ca36b45d5fb7.png)
+
+	* New **Drop Table** method.  
+*Removes the given table from the database.*  
+![component_method (1)|227x50](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/6/5/653e8497e2f03c115243abe71bce1cd8b677269c.png)
+
+	* New **SQL Query** method.  
+*Executes the given raw SQL query and returns result synchronously (same block).*  
+![component_method (2)|229x50](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/e/e/ee5991a085ec41e97887d1065bb015a2f8ca4364.png)
+
+# New Properties
+
+## Storage
+
+* **SQLite** component
+	* New **Rows Affected** property.  
+*Returns the number of rows affected by the most recent operation.*  
+![component_set_get|232x26](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/9/d/9d6f58b4ab76aa9b47f0e8d2c6cc1e803e830254.png)
+
+# Bugs Fixed
+
+* Added missing clearCanvas parameter to Draw Polygon method in **Canvas**.
+
+* Only .aia files should be allowed when **importing a project**.
+
+* Fixed **Help URLs** in components description.
+
+* Fixed Notifier properties not working properly when using multiple **Notifier** components.
+
+* Fixed shrinking issue of **Custom Progress**.
+
+* Add missing CubeGrid animation message to **Custom Progress**.
+
+* Fixed dynamic switching of animation of **Custom Progress**.
+
+* Fixed **Gallery Viewer** Height issue.
+
+* Fixed **Package** component permission bug.
+
+* Performance and stability improvements to **WebRTC** (the companion connection mechanism). Companion connection should be faster and more reliable now.
+[mit-cml/appinventor-sources@6740799](https://github.com/mit-cml/appinventor-sources/commit/674079910d0e15e0e2340fe79586950c1583770d), [mit-cml/appinventor-sources@42112f1](https://github.com/mit-cml/appinventor-sources/commit/42112f1e560d92a0fd09d3ebc2bb1449c2c13022), [mit-cml/appinventor-sources@f0a4c72](https://github.com/mit-cml/appinventor-sources/commit/f0a4c723f667ed775ff9ece57ef276d68be4fe2a)
+
+* Fixed **Camera** failure on Android 10
+[Fix camera failure on Android 10 (#1957) · mit-cml/appinventor-sources@cb5e005](https://github.com/mit-cml/appinventor-sources/commit/cb5e005afd3fd1402d1add0e7c4d1523f118c8b0)
+
+* Improved app sizing on Chromebooks
+[Improve app resizing on Chromebooks · mit-cml/appinventor-sources@4da346e](https://github.com/mit-cml/appinventor-sources/commit/4da346ef3bdc26d610c274a3a4c41f04ea414776)
