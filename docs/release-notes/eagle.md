@@ -1003,7 +1003,7 @@ Parity components will not be available in the Palette and are meant only to sup
 ### New Components
 
 * New **Pollfish** component in Monetization.  
-*[Read more here...](https://medium.com/the-kodular-korner/kodular-pollfish-component-a79916d3813e)*
+*[Read more here...](https://medium.com/the-kodular-korner/kodular-pollfish-component-a79916d3813e)*  
 ![image|310x300, 75%](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/9/5/954ee5e215ae7f3ae29d867597574476ae2dcbbc.png)
 
 ### New Methods
