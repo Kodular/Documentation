@@ -26,6 +26,10 @@ We'll be starting off with a new project. Drag and drop the `Pollfish` component
 
 Select the Pollfish component and head over to the Properties panel. Set the `API Key` property to the key you copied from your Pollfish dashboard.
 
+
+!!! note
+    Make sure you've enabled `Test Mode` in the component's designer properties. Your surveys will not open if you've disabled `Test Mode` in an unverified app.
+
 ![](/assets/images/guides/pollfish/d_pollfish-1.jpg)
 
 We will be showing a Single Survey to users in this guide. Head over to [Next steps](#next-steps) for information on implementing Offerwall surveys.
