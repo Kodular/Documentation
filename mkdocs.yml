@@ -107,7 +107,7 @@ nav:
       - Firebase Rules: guides/component-examples/firebase-rules.md
       - Securing Firebase: guides/component-examples/securing-app.md
       - Targeting Notifications : guides/component-examples/targeted-notifications.md
-      - Integrating Pollfish: guides/component-examples/pollfish.md
+      - Surveys with Pollfish: guides/component-examples/pollfish.md
     - Extensions:
       - Create Extensions: guides/extensions/create-extensions.md
   - Components:
