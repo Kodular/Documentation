@@ -55,28 +55,38 @@ The procedure will be called if no survey was available or if the user was ineli
 ![](/assets/images/guides/pollfish/e_user-not-eligible.png)
 ![](/assets/images/guides/pollfish/e_user-rejected.png)
 
+Finally, we handle a successful survey result using the `Survey Completed` block. This is where you can reward your users with non-cash items (in-game coins, credits, etc.)
+![](/assets/images/guides/pollfish/e_survey-completed.png)
 
 
 ## Conclusion
 
-
+![](/assets/images/guides/pollfish/pr_survey.png)
+![](/assets/images/guides/pollfish/pr_reward.png)
 The finished project
 {: .img-caption}
 
-
+![](/assets/images/guides/pollfish/blocks.png)
 All the blocks we've used
 {: .img-caption}
 
 Here is a summary of what you've learned in this guide.
 
- -
+ - How to set up a Pollfish publisher account.
+ - How to find your Pollfish API key.
+ - How to use the Pollfish component to show Single Surveys to users.
 
 ## Next steps
 
-Want ideas for making this app better? We have some things for you to try.
+### Using Offerwall Surveys
 
- - 
+Select "Offerwall Survey" in the `Survey Mode` designer property of the component. Your users will now be shown offerwalls instead of single surveys.
+
+### Publishing
+
+Before publishing your app to the Google Play Store, make sure to disable `Test Mode` from the component's designer properties. Next, you have to get your app approved by Pollfish.
+Head over to your Pollfish dashboard and request an approval. You will need to submit a valid link that points to your app.
 
 ## Downloads
 
- Get the AIA file <a href="https://kodular-docs.s3-eu-west-1.amazonaws.com/aia/firebase_rules.aia">here</a>.
+ Get the AIA file <a href="https://kodular-docs.s3-eu-west-1.amazonaws.com/aia/pollfish.aia">here</a>.
