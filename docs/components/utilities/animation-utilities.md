@@ -1,201 +1,179 @@
 # Animation Utilities
 
+{>> Non-Visible component<<}
+
+| Category | Requires | Version |
+|:--------:|:-------:|:--------:|
+|**Utilities**|<span class="chip chip-any">API 19, Android 4.4 - 4.4.4 KitKat</span>|<span class="chip chip-number">1</span>|
+
 ## Overview
 
-The **Animation Utilities** component can be used to animate components on the screen. This component offers several animation options like zoom, bounce, and overshoot.
+A non-visible component with which other components can be animated.
 
-!!! info
-		Components whose positions change while being animated will **not** affect other components. Such components will instead overlap over static components.
-		
-![](/assets/images/components/utilities/animation-utilities/pr_notice.gif#phone)	
-Overlapping of animated and static components
-{: .img-caption}
+## Events
 
-!!! caution
-		Do not add multiple animations to the same component before returning the component to its initial state. For example, zooming to scale 5 and rotating by 180deg will cause the component to glitch.
+### Error
 
+This event is triggered when there was a error catched. Possible values for the error code and method: 1 'GetLeftPosition', 2 'GetTopPosition', 3 'GetRightPosition', 4 'GetBottomPosition', 5 'GetXPosition', 6 'GetYPosition', 7 'Rotation', 8 'BounceHorizontal', 9 'BounceVertical', 10 'OvershootHorizontal', 11 'OvershootVertical', 12 'Zoom'. The error message will return you the error reason.
+
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Animation%20Utilities%22,%20%22name%22:%20%22Error%22,%20%22param%22:%20%5B%22error%20Code%22,%20%22error%20Message%22,%20%22method%22%5D%7D"></div>
+
+| Params | []() |
+|--------|------|
+|error Code|<span class="chip chip-number">Number</span>|
+|error Message|<span class="chip chip-text">Text</span>|
+|method|<span class="chip chip-text">Text</span>|
 
 ## Methods
 
 ### Bounce Horizontal
-![](/assets/images/components/utilities/animation-utilities/m_bounce-horizontal.png)
-![](/assets/images/components/utilities/animation-utilities/pr_bounce-horizontal.gif#animationUtilsPreview)
 
-\[ Component `component`, Number `start Position`, Number `end Position`, Number `duration` \]
+Start a horizontal bounce animation. The duration is set in millisecond. Use as example for 1 second '1000'.
 
-Animates the selected component from the start position to the end in a bounce-style motion.
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Animation%20Utilities%22,%20%22name%22:%20%22Bounce%20Horizontal%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22component%22,%20%22start%20Position%22,%20%22end%20Position%22,%20%22duration%22%5D%7D"></div>
 
-<br>
-
-Params           |  []()       
----------------- | ------- 
-`component`      | **Component:**  The component which is to be animated.
-`start Position` | **Number:**  The initial X co-ordinate of the component (in pixels).
-`end Position`   | **Number:**  The final X co-ordinate of the component (in pixels).
-`duration`       | **Number:**  The duration of the animation (in milliseconds).
-
+| Params | []() |
+|--------|------|
+|component|<span class="chip chip-component">Component</span>|
+|start Position|<span class="chip chip-number">Number</span>|
+|end Position|<span class="chip chip-number">Number</span>|
+|duration|<span class="chip chip-number">Number</span>|
 
 ### Bounce Vertical
-![](/assets/images/components/utilities/animation-utilities/m_bounce-vertical.png)
-![](/assets/images/components/utilities/animation-utilities/pr_bounce-vertical.gif#animationUtilsPreview)
 
-\[ Component `component`, Number `start Position`, Number `end Position`, Number `duration` \]
+Start a vertical bounce animation. The duration is set in millisecond. Use as example for 1 second '1000'.
 
-Animates the selected component from the start position to the end in a bounce-style motion.
- 
-<br>
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Animation%20Utilities%22,%20%22name%22:%20%22Bounce%20Vertical%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22component%22,%20%22start%20Position%22,%20%22end%20Position%22,%20%22duration%22%5D%7D"></div>
 
-Params           |  []()       
----------------- | ------- 
-`component`      | **Component:**  The component which is to be animated.
-`start Position` | **Number:**  The initial Y co-ordinate of the component (in pixels).
-`end Position`   | **Number:**  The final Y co-ordinate of the component (in pixels).
-`duration`       | **Number:**  The duration of the animation (in milliseconds).
-
+| Params | []() |
+|--------|------|
+|component|<span class="chip chip-component">Component</span>|
+|start Position|<span class="chip chip-number">Number</span>|
+|end Position|<span class="chip chip-number">Number</span>|
+|duration|<span class="chip chip-number">Number</span>|
 
 ### Get Bottom Position
-![](/assets/images/components/utilities/animation-utilities/m_get-bottom-position.png)
 
-\[ Component `component` \]
+<span class="chip chip-number">Returns: <i>Number</i></span>
 
-Returns the distance between the bottom margin of the component's container and the bottom margin of the component in pixels.
+Returns the bottom position of a component. It will return '-9999' if there was a error.
 
-Params           |  []()       
----------------- | ------- 
-`component`      | **Component:**  The component of which the bottom position is to be returned.
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Animation%20Utilities%22,%20%22name%22:%20%22Get%20Bottom%20Position%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22component%22%5D%7D"></div>
 
+| Params | []() |
+|--------|------|
+|component|<span class="chip chip-component">Component</span>|
 
 ### Get Left Position
-![](/assets/images/components/utilities/animation-utilities/m_get-left-position.png)
 
-\[ Component `component` \]
+<span class="chip chip-number">Returns: <i>Number</i></span>
 
-Returns the distance between the left margin of the component's container and the left margin of the component in pixels.
+Returns the left position of a component. It will return '-9999' if there was a error.
 
-Params           |  []()       
----------------- | ------- 
-`component`      | **Component:**  The component of which the left position is to be returned.
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Animation%20Utilities%22,%20%22name%22:%20%22Get%20Left%20Position%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22component%22%5D%7D"></div>
 
+| Params | []() |
+|--------|------|
+|component|<span class="chip chip-component">Component</span>|
 
 ### Get Right Position
-![](/assets/images/components/utilities/animation-utilities/m_get-right-position.png)
 
-\[ Component `component` \]
+<span class="chip chip-number">Returns: <i>Number</i></span>
 
-Returns the distance between the right margin of the component's container and the right margin of the component in pixels.
+Returns the right position of a component. It will return '-9999' if there was a error.
 
-Params           |  []()       
----------------- | ------- 
-`component`      | **Component:**  The component of which the right position is to be returned.
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Animation%20Utilities%22,%20%22name%22:%20%22Get%20Right%20Position%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22component%22%5D%7D"></div>
 
+| Params | []() |
+|--------|------|
+|component|<span class="chip chip-component">Component</span>|
 
 ### Get Top Position
-![](/assets/images/components/utilities/animation-utilities/m_get-top-position.png)
 
-\[ Component `component` \]
+<span class="chip chip-number">Returns: <i>Number</i></span>
 
-Returns the distance between the top margin of the component's container and the top margin of the component in pixels.
+Returns the top position of a component. It will return '-9999' if there was a error.
 
-Params           |  []()       
----------------- | ------- 
-`component`      | **Component:**  The component of which the top position is to be returned.
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Animation%20Utilities%22,%20%22name%22:%20%22Get%20Top%20Position%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22component%22%5D%7D"></div>
 
+| Params | []() |
+|--------|------|
+|component|<span class="chip chip-component">Component</span>|
 
 ### Get X Position
-![](/assets/images/components/utilities/animation-utilities/m_get-x-position.png)
 
-\[ Component `component` \]
+<span class="chip chip-number">Returns: <i>Number</i></span>
 
-Returns the distance between the top margin of the component's container and the top margin of the component in pixels. Works similar to the [Get Left Position](#get-left-position) block.
+Returns the x position of a component. It will return '-9999' if there was a error.
 
-Params           |  []()       
----------------- | ------- 
-`component`      | **Component:**  The component of which the top position is to be returned.
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Animation%20Utilities%22,%20%22name%22:%20%22Get%20X%20Position%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22component%22%5D%7D"></div>
 
+| Params | []() |
+|--------|------|
+|component|<span class="chip chip-component">Component</span>|
 
 ### Get Y Position
-![](/assets/images/components/utilities/animation-utilities/m_get-y-position.png)
 
-\[ Component `component` \]
+<span class="chip chip-number">Returns: <i>Number</i></span>
 
-Returns the distance between the top margin of the component's container and the top margin of the component in pixels. Works similar to the [Get Top Position](#get-top-position) block.
+Returns the y position of a component. It will return '-9999' if there was a error.
 
-Params           |  []()       
----------------- | ------- 
-`component`      | **Component:**  The component of which the top position is to be returned.
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Animation%20Utilities%22,%20%22name%22:%20%22Get%20Y%20Position%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22component%22%5D%7D"></div>
 
-!!! info
-		The methods [Get Bottom Position](#get-bottom-position), [Get Left Position](#get-left-position), 
-		[Get Right Position](#get-right-position), [Get Top Position](#get-top-position), [Get X Position](#get-x-position),
-		and [Get Y Position](#get-y-position) return `-9999` if there was an error getting the positions.
-
+| Params | []() |
+|--------|------|
+|component|<span class="chip chip-component">Component</span>|
 
 ### Overshoot Horizontal
-![](/assets/images/components/utilities/animation-utilities/m_overshoot-horizontal.png)
-![](/assets/images/components/utilities/animation-utilities/pr_overshoot-horizontal.gif#animationUtilsPreview)
 
-\[ Component `component`, Number `start Position`, Number `end Position`, Number `duration`, Number `tension` \]
+Start a horizontal overshoot animation. If 'tension' is set to 0 you will not see a overshoot animation. Then you will see just a simple deceleration animation. The duration is set in millisecond. Use as example for 1 second '1000'.
 
-Animates the selected component from the start position to the end, emulating the action of a catapult. For any value of `tension` greater than `0`, the component will overshoot the end position and then slowly return to it.
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Animation%20Utilities%22,%20%22name%22:%20%22Overshoot%20Horizontal%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22component%22,%20%22start%20Position%22,%20%22end%20Position%22,%20%22duration%22,%20%22tension%22%5D%7D"></div>
 
-Params           |  []()       
----------------- | ------- 
-`component`      | **Component:**  The component which is to be animated.
-`start Position` | **Number:**  The initial X co-ordinate of the component (in pixels).
-`end Position`   | **Number:**  The final X co-ordinate of the component (in pixels).
-`duration`       | **Number:**  The duration of the animation (in milliseconds).
-`tension`        | **Number:**  The amount by which the component should overshoot the `end Position`. If this value is `0`, then the component will simply slide from the `start Position` to the `end Position`.
-
+| Params | []() |
+|--------|------|
+|component|<span class="chip chip-component">Component</span>|
+|start Position|<span class="chip chip-number">Number</span>|
+|end Position|<span class="chip chip-number">Number</span>|
+|duration|<span class="chip chip-number">Number</span>|
+|tension|<span class="chip chip-number">Number</span>|
 
 ### Overshoot Vertical
-![](/assets/images/components/utilities/animation-utilities/m_overshoot-vertical.png)
-![](/assets/images/components/utilities/animation-utilities/pr_overshoot-vertical.gif#animationUtilsPreview)
 
-\[ Component `component`, Number `start Position`, Number `end Position`, Number `duration`, Number `tension` \]
+Start a vertical overshoot animation. If 'tension' is set to 0 you will not see a overshoot animation. Then you will see just a simple deceleration animation. The duration is set in millisecond. Use as example for 1 second '1000'.
 
-Animates the selected component from the start position to the end, emulating the action of a catapult. For any value of `tension` greater than `0`, the component will overshoot the end position and then slowly return to it.
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Animation%20Utilities%22,%20%22name%22:%20%22Overshoot%20Vertical%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22component%22,%20%22start%20Position%22,%20%22end%20Position%22,%20%22duration%22,%20%22tension%22%5D%7D"></div>
 
-
-Params           |  []()       
----------------- | ------- 
-`component`      | **Component:**  The component which is to be animated.
-`start Position` | **Number:**  The initial Y co-ordinate of the component (in pixels).
-`end Position`   | **Number:**  The final Y co-ordinate of the component (in pixels).
-`duration`       | **Number:**  The duration of the animation (in milliseconds).
-`tension`        | **Number:**  The amount by which the component should overshoot the `end Position`. If this value is `0`, then the component will simply slide from the `start Position` to the `end Position`.
-
+| Params | []() |
+|--------|------|
+|component|<span class="chip chip-component">Component</span>|
+|start Position|<span class="chip chip-number">Number</span>|
+|end Position|<span class="chip chip-number">Number</span>|
+|duration|<span class="chip chip-number">Number</span>|
+|tension|<span class="chip chip-number">Number</span>|
 
 ### Rotation
-![](/assets/images/components/utilities/animation-utilities/m_rotation.png)
-![](/assets/images/components/utilities/animation-utilities/pr_rotation.gif#animationUtilsPreview)
 
-\[ Component `component`, Number `rotation Start Degrees`, Number `rotation End Degrees`, Number `duration` \]
+Start a rotation on any component. Use as example in 'rotation Start Degrees' 0, in 'rotation End Degrees' 360 and in 'duration' 300 (millisecond) to run a clockwise, 360 degress animation. You can also use negative numbers for the degress.
 
-Rotates the selected component from the start value to the end value. All values are in degrees. 
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Animation%20Utilities%22,%20%22name%22:%20%22Rotation%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22component%22,%20%22rotation%20Start%20Degrees%22,%20%22rotation%20End%20Degrees%22,%20%22duration%22%5D%7D"></div>
 
-<br>
-
-Params                   |  []()       
------------------------- | ------- 
-`component`              | **Component:**  The component which is to be rotated.
-`rotation Start Degrees` | **Number:**  The initial rotation angle of the component (in degrees).
-`rotation End Degrees`   | **Number:**  The final rotation angle of the component (in degrees).
-`duration`               | **Number:**  The duration of the animation (in milliseconds).
-
+| Params | []() |
+|--------|------|
+|component|<span class="chip chip-component">Component</span>|
+|rotation Start Degrees|<span class="chip chip-number">Number</span>|
+|rotation End Degrees|<span class="chip chip-number">Number</span>|
+|duration|<span class="chip chip-number">Number</span>|
 
 ### Zoom
-![](/assets/images/components/utilities/animation-utilities/m_zoom.png)
-![](/assets/images/components/utilities/animation-utilities/pr_zoom.gif#animationUtilsPreview)
 
-\[ Component `component`, Number `start Scale`, Number `end Scale`, Number `duration` \]
+Start a zoom animation. 'tension' is set to 0 you will not see a overshoot animation. Then you will see just a simple deceleration animation. The duration is set in millisecond. Use as example for 1 second '1000'.
 
-Scales the selected component from the start value to the end value. To scale from the initial zoom level, set `start Scale` to `1`.
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Animation%20Utilities%22,%20%22name%22:%20%22Zoom%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22component%22,%20%22start%20Scale%22,%20%22end%20Scale%22,%20%22duration%22%5D%7D"></div>
 
-<br>
-
-Params        |  []()       
-------------- | ------- 
-`component`   | **Component:**  The component which is to be scaled.
-`start Scale` | **Number:**  The initial scale of the component (`1` if the animation should start from the component's default size).
-`end Scale`   | **Number:**  The final scale of the component.
-`duration`    | **Number:**  The duration of the animation (in milliseconds).
+| Params | []() |
+|--------|------|
+|component|<span class="chip chip-component">Component</span>|
+|start Scale|<span class="chip chip-number">Number</span>|
+|end Scale|<span class="chip chip-number">Number</span>|
+|duration|<span class="chip chip-number">Number</span>|

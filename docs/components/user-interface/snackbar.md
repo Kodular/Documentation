@@ -1,108 +1,105 @@
 # Snackbar
 
+{>> Non-Visible component<<}
+
+| Category | Requires | Version |
+|:--------:|:-------:|:--------:|
+|**User Interface**|<span class="chip chip-any">API 19, Android 4.4 - 4.4.4 KitKat</span>|<span class="chip chip-number">4</span>|
+
 ## Overview
-Snackbars are used in to provide feedback about an operation performed in the app.  
-They show a message at the bottom of the screen and lower left part of the screen on larger screens.  
 
-Snackbars are shown above all the other visible components on the screen.
-Only one **Snackbar** can be visible at any given time.
-
-There are two components in a **Snackbar**:
-
-1. `Message` - The text that is shown on the **Snackbar**.
-2. `Action Button` - An optional button that can be shown on the right end of the **Snackbar**.  
-A click on this button can be detected with the [Click](#click) event.
-
-<br><br>
-![Snackbar](/assets/images/components/user-interface/snackbar/snackbar.png){: class="preview-img"}
-
-
-An example Snackbar with an `Action Button`.
-{: .img-caption }
-
-
-## Properties
-
-### BackgroundColor
-
-_**\(** Getter + Setter **\)**    
-`Type: Color`_
-
-The background color with which the **Snackbar** is shown.
-
-
-### Button Text Color
-
-_**\(** Getter + Setter **\)**  
-`Type: Color`_
-
-The color of the text of the `Action button`, if the `Action button` is shown in the **Snackbar**.
-
-### Duration
-
-_**\(** Setter Only **\)** **\(** Designer Only **\)**_
-
-
-The time duration for which the **Snackbar** is visible and shown on the screen.
-
-Options              | []()
--------------------- | ------------
-`Indefinite`         | Show the **Snackbar** indefinitely. It will be shown until it is dismissed or another **Snackbar** is shown.  
-`Short`              | Show the **Snackbar** for a short duration.
-`Long`               | Show the **Snackbar** for a long duration.
-
-## Methods
-
-
-### Dismiss
-_**\(**  None  **\)**_
-
-Dismisses i.e hides the **Snackbar** that is being shown on the screen.
-[On Dismissed](#on-dismissed) event is called with the `event` text as _Manual_.
-
-
-### Show
-_**\(**  Text `message`  **\)**_
-
-Shows the **Snackbar** with the message specified.
-
-Params               | []() 
--------------------- | ---------- 
-`message`            | **Text:** The message that will be shown in the Snackbar. This message can be formatted as HTML .
-
-
-### Show With Button
-_**\(**  Text `message`, Text `buttonText`  **\)**_
-
-Shows the **Snackbar** with an `Action Button`. `Action Button` is the button shown on the right side of the  
-inside the **Snackbar**, which when clicked, fires the [Clicked](#clicked) event.
-
-Params               | []() 
--------------------- | ---------- 
-`message`            | **Text:** The message that will be shown in the Snackbar. This message can be formatted as HTML .
-`buttonText`         | **Text:** The text that will be shown on the `Action Button` of the **Snackbar**.
-
+A non-visible component that displays an alert at the bottom of the screen.
 
 ## Events
 
-
 ### Click
-_**\(**  None  **\)**_
 
-Indicates that the user has clicked the `Action Button` on the **Snackbar**.
+User clicked on the action button.
 
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Snackbar%22,%20%22name%22:%20%22Click%22,%20%22param%22:%20%5B%5D%7D"></div>
 
 ### On Dismissed
-_**\(**  Text `event`  **\)**_
 
-Indicates that the **Snackbar** has been dismissed.
+Event to detect the snackbar was dismissed. Possible results can be: "UNDEFINED", "ACTION", "CONSECUTIVE", "MANUAL", "SWIPE" or "TIMEOUT". You can find more information at: https://developer.android.com/reference/android/support/design/widget/Snackbar.Callback.html
 
-Params               | []() 
--------------------- | ---------- 
-`event`              | **Text:** The event through which the **Snackbar** was dimissed. It can be any of the following options: <br><br> <li> _ACTION_ - Dismissed with the click on the `Action Button`. </li><br> <li> _CONSECUTIVE_ - Dismissed with another **Snackbar** shown.</li><br><li> _MANUAL_ - Dismissed by calling [Dismiss](#dismiss) method. </li><br><li> _SWIPE_ - Dismissed by a swipe on the screen by the user.  </li><br><li> _TIMEOUT_ - Dismissed after the timeout of the duration set in [Duration](#duration).
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Snackbar%22,%20%22name%22:%20%22On%20Dismissed%22,%20%22param%22:%20%5B%22event%22%5D%7D"></div>
 
+| Params | []() |
+|--------|------|
+|event|<span class="chip chip-text">Text</span>|
 
 ### On Shown
-_**\(**  None  **\)**_
 
-Indicates that the  **Snackbar** is shown on the screen.
+Event to detect the snackbar is shown.
+
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Snackbar%22,%20%22name%22:%20%22On%20Shown%22,%20%22param%22:%20%5B%5D%7D"></div>
+
+## Methods
+
+### Dismiss
+
+Dismiss the snackbar.
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Snackbar%22,%20%22name%22:%20%22Dismiss%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
+
+### Is Shown
+
+<span class="chip chip-boolean">Returns: <i>Boolean</i></span>
+
+Returns true whether this snackbar is currently being shown.
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Snackbar%22,%20%22name%22:%20%22Is%20Shown%22,%20%22output%22:%20true,%20%22param%22:%20%5B%5D%7D"></div>
+
+### Show
+
+Show Snackbar (message supports HTML formatting)
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Snackbar%22,%20%22name%22:%20%22Show%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22message%22%5D%7D"></div>
+
+| Params | []() |
+|--------|------|
+|message|<span class="chip chip-text">Text</span>|
+
+### Show With Button
+
+Show Snackbar with action button (message supports HTML formatting)
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Snackbar%22,%20%22name%22:%20%22Show%20With%20Button%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22message%22,%20%22button%20Text%22%5D%7D"></div>
+
+| Params | []() |
+|--------|------|
+|message|<span class="chip chip-text">Text</span>|
+|button Text|<span class="chip chip-text">Text</span>|
+
+## Properties
+
+### Background Color
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-color">Color</span> <span class="chip chip-color">Default: <i>#444444FF</i>&nbsp;<span style="width: 15px; height: 15px; margin: auto; display: inline-block; border: 1px solid white; vertical-align: middle; border-radius: 3px; background-color: #444444;"></span></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
+
+Specifies the snackbar's background color.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Snackbar%22,%20%22name%22:%20%22Background%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Snackbar%22,%20%22name%22:%20%22Background%20Color%22,%20%22getter%22:%20false%7D"></div>
+
+### Button Text Color
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-color">Color</span> <span class="chip chip-color">Default: <i>#FFFFFFFF</i>&nbsp;<span style="width: 15px; height: 15px; margin: auto; display: inline-block; border: 1px solid white; vertical-align: middle; border-radius: 3px; background-color: #FFFFFF;"></span></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
+
+Specifies the action button's text color.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Snackbar%22,%20%22name%22:%20%22Button%20Text%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Snackbar%22,%20%22name%22:%20%22Button%20Text%20Color%22,%20%22getter%22:%20false%7D"></div>
+
+### Duration
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>0</i></span> :heavy_minus_sign: <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span></span>
+
+Specifies the length of time that the Snackbar is shown
+
+### Text Color
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-color">Color</span> <span class="chip chip-color">Default: <i>#FFFFFFFF</i>&nbsp;<span style="width: 15px; height: 15px; margin: auto; display: inline-block; border: 1px solid white; vertical-align: middle; border-radius: 3px; background-color: #FFFFFF;"></span></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Snackbar%22,%20%22name%22:%20%22Text%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Snackbar%22,%20%22name%22:%20%22Text%20Color%22,%20%22getter%22:%20false%7D"></div>

@@ -1,9 +1,9 @@
-# Overview <small> of Media</small>
+# Overview <small>of Media</small>
 
 * [Audio Picker](audio-picker.md)
 * [Camcorder](camcorder.md)
 * [Camera](camera.md)
-* [Exoplayer](exoplayer.md)
+* [ExoPlayer](exoplayer.md)
 * [Image Picker](image-picker.md)
 * [Metadata](metadata.md)
 * [OCR](ocr.md)
@@ -16,4 +16,3 @@
 * [Video Picker](video-picker.md)
 * [Video Player](video-player.md)
 * [Yandex Translate](yandex-translate.md)
-* [YouTube Player](youtube-player.md)

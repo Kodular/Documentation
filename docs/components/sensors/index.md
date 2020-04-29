@@ -1,15 +1,16 @@
-# Overview <small> of Sensors</small>
+# Overview <small>of Sensors</small>
 
-* [Accelerometer](accelerometer.md)
+* [Accelerometer Sensor](accelerometer-sensor.md)
 * [Barcode Scanner](barcode-scanner.md)
 * [Clock](clock.md)
 * [Fingerprint](fingerprint.md)
 * [Gravity Sensor](gravity-sensor.md)
 * [Gyroscope Sensor](gyroscope-sensor.md)
+* [Hygrometer](hygrometer.md)
 * [Light Sensor](light-sensor.md)
 * [Location Sensor](location-sensor.md)
 * [Magnetic Field Sensor](magnetic-field-sensor.md)
-* [NearField](nearfield.md)
+* [Near Field](near-field.md)
 * [Orientation Sensor](orientation-sensor.md)
 * [Pedometer](pedometer.md)
 * [Pressure Sensor](pressure-sensor.md)

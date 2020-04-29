@@ -3,6 +3,7 @@
 * [if & if else](control.md#if)
 * [for each from to](control.md#forrange)
 * [for each in list](control.md#foreach)
+* [for each key with value in dictionary](control.md#foreachdict)
 * [while](control.md#while)
 * [if then else](control.md#choose)
 * [do](control.md#doreturn)
@@ -46,6 +47,12 @@ Runs the blocks in the do section for each numeric value in the range starting a
 ![](/assets/images/blocks/control/foreach.png)
 
 Runs the blocks in the do section for each item in the list. Use the given variable name,_item_, to refer to the current list item. You can change the name\_item\_to something else if you wish.
+
+## for each key with value in dictionary {#foreachdict}
+
+![](/assets/images/blocks/control/controls_for_each_dict.png)
+
+Runs the blocks in the do section for each key-value entry in the dictionary. Use the given variables, key and value, to refer to the key and value of the current dictionary entry. You can change the names key and value to something else if you wish.
 
 ## while {#while}
 

@@ -1,119 +1,120 @@
 # Package Utilities
 
+{>> Non-Visible component<<}
+
+| Category | Requires | Version |
+|:--------:|:-------:|:--------:|
+|**Utilities**|<span class="chip chip-any">API 19, Android 4.4 - 4.4.4 KitKat</span>|<span class="chip chip-number">3</span>|
+
 ## Overview
-The **Package Utilities** component can be used to fetch information about application packages currently installed in the users' devices. 
 
-## Properties
-
-### App Name
-![App Name](/assets/images/components/utilities/package/p_app-name.png)
-
-\[ Getter only | Blocks only \]
-`Type: Text`
-
-The Name of the application that is currently running on the device. View more information about the application name [here](/components/screen/#app-name).
-
-
-### Package Name
-![Package Name](/assets/images/components/utilities/package/p_package-name.png)
-
-\[ Getter only | Blocks only \]
-`Type: Text`
-
-The Package Name of the application that is currently running on the device. View more information about the application package name [here](/components/screen/#package-name).
-
-
-### Version Code
-![Version Code](/assets/images/components/utilities/package/p_version-code.png)
-
-\[ Getter only | Blocks only \]
-`Type: Number`
-
-The Version Code of the application that is currently running on the device. View more information about the version code [here](/components/screen/#version-code).
-
-
-### Version Name
-![Version Name](/assets/images/components/utilities/package/p_version-name.png)
-
-\[ Getter only | Blocks only \]
-`Type: Text`
-
-The Version Name of the application that is currently running on the device. View more information about the version name [here](/components/screen/#version-name).
-
+A non-visible component that retrieves information about other applications on the device.
 
 ## Methods
 
 ### App Name From
-![App Name From](/assets/images/components/utilities/package/m_app-name-from.png)
 
-_\[ Text `package Name` \]_
+<span class="chip chip-text">Returns: <i>Text</i></span>
 
-Returns the name of the application from the given package name.
+Returns the name from the given package name.
 
-Params               |  []()       
--------------------- | ------- 
-`package Name`       | **Text:**  The package name of the application whose name is to be returned. For example, `io.kodular.myfirstapp`.
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Package%20Utilities%22,%20%22name%22:%20%22App%20Name%20From%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22package%20Name%22%5D%7D"></div>
 
+| Params | []() |
+|--------|------|
+|package Name|<span class="chip chip-text">Text</span>|
 
 ### Get Package Icon
-![Get Package Icon](/assets/images/components/utilities/package/m_get-package-icon.png)
 
-_\[ Text `package Name` \]_
+<span class="chip chip-text">Returns: <i>Text</i></span>
 
-Returns the icon of the application from the given package name.
+Try to show the application icon of the given package name. If the application cannot be found, "Package not found" is the output.
 
-Params               |  []()       
--------------------- | ------- 
-`package Name`       | **Text:**  The package name of the application whose icon has is to be returned.
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Package%20Utilities%22,%20%22name%22:%20%22Get%20Package%20Icon%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22package%20Name%22%5D%7D"></div>
 
+| Params | []() |
+|--------|------|
+|package Name|<span class="chip chip-text">Text</span>|
 
 ### Is Package Installed
-![Is Package Installed](/assets/images/components/utilities/package/m_is-package-installed.png)
 
-_\[ Text `package Name` \]_
+<span class="chip chip-boolean">Returns: <i>Boolean</i></span>
 
-Returns `True` if the package (application) is currently installed in the device, `False` otherwise.
+Returns true if a package (app) is installed and enabled.
 
-Params               |  []()       
--------------------- | ------- 
-`package Name`       | **Text:**  The package name to be checked.
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Package%20Utilities%22,%20%22name%22:%20%22Is%20Package%20Installed%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22package%20Name%22%5D%7D"></div>
 
-
-### Version Code From
-![Version Code From](/assets/images/components/utilities/package/m_version-code-from.png)
-
-_\[ Text `package Name` \]_
-
-Returns the version code of the application from the given package name.
-
-Params               |  []()       
--------------------- | ------- 
-`package Name`       | **Text:**  The package name of the application whose version code is to be returned.
-
-
-### Version Name From
-![Version Name From](/assets/images/components/utilities/package/m_version-name-from.png)
-
-_\[ Text `package Name` \]_
-
-Returns the version name of the application from the given package name.
-
-Params               |  []()       
--------------------- | ------- 
-`package Name`       | **Text:**  The package name of the application whose version name is to be returned.
-
+| Params | []() |
+|--------|------|
+|package Name|<span class="chip chip-text">Text</span>|
 
 ### Is Permission Granted
-![Is Permission Granted](/assets/images/components/utilities/package/m_is-permission-granted.png)
 
-_\[ Text `permission Name`, Text `package Name` \]_
+<span class="chip chip-boolean">Returns: <i>Boolean</i></span>
 
-Returns `True` if the passed package name (application) has been granted a particular permission, `False` otherwise.
+Check whether a particular package has been granted a particular permission.
 
-Params               |  []()       
--------------------- | ------- 
-`permission Name`    | **Text:** The name of the permision that has to be checked. For example, `READ_CALENDER`.
-`package Name`       | **Text:**  The package name to be checked.
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Package%20Utilities%22,%20%22name%22:%20%22Is%20Permission%20Granted%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22permission%20Name%22,%20%22package%20Name%22%5D%7D"></div>
 
-!!! tip
-    Take a look [here](https://developer.android.com/guide/topics/permissions/overview#permission-groups) for an overview of permission groups.
+| Params | []() |
+|--------|------|
+|permission Name|<span class="chip chip-text">Text</span>|
+|package Name|<span class="chip chip-text">Text</span>|
+
+### Version Code From
+
+<span class="chip chip-number">Returns: <i>Number</i></span>
+
+This block will returns the version code of the package name. Returns '-1' if the package is not installed.
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Package%20Utilities%22,%20%22name%22:%20%22Version%20Code%20From%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22package%20Name%22%5D%7D"></div>
+
+| Params | []() |
+|--------|------|
+|package Name|<span class="chip chip-text">Text</span>|
+
+### Version Name From
+
+<span class="chip chip-text">Returns: <i>Text</i></span>
+
+This block will returns the version name of the package name. Returns 'Package not found' if the package is not installed.
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Package%20Utilities%22,%20%22name%22:%20%22Version%20Name%20From%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22package%20Name%22%5D%7D"></div>
+
+| Params | []() |
+|--------|------|
+|package Name|<span class="chip chip-text">Text</span>|
+
+## Properties
+
+### App Name
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span> :heavy_minus_sign: <span class="chip chip-rw">Read</span>  - <span class="chip chip-bd">Blocks</span></span>
+
+Returns the name from the current running app.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Package%20Utilities%22,%20%22name%22:%20%22App%20Name%22,%20%22getter%22:%20true%7D"></div>
+
+### Package Name
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span> :heavy_minus_sign: <span class="chip chip-rw">Read</span>  - <span class="chip chip-bd">Blocks</span></span>
+
+Returns the package name from the current running app.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Package%20Utilities%22,%20%22name%22:%20%22Package%20Name%22,%20%22getter%22:%20true%7D"></div>
+
+### Version Code
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> :heavy_minus_sign: <span class="chip chip-rw">Read</span>  - <span class="chip chip-bd">Blocks</span></span>
+
+This block will returns the version code of the current running app.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Package%20Utilities%22,%20%22name%22:%20%22Version%20Code%22,%20%22getter%22:%20true%7D"></div>
+
+### Version Name
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span> :heavy_minus_sign: <span class="chip chip-rw">Read</span>  - <span class="chip chip-bd">Blocks</span></span>
+
+This block will returns the version name of the current running app.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Package%20Utilities%22,%20%22name%22:%20%22Version%20Name%22,%20%22getter%22:%20true%7D"></div>

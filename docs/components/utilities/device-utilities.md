@@ -1,343 +1,365 @@
 # Device Utilities
 
+{>> Non-Visible component<<}
+
+| Category | Requires | Version |
+|:--------:|:-------:|:--------:|
+|**Utilities**|<span class="chip chip-any">API 19, Android 4.4 - 4.4.4 KitKat</span>|<span class="chip chip-number">5</span>|
 
 ## Overview
 
-The **Device Utilities** component can be used to fetch information about the device the app is currently running in.
+A non-visible component that fetches specifications of the device.
 
-
-## Properties
-
-### Android Version
-![](/assets/images/components/utilities/device-tools/p_android-version.png)
-
-\[ Getter only | Blocks only \]  
-`Type: Text`
-
-The Android Version of the device, in the format `x`.`y`.`z`. (For example, the Version of Android Oreo is 8.1.0)
-
-
-### API Version
-![](/assets/images/components/utilities/device-tools/p_api-version.png)
-
-\[ Getter only | Blocks only \]  
-`Type: Text`
-
-The Android API Version of the device. The API Version is an integer value that uniquely identifies the framework API revision offered by a version of the Android platform.
-The Android platform provides a framework API that applications can use to interact with the underlying Android system.
-
-!!! info
-    More information about Android Versions and API Versions can be found in the [Android Source API List](https://source.android.com/setup/start/build-numbers).
-
-
-### Board
-![](/assets/images/components/utilities/device-tools/p_board.png)
-
-\[ Getter only | Blocks only \]  
-`Type: Text`
-
-The device board represents the physical layer of plastic on the device (i.e. the industrial design of the device).
-For example, North American devices probably include QWERTY keyboards, whereas devices sold in France probably include AZERTY keyboards. 
-This layer also represents the bare schematics of a product. These include the peripherals on the board and their configuration. The names used are merely codes for different board/device configurations. `goldfish`, `sardine`, and `trout` are a few examples.
-
-
-
-### Bootloader Version
-![](/assets/images/components/utilities/device-tools/p_bootloader-version.png)
-
-\[ Getter only | Blocks only \]  
-`Type: Text`
-
-The Version of the device's Bootloader.
-
-!!! info
-    The Bootloader is the code that runs on a device before the operating system starts up. 
-    This low-level code contains the instructions that tell a device how to start up and find the system kernel. 
-    The bootloader usually lives on the system board in non-volatile memory and is often specific to the device.
-    
-
-### Brand
-![](/assets/images/components/utilities/device-tools/p_brand.png)
-
-\[ Getter only | Blocks only \]  
-`Type: Text`
-
-The brand name of the device's OEM (Original Equipment Manufacturer).
-    
-
-### Build Number
-![](/assets/images/components/utilities/device-tools/p_build-number.png)
-
-\[ Getter only | Blocks only \]  
-`Type: Text`
-
-The build number of the Android Version of the device. Build numbers are alphanumeric strings that can uniquely identify each release of Android. `PQ3B.190705.003` and `FRF85B` are some examples of Android build numbers.
-
-!!! info
-    More information about build numbers can be found in the [Android Source Build Numbers List](https://source.android.com/setup/start/build-numbers#source-code-tags-and-builds).
-    
-
-### Country Code
-![](/assets/images/components/utilities/device-tools/p_country-code.png)
-
-\[ Getter only | Blocks only \]  
-`Type: Text`
-
-An ISO 3166 alpha-2 country code or UN M.49 numeric-3 area code representing the country/area the device is currently in. `US` (United States), `FR` (France), and `029` (Caribbean) are a few examples.
-
-!!! info
-    A list of all country codes can be found [here](https://countrycode.org/).
-    
-
-### Device Id
-![](/assets/images/components/utilities/device-tools/p_device-id.png)
-
-\[ Getter only | Blocks only \]  
-`Type: Text`
-
-An alphanumeric string that can uniquely identify an Android device.
-
-!!! info
-    When a device has multiple users (available on certain devices running Android 4.2 or higher), each user appears as a completely separate device, so the **Device Id** value is unique to each user.
-    
-!!! caution
-    The Companion emulates the **Device Id** property and generates a value which may or may not be the true **Device Id** of the device. Only generated APKs are guaranteed to return the true **Device Id** of the device.
-    
-!!! caution
-    Certain OEMs are known to have botched the **Device Id** implementation. For example, all Motorola Droid2 devices return the same **Device Id**. Use caution before relying on this property to uniquely identify users and/or devices.
-    
-
-### Device Name
-![](/assets/images/components/utilities/device-tools/p_device-name.png)
-
-\[ Getter only | Blocks only \]  
-`Type: Text`
-
-The name of the device as set by the OEM (Original Equipment Manufacturer). This is an internal name used by OEMs to identify devices. `cedric`, `sailfish`, and `condor` are valid device names.
-    
-
-### Fingerprint
-![](/assets/images/components/utilities/device-tools/p_fingerprint.png)
-
-\[ Getter only | Blocks only \]  
-`Type: Text`
-
-A unique alphanumeric string that identifies the build version of Android that is currently running on the device.
-    
-
-### Hardware
-![](/assets/images/components/utilities/device-tools/p_hardware.png)
-
-\[ Getter only | Blocks only \]  
-`Type: Text`
-
-The name of the hardware manufacturer of the device. `qcom` (Qualcomm) and `amd` (AMD) are some examples of valid hardware manufacturers.
-    
-
-### ID
-![](/assets/images/components/utilities/device-tools/p_id.png)
-
-\[ Getter only | Blocks only \]  
-`Type: Text`
-
-The ID of the device.
-    
-
-### Language Code
-![](/assets/images/components/utilities/device-tools/p_language-code.png)
-
-\[ Getter only | Blocks only \]  
-`Type: Text`
-
-A two/three letter code that represents the language the device is currently using. `en` (English), `ja` (Japanese), and `kok` (Konkani)
-are examples of valid language codes.
-
-!!! info
-    A full list of valid language codes can be found [here](https://www.loc.gov/standards/iso639-2/php/code_list.php)
-    
-
-### Manufacturer
-![](/assets/images/components/utilities/device-tools/p_manufacturer.png)
-
-\[ Getter only | Blocks only \]  
-`Type: Text`
-
-The name of the Original Equipment Manufacturer. Can be the same as the [Brand](#brand) name.
-    
-
-### Model Name
-![](/assets/images/components/utilities/device-tools/p_model-name.png)
-
-\[ Getter only | Blocks only \]  
-`Type: Text`
-
-The name of the device's model that is visible to the user and is present in the device's branding. `Google Pixel 3XL` and `Samsung Galaxy S10` are valid examples of model names.
-    
-
-### Product
-![](/assets/images/components/utilities/device-tools/p_product.png)
-
-\[ Getter only | Blocks only \]  
-`Type: Text`
-
-The name of the device's product. This is usually the [Device Name](#device-name) followed by vendor specific details like `_amzin` or `_verizon`.
-    
-
-### Radio Version
-![](/assets/images/components/utilities/device-tools/p_radio-version.png)
-
-\[ Getter only | Blocks only \]  
-`Type: Text`
-
-The Version of the device's radio firmware. This property can be `null` if there is no radio firmware or, in some devices, if the radio is not currently ON.
-    
-
-### Show Success Toast
-![](/assets/images/components/utilities/device-tools/d_show-success-toast.png) ![](/assets/images/components/utilities/device-tools/p_show-success-toast.png)
-
-\[ Getter + Setter \]  
-`Type: Boolean`
-
-Determines if a toast message is to be shown when an action is performed.
-
-* `True` - A toast message is shown to the user.
-* `False` - No message is shown to the user.
-    
-
-### Tags
-![](/assets/images/components/utilities/device-tools/p_tags.png)
-
-\[  Getter only | Blocks only \]  
-`Type: Text`
-
-A comma separated list of tags that describe the current Android build.
-    
-
-### Type
-![](/assets/images/components/utilities/device-tools/p_type.png)
-
-\[  Getter only | Blocks only \]  
-`Type: Text`
-
-The type of the Android build. `user` if it is a release version to be used by the user, `eng` if a development version.
-
-## Methods
-
-### Has Dangerous Apk Installed
-![](/assets/images/components/utilities/device-tools/m_has-dangerous-apk-installed.png)
-
-\[ None \]
-
-Returns true if applications like Lucky Patcher or Xposed are installed in the device.
-
-
-### Copy
-![](/assets/images/components/utilities/device-tools/m_copy.png)
-
-\[ Text `text`, Boolean `success Toast Message` \]
-
-Copies text to the device's clipboard.
-
-Params                 |  []()       
----------------------- | ------- 
-`text`                 | **Text:**  The text to be copied.
-`success Toast Message`| **Boolean:**  `True` if a toast is to be shown to the user once text is copied, `False` otherwise.
-
-
-### Get IMEI
-![](/assets/images/components/utilities/device-tools/m_get-imei.png)
-
-\[ None \]
-
-Fetches the IMEI of the device.
-
-!!! info "IMEI (International Mobile Equipment Identity)"
-    The IMEI is a unique number to identify GSM, WCDMA, and iDEN mobile phones, as well as some satellite phones. 
-    It is only used for identifying the device and has no permanent or semi-permanent relation to the subscriber/service provide.
-    More information about IMEI can be found [here](https://www.imei.info/faq-what-is-IMEI/)
-
-
-### Get Serial
-![](/assets/images/components/utilities/device-tools/m_get-serial.png)
-
-\[ None \]
-
-Fetches the hardware serial number of the device. The Serial is an alphanumeric, case-insensitive string that can identify the hardware used in the device.
-
-
-### Parse
-![](/assets/images/components/utilities/device-tools/m_parse.png)
-
-\[ Text `text`, Text `start`, Text `end`, Text `if Text Not Found` \]
-
-Returns text that is parsed between two strings. For example, if text = `abcdef`, start = `ab`, and end = `e`, the resulting string will
-be `cd`.
-
-Params             |  []()       
------------------- | ------- 
-`text`             | **Text:**  The text to be parsed.
-`start`            | **Text:**  The text to start parsing from.
-`end`              | **Text:**  The text where the parsing ends.
-`if Text Not Found`| **Text:**  The text that is returned if either `start` or `end` is not found in `text`.
-
-
-### Paste
-![](/assets/images/components/utilities/device-tools/m_paste.png)
-
-\[ Boolean `success Toast Message` \]
-
-Pastes the text in the clipboard into the currently focused component (usually a Text Box).
-
-Params                 |  []()       
----------------------- | ------- 
-`success Toast Message`| **Boolean:**  `True` if a toast is to be shown to the user once text is pasted, `False` otherwise.
-
-
-### Is Adb Debugging Enabled
-![](/assets/images/components/utilities/device-tools/m_is-adb-debugging-enabled.png)
-
-\[ None \]
-
-Returns `True` if the app is being debugged using the Android Debug Bridge, `False` otherwise.
-
-
-### Is Emulator
-![](/assets/images/components/utilities/device-tools/m_is-emulator.png)
-
-\[ None \]
-
-Returns `True` if the app is currently running on an emulator, `False` otherwise.
-
-
-### Is Installed From Play Store
-![](/assets/images/components/utilities/device-tools/m_is-installed-from-play-store.png)
-
-\[ None \]
-
-Returns `True` if the app was installed from the Google Play Store, `False` if it was installed from other stores or using an APK.
-
+??? example "Permissions"
+    * [android.permission.READ_PHONE_STATE](https://developer.android.com/reference/android/Manifest.permission.html#READ_PHONE_STATE)
 
 ## Events
 
 ### Got IMEI
-![](/assets/images/components/utilities/device-tools/e_got-imei.png)
 
-\[ Text `imei` \] 
+Event to get the IMEI after it was requested.
 
-Triggers when the IMEI of the device has been fetched after a call to [Get IMEI](#get-imei) was made.
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Got%20IMEI%22,%20%22param%22:%20%5B%22imei%22%5D%7D"></div>
 
-Params             |  []()       
------------------- | ------- 
-`imei`             | **Text:**  The IMEI of the device
-
+| Params | []() |
+|--------|------|
+|imei|<span class="chip chip-text">Text</span>|
 
 ### Got Serial
-![](/assets/images/components/utilities/device-tools/e_got-serial.png)
 
-\[ Text `serial` \] 
+Event to get the serial number after it was requested.
 
-Triggers when the serial of the device has been fetched after a call to [Get Serial](#get-serial) was made.
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Got%20Serial%22,%20%22param%22:%20%5B%22serial%22%5D%7D"></div>
 
-Params             |  []()       
------------------- | ------- 
-`serial`           | **Text:**  The hardware serial of the device
+| Params | []() |
+|--------|------|
+|serial|<span class="chip chip-text">Text</span>|
+
+## Methods
+
+### Copy
+
+Copy text to clipboard. In case 'Show Success Toast' is true, the toast with your message will be shown after copying a text to the clipboard.
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Copy%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22text%22,%20%22Success%20Toast%20Message%22%5D%7D"></div>
+
+| Params | []() |
+|--------|------|
+|text|<span class="chip chip-text">Text</span>|
+|Success Toast Message|<span class="chip chip-text">Text</span>|
+
+### External Storage Available
+
+<span class="chip chip-number">Returns: <i>Number</i></span>
+
+Available size of external storage in Gigabytes.
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22External%20Storage%20Available%22,%20%22output%22:%20true,%20%22param%22:%20%5B%5D%7D"></div>
+
+### External Storage Total
+
+<span class="chip chip-number">Returns: <i>Number</i></span>
+
+Total external storage size in Gigabytes.
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22External%20Storage%20Total%22,%20%22output%22:%20true,%20%22param%22:%20%5B%5D%7D"></div>
+
+### External Storage Used
+
+<span class="chip chip-number">Returns: <i>Number</i></span>
+
+Size of used-external-storage in Gigabytes.
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22External%20Storage%20Used%22,%20%22output%22:%20true,%20%22param%22:%20%5B%5D%7D"></div>
+
+### Get IMEI
+
+Get the IMEI of the device. The result will be then at the 'Got IMEI' event.
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Get%20IMEI%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
+
+### Get Serial
+
+A hardware serial number, if available. Alphanumeric only, case-insensitive. For apps targeting SDK higher than N_MR1 this field is set to UNKNOWN.
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Get%20Serial%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
+
+### Has Dangerous Apk Installed
+
+<span class="chip chip-boolean">Returns: <i>Boolean</i></span>
+
+Returns TRUE if one of 12 known patching or root emulating packages is installed. The name of the package is not returned, so the user does not know which package name to change. Developed by Cian.
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Has%20Dangerous%20Apk%20Installed%22,%20%22output%22:%20true,%20%22param%22:%20%5B%5D%7D"></div>
+
+### Internal Storage Available
+
+<span class="chip chip-number">Returns: <i>Number</i></span>
+
+Size of available internal storage in Gigabytes.
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Internal%20Storage%20Available%22,%20%22output%22:%20true,%20%22param%22:%20%5B%5D%7D"></div>
+
+### Internal Storage Total
+
+<span class="chip chip-number">Returns: <i>Number</i></span>
+
+Total size of internal storage in Gigabytes.
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Internal%20Storage%20Total%22,%20%22output%22:%20true,%20%22param%22:%20%5B%5D%7D"></div>
+
+### Internal Storage Used
+
+<span class="chip chip-number">Returns: <i>Number</i></span>
+
+Size of used-internal-storage in Gigabytes.
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Internal%20Storage%20Used%22,%20%22output%22:%20true,%20%22param%22:%20%5B%5D%7D"></div>
+
+### Is Adb Debugging Enabled
+
+<span class="chip chip-boolean">Returns: <i>Boolean</i></span>
+
+This returns TRUE if ADB debugging is enabled, which could be a sign of hacking your app, or a compromised device. Developed by Cian.
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Is%20Adb%20Debugging%20Enabled%22,%20%22output%22:%20true,%20%22param%22:%20%5B%5D%7D"></div>
+
+### Is Emulator
+
+<span class="chip chip-boolean">Returns: <i>Boolean</i></span>
+
+Returns TRUE if the device operating on an emulator. Developed by Cian.
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Is%20Emulator%22,%20%22output%22:%20true,%20%22param%22:%20%5B%5D%7D"></div>
+
+### Is Installed From Play Store
+
+<span class="chip chip-boolean">Returns: <i>Boolean</i></span>
+
+Returns TRUE if the app was installed from Play Store. Developed by Cian.
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Is%20Installed%20From%20Play%20Store%22,%20%22output%22:%20true,%20%22param%22:%20%5B%5D%7D"></div>
+
+### Memory Free
+
+<span class="chip chip-number">Returns: <i>Number</i></span>
+
+Total free RAM size in Gigabytes.
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Memory%20Free%22,%20%22output%22:%20true,%20%22param%22:%20%5B%5D%7D"></div>
+
+### Memory Total
+
+<span class="chip chip-number">Returns: <i>Number</i></span>
+
+Total RAM size in Gigabytes.
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Memory%20Total%22,%20%22output%22:%20true,%20%22param%22:%20%5B%5D%7D"></div>
+
+### Memory Used
+
+<span class="chip chip-number">Returns: <i>Number</i></span>
+
+Size of used-memory in Gigabytes.
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Memory%20Used%22,%20%22output%22:%20true,%20%22param%22:%20%5B%5D%7D"></div>
+
+### Parse
+
+<span class="chip chip-text">Returns: <i>Text</i></span>
+
+Parse a text between two strings. Example: text = abcdef, start = a, end = d, result = bc. If there is a problem the 'if Text Not Found' will be returned.
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Parse%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22text%22,%20%22start%22,%20%22end%22,%20%22if%20Text%20Not%20Found%22%5D%7D"></div>
+
+| Params | []() |
+|--------|------|
+|text|<span class="chip chip-text">Text</span>|
+|start|<span class="chip chip-text">Text</span>|
+|end|<span class="chip chip-text">Text</span>|
+|if Text Not Found|<span class="chip chip-text">Text</span>|
+
+### Paste
+
+<span class="chip chip-text">Returns: <i>Text</i></span>
+
+Paste text from clipboard. In case 'Show Success Toast' is true, the toast with your message will be shown after pasting a text from the clipboard.
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Paste%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22Success%20Toast%20Message%22%5D%7D"></div>
+
+| Params | []() |
+|--------|------|
+|Success Toast Message|<span class="chip chip-text">Text</span>|
+
+## Properties
+
+### Android Version
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span> :heavy_minus_sign: <span class="chip chip-rw">Read</span>  - <span class="chip chip-bd">Blocks</span></span>
+
+Get the android version of device.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Android%20Version%22,%20%22getter%22:%20true%7D"></div>
+
+### API Version
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> :heavy_minus_sign: <span class="chip chip-rw">Read</span>  - <span class="chip chip-bd">Blocks</span></span>
+
+The user-visible SDK version of the framework.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22API%20Version%22,%20%22getter%22:%20true%7D"></div>
+
+### Board
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span> :heavy_minus_sign: <span class="chip chip-rw">Read</span>  - <span class="chip chip-bd">Blocks</span></span>
+
+The name of the underlying board, like "goldfish".
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Board%22,%20%22getter%22:%20true%7D"></div>
+
+### Bootloader Version
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span> :heavy_minus_sign: <span class="chip chip-rw">Read</span>  - <span class="chip chip-bd">Blocks</span></span>
+
+The system bootloader version number.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Bootloader%20Version%22,%20%22getter%22:%20true%7D"></div>
+
+### Brand
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span> :heavy_minus_sign: <span class="chip chip-rw">Read</span>  - <span class="chip chip-bd">Blocks</span></span>
+
+The consumer-visible brand with which the product/hardware will be associated, if any.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Brand%22,%20%22getter%22:%20true%7D"></div>
+
+### Build Number
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span> :heavy_minus_sign: <span class="chip chip-rw">Read</span>  - <span class="chip chip-bd">Blocks</span></span>
+
+Get the build number(Software) of the device.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Build%20Number%22,%20%22getter%22:%20true%7D"></div>
+
+### Country Code
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span> :heavy_minus_sign: <span class="chip chip-rw">Read</span>  - <span class="chip chip-bd">Blocks</span></span>
+
+The result is the code of your country.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Country%20Code%22,%20%22getter%22:%20true%7D"></div>
+
+### Device Id
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span> :heavy_minus_sign: <span class="chip chip-rw">Read</span>  - <span class="chip chip-bd">Blocks</span></span>
+
+Returns the unique device specific 'AndroidID'. Developed by Cian.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Device%20Id%22,%20%22getter%22:%20true%7D"></div>
+
+### Device Name
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span> :heavy_minus_sign: <span class="chip chip-rw">Read</span>  - <span class="chip chip-bd">Blocks</span></span>
+
+The name of the industrial design.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Device%20Name%22,%20%22getter%22:%20true%7D"></div>
+
+### Fingerprint
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span> :heavy_minus_sign: <span class="chip chip-rw">Read</span>  - <span class="chip chip-bd">Blocks</span></span>
+
+A string that uniquely identifies this build.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Fingerprint%22,%20%22getter%22:%20true%7D"></div>
+
+### Hardware
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span> :heavy_minus_sign: <span class="chip chip-rw">Read</span>  - <span class="chip chip-bd">Blocks</span></span>
+
+The name of the hardware (from the kernel command line or /proc).
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Hardware%22,%20%22getter%22:%20true%7D"></div>
+
+### ID
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span> :heavy_minus_sign: <span class="chip chip-rw">Read</span>  - <span class="chip chip-bd">Blocks</span></span>
+
+Either a changelist number, or a label like "M4-rc20".
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22ID%22,%20%22getter%22:%20true%7D"></div>
+
+### Language Code
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span> :heavy_minus_sign: <span class="chip chip-rw">Read</span>  - <span class="chip chip-bd">Blocks</span></span>
+
+The result is the code of your device language.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Language%20Code%22,%20%22getter%22:%20true%7D"></div>
+
+### Manufacturer
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span> :heavy_minus_sign: <span class="chip chip-rw">Read</span>  - <span class="chip chip-bd">Blocks</span></span>
+
+The manufacturer of the product/hardware.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Manufacturer%22,%20%22getter%22:%20true%7D"></div>
+
+### Model Name
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span> :heavy_minus_sign: <span class="chip chip-rw">Read</span>  - <span class="chip chip-bd">Blocks</span></span>
+
+The end-user-visible name for the end product.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Model%20Name%22,%20%22getter%22:%20true%7D"></div>
+
+### Product
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span> :heavy_minus_sign: <span class="chip chip-rw">Read</span>  - <span class="chip chip-bd">Blocks</span></span>
+
+The name of the overall product.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Product%22,%20%22getter%22:%20true%7D"></div>
+
+### Radio Version
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span> :heavy_minus_sign: <span class="chip chip-rw">Read</span>  - <span class="chip chip-bd">Blocks</span></span>
+
+Returns the version string for the radio firmware. May return null (if, for instance, the radio is not currently on).
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Radio%20Version%22,%20%22getter%22:%20true%7D"></div>
+
+### Serial
+
+:warning: ==**Deprecated**==
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span> :heavy_minus_sign: <span class="chip chip-rw">Read</span>  - <span class="chip chip-bd">Blocks</span></span>
+
+DEPRECATED. DO NOT USE THIS ANYMORE. USE 'Get Serial' INSTEAD!
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Serial%22,%20%22getter%22:%20true%7D"></div>
+
+### Show Success Toast
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>False</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
+
+Returns true if 'Show Success Toast' is enabled.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Show%20Success%20Toast%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Show%20Success%20Toast%22,%20%22getter%22:%20false%7D"></div>
+
+### Tags
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span> :heavy_minus_sign: <span class="chip chip-rw">Read</span>  - <span class="chip chip-bd">Blocks</span></span>
+
+Comma-separated tags describing the build, like "unsigned,debug".
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Tags%22,%20%22getter%22:%20true%7D"></div>
+
+### Type
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span> :heavy_minus_sign: <span class="chip chip-rw">Read</span>  - <span class="chip chip-bd">Blocks</span></span>
+
+The type of build, like "user" or "eng".
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Type%22,%20%22getter%22:%20true%7D"></div>

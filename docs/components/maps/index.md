@@ -1,4 +1,4 @@
-# Overview <small> of Maps</small>
+# Overview <small>of Maps</small>
 
 * [Circle](circle.md)
 * [Feature Collection](feature-collection.md)

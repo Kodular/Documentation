@@ -6,20 +6,22 @@ customised with components.
 ## Component categories
 For easier access of components, they are grouped into various categories.
 
-* [Connectivity](connectivity/index.md)
-* [Drawing and Animation](drawing-and-animation/index.md)
-* [Experimental](experimental/index.md)
-* [Google](google/index.md)
-* [LEGO Mindstorms](lego-mindstorms/index.md)
+* [Screen](screen.md)
+* [User Interface](user-interface/index.md)
 * [Layout](layout/index.md)
 * [Media](media/index.md)
-* [Monetization](monetization/index.md)
-* [Screen](screen.md)
+* [Drawing and Animation](drawing-and-animation/index.md)
+* [Maps](maps/index.md)
 * [Sensors](sensors/index.md)
 * [Social](social/index.md)
 * [Storage](storage/index.md)
-* [User Interface](user-interface/index.md)
 * [Utilities](utilities/index.md)
+* [Dynamic Components](dynamic/index.md)
+* [Connectivity](connectivity/index.md)
+* [Google](google/index.md)
+* [Monetization](monetization/index.md)
+* [LEGO Mindstorms](lego-mindstorms/index.md)
+* [Experimental](experimental/index.md)
 
 ## Data Types
 
@@ -33,7 +35,7 @@ The properties of a component and parameters of a method or event may be of one 
 
 ### Asset
 
-An **Asset** type property can be set from the Designer by selecting an **Asset** from the uploaded assets for the app.  
+An **Asset** type property can be set from the Designer by selecting an **Asset** from the uploaded assets for the app.
 From the Blocks Editor, it can be set using a _[Text](#text)_ block containing the path to that Asset.
 
 

@@ -1,192 +1,160 @@
 # Tab Layout
 
+| Category | Requires | Version |
+|:--------:|:-------:|:--------:|
+|**Layout > Navigation**|<span class="chip chip-any">API 19, Android 4.4 - 4.4.4 KitKat</span>|<span class="chip chip-number">1</span>|
+
 ## Overview
-A **Tab Layout** is a swipeable visible component where you can add tabs. It provides horizontal layout to display tabs on the screen.
 
-<br><br>
-![Tab Layout](/assets/images/components/user-interface/tab-layout/TabLayout.gif)
-
-A demo of **Tab Layout**.
-
-
-## Properties
-
-### Get Current Tab
-
-![Get Current Tab](/assets/images/components/user-interface/tab-layout/p_getcurrenttab.jpg)
-
-_**\(** Getter only **\)**
-`Type: Text`_
-
-Returns the current selected tab.
-
-
-### Select Tab
-
-![Select Tab](/assets/images/components/user-interface/tab-layout/p_selecttab.jpg)
-
-_**\(** Setter only **\)**
-`Type: Text`_
-
-Selects a tab which is then the active tab.
-
-
-### Tabs Active Text Colour
-
-![Tabs Active Text Colour](/assets/images/components/user-interface/tab-layout/p_activetabtextcolor.jpg)
-
-_**\(** Getter + Setter **\)**
-`Type: Colour`_
-
-Determines text's colour of the current active tab.
-
-
-### Tabs Background Colour
-
-![Tabs Background Colour](/assets/images/components/user-interface/tab-layout/p_tabsbackgroundcolor.jpg)
-
-_**\(** Getter + Setter **\)**
-`Type: Colour`_
-
-Determines background colour of tabs.
-
-
-### Tabs Indicator Colour
-
-![Tabs Indicator Colour](/assets/images/components/user-interface/tab-layout/p_tabindicatorcolor.jpg)
-
-_**\(** Getter + Setter **\)**
-`Type: Colour`_
-
-Determines indicator colour of the tabs.
-
-
-### Tabs Mode
-
-![Tabs Mode](/assets/images/components/user-interface/tab-layout/p_tabsmode.jpg)
-
-_**\(** Getter + Setter **\)**
-`Type: Number`_
-
-Determines the mode of the tabs. If no mode is set, 'scrollable' is set as default. Use '0' for 'Scrollable and '1' for 'Fixed'.
-
-
-### Tabs Text Colour
-
-![Tabs Text Colour](/assets/images/components/user-interface/tab-layout/p_tabstextcolor.jpg)
-
-_**\(** Getter + Setter **\)**
-`Type: Colour`_
-
-Determines text's colour of not selected tab.
-
-
-### Visible
-
-![Visible](/assets/images/components/user-interface/tab-layout/p_visible.jpg)
-
-_**\(** Getter + Setter **\)**
-`Type: Boolean`_
-
-Determines wheather the tabs are visible on the screen or not.
-
-
-### Width
-
-![Width](/assets/images/components/user-interface/tab-layout/p_width.jpg)
-
-_**\(** Getter + Setter **\)**
-`Type: Number`_
-
-Determines the width with which the tabs are displayed.
-
-
-### Width Percent
-
-![Width Percent](/assets/images/components/user-interface/tab-layout/p_widthpercent.jpg)
-
-_**\(** Setter only **\)**
-`Type: Number`_
-
-Determines the width with which the tabs are displayed in terms of precentage of the whole screen width.
-
-
-## Methods
-
-### Add New Tab
-
-![Add New Tab](/assets/images/components/user-interface/tab-layout/m_addnewtab.jpg)
-
-_**\(** Text `name`, Text `icon`**\)**_
-
-Adds a new tab to the **Tab Layout**.
-
-Params               | []()
--------------------- | ------------
-`name `              | **Text:** The name of the tab.
-`icon `              | **Text:** The name of the image that you want to set as icon of the tab. Leave blank if you don't want an icon.
-
-!!! caution "Note"
-    The image that you want to set as the icon of a tab must be uploaded to the assets.
-
-
-### Add New Tab At
-
-![Add New Tab At](/assets/images/components/user-interface/tab-layout/m_addnewtabat.jpg)
-
-_**\(** Text `name`, Text `icon`, Number `position`**\)**_
-
-Adds a new tab to the **Tab Layout** at the given position.
-
-Params               | []()
--------------------- | ------------
-`name `              | **Text:** The name of the tab.
-`icon `              | **Text:** The name of the image that you want to set as icon of the tab. Leave blank if you don't want an icon.
-`position `          | **Number:** The position of the tab. For example, 3.
-
-
-### Count Tabs
-
-![Count Tabs](/assets/images/components/user-interface/tab-layout/m_counttabs.jpg)
-
-_**\(**None**\)**_
-
-Returns the number of current added tabs.
-
-
-### Remove All Tabs
-
-![Remove All Tabs](/assets/images/components/user-interface/tab-layout/m_removealltabs.jpg)
-
-_**\(**None**\)**_
-
-Removes all the tabs from **Tab Layout**.
-
-
-### Remove Tab At
-
-![Remove Tab At](/assets/images/components/user-interface/tab-layout/m_removetabat.jpg)
-
-_**\(** Number `position`**\)**_
-
-Removes the given tab the tabs from **Tab Layout**.
-
-Params               | []()
--------------------- | ------------
-`position `          | **Number:** The position of the tab. For example, 3.
-
+A visible component that groups other layout components such that only one of its children is shown at a time. Each of the child layouts can be accessed either by swiping left and right, or using the tabs at the top.
 
 ## Events
 
 ### Tab Item Selected
 
-![Tab Item Selected](/assets/images/components/user-interface/tab-layout/e_tabitemselected.jpg)
+The event returns the name or the position of the selected tab.
 
-_**\(** Text `tab`, Number `position`**\)**_
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Tab%20Layout%22,%20%22name%22:%20%22Tab%20Item%20Selected%22,%20%22param%22:%20%5B%22tab%22,%20%22position%22%5D%7D"></div>
 
-Indicates that a item in **Tab Layout** is selected.
+| Params | []() |
+|--------|------|
+|tab|<span class="chip chip-text">Text</span>|
+|position|<span class="chip chip-number">Number</span>|
 
-Params               | []()
--------------------- | ------------
-`tab`                | **Text:** The name of the tab.
-`position`           | **Number:** The position of the tab. For example, 3.
+## Methods
+
+### Add New Tab
+
+Add a new tab to the tab layout. If you don't want a icon then let it empty.
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Tab%20Layout%22,%20%22name%22:%20%22Add%20New%20Tab%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22name%22,%20%22icon%22%5D%7D"></div>
+
+| Params | []() |
+|--------|------|
+|name|<span class="chip chip-text">Text</span>|
+|icon|<span class="chip chip-text">Text</span>|
+
+### Add New Tab At
+
+Add a new tab to the tab layout at the given position. If you don't want a icon then let it empty.
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Tab%20Layout%22,%20%22name%22:%20%22Add%20New%20Tab%20At%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22name%22,%20%22icon%22,%20%22position%22%5D%7D"></div>
+
+| Params | []() |
+|--------|------|
+|name|<span class="chip chip-text">Text</span>|
+|icon|<span class="chip chip-text">Text</span>|
+|position|<span class="chip chip-number">Number</span>|
+
+### Count Tabs
+
+<span class="chip chip-number">Returns: <i>Number</i></span>
+
+Returns the number of current added tab's.
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Tab%20Layout%22,%20%22name%22:%20%22Count%20Tabs%22,%20%22output%22:%20true,%20%22param%22:%20%5B%5D%7D"></div>
+
+### Remove All Tabs
+
+Remove all tab's from tab layout.
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Tab%20Layout%22,%20%22name%22:%20%22Remove%20All%20Tabs%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
+
+### Remove Tab At
+
+Removes a before added tab. If you want to delete the first tab then use as position '1'.
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Tab%20Layout%22,%20%22name%22:%20%22Remove%20Tab%20At%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22position%22%5D%7D"></div>
+
+| Params | []() |
+|--------|------|
+|position|<span class="chip chip-number">Number</span>|
+
+## Properties
+
+### Get Current Tab
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> :heavy_minus_sign: <span class="chip chip-rw">Read</span>  - <span class="chip chip-bd">Blocks</span></span>
+
+Get the current selected tab.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Tab%20Layout%22,%20%22name%22:%20%22Get%20Current%20Tab%22,%20%22getter%22:%20true%7D"></div>
+
+### Select Tab
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> :heavy_minus_sign: <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Blocks</span></span>
+
+Select a tab which is then the active tab.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Tab%20Layout%22,%20%22name%22:%20%22Select%20Tab%22,%20%22getter%22:%20false%7D"></div>
+
+### Tabs Active Text Color
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-color">Color</span> <span class="chip chip-color">Default: <i>#FF4081FF</i>&nbsp;<span style="width: 15px; height: 15px; margin: auto; display: inline-block; border: 1px solid white; vertical-align: middle; border-radius: 3px; background-color: #FF4081;"></span></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
+
+Specifies the tab's text color for active tab's.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Tab%20Layout%22,%20%22name%22:%20%22Tabs%20Active%20Text%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Tab%20Layout%22,%20%22name%22:%20%22Tabs%20Active%20Text%20Color%22,%20%22getter%22:%20false%7D"></div>
+
+### Tabs Background Color
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-color">Color</span> <span class="chip chip-color">Default: <i>#3F51B5FF</i>&nbsp;<span style="width: 15px; height: 15px; margin: auto; display: inline-block; border: 1px solid white; vertical-align: middle; border-radius: 3px; background-color: #3F51B5;"></span></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
+
+Specifies the tab's background color.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Tab%20Layout%22,%20%22name%22:%20%22Tabs%20Background%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Tab%20Layout%22,%20%22name%22:%20%22Tabs%20Background%20Color%22,%20%22getter%22:%20false%7D"></div>
+
+### Tabs Indicator Color
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-color">Color</span> <span class="chip chip-color">Default: <i>#FFFFFFFF</i>&nbsp;<span style="width: 15px; height: 15px; margin: auto; display: inline-block; border: 1px solid white; vertical-align: middle; border-radius: 3px; background-color: #FFFFFF;"></span></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
+
+Specifies the tab's indicator color.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Tab%20Layout%22,%20%22name%22:%20%22Tabs%20Indicator%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Tab%20Layout%22,%20%22name%22:%20%22Tabs%20Indicator%20Color%22,%20%22getter%22:%20false%7D"></div>
+
+### Tabs Mode
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>1</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
+
+Choose the mode used for the tab's. If no mode is specified, 'Scrollable' is taken as 'Default'. Use '0' for scrollable and '1' for fixed.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Tab%20Layout%22,%20%22name%22:%20%22Tabs%20Mode%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Tab%20Layout%22,%20%22name%22:%20%22Tabs%20Mode%22,%20%22getter%22:%20false%7D"></div>
+
+### Tabs Text Color
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-color">Color</span> <span class="chip chip-color">Default: <i>#FFFFFFFF</i>&nbsp;<span style="width: 15px; height: 15px; margin: auto; display: inline-block; border: 1px solid white; vertical-align: middle; border-radius: 3px; background-color: #FFFFFF;"></span></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
+
+Specifies the tab's text color for not selected tab's.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Tab%20Layout%22,%20%22name%22:%20%22Tabs%20Text%20Color%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Tab%20Layout%22,%20%22name%22:%20%22Tabs%20Text%20Color%22,%20%22getter%22:%20false%7D"></div>
+
+### Visible
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
+
+Specifies whether the component should be visible on the screen. Value is true if the component is showing and false if hidden.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Tab%20Layout%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Tab%20Layout%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20false%7D"></div>
+
+### Width
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Blocks</span></span>
+
+Specifies the component's horizontal width, measured in pixels.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Tab%20Layout%22,%20%22name%22:%20%22Width%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Tab%20Layout%22,%20%22name%22:%20%22Width%22,%20%22getter%22:%20false%7D"></div>
+
+### Width Percent
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> :heavy_minus_sign: <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Blocks</span></span>
+
+Specifies the component's horizontal width as a percentageof the Width of its parent Component.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Tab%20Layout%22,%20%22name%22:%20%22Width%20Percent%22,%20%22getter%22:%20false%7D"></div>

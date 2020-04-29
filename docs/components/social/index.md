@@ -1,4 +1,4 @@
-# Overview <small> of Social</small>
+# Overview <small>of Social</small>
 
 * [Contact Picker](contact-picker.md)
 * [Email Picker](email-picker.md)

@@ -1,7 +1,6 @@
 mkdocs
-mkdocs-material
-markdown-include
-pymdown-extensions
+mkdocs-material==4.6.3
+mkdocs-minify-plugin
+mkdocs-git-revision-date-localized-plugin
 pygments
--e git://github.com/Barreeeiroo/mkdocs-replace-plugin.git#egg=replace
-git+https://github.com/wnielson/markdown-macros.git
+pymdown-extensions

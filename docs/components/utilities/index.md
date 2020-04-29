@@ -1,9 +1,11 @@
-# Overview <small> of Utilities</small>
+# Overview <small>of Utilities</small>
 
 * [Animation Utilities](animation-utilities.md)
 * [Audio](audio.md)
+* [Battery Utilities](battery-utilities.md)
 * [Color Utilities](color-utilities.md)
 * [Cryptography](cryptography.md)
+* [Decoration](decoration.md)
 * [Device Utilities](device-utilities.md)
 * [Image Utilities](image-utilities.md)
 * [JSON](json.md)

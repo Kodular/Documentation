@@ -5,6 +5,7 @@
 * [Math](math.md)
 * [Text](text.md)
 * [Lists](lists.md)
+* [Dictionaries](dictionaries.md)
 * [Colors](colors.md)
 * [Variables](variables.md)
 * [Procedures](procedures.md)

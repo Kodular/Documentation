@@ -1,42 +1,31 @@
 # Google Account Picker
 
+{>> Non-Visible component<<}
+
+| Category | Requires | Version |
+|:--------:|:-------:|:--------:|
+|**Google**|<span class="chip chip-any">API 19, Android 4.4 - 4.4.4 KitKat</span>|<span class="chip chip-number">1</span>|
+
 ## Overview
-Google Account Picker is a non-visible component which can be used to pick a Google (Gmail) account registered in the user's device. This component can be used to create a login/register like system in the app.
 
-<br><br>
-![Google Account Picker](/assets/images/components/google/google-account-picker/preview.gif){: class="preview-img"}
-
-A demo of the Google Account Picker.
-{: .img-caption }
-
-## Properties
-
-This component doesn't have any designer property.
-
-
-
-## Methods
-
-
-### Pick
-
-![Picked](/assets/images/components/google/google-account-picker/m_pick.png)
-
-_**\(**None**\)**_
-
-Picks a Google (Gmail) account registered in the user's device.
-
+A non-visible component that shows a pop-up list of Google accounts currently signed-in on the device for the user to pick from.
 
 ## Events
 
 ### Picked
 
-![Pick](/assets/images/components/google/google-account-picker/e_picked.png)
+Event raised after account has been picked.
 
-_**\(** Text `account Name`**\)**_
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Account%20Picker%22,%20%22name%22:%20%22Picked%22,%20%22param%22:%20%5B%22account%20Name%22%5D%7D"></div>
 
-Indicates that an account has been picked.
+| Params | []() |
+|--------|------|
+|account Name|<span class="chip chip-text">Text</span>|
 
-Params               | []()
--------------------- | ---------- 
-`account Name`       | **Text:**  The username associated with the picked account.
+## Methods
+
+### Pick
+
+Provide an account picker to pick a Google account.
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Account%20Picker%22,%20%22name%22:%20%22Pick%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
