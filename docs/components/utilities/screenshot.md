@@ -40,7 +40,7 @@ Take a screenshot of the current visible screen.
 
 <span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span> :heavy_minus_sign: <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
 
-This feature allows users of your app to make or ban screenshots of their app. If disabled and a person tries to make a screenshot, they will receive then a default system message that this is not possible.
+This feature allows users of your app to make or ban screenshots and screen recording of their app. If disabled and a person tries to make a screenshot or tries to record the screen, they will receive then a default system message that this is not possible.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Screenshot%22,%20%22name%22:%20%22Allow%20Screenshots%22,%20%22getter%22:%20false%7D"></div>
 
