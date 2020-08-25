@@ -16,30 +16,39 @@ copyright2: Junnovate, LLC &copy; 2020
 # Customization
 extra:
   social:
-    - type: globe
+    - icon: fontawesome/solid/globe
       link: https://www.kodular.io
-    - type: twitter
+      name: Kodular
+    - icon: fontawesome/brands/twitter
       link: https://twitter.com/KodularIO
-    - type: facebook
+      name: Follow us on Twitter!
+    - icon: fontawesome/brands/facebook
       link: https://facebook.com/Kodular
-    - type: github
+      name: Like our Facebook Page!
+    - icon: fontawesome/brands/github-alt
       link: https://github.com/Kodular
+      name: Check our OSS repositories!
   adsense: "ca-pub-9439286719204795"
+  # disqus: "kodular-docs"
 
 # Material theme for MkDocs : https://github.com/squidfunk/mkdocs-material/
 theme:
   name: 'material'
-  feature:
-    tabs: true
+  features:
+    - tabs
+    - search.highlight
   palette:
     primary: white
     accent: pink
+    scheme: default
   logo: 'assets/logo.png'
   favicon: 'assets/favicon.ico'
   font:
     text: Roboto
     code: Roboto Mono
   custom_dir: makeroid_theme/
+  icon:
+    repo: fontawesome/brands/github
 
 extra_css:
   - assets/css/extra.css
