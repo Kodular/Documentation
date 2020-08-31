@@ -1205,8 +1205,50 @@ Parity components will not be available in the Palette and are meant only to sup
 ### New Methods
 
 * New **`Get Entries`** method to **TinyDB**  
-![component_method|232x25](upload://p8qPINU3bWs7fpRcA99mchtVBa2.png)
+![component_method|232x25](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/b/0/b02a615d47eb20d7abc1e76cbe327ef2c66b91ea.png)
 
 ### Bugs fixed
 
 * Fixed some minor bugs
+
+## 1.4D.0 Eagle | 31 August 2020
+
+### Major Changes
+
+* Introducing Android App Bundles. 
+You can now export your Kodular projects as AAB files to distribute them through Play Store.
+
+* Introducing kodular.app 29 links. :kodular:
+When you export an app, you will get a kodular.app/ABC-XYZ link which you can use to download your built project.
+
+* Added App Center integration. :appcenter:
+We have integrated the App Center library that collects fully anonymized analytics to better understand apps usage. It will also collect crashes to report them into our system, so we can fix them.
+You don’t need to add any extra section to your privacy policy. It fully complies with GDPR by not collecting any personal data.
+
+### New Components
+
+* New Navigation component in Maps.
+![component_method|232x25](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/e/3/e30f30baefcc59da6dd65139bbfea94ff8c7da78.png)
+
+### Bugs fixed
+
+* Improved extensions security.
+We have implemented a system to protect your apps from malicious extensions.
+
+* Fixed Admob App ID security bug.
+
+* Accept only valid custom package names.
+
+* [Make and/or blocks mutable.](https://github.com/mit-cml/appinventor-sources/commit/36db0c4b7da912a487b152a68fabb508369537df)
+
+ 
+* [Fix components not being accepted as keys.](https://github.com/mit-cml/appinventor-sources/commit/36db0c4b7da912a487b152a68fabb508369537df)
+
+* [Allow and/or blocks to have 0 or 1 inputs. ](https://github.com/mit-cml/appinventor-sources/commit/36db0c4b7da912a487b152a68fabb508369537df)
+
+
+* [Fix ghost dropdown when switching logic blocks to external inputs.](https://github.com/mit-cml/appinventor-sources/commit/36db0c4b7da912a487b152a68fabb508369537df) 
+
+* [Fix flyout interaction breaking edits on mobile. ](https://github.com/mit-cml/appinventor-sources/commit/36db0c4b7da912a487b152a68fabb508369537df) 
+
+
