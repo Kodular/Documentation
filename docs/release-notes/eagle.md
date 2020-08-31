@@ -1242,13 +1242,11 @@ We have implemented a system to protect your apps from malicious extensions.
 * [Make and/or blocks mutable.](https://github.com/mit-cml/appinventor-sources/commit/36db0c4b7da912a487b152a68fabb508369537df)
 
  
-* [Fix components not being accepted as keys.](https://github.com/mit-cml/appinventor-sources/commit/36db0c4b7da912a487b152a68fabb508369537df)
+* [Fix components not being accepted as keys.](https://github.com/mit-cml/appinventor-sources/commit/33f4061f545c56d95e27926a0792b3ded81680f5)
 
-* [Allow and/or blocks to have 0 or 1 inputs. ](https://github.com/mit-cml/appinventor-sources/commit/36db0c4b7da912a487b152a68fabb508369537df)
+* [Allow and/or blocks to have 0 or 1 inputs. ](https://github.com/mit-cml/appinventor-sources/commit/52cddaf3ab8aeb304a69f73a1d1cbe247ea08718)
 
+* [Fix ghost dropdown when switching logic blocks to external inputs.](https://github.com/mit-cml/appinventor-sources/commit/0968f5615e75fb57f20f25e846e3a0ed63e800f9) 
 
-* [Fix ghost dropdown when switching logic blocks to external inputs.](https://github.com/mit-cml/appinventor-sources/commit/36db0c4b7da912a487b152a68fabb508369537df) 
-
-* [Fix flyout interaction breaking edits on mobile. ](https://github.com/mit-cml/appinventor-sources/commit/36db0c4b7da912a487b152a68fabb508369537df) 
-
+* [Fix flyout interaction breaking edits on mobile. ](https://github.com/mit-cml/appinventor-sources/commit/3ca10de1075c99b01eb12ed765731cae49dee16d) 
 
