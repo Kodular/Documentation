@@ -1216,19 +1216,20 @@ Parity components will not be available in the Palette and are meant only to sup
 ### Major Changes
 
 * Introducing Android App Bundles. 
-You can now export your Kodular projects as AAB files to distribute them through Play Store.
+<br>You can now export your Kodular projects as AAB files to distribute them through Play Store.
 
-* Introducing kodular.app 29 links. :kodular:
-When you export an app, you will get a kodular.app/ABC-XYZ link which you can use to download your built project.
+* Introducing kodular.app 29 links.
+<br>When you export an app, you will get a kodular.app/ABC-XYZ link which you can use to download your built project.
 
-* Added App Center integration. :appcenter:
-We have integrated the App Center library that collects fully anonymized analytics to better understand apps usage. It will also collect crashes to report them into our system, so we can fix them.
+* Added App Center integration.
+<br>We have integrated the App Center library that collects fully anonymized analytics to better understand apps usage. It will also collect crashes to report them into our system, so we can fix them.
 You don’t need to add any extra section to your privacy policy. It fully complies with GDPR by not collecting any personal data.
 
 ### New Components
 
-* New Navigation component in Maps.
-![component_method|232x25](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/e/3/e30f30baefcc59da6dd65139bbfea94ff8c7da78.png)
+* New **Navigation component** in Maps.
+
+<br>![component_method|232x25](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/e/3/e30f30baefcc59da6dd65139bbfea94ff8c7da78.png)</br>
 
 ### Bugs fixed
 
