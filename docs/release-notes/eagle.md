@@ -2,7 +2,7 @@
 
 ![Kodular Eagle](https://assets.kodular.io/images/creator/versions/eagle2.png)
 
-## 1.4 Eagle   \|   _17 August 2019_
+## 1.4 Eagle   \|   _17 August 2020_
 
 ### Major Changes
 
