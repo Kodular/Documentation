@@ -1205,7 +1205,7 @@ Parity components will not be available in the Palette and are meant only to sup
 ### New Methods
 
 * New **`Get Entries`** method to **TinyDB**  
-![component_method|232x25](upload://p8qPINU3bWs7fpRcA99mchtVBa2.png)
+![component_method|232x25](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/b/0/b02a615d47eb20d7abc1e76cbe327ef2c66b91ea.png)
 
 ### Bugs fixed
 
