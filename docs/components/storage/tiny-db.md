@@ -46,6 +46,14 @@ Return a list of all the tags in the data store
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Tiny%20DB%22,%20%22name%22:%20%22Get%20Tags%22,%20%22output%22:%20true,%20%22param%22:%20%5B%5D%7D"></div>
 
+### Get Entries
+
+<span class="chip chip-any">Returns: <i>Dictionaries</i></span>
+
+Retrives all data entries in TinyDB in form of Dictionaries
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Tiny%20DB%22,%20%22name%22:%20%22Get%20Entries%22,%20%22output%22:%20true,%20%22param%22:%20%5B%5D%7D"></div>
+
 ### Get Value
 
 <span class="chip chip-any">Returns: <i>Any</i></span>
