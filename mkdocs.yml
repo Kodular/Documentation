@@ -119,6 +119,7 @@ nav:
       - Surveys with Pollfish: guides/component-examples/pollfish.md
     - Extensions:
       - Create Extensions: guides/extensions/create-extensions.md
+    - Keyboard Shortcuts: guides/keyboard-shortcuts.md
   - Components:
     - Overview: components/index.md
     - Screen: components/screen.md
