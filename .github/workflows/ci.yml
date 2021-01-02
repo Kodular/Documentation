@@ -1,0 +1,35 @@
+name: Build Mkdocs
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python 3.8
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.8
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+    - name: Build mkdocs
+      run: mkdocs build
+    - name: Deploy mkdocs
+      if: github.event_name != 'pull_request'
+      env:
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        REPO_SLUG: ${{ github.repository }}
+      run: |
+        git config user.name "Kodular Bot"
+        git config user.email "github@kodular.io"
+        git remote add gh-token "https://KodularCreator:$GH_TOKEN@github.com/$REPO_SLUG.git"
+        git fetch gh-token && git fetch gh-token gh-pages:gh-pages
+        mkdocs gh-deploy -v --clean --remote-name gh-token
