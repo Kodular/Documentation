@@ -18,7 +18,7 @@ A non-visible component that allows for uploading of images, videos, audios and 
 
 ### Media Uploaded
 
-Event raised after the Upload Media block has been used
+Event raised when your file is uploaded on cloudinary
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Cloudinary%22,%20%22name%22:%20%22Media%20Uploaded%22,%20%22param%22:%20%5B%22response%20Content%22,%20%22url%22%5D%7D"></div>
 
