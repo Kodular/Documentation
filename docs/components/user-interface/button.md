@@ -59,7 +59,7 @@ Perform a button click as function.
 
 ### Set Animation Style
 
-Allows you to set animation style. Valid (case-insensitive) values are: ChasingDots, Circle, CubeGrid, DoubleBounce, FadingCircle, FoldingCube, Pulse, RotatingCircle, RotatingPlane, ThreeBounce, WanderingCubes, Wave. If invalid style is used, animation will be removed.Position can be: top, left, right, bottom. Size can be 100.
+Allows you to set animation style. Valid (case-insensitive) values for style are: ChasingDots, Circle, CubeGrid, DoubleBounce, FadingCircle, FoldingCube, Pulse, RotatingCircle, RotatingPlane, ThreeBounce, WanderingCubes, Wave. If invalid style is used, animation will be removed. Position can be: top, left, right, bottom. Size can be 100.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Button%22,%20%22name%22:%20%22Set%20Animation%20Style%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22style%22,%20%22position%22,%20%22size%22,%20%22color%22%5D%7D"></div>
 
@@ -72,7 +72,7 @@ Allows you to set animation style. Valid (case-insensitive) values are: ChasingD
 
 ### Set Shadow
 
-Place a blurred shadow of text underneath the text, drawn with the specified x, y, radius, color (e.g. -11, 12, 13, black.
+Place a blurred shadow of text underneath the text, drawn with the specified x, y, radius, color (e.g. -11, 12, 13, black.)
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Button%22,%20%22name%22:%20%22Set%20Shadow%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22x%22,%20%22y%22,%20%22radius%22,%20%22color%22%5D%7D"></div>
 
@@ -85,7 +85,7 @@ Place a blurred shadow of text underneath the text, drawn with the specified x, 
 
 ### With Icon From Font Awesome
 
-Show an image on the given position near to the button. You can use following words for the position: 'Left', 'Right', 'Top' or 'Bottom'. Use the padding to add space between the icon and text. Use a material icon as the button icon without uploading a image resource into your project. You can find the icon name (or code) here at https://fontawesome.com/cheatsheet Use as example for a heart icon just 'f004'.
+Show an image on the given position near to the button. You can use following words for the position: 'Left', 'Right', 'Top' or 'Bottom'. Use the padding to add space between the icon and text. Use a Font Awesome icon as the button icon without uploading an image resource into your project. You can find the icon name (or code) here at https://fontawesome.com/cheatsheet Use as example for a heart icon just 'f004'.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Button%22,%20%22name%22:%20%22With%20Icon%20From%20Font%20Awesome%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22position%22,%20%22icon%20Name%22,%20%22icon%20Color%22,%20%22padding%22,%20%22size%22%5D%7D"></div>
 
@@ -99,7 +99,7 @@ Show an image on the given position near to the button. You can use following wo
 
 ### With Icon From Material Font
 
-Show an image on the given position near to the button. You can use following words for the position: 'Left', 'Right', 'Top' or 'Bottom'. Use the padding to add space between the icon and text. Use a material icon as the button icon without uploading a image resource into your project. You can find the icon name (or code) here at https://material.io/icons
+Show an image on the given position near to the button. You can use following words for the position: 'Left', 'Right', 'Top' or 'Bottom'. Use the padding to add space between the icon and text. Use a material icon as the button icon without uploading an image resource into your project. You can find the icon name (or code) here at https://fonts.google.com/icons?selected=Material+Icons
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Button%22,%20%22name%22:%20%22With%20Icon%20From%20Material%20Font%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22position%22,%20%22icon%20Name%22,%20%22icon%20Color%22,%20%22padding%22,%20%22size%22%5D%7D"></div>
 
@@ -148,7 +148,7 @@ Returns true if the button have a outside border shadow on click.
 
 <span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
 
-If set, user can tap check box to cause action.
+If set, user can tap the button to perform action.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Button%22,%20%22name%22:%20%22Enabled%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Button%22,%20%22name%22:%20%22Enabled%22,%20%22getter%22:%20false%7D"></div>
@@ -166,7 +166,7 @@ If set, button text is displayed in bold.
 
 <span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>False</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
 
-If set, button text is displayed in italics.
+If set, button text is displayed in italic.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Button%22,%20%22name%22:%20%22Font%20Italic%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Button%22,%20%22name%22:%20%22Font%20Italic%22,%20%22getter%22:%20false%7D"></div>
@@ -192,7 +192,7 @@ Font family for button text.
 
 <span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span> :heavy_minus_sign: <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
 
-Set a custom font.
+Set a custom font for button text.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Button%22,%20%22name%22:%20%22Font%20Typeface%20Import%22,%20%22getter%22:%20false%7D"></div>
 
@@ -200,7 +200,7 @@ Set a custom font.
 
 <span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Blocks</span></span>
 
-Specifies the component's vertical height, measured in pixels.
+Specifies the component's vertical height, measured in pixels. Use -1 for automatic height and -2 for fill parent.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Button%22,%20%22name%22:%20%22Height%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Button%22,%20%22name%22:%20%22Height%22,%20%22getter%22:%20false%7D"></div>
@@ -209,7 +209,7 @@ Specifies the component's vertical height, measured in pixels.
 
 <span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> :heavy_minus_sign: <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Blocks</span></span>
 
-Specifies the component's vertical height as a percentageof the height of its parent Component.
+Specifies the component's vertical height as a percentage of the height of its parent Component.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Button%22,%20%22name%22:%20%22Height%20Percent%22,%20%22getter%22:%20false%7D"></div>
 
@@ -219,7 +219,7 @@ Specifies the component's vertical height as a percentageof the height of its pa
 
 <span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>False</i></span> :heavy_minus_sign: <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span></span>
 
-If true, then this button will show html text else it will show plain text. Note: Not all HTML is supported.
+If true, then the button will show html text else it will show plain text. Note: Not all HTML is supported.
 
 ### Image
 
@@ -245,7 +245,7 @@ Sets the degrees that the button is rotated around the pivot point. Increasing v
 
 <span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>0</i></span> :heavy_minus_sign: <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span></span>
 
-Specifies the button's shape (default, rounded, rectangular, oval). The shape will not be visible if an Image is being displayed.
+Specifies the button's shape (default, rounded, rectangular, oval). Note: The shape will not be visible if an image is being displayed.
 
 ### Show Feedback
 
@@ -271,7 +271,7 @@ Text to display on button.
 
 <span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>1</i></span> :heavy_minus_sign: <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span></span>
 
-Left, center, or right.
+Alignment for button text. Left, center, or right.
 
 ### Text Color
 
@@ -297,7 +297,7 @@ Set the buttons touch color.
 
 <span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
 
-Returns true iff the component is visible.
+Returns true if the component is visible.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Button%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Button%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20false%7D"></div>
@@ -306,7 +306,7 @@ Returns true iff the component is visible.
 
 <span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Blocks</span></span>
 
-Specifies the component's horizontal width, measured in pixels.
+Specifies the component's horizontal width, measured in pixels. Use -1 for automatic width and -2 for fill parent.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Button%22,%20%22name%22:%20%22Width%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Button%22,%20%22name%22:%20%22Width%22,%20%22getter%22:%20false%7D"></div>
@@ -315,6 +315,6 @@ Specifies the component's horizontal width, measured in pixels.
 
 <span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> :heavy_minus_sign: <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Blocks</span></span>
 
-Specifies the component's horizontal width as a percentageof the Width of its parent Component.
+Specifies the component's horizontal width as a percentage of the Width of its parent Component.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Button%22,%20%22name%22:%20%22Width%20Percent%22,%20%22getter%22:%20false%7D"></div>
