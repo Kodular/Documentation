@@ -8,20 +8,20 @@
 
 ## Overview
 
-A non-visible component that is used to create Floating Action Buttons.   
+A non-visible component that is used to create Floating Action Buttons (FAB).   
 Floating Action Buttons are used to indicate the primary action of the screen.
 
 ## Events
 
 ### Click
 
-Event to detect that the fab button was clicked.
+Event to detect that the FAB was clicked.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Floating%20Action%20Button%22,%20%22name%22:%20%22Click%22,%20%22param%22:%20%5B%5D%7D"></div>
 
 ### Long Click
 
-Event to detect that the fab button was long clicked.
+Event to detect that the FAB was long clicked.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Floating%20Action%20Button%22,%20%22name%22:%20%22Long%20Click%22,%20%22param%22:%20%5B%5D%7D"></div>
 
@@ -29,7 +29,7 @@ Event to detect that the fab button was long clicked.
 
 ### Hide
 
-Hides the fab button.
+Hides the FAB.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Floating%20Action%20Button%22,%20%22name%22:%20%22Hide%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
 
@@ -41,13 +41,13 @@ Hides text message.
 
 ### Show
 
-Shows the fab button.
+Shows the FAB.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Floating%20Action%20Button%22,%20%22name%22:%20%22Show%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
 
 ### Show Label
 
-Show a new text message near to the fab with the given properties. You can do the changes with the properties in the advanded category.
+Show a new text message near to the FAB with the given properties. You can do the changes with the properties in the advanced category.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Floating%20Action%20Button%22,%20%22name%22:%20%22Show%20Label%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
 
@@ -63,12 +63,12 @@ Starts a rotation animation. You can use the 'Rotation Duration','Rotation Start
 
 <span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-color">Color</span> <span class="chip chip-color">Default: <i>#2196F2FF</i>&nbsp;<span style="width: 15px; height: 15px; margin: auto; display: inline-block; border: 1px solid white; vertical-align: middle; border-radius: 3px; background-color: #2196F2;"></span></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
 
-Returns the fab's background color.
+Returns the FAB's background color.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Floating%20Action%20Button%22,%20%22name%22:%20%22Background%20Color%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Floating%20Action%20Button%22,%20%22name%22:%20%22Background%20Color%22,%20%22getter%22:%20false%7D"></div>
 
-### Call Fab Click Event When Label Clicked
+### Call FAB Click Event When Label Clicked
 
 <small>Available as ^^Advanced^^ Property</small>
 
@@ -79,7 +79,7 @@ If true the FAB click listener will be invoked on a text message click.
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Floating%20Action%20Button%22,%20%22name%22:%20%22Call%20Fab%20Click%20Event%20When%20Label%20Clicked%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Floating%20Action%20Button%22,%20%22name%22:%20%22Call%20Fab%20Click%20Event%20When%20Label%20Clicked%22,%20%22getter%22:%20false%7D"></div>
 
-### Call Fab Long Click Event When Label Long Clicked
+### Call FAB Long Click Event When Label Long Clicked
 
 <small>Available as ^^Advanced^^ Property</small>
 
@@ -185,7 +185,7 @@ Set the text message color.
 
 <span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>16</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
 
-Returns the fab's bottom margin.
+Returns the FAB's bottom margin.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Floating%20Action%20Button%22,%20%22name%22:%20%22Margin%20Bottom%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Floating%20Action%20Button%22,%20%22name%22:%20%22Margin%20Bottom%22,%20%22getter%22:%20false%7D"></div>
@@ -194,7 +194,7 @@ Returns the fab's bottom margin.
 
 <span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>16</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
 
-Returns right margin
+Returns the FAB's right margin.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Floating%20Action%20Button%22,%20%22name%22:%20%22Margin%20Right%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Floating%20Action%20Button%22,%20%22name%22:%20%22Margin%20Right%22,%20%22getter%22:%20false%7D"></div>
@@ -203,7 +203,7 @@ Returns right margin
 
 <span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span> <span class="chip chip-text">Default: <i>add</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
 
-Use a material icon for the fab without uploading a image resource into your project. You can find the icon name (or code) here at https://material.io/icons
+Use a material icon for the FAB without uploading an image resource into your project. You can find the icon name (or code) here at https://fonts.google.com/icons?selected=Material+Icons
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Floating%20Action%20Button%22,%20%22name%22:%20%22Material%20Icon%20Name%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Floating%20Action%20Button%22,%20%22name%22:%20%22Material%20Icon%20Name%22,%20%22getter%22:%20false%7D"></div>
@@ -214,7 +214,7 @@ Use a material icon for the fab without uploading a image resource into your pro
 
 <span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-color">Color</span> <span class="chip chip-color">Default: <i>#FFFFFFFF</i>&nbsp;<span style="width: 15px; height: 15px; margin: auto; display: inline-block; border: 1px solid white; vertical-align: middle; border-radius: 3px; background-color: #FFFFFF;"></span></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
 
-Returns the fab's ripple color.
+Returns the FAB's ripple color.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Floating%20Action%20Button%22,%20%22name%22:%20%22Ripple%20Color%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Floating%20Action%20Button%22,%20%22name%22:%20%22Ripple%20Color%22,%20%22getter%22:%20false%7D"></div>
@@ -225,7 +225,7 @@ Returns the fab's ripple color.
 
 <span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
 
-Returns true if the fab will rotate on click.
+Returns true if the FAB will rotate on click.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Floating%20Action%20Button%22,%20%22name%22:%20%22Rotate%20On%20Click%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Floating%20Action%20Button%22,%20%22name%22:%20%22Rotate%20On%20Click%22,%20%22getter%22:%20false%7D"></div>
@@ -236,7 +236,7 @@ Returns true if the fab will rotate on click.
 
 <span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>300</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
 
-Returns the fab's rotation duration in milliseconds.
+Returns the FAB's rotation duration in milliseconds.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Floating%20Action%20Button%22,%20%22name%22:%20%22Rotation%20Duration%20(millisecond)%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Floating%20Action%20Button%22,%20%22name%22:%20%22Rotation%20Duration%20(millisecond)%22,%20%22getter%22:%20false%7D"></div>
@@ -247,7 +247,7 @@ Returns the fab's rotation duration in milliseconds.
 
 <span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>360</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
 
-Returns the fab's rotation end degrees.
+Returns the FAB's rotation end degrees.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Floating%20Action%20Button%22,%20%22name%22:%20%22Rotation%20End%20Degrees%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Floating%20Action%20Button%22,%20%22name%22:%20%22Rotation%20End%20Degrees%22,%20%22getter%22:%20false%7D"></div>
@@ -258,7 +258,7 @@ Returns the fab's rotation end degrees.
 
 <span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>0</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
 
-Returns the fab's rotation start degrees.
+Returns the FAB's rotation start degrees.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Floating%20Action%20Button%22,%20%22name%22:%20%22Rotation%20Start%20Degrees%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Floating%20Action%20Button%22,%20%22name%22:%20%22Rotation%20Start%20Degrees%22,%20%22getter%22:%20false%7D"></div>
@@ -269,7 +269,7 @@ Returns the fab's rotation start degrees.
 
 <span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
 
-Set the text message to the left side of the floating button. If false the text will be on the right side.
+Set the text message to the left side of the FAB. If false then the text message will be on right side.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Floating%20Action%20Button%22,%20%22name%22:%20%22Show%20Label%20On%20Left%20Side%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Floating%20Action%20Button%22,%20%22name%22:%20%22Show%20Label%20On%20Left%20Side%22,%20%22getter%22:%20false%7D"></div>
@@ -278,7 +278,7 @@ Set the text message to the left side of the floating button. If false the text 
 
 <span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>1</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
 
-Sets the size of the button. Use '1' for normal, '2' for mini or '3' for auto size based on the screen size.
+Sets the size of the FAB. Use '1' for normal, '2' for mini or '3' for auto size based on the screen size.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Floating%20Action%20Button%22,%20%22name%22:%20%22Size%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Floating%20Action%20Button%22,%20%22name%22:%20%22Size%22,%20%22getter%22:%20false%7D"></div>
@@ -287,7 +287,7 @@ Sets the size of the button. Use '1' for normal, '2' for mini or '3' for auto si
 
 <span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
 
-Returns true if the fab button is visible.
+Returns true if the FAB is visible.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Floating%20Action%20Button%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Floating%20Action%20Button%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20false%7D"></div>
