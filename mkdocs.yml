@@ -30,6 +30,11 @@ extra:
       name: Check our OSS repositories!
   adsense: "ca-pub-9439286719204795"
   # disqus: "kodular-docs"
+  version:
+    provider: mike
+  analytics:
+    provider: google
+    property: UA-102230060-7
 
 # Material theme for MkDocs : https://github.com/squidfunk/mkdocs-material/
 theme:
@@ -64,6 +69,7 @@ plugins:
   - minify:
       minify_html: true
   - git-revision-date-localized
+  - mike
 
 markdown_extensions:
   - codehilite
@@ -388,10 +394,3 @@ nav:
     - App Development:
       - Overview: support/development/index.md
       - I have a question related to app development. How can I get help?: support/development/questions.md
-
-
-
-# Google Analyitcs
-google_analytics:
-  - 'UA-102230060-7'
-  - 'auto'

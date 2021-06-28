@@ -32,4 +32,5 @@ jobs:
         git config user.email "github@kodular.io"
         git remote add gh-token "https://KodularCreator:$GH_TOKEN@github.com/$REPO_SLUG.git"
         git fetch gh-token && git fetch gh-token gh-pages:gh-pages
-        mkdocs gh-deploy -v --clean --remote-name gh-token
+        mike set-default ${{ secrets.KODULAR_VERSION }}
+        mike deploy ${{ secrets.KODULAR_VERSION }}
