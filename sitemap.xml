@@ -979,5 +979,9 @@
      <loc>https://docs.kodular.io/support/account/change-payment-method/</loc>
      <lastmod>2021-06-28</lastmod>
      <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://docs.kodular.io/support/billing/</loc>
+     <lastmod>2021-06-28</lastmod>
+     <changefreq>daily</changefreq>
     </url>
 </urlset>
