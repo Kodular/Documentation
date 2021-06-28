@@ -30,8 +30,6 @@ extra:
       name: Check our OSS repositories!
   adsense: "ca-pub-9439286719204795"
   # disqus: "kodular-docs"
-  version:
-    provider: mike
   analytics:
     provider: google
     property: UA-102230060-7
@@ -40,12 +38,23 @@ extra:
 theme:
   name: 'material'
   features:
-    - tabs
+    # - navigation.instant
+    - navigation.tabs
+    - navigation.top
     - search.highlight
   palette:
-    primary: white
-    accent: pink
-    scheme: default
+    - scheme: default
+      primary: white
+      accent: pink
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    - scheme: slate
+      primary: black
+      accent: pink
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
   logo: 'assets/logo.png'
   favicon: 'assets/favicon.ico'
   font:
@@ -69,15 +78,14 @@ plugins:
   - minify:
       minify_html: true
   - git-revision-date-localized
-  - mike
 
 markdown_extensions:
   - codehilite
   # Markdown extensions: https://python-markdown.github.io/extensions/
-  - markdown.extensions.admonition
-  - markdown.extensions.toc:
-      permalink: 'true'
-  - markdown.extensions.attr_list
+  - admonition
+  - toc:
+      permalink: true
+  - attr_list
   # PyMdown Extensions
   - pymdownx.caret
   - pymdownx.critic
