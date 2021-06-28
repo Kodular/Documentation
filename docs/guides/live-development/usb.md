@@ -1,58 +1,19 @@
 # Via USB
 
-## Installing Kodular Starter
+## Running Kodular Starter on your PC
 
-### Install ADB
-
-Follow this tutorial to install ADB files on your OS: [https://www.xda-developers.com/install-adb-windows-macos-linux/](https://www.xda-developers.com/install-adb-windows-macos-linux/)
-
-#### Check Installation
-
-```
-$ adb version
-Android Debug Bridge version 1.0.39
-Revision 3db08f2c6889-android
-Installed as C:\WINDOWS\adb.exe
-```
-
-### Install Python
-
-Download and install latest version of Python 3 from here: [https://www.python.org/downloads/](https://www.python.org/downloads/)
-
-#### Check Installation
-
-```
-$ python -V
-Python 3.6.4
-```
-
-```
-$ pip -V
-pip 10.0.1 from c:\python3\lib\site-packages\pip (python 3.6)
-```
-
-### Download Script File
-
-1. Download the files from [https://github.com/Kodular/Starter/releases/latest](https://github.com/Kodular/Starter/releases/latest)
-
-2. Save the folder to anywhere. You can also add it to Desktop as shortcut. 
-
-!!! warning
-    The path should not contain spaces.
-
-3. Run this command on the same directory where the Kodular Starter is
-
-```
-pip install -r requirements.txt
-```
-
-## Run Kodular Starter
-
-To run Kodular Starter, execute the following command in the same folder as Kodular Starter:
-
-```
-python KodularStarter.py
-```
+1. Download the [executable file for Kodular Starter v2.0](https://github.com/Kodular/Starter/releases/tag/v2.0) based on your OS
+    - `Windows` - KodularStarter_windows.exe
+    - `macOS` - KodularStarter_macos
+    - `Linux` - KodularStarter_linux
+2. To run, follow the instructions based on your OS
+    - `Windows` - Double-click on the executable file to run Kodular Starter.
+    - `macOS`/`Linux` - Open the terminal and execute file as shown below
+      ```
+      kodular@Kodular ~ $ chmod +x ./path/to/KodularStarter
+      kodular@Kodular ~ $ ./path/to/KodularStarter
+      ```
+3. Keep Kodular Starter running while you are using the Companion via USB.
 
 ## Connect to Companion
 
