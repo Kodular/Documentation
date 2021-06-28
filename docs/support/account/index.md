@@ -1,4 +1,4 @@
-# Overview <small> of Account Support</small>
+# Overview <small> of My Account</small>
 
 * [How to login into Kodular?](how-to-login.md)
 * [I cannot use my 2FA codes, what can I do?](2fa-recovery.md)

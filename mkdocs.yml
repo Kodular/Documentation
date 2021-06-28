@@ -368,6 +368,15 @@ nav:
       - Delete my Kodular Account: support/account/delete-account.md
       - How to remove a credit/debit card from my account?: support/account/remove-payment-method.md
       - How can I change my payment method?: support/account/change-payment-method.md
+    - Billing:
+      - Overview: support/billing/index.md
+      - Branding Removal: branding-removal.md
+      - Commission Removal: commission-removal.md
+      - Companion Ads Removal: companion-ads-removal.md
+      - Renewing a subscription: renewing-subscription.md
+      - Cancelling a subscription: cancelling-subscription.md
+      - Proration: proration.md
+      - Payment failed: payment-failed.md
 
 
 # Google Analyitcs

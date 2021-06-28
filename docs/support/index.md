@@ -1,3 +1,4 @@
 # Overview <small> of Support</small>
 
-* [Account](account/index.md)
+* [My Account](account/index.md)
+* [Billing](billing/index.md)
