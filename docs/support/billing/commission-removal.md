@@ -1,6 +1,6 @@
 # Commission Removal
 
-If apps built with Kodular Creator include [advertising components](../../components/monetization/advertising.md),
+If apps built with Kodular Creator include [advertising components](../../components/monetization/advertising/index.md),
 a percentage of commission is charged.  
 If you wish to remove this commission, it can be done by purchasing a subscription based plan on a per-app basis.  
 Please refer the Pricing page for the exact prices.
