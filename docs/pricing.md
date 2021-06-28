@@ -21,6 +21,10 @@ This also extends to **Kodular Store** and **Kodular Extensions IDE**.
 !!! tip "Updated: 19 January 2019 - 02 May 2019"
     Due to some technical issues with Google, apps generated with Kodular Creator Versions from Draco 1.3.1 to 1.3B.4, both included, will be free of comission. We will update this page as soon as it gets fixed.
 
+!!! warning
+    All this section will change with the upcoming Kodular update. Please keep in mind this support
+    page may not be up-to-date.
+
 However, to keep our services for free, _we take a small comission from your earnings in ads_. We do not force nobody to place ads in apps, but if you want to earn money, we take a percentage of your earnings.
 
 The components we take commissions from are **only** Interstitial ones. The other ones are free of commissions. Interstitial ads are the top performing ad types.
