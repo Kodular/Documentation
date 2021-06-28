@@ -5,7 +5,7 @@ gitdb==4.0.5
 GitPython==3.1.7
 htmlmin==0.1.12
 importlib-metadata==3.10.0
-Jinja2==2.10.1
+Jinja2==2.11.3
 joblib==0.16.0
 jsmin==2.2.2
 livereload==2.6.1
@@ -23,7 +23,7 @@ nltk==3.5
 Pygments==2.6.1
 pymdown-extensions==8.0
 pytz==2020.1
-PyYAML==5.2
+PyYAML==5.3.1
 regex==2020.7.14
 six==1.15.0
 smmap==3.0.4
