@@ -370,13 +370,22 @@ nav:
       - How can I change my payment method?: support/account/change-payment-method.md
     - Billing:
       - Overview: support/billing/index.md
-      - Branding Removal: branding-removal.md
-      - Commission Removal: commission-removal.md
-      - Companion Ads Removal: companion-ads-removal.md
-      - Renewing a subscription: renewing-subscription.md
-      - Cancelling a subscription: cancelling-subscription.md
-      - Proration: proration.md
-      - Payment failed: payment-failed.md
+      - Branding Removal: support/billing/branding-removal.md
+      - Commission Removal: support/billing/commission-removal.md
+      - Companion Ads Removal: support/billing/companion-ads-removal.md
+      - Renewing a subscription: support/billing/renewing-subscription.md
+      - Cancelling a subscription: support/billing/cancelling-subscription.md
+      - Proration: support/billing/proration.md
+      - Payment failed: support/billing/payment-failed.md
+    - Monetization:
+      - Overview: support/monetization/index.md
+      - How can I show ads in my app?: support/monetization/ads-in-app.md
+      - Monetization guidelines: support/monetization/guidelines.md
+      - My app has been approved, but still the ads are not showing: support/monetization/approved-but-no-ads.md
+      - I have the app on the Google Play Store. Does my app require approva for showing ads?: support/monetization/google-play-approval.md
+      - I have the app on the Google Play Store. But ads are not showing in the built APK.: support/monetization/google-play-not-showing.md
+      - Do I need to get the app approved again, if I import a saved .aia copy of the same app from my computer?: support/monetization/aia-re-approval.md
+
 
 
 # Google Analyitcs
