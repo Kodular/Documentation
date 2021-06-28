@@ -359,6 +359,15 @@ nav:
     - Variables: blocks/variables.md
     - Procedures: blocks/procedures.md
     - Any Component: blocks/any-component.md
+  - Support:
+    - Overview: support/index.md
+    - Account:
+      - Overview: support/account/index.md
+      - How to login into Kodular?: support/account/how-to-login.md
+      - I cannot use my 2FA codes, what can I do?: support/account/2fa-recovery.md
+      - Delete my Kodular Account: support/account/delete-account.md
+      - How to remove a credit/debit card from my account?: support/account/remove-payment-method.md
+      - How can I change my payment method?: support/account/change-payment-method.md
 
 
 # Google Analyitcs
