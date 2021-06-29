@@ -11,6 +11,7 @@
 A non-visible component that manages the WiFi settings of the device.
 
 ??? example "Permissions"
+    * [android.permission.ACCESS_FINE_LOCATION](https://developer.android.com/reference/android/Manifest.permission.html#ACCESS_FINE_LOCATION)
     * [android.permission.CHANGE_WIFI_STATE](https://developer.android.com/reference/android/Manifest.permission.html#CHANGE_WIFI_STATE)
     * [android.permission.INTERNET](https://developer.android.com/reference/android/Manifest.permission.html#INTERNET)
     * [android.permission.ACCESS_WIFI_STATE](https://developer.android.com/reference/android/Manifest.permission.html#ACCESS_WIFI_STATE)

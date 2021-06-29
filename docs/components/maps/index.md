@@ -5,5 +5,6 @@
 * [Line String](line-string.md)
 * [Map](map.md)
 * [Marker](marker.md)
+* [Navigation](navigation.md)
 * [Polygon](polygon.md)
 * [Rectangle](rectangle.md)

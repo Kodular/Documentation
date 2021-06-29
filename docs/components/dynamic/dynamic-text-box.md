@@ -4,7 +4,7 @@
 
 | Category | Requires | Version |
 |:--------:|:-------:|:--------:|
-|**Dynamic Components**|<span class="chip chip-any">API 19, Android 4.4 - 4.4.4 KitKat</span>|<span class="chip chip-number">3</span>|
+|**Dynamic Components**|<span class="chip chip-any">API 19, Android 4.4 - 4.4.4 KitKat</span>|<span class="chip chip-number">4</span>|
 
 ## Overview
 
@@ -41,18 +41,6 @@ Create a Dynamic TextBox
 Remove a textbox component with the given id.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Text%20Box%22,%20%22name%22:%20%22Delete%20Text%20Box%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22id%22%5D%7D"></div>
-
-| Params | []() |
-|--------|------|
-|id|<span class="chip chip-number">Number</span>|
-
-### Get Button By Id
-
-<span class="chip chip-component">Returns: <i>Component</i></span>
-
-Returns the button referenced by its id.
-
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Text%20Box%22,%20%22name%22:%20%22Get%20Button%20By%20Id%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22id%22%5D%7D"></div>
 
 | Params | []() |
 |--------|------|
@@ -101,6 +89,18 @@ Get the Height of a TextBox
 Get the Text of a TextBox
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Text%20Box%22,%20%22name%22:%20%22Get%20Text%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22id%22%5D%7D"></div>
+
+| Params | []() |
+|--------|------|
+|id|<span class="chip chip-number">Number</span>|
+
+### Get Text Box By Id
+
+<span class="chip chip-component">Returns: <i>Component</i></span>
+
+Returns the textbox referenced by its id.
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Text%20Box%22,%20%22name%22:%20%22Get%20Text%20Box%20By%20Id%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22id%22%5D%7D"></div>
 
 | Params | []() |
 |--------|------|

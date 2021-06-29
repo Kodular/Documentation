@@ -2,7 +2,6 @@
 
 * [Cloudinary](cloudinary.md)
 * [File](file.md)
-* [Fusiontables Control](fusiontables-control.md)
 * [Spreadsheet](spreadsheet.md)
 * [SQLite](sqlite.md)
 * [Tiny DB](tiny-db.md)

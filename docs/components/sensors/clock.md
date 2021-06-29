@@ -12,7 +12,7 @@ Non-visible component that provides the instant in time using the internal clock
 
  
 
-Methods to convert an instant to text are also available. Acceptable patterns are empty string, MM/DD/YYYY HH:<span>MM</span>:ss a, or MMM d, yyyyHH:mm. The empty string will provide the default format, which is "MMM d, yyyy HH:<span>MM</span>:ss a" for FormatDateTime "MMM d, yyyy" for FormatDate. To see all possible format, please see <a _target="_blank" href="https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html">here</a>.
+Methods to convert an instant to text are also available. Acceptable patterns are empty string, MM/DD/YYYY HH:mm:ss a, or MMM d, yyyyHH:mm. The empty string will provide the default format, which is "MMM d, yyyy HH:mm:ss a" for FormatDateTime "MMM d, yyyy" for FormatDate. To see all possible format, please see <a _target="_blank" href="https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html">here</a>.
 
 ## Events
 
@@ -294,7 +294,7 @@ Valid values for the month field are 1-12 and 1-31 for the day field.
 
 <span class="chip chip-unknown">Returns: <i>Instantintime</i></span>
 
-An instant in time specified by MM/dd/YYYY hh:<span>MM</span>:ss or MM/dd/YYYY or hh:mm
+An instant in time specified by MM/dd/YYYY hh:mm:ss or MM/dd/YYYY or hh:mm
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Clock%22,%20%22name%22:%20%22Make%20Instant%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22from%22%5D%7D"></div>
 
@@ -336,7 +336,7 @@ Valid values for the month field are 1-12 and 1-31 for the day field.
 
 <span class="chip chip-unknown">Returns: <i>Instantintime</i></span>
 
-Allows the user to set the time of the clock - Valid format is hh:<span>MM</span>:ss
+Allows the user to set the time of the clock - Valid format is hh:mm:ss
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Clock%22,%20%22name%22:%20%22Make%20Time%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22hour%22,%20%22minute%22,%20%22second%22%5D%7D"></div>
 

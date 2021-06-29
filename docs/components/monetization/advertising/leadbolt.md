@@ -119,6 +119,8 @@ Use this block after LoadRewardedAd to show the loaded ad.
 
 ### Interstitial Commission
 
+:warning: ==**Deprecated**==
+
 <span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span> <span class="chip chip-text">Default: <i>unity</i></span> :heavy_minus_sign: <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
 
 Sets the ad network used to take the commission.
@@ -126,6 +128,8 @@ Sets the ad network used to take the commission.
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22LeadBolt%22,%20%22name%22:%20%22Interstitial%20Commission%22,%20%22getter%22:%20false%7D"></div>
 
 ### Rewarded Video Commission
+
+:warning: ==**Deprecated**==
 
 <span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span> <span class="chip chip-text">Default: <i>unity</i></span> :heavy_minus_sign: <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
 

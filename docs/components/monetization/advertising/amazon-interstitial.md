@@ -113,6 +113,8 @@ For debugging / development purposes flag all ad requests as tests, but set to f
 
 ### Interstitial Commission
 
+:warning: ==**Deprecated**==
+
 <span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span> <span class="chip chip-text">Default: <i>unity</i></span> :heavy_minus_sign: <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
 
 Sets the ad network used to take the commission.

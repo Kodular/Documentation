@@ -203,7 +203,7 @@ Returns right margin
 
 <span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span> <span class="chip chip-text">Default: <i>add</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
 
-Use a material icon for the fab without uploading a image resource into your project. You can find the icon name (or code) here at https://material.io/icons
+Use a 'Material' icon for the fab without uploading a image resource into your project. You can find the icon name here at https://material.io/resources/icons
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Floating%20Action%20Button%22,%20%22name%22:%20%22Material%20Icon%20Name%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Floating%20Action%20Button%22,%20%22name%22:%20%22Material%20Icon%20Name%22,%20%22getter%22:%20false%7D"></div>

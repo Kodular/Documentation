@@ -13,4 +13,5 @@
 * [LeadBolt](leadbolt.md)
 * [StartApp Banner](startapp-banner.md)
 * [StartApp Interstitial](startapp-interstitial.md)
+* [Unity Ads Banner](unity-ads-banner.md)
 * [Unity Ads Interstitial](unity-ads-interstitial.md)

@@ -83,7 +83,7 @@ Appends text to the end of a file storage, creating the file if it does not exis
 
 ### Copy
 
-Copy file
+Copy a file. If input path started with two // (slashes) then it's a asset file. You can not copy a file into the assets directory.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22File%22,%20%22name%22:%20%22Copy%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22input%22,%20%22output%22%5D%7D"></div>
 
@@ -116,7 +116,7 @@ Deletes a file from storage. Prefix the filename with / to delete a specific fil
 
 <span class="chip chip-boolean">Returns: <i>Boolean</i></span>
 
-Check whether a file exists
+Check whether a file exists. If file path started with two // (slashes) then it means you would check if a asset file exists.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22File%22,%20%22name%22:%20%22Exists%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22file%22%5D%7D"></div>
 
@@ -200,7 +200,7 @@ Check whether the path is a file
 
 <span class="chip chip-boolean">Returns: <i>Boolean</i></span>
 
-Move file
+Move a file. You can not move asset files.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22File%22,%20%22name%22:%20%22Move%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22input%22,%20%22output%22%5D%7D"></div>
 

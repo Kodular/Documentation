@@ -578,7 +578,7 @@ Set the options menu icon color.
 
 <span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span> :heavy_minus_sign: <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span></span>
 
-Set a custom PackageName for the app
+Set a custom PackageName for the app. Min 8 chars, max 35 chars, min 3 words, max 5 words, no special chars, only ASCII a-z and dots for separators
 
 ### Primary Color / Title Bar
 

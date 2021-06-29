@@ -80,7 +80,7 @@ Specifies the component's vertical height as a percentageof the height of its pa
 
 <span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> :heavy_minus_sign: <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Blocks</span></span>
 
-Select a page which is then the active page.
+Select a page which is then the active page. Use '1' to select the first page.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22View%20Pager%22,%20%22name%22:%20%22Select%20Page%22,%20%22getter%22:%20false%7D"></div>
 

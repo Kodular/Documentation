@@ -10,7 +10,7 @@
 
 TinyDB is a non-visible component that stores data for an app. 
 
- Apps created with App Inventor are initialized each time they run: If an app sets the value of a variable and the user then quits the app, the value of that variable will not be remembered the next time the app is run. In contrast, TinyDB is a _ persistent _ data store for the app, that is, the data stored there will be available each time the app is run. An example might be a game that saves the high score and retrieves it each time the game is played. <!--<p--> 
+ Apps created with Kodular are initialized each time they run: If an app sets the value of a variable and the user then quits the app, the value of that variable will not be remembered the next time the app is run. In contrast, TinyDB is a _ persistent _ data store for the app, that is, the data stored there will be available each time the app is run. An example might be a game that saves the high score and retrieves it each time the game is played. <!--<p--> 
 
  Data items are strings stored under _tags_ . To store a data item, you specify the tag it should be stored under. Subsequently, you can retrieve the data that was stored under a given tag. 
 
@@ -38,6 +38,14 @@ Clear the entry with the given tag
 |--------|------|
 |tag|<span class="chip chip-text">Text</span>|
 
+### Get Entries
+
+<span class="chip chip-unknown">Returns: <i>Dictionary</i></span>
+
+Retrieves all data entries of TinyDB in form of Dictionaries
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Tiny%20DB%22,%20%22name%22:%20%22Get%20Entries%22,%20%22output%22:%20true,%20%22param%22:%20%5B%5D%7D"></div>
+
 ### Get Tags
 
 <span class="chip chip-any">Returns: <i>Any</i></span>
@@ -45,14 +53,6 @@ Clear the entry with the given tag
 Return a list of all the tags in the data store
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Tiny%20DB%22,%20%22name%22:%20%22Get%20Tags%22,%20%22output%22:%20true,%20%22param%22:%20%5B%5D%7D"></div>
-
-### Get Entries
-
-<span class="chip chip-any">Returns: <i>Dictionaries</i></span>
-
-Retrives all data entries in TinyDB in form of Dictionaries
-
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Tiny%20DB%22,%20%22name%22:%20%22Get%20Entries%22,%20%22output%22:%20true,%20%22param%22:%20%5B%5D%7D"></div>
 
 ### Get Value
 

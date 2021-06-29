@@ -8,7 +8,6 @@
 * [Decoration](decoration.md)
 * [Device Utilities](device-utilities.md)
 * [Image Utilities](image-utilities.md)
-* [JSON](json.md)
 * [Keyguard Manager](keyguard-manager.md)
 * [Package Utilities](package-utilities.md)
 * [Resource Utilities](resource-utilities.md)
