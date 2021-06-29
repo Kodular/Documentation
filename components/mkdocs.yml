@@ -87,6 +87,7 @@
     - Line String: components/maps/line-string.md
     - Map: components/maps/map.md
     - Marker: components/maps/marker.md
+    - Navigation: components/maps/navigation.md
     - Polygon: components/maps/polygon.md
     - Rectangle: components/maps/rectangle.md
   - Sensors:
@@ -122,7 +123,6 @@
     - Overview: components/storage/index.md
     - Cloudinary: components/storage/cloudinary.md
     - File: components/storage/file.md
-    - Fusiontables Control: components/storage/fusiontables-control.md
     - Spreadsheet: components/storage/spreadsheet.md
     - SQLite: components/storage/sqlite.md
     - Tiny DB: components/storage/tiny-db.md
@@ -137,7 +137,6 @@
     - Decoration: components/utilities/decoration.md
     - Device Utilities: components/utilities/device-utilities.md
     - Image Utilities: components/utilities/image-utilities.md
-    - JSON: components/utilities/json.md
     - Keyguard Manager: components/utilities/keyguard-manager.md
     - Package Utilities: components/utilities/package-utilities.md
     - Resource Utilities: components/utilities/resource-utilities.md
@@ -196,6 +195,7 @@
       - LeadBolt: components/monetization/advertising/leadbolt.md
       - StartApp Banner: components/monetization/advertising/startapp-banner.md
       - StartApp Interstitial: components/monetization/advertising/startapp-interstitial.md
+      - Unity Ads Banner: components/monetization/advertising/unity-ads-banner.md
       - Unity Ads Interstitial: components/monetization/advertising/unity-ads-interstitial.md
   - LEGO® MINDSTORMS®:
     - Overview: components/lego-mindstorms/index.md

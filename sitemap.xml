@@ -526,6 +526,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://docs.kodular.io/components/maps/navigation/</loc>
+         <lastmod>2021-06-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://docs.kodular.io/components/maps/polygon/</loc>
          <lastmod>2021-06-29</lastmod>
          <changefreq>daily</changefreq>
@@ -692,6 +697,11 @@
     </url>
     <url>
          <loc>https://docs.kodular.io/components/monetization/advertising/startapp-interstitial/</loc>
+         <lastmod>2021-06-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.kodular.io/components/monetization/advertising/unity-ads-banner/</loc>
          <lastmod>2021-06-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
