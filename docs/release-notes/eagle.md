@@ -1248,3 +1248,13 @@ Parity components will not be available in the Palette and are meant only to sup
 * [Fix ghost dropdown when switching logic blocks to external inputs.](https://github.com/mit-cml/appinventor-sources/commit/0968f5615e75fb57f20f25e846e3a0ed63e800f9)
 
 * [Fix flyout interaction breaking edits on mobile.](https://github.com/mit-cml/appinventor-sources/commit/3ca10de1075c99b01eb12ed765731cae49dee16d)
+
+## 1.4D.1 Eagle | 04 September 2020
+
+### Bugs Fixed
+
+* Fixed **package name validator**, causing some packages to be flagged as invalid
+
+* Fixed some extensions to cause **build failures**
+
+* Some other minor bugs addressed
