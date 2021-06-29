@@ -40,7 +40,6 @@ theme:
   features:
     # - navigation.instant
     - navigation.tabs
-    - navigation.top
     - search.highlight
   palette:
     - scheme: default
