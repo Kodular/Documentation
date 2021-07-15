@@ -2,7 +2,7 @@
 site_name: Kodular Docs
 site_description: Kodular Documentation
 site_author: Kodular
-site_url: https://docs-adm.kodular.io/
+site_url: https://docs.kodular.io/
 
 # Dev
 dev_addr: '127.0.0.1:8008'
