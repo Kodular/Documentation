@@ -15,6 +15,10 @@ A non-visible component that shows AdColony ads as full-screen advertisements.
     * [android.permission.ACCESS_NETWORK_STATE](https://developer.android.com/reference/android/Manifest.permission.html#ACCESS_NETWORK_STATE)
     * [android.permission.VIBRATE](https://developer.android.com/reference/android/Manifest.permission.html#VIBRATE)
 
+!!! info "Commission"
+    **Type:** Fixed Rate
+    **Value:** `8%`
+
 ## Events
 
 ### Ad Expiring

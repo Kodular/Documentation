@@ -60,7 +60,6 @@
     - Audio Picker: components/media/audio-picker.md
     - Camcorder: components/media/camcorder.md
     - Camera: components/media/camera.md
-    - ExoPlayer: components/media/exoplayer.md
     - Image Picker: components/media/image-picker.md
     - Metadata: components/media/metadata.md
     - OCR: components/media/ocr.md
@@ -172,7 +171,7 @@
     - Google Account Picker: components/google/google-account-picker.md
     - Google Maps: components/google/google-maps.md
     - Google Play Games: components/google/google-play-games.md
-    - Youtube Player: components/google/youtube-player.md
+    - Google reCaptcha: components/google/google-recaptcha.md
   - Monetization:
     - Overview: components/monetization/index.md
     - General:
@@ -189,10 +188,13 @@
       - Amazon Banner: components/monetization/advertising/amazon-banner.md
       - Amazon Interstitial: components/monetization/advertising/amazon-interstitial.md
       - AppLovin Interstitial: components/monetization/advertising/applovin-interstitial.md
+      - Banner Ad: components/monetization/advertising/banner-ad.md
       - Facebook Banner: components/monetization/advertising/facebook-banner.md
       - Facebook Interstitial: components/monetization/advertising/facebook-interstitial.md
       - Facebook Rewarded Video: components/monetization/advertising/facebook-rewarded-video.md
+      - Interstitial Ad: components/monetization/advertising/interstitial-ad.md
       - LeadBolt: components/monetization/advertising/leadbolt.md
+      - Rewarded Ad: components/monetization/advertising/rewarded-ad.md
       - StartApp Banner: components/monetization/advertising/startapp-banner.md
       - StartApp Interstitial: components/monetization/advertising/startapp-interstitial.md
       - Unity Ads Banner: components/monetization/advertising/unity-ads-banner.md
@@ -222,6 +224,8 @@
     - Overview: components/experimental/index.md
     - CloudDB: components/experimental/clouddb.md
     - Custom Tabs: components/experimental/custom-tabs.md
+    - ExoPlayer: components/experimental/exoplayer.md
     - In-App Update: components/experimental/in-app-update.md
     - Notification: components/experimental/notification.md
     - Shortcut Badge: components/experimental/shortcut-badge.md
+    - Youtube Player: components/experimental/youtube-player.md

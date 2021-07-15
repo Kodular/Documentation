@@ -4,7 +4,7 @@
 
 | Category | Requires | Version |
 |:--------:|:-------:|:--------:|
-|**Monetization > General**|<span class="chip chip-any">API 19, Android 4.4 - 4.4.4 KitKat</span>|<span class="chip chip-number">1</span>|
+|**Monetization > General**|<span class="chip chip-any">API 19, Android 4.4 - 4.4.4 KitKat</span>|<span class="chip chip-number">2</span>|
 
 ## Overview
 
@@ -25,6 +25,17 @@ After purchase event.
 | Params | []() |
 |--------|------|
 |product Id|<span class="chip chip-text">Text</span>|
+
+### Consumed
+
+When product is consumed.
+
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22In%20App%20Billing%22,%20%22name%22:%20%22Consumed%22,%20%22param%22:%20%5B%22success%22,%20%22sku%22%5D%7D"></div>
+
+| Params | []() |
+|--------|------|
+|success|<span class="chip chip-boolean">Boolean</span>|
+|sku|<span class="chip chip-text">Text</span>|
 
 ### Error Occurred
 
@@ -82,15 +93,13 @@ Got Subscription Details
 
 ### Consume
 
-:warning: ==**Deprecated**==
+Consumes a purchase to enable users to buy it again.
 
-Do not use this block anymore. This block is deprecated and does nothing and will be removed in the future!
-
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22In%20App%20Billing%22,%20%22name%22:%20%22Consume%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22product%20Id%22%5D%7D"></div>
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22In%20App%20Billing%22,%20%22name%22:%20%22Consume%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22sku%22%5D%7D"></div>
 
 | Params | []() |
 |--------|------|
-|product Id|<span class="chip chip-text">Text</span>|
+|sku|<span class="chip chip-text">Text</span>|
 
 ### Initialize
 
@@ -212,6 +221,14 @@ Is one time purchase supported.
 Is subscription update supported.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22In%20App%20Billing%22,%20%22name%22:%20%22Is%20Subscription%20Update%20Supported%22,%20%22getter%22:%20true%7D"></div>
+
+### Is Subscriptions Supported
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-boolean">Boolean</span> :heavy_minus_sign: <span class="chip chip-rw">Read</span>  - <span class="chip chip-bd">Blocks</span></span>
+
+Is subscriptions supported.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22In%20App%20Billing%22,%20%22name%22:%20%22Is%20Subscriptions%20Supported%22,%20%22getter%22:%20true%7D"></div>
 
 ### Ready To Purchase
 

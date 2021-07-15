@@ -13,10 +13,10 @@ Top-level component containing all other components in the program.
     * [android.permission.ACCESS_NETWORK_STATE](https://developer.android.com/reference/android/Manifest.permission.html#ACCESS_NETWORK_STATE)
     * [android.permission.ACCESS_WIFI_STATE](https://developer.android.com/reference/android/Manifest.permission.html#ACCESS_WIFI_STATE)
 
-Screen is the top-most component in any app. All the other components are placed on a Screen.
+    Screen is the top-most component in any app. All the other components are placed on a Screen.
 
-If you take the app as a book, the Screens can be regarded as the pages of a book and the other components as
-the various elements present on a page of a book, text, images etc.
+    If you take the app as a book, the Screens can be regarded as the pages of a book and the other components as
+    the various elements present on a page of a book, text, images etc.
 
 ![screen-book-analogy](/assets/images/components/screen/screen-book-analogy.png)
 
@@ -387,6 +387,10 @@ Define the title of the about application option.
 
 This is the accent color used for highlights and other user interface accents.
 
+### Accepted Shared File Types
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span> :heavy_minus_sign: <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span></span>
+
 ### Align Horizontal
 
 <span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>1</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
@@ -521,7 +525,7 @@ Keep the device's screen turned on and bright.
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Screen%22,%20%22name%22:%20%22Keep%20Screen%20On%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Screen%22,%20%22name%22:%20%22Keep%20Screen%20On%22,%20%22getter%22:%20false%7D"></div>
 
-### Min SDK (Min. Android Version)
+### Minimum SDK Level
 
 <small>Available as ^^Advanced^^ Property</small>
 
@@ -580,21 +584,17 @@ Set the options menu icon color.
 
 Set a custom PackageName for the app. Min 8 chars, max 35 chars, min 3 words, max 5 words, no special chars, only ASCII a-z and dots for separators
 
-### Primary Color / Title Bar
+### Primary Color
 
 <span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-color">Color</span> <span class="chip chip-color">Default: <i>#3F51B5FF</i>&nbsp;<span style="width: 15px; height: 15px; margin: auto; display: inline-block; border: 1px solid white; vertical-align: middle; border-radius: 3px; background-color: #3F51B5;"></span></span> :heavy_minus_sign: <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span></span>
 
 This is the primary color used for Material UI elements, such as the ActionBar.
 
-### Primary Color Dark / Status Bar
+### Primary Color Dark
 
 <span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-color">Color</span> <span class="chip chip-color">Default: <i>#303F9FFF</i>&nbsp;<span style="width: 15px; height: 15px; margin: auto; display: inline-block; border: 1px solid white; vertical-align: middle; border-radius: 3px; background-color: #303F9F;"></span></span> :heavy_minus_sign: <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span></span>
 
 This is the primary color used for darker elements in Material UI.
-
-### Receive Shared Files
-
-<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span> :heavy_minus_sign: <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span></span>
 
 ### RTL Support
 
@@ -667,19 +667,19 @@ If true it will show in the TitleBar a back button only if no side menu was adde
 
 If set to fixed, screen layouts will be created for a single fixed-size screen and autoscaled. If set to responsive, screen layouts will use the actual resolution of the device. See the documentation on responsive design in App Inventor for more information. This property appears on Screen1 only and controls the sizing for all screens in the app.
 
-### Splash Enabled
+### Splash Image
+
+<small>Available as ^^Advanced^^ Property</small>
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span> :heavy_minus_sign: <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span></span>
+
+### Splash Screen
 
 <small>Available as ^^Advanced^^ Property</small>
 
 <span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span> :heavy_minus_sign: <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span></span>
 
 If set to true the user will see a splash screen while the app is loading the content.
-
-### Splash Image
-
-<small>Available as ^^Advanced^^ Property</small>
-
-<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span> :heavy_minus_sign: <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span></span>
 
 ### Status Bar Color
 

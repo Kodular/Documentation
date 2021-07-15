@@ -7,4 +7,4 @@
 * [Google Account Picker](google-account-picker.md)
 * [Google Maps](google-maps.md)
 * [Google Play Games](google-play-games.md)
-* [Youtube Player](youtube-player.md)
+* [Google reCaptcha](google-recaptcha.md)

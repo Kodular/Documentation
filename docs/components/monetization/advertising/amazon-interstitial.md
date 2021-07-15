@@ -17,6 +17,10 @@ An interstitial ad is a full-page ad. AdAmazonInterstitial component allows you 
     * [android.permission.ACCESS_NETWORK_STATE](https://developer.android.com/reference/android/Manifest.permission.html#ACCESS_NETWORK_STATE)
     * [android.permission.ACCESS_WIFI_STATE](https://developer.android.com/reference/android/Manifest.permission.html#ACCESS_WIFI_STATE)
 
+!!! info "Commission"
+    **Type:** Fixed Rate
+    **Value:** `9%`
+
 ## Events
 
 ### Ad Closed

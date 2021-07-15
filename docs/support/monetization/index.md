@@ -1,5 +1,9 @@
 # Overview <small> of Monetizing apps</small>
 
+!!! note "Kodular / Ad Manager monetization"
+    If you are looking for help regarding our integration with Google Ad Manager, please head to the
+    specific section: [Ad Manager help](../adm/index.md)
+
 * [How can I show ads in my app?](ads-in-app.md)
 * [Monetization guidelines](guidelines.md)
 * [My app has been approved, but still the ads are not showing](approved-but-no-ads.md)

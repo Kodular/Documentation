@@ -16,6 +16,10 @@ A non-visible component that shows AdMob ads as full-screen video where users re
     * [android.permission.INTERNET](https://developer.android.com/reference/android/Manifest.permission.html#INTERNET)
     * [android.permission.ACCESS_NETWORK_STATE](https://developer.android.com/reference/android/Manifest.permission.html#ACCESS_NETWORK_STATE)
 
+!!! info "Commission"
+    **Type:** Fixed Rate
+    **Value:** `13%`
+
 ## Events
 
 ### Ad Closed

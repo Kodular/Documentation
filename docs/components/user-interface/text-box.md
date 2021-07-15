@@ -273,6 +273,14 @@ Please delete this block from your project.This block is deprecated and not long
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Text%20Box%22,%20%22name%22:%20%22Line%20Color%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Text%20Box%22,%20%22name%22:%20%22Line%20Color%22,%20%22getter%22:%20false%7D"></div>
 
+### Max Lines
+
+<small>Available as ^^Advanced^^ Property</small>
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>2147483647</i></span> :heavy_minus_sign: <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Text%20Box%22,%20%22name%22:%20%22Max%20Lines%22,%20%22getter%22:%20false%7D"></div>
+
 ### Multiline
 
 <span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>False</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>

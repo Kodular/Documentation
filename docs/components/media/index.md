@@ -3,7 +3,6 @@
 * [Audio Picker](audio-picker.md)
 * [Camcorder](camcorder.md)
 * [Camera](camera.md)
-* [ExoPlayer](exoplayer.md)
 * [Image Picker](image-picker.md)
 * [Metadata](metadata.md)
 * [OCR](ocr.md)

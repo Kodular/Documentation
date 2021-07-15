@@ -16,6 +16,10 @@ An interstitial ad is a full-page ad. AdMobInterstitial component allows you to 
     * [android.permission.INTERNET](https://developer.android.com/reference/android/Manifest.permission.html#INTERNET)
     * [android.permission.ACCESS_NETWORK_STATE](https://developer.android.com/reference/android/Manifest.permission.html#ACCESS_NETWORK_STATE)
 
+!!! info "Commission"
+    **Type:** Fixed Rate
+    **Value:** `10%`
+
 ## Events
 
 ### Ad Closed

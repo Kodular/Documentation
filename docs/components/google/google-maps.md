@@ -2,7 +2,7 @@
 
 | Category | Requires | Version |
 |:--------:|:-------:|:--------:|
-|**Google**|<span class="chip chip-any">API 19, Android 4.4 - 4.4.4 KitKat</span>|<span class="chip chip-number">4</span>|
+|**Google**|<span class="chip chip-any">API 19, Android 4.4 - 4.4.4 KitKat</span>|<span class="chip chip-number">5</span>|
 
 ## Overview
 
@@ -541,6 +541,12 @@ Update any polyline with the given id. You can change the property values for 'w
 |points|<span class="chip chip-any">Any</span>|
 
 ## Properties
+
+### API Key
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span> :heavy_minus_sign: <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span></span>
+
+Get the API Key
 
 ### Camera Angle
 

@@ -4,11 +4,11 @@
 
 | Category | Requires | Version |
 |:--------:|:-------:|:--------:|
-|**Storage**|<span class="chip chip-any">API 19, Android 4.4 - 4.4.4 KitKat</span>|<span class="chip chip-number">5</span>|
+|**Storage**|<span class="chip chip-any">API 19, Android 4.4 - 4.4.4 KitKat</span>|<span class="chip chip-number">6</span>|
 
 ## Overview
 
-Non-visible component for storing and retrieving files. Use this component to write or read files on your device. The default behaviour is to write files to the private data directory associated with your App. The Companion is special cased to write files to /sdcard/Makeroid/data to facilitate debugging. If the file path starts with a slash (/), then the file is created relative to /sdcard. For example writing a file to /myFile.txt will write the file in /sdcard/myFile.txt.
+Non-visible component for storing and retrieving files. Use this component to write or read files on your device. The default behaviour is to write files to the private data directory associated with your App. The Companion is special cased to write files to /sdcard/Kodular/data to facilitate debugging. If the file path starts with a slash (/), then the file is created relative to /sdcard. For example writing a file to /myFile.txt will write the file in /sdcard/myFile.txt.
 
 ??? example "Permissions"
     * [android.permission.READ_EXTERNAL_STORAGE](https://developer.android.com/reference/android/Manifest.permission.html#READ_EXTERNAL_STORAGE)
@@ -254,3 +254,14 @@ Create a zip file with or without a password.
 |target Path|<span class="chip chip-text">Text</span>|
 |destination File Path|<span class="chip chip-text">Text</span>|
 |password|<span class="chip chip-text">Text</span>|
+
+## Properties
+
+### Legacy Mode
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>False</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
+
+Allows app to access files from the root of the external storage directory (legacy mode).
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22File%22,%20%22name%22:%20%22Legacy%20Mode%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22File%22,%20%22name%22:%20%22Legacy%20Mode%22,%20%22getter%22:%20false%7D"></div>

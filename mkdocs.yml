@@ -2,11 +2,14 @@
 site_name: Kodular Docs
 site_description: Kodular Documentation
 site_author: Kodular
-site_url: https://docs.kodular.io/
+site_url: https://docs-adm.kodular.io/
+
+# Dev
+dev_addr: '127.0.0.1:8008'
 
 # Repository
 repo_name: Kodular Docs
-repo_url: https://github.com/Kodular/Documentation
+repo_url: https://github.com/Kodular/Documentation-AdM
 edit_uri: blob/master/docs/
 
 #Copyright text in the footer
@@ -77,6 +80,9 @@ plugins:
   - minify:
       minify_html: true
   - git-revision-date-localized
+  - redirects:
+      redirect_maps:
+        support/adm/getting-started.md: guides/monetization.md
 
 markdown_extensions:
   - codehilite
@@ -100,6 +106,7 @@ markdown_extensions:
   - pymdownx.tasklist:
      custom_checkbox: true
   - pymdownx.tilde
+  - pymdownx.tabbed
 
 # Site navigation in the side bar
 nav:
@@ -113,6 +120,7 @@ nav:
       - Chamaeleon: release-notes/chamaeleon.md
       - Draco: release-notes/draco.md
       - Eagle: release-notes/eagle.md
+      - Fenix: release-notes/fenix.md
     - Terms of Service: terms-of-service.md
   - Guides:
     - Understanding Kodular: guides/index.md
@@ -133,6 +141,7 @@ nav:
     - Extensions:
       - Create Extensions: guides/extensions/create-extensions.md
     - Keyboard Shortcuts: guides/keyboard-shortcuts.md
+    - Monetization: guides/monetization.md
   - Components:
     - Overview: components/index.md
     - Screen: components/screen.md
@@ -195,7 +204,6 @@ nav:
       - Audio Picker: components/media/audio-picker.md
       - Camcorder: components/media/camcorder.md
       - Camera: components/media/camera.md
-      - ExoPlayer: components/media/exoplayer.md
       - Image Picker: components/media/image-picker.md
       - Metadata: components/media/metadata.md
       - OCR: components/media/ocr.md
@@ -307,7 +315,7 @@ nav:
       - Google Account Picker: components/google/google-account-picker.md
       - Google Maps: components/google/google-maps.md
       - Google Play Games: components/google/google-play-games.md
-      - Youtube Player: components/google/youtube-player.md
+      - Google reCaptcha: components/google/google-recaptcha.md
     - Monetization:
       - Overview: components/monetization/index.md
       - General:
@@ -317,6 +325,9 @@ nav:
         - Pollfish: components/monetization/general/pollfish.md
       - Advertising:
         - Overview: components/monetization/advertising/index.md
+        - Banner Ad: components/monetization/advertising/banner-ad.md
+        - Interstitial Ad: components/monetization/advertising/interstitial-ad.md
+        - Rewarded Ad: components/monetization/advertising/rewarded-ad.md
         - AdColony Interstitial: components/monetization/advertising/adcolony-interstitial.md
         - AdMob Banner: components/monetization/advertising/admob-banner.md
         - AdMob Interstitial: components/monetization/advertising/admob-interstitial.md
@@ -357,9 +368,11 @@ nav:
       - Overview: components/experimental/index.md
       - CloudDB: components/experimental/clouddb.md
       - Custom Tabs: components/experimental/custom-tabs.md
+      - ExoPlayer: components/experimental/exoplayer.md
       - In-App Update: components/experimental/in-app-update.md
       - Notification: components/experimental/notification.md
       - Shortcut Badge: components/experimental/shortcut-badge.md
+      - Youtube Player: components/experimental/youtube-player.md
   - Blocks:
     - Overview: blocks/index.md
     - Control: blocks/control.md
@@ -390,6 +403,14 @@ nav:
       - Cancelling a subscription: support/billing/cancelling-subscription.md
       - Proration: support/billing/proration.md
       - Payment failed: support/billing/payment-failed.md
+    - Google Ad Manager:
+      - Overview: support/adm/index.md
+      - What is Google Ad Manager?: support/adm/intro.md
+      - How do I get invited to Kodular's new monetization program?: support/adm/apply.md
+      - How do I get started with Google Ad Manager components?: support/adm/getting-started.md
+      - How do I ensure GDPR compliance when using Google Ad Manager?: support/adm/gdpr.md
+      - How do I request a payout?: support/adm/payouts.md
+      - Why am I unable to withdraw my ad revenue?: support/adm/payouts-requirements.md
     - Monetization:
       - Overview: support/monetization/index.md
       - How can I show ads in my app?: support/monetization/ads-in-app.md

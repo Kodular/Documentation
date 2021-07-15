@@ -13,6 +13,10 @@ A visible component that shows StartApp ads as static banners.
     * [android.permission.ACCESS_NETWORK_STATE](https://developer.android.com/reference/android/Manifest.permission.html#ACCESS_NETWORK_STATE)
     * [android.permission.ACCESS_WIFI_STATE](https://developer.android.com/reference/android/Manifest.permission.html#ACCESS_WIFI_STATE)
 
+!!! info "Commission"
+    **Type:** Fixed Rate
+    **Value:** `5%`
+
 ## Events
 
 ### Ad Clicked
