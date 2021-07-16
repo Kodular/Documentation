@@ -75,7 +75,7 @@ that have been moved:*
 
 - **Google Maps** <small>Google</small>  
     - Added **`API Key`** property. <small>App Settings Modal</small>  
-![image|606x135](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/2/2/22ac1602023e20448a2b4797096af1c304f3d3a4.png)
+![image|606x135](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/9/1/9128e719ef7b6492fde8c4d7d6c01cdb267f14de.png)
 
 - **AdMob Banner** <small>Monetization > Advertising</small>  
     - Added **`App ID`** property. <small>App Settings Modal</small>  
