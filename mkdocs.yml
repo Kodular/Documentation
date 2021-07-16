@@ -12,9 +12,8 @@ repo_name: Kodular Docs
 repo_url: https://github.com/Kodular/Documentation
 edit_uri: blob/master/docs/
 
-#Copyright text in the footer
-copyright: Kodular Creator
-copyright2: Junnovate, LLC &copy; 2020
+# Copyright text in the footer
+copyright: Kodular Creator &copy; Junnovate, LLC
 
 # Customization
 extra:
@@ -36,13 +35,18 @@ extra:
   analytics:
     provider: google
     property: UA-102230060-7
+  generator: false
+  consent: true
 
 # Material theme for MkDocs : https://github.com/squidfunk/mkdocs-material/
 theme:
   name: 'material'
   features:
+    - content.tabs.link
     # - navigation.instant
+    - navigation.indexes
     - navigation.tabs
+    - navigation.tabs.sticky
     - search.highlight
   palette:
     - scheme: default
@@ -111,10 +115,10 @@ markdown_extensions:
 # Site navigation in the side bar
 nav:
   - Home:
-    - Overview: index.md
+    - index.md
     - Pricing: pricing.md
     - Release Notes:
-      - Overview: release-notes/index.md
+      - release-notes/index.md
       - Andromeda: release-notes/andromeda.md
       - Butterfly: release-notes/butterfly.md
       - Chamaeleon: release-notes/chamaeleon.md
@@ -128,7 +132,7 @@ nav:
     - Backpack: guides/backpack.md
     - Concept Cards: guides/concept-cards.md
     - Live Development:
-      - Overview: guides/live-development/index.md
+      - guides/live-development/index.md
       - Via WiFi: guides/live-development/wifi.md
       - Via USB: guides/live-development/usb.md
     - Component Guides:
@@ -143,10 +147,10 @@ nav:
     - Keyboard Shortcuts: guides/keyboard-shortcuts.md
     - Monetization: guides/monetization.md
   - Components:
-    - Overview: components/index.md
+    - components/index.md
     - Screen: components/screen.md
     - User Interface:
-      - Overview: components/user-interface/index.md
+      - components/user-interface/index.md
       - Button: components/user-interface/button.md
       - Checkbox: components/user-interface/checkbox.md
       - Circular Progress: components/user-interface/circular-progress.md
@@ -169,9 +173,9 @@ nav:
       - Text Box: components/user-interface/text-box.md
       - Time Picker: components/user-interface/time-picker.md
     - Layout:
-      - Overview: components/layout/index.md
+      - components/layout/index.md
       - General:
-        - Overview: components/layout/general/index.md
+        - components/layout/general/index.md
         - Card View: components/layout/general/card-view.md
         - Grid View: components/layout/general/grid-view.md
         - Horizontal Arrangement: components/layout/general/horizontal-arrangement.md
@@ -182,11 +186,11 @@ nav:
         - Vertical Arrangement: components/layout/general/vertical-arrangement.md
         - Vertical Scroll Arrangement: components/layout/general/vertical-scroll-arrangement.md
       - Lists:
-        - Overview: components/layout/lists/index.md
+        - components/layout/lists/index.md
         - List View: components/layout/lists/list-view.md
         - List View Image and Text: components/layout/lists/list-view-image-and-text.md
       - Views:
-        - Overview: components/layout/views/index.md
+        - components/layout/views/index.md
         - Bottom Sheet: components/layout/views/bottom-sheet.md
         - Chat View: components/layout/views/chat-view.md
         - Gallery Viewer: components/layout/views/gallery-viewer.md
@@ -194,13 +198,13 @@ nav:
         - View Flipper: components/layout/views/view-flipper.md
         - Web Viewer: components/layout/views/web-viewer.md
       - Navigation:
-        - Overview: components/layout/navigation/index.md
+        - components/layout/navigation/index.md
         - Bottom Navigation: components/layout/navigation/bottom-navigation.md
         - Side Menu Layout: components/layout/navigation/side-menu-layout.md
         - Tab Layout: components/layout/navigation/tab-layout.md
         - View Pager: components/layout/navigation/view-pager.md
     - Media:
-      - Overview: components/media/index.md
+      - components/media/index.md
       - Audio Picker: components/media/audio-picker.md
       - Camcorder: components/media/camcorder.md
       - Camera: components/media/camera.md
@@ -217,14 +221,14 @@ nav:
       - Video Player: components/media/video-player.md
       - Yandex Translate: components/media/yandex-translate.md
     - Drawing and Animation:
-      - Overview: components/drawing-and-animation/index.md
+      - components/drawing-and-animation/index.md
       - Ball: components/drawing-and-animation/ball.md
       - Canvas: components/drawing-and-animation/canvas.md
       - Image Editor: components/drawing-and-animation/image-editor.md
       - Image Sprite: components/drawing-and-animation/image-sprite.md
       - Lottie: components/drawing-and-animation/lottie.md
     - Maps:
-      - Overview: components/maps/index.md
+      - components/maps/index.md
       - Circle: components/maps/circle.md
       - Feature Collection: components/maps/feature-collection.md
       - Line String: components/maps/line-string.md
@@ -234,7 +238,7 @@ nav:
       - Polygon: components/maps/polygon.md
       - Rectangle: components/maps/rectangle.md
     - Sensors:
-      - Overview: components/sensors/index.md
+      - components/sensors/index.md
       - Accelerometer Sensor: components/sensors/accelerometer-sensor.md
       - Barcode Scanner: components/sensors/barcode-scanner.md
       - Clock: components/sensors/clock.md
@@ -253,7 +257,7 @@ nav:
       - Sound Sensor: components/sensors/sound-sensor.md
       - Temperature Sensor: components/sensors/temperature-sensor.md
     - Social:
-      - Overview: components/social/index.md
+      - components/social/index.md
       - Contact Picker: components/social/contact-picker.md
       - Email Picker: components/social/email-picker.md
       - Phone Call: components/social/phone-call.md
@@ -263,7 +267,7 @@ nav:
       - Texting: components/social/texting.md
       - Twitter: components/social/twitter.md
     - Storage:
-      - Overview: components/storage/index.md
+      - components/storage/index.md
       - Cloudinary: components/storage/cloudinary.md
       - File: components/storage/file.md
       - Spreadsheet: components/storage/spreadsheet.md
@@ -271,7 +275,7 @@ nav:
       - Tiny DB: components/storage/tiny-db.md
       - Tiny Web DB: components/storage/tiny-web-db.md
     - Utilities:
-      - Overview: components/utilities/index.md
+      - components/utilities/index.md
       - Animation Utilities: components/utilities/animation-utilities.md
       - Audio: components/utilities/audio.md
       - Battery Utilities: components/utilities/battery-utilities.md
@@ -287,7 +291,7 @@ nav:
       - Shell: components/utilities/shell.md
       - Wallpaper: components/utilities/wallpaper.md
     - Dynamic Components:
-      - Overview: components/dynamic/index.md
+      - components/dynamic/index.md
       - Dynamic Button: components/dynamic/dynamic-button.md
       - Dynamic Card View: components/dynamic/dynamic-card-view.md
       - Dynamic Image: components/dynamic/dynamic-image.md
@@ -295,7 +299,7 @@ nav:
       - Dynamic Space: components/dynamic/dynamic-space.md
       - Dynamic Text Box: components/dynamic/dynamic-text-box.md
     - Connectivity:
-      - Overview: components/connectivity/index.md
+      - components/connectivity/index.md
       - Activity Starter: components/connectivity/activity-starter.md
       - Arduino: components/connectivity/arduino.md
       - Bluetooth Admin: components/connectivity/bluetooth-admin.md
@@ -307,7 +311,7 @@ nav:
       - Web: components/connectivity/web.md
       - WiFi: components/connectivity/wifi.md
     - Google:
-      - Overview: components/google/index.md
+      - components/google/index.md
       - Firebase Authentication: components/google/firebase-authentication.md
       - Firebase Database: components/google/firebase-database.md
       - Firebase Remote Config: components/google/firebase-remote-config.md
@@ -317,14 +321,14 @@ nav:
       - Google Play Games: components/google/google-play-games.md
       - Google reCaptcha: components/google/google-recaptcha.md
     - Monetization:
-      - Overview: components/monetization/index.md
+      - components/monetization/index.md
       - General:
-        - Overview: components/monetization/general/index.md
+        - components/monetization/general/index.md
         - In App Billing: components/monetization/general/in-app-billing.md
         - Kodular Donations: components/monetization/general/kodular-donations.md
         - Pollfish: components/monetization/general/pollfish.md
       - Advertising:
-        - Overview: components/monetization/advertising/index.md
+        - components/monetization/advertising/index.md
         - Banner Ad: components/monetization/advertising/banner-ad.md
         - Interstitial Ad: components/monetization/advertising/interstitial-ad.md
         - Rewarded Ad: components/monetization/advertising/rewarded-ad.md
@@ -344,9 +348,9 @@ nav:
         - Unity Ads Banner: components/monetization/advertising/unity-ads-banner.md
         - Unity Ads Interstitial: components/monetization/advertising/unity-ads-interstitial.md
     - LEGO® MINDSTORMS®:
-      - Overview: components/lego-mindstorms/index.md
+      - components/lego-mindstorms/index.md
       - EV3:
-        - Overview: components/lego-mindstorms/ev3/index.md
+        - components/lego-mindstorms/ev3/index.md
         - EV3 Color Sensor: components/lego-mindstorms/ev3/ev3-color-sensor.md
         - EV3 Commands: components/lego-mindstorms/ev3/ev3-commands.md
         - EV3 Gyro Sensor: components/lego-mindstorms/ev3/ev3-gyro-sensor.md
@@ -356,7 +360,7 @@ nav:
         - EV3 UI: components/lego-mindstorms/ev3/ev3-ui.md
         - EV3 Ultrasonic Sensor: components/lego-mindstorms/ev3/ev3-ultrasonic-sensor.md
       - NXT:
-        - Overview: components/lego-mindstorms/nxt/index.md
+        - components/lego-mindstorms/nxt/index.md
         - NXT Color Sensor: components/lego-mindstorms/nxt/nxt-color-sensor.md
         - NXT Direct Commands: components/lego-mindstorms/nxt/nxt-direct-commands.md
         - NXT Drive: components/lego-mindstorms/nxt/nxt-drive.md
@@ -365,7 +369,7 @@ nav:
         - NXT Touch Sensor: components/lego-mindstorms/nxt/nxt-touch-sensor.md
         - NXT Ultrasonic Sensor: components/lego-mindstorms/nxt/nxt-ultrasonic-sensor.md
     - Experimental:
-      - Overview: components/experimental/index.md
+      - components/experimental/index.md
       - CloudDB: components/experimental/clouddb.md
       - Custom Tabs: components/experimental/custom-tabs.md
       - ExoPlayer: components/experimental/exoplayer.md
@@ -374,7 +378,7 @@ nav:
       - Shortcut Badge: components/experimental/shortcut-badge.md
       - Youtube Player: components/experimental/youtube-player.md
   - Blocks:
-    - Overview: blocks/index.md
+    - blocks/index.md
     - Control: blocks/control.md
     - Logic: blocks/logic.md
     - Math: blocks/math.md
@@ -386,16 +390,16 @@ nav:
     - Procedures: blocks/procedures.md
     - Any Component: blocks/any-component.md
   - Support:
-    - Overview: support/index.md
+    - support/index.md
     - Account:
-      - Overview: support/account/index.md
+      - support/account/index.md
       - How to login into Kodular?: support/account/how-to-login.md
       - I cannot use my 2FA codes, what can I do?: support/account/2fa-recovery.md
       - Delete my Kodular Account: support/account/delete-account.md
       - How to remove a credit/debit card from my account?: support/account/remove-payment-method.md
       - How can I change my payment method?: support/account/change-payment-method.md
     - Billing:
-      - Overview: support/billing/index.md
+      - support/billing/index.md
       - Branding Removal: support/billing/branding-removal.md
       - Commission Removal: support/billing/commission-removal.md
       - Companion Ads Removal: support/billing/companion-ads-removal.md
@@ -404,7 +408,7 @@ nav:
       - Proration: support/billing/proration.md
       - Payment failed: support/billing/payment-failed.md
     - Google Ad Manager:
-      - Overview: support/adm/index.md
+      - support/adm/index.md
       - What is Google Ad Manager?: support/adm/intro.md
       - How do I get invited to Kodular's new monetization program?: support/adm/apply.md
       - How do I get started with Google Ad Manager components?: support/adm/getting-started.md
@@ -412,7 +416,7 @@ nav:
       - How do I request a payout?: support/adm/payouts.md
       - Why am I unable to withdraw my ad revenue?: support/adm/payouts-requirements.md
     - Monetization:
-      - Overview: support/monetization/index.md
+      - support/monetization/index.md
       - How can I show ads in my app?: support/monetization/ads-in-app.md
       - Monetization guidelines: support/monetization/guidelines.md
       - My app has been approved, but still the ads are not showing: support/monetization/approved-but-no-ads.md
@@ -420,5 +424,5 @@ nav:
       - I have the app on the Google Play Store. But ads are not showing in the built APK.: support/monetization/google-play-not-showing.md
       - Do I need to get the app approved again, if I import a saved .aia copy of the same app from my computer?: support/monetization/aia-re-approval.md
     - App Development:
-      - Overview: support/development/index.md
+      - support/development/index.md
       - I have a question related to app development. How can I get help?: support/development/questions.md
