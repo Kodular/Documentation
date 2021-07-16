@@ -1,4 +1,4 @@
-# Kodular Eagle
+# Kodular Fenix
 
 ![Kodular Fenix](https://assets.kodular.io/images/creator/versions/fenix_white.png)
 
