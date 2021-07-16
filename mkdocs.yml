@@ -46,7 +46,6 @@ theme:
     # - navigation.instant
     - navigation.indexes
     - navigation.tabs
-    - navigation.tabs.sticky
     - navigation.tracking
     - search.highlight
     - search.share
