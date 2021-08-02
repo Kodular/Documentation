@@ -322,6 +322,7 @@ nav:
       - Google Maps: components/google/google-maps.md
       - Google Play Games: components/google/google-play-games.md
       - Google reCaptcha: components/google/google-recaptcha.md
+      - Youtube Player: components/experimental/youtube-player.md
     - Monetization:
       - components/monetization/index.md
       - General:
@@ -378,7 +379,6 @@ nav:
       - In-App Update: components/experimental/in-app-update.md
       - Notification: components/experimental/notification.md
       - Shortcut Badge: components/experimental/shortcut-badge.md
-      - Youtube Player: components/experimental/youtube-player.md
   - Blocks:
     - blocks/index.md
     - Control: blocks/control.md
