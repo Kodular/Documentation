@@ -125,3 +125,39 @@ that have been moved:*
 
 - [Mitigate **Chrome 89 change**](https://github.com/mit-cml/appinventor-sources/commit/b4557d64c8938e60298e5376157365c0c98a6b72).  
 The Companion should now work as expected on Chromium browsers.
+
+## 1.5.1 Fenix   \|   _02 August 2021_
+
+### Behaviour Changes
+
+- Download app button now opens a **new tab**.  
+*It was instead opening the link in the same tab, causing some navigation issues.*
+
+- **Upgraded the extension protection** system.  
+*Now your apps will be safer from malicious extensions.*
+
+- Changed **default app name** to "Kodular App".  
+*Now by default, app names will not be blank.*
+
+- Changed **Google Ad Manager ad unit** format.  
+*Rebuilds are required for apps exported before this update.*
+
+### Component Changes
+
+- **YouTube Player** <small>*Moved* to Google</small>
+
+### Bug Fixed
+
+- Fixed **Web Viewer positioning**.  
+*Web Viewer was rendering in a different position rather than the defined one.*
+
+- Fixed **File provider** issue.  
+*Manifest contained Kodular's package name rather than real app package name.*
+
+- Fixed **copying assets in Companion**.  
+*The original path was being replaced.*
+
+- Fixed **Google Ad Manager test mode**.  
+*Companion will now be forced to display test ads.*
+
+- [Fix issue with extension info being lost in builds](https://github.com/mit-cml/appinventor-sources/pull/2491)
