@@ -89,6 +89,7 @@ plugins:
   - redirects:
       redirect_maps:
         support/adm/getting-started.md: guides/monetization.md
+  - social
 
 markdown_extensions:
   - codehilite
