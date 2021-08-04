@@ -83,13 +83,13 @@ extra_javascript:
 
 plugins:
   - search
+  - social
   - minify:
       minify_html: true
   - git-revision-date-localized
   - redirects:
       redirect_maps:
         support/adm/getting-started.md: guides/monetization.md
-  - social
 
 markdown_extensions:
   - codehilite
