@@ -83,7 +83,7 @@ extra_javascript:
 
 plugins:
   - search
-  - social
+  # - social
   - minify:
       minify_html: true
   - git-revision-date-localized
