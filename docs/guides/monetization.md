@@ -73,6 +73,13 @@ all the integration happens automatically.
 Finally, open the **App Settings** modal with the gear button next to the Designer/Blocks ones. Go to the Monetization
 section, and input the previously copied **App ID** into the **Google Ads App ID** field.
 
+### app-ads.txt
+
+For a better ad delivery, **you should have deployed an `app-ads.txt` file**. You must include our Google Publisher ID
+in it.
+
+Check **[this page](../support/adm/app-ads-txt.md) to learn how to properly implement it**.
+
 ## Exporting your app
 
 **Your app is now ready!** Just click the Export button and publish it anywhere.

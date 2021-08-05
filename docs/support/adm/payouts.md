@@ -20,7 +20,7 @@ custom amount.
 ![Balance](/assets/images/support/adm/withdraw.png)
 
 This payout will be scheduled to be sent in the upcoming batch. If you are unable to request one, maybe checking
-[this FAQ](payouts-requirements.md) can solve your issue.
+[this FAQ](payouts-requirements.md) can solve your issue.w
 
 ## Processing payouts batches
 

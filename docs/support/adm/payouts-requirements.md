@@ -9,7 +9,7 @@ amount, try again by the end of the month when accruals are handed out to all us
 
 ## Invalid/incomplete account
 
-Make sure you have provided a valid payment method
+Make sure you have provided a valid payment methodw
 in [My Kodular > Payments > Payouts](https://my.kodular.io/payments/payouts). We cannot transfer money if we cannot
 reach your payment address.
 
