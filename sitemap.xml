@@ -2,1377 +2,1382 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://docs.kodular.io/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/pricing/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/terms-of-service/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/blocks/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/blocks/any-component/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/blocks/colors/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/blocks/control/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/blocks/dictionaries/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/blocks/lists/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/blocks/logic/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/blocks/math/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/blocks/procedures/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/blocks/text/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/blocks/variables/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/screen/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/connectivity/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/connectivity/activity-starter/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/connectivity/arduino/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/connectivity/bluetooth-admin/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/connectivity/bluetooth-client/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/connectivity/bluetooth-server/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/connectivity/download/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/connectivity/ftp/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/connectivity/network/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/connectivity/web/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/connectivity/wifi/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/drawing-and-animation/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/drawing-and-animation/ball/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/drawing-and-animation/canvas/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/drawing-and-animation/image-editor/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/drawing-and-animation/image-sprite/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/drawing-and-animation/lottie/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/dynamic/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/dynamic/dynamic-button/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/dynamic/dynamic-card-view/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/dynamic/dynamic-image/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/dynamic/dynamic-label/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/dynamic/dynamic-space/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/dynamic/dynamic-text-box/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/experimental/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/experimental/clouddb/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/experimental/custom-tabs/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/experimental/exoplayer/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/experimental/in-app-update/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/experimental/notification/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/experimental/shortcut-badge/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/google/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/google/firebase-authentication/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/google/firebase-database/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/google/firebase-remote-config/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/google/firebase-storage/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/google/google-account-picker/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/google/google-maps/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/google/google-play-games/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/google/google-recaptcha/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/google/youtube-player/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/layout/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/layout/general/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/layout/general/card-view/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/layout/general/grid-view/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/layout/general/horizontal-arrangement/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/layout/general/horizontal-scroll-arrangement/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/layout/general/space/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/layout/general/swipe-refresh-layout/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/layout/general/table-arrangement/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/layout/general/vertical-arrangement/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/layout/general/vertical-scroll-arrangement/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/layout/lists/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/layout/lists/list-view-image-and-text/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/layout/lists/list-view/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/layout/navigation/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/layout/navigation/bottom-navigation/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/layout/navigation/side-menu-layout/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/layout/navigation/tab-layout/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/layout/navigation/view-pager/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/layout/views/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/layout/views/bottom-sheet/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/layout/views/chat-view/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/layout/views/gallery-viewer/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/layout/views/surface-view/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/layout/views/view-flipper/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/layout/views/web-viewer/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/lego-mindstorms/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/lego-mindstorms/ev3/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/lego-mindstorms/ev3/ev3-color-sensor/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/lego-mindstorms/ev3/ev3-commands/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/lego-mindstorms/ev3/ev3-gyro-sensor/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/lego-mindstorms/ev3/ev3-motors/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/lego-mindstorms/ev3/ev3-sound/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/lego-mindstorms/ev3/ev3-touch-sensor/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/lego-mindstorms/ev3/ev3-ui/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/lego-mindstorms/ev3/ev3-ultrasonic-sensor/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/lego-mindstorms/nxt/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/lego-mindstorms/nxt/nxt-color-sensor/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/lego-mindstorms/nxt/nxt-direct-commands/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/lego-mindstorms/nxt/nxt-drive/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/lego-mindstorms/nxt/nxt-light-sensor/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/lego-mindstorms/nxt/nxt-sound-sensor/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/lego-mindstorms/nxt/nxt-touch-sensor/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/lego-mindstorms/nxt/nxt-ultrasonic-sensor/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/maps/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/maps/circle/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/maps/feature-collection/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/maps/line-string/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/maps/map/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/maps/marker/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/maps/navigation/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/maps/polygon/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/maps/rectangle/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/media/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/media/audio-picker/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/media/camcorder/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/media/camera/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/media/image-picker/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/media/metadata/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/media/ocr/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/media/player/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/media/qr-code/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/media/sound-recorder/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/media/sound/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/media/speech-recognizer/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/media/text-to-speech/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/media/video-picker/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/media/video-player/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/media/yandex-translate/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/monetization/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/monetization/advertising/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/monetization/advertising/adcolony-interstitial/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/monetization/advertising/admob-banner/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/monetization/advertising/admob-interstitial/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/monetization/advertising/admob-rewarded-video/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/monetization/advertising/amazon-banner/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/monetization/advertising/amazon-interstitial/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/monetization/advertising/applovin-interstitial/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/monetization/advertising/banner-ad/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/monetization/advertising/facebook-banner/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/monetization/advertising/facebook-interstitial/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/monetization/advertising/facebook-rewarded-video/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/monetization/advertising/interstitial-ad/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/monetization/advertising/leadbolt/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/monetization/advertising/rewarded-ad/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/monetization/advertising/startapp-banner/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/monetization/advertising/startapp-interstitial/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/monetization/advertising/unity-ads-banner/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/monetization/advertising/unity-ads-interstitial/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/monetization/general/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/monetization/general/in-app-billing/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/monetization/general/kodular-donations/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/monetization/general/pollfish/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/sensors/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/sensors/accelerometer-sensor/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/sensors/barcode-scanner/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/sensors/clock/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/sensors/fingerprint/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/sensors/gravity-sensor/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/sensors/gyroscope-sensor/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/sensors/hygrometer/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/sensors/light-sensor/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/sensors/location-sensor/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/sensors/magnetic-field-sensor/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/sensors/near-field/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/sensors/orientation-sensor/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/sensors/pedometer/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/sensors/pressure-sensor/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/sensors/proximity-sensor/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/sensors/sound-sensor/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/sensors/temperature-sensor/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/social/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/social/contact-picker/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/social/email-picker/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/social/phone-call/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/social/phone-number-picker/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/social/push-notifications/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/social/sharing/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/social/texting/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/social/twitter/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/storage/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/storage/cloudinary/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/storage/file/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/storage/spreadsheet/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/storage/sqlite/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/storage/tiny-db/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/storage/tiny-web-db/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/user-interface/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/user-interface/button/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/user-interface/checkbox/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/user-interface/circular-progress/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/user-interface/custom-progress/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/user-interface/date-picker/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/user-interface/floating-action-button/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/user-interface/image/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/user-interface/label/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/user-interface/linear-progressbar/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/user-interface/list-picker/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/user-interface/notifier/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/user-interface/radio-button/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/user-interface/rating-bar/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/user-interface/slider/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/user-interface/snackbar/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/user-interface/spinner/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/user-interface/spotlight/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/user-interface/state-progress-bar/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/user-interface/switch/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/user-interface/text-box/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/user-interface/time-picker/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/utilities/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/utilities/animation-utilities/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/utilities/audio/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/utilities/battery-utilities/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/utilities/color-utilities/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/utilities/cryptography/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/utilities/decoration/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/utilities/device-utilities/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/utilities/image-utilities/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/utilities/keyguard-manager/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/utilities/package-utilities/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/utilities/resource-utilities/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/utilities/screenshot/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/utilities/shell/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/components/utilities/wallpaper/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/guides/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/guides/backpack/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/guides/concept-cards/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/guides/hello-world/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/guides/keyboard-shortcuts/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/guides/monetization/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/guides/component-examples/dynamic-cards/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/guides/component-examples/firebase-rules/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/guides/component-examples/pollfish/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/guides/component-examples/remote-config/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/guides/component-examples/securing-app/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/guides/component-examples/targeted-notifications/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/guides/extensions/create-extensions/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/guides/live-development/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/guides/live-development/usb/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/guides/live-development/wifi/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/release-notes/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/release-notes/andromeda/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/release-notes/butterfly/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/release-notes/chamaeleon/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/release-notes/draco/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/release-notes/eagle/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/release-notes/fenix/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/support/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/support/account/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/support/account/2fa-recovery/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/support/account/change-payment-method/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/support/account/delete-account/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/support/account/how-to-login/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/support/account/remove-payment-method/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/support/adm/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.kodular.io/support/adm/app-ads-txt/</loc>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/support/adm/apply/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/support/adm/gdpr/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/support/adm/getting-started/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/support/adm/intro/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/support/adm/payouts-requirements/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/support/adm/payouts/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/support/billing/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/support/billing/branding-removal/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/support/billing/cancelling-subscription/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/support/billing/commission-removal/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/support/billing/companion-ads-removal/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/support/billing/payment-failed/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/support/billing/proration/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/support/billing/renewing-subscription/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/support/development/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/support/development/questions/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/support/monetization/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/support/monetization/ads-in-app/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/support/monetization/aia-re-approval/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/support/monetization/approved-but-no-ads/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/support/monetization/google-play-approval/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/support/monetization/google-play-not-showing/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.kodular.io/support/monetization/guidelines/</loc>
-         <lastmod>2021-08-04</lastmod>
+         <lastmod>2021-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
