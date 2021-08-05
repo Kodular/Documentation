@@ -323,7 +323,7 @@ nav:
       - Google Maps: components/google/google-maps.md
       - Google Play Games: components/google/google-play-games.md
       - Google reCaptcha: components/google/google-recaptcha.md
-      - Youtube Player: components/experimental/youtube-player.md
+      - Youtube Player: components/google/youtube-player.md
     - Monetization:
       - components/monetization/index.md
       - General:
