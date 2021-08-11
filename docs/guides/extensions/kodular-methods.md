@@ -40,8 +40,8 @@ Returns the store where the app was installed from. Available return strings are
 - _Google Play_
 - _Amazon Appstore_
 - _Samsung App Store_
-- _Developer_ (installed from APK file)
-- _Unknown_ (fallback return)
+- _Developer_ (installed from ADB)
+- _Unknown_ (fallback from APK)
 
 ### isInstalledThruStore
 
