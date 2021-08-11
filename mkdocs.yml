@@ -145,6 +145,7 @@ nav:
       - Surveys with Pollfish: guides/component-examples/pollfish.md
     - Extensions:
       - Create Extensions: guides/extensions/create-extensions.md
+      - Kodular Methods: guides/extensions/kodular-methods.md
     - Keyboard Shortcuts: guides/keyboard-shortcuts.md
     - Monetization: guides/monetization.md
   - Components:
