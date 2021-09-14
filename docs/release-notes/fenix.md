@@ -161,3 +161,33 @@ The Companion should now work as expected on Chromium browsers.
 *Companion will now be forced to display test ads.*
 
 - [Fix issue with extension info being lost in builds](https://github.com/mit-cml/appinventor-sources/pull/2491)
+
+## 1.5.2 Fenix   \|   _15 September 2021_
+
+### Behaviour Changes
+
+- Implemented **Target SDK 30**.  
+*This is a hotfix so you can keep publishing your apps. Some bugs may occur in Android 11 devices.*
+
+- Updated **initial view to Projects** in main dashboard.  
+*We have addressed some issues causing the launch screen to sometimes be the Designer of random projects.*
+
+- [Implement annotations for Services and Content Providers.](https://github.com/mit-cml/appinventor-sources/pull/2217)  
+*We are adding support for `<service>` and `<provider>` tags in AndroidManifest.*
+
+- [Implement conditional permissions for Texting and PhoneCall.](https://github.com/mit-cml/appinventor-sources/pull/1506)  
+*We are adding conditional permission for those two components to better comply with Play Store policies.*
+
+- [Implement a universal URL format for assets in WebViewer.](https://github.com/mit-cml/appinventor-sources/pull/2272)  
+*Added `localhost` as universal URL format to access assets in both Companion and compiled app.*
+
+## Bug Fixed
+
+- Fixed **State Progress Bar** causing issues with AndroidX.  
+*We have updated SPB library to be compatible with AndroidX sources.*
+
+- Improved **file saving** in Creator.  
+*After fixing a couple of bugs, we will be saving files with more confidence, and better handling those errors.*
+
+- [Fix AAB asset compression breaking media files.](https://github.com/mit-cml/appinventor-sources/pull/2530)  
+*Assets within AAB files should now work properly with multimedia components.
