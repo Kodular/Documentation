@@ -8,10 +8,6 @@ features into a set of components that will allow you to monetize your apps with
 
 In order to start using Google Ad Manager, you have to apply for a child account to be part of Kodular's network.
 
-!!! note "Invite only"
-    As this is a new feature, we are launching it on an invite-only phase. If you would like to get access, head
-    to [this page](../support/adm/apply.md) to learn how to apply.
-
 Go to My Kodular, head to the [Payments](https://my.kodular.io/payments) page, and make sure your account is eligible.
 Some of the reasons why your account may not be eligible are:
 

@@ -412,7 +412,6 @@ nav:
     - Google Ad Manager:
       - support/adm/index.md
       - What is Google Ad Manager?: support/adm/intro.md
-      - How do I get invited to Kodular's new monetization program?: support/adm/apply.md
       - How do I get started with Google Ad Manager components?: support/adm/getting-started.md
       - How can I configure my app-ads.txt file?: support/adm/app-ads-txt.md
       - How do I ensure GDPR compliance when using Google Ad Manager?: support/adm/gdpr.md

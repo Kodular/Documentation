@@ -1,5 +1,8 @@
 # How do I get invited to Kodular's new monetization program?
 
+!!! note "General Availability"
+    It is no longer needed to use this form. Your account has been enabled automatically.
+
 The new monetization components are currently available on an invite-only basis. We will eventually release them to
 everyone based on feedback from early adopters.
 

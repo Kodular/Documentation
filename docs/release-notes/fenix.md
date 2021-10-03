@@ -191,3 +191,16 @@ The Companion should now work as expected on Chromium browsers.
 
 - [Fix AAB asset compression breaking media files.](https://github.com/mit-cml/appinventor-sources/pull/2530)  
 *Assets within AAB files should now work properly with multimedia components.
+
+## 1.5.3 Fenix   \|   _03 October 2021_
+
+### Behaviour Changes
+
+- **Google Ad Manager** monetization components are now **available for everyone**.  
+*You can now go to your My Kodular payments section, and apply for a child account to start maximizing your revenue.*
+
+### Bug Fixed
+
+- [Fix building apps with non-ASCII app names.](https://github.com/mit-cml/appinventor-sources/pull/2543)
+*It turns out that the Java Properties class was reading/writing using a different default charset depending on whether
+  the method is called with an InputStream or a Reader.*
