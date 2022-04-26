@@ -181,7 +181,7 @@ The Companion should now work as expected on Chromium browsers.
 - [Implement a universal URL format for assets in WebViewer.](https://github.com/mit-cml/appinventor-sources/pull/2272)  
 *Added `localhost` as universal URL format to access assets in both Companion and compiled app.*
 
-## Bug Fixed
+### Bug Fixed
 
 - Fixed **State Progress Bar** causing issues with AndroidX.  
 *We have updated SPB library to be compatible with AndroidX sources.*
@@ -204,3 +204,45 @@ The Companion should now work as expected on Chromium browsers.
 - [Fix building apps with non-ASCII app names.](https://github.com/mit-cml/appinventor-sources/pull/2543)
 *It turns out that the Java Properties class was reading/writing using a different default charset depending on whether
   the method is called with an InputStream or a Reader.*
+
+## 1.5.4 Fenix   \|   _26 April 2022_
+
+### Behaviour Changes
+
+- **Increased Minimum SDK to 21 (*Android 5.0* :lollipop:)**  
+We're bumping Minimum SDK to be able to add more features to the platform later on. Based on usage analytics, this
+- increment will have a minimum impact over the entire users' pool.
+
+- **App Name can be defined in the creation modal**  
+When creating a new project, you can now set the app's name directly from the initial dialog.
+
+- [Add dropdown blocks to the blocks editor.](https://github.com/mit-cml/appinventor-sources/pull/2301)
+
+### Components Changes
+
+- **Admob Banner**  
+_Not available to new projects anymore_
+
+- **Admob Interstitial**  
+_Not available to new projects anymore_
+
+- **Admob Rewarded Video**  
+_Not available to new projects anymore_
+
+### New Blocks
+
+- **Custom Tabs** component
+  - Added **Prefer Native** property
+
+- **Pollfish** component
+  - Added **Request UUID** block property
+
+### Bug Fixed
+
+- **AdColony Library** --> Version 4.6.5
+
+- **StartApp Library** --> Version 4.9.2
+
+- [Fix streaming SpeechRecognizer not working on Android 11.](https://github.com/mit-cml/appinventor-sources/pull/2559)
+
+- [Implement multidex in the buildserver.](https://github.com/mit-cml/appinventor-sources/pull/2187)
