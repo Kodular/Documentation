@@ -27,10 +27,11 @@ is, for example, `https://example.com/app-ads.txt` if your developer website URL
 ### Include Kodular publisher ID
 
 Now you have to **include our Google publisher ID in your file**. Open your `app-ads.txt` file, and append the
-following line:
+following lines (replacing `CHILD_NETWORK` with your specific child network code):
 
 ```txt
-google.com, pub-7724198591595211, DIRECT, f08c47fec0942fa0
+junnovate.com, kcn-CHILD_NETWORK, DIRECT
+google.com, pub-7724198591595211, RESELLER, f08c47fec0942fa0
 ```
 
 Once you have done this last step, wait 24 hours and **ads will start serving in your app**.
