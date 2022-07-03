@@ -246,3 +246,68 @@ _Not available to new projects anymore_
 - [Fix streaming SpeechRecognizer not working on Android 11.](https://github.com/mit-cml/appinventor-sources/pull/2559)
 
 - [Implement multidex in the buildserver.](https://github.com/mit-cml/appinventor-sources/pull/2187)
+
+## 1.5.5 Fenix   \|   _26 June 2022_
+
+### Behaviour Changes
+
+- **Implemented Target SDK 30 (*Android 11*)**  
+We've finally fully implemented and integrated Target SDK 30 in our system, to make all apps compatible with Android
+11. It took a little bit more than expected because of lots of breaking changes in the Android filesystem.  
+Target SDK 31 (*Android 12*) will arrive in a few weeks, but there are not so many changes required.
+
+### Components Changes
+
+- **Admob Banner**  
+_Not available anymore, please switch to Google Ad Manager_
+
+- **Admob Interstitial**  
+_Not available anymore, please switch to Google Ad Manager_
+
+- **Admob Rewarded Video**  
+_Not available anymore, please switch to Google Ad Manager_
+
+### Bug Fixed
+
+- Fixed _Screen Orientation_ property.
+
+- Fixed _Enum_ blocks causing some strange behavior.
+
+- [Update all writing components to use Form's DefaultFileScope.](https://github.com/mit-cml/appinventor-sources/commit/ce0fd4f0e552a40df822fdf3cd66bf2293ca538c)
+
+- [Fix permission requests for some components.](https://github.com/mit-cml/appinventor-sources/commit/fc1e550f1a53f72e36af83c1cee2546c7f07f8f9)
+
+- Some other minor bugs have been fixes.
+
+## 1.5.6 Fenix   \|   _04 July 2022_
+
+### Behavioral Changes
+
+- **Allow setting a custom *Floor eCPM* value per ad component**  
+If you are using Google Ad Manager components, you can now specify a custom **Floor eCPM** value for each of your ad
+slots. _It is recommended to keep it in `Optimized`, so Google chooses the best inventory to suit your needs._  
+![image|295x471, 75%](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/5/2/52bdf45a51ff17a97099feed613ef56fed5fc9b1.png)![image|507x40, 75%](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/1/9/19b411510c073c7400723026ac2337a8dfdb98d5.png)
+
+### Bugs Fixed
+
+- Added missing upgrader for ***File*** component.
+
+- Fixed *Exists* method in **_File_** component.
+
+- Fixed *Is Directory* method in ***File*** component.
+
+- Fixed specific case when *pathBlock* had a null case in ***File*** component.
+
+- Fixed null-pointer exception when property type is missing in ***File*** component.
+
+- Fixed *Test Mode* in ***Google Ad Manager*** components.
+
+- Fixed ad sizes in ***Google Ad Manager*** components.
+
+- Fixed *Notification Opened* event wrongly triggering in ***Push Notifications*** component.
+
+- Fixed text direction in components using ***Text View***.
+
+- Fixed some alignments using a wrong gravity values.
+
+- Some other minor bugs have been fixes.
