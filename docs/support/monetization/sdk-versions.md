@@ -2,7 +2,7 @@
 
 | Component               | SDK                       | Version Used | Latest Version | Upgrade Needed? |
 |-------------------------|---------------------------|-------------:|---------------:|:---------------:|
-| In App Billing          | Google Play Billing       |        3.0.3 |            5.0 |       Yes       |
+| In App Billing          | Google Play Billing       |        4.1.0 |            5.0 |       Yes       |
 | Kodular Donations       | -                         |            - |              - |        -        |
 | Pollfish                | Pollfish GooglePlay       |        5.5.1 |          6.2.5 |       Yes       |
 | AdColony Interstitial   | AdColony                  |        4.6.5 |          4.8.0 |      Maybe      |
