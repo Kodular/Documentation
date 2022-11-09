@@ -6,18 +6,18 @@
 
 ### Major Changes
 
-- Reverted **Ads Commission** system.  
+- Reverted **Ads Commission** system.
 *We hear you when you say commissions are a hassle to calculate; we are bringing back our legacy system of simpler
 commissions for each component. You can find their values in their respective docs pages.*
 
-- Migrated to **AndroidX** libraries.  
+- Migrated to **AndroidX** libraries.
 *Our sources no longer use legacy support libraries and have switched to AndroidX. Some extensions may face crashes
 until their developers upgrade them.*
 
-- Added new **app settings modal**.  
+- Added new **app settings modal**.
 *Generic app settings that were previously placed in Screen1’s properties or properties that were global for the app
 have been moved to a new app settings modal just next to the Designer/Blocks buttons. Here’s a full list of properties
-that have been moved:*  
+that have been moved:*
     - **App Name** <small>`Screen1` > `General`</small>
     - **Icon** <small>`Screen1` > `General`</small>
     - **Splash Screen** <small>`Screen1` > `General`</small>
@@ -40,23 +40,23 @@ that have been moved:*
     - **OneSignal App ID** <small>`OneSignal` > `API Keys`</small>
     - **Google Maps App ID** <small>`Google Maps` > `API Keys`</small>
 
-- [**kodular.app**](https://kodular.app) links will be **valid for only 10 minutes**.  
+- [**kodular.app**](https://kodular.app) links will be **valid for only 10 minutes**.
 *Generated links will move from a 2-hour validity to just 10 minutes.*
 
 - [Implemented **metadata annotations** for **extensions**](https://github.com/mit-cml/appinventor-sources/commit/9db6dc2914f572aab9e7531bbba133eab1f9ff48).
 
 ### New Components
 
-- **Google reCaptcha** <small>Google</small>  
+- **Google reCaptcha** <small>Google</small>
 ![image|266x155](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/7/e/7eb9b3c0131ec749ed4472a0c5b615aa34618378.png)
 
-- **Banner Ad** <small>Monetization > Advertising</small>  
+- **Banner Ad** <small>Monetization > Advertising</small>
 ![image|244x206](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/6/c/6ccae5219345b88304cc96c20ac7c6bdd6765e5e.png)
 
-- **Interstitial Ad** <small>Monetization > Advertising</small>  
+- **Interstitial Ad** <small>Monetization > Advertising</small>
 ![image|238x203](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/a/8/a8d5a81a5baf5f99f24a144c412857705a61a234.png)
 
-- **Rewarded Ad** <small>Monetization > Advertising</small>  
+- **Rewarded Ad** <small>Monetization > Advertising</small>
 ![image|244x205](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/1/e/1effb5b6547a7af6c53e42b1d010cbd7ba970af4.png)
 
 - **ExoPlayer** <small>_Moved_ to Experimental</small>
@@ -65,28 +65,28 @@ that have been moved:*
 
 ### New Features
 
-- **Label** <small>User Interface</small>  
-    - Added **`Max Lines`** property. <small>Advanced</small>  
+- **Label** <small>User Interface</small>
+    - Added **`Max Lines`** property. <small>Advanced</small>
 ![image|278x50](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/6/2/62ee48e89e76b02b110f3a863af9a7f43bc71db6.png)
 
-- **Textbox** <small>User Interface</small>  
-    - Added **`Max Lines`** property. <small>Advanced</small>  
+- **Textbox** <small>User Interface</small>
+    - Added **`Max Lines`** property. <small>Advanced</small>
 ![image|278x50](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/6/2/62ee48e89e76b02b110f3a863af9a7f43bc71db6.png)
 
-- **Google Maps** <small>Google</small>  
-    - Added **`API Key`** property. <small>App Settings Modal</small>  
+- **Google Maps** <small>Google</small>
+    - Added **`API Key`** property. <small>App Settings Modal</small>
 ![image|606x135](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/9/1/9128e719ef7b6492fde8c4d7d6c01cdb267f14de.png)
 
-- **AdMob Banner** <small>Monetization > Advertising</small>  
-    - Added **`App ID`** property. <small>App Settings Modal</small>  
+- **AdMob Banner** <small>Monetization > Advertising</small>
+    - Added **`App ID`** property. <small>App Settings Modal</small>
 ![image|614x137](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/4/0/402299c86ff6ac79319961e1f54d75d473e4bd4d.png)
 
-- **AdMob Interstitial** <small>Monetization > Advertising</small>  
-    - Added **`App ID`** property. <small>App Settings Modal</small>  
+- **AdMob Interstitial** <small>Monetization > Advertising</small>
+    - Added **`App ID`** property. <small>App Settings Modal</small>
 ![image|614x137](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/4/0/402299c86ff6ac79319961e1f54d75d473e4bd4d.png)
 
-- **AdMob Rewarded Video** <small>Monetization > Advertising</small>  
-    - Added **`App ID`** property. <small>App Settings Modal</small>  
+- **AdMob Rewarded Video** <small>Monetization > Advertising</small>
+    - Added **`App ID`** property. <small>App Settings Modal</small>
 ![image|614x137](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/4/0/402299c86ff6ac79319961e1f54d75d473e4bd4d.png)
 
 ### Library Upgrades
@@ -99,47 +99,47 @@ that have been moved:*
 
 ### Bugs Fixed
 
-- Enhanced **anti-malicious extension system**.  
+- Enhanced **anti-malicious extension system**.
 *We have improved our malicious extension detection system; now apps won't start if a malicious extension is detected.*
 
-- Fixed **assets bug**.  
+- Fixed **assets bug**.
 *There was a small bug that caused assets to not load sometimes due to a missing `file://` in path.*
 
-- Fixed **buildserver bug** that them caused to sometimes **fatally terminate**.  
+- Fixed **buildserver bug** that them caused to sometimes **fatally terminate**.
 *Buildservers should be more stable now with this bugfix.*
 
-- Fixed bug in **File/Exists block**.  
+- Fixed bug in **File/Exists block**.
 *The Exists block should now work as expected.*
 
-- **Relative file paths** are now accepted in **File/Copy** block.  
+- **Relative file paths** are now accepted in **File/Copy** block.
 *Only absolute paths were working; now relative paths work too.*
 
-- Allow **Lottie** to access assets from Companion.  
+- Allow **Lottie** to access assets from Companion.
 *Lottie component was previously not loading assets in the Companion.*
 
-- **OneSignal** now shows **native notifications** if app is focused.  
+- **OneSignal** now shows **native notifications** if app is focused.
 *A new native notification will show instead of the standard Android dialog when triggered if the app is open.*
 
-- Fixed **Play Billing** component.  
+- Fixed **Play Billing** component.
 *We have refactored and fixed this outdated component.*
 
-- [Mitigate **Chrome 89 change**](https://github.com/mit-cml/appinventor-sources/commit/b4557d64c8938e60298e5376157365c0c98a6b72).  
+- [Mitigate **Chrome 89 change**](https://github.com/mit-cml/appinventor-sources/commit/b4557d64c8938e60298e5376157365c0c98a6b72).
 The Companion should now work as expected on Chromium browsers.
 
 ## 1.5.1 Fenix   \|   _02 August 2021_
 
 ### Behaviour Changes
 
-- Download app button now opens a **new tab**.  
+- Download app button now opens a **new tab**.
 *It was instead opening the link in the same tab, causing some navigation issues.*
 
-- **Upgraded the extension protection** system.  
+- **Upgraded the extension protection** system.
 *Now your apps will be safer from malicious extensions.*
 
-- Changed **default app name** to "Kodular App".  
+- Changed **default app name** to "Kodular App".
 *Now by default, app names will not be blank.*
 
-- Changed **Google Ad Manager ad unit** format.  
+- Changed **Google Ad Manager ad unit** format.
 *Rebuilds are required for apps exported before this update.*
 
 ### Component Changes
@@ -148,16 +148,16 @@ The Companion should now work as expected on Chromium browsers.
 
 ### Bug Fixed
 
-- Fixed **Web Viewer positioning**.  
+- Fixed **Web Viewer positioning**.
 *Web Viewer was rendering in a different position rather than the defined one.*
 
-- Fixed **File provider** issue.  
+- Fixed **File provider** issue.
 *Manifest contained Kodular's package name rather than real app package name.*
 
-- Fixed **copying assets in Companion**.  
+- Fixed **copying assets in Companion**.
 *The original path was being replaced.*
 
-- Fixed **Google Ad Manager test mode**.  
+- Fixed **Google Ad Manager test mode**.
 *Companion will now be forced to display test ads.*
 
 - [Fix issue with extension info being lost in builds](https://github.com/mit-cml/appinventor-sources/pull/2491)
@@ -166,37 +166,37 @@ The Companion should now work as expected on Chromium browsers.
 
 ### Behaviour Changes
 
-- Implemented **Target SDK 30**.  
+- Implemented **Target SDK 30**.
 *This is a hotfix so you can keep publishing your apps. Some bugs may occur in Android 11 devices.*
 
-- Updated **initial view to Projects** in main dashboard.  
+- Updated **initial view to Projects** in main dashboard.
 *We have addressed some issues causing the launch screen to sometimes be the Designer of random projects.*
 
-- [Implement annotations for Services and Content Providers.](https://github.com/mit-cml/appinventor-sources/pull/2217)  
+- [Implement annotations for Services and Content Providers.](https://github.com/mit-cml/appinventor-sources/pull/2217)
 *We are adding support for `<service>` and `<provider>` tags in AndroidManifest.*
 
-- [Implement conditional permissions for Texting and PhoneCall.](https://github.com/mit-cml/appinventor-sources/pull/1506)  
+- [Implement conditional permissions for Texting and PhoneCall.](https://github.com/mit-cml/appinventor-sources/pull/1506)
 *We are adding conditional permission for those two components to better comply with Play Store policies.*
 
-- [Implement a universal URL format for assets in WebViewer.](https://github.com/mit-cml/appinventor-sources/pull/2272)  
+- [Implement a universal URL format for assets in WebViewer.](https://github.com/mit-cml/appinventor-sources/pull/2272)
 *Added `localhost` as universal URL format to access assets in both Companion and compiled app.*
 
 ### Bug Fixed
 
-- Fixed **State Progress Bar** causing issues with AndroidX.  
+- Fixed **State Progress Bar** causing issues with AndroidX.
 *We have updated SPB library to be compatible with AndroidX sources.*
 
-- Improved **file saving** in Creator.  
+- Improved **file saving** in Creator.
 *After fixing a couple of bugs, we will be saving files with more confidence, and better handling those errors.*
 
-- [Fix AAB asset compression breaking media files.](https://github.com/mit-cml/appinventor-sources/pull/2530)  
+- [Fix AAB asset compression breaking media files.](https://github.com/mit-cml/appinventor-sources/pull/2530)
 *Assets within AAB files should now work properly with multimedia components.
 
 ## 1.5.3 Fenix   \|   _03 October 2021_
 
 ### Behaviour Changes
 
-- **Google Ad Manager** monetization components are now **available for everyone**.  
+- **Google Ad Manager** monetization components are now **available for everyone**.
 *You can now go to your My Kodular payments section, and apply for a child account to start maximizing your revenue.*
 
 ### Bug Fixed
@@ -209,24 +209,24 @@ The Companion should now work as expected on Chromium browsers.
 
 ### Behaviour Changes
 
-- **Increased Minimum SDK to 21 (*Android 5.0* :lollipop:)**  
+- **Increased Minimum SDK to 21 (*Android 5.0* :lollipop:)**
 We're bumping Minimum SDK to be able to add more features to the platform later on. Based on usage analytics, this
 - increment will have a minimum impact over the entire users' pool.
 
-- **App Name can be defined in the creation modal**  
+- **App Name can be defined in the creation modal**
 When creating a new project, you can now set the app's name directly from the initial dialog.
 
 - [Add dropdown blocks to the blocks editor.](https://github.com/mit-cml/appinventor-sources/pull/2301)
 
 ### Components Changes
 
-- **Admob Banner**  
+- **Admob Banner**
 _Not available to new projects anymore_
 
-- **Admob Interstitial**  
+- **Admob Interstitial**
 _Not available to new projects anymore_
 
-- **Admob Rewarded Video**  
+- **Admob Rewarded Video**
 _Not available to new projects anymore_
 
 ### New Blocks
@@ -251,20 +251,20 @@ _Not available to new projects anymore_
 
 ### Behaviour Changes
 
-- **Implemented Target SDK 30 (*Android 11*)**  
+- **Implemented Target SDK 30 (*Android 11*)**
 We've finally fully implemented and integrated Target SDK 30 in our system, to make all apps compatible with Android
-11. It took a little bit more than expected because of lots of breaking changes in the Android filesystem.  
+11. It took a little bit more than expected because of lots of breaking changes in the Android filesystem.
 Target SDK 31 (*Android 12*) will arrive in a few weeks, but there are not so many changes required.
 
 ### Components Changes
 
-- **Admob Banner**  
+- **Admob Banner**
 _Not available anymore, please switch to Google Ad Manager_
 
-- **Admob Interstitial**  
+- **Admob Interstitial**
 _Not available anymore, please switch to Google Ad Manager_
 
-- **Admob Rewarded Video**  
+- **Admob Rewarded Video**
 _Not available anymore, please switch to Google Ad Manager_
 
 ### Bug Fixed
@@ -283,9 +283,9 @@ _Not available anymore, please switch to Google Ad Manager_
 
 ### Behavioral Changes
 
-- **Allow setting a custom *Floor eCPM* value per ad component**  
+- **Allow setting a custom *Floor eCPM* value per ad component**
 If you are using Google Ad Manager components, you can now specify a custom **Floor eCPM** value for each of your ad
-slots. _It is recommended to keep it in `Optimized`, so Google chooses the best inventory to suit your needs._  
+slots. _It is recommended to keep it in `Optimized`, so Google chooses the best inventory to suit your needs._
 ![image|295x471, 75%](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/5/2/52bdf45a51ff17a97099feed613ef56fed5fc9b1.png)![image|507x40, 75%](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/1/9/19b411510c073c7400723026ac2337a8dfdb98d5.png)
 
 ### Bugs Fixed
@@ -311,3 +311,50 @@ slots. _It is recommended to keep it in `Optimized`, so Google chooses the best 
 - Fixed some alignments using a wrong gravity values.
 
 - Some other minor bugs have been fixes.
+
+## 1.5B.0 Fenix   \|   _13 July 2022_
+
+### Behavioral Changes
+
+- **Introducing [Kodular Premium](https://community.kodular.io/t/kodular-premium/187508)**
+  *We will be actively monitoring user feedback. We have already received some suggestions about it, and we will probably increase the extension limit in the upcoming days.*
+
+### Bugs Fixed
+
+- Reduced built app size by removing unused libraries.
+
+- Some other minor bugs have been fixes.
+
+## 1.5B.1 Fenix   \|   _31 July 2022_
+
+### Bugs Fixed
+
+- Fixed Premium payments which were taking a few hours to reflect changes.
+
+- Fixed Download component missing permission.
+
+- Fixed some permissions bugs related to Android 11.
+
+- Some other minor bugs have been fixes.
+
+## 1.5B.2 Fenix   \|   _08 October 2022_
+
+### Major Changes
+
+- Update Target SDK to 31 (_Android 12_)
+
+### Bugs Fixed
+
+- Fixed Play Billing library (`4.1.0`).
+
+* [Fix crash when File.MoveFile target exists](https://github.com/mit-cml/appinventor-sources/pull/2722)
+
+* [Make FileUtil.getFile create missing parent directories](https://github.com/mit-cml/appinventor-sources/pull/2713)
+
+* [Make sure AppInventorBinaries exists](https://github.com/mit-cml/appinventor-sources/pull/2719)
+
+* [Fix how FileUtil.readFile handles assets](https://github.com/mit-cml/appinventor-sources/pull/2720)
+
+* [Allow extension option list enums to not have fromUnderlyingValue method](https://github.com/mit-cml/appinventor-sources/pull/2731)
+
+* [Fix read permission asked in CloudDB.GotValue on Android 12](https://github.com/mit-cml/appinventor-sources/pull/2726)
