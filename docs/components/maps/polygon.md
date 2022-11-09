@@ -2,7 +2,7 @@
 
 | Category | Requires | Version |
 |:--------:|:-------:|:--------:|
-|**Maps**|<span class="chip chip-any">API 19, Android 4.4 - 4.4.4 KitKat</span>|<span class="chip chip-number">2</span>|
+|**Maps**|<span class="chip chip-any">API 21, Android 5.0 Lollipop</span>|<span class="chip chip-number">2</span>|
 
 ## Overview
 
@@ -140,6 +140,8 @@ The opacity of the interior of the map feature.
 
 <span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-list">List</span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Blocks</span></span>
 
+Property for HolePoints
+
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Polygon%22,%20%22name%22:%20%22Hole%20Points%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Polygon%22,%20%22name%22:%20%22Hole%20Points%22,%20%22getter%22:%20false%7D"></div>
 
@@ -208,7 +210,7 @@ The title displayed in the info window that appears when the user clicks on the 
 
 <span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span> :heavy_minus_sign: <span class="chip chip-rw">Read</span>  - <span class="chip chip-bd">Blocks</span></span>
 
-The type of the feature. For polygons, this returns the text "Polygon".
+Returns the type of the feature. For polygons, this returns MapFeature.Polygon ("Polygon").
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Polygon%22,%20%22name%22:%20%22Type%22,%20%22getter%22:%20true%7D"></div>
 

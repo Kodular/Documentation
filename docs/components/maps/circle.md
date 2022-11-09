@@ -2,7 +2,7 @@
 
 | Category | Requires | Version |
 |:--------:|:-------:|:--------:|
-|**Maps**|<span class="chip chip-any">API 19, Android 4.4 - 4.4.4 KitKat</span>|<span class="chip chip-number">2</span>|
+|**Maps**|<span class="chip chip-any">API 21, Android 5.0 Lollipop</span>|<span class="chip chip-number">2</span>|
 
 ## Overview
 
@@ -205,6 +205,8 @@ The title displayed in the info window that appears when the user clicks on the 
 ### Type
 
 <span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span> :heavy_minus_sign: <span class="chip chip-rw">Read</span>  - <span class="chip chip-bd">Blocks</span></span>
+
+Returns the type of the feature. For Circles, this returns MapFeature.Circle ("Circle").
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Circle%22,%20%22name%22:%20%22Type%22,%20%22getter%22:%20true%7D"></div>
 

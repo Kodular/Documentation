@@ -4,7 +4,7 @@
 
 | Category | Requires | Version |
 |:--------:|:-------:|:--------:|
-|**Monetization > Advertising**|<span class="chip chip-any">API 19, Android 4.4 - 4.4.4 KitKat</span>|<span class="chip chip-number">2</span>|
+|**Monetization > Advertising**|<span class="chip chip-any">API 21, Android 5.0 Lollipop</span>|<span class="chip chip-number">2</span>|
 
 ## Overview
 
@@ -93,6 +93,8 @@ Enter Application Key. Go to Amazon Developer Portal and sign-in for your Applic
 ### Enable Debug
 
 <span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
+
+Property for EnableDebug
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Amazon%20Interstitial%22,%20%22name%22:%20%22Enable%20Debug%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Amazon%20Interstitial%22,%20%22name%22:%20%22Enable%20Debug%22,%20%22getter%22:%20false%7D"></div>

@@ -4,7 +4,7 @@
 
 | Category | Requires | Version |
 |:--------:|:-------:|:--------:|
-|**LEGO® MINDSTORMS® > EV3**|<span class="chip chip-any">API 19, Android 4.4 - 4.4.4 KitKat</span>|<span class="chip chip-number">1</span>|
+|**LEGO® MINDSTORMS® > EV3**|<span class="chip chip-any">API 21, Android 5.0 Lollipop</span>|<span class="chip chip-number">2</span>|
 
 ## Overview
 
@@ -42,11 +42,15 @@ Returns the current distance in centimeters as a value between 0 and 254, or -1 
 
 ### Set CM Unit
 
+:warning: ==**Deprecated**==
+
 Measure the distance in centimeters.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Ultrasonic%20Sensor%22,%20%22name%22:%20%22Set%20CM%20Unit%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
 
 ### Set Inch Unit
+
+:warning: ==**Deprecated**==
 
 Measure the distance in inches.
 

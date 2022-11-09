@@ -6,8 +6,6 @@
 |:--------:|:-------:|:--------:|
 |**Experimental**|<span class="chip chip-any">API 21, Android 5.0 Lollipop</span>|<span class="chip chip-number">1</span>|
 
-==This component requires a higher **Minimum Android SDK** in your app (_API 19, Android 4.4 - 4.4.4 KitKat_ -> _API 21, Android 5.0 Lollipop_)==
-
 ## Overview
 
 A non-visible component that lets the user download app updates from within the app.   

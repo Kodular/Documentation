@@ -4,7 +4,7 @@
 
 | Category | Requires | Version |
 |:--------:|:-------:|:--------:|
-|**Connectivity**|<span class="chip chip-any">API 19, Android 4.4 - 4.4.4 KitKat</span>|<span class="chip chip-number">2</span>|
+|**Connectivity**|<span class="chip chip-any">API 21, Android 5.0 Lollipop</span>|<span class="chip chip-number">2</span>|
 
 ## Overview
 
@@ -59,7 +59,7 @@ Get the progress (in percentage) of the current download task.
 
 ### Download
 
-Start the download process of the given download url.
+Start the download of the given download url.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Download%22,%20%22name%22:%20%22Download%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
 

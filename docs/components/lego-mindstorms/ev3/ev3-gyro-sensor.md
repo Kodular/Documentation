@@ -4,7 +4,7 @@
 
 | Category | Requires | Version |
 |:--------:|:-------:|:--------:|
-|**LEGO® MINDSTORMS® > EV3**|<span class="chip chip-any">API 19, Android 4.4 - 4.4.4 KitKat</span>|<span class="chip chip-number">1</span>|
+|**LEGO® MINDSTORMS® > EV3**|<span class="chip chip-any">API 21, Android 5.0 Lollipop</span>|<span class="chip chip-number">2</span>|
 
 ## Overview
 
@@ -34,11 +34,15 @@ Returns the current angle or rotation speed based on current mode, or -1 if the 
 
 ### Set Angle Mode
 
+:warning: ==**Deprecated**==
+
 Measures the orientation of the sensor.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Gyro%20Sensor%22,%20%22name%22:%20%22Set%20Angle%20Mode%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
 
 ### Set Rate Mode
+
+:warning: ==**Deprecated**==
 
 Measures the angular velocity of the sensor.
 

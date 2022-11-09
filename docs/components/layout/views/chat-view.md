@@ -2,7 +2,7 @@
 
 | Category | Requires | Version |
 |:--------:|:-------:|:--------:|
-|**Layout > Views**|<span class="chip chip-any">API 19, Android 4.4 - 4.4.4 KitKat</span>|<span class="chip chip-number">3</span>|
+|**Layout > Views**|<span class="chip chip-any">API 21, Android 5.0 Lollipop</span>|<span class="chip chip-number">3</span>|
 
 ## Overview
 
@@ -365,11 +365,15 @@ Specifies the path of the component's image. If there is both an Image and a Bac
 
 <span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>5</i></span> :heavy_minus_sign: <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span></span>
 
+Property for MessagesCornerRadius
+
 ### Messages Font Size
 
 <small>Available as ^^Advanced^^ Property</small>
 
 <span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>14.0</i></span> :heavy_minus_sign: <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span></span>
+
+Property for MessagesFontSize
 
 ### Receivers Background Color
 
@@ -402,21 +406,29 @@ Specifies the color for receivers's title messages.
 
 <span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>0</i></span> :heavy_minus_sign: <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span></span>
 
+Property for ReceiversTypefaceMessage
+
 ### Receivers Typeface Message Import
 
 <small>Available as ^^Advanced^^ Property</small>
 
 <span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span> :heavy_minus_sign: <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span></span>
 
+Property for ReceiversTypefaceMessageImport
+
 ### Receivers Typeface Title
 
 <span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>0</i></span> :heavy_minus_sign: <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span></span>
+
+Property for ReceiversTypefaceTitle
 
 ### Receivers Typeface Title Import
 
 <small>Available as ^^Advanced^^ Property</small>
 
 <span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span> :heavy_minus_sign: <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span></span>
+
+Property for ReceiversTypefaceTitleImport
 
 ### Scrollbar
 
@@ -458,21 +470,29 @@ Specifies the color for sender's title messages.
 
 <span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>0</i></span> :heavy_minus_sign: <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span></span>
 
+Property for SendersTypefaceMessage
+
 ### Senders Typeface Message Import
 
 <small>Available as ^^Advanced^^ Property</small>
 
 <span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span> :heavy_minus_sign: <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span></span>
 
+Property for SendersTypefaceMessageImport
+
 ### Senders Typeface Title
 
 <span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>0</i></span> :heavy_minus_sign: <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span></span>
+
+Property for SendersTypefaceTitle
 
 ### Senders Typeface Title Import
 
 <small>Available as ^^Advanced^^ Property</small>
 
 <span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span> :heavy_minus_sign: <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span></span>
+
+Property for SendersTypefaceTitleImport
 
 ### Swipeable
 
@@ -491,11 +511,15 @@ If set to true you can swipe with your fingers through views.
 
 <span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>5</i></span> :heavy_minus_sign: <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span></span>
 
+Property for TimestampCornerRadius
+
 ### Timestamp Font Size
 
 <small>Available as ^^Advanced^^ Property</small>
 
 <span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>14.0</i></span> :heavy_minus_sign: <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span></span>
+
+Property for TimestampFontSize
 
 ### Timestamp Text Color
 
@@ -511,6 +535,8 @@ Specifies the color for the timestamp.
 <small>Available as ^^Advanced^^ Property</small>
 
 <span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>14.0</i></span> :heavy_minus_sign: <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span></span>
+
+Property for TitleFontSize
 
 ### Visible
 

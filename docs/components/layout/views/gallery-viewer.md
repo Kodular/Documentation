@@ -2,7 +2,7 @@
 
 | Category | Requires | Version |
 |:--------:|:-------:|:--------:|
-|**Layout > Views**|<span class="chip chip-any">API 19, Android 4.4 - 4.4.4 KitKat</span>|<span class="chip chip-number">1</span>|
+|**Layout > Views**|<span class="chip chip-any">API 21, Android 5.0 Lollipop</span>|<span class="chip chip-number">1</span>|
 
 ## Overview
 
@@ -60,6 +60,8 @@ Sets the spacing (in DIP) between images
 ### Selection
 
 <span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Blocks</span></span>
+
+Property for Selection
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Gallery%20Viewer%22,%20%22name%22:%20%22Selection%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Gallery%20Viewer%22,%20%22name%22:%20%22Selection%22,%20%22getter%22:%20false%7D"></div>

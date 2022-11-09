@@ -2,7 +2,7 @@
 
 | Category | Requires | Version |
 |:--------:|:-------:|:--------:|
-|**Maps**|<span class="chip chip-any">API 19, Android 4.4 - 4.4.4 KitKat</span>|<span class="chip chip-number">2</span>|
+|**Maps**|<span class="chip chip-any">API 21, Android 5.0 Lollipop</span>|<span class="chip chip-number">2</span>|
 
 ## Overview
 
@@ -132,6 +132,8 @@ The Draggable property is used to set whether or not the user can drag the Marke
 
 <span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>0</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
 
+Property for EastLongitude
+
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Rectangle%22,%20%22name%22:%20%22East%20Longitude%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Rectangle%22,%20%22name%22:%20%22East%20Longitude%22,%20%22getter%22:%20false%7D"></div>
 
@@ -166,12 +168,16 @@ The opacity of the interior of the map feature.
 
 <span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>0</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
 
+Property for NorthLatitude
+
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Rectangle%22,%20%22name%22:%20%22North%20Latitude%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Rectangle%22,%20%22name%22:%20%22North%20Latitude%22,%20%22getter%22:%20false%7D"></div>
 
 ### South Latitude
 
 <span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>0</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
+
+Property for SouthLatitude
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Rectangle%22,%20%22name%22:%20%22South%20Latitude%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Rectangle%22,%20%22name%22:%20%22South%20Latitude%22,%20%22getter%22:%20false%7D"></div>
@@ -216,7 +222,7 @@ The title displayed in the info window that appears when the user clicks on the 
 
 <span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span> :heavy_minus_sign: <span class="chip chip-rw">Read</span>  - <span class="chip chip-bd">Blocks</span></span>
 
-The type of the feature. For rectangles, this returns the text "Rectangle".
+Returns the type of the feature. For rectangles, this returns MapFeature.Rectangle ("Rectangle").
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Rectangle%22,%20%22name%22:%20%22Type%22,%20%22getter%22:%20true%7D"></div>
 
@@ -232,6 +238,8 @@ Specifies whether the component should be visible on the screen. Value is true i
 ### West Longitude
 
 <span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>0</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
+
+Property for WestLongitude
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Rectangle%22,%20%22name%22:%20%22West%20Longitude%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Rectangle%22,%20%22name%22:%20%22West%20Longitude%22,%20%22getter%22:%20false%7D"></div>

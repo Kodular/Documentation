@@ -4,16 +4,11 @@
 
 | Category | Requires | Version |
 |:--------:|:-------:|:--------:|
-|**LEGO® MINDSTORMS® > EV3**|<span class="chip chip-any">API 19, Android 4.4 - 4.4.4 KitKat</span>|<span class="chip chip-number">1</span>|
+|**LEGO® MINDSTORMS® > EV3**|<span class="chip chip-any">API 21, Android 5.0 Lollipop</span>|<span class="chip chip-number">1</span>|
 
 ## Overview
 
 A component that provides a high-level interface to sound functionalities on LEGO MINDSTORMS EV3 robot.
-
-??? example "Permissions"
-    * [android.permission.INTERNET](https://developer.android.com/reference/android/Manifest.permission.html#INTERNET)
-    * [android.permission.READ_EXTERNAL_STORAGE](https://developer.android.com/reference/android/Manifest.permission.html#READ_EXTERNAL_STORAGE)
-    * [android.permission.WRITE_EXTERNAL_STORAGE](https://developer.android.com/reference/android/Manifest.permission.html#WRITE_EXTERNAL_STORAGE)
 
 ## Methods
 

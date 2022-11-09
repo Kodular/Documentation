@@ -4,7 +4,7 @@
 
 | Category | Requires | Version |
 |:--------:|:-------:|:--------:|
-|**Experimental**|<span class="chip chip-any">API 19, Android 4.4 - 4.4.4 KitKat</span>|<span class="chip chip-number">2</span>|
+|**Experimental**|<span class="chip chip-any">API 21, Android 5.0 Lollipop</span>|<span class="chip chip-number">3</span>|
 
 ## Overview
 
@@ -56,6 +56,14 @@ Whether or not to enable instant apps.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Custom%20Tabs%22,%20%22name%22:%20%22Instant%20Apps%20Enabled%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Custom%20Tabs%22,%20%22name%22:%20%22Instant%20Apps%20Enabled%22,%20%22getter%22:%20false%7D"></div>
+
+### Prefer Native
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span> :heavy_minus_sign: <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
+
+Should open the native app handling the URL instead.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Custom%20Tabs%22,%20%22name%22:%20%22Prefer%20Native%22,%20%22getter%22:%20false%7D"></div>
 
 ### Show Title
 

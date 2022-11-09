@@ -4,7 +4,7 @@
 
 | Category | Requires | Version |
 |:--------:|:-------:|:--------:|
-|**Social**|<span class="chip chip-any">API 19, Android 4.4 - 4.4.4 KitKat</span>|<span class="chip chip-number">2</span>|
+|**Social**|<span class="chip chip-any">API 21, Android 5.0 Lollipop</span>|<span class="chip chip-number">3</span>|
 
 ## Overview
 
@@ -15,10 +15,9 @@ Often, this component is used with the `` ContactPicker `` component, which lets
 To directly specify the phone number (e.g., 650-555-1212), set the `` PhoneNumber `` property to a Text with the specified digits (e.g., "6505551212"). Dashes, dots, and parentheses may be included (e.g., "(650)-555-1212") but will be ignored; spaces may not be included.
 
 ??? example "Permissions"
-    * [android.permission.CALL_PHONE](https://developer.android.com/reference/android/Manifest.permission.html#CALL_PHONE)
-    * [android.permission.READ_CALL_LOG](https://developer.android.com/reference/android/Manifest.permission.html#READ_CALL_LOG)
-    * [android.permission.PROCESS_OUTGOING_CALLS](https://developer.android.com/reference/android/Manifest.permission.html#PROCESS_OUTGOING_CALLS)
     * [android.permission.READ_PHONE_STATE](https://developer.android.com/reference/android/Manifest.permission.html#READ_PHONE_STATE)
+    * [android.permission.PROCESS_OUTGOING_CALLS](https://developer.android.com/reference/android/Manifest.permission.html#PROCESS_OUTGOING_CALLS) if using [Incoming Call Answered](#incoming-call-answered), [Phone Call Ended](#phone-call-ended) or [Phone Call Started](#phone-call-started)
+    * [android.permission.CALL_PHONE](https://developer.android.com/reference/android/Manifest.permission.html#CALL_PHONE) if using [MakePhoneCallDirect](#makephonecalldirect)
 
 ## Events
 
@@ -61,6 +60,12 @@ Event indicating that a phonecall has started. If status is 1, incoming call is 
 Makes a phone call using the number in the PhoneNumber property.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Phone%20Call%22,%20%22name%22:%20%22Make%20Phone%20Call%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
+
+### MakePhoneCallDirect
+
+Makes a phone call using the number in the PhoneNumber property.
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Phone%20Call%22,%20%22name%22:%20%22MakePhoneCallDirect%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
 
 ## Properties
 

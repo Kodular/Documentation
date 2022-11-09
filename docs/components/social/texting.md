@@ -4,7 +4,7 @@
 
 | Category | Requires | Version |
 |:--------:|:-------:|:--------:|
-|**Social**|<span class="chip chip-any">API 19, Android 4.4 - 4.4.4 KitKat</span>|<span class="chip chip-number">3</span>|
+|**Social**|<span class="chip chip-any">API 21, Android 5.0 Lollipop</span>|<span class="chip chip-number">5</span>|
 
 ## Overview
 
@@ -35,14 +35,15 @@ To specify the phone number (e.g., 650-555-1212), set the `` PhoneNumber `` prop
 Another way for an app to specify a phone number would be to include a `` PhoneNumberPicker `` component, which lets the users select a phone numbers from the ones stored in the the phone's contacts.
 
 ??? example "Permissions"
-    * [android.permission.RECEIVE_SMS](https://developer.android.com/reference/android/Manifest.permission.html#RECEIVE_SMS)
-    * [android.permission.SEND_SMS](https://developer.android.com/reference/android/Manifest.permission.html#SEND_SMS)
     * [android.permission.GET_ACCOUNTS](https://developer.android.com/reference/android/Manifest.permission.html#GET_ACCOUNTS)
     * [android.permission.USE_CREDENTIALS](https://developer.android.com/reference/android/Manifest.permission.html#USE_CREDENTIALS)
     * [android.permission.ACCOUNT_MANAGER](https://developer.android.com/reference/android/Manifest.permission.html#ACCOUNT_MANAGER)
     * [com.google.android.apps.googlevoice.permission.RECEIVE_SMS](https://developer.android.com/reference/android/Manifest.permission.html#com.google.android.apps.googlevoice.permission.RECEIVE_SMS)
     * [com.google.android.apps.googlevoice.permission.SEND_SMS](https://developer.android.com/reference/android/Manifest.permission.html#com.google.android.apps.googlevoice.permission.SEND_SMS)
     * [android.permission.MANAGE_ACCOUNTS](https://developer.android.com/reference/android/Manifest.permission.html#MANAGE_ACCOUNTS)
+    * [android.permission.RECEIVE_SMS](https://developer.android.com/reference/android/Manifest.permission.html#RECEIVE_SMS) if using [Receiving Enabled](#receiving-enabled)
+    * [android.permission.SEND_SMS](https://developer.android.com/reference/android/Manifest.permission.html#SEND_SMS) if using [SendMessageDirect](#sendmessagedirect)
+    * [android.permission.READ_PHONE_STATE](https://developer.android.com/reference/android/Manifest.permission.html#READ_PHONE_STATE) if using [SendMessageDirect](#sendmessagedirect)
 
 ## Events
 
@@ -64,6 +65,12 @@ Event that's raised when a text message is received by the phone.
 Send a text message
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Texting%22,%20%22name%22:%20%22Send%20Message%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
+
+### SendMessageDirect
+
+Send a text message directly
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Texting%22,%20%22name%22:%20%22SendMessageDirect%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
 
 ## Properties
 
@@ -96,7 +103,7 @@ Sets the phone number to send the text message to when the SendMessage function 
 
 ### Receiving Enabled
 
-<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>2</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>1</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
 
 If set to 1 (OFF) no messages will be received. If set to 2 (FOREGROUND) or3 (ALWAYS) the component will respond to messages if it is running. If the app is not running then the message will be discarded if set to 2 (FOREGROUND). If set to 3 (ALWAYS) and the app is not running the phone will show a notification. Selecting the notification will bring up the app and signal the MessageReceived event. Messages received when the app is dormant will be queued, and so several MessageReceived events might appear when the app awakens. As an app developer, it would be a good idea to give your users control over this property, so they can make their phones ignore text messages when your app is installed.
 

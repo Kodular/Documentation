@@ -4,7 +4,7 @@
 
 | Category | Requires | Version |
 |:--------:|:-------:|:--------:|
-|**LEGO® MINDSTORMS® > EV3**|<span class="chip chip-any">API 19, Android 4.4 - 4.4.4 KitKat</span>|<span class="chip chip-number">1</span>|
+|**LEGO® MINDSTORMS® > EV3**|<span class="chip chip-any">API 21, Android 5.0 Lollipop</span>|<span class="chip chip-number">2</span>|
 
 ## Overview
 
@@ -69,17 +69,23 @@ It returns the light level in percentage, or -1 when the light level cannot be r
 
 ### Set Ambient Mode
 
+:warning: ==**Deprecated**==
+
 Make the sensor read the light level without reflected light.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Color%20Sensor%22,%20%22name%22:%20%22Set%20Ambient%20Mode%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
 
 ### Set Color Mode
 
+:warning: ==**Deprecated**==
+
 Enter the color detection mode.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Color%20Sensor%22,%20%22name%22:%20%22Set%20Color%20Mode%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
 
 ### Set Reflected Mode
+
+:warning: ==**Deprecated**==
 
 Make the sensor read the light level with reflected light.
 

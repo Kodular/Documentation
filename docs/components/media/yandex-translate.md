@@ -4,7 +4,7 @@
 
 | Category | Requires | Version |
 |:--------:|:-------:|:--------:|
-|**Media**|<span class="chip chip-any">API 19, Android 4.4 - 4.4.4 KitKat</span>|<span class="chip chip-number">2</span>|
+|**Media**|<span class="chip chip-any">API 21, Android 5.0 Lollipop</span>|<span class="chip chip-number">2</span>|
 
 ## Overview
 
@@ -50,5 +50,7 @@ Note: Yandex.Translate will attempt to detect the source language. You can also 
 ### API Key
 
 <span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span> :heavy_minus_sign: <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
+
+Property for ApiKey
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Yandex%20Translate%22,%20%22name%22:%20%22API%20Key%22,%20%22getter%22:%20false%7D"></div>

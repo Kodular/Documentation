@@ -4,7 +4,7 @@
 
 | Category | Requires | Version |
 |:--------:|:-------:|:--------:|
-|**User Interface**|<span class="chip chip-any">API 19, Android 4.4 - 4.4.4 KitKat</span>|<span class="chip chip-number">11</span>|
+|**User Interface**|<span class="chip chip-any">API 21, Android 5.0 Lollipop</span>|<span class="chip chip-number">11</span>|
 
 ## Overview
 
@@ -562,6 +562,8 @@ Specifies the text color for alerts or for dialogs message.
 
 <span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>0</i></span> :heavy_minus_sign: <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span></span>
 
+Property for TextFontTypeface
+
 ### Text Font Typeface Import
 
 <small>Available as ^^Advanced^^ Property</small>
@@ -584,6 +586,8 @@ Specifies the title text color for dialogs.
 ### Title Font Typeface
 
 <span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>0</i></span> :heavy_minus_sign: <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span></span>
+
+Property for TitleFontTypeface
 
 ### Title Font Typeface Import
 

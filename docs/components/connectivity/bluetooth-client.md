@@ -4,15 +4,17 @@
 
 | Category | Requires | Version |
 |:--------:|:-------:|:--------:|
-|**Connectivity**|<span class="chip chip-any">API 19, Android 4.4 - 4.4.4 KitKat</span>|<span class="chip chip-number">6</span>|
+|**Connectivity**|<span class="chip chip-any">API 21, Android 5.0 Lollipop</span>|<span class="chip chip-number">6</span>|
 
 ## Overview
 
 A non-visible component that acts as a bluetooth client.
 
 ??? example "Permissions"
+    * [android.permission.BLUETOOTH_SCAN](https://developer.android.com/reference/android/Manifest.permission.html#BLUETOOTH_SCAN)
     * [android.permission.BLUETOOTH_ADMIN](https://developer.android.com/reference/android/Manifest.permission.html#BLUETOOTH_ADMIN)
     * [android.permission.BLUETOOTH](https://developer.android.com/reference/android/Manifest.permission.html#BLUETOOTH)
+    * [android.permission.BLUETOOTH_CONNECT](https://developer.android.com/reference/android/Manifest.permission.html#BLUETOOTH_CONNECT)
 
 ## Events
 

@@ -4,7 +4,7 @@
 
 | Category | Requires | Version |
 |:--------:|:-------:|:--------:|
-|**Sensors**|<span class="chip chip-any">API 19, Android 4.4 - 4.4.4 KitKat</span>|<span class="chip chip-number">3</span>|
+|**Sensors**|<span class="chip chip-any">API 21, Android 5.0 Lollipop</span>|<span class="chip chip-number">3</span>|
 
 ## Overview
 
@@ -93,6 +93,8 @@ The most recently available altitude value, in meters. If no value isavailable, 
 ### Available Providers
 
 <span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-list">List</span> :heavy_minus_sign: <span class="chip chip-rw">Read</span>  - <span class="chip chip-bd">Blocks</span></span>
+
+Property for AvailableProviders
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Location%20Sensor%22,%20%22name%22:%20%22Available%20Providers%22,%20%22getter%22:%20true%7D"></div>
 

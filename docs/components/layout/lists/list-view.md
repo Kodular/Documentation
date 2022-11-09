@@ -2,7 +2,7 @@
 
 | Category | Requires | Version |
 |:--------:|:-------:|:--------:|
-|**Layout > Lists**|<span class="chip chip-any">API 19, Android 4.4 - 4.4.4 KitKat</span>|<span class="chip chip-number">13</span>|
+|**Layout > Lists**|<span class="chip chip-any">API 21, Android 5.0 Lollipop</span>|<span class="chip chip-number">13</span>|
 
 ## Overview
 
@@ -94,9 +94,13 @@ The hint that will be displayed in the filter bar.
 
 <span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>False</i></span> :heavy_minus_sign: <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span></span>
 
+Property for FontBold
+
 ### Font Italic
 
 <span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>False</i></span> :heavy_minus_sign: <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span></span>
+
+Property for FontItalic
 
 ### Font Size
 
@@ -110,6 +114,8 @@ The text size of the listview items.
 ### Font Typeface
 
 <span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>0</i></span> :heavy_minus_sign: <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span></span>
+
+Property for FontTypeface
 
 ### Font Typeface Import
 
@@ -280,6 +286,8 @@ Sets visibility of ShowSelectionColor. True will show the selection color on a s
 ### Text Alignment
 
 <span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>0</i></span> :heavy_minus_sign: <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span></span>
+
+Property for TextAlignment
 
 ### Text Color
 

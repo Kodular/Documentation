@@ -1,9 +1,6 @@
 # Overview <small>of Monetization > Advertising</small>
 
 * [AdColony Interstitial](adcolony-interstitial.md)
-* [AdMob Banner](admob-banner.md)
-* [AdMob Interstitial](admob-interstitial.md)
-* [AdMob Rewarded Video](admob-rewarded-video.md)
 * [Amazon Banner](amazon-banner.md)
 * [Amazon Interstitial](amazon-interstitial.md)
 * [AppLovin Interstitial](applovin-interstitial.md)

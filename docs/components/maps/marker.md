@@ -2,7 +2,7 @@
 
 | Category | Requires | Version |
 |:--------:|:-------:|:--------:|
-|**Maps**|<span class="chip chip-any">API 19, Android 4.4 - 4.4.4 KitKat</span>|<span class="chip chip-number">3</span>|
+|**Maps**|<span class="chip chip-any">API 21, Android 5.0 Lollipop</span>|<span class="chip chip-number">4</span>|
 
 ## Overview
 
@@ -123,7 +123,7 @@ Show the infobox for the feature. This will show the infobox even if
 
 <span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>3</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
 
-The horizontal alignment property controls where the Marker's anchor is located relative to its width.
+The horizontal alignment property controls where the Marker's anchor is located relative to its width. The choices are: 1 = left aligned, 3 = horizontally centered, 2 = right aligned.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Marker%22,%20%22name%22:%20%22Anchor%20Horizontal%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Marker%22,%20%22name%22:%20%22Anchor%20Horizontal%22,%20%22getter%22:%20false%7D"></div>
@@ -132,7 +132,7 @@ The horizontal alignment property controls where the Marker's anchor is located 
 
 <span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>3</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
 
-The vertical alignment property controls where the Marker's anchor is located relative to its height.
+The vertical alignment property controls where the Marker's anchor is located relative to its height. The choices are: 1 = aligned at the top, 2 = vertically centered, 3 = aligned at the bottom.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Marker%22,%20%22name%22:%20%22Anchor%20Vertical%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Marker%22,%20%22name%22:%20%22Anchor%20Vertical%22,%20%22getter%22:%20false%7D"></div>
@@ -186,12 +186,16 @@ The opacity of the interior of the map feature.
 
 <span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Blocks</span></span>
 
+Property for Height
+
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Marker%22,%20%22name%22:%20%22Height%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Marker%22,%20%22name%22:%20%22Height%22,%20%22getter%22:%20false%7D"></div>
 
 ### Height Percent
 
 <span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> :heavy_minus_sign: <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Blocks</span></span>
+
+Property for HeightPercent
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Marker%22,%20%22name%22:%20%22Height%20Percent%22,%20%22getter%22:%20false%7D"></div>
 
@@ -208,12 +212,16 @@ The ImageAsset property is used to provide an alternative image for the Marker.
 
 <span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>0</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
 
+Property for Latitude
+
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Marker%22,%20%22name%22:%20%22Latitude%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Marker%22,%20%22name%22:%20%22Latitude%22,%20%22getter%22:%20false%7D"></div>
 
 ### Longitude
 
 <span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>0</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
+
+Property for Longitude
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Marker%22,%20%22name%22:%20%22Longitude%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Marker%22,%20%22name%22:%20%22Longitude%22,%20%22getter%22:%20false%7D"></div>
@@ -258,6 +266,8 @@ The title displayed in the info window that appears when the user clicks on the 
 
 <span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span> :heavy_minus_sign: <span class="chip chip-rw">Read</span>  - <span class="chip chip-bd">Blocks</span></span>
 
+Returns the type of the feature. For Markers, this returns MapFeature.Marker ("Marker").
+
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Marker%22,%20%22name%22:%20%22Type%22,%20%22getter%22:%20true%7D"></div>
 
 ### Visible
@@ -273,11 +283,15 @@ Specifies whether the component should be visible on the screen. Value is true i
 
 <span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Blocks</span></span>
 
+Property for Width
+
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Marker%22,%20%22name%22:%20%22Width%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Marker%22,%20%22name%22:%20%22Width%22,%20%22getter%22:%20false%7D"></div>
 
 ### Width Percent
 
 <span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> :heavy_minus_sign: <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Blocks</span></span>
+
+Property for WidthPercent
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Marker%22,%20%22name%22:%20%22Width%20Percent%22,%20%22getter%22:%20false%7D"></div>

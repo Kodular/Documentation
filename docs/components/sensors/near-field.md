@@ -4,7 +4,7 @@
 
 | Category | Requires | Version |
 |:--------:|:-------:|:--------:|
-|**Sensors**|<span class="chip chip-any">API 19, Android 4.4 - 4.4.4 KitKat</span>|<span class="chip chip-number">1</span>|
+|**Sensors**|<span class="chip chip-any">API 21, Android 5.0 Lollipop</span>|<span class="chip chip-number">1</span>|
 
 ## Overview
 
@@ -68,5 +68,7 @@ Returns the content of the text that's going to be written to the tag.
 ### Write Type
 
 <span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> :heavy_minus_sign: <span class="chip chip-rw">Read</span>  - <span class="chip chip-bd">Blocks</span></span>
+
+Property for WriteType
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Near%20Field%22,%20%22name%22:%20%22Write%20Type%22,%20%22getter%22:%20true%7D"></div>

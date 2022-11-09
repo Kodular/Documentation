@@ -2,7 +2,7 @@
 
 | Category | Requires | Version |
 |:--------:|:-------:|:--------:|
-|**Layout > Views**|<span class="chip chip-any">API 19, Android 4.4 - 4.4.4 KitKat</span>|<span class="chip chip-number">13</span>|
+|**Layout > Views**|<span class="chip chip-any">API 21, Android 5.0 Lollipop</span>|<span class="chip chip-number">13</span>|
 
 ## Overview
 
@@ -75,7 +75,11 @@ Event for listening download links.
 
 Triggers when page finished loading
 
-<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Web%20Viewer%22,%20%22name%22:%20%22Page%20Loaded%22,%20%22param%22:%20%5B%5D%7D"></div>
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Web%20Viewer%22,%20%22name%22:%20%22Page%20Loaded%22,%20%22param%22:%20%5B%22url%22%5D%7D"></div>
+
+| Params | []() |
+|--------|------|
+|url|<span class="chip chip-text">Text</span>|
 
 ### Progress Changed
 

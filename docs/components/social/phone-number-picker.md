@@ -2,7 +2,7 @@
 
 | Category | Requires | Version |
 |:--------:|:-------:|:--------:|
-|**Social**|<span class="chip chip-any">API 19, Android 4.4 - 4.4.4 KitKat</span>|<span class="chip chip-number">10</span>|
+|**Social**|<span class="chip chip-any">API 21, Android 5.0 Lollipop</span>|<span class="chip chip-number">10</span>|
 
 ## Overview
 
@@ -15,7 +15,7 @@ A button that, when clicked on, displays a list of the contacts' phone numbers t
 
 Other properties affect the appearance of the button (`` TextAlignment ``, `` BackgroundColor ``, etc.) and whether it can be clicked on (`` Enabled ``).
 
-The PhoneNumberPicker component may not work on all Android devices. For example, on Android systems before system 3.0, the returned lists of phone numbers and email addresses will be empty
+The PhoneNumberPicker component may not work on all Android devices. For example, on Android systems before system 3.0, the returned lists of phone numbers and email addresses will be empty.
 
 ??? example "Permissions"
     * [android.permission.READ_CONTACTS](https://developer.android.com/reference/android/Manifest.permission.html#READ_CONTACTS)

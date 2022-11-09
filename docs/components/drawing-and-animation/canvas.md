@@ -2,7 +2,7 @@
 
 | Category | Requires | Version |
 |:--------:|:-------:|:--------:|
-|**Drawing and Animation**|<span class="chip chip-any">API 19, Android 4.4 - 4.4.4 KitKat</span>|<span class="chip chip-number">14</span>|
+|**Drawing and Animation**|<span class="chip chip-any">API 21, Android 5.0 Lollipop</span>|<span class="chip chip-number">15</span>|
 
 ## Overview
 
@@ -25,7 +25,7 @@ There are events to tell when and where a Canvas has been touched or a `` Sprite
 
 ??? example "Permissions"
     * [android.permission.INTERNET](https://developer.android.com/reference/android/Manifest.permission.html#INTERNET)
-    * [android.permission.WRITE_EXTERNAL_STORAGE](https://developer.android.com/reference/android/Manifest.permission.html#WRITE_EXTERNAL_STORAGE)
+    * [android.permission.WRITE_EXTERNAL_STORAGE](https://developer.android.com/reference/android/Manifest.permission.html#WRITE_EXTERNAL_STORAGE) if using [Save](#save) or [Save As](#save-as)
 
 ## Events
 
@@ -311,9 +311,13 @@ Determines whether moves can extend beyond the canvas borders. Default is false.
 
 <span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>False</i></span> :heavy_minus_sign: <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span></span>
 
+Property for FontBold
+
 ### Font Italic
 
 <span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>False</i></span> :heavy_minus_sign: <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span></span>
+
+Property for FontItalic
 
 ### Font Size
 
@@ -327,6 +331,8 @@ The font size of text drawn on the canvas.
 ### Font Typeface
 
 <span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>0</i></span> :heavy_minus_sign: <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span></span>
+
+Property for FontTypeface
 
 ### Font Typeface Import
 
