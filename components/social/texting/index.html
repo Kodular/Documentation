@@ -3194,6 +3194,13 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#sendmessagedirect" class="md-nav__link">
+    SendMessageDirect
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -6212,6 +6219,13 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#sendmessagedirect" class="md-nav__link">
+    SendMessageDirect
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -6289,8 +6303,8 @@
 <tbody>
 <tr>
 <td style="text-align: center;"><strong>Social</strong></td>
-<td style="text-align: center;"><span class="chip chip-any">API 19, Android 4.4 - 4.4.4 KitKat</span></td>
-<td style="text-align: center;"><span class="chip chip-number">3</span></td>
+<td style="text-align: center;"><span class="chip chip-any">API 21, Android 5.0 Lollipop</span></td>
+<td style="text-align: center;"><span class="chip chip-number">5</span></td>
 </tr>
 </tbody>
 </table>
@@ -6305,14 +6319,15 @@
 <details class="example">
 <summary>Permissions</summary>
 <ul>
-<li><a href="https://developer.android.com/reference/android/Manifest.permission.html#RECEIVE_SMS">android.permission.RECEIVE_SMS</a></li>
-<li><a href="https://developer.android.com/reference/android/Manifest.permission.html#SEND_SMS">android.permission.SEND_SMS</a></li>
 <li><a href="https://developer.android.com/reference/android/Manifest.permission.html#GET_ACCOUNTS">android.permission.GET_ACCOUNTS</a></li>
 <li><a href="https://developer.android.com/reference/android/Manifest.permission.html#USE_CREDENTIALS">android.permission.USE_CREDENTIALS</a></li>
 <li><a href="https://developer.android.com/reference/android/Manifest.permission.html#ACCOUNT_MANAGER">android.permission.ACCOUNT_MANAGER</a></li>
 <li><a href="https://developer.android.com/reference/android/Manifest.permission.html#com.google.android.apps.googlevoice.permission.RECEIVE_SMS">com.google.android.apps.googlevoice.permission.RECEIVE_SMS</a></li>
 <li><a href="https://developer.android.com/reference/android/Manifest.permission.html#com.google.android.apps.googlevoice.permission.SEND_SMS">com.google.android.apps.googlevoice.permission.SEND_SMS</a></li>
 <li><a href="https://developer.android.com/reference/android/Manifest.permission.html#MANAGE_ACCOUNTS">android.permission.MANAGE_ACCOUNTS</a></li>
+<li><a href="https://developer.android.com/reference/android/Manifest.permission.html#RECEIVE_SMS">android.permission.RECEIVE_SMS</a> if using <a href="#receiving-enabled">Receiving Enabled</a></li>
+<li><a href="https://developer.android.com/reference/android/Manifest.permission.html#SEND_SMS">android.permission.SEND_SMS</a> if using <a href="#sendmessagedirect">SendMessageDirect</a></li>
+<li><a href="https://developer.android.com/reference/android/Manifest.permission.html#READ_PHONE_STATE">android.permission.READ_PHONE_STATE</a> if using <a href="#sendmessagedirect">SendMessageDirect</a></li>
 </ul>
 </details>
 <h2 id="events">Events<a class="headerlink" href="#events" title="Permanent link">&para;</a></h2>
@@ -6343,6 +6358,10 @@
 <p>Send a text message</p>
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Texting%22,%20%22name%22:%20%22Send%20Message%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
 
+<h3 id="sendmessagedirect">SendMessageDirect<a class="headerlink" href="#sendmessagedirect" title="Permanent link">&para;</a></h3>
+<p>Send a text message directly</p>
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Texting%22,%20%22name%22:%20%22SendMessageDirect%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
+
 <h2 id="properties">Properties<a class="headerlink" href="#properties" title="Permanent link">&para;</a></h2>
 <h3 id="google-voice-enabled">Google Voice Enabled<a class="headerlink" href="#google-voice-enabled" title="Permanent link">&para;</a></h3>
 <p><span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>False</i></span> <img alt="➖" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/2796.svg" title=":heavy_minus_sign:" /> <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span></p>
@@ -6363,7 +6382,7 @@
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Texting%22,%20%22name%22:%20%22Phone%20Number%22,%20%22getter%22:%20false%7D"></div>
 
 <h3 id="receiving-enabled">Receiving Enabled<a class="headerlink" href="#receiving-enabled" title="Permanent link">&para;</a></h3>
-<p><span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>2</i></span> <img alt="➖" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/2796.svg" title=":heavy_minus_sign:" /> <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span></p>
+<p><span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>1</i></span> <img alt="➖" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/2796.svg" title=":heavy_minus_sign:" /> <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span></p>
 <p>If set to 1 (OFF) no messages will be received. If set to 2 (FOREGROUND) or3 (ALWAYS) the component will respond to messages if it is running. If the app is not running then the message will be discarded if set to 2 (FOREGROUND). If set to 3 (ALWAYS) and the app is not running the phone will show a notification. Selecting the notification will bring up the app and signal the MessageReceived event. Messages received when the app is dormant will be queued, and so several MessageReceived events might appear when the app awakens. As an app developer, it would be a good idea to give your users control over this property, so they can make their phones ignore text messages when your app is installed.</p>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Texting%22,%20%22name%22:%20%22Receiving%20Enabled%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Texting%22,%20%22name%22:%20%22Receiving%20Enabled%22,%20%22getter%22:%20false%7D"></div>
@@ -6375,7 +6394,7 @@
 <div class="md-source-date">
   <small>
     
-      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">March 22, 2020</span>
+      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">November 9, 2022</span>
       
     
   </small>

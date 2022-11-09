@@ -172,7 +172,7 @@
     - Google Maps: components/google/google-maps.md
     - Google Play Games: components/google/google-play-games.md
     - Google reCaptcha: components/google/google-recaptcha.md
-    - Youtube Player: components/experimental/youtube-player.md
+    - Youtube Player: components/google/youtube-player.md
   - Monetization:
     - Overview: components/monetization/index.md
     - General:
@@ -183,9 +183,6 @@
     - Advertising:
       - Overview: components/monetization/advertising/index.md
       - AdColony Interstitial: components/monetization/advertising/adcolony-interstitial.md
-      - AdMob Banner: components/monetization/advertising/admob-banner.md
-      - AdMob Interstitial: components/monetization/advertising/admob-interstitial.md
-      - AdMob Rewarded Video: components/monetization/advertising/admob-rewarded-video.md
       - Amazon Banner: components/monetization/advertising/amazon-banner.md
       - Amazon Interstitial: components/monetization/advertising/amazon-interstitial.md
       - AppLovin Interstitial: components/monetization/advertising/applovin-interstitial.md

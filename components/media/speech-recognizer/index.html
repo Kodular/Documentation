@@ -2367,6 +2367,13 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#stop" class="md-nav__link">
+    Stop
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -2381,8 +2388,22 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#language" class="md-nav__link">
+    Language
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#result" class="md-nav__link">
     Result
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#use-legacy" class="md-nav__link">
+    Use Legacy
   </a>
   
 </li>
@@ -6205,6 +6226,13 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#stop" class="md-nav__link">
+    Stop
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -6219,8 +6247,22 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#language" class="md-nav__link">
+    Language
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#result" class="md-nav__link">
     Result
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#use-legacy" class="md-nav__link">
+    Use Legacy
   </a>
   
 </li>
@@ -6261,17 +6303,25 @@
 <tbody>
 <tr>
 <td style="text-align: center;"><strong>Media</strong></td>
-<td style="text-align: center;"><span class="chip chip-any">API 19, Android 4.4 - 4.4.4 KitKat</span></td>
-<td style="text-align: center;"><span class="chip chip-number">2</span></td>
+<td style="text-align: center;"><span class="chip chip-any">API 21, Android 5.0 Lollipop</span></td>
+<td style="text-align: center;"><span class="chip chip-number">3</span></td>
 </tr>
 </tbody>
 </table>
 <h2 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">&para;</a></h2>
 <p>A non-visible component that converts spoken words to text using voice recognition.</p>
+<details class="example">
+<summary>Permissions</summary>
+<ul>
+<li><a href="https://developer.android.com/reference/android/Manifest.permission.html#INTERNET">android.permission.INTERNET</a></li>
+<li><a href="https://developer.android.com/reference/android/Manifest.permission.html#RECORD_AUDIO">android.permission.RECORD_AUDIO</a></li>
+</ul>
+</details>
 <h2 id="events">Events<a class="headerlink" href="#events" title="Permanent link">&para;</a></h2>
 <h3 id="after-getting-text">After Getting Text<a class="headerlink" href="#after-getting-text" title="Permanent link">&para;</a></h3>
-<p>Simple event to raise after the VoiceReco activity has returned</p>
-<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Speech%20Recognizer%22,%20%22name%22:%20%22After%20Getting%20Text%22,%20%22param%22:%20%5B%22result%22%5D%7D"></div>
+<p>Simple event to raise after the VoiceReco activity has returned
+Partial is 'false' when SpeechRecognizer stops automatically after listening,else it is 'true' if SpeechRecognizer returns partial results.</p>
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Speech%20Recognizer%22,%20%22name%22:%20%22After%20Getting%20Text%22,%20%22param%22:%20%5B%22result%22,%20%22partial%22%5D%7D"></div>
 
 <table>
 <thead>
@@ -6285,6 +6335,10 @@
 <td>result</td>
 <td><span class="chip chip-text">Text</span></td>
 </tr>
+<tr>
+<td>partial</td>
+<td><span class="chip chip-boolean">Boolean</span></td>
+</tr>
 </tbody>
 </table>
 <h3 id="before-getting-text">Before Getting Text<a class="headerlink" href="#before-getting-text" title="Permanent link">&para;</a></h3>
@@ -6296,11 +6350,29 @@
 <p>Solicits speech input from the user. After the speech is converted totext, the AfterGettingText event will be raised.</p>
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Speech%20Recognizer%22,%20%22name%22:%20%22Get%20Text%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
 
+<h3 id="stop">Stop<a class="headerlink" href="#stop" title="Permanent link">&para;</a></h3>
+<p>Function used to forcefully stop listening speech in cases whereSpeechRecognizer cannot stop automatically
+This function works only when UseLegacy property is set to 'false'.</p>
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Speech%20Recognizer%22,%20%22name%22:%20%22Stop%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
+
 <h2 id="properties">Properties<a class="headerlink" href="#properties" title="Permanent link">&para;</a></h2>
+<h3 id="language">Language<a class="headerlink" href="#language" title="Permanent link">&para;</a></h3>
+<p><span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span> <img alt="➖" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/2796.svg" title=":heavy_minus_sign:" /> <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Blocks</span></span></p>
+<p>Suggests the language to use for recognizing speech. An empty string (the default) willuse the system's default language<br />
+ Language is specified using a <a href="https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes">language tag</a> with an optional region suffix, such as en or es-MX. The set of supported languages will vary by device.</p>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Speech%20Recognizer%22,%20%22name%22:%20%22Language%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Speech%20Recognizer%22,%20%22name%22:%20%22Language%22,%20%22getter%22:%20false%7D"></div>
+
 <h3 id="result">Result<a class="headerlink" href="#result" title="Permanent link">&para;</a></h3>
 <p><span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span> <img alt="➖" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/2796.svg" title=":heavy_minus_sign:" /> <span class="chip chip-rw">Read</span>  - <span class="chip chip-bd">Blocks</span></span></p>
 <p>Result property getter method.</p>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Speech%20Recognizer%22,%20%22name%22:%20%22Result%22,%20%22getter%22:%20true%7D"></div>
+
+<h3 id="use-legacy">Use Legacy<a class="headerlink" href="#use-legacy" title="Permanent link">&para;</a></h3>
+<p><span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span> <img alt="➖" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/2796.svg" title=":heavy_minus_sign:" /> <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span></p>
+<p>If true, an app can retain their older behaviour.</p>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Speech%20Recognizer%22,%20%22name%22:%20%22Use%20Legacy%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Speech%20Recognizer%22,%20%22name%22:%20%22Use%20Legacy%22,%20%22getter%22:%20false%7D"></div>
                 
                   
                     
@@ -6309,7 +6381,7 @@
 <div class="md-source-date">
   <small>
     
-      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">January 27, 2020</span>
+      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">November 9, 2022</span>
       
     
   </small>

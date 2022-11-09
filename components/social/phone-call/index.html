@@ -3152,6 +3152,13 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#makephonecalldirect" class="md-nav__link">
+    MakePhoneCallDirect
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -6219,6 +6226,13 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#makephonecalldirect" class="md-nav__link">
+    MakePhoneCallDirect
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -6275,8 +6289,8 @@
 <tbody>
 <tr>
 <td style="text-align: center;"><strong>Social</strong></td>
-<td style="text-align: center;"><span class="chip chip-any">API 19, Android 4.4 - 4.4.4 KitKat</span></td>
-<td style="text-align: center;"><span class="chip chip-number">2</span></td>
+<td style="text-align: center;"><span class="chip chip-any">API 21, Android 5.0 Lollipop</span></td>
+<td style="text-align: center;"><span class="chip chip-number">3</span></td>
 </tr>
 </tbody>
 </table>
@@ -6287,10 +6301,9 @@
 <details class="example">
 <summary>Permissions</summary>
 <ul>
-<li><a href="https://developer.android.com/reference/android/Manifest.permission.html#CALL_PHONE">android.permission.CALL_PHONE</a></li>
-<li><a href="https://developer.android.com/reference/android/Manifest.permission.html#READ_CALL_LOG">android.permission.READ_CALL_LOG</a></li>
-<li><a href="https://developer.android.com/reference/android/Manifest.permission.html#PROCESS_OUTGOING_CALLS">android.permission.PROCESS_OUTGOING_CALLS</a></li>
 <li><a href="https://developer.android.com/reference/android/Manifest.permission.html#READ_PHONE_STATE">android.permission.READ_PHONE_STATE</a></li>
+<li><a href="https://developer.android.com/reference/android/Manifest.permission.html#PROCESS_OUTGOING_CALLS">android.permission.PROCESS_OUTGOING_CALLS</a> if using <a href="#incoming-call-answered">Incoming Call Answered</a>, <a href="#phone-call-ended">Phone Call Ended</a> or <a href="#phone-call-started">Phone Call Started</a></li>
+<li><a href="https://developer.android.com/reference/android/Manifest.permission.html#CALL_PHONE">android.permission.CALL_PHONE</a> if using <a href="#makephonecalldirect">MakePhoneCallDirect</a></li>
 </ul>
 </details>
 <h2 id="events">Events<a class="headerlink" href="#events" title="Permanent link">&para;</a></h2>
@@ -6361,6 +6374,10 @@
 <p>Makes a phone call using the number in the PhoneNumber property.</p>
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Phone%20Call%22,%20%22name%22:%20%22Make%20Phone%20Call%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
 
+<h3 id="makephonecalldirect">MakePhoneCallDirect<a class="headerlink" href="#makephonecalldirect" title="Permanent link">&para;</a></h3>
+<p>Makes a phone call using the number in the PhoneNumber property.</p>
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Phone%20Call%22,%20%22name%22:%20%22MakePhoneCallDirect%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
+
 <h2 id="properties">Properties<a class="headerlink" href="#properties" title="Permanent link">&para;</a></h2>
 <h3 id="phone-number">Phone Number<a class="headerlink" href="#phone-number" title="Permanent link">&para;</a></h3>
 <p><span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span> <img alt="➖" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/2796.svg" title=":heavy_minus_sign:" /> <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span></p>
@@ -6375,7 +6392,7 @@
 <div class="md-source-date">
   <small>
     
-      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">March 22, 2020</span>
+      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">November 9, 2022</span>
       
     
   </small>
