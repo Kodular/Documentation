@@ -34,7 +34,7 @@ extra:
   # disqus: "kodular-docs"
   analytics:
     provider: google
-    property: UA-102230060-7
+    property: G-CRSVR9X0H2
   generator: false
   consent: true
 
