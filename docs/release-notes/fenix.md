@@ -358,3 +358,18 @@ slots. _It is recommended to keep it in `Optimized`, so Google chooses the best 
 * [Allow extension option list enums to not have fromUnderlyingValue method](https://github.com/mit-cml/appinventor-sources/pull/2731)
 
 * [Fix read permission asked in CloudDB.GotValue on Android 12](https://github.com/mit-cml/appinventor-sources/pull/2726)
+
+## 1.5B.3 Fenix   \|   _12 February 2023_
+
+### Components Changes
+
+- Added new **In-App Review** component.
+
+- Deprecated **Google Admob** components.
+_This component no longer serves ads, please switch to Google Ad Manager._
+
+### Bugs Fixed
+
+- Upgraded Google Play libraries.
+
+- Some other minor bugs have been fixes.
