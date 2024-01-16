@@ -156,13 +156,14 @@ Get product details from the specific product id.
 
 ### Purchase
 
-Purchase a product with the given product id.
+Purchase a product with the given product id. Set the product type to "inapp" for one time purchases and "subs" for subscriptions.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22In%20App%20Billing%22,%20%22name%22:%20%22Purchase%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22product%20Id%22%5D%7D"></div>
 
 | Params | []() |
 |--------|------|
 |product Id|<span class="chip chip-text">Text</span>|
+|product Type|<span class="chip chip-text">inapp</span> or <span class="chip chip-text">subs</span>|
 
 ### Subscribe
 
