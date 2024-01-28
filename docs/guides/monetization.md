@@ -1,7 +1,7 @@
 # Getting started with Google Ad Manager
 
-**Kodular has partnered with Google** to provide a **hight quality monetization** integration. This is done thanks to
-**Google Ad Manager**, a Google's product that provides custom access to monetization tools. We have implemented their
+**Kodular has partnered with Google** to provide a **high quality monetization** integration. This is done thanks to
+**Google Ad Manager**, a Google product that provides custom access to monetization tools. We have implemented their
 features into a set of components that will allow you to monetize your apps with Google Ad Manager advertising.
 
 ## Registering for a Child Account
@@ -26,7 +26,7 @@ This process should take _around 2 business days_.
 !!! warning
     Make sure you no longer hold a Google Ad Manager account. If so, ask to create a new one.
 
-Once all the process has been completed, **your account will be ready to show ads**.
+Once all of the processes have been completed, **your account will be ready to show ads**.
 
 ![Approved Account](/assets/images/guides/monetization/approved.png)
 
