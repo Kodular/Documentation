@@ -8,6 +8,10 @@
     - Linux - `Kodular.Starter_3.0.0_amd64.deb` or `Kodular.Starter-3.0.0-1.x86_64.rpm` or `Kodular.Starter_3.0.0_amd64.AppImage`
 2. To run, follow the instructions based on your OS
     - Windows - Install the Kodular Starter application. You may have to press "Run anyway" if Windows SmartScreen window appear. This shows up whenever you download an unsigned application from the internet. This only shows up at once when running the installer.
+    - macOS - After you install Kodular Starter, when you run Kodular Starter, you may see a message telling that the app is damaged. In this case, you should run the command below, after which Kodular Starter will run normally.
+    ```sh
+    $ sudo xattr -cr /Applications/Kodular\ Starter.app
+    ```
 
 3. Keep Kodular Starter running while you are using the Companion via USB. You will need to enable USB or wireless debugging from the Developer options in your phone settings.
 
