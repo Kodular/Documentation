@@ -2,18 +2,14 @@
 
 ## Running Kodular Starter on your PC
 
-1. Download the [executable file for Kodular Starter v2.0](https://github.com/Kodular/Starter/releases/tag/v2.0) based on your OS
-    - `Windows` - KodularStarter_windows.exe
-    - `macOS` - KodularStarter_macos
-    - `Linux` - KodularStarter_linux
+1. Download the latest executable file for [Kodular Starter](https://github.com/Kodular/Starter/releases/latest) based on your OS
+    - Windows - `Kodular.Starter_3.0.0_x64-setup.exe` or `Kodular.Starter_3.0.0_x64_en-US.msi`
+    - macOS - `Kodular.Starter_3.0.0_aarch64.dmg` or `Kodular.Starter_aarch64.app.tar.gz`
+    - Linux - `Kodular.Starter_3.0.0_amd64.deb` or `Kodular.Starter-3.0.0-1.x86_64.rpm` or `Kodular.Starter_3.0.0_amd64.AppImage`
 2. To run, follow the instructions based on your OS
-    - `Windows` - Double-click on the executable file to run Kodular Starter.
-    - `macOS`/`Linux` - Open the terminal and execute file as shown below
-      ```
-      kodular@Kodular ~ $ chmod +x ./path/to/KodularStarter
-      kodular@Kodular ~ $ ./path/to/KodularStarter
-      ```
-3. Keep Kodular Starter running while you are using the Companion via USB.
+    - Windows - Install the Kodular Starter application. You may have to press "Run anyway" if Windows SmartScreen window appear. This shows up whenever you download an unsigned application from the internet. This only shows up at once when running the installer.
+
+3. Keep Kodular Starter running while you are using the Companion via USB. You will need to enable USB or wireless debugging from the Developer options in your phone settings.
 
 ## Connect to Companion
 
