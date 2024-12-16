@@ -18,19 +18,30 @@ export default defineConfig({
       editLink: {
         baseUrl: 'https://github.com/Kodular/Documentation/edit/master/',
       },
-      // sidebar: [
-      //   {
-      //     label: 'Guides',
-      //     items: [
-      //       // Each item here is one entry in the navigation menu.
-      //       // { label: 'Example Guide', slug: 'guides/example' },
-      //     ],
-      //   },
-      //   {
-      //     label: 'Reference',
-      //     autogenerate: { directory: 'reference' },
-      //   },
-      // ],
+      sidebar: [
+        {
+          label: 'Guides',
+          collapsed: true,
+          autogenerate: { directory: 'guides' },
+        },
+        {
+          label: 'Blocks',
+          collapsed: true,
+          autogenerate: { directory: 'blocks' },
+        },
+        {
+          label: 'Support',
+          collapsed: true,
+          autogenerate: { directory: 'support' },
+        },
+        {
+          label: 'Release Notes',
+          collapsed: true,
+          autogenerate: { directory: 'release-notes' },
+        },
+        { label: 'Pricing', slug: 'pricing' },
+        { label: 'Terms of Service', slug: 'terms-of-service' },
+      ],
       plugins: [starlightLinksValidator()],
     }),
   ],
