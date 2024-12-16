@@ -1,34 +1,36 @@
-# Logic
+---
+title: Logic
+---
 
-* [true](logic.md#true)
-* [false](logic.md#false)
-* [not](logic.md#not)
-* [=](logic.md#=)
-* [≠](logic.md#not=)
-* [and](logic.md#and)
-* [or](logic.md#or)
+* [true](#true)
+* [false](#false)
+* [not](#not)
+* [=](#)
+* [≠](#-1)
+* [and](#and)
+* [or](#or)
 
 ## true
 
-![](/assets/images/blocks/logic/true.png)
+![](@assets/images/blocks/logic/true.png)
 
 Represents the constant value true. Use it for setting boolean property values of components, or as the value of a variable that represents a condition.
 
-## false {#false}
+## false
 
-![](/assets/images/blocks/logic/false.png)
+![](@assets/images/blocks/logic/false.png)
 
 Represents the constant value false. Use it for setting boolean property values of components, or as the value of a variable that represents a condition.
 
-## not {#not}
+## not
 
-![](/assets/images/blocks/logic/not.png)
+![](@assets/images/blocks/logic/not.png)
 
 Performs logical negation, returning false if the input is true, and true if the input is false.
 
-## = {#=}
+## =
 
-![](/assets/images/blocks/logic/equals.png)
+![](@assets/images/blocks/logic/equals.png)
 
 Tests whether its arguments are equal.
 
@@ -39,22 +41,22 @@ Tests whether its arguments are equal.
 
 It acts exactly the same as the **=** block found in Math
 
-![](/assets/images/blocks/math/equal.png)
+![](@assets/images/blocks/math/equal.png)
 
-## ≠ {#not=}
+## ≠
 
-![](/assets/images/blocks/logic/notequals.png)
+![](@assets/images/blocks/logic/notequals.png)
 
 Tests to see whether two arguments are not equal.
 
-## and {#and}
+## and
 
-![](/assets/images/blocks/logic/and.png)
+![](@assets/images/blocks/logic/and.png)
 
 Tests whether all of a set of logical conditions are true. The result is true if and only if all the tested conditions are true. When you plug a condition into the `test` socket, another socket appears so you can add another condition. The conditions are tested left to right, and the testing stops as soon as one of the conditions is false. If there are no conditions to test, then the result if true. You can consider this to be a logician's joke.
 
-## or {#or}
+## or
 
-![](/assets/images/blocks/logic/or.png)
+![](@assets/images/blocks/logic/or.png)
 
 Tests whether any of a set of logical conditions are true. The result is true if one or more of the tested conditions are true. When you plug a condition into the`test`socket, another socket appears so you can add another condition. The conditions are tested left to right, and the testing stops as soon as one of the conditions is true. If there are no conditions to test, then the result is false.
