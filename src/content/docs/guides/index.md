@@ -1,4 +1,6 @@
-# Understanding Kodular
+---
+title: Understanding Kodular
+---
 
 The apps in Kodular are built as a combination of various <span class=keyword>*Components*</span> , with each individual _Component_ being used
 for a specific purpose.
@@ -6,7 +8,7 @@ for a specific purpose.
 The **Component**'s behaviour is configured using <span class=keyword>*Blocks*</span>
 
 <br><br>
-![Illustration](/assets/images/other/components-blocks-illustration.jpg)
+![Illustration](@assets/images/other/components-blocks-illustration.jpg)
 
 Components + Blocks = Your Awesome App!
 {: .img-caption }
@@ -88,7 +90,7 @@ Some these _Properties_ can either be set from **_Designer_** page, or through *
 set only through **_Blocks_** and some only from the **_Designer_**.
 
 <br><br>
-![property-blocks](/assets/images/other/property-block-example.jpg){: .preview-img }
+![property-blocks](@assets/images/other/property-block-example.jpg){: .preview-img }
 
 The _Setter and Getter_ block for the Background Color property of a button.
 {: .img-caption }
@@ -126,7 +128,7 @@ specified) namely _tag_ and _value To Store_. So this method can be <span class=
 in the blocks) along with the two data that it needs like shown below.
 
 <br><br>
-![method-block](/assets/images/other/method-block-example.png){: .preview-img }
+![method-block](@assets/images/other/method-block-example.png){: .preview-img }
 
 The _Method_ to store data in the Firebase DB.
 {: .img-caption }
@@ -147,7 +149,7 @@ If you want to change the _Button_ text when the user clicks it, you have to
 group the logic to change the text under the **_Button.Clicked_** event. This is shown below.
 
 <br><br>
-![event-block](/assets/images/other/event-block-example.png){: .preview-img }
+![event-block](@assets/images/other/event-block-example.png){: .preview-img }
 
 The _Event_ block for changing button text when clicked.
 {: .img-caption }

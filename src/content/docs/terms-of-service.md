@@ -1,8 +1,6 @@
 ---
-redirect_from: "/other/terms-of-service/"
+title: Terms of Service
 ---
-
-# Terms of Service
 
 ## Kodular Creator Privacy Policy and Terms of Use
 
@@ -135,9 +133,6 @@ You agree to defend, hold harmless and indemnify Kodular, and its subsidiaries, 
 
 ---
 
-!!! info "Effective Date"
-    June 21, 2018.
+Effective Date  *June 21, 2018*
 
-
-!!! note "Last Revision"
-    November 18, 2018.
+Last Revision   *November 18, 2018*

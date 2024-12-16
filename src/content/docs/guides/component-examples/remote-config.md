@@ -1,4 +1,6 @@
-# Staging updates with Firebase Remote Config
+---
+title: Staging updates with Firebase Remote Config
+---
 
 ## Overview
 
@@ -30,18 +32,18 @@ Here are some things you should know before you can get started with this guide.
 Head over to [your Firebase Console](https://console.firebase.google.com){:target="_blank"} to set up Remote Config for your Firebase project. If you do not have an existing project, create a new one.
 
 Use the navigation menu on the left to go to the Remote Config section.
-![](/assets/images/guides/remote-config/ext_frc-home.png)
+![](@assets/images/guides/remote-config/ext_frc-home.png)
 
 Firebase Remote Config works using `parameters` and `values`. Your will app will fetch the `value` of a `parameter` and then decide how to proceed. Firebase can send different `value`s to different users, based on some conditions you can set. In this guide, we will create a `parameter` called `bottom_nav_enabled`, which returns `false` for all users except the 20% chosen at random.
 
-![](/assets/images/guides/remote-config/ext_frc-param-name.png)
+![](@assets/images/guides/remote-config/ext_frc-param-name.png)
 
 Give the parameter a name
 {: .img-caption}
 
 Next, add a condition to your `parameter`. Every conditon has a name, so that it can be identified easily when several are being used. We will name our condition `random_testers_group`. There are several constraints to choose from, but for this guide, we will restrict ourselves to "User in random percentile".
 
-![](/assets/images/guides/remote-config/ext_frc-condition.gif)
+![](@assets/images/guides/remote-config/ext_frc-condition.gif)
 
 Add a condition
 {: .img-caption}
@@ -51,14 +53,14 @@ Add a condition
 
 Your `parameter` can now have two `value`s: one for those in the `random_testers_group`, and another for everybody else. Set the `value` to "true" for the testers, and "false" for others.
 
-![](/assets/images/guides/remote-config/ext_frc-param-value.png)
+![](@assets/images/guides/remote-config/ext_frc-param-value.png)
 
 Add values to your parameter
 {: .img-caption}
 
 Finally, click on "Add parameter", and then click "Publish changes".
 
-![](/assets/images/guides/remote-config/ext_frc-publish.png)
+![](@assets/images/guides/remote-config/ext_frc-publish.png)
 
 Publish your changes
 {: .img-caption}
@@ -81,37 +83,37 @@ Finally, set the `Visible` property of the `Bottom Navigation` component to `Fal
 
 This is what your designer should look like
 
-![](/assets/images/guides/remote-config/d_preview.png)
+![](@assets/images/guides/remote-config/d_preview.png)
 
 ## Coding the blocks
 
 We first create all the tabs when the screen initializes. In this guide, we have three tabs: Home, Products, and Cart.
 
-![](/assets/images/guides/remote-config/e_screen-initialize.png)
+![](@assets/images/guides/remote-config/e_screen-initialize.png)
 
 Next, we handle "selections" on the tabs using a procedure which takes the `id` of the tab as an input. We loop through all the vertical arrangements and set their `Visible` property to `False`. Then, we get the selected tab item and its corresponding arrangement, and set its `Visible` property to `True`. Generic blocks make it easier to manipulate the visibility of the components, especially in apps with several tabs.
 
-![](/assets/images/guides/remote-config/p_select-arrangement.png)
+![](@assets/images/guides/remote-config/p_select-arrangement.png)
 
 We call this procedure from the `Tab Layout` component's `Tab Item Selected` event.
 
-![](/assets/images/guides/remote-config/e_tab-item-selected.png)
+![](@assets/images/guides/remote-config/e_tab-item-selected.png)
 
 We do the same for the `Bottom Navigation` component: first add the menu items (in the Screen's `Initialize` event), and then handle the selection event.
 
-![](/assets/images/guides/remote-config/m_add-item.png)
+![](@assets/images/guides/remote-config/m_add-item.png)
 
 !!! info
 		The icon assets for the navigation items are provided in the AIA in the [Downloads](#downloads) section.
 
 We can use the same prodcedure we made for the `Tab Layout`.
 
-![](/assets/images/guides/remote-config/e_item-selected.png)
+![](@assets/images/guides/remote-config/e_item-selected.png)
 
 Now for the important bit. We use the `Firebase Remote Config` component to get the visibility status of the `Bottom Navigation` component. Before we use any of the parameters, we need to fetch all data from Firebase.
 Place the `fetch` block in the Screen's `Initialize` event to do so.
 
-![](/assets/images/guides/remote-config/m_fetch.png)
+![](@assets/images/guides/remote-config/m_fetch.png)
 
 Once the data has been fetched, we get the value of the `bottom_navigation_enabled` parameter. Since this is a boolean parameter, we use the `Get Boolean` block to retrieve the value.
 
@@ -119,20 +121,20 @@ This value can be either `True` or `False`, depending on the status of the user.
 
 If the value is `True`, we show the `Bottom Navigation` instead of the `Tab Layout`.
 
-![](/assets/images/guides/remote-config/e_fetch-success.png)
+![](@assets/images/guides/remote-config/e_fetch-success.png)
 
 !!! note
 		Updates to parameters can take a few hours to update across all devices, so don't be alarmed if you don't see all changes immediately.
 
 ## Conclusion
 
-![](/assets/images/guides/remote-config/pr_tab-layout.png#phInline)
-![](/assets/images/guides/remote-config/pr_bottom-nav.png#phInline)
+![](@assets/images/guides/remote-config/pr_tab-layout.png#phInline)
+![](@assets/images/guides/remote-config/pr_bottom-nav.png#phInline)
 
 What a regular user sees (left) vs what a randomly chosen beta tester sees (right)
 {: .img-caption}
 
-![](/assets/images/guides/remote-config/all-blocks.png)
+![](@assets/images/guides/remote-config/all-blocks.png)
 
 All the blocks we've used in this guide
 {: .img-caption}
@@ -140,7 +142,7 @@ All the blocks we've used in this guide
 ### Releasing the update to everyone
 To release the changes to all your users, simply go to your Firebase Console and remove the condition from the `parameter` so that it always returns true.
 
-![](/assets/images/guides/remote-config/ext_frc-rollout.gif)
+![](@assets/images/guides/remote-config/ext_frc-rollout.gif)
 
 Setting the parameter to true by default
 {: .img-caption}
@@ -148,7 +150,7 @@ Setting the parameter to true by default
 ### Rolling back updates
 To roll back the update you've made, remove the condition from the `parameter` and set the default value to false. This ensures nobody sees the `Bottom Navigation` anymore.
 
-![](/assets/images/guides/remote-config/ext_frc-roback.gif)
+![](@assets/images/guides/remote-config/ext_frc-rollback.gif)
 
 Removing the condition so that the parameter always returns false
 {: .img-caption}

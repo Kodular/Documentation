@@ -1,4 +1,6 @@
-# Working with Firebase Rules
+---
+title: Working with Firebase Rules
+---
 
 ## Overview
 

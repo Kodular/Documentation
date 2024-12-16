@@ -1,4 +1,6 @@
-# Securing your Firebase Database
+---
+title: Securing your Firebase Database
+---
 
 ## Overview
 
@@ -22,13 +24,13 @@ Take a look at our guide on [working with Firebase Rules](/guides/component-exam
 Head over to [your Firebase Console](https://console.firebase.google.com){:target="_blank"} to set up a real-time database for your Firebase project. If you do not have an existing project, create a new one.
 
 Use the navigation menu on the left to go to the Database section.
-![](/assets/images/guides/firebase-rules/ext_fdb-home.png)
+![](@assets/images/guides/firebase-rules/ext_fdb-home.png)
 
 In case the real-time database has not been enabled already, scroll to the bottom and click on "Realtime database".
 
 You will be using Google login for user authentication. Go to the Authentication section using the menu on the left, and enable Google as an authentication provider. More details on Google authentication can be found [here](/components/google/firebase-authentication/#google-login){:target = "_blank"}.
 
-![](/assets/images/guides/firebase-rules/ext_fauth-google.png)
+![](@assets/images/guides/firebase-rules/ext_fauth-google.png)
 
 Enable Google login
 {: .img-caption}
@@ -66,7 +68,7 @@ Finally, drop the `Firebase Database`, `Firebase Authentication`, and `Device Ut
 
 This is what your designer should look like
 
-![](/assets/images/guides/firebase-rules/d_preview.png)
+![](@assets/images/guides/firebase-rules/d_preview.png)
 
 !!! tip
 		The components shown above have been styled with colors and borders to make them look better. Download AIA from the bottom of the page to use them in your app!
@@ -75,18 +77,18 @@ This is what your designer should look like
 
 First, we add an event block to handle clicks on the `SignInButton`. The user is to be shown a prompt to sign in with Google.
 
-![](/assets/images/guides/firebase-rules/e_signinbutton-click.png)
+![](@assets/images/guides/firebase-rules/e_signinbutton-click.png)
 
 Once the login is successful, we append the user's unique id to the `uids` tag in the database.
 
-![](/assets/images/guides/firebase-rules/e_login-success.png)
+![](@assets/images/guides/firebase-rules/e_login-success.png)
 
 Next, we handle clicks on the `UpdateDetailsButton`. When the button is clicked, we first fetch the user's details so that we can get their uid. Then, using the uid, we update their name, email, and Android version.
 
 
-![](/assets/images/guides/firebase-rules/e_updatedetailsbutton-click.png)
+![](@assets/images/guides/firebase-rules/e_updatedetailsbutton-click.png)
 <br>
-![](/assets/images/guides/firebase-rules/e_current-user-success.png)
+![](@assets/images/guides/firebase-rules/e_current-user-success.png)
 
 !!! note
 		As of now, a user can fetch the list of all uids and update the details of any other user. We will be writing Firebase rules later to ensure the data a user can edit is limited to their uid.
@@ -95,21 +97,21 @@ Finally, we code the recursive function to get the names of all the users. Note 
 
 To get the names of all the users, we will need two lists: one for all uids and another for all names.
 
-![](/assets/images/guides/firebase-rules/v_uids.png)
+![](@assets/images/guides/firebase-rules/v_uids.png)
 <br>
-![](/assets/images/guides/firebase-rules/v_names.png)
+![](@assets/images/guides/firebase-rules/v_names.png)
 
 We initiate the recursion using the `Click` event block for the `GetDetailsButton`.
 
-![](/assets/images/guides/firebase-rules/e_getdetails-click.png)
+![](@assets/images/guides/firebase-rules/e_getdetails-click.png)
 
 When the value has been fetched, we populate the list of uids, and then fetch the name of the first uid in the list.
 
-![](/assets/images/guides/firebase-rules/e_got-value.png)
+![](@assets/images/guides/firebase-rules/e_got-value.png)
 
 We do the same for each uid in the list. Every time we fetch the name of the uid, we remove the uid from the list and add the name to the names list.
 
-![](/assets/images/guides/firebase-rules/e_got-value-2.png)
+![](@assets/images/guides/firebase-rules/e_got-value-2.png)
 
 Once all names have been fetched, we show them in a message dialog.
 
@@ -117,7 +119,7 @@ Once all names have been fetched, we show them in a message dialog.
 
 Head back to your Firebase console. In the Realtime Database section, navigate to the "rules" tab.
 
-![](/assets/images/guides/firebase-rules/ext_fdb-rules.png)
+![](@assets/images/guides/firebase-rules/ext_fdb-rules.png)
 
 By default, Firebase allows full read/write access. If you created your database in locked mode, the default rules will allow only authenticated users, and your rules will look something like:
 ```
@@ -216,7 +218,7 @@ Our list of rules currently looks like this:
 ```
 
 Let's take an example of a sample database to see how the rules work. The database currently has the following data:
-![](/assets/images/guides/firebase-rules/ext_fdb-data.png)
+![](@assets/images/guides/firebase-rules/ext_fdb-data.png)
 
 ```
 {
@@ -242,21 +244,21 @@ Let's take an example of a sample database to see how the rules work. The databa
 ```
 
 A user currently authenticated with the uid `AL2uxus1arNfAWtviUIXboPdRqy1` is able to fetch their own name, email, and Android version:
-![](/assets/images/guides/firebase-rules/m_get-value.png)
+![](@assets/images/guides/firebase-rules/m_get-value.png)
 <br>
-![](/assets/images/guides/firebase-rules/m_get-value-2.png)
+![](@assets/images/guides/firebase-rules/m_get-value-2.png)
 
 The user is also able to edit the value of their name, email, and Android version.
-![](/assets/images/guides/firebase-rules/m_store-value.png)
+![](@assets/images/guides/firebase-rules/m_store-value.png)
 <br>
-![](/assets/images/guides/firebase-rules/m_store-value-2.png)
+![](@assets/images/guides/firebase-rules/m_store-value-2.png)
 
 In addition, the user can access the names of *other* users, say, one with the uid `KW4LkSOtG0Y1iede9KaTrwsYCx62`.
-![](/assets/images/guides/firebase-rules/m_get-value-3.png)
+![](@assets/images/guides/firebase-rules/m_get-value-3.png)
 
 
 But they cannot get the email or Android version of other users.
-![](/assets/images/guides/firebase-rules/m_get-value-4.png)
+![](@assets/images/guides/firebase-rules/m_get-value-4.png)
 
 Nor can they set the name, email, or Android version of other users.
 
@@ -284,10 +286,10 @@ This ensures that the uid is written only if the current data doesn't already co
 Let's illustrate with the example of a user with the uid `AL2uxus1arNfAWtviUIXboPdRqy1`.
 
 The user can append their uid to the list of all uids
-![](/assets/images/guides/firebase-rules/m_append-value.png)
+![](@assets/images/guides/firebase-rules/m_append-value.png)
 
 But cannot append anything other than their uid
-![](/assets/images/guides/firebase-rules/m_append-value-2.png)
+![](@assets/images/guides/firebase-rules/m_append-value-2.png)
 
 
 Our final list of rules looks like this:
@@ -322,7 +324,7 @@ Our final list of rules looks like this:
 
 ## Conclusion
 
-![](/assets/images/guides/firebase-rules/all-blocks.png)
+![](@assets/images/guides/firebase-rules/all-blocks.png)
 
 All the blocks we've used in this guide
 {: .img-caption}

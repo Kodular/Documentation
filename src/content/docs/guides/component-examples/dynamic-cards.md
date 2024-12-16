@@ -1,4 +1,6 @@
-# Using Dynamic Cards in your app
+---
+title: Using Dynamic Cards in your app
+---
 
 ## Overview
 
@@ -26,19 +28,21 @@ The API endpoint we'll be using in this guide is `https://newsapi.org/v2/top-hea
 
 This is what a sample response looks like: <br>
 
-`{"status":"ok",` <br>
-` "totalResults":TOTAL_NUMBER_OF_ARTICLES,` <br>
-` "articles":[` <br>
-`	             {"source":` <br>
-`               {"id":"SOURCE_ID","name":"SOURCE_NAME"},` <br>
-`               "author":AUTHOR_NAME,` <br>
-`               "title":"ARTICLE_TITLE",` <br>
-`               "description":"ARTICLE_SUMMARY",` <br>
-`      				  "urlToImage":"ARTICLE_IMAGE",` <br>
-`								"publishedAt":"ARTICLE_PUBLISH_DATE",` <br>
-`            		"content":"ARTICLE_CONTENT"` <br>
-`         		 }, {...}` <br>
-`]}`
+```json
+{"status":"ok",
+ "totalResults":TOTAL_NUMBER_OF_ARTICLES,
+ "articles":[
+			{"source":
+				{"id":"SOURCE_ID","name":"SOURCE_NAME"},
+			"author":AUTHOR_NAME,
+			"title":"ARTICLE_TITLE",
+			"description":"ARTICLE_SUMMARY",
+			"urlToImage":"ARTICLE_IMAGE",
+			"publishedAt":"ARTICLE_PUBLISH_DATE",
+			"content":"ARTICLE_CONTENT"
+			}, {...}
+]}
+```
 
 We will need the article `title`, `description`, and `urlToImage` to populate the cards. We'll be using the JSON component to extract data from the API.
 
@@ -54,7 +58,7 @@ Finally, add an `Image Utilities` component which we will use to load images asy
 
 This is what your designer should look like
 
-![](/assets/images/guides/dynamic-cards/d_with-components.png)
+![](@assets/images/guides/dynamic-cards/d_with-components.png)
 
 
 The top 20 news articles will be displayed as `Dynamic Card View`s, which will be loaded inside the `Vertical Scroll Arrangement`. Each card will include the article's title, a short description, and a header image.
@@ -63,60 +67,60 @@ The top 20 news articles will be displayed as `Dynamic Card View`s, which will b
 ## Coding the blocks
 
 We will need a variable to store the JSON response from the API. This can be a simple `Text` variable like so. <br><br>
-![](/assets/images/guides/dynamic-cards/v_result.png)
+![](@assets/images/guides/dynamic-cards/v_result.png)
 
 The API data is to be fetched when the screen initializes. Set the `Web` component's url to the API url, and perform the GET request. <br>
 
-![](/assets/images/guides/dynamic-cards/e_screen-initialize.png)
+![](@assets/images/guides/dynamic-cards/e_screen-initialize.png)
 
 When the `Web` component has fetched the data, set the response content to the global variable you created. In case there was an issue getting the content, we set the variable to custom error JSON. This is so that the JSON parsing, which has to be done later, doesn't throw errors.
 
-![](/assets/images/guides/dynamic-cards/e_web-got-text.png)
+![](@assets/images/guides/dynamic-cards/e_web-got-text.png)
 
 Next, we need a procedure that populates the `Vertical Scroll Arrangement` with cards. This procedure will iterate 20 times if there are more than 20 news articles in the api response variable. If there are less than 20 articles, the procedure will only iterate through the number of articles in the api response.
 
 We call this procedure inside the `Web` component's Got Text block.
 
-![](/assets/images/guides/dynamic-cards/f_populate-news-articles.png)
+![](@assets/images/guides/dynamic-cards/f_populate-news-articles.png)
 
 Next, we create another procedure which takes the JSON object and the array index as parameters. This procedure will create the cards for us and add them to the `Vertical Scroll Arrangement`.
 
-![](/assets/images/guides/dynamic-cards/f_create-card.png)
+![](@assets/images/guides/dynamic-cards/f_create-card.png)
 
 !!! tip
 		It is recommended you place blocks in procedures so that they are more readable and can be used several times.
 
 For each news article, we first create a card view that holds all the content we wish to show. Use the `Create Card View` block inside the procedure to make a dynamic card for each article. Each card will be 90% of the screen's width and will have automatic height so that it can resize according to the content inside.
 
-![](/assets/images/guides/dynamic-cards/m_create-dynamic-card-view.png)
+![](@assets/images/guides/dynamic-cards/m_create-dynamic-card-view.png)
 
 Next, we create a dynamic image that contains the article's header image. We use the `Image Utilities` component to load the images asynchronously from the URL, so that the UI doesn't lag while the data is being fetched.
 
-![](/assets/images/guides/dynamic-cards/m_create-dynamic-image.png)
+![](@assets/images/guides/dynamic-cards/m_create-dynamic-image.png)
 
 Using the `Dynamic Label` component, we create dynamic labels for each card which contain the article's title. Since this the article's title, we set the font size to 18.
 
-![](/assets/images/guides/dynamic-cards/m_create-dynamic-label.png)
+![](@assets/images/guides/dynamic-cards/m_create-dynamic-label.png)
 
 !!! tip
 		It is recommended you set the `html` parameter to `False` when getting data from external sources. Unchecked HTML can be used to perform unauthorized actions in your app.
 
 We use the `Dynamic Label` component one more time to create a label for the description. We set the id to a value that we are certain hasn't been used yet. If you are showing the top 200 news articles, then you might want to start your id's from 1000 (or a similarly appropriate number).
 
-![](/assets/images/guides/dynamic-cards/m_create-dynamic-description.png)
+![](@assets/images/guides/dynamic-cards/m_create-dynamic-description.png)
 
 Finally, we place the procedure call block inside the `PopulateNewsArticles` procedure.
 
-![](/assets/images/guides/dynamic-cards/f_populate-news-articles-with-call.png)
+![](@assets/images/guides/dynamic-cards/f_populate-news-articles-with-call.png)
 
 ## Conclusion
 
-![](/assets/images/guides/dynamic-cards/pr_screenshot.png#phone)
+![](@assets/images/guides/dynamic-cards/pr_screenshot.png#phone)
 
 The finished project
 {: .img-caption}
 
-![](/assets/images/guides/dynamic-cards/all-blocks.png)
+![](@assets/images/guides/dynamic-cards/all-blocks.png)
 All the blocks we've used
 {: .img-caption}
 
