@@ -1,10 +1,13 @@
-# Building your first app <small>with Kodular</small>
+---
+title: Building your first app with Kodular
+---
 
 Welcome to Kodular!  
 In this tutorial, you will learn to create your first app with Kodular.
 
-!!! tip ""
-    If you have any queries or doubts, feel free reach out to us on the [community](https://community.kodular.io).
+:::tip
+If you have any queries or doubts, feel free reach out to us on the [community](https://community.kodular.io).
+:::
 
 ## The first steps
 
@@ -21,18 +24,17 @@ The _project_ will be created and you will be taken to the <span class="keyword"
 
 5. For testing your app while developing,  please see [Live Development](/live-development).
 
-!!! tip
-    At this point, we recommend going through the [Understanding Kodular](/guides/) page to get an overview of
-    developing apps in Kodular.
+:::tip
+At this point, we recommend going through the [Understanding Kodular](/guides/) page to get an overview of
+developing apps in Kodular.
+:::
 
 ## The User Interface of Kodular Creator
 
 First, let us walk thorough the Designer UI of Kodular Creator.
-<br><br><br>
-<div class="browser-mockup">
-  <img src="/assets/images/other/designer-tagged-with-numbers.jpg" />
-</div>
-<br><br><br>
+
+![](@assets/images/other/designer-tagged-with-numbers.jpg)
+
 The above shown screen is called **_Designer_**.  
 From this page, you can add/delete <span class="keyword">Components</span> and modify their properties.
 
@@ -70,5 +72,6 @@ If you have connected your companion and testing using it, then now the change s
 You can transfer the APK onto the Android device and you can install your own app on the device!
 
 
-!!! success "Yay!"
-    That's it! You have successfully built your first app with _Kodular_.
+:::tip[Yay!]
+That's it! You have successfully built your first app with _Kodular_.
+:::

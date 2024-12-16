@@ -1,12 +1,16 @@
-# Creating Extensions
+---
+title: Creating Extensions
+---
 
-!!! info
-    **Now you can just skip this tutorial and paste your code in** [**Kodular IDE**](https://ide.kodular.io)**!**
+:::caution
+Now you can just skip this tutorial and paste your code in [Kodular IDE](https://ide.kodular.io)
+:::
 
 ## Tools you will need
 
-!!! warning
-    This guide assumes you to be a **Windows** user.
+:::note
+This guide assumes you to be a **Windows** user.
+:::
 
 * [x] [App Inventor Sources ](https://github.com/mit-cml/appinventor-sources)
 * [x] [Java JDK](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
@@ -18,8 +22,9 @@
 
 * Install JDK
 
-!!! warning
-    _Be sure not to install it in a directory whose path contains spaces_
+:::caution
+_Be sure not to install it in a directory whose path contains spaces_
+:::
 
 * Set the Environmental Variables:  
     * Set `JAVA_HOME` to where you installed Java JDK.
@@ -43,8 +48,9 @@
 
 * Unzip the folder and move it to a place where it is safe. For example: `C:\apache-ant-1.10.1`
 
-!!! warning
-    _Be sure not to install it in a directory whose path contains spaces_
+:::caution
+_Be sure not to install it in a directory whose path contains spaces_
+:::
 
 * Set the Environmental Variables:
     * **Set** `ANT_HOME` to where you have the Ant folder placed. For example: `C:\Ant\apache-ant-1.10.1`
@@ -71,8 +77,9 @@
 
 * Unzip the folder and move it to a place where it is safe
 
-!!! warning
-    _Be sure not to place it in a directory whose path contains spaces_
+:::caution
+_Be sure not to place it in a directory whose path contains spaces_
+:::
 
 ## Step 5: Building an Extension
 
@@ -85,11 +92,13 @@
 
 ### _Wait for the extension to build..._
 
-!!! success
-    If it says: **`BUILD SUCCESSFUL`**, then you just created an extension. :-\)
+:::tip[Success]
+If it says: **`BUILD SUCCESSFUL`**, then you just created an extension. :-\)
+:::
 
-!!! danger
-    But if it says: `BUILD FAILED`, then you did something wrong and have to look over again. :-\(
+:::danger
+But if it says: `BUILD FAILED`, then you did something wrong and have to look over again. :-\(
+:::
 
 ## Step 6: Sharing Extensions
 

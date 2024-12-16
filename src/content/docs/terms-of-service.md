@@ -1,5 +1,6 @@
 ---
 title: Terms of Service
+lastUpdated: 2018-11-18
 ---
 
 ## Kodular Creator Privacy Policy and Terms of Use
@@ -134,5 +135,3 @@ You agree to defend, hold harmless and indemnify Kodular, and its subsidiaries, 
 ---
 
 Effective Date  *June 21, 2018*
-
-Last Revision   *November 18, 2018*

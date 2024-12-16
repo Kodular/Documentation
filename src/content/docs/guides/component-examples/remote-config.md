@@ -48,8 +48,9 @@ Next, add a condition to your `parameter`. Every conditon has a name, so that it
 Add a condition
 {: .img-caption}
 
-!!! tip
-		It is possible to chain several constraints in a single condition using the "and" button.
+:::tip
+It is possible to chain several constraints in a single condition using the "and" button.
+:::
 
 Your `parameter` can now have two `value`s: one for those in the `random_testers_group`, and another for everybody else. Set the `value` to "true" for the testers, and "false" for others.
 

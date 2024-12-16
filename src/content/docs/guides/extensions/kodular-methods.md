@@ -1,12 +1,15 @@
-# Kodular Available Methods
+---
+title: Kodular Available Methods
+---
 
 Apart from available methods in MIT App Inventor 2 `Form.java`, you may also use some custom methods that we have
 added. These methods were created to ease access to some features, like knowing both original and custom package
 name of apps.
 
-!!! bug "Compatibility"
-    Keep in mind these methods are only available in Kodular. This means that your extension will only work with
-    Kodular sources if you call them directly. Keep reading to learn how to make it fully compatible.
+:::caution[Compatibility]
+Keep in mind these methods are only available in Kodular. This means that your extension will only work with
+Kodular sources if you call them directly. Keep reading to learn how to make it fully compatible.
+:::
 
 ## Installation
 

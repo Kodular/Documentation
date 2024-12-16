@@ -155,5 +155,6 @@ The _Event_ block for changing button text when clicked.
 {: .img-caption }
 
 
-!!! tip ""
-    If you have any queries or doubts, feel free to ask about it on the [community](https://community.kodular.io)
+:::tip
+If you have any queries or doubts, feel free to ask about it on the [community](https://community.kodular.io)
+:::

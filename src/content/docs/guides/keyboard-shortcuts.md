@@ -1,4 +1,6 @@
-# Keyboard Shortcuts
+---
+title: Keyboard Shortcuts
+---
 
 To make frequently used actions more accessible, we provide you with these keyboard shortcuts. The same can accessed from `Help` > `Show keyboard shortcuts` in the Creator.
 

@@ -15,6 +15,9 @@ export default defineConfig({
         'x.com': 'https://x.com/@KodularIO',
         youtube: 'https://youtube.com/@Kodular',
       },
+      editLink: {
+        baseUrl: 'https://github.com/Kodular/Documentation/edit/master/',
+      },
       // sidebar: [
       //   {
       //     label: 'Guides',

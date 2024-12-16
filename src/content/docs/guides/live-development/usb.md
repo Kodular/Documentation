@@ -1,4 +1,6 @@
-# Via USB
+---
+title: Via USB
+---
 
 ## Running Kodular Starter on your PC
 
@@ -19,15 +21,16 @@
 
 **Step 1:** From the App Bar, choose "Test".
 
-![](/assets/images/other/live-development/usb-1.png)
+![](@assets/images/other/live-development/usb-1.png)
 
 **Step 2:** Click on "USB" and wait a few seconds.
 
-![](/assets/images/other/live-development/usb-2.png)
+![](@assets/images/other/live-development/usb-2.png)
 
 **Step 3:** You've successfully linked your Android Phone to the Kodular Creator.  
 
-!!! tip
-    If you are having connection problems, check the [Kodular Starter Checker](https://starter.kodular.io).
+:::tip
+If you are having connection problems, check the [Kodular Starter Checker](https://starter.kodular.io).
+:::
 
 > Remember that this connecting process is not a one time process and you need to do this every time you close Kodular Creator or the Kodular Companion.

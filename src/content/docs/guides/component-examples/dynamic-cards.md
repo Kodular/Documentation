@@ -87,8 +87,9 @@ Next, we create another procedure which takes the JSON object and the array inde
 
 ![](@assets/images/guides/dynamic-cards/f_create-card.png)
 
-!!! tip
-		It is recommended you place blocks in procedures so that they are more readable and can be used several times.
+:::tip
+It is recommended you place blocks in procedures so that they are more readable and can be used several times.
+:::
 
 For each news article, we first create a card view that holds all the content we wish to show. Use the `Create Card View` block inside the procedure to make a dynamic card for each article. Each card will be 90% of the screen's width and will have automatic height so that it can resize according to the content inside.
 
@@ -102,8 +103,9 @@ Using the `Dynamic Label` component, we create dynamic labels for each card whic
 
 ![](@assets/images/guides/dynamic-cards/m_create-dynamic-label.png)
 
-!!! tip
-		It is recommended you set the `html` parameter to `False` when getting data from external sources. Unchecked HTML can be used to perform unauthorized actions in your app.
+:::tip
+It is recommended you set the `html` parameter to `False` when getting data from external sources. Unchecked HTML can be used to perform unauthorized actions in your app.
+:::
 
 We use the `Dynamic Label` component one more time to create a label for the description. We set the id to a value that we are certain hasn't been used yet. If you are showing the top 200 news articles, then you might want to start your id's from 1000 (or a similarly appropriate number).
 

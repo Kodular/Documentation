@@ -70,8 +70,9 @@ This is what your designer should look like
 
 ![](@assets/images/guides/firebase-rules/d_preview.png)
 
-!!! tip
-		The components shown above have been styled with colors and borders to make them look better. Download AIA from the bottom of the page to use them in your app!
+:::tip
+The components shown above have been styled with colors and borders to make them look better. Download AIA from the bottom of the page to use them in your app!
+:::
 
 ## Coding the blocks
 
