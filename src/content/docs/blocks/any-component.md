@@ -1,0 +1,3 @@
+---
+title: Any Component
+---
