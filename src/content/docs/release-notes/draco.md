@@ -1,4 +1,6 @@
-# Kodular Draco
+---
+title: Kodular Draco
+---
 
 ![Kodular Draco](https://assets.kodular.io/images/creator/versions/draco.png)
 

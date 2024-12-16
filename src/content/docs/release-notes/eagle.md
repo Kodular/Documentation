@@ -1,4 +1,6 @@
-# Kodular Eagle
+---
+title: Kodular Eagle
+---
 
 ![Kodular Eagle](https://assets.kodular.io/images/creator/versions/eagle2.png)
 

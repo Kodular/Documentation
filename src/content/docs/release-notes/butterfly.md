@@ -1,4 +1,6 @@
-# Kodular Butterfly
+---
+title: Kodular Butterfly
+---
 
 ![Kodular Butterfly](https://assets.kodular.io/images/creator/versions/butterfly.png)
 

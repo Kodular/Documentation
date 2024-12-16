@@ -1,4 +1,6 @@
-# Kodular Andromeda
+---
+title: Kodular Andromeda
+---
 
 ![Kodular Andromeda](https://assets.kodular.io/images/creator/versions/andromeda.png)
 
