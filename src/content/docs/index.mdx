@@ -1,25 +1,54 @@
 ---
 title: Kodular Docs
 template: splash
+hero:
+  title: Kodular Docs
+  tagline: Whether you need some help using the components, or just looking around, this section will provide you the guides and reference you need to develop an app.
+  image:
+    alt: logo
+    file: '@assets/logo.png'
+  actions:
+    - text: Guides
+      link: /guides
+    - text: Components
+      link: /components
+      variant: secondary
+    - text: Blocks
+      link: /blocks
+      variant: secondary
+    - text: Support
+      link: /support
+      variant: secondary
+head:
+  - tag: title
+    content: Kodular Docs
 ---
 
+import { Card, CardGrid } from '@astrojs/starlight/components';
 import { YouTube } from '@astro-community/astro-embed-youtube';
 
-# Introduction
-
-Whether you need some help using the components, or just looking around, this section will provide you the guides and reference you need to develop an app.
-
-For further and personalized help, consider checking out [our community](https://community.kodular.io).
-
-## Get Started
-
-If you are new to Kodular, we strongly recommend checking out the [Guides Tab](/guides/).
-
-Start by searching what you need using the search bar at the top. You can also consider checking out [Components](/components/) or [Blocks](/blocks/).
+<CardGrid>
+  <Card title="Guides" icon="open-book">
+    If you are new to Kodular, we strongly recommend checking out the [Guides tab](/guides/).
+  </Card>
+  <Card title="Features" icon="information">
+    Start by searching what you need using the search bar at the top. You can also consider checking out [Components](/components/) or [Blocks](/blocks/).
+  </Card>
+  <Card title="Help" icon="comment-alt">
+    For further and personalized help, consider checking out [our community](https://community.kodular.io).
+  </Card>
+  <Card title="Release Notes" icon="document">
+    Learn about the changes to the platform and the components/blocks at the [Releases Notes tab](/release-notes).
+  </Card>
+</CardGrid>
 
 ## What is Kodular?
 
 Kodular allows you to create Android apps easily with a blocks-type editor. No coding skills required. With the Material Design UI, your apps will stand out.
+
+Watch a quick tutorial below to learn more about developing an app with Kodular.
+
+<YouTube id="iK-J6U12NQc" />
 
 ## Useful Links
 
@@ -48,6 +77,4 @@ Using Kodular Store, you can publish your apps to a specific store where only Ko
 Using the Status Page you can check which services' of Kodular is working or in Maintenance. If you cannot use a service of Kodular, you can check using this page if the problem is related to your local internet or the Kodular Server.
 
 ## Quick Start
-Watch a quick tutorial below to learn more about developing an app with Kodular.
 
-<YouTube id="iK-J6U12NQc" />
