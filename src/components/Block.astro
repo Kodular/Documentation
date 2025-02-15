@@ -1,0 +1,29 @@
+---
+interface Props {
+    ai2_block: string;
+    value: string;
+}
+
+const { ai2_block, value } = Astro.props;
+---
+
+<div
+    class="block"
+    data-ai2-block={ai2_block}
+    not-get_elemented="true"
+    data-value={value}
+>
+</div>
+
+<script is:inline src="/js/blockly_compressed.js"></script>
+<script is:inline src="/js/extra.js"></script>
+
+<style>
+    :global(.blocklySvg) {
+        background-color: transparent;
+    }
+
+    ::global(.blocklyMainBackground) {
+        stroke: none;
+    }
+</style>

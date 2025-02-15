@@ -1,0 +1,25 @@
+---
+import { Badge } from '@astrojs/starlight/components';
+
+interface Props {
+    type: 'number' | 'text' | 'list' | 'color' | 'boolean' | 'component' | 'any' | 'bd' | 'rw';
+    text: string;
+    color: string;
+}
+
+const { type, text } = Astro.props;
+
+const variants = {
+    text: 'danger',
+    number: 'note',
+    component: 'success',
+    any: 'caution',
+    list: 'note',
+    color: 'caution',
+    boolean: 'success',
+    bd: 'note',
+    rw: 'caution',
+} as const;
+---
+
+<Badge variant={variants[type]} text={text}></Badge>
