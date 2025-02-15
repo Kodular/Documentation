@@ -1,1 +1,0 @@
-See [monetization](../../guides/monetization.md) guide.
