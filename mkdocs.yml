@@ -88,6 +88,7 @@ plugins:
   - redirects:
       redirect_maps:
         pricing.md: https://www.kodular.io/pricing
+        terms-of-service.md: https://legal.junnovate.com/kodular/tos/
         support/index.md: https://support.kodular.io/
 
 markdown_extensions:
