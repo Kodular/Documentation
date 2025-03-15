@@ -87,6 +87,7 @@ plugins:
   - git-revision-date-localized
   - redirects:
       redirect_maps:
+        pricing.md: https://www.kodular.io/pricing
         support/index.md: https://support.kodular.io/
 
 markdown_extensions:
