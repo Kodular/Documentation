@@ -87,7 +87,7 @@ plugins:
   - git-revision-date-localized
   - redirects:
       redirect_maps:
-        support/adm/getting-started.md: guides/monetization.md
+        support/index.md: https://support.kodular.io/
 
 markdown_extensions:
   - codehilite
@@ -393,39 +393,3 @@ nav:
     - Any Component: blocks/any-component.md
   - Support:
     - support/index.md
-    - Account:
-      - support/account/index.md
-      - How to login into Kodular?: support/account/how-to-login.md
-      - I cannot use my 2FA codes, what can I do?: support/account/2fa-recovery.md
-      - Delete my Kodular Account: support/account/delete-account.md
-      - How to remove a credit/debit card from my account?: support/account/remove-payment-method.md
-      - How can I change my payment method?: support/account/change-payment-method.md
-    - Billing:
-      - support/billing/index.md
-      - Branding Removal: support/billing/branding-removal.md
-      - Commission Removal: support/billing/commission-removal.md
-      - Companion Ads Removal: support/billing/companion-ads-removal.md
-      - Renewing a subscription: support/billing/renewing-subscription.md
-      - Cancelling a subscription: support/billing/cancelling-subscription.md
-      - Proration: support/billing/proration.md
-      - Payment failed: support/billing/payment-failed.md
-    - Google Ad Manager:
-      - support/adm/index.md
-      - What is Google Ad Manager?: support/adm/intro.md
-      - How do I get started with Google Ad Manager components?: support/adm/getting-started.md
-      - How can I configure my app-ads.txt file?: support/adm/app-ads-txt.md
-      - How do I ensure GDPR compliance when using Google Ad Manager?: support/adm/gdpr.md
-      - How do I request a payout?: support/adm/payouts.md
-      - Why am I unable to withdraw my ad revenue?: support/adm/payouts-requirements.md
-    - Monetization:
-      - support/monetization/index.md
-      - How can I show ads in my app?: support/monetization/ads-in-app.md
-      - Monetization guidelines: support/monetization/guidelines.md
-      - My app has been approved, but still the ads are not showing: support/monetization/approved-but-no-ads.md
-      - I have the app on the Google Play Store. Does my app require approva for showing ads?: support/monetization/google-play-approval.md
-      - I have the app on the Google Play Store. But ads are not showing in the built APK.: support/monetization/google-play-not-showing.md
-      - Do I need to get the app approved again, if I import a saved .aia copy of the same app from my computer?: support/monetization/aia-re-approval.md
-      - SDK Versions: support/monetization/sdk-versions.md
-    - App Development:
-      - support/development/index.md
-      - I have a question related to app development. How can I get help?: support/development/questions.md
