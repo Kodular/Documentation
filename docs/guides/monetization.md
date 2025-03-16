@@ -4,6 +4,9 @@
 **Google Ad Manager**, a Google's product that provides custom access to monetization tools. We have implemented their
 features into a set of components that will allow you to monetize your apps with Google Ad Manager advertising.
 
+!!! info
+    If you are looking for Payments Support, please visit [this Kodular Support page](https://support.kodular.io/support/solutions/folders/204000115658).
+
 ## Registering for a Child Account
 
 In order to start using Google Ad Manager, you have to apply for a child account to be part of Kodular's network.
