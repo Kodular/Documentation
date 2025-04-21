@@ -14,6 +14,8 @@
 {% endblock %}
 
 {% block site_nav %}
+    <iframe src="https://www.kodular.io/cookie-consent-sync.html" style="display: none"></iframe>
+
     {% if nav %}
         {% if page and page.meta and page.meta.hide %}
             {% set hidden = "hidden" if "navigation" in page.meta.hide %}
