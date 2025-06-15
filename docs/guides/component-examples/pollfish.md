@@ -120,4 +120,4 @@ Head over to your Pollfish dashboard and request an approval. You will need to s
 
 ## Downloads
 
- Get the AIA file <a href="https://kodular-docs.s3-eu-west-1.amazonaws.com/aia/pollfish.aia">here</a>.
+ Get the AIA file <a href="/media/aia/pollfish.aia">here</a>.

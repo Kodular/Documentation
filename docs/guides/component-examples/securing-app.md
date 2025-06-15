@@ -345,4 +345,4 @@ Want ideas for making this app better? We have some things for you to try.
 
 ## Downloads
 
- Get the AIA file <a href="https://kodular-docs.s3-eu-west-1.amazonaws.com/aia/firebase_rules.aia">here</a>.
+ Get the AIA file <a href="/media/aia/firebase_rules.aia">here</a>.

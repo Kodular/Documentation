@@ -175,5 +175,5 @@ Want ideas for making this app better? We have some things for you to try.
 
 ## Downloads
 
- Get the AIA file <a href="https://kodular-docs.s3-eu-west-1.amazonaws.com/aia/remote_config.aia">here</a>.
- Get a working APK <a href="https://kodular-docs.s3-eu-west-1.amazonaws.com/apk/remote_config.apk">here</a>.
+ Get the AIA file <a href="/media/aia/remote_config.aia">here</a>.
+ Get a working APK <a href="/media/apk/remote_config.apk">here</a>.
