@@ -153,8 +153,7 @@ tr td:nth-child(1) {
     display: block;
 }
 
-/*
-#carbonads {
+#carbonads:not(has(#carbon-cover)) {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif;
     display: block;
     overflow: hidden;
@@ -170,34 +169,34 @@ tr td:nth-child(1) {
     max-width: calc(100% - 15px);
 }
 
-#carbonads a {
+#carbonads a:not(#carbon-cover *) {
     color: inherit;
     text-decoration: none;
 }
 
-#carbonads a:hover {
+#carbonads a:hover:not(#carbon-cover *) {
     color: inherit;
 }
 
-#carbonads span {
+#carbonads span:not(#carbon-cover *) {
     position: relative;
     display: block;
     overflow: hidden;
 }
 
-.carbon-img {
+.carbon-img:not(#carbon-cover *) {
     display: block;
     margin-bottom: 5px;
     line-height: 1;
 }
 
-.carbon-text {
+.carbon-text:not(#carbon-cover *) {
     display: block;
     margin-bottom: 5px;
     padding: 0 1em 5px;
 }
 
-.carbon-poweredby {
+.carbon-poweredby:not(#carbon-cover *) {
     display: block;
     padding: 10px 12px;
     background: repeating-linear-gradient(-45deg, transparent, transparent 5px, hsla(0, 0%, 0%, .025) 5px, hsla(0, 0%, 0%, .025) 10px) hsla(203, 11%, 95%, .4);
@@ -209,30 +208,30 @@ tr td:nth-child(1) {
 }
 
 @media only screen and (min-width: 320px) and (max-width: 759px) {
-    #carbonads {
+    #carbonads:not(has(#carbon-cover)) {
         float: none;
         margin: 0 auto;
         max-width: 330px;
     }
 
-    #carbonads span {
+    #carbonads span:not(#carbon-cover *) {
         position: relative;
     }
 
-    #carbonads > span {
+    #carbonads > span:not(#carbon-cover *) {
         max-width: none;
     }
 
-    .carbon-img {
+    .carbon-img:not(#carbon-cover *) {
         float: left;
         margin: 0;
     }
 
-    .carbon-img img {
+    .carbon-img img:not(#carbon-cover *) {
         max-width: 130px !important;
     }
 
-    .carbon-text {
+    .carbon-text:not(#carbon-cover *) {
         float: left;
         margin-bottom: 0;
         padding: 8px 20px;
@@ -240,14 +239,13 @@ tr td:nth-child(1) {
         max-width: calc(100% - 130px - 3em);
     }
 
-    .carbon-poweredby {
+    .carbon-poweredby:not(#carbon-cover *) {
         left: 130px;
         bottom: 0;
         display: block;
         width: 100%;
     }
 }
-*/
 
 .block {
     margin: 10px;
