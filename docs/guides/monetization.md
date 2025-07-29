@@ -6,7 +6,7 @@ integrate ads and manage your advertising networks directly from Kodular Creator
 !!! tip "Public Preview"
     This feature is currently in public review. If you wish to try it out, you can fill the following form: [kodul.ar/monetize-join](https://kodul.ar/monetize-join).
     You will receive a link to activate it if selected.  
-    Please report any issues you encounter in [Kodular Community](https://community.kodular.io/).
+    Please report any issues you encounter in [Kodular Community](https://community.kodular.io/t/introducing-kodular-monetize-public-preview/298115).
 
 This new system aims to replace the existing commission-based monetization system, which had some limitations. With
 Kodular Monetize, you will have **lower charges**, and a post-usage based pricing model. It will result in a lower
