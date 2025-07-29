@@ -152,6 +152,7 @@ nav:
       - Kodular Methods: guides/extensions/kodular-methods.md
     - Keyboard Shortcuts: guides/keyboard-shortcuts.md
     - Monetization: guides/monetization.md
+    - Monetization (Legacy): guides/monetization-old.md
   - Components:
     - components/index.md
     - Screen: components/screen.md
