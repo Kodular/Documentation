@@ -90,9 +90,10 @@ There are three variables to take into account when calculating the usage-based 
     * For example, an ad served in the United States will be charged at a higher rate than an event occurring in India.
 * **Event type**: there are different types of events, such as ad impressions, clicks, etc. Each event type has a
   different price.
-    * For example, an ad click is charged at a higher rate than a normal not-clicked ad impression.
+    * For example, an ad click is more expensive than a normal not-clicked ad impression.
 * **Number of events**: the total number of events that occurred in your app during the month.
-    * For example, 
+    * For example, showing 2M ads in a month will have a lower "per ad" charge than showing just 1M ads. The higher the
+      usage, the cheaper it is.
 
 There is a **free allowance** to allow for testing and new apps to get started. If you serve ads within the free
 allowance, an empty invoice will be generated.
