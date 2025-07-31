@@ -14,9 +14,9 @@ Kodular Monetize, you will have **lower charges**, and a post-usage based pricin
 
 ## Enabling Kodular Monetize
 
-1. Kodular Monetize requires a **Kodular Premium** subscription. If you don't have one, you can subscribe in [my.kodular.io/premium](https://my.kodular.io/premium).
+_You do **not** need a Kodular Premium subscription to use Kodular Monetize._
 
-2. Buy a **Kodular Monetize** activation license in [my.kodular.io/premium](https://my.kodular.io/premium).
+1. Buy a **Kodular Monetize** activation license in [my.kodular.io/monetize](https://my.kodular.io/monetize).
     * This is a **one-time payment**: once bought, you own it for life, for all components.
     * During Public Preview, buying an activation license is restricted to a limited number of users. You can fill the
       [kodul.ar/monetize-join](https://kodul.ar/monetize-join) form to join the waiting list, and you will receive a
@@ -46,10 +46,8 @@ If you use any of those ad networks' components, you will be using Kodular Monet
 * **`NOT_VERIFIED`**: this error means that the identity verification process has not been completed yet.
     * Please go to [my.kodular.io/monetize](https://my.kodular.io/monetize) and complete the verification process.
 
-* **`OVERDUE_INVOICES`**: this error means that your account no longer has a valid Kodular Premium subscription, or that
-  you have unpaid overdue invoices.
-    * Please go to [my.kodular.io/premium](https://my.kodular.io/premium), and make sure you have an active
-      Kodular Premium subscription, and that all your invoices are paid.
+* **`OVERDUE_INVOICES`**: this error means that you have unpaid overdue invoices.
+    * Please go to [my.kodular.io/monetize](https://my.kodular.io/monetize), and make sure you have all your invoices are paid.
 
 ## FAQ
 
@@ -72,13 +70,12 @@ pricing model, on top of being ad-network agnostic.
 
 ### What is the cost associated with Kodular Monetize?
 
-1. **Kodular Premium**: this is a flat-rate recurring subscription, as stated in [kodular.io/pricing](https://kodular.io/pricing).
-2. **Kodular Monetize Activation License**: this is a one-time activation payment, granting access forever to all
+1. **Kodular Monetize Activation License**: this is a one-time activation payment, granting access forever to all
   components.
     * For Public Preview users, the fee is 5 EUR.
     * For anyone else acquiring it in 2025, the fee is 10 EUR.
     * On or after 1st January 2026, the fee is 15 EUR.
-3. **Kodular Monetize Usage**: on the following month after events are recorded, you will receive an invoice with the
+2. **Kodular Monetize Usage**: on the following month after events are recorded, you will receive an invoice with the
    total amount of events that occurred in your app.
 
 ### How is the usage-based pricing calculated?
@@ -112,11 +109,10 @@ allowance count will still be at "1" in each tier (and not at 3 globally).
 For example, if the first 1,000 ad clicks are free in each tier, this means you can serve up to 3,000 ad clicks free
 of charge, as long as they are evenly distributed across the tiers.
 
-### What happens if I stop paying Kodular Premium, or have an unpaid Kodular Monetize invoice?
+### What happens if have an unpaid Kodular Monetize invoice?
 
-If you stop paying Kodular Premium, or you did not pay within 30 days a Kodular Monetize invoice, ad serving will stop
-in your apps until it gets resolved. If you have any questions, you can contact us at
-[support@kodular.io](mailto:support@kodular.io).
+If you did not pay within 30 days a Kodular Monetize invoice, ad serving will stop in your apps until it gets resolved.
+If you have any questions, you can contact us at [support@kodular.io](mailto:support@kodular.io).
 
 After your account becomes compliant again, note it may take up to 4 hours for all the apps to restore their ad serving
 status.
