@@ -6090,6 +6090,15 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#got-purchases-result" class="md-nav__link">
+    <span class="md-ellipsis">
+      Got Purchases Result
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#got-subscription-details" class="md-nav__link">
     <span class="md-ellipsis">
       Got Subscription Details
@@ -6112,6 +6121,15 @@
   
     <nav class="md-nav" aria-label="Methods">
       <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#check-purchase" class="md-nav__link">
+    <span class="md-ellipsis">
+      Check Purchase
+    </span>
+  </a>
+  
+</li>
         
           <li class="md-nav__item">
   <a href="#consume" class="md-nav__link">
@@ -6358,10 +6376,6 @@
       
         
           
-        
-      
-        
-      
         
       
         
@@ -6780,50 +6794,6 @@
   
   <span class="md-ellipsis">
     StartApp Interstitial
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../advertising/unity-ads-banner/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Unity Ads Banner
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../advertising/unity-ads-interstitial/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Unity Ads Interstitial
     
   </span>
   
@@ -7428,6 +7398,8 @@
       
         
       
+        
+      
     
     
       
@@ -7526,6 +7498,28 @@
   
   <span class="md-ellipsis">
     ExoPlayer
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../experimental/in-app-review/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    In-App Review
     
   </span>
   
@@ -8074,6 +8068,15 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#got-purchases-result" class="md-nav__link">
+    <span class="md-ellipsis">
+      Got Purchases Result
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#got-subscription-details" class="md-nav__link">
     <span class="md-ellipsis">
       Got Subscription Details
@@ -8096,6 +8099,15 @@
   
     <nav class="md-nav" aria-label="Methods">
       <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#check-purchase" class="md-nav__link">
+    <span class="md-ellipsis">
+      Check Purchase
+    </span>
+  </a>
+  
+</li>
         
           <li class="md-nav__item">
   <a href="#consume" class="md-nav__link">
@@ -8337,7 +8349,7 @@
 </table>
 <h3 id="consumed">Consumed<a class="headerlink" href="#consumed" title="Permanent link">&para;</a></h3>
 <p>When product is consumed.</p>
-<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22In%20App%20Billing%22,%20%22name%22:%20%22Consumed%22,%20%22param%22:%20%5B%22success%22,%20%22sku%22%5D%7D"></div>
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22In%20App%20Billing%22,%20%22name%22:%20%22Consumed%22,%20%22param%22:%20%5B%22success%22,%20%22product%20Id%22%5D%7D"></div>
 
 <table>
 <thead>
@@ -8352,7 +8364,7 @@
 <td><span class="chip chip-boolean">Boolean</span></td>
 </tr>
 <tr>
-<td>sku</td>
+<td>product Id</td>
 <td><span class="chip chip-text">Text</span></td>
 </tr>
 </tbody>
@@ -8435,6 +8447,32 @@
 </tr>
 </tbody>
 </table>
+<h3 id="got-purchases-result">Got Purchases Result<a class="headerlink" href="#got-purchases-result" title="Permanent link">&para;</a></h3>
+<p>Triggers with the result of IsPurchased</p>
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22In%20App%20Billing%22,%20%22name%22:%20%22Got%20Purchases%20Result%22,%20%22param%22:%20%5B%22product%20Id%22,%20%22product%20Type%22,%20%22is%20Purchased%22%5D%7D"></div>
+
+<table>
+<thead>
+<tr>
+<th>Params</th>
+<th><a href=""></a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>product Id</td>
+<td><span class="chip chip-text">Text</span></td>
+</tr>
+<tr>
+<td>product Type</td>
+<td><span class="chip chip-text">Text</span></td>
+</tr>
+<tr>
+<td>is Purchased</td>
+<td><span class="chip chip-boolean">Boolean</span></td>
+</tr>
+</tbody>
+</table>
 <h3 id="got-subscription-details">Got Subscription Details<a class="headerlink" href="#got-subscription-details" title="Permanent link">&para;</a></h3>
 <p>Got Subscription Details</p>
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22In%20App%20Billing%22,%20%22name%22:%20%22Got%20Subscription%20Details%22,%20%22param%22:%20%5B%22success%22,%20%22is%20Subscription%22,%20%22subscription%20Id%22,%20%22title%22,%20%22description%22,%20%22currency%22,%20%22price%22%5D%7D"></div>
@@ -8478,6 +8516,28 @@
 </tbody>
 </table>
 <h2 id="methods">Methods<a class="headerlink" href="#methods" title="Permanent link">&para;</a></h2>
+<h3 id="check-purchase">Check Purchase<a class="headerlink" href="#check-purchase" title="Permanent link">&para;</a></h3>
+<p>Method for CheckPurchase</p>
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22In%20App%20Billing%22,%20%22name%22:%20%22Check%20Purchase%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22product%20Id%22,%20%22product%20Type%22%5D%7D"></div>
+
+<table>
+<thead>
+<tr>
+<th>Params</th>
+<th><a href=""></a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>product Id</td>
+<td><span class="chip chip-text">Text</span></td>
+</tr>
+<tr>
+<td>product Type</td>
+<td><span class="chip chip-text">Text</span></td>
+</tr>
+</tbody>
+</table>
 <h3 id="consume">Consume<a class="headerlink" href="#consume" title="Permanent link">&para;</a></h3>
 <p>Consumes a purchase to enable users to buy it again.</p>
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22In%20App%20Billing%22,%20%22name%22:%20%22Consume%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22sku%22%5D%7D"></div>
@@ -8520,6 +8580,7 @@
 </tbody>
 </table>
 <h3 id="is-purchased">Is Purchased<a class="headerlink" href="#is-purchased" title="Permanent link">&para;</a></h3>
+<p><img alt="⚠" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/26a0.svg" title=":warning:" /> <mark><strong>Deprecated</strong></mark></p>
 <p><span class="chip chip-boolean">Returns: <i>Boolean</i></span></p>
 <p>Returns true if the product with the specific id is purchased.</p>
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22In%20App%20Billing%22,%20%22name%22:%20%22Is%20Purchased%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22product%20Id%22%5D%7D"></div>
@@ -8539,6 +8600,7 @@
 </tbody>
 </table>
 <h3 id="is-subscribed">Is Subscribed<a class="headerlink" href="#is-subscribed" title="Permanent link">&para;</a></h3>
+<p><img alt="⚠" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/26a0.svg" title=":warning:" /> <mark><strong>Deprecated</strong></mark></p>
 <p><span class="chip chip-boolean">Returns: <i>Boolean</i></span></p>
 <p>Returns true if the product is subscribed.</p>
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22In%20App%20Billing%22,%20%22name%22:%20%22Is%20Subscribed%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22subscription%20Id%22%5D%7D"></div>
@@ -8562,26 +8624,8 @@
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22In%20App%20Billing%22,%20%22name%22:%20%22Load%20Owned%20Purchases%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
 
 <h3 id="product-details">Product Details<a class="headerlink" href="#product-details" title="Permanent link">&para;</a></h3>
-<p>Get product details from the specific product id.</p>
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22In%20App%20Billing%22,%20%22name%22:%20%22Product%20Details%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22product%20Id%22%5D%7D"></div>
-
-<table>
-<thead>
-<tr>
-<th>Params</th>
-<th><a href=""></a></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>product Id</td>
-<td><span class="chip chip-text">Text</span></td>
-</tr>
-</tbody>
-</table>
-<h3 id="purchase">Purchase<a class="headerlink" href="#purchase" title="Permanent link">&para;</a></h3>
-<p>Purchase a product with the given product id. Set the product type to "inapp" for one time purchases and "subs" for subscriptions.</p>
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22In%20App%20Billing%22,%20%22name%22:%20%22Purchase%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22product%20Id%22%5D%7D"></div>
+<p>Get product details from the specific product id. Product type can be either inapp or subs.</p>
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22In%20App%20Billing%22,%20%22name%22:%20%22Product%20Details%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22product%20Id%22,%20%22product%20Type%22%5D%7D"></div>
 
 <table>
 <thead>
@@ -8597,11 +8641,34 @@
 </tr>
 <tr>
 <td>product Type</td>
-<td><span class="chip chip-text">inapp</span> or <span class="chip chip-text">subs</span></td>
+<td><span class="chip chip-text">Text</span></td>
+</tr>
+</tbody>
+</table>
+<h3 id="purchase">Purchase<a class="headerlink" href="#purchase" title="Permanent link">&para;</a></h3>
+<p>Purchase a product with the given product id.</p>
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22In%20App%20Billing%22,%20%22name%22:%20%22Purchase%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22product%20Id%22,%20%22product%20Type%22%5D%7D"></div>
+
+<table>
+<thead>
+<tr>
+<th>Params</th>
+<th><a href=""></a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>product Id</td>
+<td><span class="chip chip-text">Text</span></td>
+</tr>
+<tr>
+<td>product Type</td>
+<td><span class="chip chip-text">Text</span></td>
 </tr>
 </tbody>
 </table>
 <h3 id="subscribe">Subscribe<a class="headerlink" href="#subscribe" title="Permanent link">&para;</a></h3>
+<p><img alt="⚠" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/26a0.svg" title=":warning:" /> <mark><strong>Deprecated</strong></mark></p>
 <p>Subscribe a product with the given product id.</p>
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22In%20App%20Billing%22,%20%22name%22:%20%22Subscribe%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22subscription%20Id%22%5D%7D"></div>
 
@@ -8620,6 +8687,7 @@
 </tbody>
 </table>
 <h3 id="subscription-details">Subscription Details<a class="headerlink" href="#subscription-details" title="Permanent link">&para;</a></h3>
+<p><img alt="⚠" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/26a0.svg" title=":warning:" /> <mark><strong>Deprecated</strong></mark></p>
 <p>Get subscription details from the given id.</p>
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22In%20App%20Billing%22,%20%22name%22:%20%22Subscription%20Details%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22subscription%20Id%22%5D%7D"></div>
 
@@ -8711,7 +8779,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="January 16, 2024 13:56:52">January 16, 2024</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="August 4, 2025 00:55:55">August 4, 2025</span>
   </span>
 
     

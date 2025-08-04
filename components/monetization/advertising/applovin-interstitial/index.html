@@ -6090,10 +6090,6 @@
       
         
       
-        
-      
-        
-      
     
     
       
@@ -6477,6 +6473,15 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#initialize" class="md-nav__link">
+    <span class="md-ellipsis">
+      Initialize
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#is-european-user" class="md-nav__link">
     <span class="md-ellipsis">
       Is European User
@@ -6681,50 +6686,6 @@
   
   <span class="md-ellipsis">
     StartApp Interstitial
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../unity-ads-banner/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Unity Ads Banner
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../unity-ads-interstitial/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Unity Ads Interstitial
     
   </span>
   
@@ -7329,6 +7290,8 @@
       
         
       
+        
+      
     
     
       
@@ -7427,6 +7390,28 @@
   
   <span class="md-ellipsis">
     ExoPlayer
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../experimental/in-app-review/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    In-App Review
     
   </span>
   
@@ -7999,6 +7984,15 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#initialize" class="md-nav__link">
+    <span class="md-ellipsis">
+      Initialize
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#is-european-user" class="md-nav__link">
     <span class="md-ellipsis">
       Is European User
@@ -8185,6 +8179,10 @@
 </tbody>
 </table>
 <h2 id="methods">Methods<a class="headerlink" href="#methods" title="Permanent link">&para;</a></h2>
+<h3 id="initialize">Initialize<a class="headerlink" href="#initialize" title="Permanent link">&para;</a></h3>
+<p>Initialize the AppLovin SDK. You should call this function before loading ads to ensure proper initialization.</p>
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22AppLovin%20Interstitial%22,%20%22name%22:%20%22Initialize%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
+
 <h3 id="is-european-user">Is European User<a class="headerlink" href="#is-european-user" title="Permanent link">&para;</a></h3>
 <p><span class="chip chip-boolean">Returns: <i>Boolean</i></span></p>
 <p>Returns true if the current app user is located in europe. If true you must ask the user as example in a dialog if he give his consent for personalized ads.</p>
@@ -8203,8 +8201,9 @@
 <p><span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span> <img alt="➖" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/2796.svg" title=":heavy_minus_sign:" /> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span></span></p>
 <p>Property for SdkKey</p>
 <h3 id="test-mode">Test Mode<a class="headerlink" href="#test-mode" title="Permanent link">&para;</a></h3>
+<p><img alt="⚠" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/26a0.svg" title=":warning:" /> <mark><strong>Deprecated</strong></mark></p>
 <p><span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>False</i></span> <img alt="➖" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/2796.svg" title=":heavy_minus_sign:" /> <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span></p>
-<p>If you want to test the component then that this property to true. Then you will receive test ads.</p>
+<p>With AppLovin SDK 13.2.0+, test mode must be configured through the AppLovin dashboard. This property is maintained for backwards compatibility but has no effect.</p>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22AppLovin%20Interstitial%22,%20%22name%22:%20%22Test%20Mode%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22AppLovin%20Interstitial%22,%20%22name%22:%20%22Test%20Mode%22,%20%22getter%22:%20false%7D"></div>
 
@@ -8233,7 +8232,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="November 9, 2022 00:04:00">November 9, 2022</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="August 4, 2025 00:55:55">August 4, 2025</span>
   </span>
 
     
