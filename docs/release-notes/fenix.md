@@ -462,14 +462,14 @@ _This component no longer serves ads, please switch to Google Ad Manager._
 
 ## 1.5D.2 Fenix   \|   _23 March 2025_
 
-## New Features
+### New Features
 
 * Build apps using a new experimental D8 flag.
     * More details here: https://community.kodular.io/t/d8-fix-is-available/285281?u=diego.
 * [Added @UsesXmls annotation which allows to create xml files in APK resources](https://github.com/mit-cml/appinventor-sources/pull/3292)
 * [Implement a default uncaught exception handler](https://github.com/mit-cml/appinventor-sources/pull/3254)
 
-## Bugs Fixed
+### Bugs Fixed
 
 * Fixed some build issues with the new D8 compiler.
 * Made small improvements to the Google Ad Manager integration.
