@@ -373,3 +373,128 @@ _This component no longer serves ads, please switch to Google Ad Manager._
 - Upgraded Google Play libraries.
 
 - Some other minor bugs have been fixes.
+
+## 1.5C.0 Fenix   \|   _12 February 2023_
+
+### Components Changes
+
+- Upgraded **Target SDK** to 33 (Android 14).
+
+- Deprecated **Unity Ads** components.  
+  _Current SDK is not suitable for Kodular compatibility._
+
+### Bugs Fixed   \|   _15 October 2023_
+
+- Sound files were never loaded from EXTERNAL_APP_FILES_DIRECTORY.
+
+- Upgraded Google Ad Manager SDK libraries.
+
+- Upgraded StartApp / Start.io SDK libraries.
+
+- Some other minor bugs have been fixed.
+
+## 1.5C.1 Fenix
+
+### Major Changes
+
+- Increased build files timeout to 1h.
+
+### Bugs Fixed
+
+- Fixed AAB build issues related to DEX files.
+
+- Added missing permissions to some components.
+
+- Some other minor bugs have been fixed.
+
+## 1.5C.2 Fenix
+
+### Library Upgrades
+
+- Upgraded Google Play Billing library to v5.
+
+### Bugs Fixed
+
+- Fixed Google Ad Manager consent bug.
+
+- Some other minor bugs have been fixed.
+
+## 1.5C.3 Fenix   \|   _31 March 2024_
+
+### Library Upgrades
+
+- Upgraded Start.io / StartApp library to 4.10.1 (Google compliant).
+
+### Bugs Fixed
+
+- Added missing `AD_ID` permission for Google Ad Manager components.
+
+- Some other minor bugs have been fixed.
+
+## 1.5D.0 Fenix   \|   _3 November 2024_
+
+### Main Changes
+
+* Added support for **Target SDK 34**.
+
+### Library Upgrades
+
+* Upgraded Google Ad Manager library to v23.
+
+### Bugs Fixed
+
+* Other minor bugs have been fixed.
+
+## 1.5D.1 Fenix   \|   _9 February 2025_
+
+### Library Upgrades
+
+* Upgraded Google Play Billing library to v7.1.1.
+* Upgraded Facebook Audience Network library to v6.18.0.
+
+### Bugs Fixed
+
+* Added `RECEIVER_EXPORTED` flag while registering receivers in Download component.
+* `KeyboardVisibilityChanged` event should fire when the visibility actually changes.
+* Video Player will now play videos from assets
+* Various crashes when testing via USB.
+* Other minor bugs have been fixed.
+
+## 1.5D.2 Fenix   \|   _23 March 2025_
+
+## New Features
+
+* Build apps using a new experimental D8 flag.
+    * More details here: https://community.kodular.io/t/d8-fix-is-available/285281?u=diego.
+* [Added @UsesXmls annotation which allows to create xml files in APK resources](https://github.com/mit-cml/appinventor-sources/pull/3292)
+* [Implement a default uncaught exception handler](https://github.com/mit-cml/appinventor-sources/pull/3254)
+
+## Bugs Fixed
+
+* Fixed some build issues with the new D8 compiler.
+* Made small improvements to the Google Ad Manager integration.
+* [Fix crashes in `EventDispatcher`](https://github.com/mit-cml/appinventor-sources/pull/3062)
+* [Replaced resizableActivity to resizeableActivity](https://github.com/mit-cml/appinventor-sources/pull/3192)
+* Other minor bugs have been fixed.
+
+### Pending Known Issues
+
+* `Flags.initialize` issue for Google Ad Manager is still on ongoing investigation. It seems to be an issue in the SDK.
+
+## 1.5D.3 Fenix   \|   _13 May 2025_
+
+## Bugs Fixed
+
+* Google Ad Manager components have been reworked from scratch, fixing the `Flags.initialize` issue.
+* Updated AppLoving libraries.
+* Fixed issues with Premium subscription not being activated temporarily.
+* Other minor bugs have been fixed.
+
+## 1.5D.4 Fenix   \|   _13 July 2025_
+
+## Bugs Fixed
+
+* Fix null authority check in WebViewer request interception.
+* Duplicate gravity exception by removing existing drawer views with START gravity.
+* Validate toast message to prevent IllegalStateException
+* Other minor bugs have been fixed.
