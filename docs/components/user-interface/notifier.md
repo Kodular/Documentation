@@ -254,11 +254,11 @@ Writes an information message to the Android log.
 |--------|------|
 |message|<span class="chip chip-text">Text</span>|
 
-### Log Warning
+### LOG.warning
 
 Writes a warning message to the Android log. See the Google Android documentation for how to access the log.
 
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22Log%20Warning%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22message%22%5D%7D"></div>
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22LOG.warning%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22message%22%5D%7D"></div>
 
 | Params | []() |
 |--------|------|

@@ -21,6 +21,7 @@ You might get an error if you attempt to play a sound immediately after setting 
 ??? example "Permissions"
     * [android.permission.INTERNET](https://developer.android.com/reference/android/Manifest.permission.html#INTERNET)
     * [android.permission.VIBRATE](https://developer.android.com/reference/android/Manifest.permission.html#VIBRATE)
+    * [android.permission.READ_EXTERNAL_STORAGE](https://developer.android.com/reference/android/Manifest.permission.html#READ_EXTERNAL_STORAGE) if using [Source](#source)
 
 ## Methods
 

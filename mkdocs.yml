@@ -353,8 +353,6 @@ nav:
         - LeadBolt: components/monetization/advertising/leadbolt.md
         - StartApp Banner: components/monetization/advertising/startapp-banner.md
         - StartApp Interstitial: components/monetization/advertising/startapp-interstitial.md
-        - Unity Ads Banner: components/monetization/advertising/unity-ads-banner.md
-        - Unity Ads Interstitial: components/monetization/advertising/unity-ads-interstitial.md
     - LEGO® MINDSTORMS®:
       - components/lego-mindstorms/index.md
       - EV3:
@@ -381,6 +379,7 @@ nav:
       - CloudDB: components/experimental/clouddb.md
       - Custom Tabs: components/experimental/custom-tabs.md
       - ExoPlayer: components/experimental/exoplayer.md
+      - In-App Review: components/experimental/in-app-review.md
       - In-App Update: components/experimental/in-app-update.md
       - Notification: components/experimental/notification.md
       - Shortcut Badge: components/experimental/shortcut-badge.md

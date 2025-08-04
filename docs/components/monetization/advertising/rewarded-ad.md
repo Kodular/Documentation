@@ -13,6 +13,7 @@ Note\: This component is currently available on an invite-only basis. Click <a h
 
 ??? example "Permissions"
     * [android.permission.ACCESS_FINE_LOCATION](https://developer.android.com/reference/android/Manifest.permission.html#ACCESS_FINE_LOCATION)
+    * [com.google.android.gms.permission.AD_ID](https://developer.android.com/reference/android/Manifest.permission.html#com.google.android.gms.permission.AD_ID)
     * [android.permission.ACCESS_COARSE_LOCATION](https://developer.android.com/reference/android/Manifest.permission.html#ACCESS_COARSE_LOCATION)
     * [android.permission.INTERNET](https://developer.android.com/reference/android/Manifest.permission.html#INTERNET)
     * [android.permission.ACCESS_NETWORK_STATE](https://developer.android.com/reference/android/Manifest.permission.html#ACCESS_NETWORK_STATE)
@@ -29,6 +30,24 @@ Note\: This component is currently available on an invite-only basis. Click <a h
 
 ## Events
 
+### Ad Clicked
+
+Event raised when an ad was clicked.
+
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Rewarded%20Ad%22,%20%22name%22:%20%22Ad%20Clicked%22,%20%22param%22:%20%5B%5D%7D"></div>
+
+### Ad Closed
+
+Event raised when an ad was closed.
+
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Rewarded%20Ad%22,%20%22name%22:%20%22Ad%20Closed%22,%20%22param%22:%20%5B%5D%7D"></div>
+
+### Ad Opened
+
+Event raised when an ad was opened.
+
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Rewarded%20Ad%22,%20%22name%22:%20%22Ad%20Opened%22,%20%22param%22:%20%5B%5D%7D"></div>
+
 ### Failed To Load
 
 Event raised when an ad could not be loaded.
@@ -41,7 +60,7 @@ Event raised when an ad could not be loaded.
 
 ### Failed To Show
 
-Event raised when an ad could not be displayd to the user.
+Event raised when an ad could not be shown.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Rewarded%20Ad%22,%20%22name%22:%20%22Failed%20To%20Show%22,%20%22param%22:%20%5B%22error%20Message%22%5D%7D"></div>
 
@@ -55,11 +74,16 @@ Event raised when an ad was loaded successfully.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Rewarded%20Ad%22,%20%22name%22:%20%22Loaded%22,%20%22param%22:%20%5B%5D%7D"></div>
 
-### Ready To Reward
+### User Earned Reward Events
 
-Event raised when the user has watched the ad and is now ready to receive a reward.
+Event raised when the user has earned a reward.
 
-<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Rewarded%20Ad%22,%20%22name%22:%20%22Ready%20To%20Reward%22,%20%22param%22:%20%5B%5D%7D"></div>
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Rewarded%20Ad%22,%20%22name%22:%20%22User%20Earned%20Reward%20Events%22,%20%22param%22:%20%5B%22type%22,%20%22amount%22%5D%7D"></div>
+
+| Params | []() |
+|--------|------|
+|type|<span class="chip chip-text">Text</span>|
+|amount|<span class="chip chip-number">Number</span>|
 
 ## Methods
 
@@ -71,7 +95,7 @@ Loads a rewarded ad and prepares it for showing to the user.
 
 ### Show
 
-Displays a previously loaded interstitial ad.
+Displays a previously loaded rewarded ad.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Rewarded%20Ad%22,%20%22name%22:%20%22Show%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
 

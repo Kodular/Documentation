@@ -30,12 +30,12 @@ After purchase event.
 
 When product is consumed.
 
-<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22In%20App%20Billing%22,%20%22name%22:%20%22Consumed%22,%20%22param%22:%20%5B%22success%22,%20%22sku%22%5D%7D"></div>
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22In%20App%20Billing%22,%20%22name%22:%20%22Consumed%22,%20%22param%22:%20%5B%22success%22,%20%22product%20Id%22%5D%7D"></div>
 
 | Params | []() |
 |--------|------|
 |success|<span class="chip chip-boolean">Boolean</span>|
-|sku|<span class="chip chip-text">Text</span>|
+|product Id|<span class="chip chip-text">Text</span>|
 
 ### Error Occurred
 
@@ -73,6 +73,18 @@ Got Product Details
 |currency|<span class="chip chip-text">Text</span>|
 |price|<span class="chip chip-text">Text</span>|
 
+### Got Purchases Result
+
+Triggers with the result of IsPurchased
+
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22In%20App%20Billing%22,%20%22name%22:%20%22Got%20Purchases%20Result%22,%20%22param%22:%20%5B%22product%20Id%22,%20%22product%20Type%22,%20%22is%20Purchased%22%5D%7D"></div>
+
+| Params | []() |
+|--------|------|
+|product Id|<span class="chip chip-text">Text</span>|
+|product Type|<span class="chip chip-text">Text</span>|
+|is Purchased|<span class="chip chip-boolean">Boolean</span>|
+
 ### Got Subscription Details
 
 Got Subscription Details
@@ -90,6 +102,17 @@ Got Subscription Details
 |price|<span class="chip chip-text">Text</span>|
 
 ## Methods
+
+### Check Purchase
+
+Method for CheckPurchase
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22In%20App%20Billing%22,%20%22name%22:%20%22Check%20Purchase%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22product%20Id%22,%20%22product%20Type%22%5D%7D"></div>
+
+| Params | []() |
+|--------|------|
+|product Id|<span class="chip chip-text">Text</span>|
+|product Type|<span class="chip chip-text">Text</span>|
 
 ### Consume
 
@@ -116,6 +139,8 @@ Do not use this block anymore. This block is deprecated and does nothing and wil
 
 ### Is Purchased
 
+:warning: ==**Deprecated**==
+
 <span class="chip chip-boolean">Returns: <i>Boolean</i></span>
 
 Returns true if the product with the specific id is purchased.
@@ -127,6 +152,8 @@ Returns true if the product with the specific id is purchased.
 |product Id|<span class="chip chip-text">Text</span>|
 
 ### Is Subscribed
+
+:warning: ==**Deprecated**==
 
 <span class="chip chip-boolean">Returns: <i>Boolean</i></span>
 
@@ -146,26 +173,29 @@ Load Owned Purchases from Google.
 
 ### Product Details
 
-Get product details from the specific product id.
+Get product details from the specific product id. Product type can be either inapp or subs.
 
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22In%20App%20Billing%22,%20%22name%22:%20%22Product%20Details%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22product%20Id%22%5D%7D"></div>
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22In%20App%20Billing%22,%20%22name%22:%20%22Product%20Details%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22product%20Id%22,%20%22product%20Type%22%5D%7D"></div>
 
 | Params | []() |
 |--------|------|
 |product Id|<span class="chip chip-text">Text</span>|
+|product Type|<span class="chip chip-text">Text</span>|
 
 ### Purchase
 
-Purchase a product with the given product id. Set the product type to "inapp" for one time purchases and "subs" for subscriptions.
+Purchase a product with the given product id.
 
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22In%20App%20Billing%22,%20%22name%22:%20%22Purchase%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22product%20Id%22%5D%7D"></div>
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22In%20App%20Billing%22,%20%22name%22:%20%22Purchase%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22product%20Id%22,%20%22product%20Type%22%5D%7D"></div>
 
 | Params | []() |
 |--------|------|
 |product Id|<span class="chip chip-text">Text</span>|
-|product Type|<span class="chip chip-text">inapp</span> or <span class="chip chip-text">subs</span>|
+|product Type|<span class="chip chip-text">Text</span>|
 
 ### Subscribe
+
+:warning: ==**Deprecated**==
 
 Subscribe a product with the given product id.
 
@@ -176,6 +206,8 @@ Subscribe a product with the given product id.
 |subscription Id|<span class="chip chip-text">Text</span>|
 
 ### Subscription Details
+
+:warning: ==**Deprecated**==
 
 Get subscription details from the given id.
 

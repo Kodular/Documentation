@@ -63,7 +63,7 @@ Screen starting
 
 ### Keyboard Visibility Changed
 
-Event will be invoked if the keyboard was visible or invisible.
+Event will be invoked if the keyboard was visible or invisible. Note: This will not work if your app is in split screen or floating window mode.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Screen%22,%20%22name%22:%20%22Keyboard%20Visibility%20Changed%22,%20%22param%22:%20%5B%22is%20Keyboard%20Visible%22%5D%7D"></div>
 

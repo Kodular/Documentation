@@ -17,6 +17,8 @@ This component is best for long sound files, such as songs, while the `` Sound `
 ??? example "Permissions"
     * [android.permission.INTERNET](https://developer.android.com/reference/android/Manifest.permission.html#INTERNET)
     * [android.permission.VIBRATE](https://developer.android.com/reference/android/Manifest.permission.html#VIBRATE)
+    * [android.permission.READ_EXTERNAL_STORAGE](https://developer.android.com/reference/android/Manifest.permission.html#READ_EXTERNAL_STORAGE) if using [Source](#source)
+    * [android.permission.READ_MEDIA_AUDIO](https://developer.android.com/reference/android/Manifest.permission.html#READ_MEDIA_AUDIO) if using [Source](#source)
 
 ## Events
 

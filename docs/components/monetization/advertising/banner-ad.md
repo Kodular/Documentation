@@ -11,6 +11,7 @@ Note\: This component is currently available on an invite-only basis. Click <a h
 
 ??? example "Permissions"
     * [android.permission.ACCESS_FINE_LOCATION](https://developer.android.com/reference/android/Manifest.permission.html#ACCESS_FINE_LOCATION)
+    * [com.google.android.gms.permission.AD_ID](https://developer.android.com/reference/android/Manifest.permission.html#com.google.android.gms.permission.AD_ID)
     * [android.permission.ACCESS_COARSE_LOCATION](https://developer.android.com/reference/android/Manifest.permission.html#ACCESS_COARSE_LOCATION)
     * [android.permission.INTERNET](https://developer.android.com/reference/android/Manifest.permission.html#INTERNET)
     * [android.permission.ACCESS_NETWORK_STATE](https://developer.android.com/reference/android/Manifest.permission.html#ACCESS_NETWORK_STATE)
@@ -26,6 +27,30 @@ Note\: This component is currently available on an invite-only basis. Click <a h
     |   21%    | 24% | 26% | 31%  | 46%  | 61%  |
 
 ## Events
+
+### Ad Clicked
+
+Event raised when an ad was clicked
+
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Banner%20Ad%22,%20%22name%22:%20%22Ad%20Clicked%22,%20%22param%22:%20%5B%5D%7D"></div>
+
+### Ad Closed
+
+Event raised when an ad was closed
+
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Banner%20Ad%22,%20%22name%22:%20%22Ad%20Closed%22,%20%22param%22:%20%5B%5D%7D"></div>
+
+### Ad Loaded
+
+Event raised when an ad was loaded successfully
+
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Banner%20Ad%22,%20%22name%22:%20%22Ad%20Loaded%22,%20%22param%22:%20%5B%5D%7D"></div>
+
+### Ad Opened
+
+Event raised when an ad was opened
+
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Banner%20Ad%22,%20%22name%22:%20%22Ad%20Opened%22,%20%22param%22:%20%5B%5D%7D"></div>
 
 ### Failed To Load
 

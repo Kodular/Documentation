@@ -42,8 +42,8 @@ Another way for an app to specify a phone number would be to include a `` PhoneN
     * [com.google.android.apps.googlevoice.permission.SEND_SMS](https://developer.android.com/reference/android/Manifest.permission.html#com.google.android.apps.googlevoice.permission.SEND_SMS)
     * [android.permission.MANAGE_ACCOUNTS](https://developer.android.com/reference/android/Manifest.permission.html#MANAGE_ACCOUNTS)
     * [android.permission.RECEIVE_SMS](https://developer.android.com/reference/android/Manifest.permission.html#RECEIVE_SMS) if using [Receiving Enabled](#receiving-enabled)
-    * [android.permission.SEND_SMS](https://developer.android.com/reference/android/Manifest.permission.html#SEND_SMS) if using [SendMessageDirect](#sendmessagedirect)
     * [android.permission.READ_PHONE_STATE](https://developer.android.com/reference/android/Manifest.permission.html#READ_PHONE_STATE) if using [SendMessageDirect](#sendmessagedirect)
+    * [android.permission.SEND_SMS](https://developer.android.com/reference/android/Manifest.permission.html#SEND_SMS) if using [SendMessageDirect](#sendmessagedirect)
 
 ## Events
 

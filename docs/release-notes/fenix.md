@@ -380,7 +380,7 @@ _This component no longer serves ads, please switch to Google Ad Manager._
 
 - Upgraded **Target SDK** to 33 (Android 14).
 
-- Deprecated **Unity Ads** components.  
+- Deprecated **Unity Ads** components.
   _Current SDK is not suitable for Kodular compatibility._
 
 ### Bugs Fixed   \|   _15 October 2023_
@@ -483,7 +483,7 @@ _This component no longer serves ads, please switch to Google Ad Manager._
 
 ## 1.5D.3 Fenix   \|   _13 May 2025_
 
-## Bugs Fixed
+### Bugs Fixed
 
 * Google Ad Manager components have been reworked from scratch, fixing the `Flags.initialize` issue.
 * Updated AppLoving libraries.
@@ -492,7 +492,7 @@ _This component no longer serves ads, please switch to Google Ad Manager._
 
 ## 1.5D.4 Fenix   \|   _13 July 2025_
 
-## Bugs Fixed
+### Bugs Fixed
 
 * Fix null authority check in WebViewer request interception.
 * Duplicate gravity exception by removing existing drawer views with START gravity.

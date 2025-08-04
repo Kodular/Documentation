@@ -13,6 +13,7 @@ Note\: For this component to work correctly, set the MIN API to 21 (Android 5).
 
 ??? example "Permissions"
     * [android.permission.INTERNET](https://developer.android.com/reference/android/Manifest.permission.html#INTERNET)
+    * [android.permission.FOREGROUND_SERVICE](https://developer.android.com/reference/android/Manifest.permission.html#FOREGROUND_SERVICE)
 
 ## Events
 
