@@ -28,14 +28,6 @@ My Kodular is the Control Panel of your Kodular account, you can view and manage
 
 Using the community, you can get help related to your questions about Kodular. Even submit your ideas to help improve Kodular or even report bugs you've experienced during your app development session. Community has so many users that help you, this means you will get a proper answer to any question of yours in minutes.
 
-### [IDE](https://ide.kodular.io)
-
-This is Kodular's service for you to create your own extensions and distribute them.
-
-### [Store](https://store.kodular.io)
-
-Using Kodular Store, you can publish your apps to a specific store where only Kodular apps exist.
-
 ### [Status](https://status.kodular.io)
 
 Using the Status Page you can check which services' of Kodular is working or in Maintenance. If you cannot use a service of Kodular, you can check using this page if the problem is related to your local internet or the Kodular Server.
