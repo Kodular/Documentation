@@ -48,16 +48,16 @@ that have been moved:*
 ### New Components
 
 - **Google reCaptcha** <small>Google</small>
-![image|266x155](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/7/e/7eb9b3c0131ec749ed4472a0c5b615aa34618378.png)
+![image|266x155](https://cdn.community.kodular.io/original/3X/7/e/7eb9b3c0131ec749ed4472a0c5b615aa34618378.png)
 
 - **Banner Ad** <small>Monetization > Advertising</small>
-![image|244x206](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/6/c/6ccae5219345b88304cc96c20ac7c6bdd6765e5e.png)
+![image|244x206](https://cdn.community.kodular.io/original/3X/6/c/6ccae5219345b88304cc96c20ac7c6bdd6765e5e.png)
 
 - **Interstitial Ad** <small>Monetization > Advertising</small>
-![image|238x203](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/a/8/a8d5a81a5baf5f99f24a144c412857705a61a234.png)
+![image|238x203](https://cdn.community.kodular.io/original/3X/a/8/a8d5a81a5baf5f99f24a144c412857705a61a234.png)
 
 - **Rewarded Ad** <small>Monetization > Advertising</small>
-![image|244x205](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/1/e/1effb5b6547a7af6c53e42b1d010cbd7ba970af4.png)
+![image|244x205](https://cdn.community.kodular.io/original/3X/1/e/1effb5b6547a7af6c53e42b1d010cbd7ba970af4.png)
 
 - **ExoPlayer** <small>_Moved_ to Experimental</small>
 
@@ -67,27 +67,27 @@ that have been moved:*
 
 - **Label** <small>User Interface</small>
     - Added **`Max Lines`** property. <small>Advanced</small>
-![image|278x50](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/6/2/62ee48e89e76b02b110f3a863af9a7f43bc71db6.png)
+![image|278x50](https://cdn.community.kodular.io/original/3X/6/2/62ee48e89e76b02b110f3a863af9a7f43bc71db6.png)
 
 - **Textbox** <small>User Interface</small>
     - Added **`Max Lines`** property. <small>Advanced</small>
-![image|278x50](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/6/2/62ee48e89e76b02b110f3a863af9a7f43bc71db6.png)
+![image|278x50](https://cdn.community.kodular.io/original/3X/6/2/62ee48e89e76b02b110f3a863af9a7f43bc71db6.png)
 
 - **Google Maps** <small>Google</small>
     - Added **`API Key`** property. <small>App Settings Modal</small>
-![image|606x135](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/9/1/9128e719ef7b6492fde8c4d7d6c01cdb267f14de.png)
+![image|606x135](https://cdn.community.kodular.io/original/3X/9/1/9128e719ef7b6492fde8c4d7d6c01cdb267f14de.png)
 
 - **AdMob Banner** <small>Monetization > Advertising</small>
     - Added **`App ID`** property. <small>App Settings Modal</small>
-![image|614x137](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/4/0/402299c86ff6ac79319961e1f54d75d473e4bd4d.png)
+![image|614x137](https://cdn.community.kodular.io/original/3X/4/0/402299c86ff6ac79319961e1f54d75d473e4bd4d.png)
 
 - **AdMob Interstitial** <small>Monetization > Advertising</small>
     - Added **`App ID`** property. <small>App Settings Modal</small>
-![image|614x137](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/4/0/402299c86ff6ac79319961e1f54d75d473e4bd4d.png)
+![image|614x137](https://cdn.community.kodular.io/original/3X/4/0/402299c86ff6ac79319961e1f54d75d473e4bd4d.png)
 
 - **AdMob Rewarded Video** <small>Monetization > Advertising</small>
     - Added **`App ID`** property. <small>App Settings Modal</small>
-![image|614x137](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/4/0/402299c86ff6ac79319961e1f54d75d473e4bd4d.png)
+![image|614x137](https://cdn.community.kodular.io/original/3X/4/0/402299c86ff6ac79319961e1f54d75d473e4bd4d.png)
 
 ### Library Upgrades
 
@@ -286,7 +286,7 @@ _Not available anymore, please switch to Google Ad Manager_
 - **Allow setting a custom *Floor eCPM* value per ad component**
 If you are using Google Ad Manager components, you can now specify a custom **Floor eCPM** value for each of your ad
 slots. _It is recommended to keep it in `Optimized`, so Google chooses the best inventory to suit your needs._
-![image|295x471, 75%](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/5/2/52bdf45a51ff17a97099feed613ef56fed5fc9b1.png)![image|507x40, 75%](https://kodular-community.s3.dualstack.eu-west-1.amazonaws.com/original/3X/1/9/19b411510c073c7400723026ac2337a8dfdb98d5.png)
+![image|295x471, 75%](https://cdn.community.kodular.io/original/3X/5/2/52bdf45a51ff17a97099feed613ef56fed5fc9b1.png)![image|507x40, 75%](https://cdn.community.kodular.io/original/3X/1/9/19b411510c073c7400723026ac2337a8dfdb98d5.png)
 
 ### Bugs Fixed
 
