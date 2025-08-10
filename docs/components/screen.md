@@ -2,7 +2,7 @@
 
 | Category | Requires | Version |
 |:--------:|:-------:|:--------:|
-|**Layout > General**|<span class="chip chip-any">API 21, Android 5.0 Lollipop</span>|<span class="chip chip-number">44</span>|
+|**Layout > General**|<span class="chip chip-any">API 21, Android 5.0 Lollipop</span>|<span class="chip chip-number">45</span>|
 
 ## Overview
 
@@ -295,7 +295,7 @@ Show the keyboard
 
 ### Side Menu
 
-Create a Side Menu. Set to "layout" your layout that will be then your side menu. Use as example a vertical arrangement. Your choosen layout will be then removed from the screen and only visible in the side menu."Information": This block works on companion only if you add a side menu on button click.Don’t add it in companion on "screen initialize event". Else the companion will crash.Do NOT use this block with the Side Menu Layout component
+Create a Side Menu. Set to "layout" your layout that will be then your side menu. Use as example a vertical arrangement. Your choosen layout will be then removed from the screen and only visible in the side menu."Information": This block works on companion only if you add a side menu on button click.Don't add it in companion on "screen initialize event". Else the companion will crash.Do NOT use this block with the Side Menu Layout component
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Screen%22,%20%22name%22:%20%22Side%20Menu%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22layout%22%5D%7D"></div>
 
@@ -468,6 +468,12 @@ Set the drawer arrow icon color.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Screen%22,%20%22name%22:%20%22Drawer%20Arrow%20Icon%20Color%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Screen%22,%20%22name%22:%20%22Drawer%20Arrow%20Icon%20Color%22,%20%22getter%22:%20false%7D"></div>
+
+### Google Cloud Project Number
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span> :heavy_minus_sign: <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span></span>
+
+Specifies the Google Cloud Project Number used for Play Integrity API
 
 ### Height
 
@@ -674,7 +680,7 @@ The status bar is the topmost bar on the screen. This property reports whether t
 
 <span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-boolean">Boolean</span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Blocks</span></span>
 
-If true it will show in the TitleBar a back button only if no side menu was added. If a side menu was added it will remove the ‘hamburger’-menu icon but the side menu can still be opened.
+If true it will show in the TitleBar a back button only if no side menu was added. If a side menu was added it will remove the 'hamburger'-menu icon but the side menu can still be opened.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Screen%22,%20%22name%22:%20%22Show%20Title%20Bar%20Back%20Button%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Screen%22,%20%22name%22:%20%22Show%20Title%20Bar%20Back%20Button%22,%20%22getter%22:%20false%7D"></div>

@@ -2,17 +2,19 @@
 
 | Category | Requires | Version |
 |:--------:|:-------:|:--------:|
-|**Monetization > Advertising**|<span class="chip chip-any">API 19, Android 4.4 - 4.4.4 KitKat</span>|<span class="chip chip-number">3</span>|
+|**Monetization > Advertising**|<span class="chip chip-any">API 21, Android 5.0 Lollipop</span>|<span class="chip chip-number">4</span>|
 
 ## Overview
 
-A visible component that shows AdMob ads as static banners.
+A component for displaying banner advertisements from Google AdMob. Banner ads are rectangular image or text ads that occupy a spot within an app''s layout. They are designed to stay on screen while users are interacting with the app, typically anchored to the top or bottom of the screen. To use this component, you must provide a valid Ads App ID (inside Project settings &gt; Monetization &gt; Google Ads App ID) and Ad Unit ID from your AdMob account. It is recommended to use Test Mode during development to avoid generating invalid ad traffic.
 
 ??? example "Permissions"
-    * [android.permission.ACCESS_FINE_LOCATION](https://developer.android.com/reference/android/Manifest.permission.html#ACCESS_FINE_LOCATION)
-    * [android.permission.ACCESS_COARSE_LOCATION](https://developer.android.com/reference/android/Manifest.permission.html#ACCESS_COARSE_LOCATION)
+    * [com.google.android.gms.permission.AD_ID](https://developer.android.com/reference/android/Manifest.permission.html#com.google.android.gms.permission.AD_ID)
     * [android.permission.INTERNET](https://developer.android.com/reference/android/Manifest.permission.html#INTERNET)
     * [android.permission.ACCESS_NETWORK_STATE](https://developer.android.com/reference/android/Manifest.permission.html#ACCESS_NETWORK_STATE)
+    * [android.permission.ACCESS_ADSERVICES_AD_ID](https://developer.android.com/reference/android/Manifest.permission.html#ACCESS_ADSERVICES_AD_ID)
+    * [android.permission.ACCESS_ADSERVICES_ATTRIBUTION](https://developer.android.com/reference/android/Manifest.permission.html#ACCESS_ADSERVICES_ATTRIBUTION)
+    * [android.permission.ACCESS_ADSERVICES_TOPICS](https://developer.android.com/reference/android/Manifest.permission.html#ACCESS_ADSERVICES_TOPICS)
 
 !!! info "Commission"
     **Type:** Fixed Rate
@@ -20,15 +22,21 @@ A visible component that shows AdMob ads as static banners.
 
 ## Events
 
+### Ad Clicked
+
+Called when the user clicks on the ad.
+
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22AdMob%20Banner%22,%20%22name%22:%20%22Ad%20Clicked%22,%20%22param%22:%20%5B%5D%7D"></div>
+
 ### Ad Closed
 
-Called when an ad was closed.
+Called when the ad is closed, and the user is returned to the app.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22AdMob%20Banner%22,%20%22name%22:%20%22Ad%20Closed%22,%20%22param%22:%20%5B%5D%7D"></div>
 
 ### Ad Failed To Load
 
-Called when an ad request failed to load. The message will display the error code and error message.
+Called when an ad request fails to load. The error code and message provide more details on the failure.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22AdMob%20Banner%22,%20%22name%22:%20%22Ad%20Failed%20To%20Load%22,%20%22param%22:%20%5B%22error%20Code%22,%20%22error%20Message%22%5D%7D"></div>
 
@@ -37,41 +45,37 @@ Called when an ad request failed to load. The message will display the error cod
 |error Code|<span class="chip chip-number">Number</span>|
 |error Message|<span class="chip chip-text">Text</span>|
 
+### Ad Impression
+
+Called when an ad impression has been recorded.
+
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22AdMob%20Banner%22,%20%22name%22:%20%22Ad%20Impression%22,%20%22param%22:%20%5B%5D%7D"></div>
+
 ### Ad Loaded
 
-Called when an ad request was loaded.
+Called when an ad has been successfully loaded.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22AdMob%20Banner%22,%20%22name%22:%20%22Ad%20Loaded%22,%20%22param%22:%20%5B%5D%7D"></div>
 
 ### Ad Opened
 
-Called when an ad was opened.
+Called when the ad is displayed on the screen, covering the app's content.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22AdMob%20Banner%22,%20%22name%22:%20%22Ad%20Opened%22,%20%22param%22:%20%5B%5D%7D"></div>
 
-### On Consent Changed
+### Ad Swipe Gesture Clicked
 
-Event triggered when the consent was changed.
+Called when the user performs a swipe gesture click on the ad.
 
-<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22AdMob%20Banner%22,%20%22name%22:%20%22On%20Consent%20Changed%22,%20%22param%22:%20%5B%22personalized%22%5D%7D"></div>
-
-| Params | []() |
-|--------|------|
-|personalized|<span class="chip chip-boolean">Boolean</span>|
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22AdMob%20Banner%22,%20%22name%22:%20%22Ad%20Swipe%20Gesture%20Clicked%22,%20%22param%22:%20%5B%5D%7D"></div>
 
 ## Methods
 
 ### Load Ad
 
-Load a new AdMob Banner ad.
+Initiates a request to load a new banner ad. This will not do anything if an ad is already loading or if ads are disabled.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22AdMob%20Banner%22,%20%22name%22:%20%22Load%20Ad%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
-
-### Revoke Consent
-
-Deletes the user's consent. Useful if you want to test the consent dialog in development.
-
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22AdMob%20Banner%22,%20%22name%22:%20%22Revoke%20Consent%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
 
 ## Properties
 
@@ -79,57 +83,25 @@ Deletes the user's consent. Useful if you want to test the consent dialog in dev
 
 <span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
 
-This property must be set to true to receive ads.
+Specifies whether ads should be enabled. If set to false, no ads will be loaded.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22AdMob%20Banner%22,%20%22name%22:%20%22Ad%20Enabled%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22AdMob%20Banner%22,%20%22name%22:%20%22Ad%20Enabled%22,%20%22getter%22:%20false%7D"></div>
 
 ### Ad Unit Id
 
-<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span> <span class="chip chip-text">Default: <i>ca-app-pub-3940256099942544/6300978111</i></span> :heavy_minus_sign: <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span></span>
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
 
-Set Ad Unit ID
+The Ad Unit ID for this banner ad. It can be found in your AdMob account.
 
-### Consent Development Mode
-
-<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>False</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
-
-If enabled you will see the consent dialog no matter if you are located in Europe or not. Please use this option only in development. If this setting is enabled ALL taken consents will not be saved.
-
-<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22AdMob%20Banner%22,%20%22name%22:%20%22Consent%20Development%20Mode%22,%20%22getter%22:%20true%7D"></div>
-<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22AdMob%20Banner%22,%20%22name%22:%20%22Consent%20Development%20Mode%22,%20%22getter%22:%20false%7D"></div>
-
-### Consent Message
-
-<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span> <span class="chip chip-text">Default: <i>Can we continue to use your data to tailor ads for you?</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
-
-The message for the consent dialog.
-
-<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22AdMob%20Banner%22,%20%22name%22:%20%22Consent%20Message%22,%20%22getter%22:%20true%7D"></div>
-<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22AdMob%20Banner%22,%20%22name%22:%20%22Consent%20Message%22,%20%22getter%22:%20false%7D"></div>
-
-### Consent Title
-
-<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span> <span class="chip chip-text">Default: <i>Data Protection</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
-
-The title for the consent dialog.
-
-<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22AdMob%20Banner%22,%20%22name%22:%20%22Consent%20Title%22,%20%22getter%22:%20true%7D"></div>
-<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22AdMob%20Banner%22,%20%22name%22:%20%22Consent%20Title%22,%20%22getter%22:%20false%7D"></div>
-
-### Personalized Result
-
-<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-boolean">Boolean</span> :heavy_minus_sign: <span class="chip chip-rw">Read</span>  - <span class="chip chip-bd">Blocks</span></span>
-
-Returns the current personalized consent. If true user has consent to personalized ads.
-
-<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22AdMob%20Banner%22,%20%22name%22:%20%22Personalized%20Result%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22AdMob%20Banner%22,%20%22name%22:%20%22Ad%20Unit%20Id%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22AdMob%20Banner%22,%20%22name%22:%20%22Ad%20Unit%20Id%22,%20%22getter%22:%20false%7D"></div>
 
 ### Test Mode
 
 <span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>False</i></span> :heavy_minus_sign: <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span></span>
 
-If you want to test the component then that this property to true. Then you will receive test ads.
+If enabled, test ads will be shown. This should be used during development to avoid generating false impressions. Always enabled when in companion.
 
 ### Visible
 

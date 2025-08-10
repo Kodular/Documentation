@@ -124,12 +124,13 @@ nav:
     - Pricing: pricing.md
     - Release Notes:
       - release-notes/index.md
-      - Andromeda: release-notes/andromeda.md
-      - Butterfly: release-notes/butterfly.md
-      - Chamaeleon: release-notes/chamaeleon.md
-      - Draco: release-notes/draco.md
-      - Eagle: release-notes/eagle.md
+      - 2025.8: release-notes/202508.md
       - Fenix: release-notes/fenix.md
+      - Eagle: release-notes/eagle.md
+      - Draco: release-notes/draco.md
+      - Chamaeleon: release-notes/chamaeleon.md
+      - Butterfly: release-notes/butterfly.md
+      - Andromeda: release-notes/andromeda.md
     - Terms of Service: terms-of-service.md
   - Guides:
     - Understanding Kodular: guides/index.md
@@ -327,36 +328,42 @@ nav:
       - Google Maps: components/google/google-maps.md
       - Google Play Games: components/google/google-play-games.md
       - Google reCaptcha: components/google/google-recaptcha.md
+      - In-App Review: components/google/in-app-review.md
+      - In-App Update: components/google/in-app-update.md
+      - Play Integrity: components/google/play-integrity.md
       - Youtube Player: components/google/youtube-player.md
     - Monetization:
       - components/monetization/index.md
       - General:
         - components/monetization/general/index.md
         - In App Billing: components/monetization/general/in-app-billing.md
-        - Kodular Donations: components/monetization/general/kodular-donations.md
         - Pollfish: components/monetization/general/pollfish.md
       - Advertising:
-        - components/monetization/advertising/index.md
-        - Banner Ad: components/monetization/advertising/banner-ad.md
-        - Interstitial Ad: components/monetization/advertising/interstitial-ad.md
-        - Rewarded Ad: components/monetization/advertising/rewarded-ad.md
+        - Overview: components/monetization/advertising/index.md
         - AdColony Interstitial: components/monetization/advertising/adcolony-interstitial.md
+        - AdMob App Open: components/monetization/advertising/admob-app-open.md
         - AdMob Banner: components/monetization/advertising/admob-banner.md
         - AdMob Interstitial: components/monetization/advertising/admob-interstitial.md
-        - AdMob Rewarded Video: components/monetization/advertising/admob-rewarded-video.md
+        - AdMob Rewarded: components/monetization/advertising/admob-rewarded.md
+        - AdMob Rewarded Interstitial: components/monetization/advertising/admob-rewarded-interstitial.md
         - Amazon Banner: components/monetization/advertising/amazon-banner.md
         - Amazon Interstitial: components/monetization/advertising/amazon-interstitial.md
         - AppLovin Interstitial: components/monetization/advertising/applovin-interstitial.md
         - Facebook Banner: components/monetization/advertising/facebook-banner.md
         - Facebook Interstitial: components/monetization/advertising/facebook-interstitial.md
         - Facebook Rewarded Video: components/monetization/advertising/facebook-rewarded-video.md
+        - Google Ad Manager App Open: components/monetization/advertising/google-ad-manager-app-open.md
+        - Google Ad Manager Banner: components/monetization/advertising/google-ad-manager-banner.md
+        - Google Ad Manager Interstitial: components/monetization/advertising/google-ad-manager-interstitial.md
+        - Google Ad Manager Rewarded: components/monetization/advertising/google-ad-manager-rewarded.md
+        - Google Ad Manager Rewarded Interstitial: components/monetization/advertising/google-ad-manager-rewarded-interstitial.md
         - LeadBolt: components/monetization/advertising/leadbolt.md
         - StartApp Banner: components/monetization/advertising/startapp-banner.md
         - StartApp Interstitial: components/monetization/advertising/startapp-interstitial.md
     - LEGO® MINDSTORMS®:
       - components/lego-mindstorms/index.md
       - EV3:
-        - components/lego-mindstorms/ev3/index.md
+        - Overview: components/lego-mindstorms/ev3/index.md
         - EV3 Color Sensor: components/lego-mindstorms/ev3/ev3-color-sensor.md
         - EV3 Commands: components/lego-mindstorms/ev3/ev3-commands.md
         - EV3 Gyro Sensor: components/lego-mindstorms/ev3/ev3-gyro-sensor.md
@@ -379,8 +386,6 @@ nav:
       - CloudDB: components/experimental/clouddb.md
       - Custom Tabs: components/experimental/custom-tabs.md
       - ExoPlayer: components/experimental/exoplayer.md
-      - In-App Review: components/experimental/in-app-review.md
-      - In-App Update: components/experimental/in-app-update.md
       - Notification: components/experimental/notification.md
       - Shortcut Badge: components/experimental/shortcut-badge.md
   - Blocks:

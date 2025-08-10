@@ -8,4 +8,7 @@
 * [Google Maps](google-maps.md)
 * [Google Play Games](google-play-games.md)
 * [Google reCaptcha](google-recaptcha.md)
+* [In-App Review](in-app-review.md)
+* [In-App Update](in-app-update.md)
+* [Play Integrity](play-integrity.md)
 * [Youtube Player](youtube-player.md)

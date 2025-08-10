@@ -4,16 +4,12 @@
 
 | Category | Requires | Version |
 |:--------:|:-------:|:--------:|
-|**Experimental**|<span class="chip chip-any">API 21, Android 5.0 Lollipop</span>|<span class="chip chip-number">1</span>|
+|**Google**|<span class="chip chip-any">API 21, Android 5.0 Lollipop</span>|<span class="chip chip-number">2</span>|
 
 ## Overview
 
 A non-visible component that lets the user download app updates from within the app.   
 Note\: For this component to work correctly, set the MIN API to 21 (Android 5).
-
-??? example "Permissions"
-    * [android.permission.INTERNET](https://developer.android.com/reference/android/Manifest.permission.html#INTERNET)
-    * [android.permission.FOREGROUND_SERVICE](https://developer.android.com/reference/android/Manifest.permission.html#FOREGROUND_SERVICE)
 
 ## Events
 
@@ -67,6 +63,22 @@ Use this block to install a flexible update after it was downloaded.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22In-App%20Update%22,%20%22name%22:%20%22Install%20Flexible%20Update%20Now%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
 
+### Is Flexible Update Available
+
+<span class="chip chip-boolean">Returns: <i>Boolean</i></span>
+
+Returns true if a flexible update is available for your app.
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22In-App%20Update%22,%20%22name%22:%20%22Is%20Flexible%20Update%20Available%22,%20%22output%22:%20true,%20%22param%22:%20%5B%5D%7D"></div>
+
+### Is Immediate Update Available
+
+<span class="chip chip-boolean">Returns: <i>Boolean</i></span>
+
+Returns true if an immediate update is available for your app.
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22In-App%20Update%22,%20%22name%22:%20%22Is%20Immediate%20Update%20Available%22,%20%22output%22:%20true,%20%22param%22:%20%5B%5D%7D"></div>
+
 ### Start Flexible Update
 
 Start the process for flexible in-app updates. The update will be done in the background. Your users can still use your app in this time. After the update download is done you must restart your app.
@@ -82,6 +94,8 @@ Start the process for immediate in-app updates. In this time your app user can N
 ## Properties
 
 ### Is Update Available
+
+:warning: ==**Deprecated**==
 
 <span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-boolean">Boolean</span> :heavy_minus_sign: <span class="chip chip-rw">Read</span>  - <span class="chip chip-bd">Blocks</span></span>
 
