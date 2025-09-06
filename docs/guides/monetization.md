@@ -3,11 +3,6 @@
 **Kodular Monetize** is a new system to allow you to monetize your apps with ease. It provides a simple way to 
 integrate ads and manage your advertising networks directly from Kodular Creator, without intermediaries.
 
-!!! tip "Public Preview"
-    This feature is currently in public review. If you wish to try it out, you can fill the following form: [kodul.ar/monetize-join](https://kodul.ar/monetize-join).
-    You will receive a link to activate it if selected.  
-    Please report any issues you encounter in [Kodular Community](https://community.kodular.io/t/introducing-kodular-monetize-public-preview/298115).
-
 This new system aims to replace the existing commission-based monetization system, which had some limitations. With
 Kodular Monetize, you will have **lower charges**, and a post-usage based pricing model. It will result in a lower
 "effective" commission for you.
@@ -17,10 +12,6 @@ Kodular Monetize, you will have **lower charges**, and a post-usage based pricin
 _You do **not** need a Kodular Premium subscription to use Kodular Monetize._
 
 1. Buy a **Kodular Monetize** activation license in [my.kodular.io/monetize](https://my.kodular.io/monetize).
-    * This is a **one-time payment**: once bought, you own it for life, for all components.
-    * During Public Preview, buying an activation license is restricted to a limited number of users. You can fill the
-      [kodul.ar/monetize-join](https://kodul.ar/monetize-join) form to join the waiting list, and you will receive a
-      link to buy it if selected.
 
 3. Complete an identity verification process in [my.kodular.io/monetize](https://my.kodular.io/monetize).
     * _This page is still under development._
@@ -40,8 +31,7 @@ If you use any of those ad networks' components, you will be using Kodular Monet
 ### Build Errors
 
 * **`NOT_ACTIVATED`**: this error means that the Kodular Monetize license has not been purchased yet.
-    * During Public Preview, buying a license is based in a waiting list. If you have not filled the
-      [kodul.ar/monetize-join](https://kodul.ar/monetize-join) form, please do so to join the waiting list.
+    * Please go to [my.kodular.io/monetize](https://my.kodular.io/monetize) and buy the license.
 
 * **`NOT_VERIFIED`**: this error means that the identity verification process has not been completed yet.
     * Please go to [my.kodular.io/monetize](https://my.kodular.io/monetize) and complete the verification process.
@@ -72,8 +62,7 @@ pricing model, on top of being ad-network agnostic.
 
 1. **Kodular Monetize Activation License**: this is a one-time activation payment, granting access forever to all
   components.
-    * For Public Preview users, the fee is 5 EUR.
-    * For anyone else acquiring it in 2025, the fee is 10 EUR.
+    * For activating it in 2025, the fee is 10 EUR.
     * On or after 1st January 2026, the fee is 15 EUR.
 2. **Kodular Monetize Usage**: on the following month after events are recorded, you will receive an invoice with the
    total amount of events that occurred in your app.
