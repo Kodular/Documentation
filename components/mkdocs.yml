@@ -112,9 +112,11 @@
     - Overview: components/social/index.md
     - Contact Picker: components/social/contact-picker.md
     - Email Picker: components/social/email-picker.md
+    - OneSignal InApp Messages: components/social/onesignal-inapp-messages.md
+    - OneSignal Management: components/social/onesignal-management.md
+    - OneSignal Notifications: components/social/onesignal-notifications.md
     - Phone Call: components/social/phone-call.md
     - Phone Number Picker: components/social/phone-number-picker.md
-    - Push Notifications: components/social/push-notifications.md
     - Sharing: components/social/sharing.md
     - Texting: components/social/texting.md
     - Twitter: components/social/twitter.md
@@ -172,8 +174,8 @@
     - Google Maps: components/google/google-maps.md
     - Google Play Games: components/google/google-play-games.md
     - Google reCaptcha: components/google/google-recaptcha.md
-    - In-App Review: components/google/in-app-review.md
-    - In-App Update: components/google/in-app-update.md
+    - InApp Review: components/google/inapp-review.md
+    - InApp Update: components/google/inapp-update.md
     - Play Integrity: components/google/play-integrity.md
     - Youtube Player: components/google/youtube-player.md
   - Monetization:
@@ -188,6 +190,7 @@
       - AdMob App Open: components/monetization/advertising/admob-app-open.md
       - AdMob Banner: components/monetization/advertising/admob-banner.md
       - AdMob Interstitial: components/monetization/advertising/admob-interstitial.md
+      - AdMob Native Ad Layout: components/monetization/advertising/admob-native-ad-layout.md
       - AdMob Rewarded: components/monetization/advertising/admob-rewarded.md
       - AdMob Rewarded Interstitial: components/monetization/advertising/admob-rewarded-interstitial.md
       - Amazon Banner: components/monetization/advertising/amazon-banner.md
@@ -199,6 +202,7 @@
       - Google Ad Manager App Open: components/monetization/advertising/google-ad-manager-app-open.md
       - Google Ad Manager Banner: components/monetization/advertising/google-ad-manager-banner.md
       - Google Ad Manager Interstitial: components/monetization/advertising/google-ad-manager-interstitial.md
+      - Google Ad Manager Native Ad Layout: components/monetization/advertising/google-ad-manager-native-ad-layout.md
       - Google Ad Manager Rewarded: components/monetization/advertising/google-ad-manager-rewarded.md
       - Google Ad Manager Rewarded Interstitial: components/monetization/advertising/google-ad-manager-rewarded-interstitial.md
       - LeadBolt: components/monetization/advertising/leadbolt.md
