@@ -11,6 +11,7 @@
 A non-visible component that takes a screenshot of the content currently visible on the device''s screen.
 
 ??? example "Permissions"
+    * [android.permission.READ_MEDIA_IMAGES](https://developer.android.com/reference/android/Manifest.permission.html#READ_MEDIA_IMAGES)
     * [android.permission.READ_EXTERNAL_STORAGE](https://developer.android.com/reference/android/Manifest.permission.html#READ_EXTERNAL_STORAGE)
     * [android.permission.WRITE_EXTERNAL_STORAGE](https://developer.android.com/reference/android/Manifest.permission.html#WRITE_EXTERNAL_STORAGE)
 

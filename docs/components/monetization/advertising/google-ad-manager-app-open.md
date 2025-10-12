@@ -8,7 +8,7 @@
 
 ## Overview
 
-A non-visible component that displays app open ads from multiple advertisers and mediation partners. App Open ads are full-screen ads that display when users bring an app to the foreground. They are typically used to display ads when a user returns to your app after leaving it, such as returning from the home screen or another app.
+A non-visible component that displays app open ads from multiple advertisers and mediation partners. App Open ads are full-screen ads that display when users bring an app to the foreground. They're typically used to display ads when a user returns to your app after leaving it, such as returning from the home screen or another app.
 
 ??? example "Permissions"
     * [com.google.android.gms.permission.AD_ID](https://developer.android.com/reference/android/Manifest.permission.html#com.google.android.gms.permission.AD_ID)

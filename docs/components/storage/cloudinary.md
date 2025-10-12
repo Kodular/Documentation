@@ -11,7 +11,11 @@
 A non-visible component that allows for uploading of images, videos, audios and many other file types to Cloudinary.
 
 ??? example "Permissions"
+    * [android.permission.READ_MEDIA_VIDEO](https://developer.android.com/reference/android/Manifest.permission.html#READ_MEDIA_VIDEO)
+    * [android.permission.READ_MEDIA_AUDIO](https://developer.android.com/reference/android/Manifest.permission.html#READ_MEDIA_AUDIO)
     * [android.permission.INTERNET](https://developer.android.com/reference/android/Manifest.permission.html#INTERNET)
+    * [android.permission.READ_MEDIA_IMAGES](https://developer.android.com/reference/android/Manifest.permission.html#READ_MEDIA_IMAGES)
+    * [android.permission.READ_MEDIA_VISUAL_USER_SELECTED](https://developer.android.com/reference/android/Manifest.permission.html#READ_MEDIA_VISUAL_USER_SELECTED)
     * [android.permission.READ_EXTERNAL_STORAGE](https://developer.android.com/reference/android/Manifest.permission.html#READ_EXTERNAL_STORAGE)
 
 ## Events

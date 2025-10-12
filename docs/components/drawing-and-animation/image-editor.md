@@ -11,6 +11,8 @@
 Non-visible component that allows users to edit images.
 
 ??? example "Permissions"
+    * [android.permission.READ_MEDIA_IMAGES](https://developer.android.com/reference/android/Manifest.permission.html#READ_MEDIA_IMAGES)
+    * [android.permission.READ_MEDIA_VISUAL_USER_SELECTED](https://developer.android.com/reference/android/Manifest.permission.html#READ_MEDIA_VISUAL_USER_SELECTED)
     * [android.permission.READ_EXTERNAL_STORAGE](https://developer.android.com/reference/android/Manifest.permission.html#READ_EXTERNAL_STORAGE)
     * [android.permission.WRITE_EXTERNAL_STORAGE](https://developer.android.com/reference/android/Manifest.permission.html#WRITE_EXTERNAL_STORAGE)
 

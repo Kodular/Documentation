@@ -11,6 +11,10 @@
 A non-visible component that executes shell commands and checks the device''s root status.
 
 ??? example "Permissions"
+    * [android.permission.READ_MEDIA_VIDEO](https://developer.android.com/reference/android/Manifest.permission.html#READ_MEDIA_VIDEO)
+    * [android.permission.READ_MEDIA_AUDIO](https://developer.android.com/reference/android/Manifest.permission.html#READ_MEDIA_AUDIO)
+    * [android.permission.READ_MEDIA_IMAGES](https://developer.android.com/reference/android/Manifest.permission.html#READ_MEDIA_IMAGES)
+    * [android.permission.READ_MEDIA_VISUAL_USER_SELECTED](https://developer.android.com/reference/android/Manifest.permission.html#READ_MEDIA_VISUAL_USER_SELECTED)
     * [android.permission.READ_EXTERNAL_STORAGE](https://developer.android.com/reference/android/Manifest.permission.html#READ_EXTERNAL_STORAGE)
     * [android.permission.WRITE_EXTERNAL_STORAGE](https://developer.android.com/reference/android/Manifest.permission.html#WRITE_EXTERNAL_STORAGE)
 

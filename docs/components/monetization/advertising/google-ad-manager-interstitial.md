@@ -8,7 +8,7 @@
 
 ## Overview
 
-A visible component that shows interstitial ads from multiple ad networks.  
+A visible component that shows interstitial ads Google Ad Manager.  
 Note\: This component is currently available on an invite-only basis. Click <a href\="https\://my.kodular.io/payments">here</a> for more information on how to request an invite.
 
 ??? example "Permissions"

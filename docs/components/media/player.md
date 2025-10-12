@@ -15,7 +15,9 @@ For supported audio formats, see <a href="http://developer.android.com/guide/app
 This component is best for long sound files, such as songs, while the `` Sound `` component is more efficient for short files, such as sound effects.
 
 ??? example "Permissions"
+    * [android.permission.READ_MEDIA_AUDIO](https://developer.android.com/reference/android/Manifest.permission.html#READ_MEDIA_AUDIO)
     * [android.permission.INTERNET](https://developer.android.com/reference/android/Manifest.permission.html#INTERNET)
+    * [android.permission.READ_MEDIA_VISUAL_USER_SELECTED](https://developer.android.com/reference/android/Manifest.permission.html#READ_MEDIA_VISUAL_USER_SELECTED)
     * [android.permission.VIBRATE](https://developer.android.com/reference/android/Manifest.permission.html#VIBRATE)
     * [android.permission.READ_EXTERNAL_STORAGE](https://developer.android.com/reference/android/Manifest.permission.html#READ_EXTERNAL_STORAGE) if using [Source](#source)
     * [android.permission.READ_MEDIA_AUDIO](https://developer.android.com/reference/android/Manifest.permission.html#READ_MEDIA_AUDIO) if using [Source](#source)

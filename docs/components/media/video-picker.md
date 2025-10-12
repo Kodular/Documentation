@@ -2,7 +2,7 @@
 
 | Category | Requires | Version |
 |:--------:|:-------:|:--------:|
-|**Media**|<span class="chip chip-any">API 21, Android 5.0 Lollipop</span>|<span class="chip chip-number">7</span>|
+|**Media**|<span class="chip chip-any">API 21, Android 5.0 Lollipop</span>|<span class="chip chip-number">8</span>|
 
 ## Overview
 
@@ -12,6 +12,16 @@ A special-purpose button. When the user taps an video picker, the device's video
     * [android.permission.INTERNET](https://developer.android.com/reference/android/Manifest.permission.html#INTERNET)
 
 ## Events
+
+### After Multiple Picking
+
+Event raised after the picker returns multiple selections.
+
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Video%20Picker%22,%20%22name%22:%20%22After%20Multiple%20Picking%22,%20%22param%22:%20%5B%22selections%22%5D%7D"></div>
+
+| Params | []() |
+|--------|------|
+|selections|<span class="chip chip-list">List</span>|
 
 ### After Picking
 
@@ -136,6 +146,15 @@ Show an image on the given position near to the button. You can use following wo
 |height|<span class="chip chip-number">Number</span>|
 
 ## Properties
+
+### Allow Multiple Selections
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-boolean">Boolean</span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Blocks</span></span>
+
+If true, allows selecting multiple videos. When enabled, AfterMultiplePicking will also fire.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Video%20Picker%22,%20%22name%22:%20%22Allow%20Multiple%20Selections%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Video%20Picker%22,%20%22name%22:%20%22Allow%20Multiple%20Selections%22,%20%22getter%22:%20false%7D"></div>
 
 ### Background Color
 
