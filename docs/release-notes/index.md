@@ -1,5 +1,6 @@
 # Release Notes
 
+## [2025.10](202510.md)
 ## [2025.8](202508.md)
 
 ## Older Releases
