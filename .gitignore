@@ -1,5 +1,6 @@
 site/
 _site/
+venv/
 *-venv/
 venv-*/
 src/
@@ -7,3 +8,4 @@ src/
 .vscode/
 __pycache__/
 kodular-docs/
+.cache/
