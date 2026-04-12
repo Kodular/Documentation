@@ -38,7 +38,7 @@ extra:
   generator: false
   consent: false
   polyfills:
-    - 'https://app.termly.io/resource-blocker/0210dfa8-62d7-43f1-b2b3-93312ea44736?autoBlock=on&masterConsentsOrigin=https://www.kodular.io'
+    - '//cdn.cookie-script.com/s/5ff993dd8bf480d77a38d301fa6e1950.js'
 
 # Material theme for MkDocs : https://github.com/squidfunk/mkdocs-material/
 theme:
