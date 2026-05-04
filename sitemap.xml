@@ -101,6 +101,10 @@
          <lastmod>2026-05-04</lastmod>
     </url>
     <url>
+         <loc>https://docs.kodular.io/components/connectivity/supabase-authentication/</loc>
+         <lastmod>2026-05-04</lastmod>
+    </url>
+    <url>
          <loc>https://docs.kodular.io/components/connectivity/web/</loc>
          <lastmod>2026-05-04</lastmod>
     </url>
@@ -189,7 +193,15 @@
          <lastmod>2026-05-04</lastmod>
     </url>
     <url>
+         <loc>https://docs.kodular.io/components/google/cloud-firestore/</loc>
+         <lastmod>2026-05-04</lastmod>
+    </url>
+    <url>
          <loc>https://docs.kodular.io/components/google/firebase-authentication/</loc>
+         <lastmod>2026-05-04</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.kodular.io/components/google/firebase-cloud-messaging/</loc>
          <lastmod>2026-05-04</lastmod>
     </url>
     <url>
@@ -533,34 +545,6 @@
          <lastmod>2026-05-04</lastmod>
     </url>
     <url>
-         <loc>https://docs.kodular.io/components/monetization/advertising/admob-app-open/</loc>
-         <lastmod>2026-05-04</lastmod>
-    </url>
-    <url>
-         <loc>https://docs.kodular.io/components/monetization/advertising/admob-banner/</loc>
-         <lastmod>2026-05-04</lastmod>
-    </url>
-    <url>
-         <loc>https://docs.kodular.io/components/monetization/advertising/admob-interstitial/</loc>
-         <lastmod>2026-05-04</lastmod>
-    </url>
-    <url>
-         <loc>https://docs.kodular.io/components/monetization/advertising/admob-native-ad-layout/</loc>
-         <lastmod>2026-05-04</lastmod>
-    </url>
-    <url>
-         <loc>https://docs.kodular.io/components/monetization/advertising/admob-rewarded-interstitial/</loc>
-         <lastmod>2026-05-04</lastmod>
-    </url>
-    <url>
-         <loc>https://docs.kodular.io/components/monetization/advertising/admob-rewarded-video/</loc>
-         <lastmod>2026-05-04</lastmod>
-    </url>
-    <url>
-         <loc>https://docs.kodular.io/components/monetization/advertising/admob-rewarded/</loc>
-         <lastmod>2026-05-04</lastmod>
-    </url>
-    <url>
          <loc>https://docs.kodular.io/components/monetization/advertising/amazon-banner/</loc>
          <lastmod>2026-05-04</lastmod>
     </url>
@@ -609,15 +593,71 @@
          <lastmod>2026-05-04</lastmod>
     </url>
     <url>
+         <loc>https://docs.kodular.io/components/monetization/advertising/google-admob-app-open/</loc>
+         <lastmod>2026-05-04</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.kodular.io/components/monetization/advertising/google-admob-banner/</loc>
+         <lastmod>2026-05-04</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.kodular.io/components/monetization/advertising/google-admob-interstitial/</loc>
+         <lastmod>2026-05-04</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.kodular.io/components/monetization/advertising/google-admob-native-ad-layout/</loc>
+         <lastmod>2026-05-04</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.kodular.io/components/monetization/advertising/google-admob-rewarded-interstitial/</loc>
+         <lastmod>2026-05-04</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.kodular.io/components/monetization/advertising/google-admob-rewarded/</loc>
+         <lastmod>2026-05-04</lastmod>
+    </url>
+    <url>
          <loc>https://docs.kodular.io/components/monetization/advertising/leadbolt/</loc>
          <lastmod>2026-05-04</lastmod>
     </url>
     <url>
-         <loc>https://docs.kodular.io/components/monetization/advertising/startapp-banner/</loc>
+         <loc>https://docs.kodular.io/components/monetization/advertising/startio-banner/</loc>
          <lastmod>2026-05-04</lastmod>
     </url>
     <url>
-         <loc>https://docs.kodular.io/components/monetization/advertising/startapp-interstitial/</loc>
+         <loc>https://docs.kodular.io/components/monetization/advertising/startio-cover-ad/</loc>
+         <lastmod>2026-05-04</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.kodular.io/components/monetization/advertising/startio-interstitial/</loc>
+         <lastmod>2026-05-04</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.kodular.io/components/monetization/advertising/startio-mrec-ad/</loc>
+         <lastmod>2026-05-04</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.kodular.io/components/monetization/advertising/startio-native-ad-layout/</loc>
+         <lastmod>2026-05-04</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.kodular.io/components/monetization/advertising/startio-rewarded-ad/</loc>
+         <lastmod>2026-05-04</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.kodular.io/components/monetization/advertising/tapjoy-offerwall/</loc>
+         <lastmod>2026-05-04</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.kodular.io/components/monetization/advertising/unity-banner-ad/</loc>
+         <lastmod>2026-05-04</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.kodular.io/components/monetization/advertising/unity-interstitial-ad/</loc>
+         <lastmod>2026-05-04</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.kodular.io/components/monetization/advertising/unity-rewarded-ad/</loc>
          <lastmod>2026-05-04</lastmod>
     </url>
     <url>
@@ -645,11 +685,11 @@
          <lastmod>2026-05-04</lastmod>
     </url>
     <url>
-         <loc>https://docs.kodular.io/components/sensors/clock/</loc>
+         <loc>https://docs.kodular.io/components/sensors/biometric-prompt/</loc>
          <lastmod>2026-05-04</lastmod>
     </url>
     <url>
-         <loc>https://docs.kodular.io/components/sensors/fingerprint/</loc>
+         <loc>https://docs.kodular.io/components/sensors/clock/</loc>
          <lastmod>2026-05-04</lastmod>
     </url>
     <url>
@@ -766,6 +806,14 @@
     </url>
     <url>
          <loc>https://docs.kodular.io/components/storage/sqlite/</loc>
+         <lastmod>2026-05-04</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.kodular.io/components/storage/supabase-database/</loc>
+         <lastmod>2026-05-04</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.kodular.io/components/storage/supabase-storage/</loc>
          <lastmod>2026-05-04</lastmod>
     </url>
     <url>
