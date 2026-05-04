@@ -8138,8 +8138,8 @@
 <h2 id="202605-4-may-2026">2026.05   |   <em>4 May 2026</em><a class="headerlink" href="#202605-4-may-2026" title="Permanent link">&para;</a></h2>
 <h3 id="creator-changes">Creator Changes<a class="headerlink" href="#creator-changes" title="Permanent link">&para;</a></h3>
 <ul>
-<li><strong>Undo and Redo</strong> in the Designer.</li>
-<li><a href="https://github.com/mit-cml/appinventor-sources/pull/3766">Implement Undo/Redo Functionality In Designer</a></li>
+<li><strong>Undo and Redo</strong> in the Designer.
+    ** <a href="https://github.com/mit-cml/appinventor-sources/pull/3766">Implement Undo/Redo Functionality In Designer</a></li>
 </ul>
 <p><img alt="" src="https://cdn.community.kodular.io/original/4X/e/8/4/e84f442867cb0d950bb5993ae3fcf66e398dd023.png" width="400" /></p>
 <ul>
@@ -8181,121 +8181,113 @@
 <p><strong>Extension Import Dialog</strong> redesigned with a unified upload flow, case-insensitive <code>.aix</code> validation, and clearer status feedback.</p>
 </li>
 <li>
-<p><strong>Performance improvements</strong> across the Designer and Blocks Editor. Combined, these reduce time-to-interactive on project load from around <strong>8 seconds to under 2 seconds</strong> on large projects.</p>
+<p><strong>Performance improvements</strong> across the Designer and Blocks Editor. Combined, these reduce time-to-interactive on project load from around <strong>8 seconds to under 2 seconds</strong> on large projects.
+    ** <strong>Cold Load Improvements</strong> removing redundant refresh cycles during form load and editor initialisation.
+    ** <strong>Lazy Property Editors</strong> create property editors on demand and skip preferred-size calculations until they are needed.
+    ** <strong>Blockly Improvements</strong> including throttled high-frequency pointer events, cached block bounding boxes, and faster backpack hover detection during drag operations.</p>
 </li>
-<li><strong>Cold Load Improvements</strong> removing redundant refresh cycles during form load and editor initialisation.</li>
-<li><strong>Lazy Property Editors</strong> create property editors on demand and skip preferred-size calculations until they are needed.</li>
-<li><strong>Blockly Improvements</strong> including throttled high-frequency pointer events, cached block bounding boxes, and faster backpack hover detection during drag operations.</li>
 </ul>
 <h3 id="new-components">New Components<a class="headerlink" href="#new-components" title="Permanent link">&para;</a></h3>
 <ul>
-<li><strong>Biometric Prompt</strong> <small>Sensors</small></li>
-<li>New non-visible component to authenticate users via fingerprint, face, or device credential, built on AndroidX Biometric.</li>
+<li><strong>Biometric Prompt</strong> <small>Sensors</small>
+    ** New non-visible component to authenticate users via fingerprint, face, or device credential, built on AndroidX Biometric.</li>
 </ul>
 <p><img alt="" src="https://cdn.community.kodular.io/original/4X/0/0/f/00f5e0640b7c57e1b2e30512b9ff3d7d4b023390.png" width="300" /></p>
 <ul>
-<li><strong>Supabase Database</strong> <small>Storage</small></li>
-<li>New non-visible component with query builder (filters, ordering), CRUD, bulk inserts, and remote function calls.</li>
+<li><strong>Supabase Database</strong> <small>Storage</small>
+    ** New non-visible component with query builder (filters, ordering), CRUD, bulk inserts, and remote function calls.</li>
 </ul>
 <p><img alt="" src="https://cdn.community.kodular.io/original/4X/c/a/e/cae187562b4931c1cca48ac58c1875f1ac5f3c80.png" width="300" /></p>
 <ul>
-<li><strong>Supabase Storage</strong> <small>Storage</small></li>
-<li>New non-visible component for upload, download, delete, listing, and public/signed URL generation.</li>
+<li><strong>Supabase Storage</strong> <small>Storage</small>
+    ** New non-visible component for upload, download, delete, listing, and public/signed URL generation.</li>
 </ul>
 <p><img alt="" src="https://cdn.community.kodular.io/original/4X/3/2/0/320ab0af99e59fb9ba9fb8984610b11021312200.png" width="300" /></p>
 <ul>
-<li><strong>Supabase Authentication</strong> <small>Connectivity</small></li>
-<li>New non-visible component supporting email/password sign-up and sign-in, magic links, OTP, password reset, and session management.</li>
+<li><strong>Supabase Authentication</strong> <small>Connectivity</small>
+    ** New non-visible component supporting email/password sign-up and sign-in, magic links, OTP, password reset, and session management.</li>
 </ul>
 <p><img alt="" src="https://cdn.community.kodular.io/original/4X/a/2/3/a23de1c94e51485255705affc720328df9597806.png" width="300" /></p>
 <ul>
-<li><strong>Cloud Firestore</strong> <small>Google</small></li>
-<li>New non-visible component with <code>ProjectPath</code> prefixing, document CRUD with auto-ID, existence checks, query builder, real-time listeners, batch writes, and transactions.</li>
+<li><strong>Cloud Firestore</strong> <small>Google</small>
+    ** New non-visible component with <code>ProjectPath</code> prefixing, document CRUD with auto-ID, existence checks, query builder, real-time listeners, batch writes, and transactions.</li>
 </ul>
 <p><img alt="" src="https://cdn.community.kodular.io/original/4X/2/1/6/216574846e3816b3dc30677863d9b0da0242a0e3.png" width="300" /></p>
 <ul>
-<li><strong>Firebase Cloud Messaging</strong> <small>Google</small></li>
-<li>New non-visible component to receive push messages, token events, and notification clicks, with foreground notifications (image support), FCM token retrieval, runtime <code>POST_NOTIFICATIONS</code> permission, and topic subscribe/unsubscribe.</li>
+<li><strong>Firebase Cloud Messaging</strong> <small>Google</small>
+    ** New non-visible component to receive push messages, token events, and notification clicks, with foreground notifications (image support), FCM token retrieval, runtime <code>POST_NOTIFICATIONS</code> permission, and topic subscribe/unsubscribe.</li>
 </ul>
 <p><img alt="" src="https://cdn.community.kodular.io/original/4X/f/1/0/f10fc557e9ad2f81da927613c8670af35403ebf2.png" width="300" /></p>
 <ul>
-<li><strong>Start.io Cover</strong> <small>Monetization &gt; Advertising</small></li>
-<li>New component to show 1200×628 cover ads for feed-style layouts.</li>
+<li><strong>Start.io Cover</strong> <small>Monetization &gt; Advertising</small>
+    ** New component to show 1200×628 cover ads for feed-style layouts.</li>
 </ul>
 <p><img alt="" src="https://cdn.community.kodular.io/original/4X/c/4/2/c42d79bad6ce69de056ea470e684772a6c84e2bb.png" width="300" /></p>
 <ul>
-<li><strong>Start.io MREC</strong> <small>Monetization &gt; Advertising</small></li>
-<li>New component to show 300×250 MREC ads.</li>
+<li><strong>Start.io MREC</strong> <small>Monetization &gt; Advertising</small>
+    ** New component to show 300×250 MREC ads.</li>
 </ul>
 <p><img alt="" src="https://cdn.community.kodular.io/original/4X/4/1/c/41ca40699c1c5b5a55da0f8e2d343d46a92a26f6.png" width="300" /></p>
 <ul>
-<li><strong>Start.io Native Ad Layout</strong> <small>Monetization &gt; Advertising</small></li>
-<li>New customisable native ad component with selectable image sizes (72×72, 100×100, 150×150, 340×340).</li>
+<li><strong>Start.io Native Ad Layout</strong> <small>Monetization &gt; Advertising</small>
+    ** New customisable native ad component with selectable image sizes (72×72, 100×100, 150×150, 340×340).</li>
 </ul>
 <p><img alt="" src="https://cdn.community.kodular.io/original/4X/a/9/e/a9e602805877e87394133c2d590fe9a439152c8c.png" width="300" /></p>
 <ul>
-<li><strong>Start.io Rewarded Video</strong> <small>Monetization &gt; Advertising</small></li>
-<li>New rewarded video component, with a <code>VideoCompleted</code> event.</li>
+<li><strong>Start.io Rewarded Video</strong> <small>Monetization &gt; Advertising</small>
+    ** New rewarded video component, with a <code>VideoCompleted</code> event.</li>
 </ul>
 <p><img alt="" src="https://cdn.community.kodular.io/original/4X/a/4/d/a4d971426acbd30ec728ff46d4e327d6030f5aed.png" width="300" /></p>
 <ul>
-<li><strong>Tapjoy Offerwall</strong> <small>Monetization &gt; Advertising</small></li>
-<li>New component to load/show/dismiss the Tapjoy offerwall, manage virtual currency (get, spend, award, balance), and configure SDK key, placement, user ID, entry point, test mode, and GDPR/privacy consent.</li>
+<li><strong>Tapjoy Offerwall</strong> <small>Monetization &gt; Advertising</small>
+    ** New component to load/show/dismiss the Tapjoy offerwall, manage virtual currency (get, spend, award, balance), and configure SDK key, placement, user ID, entry point, test mode, and GDPR/privacy consent.</li>
 </ul>
 <p><img alt="" src="https://cdn.community.kodular.io/original/4X/f/3/f/f3f73060456d99ec924bb3542db92f87791a82f2.png" width="300" /></p>
 <ul>
-<li><strong>Unity Ads Banner</strong> <small>Monetization &gt; Advertising</small></li>
-<li>New component supporting Standard, Large, and Rectangle banner sizes with Designer preview.</li>
+<li><strong>Unity Ads Banner</strong> <small>Monetization &gt; Advertising</small>
+    ** New component supporting Standard, Large, and Rectangle banner sizes with Designer preview.</li>
 </ul>
 <p><img alt="" src="https://cdn.community.kodular.io/original/4X/b/b/c/bbc6ce2b5c63cb8451b83c514c8cb97da36ffa6a.png" width="300" /></p>
 <ul>
-<li><strong>Unity Ads Interstitial</strong> <small>Monetization &gt; Advertising</small></li>
-<li>New component for full-screen Unity interstitial ads.</li>
+<li><strong>Unity Ads Interstitial</strong> <small>Monetization &gt; Advertising</small>
+    ** New component for full-screen Unity interstitial ads.</li>
 </ul>
 <p><img alt="" src="https://cdn.community.kodular.io/original/4X/7/6/b/76ba483369e5d922fa5afa8064240f7b50ddc31d.png" width="300" /></p>
 <ul>
-<li><strong>Unity Ads Rewarded</strong> <small>Monetization &gt; Advertising</small></li>
-<li>New component for Unity rewarded video ads, with <code>UserEarnedReward</code> and <code>AdSkipped</code> events.</li>
+<li><strong>Unity Ads Rewarded</strong> <small>Monetization &gt; Advertising</small>
+    ** New component for Unity rewarded video ads, with <code>UserEarnedReward</code> and <code>AdSkipped</code> events.</li>
 </ul>
 <p><img alt="" src="https://cdn.community.kodular.io/original/4X/5/1/a/51af077ba570a472be839a70b9f576a34c0f89af.png" width="300" /></p>
 <h3 id="component-changes">Component Changes<a class="headerlink" href="#component-changes" title="Permanent link">&para;</a></h3>
 <ul>
-<li><strong>Image</strong> <small>User Interface</small></li>
-<li>Added animated GIF playback using <code>ImageDecoder</code> on Android 9+ (API 28). Static fallback on older devices, with no extra APK size cost.</li>
 <li>
-<p><a href="https://github.com/mit-cml/appinventor-sources/pull/3884">Add Support for Animated GIFs</a></p>
+<p><strong>Image</strong> <small>User Interface</small>
+    ** Added animated GIF playback using <code>ImageDecoder</code> on Android 9+ (API 28). Static fallback on older devices, with no extra APK size cost.
+    ** <a href="https://github.com/mit-cml/appinventor-sources/pull/3884">Add Support for Animated GIFs</a></p>
 </li>
 <li>
-<p><strong>QR Code</strong> <small>User Interface</small></p>
-</li>
-<li>Now generates QR codes locally with zxing instead of relying on an external service. Removes the network dependency and works fully offline.</li>
-<li>
-<p>Added a new <code>Format</code> property to choose the output image format: PNG, JPEG, or WebP.</p>
+<p><strong>QR Code</strong> <small>User Interface</small>
+    ** Now generates QR codes locally with zxing instead of relying on an external service. Removes the network dependency and works fully offline.
+    ** Added a new <code>Format</code> property to choose the output image format: PNG, JPEG, or WebP.</p>
 </li>
 <li>
-<p><strong>ImageSprite</strong> <small>Drawing and Animation</small></p>
-</li>
-<li>Added animated GIF playback (matching the Image component).</li>
-<li>
-<p><a href="https://github.com/mit-cml/appinventor-sources/pull/3884">Add Support for Animated GIFs</a></p>
+<p><strong>ImageSprite</strong> <small>Drawing and Animation</small>
+    ** Added animated GIF playback (matching the Image component).
+    ** <a href="https://github.com/mit-cml/appinventor-sources/pull/3884">Add Support for Animated GIFs</a></p>
 </li>
 <li>
-<p><strong>AdMob</strong> <small>Monetization &gt; Advertising</small></p>
+<p><strong>AdMob</strong> <small>Monetization &gt; Advertising</small>
+    ** Components renamed to <strong>Google AdMob</strong> so all Google ad networks group together in the Advertising palette.</p>
 </li>
 <li>
-<p>Components renamed to <strong>Google AdMob</strong> so all Google ad networks group together in the Advertising palette.</p>
+<p><strong>Start.io Banner</strong> <small>Monetization &gt; Advertising</small>
+    ** Underlying Start.io SDK upgraded to 5.3.0.</p>
 </li>
 <li>
-<p><strong>Start.io Banner</strong> <small>Monetization &gt; Advertising</small></p>
+<p><strong>Start.io Interstitial</strong> <small>Monetization &gt; Advertising</small>
+    ** Added configurable interstitial type: Automatic, Full Page, Video, Overlay.
+    ** Underlying Start.io SDK upgraded to 5.3.0; manifest generation fixed across Start.io ad components.</p>
 </li>
-<li>
-<p>Underlying Start.io SDK upgraded to 5.3.0.</p>
-</li>
-<li>
-<p><strong>Start.io Interstitial</strong> <small>Monetization &gt; Advertising</small></p>
-</li>
-<li>Added configurable interstitial type: Automatic, Full Page, Video, Overlay.</li>
-<li>Underlying Start.io SDK upgraded to 5.3.0; manifest generation fixed across Start.io ad components.</li>
 </ul>
 <h3 id="creator-bug-fixes">Creator Bug Fixes<a class="headerlink" href="#creator-bug-fixes" title="Permanent link">&para;</a></h3>
 <ul>
@@ -8335,54 +8327,40 @@
 </ul>
 <h3 id="component-bug-fixes">Component Bug Fixes<a class="headerlink" href="#component-bug-fixes" title="Permanent link">&para;</a></h3>
 <ul>
-<li>Fixed <strong>Map</strong> component showing blank gray tiles after OpenStreetMap migrated tile servers to HTTP redirects.</li>
 <li>
-<p><a href="https://github.com/mit-cml/appinventor-sources/pull/3758">Fix Map component blank tiles by following OSM HTTP redirects</a></p>
+<p>Fixed <strong>Map</strong> component showing blank gray tiles after OpenStreetMap migrated tile servers to HTTP redirects.
+    ** <a href="https://github.com/mit-cml/appinventor-sources/pull/3758">Fix Map component blank tiles by following OSM HTTP redirects</a></p>
 </li>
 <li>
-<p>Fixed <strong>Texting</strong> notifications silently failing on Android 13+ by registering a proper notification channel and requesting <code>POST_NOTIFICATIONS</code> at runtime.</p>
+<p>Fixed <strong>Texting</strong> notifications silently failing on Android 13+ by registering a proper notification channel and requesting <code>POST_NOTIFICATIONS</code> at runtime.
+    ** <a href="https://github.com/mit-cml/appinventor-sources/pull/3437">Fix Texting notifications on Android 13+</a></p>
 </li>
 <li>
-<p><a href="https://github.com/mit-cml/appinventor-sources/pull/3437">Fix Texting notifications on Android 13+</a></p>
-</li>
-<li>
-<p>Fixed <strong>Spinner.AfterSelection</strong> event not firing when the component is set to invisible.</p>
-</li>
-<li>
-<p><a href="https://github.com/mit-cml/appinventor-sources/commit/062310ee">Fix Spinner AfterSelection not firing when invisible</a></p>
+<p>Fixed <strong>Spinner.AfterSelection</strong> event not firing when the component is set to invisible.
+    ** <a href="https://github.com/mit-cml/appinventor-sources/commit/062310ee">Fix Spinner AfterSelection not firing when invisible</a></p>
 </li>
 <li>
 <p>Fixed <strong>Firebase Authentication</strong> crashing during Google Sign-In when other Firebase-using extensions disrupt Firebase initialisation. Failures now report <code>LoginFailed</code> instead of crashing.</p>
 </li>
 <li>
-<p>Fixed <strong>Image</strong> component displaying photos rotated when EXIF orientation metadata was not applied. Photos taken with phone cameras are now displayed upright on API 24+.</p>
+<p>Fixed <strong>Image</strong> component displaying photos rotated when EXIF orientation metadata was not applied. Photos taken with phone cameras are now displayed upright on API 24+.
+    ** <a href="https://github.com/mit-cml/appinventor-sources/commit/b3de613e01">Apply EXIF orientation when loading images</a></p>
 </li>
 <li>
-<p><a href="https://github.com/mit-cml/appinventor-sources/commit/b3de613e01">Apply EXIF orientation when loading images</a></p>
+<p>Fixed <code>coerce-to-dictionary</code> not parsing JSON strings returned from the <strong>Web</strong> component into dictionaries automatically.
+    ** <a href="https://github.com/mit-cml/appinventor-sources/commit/842b6d5d">Fix coerce-to-dictionary to parse JSON strings</a></p>
 </li>
 <li>
-<p>Fixed <code>coerce-to-dictionary</code> not parsing JSON strings returned from the <strong>Web</strong> component into dictionaries automatically.</p>
+<p>Fixed <code>NullPointerException</code> crash on certain Android 16 devices in <code>QUtil.getExternalStorageDir()</code> when external storage is unmounted.
+    ** <a href="https://github.com/mit-cml/appinventor-sources/commit/ce6a89a8">Fix NPE on Android 16 in QUtil</a></p>
 </li>
 <li>
-<p><a href="https://github.com/mit-cml/appinventor-sources/commit/842b6d5d">Fix coerce-to-dictionary to parse JSON strings</a></p>
+<p>Fixed <code>READ_MEDIA_IMAGES</code> and <code>READ_MEDIA_VIDEO</code> being added to all non-companion APKs, causing Google Play Store rejections. These permissions now ship only with Companion builds.
+    ** <a href="https://github.com/mit-cml/appinventor-sources/pull/3492">Fix READ_MEDIA permissions for Play Store compliance</a></p>
 </li>
 <li>
-<p>Fixed <code>NullPointerException</code> crash on certain Android 16 devices in <code>QUtil.getExternalStorageDir()</code> when external storage is unmounted.</p>
-</li>
-<li>
-<p><a href="https://github.com/mit-cml/appinventor-sources/commit/ce6a89a8">Fix NPE on Android 16 in QUtil</a></p>
-</li>
-<li>
-<p>Fixed <code>READ_MEDIA_IMAGES</code> and <code>READ_MEDIA_VIDEO</code> being added to all non-companion APKs, causing Google Play Store rejections. These permissions now ship only with Companion builds.</p>
-</li>
-<li>
-<p><a href="https://github.com/mit-cml/appinventor-sources/pull/3492">Fix READ_MEDIA permissions for Play Store compliance</a></p>
-</li>
-<li>
-<p>Fixed soft keyboard overlapping input fields on Android 15 by including IME insets in the form's edge-to-edge inset calculation.</p>
-</li>
-<li>
-<p><a href="https://github.com/mit-cml/appinventor-sources/commit/1180a66dde">Include soft keyboard in inset calculation for Android 15</a></p>
+<p>Fixed soft keyboard overlapping input fields on Android 15 by including IME insets in the form's edge-to-edge inset calculation.
+    ** <a href="https://github.com/mit-cml/appinventor-sources/commit/1180a66dde">Include soft keyboard in inset calculation for Android 15</a></p>
 </li>
 <li>
 <p>Other minor bugs fixed, not impacting built apps.</p>
@@ -8408,7 +8386,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="May 4, 2026 00:40:18">May 4, 2026</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="May 4, 2026 00:46:57">May 4, 2026</span>
   </span>
 
     
