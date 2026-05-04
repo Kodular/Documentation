@@ -1,6 +1,8 @@
 # Overview <small>of Google</small>
 
+* [Cloud Firestore](cloud-firestore.md)
 * [Firebase Authentication](firebase-authentication.md)
+* [Firebase Cloud Messaging](firebase-cloud-messaging.md)
 * [Firebase Database](firebase-database.md)
 * [Firebase Remote Config](firebase-remote-config.md)
 * [Firebase Storage](firebase-storage.md)

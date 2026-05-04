@@ -93,8 +93,8 @@
     - Overview: components/sensors/index.md
     - Accelerometer Sensor: components/sensors/accelerometer-sensor.md
     - Barcode Scanner: components/sensors/barcode-scanner.md
+    - Biometric Prompt: components/sensors/biometric-prompt.md
     - Clock: components/sensors/clock.md
-    - Fingerprint: components/sensors/fingerprint.md
     - Gravity Sensor: components/sensors/gravity-sensor.md
     - Gyroscope Sensor: components/sensors/gyroscope-sensor.md
     - Hygrometer: components/sensors/hygrometer.md
@@ -126,6 +126,8 @@
     - File: components/storage/file.md
     - Spreadsheet: components/storage/spreadsheet.md
     - SQLite: components/storage/sqlite.md
+    - Supabase Database: components/storage/supabase-database.md
+    - Supabase Storage: components/storage/supabase-storage.md
     - Tiny DB: components/storage/tiny-db.md
     - Tiny Web DB: components/storage/tiny-web-db.md
   - Utilities:
@@ -162,11 +164,14 @@
     - Download: components/connectivity/download.md
     - FTP: components/connectivity/ftp.md
     - Network: components/connectivity/network.md
+    - Supabase Authentication: components/connectivity/supabase-authentication.md
     - Web: components/connectivity/web.md
     - WiFi: components/connectivity/wifi.md
   - Google:
     - Overview: components/google/index.md
+    - Cloud Firestore: components/google/cloud-firestore.md
     - Firebase Authentication: components/google/firebase-authentication.md
+    - Firebase Cloud Messaging: components/google/firebase-cloud-messaging.md
     - Firebase Database: components/google/firebase-database.md
     - Firebase Remote Config: components/google/firebase-remote-config.md
     - Firebase Storage: components/google/firebase-storage.md
@@ -187,12 +192,6 @@
     - Advertising:
       - Overview: components/monetization/advertising/index.md
       - AdColony Interstitial: components/monetization/advertising/adcolony-interstitial.md
-      - AdMob App Open: components/monetization/advertising/admob-app-open.md
-      - AdMob Banner: components/monetization/advertising/admob-banner.md
-      - AdMob Interstitial: components/monetization/advertising/admob-interstitial.md
-      - AdMob Native Ad Layout: components/monetization/advertising/admob-native-ad-layout.md
-      - AdMob Rewarded: components/monetization/advertising/admob-rewarded.md
-      - AdMob Rewarded Interstitial: components/monetization/advertising/admob-rewarded-interstitial.md
       - Amazon Banner: components/monetization/advertising/amazon-banner.md
       - Amazon Interstitial: components/monetization/advertising/amazon-interstitial.md
       - AppLovin Interstitial: components/monetization/advertising/applovin-interstitial.md
@@ -205,9 +204,23 @@
       - Google Ad Manager Native Ad Layout: components/monetization/advertising/google-ad-manager-native-ad-layout.md
       - Google Ad Manager Rewarded: components/monetization/advertising/google-ad-manager-rewarded.md
       - Google Ad Manager Rewarded Interstitial: components/monetization/advertising/google-ad-manager-rewarded-interstitial.md
+      - Google AdMob App Open: components/monetization/advertising/google-admob-app-open.md
+      - Google AdMob Banner: components/monetization/advertising/google-admob-banner.md
+      - Google AdMob Interstitial: components/monetization/advertising/google-admob-interstitial.md
+      - Google AdMob Native Ad Layout: components/monetization/advertising/google-admob-native-ad-layout.md
+      - Google AdMob Rewarded: components/monetization/advertising/google-admob-rewarded.md
+      - Google AdMob Rewarded Interstitial: components/monetization/advertising/google-admob-rewarded-interstitial.md
       - LeadBolt: components/monetization/advertising/leadbolt.md
-      - StartApp Banner: components/monetization/advertising/startapp-banner.md
-      - StartApp Interstitial: components/monetization/advertising/startapp-interstitial.md
+      - Start.io Banner: components/monetization/advertising/startio-banner.md
+      - Start.io Cover Ad: components/monetization/advertising/startio-cover-ad.md
+      - Start.io Interstitial: components/monetization/advertising/startio-interstitial.md
+      - Start.io MREC Ad: components/monetization/advertising/startio-mrec-ad.md
+      - Start.io Native Ad Layout: components/monetization/advertising/startio-native-ad-layout.md
+      - Start.io Rewarded Ad: components/monetization/advertising/startio-rewarded-ad.md
+      - Tapjoy Offerwall: components/monetization/advertising/tapjoy-offerwall.md
+      - Unity Banner Ad: components/monetization/advertising/unity-banner-ad.md
+      - Unity Interstitial Ad: components/monetization/advertising/unity-interstitial-ad.md
+      - Unity Rewarded Ad: components/monetization/advertising/unity-rewarded-ad.md
   - LEGO® MINDSTORMS®:
     - Overview: components/lego-mindstorms/index.md
     - EV3:

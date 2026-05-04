@@ -2,8 +2,8 @@
 
 * [Accelerometer Sensor](accelerometer-sensor.md)
 * [Barcode Scanner](barcode-scanner.md)
+* [Biometric Prompt](biometric-prompt.md)
 * [Clock](clock.md)
-* [Fingerprint](fingerprint.md)
 * [Gravity Sensor](gravity-sensor.md)
 * [Gyroscope Sensor](gyroscope-sensor.md)
 * [Hygrometer](hygrometer.md)

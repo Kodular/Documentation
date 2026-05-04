@@ -2,7 +2,7 @@
 
 | Category | Requires | Version |
 |:--------:|:-------:|:--------:|
-|**Layout > General**|<span class="chip chip-any">API 21, Android 5.0 Lollipop</span>|<span class="chip chip-number">45</span>|
+|**Layout > General**|<span class="chip chip-any">API 21, Android 5.0 Lollipop</span>|<span class="chip chip-number">46</span>|
 
 ## Overview
 

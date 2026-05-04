@@ -4,7 +4,7 @@
 
 | Category | Requires | Version |
 |:--------:|:-------:|:--------:|
-|**Google**|<span class="chip chip-any">API 21, Android 5.0 Lollipop</span>|<span class="chip chip-number">3</span>|
+|**Google**|<span class="chip chip-any">API 21, Android 5.0 Lollipop</span>|<span class="chip chip-number">4</span>|
 
 ## Overview
 
@@ -37,6 +37,16 @@ Triggers when the current Firebase User was successful loaded
 |email|<span class="chip chip-text">Text</span>|
 |phone Number|<span class="chip chip-text">Text</span>|
 |profile Picture|<span class="chip chip-text">Text</span>|
+
+### Email Verification Sent
+
+Triggers when the 'Verify Email' request is completed. Returns true if the verification email was sent successfully.
+
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Firebase%20Authentication%22,%20%22name%22:%20%22Email%20Verification%20Sent%22,%20%22param%22:%20%5B%22success%22%5D%7D"></div>
+
+| Params | []() |
+|--------|------|
+|success|<span class="chip chip-boolean">Boolean</span>|
 
 ### Got Id Token
 

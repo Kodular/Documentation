@@ -2,7 +2,7 @@
 
 | Category | Requires | Version |
 |:--------:|:-------:|:--------:|
-|**Drawing and Animation**|<span class="chip chip-any">API 21, Android 5.0 Lollipop</span>|<span class="chip chip-number">8</span>|
+|**Drawing and Animation**|<span class="chip chip-any">API 21, Android 5.0 Lollipop</span>|<span class="chip chip-number">9</span>|
 
 ## Overview
 
@@ -172,7 +172,22 @@ Turns the ImageSprite to point towards a designated target sprite (Ball or Image
 |--------|------|
 |target|<span class="chip chip-component">Component</span>|
 
+### Reset Animation
+
+Resets the animation of an animated GIF image to the first frame. If the animation is playing it continues playing from the beginning; if paused it remains paused on the first frame.
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Sprite%22,%20%22name%22:%20%22Reset%20Animation%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
+
 ## Properties
+
+### Animated
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
+
+Controls whether an animated GIF image is playing. Setting to true resumes animation; setting to false pauses at the current frame. Has no effect on non-animated images.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Sprite%22,%20%22name%22:%20%22Animated%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Sprite%22,%20%22name%22:%20%22Animated%22,%20%22getter%22:%20false%7D"></div>
 
 ### Enabled
 

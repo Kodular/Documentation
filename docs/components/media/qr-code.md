@@ -4,21 +4,17 @@
 
 | Category | Requires | Version |
 |:--------:|:-------:|:--------:|
-|**Media**|<span class="chip chip-any">API 21, Android 5.0 Lollipop</span>|<span class="chip chip-number">1</span>|
+|**Media**|<span class="chip chip-any">API 21, Android 5.0 Lollipop</span>|<span class="chip chip-number">2</span>|
 
 ## Overview
 
 A non-visible component that generates a QR code from text.
 
-??? example "Permissions"
-    * [android.permission.INTERNET](https://developer.android.com/reference/android/Manifest.permission.html#INTERNET)
-    * [android.permission.ACCESS_NETWORK_STATE](https://developer.android.com/reference/android/Manifest.permission.html#ACCESS_NETWORK_STATE)
-
 ## Events
 
 ### Got Response
 
-You will find here the success state and image url.
+Triggered after GenerateQrCode finishes. On success, url is a local file:// URI pointing to the generated image. On failure, url contains the error message.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22QR%20Code%22,%20%22name%22:%20%22Got%20Response%22,%20%22param%22:%20%5B%22success%22,%20%22url%22%5D%7D"></div>
 
@@ -31,7 +27,7 @@ You will find here the success state and image url.
 
 ### Generate Qr Code
 
-Create a QR Code and the result is a link to it. Example: Set the resolution(in pixel) to 200(height and width has the same value) and text to: Hello world!. Result: QR code resolution is 200x200, text = Hello world! Your text input is encoded in the link automatically.
+Generates a QR code locally on the device using the current Text, Size, Charset, FrontColor, BackgroundColor, Margin and Format properties. The result is delivered through the GotResponse event as a local file:// URI to the rendered image.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22QR%20Code%22,%20%22name%22:%20%22Generate%20Qr%20Code%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
 
@@ -59,9 +55,9 @@ Set the charset of the input text.
 
 ### Format
 
-<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span> <span class="chip chip-text">Default: <i>png</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-unknown">Com.google.appinventor.components.common.qrcodeformatenum</span> <span class="chip chip-unknown">Default: <i>png</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
 
-It's possible to create the QR code picture using different file formats, available are PNG, GIF, JPEG and the vector graphic formats SVG and EPS.
+Output image format used when generating the QR code image. Supported values are PNG (default), JPEG and WebP.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22QR%20Code%22,%20%22name%22:%20%22Format%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22QR%20Code%22,%20%22name%22:%20%22Format%22,%20%22getter%22:%20false%7D"></div>
@@ -79,7 +75,7 @@ Set the color of the qr code result.
 
 <span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>0</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
 
-Thickness of a margin in pixels. The margin will always have the same color as the background.
+Thickness of a margin in modules around the QR code. The margin will always have the same color as the background.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22QR%20Code%22,%20%22name%22:%20%22Margin%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22QR%20Code%22,%20%22name%22:%20%22Margin%22,%20%22getter%22:%20false%7D"></div>

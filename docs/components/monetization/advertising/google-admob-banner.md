@@ -1,4 +1,4 @@
-# AdMob Banner
+# Google AdMob Banner
 
 | Category | Requires | Version |
 |:--------:|:-------:|:--------:|
@@ -16,29 +16,25 @@ A component for displaying banner advertisements from Google AdMob. Banner ads a
     * [android.permission.ACCESS_ADSERVICES_ATTRIBUTION](https://developer.android.com/reference/android/Manifest.permission.html#ACCESS_ADSERVICES_ATTRIBUTION)
     * [android.permission.ACCESS_ADSERVICES_TOPICS](https://developer.android.com/reference/android/Manifest.permission.html#ACCESS_ADSERVICES_TOPICS)
 
-!!! info "Commission"
-    **Type:** Fixed Rate
-    **Value:** `7%`
-
 ## Events
 
 ### Ad Clicked
 
 Called when the user clicks on the ad.
 
-<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22AdMob%20Banner%22,%20%22name%22:%20%22Ad%20Clicked%22,%20%22param%22:%20%5B%5D%7D"></div>
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20AdMob%20Banner%22,%20%22name%22:%20%22Ad%20Clicked%22,%20%22param%22:%20%5B%5D%7D"></div>
 
 ### Ad Closed
 
 Called when the ad is closed, and the user is returned to the app.
 
-<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22AdMob%20Banner%22,%20%22name%22:%20%22Ad%20Closed%22,%20%22param%22:%20%5B%5D%7D"></div>
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20AdMob%20Banner%22,%20%22name%22:%20%22Ad%20Closed%22,%20%22param%22:%20%5B%5D%7D"></div>
 
 ### Ad Failed To Load
 
 Called when an ad request fails to load. The error code and message provide more details on the failure.
 
-<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22AdMob%20Banner%22,%20%22name%22:%20%22Ad%20Failed%20To%20Load%22,%20%22param%22:%20%5B%22error%20Code%22,%20%22error%20Message%22%5D%7D"></div>
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20AdMob%20Banner%22,%20%22name%22:%20%22Ad%20Failed%20To%20Load%22,%20%22param%22:%20%5B%22error%20Code%22,%20%22error%20Message%22%5D%7D"></div>
 
 | Params | []() |
 |--------|------|
@@ -49,25 +45,25 @@ Called when an ad request fails to load. The error code and message provide more
 
 Called when an ad impression has been recorded.
 
-<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22AdMob%20Banner%22,%20%22name%22:%20%22Ad%20Impression%22,%20%22param%22:%20%5B%5D%7D"></div>
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20AdMob%20Banner%22,%20%22name%22:%20%22Ad%20Impression%22,%20%22param%22:%20%5B%5D%7D"></div>
 
 ### Ad Loaded
 
 Called when an ad has been successfully loaded.
 
-<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22AdMob%20Banner%22,%20%22name%22:%20%22Ad%20Loaded%22,%20%22param%22:%20%5B%5D%7D"></div>
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20AdMob%20Banner%22,%20%22name%22:%20%22Ad%20Loaded%22,%20%22param%22:%20%5B%5D%7D"></div>
 
 ### Ad Opened
 
 Called when the ad is displayed on the screen, covering the app's content.
 
-<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22AdMob%20Banner%22,%20%22name%22:%20%22Ad%20Opened%22,%20%22param%22:%20%5B%5D%7D"></div>
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20AdMob%20Banner%22,%20%22name%22:%20%22Ad%20Opened%22,%20%22param%22:%20%5B%5D%7D"></div>
 
 ### Ad Swipe Gesture Clicked
 
 Called when the user performs a swipe gesture click on the ad.
 
-<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22AdMob%20Banner%22,%20%22name%22:%20%22Ad%20Swipe%20Gesture%20Clicked%22,%20%22param%22:%20%5B%5D%7D"></div>
+<div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20AdMob%20Banner%22,%20%22name%22:%20%22Ad%20Swipe%20Gesture%20Clicked%22,%20%22param%22:%20%5B%5D%7D"></div>
 
 ## Methods
 
@@ -75,7 +71,7 @@ Called when the user performs a swipe gesture click on the ad.
 
 Initiates a request to load a new banner ad. This will not do anything if an ad is already loading or if ads are disabled.
 
-<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22AdMob%20Banner%22,%20%22name%22:%20%22Load%20Ad%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20AdMob%20Banner%22,%20%22name%22:%20%22Load%20Ad%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
 
 ## Properties
 
@@ -85,8 +81,8 @@ Initiates a request to load a new banner ad. This will not do anything if an ad 
 
 Specifies whether ads should be enabled. If set to false, no ads will be loaded.
 
-<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22AdMob%20Banner%22,%20%22name%22:%20%22Ad%20Enabled%22,%20%22getter%22:%20true%7D"></div>
-<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22AdMob%20Banner%22,%20%22name%22:%20%22Ad%20Enabled%22,%20%22getter%22:%20false%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20AdMob%20Banner%22,%20%22name%22:%20%22Ad%20Enabled%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20AdMob%20Banner%22,%20%22name%22:%20%22Ad%20Enabled%22,%20%22getter%22:%20false%7D"></div>
 
 ### Ad Unit Id
 
@@ -94,8 +90,8 @@ Specifies whether ads should be enabled. If set to false, no ads will be loaded.
 
 The Ad Unit ID for this banner ad. It can be found in your AdMob account.
 
-<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22AdMob%20Banner%22,%20%22name%22:%20%22Ad%20Unit%20Id%22,%20%22getter%22:%20true%7D"></div>
-<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22AdMob%20Banner%22,%20%22name%22:%20%22Ad%20Unit%20Id%22,%20%22getter%22:%20false%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20AdMob%20Banner%22,%20%22name%22:%20%22Ad%20Unit%20Id%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20AdMob%20Banner%22,%20%22name%22:%20%22Ad%20Unit%20Id%22,%20%22getter%22:%20false%7D"></div>
 
 ### Test Mode
 
@@ -109,5 +105,5 @@ If enabled, test ads will be shown. This should be used during development to av
 
 Returns true iff the component is visible.
 
-<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22AdMob%20Banner%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20true%7D"></div>
-<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22AdMob%20Banner%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20false%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20AdMob%20Banner%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20AdMob%20Banner%22,%20%22name%22:%20%22Visible%22,%20%22getter%22:%20false%7D"></div>

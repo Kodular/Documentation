@@ -2,7 +2,7 @@
 
 | Category | Requires | Version |
 |:--------:|:-------:|:--------:|
-|**User Interface**|<span class="chip chip-any">API 21, Android 5.0 Lollipop</span>|<span class="chip chip-number">6</span>|
+|**User Interface**|<span class="chip chip-any">API 21, Android 5.0 Lollipop</span>|<span class="chip chip-number">7</span>|
 
 ## Overview
 
@@ -10,8 +10,6 @@ Component for displaying images. The picture to display, and other aspects of th
 
 ??? example "Permissions"
     * [android.permission.INTERNET](https://developer.android.com/reference/android/Manifest.permission.html#INTERNET)
-    * [android.permission.READ_MEDIA_IMAGES](https://developer.android.com/reference/android/Manifest.permission.html#READ_MEDIA_IMAGES)
-    * [android.permission.READ_MEDIA_VISUAL_USER_SELECTED](https://developer.android.com/reference/android/Manifest.permission.html#READ_MEDIA_VISUAL_USER_SELECTED)
     * [android.permission.READ_EXTERNAL_STORAGE](https://developer.android.com/reference/android/Manifest.permission.html#READ_EXTERNAL_STORAGE)
 
 ## Events
@@ -36,7 +34,22 @@ Clear the image tint color.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Image%22,%20%22name%22:%20%22Clear%20Image%20Tint%20Color%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
 
+### Reset Animation
+
+Resets the animation of an animated GIF image to the first frame. If the animation is playing it continues playing from the beginning; if paused it remains paused on the first frame.
+
+<div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Image%22,%20%22name%22:%20%22Reset%20Animation%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
+
 ## Properties
+
+### Animated
+
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>True</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
+
+Controls whether an animated GIF image is playing. Setting to true resumes animation; setting to false pauses at the current frame. Has no effect on non-animated images.
+
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Image%22,%20%22name%22:%20%22Animated%22,%20%22getter%22:%20true%7D"></div>
+<div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Image%22,%20%22name%22:%20%22Animated%22,%20%22getter%22:%20false%7D"></div>
 
 ### Animation
 

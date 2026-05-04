@@ -8,5 +8,6 @@
 * [Download](download.md)
 * [FTP](ftp.md)
 * [Network](network.md)
+* [Supabase Authentication](supabase-authentication.md)
 * [Web](web.md)
 * [WiFi](wifi.md)

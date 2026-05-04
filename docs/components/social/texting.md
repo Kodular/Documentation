@@ -20,7 +20,7 @@ When a message arrives, the `` MessageReceived `` event is raised and provides t
 
  
 
- An app that includes this component will receive messages even when it is in the background (i.e. when it's not visible on the screen) and, moreso, even if the app is not running, so long as it's installed on the phone. If the phone receives a text message when the app is not in the foreground, the phone will show a notification in the notification bar. Selecting the notification will bring up the app. As an app developer, you'll probably want to give your users the ability to control ReceivingEnabled so that they can make the phone ignore text messages.
+ An app that includes this component will receive messages even when it is in the background (i.e. when it's not visible on the screen) and, moreso, even if the app is not running, so long as it's installed on the phone. If the phone receives a text message when the app is not in the foreground, the phone will show a notification in the notification bar. (User should have granted the POST\_NOTIFICATIONS permission). Selecting the notification will bring up the app. As an app developer, you'll probably want to give your users the ability to control ReceivingEnabled so that they can make the phone ignore text messages.
 
  
 
@@ -40,6 +40,7 @@ Another way for an app to specify a phone number would be to include a `` PhoneN
     * [android.permission.ACCOUNT_MANAGER](https://developer.android.com/reference/android/Manifest.permission.html#ACCOUNT_MANAGER)
     * [com.google.android.apps.googlevoice.permission.RECEIVE_SMS](https://developer.android.com/reference/android/Manifest.permission.html#com.google.android.apps.googlevoice.permission.RECEIVE_SMS)
     * [com.google.android.apps.googlevoice.permission.SEND_SMS](https://developer.android.com/reference/android/Manifest.permission.html#com.google.android.apps.googlevoice.permission.SEND_SMS)
+    * [android.permission.POST_NOTIFICATIONS](https://developer.android.com/reference/android/Manifest.permission.html#POST_NOTIFICATIONS)
     * [android.permission.MANAGE_ACCOUNTS](https://developer.android.com/reference/android/Manifest.permission.html#MANAGE_ACCOUNTS)
     * [android.permission.RECEIVE_SMS](https://developer.android.com/reference/android/Manifest.permission.html#RECEIVE_SMS) if using [Receiving Enabled](#receiving-enabled)
     * [android.permission.READ_PHONE_STATE](https://developer.android.com/reference/android/Manifest.permission.html#READ_PHONE_STATE) if using [SendMessageDirect](#sendmessagedirect)
