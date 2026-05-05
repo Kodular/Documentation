@@ -13,7 +13,7 @@ repo_url: https://github.com/Kodular/Documentation
 edit_uri: blob/master/docs/
 
 # Copyright text in the footer
-copyright: &copy; 2026 Kodular
+copyright: "&copy; 2026 Kodular"
 
 # Customization
 extra:
