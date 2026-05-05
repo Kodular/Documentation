@@ -330,7 +330,7 @@ nav:
       - Cloud Firestore: components/google/cloud-firestore.md
       - Firebase Authentication: components/google/firebase-authentication.md
       - Firebase Cloud Messaging: components/google/firebase-cloud-messaging.md
-      - Firebase Database: components/google/firebase-database.md
+      - Firebase Realtime Database: components/google/firebase-realtime-database.md
       - Firebase Remote Config: components/google/firebase-remote-config.md
       - Firebase Storage: components/google/firebase-storage.md
       - Google Account Picker: components/google/google-account-picker.md
