@@ -147,6 +147,7 @@ nav:
       - Using Dynamic Cards: guides/component-examples/dynamic-cards.md
       - Staged App Updates: guides/component-examples/remote-config.md
       - Firebase Rules: guides/component-examples/firebase-rules.md
+      - Migrating to Firebase Realtime Database: guides/component-examples/firebase-database-migration.md
       - Securing Firebase: guides/component-examples/securing-app.md
       - Targeting Notifications: guides/component-examples/targeted-notifications.md
       - Surveys with Pollfish: guides/component-examples/pollfish.md
