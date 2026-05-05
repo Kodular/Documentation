@@ -3,7 +3,7 @@
 * [Cloud Firestore](cloud-firestore.md)
 * [Firebase Authentication](firebase-authentication.md)
 * [Firebase Cloud Messaging](firebase-cloud-messaging.md)
-* [Firebase Database](firebase-database.md)
+* [Firebase Realtime Database](firebase-realtime-database.md)
 * [Firebase Remote Config](firebase-remote-config.md)
 * [Firebase Storage](firebase-storage.md)
 * [Google Account Picker](google-account-picker.md)
