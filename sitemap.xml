@@ -113,6 +113,78 @@
          <lastmod>2026-05-05</lastmod>
     </url>
     <url>
+         <loc>https://docs.kodular.io/components/deprecated/chameleon-ad/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.kodular.io/components/deprecated/fingerprint/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.kodular.io/components/deprecated/firebase-database/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.kodular.io/components/deprecated/floating-button/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.kodular.io/components/deprecated/fusiontables-control/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.kodular.io/components/deprecated/google-shortlink/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.kodular.io/components/deprecated/googlespreadsheet/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.kodular.io/components/deprecated/instant-access/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.kodular.io/components/deprecated/json/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.kodular.io/components/deprecated/kodular-donations/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.kodular.io/components/deprecated/memory-info/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.kodular.io/components/deprecated/networkmanager/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.kodular.io/components/deprecated/notification/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.kodular.io/components/deprecated/password-text-box/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.kodular.io/components/deprecated/push-notifications/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.kodular.io/components/deprecated/unity-ads-banner/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.kodular.io/components/deprecated/unity-ads-interstitial/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.kodular.io/components/deprecated/whitemobi/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
          <loc>https://docs.kodular.io/components/drawing-and-animation/</loc>
          <lastmod>2026-05-05</lastmod>
     </url>
@@ -205,7 +277,7 @@
          <lastmod>2026-05-05</lastmod>
     </url>
     <url>
-         <loc>https://docs.kodular.io/components/google/firebase-database/</loc>
+         <loc>https://docs.kodular.io/components/google/firebase-realtime-database/</loc>
          <lastmod>2026-05-05</lastmod>
     </url>
     <url>
@@ -1002,6 +1074,10 @@
     </url>
     <url>
          <loc>https://docs.kodular.io/guides/component-examples/dynamic-cards/</loc>
+         <lastmod>2026-05-05</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.kodular.io/guides/component-examples/firebase-database-migration/</loc>
          <lastmod>2026-05-05</lastmod>
     </url>
     <url>
