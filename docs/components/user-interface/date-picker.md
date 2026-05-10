@@ -63,7 +63,7 @@ Allows you to set animation style. Valid (case-insensitive) values are: ChasingD
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Date%20Picker%22,%20%22name%22:%20%22Set%20Animation%20Style%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22style%22,%20%22position%22,%20%22size%22,%20%22color%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |style|<span class="chip chip-text">Text</span>|
 |position|<span class="chip chip-text">Text</span>|
@@ -77,7 +77,7 @@ Valid values for the month field are 1-12 and 1-31 for the day field.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Date%20Picker%22,%20%22name%22:%20%22Set%20Date%20To%20Display%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22year%22,%20%22month%22,%20%22day%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |year|<span class="chip chip-number">Number</span>|
 |month|<span class="chip chip-number">Number</span>|
@@ -89,7 +89,7 @@ Allows the user to set the date from the instant to be displayed when the date p
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Date%20Picker%22,%20%22name%22:%20%22Set%20Date%20To%20Display%20From%20Instant%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22instant%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |instant|<span class="chip chip-unknown">Instantintime</span>|
 
@@ -99,7 +99,7 @@ Place a blurred shadow of text underneath the text, drawn with the specified x, 
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Date%20Picker%22,%20%22name%22:%20%22Set%20Shadow%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22x%22,%20%22y%22,%20%22radius%22,%20%22color%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |x|<span class="chip chip-number">Number</span>|
 |y|<span class="chip chip-number">Number</span>|
@@ -112,7 +112,7 @@ Show an image on the given position near to the button. You can use following wo
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Date%20Picker%22,%20%22name%22:%20%22With%20Icon%20From%20Font%20Awesome%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22position%22,%20%22icon%20Name%22,%20%22icon%20Color%22,%20%22padding%22,%20%22size%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |position|<span class="chip chip-text">Text</span>|
 |icon Name|<span class="chip chip-text">Text</span>|
@@ -126,7 +126,7 @@ Show an image on the given position near to the button. You can use following wo
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Date%20Picker%22,%20%22name%22:%20%22With%20Icon%20From%20Material%20Font%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22position%22,%20%22icon%20Name%22,%20%22icon%20Color%22,%20%22padding%22,%20%22size%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |position|<span class="chip chip-text">Text</span>|
 |icon Name|<span class="chip chip-text">Text</span>|
@@ -140,7 +140,7 @@ Show an image on the given position near to the button. You can use following wo
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Date%20Picker%22,%20%22name%22:%20%22With%20Icon%20From%20Picture%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22position%22,%20%22picture%22,%20%22padding%22,%20%22width%22,%20%22height%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |position|<span class="chip chip-text">Text</span>|
 |picture|<span class="chip chip-text">Text</span>|

@@ -74,7 +74,7 @@ Keep the EV3 brick from shutdown for a period of time.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Commands%22,%20%22name%22:%20%22Keep%20Alive%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22minutes%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |minutes|<span class="chip chip-number">Number</span>|
 

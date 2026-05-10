@@ -22,7 +22,7 @@ Fired when any operation fails
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Supabase%20Storage%22,%20%22name%22:%20%22Error%20Occurred%22,%20%22param%22:%20%5B%22operation%22,%20%22status%20Code%22,%20%22message%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |operation|<span class="chip chip-text">Text</span>|
 |status Code|<span class="chip chip-number">Number</span>|
@@ -34,7 +34,7 @@ Fired when a file is deleted successfully
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Supabase%20Storage%22,%20%22name%22:%20%22File%20Deleted%22,%20%22param%22:%20%5B%22path%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |path|<span class="chip chip-text">Text</span>|
 
@@ -44,7 +44,7 @@ Fired when a file download completes successfully
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Supabase%20Storage%22,%20%22name%22:%20%22File%20Downloaded%22,%20%22param%22:%20%5B%22path%22,%20%22local%20Path%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |path|<span class="chip chip-text">Text</span>|
 |local Path|<span class="chip chip-text">Text</span>|
@@ -55,7 +55,7 @@ Fired when a file upload completes successfully
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Supabase%20Storage%22,%20%22name%22:%20%22File%20Uploaded%22,%20%22param%22:%20%5B%22path%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |path|<span class="chip chip-text">Text</span>|
 
@@ -65,7 +65,7 @@ Fired when a file listing is retrieved
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Supabase%20Storage%22,%20%22name%22:%20%22Got%20File%20List%22,%20%22param%22:%20%5B%22files%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |files|<span class="chip chip-list">List</span>|
 
@@ -75,7 +75,7 @@ Fired when a signed URL is created
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Supabase%20Storage%22,%20%22name%22:%20%22Got%20Signed%20URL%22,%20%22param%22:%20%5B%22url%22,%20%22path%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |url|<span class="chip chip-text">Text</span>|
 |path|<span class="chip chip-text">Text</span>|
@@ -88,7 +88,7 @@ Create a time-limited signed URL for a private file
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Supabase%20Storage%22,%20%22name%22:%20%22Create%20Signed%20URL%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22path%22,%20%22expires%20In%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |path|<span class="chip chip-text">Text</span>|
 |expires In|<span class="chip chip-number">Number</span>|
@@ -99,7 +99,7 @@ Delete a file from Supabase Storage
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Supabase%20Storage%22,%20%22name%22:%20%22Delete%20File%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22path%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |path|<span class="chip chip-text">Text</span>|
 
@@ -109,7 +109,7 @@ Download a file from Supabase Storage and save it locally
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Supabase%20Storage%22,%20%22name%22:%20%22Download%20File%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22path%22,%20%22save%20To%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |path|<span class="chip chip-text">Text</span>|
 |save To|<span class="chip chip-text">Text</span>|
@@ -122,7 +122,7 @@ Get the public URL for a file. This is synchronous (no network call).
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Supabase%20Storage%22,%20%22name%22:%20%22Get%20Public%20URL%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22path%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |path|<span class="chip chip-text">Text</span>|
 
@@ -132,7 +132,7 @@ List files in the bucket with an optional path prefix
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Supabase%20Storage%22,%20%22name%22:%20%22List%20Files%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22prefix%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |prefix|<span class="chip chip-text">Text</span>|
 
@@ -142,7 +142,7 @@ Upload a file to Supabase Storage. Creates or overwrites the file. Accepts plain
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Supabase%20Storage%22,%20%22name%22:%20%22Upload%20File%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22path%22,%20%22file%20Path%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |path|<span class="chip chip-text">Text</span>|
 |file Path|<span class="chip chip-text">Text</span>|

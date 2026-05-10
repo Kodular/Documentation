@@ -38,7 +38,7 @@ Event raised when an ad could not be loaded.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Unity%20Banner%20Ad%22,%20%22name%22:%20%22Failed%20To%20Load%22,%20%22param%22:%20%5B%22error%20Message%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |error Message|<span class="chip chip-text">Text</span>|
 
@@ -63,12 +63,18 @@ Sets the ad unit ID (placement ID) for banner ads.
 
 ### Banner Size
 
-<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-unknown">Com.google.appinventor.components.common.unitybanneradsizeenum</span> <span class="chip chip-unknown">Default: <i>standard</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span> <span class="chip chip-enum">UnityBannerAdSize</span> <span class="chip chip-text">Default: <i>standard</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
 
 Sets the banner size. Options: standard (320x50), large (320x90), rectangle (300x250).
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Unity%20Banner%20Ad%22,%20%22name%22:%20%22Banner%20Size%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Unity%20Banner%20Ad%22,%20%22name%22:%20%22Banner%20Size%22,%20%22getter%22:%20false%7D"></div>
+
+| Option | Value |
+|--------|------|
+|Standard|standard|
+|Large|large|
+|Rectangle|rectangle|
 
 ### Test Mode
 

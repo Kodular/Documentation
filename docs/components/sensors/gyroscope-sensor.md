@@ -20,7 +20,7 @@ Indicates that the gyroscope sensor data has changed. The timestamp parameter is
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Gyroscope%20Sensor%22,%20%22name%22:%20%22Gyroscope%20Changed%22,%20%22param%22:%20%5B%22x%20Angular%20Velocity%22,%20%22y%20Angular%20Velocity%22,%20%22z%20Angular%20Velocity%22,%20%22timestamp%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |x Angular Velocity|<span class="chip chip-number">Number</span>|
 |y Angular Velocity|<span class="chip chip-number">Number</span>|

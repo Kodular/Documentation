@@ -19,7 +19,7 @@ Triggers after an item from this component has been selected
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Grid%20View%22,%20%22name%22:%20%22After%20Picking%22,%20%22param%22:%20%5B%22item%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |item|<span class="chip chip-text">Text</span>|
 

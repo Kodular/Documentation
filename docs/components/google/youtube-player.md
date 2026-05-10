@@ -20,7 +20,7 @@ Called periodically by the player, the argument is the number of seconds that ha
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Youtube%20Player%22,%20%22name%22:%20%22Current%20Second%20Changed%22,%20%22param%22:%20%5B%22second%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |second|<span class="chip chip-number">Number</span>|
 
@@ -30,7 +30,7 @@ Use this event to detect that there was any error with the player. Return values
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Youtube%20Player%22,%20%22name%22:%20%22Error%22,%20%22param%22:%20%5B%22error%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |error|<span class="chip chip-text">Text</span>|
 
@@ -40,7 +40,7 @@ Event to get notified when the player enters or exits fullscreen. The variable '
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Youtube%20Player%22,%20%22name%22:%20%22Fullscreen%22,%20%22param%22:%20%5B%22fullscreen%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |fullscreen|<span class="chip chip-boolean">Boolean</span>|
 
@@ -56,7 +56,7 @@ Called periodically by the player, the argument is the percentage of the video t
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Youtube%20Player%22,%20%22name%22:%20%22Loaded%20Fraction%20Changed%22,%20%22param%22:%20%5B%22loaded%20Fraction%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |loaded Fraction|<span class="chip chip-number">Number</span>|
 
@@ -66,7 +66,7 @@ Use this event to detect that the playback quality was changed. Return values: '
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Youtube%20Player%22,%20%22name%22:%20%22Playback%20Quality%20Changed%22,%20%22param%22:%20%5B%22quality%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |quality|<span class="chip chip-text">Text</span>|
 
@@ -76,7 +76,7 @@ Use this event to detect that the playback rate was changed. Return values: 'UNK
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Youtube%20Player%22,%20%22name%22:%20%22Playback%20Rate%20Changed%22,%20%22param%22:%20%5B%22rate%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |rate|<span class="chip chip-text">Text</span>|
 
@@ -86,7 +86,7 @@ Use this event to detect that the state changes. Return values: 'UNKNOWN', 'UNST
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Youtube%20Player%22,%20%22name%22:%20%22State%20Changed%22,%20%22param%22:%20%5B%22state%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |state|<span class="chip chip-text">Text</span>|
 
@@ -116,7 +116,7 @@ This block will return the thumbnail image path from a video id. Use only as exa
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Youtube%20Player%22,%20%22name%22:%20%22Get%20Thumbnail%20From%20Video%20Id%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22video%20Id%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |video Id|<span class="chip chip-text">Text</span>|
 
@@ -126,7 +126,7 @@ Use this block together with the 'Youtube Player' Initialized event. Loads and a
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Youtube%20Player%22,%20%22name%22:%20%22Instant%20Load%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22video%20Id%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |video Id|<span class="chip chip-text">Text</span>|
 
@@ -136,7 +136,7 @@ Loads the specified video's thumbnail and prepares the player to play the video.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Youtube%20Player%22,%20%22name%22:%20%22Load%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22video%20Id%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |video Id|<span class="chip chip-text">Text</span>|
 
@@ -158,7 +158,7 @@ Set a position where the youtube video should start playing in seconds.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Youtube%20Player%22,%20%22name%22:%20%22Seek%20To%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22position%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |position|<span class="chip chip-number">Number</span>|
 

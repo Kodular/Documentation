@@ -35,7 +35,7 @@ Cancel a Notification with an id
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Notification%22,%20%22name%22:%20%22Cancel%20Notification%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22id%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |id|<span class="chip chip-number">Number</span>|
 
@@ -45,7 +45,7 @@ Set the accent color for Android Car devices
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Notification%22,%20%22name%22:%20%22Notification%20Builder%20Android%20Car%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22accent%20Color%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |accent Color|<span class="chip chip-number">Number</span>|
 
@@ -55,7 +55,7 @@ Set the background image for Android Wear devices
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Notification%22,%20%22name%22:%20%22Notification%20Builder%20Android%20Wear%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22background%20Image%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |background Image|<span class="chip chip-text">Text</span>|
 
@@ -65,7 +65,7 @@ Set whether the notification should me removed after the user clicks on it.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Notification%22,%20%22name%22:%20%22Notification%20Builder%20Auto%20Cancel%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22auto%20Cancel%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |auto Cancel|<span class="chip chip-boolean">Boolean</span>|
 
@@ -75,7 +75,7 @@ Set the big picture for the notification
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Notification%22,%20%22name%22:%20%22Notification%20Builder%20Big%20Picture%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22big%20Picture%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |big Picture|<span class="chip chip-text">Text</span>|
 
@@ -85,7 +85,7 @@ Set the notification id.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Notification%22,%20%22name%22:%20%22Notification%20Builder%20Notification%20ID%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22id%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |id|<span class="chip chip-number">Number</span>|
 
@@ -95,7 +95,7 @@ Set the notification builder priority. 1 = "Default", 2 = "high", 3 = "low", 4 =
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Notification%22,%20%22name%22:%20%22Notification%20Builder%20Priority%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22priority%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |priority|<span class="chip chip-number">Number</span>|
 
@@ -111,7 +111,7 @@ Start building a new notification
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Notification%22,%20%22name%22:%20%22Notification%20Builder%20Start%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22title%22,%20%22message%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |title|<span class="chip chip-text">Text</span>|
 |message|<span class="chip chip-text">Text</span>|
@@ -122,7 +122,7 @@ Set the start value of the notification.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Notification%22,%20%22name%22:%20%22Notification%20Builder%20Start%20Value%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22start%20Value%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |start Value|<span class="chip chip-text">Text</span>|
 
@@ -132,7 +132,7 @@ Set the notification builder visibility. 1 = "public", 2 = "private", 3 = "secre
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Notification%22,%20%22name%22:%20%22Notification%20Builder%20Visibility%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22visibility%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |visibility|<span class="chip chip-number">Number</span>|
 
@@ -142,7 +142,7 @@ Send a advanced notification (Android Wear Support)
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Notification%22,%20%22name%22:%20%22Send%20Advanced%20Notification%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22id%22,%20%22title%22,%20%22message%22,%20%22start%20Value%22,%20%22time%20On%22,%20%22time%20Off%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |id|<span class="chip chip-number">Number</span>|
 |title|<span class="chip chip-text">Text</span>|
@@ -157,7 +157,7 @@ Send a notification
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Notification%22,%20%22name%22:%20%22Send%20Notification%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22title%22,%20%22message%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |title|<span class="chip chip-text">Text</span>|
 |message|<span class="chip chip-text">Text</span>|

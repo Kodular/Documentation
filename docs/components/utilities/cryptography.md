@@ -20,7 +20,7 @@ Decodes the given hash using the given key through AES-128. If any exception occ
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Cryptography%22,%20%22name%22:%20%22AES-128%20Decode%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22AES-128%20Hash%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |AES-128 Hash|<span class="chip chip-text">Text</span>|
 
@@ -32,7 +32,7 @@ Encodes the given string using the given key through AES-128. If any exception o
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Cryptography%22,%20%22name%22:%20%22AES-128%20Encode%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22input%20Text%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |input Text|<span class="chip chip-text">Text</span>|
 
@@ -44,7 +44,7 @@ Decodes the given hash using the given key through AES-256. If there are any exc
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Cryptography%22,%20%22name%22:%20%22AES-256%20Decode%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22AES-256%20Hash%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |AES-256 Hash|<span class="chip chip-text">Text</span>|
 
@@ -56,7 +56,7 @@ Encodes the given string using the given key through AES-256. If there are any e
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Cryptography%22,%20%22name%22:%20%22AES-256%20Encode%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22input%20Text%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |input Text|<span class="chip chip-text">Text</span>|
 
@@ -68,7 +68,7 @@ Decodes the given hash using Base64
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Cryptography%22,%20%22name%22:%20%22Base64%20Decode%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22base64%20Hash%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |base64 Hash|<span class="chip chip-text">Text</span>|
 
@@ -80,7 +80,7 @@ Encodes the given string using Base64
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Cryptography%22,%20%22name%22:%20%22Base64%20Encode%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22input%20Text%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |input Text|<span class="chip chip-text">Text</span>|
 
@@ -92,7 +92,7 @@ Generates a hash using BCrypt
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Cryptography%22,%20%22name%22:%20%22BCrypt%20Create%20Hash%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22input%20Text%22,%20%22salt%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |input Text|<span class="chip chip-text">Text</span>|
 |salt|<span class="chip chip-text">Text</span>|
@@ -113,7 +113,7 @@ Verifies if the input password is the same one as the correct hashed password us
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Cryptography%22,%20%22name%22:%20%22BCrypt%20Validate%20Password%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22input%20Text%22,%20%22correct%20Hash%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |input Text|<span class="chip chip-text">Text</span>|
 |correct Hash|<span class="chip chip-text">Text</span>|
@@ -126,7 +126,7 @@ Encrypts or decrypts the given string simulating an Enigma machine. Rotors can g
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Cryptography%22,%20%22name%22:%20%22Enigma%20Parser%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22input%20Text%22,%20%22rotor%201%22,%20%22rotor%202%22,%20%22rotor%203%22,%20%22reflector%22,%20%22plugboard%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |input Text|<span class="chip chip-text">Text</span>|
 |rotor 1|<span class="chip chip-number">Number</span>|
@@ -159,7 +159,7 @@ Generates a MD5 hash
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Cryptography%22,%20%22name%22:%20%22MD5%20Create%20Hash%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22input%20Text%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |input Text|<span class="chip chip-text">Text</span>|
 
@@ -171,7 +171,7 @@ Generates a hash using PBKDF2
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Cryptography%22,%20%22name%22:%20%22PBKDF2%20Create%20Hash%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22input%20Text%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |input Text|<span class="chip chip-text">Text</span>|
 
@@ -183,7 +183,7 @@ Verifies if the input password is the same one as the correct hashed password us
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Cryptography%22,%20%22name%22:%20%22PBKDF2%20Validate%20Hash%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22input%20Text%22,%20%22correct%20Hash%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |input Text|<span class="chip chip-text">Text</span>|
 |correct Hash|<span class="chip chip-text">Text</span>|
@@ -196,7 +196,7 @@ Generates a hashed SHA-1 string
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Cryptography%22,%20%22name%22:%20%22SHA-1%20Generate%20Hash%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22input%20Text%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |input Text|<span class="chip chip-text">Text</span>|
 
@@ -208,7 +208,7 @@ Generates a hashed SHA-224 string
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Cryptography%22,%20%22name%22:%20%22SHA-224%20Generate%20Hash%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22input%20Text%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |input Text|<span class="chip chip-text">Text</span>|
 
@@ -220,7 +220,7 @@ Generates a hashed SHA-256 string
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Cryptography%22,%20%22name%22:%20%22SHA-256%20Generate%20Hash%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22input%20Text%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |input Text|<span class="chip chip-text">Text</span>|
 
@@ -232,7 +232,7 @@ Generates a hashed SHA-384 string
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Cryptography%22,%20%22name%22:%20%22SHA-384%20Generate%20Hash%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22input%20Text%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |input Text|<span class="chip chip-text">Text</span>|
 
@@ -244,7 +244,7 @@ Generates a hashed SHA-512 string
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Cryptography%22,%20%22name%22:%20%22SHA-512%20Generate%20Hash%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22input%20Text%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |input Text|<span class="chip chip-text">Text</span>|
 
@@ -256,7 +256,7 @@ Decodes the given hash using the given key through TripleDES
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Cryptography%22,%20%22name%22:%20%22TripleDES%20Decode%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22tripleDES%20Hash%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |tripleDES Hash|<span class="chip chip-text">Text</span>|
 
@@ -268,7 +268,7 @@ Encodes the given string using the given key through TripleDES
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Cryptography%22,%20%22name%22:%20%22TripleDES%20Encode%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22input%20Text%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |input Text|<span class="chip chip-text">Text</span>|
 

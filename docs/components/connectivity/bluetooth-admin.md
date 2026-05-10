@@ -24,7 +24,7 @@ Event triggers when Pairing has finished.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Bluetooth%20Admin%22,%20%22name%22:%20%22After%20Pairing%22,%20%22param%22:%20%5B%22address%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |address|<span class="chip chip-text">Text</span>|
 
@@ -34,7 +34,7 @@ Event triggers when Scanning has finished.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Bluetooth%20Admin%22,%20%22name%22:%20%22After%20Scanning%22,%20%22param%22:%20%5B%22paired%20Devices%22,%20%22new%20Devices%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |paired Devices|<span class="chip chip-any">Any</span>|
 |new Devices|<span class="chip chip-any">Any</span>|
@@ -45,7 +45,7 @@ Event triggers when Unpairing has finished.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Bluetooth%20Admin%22,%20%22name%22:%20%22After%20Unpairing%22,%20%22param%22:%20%5B%22address%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |address|<span class="chip chip-text">Text</span>|
 
@@ -55,7 +55,7 @@ Event triggers when an error occurred.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Bluetooth%20Admin%22,%20%22name%22:%20%22Error%20Occurred%22,%20%22param%22:%20%5B%22message%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |message|<span class="chip chip-text">Text</span>|
 
@@ -65,7 +65,7 @@ Event triggers when the bluetooth state changed.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Bluetooth%20Admin%22,%20%22name%22:%20%22State%20Changed%22,%20%22param%22:%20%5B%22state%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |state|<span class="chip chip-text">Text</span>|
 
@@ -105,7 +105,7 @@ Pair Bluetooth device.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Bluetooth%20Admin%22,%20%22name%22:%20%22Pair%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22address%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |address|<span class="chip chip-text">Text</span>|
 
@@ -143,7 +143,7 @@ Unpair Bluetooth device.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Bluetooth%20Admin%22,%20%22name%22:%20%22Unpairing%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22address%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |address|<span class="chip chip-text">Text</span>|
 
@@ -155,7 +155,7 @@ Returns true if the MacAddress is valid.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Bluetooth%20Admin%22,%20%22name%22:%20%22Validate%20Mac%20Address%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22mac%20Address%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |mac Address|<span class="chip chip-text">Text</span>|
 

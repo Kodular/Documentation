@@ -23,7 +23,7 @@ This event returns the reason if a try to connect was not successful.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22FTP%22,%20%22name%22:%20%22Connect%20Error%22,%20%22param%22:%20%5B%22error%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |error|<span class="chip chip-text">Text</span>|
 
@@ -33,7 +33,7 @@ This event returns the status of the connection. If it is connect it will return
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22FTP%22,%20%22name%22:%20%22Connection%20Status%22,%20%22param%22:%20%5B%22is%20Connected%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |is Connected|<span class="chip chip-boolean">Boolean</span>|
 
@@ -43,7 +43,7 @@ This event returns the reason if a try to disconnect was not successful.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22FTP%22,%20%22name%22:%20%22Disconnect%20Error%22,%20%22param%22:%20%5B%22error%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |error|<span class="chip chip-text">Text</span>|
 
@@ -59,7 +59,7 @@ This event returns the reason if a download was not successful.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22FTP%22,%20%22name%22:%20%22Download%20error%22,%20%22param%22:%20%5B%22error%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |error|<span class="chip chip-text">Text</span>|
 
@@ -75,7 +75,7 @@ This event returns the reason if a upload was not successful.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22FTP%22,%20%22name%22:%20%22Upload%20error%22,%20%22param%22:%20%5B%22error%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |error|<span class="chip chip-text">Text</span>|
 
@@ -93,7 +93,7 @@ Delete a directory on the ftp server.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22FTP%22,%20%22name%22:%20%22Delete%20Dir%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22dir%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |dir|<span class="chip chip-text">Text</span>|
 
@@ -109,7 +109,7 @@ Start downloading a file.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22FTP%22,%20%22name%22:%20%22Download%20File%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22remote%20Filepath%22,%20%22destination%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |remote Filepath|<span class="chip chip-text">Text</span>|
 |destination|<span class="chip chip-text">Text</span>|
@@ -122,7 +122,7 @@ Get a list of files in a directory. Returns a empty list if a error occurs.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22FTP%22,%20%22name%22:%20%22Get%20List%20Of%20Files%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22dir%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |dir|<span class="chip chip-text">Text</span>|
 
@@ -132,7 +132,7 @@ Make/create a directory on the ftp server.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22FTP%22,%20%22name%22:%20%22make%20Dir%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22dir%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |dir|<span class="chip chip-text">Text</span>|
 
@@ -142,7 +142,7 @@ Start uploading a file.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22FTP%22,%20%22name%22:%20%22Upload%20File%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22file%20Path%22,%20%22new%20Name%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |file Path|<span class="chip chip-text">Text</span>|
 |new Name|<span class="chip chip-text">Text</span>|

@@ -26,7 +26,7 @@ This block is deprecated and will be removed soon. Use instead 'Get String From 
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Resource%20Utilities%22,%20%22name%22:%20%22Get%20String%20Content%20By%20Name%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22resource%20Name%22,%20%22if%20Resource%20Not%20Found%20Use%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |resource Name|<span class="chip chip-text">Text</span>|
 |if Resource Not Found Use|<span class="chip chip-text">Text</span>|
@@ -39,7 +39,7 @@ Get the text from a asset resource file. Make sure you uploaded a file at 'Resou
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Resource%20Utilities%22,%20%22name%22:%20%22Get%20String%20From%20Asset%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22resource%20Name%22,%20%22if%20Resource%20Not%20Found%20Use%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |resource Name|<span class="chip chip-text">Text</span>|
 |if Resource Not Found Use|<span class="chip chip-text">Text</span>|
@@ -52,7 +52,7 @@ Get the text from a path resource file. Make sure you added a file path at 'Reso
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Resource%20Utilities%22,%20%22name%22:%20%22Get%20String%20From%20Path%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22resource%20Name%22,%20%22if%20Resource%20Not%20Found%20Use%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |resource Name|<span class="chip chip-text">Text</span>|
 |if Resource Not Found Use|<span class="chip chip-text">Text</span>|

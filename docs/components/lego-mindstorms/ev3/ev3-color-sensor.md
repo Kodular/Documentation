@@ -30,7 +30,7 @@ Called when the detected color has changed. The ColorChanged event will occur if
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Color%20Sensor%22,%20%22name%22:%20%22Color%20Changed%22,%20%22param%22:%20%5B%22color%20Code%22,%20%22color%20Name%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |color Code|<span class="chip chip-number">Number</span>|
 |color Name|<span class="chip chip-text">Text</span>|
@@ -140,12 +140,18 @@ Whether the ColorChanged event should fire when the Mode property is set to "col
 
 ### Mode
 
-<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span> <span class="chip chip-text">Default: <i>reflected</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span> <span class="chip chip-enum">ColorSensorMode</span> <span class="chip chip-text">Default: <i>reflected</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
 
 Specifies the mode of the sensor.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Color%20Sensor%22,%20%22name%22:%20%22Mode%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Color%20Sensor%22,%20%22name%22:%20%22Mode%22,%20%22getter%22:%20false%7D"></div>
+
+| Option | Value |
+|--------|------|
+|Reflected|reflected|
+|Ambient|ambient|
+|Color|color|
 
 ### Sensor Port
 

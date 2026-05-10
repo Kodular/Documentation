@@ -37,7 +37,7 @@ Event raised when an error occurs. Only some errors will raise this condition. F
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Screen%22,%20%22name%22:%20%22Error%20Occurred%22,%20%22param%22:%20%5B%22component%22,%20%22function%20Name%22,%20%22error%20Number%22,%20%22message%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |component|<span class="chip chip-component">Component</span>|
 |function Name|<span class="chip chip-text">Text</span>|
@@ -50,7 +50,7 @@ Event to detect that a user shared content to your app throw the sharing dialog 
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Screen%22,%20%22name%22:%20%22Got%20Received%20Shared%22,%20%22param%22:%20%5B%22type%22,%20%22value%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |type|<span class="chip chip-number">Number</span>|
 |value|<span class="chip chip-text">Text</span>|
@@ -67,7 +67,7 @@ Event will be invoked if the keyboard was visible or invisible. Note: This will 
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Screen%22,%20%22name%22:%20%22Keyboard%20Visibility%20Changed%22,%20%22param%22:%20%5B%22is%20Keyboard%20Visible%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |is Keyboard Visible|<span class="chip chip-boolean">Boolean</span>|
 
@@ -83,7 +83,7 @@ Event to detect when a menu item has been selected.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Screen%22,%20%22name%22:%20%22Menu%20Item%20Selected%22,%20%22param%22:%20%5B%22menu%20Item%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |menu Item|<span class="chip chip-text">Text</span>|
 
@@ -111,7 +111,7 @@ Event raised when another screen has closed and control has returned to this scr
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Screen%22,%20%22name%22:%20%22Other%20Screen%20Closed%22,%20%22param%22:%20%5B%22other%20Screen%20Name%22,%20%22result%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |other Screen Name|<span class="chip chip-text">Text</span>|
 |result|<span class="chip chip-any">Any</span>|
@@ -122,11 +122,30 @@ Event to handle when the app user has denied a needed permission.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Screen%22,%20%22name%22:%20%22Permission%20Denied%22,%20%22param%22:%20%5B%22component%22,%20%22function%20Name%22,%20%22permission%20Name%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |component|<span class="chip chip-component">Component</span>|
 |function Name|<span class="chip chip-text">Text</span>|
-|permission Name|<span class="chip chip-text">Text</span>|
+|permission Name|<span class="chip chip-text">Text</span><br><span class="chip chip-enum">Permission</span>|
+
+| permission Name Option | Value |
+|--------|------|
+|CoarseLocation|ACCESS_COARSE_LOCATION|
+|FineLocation|ACCESS_FINE_LOCATION|
+|LocationExtraCommands|ACCESS_LOCATION_EXTRA_COMMANDS|
+|ReadExternalStorage|READ_EXTERNAL_STORAGE|
+|WriteExternalStorage|WRITE_EXTERNAL_STORAGE|
+|Camera|CAMERA|
+|Audio|RECORD_AUDIO|
+|GetAccounts|GET_ACCOUNTS|
+|ReadContacts|READ_CONTACTS|
+|BluetoothAdvertise|BLUETOOTH_ADVERTISE|
+|BluetoothConnect|BLUETOOTH_CONNECT|
+|BluetoothScan|BLUETOOTH_SCAN|
+|ReadMediaImages|READ_MEDIA_IMAGES|
+|ReadMediaVideo|READ_MEDIA_VIDEO|
+|ReadMediaAudio|READ_MEDIA_AUDIO|
+|PostNotifications|POST_NOTIFICATIONS|
 
 ### Permission Granted
 
@@ -134,9 +153,28 @@ Event to handle when the app user has granted a needed permission. This event is
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Screen%22,%20%22name%22:%20%22Permission%20Granted%22,%20%22param%22:%20%5B%22permission%20Name%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
-|permission Name|<span class="chip chip-text">Text</span>|
+|permission Name|<span class="chip chip-text">Text</span><br><span class="chip chip-enum">Permission</span>|
+
+| permission Name Option | Value |
+|--------|------|
+|CoarseLocation|ACCESS_COARSE_LOCATION|
+|FineLocation|ACCESS_FINE_LOCATION|
+|LocationExtraCommands|ACCESS_LOCATION_EXTRA_COMMANDS|
+|ReadExternalStorage|READ_EXTERNAL_STORAGE|
+|WriteExternalStorage|WRITE_EXTERNAL_STORAGE|
+|Camera|CAMERA|
+|Audio|RECORD_AUDIO|
+|GetAccounts|GET_ACCOUNTS|
+|ReadContacts|READ_CONTACTS|
+|BluetoothAdvertise|BLUETOOTH_ADVERTISE|
+|BluetoothConnect|BLUETOOTH_CONNECT|
+|BluetoothScan|BLUETOOTH_SCAN|
+|ReadMediaImages|READ_MEDIA_IMAGES|
+|ReadMediaVideo|READ_MEDIA_VIDEO|
+|ReadMediaAudio|READ_MEDIA_AUDIO|
+|PostNotifications|POST_NOTIFICATIONS|
 
 ### Screen Orientation Changed
 
@@ -168,7 +206,7 @@ The event returns the 'icon' or 'name' of the selected icon.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Screen%22,%20%22name%22:%20%22Title%20Bar%20Icon%20Selected%22,%20%22param%22:%20%5B%22icon%22,%20%22name%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |icon|<span class="chip chip-text">Text</span>|
 |name|<span class="chip chip-text">Text</span>|
@@ -181,7 +219,7 @@ Add a new item to the menu. Use the 'make a list' block.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Screen%22,%20%22name%22:%20%22Add%20Menu%20Item%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22menu%20Item%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |menu Item|<span class="chip chip-list">List</span>|
 
@@ -191,7 +229,7 @@ Add a new item with a icon on the left side to the menu. This function does not 
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Screen%22,%20%22name%22:%20%22Add%20Menu%20Item%20With%20Icon%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22menu%20Item%22,%20%22menu%20Icon%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |menu Item|<span class="chip chip-text">Text</span>|
 |menu Icon|<span class="chip chip-text">Text</span>|
@@ -202,7 +240,7 @@ Add a new action icon to the TitleBar. You will see a toast message on a long cl
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Screen%22,%20%22name%22:%20%22Add%20Title%20Bar%20Icon%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22icon%22,%20%22name%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |icon|<span class="chip chip-text">Text</span>|
 |name|<span class="chip chip-text">Text</span>|
@@ -221,9 +259,28 @@ Ask the user to grant access to a dangerous permission.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Screen%22,%20%22name%22:%20%22Ask%20For%20Permission%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22permission%20Name%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
-|permission Name|<span class="chip chip-text">Text</span>|
+|permission Name|<span class="chip chip-text">Text</span><br><span class="chip chip-enum">Permission</span>|
+
+| permission Name Option | Value |
+|--------|------|
+|CoarseLocation|ACCESS_COARSE_LOCATION|
+|FineLocation|ACCESS_FINE_LOCATION|
+|LocationExtraCommands|ACCESS_LOCATION_EXTRA_COMMANDS|
+|ReadExternalStorage|READ_EXTERNAL_STORAGE|
+|WriteExternalStorage|WRITE_EXTERNAL_STORAGE|
+|Camera|CAMERA|
+|Audio|RECORD_AUDIO|
+|GetAccounts|GET_ACCOUNTS|
+|ReadContacts|READ_CONTACTS|
+|BluetoothAdvertise|BLUETOOTH_ADVERTISE|
+|BluetoothConnect|BLUETOOTH_CONNECT|
+|BluetoothScan|BLUETOOTH_SCAN|
+|ReadMediaImages|READ_MEDIA_IMAGES|
+|ReadMediaVideo|READ_MEDIA_VIDEO|
+|ReadMediaAudio|READ_MEDIA_AUDIO|
+|PostNotifications|POST_NOTIFICATIONS|
 
 ### Can Write System Settings
 
@@ -299,7 +356,7 @@ Create a Side Menu. Set to "layout" your layout that will be then your side menu
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Screen%22,%20%22name%22:%20%22Side%20Menu%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22layout%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |layout|<span class="chip chip-component">Component</span>|
 
@@ -321,7 +378,7 @@ Sets information describing the task with this activity for presentation inside 
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Screen%22,%20%22name%22:%20%22Task%20Description%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22text%22,%20%22color%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |text|<span class="chip chip-text">Text</span>|
 |color|<span class="chip chip-number">Number</span>|
@@ -399,21 +456,33 @@ Property for ReceiveSharedText
 
 ### Align Horizontal
 
-<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>1</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> <span class="chip chip-enum">HorizontalAlignment</span> <span class="chip chip-number">Default: <i>1</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
 
 A number that encodes how contents of the screen are aligned horizontally. The choices are: 1 = left aligned, 3 = horizontally centered, 2 = right aligned.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Screen%22,%20%22name%22:%20%22Align%20Horizontal%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Screen%22,%20%22name%22:%20%22Align%20Horizontal%22,%20%22getter%22:%20false%7D"></div>
 
+| Option | Value |
+|--------|------|
+|Left|1|
+|Center|3|
+|Right|2|
+
 ### Align Vertical
 
-<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>1</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> <span class="chip chip-enum">VerticalAlignment</span> <span class="chip chip-number">Default: <i>1</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
 
 A number that encodes how the contents of the arrangement are aligned vertically. The choices are: 1 = aligned at the top, 2 = vertically centered, 3 = aligned at the bottom. Vertical alignment has no effect if the screen is scrollable.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Screen%22,%20%22name%22:%20%22Align%20Vertical%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Screen%22,%20%22name%22:%20%22Align%20Vertical%22,%20%22getter%22:%20false%7D"></div>
+
+| Option | Value |
+|--------|------|
+|Top|1|
+|Center|2|
+|Bottom|3|
 
 ### App ID
 
@@ -447,18 +516,36 @@ The screen background image.
 
 ### Close Screen Animation
 
-<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span> <span class="chip chip-text">Default: <i>default</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span> <span class="chip chip-enum">ScreenAnimation</span> <span class="chip chip-text">Default: <i>default</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
 
 The animation for closing current screen and returning to the previous screen. Valid options are default, fade, zoom, slidehorizontal, slidevertical, and none
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Screen%22,%20%22name%22:%20%22Close%20Screen%20Animation%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Screen%22,%20%22name%22:%20%22Close%20Screen%20Animation%22,%20%22getter%22:%20false%7D"></div>
 
+| Option | Value |
+|--------|------|
+|Default|default|
+|Fade|fade|
+|Zoom|zoom|
+|SlideHorizontal|slidehorizontal|
+|SlideVertical|slidevertical|
+|None|none|
+
 ### Default File Scope
 
-<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-unknown">Com.google.appinventor.components.common.filescopeenum</span> <span class="chip chip-unknown">Default: <i>App</i></span> :heavy_minus_sign: <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span></span>
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span> <span class="chip chip-enum">FileScope</span> <span class="chip chip-text">Default: <i>App</i></span> :heavy_minus_sign: <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span></span>
 
 Specifies the default scope used when components access files. Note that the
+
+| Option | Value |
+|--------|------|
+|App|App|
+|Asset|Asset|
+|Cache|Cache|
+|Legacy|Legacy|
+|Private|Private|
+|Shared|Shared|
 
 ### Drawer Arrow Icon Color
 
@@ -586,12 +673,21 @@ Property for OneSignalAppId
 
 ### Open Screen Animation
 
-<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span> <span class="chip chip-text">Default: <i>default</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span> <span class="chip chip-enum">ScreenAnimation</span> <span class="chip chip-text">Default: <i>default</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
 
 The animation for switching to another screen. Valid options are default, fade, zoom, slidehorizontal, slidevertical, and none
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Screen%22,%20%22name%22:%20%22Open%20Screen%20Animation%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Screen%22,%20%22name%22:%20%22Open%20Screen%20Animation%22,%20%22getter%22:%20false%7D"></div>
+
+| Option | Value |
+|--------|------|
+|Default|default|
+|Fade|fade|
+|Zoom|zoom|
+|SlideHorizontal|slidehorizontal|
+|SlideVertical|slidevertical|
+|None|none|
 
 ### Options Menu Icon Color
 
@@ -632,12 +728,27 @@ Property for RTLSupport
 
 ### Screen Orientation
 
-<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span> <span class="chip chip-text">Default: <i>unspecified</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span> <span class="chip chip-enum">ScreenOrientation</span> <span class="chip chip-text">Default: <i>unspecified</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
 
 The requested screen orientation, specified as a text value. Commonly used values are landscape, portrait, sensor, user and unspecified. See the Android developer documentation for ActivityInfo.Screen_Orientation for the complete list of possible settings.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Screen%22,%20%22name%22:%20%22Screen%20Orientation%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Screen%22,%20%22name%22:%20%22Screen%20Orientation%22,%20%22getter%22:%20false%7D"></div>
+
+| Option | Value |
+|--------|------|
+|Unspecified|unspecified|
+|Landscape|landscape|
+|Portrait|portrait|
+|Sensor|sensor|
+|User|user|
+|Behind|behind|
+|NoSensor|nosensor|
+|FullSensor|fullSensor|
+|ReverseLandscape|reverseLandscape|
+|ReversePortrait|reversePortrait|
+|SensorLandscape|sensorLandscape|
+|SensorPortrait|sensorPortrait|
 
 ### Scrollable
 

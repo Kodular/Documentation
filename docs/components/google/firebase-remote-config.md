@@ -47,7 +47,7 @@ Gets a boolean value corresponding to the specified key
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Firebase%20Remote%20Config%22,%20%22name%22:%20%22Get%20Boolean%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22key%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |key|<span class="chip chip-text">Text</span>|
 
@@ -59,7 +59,7 @@ Gets a number value corresponding to the specified key
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Firebase%20Remote%20Config%22,%20%22name%22:%20%22Get%20Number%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22key%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |key|<span class="chip chip-text">Text</span>|
 
@@ -71,7 +71,7 @@ Gets a text value corresponding to the specified key
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Firebase%20Remote%20Config%22,%20%22name%22:%20%22Get%20Text%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22key%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |key|<span class="chip chip-text">Text</span>|
 

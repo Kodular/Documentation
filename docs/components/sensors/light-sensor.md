@@ -18,7 +18,7 @@ Event that fires when the illuminance is changed
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Light%20Sensor%22,%20%22name%22:%20%22Light%20Changed%22,%20%22param%22:%20%5B%22illuminance%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |illuminance|<span class="chip chip-number">Number</span>|
 

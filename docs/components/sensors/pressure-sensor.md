@@ -18,7 +18,7 @@ Event is invoked when pressure is changed.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Pressure%20Sensor%22,%20%22name%22:%20%22Pressure%20Changed%22,%20%22param%22:%20%5B%22pressure%22,%20%22altitude%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |pressure|<span class="chip chip-number">Number</span>|
 |altitude|<span class="chip chip-number">Number</span>|

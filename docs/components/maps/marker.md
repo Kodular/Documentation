@@ -50,7 +50,7 @@ Returns the bearing from the Marker to the given map feature, in degrees from du
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Marker%22,%20%22name%22:%20%22Bearing%20To%20Feature%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22map%20Feature%22,%20%22centroids%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |map Feature|<span class="chip chip-component">Component</span>|
 |centroids|<span class="chip chip-boolean">Boolean</span>|
@@ -63,7 +63,7 @@ Returns the bearing from the Marker to the given latitude and longitude, in degr
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Marker%22,%20%22name%22:%20%22Bearing%20To%20Point%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22latitude%22,%20%22longitude%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |latitude|<span class="chip chip-number">Number</span>|
 |longitude|<span class="chip chip-number">Number</span>|
@@ -76,7 +76,7 @@ Compute the distance, in meters, between two map features.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Marker%22,%20%22name%22:%20%22Distance%20To%20Feature%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22map%20Feature%22,%20%22centroids%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |map Feature|<span class="chip chip-component">Component</span>|
 |centroids|<span class="chip chip-boolean">Boolean</span>|
@@ -89,7 +89,7 @@ Compute the distance, in meters, between a map feature and a latitude, longitude
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Marker%22,%20%22name%22:%20%22Distance%20To%20Point%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22latitude%22,%20%22longitude%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |latitude|<span class="chip chip-number">Number</span>|
 |longitude|<span class="chip chip-number">Number</span>|
@@ -106,7 +106,7 @@ Set the location of the marker.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Marker%22,%20%22name%22:%20%22Set%20Location%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22latitude%22,%20%22longitude%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |latitude|<span class="chip chip-number">Number</span>|
 |longitude|<span class="chip chip-number">Number</span>|
@@ -121,21 +121,33 @@ Show the infobox for the feature. This will show the infobox even if
 
 ### Anchor Horizontal
 
-<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>3</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> <span class="chip chip-enum">HorizontalAlignment</span> <span class="chip chip-number">Default: <i>3</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
 
 The horizontal alignment property controls where the Marker's anchor is located relative to its width. The choices are: 1 = left aligned, 3 = horizontally centered, 2 = right aligned.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Marker%22,%20%22name%22:%20%22Anchor%20Horizontal%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Marker%22,%20%22name%22:%20%22Anchor%20Horizontal%22,%20%22getter%22:%20false%7D"></div>
 
+| Option | Value |
+|--------|------|
+|Left|1|
+|Center|3|
+|Right|2|
+
 ### Anchor Vertical
 
-<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>3</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> <span class="chip chip-enum">VerticalAlignment</span> <span class="chip chip-number">Default: <i>3</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
 
 The vertical alignment property controls where the Marker's anchor is located relative to its height. The choices are: 1 = aligned at the top, 2 = vertically centered, 3 = aligned at the bottom.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Marker%22,%20%22name%22:%20%22Anchor%20Vertical%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Marker%22,%20%22name%22:%20%22Anchor%20Vertical%22,%20%22getter%22:%20false%7D"></div>
+
+| Option | Value |
+|--------|------|
+|Top|1|
+|Center|2|
+|Bottom|3|
 
 ### Description
 

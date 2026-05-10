@@ -22,7 +22,7 @@ After purchase event.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22In%20App%20Billing%22,%20%22name%22:%20%22After%20Purchase%22,%20%22param%22:%20%5B%22product%20Id%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |product Id|<span class="chip chip-text">Text</span>|
 
@@ -32,7 +32,7 @@ When product is consumed.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22In%20App%20Billing%22,%20%22name%22:%20%22Consumed%22,%20%22param%22:%20%5B%22success%22,%20%22product%20Id%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |success|<span class="chip chip-boolean">Boolean</span>|
 |product Id|<span class="chip chip-text">Text</span>|
@@ -43,7 +43,7 @@ Error occurred event.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22In%20App%20Billing%22,%20%22name%22:%20%22Error%20Occurred%22,%20%22param%22:%20%5B%22message%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |message|<span class="chip chip-text">Text</span>|
 
@@ -53,7 +53,7 @@ Got Owned Purchases
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22In%20App%20Billing%22,%20%22name%22:%20%22Got%20Owned%20Purchases%22,%20%22param%22:%20%5B%22owned%20Products%22,%20%22owned%20Subscriptions%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |owned Products|<span class="chip chip-list">List</span>|
 |owned Subscriptions|<span class="chip chip-list">List</span>|
@@ -64,7 +64,7 @@ Got Product Details
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22In%20App%20Billing%22,%20%22name%22:%20%22Got%20Product%20Details%22,%20%22param%22:%20%5B%22success%22,%20%22product%20Id%22,%20%22title%22,%20%22description%22,%20%22currency%22,%20%22price%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |success|<span class="chip chip-boolean">Boolean</span>|
 |product Id|<span class="chip chip-text">Text</span>|
@@ -79,7 +79,7 @@ Triggers with the result of IsPurchased
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22In%20App%20Billing%22,%20%22name%22:%20%22Got%20Purchases%20Result%22,%20%22param%22:%20%5B%22product%20Id%22,%20%22product%20Type%22,%20%22is%20Purchased%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |product Id|<span class="chip chip-text">Text</span>|
 |product Type|<span class="chip chip-text">Text</span>|
@@ -91,7 +91,7 @@ Got Subscription Details
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22In%20App%20Billing%22,%20%22name%22:%20%22Got%20Subscription%20Details%22,%20%22param%22:%20%5B%22success%22,%20%22is%20Subscription%22,%20%22subscription%20Id%22,%20%22title%22,%20%22description%22,%20%22currency%22,%20%22price%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |success|<span class="chip chip-boolean">Boolean</span>|
 |is Subscription|<span class="chip chip-boolean">Boolean</span>|
@@ -109,7 +109,7 @@ Method for CheckPurchase
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22In%20App%20Billing%22,%20%22name%22:%20%22Check%20Purchase%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22product%20Id%22,%20%22product%20Type%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |product Id|<span class="chip chip-text">Text</span>|
 |product Type|<span class="chip chip-text">Text</span>|
@@ -120,7 +120,7 @@ Consumes a purchase to enable users to buy it again.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22In%20App%20Billing%22,%20%22name%22:%20%22Consume%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22sku%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |sku|<span class="chip chip-text">Text</span>|
 
@@ -132,7 +132,7 @@ Do not use this block anymore. This block is deprecated and does nothing and wil
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22In%20App%20Billing%22,%20%22name%22:%20%22Initialize%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22license%20Key%22,%20%22merchant%20Id%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |license Key|<span class="chip chip-text">Text</span>|
 |merchant Id|<span class="chip chip-text">Text</span>|
@@ -147,7 +147,7 @@ Returns true if the product with the specific id is purchased.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22In%20App%20Billing%22,%20%22name%22:%20%22Is%20Purchased%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22product%20Id%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |product Id|<span class="chip chip-text">Text</span>|
 
@@ -161,7 +161,7 @@ Returns true if the product is subscribed.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22In%20App%20Billing%22,%20%22name%22:%20%22Is%20Subscribed%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22subscription%20Id%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |subscription Id|<span class="chip chip-text">Text</span>|
 
@@ -177,7 +177,7 @@ Get product details from the specific product id. Product type can be either ina
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22In%20App%20Billing%22,%20%22name%22:%20%22Product%20Details%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22product%20Id%22,%20%22product%20Type%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |product Id|<span class="chip chip-text">Text</span>|
 |product Type|<span class="chip chip-text">Text</span>|
@@ -188,7 +188,7 @@ Purchase a product with the given product id.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22In%20App%20Billing%22,%20%22name%22:%20%22Purchase%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22product%20Id%22,%20%22product%20Type%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |product Id|<span class="chip chip-text">Text</span>|
 |product Type|<span class="chip chip-text">Text</span>|
@@ -201,7 +201,7 @@ Subscribe a product with the given product id.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22In%20App%20Billing%22,%20%22name%22:%20%22Subscribe%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22subscription%20Id%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |subscription Id|<span class="chip chip-text">Text</span>|
 
@@ -213,7 +213,7 @@ Get subscription details from the given id.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22In%20App%20Billing%22,%20%22name%22:%20%22Subscription%20Details%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22subscription%20Id%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |subscription Id|<span class="chip chip-text">Text</span>|
 
@@ -225,7 +225,7 @@ Do not use this block anymore. This block is deprecated and does nothing and wil
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22In%20App%20Billing%22,%20%22name%22:%20%22Update%20Subscription%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22subscription%20Id%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |subscription Id|<span class="chip chip-text">Text</span>|
 

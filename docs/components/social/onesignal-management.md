@@ -22,7 +22,7 @@ Called when an error occurs.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22OneSignal%20Management%22,%20%22name%22:%20%22Error%20Occurred%22,%20%22param%22:%20%5B%22message%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |message|<span class="chip chip-text">Text</span>|
 
@@ -34,7 +34,7 @@ Adds a new alias. Aliases are alternative identifiers (like usernames or CRM IDs
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22OneSignal%20Management%22,%20%22name%22:%20%22Add%20Alias%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22label%22,%20%22id%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |label|<span class="chip chip-text">Text</span>|
 |id|<span class="chip chip-text">Text</span>|
@@ -45,7 +45,7 @@ Adds an email Subscription (email address) to the current user. Call AddEmail af
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22OneSignal%20Management%22,%20%22name%22:%20%22Add%20Email%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22email%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |email|<span class="chip chip-text">Text</span>|
 
@@ -55,7 +55,7 @@ Adds an outcome with the provided name, captured against the current session. An
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22OneSignal%20Management%22,%20%22name%22:%20%22Add%20Outcome%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22outcome%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |outcome|<span class="chip chip-text">Text</span>|
 
@@ -65,7 +65,7 @@ Adds an outcome with the provided name and value (number) captured against the c
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22OneSignal%20Management%22,%20%22name%22:%20%22Add%20Outcome%20With%20Value%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22outcome%22,%20%22value%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |outcome|<span class="chip chip-text">Text</span>|
 |value|<span class="chip chip-number">Number</span>|
@@ -76,7 +76,7 @@ Adds an SMS Subscription (phone number) to the current user. Requires E.164 form
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22OneSignal%20Management%22,%20%22name%22:%20%22Add%20SMS%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22phone%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |phone|<span class="chip chip-text">Text</span>|
 
@@ -86,7 +86,7 @@ Adds a tag on the current user. Tags are custom key-value pairs of string data y
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22OneSignal%20Management%22,%20%22name%22:%20%22Add%20Tag%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22key%22,%20%22value%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |key|<span class="chip chip-text">Text</span>|
 |value|<span class="chip chip-text">Text</span>|
@@ -97,7 +97,7 @@ Adds a unique outcome with the provided name, captured against the current sessi
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22OneSignal%20Management%22,%20%22name%22:%20%22Add%20Unique%20Outcome%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22outcome%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |outcome|<span class="chip chip-text">Text</span>|
 
@@ -139,7 +139,7 @@ Sets the user context to the provided "externalId". Ensures that all subscriptio
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22OneSignal%20Management%22,%20%22name%22:%20%22Login%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22external%20ID%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |external ID|<span class="chip chip-text">Text</span>|
 
@@ -155,7 +155,7 @@ Removes an alias.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22OneSignal%20Management%22,%20%22name%22:%20%22Remove%20Alias%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22label%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |label|<span class="chip chip-text">Text</span>|
 
@@ -165,7 +165,7 @@ Removes an email Subscription from the current user.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22OneSignal%20Management%22,%20%22name%22:%20%22Remove%20Email%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22email%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |email|<span class="chip chip-text">Text</span>|
 
@@ -175,7 +175,7 @@ Removes an SMS Subscription from the current user.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22OneSignal%20Management%22,%20%22name%22:%20%22Remove%20SMS%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22phone%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |phone|<span class="chip chip-text">Text</span>|
 
@@ -185,7 +185,7 @@ Removes a tag.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22OneSignal%20Management%22,%20%22name%22:%20%22Remove%20Tag%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22key%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |key|<span class="chip chip-text">Text</span>|
 
@@ -195,7 +195,7 @@ Grants or revokes user consent for data collection. Without consent, no data is 
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22OneSignal%20Management%22,%20%22name%22:%20%22Set%20Consent%20Given%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22given%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |given|<span class="chip chip-boolean">Boolean</span>|
 

@@ -23,7 +23,7 @@ The BluetoothError event is no longer used. Please use the Screen.ErrorOccurred 
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Bluetooth%20Server%22,%20%22name%22:%20%22BluetoothError%22,%20%22param%22:%20%5B%22function%20Name%22,%20%22message%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |function Name|<span class="chip chip-text">Text</span>|
 |message|<span class="chip chip-text">Text</span>|
@@ -42,7 +42,7 @@ Accept an incoming connection with the Serial Port Profile (SPP).
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Bluetooth%20Server%22,%20%22name%22:%20%22Accept%20Connection%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22service%20Name%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |service Name|<span class="chip chip-text">Text</span>|
 
@@ -52,7 +52,7 @@ Accept an incoming connection with a specific UUID.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Bluetooth%20Server%22,%20%22name%22:%20%22Accept%20Connection%20With%20UUID%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22service%20Name%22,%20%22uuid%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |service Name|<span class="chip chip-text">Text</span>|
 |uuid|<span class="chip chip-text">Text</span>|
@@ -103,7 +103,7 @@ Receive multiple signed byte values from the connected Bluetooth device. If numb
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Bluetooth%20Server%22,%20%22name%22:%20%22Receive%20Signed%20Bytes%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22number%20Of%20Bytes%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |number Of Bytes|<span class="chip chip-number">Number</span>|
 
@@ -115,7 +115,7 @@ Receive text from the connected Bluetooth device. If numberOfBytes is less than 
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Bluetooth%20Server%22,%20%22name%22:%20%22Receive%20Text%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22number%20Of%20Bytes%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |number Of Bytes|<span class="chip chip-number">Number</span>|
 
@@ -151,7 +151,7 @@ Receive multiple unsigned byte values from the connected Bluetooth device. If nu
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Bluetooth%20Server%22,%20%22name%22:%20%22Receive%20Unsigned%20Bytes%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22number%20Of%20Bytes%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |number Of Bytes|<span class="chip chip-number">Number</span>|
 
@@ -161,7 +161,7 @@ Send a 1-byte number to the connected Bluetooth device.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Bluetooth%20Server%22,%20%22name%22:%20%22Send%201%20Byte%20Number%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22number%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |number|<span class="chip chip-text">Text</span>|
 
@@ -171,7 +171,7 @@ Send a 2-byte number to the connected Bluetooth device.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Bluetooth%20Server%22,%20%22name%22:%20%22Send%202%20Byte%20Number%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22number%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |number|<span class="chip chip-text">Text</span>|
 
@@ -181,7 +181,7 @@ Send a 4-byte number to the connected Bluetooth device.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Bluetooth%20Server%22,%20%22name%22:%20%22Send%204%20Byte%20Number%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22number%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |number|<span class="chip chip-text">Text</span>|
 
@@ -191,7 +191,7 @@ Send a list of byte values to the connected Bluetooth device.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Bluetooth%20Server%22,%20%22name%22:%20%22Send%20Bytes%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22list%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |list|<span class="chip chip-list">List</span>|
 
@@ -201,7 +201,7 @@ Send text to the connected Bluetooth device.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Bluetooth%20Server%22,%20%22name%22:%20%22Send%20Text%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22text%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |text|<span class="chip chip-text">Text</span>|
 

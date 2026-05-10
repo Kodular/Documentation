@@ -34,7 +34,7 @@ Clear the entry with the given tag
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Tiny%20DB%22,%20%22name%22:%20%22Clear%20Tag%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22tag%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |tag|<span class="chip chip-text">Text</span>|
 
@@ -62,7 +62,7 @@ Retrieve the value stored under the given tag. If there's no such tag, then retu
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Tiny%20DB%22,%20%22name%22:%20%22Get%20Value%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22tag%22,%20%22value%20If%20Tag%20Not%20There%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |tag|<span class="chip chip-text">Text</span>|
 |value If Tag Not There|<span class="chip chip-any">Any</span>|
@@ -73,7 +73,7 @@ Store the given value under the given tag. The storage persists on thephone when
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Tiny%20DB%22,%20%22name%22:%20%22Store%20Value%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22tag%22,%20%22value%20To%20Store%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |tag|<span class="chip chip-text">Text</span>|
 |value To Store|<span class="chip chip-any">Any</span>|

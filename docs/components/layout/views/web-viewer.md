@@ -32,7 +32,7 @@ Get the result of the evaluated JS
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Web%20Viewer%22,%20%22name%22:%20%22After%20JS%20Evaluated%22,%20%22param%22:%20%5B%22result%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |result|<span class="chip chip-text">Text</span>|
 
@@ -42,7 +42,7 @@ This event return true when the cookies have been successfully removed. If the c
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Web%20Viewer%22,%20%22name%22:%20%22Cookies%20Removed%22,%20%22param%22:%20%5B%22success%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |success|<span class="chip chip-boolean">Boolean</span>|
 
@@ -52,7 +52,7 @@ Get webpage console output
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Web%20Viewer%22,%20%22name%22:%20%22On%20Console%20Message%22,%20%22param%22:%20%5B%22message%22,%20%22line%20Number%22,%20%22source%20Id%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |message|<span class="chip chip-text">Text</span>|
 |line Number|<span class="chip chip-number">Number</span>|
@@ -64,7 +64,7 @@ Event for listening download links.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Web%20Viewer%22,%20%22name%22:%20%22On%20Download%20Start%22,%20%22param%22:%20%5B%22url%22,%20%22content%20Disposition%22,%20%22mime%20Type%22,%20%22content%20Length%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |url|<span class="chip chip-text">Text</span>|
 |content Disposition|<span class="chip chip-text">Text</span>|
@@ -77,7 +77,7 @@ Triggers when page finished loading
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Web%20Viewer%22,%20%22name%22:%20%22Page%20Loaded%22,%20%22param%22:%20%5B%22url%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |url|<span class="chip chip-text">Text</span>|
 
@@ -87,7 +87,7 @@ Event to detect that the loading progress has changed.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Web%20Viewer%22,%20%22name%22:%20%22Progress%20Changed%22,%20%22param%22:%20%5B%22progress%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |progress|<span class="chip chip-number">Number</span>|
 
@@ -97,7 +97,7 @@ When the JavaScript calls AppInventor.setWebViewString this event is run.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Web%20Viewer%22,%20%22name%22:%20%22Web%20View%20String%20Change%22,%20%22param%22:%20%5B%22value%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |value|<span class="chip chip-text">Text</span>|
 
@@ -119,7 +119,7 @@ Returns true if the WebViewer can go back or forward the number of steps in the 
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Web%20Viewer%22,%20%22name%22:%20%22Can%20Go%20Back%20Or%20Forward%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22steps%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |steps|<span class="chip chip-number">Number</span>|
 
@@ -155,7 +155,7 @@ Evaluate JS in the context of the current page
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Web%20Viewer%22,%20%22name%22:%20%22Evaluate%20JS%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22script%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |script|<span class="chip chip-text">Text</span>|
 
@@ -171,7 +171,7 @@ Go forward or backward a number of steps away from the current page. Steps is ne
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Web%20Viewer%22,%20%22name%22:%20%22Go%20Back%20Or%20Forward%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22steps%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |steps|<span class="chip chip-number">Number</span>|
 
@@ -193,7 +193,7 @@ Load the page at the given URL.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Web%20Viewer%22,%20%22name%22:%20%22Go%20To%20URL%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22url%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |url|<span class="chip chip-text">Text</span>|
 
@@ -203,7 +203,7 @@ Load HTML content using Base64-encoded data URI scheme
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Web%20Viewer%22,%20%22name%22:%20%22Load%20HTML%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22html%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |html|<span class="chip chip-text">Text</span>|
 

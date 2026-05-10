@@ -20,7 +20,7 @@ Click listener event.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Chat%20View%22,%20%22name%22:%20%22Click%22,%20%22param%22:%20%5B%22user%20Image%22,%20%22title%22,%20%22message%22,%20%22timestamp%22,%20%22id%22,%20%22send%20As%20Sender%22,%20%22image%20Path%22,%20%22with%20Image%22,%20%22file%20Path%22,%20%22file%20Thumbnail%22,%20%22with%20File%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |user Image|<span class="chip chip-text">Text</span>|
 |title|<span class="chip chip-text">Text</span>|
@@ -40,7 +40,7 @@ Double tap click listener event.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Chat%20View%22,%20%22name%22:%20%22Double%20Tap%20Click%22,%20%22param%22:%20%5B%22user%20Image%22,%20%22title%22,%20%22message%22,%20%22timestamp%22,%20%22id%22,%20%22send%20As%20Sender%22,%20%22image%20Path%22,%20%22with%20Image%22,%20%22file%20Path%22,%20%22file%20Thumbnail%22,%20%22with%20File%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |user Image|<span class="chip chip-text">Text</span>|
 |title|<span class="chip chip-text">Text</span>|
@@ -60,7 +60,7 @@ Long click listener event.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Chat%20View%22,%20%22name%22:%20%22Long%20Click%22,%20%22param%22:%20%5B%22user%20Image%22,%20%22title%22,%20%22message%22,%20%22timestamp%22,%20%22id%22,%20%22send%20As%20Sender%22,%20%22image%20Path%22,%20%22with%20Image%22,%20%22file%20Path%22,%20%22file%20Thumbnail%22,%20%22with%20File%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |user Image|<span class="chip chip-text">Text</span>|
 |title|<span class="chip chip-text">Text</span>|
@@ -80,7 +80,7 @@ Swipe listener event. The direction value returns '1' for right-to-left swipes, 
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Chat%20View%22,%20%22name%22:%20%22Swipe%22,%20%22param%22:%20%5B%22direction%22,%20%22user%20Image%22,%20%22title%22,%20%22message%22,%20%22timestamp%22,%20%22id%22,%20%22send%20As%20Sender%22,%20%22image%20Path%22,%20%22with%20Image%22,%20%22file%20Path%22,%20%22file%20Thumbnail%22,%20%22with%20File%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |direction|<span class="chip chip-number">Number</span>|
 |user Image|<span class="chip chip-text">Text</span>|
@@ -101,7 +101,7 @@ Click listener event for the user image.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Chat%20View%22,%20%22name%22:%20%22User%20Image%20Click%22,%20%22param%22:%20%5B%22id%22,%20%22user%20Image%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |id|<span class="chip chip-number">Number</span>|
 |user Image|<span class="chip chip-text">Text</span>|
@@ -114,7 +114,7 @@ Add a new simple component message into the chat view. If you do not want a user
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Chat%20View%22,%20%22name%22:%20%22Add%20Component%20Message%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22user%20Image%22,%20%22title%22,%20%22message%22,%20%22timestamp%22,%20%22component%22,%20%22id%22,%20%22add%20As%20Sender%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |user Image|<span class="chip chip-text">Text</span>|
 |title|<span class="chip chip-text">Text</span>|
@@ -130,7 +130,7 @@ Add a new simple date timestamp into the chat view. You NEED to write a date, el
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Chat%20View%22,%20%22name%22:%20%22Add%20Date%20Timestamp%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22date%22,%20%22text%20Color%22,%20%22background%20Color%22,%20%22id%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |date|<span class="chip chip-text">Text</span>|
 |text Color|<span class="chip chip-number">Number</span>|
@@ -143,7 +143,7 @@ Add a new simple file message into the chat view. If you do not want a user imag
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Chat%20View%22,%20%22name%22:%20%22Add%20File%20Message%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22user%20Image%22,%20%22title%22,%20%22message%22,%20%22file%20Path%22,%20%22file%20Thumbnail%22,%20%22timestamp%22,%20%22id%22,%20%22add%20As%20Sender%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |user Image|<span class="chip chip-text">Text</span>|
 |title|<span class="chip chip-text">Text</span>|
@@ -160,7 +160,7 @@ Add a new simple image message into the chat view. If you do not want a user ima
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Chat%20View%22,%20%22name%22:%20%22Add%20Image%20Message%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22user%20Image%22,%20%22title%22,%20%22message%22,%20%22image%22,%20%22timestamp%22,%20%22id%22,%20%22add%20As%20Sender%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |user Image|<span class="chip chip-text">Text</span>|
 |title|<span class="chip chip-text">Text</span>|
@@ -176,7 +176,7 @@ Add a new simple message into the chat view. If you do not want a user image or 
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Chat%20View%22,%20%22name%22:%20%22Add%20Message%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22user%20Image%22,%20%22title%22,%20%22message%22,%20%22timestamp%22,%20%22id%22,%20%22add%20As%20Sender%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |user Image|<span class="chip chip-text">Text</span>|
 |title|<span class="chip chip-text">Text</span>|
@@ -221,7 +221,7 @@ Remove a message or timestamp from the chat view.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Chat%20View%22,%20%22name%22:%20%22Remove%20Message%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22id%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |id|<span class="chip chip-number">Number</span>|
 
@@ -231,7 +231,7 @@ Scroll to a specific message in the chat view with the given id.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Chat%20View%22,%20%22name%22:%20%22Scroll%20To%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22id%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |id|<span class="chip chip-number">Number</span>|
 
@@ -241,7 +241,7 @@ Update the background color of a chat view message.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Chat%20View%22,%20%22name%22:%20%22Update%20Message%20Background%20Color%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22id%22,%20%22background%20Color%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |id|<span class="chip chip-number">Number</span>|
 |background Color|<span class="chip chip-number">Number</span>|
@@ -252,7 +252,7 @@ Update the message content of a chat view message.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Chat%20View%22,%20%22name%22:%20%22Update%20Message%20Content%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22id%22,%20%22text%22,%20%22text%20Color%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |id|<span class="chip chip-number">Number</span>|
 |text|<span class="chip chip-text">Text</span>|
@@ -264,7 +264,7 @@ Update the timestamp content of a chat view message.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Chat%20View%22,%20%22name%22:%20%22Update%20Timestamp%20Content%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22id%22,%20%22text%22,%20%22text%20Color%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |id|<span class="chip chip-number">Number</span>|
 |text|<span class="chip chip-text">Text</span>|
@@ -276,7 +276,7 @@ Update the title content of a chat view message.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Chat%20View%22,%20%22name%22:%20%22Update%20Title%20Content%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22id%22,%20%22text%22,%20%22text%20Color%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |id|<span class="chip chip-number">Number</span>|
 |text|<span class="chip chip-text">Text</span>|
@@ -288,7 +288,7 @@ Update the user image of a chat view message. The image can only be updated if t
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Chat%20View%22,%20%22name%22:%20%22Update%20User%20Image%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22id%22,%20%22user%20Image%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |id|<span class="chip chip-number">Number</span>|
 |user Image|<span class="chip chip-text">Text</span>|

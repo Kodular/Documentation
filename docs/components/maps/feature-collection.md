@@ -16,7 +16,7 @@ The user clicked on a map feature.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Feature%20Collection%22,%20%22name%22:%20%22Feature%20Click%22,%20%22param%22:%20%5B%22feature%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |feature|<span class="chip chip-component">Component</span>|
 
@@ -26,7 +26,7 @@ The user dragged a map feature.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Feature%20Collection%22,%20%22name%22:%20%22Feature%20Drag%22,%20%22param%22:%20%5B%22feature%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |feature|<span class="chip chip-component">Component</span>|
 
@@ -36,7 +36,7 @@ The user long-pressed on a map feature.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Feature%20Collection%22,%20%22name%22:%20%22Feature%20Long%20Click%22,%20%22param%22:%20%5B%22feature%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |feature|<span class="chip chip-component">Component</span>|
 
@@ -46,7 +46,7 @@ The user started dragging a map feature.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Feature%20Collection%22,%20%22name%22:%20%22Feature%20Start%20Drag%22,%20%22param%22:%20%5B%22feature%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |feature|<span class="chip chip-component">Component</span>|
 
@@ -56,7 +56,7 @@ The user stopped dragging a map feature.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Feature%20Collection%22,%20%22name%22:%20%22Feature%20Stop%20Drag%22,%20%22param%22:%20%5B%22feature%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |feature|<span class="chip chip-component">Component</span>|
 
@@ -66,7 +66,7 @@ A GeoJSON document was successfully read from url. The features specified in the
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Feature%20Collection%22,%20%22name%22:%20%22Got%20Features%22,%20%22param%22:%20%5B%22url%22,%20%22features%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |url|<span class="chip chip-text">Text</span>|
 |features|<span class="chip chip-list">List</span>|
@@ -77,7 +77,7 @@ An error was encountered while processing a GeoJSON document at the given url. T
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Feature%20Collection%22,%20%22name%22:%20%22Load%20Error%22,%20%22param%22:%20%5B%22url%22,%20%22response%20Code%22,%20%22error%20Message%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |url|<span class="chip chip-text">Text</span>|
 |response Code|<span class="chip chip-number">Number</span>|
@@ -93,7 +93,7 @@ Convert a feature description into an App Inventor map feature. Currently the on
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Feature%20Collection%22,%20%22name%22:%20%22Feature%20From%20Description%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22description%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |description|<span class="chip chip-list">List</span>|
 
@@ -103,7 +103,7 @@ Load a feature collection in [GeoJSON](https://en.wikipedia.org/wiki/GeoJSON) fo
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Feature%20Collection%22,%20%22name%22:%20%22Load%20From%20URL%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22url%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |url|<span class="chip chip-text">Text</span>|
 

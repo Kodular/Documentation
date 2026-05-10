@@ -30,7 +30,7 @@ Triggers when the current Firebase User was successful loaded
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Firebase%20Authentication%22,%20%22name%22:%20%22Current%20User%20Success%22,%20%22param%22:%20%5B%22user%20ID%22,%20%22name%22,%20%22email%22,%20%22phone%20Number%22,%20%22profile%20Picture%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |user ID|<span class="chip chip-text">Text</span>|
 |name|<span class="chip chip-text">Text</span>|
@@ -44,7 +44,7 @@ Triggers when the 'Verify Email' request is completed. Returns true if the verif
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Firebase%20Authentication%22,%20%22name%22:%20%22Email%20Verification%20Sent%22,%20%22param%22:%20%5B%22success%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |success|<span class="chip chip-boolean">Boolean</span>|
 
@@ -54,7 +54,7 @@ Triggers when the 'Get Id Token' got a result. If there was a error it returns a
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Firebase%20Authentication%22,%20%22name%22:%20%22Got%20Id%20Token%22,%20%22param%22:%20%5B%22id%20Token%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |id Token|<span class="chip chip-text">Text</span>|
 
@@ -64,7 +64,7 @@ Triggers when the Firebase Login failed
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Firebase%20Authentication%22,%20%22name%22:%20%22Login%20Failed%22,%20%22param%22:%20%5B%22provider%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |provider|<span class="chip chip-text">Text</span>|
 
@@ -74,7 +74,7 @@ Triggers when the Firebase Login was successful
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Firebase%20Authentication%22,%20%22name%22:%20%22Login%20Success%22,%20%22param%22:%20%5B%22provider%22,%20%22user%20ID%22,%20%22name%22,%20%22email%22,%20%22phone%20Number%22,%20%22profile%20Picture%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |provider|<span class="chip chip-text">Text</span>|
 |user ID|<span class="chip chip-text">Text</span>|
@@ -89,7 +89,7 @@ Triggers when the 'Send Reset Password Email' got a result. Returns true if the 
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Firebase%20Authentication%22,%20%22name%22:%20%22Reset%20Password%20Email%20Done%22,%20%22param%22:%20%5B%22success%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |success|<span class="chip chip-boolean">Boolean</span>|
 
@@ -99,7 +99,7 @@ Triggers when the Firebase Sign Up failed
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Firebase%20Authentication%22,%20%22name%22:%20%22Sign%20Up%20Failed%22,%20%22param%22:%20%5B%22provider%22,%20%22message%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |provider|<span class="chip chip-text">Text</span>|
 |message|<span class="chip chip-text">Text</span>|
@@ -110,7 +110,7 @@ Triggers when the Firebase Sign Up failed
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Firebase%20Authentication%22,%20%22name%22:%20%22Sign%20Up%20Success%22,%20%22param%22:%20%5B%22provider%22,%20%22user%20ID%22,%20%22name%22,%20%22email%22,%20%22phone%20Number%22,%20%22profile%20Picture%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |provider|<span class="chip chip-text">Text</span>|
 |user ID|<span class="chip chip-text">Text</span>|
@@ -125,7 +125,7 @@ Triggers when updating of the user failed
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Firebase%20Authentication%22,%20%22name%22:%20%22User%20Update%20Failed%22,%20%22param%22:%20%5B%22type%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |type|<span class="chip chip-text">Text</span>|
 
@@ -135,7 +135,7 @@ Triggers when updating of the user was successful
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Firebase%20Authentication%22,%20%22name%22:%20%22User%20Update%20Success%22,%20%22param%22:%20%5B%22type%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |type|<span class="chip chip-text">Text</span>|
 
@@ -147,7 +147,7 @@ Try to let the user sign in with Email and Password
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Firebase%20Authentication%22,%20%22name%22:%20%22Email%20Password%20Login%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22email%22,%20%22password%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |email|<span class="chip chip-text">Text</span>|
 |password|<span class="chip chip-text">Text</span>|
@@ -158,7 +158,7 @@ Create a new user by Email and Password
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Firebase%20Authentication%22,%20%22name%22:%20%22Email%20Password%20Sign%20Up%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22email%22,%20%22password%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |email|<span class="chip chip-text">Text</span>|
 |password|<span class="chip chip-text">Text</span>|
@@ -201,7 +201,7 @@ Try to let the user sign in with a Phone Number
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Firebase%20Authentication%22,%20%22name%22:%20%22Phone%20Number%20Sign%20In%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22phone%20Number%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |phone Number|<span class="chip chip-text">Text</span>|
 
@@ -211,7 +211,7 @@ Get the id token from the current user.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Firebase%20Authentication%22,%20%22name%22:%20%22Send%20Reset%20Password%20Email%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22email%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |email|<span class="chip chip-text">Text</span>|
 
@@ -221,7 +221,7 @@ Try to update the email of the current user (The user must have been recently si
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Firebase%20Authentication%22,%20%22name%22:%20%22Update%20Email%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22email%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |email|<span class="chip chip-text">Text</span>|
 
@@ -231,7 +231,7 @@ Try to update the phone number of the current user (The user must have been rece
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Firebase%20Authentication%22,%20%22name%22:%20%22Update%20Phone%20Number%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22phone%20Number%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |phone Number|<span class="chip chip-text">Text</span>|
 
@@ -241,7 +241,7 @@ Try to update the profile of the current user (The user must have been recently 
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Firebase%20Authentication%22,%20%22name%22:%20%22Update%20Profile%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22name%22,%20%22profile%20Picture%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |name|<span class="chip chip-text">Text</span>|
 |profile Picture|<span class="chip chip-text">Text</span>|
@@ -258,6 +258,6 @@ Verify the SMS code
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Firebase%20Authentication%22,%20%22name%22:%20%22Verify%20Phone%20Code%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22code%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |code|<span class="chip chip-text">Text</span>|

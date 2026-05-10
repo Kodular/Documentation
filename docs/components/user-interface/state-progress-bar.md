@@ -16,7 +16,7 @@ Event invoked when a error occurred.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22State%20Progress%20Bar%22,%20%22name%22:%20%22Error%20Occurred%22,%20%22param%22:%20%5B%22error%20Message%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |error Message|<span class="chip chip-text">Text</span>|
 
@@ -26,7 +26,7 @@ Event invoked when a state item was clicked.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22State%20Progress%20Bar%22,%20%22name%22:%20%22State%20Item%20Click%22,%20%22param%22:%20%5B%22state%20Number%22,%20%22is%20Current%20State%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |state Number|<span class="chip chip-number">Number</span>|
 |is Current State|<span class="chip chip-boolean">Boolean</span>|

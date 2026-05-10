@@ -18,7 +18,7 @@ Event triggered when an error occurs during Google Play Integrity API operations
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Play%20Integrity%22,%20%22name%22:%20%22Error%20Occurred%22,%20%22param%22:%20%5B%22error%20Code%22,%20%22message%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |error Code|<span class="chip chip-number">Number</span>|
 |message|<span class="chip chip-text">Text</span>|
@@ -29,7 +29,7 @@ Event triggered when a valid integrity token has been successfully obtained from
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Play%20Integrity%22,%20%22name%22:%20%22Integrity%20Token%20Received%22,%20%22param%22:%20%5B%22token%22,%20%22request%20Hash%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |token|<span class="chip chip-text">Text</span>|
 |request Hash|<span class="chip chip-text">Text</span>|
@@ -40,7 +40,7 @@ Event triggered when a recoverable error occurs during the integrity provider wa
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Play%20Integrity%22,%20%22name%22:%20%22Retryable%20Error%20Occurred%20During%20Warmup%22,%20%22param%22:%20%5B%22error%20Code%22,%20%22message%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |error Code|<span class="chip chip-number">Number</span>|
 |message|<span class="chip chip-text">Text</span>|
@@ -61,6 +61,6 @@ Initiates a request to obtain an integrity token from Google Play Integrity API 
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Play%20Integrity%22,%20%22name%22:%20%22Request%20Integrity%20Token%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22request%20Hash%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |request Hash|<span class="chip chip-text">Text</span>|

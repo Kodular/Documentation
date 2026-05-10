@@ -24,7 +24,7 @@ Event to detect available one signal tags.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Push%20Notifications%22,%20%22name%22:%20%22Got%20Available%20Tags%22,%20%22param%22:%20%5B%22tags%20As%20String%22,%20%22tags%20As%20List%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |tags As String|<span class="chip chip-text">Text</span>|
 |tags As List|<span class="chip chip-list">List</span>|
@@ -37,7 +37,7 @@ Event to receive value for a tag.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Push%20Notifications%22,%20%22name%22:%20%22Got%20Value%22,%20%22param%22:%20%5B%22tag%22,%20%22value%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |tag|<span class="chip chip-text">Text</span>|
 |value|<span class="chip chip-text">Text</span>|
@@ -50,7 +50,7 @@ User opened a notification.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Push%20Notifications%22,%20%22name%22:%20%22Notification%20Opened%22,%20%22param%22:%20%5B%22id%22,%20%22title%22,%20%22message%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |id|<span class="chip chip-text">Text</span>|
 |title|<span class="chip chip-text">Text</span>|
@@ -64,7 +64,7 @@ User received a notification.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Push%20Notifications%22,%20%22name%22:%20%22Notification%20Received%22,%20%22param%22:%20%5B%22id%22,%20%22title%22,%20%22message%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |id|<span class="chip chip-text">Text</span>|
 |title|<span class="chip chip-text">Text</span>|
@@ -78,7 +78,7 @@ Returns true if your message was send with success out of your app to all users.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Push%20Notifications%22,%20%22name%22:%20%22Send%20Message%20Done%22,%20%22param%22:%20%5B%22success%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |success|<span class="chip chip-boolean">Boolean</span>|
 
@@ -100,7 +100,7 @@ Deletes a single tag that was previously set on a user.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Push%20Notifications%22,%20%22name%22:%20%22Delete%20Tag%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22key%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |key|<span class="chip chip-text">Text</span>|
 
@@ -120,7 +120,7 @@ Get value for tag.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Push%20Notifications%22,%20%22name%22:%20%22Get%20Value%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22tag%22,%20%22value%20If%20Tag%20Not%20There%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |tag|<span class="chip chip-text">Text</span>|
 |value If Tag Not There|<span class="chip chip-text">Text</span>|
@@ -133,7 +133,7 @@ Send a message to all users. The message and your REST Api Key can not be empty!
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Push%20Notifications%22,%20%22name%22:%20%22Send%20Message%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22title%22,%20%22message%22,%20%22rest%20API%20Key%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |title|<span class="chip chip-text">Text</span>|
 |message|<span class="chip chip-text">Text</span>|
@@ -147,7 +147,7 @@ Tag a user based on an app event of your choosing so later you can create segmen
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Push%20Notifications%22,%20%22name%22:%20%22Send%20Tag%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22key%22,%20%22value%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |key|<span class="chip chip-text">Text</span>|
 |value|<span class="chip chip-text">Text</span>|

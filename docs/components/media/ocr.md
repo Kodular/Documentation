@@ -23,7 +23,7 @@ You will find here the success state and the response content.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22OCR%22,%20%22name%22:%20%22Got%20Response%22,%20%22param%22:%20%5B%22success%22,%20%22response%20Content%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |success|<span class="chip chip-boolean">Boolean</span>|
 |response Content|<span class="chip chip-text">Text</span>|
@@ -34,7 +34,7 @@ You will find here the server status from the ocr provider. Possible results are
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22OCR%22,%20%22name%22:%20%22Got%20Server%20Status%22,%20%22param%22:%20%5B%22free%22,%20%22pro%20USA%201%22,%20%22pro%20USA%202%22,%20%22pro%20Europe%22,%20%22pro%20Asia%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |free|<span class="chip chip-text">Text</span>|
 |pro USA 1|<span class="chip chip-text">Text</span>|
@@ -56,7 +56,7 @@ Get the text from a picture via the image url. Example: http://name/yourimage.jp
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22OCR%22,%20%22name%22:%20%22Get%20Text%20From%20Image%20Url%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22image%20URL%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |image URL|<span class="chip chip-text">Text</span>|
 
@@ -66,7 +66,7 @@ Upload your image to the server from ocr.space and then you get back the text fr
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22OCR%22,%20%22name%22:%20%22Upload%20Image%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22path%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |path|<span class="chip chip-text">Text</span>|
 

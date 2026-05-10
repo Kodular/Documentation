@@ -32,7 +32,7 @@ The VideoPlayerError event is no longer used. Please use the Screen.ErrorOccurre
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Video%20Player%22,%20%22name%22:%20%22VideoPlayerError%22,%20%22param%22:%20%5B%22message%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |message|<span class="chip chip-text">Text</span>|
 
@@ -58,7 +58,7 @@ Seeks to the requested time (specified in milliseconds) in the video. If the vid
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Video%20Player%22,%20%22name%22:%20%22Seek%20To%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22ms%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |ms|<span class="chip chip-number">Number</span>|
 

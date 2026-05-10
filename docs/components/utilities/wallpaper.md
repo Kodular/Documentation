@@ -24,7 +24,7 @@ Event to detect that the component got the current system wallpaper.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Wallpaper%22,%20%22name%22:%20%22Got%20Wallpaper%22,%20%22param%22:%20%5B%22picture%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |picture|<span class="chip chip-text">Text</span>|
 
@@ -34,7 +34,7 @@ Event to detect that the user has changed the wallpaper. This event will be invo
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Wallpaper%22,%20%22name%22:%20%22Wallpaper%20Changed%22,%20%22param%22:%20%5B%22success%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |success|<span class="chip chip-boolean">Boolean</span>|
 
@@ -70,7 +70,7 @@ Change the current lock screen wallpaper. This block works only on devices with 
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Wallpaper%22,%20%22name%22:%20%22Set%20Lock%20Screen%20Wallpaper%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22image%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |image|<span class="chip chip-text">Text</span>|
 
@@ -80,7 +80,7 @@ Change the current system wallpaper.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Wallpaper%22,%20%22name%22:%20%22Set%20Wallpaper%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22image%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |image|<span class="chip chip-text">Text</span>|
 

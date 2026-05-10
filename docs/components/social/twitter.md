@@ -34,7 +34,7 @@ This event is raised when the recent messages requested through `` RequestDirect
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22Direct%20Messages%20Received%22,%20%22param%22:%20%5B%22messages%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |messages|<span class="chip chip-list">List</span>|
 
@@ -44,7 +44,7 @@ This event is raised when all of the followers of the logged-in user requested t
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22Followers%20Received%22,%20%22param%22:%20%5B%22followers%202%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |followers 2|<span class="chip chip-list">List</span>|
 
@@ -54,7 +54,7 @@ This event is raised when the messages requested through `` RequestFriendTimelin
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22Friend%20Timeline%20Received%22,%20%22param%22:%20%5B%22timeline%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |timeline|<span class="chip chip-list">List</span>|
 
@@ -70,7 +70,7 @@ This event is raised when the mentions of the logged-in user requested through `
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22Mentions%20Received%22,%20%22param%22:%20%5B%22mentions%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |mentions|<span class="chip chip-list">List</span>|
 
@@ -80,7 +80,7 @@ This event is raised when the results of the search requested through `` SearchS
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22Search%20Successful%22,%20%22param%22:%20%5B%22search%20Results%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |search Results|<span class="chip chip-list">List</span>|
 
@@ -112,7 +112,7 @@ This sends a direct (private) message to the specified user. The message will be
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22Direct%20Message%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22user%22,%20%22message%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |user|<span class="chip chip-text">Text</span>|
 |message|<span class="chip chip-text">Text</span>|
@@ -123,7 +123,7 @@ Starts following a user.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22Follow%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22user%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |user|<span class="chip chip-text">Text</span>|
 
@@ -133,7 +133,7 @@ Twitter's API no longer supports login via username and password. Use the Author
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22Login%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22username%22,%20%22password%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |username|<span class="chip chip-text">Text</span>|
 |password|<span class="chip chip-text">Text</span>|
@@ -174,7 +174,7 @@ This searches Twitter for the given String query.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22Search%20Twitter%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22query%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |query|<span class="chip chip-text">Text</span>|
 
@@ -184,7 +184,7 @@ Stops following a user.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22Stop%20Following%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22user%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |user|<span class="chip chip-text">Text</span>|
 
@@ -196,7 +196,7 @@ This sends a tweet as the logged-in user with the specified Text, which will be 
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22Tweet%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22status%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |status|<span class="chip chip-text">Text</span>|
 
@@ -208,7 +208,7 @@ This sends a tweet as the logged-in user with the specified Text and a path to t
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Twitter%22,%20%22name%22:%20%22Tweet%20With%20Image%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22status%22,%20%22image%20Path%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |status|<span class="chip chip-text">Text</span>|
 |image Path|<span class="chip chip-text">Text</span>|

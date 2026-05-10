@@ -16,7 +16,7 @@ Event called after the user selects an item from the dropdown list.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Spinner%22,%20%22name%22:%20%22After%20Selecting%22,%20%22param%22:%20%5B%22selection%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |selection|<span class="chip chip-text">Text</span>|
 

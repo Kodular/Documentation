@@ -38,7 +38,7 @@ Register any component as example a 'button', that will be later your bottom she
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Bottom%20Sheet%22,%20%22name%22:%20%22Register%20Component%20As%20Dialog%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22component%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |component|<span class="chip chip-component">Component</span>|
 
@@ -48,7 +48,7 @@ Register any layout as example a 'horizontal arrangement', that will be later yo
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Bottom%20Sheet%22,%20%22name%22:%20%22Register%20Layout%20As%20Dialog%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22layout%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |layout|<span class="chip chip-component">Component</span>|
 

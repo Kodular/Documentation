@@ -25,7 +25,7 @@ Event triggered when the Yandex.Translate service returns the translated text. T
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Yandex%20Translate%22,%20%22name%22:%20%22Got%20Translation%22,%20%22param%22:%20%5B%22response%20Code%22,%20%22translation%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |response Code|<span class="chip chip-text">Text</span>|
 |translation|<span class="chip chip-text">Text</span>|
@@ -40,7 +40,7 @@ Note: Yandex.Translate will attempt to detect the source language. You can also 
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Yandex%20Translate%22,%20%22name%22:%20%22Request%20Translation%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22language%20To%20Translate%20To%22,%20%22text%20To%20Translate%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |language To Translate To|<span class="chip chip-text">Text</span>|
 |text To Translate|<span class="chip chip-text">Text</span>|

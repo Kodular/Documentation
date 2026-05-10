@@ -42,7 +42,7 @@ This event is run when a raw step is detected
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Pedometer%22,%20%22name%22:%20%22Simple%20Step%22,%20%22param%22:%20%5B%22simple%20Steps%22,%20%22distance%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |simple Steps|<span class="chip chip-number">Number</span>|
 |distance|<span class="chip chip-number">Number</span>|
@@ -69,7 +69,7 @@ This event is run when a walking step is detected. A walking step is a step that
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Pedometer%22,%20%22name%22:%20%22Walk%20Step%22,%20%22param%22:%20%5B%22walk%20Steps%22,%20%22distance%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |walk Steps|<span class="chip chip-number">Number</span>|
 |distance|<span class="chip chip-number">Number</span>|

@@ -18,7 +18,7 @@ Draw a circle on the screen.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20UI%22,%20%22name%22:%20%22Draw%20Circle%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22color%22,%20%22x%22,%20%22y%22,%20%22radius%22,%20%22fill%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |color|<span class="chip chip-number">Number</span>|
 |x|<span class="chip chip-number">Number</span>|
@@ -32,7 +32,7 @@ Draw a built-in icon on screen.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20UI%22,%20%22name%22:%20%22Draw%20Icon%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22color%22,%20%22x%22,%20%22y%22,%20%22type%22,%20%22no%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |color|<span class="chip chip-number">Number</span>|
 |x|<span class="chip chip-number">Number</span>|
@@ -46,7 +46,7 @@ Draw a line on the screen.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20UI%22,%20%22name%22:%20%22Draw%20Line%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22color%22,%20%22x1%22,%20%22y1%22,%20%22x2%22,%20%22y2%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |color|<span class="chip chip-number">Number</span>|
 |x1|<span class="chip chip-number">Number</span>|
@@ -60,7 +60,7 @@ Draw a point on the screen.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20UI%22,%20%22name%22:%20%22Draw%20Point%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22color%22,%20%22x%22,%20%22y%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |color|<span class="chip chip-number">Number</span>|
 |x|<span class="chip chip-number">Number</span>|
@@ -72,7 +72,7 @@ Draw a rectangle on the screen.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20UI%22,%20%22name%22:%20%22Draw%20Rect%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22color%22,%20%22x%22,%20%22y%22,%20%22width%22,%20%22height%22,%20%22fill%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |color|<span class="chip chip-number">Number</span>|
 |x|<span class="chip chip-number">Number</span>|
@@ -87,7 +87,7 @@ Fill the screen with a color.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20UI%22,%20%22name%22:%20%22Fill%20Screen%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22color%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |color|<span class="chip chip-number">Number</span>|
 

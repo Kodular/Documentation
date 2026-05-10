@@ -19,7 +19,7 @@ Indicates that the gravity sensor data has changed.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Gravity%20Sensor%22,%20%22name%22:%20%22Gravity%20Changed%22,%20%22param%22:%20%5B%22x%20Accel%22,%20%22y%20Accel%22,%20%22z%20Accel%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |x Accel|<span class="chip chip-number">Number</span>|
 |y Accel|<span class="chip chip-number">Number</span>|

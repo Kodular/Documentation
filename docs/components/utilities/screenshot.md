@@ -22,7 +22,7 @@ Event to detect that a screenshot was made by the user. Returns the image path t
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Screenshot%22,%20%22name%22:%20%22Got%20Screenshot%22,%20%22param%22:%20%5B%22image%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |image|<span class="chip chip-text">Text</span>|
 

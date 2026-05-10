@@ -28,7 +28,7 @@ Indicates that a new location has been detected.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Location%20Sensor%22,%20%22name%22:%20%22Location%20Changed%22,%20%22param%22:%20%5B%22latitude%22,%20%22longitude%22,%20%22altitude%22,%20%22speed%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |latitude|<span class="chip chip-number">Number</span>|
 |longitude|<span class="chip chip-number">Number</span>|
@@ -41,7 +41,7 @@ Indicates that the status of the location provider service has changed, such as 
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Location%20Sensor%22,%20%22name%22:%20%22Status%20Changed%22,%20%22param%22:%20%5B%22provider%22,%20%22status%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |provider|<span class="chip chip-text">Text</span>|
 |status|<span class="chip chip-text">Text</span>|
@@ -56,7 +56,7 @@ Derives latitude of given address
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Location%20Sensor%22,%20%22name%22:%20%22Latitude%20From%20Address%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22location%20Name%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |location Name|<span class="chip chip-text">Text</span>|
 
@@ -68,7 +68,7 @@ Derives longitude of given address
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Location%20Sensor%22,%20%22name%22:%20%22Longitude%20From%20Address%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22location%20Name%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |location Name|<span class="chip chip-text">Text</span>|
 

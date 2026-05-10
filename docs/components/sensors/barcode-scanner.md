@@ -21,7 +21,7 @@ Indicates that the scanner has read a (text) result and provides the result
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Barcode%20Scanner%22,%20%22name%22:%20%22After%20Scan%22,%20%22param%22:%20%5B%22result%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |result|<span class="chip chip-text">Text</span>|
 

@@ -18,7 +18,7 @@ Triggered after Read function
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Arduino%22,%20%22name%22:%20%22After%20Read%22,%20%22param%22:%20%5B%22success%22,%20%22data%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |success|<span class="chip chip-boolean">Boolean</span>|
 |data|<span class="chip chip-text">Text</span>|
@@ -31,7 +31,7 @@ Default baud rate is 9600 bps
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Arduino%22,%20%22name%22:%20%22Baud%20Rate%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22baud%20Rate%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |baud Rate|<span class="chip chip-number">Number</span>|
 
@@ -77,6 +77,6 @@ Write Data to Serial
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Arduino%22,%20%22name%22:%20%22Write%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22data%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |data|<span class="chip chip-text">Text</span>|

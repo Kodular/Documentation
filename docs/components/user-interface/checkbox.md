@@ -42,7 +42,7 @@ Place a blurred shadow of text underneath the text, drawn with the specified x, 
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Checkbox%22,%20%22name%22:%20%22Set%20Shadow%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22x%22,%20%22y%22,%20%22radius%22,%20%22color%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |x|<span class="chip chip-number">Number</span>|
 |y|<span class="chip chip-number">Number</span>|

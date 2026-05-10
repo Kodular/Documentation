@@ -42,7 +42,7 @@ Event triggered when ads failed to load
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Facebook%20Banner%22,%20%22name%22:%20%22Error%22,%20%22param%22:%20%5B%22error%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |error|<span class="chip chip-text">Text</span>|
 

@@ -21,7 +21,7 @@ Event to detect a authentication request was called.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Keyguard%20Manager%22,%20%22name%22:%20%22On%20Authentication%20Request%22,%20%22param%22:%20%5B%22is%20Authenticated%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |is Authenticated|<span class="chip chip-boolean">Boolean</span>|
 
@@ -31,7 +31,7 @@ Event to detect a dissmiss request keyguard was called.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Keyguard%20Manager%22,%20%22name%22:%20%22On%20Dissmiss%20Keyguard%20Request%22,%20%22param%22:%20%5B%22succeeded%22,%20%22cancelled%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |succeeded|<span class="chip chip-boolean">Boolean</span>|
 |cancelled|<span class="chip chip-boolean">Boolean</span>|
@@ -56,7 +56,7 @@ Specifies whether an Activity should be shown on top of the lock screen whenever
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Keyguard%20Manager%22,%20%22name%22:%20%22Show%20When%20Locked%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22enabled%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |enabled|<span class="chip chip-boolean">Boolean</span>|
 

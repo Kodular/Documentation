@@ -47,7 +47,7 @@ Whenever an ad fails to be retrieved, the event is called, returning the error m
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Amazon%20Interstitial%22,%20%22name%22:%20%22Ad%20Failed%20To%20Load%22,%20%22param%22:%20%5B%22error%22,%20%22message%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |error|<span class="chip chip-text">Text</span>|
 |message|<span class="chip chip-text">Text</span>|
@@ -58,7 +58,7 @@ Called when an an attempt was made to display the ad, but the ad was not ready t
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Amazon%20Interstitial%22,%20%22name%22:%20%22Ad%20Failed%20To%20Show%22,%20%22param%22:%20%5B%22message%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |message|<span class="chip chip-text">Text</span>|
 

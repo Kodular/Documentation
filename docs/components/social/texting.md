@@ -54,7 +54,7 @@ Event that's raised when a text message is received by the phone.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Texting%22,%20%22name%22:%20%22Message%20Received%22,%20%22param%22:%20%5B%22number%22,%20%22message%20Text%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |number|<span class="chip chip-text">Text</span>|
 |message Text|<span class="chip chip-text">Text</span>|
@@ -104,9 +104,15 @@ Sets the phone number to send the text message to when the SendMessage function 
 
 ### Receiving Enabled
 
-<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>1</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> <span class="chip chip-enum">ReceivingState</span> <span class="chip chip-number">Default: <i>1</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
 
 If set to 1 (OFF) no messages will be received. If set to 2 (FOREGROUND) or3 (ALWAYS) the component will respond to messages if it is running. If the app is not running then the message will be discarded if set to 2 (FOREGROUND). If set to 3 (ALWAYS) and the app is not running the phone will show a notification. Selecting the notification will bring up the app and signal the MessageReceived event. Messages received when the app is dormant will be queued, and so several MessageReceived events might appear when the app awakens. As an app developer, it would be a good idea to give your users control over this property, so they can make their phones ignore text messages when your app is installed.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Texting%22,%20%22name%22:%20%22Receiving%20Enabled%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Texting%22,%20%22name%22:%20%22Receiving%20Enabled%22,%20%22getter%22:%20false%7D"></div>
+
+| Option | Value |
+|--------|------|
+|Off|1|
+|Foreground|2|
+|Always|3|

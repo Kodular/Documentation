@@ -22,7 +22,7 @@ Triggered when changing cell data. ResponseCode is a number
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Spreadsheet%22,%20%22name%22:%20%22Cell%20Changed%22,%20%22param%22:%20%5B%22response%20Code%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |response Code|<span class="chip chip-number">Number</span>|
 
@@ -32,7 +32,7 @@ Triggered when destroying a row. ResponseCode is a number
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Spreadsheet%22,%20%22name%22:%20%22Deleted%20Row%20By%20Number%22,%20%22param%22:%20%5B%22response%20Code%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |response Code|<span class="chip chip-number">Number</span>|
 
@@ -42,7 +42,7 @@ Triggered when getting all rows. ResponseCode is a number, ResponseContent is a 
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Spreadsheet%22,%20%22name%22:%20%22Got%20All%20Rows%22,%20%22param%22:%20%5B%22response%20Code%22,%20%22response%20Content%22,%20%22total%20Rows%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |response Code|<span class="chip chip-number">Number</span>|
 |response Content|<span class="chip chip-text">Text</span>|
@@ -54,7 +54,7 @@ Triggered when receiving cell data. ResponseCode is a number, the other ones are
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Spreadsheet%22,%20%22name%22:%20%22Got%20Cell%22,%20%22param%22:%20%5B%22response%20Code%22,%20%22value%22,%20%22row%20Id%22,%20%22created%20Time%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |response Code|<span class="chip chip-number">Number</span>|
 |value|<span class="chip chip-text">Text</span>|
@@ -67,7 +67,7 @@ Triggered when receiving column data. ResponseCode is a number, the other ones a
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Spreadsheet%22,%20%22name%22:%20%22Got%20Column%22,%20%22param%22:%20%5B%22response%20Code%22,%20%22values%22,%20%22row%20Ids%22,%20%22created%20Times%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |response Code|<span class="chip chip-number">Number</span>|
 |values|<span class="chip chip-list">List</span>|
@@ -80,7 +80,7 @@ Triggered when receiving row data. ResponseCode is a number, Values is a list
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Spreadsheet%22,%20%22name%22:%20%22Got%20Row%22,%20%22param%22:%20%5B%22response%20Code%22,%20%22values%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |response Code|<span class="chip chip-number">Number</span>|
 |values|<span class="chip chip-list">List</span>|
@@ -91,7 +91,7 @@ Triggered when creating a row. ResponseCode is a number
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Spreadsheet%22,%20%22name%22:%20%22Row%20Created%22,%20%22param%22:%20%5B%22response%20Code%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |response Code|<span class="chip chip-number">Number</span>|
 
@@ -101,7 +101,7 @@ Triggered when updating a row. ResponseCode is a number
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Spreadsheet%22,%20%22name%22:%20%22Row%20Updated%22,%20%22param%22:%20%5B%22response%20Code%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |response Code|<span class="chip chip-number">Number</span>|
 
@@ -113,7 +113,7 @@ Creates a new row
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Spreadsheet%22,%20%22name%22:%20%22Create%20Row%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22column%20Names%22,%20%22values%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |column Names|<span class="chip chip-list">List</span>|
 |values|<span class="chip chip-list">List</span>|
@@ -124,7 +124,7 @@ Deletes the given row
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Spreadsheet%22,%20%22name%22:%20%22Delete%20Row%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22row%20Number%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |row Number|<span class="chip chip-number">Number</span>|
 
@@ -140,7 +140,7 @@ Gets cell data
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Spreadsheet%22,%20%22name%22:%20%22Get%20Cell%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22row%20Number%22,%20%22column%20Name%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |row Number|<span class="chip chip-number">Number</span>|
 |column Name|<span class="chip chip-text">Text</span>|
@@ -151,7 +151,7 @@ Gets column data
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Spreadsheet%22,%20%22name%22:%20%22Get%20Column%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22column%20Name%22,%20%22max%20Record%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |column Name|<span class="chip chip-text">Text</span>|
 |max Record|<span class="chip chip-number">Number</span>|
@@ -162,7 +162,7 @@ Gets row data
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Spreadsheet%22,%20%22name%22:%20%22Get%20Row%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22row%20Number%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |row Number|<span class="chip chip-number">Number</span>|
 
@@ -172,7 +172,7 @@ Changes the value of a cell
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Spreadsheet%22,%20%22name%22:%20%22Set%20Cell%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22row%20Number%22,%20%22column%20Name%22,%20%22value%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |row Number|<span class="chip chip-number">Number</span>|
 |column Name|<span class="chip chip-text">Text</span>|
@@ -184,7 +184,7 @@ Updates the given row data
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Spreadsheet%22,%20%22name%22:%20%22Update%20Row%20by%20Number%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22row%20Number%22,%20%22column%20Names%22,%20%22values%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |row Number|<span class="chip chip-number">Number</span>|
 |column Names|<span class="chip chip-list">List</span>|

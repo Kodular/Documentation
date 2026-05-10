@@ -21,7 +21,7 @@ Event triggered when the Openrouteservice returns the directions.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Navigation%22,%20%22name%22:%20%22Got%20Directions%22,%20%22param%22:%20%5B%22directions%22,%20%22points%22,%20%22distance%22,%20%22duration%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |directions|<span class="chip chip-list">List</span>|
 |points|<span class="chip chip-list">List</span>|
@@ -117,9 +117,16 @@ The longitude of the start location.
 
 ### Transportation Method
 
-<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span> <span class="chip chip-text">Default: <i>foot-walking</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span> <span class="chip chip-enum">TransportMethod</span> <span class="chip chip-text">Default: <i>foot-walking</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
 
 The transportation method used for determining the route.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Navigation%22,%20%22name%22:%20%22Transportation%20Method%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Navigation%22,%20%22name%22:%20%22Transportation%20Method%22,%20%22getter%22:%20false%7D"></div>
+
+| Option | Value |
+|--------|------|
+|Foot|foot-walking|
+|Car|driving-car|
+|Bicycle|cycling-regular|
+|Wheelchair|wheelchair|

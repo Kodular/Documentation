@@ -28,7 +28,7 @@ Event to detect that there are faces in the front of the camera.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Surface%20View%22,%20%22name%22:%20%22Face%20Detected%22,%20%22param%22:%20%5B%22numbers%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |numbers|<span class="chip chip-text">Text</span>|
 
@@ -38,7 +38,7 @@ Event to get the response from the camera preview as image file. The picture is 
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Surface%20View%22,%20%22name%22:%20%22Got%20Preview%22,%20%22param%22:%20%5B%22image%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |image|<span class="chip chip-text">Text</span>|
 
@@ -54,7 +54,7 @@ Event to detect that the user has taken a picture from the preview.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Surface%20View%22,%20%22name%22:%20%22Picture%20Created%22,%20%22param%22:%20%5B%22image%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |image|<span class="chip chip-text">Text</span>|
 

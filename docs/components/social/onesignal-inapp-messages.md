@@ -45,7 +45,7 @@ Called when the message is clicked.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22OneSignal%20InApp%20Messages%22,%20%22name%22:%20%22Message%20Clicked%22,%20%22param%22:%20%5B%22message%20ID%22,%20%22action%20ID%22,%20%22url%22,%20%22is%20Closing%20Message%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |message ID|<span class="chip chip-text">Text</span>|
 |action ID|<span class="chip chip-text">Text</span>|
@@ -58,7 +58,7 @@ Called after an in-app message has been dismissed.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22OneSignal%20InApp%20Messages%22,%20%22name%22:%20%22Message%20Did%20Dismiss%22,%20%22param%22:%20%5B%22message%20ID%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |message ID|<span class="chip chip-text">Text</span>|
 
@@ -68,7 +68,7 @@ Called after an in-app message has finished displaying.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22OneSignal%20InApp%20Messages%22,%20%22name%22:%20%22Message%20Did%20Display%22,%20%22param%22:%20%5B%22message%20ID%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |message ID|<span class="chip chip-text">Text</span>|
 
@@ -78,7 +78,7 @@ Called right before an in-app message is dismissed.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22OneSignal%20InApp%20Messages%22,%20%22name%22:%20%22Message%20Will%20Dismiss%22,%20%22param%22:%20%5B%22message%20ID%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |message ID|<span class="chip chip-text">Text</span>|
 
@@ -88,7 +88,7 @@ Called right before an in-app message is displayed.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22OneSignal%20InApp%20Messages%22,%20%22name%22:%20%22Message%20Will%20Display%22,%20%22param%22:%20%5B%22message%20ID%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |message ID|<span class="chip chip-text">Text</span>|
 
@@ -100,7 +100,7 @@ Adds a new trigger with provided key-value pair for the current user.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22OneSignal%20InApp%20Messages%22,%20%22name%22:%20%22Add%20Trigger%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22key%22,%20%22value%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |key|<span class="chip chip-text">Text</span>|
 |value|<span class="chip chip-text">Text</span>|
@@ -111,7 +111,7 @@ Removes the trigger with provided key for the current user.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22OneSignal%20InApp%20Messages%22,%20%22name%22:%20%22Remove%20Trigger%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22key%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |key|<span class="chip chip-text">Text</span>|
 

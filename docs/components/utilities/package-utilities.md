@@ -20,7 +20,7 @@ Returns the name from the given package name.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Package%20Utilities%22,%20%22name%22:%20%22App%20Name%20From%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22package%20Name%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |package Name|<span class="chip chip-text">Text</span>|
 
@@ -32,7 +32,7 @@ Try to show the application icon of the given package name. If the application c
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Package%20Utilities%22,%20%22name%22:%20%22Get%20Package%20Icon%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22package%20Name%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |package Name|<span class="chip chip-text">Text</span>|
 
@@ -44,7 +44,7 @@ Returns true if a package (app) is installed and enabled.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Package%20Utilities%22,%20%22name%22:%20%22Is%20Package%20Installed%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22package%20Name%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |package Name|<span class="chip chip-text">Text</span>|
 
@@ -56,7 +56,7 @@ Check whether a particular package has been granted a particular permission.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Package%20Utilities%22,%20%22name%22:%20%22Is%20Permission%20Granted%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22permission%20Name%22,%20%22package%20Name%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |permission Name|<span class="chip chip-text">Text</span>|
 |package Name|<span class="chip chip-text">Text</span>|
@@ -69,7 +69,7 @@ This block will returns the version code of the package name. Returns '-1' if th
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Package%20Utilities%22,%20%22name%22:%20%22Version%20Code%20From%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22package%20Name%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |package Name|<span class="chip chip-text">Text</span>|
 
@@ -81,7 +81,7 @@ This block will returns the version name of the package name. Returns 'Package n
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Package%20Utilities%22,%20%22name%22:%20%22Version%20Name%20From%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22package%20Name%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |package Name|<span class="chip chip-text">Text</span>|
 

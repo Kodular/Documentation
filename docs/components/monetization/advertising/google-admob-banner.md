@@ -36,7 +36,7 @@ Called when an ad request fails to load. The error code and message provide more
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20AdMob%20Banner%22,%20%22name%22:%20%22Ad%20Failed%20To%20Load%22,%20%22param%22:%20%5B%22error%20Code%22,%20%22error%20Message%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |error Code|<span class="chip chip-number">Number</span>|
 |error Message|<span class="chip chip-text">Text</span>|

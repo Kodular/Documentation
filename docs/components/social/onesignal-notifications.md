@@ -45,7 +45,7 @@ Called when an error occurs.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22OneSignal%20Notifications%22,%20%22name%22:%20%22Error%20Occurred%22,%20%22param%22:%20%5B%22message%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |message|<span class="chip chip-text">Text</span>|
 
@@ -55,7 +55,7 @@ Called when the user clicks the notification.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22OneSignal%20Notifications%22,%20%22name%22:%20%22Notification%20Clicked%22,%20%22param%22:%20%5B%22android%20Notification%20ID%22,%20%22from%20Project%20Number%22,%20%22group%20Key%22,%20%22sent%20Time%22,%20%22ttl%22,%20%22notification%20ID%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |android Notification ID|<span class="chip chip-number">Number</span>|
 |from Project Number|<span class="chip chip-text">Text</span>|
@@ -70,7 +70,7 @@ Called when the user accepts or declines the permission prompt, or enables or di
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22OneSignal%20Notifications%22,%20%22name%22:%20%22Notification%20Permission%20State%20Changed%22,%20%22param%22:%20%5B%22granted%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |granted|<span class="chip chip-boolean">Boolean</span>|
 
@@ -80,7 +80,7 @@ Called when subscription state changes. This can happen when: 1. The device rece
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22OneSignal%20Notifications%22,%20%22name%22:%20%22Push%20Subscription%20State%20Changed%22,%20%22param%22:%20%5B%22subscription%20Id%22,%20%22opted%20In%22,%20%22token%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |subscription Id|<span class="chip chip-text">Text</span>|
 |opted In|<span class="chip chip-boolean">Boolean</span>|
@@ -136,7 +136,7 @@ Cancel all notifications in a specific group based on its group key.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22OneSignal%20Notifications%22,%20%22name%22:%20%22Remove%20Grouped%20Notifications%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22group%20Key%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |group Key|<span class="chip chip-text">Text</span>|
 
@@ -146,7 +146,7 @@ Cancel a single notification based on its Android notification ID.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22OneSignal%20Notifications%22,%20%22name%22:%20%22Remove%20Notification%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22android%20Notification%20ID%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |android Notification ID|<span class="chip chip-number">Number</span>|
 
@@ -156,7 +156,7 @@ Shows the native system prompt asking the user for push notification permission.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22OneSignal%20Notifications%22,%20%22name%22:%20%22Request%20Notification%20Permission%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22fallback%20To%20Settings%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |fallback To Settings|<span class="chip chip-boolean">Boolean</span>|
 

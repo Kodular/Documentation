@@ -18,7 +18,7 @@ Margin is a way for a component to enforce some distance from others components.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Decoration%22,%20%22name%22:%20%22Set%20Margin%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22component%22,%20%22values%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |component|<span class="chip chip-component">Component</span>|
 |values|<span class="chip chip-text">Text</span>|
@@ -29,7 +29,7 @@ The padding around the component. Padding is the space inside the border, betwee
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Decoration%22,%20%22name%22:%20%22Set%20Padding%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22component%22,%20%22values%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |component|<span class="chip chip-component">Component</span>|
 |values|<span class="chip chip-text">Text</span>|
@@ -40,7 +40,7 @@ This block allows you to create a rectangle or round shape for the visible compo
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Decoration%22,%20%22name%22:%20%22Set%20Shape%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22component%22,%20%22background%20Color%22,%20%22border%20Color%22,%20%22is%20Round%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |component|<span class="chip chip-component">Component</span>|
 |background Color|<span class="chip chip-number">Number</span>|
