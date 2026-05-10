@@ -10,7 +10,7 @@ Here are some things you should know before you can get started with this guide.
  * Setting up OneSignal in your app
 
 !!! info
-		Take a look at our Community-made guide on setting up Push Notifications for your app [here](https://community.kodular.io/t/how-to-send-notifications-using-push-notification-component/180){:target = "_blank"}.
+    Take a look at our Community-made guide on setting up Push Notifications for your app [here](https://community.kodular.io/t/how-to-send-notifications-using-push-notification-component/180){:target = "_blank"}.
 
 ## First steps
 

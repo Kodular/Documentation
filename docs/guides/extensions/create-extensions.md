@@ -76,7 +76,37 @@
 
 ## Step 5: Building an Extension
 
-<script src="https://gist.github.com/pavi2410/c58954d86e8510e7300b1253c5ecca4a.js"></script>
+```java
+package io.kodular; // package of the extension will be "com.kodular.SimpleMaths"
+
+// Only these imports are required to interact with Kodular
+import com.google.appinventor.components.annotations.*;
+import com.google.appinventor.components.runtime.*;
+import com.google.appinventor.components.common.*;
+
+@DesignerComponent(version = 1, // Update version here, You must do for each new release to upgrade your extension
+                   description = "Simple Maths extension created by you",
+                   category = ComponentCategory.EXTENSION,
+                   nonVisible = true,
+                   iconName = "images/extension.png") // Change your extension's icon from here; can be a direct url
+@SimpleObject(external = true)
+public class SimpleMaths extends AndroidNonvisibleComponent {
+
+    public SimpleMaths(ComponentContainer container) {
+        super(container.$form());
+    }
+
+    @SimpleFunction(description = "Simple addition of two numbers")
+    public int Add(int a, int b) {
+        return a + b;
+    }
+
+    @SimpleFunction(description = "Simple subtraction of two numbers")
+    public int Subtract(int a, int b) {
+        return a - b;
+    }
+}
+```
 
 * Save the above code to `appinventor-sources/appinventor/components/src/io/kodular/`as `SimpleMaths.java`
 * Go back to the `appinventor` folder.

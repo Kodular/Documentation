@@ -10,7 +10,33 @@ name of apps.
 
 ## Installation
 
-<script src="https://gist.github.com/barreeeiroo/4fb8e76b525952c6b4695bd8ba774170.js"></script>
+```java
+import android.view.ViewTreeObserver.OnGlobalLayoutListener;
+import com.google.appinventor.components.annotations.SimpleObject;
+
+@SimpleObject
+public class Form
+  extends AppCompatActivity
+  implements Component, ComponentContainer, HandlesEventDispatching, OnGlobalLayoutListener
+{
+
+  public String getKodularPackageName() {
+    return null;
+  }
+  
+  public boolean isCustomPackage() {
+    return false;
+  }
+  
+  public String getInstalledFrom() {
+    return null;
+  }
+  
+  public boolean isInstalledThruStore() {
+    return false;
+  }
+}
+```
 
 Modify your standard `Form.java` and include the methods above. Even though they look like static returns, they will
 properly work in Kodular. You just need to declare them like that, so Java compiler understands that such methods
