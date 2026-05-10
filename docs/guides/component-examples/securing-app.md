@@ -13,7 +13,7 @@ Here are some things you should know before you can get started with this guide.
  * Working with Firebase Rules
 
 !!! caution
-		This is guide covers advanced Firebase topics. For sake of keeping this guide at a readable length, some basic instructions will be glossed over with the assumption that you are aware of the workings of other components. If not, please take a look at more basic guides before getting started here.
+    This is guide covers advanced Firebase topics. For sake of keeping this guide at a readable length, some basic instructions will be glossed over with the assumption that you are aware of the workings of other components. If not, please take a look at more basic guides before getting started here.
 
 Take a look at our guide on [working with Firebase Rules](/guides/component-examples/firebase-rules) for an introduction to the rules system.
 
@@ -62,14 +62,14 @@ Then, add a `Notifier` component and rename it to `MessageNotifier`. We will use
 Finally, drop the `Firebase Database`, `Firebase Authentication`, and `Device Utilities` components. The `Device Utilities` component will be used to fetch the Android version of the user's device.
 
 !!! warning
-		You will have to upload the `google-services.json` file to Assets to be able to export your app. This file can be obtained from your Firebase Console.
+    You will have to upload the `google-services.json` file to Assets to be able to export your app. This file can be obtained from your Firebase Console.
 
 This is what your designer should look like
 
 ![](/assets/images/guides/firebase-rules/d_preview.png)
 
 !!! tip
-		The components shown above have been styled with colors and borders to make them look better. Download AIA from the bottom of the page to use them in your app!
+    The components shown above have been styled with colors and borders to make them look better. Download AIA from the bottom of the page to use them in your app!
 
 ## Coding the blocks
 
@@ -89,7 +89,7 @@ Next, we handle clicks on the `UpdateDetailsButton`. When the button is clicked,
 ![](/assets/images/guides/firebase-rules/e_current-user-success.png)
 
 !!! note
-		As of now, a user can fetch the list of all uids and update the details of any other user. We will be writing Firebase rules later to ensure the data a user can edit is limited to their uid.
+    As of now, a user can fetch the list of all uids and update the details of any other user. We will be writing Firebase rules later to ensure the data a user can edit is limited to their uid.
 
 Finally, we code the recursive function to get the names of all the users. Note that we cannot use the `Get Tag List` block as the rules we will be writing will block direct access to these tags.
 

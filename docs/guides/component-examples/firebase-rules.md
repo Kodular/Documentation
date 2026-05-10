@@ -23,13 +23,13 @@ Testing your app is easy when you have full access to your database. To enable r
 ```
 
 !!! info
-		All your rules should be wrapped inside the `"rules"` tag. Read rules are always set using the `".read"` tag, and write with `".write"`.
-		
+    All your rules should be wrapped inside the `"rules"` tag. Read rules are always set using the `".read"` tag, and write with `".write"`.
+
 The JSON code above specifies two rules for your entire database. Each rule can be thought of as a condition that has to return `true` if the operation is to succeed. In the case above, both `.read` and `.write` always return `true`, meaning no checks are required before accessing your database.
 
 !!! warning
-		**Never** set read and write to `true` in a production environment. Your database can be hacked easily and worse, can be wiped clean by unauthorized users.
-		
+    **Never** set read and write to `true` in a production environment. Your database can be hacked easily and worse, can be wiped clean by unauthorized users.
+
 ### Authenticated-only mode
 
 You can enable only authenticated users to read and write tags in your database. Users can be authenticated using the [Firebase Authentication](https://docs.kodular.io/components/google/firebase-authentication/){:target = "_blank"} component. 
@@ -48,8 +48,8 @@ The uid of a user can be accessed from the `user ID` variable in the [Login Succ
 
 
 !!! caution
-		These rules are barely more secure than the [testing mode](#testing-mode) rules. Note that your users can still access **all** tags and values (including other users' personal data), and can still potentially clear your entire database.
-		
+    These rules are barely more secure than the [testing mode](#testing-mode) rules. Note that your users can still access **all** tags and values (including other users' personal data), and can still potentially clear your entire database.
+
 ### Uid-Tag mode
 
 You can also write rules to restrict read and write access to specific tags. With such rules, you can ensure that the user can edit only the data which they have created.
@@ -171,8 +171,8 @@ Write your rules such that your users can access only that data which they can v
 Set all rules to `false` in a development environment where you would not want anyone to edit your database. It is also suggested you lock your database if your product is shutting down.
 
 !!! note
-		You will still be able to access and edit your database either from your Firebase console or from the command-line interface (CLI).
-		
+    You will still be able to access and edit your database either from your Firebase console or from the command-line interface (CLI).
+
 ## Conclusion
 
 Firebase Rules are great for securing your database and channeling users to the right tags and values. With the right set of rules, your database will be practically unhackable!

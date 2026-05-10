@@ -13,14 +13,14 @@ Here are some things you should know before you can get started with this guide.
  * Working with Dynamic Labels, Buttons, and Images
 
 !!! caution
-		This is guide covers advanced topics like dynamic components and web APIs. For sake of keeping this guide at a readable length, some basic instructions will be glossed over with the assumption that you are aware of the workings of other components. If not, please take a look at more basic guides before getting started here.
+    This is guide covers advanced topics like dynamic components and web APIs. For sake of keeping this guide at a readable length, some basic instructions will be glossed over with the assumption that you are aware of the workings of other components. If not, please take a look at more basic guides before getting started here.
 
 ## First steps
 
 We will be using the [News API](https://newsapi.org/){:target="_blank"} to fetch the trending headlines. Head over to [https://newsapi.org/](https://newsapi.org/){:target="_blank"}> to get an API key.
 
 !!! warning
-		You will not be able to monetize apps which use the [News API](https://newsapi.org/){:target="_blank"}. To place ads in apps that use this API, you will have to switch to their paid plan first. More information is available [here](https://newsapi.org/pricing){:target="_blank"}
+    You will not be able to monetize apps which use the [News API](https://newsapi.org/){:target="_blank"}. To place ads in apps that use this API, you will have to switch to their paid plan first. More information is available [here](https://newsapi.org/pricing){:target="_blank"}
 
 The API endpoint we'll be using in this guide is `https://newsapi.org/v2/top-headlines?language=en&apiKey={YOUR_API_KEY}`
 
@@ -84,7 +84,7 @@ Next, we create another procedure which takes the JSON object and the array inde
 ![](/assets/images/guides/dynamic-cards/f_create-card.png)
 
 !!! tip
-		It is recommended you place blocks in procedures so that they are more readable and can be used several times.
+    It is recommended you place blocks in procedures so that they are more readable and can be used several times.
 
 For each news article, we first create a card view that holds all the content we wish to show. Use the `Create Card View` block inside the procedure to make a dynamic card for each article. Each card will be 90% of the screen's width and will have automatic height so that it can resize according to the content inside.
 
@@ -99,7 +99,7 @@ Using the `Dynamic Label` component, we create dynamic labels for each card whic
 ![](/assets/images/guides/dynamic-cards/m_create-dynamic-label.png)
 
 !!! tip
-		It is recommended you set the `html` parameter to `False` when getting data from external sources. Unchecked HTML can be used to perform unauthorized actions in your app.
+    It is recommended you set the `html` parameter to `False` when getting data from external sources. Unchecked HTML can be used to perform unauthorized actions in your app.
 
 We use the `Dynamic Label` component one more time to create a label for the description. We set the id to a value that we are certain hasn't been used yet. If you are showing the top 200 news articles, then you might want to start your id's from 1000 (or a similarly appropriate number).
 

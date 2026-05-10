@@ -23,7 +23,7 @@ Here are some things you should know before you can get started with this guide.
  * Working with the Tab Layout and Bottom Navigation components
 
 !!! caution
-		This is guide covers advanced topics like Firebase, staged rollouts, and generic blocks. For sake of keeping this guide at a readable length, some basic instructions will be glossed over with the assumption that you are aware of the workings of other components. If not, please take a look at more basic guides before getting started here.
+    This is guide covers advanced topics like Firebase, staged rollouts, and generic blocks. For sake of keeping this guide at a readable length, some basic instructions will be glossed over with the assumption that you are aware of the workings of other components. If not, please take a look at more basic guides before getting started here.
 
 ## First steps
 
@@ -47,7 +47,7 @@ Add a condition
 {: .img-caption}
 
 !!! tip
-		It is possible to chain several constraints in a single condition using the "and" button.
+    It is possible to chain several constraints in a single condition using the "and" button.
 
 Your `parameter` can now have two `value`s: one for those in the `random_testers_group`, and another for everybody else. Set the `value` to "true" for the testers, and "false" for others.
 
@@ -64,7 +64,7 @@ Publish your changes
 {: .img-caption}
 
 !!! warning
-		Publishing your changes will make them live to all your users. Make sure you check everything twice before publishing!
+    Publishing your changes will make them live to all your users. Make sure you check everything twice before publishing!
 
 That's it for the Firebase part. Now let's move to building your app.
 
@@ -77,7 +77,7 @@ Give each `Vertical Arrangement` a distinct background color, and set their heig
 Finally, set the `Visible` property of the `Bottom Navigation` component to `False`. By default, users will navigate your app using the tab layout. We change this behavior for the random testers group from the Blocks Editor.
 
 !!! warning
-		You will have to upload the `google-services.json` file to Assets to be able to export your app. This file can be obtained from your Firebase Console.
+    You will have to upload the `google-services.json` file to Assets to be able to export your app. This file can be obtained from your Firebase Console.
 
 This is what your designer should look like
 
@@ -102,7 +102,7 @@ We do the same for the `Bottom Navigation` component: first add the menu items (
 ![](/assets/images/guides/remote-config/m_add-item.png)
 
 !!! info
-		The icon assets for the navigation items are provided in the AIA in the [Downloads](#downloads) section.
+    The icon assets for the navigation items are provided in the AIA in the [Downloads](#downloads) section.
 
 We can use the same prodcedure we made for the `Tab Layout`.
 
@@ -122,7 +122,7 @@ If the value is `True`, we show the `Bottom Navigation` instead of the `Tab Layo
 ![](/assets/images/guides/remote-config/e_fetch-success.png)
 
 !!! note
-		Updates to parameters can take a few hours to update across all devices, so don't be alarmed if you don't see all changes immediately.
+    Updates to parameters can take a few hours to update across all devices, so don't be alarmed if you don't see all changes immediately.
 
 ## Conclusion
 
