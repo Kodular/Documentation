@@ -24,7 +24,7 @@ Triggers when there is a Authentication Error
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Fingerprint%22,%20%22name%22:%20%22On%20Authentication%20Error%22,%20%22param%22:%20%5B%22error%20Id%22,%20%22message%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |error Id|<span class="chip chip-number">Number</span>|
 |message|<span class="chip chip-text">Text</span>|
@@ -41,7 +41,7 @@ Triggers when there is a Authentication Help
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Fingerprint%22,%20%22name%22:%20%22On%20Authentication%20Help%22,%20%22param%22:%20%5B%22help%20Id%22,%20%22message%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |help Id|<span class="chip chip-number">Number</span>|
 |message|<span class="chip chip-text">Text</span>|

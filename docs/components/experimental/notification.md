@@ -26,7 +26,7 @@ Send a normal notification
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Notification%22,%20%22name%22:%20%22Big%20Picture%20Notification%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22notification%20ID%22,%20%22title%22,%20%22message%22,%20%22big%20Picture%22,%20%22start%20Value%22,%20%22remove%20On%20Click%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |notification ID|<span class="chip chip-number">Number</span>|
 |title|<span class="chip chip-text">Text</span>|
@@ -47,7 +47,7 @@ Cancel a Notification with an id
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Notification%22,%20%22name%22:%20%22Cancel%20Notification%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22id%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |id|<span class="chip chip-number">Number</span>|
 
@@ -57,7 +57,7 @@ Send a normal notification
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Notification%22,%20%22name%22:%20%22Normal%20Notification%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22notification%20ID%22,%20%22title%22,%20%22message%22,%20%22start%20Value%22,%20%22remove%20On%20Click%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |notification ID|<span class="chip chip-number">Number</span>|
 |title|<span class="chip chip-text">Text</span>|
@@ -71,7 +71,7 @@ Send a simple notification
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Notification%22,%20%22name%22:%20%22Simple%20Notification%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22title%22,%20%22message%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |title|<span class="chip chip-text">Text</span>|
 |message|<span class="chip chip-text">Text</span>|

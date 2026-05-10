@@ -18,7 +18,7 @@ Event to detect that a user has done a simple click on a card view component wit
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Card%20View%22,%20%22name%22:%20%22Click%22,%20%22param%22:%20%5B%22id%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |id|<span class="chip chip-number">Number</span>|
 
@@ -28,7 +28,7 @@ Event to detect that a user has done a simple long click on a card view componen
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Card%20View%22,%20%22name%22:%20%22Long%20Click%22,%20%22param%22:%20%5B%22id%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |id|<span class="chip chip-number">Number</span>|
 
@@ -38,7 +38,7 @@ Event to detect that a user has done a simple touch down on a card view componen
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Card%20View%22,%20%22name%22:%20%22Touch%20Down%22,%20%22param%22:%20%5B%22id%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |id|<span class="chip chip-number">Number</span>|
 
@@ -48,7 +48,7 @@ Event to detect that a user has done a simple touch up on a card view component 
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Card%20View%22,%20%22name%22:%20%22Touch%20Up%22,%20%22param%22:%20%5B%22id%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |id|<span class="chip chip-number">Number</span>|
 
@@ -60,7 +60,7 @@ Add a component into the card view component with the given id.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Card%20View%22,%20%22name%22:%20%22Add%20Component%20To%20Card%20View%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22id%22,%20%22arrangement%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |id|<span class="chip chip-number">Number</span>|
 |arrangement|<span class="chip chip-component">Component</span>|
@@ -71,7 +71,7 @@ Set the content padding of a card view component.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Card%20View%22,%20%22name%22:%20%22Content%20Padding%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22id%22,%20%22content%20Padding%20Left%22,%20%22content%20Padding%20Top%22,%20%22content%20Padding%20Right%22,%20%22content%20Padding%20Bottom%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |id|<span class="chip chip-number">Number</span>|
 |content Padding Left|<span class="chip chip-number">Number</span>|
@@ -85,7 +85,7 @@ Create a new card view component dynamically. Use for width/height '-1' for wrap
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Card%20View%22,%20%22name%22:%20%22Create%20Card%20View%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22id%22,%20%22arrangement%22,%20%22width%22,%20%22height%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |id|<span class="chip chip-number">Number</span>|
 |arrangement|<span class="chip chip-component">Component</span>|
@@ -98,7 +98,7 @@ Remove a card view component with the given id.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Card%20View%22,%20%22name%22:%20%22Delete%20Card%20View%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22id%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |id|<span class="chip chip-number">Number</span>|
 
@@ -110,7 +110,7 @@ Get the background color of a card view component.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Card%20View%22,%20%22name%22:%20%22Get%20Background%20Color%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22id%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |id|<span class="chip chip-number">Number</span>|
 
@@ -122,7 +122,7 @@ Returns the card view referenced by its id.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Card%20View%22,%20%22name%22:%20%22Get%20Card%20View%20By%20Id%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22id%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |id|<span class="chip chip-number">Number</span>|
 
@@ -134,7 +134,7 @@ Get the corner radius of a card view component.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Card%20View%22,%20%22name%22:%20%22Get%20Corner%20Radius%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22id%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |id|<span class="chip chip-number">Number</span>|
 
@@ -146,7 +146,7 @@ Get the elevation of a card view component.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Card%20View%22,%20%22name%22:%20%22Get%20Elevation%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22id%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |id|<span class="chip chip-number">Number</span>|
 
@@ -158,7 +158,7 @@ Get the height of a card view component.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Card%20View%22,%20%22name%22:%20%22Get%20Height%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22id%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |id|<span class="chip chip-number">Number</span>|
 
@@ -170,7 +170,7 @@ Get the width of a card view component.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Card%20View%22,%20%22name%22:%20%22Get%20Width%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22id%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |id|<span class="chip chip-number">Number</span>|
 
@@ -180,7 +180,7 @@ Set the background color of a card view component.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Card%20View%22,%20%22name%22:%20%22Set%20Background%20Color%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22id%22,%20%22argb%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |id|<span class="chip chip-number">Number</span>|
 |argb|<span class="chip chip-number">Number</span>|
@@ -191,7 +191,7 @@ Set the corner radius of a card view component.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Card%20View%22,%20%22name%22:%20%22Set%20Corner%20Radius%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22id%22,%20%22radius%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |id|<span class="chip chip-number">Number</span>|
 |radius|<span class="chip chip-number">Number</span>|
@@ -202,7 +202,7 @@ Set the elevation of a card view component.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Card%20View%22,%20%22name%22:%20%22Set%20Elevation%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22id%22,%20%22value%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |id|<span class="chip chip-number">Number</span>|
 |value|<span class="chip chip-number">Number</span>|
@@ -213,7 +213,7 @@ Set the height of a card view component.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Card%20View%22,%20%22name%22:%20%22Set%20Height%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22id%22,%20%22height%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |id|<span class="chip chip-number">Number</span>|
 |height|<span class="chip chip-number">Number</span>|
@@ -224,7 +224,7 @@ Set the width of a card view component.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Card%20View%22,%20%22name%22:%20%22Set%20Width%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22id%22,%20%22width%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |id|<span class="chip chip-number">Number</span>|
 |width|<span class="chip chip-number">Number</span>|
@@ -235,7 +235,7 @@ Set the stroke color to a card view component with the specific id.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Card%20View%22,%20%22name%22:%20%22Stroke%20Color%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22id%22,%20%22color%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |id|<span class="chip chip-number">Number</span>|
 |color|<span class="chip chip-number">Number</span>|
@@ -246,7 +246,7 @@ Set the stroke width to a card view component with the specific id.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Dynamic%20Card%20View%22,%20%22name%22:%20%22Stroke%20Width%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22id%22,%20%22width%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |id|<span class="chip chip-number">Number</span>|
 |width|<span class="chip chip-number">Number</span>|

@@ -18,7 +18,7 @@ Use this block to add a menu item with the given title to open any app you want 
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Custom%20Tabs%22,%20%22name%22:%20%22Add%20Menu%20Item%20Open%20App%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22title%22,%20%22package%20Name%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |title|<span class="chip chip-text">Text</span>|
 |package Name|<span class="chip chip-text">Text</span>|
@@ -29,7 +29,7 @@ Use this block to add a menu item with the given title and page link. The page c
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Custom%20Tabs%22,%20%22name%22:%20%22Add%20Menu%20Item%20Open%20Page%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22title%22,%20%22page%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |title|<span class="chip chip-text">Text</span>|
 |page|<span class="chip chip-text">Text</span>|

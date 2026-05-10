@@ -24,7 +24,7 @@ Event to detect when a link was converted.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Shortlink%22,%20%22name%22:%20%22Got%20Response%22,%20%22param%22:%20%5B%22success%22,%20%22response%20Content%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |success|<span class="chip chip-boolean">Boolean</span>|
 |response Content|<span class="chip chip-text">Text</span>|
@@ -37,7 +37,7 @@ Convert a short link from google into a normal link. Powerd by Google.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Shortlink%22,%20%22name%22:%20%22Short%20To%20URL%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22url%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |url|<span class="chip chip-text">Text</span>|
 
@@ -47,7 +47,7 @@ Convert a link into a short link. Powerd by Google.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Shortlink%22,%20%22name%22:%20%22URL%20To%20Short%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22url%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |url|<span class="chip chip-text">Text</span>|
 

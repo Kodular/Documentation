@@ -51,7 +51,7 @@ Indicates that the Fusion Tables query has finished processing, with a result. T
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Fusiontables%20Control%22,%20%22name%22:%20%22Got%20Result%22,%20%22param%22:%20%5B%22result%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |result|<span class="chip chip-text">Text</span>|
 
@@ -77,7 +77,7 @@ Gets all the rows from a specified fusion table. The tableId field is the id of 
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Fusiontables%20Control%22,%20%22name%22:%20%22Get%20Rows%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22table%20ID%22,%20%22columns%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |table ID|<span class="chip chip-text">Text</span>|
 |columns|<span class="chip chip-text">Text</span>|
@@ -88,7 +88,7 @@ Gets all the rows from a fusion table that meet certain conditions. The tableId 
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Fusiontables%20Control%22,%20%22name%22:%20%22Get%20Rows%20With%20Conditions%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22table%20ID%22,%20%22columns%22,%20%22conditions%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |table ID|<span class="chip chip-text">Text</span>|
 |columns|<span class="chip chip-text">Text</span>|
@@ -100,7 +100,7 @@ Inserts a row into the specified fusion table. The tableId field is the id of th
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Fusiontables%20Control%22,%20%22name%22:%20%22Insert%20Row%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22table%20ID%22,%20%22columns%22,%20%22values%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |table ID|<span class="chip chip-text">Text</span>|
 |columns|<span class="chip chip-text">Text</span>|

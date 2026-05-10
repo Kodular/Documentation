@@ -28,7 +28,7 @@ Triggered after an actions such as storing data has occurred.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22GoogleSpreadsheet%22,%20%22name%22:%20%22after%20Action%22,%20%22param%22:%20%5B%22was%20Success%22,%20%22message%22,%20%22action%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |was Success|<span class="chip chip-boolean">Boolean</span>|
 |message|<span class="chip chip-text">Text</span>|
@@ -44,7 +44,7 @@ For the given columnName and rowNumber, retrieves the spreadsheet cell data
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22GoogleSpreadsheet%22,%20%22name%22:%20%22Get%20Cell%20Data%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22column%20Name%22,%20%22row%20Number%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |column Name|<span class="chip chip-text">Text</span>|
 |row Number|<span class="chip chip-number">Number</span>|
@@ -57,7 +57,7 @@ Retrieves all data for an entire column
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22GoogleSpreadsheet%22,%20%22name%22:%20%22Get%20Column%20Data%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22column%20Name%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |column Name|<span class="chip chip-text">Text</span>|
 
@@ -69,7 +69,7 @@ Retrieves data for a specific row number
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22GoogleSpreadsheet%22,%20%22name%22:%20%22Get%20Row%20Data%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22row%20Number%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |row Number|<span class="chip chip-number">Number</span>|
 
@@ -85,7 +85,7 @@ Stores data into spreadsheet. dataToStore must be in json format. Will trigger A
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22GoogleSpreadsheet%22,%20%22name%22:%20%22Store%20Data%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22data%20To%20Store%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |data To Store|<span class="chip chip-text">Text</span>|
 
