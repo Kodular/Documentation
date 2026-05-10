@@ -856,8 +856,6 @@
       
         
       
-        
-      
     
     
       
@@ -1591,28 +1589,6 @@
   
   <span class="md-ellipsis">
     Monetization
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../monetization-old/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Monetization (Legacy)
     
   </span>
   
@@ -8602,9 +8578,7 @@
 </ul>
 <div class="admonition caution">
 <p class="admonition-title">Caution</p>
-<div class="codehilite"><pre><span></span><code><span class="nv">This</span><span class="w"> </span><span class="nv">is</span><span class="w"> </span><span class="nv">guide</span><span class="w"> </span><span class="nv">covers</span><span class="w"> </span><span class="nv">advanced</span><span class="w"> </span><span class="nv">Firebase</span><span class="w"> </span><span class="nv">topics</span>.<span class="w"> </span><span class="k">For</span><span class="w"> </span><span class="nv">sake</span><span class="w"> </span><span class="nv">of</span><span class="w"> </span><span class="nv">keeping</span><span class="w"> </span><span class="nv">this</span><span class="w"> </span><span class="nv">guide</span><span class="w"> </span><span class="nv">at</span><span class="w"> </span><span class="nv">a</span><span class="w"> </span><span class="nv">readable</span><span class="w"> </span><span class="nv">length</span>,<span class="w"> </span><span class="nv">some</span><span class="w"> </span><span class="nv">basic</span><span class="w"> </span><span class="nv">instructions</span><span class="w"> </span><span class="nv">will</span><span class="w"> </span><span class="nv">be</span><span class="w"> </span><span class="nv">glossed</span><span class="w"> </span><span class="nv">over</span><span class="w"> </span><span class="nv">with</span><span class="w"> </span><span class="nv">the</span><span class="w"> </span><span class="nv">assumption</span><span class="w"> </span><span class="nv">that</span><span class="w"> </span><span class="nv">you</span><span class="w"> </span><span class="nv">are</span><span class="w"> </span><span class="nv">aware</span><span class="w"> </span><span class="nv">of</span><span class="w"> </span><span class="nv">the</span><span class="w"> </span><span class="nv">workings</span><span class="w"> </span><span class="nv">of</span><span class="w"> </span><span class="nv">other</span><span class="w"> </span><span class="nv">components</span>.<span class="w"> </span><span class="k">If</span><span class="w"> </span><span class="nv">not</span>,<span class="w"> </span><span class="nv">please</span><span class="w"> </span><span class="nv">take</span><span class="w"> </span><span class="nv">a</span><span class="w"> </span><span class="nv">look</span><span class="w"> </span><span class="nv">at</span><span class="w"> </span><span class="nv">more</span><span class="w"> </span><span class="nv">basic</span><span class="w"> </span><span class="nv">guides</span><span class="w"> </span><span class="nv">before</span><span class="w"> </span><span class="nv">getting</span><span class="w"> </span><span class="nv">started</span><span class="w"> </span><span class="nv">here</span>.
-</code></pre></div>
-
+<p>This is guide covers advanced Firebase topics. For sake of keeping this guide at a readable length, some basic instructions will be glossed over with the assumption that you are aware of the workings of other components. If not, please take a look at more basic guides before getting started here.</p>
 </div>
 <p>Take a look at our guide on <a href="/guides/component-examples/firebase-rules">working with Firebase Rules</a> for an introduction to the rules system.</p>
 <h2 id="first-steps">First steps<a class="headerlink" href="#first-steps" title="Permanent link">&para;</a></h2>
@@ -8634,17 +8608,13 @@
 <p>Finally, drop the <code>Firebase Database</code>, <code>Firebase Authentication</code>, and <code>Device Utilities</code> components. The <code>Device Utilities</code> component will be used to fetch the Android version of the user's device.</p>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
-<div class="codehilite"><pre><span></span><code><span class="n">You</span><span class="w"> </span><span class="n">will</span><span class="w"> </span><span class="n">have</span><span class="w"> </span><span class="n">to</span><span class="w"> </span><span class="n">upload</span><span class="w"> </span><span class="n">the</span><span class="w"> </span><span class="err">`</span><span class="n">google</span><span class="o">-</span><span class="n">services</span><span class="o">.</span><span class="n">json</span><span class="err">`</span><span class="w"> </span><span class="n">file</span><span class="w"> </span><span class="n">to</span><span class="w"> </span><span class="n">Assets</span><span class="w"> </span><span class="n">to</span><span class="w"> </span><span class="n">be</span><span class="w"> </span><span class="n">able</span><span class="w"> </span><span class="n">to</span><span class="w"> </span><span class="k">export</span><span class="w"> </span><span class="n">your</span><span class="w"> </span><span class="n">app</span><span class="o">.</span><span class="w"> </span><span class="n">This</span><span class="w"> </span><span class="n">file</span><span class="w"> </span><span class="n">can</span><span class="w"> </span><span class="n">be</span><span class="w"> </span><span class="n">obtained</span><span class="w"> </span><span class="n">from</span><span class="w"> </span><span class="n">your</span><span class="w"> </span><span class="n">Firebase</span><span class="w"> </span><span class="n">Console</span><span class="o">.</span>
-</code></pre></div>
-
+<p>You will have to upload the <code>google-services.json</code> file to Assets to be able to export your app. This file can be obtained from your Firebase Console.</p>
 </div>
 <p>This is what your designer should look like</p>
 <p><img alt="" src="/assets/images/guides/firebase-rules/d_preview.png" /></p>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
-<div class="codehilite"><pre><span></span><code><span class="n">The</span><span class="w"> </span><span class="n">components</span><span class="w"> </span><span class="n">shown</span><span class="w"> </span><span class="n">above</span><span class="w"> </span><span class="n">have</span><span class="w"> </span><span class="n">been</span><span class="w"> </span><span class="n">styled</span><span class="w"> </span><span class="n">with</span><span class="w"> </span><span class="n">colors</span><span class="w"> </span><span class="ow">and</span><span class="w"> </span><span class="n">borders</span><span class="w"> </span><span class="n">to</span><span class="w"> </span><span class="n">make</span><span class="w"> </span><span class="n">them</span><span class="w"> </span><span class="n">look</span><span class="w"> </span><span class="n">better</span><span class="o">.</span><span class="w"> </span><span class="n">Download</span><span class="w"> </span><span class="n">AIA</span><span class="w"> </span><span class="n">from</span><span class="w"> </span><span class="n">the</span><span class="w"> </span><span class="n">bottom</span><span class="w"> </span><span class="n">of</span><span class="w"> </span><span class="n">the</span><span class="w"> </span><span class="n">page</span><span class="w"> </span><span class="n">to</span><span class="w"> </span><span class="n">use</span><span class="w"> </span><span class="n">them</span><span class="w"> </span><span class="ow">in</span><span class="w"> </span><span class="n">your</span><span class="w"> </span><span class="n">app</span><span class="o">!</span>
-</code></pre></div>
-
+<p>The components shown above have been styled with colors and borders to make them look better. Download AIA from the bottom of the page to use them in your app!</p>
 </div>
 <h2 id="coding-the-blocks">Coding the blocks<a class="headerlink" href="#coding-the-blocks" title="Permanent link">&para;</a></h2>
 <p>First, we add an event block to handle clicks on the <code>SignInButton</code>. The user is to be shown a prompt to sign in with Google.</p>
@@ -8657,9 +8627,7 @@
 <img alt="" src="/assets/images/guides/firebase-rules/e_current-user-success.png" /></p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<div class="codehilite"><pre><span></span><code>As of now, a user can fetch the list of all uids and update the details of any other user. We will be writing Firebase rules later to ensure the data a user can edit is limited to their uid.
-</code></pre></div>
-
+<p>As of now, a user can fetch the list of all uids and update the details of any other user. We will be writing Firebase rules later to ensure the data a user can edit is limited to their uid.</p>
 </div>
 <p>Finally, we code the recursive function to get the names of all the users. Note that we cannot use the <code>Get Tag List</code> block as the rules we will be writing will block direct access to these tags.</p>
 <p>To get the names of all the users, we will need two lists: one for all uids and another for all names.</p>
@@ -8871,7 +8839,7 @@ We can restrict read/write operations accordingly with this rule:</p>
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="June 15, 2025 13:25:26">June 15, 2025</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="May 10, 2026 21:46:38">May 10, 2026</span>
   </span>
 
     

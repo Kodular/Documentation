@@ -856,8 +856,6 @@
       
         
       
-        
-      
     
     
       
@@ -1615,28 +1613,6 @@
   
   <span class="md-ellipsis">
     Monetization
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../monetization-old/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Monetization (Legacy)
     
   </span>
   
@@ -8655,16 +8631,12 @@
 </code></pre></div></p>
 <div class="admonition info">
 <p class="admonition-title">Info</p>
-<div class="codehilite"><pre><span></span><code>All your rules should be wrapped inside the `&quot;rules&quot;` tag. Read rules are always set using the `&quot;.read&quot;` tag, and write with `&quot;.write&quot;`.
-</code></pre></div>
-
+<p>All your rules should be wrapped inside the <code>"rules"</code> tag. Read rules are always set using the <code>".read"</code> tag, and write with <code>".write"</code>.</p>
 </div>
 <p>The JSON code above specifies two rules for your entire database. Each rule can be thought of as a condition that has to return <code>true</code> if the operation is to succeed. In the case above, both <code>.read</code> and <code>.write</code> always return <code>true</code>, meaning no checks are required before accessing your database.</p>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
-<div class="codehilite"><pre><span></span><code><span class="o">**</span><span class="k">Never</span><span class="o">**</span><span class="w"> </span><span class="k">set</span><span class="w"> </span><span class="k">read</span><span class="w"> </span><span class="k">and</span><span class="w"> </span><span class="k">write</span><span class="w"> </span><span class="k">to</span><span class="w"> </span><span class="n n-Quoted">`true`</span><span class="w"> </span><span class="k">in</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="n">production</span><span class="w"> </span><span class="n">environment</span><span class="p">.</span><span class="w"> </span><span class="n">Your</span><span class="w"> </span><span class="k">database</span><span class="w"> </span><span class="n">can</span><span class="w"> </span><span class="n">be</span><span class="w"> </span><span class="n">hacked</span><span class="w"> </span><span class="n">easily</span><span class="w"> </span><span class="k">and</span><span class="w"> </span><span class="n">worse</span><span class="p">,</span><span class="w"> </span><span class="n">can</span><span class="w"> </span><span class="n">be</span><span class="w"> </span><span class="n">wiped</span><span class="w"> </span><span class="n">clean</span><span class="w"> </span><span class="k">by</span><span class="w"> </span><span class="n">unauthorized</span><span class="w"> </span><span class="n">users</span><span class="p">.</span>
-</code></pre></div>
-
+<p><strong>Never</strong> set read and write to <code>true</code> in a production environment. Your database can be hacked easily and worse, can be wiped clean by unauthorized users.</p>
 </div>
 <h3 id="authenticated-only-mode">Authenticated-only mode<a class="headerlink" href="#authenticated-only-mode" title="Permanent link">&para;</a></h3>
 <p>You can enable only authenticated users to read and write tags in your database. Users can be authenticated using the <a href="https://docs.kodular.io/components/google/firebase-authentication/" target="target">Firebase Authentication</a> component. 
@@ -8679,9 +8651,7 @@
 <p>The uid of a user can be accessed from the <code>user ID</code> variable in the <a href="https://docs.kodular.io/components/google/firebase-authentication/#login-success">Login Success</a> and <a href="https://docs.kodular.io/components/google/firebase-authentication/#current-user-success">Current User Success</a> blocks in the Firebase Authentication component.</p>
 <div class="admonition caution">
 <p class="admonition-title">Caution</p>
-<div class="codehilite"><pre><span></span><code><span class="n">These</span><span class="w"> </span><span class="n">rules</span><span class="w"> </span><span class="n">are</span><span class="w"> </span><span class="n">barely</span><span class="w"> </span><span class="n">more</span><span class="w"> </span><span class="n">secure</span><span class="w"> </span><span class="n">than</span><span class="w"> </span><span class="n">the</span><span class="w"> </span><span class="p">[</span><span class="n">testing</span><span class="w"> </span><span class="n">mode</span><span class="p">](</span><span class="err">#</span><span class="n">testing</span><span class="o">-</span><span class="n">mode</span><span class="p">)</span><span class="w"> </span><span class="n">rules</span><span class="p">.</span><span class="w"> </span><span class="n">Note</span><span class="w"> </span><span class="n">that</span><span class="w"> </span><span class="n">your</span><span class="w"> </span><span class="n">users</span><span class="w"> </span><span class="n">can</span><span class="w"> </span><span class="n">still</span><span class="w"> </span><span class="n">access</span><span class="w"> </span><span class="o">**</span><span class="n">all</span><span class="o">**</span><span class="w"> </span><span class="n">tags</span><span class="w"> </span><span class="n">and</span><span class="w"> </span><span class="n">values</span><span class="w"> </span><span class="p">(</span><span class="n">including</span><span class="w"> </span><span class="n">other</span><span class="w"> </span><span class="n">users</span><span class="err">&#39;</span><span class="w"> </span><span class="n">personal</span><span class="w"> </span><span class="n">data</span><span class="p">),</span><span class="w"> </span><span class="n">and</span><span class="w"> </span><span class="n">can</span><span class="w"> </span><span class="n">still</span><span class="w"> </span><span class="n">potentially</span><span class="w"> </span><span class="n">clear</span><span class="w"> </span><span class="n">your</span><span class="w"> </span><span class="n">entire</span><span class="w"> </span><span class="n">database</span><span class="p">.</span>
-</code></pre></div>
-
+<p>These rules are barely more secure than the <a href="#testing-mode">testing mode</a> rules. Note that your users can still access <strong>all</strong> tags and values (including other users' personal data), and can still potentially clear your entire database.</p>
 </div>
 <h3 id="uid-tag-mode">Uid-Tag mode<a class="headerlink" href="#uid-tag-mode" title="Permanent link">&para;</a></h3>
 <p>You can also write rules to restrict read and write access to specific tags. With such rules, you can ensure that the user can edit only the data which they have created.</p>
@@ -8779,9 +8749,7 @@ The more complex your database structure is, the harder it is to write coherent 
 <p>Set all rules to <code>false</code> in a development environment where you would not want anyone to edit your database. It is also suggested you lock your database if your product is shutting down.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<div class="codehilite"><pre><span></span><code>You will still be able to access and edit your database either from your Firebase console or from the command-line interface (CLI).
-</code></pre></div>
-
+<p>You will still be able to access and edit your database either from your Firebase console or from the command-line interface (CLI).</p>
 </div>
 <h2 id="conclusion">Conclusion<a class="headerlink" href="#conclusion" title="Permanent link">&para;</a></h2>
 <p>Firebase Rules are great for securing your database and channeling users to the right tags and values. With the right set of rules, your database will be practically unhackable!</p>
@@ -8812,7 +8780,7 @@ The more complex your database structure is, the harder it is to write coherent 
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="September 16, 2019 18:23:03">September 16, 2019</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="May 10, 2026 21:46:38">May 10, 2026</span>
   </span>
 
     

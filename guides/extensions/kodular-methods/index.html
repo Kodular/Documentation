@@ -856,8 +856,6 @@
       
         
       
-        
-      
     
     
       
@@ -1546,28 +1544,6 @@
   
   <span class="md-ellipsis">
     Monetization
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../monetization-old/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Monetization (Legacy)
     
   </span>
   
@@ -8510,8 +8486,32 @@ name of apps.</p>
 Kodular sources if you call them directly. Keep reading to learn how to make it fully compatible.</p>
 </div>
 <h2 id="installation">Installation<a class="headerlink" href="#installation" title="Permanent link">&para;</a></h2>
-<script src="https://gist.github.com/barreeeiroo/4fb8e76b525952c6b4695bd8ba774170.js"></script>
+<div class="highlight"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">android.view.ViewTreeObserver.OnGlobalLayoutListener</span><span class="p">;</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">com.google.appinventor.components.annotations.SimpleObject</span><span class="p">;</span>
 
+<span class="nd">@SimpleObject</span>
+<span class="kd">public</span><span class="w"> </span><span class="kd">class</span> <span class="nc">Form</span>
+<span class="w">  </span><span class="kd">extends</span><span class="w"> </span><span class="n">AppCompatActivity</span>
+<span class="w">  </span><span class="kd">implements</span><span class="w"> </span><span class="n">Component</span><span class="p">,</span><span class="w"> </span><span class="n">ComponentContainer</span><span class="p">,</span><span class="w"> </span><span class="n">HandlesEventDispatching</span><span class="p">,</span><span class="w"> </span><span class="n">OnGlobalLayoutListener</span>
+<span class="p">{</span>
+
+<span class="w">  </span><span class="kd">public</span><span class="w"> </span><span class="n">String</span><span class="w"> </span><span class="nf">getKodularPackageName</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="kc">null</span><span class="p">;</span>
+<span class="w">  </span><span class="p">}</span>
+
+<span class="w">  </span><span class="kd">public</span><span class="w"> </span><span class="kt">boolean</span><span class="w"> </span><span class="nf">isCustomPackage</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="kc">false</span><span class="p">;</span>
+<span class="w">  </span><span class="p">}</span>
+
+<span class="w">  </span><span class="kd">public</span><span class="w"> </span><span class="n">String</span><span class="w"> </span><span class="nf">getInstalledFrom</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="kc">null</span><span class="p">;</span>
+<span class="w">  </span><span class="p">}</span>
+
+<span class="w">  </span><span class="kd">public</span><span class="w"> </span><span class="kt">boolean</span><span class="w"> </span><span class="nf">isInstalledThruStore</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="kc">false</span><span class="p">;</span>
+<span class="w">  </span><span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
 <p>Modify your standard <code>Form.java</code> and include the methods above. Even though they look like static returns, they will
 properly work in Kodular. You just need to declare them like that, so Java compiler understands that such methods
 exist.</p>
@@ -8556,7 +8556,7 @@ See <a href="https://stackoverflow.com/a/161005/6626193">this StackOverflow answ
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="August 11, 2021 16:56:47">August 11, 2021</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="May 10, 2026 21:46:38">May 10, 2026</span>
   </span>
 
     
