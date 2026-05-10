@@ -18,7 +18,7 @@ Triggered after GenerateQrCode finishes. On success, url is a local file:// URI 
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22QR%20Code%22,%20%22name%22:%20%22Got%20Response%22,%20%22param%22:%20%5B%22success%22,%20%22url%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |success|<span class="chip chip-boolean">Boolean</span>|
 |url|<span class="chip chip-text">Text</span>|
@@ -62,11 +62,11 @@ Output image format used when generating the QR code image. Supported values are
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22QR%20Code%22,%20%22name%22:%20%22Format%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22QR%20Code%22,%20%22name%22:%20%22Format%22,%20%22getter%22:%20false%7D"></div>
 
-| Options | []() |
+| Option | Value |
 |--------|------|
-|Png|Option for Png|
-|Jpeg|Option for Jpeg|
-|Webp|Option for Webp|
+|Png|png|
+|Jpeg|jpeg|
+|Webp|webp|
 
 ### Front Color
 

@@ -25,7 +25,7 @@ Event triggered when an offer has been completed
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22WhiteMobi%22,%20%22name%22:%20%22Offer%20Completed%22,%20%22param%22:%20%5B%22amount%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |amount|<span class="chip chip-number">Number</span>|
 

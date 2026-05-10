@@ -18,7 +18,7 @@ Event indicating that the contents of the file have been written.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22File%22,%20%22name%22:%20%22After%20File%20Saved%22,%20%22param%22:%20%5B%22file%20Name%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |file Name|<span class="chip chip-text">Text</span>|
 
@@ -42,7 +42,7 @@ Event indicating that there was a directory created. The return value is 'true' 
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22File%22,%20%22name%22:%20%22Directory%20Created%22,%20%22param%22:%20%5B%22is%20Directory%20Created%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |is Directory Created|<span class="chip chip-boolean">Boolean</span>|
 
@@ -52,7 +52,7 @@ Event indicating that the contents from the file have been read.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22File%22,%20%22name%22:%20%22Got%20Text%22,%20%22param%22:%20%5B%22text%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |text|<span class="chip chip-text">Text</span>|
 
@@ -62,7 +62,7 @@ Event indicating that there was any failure on zip or unzip a file.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22File%22,%20%22name%22:%20%22On%20Zip%20Failure%22,%20%22param%22:%20%5B%22error%20Message%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |error Message|<span class="chip chip-text">Text</span>|
 
@@ -74,7 +74,7 @@ Appends text to the end of a file storage, creating the file if it does not exis
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22File%22,%20%22name%22:%20%22Append%20To%20File%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22text%22,%20%22file%20Name%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |text|<span class="chip chip-text">Text</span>|
 |file Name|<span class="chip chip-text">Text</span>|
@@ -87,7 +87,7 @@ Copy a file. If input path started with two // (slashes) then it's a asset file.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22File%22,%20%22name%22:%20%22Copy%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22input%22,%20%22output%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |input|<span class="chip chip-text">Text</span>|
 |output|<span class="chip chip-text">Text</span>|
@@ -100,30 +100,30 @@ Copy the contents from the first file to the second file.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22File%22,%20%22name%22:%20%22Copy%20File%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22from%20Scope%22,%20%22from%20File%20Name%22,%20%22to%20Scope%22,%20%22to%20File%20Name%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |from Scope|<span class="chip chip-text">Text</span><br><span class="chip chip-enum">FileScope</span>|
 |from File Name|<span class="chip chip-text">Text</span>|
 |to Scope|<span class="chip chip-text">Text</span><br><span class="chip chip-enum">FileScope</span>|
 |to File Name|<span class="chip chip-text">Text</span>|
 
-| from Scope Options | []() |
+| from Scope Option | Value |
 |--------|------|
-|App|Option for App|
-|Asset|Option for Asset|
-|Cache|Option for Cache|
-|Legacy|Option for Legacy|
-|Private|Option for Private|
-|Shared|Option for Shared|
+|App|App|
+|Asset|Asset|
+|Cache|Cache|
+|Legacy|Legacy|
+|Private|Private|
+|Shared|Shared|
 
-| to Scope Options | []() |
+| to Scope Option | Value |
 |--------|------|
-|App|Option for App|
-|Asset|Option for Asset|
-|Cache|Option for Cache|
-|Legacy|Option for Legacy|
-|Private|Option for Private|
-|Shared|Option for Shared|
+|App|App|
+|Asset|Asset|
+|Cache|Cache|
+|Legacy|Legacy|
+|Private|Private|
+|Shared|Shared|
 
 ### Create Directory
 
@@ -133,7 +133,7 @@ Create a new directory. Use MakeDirectory instead.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22File%22,%20%22name%22:%20%22Create%20Directory%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22directory%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |directory|<span class="chip chip-text">Text</span>|
 
@@ -143,7 +143,7 @@ Deletes a file from storage. Prefix the filename with / to delete a specific fil
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22File%22,%20%22name%22:%20%22Delete%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22file%20Name%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |file Name|<span class="chip chip-text">Text</span>|
 
@@ -155,19 +155,19 @@ Tests whether the path exists in the given scope.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22File%22,%20%22name%22:%20%22Exists%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22scope%22,%20%22path%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |scope|<span class="chip chip-text">Text</span><br><span class="chip chip-enum">FileScope</span>|
 |path|<span class="chip chip-text">Text</span>|
 
-| scope Options | []() |
+| scope Option | Value |
 |--------|------|
-|App|Option for App|
-|Asset|Option for Asset|
-|Cache|Option for Cache|
-|Legacy|Option for Legacy|
-|Private|Option for Private|
-|Shared|Option for Shared|
+|App|App|
+|Asset|Asset|
+|Cache|Cache|
+|Legacy|Legacy|
+|Private|Private|
+|Shared|Shared|
 
 ### File Size
 
@@ -177,7 +177,7 @@ Get file size
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22File%22,%20%22name%22:%20%22File%20Size%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22file%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |file|<span class="chip chip-text">Text</span>|
 
@@ -189,7 +189,7 @@ Get file name
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22File%22,%20%22name%22:%20%22Get%20File%20Name%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22file%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |file|<span class="chip chip-text">Text</span>|
 
@@ -201,7 +201,7 @@ Get Free Space
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22File%22,%20%22name%22:%20%22Get%20Free%20Space%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22path%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |path|<span class="chip chip-text">Text</span>|
 
@@ -213,7 +213,7 @@ Get total space
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22File%22,%20%22name%22:%20%22Get%20Total%20Space%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22path%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |path|<span class="chip chip-text">Text</span>|
 
@@ -225,19 +225,19 @@ Tests whether the path named in the given scope is a directory.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22File%22,%20%22name%22:%20%22Is%20Directory%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22scope%22,%20%22path%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |scope|<span class="chip chip-text">Text</span><br><span class="chip chip-enum">FileScope</span>|
 |path|<span class="chip chip-text">Text</span>|
 
-| scope Options | []() |
+| scope Option | Value |
 |--------|------|
-|App|Option for App|
-|Asset|Option for Asset|
-|Cache|Option for Cache|
-|Legacy|Option for Legacy|
-|Private|Option for Private|
-|Shared|Option for Shared|
+|App|App|
+|Asset|Asset|
+|Cache|Cache|
+|Legacy|Legacy|
+|Private|Private|
+|Shared|Shared|
 
 ### Is File
 
@@ -247,7 +247,7 @@ Check whether the path is a file
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22File%22,%20%22name%22:%20%22Is%20File%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22path%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |path|<span class="chip chip-text">Text</span>|
 
@@ -259,19 +259,19 @@ Get a list of files and directories in the given directory.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22File%22,%20%22name%22:%20%22List%20Directory%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22scope%22,%20%22directory%20Name%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |scope|<span class="chip chip-text">Text</span><br><span class="chip chip-enum">FileScope</span>|
 |directory Name|<span class="chip chip-text">Text</span>|
 
-| scope Options | []() |
+| scope Option | Value |
 |--------|------|
-|App|Option for App|
-|Asset|Option for Asset|
-|Cache|Option for Cache|
-|Legacy|Option for Legacy|
-|Private|Option for Private|
-|Shared|Option for Shared|
+|App|App|
+|Asset|Asset|
+|Cache|Cache|
+|Legacy|Legacy|
+|Private|Private|
+|Shared|Shared|
 
 ### Make Directory
 
@@ -281,19 +281,19 @@ Create a new directory for storing files. The semantics of this method are such 
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22File%22,%20%22name%22:%20%22Make%20Directory%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22scope%22,%20%22directory%20Name%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |scope|<span class="chip chip-text">Text</span><br><span class="chip chip-enum">FileScope</span>|
 |directory Name|<span class="chip chip-text">Text</span>|
 
-| scope Options | []() |
+| scope Option | Value |
 |--------|------|
-|App|Option for App|
-|Asset|Option for Asset|
-|Cache|Option for Cache|
-|Legacy|Option for Legacy|
-|Private|Option for Private|
-|Shared|Option for Shared|
+|App|App|
+|Asset|Asset|
+|Cache|Cache|
+|Legacy|Legacy|
+|Private|Private|
+|Shared|Shared|
 
 ### Make Full Path
 
@@ -303,19 +303,19 @@ Converts the scope and path into a single string for other components.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22File%22,%20%22name%22:%20%22Make%20Full%20Path%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22scope%22,%20%22path%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |scope|<span class="chip chip-text">Text</span><br><span class="chip chip-enum">FileScope</span>|
 |path|<span class="chip chip-text">Text</span>|
 
-| scope Options | []() |
+| scope Option | Value |
 |--------|------|
-|App|Option for App|
-|Asset|Option for Asset|
-|Cache|Option for Cache|
-|Legacy|Option for Legacy|
-|Private|Option for Private|
-|Shared|Option for Shared|
+|App|App|
+|Asset|Asset|
+|Cache|Cache|
+|Legacy|Legacy|
+|Private|Private|
+|Shared|Shared|
 
 ### Move
 
@@ -327,7 +327,7 @@ Move a file. You can not move asset files. Use MoveFile instead.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22File%22,%20%22name%22:%20%22Move%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22input%22,%20%22output%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |input|<span class="chip chip-text">Text</span>|
 |output|<span class="chip chip-text">Text</span>|
@@ -340,30 +340,30 @@ Move a file from one location to another.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22File%22,%20%22name%22:%20%22Move%20File%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22from%20Scope%22,%20%22from%20File%20Name%22,%20%22to%20Scope%22,%20%22to%20File%20Name%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |from Scope|<span class="chip chip-text">Text</span><br><span class="chip chip-enum">FileScope</span>|
 |from File Name|<span class="chip chip-text">Text</span>|
 |to Scope|<span class="chip chip-text">Text</span><br><span class="chip chip-enum">FileScope</span>|
 |to File Name|<span class="chip chip-text">Text</span>|
 
-| from Scope Options | []() |
+| from Scope Option | Value |
 |--------|------|
-|App|Option for App|
-|Asset|Option for Asset|
-|Cache|Option for Cache|
-|Legacy|Option for Legacy|
-|Private|Option for Private|
-|Shared|Option for Shared|
+|App|App|
+|Asset|Asset|
+|Cache|Cache|
+|Legacy|Legacy|
+|Private|Private|
+|Shared|Shared|
 
-| to Scope Options | []() |
+| to Scope Option | Value |
 |--------|------|
-|App|Option for App|
-|Asset|Option for Asset|
-|Cache|Option for Cache|
-|Legacy|Option for Legacy|
-|Private|Option for Private|
-|Shared|Option for Shared|
+|App|App|
+|Asset|Asset|
+|Cache|Cache|
+|Legacy|Legacy|
+|Private|Private|
+|Shared|Shared|
 
 ### Read From
 
@@ -371,7 +371,7 @@ Reads text from a file in storage. Prefix the filename with / to read from a spe
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22File%22,%20%22name%22:%20%22Read%20From%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22file%20Name%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |file Name|<span class="chip chip-text">Text</span>|
 
@@ -383,20 +383,20 @@ Remove a directory from the file system. If recursive is true, then everything i
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22File%22,%20%22name%22:%20%22Remove%20Directory%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22scope%22,%20%22directory%20Name%22,%20%22recursive%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |scope|<span class="chip chip-text">Text</span><br><span class="chip chip-enum">FileScope</span>|
 |directory Name|<span class="chip chip-text">Text</span>|
 |recursive|<span class="chip chip-boolean">Boolean</span>|
 
-| scope Options | []() |
+| scope Option | Value |
 |--------|------|
-|App|Option for App|
-|Asset|Option for Asset|
-|Cache|Option for Cache|
-|Legacy|Option for Legacy|
-|Private|Option for Private|
-|Shared|Option for Shared|
+|App|App|
+|Asset|Asset|
+|Cache|Cache|
+|Legacy|Legacy|
+|Private|Private|
+|Shared|Shared|
 
 ### Save File
 
@@ -405,7 +405,7 @@ If you want to add content to a file use the append block.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22File%22,%20%22name%22:%20%22Save%20File%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22text%22,%20%22file%20Name%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |text|<span class="chip chip-text">Text</span>|
 |file Name|<span class="chip chip-text">Text</span>|
@@ -416,7 +416,7 @@ Unzip a file with or without a password. If you dont need a passwort then let it
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22File%22,%20%22name%22:%20%22Unzip%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22target%20Zip%20File%20Path%22,%20%22destination%20Folder%20Path%22,%20%22password%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |target Zip File Path|<span class="chip chip-text">Text</span>|
 |destination Folder Path|<span class="chip chip-text">Text</span>|
@@ -428,7 +428,7 @@ Create a zip file with or without a password.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22File%22,%20%22name%22:%20%22Zip%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22target%20Path%22,%20%22destination%20File%20Path%22,%20%22password%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |target Path|<span class="chip chip-text">Text</span>|
 |destination File Path|<span class="chip chip-text">Text</span>|
@@ -442,14 +442,14 @@ Create a zip file with or without a password.
 
 Specifies the default scope for files accessed using the File component. The App scope shouldwork for most apps. Legacy mode can be used for apps that predate the newer constraints inAndroid on app file access.
 
-| Options | []() |
+| Option | Value |
 |--------|------|
-|App|Option for App|
-|Asset|Option for Asset|
-|Cache|Option for Cache|
-|Legacy|Option for Legacy|
-|Private|Option for Private|
-|Shared|Option for Shared|
+|App|App|
+|Asset|Asset|
+|Cache|Cache|
+|Legacy|Legacy|
+|Private|Private|
+|Shared|Shared|
 
 ### Read Permission
 
@@ -466,14 +466,14 @@ Indicates the current scope for operations such as ReadFrom and SaveFile.
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22File%22,%20%22name%22:%20%22Scope%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22File%22,%20%22name%22:%20%22Scope%22,%20%22getter%22:%20false%7D"></div>
 
-| Options | []() |
+| Option | Value |
 |--------|------|
-|App|Option for App|
-|Asset|Option for Asset|
-|Cache|Option for Cache|
-|Legacy|Option for Legacy|
-|Private|Option for Private|
-|Shared|Option for Shared|
+|App|App|
+|Asset|Asset|
+|Cache|Cache|
+|Legacy|Legacy|
+|Private|Private|
+|Shared|Shared|
 
 ### Write Permission
 

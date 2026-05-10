@@ -22,7 +22,7 @@ Got player info
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Play%20Games%22,%20%22name%22:%20%22Got%20Player%22,%20%22param%22:%20%5B%22name%22,%20%22id%22,%20%22level%22,%20%22xp%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |name|<span class="chip chip-text">Text</span>|
 |id|<span class="chip chip-text">Text</span>|
@@ -35,7 +35,7 @@ User signed in.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Play%20Games%22,%20%22name%22:%20%22Signed%20In%22,%20%22param%22:%20%5B%22success%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |success|<span class="chip chip-boolean">Boolean</span>|
 
@@ -59,7 +59,7 @@ Increment an achievement.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Play%20Games%22,%20%22name%22:%20%22Increment%20Achievement%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22achievement%20Id%22,%20%22by%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |achievement Id|<span class="chip chip-text">Text</span>|
 |by|<span class="chip chip-number">Number</span>|
@@ -84,7 +84,7 @@ Shows Leaderboard.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Play%20Games%22,%20%22name%22:%20%22Show%20Leaderboard%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22leaderboard%20Id%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |leaderboard Id|<span class="chip chip-text">Text</span>|
 
@@ -94,7 +94,7 @@ Sign in the user. useLastAccount, true: use the last signed in account if possib
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Play%20Games%22,%20%22name%22:%20%22Sign%20In%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22use%20Last%20Account%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |use Last Account|<span class="chip chip-boolean">Boolean</span>|
 
@@ -110,7 +110,7 @@ Submits user score to leaderboard.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Play%20Games%22,%20%22name%22:%20%22Submit%20Score%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22leaderboard%20Id%22,%20%22score%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |leaderboard Id|<span class="chip chip-text">Text</span>|
 |score|<span class="chip chip-number">Number</span>|
@@ -121,7 +121,7 @@ Unlock an achievement.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Play%20Games%22,%20%22name%22:%20%22Unlock%20Achievements%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22achievement%20Id%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |achievement Id|<span class="chip chip-text">Text</span>|
 

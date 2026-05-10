@@ -16,7 +16,7 @@ Triggered after an image is selected. It will also report selected image name
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Gallery%20Viewer%22,%20%22name%22:%20%22After%20Picking%22,%20%22param%22:%20%5B%22image%20Name%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |image Name|<span class="chip chip-text">Text</span>|
 

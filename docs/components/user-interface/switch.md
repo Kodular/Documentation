@@ -16,7 +16,7 @@ Event invoked when a switch has been clicked. Returns true or false if the switc
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Switch%22,%20%22name%22:%20%22Clicked%22,%20%22param%22:%20%5B%22is%20Checked%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |is Checked|<span class="chip chip-boolean">Boolean</span>|
 
@@ -28,7 +28,7 @@ Set the drawable used for the switch 'thumb' - the piece that the user can physi
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Switch%22,%20%22name%22:%20%22Thumb%20Image%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22image%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |image|<span class="chip chip-text">Text</span>|
 
@@ -38,7 +38,7 @@ Set the drawable used for the switch 'thumb' - the piece that the user can physi
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Switch%22,%20%22name%22:%20%22Thumb%20Image%20From%20Material%20Font%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22icon%20Name%22,%20%22size%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |icon Name|<span class="chip chip-text">Text</span>|
 |size|<span class="chip chip-number">Number</span>|

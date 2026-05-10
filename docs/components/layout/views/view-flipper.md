@@ -16,7 +16,7 @@ Add a component to the view flipper. The first added component will be the first
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22View%20Flipper%22,%20%22name%22:%20%22Add%20Component%20To%20View%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22component%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |component|<span class="chip chip-component">Component</span>|
 
@@ -26,7 +26,7 @@ Use this function if you try to create a image view flipper. Please use a 'make 
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22View%20Flipper%22,%20%22name%22:%20%22Add%20Images%20To%20View%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22images%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |images|<span class="chip chip-list">List</span>|
 

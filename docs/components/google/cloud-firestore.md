@@ -22,7 +22,7 @@ Triggered when a batch has been committed successfully. 'operationCount' is the 
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Cloud%20Firestore%22,%20%22name%22:%20%22Batch%20Committed%22,%20%22param%22:%20%5B%22operationCount%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |operationCount|<span class="chip chip-number">Number</span>|
 
@@ -32,7 +32,7 @@ Triggered when any document in a listened collection or query changes. 'document
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Cloud%20Firestore%22,%20%22name%22:%20%22Collection%20Changed%22,%20%22param%22:%20%5B%22tag%22,%20%22collectionPath%22,%20%22documents%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |tag|<span class="chip chip-text">Text</span>|
 |collectionPath|<span class="chip chip-text">Text</span>|
@@ -44,7 +44,7 @@ Triggered when a document has been successfully added. 'documentId' is the auto-
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Cloud%20Firestore%22,%20%22name%22:%20%22Document%20Added%22,%20%22param%22:%20%5B%22collectionPath%22,%20%22documentId%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |collectionPath|<span class="chip chip-text">Text</span>|
 |documentId|<span class="chip chip-text">Text</span>|
@@ -55,7 +55,7 @@ Triggered when a listened document changes. 'exists' is false if the document wa
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Cloud%20Firestore%22,%20%22name%22:%20%22Document%20Changed%22,%20%22param%22:%20%5B%22tag%22,%20%22collectionPath%22,%20%22documentId%22,%20%22data%22,%20%22exists%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |tag|<span class="chip chip-text">Text</span>|
 |collectionPath|<span class="chip chip-text">Text</span>|
@@ -69,7 +69,7 @@ Triggered when a document has been successfully deleted.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Cloud%20Firestore%22,%20%22name%22:%20%22Document%20Deleted%22,%20%22param%22:%20%5B%22collectionPath%22,%20%22documentId%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |collectionPath|<span class="chip chip-text">Text</span>|
 |documentId|<span class="chip chip-text">Text</span>|
@@ -80,7 +80,7 @@ Triggered when a document has been successfully set.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Cloud%20Firestore%22,%20%22name%22:%20%22Document%20Set%22,%20%22param%22:%20%5B%22collectionPath%22,%20%22documentId%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |collectionPath|<span class="chip chip-text">Text</span>|
 |documentId|<span class="chip chip-text">Text</span>|
@@ -91,7 +91,7 @@ Triggered when a document has been successfully updated.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Cloud%20Firestore%22,%20%22name%22:%20%22Document%20Updated%22,%20%22param%22:%20%5B%22collectionPath%22,%20%22documentId%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |collectionPath|<span class="chip chip-text">Text</span>|
 |documentId|<span class="chip chip-text">Text</span>|
@@ -102,7 +102,7 @@ Triggered when a Firestore operation fails. 'operation' identifies what failed (
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Cloud%20Firestore%22,%20%22name%22:%20%22Firestore%20Error%22,%20%22param%22:%20%5B%22operation%22,%20%22message%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |operation|<span class="chip chip-text">Text</span>|
 |message|<span class="chip chip-text">Text</span>|
@@ -113,7 +113,7 @@ Triggered when a document has been successfully read. 'data' is a dictionary of 
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Cloud%20Firestore%22,%20%22name%22:%20%22Got%20Document%22,%20%22param%22:%20%5B%22collectionPath%22,%20%22documentId%22,%20%22data%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |collectionPath|<span class="chip chip-text">Text</span>|
 |documentId|<span class="chip chip-text">Text</span>|
@@ -125,7 +125,7 @@ Triggered with the result of a document existence check.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Cloud%20Firestore%22,%20%22name%22:%20%22Got%20Document%20Exists%22,%20%22param%22:%20%5B%22collectionPath%22,%20%22documentId%22,%20%22exists%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |collectionPath|<span class="chip chip-text">Text</span>|
 |documentId|<span class="chip chip-text">Text</span>|
@@ -137,7 +137,7 @@ Triggered when a collection query returns results. 'documents' is a list of dict
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Cloud%20Firestore%22,%20%22name%22:%20%22Got%20Documents%22,%20%22param%22:%20%5B%22collectionPath%22,%20%22documents%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |collectionPath|<span class="chip chip-text">Text</span>|
 |documents|<span class="chip chip-list">List</span>|
@@ -148,7 +148,7 @@ Triggered when a real-time listener encounters an error.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Cloud%20Firestore%22,%20%22name%22:%20%22Listener%20Error%22,%20%22param%22:%20%5B%22tag%22,%20%22message%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |tag|<span class="chip chip-text">Text</span>|
 |message|<span class="chip chip-text">Text</span>|
@@ -165,7 +165,7 @@ Triggered when a transaction fails.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Cloud%20Firestore%22,%20%22name%22:%20%22Transaction%20Failed%22,%20%22param%22:%20%5B%22message%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |message|<span class="chip chip-text">Text</span>|
 
@@ -183,7 +183,7 @@ Creates a document with an auto-generated ID. Fires DocumentAdded with the gener
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Cloud%20Firestore%22,%20%22name%22:%20%22Add%20Document%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22collectionPath%22,%20%22data%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |collectionPath|<span class="chip chip-text">Text</span>|
 |data|<span class="chip chip-unknown">Dictionary</span>|
@@ -206,7 +206,7 @@ Queues a delete operation on the current batch.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Cloud%20Firestore%22,%20%22name%22:%20%22Batch%20Delete%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22collectionPath%22,%20%22documentId%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |collectionPath|<span class="chip chip-text">Text</span>|
 |documentId|<span class="chip chip-text">Text</span>|
@@ -217,7 +217,7 @@ Queues a set operation on the current batch.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Cloud%20Firestore%22,%20%22name%22:%20%22Batch%20Set%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22collectionPath%22,%20%22documentId%22,%20%22data%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |collectionPath|<span class="chip chip-text">Text</span>|
 |documentId|<span class="chip chip-text">Text</span>|
@@ -229,7 +229,7 @@ Queues an update operation on the current batch.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Cloud%20Firestore%22,%20%22name%22:%20%22Batch%20Update%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22collectionPath%22,%20%22documentId%22,%20%22data%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |collectionPath|<span class="chip chip-text">Text</span>|
 |documentId|<span class="chip chip-text">Text</span>|
@@ -241,7 +241,7 @@ Deletes a document. Fires DocumentDeleted on success or FirestoreError on failur
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Cloud%20Firestore%22,%20%22name%22:%20%22Delete%20Document%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22collectionPath%22,%20%22documentId%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |collectionPath|<span class="chip chip-text">Text</span>|
 |documentId|<span class="chip chip-text">Text</span>|
@@ -252,7 +252,7 @@ Checks if a document exists. Fires GotDocumentExists on success or FirestoreErro
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Cloud%20Firestore%22,%20%22name%22:%20%22Document%20Exists%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22collectionPath%22,%20%22documentId%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |collectionPath|<span class="chip chip-text">Text</span>|
 |documentId|<span class="chip chip-text">Text</span>|
@@ -263,7 +263,7 @@ Gets all documents in a collection with no filters. Fires GotDocuments on succes
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Cloud%20Firestore%22,%20%22name%22:%20%22Get%20All%20Documents%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22collectionPath%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |collectionPath|<span class="chip chip-text">Text</span>|
 
@@ -273,7 +273,7 @@ Reads a single document from the given collection. Fires GotDocument on success 
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Cloud%20Firestore%22,%20%22name%22:%20%22Get%20Document%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22collectionPath%22,%20%22documentId%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |collectionPath|<span class="chip chip-text">Text</span>|
 |documentId|<span class="chip chip-text">Text</span>|
@@ -286,7 +286,7 @@ Returns whether a listener with the given tag is active.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Cloud%20Firestore%22,%20%22name%22:%20%22Is%20Listening%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22tag%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |tag|<span class="chip chip-text">Text</span>|
 
@@ -296,7 +296,7 @@ Attaches a real-time listener to an entire collection. Fires CollectionChanged w
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Cloud%20Firestore%22,%20%22name%22:%20%22Listen%20To%20Collection%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22tag%22,%20%22collectionPath%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |tag|<span class="chip chip-text">Text</span>|
 |collectionPath|<span class="chip chip-text">Text</span>|
@@ -307,7 +307,7 @@ Attaches a real-time listener to a single document. Fires DocumentChanged when t
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Cloud%20Firestore%22,%20%22name%22:%20%22Listen%20To%20Document%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22tag%22,%20%22collectionPath%22,%20%22documentId%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |tag|<span class="chip chip-text">Text</span>|
 |collectionPath|<span class="chip chip-text">Text</span>|
@@ -319,7 +319,7 @@ Attaches a real-time listener using the current query builder state. Fires Colle
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Cloud%20Firestore%22,%20%22name%22:%20%22Listen%20To%20Query%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22tag%22,%20%22collectionPath%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |tag|<span class="chip chip-text">Text</span>|
 |collectionPath|<span class="chip chip-text">Text</span>|
@@ -330,7 +330,7 @@ Adds a filter to the query. Operators: =, !=, &lt;, &lt;=, &gt;, &gt;=, array-co
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Cloud%20Firestore%22,%20%22name%22:%20%22Query%20Add%20Filter%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22field%22,%20%22operator%22,%20%22value%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |field|<span class="chip chip-text">Text</span>|
 |operator|<span class="chip chip-text">Text</span>|
@@ -342,7 +342,7 @@ Sets a pagination cursor to end results before the given values. Values must cor
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Cloud%20Firestore%22,%20%22name%22:%20%22Query%20End%20Before%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22values%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |values|<span class="chip chip-list">List</span>|
 
@@ -352,7 +352,7 @@ Limits the number of query results.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Cloud%20Firestore%22,%20%22name%22:%20%22Query%20Limit%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22count%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |count|<span class="chip chip-number">Number</span>|
 
@@ -362,7 +362,7 @@ Adds an ordering clause. Direction must be 'ascending' or 'descending'. Can be c
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Cloud%20Firestore%22,%20%22name%22:%20%22Query%20Order%20By%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22field%22,%20%22direction%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |field|<span class="chip chip-text">Text</span>|
 |direction|<span class="chip chip-text">Text</span>|
@@ -379,7 +379,7 @@ Executes the accumulated query on the given collection. Fires GotDocuments on su
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Cloud%20Firestore%22,%20%22name%22:%20%22Query%20Run%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22collectionPath%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |collectionPath|<span class="chip chip-text">Text</span>|
 
@@ -389,7 +389,7 @@ Sets a pagination cursor to start results after the given values. Values must co
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Cloud%20Firestore%22,%20%22name%22:%20%22Query%20Start%20After%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22values%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |values|<span class="chip chip-list">List</span>|
 
@@ -405,7 +405,7 @@ Creates or overwrites a document with the given data. Fires DocumentSet on succe
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Cloud%20Firestore%22,%20%22name%22:%20%22Set%20Document%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22collectionPath%22,%20%22documentId%22,%20%22data%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |collectionPath|<span class="chip chip-text">Text</span>|
 |documentId|<span class="chip chip-text">Text</span>|
@@ -423,7 +423,7 @@ Removes the listener identified by the given tag.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Cloud%20Firestore%22,%20%22name%22:%20%22Stop%20Listening%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22tag%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |tag|<span class="chip chip-text">Text</span>|
 
@@ -433,7 +433,7 @@ Deletes a document inside a transaction. Can ONLY be called inside the Transacti
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Cloud%20Firestore%22,%20%22name%22:%20%22Transaction%20Delete%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22collectionPath%22,%20%22documentId%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |collectionPath|<span class="chip chip-text">Text</span>|
 |documentId|<span class="chip chip-text">Text</span>|
@@ -446,7 +446,7 @@ Reads a document inside a transaction. Can ONLY be called inside the Transaction
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Cloud%20Firestore%22,%20%22name%22:%20%22Transaction%20Get%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22collectionPath%22,%20%22documentId%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |collectionPath|<span class="chip chip-text">Text</span>|
 |documentId|<span class="chip chip-text">Text</span>|
@@ -457,7 +457,7 @@ Sets a document inside a transaction. Can ONLY be called inside the TransactionR
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Cloud%20Firestore%22,%20%22name%22:%20%22Transaction%20Set%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22collectionPath%22,%20%22documentId%22,%20%22data%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |collectionPath|<span class="chip chip-text">Text</span>|
 |documentId|<span class="chip chip-text">Text</span>|
@@ -469,7 +469,7 @@ Updates a document inside a transaction. Can ONLY be called inside the Transacti
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Cloud%20Firestore%22,%20%22name%22:%20%22Transaction%20Update%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22collectionPath%22,%20%22documentId%22,%20%22data%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |collectionPath|<span class="chip chip-text">Text</span>|
 |documentId|<span class="chip chip-text">Text</span>|
@@ -481,7 +481,7 @@ Merges fields into an existing document. Fails if the document doesn't exist. Fi
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Cloud%20Firestore%22,%20%22name%22:%20%22Update%20Document%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22collectionPath%22,%20%22documentId%22,%20%22data%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |collectionPath|<span class="chip chip-text">Text</span>|
 |documentId|<span class="chip chip-text">Text</span>|

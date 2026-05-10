@@ -18,7 +18,7 @@ Triggered when distance (in cm) of the object to the device changes.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Proximity%20Sensor%22,%20%22name%22:%20%22Proximity%20Changed%22,%20%22param%22:%20%5B%22distance%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |distance|<span class="chip chip-number">Number</span>|
 

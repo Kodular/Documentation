@@ -16,7 +16,7 @@ Indicates that position of the slider thumb has changed.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Slider%22,%20%22name%22:%20%22Position%20Changed%22,%20%22param%22:%20%5B%22thumb%20Position%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |thumb Position|<span class="chip chip-number">Number</span>|
 

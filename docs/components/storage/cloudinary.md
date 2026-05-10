@@ -25,7 +25,7 @@ Event raised after the Upload Media block has been used
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Cloudinary%22,%20%22name%22:%20%22Media%20Uploaded%22,%20%22param%22:%20%5B%22response%20Content%22,%20%22url%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |response Content|<span class="chip chip-text">Text</span>|
 |url|<span class="chip chip-text">Text</span>|
@@ -38,7 +38,7 @@ Uploads the specified media file to your Cloudinary media library.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Cloudinary%22,%20%22name%22:%20%22Upload%20Media%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22path%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |path|<span class="chip chip-text">Text</span>|
 

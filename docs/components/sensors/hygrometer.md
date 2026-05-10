@@ -18,7 +18,7 @@ Called when a change is detected in the ambient air humidity (expressed as a per
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Hygrometer%22,%20%22name%22:%20%22Humidity%20Changed%22,%20%22param%22:%20%5B%22humidity%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |humidity|<span class="chip chip-number">Number</span>|
 

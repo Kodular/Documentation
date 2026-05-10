@@ -18,7 +18,7 @@ Move the robot backward the given distance, with the specified percentage of max
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Drive%22,%20%22name%22:%20%22Move%20Backward%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22power%22,%20%22distance%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |power|<span class="chip chip-number">Number</span>|
 |distance|<span class="chip chip-number">Number</span>|
@@ -29,7 +29,7 @@ Move the robot backward indefinitely, with the specified percentage of maximum p
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Drive%22,%20%22name%22:%20%22Move%20Backward%20Indefinitely%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22power%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |power|<span class="chip chip-number">Number</span>|
 
@@ -39,7 +39,7 @@ Move the robot forward the given distance, with the specified percentage of maxi
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Drive%22,%20%22name%22:%20%22Move%20Forward%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22power%22,%20%22distance%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |power|<span class="chip chip-number">Number</span>|
 |distance|<span class="chip chip-number">Number</span>|
@@ -50,7 +50,7 @@ Move the robot forward indefinitely, with the specified percentage of maximum po
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Drive%22,%20%22name%22:%20%22Move%20Forward%20Indefinitely%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22power%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |power|<span class="chip chip-number">Number</span>|
 
@@ -66,7 +66,7 @@ Turn the robot clockwise indefinitely, with the specified percentage of maximum 
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Drive%22,%20%22name%22:%20%22Turn%20Clockwise%20Indefinitely%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22power%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |power|<span class="chip chip-number">Number</span>|
 
@@ -76,7 +76,7 @@ Turn the robot counterclockwise indefinitely, with the specified percentage of m
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Drive%22,%20%22name%22:%20%22Turn%20Counter%20Clockwise%20Indefinitely%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22power%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |power|<span class="chip chip-number">Number</span>|
 

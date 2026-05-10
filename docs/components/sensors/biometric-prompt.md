@@ -22,7 +22,7 @@ Triggered on a non-recoverable authentication error. The prompt is dismissed. Co
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Biometric%20Prompt%22,%20%22name%22:%20%22On%20Authentication%20Error%22,%20%22param%22:%20%5B%22error%20Code%22,%20%22error%20Message%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |error Code|<span class="chip chip-number">Number</span>|
 |error Message|<span class="chip chip-text">Text</span>|
@@ -94,11 +94,11 @@ Sets the type of authentication allowed. BiometricOnly = biometrics only, Device
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Biometric%20Prompt%22,%20%22name%22:%20%22Authenticator%20Type%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Biometric%20Prompt%22,%20%22name%22:%20%22Authenticator%20Type%22,%20%22getter%22:%20false%7D"></div>
 
-| Options | []() |
+| Option | Value |
 |--------|------|
-|BiometricOnly|Option for BiometricOnly|
-|DeviceCredentialOnly|Option for DeviceCredentialOnly|
-|BiometricOrDeviceCredential|Option for BiometricOrDeviceCredential|
+|BiometricOnly|1|
+|DeviceCredentialOnly|2|
+|BiometricOrDeviceCredential|3|
 
 ### Description
 

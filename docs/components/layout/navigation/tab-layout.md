@@ -16,7 +16,7 @@ The event returns the name or the position of the selected tab.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Tab%20Layout%22,%20%22name%22:%20%22Tab%20Item%20Selected%22,%20%22param%22:%20%5B%22tab%22,%20%22position%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |tab|<span class="chip chip-text">Text</span>|
 |position|<span class="chip chip-number">Number</span>|
@@ -29,7 +29,7 @@ Add a new tab to the tab layout. If you don't want a icon then let it empty.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Tab%20Layout%22,%20%22name%22:%20%22Add%20New%20Tab%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22name%22,%20%22icon%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |name|<span class="chip chip-text">Text</span>|
 |icon|<span class="chip chip-text">Text</span>|
@@ -40,7 +40,7 @@ Add a new tab to the tab layout at the given position. If you don't want a icon 
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Tab%20Layout%22,%20%22name%22:%20%22Add%20New%20Tab%20At%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22name%22,%20%22icon%22,%20%22position%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |name|<span class="chip chip-text">Text</span>|
 |icon|<span class="chip chip-text">Text</span>|
@@ -66,7 +66,7 @@ Removes a before added tab. If you want to delete the first tab then use as posi
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Tab%20Layout%22,%20%22name%22:%20%22Remove%20Tab%20At%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22position%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |position|<span class="chip chip-number">Number</span>|
 

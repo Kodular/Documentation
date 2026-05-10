@@ -21,7 +21,7 @@ Event triggered when a error occurred.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Audio%22,%20%22name%22:%20%22Error%20Occurred%22,%20%22param%22:%20%5B%22error%20Message%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |error Message|<span class="chip chip-text">Text</span>|
 
@@ -35,7 +35,7 @@ Returns true whether a component should have sound effects enabled for events su
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Audio%22,%20%22name%22:%20%22Is%20Sound%20Effects%20Enabled%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22component%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |component|<span class="chip chip-component">Component</span>|
 
@@ -63,7 +63,7 @@ Set whether a component should have sound effects enabled for events such as cli
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Audio%22,%20%22name%22:%20%22Sound%20Effects%20Enabled%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22component%22,%20%22enabled%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |component|<span class="chip chip-component">Component</span>|
 |enabled|<span class="chip chip-boolean">Boolean</span>|

@@ -16,7 +16,7 @@ Event to detect that a page was selected.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22View%20Pager%22,%20%22name%22:%20%22Page%20Selected%22,%20%22param%22:%20%5B%22position%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |position|<span class="chip chip-number">Number</span>|
 
@@ -28,7 +28,7 @@ Add a component to the view pager. The first added component will be the first v
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22View%20Pager%22,%20%22name%22:%20%22Add%20Component%20To%20View%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22component%22,%20%22tab%20Name%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |component|<span class="chip chip-component">Component</span>|
 |tab Name|<span class="chip chip-text">Text</span>|
@@ -45,7 +45,7 @@ Removes a before added view from the view pager. If you want to delete the first
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22View%20Pager%22,%20%22name%22:%20%22Remove%20View%20At%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22position%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |position|<span class="chip chip-number">Number</span>|
 

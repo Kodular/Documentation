@@ -54,7 +54,7 @@ Event that's raised when a text message is received by the phone.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Texting%22,%20%22name%22:%20%22Message%20Received%22,%20%22param%22:%20%5B%22number%22,%20%22message%20Text%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |number|<span class="chip chip-text">Text</span>|
 |message Text|<span class="chip chip-text">Text</span>|
@@ -111,8 +111,8 @@ If set to 1 (OFF) no messages will be received. If set to 2 (FOREGROUND) or3 (AL
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Texting%22,%20%22name%22:%20%22Receiving%20Enabled%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Texting%22,%20%22name%22:%20%22Receiving%20Enabled%22,%20%22getter%22:%20false%7D"></div>
 
-| Options | []() |
+| Option | Value |
 |--------|------|
-|Off|Option for Off|
-|Foreground|Option for Foreground|
-|Always|Option for Always|
+|Off|1|
+|Foreground|2|
+|Always|3|

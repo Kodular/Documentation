@@ -22,7 +22,7 @@ Fired when any operation fails
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Supabase%20Authentication%22,%20%22name%22:%20%22Error%20Occurred%22,%20%22param%22:%20%5B%22operation%22,%20%22status%20Code%22,%20%22message%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |operation|<span class="chip chip-text">Text</span>|
 |status Code|<span class="chip chip-number">Number</span>|
@@ -34,7 +34,7 @@ Fired when current user information is retrieved
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Supabase%20Authentication%22,%20%22name%22:%20%22Got%20Current%20User%22,%20%22param%22:%20%5B%22user%20Id%22,%20%22email%22,%20%22metadata%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |user Id|<span class="chip chip-text">Text</span>|
 |email|<span class="chip chip-text">Text</span>|
@@ -46,7 +46,7 @@ Fired when an OTP email has been sent
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Supabase%20Authentication%22,%20%22name%22:%20%22OTP%20Sent%22,%20%22param%22:%20%5B%22email%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |email|<span class="chip chip-text">Text</span>|
 
@@ -56,7 +56,7 @@ Fired when a password reset email has been sent
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Supabase%20Authentication%22,%20%22name%22:%20%22Password%20Reset%20Sent%22,%20%22param%22:%20%5B%22email%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |email|<span class="chip chip-text">Text</span>|
 
@@ -66,7 +66,7 @@ Fired when the session token has been refreshed
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Supabase%20Authentication%22,%20%22name%22:%20%22Session%20Refreshed%22,%20%22param%22:%20%5B%22access%20Token%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |access Token|<span class="chip chip-text">Text</span>|
 
@@ -76,7 +76,7 @@ Fired when sign-in succeeds (password or OTP)
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Supabase%20Authentication%22,%20%22name%22:%20%22Sign%20In%20Completed%22,%20%22param%22:%20%5B%22access%20Token%22,%20%22user%20Id%22,%20%22email%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |access Token|<span class="chip chip-text">Text</span>|
 |user Id|<span class="chip chip-text">Text</span>|
@@ -94,7 +94,7 @@ Fired when sign-up succeeds. accessToken is non-empty if email confirmation is d
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Supabase%20Authentication%22,%20%22name%22:%20%22Sign%20Up%20Completed%22,%20%22param%22:%20%5B%22access%20Token%22,%20%22user%20Id%22,%20%22email%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |access Token|<span class="chip chip-text">Text</span>|
 |user Id|<span class="chip chip-text">Text</span>|
@@ -120,7 +120,7 @@ Send a password reset email
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Supabase%20Authentication%22,%20%22name%22:%20%22Reset%20Password%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22email%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |email|<span class="chip chip-text">Text</span>|
 
@@ -130,7 +130,7 @@ Send a 6-digit OTP code to the specified email
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Supabase%20Authentication%22,%20%22name%22:%20%22Send%20OTP%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22email%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |email|<span class="chip chip-text">Text</span>|
 
@@ -140,7 +140,7 @@ Sign in with email and password
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Supabase%20Authentication%22,%20%22name%22:%20%22Sign%20In%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22email%22,%20%22password%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |email|<span class="chip chip-text">Text</span>|
 |password|<span class="chip chip-text">Text</span>|
@@ -157,7 +157,7 @@ Register a new user with email and password
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Supabase%20Authentication%22,%20%22name%22:%20%22Sign%20Up%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22email%22,%20%22password%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |email|<span class="chip chip-text">Text</span>|
 |password|<span class="chip chip-text">Text</span>|
@@ -168,7 +168,7 @@ Verify an email OTP code and sign in
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Supabase%20Authentication%22,%20%22name%22:%20%22Verify%20OTP%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22email%22,%20%22otp%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |email|<span class="chip chip-text">Text</span>|
 |otp|<span class="chip chip-text">Text</span>|

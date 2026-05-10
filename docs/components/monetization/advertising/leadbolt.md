@@ -26,7 +26,7 @@ Event triggered when ads are clicked
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22LeadBolt%22,%20%22name%22:%20%22Ad%20Clicked%22,%20%22param%22:%20%5B%22location%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |location|<span class="chip chip-text">Text</span>|
 
@@ -36,7 +36,7 @@ Event triggered when ads are closed
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22LeadBolt%22,%20%22name%22:%20%22Ad%20Closed%22,%20%22param%22:%20%5B%22location%22,%20%22reward%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |location|<span class="chip chip-text">Text</span>|
 |reward|<span class="chip chip-boolean">Boolean</span>|
@@ -47,7 +47,7 @@ Event triggered when ads are failed to load
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22LeadBolt%22,%20%22name%22:%20%22Ad%20Failed%20To%20Load%22,%20%22param%22:%20%5B%22location%22,%20%22error%22,%20%22is%20Cache%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |location|<span class="chip chip-text">Text</span>|
 |error|<span class="chip chip-text">Text</span>|
@@ -59,7 +59,7 @@ Event triggered when ads are loaded
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22LeadBolt%22,%20%22name%22:%20%22Ad%20Loaded%22,%20%22param%22:%20%5B%22location%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |location|<span class="chip chip-text">Text</span>|
 
@@ -69,7 +69,7 @@ Event triggered when ads are shown
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22LeadBolt%22,%20%22name%22:%20%22Ad%20Shown%22,%20%22param%22:%20%5B%22location%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |location|<span class="chip chip-text">Text</span>|
 

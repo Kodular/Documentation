@@ -18,7 +18,7 @@ Called when the tacho count has changed.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Motors%22,%20%22name%22:%20%22Tacho%20Count%20Changed%22,%20%22param%22:%20%5B%22tacho%20Count%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |tacho Count|<span class="chip chip-number">Number</span>|
 
@@ -44,7 +44,7 @@ Rotate the motors in a distance.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Motors%22,%20%22name%22:%20%22Rotate%20In%20Distance%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22power%22,%20%22distance%22,%20%22use%20Brake%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |power|<span class="chip chip-number">Number</span>|
 |distance|<span class="chip chip-number">Number</span>|
@@ -56,7 +56,7 @@ Rotate the motors in a period of time.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Motors%22,%20%22name%22:%20%22Rotate%20In%20Duration%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22power%22,%20%22milliseconds%22,%20%22use%20Brake%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |power|<span class="chip chip-number">Number</span>|
 |milliseconds|<span class="chip chip-number">Number</span>|
@@ -68,7 +68,7 @@ Rotate the motors in a number of tacho counts.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Motors%22,%20%22name%22:%20%22Rotate%20In%20Tacho%20Counts%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22power%22,%20%22tacho%20Counts%22,%20%22use%20Brake%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |power|<span class="chip chip-number">Number</span>|
 |tacho Counts|<span class="chip chip-number">Number</span>|
@@ -80,7 +80,7 @@ Start to rotate the motors.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Motors%22,%20%22name%22:%20%22Rotate%20Indefinitely%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22power%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |power|<span class="chip chip-number">Number</span>|
 
@@ -90,7 +90,7 @@ Rotate the motors at the same speed for a distance in cm.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Motors%22,%20%22name%22:%20%22Rotate%20Sync%20In%20Distance%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22power%22,%20%22distance%22,%20%22turn%20Ratio%22,%20%22use%20Brake%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |power|<span class="chip chip-number">Number</span>|
 |distance|<span class="chip chip-number">Number</span>|
@@ -103,7 +103,7 @@ Rotate the motors at the same speed in a period of time.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Motors%22,%20%22name%22:%20%22Rotate%20Sync%20In%20Duration%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22power%22,%20%22milliseconds%22,%20%22turn%20Ratio%22,%20%22use%20Brake%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |power|<span class="chip chip-number">Number</span>|
 |milliseconds|<span class="chip chip-number">Number</span>|
@@ -116,7 +116,7 @@ Rotate the motors at the same speed in a number of tacho counts.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Motors%22,%20%22name%22:%20%22Rotate%20Sync%20In%20Tacho%20Counts%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22power%22,%20%22tacho%20Counts%22,%20%22turn%20Ratio%22,%20%22use%20Brake%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |power|<span class="chip chip-number">Number</span>|
 |tacho Counts|<span class="chip chip-number">Number</span>|
@@ -129,7 +129,7 @@ Start to rotate the motors at the same speed.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Motors%22,%20%22name%22:%20%22Rotate%20Sync%20Indefinitely%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22power%22,%20%22turn%20Ratio%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |power|<span class="chip chip-number">Number</span>|
 |turn Ratio|<span class="chip chip-number">Number</span>|
@@ -140,7 +140,7 @@ Stop the motors of the robot.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Motors%22,%20%22name%22:%20%22Stop%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22use%20Brake%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |use Brake|<span class="chip chip-boolean">Boolean</span>|
 

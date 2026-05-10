@@ -28,7 +28,7 @@ Azimuth is the compass heading in degrees, pitch indicates how the deviceis tilt
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Orientation%20Sensor%22,%20%22name%22:%20%22Orientation%20Changed%22,%20%22param%22:%20%5B%22azimuth%22,%20%22pitch%22,%20%22roll%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |azimuth|<span class="chip chip-number">Number</span>|
 |pitch|<span class="chip chip-number">Number</span>|

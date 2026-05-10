@@ -21,7 +21,7 @@ Provides the location of the newly created sound.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Sound%20Recorder%22,%20%22name%22:%20%22After%20Sound%20Recorded%22,%20%22param%22:%20%5B%22sound%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |sound|<span class="chip chip-text">Text</span>|
 

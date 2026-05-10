@@ -39,7 +39,7 @@ Called when an ad request failed to load. The message will display the error cod
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Start.io%20Interstitial%22,%20%22name%22:%20%22Ad%20Failed%20To%20Load%22,%20%22param%22:%20%5B%22error%20Code%22,%20%22error%20Message%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |error Code|<span class="chip chip-number">Number</span>|
 |error Message|<span class="chip chip-text">Text</span>|
@@ -50,7 +50,7 @@ Called when an an attempt was made to display the ad, but the ad was not ready t
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Start.io%20Interstitial%22,%20%22name%22:%20%22Ad%20Failed%20To%20Show%22,%20%22param%22:%20%5B%22error%20Message%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |error Message|<span class="chip chip-text">Text</span>|
 
@@ -66,7 +66,7 @@ Called when an ad request failed to load.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Start.io%20Interstitial%22,%20%22name%22:%20%22On%20Failed%20To%20Receive%20Ad%22,%20%22param%22:%20%5B%22error%20Message%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |error Message|<span class="chip chip-text">Text</span>|
 
@@ -101,12 +101,12 @@ The type of interstitial ad to load.
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Start.io%20Interstitial%22,%20%22name%22:%20%22Ad%20Type%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Start.io%20Interstitial%22,%20%22name%22:%20%22Ad%20Type%22,%20%22getter%22:%20false%7D"></div>
 
-| Options | []() |
+| Option | Value |
 |--------|------|
-|Automatic|Option for Automatic|
-|FullPage|Option for FullPage|
-|Video|Option for Video|
-|Overlay|Option for Overlay|
+|Automatic|automatic|
+|FullPage|fullpage|
+|Video|video|
+|Overlay|overlay|
 
 ### Enable Consent
 

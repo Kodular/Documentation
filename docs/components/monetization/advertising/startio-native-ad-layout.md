@@ -31,7 +31,7 @@ Called when a native ad fails to load.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Start.io%20Native%20Ad%20Layout%22,%20%22name%22:%20%22Ad%20Failed%20To%20Load%22,%20%22param%22:%20%5B%22error%20Code%22,%20%22error%20Message%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |error Code|<span class="chip chip-number">Number</span>|
 |error Message|<span class="chip chip-text">Text</span>|
@@ -48,7 +48,7 @@ Called when a native ad has been loaded successfully.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Start.io%20Native%20Ad%20Layout%22,%20%22name%22:%20%22Ad%20Loaded%22,%20%22param%22:%20%5B%22asset%20Dictionary%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |asset Dictionary|<span class="chip chip-unknown">Dictionary</span>|
 
@@ -146,12 +146,12 @@ The size of the primary image in native ads.
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Start.io%20Native%20Ad%20Layout%22,%20%22name%22:%20%22Primary%20Image%20Size%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Start.io%20Native%20Ad%20Layout%22,%20%22name%22:%20%22Primary%20Image%20Size%22,%20%22getter%22:%20false%7D"></div>
 
-| Options | []() |
+| Option | Value |
 |--------|------|
-|Size72x72|Option for Size72x72|
-|Size100x100|Option for Size100x100|
-|Size150x150|Option for Size150x150|
-|Size340x340|Option for Size340x340|
+|Size72x72|SIZE72X72|
+|Size100x100|SIZE100X100|
+|Size150x150|SIZE150X150|
+|Size340x340|SIZE340X340|
 
 ### Set User Consent
 

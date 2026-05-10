@@ -48,7 +48,7 @@ Set the frame where you want the animation to end.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Lottie%22,%20%22name%22:%20%22End%20Frame%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22frame%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |frame|<span class="chip chip-number">Number</span>|
 
@@ -94,7 +94,7 @@ Set the frame where you want the animation to be now.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Lottie%22,%20%22name%22:%20%22Set%20Current%20Frame%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22frame%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |frame|<span class="chip chip-number">Number</span>|
 
@@ -110,7 +110,7 @@ Set the frame where you want the animation to start.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Lottie%22,%20%22name%22:%20%22Start%20Frame%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22frame%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |frame|<span class="chip chip-number">Number</span>|
 

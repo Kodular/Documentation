@@ -16,7 +16,7 @@ Event that indicates that the progress of the progress bar has been changed. Ret
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Linear%20Progressbar%22,%20%22name%22:%20%22Progress%20Changed%22,%20%22param%22:%20%5B%22progress%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |progress|<span class="chip chip-number">Number</span>|
 
@@ -28,7 +28,7 @@ Increase the progress bar's progress by the specified amount.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Linear%20Progressbar%22,%20%22name%22:%20%22Increment%20Progress%20By%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22value%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |value|<span class="chip chip-number">Number</span>|
 

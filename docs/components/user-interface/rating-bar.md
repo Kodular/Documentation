@@ -16,7 +16,7 @@ Event invoked when the rating has been changed.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Rating%20Bar%22,%20%22name%22:%20%22Changed%22,%20%22param%22:%20%5B%22rating%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |rating|<span class="chip chip-number">Number</span>|
 

@@ -73,7 +73,7 @@ Vibrates for the specified number of milliseconds.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Sound%22,%20%22name%22:%20%22Vibrate%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22millisecs%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |millisecs|<span class="chip chip-number">Number</span>|
 
@@ -83,7 +83,7 @@ Vibrate with a given pattern
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Sound%22,%20%22name%22:%20%22Vibrate%20Pattern%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22vibrate%22,%20%22delay%22,%20%22repeat%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |vibrate|<span class="chip chip-number">Number</span>|
 |delay|<span class="chip chip-number">Number</span>|

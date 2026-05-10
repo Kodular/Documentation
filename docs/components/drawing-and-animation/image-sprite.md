@@ -23,7 +23,7 @@ Event handler called when two enabled sprites (Balls or ImageSprites)collide. No
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Sprite%22,%20%22name%22:%20%22Collided%20With%22,%20%22param%22:%20%5B%22other%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |other|<span class="chip chip-component">Component</span>|
 
@@ -33,7 +33,7 @@ Event handler called when a ImageSprite is dragged. On all calls, the starting c
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Sprite%22,%20%22name%22:%20%22Dragged%22,%20%22param%22:%20%5B%22start%20X%22,%20%22start%20Y%22,%20%22prev%20X%22,%20%22prev%20Y%22,%20%22current%20X%22,%20%22current%20Y%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |start X|<span class="chip chip-number">Number</span>|
 |start Y|<span class="chip chip-number">Number</span>|
@@ -48,20 +48,20 @@ Event handler called when the ImageSprite reaches an edge of the screen. If Boun
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Sprite%22,%20%22name%22:%20%22Edge%20Reached%22,%20%22param%22:%20%5B%22edge%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |edge|<span class="chip chip-number">Number</span><br><span class="chip chip-enum">Direction</span>|
 
-| edge Options | []() |
+| edge Option | Value |
 |--------|------|
-|North|Option for North|
-|Northeast|Option for Northeast|
-|East|Option for East|
-|Southeast|Option for Southeast|
-|South|Option for South|
-|Southwest|Option for Southwest|
-|West|Option for West|
-|Northwest|Option for Northwest|
+|North|1|
+|Northeast|2|
+|East|3|
+|Southeast|4|
+|South|-1|
+|Southwest|-2|
+|West|-3|
+|Northwest|-4|
 
 ### Flung
 
@@ -69,7 +69,7 @@ Event handler called when a fling gesture (quick swipe) is made on an enabled Im
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Sprite%22,%20%22name%22:%20%22Flung%22,%20%22param%22:%20%5B%22x%22,%20%22y%22,%20%22speed%22,%20%22heading%22,%20%22x%20vel%22,%20%22y%20vel%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |x|<span class="chip chip-number">Number</span>|
 |y|<span class="chip chip-number">Number</span>|
@@ -84,7 +84,7 @@ Event handler called when a pair of sprites (Balls and ImageSprites) are no long
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Sprite%22,%20%22name%22:%20%22No%20Longer%20Colliding%20With%22,%20%22param%22:%20%5B%22other%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |other|<span class="chip chip-component">Component</span>|
 
@@ -94,7 +94,7 @@ Event handler called when the user begins touching an enabled ImageSprite (placi
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Sprite%22,%20%22name%22:%20%22Touch%20Down%22,%20%22param%22:%20%5B%22x%22,%20%22y%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |x|<span class="chip chip-number">Number</span>|
 |y|<span class="chip chip-number">Number</span>|
@@ -105,7 +105,7 @@ Event handler called when the user stops touching an enabled ImageSprite (liftin
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Sprite%22,%20%22name%22:%20%22Touch%20Up%22,%20%22param%22:%20%5B%22x%22,%20%22y%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |x|<span class="chip chip-number">Number</span>|
 |y|<span class="chip chip-number">Number</span>|
@@ -116,7 +116,7 @@ Event handler called when the user touches an enabled ImageSprite and then immed
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Sprite%22,%20%22name%22:%20%22Touched%22,%20%22param%22:%20%5B%22x%22,%20%22y%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |x|<span class="chip chip-number">Number</span>|
 |y|<span class="chip chip-number">Number</span>|
@@ -129,20 +129,20 @@ Makes the ImageSprite bounce, as if off a wall. For normal bouncing, the edge ar
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Sprite%22,%20%22name%22:%20%22Bounce%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22edge%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |edge|<span class="chip chip-number">Number</span><br><span class="chip chip-enum">Direction</span>|
 
-| edge Options | []() |
+| edge Option | Value |
 |--------|------|
-|North|Option for North|
-|Northeast|Option for Northeast|
-|East|Option for East|
-|Southeast|Option for Southeast|
-|South|Option for South|
-|Southwest|Option for Southwest|
-|West|Option for West|
-|Northwest|Option for Northwest|
+|North|1|
+|Northeast|2|
+|East|3|
+|Southeast|4|
+|South|-1|
+|Southwest|-2|
+|West|-3|
+|Northwest|-4|
 
 ### Colliding With
 
@@ -152,7 +152,7 @@ Indicates whether a collision has been registered between this ImageSprite and t
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Sprite%22,%20%22name%22:%20%22Colliding%20With%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22other%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |other|<span class="chip chip-component">Component</span>|
 
@@ -168,7 +168,7 @@ Moves the ImageSprite so that its left top corner is at the specfied x and y coo
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Sprite%22,%20%22name%22:%20%22Move%20To%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22x%22,%20%22y%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |x|<span class="chip chip-number">Number</span>|
 |y|<span class="chip chip-number">Number</span>|
@@ -179,7 +179,7 @@ Sets the heading of the ImageSprite toward the point with the coordinates (x, y)
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Sprite%22,%20%22name%22:%20%22Point%20In%20Direction%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22x%22,%20%22y%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |x|<span class="chip chip-number">Number</span>|
 |y|<span class="chip chip-number">Number</span>|
@@ -190,7 +190,7 @@ Turns the ImageSprite to point towards a designated target sprite (Ball or Image
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Sprite%22,%20%22name%22:%20%22Point%20Towards%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22target%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |target|<span class="chip chip-component">Component</span>|
 

@@ -21,7 +21,7 @@ Event triggered when the Openrouteservice returns the directions.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Navigation%22,%20%22name%22:%20%22Got%20Directions%22,%20%22param%22:%20%5B%22directions%22,%20%22points%22,%20%22distance%22,%20%22duration%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |directions|<span class="chip chip-list">List</span>|
 |points|<span class="chip chip-list">List</span>|
@@ -124,9 +124,9 @@ The transportation method used for determining the route.
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Navigation%22,%20%22name%22:%20%22Transportation%20Method%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Navigation%22,%20%22name%22:%20%22Transportation%20Method%22,%20%22getter%22:%20false%7D"></div>
 
-| Options | []() |
+| Option | Value |
 |--------|------|
-|Foot|Option for Foot|
-|Car|Option for Car|
-|Bicycle|Option for Bicycle|
-|Wheelchair|Option for Wheelchair|
+|Foot|foot-walking|
+|Car|driving-car|
+|Bicycle|cycling-regular|
+|Wheelchair|wheelchair|

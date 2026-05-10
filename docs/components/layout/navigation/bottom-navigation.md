@@ -16,7 +16,7 @@ Event triggers when an item was selected.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Bottom%20Navigation%22,%20%22name%22:%20%22Item%20Selected%22,%20%22param%22:%20%5B%22id%22,%20%22title%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |id|<span class="chip chip-number">Number</span>|
 |title|<span class="chip chip-text">Text</span>|
@@ -29,7 +29,7 @@ Add an item to the bottom menu
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Bottom%20Navigation%22,%20%22name%22:%20%22Add%20Item%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22id%22,%20%22title%22,%20%22image%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |id|<span class="chip chip-number">Number</span>|
 |title|<span class="chip chip-text">Text</span>|
@@ -47,7 +47,7 @@ Remove an item from the bottom menu
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Bottom%20Navigation%22,%20%22name%22:%20%22Remove%20Item%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22id%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |id|<span class="chip chip-number">Number</span>|
 
@@ -57,7 +57,7 @@ Select an item from the bottom menu
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Bottom%20Navigation%22,%20%22name%22:%20%22Select%20Item%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22id%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |id|<span class="chip chip-number">Number</span>|
 
@@ -67,7 +67,7 @@ Update an item of the bottom menu
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Bottom%20Navigation%22,%20%22name%22:%20%22Update%20Item%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22id%22,%20%22title%22,%20%22image%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |id|<span class="chip chip-number">Number</span>|
 |title|<span class="chip chip-text">Text</span>|

@@ -45,7 +45,7 @@ Event raised when an ad could not be loaded.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Ad%20Manager%20Interstitial%22,%20%22name%22:%20%22Failed%20To%20Load%22,%20%22param%22:%20%5B%22error%20Message%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |error Message|<span class="chip chip-text">Text</span>|
 
@@ -55,7 +55,7 @@ Event raised when an ad could not be displayed to the user.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Ad%20Manager%20Interstitial%22,%20%22name%22:%20%22Failed%20To%20Show%22,%20%22param%22:%20%5B%22error%20Message%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |error Message|<span class="chip chip-text">Text</span>|
 
@@ -99,19 +99,19 @@ Set a minimum eCPM floor below which advertisers cannot bid for inventory. Use O
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Ad%20Manager%20Interstitial%22,%20%22name%22:%20%22eCPM%20Floor%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Ad%20Manager%20Interstitial%22,%20%22name%22:%20%22eCPM%20Floor%22,%20%22getter%22:%20false%7D"></div>
 
-| Options | []() |
+| Option | Value |
 |--------|------|
-|Optimized|Option for Optimized|
-|USD_04_50|Option for USD_04_50|
-|USD_04_00|Option for USD_04_00|
-|USD_03_50|Option for USD_03_50|
-|USD_03_00|Option for USD_03_00|
-|USD_02_50|Option for USD_02_50|
-|USD_02_00|Option for USD_02_00|
-|USD_01_50|Option for USD_01_50|
-|USD_01_00|Option for USD_01_00|
-|USD_00_80|Option for USD_00_80|
-|USD_00_50|Option for USD_00_50|
+|Optimized|optimized|
+|USD_04_50|d_04_c_50|
+|USD_04_00|d_04_c_00|
+|USD_03_50|d_03_c_50|
+|USD_03_00|d_03_c_00|
+|USD_02_50|d_02_c_50|
+|USD_02_00|d_02_c_00|
+|USD_01_50|d_01_c_50|
+|USD_01_00|d_01_c_00|
+|USD_00_80|d_00_c_80|
+|USD_00_50|d_00_c_50|
 
 ### Test Mode
 

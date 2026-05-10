@@ -23,7 +23,7 @@ Triggers when there is no metadata found in the file.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Metadata%22,%20%22name%22:%20%22No%20Metadata%22,%20%22param%22:%20%5B%22type%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |type|<span class="chip chip-text">Text</span>|
 
@@ -77,7 +77,7 @@ Get a custom metadata item from the fileyou can find a list of ids on https://de
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Metadata%22,%20%22name%22:%20%22Custom%20Item%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22id%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |id|<span class="chip chip-number">Number</span>|
 

@@ -27,7 +27,7 @@ Called when Pollfish survey was completed. surveyInfo is CSV list containing CPA
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Pollfish%22,%20%22name%22:%20%22Survey%20Completed%22,%20%22param%22:%20%5B%22survey%20Info%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |survey Info|<span class="chip chip-text">Text</span>|
 
@@ -49,7 +49,7 @@ Called when device receives survey and user can be prompted to start the survey.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Pollfish%22,%20%22name%22:%20%22Survey%20Received%22,%20%22param%22:%20%5B%22survey%20Info%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |survey Info|<span class="chip chip-text">Text</span>|
 

@@ -25,7 +25,7 @@ Called when an ad was closed.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Unity%20Ads%20Interstitial%22,%20%22name%22:%20%22Ad%20Closed%22,%20%22param%22:%20%5B%22placement%20Id%22,%20%22was%20Skipped%22,%20%22was%20Completed%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |placement Id|<span class="chip chip-text">Text</span>|
 |was Skipped|<span class="chip chip-boolean">Boolean</span>|
@@ -37,7 +37,7 @@ Called when an ad was opened.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Unity%20Ads%20Interstitial%22,%20%22name%22:%20%22Ad%20Opened%22,%20%22param%22:%20%5B%22placement%20Id%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |placement Id|<span class="chip chip-text">Text</span>|
 
@@ -47,7 +47,7 @@ Called when an ad was started.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Unity%20Ads%20Interstitial%22,%20%22name%22:%20%22Ad%20Started%22,%20%22param%22:%20%5B%22placement%20Id%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |placement Id|<span class="chip chip-text">Text</span>|
 
@@ -57,7 +57,7 @@ Called when an ad request failed. The message will display the reason for why th
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Unity%20Ads%20Interstitial%22,%20%22name%22:%20%22Error%22,%20%22param%22:%20%5B%22error%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |error|<span class="chip chip-text">Text</span>|
 

@@ -32,7 +32,7 @@ Use this block to show the spotlight on a floating action button.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Spotlight%22,%20%22name%22:%20%22Show%20Spotlight%20On%20FAB%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22floating%20Action%20Button%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |floating Action Button|<span class="chip chip-component">Component</span>|
 

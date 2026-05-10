@@ -23,7 +23,7 @@ Event to detect if the download is successful finished. You can use the "filePat
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Download%22,%20%22name%22:%20%22Download%20Complete%22,%20%22param%22:%20%5B%22file%20Path%22,%20%22file%20Name%22,%20%22file%20Size%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |file Path|<span class="chip chip-text">Text</span>|
 |file Name|<span class="chip chip-text">Text</span>|
@@ -35,7 +35,7 @@ Event to detect file size is ready to be used.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Download%22,%20%22name%22:%20%22Got%20File%20Size%22,%20%22param%22:%20%5B%22size%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |size|<span class="chip chip-number">Number</span>|
 
@@ -51,7 +51,7 @@ Get the progress (in percentage) of the current download task.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Download%22,%20%22name%22:%20%22On%20Download%20Progress%20Changed%22,%20%22param%22:%20%5B%22progress%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |progress|<span class="chip chip-number">Number</span>|
 
@@ -69,7 +69,7 @@ Get the file size (in bytes) of a file that is stored online or on your device. 
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Download%22,%20%22name%22:%20%22Get%20File%20Size%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22path%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |path|<span class="chip chip-text">Text</span>|
 

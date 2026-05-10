@@ -34,7 +34,7 @@ The ActivityError event is no longer used. Please use the Screen.ErrorOccurred e
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Activity%20Starter%22,%20%22name%22:%20%22ActivityError%22,%20%22param%22:%20%5B%22message%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |message|<span class="chip chip-text">Text</span>|
 
@@ -44,7 +44,7 @@ Event raised after this ActivityStarter returns.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Activity%20Starter%22,%20%22name%22:%20%22After%20Activity%22,%20%22param%22:%20%5B%22result%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |result|<span class="chip chip-text">Text</span>|
 

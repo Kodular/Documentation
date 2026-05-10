@@ -28,7 +28,7 @@ The user double-tapped at a point on the map. This event will be followed by a Z
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Double%20Tap%20At%20Point%22,%20%22param%22:%20%5B%22latitude%22,%20%22longitude%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |latitude|<span class="chip chip-number">Number</span>|
 |longitude|<span class="chip chip-number">Number</span>|
@@ -39,7 +39,7 @@ The user clicked on a map feature.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Feature%20Click%22,%20%22param%22:%20%5B%22feature%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |feature|<span class="chip chip-component">Component</span>|
 
@@ -49,7 +49,7 @@ The user dragged a map feature.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Feature%20Drag%22,%20%22param%22:%20%5B%22feature%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |feature|<span class="chip chip-component">Component</span>|
 
@@ -59,7 +59,7 @@ The user long-pressed on a map feature.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Feature%20Long%20Click%22,%20%22param%22:%20%5B%22feature%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |feature|<span class="chip chip-component">Component</span>|
 
@@ -69,7 +69,7 @@ The user started dragging a map feature.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Feature%20Start%20Drag%22,%20%22param%22:%20%5B%22feature%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |feature|<span class="chip chip-component">Component</span>|
 
@@ -79,7 +79,7 @@ The user stopped dragging a map feature.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Feature%20Stop%20Drag%22,%20%22param%22:%20%5B%22feature%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |feature|<span class="chip chip-component">Component</span>|
 
@@ -89,7 +89,7 @@ A GeoJSON document was successfully read from url. The features specified in the
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Got%20Features%22,%20%22param%22:%20%5B%22url%22,%20%22features%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |url|<span class="chip chip-text">Text</span>|
 |features|<span class="chip chip-list">List</span>|
@@ -100,7 +100,7 @@ An invalid coordinate was supplied during a maps operation. The message paramete
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Invalid%20Point%22,%20%22param%22:%20%5B%22message%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |message|<span class="chip chip-text">Text</span>|
 
@@ -110,7 +110,7 @@ An error was encountered while processing a GeoJSON document at the given url. T
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Load%20Error%22,%20%22param%22:%20%5B%22url%22,%20%22response%20Code%22,%20%22error%20Message%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |url|<span class="chip chip-text">Text</span>|
 |response Code|<span class="chip chip-number">Number</span>|
@@ -122,7 +122,7 @@ The user long-pressed at a point on the map.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Long%20Press%20At%20Point%22,%20%22param%22:%20%5B%22latitude%22,%20%22longitude%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |latitude|<span class="chip chip-number">Number</span>|
 |longitude|<span class="chip chip-number">Number</span>|
@@ -139,7 +139,7 @@ The user tapped at a point on the map.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Tap%20At%20Point%22,%20%22param%22:%20%5B%22latitude%22,%20%22longitude%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |latitude|<span class="chip chip-number">Number</span>|
 |longitude|<span class="chip chip-number">Number</span>|
@@ -160,7 +160,7 @@ Create a new marker with default properties at the specified latitude and longit
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Create%20Marker%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22latitude%22,%20%22longitude%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |latitude|<span class="chip chip-number">Number</span>|
 |longitude|<span class="chip chip-number">Number</span>|
@@ -173,7 +173,7 @@ Convert a feature description into an App Inventor map feature. Currently the on
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Feature%20From%20Description%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22description%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |description|<span class="chip chip-list">List</span>|
 
@@ -183,7 +183,7 @@ Load a feature collection in [GeoJSON](https://en.wikipedia.org/wiki/GeoJSON) fo
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Load%20From%20URL%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22url%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |url|<span class="chip chip-text">Text</span>|
 
@@ -193,7 +193,7 @@ Pan the map center to the given latitude and longitude and adjust the zoom level
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Pan%20To%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22latitude%22,%20%22longitude%22,%20%22zoom%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |latitude|<span class="chip chip-number">Number</span>|
 |longitude|<span class="chip chip-number">Number</span>|
@@ -205,7 +205,7 @@ Save the contents of the Map to the specified path.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Save%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22path%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |path|<span class="chip chip-text">Text</span>|
 
@@ -320,11 +320,11 @@ Set the type of map tile used for the base tile layer. Valid values are:
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Map%20Type%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Map%20Type%22,%20%22getter%22:%20false%7D"></div>
 
-| Options | []() |
+| Option | Value |
 |--------|------|
-|Road|Option for Road|
-|Aerial|Option for Aerial|
-|Terrain|Option for Terrain|
+|Road|1|
+|Aerial|2|
+|Terrain|3|
 
 ### Rotation
 
@@ -344,10 +344,10 @@ Property for ScaleUnits
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Scale%20Units%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Map%22,%20%22name%22:%20%22Scale%20Units%22,%20%22getter%22:%20false%7D"></div>
 
-| Options | []() |
+| Option | Value |
 |--------|------|
-|Metric|Option for Metric|
-|Imperial|Option for Imperial|
+|Metric|1|
+|Imperial|2|
 
 ### Show Compass
 

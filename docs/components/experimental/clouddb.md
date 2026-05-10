@@ -22,7 +22,7 @@ Indicates that an error occurred while communicating with the CloudDB Redis serv
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22CloudDB%22,%20%22name%22:%20%22CloudDB%20Error%22,%20%22param%22:%20%5B%22message%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |message|<span class="chip chip-text">Text</span>|
 
@@ -33,7 +33,7 @@ Launches an event with the tag and value that have been updated.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22CloudDB%22,%20%22name%22:%20%22Data%20Changed%22,%20%22param%22:%20%5B%22tag%22,%20%22value%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |tag|<span class="chip chip-text">Text</span>|
 |value|<span class="chip chip-any">Any</span>|
@@ -44,7 +44,7 @@ Event triggered by the "RemoveFirstFromList" function. The argument "value" is t
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22CloudDB%22,%20%22name%22:%20%22First%20Removed%22,%20%22param%22:%20%5B%22value%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |value|<span class="chip chip-any">Any</span>|
 
@@ -54,7 +54,7 @@ Indicates that a GetValue request has succeeded.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22CloudDB%22,%20%22name%22:%20%22Got%20Value%22,%20%22param%22:%20%5B%22tag%22,%20%22value%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |tag|<span class="chip chip-text">Text</span>|
 |value|<span class="chip chip-any">Any</span>|
@@ -65,7 +65,7 @@ Event triggered when we have received the list of known tags. Used with the "Get
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22CloudDB%22,%20%22name%22:%20%22Tag%20List%22,%20%22param%22:%20%5B%22value%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |value|<span class="chip chip-list">List</span>|
 
@@ -77,7 +77,7 @@ Append a value to the end of a list atomically. If two devices use this function
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22CloudDB%22,%20%22name%22:%20%22Append%20Value%20To%20List%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22tag%22,%20%22item%20To%20Add%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |tag|<span class="chip chip-text">Text</span>|
 |item To Add|<span class="chip chip-any">Any</span>|
@@ -88,7 +88,7 @@ Remove the tag from CloudDB
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22CloudDB%22,%20%22name%22:%20%22Clear%20Tag%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22tag%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |tag|<span class="chip chip-text">Text</span>|
 
@@ -112,7 +112,7 @@ Get the Value for a tag, doesn't return the value but will cause a GotValue even
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22CloudDB%22,%20%22name%22:%20%22Get%20Value%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22tag%22,%20%22value%20If%20Tag%20Not%20There%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |tag|<span class="chip chip-text">Text</span>|
 |value If Tag Not There|<span class="chip chip-any">Any</span>|
@@ -123,7 +123,7 @@ Return the first element of a list and atomically remove it. If two devices use 
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22CloudDB%22,%20%22name%22:%20%22Remove%20First%20From%20List%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22tag%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |tag|<span class="chip chip-text">Text</span>|
 
@@ -133,7 +133,7 @@ Store a value at a tag.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22CloudDB%22,%20%22name%22:%20%22Store%20Value%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22tag%22,%20%22value%20To%20Store%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |tag|<span class="chip chip-text">Text</span>|
 |value To Store|<span class="chip chip-any">Any</span>|

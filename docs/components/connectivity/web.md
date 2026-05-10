@@ -21,7 +21,7 @@ Event indicating that a request has finished.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Web%22,%20%22name%22:%20%22Got%20File%22,%20%22param%22:%20%5B%22url%22,%20%22response%20Code%22,%20%22response%20Type%22,%20%22file%20Name%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |url|<span class="chip chip-text">Text</span>|
 |response Code|<span class="chip chip-number">Number</span>|
@@ -34,7 +34,7 @@ Event indicating that a request has finished.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Web%22,%20%22name%22:%20%22Got%20Text%22,%20%22param%22:%20%5B%22url%22,%20%22response%20Code%22,%20%22response%20Type%22,%20%22response%20Content%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |url|<span class="chip chip-text">Text</span>|
 |response Code|<span class="chip chip-number">Number</span>|
@@ -47,7 +47,7 @@ Event indicating that a request has timed out.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Web%22,%20%22name%22:%20%22Timed%20Out%22,%20%22param%22:%20%5B%22url%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |url|<span class="chip chip-text">Text</span>|
 
@@ -61,7 +61,7 @@ Converts a list of two-element sublists, representing name and value pairs, to a
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Web%22,%20%22name%22:%20%22Build%20Request%20Data%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22list%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |list|<span class="chip chip-list">List</span>|
 
@@ -95,7 +95,7 @@ Decodes the given HTML text value. HTML character entities such as &amp;amp;, &a
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Web%22,%20%22name%22:%20%22HTML%20Text%20Decode%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22html%20Text%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |html Text|<span class="chip chip-text">Text</span>|
 
@@ -108,7 +108,7 @@ A JSON list [x, y, z] decodes to a list (x y z), A JSON object with name A and v
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Web%22,%20%22name%22:%20%22JSON%20Text%20Decode%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22json%20Text%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |json Text|<span class="chip chip-text">Text</span>|
 
@@ -120,7 +120,7 @@ If the SaveResponse property is false, the GotText event will be triggered.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Web%22,%20%22name%22:%20%22Post%20File%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22path%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |path|<span class="chip chip-text">Text</span>|
 
@@ -133,7 +133,7 @@ If the SaveResponse property is false, the GotText event will be triggered.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Web%22,%20%22name%22:%20%22Post%20Text%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22text%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |text|<span class="chip chip-text">Text</span>|
 
@@ -146,7 +146,7 @@ If the SaveResponse property is false, the GotText event will be triggered.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Web%22,%20%22name%22:%20%22Post%20Text%20With%20Encoding%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22text%22,%20%22encoding%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |text|<span class="chip chip-text">Text</span>|
 |encoding|<span class="chip chip-text">Text</span>|
@@ -159,7 +159,7 @@ If the SaveResponse property is false, the GotText event will be triggered.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Web%22,%20%22name%22:%20%22Put%20File%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22path%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |path|<span class="chip chip-text">Text</span>|
 
@@ -172,7 +172,7 @@ If the SaveResponse property is false, the GotText event will be triggered.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Web%22,%20%22name%22:%20%22Put%20Text%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22text%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |text|<span class="chip chip-text">Text</span>|
 
@@ -185,7 +185,7 @@ If the SaveResponse property is false, the GotText event will be triggered.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Web%22,%20%22name%22:%20%22Put%20Text%20With%20Encoding%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22text%22,%20%22encoding%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |text|<span class="chip chip-text">Text</span>|
 |encoding|<span class="chip chip-text">Text</span>|
@@ -198,7 +198,7 @@ Decodes the encoded text value.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Web%22,%20%22name%22:%20%22URI%20Decode%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22text%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |text|<span class="chip chip-text">Text</span>|
 
@@ -210,7 +210,7 @@ Encodes the given text value so that it can be used in a URL.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Web%22,%20%22name%22:%20%22URI%20Encode%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22text%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |text|<span class="chip chip-text">Text</span>|
 
@@ -222,7 +222,7 @@ Decodes the given XML string to produce a list structure. See the App Inventor d
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Web%22,%20%22name%22:%20%22XML%20Text%20Decode%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22XmlText%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |XmlText|<span class="chip chip-text">Text</span>|
 

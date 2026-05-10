@@ -27,7 +27,7 @@ Event indicating that an incoming phone call is answered. phoneNumber is the inc
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Phone%20Call%22,%20%22name%22:%20%22Incoming%20Call%20Answered%22,%20%22param%22:%20%5B%22phone%20Number%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |phone Number|<span class="chip chip-text">Text</span>|
 
@@ -37,16 +37,16 @@ Event indicating that a phone call has ended. If status is 1, incoming call is m
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Phone%20Call%22,%20%22name%22:%20%22Phone%20Call%20Ended%22,%20%22param%22:%20%5B%22status%22,%20%22phone%20Number%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |status|<span class="chip chip-number">Number</span><br><span class="chip chip-enum">EndedStatus</span>|
 |phone Number|<span class="chip chip-text">Text</span>|
 
-| status Options | []() |
+| status Option | Value |
 |--------|------|
-|IncomingRejected|Option for IncomingRejected|
-|IncomingEnded|Option for IncomingEnded|
-|OutgoingEnded|Option for OutgoingEnded|
+|IncomingRejected|1|
+|IncomingEnded|2|
+|OutgoingEnded|3|
 
 ### Phone Call Started
 
@@ -54,15 +54,15 @@ Event indicating that a phonecall has started. If status is 1, incoming call is 
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Phone%20Call%22,%20%22name%22:%20%22Phone%20Call%20Started%22,%20%22param%22:%20%5B%22status%22,%20%22phone%20Number%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |status|<span class="chip chip-number">Number</span><br><span class="chip chip-enum">StartedStatus</span>|
 |phone Number|<span class="chip chip-text">Text</span>|
 
-| status Options | []() |
+| status Option | Value |
 |--------|------|
-|Incoming|Option for Incoming|
-|Outgoing|Option for Outgoing|
+|Incoming|1|
+|Outgoing|2|
 
 ## Methods
 

@@ -28,7 +28,7 @@ Event to raise after the message is spoken.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Text%20To%20Speech%22,%20%22name%22:%20%22After%20Speaking%22,%20%22param%22:%20%5B%22result%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |result|<span class="chip chip-boolean">Boolean</span>|
 
@@ -46,7 +46,7 @@ Speaks the given message.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Text%20To%20Speech%22,%20%22name%22:%20%22Speak%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22message%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |message|<span class="chip chip-text">Text</span>|
 

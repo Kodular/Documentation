@@ -18,7 +18,7 @@ Event that fires when the temperature is changed
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Temperature%20Sensor%22,%20%22name%22:%20%22Temperature%20Changed%22,%20%22param%22:%20%5B%22temperature%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |temperature|<span class="chip chip-number">Number</span>|
 

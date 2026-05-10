@@ -24,7 +24,7 @@ This methods creates a blur effect.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Editor%22,%20%22name%22:%20%22Blur%20Effect%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22image%20A%22,%20%22scale%22,%20%22radius%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |image A|<span class="chip chip-text">Text</span>|
 |scale|<span class="chip chip-number">Number</span>|
@@ -38,7 +38,7 @@ Color boost technique is basically based on color filtering, which is to increas
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Editor%22,%20%22name%22:%20%22Color%20Boost%20Effect%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22image%20A%22,%20%22type%22,%20%22percent%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |image A|<span class="chip chip-text">Text</span>|
 |type|<span class="chip chip-text">Text</span>|
@@ -52,7 +52,7 @@ Set a color filter to your image. For example: red = 30; green = 40; blue = 20.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Editor%22,%20%22name%22:%20%22Color%20Filter%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22image%20A%22,%20%22red%22,%20%22green%22,%20%22blue%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |image A|<span class="chip chip-text">Text</span>|
 |red|<span class="chip chip-number">Number</span>|
@@ -67,7 +67,7 @@ Flip your image vertical or horizontal. For example: type = 1 (vertical); type =
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Editor%22,%20%22name%22:%20%22Flip%20Picture%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22image%20A%22,%20%22type%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |image A|<span class="chip chip-text">Text</span>|
 |type|<span class="chip chip-number">Number</span>|
@@ -80,7 +80,7 @@ Set a gamma effect to your image. For example: red = 5; green = 10; blue = 20.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Editor%22,%20%22name%22:%20%22Gamma%20Effect%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22image%20A%22,%20%22red%22,%20%22green%22,%20%22blue%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |image A|<span class="chip chip-text">Text</span>|
 |red|<span class="chip chip-number">Number</span>|
@@ -95,7 +95,7 @@ Grayscale is a simple image effect that changes colors to grayscale by default.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Editor%22,%20%22name%22:%20%22Greyscale%20Effect%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22image%20A%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |image A|<span class="chip chip-text">Text</span>|
 
@@ -107,7 +107,7 @@ Set a highlight effect to your image.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Editor%22,%20%22name%22:%20%22Highlight%20Effect%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22image%20A%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |image A|<span class="chip chip-text">Text</span>|
 
@@ -119,7 +119,7 @@ Change the hue of an image. For example: level = 1 or 2 or 3 or 4 etc.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Editor%22,%20%22name%22:%20%22Hue%20Filter%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22image%20A%22,%20%22level%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |image A|<span class="chip chip-text">Text</span>|
 |level|<span class="chip chip-number">Number</span>|
@@ -132,7 +132,7 @@ Rotate the image to the degree you need it. For example: degree = 100.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Editor%22,%20%22name%22:%20%22Image%20Rotation%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22image%20A%22,%20%22degree%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |image A|<span class="chip chip-text">Text</span>|
 |degree|<span class="chip chip-number">Number</span>|
@@ -145,7 +145,7 @@ This effect inverts your image.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Editor%22,%20%22name%22:%20%22Invert%20Effect%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22image%20A%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |image A|<span class="chip chip-text">Text</span>|
 
@@ -157,7 +157,7 @@ Return true if image is in landscape format, else return false.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Editor%22,%20%22name%22:%20%22is%20Landscape%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22image%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |image|<span class="chip chip-text">Text</span>|
 
@@ -169,7 +169,7 @@ Return true if image is in portrait format, else return false.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Editor%22,%20%22name%22:%20%22is%20Portrait%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22image%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |image|<span class="chip chip-text">Text</span>|
 
@@ -181,7 +181,7 @@ Return true if image is in square format (means as high as wide or as wide as hi
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Editor%22,%20%22name%22:%20%22is%20Square%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22image%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |image|<span class="chip chip-text">Text</span>|
 
@@ -193,7 +193,7 @@ This methods creates a new side by side horizontal image.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Editor%22,%20%22name%22:%20%22Merge%20Two%20Images%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22left%20Image%22,%20%22right%20Image%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |left Image|<span class="chip chip-text">Text</span>|
 |right Image|<span class="chip chip-text">Text</span>|
@@ -206,7 +206,7 @@ This methods creates a pixelate image effect. Use as example as pixelation Amoun
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Editor%22,%20%22name%22:%20%22Pixelate%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22image%20A%22,%20%22pixelation%20Amount%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |image A|<span class="chip chip-text">Text</span>|
 |pixelation Amount|<span class="chip chip-number">Number</span>|
@@ -219,7 +219,7 @@ Set a round corner to your image. For example: round = 45.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Editor%22,%20%22name%22:%20%22Round%20Corner%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22image%20A%22,%20%22round%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |image A|<span class="chip chip-text">Text</span>|
 |round|<span class="chip chip-number">Number</span>|
@@ -232,7 +232,7 @@ This methods creates a new scale center crop image.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Editor%22,%20%22name%22:%20%22Scale%20Center%20Crop%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22image%20A%22,%20%22height%22,%20%22width%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |image A|<span class="chip chip-text">Text</span>|
 |height|<span class="chip chip-number">Number</span>|
@@ -246,7 +246,7 @@ Set a sepia toning effect to your image. For example: depth = 20; red = 10; gree
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Editor%22,%20%22name%22:%20%22Sepia%20Toning%20Effect%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22image%20A%22,%20%22depth%22,%20%22red%22,%20%22green%22,%20%22blue%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |image A|<span class="chip chip-text">Text</span>|
 |depth|<span class="chip chip-number">Number</span>|
@@ -262,7 +262,7 @@ Change the brightness of your image. For example: value = 50 (maximum = 255=100%
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Editor%22,%20%22name%22:%20%22Set%20Brightness%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22image%20A%22,%20%22value%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |image A|<span class="chip chip-text">Text</span>|
 |value|<span class="chip chip-number">Number</span>|
@@ -275,7 +275,7 @@ Change the color depth of an image as you wish. For example: bitOffset = 32 (bit
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Editor%22,%20%22name%22:%20%22Set%20Color%20Depth%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22image%20A%22,%20%22bit%20Offset%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |image A|<span class="chip chip-text">Text</span>|
 |bit Offset|<span class="chip chip-number">Number</span>|
@@ -288,7 +288,7 @@ This changes the contrast of your image. For example: value = 1.0 means normal p
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Editor%22,%20%22name%22:%20%22Set%20Contrast%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22image%20A%22,%20%22value%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |image A|<span class="chip chip-text">Text</span>|
 |value|<span class="chip chip-number">Number</span>|
@@ -301,7 +301,7 @@ Make a new image with a shading filter. For example: shadingColor = green(rgb va
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Editor%22,%20%22name%22:%20%22Shading%20Filter%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22image%20A%22,%20%22shading%20Color%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |image A|<span class="chip chip-text">Text</span>|
 |shading Color|<span class="chip chip-number">Number</span>|
@@ -314,7 +314,7 @@ That's a pretty new other cool effect. It changes the tint color of your image. 
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Editor%22,%20%22name%22:%20%22Tint%20Color%20Effect%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22image%20A%22,%20%22degree%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |image A|<span class="chip chip-text">Text</span>|
 |degree|<span class="chip chip-number">Number</span>|
@@ -327,7 +327,7 @@ Set a watermark effect to an image and change the positon/size or color of the t
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Image%20Editor%22,%20%22name%22:%20%22Watermark%20Effect%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22image%20A%22,%20%22text%22,%20%22text%20Size%22,%20%22text%20Color%22,%20%22text%20Underline%22,%20%22text%20Alpha%20Value%22,%20%22point%20X%22,%20%22point%20Y%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |image A|<span class="chip chip-text">Text</span>|
 |text|<span class="chip chip-text">Text</span>|

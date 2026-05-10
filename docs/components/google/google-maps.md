@@ -24,7 +24,7 @@ Called after the camera position of a map has changed.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Camera%20Position%20Changed%22,%20%22param%22:%20%5B%22lat%22,%20%22lng%22,%20%22bearing%22,%20%22tilt%22,%20%22zoom%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |lat|<span class="chip chip-number">Number</span>|
 |lng|<span class="chip chip-number">Number</span>|
@@ -38,7 +38,7 @@ Event been raised after the action of moving a draggable circle is finished. Pos
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Finished%20Dragging%20Circle%22,%20%22param%22:%20%5B%22id%22,%20%22center%20Lat%22,%20%22center%20Lng%22,%20%22radius%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |id|<span class="chip chip-number">Number</span>|
 |center Lat|<span class="chip chip-number">Number</span>|
@@ -51,7 +51,7 @@ When the marker's infowindow is clicked, returning marker's id
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Info%20Window%20Clicked%22,%20%22param%22:%20%5B%22marker%20Id%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |marker Id|<span class="chip chip-number">Number</span>|
 
@@ -67,7 +67,7 @@ Triggers this event when user location has changed. Only works when EnableMyloca
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22On%20Location%20Changed%22,%20%22param%22:%20%5B%22lat%22,%20%22lng%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |lat|<span class="chip chip-number">Number</span>|
 |lng|<span class="chip chip-number">Number</span>|
@@ -78,7 +78,7 @@ Called when the user makes a tap gesture on the map
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22On%20Map%20Click%22,%20%22param%22:%20%5B%22lat%22,%20%22lng%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |lat|<span class="chip chip-number">Number</span>|
 |lng|<span class="chip chip-number">Number</span>|
@@ -89,7 +89,7 @@ Called when the user makes a long-press gesture on the map
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22On%20Map%20Long%20Click%22,%20%22param%22:%20%5B%22lat%22,%20%22lng%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |lat|<span class="chip chip-number">Number</span>|
 |lng|<span class="chip chip-number">Number</span>|
@@ -100,7 +100,7 @@ When a marker is clicked
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22On%20Marker%20Click%22,%20%22param%22:%20%5B%22marker%20Id%22,%20%22latitude%22,%20%22longitude%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |marker Id|<span class="chip chip-number">Number</span>|
 |latitude|<span class="chip chip-number">Number</span>|
@@ -112,7 +112,7 @@ When a marker is been dragged
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22On%20Marker%20Drag%22,%20%22param%22:%20%5B%22marker%20Id%22,%20%22latitude%22,%20%22longitude%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |marker Id|<span class="chip chip-number">Number</span>|
 |latitude|<span class="chip chip-number">Number</span>|
@@ -124,7 +124,7 @@ When the user drags a marker and finish the action, returning marker's id and it
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22On%20Marker%20Drag%20End%22,%20%22param%22:%20%5B%22marker%20Id%22,%20%22latitude%22,%20%22longitude%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |marker Id|<span class="chip chip-number">Number</span>|
 |latitude|<span class="chip chip-number">Number</span>|
@@ -136,7 +136,7 @@ When a marker starts been dragged
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22On%20Marker%20Drag%20Start%22,%20%22param%22:%20%5B%22marker%20Id%22,%20%22latitude%22,%20%22longitude%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |marker Id|<span class="chip chip-number">Number</span>|
 |latitude|<span class="chip chip-number">Number</span>|
@@ -148,7 +148,7 @@ This event will be invoked when a user clicks on a point of interest. This can b
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22On%20Point%20Of%20Interest%20Click%22,%20%22param%22:%20%5B%22lat%22,%20%22lng%22,%20%22place%20Name%22,%20%22place%20ID%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |lat|<span class="chip chip-number">Number</span>|
 |lng|<span class="chip chip-number">Number</span>|
@@ -165,7 +165,7 @@ Create a circle overlay on the map UI with specified latitude and longitude for 
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Add%20Circle%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22lat%22,%20%22lng%22,%20%22radius%22,%20%22alpha%22,%20%22hue%22,%20%22stroke%20Width%22,%20%22stroke%20Color%22,%20%22draggable%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |lat|<span class="chip chip-number">Number</span>|
 |lng|<span class="chip chip-number">Number</span>|
@@ -184,7 +184,7 @@ Adding a list of YailLists for markers. The representation of a maker in the inn
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Add%20Markers%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22markers%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |markers|<span class="chip chip-list">List</span>|
 
@@ -194,7 +194,7 @@ Adding a list of markers that are represented as JsonArray. The inner JsonObject
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Add%20Markers%20From%20Json%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22json%20String%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |json String|<span class="chip chip-text">Text</span>|
 
@@ -206,7 +206,7 @@ Adding a list of YailList for markers. The inner YailList represents a marker an
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Add%20Markers%20Hue%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22markers%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |markers|<span class="chip chip-list">List</span>|
 
@@ -222,7 +222,7 @@ A Polygon is an enclosed shape that can be used to mark areas on the map.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Add%20Polygon%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22lat%20Min%22,%20%22lat%20Max%22,%20%22lon%20Min%22,%20%22lon%20Max%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |lat Min|<span class="chip chip-number">Number</span>|
 |lat Max|<span class="chip chip-number">Number</span>|
@@ -237,7 +237,7 @@ This block will return the unique id of the new added polyline. Create a new pol
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Add%20Polyline%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22points%22,%20%22width%22,%20%22color%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |points|<span class="chip chip-list">List</span>|
 |width|<span class="chip chip-number">Number</span>|
@@ -255,7 +255,7 @@ Transforms the camera such that the specified latitude/longitude bounds are cent
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Bound%20Camera%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22ne%20Lat%22,%20%22ne%20Lng%22,%20%22sw%20Lat%22,%20%22sw%20Lng%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |ne Lat|<span class="chip chip-number">Number</span>|
 |ne Lng|<span class="chip chip-number">Number</span>|
@@ -280,7 +280,7 @@ Enables/disables the compass widget on the map's ui. Call this only after event 
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Enable%20Compass%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22enable%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |enable|<span class="chip chip-boolean">Boolean</span>|
 
@@ -290,7 +290,7 @@ Enable/Disable to listen to map's camera position changed event
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Enable%20Map%20Camera%20Pos%20Change%20Listener%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22enabled%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |enabled|<span class="chip chip-boolean">Boolean</span>|
 
@@ -300,7 +300,7 @@ Enable/Disable to listen to map's click event
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Enable%20Map%20Click%20Listener%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22enabled%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |enabled|<span class="chip chip-boolean">Boolean</span>|
 
@@ -310,7 +310,7 @@ Enable/disable to listen to map's long click event
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Enable%20Map%20Long%20Click%20Listener%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22enabled%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |enabled|<span class="chip chip-boolean">Boolean</span>|
 
@@ -320,7 +320,7 @@ Enable or disable my location widget control for Google Map. One can call GetMyL
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Enable%20My%20Location%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22enabled%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |enabled|<span class="chip chip-boolean">Boolean</span>|
 
@@ -330,7 +330,7 @@ Enables/disables the capability to rotate a map on the ui. Call this only after 
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Enable%20Rotate%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22enable%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |enable|<span class="chip chip-boolean">Boolean</span>|
 
@@ -340,7 +340,7 @@ Enables/disables the capability to scroll a map on the ui. Call this only after 
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Enable%20Scroll%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22enable%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |enable|<span class="chip chip-boolean">Boolean</span>|
 
@@ -350,7 +350,7 @@ Enables/disables the zoom widget on the map's ui. Call this only after the event
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Enable%20Zoom%20Control%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22enable%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |enable|<span class="chip chip-boolean">Boolean</span>|
 
@@ -360,7 +360,7 @@ Enables/disables zoom gesture on the map ui. Call this only after the event "Map
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Enable%20Zoom%20Gesture%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22enable%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |enable|<span class="chip chip-boolean">Boolean</span>|
 
@@ -396,7 +396,7 @@ Get bounding box.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Get%20Bounding%20Box%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22latitude%20In%20Degrees%22,%20%22longitude%20In%20Degrees%22,%20%22half%20Side%20In%20Km%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |latitude In Degrees|<span class="chip chip-number">Number</span>|
 |longitude In Degrees|<span class="chip chip-number">Number</span>|
@@ -434,7 +434,7 @@ Convert a JsonArray of points (lat, lng pairs) to a list.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Get%20Points%20From%20Json%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22json%20String%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |json String|<span class="chip chip-text">Text</span>|
 
@@ -454,7 +454,7 @@ Move the map's camera to the specified position and zoom level
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Move%20Camera%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22lat%22,%20%22lng%22,%20%22zoom%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |lat|<span class="chip chip-number">Number</span>|
 |lng|<span class="chip chip-number">Number</span>|
@@ -468,7 +468,7 @@ Remove a circle for the map. Returns true if successfully removed, false if the 
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Remove%20Circle%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22circle%20Id%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |circle Id|<span class="chip chip-number">Number</span>|
 
@@ -478,7 +478,7 @@ Remove a marker from the map
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Remove%20Marker%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22marker%20Id%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |marker Id|<span class="chip chip-number">Number</span>|
 
@@ -490,7 +490,7 @@ Use this block to remove a polyline from the map. It will return true if it was 
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Remove%20Polyline%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22polyline%20Id%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |polyline Id|<span class="chip chip-number">Number</span>|
 
@@ -500,7 +500,7 @@ Set the layer of Google map. Default layer is "normal", other choices including 
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Set%20Map%20Type%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22layer%20Name%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |layer Name|<span class="chip chip-text">Text</span>|
 
@@ -510,7 +510,7 @@ Set the property of an existing circle. Properties include: "alpha"(number, valu
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Update%20Circle%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22circle%20Id%22,%20%22property%20Name%22,%20%22value%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |circle Id|<span class="chip chip-number">Number</span>|
 |property Name|<span class="chip chip-text">Text</span>|
@@ -522,7 +522,7 @@ Set the property of a marker, note that the marker has to be added first or else
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Update%20Marker%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22marker%20Id%22,%20%22property%20Name%22,%20%22value%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |marker Id|<span class="chip chip-number">Number</span>|
 |property Name|<span class="chip chip-text">Text</span>|
@@ -534,7 +534,7 @@ Update any polyline with the given id. You can change the property values for 'w
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Maps%22,%20%22name%22:%20%22Update%20Polyline%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22polyline%20Id%22,%20%22property%20Name%22,%20%22points%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |polyline Id|<span class="chip chip-number">Number</span>|
 |property Name|<span class="chip chip-text">Text</span>|

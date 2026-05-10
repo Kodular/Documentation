@@ -24,7 +24,7 @@ Event to detect the snackbar was dismissed. Possible results can be: "UNDEFINED"
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Snackbar%22,%20%22name%22:%20%22On%20Dismissed%22,%20%22param%22:%20%5B%22event%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |event|<span class="chip chip-text">Text</span>|
 
@@ -56,7 +56,7 @@ Show Snackbar (message supports HTML formatting)
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Snackbar%22,%20%22name%22:%20%22Show%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22message%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |message|<span class="chip chip-text">Text</span>|
 
@@ -66,7 +66,7 @@ Show Snackbar with action button (message supports HTML formatting)
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Snackbar%22,%20%22name%22:%20%22Show%20With%20Button%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22message%22,%20%22button%20Text%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |message|<span class="chip chip-text">Text</span>|
 |button Text|<span class="chip chip-text">Text</span>|

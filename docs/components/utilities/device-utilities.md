@@ -21,7 +21,7 @@ Event to get the IMEI after it was requested.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Got%20IMEI%22,%20%22param%22:%20%5B%22imei%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |imei|<span class="chip chip-text">Text</span>|
 
@@ -31,7 +31,7 @@ Event to get the serial number after it was requested.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Got%20Serial%22,%20%22param%22:%20%5B%22serial%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |serial|<span class="chip chip-text">Text</span>|
 
@@ -43,7 +43,7 @@ Copy text to clipboard. In case 'Show Success Toast' is true, the toast with you
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Copy%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22text%22,%20%22Success%20Toast%20Message%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |text|<span class="chip chip-text">Text</span>|
 |Success Toast Message|<span class="chip chip-text">Text</span>|
@@ -172,7 +172,7 @@ Parse a text between two strings. Example: text = abcdef, start = a, end = d, re
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Parse%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22text%22,%20%22start%22,%20%22end%22,%20%22if%20Text%20Not%20Found%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |text|<span class="chip chip-text">Text</span>|
 |start|<span class="chip chip-text">Text</span>|
@@ -187,7 +187,7 @@ Paste text from clipboard. In case 'Show Success Toast' is true, the toast with 
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Device%20Utilities%22,%20%22name%22:%20%22Paste%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22Success%20Toast%20Message%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |Success Toast Message|<span class="chip chip-text">Text</span>|
 

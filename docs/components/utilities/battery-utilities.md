@@ -20,7 +20,7 @@ Returns a list showing battery info for the specified key. Key can be: HEALTH, L
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Battery%20Utilities%22,%20%22name%22:%20%22Get%20Battery%20Info%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22key%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |key|<span class="chip chip-text">Text</span>|
 

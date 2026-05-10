@@ -39,7 +39,7 @@ The PlayerError event is no longer used. Please use the Screen.ErrorOccurred eve
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Player%22,%20%22name%22:%20%22PlayerError%22,%20%22param%22:%20%5B%22message%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |message|<span class="chip chip-text">Text</span>|
 
@@ -57,7 +57,7 @@ Set a position where the source file should start playing.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Player%22,%20%22name%22:%20%22Seek%20To%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22position%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |position|<span class="chip chip-number">Number</span>|
 
@@ -67,7 +67,7 @@ Control the left and right volume of the player. Set the volume to a number betw
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Player%22,%20%22name%22:%20%22Set%20Left%20Right%20Volume%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22left%20Volume%22,%20%22right%20Volume%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |left Volume|<span class="chip chip-number">Number</span>|
 |right Volume|<span class="chip chip-number">Number</span>|
@@ -91,7 +91,7 @@ Vibrates for specified number of milliseconds.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Player%22,%20%22name%22:%20%22Vibrate%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22milliseconds%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |milliseconds|<span class="chip chip-number">Number</span>|
 

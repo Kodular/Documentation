@@ -18,7 +18,7 @@ Delete a file on the robot.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Direct%20Commands%22,%20%22name%22:%20%22Delete%20File%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22file%20Name%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |file Name|<span class="chip chip-text">Text</span>|
 
@@ -28,7 +28,7 @@ Download a file to the robot.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Direct%20Commands%22,%20%22name%22:%20%22Download%20File%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22source%22,%20%22destination%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |source|<span class="chip chip-text">Text</span>|
 |destination|<span class="chip chip-text">Text</span>|
@@ -73,16 +73,16 @@ Reads the values of an input sensor on the robot. Assumes sensor type has been c
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Direct%20Commands%22,%20%22name%22:%20%22Get%20Input%20Values%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22sensor%20Port%20Letter%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |sensor Port Letter|<span class="chip chip-text">Text</span><br><span class="chip chip-enum">NxtSensorPort</span>|
 
-| sensor Port Letter Options | []() |
+| sensor Port Letter Option | Value |
 |--------|------|
-|Port1|Option for Port1|
-|Port2|Option for Port2|
-|Port3|Option for Port3|
-|Port4|Option for Port4|
+|Port1|1|
+|Port2|2|
+|Port3|3|
+|Port4|4|
 
 ### Get Output State
 
@@ -92,15 +92,15 @@ Reads the output state of a motor on the robot.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Direct%20Commands%22,%20%22name%22:%20%22Get%20Output%20State%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22motor%20Port%20Letter%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |motor Port Letter|<span class="chip chip-text">Text</span><br><span class="chip chip-enum">NxtMotorPort</span>|
 
-| motor Port Letter Options | []() |
+| motor Port Letter Option | Value |
 |--------|------|
-|PortA|Option for PortA|
-|PortB|Option for PortB|
-|PortC|Option for PortC|
+|PortA|A|
+|PortB|B|
+|PortC|C|
 
 ### Keep Alive
 
@@ -118,7 +118,7 @@ Returns a list containing the names of matching files found on the robot.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Direct%20Commands%22,%20%22name%22:%20%22List%20Files%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22wildcard%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |wildcard|<span class="chip chip-text">Text</span>|
 
@@ -130,16 +130,16 @@ Returns the count of available bytes to read.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Direct%20Commands%22,%20%22name%22:%20%22Ls%20Get%20Status%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22sensor%20Port%20Letter%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |sensor Port Letter|<span class="chip chip-text">Text</span><br><span class="chip chip-enum">NxtSensorPort</span>|
 
-| sensor Port Letter Options | []() |
+| sensor Port Letter Option | Value |
 |--------|------|
-|Port1|Option for Port1|
-|Port2|Option for Port2|
-|Port3|Option for Port3|
-|Port4|Option for Port4|
+|Port1|1|
+|Port2|2|
+|Port3|3|
+|Port4|4|
 
 ### Ls Read
 
@@ -149,16 +149,16 @@ Reads unsigned low speed data from an input sensor on the robot. Assumes sensor 
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Direct%20Commands%22,%20%22name%22:%20%22Ls%20Read%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22sensor%20Port%20Letter%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |sensor Port Letter|<span class="chip chip-text">Text</span><br><span class="chip chip-enum">NxtSensorPort</span>|
 
-| sensor Port Letter Options | []() |
+| sensor Port Letter Option | Value |
 |--------|------|
-|Port1|Option for Port1|
-|Port2|Option for Port2|
-|Port3|Option for Port3|
-|Port4|Option for Port4|
+|Port1|1|
+|Port2|2|
+|Port3|3|
+|Port4|4|
 
 ### Ls Write
 
@@ -166,18 +166,18 @@ Writes low speed data to an input sensor on the robot. Assumes sensor type has b
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Direct%20Commands%22,%20%22name%22:%20%22Ls%20Write%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22sensor%20Port%20Letter%22,%20%22list%22,%20%22rx%20Data%20Length%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |sensor Port Letter|<span class="chip chip-text">Text</span><br><span class="chip chip-enum">NxtSensorPort</span>|
 |list|<span class="chip chip-list">List</span>|
 |rx Data Length|<span class="chip chip-number">Number</span>|
 
-| sensor Port Letter Options | []() |
+| sensor Port Letter Option | Value |
 |--------|------|
-|Port1|Option for Port1|
-|Port2|Option for Port2|
-|Port3|Option for Port3|
-|Port4|Option for Port4|
+|Port1|1|
+|Port2|2|
+|Port3|3|
+|Port4|4|
 
 ### Message Read
 
@@ -187,22 +187,22 @@ Read a message from a mailbox (1-10) on the robot.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Direct%20Commands%22,%20%22name%22:%20%22Message%20Read%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22mailbox%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |mailbox|<span class="chip chip-number">Number</span><br><span class="chip chip-enum">NxtMailbox</span>|
 
-| mailbox Options | []() |
+| mailbox Option | Value |
 |--------|------|
-|Box1|Option for Box1|
-|Box2|Option for Box2|
-|Box3|Option for Box3|
-|Box4|Option for Box4|
-|Box5|Option for Box5|
-|Box6|Option for Box6|
-|Box7|Option for Box7|
-|Box8|Option for Box8|
-|Box9|Option for Box9|
-|Box10|Option for Box10|
+|Box1|1|
+|Box2|2|
+|Box3|3|
+|Box4|4|
+|Box5|5|
+|Box6|6|
+|Box7|7|
+|Box8|8|
+|Box9|9|
+|Box10|10|
 
 ### Message Write
 
@@ -210,23 +210,23 @@ Write a message to a mailbox (1-10) on the robot.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Direct%20Commands%22,%20%22name%22:%20%22Message%20Write%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22mailbox%22,%20%22message%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |mailbox|<span class="chip chip-number">Number</span><br><span class="chip chip-enum">NxtMailbox</span>|
 |message|<span class="chip chip-text">Text</span>|
 
-| mailbox Options | []() |
+| mailbox Option | Value |
 |--------|------|
-|Box1|Option for Box1|
-|Box2|Option for Box2|
-|Box3|Option for Box3|
-|Box4|Option for Box4|
-|Box5|Option for Box5|
-|Box6|Option for Box6|
-|Box7|Option for Box7|
-|Box8|Option for Box8|
-|Box9|Option for Box9|
-|Box10|Option for Box10|
+|Box1|1|
+|Box2|2|
+|Box3|3|
+|Box4|4|
+|Box5|5|
+|Box6|6|
+|Box7|7|
+|Box8|8|
+|Box9|9|
+|Box10|10|
 
 ### Play Sound File
 
@@ -234,7 +234,7 @@ Play a sound file on the robot.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Direct%20Commands%22,%20%22name%22:%20%22Play%20Sound%20File%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22file%20Name%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |file Name|<span class="chip chip-text">Text</span>|
 
@@ -244,7 +244,7 @@ Make the robot play a tone.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Direct%20Commands%22,%20%22name%22:%20%22Play%20Tone%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22frequency%20Hz%22,%20%22duration%20Ms%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |frequency Hz|<span class="chip chip-number">Number</span>|
 |duration Ms|<span class="chip chip-number">Number</span>|
@@ -255,16 +255,16 @@ Reset the scaled value of an input sensor on the robot.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Direct%20Commands%22,%20%22name%22:%20%22Reset%20Input%20Scaled%20Value%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22sensor%20Port%20Letter%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |sensor Port Letter|<span class="chip chip-text">Text</span><br><span class="chip chip-enum">NxtSensorPort</span>|
 
-| sensor Port Letter Options | []() |
+| sensor Port Letter Option | Value |
 |--------|------|
-|Port1|Option for Port1|
-|Port2|Option for Port2|
-|Port3|Option for Port3|
-|Port4|Option for Port4|
+|Port1|1|
+|Port2|2|
+|Port3|3|
+|Port4|4|
 
 ### Reset Motor Position
 
@@ -272,16 +272,16 @@ Reset motor position.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Direct%20Commands%22,%20%22name%22:%20%22Reset%20Motor%20Position%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22motor%20Port%20Letter%22,%20%22relative%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |motor Port Letter|<span class="chip chip-text">Text</span><br><span class="chip chip-enum">NxtMotorPort</span>|
 |relative|<span class="chip chip-boolean">Boolean</span>|
 
-| motor Port Letter Options | []() |
+| motor Port Letter Option | Value |
 |--------|------|
-|PortA|Option for PortA|
-|PortB|Option for PortB|
-|PortC|Option for PortC|
+|PortA|A|
+|PortB|B|
+|PortC|C|
 
 ### Set Brick Name
 
@@ -289,7 +289,7 @@ Set the brick name of the robot.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Direct%20Commands%22,%20%22name%22:%20%22Set%20Brick%20Name%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22name%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |name|<span class="chip chip-text">Text</span>|
 
@@ -299,48 +299,48 @@ Configure an input sensor on the robot.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Direct%20Commands%22,%20%22name%22:%20%22Set%20Input%20Mode%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22sensor%20Port%20Letter%22,%20%22sensor%20Type%22,%20%22sensor%20Mode%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |sensor Port Letter|<span class="chip chip-text">Text</span><br><span class="chip chip-enum">NxtSensorPort</span>|
 |sensor Type|<span class="chip chip-number">Number</span><br><span class="chip chip-enum">NxtSensorType</span>|
 |sensor Mode|<span class="chip chip-number">Number</span><br><span class="chip chip-enum">NxtSensorMode</span>|
 
-| sensor Port Letter Options | []() |
+| sensor Port Letter Option | Value |
 |--------|------|
-|Port1|Option for Port1|
-|Port2|Option for Port2|
-|Port3|Option for Port3|
-|Port4|Option for Port4|
+|Port1|1|
+|Port2|2|
+|Port3|3|
+|Port4|4|
 
-| sensor Type Options | []() |
+| sensor Type Option | Value |
 |--------|------|
-|NoSensor|Option for NoSensor|
-|Touch|Option for Touch|
-|LightOn|Option for LightOn|
-|LightOff|Option for LightOff|
-|SoundDB|Option for SoundDB|
-|SoundDBA|Option for SoundDBA|
-|ColorFull|Option for ColorFull|
-|ColorRed|Option for ColorRed|
-|ColorGreen|Option for ColorGreen|
-|ColorBlue|Option for ColorBlue|
-|ColorNone|Option for ColorNone|
-|Digital12C|Option for Digital12C|
-|Digital12C9V|Option for Digital12C9V|
-|RcxTemperature|Option for RcxTemperature|
-|RcxLight|Option for RcxLight|
-|RcxAngle|Option for RcxAngle|
+|NoSensor|0|
+|Touch|1|
+|LightOn|5|
+|LightOff|6|
+|SoundDB|7|
+|SoundDBA|8|
+|ColorFull|13|
+|ColorRed|14|
+|ColorGreen|15|
+|ColorBlue|16|
+|ColorNone|17|
+|Digital12C|10|
+|Digital12C9V|11|
+|RcxTemperature|2|
+|RcxLight|3|
+|RcxAngle|4|
 
-| sensor Mode Options | []() |
+| sensor Mode Option | Value |
 |--------|------|
-|Raw|Option for Raw|
-|Boolean|Option for Boolean|
-|TransitionCount|Option for TransitionCount|
-|PeriodCount|Option for PeriodCount|
-|Percentage|Option for Percentage|
-|RcxCelsius|Option for RcxCelsius|
-|RcxFahrenheit|Option for RcxFahrenheit|
-|RcxAngleSteps|Option for RcxAngleSteps|
+|Raw|0|
+|Boolean|32|
+|TransitionCount|96|
+|PeriodCount|96|
+|Percentage|128|
+|RcxCelsius|160|
+|RcxFahrenheit|192|
+|RcxAngleSteps|224|
 
 ### Set Output State
 
@@ -348,7 +348,7 @@ Sets the output state of a motor on the robot.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Direct%20Commands%22,%20%22name%22:%20%22Set%20Output%20State%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22motor%20Port%20Letter%22,%20%22power%22,%20%22mode%22,%20%22regulation%20Mode%22,%20%22turn%20Ratio%22,%20%22run%20State%22,%20%22tacho%20Limit%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |motor Port Letter|<span class="chip chip-text">Text</span><br><span class="chip chip-enum">NxtMotorPort</span>|
 |power|<span class="chip chip-number">Number</span>|
@@ -358,31 +358,31 @@ Sets the output state of a motor on the robot.
 |run State|<span class="chip chip-number">Number</span><br><span class="chip chip-enum">NxtRunState</span>|
 |tacho Limit|<span class="chip chip-number">Number</span>|
 
-| motor Port Letter Options | []() |
+| motor Port Letter Option | Value |
 |--------|------|
-|PortA|Option for PortA|
-|PortB|Option for PortB|
-|PortC|Option for PortC|
+|PortA|A|
+|PortB|B|
+|PortC|C|
 
-| mode Options | []() |
+| mode Option | Value |
 |--------|------|
-|On|Option for On|
-|Brake|Option for Brake|
-|Regulated|Option for Regulated|
-|Coast|Option for Coast|
+|On|1|
+|Brake|2|
+|Regulated|4|
+|Coast|0|
 
-| regulation Mode Options | []() |
+| regulation Mode Option | Value |
 |--------|------|
-|Disabled|Option for Disabled|
-|Speed|Option for Speed|
-|Synchronization|Option for Synchronization|
+|Disabled|0|
+|Speed|1|
+|Synchronization|2|
 
-| run State Options | []() |
+| run State Option | Value |
 |--------|------|
-|Disabled|Option for Disabled|
-|Running|Option for Running|
-|RampUp|Option for RampUp|
-|RampDown|Option for RampDown|
+|Disabled|0|
+|Running|32|
+|RampUp|16|
+|RampDown|64|
 
 ### Start Program
 
@@ -390,7 +390,7 @@ Start execution of a previously downloaded program on the robot.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Direct%20Commands%22,%20%22name%22:%20%22Start%20Program%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22program%20Name%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |program Name|<span class="chip chip-text">Text</span>|
 

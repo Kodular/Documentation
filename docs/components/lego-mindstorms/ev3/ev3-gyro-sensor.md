@@ -18,7 +18,7 @@ Called then the sensor value changed.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Gyro%20Sensor%22,%20%22name%22:%20%22Sensor%20Value%20Changed%22,%20%22param%22:%20%5B%22sensor%20Value%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |sensor Value|<span class="chip chip-number">Number</span>|
 
@@ -68,10 +68,10 @@ Specifies the mode of the sensor.
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Gyro%20Sensor%22,%20%22name%22:%20%22Mode%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Gyro%20Sensor%22,%20%22name%22:%20%22Mode%22,%20%22getter%22:%20false%7D"></div>
 
-| Options | []() |
+| Option | Value |
 |--------|------|
-|Angle|Option for Angle|
-|Rate|Option for Rate|
+|Angle|angle|
+|Rate|rate|
 
 ### Sensor Port
 

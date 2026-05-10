@@ -35,7 +35,7 @@ When the user does a drag from one point (prevX, prevY) toanother (x, y). The pa
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Canvas%22,%20%22name%22:%20%22Dragged%22,%20%22param%22:%20%5B%22start%20X%22,%20%22start%20Y%22,%20%22prev%20X%22,%20%22prev%20Y%22,%20%22current%20X%22,%20%22current%20Y%22,%20%22dragged%20Any%20Sprite%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |start X|<span class="chip chip-number">Number</span>|
 |start Y|<span class="chip chip-number">Number</span>|
@@ -51,7 +51,7 @@ When a fling gesture (quick swipe) is made on the canvas: providesthe (x,y) posi
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Canvas%22,%20%22name%22:%20%22Flung%22,%20%22param%22:%20%5B%22x%22,%20%22y%22,%20%22speed%22,%20%22heading%22,%20%22x%20vel%22,%20%22y%20vel%22,%20%22flung%20Sprite%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |x|<span class="chip chip-number">Number</span>|
 |y|<span class="chip chip-number">Number</span>|
@@ -67,7 +67,7 @@ This event is invoked when two-finger pinches. ScaleFactor is the ratio of the a
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Canvas%22,%20%22name%22:%20%22Scaled%22,%20%22param%22:%20%5B%22scale%20Factor%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |scale Factor|<span class="chip chip-number">Number</span>|
 
@@ -77,7 +77,7 @@ When the user begins touching the canvas (places finger on canvas andleaves it t
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Canvas%22,%20%22name%22:%20%22Touch%20Down%22,%20%22param%22:%20%5B%22x%22,%20%22y%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |x|<span class="chip chip-number">Number</span>|
 |y|<span class="chip chip-number">Number</span>|
@@ -88,7 +88,7 @@ When the user stops touching the canvas (lifts finger after aTouchDown event): p
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Canvas%22,%20%22name%22:%20%22Touch%20Up%22,%20%22param%22:%20%5B%22x%22,%20%22y%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |x|<span class="chip chip-number">Number</span>|
 |y|<span class="chip chip-number">Number</span>|
@@ -99,7 +99,7 @@ When the user touches the canvas and then immediately lifts finger: providesthe 
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Canvas%22,%20%22name%22:%20%22Touched%22,%20%22param%22:%20%5B%22x%22,%20%22y%22,%20%22touched%20Any%20Sprite%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |x|<span class="chip chip-number">Number</span>|
 |y|<span class="chip chip-number">Number</span>|
@@ -119,7 +119,7 @@ Draw an arc on Canvas, by drawing an arc from a specified oval (specified by lef
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Canvas%22,%20%22name%22:%20%22Draw%20Arc%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22left%22,%20%22top%22,%20%22right%22,%20%22bottom%22,%20%22start%20Angle%22,%20%22sweep%20Angle%22,%20%22use%20Center%22,%20%22fill%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |left|<span class="chip chip-number">Number</span>|
 |top|<span class="chip chip-number">Number</span>|
@@ -136,7 +136,7 @@ Draws a circle (filled in) with the given radius centered at the given coordinat
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Canvas%22,%20%22name%22:%20%22Draw%20Circle%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22center%20X%22,%20%22center%20Y%22,%20%22radius%22,%20%22fill%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |center X|<span class="chip chip-number">Number</span>|
 |center Y|<span class="chip chip-number">Number</span>|
@@ -149,7 +149,7 @@ Draws a line between the given coordinates on the canvas.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Canvas%22,%20%22name%22:%20%22Draw%20Line%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22x1%22,%20%22y1%22,%20%22x2%22,%20%22y2%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |x1|<span class="chip chip-number">Number</span>|
 |y1|<span class="chip chip-number">Number</span>|
@@ -162,7 +162,7 @@ Draws a point at the given coordinates on the canvas.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Canvas%22,%20%22name%22:%20%22Draw%20Point%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22x%22,%20%22y%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |x|<span class="chip chip-number">Number</span>|
 |y|<span class="chip chip-number">Number</span>|
@@ -173,7 +173,7 @@ Creates a polygon with with specified number of sides from a radius.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Canvas%22,%20%22name%22:%20%22Draw%20Polygon%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22center%20X%22,%20%22center%20Y%22,%20%22num%20Sides%22,%20%22poly%20Radius%22,%20%22corner%20Radius%22,%20%22rotation%22,%20%22fill%22,%20%22clear%20Canvas%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |center X|<span class="chip chip-number">Number</span>|
 |center Y|<span class="chip chip-number">Number</span>|
@@ -190,7 +190,7 @@ Draws a shape on the canvas. pointList should be a list contains sub-lists with 
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Canvas%22,%20%22name%22:%20%22Draw%20Shape%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22point%20List%22,%20%22fill%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |point List|<span class="chip chip-list">List</span>|
 |fill|<span class="chip chip-boolean">Boolean</span>|
@@ -201,7 +201,7 @@ Draws the specified text relative to the specified coordinates using the values 
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Canvas%22,%20%22name%22:%20%22Draw%20Text%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22text%22,%20%22x%22,%20%22y%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |text|<span class="chip chip-text">Text</span>|
 |x|<span class="chip chip-number">Number</span>|
@@ -213,7 +213,7 @@ Draws the specified text starting at the specified coordinates at the specified 
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Canvas%22,%20%22name%22:%20%22Draw%20Text%20At%20Angle%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22text%22,%20%22x%22,%20%22y%22,%20%22angle%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |text|<span class="chip chip-text">Text</span>|
 |x|<span class="chip chip-number">Number</span>|
@@ -228,7 +228,7 @@ Gets the color of the specified point. This includes the background and any draw
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Canvas%22,%20%22name%22:%20%22Get%20Background%20Pixel%20Color%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22x%22,%20%22y%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |x|<span class="chip chip-number">Number</span>|
 |y|<span class="chip chip-number">Number</span>|
@@ -241,7 +241,7 @@ Gets the color of the specified point.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Canvas%22,%20%22name%22:%20%22Get%20Pixel%20Color%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22x%22,%20%22y%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |x|<span class="chip chip-number">Number</span>|
 |y|<span class="chip chip-number">Number</span>|
@@ -262,7 +262,7 @@ Saves a picture of this Canvas to the device's external storage in the file name
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Canvas%22,%20%22name%22:%20%22Save%20As%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22file%20Name%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |file Name|<span class="chip chip-text">Text</span>|
 
@@ -272,7 +272,7 @@ Sets the color of the specified point. This differs from DrawPoint by having an 
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Canvas%22,%20%22name%22:%20%22Set%20Background%20Pixel%20Color%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22x%22,%20%22y%22,%20%22color%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |x|<span class="chip chip-number">Number</span>|
 |y|<span class="chip chip-number">Number</span>|

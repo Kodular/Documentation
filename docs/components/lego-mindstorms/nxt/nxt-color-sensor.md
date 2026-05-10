@@ -30,7 +30,7 @@ Detected color has changed. The ColorChanged event will not occur if the DetectC
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22NXT%20Color%20Sensor%22,%20%22name%22:%20%22Color%20Changed%22,%20%22param%22:%20%5B%22color%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |color|<span class="chip chip-number">Number</span>|
 

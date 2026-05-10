@@ -19,7 +19,7 @@ Triggers when the user clicks on an item of the Navigation Menu
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Side%20Menu%20Layout%22,%20%22name%22:%20%22On%20Menu%20Item%20Click%22,%20%22param%22:%20%5B%22title%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |title|<span class="chip chip-text">Text</span>|
 
@@ -31,7 +31,7 @@ Add an item to the Navigation Menu
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Side%20Menu%20Layout%22,%20%22name%22:%20%22Add%20Item%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22title%22,%20%22image%22,%20%22enabled%22,%20%22checked%22,%20%22group%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |title|<span class="chip chip-text">Text</span>|
 |image|<span class="chip chip-text">Text</span>|
@@ -45,7 +45,7 @@ Remove an item from the Navigation Menu
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Side%20Menu%20Layout%22,%20%22name%22:%20%22Remove%20Item%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22title%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |title|<span class="chip chip-text">Text</span>|
 
@@ -55,7 +55,7 @@ Update an item of the Navigation Menu
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Side%20Menu%20Layout%22,%20%22name%22:%20%22Update%20Item%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22title%22,%20%22new%20Title%22,%20%22image%22,%20%22enabled%22,%20%22checked%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |title|<span class="chip chip-text">Text</span>|
 |new Title|<span class="chip chip-text">Text</span>|

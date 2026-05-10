@@ -24,7 +24,7 @@ Fired when an error occurs during token retrieval, topic subscription, or Fireba
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Firebase%20Cloud%20Messaging%22,%20%22name%22:%20%22Error%20Occurred%22,%20%22param%22:%20%5B%22message%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |message|<span class="chip chip-text">Text</span>|
 
@@ -34,7 +34,7 @@ Fired when a message is received from FCM, whether the app is in the foreground 
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Firebase%20Cloud%20Messaging%22,%20%22name%22:%20%22Message%20Received%22,%20%22param%22:%20%5B%22message%20ID%22,%20%22from%22,%20%22title%22,%20%22body%22,%20%22data%22,%20%22sent%20Time%22,%20%22ttl%22,%20%22priority%22,%20%22collapseKey%22,%20%22image%20URL%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |message ID|<span class="chip chip-text">Text</span>|
 |from|<span class="chip chip-text">Text</span>|
@@ -53,7 +53,7 @@ Fired when the user taps a notification. Provides the message data that was incl
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Firebase%20Cloud%20Messaging%22,%20%22name%22:%20%22Notification%20Clicked%22,%20%22param%22:%20%5B%22message%20ID%22,%20%22title%22,%20%22body%22,%20%22data%22,%20%22image%20URL%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |message ID|<span class="chip chip-text">Text</span>|
 |title|<span class="chip chip-text">Text</span>|
@@ -67,7 +67,7 @@ Called when the user accepts or declines the permission prompt, or enables or di
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Firebase%20Cloud%20Messaging%22,%20%22name%22:%20%22Notification%20Permission%20State%20Changed%22,%20%22param%22:%20%5B%22granted%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |granted|<span class="chip chip-boolean">Boolean</span>|
 
@@ -77,7 +77,7 @@ Fired with the current FCM registration token. Triggered by a GetToken call, and
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Firebase%20Cloud%20Messaging%22,%20%22name%22:%20%22Token%20Received%22,%20%22param%22:%20%5B%22token%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |token|<span class="chip chip-text">Text</span>|
 
@@ -109,7 +109,7 @@ Subscribes to an FCM topic. Messages sent to this topic will be received by this
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Firebase%20Cloud%20Messaging%22,%20%22name%22:%20%22Subscribe%20To%20Topic%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22topic%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |topic|<span class="chip chip-text">Text</span>|
 
@@ -119,7 +119,7 @@ Unsubscribes from an FCM topic.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Firebase%20Cloud%20Messaging%22,%20%22name%22:%20%22Unsubscribe%20From%20Topic%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22topic%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |topic|<span class="chip chip-text">Text</span>|
 

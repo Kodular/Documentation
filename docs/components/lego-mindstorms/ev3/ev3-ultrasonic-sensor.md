@@ -118,10 +118,10 @@ Specifies the unit of distance.
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Ultrasonic%20Sensor%22,%20%22name%22:%20%22Unit%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22EV3%20Ultrasonic%20Sensor%22,%20%22name%22:%20%22Unit%22,%20%22getter%22:%20false%7D"></div>
 
-| Options | []() |
+| Option | Value |
 |--------|------|
-|Centimeters|Option for Centimeters|
-|Inches|Option for Inches|
+|Centimeters|cm|
+|Inches|inch|
 
 ### Within Range Event Enabled
 

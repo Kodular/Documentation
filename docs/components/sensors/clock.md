@@ -32,7 +32,7 @@ An instant in time some days after the argument
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Clock%22,%20%22name%22:%20%22Add%20Days%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22instant%22,%20%22quantity%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |instant|<span class="chip chip-unknown">Instantintime</span>|
 |quantity|<span class="chip chip-number">Number</span>|
@@ -45,7 +45,7 @@ An instant in time some duration after the argument
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Clock%22,%20%22name%22:%20%22Add%20Duration%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22instant%22,%20%22quantity%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |instant|<span class="chip chip-unknown">Instantintime</span>|
 |quantity|<span class="chip chip-number">Number</span>|
@@ -58,7 +58,7 @@ An instant in time some hours after the argument
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Clock%22,%20%22name%22:%20%22Add%20Hours%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22instant%22,%20%22quantity%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |instant|<span class="chip chip-unknown">Instantintime</span>|
 |quantity|<span class="chip chip-number">Number</span>|
@@ -71,7 +71,7 @@ An instant in time some minutes after the argument
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Clock%22,%20%22name%22:%20%22Add%20Minutes%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22instant%22,%20%22quantity%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |instant|<span class="chip chip-unknown">Instantintime</span>|
 |quantity|<span class="chip chip-number">Number</span>|
@@ -84,7 +84,7 @@ An instant in time some months after the argument
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Clock%22,%20%22name%22:%20%22Add%20Months%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22instant%22,%20%22quantity%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |instant|<span class="chip chip-unknown">Instantintime</span>|
 |quantity|<span class="chip chip-number">Number</span>|
@@ -97,7 +97,7 @@ An instant in time some seconds after the argument
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Clock%22,%20%22name%22:%20%22Add%20Seconds%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22instant%22,%20%22quantity%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |instant|<span class="chip chip-unknown">Instantintime</span>|
 |quantity|<span class="chip chip-number">Number</span>|
@@ -110,7 +110,7 @@ An instant in time some weeks after the argument
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Clock%22,%20%22name%22:%20%22Add%20Weeks%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22instant%22,%20%22quantity%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |instant|<span class="chip chip-unknown">Instantintime</span>|
 |quantity|<span class="chip chip-number">Number</span>|
@@ -123,7 +123,7 @@ An instant in time some years after the argument
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Clock%22,%20%22name%22:%20%22Add%20Years%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22instant%22,%20%22quantity%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |instant|<span class="chip chip-unknown">Instantintime</span>|
 |quantity|<span class="chip chip-number">Number</span>|
@@ -136,7 +136,7 @@ The day of the month
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Clock%22,%20%22name%22:%20%22Day%20Of%20Month%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22instant%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |instant|<span class="chip chip-unknown">Instantintime</span>|
 
@@ -148,7 +148,7 @@ Milliseconds elapsed between instants
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Clock%22,%20%22name%22:%20%22Duration%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22start%22,%20%22end%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |start|<span class="chip chip-unknown">Instantintime</span>|
 |end|<span class="chip chip-unknown">Instantintime</span>|
@@ -161,7 +161,7 @@ convert duration to days
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Clock%22,%20%22name%22:%20%22Duration%20To%20Days%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22duration%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |duration|<span class="chip chip-number">Number</span>|
 
@@ -173,7 +173,7 @@ convert duration to hours
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Clock%22,%20%22name%22:%20%22Duration%20To%20Hours%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22duration%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |duration|<span class="chip chip-number">Number</span>|
 
@@ -185,7 +185,7 @@ convert duration to minutes
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Clock%22,%20%22name%22:%20%22Duration%20To%20Minutes%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22duration%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |duration|<span class="chip chip-number">Number</span>|
 
@@ -197,7 +197,7 @@ convert duration to seconds
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Clock%22,%20%22name%22:%20%22Duration%20To%20Seconds%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22duration%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |duration|<span class="chip chip-number">Number</span>|
 
@@ -209,7 +209,7 @@ convert duration to weeks
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Clock%22,%20%22name%22:%20%22Duration%20To%20Weeks%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22duration%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |duration|<span class="chip chip-number">Number</span>|
 
@@ -221,7 +221,7 @@ Text representing the date of an instant in the specified pattern
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Clock%22,%20%22name%22:%20%22Format%20Date%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22instant%22,%20%22pattern%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |instant|<span class="chip chip-unknown">Instantintime</span>|
 |pattern|<span class="chip chip-text">Text</span>|
@@ -234,7 +234,7 @@ Text representing the date and time of an instant in the specified pattern
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Clock%22,%20%22name%22:%20%22Format%20Date%20Time%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22instant%22,%20%22pattern%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |instant|<span class="chip chip-unknown">Instantintime</span>|
 |pattern|<span class="chip chip-text">Text</span>|
@@ -247,7 +247,7 @@ Text representing the time of an instant
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Clock%22,%20%22name%22:%20%22Format%20Time%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22instant%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |instant|<span class="chip chip-unknown">Instantintime</span>|
 
@@ -259,7 +259,7 @@ The instant in time measured as milliseconds since 1970.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Clock%22,%20%22name%22:%20%22Get%20Millis%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22instant%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |instant|<span class="chip chip-unknown">Instantintime</span>|
 
@@ -271,7 +271,7 @@ The hour of the day
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Clock%22,%20%22name%22:%20%22Hour%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22instant%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |instant|<span class="chip chip-unknown">Instantintime</span>|
 
@@ -284,7 +284,7 @@ Valid values for the month field are 1-12 and 1-31 for the day field.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Clock%22,%20%22name%22:%20%22Make%20Date%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22year%22,%20%22month%22,%20%22day%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |year|<span class="chip chip-number">Number</span>|
 |month|<span class="chip chip-number">Number</span>|
@@ -298,7 +298,7 @@ An instant in time specified by MM/dd/YYYY hh:mm:ss or MM/dd/YYYY or hh:mm
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Clock%22,%20%22name%22:%20%22Make%20Instant%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22from%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |from|<span class="chip chip-text">Text</span>|
 
@@ -310,7 +310,7 @@ An instant in time specified by the milliseconds since 1970.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Clock%22,%20%22name%22:%20%22Make%20Instant%20From%20Millis%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22millis%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |millis|<span class="chip chip-number">Number</span>|
 
@@ -323,7 +323,7 @@ Valid values for the month field are 1-12 and 1-31 for the day field.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Clock%22,%20%22name%22:%20%22Make%20Instant%20From%20Parts%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22year%22,%20%22month%22,%20%22day%22,%20%22hour%22,%20%22minute%22,%20%22second%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |year|<span class="chip chip-number">Number</span>|
 |month|<span class="chip chip-number">Number</span>|
@@ -340,7 +340,7 @@ Allows the user to set the time of the clock - Valid format is hh:mm:ss
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Clock%22,%20%22name%22:%20%22Make%20Time%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22hour%22,%20%22minute%22,%20%22second%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |hour|<span class="chip chip-number">Number</span>|
 |minute|<span class="chip chip-number">Number</span>|
@@ -354,7 +354,7 @@ The minute of the hour
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Clock%22,%20%22name%22:%20%22Minute%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22instant%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |instant|<span class="chip chip-unknown">Instantintime</span>|
 
@@ -366,7 +366,7 @@ The month of the year represented as a number from 1 to 12)
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Clock%22,%20%22name%22:%20%22Month%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22instant%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |instant|<span class="chip chip-unknown">Instantintime</span>|
 
@@ -378,7 +378,7 @@ The name of the month
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Clock%22,%20%22name%22:%20%22Month%20Name%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22instant%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |instant|<span class="chip chip-unknown">Instantintime</span>|
 
@@ -398,7 +398,7 @@ The second of the minute
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Clock%22,%20%22name%22:%20%22Second%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22instant%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |instant|<span class="chip chip-unknown">Instantintime</span>|
 
@@ -418,7 +418,7 @@ The day of the week represented as a number from 1 (Sunday) to 7 (Saturday)
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Clock%22,%20%22name%22:%20%22Weekday%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22instant%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |instant|<span class="chip chip-unknown">Instantintime</span>|
 
@@ -430,7 +430,7 @@ The name of the day of the week
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Clock%22,%20%22name%22:%20%22Weekday%20Name%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22instant%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |instant|<span class="chip chip-unknown">Instantintime</span>|
 
@@ -442,7 +442,7 @@ The year
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Clock%22,%20%22name%22:%20%22Year%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22instant%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |instant|<span class="chip chip-unknown">Instantintime</span>|
 

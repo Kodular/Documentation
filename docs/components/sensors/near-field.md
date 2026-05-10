@@ -26,7 +26,7 @@ Currently this is only a plain text tag, as specified in themanifest. See Compil
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Near%20Field%22,%20%22name%22:%20%22Tag%20Read%22,%20%22param%22:%20%5B%22tag%20ID%22,%20%22message%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |tag ID|<span class="chip chip-text">Text</span>|
 |message|<span class="chip chip-text">Text</span>|

@@ -35,11 +35,11 @@ A number that encodes how contents of the arrangement are aligned horizontally. 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Vertical%20Scroll%20Arrangement%22,%20%22name%22:%20%22Align%20Horizontal%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Vertical%20Scroll%20Arrangement%22,%20%22name%22:%20%22Align%20Horizontal%22,%20%22getter%22:%20false%7D"></div>
 
-| Options | []() |
+| Option | Value |
 |--------|------|
-|Left|Option for Left|
-|Center|Option for Center|
-|Right|Option for Right|
+|Left|1|
+|Center|3|
+|Right|2|
 
 ### Align Vertical
 
@@ -50,11 +50,11 @@ A number that encodes how the contents of the arrangement are aligned vertically
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Vertical%20Scroll%20Arrangement%22,%20%22name%22:%20%22Align%20Vertical%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Vertical%20Scroll%20Arrangement%22,%20%22name%22:%20%22Align%20Vertical%22,%20%22getter%22:%20false%7D"></div>
 
-| Options | []() |
+| Option | Value |
 |--------|------|
-|Top|Option for Top|
-|Center|Option for Center|
-|Bottom|Option for Bottom|
+|Top|1|
+|Center|2|
+|Bottom|3|
 
 ### Background Color
 

@@ -22,7 +22,7 @@ Fired when any operation fails
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Supabase%20Database%22,%20%22name%22:%20%22Error%20Occurred%22,%20%22param%22:%20%5B%22operation%22,%20%22status%20Code%22,%20%22message%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |operation|<span class="chip chip-text">Text</span>|
 |status Code|<span class="chip chip-number">Number</span>|
@@ -34,7 +34,7 @@ Fired after a successful RPC function call
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Supabase%20Database%22,%20%22name%22:%20%22Got%20Function%20Result%22,%20%22param%22:%20%5B%22result%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |result|<span class="chip chip-any">Any</span>|
 
@@ -44,7 +44,7 @@ Fired after a Select or RawQuery with the resulting rows
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Supabase%20Database%22,%20%22name%22:%20%22Got%20Rows%22,%20%22param%22:%20%5B%22rows%22,%20%22operation%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |rows|<span class="chip chip-list">List</span>|
 |operation|<span class="chip chip-text">Text</span>|
@@ -55,7 +55,7 @@ Fired after a successful Insert with the returned row
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Supabase%20Database%22,%20%22name%22:%20%22Row%20Inserted%22,%20%22param%22:%20%5B%22row%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |row|<span class="chip chip-unknown">Dictionary</span>|
 
@@ -65,7 +65,7 @@ Fired after a successful Delete with deleted rows
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Supabase%20Database%22,%20%22name%22:%20%22Rows%20Deleted%22,%20%22param%22:%20%5B%22rows%22,%20%22count%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |rows|<span class="chip chip-list">List</span>|
 |count|<span class="chip chip-number">Number</span>|
@@ -76,7 +76,7 @@ Fired after a successful BulkInsert with the returned rows
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Supabase%20Database%22,%20%22name%22:%20%22Rows%20Inserted%22,%20%22param%22:%20%5B%22rows%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |rows|<span class="chip chip-list">List</span>|
 
@@ -86,7 +86,7 @@ Fired after a successful Update with affected rows
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Supabase%20Database%22,%20%22name%22:%20%22Rows%20Updated%22,%20%22param%22:%20%5B%22rows%22,%20%22count%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |rows|<span class="chip chip-list">List</span>|
 |count|<span class="chip chip-number">Number</span>|
@@ -99,7 +99,7 @@ Add a PostgREST filter. Operators: eq, neq, gt, gte, lt, lte, like, ilike, is, i
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Supabase%20Database%22,%20%22name%22:%20%22Add%20Filter%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22column%22,%20%22operator%22,%20%22value%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |column|<span class="chip chip-text">Text</span>|
 |operator|<span class="chip chip-text">Text</span>|
@@ -111,7 +111,7 @@ Insert multiple rows into the table
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Supabase%20Database%22,%20%22name%22:%20%22Bulk%20Insert%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22data%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |data|<span class="chip chip-list">List</span>|
 
@@ -121,7 +121,7 @@ Call a Supabase database function (RPC)
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Supabase%20Database%22,%20%22name%22:%20%22Call%20Function%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22function%20Name%22,%20%22params%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |function Name|<span class="chip chip-text">Text</span>|
 |params|<span class="chip chip-unknown">Dictionary</span>|
@@ -144,7 +144,7 @@ Insert a new row into the table
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Supabase%20Database%22,%20%22name%22:%20%22Insert%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22data%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |data|<span class="chip chip-unknown">Dictionary</span>|
 
@@ -154,7 +154,7 @@ Execute a raw query with custom PostgREST query parameters
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Supabase%20Database%22,%20%22name%22:%20%22Raw%20Query%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22table%22,%20%22query%20String%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |table|<span class="chip chip-text">Text</span>|
 |query String|<span class="chip chip-text">Text</span>|
@@ -171,7 +171,7 @@ Set which columns to return (comma-separated)
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Supabase%20Database%22,%20%22name%22:%20%22Set%20Columns%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22columns%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |columns|<span class="chip chip-text">Text</span>|
 
@@ -181,7 +181,7 @@ Set the maximum number of rows to return
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Supabase%20Database%22,%20%22name%22:%20%22Set%20Limit%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22limit%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |limit|<span class="chip chip-number">Number</span>|
 
@@ -191,7 +191,7 @@ Set the number of rows to skip (for pagination)
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Supabase%20Database%22,%20%22name%22:%20%22Set%20Offset%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22offset%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |offset|<span class="chip chip-number">Number</span>|
 
@@ -201,7 +201,7 @@ Set the ordering for results
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Supabase%20Database%22,%20%22name%22:%20%22Set%20Order%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22column%22,%20%22ascending%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |column|<span class="chip chip-text">Text</span>|
 |ascending|<span class="chip chip-boolean">Boolean</span>|
@@ -212,7 +212,7 @@ Set the target table for the next operation
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Supabase%20Database%22,%20%22name%22:%20%22Set%20Table%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22table%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |table|<span class="chip chip-text">Text</span>|
 
@@ -222,7 +222,7 @@ Update rows matching the current filters. Requires at least one filter to preven
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Supabase%20Database%22,%20%22name%22:%20%22Update%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22data%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |data|<span class="chip chip-unknown">Dictionary</span>|
 

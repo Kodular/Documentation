@@ -25,7 +25,7 @@ Event to detect that a user have done his selection.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22After%20Choosing%22,%20%22param%22:%20%5B%22choice%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |choice|<span class="chip chip-text">Text</span>|
 
@@ -35,7 +35,7 @@ Event to detect that a user clicked on a button from the "Show Custom Message Di
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22After%20Message%20Dialog%22,%20%22param%22:%20%5B%22title%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |title|<span class="chip chip-text">Text</span>|
 
@@ -45,7 +45,7 @@ Event to detect that a user have done his text input in the "Show Text Dialog".
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22After%20Text%20Input%22,%20%22param%22:%20%5B%22response%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |response|<span class="chip chip-text">Text</span>|
 
@@ -55,7 +55,7 @@ Invoked after user has finished selecting items from the Checkbox picker. Return
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22Checkbox%20Selection%22,%20%22param%22:%20%5B%22id%22,%20%22selection%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |id|<span class="chip chip-number">Number</span>|
 |selection|<span class="chip chip-list">List</span>|
@@ -66,7 +66,7 @@ Event to detect that the user has pressed a button from the custom dialog. It re
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22Custom%20Dialog%20Selection%22,%20%22param%22:%20%5B%22selection%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |selection|<span class="chip chip-text">Text</span>|
 
@@ -76,7 +76,7 @@ Event to detect that a user have done his selection in the CustomChooseDialog.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22Got%20Custom%20Choose%20Dialog%22,%20%22param%22:%20%5B%22id%22,%20%22choice%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |id|<span class="chip chip-number">Number</span>|
 |choice|<span class="chip chip-text">Text</span>|
@@ -87,7 +87,7 @@ Event to detect that a user have done his text input in the "Show Text Input Dia
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22Got%20Text%20Input%20From%20Dialog%22,%20%22param%22:%20%5B%22id%22,%20%22response%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |id|<span class="chip chip-number">Number</span>|
 |response|<span class="chip chip-text">Text</span>|
@@ -98,7 +98,7 @@ Event to detect that the user has watched the image dialog.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22Image%20Dialog%20Closed%22,%20%22param%22:%20%5B%22id%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |id|<span class="chip chip-number">Number</span>|
 
@@ -108,7 +108,7 @@ Event to detect that a user have closed the Lightbox.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22Lightbox%20Closed%22,%20%22param%22:%20%5B%22id%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |id|<span class="chip chip-number">Number</span>|
 
@@ -124,7 +124,7 @@ Event to get the picked list selection from the List Picker.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22List%20Picker%20Selection%22,%20%22param%22:%20%5B%22id%22,%20%22item%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |id|<span class="chip chip-number">Number</span>|
 |item|<span class="chip chip-text">Text</span>|
@@ -135,7 +135,7 @@ Event to detect that the user has selected a number from the number picker dialo
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22Number%20Picker%20Selection%22,%20%22param%22:%20%5B%22id%22,%20%22selection%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |id|<span class="chip chip-number">Number</span>|
 |selection|<span class="chip chip-number">Number</span>|
@@ -146,7 +146,7 @@ Event invoked when user has selected an option from the radio button picker. Out
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22Radio%20Selection%22,%20%22param%22:%20%5B%22id%22,%20%22list%20Index%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |id|<span class="chip chip-number">Number</span>|
 |list Index|<span class="chip chip-number">Number</span>|
@@ -157,7 +157,7 @@ Event to detect that the user has selected a word from the word picker dialog.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22Word%20Picker%20Selection%22,%20%22param%22:%20%5B%22id%22,%20%22selection%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |id|<span class="chip chip-number">Number</span>|
 |selection|<span class="chip chip-text">Text</span>|
@@ -170,7 +170,7 @@ Show whatever you want in a dialog. You can use as example arrangements, or imag
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22Create%20Custom%20Dialog%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22component%22,%20%22title%22,%20%22button%20Text%22,%20%22cancel%20Button%20Text%22,%20%22cancelable%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |component|<span class="chip chip-component">Component</span>|
 |title|<span class="chip chip-text">Text</span>|
@@ -184,7 +184,7 @@ Shows a dialog box with two buttons, from which the user can choose. If cancelab
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22Custom%20Choose%20Dialog%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22id%22,%20%22message%22,%20%22title%22,%20%22button1%20Text%22,%20%22button2%20Text%22,%20%22cancel%20Button%20Text%22,%20%22icon%22,%20%22cancelable%22,%20%22fullscreen%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |id|<span class="chip chip-number">Number</span>|
 |message|<span class="chip chip-text">Text</span>|
@@ -202,7 +202,7 @@ Show a Message Dialog. You can use the "Light Theme" property to have a light or
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22Custom%20Message%20Dialog%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22message%22,%20%22title%22,%20%22button%20Text%22,%20%22icon%22,%20%22fullscreen%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |message|<span class="chip chip-text">Text</span>|
 |title|<span class="chip chip-text">Text</span>|
@@ -240,7 +240,7 @@ Writes an error message to the Android system log. See the Google Android docume
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22Log%20Error%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22message%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |message|<span class="chip chip-text">Text</span>|
 
@@ -250,7 +250,7 @@ Writes an information message to the Android log.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22Log%20Info%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22message%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |message|<span class="chip chip-text">Text</span>|
 
@@ -260,7 +260,7 @@ Writes a warning message to the Android log. See the Google Android documentatio
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22LOG.warning%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22message%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |message|<span class="chip chip-text">Text</span>|
 
@@ -270,7 +270,7 @@ Show a alert "toast" message.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22Show%20Alert%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22notice%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |notice|<span class="chip chip-text">Text</span>|
 
@@ -280,7 +280,7 @@ Shows a picker dialog with a list of options of whichmore than one can be chosen
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22Show%20Checkbox%20List%20Dialog%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22id%22,%20%22title%22,%20%22options%22,%20%22button%20Text%22,%20%22cancel%20Button%20Text%22,%20%22cancelable%22,%20%22icon%22,%20%22fullscreen%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |id|<span class="chip chip-number">Number</span>|
 |title|<span class="chip chip-text">Text</span>|
@@ -297,7 +297,7 @@ Shows a dialog box with two buttons, from which the user can choose. If cancelab
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22Show%20Choose%20Dialog%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22message%22,%20%22title%22,%20%22button1%20Text%22,%20%22button2%20Text%22,%20%22cancelable%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |message|<span class="chip chip-text">Text</span>|
 |title|<span class="chip chip-text">Text</span>|
@@ -317,7 +317,7 @@ Show a image dialog. Animation types like "*.gif" are not supported. You can use
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22Show%20Image%20Dialog%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22id%22,%20%22title%22,%20%22image%22,%20%22button%20Text%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |id|<span class="chip chip-number">Number</span>|
 |title|<span class="chip chip-text">Text</span>|
@@ -330,7 +330,7 @@ Displays a lightbox. You can use images like "*.png" or "*,gif" from assets fold
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22Show%20Lightbox%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22id%22,%20%22image%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |id|<span class="chip chip-number">Number</span>|
 |image|<span class="chip chip-text">Text</span>|
@@ -341,7 +341,7 @@ Shows a progress dialog with a horizontal progress bar. Can be dismissed by user
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22Show%20Linear%20Progress%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22message%22,%20%22title%22,%20%22cancelable%22,%20%22indeterminate%22,%20%22max%20Value%22,%20%22icon%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |message|<span class="chip chip-text">Text</span>|
 |title|<span class="chip chip-text">Text</span>|
@@ -356,7 +356,7 @@ Shows a list picker dialog. You can use the "Light Theme" property to have a lig
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22Show%20List%20Picker%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22id%22,%20%22title%22,%20%22items%20List%22,%20%22icon%22,%20%22fullscreen%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |id|<span class="chip chip-number">Number</span>|
 |title|<span class="chip chip-text">Text</span>|
@@ -370,7 +370,7 @@ Show a Message Dialog.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22Show%20Message%20Dialog%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22message%22,%20%22title%22,%20%22button%20Text%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |message|<span class="chip chip-text">Text</span>|
 |title|<span class="chip chip-text">Text</span>|
@@ -382,7 +382,7 @@ Shows a number picker dialog that enables the user to select a number from a pre
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22Show%20Number%20Picker%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22id%22,%20%22title%22,%20%22button%20Text%22,%20%22cancel%20Button%20Text%22,%20%22min%20Value%22,%20%22max%20Value%22,%20%22start%20Value%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |id|<span class="chip chip-number">Number</span>|
 |title|<span class="chip chip-text">Text</span>|
@@ -398,7 +398,7 @@ Shows a dialog box where the user can enter password (input is masked), after wh
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22Show%20Password%20Dialog%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22message%22,%20%22title%22,%20%22cancelable%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |message|<span class="chip chip-text">Text</span>|
 |title|<span class="chip chip-text">Text</span>|
@@ -410,7 +410,7 @@ Shows a dialog box with an optional title and message (use empty strings if they
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22Show%20Progress%20Dialog%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22message%22,%20%22title%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |message|<span class="chip chip-text">Text</span>|
 |title|<span class="chip chip-text">Text</span>|
@@ -421,7 +421,7 @@ Shows a radio list dialog with a list of options of which only one can be chosen
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22Show%20Radio%20List%20Dialog%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22id%22,%20%22title%22,%20%22options%22,%20%22choose%20Button%20Text%22,%20%22cancelable%22,%20%22cancel%20Button%20Text%22,%20%22selection%22,%20%22icon%22,%20%22fullscreen%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |id|<span class="chip chip-number">Number</span>|
 |title|<span class="chip chip-text">Text</span>|
@@ -439,7 +439,7 @@ Shows a spinning progress dialog which can be dismissed by the user if 'cancelab
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22Show%20Spinning%20Progress%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22message%22,%20%22title%22,%20%22cancelable%22,%20%22icon%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |message|<span class="chip chip-text">Text</span>|
 |title|<span class="chip chip-text">Text</span>|
@@ -452,7 +452,7 @@ Shows a dialog box where the user can enter text, after which the AfterTextInput
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22Show%20Text%20Dialog%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22message%22,%20%22title%22,%20%22cancelable%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |message|<span class="chip chip-text">Text</span>|
 |title|<span class="chip chip-text">Text</span>|
@@ -464,7 +464,7 @@ Show a text input dialog. Possible input types are: "1= Normal text", "2= Passwo
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22Show%20Text%20Input%20Dialog%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22id%22,%20%22title%22,%20%22default%20Text%22,%20%22icon%22,%20%22hint%22,%20%22fullscreen%22,%20%22cancelable%22,%20%22input%20Type%22,%20%22button%20Text%22,%20%22cancel%20Button%20Text%22,%20%22text%20Color%22,%20%22hint%20Color%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |id|<span class="chip chip-number">Number</span>|
 |title|<span class="chip chip-text">Text</span>|
@@ -485,7 +485,7 @@ Shows a word picker dialog that enables the user to select a number from a prede
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22Show%20Word%20Picker%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22id%22,%20%22title%22,%20%22button%20Text%22,%20%22cancel%20Button%20Text%22,%20%22items%20List%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |id|<span class="chip chip-number">Number</span>|
 |title|<span class="chip chip-text">Text</span>|
@@ -499,7 +499,7 @@ Change the current value of the linear progress dialog. Has no effect if "indete
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Notifier%22,%20%22name%22:%20%22Update%20Progress%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22value%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |value|<span class="chip chip-number">Number</span>|
 

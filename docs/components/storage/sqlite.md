@@ -19,7 +19,7 @@ Event handler after the SQL statement is executed, returns whether the execution
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22SQLite%22,%20%22name%22:%20%22After%20Execution%22,%20%22param%22:%20%5B%22was%20Executed%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |was Executed|<span class="chip chip-boolean">Boolean</span>|
 
@@ -29,7 +29,7 @@ Event handler after the RawQuery or Query is executed and returns a list with th
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22SQLite%22,%20%22name%22:%20%22After%20Query%22,%20%22param%22:%20%5B%22result%22,%20%22number%20Of%20Records%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |result|<span class="chip chip-list">List</span>|
 |number Of Records|<span class="chip chip-number">Number</span>|
@@ -40,7 +40,7 @@ Event handler when an error ocurred, returns a string with a message from the er
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22SQLite%22,%20%22name%22:%20%22Error%20Occurred%22,%20%22param%22:%20%5B%22message%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |message|<span class="chip chip-text">Text</span>|
 
@@ -60,7 +60,7 @@ Executes pre-compiled DELETE statement with specified parameters. Parameters: 1)
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22SQLite%22,%20%22name%22:%20%22Delete%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22table%22,%20%22where%20Clause%22,%20%22where%20Args%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |table|<span class="chip chip-text">Text</span>|
 |where Clause|<span class="chip chip-text">Text</span>|
@@ -82,7 +82,7 @@ Used to drop / delete table from database. Please note that this event will DELE
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22SQLite%22,%20%22name%22:%20%22Drop%20Table%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22table%20Nme%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |table Nme|<span class="chip chip-text">Text</span>|
 
@@ -102,7 +102,7 @@ Executes pre-compiled INSERT statement with specified parameters. Parameters: 1)
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22SQLite%22,%20%22name%22:%20%22Insert%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22table%22,%20%22columns%22,%20%22values%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |table|<span class="chip chip-text">Text</span>|
 |columns|<span class="chip chip-list">List</span>|
@@ -114,7 +114,7 @@ Execute Multiple SQL Statement asynchronously and returns whether the transactio
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22SQLite%22,%20%22name%22:%20%22Multiple%20SQL%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22list%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |list|<span class="chip chip-list">List</span>|
 
@@ -124,7 +124,7 @@ Executes pre-compiled QUERY statement with specified parameters. Parameters: 1) 
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22SQLite%22,%20%22name%22:%20%22Query%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22table%22,%20%22columns%22,%20%22selection%22,%20%22selection%20Args%22,%20%22group%20By%22,%20%22having%22,%20%22order%20By%22,%20%22limit%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |table|<span class="chip chip-text">Text</span>|
 |columns|<span class="chip chip-list">List</span>|
@@ -141,7 +141,7 @@ Executes the provided rawQuery Statement asynchronously. Returns a YailList with
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22SQLite%22,%20%22name%22:%20%22Raw%20Query%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22sql%22,%20%22selection%20Args%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |sql|<span class="chip chip-text">Text</span>|
 |selection Args|<span class="chip chip-list">List</span>|
@@ -154,7 +154,7 @@ Executes pre-compiled REPLACE OR INSERT INTO statement with specified parameters
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22SQLite%22,%20%22name%22:%20%22Replace%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22table%22,%20%22columns%22,%20%22values%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |table|<span class="chip chip-text">Text</span>|
 |columns|<span class="chip chip-list">List</span>|
@@ -166,7 +166,7 @@ Execute a Single SQL Statement asynchronously and returns whether the transactio
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22SQLite%22,%20%22name%22:%20%22Single%20SQL%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22sql%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |sql|<span class="chip chip-text">Text</span>|
 
@@ -178,7 +178,7 @@ Used to run any valid SQLite query and return results in same block.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22SQLite%22,%20%22name%22:%20%22SQL%20Query%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22query%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |query|<span class="chip chip-text">Text</span>|
 
@@ -190,7 +190,7 @@ Executes pre-compiled UPDATE statement with specified parameters. Parameters: 1)
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22SQLite%22,%20%22name%22:%20%22Update%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22table%22,%20%22columns%22,%20%22values%22,%20%22where%20Clause%22,%20%22where%20Args%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |table|<span class="chip chip-text">Text</span>|
 |columns|<span class="chip chip-list">List</span>|

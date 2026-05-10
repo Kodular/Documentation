@@ -19,7 +19,7 @@ Triggers when the user clicks on a item in the list
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Click%22,%20%22param%22:%20%5B%22position%22,%20%22title%22,%20%22subtitle%22,%20%22image%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |position|<span class="chip chip-number">Number</span>|
 |title|<span class="chip chip-text">Text</span>|
@@ -32,7 +32,7 @@ Triggers when the user long clicks on a item in the list
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Long%20Click%22,%20%22param%22:%20%5B%22position%22,%20%22title%22,%20%22subtitle%22,%20%22image%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |position|<span class="chip chip-number">Number</span>|
 |title|<span class="chip chip-text">Text</span>|
@@ -47,7 +47,7 @@ Add a item to the list
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Add%20Item%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22image%22,%20%22title%22,%20%22subtitle%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |image|<span class="chip chip-text">Text</span>|
 |title|<span class="chip chip-text">Text</span>|
@@ -59,7 +59,7 @@ Add a item to the list
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Add%20Item%20From%20List%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22list%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |list|<span class="chip chip-list">List</span>|
 
@@ -75,7 +75,7 @@ Remove a item from the list
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Remove%20Item%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22position%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |position|<span class="chip chip-number">Number</span>|
 
@@ -85,7 +85,7 @@ Update a item of the list
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22List%20View%20Image%20and%20Text%22,%20%22name%22:%20%22Update%20Item%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22position%22,%20%22image%22,%20%22title%22,%20%22subtitle%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |position|<span class="chip chip-number">Number</span>|
 |image|<span class="chip chip-text">Text</span>|

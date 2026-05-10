@@ -50,7 +50,7 @@ Compute the distance, in meters, between two map features.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Line%20String%22,%20%22name%22:%20%22Distance%20To%20Feature%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22map%20Feature%22,%20%22centroids%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |map Feature|<span class="chip chip-component">Component</span>|
 |centroids|<span class="chip chip-boolean">Boolean</span>|
@@ -63,7 +63,7 @@ Compute the distance, in meters, between a map feature and a latitude, longitude
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Line%20String%22,%20%22name%22:%20%22Distance%20To%20Point%22,%20%22output%22:%20true,%20%22param%22:%20%5B%22latitude%22,%20%22longitude%22,%20%22centroid%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |latitude|<span class="chip chip-number">Number</span>|
 |longitude|<span class="chip chip-number">Number</span>|

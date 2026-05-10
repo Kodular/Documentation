@@ -21,7 +21,7 @@ Event will be invoked when Google reCaptcha prompt returns an error status code.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20reCaptcha%22,%20%22name%22:%20%22Prompt%20Errored%22,%20%22param%22:%20%5B%22error%20Code%22,%20%22error%20Message%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |error Code|<span class="chip chip-number">Number</span>|
 |error Message|<span class="chip chip-text">Text</span>|
@@ -32,7 +32,7 @@ Event will be invoked Google reCaptcha returns a success status code, returning 
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20reCaptcha%22,%20%22name%22:%20%22Prompt%20Succeeded%22,%20%22param%22:%20%5B%22user%20Response%20Token%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |user Response Token|<span class="chip chip-text">Text</span>|
 
@@ -42,7 +42,7 @@ Event will be triggered after the Validate method gets a response. 'success' wil
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20reCaptcha%22,%20%22name%22:%20%22Validate%20Response%22,%20%22param%22:%20%5B%22success%22,%20%22challenge%20Timestamp%22,%20%22app%20Package%20Name%22,%20%22error%20Messages%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |success|<span class="chip chip-boolean">Boolean</span>|
 |challenge Timestamp|<span class="chip chip-text">Text</span>|
@@ -63,7 +63,7 @@ Validate the received userResponseToken with your API Secret Key, for increased 
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20reCaptcha%22,%20%22name%22:%20%22Validate%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22user%20Response%20Token%22,%20%22secret%20Key%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |user Response Token|<span class="chip chip-text">Text</span>|
 |secret Key|<span class="chip chip-text">Text</span>|
