@@ -24,7 +24,7 @@ A event to detect that the login request was sent.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Instant%20Access%22,%20%22name%22:%20%22On%20Request%20Sent%22,%20%22param%22:%20%5B%22success%22,%20%22data%22,%20%22message%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |success|<span class="chip chip-boolean">Boolean</span>|
 |data|<span class="chip chip-text">Text</span>|
@@ -36,7 +36,7 @@ A event to detect that the status was received.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22Instant%20Access%22,%20%22name%22:%20%22On%20Status%20Received%22,%20%22param%22:%20%5B%22success%22,%20%22data%22,%20%22message%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |success|<span class="chip chip-boolean">Boolean</span>|
 |data|<span class="chip chip-text">Text</span>|
@@ -50,7 +50,7 @@ Check the current status with a given username.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Instant%20Access%22,%20%22name%22:%20%22Check%20Status%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22user%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |user|<span class="chip chip-text">Text</span>|
 
@@ -76,7 +76,7 @@ Start a request to user with the instant access login service.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Instant%20Access%22,%20%22name%22:%20%22Request%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22user%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |user|<span class="chip chip-text">Text</span>|
 

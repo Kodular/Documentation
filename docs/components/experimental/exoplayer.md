@@ -29,7 +29,7 @@ This event returns meta data from the audio stream. Works for files but not for 
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22ExoPlayer%22,%20%22name%22:%20%22Got%20Meta%20Data%22,%20%22param%22:%20%5B%22artist%22,%20%22title%22,%20%22album%22,%20%22albumArtist%22,%20%22track%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |artist|<span class="chip chip-text">Text</span>|
 |title|<span class="chip chip-text">Text</span>|
@@ -43,7 +43,7 @@ This event returns the error reason for any problems.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22ExoPlayer%22,%20%22name%22:%20%22On%20Player%20Error%22,%20%22param%22:%20%5B%22error%20Message%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |error Message|<span class="chip chip-text">Text</span>|
 
@@ -65,7 +65,7 @@ This event returns true or false for the respective simpleExoPlayer statuses.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22ExoPlayer%22,%20%22name%22:%20%22Status%20Changed%22,%20%22param%22:%20%5B%22is%20Playing%22,%20%22is%20Pause%22,%20%22is%20Stopped%22,%20%22is%20Loading%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |is Playing|<span class="chip chip-boolean">Boolean</span>|
 |is Pause|<span class="chip chip-boolean">Boolean</span>|
@@ -124,7 +124,7 @@ Set a position where the source file should start playing in milliseconds.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22ExoPlayer%22,%20%22name%22:%20%22Seek%20To%22,%20%22output%22:%20false,%20%22param%22:%20%5B%22position%22%5D%7D"></div>
 
-| Params | []() |
+| Param | Type |
 |--------|------|
 |position|<span class="chip chip-number">Number</span>|
 
