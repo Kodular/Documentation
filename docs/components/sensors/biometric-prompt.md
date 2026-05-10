@@ -87,12 +87,18 @@ Returns true if authentication is available right now with the current Authentic
 
 ### Authenticator Type
 
-<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-unknown">Com.google.appinventor.components.common.authenticatortypeenum</span> <span class="chip chip-unknown">Default: <i>BiometricOrDeviceCredential</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> <span class="chip chip-enum">AuthenticatorType</span> <span class="chip chip-number">Default: <i>BiometricOrDeviceCredential</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
 
 Sets the type of authentication allowed. BiometricOnly = biometrics only, DeviceCredentialOnly = PIN/pattern/password, BiometricOrDeviceCredential = biometrics with PIN fallback.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Biometric%20Prompt%22,%20%22name%22:%20%22Authenticator%20Type%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Biometric%20Prompt%22,%20%22name%22:%20%22Authenticator%20Type%22,%20%22getter%22:%20false%7D"></div>
+
+| Options | []() |
+|--------|------|
+|BiometricOnly|Option for BiometricOnly|
+|DeviceCredentialOnly|Option for DeviceCredentialOnly|
+|BiometricOrDeviceCredential|Option for BiometricOrDeviceCredential|
 
 ### Description
 

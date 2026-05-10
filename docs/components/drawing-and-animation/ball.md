@@ -47,7 +47,18 @@ Event handler called when the Ball reaches an edge of the screen. If Bounce is t
 
 | Params | []() |
 |--------|------|
-|edge|<span class="chip chip-number">Number</span>|
+|edge|<span class="chip chip-number">Number</span><br><span class="chip chip-enum">Direction</span>|
+
+| edge Options | []() |
+|--------|------|
+|North|Option for North|
+|Northeast|Option for Northeast|
+|East|Option for East|
+|Southeast|Option for Southeast|
+|South|Option for South|
+|Southwest|Option for Southwest|
+|West|Option for West|
+|Northwest|Option for Northwest|
 
 ### Flung
 
@@ -117,7 +128,18 @@ Makes the Ball bounce, as if off a wall. For normal bouncing, the edge argument 
 
 | Params | []() |
 |--------|------|
-|edge|<span class="chip chip-number">Number</span>|
+|edge|<span class="chip chip-number">Number</span><br><span class="chip chip-enum">Direction</span>|
+
+| edge Options | []() |
+|--------|------|
+|North|Option for North|
+|Northeast|Option for Northeast|
+|East|Option for East|
+|Southeast|Option for Southeast|
+|South|Option for South|
+|Southwest|Option for Southwest|
+|West|Option for West|
+|Northwest|Option for Northwest|
 
 ### Colliding With
 

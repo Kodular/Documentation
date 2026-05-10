@@ -75,7 +75,14 @@ Reads the values of an input sensor on the robot. Assumes sensor type has been c
 
 | Params | []() |
 |--------|------|
-|sensor Port Letter|<span class="chip chip-text">Text</span>|
+|sensor Port Letter|<span class="chip chip-text">Text</span><br><span class="chip chip-enum">NxtSensorPort</span>|
+
+| sensor Port Letter Options | []() |
+|--------|------|
+|Port1|Option for Port1|
+|Port2|Option for Port2|
+|Port3|Option for Port3|
+|Port4|Option for Port4|
 
 ### Get Output State
 
@@ -87,7 +94,13 @@ Reads the output state of a motor on the robot.
 
 | Params | []() |
 |--------|------|
-|motor Port Letter|<span class="chip chip-text">Text</span>|
+|motor Port Letter|<span class="chip chip-text">Text</span><br><span class="chip chip-enum">NxtMotorPort</span>|
+
+| motor Port Letter Options | []() |
+|--------|------|
+|PortA|Option for PortA|
+|PortB|Option for PortB|
+|PortC|Option for PortC|
 
 ### Keep Alive
 
@@ -119,7 +132,14 @@ Returns the count of available bytes to read.
 
 | Params | []() |
 |--------|------|
-|sensor Port Letter|<span class="chip chip-text">Text</span>|
+|sensor Port Letter|<span class="chip chip-text">Text</span><br><span class="chip chip-enum">NxtSensorPort</span>|
+
+| sensor Port Letter Options | []() |
+|--------|------|
+|Port1|Option for Port1|
+|Port2|Option for Port2|
+|Port3|Option for Port3|
+|Port4|Option for Port4|
 
 ### Ls Read
 
@@ -131,7 +151,14 @@ Reads unsigned low speed data from an input sensor on the robot. Assumes sensor 
 
 | Params | []() |
 |--------|------|
-|sensor Port Letter|<span class="chip chip-text">Text</span>|
+|sensor Port Letter|<span class="chip chip-text">Text</span><br><span class="chip chip-enum">NxtSensorPort</span>|
+
+| sensor Port Letter Options | []() |
+|--------|------|
+|Port1|Option for Port1|
+|Port2|Option for Port2|
+|Port3|Option for Port3|
+|Port4|Option for Port4|
 
 ### Ls Write
 
@@ -141,9 +168,16 @@ Writes low speed data to an input sensor on the robot. Assumes sensor type has b
 
 | Params | []() |
 |--------|------|
-|sensor Port Letter|<span class="chip chip-text">Text</span>|
+|sensor Port Letter|<span class="chip chip-text">Text</span><br><span class="chip chip-enum">NxtSensorPort</span>|
 |list|<span class="chip chip-list">List</span>|
 |rx Data Length|<span class="chip chip-number">Number</span>|
+
+| sensor Port Letter Options | []() |
+|--------|------|
+|Port1|Option for Port1|
+|Port2|Option for Port2|
+|Port3|Option for Port3|
+|Port4|Option for Port4|
 
 ### Message Read
 
@@ -155,7 +189,20 @@ Read a message from a mailbox (1-10) on the robot.
 
 | Params | []() |
 |--------|------|
-|mailbox|<span class="chip chip-number">Number</span>|
+|mailbox|<span class="chip chip-number">Number</span><br><span class="chip chip-enum">NxtMailbox</span>|
+
+| mailbox Options | []() |
+|--------|------|
+|Box1|Option for Box1|
+|Box2|Option for Box2|
+|Box3|Option for Box3|
+|Box4|Option for Box4|
+|Box5|Option for Box5|
+|Box6|Option for Box6|
+|Box7|Option for Box7|
+|Box8|Option for Box8|
+|Box9|Option for Box9|
+|Box10|Option for Box10|
 
 ### Message Write
 
@@ -165,8 +212,21 @@ Write a message to a mailbox (1-10) on the robot.
 
 | Params | []() |
 |--------|------|
-|mailbox|<span class="chip chip-number">Number</span>|
+|mailbox|<span class="chip chip-number">Number</span><br><span class="chip chip-enum">NxtMailbox</span>|
 |message|<span class="chip chip-text">Text</span>|
+
+| mailbox Options | []() |
+|--------|------|
+|Box1|Option for Box1|
+|Box2|Option for Box2|
+|Box3|Option for Box3|
+|Box4|Option for Box4|
+|Box5|Option for Box5|
+|Box6|Option for Box6|
+|Box7|Option for Box7|
+|Box8|Option for Box8|
+|Box9|Option for Box9|
+|Box10|Option for Box10|
 
 ### Play Sound File
 
@@ -197,7 +257,14 @@ Reset the scaled value of an input sensor on the robot.
 
 | Params | []() |
 |--------|------|
-|sensor Port Letter|<span class="chip chip-text">Text</span>|
+|sensor Port Letter|<span class="chip chip-text">Text</span><br><span class="chip chip-enum">NxtSensorPort</span>|
+
+| sensor Port Letter Options | []() |
+|--------|------|
+|Port1|Option for Port1|
+|Port2|Option for Port2|
+|Port3|Option for Port3|
+|Port4|Option for Port4|
 
 ### Reset Motor Position
 
@@ -207,8 +274,14 @@ Reset motor position.
 
 | Params | []() |
 |--------|------|
-|motor Port Letter|<span class="chip chip-text">Text</span>|
+|motor Port Letter|<span class="chip chip-text">Text</span><br><span class="chip chip-enum">NxtMotorPort</span>|
 |relative|<span class="chip chip-boolean">Boolean</span>|
+
+| motor Port Letter Options | []() |
+|--------|------|
+|PortA|Option for PortA|
+|PortB|Option for PortB|
+|PortC|Option for PortC|
 
 ### Set Brick Name
 
@@ -228,9 +301,46 @@ Configure an input sensor on the robot.
 
 | Params | []() |
 |--------|------|
-|sensor Port Letter|<span class="chip chip-text">Text</span>|
-|sensor Type|<span class="chip chip-number">Number</span>|
-|sensor Mode|<span class="chip chip-number">Number</span>|
+|sensor Port Letter|<span class="chip chip-text">Text</span><br><span class="chip chip-enum">NxtSensorPort</span>|
+|sensor Type|<span class="chip chip-number">Number</span><br><span class="chip chip-enum">NxtSensorType</span>|
+|sensor Mode|<span class="chip chip-number">Number</span><br><span class="chip chip-enum">NxtSensorMode</span>|
+
+| sensor Port Letter Options | []() |
+|--------|------|
+|Port1|Option for Port1|
+|Port2|Option for Port2|
+|Port3|Option for Port3|
+|Port4|Option for Port4|
+
+| sensor Type Options | []() |
+|--------|------|
+|NoSensor|Option for NoSensor|
+|Touch|Option for Touch|
+|LightOn|Option for LightOn|
+|LightOff|Option for LightOff|
+|SoundDB|Option for SoundDB|
+|SoundDBA|Option for SoundDBA|
+|ColorFull|Option for ColorFull|
+|ColorRed|Option for ColorRed|
+|ColorGreen|Option for ColorGreen|
+|ColorBlue|Option for ColorBlue|
+|ColorNone|Option for ColorNone|
+|Digital12C|Option for Digital12C|
+|Digital12C9V|Option for Digital12C9V|
+|RcxTemperature|Option for RcxTemperature|
+|RcxLight|Option for RcxLight|
+|RcxAngle|Option for RcxAngle|
+
+| sensor Mode Options | []() |
+|--------|------|
+|Raw|Option for Raw|
+|Boolean|Option for Boolean|
+|TransitionCount|Option for TransitionCount|
+|PeriodCount|Option for PeriodCount|
+|Percentage|Option for Percentage|
+|RcxCelsius|Option for RcxCelsius|
+|RcxFahrenheit|Option for RcxFahrenheit|
+|RcxAngleSteps|Option for RcxAngleSteps|
 
 ### Set Output State
 
@@ -240,13 +350,39 @@ Sets the output state of a motor on the robot.
 
 | Params | []() |
 |--------|------|
-|motor Port Letter|<span class="chip chip-text">Text</span>|
+|motor Port Letter|<span class="chip chip-text">Text</span><br><span class="chip chip-enum">NxtMotorPort</span>|
 |power|<span class="chip chip-number">Number</span>|
-|mode|<span class="chip chip-number">Number</span>|
-|regulation Mode|<span class="chip chip-number">Number</span>|
+|mode|<span class="chip chip-number">Number</span><br><span class="chip chip-enum">NxtMotorMode</span>|
+|regulation Mode|<span class="chip chip-number">Number</span><br><span class="chip chip-enum">NxtRegulationMode</span>|
 |turn Ratio|<span class="chip chip-number">Number</span>|
-|run State|<span class="chip chip-number">Number</span>|
+|run State|<span class="chip chip-number">Number</span><br><span class="chip chip-enum">NxtRunState</span>|
 |tacho Limit|<span class="chip chip-number">Number</span>|
+
+| motor Port Letter Options | []() |
+|--------|------|
+|PortA|Option for PortA|
+|PortB|Option for PortB|
+|PortC|Option for PortC|
+
+| mode Options | []() |
+|--------|------|
+|On|Option for On|
+|Brake|Option for Brake|
+|Regulated|Option for Regulated|
+|Coast|Option for Coast|
+
+| regulation Mode Options | []() |
+|--------|------|
+|Disabled|Option for Disabled|
+|Speed|Option for Speed|
+|Synchronization|Option for Synchronization|
+
+| run State Options | []() |
+|--------|------|
+|Disabled|Option for Disabled|
+|Running|Option for Running|
+|RampUp|Option for RampUp|
+|RampDown|Option for RampDown|
 
 ### Start Program
 

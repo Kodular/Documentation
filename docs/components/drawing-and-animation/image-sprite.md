@@ -50,7 +50,18 @@ Event handler called when the ImageSprite reaches an edge of the screen. If Boun
 
 | Params | []() |
 |--------|------|
-|edge|<span class="chip chip-number">Number</span>|
+|edge|<span class="chip chip-number">Number</span><br><span class="chip chip-enum">Direction</span>|
+
+| edge Options | []() |
+|--------|------|
+|North|Option for North|
+|Northeast|Option for Northeast|
+|East|Option for East|
+|Southeast|Option for Southeast|
+|South|Option for South|
+|Southwest|Option for Southwest|
+|West|Option for West|
+|Northwest|Option for Northwest|
 
 ### Flung
 
@@ -120,7 +131,18 @@ Makes the ImageSprite bounce, as if off a wall. For normal bouncing, the edge ar
 
 | Params | []() |
 |--------|------|
-|edge|<span class="chip chip-number">Number</span>|
+|edge|<span class="chip chip-number">Number</span><br><span class="chip chip-enum">Direction</span>|
+
+| edge Options | []() |
+|--------|------|
+|North|Option for North|
+|Northeast|Option for Northeast|
+|East|Option for East|
+|Southeast|Option for Southeast|
+|South|Option for South|
+|Southwest|Option for Southwest|
+|West|Option for West|
+|Northwest|Option for Northwest|
 
 ### Colliding With
 

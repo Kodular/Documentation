@@ -86,12 +86,26 @@ Property for AdUnitId
 
 ### eCPM Floor
 
-<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-unknown">Com.google.appinventor.components.common.flooramountenum</span> <span class="chip chip-unknown">Default: <i>optimized</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span> <span class="chip chip-enum">FloorAmount</span> <span class="chip chip-text">Default: <i>optimized</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
 
 Set a minimum eCPM floor below which advertisers cannot bid for inventory. Use Optimized to let Google decide an eCPM floor.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Ad%20Manager%20Banner%22,%20%22name%22:%20%22eCPM%20Floor%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Google%20Ad%20Manager%20Banner%22,%20%22name%22:%20%22eCPM%20Floor%22,%20%22getter%22:%20false%7D"></div>
+
+| Options | []() |
+|--------|------|
+|Optimized|Option for Optimized|
+|USD_04_50|Option for USD_04_50|
+|USD_04_00|Option for USD_04_00|
+|USD_03_50|Option for USD_03_50|
+|USD_03_00|Option for USD_03_00|
+|USD_02_50|Option for USD_02_50|
+|USD_02_00|Option for USD_02_00|
+|USD_01_50|Option for USD_01_50|
+|USD_01_00|Option for USD_01_00|
+|USD_00_80|Option for USD_00_80|
+|USD_00_50|Option for USD_00_50|
 
 ### Test Mode
 

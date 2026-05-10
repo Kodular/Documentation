@@ -55,12 +55,18 @@ Set the charset of the input text.
 
 ### Format
 
-<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-unknown">Com.google.appinventor.components.common.qrcodeformatenum</span> <span class="chip chip-unknown">Default: <i>png</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span> <span class="chip chip-enum">QrCodeFormat</span> <span class="chip chip-text">Default: <i>png</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
 
 Output image format used when generating the QR code image. Supported values are PNG (default), JPEG and WebP.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22QR%20Code%22,%20%22name%22:%20%22Format%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22QR%20Code%22,%20%22name%22:%20%22Format%22,%20%22getter%22:%20false%7D"></div>
+
+| Options | []() |
+|--------|------|
+|Png|Option for Png|
+|Jpeg|Option for Jpeg|
+|Webp|Option for Webp|
 
 ### Front Color
 

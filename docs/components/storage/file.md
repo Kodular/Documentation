@@ -102,10 +102,28 @@ Copy the contents from the first file to the second file.
 
 | Params | []() |
 |--------|------|
-|from Scope|<span class="chip chip-unknown">Com.google.appinventor.components.common.filescopeenum</span>|
+|from Scope|<span class="chip chip-text">Text</span><br><span class="chip chip-enum">FileScope</span>|
 |from File Name|<span class="chip chip-text">Text</span>|
-|to Scope|<span class="chip chip-unknown">Com.google.appinventor.components.common.filescopeenum</span>|
+|to Scope|<span class="chip chip-text">Text</span><br><span class="chip chip-enum">FileScope</span>|
 |to File Name|<span class="chip chip-text">Text</span>|
+
+| from Scope Options | []() |
+|--------|------|
+|App|Option for App|
+|Asset|Option for Asset|
+|Cache|Option for Cache|
+|Legacy|Option for Legacy|
+|Private|Option for Private|
+|Shared|Option for Shared|
+
+| to Scope Options | []() |
+|--------|------|
+|App|Option for App|
+|Asset|Option for Asset|
+|Cache|Option for Cache|
+|Legacy|Option for Legacy|
+|Private|Option for Private|
+|Shared|Option for Shared|
 
 ### Create Directory
 
@@ -139,8 +157,17 @@ Tests whether the path exists in the given scope.
 
 | Params | []() |
 |--------|------|
-|scope|<span class="chip chip-unknown">Com.google.appinventor.components.common.filescopeenum</span>|
+|scope|<span class="chip chip-text">Text</span><br><span class="chip chip-enum">FileScope</span>|
 |path|<span class="chip chip-text">Text</span>|
+
+| scope Options | []() |
+|--------|------|
+|App|Option for App|
+|Asset|Option for Asset|
+|Cache|Option for Cache|
+|Legacy|Option for Legacy|
+|Private|Option for Private|
+|Shared|Option for Shared|
 
 ### File Size
 
@@ -200,8 +227,17 @@ Tests whether the path named in the given scope is a directory.
 
 | Params | []() |
 |--------|------|
-|scope|<span class="chip chip-unknown">Com.google.appinventor.components.common.filescopeenum</span>|
+|scope|<span class="chip chip-text">Text</span><br><span class="chip chip-enum">FileScope</span>|
 |path|<span class="chip chip-text">Text</span>|
+
+| scope Options | []() |
+|--------|------|
+|App|Option for App|
+|Asset|Option for Asset|
+|Cache|Option for Cache|
+|Legacy|Option for Legacy|
+|Private|Option for Private|
+|Shared|Option for Shared|
 
 ### Is File
 
@@ -225,8 +261,17 @@ Get a list of files and directories in the given directory.
 
 | Params | []() |
 |--------|------|
-|scope|<span class="chip chip-unknown">Com.google.appinventor.components.common.filescopeenum</span>|
+|scope|<span class="chip chip-text">Text</span><br><span class="chip chip-enum">FileScope</span>|
 |directory Name|<span class="chip chip-text">Text</span>|
+
+| scope Options | []() |
+|--------|------|
+|App|Option for App|
+|Asset|Option for Asset|
+|Cache|Option for Cache|
+|Legacy|Option for Legacy|
+|Private|Option for Private|
+|Shared|Option for Shared|
 
 ### Make Directory
 
@@ -238,8 +283,17 @@ Create a new directory for storing files. The semantics of this method are such 
 
 | Params | []() |
 |--------|------|
-|scope|<span class="chip chip-unknown">Com.google.appinventor.components.common.filescopeenum</span>|
+|scope|<span class="chip chip-text">Text</span><br><span class="chip chip-enum">FileScope</span>|
 |directory Name|<span class="chip chip-text">Text</span>|
+
+| scope Options | []() |
+|--------|------|
+|App|Option for App|
+|Asset|Option for Asset|
+|Cache|Option for Cache|
+|Legacy|Option for Legacy|
+|Private|Option for Private|
+|Shared|Option for Shared|
 
 ### Make Full Path
 
@@ -251,8 +305,17 @@ Converts the scope and path into a single string for other components.
 
 | Params | []() |
 |--------|------|
-|scope|<span class="chip chip-unknown">Com.google.appinventor.components.common.filescopeenum</span>|
+|scope|<span class="chip chip-text">Text</span><br><span class="chip chip-enum">FileScope</span>|
 |path|<span class="chip chip-text">Text</span>|
+
+| scope Options | []() |
+|--------|------|
+|App|Option for App|
+|Asset|Option for Asset|
+|Cache|Option for Cache|
+|Legacy|Option for Legacy|
+|Private|Option for Private|
+|Shared|Option for Shared|
 
 ### Move
 
@@ -279,10 +342,28 @@ Move a file from one location to another.
 
 | Params | []() |
 |--------|------|
-|from Scope|<span class="chip chip-unknown">Com.google.appinventor.components.common.filescopeenum</span>|
+|from Scope|<span class="chip chip-text">Text</span><br><span class="chip chip-enum">FileScope</span>|
 |from File Name|<span class="chip chip-text">Text</span>|
-|to Scope|<span class="chip chip-unknown">Com.google.appinventor.components.common.filescopeenum</span>|
+|to Scope|<span class="chip chip-text">Text</span><br><span class="chip chip-enum">FileScope</span>|
 |to File Name|<span class="chip chip-text">Text</span>|
+
+| from Scope Options | []() |
+|--------|------|
+|App|Option for App|
+|Asset|Option for Asset|
+|Cache|Option for Cache|
+|Legacy|Option for Legacy|
+|Private|Option for Private|
+|Shared|Option for Shared|
+
+| to Scope Options | []() |
+|--------|------|
+|App|Option for App|
+|Asset|Option for Asset|
+|Cache|Option for Cache|
+|Legacy|Option for Legacy|
+|Private|Option for Private|
+|Shared|Option for Shared|
 
 ### Read From
 
@@ -304,9 +385,18 @@ Remove a directory from the file system. If recursive is true, then everything i
 
 | Params | []() |
 |--------|------|
-|scope|<span class="chip chip-unknown">Com.google.appinventor.components.common.filescopeenum</span>|
+|scope|<span class="chip chip-text">Text</span><br><span class="chip chip-enum">FileScope</span>|
 |directory Name|<span class="chip chip-text">Text</span>|
 |recursive|<span class="chip chip-boolean">Boolean</span>|
+
+| scope Options | []() |
+|--------|------|
+|App|Option for App|
+|Asset|Option for Asset|
+|Cache|Option for Cache|
+|Legacy|Option for Legacy|
+|Private|Option for Private|
+|Shared|Option for Shared|
 
 ### Save File
 
@@ -348,9 +438,18 @@ Create a zip file with or without a password.
 
 ### Default Scope
 
-<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-unknown">Com.google.appinventor.components.common.filescopeenum</span> <span class="chip chip-unknown">Default: <i>App</i></span> :heavy_minus_sign: <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span></span>
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span> <span class="chip chip-enum">FileScope</span> <span class="chip chip-text">Default: <i>App</i></span> :heavy_minus_sign: <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span></span>
 
 Specifies the default scope for files accessed using the File component. The App scope shouldwork for most apps. Legacy mode can be used for apps that predate the newer constraints inAndroid on app file access.
+
+| Options | []() |
+|--------|------|
+|App|Option for App|
+|Asset|Option for Asset|
+|Cache|Option for Cache|
+|Legacy|Option for Legacy|
+|Private|Option for Private|
+|Shared|Option for Shared|
 
 ### Read Permission
 
@@ -360,12 +459,21 @@ A designer-only property that can be used to enable read access to file storage 
 
 ### Scope
 
-<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-unknown">Com.google.appinventor.components.common.filescopeenum</span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Blocks</span></span>
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span> <span class="chip chip-enum">FileScope</span> <span class="chip chip-text">Default: <i>App</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Blocks</span></span>
 
 Indicates the current scope for operations such as ReadFrom and SaveFile.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22File%22,%20%22name%22:%20%22Scope%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22File%22,%20%22name%22:%20%22Scope%22,%20%22getter%22:%20false%7D"></div>
+
+| Options | []() |
+|--------|------|
+|App|Option for App|
+|Asset|Option for Asset|
+|Cache|Option for Cache|
+|Legacy|Option for Legacy|
+|Private|Option for Private|
+|Shared|Option for Shared|
 
 ### Write Permission
 

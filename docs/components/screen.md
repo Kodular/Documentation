@@ -126,7 +126,26 @@ Event to handle when the app user has denied a needed permission.
 |--------|------|
 |component|<span class="chip chip-component">Component</span>|
 |function Name|<span class="chip chip-text">Text</span>|
-|permission Name|<span class="chip chip-text">Text</span>|
+|permission Name|<span class="chip chip-text">Text</span><br><span class="chip chip-enum">Permission</span>|
+
+| permission Name Options | []() |
+|--------|------|
+|CoarseLocation|Option for CoarseLocation|
+|FineLocation|Option for FineLocation|
+|LocationExtraCommands|Option for LocationExtraCommands|
+|ReadExternalStorage|Option for ReadExternalStorage|
+|WriteExternalStorage|Option for WriteExternalStorage|
+|Camera|Option for Camera|
+|Audio|Option for Audio|
+|GetAccounts|Option for GetAccounts|
+|ReadContacts|Option for ReadContacts|
+|BluetoothAdvertise|Option for BluetoothAdvertise|
+|BluetoothConnect|Option for BluetoothConnect|
+|BluetoothScan|Option for BluetoothScan|
+|ReadMediaImages|Option for ReadMediaImages|
+|ReadMediaVideo|Option for ReadMediaVideo|
+|ReadMediaAudio|Option for ReadMediaAudio|
+|PostNotifications|Option for PostNotifications|
 
 ### Permission Granted
 
@@ -136,7 +155,26 @@ Event to handle when the app user has granted a needed permission. This event is
 
 | Params | []() |
 |--------|------|
-|permission Name|<span class="chip chip-text">Text</span>|
+|permission Name|<span class="chip chip-text">Text</span><br><span class="chip chip-enum">Permission</span>|
+
+| permission Name Options | []() |
+|--------|------|
+|CoarseLocation|Option for CoarseLocation|
+|FineLocation|Option for FineLocation|
+|LocationExtraCommands|Option for LocationExtraCommands|
+|ReadExternalStorage|Option for ReadExternalStorage|
+|WriteExternalStorage|Option for WriteExternalStorage|
+|Camera|Option for Camera|
+|Audio|Option for Audio|
+|GetAccounts|Option for GetAccounts|
+|ReadContacts|Option for ReadContacts|
+|BluetoothAdvertise|Option for BluetoothAdvertise|
+|BluetoothConnect|Option for BluetoothConnect|
+|BluetoothScan|Option for BluetoothScan|
+|ReadMediaImages|Option for ReadMediaImages|
+|ReadMediaVideo|Option for ReadMediaVideo|
+|ReadMediaAudio|Option for ReadMediaAudio|
+|PostNotifications|Option for PostNotifications|
 
 ### Screen Orientation Changed
 
@@ -223,7 +261,26 @@ Ask the user to grant access to a dangerous permission.
 
 | Params | []() |
 |--------|------|
-|permission Name|<span class="chip chip-text">Text</span>|
+|permission Name|<span class="chip chip-text">Text</span><br><span class="chip chip-enum">Permission</span>|
+
+| permission Name Options | []() |
+|--------|------|
+|CoarseLocation|Option for CoarseLocation|
+|FineLocation|Option for FineLocation|
+|LocationExtraCommands|Option for LocationExtraCommands|
+|ReadExternalStorage|Option for ReadExternalStorage|
+|WriteExternalStorage|Option for WriteExternalStorage|
+|Camera|Option for Camera|
+|Audio|Option for Audio|
+|GetAccounts|Option for GetAccounts|
+|ReadContacts|Option for ReadContacts|
+|BluetoothAdvertise|Option for BluetoothAdvertise|
+|BluetoothConnect|Option for BluetoothConnect|
+|BluetoothScan|Option for BluetoothScan|
+|ReadMediaImages|Option for ReadMediaImages|
+|ReadMediaVideo|Option for ReadMediaVideo|
+|ReadMediaAudio|Option for ReadMediaAudio|
+|PostNotifications|Option for PostNotifications|
 
 ### Can Write System Settings
 
@@ -399,21 +456,33 @@ Property for ReceiveSharedText
 
 ### Align Horizontal
 
-<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>1</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> <span class="chip chip-enum">HorizontalAlignment</span> <span class="chip chip-number">Default: <i>1</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
 
 A number that encodes how contents of the screen are aligned horizontally. The choices are: 1 = left aligned, 3 = horizontally centered, 2 = right aligned.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Screen%22,%20%22name%22:%20%22Align%20Horizontal%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Screen%22,%20%22name%22:%20%22Align%20Horizontal%22,%20%22getter%22:%20false%7D"></div>
 
+| Options | []() |
+|--------|------|
+|Left|Option for Left|
+|Center|Option for Center|
+|Right|Option for Right|
+
 ### Align Vertical
 
-<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>1</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> <span class="chip chip-enum">VerticalAlignment</span> <span class="chip chip-number">Default: <i>1</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
 
 A number that encodes how the contents of the arrangement are aligned vertically. The choices are: 1 = aligned at the top, 2 = vertically centered, 3 = aligned at the bottom. Vertical alignment has no effect if the screen is scrollable.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Screen%22,%20%22name%22:%20%22Align%20Vertical%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Screen%22,%20%22name%22:%20%22Align%20Vertical%22,%20%22getter%22:%20false%7D"></div>
+
+| Options | []() |
+|--------|------|
+|Top|Option for Top|
+|Center|Option for Center|
+|Bottom|Option for Bottom|
 
 ### App ID
 
@@ -447,18 +516,36 @@ The screen background image.
 
 ### Close Screen Animation
 
-<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span> <span class="chip chip-text">Default: <i>default</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span> <span class="chip chip-enum">ScreenAnimation</span> <span class="chip chip-text">Default: <i>default</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
 
 The animation for closing current screen and returning to the previous screen. Valid options are default, fade, zoom, slidehorizontal, slidevertical, and none
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Screen%22,%20%22name%22:%20%22Close%20Screen%20Animation%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Screen%22,%20%22name%22:%20%22Close%20Screen%20Animation%22,%20%22getter%22:%20false%7D"></div>
 
+| Options | []() |
+|--------|------|
+|Default|Option for Default|
+|Fade|Option for Fade|
+|Zoom|Option for Zoom|
+|SlideHorizontal|Option for SlideHorizontal|
+|SlideVertical|Option for SlideVertical|
+|None|Option for None|
+
 ### Default File Scope
 
-<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-unknown">Com.google.appinventor.components.common.filescopeenum</span> <span class="chip chip-unknown">Default: <i>App</i></span> :heavy_minus_sign: <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span></span>
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span> <span class="chip chip-enum">FileScope</span> <span class="chip chip-text">Default: <i>App</i></span> :heavy_minus_sign: <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span></span>
 
 Specifies the default scope used when components access files. Note that the
+
+| Options | []() |
+|--------|------|
+|App|Option for App|
+|Asset|Option for Asset|
+|Cache|Option for Cache|
+|Legacy|Option for Legacy|
+|Private|Option for Private|
+|Shared|Option for Shared|
 
 ### Drawer Arrow Icon Color
 
@@ -586,12 +673,21 @@ Property for OneSignalAppId
 
 ### Open Screen Animation
 
-<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span> <span class="chip chip-text">Default: <i>default</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span> <span class="chip chip-enum">ScreenAnimation</span> <span class="chip chip-text">Default: <i>default</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
 
 The animation for switching to another screen. Valid options are default, fade, zoom, slidehorizontal, slidevertical, and none
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Screen%22,%20%22name%22:%20%22Open%20Screen%20Animation%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Screen%22,%20%22name%22:%20%22Open%20Screen%20Animation%22,%20%22getter%22:%20false%7D"></div>
+
+| Options | []() |
+|--------|------|
+|Default|Option for Default|
+|Fade|Option for Fade|
+|Zoom|Option for Zoom|
+|SlideHorizontal|Option for SlideHorizontal|
+|SlideVertical|Option for SlideVertical|
+|None|Option for None|
 
 ### Options Menu Icon Color
 
@@ -632,12 +728,27 @@ Property for RTLSupport
 
 ### Screen Orientation
 
-<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span> <span class="chip chip-text">Default: <i>unspecified</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span> <span class="chip chip-enum">ScreenOrientation</span> <span class="chip chip-text">Default: <i>unspecified</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
 
 The requested screen orientation, specified as a text value. Commonly used values are landscape, portrait, sensor, user and unspecified. See the Android developer documentation for ActivityInfo.Screen_Orientation for the complete list of possible settings.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Screen%22,%20%22name%22:%20%22Screen%20Orientation%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Screen%22,%20%22name%22:%20%22Screen%20Orientation%22,%20%22getter%22:%20false%7D"></div>
+
+| Options | []() |
+|--------|------|
+|Unspecified|Option for Unspecified|
+|Landscape|Option for Landscape|
+|Portrait|Option for Portrait|
+|Sensor|Option for Sensor|
+|User|Option for User|
+|Behind|Option for Behind|
+|NoSensor|Option for NoSensor|
+|FullSensor|Option for FullSensor|
+|ReverseLandscape|Option for ReverseLandscape|
+|ReversePortrait|Option for ReversePortrait|
+|SensorLandscape|Option for SensorLandscape|
+|SensorPortrait|Option for SensorPortrait|
 
 ### Scrollable
 

@@ -39,8 +39,14 @@ Event indicating that a phone call has ended. If status is 1, incoming call is m
 
 | Params | []() |
 |--------|------|
-|status|<span class="chip chip-number">Number</span>|
+|status|<span class="chip chip-number">Number</span><br><span class="chip chip-enum">EndedStatus</span>|
 |phone Number|<span class="chip chip-text">Text</span>|
+
+| status Options | []() |
+|--------|------|
+|IncomingRejected|Option for IncomingRejected|
+|IncomingEnded|Option for IncomingEnded|
+|OutgoingEnded|Option for OutgoingEnded|
 
 ### Phone Call Started
 
@@ -50,8 +56,13 @@ Event indicating that a phonecall has started. If status is 1, incoming call is 
 
 | Params | []() |
 |--------|------|
-|status|<span class="chip chip-number">Number</span>|
+|status|<span class="chip chip-number">Number</span><br><span class="chip chip-enum">StartedStatus</span>|
 |phone Number|<span class="chip chip-text">Text</span>|
+
+| status Options | []() |
+|--------|------|
+|Incoming|Option for Incoming|
+|Outgoing|Option for Outgoing|
 
 ## Methods
 

@@ -94,12 +94,19 @@ It will show the Interstitial Ad
 
 ### Ad Type
 
-<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span> <span class="chip chip-text">Default: <i>automatic</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span> <span class="chip chip-enum">StartAppInterstitialAdType</span> <span class="chip chip-text">Default: <i>automatic</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
 
 The type of interstitial ad to load.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Start.io%20Interstitial%22,%20%22name%22:%20%22Ad%20Type%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Start.io%20Interstitial%22,%20%22name%22:%20%22Ad%20Type%22,%20%22getter%22:%20false%7D"></div>
+
+| Options | []() |
+|--------|------|
+|Automatic|Option for Automatic|
+|FullPage|Option for FullPage|
+|Video|Option for Video|
+|Overlay|Option for Overlay|
 
 ### Enable Consent
 

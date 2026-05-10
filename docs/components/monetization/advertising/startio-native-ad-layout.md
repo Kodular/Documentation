@@ -139,12 +139,19 @@ The image component for the ad icon.
 
 ### Primary Image Size
 
-<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span> <span class="chip chip-text">Default: <i>SIZE150X150</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-text">Text</span> <span class="chip chip-enum">StartAppNativeAdImageSize</span> <span class="chip chip-text">Default: <i>SIZE150X150</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
 
 The size of the primary image in native ads.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Start.io%20Native%20Ad%20Layout%22,%20%22name%22:%20%22Primary%20Image%20Size%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Start.io%20Native%20Ad%20Layout%22,%20%22name%22:%20%22Primary%20Image%20Size%22,%20%22getter%22:%20false%7D"></div>
+
+| Options | []() |
+|--------|------|
+|Size72x72|Option for Size72x72|
+|Size100x100|Option for Size100x100|
+|Size150x150|Option for Size150x150|
+|Size340x340|Option for Size340x340|
 
 ### Set User Consent
 
