@@ -269,6 +269,10 @@ img[src*="#animationUtilsPreview"] {
     background-color: rgb(208, 95, 45);
 }
 
+.chip-enum {
+    background-color: rgb(155, 89, 182);
+}
+
 .md-content__inner {
     word-break: break-word;
 }
