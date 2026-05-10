@@ -74,19 +74,17 @@
     color: rgba(0, 0, 0, .54)
 }
 
-thead tr th:first-child,
-tbody tr td:first-child {
-    width: 10em;
-    max-width: 10em;
-    word-break: break-all;
-}
-
 tr td:nth-child(1) {
     background: #dcdce269;
 }
 
 .md-typeset .md-typeset__table {
     display: block;
+}
+
+.md-typeset__table table:not([class]) {
+    display: table;
+    width: 100%;
 }
 
 .keyword {
