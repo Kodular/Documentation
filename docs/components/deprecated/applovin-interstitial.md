@@ -13,10 +13,6 @@
 
 A non-visible component to show ads from AppLovin.
 
-!!! info "Commission"
-    **Type:** Fixed Rate
-    **Value:** `8%`
-
 ## Events
 
 ### Ad Closed

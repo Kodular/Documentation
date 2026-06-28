@@ -19,6 +19,9 @@ A non-visible component that shows Start.io rewarded video ads. Users watch a vi
     * [android.permission.ACCESS_ADSERVICES_TOPICS](https://developer.android.com/reference/android/Manifest.permission.html#ACCESS_ADSERVICES_TOPICS)
     * [android.permission.RECEIVE_BOOT_COMPLETED](https://developer.android.com/reference/android/Manifest.permission.html#RECEIVE_BOOT_COMPLETED)
 
+!!! info "Kodular Monetize"
+    This component requires **Kodular Monetize** to be activated. See [my.kodular.io/monetize](https://my.kodular.io/monetize) and the [Monetize rates](https://kodul.ar/monetize-rates).
+
 ## Events
 
 ### Ad Clicked

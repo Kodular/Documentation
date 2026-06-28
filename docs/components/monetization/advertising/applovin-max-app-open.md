@@ -18,6 +18,9 @@ Shows AppLovin MAX app open ads when the app returns to the foreground. Requires
     * [android.permission.ACCESS_NETWORK_STATE](https://developer.android.com/reference/android/Manifest.permission.html#ACCESS_NETWORK_STATE)
     * [android.permission.ACCESS_WIFI_STATE](https://developer.android.com/reference/android/Manifest.permission.html#ACCESS_WIFI_STATE)
 
+!!! info "Kodular Monetize"
+    This component requires **Kodular Monetize** to be activated. See [my.kodular.io/monetize](https://my.kodular.io/monetize) and the [Monetize rates](https://kodul.ar/monetize-rates).
+
 ## Events
 
 ### Ad Clicked
