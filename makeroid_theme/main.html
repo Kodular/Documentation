@@ -25,6 +25,10 @@
             {{ hidden }}
         >
             <div class="md-sidebar__scrollwrap">
+                <div class="md-sidebar__inner">
+                    {% include "partials/nav.html" %}
+                </div>
+
                 <script async
                         src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4476675487994598"
                         crossorigin="anonymous"></script>
@@ -37,9 +41,6 @@
                 <script>
                     (adsbygoogle = window.adsbygoogle || []).push({});
                 </script>
-                <div class="md-sidebar__inner">
-                    {% include "partials/nav.html" %}
-                </div>
             </div>
         </div>
     {% endif %}

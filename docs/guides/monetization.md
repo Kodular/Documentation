@@ -20,11 +20,15 @@ And done, you are ready to use Kodular Monetize components!
 
 ## Adding Kodular Monetize to your app
 
-Kodular Monetize is not a single component, but a set of components that you can use to monetize your app. As of now,
-two ad networks are supported:
+Kodular Monetize is not a single component, but a set of components that you can use to monetize your app. The
+following ad networks are part of Kodular Monetize:
 
 * **Google AdMob**
 * **Google Ad Manager**
+* **Start.io**
+* **Unity Ads**
+* **AppLovin Max**
+* **Tapjoy**
 
 If you use any of those ad networks' components, you will be using Kodular Monetize underneath.
 
@@ -38,6 +42,39 @@ If you use any of those ad networks' components, you will be using Kodular Monet
 
 * **`OVERDUE_INVOICES`**: this error means that you have unpaid overdue invoices.
     * Please go to [my.kodular.io/monetize](https://my.kodular.io/monetize), and make sure you have all your invoices are paid.
+
+## Kodular Premium vs Kodular Monetize
+
+These are two **separate** paid offerings, and the available ad networks are split between them. They are independent:
+having one does not include the other, and you only need the one(s) matching the ad networks you actually use.
+
+* **Kodular Monetize** — usage-based, pay-as-you-go pricing for the modern, fully integrated ad networks. Activate at
+  [my.kodular.io/monetize](https://my.kodular.io/monetize). See the [rates](https://kodul.ar/monetize-rates).
+* **Kodular Premium** — a flat subscription that unlocks the remaining ad networks, which are not part of the Kodular
+  Monetize integration. Subscribe at [my.kodular.io/premium](https://my.kodular.io/premium).
+
+Every component belonging to a network inherits that network's tier.
+
+| Ad network | Tier |
+|---|---|
+| Google AdMob | Kodular Monetize |
+| Google Ad Manager | Kodular Monetize |
+| Start.io | Kodular Monetize |
+| Unity Ads | Kodular Monetize |
+| AppLovin Max | Kodular Monetize |
+| Tapjoy | Kodular Monetize |
+| Amazon | Kodular Premium |
+| Facebook (Meta) | Kodular Premium |
+| AdColony | Kodular Premium |
+| LeadBolt | Kodular Premium |
+
+!!! note
+    Components under **Monetization > General** (such as In App Billing and Pollfish) are free and require neither
+    Kodular Monetize nor Kodular Premium.
+
+The split is **temporary**. Kodular Premium ad networks are legacy: over time they will all be migrated to Kodular
+Monetize, until every ad network is covered by Kodular Monetize and the Kodular Premium tier no longer gates any ad
+component.
 
 ## FAQ
 

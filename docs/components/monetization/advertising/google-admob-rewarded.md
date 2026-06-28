@@ -18,6 +18,9 @@ A component for displaying rewarded video advertisements from Google AdMob. Rewa
     * [android.permission.ACCESS_ADSERVICES_ATTRIBUTION](https://developer.android.com/reference/android/Manifest.permission.html#ACCESS_ADSERVICES_ATTRIBUTION)
     * [android.permission.ACCESS_ADSERVICES_TOPICS](https://developer.android.com/reference/android/Manifest.permission.html#ACCESS_ADSERVICES_TOPICS)
 
+!!! info "Kodular Monetize"
+    This component requires **Kodular Monetize** to be activated. See [my.kodular.io/monetize](https://my.kodular.io/monetize) and the [Monetize rates](https://kodul.ar/monetize-rates).
+
 ## Events
 
 ### Ad Clicked

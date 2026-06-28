@@ -352,7 +352,12 @@ nav:
         - AdColony Interstitial: components/monetization/advertising/adcolony-interstitial.md
         - Amazon Banner: components/monetization/advertising/amazon-banner.md
         - Amazon Interstitial: components/monetization/advertising/amazon-interstitial.md
-        - AppLovin Interstitial: components/monetization/advertising/applovin-interstitial.md
+        - AppLovin Max App Open: components/monetization/advertising/applovin-max-app-open.md
+        - AppLovin Max Banner: components/monetization/advertising/applovin-max-banner.md
+        - AppLovin Max Interstitial: components/monetization/advertising/applovin-max-interstitial.md
+        - AppLovin Max MREC: components/monetization/advertising/applovin-max-mrec.md
+        - AppLovin Max Native: components/monetization/advertising/applovin-max-native.md
+        - AppLovin Max Rewarded: components/monetization/advertising/applovin-max-rewarded.md
         - Facebook Banner: components/monetization/advertising/facebook-banner.md
         - Facebook Interstitial: components/monetization/advertising/facebook-interstitial.md
         - Facebook Rewarded Video: components/monetization/advertising/facebook-rewarded-video.md
