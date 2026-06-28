@@ -4,15 +4,14 @@
 
 | Category | Requires | Version |
 |:--------:|:-------:|:--------:|
-|**Monetization > Advertising**|<span class="chip chip-any">API 21, Android 5.0 Lollipop</span>|<span class="chip chip-number">1</span>|
+|**Deprecated**|<span class="chip chip-any">API 21, Android 5.0 Lollipop</span>|<span class="chip chip-number">2</span>|
+
+!!! danger "Deprecated component"
+    This component is deprecated. Projects that still contain it will fail to build until it is removed. You can still load existing projects in the Designer and live-test them with the Companion while you migrate, but APK and AAB builds are blocked. Look for an up-to-date replacement in the active component palette.
 
 ## Overview
 
 A non-visible component to show ads from AppLovin.
-
-??? example "Permissions"
-    * [android.permission.INTERNET](https://developer.android.com/reference/android/Manifest.permission.html#INTERNET)
-    * [android.permission.ACCESS_NETWORK_STATE](https://developer.android.com/reference/android/Manifest.permission.html#ACCESS_NETWORK_STATE)
 
 !!! info "Commission"
     **Type:** Fixed Rate
@@ -22,13 +21,13 @@ A non-visible component to show ads from AppLovin.
 
 ### Ad Closed
 
-Called when an ad was closed.
+Deprecated. Never fires.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22AppLovin%20Interstitial%22,%20%22name%22:%20%22Ad%20Closed%22,%20%22param%22:%20%5B%5D%7D"></div>
 
 ### Ad Failed To Load
 
-Called when an ad request failed to load. The message will display the error code and error message.
+Deprecated. Never fires.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22AppLovin%20Interstitial%22,%20%22name%22:%20%22Ad%20Failed%20To%20Load%22,%20%22param%22:%20%5B%22error%20Code%22,%20%22error%20Message%22%5D%7D"></div>
 
@@ -39,25 +38,25 @@ Called when an ad request failed to load. The message will display the error cod
 
 ### Ad Loaded
 
-Called when an ad is received.
+Deprecated. Never fires.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22AppLovin%20Interstitial%22,%20%22name%22:%20%22Ad%20Loaded%22,%20%22param%22:%20%5B%5D%7D"></div>
 
 ### Ad Opened
 
-Called when an ad was opened.
+Deprecated. Never fires.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22AppLovin%20Interstitial%22,%20%22name%22:%20%22Ad%20Opened%22,%20%22param%22:%20%5B%5D%7D"></div>
 
 ### Ad Started
 
-Called when an ad was started.
+Deprecated. Never fires.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22AppLovin%20Interstitial%22,%20%22name%22:%20%22Ad%20Started%22,%20%22param%22:%20%5B%5D%7D"></div>
 
 ### Error
 
-Called when an ad request failed. The message will display the reason for why the ad failed.
+Deprecated. Never fires.
 
 <div class="block" ai2-block="event" not-rendered="true" value="%7B%22componentName%22:%20%22AppLovin%20Interstitial%22,%20%22name%22:%20%22Error%22,%20%22param%22:%20%5B%22error%20Code%22,%20%22error%20Message%22%5D%7D"></div>
 
@@ -70,7 +69,7 @@ Called when an ad request failed. The message will display the reason for why th
 
 ### Initialize
 
-Initialize the AppLovin SDK. You should call this function before loading ads to ensure proper initialization.
+Deprecated. Does nothing.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22AppLovin%20Interstitial%22,%20%22name%22:%20%22Initialize%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
 
@@ -78,19 +77,19 @@ Initialize the AppLovin SDK. You should call this function before loading ads to
 
 <span class="chip chip-boolean">Returns: <i>Boolean</i></span>
 
-Returns true if the current app user is located in europe. If true you must ask the user as example in a dialog if he give his consent for personalized ads.
+Deprecated. Always returns false.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22AppLovin%20Interstitial%22,%20%22name%22:%20%22Is%20European%20User%22,%20%22output%22:%20true,%20%22param%22:%20%5B%5D%7D"></div>
 
 ### Load Ad
 
-Loads a new ad.
+Deprecated. Does nothing.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22AppLovin%20Interstitial%22,%20%22name%22:%20%22Load%20Ad%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
 
 ### Show Ad
 
-Shows an ad to the user.
+Deprecated. Does nothing.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22AppLovin%20Interstitial%22,%20%22name%22:%20%22Show%20Ad%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
 
@@ -108,7 +107,7 @@ Property for SdkKey
 
 <span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-boolean">Boolean</span> <span class="chip chip-boolean">Default: <i>False</i></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
 
-With AppLovin SDK 13.2.0+, test mode must be configured through the AppLovin dashboard. This property is maintained for backwards compatibility but has no effect.
+Deprecated. Does nothing.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22AppLovin%20Interstitial%22,%20%22name%22:%20%22Test%20Mode%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22AppLovin%20Interstitial%22,%20%22name%22:%20%22Test%20Mode%22,%20%22getter%22:%20false%7D"></div>
@@ -117,7 +116,7 @@ With AppLovin SDK 13.2.0+, test mode must be configured through the AppLovin das
 
 <span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-boolean">Boolean</span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Blocks</span></span>
 
-If set to true the user allowed the ad network to show personalized ads. You only need to request the consent from european users.
+Deprecated. Does nothing.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22AppLovin%20Interstitial%22,%20%22name%22:%20%22User%20Consent%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22AppLovin%20Interstitial%22,%20%22name%22:%20%22User%20Consent%22,%20%22getter%22:%20false%7D"></div>
