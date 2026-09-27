@@ -2,7 +2,7 @@
 
 | Category | Requires | Version |
 |:--------:|:-------:|:--------:|
-|**User Interface**|<span class="chip chip-any">API 21, Android 5.0 Lollipop</span>|<span class="chip chip-number">7</span>|
+|**User Interface**|<span class="chip chip-any">API 23, Android 6.0 Marshmallow</span>|<span class="chip chip-number">7</span>|
 
 ## Overview
 

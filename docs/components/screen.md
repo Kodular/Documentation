@@ -2,7 +2,7 @@
 
 | Category | Requires | Version |
 |:--------:|:-------:|:--------:|
-|**Layout > General**|<span class="chip chip-any">API 21, Android 5.0 Lollipop</span>|<span class="chip chip-number">46</span>|
+|**Layout > General**|<span class="chip chip-any">API 23, Android 6.0 Marshmallow</span>|<span class="chip chip-number">46</span>|
 
 ## Overview
 
@@ -286,7 +286,7 @@ Ask the user to grant access to a dangerous permission.
 
 <span class="chip chip-boolean">Returns: <i>Boolean</i></span>
 
-Returns true if the app can write system settings, else it returns false. It will return true automatic for devices with android version below 6 (API 23).
+Returns true if the app can write system settings, else it returns false.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Screen%22,%20%22name%22:%20%22Can%20Write%20System%20Settings%22,%20%22output%22:%20true,%20%22param%22:%20%5B%5D%7D"></div>
 
@@ -316,7 +316,7 @@ Opens the settings screen of the app. Useful if 'Are Permissions Granted' has re
 
 ### Open System Write Settings
 
-Opens the app's system settings page. This works only for devices with android 6+.
+Opens the app's system settings page.
 
 <div class="block" ai2-block="method" not-rendered="true" value="%7B%22componentName%22:%20%22Screen%22,%20%22name%22:%20%22Open%20System%20Write%20Settings%22,%20%22output%22:%20false,%20%22param%22:%20%5B%5D%7D"></div>
 
@@ -634,7 +634,7 @@ Keep the device's screen turned on and bright.
 
 <small>Available as ^^Advanced^^ Property</small>
 
-<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>21</i></span> :heavy_minus_sign: <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span></span>
+<span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> <span class="chip chip-number">Default: <i>23</i></span> :heavy_minus_sign: <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span></span>
 
 Property for MinSdk
 
@@ -642,7 +642,7 @@ Property for MinSdk
 
 <span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-color">Color</span> <span class="chip chip-color">Default: <i>#000000FF</i>&nbsp;<span style="width: 15px; height: 15px; margin: auto; display: inline-block; border: 1px solid white; vertical-align: middle; border-radius: 3px; background-color: #000000;"></span></span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Designer</span> <span class="chip chip-bd">Blocks</span></span>
 
-Set navigation bar color. This will work starting from API Level 21 (Android Lollipop)
+Set navigation bar color.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Screen%22,%20%22name%22:%20%22Navigation%20Bar%20Color%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Screen%22,%20%22name%22:%20%22Navigation%20Bar%20Color%22,%20%22getter%22:%20false%7D"></div>
@@ -828,7 +828,7 @@ If set to true the user will see a splash screen while the app is loading the co
 
 <span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-number">Number</span> :heavy_minus_sign: <span class="chip chip-rw">Read</span> <span class="chip chip-rw">Write</span>  - <span class="chip chip-bd">Blocks</span></span>
 
-Set status bar color. This will work starting from API Level 21 (Android Lollipop
+Set status bar color.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Screen%22,%20%22name%22:%20%22Status%20Bar%20Color%22,%20%22getter%22:%20true%7D"></div>
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Screen%22,%20%22name%22:%20%22Status%20Bar%20Color%22,%20%22getter%22:%20false%7D"></div>

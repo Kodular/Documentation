@@ -4,7 +4,7 @@
 
 | Category | Requires | Version |
 |:--------:|:-------:|:--------:|
-|**Utilities**|<span class="chip chip-any">API 21, Android 5.0 Lollipop</span>|<span class="chip chip-number">2</span>|
+|**Utilities**|<span class="chip chip-any">API 23, Android 6.0 Marshmallow</span>|<span class="chip chip-number">2</span>|
 
 ## Overview
 
@@ -114,7 +114,7 @@ Returns whether the calling package is allowed to set the wallpaper for the call
 
 <span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-boolean">Boolean</span> :heavy_minus_sign: <span class="chip chip-rw">Read</span>  - <span class="chip chip-bd">Blocks</span></span>
 
-Returns whether wallpapers are supported for the calling user. This block works only on devices with Android 6+.
+Returns whether wallpapers are supported for the calling user.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Wallpaper%22,%20%22name%22:%20%22Is%20Wallpaper%20Supported%22,%20%22getter%22:%20true%7D"></div>
 
