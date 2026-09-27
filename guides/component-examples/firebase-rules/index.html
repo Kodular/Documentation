@@ -8744,9 +8744,9 @@
 <h3 id="testing-mode">Testing mode<a class="headerlink" href="#testing-mode" title="Permanent link">&para;</a></h3>
 <p>Testing your app is easy when you have full access to your database. To enable read/write access to all tags, use:
 <div class="highlight"><pre><span></span><code>{
-  &quot;rules&quot;: {
-    &quot;.read&quot; : true,
-    &quot;.write&quot; : true,
+  "rules": {
+    ".read" : true,
+    ".write" : true,
   }
 }
 </code></pre></div></p>
@@ -8762,9 +8762,9 @@
 <h3 id="authenticated-only-mode">Authenticated-only mode<a class="headerlink" href="#authenticated-only-mode" title="Permanent link">&para;</a></h3>
 <p>You can enable only authenticated users to read and write tags in your database. Users can be authenticated using the <a href="https://docs.kodular.io/components/google/firebase-authentication/" target="target">Firebase Authentication</a> component. 
 <div class="highlight"><pre><span></span><code>{
-  &quot;rules&quot;: {
-    &quot;.read&quot; : &quot;auth.uid != null&quot;,
-    &quot;.write&quot; : &quot;auth.uid != null&quot;,
+  "rules": {
+    ".read" : "auth.uid != null",
+    ".write" : "auth.uid != null",
   }
 }
 </code></pre></div></p>
@@ -8780,22 +8780,22 @@
 <div class="highlight"><pre><span></span><code>- users
   - U43gnonNP9joboLnv
       - ranking : 1
-        - email : &quot;example@example.ex&quot;
+        - email : "example@example.ex"
         - age : 20
     - greuo80NOpwqM8100
       - ranking : 67
-        - email : &quot;something@someone.com&quot;
+        - email : "something@someone.com"
         - age : 15
     - kpmkmnn2YIHVI542a
       - ranking : 2
-        - email : &quot;user@product.io&quot;
+        - email : "user@product.io"
         - age : 45
 - challenges
     - FindingNemo
-    - name : &quot;Finding Nemo&quot;
+    - name : "Finding Nemo"
         - recommended_age: 15
     - Marathon
-      - name : &quot;25mi Marathon&quot;
+      - name : "25mi Marathon"
         - recommended_age: 20
 </code></pre></div></p>
 <p>The structure of the database is:
@@ -8814,11 +8814,11 @@
 <p>Here is how you would write the rules for such a system.</p>
 <p>Start off with read/write rules for the <code>users</code> tag.
 <div class="highlight"><pre><span></span><code>{
-  &quot;rules&quot; : {
-    &quot;users&quot; : {
-            &quot;$user_id&quot; : {
-                &quot;.read&quot; : &quot;auth.uid == $user_id&quot;,
-                &quot;.write&quot; : &quot;auth.uid == $user_id&quot;
+  "rules" : {
+    "users" : {
+            "$user_id" : {
+                ".read" : "auth.uid == $user_id",
+                ".write" : "auth.uid == $user_id"
             }
         }
   }
@@ -8826,22 +8826,22 @@
 </code></pre></div></p>
 <p>The <code>$user_id</code> tag is a wildcard reference to all keys that are inside the <code>users</code> tag. We allow read and write operations only if the name of the tag (as specified in <code>$user_id</code>) equals of the uid of the authenticated user. This way, a user will not be able to access tags that are not theirs as <code>auth.uid</code> will not be the name of the tag.</p>
 <p>On the other hand, <code>challenges</code> can be read by all and written by none.
-<div class="highlight"><pre><span></span><code>&quot;challenges&quot; : {
-    &quot;.read&quot; : true,
-    &quot;.write&quot; : false
+<div class="highlight"><pre><span></span><code>"challenges" : {
+    ".read" : true,
+    ".write" : false
 }
 </code></pre></div></p>
 <p>The final JSON object will look like
 <div class="highlight"><pre><span></span><code>{
-  &quot;rules&quot; : {
-    &quot;users&quot; : {
-            &quot;$user_id&quot; : {
-                &quot;.read&quot; : &quot;auth.uid == $user_id&quot;,
-                &quot;.write&quot; : &quot;auth.uid == $user_id&quot;
+  "rules" : {
+    "users" : {
+            "$user_id" : {
+                ".read" : "auth.uid == $user_id",
+                ".write" : "auth.uid == $user_id"
             },
-            &quot;challenges&quot; : {
-                &quot;.read&quot; : true,
-                &quot;.write&quot; : false
+            "challenges" : {
+                ".read" : true,
+                ".write" : false
             }
         }
   }

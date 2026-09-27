@@ -8643,7 +8643,7 @@
 <li>
 <p><strong>Check Java installation:</strong></p>
 <div class="highlight"><pre><span></span><code>$<span class="w"> </span>java<span class="w"> </span>-version<span class="w">  </span>
-java<span class="w"> </span>version<span class="w"> </span><span class="s2">&quot;1.8.0_131&quot;</span><span class="w">  </span>
+java<span class="w"> </span>version<span class="w"> </span><span class="s2">"1.8.0_131"</span><span class="w">  </span>
 Java<span class="o">(</span>TM<span class="o">)</span><span class="w"> </span>SE<span class="w"> </span>Runtime<span class="w"> </span>Environment<span class="w"> </span><span class="o">(</span>build<span class="w"> </span><span class="m">1</span>.8.0_131-b11<span class="o">)</span><span class="w">  </span>
 Java<span class="w"> </span>HotSpot<span class="o">(</span>TM<span class="o">)</span><span class="w"> </span><span class="m">64</span>-Bit<span class="w"> </span>Server<span class="w"> </span>VM<span class="w"> </span><span class="o">(</span>build<span class="w"> </span><span class="m">25</span>.131-b11,<span class="w"> </span>mixed<span class="w"> </span>mode<span class="o">)</span><span class="w">  </span>
 </code></pre></div>
@@ -8690,7 +8690,7 @@ git<span class="w"> </span>version<span class="w"> </span><span class="m">2</spa
 <p><em>Be sure not to place it in a directory whose path contains spaces</em></p>
 </div>
 <h2 id="step-5-building-an-extension">Step 5: Building an Extension<a class="headerlink" href="#step-5-building-an-extension" title="Permanent link">&para;</a></h2>
-<div class="highlight"><pre><span></span><code><span class="kn">package</span><span class="w"> </span><span class="nn">io.kodular</span><span class="p">;</span><span class="w"> </span><span class="c1">// package of the extension will be &quot;com.kodular.SimpleMaths&quot;</span>
+<div class="highlight"><pre><span></span><code><span class="kn">package</span><span class="w"> </span><span class="nn">io.kodular</span><span class="p">;</span><span class="w"> </span><span class="c1">// package of the extension will be "com.kodular.SimpleMaths"</span>
 
 <span class="c1">// Only these imports are required to interact with Kodular</span>
 <span class="kn">import</span><span class="w"> </span><span class="nn">com.google.appinventor.components.annotations.*</span><span class="p">;</span>
@@ -8698,10 +8698,10 @@ git<span class="w"> </span>version<span class="w"> </span><span class="m">2</spa
 <span class="kn">import</span><span class="w"> </span><span class="nn">com.google.appinventor.components.common.*</span><span class="p">;</span>
 
 <span class="nd">@DesignerComponent</span><span class="p">(</span><span class="n">version</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="c1">// Update version here, You must do for each new release to upgrade your extension</span>
-<span class="w">                   </span><span class="n">description</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;Simple Maths extension created by you&quot;</span><span class="p">,</span>
+<span class="w">                   </span><span class="n">description</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">"Simple Maths extension created by you"</span><span class="p">,</span>
 <span class="w">                   </span><span class="n">category</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">ComponentCategory</span><span class="p">.</span><span class="na">EXTENSION</span><span class="p">,</span>
 <span class="w">                   </span><span class="n">nonVisible</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span>
-<span class="w">                   </span><span class="n">iconName</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;images/extension.png&quot;</span><span class="p">)</span><span class="w"> </span><span class="c1">// Change your extension&#39;s icon from here; can be a direct url</span>
+<span class="w">                   </span><span class="n">iconName</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">"images/extension.png"</span><span class="p">)</span><span class="w"> </span><span class="c1">// Change your extension's icon from here; can be a direct url</span>
 <span class="nd">@SimpleObject</span><span class="p">(</span><span class="n">external</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">true</span><span class="p">)</span>
 <span class="kd">public</span><span class="w"> </span><span class="kd">class</span> <span class="nc">SimpleMaths</span><span class="w"> </span><span class="kd">extends</span><span class="w"> </span><span class="n">AndroidNonvisibleComponent</span><span class="w"> </span><span class="p">{</span>
 
@@ -8709,12 +8709,12 @@ git<span class="w"> </span>version<span class="w"> </span><span class="m">2</spa
 <span class="w">        </span><span class="kd">super</span><span class="p">(</span><span class="n">container</span><span class="p">.</span><span class="na">$form</span><span class="p">());</span>
 <span class="w">    </span><span class="p">}</span>
 
-<span class="w">    </span><span class="nd">@SimpleFunction</span><span class="p">(</span><span class="n">description</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;Simple addition of two numbers&quot;</span><span class="p">)</span>
+<span class="w">    </span><span class="nd">@SimpleFunction</span><span class="p">(</span><span class="n">description</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">"Simple addition of two numbers"</span><span class="p">)</span>
 <span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="nf">Add</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">a</span><span class="p">,</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">b</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
 <span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">b</span><span class="p">;</span>
 <span class="w">    </span><span class="p">}</span>
 
-<span class="w">    </span><span class="nd">@SimpleFunction</span><span class="p">(</span><span class="n">description</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;Simple subtraction of two numbers&quot;</span><span class="p">)</span>
+<span class="w">    </span><span class="nd">@SimpleFunction</span><span class="p">(</span><span class="n">description</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">"Simple subtraction of two numbers"</span><span class="p">)</span>
 <span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="nf">Subtract</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">a</span><span class="p">,</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">b</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
 <span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">b</span><span class="p">;</span>
 <span class="w">    </span><span class="p">}</span>

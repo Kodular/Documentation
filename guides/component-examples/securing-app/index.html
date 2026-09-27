@@ -8767,24 +8767,24 @@
 <p><img alt="" src="/assets/images/guides/firebase-rules/ext_fdb-rules.png" /></p>
 <p>By default, Firebase allows full read/write access. If you created your database in locked mode, the default rules will allow only authenticated users, and your rules will look something like:
 <div class="highlight"><pre><span></span><code>{
-  &quot;rules&quot;: {
-    &quot;.read&quot; : &quot;auth != null&quot;,
-    &quot;.write&quot; : &quot;auth != null&quot;,
+  "rules": {
+    ".read" : "auth != null",
+    ".write" : "auth != null",
   }
 }
 </code></pre></div></p>
 <p>Neither of them are secure because all your users have access to all data in your database. Let's fix this with a few rules.</p>
 <p>To start off, replace the currently set rules with a blank template as shown below:
 <div class="highlight"><pre><span></span><code>{
-  &quot;rules&quot;: {
+  "rules": {
 
   }
 }
 </code></pre></div></p>
 <p>Next, change the rules as shown to target all tags in your project bucket. Replace <code>*PROJECT_BUCKET*</code> with your bucket name. (The bucket name can be found in the designer properties of the <code>Firebase Database</code> component).</p>
 <div class="highlight"><pre><span></span><code>{
-    &quot;rules&quot;: {
-        &quot;*PROJECT_BUCKET*&quot;: {
+    "rules": {
+        "*PROJECT_BUCKET*": {
             //... to be added later
         }
     }
@@ -8793,9 +8793,9 @@
 <h3 id="rules-for-users-details">Rules for users' details<a class="headerlink" href="#rules-for-users-details" title="Permanent link">&para;</a></h3>
 <p>We wish for a user to be able to edit only their details. Each user has a tag for themselves, which is named as their uid. Thus, a user should only be able to edit the tag which belongs to them. We can use wildcard keys to select any tag inside your project bucket, as shown below:</p>
 <div class="highlight"><pre><span></span><code>{
-  &quot;rules&quot;: {
-     &quot;*PROJECT_BUCKET*&quot;: {
-      &quot;$uid&quot;: {
+  "rules": {
+     "*PROJECT_BUCKET*": {
+      "$uid": {
 
       }
     }
@@ -8804,37 +8804,37 @@
 </code></pre></div>
 <p>A user should be able to edit only their name and nobody else's, but all authenticated users should be able to view every user's name.
 We can restrict read/write operations accordingly with this rule:</p>
-<div class="highlight"><pre><span></span><code>&quot;name&quot;: {
-    &quot;.read&quot;: &quot;auth != null&quot;,
-    &quot;.write&quot;: &quot;auth.uid == $uid&quot;
+<div class="highlight"><pre><span></span><code>"name": {
+    ".read": "auth != null",
+    ".write": "auth.uid == $uid"
 }
 </code></pre></div>
 <p>However, the email and Android version should have restricted read <strong>and</strong> write access.</p>
-<div class="highlight"><pre><span></span><code>&quot;email&quot;: {
-    &quot;.read&quot;: &quot;auth.uid == $uid&quot;,
-    &quot;.write&quot;: &quot;auth.uid == $uid&quot;
+<div class="highlight"><pre><span></span><code>"email": {
+    ".read": "auth.uid == $uid",
+    ".write": "auth.uid == $uid"
 },
-&quot;android_version&quot;: {
-    &quot;.read&quot;: &quot;auth.uid == $uid&quot;,
-    &quot;.write&quot;: &quot;auth.uid == $uid&quot;
+"android_version": {
+    ".read": "auth.uid == $uid",
+    ".write": "auth.uid == $uid"
 }
 </code></pre></div>
 <p>Our list of rules currently looks like this:</p>
 <div class="highlight"><pre><span></span><code>{
-  &quot;rules&quot;: {
-     &quot;*PROJECT_BUCKET*&quot;: {
-      &quot;$uid&quot;: {
-        &quot;name&quot;: {
-            &quot;.read&quot;: &quot;auth != null&quot;,
-            &quot;.write&quot;: &quot;auth.uid == $uid&quot;
+  "rules": {
+     "*PROJECT_BUCKET*": {
+      "$uid": {
+        "name": {
+            ".read": "auth != null",
+            ".write": "auth.uid == $uid"
         },
-        &quot;email&quot;: {
-            &quot;.read&quot;: &quot;auth.uid == $uid&quot;,
-            &quot;.write&quot;: &quot;auth.uid == $uid&quot;
+        "email": {
+            ".read": "auth.uid == $uid",
+            ".write": "auth.uid == $uid"
         },
-        &quot;android_version&quot;: {
-            &quot;.read&quot;: &quot;auth.uid == $uid&quot;,
-            &quot;.write&quot;: &quot;auth.uid == $uid&quot;
+        "android_version": {
+            ".read": "auth.uid == $uid",
+            ".write": "auth.uid == $uid"
         }
       }
     }
@@ -8844,23 +8844,23 @@ We can restrict read/write operations accordingly with this rule:</p>
 <p>Let's take an example of a sample database to see how the rules work. The database currently has the following data:
 <img alt="" src="/assets/images/guides/firebase-rules/ext_fdb-data.png" /></p>
 <div class="highlight"><pre><span></span><code>{
-  &quot;*PROJECT_BUCKET*&quot; : {
-    &quot;163IN5WF62eJsFeYQMmFdIIcAvl2&quot; : {
-      &quot;android_version&quot; : &quot;\&quot;8.1.0\&quot;&quot;,
-      &quot;email&quot; : &quot;\&quot;vishwas@kodular.io\&quot;&quot;,
-      &quot;name&quot; : &quot;\&quot;Vishwas\&quot;&quot;
+  "*PROJECT_BUCKET*" : {
+    "163IN5WF62eJsFeYQMmFdIIcAvl2" : {
+      "android_version" : "\"8.1.0\"",
+      "email" : "\"vishwas@kodular.io\"",
+      "name" : "\"Vishwas\""
     },
-    &quot;AL2uxus1arNfAWtviUIXboPdRqy1&quot; : {
-      &quot;android_version&quot; : &quot;\&quot;9.0\&quot;&quot;,
-      &quot;email&quot; : &quot;\&quot;helios@helios.com\&quot;&quot;,
-      &quot;name&quot; : &quot;\&quot;Helios\&quot;&quot;
+    "AL2uxus1arNfAWtviUIXboPdRqy1" : {
+      "android_version" : "\"9.0\"",
+      "email" : "\"helios@helios.com\"",
+      "name" : "\"Helios\""
     },
-    &quot;KW4LkSOtG0Y1iede9KaTrwsYCx62&quot; : {
-      &quot;android_version&quot; : &quot;\&quot;8.1.0\&quot;&quot;,
-      &quot;email&quot; : &quot;\&quot;vishwasadiga@gmail.com\&quot;&quot;,
-      &quot;name&quot; : &quot;\&quot;Mr. Example\&quot;&quot;
+    "KW4LkSOtG0Y1iede9KaTrwsYCx62" : {
+      "android_version" : "\"8.1.0\"",
+      "email" : "\"vishwasadiga@gmail.com\"",
+      "name" : "\"Mr. Example\""
     },
-    &quot;uids&quot; : &quot;[\&quot;AL2uxus1arNfAWtviUIXboPdRqy1\&quot;, \&quot;163IN5WF62eJsFeYQMmFdIIcAvl2\&quot;, \&quot;KW4LkSOtG0Y1iede9KaTrwsYCx62\&quot;]&quot;
+    "uids" : "[\"AL2uxus1arNfAWtviUIXboPdRqy1\", \"163IN5WF62eJsFeYQMmFdIIcAvl2\", \"KW4LkSOtG0Y1iede9KaTrwsYCx62\"]"
   }
 }
 </code></pre></div>
@@ -8880,9 +8880,9 @@ We can restrict read/write operations accordingly with this rule:</p>
 <h3 id="rules-for-list-of-uids">Rules for list of uids<a class="headerlink" href="#rules-for-list-of-uids" title="Permanent link">&para;</a></h3>
 <p>Every user should be able to access the list of all uids, but should not be allowed to spam the list with random values. We can validate the data to ensure the user is appending their uid to the list, and not any other value.</p>
 <p>Validation can be done using the following rule:</p>
-<div class="highlight"><pre><span></span><code>&quot;uids&quot; : {
-    &quot;.read&quot; : &quot;auth != null&quot;,
-    &quot;.write&quot; : &quot;newData.child(auth.uid).exists()&quot;
+<div class="highlight"><pre><span></span><code>"uids" : {
+    ".read" : "auth != null",
+    ".write" : "newData.child(auth.uid).exists()"
 }
 </code></pre></div>
 <p>With the rule set, all authenticated users will be able to read the value of the uids list. An authenticated user can also append their uid to the list. However, no other value except the user's uid can be entered. In essence, the <code>newData</code> variable <strong>must</strong> have a child that is the user's uid, which guarantees that the appended list has the correct uid.</p>
@@ -8896,26 +8896,26 @@ We can restrict read/write operations accordingly with this rule:</p>
 <img alt="" src="/assets/images/guides/firebase-rules/m_append-value-2.png" /></p>
 <p>Our final list of rules looks like this:</p>
 <div class="highlight"><pre><span></span><code>{
-  &quot;rules&quot;: {
-     &quot;firebase_auth&quot;: {
-      &quot;$uid&quot;: {
-        &quot;name&quot;: {
-            &quot;.read&quot;: &quot;auth != null&quot;,
-            &quot;.write&quot;: &quot;auth.uid == $uid&quot;
+  "rules": {
+     "firebase_auth": {
+      "$uid": {
+        "name": {
+            ".read": "auth != null",
+            ".write": "auth.uid == $uid"
         },
-        &quot;email&quot;: {
-            &quot;.read&quot;: &quot;auth.uid == $uid&quot;,
-            &quot;.write&quot;: &quot;auth.uid == $uid&quot;
+        "email": {
+            ".read": "auth.uid == $uid",
+            ".write": "auth.uid == $uid"
         },
-        &quot;android_version&quot;: {
-            &quot;.read&quot;: &quot;auth.uid == $uid&quot;,
-            &quot;.write&quot;: &quot;auth.uid == $uid&quot;
+        "android_version": {
+            ".read": "auth.uid == $uid",
+            ".write": "auth.uid == $uid"
         }
       },
 
-      &quot;uids&quot; : {
-        &quot;.read&quot; : &quot;auth != null&quot;,
-        &quot;.write&quot; : &quot;newData.child(auth.uid).exists() &amp;&amp; !data.child(auth.uid).exists()&quot;
+      "uids" : {
+        ".read" : "auth != null",
+        ".write" : "newData.child(auth.uid).exists() &amp;&amp; !data.child(auth.uid).exists()"
       }
     }
   }
