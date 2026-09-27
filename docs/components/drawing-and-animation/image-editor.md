@@ -4,7 +4,7 @@
 
 | Category | Requires | Version |
 |:--------:|:-------:|:--------:|
-|**Drawing and Animation**|<span class="chip chip-any">API 21, Android 5.0 Lollipop</span>|<span class="chip chip-number">1</span>|
+|**Drawing and Animation**|<span class="chip chip-any">API 23, Android 6.0 Marshmallow</span>|<span class="chip chip-number">1</span>|
 
 ## Overview
 

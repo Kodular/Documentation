@@ -4,7 +4,7 @@
 
 | Category | Requires | Version |
 |:--------:|:-------:|:--------:|
-|**Utilities**|<span class="chip chip-any">API 21, Android 5.0 Lollipop</span>|<span class="chip chip-number">1</span>|
+|**Utilities**|<span class="chip chip-any">API 23, Android 6.0 Marshmallow</span>|<span class="chip chip-number">1</span>|
 
 ## Overview
 
@@ -75,7 +75,7 @@ Returns the keyguard manager description text.
 
 <span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-boolean">Boolean</span> :heavy_minus_sign: <span class="chip chip-rw">Read</span>  - <span class="chip chip-bd">Blocks</span></span>
 
-Returns whether the device is currently locked and requires a PIN, pattern or password to unlock. Works only for devices with Android 5.1+
+Returns whether the device is currently locked and requires a PIN, pattern or password to unlock.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Keyguard%20Manager%22,%20%22name%22:%20%22is%20Device%20Locked%22,%20%22getter%22:%20true%7D"></div>
 
@@ -83,7 +83,7 @@ Returns whether the device is currently locked and requires a PIN, pattern or pa
 
 <span style="user-select: none; white-space:pre-wrap;"><span class="chip chip-boolean">Boolean</span> :heavy_minus_sign: <span class="chip chip-rw">Read</span>  - <span class="chip chip-bd">Blocks</span></span>
 
-Returns whether the device is secured with a PIN, pattern or password. Works only for devices with Android 6+
+Returns whether the device is secured with a PIN, pattern or password.
 
 <div class="block" ai2-block="property" not-rendered="true" value="%7B%22componentName%22:%20%22Keyguard%20Manager%22,%20%22name%22:%20%22is%20Device%20Secure%22,%20%22getter%22:%20true%7D"></div>
 

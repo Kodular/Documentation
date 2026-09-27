@@ -6,7 +6,7 @@
 |:--------:|:-------:|:--------:|
 |**Monetization > Advertising**|<span class="chip chip-any">API 24, Android 7.0 Nougat</span>|<span class="chip chip-number">1</span>|
 
-==This component requires a higher **Minimum Android SDK** in your app (_API 21, Android 5.0 Lollipop_ -> _API 24, Android 7.0 Nougat_)==
+==This component requires a higher **Minimum Android SDK** in your app (_API 23, Android 6.0 Marshmallow_ -> _API 24, Android 7.0 Nougat_)==
 
 ## Overview
 
